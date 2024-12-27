@@ -1,0 +1,11 @@
+tables/*
+schemas/*
+build/*
+.vscode/*
+__pycache__/*
+catalog_eversoul.hash
+CMakeLists.txt
+*.hpp
+*.cpp
+*.py
+*.cs

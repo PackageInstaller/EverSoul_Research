@@ -1,0 +1,76 @@
+{
+  "json": [
+    {
+      "no": 1,
+      "event_group": 1,
+      "event_number": 1,
+      "reward_type": 1,
+      "goal_amount": 20000,
+      "reward_item_no1": 66,
+      "reward_item_amount1": 2
+    },
+    {
+      "no": 2,
+      "event_group": 1,
+      "event_number": 1,
+      "reward_type": 1,
+      "goal_amount": 40000,
+      "reward_item_no1": 66,
+      "reward_item_amount1": 2
+    },
+    {
+      "no": 3,
+      "event_group": 1,
+      "event_number": 1,
+      "reward_type": 1,
+      "goal_amount": 60000,
+      "reward_item_no1": 66,
+      "reward_item_amount1": 2
+    },
+    {
+      "no": 4,
+      "event_group": 1,
+      "event_number": 1,
+      "reward_type": 1,
+      "goal_amount": 80000,
+      "reward_item_no1": 66,
+      "reward_item_amount1": 2
+    },
+    {
+      "no": 5,
+      "event_group": 1,
+      "event_number": 1,
+      "reward_type": 1,
+      "goal_amount": 100000,
+      "reward_item_no1": 66,
+      "reward_item_amount1": 1
+    },
+    {
+      "no": 6,
+      "event_group": 1,
+      "event_number": 1,
+      "reward_type": 1,
+      "goal_amount": 150000,
+      "reward_item_no1": 66,
+      "reward_item_amount1": 1
+    },
+    {
+      "no": 7,
+      "event_group": 1,
+      "event_number": 1,
+      "reward_type": 1,
+      "goal_amount": 200000,
+      "reward_item_no1": 66,
+      "reward_item_amount1": 1
+    },
+    {
+      "no": 8,
+      "event_group": 1,
+      "event_number": 1,
+      "reward_type": 1,
+      "goal_amount": 250000,
+      "reward_item_no1": 66,
+      "reward_item_amount1": 1
+    }
+  ]
+}

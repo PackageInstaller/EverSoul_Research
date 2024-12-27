@@ -1,0 +1,44 @@
+{
+  "json": [
+    {
+      "no": 1,
+      "event_group": 1,
+      "title_string_no": 349500,
+      "content_string_no": 359500,
+      "icon_path": "icon_eas_attack_up_2",
+      "value1": 9500
+    },
+    {
+      "no": 2,
+      "event_group": 1,
+      "title_string_no": 349501,
+      "content_string_no": 359501,
+      "icon_path": "icon_eas_time",
+      "value1": 9501
+    },
+    {
+      "no": 3,
+      "event_group": 2,
+      "title_string_no": 349020,
+      "content_string_no": 359020,
+      "icon_path": "icon_eas_heal_up",
+      "value1": 9020
+    },
+    {
+      "no": 4,
+      "event_group": 2,
+      "title_string_no": 349044,
+      "content_string_no": 359044,
+      "icon_path": "icon_eas_attack_up",
+      "value1": 9044
+    },
+    {
+      "no": 5,
+      "event_group": 2,
+      "title_string_no": 349031,
+      "content_string_no": 359031,
+      "icon_path": "icon_eas_race_6",
+      "value1": 9031
+    }
+  ]
+}
