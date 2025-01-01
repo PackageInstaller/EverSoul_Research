@@ -1,0 +1,23 @@
+namespace VistaReward;
+
+table Deserialization {
+    no: int32;
+    reward_group: int32;
+    boss_clear_level: int32;
+    drop_item_no1: int32;
+    drop_item_amount1: int32;
+    drop_item_no2: int32;
+    drop_item_amount2: int32;
+    drop_item_no3: int32;
+    drop_item_amount3: int32;
+    drop_item_no4: int32;
+    drop_item_amount4: int32;
+    drop_item_no5: int32;
+    drop_item_amount5: int32;
+}
+
+table VistaReward {
+    json: [Deserialization];
+}
+
+root_type VistaReward;

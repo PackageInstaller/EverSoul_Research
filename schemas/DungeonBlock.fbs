@@ -1,0 +1,14 @@
+namespace DungeonBlock;
+
+table Deserialization {
+    no: int32;
+    dungeon_type: int32;
+    start_date: string;
+    end_date: string;
+}
+
+table DungeonBlock {
+    json: [Deserialization];
+}
+
+root_type DungeonBlock;

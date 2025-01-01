@@ -1,0 +1,15 @@
+namespace ChallengeTask;
+
+table Deserialization {
+    challenge_no: int32;
+    challenge_type: int32;
+    param1: int32;
+    param2: int32;
+    content_string: int32;
+}
+
+table ChallengeTask {
+    json: [Deserialization];
+}
+
+root_type ChallengeTask;

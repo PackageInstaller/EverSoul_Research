@@ -1,0 +1,15 @@
+namespace PromotionMovie;
+
+table Deserialization {
+    no: int32;
+    movie_path: string;
+    start_date: string;
+    end_date: string;
+    hero_check: int32;
+}
+
+table PromotionMovie {
+    json: [Deserialization];
+}
+
+root_type PromotionMovie;

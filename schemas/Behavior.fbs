@@ -1,0 +1,13 @@
+namespace Behavior;
+
+table Deserialization {
+    no: int32;
+    check_contents_limit: int32;
+    flag: int32;
+}
+
+table Behavior {
+    json: [Deserialization];
+}
+
+root_type Behavior;

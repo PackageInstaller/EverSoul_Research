@@ -1,0 +1,13 @@
+namespace ContentsLimit;
+
+table Deserialization {
+    no: int32;
+    check_stage_no: int32;
+    name_string_sno: int32;
+}
+
+table ContentsLimit {
+    json: [Deserialization];
+}
+
+root_type ContentsLimit;

@@ -1,0 +1,19 @@
+namespace RaceCounter;
+
+table Deserialization {
+    no: int32;
+    match_key: string;
+    human: float;
+    furry: float;
+    elf: float;
+    undead: float;
+    angel: float;
+    demon: float;
+    chaos: float;
+}
+
+table RaceCounter {
+    json: [Deserialization];
+}
+
+root_type RaceCounter;

@@ -1,0 +1,34 @@
+namespace EventRotation;
+
+table Deserialization {
+    no: int32;
+    group: int32;
+    reward_path: int32;
+    table_name: string;
+    column_name1: string;
+    value1: float;
+    column_name2: string;
+    value2: float;
+    column_name3: string;
+    value3: float;
+    column_name4: string;
+    value4: float;
+    column_name5: string;
+    value5: float;
+    column_name6: string;
+    value6: float;
+    column_name7: string;
+    value7: float;
+    column_name8: string;
+    value8: float;
+    column_name9: string;
+    value9: float;
+    column_name10: string;
+    value10: float;
+}
+
+table EventRotation {
+    json: [Deserialization];
+}
+
+root_type EventRotation;

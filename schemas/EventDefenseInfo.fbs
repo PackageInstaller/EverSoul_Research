@@ -1,0 +1,14 @@
+namespace EventDefenseInfo;
+
+table Deserialization {
+    no: int32;
+    defense_no: int32;
+    limit_value: int32;
+    limit_sno: int32;
+}
+
+table EventDefenseInfo {
+    json: [Deserialization];
+}
+
+root_type EventDefenseInfo;

@@ -1,0 +1,21 @@
+namespace SkillAddEffect;
+
+table Deserialization {
+    effect_no: int32;
+    skill_code1: int32;
+    skill_code2: int32;
+    skill_code3: int32;
+    skill_code4: int32;
+    skill_code5: int32;
+    skill_code6: int32;
+    skill_code7: int32;
+    skill_code8: int32;
+    skill_code9: int32;
+    skill_code10: int32;
+}
+
+table SkillAddEffect {
+    json: [Deserialization];
+}
+
+root_type SkillAddEffect;

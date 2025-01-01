@@ -1,0 +1,20 @@
+namespace EventCalender;
+
+table Deserialization {
+    no: int32;
+    name_sno: int32;
+    type: int32;
+    event_type: int32;
+    group: int32;
+    contents_limit_no: int32;
+    gacha_no: int32;
+    hide_calender: int32;
+    bar_name: string;
+    schedule_key: string;
+}
+
+table EventCalender {
+    json: [Deserialization];
+}
+
+root_type EventCalender;

@@ -1,0 +1,14 @@
+namespace Thumbnail;
+
+table Deserialization {
+    no: int32;
+    item_kind: string;
+    icon_path: string;
+    order: int32;
+}
+
+table Thumbnail {
+    json: [Deserialization];
+}
+
+root_type Thumbnail;

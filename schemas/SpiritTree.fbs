@@ -1,0 +1,13 @@
+namespace SpiritTree;
+
+table Deserialization {
+    no: int32;
+    life_essence_amount: int32;
+    dia_amount: int32;
+}
+
+table SpiritTree {
+    json: [Deserialization];
+}
+
+root_type SpiritTree;

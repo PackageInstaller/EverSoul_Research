@@ -1,0 +1,25 @@
+namespace BattleBuff;
+
+table Deserialization {
+    no: int32;
+    ally_sno: int32;
+    race_sno: int32;
+    stat_sno: int32;
+    target: int32;
+    specific_target: int32;
+    specific_target2: int32;
+    specific_target3: int32;
+    specific_target4: int32;
+    specific_target5: int32;
+    skillcode1: int32;
+    skillcode2: int32;
+    skillcode3: int32;
+    buff_tooltip_sno: int32;
+    delay: int32;
+}
+
+table BattleBuff {
+    json: [Deserialization];
+}
+
+root_type BattleBuff;

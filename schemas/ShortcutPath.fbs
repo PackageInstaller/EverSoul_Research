@@ -1,0 +1,12 @@
+namespace ShortcutPath;
+
+table Deserialization {
+    no: string;
+    path: string;
+}
+
+table ShortcutPath {
+    json: [Deserialization];
+}
+
+root_type ShortcutPath;

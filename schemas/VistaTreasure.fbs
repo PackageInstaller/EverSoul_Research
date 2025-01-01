@@ -1,0 +1,17 @@
+namespace VistaTreasure;
+
+table Deserialization {
+    no: int32;
+    reward_group: int32;
+    normal_reward_item1: int32;
+    normal_reward_amount1: int32;
+    random_reward_item1: int32;
+    random_reward_amount_min1: int32;
+    random_reward_amount_max1: int32;
+}
+
+table VistaTreasure {
+    json: [Deserialization];
+}
+
+root_type VistaTreasure;

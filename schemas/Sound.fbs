@@ -1,0 +1,17 @@
+namespace Sound;
+
+table Deserialization {
+    no: int32;
+    name: string;
+    sound_type: int8;
+    mixer_group: int8;
+    kor: string;
+    jpn: string;
+    volume: float;
+}
+
+table Sound {
+    json: [Deserialization];
+}
+
+root_type Sound;

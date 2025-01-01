@@ -1,0 +1,23 @@
+namespace EdenAllianceStageBattle;
+
+table Deserialization {
+    no: int32;
+    group: int32;
+    day: int32;
+    name: int32;
+    hero1: int32;
+    hero2: int32;
+    hero3: int32;
+    hero4: int32;
+    hero5: int32;
+    formation_type: int32;
+    map: string;
+    constraint_group_no: int32;
+    battle_time: int32;
+}
+
+table EdenAllianceStageBattle {
+    json: [Deserialization];
+}
+
+root_type EdenAllianceStageBattle;

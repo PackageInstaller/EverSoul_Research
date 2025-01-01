@@ -1,0 +1,14 @@
+namespace GuideQuest;
+
+table Deserialization {
+    no: int32;
+    open_stage: int32;
+    complete_item: int32;
+    complete_amount: int32;
+}
+
+table GuideQuest {
+    json: [Deserialization];
+}
+
+root_type GuideQuest;

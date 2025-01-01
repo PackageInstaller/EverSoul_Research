@@ -1,0 +1,27 @@
+namespace EventSelectStage;
+
+table Deserialization {
+    no: int32;
+    event_group: int32;
+    event_number: int32;
+    stage_limit_value: int32;
+    stage_limit_sno: int32;
+    buy_item_no: int32;
+    buy_item_amount: string;
+    stage_name_sno: int32;
+    hero1_path: string;
+    hero1_reverse: string;
+    hero1_bg_path: string;
+    hero1_bg_color: string;
+    hero2_path: string;
+    hero2_reverse: string;
+    hero2_bg_path: string;
+    hero2_bg_color: string;
+    bg_path: string;
+}
+
+table EventSelectStage {
+    json: [Deserialization];
+}
+
+root_type EventSelectStage;

@@ -1,0 +1,12 @@
+namespace HeroChaos;
+
+table Deserialization {
+    hero_no: int32;
+    base_hero_no: int32;
+}
+
+table HeroChaos {
+    json: [Deserialization];
+}
+
+root_type HeroChaos;

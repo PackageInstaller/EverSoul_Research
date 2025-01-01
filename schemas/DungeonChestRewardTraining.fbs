@@ -1,0 +1,23 @@
+namespace DungeonChestRewardTraining;
+
+table Deserialization {
+    no: int32;
+    group_no: int32;
+    dungeon_no: int32;
+    reward_no1: int32;
+    reward_amount1: int32;
+    reward_no2: int32;
+    reward_amount2: int32;
+    reward_no3: int32;
+    reward_amount3: int32;
+    reward_no4: int32;
+    reward_amount4: int32;
+    floor_reward_no: int32;
+    difficulty: int32;
+}
+
+table DungeonChestRewardTraining {
+    json: [Deserialization];
+}
+
+root_type DungeonChestRewardTraining;

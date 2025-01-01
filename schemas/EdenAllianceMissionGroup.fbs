@@ -1,0 +1,31 @@
+namespace EdenAllianceMissionGroup;
+
+table Deserialization {
+    no: int32;
+    mission_no1: int32;
+    mission_no2: int32;
+    mission_no3: int32;
+    mission_no4: int32;
+    mission_no5: int32;
+    mission_no6: int32;
+    mission_no7: int32;
+    mission_no8: int32;
+    mission_no9: int32;
+    mission_no10: int32;
+    mission_no11: int32;
+    mission_no12: int32;
+    mission_no13: int32;
+    mission_no14: int32;
+    mission_no15: int32;
+    mission_no16: int32;
+    mission_no17: int32;
+    mission_no18: int32;
+    mission_no19: int32;
+    mission_no20: int32;
+}
+
+table EdenAllianceMissionGroup {
+    json: [Deserialization];
+}
+
+root_type EdenAllianceMissionGroup;

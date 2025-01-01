@@ -1,0 +1,18 @@
+namespace SignatureSkill;
+
+table Deserialization {
+    no: int32;
+    signature_level1: string;
+    signature_level2: string;
+    signature_level3: string;
+    signature_level4: string;
+    signature_level5: string;
+    signature_level6: string;
+    signature_level7: string;
+}
+
+table SignatureSkill {
+    json: [Deserialization];
+}
+
+root_type SignatureSkill;

@@ -1,0 +1,24 @@
+namespace Rental;
+
+table Deserialization {
+    no: int32;
+    contents_type: int32;
+    contents_no: int32;
+    rental_hero1: int32;
+    rental_level1: int32;
+    rental_hero2: int32;
+    rental_level2: int32;
+    rental_hero3: int32;
+    rental_level3: int32;
+    rental_hero4: int32;
+    rental_level4: int32;
+    rental_hero5: int32;
+    rental_level5: int32;
+    force_use: int32;
+}
+
+table Rental {
+    json: [Deserialization];
+}
+
+root_type Rental;

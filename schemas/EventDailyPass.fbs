@@ -1,0 +1,14 @@
+namespace EventDailyPass;
+
+table Deserialization {
+    no: int32;
+    group: int32;
+    event_number: int32;
+    shop_item_no: int32;
+}
+
+table EventDailyPass {
+    json: [Deserialization];
+}
+
+root_type EventDailyPass;

@@ -1,0 +1,19 @@
+namespace StageEquip;
+
+table Deserialization {
+    no: int32;
+    slot1: int32;
+    level1: int32;
+    slot2: int32;
+    level2: int32;
+    slot3: int32;
+    level3: int32;
+    slot4: int32;
+    level4: int32;
+}
+
+table StageEquip {
+    json: [Deserialization];
+}
+
+root_type StageEquip;

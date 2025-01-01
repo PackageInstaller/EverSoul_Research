@@ -1,0 +1,15 @@
+namespace UserLevel;
+
+table Deserialization {
+    no: int32;
+    need_exp: int64;
+    sum_exp: int64;
+    item_no1: int32;
+    amount1: int32;
+}
+
+table UserLevel {
+    json: [Deserialization];
+}
+
+root_type UserLevel;

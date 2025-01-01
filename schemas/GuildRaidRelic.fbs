@@ -1,0 +1,18 @@
+namespace GuildRaidRelic;
+
+table Deserialization {
+    no: int32;
+    group: int32;
+    grade_sno: int32;
+    battlebuff_no: int32;
+    relic_type: int32;
+    icon_img: string;
+    name_sno: int32;
+    desc_sno: int32;
+}
+
+table GuildRaidRelic {
+    json: [Deserialization];
+}
+
+root_type GuildRaidRelic;

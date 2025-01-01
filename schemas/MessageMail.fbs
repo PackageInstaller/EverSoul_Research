@@ -1,0 +1,34 @@
+namespace MessageMail;
+
+table Deserialization {
+    no: int32;
+    type: int32;
+    sender_sno: int32;
+    title_sno: int32;
+    desc_sno: int32;
+    start_date: string;
+    end_date: string;
+    icon_path: string;
+    bg_path: string;
+    bg_color: string;
+    pattern_color: string;
+    deco_color: string;
+    font_color: string;
+    stamp_color: string;
+    reward_no1: int32;
+    reward_amount1: int32;
+    reward_no2: int32;
+    reward_amount2: int32;
+    reward_no3: int32;
+    reward_amount3: int32;
+    reward_no4: int32;
+    reward_amount4: int32;
+    reward_no5: int32;
+    reward_amount5: int32;
+}
+
+table MessageMail {
+    json: [Deserialization];
+}
+
+root_type MessageMail;

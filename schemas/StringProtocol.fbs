@@ -1,0 +1,19 @@
+namespace StringProtocol;
+
+table Deserialization {
+    no: int32;
+    kr: string;
+    en: string;
+    ja: string;
+    zh_tw: string;
+    zh_cn: string;
+    text_dev: string;
+    exception: int32;
+    is_common: int32;
+}
+
+table StringProtocol {
+    json: [Deserialization];
+}
+
+root_type StringProtocol;

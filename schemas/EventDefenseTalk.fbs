@@ -1,0 +1,18 @@
+namespace EventDefenseTalk;
+
+table Deserialization {
+    no: int32;
+    hide: int32;
+    hero_no: int32;
+    play_time: int32;
+    show_time: int32;
+    script_no1: int32;
+    script_no2: int32;
+    script_no3: int32;
+}
+
+table EventDefenseTalk {
+    json: [Deserialization];
+}
+
+root_type EventDefenseTalk;

@@ -1,0 +1,21 @@
+namespace HeroUpgrade;
+
+table Deserialization {
+    no: int32;
+    grade_sno: int32;
+    race_sno: int32;
+    material_race_sno1: int32;
+    material_grade_sno1: int32;
+    material_race_sno2: int32;
+    material_grade_sno2: int32;
+    replace_hero_no1: int32;
+    replace_hero_count1: int32;
+    replace_hero_no2: int32;
+    replace_hero_count2: int32;
+}
+
+table HeroUpgrade {
+    json: [Deserialization];
+}
+
+root_type HeroUpgrade;

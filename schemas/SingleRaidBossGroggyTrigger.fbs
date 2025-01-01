@@ -1,0 +1,33 @@
+namespace SingleRaidBossGroggyTrigger;
+
+table Deserialization {
+    single_raid_boss_no: int32;
+    groggy_skill_code1: int32;
+    groggy_skill_code2: int32;
+    groggy_skill_code3: int32;
+    groggy_skill_code4: int32;
+    groggy_skill_code5: int32;
+    groggy_skill_code6: int32;
+    groggy_skill_code7: int32;
+    groggy_skill_code8: int32;
+    groggy_skill_code9: int32;
+    groggy_skill_code10: int32;
+    type1: int32;
+    value1: float;
+    type2: int32;
+    value2: float;
+    type3: int32;
+    value3: float;
+    type4: int32;
+    value4: float;
+    type5: int32;
+    value5: float;
+    recovery_duration: int32;
+    sound_path: string;
+}
+
+table SingleRaidBossGroggyTrigger {
+    json: [Deserialization];
+}
+
+root_type SingleRaidBossGroggyTrigger;

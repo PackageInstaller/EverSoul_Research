@@ -1,0 +1,15 @@
+namespace LocalizationContent;
+
+table Deserialization {
+    no: int32;
+    kr: int32;
+    asia: int32;
+    us: int32;
+    jp: int32;
+}
+
+table LocalizationContent {
+    json: [Deserialization];
+}
+
+root_type LocalizationContent;

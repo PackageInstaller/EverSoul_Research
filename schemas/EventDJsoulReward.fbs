@@ -1,0 +1,19 @@
+namespace EventDJsoulReward;
+
+table Deserialization {
+    no: int32;
+    song_no: int32;
+    item_no1: int32;
+    item_amount1: int32;
+    item_no2: int32;
+    item_amount2: int32;
+    sp_date: string;
+    sp_item_no: int32;
+    sp_item_amount: int32;
+}
+
+table EventDJsoulReward {
+    json: [Deserialization];
+}
+
+root_type EventDJsoulReward;

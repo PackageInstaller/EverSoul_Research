@@ -1,0 +1,20 @@
+namespace ArbeitFairyLevel;
+
+table Deserialization {
+    no: int32;
+    hero_no: int32;
+    level: int32;
+    exp: int32;
+    knowledge: int32;
+    conversation: int32;
+    handicraft: int32;
+    culture: int32;
+    guts: int32;
+    courage: int32;
+}
+
+table ArbeitFairyLevel {
+    json: [Deserialization];
+}
+
+root_type ArbeitFairyLevel;

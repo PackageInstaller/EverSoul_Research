@@ -1,0 +1,21 @@
+namespace ItemTranscendence;
+
+table Deserialization {
+    no: int32;
+    grade_sno: int32;
+    slot_limit_sno: int32;
+    stat_limit_sno: int32;
+    level_limit: int32;
+    material_no1: int32;
+    material_amount1: int32;
+    material_no2: int32;
+    material_amount2: int32;
+    material_no2_substitute: int32;
+    material_amount2_substitute: int32;
+}
+
+table ItemTranscendence {
+    json: [Deserialization];
+}
+
+root_type ItemTranscendence;

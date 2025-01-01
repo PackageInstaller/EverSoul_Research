@@ -1,0 +1,28 @@
+namespace EventDoubleStageReward;
+
+table Deserialization {
+    no: int32;
+    event_group: int32;
+    event_number: int32;
+    event_stage_phase: int32;
+    first_clear_reward_no1: int32;
+    first_clear_reward_amount1: int32;
+    first_clear_reward_no2: int32;
+    first_clear_reward_amount2: int32;
+    reward_item_no1: int32;
+    reward_item_amount1: int32;
+    reward_item_no2: int32;
+    reward_item_amount2: int32;
+    reward_item_no3: int32;
+    reward_item_amount3: int32;
+    reward_item_no4: int32;
+    reward_item_amount4: int32;
+    reward_item_no5: int32;
+    reward_item_amount5: int32;
+}
+
+table EventDoubleStageReward {
+    json: [Deserialization];
+}
+
+root_type EventDoubleStageReward;

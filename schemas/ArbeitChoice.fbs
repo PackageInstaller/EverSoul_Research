@@ -1,0 +1,15 @@
+namespace ArbeitChoice;
+
+table Deserialization {
+    no: int32;
+    arbeit_no: int32;
+    objet_no: int32;
+    arbeit_ratio: int32;
+    daynight: string;
+}
+
+table ArbeitChoice {
+    json: [Deserialization];
+}
+
+root_type ArbeitChoice;

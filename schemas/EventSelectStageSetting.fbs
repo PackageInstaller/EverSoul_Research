@@ -1,0 +1,37 @@
+namespace EventSelectStageSetting;
+
+table Deserialization {
+    no: int32;
+    event_group: int32;
+    event_number: int32;
+    event_stage_group: int32;
+    event_stage_phase: int32;
+    reward_no: int32;
+    stage_name_sno: int32;
+    suggest_power: int32;
+    hero_no1: int32;
+    hero_grade1: int32;
+    level1: int32;
+    hero_no2: int32;
+    hero_grade2: int32;
+    level2: int32;
+    hero_no3: int32;
+    hero_grade3: int32;
+    level3: int32;
+    hero_no4: int32;
+    hero_grade4: int32;
+    level4: int32;
+    hero_no5: int32;
+    hero_grade5: int32;
+    level5: int32;
+    map: string;
+    formation_type: int32;
+    global_volume: int32;
+    battle_time: int32;
+}
+
+table EventSelectStageSetting {
+    json: [Deserialization];
+}
+
+root_type EventSelectStageSetting;

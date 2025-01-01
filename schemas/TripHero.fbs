@@ -1,0 +1,15 @@
+namespace TripHero;
+
+table Deserialization {
+    no: int32;
+    hero_no: int32;
+    keyword_no: int32;
+    keyword_talk: int32;
+    favor_point: int32;
+}
+
+table TripHero {
+    json: [Deserialization];
+}
+
+root_type TripHero;

@@ -1,0 +1,22 @@
+namespace ChallengeStage;
+
+table Deserialization {
+    no: int32;
+    challenge_no1: int32;
+    reward_group_no1: int32;
+    challenge_no2: int32;
+    reward_group_no2: int32;
+    challenge_no3: int32;
+    reward_group_no3: int32;
+    level_limit: int32;
+    buff_no1: int32;
+    buff_no2: int32;
+    buff_desc: int32;
+    buff_name: int32;
+}
+
+table ChallengeStage {
+    json: [Deserialization];
+}
+
+root_type ChallengeStage;

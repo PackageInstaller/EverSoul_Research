@@ -1,0 +1,13 @@
+namespace Sticker;
+
+table Deserialization {
+    no: int32;
+    sticker_point: int32;
+    order: int32;
+}
+
+table Sticker {
+    json: [Deserialization];
+}
+
+root_type Sticker;

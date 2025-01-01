@@ -1,0 +1,20 @@
+namespace EventRaidBuff;
+
+table Deserialization {
+    no: int32;
+    event_group: int32;
+    title_string_no: int32;
+    content_string_no: int32;
+    icon_path: string;
+    value1: int32;
+    value2: int32;
+    value3: int32;
+    value4: int32;
+    value5: int32;
+}
+
+table EventRaidBuff {
+    json: [Deserialization];
+}
+
+root_type EventRaidBuff;

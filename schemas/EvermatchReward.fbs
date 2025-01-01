@@ -1,0 +1,23 @@
+namespace EvermatchReward;
+
+table Deserialization {
+    no: int32;
+    group_no: int32;
+    heart_count: int32;
+    item_no1: int32;
+    item_amount1: int32;
+    item_no2: int32;
+    item_amount2: int32;
+    item_no3: int32;
+    item_amount3: int32;
+    item_no4: int32;
+    item_amount4: int32;
+    item_no5: int32;
+    item_amount5: int32;
+}
+
+table EvermatchReward {
+    json: [Deserialization];
+}
+
+root_type EvermatchReward;

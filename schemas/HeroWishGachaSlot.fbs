@@ -1,0 +1,15 @@
+namespace HeroWishGachaSlot;
+
+table Deserialization {
+    no: int32;
+    wishslot_group: int32;
+    wishlist_tier: int32;
+    slot_count: int32;
+    slot_type: int32;
+}
+
+table HeroWishGachaSlot {
+    json: [Deserialization];
+}
+
+root_type HeroWishGachaSlot;

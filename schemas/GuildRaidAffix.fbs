@@ -1,0 +1,22 @@
+namespace GuildRaidAffix;
+
+table Deserialization {
+    no: int32;
+    icon_path: string;
+    string_no: int32;
+    string_content_no: int32;
+    gimmick_type1: int32;
+    gimmick_value1: int32;
+    gimmick_type2: int32;
+    gimmick_value2: int32;
+    gimmick_type3: int32;
+    gimmick_value3: int32;
+    start_date: string;
+    end_date: string;
+}
+
+table GuildRaidAffix {
+    json: [Deserialization];
+}
+
+root_type GuildRaidAffix;

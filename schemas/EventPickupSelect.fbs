@@ -1,0 +1,14 @@
+namespace EventPickupSelect;
+
+table Deserialization {
+    no: int32;
+    group: int32;
+    gacha_no: int32;
+    hero_no: int32;
+}
+
+table EventPickupSelect {
+    json: [Deserialization];
+}
+
+root_type EventPickupSelect;

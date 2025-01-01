@@ -1,0 +1,21 @@
+namespace Immune;
+
+table Deserialization {
+    no: int32;
+    buff_effect1: int32;
+    buff_effect2: int32;
+    buff_effect3: int32;
+    buff_effect4: int32;
+    buff_effect5: int32;
+    buff_effect6: int32;
+    buff_effect7: int32;
+    buff_effect8: int32;
+    buff_effect9: int32;
+    buff_effect10: int32;
+}
+
+table Immune {
+    json: [Deserialization];
+}
+
+root_type Immune;

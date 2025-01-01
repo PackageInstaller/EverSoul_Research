@@ -1,0 +1,15 @@
+namespace AlchemistGachaProbs;
+
+table Deserialization {
+    no: int32;
+    type: int32;
+    item_no: int32;
+    item_amount: int32;
+    prob: int32;
+}
+
+table AlchemistGachaProbs {
+    json: [Deserialization];
+}
+
+root_type AlchemistGachaProbs;

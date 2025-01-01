@@ -1,0 +1,15 @@
+namespace HeroComment;
+
+table Deserialization {
+    no: int32;
+    hero_no: int32;
+    hide: int32;
+    comment_hero_no: int32;
+    comment_desc: int32;
+}
+
+table HeroComment {
+    json: [Deserialization];
+}
+
+root_type HeroComment;

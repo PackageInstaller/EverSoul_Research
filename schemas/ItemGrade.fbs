@@ -1,0 +1,15 @@
+namespace ItemGrade;
+
+table Deserialization {
+    name_sno: int32;
+    grade_color: string;
+    item_slot_bg: string;
+    relic_card_bg: string;
+    grade_bg_color: string;
+}
+
+table ItemGrade {
+    json: [Deserialization];
+}
+
+root_type ItemGrade;

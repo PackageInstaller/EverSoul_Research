@@ -1,0 +1,28 @@
+namespace Shop;
+
+table Deserialization {
+    no: int32;
+    name_sno: int32;
+    random_cnt: int32;
+    reset_hour: int32;
+    pay_item_no: int32;
+    pay_amount: int32;
+    reset_count: int32;
+    check_stage_no: int32;
+    tip_sno1: int32;
+    tip_sno2: int32;
+    tip_sno3: int32;
+    tip2_sno1: int32;
+    tip2_sno2: int32;
+    tip2_sno3: int32;
+    tip3_sno1: int32;
+    tip3_sno2: int32;
+    tip3_sno3: int32;
+    shop_group: int32;
+}
+
+table Shop {
+    json: [Deserialization];
+}
+
+root_type Shop;

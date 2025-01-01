@@ -1,0 +1,14 @@
+namespace TownAnimationBubble;
+
+table Deserialization {
+    no: int32;
+    animation: string;
+    bubble: string;
+    ratio: int32;
+}
+
+table TownAnimationBubble {
+    json: [Deserialization];
+}
+
+root_type TownAnimationBubble;

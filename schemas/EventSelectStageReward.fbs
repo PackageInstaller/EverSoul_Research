@@ -1,0 +1,23 @@
+namespace EventSelectStageReward;
+
+table Deserialization {
+    no: int32;
+    first_clear_reward_no: int32;
+    first_clear_reward_amount: int32;
+    reward_item_no1: int32;
+    reward_item_amount1: int32;
+    reward_item_no2: int32;
+    reward_item_amount2: int32;
+    reward_item_no3: int32;
+    reward_item_amount3: int32;
+    reward_item_no4: int32;
+    reward_item_amount4: int32;
+    reward_item_no5: int32;
+    reward_item_amount5: int32;
+}
+
+table EventSelectStageReward {
+    json: [Deserialization];
+}
+
+root_type EventSelectStageReward;

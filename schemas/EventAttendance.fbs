@@ -1,0 +1,17 @@
+namespace EventAttendance;
+
+table Deserialization {
+    no: int32;
+    group: int32;
+    attendance_order: int32;
+    reward_item: int32;
+    reward_amount: int32;
+    buy_attend_open: int32;
+    buy_attend_cost: int32;
+}
+
+table EventAttendance {
+    json: [Deserialization];
+}
+
+root_type EventAttendance;

@@ -1,0 +1,15 @@
+namespace ItemSetEffect;
+
+table Deserialization {
+    no: int32;
+    name: int32;
+    set2_contentsbuff: int32;
+    set4_contentsbuff: int32;
+    icon_path: string;
+}
+
+table ItemSetEffect {
+    json: [Deserialization];
+}
+
+root_type ItemSetEffect;

@@ -1,0 +1,16 @@
+namespace StringStage;
+
+table Deserialization {
+    no: int32;
+    kr: string;
+    en: string;
+    ja: string;
+    zh_tw: string;
+    zh_cn: string;
+}
+
+table StringStage {
+    json: [Deserialization];
+}
+
+root_type StringStage;

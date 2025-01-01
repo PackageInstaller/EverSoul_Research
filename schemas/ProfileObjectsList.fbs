@@ -1,0 +1,15 @@
+namespace ProfileObjectsList;
+
+table Deserialization {
+    no: int32;
+    group_no: int32;
+    img_path: string;
+    item_no: int32;
+    sticker_point: int32;
+}
+
+table ProfileObjectsList {
+    json: [Deserialization];
+}
+
+root_type ProfileObjectsList;

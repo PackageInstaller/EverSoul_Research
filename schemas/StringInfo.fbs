@@ -1,0 +1,17 @@
+namespace StringInfo;
+
+table Deserialization {
+    no: int32;
+    kr: string;
+    en: string;
+    ja: string;
+    zh_tw: string;
+    zh_cn: string;
+    replace: int32;
+}
+
+table StringInfo {
+    json: [Deserialization];
+}
+
+root_type StringInfo;

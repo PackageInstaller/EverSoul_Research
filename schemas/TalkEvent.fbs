@@ -1,0 +1,14 @@
+namespace TalkEvent;
+
+table Deserialization {
+    no: int32;
+    hero_no: string;
+    distance: int32;
+    ratio: int32;
+}
+
+table TalkEvent {
+    json: [Deserialization];
+}
+
+root_type TalkEvent;

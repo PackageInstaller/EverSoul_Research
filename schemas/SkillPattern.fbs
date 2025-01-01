@@ -1,0 +1,62 @@
+namespace SkillPattern;
+
+table Deserialization {
+    hero_no: int32;
+    ai_pattern: int32;
+    pattern1: int32;
+    pattern2: int32;
+    pattern3: int32;
+    pattern4: int32;
+    pattern5: int32;
+    pattern6: int32;
+    pattern7: int32;
+    pattern8: int32;
+    pattern9: int32;
+    pattern10: int32;
+    pattern11: int32;
+    pattern12: int32;
+    pattern13: int32;
+    pattern14: int32;
+    pattern15: int32;
+    pattern16: int32;
+    pattern17: int32;
+    pattern18: int32;
+    pattern19: int32;
+    pattern20: int32;
+    pattern21: int32;
+    pattern22: int32;
+    pattern23: int32;
+    pattern24: int32;
+    pattern25: int32;
+    pattern26: int32;
+    pattern27: int32;
+    pattern28: int32;
+    pattern29: int32;
+    pattern30: int32;
+    pattern31: int32;
+    pattern32: int32;
+    pattern33: int32;
+    pattern34: int32;
+    pattern35: int32;
+    pattern36: int32;
+    pattern37: int32;
+    pattern38: int32;
+    pattern39: int32;
+    pattern40: int32;
+    pattern41: int32;
+    pattern42: int32;
+    pattern43: int32;
+    pattern44: int32;
+    pattern45: int32;
+    pattern46: int32;
+    pattern47: int32;
+    pattern48: int32;
+    pattern49: int32;
+    pattern50: int32;
+}
+
+table SkillPattern {
+    json: [Deserialization];
+}
+
+root_type SkillPattern;

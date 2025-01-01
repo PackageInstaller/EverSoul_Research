@@ -1,0 +1,13 @@
+namespace KeyValues;
+
+table Deserialization {
+    key_name: string;
+    values_data: string;
+    type: int32;
+}
+
+table KeyValues {
+    json: [Deserialization];
+}
+
+root_type KeyValues;

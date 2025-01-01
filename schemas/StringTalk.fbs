@@ -1,0 +1,17 @@
+namespace StringTalk;
+
+table Deserialization {
+    no: int32;
+    kr: string;
+    en: string;
+    ja: string;
+    zh_tw: string;
+    zh_cn: string;
+    replace: int8;
+}
+
+table StringTalk {
+    json: [Deserialization];
+}
+
+root_type StringTalk;

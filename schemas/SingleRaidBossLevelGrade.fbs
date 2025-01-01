@@ -1,0 +1,13 @@
+namespace SingleRaidBossLevelGrade;
+
+table Deserialization {
+    index: int32;
+    level: int32;
+    value: float;
+}
+
+table SingleRaidBossLevelGrade {
+    json: [Deserialization];
+}
+
+root_type SingleRaidBossLevelGrade;

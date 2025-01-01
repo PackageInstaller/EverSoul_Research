@@ -1,0 +1,16 @@
+namespace ArkOverClock;
+
+table Deserialization {
+    overclock_level: int32;
+    mana_crystal: int32;
+    pay_item_no0: int32;
+    pay_amount0: int32;
+    pay_item_no1: int32;
+    pay_amount1: int32;
+}
+
+table ArkOverClock {
+    json: [Deserialization];
+}
+
+root_type ArkOverClock;

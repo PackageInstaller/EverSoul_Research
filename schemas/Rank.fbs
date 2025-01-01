@@ -1,0 +1,15 @@
+namespace Rank;
+
+table Deserialization {
+    no: int32;
+    rank_type: int32;
+    fairy_type: int32;
+    title_sno: int32;
+    amount_sno: int32;
+}
+
+table Rank {
+    json: [Deserialization];
+}
+
+root_type Rank;

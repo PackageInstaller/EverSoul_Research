@@ -1,0 +1,21 @@
+namespace DungeonChestRewardRotation;
+
+table Deserialization {
+    no: int32;
+    group_no: int32;
+    dungeon_level: int32;
+    dungeon_no: int32;
+    grade: int32;
+    dropitem_no: int32;
+    first_reward_no1: int32;
+    first_reward_amount1: int32;
+    first_reward_no2: int32;
+    first_reward_amount2: int32;
+    first_reward_group: int32;
+}
+
+table DungeonChestRewardRotation {
+    json: [Deserialization];
+}
+
+root_type DungeonChestRewardRotation;

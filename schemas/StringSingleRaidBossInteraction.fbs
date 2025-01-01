@@ -1,0 +1,15 @@
+namespace StringSingleRaidBossInteraction;
+
+table Deserialization {
+    no: int32;
+    hero_no: int32;
+    sound_path: string;
+    delay: float;
+    talk_string: int32;
+}
+
+table StringSingleRaidBossInteraction {
+    json: [Deserialization];
+}
+
+root_type StringSingleRaidBossInteraction;

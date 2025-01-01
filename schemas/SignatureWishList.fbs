@@ -1,0 +1,13 @@
+namespace SignatureWishList;
+
+table Deserialization {
+    signature_no: int32;
+    limit_check: int32;
+    view_type: int32;
+}
+
+table SignatureWishList {
+    json: [Deserialization];
+}
+
+root_type SignatureWishList;

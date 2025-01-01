@@ -1,0 +1,39 @@
+namespace TowerEnemy;
+
+table Deserialization {
+    no: int32;
+    hero_no1: int32;
+    hero_grade1: int32;
+    level1: int32;
+    hero_equip1: int32;
+    ultimate_autosetting1: int32;
+    hero_no2: int32;
+    hero_grade2: int32;
+    level2: int32;
+    hero_equip2: int32;
+    ultimate_autosetting2: int32;
+    hero_no3: int32;
+    hero_grade3: int32;
+    level3: int32;
+    hero_equip3: int32;
+    ultimate_autosetting3: int32;
+    hero_no4: int32;
+    hero_grade4: int32;
+    level4: int32;
+    hero_equip4: int32;
+    ultimate_autosetting4: int32;
+    hero_no5: int32;
+    hero_grade5: int32;
+    level5: int32;
+    hero_equip5: int32;
+    ultimate_autosetting5: int32;
+    formation_type: int32;
+    signature_level: int32;
+    signature_skill_level: int32;
+}
+
+table TowerEnemy {
+    json: [Deserialization];
+}
+
+root_type TowerEnemy;

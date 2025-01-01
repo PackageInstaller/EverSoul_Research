@@ -1,0 +1,13 @@
+namespace EdenAlliancePoint;
+
+table Deserialization {
+    no: int32;
+    level: int32;
+    point: int32;
+}
+
+table EdenAlliancePoint {
+    json: [Deserialization];
+}
+
+root_type EdenAlliancePoint;

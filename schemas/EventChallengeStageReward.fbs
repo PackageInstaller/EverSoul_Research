@@ -1,0 +1,19 @@
+namespace EventChallengeStageReward;
+
+table Deserialization {
+    no: int32;
+    challenge_no: int32;
+    event_group: int32;
+    event_number: int32;
+    event_stage_phase: int32;
+    first_clear_reward_no1: int32;
+    first_clear_reward_amount1: int32;
+    first_clear_reward_no2: int32;
+    first_clear_reward_amount2: int32;
+}
+
+table EventChallengeStageReward {
+    json: [Deserialization];
+}
+
+root_type EventChallengeStageReward;

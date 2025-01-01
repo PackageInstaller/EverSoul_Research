@@ -1,0 +1,19 @@
+namespace TaskReward;
+
+table Deserialization {
+    no: int32;
+    type: int32;
+    point: int32;
+    item_no1: int32;
+    amount1: int32;
+    item_no2: int32;
+    amount2: int32;
+    item_no3: int32;
+    amount3: int32;
+}
+
+table TaskReward {
+    json: [Deserialization];
+}
+
+root_type TaskReward;

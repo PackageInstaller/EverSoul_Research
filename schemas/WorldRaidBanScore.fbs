@@ -1,0 +1,14 @@
+namespace WorldRaidBanScore;
+
+table Deserialization {
+    no: int32;
+    raid_no: int32;
+    hero_no: int32;
+    leader_score: int32;
+}
+
+table WorldRaidBanScore {
+    json: [Deserialization];
+}
+
+root_type WorldRaidBanScore;

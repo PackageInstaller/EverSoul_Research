@@ -1,0 +1,17 @@
+namespace HeroOptionPay;
+
+table Deserialization {
+    no: int32;
+    type: int32;
+    value: int32;
+    pay_item_no1: int32;
+    pay_amount1: int32;
+    pay_item_no2: int32;
+    pay_amount2: int32;
+}
+
+table HeroOptionPay {
+    json: [Deserialization];
+}
+
+root_type HeroOptionPay;

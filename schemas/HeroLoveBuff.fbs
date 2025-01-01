@@ -1,0 +1,12 @@
+namespace HeroLoveBuff;
+
+table Deserialization {
+    no: int32;
+    type: int32;
+}
+
+table HeroLoveBuff {
+    json: [Deserialization];
+}
+
+root_type HeroLoveBuff;

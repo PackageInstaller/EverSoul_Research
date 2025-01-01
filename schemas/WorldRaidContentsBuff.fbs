@@ -1,0 +1,16 @@
+namespace WorldRaidContentsBuff;
+
+table Deserialization {
+    no: int32;
+    score: int32;
+    icon_path: string;
+    contentsbuff_no: int32;
+    buff_no1: int32;
+    buff_no2: int32;
+}
+
+table WorldRaidContentsBuff {
+    json: [Deserialization];
+}
+
+root_type WorldRaidContentsBuff;

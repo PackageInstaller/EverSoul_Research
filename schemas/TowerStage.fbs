@@ -1,0 +1,27 @@
+namespace TowerStage;
+
+table Deserialization {
+    no: int32;
+    floor: int32;
+    stage_type: int32;
+    name_sno: int32;
+    enemy_group: int32;
+    reward1: int32;
+    amount1: int32;
+    reward2: int32;
+    amount2: int32;
+    clear_story: int32;
+    map: string;
+    rental_hero: int32;
+    rental_level: int32;
+    buff: int32;
+    check_level: int32;
+    check_grade: int32;
+    battle_time: int32;
+}
+
+table TowerStage {
+    json: [Deserialization];
+}
+
+root_type TowerStage;

@@ -1,0 +1,14 @@
+namespace TownVehicle;
+
+table Deserialization {
+    no: int32;
+    type: int32;
+    path: string;
+    move_speed: float;
+}
+
+table TownVehicle {
+    json: [Deserialization];
+}
+
+root_type TownVehicle;

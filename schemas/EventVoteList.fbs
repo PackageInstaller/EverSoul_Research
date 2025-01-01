@@ -1,0 +1,14 @@
+namespace EventVoteList;
+
+table Deserialization {
+    no: int32;
+    event_group: int32;
+    hero_no: int32;
+    vote_talk_sno: int32;
+}
+
+table EventVoteList {
+    json: [Deserialization];
+}
+
+root_type EventVoteList;

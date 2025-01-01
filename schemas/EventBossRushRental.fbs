@@ -1,0 +1,14 @@
+namespace EventBossRushRental;
+
+table Deserialization {
+    id: int32;
+    dungeon_level: int32;
+    rental_group: int32;
+    rental_no: int32;
+}
+
+table EventBossRushRental {
+    json: [Deserialization];
+}
+
+root_type EventBossRushRental;

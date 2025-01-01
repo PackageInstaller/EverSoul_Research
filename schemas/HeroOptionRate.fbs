@@ -1,0 +1,14 @@
+namespace HeroOptionRate;
+
+table Deserialization {
+    no: int32;
+    type: int32;
+    value: int32;
+    rate: int32;
+}
+
+table HeroOptionRate {
+    json: [Deserialization];
+}
+
+root_type HeroOptionRate;

@@ -1,0 +1,24 @@
+namespace PromotionRental;
+
+table Deserialization {
+    no: int32;
+    hero_no: int32;
+    hero_grade: int32;
+    signature_no: int32;
+    signature_grade: int32;
+    signature_level: int32;
+    slot1: int32;
+    slot_level1: int32;
+    slot2: int32;
+    slot_level2: int32;
+    slot3: int32;
+    slot_level3: int32;
+    slot4: int32;
+    slot_level4: int32;
+}
+
+table PromotionRental {
+    json: [Deserialization];
+}
+
+root_type PromotionRental;

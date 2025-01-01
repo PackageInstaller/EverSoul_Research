@@ -1,0 +1,17 @@
+namespace EventDefenseTask;
+
+table Deserialization {
+    no: int32;
+    event_group: int32;
+    task_type: int32;
+    task_param: int32;
+    task_amount: int32;
+    task_string: int32;
+    score: int32;
+}
+
+table EventDefenseTask {
+    json: [Deserialization];
+}
+
+root_type EventDefenseTask;

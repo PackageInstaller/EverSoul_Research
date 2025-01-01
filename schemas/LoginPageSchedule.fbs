@@ -1,0 +1,14 @@
+namespace LoginPageSchedule;
+
+table Deserialization {
+    no: int32;
+    login_path: string;
+    start_date: string;
+    end_date: string;
+}
+
+table LoginPageSchedule {
+    json: [Deserialization];
+}
+
+root_type LoginPageSchedule;

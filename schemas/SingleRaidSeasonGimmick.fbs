@@ -1,0 +1,27 @@
+namespace SingleRaidSeasonGimmick;
+
+table Deserialization {
+    no: int32;
+    season_no: int32;
+    raid_no: int32;
+    level: int32;
+    icon_path: string;
+    string_no: int32;
+    string_content_no: int32;
+    gimmick_type1: int32;
+    gimmick_value1: int32;
+    gimmick_type2: int32;
+    gimmick_value2: int32;
+    gimmick_type3: int32;
+    gimmick_value3: int32;
+    gimmick_type4: int32;
+    gimmick_value4: int32;
+    gimmick_type5: int32;
+    gimmick_value5: int32;
+}
+
+table SingleRaidSeasonGimmick {
+    json: [Deserialization];
+}
+
+root_type SingleRaidSeasonGimmick;
