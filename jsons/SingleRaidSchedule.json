@@ -22,6 +22,13 @@
       "schedule_key": "SingleRaid_1_31"
     },
     {
+      "no": 32,
+      "season_no": 2,
+      "raid_no": 1,
+      "server_check": 1,
+      "schedule_key": "SingleRaid_1_32"
+    },
+    {
       "no": 500029,
       "season_no": 2,
       "raid_no": 19,
@@ -41,6 +48,13 @@
       "raid_no": 4,
       "server_check": 2,
       "schedule_key": "SingleRaid_2_31"
+    },
+    {
+      "no": 500032,
+      "season_no": 2,
+      "raid_no": 1,
+      "server_check": 2,
+      "schedule_key": "SingleRaid_2_32"
     },
     {
       "no": 900040,
@@ -64,6 +78,13 @@
       "schedule_key": "SingleRaid_3_42"
     },
     {
+      "no": 900043,
+      "season_no": 2,
+      "raid_no": 1,
+      "server_check": 3,
+      "schedule_key": "SingleRaid_3_43"
+    },
+    {
       "no": 1000099,
       "season_no": 2,
       "raid_no": 19,
@@ -76,6 +97,13 @@
       "raid_no": 7,
       "server_check": 4,
       "schedule_key": "SingleRaid_4_100"
+    },
+    {
+      "no": 1000101,
+      "season_no": 2,
+      "raid_no": 4,
+      "server_check": 4,
+      "schedule_key": "SingleRaid_4_101"
     }
   ]
 }

@@ -81,7 +81,6 @@
       "stage_limit": 3,
       "item_infos": "[]",
       "event_shop_no": "0",
-      "date_type": 21,
       "magic_value": "0",
       "ui_path": "PanelFreeGachaEvent_Pickup_1",
       "banner_path": "banner_FreeGacha_Pickup_1",
@@ -2685,7 +2684,7 @@
       "ui_path": "PanelPreviewMiniGameMatch3Puzzle",
       "banner_path": "banner_EvermatchEvent",
       "title_path": "MiniGame/Title_EvermatchEvent",
-      "schedule_key": "EventInfo_EverMatch_3"
+      "schedule_key": "EventInfo_EverMatch_4"
     },
     {
       "no": 145,
@@ -2743,6 +2742,24 @@
     },
     {
       "no": 148,
+      "event_type": 8,
+      "group": 2,
+      "event_number": 8,
+      "user_type": 3,
+      "name_sno": 12182,
+      "desc_sno": 12182,
+      "stage_limit": 3,
+      "battle_ticket_item": 8014,
+      "item_infos": "[]",
+      "event_shop_no": "0",
+      "magic_value": "0",
+      "ui_path": "PanelPreviewMiniGameDefense",
+      "banner_path": "banner_MiniGameEvent",
+      "title_path": "MiniGame/Title_MiniGameEvent",
+      "schedule_key": "EventInfo_DefenseGame_8"
+    },
+    {
+      "no": 149,
       "event_type": 12,
       "group": 2,
       "event_number": 1,
@@ -2759,7 +2776,7 @@
       "schedule_key": "EventInfo_FairyVote_2"
     },
     {
-      "no": 149,
+      "no": 150,
       "event_type": 17,
       "group": 1,
       "event_number": 1,
@@ -2776,7 +2793,7 @@
       "schedule_key": "EventInfo_EGT_Movie_1"
     },
     {
-      "no": 150,
+      "no": 151,
       "event_type": 12,
       "group": 1,
       "event_number": 1,
@@ -2793,7 +2810,7 @@
       "schedule_key": "EventInfo_FairyVote_1"
     },
     {
-      "no": 151,
+      "no": 152,
       "event_type": 22,
       "group": 1,
       "event_number": 1,
@@ -2811,7 +2828,7 @@
       "schedule_key": "EventInfo_Newbie_DailyPass"
     },
     {
-      "no": 152,
+      "no": 153,
       "event_type": 3,
       "group": 1,
       "event_number": 1,
@@ -2829,7 +2846,7 @@
       "schedule_key": "EventInfo_Launching_Quest"
     },
     {
-      "no": 153,
+      "no": 154,
       "event_type": 3,
       "group": 2,
       "event_number": 1,
@@ -2847,7 +2864,7 @@
       "schedule_key": "EventInfo_FariyCollect_Quest"
     },
     {
-      "no": 154,
+      "no": 155,
       "event_type": 15,
       "group": 2,
       "event_number": 1,
@@ -2865,7 +2882,7 @@
       "schedule_key": "EventInfo_SelectPickup_Season2"
     },
     {
-      "no": 155,
+      "no": 156,
       "event_type": 15,
       "group": 1,
       "event_number": 1,
@@ -2883,7 +2900,7 @@
       "schedule_key": "EventInfo_SelectPickup_Season1"
     },
     {
-      "no": 156,
+      "no": 157,
       "event_type": 2,
       "group": 9,
       "event_number": 1,
@@ -2900,7 +2917,7 @@
       "schedule_key": "EventInfo_Rotation_Trip"
     },
     {
-      "no": 157,
+      "no": 158,
       "event_type": 2,
       "group": 8,
       "event_number": 1,
@@ -2917,7 +2934,7 @@
       "schedule_key": "EventInfo_Rotation_Heart"
     },
     {
-      "no": 158,
+      "no": 159,
       "event_type": 2,
       "group": 106,
       "event_number": 1,
@@ -2934,9 +2951,9 @@
       "schedule_key": "EventInfo_Rotation_Arena"
     },
     {
-      "no": 159,
+      "no": 160,
       "event_type": 2,
-      "group": 3,
+      "group": 103,
       "event_number": 1,
       "user_type": 3,
       "name_sno": 11145,
@@ -2951,7 +2968,7 @@
       "schedule_key": "EventInfo_Rotation_Labyrinth"
     },
     {
-      "no": 160,
+      "no": 161,
       "event_type": 2,
       "group": 107,
       "event_number": 1,
@@ -2968,9 +2985,9 @@
       "schedule_key": "EventInfo_Rotation_Champions"
     },
     {
-      "no": 161,
+      "no": 162,
       "event_type": 2,
-      "group": 105,
+      "group": 5,
       "event_number": 1,
       "user_type": 3,
       "name_sno": 11369,
@@ -2985,7 +3002,7 @@
       "schedule_key": "EventInfo_Rotation_DualGate"
     },
     {
-      "no": 162,
+      "no": 163,
       "event_type": 2,
       "group": 102,
       "event_number": 1,
@@ -3002,7 +3019,7 @@
       "schedule_key": "EventInfo_Rotation_AutoArbeit"
     },
     {
-      "no": 163,
+      "no": 164,
       "event_type": 2,
       "group": 6,
       "event_number": 1,
@@ -3019,9 +3036,9 @@
       "schedule_key": "EventInfo_Rotation_Arena2"
     },
     {
-      "no": 164,
+      "no": 165,
       "event_type": 2,
-      "group": 103,
+      "group": 3,
       "event_number": 1,
       "user_type": 3,
       "name_sno": 11520,
@@ -3036,7 +3053,7 @@
       "schedule_key": "EventInfo_Rotation_Labyrinth2"
     },
     {
-      "no": 165,
+      "no": 166,
       "event_type": 2,
       "group": 7,
       "event_number": 1,
@@ -3053,9 +3070,9 @@
       "schedule_key": "EventInfo_Rotation_Champions2"
     },
     {
-      "no": 166,
+      "no": 167,
       "event_type": 2,
-      "group": 5,
+      "group": 105,
       "event_number": 1,
       "user_type": 3,
       "name_sno": 11544,
@@ -3070,7 +3087,7 @@
       "schedule_key": "EventInfo_Rotation_DualGate2"
     },
     {
-      "no": 167,
+      "no": 168,
       "event_type": 2,
       "group": 2,
       "event_number": 1,
@@ -3087,7 +3104,7 @@
       "schedule_key": "EventInfo_Rotation_AutoArbeit2"
     },
     {
-      "no": 168,
+      "no": 169,
       "event_type": 1,
       "group": 1000,
       "user_type": 2,
@@ -3104,7 +3121,7 @@
       "schedule_key": "EventInfo_Comeback_Attend"
     },
     {
-      "no": 169,
+      "no": 170,
       "event_type": 3,
       "group": 1000,
       "user_type": 2,
@@ -3121,7 +3138,7 @@
       "schedule_key": "EventInfo_Comeback_Quest"
     },
     {
-      "no": 170,
+      "no": 171,
       "event_type": 2,
       "group": 1,
       "event_number": 1,
@@ -3138,7 +3155,7 @@
       "schedule_key": "EventInfo_Rotation_AutoReward"
     },
     {
-      "no": 171,
+      "no": 172,
       "event_type": 5,
       "group": 930,
       "event_number": 1,

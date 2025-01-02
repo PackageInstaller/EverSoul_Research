@@ -126,7 +126,7 @@
       "en": "Pick-Up Summon Ticket",
       "ja": "ピックアップ召喚券",
       "zh_tw": "Pick Up召喚券",
-      "zh_cn": "召唤几率提升召唤券"
+      "zh_cn": "召唤概率提升召唤券"
     },
     {
       "no": 210020,
@@ -238,7 +238,7 @@
       "en": "Date A Live V Pick-Up Summon Ticket",
       "ja": "デート・ア・ライブVピックアップ召喚券",
       "zh_tw": "約會大作戰V Pick Up召喚券",
-      "zh_cn": "约会大作战V 召唤几率提升召唤券"
+      "zh_cn": "约会大作战V 召唤概率提升召唤券"
     },
     {
       "no": 210042,
@@ -2596,7 +2596,7 @@
       "no": 213371,
       "kr": "정령의 기억: 릴리트",
       "en": "Soul's Memory: Lilith",
-      "ja": "",
+      "ja": "精霊の記憶：リリート",
       "zh_tw": "精靈的記憶：莉莉絲",
       "zh_cn": "精灵的记忆：莉莉丝"
     },
@@ -2604,7 +2604,7 @@
       "no": 213372,
       "kr": "정령의 기억: 웨리",
       "en": "Soul's Memory: Wheri",
-      "ja": "",
+      "ja": "精霊の記憶：ウェリー",
       "zh_tw": "精靈的記憶：威里",
       "zh_cn": "精灵的记忆：威里"
     },
@@ -2612,8 +2612,16 @@
       "no": 213373,
       "kr": "정령의 기억: 사쿠요(업화)",
       "en": "Soul's Memory: Sakuyo (Inferno)",
-      "ja": "",
+      "ja": "精霊の記憶：サクヨ(業火)",
       "zh_tw": "精靈的記憶：櫻世（業火）",
+      "zh_cn": ""
+    },
+    {
+      "no": 213374,
+      "kr": "정령의 기억: 메피스토펠레스(여명)",
+      "en": "Soul's Memory: Mephistopheles (Dawn)",
+      "ja": "",
+      "zh_tw": "精靈的記憶：梅菲斯托佩萊斯（黎明）",
       "zh_cn": ""
     },
     {
@@ -3102,7 +3110,7 @@
       "en": "Special Pick-Up Soul Selection Chest",
       "ja": "スペシャルピックアップ精霊選択ボックス",
       "zh_tw": "特別Pick Up精靈選擇箱子",
-      "zh_cn": "特别召唤几率提升精灵选择箱子"
+      "zh_cn": "特别召唤概率提升精灵选择箱子"
     },
     {
       "no": 214134,
@@ -3182,7 +3190,7 @@
       "en": "Special Pick-Up Soul Selection Chest (Season 2)",
       "ja": "特別ピックアップ精霊選択箱 (Season2)",
       "zh_tw": "特別Pick Up精靈選擇箱子（第2季）",
-      "zh_cn": "特别召唤几率提升精灵选择箱子（第2季）"
+      "zh_cn": "特别召唤概率提升精灵选择箱子（第2季）"
     },
     {
       "no": 214144,
@@ -3236,7 +3244,7 @@
       "no": 214150,
       "kr": "에픽 정령 선택 상자 (추석 기념)",
       "en": "Epic Soul Selection Chest (Chuseok Celebration)",
-      "ja": "",
+      "ja": "エピック精霊選択箱(秋記念)",
       "zh_tw": "史詩精靈選擇箱子（中秋紀念）",
       "zh_cn": "史诗精灵选择箱子（中秋纪念）"
     },
@@ -3323,33 +3331,33 @@
     {
       "no": 214161,
       "kr": "이브의 날 기념 치킨 박스",
-      "en": "",
+      "en": "Eve's Day Chicken Box",
       "ja": "イブの日記念チキンボックス",
-      "zh_tw": "",
+      "zh_tw": "夏娃之日紀念炸雞盒",
       "zh_cn": ""
     },
     {
       "no": 214162,
       "kr": "에픽 정령 선택 상자 (신년)",
-      "en": "",
+      "en": "Epic Soul Selection Chest (New Year)",
       "ja": "エピック精霊選択ボックス (新年)",
-      "zh_tw": "",
+      "zh_tw": "史詩精靈選擇箱子（新年）",
       "zh_cn": ""
     },
     {
       "no": 214163,
       "kr": "스페셜 에픽 정령 선택 상자 (신년)",
-      "en": "",
+      "en": "Special Epic Soul Selection Chest (New Year)",
       "ja": "スペシャルエピック精霊選択ボックス (新年)",
-      "zh_tw": "",
+      "zh_tw": "特別史詩精靈選擇箱子（新年）",
       "zh_cn": ""
     },
     {
       "no": 214164,
       "kr": "유물의 기억 선택 상자 (신년)",
-      "en": "",
+      "en": "Artifact Memory Selection Chest (New Year)",
       "ja": "遺物の記憶選択ボックス (新年)",
-      "zh_tw": "",
+      "zh_tw": "遺物的記憶選擇箱子（新年）",
       "zh_cn": ""
     },
     {
@@ -3852,7 +3860,7 @@
       "no": 215251,
       "kr": "서커스 무대",
       "en": "Circus Stage",
-      "ja": "",
+      "ja": "サーカスステージ",
       "zh_tw": "馬戲團舞台",
       "zh_cn": "马戏团舞台"
     },
@@ -4523,9 +4531,9 @@
     {
       "no": 215701,
       "kr": "프레임: 2주년 기념 프레임",
-      "en": "",
+      "en": "Frame: 2nd Anniversary Frame",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "外框：2週年紀念外框",
       "zh_cn": ""
     },
     {
@@ -4652,7 +4660,7 @@
       "no": 215717,
       "kr": "프레임: 추악한 세계의 용사",
       "en": "Frame: Warrior of the Repulsive World",
-      "ja": "",
+      "ja": "フレーム：醜い世界の勇者",
       "zh_tw": "外框：醜陋世界之勇士",
       "zh_cn": ""
     },
@@ -4660,7 +4668,7 @@
       "no": 215718,
       "kr": "프레임: 추악한 세계의 수호자",
       "en": "Frame: Guardian of the Repulsive World",
-      "ja": "",
+      "ja": "フレーム：醜い世界の守護者",
       "zh_tw": "外框：醜陋世界之守護者",
       "zh_cn": ""
     },
@@ -4668,7 +4676,7 @@
       "no": 215719,
       "kr": "프레임: 추악한 세계의 인도자",
       "en": "Frame: Leader of the Repulsive World",
-      "ja": "",
+      "ja": "フレーム：醜い世界の引導者",
       "zh_tw": "外框：醜陋世界之嚮導",
       "zh_cn": ""
     },
@@ -4676,7 +4684,7 @@
       "no": 215720,
       "kr": "프레임: 흉몽의 나비를 저지한 자",
       "en": "Frame: One Who Stopped the Butterfly of An Ominous Dream",
-      "ja": "",
+      "ja": "フレーム：凶夢の蝶を阻止した者",
       "zh_tw": "外框：阻止凶夢之蝶之人",
       "zh_cn": ""
     },
@@ -4684,7 +4692,7 @@
       "no": 215721,
       "kr": "프레임: 흉몽의 나비를 정화한 자",
       "en": "Frame: One Who Purified the Butterfly of An Ominous Dream",
-      "ja": "",
+      "ja": "フレーム：凶夢の蝶を浄化した者",
       "zh_tw": "外框：淨化凶夢之蝶之人",
       "zh_cn": ""
     },
@@ -4692,7 +4700,7 @@
       "no": 215722,
       "kr": "프레임: 흉몽의 나비를 구원한 자",
       "en": "Frame: One Who Saved the Butterfly of An Ominous Dream",
-      "ja": "",
+      "ja": "フレーム：凶夢の蝶を救った者",
       "zh_tw": "外框：救援凶夢之蝶之人",
       "zh_cn": ""
     },
@@ -4788,7 +4796,7 @@
       "no": 216002,
       "kr": "일러스트 : 데이트 어 소울",
       "en": "Illustration: Date A Soul",
-      "ja": "",
+      "ja": "イラスト：デート・ア・ソウル",
       "zh_tw": "插圖：約會靈魂",
       "zh_cn": "插图：约会灵魂"
     },
@@ -5380,7 +5388,7 @@
       "no": 216231,
       "kr": "스티커: 연옥으로 가는 길",
       "en": "Sticker: Road to Purgatory",
-      "ja": "",
+      "ja": "ステッカー：煉獄への道",
       "zh_tw": "貼紙：前往煉獄之路",
       "zh_cn": ""
     },
@@ -5395,9 +5403,9 @@
     {
       "no": 216302,
       "kr": "스티커: 바삭바삭 닭다리",
-      "en": "",
+      "en": "Sticker: Crispy Drumstick",
       "ja": "ステッカー: カリカリ鶏もも",
-      "zh_tw": "",
+      "zh_tw": "貼紙：酥脆雞腿",
       "zh_cn": ""
     },
     {
@@ -5684,7 +5692,7 @@
       "no": 216436,
       "kr": "스티커: 종말을 찌르는 창 (1위)",
       "en": "Sticker: Doom Piercer (#1)",
-      "ja": "",
+      "ja": "ステッカー：終末を突き刺す槍(1位)",
       "zh_tw": "貼紙：末日之槍（第1名）",
       "zh_cn": "贴纸：末日之枪（第1名）"
     },
@@ -5692,7 +5700,7 @@
       "no": 216437,
       "kr": "스티커: 종말을 찌르는 창 (2위)",
       "en": "Sticker: Doom Piercer (#2)",
-      "ja": "",
+      "ja": "ステッカー：終末を突き刺す槍(2位)",
       "zh_tw": "貼紙：末日之槍（第2名）",
       "zh_cn": "贴纸：末日之枪（第2名）"
     },
@@ -5700,7 +5708,7 @@
       "no": 216438,
       "kr": "스티커: 종말을 찌르는 창 (3위)",
       "en": "Sticker: Doom Piercer (#3)",
-      "ja": "",
+      "ja": "ステッカー：終末を突き刺す槍(3位)",
       "zh_tw": "貼紙：末日之槍（第3名）",
       "zh_cn": "贴纸：末日之枪（第3名）"
     },
@@ -5708,7 +5716,7 @@
       "no": 216439,
       "kr": "스티커: 종말을 찌르는 창 (상위)",
       "en": "Sticker: Doom Piercer (Top Ranking)",
-      "ja": "",
+      "ja": "ステッカー：終末を突き刺す槍(上位)",
       "zh_tw": "貼紙：末日之槍（前段）",
       "zh_cn": "贴纸：末日之枪（前段）"
     },
@@ -5716,7 +5724,7 @@
       "no": 216440,
       "kr": "스티커: 종말을 찌르는 창",
       "en": "Sticker: Doom Piercer",
-      "ja": "",
+      "ja": "ステッカー：終末を突き刺す槍",
       "zh_tw": "貼紙：末日之槍",
       "zh_cn": "贴纸：末日之枪"
     },
@@ -5724,7 +5732,7 @@
       "no": 216441,
       "kr": "스티커: 흉몽의 나비 (1위)",
       "en": "Sticker: Butterfly of An Ominous Dream (#1)",
-      "ja": "",
+      "ja": "ステッカー：凶夢の蝶(1位)",
       "zh_tw": "貼紙：凶夢之蝶（第1名）",
       "zh_cn": ""
     },
@@ -5732,7 +5740,7 @@
       "no": 216442,
       "kr": "스티커: 흉몽의 나비 (2위)",
       "en": "Sticker: Butterfly of An Ominous Dream (#2)",
-      "ja": "",
+      "ja": "ステッカー：凶夢の蝶(2位)",
       "zh_tw": "貼紙：凶夢之蝶（第2名）",
       "zh_cn": ""
     },
@@ -5740,7 +5748,7 @@
       "no": 216443,
       "kr": "스티커: 흉몽의 나비 (3위)",
       "en": "Sticker: Butterfly of An Ominous Dream (#3)",
-      "ja": "",
+      "ja": "ステッカー：凶夢の蝶(3位)",
       "zh_tw": "貼紙：凶夢之蝶（第3名）",
       "zh_cn": ""
     },
@@ -5748,7 +5756,7 @@
       "no": 216444,
       "kr": "스티커: 흉몽의 나비 (상위)",
       "en": "Sticker: Butterfly of An Ominous Dream (Top Ranking)",
-      "ja": "",
+      "ja": "ステッカー：凶夢の蝶(上位)",
       "zh_tw": "貼紙：凶夢之蝶（前段）",
       "zh_cn": ""
     },
@@ -5756,7 +5764,7 @@
       "no": 216445,
       "kr": "스티커: 흉몽의 나비",
       "en": "Sticker: Butterfly of An Ominous Dream",
-      "ja": "",
+      "ja": "ステッカー：凶夢の蝶",
       "zh_tw": "貼紙：凶夢之蝶",
       "zh_cn": ""
     },
@@ -5812,7 +5820,7 @@
       "no": 216607,
       "kr": "스티커: 베히모스 (1위)",
       "en": "Sticker: Behemoth (#1)",
-      "ja": "",
+      "ja": "ステッカー：ベヒモス(1位)",
       "zh_tw": "貼紙：貝希摩斯（第1名）",
       "zh_cn": "贴纸：贝希摩斯（第1名）"
     },
@@ -5820,7 +5828,7 @@
       "no": 216608,
       "kr": "스티커: 베히모스 (2위)",
       "en": "Sticker: Behemoth (#2)",
-      "ja": "",
+      "ja": "ステッカー：ベヒモス(2位)",
       "zh_tw": "貼紙：貝希摩斯（第2名）",
       "zh_cn": "贴纸：贝希摩斯（第2名）"
     },
@@ -5828,7 +5836,7 @@
       "no": 216609,
       "kr": "스티커: 베히모스 (3위)",
       "en": "Sticker: Behemoth (#3)",
-      "ja": "",
+      "ja": "ステッカー：ベヒモス(3位)",
       "zh_tw": "貼紙：貝希摩斯（第3名）",
       "zh_cn": "贴纸：贝希摩斯（第3名）"
     },
@@ -5836,7 +5844,7 @@
       "no": 216610,
       "kr": "스티커: 베히모스 (상위)",
       "en": "Sticker: Behemoth (Top Ranking)",
-      "ja": "",
+      "ja": "ステッカー：ベヒモス(上位)",
       "zh_tw": "貼紙：貝希摩斯（前段）",
       "zh_cn": "贴纸：贝希摩斯（前段）"
     },
@@ -5844,7 +5852,7 @@
       "no": 216611,
       "kr": "스티커: 베히모스",
       "en": "Sticker: Behemoth",
-      "ja": "",
+      "ja": "ステッカー：ベヒモス",
       "zh_tw": "貼紙：貝希摩斯",
       "zh_cn": "贴纸：贝希摩斯"
     },
@@ -5883,9 +5891,9 @@
     {
       "no": 216705,
       "kr": "스티커: 2주년 기념 화환",
-      "en": "",
+      "en": "Sticker: 2nd Anniversary Wreath",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "貼紙：2週年紀念花圈",
       "zh_cn": ""
     },
     {
@@ -5900,7 +5908,7 @@
       "no": 216802,
       "kr": "스티커: 기원의 증표 - 웨리",
       "en": "Sticker: Token of Origin - Wheri",
-      "ja": "",
+      "ja": "ステッカー：起源の証-ウェリー",
       "zh_tw": "貼紙：起源的信物－威里",
       "zh_cn": "贴纸：起源的信物－威里"
     },
@@ -5908,16 +5916,16 @@
       "no": 216803,
       "kr": "스티커: 기원의 증표 - 사쿠요(업화)",
       "en": "Sticker: Token of Origin - Sakuyo (Inferno)",
-      "ja": "",
+      "ja": "ステッカー：起源の証-サクヨ(業火)",
       "zh_tw": "貼紙：起源的信物－櫻世（業火）",
       "zh_cn": ""
     },
     {
       "no": 216804,
       "kr": "스티커: 기원의 증표 - 메피스토펠레스(여명)",
-      "en": "",
+      "en": "Sticker: Token of Origin - Mephistopheles (Dawn)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "貼紙：起源的信物－梅菲斯托佩萊斯（黎明）",
       "zh_cn": ""
     },
     {
@@ -5997,7 +6005,7 @@
       "kr": "스티커: 메카이아 (1위)",
       "en": "Sticker: Mecha Gaia (#1)",
       "ja": "",
-      "zh_tw": "貼紙：機械蓋亞樹（第1名）",
+      "zh_tw": "貼紙：機械蓋亞（第1名）",
       "zh_cn": ""
     },
     {
@@ -6916,7 +6924,7 @@
       "no": 218099,
       "kr": "경품 티켓",
       "en": "Prize Ticket",
-      "ja": "",
+      "ja": "景品チケット",
       "zh_tw": "贈品票券",
       "zh_cn": "赠品票券"
     },
@@ -6924,7 +6932,7 @@
       "no": 218100,
       "kr": "바니바니 훈련 수료증",
       "en": "Bunny Bunny Training Certificate",
-      "ja": "",
+      "ja": "バニーバニー訓練修了証",
       "zh_tw": "兔兔訓練結業證書",
       "zh_cn": "兔兔训练结业证书"
     },
@@ -6932,7 +6940,7 @@
       "no": 218101,
       "kr": "문라이트 훈련 수료증",
       "en": "Moonlight Training Certificate",
-      "ja": "",
+      "ja": "ムーンライト訓練修了証",
       "zh_tw": "月光訓練結業證書",
       "zh_cn": "月光训练结业证书"
     },
@@ -6940,7 +6948,7 @@
       "no": 218102,
       "kr": "문라이트 퍼포먼스 레이드 입장권",
       "en": "Moonlight Performance Raid Ticket",
-      "ja": "",
+      "ja": "ムーンライトパフォーマンスレイド入場券",
       "zh_tw": "月光表演突襲入場券",
       "zh_cn": "月光表演突袭入场券"
     },
@@ -6948,7 +6956,7 @@
       "no": 218108,
       "kr": "컨벤션 경품 교환권",
       "en": "Convention Prize Ticket",
-      "ja": "",
+      "ja": "博覧会景品引換券",
       "zh_tw": "展覽贈品兌換券",
       "zh_cn": ""
     },
@@ -6956,7 +6964,7 @@
       "no": 218109,
       "kr": "저지 작전 훈장",
       "en": "Stopping Operation Medal",
-      "ja": "",
+      "ja": "阻止作戦の勲章",
       "zh_tw": "阻止作戰勳章",
       "zh_cn": ""
     },
@@ -6964,7 +6972,7 @@
       "no": 218110,
       "kr": "수색 작전 훈장",
       "en": "Search Operation Medal",
-      "ja": "",
+      "ja": "捜索作戦の勲章",
       "zh_tw": "搜索作戰勳章",
       "zh_cn": ""
     },
@@ -6972,7 +6980,7 @@
       "no": 218111,
       "kr": "성야의 폭주 레이드 입장권",
       "en": "Starry Night Frenzy Raid Ticket",
-      "ja": "",
+      "ja": "聖夜の暴走レイド入場券",
       "zh_tw": "平安夜暴走突襲入場券",
       "zh_cn": ""
     },
@@ -7014,7 +7022,7 @@
       "en": "Has a chance to grant set option to a Keepsake.",
       "ja": "指定された礼装から一定の確率でセットオプションが付与されます。",
       "zh_tw": "儲存的禮品中會以一定機率賦予套裝選項。",
-      "zh_cn": "储存的礼品中会以一定几率赋予套装选项。"
+      "zh_cn": "储存的礼品中会以一定概率赋予套装选项。"
     },
     {
       "no": 220001,
@@ -7022,7 +7030,7 @@
       "en": "A gold coin issued by the Kingdom of Solrey.\r\nWidely used in various places.",
       "ja": "ソレイ王国で発行された金貨。\r\n様々なところに使用される。",
       "zh_tw": "蘇萊伊王國發行的金幣。\r\n用在各種地方。",
-      "zh_cn": "苏莱伊王国发行的金币。\r\n用在各种地方。"
+      "zh_cn": "苏莱伊王国发行的金币。\r\n可在各种地方使用。"
     },
     {
       "no": 220002,
@@ -7030,7 +7038,7 @@
       "en": "A special gem embedded with magic.\r\nUsed where a large amount of magic is required.",
       "ja": "魔力を宿した特別な宝石。\r\n大量の魔力が必要なところに使用される。",
       "zh_tw": "蘊含魔力的特殊寶石。\r\n用在需要大量魔力的地方。",
-      "zh_cn": "蕴含魔力的特殊宝石。用在需要大量魔力的地方。"
+      "zh_cn": "蕴含魔力的特殊宝石。\r\n用在需要大量魔力的地方。"
     },
     {
       "no": 220003,
@@ -7038,7 +7046,7 @@
       "en": "Mana Powder.\r\nUsed to level up Souls.",
       "ja": "マナを宿した粉。\r\n精霊のLvアップに使用される。",
       "zh_tw": "蘊含魔力的粉末。\r\n用來升級精靈。",
-      "zh_cn": "蕴含魔力的粉末。用来升级精灵。"
+      "zh_cn": "蕴含魔力的粉末，用于升级精灵。"
     },
     {
       "no": 220004,
@@ -7070,7 +7078,7 @@
       "en": "Used for expanding Level Sync slots.",
       "ja": "Lvシンクロのスロット拡張に使用される。",
       "zh_tw": "用於擴大等級同步欄位。",
-      "zh_cn": "用于扩大等级同步栏位。"
+      "zh_cn": "用于扩张等级同步栏位。"
     },
     {
       "no": 220009,
@@ -7142,7 +7150,7 @@
       "en": "Used to summon a Soul once in Pick-Up Summon.",
       "ja": "ピックアップ召喚で精霊を1回召喚できる。",
       "zh_tw": "可在Pick Up召喚中召喚精靈1次。",
-      "zh_cn": "可在召唤几率提升召唤中召唤精灵1次。"
+      "zh_cn": "可在召唤概率提升召唤中召唤精灵1次。"
     },
     {
       "no": 220020,
@@ -7150,7 +7158,7 @@
       "en": "Used for enhancing Artifacts.\r\nAvailable from Level 1 to 10.",
       "ja": "遺物強化に使用されます。\r\nLv1～10まで使用できます。",
       "zh_tw": "用於強化遺物\r\n可用在1～10等級",
-      "zh_cn": "用于强化神器\r\n可用在1～10等级"
+      "zh_cn": "用于强化神器。\r\n可用在1～10等级。"
     },
     {
       "no": 220021,
@@ -7158,7 +7166,7 @@
       "en": "Used for enhancing Artifacts.\r\nAvailable from Level 11 to 20.",
       "ja": "遺物強化に使用されます。\r\nLv11～20まで使用できます。",
       "zh_tw": "用於強化遺物\r\n可用在11～20等級",
-      "zh_cn": "用于强化神器\r\n可用在11～20等级"
+      "zh_cn": "用于强化神器。\r\n可用在11～20等级。"
     },
     {
       "no": 220022,
@@ -7214,7 +7222,7 @@
       "en": "Used to summon a Soul once in Normal Summon.",
       "ja": "一般召喚で精霊を1回召喚できる。",
       "zh_tw": "可以在一般召喚召喚精靈1次",
-      "zh_cn": "可以在一般召唤召唤精灵1次"
+      "zh_cn": "可在一般召唤中召唤精灵1次。"
     },
     {
       "no": 220029,
@@ -7222,7 +7230,7 @@
       "en": "Used to summon a Soul once in Type Summon.",
       "ja": "タイプ召喚で精霊を1回召喚できる。",
       "zh_tw": "可以在類型召喚召喚精靈1次",
-      "zh_cn": "可以在类型召唤召唤精灵1次"
+      "zh_cn": "可在类型召唤中召唤精灵1次。"
     },
     {
       "no": 220030,
@@ -7230,7 +7238,7 @@
       "en": "Collect 60 Soul's Memories (Rare) and use them to obtain a random Rare Soul.",
       "ja": "精霊の記憶 (レア)を60個収集して使用すると、ランダムでレア精霊を獲得可能。",
       "zh_tw": "收集並使用60個精靈的記憶（稀有）時\r\n即可隨機獲得稀有精靈",
-      "zh_cn": "收集并使用60个精灵的记忆（稀有）时\r\n即可随机获得稀有精灵"
+      "zh_cn": "收集并使用60个精灵的记忆（稀有），\r\n即可随机获得稀有精灵。"
     },
     {
       "no": 220031,
@@ -7238,7 +7246,7 @@
       "en": "Collect 60 Soul's Memories (Epic) and use them to obtain a random Epic Soul.",
       "ja": "精霊の記憶 (エピック)を60個収集して使用すると、ランダムでエピック精霊を獲得可能。",
       "zh_tw": "收集並使用60個精靈的記憶（史詩）時\r\n即可隨機獲得史詩精靈",
-      "zh_cn": "收集并使用60个精灵的记忆（史诗）时\r\n即可随机获得史诗精灵"
+      "zh_cn": "收集并使用60个精灵的记忆（史诗），\r\n即可随机获得史诗精灵"
     },
     {
       "no": 220032,
@@ -7246,7 +7254,7 @@
       "en": "Used for enhancing a Keepsake, applying 10 Keepsake EXP.",
       "ja": "礼装強化時に使用され、使用時に礼装経験値10を獲得できる。",
       "zh_tw": "用來強化禮品，使用時，可獲得10禮品經驗值",
-      "zh_cn": "用来强化礼品，使用时，可获得10礼品经验值"
+      "zh_cn": "用来强化礼品，使用后可获得10礼品经验值。"
     },
     {
       "no": 220033,
@@ -7254,7 +7262,7 @@
       "en": "Used to summon a Soul once in Date A Live V Pick-Up Summon.\r\nWill be changed into a regular Pick-Up Summon Ticket after all Date A Live V Pick-Up events end.",
       "ja": "「デート・ア・ライブV」ピックアップ召喚で精霊を1回召喚できる。\r\n「デート・ア・ライブV」ピックアップがすべて終了すると、ピックアップ召喚券に変更されます。",
       "zh_tw": "可在約會大作戰V Pick Up召喚中召喚精靈1次。\r\n約會大作戰V Pick Up結束後，變更為Pick Up召喚券。",
-      "zh_cn": "可在约会大作战V 召唤几率提升召唤中召唤精灵1次。\r\n约会大作战V 召唤几率提升结束后，变更为召唤几率提升召唤券。"
+      "zh_cn": "可在约会大作战V 召唤概率提升召唤中召唤精灵1次。\r\n约会大作战V 召唤概率提升结束后，变更为召唤概率提升召唤券。"
     },
     {
       "no": 220044,
@@ -7262,7 +7270,7 @@
       "en": "Used for challenging an opponent in the Arena\r\r\nwhen all free challenges have been used up.",
       "ja": "高級アリーナ戦闘を1回利用できる利用券。",
       "zh_tw": "欲在競技場挑戰對方，\r\r\n但沒有免費挑戰次數時，將以此替代。",
-      "zh_cn": "欲在竞技场挑战对方，\r\n但没有免费挑战次数时，将以此替代。"
+      "zh_cn": "在没有免费竞技场挑战次数时使用。"
     },
     {
       "no": 220045,
@@ -7270,7 +7278,7 @@
       "en": "Used to summon an Artifact once in Normal Artifact Summon.",
       "ja": "一般遺物召喚で遺物を1回召喚できる。",
       "zh_tw": "可以在一般遺物召喚召喚遺物1次。",
-      "zh_cn": "可以在一般神器召唤召唤神器1次。"
+      "zh_cn": "可在一般神器召唤中召唤神器1次。"
     },
     {
       "no": 220046,
@@ -7294,7 +7302,7 @@
       "en": "Used for enhancing a Keepsake, applying 250 Keepsake EXP.",
       "ja": "礼装強化時に使用され、使用時に礼装経験値250を獲得できる。",
       "zh_tw": "用來強化禮品，使用時，可獲得250禮品經驗值",
-      "zh_cn": "用来强化礼品，使用时，可获得250礼品经验值"
+      "zh_cn": "用来强化礼品，使用后可获得250礼品经验值。"
     },
     {
       "no": 220049,
@@ -7302,7 +7310,7 @@
       "en": "Used for enhancing a Keepsake, applying 1,000 Keepsake EXP.",
       "ja": "礼装強化時に使用され、使用時に礼装経験値1000を獲得できる。",
       "zh_tw": "用來強化禮品，使用時，可獲得1000禮品經驗值",
-      "zh_cn": "用来强化礼品，使用时，可获得1000礼品经验值"
+      "zh_cn": "用来强化礼品，使用后可获得1000礼品经验值。"
     },
     {
       "no": 220050,
@@ -8762,34 +8770,34 @@
     },
     {
       "no": 221910,
-      "kr": "('초월', '강화 재료로 사용' 불가)\r\n\r\n2주년을 기념하는 특수한 재질의 강화 아머.\r\n빛 한 점 들지 않는 심연에서도, 시릴 정도로 따스한 푸른 꽃이 피었다.",
-      "en": "(Can't be used as an enhancing or transcending material)\r\n\r\nReinforced armor made from rare material, marking the 2nd anniversary.\r\nEven in the pitch-black abyss, a blue flower blooms, exuding a chill that feels oddly warm.",
+      "kr": "('초월', '강화 재료로 사용' 불가)\r\n\r\n특수한 재질의 강화 아머.\r\n빛 한 점 들지 않는 심연에서도, 시릴 정도로 따스한 푸른 꽃이 피었다.",
+      "en": "(Can't be used as an enhancing or transcending material)\r\n\r\nReinforced armor made from rare material.\r\nEven in the pitch-black abyss, a blue flower blooms, exuding a chill that feels oddly warm.",
       "ja": "",
-      "zh_tw": "（無法「超越」、「當作強化材料」）\r\n\r\n紀念2週年的特殊材質強化盔甲。\r\n就算是在毫不透光的深淵中，也綻放出光彩奪目的溫暖藍花。",
+      "zh_tw": "（無法「超越」、「當作強化材料」）\r\n\r\n特殊材質強化盔甲。\r\n就算是在毫不透光的深淵中，也綻放出光彩奪目的溫暖藍花。",
       "zh_cn": ""
     },
     {
       "no": 221911,
-      "kr": "('초월', '강화 재료로 사용' 불가)\r\n\r\n2주년을 기념하는 특수한 재질의 기동형 기체.\r\n드넓은 우주를 마치 유성처럼 유영한다.\r\n당신을 만나기 위해, 아득한 별의 바다를 넘어서.",
-      "en": "(Can't be used as an enhancing or transcending material)\r\n\r\nA mobile unit made from rare material and crafted for the 2nd anniversary.\r\nIt traverses the vast expanse of space like a meteor.\r\nIt journeyed across the distant sea of stars to meet you.",
+      "kr": "('초월', '강화 재료로 사용' 불가)\r\n\r\n특수한 재질의 기동형 기체.\r\n드넓은 우주를 마치 유성처럼 유영한다.\r\n당신을 만나기 위해, 아득한 별의 바다를 넘어서.",
+      "en": "(Can't be used as an enhancing or transcending material)\r\n\r\nA mobile unit made from rare material.\r\nIt traverses the vast expanse of space like a meteor.\r\nIt journeyed across the distant sea of stars to meet you.",
       "ja": "",
-      "zh_tw": "（無法「超越」、「當作強化材料」）\r\n\r\n紀念2週年的特殊材質機動型機體。\r\n像流星一樣在浩瀚的宇宙遨遊。\r\n為了遇見你，穿越過無垠星海。",
+      "zh_tw": "（無法「超越」、「當作強化材料」）\r\n\r\n特殊材質機動型機體。\r\n像流星一樣在浩瀚的宇宙遨遊。\r\n為了遇見你，穿越過無垠星海。",
       "zh_cn": ""
     },
     {
       "no": 221912,
-      "kr": "('초월', '강화 재료로 사용' 불가)\r\n\r\n2주년을 기념하는 특수한 재질의 강화 장갑.\r\n오랜 시간이 지나 다시 맞잡은 손에서 느껴지는 것은,\r\n한 번도 잊어본 적 없는 따스한 약속의 온기이다.",
-      "en": "(Can't be used as an enhancing or transcending material)\r\n\r\nReinforced gloves made from rare material, marking the 2nd anniversary.\r\nThe warmth felt in the hands clasped once more after years apart\r\nis the enduring memory of a promise never forgotten.",
+      "kr": "('초월', '강화 재료로 사용' 불가)\r\n\r\n특수한 재질의 강화 장갑.\r\n오랜 시간이 지나 다시 맞잡은 손에서 느껴지는 것은,\r\n한 번도 잊어본 적 없는 따스한 약속의 온기이다.",
+      "en": "(Can't be used as an enhancing or transcending material)\r\n\r\nReinforced gloves made from rare material.\r\nThe warmth felt in the hands clasped once more after years apart\r\nis the enduring memory of a promise never forgotten.",
       "ja": "",
-      "zh_tw": "（無法「超越」、「當作強化材料」）\r\n\r\n紀念2週年的特殊材質強化手套。\r\n經過漫長歲月後，透過重新交握的雙手\r\n感受到的溫度是從沒忘記過的溫暖約定。",
+      "zh_tw": "（無法「超越」、「當作強化材料」）\r\n\r\n特殊材質強化手套。\r\n經過漫長歲月後，透過重新交握的雙手\r\n感受到的溫度是從沒忘記過的溫暖約定。",
       "zh_cn": ""
     },
     {
       "no": 221913,
-      "kr": "('초월', '강화 재료로 사용' 불가)\r\n\r\n2주년을 기념하는 특수한 재질의 센서 모듈.\r\n아무리 멀리 있어도 당신의 기척을 선명하게 느낄 수 있다.",
-      "en": "(Can't be used as an enhancing or transcending material)\r\n\r\nA sensor module made from rare material and crafted for the 2nd anniversary.\r\nNo matter how far, your presence can be clearly felt.",
+      "kr": "('초월', '강화 재료로 사용' 불가)\r\n\r\n특수한 재질의 센서 모듈.\r\n아무리 멀리 있어도 당신의 기척을 선명하게 느낄 수 있다.",
+      "en": "(Can't be used as an enhancing or transcending material)\r\n\r\nA sensor module made from rare material.\r\nNo matter how far, your presence can be clearly felt.",
       "ja": "",
-      "zh_tw": "（無法「超越」、「當作強化材料」）\r\n\r\n紀念2週年的特殊材質感應模組。\r\n就算距離再遙遠，也能清楚感受到你的動靜。",
+      "zh_tw": "（無法「超越」、「當作強化材料」）\r\n\r\n特殊材質感應模組。\r\n就算距離再遙遠，也能清楚感受到你的動靜。",
       "zh_cn": ""
     },
     {
@@ -9596,7 +9604,7 @@
       "no": 223371,
       "kr": "파편 60개 수집시 에픽 정령 릴리트 소환 가능",
       "en": "Collect 60 fragments to summon Epic Soul Lilith.",
-      "ja": "",
+      "ja": "破片60個収集時、エピック精霊リリートの召喚可能",
       "zh_tw": "收集60塊碎片時，即可召喚史詩精靈莉莉絲",
       "zh_cn": "收集60块碎片时，即可召唤史诗精灵莉莉丝"
     },
@@ -9604,7 +9612,7 @@
       "no": 223372,
       "kr": "파편 60개 수집시 에픽 정령 웨리 소환 가능",
       "en": "Collect 60 fragments to summon Epic Soul Wheri.",
-      "ja": "",
+      "ja": "破片60個収集時、エピック精霊ウェリーの召喚可能",
       "zh_tw": "收集60塊碎片時，即可召喚史詩精靈威里",
       "zh_cn": "收集60块碎片时，即可召唤史诗精灵威里"
     },
@@ -9612,8 +9620,16 @@
       "no": 223373,
       "kr": "파편 60개 수집시 에픽 정령 사쿠요(업화) 소환 가능",
       "en": "Collect 60 fragments to summon Epic Soul Sakuyo (Inferno).",
-      "ja": "",
+      "ja": "破片60個収集時、エピック精霊サクヨ(業火)の召喚可能",
       "zh_tw": "收集60塊碎片時，即可召喚史詩精靈櫻世（業火）",
+      "zh_cn": ""
+    },
+    {
+      "no": 223374,
+      "kr": "파편 60개 수집시 에픽 정령 메피스토펠레스(여명) 소환 가능",
+      "en": "Collect 60 fragments to summon Epic Soul Mephistopheles (Dawn).",
+      "ja": "",
+      "zh_tw": "收集60塊碎片時，即可召喚史詩精靈梅菲斯托佩萊斯（黎明）",
       "zh_cn": ""
     },
     {
@@ -10118,7 +10134,7 @@
       "en": "A chest from which you can select a Special Pick-Up Soul (Mephistopheles/Jiho/Aki/Honglan/Erika/Velanna).",
       "ja": "スペシャルピックアップに登場する精霊 (メフィストフェレス/ジホ/アキ/ホンラン/エリカ/ベラナ)の中から1人を選択できるボックス",
       "zh_tw": "能夠從出現在特別Pick Up的精靈（梅菲斯托佩萊斯／智河／秋／紅蘭／艾麗卡／貝拉納）中選擇一個的箱子",
-      "zh_cn": "能够从出现在特别召唤几率提升的精灵（梅菲斯托佩莱斯／智河／秋／红兰／艾丽卡／贝拉纳）中选择一个的箱子"
+      "zh_cn": "能够从出现在特别召唤概率提升的精灵（梅菲斯托佩莱斯／智河／秋／红兰／艾丽卡／贝拉纳）中选择一个的箱子"
     },
     {
       "no": 224134,
@@ -10126,7 +10142,7 @@
       "en": "A chest from which you can obtain a Soul of your choice.\r\n(Only includes Souls prior to Claudia's pick-up summons.)",
       "ja": "エピック精霊を選択して\r\n獲得できるボックス\r\n (クラウディアピックアップ前までの精霊のみ含まれます)",
       "zh_tw": "可獲得想要的精靈\r\n（僅包括克勞迪婭Pick Up以前的精靈）",
-      "zh_cn": "可获得想要的精灵\r\n（仅包括克劳迪娅召唤几率提升以前的精灵）"
+      "zh_cn": "可获得想要的精灵\r\n（仅包括克劳迪娅召唤概率提升以前的精灵）"
     },
     {
       "no": 224135,
@@ -10198,7 +10214,7 @@
       "en": "A chest from which you can select a Soul featured in Pick-Up Choice Summon Season 2.",
       "ja": "ピックアップ選択召喚Season2に登場する精霊の1体を選択できる箱",
       "zh_tw": "能夠從Pick Up選擇召喚（第2季）精靈中選擇一個的箱子",
-      "zh_cn": "能够从召唤几率提升选择召唤（第2季）精灵中选择一个的箱子"
+      "zh_cn": "能够从召唤概率提升选择召唤（第2季）精灵中选择一个的箱子"
     },
     {
       "no": 224144,
@@ -10252,7 +10268,7 @@
       "no": 224150,
       "kr": "런칭~라리마까지 출시 된 정령 중 혼돈형을 제외한 모든 정령의 정령의 기억 중 선택 가능한 상자.",
       "en": "A chest from which you can choose the Soul's Memory of any Soul released up to Larimar, excluding Chaotic Souls.",
-      "ja": "",
+      "ja": "リリース～ラリマーまでの精霊の中から、混沌型を除くすべての精霊の記憶の中で選択できる箱",
       "zh_tw": "除混沌型以外，可在上市～拉利瑪的所有精靈記憶中選擇的箱子。",
       "zh_cn": "除混沌型以外，可在上线～拉利玛的所有精灵记忆中选择的箱子。"
     },
@@ -10323,33 +10339,33 @@
     {
       "no": 224161,
       "kr": "구원자를 위해 정령들이 준비한 특별한 이브 데이 선물.\r\n\"구원자가 살던 곳에서는 이 시기에 이런 걸 먹는구나!\"\r\n친한 정령들과 함께 나눠 먹으면 더욱 맛있다!",
-      "en": "",
+      "en": "A special Eve's Day present for the Savior from the Souls.\r\n\"So, this is what they ate for this occasion back in Savior's time!\"\r\nIt tastes even better when shared with close Souls!",
       "ja": "救世主のために精霊たちが準備した特別なイブの日のプレゼント。\r\n「救世主がいた世界では、この時期にこんなものを食べるんだ！」\r\n仲が良い精霊たちと一緒に分けて食べるともっとおいしい！",
-      "zh_tw": "",
+      "zh_tw": "精靈們為救援者準備的夏娃之日特別禮物。\r\n「原來在救援者以前生活的地方，這時候會吃這種東西！」\r\n跟親近的精靈一起分食會更好吃！",
       "zh_cn": ""
     },
     {
       "no": 224162,
       "kr": "런칭~브라이스까지 출시 된 정령 중 천사형, 악마형, 혼돈형을 제외한 모든 정령의 정령의 기억 중 선택 가능한 상자.",
-      "en": "",
+      "en": "A chest from which you can choose the Soul's Memory of any Soul released up to Bryce, excluding Angel, Demon, and Chaotic Souls.",
       "ja": "サービス開始～ブライス実装までの天使型、悪魔型、混沌型を除くすべての精霊の記憶の中から1種を選択可能なボックス。",
-      "zh_tw": "",
+      "zh_tw": "除天使型、惡魔型、混沌型以外，可在上市～布萊斯的所有精靈記憶中選擇的箱子。",
       "zh_cn": ""
     },
     {
       "no": 224163,
       "kr": "런칭~브라이스까지 출시 된 정령 중 혼돈형을 제외한 모든 정령의 정령의 기억 중 선택 가능한 상자.",
-      "en": "",
+      "en": "A chest from which you can choose the Soul's Memory of any Soul released up to Bryce, excluding Chaotic Souls.",
       "ja": "サービス開始～ブライス実装までの混沌型を除くすべての精霊の記憶の中から1種を選択可能なボックス。",
-      "zh_tw": "",
+      "zh_tw": "除混沌型以外，可在上市～布萊斯的所有精靈記憶中選擇的箱子。",
       "zh_cn": ""
     },
     {
       "no": 224164,
       "kr": "런칭~브라이스까지 출시 된 모든 정령의 유물의 기억 중 선택 가능한 상자.",
-      "en": "",
+      "en": "A chest from which you can choose the Artifact Memory of any Soul released up to Bryce.",
       "ja": "サービス開始～ブライス実装までのすべての精霊の遺物の記憶の中から1種を選択可能なボックス。",
-      "zh_tw": "",
+      "zh_tw": "可在上市～布萊斯的所有精靈遺物記憶中選擇的箱子。",
       "zh_cn": ""
     },
     {
@@ -10852,7 +10868,7 @@
       "no": 225251,
       "kr": "로비 배경을 변경할 수 있습니다. (서커스 무대)\r\n\r\n<문라이트 바니 서커스> 이벤트 스토리 열람 보상으로 획득 가능",
       "en": "You can change the background of the lobby. (Circus Stage)\r\n\r\nCan be obtained as a reward for viewing the Moonlight Bunny Circus Event Story.",
-      "ja": "",
+      "ja": "ロビーの背景を変更できます。 (サーカスステージ)\r\n\r\n<ムーンライトバニーサーカス>イベントストーリー閲覧報酬で獲得可能",
       "zh_tw": "可變更大廳背景（馬戲團舞台）\r\n\r\n觀看＜月光兔兔馬戲團＞活動故事獎勵",
       "zh_cn": "可变更大厅背景（马戏团舞台）\r\n\r\n观看＜月光兔兔马戏团＞活动故事奖励"
     },
@@ -11523,9 +11539,9 @@
     {
       "no": 225701,
       "kr": "2주년 기념 특별 보상으로 획득하는 프레임",
-      "en": "",
+      "en": "A frame that can be obtained as a special 2nd anniversary reward.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "2週年紀念特別獎勵的外框。",
       "zh_cn": ""
     },
     {
@@ -11652,7 +11668,7 @@
       "no": 225717,
       "kr": "악령 토벌(흉몽의 나비 나이아) 최종 1000위 이내 달성 시 획득하는 프레임",
       "en": "Frame obtained upon securing a place within the Top 1,000 in Evil Soul Subjugation (Butterfly of An Ominous Dream Naiah)",
-      "ja": "",
+      "ja": "悪霊討伐(凶夢の蝶ナイア)で最終順位1000位以内を達成すると獲得できるフレーム",
       "zh_tw": "達成惡靈討伐（凶夢之蝶娜伊雅）最終第1000名以內時獲得的外框",
       "zh_cn": ""
     },
@@ -11660,7 +11676,7 @@
       "no": 225718,
       "kr": "악령 토벌(흉몽의 나비 나이아) 최종 300위 이내 달성 시 획득하는 프레임",
       "en": "Frame obtained upon securing a place within the Top 300 in Evil Soul Subjugation (Butterfly of An Ominous Dream Naiah)",
-      "ja": "",
+      "ja": "悪霊討伐(凶夢の蝶ナイア)で最終順位300位以内を達成すると獲得できるフレーム",
       "zh_tw": "達成惡靈討伐（凶夢之蝶娜伊雅）最終第300名以內時獲得的外框",
       "zh_cn": ""
     },
@@ -11668,7 +11684,7 @@
       "no": 225719,
       "kr": "악령 토벌(흉몽의 나비 나이아) 최종 100위 이내 달성 시 획득하는 프레임",
       "en": "Frame obtained upon securing a place within the Top 100 in Evil Soul Subjugation (Butterfly of An Ominous Dream Naiah)",
-      "ja": "",
+      "ja": "悪霊討伐(凶夢の蝶ナイア)で最終順位100位以内を達成すると獲得できるフレーム",
       "zh_tw": "達成惡靈討伐（凶夢之蝶娜伊雅）最終第100名以內時獲得的外框",
       "zh_cn": ""
     },
@@ -11676,7 +11692,7 @@
       "no": 225720,
       "kr": "악령 토벌(흉몽의 나비 나이아) 최종 3위 이내 달성 시 획득하는 프레임",
       "en": "Frame obtained upon securing a place within the Top 3 in Evil Soul Subjugation (Butterfly of An Ominous Dream Naiah)",
-      "ja": "",
+      "ja": "悪霊討伐(凶夢の蝶ナイア)で最終順位3位以内を達成すると獲得できるフレーム",
       "zh_tw": "達成惡靈討伐（凶夢之蝶娜伊雅）最終第3名以內時獲得的外框",
       "zh_cn": ""
     },
@@ -11684,7 +11700,7 @@
       "no": 225721,
       "kr": "악령 토벌(흉몽의 나비 나이아) 최종 2위 이내 달성 시 획득하는 프레임",
       "en": "Frame obtained upon securing a place within the Top 2 in Evil Soul Subjugation (Butterfly of An Ominous Dream Naiah)",
-      "ja": "",
+      "ja": "悪霊討伐(凶夢の蝶ナイア)で最終順位2位以内を達成すると獲得できるフレーム",
       "zh_tw": "達成惡靈討伐（凶夢之蝶娜伊雅）最終第2名以內時獲得的外框",
       "zh_cn": ""
     },
@@ -11692,7 +11708,7 @@
       "no": 225722,
       "kr": "악령 토벌(흉몽의 나비 나이아) 최종 1위 달성 시 획득하는 프레임",
       "en": "Frame obtained upon securing first place in Evil Soul Subjugation (Butterfly of An Ominous Dream Naiah)",
-      "ja": "",
+      "ja": "悪霊討伐(凶夢の蝶ナイア)で最終順位1位を達成すると獲得できるフレーム",
       "zh_tw": "達成惡靈討伐（凶夢之蝶娜伊雅）最終第1名時獲得的外框",
       "zh_cn": ""
     },
@@ -11804,7 +11820,7 @@
       "no": 226002,
       "kr": "데이트 어 소울 이벤트 스토리의 일러스트를 획득합니다.",
       "en": "Unlocks an illustration of the Date A Soul event story.",
-      "ja": "",
+      "ja": "デート・ア・ソウルイベントストーリーのイラストを獲得します。",
       "zh_tw": "獲得約會靈魂活動故事的插圖",
       "zh_cn": "获得约会灵魂活动故事的插图"
     },
@@ -12396,7 +12412,7 @@
       "no": 226231,
       "kr": "연옥으로 가는 길 점령 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained when occupying Road to Purgatory.",
-      "ja": "",
+      "ja": "煉獄への道占領完了時に獲得できるステッカー",
       "zh_tw": "佔領前往煉獄之路時可獲得的貼紙。",
       "zh_cn": ""
     },
@@ -12411,9 +12427,9 @@
     {
       "no": 226302,
       "kr": "정령들과 보낸 즐거운 한때를 기념하는 스티커.\r\n함께 먹은 치킨이 유난히 맛있었던 건 \r\n특별한 애정이 들어있기 때문이겠지.",
-      "en": "",
+      "en": "A sticker to remember a joyful time spent with Souls.\r\nThe chicken tasted better than ever,\r\nprobably thanks to the special bond we shared.",
       "ja": "精霊たちと過ごした楽しいひとときを記念したステッカー。\r\n一緒に食べたチキンが特においしかったのは\r\n特別な愛情が込められているからだろう。",
-      "zh_tw": "",
+      "zh_tw": "紀念與精靈們共度愉悅時光的貼紙。\r\n一起吃的炸雞感覺特別好吃\r\n應該是因為包含特別的情感吧。",
       "zh_cn": ""
     },
     {
@@ -12700,7 +12716,7 @@
       "no": 226436,
       "kr": "악령 토벌(종말을 찌르는 창 리젤로테) 최종 1위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing Evil Soul Subjugation (Doom Piercer Lizelotte) in first place.",
-      "ja": "",
+      "ja": "悪霊討伐 (終末を突き刺す槍リゼロッテ)で最終順位1位を達成すると獲得できるステッカー",
       "zh_tw": "達成惡靈討伐（末日之槍莉澤洛特）最終第1名時獲得的貼紙。",
       "zh_cn": "达成恶灵讨伐（末日之枪莉泽洛特）最终第1名时获得的贴纸。"
     },
@@ -12708,7 +12724,7 @@
       "no": 226437,
       "kr": "악령 토벌(종말을 찌르는 창 리젤로테) 최종 2위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing Evil Soul Subjugation (Doom Piercer Lizelotte) in second place.",
-      "ja": "",
+      "ja": "悪霊討伐 (終末を突き刺す槍リゼロッテ)で最終順位2位を達成すると獲得できるステッカー",
       "zh_tw": "達成惡靈討伐（末日之槍莉澤洛特）最終第2名時獲得的貼紙。",
       "zh_cn": "达成恶灵讨伐（末日之枪莉泽洛特）最终第2名时获得的贴纸。"
     },
@@ -12716,7 +12732,7 @@
       "no": 226438,
       "kr": "악령 토벌(종말을 찌르는 창 리젤로테) 최종 3위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing Evil Soul Subjugation (Doom Piercer Lizelotte) in third place.",
-      "ja": "",
+      "ja": "悪霊討伐 (終末を突き刺す槍リゼロッテ)で最終順位3位を達成すると獲得できるステッカー",
       "zh_tw": "達成惡靈討伐（末日之槍莉澤洛特）最終第3名時獲得的貼紙。",
       "zh_cn": "达成恶灵讨伐（末日之枪莉泽洛特）最终第3名时获得的贴纸。"
     },
@@ -12724,7 +12740,7 @@
       "no": 226439,
       "kr": "악령 토벌(종말을 찌르는 창 리젤로테) 최종 4위~100위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing Evil Soul Subjugation (Doom Piercer Lizelotte) in 4th–100th place.",
-      "ja": "",
+      "ja": "悪霊討伐(終末を突き刺す槍リゼロッテ)で最終順位4位～100位を達成すると獲得できるステッカー",
       "zh_tw": "達成惡靈討伐（末日之槍莉澤洛特）最終第4～第100名時獲得的貼紙。",
       "zh_cn": "达成恶灵讨伐（末日之枪莉泽洛特）最终第4～第100名时获得的贴纸。"
     },
@@ -12732,7 +12748,7 @@
       "no": 226440,
       "kr": "악령 토벌(종말을 찌르는 창 리젤로테) 참여 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon participating in Evil Soul Subjugation (Doom Piercer Lizelotte).",
-      "ja": "",
+      "ja": "悪霊討伐(終末を突き刺す槍リゼロッテ)に参加すると獲得できるステッカー",
       "zh_tw": "參加惡靈討伐（末日之槍莉澤洛特）時獲得的貼紙",
       "zh_cn": "参加恶灵讨伐（末日之枪莉泽洛特）时获得的贴纸"
     },
@@ -12740,7 +12756,7 @@
       "no": 226441,
       "kr": "악령 토벌(흉몽의 나비 나이아) 최종 1위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing Evil Soul Subjugation (Butterfly of An Ominous Dream Naiah) in first place.",
-      "ja": "",
+      "ja": "悪霊討伐(凶夢の蝶ナイア)で最終順位1位を達成すると獲得できるステッカー",
       "zh_tw": "達成惡靈討伐（凶夢之蝶娜伊雅）最終第1名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -12748,7 +12764,7 @@
       "no": 226442,
       "kr": "악령 토벌(흉몽의 나비 나이아) 최종 2위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing Evil Soul Subjugation (Butterfly of An Ominous Dream Naiah) in second place.",
-      "ja": "",
+      "ja": "悪霊討伐(凶夢の蝶ナイア)で最終順位2位を達成すると獲得できるステッカー",
       "zh_tw": "達成惡靈討伐（凶夢之蝶娜伊雅）最終第2名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -12756,7 +12772,7 @@
       "no": 226443,
       "kr": "악령 토벌(흉몽의 나비 나이아) 최종 3위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing Evil Soul Subjugation (Butterfly of An Ominous Dream Naiah) in third place.",
-      "ja": "",
+      "ja": "悪霊討伐(凶夢の蝶ナイア)で最終順位3位を達成すると獲得できるステッカー",
       "zh_tw": "達成惡靈討伐（凶夢之蝶娜伊雅）最終第3名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -12764,7 +12780,7 @@
       "no": 226444,
       "kr": "악령 토벌(흉몽의 나비 나이아) 최종 4위~100위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing Evil Soul Subjugation (Butterfly of An Ominous Dream Naiah) in 4th–100th place.",
-      "ja": "",
+      "ja": "悪霊討伐(凶夢の蝶ナイア)で最終順位4位～100位を達成すると獲得できるステッカー",
       "zh_tw": "達成惡靈討伐（凶夢之蝶娜伊雅）最終第4～100名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -12772,7 +12788,7 @@
       "no": 226445,
       "kr": "악령 토벌(흉몽의 나비 나이아) 참여 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon participating in Evil Soul Subjugation (Butterfly of An Ominous Dream Naiah).",
-      "ja": "",
+      "ja": "悪霊討伐(凶夢の蝶ナイア)に参加すると獲得できるステッカー",
       "zh_tw": "參加惡靈討伐（凶夢之蝶娜伊雅）時獲得的貼紙",
       "zh_cn": ""
     },
@@ -12828,7 +12844,7 @@
       "no": 226607,
       "kr": "월드 보스(베히모스) 최종 1위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing a World Boss (Behemoth) event in first place.",
-      "ja": "",
+      "ja": "ワールドボス(ベヒモス)で最終順位1位を達成すると獲得できるステッカー",
       "zh_tw": "達成世界BOSS（貝希摩斯）最終第1名時獲得的貼紙",
       "zh_cn": "达成世界首领怪物（贝希摩斯）最终第1名时获得的贴纸"
     },
@@ -12836,7 +12852,7 @@
       "no": 226608,
       "kr": "월드 보스(베히모스) 최종 2위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing a World Boss (Behemoth) event in second place.",
-      "ja": "",
+      "ja": "ワールドボス(ベヒモス)で最終順位2位を達成すると獲得できるステッカー",
       "zh_tw": "達成世界BOSS（貝希摩斯）最終第2名時獲得的貼紙",
       "zh_cn": "达成世界首领怪物（贝希摩斯）最终第2名时获得的贴纸"
     },
@@ -12844,7 +12860,7 @@
       "no": 226609,
       "kr": "월드 보스(베히모스) 최종 3위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing a World Boss (Behemoth) event in third place.",
-      "ja": "",
+      "ja": "ワールドボス(ベヒモス)で最終順位3位を達成すると獲得できるステッカー",
       "zh_tw": "達成世界BOSS（貝希摩斯）最終第3名時獲得的貼紙",
       "zh_cn": "达成世界首领怪物（贝希摩斯）最终第3名时获得的贴纸"
     },
@@ -12852,7 +12868,7 @@
       "no": 226610,
       "kr": "월드 보스(베히모스) 최종 4위~100위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing a World Boss (Behemoth) event in 4th–100th place.",
-      "ja": "",
+      "ja": "ワールドボス(ベヒモス)で最終順位4位～100位を達成すると獲得できるステッカー",
       "zh_tw": "達成世界BOSS（貝希摩斯）最終第4名～第100名時獲得的貼紙",
       "zh_cn": "达成世界首领怪物（贝希摩斯）最终第4名～第100名时获得的贴纸"
     },
@@ -12860,7 +12876,7 @@
       "no": 226611,
       "kr": "월드 보스(베히모스) 참여 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon participating in a World Boss (Behemoth) event.",
-      "ja": "",
+      "ja": "悪霊討伐(ベヒモス)に参加すると獲得できるステッカー",
       "zh_tw": "參加世界BOSS（貝希摩斯）時獲得的貼紙",
       "zh_cn": "参加世界首领怪物（贝希摩斯）时获得的贴纸"
     },
@@ -12899,16 +12915,16 @@
     {
       "no": 226705,
       "kr": "2주년 기념 특별 보상으로 획득 가능한 스티커.",
-      "en": "",
+      "en": "A sticker that can be obtained as a special 2nd anniversary reward.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "2週年紀念特別獎勵的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226801,
       "kr": "릴리트 승급 패스 오리진 달성 무료 보상으로 획득 가능한 스티커. \r\n\r\n\"후훗, 제가 완벽한 건 당연하죠?\"",
       "en": "A sticker that can be obtained as a free reward for reaching Origin on Lilith Ascension Pass.\r\n\r\n\"Of course, it is no wonder that I'm perfect.\"",
-      "ja": "",
+      "ja": "リリートの昇級パスのオリジン達成の無料報酬で獲得できるステッカー。\r\n\r\n「ふふっ、私が完璧なのは当然でしょう？」",
       "zh_tw": "達成莉莉絲升階通行證不朽可免費獲得的貼紙獎勵。\r\n\r\n「呵呵，我完美是理所當然的吧？」",
       "zh_cn": "达成莉莉丝升阶通行证不朽可免费获得的贴纸奖励。\r\n\r\n“呵呵，我完美是理所当然的吧？”"
     },
@@ -12916,7 +12932,7 @@
       "no": 226802,
       "kr": "웨리 승급 패스 오리진 달성 무료 보상으로 획득 가능한 스티커. \r\n\r\n\"당신과 함께하니 더 즐겁네요.\"",
       "en": "A sticker that can be obtained as a free reward for reaching Origin on Wheri Ascension Pass.\r\n\r\n\"Being with you makes everything more fun.\"",
-      "ja": "",
+      "ja": "ウェリーの昇級パスのオリジン達成の無料報酬で獲得できるステッカー。\r\n\r\n「貴方と一緒にいるともっと楽しいですね。」",
       "zh_tw": "達成威里升階通行證不朽可免費獲得的貼紙獎勵。\r\n\r\n「和你在一起更愉快。」",
       "zh_cn": "达成威里升阶通行证不朽可免费获得的贴纸奖励。\r\n\r\n“和你在一起更愉快。”"
     },
@@ -12924,16 +12940,16 @@
       "no": 226803,
       "kr": "사쿠요(업화) 승급 패스 오리진 달성 무료 보상으로 획득 가능한 스티커. \r\n\r\n\"어떠냐? 짐의 실력이 너무 뛰어나서 말문이 막혔느냐?\"",
       "en": "A sticker that can be obtained as a free reward for reaching Origin on Sakuyo (Inferno) Ascension Pass.\r\n\r\n\"So? Has my overwhelming prowess rendered you speechless?\"",
-      "ja": "",
+      "ja": "サクヨ(業火)の昇級パスのオリジン達成の無料報酬で獲得できるステッカー。\r\n\r\n「どうだ。余の腕前があまりにも素晴らしすぎて言葉を失ったか？」",
       "zh_tw": "達成櫻世（業火）升階通行證不朽可免費獲得的貼紙獎勵。\r\n\r\n「如何？朕的實力優秀到你說不出話了嗎？」",
       "zh_cn": ""
     },
     {
       "no": 226804,
       "kr": "메피스토펠레스(여명) 승급 패스 오리진 달성 무료 보상으로 획득 가능한 스티커. \r\n\r\n\"구원자님의 오퍼레이터 원, 메피스토펠레스입니다.\"",
-      "en": "",
+      "en": "A sticker that can be obtained as a free reward for reaching Origin on Mephistopheles (Dawn) Ascension Pass.\r\n\r\n\"Your Operator One, Mephistopheles at your service.\"",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成梅菲斯托佩萊斯（黎明）升階通行證不朽可免費獲得的貼紙獎勵。\r\n\r\n「我是救援者的駕駛員一號，梅菲斯托佩萊斯。」",
       "zh_cn": ""
     },
     {
@@ -13011,73 +13027,73 @@
     {
       "no": 226910,
       "kr": "인피니티 보스 챌린지(메카이아) 최종 1위 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon finishing an Infinity Boss Raid (Mecha Gaia) in first place.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Mecha Gaia) in first place.",
       "ja": "",
-      "zh_tw": "達成無限BOSS突襲（機械蓋亞）最終第1名時獲得的貼紙",
+      "zh_tw": "達成無限BOSS挑戰（機械蓋亞）最終第1名時獲得的貼紙",
       "zh_cn": ""
     },
     {
       "no": 226911,
       "kr": "인피니티 보스 챌린지(메카이아) 최종 2위 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon finishing an Infinity Boss Raid (Mecha Gaia) in second place.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Mecha Gaia) in second place.",
       "ja": "",
-      "zh_tw": "達成無限BOSS突襲（機械蓋亞）最終第2名時獲得的貼紙",
+      "zh_tw": "達成無限BOSS挑戰（機械蓋亞）最終第2名時獲得的貼紙",
       "zh_cn": ""
     },
     {
       "no": 226912,
       "kr": "인피니티 보스 챌린지(메카이아) 최종 3위 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon finishing an Infinity Boss Raid (Mecha Gaia) in third place.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Mecha Gaia) in third place.",
       "ja": "",
-      "zh_tw": "達成無限BOSS突襲（機械蓋亞）最終第3名時獲得的貼紙",
+      "zh_tw": "達成無限BOSS挑戰（機械蓋亞）最終第3名時獲得的貼紙",
       "zh_cn": ""
     },
     {
       "no": 226913,
       "kr": "인피니티 보스 챌린지(메카이아) 최종 4~10위 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon finishing an Infinity Boss Raid (Mecha Gaia) in 4th–10th place.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Mecha Gaia) in 4th–10th place.",
       "ja": "",
-      "zh_tw": "達成無限BOSS突襲（機械蓋亞）最終第4～10名時獲得的貼紙",
+      "zh_tw": "達成無限BOSS挑戰（機械蓋亞）最終第4～10名時獲得的貼紙",
       "zh_cn": ""
     },
     {
       "no": 226914,
       "kr": "인피니티 보스 챌린지(메카이아) 최종 11~100위 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon finishing an Infinity Boss Raid (Mecha Gaia) in 11th–100th place.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Mecha Gaia) in 11th–100th place.",
       "ja": "",
-      "zh_tw": "達成無限BOSS突襲（機械蓋亞）最終第11～100名時獲得的貼紙",
+      "zh_tw": "達成無限BOSS挑戰（機械蓋亞）最終第11～100名時獲得的貼紙",
       "zh_cn": ""
     },
     {
       "no": 226915,
       "kr": "인피니티 보스 챌린지(메카이아) 최종 101~500위 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon finishing an Infinity Boss Raid (Mecha Gaia) in 101st–500th place.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Mecha Gaia) in 101st–500th place.",
       "ja": "",
-      "zh_tw": "達成無限BOSS突襲（機械蓋亞）最終第101～500名時獲得的貼紙",
+      "zh_tw": "達成無限BOSS挑戰（機械蓋亞）最終第101～500名時獲得的貼紙",
       "zh_cn": ""
     },
     {
       "no": 226916,
       "kr": "인피니티 보스 챌린지(메카이아) 최종 501~1000위 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon finishing an Infinity Boss Raid (Mecha Gaia) in 501st–1000th place.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Mecha Gaia) in 501st–1000th place.",
       "ja": "",
-      "zh_tw": "達成無限BOSS突襲（機械蓋亞）最終第501～1000名時獲得的貼紙",
+      "zh_tw": "達成無限BOSS挑戰（機械蓋亞）最終第501～1000名時獲得的貼紙",
       "zh_cn": ""
     },
     {
       "no": 226917,
       "kr": "인피니티 보스 챌린지(메카이아) 최종 1001~2000위 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon finishing an Infinity Boss Raid (Mecha Gaia) in 1001st–2000th place.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Mecha Gaia) in 1001st–2000th place.",
       "ja": "",
-      "zh_tw": "達成無限BOSS突襲（機械蓋亞）最終第1001～2000名時獲得的貼紙",
+      "zh_tw": "達成無限BOSS挑戰（機械蓋亞）最終第1001～2000名時獲得的貼紙",
       "zh_cn": ""
     },
     {
       "no": 226918,
       "kr": "인피니티 보스 챌린지(메카이아) 참여 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon participating in an Infinity Boss Raid (Mecha Gaia).",
+      "en": "A sticker that can be obtained upon participating in an Infinity Boss Challenge (Mecha Gaia).",
       "ja": "",
-      "zh_tw": "參加無限BOSS突襲（機械蓋亞）時獲得的貼紙",
+      "zh_tw": "參加無限BOSS挑戰（機械蓋亞）時獲得的貼紙",
       "zh_cn": ""
     },
     {
@@ -13094,7 +13110,7 @@
       "en": "A buttery snack that pairs well with jam and cream.",
       "ja": "香ばしいバターの香りとジャム、クリームが合わさったおやつ。",
       "zh_tw": "香噴噴的鹹奶油味和果醬、甜奶油完美結合的點心。",
-      "zh_cn": "香喷喷的咸奶油味和果酱、甜奶油完美结合的点心。"
+      "zh_cn": "完美融合了香喷喷的黄油、果酱和甜奶油的点心。"
     },
     {
       "no": 227003,
@@ -13166,7 +13182,7 @@
       "en": "A drink filled with the pleasant scent of herbs and flowers.",
       "ja": "心地よいハーブと花の香り豊かな飲み物。",
       "zh_tw": "帶著令人愉快花草香的飲料。",
-      "zh_cn": "带着令人愉快花草香的饮料。"
+      "zh_cn": "带有令人愉快花草香的饮料。"
     },
     {
       "no": 227012,
@@ -14460,7 +14476,7 @@
       "no": 520108,
       "kr": "오퍼레이터 나인",
       "en": "Operator Nine",
-      "ja": "",
+      "ja": "オペレーターナイン",
       "zh_tw": "駕駛員九號",
       "zh_cn": "驾驶员九号"
     },
@@ -14964,7 +14980,7 @@
       "no": 520171,
       "kr": "코드 : 디폴트",
       "en": "Code: Basic",
-      "ja": "",
+      "ja": "コード：デフォルト",
       "zh_tw": "代碼：預設",
       "zh_cn": "拜斯基本时装名字"
     },
@@ -14972,7 +14988,7 @@
       "no": 520172,
       "kr": "선명한 녹음",
       "en": "Vibrant Greenery",
-      "ja": "",
+      "ja": "鮮やかな緑の木々",
       "zh_tw": "鮮明的綠蔭",
       "zh_cn": "鲜明的绿荫"
     },
@@ -14980,7 +14996,7 @@
       "no": 520173,
       "kr": "돌아온 권력",
       "en": "Reclaimed Might",
-      "ja": "",
+      "ja": "戻ってきた権力",
       "zh_tw": "重拾的權力",
       "zh_cn": ""
     },
@@ -14995,9 +15011,9 @@
     {
       "no": 520175,
       "kr": "브리기트 기본 코스튬 ",
-      "en": "",
+      "en": "Brigid's Basic Costume ",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "布利基特基本時裝",
       "zh_cn": ""
     },
     {
@@ -16044,7 +16060,7 @@
       "no": 520531,
       "kr": "모드 : 카모플라쥬",
       "en": "Mode: Camouflage",
-      "ja": "",
+      "ja": "モード：カモフラージュ",
       "zh_tw": "模式：偽裝",
       "zh_cn": "拜斯好感时装名字"
     },
@@ -16100,7 +16116,7 @@
       "no": 520538,
       "kr": "바니 헌터",
       "en": "Bunny Hunter",
-      "ja": "",
+      "ja": "バニー・ハンター",
       "zh_tw": "兔兔獵人",
       "zh_cn": "兔兔猎人"
     },
@@ -16108,7 +16124,7 @@
       "no": 520539,
       "kr": "문라이트 댄서",
       "en": "Moonlight Dancer",
-      "ja": "",
+      "ja": "ムーンライト・ダンサー",
       "zh_tw": "月光舞者",
       "zh_cn": "月光舞者"
     },
@@ -16116,7 +16132,7 @@
       "no": 520540,
       "kr": "나이트메어 쉽",
       "en": "Nightmare Sheep",
-      "ja": "",
+      "ja": "ナイトメア・シップ",
       "zh_tw": "夢魘羊",
       "zh_cn": "梦魇羊"
     },
@@ -16124,7 +16140,7 @@
       "no": 520541,
       "kr": "살랑살랑 폭시 나이트",
       "en": "Whimsical Foxy Nightwear",
-      "ja": "",
+      "ja": "フリフリフォッシーナイト",
       "zh_tw": "輕飄飄狐狸之夜",
       "zh_cn": "轻飘飘狐狸之夜"
     },
@@ -16132,7 +16148,7 @@
       "no": 520542,
       "kr": "로열 나인",
       "en": "Royal Nine",
-      "ja": "",
+      "ja": "ロイヤル・ナイン",
       "zh_tw": "皇家九號",
       "zh_cn": "皇家九号"
     },
@@ -16140,7 +16156,7 @@
       "no": 520543,
       "kr": "운명의 긴 그림자",
       "en": "Looming Shadow of Destiny",
-      "ja": "",
+      "ja": "運命の長い影",
       "zh_tw": "命運的長影",
       "zh_cn": "命运的长影"
     },
@@ -16148,7 +16164,7 @@
       "no": 520544,
       "kr": "마이 페어 레이디",
       "en": "My Fair Lady",
-      "ja": "",
+      "ja": "マイ・フェア・レディ",
       "zh_tw": "窈窕淑女",
       "zh_cn": "窈窕淑女"
     },
@@ -16156,7 +16172,7 @@
       "no": 520545,
       "kr": "수줍은 개화",
       "en": "Bashful Blossom",
-      "ja": "",
+      "ja": "照れくさそうな開花",
       "zh_tw": "羞赧綻放",
       "zh_cn": "羞赧绽放"
     },
@@ -16164,7 +16180,7 @@
       "no": 520546,
       "kr": "입었노라, 세일러복!\t",
       "en": "Sailor Uniform Donned!\t",
-      "ja": "",
+      "ja": "着た、セーラー服！\t",
       "zh_tw": "穿上吧，水手服！\t",
       "zh_cn": ""
     },
@@ -16172,7 +16188,7 @@
       "no": 520547,
       "kr": "아수라의 환상",
       "en": "Asura's Illusion",
-      "ja": "",
+      "ja": "アシュラの幻想",
       "zh_tw": "阿修羅幻影",
       "zh_cn": ""
     },
@@ -16180,7 +16196,7 @@
       "no": 520548,
       "kr": "흑접지몽",
       "en": "Black Butterfly's Dream",
-      "ja": "",
+      "ja": "黒蝶の夢",
       "zh_tw": "黑蝶之夢",
       "zh_cn": ""
     },
@@ -16188,7 +16204,7 @@
       "no": 520549,
       "kr": "악접지몽",
       "en": "Evil Butterfly's Dream",
-      "ja": "",
+      "ja": "悪蝶の夢",
       "zh_tw": "惡蝶之夢",
       "zh_cn": ""
     },
@@ -16196,7 +16212,7 @@
       "no": 520550,
       "kr": "스노우 메르헨",
       "en": "Snow Fantasy",
-      "ja": "",
+      "ja": "スノー・メルヘン",
       "zh_tw": "雪白童話",
       "zh_cn": ""
     },
@@ -16204,7 +16220,7 @@
       "no": 520551,
       "kr": "레디메이드 홀리데이",
       "en": "Ready for the Holidays",
-      "ja": "",
+      "ja": "レディメイド・ホリデー",
       "zh_tw": "度假準備就緒",
       "zh_cn": ""
     },
@@ -16212,7 +16228,7 @@
       "no": 520552,
       "kr": "봄버 캐롤!!",
       "en": "Festive Bomber",
-      "ja": "",
+      "ja": "ボンバー・キャロル！",
       "zh_tw": "轟炸頌歌！！",
       "zh_cn": ""
     },
@@ -16316,7 +16332,7 @@
       "no": 530108,
       "kr": "특수 소재로 만든 첨단 의류.\r\n인간의 왕을 섬기며 헌신을 바치는\r\n그 모습은 언제나 완벽하고, 때로는 냉혹하다.",
       "en": "A high-tech garment made from special fabric.\r\nIts wearer shows flawless dedication to serving the ruler of humans,\r\nsometimes with a touch of icy ruthlessness.",
-      "ja": "",
+      "ja": "特殊素材で作った最先端の服。\r\n人間の王に侍って身を捧げるその姿は\r\n常に完璧で、時には冷酷である。",
       "zh_tw": "用特殊原料做的高科技服裝。\r\n服侍人類主宰者、犧牲奉獻的模樣\r\n隨時都很完美，時而有冷酷的一面。",
       "zh_cn": "用特殊原料做的高科技服装。\r\n服侍人类主宰者、牺牲奉献的模样\r\n随时都很完美，时而有冷酷的一面。"
     },
@@ -16732,7 +16748,7 @@
       "no": 530160,
       "kr": "검고 푸른 색이 특징적인 칼라르 암즈 코퍼레이션의 의료부 제복. \r\n어둠 속에서도 안전하게 녹아들어 적들의 습격에 대비할 수 있다.",
       "en": "Uniform of the Chalar Arms Corporation's medical team in striking black and blue.\r\nDesigned to meld into the shadows, it ensures readiness against any surprise attack.",
-      "ja": "",
+      "ja": "黒くて青い色が特徴のカラールアームズコーポレーション医療部の制服。\r\n闇の中でも安全に溶け込んで、敵の襲撃に備えることができる。",
       "zh_tw": "特徵是黑色和藍色的卡拉爾安茲公司的醫療部制服。\r\n可以安全融入暗夜之中，應付敵人的襲擊。",
       "zh_cn": "特征是黑色和蓝色的卡拉尔安兹公司的医疗部制服。\r\n可以安全融入暗夜之中，应付敌人的袭击。"
     },
@@ -16820,7 +16836,7 @@
       "no": 530171,
       "kr": "칼라르 공화국의 수장이자 에덴 최대 규모 군수 기업의 CEO를 대표하는 기본 복식.\r\n손가락 끝에 이르기까지 철저하게 계산된 카리스마가 대중을 압도한다.",
       "en": "The basic attire for the leader of the Republic of Chalar and CEO of Eden's largest military supplier.\r\nCharisma engineered to perfection, right down to the fingertips, captivates the masses.",
-      "ja": "",
+      "ja": "カラール共和国の首長であり、エデン最大の軍事企業のCEOを代表する基本衣装。\r\n指先まで徹底的に計算されたカリスマが大衆を圧倒する。",
       "zh_tw": "代表卡拉爾共和國的首長，同時也是伊甸園規模最大的軍火企業CEO的基本服飾。\r\n連指尖都經過精打細算的魄力征服了群眾。",
       "zh_cn": "拜斯基本时装说明"
     },
@@ -16828,7 +16844,7 @@
       "no": 530172,
       "kr": "한여름의 눈부신 녹음처럼 아름다운 의상.\r\n풍성한 소매로 웨리에게 우아함을 더해준다.",
       "en": "A stunning outfit reminiscent of midsummer's vibrant greenery.\r\nIts flowing sleeves lend an air of grace to Wheri.",
-      "ja": "",
+      "ja": "真夏の緑の木々のように美しい衣装。\r\nふっくらとした袖はウェリーに優雅さを与えてくれる。",
       "zh_tw": "像仲夏耀眼的綠蔭般美麗的服裝。\r\n用厚重的袖子替威里增添優雅。",
       "zh_cn": "像仲夏耀眼的绿荫般美丽的服装。\r\n用厚重的袖子替威里增添优雅。"
     },
@@ -16836,7 +16852,7 @@
       "no": 530173,
       "kr": "검은색과 붉은색이 강렬하게 조화를 이루는 가온풍 의상.\r\n아수라의 기운을 받아 기존 형태에서 변형되었다고 한다.",
       "en": "A Gaon-style outfit showcasing a bold fusion of black and red.\r\nIt was apparently reshaped under the influence of Asura's energy.",
-      "ja": "",
+      "ja": "黒と赤が強烈に調和したガオン風の衣装。\r\nアシュラのオーラが宿って、従来の形から変形したという。",
       "zh_tw": "黑色和紅色形成強烈組合的加溫風服裝。\r\n據說是接受阿修羅的氣息，從既有型態變形而來。",
       "zh_cn": ""
     },
@@ -16851,9 +16867,9 @@
     {
       "no": 530175,
       "kr": "브리기트 임시",
-      "en": "",
+      "en": "Brigid Temporary",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "布利基特臨時",
       "zh_cn": ""
     },
     {
@@ -16868,7 +16884,7 @@
       "no": 530402,
       "kr": "커다란 토끼 귀 후드가 달린 러블리한 잠옷.\r\n원래는 구원자에게 입히기 위해 산 비장의 잠옷이었으나,\r\n사이즈가 맞지 않아 벨레드가 직접 입게 되었다고 한다.",
       "en": "Lovely pajamas adorned with large bunny ears on the hood.\r\r\nOriginally bought for the Savior, but the size didn't fit.\r\r\nAnd so, Beleth wears them now.",
-      "ja": "大きなうさぎの耳のフードが付いたラブリーなパジャマ。\r\n元は救世主に着せるために買った内緒のパジャマだったが、\r\nサイズが合わず、ベレスが着るようになったという。",
+      "ja": "大きなうさぎの耳のフードが付いたラブリーなパジャマ。\r\n元は救世主に着せるために買った秘蔵のパジャマだったが、\r\nサイズが合わず、ベレスが着るようになったという。",
       "zh_tw": "有巨大兔耳帽兜的可愛睡衣。\r\r\n據說原先是買來讓救援者穿的珍藏睡衣，\r\r\n但尺寸不合，所以最後由貝萊德自己穿上。",
       "zh_cn": "有巨大兔耳帽兜的可爱睡衣。\r\r\n据说原先是买来让救援者穿的珍藏睡衣，\r\r\n但尺寸不合，所以最后由贝莱德自己穿上。"
     },
@@ -17900,7 +17916,7 @@
       "no": 530531,
       "kr": "자칭 '평범하기 그지없는 연구원'의 외출용 사복.\r\n멋쟁이 지인에게 추천받은 코디를 한번에 세트로 구매했다고 한다.",
       "en": "Casual wear for a self-proclaimed \"utterly ordinary researcher\" when going out.\r\nApparently, she bought the whole outfit as a set, recommended by a fashionable acquaintance.",
-      "ja": "",
+      "ja": "自称「平凡すぎる研究員」の外出着。\r\nおしゃれな知り合いのオススメコーディネートを丸ごと購入したという。",
       "zh_tw": "自稱「再平凡不過的研究員」的外出用便服。\r\n據說是接受時髦朋友的推薦，一次購買了整套搭配。",
       "zh_cn": "拜斯好感时装说明"
     },
@@ -17956,7 +17972,7 @@
       "no": 530538,
       "kr": "밤의 숲을 지키는 바니 헌터 의상.\r\n니콜은 조금 부끄러워하고 있긴 하지만, 의외로 활동하기엔 편하다고 한다.\r\n매돌이도 새로운 분장이 마음에 드는 것 같다.",
       "en": "Bunny Hunter outfit for guarding the forest at night.\r\nAlthough a bit embarrassed, Nicole admits it's surprisingly comfortable for physical activity.\r\nEven Maedori seems to approve of the new look.",
-      "ja": "",
+      "ja": "夜の森を守るバニーハンターの衣装。\r\nニコルはちょっと照れているけど、意外と動きやすいという。\r\nタカくんも新しい仮装が気に入っているみたい。",
       "zh_tw": "守護夜晚森林的兔兔獵人服裝。\r\n雖然妮可有點難為情，但據說活動起來出乎意料方便。\r\n小梅似乎也很滿意新的裝扮。",
       "zh_cn": "守护夜晚森林的兔兔猎人服装。\r\n虽然妮可有点难为情，但据说活动起来出乎意料方便。\r\n小梅似乎也很满意新的装扮。"
     },
@@ -17964,7 +17980,7 @@
       "no": 530539,
       "kr": "공연의 마지막을 장식하는 아름다운 디바의 의상.\r\n슬픔도 괴로움도 모두 날려버릴 화려한 무대의 막이 지금 오른다.",
       "en": "The diva's gorgeous costume for the show's grand finale.\r\nThe curtain rises on a spectacular stage, ready to wash away all grief and anguish.",
-      "ja": "",
+      "ja": "公演の最後を飾る美しい歌姫の衣装。\r\n今、悲しみも苦しみもすべて吹き飛ばす華やかなステージの幕が上がる。",
       "zh_tw": "點綴表演結尾的美麗女神服裝。\r\n讓悲傷與痛苦全部一消而散的華麗舞台即將拉開帷幕。",
       "zh_cn": "点缀表演结尾的美丽女神服装。\r\n让悲伤与痛苦全部一消而散的华丽舞台即将拉开帷幕。"
     },
@@ -17972,7 +17988,7 @@
       "no": 530540,
       "kr": "사슬과 스타킹이 섹시한 의상. 핑크빛 리본으로 큐트함을 더했다.\r\n루테의 말을 인용하자면 '인간에게 잡혀 온 악몽의 검은 양'…이라는 컨셉이라는 듯하다.",
       "en": "A bold outfit featuring chains and stockings with a dash of cuteness from pink accents.\r\nAccording to Lute, it represents a black sheep of nightmare captured by a human.",
-      "ja": "",
+      "ja": "チェーンとストッキングがセクシーな衣装。ピンクのリボンで可愛さを加えた。\r\nルーテの言葉によると「人間にさらわれた悪夢の黒い羊」…というコンセプトのようだ。",
       "zh_tw": "鎖鏈和絲襪很性感的服裝，用粉色蝴蝶結增添可愛感。\r\n引用魯特的話來說，就像是「被人類抓來的惡夢黑羊」…這樣的概念。",
       "zh_cn": "锁链和丝袜很性感的服装，用粉色蝴蝶结增添可爱感。\r\n引用鲁特的话来说，就像是“被人类抓来的噩梦黑羊”……这样的概念。"
     },
@@ -17980,7 +17996,7 @@
       "no": 530541,
       "kr": "커다란 여우 귀 후드가 달린 오버핏 잠옷.\r\n선임 오퍼레이터들이 선물해 준 귀여운 잠옷… 이지만,\r\n릴리트가 골라 두었던 파격적인 디자인의 잠옷과 함께 입어 독특한 매력이 생겨났다.",
       "en": "An oversized pajama set featuring a large fox ear hood.\r\nOriginally a cute gift from the senior operators,\r\nit took on an unusual charm upon being paired with Lilith's bold sleepwear.",
-      "ja": "",
+      "ja": "大きなキツネの耳のフードが付いたオーバーサイズのパジャマ。\r\n先輩のオペレーターがプレゼントしてくれた可愛いパジャマ…だけど、\r\nリリートが選んでおいた大胆なデザインのパジャマと一緒に着てみたら、独特な魅力が生まれた。",
       "zh_tw": "有巨大狐狸耳朵帽子的寬版睡衣。\r\n是駕駛員前輩們送的可愛睡衣…\r\n但搭配莉莉絲挑選的設計大膽的睡衣，散發獨特魅力。",
       "zh_cn": "有巨大狐狸耳朵帽子的宽版睡衣。\r\n是驾驶员前辈们送的可爱睡衣……\r\n但搭配莉莉丝挑选的设计大胆的睡衣，散发独特魅力。"
     },
@@ -17988,7 +18004,7 @@
       "no": 530542,
       "kr": "매우 특수한 소재로 만든 첨단 의류.\r\n멸망해가는 세상에 몇 번의 종말이 찾아오더라도,\r\n그녀는 언제나 변함없이 인간의 왕을 위해 헌신할 것이다.",
       "en": "Cutting-edge apparel crafted from an exceptionally unique material.\r\nNo matter how many times the world succumbs to ruin,\r\nher devotion to the ruler of humans will never waver.",
-      "ja": "",
+      "ja": "とても特殊な素材で作った最先端の服。\r\n滅んでいく世界で何度終末が訪れても\r\n彼女は常に人間の王のために献身するだろう。",
       "zh_tw": "使用非常特殊的原料製作的高科技服裝。\r\n無論瀕臨滅亡的世界迎來幾次末日，\r\n她都會為人類主宰者犧牲，永不改變。",
       "zh_cn": "使用非常特殊的原料制作的高科技服装。\r\n无论濒临灭亡的世界迎来几次末日，\r\n她都会为人类主宰者牺牲，永不改变。"
     },
@@ -17996,7 +18012,7 @@
       "no": 530543,
       "kr": "우리가 만나게 된 것은 운명이었을까?\r\n가늘게 이어진 그림자 속에서 탄생한 웨리의 의상.\r\n섹시하지만 치명적인 독을 품고 있다.",
       "en": "Was our meeting destined?\r\nWheri's outfit born from a thin veil of shadow.\r\nSexy, but laced with a deadly poison.",
-      "ja": "",
+      "ja": "私たちの出会いは、運命だったのかな。\r\n細く続いた影の中で生まれたウェリーの衣装。\r\nセクシーだけど、致命的な毒を秘めている。",
       "zh_tw": "我們會相遇是命運嗎？\r\n從細長的陰影中誕生的威里服裝。\r\n雖然性感但具有致命的毒。",
       "zh_cn": "我们会相遇是命运吗？\r\n从细长的阴影中诞生的威里服装。\r\n虽然性感但具有致命的毒。"
     },
@@ -18004,7 +18020,7 @@
       "no": 530544,
       "kr": "칼라르에서 의외로 높은 신분을 지닌 르네의 숙녀 같은 사복. \r\n평소의 전투 의상과는 달리 자연스러운 우아함이 드러난다.",
       "en": "Casual wear fit for a lady of Renee's surprising rank in Chalar.\r\nIt reveals a natural elegance, a contrast to her usual battle gear.",
-      "ja": "",
+      "ja": "カラールで意外と高い地位にあるルネの貴婦人のような私服。\r\n普段の戦闘服とは違って、自然な優雅さが感じられる。",
       "zh_tw": "在卡拉爾具有意外崇高身分的勒內，像淑女般的私服。\r\n和平常的戰鬥服裝不同，展現自然的優雅。",
       "zh_cn": "在卡拉尔具有意外崇高身份的勒内，像淑女般的私服。\r\n和平常的战斗服装不同，展现自然的优雅。"
     },
@@ -18012,7 +18028,7 @@
       "no": 530545,
       "kr": "부드러운 봄날의 꽃처럼 피어난 웨리의 의상.\r\n누군가를 향한 수줍은 마음이 페이렌에 봄을 가져왔다.",
       "en": "Wheri's outfit, blooming like a flower on a delicate spring day.\r\nA bashful heart has brought the season of spring to Fayren.",
-      "ja": "",
+      "ja": "やわらかな春の花のように咲いたウェリーの衣装。\r\n誰かへの照れくさい心がフェイレンに春をもたらした。",
       "zh_tw": "像溫柔的春日花朵般綻放的威里服裝。\r\n向著某人的羞澀心意替費倫帶來了春天。",
       "zh_cn": "像温柔的春日花朵般绽放的威里服装。\r\n向着某人的羞涩心意替费伦带来了春天。"
     },
@@ -18020,7 +18036,7 @@
       "no": 530546,
       "kr": "옷의 주인은 훌쩍 커버렸지만,\r\n가엽게도 옷은 주인을 따라가지 못했다.",
       "en": "The wearer has grown up considerably\r\nwhile the clothes couldn't grow along with her.",
-      "ja": "",
+      "ja": "衣装の持ち主は成長したけど\r\n衣装はかわいそうに、持ち主についていけなかった。",
       "zh_tw": "雖然衣服的主人一下就變大了，\r\n但令人惋惜的是衣服跟不上主人。",
       "zh_cn": ""
     },
@@ -18028,7 +18044,7 @@
       "no": 530547,
       "kr": "사쿠요가 바라던 모습으로 현현한 아수라.\r\n열망을 보여주는 환상은 먹잇감을 집요하게 기다린다.",
       "en": "Asura manifesting in the form Sakuyo wished for.\r\nThis illusion of yearning waits tenaciously for its prey.",
-      "ja": "",
+      "ja": "サクヨが望んでいた姿に顕現したアシュラ。\r\n熱望を示す幻影は、執拗に獲物を待ち続けている。",
       "zh_tw": "以櫻世期望的模樣顯現的阿修羅。\r\n展現出渴望的幻影執著地等著獵物。",
       "zh_cn": ""
     },
@@ -18036,7 +18052,7 @@
       "no": 530548,
       "kr": "악몽 속을 표류하는 꿈의 유배자가 착용한 의상.\r\n스스로를 잃어버린 채 어둠 속을 떠돌고 있다.",
       "en": "An outfit worn by a dream exile drifting through nightmares.\r\nHaving lost her sense of self, she roams aimlessly in the dark.",
-      "ja": "",
+      "ja": "悪夢の中を漂流する夢の流浪者の衣装。\r\n自分を失ったまま、闇の中を漂っている。",
       "zh_tw": "漂流在惡夢裡的夢境流放者裝備的服裝。\r\n她迷失了自己，漂泊在黑暗中。",
       "zh_cn": ""
     },
@@ -18044,7 +18060,7 @@
       "no": 530549,
       "kr": "악몽을 건너온 꿈의 나비를 형상화한 의상.\r\n그저 사랑받기 위해서, 자신과 연관된 모든 추악함을 제거하고 '정화'하려 한다.",
       "en": "Attire fashioned after the dream butterfly traversing a nightmare.\r\nDesperate for love, it she seeks to cleanse herself of every trace of ugliness.",
-      "ja": "",
+      "ja": "悪夢を渡ってきた夢の蝶々を形にした衣装。\r\nただ愛されるために、自分にまつわるすべての醜さを排除し、「浄化」しようとする。",
       "zh_tw": "穿越過惡夢的夢之蝴蝶形象化的服裝。\r\n只是為了得到愛，就想消滅與自己有關的所有醜陋，「淨化」一切。",
       "zh_cn": ""
     },
@@ -18052,7 +18068,7 @@
       "no": 530550,
       "kr": "정체를 숨기고 이브의 날을 조사하기 위해 마련한 라리마의 사복.\r\n아이들에게 줄 선물을 가득 사서 신이 난 날개짓이 평소보다 빠른 것 같다.",
       "en": "Larimar's casual outfit for her undercover investigation of Eve's Day.\r\nHer wings seem to beat faster than usual, possibly brimming with joy as she bought lots of gifts for children.",
-      "ja": "",
+      "ja": "正体を隠してイブの日を調べるために用意したラリマーの私服。\r\n子どもたちへのプレゼントをいっぱい買ってわくわくする羽ばたきはいつもより速いみたい。",
       "zh_tw": "拉利瑪為隱瞞身分，調查夏娃之日所準備的便服。\r\n買了一堆要給小朋友的禮物所以很興奮，翅膀似乎揮動得比平常還快。",
       "zh_cn": ""
     },
@@ -18060,7 +18076,7 @@
       "no": 530551,
       "kr": "이브의 날 메카 컨벤션에 참여한 르네의 이벤트 의상.\r\n매력적인 상품 소개부터 우아한 귀빈 안내까지, 뭐든지 맡겨주시길.",
       "en": "Renee's special outfit for the Eve's Day Mech Convention.\r\nWhether it is presenting exciting merchandise or welcoming esteemed guests, she's up for the task.",
-      "ja": "",
+      "ja": "イブの日のメカコンベンションに参加したルネのイベント衣装。\r\n魅力的な商品の紹介から、優雅な来賓の案内まで、なんでもお任せあれ。",
       "zh_tw": "勒內參加夏娃之日機械展覽的活動服裝。\r\n從充滿魅力的商品介紹到優雅地接待貴賓，無論是什麼都請交給我。",
       "zh_cn": ""
     },
@@ -18068,7 +18084,7 @@
       "no": 530552,
       "kr": "이브의 날 메카 컨벤션에 참여한 플린의 이벤트 의상.\r\n루돌프 뿔이 달린 고글만 내리면 폭탄 터트릴 준비 끝!",
       "en": "Flynn's special outfit for the Eve's Day Mech Convention.\r\nShe just needs to flip down the goggles with Rudolph antlers to blow things up!",
-      "ja": "",
+      "ja": "イブの日のメカコンベンションに参加したフランのイベント衣装。\r\nトナカイの角が付いたゴーグルを下ろすだけで、爆弾を爆発させる準備は完了だ！",
       "zh_tw": "弗林參加夏娃之日機械展覽的活動服裝。\r\n只要放下裝有魯道夫角的護目鏡，引爆炸彈就準備完成！",
       "zh_cn": ""
     },
@@ -18716,7 +18732,7 @@
       "no": 2110065,
       "kr": "유물의 기억 : 방주 카마엘",
       "en": "Artifact Memory: Ark Chamuel",
-      "ja": "",
+      "ja": "遺物の記憶：方舟カマエル",
       "zh_tw": "遺物的記憶：方舟卡摩爾",
       "zh_cn": "神器的记忆：方舟卡摩尔"
     },
@@ -18724,7 +18740,7 @@
       "no": 2110066,
       "kr": "유물의 기억 : 미미르의 샘물",
       "en": "Artifact Memory: Mimisbrunnr",
-      "ja": "",
+      "ja": "遺物の記憶：ミーミルの泉水",
       "zh_tw": "遺物的記憶：密米爾之泉",
       "zh_cn": "神器的记忆：密米尔之泉"
     },
@@ -18732,8 +18748,16 @@
       "no": 2110067,
       "kr": "유물의 기억 : 요시모토 사몬지(업화)",
       "en": "Artifact Memory: Yoshimoto Samonji (Inferno)",
-      "ja": "",
+      "ja": "遺物の記憶：義元左文字(業火)",
       "zh_tw": "遺物的記憶：義元左文字（業火）",
+      "zh_cn": ""
+    },
+    {
+      "no": 2110068,
+      "kr": "유물의 기억 : 여명의 방주 메타트론",
+      "en": "Artifact Memory: Ark of Dawn Metatron",
+      "ja": "",
+      "zh_tw": "遺物的記憶：黎明方舟梅塔特隆",
       "zh_cn": ""
     },
     {
@@ -22084,7 +22108,7 @@
       "no": 2144601,
       "kr": "서커스 분장실",
       "en": "Circus Dressing Room",
-      "ja": "",
+      "ja": "サーカス楽屋",
       "zh_tw": "馬戲團化妝室",
       "zh_cn": "马戏团化妆室"
     },
@@ -22092,7 +22116,7 @@
       "no": 2144602,
       "kr": "서커스 마차",
       "en": "Circus Carriage",
-      "ja": "",
+      "ja": "サーカス馬車",
       "zh_tw": "馬戲團馬車",
       "zh_cn": "马戏团马车"
     },
@@ -22100,7 +22124,7 @@
       "no": 2144603,
       "kr": "아슬아슬 칼 던지기",
       "en": "Thrilling Knife Throwing",
-      "ja": "",
+      "ja": "ぎりぎりナイフ投げ",
       "zh_tw": "驚險飛刀",
       "zh_cn": "惊险飞刀"
     },
@@ -22108,7 +22132,7 @@
       "no": 2144604,
       "kr": "루테의 판타스틱 쇼타임",
       "en": "Lute's Fantastic Show Time",
-      "ja": "",
+      "ja": "ルーテのファンタスティック・ショータイム",
       "zh_tw": "魯特的夢幻表演",
       "zh_cn": "鲁特的梦幻表演"
     },
@@ -22116,7 +22140,7 @@
       "no": 2144605,
       "kr": "터진다! 대포",
       "en": "Boom! Cannon",
-      "ja": "",
+      "ja": "バン！大砲",
       "zh_tw": "要爆炸了！大砲",
       "zh_cn": "要爆炸了！大炮"
     },
@@ -22124,7 +22148,7 @@
       "no": 2144606,
       "kr": "알록달록 풍선 카트",
       "en": "Colorful Balloon Cart",
-      "ja": "",
+      "ja": "色とりどりの風船キット",
       "zh_tw": "繽紛氣球車",
       "zh_cn": "缤纷气球车"
     },
@@ -22132,7 +22156,7 @@
       "no": 2144607,
       "kr": "사자 포토존",
       "en": "Lion Photo Spot",
-      "ja": "",
+      "ja": "ライオンのフォトゾーン",
       "zh_tw": "獅子拍照區",
       "zh_cn": "狮子拍照区"
     },
@@ -22140,7 +22164,7 @@
       "no": 2144608,
       "kr": "환영해요! 풍선 인형",
       "en": "Welcoming Balloon Figure",
-      "ja": "",
+      "ja": "いらっしゃい！バルーン人形",
       "zh_tw": "歡迎光臨！氣球人偶",
       "zh_cn": "欢迎光临！气球人偶"
     },
@@ -22148,7 +22172,7 @@
       "no": 2144609,
       "kr": "체크무늬 타일",
       "en": "Checkerboard Tile",
-      "ja": "",
+      "ja": "チェック模様タイル",
       "zh_tw": "格紋地磚",
       "zh_cn": "格纹地砖"
     },
@@ -22156,7 +22180,7 @@
       "no": 2144610,
       "kr": "파이어 링",
       "en": "Ring of Fire",
-      "ja": "",
+      "ja": "ファイヤーリング",
       "zh_tw": "火圈",
       "zh_cn": "火圈"
     },
@@ -22164,7 +22188,7 @@
       "no": 2144611,
       "kr": "깜짝 상자",
       "en": "Jack-In-The-Box",
-      "ja": "",
+      "ja": "サプライズボックス",
       "zh_tw": "驚嚇箱",
       "zh_cn": "惊吓箱"
     },
@@ -22172,7 +22196,7 @@
       "no": 2144612,
       "kr": "서커스 열기구",
       "en": "Circus Hot Air Balloon",
-      "ja": "",
+      "ja": "サーカス熱気球",
       "zh_tw": "馬戲團熱氣球",
       "zh_cn": "马戏团热气球"
     },
@@ -22180,7 +22204,7 @@
       "no": 2144701,
       "kr": "행복을 나르는 기차",
       "en": "The Happiness Locomotive",
-      "ja": "",
+      "ja": "幸せを運ぶ列車",
       "zh_tw": "運送幸福的火車",
       "zh_cn": ""
     },
@@ -22188,7 +22212,7 @@
       "no": 2144702,
       "kr": "장난감 공장",
       "en": "Toy Factory",
-      "ja": "",
+      "ja": "おもちゃ工場",
       "zh_tw": "玩具工廠",
       "zh_cn": ""
     },
@@ -22196,7 +22220,7 @@
       "no": 2144703,
       "kr": "꿈 가득 패키지",
       "en": "Dreamful Package",
-      "ja": "",
+      "ja": "夢いっぱいパック",
       "zh_tw": "滿滿夢境禮包",
       "zh_cn": ""
     },
@@ -22204,7 +22228,7 @@
       "no": 2144704,
       "kr": "라리마의 눈 내린 썰매 광장",
       "en": "Larimar's Snowy Sledding Plaza",
-      "ja": "",
+      "ja": "ラリマーの雪が積もったそり広場",
       "zh_tw": "拉利瑪下雪的雪橇廣場",
       "zh_cn": ""
     },
@@ -22212,7 +22236,7 @@
       "no": 2144705,
       "kr": "녹아버린 눈사람",
       "en": "Melted Snowman",
-      "ja": "",
+      "ja": "解けてしまった雪だるま",
       "zh_tw": "融化的雪人",
       "zh_cn": ""
     },
@@ -22220,7 +22244,7 @@
       "no": 2144706,
       "kr": "부쉬 드 노엘",
       "en": "Yule Log",
-      "ja": "",
+      "ja": "ブッシュドノエル",
       "zh_tw": "聖誕樹幹蛋糕",
       "zh_cn": ""
     },
@@ -22228,7 +22252,7 @@
       "no": 2144707,
       "kr": "칼라르식 트리",
       "en": "Chalar-Style Christmas Tree",
-      "ja": "",
+      "ja": "カラール式ツリー",
       "zh_tw": "卡拉爾式樹木",
       "zh_cn": ""
     },
@@ -22236,7 +22260,7 @@
       "no": 2144708,
       "kr": "크리스마스 노움",
       "en": "Christmas Gnomes",
-      "ja": "",
+      "ja": "クリスマスノーム",
       "zh_tw": "聖誕地精",
       "zh_cn": ""
     },
@@ -22244,7 +22268,7 @@
       "no": 2144709,
       "kr": "달콤한 과자집",
       "en": "Sweet Gingerbread House",
-      "ja": "",
+      "ja": "甘いお菓子の家",
       "zh_tw": "薑餅屋",
       "zh_cn": ""
     },
@@ -22252,7 +22276,7 @@
       "no": 2144710,
       "kr": "새하얀 발자국",
       "en": "White Footprints",
-      "ja": "",
+      "ja": "真っ白な足跡",
       "zh_tw": "雪白腳印",
       "zh_cn": ""
     },
@@ -22260,7 +22284,7 @@
       "no": 2144711,
       "kr": "장난감 병정",
       "en": "Toy Soldier",
-      "ja": "",
+      "ja": "おもちゃの兵隊",
       "zh_tw": "玩具士兵",
       "zh_cn": ""
     },
@@ -22455,6 +22479,14 @@
       "ja": "刻々帝",
       "zh_tw": "刻刻帝",
       "zh_cn": "刻刻帝"
+    },
+    {
+      "no": 2147103,
+      "kr": "2주년 기념 케이크",
+      "en": "2nd Anniversary Cake",
+      "ja": "",
+      "zh_tw": "2週年紀念蛋糕",
+      "zh_cn": ""
     },
     {
       "no": 2148001,
@@ -22703,6 +22735,22 @@
       "ja": "古代記憶の石",
       "zh_tw": "古代記憶之石",
       "zh_cn": "古代记忆之石"
+    },
+    {
+      "no": 2148095,
+      "kr": "마나석 발굴터",
+      "en": "Manastone Dig Site",
+      "ja": "",
+      "zh_tw": "魔力石挖掘場",
+      "zh_cn": ""
+    },
+    {
+      "no": 2148096,
+      "kr": "강화석 정제소",
+      "en": "Enhance Stone Refinery",
+      "ja": "",
+      "zh_tw": "強化石精煉場",
+      "zh_cn": ""
     },
     {
       "no": 2149000,
@@ -23412,7 +23460,7 @@
       "no": 2210065,
       "kr": "릴리트의 유물, 방주 카마엘의 기억입니다.\r\n유물을 획득하거나 승급에 사용됩니다.",
       "en": "Artifact of Lilith. The Memory of Ark Chamuel.\r\nUsed to obtain or ascend Artifacts.",
-      "ja": "",
+      "ja": "リリートの遺物、方舟カマエルの記憶です。\r\n遺物獲得や昇級に使用されます。",
       "zh_tw": "莉莉絲的遺物，方舟卡摩爾的記憶。\r\n可獲得遺物或用來升階。",
       "zh_cn": "莉莉丝的神器，方舟卡摩尔的记忆。\r\n可获得神器或用来升阶。"
     },
@@ -23420,7 +23468,7 @@
       "no": 2210066,
       "kr": "웨리의 유물, 미미르의 샘물의 기억입니다.\r\n유물을 획득하거나 승급에 사용됩니다.",
       "en": "Artifact of Wheri. The Memory of Mimisbrunnr.\r\nUsed to obtain or ascend Artifacts.",
-      "ja": "",
+      "ja": "ウェリーの遺物、ミーミルの泉水の記憶です。\r\n遺物獲得や昇級に使用されます。",
       "zh_tw": "威里的遺物，密米爾之泉的記憶。\r\n可獲得遺物或用來升階。",
       "zh_cn": "威里的神器，密米尔之泉的记忆。\r\n可获得神器或用来升阶。"
     },
@@ -23428,8 +23476,16 @@
       "no": 2210067,
       "kr": "사쿠요(업화)의 유물, 요시모토 사몬지(업화)의 기억입니다.\r\n유물을 획득하거나 승급에 사용됩니다.",
       "en": "Artifact of Sakuyo (Inferno). The Memory of the Yoshimoto Samonji (Inferno).\r\nUsed to obtain or ascend Artifacts.",
-      "ja": "",
+      "ja": "サクヨ(業火)の遺物、義元左文字(業火)の記憶です。\r\n遺物獲得や昇級に使用されます。",
       "zh_tw": "櫻世（業火）的遺物，義元左文字（業火）的記憶\r\n可獲得遺物或用來升階",
+      "zh_cn": ""
+    },
+    {
+      "no": 2210068,
+      "kr": "메피스토펠레스(여명)의 유물, 여명의 방주 메타트론의 기억입니다.\r\n유물을 획득하거나 승급에 사용됩니다.",
+      "en": "Artifact of Mephistopheles (Dawn). The Memory of the Ark of Dawn Metatron.\r\nUsed to obtain or ascend Artifacts.",
+      "ja": "",
+      "zh_tw": "梅菲斯托佩萊斯（黎明）的遺物，黎明方舟梅塔特隆的記憶。\r\n可獲得遺物或用來升階。",
       "zh_cn": ""
     },
     {
@@ -24014,7 +24070,7 @@
       "en": "Ark Metatron's backup circuit, found from an ark manufacturing facility of the Dominas.\r\r\nUsed to enhance the Ark's main system.",
       "ja": "超人類の方舟の製造施設で発見された1号方舟メタトロン用の予備回路。\r\n方舟のメインシステムの強化に使用されます。",
       "zh_tw": "在超人類方舟製造設施中發現的1號方舟梅塔特隆專用備用迴路。\r\r\n用於強化方舟主要系統。",
-      "zh_cn": "在超人类方舟制造设施中发现的1号方舟梅塔特隆专用备用回路。\r\r\n用于强化方舟主要系统。"
+      "zh_cn": "在超人类方舟制造设施中发现的1号方舟梅塔特隆专属备用回路。\r\n用于强化方舟主系统。"
     },
     {
       "no": 2212007,
@@ -26812,7 +26868,7 @@
       "no": 2244601,
       "kr": "환상적인 서커스가 시작되는 중요한 장소, 분장실.\r\n화장품, 거울, 깃털, 가면 등 필요한 모든 것이 준비되어 있다.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 더스트를 +20/분 추가로 획득</color>할 수 있습니다.",
       "en": "The dressing room, a vital spot where the circus magic comes alive.\r\nStocked with cosmetics, mirrors, feathers, masks, and everything else one could need.\r\n\r\nPlace it in town to receive an <color=\"#2d9b00\">additional 20 Mana Dust per minute in loot</color>.",
-      "ja": "",
+      "ja": "幻想的なサーカスが始まる重要な場所、それは楽屋。\r\n化粧品や鏡、羽根、マスクなど、必要なものが揃っている。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品マナダストを+20/分追加で獲得</color>できます。",
       "zh_tw": "夢幻馬戲團開始的重要地點，化妝室。\r\n化妝品、鏡子、羽毛、面具等需要的一切都準備好了。\r\n\r\n配置在領地可<color=\"#2d9b00\">額外獲得戰利品魔力粉塵＋20／分鐘</color>。",
       "zh_cn": "梦幻马戏团开始的重要地点，化妆室。\r\n化妆品、镜子、羽毛、面具等需要的一切都准备好了。\r\n\r\n配置在领地可<color=\"#2d9b00\">额外获得战利品魔力粉尘＋20／分钟</color>。"
     },
@@ -26820,7 +26876,7 @@
       "no": 2244602,
       "kr": "화려하고 아름다운 서커스 마차.\r\n창문에 찍힌 손자국은 누구의 손자국일까?\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 골드를 +15/분 추가로 획득</color>할 수 있습니다.",
       "en": "A stunningly ornate circus carriage.\r\nWhose handprint is that on the window?\r\n\r\nPlace it in town to receive an <color=\"#2d9b00\">additional 15 Gold per minute in loot</color>.",
-      "ja": "",
+      "ja": "華やかで美しいサーカス馬車。\r\n窓についた手の跡は誰のものなのだろう？\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品ゴールドを+15/分追加で獲得</color>できます。",
       "zh_tw": "華麗又漂亮的馬戲團馬車。\r\n印在窗戶上的手印會是誰的呢？\r\n\r\n配置在領地可<color=\"#2d9b00\">額外獲得戰利品金幣＋15／分鐘</color>。",
       "zh_cn": "华丽又漂亮的马戏团马车。\r\n印在窗户上的手印会是谁的呢？\r\n\r\n配置在领地可<color=\"#2d9b00\">额外获得战利品金币＋15／分钟</color>。"
     },
@@ -26828,7 +26884,7 @@
       "no": 2244603,
       "kr": "서커스의 하이라이트, 칼 던지기를 위한 무대.\r\n묘기의 희생양은 누군가를 닮은 토끼 인형.\r\n어지러울 수 있으니 돌아가는 원판을 오래 보지 말자.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 골드를 +15/분 추가로 획득</color>할 수 있습니다.",
       "en": "A stage for thrilling knife-throwing, the highlight of the circus.\r\nThe target is a stuffed bunny that looks oddly familiar.\r\nAvoid looking at the spinning wheel too long, or you might get dizzy.\r\n\r\nPlace it in town to receive an <color=\"#2d9b00\">additional 15 Gold per minute in loot</color>.",
-      "ja": "",
+      "ja": "サーカスの華、ナイフ投げのためのステージ。\r\n芸の犠牲になったのは、誰かに似ているウサギのぬいぐるみ。\r\nめまいがするので、回る円盤は長く見ないことにしよう。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品ゴールドを+15/分追加で獲得</color>できます。",
       "zh_tw": "馬戲團的亮點，飛刀舞台。\r\n特技的犧牲品是很像某人的兔子娃娃。\r\n可能會感到暈眩，所以不要長時間看著轉動的圓盤。\r\n\r\n配置在領地可<color=\"#2d9b00\">額外獲得戰利品金幣＋15／分鐘</color>。",
       "zh_cn": "马戏团的亮点，飞刀舞台。\r\n特技的牺牲品是很像某人的兔子娃娃。\r\n可能会感到晕眩，所以不要长时间看着转动的圆盘。\r\n\r\n配置在领地可<color=\"#2d9b00\">额外获得战利品金币＋15／分钟</color>。"
     },
@@ -26836,7 +26892,7 @@
       "no": 2244604,
       "kr": "바니 서커스단의 쇼가 시작되는 화려한 무대.\r\n아슬아슬한 중심 잡기 쇼가 시작되면 박수가 절로 쏟아질 것이다.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">특별한 아르바이트를 진행</color>할 수 있습니다.\r\n\r\n루테를 오브제에 배치하면 <color=\"#2d9b00\">루테의 방어력이 12% 증가</color>합니다. \r\n(다른 오브제에 중복 배치 불가)",
       "en": "A spectacular stage where the Bunny Circus troupe's show takes flight.\r\nWhen the breathtaking balancing act begins, the applause will be unstoppable.\r\n\r\nPlace it in town to unlock a <color=\"#2d9b00\">special part-time job</color>.\r\n\r\nDeploying Lute to this structure will <color=\"#2d9b00\">increase Lute's DEF by 12%</color>.\r\n(Each Soul can occupy only one structure.)",
-      "ja": "",
+      "ja": "バニーサーカス団のショーが始まる華麗なステージ。\r\nハラハラするバランス芸が始まると、自然に拍手が沸き起こるだろう。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">特別なバイトを進行</color>できます。\r\n\r\nルーテをオブジェに配置すると、<color=\"#2d9b00\">ルーテの防御力が12%増加</color>します。\r\n(他のオブジェに重ねて配置不可)",
       "zh_tw": "兔兔馬戲團表演開始的華麗舞台。\r\n驚險的平衡表演開始後，就會不自覺響起熱烈的掌聲。\r\n\r\n配置在領地<color=\"#2d9b00\">可進行特別的打工</color>。\r\n\r\n將魯特配置於物件可<color=\"#2d9b00\">增加魯特防禦力12%</color>。\r\n（不可重複配置在其他物件）",
       "zh_cn": "兔兔马戏团表演开始的华丽舞台。\r\n惊险的平衡表演开始后，就会不自觉响起热烈的掌声。\r\n\r\n配置在领地<color=\"#2d9b00\">可进行特别的打工</color>。\r\n\r\n将鲁特配置于物件可<color=\"#2d9b00\">增加鲁特防御力12%</color>。\r\n（不可重复配置在其他物件）"
     },
@@ -26844,7 +26900,7 @@
       "no": 2244605,
       "kr": "알록달록 장식된 대포.\r\n언제 터질지 모르니 조심해야 한다.",
       "en": "A cannon with colorful decorations.\r\nWatch out since you never know when it might go off.",
-      "ja": "",
+      "ja": "カラフルに飾った大砲。\r\nいつ爆発するか分からないので気をつけよう。",
       "zh_tw": "裝飾得花花綠綠的大砲。\r\n不知道什麼時候會爆炸，所以必須小心點。",
       "zh_cn": "装饰得花花绿绿的大炮。\r\n不知道什么时候会爆炸，所以必须小心点。"
     },
@@ -26852,7 +26908,7 @@
       "no": 2244606,
       "kr": "풍선을 판매하는 카트.\r\n동심으로 돌아간 기분을 느낄 수 있다.",
       "en": "A cart selling balloons.\r\nMakes you feel like a kid again.",
-      "ja": "",
+      "ja": "風船を販売しているカート。\r\n童心に帰ったような気分。",
       "zh_tw": "販售氣球的推車。\r\n能感受到回到童心的感覺。",
       "zh_cn": "贩售气球的推车。\r\n能感受到回到童心的感觉。"
     },
@@ -26860,7 +26916,7 @@
       "no": 2244607,
       "kr": "사자에게 잡아먹힐 수 있는 포토존.\r\n패널 뒤쪽으로 가면 얼굴을 넣어볼 수 있다.\r\n사자의 얼굴이 어쩐지 익숙한 것 같은데...?",
       "en": "A photo spot where you can look like a lion's next meal.\r\nStand behind the panel and place your face through the hole.\r\nThat lion's face seems oddly familiar...",
-      "ja": "",
+      "ja": "ライオンに食べられる体験ができるフォトゾーン。\r\nパネルの後ろから顔を出すことができる。\r\nライオンの顔は見覚えがあるような…？",
       "zh_tw": "可能會被獅子吃掉的拍照區。\r\n走到板子後面可以把臉放進去。\r\n難怪獅子的臉感覺很熟悉…？",
       "zh_cn": "可能会被狮子吃掉的拍照区。\r\n走到板子后面可以把脸放进去。\r\n难怪狮子的脸感觉很熟悉……？"
     },
@@ -26868,7 +26924,7 @@
       "no": 2244608,
       "kr": "손님을 환영하는 풍선 인형.\r\n귀여운 가면을 쓰고 있지만 그 가면 뒤엔…",
       "en": "A balloon figure welcoming visitors.\r\nBehind that adorable mask, however...",
-      "ja": "",
+      "ja": "客を歓迎する風船人形。\r\n可愛い仮面をつけているけど、その仮面の後ろには…",
       "zh_tw": "歡迎客人的氣球人偶。\r\n雖然戴著可愛的面具，但在那面具之後…",
       "zh_cn": "欢迎客人的气球人偶。\r\n虽然戴着可爱的面具，但在那面具之后……"
     },
@@ -26876,7 +26932,7 @@
       "no": 2244609,
       "kr": "흑백 체크무늬 타일.\r\n어떤 장소도 화려한 분위기로 만들어준다.",
       "en": "Black-and-white checkered tiles.\r\nBring a touch of elegance to any space.",
-      "ja": "",
+      "ja": "モノクロのチェック模様タイル。\r\nどこでも華やかな雰囲気にしてくれる。",
       "zh_tw": "黑白格紋磁磚。\r\n無論什麼地點都能打造華麗的氣氛。",
       "zh_cn": "黑白格纹磁砖。\r\n无论什么地点都能打造华丽的气氛。"
     },
@@ -26884,7 +26940,7 @@
       "no": 2244610,
       "kr": "묘기를 위해 준비된 불타는 링.\r\n하지만 어쩐지 뜨겁지 않다. 예산이 부족한 걸까?",
       "en": "A fiery ring set up for daring stunts.\r\nFor some reason, it doesn't feel hot. Budget cuts, perhaps?",
-      "ja": "",
+      "ja": "妙技のために燃えているリング。\r\nでも、熱くはない。予算が足りないのかな？",
       "zh_tw": "為了特技準備的燃燒圓環。\r\n但總覺得不熱，是預算不足嗎？",
       "zh_cn": "为了特技准备的燃烧圆环。\r\n但总觉得不热，是预算不足吗？"
     },
@@ -26892,7 +26948,7 @@
       "no": 2244611,
       "kr": "레버를 돌리면 인형이 튀어나오는 깜짝 상자와 장난감.\r\n나만의 미니 서커스 공연을 해보자!",
       "en": "Crank the handle, and a surprise figure pops out.\r\nPerfect for staging your own little circus act!",
-      "ja": "",
+      "ja": "レバーを回すとぬいぐるみが飛び出してくるサプライズボックスとおもちゃ。\r\n自分だけの小さなサーカス公演をしよう！",
       "zh_tw": "轉動控制桿，玩偶就會蹦出來的驚喜箱子和玩具。\r\n試著展開屬於自己的迷你馬戲團表演吧！",
       "zh_cn": "转动控制杆，玩偶就会蹦出来的惊喜箱子和玩具。\r\n试着展开属于自己的迷你马戏团表演吧！"
     },
@@ -26900,7 +26956,7 @@
       "no": 2244612,
       "kr": "서커스 천막 앞에 설치된 열기구.\r\n열기구를 타고 하늘로 올라가면 세상이 다르게 보인다.",
       "en": "A hot air balloon stationed by the circus tent.\r\nFloat up high in the air, and the world takes on a whole new view.",
-      "ja": "",
+      "ja": "サーカステントの前に設置した熱気球。\r\n熱気球に乗って空に上がると、違う景色が見える。",
       "zh_tw": "設置於馬戲團帳篷前的熱氣球。\r\n坐熱氣球登上天空，世界看起來會不一樣。",
       "zh_cn": "设置于马戏团帐篷前的热气球。\r\n坐热气球登上天空，世界看起来会不一样。"
     },
@@ -26908,7 +26964,7 @@
       "no": 2244701,
       "kr": "장난감을 가득 실은 기차.\r\n칙칙폭폭! 다음엔 누구에게 선물을 줄까?\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 골드를 +15/분 추가로 획득</color>할 수 있습니다.",
       "en": "A train packed with toys.\r\nChoo-choo! Who will be the next to get a present?\r\n\r\nPlace it in town to receive an <color=\"#2d9b00\">additional 15 Gold per minute in loot</color>.",
-      "ja": "",
+      "ja": "おもちゃをいっぱい乗せた列車。\r\nポッポー！次は誰にプレゼントをあげようか？\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品マナダストを+20/分追加で獲得</color>できます。",
       "zh_tw": "裝滿玩具的火車。\r\n滋滋噗噗！接下來要送誰禮物呢？\r\n\r\n配置在領地可<color=\"#2d9b00\">額外獲得戰利品金幣+15／分鐘</color>。",
       "zh_cn": ""
     },
@@ -26916,7 +26972,7 @@
       "no": 2244702,
       "kr": "선물 상자 속 장난감이 만들어지는 공장.\r\n잘못 건드리면 고장 날 수 있으니 조심하자.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 더스트를 +20/분 추가로 획득</color>할 수 있습니다.",
       "en": "A factory producing toys for gift boxes.\r\nHandle with care, as any mistake could cause a malfunction.\r\n\r\nPlace it in town to receive an <color=\"#2d9b00\">additional 20 Mana Dust per minute in loot</color>.",
-      "ja": "",
+      "ja": "プレゼントボックスの中のおもちゃが作られる工場。\r\n下手に触ると故障することもあるので注意しよう。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品ゴールドを+15/分追加で獲得</color>できます。",
       "zh_tw": "禮盒中的玩具製作而成的工廠。\r\n一個不注意就會弄壞，要小心。\r\n\r\n配置在領地可<color=\"#2d9b00\">額外獲得戰利品魔力粉塵＋20／分鐘</color>。",
       "zh_cn": ""
     },
@@ -26924,7 +26980,7 @@
       "no": 2244703,
       "kr": "집 모양 패키지 상자.\r\n상자 안에 들어가면 장난감이 된 기분을 느낄 수 있다.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 골드를 +15/분 추가로 획득</color>할 수 있습니다.",
       "en": "A package box shaped like a house.\r\nStepping inside can make one feel like a toy.\r\n\r\nPlace it in town to receive an <color=\"#2d9b00\">additional 15 Gold per minute in loot</color>.",
-      "ja": "",
+      "ja": "家の形のパックボックス。\r\nボックスの中に入ると、おもちゃになったような気分。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品ゴールドを+15/分追加で獲得</color>できます。",
       "zh_tw": "房子外觀的禮包箱子。\r\n進到箱子裡可以感受到變成玩具的感覺。\r\n\r\n配置在領地可<color=\"#2d9b00\">額外獲得戰利品金幣＋15／分鐘</color>。",
       "zh_cn": ""
     },
@@ -26932,7 +26988,7 @@
       "no": 2244704,
       "kr": "산타가 선물을 나눠주는 크리스마스 광장.\r\n썰매를 끄는 두 마리의 양이 아주 귀엽다.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">특별한 아르바이트를 진행</color>할 수 있습니다.\r\n\r\n라리마를 오브제에 배치하면 <color=\"#2d9b00\">라리마의 체력이 10% 증가</color>합니다. \r\n(다른 오브제에 중복 배치 불가)",
       "en": "A Christmas plaza where Santa hands out presents.\r\nThe two sheep pulling his sleigh are irresistibly cute.\r\n\r\nPlace it in town to unlock a <color=\"#2d9b00\">special part-time job</color>.\r\n\r\nDeploying Larimar to this structure will <color=\"#2d9b00\">increase Larimar's HP by 10%</color>.\r\n(Each Soul can occupy only one structure.)",
-      "ja": "",
+      "ja": "サンタがプレゼントを配るクリスマスの広場。\r\nそりを引く2匹の羊がとても可愛い。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">特別なバイトを進行</color>できます。\r\n\r\nラリマーをオブジェに配置すると、<color=\"#2d9b00\">ラリマーの攻撃力が10%増加</color>します。\r\n(他のオブジェに重ねて配置不可)",
       "zh_tw": "聖誕老人發禮物的聖誕節廣場。\r\n拖著雪橇的兩隻羊非常可愛。\r\n\r\n配置在領地可<color=\"#2d9b00\">進行特別的打工</color>。\r\n\r\n將拉利瑪配置於物件可<color=\"#2d9b00\">增加拉利瑪的體力10%</color>。\r\n（不可重複配置在其他物件）",
       "zh_cn": ""
     },
@@ -26940,7 +26996,7 @@
       "no": 2244705,
       "kr": "따뜻한 날씨에 녹아버린 눈사람.\r\n태양을 올려다보는 눈이 슬퍼 보인다.",
       "en": "A snowman melting away in the warmth of the day.\r\nIts sad eyes are fixed on the sun.",
-      "ja": "",
+      "ja": "暖かくて溶けてしまった雪だるま。\r\n太陽を眺める目が悲しそう。",
       "zh_tw": "因溫暖天氣融化的雪人。\r\n抬頭望向太陽的眼神看起來很悲傷。",
       "zh_cn": ""
     },
@@ -26948,7 +27004,7 @@
       "no": 2244706,
       "kr": "겨울 명절에 만날 수 있는 통나무 모양 케이크.\r\n귀여운 쿠키 장식이 올려져 있다.",
       "en": "A log-shaped cake for the winter holidays.\r\nIt is garnished with adorable cookies.",
-      "ja": "",
+      "ja": "冬の祝日に見られる丸太の形をしたケーキ。\r\n可愛いクッキーのデコレーションを乗せた。",
       "zh_tw": "冬天節慶時可以看到的原木模樣蛋糕。\r\n上面放著可愛的餅乾裝飾。",
       "zh_cn": ""
     },
@@ -26956,7 +27012,7 @@
       "no": 2244707,
       "kr": "칼라르 기술로 만든 특별한 트리.\r\n아슬아슬 위험해 보이지만 정확하게 계산된 각도로 유리가 쌓아 올려져 있으니 모두 안심하시길!",
       "en": "A special Christmas tree built with Chalar technology.\r\nAlthough it may appear unstable, every glass layer is meticulously arranged at exact angles.",
-      "ja": "",
+      "ja": "カラールの技術で作った特別なツリー。\r\nぎりぎりで危なく見えるけど、正確に計算された角度でガラスを積み上げているのでご安心を！",
       "zh_tw": "使用卡拉爾技術製作而成的特別樹木。\r\n雖然看起來搖搖欲墜，但用精確計算的角度疊著玻璃，所以大家可以放心！",
       "zh_cn": ""
     },
@@ -26964,7 +27020,7 @@
       "no": 2244708,
       "kr": "\t정원을 지키는 노움들.\r\n그들의 표정을 읽을 수 있는 정령은 아무도 없다.",
       "en": "\tGnomes guarding the garden.\r\nNo Soul can read their faces.",
-      "ja": "",
+      "ja": "\t庭園を守るノームたち。\r\nその表情が読める精霊は誰もいない。",
       "zh_tw": "\t守護庭園的地精們。\r\n沒有任何精靈能看透他們的表情。",
       "zh_cn": ""
     },
@@ -26972,7 +27028,7 @@
       "no": 2244709,
       "kr": "달콤한 과자로 지어진 집.\r\n산타클로스도 오늘 밤은 기둥이 부서지지 않게 조심해야 한다.",
       "en": "A house made of sweet treats.\r\nSanta had better watch his step tonight to keep the walls intact.",
-      "ja": "",
+      "ja": "甘いお菓子で作った家。\r\nサンタクロースも今夜は柱が壊れないように気をつけないといけない。",
       "zh_tw": "用香甜餅乾建成的房屋。\r\n聖誕老人今晚也要小心別破壞了柱子。",
       "zh_cn": ""
     },
@@ -26980,7 +27036,7 @@
       "no": 2244710,
       "kr": "새하얀 눈에 찍힌 동물의 발자국.\r\n눈으로 만든 도화지에 자국을 남기고 싶다면 발이 빨라야 한다.",
       "en": "Animal pawprints left on pristine white snow.\r\nOne needs to move fast to leave their own mark on this frosty canvas.",
-      "ja": "",
+      "ja": "真っ白い雪に残った動物の足跡。\r\n雪の画用紙に足跡を残したいなら、足が速くなければならない。",
       "zh_tw": "動物踩在潔白雪上的腳印。\r\n想在白雪這張圖畫紙留下腳印，腳就得靈活敏捷。",
       "zh_cn": ""
     },
@@ -26988,7 +27044,7 @@
       "no": 2244711,
       "kr": "커다란 장난감 병정 인형.\r\n그는 언제나 꼿꼿하게 허리를 펴고 서 있다.",
       "en": "A large toy soldier figure.\r\nStanding proud and tall, his back is always straight.",
-      "ja": "",
+      "ja": "大きなおもちゃの兵隊。\r\n彼はいつも背筋をまっすぐに伸ばして立っている。",
       "zh_tw": "巨大的玩具士兵玩偶。\r\n他隨時都直挺挺地站著。",
       "zh_cn": ""
     },
@@ -27183,6 +27239,14 @@
       "ja": "狂三が召喚する巨大な時計の形の天使を模った模型。\r\n彼女が使用する銃は、この時計の長針と短針だといわれる。\r\n\r\n領地に配置すると<color=\"#2d9b00\">戦利品マナダストを+20/分追加で獲得</color>できます。",
       "zh_tw": "仿造狂三召喚的巨大時鐘形態的天使的模型。\r\n據說她使用的槍枝是這座時鐘的分針和時針。\r\n\r\n配置在領地可<color=\"#2d9b00\">額外獲得戰利品魔力粉塵＋20／分鐘</color>。",
       "zh_cn": "仿造狂三召唤的巨大时钟形态的天使模型。\r\n据说她使用的枪枝是这座时钟的分针和时针。\r\n\r\n配置在领地可<color=\"#2d9b00\">额外获得战利品魔力粉尘＋20／分钟</color>。"
+    },
+    {
+      "no": 2247103,
+      "kr": "2주년을 기념하는 파티 케이크. \r\n어떤 약속은 영원히 변치 않는다. 당신이 함께하는 한!",
+      "en": "A party cake for celebrating the 2nd anniversary.\r\nSome promises remain unchanged forever. As long as you're there!",
+      "ja": "",
+      "zh_tw": "慶祝2週年的派對蛋糕。\r\n有些約定永遠不會變，只要有你一起！",
+      "zh_cn": ""
     },
     {
       "no": 2248001,
@@ -27431,6 +27495,22 @@
       "ja": "古い精霊の記憶を宿した石。領地に配置すると、バイトを進行できます。\r\n\r\n▶ 進行できるバイト\r\n古代記憶収集 (コモン)\r\n古代記憶収集 (レア)\r\n古代記憶収集 (エピック)\r\n古代記憶整理 (コモン)\r\n古代記憶整理 (レア)\r\n古代記憶整理 (エピック)\r\n古代記憶判読 (コモン)\r\n古代記憶判読 (レア)\r\n古代記憶判読 (エピック)",
       "zh_tw": "含有久遠精靈記憶的石頭。配置在領地可進行打工。\r\r\n\r\r\n▶ 可進行打工\r\r\n收集古代記憶（一般）\r\r\n收集古代記憶（稀有）\r\r\n收集古代記憶（史詩）\r\r\n整理古代記憶（一般）\r\r\n整理古代記憶（稀有）\r\r\n整理古代記憶（史詩）\r\r\n破譯古代記憶（一般）\r\r\n破譯古代記憶（稀有）\r\r\n破譯古代記憶（史詩）",
       "zh_cn": "含有久远精灵记忆的石头。配置在领地可进行打工。\r\r\n\r\r\n▶ 可进行打工\r\r\n收集古代记忆（一般）\r\r\n收集古代记忆（稀有）\r\r\n收集古代记忆（史诗）\r\r\n整理古代记忆（一般）\r\r\n整理古代记忆（稀有）\r\r\n整理古代记忆（史诗）\r\r\n破译古代记忆（一般）\r\r\n破译古代记忆（稀有）\r\r\n破译古代记忆（史诗）"
+    },
+    {
+      "no": 2248095,
+      "kr": "마나석이 묻혀 있는 발굴터. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n\r\n▶ 진행 가능 아르바이트\r\n마나석 수집하기(커먼)\r\n마나석 수집하기(레어)\r\n마나석 수집하기(에픽)",
+      "en": "A dig site with deposits of Manastone. Place it in town to unlock new part-time jobs.\r\n\r\n▶ Available Part-Time Jobs:\r\nCollecting Manastones (Common)\r\nCollecting Manastones (Rare)\r\nCollecting Manastones (Epic)",
+      "ja": "",
+      "zh_tw": "埋有魔力石的挖掘場，配置在領地可進行打工。\r\n\r\n▶ 可進行打工\r\n收集魔力石（一般）\r\n收集魔力石（稀有）\r\n收集魔力石（史詩）",
+      "zh_cn": ""
+    },
+    {
+      "no": 2248096,
+      "kr": "예장 강화석을 만드는 정제소. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n\r\n▶ 진행 가능 아르바이트\r\n강화석 정제하기(커먼)\r\n강화석 정제하기(레어)\r\n강화석 정제하기(에픽)",
+      "en": "A refinery for producing Keepsake Enhance Stones. Place it in town to unlock new part-time jobs.\r\n\r\n▶ Available Part-Time Jobs:\r\nRefine Enhance Stones (Common)\r\nRefine Enhance Stones (Rare)\r\nRefine Manastones (Epic)",
+      "ja": "",
+      "zh_tw": "製作禮品強化石的精煉場，配置在領地可進行打工。\r\n\r\n▶ 可進行打工\r\n精煉強化石（一般）\r\n精煉強化石（稀有）\r\n精煉強化石（史詩）",
+      "zh_cn": ""
     },
     {
       "no": 2249000,
@@ -27806,7 +27886,7 @@
       "en": "Dungeon-exclusive items.\r\nYou can use these items to revive or fully recover a Soul in a dungeon.",
       "ja": "ダンジョン専用アイテム。\r\nダンジョンで精霊を復活させたり、完全に回復させることができます。",
       "zh_tw": "副本專用道具\r\n可以在副本讓精靈復活或完全恢復。",
-      "zh_cn": "副本专用道具\r\n可以在副本让精灵复活或完全恢复。"
+      "zh_cn": "副本专属道具。\r\n可以使副本中的精灵复活或完全恢复。"
     },
     {
       "no": 3200005,
@@ -28180,7 +28260,7 @@
       "no": 21521501,
       "kr": "스티커: 소중한 사쿠요(업화)",
       "en": "Sticker: Precious Sakuyo (Inferno)",
-      "ja": "",
+      "ja": "ステッカー：大切なサクヨ(業火)",
       "zh_tw": "貼紙：珍貴的櫻世（業火）",
       "zh_cn": ""
     },
@@ -28292,7 +28372,7 @@
       "no": 21531501,
       "kr": "스티커: 소중한 웨리",
       "en": "Sticker: Precious Wheri",
-      "ja": "",
+      "ja": "ステッカー：大切なウェリー",
       "zh_tw": "貼紙：珍貴的威里",
       "zh_cn": "贴纸：珍贵的威里"
     },
@@ -28483,9 +28563,9 @@
     {
       "no": 21565301,
       "kr": "스티커: 소중한 메피스토펠레스(여명)",
-      "en": "",
+      "en": "Sticker: Precious Mephistopheles (Dawn)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "貼紙：珍貴的梅菲斯托佩萊斯（黎明）",
       "zh_cn": ""
     },
     {
@@ -28724,7 +28804,7 @@
       "no": 22521501,
       "kr": "사쿠요(업화)의 인연 레벨 40 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon reaching Sakuyo (Inferno) Bond Level 40.",
-      "ja": "",
+      "ja": "サクヨ(業火)の絆Lv40達成時に獲得できるステッカー",
       "zh_tw": "達成櫻世（業火）好感等級40時可獲得的貼紙。",
       "zh_cn": ""
     },
@@ -28836,7 +28916,7 @@
       "no": 22531501,
       "kr": "웨리의 인연 레벨 40 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon reaching Wheri Bond Level 40.",
-      "ja": "",
+      "ja": "ウェリーの絆Lv40達成時に獲得できるステッカー",
       "zh_tw": "達成威里好感等級40時可獲得的貼紙。",
       "zh_cn": "达成威里好感等级40时可获得的贴纸。"
     },
@@ -29027,9 +29107,9 @@
     {
       "no": 22565301,
       "kr": "메피스토펠레스(여명)의 인연 레벨 40 달성 시 획득 가능한 스티커.",
-      "en": "",
+      "en": "A sticker that can be obtained upon reaching Mephistopheles (Dawn) Bond Level 40.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成梅菲斯托佩萊斯（黎明）好感等級40時可獲得的貼紙。",
       "zh_cn": ""
     },
     {

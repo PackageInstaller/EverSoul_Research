@@ -12,7 +12,7 @@ table Deserialization {
     no8: int32;
     no9: int32;
     no10: int32;
-    no11: float;
+    no11: int16;
     no12: int32;
     no13: int32;
     no14: int32;

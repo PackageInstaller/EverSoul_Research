@@ -401,6 +401,28 @@
       "gimmick_value1": 7292,
       "gimmick_type2": 1,
       "gimmick_value2": 7293
+    },
+    {
+      "no": 34,
+      "season_no": 2,
+      "raid_no": 7,
+      "level": 401,
+      "icon_path": "srg_adrianne_3",
+      "string_no": 702611,
+      "string_content_no": 702612,
+      "gimmick_type1": 1,
+      "gimmick_value1": 7261
+    },
+    {
+      "no": 35,
+      "season_no": 2,
+      "raid_no": 7,
+      "level": 501,
+      "icon_path": "srg_adrianne_4",
+      "string_no": 702621,
+      "string_content_no": 702622,
+      "gimmick_type1": 1,
+      "gimmick_value1": 7262
     }
   ]
 }

@@ -191,6 +191,18 @@
       "reward_group": 2,
       "reward_cycle": 7,
       "schedule_key": "EdenAlliance_solray_03"
+    },
+    {
+      "no": 17,
+      "battle_group": 17,
+      "name_sno": 19135,
+      "story_no": 3013401,
+      "bg_path": "bg_alliance_troyca",
+      "sound_path": "BGM_EdenAlliance_Troica",
+      "emblem_path": "emblem_alliance_troyca",
+      "reward_group": 3,
+      "reward_cycle": 7,
+      "schedule_key": "EdenAlliance_troica_03"
     }
   ]
 }

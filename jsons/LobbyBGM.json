@@ -1456,8 +1456,18 @@
       "bgm_name": "Lobby_BGM_CT_SakuyoShin"
     },
     {
-      "no": 401,
+      "no": 388,
       "order": 148,
+      "type": 4,
+      "type_value": 2653004,
+      "grade": 110018,
+      "title_sno": 30175,
+      "image_path": "Img_BGM_CT_MephistoDawn",
+      "bgm_name": "Lobby_BGM_CT_MephistoDawn"
+    },
+    {
+      "no": 401,
+      "order": 149,
       "type": 4,
       "type_value": 3000001,
       "grade": 110018,
@@ -1467,7 +1477,7 @@
     },
     {
       "no": 402,
-      "order": 149,
+      "order": 150,
       "type": 4,
       "type_value": 3000002,
       "grade": 110018,
@@ -1477,7 +1487,7 @@
     },
     {
       "no": 403,
-      "order": 150,
+      "order": 151,
       "type": 4,
       "type_value": 3000003,
       "grade": 110018,
@@ -1487,7 +1497,7 @@
     },
     {
       "no": 404,
-      "order": 151,
+      "order": 152,
       "type": 4,
       "type_value": 3000004,
       "grade": 110018,
@@ -1497,7 +1507,7 @@
     },
     {
       "no": 405,
-      "order": 152,
+      "order": 153,
       "type": 4,
       "type_value": 3000005,
       "grade": 110018,
@@ -1507,7 +1517,7 @@
     },
     {
       "no": 406,
-      "order": 153,
+      "order": 154,
       "type": 4,
       "type_value": 3000006,
       "grade": 110018,
@@ -1517,7 +1527,7 @@
     },
     {
       "no": 407,
-      "order": 154,
+      "order": 155,
       "type": 4,
       "type_value": 3000007,
       "grade": 110018,
@@ -1527,7 +1537,7 @@
     },
     {
       "no": 408,
-      "order": 155,
+      "order": 156,
       "type": 4,
       "type_value": 3000008,
       "grade": 110018,
@@ -1537,7 +1547,7 @@
     },
     {
       "no": 409,
-      "order": 156,
+      "order": 157,
       "type": 4,
       "type_value": 3000009,
       "grade": 110018,
@@ -1547,7 +1557,7 @@
     },
     {
       "no": 501,
-      "order": 157,
+      "order": 158,
       "type": 4,
       "type_value": 3013301,
       "grade": 110018,
@@ -1557,7 +1567,7 @@
     },
     {
       "no": 502,
-      "order": 158,
+      "order": 159,
       "type": 4,
       "type_value": 3013101,
       "grade": 110018,
@@ -1567,7 +1577,7 @@
     },
     {
       "no": 503,
-      "order": 159,
+      "order": 160,
       "type": 4,
       "type_value": 3013401,
       "grade": 110018,
@@ -1577,7 +1587,7 @@
     },
     {
       "no": 504,
-      "order": 160,
+      "order": 161,
       "type": 4,
       "type_value": 3013701,
       "grade": 110018,
@@ -1587,7 +1597,7 @@
     },
     {
       "no": 505,
-      "order": 161,
+      "order": 162,
       "type": 4,
       "type_value": 3013601,
       "grade": 110018,
@@ -1597,7 +1607,7 @@
     },
     {
       "no": 506,
-      "order": 162,
+      "order": 163,
       "type": 4,
       "type_value": 3013201,
       "grade": 110018,
@@ -1607,7 +1617,7 @@
     },
     {
       "no": 507,
-      "order": 163,
+      "order": 164,
       "type": 4,
       "type_value": 3013501,
       "grade": 110018,

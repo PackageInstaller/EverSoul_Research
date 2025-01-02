@@ -19644,6 +19644,30 @@
       "item_sort_no": 20006
     },
     {
+      "no": 2074,
+      "category_sno": 110009,
+      "grade_sno": 110014,
+      "name_sno": 520174,
+      "desc_sno": 530174,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "MephistoDawn_Icon_Costume_00",
+      "atlas_type": 5,
+      "item_sort_no": 20006
+    },
+    {
+      "no": 2075,
+      "category_sno": 110009,
+      "grade_sno": 110014,
+      "name_sno": 520175,
+      "desc_sno": 530175,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "SakuyoShin_Icon_Costume_00",
+      "atlas_type": 5,
+      "item_sort_no": 20006
+    },
+    {
       "no": 2201,
       "category_sno": 110009,
       "grade_sno": 110016,
@@ -21485,6 +21509,30 @@
       "slot_limit_sno": 110038,
       "stat_limit_sno": 110041,
       "icon_path": "Milia_Icon_Costume_02",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
+      "no": 2353,
+      "category_sno": 110009,
+      "grade_sno": 110018,
+      "name_sno": 520553,
+      "desc_sno": 530553,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "MephistoDawn_Icon_Costume_01",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
+      "no": 2354,
+      "category_sno": 110009,
+      "grade_sno": 110020,
+      "name_sno": 520554,
+      "desc_sno": 530554,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "MephistoDawn_Icon_Costume_02",
       "atlas_type": 5,
       "item_sort_no": 20004
     },
@@ -23811,6 +23859,19 @@
       "item_sort_no": 3002
     },
     {
+      "no": 3374,
+      "category_sno": 110008,
+      "grade_sno": 110014,
+      "name_sno": 213374,
+      "desc_sno": 223374,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "Memory_MephistoDawn",
+      "atlas_type": 4,
+      "item_use_no": 1002,
+      "item_sort_no": 3002
+    },
+    {
       "no": 3501,
       "category_sno": 110008,
       "grade_sno": 110017,
@@ -24842,6 +24903,54 @@
       "grade_sno": 110018,
       "name_sno": 214160,
       "desc_sno": 224160,
+      "slot_limit_sno": 661,
+      "stat_limit_sno": 110041,
+      "icon_path": "Icon_Box_Legendary",
+      "atlas_type": 4,
+      "item_sort_no": 2220
+    },
+    {
+      "no": 4161,
+      "category_sno": 110006,
+      "grade_sno": 110016,
+      "name_sno": 214161,
+      "desc_sno": 224161,
+      "slot_limit_sno": 807,
+      "stat_limit_sno": 110041,
+      "icon_path": "Icon_Box_ChickenBox",
+      "atlas_type": 4,
+      "item_sort_no": 2220
+    },
+    {
+      "no": 4162,
+      "category_sno": 110006,
+      "grade_sno": 110019,
+      "name_sno": 214162,
+      "desc_sno": 224162,
+      "slot_limit_sno": 661,
+      "stat_limit_sno": 110041,
+      "icon_path": "Icon_Box_Select_Fairy",
+      "atlas_type": 4,
+      "item_sort_no": 2220
+    },
+    {
+      "no": 4163,
+      "category_sno": 110006,
+      "grade_sno": 110020,
+      "name_sno": 214163,
+      "desc_sno": 224163,
+      "slot_limit_sno": 661,
+      "stat_limit_sno": 110041,
+      "icon_path": "Icon_Box_Select_Fairy",
+      "atlas_type": 4,
+      "item_sort_no": 2220
+    },
+    {
+      "no": 4164,
+      "category_sno": 110006,
+      "grade_sno": 110018,
+      "name_sno": 214164,
+      "desc_sno": 224164,
       "slot_limit_sno": 661,
       "stat_limit_sno": 110041,
       "icon_path": "Icon_Box_Legendary",
@@ -26547,6 +26656,18 @@
       "item_sort_no": 60000
     },
     {
+      "no": 5701,
+      "category_sno": 110074,
+      "grade_sno": 110020,
+      "name_sno": 215701,
+      "desc_sno": 225701,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "Frame_2ndAnni",
+      "atlas_type": 7,
+      "item_sort_no": 60000
+    },
+    {
       "no": 5702,
       "category_sno": 110074,
       "grade_sno": 110012,
@@ -27742,6 +27863,18 @@
       "item_sort_no": 60000
     },
     {
+      "no": 6302,
+      "category_sno": 110077,
+      "grade_sno": 110016,
+      "name_sno": 216302,
+      "desc_sno": 226302,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_Chicken",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
       "no": 6401,
       "category_sno": 110077,
       "grade_sno": 110020,
@@ -28462,6 +28595,18 @@
       "item_sort_no": 60000
     },
     {
+      "no": 6705,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216705,
+      "desc_sno": 226705,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "Sticker_2ndAnni",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
       "no": 6801,
       "category_sno": 110077,
       "grade_sno": 110020,
@@ -28494,6 +28639,18 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_path": "sticker_special_SakuyoShin01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6804,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216804,
+      "desc_sno": 226804,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_MephistoDawn01",
       "atlas_type": 6,
       "item_sort_no": 60000
     },
@@ -32040,6 +32197,19 @@
       "item_sort_no": 20000
     },
     {
+      "no": 10068,
+      "category_sno": 110003,
+      "grade_sno": 110014,
+      "name_sno": 2110068,
+      "desc_sno": 2210068,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "Memory_Signature_MephistoDawn",
+      "atlas_type": 4,
+      "move_behavior": 603,
+      "item_sort_no": 20000
+    },
+    {
       "no": 11001,
       "category_sno": 110012,
       "grade_sno": 110020,
@@ -34192,6 +34362,17 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/Souls/LinzyThanatos_128",
+      "item_sort_no": 40000
+    },
+    {
+      "no": 36530,
+      "category_sno": 110074,
+      "grade_sno": 110014,
+      "name_sno": 2136530,
+      "desc_sno": 2236530,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Souls/MephistoDawn_128",
       "item_sort_no": 40000
     },
     {
@@ -38514,6 +38695,17 @@
       "item_sort_no": 50000
     },
     {
+      "no": 47103,
+      "category_sno": 110005,
+      "grade_sno": 110018,
+      "name_sno": 2147103,
+      "desc_sno": 2247103,
+      "slot_limit_sno": 553001,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_2ndAnniversary",
+      "item_sort_no": 50000
+    },
+    {
       "no": 48001,
       "category_sno": 110005,
       "grade_sno": 110011,
@@ -38852,6 +39044,28 @@
       "slot_limit_sno": 553005,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/Town/PE_TOWN_B_ExcavationSite_02",
+      "item_sort_no": 50000
+    },
+    {
+      "no": 48095,
+      "category_sno": 110005,
+      "grade_sno": 110018,
+      "name_sno": 2148095,
+      "desc_sno": 2248095,
+      "slot_limit_sno": 553005,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_ManaRefinery",
+      "item_sort_no": 50000
+    },
+    {
+      "no": 48096,
+      "category_sno": 110005,
+      "grade_sno": 110018,
+      "name_sno": 2148096,
+      "desc_sno": 2248096,
+      "slot_limit_sno": 553005,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_EnhancerSite",
       "item_sort_no": 50000
     },
     {
@@ -39928,6 +40142,18 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_path": "sticker_love_LinzyThanatos01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 565301,
+      "category_sno": 110077,
+      "grade_sno": 110012,
+      "name_sno": 21565301,
+      "desc_sno": 22565301,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_love_MephistoDawn01",
       "atlas_type": 6,
       "item_sort_no": 60000
     },

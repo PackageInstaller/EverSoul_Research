@@ -292,6 +292,11 @@
       "lovebuff_type": 1
     },
     {
+      "hero_no": 4150,
+      "prefer_gift_items": "7010, 7027, 7030",
+      "lovebuff_type": 1
+    },
+    {
       "hero_no": 5010,
       "prefer_gift_items": "7009, 7021, 7024",
       "lovebuff_type": 1
@@ -334,6 +339,11 @@
     {
       "hero_no": 6520,
       "prefer_gift_items": "7011, 7021, 7030",
+      "lovebuff_type": 2
+    },
+    {
+      "hero_no": 6530,
+      "prefer_gift_items": "7001, 7012, 7017",
       "lovebuff_type": 2
     },
     {

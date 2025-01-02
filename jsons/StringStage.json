@@ -652,7 +652,7 @@
       "no": 2041,
       "kr": "모든 적의 체력이 1.5배, 공격력이 30% 증가한다. 전투 시작 시 전열에 배치한 아군은 2초 마다 <플린의 특제 폭탄> 효과를 1중첩 부여받는다.\r\n<플린의 특제 폭탄> 효과가 10중첩이 되면 공격력의 자신 주변 3m내 모든 적과 아군에게 2000%의 피해를 입히며 폭발한다. 만약 폭발 전에 해당 정령이 사망 시 폭발은 발생하지 않는다.",
       "en": "The HP of all enemies is multiplied by 1.5, and their ATK increases by 30%. When battle begins, allies in the front row receive 1 stack of \"Flynn's Custom Bomb\" every 2 sec.\r\n\"Flynn's Custom Bomb\" detonates once it reaches 10 stacks, dealing damage equal to 2000% of ATK to the affected Soul and all enemies and allies within a 3m radius. If the affected Soul dies first, the bomb does not go off.",
-      "ja": "",
+      "ja": "敵全員の体力が1.5倍、攻撃力が30%増加する。戦闘開始時、前列に配置した味方は、2秒ごとに<フランの特製爆弾>の効果を1スタック付与される。\r\n<フランの特製爆弾>の効果が10スタックになると、自分の周辺3mの敵全員と味方に攻撃力の2000%のダメージを与えて爆発する。爆発の前にこの精霊が死亡すると、爆発は発生しない。",
       "zh_tw": "所有敵人體力增加1.5倍、攻擊力增加30%。戰鬥開始後，配置在前排的友軍每2秒被賦予＜弗林的特製炸彈＞效果1疊加。\r\n＜弗林的特製炸彈＞效果達10疊加時，對自身周遭3m內所有敵人和友軍造成攻擊力2000%的傷害並爆炸。若該精靈在爆炸前就死亡，則不會引發爆炸",
       "zh_cn": ""
     },
@@ -660,7 +660,7 @@
       "no": 2042,
       "kr": "모든 적의 체력이 1.5배, 공격력이 50% 증가한다. 전투 시작 시 전열에 배치한 아군은 2초 마다 <플린의 특제 폭탄> 효과를 1중첩 부여받는다.\r\n<플린의 특제 폭탄> 효과가 10중첩이 되면 공격력의 자신 주변 3m내 모든 적과 아군에게 2000%의 피해를 입히며 폭발한다. 만약 폭발 전에 해당 정령이 사망 시 폭발은 발생하지 않는다.",
       "en": "The HP of all enemies is multiplied by 1.5, and their ATK increases by 50%. When battle begins, allies in the front row receive 1 stack of \"Flynn's Custom Bomb\" every 2 sec.\r\n\"Flynn's Custom Bomb\" detonates once it reaches 10 stacks, dealing damage equal to 2000% of ATK to the affected Soul and all enemies and allies within a 3m radius. If the affected Soul dies first, the bomb does not go off.",
-      "ja": "",
+      "ja": "敵全員の体力が1.5倍、攻撃力が50%増加する。戦闘開始時、前列に配置した味方は、2秒ごとに<フランの特製爆弾>の効果を1スタック付与される。\r\n<フランの特製爆弾>の効果が10スタックになると、自分の周辺3mの敵全員と味方に攻撃力の2000%のダメージを与えて爆発する。爆発の前にこの精霊が死亡すると、爆発は発生しない。",
       "zh_tw": "所有敵人體力增加1.5倍、攻擊力增加50%。戰鬥開始後，配置在前排的友軍每2秒被賦予＜弗林的特製炸彈＞效果1疊加。\r\n＜弗林的特製炸彈＞效果達10疊加時，對自身周遭3m內所有敵人和友軍造成攻擊力2000%的傷害並爆炸。若該精靈在爆炸前就死亡，則不會引發爆炸",
       "zh_cn": ""
     },
@@ -908,7 +908,7 @@
       "no": 3031,
       "kr": "플린의 특제 폭탄!",
       "en": "Flynn's Custom Bomb!",
-      "ja": "",
+      "ja": "フランの特製爆弾！",
       "zh_tw": "弗林的特製炸彈！",
       "zh_cn": ""
     },
@@ -916,7 +916,7 @@
       "no": 3032,
       "kr": "플린의 특제 폭탄!!",
       "en": "Flynn's Custom Bomb!!!",
-      "ja": "",
+      "ja": "フランの特製爆弾!!",
       "zh_tw": "弗林的特製炸彈！！",
       "zh_cn": ""
     },
@@ -924,7 +924,7 @@
       "no": 101001,
       "kr": "야수 종족을 {1}명 이상 배치하기",
       "en": "Deploy {1} or more Beast Souls",
-      "ja": "",
+      "ja": "野獣型を{1}体以上配置する",
       "zh_tw": "配置超過{1}個野獸型",
       "zh_cn": ""
     },
@@ -932,7 +932,7 @@
       "no": 101002,
       "kr": "요정 종족을 {1}명 이상 배치하기",
       "en": "Deploy {1} or more Fairy Souls",
-      "ja": "",
+      "ja": "妖精型を{1}体以上配置する",
       "zh_tw": "配置超過{1}個妖精型",
       "zh_cn": ""
     },
@@ -940,7 +940,7 @@
       "no": 101003,
       "kr": "인간 종족을 {1}명 이상 배치하기",
       "en": "Deploy {1} or more Humanlike Souls",
-      "ja": "",
+      "ja": "人間型を{1}体以上配置する",
       "zh_tw": "配置超過{1}個人類型",
       "zh_cn": ""
     },
@@ -948,7 +948,7 @@
       "no": 101004,
       "kr": "인간 종족을 {1}명 이상 배치하기",
       "en": "Deploy {1} or more Humanlike Souls",
-      "ja": "",
+      "ja": "人間型を{1}体以上配置する",
       "zh_tw": "配置超過{1}個人類型",
       "zh_cn": ""
     },
@@ -956,7 +956,7 @@
       "no": 101005,
       "kr": "야수 종족을 {1}명 이상 배치하기",
       "en": "Deploy {1} or more Beast Souls",
-      "ja": "",
+      "ja": "野獣型を{1}体以上配置する",
       "zh_tw": "配置超過{1}個野獸型",
       "zh_cn": ""
     },
@@ -964,7 +964,7 @@
       "no": 101006,
       "kr": "요정 종족을 {1}명 이상 배치하기",
       "en": "Deploy {1} or more Fairy Souls",
-      "ja": "",
+      "ja": "妖精型を{1}体以上配置する",
       "zh_tw": "配置超過{1}個妖精型",
       "zh_cn": ""
     },
@@ -972,7 +972,7 @@
       "no": 101007,
       "kr": "불사 종족을 {1}명 이상 배치하기",
       "en": "Deploy {1} or more Undead Souls",
-      "ja": "",
+      "ja": "不死型を{1}体以上配置する",
       "zh_tw": "配置超過{1}個不死型",
       "zh_cn": ""
     },
@@ -980,7 +980,7 @@
       "no": 101008,
       "kr": "워리어 클래스를 {1}명 이상 배치하기",
       "en": "Deploy {1} or more Warriors",
-      "ja": "",
+      "ja": "ウォーリアクラスを{1}体以上配置する",
       "zh_tw": "配置超過{1}個戰士職業",
       "zh_cn": ""
     },
@@ -988,7 +988,7 @@
       "no": 101009,
       "kr": "레인저 클래스를 {1}명 이상 배치하기",
       "en": "Deploy {1} or more Rangers",
-      "ja": "",
+      "ja": "レンジャークラスを{1}体以上配置する",
       "zh_tw": "配置超過{1}個遊俠職業",
       "zh_cn": ""
     },
@@ -996,7 +996,7 @@
       "no": 101010,
       "kr": "스트라이커 클래스를 {1}명 이상 배치하기",
       "en": "Deploy {1} or more Strikers",
-      "ja": "",
+      "ja": "ストライカークラスを{1}体以上配置する",
       "zh_tw": "配置超過{1}個鬥士職業",
       "zh_cn": ""
     },
@@ -1004,7 +1004,7 @@
       "no": 101011,
       "kr": "캐스터 클래스를 {1}명 이상 배치하기",
       "en": "Deploy {1} or more Casters",
-      "ja": "",
+      "ja": "キャスタークラスを{1}体以上配置する",
       "zh_tw": "配置超過{1}個魔法師職業",
       "zh_cn": ""
     },
@@ -1012,7 +1012,7 @@
       "no": 101012,
       "kr": "서포터 클래스를 {1}명 이상 배치하기",
       "en": "Deploy {1} or more Supporters",
-      "ja": "",
+      "ja": "サポータークラスを{1}体以上配置する",
       "zh_tw": "配置超過{1}個輔助者職業",
       "zh_cn": ""
     },
@@ -1020,7 +1020,7 @@
       "no": 101013,
       "kr": "디펜더 클래스를 {1}명 이상 배치하기",
       "en": "Deploy {1} or more Defenders",
-      "ja": "",
+      "ja": "ディフェンダークラスを{1}体以上配置する",
       "zh_tw": "配置超過{1}個捍衛者職業",
       "zh_cn": ""
     },
@@ -1028,7 +1028,7 @@
       "no": 101014,
       "kr": "힘 스탯 타입 사용하지 않기",
       "en": "Not use STR Souls",
-      "ja": "",
+      "ja": "力タイプを使用しない",
       "zh_tw": "不使用力量特性",
       "zh_cn": ""
     },
@@ -1036,7 +1036,7 @@
       "no": 101015,
       "kr": "민첩 스탯 타입 사용하지 않기",
       "en": "Not use DEX Souls",
-      "ja": "",
+      "ja": "敏捷タイプを使用しない",
       "zh_tw": "不使用敏捷特性",
       "zh_cn": ""
     },
@@ -1044,7 +1044,7 @@
       "no": 101016,
       "kr": "지능 스탯 타입 사용하지 않기",
       "en": "Not use INT Souls",
-      "ja": "",
+      "ja": "知能タイプを使用しない",
       "zh_tw": "不使用智力特性",
       "zh_cn": ""
     },
@@ -1052,7 +1052,7 @@
       "no": 101017,
       "kr": "워리어 클래스 사용하지 않기",
       "en": "Not use Warrior Souls",
-      "ja": "",
+      "ja": "ウォーリアクラスを使用しない",
       "zh_tw": "不使用戰士職業",
       "zh_cn": ""
     },
@@ -1060,7 +1060,7 @@
       "no": 101018,
       "kr": "레인저 클래스 사용하지 않기",
       "en": "Not use Ranger Souls",
-      "ja": "",
+      "ja": "レンジャークラスを使用しない",
       "zh_tw": "不使用遊俠職業",
       "zh_cn": ""
     },
@@ -1068,7 +1068,7 @@
       "no": 101019,
       "kr": "스트라이커 클래스 사용하지 않기",
       "en": "Not use Striker Souls",
-      "ja": "",
+      "ja": "ストライカークラスを使用しない",
       "zh_tw": "不使用鬥士職業",
       "zh_cn": ""
     },
@@ -1076,7 +1076,7 @@
       "no": 101020,
       "kr": "캐스터 클래스 사용하지 않기",
       "en": "Not use Caster Souls",
-      "ja": "",
+      "ja": "キャスタークラスを使用しない",
       "zh_tw": "不使用魔法師職業",
       "zh_cn": ""
     },
@@ -1084,7 +1084,7 @@
       "no": 101021,
       "kr": "서포터 클래스 사용하지 않기",
       "en": "Not use Supporter Souls",
-      "ja": "",
+      "ja": "サポータークラスを使用しない",
       "zh_tw": "不使用輔助者職業",
       "zh_cn": ""
     },
@@ -1092,7 +1092,7 @@
       "no": 101022,
       "kr": "디펜더 클래스 사용하지 않기",
       "en": "Not use Defender Souls",
-      "ja": "",
+      "ja": "ディフェンダークラスを使用しない",
       "zh_tw": "不使用捍衛者職業",
       "zh_cn": ""
     },
@@ -1100,7 +1100,7 @@
       "no": 101023,
       "kr": "기본 진형 배치를 사용하기",
       "en": "Use the Basic formation",
-      "ja": "",
+      "ja": "基本陣形を使用する",
       "zh_tw": "使用基本陣型",
       "zh_cn": ""
     },
@@ -1108,7 +1108,7 @@
       "no": 101024,
       "kr": "저격 진형 배치를 사용하기",
       "en": "Use the Ranged formation",
-      "ja": "",
+      "ja": "狙撃陣形を使用する",
       "zh_tw": "使用狙擊陣型",
       "zh_cn": ""
     },
@@ -1116,7 +1116,7 @@
       "no": 101025,
       "kr": "수비 진형 배치를 사용하기",
       "en": "Use the Defense formation",
-      "ja": "",
+      "ja": "守備陣形を使用する",
       "zh_tw": "使用防守陣型",
       "zh_cn": ""
     },
@@ -1124,8 +1124,16 @@
       "no": 101026,
       "kr": "돌격 진형 배치를 사용하기",
       "en": "Use the Assault formation",
-      "ja": "",
+      "ja": "突撃陣形を使用する",
       "zh_tw": "使用突擊陣型",
+      "zh_cn": ""
+    },
+    {
+      "no": 101027,
+      "kr": "지능 스탯 타입을 {1}명 이상 배치하기",
+      "en": "Place {1} or more INT Souls",
+      "ja": "",
+      "zh_tw": "配置超過{1}個智力特性精靈",
       "zh_cn": ""
     },
     {
@@ -1948,7 +1956,7 @@
       "no": 419089,
       "kr": "VS 악몽의 마리오네트",
       "en": "Vs. Nightmare Marionette",
-      "ja": "",
+      "ja": "VS 悪夢のマリオネット",
       "zh_tw": "VS 惡夢的懸絲木偶",
       "zh_cn": "对决 恶梦的悬丝木偶"
     },
@@ -1956,23 +1964,31 @@
       "no": 419090,
       "kr": "VS 마물 토벌",
       "en": "Vs. Monster Subjugation",
-      "ja": "",
+      "ja": "VS 魔物討伐",
       "zh_tw": "VS 討伐魔物",
       "zh_cn": ""
     },
     {
       "no": 419091,
       "kr": "VS 메카이아",
-      "en": "",
+      "en": "Vs. Mecha Gaia",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "VS 機械蓋亞",
+      "zh_cn": ""
+    },
+    {
+      "no": 419092,
+      "kr": "인피니티 챌린지",
+      "en": "Infinity Challenge",
+      "ja": "",
+      "zh_tw": "無限挑戰",
       "zh_cn": ""
     },
     {
       "no": 440261,
       "kr": "오색의 비경",
       "en": "Iridescent Scenic Instance",
-      "ja": "",
+      "ja": "五色の秘境",
       "zh_tw": "五彩祕境",
       "zh_cn": "五彩秘境"
     },
@@ -1988,7 +2004,7 @@
       "no": 440263,
       "kr": "오색의 비경",
       "en": "Iridescent Scenic Instance",
-      "ja": "",
+      "ja": "五色の秘境",
       "zh_tw": "五彩祕境",
       "zh_cn": "五彩秘境"
     },
@@ -2004,7 +2020,7 @@
       "no": 440265,
       "kr": "오색의 비경",
       "en": "Iridescent Scenic Instance",
-      "ja": "",
+      "ja": "五色の秘境",
       "zh_tw": "五彩祕境",
       "zh_cn": "五彩秘境"
     },
@@ -2244,7 +2260,7 @@
       "no": 500030,
       "kr": "밤의 도시",
       "en": "Night City",
-      "ja": "",
+      "ja": "夜の都市",
       "zh_tw": "夜之都市",
       "zh_cn": "夜之都市"
     },
@@ -2252,7 +2268,7 @@
       "no": 500031,
       "kr": "연옥으로 향하는 길",
       "en": "Road to Purgatory",
-      "ja": "",
+      "ja": "煉獄への道",
       "zh_tw": "前往煉獄之路",
       "zh_cn": ""
     },
@@ -2452,7 +2468,7 @@
       "no": 501025,
       "kr": "시리도록 푸른 바닷물이 발끝을 적시는 해식 동굴.\r\n\r\n동굴 전체에 흐르는 풍부한 마나의 물결이 마치 별바다에 서 있는 듯한 황홀감을 선사한다.\r\n\r\n아름다운 동굴 초입과 달리 개미굴처럼 복잡한 내부 지형으로 조난 사고가 빈번히 발생한다고 한다.\r\n절대로 깊숙이 들어가지 않도록 주의할 것.",
       "en": "A sea cave within the cold blue sea.\r\r\n\r\r\nThe cave is overflowing with Mana, which gives the cave an ecstatic view that makes you feel as if you are standing on a sea of stars.\r\r\n\r\r\nUnlike the beautiful entry point into the cave, the inside is complex like an ant cave. They say many get lost inside.\r\r\nBe careful not to dive in too deep.",
-      "ja": "(「アペイロン海蝕洞」地域の紹介文)",
+      "ja": "まぶしいくらい青い海の水が足先を濡らす海蝕洞。\r\n\r\n洞窟全体に流れる豊かなマナの波が、まるで星の海に立っているような恍惚感を与えてくれる。\r\n\r\n美しい洞窟の入口とは異なり、アリの巣のように複雑な内部地形で遭難事故が頻繁に発生するという。\r\n絶対に深入りしないように注意が必要だ。",
       "zh_tw": "冰冷的藍色海水會浸濕腳尖的海蝕洞。\r\r\n\r\r\n流淌在整個洞窟裡的澎湃魔力波浪，給人一種身處星海裡的朦朧感。\r\r\n\r\r\n不同於美麗的洞窟入口，內部地形像蟻穴一樣複雜，遇難事件頻發。\r\r\n注意絕對不要進入洞窟深處。",
       "zh_cn": "冰冷的蓝色海水会浸湿脚尖的海蚀洞。\r\r\n\r\r\n流淌在整个洞窟里的澎湃魔力波浪，给人一种身处星海里的朦胧感。\r\r\n\r\r\n不同于美丽的洞窟入口，内部地形像蚁穴一样复杂，遇难事件频发。\r\r\n注意绝对不要进入洞窟深处。"
     },
@@ -2460,7 +2476,7 @@
       "no": 501026,
       "kr": "중앙 도시에 위치한 타브리아 황성의 입구.\r\n\r\n안개와 구름을 두른 채 수천 년 동안 정상을 수호하는 성이 보인다.\r\n다리 곳곳에 설치된 첨탑은 유사시 포탑으로 활용되기도.\r\n\r\n불리는 명칭은 입구이지만, 실제 본성까지의 거리는 굉장히 멀다고 한다.",
       "en": "Entrance to the imperial palace of Tabria nestled in the central city.\r\n\r\nEnveloped in mist and clouds, this ancient fortress has stood watch over the peak for millennia.\r\nThe spires along the bridge serve as turrets if needed.\r\n\r\nWhile it is called the entrance, the actual distance to the main castle is remarkably far.",
-      "ja": "(「ルーメン城の入口」地域の紹介文)",
+      "ja": "中央都市に位置するタブリア皇城の入り口。\r\n\r\n霧と雲をまとったまま何千年もの間、頂上を守っている城が見える。\r\n橋のあちこちに設置された尖塔は、有事の際に砲塔として活用されることもある。\r\n\r\n入り口と呼ばれているが、実際の皇城までの距離はとても遠い。",
       "zh_tw": "位於中央城市的塔布里亞皇城入口。\r\n\r\n可看到雲霧繚繞，守護山頂數千年的城。\r\n橋上各處設置的尖塔在非常時期還被用作炮塔。\r\n\r\n雖然被稱為入口，但據說實際到主城的距離非常遠。",
       "zh_cn": "位于中央城市的塔布里亚皇城入口。\r\n\r\n可看到云雾缭绕，守护山顶数千年的城。\r\n桥上各处设置的尖塔在非常时期还被用作炮塔。\r\n\r\n虽然被称为入口，但据说实际到主城的距离非常远。"
     },
@@ -2468,7 +2484,7 @@
       "no": 501027,
       "kr": "타브리아 최대 규모의 국가 연구소.\r\n마도 공학 분야 전체를 아우르는 정부출연연구기관이다.\r\n\r\n수많은 연구 분야 중에서도 특히 저명한 부문은 마도 공학에 기반한 종합적인 국방 연구로, 타브리아 군수품의 대다수를 엠포리움 연구소에서 제작하고 있다.\r\n\r\n주요 연구원의 대부분은 아카데미카의 졸업생이며, 엘리트 중의 엘리트들로 이루어져있다고 한다.",
       "en": "The largest research facility in Tabria.\r\nThis state-funded research institution encompasses the entire field of Magitechnology.\r\n\r\nAmong its numerous research areas, the Emporium Laboratory is most celebrated for its comprehensive national defense projects rooted in Magitechnology, producing the majority of Tabria's military supplies.\r\n\r\nMost of the leading researchers are Academica graduates, representing the crème de la crème of their fields.",
-      "ja": "(「エンポリウム研究所」地域の紹介文)",
+      "ja": "タブリア最大の国立研究所。\r\n魔導工学の分野全体を網羅する政府出資の研究機関。\r\n\r\n数多くの研究分野の中でも特に有名な部門は魔導工学に基づく総合的な国防研究で、タブリア軍需品の大多数をエンポリアム研究所で製作している。\r\n\r\n主な研究者の多くはアカデミカの卒業生であり、エリート中のエリートから構成されているという。",
       "zh_tw": "塔布里亞規模最大的國家研究所。\r\n集結了所有魔導工學領域的政府研究機構。\r\n\r\n在眾多研究領域當中，特別著名的是以魔導工學為基礎的綜合國防研究，因此塔布里亞的軍用物資大多由岩普利翁研究所生產。\r\n\r\n主要研究員大部分畢業於阿卡戴米卡，由菁英中的菁英組成。",
       "zh_cn": "塔布里亚规模最大的国家研究所。\r\n集结了所有魔导工学领域的政府研究机构。\r\n\r\n在众多研究领域当中，特别著名的是以魔导工学为基础的综合国防研究，因此塔布里亚的军用物资大多由岩普利翁研究所生产。\r\n\r\n主要研究员大部分毕业于阿卡戴米卡，由菁英中的菁英组成。"
     },
@@ -2492,7 +2508,7 @@
       "no": 501030,
       "kr": "타브리아 제국 지하에 광활하게 펼쳐진 지하 도시의 슬럼가.\r\n\r\n여러 이유로 지상에서 살아갈 수 없는 정령들이 모인 밤의 도시 중에서도 가장 치안이 나쁜 지역이다.\r\n\r\n붉은 공작이 거느린 밤의 일족마저도 이 곳에서 벌어나는 범죄는 따로 취급할 정도.\r\n\r\n땅 속으로 드리워진 타브리아 제국의 가장 어두운 그림자이기도 하다.",
       "en": "A vast underground slum beneath the Tabria Empire.\r\n\r\nNight City is known as the most dangerous area among the lawless havens of outcast Souls unable to live above ground for various reasons.\r\n\r\nEven the Nightbloods, ruled by the Crimson Duchess, set aside the crimes here as a special case.\r\n\r\nThis place is truly the darkest shadow lurking beneath the Tabria Empire.",
-      "ja": "",
+      "ja": "タブリア帝国の地下に広大に広がっている地下都市のスラム街。\r\n\r\n様々な理由で地上で生きることができなくなった精霊が集まった夜の都市の中でも最も治安が悪い地域。\r\n\r\n赤い公爵が率いる夜の一族でさえ、ここでの犯罪は別扱いするほどだ。\r\n\r\n地下に潜りこんだ、タブリア帝国の最も暗い影でもある。",
       "zh_tw": "塔布里亞帝國地下廣闊無垠的地下都市貧民窟。\r\n\r\n夜之都市聚集了因各種原因無法在地面生存的精靈，而這裡是那當中治安最差的地區。\r\n\r\n即使是紅公爵率領的夜之族，也會將發生在這裡的犯罪另當別論。\r\n\r\n同時也是塔布里亞帝國籠罩在地底最黑暗的陰影。",
       "zh_cn": "塔布里亚帝国地下广阔无垠的地下都市贫民窟。\r\n\r\n夜之都市聚集了因各种原因无法在地面生存的精灵，而这里是那当中治安最差的地区。\r\n\r\n即使是红公爵率领的夜之族，也会将发生在这里的犯罪另当别论。\r\n\r\n同时也是塔布里亚帝国笼罩在地底最黑暗的阴影。"
     },
@@ -2500,7 +2516,7 @@
       "no": 501031,
       "kr": "타브리아 제국의 가장 깊은 곳이자, 일반적인 방법으로는 도달할 수 없는 왜곡된 장소. \r\n설명할 수 없는 강력한 힘이 이 공간의 모든 질서와 법칙을 어그러뜨리고 있다.\r\n\r\n먼 옛날, 타브리아의 대제는 이곳에서 거대한 짐승을 봉인했다고 한다.\r\n\r\n「타락한 영혼의 세계를 정화하는 신성한 의식이 거행될지어니\r\n모든 영혼은 두려워 말고 기도하라…」",
       "en": "The deepest, most twisted reaches of the Tabria Empire—a place beyond the reach of ordinary paths.\r\nAn incomprehensible power permeates this place, unraveling its order and laws.\r\n\r\nIn the distant past, the Great Empress of Tabria is said to have sealed a colossal beast here.\r\n\r\n\"A sacred ritual shall be performed to cleanse the world of fallen souls.\r\nAll souls shall pray without fear.\"",
-      "ja": "",
+      "ja": "煉獄への道マップ説明",
       "zh_tw": "塔布里亞帝國的最深處，無法用普通方法抵達的扭曲場所。\r\n不可名狀的強大力量破壞著這空間的所有秩序和法則。\r\n\r\n據說很久以前，塔布里亞大帝在這裡封印了巨大的野獸。\r\n\r\n「將會舉行淨化墮落之魂世界的神聖儀式，\r\n所有靈魂不必害怕，祈禱吧…」",
       "zh_cn": ""
     },

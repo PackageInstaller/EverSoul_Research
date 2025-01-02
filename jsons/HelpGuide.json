@@ -3041,6 +3041,19 @@
       "image_gpg": "Category_02/Help_UI_BATTLE_WORLDBOSS_05"
     },
     {
+      "no": 20320006,
+      "category_type": 2,
+      "guide_name_sno": 1001059,
+      "trigger": "UI_WORLDBOSS",
+      "index": 6,
+      "title_sno": 997321,
+      "desc_sno": 997322,
+      "title_gpg_sno": 997321,
+      "desc_gpg_sno": 997322,
+      "image": "Category_02/Help_UI_BATTLE_WORLDBOSS_06",
+      "image_gpg": "Category_02/Help_UI_BATTLE_WORLDBOSS_06"
+    },
+    {
       "no": 20321001,
       "category_type": 2,
       "guide_name_sno": 1001060,
@@ -5496,9 +5509,9 @@
       "trigger": "UI_EVENTINFO_NEWYEAR_1_1",
       "index": 5,
       "title_sno": 12015,
-      "desc_sno": 993011,
+      "desc_sno": 996304,
       "title_gpg_sno": 12015,
-      "desc_gpg_sno": 993011,
+      "desc_gpg_sno": 996304,
       "image": "Category_04/Help_UI_EVENT_NEWYEAR_1_1_05",
       "image_gpg": "Category_04/Help_UI_EVENT_NEWYEAR_1_1_05"
     },
@@ -7724,6 +7737,58 @@
       "desc_gpg_sno": 996485,
       "image": "Category_04/Help_UI_EVENT_CHRISTMAS_2_3_03",
       "image_gpg": "Category_04/Help_UI_EVENT_CHRISTMAS_2_3_03"
+    },
+    {
+      "no": 40900001,
+      "category_type": 4,
+      "guide_name_sno": 1001037,
+      "trigger": "UI_EVENTINFO_BINGO_3",
+      "index": 1,
+      "title_sno": 994910,
+      "desc_sno": 994911,
+      "title_gpg_sno": 994910,
+      "desc_gpg_sno": 994911,
+      "image": "Category_04/Help_UI_EVENT_BINGO_3_01",
+      "image_gpg": "Category_04/Help_UI_EVENT_BINGO_3_01"
+    },
+    {
+      "no": 40900002,
+      "category_type": 4,
+      "guide_name_sno": 1001037,
+      "trigger": "UI_EVENTINFO_BINGO_3",
+      "index": 2,
+      "title_sno": 994910,
+      "desc_sno": 994921,
+      "title_gpg_sno": 994920,
+      "desc_gpg_sno": 994921,
+      "image": "Category_04/Help_UI_EVENT_BINGO_3_02",
+      "image_gpg": "Category_04/Help_UI_EVENT_BINGO_3_02"
+    },
+    {
+      "no": 40900003,
+      "category_type": 4,
+      "guide_name_sno": 1001037,
+      "trigger": "UI_EVENTINFO_BINGO_3",
+      "index": 3,
+      "title_sno": 994910,
+      "desc_sno": 994931,
+      "title_gpg_sno": 994930,
+      "desc_gpg_sno": 994931,
+      "image": "Category_04/Help_UI_EVENT_BINGO_3_03",
+      "image_gpg": "Category_04/Help_UI_EVENT_BINGO_3_03"
+    },
+    {
+      "no": 40900004,
+      "category_type": 4,
+      "guide_name_sno": 1001037,
+      "trigger": "UI_EVENTINFO_BINGO_3",
+      "index": 4,
+      "title_sno": 994910,
+      "desc_sno": 994941,
+      "title_gpg_sno": 994940,
+      "desc_gpg_sno": 994941,
+      "image": "Category_04/Help_UI_EVENT_BINGO_3_04",
+      "image_gpg": "Category_04/Help_UI_EVENT_BINGO_3_04"
     }
   ]
 }

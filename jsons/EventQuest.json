@@ -1814,6 +1814,16 @@
       "reset_hour_sno": 560089
     },
     {
+      "no": 167,
+      "group": 3000,
+      "event_number": 3,
+      "day_order": 1,
+      "behavior": 118,
+      "value": 1,
+      "item_infos": "[[1910,1],[1911,1],[1912,1],[1913,1],[47103,1],[5701,1],[6705,1],[8904,1],[8903,1]]",
+      "reset_hour_sno": 560089
+    },
+    {
       "no": 174,
       "group": 4001,
       "event_number": 1,

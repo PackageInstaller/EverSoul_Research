@@ -803,6 +803,28 @@
       "controller_path": "SakuyoShin"
     },
     {
+      "no": 2074,
+      "type_sno": 520102,
+      "name_sno": 520174,
+      "hero_no": 6530,
+      "prefab_path": "MephistoDawn",
+      "timeline_path": "MephistoDawn",
+      "icon_path": "MephistoDawn_Icon_Costume_00",
+      "portrait_path": "MephistoDawn",
+      "controller_path": "MephistoDawn"
+    },
+    {
+      "no": 2075,
+      "type_sno": 520102,
+      "name_sno": 520175,
+      "hero_no": 5050,
+      "prefab_path": "Brigitte",
+      "timeline_path": "Brigitte",
+      "icon_path": "SakuyoShin_Icon_Costume_00",
+      "portrait_path": "Brigitte",
+      "controller_path": "Brigitte"
+    },
+    {
       "no": 2201,
       "type_sno": 710000,
       "name_sno": 520401,
@@ -2462,6 +2484,28 @@
       "icon_path": "Milia_Icon_Costume_02",
       "portrait_path": "Milia_Costume02",
       "controller_path": "Milia"
+    },
+    {
+      "no": 2353,
+      "type_sno": 710011,
+      "name_sno": 520553,
+      "hero_no": 6530,
+      "prefab_path": "MephistoDawn_Costume01",
+      "timeline_path": "MephistoDawn_Costume01",
+      "icon_path": "MephistoDawn_Icon_Costume_01",
+      "portrait_path": "MephistoDawn_Costume01",
+      "controller_path": "MephistoDawn"
+    },
+    {
+      "no": 2354,
+      "type_sno": 710012,
+      "name_sno": 520554,
+      "hero_no": 6530,
+      "prefab_path": "MephistoDawn_Costume02",
+      "timeline_path": "MephistoDawn_Costume02",
+      "icon_path": "MephistoDawn_Icon_Costume_02",
+      "portrait_path": "MephistoDawn_Costume02",
+      "controller_path": "MephistoDawn"
     },
     {
       "no": 2700,

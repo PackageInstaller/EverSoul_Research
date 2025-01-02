@@ -67,16 +67,10 @@
       "step_value": 1
     },
     {
-      "no": 50007,
-      "raid_no": 1,
-      "step": 8,
-      "step_value": 2
-    },
-    {
-      "no": 50008,
+      "no": 12,
       "raid_no": 2,
       "step": 8,
-      "step_value": 2
+      "step_value": 1
     },
     {
       "no": 50009,
@@ -97,16 +91,10 @@
       "step_value": 2
     },
     {
-      "no": 90098,
+      "no": 50012,
       "raid_no": 2,
       "step": 8,
-      "step_value": 3
-    },
-    {
-      "no": 90099,
-      "raid_no": 1,
-      "step": 8,
-      "step_value": 3
+      "step_value": 2
     },
     {
       "no": 90100,
@@ -121,10 +109,10 @@
       "step_value": 3
     },
     {
-      "no": 100006,
+      "no": 90102,
       "raid_no": 2,
       "step": 8,
-      "step_value": 4
+      "step_value": 3
     },
     {
       "no": 100007,
@@ -135,6 +123,12 @@
     {
       "no": 100008,
       "raid_no": 2,
+      "step": 8,
+      "step_value": 4
+    },
+    {
+      "no": 100009,
+      "raid_no": 1,
       "step": 8,
       "step_value": 4
     }

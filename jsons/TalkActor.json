@@ -718,6 +718,39 @@
       "position_scale": 1.0
     },
     {
+      "no": 1150,
+      "name_sno": 300120,
+      "prefab_path": "RoseCrimson",
+      "portrait512_path": "UI/Textures/Souls/RoseCrimson/RoseCrimson_512",
+      "portrait128_path": "UI/Textures/Souls/RoseCrimson/RoseCrimson_128",
+      "costume_path": "",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
+      "no": 1151,
+      "name_sno": 300120,
+      "prefab_path": "RoseCrimson",
+      "portrait512_path": "UI/Textures/Souls/RoseCrimson/RoseCrimson_Costume01_512",
+      "portrait128_path": "UI/Textures/Souls/RoseCrimson/RoseCrimson_Costume01_128",
+      "costume_path": "RoseCrimson_Costume01",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
+      "no": 1152,
+      "name_sno": 300120,
+      "prefab_path": "RoseCrimson",
+      "portrait512_path": "UI/Textures/Souls/RoseCrimson/RoseCrimson_Costume02_512",
+      "portrait128_path": "UI/Textures/Souls/RoseCrimson/RoseCrimson_Costume02_128",
+      "costume_path": "RoseCrimson_Costume02",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
       "no": 1990,
       "name_sno": 250068,
       "prefab_path": "NPCDarkknight",
@@ -9747,6 +9780,56 @@
     {
       "no": 9698,
       "name_sno": 250653,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9699,
+      "name_sno": 250654,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9700,
+      "name_sno": 250655,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9701,
+      "name_sno": 250656,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9702,
+      "name_sno": 250657,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9703,
+      "name_sno": 250658,
       "prefab_path": "",
       "portrait512_path": "",
       "portrait128_path": "",

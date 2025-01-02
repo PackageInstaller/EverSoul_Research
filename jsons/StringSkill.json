@@ -4746,11 +4746,11 @@
     },
     {
       "no": 23462,
-      "kr": "받는 최종 피해량 100% 증가",
-      "en": "Total damage received increases by 100%",
-      "ja": "受ける最終ダメージ量100%増加",
-      "zh_tw": "所受最終傷害量增加100%",
-      "zh_cn": "所受最终伤害量增加100%"
+      "kr": "받는 최종 피해량 증폭 <value>%",
+      "en": "Total damage received amplification <value>%",
+      "ja": "受ける最終ダメージ量増加<value>%",
+      "zh_tw": "所受最終傷害量增幅<value>%",
+      "zh_cn": "所受最终伤害量增加<value>%"
     },
     {
       "no": 23463,
@@ -11074,10 +11074,10 @@
     },
     {
       "no": 27081,
-      "kr": "매초마다 회복되며 공격을 받을 때마다 중첩 수가 감소한다. 중첩 당 받는 최종 피해 -1%",
-      "en": "A stack is gained every second and lost upon receiving an attack. Total damage received -1% per stack",
+      "kr": "매초마다 회복되며 공격을 받을 때마다 중첩 수가 감소한다. 중첩 당 받는 최종 피해 -1% 감면",
+      "en": "A stack is gained every second and lost upon receiving an attack. Total damage received reduction 1% per stack",
       "ja": "",
-      "zh_tw": "每秒皆會恢復，且每次受擊時疊加數減少，每疊加所受最終傷害-1%",
+      "zh_tw": "每秒皆會恢復，且每次受擊時疊加數減少，每疊加所受最終傷害減免-1%",
       "zh_cn": "每秒皆会恢复，且每次受击时层数减少，每层所受最终伤害-1%"
     },
     {
@@ -11090,10 +11090,10 @@
     },
     {
       "no": 27083,
-      "kr": "중첩 당 받는 최종 피해 <value>%",
-      "en": "Total damage received <value>% per stack",
+      "kr": "중첩 당 받는 최종 피해 <value>% 증폭",
+      "en": "Total damage received amplification <value>% per stack",
       "ja": "",
-      "zh_tw": "每疊加所受最終傷害<value>%",
+      "zh_tw": "每疊加所受最終傷害增幅<value>%",
       "zh_cn": "每层所受最终伤害<value>%"
     },
     {
@@ -12459,7 +12459,7 @@
     {
       "no": 27254,
       "kr": "서브 스킬 위력 증가",
-      "en": "Increase Sub skill damage",
+      "en": "Sub Skill Effectiveness Increase",
       "ja": "",
       "zh_tw": "輔助技能威力增加",
       "zh_cn": ""
@@ -12467,7 +12467,7 @@
     {
       "no": 27255,
       "kr": "서브 스킬 위력 <value>%",
-      "en": "Sub skill damage <value>%",
+      "en": "Sub Skill Effectiveness <value>%",
       "ja": "",
       "zh_tw": "輔助技能威力<value>%",
       "zh_cn": ""
@@ -12483,281 +12483,281 @@
     {
       "no": 27257,
       "kr": "천절삼도 위력 <value>%",
-      "en": "Triple Heaven Sunder damage <value>%",
+      "en": "Triple Heaven Sunder Effectiveness <value>%",
       "ja": "",
-      "zh_tw": "天切三刀的傷害量<value>%",
+      "zh_tw": "天切三刀威力<value>%",
       "zh_cn": ""
     },
     {
       "no": 27258,
       "kr": "악마형 추가 피해 <value>%",
-      "en": "",
+      "en": "Type Match Bonus Damage against Demons <value>%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "惡魔型額外傷害<value>%",
       "zh_cn": ""
     },
     {
       "no": 27259,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "그레모리도 기뻐할 것입니다. 공격력 <value>%, 가속 +20%",
+      "en": "Thanks for the power boost, Lilith. ATK <value>% and Speed +20%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "多虧妳我變強大了，莉莉絲。攻擊力<value>%、加速+20%",
       "zh_cn": ""
     },
     {
       "no": 27260,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "이데아 레벨Ⅰ",
+      "en": "Idea Level I",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "理念等級Ⅰ",
       "zh_cn": ""
     },
     {
       "no": 27261,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "가하는 피해량 +20%, 받는 최종 피해량 -20%",
+      "en": "Damage dealt +20%, total damage received -20%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "造成傷害量+20%、所受最終傷害量-20%",
       "zh_cn": ""
     },
     {
       "no": 27262,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "이데아 레벨Ⅱ",
+      "en": "Idea Level II",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "理念等級Ⅱ",
       "zh_cn": ""
     },
     {
       "no": 27263,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "가하는 피해량 +30%, 받는 최종 피해량 -30%",
+      "en": "Damage dealt +30%, total damage received -30%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "造成傷害量+30%、所受最終傷害量-30%",
       "zh_cn": ""
     },
     {
       "no": 27264,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "이데아 레벨Ⅲ",
+      "en": "Idea Level III",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "理念等級Ⅲ",
       "zh_cn": ""
     },
     {
       "no": 27265,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "가하는 피해량 +40%, 받는 최종 피해량 -40%",
+      "en": "Damage dealt +40%, total damage received -40%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "造成傷害量+40%、所受最終傷害量-40%",
       "zh_cn": ""
     },
     {
       "no": 27266,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "엑셀러레이터",
+      "en": "Accelerate",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "加速裝置",
       "zh_cn": ""
     },
     {
       "no": 27267,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "중첩당 일반 공격 피해량 +20%, 가속 +5%, 5중첩 시 일반 공격 대상 <균형 붕괴> 부여",
+      "en": "Normal attack damage +20% and Speed +5% per stack. At 5 stacks, normal attack inflicts \"Balance Break\" on target",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "每疊加一般攻擊傷害量+20%、加速+5%，達5疊加時賦予一般攻擊目標＜平衡崩潰＞",
       "zh_cn": ""
     },
     {
       "no": 27268,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "균형 붕괴",
+      "en": "Balance Break",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "平衡崩潰",
       "zh_cn": ""
     },
     {
       "no": 27269,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "방어력, 물리/마법 저항력 <value>%",
+      "en": "DEF and Physical/Magic Resistance <value>%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "防禦力、物理／魔法抵抗力<value>%",
       "zh_cn": ""
     },
     {
       "no": 27270,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "인과 추론",
+      "en": "Tracking Causality",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "因果推論",
       "zh_cn": ""
     },
     {
       "no": 27271,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "중첩당 치명타 확률 <value>%, 특정 중첩 달성 시 <이데아 레벨>이 상승한다.",
+      "en": "Crit Rate <value>% per stack. \"Idea Level\" increases at certain stack counts.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "每疊加暴擊率<value>%，達到特定疊加時提升＜理念等級＞",
       "zh_cn": ""
     },
     {
       "no": 27272,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "이데아 프로토콜: 핸드셰이크",
+      "en": "Idea Protocol: Handshake",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "理念協議：交握",
       "zh_cn": ""
     },
     {
       "no": 27273,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "공격력 <value>%",
+      "en": "ATK <value>%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "攻擊力<value>%",
       "zh_cn": ""
     },
     {
       "no": 27274,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "이데아 프로토콜: 익스플로잇",
+      "en": "Idea Protocol: Exploit",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "理念協議：漏洞利用",
       "zh_cn": ""
     },
     {
       "no": 27275,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "받는 최종 피해 <value>%",
+      "en": "Total Damage received <value>%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "所受最終傷害<value>%",
       "zh_cn": ""
     },
     {
       "no": 27276,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "분배적 정의: 보존",
+      "en": "Equitable Justice: Preservation",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "分配正義：保存",
       "zh_cn": ""
     },
     {
       "no": 27277,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "전쟁의 사도 근처에 적이 부족하여 피해를 거의 받지 않는 상태",
+      "en": "Barely receives any damage due to minimal nearby enemy presence",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "戰爭使者附近的敵人不足，處於幾乎不會受到傷害的狀態",
       "zh_cn": ""
     },
     {
       "no": 27278,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "분배적 정의: 충돌",
+      "en": "Equitable Justice: Clash",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "分配正義：衝突",
       "zh_cn": ""
     },
     {
       "no": 27279,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "전쟁의 사도 근처에 적이 많아 피해를 더욱 받는 상태",
+      "en": "Receives a lot more damage due to ample nearby enemy presence",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "戰爭使者附近很多敵人，處於受到更多傷害的狀態",
       "zh_cn": ""
     },
     {
       "no": 27280,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "공포의 군림: 집결",
+      "en": "Rule of Terror: Assembled",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "恐怖統治：聚集",
       "zh_cn": ""
     },
     {
       "no": 27281,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "대상 근처에 아군이 존재하여 안심하고 전투를 벌이는 상태",
+      "en": "Able to focus on the battle with the reassurance of nearby ally presence",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "目標附近存有友軍，放心展開戰鬥的狀態",
       "zh_cn": ""
     },
     {
       "no": 27282,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "공포의 군림: 고립",
+      "en": "Rule of Terror: Isolated",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "恐怖統治：孤立",
       "zh_cn": ""
     },
     {
       "no": 27283,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "대상 근처에 아군이 없어 공포를 안고 전투를 벌이는 상태",
+      "en": "Engaging in battle while gripped by terror due to lack of nearby ally presence",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "目標附近沒有友軍，在恐懼下展開戰鬥的狀態",
       "zh_cn": ""
     },
     {
       "no": 27284,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "전쟁의 사도",
+      "en": "Apostle of War",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "戰爭使者",
       "zh_cn": ""
     },
     {
       "no": 27285,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "선고 피해에 취약",
+      "en": "Vulnerable to Sentence damage",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "容易陷入宣告傷害",
       "zh_cn": ""
     },
     {
       "no": 27286,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "플루토",
+      "en": "Pluto",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "冥王",
       "zh_cn": ""
     },
     {
       "no": 27287,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "연속 타격 및 선고 피해에 취약",
+      "en": "Vulnerable to multi-hit and Sentence damage",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "容易陷入連續打擊與宣告傷害",
       "zh_cn": ""
     },
     {
       "no": 27288,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "찬란한 여명",
+      "en": "Radiant Dawn",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "燦爛黎明",
       "zh_cn": ""
     },
     {
       "no": 27289,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "메인 스킬 위력 <value>%, 메인 스킬 사용 후 일정 시간 뒤 마나를 가득 채운다.",
+      "en": "Main skill effectiveness <value>%. Main skill use is followed by full Mana restoration after a set time.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "主要技能威力<value>%，使用主要技能一定時間後恢復滿點魔力",
       "zh_cn": ""
     },
     {
       "no": 27290,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "충격 흡수 보호막",
+      "en": "Shock Absorb Shield",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "吸收衝擊防護罩",
       "zh_cn": ""
     },
     {
       "no": 27291,
-      "kr": "Work in Progress",
-      "en": "",
+      "kr": "시전자의 공격력에 비례하여 피해를 흡수하고, 보호막이 유지되는 동안 물리/마법 저항 +30%",
+      "en": "Absorbs damage in proportion to her ATK. Physical/Magic Resistance +30% while the shield is active.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "吸收與施展者攻擊力成正比的傷害，防護罩維持期間物理／魔法抵抗+30%",
       "zh_cn": ""
     },
     {
@@ -20003,17 +20003,17 @@
     {
       "no": 234150,
       "kr": "솔로몬의 반지",
-      "en": "",
+      "en": "Solomon's Ring",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "所羅門戒指",
       "zh_cn": ""
     },
     {
       "no": 234159,
       "kr": "신비한 마법이 깃든 문장 반지. \r\n지혜로운 왕은 이 반지의 힘을 빌어 동물들과 대화하고, \r\n72위의 강력한 마신들을 지배했다고 한다.",
-      "en": "",
+      "en": "A sigil ring steeped in mystical magic.\r\nIt is said that a wise king used this ring to talk\r\nto animals and rule over 72 powerful demons.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "蘊藏神祕魔法的紋章戒指。\r\n據說智慧之王藉著這戒指的力量與動物溝通，\r\n統治了72位強大的魔神。",
       "zh_cn": ""
     },
     {
@@ -20735,6 +20735,86 @@
       "ja": "",
       "zh_tw": "與桑納托斯的結晶融合，獲得死亡權能的琳賽全新起源。\r\n忠實回應主人呼喚的劍，最後連死亡都回應，超越了生死界線。",
       "zh_cn": "与桑纳托斯的结晶融合，获得衰朽权能的琳赛全新起源。\r\n忠实回应主人呼唤的剑，最后连衰朽都回应，超越了生与朽界线。"
+    },
+    {
+      "no": 236530,
+      "kr": "여명의 방주 메타트론",
+      "en": "Ark of Dawn Metatron",
+      "ja": "",
+      "zh_tw": "黎明方舟梅塔特隆",
+      "zh_cn": ""
+    },
+    {
+      "no": 236531,
+      "kr": "이데아 프로토콜",
+      "en": "Idea Protocol",
+      "ja": "",
+      "zh_tw": "理念協議",
+      "zh_cn": ""
+    },
+    {
+      "no": 236532,
+      "kr": "<COLOR=#FFFFFF><이데아 레벨></COLOR>이 상승할 때 마다 자신의 체력 및 마나를 <653613.VALUE> 회복한다. \r\n추가로 전투 시작 시 자신의 마나를 <653610.VALUE> 회복한다.",
+      "en": "Recovers HP and Mana by <653613.VALUE> each time <COLOR=#FFFFFF>\"Idea Level\"</COLOR> goes up.\r\nAlso recovers <653610.VALUE> Mana when battle begins.",
+      "ja": "",
+      "zh_tw": "每當<COLOR=#FFFFFF>＜理念等級＞</COLOR>提升時，恢復自身體力與魔力<653613.VALUE>\r\n額外在戰鬥開始後恢復自身魔力<653610.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 236533,
+      "kr": "<COLOR=#FFFFFF><이데아 레벨></COLOR>이 상승할 때 회복량이 <653623.VALUE>로 변경된다.",
+      "en": "Recovery amount from <COLOR=#FFFFFF>\"Idea Level\"</COLOR> increase changes to <653623.VALUE>.",
+      "ja": "",
+      "zh_tw": "<COLOR=#FFFFFF>＜理念等級＞</COLOR>提升時，恢復量變更為<653623.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 236534,
+      "kr": "<COLOR=#FFFFFF><이데아 레벨></COLOR>이 상승할 때 회복량이 <653633.VALUE>로 변경된다.",
+      "en": "Recovery amount from <COLOR=#FFFFFF>\"Idea Level\"</COLOR> increase changes to <653633.VALUE>.",
+      "ja": "",
+      "zh_tw": "<COLOR=#FFFFFF>＜理念等級＞</COLOR>提升時，恢復量變更為<653633.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 236535,
+      "kr": "<COLOR=#FFFFFF><이데아 레벨></COLOR>이 상승할 때 회복량이 <653643.VALUE>로 변경된다. 추가로 <COLOR=#FFFFFF><이데아 레벨:Ⅱ></COLOR> 발동 시 전장에 있는 동안 모든 아군의 공격력을 <653742.VALUE> 증가시킨다.",
+      "en": "Recovery amount from <COLOR=#FFFFFF>\"Idea Level\"</COLOR> increase changes to <653643.VALUE>. Also increases all allies' ATK by <653742.VALUE> when <COLOR=#FFFFFF>\"Idea Level II\"</COLOR> is triggered.",
+      "ja": "",
+      "zh_tw": "<COLOR=#FFFFFF>＜理念等級＞</COLOR>提升時，恢復量變更為<653643.VALUE>。額外發動<COLOR=#FFFFFF>＜理念等級：Ⅱ＞</COLOR>時，在戰場上的期間使所有友軍攻擊力增加<653742.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 236536,
+      "kr": "<COLOR=#FFFFFF><이데아 레벨></COLOR>이 상승할 때 회복량이 <653653.VALUE>로 변경된다.",
+      "en": "Recovery amount from <COLOR=#FFFFFF>\"Idea Level\"</COLOR> increase changes to <653653.VALUE>.",
+      "ja": "",
+      "zh_tw": "<COLOR=#FFFFFF>＜理念等級＞</COLOR>提升時，恢復量變更為<653653.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 236537,
+      "kr": "<COLOR=#FFFFFF><이데아 레벨></COLOR>이 상승할 때 회복량이 <653663.VALUE>로 변경된다.",
+      "en": "Recovery amount from <COLOR=#FFFFFF>\"Idea Level\"</COLOR> increase changes to <653663.VALUE>.",
+      "ja": "",
+      "zh_tw": "<COLOR=#FFFFFF>＜理念等級＞</COLOR>提升時，恢復量變更為<653663.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 236538,
+      "kr": "<COLOR=#FFFFFF><이데아 레벨></COLOR>이 상승할 때 회복량이 <653673.VALUE>로 변경된다. 추가로 <COLOR=#FFFFFF><이데아 레벨:Ⅲ></COLOR> 발동 시 전장에 있는 동안 모든 적의 받는 최종 피해량을  <653772.VALUE> 증가시킨다.",
+      "en": "Recovery amount from <COLOR=#FFFFFF>\"Idea Level\"</COLOR> increase changes to <653673.VALUE>. Also increases all enemies' total damage received by <653772.VALUE> when <COLOR=#FFFFFF>\"Idea Level III\"</COLOR> is triggered.",
+      "ja": "",
+      "zh_tw": "<COLOR=#FFFFFF>＜理念等級＞</COLOR>提升時，恢復量變更為<653673.VALUE>。額外發動<COLOR=#FFFFFF>＜理念等級：Ⅲ＞</COLOR>時，在戰場上的期間使所有敵人所受最終傷害量增加<653772.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 236539,
+      "kr": "특이점 파우스트 박사가 제작한 '기만의 악마'가 진정한 힘에 눈을 뜬 형태. \r\n여명의 방주와 하나가 된 기만의 악마는 이 세상의 섭리를 속이고 신과 대적해 \r\n이 세상에 새로운 여명을 밝힐 것이다.",
+      "en": "The \"Demon of Deception,\" created by the Singularity Dr. Faust, awakened to its true power.\r\nMerged with the Ark of Dawn, the Demon of Deception will subvert the providence of this world,\r\ndefying the divine to usher in a new dawn for this world.",
+      "ja": "",
+      "zh_tw": "特異者浮士德博士製作的「欺瞞的惡魔」已覺醒真正的力量。\r\n欺瞞的惡魔與黎明方舟合而為一，瞞過這世界的法則並與神為敵，\r\n將在這世界撒下全新的黎明。",
+      "zh_cn": ""
     },
     {
       "no": 236980,
@@ -24361,6 +24441,54 @@
       "zh_cn": "缘分奇迹"
     },
     {
+      "no": 346531,
+      "kr": "코드: 페이트 브레이크",
+      "en": "Code: Fate Break",
+      "ja": "",
+      "zh_tw": "代碼：粉碎命運",
+      "zh_cn": ""
+    },
+    {
+      "no": 346532,
+      "kr": "아크 디스차지",
+      "en": "Ark Discharge",
+      "ja": "",
+      "zh_tw": "電弧",
+      "zh_cn": ""
+    },
+    {
+      "no": 346533,
+      "kr": "안티 플롯",
+      "en": "Anti Plot",
+      "ja": "",
+      "zh_tw": "反結構",
+      "zh_cn": ""
+    },
+    {
+      "no": 346534,
+      "kr": "코드: 이데아",
+      "en": "Code: Idea",
+      "ja": "",
+      "zh_tw": "代碼：理念",
+      "zh_cn": ""
+    },
+    {
+      "no": 346535,
+      "kr": "코드: 리벨리온",
+      "en": "Code: Rebellion",
+      "ja": "",
+      "zh_tw": "代碼：叛亂",
+      "zh_cn": ""
+    },
+    {
+      "no": 346539,
+      "kr": "찬란한 여명",
+      "en": "Radiant Dawn",
+      "ja": "",
+      "zh_tw": "燦爛黎明",
+      "zh_cn": ""
+    },
+    {
       "no": 346981,
       "kr": "첫 번째 탄환 《알레프》",
       "en": "First Bullet 《Aleph》",
@@ -25089,6 +25217,46 @@
       "zh_cn": ""
     },
     {
+      "no": 349054,
+      "kr": "역전의 투지",
+      "en": "Tide-Turning Spirit",
+      "ja": "逆転の闘志",
+      "zh_tw": "逆轉鬥志",
+      "zh_cn": ""
+    },
+    {
+      "no": 349055,
+      "kr": "단 하나의 적",
+      "en": "Single Enemy",
+      "ja": "",
+      "zh_tw": "唯一敵人",
+      "zh_cn": ""
+    },
+    {
+      "no": 349056,
+      "kr": "강철을 뚫어낼 각오",
+      "en": "Steel-Piercing Determination",
+      "ja": "",
+      "zh_tw": "鑿穿鋼鐵的覺悟",
+      "zh_cn": ""
+    },
+    {
+      "no": 349057,
+      "kr": "천사같은 영물",
+      "en": "Angelic Mythic Creature",
+      "ja": "",
+      "zh_tw": "天使般的靈物",
+      "zh_cn": ""
+    },
+    {
+      "no": 349058,
+      "kr": "천상의 정화",
+      "en": "Celestial Purification",
+      "ja": "",
+      "zh_tw": "天之淨化",
+      "zh_cn": ""
+    },
+    {
       "no": 349311,
       "kr": "카카오 스매시",
       "en": "Cacao Spike",
@@ -25331,17 +25499,17 @@
     {
       "no": 349502,
       "kr": "악마의 기운\t",
-      "en": "",
+      "en": "Demonic Energy\t",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "惡魔氣息\t",
       "zh_cn": ""
     },
     {
       "no": 349503,
       "kr": "상성의 힘",
-      "en": "",
+      "en": "Type Match Power",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "契合之力",
       "zh_cn": ""
     },
     {
@@ -29017,6 +29185,54 @@
       "zh_cn": "若队长精灵是琳赛，每2秒一般攻击和主要、辅助、终极技能威力增加<color=#EDA900>1%</color>"
     },
     {
+      "no": 356531,
+      "kr": "응축시킨 방주의 힘을 이용해 가장 체력이 낮은 적을 대상으로 돌파하여 공격력 <653111.VALUE>의 피해를 입히고 <653112.DURATION>초 동안 기절 상태로 만든다.",
+      "en": "Channels the condensed power of the ark to pierce through the enemy with the lowest HP, dealing damage equal to <653111.VALUE> of ATK and stunning them for <653112.DURATION> sec.",
+      "ja": "",
+      "zh_tw": "利用凝聚的方舟力量，以體力最低的敵人為目標突破，造成攻擊力<653111.VALUE>的傷害，並使其陷入<653112.DURATION>秒暈眩",
+      "zh_cn": ""
+    },
+    {
+      "no": 356532,
+      "kr": "날개를 이용해 가장 가까운 적을 베어내어 공격력 <653211.VALUE>의 피해를 입히고, 자신에게 일반 공격 피해량을 <653212.VALUE> 증가시키고, 가속을 <653213.VALUE> 증가시키는 <COLOR=#FFFFFF><엑셀러레이트></COLOR> 버프를 부여한다. (최대 5중첩) 해당 버프가 5중첩이 되면 일반 공격이 공격력 <653014.VALUE>의 추가 피해를 입히고, 매 일반 공격 시 <653012.DURATION>초 동안 대상의 방어력 및 물리/마법 저항을 <653012.VALUE> 감소시키는 <COLOR=#FFFFFF><균형 붕괴></COLOR> 디버프를 부여한다. (최대 10중첩)",
+      "en": "Slashes the nearest enemy with her wing to deal damage equal to <653211.VALUE> of ATK while granting the <COLOR=#FFFFFF>\"Accelerate\"</COLOR> buff to herself, increasing normal attack damage by <653212.VALUE> and Speed by <653213.VALUE> (stacks up to 5 times). When this buff reaches 5 stacks, her normal attack deals additional damage equal to <653014.VALUE> of ATK and inflicts a stack of the <COLOR=#FFFFFF>\"Balance Break\"</COLOR> debuff on the target, decreasing their DEF and Physical/Magic Resistance by <653012.VALUE> (stacks up to 10 times) for <653012.DURATION> sec.",
+      "ja": "",
+      "zh_tw": "使用翅膀砍擊最接近的敵人，造成攻擊力<653211.VALUE>的傷害，賦予自身增益效果<COLOR=#FFFFFF>＜加速裝置＞</COLOR>，使一般攻擊傷害量增加<653212.VALUE>、加速增加<653213.VALUE>。（最多5疊加）若該增益達5疊加，一般攻擊造成攻擊力<653014.VALUE>的額外傷害，並賦予減益效果<COLOR=#FFFFFF>＜平衡崩潰＞</COLOR>，每次一般攻擊時，在<653012.DURATION>秒內使目標防禦力與物理／魔法抵抗減少<653012.VALUE>。（最多10疊加）",
+      "zh_cn": ""
+    },
+    {
+      "no": 356533,
+      "kr": "날개를 모아 가장 가까운 적을 단번에 찔러 공격력 <653311.VALUE>의 피해를 입히고, <653312.DURATION>초 동안 자신의 공격력 <653312.VALUE>의 보호막을 생성한다. 해당 보호막이 유지되는 동안 물리/마법 저항이 <653313.VALUE> 증가한다.",
+      "en": "Folds her wing to deliver a single, piercing strike to the nearest enemy, dealing damage equal to <653311.VALUE> of ATK and gaining a shield equal to <653312.VALUE> of ATK for <653312.DURATION> sec. Her Physical/Magic Resistance is increased by <653313.VALUE> while the shield is active.",
+      "ja": "",
+      "zh_tw": "收攏翅膀，一次刺向最接近的敵人，造成攻擊力<653311.VALUE>的傷害，並在<653312.DURATION>秒內生成自身攻擊力<653312.VALUE>的防護罩。該防護罩持續期間，物理／魔法抵抗增加<653313.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 356534,
+      "kr": "모든 공격이 대기시간 없이 발동되며 전투 시작 시 <COLOR=#FFFFFF><이데아 레벨:Ⅰ></COLOR> 버프가 부여되어 가하는 피해량이 <653413.VALUE> 증가하고 받는 최종 피해량이 <653414.VALUE> 감소한다.",
+      "en": "All attacks trigger without cooldowns. Starts battle with the <COLOR=#FFFFFF>\"Idea Level I\"</COLOR> buff, which increases her damage dealt by <653413.VALUE> and decreases her total damage received by <653414.VALUE>.",
+      "ja": "",
+      "zh_tw": "所有攻擊無須等待時間，立即發動，戰鬥開始後被賦予增益效果<COLOR=#FFFFFF>＜理念等級：Ⅰ＞</COLOR>，造成傷害量增加<653413.VALUE>，所受最終傷害量減少<653414.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 356535,
+      "kr": "응축시킨 방주의 힘으로 각 날개를 제어하여 가장 체력이 낮은 적을 대상으로 쉴새없이 몰아쳐 공격력 <653511.VALUE>의 피해를 입히고, 적을 <653512.DURATION>초동안 기절 상태로 만든다.",
+      "en": "Channels the condensed power of the ark to strike the enemy with the lowest HP with each of her wing blades, dealing damage equal to <653511.VALUE> of ATK and stunning them for <653512.DURATION> sec.",
+      "ja": "",
+      "zh_tw": "使用凝聚的方舟力量控制翅膀，以體力最低的敵人為目標不停肆虐，造成攻擊力<653511.VALUE>的傷害，使敵人陷入<653512.DURATION>秒暈眩",
+      "zh_cn": ""
+    },
+    {
+      "no": 356539,
+      "kr": "리더 정령이 메피스토펠레스일 경우 메인 스킬의 위력이 <COLOR=#B778FF><653913.VALUE></COLOR>만큼 감소하지만 메인 스킬 사용 <653915.DURATION>초 후 마나를 가득 회복한다.",
+      "en": "If the lead Soul is Mephistopheles, the main skill's effectiveness is decreased by <COLOR=#B778FF><653913.VALUE></COLOR> but Mana is fully restored <653915.DURATION> sec after using the main skill.",
+      "ja": "",
+      "zh_tw": "若隊長精靈為梅菲斯托佩萊斯，主要技能威力減少<COLOR=#B778FF><653913.VALUE></COLOR>，但使用主要技能<653915.DURATION>秒後會恢復滿點魔力",
+      "zh_cn": ""
+    },
+    {
       "no": 356981,
       "kr": "첫 번째 탄환 알레프를 자신에게 발사하고, 가장 가까운 적을 공격한다. 대상에게 공격력 <698111.VALUE>의 피해를 입히고 <698117.DURATION>초 동안 자신의 가속을 <698117.VALUE> 증가시킨다. 대상이 <COLOR=#FFFFFF><시간을 먹는 성></COLOR> 디버프 효과를 보유하고 있을 경우 스택마다 공격력 <698112.VALUE>의 추가 피해를 입힌다.",
       "en": "Fires the First Bullet Aleph to herself, then attacks the nearest enemy. Deals damage equal to <698111.VALUE> of ATK to the target and increases her Speed by <698117.VALUE> for <698117.DURATION> sec. If the target is under the <COLOR=#FFFFFF>\"City of Devouring Time\"</COLOR> debuff, Kurumi deals additional damage equal to <698112.VALUE> of ATK per stack.",
@@ -29745,6 +29961,46 @@
       "zh_cn": ""
     },
     {
+      "no": 359054,
+      "kr": "아군의 상성 피해 150%증가",
+      "en": "All allies' Type Match Bonus Damage +150%",
+      "ja": "味方の相性ダメージ150%増加",
+      "zh_tw": "友軍契合度傷害增加150%",
+      "zh_cn": ""
+    },
+    {
+      "no": 359055,
+      "kr": "자신이 단일 역할일 경우 가하는 피해 150% 증가",
+      "en": "Damage dealt +150% if in Single-target role",
+      "ja": "",
+      "zh_tw": "若自身為單一定位，造成傷害增加150%",
+      "zh_cn": ""
+    },
+    {
+      "no": 359056,
+      "kr": "레인저/스트라이커 정령의 가하는 피해 100% 증가",
+      "en": "Damage dealt by Rangers/Strikers +100%",
+      "ja": "",
+      "zh_tw": "遊俠／鬥士精靈造成傷害增加100%",
+      "zh_cn": ""
+    },
+    {
+      "no": 359057,
+      "kr": "적이 받는 피해가 60% 감소하고, 천사형으로 취급된다.",
+      "en": "The Unicat is considered Angel type, and its total damage received is decreased by 60%.",
+      "ja": "",
+      "zh_tw": "敵人所受傷害減少60%，被視為天使型。",
+      "zh_cn": ""
+    },
+    {
+      "no": 359058,
+      "kr": "12초마다 자신에게 걸린 해제 가능한 모든 디버프를 해제한다.",
+      "en": "Cancels all cancellable debuffs from itself every 2 sec.",
+      "ja": "",
+      "zh_tw": "每2秒解除自身所有可解除的減益效果",
+      "zh_cn": ""
+    },
+    {
       "no": 359311,
       "kr": "가장 가까운 적과 주변 3m 범위에 공격력의 <931111.VALUE>만큼 피해를 입히고, <931112.DURATION>초 동안 공격력의 <931112.VALUE>씩 피해를 입는 화상 상태로 만든다.",
       "en": "Deals damage equal to <931111.VALUE> of ATK to the nearest enemy and 3m around it, and makes it burn, dealing damage equal to <931112.VALUE> of ATK for <931112.DURATION> seconds.",
@@ -29987,17 +30243,17 @@
     {
       "no": 359502,
       "kr": "보스를 악마형으로 취급하고, 보스 및 모든 악마형 아군의 악마형 추가 피해 80% 감소",
-      "en": "",
+      "en": "The boss is considered Demon type, and all ally Demon Souls' Type Match Bonus Damage against Demons -80%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "將BOSS視為惡魔型，BOSS與所有惡魔型友軍的惡魔型額外傷害減少80%",
       "zh_cn": ""
     },
     {
       "no": 359503,
       "kr": "모든 아군의 상성 추가 피해 100% 증가",
-      "en": "",
+      "en": "All allies' Type Match Bonus Damage +100%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "所有友軍契合度額外傷害增加100%",
       "zh_cn": ""
     },
     {
@@ -33585,6 +33841,54 @@
       "zh_cn": "若队长精灵是琳赛，每2秒一般攻击和主要、辅助、终极技能威力增加<color=#EDA900>1.25%</color>"
     },
     {
+      "no": 366531,
+      "kr": "<COLOR=#FFFFFF><인과 추론></COLOR> 버프를 1중첩 증가시키는 효과가 추가되고, <COLOR=#FFFFFF><이데아 레벨:Ⅱ></COLOR> 이상일 경우 공격력 <653122.VALUE>의 추가 피해를 입힌다.",
+      "en": "Grants a stack of <COLOR=#FFFFFF>\"Tracking Causality.\"</COLOR> Also deals additional damage equal to <653122.VALUE> of ATK if <COLOR=#FFFFFF>\"Idea Level\"</COLOR> is II or higher.",
+      "ja": "",
+      "zh_tw": "追加使增益效果<COLOR=#FFFFFF>＜因果推論＞</COLOR>增加1疊加的效果，若為<COLOR=#FFFFFF>＜理念等級：Ⅱ＞</COLOR>以上，造成攻擊力<653122.VALUE>的額外傷害",
+      "zh_cn": ""
+    },
+    {
+      "no": 366532,
+      "kr": " <COLOR=#FFFFFF><이데아 레벨:Ⅱ></COLOR> 이상일 경우 공격력 <653221.VALUE>의 추가 피해를 입히고, <COLOR=#FFFFFF><엑셀러레이트></COLOR> 버프를 1중첩 더 부여한다.",
+      "en": "If <COLOR=#FFFFFF>\"Idea Level\"</COLOR> is II or higher, deals additional damage equal to <653221.VALUE> of ATK and grants one more stack of \"<COLOR=#FFFFFF>\"Accelerate.\"</COLOR>",
+      "ja": "",
+      "zh_tw": "若為<COLOR=#FFFFFF>＜理念等級：Ⅱ＞</COLOR>以上，造成攻擊力<653221.VALUE>的額外傷害，再賦予增益效果<COLOR=#FFFFFF>＜加速裝置＞</COLOR>1疊加",
+      "zh_cn": ""
+    },
+    {
+      "no": 366533,
+      "kr": " <COLOR=#FFFFFF><이데아 레벨:Ⅱ></COLOR> 이상일 경우 공격력 <653321.VALUE>의 추가 피해를 입히고, 대상의 버프를 <653322.VALUE>개 제거한다.",
+      "en": "If <COLOR=#FFFFFF>\"Idea Level\"</COLOR> is II or higher, deals additional damage equal to <653321.VALUE> of ATK to the target and cancels <653322.VALUE> buffs on the target.",
+      "ja": "",
+      "zh_tw": "若為<COLOR=#FFFFFF>＜理念等級：Ⅱ＞</COLOR>以上，造成攻擊力<653321.VALUE>的額外傷害，解除目標<653322.VALUE>個增益效果",
+      "zh_cn": ""
+    },
+    {
+      "no": 366534,
+      "kr": "특정 조건에 의해 <COLOR=#FFFFFF><인과 추론></COLOR> 버프를 획득할 수 있으며 버프 1중첩 당 자신의 치명타 확률이 <653522.VALUE> 증가한다. <COLOR=#FFFFFF>(최대 10중첩)</COLOR> 버프가 <COLOR=#FFFFFF>3</COLOR>중첩이 넘어서면 <COLOR=#FFFFFF><이데아 레벨:Ⅱ></COLOR>로 진화하며 가하는 피해량이 <653423.VALUE> 증가하고 받는 최종 피해량이 <653424.VALUE> 감소한다. 적이 쓰러질 때 마다 자신의 <COLOR=#FFFFFF><인과 추론></COLOR> 버프 중첩을 1 증가시킨다.",
+      "en": "Can gain stacks of the <COLOR=#FFFFFF>\"Tracking Causality\"</COLOR> buff under certain conditions, which increases her Crit Rate by <653522.VALUE> per stack <COLOR=#FFFFFF>(stacks up to 10 times)</COLOR>. At <COLOR=#FFFFFF>3</COLOR> or more stacks, the buff evolves to <COLOR=#FFFFFF>\"Idea Level II,\"</COLOR> increasing her damage dealt by <653423.VALUE> and decreasing her total damage received by <653424.VALUE>. Every time an enemy is defeated, she gains a stack of <COLOR=#FFFFFF>\"Tracking Causality.\"</COLOR>",
+      "ja": "",
+      "zh_tw": "可依特定條件獲得增益效果<COLOR=#FFFFFF>＜因果推論＞</COLOR>，每1疊加自身暴擊率增加<653522.VALUE>。<COLOR=#FFFFFF>（最多10疊加）</COLOR>增益效果超過<COLOR=#FFFFFF>3</COLOR>疊加將進化成<COLOR=#FFFFFF>＜理念等級：Ⅱ＞</COLOR>，造成傷害量增加<653423.VALUE>，所受最終傷害量減少<653424.VALUE>。每當敵人倒下時，使自身增益效果<COLOR=#FFFFFF>＜因果推論＞</COLOR>增加1疊加",
+      "zh_cn": ""
+    },
+    {
+      "no": 366535,
+      "kr": "<COLOR=#FFFFFF><인과 추론></COLOR> 버프를 1중첩 증가시키는 효과가 추가되고, 해당 스킬로 적을 쓰러뜨렸을 경우에는 1중첩 추가로 증가한다.  <COLOR=#FFFFFF><이데아 레벨:Ⅱ></COLOR> 이상일 경우 공격력 <653521.VALUE>의 추가 피해를 입히고, <COLOR=#FFFFFF><인과 추론></COLOR> 버프를 1중첩 더 증가시킨다.",
+      "en": "Grants a stack of <COLOR=#FFFFFF>\"Tracking Causality.\"</COLOR> Grants another stack upon defeating an enemy with this skill. If <COLOR=#FFFFFF>\"Idea Level\"</COLOR> is II or higher, deals additional damage equal to <653521.VALUE> of ATK and grants another stack of <COLOR=#FFFFFF>\"Tracking Causality.\"</COLOR>",
+      "ja": "",
+      "zh_tw": "追加使增益效果<COLOR=#FFFFFF>＜因果推論＞</COLOR>增加1疊加的效果，若使用該技能擊倒敵人將額外增加1疊加。若為<COLOR=#FFFFFF>＜理念等級：Ⅱ＞</COLOR>以上，造成攻擊力<653521.VALUE>的額外傷害，再增加增益效果<COLOR=#FFFFFF>＜因果推論＞</COLOR>1疊加",
+      "zh_cn": ""
+    },
+    {
+      "no": 366539,
+      "kr": "리더 정령이 메피스토펠레스일 경우 메인 스킬의 위력이 <COLOR=#B778FF><653923.VALUE></COLOR>만큼 감소하지만 메인 스킬 사용 <653925.DURATION>초 후 마나를 가득 회복한다.",
+      "en": "If the lead Soul is Mephistopheles, the main skill's effectiveness is decreased by <COLOR=#B778FF><653923.VALUE></COLOR> but Mana is fully restored <653925.DURATION> sec after using the main skill.",
+      "ja": "",
+      "zh_tw": "若隊長精靈為梅菲斯托佩萊斯，主要技能威力減少<COLOR=#B778FF><653923.VALUE></COLOR>，但使用主要技能<653925.DURATION>秒後會恢復滿點魔力",
+      "zh_cn": ""
+    },
+    {
       "no": 366981,
       "kr": "피해량이 <698121.VALUE>, 추가 피해량이 <698122.VALUE>로 변경된다.",
       "en": "Damage changes to <698121.VALUE>, additional damage changes to <698122.VALUE>.",
@@ -37073,6 +37377,54 @@
       "zh_cn": "若队长精灵是琳赛，每2秒一般攻击和主要、辅助、终极技能威力增加<color=#EDA900>1.5%</color>"
     },
     {
+      "no": 376531,
+      "kr": "해당 스킬로 적을 쓰러뜨렸을 경우 <COLOR=#FFFFFF><인과 추론></COLOR> 버프를 1중첩 증가시키는 효과가 추가되고, <COLOR=#FFFFFF><이데아 레벨:Ⅲ></COLOR> 상태일 경우 공격력 <653132.VALUE>의 피해를 입히고, 대상의 마나를 <653133.VALUE> 감소시킨다.",
+      "en": "Defeating an enemy with this skill grants a stack of <COLOR=#FFFFFF>\"Tracking Causality.\"</COLOR> Also deals damage equal to <653132.VALUE> of ATK and decreases the target's Mana by <653133.VALUE> if <COLOR=#FFFFFF>\"Idea Level\"</COLOR> is III.",
+      "ja": "",
+      "zh_tw": "若使用該技能擊倒敵人，追加使增益效果<COLOR=#FFFFFF>＜因果推論＞</COLOR> 增加1疊加的效果，若為<COLOR=#FFFFFF>＜理念等級：Ⅲ＞</COLOR>，造成攻擊力<653132.VALUE>的傷害，並減少目標魔力<653133.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 376532,
+      "kr": "<COLOR=#FFFFFF><이데아 레벨:Ⅲ></COLOR> 상태일 경우 공격력 <653231.VALUE>의 추가 피해를 입히고, <COLOR=#FFFFFF><엑셀러레이트></COLOR> 중첩이 5중첩이라면 공격력 <653232.VALUE>의 추가 피해를 입힌다.",
+      "en": "If <COLOR=#FFFFFF>\"Idea Level\"</COLOR> is III, deals additional damage equal to <653231.VALUE> of ATK. If <COLOR=#FFFFFF>\"Accelerate\"</COLOR> is at 5 stacks, deals additional damage equal to <653232.VALUE> of ATK.",
+      "ja": "",
+      "zh_tw": "若為<COLOR=#FFFFFF>＜理念等級：Ⅲ＞</COLOR>，造成攻擊力<653231.VALUE>的額外傷害，<COLOR=#FFFFFF>＜加速裝置＞</COLOR>若為5疊加，造成攻擊力<653232.VALUE>的額外傷害",
+      "zh_cn": ""
+    },
+    {
+      "no": 376533,
+      "kr": "<COLOR=#FFFFFF><이데아 레벨:Ⅲ></COLOR> 상태일 경우 공격력 <653331.VALUE>의 추가 피해를 입히고, 자신의 마나를 추가로 <653332.VALUE> 회복한다.",
+      "en": "If <COLOR=#FFFFFF>\"Idea Level\"</COLOR> is III, deals additional damage equal to <653331.VALUE> of ATK to the target and recovers <653332.VALUE> Mana.",
+      "ja": "",
+      "zh_tw": "若為<COLOR=#FFFFFF>＜理念等級：Ⅲ＞</COLOR>，造成攻擊力<653331.VALUE>的額外傷害，額外恢復自身魔力<653332.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 376534,
+      "kr": "<COLOR=#FFFFFF><인과 추론></COLOR> 버프가 <COLOR=#FFFFFF>10</COLOR>중첩에 도달할 경우 <COLOR=#FFFFFF><이데아 레벨:Ⅲ></COLOR>로 진화하며 가하는 피해량이 <653433.VALUE> 증가하고 받는 최종 피해량이 <653434.VALUE> 감소한다.",
+      "en": "The buff evolves to <COLOR=#FFFFFF>\"Idea Level III\"</COLOR> when <COLOR=#FFFFFF>\"Tracking Causality\"</COLOR> reaches <COLOR=#FFFFFF>10</COLOR> stacks, increasing her damage dealt by <653433.VALUE> and decreasing her total damage received by <653434.VALUE>.",
+      "ja": "",
+      "zh_tw": "增益效果<COLOR=#FFFFFF>＜因果推論＞</COLOR>達<COLOR=#FFFFFF>10</COLOR>疊加將進化成<COLOR=#FFFFFF>＜理念等級：Ⅲ＞</COLOR>，造成傷害量增加<653433.VALUE>，所受最終傷害量減少<653434.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 376535,
+      "kr": "<COLOR=#FFFFFF><이데아 레벨:Ⅲ></COLOR> 상태일 경우 공격력 <653531.VALUE>의 추가 피해를 입히고, 아군 전체의 마나를 <653532.VALUE> 회복시킨다.",
+      "en": "If <COLOR=#FFFFFF>\"Idea Level\"</COLOR> is III, deals additional damage equal to <653531.VALUE> of ATK to the target and restores <653532.VALUE> Mana for all allies.",
+      "ja": "",
+      "zh_tw": "若為<COLOR=#FFFFFF>＜理念等級：Ⅲ＞</COLOR>，造成攻擊力<653531.VALUE>的額外傷害，並恢復友軍全體魔力<653532.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 376539,
+      "kr": "리더 정령이 메피스토펠레스일 경우 메인 스킬의 위력이 <COLOR=#B778FF><653933.VALUE></COLOR>만큼 감소하지만 메인 스킬 사용 <653935.DURATION>초 후 마나를 가득 회복한다.",
+      "en": "If the lead Soul is Mephistopheles, the main skill's effectiveness is decreased by <COLOR=#B778FF><653933.VALUE></COLOR> but Mana is fully restored <653935.DURATION> sec after using the main skill.",
+      "ja": "",
+      "zh_tw": "若隊長精靈為梅菲斯托佩萊斯，主要技能威力減少<COLOR=#B778FF><653933.VALUE></COLOR>，但使用主要技能<653935.DURATION>秒後會恢復滿點魔力",
+      "zh_cn": ""
+    },
+    {
       "no": 376981,
       "kr": "피해량이 <698131.VALUE>, 추가 피해량이 <698132.VALUE>로 변경되고, 대상이 <COLOR=#FFFFFF><시간을 먹는 성></COLOR> 중첩이 5중첩 이상인 적일 경우 마나를 2000 회복한다.",
       "en": "Damage changes to <698131.VALUE>, and additional damage changes to <698132.VALUE>. Restores 2000 Mana if the target has 5 or more stacks of <COLOR=#FFFFFF>\"City of Devouring Time.\"</COLOR>",
@@ -39771,33 +40123,33 @@
     {
       "no": 384151,
       "kr": "전 기체군단 준비 완료. \r\n포격 개시!!",
-      "en": "",
+      "en": "All units locked and ready.\r\nFire!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "全體機體軍團準備完畢，\r\n開始砲擊！！",
       "zh_cn": ""
     },
     {
       "no": 384152,
       "kr": "얼어붙어라!",
-      "en": "",
+      "en": "Freeze!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "結凍吧！",
       "zh_cn": ""
     },
     {
       "no": 384153,
       "kr": "파이어!",
-      "en": "",
+      "en": "Fire!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Fire！",
       "zh_cn": ""
     },
     {
       "no": 384155,
       "kr": "캐터펄트 고정, 발사 준비. \r\n가라, 마신포!!!",
-      "en": "",
+      "en": "Catapult locked and ready.\r\nGo, Demon Cannon!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "固定彈射器，準備發射。\r\n上吧，魔神砲！！！",
       "zh_cn": ""
     },
     {
@@ -40203,33 +40555,41 @@
     {
       "no": 386531,
       "kr": "목표 조준. 대상을 파괴합니다.",
-      "en": "",
+      "en": "Locked on target. Commencing destruction.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "瞄準目標，破壞目標。",
       "zh_cn": ""
     },
     {
       "no": 386532,
-      "kr": "코드 검증 개시.",
-      "en": "",
+      "kr": "가속화합니다.",
+      "en": "Commencing acceleration.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "進行加速。",
       "zh_cn": ""
     },
     {
       "no": 386533,
-      "kr": "무력화합니다.",
-      "en": "",
+      "kr": "섭리를 비트는 힘을!",
+      "en": "The power to upend providence!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "扭轉法則的力量！",
       "zh_cn": ""
     },
     {
       "no": 386535,
       "kr": "방주의 창 기동. 시스템 올 그린. \r\n적을 박멸합니다!",
-      "en": "",
+      "en": "Initiating Spear of the Ark. All systems green.\r\nCommencing extermination!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "啟動方舟之矛。系統全部正常，\r\n消滅敵人！",
+      "zh_cn": ""
+    },
+    {
+      "no": 386539,
+      "kr": "리더 정령이 메피스토펠레스일 경우 메인 스킬의 위력이 <COLOR=#B778FF><653943.VALUE></COLOR>만큼 감소하지만 메인 스킬 사용 <653945.DURATION>초 후 마나를 가득 회복한다.",
+      "en": "If the lead Soul is Mephistopheles, the main skill's effectiveness is decreased by <COLOR=#B778FF><653943.VALUE></COLOR> but Mana is fully restored <653945.DURATION> sec after using the main skill.",
+      "ja": "",
+      "zh_tw": "若隊長精靈為梅菲斯托佩萊斯，主要技能威力減少<COLOR=#B778FF><653943.VALUE></COLOR>，但使用主要技能<653945.DURATION>秒後會恢復滿點魔力",
       "zh_cn": ""
     },
     {
@@ -40905,6 +41265,14 @@
       "zh_cn": "若队长精灵是琳赛，每2秒一般攻击和主要、辅助、终极技能威力增加<color=#EDA900>2%</color>"
     },
     {
+      "no": 396539,
+      "kr": "리더 정령이 메피스토펠레스일 경우 메인 스킬의 위력이 <COLOR=#B778FF><653953.VALUE></COLOR>만큼 감소하지만 메인 스킬 사용 <653955.DURATION>초 후 마나를 가득 회복한다.",
+      "en": "If the lead Soul is Mephistopheles, the main skill's effectiveness is decreased by <COLOR=#B778FF><653953.VALUE></COLOR> but Mana is fully restored <653955.DURATION> sec after using the main skill.",
+      "ja": "",
+      "zh_tw": "若隊長精靈為梅菲斯托佩萊斯，主要技能威力減少<COLOR=#B778FF><653953.VALUE></COLOR>，但使用主要技能<653955.DURATION>秒後會恢復滿點魔力",
+      "zh_cn": ""
+    },
+    {
       "no": 401019,
       "kr": "메인 스킬 사용 시 가장 가까운 적 및 주변 3m의 대상에게 리더 정령의 공격력 <101961.VALUE>의 피해를 입히고, <101962.DURATION>초 동안 대상의 마법 저항력을 <101962.VALUE> 감소시킨다.",
       "en": "Using the main skill deals damage equal to <101961.VALUE> of the lead Soul's ATK to the nearest enemy and targets within 3m and decreases their Magic Resistance by <101962.VALUE> for <101962.DURATION> sec.",
@@ -41441,6 +41809,14 @@
       "zh_cn": "若队长精灵是琳赛，每2秒一般攻击和主要、辅助、终极技能威力增加<color=#EDA900>2.25%</color>"
     },
     {
+      "no": 406539,
+      "kr": "리더 정령이 메피스토펠레스일 경우 메인 스킬의 위력이 <COLOR=#B778FF><653963.VALUE></COLOR>만큼 감소하지만 메인 스킬 사용 <653965.DURATION>초 후 마나를 가득 회복한다.",
+      "en": "If the lead Soul is Mephistopheles, the main skill's effectiveness is decreased by <COLOR=#B778FF><653963.VALUE></COLOR> but Mana is fully restored <653965.DURATION> sec after using the main skill.",
+      "ja": "",
+      "zh_tw": "若隊長精靈為梅菲斯托佩萊斯，主要技能威力減少<COLOR=#B778FF><653963.VALUE></COLOR>，但使用主要技能<653965.DURATION>秒後會恢復滿點魔力",
+      "zh_cn": ""
+    },
+    {
       "no": 411019,
       "kr": "메인 스킬 사용 시 가장 가까운 적 및 주변 3m의 대상에게 리더 정령의 공격력 <101971.VALUE>의 피해를 입히고, <101972.DURATION>초 동안 대상의 마법 저항력을 <101972.VALUE> 감소시킨다.",
       "en": "Using the main skill deals damage equal to <101971.VALUE> of the lead Soul's ATK to the nearest enemy and targets within 3m and decreases their Magic Resistance by <101972.VALUE> for <101972.DURATION> sec.",
@@ -41975,6 +42351,14 @@
       "ja": "",
       "zh_tw": "若隊長精靈是琳賽，每2秒一般攻擊和主要、輔助、終極技能威力增加<color=#EDA900>2.5%</color>",
       "zh_cn": "若队长精灵是琳赛，每2秒一般攻击和主要、辅助、终极技能威力增加<color=#EDA900>2.5%</color>"
+    },
+    {
+      "no": 416539,
+      "kr": "리더 정령이 메피스토펠레스일 경우 메인 스킬의 위력이 <COLOR=#B778FF><653973.VALUE></COLOR>만큼 감소하지만 메인 스킬 사용 <653975.DURATION>초 후 마나를 가득 회복한다.",
+      "en": "If the lead Soul is Mephistopheles, the main skill's effectiveness is decreased by <COLOR=#B778FF><653973.VALUE></COLOR> but Mana is fully restored <653975.DURATION> sec after using the main skill.",
+      "ja": "",
+      "zh_tw": "若隊長精靈為梅菲斯托佩萊斯，主要技能威力減少<COLOR=#B778FF><653973.VALUE></COLOR>，但使用主要技能<653975.DURATION>秒後會恢復滿點魔力",
+      "zh_cn": ""
     },
     {
       "no": 431032,
@@ -43431,6 +43815,38 @@
       "ja": "",
       "zh_tw": "悲嘆聖女每8秒解除可解除的所有減益效果",
       "zh_cn": "悲叹贤女每8秒解除可解除的所有减益效果"
+    },
+    {
+      "no": 702611,
+      "kr": "<color=#EDA900>분배적 정의</COLOR>",
+      "en": "<color=#EDA900>Equitable Justice</COLOR>",
+      "ja": "",
+      "zh_tw": "<color=#EDA900>分配正義</COLOR>",
+      "zh_cn": ""
+    },
+    {
+      "no": 702612,
+      "kr": "전쟁의 사도 근처 3m내에 아군이 3명 이상 접근해 있다면 전쟁의 사도가 받는 피해가 50% 증폭된다.\r\n단 3명 이상 접근해있지 않다면 전쟁의 사도의 받는 피해가 95% 감면된다.",
+      "en": "If 3 or more allies are present within a 3m radius of the Apostle of War, the damage received by Apostle of War is amplified by 50%.\r\nIf fewer than 3 allies are around her, the Apostle of War has 95% Incoming Damage Reduction.",
+      "ja": "",
+      "zh_tw": "若戰爭使者附近3m以內有超過3名友軍在接近，戰爭使者所受傷害增幅50%。\r\n若不超過3名，戰爭使者所受傷害減免95%",
+      "zh_cn": ""
+    },
+    {
+      "no": 702621,
+      "kr": "<color=#EDA900>공포의 군림</COLOR>",
+      "en": "<color=#EDA900>Rule of Terror</COLOR>",
+      "ja": "",
+      "zh_tw": "<color=#EDA900>恐怖統治</COLOR>",
+      "zh_cn": ""
+    },
+    {
+      "no": 702622,
+      "kr": "아군 근처 3m 내에 다른 아군이 없는 모든 정령의 가속이 30% 감소한다. 만약 근처에 한명이라도 존재한다면 가속이 15% 증가한다.",
+      "en": "Speed is decreased by 30% for all allies with no other ally presence within a 3m radius. Even one nearby ally's presence increases Speed by 15%.",
+      "ja": "",
+      "zh_tw": "若戰爭使者附近3m以內有超過3名友軍在接近，戰爭使者所受傷害增幅50%。\r\n若不超過3名，戰爭使者所受傷害減免95%",
+      "zh_cn": ""
     },
     {
       "no": 702711,
@@ -46307,9 +46723,9 @@
     {
       "no": 3599335,
       "kr": "전투 후 일정 시간이 지나면 전쟁의 사도가 중앙으로 이동하여 모든 적들을 밀어낸 뒤 사도의 창을 <COLOR=#FFFFFF>3</COLOR>개 소환한다. 사도의 창은 <COLOR=#FFFFFF>3</COLOR>회 공격받으면 파괴되며 사도의 창이 존재하는 동안에는 전쟁의 사도는 공격받지 않는 상태가 되고, 주기적으로 전쟁의 사도에게 가하는 피해량이 <COLOR=#FFFFFF>3%</COLOR> 증가하는 <COLOR=#FFFFFF><짙은 어둠></COLOR> 버프를 제공한다.(중첩 가능) 이후 암흑의 기운를 모아 모든 것을 파괴할 준비를 하며 암흑의 기운이 모두 충전되면 거대한 폭발을 일으키고 모든 적에게 공격력 <9933501.VALUE>의 피해를 입힌다. 만약 적이 이 일격을 버텨냈다면 이후 자신이 보유한 모든 <COLOR=#FFFFFF><짙은 어둠></COLOR> 버프가 모두 해제되고, 마나를 모두 잃으며 받는 최종 피해량이 <993353.DURATION>초 동안 <993353.VALUE> 증가한다.",
-      "en": "The Apostle of War moves to the center, pushes all enemies away, and summons <COLOR=#FFFFFF>3</COLOR> Spears of the Apostle once a certain period of time has passed after the battle. Each Spear of the Apostle is destroyed upon being attacked <COLOR=#FFFFFF>3</COLOR> times, and while the Spears of the Apostle exist, the Apostle of War cannot be attacked and receives the <COLOR=#FFFFFF>\"Deep Darkness\"</COLOR> buff that periodically increases her damage by <COLOR=#FFFFFF>3%</COLOR> (can be stacked). Later on, she gets ready to destroy everything by concentrating dark energy. When she is done concentrating all dark energy, it causes a huge explosion, dealing <9933501.VALUE> ATK damage to all enemies. If the enemy survives this attack, all her <COLOR=#FFFFFF>\"Deep Darkness\"</COLOR> buffs will be removed, she will lose all her Mana, and her total damage received will increase by <993353.VALUE> for <993353.DURATION> seconds.",
+      "en": "After some time into the battle, the Apostle of War moves to the center, pushing all enemies away and summoning <COLOR=#FFFFFF>3</COLOR> Spears of the Apostle. Each Spear of the Apostle is destroyed after taking <COLOR=#FFFFFF>3</COLOR> hits, but while they remain active, the Apostle of War cannot be attacked and periodically gains the <COLOR=#FFFFFF>\"Deep Darkness\"</COLOR> buff that increases her damage dealt by <COLOR=#FFFFFF>3%</COLOR> (stacks). Then she channels dark energy to prepare for total destruction. Once the energy is fully charged, it unleashes a huge explosion, dealing damage equal to <9933501.VALUE> of ATK to all enemies. If the enemies survive this attack, she loses all <COLOR=#FFFFFF>\"Deep Darkness\"</COLOR> stacks and all her Mana, with her total damage received amplified by <993353.VALUE> for <993353.DURATION> sec.",
       "ja": "戦闘開始後から一定の時間が経つと、戦争の使徒が中央に移動して敵全員を押し出したあと、使徒の槍を<COLOR=#FFFFFF>3</COLOR>つ召喚する。使徒の槍は<COLOR=#FFFFFF>3</COLOR>回攻撃されると破壊される。使徒の槍が存在する間、戦争の使徒は攻撃を受けない状態になり、周期的に戦争の使徒に与えるダメージ量が<COLOR=#FFFFFF>3%</COLOR>増加する<COLOR=#FFFFFF><深い闇></COLOR>バフを与える。(スタック可能)その後、暗黒のオーラをためてすべてを破壊する準備をし、暗黒のオーラをすべてチャージすると、大きな爆発を起こし、敵全員に攻撃力の<9933501.VALUE>のダメージを与える。もし敵がこの一撃を耐えた場合、以後自分が所持しているすべての<COLOR=#FFFFFF><深い闇></COLOR>バフが解除され、マナをすべて失い、受ける最終ダメージ量が<993353.DURATION>秒間<993353.VALUE>増加する。",
-      "zh_tw": "戰鬥經過一定時間後，戰爭使者移動至中央，推開所有敵人後，召喚<COLOR=#FFFFFF>3</COLOR>個使者之矛。使者之矛受到<COLOR=#FFFFFF>3</COLOR>次攻擊後會消失，持有使者之矛的期間，戰爭使者處於不會受擊的狀態，並賦予增益效果<COLOR=#FFFFFF>＜深沉黑暗＞</COLOR>，定期使戰爭使者施加的傷害量增加<COLOR=#FFFFFF>3%</COLOR>。（可疊加）在這之後凝聚黑暗氣息，準備毀滅一切。黑暗氣息凝聚完畢後，引起劇烈爆炸，對所有敵人造成攻擊力<9933501.VALUE>的傷害。若敵人擋住這一擊，會解除所有自身持有的<COLOR=#FFFFFF>＜深沉黑暗＞</COLOR>增益效果，失去所有魔力，所受最終傷害在<993353.DURATION>秒內增加<993353.VALUE>",
+      "zh_tw": "戰鬥經過一定時間後，戰爭使者移動至中央，推開所有敵人後，召喚<COLOR=#FFFFFF>3</COLOR>個使者之矛。使者之矛受到<COLOR=#FFFFFF>3</COLOR>次攻擊後會消失，持有使者之矛的期間，戰爭使者處於不會受擊的狀態，並賦予增益效果<COLOR=#FFFFFF>＜深沉黑暗＞</COLOR>，定期使戰爭使者施加的傷害量增加<COLOR=#FFFFFF>3%</COLOR>。（可疊加）在這之後凝聚黑暗氣息，準備毀滅一切。黑暗氣息凝聚完畢後，引起劇烈爆炸，對所有敵人造成攻擊力<9933501.VALUE>的傷害。若敵人擋住這一擊，會解除所有自身持有的<COLOR=#FFFFFF>＜深沉黑暗＞</COLOR>增益效果，失去所有魔力，所受最終傷害量在<993353.DURATION>秒內增幅<993353.VALUE>",
       "zh_cn": "战斗经过一定时间后，战争使者移动至中央，推开所有敌人后，召唤<COLOR=#FFFFFF>3</COLOR>个使者之矛。使者之矛受到<COLOR=#FFFFFF>3</COLOR>次攻击后会消失，持有使者之矛的期间，战争使者处于不会受击的状态，并赋予增益效果<COLOR=#FFFFFF>＜深沉黑暗＞</COLOR>，定期使战争使者施加的伤害量增加<COLOR=#FFFFFF>3%</COLOR>。（可层）在这之后凝聚黑暗气息，准备毁灭一切。黑暗气息凝聚完毕后，引起剧烈爆炸，对所有敌人造成攻击力<9933501.VALUE>的伤害。若敌人挡住这一击，会解除所有自身持有的<COLOR=#FFFFFF>＜深沉黑暗＞</COLOR>增益效果，失去所有魔力，所受最终伤害在<993353.DURATION>秒内增加<993353.VALUE>"
     },
     {
@@ -54786,10 +55202,10 @@
     },
     {
       "no": 35600111,
-      "kr": "플루토는 1초마다 <COLOR=#FFFFFF><독백></COLOR> 중첩이 <COLOR=#FFFFFF>3</COLOR> 상승하며, 중첩당 받는 최종 피해량이 <6001111.VALUE> 감소한다. 매 공격을 받을 때 마다 <COLOR=#FFFFFF><독백></COLOR> 중첩이 감소하며, 만약 <COLOR=#FFFFFF><독백></COLOR> 중첩이 없는 상태에서 공격을 받는다면 <COLOR=#FFFFFF><방백></COLOR> 효과를 부여받으며 1중첩 당 받는 피해가 <6001113.VALUE> 증가한다.\r\n\r\n플루토의 일반 공격은 중복되지 않는 무작위 정령 1명을 대상으로 대상 및 주변 3m의 적에게 공격력 <6001101.VALUE>의 피해를 입히고 해제되지 않는 <COLOR=#FFFFFF><소각></COLOR> 효과를 부여한다.",
-      "en": "Pluto gains <COLOR=#FFFFFF>3</COLOR> stacks of <COLOR=#FFFFFF>\"Soliloquy\"</COLOR> every second, which decreases its total damage received by <6001111.VALUE> per stack. It loses a stack of <COLOR=#FFFFFF>\"Soliloquy\"</COLOR> for every attack received. Upon being attacked without any stacks of <COLOR=#FFFFFF>\"Soliloquy,\"</COLOR> it gains a stack of <COLOR=#FFFFFF>\"Aside,\"</COLOR> which increases its total damage received by <6001113.VALUE> per stack.\r\n\r\nPluto's normal attack targets a new random Soul each time, dealing damage equal to <6001101.VALUE> of ATK to the target and enemies within 3m of the target and inflicting them with uncancellable <COLOR=#FFFFFF>\"Immolation.\"</COLOR>",
+      "kr": "플루토는 1초마다 <COLOR=#FFFFFF><독백></COLOR> 중첩이 <COLOR=#FFFFFF>3</COLOR> 상승하며, 중첩당 받는 최종 피해량이 <6001111.VALUE> 감면된다. 매 공격을 받을 때 마다 <COLOR=#FFFFFF><독백></COLOR> 중첩이 감소하며, 만약 <COLOR=#FFFFFF><독백></COLOR> 중첩이 없는 상태에서 공격을 받는다면 <COLOR=#FFFFFF><방백></COLOR> 효과를 부여받으며 1중첩 당 받는 피해가 <6001113.VALUE> 증폭된다.\r\n\r\n플루토의 일반 공격은 중복되지 않는 무작위 정령 1명을 대상으로 대상 및 주변 3m의 적에게 공격력 <6001101.VALUE>의 피해를 입히고 해제되지 않는 <COLOR=#FFFFFF><소각></COLOR> 효과를 부여한다.",
+      "en": "Pluto gains <COLOR=#FFFFFF>3</COLOR> stacks of <COLOR=#FFFFFF>\"Soliloquy\"</COLOR> every second, which reduces its total damage received by <6001111.VALUE> per stack. It loses a stack of <COLOR=#FFFFFF>\"Soliloquy\"</COLOR> for every attack received. Upon being attacked without any stacks of <COLOR=#FFFFFF>\"Soliloquy,\"</COLOR> it gains a stack of <COLOR=#FFFFFF>\"Aside,\"</COLOR> which amplifies its total damage received by <6001113.VALUE> per stack.\r\n\r\nPluto's normal attack targets a new random Soul each time, dealing damage equal to <6001101.VALUE> of ATK to the target and enemies within 3m of the target and inflicting them with uncancellable <COLOR=#FFFFFF>\"Immolation.\"</COLOR>",
       "ja": "",
-      "zh_tw": "冥王每秒<COLOR=#FFFFFF>＜獨白＞</COLOR>疊加上升<COLOR=#FFFFFF>3</COLOR>，每疊加所受最終傷害量減少<6001111.VALUE>。每次受擊<COLOR=#FFFFFF>＜獨白＞</COLOR>疊加減少，若在無<COLOR=#FFFFFF>＜獨白＞</COLOR>疊加狀態下受擊，則賦予<COLOR=#FFFFFF>＜旁白＞</COLOR>效果，每疊加所受傷害增加<6001113.VALUE>。\r\n\r\n冥王一般攻擊將對不重複的隨機一名精靈與周圍3m敵人造成攻擊力<6001101.VALUE>的傷害，並賦予無法解除的<COLOR=#FFFFFF>＜焚燒＞</COLOR>效果",
+      "zh_tw": "冥王每秒<COLOR=#FFFFFF>＜獨白＞</COLOR>疊加上升<COLOR=#FFFFFF>3</COLOR>，每疊加所受最終傷害量減免<6001111.VALUE>。每次受擊<COLOR=#FFFFFF>＜獨白＞</COLOR>疊加減少，若在無<COLOR=#FFFFFF>＜獨白＞</COLOR>疊加狀態下受擊，則賦予<COLOR=#FFFFFF>＜旁白＞</COLOR>效果，每疊加所受傷害增幅<6001113.VALUE>。\r\n\r\n冥王一般攻擊將對不重複的隨機一名精靈與周圍3m敵人造成攻擊力<6001101.VALUE>的傷害，並賦予無法解除的<COLOR=#FFFFFF>＜焚燒＞</COLOR>效果",
       "zh_cn": "冥王每秒<COLOR=#FFFFFF>＜独白＞</COLOR>层上升<COLOR=#FFFFFF>3</COLOR>，每层所受最终伤害量减少<6001111.VALUE>。每次受击<COLOR=#FFFFFF>＜独白＞</COLOR>层减少，若在无<COLOR=#FFFFFF>＜独白＞</COLOR>层状态下受击，则赋予<COLOR=#FFFFFF>＜旁白＞</COLOR>效果，每层所受伤害增加<6001113.VALUE>。\r\n\r\n冥王一般攻击将对不重复的随机一名精灵与周围3米敌人造成攻击力<6001101.VALUE>的伤害，并赋予无法解除的<COLOR=#FFFFFF>＜焚烧＞</COLOR>效果"
     },
     {

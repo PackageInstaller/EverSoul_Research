@@ -220,6 +220,61 @@
       "item_amount1": 500,
       "item_no2": 48063,
       "item_amount2": 1
+    },
+    {
+      "level": 21,
+      "develop_point": 310000,
+      "section_open": 3,
+      "shop_no": 34,
+      "rest_slot": 10,
+      "item_no1": 16,
+      "item_amount1": 1000,
+      "item_no2": 65,
+      "item_amount2": 5000
+    },
+    {
+      "level": 22,
+      "develop_point": 395000,
+      "section_open": 3,
+      "shop_no": 34,
+      "rest_slot": 10,
+      "item_no1": 16,
+      "item_amount1": 1000,
+      "item_no2": 48095,
+      "item_amount2": 1
+    },
+    {
+      "level": 23,
+      "develop_point": 510000,
+      "section_open": 3,
+      "shop_no": 34,
+      "rest_slot": 10,
+      "item_no1": 16,
+      "item_amount1": 1000,
+      "item_no2": 65,
+      "item_amount2": 5000
+    },
+    {
+      "level": 24,
+      "develop_point": 630000,
+      "section_open": 3,
+      "shop_no": 34,
+      "rest_slot": 10,
+      "item_no1": 16,
+      "item_amount1": 1000,
+      "item_no2": 65,
+      "item_amount2": 5000
+    },
+    {
+      "level": 25,
+      "develop_point": 760000,
+      "section_open": 3,
+      "shop_no": 34,
+      "rest_slot": 10,
+      "item_no1": 16,
+      "item_amount1": 1000,
+      "item_no2": 48096,
+      "item_amount2": 1
     }
   ]
 }

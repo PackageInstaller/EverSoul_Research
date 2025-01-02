@@ -850,18 +850,18 @@
     },
     {
       "index": 95,
-      "no": 101,
-      "type": 7,
-      "type_code": "ah_gold",
-      "need_amount": 1,
-      "value": 120,
-      "max_use_count": 1000
+      "no": 1002,
+      "type": 6,
+      "type_code": "hero_piece",
+      "need_amount": 60,
+      "value": 6530,
+      "max_use_count": 10
     },
     {
       "index": 96,
       "no": 101,
       "type": 7,
-      "type_code": "ah_manadust",
+      "type_code": "ah_gold",
       "need_amount": 1,
       "value": 120,
       "max_use_count": 1000
@@ -870,25 +870,25 @@
       "index": 97,
       "no": 101,
       "type": 7,
-      "type_code": "ah_manacrystal",
+      "type_code": "ah_manadust",
       "need_amount": 1,
       "value": 120,
       "max_use_count": 1000
     },
     {
       "index": 98,
-      "no": 102,
+      "no": 101,
       "type": 7,
-      "type_code": "ah_gold",
+      "type_code": "ah_manacrystal",
       "need_amount": 1,
-      "value": 360,
+      "value": 120,
       "max_use_count": 1000
     },
     {
       "index": 99,
       "no": 102,
       "type": 7,
-      "type_code": "ah_manadust",
+      "type_code": "ah_gold",
       "need_amount": 1,
       "value": 360,
       "max_use_count": 1000
@@ -897,25 +897,25 @@
       "index": 100,
       "no": 102,
       "type": 7,
-      "type_code": "ah_manacrystal",
+      "type_code": "ah_manadust",
       "need_amount": 1,
       "value": 360,
       "max_use_count": 1000
     },
     {
       "index": 101,
-      "no": 103,
+      "no": 102,
       "type": 7,
-      "type_code": "ah_gold",
+      "type_code": "ah_manacrystal",
       "need_amount": 1,
-      "value": 720,
+      "value": 360,
       "max_use_count": 1000
     },
     {
       "index": 102,
       "no": 103,
       "type": 7,
-      "type_code": "ah_manadust",
+      "type_code": "ah_gold",
       "need_amount": 1,
       "value": 720,
       "max_use_count": 1000
@@ -924,25 +924,25 @@
       "index": 103,
       "no": 103,
       "type": 7,
-      "type_code": "ah_manacrystal",
+      "type_code": "ah_manadust",
       "need_amount": 1,
       "value": 720,
       "max_use_count": 1000
     },
     {
       "index": 104,
-      "no": 104,
+      "no": 103,
       "type": 7,
-      "type_code": "ah_gold",
+      "type_code": "ah_manacrystal",
       "need_amount": 1,
-      "value": 1440,
+      "value": 720,
       "max_use_count": 1000
     },
     {
       "index": 105,
       "no": 104,
       "type": 7,
-      "type_code": "ah_manadust",
+      "type_code": "ah_gold",
       "need_amount": 1,
       "value": 1440,
       "max_use_count": 1000
@@ -951,13 +951,22 @@
       "index": 106,
       "no": 104,
       "type": 7,
-      "type_code": "ah_manacrystal",
+      "type_code": "ah_manadust",
       "need_amount": 1,
       "value": 1440,
       "max_use_count": 1000
     },
     {
       "index": 107,
+      "no": 104,
+      "type": 7,
+      "type_code": "ah_manacrystal",
+      "need_amount": 1,
+      "value": 1440,
+      "max_use_count": 1000
+    },
+    {
+      "index": 108,
       "no": 105,
       "type": 8,
       "type_code": "hero_gacha",
@@ -966,7 +975,7 @@
       "max_use_count": 10
     },
     {
-      "index": 108,
+      "index": 109,
       "no": 106,
       "type": 8,
       "type_code": "hero_gacha",
@@ -975,7 +984,7 @@
       "max_use_count": 10
     },
     {
-      "index": 109,
+      "index": 110,
       "no": 107,
       "type": 8,
       "type_code": "hero_gacha",
@@ -984,7 +993,7 @@
       "max_use_count": 10
     },
     {
-      "index": 110,
+      "index": 111,
       "no": 108,
       "type": 8,
       "type_code": "hero_gacha",
@@ -993,7 +1002,7 @@
       "max_use_count": 10
     },
     {
-      "index": 111,
+      "index": 112,
       "no": 109,
       "type": 8,
       "type_code": "hero_gacha",
@@ -1002,7 +1011,7 @@
       "max_use_count": 10
     },
     {
-      "index": 112,
+      "index": 113,
       "no": 110,
       "type": 8,
       "type_code": "hero_gacha",
@@ -1011,7 +1020,7 @@
       "max_use_count": 10
     },
     {
-      "index": 113,
+      "index": 114,
       "no": 111,
       "type": 8,
       "type_code": "hero_gacha",
@@ -1020,7 +1029,7 @@
       "max_use_count": 10
     },
     {
-      "index": 114,
+      "index": 115,
       "no": 112,
       "type": 8,
       "type_code": "hero_gacha",
@@ -1029,7 +1038,7 @@
       "max_use_count": 10
     },
     {
-      "index": 115,
+      "index": 116,
       "no": 113,
       "type": 9,
       "type_code": "signature_gacha",
@@ -1038,7 +1047,7 @@
       "max_use_count": 10
     },
     {
-      "index": 116,
+      "index": 117,
       "no": 114,
       "type": 9,
       "type_code": "signature_gacha",
@@ -1047,7 +1056,7 @@
       "max_use_count": 10
     },
     {
-      "index": 117,
+      "index": 118,
       "no": 115,
       "type": 8,
       "type_code": "hero_gacha",
@@ -1056,7 +1065,7 @@
       "max_use_count": 10
     },
     {
-      "index": 118,
+      "index": 119,
       "no": 116,
       "type": 8,
       "type_code": "hero_gacha",
@@ -1065,7 +1074,7 @@
       "max_use_count": 10
     },
     {
-      "index": 119,
+      "index": 120,
       "no": 201,
       "type": 7,
       "type_code": "ah_gold",
@@ -1074,7 +1083,7 @@
       "max_use_count": 10
     },
     {
-      "index": 120,
+      "index": 121,
       "no": 202,
       "type": 7,
       "type_code": "ah_gold",
@@ -1083,7 +1092,7 @@
       "max_use_count": 10
     },
     {
-      "index": 121,
+      "index": 122,
       "no": 203,
       "type": 7,
       "type_code": "ah_gold",
@@ -1092,7 +1101,7 @@
       "max_use_count": 10
     },
     {
-      "index": 122,
+      "index": 123,
       "no": 204,
       "type": 7,
       "type_code": "ah_gold",
@@ -1101,7 +1110,7 @@
       "max_use_count": 10
     },
     {
-      "index": 123,
+      "index": 124,
       "no": 205,
       "type": 7,
       "type_code": "ah_manadust",
@@ -1110,7 +1119,7 @@
       "max_use_count": 10
     },
     {
-      "index": 124,
+      "index": 125,
       "no": 206,
       "type": 7,
       "type_code": "ah_manadust",
@@ -1119,7 +1128,7 @@
       "max_use_count": 10
     },
     {
-      "index": 125,
+      "index": 126,
       "no": 207,
       "type": 7,
       "type_code": "ah_manadust",
@@ -1128,7 +1137,7 @@
       "max_use_count": 10
     },
     {
-      "index": 126,
+      "index": 127,
       "no": 208,
       "type": 7,
       "type_code": "ah_manadust",
@@ -1137,7 +1146,7 @@
       "max_use_count": 10
     },
     {
-      "index": 127,
+      "index": 128,
       "no": 301,
       "type": 101,
       "type_code": "trial_manon",
@@ -1146,7 +1155,7 @@
       "max_use_count": 10
     },
     {
-      "index": 128,
+      "index": 129,
       "no": 311,
       "type": 102,
       "type_code": "trial_sharing",
@@ -1155,7 +1164,7 @@
       "max_use_count": 10
     },
     {
-      "index": 129,
+      "index": 130,
       "no": 302,
       "type": 101,
       "type_code": "trial_manon",
@@ -1164,7 +1173,7 @@
       "max_use_count": 10
     },
     {
-      "index": 130,
+      "index": 131,
       "no": 312,
       "type": 102,
       "type_code": "trial_sharing",

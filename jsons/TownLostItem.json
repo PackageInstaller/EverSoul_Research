@@ -4753,6 +4753,78 @@
       "group_trip": 9652090
     },
     {
+      "no": 653006,
+      "hero_no": 6530,
+      "quest_type": 1,
+      "keyword_type": 101,
+      "keyword_get_details": 1004,
+      "group_start": 9653081,
+      "group_doing": 9653084,
+      "group_end": 9653087
+    },
+    {
+      "no": 653007,
+      "hero_no": 6530,
+      "quest_type": 2,
+      "keyword_type": 102,
+      "keyword_get_details": 1,
+      "group_start": 9653082,
+      "group_doing": 9653085,
+      "group_end": 9653088
+    },
+    {
+      "no": 653008,
+      "hero_no": 6530,
+      "quest_type": 3,
+      "keyword_type": 103,
+      "keyword_get_details": 105,
+      "group_start": 9653083,
+      "group_doing": 9653086,
+      "group_end": 9653089,
+      "group_trip": 9653090
+    },
+    {
+      "no": 653009,
+      "hero_no": 6530,
+      "quest_type": 4,
+      "keyword_type": 101,
+      "keyword_get_details": 1002,
+      "group_start": 9653091,
+      "group_doing": 9653092,
+      "group_end": 9653093
+    },
+    {
+      "no": 653010,
+      "hero_no": 6530,
+      "quest_type": 4,
+      "keyword_type": 101,
+      "keyword_get_details": 1004,
+      "group_start": 9653081,
+      "group_doing": 9653084,
+      "group_end": 9653087
+    },
+    {
+      "no": 653011,
+      "hero_no": 6530,
+      "quest_type": 4,
+      "keyword_type": 102,
+      "keyword_get_details": 1,
+      "group_start": 9653082,
+      "group_doing": 9653085,
+      "group_end": 9653088
+    },
+    {
+      "no": 653012,
+      "hero_no": 6530,
+      "quest_type": 4,
+      "keyword_type": 103,
+      "keyword_get_details": 105,
+      "group_start": 9653083,
+      "group_doing": 9653086,
+      "group_end": 9653089,
+      "group_trip": 9653090
+    },
+    {
       "no": 698006,
       "hero_no": 6980,
       "quest_type": 1,
