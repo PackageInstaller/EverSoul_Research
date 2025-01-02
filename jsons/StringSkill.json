@@ -43845,7 +43845,7 @@
       "kr": "아군 근처 3m 내에 다른 아군이 없는 모든 정령의 가속이 30% 감소한다. 만약 근처에 한명이라도 존재한다면 가속이 15% 증가한다.",
       "en": "Speed is decreased by 30% for all allies with no other ally presence within a 3m radius. Even one nearby ally's presence increases Speed by 15%.",
       "ja": "",
-      "zh_tw": "若戰爭使者附近3m以內有超過3名友軍在接近，戰爭使者所受傷害增幅50%。\r\n若不超過3名，戰爭使者所受傷害減免95%",
+      "zh_tw": "友軍附近3m內，沒有其他友軍的所有精靈加速減少30%。若附近有一名，則加速增加15%",
       "zh_cn": ""
     },
     {
