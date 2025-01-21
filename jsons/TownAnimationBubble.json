@@ -375,6 +375,18 @@
       "animation": "SDCommon_Occupationpose",
       "bubble": "Twinkle",
       "ratio": 10
+    },
+    {
+      "no": 64,
+      "animation": "SDCommon_Knife",
+      "bubble": "Exclamation",
+      "ratio": 10
+    },
+    {
+      "no": 65,
+      "animation": "SDCommon_Calligraphy",
+      "bubble": "Sweat",
+      "ratio": 15
     }
   ]
 }

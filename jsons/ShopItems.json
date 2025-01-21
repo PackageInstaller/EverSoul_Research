@@ -17317,40 +17317,7 @@
       "sell_cnt": 10,
       "pay_item_no": 16,
       "pay_amount": 2000,
-      "sell_limit": 1
-    },
-    {
-      "no": 300042,
-      "shop_no": 30,
-      "order": 6,
-      "item_no": 4132,
-      "always_pick": 1,
-      "sell_cnt": 10,
-      "pay_item_no": 16,
-      "pay_amount": 2000,
-      "sell_limit": 1
-    },
-    {
-      "no": 300043,
-      "shop_no": 30,
-      "order": 7,
-      "item_no": 4132,
-      "always_pick": 1,
-      "sell_cnt": 10,
-      "pay_item_no": 16,
-      "pay_amount": 2000,
-      "sell_limit": 1
-    },
-    {
-      "no": 300044,
-      "shop_no": 30,
-      "order": 8,
-      "item_no": 4132,
-      "always_pick": 1,
-      "sell_cnt": 10,
-      "pay_item_no": 16,
-      "pay_amount": 2000,
-      "sell_limit": 1
+      "sell_limit": 4
     },
     {
       "no": 300050,
@@ -17398,7 +17365,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 2703
+      "drop_rate": 6122
     },
     {
       "no": 300090,
@@ -17410,7 +17377,7 @@
       "pay_item_no": 16,
       "pay_amount": 450,
       "sell_limit": 1,
-      "drop_rate": 2702
+      "drop_rate": 6123
     },
     {
       "no": 300100,
@@ -17422,7 +17389,7 @@
       "pay_item_no": 16,
       "pay_amount": 4500,
       "sell_limit": 1,
-      "drop_rate": 2703
+      "drop_rate": 6122
     },
     {
       "no": 300110,
@@ -17432,8 +17399,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300120,
@@ -17443,8 +17410,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 600,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300130,
@@ -17454,8 +17421,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 2702
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300140,
@@ -17497,7 +17464,7 @@
       "pay_item_no": 16,
       "pay_amount": 4800,
       "sell_limit": 1,
-      "drop_rate": 2703
+      "drop_rate": 6122
     },
     {
       "no": 300180,
@@ -17509,7 +17476,7 @@
       "pay_item_no": 16,
       "pay_amount": 5400,
       "sell_limit": 1,
-      "drop_rate": 2703
+      "drop_rate": 6123
     },
     {
       "no": 300190,
@@ -17521,7 +17488,7 @@
       "pay_item_no": 16,
       "pay_amount": 8000,
       "sell_limit": 1,
-      "drop_rate": 2702
+      "drop_rate": 6122
     },
     {
       "no": 300200,
@@ -17531,8 +17498,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300210,
@@ -17542,8 +17509,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300220,
@@ -17553,8 +17520,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 2702
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300230,
@@ -17564,8 +17531,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2040
     },
     {
       "no": 300240,
@@ -17575,8 +17542,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300250,
@@ -17586,8 +17553,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300260,
@@ -17597,8 +17564,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2702
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300270,
@@ -17608,8 +17575,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300280,
@@ -17619,8 +17586,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2040
     },
     {
       "no": 300290,
@@ -17630,8 +17597,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2702
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300300,
@@ -17641,8 +17608,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300310,
@@ -17652,8 +17619,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300320,
@@ -17663,8 +17630,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2702
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300330,
@@ -17674,8 +17641,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300340,
@@ -17685,8 +17652,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2040
     },
     {
       "no": 300350,
@@ -17696,8 +17663,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300360,
@@ -17707,8 +17674,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2702
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300370,
@@ -17718,8 +17685,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300380,
@@ -17729,8 +17696,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300390,
@@ -17740,8 +17707,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2702
+      "sell_limit": 3,
+      "drop_rate": 2040
     },
     {
       "no": 300400,
@@ -17751,8 +17718,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300410,
@@ -17762,8 +17729,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300420,
@@ -17773,8 +17740,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2702
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300430,
@@ -17784,8 +17751,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300440,
@@ -17795,8 +17762,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300450,
@@ -17806,8 +17773,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2040
     },
     {
       "no": 300460,
@@ -17817,8 +17784,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 2702
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300470,
@@ -17828,8 +17795,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 2703
+      "sell_limit": 3,
+      "drop_rate": 2041
     },
     {
       "no": 300480,
@@ -18034,40 +18001,7 @@
       "sell_cnt": 10,
       "pay_item_no": 16,
       "pay_amount": 2000,
-      "sell_limit": 1
-    },
-    {
-      "no": 310042,
-      "shop_no": 31,
-      "order": 6,
-      "item_no": 4132,
-      "always_pick": 1,
-      "sell_cnt": 10,
-      "pay_item_no": 16,
-      "pay_amount": 2000,
-      "sell_limit": 1
-    },
-    {
-      "no": 310043,
-      "shop_no": 31,
-      "order": 7,
-      "item_no": 4132,
-      "always_pick": 1,
-      "sell_cnt": 10,
-      "pay_item_no": 16,
-      "pay_amount": 2000,
-      "sell_limit": 1
-    },
-    {
-      "no": 310044,
-      "shop_no": 31,
-      "order": 8,
-      "item_no": 4132,
-      "always_pick": 1,
-      "sell_cnt": 10,
-      "pay_item_no": 16,
-      "pay_amount": 2000,
-      "sell_limit": 1
+      "sell_limit": 4
     },
     {
       "no": 310050,
@@ -18115,7 +18049,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 2000
+      "drop_rate": 4054
     },
     {
       "no": 310090,
@@ -18127,7 +18061,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 2000
+      "drop_rate": 4054
     },
     {
       "no": 310100,
@@ -18139,7 +18073,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 2000
+      "drop_rate": 4054
     },
     {
       "no": 310110,
@@ -18151,7 +18085,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 5000
+      "drop_rate": 10135
     },
     {
       "no": 310120,
@@ -18163,7 +18097,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 5000
+      "drop_rate": 10135
     },
     {
       "no": 310130,
@@ -18175,7 +18109,7 @@
       "pay_item_no": 16,
       "pay_amount": 450,
       "sell_limit": 1,
-      "drop_rate": 1000
+      "drop_rate": 2027
     },
     {
       "no": 310140,
@@ -18187,7 +18121,7 @@
       "pay_item_no": 16,
       "pay_amount": 4500,
       "sell_limit": 1,
-      "drop_rate": 1000
+      "drop_rate": 2027
     },
     {
       "no": 310150,
@@ -18199,7 +18133,7 @@
       "pay_item_no": 16,
       "pay_amount": 16200,
       "sell_limit": 1,
-      "drop_rate": 1000
+      "drop_rate": 2028
     },
     {
       "no": 310160,
@@ -18211,7 +18145,7 @@
       "pay_item_no": 16,
       "pay_amount": 4500,
       "sell_limit": 1,
-      "drop_rate": 1000
+      "drop_rate": 2027
     },
     {
       "no": 310170,
@@ -18223,7 +18157,7 @@
       "pay_item_no": 16,
       "pay_amount": 5400,
       "sell_limit": 1,
-      "drop_rate": 1000
+      "drop_rate": 2027
     },
     {
       "no": 310180,
@@ -18233,8 +18167,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310190,
@@ -18244,8 +18178,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 600,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310200,
@@ -18255,8 +18189,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310210,
@@ -18266,8 +18200,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 3000,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310220,
@@ -18277,8 +18211,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 3600,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310230,
@@ -18288,8 +18222,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 4000,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310240,
@@ -18299,8 +18233,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 4800,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310250,
@@ -18342,7 +18276,7 @@
       "pay_item_no": 16,
       "pay_amount": 4800,
       "sell_limit": 1,
-      "drop_rate": 1000
+      "drop_rate": 2027
     },
     {
       "no": 310290,
@@ -18354,7 +18288,7 @@
       "pay_item_no": 16,
       "pay_amount": 5400,
       "sell_limit": 1,
-      "drop_rate": 1000
+      "drop_rate": 2027
     },
     {
       "no": 310300,
@@ -18366,7 +18300,7 @@
       "pay_item_no": 16,
       "pay_amount": 8000,
       "sell_limit": 1,
-      "drop_rate": 1000
+      "drop_rate": 2027
     },
     {
       "no": 310310,
@@ -18376,8 +18310,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310320,
@@ -18387,8 +18321,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310330,
@@ -18398,8 +18332,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310340,
@@ -18409,8 +18343,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310350,
@@ -18420,8 +18354,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310360,
@@ -18431,8 +18365,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310370,
@@ -18442,8 +18376,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310380,
@@ -18453,8 +18387,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310390,
@@ -18464,8 +18398,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310400,
@@ -18475,8 +18409,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310410,
@@ -18486,8 +18420,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310420,
@@ -18497,8 +18431,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310430,
@@ -18508,8 +18442,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310440,
@@ -18519,8 +18453,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310450,
@@ -18530,8 +18464,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 2000,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310460,
@@ -18541,8 +18475,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 2000,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310470,
@@ -18552,8 +18486,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310480,
@@ -18563,8 +18497,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310490,
@@ -18574,8 +18508,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310500,
@@ -18585,8 +18519,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310510,
@@ -18596,8 +18530,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310520,
@@ -18607,8 +18541,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310530,
@@ -18618,8 +18552,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310540,
@@ -18629,8 +18563,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310550,
@@ -18640,8 +18574,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310560,
@@ -18651,8 +18585,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310570,
@@ -18662,8 +18596,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310580,
@@ -18673,8 +18607,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310590,
@@ -18684,8 +18618,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310600,
@@ -18695,8 +18629,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310610,
@@ -18706,8 +18640,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310620,
@@ -18717,8 +18651,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310630,
@@ -18728,8 +18662,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310640,
@@ -18739,8 +18673,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310650,
@@ -18750,8 +18684,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310660,
@@ -18761,8 +18695,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310670,
@@ -18772,8 +18706,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310680,
@@ -18783,8 +18717,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310690,
@@ -18794,8 +18728,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310700,
@@ -18805,8 +18739,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310710,
@@ -18816,8 +18750,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310720,
@@ -18827,8 +18761,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310730,
@@ -18838,8 +18772,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310740,
@@ -18849,8 +18783,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310750,
@@ -18860,8 +18794,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310760,
@@ -18871,8 +18805,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310770,
@@ -18882,8 +18816,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310780,
@@ -18893,8 +18827,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310790,
@@ -18904,8 +18838,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310800,
@@ -18915,8 +18849,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310810,
@@ -18926,8 +18860,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310820,
@@ -18937,8 +18871,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310830,
@@ -18948,8 +18882,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310840,
@@ -18959,8 +18893,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310850,
@@ -18970,8 +18904,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310860,
@@ -18981,8 +18915,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310870,
@@ -18992,8 +18926,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310880,
@@ -19003,8 +18937,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310890,
@@ -19014,8 +18948,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310900,
@@ -19025,8 +18959,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310910,
@@ -19036,8 +18970,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310920,
@@ -19047,8 +18981,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310930,
@@ -19058,8 +18992,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310940,
@@ -19069,8 +19003,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310950,
@@ -19080,8 +19014,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310960,
@@ -19091,8 +19025,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310970,
@@ -19102,8 +19036,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 310980,
@@ -19113,8 +19047,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 675
     },
     {
       "no": 310990,
@@ -19124,8 +19058,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 1000
+      "sell_limit": 3,
+      "drop_rate": 676
     },
     {
       "no": 320010,
@@ -19180,40 +19114,7 @@
       "sell_cnt": 10,
       "pay_item_no": 16,
       "pay_amount": 2000,
-      "sell_limit": 1
-    },
-    {
-      "no": 320042,
-      "shop_no": 32,
-      "order": 6,
-      "item_no": 4132,
-      "always_pick": 1,
-      "sell_cnt": 10,
-      "pay_item_no": 16,
-      "pay_amount": 2000,
-      "sell_limit": 1
-    },
-    {
-      "no": 320043,
-      "shop_no": 32,
-      "order": 7,
-      "item_no": 4132,
-      "always_pick": 1,
-      "sell_cnt": 10,
-      "pay_item_no": 16,
-      "pay_amount": 2000,
-      "sell_limit": 1
-    },
-    {
-      "no": 320044,
-      "shop_no": 32,
-      "order": 8,
-      "item_no": 4132,
-      "always_pick": 1,
-      "sell_cnt": 10,
-      "pay_item_no": 16,
-      "pay_amount": 2000,
-      "sell_limit": 1
+      "sell_limit": 4
     },
     {
       "no": 320050,
@@ -19225,7 +19126,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 1010
+      "drop_rate": 1961
     },
     {
       "no": 320060,
@@ -19237,7 +19138,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 1010
+      "drop_rate": 1961
     },
     {
       "no": 320070,
@@ -19249,7 +19150,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 1010
+      "drop_rate": 1960
     },
     {
       "no": 320080,
@@ -19261,7 +19162,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 1010
+      "drop_rate": 1961
     },
     {
       "no": 320090,
@@ -19273,7 +19174,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 1011
+      "drop_rate": 1961
     },
     {
       "no": 320100,
@@ -19285,7 +19186,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 1010
+      "drop_rate": 1961
     },
     {
       "no": 320110,
@@ -19297,7 +19198,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 1010
+      "drop_rate": 1960
     },
     {
       "no": 320120,
@@ -19309,7 +19210,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 1010
+      "drop_rate": 1961
     },
     {
       "no": 320130,
@@ -19321,7 +19222,7 @@
       "pay_item_no": 16,
       "pay_amount": 5000,
       "sell_limit": 1,
-      "drop_rate": 1010
+      "drop_rate": 1961
     },
     {
       "no": 320140,
@@ -19333,7 +19234,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 2694
+      "drop_rate": 5229
     },
     {
       "no": 320150,
@@ -19345,7 +19246,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 2693
+      "drop_rate": 5229
     },
     {
       "no": 320160,
@@ -19357,7 +19258,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 2694
+      "drop_rate": 5228
     },
     {
       "no": 320170,
@@ -19369,7 +19270,7 @@
       "pay_item_no": 16,
       "pay_amount": 10000,
       "sell_limit": 1,
-      "drop_rate": 2693
+      "drop_rate": 5229
     },
     {
       "no": 320180,
@@ -19381,7 +19282,7 @@
       "pay_item_no": 16,
       "pay_amount": 450,
       "sell_limit": 1,
-      "drop_rate": 674
+      "drop_rate": 1307
     },
     {
       "no": 320190,
@@ -19393,7 +19294,7 @@
       "pay_item_no": 16,
       "pay_amount": 4500,
       "sell_limit": 1,
-      "drop_rate": 673
+      "drop_rate": 1307
     },
     {
       "no": 320200,
@@ -19405,7 +19306,7 @@
       "pay_item_no": 16,
       "pay_amount": 6000,
       "sell_limit": 1,
-      "drop_rate": 674
+      "drop_rate": 1308
     },
     {
       "no": 320210,
@@ -19417,7 +19318,7 @@
       "pay_item_no": 16,
       "pay_amount": 16200,
       "sell_limit": 1,
-      "drop_rate": 673
+      "drop_rate": 1307
     },
     {
       "no": 320220,
@@ -19429,7 +19330,7 @@
       "pay_item_no": 16,
       "pay_amount": 24000,
       "sell_limit": 1,
-      "drop_rate": 673
+      "drop_rate": 1307
     },
     {
       "no": 320230,
@@ -19441,7 +19342,7 @@
       "pay_item_no": 16,
       "pay_amount": 4500,
       "sell_limit": 1,
-      "drop_rate": 674
+      "drop_rate": 1307
     },
     {
       "no": 320240,
@@ -19453,7 +19354,7 @@
       "pay_item_no": 16,
       "pay_amount": 5400,
       "sell_limit": 1,
-      "drop_rate": 673
+      "drop_rate": 1307
     },
     {
       "no": 320250,
@@ -19465,7 +19366,7 @@
       "pay_item_no": 16,
       "pay_amount": 9000,
       "sell_limit": 1,
-      "drop_rate": 674
+      "drop_rate": 1308
     },
     {
       "no": 320260,
@@ -19475,8 +19376,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320270,
@@ -19486,8 +19387,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 600,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320280,
@@ -19497,8 +19398,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320290,
@@ -19508,8 +19409,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 8400,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320300,
@@ -19539,8 +19440,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 3000,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320330,
@@ -19550,8 +19451,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 3600,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320340,
@@ -19561,8 +19462,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 4000,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320350,
@@ -19572,8 +19473,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 4800,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320360,
@@ -19615,7 +19516,7 @@
       "pay_item_no": 16,
       "pay_amount": 4800,
       "sell_limit": 1,
-      "drop_rate": 673
+      "drop_rate": 1308
     },
     {
       "no": 320400,
@@ -19627,7 +19528,7 @@
       "pay_item_no": 16,
       "pay_amount": 5400,
       "sell_limit": 1,
-      "drop_rate": 674
+      "drop_rate": 1307
     },
     {
       "no": 320410,
@@ -19639,7 +19540,7 @@
       "pay_item_no": 16,
       "pay_amount": 8000,
       "sell_limit": 1,
-      "drop_rate": 673
+      "drop_rate": 1307
     },
     {
       "no": 320420,
@@ -19649,8 +19550,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320430,
@@ -19660,8 +19561,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320440,
@@ -19671,8 +19572,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320450,
@@ -19682,8 +19583,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320460,
@@ -19693,8 +19594,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320470,
@@ -19704,8 +19605,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320480,
@@ -19715,8 +19616,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320490,
@@ -19726,8 +19627,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320500,
@@ -19737,8 +19638,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320510,
@@ -19748,8 +19649,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320520,
@@ -19759,8 +19660,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320530,
@@ -19770,8 +19671,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320540,
@@ -19781,8 +19682,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320550,
@@ -19792,8 +19693,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320560,
@@ -19803,8 +19704,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 2000,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320570,
@@ -19814,8 +19715,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 2000,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320580,
@@ -19825,8 +19726,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320590,
@@ -19836,8 +19737,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320600,
@@ -19847,8 +19748,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320610,
@@ -19858,8 +19759,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320620,
@@ -19869,8 +19770,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320630,
@@ -19880,8 +19781,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320640,
@@ -19891,8 +19792,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320650,
@@ -19902,8 +19803,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320660,
@@ -19913,8 +19814,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320670,
@@ -19924,8 +19825,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320680,
@@ -19935,8 +19836,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320690,
@@ -19946,8 +19847,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320700,
@@ -19957,8 +19858,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320710,
@@ -19968,8 +19869,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320720,
@@ -19979,8 +19880,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320730,
@@ -19990,8 +19891,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320740,
@@ -20001,8 +19902,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320750,
@@ -20012,8 +19913,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320760,
@@ -20023,8 +19924,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320770,
@@ -20034,8 +19935,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320780,
@@ -20045,8 +19946,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320790,
@@ -20056,8 +19957,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320800,
@@ -20067,8 +19968,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320810,
@@ -20078,8 +19979,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320820,
@@ -20089,8 +19990,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320830,
@@ -20100,8 +20001,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320840,
@@ -20111,8 +20012,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320850,
@@ -20122,8 +20023,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320860,
@@ -20133,8 +20034,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320870,
@@ -20144,8 +20045,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320880,
@@ -20155,8 +20056,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320890,
@@ -20166,8 +20067,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320900,
@@ -20177,8 +20078,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320910,
@@ -20188,8 +20089,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320920,
@@ -20199,8 +20100,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320930,
@@ -20210,8 +20111,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320940,
@@ -20221,8 +20122,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320950,
@@ -20232,8 +20133,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 320960,
@@ -20243,8 +20144,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320970,
@@ -20254,8 +20155,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320980,
@@ -20265,8 +20166,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 320990,
@@ -20276,8 +20177,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 321000,
@@ -20287,8 +20188,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321010,
@@ -20298,8 +20199,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321020,
@@ -20309,8 +20210,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321030,
@@ -20320,8 +20221,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 321040,
@@ -20331,8 +20232,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321050,
@@ -20342,8 +20243,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321060,
@@ -20353,8 +20254,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 321070,
@@ -20364,8 +20265,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321080,
@@ -20375,8 +20276,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321090,
@@ -20386,8 +20287,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321100,
@@ -20397,8 +20298,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 321110,
@@ -20408,8 +20309,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321120,
@@ -20419,8 +20320,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321130,
@@ -20430,8 +20331,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321140,
@@ -20441,8 +20342,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 321150,
@@ -20452,8 +20353,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321160,
@@ -20463,8 +20364,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321170,
@@ -20474,8 +20375,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 321180,
@@ -20485,8 +20386,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321190,
@@ -20496,8 +20397,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321200,
@@ -20507,8 +20408,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321210,
@@ -20518,8 +20419,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 321220,
@@ -20529,8 +20430,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 600,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321230,
@@ -20540,8 +20441,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 600,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321240,
@@ -20551,8 +20452,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 600,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321250,
@@ -20562,8 +20463,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 321260,
@@ -20573,8 +20474,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321270,
@@ -20584,8 +20485,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321280,
@@ -20595,8 +20496,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321290,
@@ -20606,8 +20507,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 321300,
@@ -20617,8 +20518,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321310,
@@ -20628,8 +20529,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321320,
@@ -20639,8 +20540,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 321330,
@@ -20650,8 +20551,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321340,
@@ -20661,8 +20562,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321350,
@@ -20672,8 +20573,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321360,
@@ -20683,8 +20584,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 321370,
@@ -20694,8 +20595,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321380,
@@ -20705,8 +20606,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321390,
@@ -20716,8 +20617,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 321400,
@@ -20727,8 +20628,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 674
+      "sell_limit": 3,
+      "drop_rate": 435
     },
     {
       "no": 321410,
@@ -20738,8 +20639,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 673
+      "sell_limit": 3,
+      "drop_rate": 436
     },
     {
       "no": 330010,
@@ -20794,40 +20695,7 @@
       "sell_cnt": 10,
       "pay_item_no": 16,
       "pay_amount": 2000,
-      "sell_limit": 1
-    },
-    {
-      "no": 330042,
-      "shop_no": 33,
-      "order": 6,
-      "item_no": 4132,
-      "always_pick": 1,
-      "sell_cnt": 10,
-      "pay_item_no": 16,
-      "pay_amount": 2000,
-      "sell_limit": 1
-    },
-    {
-      "no": 330043,
-      "shop_no": 33,
-      "order": 7,
-      "item_no": 4132,
-      "always_pick": 1,
-      "sell_cnt": 10,
-      "pay_item_no": 16,
-      "pay_amount": 2000,
-      "sell_limit": 1
-    },
-    {
-      "no": 330044,
-      "shop_no": 33,
-      "order": 8,
-      "item_no": 4132,
-      "always_pick": 1,
-      "sell_cnt": 10,
-      "pay_item_no": 16,
-      "pay_amount": 2000,
-      "sell_limit": 1
+      "sell_limit": 4
     },
     {
       "no": 330050,
@@ -20839,7 +20707,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 932
+      "drop_rate": 1685
     },
     {
       "no": 330060,
@@ -20851,7 +20719,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 931
+      "drop_rate": 1686
     },
     {
       "no": 330070,
@@ -20863,7 +20731,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 932
+      "drop_rate": 1685
     },
     {
       "no": 330080,
@@ -20875,7 +20743,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 932
+      "drop_rate": 1686
     },
     {
       "no": 330090,
@@ -20887,7 +20755,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 931
+      "drop_rate": 1685
     },
     {
       "no": 330100,
@@ -20899,7 +20767,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 932
+      "drop_rate": 1685
     },
     {
       "no": 330110,
@@ -20911,7 +20779,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 932
+      "drop_rate": 1686
     },
     {
       "no": 330120,
@@ -20923,7 +20791,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 931
+      "drop_rate": 1685
     },
     {
       "no": 330130,
@@ -20935,7 +20803,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 932
+      "drop_rate": 1686
     },
     {
       "no": 330140,
@@ -20947,7 +20815,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 932
+      "drop_rate": 1685
     },
     {
       "no": 330150,
@@ -20959,7 +20827,7 @@
       "pay_item_no": 16,
       "pay_amount": 5000,
       "sell_limit": 1,
-      "drop_rate": 931
+      "drop_rate": 1685
     },
     {
       "no": 330160,
@@ -20971,7 +20839,7 @@
       "pay_item_no": 16,
       "pay_amount": 5000,
       "sell_limit": 1,
-      "drop_rate": 932
+      "drop_rate": 1686
     },
     {
       "no": 330170,
@@ -20983,7 +20851,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 2174
+      "drop_rate": 3932
     },
     {
       "no": 330180,
@@ -20995,7 +20863,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 2174
+      "drop_rate": 3933
     },
     {
       "no": 330190,
@@ -21007,7 +20875,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 2174
+      "drop_rate": 3932
     },
     {
       "no": 330200,
@@ -21019,7 +20887,7 @@
       "pay_item_no": 16,
       "pay_amount": 10000,
       "sell_limit": 1,
-      "drop_rate": 2174
+      "drop_rate": 3933
     },
     {
       "no": 330210,
@@ -21031,7 +20899,7 @@
       "pay_item_no": 16,
       "pay_amount": 10000,
       "sell_limit": 1,
-      "drop_rate": 2174
+      "drop_rate": 3933
     },
     {
       "no": 330220,
@@ -21043,7 +20911,7 @@
       "pay_item_no": 16,
       "pay_amount": 10000,
       "sell_limit": 1,
-      "drop_rate": 2174
+      "drop_rate": 3932
     },
     {
       "no": 330230,
@@ -21055,7 +20923,7 @@
       "pay_item_no": 16,
       "pay_amount": 450,
       "sell_limit": 1,
-      "drop_rate": 621
+      "drop_rate": 1124
     },
     {
       "no": 330240,
@@ -21067,7 +20935,7 @@
       "pay_item_no": 16,
       "pay_amount": 4500,
       "sell_limit": 1,
-      "drop_rate": 621
+      "drop_rate": 1123
     },
     {
       "no": 330250,
@@ -21079,7 +20947,7 @@
       "pay_item_no": 16,
       "pay_amount": 6000,
       "sell_limit": 1,
-      "drop_rate": 621
+      "drop_rate": 1124
     },
     {
       "no": 330260,
@@ -21091,7 +20959,7 @@
       "pay_item_no": 16,
       "pay_amount": 7200,
       "sell_limit": 1,
-      "drop_rate": 621
+      "drop_rate": 1124
     },
     {
       "no": 330270,
@@ -21103,7 +20971,7 @@
       "pay_item_no": 16,
       "pay_amount": 16200,
       "sell_limit": 1,
-      "drop_rate": 621
+      "drop_rate": 1123
     },
     {
       "no": 330280,
@@ -21115,7 +20983,7 @@
       "pay_item_no": 16,
       "pay_amount": 24000,
       "sell_limit": 1,
-      "drop_rate": 621
+      "drop_rate": 1124
     },
     {
       "no": 330290,
@@ -21127,7 +20995,7 @@
       "pay_item_no": 16,
       "pay_amount": 27000,
       "sell_limit": 1,
-      "drop_rate": 621
+      "drop_rate": 1123
     },
     {
       "no": 330300,
@@ -21139,7 +21007,7 @@
       "pay_item_no": 16,
       "pay_amount": 4500,
       "sell_limit": 1,
-      "drop_rate": 622
+      "drop_rate": 1124
     },
     {
       "no": 330310,
@@ -21151,7 +21019,7 @@
       "pay_item_no": 16,
       "pay_amount": 5400,
       "sell_limit": 1,
-      "drop_rate": 621
+      "drop_rate": 1124
     },
     {
       "no": 330320,
@@ -21163,7 +21031,7 @@
       "pay_item_no": 16,
       "pay_amount": 9000,
       "sell_limit": 1,
-      "drop_rate": 621
+      "drop_rate": 1123
     },
     {
       "no": 330330,
@@ -21175,7 +21043,7 @@
       "pay_item_no": 16,
       "pay_amount": 12000,
       "sell_limit": 1,
-      "drop_rate": 621
+      "drop_rate": 1124
     },
     {
       "no": 330340,
@@ -21185,8 +21053,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330350,
@@ -21196,8 +21064,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 600,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330360,
@@ -21207,8 +21075,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330370,
@@ -21218,8 +21086,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 8400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330380,
@@ -21249,8 +21117,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 3000,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330410,
@@ -21260,8 +21128,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 3600,
-      "sell_limit": 1,
-      "drop_rate": 622
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330420,
@@ -21271,8 +21139,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 4000,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330430,
@@ -21282,8 +21150,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 4800,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330440,
@@ -21325,7 +21193,7 @@
       "pay_item_no": 16,
       "pay_amount": 4800,
       "sell_limit": 1,
-      "drop_rate": 621
+      "drop_rate": 1124
     },
     {
       "no": 330480,
@@ -21337,7 +21205,7 @@
       "pay_item_no": 16,
       "pay_amount": 5400,
       "sell_limit": 1,
-      "drop_rate": 621
+      "drop_rate": 1123
     },
     {
       "no": 330490,
@@ -21349,7 +21217,7 @@
       "pay_item_no": 16,
       "pay_amount": 8000,
       "sell_limit": 1,
-      "drop_rate": 621
+      "drop_rate": 1124
     },
     {
       "no": 330500,
@@ -21359,8 +21227,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330510,
@@ -21370,8 +21238,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330520,
@@ -21381,8 +21249,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 622
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330530,
@@ -21392,8 +21260,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330540,
@@ -21403,8 +21271,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330550,
@@ -21414,8 +21282,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330560,
@@ -21425,8 +21293,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330570,
@@ -21436,8 +21304,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330580,
@@ -21447,8 +21315,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330590,
@@ -21458,8 +21326,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330600,
@@ -21469,8 +21337,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330610,
@@ -21480,8 +21348,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 622
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330620,
@@ -21491,8 +21359,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330630,
@@ -21502,8 +21370,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330640,
@@ -21513,8 +21381,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 2000,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330650,
@@ -21524,8 +21392,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 2000,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330660,
@@ -21535,8 +21403,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330670,
@@ -21546,8 +21414,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330680,
@@ -21557,8 +21425,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330690,
@@ -21568,8 +21436,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 622
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330700,
@@ -21579,8 +21447,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330710,
@@ -21590,8 +21458,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330720,
@@ -21601,8 +21469,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330730,
@@ -21612,8 +21480,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330740,
@@ -21623,8 +21491,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330750,
@@ -21634,8 +21502,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330760,
@@ -21645,8 +21513,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330770,
@@ -21656,8 +21524,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 622
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330780,
@@ -21667,8 +21535,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330790,
@@ -21678,8 +21546,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330800,
@@ -21689,8 +21557,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330810,
@@ -21700,8 +21568,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330820,
@@ -21711,8 +21579,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330830,
@@ -21722,8 +21590,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330840,
@@ -21733,8 +21601,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330850,
@@ -21744,8 +21612,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330860,
@@ -21755,8 +21623,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 622
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330870,
@@ -21766,8 +21634,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330880,
@@ -21777,8 +21645,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330890,
@@ -21788,8 +21656,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330900,
@@ -21799,8 +21667,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330910,
@@ -21810,8 +21678,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330920,
@@ -21821,8 +21689,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330930,
@@ -21832,8 +21700,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330940,
@@ -21843,8 +21711,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 622
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330950,
@@ -21854,8 +21722,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330960,
@@ -21865,8 +21733,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330970,
@@ -21876,8 +21744,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 330980,
@@ -21887,8 +21755,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 330990,
@@ -21898,8 +21766,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331000,
@@ -21909,8 +21777,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331010,
@@ -21920,8 +21788,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331020,
@@ -21931,8 +21799,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331030,
@@ -21942,8 +21810,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 622
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331040,
@@ -21953,8 +21821,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331050,
@@ -21964,8 +21832,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331060,
@@ -21975,8 +21843,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331070,
@@ -21986,8 +21854,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331080,
@@ -21997,8 +21865,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331090,
@@ -22008,8 +21876,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331100,
@@ -22019,8 +21887,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331110,
@@ -22030,8 +21898,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 622
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331120,
@@ -22041,8 +21909,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331130,
@@ -22052,8 +21920,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331140,
@@ -22063,8 +21931,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331150,
@@ -22074,8 +21942,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331160,
@@ -22085,8 +21953,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331170,
@@ -22096,8 +21964,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331180,
@@ -22107,8 +21975,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331190,
@@ -22118,8 +21986,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331200,
@@ -22129,8 +21997,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 622
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331210,
@@ -22140,8 +22008,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331220,
@@ -22151,8 +22019,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331230,
@@ -22162,8 +22030,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331240,
@@ -22173,8 +22041,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331250,
@@ -22184,8 +22052,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331260,
@@ -22195,8 +22063,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331270,
@@ -22206,8 +22074,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331280,
@@ -22217,8 +22085,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 622
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331290,
@@ -22228,8 +22096,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331300,
@@ -22239,8 +22107,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 600,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331310,
@@ -22250,8 +22118,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 600,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331320,
@@ -22261,8 +22129,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 600,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331330,
@@ -22272,8 +22140,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331340,
@@ -22283,8 +22151,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331350,
@@ -22294,8 +22162,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331360,
@@ -22305,8 +22173,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331370,
@@ -22316,8 +22184,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 622
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331380,
@@ -22327,8 +22195,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331390,
@@ -22338,8 +22206,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331400,
@@ -22349,8 +22217,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331410,
@@ -22360,8 +22228,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331420,
@@ -22371,8 +22239,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331430,
@@ -22382,8 +22250,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331440,
@@ -22393,8 +22261,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331450,
@@ -22404,8 +22272,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 622
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331460,
@@ -22415,8 +22283,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331470,
@@ -22426,8 +22294,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 331480,
@@ -22437,8 +22305,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 374
     },
     {
       "no": 331490,
@@ -22448,8 +22316,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 621
+      "sell_limit": 3,
+      "drop_rate": 375
     },
     {
       "no": 340010,
@@ -22504,64 +22372,19 @@
       "sell_cnt": 10,
       "pay_item_no": 16,
       "pay_amount": 2000,
-      "sell_limit": 1
-    },
-    {
-      "no": 340042,
-      "shop_no": 34,
-      "order": 6,
-      "item_no": 4132,
-      "always_pick": 1,
-      "sell_cnt": 10,
-      "pay_item_no": 16,
-      "pay_amount": 2000,
-      "sell_limit": 1
-    },
-    {
-      "no": 340043,
-      "shop_no": 34,
-      "order": 7,
-      "item_no": 4132,
-      "always_pick": 1,
-      "sell_cnt": 10,
-      "pay_item_no": 16,
-      "pay_amount": 2000,
-      "sell_limit": 1
-    },
-    {
-      "no": 340044,
-      "shop_no": 34,
-      "order": 8,
-      "item_no": 4132,
-      "always_pick": 1,
-      "sell_cnt": 10,
-      "pay_item_no": 16,
-      "pay_amount": 2000,
-      "sell_limit": 1
-    },
-    {
-      "no": 340048,
-      "shop_no": 34,
-      "order": 9,
-      "item_no": 50000,
-      "sell_cnt": 300,
-      "pay_item_no": 100,
-      "pay_amount": 1000,
-      "sell_limit": 1,
-      "sale_rate": 50,
-      "drop_rate": 1690
+      "sell_limit": 4
     },
     {
       "no": 340049,
       "shop_no": 34,
       "order": 10,
       "item_no": 50000,
+      "always_pick": 1,
       "sell_cnt": 300,
       "pay_item_no": 16,
       "pay_amount": 3000,
       "sell_limit": 1,
-      "sale_rate": 50,
-      "drop_rate": 1690
+      "sale_rate": 50
     },
     {
       "no": 340050,
@@ -22573,7 +22396,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 845
+      "drop_rate": 1508
     },
     {
       "no": 340060,
@@ -22585,7 +22408,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 845
+      "drop_rate": 1507
     },
     {
       "no": 340070,
@@ -22597,7 +22420,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 845
+      "drop_rate": 1508
     },
     {
       "no": 340080,
@@ -22609,7 +22432,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 846
+      "drop_rate": 1507
     },
     {
       "no": 340090,
@@ -22621,7 +22444,7 @@
       "pay_item_no": 16,
       "pay_amount": 300,
       "sell_limit": 1,
-      "drop_rate": 845
+      "drop_rate": 1508
     },
     {
       "no": 340100,
@@ -22633,7 +22456,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 845
+      "drop_rate": 1507
     },
     {
       "no": 340110,
@@ -22645,7 +22468,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 845
+      "drop_rate": 1508
     },
     {
       "no": 340120,
@@ -22657,7 +22480,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 845
+      "drop_rate": 1507
     },
     {
       "no": 340130,
@@ -22669,7 +22492,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 845
+      "drop_rate": 1508
     },
     {
       "no": 340140,
@@ -22681,7 +22504,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 845
+      "drop_rate": 1507
     },
     {
       "no": 340150,
@@ -22693,7 +22516,7 @@
       "pay_item_no": 16,
       "pay_amount": 5000,
       "sell_limit": 1,
-      "drop_rate": 845
+      "drop_rate": 1508
     },
     {
       "no": 340160,
@@ -22705,7 +22528,7 @@
       "pay_item_no": 16,
       "pay_amount": 5000,
       "sell_limit": 1,
-      "drop_rate": 845
+      "drop_rate": 1507
     },
     {
       "no": 340170,
@@ -22717,7 +22540,7 @@
       "pay_item_no": 16,
       "pay_amount": 5000,
       "sell_limit": 1,
-      "drop_rate": 845
+      "drop_rate": 1508
     },
     {
       "no": 340180,
@@ -22729,7 +22552,7 @@
       "pay_item_no": 16,
       "pay_amount": 5000,
       "sell_limit": 1,
-      "drop_rate": 845
+      "drop_rate": 1508
     },
     {
       "no": 340190,
@@ -22741,7 +22564,7 @@
       "pay_item_no": 16,
       "pay_amount": 5000,
       "sell_limit": 1,
-      "drop_rate": 845
+      "drop_rate": 1507
     },
     {
       "no": 340200,
@@ -22753,7 +22576,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 1690
+      "drop_rate": 3015
     },
     {
       "no": 340210,
@@ -22765,7 +22588,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 1691
+      "drop_rate": 3015
     },
     {
       "no": 340220,
@@ -22777,7 +22600,7 @@
       "pay_item_no": 16,
       "pay_amount": 1000,
       "sell_limit": 1,
-      "drop_rate": 1690
+      "drop_rate": 3015
     },
     {
       "no": 340230,
@@ -22789,7 +22612,7 @@
       "pay_item_no": 16,
       "pay_amount": 10000,
       "sell_limit": 1,
-      "drop_rate": 1690
+      "drop_rate": 3015
     },
     {
       "no": 340240,
@@ -22801,7 +22624,7 @@
       "pay_item_no": 16,
       "pay_amount": 10000,
       "sell_limit": 1,
-      "drop_rate": 1690
+      "drop_rate": 3015
     },
     {
       "no": 340250,
@@ -22813,7 +22636,7 @@
       "pay_item_no": 16,
       "pay_amount": 10000,
       "sell_limit": 1,
-      "drop_rate": 1690
+      "drop_rate": 3016
     },
     {
       "no": 340260,
@@ -22825,7 +22648,7 @@
       "pay_item_no": 16,
       "pay_amount": 50000,
       "sell_limit": 1,
-      "drop_rate": 1690
+      "drop_rate": 3015
     },
     {
       "no": 340270,
@@ -22837,7 +22660,7 @@
       "pay_item_no": 16,
       "pay_amount": 50000,
       "sell_limit": 1,
-      "drop_rate": 1690
+      "drop_rate": 3015
     },
     {
       "no": 340280,
@@ -22849,7 +22672,7 @@
       "pay_item_no": 16,
       "pay_amount": 50000,
       "sell_limit": 1,
-      "drop_rate": 1691
+      "drop_rate": 3015
     },
     {
       "no": 340290,
@@ -22861,7 +22684,7 @@
       "pay_item_no": 16,
       "pay_amount": 450,
       "sell_limit": 1,
-      "drop_rate": 563
+      "drop_rate": 1005
     },
     {
       "no": 340300,
@@ -22873,7 +22696,7 @@
       "pay_item_no": 16,
       "pay_amount": 4500,
       "sell_limit": 1,
-      "drop_rate": 563
+      "drop_rate": 1005
     },
     {
       "no": 340310,
@@ -22885,7 +22708,7 @@
       "pay_item_no": 16,
       "pay_amount": 6000,
       "sell_limit": 1,
-      "drop_rate": 564
+      "drop_rate": 1005
     },
     {
       "no": 340320,
@@ -22897,7 +22720,7 @@
       "pay_item_no": 16,
       "pay_amount": 7200,
       "sell_limit": 1,
-      "drop_rate": 563
+      "drop_rate": 1005
     },
     {
       "no": 340330,
@@ -22909,7 +22732,7 @@
       "pay_item_no": 16,
       "pay_amount": 16200,
       "sell_limit": 1,
-      "drop_rate": 564
+      "drop_rate": 1005
     },
     {
       "no": 340340,
@@ -22921,7 +22744,7 @@
       "pay_item_no": 16,
       "pay_amount": 24000,
       "sell_limit": 1,
-      "drop_rate": 563
+      "drop_rate": 1005
     },
     {
       "no": 340350,
@@ -22933,7 +22756,7 @@
       "pay_item_no": 16,
       "pay_amount": 27000,
       "sell_limit": 1,
-      "drop_rate": 563
+      "drop_rate": 1005
     },
     {
       "no": 340360,
@@ -22945,7 +22768,7 @@
       "pay_item_no": 16,
       "pay_amount": 4500,
       "sell_limit": 1,
-      "drop_rate": 564
+      "drop_rate": 1005
     },
     {
       "no": 340370,
@@ -22957,7 +22780,7 @@
       "pay_item_no": 16,
       "pay_amount": 5400,
       "sell_limit": 1,
-      "drop_rate": 563
+      "drop_rate": 1005
     },
     {
       "no": 340380,
@@ -22969,7 +22792,7 @@
       "pay_item_no": 16,
       "pay_amount": 9000,
       "sell_limit": 1,
-      "drop_rate": 563
+      "drop_rate": 1005
     },
     {
       "no": 340390,
@@ -22981,7 +22804,7 @@
       "pay_item_no": 16,
       "pay_amount": 12000,
       "sell_limit": 1,
-      "drop_rate": 564
+      "drop_rate": 1005
     },
     {
       "no": 340400,
@@ -22991,8 +22814,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340410,
@@ -23002,8 +22825,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 600,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340420,
@@ -23013,8 +22836,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340430,
@@ -23024,8 +22847,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 8400,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340440,
@@ -23055,8 +22878,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 3000,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340470,
@@ -23066,8 +22889,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 3600,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340480,
@@ -23077,8 +22900,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 4000,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340490,
@@ -23088,8 +22911,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 4800,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340500,
@@ -23131,7 +22954,7 @@
       "pay_item_no": 16,
       "pay_amount": 4800,
       "sell_limit": 1,
-      "drop_rate": 563
+      "drop_rate": 1005
     },
     {
       "no": 340540,
@@ -23143,7 +22966,7 @@
       "pay_item_no": 16,
       "pay_amount": 5400,
       "sell_limit": 1,
-      "drop_rate": 564
+      "drop_rate": 1005
     },
     {
       "no": 340550,
@@ -23155,7 +22978,7 @@
       "pay_item_no": 16,
       "pay_amount": 8000,
       "sell_limit": 1,
-      "drop_rate": 563
+      "drop_rate": 1005
     },
     {
       "no": 340560,
@@ -23165,8 +22988,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340570,
@@ -23176,8 +22999,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340580,
@@ -23187,8 +23010,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340590,
@@ -23198,8 +23021,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340600,
@@ -23209,8 +23032,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340610,
@@ -23220,8 +23043,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340620,
@@ -23231,8 +23054,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340630,
@@ -23242,8 +23065,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340640,
@@ -23253,8 +23076,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340650,
@@ -23264,8 +23087,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340660,
@@ -23275,8 +23098,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340670,
@@ -23286,8 +23109,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340680,
@@ -23297,8 +23120,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340690,
@@ -23308,8 +23131,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340700,
@@ -23319,8 +23142,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 2000,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340710,
@@ -23330,8 +23153,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 2000,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340720,
@@ -23341,8 +23164,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340730,
@@ -23352,8 +23175,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340740,
@@ -23363,8 +23186,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340750,
@@ -23374,8 +23197,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340760,
@@ -23385,8 +23208,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340770,
@@ -23396,8 +23219,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340780,
@@ -23407,8 +23230,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340790,
@@ -23418,8 +23241,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340800,
@@ -23429,8 +23252,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340810,
@@ -23440,8 +23263,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340820,
@@ -23451,8 +23274,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340830,
@@ -23462,8 +23285,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340840,
@@ -23473,8 +23296,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340850,
@@ -23484,8 +23307,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340860,
@@ -23495,8 +23318,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340870,
@@ -23506,8 +23329,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340880,
@@ -23517,8 +23340,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340890,
@@ -23528,8 +23351,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340900,
@@ -23539,8 +23362,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340910,
@@ -23550,8 +23373,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340920,
@@ -23561,8 +23384,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340930,
@@ -23572,8 +23395,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340940,
@@ -23583,8 +23406,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340950,
@@ -23594,8 +23417,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340960,
@@ -23605,8 +23428,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 336
     },
     {
       "no": 340970,
@@ -23616,8 +23439,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340980,
@@ -23627,8 +23450,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 340990,
@@ -23638,8 +23461,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341000,
@@ -23649,8 +23472,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341010,
@@ -23660,8 +23483,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341020,
@@ -23671,8 +23494,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341030,
@@ -23682,8 +23505,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341040,
@@ -23693,8 +23516,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341050,
@@ -23704,8 +23527,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341060,
@@ -23715,8 +23538,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341070,
@@ -23726,8 +23549,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341080,
@@ -23737,8 +23560,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341090,
@@ -23748,8 +23571,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341100,
@@ -23759,8 +23582,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341110,
@@ -23770,8 +23593,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341120,
@@ -23781,8 +23604,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341130,
@@ -23792,8 +23615,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341140,
@@ -23803,8 +23626,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341150,
@@ -23814,8 +23637,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341160,
@@ -23825,8 +23648,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341170,
@@ -23836,8 +23659,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341180,
@@ -23847,8 +23670,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341190,
@@ -23858,8 +23681,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341200,
@@ -23869,8 +23692,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341210,
@@ -23880,8 +23703,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341220,
@@ -23891,8 +23714,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341230,
@@ -23902,8 +23725,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341240,
@@ -23913,8 +23736,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341250,
@@ -23924,8 +23747,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341260,
@@ -23935,8 +23758,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341270,
@@ -23946,8 +23769,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341280,
@@ -23957,8 +23780,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341290,
@@ -23968,8 +23791,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341300,
@@ -23979,8 +23802,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341310,
@@ -23990,8 +23813,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341320,
@@ -24001,8 +23824,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 300,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341330,
@@ -24012,8 +23835,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341340,
@@ -24023,8 +23846,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341350,
@@ -24034,8 +23857,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 400,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341360,
@@ -24045,8 +23868,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 600,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341370,
@@ -24056,8 +23879,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 600,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341380,
@@ -24067,8 +23890,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 600,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341390,
@@ -24078,8 +23901,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341400,
@@ -24089,8 +23912,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341410,
@@ -24100,8 +23923,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341420,
@@ -24111,8 +23934,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341430,
@@ -24122,8 +23945,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341440,
@@ -24133,8 +23956,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 900,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341450,
@@ -24144,8 +23967,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341460,
@@ -24155,8 +23978,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341470,
@@ -24166,8 +23989,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341480,
@@ -24177,8 +24000,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 800,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341490,
@@ -24188,8 +24011,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341500,
@@ -24199,8 +24022,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341510,
@@ -24210,8 +24033,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341520,
@@ -24221,8 +24044,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341530,
@@ -24232,8 +24055,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 563
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341540,
@@ -24243,8 +24066,8 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1200,
-      "sell_limit": 1,
-      "drop_rate": 564
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 341550,
@@ -24254,8 +24077,1793 @@
       "sell_cnt": 1,
       "pay_item_no": 16,
       "pay_amount": 1600,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350010,
+      "shop_no": 35,
+      "order": 1,
+      "item_no": 7036,
+      "always_pick": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 1
+    },
+    {
+      "no": 350020,
+      "shop_no": 35,
+      "order": 2,
+      "item_no": 7036,
+      "always_pick": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 100,
+      "pay_amount": 100,
+      "sell_limit": 1
+    },
+    {
+      "no": 350030,
+      "shop_no": 35,
+      "order": 3,
+      "item_no": 42301,
+      "always_pick": 1,
+      "sell_cnt": 100,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 1
+    },
+    {
+      "no": 350040,
+      "shop_no": 35,
+      "order": 4,
+      "item_no": 42302,
+      "always_pick": 1,
+      "sell_cnt": 100,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 1
+    },
+    {
+      "no": 350041,
+      "shop_no": 35,
+      "order": 5,
+      "item_no": 4132,
+      "always_pick": 1,
+      "sell_cnt": 10,
+      "pay_item_no": 16,
+      "pay_amount": 2000,
+      "sell_limit": 4
+    },
+    {
+      "no": 350042,
+      "shop_no": 35,
+      "order": 7,
+      "item_no": 50000,
+      "always_pick": 1,
+      "sell_cnt": 1000,
+      "pay_item_no": 16,
+      "pay_amount": 10000,
       "sell_limit": 1,
-      "drop_rate": 563
+      "sale_rate": 40
+    },
+    {
+      "no": 350043,
+      "shop_no": 35,
+      "order": 8,
+      "item_no": 50000,
+      "always_pick": 1,
+      "sell_cnt": 1500,
+      "pay_item_no": 16,
+      "pay_amount": 15000,
+      "sell_limit": 1,
+      "sale_rate": 40
+    },
+    {
+      "no": 350049,
+      "shop_no": 35,
+      "order": 6,
+      "item_no": 50000,
+      "always_pick": 1,
+      "sell_cnt": 300,
+      "pay_item_no": 16,
+      "pay_amount": 3000,
+      "sell_limit": 1,
+      "sale_rate": 50
+    },
+    {
+      "no": 350050,
+      "shop_no": 35,
+      "order": 11,
+      "item_no": 48041,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 1,
+      "drop_rate": 1508
+    },
+    {
+      "no": 350060,
+      "shop_no": 35,
+      "order": 12,
+      "item_no": 48051,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 1,
+      "drop_rate": 1507
+    },
+    {
+      "no": 350070,
+      "shop_no": 35,
+      "order": 13,
+      "item_no": 48061,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 1,
+      "drop_rate": 1508
+    },
+    {
+      "no": 350080,
+      "shop_no": 35,
+      "order": 14,
+      "item_no": 48071,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 1,
+      "drop_rate": 1507
+    },
+    {
+      "no": 350090,
+      "shop_no": 35,
+      "order": 15,
+      "item_no": 48081,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 1,
+      "drop_rate": 1508
+    },
+    {
+      "no": 350100,
+      "shop_no": 35,
+      "order": 16,
+      "item_no": 48042,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1000,
+      "sell_limit": 1,
+      "drop_rate": 1507
+    },
+    {
+      "no": 350110,
+      "shop_no": 35,
+      "order": 17,
+      "item_no": 48052,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1000,
+      "sell_limit": 1,
+      "drop_rate": 1508
+    },
+    {
+      "no": 350120,
+      "shop_no": 35,
+      "order": 18,
+      "item_no": 48062,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1000,
+      "sell_limit": 1,
+      "drop_rate": 1507
+    },
+    {
+      "no": 350130,
+      "shop_no": 35,
+      "order": 19,
+      "item_no": 48072,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1000,
+      "sell_limit": 1,
+      "drop_rate": 1508
+    },
+    {
+      "no": 350140,
+      "shop_no": 35,
+      "order": 20,
+      "item_no": 48082,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1000,
+      "sell_limit": 1,
+      "drop_rate": 1507
+    },
+    {
+      "no": 350150,
+      "shop_no": 35,
+      "order": 21,
+      "item_no": 48043,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 5000,
+      "sell_limit": 1,
+      "drop_rate": 1508
+    },
+    {
+      "no": 350160,
+      "shop_no": 35,
+      "order": 22,
+      "item_no": 48053,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 5000,
+      "sell_limit": 1,
+      "drop_rate": 1507
+    },
+    {
+      "no": 350170,
+      "shop_no": 35,
+      "order": 23,
+      "item_no": 48063,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 5000,
+      "sell_limit": 1,
+      "drop_rate": 1508
+    },
+    {
+      "no": 350180,
+      "shop_no": 35,
+      "order": 24,
+      "item_no": 48073,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 5000,
+      "sell_limit": 1,
+      "drop_rate": 1508
+    },
+    {
+      "no": 350190,
+      "shop_no": 35,
+      "order": 25,
+      "item_no": 48083,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 5000,
+      "sell_limit": 1,
+      "drop_rate": 1507
+    },
+    {
+      "no": 350200,
+      "shop_no": 35,
+      "order": 26,
+      "item_no": 49001,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1000,
+      "sell_limit": 1,
+      "drop_rate": 3015
+    },
+    {
+      "no": 350210,
+      "shop_no": 35,
+      "order": 27,
+      "item_no": 49002,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1000,
+      "sell_limit": 1,
+      "drop_rate": 3015
+    },
+    {
+      "no": 350220,
+      "shop_no": 35,
+      "order": 28,
+      "item_no": 49003,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1000,
+      "sell_limit": 1,
+      "drop_rate": 3015
+    },
+    {
+      "no": 350230,
+      "shop_no": 35,
+      "order": 29,
+      "item_no": 49011,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 10000,
+      "sell_limit": 1,
+      "drop_rate": 3015
+    },
+    {
+      "no": 350240,
+      "shop_no": 35,
+      "order": 30,
+      "item_no": 49012,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 10000,
+      "sell_limit": 1,
+      "drop_rate": 3015
+    },
+    {
+      "no": 350250,
+      "shop_no": 35,
+      "order": 31,
+      "item_no": 49013,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 10000,
+      "sell_limit": 1,
+      "drop_rate": 3016
+    },
+    {
+      "no": 350260,
+      "shop_no": 35,
+      "order": 32,
+      "item_no": 49021,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 50000,
+      "sell_limit": 1,
+      "drop_rate": 3015
+    },
+    {
+      "no": 350270,
+      "shop_no": 35,
+      "order": 33,
+      "item_no": 49022,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 50000,
+      "sell_limit": 1,
+      "drop_rate": 3015
+    },
+    {
+      "no": 350280,
+      "shop_no": 35,
+      "order": 34,
+      "item_no": 49023,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 50000,
+      "sell_limit": 1,
+      "drop_rate": 3015
+    },
+    {
+      "no": 350290,
+      "shop_no": 35,
+      "order": 35,
+      "item_no": 40001,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 450,
+      "sell_limit": 1,
+      "drop_rate": 1005
+    },
+    {
+      "no": 350300,
+      "shop_no": 35,
+      "order": 36,
+      "item_no": 40002,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 4500,
+      "sell_limit": 1,
+      "drop_rate": 1005
+    },
+    {
+      "no": 350310,
+      "shop_no": 35,
+      "order": 37,
+      "item_no": 40003,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 6000,
+      "sell_limit": 1,
+      "drop_rate": 1005
+    },
+    {
+      "no": 350320,
+      "shop_no": 35,
+      "order": 38,
+      "item_no": 40004,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 7200,
+      "sell_limit": 1,
+      "drop_rate": 1005
+    },
+    {
+      "no": 350330,
+      "shop_no": 35,
+      "order": 39,
+      "item_no": 40601,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 16200,
+      "sell_limit": 1,
+      "drop_rate": 1005
+    },
+    {
+      "no": 350340,
+      "shop_no": 35,
+      "order": 40,
+      "item_no": 40602,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 24000,
+      "sell_limit": 1,
+      "drop_rate": 1005
+    },
+    {
+      "no": 350350,
+      "shop_no": 35,
+      "order": 41,
+      "item_no": 40603,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 27000,
+      "sell_limit": 1,
+      "drop_rate": 1005
+    },
+    {
+      "no": 350360,
+      "shop_no": 35,
+      "order": 42,
+      "item_no": 40701,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 4500,
+      "sell_limit": 1,
+      "drop_rate": 1005
+    },
+    {
+      "no": 350370,
+      "shop_no": 35,
+      "order": 43,
+      "item_no": 40702,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 5400,
+      "sell_limit": 1,
+      "drop_rate": 1005
+    },
+    {
+      "no": 350380,
+      "shop_no": 35,
+      "order": 44,
+      "item_no": 40703,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 9000,
+      "sell_limit": 1,
+      "drop_rate": 1005
+    },
+    {
+      "no": 350390,
+      "shop_no": 35,
+      "order": 45,
+      "item_no": 40704,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 12000,
+      "sell_limit": 1,
+      "drop_rate": 1005
+    },
+    {
+      "no": 350400,
+      "shop_no": 35,
+      "order": 46,
+      "item_no": 40101,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350410,
+      "shop_no": 35,
+      "order": 47,
+      "item_no": 40102,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 600,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350420,
+      "shop_no": 35,
+      "order": 48,
+      "item_no": 40103,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 800,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350430,
+      "shop_no": 35,
+      "order": 49,
+      "item_no": 40201,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 8400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350440,
+      "shop_no": 35,
+      "order": 157,
+      "item_no": 40202,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 750,
+      "sell_limit": 1
+    },
+    {
+      "no": 350450,
+      "shop_no": 35,
+      "order": 158,
+      "item_no": 40203,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1200,
+      "sell_limit": 1
+    },
+    {
+      "no": 350460,
+      "shop_no": 35,
+      "order": 50,
+      "item_no": 40301,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 3000,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350470,
+      "shop_no": 35,
+      "order": 51,
+      "item_no": 40302,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 3600,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350480,
+      "shop_no": 35,
+      "order": 52,
+      "item_no": 40303,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 4000,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350490,
+      "shop_no": 35,
+      "order": 53,
+      "item_no": 40304,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 4800,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350500,
+      "shop_no": 35,
+      "order": 159,
+      "item_no": 40401,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 1
+    },
+    {
+      "no": 350510,
+      "shop_no": 35,
+      "order": 160,
+      "item_no": 40402,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 450,
+      "sell_limit": 1
+    },
+    {
+      "no": 350520,
+      "shop_no": 35,
+      "order": 161,
+      "item_no": 40403,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 720,
+      "sell_limit": 1
+    },
+    {
+      "no": 350530,
+      "shop_no": 35,
+      "order": 54,
+      "item_no": 40801,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 4800,
+      "sell_limit": 1,
+      "drop_rate": 1005
+    },
+    {
+      "no": 350540,
+      "shop_no": 35,
+      "order": 55,
+      "item_no": 40802,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 5400,
+      "sell_limit": 1,
+      "drop_rate": 1005
+    },
+    {
+      "no": 350550,
+      "shop_no": 35,
+      "order": 56,
+      "item_no": 40803,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 8000,
+      "sell_limit": 1,
+      "drop_rate": 1005
+    },
+    {
+      "no": 350560,
+      "shop_no": 35,
+      "order": 57,
+      "item_no": 40901,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350570,
+      "shop_no": 35,
+      "order": 58,
+      "item_no": 40902,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 900,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350580,
+      "shop_no": 35,
+      "order": 59,
+      "item_no": 40903,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 900,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350590,
+      "shop_no": 35,
+      "order": 60,
+      "item_no": 40904,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 900,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350600,
+      "shop_no": 35,
+      "order": 61,
+      "item_no": 40905,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350610,
+      "shop_no": 35,
+      "order": 62,
+      "item_no": 40906,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350620,
+      "shop_no": 35,
+      "order": 63,
+      "item_no": 41001,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350630,
+      "shop_no": 35,
+      "order": 64,
+      "item_no": 41002,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350640,
+      "shop_no": 35,
+      "order": 65,
+      "item_no": 41003,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350650,
+      "shop_no": 35,
+      "order": 66,
+      "item_no": 41004,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350660,
+      "shop_no": 35,
+      "order": 67,
+      "item_no": 41005,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350670,
+      "shop_no": 35,
+      "order": 68,
+      "item_no": 41006,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350680,
+      "shop_no": 35,
+      "order": 69,
+      "item_no": 41050,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 900,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350690,
+      "shop_no": 35,
+      "order": 70,
+      "item_no": 41051,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 900,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350700,
+      "shop_no": 35,
+      "order": 71,
+      "item_no": 41052,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 2000,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350710,
+      "shop_no": 35,
+      "order": 72,
+      "item_no": 41053,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 2000,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350720,
+      "shop_no": 35,
+      "order": 73,
+      "item_no": 41101,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350730,
+      "shop_no": 35,
+      "order": 74,
+      "item_no": 41102,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350740,
+      "shop_no": 35,
+      "order": 75,
+      "item_no": 41103,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350750,
+      "shop_no": 35,
+      "order": 76,
+      "item_no": 41104,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350760,
+      "shop_no": 35,
+      "order": 77,
+      "item_no": 41105,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350770,
+      "shop_no": 35,
+      "order": 78,
+      "item_no": 41106,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350780,
+      "shop_no": 35,
+      "order": 79,
+      "item_no": 41107,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350790,
+      "shop_no": 35,
+      "order": 80,
+      "item_no": 41201,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350800,
+      "shop_no": 35,
+      "order": 81,
+      "item_no": 41202,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350810,
+      "shop_no": 35,
+      "order": 82,
+      "item_no": 41203,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350820,
+      "shop_no": 35,
+      "order": 83,
+      "item_no": 41204,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350830,
+      "shop_no": 35,
+      "order": 84,
+      "item_no": 41205,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350840,
+      "shop_no": 35,
+      "order": 85,
+      "item_no": 41206,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350850,
+      "shop_no": 35,
+      "order": 86,
+      "item_no": 41207,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350860,
+      "shop_no": 35,
+      "order": 87,
+      "item_no": 41301,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350870,
+      "shop_no": 35,
+      "order": 88,
+      "item_no": 41302,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350880,
+      "shop_no": 35,
+      "order": 89,
+      "item_no": 41303,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350890,
+      "shop_no": 35,
+      "order": 90,
+      "item_no": 41304,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350900,
+      "shop_no": 35,
+      "order": 91,
+      "item_no": 41305,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350910,
+      "shop_no": 35,
+      "order": 92,
+      "item_no": 41401,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350920,
+      "shop_no": 35,
+      "order": 93,
+      "item_no": 41501,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 800,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350930,
+      "shop_no": 35,
+      "order": 94,
+      "item_no": 41601,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350940,
+      "shop_no": 35,
+      "order": 95,
+      "item_no": 41701,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350950,
+      "shop_no": 35,
+      "order": 96,
+      "item_no": 41702,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350960,
+      "shop_no": 35,
+      "order": 97,
+      "item_no": 41703,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 336
+    },
+    {
+      "no": 350970,
+      "shop_no": 35,
+      "order": 98,
+      "item_no": 41704,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350980,
+      "shop_no": 35,
+      "order": 99,
+      "item_no": 41705,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 350990,
+      "shop_no": 35,
+      "order": 100,
+      "item_no": 41706,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351000,
+      "shop_no": 35,
+      "order": 101,
+      "item_no": 41707,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351010,
+      "shop_no": 35,
+      "order": 102,
+      "item_no": 41708,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 900,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351020,
+      "shop_no": 35,
+      "order": 103,
+      "item_no": 41709,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 900,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351030,
+      "shop_no": 35,
+      "order": 104,
+      "item_no": 41710,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1600,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351040,
+      "shop_no": 35,
+      "order": 105,
+      "item_no": 41711,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1600,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351050,
+      "shop_no": 35,
+      "order": 106,
+      "item_no": 41801,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351060,
+      "shop_no": 35,
+      "order": 107,
+      "item_no": 41802,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351070,
+      "shop_no": 35,
+      "order": 108,
+      "item_no": 41803,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351080,
+      "shop_no": 35,
+      "order": 109,
+      "item_no": 41804,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351090,
+      "shop_no": 35,
+      "order": 110,
+      "item_no": 41805,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 900,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351100,
+      "shop_no": 35,
+      "order": 111,
+      "item_no": 41806,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 900,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351110,
+      "shop_no": 35,
+      "order": 112,
+      "item_no": 41807,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1600,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351120,
+      "shop_no": 35,
+      "order": 113,
+      "item_no": 41808,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1600,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351130,
+      "shop_no": 35,
+      "order": 114,
+      "item_no": 41809,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1600,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351140,
+      "shop_no": 35,
+      "order": 115,
+      "item_no": 41810,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1600,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351150,
+      "shop_no": 35,
+      "order": 116,
+      "item_no": 41901,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351160,
+      "shop_no": 35,
+      "order": 117,
+      "item_no": 41902,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351170,
+      "shop_no": 35,
+      "order": 118,
+      "item_no": 41903,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351180,
+      "shop_no": 35,
+      "order": 119,
+      "item_no": 41904,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351190,
+      "shop_no": 35,
+      "order": 120,
+      "item_no": 41905,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351200,
+      "shop_no": 35,
+      "order": 121,
+      "item_no": 41906,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351210,
+      "shop_no": 35,
+      "order": 122,
+      "item_no": 41907,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351220,
+      "shop_no": 35,
+      "order": 123,
+      "item_no": 41908,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351230,
+      "shop_no": 35,
+      "order": 124,
+      "item_no": 41909,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351240,
+      "shop_no": 35,
+      "order": 125,
+      "item_no": 41910,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351250,
+      "shop_no": 35,
+      "order": 126,
+      "item_no": 42001,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351260,
+      "shop_no": 35,
+      "order": 127,
+      "item_no": 42002,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351270,
+      "shop_no": 35,
+      "order": 128,
+      "item_no": 42003,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351280,
+      "shop_no": 35,
+      "order": 129,
+      "item_no": 42004,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351290,
+      "shop_no": 35,
+      "order": 130,
+      "item_no": 42005,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351300,
+      "shop_no": 35,
+      "order": 131,
+      "item_no": 42006,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351310,
+      "shop_no": 35,
+      "order": 132,
+      "item_no": 42007,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351320,
+      "shop_no": 35,
+      "order": 133,
+      "item_no": 42008,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 300,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351330,
+      "shop_no": 35,
+      "order": 134,
+      "item_no": 42009,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351340,
+      "shop_no": 35,
+      "order": 135,
+      "item_no": 42010,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351350,
+      "shop_no": 35,
+      "order": 136,
+      "item_no": 42011,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 400,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351360,
+      "shop_no": 35,
+      "order": 137,
+      "item_no": 42101,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 600,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351370,
+      "shop_no": 35,
+      "order": 138,
+      "item_no": 42102,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 600,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351380,
+      "shop_no": 35,
+      "order": 139,
+      "item_no": 42103,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 600,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351390,
+      "shop_no": 35,
+      "order": 140,
+      "item_no": 42104,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 900,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351400,
+      "shop_no": 35,
+      "order": 141,
+      "item_no": 42105,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 900,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351410,
+      "shop_no": 35,
+      "order": 142,
+      "item_no": 42106,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 900,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351420,
+      "shop_no": 35,
+      "order": 143,
+      "item_no": 42107,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 900,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351430,
+      "shop_no": 35,
+      "order": 144,
+      "item_no": 42108,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 900,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351440,
+      "shop_no": 35,
+      "order": 145,
+      "item_no": 42109,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 900,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351450,
+      "shop_no": 35,
+      "order": 146,
+      "item_no": 42110,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351460,
+      "shop_no": 35,
+      "order": 147,
+      "item_no": 42201,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 800,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351470,
+      "shop_no": 35,
+      "order": 148,
+      "item_no": 42202,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 800,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351480,
+      "shop_no": 35,
+      "order": 149,
+      "item_no": 42203,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 800,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351490,
+      "shop_no": 35,
+      "order": 150,
+      "item_no": 42204,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351500,
+      "shop_no": 35,
+      "order": 151,
+      "item_no": 42205,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351510,
+      "shop_no": 35,
+      "order": 152,
+      "item_no": 42206,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351520,
+      "shop_no": 35,
+      "order": 153,
+      "item_no": 42207,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351530,
+      "shop_no": 35,
+      "order": 154,
+      "item_no": 42208,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351540,
+      "shop_no": 35,
+      "order": 155,
+      "item_no": 42209,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1200,
+      "sell_limit": 3,
+      "drop_rate": 335
+    },
+    {
+      "no": 351550,
+      "shop_no": 35,
+      "order": 156,
+      "item_no": 42210,
+      "sell_cnt": 1,
+      "pay_item_no": 16,
+      "pay_amount": 1600,
+      "sell_limit": 3,
+      "drop_rate": 335
     },
     {
       "no": 400010,
@@ -45329,7 +46937,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700080,
@@ -45340,7 +46948,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1562
     },
     {
       "no": 700090,
@@ -45351,7 +46959,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700100,
@@ -45362,7 +46970,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700110,
@@ -45373,7 +46981,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1563
     },
     {
       "no": 700120,
@@ -45384,7 +46992,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700130,
@@ -45395,7 +47003,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700150,
@@ -45406,7 +47014,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700160,
@@ -45417,7 +47025,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1563
     },
     {
       "no": 700170,
@@ -45428,7 +47036,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700180,
@@ -45439,7 +47047,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700190,
@@ -45450,7 +47058,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1562
     },
     {
       "no": 700200,
@@ -45461,7 +47069,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700210,
@@ -45472,7 +47080,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700220,
@@ -45483,7 +47091,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1563
     },
     {
       "no": 700240,
@@ -45494,7 +47102,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700250,
@@ -45505,7 +47113,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700260,
@@ -45516,7 +47124,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700270,
@@ -45527,7 +47135,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1563
     },
     {
       "no": 700280,
@@ -45538,7 +47146,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700290,
@@ -45549,7 +47157,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700310,
@@ -45560,7 +47168,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1562
     },
     {
       "no": 700320,
@@ -45571,7 +47179,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700330,
@@ -45582,7 +47190,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700340,
@@ -45593,7 +47201,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1563
     },
     {
       "no": 700350,
@@ -45604,7 +47212,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700360,
@@ -45615,7 +47223,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700370,
@@ -45626,7 +47234,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700380,
@@ -45637,7 +47245,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1563
     },
     {
       "no": 700390,
@@ -45648,7 +47256,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700400,
@@ -45659,7 +47267,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700410,
@@ -45670,7 +47278,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1562
     },
     {
       "no": 700420,
@@ -45681,7 +47289,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700430,
@@ -45692,7 +47300,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700440,
@@ -45703,7 +47311,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1563
     },
     {
       "no": 700450,
@@ -45714,7 +47322,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700460,
@@ -45725,7 +47333,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700470,
@@ -45736,7 +47344,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700480,
@@ -45747,7 +47355,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1563
     },
     {
       "no": 700490,
@@ -45758,7 +47366,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700500,
@@ -45769,7 +47377,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700510,
@@ -45780,7 +47388,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1562
     },
     {
       "no": 700520,
@@ -45791,7 +47399,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700530,
@@ -45802,7 +47410,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700540,
@@ -45813,7 +47421,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1563
     },
     {
       "no": 700550,
@@ -45824,7 +47432,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700560,
@@ -45835,7 +47443,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700570,
@@ -45846,7 +47454,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700590,
@@ -45857,7 +47465,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1563
     },
     {
       "no": 700600,
@@ -45868,7 +47476,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700610,
@@ -45879,7 +47487,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700620,
@@ -45890,7 +47498,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1562
     },
     {
       "no": 700630,
@@ -45901,7 +47509,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700640,
@@ -45912,7 +47520,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700650,
@@ -45923,7 +47531,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1563
     },
     {
       "no": 700660,
@@ -45934,7 +47542,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700670,
@@ -45945,7 +47553,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700680,
@@ -45956,7 +47564,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700690,
@@ -45967,7 +47575,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1563
     },
     {
       "no": 700700,
@@ -45978,7 +47586,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1562
     },
     {
       "no": 700710,
@@ -45989,7 +47597,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
     },
     {
       "no": 700720,
@@ -46000,7 +47608,7 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1588
+      "drop_rate": 1562
     },
     {
       "no": 700730,
@@ -46011,7 +47619,18 @@
       "pay_item_no": 14,
       "pay_amount": 1500,
       "sell_limit": 1,
-      "drop_rate": 1587
+      "drop_rate": 1563
+    },
+    {
+      "no": 700740,
+      "shop_no": 70,
+      "order": 70,
+      "item_no": 10069,
+      "sell_cnt": 10,
+      "pay_item_no": 14,
+      "pay_amount": 1500,
+      "sell_limit": 1,
+      "drop_rate": 1562
     },
     {
       "no": 800010,
@@ -61132,6 +62751,297 @@
       "pay_amount": 750,
       "sell_limit": 1,
       "sale_rate": 80
+    },
+    {
+      "no": 1070010,
+      "shop_no": 1070,
+      "order": 1,
+      "item_no": 2358,
+      "always_pick": 1,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 8115,
+      "pay_amount": 1000,
+      "sell_limit": 1
+    },
+    {
+      "no": 1070020,
+      "shop_no": 1070,
+      "order": 2,
+      "item_no": 44802,
+      "always_pick": 1,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 8115,
+      "pay_amount": 500,
+      "sell_limit": 1
+    },
+    {
+      "no": 1070030,
+      "shop_no": 1070,
+      "order": 3,
+      "item_no": 44810,
+      "always_pick": 1,
+      "sell_cnt": 100,
+      "pay_item_no": 8115,
+      "pay_amount": 10,
+      "sell_limit": 10
+    },
+    {
+      "no": 1070040,
+      "shop_no": 1070,
+      "order": 4,
+      "item_no": 44806,
+      "always_pick": 1,
+      "have_limit": 2,
+      "sell_cnt": 1,
+      "pay_item_no": 8115,
+      "pay_amount": 50,
+      "sell_limit": 2
+    },
+    {
+      "no": 1070050,
+      "shop_no": 1070,
+      "order": 5,
+      "item_no": 44807,
+      "always_pick": 1,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 8115,
+      "pay_amount": 50,
+      "sell_limit": 3
+    },
+    {
+      "no": 1070060,
+      "shop_no": 1070,
+      "order": 6,
+      "item_no": 44809,
+      "always_pick": 1,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 8115,
+      "pay_amount": 50,
+      "sell_limit": 3
+    },
+    {
+      "no": 1070070,
+      "shop_no": 1070,
+      "order": 7,
+      "item_no": 3317,
+      "always_pick": 1,
+      "sell_cnt": 60,
+      "pay_item_no": 8115,
+      "pay_amount": 2000,
+      "sell_limit": 1
+    },
+    {
+      "no": 1070080,
+      "shop_no": 1070,
+      "order": 8,
+      "item_no": 64,
+      "always_pick": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 8115,
+      "pay_amount": 100,
+      "sell_limit": 15
+    },
+    {
+      "no": 1070090,
+      "shop_no": 1070,
+      "order": 9,
+      "item_no": 21,
+      "always_pick": 1,
+      "sell_cnt": 3,
+      "pay_item_no": 8115,
+      "pay_amount": 70,
+      "sell_limit": 20
+    },
+    {
+      "no": 1070100,
+      "shop_no": 1070,
+      "order": 10,
+      "item_no": 20,
+      "always_pick": 1,
+      "sell_cnt": 5,
+      "pay_item_no": 8115,
+      "pay_amount": 40,
+      "sell_limit": 20
+    },
+    {
+      "no": 1070110,
+      "shop_no": 1070,
+      "order": 11,
+      "item_no": 8116,
+      "always_pick": 1,
+      "sell_cnt": 2,
+      "pay_item_no": 8115,
+      "pay_amount": 3
+    },
+    {
+      "no": 1070120,
+      "shop_no": 1070,
+      "order": 12,
+      "item_no": 1,
+      "always_pick": 1,
+      "sell_cnt": 3000,
+      "pay_item_no": 8115,
+      "pay_amount": 1
+    },
+    {
+      "no": 1070130,
+      "shop_no": 1070,
+      "order": 13,
+      "item_no": 3,
+      "always_pick": 1,
+      "sell_cnt": 5000,
+      "pay_item_no": 8115,
+      "pay_amount": 1
+    },
+    {
+      "no": 1071010,
+      "shop_no": 1071,
+      "order": 1,
+      "item_no": 2357,
+      "always_pick": 1,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 8116,
+      "pay_amount": 1000,
+      "sell_limit": 1
+    },
+    {
+      "no": 1071020,
+      "shop_no": 1071,
+      "order": 2,
+      "item_no": 44803,
+      "always_pick": 1,
+      "have_limit": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 8116,
+      "pay_amount": 500,
+      "sell_limit": 1
+    },
+    {
+      "no": 1071030,
+      "shop_no": 1071,
+      "order": 3,
+      "item_no": 44812,
+      "always_pick": 1,
+      "have_limit": 2,
+      "sell_cnt": 1,
+      "pay_item_no": 8116,
+      "pay_amount": 100,
+      "sell_limit": 2
+    },
+    {
+      "no": 1071040,
+      "shop_no": 1071,
+      "order": 4,
+      "item_no": 44813,
+      "always_pick": 1,
+      "have_limit": 2,
+      "sell_cnt": 1,
+      "pay_item_no": 8116,
+      "pay_amount": 75,
+      "sell_limit": 2
+    },
+    {
+      "no": 1071050,
+      "shop_no": 1071,
+      "order": 5,
+      "item_no": 44808,
+      "always_pick": 1,
+      "have_limit": 4,
+      "sell_cnt": 1,
+      "pay_item_no": 8116,
+      "pay_amount": 50,
+      "sell_limit": 4
+    },
+    {
+      "no": 1071060,
+      "shop_no": 1071,
+      "order": 6,
+      "item_no": 44811,
+      "always_pick": 1,
+      "have_limit": 3,
+      "sell_cnt": 1,
+      "pay_item_no": 8116,
+      "pay_amount": 50,
+      "sell_limit": 3
+    },
+    {
+      "no": 1071070,
+      "shop_no": 1071,
+      "order": 7,
+      "item_no": 3305,
+      "always_pick": 1,
+      "sell_cnt": 60,
+      "pay_item_no": 8116,
+      "pay_amount": 2000,
+      "sell_limit": 1
+    },
+    {
+      "no": 1071080,
+      "shop_no": 1071,
+      "order": 8,
+      "item_no": 3011,
+      "always_pick": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 8116,
+      "pay_amount": 50,
+      "sell_limit": 30
+    },
+    {
+      "no": 1071090,
+      "shop_no": 1071,
+      "order": 9,
+      "item_no": 3006,
+      "always_pick": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 8116,
+      "pay_amount": 30,
+      "sell_limit": 50
+    },
+    {
+      "no": 1071100,
+      "shop_no": 1071,
+      "order": 10,
+      "item_no": 3001,
+      "always_pick": 1,
+      "sell_cnt": 1,
+      "pay_item_no": 8116,
+      "pay_amount": 10,
+      "sell_limit": 50
+    },
+    {
+      "no": 1071110,
+      "shop_no": 1071,
+      "order": 11,
+      "item_no": 8115,
+      "always_pick": 1,
+      "sell_cnt": 2,
+      "pay_item_no": 8116,
+      "pay_amount": 3
+    },
+    {
+      "no": 1071120,
+      "shop_no": 1071,
+      "order": 12,
+      "item_no": 1,
+      "always_pick": 1,
+      "sell_cnt": 3000,
+      "pay_item_no": 8116,
+      "pay_amount": 1
+    },
+    {
+      "no": 1071130,
+      "shop_no": 1071,
+      "order": 13,
+      "item_no": 3,
+      "always_pick": 1,
+      "sell_cnt": 5000,
+      "pay_item_no": 8116,
+      "pay_amount": 1
     },
     {
       "no": 2000010,

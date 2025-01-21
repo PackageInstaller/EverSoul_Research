@@ -2508,6 +2508,50 @@
       "controller_path": "MephistoDawn"
     },
     {
+      "no": 2355,
+      "type_sno": 710012,
+      "name_sno": 520555,
+      "hero_no": 4150,
+      "prefab_path": "Weiss_Costume02",
+      "timeline_path": "Weiss_Costume02",
+      "icon_path": "Weiss_Icon_Costume_02",
+      "portrait_path": "Weiss_Costume02",
+      "controller_path": "Weiss"
+    },
+    {
+      "no": 2356,
+      "type_sno": 710009,
+      "name_sno": 520556,
+      "hero_no": 6510,
+      "prefab_path": "CatherineBrave_Costume03",
+      "timeline_path": "CatherineBrave_Costume03",
+      "icon_path": "CatherineBrave_Icon_Costume_03",
+      "portrait_path": "CatherineBrave_Costume03",
+      "controller_path": "CatherineBrave"
+    },
+    {
+      "no": 2357,
+      "type_sno": 710009,
+      "name_sno": 520557,
+      "hero_no": 1050,
+      "prefab_path": "Jade_Costume02",
+      "timeline_path": "Jade_Costume02",
+      "icon_path": "Jade_Icon_Costume_02",
+      "portrait_path": "Jade_Costume02",
+      "controller_path": "Jade"
+    },
+    {
+      "no": 2358,
+      "type_sno": 710009,
+      "name_sno": 520558,
+      "hero_no": 3060,
+      "prefab_path": "Edith_Costume02",
+      "timeline_path": "Edith_Costume02",
+      "icon_path": "Edith_Icon_Costume_02",
+      "portrait_path": "Edith_Costume02",
+      "controller_path": "Edith"
+    },
+    {
       "no": 2700,
       "prefab_path": "Apprentice",
       "timeline_path": "Apprentice",
@@ -3345,6 +3389,30 @@
       "timeline_path": "RangerMechaBear",
       "icon_path": "",
       "portrait_path": "RangerMechaBear",
+      "controller_path": ""
+    },
+    {
+      "no": 2805,
+      "prefab_path": "GiantSunny",
+      "timeline_path": "GiantSunny",
+      "icon_path": "",
+      "portrait_path": "GiantSunny",
+      "controller_path": ""
+    },
+    {
+      "no": 2806,
+      "prefab_path": "Ricecakechap",
+      "timeline_path": "Ricecakechap",
+      "icon_path": "",
+      "portrait_path": "Ricecakechap",
+      "controller_path": ""
+    },
+    {
+      "no": 2807,
+      "prefab_path": "Ricecakelong",
+      "timeline_path": "Ricecakelong",
+      "icon_path": "",
+      "portrait_path": "Ricecakelong",
       "controller_path": ""
     },
     {

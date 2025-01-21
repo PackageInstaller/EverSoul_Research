@@ -1194,6 +1194,82 @@
       "basic_item2_no": 2354,
       "basic_item2_amount": 1,
       "shop_item_no": 9257
+    },
+    {
+      "no": 132,
+      "shop_no": 9280,
+      "hero_no": 4150,
+      "hero_grade": 110014,
+      "basic_item1_no": 3024,
+      "basic_item1_amount": 1,
+      "shop_item_no": 9281
+    },
+    {
+      "no": 133,
+      "shop_no": 9280,
+      "hero_no": 4150,
+      "hero_grade": 110015,
+      "basic_item1_no": 30,
+      "basic_item1_amount": 180,
+      "shop_item_no": 9282
+    },
+    {
+      "no": 134,
+      "shop_no": 9280,
+      "hero_no": 4150,
+      "hero_grade": 110017,
+      "basic_item1_no": 45,
+      "basic_item1_amount": 5,
+      "shop_item_no": 9283
+    },
+    {
+      "no": 135,
+      "shop_no": 9280,
+      "hero_no": 4150,
+      "hero_grade": 110019,
+      "basic_item1_no": 45,
+      "basic_item1_amount": 5,
+      "shop_item_no": 9284
+    },
+    {
+      "no": 136,
+      "shop_no": 9280,
+      "hero_no": 4150,
+      "hero_grade": 110020,
+      "basic_item1_no": 19,
+      "basic_item1_amount": 10,
+      "basic_item2_no": 6805,
+      "basic_item2_amount": 1,
+      "shop_item_no": 9285
+    },
+    {
+      "no": 137,
+      "shop_no": 9280,
+      "hero_no": 4150,
+      "hero_grade": 110021,
+      "basic_item1_no": 12008,
+      "basic_item1_amount": 30,
+      "shop_item_no": 9286
+    },
+    {
+      "no": 138,
+      "shop_no": 9280,
+      "hero_no": 4150,
+      "hero_grade": 110023,
+      "basic_item1_no": 10069,
+      "basic_item1_amount": 150,
+      "shop_item_no": 9287
+    },
+    {
+      "no": 139,
+      "shop_no": 9280,
+      "hero_no": 4150,
+      "hero_grade": 110025,
+      "basic_item1_no": 12008,
+      "basic_item1_amount": 70,
+      "basic_item2_no": 2355,
+      "basic_item2_amount": 1,
+      "shop_item_no": 9288
     }
   ]
 }

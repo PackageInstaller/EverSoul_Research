@@ -751,6 +751,20 @@
       "challenge_type": 8,
       "param1": 4,
       "content_string": 101026
+    },
+    {
+      "challenge_no": 1027,
+      "challenge_type": 6,
+      "param1": 110044,
+      "param2": 1,
+      "content_string": 101027
+    },
+    {
+      "challenge_no": 1028,
+      "challenge_type": 13,
+      "param1": 110109,
+      "param2": 1,
+      "content_string": 101028
     }
   ]
 }

@@ -640,6 +640,28 @@
       "event_shop_hero": 2140,
       "model_viewer_display": 2067,
       "model_offset": "[0, 0, 0]"
+    },
+    {
+      "no": 1070,
+      "event_type": 9,
+      "event_group": 16,
+      "event_number": 1,
+      "bg_path": "NewYear2/bg_NewYear2_shop",
+      "shop_name_sno": 21103,
+      "event_shop_hero": 3060,
+      "model_viewer_display": 2358,
+      "model_offset": "[0.05, 0, 0]"
+    },
+    {
+      "no": 1071,
+      "event_type": 9,
+      "event_group": 16,
+      "event_number": 1,
+      "bg_path": "NewYear2/bg_NewYear2_shop",
+      "shop_name_sno": 21104,
+      "event_shop_hero": 1050,
+      "model_viewer_display": 2357,
+      "model_offset": "[0, 0, 0]"
     }
   ]
 }

@@ -1,60 +1,6 @@
 {
   "json": [
     {
-      "no": 1,
-      "raid_no": 1,
-      "step": 8,
-      "step_value": 1
-    },
-    {
-      "no": 2,
-      "raid_no": 1,
-      "step": 8,
-      "step_value": 1
-    },
-    {
-      "no": 3,
-      "raid_no": 1,
-      "step": 8,
-      "step_value": 1
-    },
-    {
-      "no": 4,
-      "raid_no": 1,
-      "step": 8,
-      "step_value": 1
-    },
-    {
-      "no": 5,
-      "raid_no": 1,
-      "step": 8,
-      "step_value": 1
-    },
-    {
-      "no": 6,
-      "raid_no": 1,
-      "step": 8,
-      "step_value": 1
-    },
-    {
-      "no": 7,
-      "raid_no": 1,
-      "step": 8,
-      "step_value": 1
-    },
-    {
-      "no": 8,
-      "raid_no": 2,
-      "step": 8,
-      "step_value": 1
-    },
-    {
-      "no": 9,
-      "raid_no": 1,
-      "step": 8,
-      "step_value": 1
-    },
-    {
       "no": 10,
       "raid_no": 2,
       "step": 8,
@@ -73,10 +19,10 @@
       "step_value": 1
     },
     {
-      "no": 50009,
+      "no": 13,
       "raid_no": 1,
       "step": 8,
-      "step_value": 2
+      "step_value": 1
     },
     {
       "no": 50010,
@@ -97,16 +43,10 @@
       "step_value": 2
     },
     {
-      "no": 90100,
-      "raid_no": 2,
-      "step": 8,
-      "step_value": 3
-    },
-    {
-      "no": 90101,
+      "no": 50013,
       "raid_no": 1,
       "step": 8,
-      "step_value": 3
+      "step_value": 2
     },
     {
       "no": 90102,
@@ -115,20 +55,20 @@
       "step_value": 3
     },
     {
-      "no": 100007,
+      "no": 90103,
       "raid_no": 1,
       "step": 8,
-      "step_value": 4
-    },
-    {
-      "no": 100008,
-      "raid_no": 2,
-      "step": 8,
-      "step_value": 4
+      "step_value": 3
     },
     {
       "no": 100009,
       "raid_no": 1,
+      "step": 8,
+      "step_value": 4
+    },
+    {
+      "no": 100010,
+      "raid_no": 2,
       "step": 8,
       "step_value": 4
     }

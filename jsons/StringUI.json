@@ -390,7 +390,7 @@
       "en": "Open <color=\"#F8975F\">Mon, Fri, Sun</color>",
       "ja": "<color=\"#F8975F\">月・金・日曜日</color>開放",
       "zh_tw": "<color=\"#F8975F\">星期一、五、日</color>開放",
-      "zh_cn": "<color=\"#F8975F\">星期一、五、日</color>开放"
+      "zh_cn": "固定开放"
     },
     {
       "no": 50,
@@ -398,7 +398,7 @@
       "en": "Open <color=\"#FC816D\">Tue, Sat, Sun</color>",
       "ja": "<color=\"#FC816D\">火・土・日曜日</color>開放",
       "zh_tw": "<color=\"#FC816D\">星期二、六、日</color>開放",
-      "zh_cn": "<color=\"#FC816D\">星期二、六、日</color>开放"
+      "zh_cn": "固定开放"
     },
     {
       "no": 51,
@@ -406,7 +406,7 @@
       "en": "Open <color=\"#8DC63F\">Wed, Fri, Sun</color>",
       "ja": "<color=\"#8DC63F\">水・金・日曜日</color>開放",
       "zh_tw": "<color=\"#8DC63F\">星期三、五、日</color>開放",
-      "zh_cn": "<color=\"#8DC63F\">星期三、五、日</color>开放"
+      "zh_cn": "固定开放"
     },
     {
       "no": 52,
@@ -414,7 +414,7 @@
       "en": "Open <color=\"#7FA1E1\">Thu, Sat, Sun</color>",
       "ja": "<color=\"#7FA1E1\">木・土・日曜日</color>開放",
       "zh_tw": "<color=\"#7FA1E1\">星期四、六、日</color>開放",
-      "zh_cn": "<color=\"#7FA1E1\">星期四、六、日</color>开放"
+      "zh_cn": "固定开放"
     },
     {
       "no": 53,
@@ -7361,6 +7361,14 @@
       "zh_cn": ""
     },
     {
+      "no": 921,
+      "kr": "외전 이벤트",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 8611,
       "kr": "저주받은 마검",
       "en": "Cursed Sword",
@@ -9682,7 +9690,7 @@
     },
     {
       "no": 10629,
-      "kr": "화면을 터치하면 감상 모드를 종료합니다.",
+      "kr": "배경을 터치하면 감상 모드를 종료합니다.",
       "en": "Tap the screen to exit View mode.",
       "ja": "画面をタップすると、鑑賞モードを終了します。",
       "zh_tw": "點擊畫面即可結束鑑賞模式。",
@@ -10295,6 +10303,30 @@
       "ja": "精霊レジェンダリー",
       "zh_tw": "精靈傳說",
       "zh_cn": "固有能力传说"
+    },
+    {
+      "no": 10817,
+      "kr": "잠재 능력의 레벨 별 수치",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": "潜能的各等级数值"
+    },
+    {
+      "no": 10818,
+      "kr": "잠재 능력 확률",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": "潜能概率"
+    },
+    {
+      "no": 10819,
+      "kr": "잠재 능력의 고유성",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": "潜能特性"
     },
     {
       "no": 10901,
@@ -12095,6 +12127,78 @@
       "ja": "絆ストーリーを{0}を完成",
       "zh_tw": "完成好感故事Ep.{0}",
       "zh_cn": "完成好感故事阶段{0}"
+    },
+    {
+      "no": 11384,
+      "kr": "이벤트 {0}일차 완료",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 11385,
+      "kr": "이벤트 출석 {0}일 완료",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 11386,
+      "kr": "미니게임 {0}회 완료",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 11387,
+      "kr": "미니게임 누적 {0}점 달성",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 11388,
+      "kr": "무한챌린지 누적 {0}점 달성",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 11389,
+      "kr": "돌림판 티켓 {0}회 사용",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 11390,
+      "kr": "{0} 획득",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 11391,
+      "kr": "{0} 에픽+등급 달성",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 11392,
+      "kr": "{0} 레전더리 등급 달성",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
     },
     {
       "no": 11500,
@@ -15828,7 +15932,7 @@
       "no": 12411,
       "kr": "에버스쿨!\r\n~타도! 어둠의 학생회장~",
       "en": "Everschool!\r\r\n~Vanquish the Sinister Student President!~",
-      "ja": "エバースクール!\r\n～闇の生徒会～",
+      "ja": "エバースクール!\r\n～倒せ！闇の生徒会長～",
       "zh_tw": "永恆校園！\r\r\n～推翻！暗黑學生會長～",
       "zh_cn": "永恒校园！\r\r\n～推翻！暗黑学生会长～"
     },
@@ -17204,7 +17308,7 @@
       "no": 12589,
       "kr": "광역 역할 정령의 가하는 피해가 20% 증가한다.",
       "en": "AoE Soul's Damage Dealt increases by 20%.",
-      "ja": "",
+      "ja": "広域役割の精霊の与えるダメージが20%増加する。",
       "zh_tw": "廣域定位精靈的造成傷害增加20%",
       "zh_cn": ""
     },
@@ -17212,7 +17316,7 @@
       "no": 12590,
       "kr": "칼라르의 지원을 받아 모든 아군의 받는 피해량이 10% 감소한다.",
       "en": "Support from Chalar decreases all allies' total damage received by 10%.",
-      "ja": "",
+      "ja": "カラールのサポートの影響で味方全員の受けるダメージ量が10%減少する。",
       "zh_tw": "受到卡拉爾的支援，所有友軍所受傷害量減少10%",
       "zh_cn": ""
     },
@@ -17756,7 +17860,7 @@
       "no": 12668,
       "kr": "좋다, 지옥의 힘을 빌려주마.",
       "en": "Fine, I'll lend you the power of inferno.",
-      "ja": "",
+      "ja": "いいだろう。地獄の力を貸してやる。",
       "zh_tw": "好，就借你地獄的力量。",
       "zh_cn": ""
     },
@@ -18300,7 +18404,7 @@
       "no": 12768,
       "kr": "크흠, 짐은 여기까지니라.",
       "en": "Ahem, this is it for me.",
-      "ja": "",
+      "ja": "コホン…余はここまでじゃ。",
       "zh_tw": "咳呃，朕就到此為止了。",
       "zh_cn": ""
     },
@@ -20465,6 +20569,30 @@
       "zh_cn": ""
     },
     {
+      "no": 19214,
+      "kr": "{0}시즌 특별 제약",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 19215,
+      "kr": "특별 제약 작전",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 19216,
+      "kr": "무한 작전에서 모든 제약을 적용하고 클리어 시 입장 가능합니다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 20101,
       "kr": "에버스톤이 부족합니다.",
       "en": "You don't have enough Everstones.",
@@ -21148,7 +21276,7 @@
       "no": 21085,
       "kr": "2주년 기념 픽업 무료 소환",
       "en": "2-Year Anniversary Pick-Up Free Summons",
-      "ja": "",
+      "ja": "2周年記念ピックアップ無料召喚",
       "zh_tw": "2週年紀念Pick Up免費召喚",
       "zh_cn": ""
     },
@@ -21156,7 +21284,7 @@
       "no": 21086,
       "kr": "이벤트 기간동안 매일 1회 지정된 정령의 무료 픽업 소환을 진행할 수 있습니다.",
       "en": "You get a free Pick-Up Summon of a featured Soul daily during the event period.",
-      "ja": "",
+      "ja": "イベント期間中に毎日1回、指定精霊の無料ピックアップ召喚を利用できます。",
       "zh_tw": "活動期間，每天可進行1次指定精靈的免費Pick Up召喚。",
       "zh_cn": ""
     },
@@ -21195,8 +21323,8 @@
     {
       "no": 21091,
       "kr": "만사형통?! 가온신년제",
-      "en": "Gaon New Year's Festival Event",
-      "ja": "",
+      "en": "Gaon New Year's Festival",
+      "ja": "万事順調!?ガオン新年祭",
       "zh_tw": "萬事如意？！加溫新年祭",
       "zh_cn": ""
     },
@@ -21210,25 +21338,25 @@
     },
     {
       "no": 21093,
-      "kr": "미션! 떡공장장을 물리쳐라!",
+      "kr": "신년맞이\r\n떡공장털이",
       "en": "",
-      "ja": "",
+      "ja": "ミッション！モチ工場長を倒せ！",
       "zh_tw": "",
       "zh_cn": ""
     },
     {
       "no": 21094,
-      "kr": "축제 방해꾼 쫓아내기",
-      "en": "",
-      "ja": "",
-      "zh_tw": "",
+      "kr": "축제 방해꾼\r\n쫓아내기",
+      "en": "Repel Festival Disruptors",
+      "ja": "お祭りの邪魔者を追い出そう",
+      "zh_tw": "驅趕慶典搗蛋鬼",
       "zh_cn": ""
     },
     {
       "no": 21095,
       "kr": "가온 주막",
       "en": "",
-      "ja": "",
+      "ja": "ガオンの酒場",
       "zh_tw": "",
       "zh_cn": ""
     },
@@ -21236,7 +21364,7 @@
       "no": 21096,
       "kr": "불꽃놀이장",
       "en": "",
-      "ja": "",
+      "ja": "花火大会場",
       "zh_tw": "",
       "zh_cn": ""
     },
@@ -21244,7 +21372,7 @@
       "no": 21097,
       "kr": "떡공장 공판장",
       "en": "",
-      "ja": "",
+      "ja": "モチ工場共同店",
       "zh_tw": "",
       "zh_cn": ""
     },
@@ -21252,31 +21380,31 @@
       "no": 21098,
       "kr": "축제 물품 교환 상점",
       "en": "",
-      "ja": "",
+      "ja": "お祭りアイテム交換ショップ",
       "zh_tw": "",
       "zh_cn": ""
     },
     {
       "no": 21099,
       "kr": "만사형통 패스",
-      "en": "",
-      "ja": "",
-      "zh_tw": "",
+      "en": "New Year's Festival Pass",
+      "ja": "万事順調パス",
+      "zh_tw": "萬事如意通行證",
       "zh_cn": ""
     },
     {
       "no": 21100,
       "kr": "만사형통 가온신년제 입장 체크",
-      "en": "",
-      "ja": "",
-      "zh_tw": "",
+      "en": "Gaon New Year's Festival Entry Check",
+      "ja": "万事順調ガオン新年祭入場チェック",
+      "zh_tw": "萬事如意加溫新年祭入場簽到",
       "zh_cn": ""
     },
     {
       "no": 21101,
       "kr": "가온에서 열리는 신년 축제 참가자를 위한 특별한 선물입니다!",
       "en": "",
-      "ja": "",
+      "ja": "ガオンで開催される新年祭の参加者のための特別なプレゼントです！",
       "zh_tw": "",
       "zh_cn": ""
     },
@@ -21284,7 +21412,7 @@
       "no": 21102,
       "kr": "떡공장 공판장에서 떡주머니를 사용할 때마다\r\n시즌 패스 포인트를 획득합니다.",
       "en": "",
-      "ja": "",
+      "ja": "モチ工場共同店でモチ袋を使用するたびに\r\nシーズンパスポイントを獲得します。",
       "zh_tw": "",
       "zh_cn": ""
     },
@@ -21292,13 +21420,181 @@
       "no": 21103,
       "kr": "탁주 사발 상점",
       "en": "",
-      "ja": "",
+      "ja": "にごり酒ショップ",
       "zh_tw": "",
       "zh_cn": ""
     },
     {
       "no": 21104,
       "kr": "불꽃 노리개 상점",
+      "en": "",
+      "ja": "花火の飾りショップ",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21105,
+      "kr": "기록되지 않은 미래",
+      "en": "The Unwritten Future",
+      "ja": "",
+      "zh_tw": "未記錄的未來",
+      "zh_cn": ""
+    },
+    {
+      "no": 21106,
+      "kr": "축제 방해꾼 쫓아내기",
+      "en": "Repel Festival Disruptors",
+      "ja": "",
+      "zh_tw": "驅趕慶典搗蛋鬼",
+      "zh_cn": ""
+    },
+    {
+      "no": 21107,
+      "kr": "로제의 선물",
+      "en": "Rose's Gift",
+      "ja": "",
+      "zh_tw": "蘿絲的禮物",
+      "zh_cn": ""
+    },
+    {
+      "no": 21108,
+      "kr": "7일 미션",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21109,
+      "kr": "인피니티 챌린지",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21110,
+      "kr": "심연의 경계",
+      "en": "Boundaries of the Abyss",
+      "ja": "",
+      "zh_tw": "深淵的邊界",
+      "zh_cn": ""
+    },
+    {
+      "no": 21111,
+      "kr": "이벤트 룰렛",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21112,
+      "kr": "STORY",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21113,
+      "kr": "MISSION",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21114,
+      "kr": "CHALLENGE",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21115,
+      "kr": "MINIGAME",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21116,
+      "kr": "REWARD",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21117,
+      "kr": "연출 스킵",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21118,
+      "kr": "확률 정보",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21119,
+      "kr": "돌림판 횟수 보상",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21120,
+      "kr": "돌림판을 돌려 다양한 보상을 획득하세요!\r\n이벤트 보상과 미션에서 돌림판 티켓을 획득할 수 있어요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21121,
+      "kr": "1회 진행 시 상품 중 하나를 확률에 따라 획득합니다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21122,
+      "kr": "확률",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21123,
+      "kr": "획득 아이템",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21124,
+      "kr": "빈 곳을 터치하여 스킵",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21125,
+      "kr": "변신",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -22705,6 +23001,54 @@
       "zh_cn": "Way to the Dawn"
     },
     {
+      "no": 30176,
+      "kr": "Maestro Machina",
+      "en": "Maestro Machina",
+      "ja": "Maestro Machina",
+      "zh_tw": "Maestro Machina",
+      "zh_cn": "Maestro Machina"
+    },
+    {
+      "no": 30177,
+      "kr": "Strawberry BOMB!",
+      "en": "Strawberry BOMB!",
+      "ja": "Strawberry BOMB!",
+      "zh_tw": "Strawberry BOMB!",
+      "zh_cn": "Strawberry BOMB!"
+    },
+    {
+      "no": 30178,
+      "kr": "Lucky New Year",
+      "en": "Lucky New Year",
+      "ja": "Lucky New Year",
+      "zh_tw": "Lucky New Year",
+      "zh_cn": "Lucky New Year"
+    },
+    {
+      "no": 30179,
+      "kr": " ~sioLe Ver~",
+      "en": " ~sioLe Ver~",
+      "ja": " ~sioLe Ver~",
+      "zh_tw": " ~sioLe Ver~",
+      "zh_cn": " ~sioLe Ver~"
+    },
+    {
+      "no": 30180,
+      "kr": "~미나리 Ver~",
+      "en": "~미나리 Ver~",
+      "ja": "~미나리 Ver~",
+      "zh_tw": "~미나리 Ver~",
+      "zh_cn": "~미나리 Ver~"
+    },
+    {
+      "no": 30181,
+      "kr": "섭리의 수레바퀴",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 40000,
       "kr": "무한작전",
       "en": "Infinite Operation",
@@ -23385,6 +23729,14 @@
       "zh_cn": "法则异常期"
     },
     {
+      "no": 50003,
+      "kr": "인과 조작 시즌",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 61900,
       "kr": "쇼콜라 퀸의 시험",
       "en": "Chocolat Queen's Test",
@@ -23980,7 +24332,7 @@
       "no": 92024,
       "kr": "[픽업 소환] 다프네",
       "en": "[Pick-Up Summon] Daphne",
-      "ja": "[ピックアップ召喚] ダプネー",
+      "ja": "[ピックアップ召喚] ダフネ",
       "zh_tw": "［Pick Up召喚］達芙妮",
       "zh_cn": "［召唤概率提升召唤］达芙妮"
     },
@@ -24404,8 +24756,24 @@
       "no": 92077,
       "kr": "[픽업 소환] 바이스",
       "en": "[Pick-Up Summon] Weiss",
-      "ja": "",
+      "ja": "[ピックアップ召喚] ヴァイス",
       "zh_tw": "［Pick Up召喚］拜斯",
+      "zh_cn": ""
+    },
+    {
+      "no": 92078,
+      "kr": "[픽업 소환] 로제(홍염)",
+      "en": "[Pick-Up Summon] Rose(Prominence)",
+      "ja": "[ピックアップ召喚] ロゼ(紅炎)",
+      "zh_tw": "［Pick Up召喚］蘿絲(紅焰)",
+      "zh_cn": ""
+    },
+    {
+      "no": 92079,
+      "kr": "[픽업 소환] 홍란(무쌍)",
+      "en": "[Pick-Up Summon] Honglan(Peerless)",
+      "ja": "[ピックアップ召喚] ホンラン(無双)",
+      "zh_tw": "［Pick Up召喚］紅蘭(無雙)",
       "zh_cn": ""
     },
     {
@@ -24692,7 +25060,7 @@
       "no": 110644,
       "kr": "전쟁의 사도는 파괴적인 위력으로 적들을 말살시키려든다.\r\n\r\n레벨과 비례하여 원초적인 강력함에 맞서 힘을 억제할 수 있는 정령들로 구성하고 그녀의 습격에 대비해 진형을 흩어지지 않게 잘 갖추도록 하자\r\n\r\n<COLOR=#FFFFFF>또한 주기적으로 소환되는 사도의 창은 전쟁의 사도에게 강력한 힘을 부여하며, 강력한 피해를 예고하는 선고 효과에 취약한 모습을 보인다.</COLOR>\r\n\r\n\r\n…그녀의 종언을 받아들이고 수긍할 것인가? \r\n아니면 그녀의 진리를 부정할 것인가? ",
       "en": "The Apostle of War tries to exterminate all enemies with her destructive power.\r\n\r\nForm a team using Souls who can suppress her raw power that grows in proportion to her level, stay alert for attacks, and make sure you build a strong formation.\r\n\r\n<COLOR=#FFFFFF>The Spears of the Apostle will be periodically summoned and grant power to the Apostle of War. They are vulnerable to Sentence effects, which foretell massive damage.</COLOR>\r\n\r\n\r\nWill you accept the end?\r\nOr will you deny her \"truth\"?",
-      "ja": "",
+      "ja": "戦争の使徒は破壊的な威力で敵を抹殺しようとする。\r\n\r\nレベルに比例して強くなる敵に対抗するため、力を抑制できる精霊たちで陣形を構成し、彼女の襲撃に備えて陣形が崩されないようにしよう。\r\n\r\n<COLOR=#FFFFFF>また、周期的に召喚される使徒の槍は戦争の使徒に強い力を付与し、強力なダメージを予告する宣告効果に弱いようだ。</COLOR>\r\n\r\n\r\n…彼女の終焉を受け入れて納得するのか？\r\nあるいは、彼女の真理を否定するのか？ ",
       "zh_tw": "戰爭使者打算以毀滅性的威力殲滅敵人。\r\n\r\n對抗與等級成正比的原始強大，以能抑制力量的精靈編制隊伍，預防她進行突襲，不要讓陣型瓦解。\r\n\r\n<COLOR=#FFFFFF>另外，定期召喚的使者之矛會賦予戰爭使者強大的力量，並容易陷入預告強大傷害的宣告效果。</COLOR>\r\n\r\n\r\n…你要接受並認同她的終結嗎？\r\n還是要否定她的真理？",
       "zh_cn": "战争使者打算以毁灭性的威力歼灭敌人。\r\r\n\r\r\n对抗与等级成正比的原始强大，以能抑制力量的精灵编制队伍，预防她进行突袭，不要让阵型瓦解。\r\r\n\r\r\n另外，定期召唤的使者之矛会赋予战争使者强大的力量。\r\r\n\r\r\n……你要接受并认同她的终结吗？\r\r\n还是要否定她的真理？"
     },
@@ -24884,8 +25252,16 @@
       "no": 110668,
       "kr": "칼라르의 최신 기술로 무장한 메카이아의 지속 피해와 주기적으로 소환되는 메카 베어의 포화 속에서 버틸 수 있도록 높은 지속력을 지닌 서포트 정령을 적극 사용하며 전투를 진행해야 한다!\r\n그리고 넓은 영역에 높은 피해를 줄 수 있는 정령과 단일 피해를 강하게 주는 정령을 섞어서 모든 메카 베어가 쓰러진 틈을 노려 메카이아를 공략하는 게 핵심 포인트!",
       "en": "To survive the damage over time from Mecha Gaia, enhanced by Chalar's cutting-edge technology, and the constant onslaught of periodically summoned Mech Bears, take advantage of the highly sustainable Supporters during the fight!\r\nThe key is to mix AoE damage dealers and massive single-target damage dealers to capitalize on the window of opportunity when all Mech Bears are defeated and focus your assault on Mecha Gaia!",
-      "ja": "",
+      "ja": "カラールの最新技術で武装したメカイアの持続ダメージと周期的に召喚されるメカベアの砲火に耐えるために、高い持続力を持つサポート精霊を積極的に使って戦闘を行う必要がある！\r\nそして広いエリアに高いダメージを与えられる精霊と、強い単一ダメージを与える精霊を組んで、すべてのメカベアが倒れた隙を狙ってメカイアを攻撃するのが攻略の鍵となる！",
       "zh_tw": "要在搭載卡拉爾最新技術的機械蓋亞造成的持續傷害，以及定期被召喚的機械熊砲火中撐下去，就要積極使用持久力高的輔助精靈來戰鬥！\r\n還要混搭能在廣域造成高傷害的精靈和造成強烈單一傷害的精靈，趁所有機械熊倒下的空檔，攻略機械蓋亞是獲勝關鍵！",
+      "zh_cn": ""
+    },
+    {
+      "no": 110669,
+      "kr": "떡공장장 순이를 물리치고 떡을 획득하자!\r\n떡공장장 순이는 공장을 지키기 위해 강력한 찹쌀떡과 가래떡을 소환한다. 끊임없는 회복으로 쉴틈없이 이어지는 광역 공격을 받아내자!\r\n특히, 떡공장장 순이의 물리/마법 저항을 증가시키는 가래떡을 빠르게 처치하면 떡공장 털이가 한결 쉬워질 것이다!",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -32532,7 +32908,7 @@
       "no": 520307,
       "kr": "다음 보상까지 최대 피해량 <color=\"#CFC949\">{0}</color> 남음",
       "en": "Deal <color=\"#CFC949\">{0}</color> more Max Damage for the next reward",
-      "ja": "",
+      "ja": "次の報酬まで残りの最大ダメージ量<color=\"#CFC949\">{0}</color>",
       "zh_tw": "到下個獎勵的最大傷害量還剩<color=\"#CFC949\">{0}</color>",
       "zh_cn": ""
     },
@@ -32540,7 +32916,7 @@
       "no": 520308,
       "kr": "다음 보상까지 <color=\"#CFC949\">{0}</color> 남았습니다!",
       "en": "Just <color=\"#CFC949\">{0}</color> away from the next reward!",
-      "ja": "",
+      "ja": "次の報酬まで残り<color=\"#CFC949\">{0}</color>です！",
       "zh_tw": "到下個獎勵還剩<color=\"#CFC949\">{0}</color>！",
       "zh_cn": ""
     },
@@ -33033,6 +33409,14 @@
       "zh_cn": "若已经和觉醒精灵缔约，\r\r\n可让觉醒精灵更加强大！"
     },
     {
+      "no": 531020,
+      "kr": "영지 Lv.20을 달성 해 봐!\r\n더 좋은 물건을 보여줄게!",
+      "en": "Reach Town Lv. 20!\r\nI'll show you something better!",
+      "ja": "領地Lv.20を達成してみて。\r\nもっといい品を\r\n見せてあげるから！",
+      "zh_tw": "挑戰達成領地Lv.20吧！\r\n我會給你看更棒的物品！",
+      "zh_cn": "挑战达成领地等级20吧！\r\n我会给你看更棒的物品！"
+    },
+    {
       "no": 531031,
       "kr": "다른 품목을 보고 싶으시면,\r\n갱신 버튼을 눌러보세요!\r\n대신 비용은 매번 증가하니까, 신중하셔야겠죠?",
       "en": "If you want to see other stuff,\r\ntap the refresh button!\r\nPrices will rise each time though, so be careful!",
@@ -33185,6 +33569,14 @@
       "zh_cn": "已经和觉醒精灵缔约了吗？\r\r\n还没的话，这里无法提供帮助。"
     },
     {
+      "no": 531050,
+      "kr": "영지 20레벨을 달성해주세요.\r\n더 좋은 물건을 보여드릴게요!",
+      "en": "Reach Town Lv. 20.\r\nI'm gonna show you some better ones!",
+      "ja": "領地Lv20を達成すれば\r\nもっといい品をお見せします！",
+      "zh_tw": "請達成領地等級20。\r\n我會給你看更棒的物品！",
+      "zh_cn": "请达成领地等级20。\r\n我会给你看更棒的物品！"
+    },
+    {
       "no": 531061,
       "kr": "다른 품목을 보고 싶으시면\r\n갱신 버튼을 누르세요.\r\n단, 매번 비용이 증가한답니다.",
       "en": "If you want to see other stuff,\r\ntap the refresh button.\r\nPrices will increase each time, though.",
@@ -33335,6 +33727,14 @@
       "ja": "覚醒精霊とすでに契約済みでしたら、\r\n私たちが強化をサポートいたします。",
       "zh_tw": "若已經和覺醒精靈締約，\r\r\n我們可以幫忙強化。",
       "zh_cn": "若已经和觉醒精灵缔约，\r\r\n我们可以帮忙强化。"
+    },
+    {
+      "no": 531080,
+      "kr": "영지 20레벨을 달성해 보세요!\r\n더 좋은 물건을 보여드릴게요~",
+      "en": "Reach Town Lv. 20!\r\nI'll show you higher quality items.",
+      "ja": "領地Lv20を\r\n達成してみてください。\r\nもっといい品を\r\nお見せしますよ。",
+      "zh_tw": "請挑戰達成領地等級20！\r\n我會給你看更棒的物品～",
+      "zh_cn": "请挑战达成领地等级20！\r\n我会给你看更棒的物品～"
     },
     {
       "no": 532001,
@@ -35804,7 +36204,7 @@
       "no": 532309,
       "kr": "구원자!! 좋은 물건들을 모아놨으니까\r\n구경하고 가라고~~!!!",
       "en": "Savior! I got loads of goodies here,\r\nso be sure to take a look!!!",
-      "ja": "",
+      "ja": "救世主！いいものばかり集めたぞ。\r\n見ていけよ～！",
       "zh_tw": "救援者！！我收集了一些好東西，\r\n來逛逛吧～～！！！",
       "zh_cn": ""
     },
@@ -35812,7 +36212,7 @@
       "no": 532310,
       "kr": "구원자!!! 어서 와!!!\r\n크히힛, 해피메리봄버 이브의 날!!!",
       "en": "Savior!!! Come on in!!!\r\nHeheheh, Happy Merry Bomber Eve's Day!!!",
-      "ja": "",
+      "ja": "救世主!!いらっしゃい!!\r\nくひひっ。ハッピーメリーボンバーイブの日!!",
       "zh_tw": "救援者！！！歡迎你！！！\r\n嘻嘻嘻，夏娃之日轟炸快樂！！！",
       "zh_cn": ""
     },
@@ -35820,7 +36220,7 @@
       "no": 532311,
       "kr": "내 홀리 봄버 킹 오너먼트 봄버 트리 봤지?!\r\n크히힛, 생각할수록\r\n엄청난 걸작이라니까!!",
       "en": "Did you see my Holy Bomber King Ornament Bomber Tree?!\r\nHeheheh, I just can't get over\r\nits awesomeness!!",
-      "ja": "",
+      "ja": "あたしのホリーボンバーキングオーナメントツリー見た!?\r\nくひひっ、やっぱり\r\nとんでもない傑作だよ！",
       "zh_tw": "有看到我的神聖轟炸王擺飾轟炸樹吧？！\r\n嘻嘻嘻，越想越覺得\r\n這是偉大的傑作！！",
       "zh_cn": ""
     },
@@ -35828,7 +36228,7 @@
       "no": 532312,
       "kr": "으갸악!! 바이스 녀석이\r\n실험 안전 수칙서를\r\n100번이나 필사하래…!!\r\n이걸 언제 다 해?!?!",
       "en": "Ugh!! That blasted Weiss\r\nwants me to manually copy\r\nthe safety guidelines for experiments\r\na hundred times! I don't got time for this!",
-      "ja": "",
+      "ja": "うぎゃぁ！ヴァイスの奴、\r\n実験安全注意事項を\r\n100回書き写せって…！\r\nもう勘弁しろよ！",
       "zh_tw": "呃啊啊！！拜斯那傢伙\r\n要我抄100遍\r\n實驗安全守則…！！\r\n這什麼時候才寫得完？！？！",
       "zh_cn": ""
     },
@@ -35836,7 +36236,7 @@
       "no": 532313,
       "kr": "흐헉, 그거 나도 마음에 든 건데!!!\r\n구원자, 나도 구경시켜 줘!!!",
       "en": "Oooh, I've been eyeing that one, too!!!\r\nSavior, let me have a closer look!!!",
-      "ja": "",
+      "ja": "はっ、それあたしも気に入ってた!!\r\n救世主、あたしにも見せて！",
       "zh_tw": "嗬，我也喜歡那個！！！\r\n救援者，也讓我看看！！！",
       "zh_cn": ""
     },
@@ -35844,7 +36244,7 @@
       "no": 532314,
       "kr": "이거 고른 거지?! 이거? 이거?!\r\n자!! 구원자한테 줄게!!",
       "en": "You want this?! This? This one?!\r\nHere you go! It's yours now, Savior!",
-      "ja": "",
+      "ja": "これを選んだよな!?これ？これか!?\r\nさあ！救世主にあげる！",
       "zh_tw": "你要選這個齁？！這個？這個？！\r\n來！！給救援者！！",
       "zh_cn": ""
     },
@@ -35852,7 +36252,7 @@
       "no": 532315,
       "kr": "어서 와. 구원자.\r\n여러 물건이 있으니\r\n느긋하게 둘러보고 가.",
       "en": "Welcome, Savior.\r\nWe have many wares here.\r\nTake your time looking around.",
-      "ja": "",
+      "ja": "いらっしゃい、救世主。\r\n色んなものがそろっているんだ。\r\nゆっくりと見ていって。",
       "zh_tw": "歡迎，救援者。\r\n這裡有各種物品，\r\n你慢慢逛。",
       "zh_cn": ""
     },
@@ -35860,7 +36260,7 @@
       "no": 532316,
       "kr": "여어, 구원자.\r\n오늘도 네게 행운이 따르는\r\n좋은 하루가 되길.",
       "en": "Hey, Savior.\r\nMay fortune smile on you\r\nthis fine day.",
-      "ja": "",
+      "ja": "やあ、救世主。\r\n今日も君に幸運が訪れる\r\nいい一日になりますように。",
       "zh_tw": "唷，救援者。\r\n希望你今天也度過\r\n好運相隨的一天。",
       "zh_cn": ""
     },
@@ -35868,7 +36268,7 @@
       "no": 532317,
       "kr": "바이스 님은 항상\r\n재미있는 발상을 하시지.\r\n그분이 만드는 기계를 보면\r\n정말 즐겁다니까.",
       "en": "Weiss always comes up with\r\ninteresting ideas.\r\nWatching her inventions at work\r\nis such a delight.",
-      "ja": "",
+      "ja": "ヴァイス様はいつも\r\n面白い発想をする。\r\nヴァイス様が作る機械を見ると\r\nとても楽しいんだ。",
       "zh_tw": "拜斯總是會有\r\n有趣的創意發想。\r\n看她製作的機械\r\n真的很享受。",
       "zh_cn": ""
     },
@@ -35876,7 +36276,7 @@
       "no": 532318,
       "kr": "플린은 많은 가능성을\r\n가진 녀석 같아.\r\n하하, 다음에 우리 연구소로\r\n초대해 볼까 싶어.",
       "en": "Flynn seems to have\r\na lot of potential.\r\nMaybe I should invite her\r\nto our lab sometime.",
-      "ja": "",
+      "ja": "フランは可能性にあふれる\r\n奴だと思う。\r\nははっ、うちの研究所に\r\n招待してみようかな。",
       "zh_tw": "弗林好像是\r\n很有潛力的傢伙。\r\n哈哈，我在想下次要不要\r\n邀請她來我們的研究所。",
       "zh_cn": ""
     },
@@ -35884,7 +36284,7 @@
       "no": 532319,
       "kr": "그걸 골랐구나? 좋은 선택이군!\r\n네 다음 선택도 기대되는데?",
       "en": "That's your pick? Good choice!\r\nLooking forward to your next purchase!",
-      "ja": "",
+      "ja": "それを選んだのかい？いい選択だ！\r\n次の選択も楽しみだな。",
       "zh_tw": "原來你選了那個？是個好選擇！\r\n期待你下一個選擇耶！",
       "zh_cn": ""
     },
@@ -35892,7 +36292,7 @@
       "no": 532320,
       "kr": "교환 고마워. 구원자.\r\n이 물건이 네 다음 작전에\r\n도움이 되면 좋겠군!",
       "en": "Thanks for the business, Savior.\r\nHope this will serve you well\r\nat your next operation!",
-      "ja": "",
+      "ja": "交換ありがとう、救世主。\r\nこれが君の次の作戦に\r\n役立つといいな。",
       "zh_tw": "謝謝你來兌換，救援者。\r\n希望這個東西\r\n對你下次作戰有所幫助！",
       "zh_cn": ""
     },
@@ -35900,7 +36300,7 @@
       "no": 532321,
       "kr": "인간! 안 사면 못 나가는\r\n특별 상점에 온 걸 환영한다!",
       "en": "Welcome, human! You can't leave this\r\nspecial shop without buying something!",
-      "ja": "",
+      "ja": "人間！買わないと出られない\r\n特別ショップへようこそ！",
       "zh_tw": "人類！歡迎來到\r\n不買就出不去的特別商店！",
       "zh_cn": ""
     },
@@ -35908,7 +36308,7 @@
       "no": 532322,
       "kr": "삐뽀! 인간의 소리가 가까워졌다!\r\n어서 와라, 인간!",
       "en": "Bleep-bloop! I hear human footsteps!\r\nCome on in, human!",
-      "ja": "",
+      "ja": "ピポー人間の声が近い！\r\nいらっしゃい、人間！",
       "zh_tw": "嗶啵！人類的聲音變接近了！\r\n歡迎你，人類！",
       "zh_cn": ""
     },
@@ -35916,7 +36316,7 @@
       "no": 532323,
       "kr": "오닉스 사장님 등장!\r\n위대한 임무를 수행 중이시다!",
       "en": "Boss Onyx is here!\r\nI'm on a grand mission!",
-      "ja": "",
+      "ja": "オニキス社長、登場！\r\n偉大な任務を遂行している！",
       "zh_tw": "歐妮絲老闆登場！\r\n正在執行偉大的任務！",
       "zh_cn": ""
     },
@@ -35924,7 +36324,7 @@
       "no": 532324,
       "kr": "삐이이…\r\n이걸 다 팔아야 직원들 선물을 사 주는데…",
       "en": "Bleep...\r\nGotta sell all this to afford gifts for my employees...",
-      "ja": "",
+      "ja": "ピィィ…\r\nこれを全部売らないとスタッフへのプレゼントが…",
       "zh_tw": "嗶咿咿…\r\n要把這些都賣掉才能買員工的禮物…",
       "zh_cn": ""
     },
@@ -35932,7 +36332,7 @@
       "no": 532325,
       "kr": "왔노라, 보았노라, 구매했노라!",
       "en": "You came, you saw, you bought!",
-      "ja": "",
+      "ja": "来た、見た、買った！",
       "zh_tw": "我來了，我看到了，我買了！",
       "zh_cn": ""
     },
@@ -35940,7 +36340,7 @@
       "no": 532326,
       "kr": "\t이렇게 삐빗하게 계산하다니!\r\n역시 인간은 삐리삐리뽀해!",
       "en": "\tBleep-tastic shopping spree!\r\nYou sure are bleepity bloopsome, human!",
-      "ja": "",
+      "ja": "\tここまでピビットお会計か！\r\nさすが人間はピリピリポー！",
       "zh_tw": "\t竟然這麼嗶嗶就結帳了！\r\n人類果然很嗶哩嗶哩啵！",
       "zh_cn": ""
     },
@@ -35948,7 +36348,7 @@
       "no": 532327,
       "kr": "왔나요, 구원자.\r\n잠시 여기서 몸을 녹이다 가시죠.",
       "en": "Hi, there, Savior.\r\nTake a moment to warm up before heading out.",
-      "ja": "",
+      "ja": "いらっしゃい、救世主。\r\n少し体を温めて行ってください。",
       "zh_tw": "救援者，你來了？\r\n在這裡暖暖身子吧。",
       "zh_cn": ""
     },
@@ -35956,7 +36356,7 @@
       "no": 532328,
       "kr": "어서 오시죠. 구원자.\r\n당신을 기다리고 있었습니다.",
       "en": "Welcome, Savior.\r\nI've been waiting for you.",
-      "ja": "",
+      "ja": "ようこそ、救世主。\r\nあなたを待っておりました。",
       "zh_tw": "歡迎，救援者，\r\n我在等你。",
       "zh_cn": ""
     },
@@ -35964,7 +36364,7 @@
       "no": 532329,
       "kr": "가끔은 타국을 구경하는 것도 나쁘진 않군요.\r\n여러 기술의 발전을 지켜보는 것도 즐겁고요.",
       "en": "It's nice to explore other places every now and then.\r\nWitnessing their technological progress is an added bonus, too.",
-      "ja": "",
+      "ja": "たまには他国を見物するのも悪くありませんね。\r\n様々な技術の進歩を見るのも楽しいですし。",
       "zh_tw": "偶爾參觀其他國家也不錯，\r\n看著各種技術的發展也很開心。",
       "zh_cn": ""
     },
@@ -35972,7 +36372,7 @@
       "no": 532330,
       "kr": "폭탄에 입은 부상이라면 완벽히 치료했습니다.\r\n작은 통증조차 남지 않았으니 걱정 마세요.",
       "en": "My injury from the bomb has been fully treated.\r\nI don't even feel a trace of pain, so don't worry.",
-      "ja": "",
+      "ja": "爆弾で負傷した傷なら完全に治療しました。\r\n少しの痛みもないのでご心配なく。",
       "zh_tw": "如果是被炸彈炸傷的傷口，已經完全治癒了。\r\n連微弱的疼痛都沒有留下，別擔心。",
       "zh_cn": ""
     },
@@ -35980,7 +36380,7 @@
       "no": 532331,
       "kr": "당신의 공로에 감사를.\r\n당신에게 필요한 물건이었기를 바라죠.",
       "en": "Thank you for everything you do.\r\nHope this is exactly what you needed.",
-      "ja": "",
+      "ja": "あなたの功績に感謝を。\r\nあなたに必要なものであることを願っています。",
       "zh_tw": "感謝你的功勞，\r\n希望這是你需要的東西。",
       "zh_cn": ""
     },
@@ -35988,7 +36388,7 @@
       "no": 532332,
       "kr": "당신에게 드리는 선물입니다.\r\n부디 받아주시길.",
       "en": "This is a gift for you.\r\nPlease take it.",
-      "ja": "",
+      "ja": "あなたへのプレゼントです。\r\nどうか受け取ってください。",
       "zh_tw": "這是送你的禮物，\r\n希望你能收下。",
       "zh_cn": ""
     },
@@ -36038,6 +36438,150 @@
       "en": "Thank you for your business, Savior!\r\nHere's to another year, and many more together!",
       "ja": "お買い上げありがとうございます、救世主さま！ \r\n今年も、来年も、それ以降も末永くよろしくお願いします！",
       "zh_tw": "感謝購買，救援者！\r\n今年、明年，還有那之後都要繼續麻煩你了！",
+      "zh_cn": ""
+    },
+    {
+      "no": 532339,
+      "kr": "어서 오세요.\r\n떡주머니는 많이 모으셨나요?",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 532340,
+      "kr": "열심히 이벤트에 참가한 여러분을 위해\r\n좋은 물건을 준비했답니다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 532341,
+      "kr": "순이 님께는 죄송하지만…\r\n꽤 유쾌한 이벤트였다고 생각해요. 후후.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 532342,
+      "kr": "새해에는 저도 다른 분들처럼\r\n제 욕망에 솔직해져 보려 한답니다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 532343,
+      "kr": "모아오신 떡주머니는 순이 공장장님께\r\n무사히 돌려 드릴게요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 532344,
+      "kr": "고생 많으셨어요, 구원자님.\r\n이건 제 몫의 떡인데… 하나 맛보시겠어요?",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 532345,
+      "kr": "구원자님, 기다리고 있었사와요.\r\n전부 최상급 물건이랍니다!",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 532346,
+      "kr": "교환 상점에 어서 오세요~\r\n…저, 저도 한 번쯤 말해보고 싶었사와요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 532347,
+      "kr": "저희 가족들이 실례가 많았사와요…\r\n정말, 둘 다 무슨 생각인지…",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 532348,
+      "kr": "저, 공장 털이는 처음 해보았사와요!\r\n너~무너무 재밌었사와요!!",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 532349,
+      "kr": "교환해 주셔서 감사드리어요!\r\n마음에 드셨으면 좋겠사와요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 532350,
+      "kr": "숫자 딱 맞춰 교환 완료했사와요.\r\n확인해 보시지요!",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 532351,
+      "kr": "축제 물품 교환 상점에 어서 오세요.\r\n느긋하게 둘러보시죠.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 532352,
+      "kr": "제이드 상점 출장판이냐고요?\r\n후훗, 비슷하네요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 532353,
+      "kr": "가온 지역의 전통복은 처음 입어보는데\r\n어떤가요? 잘 어울리나요?",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 532354,
+      "kr": "행사의 홍보 대사가 된 건 처음이었는데\r\n의외로 아주 즐거운 경험이었네요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 532355,
+      "kr": "제이드 상단에서 협찬한 물건들이니\r\n분명 마음에 드실 거예요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 532356,
+      "kr": "훌륭한 축제가 성사되었네요.\r\n전부 구원자님 덕분이에요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -39561,6 +40105,14 @@
       "zh_cn": ""
     },
     {
+      "no": 552510,
+      "kr": "캐서린(광휘) 배치 시 <color=\"#2d9b00\">캐서린(광휘)의 공격력 {0}%</color> 증가",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 553000,
       "kr": "배치 중",
       "en": "Deployed",
@@ -42342,7 +42894,7 @@
       "en": "<color=\"#CFC949\">{0}</color> more summon(s) until Epic guaranteed.",
       "ja": "これから<color=\"#CFC949\">{0}</color>回召喚時、エピックランク確定！",
       "zh_tw": "接下來召喚<color=\"#CFC949\">{0}</color>次時，可保底為史詩級",
-      "zh_cn": "接下来召唤<color=\"#CFC949\">{0}</color>次时，可保底为史诗级"
+      "zh_cn": "接下来召唤<color=\"#CFC949\">{0}</color>次内，必得史诗级"
     },
     {
       "no": 560121,
@@ -42991,6 +43543,70 @@
       "ja": "次の遺物は、現在遺物に到達しているか、所持している遺物の記憶でオリジン昇級ができます。\r\n召喚を続けますか？",
       "zh_tw": "下列遺物目前已達不朽，或能以持有遺物的記憶升階成不朽。\r\n確定要繼續召喚嗎？",
       "zh_cn": ""
+    },
+    {
+      "no": 560202,
+      "kr": "금일 남은 소환 횟수 :",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": "今日剩余可抽取次数："
+    },
+    {
+      "no": 560203,
+      "kr": "우정 소환 시 사용되는 하트는 영지와 친구 컨텐츠를 통해 무료 획득 가능",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": "友情召唤所需爱心点数可通过家园玩法和好友玩法免费获得"
+    },
+    {
+      "no": 560204,
+      "kr": "타입 소환 확정 횟수는 다른 타입 소환과 공유합니다",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": "不同类型之间共享类型召唤必出次数。"
+    },
+    {
+      "no": 560205,
+      "kr": "확정 시 위시리스트 3종 중 1종을 획득합니다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": "满足必出条件时可获得愿望清单3种神器中的1种。"
+    },
+    {
+      "no": 560206,
+      "kr": "위시리스트에 등록된 유물 획득 시 확정 횟수가 초기화됩니다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": "获得愿望清单中的神器时会重置必出次数。"
+    },
+    {
+      "no": 560207,
+      "kr": "위시리스트 확정",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": "愿望清单必出"
+    },
+    {
+      "no": 560208,
+      "kr": "앞으로 <color=\"#CFC949\">{0}</color> 회 소환 시 선택 유물 확정!",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": "接下来召唤 <color=\"#CFC949\">{0}</color> 次时必出所选神器!"
+    },
+    {
+      "no": 560209,
+      "kr": "확률 공시",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": "概率公式"
     },
     {
       "no": 561100,
@@ -44772,7 +45388,7 @@
       "no": 581051,
       "kr": "다프네",
       "en": "Daphne",
-      "ja": "ダプネー",
+      "ja": "ダフネ",
       "zh_tw": "達芙妮",
       "zh_cn": "达芙妮"
     },
@@ -45124,8 +45740,16 @@
       "no": 581095,
       "kr": "메피스토펠레스(여명)",
       "en": "Mephistopheles (Dawn)",
-      "ja": "",
+      "ja": "メフィストフェレス(暁)",
       "zh_tw": "梅菲斯托佩萊斯（黎明）",
+      "zh_cn": ""
+    },
+    {
+      "no": 581096,
+      "kr": "바이스",
+      "en": "Weiss",
+      "ja": "ヴァイス",
+      "zh_tw": "拜斯",
       "zh_cn": ""
     },
     {
@@ -50148,7 +50772,7 @@
       "no": 615655,
       "kr": "암즈 코퍼레이션",
       "en": "Arms Corporation",
-      "ja": "",
+      "ja": "アームズコーポレーション",
       "zh_tw": "安茲公司",
       "zh_cn": ""
     },
@@ -50156,7 +50780,7 @@
       "no": 615656,
       "kr": "칼라르",
       "en": "Chalar",
-      "ja": "",
+      "ja": "カラール",
       "zh_tw": "卡拉爾",
       "zh_cn": ""
     },
@@ -50164,7 +50788,7 @@
       "no": 615657,
       "kr": "취미",
       "en": "Hobbies",
-      "ja": "",
+      "ja": "趣味",
       "zh_tw": "興趣",
       "zh_cn": ""
     },
@@ -50172,7 +50796,7 @@
       "no": 615658,
       "kr": "간식",
       "en": "Snacks",
-      "ja": "",
+      "ja": "おやつ",
       "zh_tw": "零食",
       "zh_cn": ""
     },
@@ -50180,7 +50804,7 @@
       "no": 615659,
       "kr": "최근의 고민",
       "en": "Recent Worries",
-      "ja": "",
+      "ja": "最近の悩み",
       "zh_tw": "最近的煩惱",
       "zh_cn": ""
     },
@@ -50188,7 +50812,7 @@
       "no": 615660,
       "kr": "좋아하는 인재상",
       "en": "Ideal Recruits",
-      "ja": "",
+      "ja": "好きな人材像",
       "zh_tw": "喜歡的人才特徵",
       "zh_cn": ""
     },
@@ -50196,7 +50820,7 @@
       "no": 615661,
       "kr": "구원자",
       "en": "Savior",
-      "ja": "",
+      "ja": "救世主",
       "zh_tw": "救援者",
       "zh_cn": ""
     },
@@ -50204,7 +50828,7 @@
       "no": 615662,
       "kr": "옷",
       "en": "Clothes",
-      "ja": "",
+      "ja": "服",
       "zh_tw": "衣服",
       "zh_cn": ""
     },
@@ -50212,7 +50836,7 @@
       "no": 615663,
       "kr": "1호 방주",
       "en": "Ark Metatron",
-      "ja": "",
+      "ja": "1番目の方舟",
       "zh_tw": "一號方舟",
       "zh_cn": ""
     },
@@ -50220,7 +50844,7 @@
       "no": 615664,
       "kr": "오퍼레이터 식스",
       "en": "Operator Six",
-      "ja": "",
+      "ja": "オペレーターシックス",
       "zh_tw": "駕駛員六號",
       "zh_cn": ""
     },
@@ -50228,7 +50852,7 @@
       "no": 615665,
       "kr": "사명",
       "en": "Mission",
-      "ja": "",
+      "ja": "使命",
       "zh_tw": "使命",
       "zh_cn": ""
     },
@@ -50236,7 +50860,7 @@
       "no": 615666,
       "kr": "특이점",
       "en": "Singularity",
-      "ja": "",
+      "ja": "特異点",
       "zh_tw": "特異者",
       "zh_cn": ""
     },
@@ -50244,7 +50868,7 @@
       "no": 615667,
       "kr": "날개",
       "en": "Wings",
-      "ja": "",
+      "ja": "翼",
       "zh_tw": "翅膀",
       "zh_cn": ""
     },
@@ -50252,7 +50876,7 @@
       "no": 615668,
       "kr": "케이크",
       "en": "Cake",
-      "ja": "",
+      "ja": "ケーキ",
       "zh_tw": "蛋糕",
       "zh_cn": ""
     },
@@ -50260,7 +50884,7 @@
       "no": 615669,
       "kr": "신발",
       "en": "Shoes",
-      "ja": "",
+      "ja": "靴",
       "zh_tw": "鞋子",
       "zh_cn": ""
     },
@@ -50268,7 +50892,7 @@
       "no": 615670,
       "kr": "고양이",
       "en": "Cats",
-      "ja": "",
+      "ja": "ネコ",
       "zh_tw": "貓咪",
       "zh_cn": ""
     },
@@ -51047,6 +51671,22 @@
       "ja": "{0}の精霊ストーリー完了",
       "zh_tw": "完成{0}的精靈故事",
       "zh_cn": "完成{0}的精灵故事"
+    },
+    {
+      "no": 650044,
+      "kr": "외전 스토리",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 650045,
+      "kr": "외전 스토리는 추후 업데이트될 예정입니다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
     },
     {
       "no": 650100,
@@ -62300,7 +62940,7 @@
       "no": 996474,
       "kr": "이벤트 기간 동안 특별 스테이지 「성야의 폭주」가 오픈됩니다.\r\n폭주한 메카이아를 쓰러트리고 다양한 보상을 획득하세요.",
       "en": "The special stage \"Starry Night Frenzy\" will be available during the event period.\r\nStop the rampaging Mecha Gaia and earn a variety of rewards.",
-      "ja": "",
+      "ja": "イベント期間中、特別ステージ「聖夜の暴走」が開放されます。\r\n暴走したメカイアを倒して様々な報酬を獲得してください。",
       "zh_tw": "活動期間內開放特別關卡「平安夜暴走」。\r\n打倒暴走的機械蓋亞，獲得各種獎勵吧。",
       "zh_cn": ""
     },
@@ -62308,7 +62948,7 @@
       "no": 996475,
       "kr": "이벤트 레이드 「성야의 폭주」에 입장하기 위해서는\r\n이벤트 스토리 「고요한 Bomb 거룩한 Bomb」 10화를 확인해야 합니다.",
       "en": "You need to view episode 10 of the event story \"Silent Bomb, Holy Bomb\"\r\nto enter the \"Starry Night Frenzy\" event raid.",
-      "ja": "",
+      "ja": "イベントレイド「聖夜の暴走」に入場するには、\r\nイベントストーリー「サイレントBombホーリーBomb」10話を確認してください。",
       "zh_tw": "需先觀看活動故事「寂靜Bomb聖潔Bomb」第10話，\r\n才可進入活動突襲「平安夜暴走」。",
       "zh_cn": ""
     },
@@ -62316,7 +62956,7 @@
       "no": 996476,
       "kr": "「컨벤션 경품 교환권」은 「성야의 폭주」에서 획득할 수 있으며,\r\n「컨벤션 경품 상점」에서 다양한 아이템으로 교환할 수 있습니다.",
       "en": "You can get \"Convention Prize Tickets\" from \"Starry Night Frenzy.\"\r\nExchange them for various items at the \"Convention Prize Shop.\"",
-      "ja": "",
+      "ja": "「コンベンション景品引換券」は「聖夜の暴走」で獲得でき、\r\n「コンベンション景品ショップ」で様々なアイテムと交換できます。",
       "zh_tw": "可在「平安夜暴走」獲得「展覽贈品兌換券」，\r\n並在「展覽贈品商店」兌換各種道具。",
       "zh_cn": ""
     },
@@ -62324,7 +62964,7 @@
       "no": 996477,
       "kr": "교환 기간이 종료되면 「컨벤션 경품 교환권」은 개당 3000골드로 환산됩니다.\r\n환산된 아이템은 우편함으로 지급됩니다.",
       "en": "When the exchange period ends, each \"Convention Prize Ticket\" will be converted into 3,000 Gold.\r\nThe converted gold will be sent to your mailbox.",
-      "ja": "",
+      "ja": "交換期間が終了すると、「コンベンション景品引換券」は1個あたり3000ゴールドに換算されます。\r\n換算されたアイテムはメールで支給されます。",
       "zh_tw": "兌換時間結束後，每1個「展覽贈品兌換券」將換算成3000金幣，\r\n並發送至信箱。",
       "zh_cn": ""
     },
@@ -62332,7 +62972,7 @@
       "no": 996478,
       "kr": "폭주한 메카이아를 쓰러트리고 「컨벤션 경품 교환권」을 획득하세요.\r\n클리어한 레벨이 높을수록 더 풍성한 보상을 획득할 수 있습니다.",
       "en": "Stop the rampaging Mecha Gaia and earn \"Convention Prize Tickets.\"\r\nThe higher the level you clear, the more rewards you'll get.",
-      "ja": "",
+      "ja": "暴走したメカイアを倒して「コンベンション景品引換券」を獲得してください。\r\nクリアしたレベルが高いほど、もっと豊富な報酬を獲得できます。",
       "zh_tw": "打倒暴走的機械蓋亞並獲得「展覽贈品兌換券」。\r\n通關的等級越高，可獲得的獎品也會越多。",
       "zh_cn": ""
     },
@@ -62340,7 +62980,7 @@
       "no": 996479,
       "kr": "이벤트 스테이지 「도둑잡기 양동 작전」은\r\n「저지 작전」, 혹은 「수색 작전」 중 하나를 선택하여 도전할 수 있습니다.\r\n플린 혹은 르네와 함께 작전을 수행해 보세요!",
       "en": "Choose between \"Stopping Operation\" and \"Search Operation\"\r\nto tackle the event stage \"Decoy Operation to Catch the Thief.\"\r\nWork with either Flynn or Renee on a mission!",
-      "ja": "",
+      "ja": "イベントステージ「泥棒逮捕陽動作戦」は\r\n「阻止作戦」や「捜索作戦」の中から1つを選択して挑戦できます。\r\nフランまたはルネと一緒に作戦を遂行しましょう！",
       "zh_tw": "活動關卡「抓賊聲東擊西」\r\n可在「阻止作戰」與「搜索作戰」中擇一挑戰。\r\n與弗林或勒內一起進行作戰吧！",
       "zh_cn": ""
     },
@@ -62348,7 +62988,7 @@
       "no": 996480,
       "kr": "각 스테이지마다 특별한 버프가 존재합니다.\r\n버프를 확인하고 전략을 세워 효율적으로 공략하세요.",
       "en": "Each stage has a special buff.\r\nCheck the buff details and plan your strategy.",
-      "ja": "",
+      "ja": "ステージごとに特別なバフがあります。\r\nバフを確認し、戦略を立てて効率よく攻略しましょう。",
       "zh_tw": "每個關卡具有特別增益效果。\r\n確認增益，制定戰略後有效率地攻略關卡。",
       "zh_cn": ""
     },
@@ -62356,7 +62996,7 @@
       "no": 996481,
       "kr": "「도둑잡기 양동 작전」에서 「저지 작전 훈장」과 「수색 작전 훈장」을 획득할 수 있으며,\r\n「작전 훈장 교환 상점」에서 다양한 아이템으로 교환할 수 있습니다.",
       "en": "You can get \"Stopping Operation Medals\" and \"Search Operation Medals\" from the \"Decoy Operation to Catch the Thief.\"\r\nExchange them for various items at the \"Operation Medal Exchange Shop.\"",
-      "ja": "",
+      "ja": "「阻止作戦の勲章」と「捜索作戦の勲章」は「泥棒逮捕陽動作戦」で獲得でき、\r\n「作戦勲章交換ショップ」で様々なアイテムと交換できます。",
       "zh_tw": "可透過「抓賊聲東擊西」獲得「阻止作戰勳章」與「搜索作戰勳章」，\r\n並可於「作戰勳章兌換商店」兌換各種道具。",
       "zh_cn": ""
     },
@@ -62364,7 +63004,7 @@
       "no": 996482,
       "kr": "「저지 작전 훈장」과 「수색 작전 훈장」은 교환 기간이 종료되면 개당 3000골드로 환산됩니다.\r\n환산된 아이템은 우편함으로 지급됩니다.",
       "en": "When the exchange period ends, each \"Stopping Operation Medal\" and \"Search Operation Medal\" will be converted into 3,000 Gold.\r\nThe converted gold will be sent to your mailbox.",
-      "ja": "",
+      "ja": "「阻止作戦の勲章」と「捜索作戦の勲章」は、交換期間が終了すると1個あたり3000ゴールドに換算されます。\r\n換算されたアイテムはメールで支給されます。",
       "zh_tw": "兌換時間結束後，每1個「阻止作戰勳章」與「搜索作戰勳章」將換算成3000金幣，\r\n並發送至信箱。",
       "zh_cn": ""
     },
@@ -62372,7 +63012,7 @@
       "no": 996483,
       "kr": "이벤트 기간 동안 인피니티 보스 챌린지가 오픈됩니다. \r\n보스 전투에 무제한으로 참여하여 높은 점수를 달성하고 특별한 보상을 획득하세요.",
       "en": "The Infinity Boss Challenge will be available during the event period.\r\nJoin the boss fight as many times as you like, raise your score to new heights, and claim special rewards.",
-      "ja": "",
+      "ja": "イベント期間中、インフィニティボスチャレンジが開放されます。\r\nボス戦闘に無制限に参加して高いスコアを達成し、特別な報酬を獲得してください。",
       "zh_tw": "活動期間開放無限BOSS挑戰。\r\n無限制地參加BOSS戰鬥，達到高分獲得特別獎勵吧。",
       "zh_cn": ""
     },
@@ -62380,7 +63020,7 @@
       "no": 996484,
       "kr": "인피니티 보스 챌린지의 보스는 특수한 효과를 가지고 있습니다.\r\n추가 효과들을 잘 확인하여 보스를 공략하세요.\r\n추가 점수 조건에 맞춰 전투를 편성하면, 전투 종료 후 추가 점수를 획득할 수 있습니다.",
       "en": "Each boss in the Infinity Boss Challenge comes with its own unique special effects.\r\nStudy these extra effects carefully to take them down effectively.\r\nArrange your team according to the bonus criteria to score extra points at the end of the battle.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジのボスは特殊な効果があります。\r\n追加効果をよく確認してボスを攻略しましょう。\r\n追加スコア条件に合わせて編成して戦闘に挑むと、戦闘終了後に追加スコアを獲得できます。",
       "zh_tw": "無限BOSS挑戰的BOSS具有特殊效果。\r\n仔細確認追加效果，攻略BOSS。\r\n以符合額外分數的條件編制戰鬥，可在戰鬥結束後獲得額外分數。",
       "zh_cn": ""
     },
@@ -62388,8 +63028,72 @@
       "no": 996485,
       "kr": "이벤트 보상에는 순위 보상과 최대 점수 보상이 있습니다.\r\n이벤트 종료 시점까지 획득한 최대 점수를 기준으로 보상이 지급됩니다.",
       "en": "Event rewards include ranking rewards and max score rewards.\r\nYour final rewards will be determined by the highest score you've achieved by the end of the event.",
-      "ja": "",
+      "ja": "イベント報酬にはランキング報酬と最大スコア報酬があります。\r\nイベント終了時までに獲得した最大スコアに応じて報酬が支給されます。",
       "zh_tw": "活動獎勵分為排名獎勵和最高分數獎勵。\r\n將以活動結束前獲得的最高分數為基準發放獎勵。",
+      "zh_cn": ""
+    },
+    {
+      "no": 996486,
+      "kr": "이벤트 기간 동안 특별 스테이지 「신년맞이 떡공장털이」가 오픈됩니다.\r\n떡공장장 순이로부터 떡주머니를 빼앗아 다양한 보상을 획득하세요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 996487,
+      "kr": "이벤트 레이드 「신년맞이 떡공장털이」에 입장하기 위해서는\r\n이벤트 스토리 「만사형통?! 가온신년제」 6화를 확인해야 합니다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 996488,
+      "kr": "「떡주머니」는 「신년맞이 떡공장털이」에서 획득할 수 있으며,\r\n「떡공장 공판장」에서 다양한 아이템으로 교환할 수 있습니다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 996489,
+      "kr": "교환 기간이 종료되면 「떡주머니」는 개당 3000골드로 환산됩니다.\r\n환산된 아이템은 우편함으로 지급됩니다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 996490,
+      "kr": "떡공장장 순이를 물리치고 「떡주머니」를 획득하세요.\r\n클리어한 레벨이 높을수록 더 풍성한 보상을 획득할 수 있습니다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 996491,
+      "kr": "이벤트 스테이지 「축제 방해꾼 쫓아내기」는\r\n「가온 주막」, 혹은 「불꽃놀이장」 중 하나를 선택하여 도전할 수 있습니다.\r\n이디스 혹은 제이드와 함께 작전을 수행해 보세요!",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 996492,
+      "kr": "「축제 방해꾼 쫓아내기」에서 「탁주 사발」과 「불꽃 노리개」를 획득할 수 있으며,\r\n「축제 물품 교환 상점」에서 다양한 아이템으로 교환할 수 있습니다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 996493,
+      "kr": "「탁주 사발」과 「불꽃 노리개」는 교환 기간이 종료되면 개당 3000골드로 환산됩니다.\r\n환산된 아이템은 우편함으로 지급됩니다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -63524,7 +64228,7 @@
       "no": 997321,
       "kr": "달성 보상",
       "en": "Damage Milestone Reward",
-      "ja": "",
+      "ja": "達成報酬",
       "zh_tw": "達成獎勵",
       "zh_cn": ""
     },
@@ -63532,7 +64236,7 @@
       "no": 997322,
       "kr": "전투 종료 시 일정 피해량을 달성 시 보상을 받을 수 있습니다.",
       "en": "Hit the damage milestone by the end of the battle to claim your reward.",
-      "ja": "",
+      "ja": "戦闘終了時に一定のダメージ量を達成した場合、報酬を獲得できます。",
       "zh_tw": "戰鬥結束後，達成一定傷害量即可獲得獎勵。",
       "zh_cn": ""
     },
@@ -64095,6 +64799,14 @@
       "ja": "月額体験券が適用されました。翌日から毎日メールに報酬が届きます。",
       "zh_tw": "已套用月卡體驗券，隔天起會將每日獲得獎勵發放至信箱",
       "zh_cn": "已套用月卡体验券，隔天起会将每日获得奖励发放至信箱"
+    },
+    {
+      "no": 1106182,
+      "kr": "지긋지긋한 탐관오리 클로이가 또 다시 나타났다!\r\n\r\n하지만 욕망과 탐욕으로 가득 무장한 채 다시 등장한 이 녀석은 우리가 알던 그 탐관오리 클로이가 아니다!\r\n\r\n주기적으로 수급되는 <COLOR=#FFFFFF><엽전></COLOR>을 커다란 머리에 투척하여 탐욕의 쓴맛을 보여주도록 하자!\r\n\r\n<COLOR=#FFFFFF>따뜻한 아랫목과 질 좋은 음식으로 풍족한 생활을 누려서인지 추위와 중독에 매우 약한 모습을 보이므로 냉기 및 중독을 활용할 수 있는 정령을 편성할 수 있도록 하자!</COLOR>",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
     },
     {
       "no": 1106581,

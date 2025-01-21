@@ -204,7 +204,7 @@
       "no": 910025,
       "kr": "골라담기 패키지",
       "en": "Pick and Mix Pack",
-      "ja": "厳選パック",
+      "ja": "カスタムパック",
       "zh_tw": "精選禮包",
       "zh_cn": "精选礼包"
     },
@@ -300,7 +300,7 @@
       "no": 910037,
       "kr": "1주년 기념 골라담기 패키지",
       "en": "1st Anniversary Pick and Mix Pack",
-      "ja": "1周年記念厳選パック",
+      "ja": "1周年記念カスタムパック",
       "zh_tw": "1週年精選禮包",
       "zh_cn": "1周年精选礼包"
     },
@@ -916,7 +916,7 @@
       "no": 910120,
       "kr": "일일 스페셜 골라담기 패키지",
       "en": "Daily Special Pick and Mix Pack",
-      "ja": "デイリースペシャル厳選パック",
+      "ja": "デイリースペシャルカスタムパック",
       "zh_tw": "每日特別精選禮包",
       "zh_cn": "每日特别精选礼包"
     },
@@ -1004,7 +1004,7 @@
       "no": 910141,
       "kr": "주간 예장 강화 골라담기 패키지",
       "en": "Weekly Keepsake Enhance Pick and Mix Pack",
-      "ja": "ウィークリー礼装強化厳選パック",
+      "ja": "ウィークリー礼装強化カスタムパック",
       "zh_tw": "每週禮品強化精選禮包",
       "zh_cn": "每周礼品强化精选礼包"
     },
@@ -1012,7 +1012,7 @@
       "no": 910142,
       "kr": "주간 정령 소환 골라담기 패키지",
       "en": "Weekly Soul Summon Pick and Mix Pack",
-      "ja": "ウィークリー精霊召喚厳選パック",
+      "ja": "ウィークリー精霊召喚カスタムパック",
       "zh_tw": "每週精靈召喚精選禮包",
       "zh_cn": "每周精灵召唤精选礼包"
     },
@@ -1100,7 +1100,7 @@
       "no": 910160,
       "kr": "월간 레벨업 골라담기 패키지",
       "en": "Monthly Level-Up Pick and Mix Pack",
-      "ja": "マンスリー\r\nレベルアップ厳選パック",
+      "ja": "マンスリー\r\nレベルアップカスタムパック",
       "zh_tw": "每月升級精選禮包",
       "zh_cn": "每月升级精选礼包"
     },
@@ -1108,7 +1108,7 @@
       "no": 910161,
       "kr": "월간 스페셜 골라담기 패키지",
       "en": "Monthly Special Pick and Mix Pack",
-      "ja": "マンスリー\r\nスペシャル厳選パック",
+      "ja": "マンスリー\r\nスペシャルカスタムパック",
       "zh_tw": "每月特別精選禮包",
       "zh_cn": "每月特别精选礼包"
     },
@@ -1652,7 +1652,7 @@
       "no": 910372,
       "kr": "2주년 기념 골라담기",
       "en": "2nd Anniversary Pick and Mix",
-      "ja": "",
+      "ja": "2周年厳選",
       "zh_tw": "2週年精選",
       "zh_cn": ""
     },
@@ -1660,7 +1660,7 @@
       "no": 910373,
       "kr": "2주년 기념\r\n데일리 패키지",
       "en": "2nd Anniversary\r\nDaily Pack",
-      "ja": "",
+      "ja": "2周年記念\r\nデイリーパック",
       "zh_tw": "2週年紀念\r\n每日禮包",
       "zh_cn": ""
     },
@@ -1668,7 +1668,7 @@
       "no": 910374,
       "kr": "메피스토펠레스\r\n(여명) 픽업",
       "en": "Mephistopheles\r\n(Dawn) Pick-Up",
-      "ja": "",
+      "ja": "メフィストフェレス\r\n(暁)Pick-Up",
       "zh_tw": "梅菲斯托佩萊斯\r\n（黎明）Pick Up",
       "zh_cn": ""
     },
@@ -1676,8 +1676,136 @@
       "no": 910375,
       "kr": "메피스토펠레스\r\n(여명) 승급 패스",
       "en": "Mephistopheles\r\n(Dawn) Ascension Pass",
-      "ja": "",
+      "ja": "メフィストフェレス\r\n(暁)昇級パス",
       "zh_tw": "梅菲斯托佩萊斯\r\n（黎明）升階通行證",
+      "zh_cn": ""
+    },
+    {
+      "no": 910376,
+      "kr": "유리아 승급 패스",
+      "en": "",
+      "ja": "ユリア昇級パス",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 910377,
+      "kr": "다프네 승급 패스",
+      "en": "",
+      "ja": "ダフネ昇級パス",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 910378,
+      "kr": "특별 패키지",
+      "en": "Special Pack",
+      "ja": "",
+      "zh_tw": "特別禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 910379,
+      "kr": "승급 패스",
+      "en": "Ascension Pass",
+      "ja": "",
+      "zh_tw": "升階通行證",
+      "zh_cn": ""
+    },
+    {
+      "no": 910380,
+      "kr": "픽업",
+      "en": "Pick-Up",
+      "ja": "",
+      "zh_tw": "Pick-Up",
+      "zh_cn": ""
+    },
+    {
+      "no": 910381,
+      "kr": "이벤트",
+      "en": "Event",
+      "ja": "",
+      "zh_tw": "活動",
+      "zh_cn": ""
+    },
+    {
+      "no": 910382,
+      "kr": "상시",
+      "en": "Permanent",
+      "ja": "",
+      "zh_tw": "總是",
+      "zh_cn": ""
+    },
+    {
+      "no": 910383,
+      "kr": "스페셜 골라담기",
+      "en": "Special Pick and Mix",
+      "ja": "スペシャル\r\nカスタム",
+      "zh_tw": "特別精選",
+      "zh_cn": "特别精选"
+    },
+    {
+      "no": 910384,
+      "kr": "바이스 픽업",
+      "en": "Weiss Pick-Up",
+      "ja": "",
+      "zh_tw": "拜斯Pick Up",
+      "zh_cn": ""
+    },
+    {
+      "no": 910385,
+      "kr": "바이스 승급 패스",
+      "en": "Weiss Ascension Pass",
+      "ja": "",
+      "zh_tw": "拜斯升階通行證",
+      "zh_cn": ""
+    },
+    {
+      "no": 910386,
+      "kr": "만사형통 이벤트",
+      "en": "New Year's Festival Event",
+      "ja": "",
+      "zh_tw": "萬事如意活動",
+      "zh_cn": ""
+    },
+    {
+      "no": 910387,
+      "kr": "이디스 승급 패스",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 910388,
+      "kr": "소연 승급 패스",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 910389,
+      "kr": "오토하 승급 패스",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 910390,
+      "kr": "에일린 승급 패스",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 910391,
+      "kr": "신년 기념 특별 패키지",
+      "en": "New Year Special Pack",
+      "ja": "",
+      "zh_tw": "新年紀念特別禮包",
       "zh_cn": ""
     },
     {
@@ -4017,6 +4145,62 @@
       "zh_cn": ""
     },
     {
+      "no": 911205,
+      "kr": "만사형통 이벤트 패키지 1",
+      "en": "New Year's Festival Event Pack 1",
+      "ja": "",
+      "zh_tw": "萬事如意活動禮包1",
+      "zh_cn": ""
+    },
+    {
+      "no": 911206,
+      "kr": "만사형통 이벤트 패키지 2",
+      "en": "New Year's Festival Event Pack 2",
+      "ja": "",
+      "zh_tw": "萬事如意活動禮包2",
+      "zh_cn": ""
+    },
+    {
+      "no": 911207,
+      "kr": "만사형통 이벤트 패키지 3",
+      "en": "New Year's Festival Event Pack 3",
+      "ja": "",
+      "zh_tw": "萬事如意活動禮包3",
+      "zh_cn": ""
+    },
+    {
+      "no": 911208,
+      "kr": "일일 만사형통 이벤트 초특가 패키지",
+      "en": "Daily New Year's Festival Event Special Deal Pack",
+      "ja": "",
+      "zh_tw": "每日萬事如意活動超值特價禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 911209,
+      "kr": "일일 만사형통 이벤트 정령 소환 패키지",
+      "en": "Daily New Year's Festival Event Soul Summon Pack",
+      "ja": "",
+      "zh_tw": "每日萬事如意活動精靈召喚禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 911210,
+      "kr": "일일 만사형통 이벤트 성장 패키지",
+      "en": "Daily New Year's Festival Event Growth Pack",
+      "ja": "",
+      "zh_tw": "每日萬事如意活動成長禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 911211,
+      "kr": "일일 만사형통 이벤트 크리스탈 패키지",
+      "en": "Daily New Year's Festival Event Crystal Pack",
+      "ja": "",
+      "zh_tw": "每日萬事如意活動魔力水晶禮包",
+      "zh_cn": ""
+    },
+    {
       "no": 912000,
       "kr": "스텝업 패키지 (1단계)",
       "en": "Step-Up Pack (Level 1)",
@@ -4612,7 +4796,7 @@
       "no": 914081,
       "kr": "2주년 기념 데일리\r\n크리스탈 패키지 (15일)",
       "en": "2nd Anniversary Daily\r\nCrystal Pack (15 Days)",
-      "ja": "",
+      "ja": "2周年記念デイリー\r\nクリスタルパック(15日)",
       "zh_tw": "2週年紀念每日\r\n魔力水晶禮包（15日）",
       "zh_cn": ""
     },
@@ -4620,7 +4804,7 @@
       "no": 914082,
       "kr": "2주년 기념 데일리\r\n소환 패키지 (15일)",
       "en": "2nd Anniversary Daily\r\nSummon Pack (15 Days)",
-      "ja": "",
+      "ja": "2周年記念デイリー\r\n召喚パック(15日)",
       "zh_tw": "2週年紀念每日\r\n召喚禮包（15日）",
       "zh_cn": ""
     },
@@ -4628,7 +4812,7 @@
       "no": 914083,
       "kr": "2주년 기념 데일리\r\n오색의 결정 패키지 (15일)",
       "en": "2nd Anniversary Daily\r\nIridescent Crystal Pack (15 Days)",
-      "ja": "",
+      "ja": "2周年記念デイリー\r\n五色の結晶パック(15日)",
       "zh_tw": "2週年紀念每日\r\n五彩結晶禮包（15日）",
       "zh_cn": ""
     },
@@ -4766,6 +4950,102 @@
       "en": "Eternal+ Keepsake BOGO Value Pack",
       "ja": "エターナル+礼装1+1特価パック",
       "zh_tw": "永恆＋禮品1+1特價禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 914151,
+      "kr": "신년 기념 일일 특별 선물 (1일차)",
+      "en": "New Year Daily Special Gift (Day 1)",
+      "ja": "",
+      "zh_tw": "新年紀念每日特別禮物（第1天）",
+      "zh_cn": ""
+    },
+    {
+      "no": 914152,
+      "kr": "신년 기념 일일 특별 선물 (2일차)",
+      "en": "New Year Daily Special Gift (Day 2)",
+      "ja": "",
+      "zh_tw": "新年紀念每日特別禮物（第2天）",
+      "zh_cn": ""
+    },
+    {
+      "no": 914153,
+      "kr": "신년 기념 일일 특별 선물 (3일차)",
+      "en": "New Year Daily Special Gift (Day 3)",
+      "ja": "",
+      "zh_tw": "新年紀念每日特別禮物（第3天）",
+      "zh_cn": ""
+    },
+    {
+      "no": 914154,
+      "kr": "신년 기념 일일 특별 선물 (4일차)",
+      "en": "New Year Daily Special Gift (Day 4)",
+      "ja": "",
+      "zh_tw": "新年紀念每日特別禮物（第4天）",
+      "zh_cn": ""
+    },
+    {
+      "no": 914155,
+      "kr": "신년 기념 일일 특별 선물 (5일차)",
+      "en": "New Year Daily Special Gift (Day 5)",
+      "ja": "",
+      "zh_tw": "新年紀念每日特別禮物（第5天）",
+      "zh_cn": ""
+    },
+    {
+      "no": 914156,
+      "kr": "신년 기념 일일 특별 선물 (6일차)",
+      "en": "New Year Daily Special Gift (Day 6)",
+      "ja": "",
+      "zh_tw": "新年紀念每日特別禮物（第6天）",
+      "zh_cn": ""
+    },
+    {
+      "no": 914157,
+      "kr": "신년 기념 일일 특별 선물 (7일차)",
+      "en": "New Year Daily Special Gift (Day 7)",
+      "ja": "",
+      "zh_tw": "新年紀念每日特別禮物（第7天）",
+      "zh_cn": ""
+    },
+    {
+      "no": 914158,
+      "kr": "신년 기념 일일 특별 선물 (8일차)",
+      "en": "New Year Daily Special Gift (Day 8)",
+      "ja": "",
+      "zh_tw": "新年紀念每日特別禮物（第8天）",
+      "zh_cn": ""
+    },
+    {
+      "no": 914161,
+      "kr": "신년 기념 복주머니 패키지",
+      "en": "New Year Lucky Pouch Pack",
+      "ja": "",
+      "zh_tw": "新年紀念福袋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 914162,
+      "kr": "신년 기념 세뱃돈 봉투 패키지",
+      "en": "New Year Lucky Envelope Pack",
+      "ja": "",
+      "zh_tw": "新年紀念壓歲錢信封禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 914163,
+      "kr": "신년 기념 지정 소환 패키지",
+      "en": "New Year Targeted Summon Pack",
+      "ja": "",
+      "zh_tw": "新年紀念指定召喚禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 914164,
+      "kr": "신년 기념 오색의 결정 패키지",
+      "en": "New Year Iridescent Crystal Pack",
+      "ja": "",
+      "zh_tw": "新年紀念五彩結晶禮包",
       "zh_cn": ""
     },
     {
@@ -6260,7 +6540,7 @@
       "no": 917471,
       "kr": "메피스토펠레스(여명)\r\n픽업 기념 패키지 1",
       "en": "Mephistopheles (Dawn)\r\nPick-Up Pack 1",
-      "ja": "",
+      "ja": "メフィストフェレス(暁)\r\nPick-Up記念パック1",
       "zh_tw": "梅菲斯托佩萊斯（黎明）\r\nPick Up紀念禮包1",
       "zh_cn": ""
     },
@@ -6268,8 +6548,24 @@
       "no": 917472,
       "kr": "메피스토펠레스(여명)\r\n픽업 기념 패키지 2",
       "en": "Mephistopheles (Dawn)\r\nPick-Up Pack 2",
-      "ja": "",
+      "ja": "メフィストフェレス(暁)\r\nPick-Up記念パック2",
       "zh_tw": "梅菲斯托佩萊斯（黎明）\r\nPick Up紀念禮包2",
+      "zh_cn": ""
+    },
+    {
+      "no": 917481,
+      "kr": "바이스 픽업 기념 패키지 1",
+      "en": "Weiss Pick-Up Pack 1",
+      "ja": "ヴァイスPick-Up記念パック1",
+      "zh_tw": "拜斯Pick Up紀念禮包1",
+      "zh_cn": ""
+    },
+    {
+      "no": 917482,
+      "kr": "바이스 픽업 기념 패키지 2",
+      "en": "Weiss Pick-Up Pack 2",
+      "ja": "ヴァイスPick-Up記念パック2",
+      "zh_tw": "拜斯Pick Up紀念禮包2",
       "zh_cn": ""
     },
     {
@@ -6420,7 +6716,7 @@
       "no": 918000,
       "kr": "추석 골라담기 선물 세트 1",
       "en": "Chuseok Pick and Mix Gift Set 1",
-      "ja": "秋の厳選ギフトセット1",
+      "ja": "秋のカスタムギフトセット1",
       "zh_tw": "中秋精選禮盒1",
       "zh_cn": "中秋精选礼盒1"
     },
@@ -6428,7 +6724,7 @@
       "no": 918001,
       "kr": "추석 골라담기 선물 세트 2",
       "en": "Chuseok Pick and Mix Gift Set 2",
-      "ja": "秋の厳選ギフトセット2",
+      "ja": "秋のカスタムギフトセット2",
       "zh_tw": "中秋精選禮盒2",
       "zh_cn": "中秋精选礼盒2"
     },
@@ -6436,7 +6732,7 @@
       "no": 918002,
       "kr": "추석 골라담기 선물 세트 3",
       "en": "Chuseok Pick and Mix Gift Set 3",
-      "ja": "秋の厳選ギフトセット3",
+      "ja": "秋のカスタムギフトセット3",
       "zh_tw": "中秋精選禮盒3",
       "zh_cn": "中秋精选礼盒3"
     },
@@ -6444,7 +6740,7 @@
       "no": 918003,
       "kr": "추석 골라담기 선물 세트 4",
       "en": "Chuseok Pick and Mix Gift Set 4",
-      "ja": "秋の厳選ギフトセット4",
+      "ja": "秋のカスタムギフトセット4",
       "zh_tw": "中秋精選禮盒4",
       "zh_cn": "中秋精选礼盒4"
     },
@@ -6452,7 +6748,7 @@
       "no": 918011,
       "kr": "1주년 기념 골라담기 패키지 1",
       "en": "1st Anniversary Pick and Mix Pack 1",
-      "ja": "1周年記念厳選パック1",
+      "ja": "1周年記念カスタムパック1",
       "zh_tw": "1週年精選禮包1",
       "zh_cn": "1周年精选礼包1"
     },
@@ -6460,7 +6756,7 @@
       "no": 918012,
       "kr": "1주년 기념 골라담기 패키지 2",
       "en": "1st Anniversary Pick and Mix Pack 2",
-      "ja": "1周年記念厳選パック2",
+      "ja": "1周年記念カスタムパック2",
       "zh_tw": "1週年精選禮包2",
       "zh_cn": "1周年精选礼包2"
     },
@@ -6468,7 +6764,7 @@
       "no": 918013,
       "kr": "1주년 기념 골라담기 패키지 3",
       "en": "1st Anniversary Pick and Mix Pack 3",
-      "ja": "1周年記念厳選パック3",
+      "ja": "1周年記念カスタムパック3",
       "zh_tw": "1週年精選禮包3",
       "zh_cn": "1周年精选礼包3"
     },
@@ -6476,7 +6772,7 @@
       "no": 918014,
       "kr": "1주년 기념 골라담기 패키지 4",
       "en": "1st Anniversary Pick and Mix Pack 4",
-      "ja": "1周年記念厳選パック4",
+      "ja": "1周年記念カスタムパック4",
       "zh_tw": "1週年精選禮包4",
       "zh_cn": "1周年精选礼包4"
     },
@@ -6548,7 +6844,7 @@
       "no": 918041,
       "kr": "2주년 기념 골라담기 선물 세트 1",
       "en": "2nd Anniversary Pick and Mix Gift Set 1",
-      "ja": "",
+      "ja": "2周年厳選ギフトセット1",
       "zh_tw": "2週年精選禮盒1",
       "zh_cn": ""
     },
@@ -6556,7 +6852,7 @@
       "no": 918042,
       "kr": "2주년 기념 골라담기 선물 세트 2",
       "en": "2nd Anniversary Pick and Mix Gift Set 2",
-      "ja": "",
+      "ja": "2周年厳選ギフトセット2",
       "zh_tw": "2週年精選禮盒2",
       "zh_cn": ""
     },
@@ -6564,7 +6860,7 @@
       "no": 918043,
       "kr": "2주년 기념 골라담기 선물 세트 3",
       "en": "2nd Anniversary Pick and Mix Gift Set 3",
-      "ja": "",
+      "ja": "2周年厳選ギフトセット3",
       "zh_tw": "2週年精選禮盒3",
       "zh_cn": ""
     },
@@ -6572,9 +6868,41 @@
       "no": 918044,
       "kr": "2주년 기념 골라담기 선물 세트 4",
       "en": "2nd Anniversary Pick and Mix Gift Set 4",
-      "ja": "",
+      "ja": "2周年厳選ギフトセット4",
       "zh_tw": "2週年精選禮盒4",
       "zh_cn": ""
+    },
+    {
+      "no": 918051,
+      "kr": "스페셜 골라담기 패키지 1",
+      "en": "Special Pick and Mix Pack 1",
+      "ja": "スペシャルカスタムパック1",
+      "zh_tw": "特別精選禮包1",
+      "zh_cn": "特别精选礼包1"
+    },
+    {
+      "no": 918052,
+      "kr": "스페셜 골라담기 패키지 2",
+      "en": "Special Pick and Mix Pack 2",
+      "ja": "スペシャルカスタムパック2",
+      "zh_tw": "特別精選禮包2",
+      "zh_cn": "特别精选礼包2"
+    },
+    {
+      "no": 918053,
+      "kr": "스페셜 골라담기 패키지 3",
+      "en": "Special Pick and Mix Pack 3",
+      "ja": "スペシャルカスタムパック3",
+      "zh_tw": "特別精選禮包3",
+      "zh_cn": "特别精选礼包3"
+    },
+    {
+      "no": 918054,
+      "kr": "스페셜 골라담기 패키지 4",
+      "en": "Special Pick and Mix Pack 4",
+      "ja": "スペシャルカスタムパック4",
+      "zh_tw": "特別精選禮包4",
+      "zh_cn": "特别精选礼包4"
     },
     {
       "no": 919001,
@@ -8132,7 +8460,7 @@
       "no": 919251,
       "kr": "메피스토펠레스(여명) 에픽 달성 패키지",
       "en": "Mephistopheles (Dawn) Epic Achievement Pack",
-      "ja": "",
+      "ja": "メフィストフェレス(暁)エピック達成パック",
       "zh_tw": "達成梅菲斯托佩萊斯（黎明）史詩禮包",
       "zh_cn": ""
     },
@@ -8140,7 +8468,7 @@
       "no": 919252,
       "kr": "메피스토펠레스(여명) 레전더리+ 달성 패키지",
       "en": "Mephistopheles (Dawn) Legendary+ Achievement Pack",
-      "ja": "",
+      "ja": "メフィストフェレス(暁)レジェンダリー+達成パック",
       "zh_tw": "達成梅菲斯托佩萊斯（黎明）傳說＋禮包",
       "zh_cn": ""
     },
@@ -8148,7 +8476,7 @@
       "no": 919253,
       "kr": "메피스토펠레스(여명) 이터널+ 달성 패키지",
       "en": "Mephistopheles (Dawn) Eternal+ Achievement Pack",
-      "ja": "",
+      "ja": "メフィストフェレス(暁)エターナル+達成パック",
       "zh_tw": "達成梅菲斯托佩萊斯（黎明）永恆＋禮包",
       "zh_cn": ""
     },
@@ -8156,7 +8484,7 @@
       "no": 919254,
       "kr": "메피스토펠레스(여명) 오리진 달성 패키지",
       "en": "Mephistopheles (Dawn) Origin Achievement Pack",
-      "ja": "",
+      "ja": "メフィストフェレス(暁)オリジン達成パック",
       "zh_tw": "達成梅菲斯托佩萊斯（黎明）不朽禮包",
       "zh_cn": ""
     },
@@ -8164,7 +8492,7 @@
       "no": 919255,
       "kr": "메피스토펠레스(여명) 오리진+1 달성 패키지",
       "en": "Mephistopheles (Dawn) Origin+1 Achievement Pack",
-      "ja": "",
+      "ja": "メフィストフェレス(暁)オリジン+1達成パック",
       "zh_tw": "達成梅菲斯托佩萊斯（黎明）不朽+1禮包",
       "zh_cn": ""
     },
@@ -8172,7 +8500,7 @@
       "no": 919256,
       "kr": "메피스토펠레스(여명) 오리진+3 달성 패키지",
       "en": "Mephistopheles (Dawn) Origin+3 Achievement Pack",
-      "ja": "",
+      "ja": "メフィストフェレス(暁)オリジン+3達成パック",
       "zh_tw": "達成梅菲斯托佩萊斯（黎明）不朽+3禮包",
       "zh_cn": ""
     },
@@ -8180,8 +8508,192 @@
       "no": 919257,
       "kr": "메피스토펠레스(여명) 오리진+5 달성 패키지",
       "en": "Mephistopheles (Dawn) Origin+5 Achievement Pack",
-      "ja": "",
+      "ja": "メフィストフェレス(暁)オリジン+5達成パック",
       "zh_tw": "達成梅菲斯托佩萊斯（黎明）不朽+5禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919261,
+      "kr": "유리아 에픽 달성 패키지",
+      "en": "Yuria Epic Achievement Pack",
+      "ja": "ユリアエピック達成パック",
+      "zh_tw": "達成尤里婭史詩禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919262,
+      "kr": "유리아 레전더리+ 달성 패키지",
+      "en": "Yuria Legendary+ Achievement Pack",
+      "ja": "ユリアレジェンダリー+達成パック",
+      "zh_tw": "達成尤里婭傳說＋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919263,
+      "kr": "유리아 이터널+ 달성 패키지",
+      "en": "Yuria Eternal+ Achievement Pack",
+      "ja": "ユリアエターナル+達成パック",
+      "zh_tw": "達成尤里婭永恆＋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919264,
+      "kr": "유리아 오리진 달성 패키지",
+      "en": "Yuria Origin Achievement Pack",
+      "ja": "ユリアオリジン達成パック",
+      "zh_tw": "達成尤里婭不朽禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919265,
+      "kr": "유리아 오리진+1 달성 패키지",
+      "en": "Yuria Origin+1 Achievement Pack",
+      "ja": "ユリアオリジン+1達成パック",
+      "zh_tw": "達成尤里婭不朽+1禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919266,
+      "kr": "유리아 오리진+3 달성 패키지",
+      "en": "Yuria Origin+3 Achievement Pack",
+      "ja": "ユリアオリジン+3達成パック",
+      "zh_tw": "達成尤里婭不朽+3禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919267,
+      "kr": "유리아 오리진+5 달성 패키지",
+      "en": "Yuria Origin+5 Achievement Pack",
+      "ja": "ユリアオリジン+5達成パック",
+      "zh_tw": "達成尤里婭不朽+5禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919271,
+      "kr": "다프네 에픽 달성 패키지",
+      "en": "Daphne Epic Achievement Pack",
+      "ja": "ダフネエピック達成パック",
+      "zh_tw": "達成達芙妮史詩禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919272,
+      "kr": "다프네 에픽+ 달성 패키지",
+      "en": "Daphne Epic+ Achievement Pack",
+      "ja": "ダフネエピック+達成パック",
+      "zh_tw": "達成達芙妮史詩＋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919273,
+      "kr": "다프네 레전더리+ 달성 패키지",
+      "en": "Daphne Legendary+ Achievement Pack",
+      "ja": "ダフネレジェンダリー+達成パック",
+      "zh_tw": "達成達芙妮傳說＋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919274,
+      "kr": "다프네 이터널+ 달성 패키지",
+      "en": "Daphne Eternal+ Achievement Pack",
+      "ja": "ダフネエターナル+達成パック",
+      "zh_tw": "達成達芙妮永恆＋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919275,
+      "kr": "다프네 오리진 달성 패키지",
+      "en": "Daphne Origin Achievement Pack",
+      "ja": "ダフネオリジン達成パック",
+      "zh_tw": "達成達芙妮不朽禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919276,
+      "kr": "다프네 오리진+1 달성 패키지",
+      "en": "Daphne Origin+1 Achievement Pack",
+      "ja": "ダフネオリジン+1達成パック",
+      "zh_tw": "達成達芙妮不朽+1禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919277,
+      "kr": "다프네 오리진+3 달성 패키지",
+      "en": "Daphne Origin+3 Achievement Pack",
+      "ja": "ダフネオリジン+3達成パック",
+      "zh_tw": "達成達芙妮不朽+3禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919278,
+      "kr": "다프네 오리진+5 달성 패키지",
+      "en": "Daphne Origin+5 Achievement Pack",
+      "ja": "ダフネオリジン+5達成パック",
+      "zh_tw": "達成達芙妮不朽+5禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919281,
+      "kr": "바이스 에픽 달성 패키지",
+      "en": "Weiss Epic Achievement Pack",
+      "ja": "ヴァイスエピック達成パック",
+      "zh_tw": "達成拜斯史詩禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919282,
+      "kr": "바이스 에픽+ 달성 패키지",
+      "en": "Weiss Epic+ Achievement Pack",
+      "ja": "ヴァイスエピック+達成パック",
+      "zh_tw": "達成拜斯史詩＋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919283,
+      "kr": "바이스 레전더리+ 달성 패키지",
+      "en": "Weiss Legendary+ Achievement Pack",
+      "ja": "ヴァイスレジェンダリー+達成パック",
+      "zh_tw": "達成拜斯傳說＋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919284,
+      "kr": "바이스 이터널+ 달성 패키지",
+      "en": "Weiss Eternal+ Achievement Pack",
+      "ja": "ヴァイスエターナル+達成パック",
+      "zh_tw": "達成拜斯永恆＋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919285,
+      "kr": "바이스 오리진 달성 패키지",
+      "en": "Weiss Origin Achievement Pack",
+      "ja": "ヴァイスオリジン達成パック",
+      "zh_tw": "達成拜斯不朽禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919286,
+      "kr": "바이스 오리진+1 달성 패키지",
+      "en": "Weiss Origin+1 Achievement Pack",
+      "ja": "ヴァイスオリジン+1達成パック",
+      "zh_tw": "達成拜斯不朽+1禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919287,
+      "kr": "바이스 오리진+3 달성 패키지",
+      "en": "Weiss Origin+3 Achievement Pack",
+      "ja": "ヴァイスオリジン+3達成パック",
+      "zh_tw": "達成拜斯不朽+3禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919288,
+      "kr": "바이스 오리진+5 달성 패키지",
+      "en": "Weiss Origin+5 Achievement Pack",
+      "ja": "ヴァイスオリジン+5達成パック",
+      "zh_tw": "達成拜斯不朽+5禮包",
       "zh_cn": ""
     },
     {
@@ -8939,9 +9451,9 @@
     {
       "no": 924000,
       "kr": "구매 즉시 1일차 보상이 우편으로 지급됩니다.\r\n이후 7일차까지 매일 접속 시 보상이 우편으로 지급됩니다.\r\n1일 당 지급 보상은 아래와 같습니다.\r\n미접속 일차의 보상은 미지급됩니다.",
-      "en": "Day 1 reward is sent to your mailbox immediately upon purchase.\r\r\nReward is sent to your mailbox if you log in every day up to day 7.\r\r\nThe below are the rewards given per day.\r\r\nRewards for unattended days will not be given.",
+      "en": "Day 1 reward is sent to your mailbox immediately upon purchase.\r\nReward is sent to your mailbox if you log in every day up to day 7.\r\nThe below are the rewards given per day.\r\nRewards for unattended days will not be given.",
       "ja": "購入と同時に1日目の報酬がメールで送られます。\r\nその後、7日目まで毎日ログインすると報酬がメールで送られます。\r\n1日当たりの報酬は以下の通りです。\r\nログインしていない日の報酬は支給されません。",
-      "zh_tw": "購買時立即將第1天獎勵發放至信箱。\r\r\n每天登入時會透過信箱發送，至第7天為止。\r\r\n每日發放獎勵如下。\r\r\n不會發放未登入天數的獎勵。",
+      "zh_tw": "購買時立即將第1天獎勵發放至信箱。\r\n每天登入時會透過信箱發送，至第7天為止。\r\n每日發放獎勵如下。\r\n不會發放未登入天數的獎勵。",
       "zh_cn": "购买时立即将第1天奖励发放至邮件。\r\n每天登录时会通过邮件发送，至第7天为止。\r\n每日发放奖励如下。\r\n不会发放未登录天数的奖励。"
     },
     {
@@ -9054,6 +9566,38 @@
       "en": "This pack offers special items with a buy-one-get-one deal.",
       "ja": "特別なアイテム1+1で購入できるパックです。",
       "zh_tw": "可用1+1購買特別道具的禮包。",
+      "zh_cn": ""
+    },
+    {
+      "no": 924151,
+      "kr": "신년을 기념하여 준비한 특별 선물입니다!",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 924161,
+      "kr": "신년을 기념하여 준비한 복주머니 패키지입니다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 924162,
+      "kr": "신년을 기념하여 준비한 세뱃돈 봉투 패키지입니다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 924163,
+      "kr": "신년을 기념하여 준비한 특별 패키지입니다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {

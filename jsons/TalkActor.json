@@ -360,6 +360,17 @@
       "position_scale": 1.0
     },
     {
+      "no": 1052,
+      "name_sno": 301050,
+      "prefab_path": "Jade",
+      "portrait512_path": "UI/Textures/Souls/Jade/Jade_Costume02_512",
+      "portrait128_path": "UI/Textures/Souls/Jade/Jade_Costume02_128",
+      "costume_path": "Jade_Costume02",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
       "no": 1060,
       "name_sno": 301060,
       "prefab_path": "Linzy",
@@ -1462,6 +1473,18 @@
       "position_scale": 1.0
     },
     {
+      "no": 3062,
+      "name_sno": 303060,
+      "prefab_path": "Edith",
+      "portrait512_path": "UI/Textures/Souls/Edith/Edith_Costume02_512",
+      "portrait128_path": "UI/Textures/Souls/Edith/Edith_Costume02_128",
+      "costume_path": "Edith_Costume02",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_z": -0.01,
+      "position_scale": 1.0
+    },
+    {
       "no": 3070,
       "name_sno": 303070,
       "prefab_path": "Nicole",
@@ -2161,6 +2184,18 @@
       "position_scale": 1.0
     },
     {
+      "no": 4103,
+      "name_sno": 250665,
+      "prefab_path": "Petra",
+      "portrait512_path": "UI/Textures/Souls/Petra/Petra_512",
+      "portrait128_path": "UI/Textures/Souls/Petra/Petra_128",
+      "costume_path": "",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_y": 0.15,
+      "position_scale": 1.0
+    },
+    {
       "no": 4110,
       "name_sno": 304110,
       "prefab_path": "Nini",
@@ -2304,6 +2339,18 @@
     {
       "no": 4151,
       "name_sno": 304150,
+      "prefab_path": "Weiss",
+      "portrait512_path": "UI/Textures/Souls/Weiss/Weiss_Costume01_512",
+      "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_Costume01_128",
+      "costume_path": "Weiss_Costume01",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_y": 0.1,
+      "position_scale": 1.0
+    },
+    {
+      "no": 4157,
+      "name_sno": 259999,
       "prefab_path": "Weiss",
       "portrait512_path": "UI/Textures/Souls/Weiss/Weiss_Costume01_512",
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_Costume01_128",
@@ -2593,6 +2640,17 @@
       "position_scale": 1.0
     },
     {
+      "no": 6021,
+      "name_sno": 306020,
+      "prefab_path": "Lizelotte",
+      "portrait512_path": "UI/Textures/Souls/Lizelotte/Lizelotte_Costume01_512",
+      "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_Costume01_128",
+      "costume_path": "Lizelotte_Costume01",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
       "no": 6022,
       "name_sno": 306020,
       "prefab_path": "Lizelotte",
@@ -2724,6 +2782,17 @@
       "portrait512_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_Costume01_512",
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_Costume01_128",
       "costume_path": "CatherineBrave_Costume01",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
+      "no": 6512,
+      "name_sno": 301090,
+      "prefab_path": "CatherineBrave",
+      "portrait512_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_Costume03_512",
+      "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_Costume03_128",
+      "costume_path": "CatherineBrave_Costume03",
       "controller_path": "",
       "portrait_reverse": 1,
       "position_scale": 1.0
@@ -9830,6 +9899,86 @@
     {
       "no": 9703,
       "name_sno": 250658,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9704,
+      "name_sno": 250659,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9705,
+      "name_sno": 250660,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9706,
+      "name_sno": 250661,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9707,
+      "name_sno": 250662,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9708,
+      "name_sno": 250663,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9709,
+      "name_sno": 250664,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9710,
+      "name_sno": 250666,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9711,
+      "name_sno": 250667,
       "prefab_path": "",
       "portrait512_path": "",
       "portrait128_path": "",

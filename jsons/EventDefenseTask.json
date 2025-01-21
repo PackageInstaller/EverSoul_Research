@@ -254,6 +254,83 @@
       "task_amount": 10,
       "task_string": 12814,
       "score": 50000
+    },
+    {
+      "no": 301,
+      "event_group": 4,
+      "task_type": 1,
+      "task_string": 12815,
+      "score": 20000
+    },
+    {
+      "no": 302,
+      "event_group": 4,
+      "task_type": 3,
+      "task_amount": 100,
+      "task_string": 12803,
+      "score": 25000
+    },
+    {
+      "no": 303,
+      "event_group": 4,
+      "task_type": 3,
+      "task_amount": 285,
+      "task_string": 12803,
+      "score": 50000
+    },
+    {
+      "no": 304,
+      "event_group": 4,
+      "task_type": 3,
+      "task_param": 2,
+      "task_amount": 30,
+      "task_string": 12804,
+      "score": 30000
+    },
+    {
+      "no": 305,
+      "event_group": 4,
+      "task_type": 3,
+      "task_param": 2,
+      "task_amount": 85,
+      "task_string": 12804,
+      "score": 65000
+    },
+    {
+      "no": 306,
+      "event_group": 4,
+      "task_type": 3,
+      "task_param": 3,
+      "task_amount": 1,
+      "task_string": 12805,
+      "score": 30000
+    },
+    {
+      "no": 307,
+      "event_group": 4,
+      "task_type": 3,
+      "task_param": 3,
+      "task_amount": 3,
+      "task_string": 12805,
+      "score": 75000
+    },
+    {
+      "no": 308,
+      "event_group": 4,
+      "task_type": 5,
+      "task_param": 2,
+      "task_amount": 7,
+      "task_string": 12811,
+      "score": 50000
+    },
+    {
+      "no": 309,
+      "event_group": 4,
+      "task_type": 9,
+      "task_param": 6,
+      "task_amount": 1,
+      "task_string": 12814,
+      "score": 50000
     }
   ]
 }

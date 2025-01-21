@@ -1559,6 +1559,84 @@
       "voice": "Oyome_Positive02",
       "animation": "Happy",
       "emotion": "Laugh"
+    },
+    {
+      "no": 261,
+      "actor_no": 1080,
+      "voice": "Lilith_Call",
+      "animation": "Idle",
+      "emotion": "Normal"
+    },
+    {
+      "no": 262,
+      "actor_no": 1080,
+      "action_type": 1,
+      "voice": "Lilith_Chuckle",
+      "animation": "Idle",
+      "emotion": "Smile2"
+    },
+    {
+      "no": 263,
+      "actor_no": 1080,
+      "action_type": 2,
+      "voice": "Lilith_Think01",
+      "animation": "Idle",
+      "emotion": "Oh"
+    },
+    {
+      "no": 264,
+      "actor_no": 1080,
+      "action_type": 3,
+      "voice": "Lilith_Pissed",
+      "animation": "Surprise",
+      "emotion": "Oh"
+    },
+    {
+      "no": 265,
+      "actor_no": 1080,
+      "action_type": 4,
+      "voice": "Lilith_Laugh",
+      "animation": "Mock",
+      "emotion": "Happy2"
+    },
+    {
+      "no": 266,
+      "actor_no": 3140,
+      "voice": "Dominique_Phrase02",
+      "animation": "Shy",
+      "emotion": "Normal"
+    },
+    {
+      "no": 267,
+      "actor_no": 3140,
+      "action_type": 1,
+      "voice": "Dominique_Question",
+      "animation": "Idle",
+      "emotion": "Oh"
+    },
+    {
+      "no": 268,
+      "actor_no": 3140,
+      "action_type": 2,
+      "voice": "Dominique_Chuckle",
+      "animation": "Happy",
+      "emotion": "Oh"
+    },
+    {
+      "no": 269,
+      "actor_no": 3140,
+      "action_type": 3,
+      "voice": "Dominique_Laugh",
+      "animation": "Proud",
+      "emotion": "Smile"
+    },
+    {
+      "no": 270,
+      "actor_no": 3140,
+      "action_type": 4,
+      "voice": "Dominique_Amazed",
+      "animation": "Happy",
+      "emotion": "Smile2"
     }
   ]
 }

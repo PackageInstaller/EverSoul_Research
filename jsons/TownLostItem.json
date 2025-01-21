@@ -4105,6 +4105,78 @@
       "group_trip": 9414090
     },
     {
+      "no": 415006,
+      "hero_no": 4150,
+      "quest_type": 1,
+      "keyword_type": 101,
+      "keyword_get_details": 1003,
+      "group_start": 9415081,
+      "group_doing": 9415084,
+      "group_end": 9415087
+    },
+    {
+      "no": 415007,
+      "hero_no": 4150,
+      "quest_type": 2,
+      "keyword_type": 102,
+      "keyword_get_details": 1,
+      "group_start": 9415082,
+      "group_doing": 9415085,
+      "group_end": 9415088
+    },
+    {
+      "no": 415008,
+      "hero_no": 4150,
+      "quest_type": 3,
+      "keyword_type": 103,
+      "keyword_get_details": 104,
+      "group_start": 9415083,
+      "group_doing": 9415086,
+      "group_end": 9415089,
+      "group_trip": 9415090
+    },
+    {
+      "no": 415009,
+      "hero_no": 4150,
+      "quest_type": 4,
+      "keyword_type": 101,
+      "keyword_get_details": 1008,
+      "group_start": 9415091,
+      "group_doing": 9415092,
+      "group_end": 9415093
+    },
+    {
+      "no": 415010,
+      "hero_no": 4150,
+      "quest_type": 4,
+      "keyword_type": 101,
+      "keyword_get_details": 1003,
+      "group_start": 9415081,
+      "group_doing": 9415084,
+      "group_end": 9415087
+    },
+    {
+      "no": 415011,
+      "hero_no": 4150,
+      "quest_type": 4,
+      "keyword_type": 102,
+      "keyword_get_details": 1,
+      "group_start": 9415082,
+      "group_doing": 9415085,
+      "group_end": 9415088
+    },
+    {
+      "no": 415012,
+      "hero_no": 4150,
+      "quest_type": 4,
+      "keyword_type": 103,
+      "keyword_get_details": 104,
+      "group_start": 9415083,
+      "group_doing": 9415086,
+      "group_end": 9415089,
+      "group_trip": 9415090
+    },
+    {
       "no": 501006,
       "hero_no": 5010,
       "quest_type": 1,

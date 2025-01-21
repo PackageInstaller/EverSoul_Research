@@ -1479,6 +1479,66 @@
       "buff_no": 2090,
       "buff_name_sno": 26090,
       "tooltip_sno": 12590
+    },
+    {
+      "no": 149,
+      "event_group": 16,
+      "event_number": 1,
+      "event_stage_group": 1,
+      "buff_group": 1,
+      "buff_no": 2089,
+      "buff_name_sno": 26089,
+      "tooltip_sno": 12589
+    },
+    {
+      "no": 150,
+      "event_group": 16,
+      "event_number": 1,
+      "event_stage_group": 1,
+      "buff_group": 1,
+      "buff_no": 2089,
+      "buff_name_sno": 26089,
+      "tooltip_sno": 12589
+    },
+    {
+      "no": 151,
+      "event_group": 16,
+      "event_number": 1,
+      "event_stage_group": 1,
+      "buff_group": 1,
+      "buff_no": 2089,
+      "buff_name_sno": 26089,
+      "tooltip_sno": 12589
+    },
+    {
+      "no": 152,
+      "event_group": 16,
+      "event_number": 1,
+      "event_stage_group": 2,
+      "buff_group": 1,
+      "buff_no": 2090,
+      "buff_name_sno": 26090,
+      "tooltip_sno": 12590
+    },
+    {
+      "no": 153,
+      "event_group": 16,
+      "event_number": 1,
+      "event_stage_group": 2,
+      "buff_group": 1,
+      "buff_no": 2090,
+      "buff_name_sno": 26090,
+      "tooltip_sno": 12590
+    },
+    {
+      "no": 154,
+      "event_group": 16,
+      "event_number": 1,
+      "event_stage_group": 2,
+      "buff_group": 1,
+      "buff_no": 2090,
+      "buff_name_sno": 26090,
+      "tooltip_sno": 12590
     }
   ]
 }

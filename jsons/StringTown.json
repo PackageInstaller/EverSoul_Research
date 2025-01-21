@@ -121,6 +121,14 @@
       "zh_cn": "过去的艾尔纳斯"
     },
     {
+      "no": 612016,
+      "kr": "칼라르",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 700101,
       "kr": "재료 채집 (주간)",
       "en": "Material Gathering (Daytime)",
@@ -676,7 +684,7 @@
       "no": 701404,
       "kr": "마나석 수집하기",
       "en": "Collecting Manastones",
-      "ja": "",
+      "ja": "マナストーン収集",
       "zh_tw": "收集魔力石",
       "zh_cn": ""
     },
@@ -684,7 +692,7 @@
       "no": 701405,
       "kr": "강화석 정제하기",
       "en": "Refining Enhance Stones",
-      "ja": "",
+      "ja": "強化石精製",
       "zh_tw": "精煉強化石",
       "zh_cn": ""
     },
@@ -814,6 +822,14 @@
       "en": "Hand out Christmas presents",
       "ja": "クリスマスプレゼントを配る",
       "zh_tw": "分送聖誕禮物",
+      "zh_cn": ""
+    },
+    {
+      "no": 701531,
+      "kr": "서예하기",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {

@@ -1527,7 +1527,7 @@
     },
     {
       "key_name": "NEXT_GUILDRAID_VIEW_TIME_ADD",
-      "values_data": "1",
+      "values_data": "0",
       "type": 1
     },
     {
@@ -1542,12 +1542,12 @@
     },
     {
       "key_name": "NEXT_SINGLERAID_VIEW_TIME_ADD",
-      "values_data": "1",
+      "values_data": "0",
       "type": 1
     },
     {
       "key_name": "NEXT_WORLDRAID_VIEW_TIME_ADD",
-      "values_data": "1",
+      "values_data": "0",
       "type": 1
     },
     {

@@ -45,6 +45,12 @@
       "item_type": 99,
       "fx": "Fx_EventDefense_Item_Random_01",
       "count_string": 12462
+    },
+    {
+      "no": 7,
+      "item_prefab": "PF_EventDefense_Item_Collect_02",
+      "item_type": 99,
+      "fx": "Fx_EventDefense_Item_Random_01"
     }
   ]
 }

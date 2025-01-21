@@ -192,15 +192,15 @@
     },
     {
       "hero_no": 1110,
-      "pattern1": 1113,
-      "pattern2": 1110,
-      "pattern3": 1112,
-      "pattern4": 1110,
-      "pattern5": 1110,
-      "pattern6": 1112,
-      "pattern7": 1110,
-      "pattern8": 1110,
-      "pattern9": 1112
+      "pattern1": 11113,
+      "pattern2": 11110,
+      "pattern3": 11112,
+      "pattern4": 11110,
+      "pattern5": 11110,
+      "pattern6": 11112,
+      "pattern7": 11110,
+      "pattern8": 11110,
+      "pattern9": 11112
     },
     {
       "hero_no": 1120,
@@ -440,20 +440,20 @@
     },
     {
       "hero_no": 3050,
-      "pattern1": 3052,
-      "pattern2": 3050,
-      "pattern3": 3053,
-      "pattern4": 3050,
-      "pattern6": 3056,
-      "pattern8": 3057
+      "pattern1": 13052,
+      "pattern2": 13050,
+      "pattern3": 13053,
+      "pattern4": 13050,
+      "pattern6": 13056,
+      "pattern8": 13057
     },
     {
       "hero_no": 3060,
-      "pattern1": 3060,
-      "pattern2": 3063,
-      "pattern3": 3062,
-      "pattern4": 3060,
-      "pattern5": 3060
+      "pattern1": 13060,
+      "pattern2": 13063,
+      "pattern3": 13062,
+      "pattern4": 13060,
+      "pattern5": 13060
     },
     {
       "hero_no": 3070,
@@ -673,6 +673,13 @@
       "pattern3": 4140,
       "pattern4": 4143,
       "pattern5": 4140
+    },
+    {
+      "hero_no": 4150,
+      "pattern1": 4150,
+      "pattern2": 4153,
+      "pattern3": 4152,
+      "pattern4": 4150
     },
     {
       "hero_no": 5010,
@@ -1451,6 +1458,13 @@
       "pattern3": 4140,
       "pattern4": 4143,
       "pattern5": 4140
+    },
+    {
+      "hero_no": 7415,
+      "pattern1": 4150,
+      "pattern2": 4153,
+      "pattern3": 4152,
+      "pattern4": 4150
     },
     {
       "hero_no": 7501,
@@ -8976,6 +8990,72 @@
       "pattern6": 320820
     },
     {
+      "hero_no": 32084,
+      "ai_pattern": 3,
+      "pattern1": 320840,
+      "pattern2": 320840,
+      "pattern3": 320842,
+      "pattern4": 320840,
+      "pattern5": 320843,
+      "pattern6": 320840,
+      "pattern7": 320840,
+      "pattern8": 320841
+    },
+    {
+      "hero_no": 32085,
+      "ai_pattern": 3,
+      "pattern1": 320840,
+      "pattern2": 320840,
+      "pattern3": 320842,
+      "pattern4": 320840,
+      "pattern5": 320843,
+      "pattern6": 320840,
+      "pattern7": 320840,
+      "pattern8": 320841
+    },
+    {
+      "hero_no": 32086,
+      "ai_pattern": 3,
+      "pattern1": 320840,
+      "pattern2": 320840,
+      "pattern3": 320842,
+      "pattern4": 320840,
+      "pattern5": 320843,
+      "pattern6": 320840,
+      "pattern7": 320840,
+      "pattern8": 320841
+    },
+    {
+      "hero_no": 32087,
+      "ai_pattern": 3,
+      "pattern1": 320840,
+      "pattern2": 320840,
+      "pattern3": 320842,
+      "pattern4": 320840,
+      "pattern5": 320843,
+      "pattern6": 320840,
+      "pattern7": 320840,
+      "pattern8": 320841
+    },
+    {
+      "hero_no": 32088,
+      "ai_pattern": 3,
+      "pattern1": 320840,
+      "pattern2": 320840,
+      "pattern3": 320842,
+      "pattern4": 320840,
+      "pattern5": 320843,
+      "pattern6": 320840,
+      "pattern7": 320840,
+      "pattern8": 320841
+    },
+    {
+      "hero_no": 32089
+    },
+    {
+      "hero_no": 32090
+    },
+    {
       "hero_no": 37106,
       "pattern1": 1060,
       "pattern2": 1062,
@@ -9631,6 +9711,98 @@
       "pattern10": 600112,
       "pattern11": 600110,
       "pattern12": 600115
+    },
+    {
+      "hero_no": 60012,
+      "ai_pattern": 3,
+      "pattern1": 600121,
+      "pattern2": 600120,
+      "pattern3": 600122,
+      "pattern4": 600120,
+      "pattern5": 600124,
+      "pattern6": 600120,
+      "pattern7": 600123,
+      "pattern8": 600122,
+      "pattern9": 600120,
+      "pattern10": 6002124,
+      "pattern11": 600122,
+      "pattern12": 600120,
+      "pattern13": 600123,
+      "pattern14": 600121,
+      "pattern15": 600122,
+      "pattern16": 600124,
+      "pattern17": 600122,
+      "pattern18": 600120,
+      "pattern19": 600122,
+      "pattern20": 600123,
+      "pattern21": 600124,
+      "pattern22": 600120
+    },
+    {
+      "hero_no": 66004,
+      "pattern1": 99256,
+      "pattern2": 99255,
+      "pattern3": 99253,
+      "pattern4": 99258,
+      "pattern5": 99253,
+      "pattern6": 99254,
+      "pattern7": 99250,
+      "pattern8": 99257,
+      "pattern9": 99256,
+      "pattern10": 99252,
+      "pattern11": 99252,
+      "pattern12": 99252,
+      "pattern13": 99254,
+      "pattern14": 99250,
+      "pattern15": 99250,
+      "pattern16": 99258,
+      "pattern17": 99256,
+      "pattern18": 99253,
+      "pattern19": 99252,
+      "pattern20": 99253,
+      "pattern21": 99253,
+      "pattern22": 99252,
+      "pattern23": 99254,
+      "pattern24": 99250,
+      "pattern25": 99250,
+      "pattern26": 99250,
+      "pattern27": 99257,
+      "pattern28": 99256,
+      "pattern29": 99252,
+      "pattern30": 99258,
+      "pattern31": 99253,
+      "pattern32": 99252,
+      "pattern33": 99255,
+      "pattern34": 99253,
+      "pattern35": 99252,
+      "pattern36": 99256,
+      "pattern37": 99254,
+      "pattern38": 99254,
+      "pattern39": 99254,
+      "pattern40": 99254,
+      "pattern41": 99254,
+      "pattern42": 99254,
+      "pattern43": 99254,
+      "pattern44": 99254,
+      "pattern45": 99254,
+      "pattern46": 99254,
+      "pattern47": 99254,
+      "pattern48": 99254
+    },
+    {
+      "hero_no": 66104,
+      "pattern1": 661042,
+      "pattern2": 661040
+    },
+    {
+      "hero_no": 66204,
+      "pattern1": 661043,
+      "pattern2": 661040
+    },
+    {
+      "hero_no": 66304,
+      "pattern1": 661041,
+      "pattern2": 661040
     }
   ]
 }

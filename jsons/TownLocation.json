@@ -231,6 +231,14 @@
       "location_img": "Talk_BG_Elnathview",
       "bg_sound": "BGM_Vivienne_A",
       "amb_sound": ""
+    },
+    {
+      "no": 206,
+      "town_slot": 100,
+      "location_name_sno": 612016,
+      "location_img": "Talk_BG_Chalar",
+      "bg_sound": "BGM_EdenAlliance_Chalar",
+      "amb_sound": ""
     }
   ]
 }

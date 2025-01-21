@@ -21537,6 +21537,54 @@
       "item_sort_no": 20004
     },
     {
+      "no": 2355,
+      "category_sno": 110009,
+      "grade_sno": 110020,
+      "name_sno": 520555,
+      "desc_sno": 530555,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Weiss_Icon_Costume_02",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
+      "no": 2356,
+      "category_sno": 110009,
+      "grade_sno": 110016,
+      "name_sno": 520556,
+      "desc_sno": 530556,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "CatherineBrave_Icon_Costume_03",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
+      "no": 2357,
+      "category_sno": 110009,
+      "grade_sno": 110016,
+      "name_sno": 520557,
+      "desc_sno": 530557,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Jade_Icon_Costume_02",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
+      "no": 2358,
+      "category_sno": 110009,
+      "grade_sno": 110016,
+      "name_sno": 520558,
+      "desc_sno": 530558,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Edith_Icon_Costume_02",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
       "no": 2700,
       "category_sno": 110009,
       "grade_sno": 110011,
@@ -22585,6 +22633,30 @@
       "icon_path": "Aki_Icon_Costume_01",
       "atlas_type": 5,
       "item_sort_no": 20004
+    },
+    {
+      "no": 2805,
+      "category_sno": 110009,
+      "grade_sno": 110011,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Aki_Icon_Costume_01"
+    },
+    {
+      "no": 2806,
+      "category_sno": 110009,
+      "grade_sno": 110011,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Aki_Icon_Costume_01"
+    },
+    {
+      "no": 2807,
+      "category_sno": 110009,
+      "grade_sno": 110011,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Aki_Icon_Costume_01"
     },
     {
       "no": 2998,
@@ -23872,6 +23944,19 @@
       "item_sort_no": 3002
     },
     {
+      "no": 3375,
+      "category_sno": 110008,
+      "grade_sno": 110014,
+      "name_sno": 213375,
+      "desc_sno": 223375,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "Memory_Weiss",
+      "atlas_type": 4,
+      "item_use_no": 1003,
+      "item_sort_no": 3002
+    },
+    {
       "no": 3501,
       "category_sno": 110008,
       "grade_sno": 110017,
@@ -24958,6 +25043,121 @@
       "item_sort_no": 2220
     },
     {
+      "no": 4165,
+      "category_sno": 110006,
+      "grade_sno": 110020,
+      "name_sno": 214165,
+      "desc_sno": 224165,
+      "slot_limit_sno": 661,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_Unlock_Illust_box_1",
+      "item_sort_no": 2220
+    },
+    {
+      "no": 4166,
+      "category_sno": 110006,
+      "grade_sno": 110018,
+      "name_sno": 214166,
+      "desc_sno": 224166,
+      "slot_limit_sno": 661,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_Unlock_Illust_box_2",
+      "item_sort_no": 2220
+    },
+    {
+      "no": 4167,
+      "category_sno": 110006,
+      "grade_sno": 110016,
+      "name_sno": 214167,
+      "desc_sno": 224167,
+      "slot_limit_sno": 661,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_Unlock_Illust_box_3",
+      "item_sort_no": 2220
+    },
+    {
+      "no": 4168,
+      "category_sno": 110006,
+      "grade_sno": 110014,
+      "name_sno": 214168,
+      "desc_sno": 224168,
+      "slot_limit_sno": 661,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_Unlock_Illust_box_4",
+      "item_sort_no": 2220
+    },
+    {
+      "no": 4169,
+      "category_sno": 110006,
+      "grade_sno": 110014,
+      "name_sno": 214169,
+      "desc_sno": 224169,
+      "slot_limit_sno": 661,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_Unlock_Illust_box_5",
+      "item_sort_no": 2220
+    },
+    {
+      "no": 4170,
+      "category_sno": 110006,
+      "grade_sno": 110020,
+      "name_sno": 214170,
+      "desc_sno": 224170,
+      "slot_limit_sno": 662,
+      "stat_limit_sno": 110041,
+      "icon_path": "Icon_special_Newyear2025_1",
+      "atlas_type": 4,
+      "item_sort_no": 2220
+    },
+    {
+      "no": 4171,
+      "category_sno": 110006,
+      "grade_sno": 110020,
+      "name_sno": 214171,
+      "desc_sno": 224171,
+      "slot_limit_sno": 661,
+      "stat_limit_sno": 110041,
+      "icon_path": "Icon_special_Newyear2025_2",
+      "atlas_type": 4,
+      "item_sort_no": 2220
+    },
+    {
+      "no": 4172,
+      "category_sno": 110006,
+      "grade_sno": 110018,
+      "name_sno": 214172,
+      "desc_sno": 224172,
+      "slot_limit_sno": 662,
+      "stat_limit_sno": 110041,
+      "icon_path": "Icon_special_Newyear2025_3",
+      "atlas_type": 4,
+      "item_sort_no": 2220
+    },
+    {
+      "no": 4173,
+      "category_sno": 110006,
+      "grade_sno": 110018,
+      "name_sno": 214173,
+      "desc_sno": 224173,
+      "slot_limit_sno": 662,
+      "stat_limit_sno": 110041,
+      "icon_path": "Icon_special_Newyear2025_4",
+      "atlas_type": 4,
+      "item_sort_no": 2220
+    },
+    {
+      "no": 4174,
+      "category_sno": 110006,
+      "grade_sno": 110018,
+      "name_sno": 214174,
+      "desc_sno": 224174,
+      "slot_limit_sno": 662,
+      "stat_limit_sno": 110041,
+      "icon_path": "Icon_special_Newyear2025_5",
+      "atlas_type": 4,
+      "item_sort_no": 2220
+    },
+    {
       "no": 4201,
       "category_sno": 110008,
       "grade_sno": 110012,
@@ -25679,6 +25879,28 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/BG/bg_Christmas02_ChristmasMechaFair_01_i",
+      "item_sort_no": 60000
+    },
+    {
+      "no": 5271,
+      "category_sno": 110007,
+      "grade_sno": 110011,
+      "name_sno": 215271,
+      "desc_sno": 225271,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/BG/bg_GaonNewYear_01_i",
+      "item_sort_no": 60000
+    },
+    {
+      "no": 5281,
+      "category_sno": 110007,
+      "grade_sno": 110011,
+      "name_sno": 215281,
+      "desc_sno": 225281,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/BG/bg_RoseCrimson_01_i",
       "item_sort_no": 60000
     },
     {
@@ -26975,6 +27197,61 @@
       "item_sort_no": 60000
     },
     {
+      "no": 6006,
+      "category_sno": 110011,
+      "grade_sno": 110020,
+      "name_sno": 216006,
+      "desc_sno": 226006,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/icon_unlock_illust_6",
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6007,
+      "category_sno": 110011,
+      "grade_sno": 110018,
+      "name_sno": 216007,
+      "desc_sno": 226007,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/icon_unlock_illust_7",
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6008,
+      "category_sno": 110011,
+      "grade_sno": 110016,
+      "name_sno": 216008,
+      "desc_sno": 226008,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/icon_unlock_illust_8",
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6009,
+      "category_sno": 110011,
+      "grade_sno": 110014,
+      "name_sno": 216009,
+      "desc_sno": 226009,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/icon_unlock_illust_9",
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6010,
+      "category_sno": 110011,
+      "grade_sno": 110014,
+      "name_sno": 216010,
+      "desc_sno": 226010,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/icon_unlock_illust_10",
+      "item_sort_no": 60000
+    },
+    {
       "no": 6101,
       "category_sno": 110077,
       "grade_sno": 110011,
@@ -27851,6 +28128,18 @@
       "item_sort_no": 60000
     },
     {
+      "no": 6232,
+      "category_sno": 110077,
+      "grade_sno": 110011,
+      "name_sno": 216232,
+      "desc_sno": 226232,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_Stage32_icon",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
       "no": 6301,
       "category_sno": 110077,
       "grade_sno": 110011,
@@ -28651,6 +28940,174 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_path": "sticker_special_MephistoDawn01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6805,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216805,
+      "desc_sno": 226805,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_Weiss01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6806,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216806,
+      "desc_sno": 226806,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_RoseCrimson01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6807,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216807,
+      "desc_sno": 226807,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_HonglanCombat01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6808,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216808,
+      "desc_sno": 226808,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_Hanul01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6809,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216809,
+      "desc_sno": 226809,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_Jihomir01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6810,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216810,
+      "desc_sno": 226810,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_ReneeSilver01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6811,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216811,
+      "desc_sno": 226811,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_Laura01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6812,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216812,
+      "desc_sno": 226812,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_Nia01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6813,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216813,
+      "desc_sno": 226813,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6814,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216814,
+      "desc_sno": 226814,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_MiriamMirage01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6815,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216815,
+      "desc_sno": 226815,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6816,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216816,
+      "desc_sno": 226816,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_Carnelian01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6817,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216817,
+      "desc_sno": 226817,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_GarnetRapture01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6818,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216818,
+      "desc_sno": 226818,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_Meryl01",
       "atlas_type": 6,
       "item_sort_no": 60000
     },
@@ -30558,6 +31015,72 @@
       "item_sort_no": 10
     },
     {
+      "no": 8114,
+      "category_sno": 110075,
+      "grade_sno": 110012,
+      "name_sno": 218114,
+      "desc_sno": 228114,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_NewYear2_event_1",
+      "item_sort_no": 10
+    },
+    {
+      "no": 8115,
+      "category_sno": 110075,
+      "grade_sno": 110012,
+      "name_sno": 218115,
+      "desc_sno": 228115,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_NewYear2_event_2",
+      "item_sort_no": 10
+    },
+    {
+      "no": 8116,
+      "category_sno": 110075,
+      "grade_sno": 110012,
+      "name_sno": 218116,
+      "desc_sno": 228116,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_NewYear2_event_3",
+      "item_sort_no": 10
+    },
+    {
+      "no": 8117,
+      "category_sno": 110075,
+      "grade_sno": 110014,
+      "name_sno": 218117,
+      "desc_sno": 228029,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_Ticket_EventRaid_2",
+      "item_sort_no": 10
+    },
+    {
+      "no": 8118,
+      "category_sno": 110075,
+      "grade_sno": 110012,
+      "name_sno": 218118,
+      "desc_sno": 228118,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_Ticket_Roulette",
+      "item_sort_no": 10
+    },
+    {
+      "no": 8119,
+      "category_sno": 110075,
+      "grade_sno": 110014,
+      "name_sno": 218014,
+      "desc_sno": 228014,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/icon_ticket_minigame_2",
+      "item_sort_no": 10
+    },
+    {
       "no": 8901,
       "category_sno": 110008,
       "grade_sno": 110014,
@@ -32205,6 +32728,19 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_path": "Memory_Signature_MephistoDawn",
+      "atlas_type": 4,
+      "move_behavior": 603,
+      "item_sort_no": 20000
+    },
+    {
+      "no": 10069,
+      "category_sno": 110003,
+      "grade_sno": 110014,
+      "name_sno": 2110069,
+      "desc_sno": 2210069,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "Memory_Signature_Weiss",
       "atlas_type": 4,
       "move_behavior": 603,
       "item_sort_no": 20000
@@ -34263,6 +34799,17 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/Souls/Sigrid_128",
+      "item_sort_no": 40000
+    },
+    {
+      "no": 34150,
+      "category_sno": 110074,
+      "grade_sno": 110014,
+      "name_sno": 2134150,
+      "desc_sno": 2234150,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Souls/Weiss_128",
       "item_sort_no": 40000
     },
     {
@@ -38431,6 +38978,149 @@
       "item_sort_no": 50000
     },
     {
+      "no": 44801,
+      "category_sno": 110005,
+      "grade_sno": 110014,
+      "name_sno": 2144801,
+      "desc_sno": 2244801,
+      "slot_limit_sno": 553003,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_25Newyear_Boutique",
+      "item_sort_no": 50000
+    },
+    {
+      "no": 44802,
+      "category_sno": 110005,
+      "grade_sno": 110014,
+      "name_sno": 2144802,
+      "desc_sno": 2244802,
+      "slot_limit_sno": 553003,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_25Newyear_Playzone",
+      "item_sort_no": 50000
+    },
+    {
+      "no": 44803,
+      "category_sno": 110005,
+      "grade_sno": 110014,
+      "name_sno": 2144803,
+      "desc_sno": 2244803,
+      "slot_limit_sno": 553003,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_25Newyear_Stage",
+      "item_sort_no": 50000
+    },
+    {
+      "no": 44804,
+      "category_sno": 110005,
+      "grade_sno": 110018,
+      "name_sno": 2144804,
+      "desc_sno": 2244804,
+      "slot_limit_sno": 553005,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_25Newyear_Sarangchae",
+      "item_sort_no": 50000
+    },
+    {
+      "no": 44805,
+      "category_sno": 110005,
+      "grade_sno": 110018,
+      "name_sno": 2144805,
+      "desc_sno": 2244805,
+      "slot_limit_sno": 553001,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_25Newyear_Fountain",
+      "item_sort_no": 50000
+    },
+    {
+      "no": 44806,
+      "category_sno": 110005,
+      "grade_sno": 110012,
+      "name_sno": 2144806,
+      "desc_sno": 2244806,
+      "slot_limit_sno": 553001,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_25Newyear_Table",
+      "item_sort_no": 50000
+    },
+    {
+      "no": 44807,
+      "category_sno": 110005,
+      "grade_sno": 110012,
+      "name_sno": 2144807,
+      "desc_sno": 2244807,
+      "slot_limit_sno": 553001,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_25Newyear_Chair",
+      "item_sort_no": 50000
+    },
+    {
+      "no": 44808,
+      "category_sno": 110005,
+      "grade_sno": 110012,
+      "name_sno": 2144808,
+      "desc_sno": 2244808,
+      "slot_limit_sno": 553001,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_25Newyear_Partition",
+      "item_sort_no": 50000
+    },
+    {
+      "no": 44809,
+      "category_sno": 110005,
+      "grade_sno": 110012,
+      "name_sno": 2144809,
+      "desc_sno": 2244809,
+      "slot_limit_sno": 553001,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_25Newyear_Lamp",
+      "item_sort_no": 50000
+    },
+    {
+      "no": 44810,
+      "category_sno": 110005,
+      "grade_sno": 110012,
+      "name_sno": 2144810,
+      "desc_sno": 2244810,
+      "slot_limit_sno": 553001,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/TL_TOWN_B_25Newyear_ColorTile",
+      "item_sort_no": 50000
+    },
+    {
+      "no": 44811,
+      "category_sno": 110005,
+      "grade_sno": 110012,
+      "name_sno": 2144811,
+      "desc_sno": 2244811,
+      "slot_limit_sno": 553001,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_25Newyear_Camellia",
+      "item_sort_no": 50000
+    },
+    {
+      "no": 44812,
+      "category_sno": 110005,
+      "grade_sno": 110012,
+      "name_sno": 2144812,
+      "desc_sno": 2244812,
+      "slot_limit_sno": 553001,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_25Newyear_Gayageum",
+      "item_sort_no": 50000
+    },
+    {
+      "no": 44813,
+      "category_sno": 110005,
+      "grade_sno": 110012,
+      "name_sno": 2144813,
+      "desc_sno": 2244813,
+      "slot_limit_sno": 553001,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_25Newyear_SnackTable",
+      "item_sort_no": 50000
+    },
+    {
       "no": 47001,
       "category_sno": 110005,
       "grade_sno": 110018,
@@ -40034,6 +40724,18 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_path": "sticker_love_Sigrid01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 541501,
+      "category_sno": 110077,
+      "grade_sno": 110012,
+      "name_sno": 21541501,
+      "desc_sno": 22541501,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_love_Weiss01",
       "atlas_type": 6,
       "item_sort_no": 60000
     },

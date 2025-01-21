@@ -1099,6 +1099,27 @@
       "condition_value2": 5
     },
     {
+      "no": 66104,
+      "condition_key": 38,
+      "condition_target": 2,
+      "condition_value1": 66104.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 66204,
+      "condition_key": 38,
+      "condition_target": 2,
+      "condition_value1": 66204.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 66304,
+      "condition_key": 38,
+      "condition_target": 2,
+      "condition_value1": 66304.0,
+      "condition_value2": 1
+    },
+    {
       "no": 99182,
       "condition_key": 21,
       "condition_target": 2
@@ -5146,6 +5167,80 @@
       "condition_value1": 414902.0
     },
     {
+      "no": 415000,
+      "condition_key": 4,
+      "condition_target": 2,
+      "condition_value1": 415000.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 415001,
+      "condition_key": 5,
+      "condition_target": 2,
+      "condition_value1": 305.0,
+      "condition_value2": 2
+    },
+    {
+      "no": 415002,
+      "condition_key": 15,
+      "condition_target": 2,
+      "condition_value1": 3.0
+    },
+    {
+      "no": 415003,
+      "condition_key": 4,
+      "condition_target": 2,
+      "condition_value1": 870000.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 415004,
+      "condition_key": 4,
+      "condition_target": 2,
+      "condition_value1": 880000.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 415009,
+      "condition_key": 26,
+      "condition_target": 2,
+      "condition_value1": 415000.0
+    },
+    {
+      "no": 415412,
+      "condition_key": 4,
+      "condition_target": 2,
+      "condition_value1": 415412.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 415422,
+      "condition_key": 4,
+      "condition_target": 2,
+      "condition_value1": 415422.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 415432,
+      "condition_key": 4,
+      "condition_target": 2,
+      "condition_value1": 415432.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 415998,
+      "condition_key": 26,
+      "condition_target": 1,
+      "condition_value1": 415999.0
+    },
+    {
+      "no": 415999,
+      "condition_key": 4,
+      "condition_target": 1,
+      "condition_value1": 415999.0,
+      "condition_value2": 1
+    },
+    {
       "no": 451080,
       "condition_key": 45,
       "condition_target": 1,
@@ -6376,6 +6471,13 @@
       "condition_value2": 20
     },
     {
+      "no": 652429,
+      "condition_key": 4,
+      "condition_target": 2,
+      "condition_value1": 652319.0,
+      "condition_value2": 1
+    },
+    {
       "no": 652431,
       "condition_key": 26,
       "condition_target": 1,
@@ -6427,14 +6529,21 @@
       "condition_key": 4,
       "condition_target": 1,
       "condition_value1": 653212.0,
-      "condition_value2": 5
+      "condition_value2": 3
     },
     {
       "no": 653213,
       "condition_key": 4,
       "condition_target": 2,
       "condition_value1": 653212.0,
-      "condition_value2": 5
+      "condition_value2": 3
+    },
+    {
+      "no": 653312,
+      "condition_key": 4,
+      "condition_target": 2,
+      "condition_value1": 653312.0,
+      "condition_value2": 1
     },
     {
       "no": 653400,
@@ -8578,6 +8687,84 @@
       "condition_value2": 2
     },
     {
+      "no": 1111132,
+      "condition_key": 9,
+      "condition_target": 2
+    },
+    {
+      "no": 1111212,
+      "condition_key": 4,
+      "condition_target": 3,
+      "condition_value1": 1111212.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 1111313,
+      "condition_key": 27,
+      "condition_target": 2,
+      "condition_value1": 110042.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 1111333,
+      "condition_key": 27,
+      "condition_target": 2,
+      "condition_value1": 110042.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 1111412,
+      "condition_key": 4,
+      "condition_target": 1,
+      "condition_value1": 1111412.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 1111419,
+      "condition_key": 26,
+      "condition_target": 1,
+      "condition_value1": 1111412.0
+    },
+    {
+      "no": 1111422,
+      "condition_key": 4,
+      "condition_target": 1,
+      "condition_value1": 1111422.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 1111429,
+      "condition_key": 26,
+      "condition_target": 1,
+      "condition_value1": 1111422.0
+    },
+    {
+      "no": 1111432,
+      "condition_key": 4,
+      "condition_target": 1,
+      "condition_value1": 1111432.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 1111439,
+      "condition_key": 26,
+      "condition_target": 1,
+      "condition_value1": 1111432.0
+    },
+    {
+      "no": 1111441,
+      "condition_key": 12,
+      "condition_target": 2,
+      "condition_value1": 3.5,
+      "condition_value2": 1
+    },
+    {
+      "no": 1111615,
+      "condition_key": 38,
+      "condition_target": 2,
+      "condition_value1": 1110.0
+    },
+    {
       "no": 1113001,
       "condition_key": 5,
       "condition_target": 2,
@@ -8692,6 +8879,153 @@
       "condition_key": 4,
       "condition_target": 2,
       "condition_value1": 1303012.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 1305008,
+      "condition_key": 4,
+      "condition_target": 2,
+      "condition_value1": 1305008.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 1305009,
+      "condition_key": 4,
+      "condition_target": 2,
+      "condition_value1": 1305009.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 1305018,
+      "condition_key": 4,
+      "condition_target": 3,
+      "condition_value1": 1305008.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 1305019,
+      "condition_key": 4,
+      "condition_target": 3,
+      "condition_value1": 1305009.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 1305102,
+      "condition_key": 4,
+      "condition_target": 2,
+      "condition_value1": 1305001.0,
+      "condition_value2": 2
+    },
+    {
+      "no": 1305103,
+      "condition_key": 4,
+      "condition_target": 3,
+      "condition_value1": 1305001.0,
+      "condition_value2": 3
+    },
+    {
+      "no": 1305191,
+      "condition_key": 26,
+      "condition_target": 2,
+      "condition_value1": 1305001.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 1305192,
+      "condition_key": 26,
+      "condition_target": 3,
+      "condition_value1": 1305001.0,
+      "condition_value2": 2
+    },
+    {
+      "no": 1305202,
+      "condition_key": 4,
+      "condition_target": 2,
+      "condition_value1": 1305002.0,
+      "condition_value2": 2
+    },
+    {
+      "no": 1305203,
+      "condition_key": 4,
+      "condition_target": 3,
+      "condition_value1": 1305002.0,
+      "condition_value2": 3
+    },
+    {
+      "no": 1305291,
+      "condition_key": 26,
+      "condition_target": 2,
+      "condition_value1": 1305002.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 1305292,
+      "condition_key": 26,
+      "condition_target": 3,
+      "condition_value1": 1305002.0,
+      "condition_value2": 2
+    },
+    {
+      "no": 1306101,
+      "condition_key": 22,
+      "condition_target": 1,
+      "condition_value1": 1.0,
+      "condition_value2": 2
+    },
+    {
+      "no": 1306102,
+      "condition_key": 22,
+      "condition_target": 1,
+      "condition_value1": 1.0,
+      "condition_value2": 4
+    },
+    {
+      "no": 1306103,
+      "condition_key": 22,
+      "condition_target": 1,
+      "condition_value1": 1.0,
+      "condition_value2": 6
+    },
+    {
+      "no": 1306104,
+      "condition_key": 22,
+      "condition_target": 1,
+      "condition_value1": 1.0,
+      "condition_value2": 7
+    },
+    {
+      "no": 1306201,
+      "condition_key": 5,
+      "condition_target": 1,
+      "condition_value1": 10111.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 1306301,
+      "condition_key": 5,
+      "condition_target": 1,
+      "condition_value1": 101.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 1306302,
+      "condition_key": 5,
+      "condition_target": 1,
+      "condition_value1": 102.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 1306303,
+      "condition_key": 5,
+      "condition_target": 1,
+      "condition_value1": 10108.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 1306304,
+      "condition_key": 5,
+      "condition_target": 1,
+      "condition_value1": 10109.0,
       "condition_value2": 1
     },
     {
@@ -10338,6 +10672,104 @@
       "condition_value2": 25
     },
     {
+      "no": 6001221,
+      "condition_key": 34,
+      "condition_target": 1,
+      "condition_value1": 6001222.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 6001222,
+      "condition_key": 34,
+      "condition_target": 1,
+      "condition_value1": 6001222.0,
+      "condition_value2": 2
+    },
+    {
+      "no": 6001223,
+      "condition_key": 34,
+      "condition_target": 1,
+      "condition_value1": 6001222.0,
+      "condition_value2": 3
+    },
+    {
+      "no": 6001224,
+      "condition_key": 4,
+      "condition_target": 1,
+      "condition_value1": 6001222.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 6001225,
+      "condition_key": 4,
+      "condition_target": 1,
+      "condition_value1": 6001222.0,
+      "condition_value2": 2
+    },
+    {
+      "no": 6001226,
+      "condition_key": 4,
+      "condition_target": 1,
+      "condition_value1": 6001222.0,
+      "condition_value2": 3
+    },
+    {
+      "no": 6001231,
+      "condition_key": 4,
+      "condition_target": 1,
+      "condition_value1": 6001239.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 6001232,
+      "condition_key": 4,
+      "condition_target": 1,
+      "condition_value1": 6001239.0,
+      "condition_value2": 2
+    },
+    {
+      "no": 6001233,
+      "condition_key": 4,
+      "condition_target": 1,
+      "condition_value1": 6001239.0,
+      "condition_value2": 3
+    },
+    {
+      "no": 6001234,
+      "condition_key": 4,
+      "condition_target": 1,
+      "condition_value1": 6001239.0,
+      "condition_value2": 4
+    },
+    {
+      "no": 6001235,
+      "condition_key": 4,
+      "condition_target": 1,
+      "condition_value1": 6001239.0,
+      "condition_value2": 5
+    },
+    {
+      "no": 6001291,
+      "condition_key": 5,
+      "condition_target": 2,
+      "condition_value1": 302.0,
+      "condition_value2": 2
+    },
+    {
+      "no": 6001292,
+      "condition_key": 5,
+      "condition_target": 2,
+      "condition_value1": 305.0,
+      "condition_value2": 2
+    },
+    {
+      "no": 6001298,
+      "condition_key": 4,
+      "condition_target": 2,
+      "condition_value1": 6001228.0,
+      "condition_value2": 8
+    },
+    {
       "no": 6011111,
       "condition_key": 17,
       "condition_target": 1,
@@ -10843,6 +11275,48 @@
       "condition_key": 4,
       "condition_target": 2,
       "condition_value1": 963011.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 9992070,
+      "condition_key": 38,
+      "condition_target": 2,
+      "condition_value1": 2070.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 9993030,
+      "condition_key": 38,
+      "condition_target": 2,
+      "condition_value1": 3030.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 9993050,
+      "condition_key": 38,
+      "condition_target": 2,
+      "condition_value1": 3050.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 9993090,
+      "condition_key": 38,
+      "condition_target": 2,
+      "condition_value1": 3090.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 9994130,
+      "condition_key": 38,
+      "condition_target": 2,
+      "condition_value1": 4130.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 9994150,
+      "condition_key": 38,
+      "condition_target": 2,
+      "condition_value1": 4150.0,
       "condition_value2": 1
     },
     {

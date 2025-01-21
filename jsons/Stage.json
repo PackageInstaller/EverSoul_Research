@@ -81547,6 +81547,17 @@
       "battle_time": 180
     },
     {
+      "no": 90009,
+      "stage_type": 110,
+      "map": "Map_Battle_Raid_NewYear01",
+      "global_volume": 1,
+      "monster_normal": "0",
+      "monster_elite": "0",
+      "monster_boss": "0",
+      "is_raid_battle": 1,
+      "battle_time": 180
+    },
+    {
       "no": 91001,
       "stage_type": 110,
       "name_sno": 419062,
@@ -81794,6 +81805,18 @@
       "stage_type": 110,
       "name_sno": 419091,
       "map": "Map_Battle_Raid_Gaia_Event_01",
+      "global_volume": 3,
+      "monster_normal": "0",
+      "monster_elite": "0",
+      "monster_boss": "0",
+      "is_raid_battle": 1,
+      "battle_time": 120
+    },
+    {
+      "no": 102012,
+      "stage_type": 110,
+      "name_sno": 419093,
+      "map": "Map_Battle_Raid_NewYear02",
       "global_volume": 3,
       "monster_normal": "0",
       "monster_elite": "0",
@@ -83055,6 +83078,18 @@
       "battle_time": 90
     },
     {
+      "no": 210103,
+      "stage_type": 110,
+      "name_sno": 419092,
+      "map": "Map_Battle_Raid_NewYear02",
+      "global_volume": 3,
+      "monster_normal": "0",
+      "monster_elite": "0",
+      "monster_boss": "0",
+      "is_raid_battle": 1,
+      "battle_time": 90
+    },
+    {
       "no": 230617,
       "stage_type": 13,
       "name_sno": 419082,
@@ -83215,6 +83250,18 @@
       "stage_type": 13,
       "name_sno": 419091,
       "map": "Map_Battle_Raid_Gaia_Event_01",
+      "global_volume": 3,
+      "monster_normal": "0",
+      "monster_elite": "0",
+      "monster_boss": "0",
+      "is_raid_battle": 1,
+      "battle_time": 120
+    },
+    {
+      "no": 250117,
+      "stage_type": 13,
+      "name_sno": 419093,
+      "map": "Map_Battle_Raid_NewYear02",
       "global_volume": 3,
       "monster_normal": "0",
       "monster_elite": "0",

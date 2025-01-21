@@ -494,6 +494,28 @@
       "tip3_sno1": 532331,
       "tip3_sno2": 532331,
       "tip3_sno3": 532332
+    },
+    {
+      "no": 24,
+      "shop_no": 10024,
+      "pay_item_no": 8114,
+      "pay_item_amount": 100,
+      "repeat_draw_box": "8,9",
+      "bg_path": "NewYear2/bg_NewYear2_shop",
+      "shop_image_path": "",
+      "shop_name_sno": 21097,
+      "event_shop_hero": 6510,
+      "model_viewer_display": 2356,
+      "model_offset": "[0, 0, 0]",
+      "tip_sno1": 532339,
+      "tip_sno2": 532339,
+      "tip_sno3": 532340,
+      "tip2_sno1": 532341,
+      "tip2_sno2": 532341,
+      "tip2_sno3": 532342,
+      "tip3_sno1": 532343,
+      "tip3_sno2": 532343,
+      "tip3_sno3": 532344
     }
   ]
 }
