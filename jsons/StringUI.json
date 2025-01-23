@@ -3674,7 +3674,7 @@
     },
     {
       "no": 460,
-      "kr": "요구 레벨 : 60",
+      "kr": "요구 레벨: 60",
       "en": "Required Level: 60",
       "ja": "要求Lv：60",
       "zh_tw": "要求等級：60",
@@ -4410,7 +4410,7 @@
     },
     {
       "no": 552,
-      "kr": "장착 중 : {0} Lv.{1}",
+      "kr": "장착 중: {0} Lv.{1}",
       "en": "Equipped: {0} Lv. {1}",
       "ja": "着用中：{0}Lv.{1}",
       "zh_tw": "裝備中：{0}Lv.{1}",
@@ -5450,7 +5450,7 @@
     },
     {
       "no": 682,
-      "kr": "초기화 남은 횟수 : {0} / {1}",
+      "kr": "초기화 남은 횟수: {0} / {1}",
       "en": "Resets remaining: {0} / {1}",
       "ja": "残りリセット回数：{0} / {1}",
       "zh_tw": "剩餘次數：{0}／{1}",
@@ -6474,7 +6474,7 @@
     },
     {
       "no": 810,
-      "kr": "구매 가능 횟수 : <color=\"#2d9a00\">{0} / {1}</color>",
+      "kr": "구매 가능 횟수: <color=\"#2d9a00\">{0} / {1}</color>",
       "en": "Available Purchases: <color=\"#2d9a00\">{0} / {1}</color>",
       "ja": "購入可能回数 : <color=\"#2d9a00\">{0} / {1}</color>",
       "zh_tw": "可購買次數：<color=\"#2d9a00\">{0}／{1}</color>",
@@ -6506,7 +6506,7 @@
     },
     {
       "no": 814,
-      "kr": "처치에 실패하였습니다.\r\n\r\n남은 체력 : <color=\"#FF5050\">{0}</color>%",
+      "kr": "처치에 실패하였습니다.\r\n\r\n남은 체력: <color=\"#FF5050\">{0}</color>%",
       "en": "The boss defeated you.\r\r\n\r\r\nHP Remaining: <color=\"#FF5050\">{0}</color>%",
       "ja": "戦闘が終了しました。\r\n\r\n残りの体力:<color=\"#FF5050\"> {0} </color>％",
       "zh_tw": "擊殺失敗。\r\r\n\r\r\n剩餘體力：<color=\"#FF5050\">{0}</color>%",
@@ -7363,9 +7363,9 @@
     {
       "no": 921,
       "kr": "외전 이벤트",
-      "en": "",
+      "en": "Spin-Off Event",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "外傳活動",
       "zh_cn": ""
     },
     {
@@ -7746,7 +7746,7 @@
     },
     {
       "no": 10007,
-      "kr": "아이템을 구매했습니다 : {0} {1}개",
+      "kr": "아이템을 구매했습니다: {0} {1}개",
       "en": "Purchased: {1} {0}(s)",
       "ja": "購入したアイテム：{0}{1}個",
       "zh_tw": "已購買道具：{0}{1}個",
@@ -8074,7 +8074,7 @@
     },
     {
       "no": 10048,
-      "kr": "요구 Lv : {0}",
+      "kr": "요구 Lv: {0}",
       "en": "Required Lv.: {0}",
       "ja": "要求Lv：{0}",
       "zh_tw": "要求Lv：{0}",
@@ -9691,9 +9691,9 @@
     {
       "no": 10629,
       "kr": "배경을 터치하면 감상 모드를 종료합니다.",
-      "en": "Tap the screen to exit View mode.",
+      "en": "Tap the background to exit View mode.",
       "ja": "画面をタップすると、鑑賞モードを終了します。",
-      "zh_tw": "點擊畫面即可結束鑑賞模式。",
+      "zh_tw": "點擊背景即可退出鑑賞模式。",
       "zh_cn": "点击画面即可结束鉴赏模式。"
     },
     {
@@ -10074,7 +10074,7 @@
     },
     {
       "no": 10725,
-      "kr": "연습 : 전선",
+      "kr": "연습: 전선",
       "en": "Practice: Battlefront",
       "ja": "練習：戦線",
       "zh_tw": "練習：戰線",
@@ -10082,7 +10082,7 @@
     },
     {
       "no": 10726,
-      "kr": "연습 : 길드 레이드",
+      "kr": "연습: 길드 레이드",
       "en": "Practice: Guild Raid",
       "ja": "練習：ギルドレイド",
       "zh_tw": "練習：公會突襲",
@@ -10090,7 +10090,7 @@
     },
     {
       "no": 10727,
-      "kr": "연습 : 악령 토벌",
+      "kr": "연습: 악령 토벌",
       "en": "Practice: Evil Soul Subjugation",
       "ja": "練習：悪霊討伐",
       "zh_tw": "練習：惡靈討伐",
@@ -10098,7 +10098,7 @@
     },
     {
       "no": 10728,
-      "kr": "연습 : 게이트 돌파",
+      "kr": "연습: 게이트 돌파",
       "en": "Practice: Gate Breakthrough",
       "ja": "練習：ゲート突破",
       "zh_tw": "練習：突破傳送門",
@@ -10130,7 +10130,7 @@
     },
     {
       "no": 10732,
-      "kr": "다음 일정 : {0} (UTC)",
+      "kr": "다음 일정: {0} (UTC)",
       "en": "Next schedule: {0} (UTC)",
       "ja": "次の日程：{0} (UTC)",
       "zh_tw": "下個時程：{0}（UTC）",
@@ -10307,25 +10307,25 @@
     {
       "no": 10817,
       "kr": "잠재 능력의 레벨 별 수치",
-      "en": "",
+      "en": "Potential value by level",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "各潛能等級數值",
       "zh_cn": "潜能的各等级数值"
     },
     {
       "no": 10818,
       "kr": "잠재 능력 확률",
-      "en": "",
+      "en": "Potential probability",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "潛能機率",
       "zh_cn": "潜能概率"
     },
     {
       "no": 10819,
       "kr": "잠재 능력의 고유성",
-      "en": "",
+      "en": "Potential uniqueness",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "潛能特性",
       "zh_cn": "潜能特性"
     },
     {
@@ -10522,7 +10522,7 @@
     },
     {
       "no": 11103,
-      "kr": "이벤트 일정 : {0}.{1}.{2} ~ {3}.{4}.{5}",
+      "kr": "이벤트 일정: {0}.{1}.{2} ~ {3}.{4}.{5}",
       "en": "Event Schedule: {0}.{1}.{2}–{3}.{4}.{5}",
       "ja": "イベント日程：{0}.{1}.{2} ～ {3}.{4}.{5}",
       "zh_tw": "活動期間：{0}.{1}.{2}～{3}.{4}.{5}",
@@ -10978,7 +10978,7 @@
     },
     {
       "no": 11160,
-      "kr": "남은 무료 소환 : {0}회",
+      "kr": "남은 무료 소환: {0}회",
       "en": "{0} Free Summon(s) Available",
       "ja": "{0}回無料召喚可能",
       "zh_tw": "剩餘免費召喚：{0}次",
@@ -12131,73 +12131,73 @@
     {
       "no": 11384,
       "kr": "이벤트 {0}일차 완료",
-      "en": "",
+      "en": "Complete Day {0} of the Event",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "完成第{0}天活動",
       "zh_cn": ""
     },
     {
       "no": 11385,
       "kr": "이벤트 출석 {0}일 완료",
-      "en": "",
+      "en": "Complete Day {0} of Event Attendance",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "完成{0}天活動簽到",
       "zh_cn": ""
     },
     {
       "no": 11386,
       "kr": "미니게임 {0}회 완료",
-      "en": "",
+      "en": "Complete the mini game {0} time(s)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "完成{0}次小遊戲",
       "zh_cn": ""
     },
     {
       "no": 11387,
       "kr": "미니게임 누적 {0}점 달성",
-      "en": "",
+      "en": "Reach {0} cumulative points in the mini game",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成小遊戲累積{0}分",
       "zh_cn": ""
     },
     {
       "no": 11388,
       "kr": "무한챌린지 누적 {0}점 달성",
-      "en": "",
+      "en": "Reach {0} cumulative points in the Infinity Challenge",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成無限挑戰累積{0}分",
       "zh_cn": ""
     },
     {
       "no": 11389,
-      "kr": "돌림판 티켓 {0}회 사용",
-      "en": "",
+      "kr": "룰렛 티켓 {0}회 사용",
+      "en": "Use {0} Spin Ticket(s)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "使用{0}次轉盤票券",
       "zh_cn": ""
     },
     {
       "no": 11390,
       "kr": "{0} 획득",
-      "en": "",
+      "en": "Acquire {0}",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "獲得{0}",
       "zh_cn": ""
     },
     {
       "no": 11391,
       "kr": "{0} 에픽+등급 달성",
-      "en": "",
+      "en": "Upgrade {0} to Epic+",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成{0}史詩＋階級",
       "zh_cn": ""
     },
     {
       "no": 11392,
       "kr": "{0} 레전더리 등급 달성",
-      "en": "",
+      "en": "Upgrade {0} to Legendary",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成{0}傳說階級",
       "zh_cn": ""
     },
     {
@@ -13353,6 +13353,14 @@
       "zh_cn": "精灵帮手倒下了……"
     },
     {
+      "no": 12088,
+      "kr": "마물을 물리치고 심상 세계를 탈출하세요!",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 12089,
       "kr": "- 90초 동안 행운의 꽃밭으로 몰려오는 마물들로부터 살아남아야 합니다.",
       "en": "- Monsters will rush the flower field. You must survive for 90 seconds.",
@@ -14178,7 +14186,7 @@
     },
     {
       "no": 12192,
-      "kr": "점수 확정 후 종료하시겠습니까?\r\n\r\n<color=\"#d23d44\">현재 점수 : {0}</color>\r\n\r\n점수 확정 시 보상을 획득할 수 있으며,\r\n입장 횟수가 차감됩니다.",
+      "kr": "점수 확정 후 종료하시겠습니까?\r\n\r\n<color=\"#d23d44\">현재 점수: {0}</color>\r\n\r\n점수 확정 시 보상을 획득할 수 있으며,\r\n입장 횟수가 차감됩니다.",
       "en": "Finalize score and end the battle?\r\n\r\n<color=\"#d23d44\">Current score: {0}</color>\r\n\r\nFinalizing the score will grant you rewards\r\nand deduct from your available entries.",
       "ja": "スコアを確定し、終了しますか？\r\n\r\n<color=\"#d23d44\">現在のスコア：{0}</color>\r\n\r\nスコア確定すると報酬を獲得でき、\r\n入場回数が差し引かれます。",
       "zh_tw": "確定分數後要結束嗎？\r\n\r\n<color=\"#d23d44\">目前分數：{0}</color>\r\n\r\n確定分數後可獲得獎勵，\r\n並扣除入場次數。",
@@ -14690,7 +14698,7 @@
     },
     {
       "no": 12256,
-      "kr": "※ 대상 : 메피스토펠레스 / 지호 / 벨라나 / 홍란 / 에리카 / 아키",
+      "kr": "※ 대상: 메피스토펠레스 / 지호 / 벨라나 / 홍란 / 에리카 / 아키",
       "en": "Choose from: Mephistopheles / Jiho / Velanna / Honglan / Erika / Aki",
       "ja": "※対象：メフィストフェレス、ジホ、ベラナ、ホンラン、エリカ、アキ",
       "zh_tw": "※ 可選擇精靈：梅菲斯托佩萊斯／智河／貝拉納／紅蘭／艾麗卡／秋",
@@ -14826,7 +14834,7 @@
     },
     {
       "no": 12273,
-      "kr": "투표 마감 : 7/6 UTC 00시",
+      "kr": "투표 마감: 7/6 UTC 00시",
       "en": "Voting deadline: July 6 (00:00 UTC)",
       "ja": "投票終了：7/6 UTC 00時",
       "zh_tw": "投票截止：7/6 UTC 00點",
@@ -16338,7 +16346,7 @@
     },
     {
       "no": 12462,
-      "kr": "아이템 획득 : 파도의 정수 {0} 개",
+      "kr": "아이템 획득: 파도의 정수 {0} 개",
       "en": "Item collected: Tidal Essence x{0}",
       "ja": "アイテム獲得：波の精髄{0}個",
       "zh_tw": "獲得道具：波浪精髓{0}個",
@@ -18529,6 +18537,14 @@
       "zh_cn": "通关多米尼克与魔物森林\r\n+{2}分"
     },
     {
+      "no": 12816,
+      "kr": "변신 사용하기 ({1}/{0}) \r\n+{2}점",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 12901,
       "kr": "하, 할 수 있어!\r\n힘내자 도미니크…",
       "en": "I-I can do this!\r\nChin up, Dominique...",
@@ -19730,7 +19746,7 @@
     },
     {
       "no": 19109,
-      "kr": "주간 순위 보상 : 월요일 UTC+0 이후 아레나 입장 시 우편 발송\r\n일일 순위 보상 : UTC+0 우편 발송\r\n승리/패배 보상 : 도전의 결과에 따라 인벤토리로 즉시 지급",
+      "kr": "주간 순위 보상: 월요일 UTC+0 이후 아레나 입장 시 우편 발송\r\n일일 순위 보상: UTC+0 우편 발송\r\n승리/패배 보상: 도전의 결과에 따라 인벤토리로 즉시 지급",
       "en": "Weekly Ranking Reward: Sent to mail when entering Arena on Mon. after 00:00 UTC.\r\r\nDaily Ranking Reward: sent to mail at 00:00 UTC.\r\r\nVictory/Defeat Reward: Corresponding reward is immediately sent to the inventory.",
       "ja": "ウィークリーランキング報酬：月曜日UTC+0以降アリーナ入場時にメールで送信\r\nデイリーランキング報酬：UTC+0にメールで送信\r\n挑戦勝利報酬：挑戦勝利時、ランダム1種をインベントリへ即時支給",
       "zh_tw": "每週排名獎勵：週一UTC+0後進入競技場時透過信件發送\r\n每日排名獎勵：UTC+0透過信件發送\r\n戰勝／戰敗獎勵：根據挑戰結果立即發送至背包",
@@ -19962,7 +19978,7 @@
     },
     {
       "no": 19138,
-      "kr": "가온 편 : 일일 작전",
+      "kr": "가온 편: 일일 작전",
       "en": "Gaon Episode: Daily Operations",
       "ja": "ガオン編：デイリー作戦",
       "zh_tw": "加溫篇：每日作戰",
@@ -19970,7 +19986,7 @@
     },
     {
       "no": 19139,
-      "kr": "페이렌 편 : 일일 작전",
+      "kr": "페이렌 편: 일일 작전",
       "en": "Fayren Episode: Daily Operations",
       "ja": "フェイレン編：デイリー作戦",
       "zh_tw": "費倫篇：每日作戰",
@@ -19978,7 +19994,7 @@
     },
     {
       "no": 19140,
-      "kr": "칼라르 편 : 일일 작전",
+      "kr": "칼라르 편: 일일 작전",
       "en": "Chalar Episode: Daily Operations",
       "ja": "カラール編：デイリー作戦",
       "zh_tw": "卡拉爾篇：每日作戰",
@@ -19986,7 +20002,7 @@
     },
     {
       "no": 19141,
-      "kr": "타브리아 편 : 일일 작전",
+      "kr": "타브리아 편: 일일 작전",
       "en": "Tabria Episode: Daily Operations",
       "ja": "タブリア編：デイリー作戦",
       "zh_tw": "塔布里亞篇：每日作戰",
@@ -19994,7 +20010,7 @@
     },
     {
       "no": 19142,
-      "kr": "오리엔티스 편 : 일일 작전",
+      "kr": "오리엔티스 편: 일일 작전",
       "en": "",
       "ja": "オリエンティス編：デイリー作戦",
       "zh_tw": "奧利安提斯篇：每日作戰",
@@ -20002,7 +20018,7 @@
     },
     {
       "no": 19143,
-      "kr": "솔레이 편 : 일일 작전",
+      "kr": "솔레이 편: 일일 작전",
       "en": "Solrey Episode: Daily Operations",
       "ja": "ソレイ編：デイリー作戦",
       "zh_tw": "蘇萊伊篇：每日作戰",
@@ -20010,7 +20026,7 @@
     },
     {
       "no": 19144,
-      "kr": "아우렐리아 편 : 일일 작전",
+      "kr": "아우렐리아 편: 일일 작전",
       "en": "Aurelia Episode: Daily Operations",
       "ja": "アウレリア編：デイリー作戦",
       "zh_tw": "奧里利亞篇：每日作戰",
@@ -20018,7 +20034,7 @@
     },
     {
       "no": 19145,
-      "kr": "트로이카 편 : 일일 작전",
+      "kr": "트로이카 편: 일일 작전",
       "en": "Troyca Episode: Daily Operations",
       "ja": "トロイカ編：デイリー作戦",
       "zh_tw": "特羅伊卡篇：每日作戰",
@@ -20026,7 +20042,7 @@
     },
     {
       "no": 19146,
-      "kr": "하늘의 재앙 편 : 일일 작전",
+      "kr": "하늘의 재앙 편: 일일 작전",
       "en": "Heaven's Catastrophe Episode: Daily Operations",
       "ja": "天の災い編：デイリー作戦",
       "zh_tw": "天災篇：每日作戰",
@@ -20034,7 +20050,7 @@
     },
     {
       "no": 19147,
-      "kr": "정령 연합군 편 : 일일 작전",
+      "kr": "정령 연합군 편: 일일 작전",
       "en": "Soul Alliance Episode: Daily Operations",
       "ja": "精霊連合軍編：デイリー作戦",
       "zh_tw": "精靈聯軍篇：每日作戰",
@@ -20042,7 +20058,7 @@
     },
     {
       "no": 19148,
-      "kr": "가온 편 : 무한 작전",
+      "kr": "가온 편: 무한 작전",
       "en": "Gaon Episode: Infinite Operations",
       "ja": "ガオン編：無限作戦",
       "zh_tw": "加溫篇：無限作戰",
@@ -20050,7 +20066,7 @@
     },
     {
       "no": 19149,
-      "kr": "페이렌 편 : 무한 작전",
+      "kr": "페이렌 편: 무한 작전",
       "en": "Fayren Episode: Infinite Operations",
       "ja": "フェイレン編：無限作戦",
       "zh_tw": "費倫篇：無限作戰",
@@ -20058,7 +20074,7 @@
     },
     {
       "no": 19150,
-      "kr": "칼라르 편 : 무한 작전",
+      "kr": "칼라르 편: 무한 작전",
       "en": "Chalar Episode: Infinite Operations",
       "ja": "カラール編：無限作戦",
       "zh_tw": "卡拉爾篇：無限作戰",
@@ -20066,7 +20082,7 @@
     },
     {
       "no": 19151,
-      "kr": "타브리아 편 : 무한 작전",
+      "kr": "타브리아 편: 무한 작전",
       "en": "Tabria Episode: Infinite Operations",
       "ja": "タブリア編：無限作戦",
       "zh_tw": "塔布里亞篇：無限作戰",
@@ -20074,7 +20090,7 @@
     },
     {
       "no": 19152,
-      "kr": "오리엔티스 편 : 무한 작전",
+      "kr": "오리엔티스 편: 무한 작전",
       "en": "",
       "ja": "オリエンティス編：無限作戦",
       "zh_tw": "奧利安提斯篇：無限作戰",
@@ -20082,7 +20098,7 @@
     },
     {
       "no": 19153,
-      "kr": "솔레이 편 : 무한 작전",
+      "kr": "솔레이 편: 무한 작전",
       "en": "Solrey Episode: Infinite Operations",
       "ja": "ソレイ編：無限作戦",
       "zh_tw": "蘇萊伊篇：無限作戰",
@@ -20090,7 +20106,7 @@
     },
     {
       "no": 19154,
-      "kr": "아우렐리아 편 : 무한 작전",
+      "kr": "아우렐리아 편: 무한 작전",
       "en": "Aurelia Episode: Infinite Operations",
       "ja": "アウレリア編：無限作戦",
       "zh_tw": "奧里利亞篇：無限作戰",
@@ -20098,7 +20114,7 @@
     },
     {
       "no": 19155,
-      "kr": "트로이카 편 : 무한 작전",
+      "kr": "트로이카 편: 무한 작전",
       "en": "Troyca Episode: Infinite Operations",
       "ja": "トロイカ編：無限作戦",
       "zh_tw": "特羅伊卡篇：無限作戰",
@@ -20106,7 +20122,7 @@
     },
     {
       "no": 19156,
-      "kr": "하늘의 재앙 편 : 무한 작전",
+      "kr": "하늘의 재앙 편: 무한 작전",
       "en": "Heaven's Catastrophe Episode: Infinite Operations",
       "ja": "天の災い編：無限作戦",
       "zh_tw": "天災篇：無限作戰",
@@ -20114,7 +20130,7 @@
     },
     {
       "no": 19157,
-      "kr": "정령 연합군 편 : 무한 작전",
+      "kr": "정령 연합군 편: 무한 작전",
       "en": "Soul Alliance Episode: Infinite Operations",
       "ja": "精霊連合軍編：無限作戦",
       "zh_tw": "精靈聯軍篇：無限作戰",
@@ -20571,25 +20587,25 @@
     {
       "no": 19214,
       "kr": "{0}시즌 특별 제약",
-      "en": "",
+      "en": "{0} Season Special Disadvantages",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "{0}賽季特別限制",
       "zh_cn": ""
     },
     {
       "no": 19215,
       "kr": "특별 제약 작전",
-      "en": "",
+      "en": "Operation Special Disadvantages",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "特別限制作戰",
       "zh_cn": ""
     },
     {
       "no": 19216,
       "kr": "무한 작전에서 모든 제약을 적용하고 클리어 시 입장 가능합니다.",
-      "en": "",
+      "en": "Unlocks upon completing the Infinite Operations with all disadvantages selected.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "在無線作戰中套用所有限制並通關後即可入場。",
       "zh_cn": ""
     },
     {
@@ -21339,49 +21355,49 @@
     {
       "no": 21093,
       "kr": "신년맞이\r\n떡공장털이",
-      "en": "",
+      "en": "New Year's\r\nRice Cake Factory Raid",
       "ja": "ミッション！モチ工場長を倒せ！",
-      "zh_tw": "",
+      "zh_tw": "迎春洗劫\r\n年糕工廠",
       "zh_cn": ""
     },
     {
       "no": 21094,
       "kr": "축제 방해꾼\r\n쫓아내기",
-      "en": "Repel Festival Disruptors",
+      "en": "Repel Festival\r\nDisruptors",
       "ja": "お祭りの邪魔者を追い出そう",
-      "zh_tw": "驅趕慶典搗蛋鬼",
+      "zh_tw": "驅趕慶典\r\n搗蛋鬼",
       "zh_cn": ""
     },
     {
       "no": 21095,
       "kr": "가온 주막",
-      "en": "",
+      "en": "Gaon Tavern",
       "ja": "ガオンの酒場",
-      "zh_tw": "",
+      "zh_tw": "加溫客棧",
       "zh_cn": ""
     },
     {
       "no": 21096,
       "kr": "불꽃놀이장",
-      "en": "",
+      "en": "Fireworks Zone",
       "ja": "花火大会場",
-      "zh_tw": "",
+      "zh_tw": "煙火遊樂場",
       "zh_cn": ""
     },
     {
       "no": 21097,
       "kr": "떡공장 공판장",
-      "en": "",
+      "en": "Rice Cake Factory Market",
       "ja": "モチ工場共同店",
-      "zh_tw": "",
+      "zh_tw": "年糕工廠市集",
       "zh_cn": ""
     },
     {
       "no": 21098,
       "kr": "축제 물품 교환 상점",
-      "en": "",
+      "en": "Festival Goods Exchange Shop",
       "ja": "お祭りアイテム交換ショップ",
-      "zh_tw": "",
+      "zh_tw": "慶典物品兌換商店",
       "zh_cn": ""
     },
     {
@@ -21403,33 +21419,33 @@
     {
       "no": 21101,
       "kr": "가온에서 열리는 신년 축제 참가자를 위한 특별한 선물입니다!",
-      "en": "",
+      "en": "A special present for attendees of the New Year's Festival in Gaon!",
       "ja": "ガオンで開催される新年祭の参加者のための特別なプレゼントです！",
-      "zh_tw": "",
+      "zh_tw": "特別為加溫舉辦的新年祭參加者準備的禮物！",
       "zh_cn": ""
     },
     {
       "no": 21102,
       "kr": "떡공장 공판장에서 떡주머니를 사용할 때마다\r\n시즌 패스 포인트를 획득합니다.",
-      "en": "",
+      "en": "Spend Rice Cake Pouches at the Rice Cake Factory Market\r\nto earn Season Pass points.",
       "ja": "モチ工場共同店でモチ袋を使用するたびに\r\nシーズンパスポイントを獲得します。",
-      "zh_tw": "",
+      "zh_tw": "在年糕工廠市集使用年糕袋時，\r\n可獲得賽季通行證點數。",
       "zh_cn": ""
     },
     {
       "no": 21103,
       "kr": "탁주 사발 상점",
-      "en": "",
+      "en": "Rice Wine Bowl Shop",
       "ja": "にごり酒ショップ",
-      "zh_tw": "",
+      "zh_tw": "米酒碗缽商店",
       "zh_cn": ""
     },
     {
       "no": 21104,
       "kr": "불꽃 노리개 상점",
-      "en": "",
+      "en": "Firework Charm Shop",
       "ja": "花火の飾りショップ",
-      "zh_tw": "",
+      "zh_tw": "煙火飾品商店",
       "zh_cn": ""
     },
     {
@@ -21459,17 +21475,17 @@
     {
       "no": 21108,
       "kr": "7일 미션",
-      "en": "",
+      "en": "Day 7 Mission",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "7日任務",
       "zh_cn": ""
     },
     {
       "no": 21109,
       "kr": "인피니티 챌린지",
-      "en": "",
+      "en": "Infinity Challenge",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "無限挑戰",
       "zh_cn": ""
     },
     {
@@ -21483,118 +21499,126 @@
     {
       "no": 21111,
       "kr": "이벤트 룰렛",
-      "en": "",
+      "en": "Event Wheel",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "活動轉盤",
       "zh_cn": ""
     },
     {
       "no": 21112,
       "kr": "STORY",
-      "en": "",
+      "en": "STORY",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "STORY",
       "zh_cn": ""
     },
     {
       "no": 21113,
       "kr": "MISSION",
-      "en": "",
+      "en": "MISSION",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "MISSION",
       "zh_cn": ""
     },
     {
       "no": 21114,
       "kr": "CHALLENGE",
-      "en": "",
+      "en": "CHALLENGE",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "CHALLENGE",
       "zh_cn": ""
     },
     {
       "no": 21115,
       "kr": "MINIGAME",
-      "en": "",
+      "en": "MINIGAME",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "MINIGAME",
       "zh_cn": ""
     },
     {
       "no": 21116,
       "kr": "REWARD",
-      "en": "",
+      "en": "REWARD",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "REWARD",
       "zh_cn": ""
     },
     {
       "no": 21117,
       "kr": "연출 스킵",
-      "en": "",
+      "en": "Skip Animation",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "跳過動畫",
       "zh_cn": ""
     },
     {
       "no": 21118,
       "kr": "확률 정보",
-      "en": "",
+      "en": "Probability Info",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "機率資訊",
       "zh_cn": ""
     },
     {
       "no": 21119,
-      "kr": "돌림판 횟수 보상",
-      "en": "",
+      "kr": "룰렛 횟수 보상",
+      "en": "Spin Count Rewards",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "轉盤次數獎勵",
       "zh_cn": ""
     },
     {
       "no": 21120,
-      "kr": "돌림판을 돌려 다양한 보상을 획득하세요!\r\n이벤트 보상과 미션에서 돌림판 티켓을 획득할 수 있어요.",
-      "en": "",
+      "kr": "룰렛을 돌려 다양한 보상을 획득하세요!\r\n이벤트 보상과 미션에서 룰렛 티켓을 획득할 수 있어요.",
+      "en": "Spin the wheel to claim various rewards!\r\nYou can collect Spin Tickets from event rewards and missions.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "轉動轉盤，獲得豐富獎勵！\r\n可透過活動獎勵與任務獲得轉盤票券。",
       "zh_cn": ""
     },
     {
       "no": 21121,
       "kr": "1회 진행 시 상품 중 하나를 확률에 따라 획득합니다.",
-      "en": "",
+      "en": "Each spin awards one of the prizes by chance.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "進行1次時，將根據機率獲得其中一個獎品。",
       "zh_cn": ""
     },
     {
       "no": 21122,
       "kr": "확률",
-      "en": "",
+      "en": "Probability",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "機率",
       "zh_cn": ""
     },
     {
       "no": 21123,
       "kr": "획득 아이템",
-      "en": "",
+      "en": "Prize",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "獲得道具",
       "zh_cn": ""
     },
     {
       "no": 21124,
       "kr": "빈 곳을 터치하여 스킵",
-      "en": "",
+      "en": "Tap a blank area to skip",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "點擊空白處跳過",
       "zh_cn": ""
     },
     {
       "no": 21125,
       "kr": "변신",
+      "en": "Transformation",
+      "ja": "",
+      "zh_tw": "變身",
+      "zh_cn": ""
+    },
+    {
+      "no": 21126,
+      "kr": "천리주단기",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -23029,7 +23053,7 @@
       "kr": " ~sioLe Ver~",
       "en": " ~sioLe Ver~",
       "ja": " ~sioLe Ver~",
-      "zh_tw": " ~sioLe Ver~",
+      "zh_tw": "~sioLe Ver~",
       "zh_cn": " ~sioLe Ver~"
     },
     {
@@ -23043,9 +23067,9 @@
     {
       "no": 30181,
       "kr": "섭리의 수레바퀴",
-      "en": "",
+      "en": "Wheel of Laws",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "法則之輪",
       "zh_cn": ""
     },
     {
@@ -23731,9 +23755,9 @@
     {
       "no": 50003,
       "kr": "인과 조작 시즌",
-      "en": "",
+      "en": "Causal Manipulation Season",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "操縱因果賽季",
       "zh_cn": ""
     },
     {
@@ -24763,17 +24787,17 @@
     {
       "no": 92078,
       "kr": "[픽업 소환] 로제(홍염)",
-      "en": "[Pick-Up Summon] Rose(Prominence)",
+      "en": "[Pick-Up Summon] Rose (Prominence)",
       "ja": "[ピックアップ召喚] ロゼ(紅炎)",
-      "zh_tw": "［Pick Up召喚］蘿絲(紅焰)",
+      "zh_tw": "［Pick Up召喚］蘿絲（紅焰）",
       "zh_cn": ""
     },
     {
       "no": 92079,
       "kr": "[픽업 소환] 홍란(무쌍)",
-      "en": "[Pick-Up Summon] Honglan(Peerless)",
+      "en": "[Pick-Up Summon] Honglan (Peerless)",
       "ja": "[ピックアップ召喚] ホンラン(無双)",
-      "zh_tw": "［Pick Up召喚］紅蘭(無雙)",
+      "zh_tw": "［Pick Up召喚］紅蘭（無雙）",
       "zh_cn": ""
     },
     {
@@ -24978,10 +25002,10 @@
     },
     {
       "no": 110634,
-      "kr": "주체할 수 없는 광기에 침식된 야수는 이 세상의 모든것을 파괴한다. \r\n\r\n레벨과 비례하여 강해지는 야수의 광기를 억제하고, 야수의 집중을 분산시켜 특정 아군만 노려지지 않도록 주의하자. \r\n\r\n야수가 완전히 광기에 잠식되는 순간, 그 어떤 것도 그녀를 막을 수 없으리. \r\n\r\n오직 신속하고 이성적인 판단만이 야수를, 그리고 당신을 구원하리라.",
-      "en": "The beast can no longer control her madness and destroys everything in this world.\r\r\n\r\r\nShe gets stronger by the level. Try to distract her from zeroing in on a single ally.\r\r\n\r\r\nNothing can stop her if her madness completely takes over her mind.\r\r\n\r\r\nYou need to think fast and be rational to save the beast and your own life.",
+      "kr": "주체할 수 없는 광기에 침식된 야수는 이 세상의 모든것을 파괴한다. \r\n\r\n레벨과 비례하여 강해지는 야수의 광기를 억제하고, 야수의 집중을 분산시켜 특정 아군만 노려지지 않도록 주의하자. \r\n\r\n야수가 완전히 광기에 잠식되는 순간, 그 어떤 것도 그녀를 막을 수 없으리. \r\n\r\n오직 신속하고 이성적인 판단만이 야수를, 그리고 당신을 구원하리라.\r\n\r\n<COLOR=#FFFFFF>야수는 자신을 구속시킨 기억을 떠올릴때마다 괴로워한다. 감전을 이용한 공격을 이용해보자</COLOR>",
+      "en": "The beast can no longer control her madness and destroys everything in this world.\r\n\r\nShe gets stronger by the level. Try to distract her from zeroing in on a single ally.\r\n\r\nNothing can stop her if her madness completely takes over her mind.\r\n\r\nYou need to think fast and be rational to save the beast and your own life.\r\n\r\n<COLOR=#FFFFFF>The Beast is tormented whenever she remembers the moments of her captivity. Use shock attacks to take advantage.</COLOR>",
       "ja": "制御不能の狂気に呑まれた野獣は、この世のすべてを破壊する。\r\n\r\nLvに比例して強くなる野獣の狂気を抑制し、野獣の注意を分散させて特定の味方に攻撃が集中されないようにしよう。\r\n\r\n野獣が完全に狂気に呑み込まれた時、いかなるものも彼女を止めることはできない。\r\n\r\n迅速で理性的な判断のみが野獣を、そしてあなたを救うだろう。",
-      "zh_tw": "野獸被無法控制的瘋狂吞噬，破壞這世上的一切。\r\r\n\r\r\n要抑制與等級成正比增強的野獸狂氣，分散野獸的注意力，注意別讓她盯上特定的我軍。\r\r\n\r\r\n當野獸完全被狂氣吞噬，將沒有東西能阻擋她。\r\r\n\r\r\n唯有迅速且理性的判斷，才能救援野獸和你。",
+      "zh_tw": "野獸被無法控制的瘋狂吞噬，破壞這世上的一切。\r\n\r\n要抑制與等級成正比增強的野獸狂氣，分散野獸的注意力，注意別讓她盯上特定的我軍。\r\n\r\n當野獸完全被狂氣吞噬，將沒有東西能阻擋她。\r\n\r\n唯有迅速且理性的判斷，才能救援野獸和你。\r\n\r\n<COLOR=#FFFFFF>每當想起自己被囚禁的記憶，野獸都很痛苦。利用觸電攻擊看看吧</COLOR>",
       "zh_cn": "野兽被无法控制的疯狂吞噬，破坏这世上的一切。\r\r\n\r\r\n要抑制与等级成正比增强的野兽狂气，分散野兽的注意力，注意别让她盯上特定的我军。\r\r\n\r\r\n当野兽完全被狂气吞噬，将没有东西能阻挡她。\r\r\n\r\r\n唯有迅速且理性的判断，才能救援野兽和你。"
     },
     {
@@ -25059,7 +25083,7 @@
     {
       "no": 110644,
       "kr": "전쟁의 사도는 파괴적인 위력으로 적들을 말살시키려든다.\r\n\r\n레벨과 비례하여 원초적인 강력함에 맞서 힘을 억제할 수 있는 정령들로 구성하고 그녀의 습격에 대비해 진형을 흩어지지 않게 잘 갖추도록 하자\r\n\r\n<COLOR=#FFFFFF>또한 주기적으로 소환되는 사도의 창은 전쟁의 사도에게 강력한 힘을 부여하며, 강력한 피해를 예고하는 선고 효과에 취약한 모습을 보인다.</COLOR>\r\n\r\n\r\n…그녀의 종언을 받아들이고 수긍할 것인가? \r\n아니면 그녀의 진리를 부정할 것인가? ",
-      "en": "The Apostle of War tries to exterminate all enemies with her destructive power.\r\n\r\nForm a team using Souls who can suppress her raw power that grows in proportion to her level, stay alert for attacks, and make sure you build a strong formation.\r\n\r\n<COLOR=#FFFFFF>The Spears of the Apostle will be periodically summoned and grant power to the Apostle of War. They are vulnerable to Sentence effects, which foretell massive damage.</COLOR>\r\n\r\n\r\nWill you accept the end?\r\nOr will you deny her \"truth\"?",
+      "en": "The Apostle of War tries to exterminate all enemies with her destructive power.\r\n\r\nForm a team using Souls who can suppress her raw power that grows in proportion to her level, stay alert for attacks, and make sure you build a strong formation.\r\n\r\n<COLOR=#FFFFFF>The Spears of the Apostle will be periodically summoned and grant power to the Apostle of War. They are vulnerable to Sentence effects, which foretell massive damage.</COLOR>\r\n\r\n\r\nWill you accept the end?\r\nOr will you deny her \"truth\"? ",
       "ja": "戦争の使徒は破壊的な威力で敵を抹殺しようとする。\r\n\r\nレベルに比例して強くなる敵に対抗するため、力を抑制できる精霊たちで陣形を構成し、彼女の襲撃に備えて陣形が崩されないようにしよう。\r\n\r\n<COLOR=#FFFFFF>また、周期的に召喚される使徒の槍は戦争の使徒に強い力を付与し、強力なダメージを予告する宣告効果に弱いようだ。</COLOR>\r\n\r\n\r\n…彼女の終焉を受け入れて納得するのか？\r\nあるいは、彼女の真理を否定するのか？ ",
       "zh_tw": "戰爭使者打算以毀滅性的威力殲滅敵人。\r\n\r\n對抗與等級成正比的原始強大，以能抑制力量的精靈編制隊伍，預防她進行突襲，不要讓陣型瓦解。\r\n\r\n<COLOR=#FFFFFF>另外，定期召喚的使者之矛會賦予戰爭使者強大的力量，並容易陷入預告強大傷害的宣告效果。</COLOR>\r\n\r\n\r\n…你要接受並認同她的終結嗎？\r\n還是要否定她的真理？",
       "zh_cn": "战争使者打算以毁灭性的威力歼灭敌人。\r\r\n\r\r\n对抗与等级成正比的原始强大，以能抑制力量的精灵编制队伍，预防她进行突袭，不要让阵型瓦解。\r\r\n\r\r\n另外，定期召唤的使者之矛会赋予战争使者强大的力量。\r\r\n\r\r\n……你要接受并认同她的终结吗？\r\r\n还是要否定她的真理？"
@@ -25259,9 +25283,9 @@
     {
       "no": 110669,
       "kr": "떡공장장 순이를 물리치고 떡을 획득하자!\r\n떡공장장 순이는 공장을 지키기 위해 강력한 찹쌀떡과 가래떡을 소환한다. 끊임없는 회복으로 쉴틈없이 이어지는 광역 공격을 받아내자!\r\n특히, 떡공장장 순이의 물리/마법 저항을 증가시키는 가래떡을 빠르게 처치하면 떡공장 털이가 한결 쉬워질 것이다!",
-      "en": "",
+      "en": "Defeat Ricecake Maker Soonie and grab some rice cakes!\r\nRicecake Maker Soonie summons powerful Sticky Rice Cakes and Rice Cake Sticks to protect the factory. Keep the Recovery skills going to endure the endless series of AoE attacks!\r\nTaking down the Rice Cake Sticks that boost Soonie's Physical/Magic Resistance swiftly will make the factory raid much easier!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "擊退年糕工廠廠長順伊，獲得年糕吧！\r\n年糕工廠廠長順伊為了守住工廠，召喚了強大的糯米糕和年糕條。擋下會不斷恢復、永不停歇襲來的廣域攻擊吧！\r\n尤其是年糕條會提高年糕工廠廠長順伊的物理／魔法抵抗，迅速擊殺牠們會使洗劫年糕工廠更容易！",
       "zh_cn": ""
     },
     {
@@ -25354,7 +25378,7 @@
     },
     {
       "no": 300012,
-      "kr": "이벤트가 종료되어 추가 입장권 아이템이 치환되었습니다.\r\n\r\n최종 클리어 단계 : {0}단계\r\n추가 입장권 아이템 이름: {1}\r\n추가 입장권 아이템 개수: {2}개\r\n지급 아이템: {3} {4}개",
+      "kr": "이벤트가 종료되어 추가 입장권 아이템이 치환되었습니다.\r\n\r\n최종 클리어 단계: {0}단계\r\n추가 입장권 아이템 이름: {1}\r\n추가 입장권 아이템 개수: {2}개\r\n지급 아이템: {3} {4}개",
       "en": "Following the event's conclusion, remaining extra ticket items have been replaced.\r\r\n\r\r\nFinal level cleared: level {0}\r\r\nExtra ticket item: {1}\r\r\nQuantity: {2}\r\r\nReplaced with: {3} x{4}",
       "ja": "イベントが終了し、追加入場券アイテムが変更されました。\r\n\r\n最終クリア段階：{0}段階\r\n追加入場券アイテム名：{1}\r\n追加入場券アイテム数：{2}個\r\n支給アイテム：{3}{4}個",
       "zh_tw": "活動結束，已換算額外入場券道具。\r\r\n\r\r\n最終通關階段：{0}階段\r\r\n額外入場券道具名稱：{1}\r\r\n額外入場券道具數量：{2}個\r\r\n發送道具：{3}{4}個",
@@ -25546,7 +25570,7 @@
     },
     {
       "no": 420008,
-      "kr": "진행 중인 던전을 초기화하시겠습니까? \r\n<color=\"#2293EB\">{0} : {1}</color>\r\n입장 시 보상을 제외한 던전 진행률은 <color=\"#fa634a\">초기화</color>됩니다.\r\n\r\n<size=22><color=\"#fa634a\">※ 사용된 입장권은 진행 초기화 시 회수되지 않습니다.</color></size>",
+      "kr": "진행 중인 던전을 초기화하시겠습니까? \r\n<color=\"#2293EB\">{0}: {1}</color>\r\n입장 시 보상을 제외한 던전 진행률은 <color=\"#fa634a\">초기화</color>됩니다.\r\n\r\n<size=22><color=\"#fa634a\">※ 사용된 입장권은 진행 초기화 시 회수되지 않습니다.</color></size>",
       "en": "Do you want to reset the dungeon in progress?\r\n<color=\"#2293EB\">{0} : {1}</color>\r\nWhen entering, the dungeon progress, except for rewards, is <color=\"#fa634a\">reset</color>.\r\n\r\n<size=22><color=\"#fa634a\">*When you reset the progress, tickets you already used will not be restored.</color></size>",
       "ja": "進行中のダンジョンをリセットしますか？\r\n<color=\"#2293EB\">{0}：{1}</color>\r\n入場時、報酬を除いたダンジョン進行率は<color=\"#fa634a\">リセット</color>されます。\r\n\r\n<size=22><color=\"#fa634a\">※ 使用した入場券はリセットしても回収されません。</color></size>",
       "zh_tw": "要重置進行中的副本嗎？\r\n進入<color=\"#2293EB\">{0} : {1}</color>時，\r\n獎勵以外的副本進行率將<color=\"#fa634a\">重置</color>。\r\n\r\n<size=22><color=\"#fa634a\">※ 已使用的入場券在重置進行後不會回收。</color></size>",
@@ -25626,7 +25650,7 @@
     },
     {
       "no": 420018,
-      "kr": "남은 시간 : <color=\"#62ca38\">{0}일 {1}시간 {2}분</color>",
+      "kr": "남은 시간: <color=\"#62ca38\">{0}일 {1}시간 {2}분</color>",
       "en": "Time Left: <color=\"#62ca38\">{0}d {1}h {2}m</color>",
       "ja": "残り時間：<color=\"#62ca38\">{0}日{1}時間{2}分</color>",
       "zh_tw": "剩餘時間：<color=\"#62ca38\">{0}天{1}小時{2}分鐘</color>",
@@ -25866,7 +25890,7 @@
     },
     {
       "no": 420048,
-      "kr": "<color=\"#2293EB\">2구역 [일반]</color>\r\n등장 몬스터의 레벨이 상향됩니다.\r\n다음 구역을 진행하시겠습니까?\r\n<color=\"#fa634a\">(주의 : 선택시 열쇠를 얻을 수 없습니다.)</color>",
+      "kr": "<color=\"#2293EB\">2구역 [일반]</color>\r\n등장 몬스터의 레벨이 상향됩니다.\r\n다음 구역을 진행하시겠습니까?\r\n<color=\"#fa634a\">(주의: 선택시 열쇠를 얻을 수 없습니다.)</color>",
       "en": "<color=\"#2293EB\">District 2 [Common]</color>\r\r\nThe level of the monsters increases.\r\r\nDo you want to proceed to the next district?\r\r\n<color=\"#fa634a\">(Caution: If selected, you cannot obtain the key.)</color>",
       "ja": "<color=\"#2293EB\">エリア2[一般]</color>\r\n出現モンスターのLvが上昇します。\r\n次のエリアに進みますか？\r\n<color=\"#fa634a\">(注意：選択すると鍵を獲得できません)</color>",
       "zh_tw": "<color=\"#2293EB\">第2區域［一般］</color>\r\r\n怪物的等級變高了。\r\r\n要往下個區域進行嗎？\r\r\n<color=\"#fa634a\">（注意：選擇後無法獲得鑰匙。）</color>",
@@ -25874,7 +25898,7 @@
     },
     {
       "no": 420049,
-      "kr": "<color=\"#FF5050\">2구역 [정예]</color>\r\n더 강한 상대가 등장하며, 더 좋은 보상을 획득할 수 있습니다.\r\n<color=\"#fa634a\"><size=24>(주의 : 선택 시, 3구역 기본 난이도가 [정예]로 상향됩니다.)</size></color>",
+      "kr": "<color=\"#FF5050\">2구역 [정예]</color>\r\n더 강한 상대가 등장하며, 더 좋은 보상을 획득할 수 있습니다.\r\n<color=\"#fa634a\"><size=24>(주의: 선택 시, 3구역 기본 난이도가 [정예]로 상향됩니다.)</size></color>",
       "en": "<color=\"#FF5050\">District 2 [Elite]</color>\r\nYou can fight stronger opponents and earn better rewards.\r\n<color=\"#fa634a\"><size=24>(Note: When selected, the difficulty of District 3 is raised from Normal to [Elite].)</size></color>",
       "ja": "<color=\"#FF5050\">エリア2[精鋭]</color>\r\nさらに強い相手が出現し、さらに多くの報酬を獲得できます。\r\n<color=\"#fa634a\"><size=24>(注意：選択するとエリア3の基本難易度が[精鋭]に上昇します)</size></color>",
       "zh_tw": "<color=\"#FF5050\">第2區域［菁英］</color>\r\r\n將出現非常強大的對手，可獲得更好的獎勵。\r\r\n<color=\"#fa634a\"><size=24>（注意：選擇時，第3區域基本難度會升為［菁英］。）</size></color>",
@@ -25946,7 +25970,7 @@
     },
     {
       "no": 420058,
-      "kr": "던전 난이도 : {0}단계",
+      "kr": "던전 난이도: {0}단계",
       "en": "Dungeon Difficulty: Stage {0}",
       "ja": "ダンジョン難易度：ステップ{0}",
       "zh_tw": "副本難度：第{0}階段",
@@ -26058,7 +26082,7 @@
     },
     {
       "no": 420072,
-      "kr": "<color=\"#2293EB\">{0} : {1}</color>\r\n\r\n현재 전투력이 권장 전투력보다 낮습니다.\r\n<color=\"#FF5050\">전투력 차이가 큰 경우, 진행이 어려울 수 있습니다.</color>\r\n\r\n던전에 입장하시겠습니까?",
+      "kr": "<color=\"#2293EB\">{0}: {1}</color>\r\n\r\n현재 전투력이 권장 전투력보다 낮습니다.\r\n<color=\"#FF5050\">전투력 차이가 큰 경우, 진행이 어려울 수 있습니다.</color>\r\n\r\n던전에 입장하시겠습니까?",
       "en": "<color=\"#2293EB\">{0} : {1}</color>\r\n\r\nYour current combat power (CP) is lower than suggested.\r\n<color=\"#FF5050\">If there is a large gap between your CP and the suggested CP, combat could prove to be difficult.</color>\r\n\r\nAre you sure you want to enter the dungeon?",
       "ja": "<color=\"#2293EB\">{0}：{1}</color>\r\n\r\n現在の戦闘力が推奨戦闘力より低くなっています。\r\n<color=\"#FF5050\">戦闘力の差が大きい場合、戦闘が難しくなることがあります。</color>\r\n\r\nダンジョンに入場しますか？",
       "zh_tw": "<color=\"#2293EB\">{0} : {1}</color>\r\n\r\n目前戰鬥力低於建議戰鬥力。\r\n<color=\"#FF5050\">戰鬥力相差過大時，將難以進行戰鬥。</color>\r\n\r\n確定要進入副本嗎？",
@@ -26098,7 +26122,7 @@
     },
     {
       "no": 420077,
-      "kr": "<color=\"#2293EB\">{0} : {1}</color>​\r\n해당 난이도로 입장하시겠습니까?\r\n(입장 후에도 <color=\"#fa634a\">진행 초기화</color>로 난이도 변경이 가능합니다.)",
+      "kr": "<color=\"#2293EB\">{0}: {1}</color>​\r\n해당 난이도로 입장하시겠습니까?\r\n(입장 후에도 <color=\"#fa634a\">진행 초기화</color>로 난이도 변경이 가능합니다.)",
       "en": "<color=\"#2293EB\">{0} : {1}</color>​\r\nDo you want to enter the selected difficulty level?\r\n(You can change the difficulty after you enter by <color=\"#fa634a\">resetting progress</color>.)",
       "ja": "<color=\"#2293EB\">{0}：{1}</color>\r\nこの難易度で入場しますか？\r\n(入場後も<color=\"#fa634a\">進行リセット</color>で難易度を変更できます)",
       "zh_tw": "<color=\"#2293EB\">{0} : {1}</color>​\r\n要以此難度進入嗎？\r\n（進入後仍可利用<color=\"#fa634a\">重置進行</color>變更難度。）",
@@ -26202,7 +26226,7 @@
     },
     {
       "no": 420090,
-      "kr": "진행 중인 던전을 종료하시겠습니까?\r\n<color=\"#2293EB\">현재 진행률 : {0}%</color>\r\n\r\n(입장권이 없는 경우, 다음 초기화 시간까지 입장할 수 없습니다.)",
+      "kr": "진행 중인 던전을 종료하시겠습니까?\r\n<color=\"#2293EB\">현재 진행률: {0}%</color>\r\n\r\n(입장권이 없는 경우, 다음 초기화 시간까지 입장할 수 없습니다.)",
       "en": "Do you want to end the dungeon in progress?\r\r\n<color=\"#2293EB\">Current Progress: {0}%</color>\r\r\n\r\r\n(You cannot enter the dungeon until next reset time without a ticket.)",
       "ja": "進行中のダンジョンを終了しますか？\r\n<color=\"#2293EB\">現在進行率：{0}%</color>\r\n\r\n(入場券がない場合は次のリセット時間まで入場できません)",
       "zh_tw": "要結束進行中的副本嗎？\r\r\n<color=\"#2293EB\">目前進度：{0}%</color>\r\r\n\r\r\n（若未持有入場券，那麼直到下次重置時間都無法入場。）",
@@ -26794,7 +26818,7 @@
     },
     {
       "no": 430073,
-      "kr": "적 레벨 : {0} ~ {1}",
+      "kr": "적 레벨: {0} ~ {1}",
       "en": "Enemy level: {0}–{1}",
       "ja": "敵Lv：{0}～{1}",
       "zh_tw": "敵人等級：{0}～{1}",
@@ -26826,7 +26850,7 @@
     },
     {
       "no": 430077,
-      "kr": "소탕 진행 시 카마엘의 구역을 클리어한 단계 중 가장 높은 단계의 미궁을 기준으로 소탕이 진행됩니다. 계속하시겠습니까?\r\n소탕 기준 단계 : {0}",
+      "kr": "소탕 진행 시 카마엘의 구역을 클리어한 단계 중 가장 높은 단계의 미궁을 기준으로 소탕이 진행됩니다. 계속하시겠습니까?\r\n소탕 기준 단계: {0}",
       "en": "Sweep will be based on the highest labyrinth stage you cleared in Chamuel's Area. Continue?\r\r\nSweep stage: {0}",
       "ja": "カマエルのエリアでクリアした一番高いステップの迷宮を基準に掃討が行われます。続けますか？\r\n掃討基準ステップ：{0}",
       "zh_tw": "將以卡摩爾的區域最高通關階段為基準進行掃蕩，是否要繼續？\r\r\n掃蕩基準階段：{0}",
@@ -27034,7 +27058,7 @@
     },
     {
       "no": 430103,
-      "kr": "<color=\"#FF5050\">3구역 [정예]</color>\r\n더 강한 상대가 등장하며 더 좋은 보상을 획득할 수 있습니다.\r\n<color=\"#fa634a\">(주의 : 선택시 열쇠를 얻을 수 없습니다.)</color>",
+      "kr": "<color=\"#FF5050\">3구역 [정예]</color>\r\n더 강한 상대가 등장하며 더 좋은 보상을 획득할 수 있습니다.\r\n<color=\"#fa634a\">(주의: 선택시 열쇠를 얻을 수 없습니다.)</color>",
       "en": "<color=\"#FF5050\">District 3 [Elite]</color>\r\r\nYou can fight stronger opponents and earn better rewards.\r\r\n<color=\"#fa634a\">(Caution: If selected, you cannot obtain the key.)</color>",
       "ja": "<color=\"#FF5050\">エリア3[精鋭]</color>\r\nさらに強い相手が出現し、さらに多くの報酬を獲得できます。\r\n<color=\"#fa634a\">(注意：選択すると鍵を獲得できません)</color>",
       "zh_tw": "<color=\"#FF5050\">第3區域［菁英］</color>\r\r\n將出現更強大的對手，可獲得更好的獎勵。\r\r\n<color=\"#fa634a\">（注意：選擇後無法獲得鑰匙。）</color>",
@@ -27266,7 +27290,7 @@
     },
     {
       "no": 430132,
-      "kr": "여러가지 랜덤한 기믹을 만날 수 있습니다.\r\n교환상인 마농 : 소유 중인 보물을 같은 등급의 다른 보물로 교환 합니다.\r\n미궁코인 상인 제이드 : 미궁코인을 소모하여 보물을 구매합니다.\r\n프림의 카드마술 : 랜덤한 보물을 한 가지 획득합니다.\r\n유리아의 축복 : 아주 강력한 보물을 획득합니다.\r\n이 외에도 다양한 기믹과 만날 수 있습니다.",
+      "kr": "여러가지 랜덤한 기믹을 만날 수 있습니다.\r\n교환상인 마농: 소유 중인 보물을 같은 등급의 다른 보물로 교환 합니다.\r\n미궁코인 상인 제이드: 미궁코인을 소모하여 보물을 구매합니다.\r\n프림의 카드마술: 랜덤한 보물을 한 가지 획득합니다.\r\n유리아의 축복: 아주 강력한 보물을 획득합니다.\r\n이 외에도 다양한 기믹과 만날 수 있습니다.",
       "en": "You can run into various random gimmicks.\r\r\nExchange Merchant Manon: Exchanges your treasure for another treasure of the same grade.\r\r\nLabyrinth Coin Merchant Jade: Sells treasures that can be purchased with Labyrinth Coins.\r\r\nPrim's Card Magic: Gives you a random treasure.\r\r\nYuria's Blessing: Gives you a very powerful treasure.\r\r\nThere are other different gimmicks you can run into as well.",
       "ja": "様々なランダムギミックが出現します。\r\n交換商人マノン：所持中の宝物を同じランクの他の宝物に交換します。\r\n迷宮コイン商人ジェイド：迷宮コインを消費して宝物を購入します。\r\nプリムのカードマジック：宝物をランダムで1つ獲得します。\r\nユリアの祝福：非常に強力な宝物を獲得します。\r\n他にも様々なギミックが登場します。",
       "zh_tw": "可以遇到各種隨機特殊機關。\r\r\n兌換商人瑪儂：可將持有的寶物兌換成相同階級的其他寶物。\r\r\n迷宮硬幣商人潔依德：消耗迷宮硬幣購買寶物。\r\r\n弗里姆的紙牌魔術：隨機獲得一件寶物。\r\r\n尤里婭的祝福：獲得十分強大的寶物。\r\r\n還可以遇到其他各種特殊機關。",
@@ -28242,7 +28266,7 @@
     },
     {
       "no": 440090,
-      "kr": "보유 타입 게이트 입장권 : {0}",
+      "kr": "보유 타입 게이트 입장권: {0}",
       "en": "Current Type Gate Tickets: {0}",
       "ja": "所持中のタイプゲート入場券：{0}",
       "zh_tw": "持有類型傳送門入場券：{0}",
@@ -28466,7 +28490,7 @@
     },
     {
       "no": 440118,
-      "kr": "오버클럭 초기화 쿨타임이 완료되지 않았습니다.\r\n남은 시간 : {0}",
+      "kr": "오버클럭 초기화 쿨타임이 완료되지 않았습니다.\r\n남은 시간: {0}",
       "en": "The Overclock reset is still on cooldown.\r\r\nEnds in {0}",
       "ja": "オーバークロックのリセットクールタイムが完了していません。\r\n残り時間：{0}",
       "zh_tw": "超頻冷卻時間尚未結束。\r\r\n剩餘時間：{0}",
@@ -28906,7 +28930,7 @@
     },
     {
       "no": 440173,
-      "kr": "양동 작전 : {0}",
+      "kr": "양동 작전: {0}",
       "en": "Decoy Operation: {0}",
       "ja": "陽動作戦：{0}",
       "zh_tw": "聲東擊西：{0}",
@@ -32082,7 +32106,7 @@
     },
     {
       "no": 520203,
-      "kr": "피해량 : {0}",
+      "kr": "피해량: {0}",
       "en": "Damage: {0}",
       "ja": "ダメージ量：{0}",
       "zh_tw": "傷害量：{0}",
@@ -32114,7 +32138,7 @@
     },
     {
       "no": 520207,
-      "kr": "소탕 시 도전 횟수가 차감되며, 최대 피해량과 동일한 보상을 획득합니다.\r\n\r\n최대 피해량 : {0}",
+      "kr": "소탕 시 도전 횟수가 차감되며, 최대 피해량과 동일한 보상을 획득합니다.\r\n\r\n최대 피해량: {0}",
       "en": "Sweep reduces your attempts and rewards you for the max damage dealt.\r\r\n\r\r\nMax Damage: {0}",
       "ja": "掃討すると挑戦回数は消費され、最大ダメージ量と同じ報酬を獲得します。\r\n\r\n最大ダメージ量：{0}",
       "zh_tw": "掃蕩時將扣除挑戰次數，並獲得與最大傷害量相應的獎勵。\r\r\n\r\r\n最大傷害量：{0}",
@@ -32138,7 +32162,7 @@
     },
     {
       "no": 520210,
-      "kr": "소탕 시 도전 횟수가 차감되며, 최대 피해량과 동일한 피해량이 누적됩니다.\r\n\r\n최대 피해량 : {0}",
+      "kr": "소탕 시 도전 횟수가 차감되며, 최대 피해량과 동일한 피해량이 누적됩니다.\r\n\r\n최대 피해량: {0}",
       "en": "Sweep reduces your attempts while dealing the max damage.\r\r\n\r\r\nMax Damage: {0}",
       "ja": "掃討すると挑戦回数は消費され、最大ダメージ量と同じダメージ量が加算されます。\r\n\r\n最大ダメージ量：{0}",
       "zh_tw": "掃蕩時將扣除挑戰次數，累積與最大傷害量相同的傷害量。\r\r\n\r\r\n最大傷害量：{0}",
@@ -32162,7 +32186,7 @@
     },
     {
       "no": 520213,
-      "kr": "※ 경고 : 현재 자동 전투가 미설정 되어있습니다.",
+      "kr": "※ 경고: 현재 자동 전투가 미설정 되어있습니다.",
       "en": "*Warning: Auto-combat is off.",
       "ja": "※警告：自動戦闘が設定されていません。",
       "zh_tw": "※警告：目前未設定自動戰鬥。",
@@ -32978,7 +33002,7 @@
     },
     {
       "no": 530055,
-      "kr": "로비 배치 정령 : ",
+      "kr": "로비 배치 정령: ",
       "en": "Souls placed in Lobby: ",
       "ja": "ロビー配置精霊： ",
       "zh_tw": "大廳配置精靈：",
@@ -33170,7 +33194,7 @@
     },
     {
       "no": 530083,
-      "kr": "소탕 시 도전 횟수가 차감되며, 클리어한 최대 레벨과 동일한 보상을 획득합니다.\r\n최대 클리어 레벨 : {0}",
+      "kr": "소탕 시 도전 횟수가 차감되며, 클리어한 최대 레벨과 동일한 보상을 획득합니다.\r\n최대 클리어 레벨: {0}",
       "en": "Sweep reduces your attempts and rewards you for the max level you cleared.\r\r\nMax level cleared: {0}",
       "ja": "掃討すると挑戦回数は消費され、クリアした最高Lvと同じ報酬を獲得します。\r\n最高クリアLv：{0}",
       "zh_tw": "掃蕩時將扣除挑戰次數，並獲得與通關最高等級相同的獎勵。\r\r\n通關最高等級：{0}",
@@ -33178,7 +33202,7 @@
     },
     {
       "no": 530084,
-      "kr": "전투가 종료됐습니다.\r\n\r\n남은 체력 : <color=\"#FF5050\">{0}</color>%",
+      "kr": "전투가 종료됐습니다.\r\n\r\n남은 체력: <color=\"#FF5050\">{0}</color>%",
       "en": "The battle has ended.\r\r\n\r\r\nHP Remaining: <color=\"#FF5050\">{0}</color>%",
       "ja": "戦闘が終了しました。\r\n\r\n残り体力：<color=\"#FF5050\">{0}</color>%",
       "zh_tw": "戰鬥已結束。\r\n\r\n剩餘體力：<color=\"#FF5050\">{0}</color>%",
@@ -36443,145 +36467,145 @@
     {
       "no": 532339,
       "kr": "어서 오세요.\r\n떡주머니는 많이 모으셨나요?",
-      "en": "",
+      "en": "Come on in.\r\nDid you get a lot of Rice Cake Pouches?",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "歡迎，\r\n收集到很多年糕袋了嗎？",
       "zh_cn": ""
     },
     {
       "no": 532340,
       "kr": "열심히 이벤트에 참가한 여러분을 위해\r\n좋은 물건을 준비했답니다.",
-      "en": "",
+      "en": "We've got some amazing goodies ready to thank you\r\nfor your enthusiastic participation in the event.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "我為認真參加活動的大家\r\n準備了好東西。",
       "zh_cn": ""
     },
     {
       "no": 532341,
       "kr": "순이 님께는 죄송하지만…\r\n꽤 유쾌한 이벤트였다고 생각해요. 후후.",
-      "en": "",
+      "en": "While I feel bad for Soonie,\r\nI think the event was quite fun.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "雖然對順伊很抱歉…\r\n但我覺得是很愉快的活動，呵呵。",
       "zh_cn": ""
     },
     {
       "no": 532342,
       "kr": "새해에는 저도 다른 분들처럼\r\n제 욕망에 솔직해져 보려 한답니다.",
-      "en": "",
+      "en": "This year, I want to follow others' example and\r\nstart being honest with myself about what I want.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "新的一年，我打算像其他人那樣\r\n忠於自己的欲望。",
       "zh_cn": ""
     },
     {
       "no": 532343,
       "kr": "모아오신 떡주머니는 순이 공장장님께\r\n무사히 돌려 드릴게요.",
-      "en": "",
+      "en": "I'll make sure to safely return the Rice Cake Pouches\r\nto Factory Chief Soonie.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "我會將你收集的年糕袋\r\n完好地還給順伊廠長。",
       "zh_cn": ""
     },
     {
       "no": 532344,
       "kr": "고생 많으셨어요, 구원자님.\r\n이건 제 몫의 떡인데… 하나 맛보시겠어요?",
-      "en": "",
+      "en": "You've done a great job, Savior.\r\nWould you like to try one of my rice cakes?",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "辛苦你了，救援者。\r\n這是我這份的年糕…要嘗一個看看嗎？",
       "zh_cn": ""
     },
     {
       "no": 532345,
       "kr": "구원자님, 기다리고 있었사와요.\r\n전부 최상급 물건이랍니다!",
-      "en": "",
+      "en": "Oh, Savior. I've been waiting for you.\r\nThese are all top-notch goods!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "救援者，等你好久了。\r\n全都是最高級的東西哦！",
       "zh_cn": ""
     },
     {
       "no": 532346,
       "kr": "교환 상점에 어서 오세요~\r\n…저, 저도 한 번쯤 말해보고 싶었사와요.",
-      "en": "",
+      "en": "Welcome to the exchange shop!\r\nOh, I finally got to say that.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "歡迎來到兌換商店～\r\n…我、我之前很想這樣說看看。",
       "zh_cn": ""
     },
     {
       "no": 532347,
       "kr": "저희 가족들이 실례가 많았사와요…\r\n정말, 둘 다 무슨 생각인지…",
-      "en": "",
+      "en": "I know my family has been giving you so much trouble...\r\nI just don't understand what they're thinking...",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "我們家人真的很失禮…\r\n真是的，不知道他們兩個在想什麼…",
       "zh_cn": ""
     },
     {
       "no": 532348,
       "kr": "저, 공장 털이는 처음 해보았사와요!\r\n너~무너무 재밌었사와요!!",
-      "en": "",
+      "en": "This was my first factory raid!\r\nIt was incredibly fun!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "我，第一次洗劫工廠！\r\n實在太～有趣了！！",
       "zh_cn": ""
     },
     {
       "no": 532349,
       "kr": "교환해 주셔서 감사드리어요!\r\n마음에 드셨으면 좋겠사와요.",
-      "en": "",
+      "en": "Thank you for your business!\r\nHope you like them.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "謝謝你來兌換！\r\n希望你會喜歡。",
       "zh_cn": ""
     },
     {
       "no": 532350,
       "kr": "숫자 딱 맞춰 교환 완료했사와요.\r\n확인해 보시지요!",
-      "en": "",
+      "en": "The exchange is all set with the exact amount.\r\nFeel free to check!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "按照數字兌換完畢了，\r\n確認看看！",
       "zh_cn": ""
     },
     {
       "no": 532351,
       "kr": "축제 물품 교환 상점에 어서 오세요.\r\n느긋하게 둘러보시죠.",
-      "en": "",
+      "en": "Welcome to the Festival Goods Exchange Shop.\r\nTake your time as you look around.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "歡迎來到慶典物品兌換商店，\r\n慢慢逛。",
       "zh_cn": ""
     },
     {
       "no": 532352,
       "kr": "제이드 상점 출장판이냐고요?\r\n후훗, 비슷하네요.",
-      "en": "",
+      "en": "Is this an off-shoot of my business?\r\nI suppose you could say that.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "你問這是不是潔依德商店聯名的快閃店？\r\n呵呵，很類似呢。",
       "zh_cn": ""
     },
     {
       "no": 532353,
       "kr": "가온 지역의 전통복은 처음 입어보는데\r\n어떤가요? 잘 어울리나요?",
-      "en": "",
+      "en": "This is my first time wearing a traditional outfit of Gaon.\r\nWhat do you think? Does it look okay?",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "我第一次穿加溫地區的傳統服裝，\r\n怎麼樣？適合我嗎？",
       "zh_cn": ""
     },
     {
       "no": 532354,
       "kr": "행사의 홍보 대사가 된 건 처음이었는데\r\n의외로 아주 즐거운 경험이었네요.",
-      "en": "",
+      "en": "This was my first time serving as an ambassador for an event,\r\nand to my surprise, I thoroughly enjoyed it.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "我第一次當活動的宣傳大使，\r\n意外地是很愉快的體驗。",
       "zh_cn": ""
     },
     {
       "no": 532355,
       "kr": "제이드 상단에서 협찬한 물건들이니\r\n분명 마음에 드실 거예요.",
-      "en": "",
+      "en": "These are from my guild.\r\nI'm sure you'll like them.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "這是潔依德商團贊助的物品，\r\n你一定會喜歡。",
       "zh_cn": ""
     },
     {
       "no": 532356,
       "kr": "훌륭한 축제가 성사되었네요.\r\n전부 구원자님 덕분이에요.",
-      "en": "",
+      "en": "This festival was a success.\r\nIt's all thanks to you, Savior.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "成功舉辦了精采的慶典，\r\n全都是多虧了救援者。",
       "zh_cn": ""
     },
     {
@@ -37146,7 +37170,7 @@
     },
     {
       "no": 540070,
-      "kr": "친구의 도움을 받아 영지의 평화가 유지되었습니다.\r\n도움을 준 친구 : <color=\"#479ddc\">{0}</color>",
+      "kr": "친구의 도움을 받아 영지의 평화가 유지되었습니다.\r\n도움을 준 친구: <color=\"#479ddc\">{0}</color>",
       "en": "Peace was preserved in your town thanks to support from your friend(s).\r\nHelper(s): <color=\"#479ddc\">{0}</color>",
       "ja": "フレンドの支援により領地の平和は保たれました。\r\n支援してくれたフレンド：<color=\"#479ddc\">{0}</color>",
       "zh_tw": "受到好友幫助，維持了領地的和平。\r\n提供幫助的好友：<color=\"#479ddc\">{0}</color>",
@@ -40107,9 +40131,9 @@
     {
       "no": 552510,
       "kr": "캐서린(광휘) 배치 시 <color=\"#2d9b00\">캐서린(광휘)의 공격력 {0}%</color> 증가",
-      "en": "",
+      "en": "<color=\"#2d9b00\">Catherine (Radiance)'s ATK +{0}%</color> when Catherine (Radiance) is placed",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "配置凱瑟琳（光輝）時，<color=\"#2d9b00\">凱瑟琳（光輝）的攻擊力增加{0}%</color>",
       "zh_cn": ""
     },
     {
@@ -42482,7 +42506,7 @@
     },
     {
       "no": 560069,
-      "kr": "남은 시간 : {0}일 {1}:{2}:{3}",
+      "kr": "남은 시간: {0}일 {1}:{2}:{3}",
       "en": "Time Left: {0}d {1}:{2}:{3}",
       "ja": "残り時間：{0}日{1}：{2}：{3}",
       "zh_tw": "剩餘時間：{0}天{1}：{2}：{3}",
@@ -42490,7 +42514,7 @@
     },
     {
       "no": 560070,
-      "kr": "남은 이용 횟수 : {0}/{1}",
+      "kr": "남은 이용 횟수: {0}/{1}",
       "en": "Remaining no. of uses: {0}/{1}",
       "ja": "残り利用回数：{0}/{1}",
       "zh_tw": "剩餘使用次數：{0}／{1}",
@@ -42674,7 +42698,7 @@
     },
     {
       "no": 560093,
-      "kr": "일일 이용 횟수 : {0}/{1}",
+      "kr": "일일 이용 횟수: {0}/{1}",
       "en": "Daily Use Count: {0}/{1}",
       "ja": "デイリー利用回数：{0}/{1}",
       "zh_tw": "每日使用次數：{0}／{1}",
@@ -42682,7 +42706,7 @@
     },
     {
       "no": 560094,
-      "kr": "주간 이용 횟수 : {0}/{1}",
+      "kr": "주간 이용 횟수: {0}/{1}",
       "en": "Weekly Use Count: {0}/{1}",
       "ja": "週間利用回数：{0}/{1}",
       "zh_tw": "每週使用次數：{0}／{1}",
@@ -42690,7 +42714,7 @@
     },
     {
       "no": 560095,
-      "kr": "월간 이용 횟수 : {0}/{1}",
+      "kr": "월간 이용 횟수: {0}/{1}",
       "en": "Monthly Use Count: {0}/{1}",
       "ja": "月間利用回数：{0}/{1}",
       "zh_tw": "每月使用次數：{0}／{1}",
@@ -42778,7 +42802,7 @@
     },
     {
       "no": 560106,
-      "kr": "유료 : {0}",
+      "kr": "유료: {0}",
       "en": "Paid: {0}",
       "ja": "有償：{0}",
       "zh_tw": "付費：{0}",
@@ -42786,7 +42810,7 @@
     },
     {
       "no": 560107,
-      "kr": "무료 : {0}",
+      "kr": "무료: {0}",
       "en": "Free: {0}",
       "ja": "無償：{0}",
       "zh_tw": "免費：{0}",
@@ -42994,7 +43018,7 @@
     },
     {
       "no": 560133,
-      "kr": "원하는 정령을 획득할 수 있습니다.\r\n(출현 타입 : 인간, 야수, 요정, 불사)",
+      "kr": "원하는 정령을 획득할 수 있습니다.\r\n(출현 타입: 인간, 야수, 요정, 불사)",
       "en": "Get the Souls you want.\r\r\n(Available types: Humanlike, Beast, Fairy, and Invincible)",
       "ja": "好きな精霊を獲得できます。\r\n(出現タイプ：人間、野獣、妖精、不死)",
       "zh_tw": "可獲得想要的精靈。\r\r\n（出現類型：人類、野獸、妖精、不死）",
@@ -43547,65 +43571,65 @@
     {
       "no": 560202,
       "kr": "금일 남은 소환 횟수 :",
-      "en": "",
+      "en": "Today's remaining summons:",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "本日剩餘召喚次數：",
       "zh_cn": "今日剩余可抽取次数："
     },
     {
       "no": 560203,
       "kr": "우정 소환 시 사용되는 하트는 영지와 친구 컨텐츠를 통해 무료 획득 가능",
-      "en": "",
+      "en": "Hearts for Friendship Summons are collected for free through Town and Friend features",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "友情召喚所使用的愛心可透過領地與好友內容免費獲得",
       "zh_cn": "友情召唤所需爱心点数可通过家园玩法和好友玩法免费获得"
     },
     {
       "no": 560204,
       "kr": "타입 소환 확정 횟수는 다른 타입 소환과 공유합니다",
-      "en": "",
+      "en": "The summon count needed for guaranteed Epic summon in Type Summon is shared across all types.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "類型召喚保底次數與其他類型召喚共享",
       "zh_cn": "不同类型之间共享类型召唤必出次数。"
     },
     {
       "no": 560205,
       "kr": "확정 시 위시리스트 3종 중 1종을 획득합니다.",
-      "en": "",
+      "en": "The guaranteed result gives you 1 out of the 3 on the wish list.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "保底獲得時，將在3個願望清單中獲得其中1種。",
       "zh_cn": "满足必出条件时可获得愿望清单3种神器中的1种。"
     },
     {
       "no": 560206,
       "kr": "위시리스트에 등록된 유물 획득 시 확정 횟수가 초기화됩니다.",
-      "en": "",
+      "en": "The summon count needed for a guaranteed result resets when an artifact on the wish list is summoned.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "獲得登錄在願望清單中的遺物後，保底次數將重置。",
       "zh_cn": "获得愿望清单中的神器时会重置必出次数。"
     },
     {
       "no": 560207,
       "kr": "위시리스트 확정",
-      "en": "",
+      "en": "Wish List Guaranteed",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "願望清單保底",
       "zh_cn": "愿望清单必出"
     },
     {
       "no": 560208,
       "kr": "앞으로 <color=\"#CFC949\">{0}</color> 회 소환 시 선택 유물 확정!",
-      "en": "",
+      "en": "<color=\"#CFC949\">{0}</color> more summon(s) until one of the wish-listed artifacts is guaranteed!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "接下來召喚<color=\"#CFC949\">{0}</color>次時，可保底為特定遺物！",
       "zh_cn": "接下来召唤 <color=\"#CFC949\">{0}</color> 次时必出所选神器!"
     },
     {
       "no": 560209,
       "kr": "확률 공시",
-      "en": "",
+      "en": "Probability Disclosure",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "機率公告",
       "zh_cn": "概率公式"
     },
     {
@@ -44154,7 +44178,7 @@
     },
     {
       "no": 580046,
-      "kr": "보유 수량 : {0}",
+      "kr": "보유 수량: {0}",
       "en": "Quantity: {0}",
       "ja": "所持数：{0}",
       "zh_tw": "持有數量：{0}",
@@ -44490,7 +44514,7 @@
     },
     {
       "no": 580088,
-      "kr": "남은 시간 : {0}일 {1}시간 {2}분",
+      "kr": "남은 시간: {0}일 {1}시간 {2}분",
       "en": "Time Left: {0}d {1}h {2}m",
       "ja": "残り時間：{0}日{1}時間{2}分",
       "zh_tw": "所剩時間：{0}天{1}小時{2}分",
@@ -45750,6 +45774,38 @@
       "en": "Weiss",
       "ja": "ヴァイス",
       "zh_tw": "拜斯",
+      "zh_cn": ""
+    },
+    {
+      "no": 581097,
+      "kr": "로제(홍염)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 581098,
+      "kr": "홍란(무쌍)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 581099,
+      "kr": "한울",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 581109,
+      "kr": "메릴",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -51450,7 +51506,7 @@
     },
     {
       "no": 650016,
-      "kr": "에버스톤 소모 : {0}",
+      "kr": "에버스톤 소모: {0}",
       "en": "Everstone Cost: {0}",
       "ja": "エバーストーン消耗：{0}",
       "zh_tw": "永恆石消耗：{0}",
@@ -51675,17 +51731,17 @@
     {
       "no": 650044,
       "kr": "외전 스토리",
-      "en": "",
+      "en": "Spin-Off Story",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "外傳故事",
       "zh_cn": ""
     },
     {
       "no": 650045,
       "kr": "외전 스토리는 추후 업데이트될 예정입니다.",
-      "en": "",
+      "en": "Spin-off stories will be coming soon.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "外傳故事預計後續更新。",
       "zh_cn": ""
     },
     {
@@ -52378,7 +52434,7 @@
     },
     {
       "no": 660122,
-      "kr": "기원 탐사 : {0}",
+      "kr": "기원 탐사: {0}",
       "en": "Origin exploration: {0}",
       "ja": "起源探査：{0}",
       "zh_tw": "探查起源：{0}",
@@ -57866,7 +57922,7 @@
     },
     {
       "no": 991401,
-      "kr": "여러가지 랜덤한 기믹을 만날 수 있습니다.\r\n교환상인 마농 : 소유 중인 보물을 같은 등급의 다른 보물로 교환 합니다.\r\n미궁코인 상인 제이드 : 미궁코인을 소모하여 보물을 구매합니다.\r\n프림의 카드마술 : 랜덤한 보물을 한 가지 획득합니다.\r\n유리아의 축복 : 아주 강력한 보물을 획득합니다.\r\n이 외에도 다양한 기믹과 만날 수 있습니다.",
+      "kr": "여러가지 랜덤한 기믹을 만날 수 있습니다.\r\n교환상인 마농: 소유 중인 보물을 같은 등급의 다른 보물로 교환 합니다.\r\n미궁코인 상인 제이드: 미궁코인을 소모하여 보물을 구매합니다.\r\n프림의 카드마술: 랜덤한 보물을 한 가지 획득합니다.\r\n유리아의 축복: 아주 강력한 보물을 획득합니다.\r\n이 외에도 다양한 기믹과 만날 수 있습니다.",
       "en": "You can run into various random gimmicks.\r\r\nExchange Merchant Manon: Exchanges your treasure for another treasure of the same grade.\r\r\nLabyrinth Coin Merchant Jade: Sells treasures that can be purchased with Labyrinth Coins.\r\r\nPrim's Card Magic: Gives you a random treasure.\r\r\nYuria's Blessing: Gives you a very powerful treasure.\r\r\nThere are other different gimmicks you can run into as well.",
       "ja": "様々なランダムギミックが出現します。\r\n交換商人マノン：所持中の宝物を同じランクの他の宝物に交換します。\r\n迷宮コイン商人ジェイド：迷宮コインを消費して宝物を購入します。\r\nプリムのカードマジック：宝物をランダムで1つ獲得します。\r\nユリアの祝福：非常に強力な宝物を獲得します。\r\n他にも様々なギミックが登場します。",
       "zh_tw": "可以遇到各種隨機特殊機關。\r\r\n兌換商人瑪儂：可將持有的寶物兌換成相同階級的其他寶物。\r\r\n迷宮硬幣商人潔依德：消耗迷宮硬幣購買寶物。\r\r\n弗里姆的紙牌魔術：隨機獲得一個寶物。\r\r\n尤里婭的祝福：獲得十分強大的寶物。\r\r\n還能遇到其他各種特殊機關。",
@@ -58906,7 +58962,7 @@
     },
     {
       "no": 992691,
-      "kr": "최대 7개의 슬롯에 지정한 정령을 획득할 수 있는 정령 소환입니다.\r\n슬롯은 스페셜 1개, 에픽 5개, 레어 1개의 슬롯이 있습니다.\r\n\r\n■ 스페셜 : 천사 또는 악마 중 선택(필수 선택)\r\n■ 에픽 : 모든 인간, 야수, 요정, 불사 에픽 정령 중 선택(필수 선택)\r\n■ 레어 : 모든 레어 정령 중 선택(선택 또는 미선택)\r\n - 레어 슬롯은 미선택 시 레어 등급 정령을 랜덤하게 획득할 수 있습니다.\r\n\r\n소환 시 지정 소환권을 사용합니다.\r\n\r\n30회 소환 중 에픽 정령을 획득하지 못할 경우 확정으로 에픽 정령이 출현하며, 도중 에픽 정령을 획득 시 카운트가 초기화됩니다.",
+      "kr": "최대 7개의 슬롯에 지정한 정령을 획득할 수 있는 정령 소환입니다.\r\n슬롯은 스페셜 1개, 에픽 5개, 레어 1개의 슬롯이 있습니다.\r\n\r\n■ 스페셜: 천사 또는 악마 중 선택(필수 선택)\r\n■ 에픽: 모든 인간, 야수, 요정, 불사 에픽 정령 중 선택(필수 선택)\r\n■ 레어: 모든 레어 정령 중 선택(선택 또는 미선택)\r\n - 레어 슬롯은 미선택 시 레어 등급 정령을 랜덤하게 획득할 수 있습니다.\r\n\r\n소환 시 지정 소환권을 사용합니다.\r\n\r\n30회 소환 중 에픽 정령을 획득하지 못할 경우 확정으로 에픽 정령이 출현하며, 도중 에픽 정령을 획득 시 카운트가 초기화됩니다.",
       "en": "A summon feature where you can target Souls in up to 7 slots.\r\nThere are 1 Special, 5 Epic, and 1 Rare slots.\r\n\r\n■ Special: Select from all Angel and Demon Souls (required)\r\n■ Epic: Select from all Humanlike, Beast, Fairy, and Undead Epic Souls (required)\r\n■ Rare: Select from all Rare Souls (optional)\r\n - Not making a selection for the Rare slot will leave the summon open for all Rare Souls.\r\n\r\nSummoning consumes Targeted Summon Tickets.\r\n\r\nAn Epic Soul is guaranteed if one is not obtained within 30 summons. The counter resets upon acquiring an Epic Soul.",
       "ja": "最大7つのスロットに指定した精霊を獲得できる精霊召喚です。\r\nスロットはスペシャル1個、エピック5個、レア1個になります。\r\n\r\n■スペシャル：対象の天使・悪魔精霊の中から選択(必須)\r\n■エピック：対象の人間・野獣・妖精・不死のエピック精霊の中から選択(必須)\r\n■レア：すべてのレア精霊の中から選択(必須ではない)\r\n- レアスロットを選択していない場合、ランダムでレア精霊を獲得できます。\r\n\r\n召喚時に指定召喚券を使用します。\r\n\r\n召喚を30回利用してもエピック精霊を獲得できなかった場合は、30回目に確定としてエピック精霊が出現し、途中にエピック精霊を獲得するとカウントはリセットします。",
       "zh_tw": "可獲得指定精靈的精靈召喚，最多可登錄7個欄位。\r\n欄位包括1個特別、5個史詩、1個稀有。\r\n\r\n■ 特別：在天使或惡魔中選擇（必選）\r\n■ 史詩：在所有人類、野獸、妖精、不死史詩精靈中選擇（必選）\r\n■ 稀有：在所有稀有精靈中選擇（可選可不選）\r\n－未選擇稀有欄位時，將隨機獲得稀有階級精靈。\r\n\r\n召喚時將使用指定召喚券。\r\n\r\n如召喚30次仍未獲得史詩精靈，將保底出現史詩精靈。當過程中獲得史詩精靈時，則會重新計算次數。",
@@ -61754,7 +61810,7 @@
     },
     {
       "no": 995651,
-      "kr": "타일을 편집하는 경우, 화면 하단에 이동, 그리기, 지우기 버튼을 제공합니다.\r\n\r\n이동 : 화면을 터치해 카메라 이동\r\n그리기 : 화면을 터치해 연속해서 타일 배치\r\n지우기 : 화면을 터치해 연속해서 타일 지우기",
+      "kr": "타일을 편집하는 경우, 화면 하단에 이동, 그리기, 지우기 버튼을 제공합니다.\r\n\r\n이동: 화면을 터치해 카메라 이동\r\n그리기: 화면을 터치해 연속해서 타일 배치\r\n지우기: 화면을 터치해 연속해서 타일 지우기",
       "en": "When editing tiles, Move, Draw, and Erase buttons will appear on the bottom side of the screen.\r\r\n\r\r\nMove: touch the screen to move the camera\r\r\nDraw: touch the screen to install tiles in a row\r\r\nErase: touch the screen to delete tiles in a row",
       "ja": "タイルを編集する場合は、\r\n画面下部に「移動」、「描く」、「消す」ボタンを使用します。\r\n\r\n移動：画面をタップしてカメラを移動\r\n描く：画面をタップして連続でタイルを配置\r\n消す：画面をタップして連続でタイルを消す",
       "zh_tw": "編輯磁磚時，畫面下方會顯示移動、連續選取、刪除按鍵。\r\r\n\r\r\n移動：點擊畫面可移動攝影機\r\r\n連續選取：點擊畫面可連續配置磁磚\r\r\n刪除：點擊畫面可連續刪除磁磚",
@@ -62114,7 +62170,7 @@
     },
     {
       "no": 996117,
-      "kr": "여러가지 랜덤한 기믹을 만날 수 있습니다.\r\n교환상인 마농 : 소유 중인 보물을 같은 등급의 다른 보물로 교환 합니다.\r\n유리아의 축복 : 아주 강력한 보물을 획득합니다.\r\n프림의 카드마술 : 랜덤한 보물을 한 가지 획득합니다.\r\n보물 강화 : 보유 중인 강화 가능 보물들을 상위 등급으로 강화할 수 있습니다.",
+      "kr": "여러가지 랜덤한 기믹을 만날 수 있습니다.\r\n교환상인 마농: 소유 중인 보물을 같은 등급의 다른 보물로 교환 합니다.\r\n유리아의 축복: 아주 강력한 보물을 획득합니다.\r\n프림의 카드마술: 랜덤한 보물을 한 가지 획득합니다.\r\n보물 강화: 보유 중인 강화 가능 보물들을 상위 등급으로 강화할 수 있습니다.",
       "en": "You can run into various random gimmicks.\r\r\nExchange Merchant Manon: Exchanges your treasure for another treasure of the same grade.\r\r\nYuria's Blessings: Gives you a very powerful treasure.\r\r\nPrim's Card Magic: Gives you a random treasure.\r\r\nEnhance Treasure: You can enhance certain treasures to a higher grade.",
       "ja": "様々なランダムギミックが出現します。\r\n交換商人マノン：所持中の宝物を同じランクの他の宝物に交換します。\r\nユリアの祝福：非常に強力な宝物を獲得します。\r\nプリムのカードマジック：宝物をランダムで1つ獲得します。\r\n宝物強化：所持中の京花可能宝物たちを上位等級に強化できます。",
       "zh_tw": "會遇到各種隨機特殊機關。\r\r\n兌換商人瑪儂：將持有的寶物兌換成相同階級的其他寶物。\r\r\n尤里婭的祝福：獲得十分強大的寶物。\r\r\n弗里姆的紙牌魔術：隨機獲得一個寶物。\r\r\n強化寶物：將持有的可強化寶物強化至高階等級。",
@@ -63035,65 +63091,65 @@
     {
       "no": 996486,
       "kr": "이벤트 기간 동안 특별 스테이지 「신년맞이 떡공장털이」가 오픈됩니다.\r\n떡공장장 순이로부터 떡주머니를 빼앗아 다양한 보상을 획득하세요.",
-      "en": "",
+      "en": "The special stage \"New Year's Rice Cake Factory Raid\" will be available during the event period.\r\nSteal Rice Cake Pouches from Ricecake Maker Soonie to earn a variety of rewards.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "活動期間內開放特別關卡「迎春洗劫年糕工廠」。\r\n從年糕工廠廠長順伊那裡搶走年糕袋，獲得各種獎勵吧。",
       "zh_cn": ""
     },
     {
       "no": 996487,
       "kr": "이벤트 레이드 「신년맞이 떡공장털이」에 입장하기 위해서는\r\n이벤트 스토리 「만사형통?! 가온신년제」 6화를 확인해야 합니다.",
-      "en": "",
+      "en": "You need to view episode 6 of the event story \"Gaon New Year's Festival\"\r\nto enter the \"New Year's Rice Cake Factory Raid\" event raid.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "需先觀看活動故事「萬事如意？！加溫新年祭」 第6話，\r\n才可進入活動突襲「迎春洗劫年糕工廠」。",
       "zh_cn": ""
     },
     {
       "no": 996488,
       "kr": "「떡주머니」는 「신년맞이 떡공장털이」에서 획득할 수 있으며,\r\n「떡공장 공판장」에서 다양한 아이템으로 교환할 수 있습니다.",
-      "en": "",
+      "en": "You can get \"Rice Cake Pouches\" from the \"New Year's Rice Cake Factory Raid.\"\r\nExchange them for various items at the \"Rice Cake Factory Market.\"",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "可在「迎春洗劫年糕工廠」獲得「年糕袋」，\r\n並在「年糕工廠市集」兌換各種道具。",
       "zh_cn": ""
     },
     {
       "no": 996489,
       "kr": "교환 기간이 종료되면 「떡주머니」는 개당 3000골드로 환산됩니다.\r\n환산된 아이템은 우편함으로 지급됩니다.",
-      "en": "",
+      "en": "When the exchange period ends, each \"Rice Cake Pouch\" will be converted into 3,000 Gold.\r\nThe converted gold will be sent to your mailbox.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "兌換時間結束後，每1個「年糕袋」將換算成3000金幣，\r\n並發送至信箱。",
       "zh_cn": ""
     },
     {
       "no": 996490,
       "kr": "떡공장장 순이를 물리치고 「떡주머니」를 획득하세요.\r\n클리어한 레벨이 높을수록 더 풍성한 보상을 획득할 수 있습니다.",
-      "en": "",
+      "en": "Defeat Ricecake Maker Soonie and collect \"Rice Cake Pouches.\"\r\nThe higher the level you clear, the more rewards you'll get.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "擊退年糕工廠廠長順伊並獲得「年糕袋」。\r\n通關的等級越高，可獲得的獎品也會越多。",
       "zh_cn": ""
     },
     {
       "no": 996491,
       "kr": "이벤트 스테이지 「축제 방해꾼 쫓아내기」는\r\n「가온 주막」, 혹은 「불꽃놀이장」 중 하나를 선택하여 도전할 수 있습니다.\r\n이디스 혹은 제이드와 함께 작전을 수행해 보세요!",
-      "en": "",
+      "en": "Choose between \"Gaon Tavern\" and \"Fireworks Zone\"\r\nto tackle the event stage \"Repel Festival Disruptors.\"\r\nWork with either Edith or Jade on a mission!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "活動關卡「驅趕慶典搗蛋鬼」可在\r\n「加溫客棧」與「煙火遊樂場」中擇一挑戰。\r\n跟伊迪絲或潔依德一起執行作戰吧！",
       "zh_cn": ""
     },
     {
       "no": 996492,
       "kr": "「축제 방해꾼 쫓아내기」에서 「탁주 사발」과 「불꽃 노리개」를 획득할 수 있으며,\r\n「축제 물품 교환 상점」에서 다양한 아이템으로 교환할 수 있습니다.",
-      "en": "",
+      "en": "You can get \"Rice Wine Bowls\" and \"Firework Charms\" from the \"Repel Festival Disruptors\" stage.\r\nExchange them for various items at the \"Festival Goods Exchange Shop.\"",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "可透過「驅趕慶典搗蛋鬼」獲得「米酒碗缽」與「煙火飾品」，\r\n並可於「慶典物品兌換商店」兌換各種道具。",
       "zh_cn": ""
     },
     {
       "no": 996493,
       "kr": "「탁주 사발」과 「불꽃 노리개」는 교환 기간이 종료되면 개당 3000골드로 환산됩니다.\r\n환산된 아이템은 우편함으로 지급됩니다.",
-      "en": "",
+      "en": "When the exchange period ends, each \"Rice Wine Bowl\" and \"Firework Charm\" will be converted into 3,000 Gold.\r\nThe converted gold will be sent to your mailbox.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "兌換時間結束後，每1個「米酒碗缽」與「煙火飾品」將換算成3000金幣，\r\n並發送至信箱。",
       "zh_cn": ""
     },
     {
@@ -63266,7 +63322,7 @@
     },
     {
       "no": 997011,
-      "kr": "정령의 상태를 확인하고 성장시킬 수 있습니다.\r\n좌측 탭을 이용하여 정령의 정보를 확인하세요.\r\n상세 : 현재 정령의 상태를 확인하고 레벨업 할 수 있습니다.\r\n예장 : 정령의 예장 / 유물을 장착하고 레벨업 할 수 있습니다.\r\n스킬 : 정령의 스킬 정보를 확인할 수 있습니다.\r\n코스튬 : 정령의 코스튬을 확인하고 착용할 수 있습니다.\r\n프로필 : 정령의 정보를 확인할 수 있습니다. 정령에 대해 알아보세요.",
+      "kr": "정령의 상태를 확인하고 성장시킬 수 있습니다.\r\n좌측 탭을 이용하여 정령의 정보를 확인하세요.\r\n상세: 현재 정령의 상태를 확인하고 레벨업 할 수 있습니다.\r\n예장: 정령의 예장 / 유물을 장착하고 레벨업 할 수 있습니다.\r\n스킬: 정령의 스킬 정보를 확인할 수 있습니다.\r\n코스튬: 정령의 코스튬을 확인하고 착용할 수 있습니다.\r\n프로필: 정령의 정보를 확인할 수 있습니다. 정령에 대해 알아보세요.",
       "en": "Monitor and enhance the status of your Soul.\r\r\nUse the left tab to check the information of the Soul.\r\r\nDetails: View and level up the current Soul.\r\r\nKeepsake: Equip and level up the Soul's Keepsakes/Artifacts.\r\r\nSkill: Access detailed skill information of the Soul.\r\r\nCostume: View and change the Soul's costume.\r\r\nProfile: Explore the Soul's background and characteristics.",
       "ja": "精霊の状態を確認して成長させることができます。\r\n左のタブを利用して精霊の情報を確認してください。\r\n詳細：現在の精霊の状態を確認してLvアップできます。\r\n礼装：精霊の礼装・遺物を装着してLvアップできます。\r\nスキル：精霊のスキル情報を確認できます。\r\nコスチューム：精霊のコスチュームを確認して着用できます。\r\nプロフィール：精霊の情報を確認できます。精霊についての理解を深めましょう。",
       "zh_tw": "可查看精靈的狀態並使其成長。\r\r\n使用左側分頁，查看精靈資訊。\r\r\n詳細：可查看目前精靈的狀態並升級。\r\r\n禮品：可裝備精靈的禮品／遺物並升級。\r\r\n技能：可查看精靈的技能資訊。\r\r\n時裝：可查看並套用精靈的時裝。\r\r\n簡介：可查看精靈的資訊，前往了解精靈吧。",
@@ -64803,9 +64859,9 @@
     {
       "no": 1106182,
       "kr": "지긋지긋한 탐관오리 클로이가 또 다시 나타났다!\r\n\r\n하지만 욕망과 탐욕으로 가득 무장한 채 다시 등장한 이 녀석은 우리가 알던 그 탐관오리 클로이가 아니다!\r\n\r\n주기적으로 수급되는 <COLOR=#FFFFFF><엽전></COLOR>을 커다란 머리에 투척하여 탐욕의 쓴맛을 보여주도록 하자!\r\n\r\n<COLOR=#FFFFFF>따뜻한 아랫목과 질 좋은 음식으로 풍족한 생활을 누려서인지 추위와 중독에 매우 약한 모습을 보이므로 냉기 및 중독을 활용할 수 있는 정령을 편성할 수 있도록 하자!</COLOR>",
-      "en": "",
+      "en": "Corrupt Official Chloe is back again!\r\n\r\nBut this time, she's returned armed with overwhelming greed and desire, making her a far cry from the official we used to know!\r\n\r\nToss the periodically gained <COLOR=#FFFFFF>\"Brass Coins\"</COLOR> at her oversized head to teach her a bitter lesson in greed!\r\n\r\n<COLOR=#FFFFFF>Having grown soft from living in luxury with warm floors and fine dining, she's extremely susceptible to Freeze and Poison. Deploy Souls who can exploit these weaknesses!</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "貪官汙吏克羅伊又出現了！\r\n\r\n但這個武裝著欲望和貪婪再次登場的傢伙，不是我們所認識的那個貪官汙吏克羅伊！\r\n\r\n把定期供給的<COLOR=#FFFFFF>＜銅錢＞</COLOR>丟到她巨大的頭上，讓她嚐嚐貪婪的痛苦！\r\n\r\n<COLOR=#FFFFFF>可能是因為享受著豐衣足食的生活，讓她展現出難以招架寒冷和中毒的模樣，所以配置能靈活運用寒氣和中毒的精靈吧！</COLOR>",
       "zh_cn": ""
     },
     {

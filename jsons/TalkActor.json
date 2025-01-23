@@ -1832,6 +1832,16 @@
       "position_scale": 1.0
     },
     {
+      "no": 3159,
+      "name_sno": 259999,
+      "prefab_path": "Wheri",
+      "portrait512_path": "UI/Textures/Souls/Wheri/Wheri_512",
+      "portrait128_path": "UI/Textures/Souls/Wheri/Wheri_128",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
       "no": 3180,
       "name_sno": 303180,
       "prefab_path": "",
@@ -2563,6 +2573,17 @@
       "position_scale": 1.0
     },
     {
+      "no": 5059,
+      "name_sno": 259999,
+      "prefab_path": "",
+      "portrait512_path": "UI/Textures/Etc/NPC_Brigitte_512",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
       "no": 6010,
       "name_sno": 306010,
       "prefab_path": "Larimar",
@@ -2848,6 +2869,17 @@
       "portrait512_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_Costume01_512",
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_Costume01_128",
       "costume_path": "MephistoDawn_Costume01",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
+      "no": 6539,
+      "name_sno": 259999,
+      "prefab_path": "MephistoDawn",
+      "portrait512_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_512",
+      "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128",
+      "costume_path": "",
       "controller_path": "",
       "portrait_reverse": 1,
       "position_scale": 1.0
@@ -9979,6 +10011,16 @@
     {
       "no": 9711,
       "name_sno": 250667,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9712,
+      "name_sno": 250668,
       "prefab_path": "",
       "portrait512_path": "",
       "portrait128_path": "",

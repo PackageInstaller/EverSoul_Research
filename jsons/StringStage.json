@@ -1139,9 +1139,9 @@
     {
       "no": 101028,
       "kr": "광역 역할 정령 {1}명 이상 배치하기",
-      "en": "",
+      "en": "Deploy {1} or more AoE Souls",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "配置超過{1}個廣域定位精靈",
       "zh_cn": ""
     },
     {
@@ -1995,9 +1995,9 @@
     {
       "no": 419093,
       "kr": "VS 떡공장장 순이",
-      "en": "",
+      "en": "Vs. Rice Cake Factory Chief Soonie",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "VS 年糕工廠廠長順伊",
       "zh_cn": ""
     },
     {
@@ -2289,6 +2289,14 @@
       "zh_cn": ""
     },
     {
+      "no": 500032,
+      "kr": "별의 등대",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 501001,
       "kr": "화염에 휩싸인 솔레이 왕국의 도시.\r\n\r\n아름다웠던 엘나스는 갑작스레 발생한 초대형 게이트로 인해 무참히 짓밟힌다.\r\n\r\n거리에는 웃음소리 대신 포악한 마물들의 울음소리와 정령들의 비명이 울려 퍼지는 가운데,\r\n\r\n여왕 유리아는 생존을 위한 마지막 수단으로 방주의 정령과 함께 <구원자>를 소환하기 위한 의식을 치르는데…",
       "en": "The city of the Kingdom of Solrey has been engulfed in flame.\r\n\r\nThe once beautiful Elnath is mercilessly crushed by a gigantic Gate that suddenly appeared.\r\n\r\nAs shrieks of savage monsters and screams of Souls resonate through streets that were once full of laughter,\r\n\r\nQueen Yuria performs a ritual to summon the Savior for their survival with the Soul of the Ark as their last resort...",
@@ -2534,6 +2542,14 @@
       "en": "The deepest, most twisted reaches of the Tabria Empire—a place beyond the reach of ordinary paths.\r\nAn incomprehensible power permeates this place, unraveling its order and laws.\r\n\r\nIn the distant past, the Great Empress of Tabria is said to have sealed a colossal beast here.\r\n\r\n\"A sacred ritual shall be performed to cleanse the world of fallen souls.\r\nAll souls shall pray without fear.\"",
       "ja": "煉獄への道マップ説明",
       "zh_tw": "塔布里亞帝國的最深處，無法用普通方法抵達的扭曲場所。\r\n不可名狀的強大力量破壞著這空間的所有秩序和法則。\r\n\r\n據說很久以前，塔布里亞大帝在這裡封印了巨大的野獸。\r\n\r\n「將會舉行淨化墮落之魂世界的神聖儀式，\r\n所有靈魂不必害怕，祈禱吧…」",
+      "zh_cn": ""
+    },
+    {
+      "no": 501032,
+      "kr": "트로이카 왕국 해역에 위치한 등대.\r\n이 인근의 거친 해류와 풍랑은 바다의 신이 잠들어 있기 때문이라는 전설이 있다.\r\n\r\n트로이카를 건국한 만물왕이 아우렐리아와 협력하며 교류를 다지기 위해 세운 것으로 알려져 있다.\r\n바닷길을 밝히는 등대이면서도 바닷물에 녹아 있는 마나를 정제해 마력으로 가공하는 발전소의 역할 또한 겸하고 있었으나, 만물왕이 잠든 순간부터 가동을 멈추었다.\r\n\r\n그러나 가동을 멈춘 지금도 등대는 하늘을 향해 강렬한 빛을 내뿜고 있다.\r\n무수한 생명이 공존하는 바다의 중심에서, 등대는 과연 무엇을 위해 아직도 불을 밝히고 있는 것일까…",
+      "en": "",
+      "ja": "煉獄への道マップ説明",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {

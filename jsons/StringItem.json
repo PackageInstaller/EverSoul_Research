@@ -2627,6 +2627,14 @@
     {
       "no": 213375,
       "kr": "정령의 기억: 바이스",
+      "en": "Soul's Memory: Weiss",
+      "ja": "",
+      "zh_tw": "精靈的記憶：拜斯",
+      "zh_cn": ""
+    },
+    {
+      "no": 213376,
+      "kr": "정령의 기억: 로제(홍염)",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -3010,7 +3018,7 @@
     },
     {
       "no": 214120,
-      "kr": "사진기 : 미카와 시하의 하루",
+      "kr": "사진기: 미카와 시하의 하루",
       "en": "Camera: Mica and Seeha's Day",
       "ja": "カメラ：ミカとシハの一日",
       "zh_tw": "相機：米卡和西荷的一天",
@@ -3258,7 +3266,7 @@
     },
     {
       "no": 214151,
-      "kr": "사진기 : 에덴 갓 탤런트",
+      "kr": "사진기: 에덴 갓 탤런트",
       "en": "Camera: Eden's Got Talent",
       "ja": "カメラ：エデンズ・ゴット・タレント",
       "zh_tw": "相機：伊甸園精靈之最",
@@ -3371,81 +3379,81 @@
     {
       "no": 214165,
       "kr": "사진기: 거미님 일러스트",
-      "en": "",
+      "en": "Camera: Geomi's Illustration",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "相機：거미插圖",
       "zh_cn": ""
     },
     {
       "no": 214166,
       "kr": "사진기: 주상절리님 일러스트",
-      "en": "",
+      "en": "Camera: Jusangjeolli's Illustration",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "相機：주상절리插圖",
       "zh_cn": ""
     },
     {
       "no": 214167,
       "kr": "사진기: yuugen님 일러스트",
-      "en": "",
+      "en": "Camera: Yuugen's Illustration",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "相機：yuugen插圖",
       "zh_cn": ""
     },
     {
       "no": 214168,
       "kr": "사진기: 귄터님 일러스트",
-      "en": "",
+      "en": "Camera: Gunter's Illustration",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "相機：귄터插圖",
       "zh_cn": ""
     },
     {
       "no": 214169,
       "kr": "사진기: 고꾸닥님 일러스트",
-      "en": "",
+      "en": "Camera: Gokudak's Illustration",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "相機：고꾸닥插圖",
       "zh_cn": ""
     },
     {
       "no": 214170,
       "kr": "설날 기념 복주머니",
-      "en": "",
+      "en": "New Year's Lucky Pouch",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "新春紀念福袋",
       "zh_cn": ""
     },
     {
       "no": 214171,
       "kr": "큼직한 세뱃돈 봉투",
-      "en": "",
+      "en": "Large Gift Envelope",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "巨大紅包袋",
       "zh_cn": ""
     },
     {
       "no": 214172,
       "kr": "세뱃돈 봉투 (지정 소환권)",
-      "en": "",
+      "en": "Gift Envelope (Targeted Summon Tickets)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "巨大紅包袋（指定召喚券）",
       "zh_cn": ""
     },
     {
       "no": 214173,
       "kr": "세뱃돈 봉투 (유물 소환권)",
-      "en": "",
+      "en": "Gift Envelope (Artifact Summon Tickets)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "巨大紅包袋（遺物召喚券）",
       "zh_cn": ""
     },
     {
       "no": 214174,
       "kr": "세뱃돈 봉투 (에리카의 연금술 티켓)",
-      "en": "",
+      "en": "Gift Envelope (Erika's Alchemy Tickets)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "巨大紅包袋（艾麗卡的鍊金術票券）",
       "zh_cn": ""
     },
     {
@@ -3971,17 +3979,17 @@
     {
       "no": 215271,
       "kr": "가온의 낮 신년제 거리",
-      "en": "",
+      "en": "Daytime Street of Gaon's New Year's Festival",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "加溫新年祭白天街道",
       "zh_cn": ""
     },
     {
       "no": 215281,
       "kr": "로제의 심상세계",
-      "en": "",
+      "en": "Rose's Imaginary World",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "蘿絲的心理世界",
       "zh_cn": ""
     },
     {
@@ -4898,7 +4906,7 @@
     },
     {
       "no": 216001,
-      "kr": "사진 : 미카와 시하의 하루",
+      "kr": "사진: 미카와 시하의 하루",
       "en": "Photo: Mica and Seeha's Day",
       "ja": "写真：ミカとシハの一日",
       "zh_tw": "照片：米卡和西荷的一天",
@@ -4906,7 +4914,7 @@
     },
     {
       "no": 216002,
-      "kr": "일러스트 : 데이트 어 소울",
+      "kr": "일러스트: 데이트 어 소울",
       "en": "Illustration: Date A Soul",
       "ja": "イラスト：デート・ア・ソウル",
       "zh_tw": "插圖：約會靈魂",
@@ -4914,7 +4922,7 @@
     },
     {
       "no": 216005,
-      "kr": "사진 : 에덴 갓 탤런트",
+      "kr": "사진: 에덴 갓 탤런트",
       "en": "Photo: Eden's Got Talent",
       "ja": "写真：エデンズ・ゴット・タレント",
       "zh_tw": "照片：伊甸園精靈之最",
@@ -5547,9 +5555,9 @@
     {
       "no": 216232,
       "kr": "스티커: 별의 등대",
-      "en": "",
+      "en": "Sticker: Lighthouse of the Stars",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "貼紙：星之燈塔",
       "zh_cn": ""
     },
     {
@@ -6105,6 +6113,30 @@
       "zh_cn": ""
     },
     {
+      "no": 216806,
+      "kr": "스티커: 기원의 증표 - 로제(홍염)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 216807,
+      "kr": "스티커: 기원의 증표 - 홍란(무쌍)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 216808,
+      "kr": "스티커: 기원의 증표 - 한울",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 216901,
       "kr": "스티커: 썰매왕 슬레이봅 (1위)",
       "en": "Sticker: Sled King Sleighbob (#1)",
@@ -6246,6 +6278,78 @@
       "en": "Sticker: Mecha Gaia (Bronze)",
       "ja": "ステッカー：メカイア(ブロンズ)",
       "zh_tw": "貼紙：機械蓋亞（青銅）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216919,
+      "kr": "스티커: 떡공장장 순이 (1위)",
+      "en": "Sticker: Ricecake Maker Soonie (#1)",
+      "ja": "",
+      "zh_tw": "貼紙：年糕工廠廠長順伊（第1名）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216920,
+      "kr": "스티커: 떡공장장 순이 (2위)",
+      "en": "Sticker: Ricecake Maker Soonie (#2)",
+      "ja": "",
+      "zh_tw": "貼紙：年糕工廠廠長順伊（第2名）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216921,
+      "kr": "스티커: 떡공장장 순이 (3위)",
+      "en": "Sticker: Ricecake Maker Soonie (#3)",
+      "ja": "",
+      "zh_tw": "貼紙：年糕工廠廠長順伊（第3名）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216922,
+      "kr": "스티커: 떡공장장 순이 (챌린저)",
+      "en": "Sticker: Ricecake Maker Soonie (Challenger)",
+      "ja": "",
+      "zh_tw": "貼紙：年糕工廠廠長順伊（王者）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216923,
+      "kr": "스티커: 떡공장장 순이 (마스터)",
+      "en": "Sticker: Ricecake Maker Soonie (Master)",
+      "ja": "",
+      "zh_tw": "貼紙：年糕工廠廠長順伊（大師）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216924,
+      "kr": "스티커: 떡공장장 순이 (플래티넘)",
+      "en": "Sticker: Ricecake Maker Soonie (Platinum)",
+      "ja": "",
+      "zh_tw": "貼紙：年糕工廠廠長順伊（白金）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216925,
+      "kr": "스티커: 떡공장장 순이 (골드)",
+      "en": "Sticker: Ricecake Maker Soonie (Gold)",
+      "ja": "",
+      "zh_tw": "貼紙：年糕工廠廠長順伊（黃金）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216926,
+      "kr": "스티커: 떡공장장 순이 (실버)",
+      "en": "Sticker: Ricecake Maker Soonie (Silver)",
+      "ja": "",
+      "zh_tw": "貼紙：年糕工廠廠長順伊（白銀）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216927,
+      "kr": "스티커: 떡공장장 순이 (브론즈)",
+      "en": "Sticker: Ricecake Maker Soonie (Bronze)",
+      "ja": "",
+      "zh_tw": "貼紙：年糕工廠廠長順伊（青銅）",
       "zh_cn": ""
     },
     {
@@ -7163,41 +7267,41 @@
     {
       "no": 218114,
       "kr": "떡주머니",
-      "en": "",
+      "en": "Rice Cake Pouch",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "年糕袋",
       "zh_cn": ""
     },
     {
       "no": 218115,
       "kr": "탁주 사발",
-      "en": "",
+      "en": "Rice Wine Bowl",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "米酒碗缽",
       "zh_cn": ""
     },
     {
       "no": 218116,
       "kr": "불꽃 노리개",
-      "en": "",
+      "en": "Firework Charm",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "煙火飾品",
       "zh_cn": ""
     },
     {
       "no": 218117,
       "kr": "신년맞이 떡공장털이 레이드 입장권",
-      "en": "",
+      "en": "New Year's Rice Cake Factory Raid Ticket",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "迎春洗劫年糕工廠突襲入場券",
       "zh_cn": ""
     },
     {
       "no": 218118,
       "kr": "룰렛 티켓",
-      "en": "",
+      "en": "Spin Ticket",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "轉盤票券",
       "zh_cn": ""
     },
     {
@@ -7300,7 +7404,7 @@
       "no": 220009,
       "kr": "아레나에서 상대에게 도전을 할 때,\r\n무료 도전 횟수가 없으면 대신 사용된다.\r\n(도전권은 아레나 보상 이벤트 혜택 미적용)",
       "en": "Used for challenging an opponent in the Arena\r\r\nwhen all free challenges have been used up.\r\r\n(Arena reward event perks do not apply to Challenge Tickets)",
-      "ja": "アリーナ参加に必要な入場券。\r\nアリーナ戦闘を1回利用できる。",
+      "ja": "アリーナ参加に必要な入場券。\r\nアリーナ戦闘を1回利用できる。\r\n(入場券を使用した場合、アリーナ報酬イベントは適用されない)",
       "zh_tw": "欲在競技場挑戰對方，\r\r\n但沒有免費挑戰次數時，將以此替代。\r\r\n（挑戰券不會套用競技場獎勵活動好處）",
       "zh_cn": "欲在竞技场挑战对方，\r\n但没有免费挑战次数时，将以此替代。\r\n（挑战券不会套用竞技场奖励活动好处）"
     },
@@ -9851,6 +9955,14 @@
     {
       "no": 223375,
       "kr": "파편 60개 수집시 에픽 정령 바이스 소환 가능",
+      "en": "Collect 60 fragments to summon Epic Soul Weiss.",
+      "ja": "",
+      "zh_tw": "收集60塊碎片時，即可召喚史詩精靈拜斯",
+      "zh_cn": ""
+    },
+    {
+      "no": 223376,
+      "kr": "파편 60개 수집시 에픽 정령 로제(홍염) 소환 가능",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -10250,7 +10362,7 @@
     },
     {
       "no": 224120,
-      "kr": "사진 : 미카와 시하의 하루를 찍은 사진기입니다.\r\n사용 시 일러스트를 획득합니다.",
+      "kr": "사진: 미카와 시하의 하루를 찍은 사진기입니다.\r\n사용 시 일러스트를 획득합니다.",
       "en": "Camera that took the Photo: Mica and Seeha's Day.\r\nUse to obtain an illustration.",
       "ja": "写真：ミカとシハの一日を撮影したカメラです。\r\n使用時、イラストを獲得します。",
       "zh_tw": "照片：拍攝米卡和西荷的一天的相機。\r\n使用時獲得插圖。",
@@ -10498,7 +10610,7 @@
     },
     {
       "no": 224151,
-      "kr": "사진 : 에덴 갓 탤런트를 찍은 사진기입니다.\r\n사용 시 일러스트를 획득합니다.",
+      "kr": "사진: 에덴 갓 탤런트를 찍은 사진기입니다.\r\n사용 시 일러스트를 획득합니다.",
       "en": "Camera that took the Photo: Eden's Got Talent.\r\nUse to obtain an illustration.",
       "ja": "写真：エデンズ・ゴット・タレントを撮影したカメラです。\r\n使用時、イラストを獲得します。",
       "zh_tw": "拍出照片：伊甸園精靈之最的相機。\r\n使用後獲得插圖。",
@@ -10595,81 +10707,81 @@
     {
       "no": 224165,
       "kr": "사진: 거미님 일러스트를 찍은 사진기입니다.\r\n사용 시 일러스트를 획득합니다.\r\n해당 일러스트는 2024년 에버소울 크리에이티브 컨테스트 일러스트 부문 대상 당선작입니다.",
-      "en": "",
+      "en": "Camera that took a photo of an illustration by Geomi.\r\nUse to obtain the illustration.\r\nThis illustration is the grand prize-winning entry in the illustration category of the 2024 Eversoul Creative Contest.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "照片：拍攝거미插圖的相機。\r\n使用時獲得插圖。\r\n該插圖是2024年永恆靈魂創意大賽插圖類大賞得獎作品。",
       "zh_cn": ""
     },
     {
       "no": 224166,
       "kr": "사진: 주상절리님 일러스트를 찍은 사진기입니다.\r\n사용 시 일러스트를 획득합니다.\r\n해당 일러스트는 2024년 에버소울 크리에이티브 컨테스트 일러스트 부문 금상 당선작입니다.",
-      "en": "",
+      "en": "Camera that took a photo of an illustration by Jusangjeolli.\r\nUse to obtain the illustration.\r\nThis illustration is the gold prize-winning entry in the illustration category of the 2024 Eversoul Creative Contest.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "照片：拍攝주상절리插圖的相機。\r\n使用時獲得插圖。\r\n該插圖是2024年永恆靈魂創意大賽插圖類金賞得獎作品。",
       "zh_cn": ""
     },
     {
       "no": 224167,
       "kr": "사진: yuugen님 일러스트를 찍은 사진기입니다.\r\n사용 시 일러스트를 획득합니다.\r\n해당 일러스트는 2024년 에버소울 크리에이티브 컨테스트 일러스트 부문 은상 당선작입니다.",
-      "en": "",
+      "en": "Camera that took a photo of an illustration by Yuugen.\r\nUse to obtain the illustration.\r\nThis illustration is the silver prize-winning entry in the illustration category of the 2024 Eversoul Creative Contest.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "照片：拍攝yuugen插圖的相機。\r\n使用時獲得插圖。\r\n該插圖是2024年永恆靈魂創意大賽插圖類銀賞得獎作品。",
       "zh_cn": ""
     },
     {
       "no": 224168,
       "kr": "사진: 귄터님 일러스트를 찍은 사진기입니다.\r\n사용 시 일러스트를 획득합니다.\r\n해당 일러스트는 2024년 에버소울 크리에이티브 컨테스트 일러스트 부문 특별상 당선작입니다.",
-      "en": "",
+      "en": "Camera that took a photo of an illustration by Gunter.\r\nUse to obtain the illustration.\r\nThis illustration is the special prize-winning entry in the illustration category of the 2024 Eversoul Creative Contest.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "照片：拍攝귄터插圖的相機。\r\n使用時獲得插圖。\r\n該插圖是2024年永恆靈魂創意大賽插圖類特別賞得獎作品。",
       "zh_cn": ""
     },
     {
       "no": 224169,
       "kr": "사진: 고꾸닥님 일러스트를 찍은 사진기입니다.\r\n사용 시 일러스트를 획득합니다.\r\n해당 일러스트는 2024년 에버소울 크리에이티브 컨테스트 일러스트 부문 특별상 당선작입니다.",
-      "en": "",
+      "en": "Camera that took a photo of an illustration by Gokudak.\r\nUse to obtain the illustration.\r\nThis illustration is the special prize-winning entry in the illustration category of the 2024 Eversoul Creative Contest.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "照片：拍攝고꾸닥插圖的相機。\r\n使用時獲得插圖。\r\n該插圖是2024年永恆靈魂創意大賽插圖類特別賞得獎作品。",
       "zh_cn": ""
     },
     {
       "no": 224170,
       "kr": "신년을 기념하여 마련한 에버스톤 복주머니!\r\n사용 시 100~300 무료 에버스톤을 확률에 따라 획득합니다.\r\n\r\n[획득 확률]\r\n에버스톤(무료) 300개: 5%\r\n에버스톤(무료) 250개: 10%\r\n에버스톤(무료) 200개: 15%\r\n에버스톤(무료) 150개: 30%\r\n에버스톤(무료) 100개: 40%",
-      "en": "",
+      "en": "New Year's Everstone lucky pouch!\r\nContains 100 to 300 free Everstones.\r\n\r\n[Probabilities]\r\n300 Everstones (Free): 5%\r\n250 Everstones (Free): 10%\r\n200 Everstones (Free): 15%\r\n150 Everstones (Free): 30%\r\n100 Everstones (Free): 40%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "為慶祝新年所準備的永恆石福袋！\r\n使用後將根據機率獲得100～300免費永恆石。\r\n\r\n［獲得機率］\r\n永恆石（免費）300個：5%\r\n永恆石（免費）250個：10%\r\n永恆石（免費）200個：15%\r\n永恆石（免費）150個：30%\r\n永恆石（免費）100個：40%",
       "zh_cn": ""
     },
     {
       "no": 224171,
       "kr": "신년을 기념하여 마련한 소환권 세뱃돈 봉투!\r\n운이 좋다면 픽업 소환권이 들어있을 지도...?\r\n사용 시 구성품 중 1종을 선택하여 획득할 수 있습니다.",
-      "en": "",
+      "en": "A New Year's gift envelope containing Summon Tickets!\r\nIf you're lucky, it may give you Pick-Up Summon Tickets!\r\nUse it to select and obtain 1 item from the available options.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "為慶祝新年所準備的召喚券紅包袋！\r\n運氣好的話，說不定裡面會有Pick Up召喚券哦…？\r\n使用後可選擇獲得其中1項內容物。",
       "zh_cn": ""
     },
     {
       "no": 224172,
       "kr": "신년을 기념하여 마련한 지정 소환권 세뱃돈 봉투!\r\n운이 좋다면 픽업 소환권이 들어있을 지도...?\r\n사용 시 아래 구성품을 확률에 따라 획득합니다.\r\n\r\n[획득 확률]\r\n픽업 소환권 50개: 1%\r\n지정 소환권 20개: 4%\r\n지정 소환권 15개: 5%\r\n지정 소환권 10개: 35%\r\n지정 소환권 5개: 55%",
-      "en": "",
+      "en": "A New Year's gift envelope containing Targeted Summon Tickets!\r\nIf you're lucky, it may give you Pick-Up Summon Tickets instead!\r\nUse it to obtain one of the following options:\r\n\r\n[Probabilities]\r\n50 Pick-Up Summon Tickets: 1%\r\n20 Targeted Summon Tickets: 4%\r\n15 Targeted Summon Tickets: 5%\r\n10 Targeted Summon Tickets: 35%\r\n5 Targeted Summon Tickets: 55%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "為慶祝新年所準備的指定召喚券紅包袋！\r\n運氣好的話，說不定裡面會有Pick Up召喚券哦…？\r\n使用後將根據機率獲得下列內容物。\r\n\r\n［獲得機率］\r\nPick Up召喚券50個：1%\r\n指定召喚券20個：4%\r\n指定召喚券15個：5%\r\n指定召喚券10個：35%\r\n指定召喚券5個：55%",
       "zh_cn": ""
     },
     {
       "no": 224173,
       "kr": "신년을 기념하여 마련한 유물 소환권 세뱃돈 봉투!\r\n운이 좋다면 픽업 소환권이 들어있을 지도...?\r\n사용 시 아래 구성품을 확률에 따라 획득합니다.\r\n\r\n[획득 확률]\r\n픽업 소환권 50개: 1%\r\n유물 소환권 35개: 4%\r\n유물 소환권 25개: 5%\r\n유물 소환권 20개: 35%\r\n유물 소환권 15개: 55%",
-      "en": "",
+      "en": "A New Year's gift envelope containing Artifact Summon Tickets!\r\nIf you're lucky, it may give you Pick-Up Summon Tickets instead!\r\nUse it to obtain one of the following options:\r\n\r\n[Probabilities]\r\n50 Pick-Up Summon Tickets: 1%\r\n35 Artifact Summon Tickets: 4%\r\n25 Artifact Summon Tickets: 5%\r\n20 Artifact Summon Tickets: 35%\r\n15 Artifact Summon Tickets: 55%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "為慶祝新年所準備的遺物召喚券紅包袋！\r\n運氣好的話，說不定裡面會有Pick Up召喚券哦…？\r\n使用後將根據機率獲得下列內容物。\r\n\r\n［獲得機率］\r\nPick Up召喚券50個：1%\r\n遺物召喚券35個：4%\r\n遺物召喚券25個：5%\r\n遺物召喚券20個：35%\r\n遺物召喚券15個：55%",
       "zh_cn": ""
     },
     {
       "no": 224174,
       "kr": "신년을 기념하여 마련한 연금술 소환권 세뱃돈 봉투!\r\n운이 좋다면 픽업 소환권이 들어있을 지도...?\r\n사용 시 아래 구성품을 확률에 따라 획득합니다.\r\n\r\n[획득 확률]\r\n픽업 소환권 50개: 1%\r\n에리카의 연금술 티켓 15개: 4%\r\n에리카의 연금술 티켓 10개: 5%\r\n에리카의 연금술 티켓 5개: 35%\r\n에리카의 연금술 티켓 3개: 55%",
-      "en": "",
+      "en": "A New Year's gift envelope containing Alchemy Summon Tickets!\r\nIf you're lucky, it may give you Pick-Up Summon Tickets instead!\r\nUse it to obtain one of the following options:\r\n\r\n[Probabilities]\r\n50 Pick-Up Summon Tickets: 1%\r\n15 Erika's Alchemy Tickets: 4%\r\n10 Erika's Alchemy Tickets: 5%\r\n5 Erika's Alchemy Tickets: 35%\r\n3 Erika's Alchemy Tickets: 55%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "為慶祝新年所準備的鍊金術召喚券紅包袋！\r\n運氣好的話，說不定裡面會有Pick Up召喚券哦…？\r\n使用後將根據機率獲得下列內容物。\r\n\r\n［獲得機率］\r\nPick Up召喚券50個：1%\r\n艾麗卡的鍊金術票券15個：4%\r\n艾麗卡的鍊金術票券10個：5%\r\n艾麗卡的鍊金術票券5個：35%\r\n艾麗卡的鍊金術票券3個：55%",
       "zh_cn": ""
     },
     {
@@ -11195,6 +11307,14 @@
     {
       "no": 225271,
       "kr": "로비 배경을 변경할 수 있습니다. (가온의 낮 신년제 거리)\r\n\r\n<만사형통?! 가온 신년제> 이벤트 스토리 열람 보상으로 획득 가능",
+      "en": "You can change the background of the lobby. (Daytime Street of Gaon's New Year's Festival)\r\n\r\nCan be obtained as a reward for viewing the Gaon New Year's Festival Event Story.",
+      "ja": "",
+      "zh_tw": "可變更大廳背景（加溫新年祭白天街道）\r\n\r\n觀看＜萬事如意？！加溫新年祭＞活動故事獎勵",
+      "zh_cn": ""
+    },
+    {
+      "no": 225281,
+      "kr": "로비 배경을 변경할 수 있습니다. (로제의 심상세계)\r\n\r\n<기록 되지 않은 미래> 이벤트 스토리 열람 보상으로 획득 가능",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -12155,41 +12275,41 @@
     {
       "no": 226006,
       "kr": "거미님 일러스트를 획득합니다.\r\n해당 일러스트는 2024년 에버소울 크리에이티브 컨테스트 일러스트 부문 대상 당선작입니다.",
-      "en": "",
+      "en": "Contains an illustration by Geomi.\r\nThis illustration is the grand prize-winning entry in the illustration category of the 2024 Eversoul Creative Contest.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "獲得了거미的插圖。\r\n該插圖是2024年永恆靈魂創意大賽插圖類大賞得獎作品。",
       "zh_cn": ""
     },
     {
       "no": 226007,
       "kr": "주상절리님 일러스트를 획득합니다.\r\n해당 일러스트는 2024년 에버소울 크리에이티브 컨테스트 일러스트 부문 금상 당선작입니다.",
-      "en": "",
+      "en": "Contains an illustration by Jusangjeolli.\r\nThis illustration is the gold prize-winning entry in the illustration category of the 2024 Eversoul Creative Contest.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "獲得了주상절리的插圖。\r\n該插圖是2024年永恆靈魂創意大賽插圖類金賞得獎作品。",
       "zh_cn": ""
     },
     {
       "no": 226008,
       "kr": "yuugen님 일러스트를 획득합니다.\r\n해당 일러스트는 2024년 에버소울 크리에이티브 컨테스트 일러스트 부문 은상 당선작입니다.",
-      "en": "",
+      "en": "Contains an illustration by Yuugen.\r\nThis illustration is the silver prize-winning entry in the illustration category of the 2024 Eversoul Creative Contest.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "獲得了yuugen的插圖。\r\n該插圖是2024年永恆靈魂創意大賽插圖類銀賞得獎作品。",
       "zh_cn": ""
     },
     {
       "no": 226009,
       "kr": "귄터님 일러스트를 획득합니다.\r\n해당 일러스트는 2024년 에버소울 크리에이티브 컨테스트 일러스트 부문 특별상 당선작입니다.",
-      "en": "",
+      "en": "Contains an illustration by Gunter.\r\nThis illustration is the special prize-winning entry in the illustration category of the 2024 Eversoul Creative Contest.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "獲得了귄터的插圖。\r\n該插圖是2024年永恆靈魂創意大賽插圖類特別賞得獎作品。",
       "zh_cn": ""
     },
     {
       "no": 226010,
       "kr": "고꾸닥님 일러스트를 획득합니다.\r\n해당 일러스트는 2024년 에버소울 크리에이티브 컨테스트 일러스트 부문 특별상 당선작입니다.",
-      "en": "",
+      "en": "Contains an illustration by Gokudak.\r\nThis illustration is the special prize-winning entry in the illustration category of the 2024 Eversoul Creative Contest.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "獲得了고꾸닥的插圖。\r\n該插圖是2024年永恆靈魂創意大賽插圖類特別賞得獎作品。",
       "zh_cn": ""
     },
     {
@@ -12779,9 +12899,9 @@
     {
       "no": 226232,
       "kr": "별의 등대 점령 시 획득 가능한 스티커.",
-      "en": "",
+      "en": "A sticker that can be obtained upon occupying the Lighthouse of the Stars.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "佔領星之燈塔時可獲得的貼紙。",
       "zh_cn": ""
     },
     {
@@ -13331,6 +13451,30 @@
     {
       "no": 226805,
       "kr": "바이스 승급 패스 오리진 달성 무료 보상으로 획득 가능한 스티커. \r\n\r\n\"최강! 무적! 대폭발! 그게 바로 우리가 추구하는 아름다움이다!\"",
+      "en": "A sticker that can be obtained as a free reward for reaching Origin on Weiss Ascension Pass.\r\n\r\n\"Unrivaled strength! Unmatched prowess! Massive explosions! That's the beauty we strive for!\"",
+      "ja": "",
+      "zh_tw": "達成拜斯升階通行證不朽可免費獲得的貼紙獎勵。\r\n\r\n「最強！無敵！大爆炸！那就是我們追求的美！」",
+      "zh_cn": ""
+    },
+    {
+      "no": 226806,
+      "kr": "로제(홍염) 승급 패스 오리진 달성 무료 보상으로 획득 가능한 스티커. \r\n\r\n\"구원자님, 제가 만든 포토푀예요. 같이 드시겠어요?\"",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 226807,
+      "kr": "홍란(무쌍) 승급 패스 오리진 달성 무료 보상으로 획득 가능한 스티커. \r\n\r\n\"깡총~깡총~ 토끼를 따라하고 있어요~\"",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 226808,
+      "kr": "한울 승급 패스 오리진 달성 무료 보상으로 획득 가능한 스티커. \r\n\r\n\"이런, 미안해. 바람이 너무 좋아서 잠들었나봐.\"",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -13478,6 +13622,78 @@
       "en": "A sticker that can be obtained upon participating in an Infinity Boss Challenge (Mecha Gaia).",
       "ja": "インフィニティボスチャレンジ(メカイア)でに参加すると獲得できるステッカー",
       "zh_tw": "參加無限BOSS挑戰（機械蓋亞）時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226919,
+      "kr": "인피니티 보스 챌린지(떡공장장 순이) 최종 1위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Ricecake Maker Soonie) in first place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（年糕工廠廠長順伊）最終第1名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226920,
+      "kr": "인피니티 보스 챌린지(떡공장장 순이) 최종 2위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Ricecake Maker Soonie) in second place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（年糕工廠廠長順伊）最終第2名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226921,
+      "kr": "인피니티 보스 챌린지(떡공장장 순이) 최종 3위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Ricecake Maker Soonie) in third place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（年糕工廠廠長順伊）最終第3名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226922,
+      "kr": "인피니티 보스 챌린지(떡공장장 순이) 최종 4~10위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Ricecake Maker Soonie) in 4th–10th place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（年糕工廠廠長順伊）最終第4～10名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226923,
+      "kr": "인피니티 보스 챌린지(떡공장장 순이) 최종 11~100위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Ricecake Maker Soonie) in 11th–100th place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（年糕工廠廠長順伊）最終第11～100名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226924,
+      "kr": "인피니티 보스 챌린지(떡공장장 순이) 최종 101~500위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Ricecake Maker Soonie) in 101st–500th place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（年糕工廠廠長順伊）最終第101～500名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226925,
+      "kr": "인피니티 보스 챌린지(떡공장장 순이) 최종 501~1000위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Ricecake Maker Soonie) in 501st–1000th place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（年糕工廠廠長順伊）最終第501～1000名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226926,
+      "kr": "인피니티 보스 챌린지(떡공장장 순이) 최종 1001~2000위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Ricecake Maker Soonie) in 1001st–2000th place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（年糕工廠廠長順伊）最終第1001～2000名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226927,
+      "kr": "인피니티 보스 챌린지(떡공장장 순이) 참여 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon participating in an Infinity Boss Challenge (Ricecake Maker Soonie).",
+      "ja": "",
+      "zh_tw": "參加無限BOSS挑戰（年糕工廠廠長順伊）時獲得的貼紙",
       "zh_cn": ""
     },
     {
@@ -14267,33 +14483,33 @@
     {
       "no": 228114,
       "kr": "순이의 떡공장에서 훔쳐… 얻어 온 떡주머니. \r\n맛있어 보이는 떡이 가득하다.\r\n\r\n[떡공장 공판장]에서 사용할 수 있습니다.\r\n(교환 기간 종료 후 개당 3000 골드로 환산되어 우편함으로 지급됩니다.)",
-      "en": "",
+      "en": "A pouch of rice cakes, stolen... nay, sourced from Soonie's rice cake factory.\r\nIt is packed with tasty-looking rice cakes.\r\nCan be used at the Rice Cake Factory Market.\r\n\r\n(After the exchange period ends, each will be converted to 3,000 Gold and sent to your mail.)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "從順伊的年糕工廠偷來的…年糕袋。\r\n充滿了看起來很美味的年糕。\r\n\r\n可於［年糕工廠市集］使用。\r\n（兌換期間結束後，每個會換算成3000金幣發送至信箱。）",
       "zh_cn": ""
     },
     {
       "no": 228115,
       "kr": "외국에서 온 손님이 연거푸 들이키던 가온의 전통주용 사발.  \r\n\r\n[축제 물품 교환 상점]에서 다양한 아이템으로 교환할 수 있습니다.\r\n(교환 기간 종료 후 개당 3000 골드로 환산되어 우편함으로 지급됩니다.)",
-      "en": "",
+      "en": "A traditional rice wine bowl of Gaon, eagerly gulped down by tourists from abroad.\r\n\r\nCan be exchanged for various items at the Festival Goods Exchange Shop.\r\n(After the exchange period ends, each will be converted to 3,000 Gold and sent to your mail.)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "外國遊客一口接一口喝下的加溫傳統酒用碗缽。\r\n\r\n可兌換［慶典物品兌換商店］的各種道具。\r\n（兌換期間結束後，每個會換算成3000金幣發送至信箱。）",
       "zh_cn": ""
     },
     {
       "no": 228116,
       "kr": "신년 불꽃놀이를 기념해 만들어진 가온의 전통 장신구. \r\n\r\n[축제 물품 교환 상점]에서 다양한 아이템으로 교환할 수 있습니다.\r\n(교환 기간 종료 후 개당 3000 골드로 환산되어 우편함으로 지급됩니다.)",
-      "en": "",
+      "en": "Traditional accessory from Gaon, celebrating the New Year fireworks.\r\n\r\nCan be exchanged for various items at the Festival Goods Exchange Shop.\r\n(After the exchange period ends, each will be converted to 3,000 Gold and sent to your mail.)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "旨在紀念新年煙火的加溫傳統飾品。\r\n\r\n可兌換［慶典物品兌換商店］的各種道具。\r\n（兌換期間結束後，每個會換算成3000金幣發送至信箱。）",
       "zh_cn": ""
     },
     {
       "no": 228118,
       "kr": "룰렛 이용에 필요한 티켓.\r\n이벤트 룰렛에 사용하여 보상을 획득할 수 있습니다.\r\n\r\n(이벤트 기간 종료 후 사라집니다.)",
-      "en": "",
+      "en": "A ticket needed to spin the wheel.\r\nUse it on the Event Wheel to claim rewards.\r\n\r\n(Disappears after the event ends.)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "可於轉盤使用的票券。\r\n可用於活動轉盤以獲得獎勵。\r\n\r\n（活動結束後消失。）",
       "zh_cn": ""
     },
     {
@@ -14906,7 +15122,7 @@
     },
     {
       "no": 520110,
-      "kr": "위험 : 인화성 물질",
+      "kr": "위험: 인화성 물질",
       "en": "DANGER: Flammable Material",
       "ja": "危険：引火性物質",
       "zh_tw": "危險：易燃物",
@@ -15394,7 +15610,7 @@
     },
     {
       "no": 520171,
-      "kr": "코드 : 디폴트",
+      "kr": "코드: 디폴트",
       "en": "Code: Basic",
       "ja": "コード：デフォルト",
       "zh_tw": "代碼：預設",
@@ -15430,6 +15646,14 @@
       "en": "Brigid's Basic Costume ",
       "ja": "",
       "zh_tw": "布利基特基本時裝",
+      "zh_cn": ""
+    },
+    {
+      "no": 520176,
+      "kr": "로제(홍염)기본 코스튬",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -15498,7 +15722,7 @@
     },
     {
       "no": 520409,
-      "kr": "일기 예보 : 흐림",
+      "kr": "일기 예보: 흐림",
       "en": "Weather Forecast: Cloudy",
       "ja": "天気予報：曇り",
       "zh_tw": "天氣預報：陰天",
@@ -15506,7 +15730,7 @@
     },
     {
       "no": 520410,
-      "kr": "주의 : 거리의 바람",
+      "kr": "주의: 거리의 바람",
       "en": "Caution: Street Wind",
       "ja": "注意：街の風",
       "zh_tw": "注意：街上的風",
@@ -16474,7 +16698,7 @@
     },
     {
       "no": 520531,
-      "kr": "모드 : 카모플라쥬",
+      "kr": "모드: 카모플라쥬",
       "en": "Mode: Camouflage",
       "ja": "モード：カモフラージュ",
       "zh_tw": "模式：偽裝",
@@ -16666,7 +16890,7 @@
     },
     {
       "no": 520555,
-      "kr": "코드 : 이머전시",
+      "kr": "코드: 이머전시",
       "en": "Code: Emergency",
       "ja": "",
       "zh_tw": "代碼：緊急",
@@ -16675,22 +16899,38 @@
     {
       "no": 520556,
       "kr": "자애의 햇살",
-      "en": "",
+      "en": "Gracious Sunlight",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "慈愛暖陽",
       "zh_cn": ""
     },
     {
       "no": 520557,
       "kr": "재복의 도래",
+      "en": "Unfolding Fortune",
+      "ja": "",
+      "zh_tw": "財運降臨",
+      "zh_cn": ""
+    },
+    {
+      "no": 520558,
+      "kr": "희망찬 한 걸음",
+      "en": "Hopeful First Step",
+      "ja": "",
+      "zh_tw": "滿懷希望的步伐",
+      "zh_cn": ""
+    },
+    {
+      "no": 520559,
+      "kr": "로제(홍염) 이벤트 코스튬",
       "en": "",
       "ja": "",
       "zh_tw": "",
       "zh_cn": ""
     },
     {
-      "no": 520558,
-      "kr": "희망찬 한 걸음",
+      "no": 520560,
+      "kr": "로제(홍염) 초월 코스튬",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -17310,6 +17550,14 @@
       "en": "Brigid Temporary",
       "ja": "",
       "zh_tw": "布利基特臨時",
+      "zh_cn": ""
+    },
+    {
+      "no": 530176,
+      "kr": "로제(홍염) 기본 코스튬 설명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -18012,7 +18260,7 @@
       "no": 530488,
       "kr": "유리아가 이미지 변신을 위해 준비한 검은색 데이트 복장.\r\n구원자가 살던 시대의 젊은 여성들이 입던 섹시한 패션을 참고 했다고 한다.",
       "en": "A black date outfit Yuria prepared to try out a new look.\r\r\nShe says she referred to sexy outfits young women wore in the Savior's world.",
-      "ja": "ユリアがイメージチェンジのために用意した黒いデート服。\r\n救世主が住んでいた時代の若い女性が着ていた色っぽいファッションを参考にしたという。",
+      "ja": "ユリアがイメージチェンジのために用意した、黒いデート服。\r\n救世主がいた時代の若い女性たちが着ていた色っぽいファッションを参考にしたという。",
       "zh_tw": "尤里婭為了改變形象而準備的黑色約會服裝。\r\r\n聽說她參考救援者生活過的時代中，年輕女性穿過的性感時尚。",
       "zh_cn": "尤里娅为了改变形象而准备的黑色约会服装。\r\r\n听说她参考救援者生活过的时代中，年轻女性穿过的性感时尚。"
     },
@@ -18555,22 +18803,38 @@
     {
       "no": 530556,
       "kr": "찬란한 햇살로 물든 듯 화사한 가온의 전통 복장.\r\n새해에는 평화를 염원하는 경건한 바람이 꼭 이루어지기를.",
-      "en": "",
+      "en": "A dazzling traditional outfit of Gaon, shimmering as if touched by radiant sunlight.\r\nMay the new year fulfill the solemn hope for lasting peace.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "像染上燦爛陽光般，絢麗的加溫傳統服裝。\r\n但願在新的一年裡，盼望和平的虔誠心願一定要實現。",
       "zh_cn": ""
     },
     {
       "no": 530557,
       "kr": "금빛으로 화려하게 장식된 가온의 전통 복장.\r\n새해에는 모두가 바라던 성과를 얻을 수 있기를.",
+      "en": "Traditional attire of Gaon, lavishly adorned with golden accents.\r\nMay everyone achieve their dreams this new year.",
+      "ja": "",
+      "zh_tw": "使用金色華麗裝飾的加溫傳統服裝。\r\n希望所有人都能在新年獲得期望的成果。",
+      "zh_cn": ""
+    },
+    {
+      "no": 530558,
+      "kr": "이디스의 재기발랄함이 돋보이는 가온의 전통 복장.\r\n새해에는 누구나 노력한 만큼 성장할 수 있기를.",
+      "en": "Traditional garb of Gaon, showcasing Edith's cheerful nature.\r\nMay everyone flourish through their hard work in the new year.",
+      "ja": "",
+      "zh_tw": "突顯出伊迪絲才華洋溢的加溫傳統服裝。\r\n希望新年裡每個人付出努力就能有所成長。",
+      "zh_cn": ""
+    },
+    {
+      "no": 530559,
+      "kr": "로제(홍염) 이벤트 코스튬 설명",
       "en": "",
       "ja": "",
       "zh_tw": "",
       "zh_cn": ""
     },
     {
-      "no": 530558,
-      "kr": "이디스의 재기발랄함이 돋보이는 가온의 전통 복장.\r\n새해에는 누구나 노력한 만큼 성장할 수 있기를.",
+      "no": 530560,
+      "kr": "로제(홍염) 초월 코스튬 설명",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -18682,7 +18946,7 @@
     },
     {
       "no": 2110001,
-      "kr": "유물의 기억 : 방주 메타트론",
+      "kr": "유물의 기억: 방주 메타트론",
       "en": "Artifact Memory: Ark Metatron",
       "ja": "遺物の記憶：方舟メタトロン",
       "zh_tw": "遺物的記憶：方舟梅塔特隆",
@@ -18690,7 +18954,7 @@
     },
     {
       "no": 2110002,
-      "kr": "유물의 기억 : 방주 자드키엘",
+      "kr": "유물의 기억: 방주 자드키엘",
       "en": "Artifact Memory: Ark Zadkiel",
       "ja": "遺物の記憶：方舟ザドキエル",
       "zh_tw": "遺物的記憶：方舟薩基爾",
@@ -18698,7 +18962,7 @@
     },
     {
       "no": 2110003,
-      "kr": "유물의 기억 : 잔다르크의 깃발",
+      "kr": "유물의 기억: 잔다르크의 깃발",
       "en": "Artifact Memory: Flag of Jeanne d'Arc",
       "ja": "遺物の記憶：ジャンヌ・ダルクの旗",
       "zh_tw": "遺物的記憶：貞德的旗幟",
@@ -18706,7 +18970,7 @@
     },
     {
       "no": 2110004,
-      "kr": "유물의 기억 : 무라마사",
+      "kr": "유물의 기억: 무라마사",
       "en": "Artifact Memory: Muramasa",
       "ja": "遺物の記憶：村正",
       "zh_tw": "遺物的記憶：妖刀村正",
@@ -18714,7 +18978,7 @@
     },
     {
       "no": 2110005,
-      "kr": "유물의 기억 : 미다스의 손",
+      "kr": "유물의 기억: 미다스의 손",
       "en": "Artifact Memory: Hand of Midas",
       "ja": "遺物の記憶：ミダースの手",
       "zh_tw": "遺物的記憶：邁達斯之手",
@@ -18722,7 +18986,7 @@
     },
     {
       "no": 2110006,
-      "kr": "유물의 기억 : 프라가라흐",
+      "kr": "유물의 기억: 프라가라흐",
       "en": "Artifact Memory: Fragarach",
       "ja": "遺物の記憶：フラガラッハ",
       "zh_tw": "遺物的記憶：佛拉格拉克",
@@ -18730,7 +18994,7 @@
     },
     {
       "no": 2110007,
-      "kr": "유물의 기억 : 간디바",
+      "kr": "유물의 기억: 간디바",
       "en": "Artifact Memory: Gandiva",
       "ja": "遺物の記憶：ガンディバ",
       "zh_tw": "遺物的記憶：甘提婆",
@@ -18738,7 +19002,7 @@
     },
     {
       "no": 2110008,
-      "kr": "유물의 기억 : 요시모토 사몬지",
+      "kr": "유물의 기억: 요시모토 사몬지",
       "en": "Artifact Memory: Yoshimoto Samonji",
       "ja": "遺物の記憶：義元左文字",
       "zh_tw": "遺物的記憶：義元左文字",
@@ -18746,7 +19010,7 @@
     },
     {
       "no": 2110009,
-      "kr": "유물의 기억 : 성해포",
+      "kr": "유물의 기억: 성해포",
       "en": "Artifact Memory: Holy Shroud",
       "ja": "遺物の記憶：聖骸布",
       "zh_tw": "遺物的記憶：聖骸布",
@@ -18754,7 +19018,7 @@
     },
     {
       "no": 2110010,
-      "kr": "유물의 기억 : 신편귀독주",
+      "kr": "유물의 기억: 신편귀독주",
       "en": "Artifact Memory: Shinpen Kidoku",
       "ja": "遺物の記憶：神便鬼毒酒",
       "zh_tw": "遺物的記憶：神便鬼毒",
@@ -18762,7 +19026,7 @@
     },
     {
       "no": 2110011,
-      "kr": "유물의 기억 : 골디락스의 빈 그릇",
+      "kr": "유물의 기억: 골디락스의 빈 그릇",
       "en": "Artifact Memory: Bowl of Goldilocks",
       "ja": "遺物の記憶：ゴルディロックスのお椀",
       "zh_tw": "遺物的記憶：金髮姑娘的空碗",
@@ -18770,7 +19034,7 @@
     },
     {
       "no": 2110012,
-      "kr": "유물의 기억 : 청룡언월도",
+      "kr": "유물의 기억: 청룡언월도",
       "en": "Artifact Memory: Green Dragon Crescent Blade",
       "ja": "遺物の記憶：青龍偃月刀",
       "zh_tw": "遺物的記憶：青龍偃月刀",
@@ -18778,7 +19042,7 @@
     },
     {
       "no": 2110013,
-      "kr": "유물의 기억 : 거북선",
+      "kr": "유물의 기억: 거북선",
       "en": "Artifact Memory: Turtle Ship",
       "ja": "遺物の記憶：亀甲船",
       "zh_tw": "遺物的記憶：龜船",
@@ -18786,7 +19050,7 @@
     },
     {
       "no": 2110014,
-      "kr": "유물의 기억 : 다그다의 곤봉",
+      "kr": "유물의 기억: 다그다의 곤봉",
       "en": "Artifact Memory: Dagda's Club",
       "ja": "遺物の記憶：ダグダの棍棒",
       "zh_tw": "遺物的記憶：達格達之棍",
@@ -18794,7 +19058,7 @@
     },
     {
       "no": 2110015,
-      "kr": "유물의 기억 : 칼리오페의 소리굽쇠",
+      "kr": "유물의 기억: 칼리오페의 소리굽쇠",
       "en": "Artifact Memory: Tuning Fork of Calliope",
       "ja": "遺物の記憶：カリオペの音叉",
       "zh_tw": "遺物的記憶：卡利俄佩的音叉",
@@ -18802,7 +19066,7 @@
     },
     {
       "no": 2110016,
-      "kr": "유물의 기억 : 오르페우스의 리라",
+      "kr": "유물의 기억: 오르페우스의 리라",
       "en": "Artifact Memory: Lyre of Orpheus",
       "ja": "遺物の記憶：オルフェウスの竪琴",
       "zh_tw": "遺物的記憶：奧菲斯的里拉琴",
@@ -18810,7 +19074,7 @@
     },
     {
       "no": 2110017,
-      "kr": "유물의 기억 : 레메게톤",
+      "kr": "유물의 기억: 레메게톤",
       "en": "Artifact Memory: Lemegeton",
       "ja": "遺物の記憶：レメゲトン",
       "zh_tw": "遺物的記憶：所羅門之鑰",
@@ -18818,7 +19082,7 @@
     },
     {
       "no": 2110018,
-      "kr": "유물의 기억 : RPG-7",
+      "kr": "유물의 기억: RPG-7",
       "en": "Artifact Memory: RPG-7",
       "ja": "遺物の記憶：RPG-7",
       "zh_tw": "遺物的記憶：RPG-7",
@@ -18826,7 +19090,7 @@
     },
     {
       "no": 2110019,
-      "kr": "유물의 기억 : 투탕카멘의 가면",
+      "kr": "유물의 기억: 투탕카멘의 가면",
       "en": "Artifact Memory: Tutankhamun's Mask",
       "ja": "遺物の記憶：ツタンカーメンのマスク",
       "zh_tw": "遺物的記憶：圖坦卡門的面具",
@@ -18834,7 +19098,7 @@
     },
     {
       "no": 2110020,
-      "kr": "유물의 기억 : 쿠투네시르카",
+      "kr": "유물의 기억: 쿠투네시르카",
       "en": "Artifact Memory: Kutune Shirka",
       "ja": "遺物の記憶：クトネシリカ",
       "zh_tw": "遺物的記憶：阿伊努寶刀",
@@ -18842,7 +19106,7 @@
     },
     {
       "no": 2110021,
-      "kr": "유물의 기억 : 모글레이",
+      "kr": "유물의 기억: 모글레이",
       "en": "Artifact Memory: Murgleys",
       "ja": "遺物の記憶：モーグレイ",
       "zh_tw": "遺物的記憶：默格利劍",
@@ -18850,7 +19114,7 @@
     },
     {
       "no": 2110022,
-      "kr": "유물의 기억 : 코르누코피아",
+      "kr": "유물의 기억: 코르누코피아",
       "en": "Artifact Memory: Cornucopia",
       "ja": "遺物の記憶：コルヌコピア",
       "zh_tw": "遺物的記憶：豐饒之角",
@@ -18858,7 +19122,7 @@
     },
     {
       "no": 2110023,
-      "kr": "유물의 기억 : 엘릭서",
+      "kr": "유물의 기억: 엘릭서",
       "en": "Artifact Memory: Elixir of Life",
       "ja": "遺物の記憶：エリクサー",
       "zh_tw": "遺物的記憶：賢者之石",
@@ -18866,7 +19130,7 @@
     },
     {
       "no": 2110024,
-      "kr": "유물의 기억 : 하멜른의 피리",
+      "kr": "유물의 기억: 하멜른의 피리",
       "en": "Artifact Memory: Hameline's Flute",
       "ja": "遺物の記憶：ハーメルンの笛",
       "zh_tw": "遺物的記憶：花衣魔笛手的笛子",
@@ -18874,7 +19138,7 @@
     },
     {
       "no": 2110025,
-      "kr": "유물의 기억 : 누아다의 의수",
+      "kr": "유물의 기억: 누아다의 의수",
       "en": "Artifact Memory: Nuada Airgetlám",
       "ja": "遺物の記憶：ヌアダの義手",
       "zh_tw": "遺物的記憶：努亞達的義肢",
@@ -18882,7 +19146,7 @@
     },
     {
       "no": 2110026,
-      "kr": "유물의 기억 : 테트라비블로스",
+      "kr": "유물의 기억: 테트라비블로스",
       "en": "Artifact Memory: Tetrabiblos",
       "ja": "遺物の記憶：テトラビブロス",
       "zh_tw": "遺物的記憶：占星四書",
@@ -18890,7 +19154,7 @@
     },
     {
       "no": 2110027,
-      "kr": "유물의 기억 : 큐피드의 화살",
+      "kr": "유물의 기억: 큐피드의 화살",
       "en": "Artifact Memory: Cupid's Arrow",
       "ja": "遺物の記憶：キューピッドの矢",
       "zh_tw": "遺物的記憶：邱比特的箭",
@@ -18898,7 +19162,7 @@
     },
     {
       "no": 2110028,
-      "kr": "유물의 기억 : 바리사다",
+      "kr": "유물의 기억: 바리사다",
       "en": "Artifact Memory: Balisarda",
       "ja": "遺物の記憶：ベリサルダ",
       "zh_tw": "遺物的記憶：巴薩達魔劍",
@@ -18906,7 +19170,7 @@
     },
     {
       "no": 2110029,
-      "kr": "유물의 기억 : 페일노트",
+      "kr": "유물의 기억: 페일노트",
       "en": "Artifact Memory: Failnaught",
       "ja": "遺物の記憶：フェイルノート",
       "zh_tw": "遺物的記憶：佩爾諾特弓",
@@ -18914,7 +19178,7 @@
     },
     {
       "no": 2110030,
-      "kr": "유물의 기억 : 에메랄드 타블렛",
+      "kr": "유물의 기억: 에메랄드 타블렛",
       "en": "Artifact Memory: Emerald Tablet",
       "ja": "遺物の記憶：エメラルドタブレット",
       "zh_tw": "遺物的記憶：翠玉石板",
@@ -18922,7 +19186,7 @@
     },
     {
       "no": 2110031,
-      "kr": "유물의 기억 : 7발의 마탄",
+      "kr": "유물의 기억: 7발의 마탄",
       "en": "Artifact Memory: The Seventh Bullet",
       "ja": "遺物の記憶：七つの魔弾",
       "zh_tw": "遺物的記憶：七發魔彈",
@@ -18930,7 +19194,7 @@
     },
     {
       "no": 2110032,
-      "kr": "유물의 기억 : 아이기스",
+      "kr": "유물의 기억: 아이기스",
       "en": "Artifact Memory: Aegis",
       "ja": "遺物の記憶：イージス",
       "zh_tw": "遺物的記憶：埃癸斯",
@@ -18938,7 +19202,7 @@
     },
     {
       "no": 2110033,
-      "kr": "유물의 기억 : 잔트만의 꿈가루",
+      "kr": "유물의 기억: 잔트만의 꿈가루",
       "en": "Artifact Memory: Dust of Sandman",
       "ja": "遺物の記憶：ザントマンの夢の粉",
       "zh_tw": "遺物的記憶：睡魔的夢之粉",
@@ -18946,7 +19210,7 @@
     },
     {
       "no": 2110034,
-      "kr": "유물의 기억 : 판도라의 상자",
+      "kr": "유물의 기억: 판도라의 상자",
       "en": "Artifact Memory: Pandora's Box",
       "ja": "遺物の記憶：パンドラの箱",
       "zh_tw": "遺物的記憶：潘朵拉的盒子",
@@ -18954,7 +19218,7 @@
     },
     {
       "no": 2110035,
-      "kr": "유물의 기억 : 롱기누스의 창",
+      "kr": "유물의 기억: 롱기누스의 창",
       "en": "Artifact Memory: Longinus",
       "ja": "遺物の記憶：ロンギヌスの槍",
       "zh_tw": "遺物的記憶：朗基努斯之槍",
@@ -18962,7 +19226,7 @@
     },
     {
       "no": 2110036,
-      "kr": "유물의 기억 : 게이 보",
+      "kr": "유물의 기억: 게이 보",
       "en": "Artifact Memory: Gáe Buide",
       "ja": "遺物の記憶：ゲイ・ボー",
       "zh_tw": "遺物的記憶：魔槍",
@@ -18970,7 +19234,7 @@
     },
     {
       "no": 2110037,
-      "kr": "유물의 기억 : 아야무르",
+      "kr": "유물의 기억: 아야무르",
       "en": "Artifact Memory: Ayamur",
       "ja": "遺物の記憶：アイムール",
       "zh_tw": "遺物的記憶：阿亞穆爾",
@@ -18978,7 +19242,7 @@
     },
     {
       "no": 2110038,
-      "kr": "유물의 기억 : 야그루시",
+      "kr": "유물의 기억: 야그루시",
       "en": "Artifact Memory: Yagrush",
       "ja": "遺物の記憶：ヤグルシュ",
       "zh_tw": "遺物的記憶：亞格魯什",
@@ -18986,7 +19250,7 @@
     },
     {
       "no": 2110039,
-      "kr": "유물의 기억 : 카두세우스",
+      "kr": "유물의 기억: 카두세우스",
       "en": "Artifact Memory: Caduceus",
       "ja": "遺物の記憶：カドゥケウス",
       "zh_tw": "遺物的記憶：水星神杖",
@@ -18994,7 +19258,7 @@
     },
     {
       "no": 2110040,
-      "kr": "유물의 기억 : 게 볼그",
+      "kr": "유물의 기억: 게 볼그",
       "en": "Artifact Memory: Gáe Bulg",
       "ja": "遺物の記憶：ゲイ・ボルグ",
       "zh_tw": "遺物的記憶：迦耶伯格",
@@ -19002,7 +19266,7 @@
     },
     {
       "no": 2110041,
-      "kr": "유물의 기억 : 클라렌트",
+      "kr": "유물의 기억: 클라렌트",
       "en": "Artifact Memory: Clarent",
       "ja": "遺物の記憶：クラレント",
       "zh_tw": "遺物的記憶：克拉倫特",
@@ -19010,7 +19274,7 @@
     },
     {
       "no": 2110042,
-      "kr": "유물의 기억 : 바즈라",
+      "kr": "유물의 기억: 바즈라",
       "en": "Artifact Memory: Vajra",
       "ja": "遺物の記憶：ヴァジュラ",
       "zh_tw": "遺物的記憶：金剛杵",
@@ -19018,7 +19282,7 @@
     },
     {
       "no": 2110043,
-      "kr": "유물의 기억 : 반혼향",
+      "kr": "유물의 기억: 반혼향",
       "en": "Artifact Memory: Spirit-Calling Incense",
       "ja": "遺物の記憶：反魂香",
       "zh_tw": "遺物的記憶：還魂香",
@@ -19026,7 +19290,7 @@
     },
     {
       "no": 2110044,
-      "kr": "유물의 기억 : 호신부",
+      "kr": "유물의 기억: 호신부",
       "en": "Artifact Memory: Amulet of Protection",
       "ja": "遺物の記憶：護符",
       "zh_tw": "遺物的記憶：護身符",
@@ -19034,7 +19298,7 @@
     },
     {
       "no": 2110045,
-      "kr": "유물의 기억 : 묠니르",
+      "kr": "유물의 기억: 묠니르",
       "en": "Artifact Memory: Mjölnir",
       "ja": "遺物の記憶：ミョルニル",
       "zh_tw": "遺物的記憶：雷神之鎚",
@@ -19042,7 +19306,7 @@
     },
     {
       "no": 2110046,
-      "kr": "유물의 기억 : 아스칼론",
+      "kr": "유물의 기억: 아스칼론",
       "en": "Artifact Memory: Ascalon",
       "ja": "遺物の記憶：アスカロン",
       "zh_tw": "遺物的記憶：屠龍聖劍",
@@ -19050,7 +19314,7 @@
     },
     {
       "no": 2110047,
-      "kr": "유물의 기억 : 다섯 번째 나팔",
+      "kr": "유물의 기억: 다섯 번째 나팔",
       "en": "Artifact Memory: Fifth Trumpet",
       "ja": "遺物の記憶：第五のラッパ",
       "zh_tw": "遺物的記憶：第五支號角",
@@ -19058,7 +19322,7 @@
     },
     {
       "no": 2110048,
-      "kr": "유물의 기억 : 오시리스의 지팡이",
+      "kr": "유물의 기억: 오시리스의 지팡이",
       "en": "Artifact Memory: Staff of Osiris",
       "ja": "遺物の記憶：ミスティルテイン",
       "zh_tw": "遺物的記憶：歐西里斯魔杖",
@@ -19066,7 +19330,7 @@
     },
     {
       "no": 2110049,
-      "kr": "유물의 기억 : 궁니르",
+      "kr": "유물의 기억: 궁니르",
       "en": "Artifact Memory: Gungnir",
       "ja": "遺物の記憶：グングニル",
       "zh_tw": "遺物的記憶：岡格尼爾",
@@ -19074,7 +19338,7 @@
     },
     {
       "no": 2110050,
-      "kr": "유물의 기억 : 츠쿠요미의 백동거울",
+      "kr": "유물의 기억: 츠쿠요미의 백동거울",
       "en": "Artifact Memory: Mirror of Tsukuyomi",
       "ja": "遺物の記憶：ツクヨミの白銅鏡",
       "zh_tw": "遺物的記憶：月讀的白銅鏡",
@@ -19082,7 +19346,7 @@
     },
     {
       "no": 2110051,
-      "kr": "유물의 기억 : 만파식적",
+      "kr": "유물의 기억: 만파식적",
       "en": "Artifact Memory: Manpashikjeok",
       "ja": "遺物の記憶：神竜の横笛",
       "zh_tw": "遺物的記憶：萬波息笛",
@@ -19090,7 +19354,7 @@
     },
     {
       "no": 2110052,
-      "kr": "유물의 기억 : 아스트라페",
+      "kr": "유물의 기억: 아스트라페",
       "en": "Artifact Memory: Astrape",
       "ja": "遺物の記憶：アストラペ",
       "zh_tw": "遺物的記憶：雷霆",
@@ -19098,7 +19362,7 @@
     },
     {
       "no": 2110053,
-      "kr": "유물의 기억 : 여의금고봉",
+      "kr": "유물의 기억: 여의금고봉",
       "en": "Artifact Memory: Ruyi Jingu Bang",
       "ja": "遺物の記憶：如意金箍棒",
       "zh_tw": "遺物的記憶：如意金箍棒",
@@ -19106,7 +19370,7 @@
     },
     {
       "no": 2110054,
-      "kr": "유물의 기억 : 엘도라도의 금화",
+      "kr": "유물의 기억: 엘도라도의 금화",
       "en": "Artifact Memory: Gold Coins of El Dorado",
       "ja": "遺物の記憶：エルドラドの金貨",
       "zh_tw": "遺物的記憶：黃金國金幣",
@@ -19114,7 +19378,7 @@
     },
     {
       "no": 2110055,
-      "kr": "유물의 기억 : 헤파이스토스의 망치",
+      "kr": "유물의 기억: 헤파이스토스의 망치",
       "en": "Artifact Memory: Hephaestus's Hammer",
       "ja": "遺物の記憶：ヘパイストスの槌",
       "zh_tw": "遺物的記憶：赫菲斯托斯神錘",
@@ -19122,7 +19386,7 @@
     },
     {
       "no": 2110056,
-      "kr": "유물의 기억 : 하르페",
+      "kr": "유물의 기억: 하르페",
       "en": "Artifact Memory: Harpe",
       "ja": "遺物の記憶：ハルパー",
       "zh_tw": "遺物的記憶：赫帕爾",
@@ -19130,7 +19394,7 @@
     },
     {
       "no": 2110057,
-      "kr": "유물의 기억 : 아메노하바키리",
+      "kr": "유물의 기억: 아메노하바키리",
       "en": "Artifact Memory: Ame No Habakiri",
       "ja": "遺物の記憶：天羽々斬",
       "zh_tw": "遺物的記憶：天羽羽斬",
@@ -19138,7 +19402,7 @@
     },
     {
       "no": 2110058,
-      "kr": "유물의 기억 : 운명의 서판",
+      "kr": "유물의 기억: 운명의 서판",
       "en": "Artifact Memory: Tablet of Fate",
       "ja": "遺物の記憶：天命の書板",
       "zh_tw": "遺物的記憶：命運石板",
@@ -19146,7 +19410,7 @@
     },
     {
       "no": 2110059,
-      "kr": "유물의 기억 : 아조트 검",
+      "kr": "유물의 기억: 아조트 검",
       "en": "Artifact Memory: Azoth",
       "ja": "遺物の記憶：アゾット剣",
       "zh_tw": "遺物的記憶：阿佐特魔劍",
@@ -19154,7 +19418,7 @@
     },
     {
       "no": 2110060,
-      "kr": "유물의 기억 : 찬란한 광휘의 성해포",
+      "kr": "유물의 기억: 찬란한 광휘의 성해포",
       "en": "Artifact Memory: Holy Shroud of Splendid Radiance",
       "ja": "遺物の記憶：きらめく光輝の聖骸布",
       "zh_tw": "遺物的記憶：燦爛光輝聖骸布",
@@ -19162,7 +19426,7 @@
     },
     {
       "no": 2110061,
-      "kr": "유물의 기억 : 롱고미니아드",
+      "kr": "유물의 기억: 롱고미니아드",
       "en": "Artifact Memory: Rhongomyniad",
       "ja": "遺物の記憶：ロンゴミニアド",
       "zh_tw": "遺物的記憶：殺戮聖槍",
@@ -19170,7 +19434,7 @@
     },
     {
       "no": 2110062,
-      "kr": "유물의 기억 : 튀르핑",
+      "kr": "유물의 기억: 튀르핑",
       "en": "Artifact Memory: Tyrfing",
       "ja": "遺物の記憶：ティルヴィング",
       "zh_tw": "遺物的記憶：提爾鋒",
@@ -19178,7 +19442,7 @@
     },
     {
       "no": 2110063,
-      "kr": "유물의 기억 : 골든 레코드",
+      "kr": "유물의 기억: 골든 레코드",
       "en": "Artifact Memory: Golden Record",
       "ja": "遺物の記憶：ゴールデンレコード",
       "zh_tw": "遺物的記憶：航海家金唱片",
@@ -19186,7 +19450,7 @@
     },
     {
       "no": 2110064,
-      "kr": "유물의 기억 : 타나토스=프라가라흐",
+      "kr": "유물의 기억: 타나토스=프라가라흐",
       "en": "Artifact Memory: Thanatos = Fragarach",
       "ja": "遺物の記憶：タナトス=フラガラッハ",
       "zh_tw": "遺物的記憶：桑納托斯=佛拉格拉克",
@@ -19194,7 +19458,7 @@
     },
     {
       "no": 2110065,
-      "kr": "유물의 기억 : 방주 카마엘",
+      "kr": "유물의 기억: 방주 카마엘",
       "en": "Artifact Memory: Ark Chamuel",
       "ja": "遺物の記憶：方舟カマエル",
       "zh_tw": "遺物的記憶：方舟卡摩爾",
@@ -19202,7 +19466,7 @@
     },
     {
       "no": 2110066,
-      "kr": "유물의 기억 : 미미르의 샘물",
+      "kr": "유물의 기억: 미미르의 샘물",
       "en": "Artifact Memory: Mimisbrunnr",
       "ja": "遺物の記憶：ミーミルの泉水",
       "zh_tw": "遺物的記憶：密米爾之泉",
@@ -19210,7 +19474,7 @@
     },
     {
       "no": 2110067,
-      "kr": "유물의 기억 : 요시모토 사몬지(업화)",
+      "kr": "유물의 기억: 요시모토 사몬지(업화)",
       "en": "Artifact Memory: Yoshimoto Samonji (Inferno)",
       "ja": "遺物の記憶：義元左文字(業火)",
       "zh_tw": "遺物的記憶：義元左文字（業火）",
@@ -19218,7 +19482,7 @@
     },
     {
       "no": 2110068,
-      "kr": "유물의 기억 : 여명의 방주 메타트론",
+      "kr": "유물의 기억: 여명의 방주 메타트론",
       "en": "Artifact Memory: Ark of Dawn Metatron",
       "ja": "遺物の記憶：暁の方舟メタトロン",
       "zh_tw": "遺物的記憶：黎明方舟梅塔特隆",
@@ -19226,7 +19490,15 @@
     },
     {
       "no": 2110069,
-      "kr": "유물의 기억 : 솔로몬의 반지",
+      "kr": "유물의 기억: 솔로몬의 반지",
+      "en": "Artifact Memory: Solomon's Ring",
+      "ja": "",
+      "zh_tw": "遺物的記憶：所羅門戒指",
+      "zh_cn": ""
+    },
+    {
+      "no": 2110070,
+      "kr": "유물의 기억: 태양의 왕관",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -22763,105 +23035,105 @@
     {
       "no": 2144801,
       "kr": "동백 부티크",
-      "en": "",
+      "en": "Camellia Boutique",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "山茶花精品店",
       "zh_cn": ""
     },
     {
       "no": 2144802,
       "kr": "다 함께 놀이마당",
-      "en": "",
+      "en": "Life-Size Game Board",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "一起玩耍遊樂場",
       "zh_cn": ""
     },
     {
       "no": 2144803,
       "kr": "축제 단상",
-      "en": "",
+      "en": "Festival Podium",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "慶典舞台",
       "zh_cn": ""
     },
     {
       "no": 2144804,
       "kr": "캐서린(광휘)의 사랑방",
-      "en": "",
+      "en": "Catherine (Radiance)'s Parlor",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "凱瑟琳（光輝）的廂房",
       "zh_cn": ""
     },
     {
       "no": 2144805,
       "kr": "식혜 분수",
-      "en": "",
+      "en": "Sweet Rice Drink Fountain",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "甜米露噴水池",
       "zh_cn": ""
     },
     {
       "no": 2144806,
       "kr": "동백 테이블",
-      "en": "",
+      "en": "Camellia Table",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "山茶花桌子",
       "zh_cn": ""
     },
     {
       "no": 2144807,
       "kr": "동백 의자",
-      "en": "",
+      "en": "Camellia Chair",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "山茶花椅子",
       "zh_cn": ""
     },
     {
       "no": 2144808,
       "kr": "화훼도 병풍",
-      "en": "",
+      "en": "Floral Motif Folding Screen",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "花卉圖屏風",
       "zh_cn": ""
     },
     {
       "no": 2144809,
       "kr": "동백 좌등",
-      "en": "",
+      "en": "Camellia Lantern Stand",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "山茶花座燈",
       "zh_cn": ""
     },
     {
       "no": 2144810,
       "kr": "이채 타일",
-      "en": "",
+      "en": "Vibrant Tile",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "撞色地磚",
       "zh_cn": ""
     },
     {
       "no": 2144811,
       "kr": "동백나무",
-      "en": "",
+      "en": "Camellia Tree",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "山茶花樹",
       "zh_cn": ""
     },
     {
       "no": 2144812,
       "kr": "가야금",
-      "en": "",
+      "en": "Gayageum",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "伽倻琴",
       "zh_cn": ""
     },
     {
       "no": 2144813,
       "kr": "떡 테이블",
-      "en": "",
+      "en": "Rice Cake Table",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "年糕桌子",
       "zh_cn": ""
     },
     {
@@ -24067,6 +24339,14 @@
     {
       "no": 2210069,
       "kr": "바이스의 유물, 솔로몬의 반지의 기억입니다.\r\n유물을 획득하거나 승급에 사용됩니다.",
+      "en": "Artifact of Weiss. The Memory of Solomon's Ring.\r\nUsed to obtain or ascend Artifacts.",
+      "ja": "",
+      "zh_tw": "拜斯的遺物，所羅門戒指的記憶。\r\n可獲得遺物或用來升階。",
+      "zh_cn": ""
+    },
+    {
+      "no": 2210070,
+      "kr": "로제(홍염)의 유물, 태양의 왕관의 기억입니다.\r\n유물을 획득하거나 승급에 사용됩니다.",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -24706,7 +24986,7 @@
     },
     {
       "no": 2240001,
-      "kr": "물을 뿜어내는 분수.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 골드를 1% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "물을 뿜어내는 분수.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 골드를 1% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A fountain that spouts water.\r\r\n\r\r\nPlace it in the town to receive an <color=\"#2d9b00\">additional 1% Gold as loot</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "水を噴き出す噴水。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品ゴールドを1%追加で獲得</color>できます。\r\n(最大所持数：3)",
       "zh_tw": "會噴水的噴水池。\r\r\n\r\r\n配置在領地可<color=\"#2d9b00\">額外獲得1％戰利品金幣</color>。\r\r\n（可持有數：3）",
@@ -24714,7 +24994,7 @@
     },
     {
       "no": 2240002,
-      "kr": "위험한 녹색 물이 떨어지는 분수.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 2% 골드를 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "위험한 녹색 물이 떨어지는 분수.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 2% 골드를 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A fountain from which dangerous green water flows down.\r\n\r\nPlace it in the town to receive <color=\"#2d9b00\">additional 2% Gold as loot</color>.\r\n(Max Placement Qty: 3)",
       "ja": "危険な緑色の水が落ちる噴水。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品ゴールドを追加で2%獲得</color>できます。\r\n(最大所持数：3)",
       "zh_tw": "落下危險綠水的噴水池。\r\n\r\n配置在領地可<color=\"#2d9b00\">額外獲得2%戰利品金幣</color>。\r\n（可持有數：3）",
@@ -24722,7 +25002,7 @@
     },
     {
       "no": 2240003,
-      "kr": "달콤한 초콜릿이 흘러나오는 분수.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 골드를 5% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "달콤한 초콜릿이 흘러나오는 분수.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 골드를 5% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A fountain that flows with sweet chocolate.\r\r\n\r\r\nPlace it in the town to receive an <color=\"#2d9b00\">additional 5% Gold as loot</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "甘いチョコレートが流れる噴水。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品ゴールドを5%追加で獲得</color>できます。\r\n(最大所持数：3)",
       "zh_tw": "會冒出香甜巧克力的噴水池。\r\r\n\r\r\n配置在領地可<color=\"#2d9b00\">額外獲得5％戰利品金幣</color>。\r\r\n（可持有數：3）",
@@ -24730,7 +25010,7 @@
     },
     {
       "no": 2240004,
-      "kr": "위풍당당한 용 모양의 분수.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 골드를 5% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "위풍당당한 용 모양의 분수.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 골드를 5% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A fountain in the shape of a majestic dragon.\r\r\n\r\r\nPlace it in the town to receive an <color=\"#2d9b00\">additional 5% Gold as loot</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "威風堂々としたドラゴンの形の噴水。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品ゴールドを5%追加で獲得</color>できます。\r\n(最大所持数：3)",
       "zh_tw": "威風堂堂的龍形噴水池。\r\r\n\r\r\n配置在領地可<color=\"#2d9b00\">額外獲得5％戰利品金幣</color>。\r\r\n（可持有數：3）",
@@ -24906,7 +25186,7 @@
     },
     {
       "no": 2240701,
-      "kr": "여신의 힘이 깃든 여신상.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 더스트를 1% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "여신의 힘이 깃든 여신상.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 더스트를 1% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A statue of a goddess imbued with power.\r\r\n\r\r\nPlace it in the town to receive an <color=\"#2d9b00\">additional 1% Mana Dust as loot</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "女神の力を宿した女神像。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品マナダストを1%追加で獲得</color>できます。\r\n(最大所持数：3)",
       "zh_tw": "蘊含女神之力的女神像。\r\r\n\r\r\n配置在領地可<color=\"#2d9b00\">額外獲得1％戰利品魔力粉塵</color>。\r\r\n（可持有數：3）",
@@ -24914,7 +25194,7 @@
     },
     {
       "no": 2240702,
-      "kr": "자유를 향한 깃발을 든 여인상.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 더스트를 2% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "자유를 향한 깃발을 든 여인상.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 더스트를 2% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A statue with a woman bearing a flag of liberty.\r\r\n\r\r\nPlace it in the town to receive an <color=\"#2d9b00\">additional 2% Mana Dust as loot</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "自由を求める旗を持った女性像。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品マナダストを2%追加で獲得</color>できます。\r\n(最大所持数：3)",
       "zh_tw": "舉著面向自由的旗幟的女性雕塑。\r\r\n\r\r\n配置在領地可<color=\"#2d9b00\">額外獲得2％戰利品魔力粉塵</color>。\r\r\n（可持有數：3）",
@@ -24922,7 +25202,7 @@
     },
     {
       "no": 2240703,
-      "kr": "용을 쓰러트린 기사의 동상.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 더스트를 5% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "용을 쓰러트린 기사의 동상.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 더스트를 5% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A statue of a knight who defeated a dragon.\r\r\n\r\r\nPlace it in the town to receive an <color=\"#2d9b00\">additional 5% Mana Dust as loot</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "ドラゴンを倒した騎士の銅像｡\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品マナダストを5%追加で獲得</color>できます。\r\n(最大所持数：3)",
       "zh_tw": "擊倒龍的騎士銅像。\r\r\n\r\r\n配置在領地可<color=\"#2d9b00\">額外獲得5％戰利品魔力粉塵</color>。\r\r\n（可持有數：3）",
@@ -24930,7 +25210,7 @@
     },
     {
       "no": 2240704,
-      "kr": "방주의 모양을 본뜬 석상.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 더스트를 5% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "방주의 모양을 본뜬 석상.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 더스트를 5% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A stone statue in the shape of an Ark.\r\r\n\r\r\nPlace it in the town to receive an <color=\"#2d9b00\">additional 5% Mana Dust as loot</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "方舟の形を模した石像。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品マナダストを5%追加で獲得</color>できます。\r\n(最大所持数：3)",
       "zh_tw": "仿造方舟模樣的石像。\r\r\n\r\r\n配置在領地可<color=\"#2d9b00\">額外獲得5％戰利品魔力粉塵</color>。\r\r\n（可持有數：3）",
@@ -24938,7 +25218,7 @@
     },
     {
       "no": 2240801,
-      "kr": "고요한 연못.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 크리스탈을 0.5% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "고요한 연못.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 크리스탈을 0.5% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A serene pond.\r\r\n\r\r\nPlace it in the town to receive an <color=\"#2d9b00\">additional 0.5% Mana Crystal as loot</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "静かな池。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品マナクリスタルを0.5%追加で獲得</color>できます。\r\n(最大所持数：3)",
       "zh_tw": "靜謐的池塘。\r\r\n\r\r\n配置在領地可<color=\"#2d9b00\">額外獲得0.5％戰利品魔力水晶</color>。\r\r\n（可持有數：3）",
@@ -24946,7 +25226,7 @@
     },
     {
       "no": 2240802,
-      "kr": "연꽃이 피어 있는 연못. \r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 크리스탈을 1% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "연꽃이 피어 있는 연못. \r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 크리스탈을 1% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A pond with lotus flowers.\r\r\n\r\r\nPlace it in the town to receive an <color=\"#2d9b00\">additional 1% Mana Crystal as loot</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "ハスが咲いている池。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品マナクリスタルを1%追加で獲得</color>できます。\r\n(最大所持数：3)",
       "zh_tw": "蓮花盛開的池塘。\r\r\n\r\r\n配置在領地可<color=\"#2d9b00\">額外獲得1％戰利品魔力水晶</color>。\r\r\n（可持有數：3）",
@@ -24954,7 +25234,7 @@
     },
     {
       "no": 2240803,
-      "kr": "요정들이 살 것 같은 연못. \r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 크리스탈을 2.5% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "요정들이 살 것 같은 연못. \r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 크리스탈을 2.5% 추가로 획득</color>할 수 있습니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A pond where fairies likely live.\r\r\n\r\r\nPlace it in the town to receive <color=\"#2d9b00\">additional 2.5% Mana Crystal as loot</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "妖精が住みそうな池。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品マナクリスタルを2.5%追加で獲得</color>できます。\r\n(最大所持数：3)",
       "zh_tw": "好像會有妖精居住的池塘。\r\r\n\r\r\n配置在領地可<color=\"#2d9b00\">額外獲得2.5％戰利品魔力水晶</color>。\r\r\n（可持有數：3）",
@@ -27635,105 +27915,105 @@
     {
       "no": 2244801,
       "kr": "신년제를 맞이해 제이드가 마련한 드레스 부티크.\r\n진열된 드레스는 단 한 벌뿐인 한정 상품으로, 아름다운 디자인뿐만 아니라 우수한 품질을 자랑한다고.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 더스트를 +20/분 추가로 획득</color>할 수 있습니다.",
-      "en": "",
+      "en": "A dress boutique opened by Jade in celebration of the New Year's Festival.\r\nEach dress on display is a one-of-a-kind limited item, boasting stunning designs and top-notch quality.\r\n\r\nPlace it in town to receive an <color=\"#2d9b00\">additional 20 Mana Dust per minute in loot</color>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "潔依德為迎接新年祭所準備的禮服精品店。\r\n陳列的禮服都是僅此一套的限量版，不只有精美的設計，還有著優良的品質。\r\n\r\n配置在領地可<color=\"#2d9b00\">額外獲得戰利品魔力粉塵+20／分鐘</color>。",
       "zh_cn": ""
     },
     {
       "no": 2244802,
       "kr": "대형 윷놀이판. 직접 윷말이 되어 움직이는 「윷말 체험」이 가능하다.\r\n소문으로는, 원래는 「윷말 체험」이 아닌 「윷 체험」이었다고 한다.\r\n당연히 위험성이 높아 기각되었다.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 골드를 +15/분 추가로 획득</color>할 수 있습니다.",
-      "en": "",
+      "en": "A life-sized yutnori board where you can play as a yut token yourself.\r\nRumor has it that the initial concept involved players becoming the yut sticks instead,\r\nbut it was rejected for obvious safety reasons.\r\n\r\nPlace it in town to receive an <color=\"#2d9b00\">additional 15 Gold per minute in loot</color>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "大型擲柶板子。可以親自當棋子，體驗動態的「擲柶棋子」。\r\n據傳，本來並不是「棋子體驗」，而是要被拋出去的「骰子體驗」。\r\n當然因為過於危險被駁回了。\r\n\r\n配置在領地可<color=\"#2d9b00\">額外獲得戰利品金幣+15／分鐘</color>。",
       "zh_cn": ""
     },
     {
       "no": 2244803,
       "kr": "개회사를 위해 준비된 단상.\r\n각국 수장들의 카리스마 있는 연설에 장내의 모두가 주목했다고 한다.\r\n다만, 바들바들 떠는 금발의 국왕만은 예외였다는 모양이다.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 골드를 +15/분 추가로 획득</color>할 수 있습니다.",
-      "en": "",
+      "en": "A podium set for the opening ceremony.\r\nWhile the charismatic speeches of leaders from various nations captivated the audience,\r\nthe trembling blonde queen stood out as the exception.\r\n\r\nPlace it in town to receive an <color=\"#2d9b00\">additional 15 Gold per minute in loot</color>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "為開幕致詞所準備的舞台。\r\n各國首長們極具魅力的致詞吸引了場內所有人的目光。\r\n但是，不停發抖的金髮國王似乎是例外。\r\n\r\n配置在領地可<color=\"#2d9b00\">額外獲得戰利品金幣+15／分鐘</color>。",
       "zh_cn": ""
     },
     {
       "no": 2244804,
       "kr": "가온에서 주최한 서예 대회장.\r\n가장 아름다운 붓글씨를 쓴 자를 가리는 대회로, 예선전을 통과한 도전자는 캐서린과의 대결을 펼칠 수 있다.\r\n참고로, 아직 캐서린을 넘은 우승자는 없다고 한다.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">특별한 아르바이트를 진행</color>할 수 있습니다.\r\n\r\n캐서린(광휘)를 오브제에 배치하면 <color=\"#2d9b00\">캐서린(광휘)의 공격력이 10% 증가</color>합니다. \r\n(다른 오브제에 중복 배치 불가)",
-      "en": "",
+      "en": "A calligraphy contest venue of Gaon.\r\nParticipants vie for the title of the finest brush artist. Those who make it through the preliminaries earn the chance to challenge Catherine,\r\nthough it's worth noting that no one has ever bested her.\r\n\r\nPlace it in town to unlock a <color=\"#2d9b00\">special part-time job</color>.\r\n\r\nDeploying Catherine (Radiance) to this structure will increase <color=\"#2d9b00\">Catherine (Radiance)'s ATK by 10%</color>.\r\n(Each Soul can occupy only one structure.)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "加溫主辦的書法大賽會場。\r\n大賽會選出寫下最美毛筆字的人，通過預賽的挑戰者可以和凱瑟琳進行對決。\r\n補充一下，據說目前還沒有優勝者贏過凱瑟琳。\r\n\r\n配置在領地可<color=\"#2d9b00\">進行特別的打工</color>。\r\n\r\n將凱瑟琳（光輝）配置於物件可<color=\"#2d9b00\">增加凱瑟琳（光輝）的攻擊力10%</color>。\r\n（不可重複配置在其他物件）",
       "zh_cn": ""
     },
     {
       "no": 2244805,
       "kr": "식혜가 흐르는 떡 분수. \r\n달짝지근한 식혜와 함께라면 끊임없이 떡을 먹을 수 있다!",
-      "en": "",
+      "en": "A rice cake fountain with streams of a sweet rice drink.\r\nWith every bite of rice cake paired with the sweet rice drink, the feast never ends!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "流淌著甜米露的噴水池。\r\n只要配上甜滋滋的甜米露，就能永無止境地吃年糕！",
       "zh_cn": ""
     },
     {
       "no": 2244806,
       "kr": "동백의 절개가 느껴지는 단아한 테이블.",
-      "en": "",
+      "en": "A refined table exuding the steadfast dignity of the camellia flower.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "感受到山茶花節操的端莊桌子。",
       "zh_cn": ""
     },
     {
       "no": 2244807,
       "kr": "동백의 절개가 느껴지는 단아한 의자.",
-      "en": "",
+      "en": "A refined chair exuding the steadfast dignity of the camellia flower.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "感受到山茶花節操的端莊椅子。",
       "zh_cn": ""
     },
     {
       "no": 2244808,
       "kr": "동백꽃이 그려진 아름다운 병풍.\r\n장인이 손수 만든 고급품이다.",
-      "en": "",
+      "en": "A beautiful folding screen featuring painted camellia flowers.\r\nIt is a masterpiece crafted by a skilled artisan.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "畫有山茶花的美麗屏風。\r\n是工匠手工製作的高級品。",
       "zh_cn": ""
     },
     {
       "no": 2244809,
       "kr": "깔끔한 디자인의 동백 좌등.\r\n흐드러지게 핀 동백이 축제의 밤을 밝혀준다.",
-      "en": "",
+      "en": "An elegantly simple camellia lantern stand.\r\nThe flourishing camellias cast a warm glow over the festive evening.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "設計簡潔的山茶花座燈。\r\n盛開的山茶花照亮了慶典的夜晚。",
       "zh_cn": ""
     },
     {
       "no": 2244810,
       "kr": "신비로운 색상의 대리석 타일.",
-      "en": "",
+      "en": "A marble tile of mystical colors.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "色彩神祕的大理石地磚。",
       "zh_cn": ""
     },
     {
       "no": 2244811,
       "kr": "추위에도 지지 않고 붉게 핀 동백나무.\r\n동백나무는 꽃이 질 때 꽃잎이 아닌 꽃송이 째로 떨어진다는 특징이 있는데, 이는 절개를 상징한다고 한다.\t",
-      "en": "",
+      "en": "Even in the cold, the camellia tree blooms a vibrant red.\r\nIts unique trait of flowers dropping whole rather than shedding petals is often seen as a symbol of steadfast dignity.\t",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "不畏寒冷，綻放出紅色花朵的山茶花樹。\r\n山茶花樹凋零時不是掉落花瓣，而是整個花朵掉落，這一特點象徵著節操。\t",
       "zh_cn": ""
     },
     {
       "no": 2244812,
       "kr": "동백꽃 향기가 함께하는 가야금.\r\n음악과 함께 축제 분위기가 무르익어 간다.",
-      "en": "",
+      "en": "A camellia-scented gayageum.\r\nIts music enriches the lively spirit of the festival.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "飄出山茶花香氣的伽倻琴。\r\n慶典的氣氛隨著音樂逐漸達到高點。",
       "zh_cn": ""
     },
     {
       "no": 2244813,
       "kr": "축제를 찾은 귀빈들에게 제공되는 원형 떡 테이블.\r\n가온에서만 맛볼 수 있는 고급스러운 디저트들로 가득하다.",
-      "en": "",
+      "en": "A round table of rice cakes offered to the distinguished guests of the festival.\r\nIt features an array of refined desserts unique to Gaon.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "為參加慶典的貴賓所準備的圓形年糕桌子。\r\n擺滿了只有在加溫才能嚐到的高級甜點。",
       "zh_cn": ""
     },
     {
@@ -27938,7 +28218,7 @@
     },
     {
       "no": 2248001,
-      "kr": "소소한 물건을 파는 잡화점. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n재료채집(커먼)\r\n인형만들기(커먼)\r\n마법약제조(커먼)",
+      "kr": "소소한 물건을 파는 잡화점. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n재료채집(커먼)\r\n인형만들기(커먼)\r\n마법약제조(커먼)",
       "en": "A general store that sells general items. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nMaterial Gathering (Common)\r\r\nDoll-Making (Common)\r\r\nPotion-Making (Common)",
       "ja": "小道具を売る雑貨屋｡領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n素材採集 (コモン)\r\n人形作り (コモン)\r\n魔法薬製造 (コモン)",
       "zh_tw": "販賣普通物品的雜貨店。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n採集材料（一般）\r\r\n製作娃娃（一般）\r\r\n製作魔藥（一般）",
@@ -27946,7 +28226,7 @@
     },
     {
       "no": 2248002,
-      "kr": "구색이 잘 갖추어진 잡화점. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n재료채집(레어)\r\n인형만들기(레어)\r\n마법약제조(레어)",
+      "kr": "구색이 잘 갖추어진 잡화점. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n재료채집(레어)\r\n인형만들기(레어)\r\n마법약제조(레어)",
       "en": "A general store with a nice assortment of goods for sale. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nMaterial Gathering (Rare)\r\r\nDoll-Making (Rare)\r\r\nPotion-Making (Rare)",
       "ja": "品揃えのいい雑貨屋。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n素材採集 (レア)\r\n人形作り (レア)\r\n魔法薬製造 (レア)",
       "zh_tw": "一應俱全的雜貨店。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n採集材料（稀有）\r\r\n製作娃娃（稀有）\r\r\n製作魔藥（稀有）",
@@ -27954,7 +28234,7 @@
     },
     {
       "no": 2248003,
-      "kr": "없는 물건이 없는 잡화점. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n재료채집(에픽)\r\n인형만들기(에픽)\r\n마법약제조(에픽)",
+      "kr": "없는 물건이 없는 잡화점. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n재료채집(에픽)\r\n인형만들기(에픽)\r\n마법약제조(에픽)",
       "en": "A general store with everything you need. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nMaterial Gathering (Epic)\r\r\nDoll-Making (Epic)\r\r\nPotion-Making (Epic)",
       "ja": "なんでも見つかる雑貨屋。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n素材採集 (エピック)\r\n人形作り (エピック)\r\n魔法薬製造 (エピック)",
       "zh_tw": "應有盡有的雜貨店。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n採集材料（史詩）\r\r\n製作娃娃（史詩）\r\r\n製作魔藥（史詩）",
@@ -27962,7 +28242,7 @@
     },
     {
       "no": 2248011,
-      "kr": "작은 플라워숍. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n꽃다발 만들기(커먼)\r\n화분 만들기(커먼)\r\n노상판매(커먼)",
+      "kr": "작은 플라워숍. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n꽃다발 만들기(커먼)\r\n화분 만들기(커먼)\r\n노상판매(커먼)",
       "en": "A small flower shop. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nBouquet-Making (Common)\r\r\nFlowerpot-Making (Common)\r\r\nSidewalk Sales (Common)",
       "ja": "小さな花屋。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n花束作り (コモン)\r\n植木鉢作り (コモン)\r\n路上販売 (コモン)",
       "zh_tw": "小花店。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n製作花束（一般）\r\r\n製作花盆（一般）\r\r\n街頭銷售（一般）",
@@ -27970,7 +28250,7 @@
     },
     {
       "no": 2248012,
-      "kr": "다양한 꽃을 파는 플라워숍. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n꽃다발 만들기(레어)\r\n화분 만들기(레어)\r\n노상판매(레어)",
+      "kr": "다양한 꽃을 파는 플라워숍. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n꽃다발 만들기(레어)\r\n화분 만들기(레어)\r\n노상판매(레어)",
       "en": "A flower shop that sells a variety of flowers. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nBouquet-Making (Rare)\r\r\nFlowerpot-Making (Rare)\r\r\nSidewalk Sales (Rare)",
       "ja": "様々な花を売る花屋。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n花束作り (レア)\r\n植木鉢作り (レア)\r\n路上販売 (レア)",
       "zh_tw": "販賣各種花的花店。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n製作花束（稀有）\r\r\n製作花盆（稀有）\r\r\n街頭銷售（稀有）",
@@ -27978,7 +28258,7 @@
     },
     {
       "no": 2248013,
-      "kr": "전문적으로 운영하는 플라워숍. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n꽃다발 만들기(에픽)\r\n화분 만들기(에픽)\r\n노상판매(에픽)",
+      "kr": "전문적으로 운영하는 플라워숍. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n꽃다발 만들기(에픽)\r\n화분 만들기(에픽)\r\n노상판매(에픽)",
       "en": "A professionally run flower shop. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nBouquet-Making (Epic)\r\r\nFlowerpot-Making (Epic)\r\r\nSidewalk Sales (Epic)",
       "ja": "専門的に運営される花屋。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n花束作り (エピック)\r\n植木鉢作り (エピック)\r\n路上販売 (エピック)",
       "zh_tw": "專業的花店。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n製作花束（史詩）\r\r\n製作花盆（史詩）\r\r\n街頭銷售（史詩）",
@@ -27986,7 +28266,7 @@
     },
     {
       "no": 2248021,
-      "kr": "빵을 파는 베이커리. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n반죽하기(커먼)\r\n케이크 장식하기(커먼)\r\n빵 배달하기(커먼)",
+      "kr": "빵을 파는 베이커리. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n반죽하기(커먼)\r\n케이크 장식하기(커먼)\r\n빵 배달하기(커먼)",
       "en": "A bakery that sells bread. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nDough-Making (Common)\r\r\nCake-Decoration (Common)\r\r\nBread Delivery (Common)",
       "ja": "パンを売るパン屋。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n生地作り (コモン)\r\nケーキデコレーション (コモン)\r\nパンのデリバリー (コモン)",
       "zh_tw": "販賣麵包的烘焙坊。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n揉麵團（一般）\r\r\n裝飾蛋糕（一般）\r\r\n配送麵包（一般）",
@@ -27994,7 +28274,7 @@
     },
     {
       "no": 2248022,
-      "kr": "빵과 과자를 파는 베이커리. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n반죽하기(레어)\r\n케이크 장식하기(레어)\r\n빵 배달하기(레어)",
+      "kr": "빵과 과자를 파는 베이커리. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n반죽하기(레어)\r\n케이크 장식하기(레어)\r\n빵 배달하기(레어)",
       "en": "A bakery that sells bread and cookies. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nDough-Making (Rare)\r\r\nCake-Decoration (Rare)\r\r\nBread Delivery (Rare)",
       "ja": "パンとお菓子を売るパン屋。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n生地作り (レア)\r\nケーキデコレーション (レア)\r\nパンのデリバリー (レア)",
       "zh_tw": "販賣麵包和餅乾的烘焙坊。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n揉麵團（稀有）\r\r\n裝飾蛋糕（稀有）\r\r\n配送麵包（稀有）",
@@ -28002,7 +28282,7 @@
     },
     {
       "no": 2248023,
-      "kr": "모든 디저트를 파는 베이커리. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n반죽하기(에픽)\r\n케이크 장식하기(에픽)\r\n빵 배달하기(에픽)",
+      "kr": "모든 디저트를 파는 베이커리. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n반죽하기(에픽)\r\n케이크 장식하기(에픽)\r\n빵 배달하기(에픽)",
       "en": "A bakery that sells all kinds of desserts. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nDough-Making (Epic)\r\r\nCake-Decoration (Epic)\r\r\nBread Delivery (Epic)",
       "ja": "あらゆるデザートを売るパン屋。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n生地作り (エピック)\r\nケーキデコレーション (エピック)\r\nパンのデリバリー (エピック)",
       "zh_tw": "販賣所有甜點的烘焙坊。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n揉麵團（史詩）\r\r\n裝飾蛋糕（史詩）\r\r\n配送麵包（史詩）",
@@ -28010,7 +28290,7 @@
     },
     {
       "no": 2248031,
-      "kr": "저렴하고 맛있는 레스토랑. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n설거지하기(커먼)\r\n감자깎기(커먼)\r\n요리하기(커먼)",
+      "kr": "저렴하고 맛있는 레스토랑. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n설거지하기(커먼)\r\n감자깎기(커먼)\r\n요리하기(커먼)",
       "en": "A restaurant that serves affordable and delicious food. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nWashing the Dishes (Common)\r\r\nPotato-Peeling (Common)\r\r\nCooking (Common)",
       "ja": "安くておいしいレストラン。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n洗い物 (コモン)\r\nジャガイモの皮むき (コモン)\r\n調理 (コモン)",
       "zh_tw": "價格低廉且東西好吃的餐廳。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n洗碗（一般）\r\r\n削馬鈴薯（一般）\r\r\n做料理（一般）",
@@ -28018,7 +28298,7 @@
     },
     {
       "no": 2248032,
-      "kr": "기분 전환하기 좋은 레스토랑. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n설거지하기(레어)\r\n감자깎기(레어)\r\n요리하기(레어)",
+      "kr": "기분 전환하기 좋은 레스토랑. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n설거지하기(레어)\r\n감자깎기(레어)\r\n요리하기(레어)",
       "en": "A restaurant that's good for cheering yourself up. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nWashing the Dishes (Rare)\r\r\nPotato-Peeling (Rare)\r\r\nCooking (Rare)",
       "ja": "気分転換になるレストラン。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n洗い物 (レア)\r\nジャガイモの皮むき (レア)\r\n調理 (レア)",
       "zh_tw": "適合轉換心情的餐廳。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n洗碗（稀有）\r\r\n削馬鈴薯（稀有）\r\r\n做料理（稀有）",
@@ -28026,7 +28306,7 @@
     },
     {
       "no": 2248033,
-      "kr": "큰 맘 먹어야 갈만한 고급 레스토랑. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n설거지하기(에픽)\r\n감자깎기(에픽)\r\n요리하기(에픽)",
+      "kr": "큰 맘 먹어야 갈만한 고급 레스토랑. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n설거지하기(에픽)\r\n감자깎기(에픽)\r\n요리하기(에픽)",
       "en": "A premium restaurant that serves very expensive dishes. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nWashing the Dishes (Epic)\r\r\nPotato-Peeling (Epic)\r\r\nCooking (Epic)",
       "ja": "大枚を払って行く高級レストラン。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n洗い物 (エピック)\r\nジャガイモの皮むき (エピック)\r\n調理 (エピック)",
       "zh_tw": "要下很大的決心才值得去的高級餐廳。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n洗碗（史詩）\r\r\n削馬鈴薯（史詩）\r\r\n做料理（史詩）",
@@ -28034,7 +28314,7 @@
     },
     {
       "no": 2248041,
-      "kr": "소담한 카페. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n호객하기(커먼)\r\n커피 그라인드(커먼)\r\n커피 내리기(커먼)",
+      "kr": "소담한 카페. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n호객하기(커먼)\r\n커피 그라인드(커먼)\r\n커피 내리기(커먼)",
       "en": "A small and cozy cafe. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nSoliciting (Common)\r\r\nCoffee-Grinding (Common)\r\r\nCoffee-Brewing (Common)",
       "ja": "素朴なカフェ。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n客引き (コモン)\r\nコーヒー豆粉砕 (コモン)\r\nコーヒー抽出 (コモン)",
       "zh_tw": "可愛的咖啡廳。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n招攬客人（一般）\r\r\n咖啡研磨（一般）\r\r\n煮咖啡（一般）",
@@ -28042,7 +28322,7 @@
     },
     {
       "no": 2248042,
-      "kr": "산뜻한 카페. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n호객하기(레어)\r\n커피 그라인드(레어)\r\n커피 내리기(레어)",
+      "kr": "산뜻한 카페. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n호객하기(레어)\r\n커피 그라인드(레어)\r\n커피 내리기(레어)",
       "en": "A fresh and neat cafe. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nSoliciting (Rare)\r\r\nCoffee-Grinding (Rare)\r\r\nCoffee-Brewing (Rare)",
       "ja": "爽やかなカフェ。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n客引き (レア)\r\nコーヒー豆粉砕 (レア)\r\nコーヒー抽出 (レア)",
       "zh_tw": "清新的咖啡廳。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n招攬客人（稀有）\r\r\n咖啡研磨（稀有）\r\r\n煮咖啡（稀有）",
@@ -28050,7 +28330,7 @@
     },
     {
       "no": 2248043,
-      "kr": "고급스러운 카페. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n호객하기(에픽)\r\n커피 그라인드(에픽)\r\n커피 내리기(에픽)",
+      "kr": "고급스러운 카페. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n호객하기(에픽)\r\n커피 그라인드(에픽)\r\n커피 내리기(에픽)",
       "en": "A premium cafe. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nSoliciting (Epic)\r\r\nCoffee-Grinding (Epic)\r\r\nCoffee-Brewing (Epic)",
       "ja": "高級なカフェ。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n客引き (エピック)\r\nコーヒー豆粉砕 (エピック)\r\nコーヒー抽出 (エピック)",
       "zh_tw": "高級咖啡廳。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n招攬客人（史詩）\r\r\n咖啡研磨（史詩）\r\r\n煮咖啡（史詩）",
@@ -28058,7 +28338,7 @@
     },
     {
       "no": 2248051,
-      "kr": "작은 도서관. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n책 반납받기(커먼)\r\n책 정리하기(커먼)\r\n필사하기(커먼)",
+      "kr": "작은 도서관. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n책 반납받기(커먼)\r\n책 정리하기(커먼)\r\n필사하기(커먼)",
       "en": "A small library. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nTaking Returned Books (Common)\r\r\nOrganizing Books (Common)\r\r\nTranscribing (Common)",
       "ja": "小さな図書館。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n本の返却受付 (コモン)\r\n本の整理 (コモン)\r\n筆写 (コモン)",
       "zh_tw": "小圖書館。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n收取還書（一般）\r\r\n整理書籍（一般）\r\r\n抄寫（一般）",
@@ -28066,7 +28346,7 @@
     },
     {
       "no": 2248052,
-      "kr": "양질의 책이 많은 도서관. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n책 반납받기(레어)\r\n책 정리하기(레어)\r\n필사하기(레어)",
+      "kr": "양질의 책이 많은 도서관. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n책 반납받기(레어)\r\n책 정리하기(레어)\r\n필사하기(레어)",
       "en": "A library with lots of quality books. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nTaking Returned Books (Rare)\r\r\nOrganizing Books (Rare)\r\r\nTranscribing (Rare)",
       "ja": "良質な本が多くある図書館。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n本の返却受付 (レア)\r\n本の整理 (レア)\r\n筆写 (レア)",
       "zh_tw": "有許多優質書籍的圖書館。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n收取還書（稀有）\r\r\n整理書籍（稀有）\r\r\n抄寫（稀有）",
@@ -28074,7 +28354,7 @@
     },
     {
       "no": 2248053,
-      "kr": "다양한 서적이 비치된 도서관. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n책 반납받기(에픽)\r\n책 정리하기(에픽)\r\n필사하기(에픽)",
+      "kr": "다양한 서적이 비치된 도서관. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n책 반납받기(에픽)\r\n책 정리하기(에픽)\r\n필사하기(에픽)",
       "en": "A library with a variety of books. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nTaking Returned Books (Epic)\r\r\nOrganizing Books (Epic)\r\r\nTranscribing (Epic)",
       "ja": "様々な書籍が備えられた図書館。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n本の返却受付 (エピック)\r\n本の整理 (エピック)\r\n筆写 (エピック)",
       "zh_tw": "有各種書籍的圖書館。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n收取還書（史詩）\r\r\n整理書籍（史詩）\r\r\n抄寫（史詩）",
@@ -28082,7 +28362,7 @@
     },
     {
       "no": 2248061,
-      "kr": "조용한 성당. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n청소하기(커먼)\r\n빨래하기(커먼)\r\n바느질하기(커먼)",
+      "kr": "조용한 성당. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n청소하기(커먼)\r\n빨래하기(커먼)\r\n바느질하기(커먼)",
       "en": "A silent cathedral. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nCleaning (Common)\r\r\nLaundry (Common)\r\r\nSewing (Common)",
       "ja": "静かな聖堂。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n掃除 (コモン)\r\n洗濯 (コモン)\r\n縫い物 (コモン)",
       "zh_tw": "安靜的教堂。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n打掃（一般）\r\r\n洗衣服（一般）\r\r\n縫紉（一般）",
@@ -28090,7 +28370,7 @@
     },
     {
       "no": 2248062,
-      "kr": "아름다운 성당. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n청소하기(레어)\r\n빨래하기(레어)\r\n바느질하기(레어)",
+      "kr": "아름다운 성당. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n청소하기(레어)\r\n빨래하기(레어)\r\n바느질하기(레어)",
       "en": "A beautiful cathedral. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nCleaning (Rare)\r\r\nLaundry (Rare)\r\r\nSewing (Rare)",
       "ja": "美しい聖堂。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n掃除 (レア)\r\n洗濯 (レア)\r\n縫い物 (レア)",
       "zh_tw": "美麗的教堂。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n打掃（稀有）\r\r\n洗衣服（稀有）\r\r\n縫紉（稀有）",
@@ -28098,7 +28378,7 @@
     },
     {
       "no": 2248063,
-      "kr": "거룩한 규모의 성당. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n청소하기(에픽)\r\n빨래하기(에픽)\r\n바느질하기(에픽)",
+      "kr": "거룩한 규모의 성당. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n청소하기(에픽)\r\n빨래하기(에픽)\r\n바느질하기(에픽)",
       "en": "A cathedral of holy scale. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nCleaning (Epic)\r\r\nLaundry (Epic)\r\r\nSewing (Epic)",
       "ja": "聖なる聖堂。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n掃除 (エピック)\r\n洗濯 (エピック)\r\n縫い物 (エピック)",
       "zh_tw": "規模非凡的教堂。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n打掃（史詩）\r\r\n洗衣服（史詩）\r\r\n縫紉（史詩）",
@@ -28106,7 +28386,7 @@
     },
     {
       "no": 2248071,
-      "kr": "소박한 아틀리에. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n그림 그리기(커먼)\r\n도자기 만들기(커먼)\r\n석상 만들기(커먼)",
+      "kr": "소박한 아틀리에. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n그림 그리기(커먼)\r\n도자기 만들기(커먼)\r\n석상 만들기(커먼)",
       "en": "A simple atelier. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nDrawing (Common)\r\r\nPottery-Making (Common)\r\r\nStatue-Making (Common)",
       "ja": "素朴なアトリエ。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n描き (コモン)\r\n陶芸 (コモン)\r\n石像彫刻 (コモン)",
       "zh_tw": "樸素的工作室。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n畫畫（一般）\r\r\n製作瓷器（一般）\r\r\n製作石像（一般）",
@@ -28114,7 +28394,7 @@
     },
     {
       "no": 2248072,
-      "kr": "현대적인 느낌의 아틀리에. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n그림 그리기(레어)\r\n도자기 만들기(레어)\r\n석상 만들기(레어)",
+      "kr": "현대적인 느낌의 아틀리에. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n그림 그리기(레어)\r\n도자기 만들기(레어)\r\n석상 만들기(레어)",
       "en": "A modern atelier. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nDrawing (Rare)\r\r\nPottery-Making (Rare)\r\r\nStatue-Making (Rare)",
       "ja": "現代的な雰囲気のアトリエ。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n描き (レア)\r\n陶芸 (レア)\r\n石像彫刻 (レア)",
       "zh_tw": "現代感的工作室。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n畫畫（稀有）\r\r\n製作瓷器（稀有）\r\r\n製作石像（稀有）",
@@ -28122,7 +28402,7 @@
     },
     {
       "no": 2248073,
-      "kr": "대 예술가의 전문적인 아틀리에. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n그림 그리기(에픽)\r\n도자기 만들기(에픽)\r\n석상 만들기(에픽)",
+      "kr": "대 예술가의 전문적인 아틀리에. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n그림 그리기(에픽)\r\n도자기 만들기(에픽)\r\n석상 만들기(에픽)",
       "en": "A professional atelier of great artists. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nDrawing (Epic)\r\r\nPottery-Making (Epic)\r\r\nStatue-Making (Epic)",
       "ja": "大芸術家の専門的なアトリエ。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\n描き (エピック)\r\n陶芸 (エピック)\r\n石像彫刻 (エピック)",
       "zh_tw": "大藝術家的專門工作室。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n畫畫（史詩）\r\r\n製作瓷器（史詩）\r\r\n製作石像（史詩）",
@@ -28130,7 +28410,7 @@
     },
     {
       "no": 2248081,
-      "kr": "농기구를 만드는 작은 대장간. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n풀무질하기(커먼)\r\n칼날갈기(커먼)\r\n망치질하기(커먼)",
+      "kr": "농기구를 만드는 작은 대장간. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n풀무질하기(커먼)\r\n칼날갈기(커먼)\r\n망치질하기(커먼)",
       "en": "A small forge that makes farming tools. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nWorking the Bellows (Common)\r\r\nBlade Sharpening (Common)\r\r\nHammering (Common)",
       "ja": "農機具を作る小さな鍛治屋｡領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\nふいご操作 (コモン)\r\n刃研ぎ (コモン)\r\n槌打ち (コモン)",
       "zh_tw": "製造農具的小型鐵匠鋪。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n鼓動風箱（一般）\r\r\n磨刀（一般）\r\r\n敲打槌子（一般）",
@@ -28138,7 +28418,7 @@
     },
     {
       "no": 2248082,
-      "kr": "농기구와 무기류를 만드는 대장간. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n풀무질하기(레어)\r\n칼날갈기(레어)\r\n망치질하기(레어)",
+      "kr": "농기구와 무기류를 만드는 대장간. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n풀무질하기(레어)\r\n칼날갈기(레어)\r\n망치질하기(레어)",
       "en": "A forge that makes farming tools and weapons. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nWorking the Bellows (Rare)\r\r\nBlade Sharpening (Rare)\r\r\nHammering (Rare)",
       "ja": "農機具と武器類を作る鍛治屋。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\nふいご操作 (レア)\r\n刃研ぎ (レア)\r\n槌打ち (レア)",
       "zh_tw": "製造農具與武器的鐵匠鋪。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n鼓動風箱（稀有）\r\r\n磨刀（稀有）\r\r\n敲打槌子（稀有）",
@@ -28146,7 +28426,7 @@
     },
     {
       "no": 2248083,
-      "kr": "모든 금속제품을 취급하는 대장간. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수 : 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n풀무질하기(에픽)\r\n칼날갈기(에픽)\r\n망치질하기(에픽)",
+      "kr": "모든 금속제품을 취급하는 대장간. 영지에 배치하면 아르바이트를 진행할 수 있습니다.\r\n( 보유 가능 개수: 1 )\r\n\r\n▶ 진행 가능 아르바이트\r\n풀무질하기(에픽)\r\n칼날갈기(에픽)\r\n망치질하기(에픽)",
       "en": "A forge that handles all kinds of metal products. Place it in the town to do part-time jobs.\r\r\n(Max Placement Qty: 1)\r\r\n\r\r\n▶ Available Part-Time Jobs:\r\r\nWorking the Bellows (Epic)\r\r\nBlade Sharpening (Epic)\r\r\nHammering (Epic)",
       "ja": "全種類の金属製品を扱う鍛治屋。領地に配置すると、バイトを進行できます。\r\n(最大所持数：1)\r\n\r\n▶ 進行できるバイト\r\nふいご操作 (エピック)\r\n刃研ぎ (エピック)\r\n槌打ち (エピック)",
       "zh_tw": "處理所有金屬製品的鐵匠鋪。配置在領地可進行打工。\r\r\n（可持有數：1）\r\r\n\r\r\n▶ 可進行打工\r\r\n鼓動風箱（史詩）\r\r\n磨刀（史詩）\r\r\n敲打槌子（史詩）",
@@ -28210,7 +28490,7 @@
     },
     {
       "no": 2249001,
-      "kr": "작은 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 공격력이 <color=\"#2d9b00\">3%</color>증가합니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "작은 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 공격력이 <color=\"#2d9b00\">3%</color>증가합니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A little house for Souls. Place it with a Soul in the town so that you can increase the Soul's ATK by <color=\"#2d9b00\">3%</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "小さな精霊の家。\r\n領地に置いて精霊を配置すると、精霊の攻撃力が<color=\"#2d9b00\">3%</color>増加します。\r\n(最大所持数：3)",
       "zh_tw": "小小的精靈之家。配置在領地並放置精靈，可增加<color=\"#2d9b00\">3%</color>攻擊力\r\r\n（可持有數：3）",
@@ -28218,7 +28498,7 @@
     },
     {
       "no": 2249002,
-      "kr": "작은 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 방어력이<color=\"#2d9b00\">3.6%</color> 증가합니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "작은 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 방어력이<color=\"#2d9b00\">3.6%</color> 증가합니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A little house for Souls. Place it with a Soul in the town so that you can increase the Soul's DEF by <color=\"#2d9b00\">3.6%</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "小さな精霊の家。\r\n領地に置いて精霊を配置すると、精霊の防御力が<color=\"#2d9b00\">3.6%</color>増加します。\r\n(最大所持数：3)",
       "zh_tw": "小小的精靈之家。配置在領地並放置精靈，可增加<color=\"#2d9b00\">3.6%</color>防禦力\r\r\n（可持有數：3）",
@@ -28226,7 +28506,7 @@
     },
     {
       "no": 2249003,
-      "kr": "작은 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 체력이 <color=\"#2d9b00\">3%</color>증가합니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "작은 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 체력이 <color=\"#2d9b00\">3%</color>증가합니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A little house for Souls. Place it with a Soul in the town so that you can increase the Soul's HP by <color=\"#2d9b00\">3%</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "小さな精霊の家。\r\n領地に置いて精霊を配置すると、精霊の体力が<color=\"#2d9b00\">3%</color>増加します。\r\n(最大所持数：3)",
       "zh_tw": "小小的精靈之家。配置在領地並放置精靈，可增加<color=\"#2d9b00\">3%</color>體力\r\r\n（可持有數：3）",
@@ -28234,7 +28514,7 @@
     },
     {
       "no": 2249011,
-      "kr": "조금 큰 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 공격력이 <color=\"#2d9b00\">5%</color>증가합니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "조금 큰 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 공격력이 <color=\"#2d9b00\">5%</color>증가합니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A slightly bigger house for Souls. Place it with a Soul in the town so that you can increase the Soul's ATK by <color=\"#2d9b00\">5%</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "やや大きな精霊の家。\r\n領地に置いて精霊を配置すると、精霊の攻撃力が<color=\"#2d9b00\">5%</color>増加します。\r\n(最大所持数：3)",
       "zh_tw": "稍微大一點的精靈之家。配置在領地並放置精靈，可增加 <color=\"#2d9b00\">5%</color>攻擊力\r\r\n（可持有數：3）",
@@ -28242,7 +28522,7 @@
     },
     {
       "no": 2249012,
-      "kr": "조금 큰 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 방어력이 <color=\"#2d9b00\">6%</color>증가합니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "조금 큰 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 방어력이 <color=\"#2d9b00\">6%</color>증가합니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A slightly bigger house for Souls. Place it with a Soul in the town so that you can increase the Soul's DEF by <color=\"#2d9b00\">6%</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "やや大きな精霊の家。\r\n領地に置いて精霊を配置すると、精霊の防御力が<color=\"#2d9b00\">6%</color>増加します。\r\n(最大所持数：3)",
       "zh_tw": "稍微大一點的精靈之家。配置在領地並放置精靈，可增加<color=\"#2d9b00\">6%</color>防禦力\r\r\n（可持有數：3）",
@@ -28250,7 +28530,7 @@
     },
     {
       "no": 2249013,
-      "kr": "조금 큰 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 체력이 <color=\"#2d9b00\">5%</color>증가합니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "조금 큰 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 체력이 <color=\"#2d9b00\">5%</color>증가합니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A slightly bigger house for Souls. Place it with a Soul in the town so that you can increase the Soul's HP by <color=\"#2d9b00\">5%</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "やや大きな精霊の家。\r\n領地に置いて精霊を配置すると、精霊の体力が<color=\"#2d9b00\">5%</color>増加します。\r\n(最大所持数：3)",
       "zh_tw": "稍微大一點的精靈之家。配置在領地並放置精靈，可增加<color=\"#2d9b00\">5%</color>體力\r\r\n（可持有數：3）",
@@ -28258,7 +28538,7 @@
     },
     {
       "no": 2249021,
-      "kr": "매우 큰 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 공격력이 <color=\"#2d9b00\">10%</color>증가합니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "매우 큰 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 공격력이 <color=\"#2d9b00\">10%</color>증가합니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A very big house for Souls. Place it with a Soul in the town so that you can increase the Soul's ATK by <color=\"#2d9b00\">10%</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "非常に大きな精霊の家。\r\n領地に置いて精霊を配置すると、精霊の攻撃力が<color=\"#2d9b00\">10%</color>増加します。\r\n(最大所持数：3)",
       "zh_tw": "非常大的精靈之家。配置在領地並放置精靈，可增加<color=\"#2d9b00\">10%</color>攻擊力（可\r\r\n持有數：3）",
@@ -28266,7 +28546,7 @@
     },
     {
       "no": 2249022,
-      "kr": "매우 큰 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 방어력이 <color=\"#2d9b00\">12%</color>증가합니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "매우 큰 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 방어력이 <color=\"#2d9b00\">12%</color>증가합니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A very big house for Souls. Place it with a Soul in the town so that you can increase the Soul's DEF by <color=\"#2d9b00\">12%</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "非常に大きな精霊の家。\r\n領地に置いて精霊を配置すると、精霊の防御力が<color=\"#2d9b00\">12%</color>増加します。\r\n(最大所持数：3)",
       "zh_tw": "非常大的精靈之家。配置在領地並放置精靈，可增加<color=\"#2d9b00\">12%</color>防禦力\r\r\n（可持有數：3）",
@@ -28274,7 +28554,7 @@
     },
     {
       "no": 2249023,
-      "kr": "매우 큰 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 체력이 <color=\"#2d9b00\">10%</color>증가합니다.\r\n( 보유 가능 개수 : 3 )",
+      "kr": "매우 큰 정령의 집. 영지에 배치 후 정령을 배치하면 정령의 체력이 <color=\"#2d9b00\">10%</color>증가합니다.\r\n( 보유 가능 개수: 3 )",
       "en": "A very big house for Souls. Place it with a Soul in the town so that you can increase the Soul's HP by <color=\"#2d9b00\">10%</color>.\r\r\n(Max Placement Qty: 3)",
       "ja": "非常に大きな精霊の家。\r\n領地に置いて精霊を配置すると、精霊の体力が<color=\"#2d9b00\">10%</color>増加します。\r\n(最大所持数：3)",
       "zh_tw": "非常大的精靈之家。配置在領地並放置精靈，可增加<color=\"#2d9b00\">10%</color>體力\r\r\n（可持有數：3）",
@@ -29179,9 +29459,9 @@
     {
       "no": 21541501,
       "kr": "스티커: 소중한 바이스",
-      "en": "",
+      "en": "Sticker: Precious Weiss",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "貼紙：珍貴的拜斯",
       "zh_cn": ""
     },
     {
@@ -29731,9 +30011,9 @@
     {
       "no": 22541501,
       "kr": "바이스의 인연 레벨 40 달성 시 획득 가능한 스티커.",
-      "en": "",
+      "en": "A sticker that can be obtained upon reaching Weiss Bond Level 40.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成拜斯好感等級40時可獲得的貼紙。",
       "zh_cn": ""
     },
     {

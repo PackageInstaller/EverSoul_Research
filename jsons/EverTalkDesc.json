@@ -149150,9 +149150,9 @@
       "love_level": 6,
       "hero_no": 4150,
       "talk_type": 7,
-      "ui_type": "Normal",
-      "speaker_no": 4150,
-      "talk_index": 19
+      "ui_type": "Choice",
+      "talk_index": 19,
+      "choice_group": 1
     },
     {
       "no": 741500620,
@@ -149160,9 +149160,9 @@
       "love_level": 6,
       "hero_no": 4150,
       "talk_type": 7,
-      "ui_type": "Normal",
-      "speaker_no": 4150,
-      "talk_index": 20
+      "ui_type": "Player",
+      "talk_index": 20,
+      "choice_group": 1
     },
     {
       "no": 741500621,
@@ -149800,7 +149800,7 @@
       "love_level": 7,
       "hero_no": 4150,
       "talk_type": 7,
-      "ui_type": "Normal",
+      "ui_type": "Player",
       "talk_index": 35,
       "choice_group": 1
     },
@@ -188700,7 +188700,7 @@
     },
     {
       "no": 841500300,
-      "group_no": 84153003,
+      "group_no": 84150003,
       "love_level": 9,
       "hero_no": 4150,
       "talk_type": 8,
@@ -188710,7 +188710,7 @@
     },
     {
       "no": 841500301,
-      "group_no": 84153003,
+      "group_no": 84150003,
       "love_level": 9,
       "hero_no": 4150,
       "talk_type": 8,
@@ -188720,7 +188720,7 @@
     },
     {
       "no": 841500302,
-      "group_no": 84153003,
+      "group_no": 84150003,
       "love_level": 9,
       "hero_no": 4150,
       "talk_type": 8,
@@ -188730,7 +188730,7 @@
     },
     {
       "no": 841500303,
-      "group_no": 84153003,
+      "group_no": 84150003,
       "love_level": 9,
       "hero_no": 4150,
       "talk_type": 8,
@@ -188740,7 +188740,7 @@
     },
     {
       "no": 841500304,
-      "group_no": 84153003,
+      "group_no": 84150003,
       "love_level": 9,
       "hero_no": 4150,
       "talk_type": 8,
@@ -188750,7 +188750,7 @@
     },
     {
       "no": 841500305,
-      "group_no": 84153003,
+      "group_no": 84150003,
       "love_level": 9,
       "hero_no": 4150,
       "talk_type": 8,
@@ -188760,7 +188760,7 @@
     },
     {
       "no": 841500306,
-      "group_no": 84153003,
+      "group_no": 84150003,
       "love_level": 9,
       "hero_no": 4150,
       "talk_type": 8,
@@ -188770,7 +188770,7 @@
     },
     {
       "no": 841500307,
-      "group_no": 84153003,
+      "group_no": 84150003,
       "love_level": 9,
       "hero_no": 4150,
       "talk_type": 8,

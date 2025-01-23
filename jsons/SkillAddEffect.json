@@ -6172,49 +6172,57 @@
       "effect_no": 3289110,
       "skill_code1": 3289111,
       "skill_code2": 3289112,
-      "skill_code3": 3289113,
+      "skill_code3": 3289115,
       "skill_code4": 3289114
+    },
+    {
+      "effect_no": 3289115,
+      "skill_code1": 3289113
     },
     {
       "effect_no": 3289120,
       "skill_code1": 3289121,
       "skill_code2": 3289122,
-      "skill_code3": 3289113,
+      "skill_code3": 3289115,
       "skill_code4": 3289114
     },
     {
       "effect_no": 3289130,
       "skill_code1": 3289131,
       "skill_code2": 3289132,
-      "skill_code3": 3289113,
+      "skill_code3": 3289115,
       "skill_code4": 3289114
     },
     {
       "effect_no": 3289140,
       "skill_code1": 3289141,
       "skill_code2": 3289142,
-      "skill_code3": 3289113,
+      "skill_code3": 3289115,
       "skill_code4": 3289114
     },
     {
       "effect_no": 3290110,
       "skill_code1": 3290111,
-      "skill_code2": 3290112
+      "skill_code2": 3290112,
+      "skill_code3": 3290110
     },
     {
       "effect_no": 3290120,
       "skill_code1": 3290121,
-      "skill_code2": 3290122
+      "skill_code2": 3290122,
+      "skill_code3": 3290120
     },
     {
       "effect_no": 3290130,
       "skill_code1": 3290131,
-      "skill_code2": 3290132
+      "skill_code2": 3290132,
+      "skill_code3": 3290130
     },
     {
       "effect_no": 3290140,
       "skill_code1": 3290141,
-      "skill_code2": 3290142
+      "skill_code2": 3290142,
+      "skill_code3": 3290140
     },
     {
       "effect_no": 4010012,

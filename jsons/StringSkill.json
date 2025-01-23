@@ -2810,7 +2810,7 @@
     },
     {
       "no": 23216,
-      "kr": "리미터 해제 : 가속",
+      "kr": "리미터 해제: 가속",
       "en": "Unlock Limiter: Speed",
       "ja": "リミッター解除：加速",
       "zh_tw": "解除限制：加速",
@@ -2818,7 +2818,7 @@
     },
     {
       "no": 23217,
-      "kr": "리미터 해제 : 강격",
+      "kr": "리미터 해제: 강격",
       "en": "Unlock Limiter: Strike",
       "ja": "リミッター解除：強撃",
       "zh_tw": "解除限制：強擊",
@@ -7498,7 +7498,7 @@
     },
     {
       "no": 23806,
-      "kr": "아르마 솔레스 : 인빅투스",
+      "kr": "아르마 솔레스: 인빅투스",
       "en": "Arma Solis: Invictus",
       "ja": "",
       "zh_tw": "太陽兵器：無敵",
@@ -10835,9 +10835,9 @@
     {
       "no": 27051,
       "kr": "매 중첩 당 치명타 확률 <value>%, 받는 최종 피해량 -5%, 가속 +2%",
-      "en": "",
+      "en": "Crit Rate <value>%, total damage received -5%, and Speed +2% per stack",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "每疊加暴擊率<value>%、所受最終傷害量-5%、加速+2%",
       "zh_cn": ""
     },
     {
@@ -10851,9 +10851,9 @@
     {
       "no": 27053,
       "kr": "<타나토스> 효과가 크게 증가한다.",
-      "en": "",
+      "en": "Greatly enhances the effects of \"Thanatos.\"",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "＜桑納托斯＞效果大幅提升了。",
       "zh_cn": ""
     },
     {
@@ -11203,9 +11203,9 @@
     {
       "no": 27097,
       "kr": "훌륭합니다. 릴리트 님, 공격력 <value>%, 가속 +20%",
-      "en": "Excellent indeed, Lilith. ATK <value>%, Speed +20%",
+      "en": "Awesome, Lilith. ATK <value>% and Speed +20%",
       "ja": "",
-      "zh_tw": "很優秀，莉莉絲，攻擊力<value>%、加速+20%",
+      "zh_tw": "很優秀，莉莉絲。攻擊力<value>%、加速+20%",
       "zh_cn": "很优秀，莉莉丝，攻击力<value>%、加速+20%"
     },
     {
@@ -12499,9 +12499,9 @@
     {
       "no": 27259,
       "kr": " 덕분에 강해졌습니다. 릴리트 님. 공격력 <value>%, 가속 +20%",
-      "en": "Thanks for the power boost, Lilith. ATK <value>% and Speed +20%",
+      "en": " Thanks for the power boost, Lilith. ATK <value>% and Speed +20%",
       "ja": "",
-      "zh_tw": "多虧妳我變強大了，莉莉絲。攻擊力<value>%、加速+20%",
+      "zh_tw": "多虧有你，我變強了，莉莉絲。攻擊力<value>%、加速+20%",
       "zh_cn": ""
     },
     {
@@ -12547,7 +12547,7 @@
     {
       "no": 27265,
       "kr": "가하는 피해량 +50%, 받는 최종 피해량 -50%",
-      "en": "Damage dealt +50%, total damage received -50%",
+      "en": "Damage dealt +50% and total damage received -50%",
       "ja": "",
       "zh_tw": "造成傷害量+50%、所受最終傷害量-50%",
       "zh_cn": ""
@@ -12747,7 +12747,7 @@
     {
       "no": 27290,
       "kr": "충격 흡수 보호막",
-      "en": "Shock Absorb Shield",
+      "en": "Shock Absorption Shield",
       "ja": "",
       "zh_tw": "吸收衝擊防護罩",
       "zh_cn": ""
@@ -12755,1009 +12755,1009 @@
     {
       "no": 27291,
       "kr": "시전자의 공격력에 비례하여 피해를 흡수하고, 보호막이 유지되는 동안 군중 제어 면역 및 물리/마법 저항 +30%",
-      "en": "",
+      "en": "Absorbs damage in proportion to her ATK. Immune to crowd control effects and Physical/Magic Resistance +30% while the shield is active.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "吸收與施展者攻擊力成正比的傷害，防護罩維持期間對集體控制免疫及物理／魔法抵抗+30%",
       "zh_cn": ""
     },
     {
       "no": 27292,
       "kr": "헤롱헤롱",
-      "en": "",
+      "en": "Dizzy",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "頭暈目眩",
       "zh_cn": ""
     },
     {
       "no": 27293,
       "kr": "다음 도라의 곰곰펀치에 적중되면 추가 효과를 부여한다.",
-      "en": "",
+      "en": "The next hit by Dora's Bear Knuckles triggers additional effects.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "要是被接下來朵菈的熊熊拳命中，則會產生額外效果。",
       "zh_cn": ""
     },
     {
       "no": 27294,
       "kr": "곰경지수",
-      "en": "",
+      "en": "Bear With Me",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "熊鏡止水",
       "zh_cn": ""
     },
     {
       "no": 27295,
       "kr": "받는 최종 피해량 -30%, 치명타 위력 <value>%",
-      "en": "",
+      "en": "Total damage received -30%, Crit DMG <value>%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "所受最終傷害量-30%、暴擊威力<value>%",
       "zh_cn": ""
     },
     {
       "no": 27296,
       "kr": "곰의 기운",
-      "en": "",
+      "en": "Bear Energy",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "熊熊能量",
       "zh_cn": ""
     },
     {
       "no": 27297,
       "kr": "공격력 <value>%, 방어력 <value>%",
-      "en": "",
+      "en": "ATK <value>%, DEF <value>%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "攻擊力<value>%、防禦力<value>%",
       "zh_cn": ""
     },
     {
       "no": 27298,
       "kr": "곰강불괴",
-      "en": "",
+      "en": "Bearly Alive",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "熊剛不壞",
       "zh_cn": ""
     },
     {
       "no": 27299,
       "kr": "방어력 <value>%, 치명타 확률 +40%",
-      "en": "",
+      "en": "DEF <value>%, Crit Rate +40%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "防禦力<value>%、暴擊率<value>+40%",
       "zh_cn": ""
     },
     {
       "no": 27300,
       "kr": "방어력 <value>%, 치명타 확률 +45%",
-      "en": "",
+      "en": "DEF <value>%, Crit Rate +45%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "防禦力<value>%、暴擊率<value>+45%",
       "zh_cn": ""
     },
     {
       "no": 27301,
       "kr": "방어력 <value>%, 치명타 확률 +50%",
-      "en": "",
+      "en": "DEF <value>%, Crit Rate +50%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "防禦力<value>%、暴擊率<value>+50%",
       "zh_cn": ""
     },
     {
       "no": 27302,
       "kr": "고미네이터",
-      "en": "",
+      "en": "Bearminator",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "終結者",
       "zh_cn": ""
     },
     {
       "no": 27303,
       "kr": "물리/마법 저항력 <value>%",
-      "en": "",
+      "en": "Physical/Magic Resistance <value>%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "物理／魔法抵抗力<value>%",
       "zh_cn": ""
     },
     {
       "no": 27304,
       "kr": "엔젤 불릿",
-      "en": "",
+      "en": "Angel Shot",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "天使子彈",
       "zh_cn": ""
     },
     {
       "no": 27305,
       "kr": "4중첩이 될 시 엔젤 터치를 부여하고 매혹 상태로 만든다",
-      "en": "",
+      "en": "Places Angel's Touch upon reaching 4 stacks, inflicting Charm.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "當4疊加時，將賦予天使之手並陷入魅惑狀態",
       "zh_cn": ""
     },
     {
       "no": 27306,
       "kr": "데빌 불릿",
-      "en": "",
+      "en": "Devil Shot",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "惡魔子彈",
       "zh_cn": ""
     },
     {
       "no": 27307,
       "kr": "4중첩이 될 시 데빌 터치를 부여하고 받는 최종 피해를 증가시킨다.",
-      "en": "",
+      "en": "Places Devil's Touch upon reaching 4 stacks, increasing total damage received.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "當4疊加時，將賦予惡魔之手並使最終傷害增加",
       "zh_cn": ""
     },
     {
       "no": 27308,
       "kr": "엔젤 터치",
-      "en": "",
+      "en": "Angel's Touch",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "天使之手",
       "zh_cn": ""
     },
     {
       "no": 27309,
       "kr": "칸나의 스킬에 추가 효과를 부여한다.",
-      "en": "",
+      "en": "Triggers additional effects for skills used by Kanna.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "根據坎納的技能賦予額外效果",
       "zh_cn": ""
     },
     {
       "no": 27310,
       "kr": "데빌 터치",
-      "en": "",
+      "en": "Devil's Touch",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "惡魔之手",
       "zh_cn": ""
     },
     {
       "no": 27311,
       "kr": "칸나의 스킬에 추가 효과를 부여한다.",
-      "en": "",
+      "en": "Triggers additional effects for skills used by Kanna.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "根據坎納的技能賦予額外效果",
       "zh_cn": ""
     },
     {
       "no": 27312,
       "kr": "흑야",
-      "en": "",
+      "en": "Dark Night",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "黑夜",
       "zh_cn": ""
     },
     {
       "no": 27313,
       "kr": "타나토스의 속삭임이 들리지 않습니다.",
-      "en": "",
+      "en": "Thanatos's Whisper cannot be heard.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "桑納托斯的呢喃細語無人聽見",
       "zh_cn": ""
     },
     {
       "no": 27314,
       "kr": "엽전",
-      "en": "",
+      "en": "Brass Coin",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "銅錢",
       "zh_cn": ""
     },
     {
       "no": 27315,
       "kr": "중첩 당 일반 공격 및 서브 스킬의 위력 +50%, 메인 스킬 사용 시 보유한 <엽전>을 던져 탐관오리 클로이에게 피해를 입힌다.",
-      "en": "",
+      "en": "Effectiveness of normal attack and sub skills +50% per stack. Upon main skill use, throws a \"Brass Coin\" on hand to deal damage to Corrupt Official Chloe.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "每次疊加一般攻擊和輔助技能的威力+50%，使用主要技能時，拋出持有的＜銅錢＞並對貪官汙吏克羅伊造成傷害",
       "zh_cn": ""
     },
     {
       "no": 27316,
       "kr": "빼앗은 엽전",
-      "en": "",
+      "en": "Pilfered Brass Coin",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "搶來的銅錢",
       "zh_cn": ""
     },
     {
       "no": 27317,
       "kr": "중첩 당 가하는 피해량 <value>%, 복주머니가 점점 무거워진다.",
-      "en": "",
+      "en": "Damage dealt <value>% per stack. The lucky pouch gets heavier and heavier.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "每疊加造成傷害量<value>%，福袋越來越重了",
       "zh_cn": ""
     },
     {
       "no": 27318,
       "kr": "탐욕",
-      "en": "",
+      "en": "Greed",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "貪婪",
       "zh_cn": ""
     },
     {
       "no": 27319,
       "kr": "8중첩이 되면 기절 상태로 만들어 큰 피해를 입힐 수 있다.",
-      "en": "",
+      "en": "Stuns Corrupt Official Chloe upon reaching 8 stacks, making her vulnerable to massive damage.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "8疊加時將陷入暈眩狀態，並造成巨大傷害",
       "zh_cn": ""
     },
     {
       "no": 27320,
       "kr": "감기",
-      "en": "",
+      "en": "Common Cold",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "感冒",
       "zh_cn": ""
     },
     {
       "no": 27321,
       "kr": "복통",
-      "en": "",
+      "en": "Stomach Cramp",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "腹痛",
       "zh_cn": ""
     },
     {
       "no": 27322,
       "kr": "받는 피해 증폭 <value>%",
-      "en": "",
+      "en": "Total damage received amplification <value>%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "所受傷害增幅<value>%",
       "zh_cn": ""
     },
     {
       "no": 27323,
       "kr": "탐관오리 클로이",
-      "en": "",
+      "en": "Corrupt Official Chloe",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "貪官汙吏克羅伊",
       "zh_cn": ""
     },
     {
       "no": 27324,
       "kr": "냉기, 중독에 취약",
-      "en": "",
+      "en": "Vulnerable to Freeze and Poison",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "容易陷入寒氣、中毒",
       "zh_cn": ""
     },
     {
       "no": 27325,
       "kr": "과유불급",
-      "en": "",
+      "en": "Greed Overload",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "過猶不及",
       "zh_cn": ""
     },
     {
       "no": 27326,
       "kr": "기절한 상태, 받는 피해 증폭 <value>%",
-      "en": "",
+      "en": "Stunned. Total damage received amplification <value>%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "暈眩狀態，所受傷害增福<value>%",
       "zh_cn": ""
     },
     {
       "no": 27327,
       "kr": "증폭된 죽음의 룬",
-      "en": "",
+      "en": "Amplified Rune of Death",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "增幅的死亡符文",
       "zh_cn": ""
     },
     {
       "no": 27328,
       "kr": "<생과 사의 선택> 및 <위대한 죽음의 선고> 스킬이 자신의 최대 체력에 기반한 치명타 피해를 추가로 입히고, 그로기 수치를 감소시킨다.",
-      "en": "",
+      "en": "Between Life and Death and \"Great Death Sentence\" additionally deal Crit DMG based on max HP and decrease Daze Gauge.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "＜生死之擇＞及＜偉大的死亡宣告＞技能會依據自身體力上限造成額外的暴擊傷害，並使無力數值減少",
       "zh_cn": ""
     },
     {
       "no": 27329,
       "kr": "인과율 위배",
-      "en": "",
+      "en": "Violating Causality",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "違反因果",
       "zh_cn": ""
     },
     {
       "no": 27330,
-      "kr": "자신과 동일한 악령과 조우 시 공격력, 방어력, 최대 체력 증가, 일부 스킬 효과 강화",
-      "en": "",
+      "kr": "자신과 동일한 악령과 조우 시 공격력, 최대 체력, 마나 회복량 증가, 일부 스킬 효과 강화",
+      "en": "Increases ATK, max HP, and Mana Recovery and enhances some skill effects when fighting an Evil Soul version of herself",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "遇到與自身相同的惡靈時，攻擊力、體力上限、魔力恢復量皆會提升，並強化部分技能效果",
       "zh_cn": ""
     },
     {
       "no": 27331,
       "kr": "야생의 벗",
-      "en": "",
+      "en": "Friend of the Wild",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "野生的朋友",
       "zh_cn": ""
     },
     {
       "no": 27332,
       "kr": "어떤 세계에서는 서로를 이해하는 친구였을지도 모른다.",
-      "en": "",
+      "en": "Could have been friends with deep understanding of each other in another world.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "在某個世界裡，他們或許是互相理解的朋友。",
       "zh_cn": ""
     },
     {
       "no": 27333,
       "kr": "고독한 늑대와 외로운 사자",
-      "en": "",
+      "en": "The Lone Wolf and the Solitary Lioness",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "孤獨的狼和寂寞的獅子",
       "zh_cn": ""
     },
     {
       "no": 27334,
       "kr": "하루가 입히는 피해 증가, 모든 공격이 치명타로 발동",
-      "en": "",
+      "en": "Increases Haru's damage dealt. All attacks land as critical hits.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "河路造成的傷害增加，所有攻擊以暴擊發動",
       "zh_cn": ""
     },
     {
       "no": 27335,
       "kr": "사냥 놀이",
-      "en": "",
+      "en": "Hunting Game",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "狩獵遊戲",
       "zh_cn": ""
     },
     {
       "no": 27336,
       "kr": "하루가 <사냥감 포착>의 대상이 될 경우 받는 피해가 매우 크게 감소하고, 대부분의 공격을 회피하며, 가속이 증가한다",
-      "en": "",
+      "en": "If Haru becomes the target of \"Prey Detected,\" her total damage received decreases greatly, she evades most attacks, and her Speed increases.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "若河路成為＜捕捉獵物＞的目標時，所受傷害將大幅減少，迴避大部分的攻擊，加速也會增加",
       "zh_cn": ""
     },
     {
       "no": 27337,
       "kr": "외로움의 끝",
-      "en": "",
+      "en": "End of Loneliness",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "孤獨的盡頭",
       "zh_cn": ""
     },
     {
       "no": 27338,
       "kr": "<종언의 고독>이 그로기 게이지를 매우 크게 감소시킨다.",
-      "en": "",
+      "en": "Solitude of the End greatly decreases the Daze Gauge.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "＜終結的孤獨＞使無力計量條大幅減少",
       "zh_cn": ""
     },
     {
       "no": 27339,
       "kr": "마녀와 야수",
-      "en": "",
+      "en": "The Witch and the Beast",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "魔女與野獸",
       "zh_cn": ""
     },
     {
       "no": 27340,
       "kr": "일정 주기마다 마녀가 출현해 야수의 전투를 지원한다.",
-      "en": "",
+      "en": "The Witch appears at regular intervals to aid the Beast in battle.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "每隔一定週期，將會出現魔女支援野獸的戰鬥",
       "zh_cn": ""
     },
     {
       "no": 27341,
       "kr": "에메랄드의 예지",
-      "en": "",
+      "en": "Emerald Foresight",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "翠玉綠預知",
       "zh_cn": ""
     },
     {
       "no": 27342,
       "kr": "효과 시간 만료 시 피해를 입히고, 야수의 광기를 상승시킨다.",
-      "en": "",
+      "en": "Deals damage and boosts the Beast's Madness upon expiration.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "效果時間結束後，造成傷害並提升野獸的狂氣",
       "zh_cn": ""
     },
     {
       "no": 27343,
       "kr": "거절의 돌풍",
-      "en": "",
+      "en": "Gust of Denial",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "拒絕疾風",
       "zh_cn": ""
     },
     {
       "no": 27344,
       "kr": "근접한 적에게 지속적으로 피해를 입힌다. 해제될 경우 일정 시간 후 다시 발생",
-      "en": "",
+      "en": "Deals damage over time to nearby enemies. Activates again after a set delay upon cancellation.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "持續對附近的敵人造成傷害，若被解除將在一定時間後再次發動",
       "zh_cn": ""
     },
     {
       "no": 27345,
       "kr": "열상",
-      "en": "",
+      "en": "Laceration",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "撕裂傷",
       "zh_cn": ""
     },
     {
       "no": 27346,
       "kr": "전투가 끝날때까지 지속적으로 피해를 입는다.",
-      "en": "",
+      "en": "Deals damage over time until battle ends.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "持續受到傷害，直到戰鬥結束為止",
       "zh_cn": ""
     },
     {
       "no": 27347,
       "kr": "배부름",
-      "en": "",
+      "en": "Stuffed",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "飽腹感",
       "zh_cn": ""
     },
     {
       "no": 27348,
       "kr": "가하는 피해 -10% (해제 가능)",
-      "en": "",
+      "en": "Damage dealt <value> (can be canceled)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "造成傷害<value>（可解除）",
       "zh_cn": ""
     },
     {
       "no": 27349,
       "kr": "자폭",
-      "en": "",
+      "en": "Self-Detonation",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "自爆",
       "zh_cn": ""
     },
     {
       "no": 27350,
       "kr": "버프 효과가 끝날 때 자폭한다!",
-      "en": "",
+      "en": "Self-detonates upon expiration!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "增益效果結束時將自爆！",
       "zh_cn": ""
     },
     {
       "no": 27351,
       "kr": "가하는 피해 -12.5% (해제 가능)",
-      "en": "",
+      "en": "Damage dealt -12.5% (can be canceled)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "造成傷害-12.5%（可解除）",
       "zh_cn": ""
     },
     {
       "no": 27352,
       "kr": "가하는 피해 -15% (해제 가능)",
-      "en": "",
+      "en": "Damage dealt -15% (can be canceled)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "造成傷害-15%（可解除）",
       "zh_cn": ""
     },
     {
       "no": 27353,
       "kr": "가하는 피해 -17.5% (해제 가능)",
-      "en": "",
+      "en": "Damage dealt -17.5% (can be canceled)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "造成傷害-17.5%（可解除）",
       "zh_cn": ""
     },
     {
       "no": 27354,
       "kr": "증폭된 생명의 룬",
-      "en": "",
+      "en": "Amplified Rune of Life",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "增幅的生命符文",
       "zh_cn": ""
     },
     {
       "no": 27355,
       "kr": "아이라가 전장에 있을 시 아군 전체의 물리 저항 증가",
-      "en": "",
+      "en": "All allies' Physical Resistance increases if Aira is on the battlefield",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "艾拉在戰場上時，所有友軍的物理抵抗增加",
       "zh_cn": ""
     },
     {
       "no": 27356,
       "kr": "다시 불어오는 돌풍",
-      "en": "",
+      "en": "Returning Gust",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "再次襲來的疾風",
       "zh_cn": ""
     },
     {
       "no": 27357,
       "kr": "지속 시간 만료 시 <거절의 돌풍>이 다시 발생한다.",
-      "en": "",
+      "en": "Activates \"Gust of Denial\" again upon expiration.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "持續時間結束後，再次發動＜拒絕疾風＞",
       "zh_cn": ""
     },
     {
       "no": 27358,
       "kr": "광기에 물든 야수",
-      "en": "",
+      "en": "MAD BEAST",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "發狂的野獸",
       "zh_cn": ""
     },
     {
       "no": 27359,
       "kr": " 감전에 취약",
-      "en": "",
+      "en": "Vulnerable to Shock",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "容易陷入觸電",
       "zh_cn": ""
     },
     {
       "no": 27360,
       "kr": "서리 응축",
-      "en": "",
+      "en": "Frost Concentration",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "凝聚寒霜",
       "zh_cn": ""
     },
     {
       "no": 27361,
       "kr": "가속 -20%",
-      "en": "",
+      "en": "Speed -20%",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "加速-20%",
       "zh_cn": ""
     },
     {
       "no": 27362,
       "kr": "전심전력",
-      "en": "",
+      "en": "Full-Force Strike",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "全心全意",
       "zh_cn": ""
     },
     {
       "no": 27363,
       "kr": "칼라르 소속 정령 공격력 <value>%, 가하는 피해량 <value>%",
-      "en": "",
+      "en": "ATK <value>% and damage dealt <value>% for all Chalar Souls",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "卡拉爾所屬精靈攻擊力<value>%、造成傷害量<value>%",
       "zh_cn": ""
     },
     {
       "no": 27364,
       "kr": "전심전력 - 대결전",
-      "en": "",
+      "en": "Full-Force Strike - Ultimate Clash",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "全心全意－大決戰",
       "zh_cn": ""
     },
     {
       "no": 27365,
       "kr": "칼라르 소속 정령 공격력 <value>%, 가하는 피해량 <value>%, 받는 최종 피해량 -20%",
-      "en": "",
+      "en": "ATK <value>%, damage dealt <value>%, and total damage received -20% for all Chalar Souls",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "卡拉爾所屬精靈攻擊力<value>%、造成傷害量<value>%、所受最終傷害量-20%",
       "zh_cn": ""
     },
     {
       "no": 27366,
       "kr": "칼라르 소속 정령 공격력 <value>%, 가하는 피해량 <value>%, 받는 최종 피해량 -25%",
-      "en": "",
+      "en": "ATK <value>%, damage dealt <value>%, and total damage received -25% for all Chalar Souls",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "卡拉爾所屬精靈攻擊力<value>%、造成傷害量<value>%、所受最終傷害量-25%",
       "zh_cn": ""
     },
     {
       "no": 27367,
       "kr": "칼라르 소속 정령 공격력 <value>%, 가하는 피해량 <value>%, 받는 최종 피해량 -30%",
-      "en": "",
+      "en": "ATK <value>%, damage dealt <value>%, and total damage received -30% for all Chalar Souls",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "卡拉爾所屬精靈攻擊力<value>%、造成傷害量<value>%、所受最終傷害量-30%",
       "zh_cn": ""
     },
     {
       "no": 27368,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27369,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27370,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27371,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27372,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27373,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27374,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27375,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27376,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27377,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27378,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27379,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27380,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27381,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27382,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27383,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27384,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27385,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27386,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27387,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27388,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27389,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27390,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27391,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27392,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27393,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27394,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27395,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27396,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27397,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27398,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27399,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27400,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27401,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27402,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27403,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27404,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27405,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27406,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27407,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27408,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27409,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27410,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27411,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27412,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27413,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27414,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27415,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
       "no": 27416,
       "kr": "Work in Progress",
-      "en": "",
+      "en": "Work in Progress",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Work in Progress",
       "zh_cn": ""
     },
     {
@@ -20939,65 +20939,65 @@
     {
       "no": 234151,
       "kr": "전심전력",
-      "en": "",
+      "en": "Full-Force Strike",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "全心全意",
       "zh_cn": ""
     },
     {
       "no": 234152,
       "kr": "자신을 포함한 모든 칼라르 소속 정령 <COLOR=#FFFFFF>(플린, 르네, 미리암, 칸나, 조앤)</COLOR> 의 공격력 및 가하는 피해량이 <415711.VALUE> 증가한다. 만약 전투 시작 시 <COLOR=#FFFFFF><우두머리></COLOR> 혹은 <COLOR=#FFFFFF><악령></COLOR>과 전투를 벌인다면 효과가 <COLOR=#FFFFFF>2</COLOR>배로 증가하고, 받는 최종 피해량이 <415719.VALUE> 감소한다.",
-      "en": "",
+      "en": "Increases the ATK and damage dealt of all Chalar Souls <COLOR=#FFFFFF>(Flynn, Renee, Miriam, Kanna, and Joanne)</COLOR> including herself by <415711.VALUE>. In battles against a <COLOR=#FFFFFF>\"Ringleader\"</COLOR> or an <COLOR=#FFFFFF>\"Evil Soul,\"</COLOR> the effect is <COLOR=#FFFFFF>doubled</COLOR> and also decreases total damage received by <415719.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "包含自身在內，所有卡拉爾所屬精靈<COLOR=#FFFFFF>（弗林、勒內、米里昂、坎納、瓊）</COLOR>的攻擊力與造成傷害量增加<415711.VALUE>。若戰鬥開始後與<COLOR=#FFFFFF>＜首領＞</COLOR>或<COLOR=#FFFFFF>＜惡靈＞</COLOR>開戰，效果增加為<COLOR=#FFFFFF>2</COLOR>倍，所受最終傷害量減少<415719.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 234153,
       "kr": "증가하는 공격력 및 가하는 피해량이 <415721.VALUE>로 변경된다.",
-      "en": "",
+      "en": "The ATK and damage dealt increase changes to <415721.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為攻擊力和造成傷害量增加<415721.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 234154,
       "kr": "증가하는 공격력 및 가하는 피해량이 <415731.VALUE>로 변경된다.",
-      "en": "",
+      "en": "The ATK and damage dealt increase changes to <415731.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為攻擊力和造成傷害量增加<415731.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 234155,
       "kr": "증가하는 공격력 및 가하는 피해량이 <415741.VALUE>로 변경된다. <COLOR=#FFFFFF><우두머리></COLOR> 혹은 <COLOR=#FFFFFF><악령></COLOR>과 전투시 받는 최종 피해 감소량이 <415749.VALUE>로 변경된다.",
-      "en": "",
+      "en": "The ATK and damage dealt increase changes to <415741.VALUE>. The total damage received decrease in battles against a <COLOR=#FFFFFF>\"Ringleader\"</COLOR> or an <COLOR=#FFFFFF>\"Evil Soul\"</COLOR> changes to <415749.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為攻擊力和造成傷害量增加<415741.VALUE>。與<COLOR=#FFFFFF>＜首領＞</COLOR>或<COLOR=#FFFFFF>＜惡靈＞</COLOR>戰鬥時，所受最終傷害變更為減少<415749.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 234156,
       "kr": "증가하는 공격력 및 가하는 피해량이 <415751.VALUE>로 변경된다.",
-      "en": "",
+      "en": "The ATK and damage dealt increase changes to <415751.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為攻擊力和造成傷害量增加<415751.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 234157,
       "kr": "증가하는 공격력 및 가하는 피해량이 <415761.VALUE>로 변경된다.",
-      "en": "",
+      "en": "The ATK and damage dealt increase changes to <415761.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為攻擊力和造成傷害量增加<415761.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 234158,
       "kr": "증가하는 공격력 및 가하는 피해량이 <415771.VALUE>로 변경된다. <COLOR=#FFFFFF><우두머리></COLOR> 혹은 <COLOR=#FFFFFF><악령></COLOR>과 전투시 받는 최종 피해 감소량이 <415779.VALUE>로 변경된다.",
-      "en": "",
+      "en": "The ATK and damage dealt increase changes to <415771.VALUE>. The total damage received decrease in battles against a <COLOR=#FFFFFF>\"Ringleader\"</COLOR> or an <COLOR=#FFFFFF>\"Evil Soul\"</COLOR> changes to <415779.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為攻擊力和造成傷害量增加<415771.VALUE>。與<COLOR=#FFFFFF>＜首領＞</COLOR>或<COLOR=#FFFFFF>＜惡靈＞</COLOR>戰鬥時，所受最終傷害變更為減少<415779.VALUE>",
       "zh_cn": ""
     },
     {
@@ -21747,9 +21747,9 @@
     {
       "no": 236532,
       "kr": "<COLOR=#FFFFFF><이데아 레벨></COLOR>이 상승할 때 마다 자신의 체력 및 마나를 <653613.VALUE> 회복한다. \r\n추가로 전투 시작 시 자신의 마나를 <653610.VALUE> 회복하고, <COLOR=#FFFFFF><이데아 레벨:Ⅱ></COLOR> 발동 시 전장에 있는 동안 모든 아군의 공격력을 <653712.VALUE> 증가시키며, <COLOR=#FFFFFF><이데아 레벨:Ⅲ></COLOR> 발동 시 전장에 있는 동안 모든 적의 받는 최종 피해량을 <653714.VALUE> 증가시킨다.",
-      "en": "",
+      "en": "Recovers HP and Mana by <653613.VALUE> each time <COLOR=#FFFFFF>\"Idea Level\"</COLOR> goes up.\r\nAlso recovers <653610.VALUE> Mana when battle begins. Increases all allies' ATK by <653712.VALUE> when <COLOR=#FFFFFF>Idea Level II\"</COLOR> is triggered. Increases all enemies' total damage received by <653714.VALUE> when <COLOR=#FFFFFF>\"Idea Level III\"</COLOR> is triggered.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "每當<COLOR=#FFFFFF>＜理念等級＞</COLOR>提升時，恢復自身體力與魔力<653613.VALUE>。\r\n額外在戰鬥開始後恢復自身魔力<653610.VALUE>，額外發動<COLOR=#FFFFFF>＜理念等級：Ⅱ＞</COLOR>時，在戰場上的期間使所有友軍攻擊力增加<653712.VALUE>，發動<COLOR=#FFFFFF>＜理念等級：Ⅲ＞</COLOR>時，在戰場上的期間使所有敵人所受最終傷害量增加<653714.VALUE>",
       "zh_cn": ""
     },
     {
@@ -21771,9 +21771,9 @@
     {
       "no": 236535,
       "kr": "<COLOR=#FFFFFF><이데아 레벨></COLOR>이 상승할 때 회복량이 <653643.VALUE>로 변경된다. <COLOR=#FFFFFF><이데아 레벨:Ⅱ></COLOR>발동 시 증가하는 공격력이 <653742.VALUE>로 변경되며, <COLOR=#FFFFFF><이데아 레벨:Ⅲ></COLOR> 발동 시 적의 받는 최종 피해 증가량이 <653744.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Recovery amount from <COLOR=#FFFFFF>\"Idea Level\"</COLOR> increase changes to <653643.VALUE>. The ATK increase from <COLOR=#FFFFFF>\"Idea Level II\"</COLOR> triggering changes to <653742.VALUE>. The enemies' total damage received increase from <COLOR=#FFFFFF>\"Idea Level III\"</COLOR> triggering changes to <653744.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "<COLOR=#FFFFFF>＜理念等級＞</COLOR>提升時，恢復量變更為<653643.VALUE>。發動<COLOR=#FFFFFF>＜理念等級：Ⅱ＞</COLOR>時，變更為攻擊力增加<653742.VALUE>，發動<COLOR=#FFFFFF>＜理念等級：Ⅲ＞</COLOR>時，敵人所受最終傷害增加量變更為<653744.VALUE>",
       "zh_cn": ""
     },
     {
@@ -21795,9 +21795,9 @@
     {
       "no": 236538,
       "kr": "<COLOR=#FFFFFF><이데아 레벨></COLOR>이 상승할 때 회복량이 <653673.VALUE>로 변경된다. <COLOR=#FFFFFF><이데아 레벨:Ⅲ></COLOR> 발동 시 발동 시 적의 받는 최종 피해 증가량이 <653772.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Recovery amount from <COLOR=#FFFFFF>\"Idea Level\"</COLOR> increase changes to <653673.VALUE>. The enemies' total damage received increase from <COLOR=#FFFFFF>\"Idea Level III\"</COLOR> triggering changes to <653772.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "<COLOR=#FFFFFF>＜理念等級＞</COLOR>提升時，恢復量變更為<653673.VALUE>。發動<COLOR=#FFFFFF>＜理念等級：Ⅲ＞</COLOR>時，敵人所受最終傷害增加量變更為<653772.VALUE>",
       "zh_cn": ""
     },
     {
@@ -24987,49 +24987,49 @@
     {
       "no": 344151,
       "kr": "기체 군단 총공격",
-      "en": "",
+      "en": "Full-Scale Unit Assault",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "機體軍團總攻擊",
       "zh_cn": ""
     },
     {
       "no": 344152,
       "kr": "선제 타격 드론 - 아인즈 & 쯔바이",
-      "en": "",
+      "en": "Assault Drones - Eins & Zwei",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "先發制人無人機－Eins&Zwei",
       "zh_cn": ""
     },
     {
       "no": 344153,
       "kr": "정밀 포격 전차 - 드라이",
-      "en": "",
+      "en": "Precision Artillery Tank - Drei",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "精密砲擊坦克－Drei",
       "zh_cn": ""
     },
     {
       "no": 344154,
       "kr": "위대한 과학의 힘",
-      "en": "",
+      "en": "Great Might of Science",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "偉大科學之力",
       "zh_cn": ""
     },
     {
       "no": 344155,
       "kr": "비장의 한발",
-      "en": "",
+      "en": "Decisive Shot",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "終極一發",
       "zh_cn": ""
     },
     {
       "no": 344159,
       "kr": "무한 포격 지원",
-      "en": "",
+      "en": "Infinite Artillery Support",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "無限砲擊支援",
       "zh_cn": ""
     },
     {
@@ -26203,9 +26203,9 @@
     {
       "no": 349048,
       "kr": "인간이 되고 싶은 영물",
-      "en": "",
+      "en": "Creature Aspiring to Become Human",
       "ja": "人間になりたい霊獣",
-      "zh_tw": "",
+      "zh_tw": "想成為人類的靈物",
       "zh_cn": ""
     },
     {
@@ -26531,9 +26531,17 @@
     {
       "no": 349504,
       "kr": "인간의 기운",
-      "en": "",
+      "en": "Human Energy",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "人類的氣息",
+      "zh_cn": ""
+    },
+    {
+      "no": 349505,
+      "kr": "무한한 격노",
+      "en": "Infinite Rage",
+      "ja": "",
+      "zh_tw": "無限暴怒",
       "zh_cn": ""
     },
     {
@@ -29298,7 +29306,7 @@
     },
     {
       "no": 354052,
-      "kr": "브라이스가 가장 가까운 적에게 다가가 주변 3m의 적에게 공격력 <405211.VALUE>의 피해를 입히고 자신에게 끌어당긴다.\r\n\r\n브라이스의 모드에 따라 효과가 변경된다.\r\n\r\n<COLOR=#00B700><솔로 포트리스></COLOR> - 끌어온 적을 <405214.DURATION>초 동안 도발하고 자신에게 <405213.DURATION>초 동안 자신의 체력 <405213.VALUE>의 보호막을 생성한다.\r\n\r\n<COLOR=#E0942C><트윈 익스큐셔너></COLOR> : 피해량이 1.5배로 증가한다.",
+      "kr": "브라이스가 가장 가까운 적에게 다가가 주변 3m의 적에게 공격력 <405211.VALUE>의 피해를 입히고 자신에게 끌어당긴다.\r\n\r\n브라이스의 모드에 따라 효과가 변경된다.\r\n\r\n<COLOR=#00B700><솔로 포트리스></COLOR> - 끌어온 적을 <405214.DURATION>초 동안 도발하고 자신에게 <405213.DURATION>초 동안 자신의 체력 <405213.VALUE>의 보호막을 생성한다.\r\n\r\n<COLOR=#E0942C><트윈 익스큐셔너></COLOR> - 피해량이 1.5배로 증가한다.",
       "en": "Bryce approaches the nearest enemy, deals <405211.VALUE> ATK damage to enemies within 3m, and pull them to her.\r\n\r\nThe skill effect changes depending on Bryce's mode.\r\n\r\n<COLOR=#00B700>\"Solo Fortress\"</COLOR> - Taunts the pulled enemies for <405214.DURATION> seconds and creates a shield with <405213.VALUE>  of her HP for <405213.DURATION> seconds.\r\n\r\n<COLOR=#E0942C>\"Twin Executioners\"</COLOR> - Increases damage by x1.5.",
       "ja": "ブライスが一番近い敵に接近し、周辺3mの敵に攻撃力の<405211.VALUE>のダメージを与える。\r\n\r\nブライスのモードによって効果が変わる。\r\n\r\n<COLOR=#00B700><ソロフォートレス></COLOR>：攻撃を受けた敵全員を自分のところに引き寄せて<405214.DURATION>秒間挑発した後、自分に<405213.DURATION>秒間自分の体力の<405213.VALUE>のバリアを生成する。\r\n\r\n<COLOR=#E0942C><ツインエクスキューショナー></COLOR>：ダメージ量が1.5倍に増加する。",
       "zh_tw": "布萊斯靠近最接近的敵人，對周遭3m的敵人造成攻擊力<405211.VALUE>的傷害，並將其拖向自身。\r\r\n\r\r\n效果會隨布萊斯的模式變動。\r\r\n\r\r\n<COLOR=#00B700>＜獨行要塞＞</COLOR>－將所有敵人拖向自身，對其挑釁<405214.DURATION>秒，並在<405213.DURATION>秒內生成自身體力<405213.VALUE>的防護罩。\r\r\n\r\r\n<COLOR=#E0942C>＜雙子劊子手＞</COLOR>－傷害量增為1.5倍",
@@ -29771,49 +29779,49 @@
     {
       "no": 354151,
       "kr": "바이스가 자신의 기체군단을 조작하여 가장 적을 많이 타격 할 수 있는 범위를 중심으로 잡아 공격력 <415111.VALUE>의 피해를 입히고 <415112.DURATION>초 동안 2초마다 공격력 <415112.VALUE>의 피해를 입히는 <COLOR=#FFFFFF><냉기></COLOR> 상태로 만든다. 만약 대상이 <COLOR=#FFFFFF><냉기></COLOR> 상태라면 <415318.DURATION>초 동안 가속을 <415319.VALUE> 감소시키는 <COLOR=#FFFFFF><서리 응축></COLOR> 상태를 부여한다.",
-      "en": "",
+      "en": "Weiss directs her units to concentrate their assault on the area with the most enemies, dealing damage equal to <415111.VALUE> of ATK and inflicting <COLOR=#FFFFFF>\"Freeze\"</COLOR> on them for <415112.DURATION> sec, which deals DoT equal to <415112.VALUE> of ATK every 2 sec. Also inflicts <COLOR=#FFFFFF>\"Frost Concentration\"</COLOR> on targets already inflicted with <COLOR=#FFFFFF>\"Freeze,\"</COLOR> decreasing their Speed by <415319.VALUE> for <415318.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "拜斯操縱著自己的機體軍團，以能打擊最多敵人的範圍為中心，造成攻擊力<415111.VALUE>的傷害，使其陷入<COLOR=#FFFFFF>＜寒氣＞</COLOR>狀態<415112.DURATION>秒，每2秒造成攻擊力<415112.VALUE>的傷害。若目標處於<COLOR=#FFFFFF>＜寒氣＞</COLOR>狀態，賦予<COLOR=#FFFFFF>＜凝聚寒霜＞</COLOR>狀態<415318.DURATION>秒，使加速減少<415319.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 354152,
-      "kr": "바이스가 가장 전방에 있는 적을 겨냥해 드론을 조종하여 <COLOR=#FFFFFF>기총 사격</COLOR> 혹은 <COLOR=#FFFFFF>미사일 발포</COLOR>를 시행한다.\r\n\r\n<COLOR=#FFFFFF>기총 사격</COLOR> - 작지만 강력한 한발을 발사하여 공격력 <415011.VALUE>의 피해를 입힌다. 대상이 만약 <COLOR=#FFFFFF><서리 응축></COLOR> 상태라면 해당 공격이 <COLOR=#FFFFFF>1.5</COLOR>배의 피해를 입히고, 적을 뒤로 밀어내며 <415012.DURATION>초 동안 기절 상태로 만든다.\r\n\r\n<COLOR=#FFFFFF>미사일 발포</COLOR> - 급속 냉각 미사일을 발포하여 대상 및 주변 2.5m에 공격력 <415211.VALUE>의 피해를 입히고 <415212.DURATION>초 동안 2초마다 공격력 <415212.VALUE>의 피해를 입히는 <냉기> 상태로 만든다. 만약 피해 대상이 <COLOR=#FFFFFF><냉기></COLOR> 상태라면 <415318.DURATION>초 동안 가속을 <415319.VALUE> 감소시키는 <COLOR=#FFFFFF><서리 응축></COLOR> 상태를 부여한다.",
-      "en": "",
+      "kr": "바이스가 가장 가까이에 있는 적을 겨냥해 드론을 조종하여 <COLOR=#FFFFFF>기총 사격</COLOR> 혹은 <COLOR=#FFFFFF>미사일 발포</COLOR>를 시행한다.\r\n\r\n<COLOR=#FFFFFF>기총 사격</COLOR> - 작지만 강력한 한발을 발사하여 공격력 <415011.VALUE>의 피해를 입힌다. 대상이 만약 <COLOR=#FFFFFF><서리 응축></COLOR> 상태라면 해당 공격이 <COLOR=#FFFFFF>1.5</COLOR>배의 피해를 입히고, <415012.DURATION>초 동안 기절 상태로 만든다.\r\n\r\n<COLOR=#FFFFFF>미사일 발포</COLOR> - 급속 냉각 미사일을 발포하여 대상 및 주변 2.5m에 공격력 <415211.VALUE>의 피해를 입히고 <415212.DURATION>초 동안 2초마다 공격력 <415212.VALUE>의 피해를 입히는 <냉기> 상태로 만든다. 만약 피해 대상이 <COLOR=#FFFFFF><냉기></COLOR> 상태라면 <415318.DURATION>초 동안 가속을 <415319.VALUE> 감소시키는 <COLOR=#FFFFFF><서리 응축></COLOR> 상태를 부여한다.",
+      "en": "Weiss directs her units to target the frontmost enemy to unleash <COLOR=#FFFFFF>Machine Gun Fire</COLOR> or <COLOR=#FFFFFF>Missile Launch</COLOR>.\r\n\r\n<COLOR=#FFFFFF>Machine Gun Fire</COLOR> - Fires a single but powerful shot, dealing damage equal to <415011.VALUE> of ATK. If the target is inflicted with <COLOR=#FFFFFF>\"Frost Concentration,\"</COLOR> the damage is multiplied by <COLOR=#FFFFFF>1.5</COLOR> and the attack stuns the target for <415012.DURATION> sec.\r\n\r\n<COLOR=#FFFFFF>Missile Launch</COLOR> - Launches a Flash Freeze Missile, dealing damage equal to <415211.VALUE> of ATK to the target and those within 2.5m of the target and inflicting them with \"Freeze\" for <415212.DURATION> sec, which deals DoT equal to <415212.VALUE> of ATK every 2 sec. Also inflicts <COLOR=#FFFFFF>\"Frost Concentration\"</COLOR> on targets already inflicted with <COLOR=#FFFFFF>\"Freeze,\"</COLOR> decreasing their Speed by <415319.VALUE> for <415318.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "拜斯瞄準在最前方的敵人，操縱無人機發動<COLOR=#FFFFFF>機槍射擊</COLOR>或<COLOR=#FFFFFF>發射導彈</COLOR>。\r\n\r\n<COLOR=#FFFFFF>機槍射擊</COLOR>－發射小而有力的一發子彈，造成攻擊力<415011.VALUE>的傷害。若目標處於<COLOR=#FFFFFF>＜凝聚寒霜＞</COLOR>狀態，該攻擊造成<COLOR=#FFFFFF>1.5</COLOR>倍傷害，使其陷入暈眩狀態<415012.DURATION>秒。\r\n\r\n<COLOR=#FFFFFF>發射導彈</COLOR>－發射急速冷卻導彈，使目標及其周遭2.5m陷入＜寒氣＞狀態，造成攻擊力<415211.VALUE>的傷害，<415212.DURATION>秒內每2秒造成攻擊力<415212.VALUE>的傷害。若受擊目標處於<COLOR=#FFFFFF>＜寒氣＞</COLOR>狀態，賦予<COLOR=#FFFFFF>＜凝聚寒霜＞</COLOR>狀態<415318.DURATION>秒，使加速減少<415319.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 354153,
-      "kr": "바이스가 가장 멀리에 있는 적을 목표로 삼고 미사일을 투하하여 대상 및 주변 3m에 공격력 <415311.VALUE>의 피해를 입히고, 만약 피해 대상이  <COLOR=#FFFFFF><냉기></COLOR> 상태라면 <415318.DURATION>초 동안 가속을 <415319.VALUE> 감소시키는 <COLOR=#FFFFFF><서리 응축></COLOR> 상태를 부여한다.",
-      "en": "",
+      "kr": "바이스가 가장 먼 적을 목표로 삼고 미사일을 투하하여 대상 및 주변 3m에 공격력 <415311.VALUE>의 피해를 입히고, 주 대상 주변 3m에 아무도 없다면 추가로 공격력 <415312.VALUE>의 피해를 입힌다. 만약 피해 대상이 <COLOR=#FFFFFF><냉기></COLOR> 상태라면 <415318.DURATION>초 동안 가속을 <415319.VALUE> 감소시키는 <COLOR=#FFFFFF><서리 응축></COLOR> 상태를 부여한다.",
+      "en": "Weiss launches a missile toward the farthest enemy, dealing damage equal to <415311.VALUE> of ATK to the target and those within 3m of the target. If there are no other enemies within 3m of the main target, deals additional damage equal to <415312.VALUE> of ATK. Also inflicts <COLOR=#FFFFFF>\"Frost Concentration\"</COLOR> on affected targets inflicted with <COLOR=#FFFFFF>\"Freeze,\"</COLOR> decreasing their Speed by <415319.VALUE> for <415318.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "拜斯以最遙遠的敵人為目標投擲導彈，對目標及周遭3m造成攻擊力<415311.VALUE>的傷害，若主要目標周遭3m沒有任何人，額外造成攻擊力<415312.VALUE>的傷害。若受擊目標處於<COLOR=#FFFFFF>＜寒氣＞</COLOR>狀態，賦予<415318.DURATION>秒<COLOR=#FFFFFF>＜凝聚寒霜＞</COLOR>狀態，使加速減少<415319.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 354154,
-      "kr": "바이스의 모든 드론 및 전차의 공격은 일반적으로 치명타가 발생하지 않는 대신 기본적인 피해량이 높으며 방어력과 마법 저항력을 30% 무시한다.",
-      "en": "",
+      "kr": "바이스의 모든 드론 및 전차의 공격은 일반적으로 치명타가 발생하지 않지만 방어력과 마법 저항을 <color=#EDA900>30%</color> 무시하고, 서브 스킬이 <415456.VALUE>의 마나를 추가로 회복한다.",
+      "en": "All attacks by Weiss's drones and tanks normally don't land as critical hits but ignore <color=#EDA900>30%</color> of the target's DEF and Magic Resistance. Sub skills also restore <415456.VALUE> Mana.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "拜斯的所有無人機與坦克攻擊通常不會觸發暴擊，但會無視防禦力和魔法抵抗力<color=#EDA900>30%</color>，輔助技能額外恢復<415456.VALUE>的魔力",
       "zh_cn": ""
     },
     {
       "no": 354155,
       "kr": "바이스가 자신의 전차에 탑재한 비장의 마신포를 발포하여 가장 적을 많이 맞출 수 있는 범위를 중심으로 4.5m의 범위에 공격력 <415511.VALUE>의 피해를 입힌다. 해당 공격을 맞은 적은 모두 넘어지고,  만약 대상이 <COLOR=#FFFFFF><서리 응축></COLOR> 상태라면 피해량이 <COLOR=#FFFFFF>1.5</COLOR>배로 증가한다.",
-      "en": "",
+      "en": "Weiss fires the ultimate Demon Cannon from her tank, targeting the area with the most enemies within a 4.5m radius and dealing damage equal to <415511.VALUE> of ATK. All hit targets are knocked down. The damage is multiplied by <COLOR=#FFFFFF>1.5</COLOR> against any targets inflicted with <COLOR=#FFFFFF>\"Frost Concentration.\"</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "拜斯發射自身坦克搭載的終極魔神砲，以能瞄準最多敵人的範圍為中心，在4.5m的範圍造成攻擊力<415511.VALUE>。受到該攻擊的敵人全數倒下，若目標處於<COLOR=#FFFFFF>＜凝聚寒霜＞</COLOR>狀態，傷害量增為<COLOR=#FFFFFF>1.5</COLOR>倍",
       "zh_cn": ""
     },
     {
       "no": 354159,
       "kr": "리더 정령이 전장에 있는 동안 아군 중 누구라도 메인 스킬을 사용 시 드론이 모든 적을 공격하여 공격력 <415915.VALUE>의 피해를 입히고, 얼티밋 스킬을 사용할 시 모든 적을 포격하여 공격력 <415916.VALUE>의 피해를 입힌다. 해당 피해는 방어력을 무시하지만 치명타가 발생하지 않는다.",
-      "en": "",
+      "en": "While the lead Soul is on the battlefield, any ally's main skill use triggers a drone strike against all enemies, dealing damage equal to <415915.VALUE> of ATK, and any ultimate skill use triggers a bombardment on all enemies, dealing damage equal to <415916.VALUE> of ATK. This damage ignores DEF but never lands as a critical hit.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "隊長精靈在戰場上時，若友軍中有人使用主要技能，無人機將攻擊所有敵人，造成攻擊力<415915.VALUE>的傷害。使用終極技能時，對所有敵人發動砲擊，造成攻擊力<415916.VALUE>的傷害。該傷害將無視防禦力，但不會觸發暴擊",
       "zh_cn": ""
     },
     {
@@ -30219,25 +30227,25 @@
     {
       "no": 356522,
       "kr": "가장 가까운 적을 검으로 타격한 뒤 죽음의 기운을 방출해 공격력 <652211.VALUE>의 피해를 입히고 적을 <652213.DURATION>초 동안 기절 상태로 만든 뒤 밀어낸다.\r\n그 후 <652214.DURATION>초 뒤 해당 대상에게 응축시킨 기운을 폭발시켜 대상 및 주변 3m의 모든 적에게 <652212.VALUE>의 피해를 입히고 <652213.DURATION>초 동안 기절 상태로 만든다.",
-      "en": "",
+      "en": "Strikes the nearest enemy with the sword, unleashing a deathly energy to deal damage equal to <652211.VALUE> of ATK and stun them for <652213.DURATION> sec before pushing them back.\r\nAfter a <652214.DURATION> sec delay, the concentrated energy detonates, dealing damage equal to <652212.VALUE> of ATK to the target and enemies within 3m of the target and stunning them for <652213.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "使用劍打擊最接近的敵人後，發射死亡氣息，造成攻擊力<652211.VALUE>的傷害，使敵人陷入暈眩<652213.DURATION>秒後將其推開。\r\n<652214.DURATION>秒後，對該目標爆破凝聚的氣息，對目標與其周遭3m所有敵人造成<652212.VALUE>的傷害，並使其暈眩<652213.DURATION>秒",
       "zh_cn": ""
     },
     {
       "no": 356523,
       "kr": "가장 가까운 적의 근처에서 공간마저 베어버릴 연격으로 자신 주변 3.5m의 적들에게 공격력 <652311.VALUE>의 피해를 입히며 자신의 근처로 끌어모은 뒤 죽음의 영역을 생성한다.\r\n\r\n죽음의 영역은 <COLOR=#FFFFFF>8</COLOR>초 동안 지속되며 자신이 영역 내에 있을 경우 영역 생성 순간부터 <COLOR=#FFFFFF>3</COLOR>초 동안 지속되는 <COLOR=#FFFFFF><불사></COLOR> 버프를 매 2초마다 부여하고, 자신의 체력을 최대 체력의 <652313.VALUE> 만큼 회복하며, 영역 내 적들에게는 공격력 <652315.VALUE>의 피해를 입힌다.",
-      "en": "",
+      "en": "Unleashes a flurry of strikes powerful enough to slice through space itself around the nearest enemy, dealing damage equal to <652311.VALUE> of ATK to enemies within a 3.5m radius and pulling all enemies toward herself while creating a zone of death and knocking them up.\r\n\r\nThe zone of death lasts for <COLOR=#FFFFFF>8</COLOR> sec, and as long as she remains within the zone, from the moment of its creation, it grants her the <COLOR=#FFFFFF>\"Invincible\"</COLOR> buff that lasts for <COLOR=#FFFFFF>3</COLOR> sec every 2 sec, restores her HP by <652313.VALUE> of max HP, and deals damage equal to <652315.VALUE> of ATK to enemies in the zone.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "在最接近的敵人附近施展連空間都會被砍擊的連擊，對自身周遭3.5m的敵人造成攻擊力<652311.VALUE>的傷害，並使其聚集到自身附近，生成死亡領域。\r\n\r\n死亡領域將持續<COLOR=#FFFFFF>8</COLOR>秒，若自身在領域內，領域產生瞬間起<COLOR=#FFFFFF>3</COLOR>秒內，每2秒持續賦予<COLOR=#FFFFFF>＜不死＞</COLOR>增益效果，並恢復自身體力上限的<652313.VALUE>，對領域內的敵人造成攻擊力<652315.VALUE>的傷害",
       "zh_cn": ""
     },
     {
       "no": 356524,
       "kr": "일반 공격이 자신이 바라보는 방향 270도 내의 적을 모두 공격하며 공격력 <652001.VALUE>의 피해를 입히고, 자신의 가속을 <652006.VALUE>, 치명타 확률을 <652003.VALUE> 증가시키며, 받는 최종 피해량을 <652004.VALUE> 감소시키는 <COLOR=#FFFFFF><엑스타시스></COLOR> 버프를 획득한다. (최대 10중첩)",
-      "en": "",
+      "en": "Her normal attack hits all enemies within a 270-degree arc of her field of view, dealing damage equal to <652001.VALUE> of ATK and granting her a stack of the <COLOR=#FFFFFF>\"Ekstasis\"</COLOR> buff, which increases her Speed by <652006.VALUE> and Crit Rate by <652003.VALUE> and decreases her total damage received by <652004.VALUE> (up to 10 stacks).",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "一般攻擊會攻擊自身注視方向270度內的所有敵人，造成攻擊力<652001.VALUE>的傷害，獲得增益效果<COLOR=#FFFFFF>＜脫離自我＞</COLOR>，使自身加速增加<652006.VALUE>，暴擊率增加<652003.VALUE>，所受最終傷害量減少<652004.VALUE>（最多10疊加）",
       "zh_cn": ""
     },
     {
@@ -30259,9 +30267,9 @@
     {
       "no": 356531,
       "kr": "응축시킨 방주의 힘을 이용해 공격력이 가장 높은 적을 대상으로 돌파하여 공격력 <653111.VALUE>의 피해를 입히고 <653112.DURATION>초 동안 기절 상태로 만든다.",
-      "en": "",
+      "en": "Channels the condensed power of the ark to pierce through the enemy with the highest ATK, dealing damage equal to <653111.VALUE> of ATK and stunning them for <653112.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "利用凝聚的方舟力量，以攻擊力最高的敵人為目標突破，造成攻擊力<653111.VALUE>的傷害，並使其陷入<653112.DURATION>秒暈眩",
       "zh_cn": ""
     },
     {
@@ -30269,15 +30277,15 @@
       "kr": "날개를 이용해 가장 가까운 적을 베어내어 공격력 <653211.VALUE>의 피해를 입히고, 자신에게 일반 공격 피해량을 <653212.VALUE> 증가시키고, 가속을 <653213.VALUE> 증가시키는 <COLOR=#FFFFFF><엑셀러레이트></COLOR> 버프를 부여한다. (최대 3중첩) 해당 버프가 3중첩이 되면 일반 공격이 공격력 <653014.VALUE>의 추가 피해를 입히고, 매 일반 공격 시 <653012.DURATION>초 동안 대상의 방어력 및 물리/마법 저항을 <653012.VALUE> 감소시키는 <COLOR=#FFFFFF><균형 붕괴></COLOR> 디버프를 부여한다.",
       "en": "Slashes the nearest enemy with her wing to deal damage equal to <653211.VALUE> of ATK while granting the <COLOR=#FFFFFF>\"Accelerate\"</COLOR> buff to herself, increasing normal attack damage by <653212.VALUE> and Speed by <653213.VALUE> (stacks up to 3 times). When this buff reaches 3 stacks, her normal attack deals additional damage equal to <653014.VALUE> of ATK and inflicts a stack of the <COLOR=#FFFFFF>\"Balance Break\"</COLOR> debuff on the target, decreasing their DEF and Physical/Magic Resistance by <653012.VALUE> for <653012.DURATION> sec.",
       "ja": "",
-      "zh_tw": "使用翅膀砍擊最接近的敵人，造成攻擊力<653211.VALUE>的傷害，賦予自身增益效果<COLOR=#FFFFFF>＜加速裝置＞</COLOR>，使一般攻擊傷害量增加<653212.VALUE>、加速增加<653213.VALUE>。（最多3疊加）若該增益達3疊加，一般攻擊造成攻擊力<653014.VALUE>的額外傷害，並賦予減益效果<COLOR=#FFFFFF>＜平衡崩潰＞</COLOR>，每次一般攻擊時，在<653012.DURATION>秒內使目標防禦力與物理／魔法抵抗減少<653012.VALUE>。",
+      "zh_tw": "使用翅膀砍擊最接近的敵人，造成攻擊力<653211.VALUE>的傷害，賦予自身增益效果<COLOR=#FFFFFF>＜加速裝置＞</COLOR>，使一般攻擊傷害量增加<653212.VALUE>、加速增加<653213.VALUE>。（最多3疊加）若該增益達3疊加，一般攻擊造成攻擊力<653014.VALUE>的額外傷害，並賦予減益效果<COLOR=#FFFFFF>＜平衡崩潰＞</COLOR>，每次一般攻擊時在<653012.DURATION>秒內使目標防禦力與物理／魔法抵抗減少<653012.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 356533,
       "kr": "날개를 모아 가장 가까운 적을 단번에 찔러 공격력 <653311.VALUE>의 피해를 입히고, <653312.DURATION>초 동안 자신의 최대 체력 <653312.VALUE>의 보호막을 생성한다. 해당 보호막이 유지되는 동안 물리/마법 저항이 <653313.VALUE> 증가하고, 군중 제어 효과에 면역이 된다.",
-      "en": "",
+      "en": "Folds her wing to deliver a single, piercing strike to the nearest enemy, dealing damage equal to <653311.VALUE> of ATK and gaining a shield equal to <653312.VALUE> of max HP for <653312.DURATION> sec. Her Physical/Magic Resistance is increased by <653313.VALUE> and she becomes immune to crowd control effects while the shield is active.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "收攏翅膀，一次刺向最接近的敵人，造成攻擊力<653311.VALUE>的傷害，並在<653312.DURATION>秒內生成自身體力上限<653312.VALUE>的防護罩。該防護罩持續期間，物理／魔法抵抗增加<653313.VALUE>，並對集體控制效果免疫",
       "zh_cn": ""
     },
     {
@@ -30979,9 +30987,9 @@
     {
       "no": 359048,
       "kr": "받는 최종 피해가 60% 감소하고, 인간형으로 취급된다.",
-      "en": "",
+      "en": "The Unicat is considered Humanlike type and its total damage received is decreased by 60%.",
       "ja": "受ける最終ダメージが60%減少し、人間型として扱われる。",
-      "zh_tw": "",
+      "zh_tw": "所受最終傷害減少60%並被視為人類型",
       "zh_cn": ""
     },
     {
@@ -31043,9 +31051,9 @@
     {
       "no": 359058,
       "kr": "12초마다 자신에게 걸린 해제 가능한 모든 디버프를 해제한다.",
-      "en": "Cancels all cancellable debuffs from itself every 2 sec.",
+      "en": "Cancels all cancellable debuffs from itself every 12 sec.",
       "ja": "",
-      "zh_tw": "每2秒解除自身所有可解除的減益效果",
+      "zh_tw": "每12秒解除自身所有可解除的減益效果",
       "zh_cn": ""
     },
     {
@@ -31307,9 +31315,17 @@
     {
       "no": 359504,
       "kr": "보스를 인간형으로 취급한다.",
-      "en": "",
+      "en": "The boss is considered Humanlike type.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "BOSS被視為人類型",
+      "zh_cn": ""
+    },
+    {
+      "no": 359505,
+      "kr": "보스의 체력이 1줄 감소할 때 마다 보스의 공격력 5% 증가",
+      "en": "Boss's ATK +5% for every HP bar loss",
+      "ja": "",
+      "zh_tw": "每當BOSS體力減少1條，BOSS攻擊力增加5%",
       "zh_cn": ""
     },
     {
@@ -34467,49 +34483,49 @@
     {
       "no": 364151,
       "kr": "피해량이 <415121.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <415121.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<415121.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 364152,
       "kr": "기총 사격의 피해량이 <415021.VALUE>, 미사일 발포의 피해량이 <415221.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Machine Gun Fire damage changes to <415021.VALUE>, and Missile Launch damage changes to <415221.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "機槍射擊變更為造成<415021.VALUE>的傷害、發射導彈變更為造成<415221.VALUE>的傷害",
       "zh_cn": ""
     },
     {
       "no": 364153,
       "kr": "피해량이 <415321.VALUE>, 추가 피해량이 <415322.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <415321.VALUE>, additional damage changes to <415322.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<415321.VALUE>的傷害量、造成<415322.VALUE>的額外傷害",
       "zh_cn": ""
     },
     {
       "no": 364154,
-      "kr": "방어력, 마법 저항력 무시율이 40%로 변경된다.",
-      "en": "",
+      "kr": "방어력, 마법 저항 무시율이 <color=#EDA900>40%</color>로 변경된다.",
+      "en": "DEF and Magic Resistance ignore rate changes to <color=#EDA900>40%</color>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "防禦力、魔法抵抗力無視率變更為<color=#EDA900>40%</color>",
       "zh_cn": ""
     },
     {
       "no": 364155,
       "kr": "피해량이 <415521.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <415521.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<415521.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 364159,
       "kr": "리더 정령이 전장에 있는 동안 아군 중 누구라도 메인 스킬을 사용 시 드론이 모든 적을 공격하여 공격력 <415925.VALUE>의 피해를 입히고, 얼티밋 스킬을 사용할 시 모든 적을 포격하여 공격력 <415926.VALUE>의 피해를 입힌다. 해당 피해는 방어력을 무시하지만 치명타가 발생하지 않는다.",
-      "en": "",
+      "en": "While the lead Soul is on the battlefield, any ally's main skill use triggers a drone strike against all enemies, dealing damage equal to <415925.VALUE> of ATK, and any ultimate skill use triggers a bombardment on all enemies, dealing damage equal to <415926.VALUE> of ATK. This damage ignores DEF but never lands as a critical hit.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "隊長精靈在戰場上時，若友軍中有人使用主要技能，無人機將攻擊所有敵人，造成攻擊力<415925.VALUE>的傷害。使用終極技能時，對所有敵人發動砲擊，造成攻擊力<415926.VALUE>的傷害。該傷害將無視防禦力，但不會觸發暴擊",
       "zh_cn": ""
     },
     {
@@ -34923,9 +34939,9 @@
     {
       "no": 366524,
       "kr": "일반 공격의 피해량이 <652002.VALUE>로 변경되고, 마나를 추가로 <652005.VALUE> 회복한다.",
-      "en": "",
+      "en": "Normal attack damage changes to <652002.VALUE>. Also gains <652005.VALUE> Mana.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "一般攻擊傷害量變更為<652002.VALUE>，額外使魔力恢復<652005.VALUE>",
       "zh_cn": ""
     },
     {
@@ -34955,7 +34971,7 @@
     {
       "no": 366532,
       "kr": " <COLOR=#FFFFFF><이데아 레벨:Ⅱ></COLOR> 이상일 경우 공격력 <653221.VALUE>의 추가 피해를 입히고, <COLOR=#FFFFFF><엑셀러레이트></COLOR> 버프를 1중첩 더 부여한다.",
-      "en": "If <COLOR=#FFFFFF>\"Idea Level\"</COLOR> is II or higher, deals additional damage equal to <653221.VALUE> of ATK and grants one more stack of \"<COLOR=#FFFFFF>\"Accelerate.\"</COLOR>",
+      "en": " If <COLOR=#FFFFFF>\"Idea Level\"</COLOR> is II or higher, deals additional damage equal to <653221.VALUE> of ATK and grants one more stack of \"<COLOR=#FFFFFF>\"Accelerate.\"</COLOR>",
       "ja": "",
       "zh_tw": "若為<COLOR=#FFFFFF>＜理念等級：Ⅱ＞</COLOR>以上，造成攻擊力<653221.VALUE>的額外傷害，再賦予增益效果<COLOR=#FFFFFF>＜加速裝置＞</COLOR>1疊加",
       "zh_cn": ""
@@ -34963,7 +34979,7 @@
     {
       "no": 366533,
       "kr": " <COLOR=#FFFFFF><이데아 레벨:Ⅱ></COLOR> 이상일 경우 공격력 <653321.VALUE>의 추가 피해를 입히고, 대상의 버프를 <653322.VALUE>개 제거한다.",
-      "en": "If <COLOR=#FFFFFF>\"Idea Level\"</COLOR> is II or higher, deals additional damage equal to <653321.VALUE> of ATK to the target and cancels <653322.VALUE> buffs on the target.",
+      "en": " If <COLOR=#FFFFFF>\"Idea Level\"</COLOR> is II or higher, deals additional damage equal to <653321.VALUE> of ATK to the target and cancels <653322.VALUE> buffs on the target.",
       "ja": "",
       "zh_tw": "若為<COLOR=#FFFFFF>＜理念等級：Ⅱ＞</COLOR>以上，造成攻擊力<653321.VALUE>的額外傷害，解除目標<653322.VALUE>個增益效果",
       "zh_cn": ""
@@ -34971,7 +34987,7 @@
     {
       "no": 366534,
       "kr": "특정 조건에 의해 <COLOR=#FFFFFF><인과 추론></COLOR> 버프를 획득할 수 있으며 버프 1중첩 당 자신의 치명타 확률이 <653522.VALUE> 증가한다. <COLOR=#FFFFFF>(최대 10중첩)</COLOR> 버프가 <COLOR=#FFFFFF>3</COLOR>중첩이 넘어서면 <COLOR=#FFFFFF><이데아 레벨:Ⅱ></COLOR>로 진화하며 가하는 피해량이 <653423.VALUE> 증가하고 받는 최종 피해량이 <653424.VALUE> 감소한다. 적이 쓰러질 때 마다 자신의 <COLOR=#FFFFFF><인과 추론></COLOR> 버프 중첩을 2 증가시킨다.",
-      "en": "Can gain stacks of the <COLOR=#FFFFFF>\"Tracking Causality\"</COLOR> buff under certain conditions, which increases her Crit Rate by <653522.VALUE> per stack <COLOR=#FFFFFF>(stacks up to 10 times)</COLOR>. At <COLOR=#FFFFFF>3</COLOR> or more stacks, the buff evolves to <COLOR=#FFFFFF>\"Idea Level II,\"</COLOR> increasing her damage dealt by <653423.VALUE> and decreasing her total damage received by <653424.VALUE>. Every time an enemy is defeated, she gains 2 stack of <COLOR=#FFFFFF>\"Tracking Causality.\"</COLOR>",
+      "en": "Can gain stacks of the <COLOR=#FFFFFF>\"Tracking Causality\"</COLOR> buff under certain conditions, which increases her Crit Rate by <653522.VALUE> per stack <COLOR=#FFFFFF>(stacks up to 10 times)</COLOR>. At <COLOR=#FFFFFF>3</COLOR> or more stacks, the buff evolves to <COLOR=#FFFFFF>\"Idea Level II,\"</COLOR> increasing her damage dealt by <653423.VALUE> and decreasing her total damage received by <653424.VALUE>. Every time an enemy is defeated, she gains 2 stacks of <COLOR=#FFFFFF>\"Tracking Causality.\"</COLOR>",
       "ja": "",
       "zh_tw": "可依特定條件獲得增益效果<COLOR=#FFFFFF>＜因果推論＞</COLOR>，每1疊加自身暴擊率增加<653522.VALUE>。<COLOR=#FFFFFF>（最多10疊加）</COLOR>增益效果超過<COLOR=#FFFFFF>3</COLOR>疊加將進化成<COLOR=#FFFFFF>＜理念等級：Ⅱ＞</COLOR>，造成傷害量增加<653423.VALUE>，所受最終傷害量減少<653424.VALUE>。每當敵人倒下時，使自身增益效果<COLOR=#FFFFFF>＜因果推論＞</COLOR>增加2疊加",
       "zh_cn": ""
@@ -34979,7 +34995,7 @@
     {
       "no": 366535,
       "kr": "<COLOR=#FFFFFF><인과 추론></COLOR> 버프를 2중첩 증가시키는 효과가 추가되고, 해당 스킬로 적을 쓰러뜨렸을 경우에는 1중첩 추가로 증가한다.  <COLOR=#FFFFFF><이데아 레벨:Ⅱ></COLOR> 이상일 경우 공격력 <653521.VALUE>의 추가 피해를 입힌다.",
-      "en": "Grants 2 stack of <COLOR=#FFFFFF>\"Tracking Causality.\"</COLOR> Grants another stack upon defeating an enemy with this skill. If <COLOR=#FFFFFF>\"Idea Level\"</COLOR> is II or higher, deals additional damage equal to <653521.VALUE> of ATK",
+      "en": "Grants 2 stacks of <COLOR=#FFFFFF>\"Tracking Causality.\"</COLOR> Grants another stack upon defeating an enemy with this skill. If <COLOR=#FFFFFF>\"Idea Level\"</COLOR> is II or higher, deals additional damage equal to <653521.VALUE> of ATK.",
       "ja": "",
       "zh_tw": "追加使增益效果<COLOR=#FFFFFF>＜因果推論＞</COLOR>增加2疊加的效果，若使用該技能擊倒敵人將額外增加1疊加。若為<COLOR=#FFFFFF>＜理念等級：Ⅱ＞</COLOR>以上，造成攻擊力<653521.VALUE>的額外傷害",
       "zh_cn": ""
@@ -38026,50 +38042,50 @@
     },
     {
       "no": 374151,
-      "kr": "피해량이 <415131.VALUE>로 변경되고, 대상이 <COLOR=#FFFFFF><서리 응축></COLOR> 상태라면 치명타 피해를 입힌다.",
-      "en": "",
+      "kr": "피해량이 <415131.VALUE>로 변경되고, 대상이 <COLOR=#FFFFFF><냉기> 혹은 <서리 응축></COLOR> 상태라면 치명타 피해를 입힌다.",
+      "en": "Damage changes to <415131.VALUE>. Deals Crit DMG on targets inflicted with <COLOR=#FFFFFF>\"Freeze\" or \"Frost Concentration.\"</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<415131.VALUE>的傷害量，若目標處於 <COLOR=#FFFFFF>＜寒氣＞或＜凝聚寒霜＞</COLOR>狀態，造成暴擊傷害",
       "zh_cn": ""
     },
     {
       "no": 374152,
-      "kr": "기총 사격의 피해량이 <415031.VALUE>, 미사일 발포의 피해량이 <415231.VALUE>로 변경된다. 만약 대상이 <COLOR=#FFFFFF><서리 응축></COLOR> 상태라면 드론의 공격이 치명타로 발생한다.",
-      "en": "",
+      "kr": "기총 사격의 피해량이 <415031.VALUE>, 미사일 발포의 피해량이 <415231.VALUE>로 변경된다. 만약 대상이 <COLOR=#FFFFFF><냉기> 혹은 <서리 응축></COLOR> 상태라면 드론의 공격이 치명타로 발생한다.",
+      "en": "Machine Gun Fire damage changes to <415031.VALUE>, and Missile Launch damage changes to <415231.VALUE>. The drone attack lands as a critical hit if the target is inflicted with <COLOR=#FFFFFF>\"Freeze\" or \"Frost Concentration.\"</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "機槍射擊變更為造成<415031.VALUE>的傷害、發射導彈變更為造成<415231.VALUE>的傷害。若目標處於<COLOR=#FFFFFF>＜寒氣＞或＜凝聚寒霜＞</COLOR>狀態，無人機的攻擊將觸發暴擊",
       "zh_cn": ""
     },
     {
       "no": 374153,
-      "kr": "피해량이 <415331.VALUE>, 추가 피해량이 <415332.VALUE>로 변경된다. 대상이 <COLOR=#FFFFFF><서리 응축></COLOR> 상태라면 치명타 피해를 입힌다.",
-      "en": "",
+      "kr": "피해량이 <415331.VALUE>, 추가 피해량이 <415332.VALUE>로 변경된다. 대상이 <COLOR=#FFFFFF><냉기> 혹은 <서리 응축></COLOR> 상태라면 치명타 피해를 입힌다.",
+      "en": "Damage changes to <415331.VALUE>, and additional damage changes to <415332.VALUE>. Deals Crit DMG on targets inflicted with <COLOR=#FFFFFF>\"Freeze\" or \"Frost Concentration.\"</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<415331.VALUE>的傷害量、造成<415332.VALUE>額外傷害。若目標處於<COLOR=#FFFFFF>＜寒氣＞或＜凝聚寒霜＞</COLOR>狀態，造成暴擊傷害",
       "zh_cn": ""
     },
     {
       "no": 374154,
-      "kr": "방어력, 마법 저항력 무시율이 50%로 변경된다.",
-      "en": "",
+      "kr": "방어력, 마법 저항 무시율이 <color=#EDA900>50%</color>로 변경된다.",
+      "en": "DEF and Magic Resistance ignore rate changes to <color=#EDA900>50%</color>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "防禦力、魔法抵抗力無視率變更為<color=#EDA900>50%</color>",
       "zh_cn": ""
     },
     {
       "no": 374155,
-      "kr": "피해량이 <415531.VALUE>로 변경된다. 만약 대상이 <COLOR=#FFFFFF><서리 응축></COLOR> 상태라면 치명타 피해를 입힌다.",
-      "en": "",
+      "kr": "피해량이 <415531.VALUE>로 변경된다. 만약 대상이 <COLOR=#FFFFFF><냉기> 혹은 <서리 응축></COLOR> 상태라면 치명타 피해를 입힌다.",
+      "en": "Damage changes to <415531.VALUE>. Deals Crit DMG on targets inflicted with <COLOR=#FFFFFF>\"Freeze\" or \"Frost Concentration.\"</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<415531.VALUE>的傷害量。若處於 <COLOR=#FFFFFF>＜寒氣＞或＜凝聚寒霜＞</COLOR>狀態，造成暴擊傷害",
       "zh_cn": ""
     },
     {
       "no": 374159,
       "kr": "리더 정령이 전장에 있는 동안 아군 중 누구라도 메인 스킬을 사용 시 드론이 모든 적을 공격하여 공격력 <415935.VALUE>의 피해를 입히고, 얼티밋 스킬을 사용할 시 모든 적을 포격하여 공격력 <415936.VALUE>의 피해를 입힌다. 해당 피해는 방어력을 무시하지만 치명타가 발생하지 않는다.",
-      "en": "",
+      "en": "While the lead Soul is on the battlefield, any ally's main skill use triggers a drone strike against all enemies, dealing damage equal to <415935.VALUE> of ATK, and any ultimate skill use triggers a bombardment on all enemies, dealing damage equal to <415936.VALUE> of ATK. This damage ignores DEF but never lands as a critical hit.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "隊長精靈在戰場上時，若友軍中有人使用主要技能，無人機將攻擊所有敵人，造成攻擊力<415935.VALUE>的傷害。使用終極技能時，對所有敵人發動砲擊，造成攻擊力<415936.VALUE>的傷害。該傷害將無視防禦力，但不會觸發暴擊",
       "zh_cn": ""
     },
     {
@@ -38459,41 +38475,41 @@
     {
       "no": 376521,
       "kr": "피해량이 <652131.VALUE>로 변경되고, 대상에게 <COLOR=#FFFFFF><생명력 착취></COLOR> 효과를 <652132.DURATION>초 동안 부여하여 2초마다 대상의 최대 체력의 <652132.VALUE>를 흡수한다. (틱당 피해량은 자신의 공격력 100%를 넘지 않는다)",
-      "en": "",
+      "en": "Damage changes to <652131.VALUE>. Also inflicts <COLOR=#FFFFFF>\"HP Drain\"</COLOR> on the affected targets for <652132.DURATION> sec, absorbing <652132.VALUE> of their max HP every 2 sec (damage per tick does not exceed 100% of her ATK).",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<652131.VALUE>的傷害量，對受擊目標賦予<COLOR=#FFFFFF>＜剝奪生命力＞</COLOR>效果<652132.DURATION>秒，每2秒吸收目標體力上限的<652132.VALUE>。（每次奪取的傷害量不會超過自身攻擊力100%）",
       "zh_cn": ""
     },
     {
       "no": 376522,
       "kr": "피해량이 <652231.VALUE>, 후속 폭발 피해량이 <652232.VALUE>로 변경된다. 추가로 아군이 보유한 패시브 중 적이 전투 불능이 되었을 때 발동하는 패시브 효과를 발현시킨다.",
-      "en": "",
+      "en": "Damage changes to <652231.VALUE>, and the delayed detonation damage changes to <652232.VALUE>. Also activates any passive effects of allies that are triggered by enemy incapacitation.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<652231.VALUE>的傷害，後續爆炸傷害量<652232.VALUE>。額外發動在友軍持有的被動中，敵人處於無法戰鬥時發動的被動效果",
       "zh_cn": ""
     },
     {
       "no": 376523,
       "kr": "피해량이 <652331.VALUE>, 영역 내 적에게 입히는 피해량이 <652335.VALUE>로 변경되고, 해당 스킬의 <COLOR=#FFFFFF><불사></COLOR> 효과가 부여되어 있는 동안 군중 제어 효과에 면역이 된다.",
-      "en": "",
+      "en": "Damage changes to <652331.VALUE>, and zone damage changes to <652335.VALUE>. Styx becomes immune to crowd control effects as long as the <COLOR=#FFFFFF>\"Invincible\"</COLOR> buff from this skill is active.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<652331.VALUE>的傷害，對領域內敵人造成<652335.VALUE>的傷害，該技能的<COLOR=#FFFFFF>＜不死＞</COLOR>效果賦予期間，對集體控制效果免疫",
       "zh_cn": ""
     },
     {
       "no": 376524,
       "kr": "일반 공격의 피해량이 <652007.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Normal attack damage changes to <652007.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "一般攻擊變更為造成<652007.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 376525,
       "kr": "중심 대상의 피해량이 <652530.VALUE>로 변경되고, 감소되는 피해량이 <652532.VALUE>로 변경된다. 또한 전투 시작 <COLOR=#FFFFFF>30</COLOR>초 후 자신에게 <COLOR=#FFFFFF><타나토스의 속삭임></COLOR> 효과를 부여하며 해당 효과가 있을 경우, 중심이 되는 대상에게 입히는 피해량이 <COLOR=#FFFFFF>4.4</COLOR>배 증가하며 자신은 <COLOR=#FFFFFF><타나토스의 속삭임></COLOR> 효과를 잃는다. 이는 사용 후 <COLOR=#FFFFFF>60</COLOR>초 뒤에 다시 발현된다.",
-      "en": "",
+      "en": "Damage to the central target changes to <652530.VALUE>, and the diminishing damage per meter changes to <652532.VALUE>. Grants herself <COLOR=#FFFFFF>\"Thanatos's Whisper\"</COLOR> <COLOR=#FFFFFF>30</COLOR> sec into the battle. If this buff is active when using this skill, the damage to the central target is multiplied by <COLOR=#FFFFFF>4.4</COLOR>, and <COLOR=#FFFFFF>\"Thanatos's Whisper\"</COLOR> effects become deactivated. They are activated again in <COLOR=#FFFFFF>60</COLOR> sec after use.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "中心目標的傷害量變更為<652530.VALUE>，減少的傷害量變更為<652532.VALUE>。另外戰鬥開始<COLOR=#FFFFFF>30</COLOR>秒後對自身賦予<COLOR=#FFFFFF>＜桑納托斯耳語＞</COLOR>效果，具有該效果時，對位於中心的目標造成的傷害量增加<COLOR=#FFFFFF>4.4</COLOR>倍，自身失去<COLOR=#FFFFFF>＜桑納托斯耳語＞</COLOR>效果。在使用完<COLOR=#FFFFFF>60</COLOR>秒後再次發動",
       "zh_cn": ""
     },
     {
@@ -41259,9 +41275,9 @@
     {
       "no": 384159,
       "kr": "리더 정령이 전장에 있는 동안 아군 중 누구라도 메인 스킬을 사용 시 드론이 모든 적을 공격하여 공격력 <415945.VALUE>의 피해를 입히고, 얼티밋 스킬을 사용할 시 모든 적을 포격하여 공격력 <415946.VALUE>의 피해를 입힌다. 해당 피해는 방어력을 무시하지만 치명타가 발생하지 않는다.",
-      "en": "",
+      "en": "While the lead Soul is on the battlefield, any ally's main skill use triggers a drone strike against all enemies, dealing damage equal to <415945.VALUE> of ATK, and any ultimate skill use triggers a bombardment on all enemies, dealing damage equal to <415946.VALUE> of ATK. This damage ignores DEF but never lands as a critical hit.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "隊長精靈在戰場上時，若友軍中有人使用主要技能，無人機將攻擊所有敵人，造成攻擊力<415945.VALUE>的傷害。使用終極技能時，對所有敵人發動砲擊，造成攻擊力<415946.VALUE>的傷害。該傷害將無視防禦力，但不會觸發暴擊",
       "zh_cn": ""
     },
     {
@@ -41356,7 +41372,7 @@
       "no": 385031,
       "kr": "그 누구도 쓰러지지 않으리.",
       "en": "No one shall fall.",
-      "ja": "誰も倒させない。",
+      "ja": "誰も倒れることはありません。",
       "zh_tw": "誰都不會倒下。",
       "zh_cn": "谁都不会倒下。"
     },
@@ -41380,7 +41396,7 @@
       "no": 385035,
       "kr": "어두운 밤에 굴복하지 마시길. \r\n찬란한 빛이 함께하리라!",
       "en": "Do not let the night overcome you.\r\r\nMay the radiant light shine upon you!",
-      "ja": "暗い夜に屈服しないでください。\r\n輝かしい光が共にします！",
+      "ja": "闇に屈してはなりません。 \r\n輝かしい光が共にあります！",
       "zh_tw": "不要屈服於黑夜。\r\r\n燦爛之光會與你同在！",
       "zh_cn": "不要屈服于黑夜。\r\r\n灿烂之光会与你同在！"
     },
@@ -42307,9 +42323,9 @@
     {
       "no": 394159,
       "kr": "리더 정령이 전장에 있는 동안 아군 중 누구라도 메인 스킬을 사용 시 드론이 모든 적을 공격하여 공격력 <415955.VALUE>의 피해를 입히고, 얼티밋 스킬을 사용할 시 모든 적을 포격하여 공격력 <415956.VALUE>의 피해를 입힌다. 해당 피해는 방어력을 무시하지만 치명타가 발생하지 않는다.",
-      "en": "",
+      "en": "While the lead Soul is on the battlefield, any ally's main skill use triggers a drone strike against all enemies, dealing damage equal to <415955.VALUE> of ATK, and any ultimate skill use triggers a bombardment on all enemies, dealing damage equal to <415956.VALUE> of ATK. This damage ignores DEF but never lands as a critical hit.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "隊長精靈在戰場上時，若友軍中有人使用主要技能，無人機將攻擊所有敵人，造成攻擊力<415955.VALUE>的傷害。使用終極技能時，對所有敵人發動砲擊，造成攻擊力<415956.VALUE>的傷害。該傷害將無視防禦力，但不會觸發暴擊",
       "zh_cn": ""
     },
     {
@@ -42859,9 +42875,9 @@
     {
       "no": 404159,
       "kr": "리더 정령이 전장에 있는 동안 아군 중 누구라도 메인 스킬을 사용 시 드론이 모든 적을 공격하여 공격력 <415965.VALUE>의 피해를 입히고, 얼티밋 스킬을 사용할 시 모든 적을 포격하여 공격력 <415966.VALUE>의 피해를 입힌다. 해당 피해는 방어력을 무시하지만 치명타가 발생하지 않는다.",
-      "en": "",
+      "en": "While the lead Soul is on the battlefield, any ally's main skill use triggers a drone strike against all enemies, dealing damage equal to <415965.VALUE> of ATK, and any ultimate skill use triggers a bombardment on all enemies, dealing damage equal to <415966.VALUE> of ATK. This damage ignores DEF but never lands as a critical hit.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "隊長精靈在戰場上時，若友軍中有人使用主要技能，無人機將攻擊所有敵人，造成攻擊力<415965.VALUE>的傷害。使用終極技能時，對所有敵人發動砲擊，造成攻擊力<415966.VALUE>的傷害。該傷害將無視防禦力，但不會觸發暴擊",
       "zh_cn": ""
     },
     {
@@ -43411,9 +43427,9 @@
     {
       "no": 414159,
       "kr": "리더 정령이 전장에 있는 동안 아군 중 누구라도 메인 스킬을 사용 시 드론이 모든 적을 공격하여 공격력 <415975.VALUE>의 피해를 입히고, 얼티밋 스킬을 사용할 시 모든 적을 포격하여 공격력 <415976.VALUE>의 피해를 입힌다. 해당 피해는 방어력을 무시하지만 치명타가 발생하지 않는다.",
-      "en": "",
+      "en": "While the lead Soul is on the battlefield, any ally's main skill use triggers a drone strike against all enemies, dealing damage equal to <415975.VALUE> of ATK, and any ultimate skill use triggers a bombardment on all enemies, dealing damage equal to <415976.VALUE> of ATK. This damage ignores DEF but never lands as a critical hit.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "隊長精靈在戰場上時，若友軍中有人使用主要技能，無人機將攻擊所有敵人，造成攻擊力<415975.VALUE>的傷害。使用終極技能時，對所有敵人發動砲擊，造成攻擊力<415976.VALUE>的傷害。該傷害將無視防禦力，但不會觸發暴擊",
       "zh_cn": ""
     },
     {
@@ -43667,57 +43683,57 @@
     {
       "no": 431112,
       "kr": "자신의 물리/마법 저항이 <1111611.VALUE> 증가한다. 자신의 주변 3.5m 범위에 힘 정령이 있을 경우 대상에게 절반의 수치만큼 물리/마법 저항을 증가시킨다. 만약 <COLOR=#FFFFFF><곰강불괴></COLOR> 효과로 인해 가속이 증가할 경우 자신의 가하는 피해도 <1111911.VALUE> 증가시킨다.",
-      "en": "",
+      "en": "Increases her Physical/Magic Resistance by <1111611.VALUE>. Also increases the Physical/Magic Resistance of any STR allies within 3.5m by half of this amount. Also increases her damage dealt by <1111911.VALUE> if her Speed is increased by <COLOR=#FFFFFF>\"Bearly Alive.\"</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "自身物理／魔法抵抗增加<1111611.VALUE>。自身周遭3.5m範圍內有力量定位的精靈時，使目標增加一半數值的物理／魔法抵抗。若因<COLOR=#FFFFFF>＜熊剛不壞＞</COLOR>效果使加速增加，自身的造成傷害也會增加<1111911.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 431113,
       "kr": "증가하는 물리/마법 저항이 <1111621.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Physical/Magic Resistance increase changes to <1111621.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為物理／魔法抵抗增加<1111621.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 431114,
       "kr": "증가하는 물리/마법 저항이 <1111631.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Physical/Magic Resistance increase changes to <1111631.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為物理／魔法抵抗增加<1111631.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 431115,
       "kr": "증가하는 물리/마법 저항이 <1111641.VALUE>로 변경된다. 가하는 피해 증가 효과가 <1111941.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Physical/Magic Resistance increase changes to <1111641.VALUE>. Damage dealt increase changes to <1111941.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為物理／魔法抵抗增加<1111641.VALUE>，造成傷害增加效果變更為<1111941.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 431116,
       "kr": "증가하는 물리/마법 저항이 <1111651.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Physical/Magic Resistance increase changes to <1111651.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為物理／魔法抵抗增加<1111651.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 431117,
       "kr": "증가하는 물리/마법 저항이 <1111661.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Physical/Magic Resistance increase changes to <1111661.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為物理／魔法抵抗增加<1111661.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 431118,
       "kr": "증가하는 물리/마법 저항이 <1111671.VALUE>로 변경된다. 자신이 <COLOR=#FFFFFF><곰강불괴></COLOR> 효과를 받을 경우 군중 제어 효과에 면역이 되는 효과가 추가된다.",
-      "en": "",
+      "en": "Physical/Magic Resistance increase changes to <1111671.VALUE>. Becomes immune to crowd control effects if <COLOR=#FFFFFF>\"Bearly Alive\"</COLOR> is active.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為物理／魔法抵抗增加<1111671.VALUE>。自身受到<COLOR=#FFFFFF>＜熊剛不壞＞</COLOR>效果時，追加對集體控制免疫的效果",
       "zh_cn": ""
     },
     {
@@ -44115,113 +44131,113 @@
     {
       "no": 433052,
       "kr": "칸나의 공격력이 <1305711.VALUE> 상승하고, <COLOR=#FFFFFF><엔젤릭 피어스>, <데빌릭 스프레드></COLOR> 사용 시 마나를 <1305611.VALUE> 추가로 회복한다. 또한 <COLOR=#FFFFFF><불릿 레인></COLOR>이 <COLOR=#FFFFFF><악령></COLOR>에게 적중될 경우 <1305811.DURATION>초의 위력을 가진 매혹 속성으로 그로기 게이지를 감소시킨다.",
-      "en": "",
+      "en": "Increases Kanna's ATK by <1305711.VALUE>. She also recovers <1305611.VALUE> Mana upon using <COLOR=#FFFFFF>\"Angelic Pierce\" and \"Devilish Scatter.\"</COLOR> Also, if <COLOR=#FFFFFF>\"Bullet Barrage\"</COLOR> hits an <COLOR=#FFFFFF>\"Evil Soul,\"</COLOR> it triggers a Charm that lasts for <1305811.DURATION> sec and decreases the Daze Gauge in proportion to the duration.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "坎納的攻擊力提升<1305711.VALUE>，使用<COLOR=#FFFFFF>＜天使刺擊＞、＜惡魔肆虐＞</COLOR>時，額外恢復魔力<1305611.VALUE>。另外，若<COLOR=#FFFFFF>＜槍林彈雨＞</COLOR>擊中<COLOR=#FFFFFF>＜惡靈＞</COLOR>，會因擁有<1305811.DURATION>秒威力的魅惑屬性而使無力計量條減少",
       "zh_cn": ""
     },
     {
       "no": 433053,
       "kr": "<COLOR=#FFFFFF><엔젤릭 피어스>, <데빌릭 스프레드></COLOR> 사용 시 마나를 추가로 <1305621.VALUE> 회복한다.",
-      "en": "",
+      "en": "Additionally recovers <1305621.VALUE> Mana upon using <COLOR=#FFFFFF>\"Angelic Pierce\" and \"Devilish Scatter.\"</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "使用<COLOR=#FFFFFF>＜天使刺擊＞、＜惡魔肆虐＞</COLOR>時，額外恢復魔力<1305621.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 433054,
       "kr": "<COLOR=#FFFFFF><엔젤릭 피어스>, <데빌릭 스프레드></COLOR> 사용 시 마나를 추가로 <1305631.VALUE> 회복한다.",
-      "en": "",
+      "en": "Additionally recovers <1305631.VALUE> Mana upon using <COLOR=#FFFFFF>\"Angelic Pierce\" and \"Devilish Scatter.\"</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "使用<COLOR=#FFFFFF>＜天使刺擊＞、＜惡魔肆虐＞</COLOR>時，額外恢復魔力<1305631.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 433055,
       "kr": "<COLOR=#FFFFFF><엔젤릭 피어스>, <데빌릭 스프레드></COLOR> 사용 시 마나를 추가로 <1305641.VALUE> 회복한다. 추가로 칸나의 공격력 증가량이 <1305741.VALUE>로 변경되고, <COLOR=#FFFFFF><불릿 레인></COLOR>이 <COLOR=#FFFFFF><악령></COLOR>에게 적중될 경우 <1305841.DURATION>초의 위력을 가진 매혹 속성으로 그로기 게이지를 감소시킨다.",
-      "en": "",
+      "en": "Additionally recovers <1305641.VALUE> Mana upon using <COLOR=#FFFFFF>\"Angelic Pierce\" and \"Devilish Scatter.\"</COLOR> Also, Kanna's ATK increase changes to <1305741.VALUE>. If <COLOR=#FFFFFF>\"Bullet Barrage\"</COLOR> hits an <COLOR=#FFFFFF>\"Evil Soul,\"</COLOR> it decreases her Daze Gauge with a Charm that is effective for <1305841.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "使用<COLOR=#FFFFFF>＜天使刺擊＞、＜惡魔肆虐＞</COLOR>時，額外恢復魔力<1305641.VALUE>。額外使坎納攻擊力變更為增加<1305741.VALUE>，若<COLOR=#FFFFFF>＜槍林彈雨＞</COLOR>擊中<COLOR=#FFFFFF>＜惡靈＞</COLOR>，會因擁有<1305841.DURATION>秒威力的魅惑屬性而使無力計量條減少",
       "zh_cn": ""
     },
     {
       "no": 433056,
       "kr": "<COLOR=#FFFFFF><엔젤릭 피어스>, <데빌릭 스프레드></COLOR> 사용 시 마나를 추가로 <1305651.VALUE> 회복한다.",
-      "en": "",
+      "en": "Additionally recovers <1305651.VALUE> Mana upon using <COLOR=#FFFFFF>\"Angelic Pierce\" and \"Devilish Scatter.\"</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "使用<COLOR=#FFFFFF>＜天使刺擊＞、＜惡魔肆虐＞</COLOR>時，額外恢復魔力<1305651.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 433057,
       "kr": "<COLOR=#FFFFFF><엔젤릭 피어스>, <데빌릭 스프레드></COLOR> 사용 시 마나를 추가로 <1305661.VALUE> 회복한다.",
-      "en": "",
+      "en": "Additionally recovers <1305661.VALUE> Mana upon using <COLOR=#FFFFFF>\"Angelic Pierce\" and \"Devilish Scatter.\"</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "使用<COLOR=#FFFFFF>＜天使刺擊＞、＜惡魔肆虐＞</COLOR>時，額外恢復魔力<1305661.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 433058,
       "kr": "<COLOR=#FFFFFF><엔젤릭 피어스>, <데빌릭 스프레드></COLOR> 사용 시 마나를 추가로 <1305671.VALUE> 회복한다. 추가로 칸나의 공격력 증가량이 <1305771.VALUE>로 변경되고, <COLOR=#FFFFFF><불릿 레인></COLOR>이 <COLOR=#FFFFFF><악령></COLOR>에게 적중될 경우 <1305871.DURATION>초의 위력을 가진 매혹 속성으로 그로기 게이지를 감소시킨다.",
-      "en": "",
+      "en": "Additionally recovers <1305671.VALUE> Mana upon using <COLOR=#FFFFFF>\"Angelic Pierce\" and \"Devilish Scatter.\"</COLOR> Also, Kanna's ATK increase changes to <1305771.VALUE>. If <COLOR=#FFFFFF>\"Bullet Barrage\"</COLOR> hits an <COLOR=#FFFFFF>\"Evil Soul,\"</COLOR> it decreases her Daze Gauge with a Charm that is effective for <1305871.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "使用<COLOR=#FFFFFF>＜天使刺擊＞、＜惡魔肆虐＞</COLOR>時，額外恢復魔力<1305671.VALUE>。額外使坎納攻擊力變更為增加<1305771.VALUE>，若<COLOR=#FFFFFF>＜槍林彈雨＞</COLOR>擊中<COLOR=#FFFFFF>＜惡靈＞</COLOR>，會因擁有<1305871.DURATION>秒威力的魅惑屬性而使無力計量條減少",
       "zh_cn": ""
     },
     {
       "no": 433062,
       "kr": "자신의 공격력이 <1306711.VALUE> 증가한다. <COLOR=#FFFFFF><리뽀스트></COLOR>가 발동되었을 경우 <1306711.DURATION>초 동안 공격력이 추가로 <1306711.VALUE> 증가하고, 마나를 <1306811.VALUE> 만큼 회복한다.",
-      "en": "",
+      "en": "Increases her ATK by <1306711.VALUE>. Additionally increases her ATK by <1306711.VALUE> and restores <1306811.VALUE> Mana for <1306711.DURATION> sec if <COLOR=#FFFFFF>\"Riposte\"</COLOR> is triggered.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "自身攻擊力增加<1306711.VALUE>，發動<COLOR=#FFFFFF>＜還擊＞</COLOR>時，<1306711.DURATION>秒內攻擊力額外增加<1306711.VALUE>，並恢復魔力<1306811.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 433063,
       "kr": "증가하는 공격력이 각각 <1306721.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Each ATK increase changes to <1306721.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為攻擊力各自增加<1306721.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 433064,
       "kr": "증가하는 공격력이 각각 <1306731.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Each ATK increase changes to <1306731.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為攻擊力各自增加<1306731.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 433065,
       "kr": "증가하는 공격력이 각각 <1306741.VALUE>로 변경된다. <COLOR=#FFFFFF><리뽀스트></COLOR> 발동 시 <1306742.DURATION>초 동안 가속이 <1306742.VALUE> 증가한다.",
-      "en": "",
+      "en": "Each ATK increase changes to <1306741.VALUE>. Increases Speed by <1306742.VALUE> for <1306742.DURATION> sec if <COLOR=#FFFFFF>\"Riposte\"</COLOR> is triggered.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為攻擊力各自增加<1306741.VALUE>。發動<COLOR=#FFFFFF>＜還擊＞</COLOR>時，<1306742.DURATION>秒內使加速增加<1306742.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 433066,
       "kr": "증가하는 공격력이 각각 <1306751.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Each ATK increase changes to <1306751.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為攻擊力各自增加<1306751.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 433067,
       "kr": "증가하는 공격력이 각각 <1306761.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Each ATK increase changes to <1306761.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為攻擊力各自增加<1306761.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 433068,
       "kr": "증가하는 공격력이 각각 <1306771.VALUE>로 변경되고, 증가하는 가속이 <1306772.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Each ATK increase changes to <1306771.VALUE>. Speed increase changes to <1306772.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為攻擊力各自增加<1306771.VALUE>。變更為加速增加<1306772.VALUE>",
       "zh_cn": ""
     },
     {
@@ -45251,49 +45267,49 @@
     {
       "no": 703011,
       "kr": "<COLOR=#E0942C>인과율 위배</COLOR>",
-      "en": "",
+      "en": "<COLOR=#E0942C>Violating Causality</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "<COLOR=#E0942C>違反因果</COLOR>",
       "zh_cn": ""
     },
     {
       "no": 703012,
       "kr": "악령과 동일한 이름(이형, 각성 포함)을 가진 정령의 능력치 및 스킬 효과가 강화된다.",
-      "en": "",
+      "en": "Enhances the stats and skill effects of Souls of the same name (including variants and awakened forms) as the Evil Soul.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "擁有與惡靈相同名字（包含異形、覺醒）精靈的能力值與技能效果將強化。",
       "zh_cn": ""
     },
     {
       "no": 703411,
       "kr": "<COLOR=#E0942C>야생의 벗</COLOR>",
-      "en": "",
+      "en": "<COLOR=#E0942C>Friend of the Wild</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "<COLOR=#E0942C>野生的朋友</COLOR>",
       "zh_cn": ""
     },
     {
       "no": 703412,
       "kr": "특정 야수 정령이 파티 내에 존재할 시 해당 정령의 능력치 및 스킬 효과가 강화된다.",
-      "en": "",
+      "en": "If a particular Beast Soul is in the party, that Soul's stats and skill effects are enhanced.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "當有特定的野獸精靈在隊伍中時，該精靈的能力值與技能效果將強化。",
       "zh_cn": ""
     },
     {
       "no": 703421,
       "kr": "<COLOR=#E0942C>이별한 친구와의 재회</COLOR>",
-      "en": "",
+      "en": "<COLOR=#E0942C>Reunion With a Separated Friend</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "<COLOR=#E0942C>與昔日好友的重逢</COLOR>",
       "zh_cn": ""
     },
     {
       "no": 703422,
       "kr": "인과 조작으로 인해 이별했어야만 했던 친구가 광기에 물든 야수를 지원한다.",
-      "en": "",
+      "en": "A friend, separated by Causal Manipulation, aids the Mad Beast.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "由於操縱因果而不得不分離的朋友，現在正支援著發狂的野獸。",
       "zh_cn": ""
     },
     {
@@ -46403,81 +46419,81 @@
     {
       "no": 3411111,
       "kr": "곰곰전력펀치",
-      "en": "",
+      "en": "Bear Paw-ah Punch",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "熊熊大力拳",
       "zh_cn": ""
     },
     {
       "no": 3411112,
       "kr": "곰곰펀치",
-      "en": "",
+      "en": "Bear Knuckles",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "熊熊拳",
       "zh_cn": ""
     },
     {
       "no": 3411113,
       "kr": "곰경지수",
-      "en": "",
+      "en": "Bear With Me",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "熊鏡止水",
       "zh_cn": ""
     },
     {
       "no": 3411114,
       "kr": "곰강불괴",
-      "en": "",
+      "en": "Bearly Alive",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "熊剛不壞",
       "zh_cn": ""
     },
     {
       "no": 3411115,
       "kr": "곰곰스탬프",
-      "en": "",
+      "en": "Bearfoot Stomp",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "熊熊烙印",
       "zh_cn": ""
     },
     {
       "no": 3413051,
       "kr": "불릿 레인",
-      "en": "",
+      "en": "Bullet Barrage",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "槍林彈雨",
       "zh_cn": ""
     },
     {
       "no": 3413052,
       "kr": "엔젤릭 피어스",
-      "en": "",
+      "en": "Angelic Pierce",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "天使刺擊",
       "zh_cn": ""
     },
     {
       "no": 3413053,
       "kr": "데빌릭 스프레드",
-      "en": "",
+      "en": "Devilish Scatter",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "惡魔肆虐",
       "zh_cn": ""
     },
     {
       "no": 3413054,
       "kr": "엔젤 & 데빌",
-      "en": "",
+      "en": "Angel & Devil",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "天使&惡魔",
       "zh_cn": ""
     },
     {
       "no": 3413055,
       "kr": "램페이지 불릿",
-      "en": "",
+      "en": "Rampaging Bullet",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "暴戾子彈",
       "zh_cn": ""
     },
     {
@@ -46515,7 +46531,7 @@
     {
       "no": 3413065,
       "kr": "아따끄 오 페르",
-      "en": "Attaque au fer",
+      "en": "Attaque au Fer",
       "ja": "",
       "zh_tw": "觸劍攻擊",
       "zh_cn": "触剑攻击"
@@ -47531,41 +47547,41 @@
     {
       "no": 3511111,
       "kr": "혼신을 다한 주먹으로 가장 가까운 적에게 공격력 <1111111.VALUE>의 방어력을 50% 무시하는 피해를 입히고 대상을 <1111112.DURATION>초 동안 기절시킨다.",
-      "en": "",
+      "en": "Puts all her might into a punch that deals damage equal to <1111111.VALUE> of ATK that ignores 50% of DEF to the nearest enemy and stuns them for <1111112.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "以用盡全力的拳頭對最接近的敵人造成攻擊力<1111111.VALUE>的無視防禦力50%的傷害，並使目標陷入暈眩<1111112.DURATION>秒",
       "zh_cn": ""
     },
     {
       "no": 3511112,
       "kr": "회전력을 듬뿍 담은 펀치로 가장 가까운 적에게 공격력 <1111211.VALUE>의 방어력을 <COLOR=#FFFFFF>50%</COLOR> 무시하는 피해를 입히고, 대상에게 <1111212.DURATION>초 동안 <COLOR=#FFFFFF><헤롱헤롱></COLOR> 효과를 부여한다. <COLOR=#FFFFFF><헤롱헤롱></COLOR> 효과를 가진 적에게 다시 한번 <COLOR=#FFFFFF><곰곰펀치></COLOR>로 피해를 입힐 경우 대상을 <1111213.DURATION>초 동안 기절시키고, <1111214.DURATION>초 동안 대상의 물리 저항을 <1111214.VALUE> 감소시킨다.",
-      "en": "",
+      "en": "Delivers a spinning punch to the nearest enemy, dealing damage equal to <1111211.VALUE> of ATK that ignores <COLOR=#FFFFFF>50%</COLOR> of DEF and inflicts <COLOR=#FFFFFF>\"Dizzy\"</COLOR> on the target for <1111212.DURATION> sec. Dealing damage again with <COLOR=#FFFFFF>\"Bear Knuckles\"</COLOR> to an enemy inflicted with <COLOR=#FFFFFF>\"Dizzy\"</COLOR> stuns them for <1111213.DURATION> sec and decreases their Physical Resistance by <1111214.VALUE> for <1111214.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "用充滿迴旋之力的拳頭對最接近的敵人造成攻擊力<1111211.VALUE>的無視防禦力<COLOR=#FFFFFF>50%</COLOR>的傷害，賦予目標<1111212.DURATION>秒<COLOR=#FFFFFF>＜頭暈目眩＞</COLOR>效果。對帶有<COLOR=#FFFFFF>＜頭暈目眩＞</COLOR>效果的敵人，以<COLOR=#FFFFFF>＜熊熊拳＞</COLOR>再次造成傷害時，目標在<1111213.DURATION>秒內陷入暈眩，並減少目標的物理抵抗<1111214.VALUE>，持續<1111214.DURATION>秒",
       "zh_cn": ""
     },
     {
       "no": 3511113,
       "kr": "곰의 기운을 전파한다! 자신에게 <1111311.DURATION>초 동안 받는 최종 피해가 <1111311.VALUE> 감소하고, 치명타 위력이 <1111312.VALUE> 증가하는 <COLOR=#FFFFFF><곰경지수></COLOR> 효과를 부여하고 전장 내 아군 중 자신을 포함한 힘 특성 정령에게 자신의 최대 체력 <1111313.VALUE> 만큼 피해를 흡수하는 보호막을 부여한다.",
-      "en": "",
+      "en": "Spreads the energy of the bear! Gains the <COLOR=#FFFFFF>\"Bear With Me\"</COLOR> buff, which decreases her total damage received by <1111311.VALUE> and increases her Crit DMG by <1111312.VALUE> while granting a shield that absorbs damage equal to <1111313.VALUE> of max HP to all STR allies including herself for <1111311.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "散播熊能的能量！賦予自身<COLOR=#FFFFFF>＜熊境止水＞</COLOR>效果，<1111311.DURATION>秒內使所受最終傷害減少<1111311.VALUE>，暴擊威力增加<1111312.VALUE>。包含自身在內，對戰場上力量特性的友軍精靈賦予防護罩，吸收相當自身體力上限<1111313.VALUE>的傷害",
       "zh_cn": ""
     },
     {
       "no": 3511114,
       "kr": "무리 사이의 곰은 강한 존재감을 내비친다! 도라의 3.5m 내에 아군이 존재할 경우 방어력이 <1111412.VALUE>, 치명타 확률이 <1111414.VALUE> 증가하고, <COLOR=#FFFFFF><곰강불괴></COLOR> 버프가 존재하는 상태에서 일반 공격이 공격력 <1111011.VALUE>의 추가 피해를 입히고 <1111012.DURATION>초 동안 자신의 가속이 <1111012.VALUE> 증가한다.",
-      "en": "",
+      "en": "The bear commands an imposing presence in a group! Increases her DEF by <1111412.VALUE> and Crit Rate by <1111414.VALUE> if there are any allies within 3.5m of Dora. When <COLOR=#FFFFFF>\"Bearly Alive\"</COLOR> is active, her normal attack deals additional damage equal to <1111011.VALUE> of ATK and increases her Speed by <1111012.VALUE> for <1111012.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "群體中的熊表現出強烈的存在感！當朵菈3.5m內存在友軍時，防禦力增加<1111412.VALUE>、暴擊率增加<1111414.VALUE>，在具<COLOR=#FFFFFF>＜熊剛不壞＞</COLOR>增益狀態下，一般攻擊造成攻擊力<1111011.VALUE>的額外傷害，自身加速增加<1111012.VALUE>，持續<1111012.DURATION>秒",
       "zh_cn": ""
     },
     {
       "no": 3511115,
       "kr": "거대화한 도라가 가장 가까운 적과 그 주변 3m 범위의 적들을 짓밟아 공격력 <1111511.VALUE>의 피해를 입히고, 대상을 <1111512.DURATION>초 동안 기절시킨다. 주 대상이 된 적에게는 공격력 <1111513.VALUE>의 추가 피해를 입히고, 추가 피해는 방어력을 완전히 무시한다.",
-      "en": "",
+      "en": "Enlarged Dora tramples the nearest enemy and those within 3m around them, dealing damage equal to <1111511.VALUE> of ATK and stunning them for <1111512.DURATION> sec. Also deals additional damage equal to <1111513.VALUE> of ATK that completely ignores DEF to the main target.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "巨大化的朵菈踐踏最接近的敵人及其周圍3m範圍內的敵人，造成攻擊力<1111511.VALUE>的傷害，並使目標陷入暈眩<1111512.DURATION>秒。對成為主要目標的敵人造成攻擊力<1111513.VALUE>的額外傷害，額外傷害將完全無視防禦力",
       "zh_cn": ""
     },
     {
@@ -47651,81 +47667,81 @@
     {
       "no": 3513051,
       "kr": "칸나가 가장 가까운 적의 머리 위로 엔젤 건과 데빌 건으로 총탄을 발사해 탄환 비를 쏟아내려 대상 및 주변 3m의 적에게 공격력 <1305111.VALUE>의 피해를 입히고, 적이 <COLOR=#FFFFFF><엔젤 터치>, <데빌 터치></COLOR>를 보유하고 있을 경우 각각 공격력 <1305112.VALUE>의 추가 피해를 입힌다.",
-      "en": "",
+      "en": "Kanna fires from Angel Gun and Devil Gun over the nearest enemy's head, dealing damage equal to <1305111.VALUE> of ATK by unleashing a barrage of bullets on the target and other enemies within a 3m radius. Also deals additional damage equal to <1305112.VALUE> of ATK for each <COLOR=#FFFFFF>\"Angel's Touch\" or \"Devil's Touch\"</COLOR> on the enemy.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "坎納用天使槍和惡魔槍朝最接近的敵人頭上發射槍彈，彈如雨下，對目標及其周遭3m的敵人造成攻擊力<1305111.VALUE>的傷害，若敵人持有<COLOR=#FFFFFF>＜天使之手＞、＜惡魔之手＞</COLOR>時，各造成攻擊力<1305112.VALUE>的額外傷害",
       "zh_cn": ""
     },
     {
       "no": 3513052,
       "kr": "칸나가 엔젤 건으로 가장 가까운 적을 대상으로 강력한 한발을 발사하여 폭 2.2m 길이 11m의 범위의 적에게 공격력 <1305211.VALUE>의 피해를 입히고, <COLOR=#FFFFFF><엔젤 불릿> 2</COLOR>중첩을 부여한다.",
-      "en": "",
+      "en": "Kanna fires a powerful shot with Angel Gun at the nearest enemy, dealing damage equal to <1305211.VALUE> of ATK to enemies within a 2.2m wide and 11m long area. Also applies <COLOR=#FFFFFF>2 stacks of \"Angel Shot.\"</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "坎納用天使槍朝最接近的敵人發射強烈一擊，對寬幅2.2m、長11m範圍內的敵人造成攻擊力<1305211.VALUE>的傷害，並賦予<COLOR=#FFFFFF>＜天使子彈＞2</COLOR>疊加",
       "zh_cn": ""
     },
     {
       "no": 3513053,
       "kr": "칸나가 데빌 건으로 가장 가까운 적을 대상으로 폭발하는 탄환을 흩뿌려 부채꼴 범위 30도 길이 11m의 범위에 공격력 <1305311.VALUE>의 피해를 입히고, <COLOR=#FFFFFF><데빌 불릿> 2</COLOR>중첩을 부여한다.",
-      "en": "",
+      "en": "Kanna scatters explosive rounds at the nearest enemy with Devil Gun, dealing damage equal to <1305311.VALUE> of ATK to enemies in an 11m, 30-degree arc. Also applies 2 stacks of <COLOR=#FFFFFF>\"Devil Shot.\"</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "坎納用惡魔槍朝最接近的敵人撒下爆炸的子彈，對扇形30度、長11m範圍造成攻擊力<1305311.VALUE>的傷害，並賦予<COLOR=#FFFFFF>＜惡魔子彈＞2</COLOR>疊加",
       "zh_cn": ""
     },
     {
       "no": 3513054,
       "kr": "칸나가 일반 공격을 할 시 대상에게 <COLOR=#FFFFFF><엔젤 불릿></COLOR> 및 <COLOR=#FFFFFF><데빌 불릿></COLOR>을 <COLOR=#FFFFFF>1</COLOR>중첩 부여한다. 만약 칸나의 공격에 의해 <COLOR=#FFFFFF><엔젤 불릿></COLOR> 및 <COLOR=#FFFFFF><데빌 불릿></COLOR>이 <COLOR=#FFFFFF>4</COLOR>중첩이 될 경우 아래의 효과를 부여한다.\r\n\r\n<COLOR=#FFFFFF><엔젤 불릿></COLOR> - 발동 시 공격력 <1305913.VALUE>의 피해를 입히고, <1305914.DURATION>초 동안 <COLOR=#FFFFFF><엔젤 터치></COLOR> 효과를 부여한 뒤 <1305912.DURATION>초 동안 매혹 상태로 만든다.\r\n\r\n<COLOR=#FFFFFF><데빌 불릿></COLOR> - 발동 시 공격력 <1305923.VALUE>의 피해를 입히고, <1305924.DURATION>초 동안 <COLOR=#FFFFFF><데빌 터치></COLOR> 효과를 부여한 뒤 <1305922.DURATION>초 동안 받는 최종 피해량을 <1305922.VALUE> 증가시킨다.",
-      "en": "",
+      "en": "Kanna's normal attack inflicts her target with <COLOR=#FFFFFF>1</COLOR> stack of <COLOR=#FFFFFF>\"Angel Shot\"</COLOR> and <COLOR=#FFFFFF>\"Devil Shot\"</COLOR> each. When <COLOR=#FFFFFF>\"Angel Shot\"</COLOR> and <COLOR=#FFFFFF>\"Devil Shot\"</COLOR> reach <COLOR=#FFFFFF>4</COLOR> stacks from Kanna's attacks, they activate the following effects and expire:\r\n\r\n<COLOR=#FFFFFF>\"Angel Shot\"</COLOR> - Upon activation, deals damage equal to <1305913.VALUE> of ATK, inflicts <COLOR=#FFFFFF>\"Angel's Touch\"</COLOR> on the target for <1305914.DURATION> sec, and charms them for <1305912.DURATION> sec. \r\n\r\n<COLOR=#FFFFFF>\"Devil Shot\"</COLOR> - Upon activation, deals damage equal to <1305923.VALUE> of ATK, inflicts <COLOR=#FFFFFF>\"Devil's Touch\"</COLOR> on the target for <1305924.DURATION> sec, and increases their total damage received by <1305922.VALUE> for <1305922.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "坎納進行一般攻擊時，賦予目標<COLOR=#FFFFFF>＜天使子彈＞</COLOR>和<COLOR=#FFFFFF>＜惡魔子彈＞</COLOR><COLOR=#FFFFFF>1</COLOR>疊加。若坎納的攻擊使<COLOR=#FFFFFF>＜天使子彈＞</COLOR>和<COLOR=#FFFFFF>＜惡魔子彈＞</COLOR>達<COLOR=#FFFFFF>4</COLOR>疊加，會賦予下列效果。\r\n\r\n<COLOR=#FFFFFF>＜天使子彈＞</COLOR>－發動時造成攻擊力<1305913.VALUE>的傷害，賦予<1305914.DURATION>秒<COLOR=#FFFFFF>＜天使之手＞</COLOR>效果後，使其陷入<1305912.DURATION>秒魅惑狀態\r\n\r\n<COLOR=#FFFFFF>＜惡魔子彈＞</COLOR>－發動時造成攻擊力<1305923.VALUE>的傷害，賦予<1305924.DURATION>秒<COLOR=#FFFFFF>＜惡魔之手＞</COLOR>效果後，<1305922.DURATION>秒內使所受最終傷害量增加<1305922.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 3513055,
       "kr": "칸나가 엔젤 건과 데빌 건으로 체력이 가장 낮은 적을 대상으로 난사해 강력한 공격을 쏟아부어 대상 중심 3m 범위의 적에게 공격력 <1305511.VALUE>의 피해를 입히고 <1305512.DURATION>초 동안 매혹 상태를 부여하며 <1305513.DURATION>초 동안 받는 최종 피해량을 <1305513.VALUE> 증가시킨다.",
-      "en": "",
+      "en": "Kanna barrages the enemy with the lowest HP with Angel Gun and Devil Gun, dealing damage equal to <1305511.VALUE> of ATK to enemies within 3m of the target, charming them for <1305512.DURATION> sec, and increasing their total damage received by <1305513.VALUE> for <1305513.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "坎納用天使槍和惡魔槍朝體力最低的敵人亂槍掃射，發出強烈攻擊，對目標及其範圍3m的敵人造成攻擊力<1305511.VALUE>的傷害，並賦予<1305512.DURATION>秒魅惑狀態，<1305513.DURATION>秒內使所受最終傷害量增加<1305513.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 3513061,
       "kr": "이디스가 가장 가까운 적을 대상으로 폭 3m, 길이 1.8m 범위의 검기를 생성하여 공격력 <1306111.VALUE>의 피해를 입히고 피해를 받는 모든 적을 <1306112.DURATION>초 동안 기절 상태로 만든다. 자신의 보유 버프 개수에 따라 추가 효과를 부여한다.\r\n\r\n<COLOR=#FFFFFF>2개 이상</COLOR> - 주 대상에게 <COLOR=#FFFFFF>1.5</COLOR>배의 피해를 입힌다.\r\n<COLOR=#FFFFFF>4개 이상</COLOR> - 주 대상에게 <COLOR=#FFFFFF>2</COLOR>배의 피해를 입히고, 대상의 버프를 <COLOR=#FFFFFF>2</COLOR>개 제거한다.\r\n<COLOR=#FFFFFF>6개 이상</COLOR> - 주 대상에게 <COLOR=#FFFFFF>3</COLOR>배의 피해를 입히고, 대상의 버프를 <COLOR=#FFFFFF>4</COLOR>개 제거하며, 반드시 치명타를 발생시킨다.",
-      "en": "",
+      "en": "Edith launches a sword blast toward the nearest enemy, dealing damage equal to <1306111.VALUE> of ATK to a 3m wide and 1.8m long area and stunning all affected targets for <1306112.DURATION> sec. Additional effects are triggered based on the number of active buffs on her:\r\n\r\n<COLOR=#FFFFFF>2 or more</COLOR> - Deals <COLOR=#FFFFFF>1.5</COLOR>x damage to the main target.\r\n<COLOR=#FFFFFF>4 or more</COLOR> - Deals <COLOR=#FFFFFF>2</COLOR>x damage to the main target and removes <COLOR=#FFFFFF>2</COLOR> buffs from them.\r\n<COLOR=#FFFFFF>6 or more</COLOR> - Deals <COLOR=#FFFFFF>3</COLOR>x damage to the main target, removes <COLOR=#FFFFFF>4</COLOR> buffs from them, and is guaranteed to land as a critical hit.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "伊迪絲以最接近的敵人為目標，產生寬3m、長1.8m範圍的劍氣並造成攻擊力<1306111.VALUE>的傷害，受到傷害的所有敵人陷入暈眩狀態，持續<1306112.DURATION>秒。根據自身持有的增益效果數量賦予額外效果。\r\n\r\n<COLOR=#FFFFFF>2個以上</COLOR>－對主要目標造成<COLOR=#FFFFFF>1.5</COLOR>倍的傷害。\r\n<COLOR=#FFFFFF>4個以上</COLOR>－對主要目標造成<COLOR=#FFFFFF>2</COLOR>倍的傷害，並解除目標<COLOR=#FFFFFF>2</COLOR>個增益。\r\n<COLOR=#FFFFFF>6個以上</COLOR>－對主要目標造成<COLOR=#FFFFFF>3</COLOR>倍的傷害，並解除目標<COLOR=#FFFFFF>4</COLOR>個增益，且必觸發暴擊",
       "zh_cn": ""
     },
     {
       "no": 3513062,
       "kr": "이디스가 가장 가까운 적에게 재빠른 세검술로 적을 연속해서 찔러 공격력 <1306211.VALUE>의 피해를 입히고 자신에게 가속 버프가 부여되었다면 공격력 <1306212.VALUE>의 추가 피해를 입힌다.",
-      "en": "",
+      "en": "Edith swiftly stabs the nearest enemy with rapid and refined movement, dealing damage equal to <1306211.VALUE> of ATK. She deals additional damage equal to <1306212.VALUE> of ATK if she has an active Speed buff.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "伊迪絲迅速使用刺劍術連續刺擊最接近的敵人，造成攻擊力<1306211.VALUE>的傷害，若自身被賦予加速增益效果，則額外造成攻擊力<1306212.VALUE>的傷害",
       "zh_cn": ""
     },
     {
       "no": 3513063,
       "kr": "이디스가 가장 가까운 적을 향해 다리를 길게 뻗어 적의 약점을 찌른다. 공격력 <1306311.VALUE>의 피해를 입히고 자신에게 공격력 버프가 부여되었다면 반드시 치명타로 발동한다.",
-      "en": "",
+      "en": "Edith lunges at the nearest enemy and strikes their weak point, dealing damage equal to <1306311.VALUE> of ATK. This attack is guaranteed to land as a critical hit if she has an active ATK buff.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "伊迪絲伸長腿刺擊最接近的敵人的弱點，造成攻擊力<1306311.VALUE>的傷害，若自身被賦予攻擊力增益效果，則必以暴擊發動",
       "zh_cn": ""
     },
     {
       "no": 3513064,
       "kr": "이디스는 공격을 받을 시 <1306412.DURATION>초 동안 자신의 물리/마법 저항을 <1306412.VALUE> 증가시키며, 자신의 주변 3m의 적에게 공격력 <1306410.VALUE>의 피해를 입히고, <1306414.DURATION>초 동안 공격력을 <1306414.VALUE> 감소시킨다. (쿨타임 10초)",
-      "en": "",
+      "en": "Upon being attacked, Edith increases her Physical/Magic Resistance by <1306412.VALUE> for <1306412.DURATION> sec, deals damage equal to <1306410.VALUE> of ATK to enemies within a 3m radius, and decreases their ATK by <1306414.VALUE> for <1306414.DURATION> sec (Cooldown: 10 sec).",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "伊迪絲受到攻擊時，<1306412.DURATION>秒內增加自身的物理／魔法抵抗<1306412.VALUE>，對自身周圍3m的敵人造成攻擊力<1306410.VALUE>的傷害，攻擊力減少<1306414.VALUE>，持續<1306414.DURATION>秒（冷卻時間10秒）",
       "zh_cn": ""
     },
     {
       "no": 3513065,
       "kr": "이디스가 가장 가까운 적을 연속으로 찌른 뒤 마지막에 강력한 일격을 날려 공격력 <1306511.VALUE>의 피해를 입히고 자신의 보유 버프 개수에 따라 추가 효과를 부여한다.\r\n\r\n<COLOR=#FFFFFF>2개 이상</COLOR> - <COLOR=#FFFFFF>1.5</COLOR>배의 피해를 입힌다.\r\n<COLOR=#FFFFFF>4개 이상</COLOR>  - <COLOR=#FFFFFF>2</COLOR>배의 피해를 입히고, 자신의 마나를 <1306516.VALUE> 회복한다.\r\n<COLOR=#FFFFFF>6개 이상</COLOR>  - <COLOR=#FFFFFF>3</COLOR>배의 피해를 입히고, 자신의 마나를 <1306516.VALUE> 회복하며, 반드시 치명타로 적중한다.",
-      "en": "",
+      "en": "Edith strikes the nearest enemy with a series of thrusts and then finishes off with a powerful blow, dealing damage equal to <1306511.VALUE> of ATK. Additional effects are triggered based on the number of active buffs on her:\r\n\r\n<COLOR=#FFFFFF>2 or more</COLOR> - Deals <COLOR=#FFFFFF>1.5</COLOR>x damage.\r\n<COLOR=#FFFFFF>4 or more</COLOR> - Deals <COLOR=#FFFFFF>2</COLOR>x damage and restores <1306516.VALUE> Mana.\r\n<COLOR=#FFFFFF>6 or more</COLOR> - Deals <COLOR=#FFFFFF>3</COLOR>x damage, restores <1306516.VALUE> Mana, and is guaranteed to land as a critical hit.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "伊迪絲連續刺擊最接近的敵人，在最後使出強烈一擊，造成攻擊力<1306511.VALUE>的傷害，根據自身持有的增益效果數量賦予額外效果。\r\n\r\n<COLOR=#FFFFFF>2個以上</COLOR>－造成<COLOR=#FFFFFF>1.5</COLOR>倍的傷害。\r\n<COLOR=#FFFFFF>4個以上</COLOR>－造成<COLOR=#FFFFFF>2</COLOR>倍的傷害，並使自身魔力恢復<1306516.VALUE>\r\n<COLOR=#FFFFFF>6個以上</COLOR>－造成<COLOR=#FFFFFF>3</COLOR>倍的傷害，使自身魔力恢復<1306516.VALUE>，且必以暴擊命中",
       "zh_cn": ""
     },
     {
@@ -48715,41 +48731,41 @@
     {
       "no": 3611111,
       "kr": "피해량이 <1111121.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <1111121.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1111121.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 3611112,
       "kr": "피해량이 <1111221.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <1111221.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1111221.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 3611113,
       "kr": "증가하는 치명타 위력이 <1111322.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Crit DMG increase changes to <1111322.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為暴擊威力增加<1111322.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 3611114,
       "kr": "증가하는 방어력이 <1111422.VALUE>, 치명타 확률이 <1111424.VALUE>로 변경된다.",
-      "en": "",
+      "en": "DEF increase changes to <1111422.VALUE>, Crit Rate increase changes to <1111424.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為防禦力增加<1111422.VALUE>、暴擊率增加<1111424.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 3611115,
       "kr": "피해량이 <1111521.VALUE>로 추가 피해량이 <1111523.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <1111521.VALUE>, additional damage changes to <1111523.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1111521.VALUE>的傷害量、造成<1111523.VALUE>的額外傷害量",
       "zh_cn": ""
     },
     {
@@ -48835,81 +48851,81 @@
     {
       "no": 3613051,
       "kr": "피해량이 <1305121.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <1305121.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1305121.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 3613052,
       "kr": "피해량이 <1305221.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <1305221.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1305221.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 3613053,
       "kr": "피해량이 <1305321.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <1305321.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1305321.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 3613054,
       "kr": "칸나의 일반 공격이 마나를 <1305021.VALUE> 추가로 회복시킨다.",
-      "en": "",
+      "en": "Kanna's normal attack additionally restores <1305021.VALUE> Mana.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "坎納的一般攻擊額外使魔力恢復<1305021.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 3613055,
       "kr": "피해량이 <1305521.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <1305521.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1305521.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 3613061,
       "kr": "피해량이 <1306121.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <1306121.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1306121.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 3613062,
       "kr": "피해량이 <1306221.VALUE>, 추가 피해량이 <1306222.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <1306221.VALUE>, additional damage changes to <1306222.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1306221.VALUE>的傷害、造成<1306222.VALUE>的額外傷害",
       "zh_cn": ""
     },
     {
       "no": 3613063,
       "kr": "피해량이 <1306321.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <1306321.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1306321.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 3613064,
       "kr": "피해량이 <1306420.VALUE>로 변경되고, <1306426.DURATION>초 동안 자신의 공격력 <1306426.VALUE>만큼의 피해를 흡수하는 보호막을 생성한다.",
-      "en": "",
+      "en": "Damage changes to <1306420.VALUE>. Also creates a shield that absorbs damage equal to <1306426.VALUE> of ATK for <1306426.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1306420.VALUE>的傷害量，<1306426.DURATION>秒內生成吸收自身攻擊力<1306426.VALUE>傷害的防護罩",
       "zh_cn": ""
     },
     {
       "no": 3613065,
       "kr": "피해량이 <1306521.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <1306521.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1306521.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
@@ -49427,41 +49443,41 @@
     {
       "no": 3711111,
       "kr": "피해량이 <1111131.VALUE>로 변경되고, 만약 치명타가 발생하였을 경우 공격력 <1111132.VALUE>의 추가 피해를 입히는 효과가 추가된다.",
-      "en": "",
+      "en": "Damage changes to <1111131.VALUE>. Also deals additional damage equal to <1111132.VALUE> of ATK upon landing a critical hit.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1111131.VALUE>的傷害量，追加若發生暴擊則造成攻擊力<1111132.VALUE>的額外傷害效果",
       "zh_cn": ""
     },
     {
       "no": 3711112,
       "kr": "피해량이 <1111231.VALUE>로 변경된다. 만약 <COLOR=#FFFFFF><헤롱헤롱></COLOR> 효과를 가진 적에게 <COLOR=#FFFFFF><곰곰펀치></COLOR>로 피해를 입힐 경우 공격력 <1111232.VALUE>의 추가 피해를 입히고, 공격이 치명타로 발동한다.",
-      "en": "",
+      "en": "Damage changes to <1111231.VALUE>. Dealing damage to an enemy inflicted with <COLOR=#FFFFFF>\"Dizzy\"</COLOR> with <COLOR=#FFFFFF>\"Bear Knuckles\"</COLOR> deals additional damage equal to <1111232.VALUE> of ATK and the attack lands as a critical hit.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1111231.VALUE>的傷害量，若對帶有<COLOR=#FFFFFF>＜頭暈目眩＞</COLOR>效果的敵人，以<COLOR=#FFFFFF>＜熊熊拳＞</COLOR>造成傷害時，則造成攻擊力<1111232.VALUE>的額外傷害，並以暴擊發動",
       "zh_cn": ""
     },
     {
       "no": 3711113,
       "kr": "증가하는 치명타 위력이 <1111332.VALUE>로 변경된다. 추가로 자신을 포함한 힘 특성 정령 모두에게 <1111333.DURATION>초 동안 공격력 <1111333.VALUE>, 방어력 <1111334.VALUE>>를 증가시키는 <COLOR=#FFFFFF><곰의 기운></COLOR> 효과를 부여한다.",
-      "en": "",
+      "en": "Crit DMG increase changes to <1111332.VALUE>. Also grants the <COLOR=#FFFFFF>\"Bear Energy\"</COLOR> buff to all STR allies including herself, increasing their ATK by <1111333.VALUE> and DEF by <1111334.VALUE> for <1111333.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為暴擊威力增加<1111332.VALUE>，額外對包含自身在內的所有力量特性精靈賦予<COLOR=#FFFFFF>＜熊能能量＞</COLOR>效果，<1111333.DURATION>秒內使攻擊力增加<1111333.VALUE>、防禦力增加<1111334.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 3711114,
       "kr": "증가하는 방어력이 <1111432.VALUE>, 치명타 확률이 <1111434.VALUE> 변경된다.",
-      "en": "",
+      "en": "DEF increase changes to <1111432.VALUE>, Crit Rate increase changes to <1111434.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為防禦力增加<1111432.VALUE>、暴擊率增加<1111434.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 3711115,
       "kr": "피해량이 <1111531.VALUE>로 추가 피해량이 <1111533.VALUE>로 변경된다. 만약 자신이 <COLOR=#FFFFFF><곰강불괴></COLOR> 상태라면 추가 피해가 대상 주변 3m의 모든 적을 대상으로 피해를 입힌다.",
-      "en": "",
+      "en": "Damage changes to <1111531.VALUE>, and additional damage changes to <1111533.VALUE>. If <COLOR=#FFFFFF>\"Bearly Alive\"</COLOR> is active, the additional damage is dealt to all enemies within 3m of the target.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1111531.VALUE>的傷害量、造成<1111533.VALUE>的額外傷害量。若自身處於<COLOR=#FFFFFF>＜熊剛不壞＞</COLOR>狀態，對目標周遭3m的所有敵人造成額外傷害",
       "zh_cn": ""
     },
     {
@@ -49547,81 +49563,81 @@
     {
       "no": 3713051,
       "kr": "피해량이 <1305131.VALUE>로 변경되고, <COLOR=#FFFFFF><엔젤 터치>, <데빌 터치></COLOR>를 동시에 보유하고 있을 경우 공격이 반드시 치명타로 발생하며, 공격력 <1305133.VALUE>의 추가 피해를 입힌다.",
-      "en": "",
+      "en": "Damage changes to <1305131.VALUE>. If the enemy has both <COLOR=#FFFFFF>\"Angel's Touch\" and \"Devil's Touch,\"</COLOR> this attack is guaranteed to land as a critical hit and deals additional damage equal to <1305133.VALUE> of ATK.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1305131.VALUE>的傷害量。若同時持有<COLOR=#FFFFFF>＜天使之手＞、＜惡魔之手＞</COLOR>，攻擊必會發動暴擊，造成攻擊力<1305133.VALUE>的額外傷害",
       "zh_cn": ""
     },
     {
       "no": 3713052,
       "kr": "피해량이 <1305231.VALUE>로 변경되고, 대상이 <COLOR=#FFFFFF><데빌 터치></COLOR>를 보유하고 있을 경우 공격력 <1305232.VALUE>의 추가 피해를 입힌다.",
-      "en": "",
+      "en": "Damage changes to <1305231.VALUE>. Deals additional damage equal to <1305232.VALUE> of ATK if the enemy has <COLOR=#FFFFFF>\"Devil's Touch.\"</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1305231.VALUE>的傷害量。若目標持有<COLOR=#FFFFFF>＜惡魔之手＞</COLOR>，造成攻擊力<1305232.VALUE>的額外傷害",
       "zh_cn": ""
     },
     {
       "no": 3713053,
       "kr": "피해량이 <1305331.VALUE>로 변경되고, 대상이 <COLOR=#FFFFFF><엔젤 터치></COLOR>를 보유하고 있을 경우 공격력 <1305332.VALUE>의 추가 피해를 입힌다.",
-      "en": "",
+      "en": "Damage changes to <1305331.VALUE>. Deals additional damage equal to <1305332.VALUE> of ATK if the enemy has <COLOR=#FFFFFF>\"Angel's Touch.\"</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1305331.VALUE>的傷害量。若目標持有<COLOR=#FFFFFF>＜天使之手＞</COLOR>，造成攻擊力<1305332.VALUE>的額外傷害",
       "zh_cn": ""
     },
     {
       "no": 3713054,
       "kr": "<COLOR=#FFFFFF><엔젤 터치></COLOR> 효과를 가진 적을 일반 공격으로 공격 시 <1305031.DURATION>초 동안 가속이 <1305031.VALUE> 증가하고, <COLOR=#FFFFFF><데빌 터치></COLOR> 효과를 가진 적을 일반 공격으로 공격 시 <1305032.DURATION>초 동안 자신의 가하는 피해를 <1305032.VALUE> 증가시킨다.",
-      "en": "",
+      "en": "Normal attack against an enemy inflicted with <COLOR=#FFFFFF>\"Angel's Touch\"</COLOR> increases Kanna's Speed by <1305031.VALUE> for <1305031.DURATION> sec. Normal attack against an enemy inflicted with <COLOR=#FFFFFF>\"Devil's Touch\"</COLOR> increases Kanna's damage dealt by <1305032.VALUE> for <1305032.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "對持有<COLOR=#FFFFFF>＜天使之手＞</COLOR>效果的敵人發動一般攻擊時，<1305031.DURATION>秒內加速增加<1305031.VALUE>。對持有<COLOR=#FFFFFF>＜惡魔之手＞</COLOR>效果的敵人發動一般攻擊時，<1305032.DURATION>秒內使自身造成傷害增加<1305032.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 3713055,
       "kr": "피해량이 <1305531.VALUE>로 변경되고, 매혹의 지속시간이 <1305532.DURATION>초, 받는 최종 피해 증가량이 <1305533.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <1305531.VALUE>. Charm duration changes to <1305532.DURATION> sec. Total damage received increase changes to <1305533.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1305531.VALUE>的傷害，魅惑持續<1305532.DURATION>秒，所受最終傷害量增加<1305533.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 3713061,
       "kr": "피해량이 <1306131.VALUE>로 변경되고, 자신의 버프가 <COLOR=#FFFFFF>6</COLOR>개 이상일 경우 자신의 마나를 <1306136.VALUE> 회복한다.",
-      "en": "",
+      "en": "Damage changes to <1306131.VALUE>. Restores <1306136.VALUE> Mana if she has <COLOR=#FFFFFF>6</COLOR> or more active buffs.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1306131.VALUE>的傷害，若自身的增益在<COLOR=#FFFFFF>6</COLOR>個以上時，恢復自身魔力<1306136.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 3713062,
       "kr": "피해량이 <1306231.VALUE>, 추가 피해량이 <1306232.VALUE>로 변경되고, 자신에게 가속 버프가 부여되었다면 대상의 가속을 <1306233.DURATION>초 동안 <1306233.VALUE> 감소시킨다.",
-      "en": "",
+      "en": "Damage changes to <1306231.VALUE>, and additional damage changes to <1306232.VALUE>. Decreases the target's Speed by <1306233.VALUE> for <1306233.DURATION> sec if Edith has an active Speed buff.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1306231.VALUE>的傷害，造成<1306232.VALUE>的額外傷害，若自身被賦予加速增益效果，<1306233.DURATION>秒內使目標加速減少<1306233.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 3713063,
       "kr": "피해량이 <1306331.VALUE>로 변경되고, 자신에게 방어력 혹은 물리/마법 저항 버프가 부여되었다면 공격력 <1306332.VALUE>의 방어를 완전히 무시하는 추가 피해를 입히고, 대상의 방어력을 <1306333.DURATION>초 동안 <1306333.VALUE> 감소시킨다.",
-      "en": "",
+      "en": "Damage changes to <1306331.VALUE>. If she has an active DEF or Physical/Magic Resistance buff, deals additional damage equal to <1306332.VALUE> of ATK that completely ignores DEF. and decreases the target's DEF by <1306333.VALUE> for <1306333.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1306331.VALUE>的傷害，若自身被賦予防禦力或物理／魔法抵抗增益效果，完全無視攻擊力<1306332.VALUE>的防禦並造成額外傷害。目標的防禦力減少<1306333.VALUE>，持續<1306333.DURATION>秒",
       "zh_cn": ""
     },
     {
       "no": 3713064,
       "kr": "피해량이 <1306430.VALUE>로 변경되고, 발동 시 자신의 스킬 순서를 <COLOR=#FFFFFF><팡트></COLOR>로 변경한다.",
-      "en": "",
+      "en": "Damage changes to <1306430.VALUE>. Upon activation, changes the next skill on the rotation to <COLOR=#FFFFFF>\"Fente.\"</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1306430.VALUE>的傷害，發動時將自身技能順序變更為<COLOR=#FFFFFF>＜長刺＞</COLOR>",
       "zh_cn": ""
     },
     {
       "no": 3713065,
       "kr": "피해량이 <1306531.VALUE>로 변경되고, 버프가 <COLOR=#FFFFFF>7개 이상</COLOR> 일 경우 피해량이 <COLOR=#FFFFFF>4.5</COLOR>배로 증가한다.",
-      "en": "",
+      "en": "Damage changes to <1306531.VALUE>. Damage multiplier increases to <COLOR=#FFFFFF>4.5</COLOR>x if she has <COLOR=#FFFFFF>7 or more</COLOR> active buffs.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<1306531.VALUE>的傷害，若持有<COLOR=#FFFFFF>7個以上</COLOR>增益效果，傷害量會增為<COLOR=#FFFFFF>4.5</COLOR>倍",
       "zh_cn": ""
     },
     {
@@ -54059,57 +54075,57 @@
     {
       "no": 34320841,
       "kr": "맛 좋은 떡",
-      "en": "",
+      "en": "Tasty Rice Cake",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "美味年糕",
       "zh_cn": ""
     },
     {
       "no": 34320842,
       "kr": "떡이나 먹어라!",
-      "en": "",
+      "en": "Just Eat Rice Cake!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "吃我的年糕啦！",
       "zh_cn": ""
     },
     {
       "no": 34320843,
       "kr": "찹쌀떡 폭탄",
-      "en": "",
+      "en": "Sticky Rice Cake Bomb",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "糯米糕炸彈",
       "zh_cn": ""
     },
     {
       "no": 34320844,
       "kr": "떡 찧기!",
-      "en": "",
+      "en": "Rice Cake Pounding!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "搗年糕！",
       "zh_cn": ""
     },
     {
       "no": 34320846,
       "kr": "가래떡 맛 좀 봐라!",
-      "en": "",
+      "en": "Taste This Rice Cake Stick!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "嘗嘗年糕條的滋味！",
       "zh_cn": ""
     },
     {
       "no": 34320891,
       "kr": "자폭",
-      "en": "",
+      "en": "Self-Detonation",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "自爆",
       "zh_cn": ""
     },
     {
       "no": 34320901,
       "kr": "맛 좋은 가래떡",
-      "en": "",
+      "en": "Tasty Rice Cake Stick",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "美味年糕條",
       "zh_cn": ""
     },
     {
@@ -54627,49 +54643,49 @@
     {
       "no": 34600121,
       "kr": "복주머니 강타",
-      "en": "",
+      "en": "Lucky Pouch Strike",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "福袋猛擊",
       "zh_cn": ""
     },
     {
       "no": 34600122,
       "kr": "행패",
-      "en": "",
+      "en": "Havoc",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "逞凶",
       "zh_cn": ""
     },
     {
       "no": 34600123,
       "kr": "수탈",
-      "en": "",
+      "en": "Pillage",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "搶奪",
       "zh_cn": ""
     },
     {
       "no": 34600124,
       "kr": "난리",
-      "en": "",
+      "en": "Ruckus",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "騷動",
       "zh_cn": ""
     },
     {
       "no": 34600125,
       "kr": "과욕",
-      "en": "",
+      "en": "Avarice",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "貪婪",
       "zh_cn": ""
     },
     {
       "no": 34661041,
       "kr": "이차원의 마녀와 야수",
-      "en": "",
+      "en": "The Witch and the Beast",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "異次元的魔女與野獸",
       "zh_cn": ""
     },
     {
@@ -56642,58 +56658,58 @@
     },
     {
       "no": 35320841,
-      "kr": "절구로 바닥을 내리 찧어 모든 적에게 공격력 <3284110.VALUE>의 피해를 입히고, 맵 중앙에 맛 좋은 가래떡을 소환한다.\r\n소환된 맛 좋은 가래떡은 <COLOR=#FFFFFF>2</COLOR>초 마다 <3290111.DURATION>초 동안 떡공장장 순이의 물리/마법 저항을 <3290111.VALUE> 증가시키는 <COLOR=#FFFFFF><맛 좋은 가래떡!></COLOR> 효과를 부여한다.",
-      "en": "",
+      "kr": "절구로 바닥을 내리 찧어 모든 적에게 공격력 <3284110.VALUE>의 피해를 입히고, 맵 중앙에 맛 좋은 가래떡을 소환한다.\r\n소환된 맛 좋은 가래떡은 <COLOR=#FFFFFF>6</COLOR>초 마다 <3290111.DURATION>초 동안 떡공장장 순이의 물리/마법 저항을 <3290111.VALUE> 증가시키는 <COLOR=#FFFFFF><맛 좋은 가래떡!></COLOR> 효과를 부여한다.",
+      "en": "Pounds the ground with a mortar, dealing damage equal to <3284110.VALUE> of ATK to all enemies and summoning a Tasty Rice Cake Stick in the center of the map.\r\nThe summoned Tasty Rice Cake Stick grants <COLOR=#FFFFFF>\"Tasty Rice Cake Stick!\"</COLOR> to Rice Cake Maker Soonie every <COLOR=#FFFFFF>6</COLOR> sec, which increases her Physical/Magic Resistance by <3290111.VALUE> for <3290111.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "用石臼猛擊地面，對所有敵人造成攻擊力<3284110.VALUE>的傷害，並在地圖中央召喚一塊美味的年糕條。\r\n被召喚的美味年糕條將賦予<COLOR=#FFFFFF>＜美味年糕條！＞</COLOR>效果，使年糕工廠廠長順伊的物理／魔法抵抗在<COLOR=#FFFFFF>6</COLOR>秒內每 <3290111.DURATION>秒增加<3290111.VALUE>。",
       "zh_cn": ""
     },
     {
       "no": 35320842,
       "kr": "모든 적에게 떡을 집어 던져 공격력 <3284210.VALUE>의 피해를 입히고, 6초 동안 가하는 피해가 <3284211.VALUE> 감소하는 <COLOR=#FFFFFF><배부름></COLOR> 효과를 부여한다. (해제 가능)",
-      "en": "",
+      "en": "Throws rice cakes at all enemies, dealing damage equal to <3284210.VALUE> of ATK and inflicting <COLOR=#FFFFFF>\"Stuffed\"</COLOR> on them, which decreases their damage dealt by <3284211.VALUE> for 6 sec (can be canceled).",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "向所有敵人投擲年糕，造成攻擊力<3284210.VALUE>的傷害，並賦予<COLOR=#FFFFFF>＜飽腹感＞</COLOR>效果，6秒內減少造成傷害<3284211.VALUE>（可解除）",
       "zh_cn": ""
     },
     {
       "no": 35320843,
       "kr": "절구에 있는 찹쌀떡을 소환하여 맵에 흩뿌린다.\r\n찹쌀떡을 <3289110.DURATION>초 내로 처치하지 못하면 찹쌀떡 하나 당 공격력 <3289111.VALUE>의 피해를 입히고, <3289112.DURATION>초 동안 가속이 <3289112.VALUE> 감소하는 <COLOR=#FFFFFF><끈적한 찹쌀></COLOR> 효과를 부여한다.",
-      "en": "",
+      "en": "Summons Sticky Rice Cakes from the mortar and spreads them across the map.\r\nIf not defeated within <3289110.DURATION> sec, each Sticky Rice Cake deals damage equal to <3289111.VALUE> of ATK to all enemies and inflicts them with <COLOR=#FFFFFF>\"Sticky Rice\"</COLOR> which decreases Speed by <3289112.VALUE> for <3289112.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "召喚臼中的糯米糕並將其撒向地圖各處。\r\n若在<3289110.DURATION>秒內無法擊殺，每一個糯米糕將造成攻擊力<3289111.VALUE>的傷害，並賦予<3289112.DURATION>秒內使加速減少<3289112.VALUE>的<COLOR=#FFFFFF>＜黏黏糯米＞</COLOR>效果",
       "zh_cn": ""
     },
     {
       "no": 35320844,
       "kr": "떡 공장장 순이의 기본 공격은 절구로 땅을 찍어 만든 충격파로 모든 적을 공격력 <3284010.VALUE>의 피해로 공격한다.",
-      "en": "",
+      "en": "Ricecake Maker Soonie's normal attack slams the ground with a pestle, unleashing a shockwave that deals damage equal to <3284010.VALUE> of ATK to all enemies.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "年糕工廠廠長順伊的基本攻擊是使用石杵敲擊地面製造衝擊波，對所有敵人造成攻擊力<3284010.VALUE>的傷害",
       "zh_cn": ""
     },
     {
       "no": 35320846,
       "kr": "떡공장장 순이가 비축해뒀던 가래떡이 하늘에서 떨어진다!\r\n<3284611.DURATION>초 마다 모든 아군을 대상으로 가래떡이 떨어져 공격력 <3284612.VALUE>의 피해를 입힌다.",
-      "en": "",
+      "en": "Ricecake Maker Soonie's stockpile of Rice Cake Sticks rains down from the sky!\r\nEvery <3284611.DURATION> sec, Rice Cake Sticks fall on all enemies, dealing damage equal to <3284612.VALUE> of ATK.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "年糕工廠廠長順伊儲存的年糕條從天而降！\r\n每<3284611.DURATION>秒所有友軍將受到年糕條的攻擊，造成攻擊力<3284612.VALUE>的傷害",
       "zh_cn": ""
     },
     {
       "no": 35320891,
       "kr": "<3289110.DURATION>초 내로 처치하지 못하면 찹쌀떡 하나 당 공격력 <3289111.VALUE>의 피해를 입히고, <3289112.DURATION>초 동안 가속이 <3289112.VALUE> 감소하는 <COLOR=#FFFFFF><끈적한 찹쌀></COLOR> 효과를 부여한다.",
-      "en": "",
+      "en": "If not defeated within <3289110.DURATION> sec, each Sticky Rice Cake deals damage equal to <3289111.VALUE> of ATK and inflicts <COLOR=#FFFFFF>\"Sticky Rice\"</COLOR> which decreases Speed by <3289112.VALUE> for <3289112.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "若在<3289110.DURATION>秒內無法擊殺，每一個糯米糕將造成攻擊力<3289111.VALUE>的傷害，並賦予<3289112.DURATION>秒內使加速減少<3289112.VALUE>的<COLOR=#FFFFFF>＜黏黏糯米＞</COLOR>效果",
       "zh_cn": ""
     },
     {
       "no": 35320901,
-      "kr": "<COLOR=#FFFFFF>2</COLOR>초마다 <3290111.DURATION>초 동안 떡공장장 순이의 물리/마법 저항을 <3290111.VALUE> 증가시키는 <COLOR=#FFFFFF><맛 좋은 가래떡!></COLOR> 효과를 부여한다.",
-      "en": "",
+      "kr": "<COLOR=#FFFFFF>6</COLOR>초마다 <3290111.DURATION>초 동안 떡공장장 순이의 물리/마법 저항을 <3290111.VALUE> 증가시키는 <COLOR=#FFFFFF><맛 좋은 가래떡!></COLOR> 효과를 부여한다.",
+      "en": " Grants <COLOR=#FFFFFF>\"Tasty Rice Cake Stick!\"</COLOR> to Rice Cake Factory Chief Soonie every <COLOR=#FFFFFF>6</COLOR> sec, increasing her Physical/Magic Resistance by <3290111.VALUE> for <3290111.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "賦予<COLOR=#FFFFFF>＜美味年糕條！＞</COLOR>效果，使年糕工廠廠長順伊的物理／魔法抵抗在<3290111.DURATION>秒內每<COLOR=#FFFFFF>2</COLOR>秒增加<3290111.VALUE>",
       "zh_cn": ""
     },
     {
@@ -57203,49 +57219,49 @@
     {
       "no": 35600121,
       "kr": "복주머니를 휘둘러 모든 적에게 공격력 <6001211.VALUE>의 피해를 입힌다. 만약 자신에게 <COLOR=#FFFFFF><빼앗은 엽전></COLOR> 버프가 있을 경우 복주머니가 더욱 무거워져 1중첩 당 공격력 <6001212.VALUE>의 추가 피해를 입힌다. (최대 5중첩까지 피해 증가), 3중첩 이상일 경우에는 모든 정령을 <6001217.DURATION>초 동안 기절 상태로 만든다.",
-      "en": "",
+      "en": "Swings the lucky pouch around, dealing damage equal to <6001211.VALUE> of ATK to all enemies. If the <COLOR=#FFFFFF>\"Pilfered Brass Coin\"</COLOR> buff is active, the lucky pouch becomes heavier, dealing additional damage equal to <6001212.VALUE> of ATK per stack (damage increases up to 5 stacks). Stuns all Souls for <6001217.DURATION> sec at 3 or more stacks.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "揮動福袋對所有敵人造成攻擊力<6001211.VALUE>的傷害。若自身具有<COLOR=#FFFFFF>＜搶來的銅錢＞</COLOR>增益，福袋會變得更沉重，每疊加1次額外造成攻擊力<6001212.VALUE>的傷害。（增加傷害疊加上限5）疊加3次以上時，所有精靈陷入暈眩狀態<6001217.DURATION>秒",
       "zh_cn": ""
     },
     {
       "no": 35600122,
       "kr": "탐관오리 클로이가 모든 적에게 공격력 <6001221.VALUE>의 피해를 입히고, 피해를 입은 모든 대상에게 <COLOR=#FFFFFF><엽전></COLOR> 효과를 부여한다.<COLOR=#FFFFFF><엽전></COLOR>을 보유한 동안에는 <COLOR=#FFFFFF><엽전></COLOR> 1중첩 당, 일반 공격 및 서브 스킬의 위력이 <COLOR=#FFFFFF>50%</COLOR> 증가하며, 대상이 메인 스킬을 사용하면 탐관오리 클로이에게 보유한 모든 <COLOR=#FFFFFF><엽전></COLOR>을 소모해 탐관오리 클로이의 현재 공격력에 비례한 피해를 입힌다. (최대 3중첩) <COLOR=#FFFFFF><엽전></COLOR>을 하나씩 던지는 것 보다 한번에 많은 엽전을 던지면 피해가 매우 커지므로 기회를 노려보자!",
-      "en": "",
+      "en": "Corrupt Official Chloe deals damage equal to <6001221.VALUE> of ATK to all enemies and applies <COLOR=#FFFFFF>\"Brass Coin\"</COLOR> on all affected targets. While <COLOR=#FFFFFF>\"Brass Coin\"</COLOR> is active on a Soul, the effectiveness of her normal attack and sub skills is increased by <COLOR=#FFFFFF>50%</COLOR> per stack, and using the main skill consumes all stacks of <COLOR=#FFFFFF>\"Brass Coin\"</COLOR> to deal damage proportional to the current ATK of Corrupt Official Chloe (up to 3 stacks). Throwing multiple <COLOR=#FFFFFF>\"Brass Coins\"</COLOR> deals significantly more damage than tossing a single Brass Coin, so time it wisely!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "貪官汙吏克羅伊對所有敵人造成攻擊力<6001221.VALUE>的傷害，並對所有受到傷害的目標賦予<COLOR=#FFFFFF>＜銅錢＞</COLOR>效果。具有<COLOR=#FFFFFF>＜銅錢＞</COLOR>效果時，每疊加1<COLOR=#FFFFFF>＜銅錢＞</COLOR>，一般攻擊和輔助技能威力增加<COLOR=#FFFFFF>50%</COLOR>，若目標使用主要技能，將會消耗貪官汙吏克羅伊所持有的全部<COLOR=#FFFFFF>＜銅錢＞</COLOR>，並造成與貪官汙吏克羅伊目前攻擊力成比例的傷害。（疊加上限3）一次扔出許多<COLOR=#FFFFFF>＜銅錢＞</COLOR>會比單一攻擊帶來更大的傷害，不要錯過這個機會！",
       "zh_cn": ""
     },
     {
       "no": 35600123,
       "kr": "모든 적에게 공격력 <6001231.VALUE>의 피해를 입히고, 적이 가진 모든 <COLOR=#FFFFFF><엽전></COLOR>을 빼앗아 <COLOR=#FFFFFF><빼앗은 엽전></COLOR>을 부여한다. <COLOR=#FFFFFF><빼앗은 엽전></COLOR> 하나 당 가하는 피해량이 <6001234.VALUE> 증가한다.",
-      "en": "",
+      "en": "Deals damage equal to <6001231.VALUE> of ATK to all enemies and takes away all <COLOR=#FFFFFF>\"Brass Coin\"</COLOR> stacks from them, gaining a stack of <COLOR=#FFFFFF>\"Pilfered Brass Coin\"</COLOR> for each pilfered coin stack. Her damage dealt is increased by <6001234.VALUE> for every active <COLOR=#FFFFFF>\"Pilfered Brass Coin\"</COLOR> on her.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "對所有敵人造成攻擊力<6001231.VALUE>的傷害，奪走敵人持有的全部<COLOR=#FFFFFF>＜銅錢＞</COLOR>並賦予<COLOR=#FFFFFF>＜搶來的銅錢＞</COLOR>。<COLOR=#FFFFFF>＜搶來的銅錢＞</COLOR>每個造成的傷害量增加<6001234.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 35600124,
       "kr": "탐관오리 클로이가 곤봉으로 형을 내려 모든 적에게 공격력 <6001241.VALUE>의 피해를 입히고, <6001242.DURATION>초 동안 물리 저항 <6001242.VALUE> 감소 효과를 부여한다.",
-      "en": "",
+      "en": "Corrupt Official Chloe wields her club, dealing damage equal to <6001241.VALUE> of ATK to all enemies and decreasing their Physical Resistance by <6001242.VALUE> for <6001242.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "貪官汙吏克羅伊以棍棒對所有敵人降下刑罰，造成攻擊力<6001241.VALUE>的傷害，並賦予物理抵抗減少<6001242.VALUE>的效果，持續<6001242.DURATION>秒",
       "zh_cn": ""
     },
     {
       "no": 35600125,
       "kr": "탐관오리 클로이가 <COLOR=#FFFFFF><탐욕></COLOR>을 <COLOR=#FFFFFF>8</COLOR>중첩 부여 받을 경우 자신의 모든 <COLOR=#FFFFFF><탐욕></COLOR> 및 <COLOR=#FFFFFF><빼앗은 엽전></COLOR> 효과를 제거하고 <6001272.DURATION>초 동안 기절 상태에 빠진다.\r\n기절에 빠진 동안에는 받는 피해가 <6001273.VALUE> 증폭된다.",
-      "en": "",
+      "en": "When Corrupt Official Chloe's <COLOR=#FFFFFF>\"Avarice\"</COLOR> reaches <COLOR=#FFFFFF>8</COLOR> stacks, all her <COLOR=#FFFFFF>\"Avarice\"</COLOR> and <COLOR=#FFFFFF>\"Pilfered Brass Coin\"</COLOR> stacks are lost, and she is stunned for <6001272.DURATION> sec.\r\nHer total damage received in amplified by <6001273.VALUE> while she is stunned.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "貪官汙吏克羅伊受到<COLOR=#FFFFFF>＜貪婪＞</COLOR>疊加<COLOR=#FFFFFF>8</COLOR>次時，解除自身所有<COLOR=#FFFFFF>＜貪婪＞</COLOR>及<COLOR=#FFFFFF>＜搶來的銅錢＞</COLOR>效果並陷入暈眩狀態，持續<6001272.DURATION>秒。\r\n陷入暈眩時所受傷害會增幅<6001273.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 35661042,
-      "kr": "야수는 마녀를 해하려는 구원자 또한 자신을 구속시킨 인간과 다름없음을 깨달았고, 구원자를 갈기갈기 찢어 마녀를 구해냈다. 구원자가 사라지자 종말의 별은 떨어져 모든 것을 삼켰고... 둘만 남은 세계로부터 야수는 마녀와 영원히 함께할 것을 다짐했다. \r\n\r\n<COLOR=#E0942C>모두를 구원한다는 약속만 지켰어도 이런 일은 일어나지 않았을 것이다.</COLOR>\r\n\r\n<COLOR=#FFFFFF>당신은 다르다는 것을 증명할 수 있는가?</COLOR>",
-      "en": "",
+      "kr": "마녀는 구원의 권능을 찬탈하고자 했다. 야수는 기꺼이 마녀를 도왔으며, 그녀를 구해냈다. 언젠가 마녀가 야수의 우리를 부수고 자유를 주었던 것처럼. 야수는 마녀에게 자유를 주고 싶었다. 하지만 그것은 재앙의 시작이 되고 말았다. 구원자가 사라지자 종말의 별은 떨어져 모든 것을 삼켰고… 둘만 남은 세계로부터 야수는 마녀와 영원히 함께할 것을 다짐했다.\r\n\r\n<COLOR=#EDA900>자유를 찾아 헤매는 이들에게 평안한 안식을.</COLOR>\r\n\r\n<COLOR=#FFFFFF>언제나 그랬듯이, 그들을 구원할 수 있는 건 당신뿐이다.</COLOR>",
+      "en": "The Witch sought to seize the power of Salvation. The Beast readily assisted her and saved her. Just as the Witch had once shattered the Beast's prison and granted her freedom, the Beast wanted to make the Witch free. However, that choice brought about disaster. With the Savior gone, the Star of the End descended, devouring all... With just the two of them remaining in the whole world, the Beast resolved to stay with the Witch forever.\r\n\r\n<COLOR=#EDA900>May those wandering in search of freedom find restful peace.</COLOR>\r\n\r\n<COLOR=#FFFFFF>As usual, you're the only one who can save them.</COLOR>\r\n",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "魔女試圖篡奪救援的權能。野獸欣然幫助魔女，並將她救了出來。就像魔女曾經破壞野獸的牢籠，讓她重獲自由一樣，野獸也想給魔女自由。然而，那成為了災厄的開端。救援者一消失，末日之星就掉落吞噬了一切…在只剩她們兩人的世界裡，野獸下定決心要永遠和魔女待在一起。\r\n\r\n<COLOR=#EDA900>將平穩的安息帶給尋尋覓覓著自由的人們。</COLOR>\r\n\r\n<COLOR=#FFFFFF>一如既往，能救援她們的只有你。</COLOR>\r\n",
       "zh_cn": ""
     },
     {
@@ -57387,57 +57403,57 @@
     {
       "no": 36320841,
       "kr": "피해량이 <3284120.VALUE>로, 증가하는 물리/마법 저항이 <3290121.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <3284120.VALUE>, and Physical/Magic Resistance increase changes to <3290121.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<3284120.VALUE>的傷害量，物理／魔法抵抗增加<3290121.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 36320842,
       "kr": "피해량이 <3284220.VALUE>로 변경되고, 감소하는 가하는 피해가 <3284221.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <3284220.VALUE>. Damage dealt decrease changes to <3284221.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<3284220.VALUE>的傷害量，造成傷害減少<3284221.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 36320843,
       "kr": "피해량이 <3289121.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <3289121.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<3289121.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 36320844,
       "kr": "피해량이 <3284020.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <3284020.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<3284020.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 36320846,
       "kr": "피해량이 <3284622.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <3284622.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成 <3284622.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 36320891,
       "kr": "피해량이 <3289121.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <3289121.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<3289121.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 36320901,
       "kr": "증가하는 물리/마법 저항이 <3290121.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Physical/Magic Resistance increase changes to <3290121.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為物理／魔法抵抗增加<3290121.VALUE>",
       "zh_cn": ""
     },
     {
@@ -57867,57 +57883,57 @@
     {
       "no": 37320841,
       "kr": "피해량이 <3284130.VALUE>로, 증가하는 물리/마법 저항이 <3290131.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <3284130.VALUE>, and Physical/Magic Resistance increase changes to <3290131.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<3284130.VALUE>的傷害量，物理／魔法抵抗增加<3290131.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 37320842,
       "kr": "피해량이 <3284230.VALUE>로 변경되고, 감소하는 가하는 피해가 <3284231.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <3284230.VALUE>. Damage dealt decrease changes to <3284231.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<3284230.VALUE>的傷害量，造成傷害減少<3284231.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 37320843,
       "kr": "피해량이 <3289131.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <3289131.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<3289131.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 37320844,
       "kr": "피해량이 <3284030.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <3284030.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<3284030.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 37320846,
       "kr": "피해량이 <3284632.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <3284632.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<3284632.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 37320891,
       "kr": "피해량이 <3289131.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <3289131.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<3289131.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 37320901,
       "kr": "증가하는 물리/마법 저항이 <3290131.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Physical/Magic Resistance increase changes to <3290131.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為物理／魔法抵抗增加<3290131.VALUE>",
       "zh_cn": ""
     },
     {
@@ -58306,58 +58322,58 @@
     },
     {
       "no": 38320841,
-      "kr": "피해량이 <3284140.VALUE>로, 감소하는 물리/마법 저항이 <3290141.VALUE>%로 변경된다.",
-      "en": "",
+      "kr": "피해량이 <3284140.VALUE>로, 증가하는 물리/마법 저항이 <3290141.VALUE>%로 변경된다.",
+      "en": "Damage changes to <3284140.VALUE>, and Physical/Magic Resistance increase changes to <3290141.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<3284140.VALUE>的傷害量，物理／魔法抵抗增加<3290141.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 38320842,
       "kr": "피해량이 <3284240.VALUE>로 변경되고, 감소하는 가하는 피해가 <3284241.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <3284240.VALUE>. Damage dealt decrease changes to <3284241.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<3284240.VALUE>的傷害量，造成傷害減少<3284241.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 38320843,
       "kr": "피해량이 <3289141.VALUE>로, 감소하는 가속이 <3289142.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <3289141.VALUE>. Speed decrease changes to <3289142.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<3289141.VALUE>的傷害量，加速減少<3289142.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 38320844,
       "kr": "피해량이 <3284040.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <3284040.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<3284040.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 38320846,
       "kr": "피해량이 <3284642.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <3284642.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<3284642.VALUE>的傷害量",
       "zh_cn": ""
     },
     {
       "no": 38320891,
       "kr": "피해량이 <3289141.VALUE>로, 감소하는 가속이 <3289142.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <3289141.VALUE>. Speed decrease changes to <3289142.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<3289141.VALUE>的傷害量，加速減少<3289142.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 38320901,
       "kr": "증가하는 물리/마법 저항이 <3290141.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Physical/Magic Resistance increase changes to <3290141.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為物理／魔法抵抗增加<3290141.VALUE>",
       "zh_cn": ""
     },
     {
