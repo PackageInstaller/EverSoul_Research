@@ -1,0 +1,17 @@
+namespace StorySchedule;
+
+table Deserialization {
+    no: int32;
+    storytype: int32;
+    act: int32;
+    chapter: int32;
+    episode: int32;
+    open_date: string;
+    end_date: string;
+}
+
+table StorySchedule {
+    json: [Deserialization];
+}
+
+root_type StorySchedule;

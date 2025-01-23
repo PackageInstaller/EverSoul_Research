@@ -1,0 +1,17 @@
+namespace EventDefenseAttackSetting;
+
+table Deserialization {
+    no: int32;
+    attack_timeline: string;
+    motion_time: float;
+    search_range: float;
+    attack_range: float;
+    angle: int32;
+    use_rotate: int32;
+}
+
+table EventDefenseAttackSetting {
+    json: [Deserialization];
+}
+
+root_type EventDefenseAttackSetting;

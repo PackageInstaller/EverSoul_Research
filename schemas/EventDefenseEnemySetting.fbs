@@ -4,6 +4,8 @@ table Deserialization {
     no: int32;
     event_group: int32;
     prefab_path: string;
+    timeline_path: string;
+    timeline_name: string;
     monster_type: int32;
     scale: int32;
     movedelay: int32;

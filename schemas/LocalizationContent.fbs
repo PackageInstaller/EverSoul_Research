@@ -6,6 +6,7 @@ table Deserialization {
     asia: int32;
     us: int32;
     jp: int32;
+    cn: int32;
 }
 
 table LocalizationContent {

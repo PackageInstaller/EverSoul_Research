@@ -2,6 +2,7 @@ namespace CashShopUI;
 
 table Deserialization {
     no: int32;
+    category_no: int32;
     shop_no: string;
     name_sno: int32;
     tip_sno: int32;

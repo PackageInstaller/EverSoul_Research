@@ -6,7 +6,9 @@
       "guide_sno": 110617,
       "bg_path": "Movie/RaidBoss/GuildeRaid_Charite",
       "stage_no": 90003,
-      "bgm_path": "BGM_Charite_LOOP"
+      "bgm_path": "BGM_Charite_LOOP",
+      "practiceroom_view": 1,
+      "profile_view": 1
     },
     {
       "no": 2,
@@ -14,7 +16,9 @@
       "guide_sno": 110620,
       "bg_path": "Movie/RaidBoss/GuildeRaid_Gaia",
       "stage_no": 90004,
-      "bgm_path": "BGM_Battle_Boss_03"
+      "bgm_path": "BGM_Battle_Boss_03",
+      "practiceroom_view": 1,
+      "profile_view": 1
     },
     {
       "no": 3,
@@ -22,7 +26,9 @@
       "guide_sno": 110616,
       "bg_path": "Movie/RaidBoss/GuildeRaid_Ruthra",
       "stage_no": 90002,
-      "bgm_path": "BGM_Ruthra_LOOP"
+      "bgm_path": "BGM_Ruthra_LOOP",
+      "practiceroom_view": 1,
+      "profile_view": 1
     },
     {
       "no": 4,
@@ -30,7 +36,9 @@
       "guide_sno": 110638,
       "bg_path": "Movie/RaidBoss/GuildeRaid_DarkKnight",
       "stage_no": 90005,
-      "bgm_path": "BGM_DarkKnight"
+      "bgm_path": "BGM_DarkKnight",
+      "practiceroom_view": 1,
+      "profile_view": 1
     },
     {
       "no": 5,
@@ -38,7 +46,9 @@
       "guide_sno": 110664,
       "bg_path": "Movie/RaidBoss/GuildeRaid_Pluto",
       "stage_no": 90007,
-      "bgm_path": "BGM_Boss_Pluto"
+      "bgm_path": "BGM_Boss_Pluto",
+      "practiceroom_view": 1,
+      "profile_view": 1
     },
     {
       "no": 10001,

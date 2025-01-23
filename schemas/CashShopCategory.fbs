@@ -1,0 +1,15 @@
+namespace CashShopCategory;
+
+table Deserialization {
+    no: int32;
+    order: int32;
+    name_sno: int32;
+    bg_color: string;
+    name_color: string;
+}
+
+table CashShopCategory {
+    json: [Deserialization];
+}
+
+root_type CashShopCategory;
