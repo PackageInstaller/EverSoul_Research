@@ -1,0 +1,130 @@
+{
+  "json": [
+    {
+      "no": 32,
+      "raid_no": 4,
+      "server_check": 1,
+      "schedule_key": "GuildRaid_1_32"
+    },
+    {
+      "no": 33,
+      "raid_no": 2,
+      "server_check": 1,
+      "schedule_key": "GuildRaid_1_33"
+    },
+    {
+      "no": 34,
+      "raid_no": 5,
+      "server_check": 1,
+      "schedule_key": "GuildRaid_1_34"
+    },
+    {
+      "no": 35,
+      "raid_no": 10001,
+      "server_check": 1,
+      "schedule_key": "GuildRaid_1_35"
+    },
+    {
+      "no": 36,
+      "raid_no": 3,
+      "server_check": 1,
+      "schedule_key": "GuildRaid_1_36"
+    },
+    {
+      "no": 50032,
+      "raid_no": 4,
+      "server_check": 2,
+      "schedule_key": "GuildRaid_2_32"
+    },
+    {
+      "no": 50033,
+      "raid_no": 2,
+      "server_check": 2,
+      "schedule_key": "GuildRaid_2_33"
+    },
+    {
+      "no": 50034,
+      "raid_no": 5,
+      "server_check": 2,
+      "schedule_key": "GuildRaid_2_34"
+    },
+    {
+      "no": 50035,
+      "raid_no": 10001,
+      "server_check": 2,
+      "schedule_key": "GuildRaid_2_35"
+    },
+    {
+      "no": 50036,
+      "raid_no": 3,
+      "server_check": 2,
+      "schedule_key": "GuildRaid_2_36"
+    },
+    {
+      "no": 90107,
+      "raid_no": 1,
+      "server_check": 4,
+      "schedule_key": "GuildRaid_4_107"
+    },
+    {
+      "no": 90108,
+      "raid_no": 3,
+      "server_check": 4,
+      "schedule_key": "GuildRaid_4_108"
+    },
+    {
+      "no": 90109,
+      "raid_no": 4,
+      "server_check": 4,
+      "schedule_key": "GuildRaid_4_109"
+    },
+    {
+      "no": 90110,
+      "raid_no": 2,
+      "server_check": 4,
+      "schedule_key": "GuildRaid_4_110"
+    },
+    {
+      "no": 90111,
+      "raid_no": 5,
+      "server_check": 4,
+      "schedule_key": "GuildRaid_4_111"
+    },
+    {
+      "no": 90112,
+      "raid_no": 10001,
+      "server_check": 4,
+      "schedule_key": "GuildRaid_4_112"
+    },
+    {
+      "no": 100052,
+      "raid_no": 4,
+      "server_check": 3,
+      "schedule_key": "GuildRaid_3_52"
+    },
+    {
+      "no": 100053,
+      "raid_no": 2,
+      "server_check": 3,
+      "schedule_key": "GuildRaid_3_53"
+    },
+    {
+      "no": 100054,
+      "raid_no": 5,
+      "server_check": 3,
+      "schedule_key": "GuildRaid_3_54"
+    },
+    {
+      "no": 100055,
+      "raid_no": 10001,
+      "server_check": 3,
+      "schedule_key": "GuildRaid_3_55"
+    },
+    {
+      "no": 100056,
+      "raid_no": 3,
+      "server_check": 3,
+      "schedule_key": "GuildRaid_3_56"
+    }
+  ]
+}
