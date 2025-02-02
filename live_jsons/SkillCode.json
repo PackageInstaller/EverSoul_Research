@@ -61630,6 +61630,7 @@
       "target_key": 2208,
       "value": 3.0,
       "condition_type": 1,
+      "condition_id1": 415412,
       "fx_path": "none",
       "penetration": 4,
       "penetration_rate": 0.3
@@ -61640,9 +61641,32 @@
       "target_key": 2208,
       "value": 415112.0,
       "condition_type": 1,
+      "condition_id1": 415412,
       "fx_path": "none",
       "penetration": 4,
       "penetration_rate": 0.3
+    },
+    {
+      "no": 415113,
+      "function_key": 1,
+      "target_key": 2208,
+      "value": 3.0,
+      "condition_type": 1,
+      "condition_id1": 415422,
+      "fx_path": "none",
+      "penetration": 4,
+      "penetration_rate": 0.4
+    },
+    {
+      "no": 415114,
+      "function_key": 30,
+      "target_key": 2208,
+      "value": 415112.0,
+      "condition_type": 1,
+      "condition_id1": 415422,
+      "fx_path": "none",
+      "penetration": 4,
+      "penetration_rate": 0.4
     },
     {
       "no": 415118,
@@ -61670,10 +61694,10 @@
       "target_key": 2208,
       "value": 3.25,
       "condition_type": 1,
-      "condition_id1": 415412,
+      "condition_id1": 415422,
       "fx_path": "none",
       "penetration": 4,
-      "penetration_rate": 0.3
+      "penetration_rate": 0.4
     },
     {
       "no": 415122,
@@ -61681,10 +61705,10 @@
       "target_key": 2208,
       "value": 415112.0,
       "condition_type": 1,
-      "condition_id1": 415412,
+      "condition_id1": 415422,
       "fx_path": "none",
       "penetration": 4,
-      "penetration_rate": 0.3
+      "penetration_rate": 0.4
     },
     {
       "no": 415123,
@@ -61692,10 +61716,10 @@
       "target_key": 2208,
       "value": 3.25,
       "condition_type": 1,
-      "condition_id1": 415422,
+      "condition_id1": 415432,
       "fx_path": "none",
       "penetration": 4,
-      "penetration_rate": 0.4
+      "penetration_rate": 0.5
     },
     {
       "no": 415124,
@@ -61703,10 +61727,10 @@
       "target_key": 2208,
       "value": 415112.0,
       "condition_type": 1,
-      "condition_id1": 415422,
+      "condition_id1": 415432,
       "fx_path": "none",
       "penetration": 4,
-      "penetration_rate": 0.4
+      "penetration_rate": 0.5
     },
     {
       "no": 415131,
@@ -61714,10 +61738,9 @@
       "target_key": 2208,
       "value": 3.5,
       "condition_type": 1,
-      "condition_id1": 415422,
       "fx_path": "none",
       "penetration": 4,
-      "penetration_rate": 0.4
+      "penetration_rate": 0.5
     },
     {
       "no": 415132,
@@ -61725,29 +61748,6 @@
       "target_key": 2208,
       "value": 415112.0,
       "condition_type": 1,
-      "condition_id1": 415422,
-      "fx_path": "none",
-      "penetration": 4,
-      "penetration_rate": 0.4
-    },
-    {
-      "no": 415133,
-      "function_key": 1,
-      "target_key": 2208,
-      "value": 3.5,
-      "condition_type": 1,
-      "condition_id1": 415432,
-      "fx_path": "none",
-      "penetration": 4,
-      "penetration_rate": 0.5
-    },
-    {
-      "no": 415134,
-      "function_key": 30,
-      "target_key": 2208,
-      "value": 415112.0,
-      "condition_type": 1,
-      "condition_id1": 415432,
       "fx_path": "none",
       "penetration": 4,
       "penetration_rate": 0.5
@@ -62180,6 +62180,7 @@
       "target_key": 2212,
       "value": 3.4,
       "condition_type": 1,
+      "condition_id1": 415412,
       "move_effect_key": 19,
       "fx_path": "none",
       "penetration": 4,
@@ -62192,9 +62193,34 @@
       "value": 1.7,
       "condition_type": 1,
       "condition_id1": 415000,
+      "condition_id2": 415412,
       "fx_path": "none",
       "penetration": 4,
       "penetration_rate": 0.3
+    },
+    {
+      "no": 415513,
+      "function_key": 1,
+      "target_key": 2212,
+      "value": 3.4,
+      "condition_type": 1,
+      "condition_id1": 415422,
+      "move_effect_key": 19,
+      "fx_path": "none",
+      "penetration": 4,
+      "penetration_rate": 0.4
+    },
+    {
+      "no": 415514,
+      "function_key": 1,
+      "target_key": 2212,
+      "value": 1.7,
+      "condition_type": 1,
+      "condition_id1": 415000,
+      "condition_id2": 415422,
+      "fx_path": "none",
+      "penetration": 4,
+      "penetration_rate": 0.4
     },
     {
       "no": 415521,
@@ -62202,11 +62228,11 @@
       "target_key": 2212,
       "value": 3.7,
       "condition_type": 1,
-      "condition_id1": 415412,
+      "condition_id1": 415422,
       "move_effect_key": 19,
       "fx_path": "none",
       "penetration": 4,
-      "penetration_rate": 0.3
+      "penetration_rate": 0.4
     },
     {
       "no": 415522,
@@ -62215,10 +62241,10 @@
       "value": 1.85,
       "condition_type": 2,
       "condition_id1": 415000,
-      "condition_id2": 415412,
+      "condition_id2": 415422,
       "fx_path": "none",
       "penetration": 4,
-      "penetration_rate": 0.3
+      "penetration_rate": 0.4
     },
     {
       "no": 415523,
@@ -62226,11 +62252,11 @@
       "target_key": 2212,
       "value": 3.7,
       "condition_type": 1,
-      "condition_id1": 415422,
+      "condition_id1": 415432,
       "move_effect_key": 19,
       "fx_path": "none",
       "penetration": 4,
-      "penetration_rate": 0.4
+      "penetration_rate": 0.5
     },
     {
       "no": 415524,
@@ -62239,37 +62265,13 @@
       "value": 1.85,
       "condition_type": 2,
       "condition_id1": 415000,
-      "condition_id2": 415422,
+      "condition_id2": 415432,
       "fx_path": "none",
       "penetration": 4,
-      "penetration_rate": 0.4
+      "penetration_rate": 0.5
     },
     {
       "no": 415531,
-      "function_key": 1,
-      "target_key": 2212,
-      "value": 4.0,
-      "condition_type": 1,
-      "condition_id1": 415422,
-      "move_effect_key": 19,
-      "fx_path": "none",
-      "penetration": 4,
-      "penetration_rate": 0.4
-    },
-    {
-      "no": 415532,
-      "function_key": 1,
-      "target_key": 2212,
-      "value": 2.0,
-      "condition_type": 2,
-      "condition_id1": 415000,
-      "condition_id2": 415422,
-      "fx_path": "none",
-      "penetration": 4,
-      "penetration_rate": 0.4
-    },
-    {
-      "no": 415533,
       "function_key": 1,
       "target_key": 2212,
       "value": 4.0,
@@ -62281,7 +62283,7 @@
       "penetration_rate": 0.5
     },
     {
-      "no": 415534,
+      "no": 415532,
       "function_key": 1,
       "target_key": 2212,
       "value": 2.0,

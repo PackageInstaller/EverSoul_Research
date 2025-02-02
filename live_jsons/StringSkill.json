@@ -25529,6 +25529,30 @@
       "zh_cn": ""
     },
     {
+      "no": 346981,
+      "kr": "첫 번째 탄환 《알레프》",
+      "en": "First Bullet 《Aleph》",
+      "ja": "一の弾《アレフ》",
+      "zh_tw": "一之彈《Aleph》",
+      "zh_cn": "一之弹《Aleph》"
+    },
+    {
+      "no": 346982,
+      "kr": "불릿 댄스",
+      "en": "Bullet Dance",
+      "ja": "バレット・ダンス",
+      "zh_tw": "子彈之舞",
+      "zh_cn": "子弹之舞"
+    },
+    {
+      "no": 346983,
+      "kr": "캘러미티 불릿",
+      "en": "Calamity Bullet",
+      "ja": "カラミティ・バレット",
+      "zh_tw": "厄運子彈",
+      "zh_cn": "厄运子弹"
+    },
+    {
       "no": 346984,
       "kr": "《엘로힘》",
       "en": "Elohim",
@@ -26175,6 +26199,14 @@
       "ja": "",
       "zh_tw": "攻略弱點",
       "zh_cn": "攻略弱点"
+    },
+    {
+      "no": 349044,
+      "kr": "강철을 뚫어낼 각오",
+      "en": "Steel-Piercing Determination",
+      "ja": "鋼をも貫く",
+      "zh_tw": "鑿穿鋼鐵的覺悟",
+      "zh_cn": ""
     },
     {
       "no": 349045,
@@ -30313,6 +30345,30 @@
       "zh_cn": ""
     },
     {
+      "no": 356981,
+      "kr": "첫 번째 탄환 알레프를 자신에게 발사하고, 가장 가까운 적을 공격한다. 대상에게 공격력 <698111.VALUE>의 피해를 입히고 <698117.DURATION>초 동안 자신의 가속을 <698117.VALUE> 증가시킨다. 대상이 <COLOR=#FFFFFF><시간을 먹는 성></COLOR> 디버프 효과를 보유하고 있을 경우 스택마다 공격력 <698112.VALUE>의 추가 피해를 입힌다.",
+      "en": "Fires the First Bullet Aleph to herself, then attacks the nearest enemy. Deals damage equal to <698111.VALUE> of ATK to the target and increases her Speed by <698117.VALUE> for <698117.DURATION> sec. If the target is under the <COLOR=#FFFFFF>\"City of Devouring Time\"</COLOR> debuff, Kurumi deals additional damage equal to <698112.VALUE> of ATK per stack.",
+      "ja": "一の弾《アレフ》を自分に発射し、一番近い敵を攻撃する。対象に攻撃力<698111.VALUE>のダメージを与え、<698117.DURATION>秒間自分の加速を<698117.VALUE>増加させる。対象が<COLOR=#FFFFFF><時喰みの城></COLOR>デバフ効果を獲得している場合、スタックごとに攻撃力<698112.VALUE>の追加ダメージを与える。",
+      "zh_tw": "向自身發射一之彈Aleph，攻擊最近的敵人。對目標造成攻擊力<698111.VALUE>的傷害，並提升自身加速<698117.VALUE>，持續<698117.DURATION>秒。若目標持有<COLOR=#FFFFFF>＜食時之城＞</COLOR>減益效果，則每疊加造成攻擊力<698112.VALUE>的額外傷害",
+      "zh_cn": "向自身发射一之弹Aleph，攻击最近的敌人。对目标造成攻击力<698111.VALUE>的伤害，并提升自身加速<698117.VALUE>，持续<698117.DURATION>秒。若目标持有<COLOR=#FFFFFF>＜食时之城＞</COLOR>减益效果，则每层造成攻击力<698112.VALUE>的额外伤害"
+    },
+    {
+      "no": 356982,
+      "kr": "가장 가까운 적의 후방으로 이동한 뒤 주변 2.5m 범위의 적들을 춤을 추듯이 난사하여 공격력 <698212.VALUE>의 피해를 입히고 원래 위치로 돌아온다. <698214.DURATION>초 동안 회피가 <698214.VALUE> 증가하고 군중 제어 효과와 넉백 계열 효과에 면역 상태가 된다. 난사 후 이동을 위한 준비 자세를 취하기 전에 메인 스킬이나 얼티밋 스킬을 사용할 경우 해당 스킬을 사용한 후 이동한다.",
+      "en": "Darts behind the nearest enemy, then engages in a dance-like firing spree, dealing damage equal to <698212.VALUE> of ATK to enemies within a 2.5m radius, before returning to her initial position. Increases her Evasion by <698214.VALUE> and becomes immune to Knockback and crowd control effects for <698214.DURATION> sec. Using the main skill or the ultimate skill after the firing spree, but before she is ready to return to her initial position, makes her use the skill first before returning.",
+      "ja": "一番近い敵の後方に移動し、周辺2.5m範囲の敵たちを踊るように乱射し、攻撃力<698212.VALUE>のダメージを与えて元の位置に戻る。<698214.DURATION>秒間回避が<698214.VALUE>増加し、行動阻害効果とノックバック系効果を無効化する。乱射後の移動のための準備姿勢を取る前にメインスキルやアルティメットスキルを使用すると、そのスキルを使用してから移動する。",
+      "zh_tw": "移動到最接近的敵人後方，如跳舞般向2.5m範圍內的敵人亂槍掃射，造成攻擊力<698212.VALUE>的傷害後回到原位。迴避增加<698214.VALUE>，持續<698214.DURATION>秒，且對集體控制效果及擊退系列效果免疫。如果在掃射後準備移動前，使用了主要技能或終極技能，將在使用該技能後移動",
+      "zh_cn": "移动到最接近的敌人后方，如跳舞般向2.5米范围内的敌人乱枪扫射，造成攻击力<698212.VALUE>的伤害后回到原位。回避增加<698214.VALUE>，持续<698214.DURATION>秒，且对集体控制效果及击退系列效果免疫。如果在扫射后准备移动前，使用了主要技能或终极技能，将在使用该技能后移动"
+    },
+    {
+      "no": 356983,
+      "kr": "강력한 탄환을 발사하여 가장 가까운 적을 대상으로 폭 2.5m 길이 11m의 모든 적들에게 공격력 <698311.VALUE>의 피해를 입히고 <698312.DURATION>초 동안 방어력과 받는 회복량을 <698332.VALUE> 감소시킨다.",
+      "en": "Fires a devastating bullet aimed at the nearest enemy, dealing damage equal to <698311.VALUE> of ATK to all enemies within a 2.5m wide and 11m long area and decreasing their DEF and Recovery by <698332.VALUE> for <698312.DURATION> sec.",
+      "ja": "強力な弾を撃ち、一番近い敵を対象に、幅2.5m、長さ11mの敵全員に攻撃力<698311.VALUE>のダメージを与え、<698312.DURATION>秒間防御力と受ける回復量を<698332.VALUE>減少させる。",
+      "zh_tw": "以最接近的敵人為目標，發射強力子彈，對寬2.5m、長11m範圍內的所有敵人造成攻擊力<698311.VALUE>的傷害，並使防禦力和所受恢復量減少<698332.VALUE>，持續<698312.DURATION>秒",
+      "zh_cn": "以最接近的敌人为目标，发射强力子弹，对宽2.5米、长11米范围内的所有敌人造成攻击力<698311.VALUE>的伤害，并使防御力和所受恢复量减少<698332.VALUE>，持续<698312.DURATION>秒"
+    },
+    {
       "no": 356984,
       "kr": "가속된 시간 속에서 더 정밀하고 치명적인 공격을 할 수 있게 된다. 전투 시작 시 <698117.DURATION> 초 동안 가속이 <698117.VALUE> 증가하고 자신이 가속 효과를 받고 있을 경우 치명타 확률이 <698411.VALUE>, 치명타 위력이 <698413.VALUE> 증가한다.",
       "en": "In the flow of accelerated time, her attacks become more precise and lethal. When battle begins, increases her Speed by <698117.VALUE> for <698117.DURATION> sec. Increases her Crit Rate by <698411.VALUE> and Crit DMG by <698413.VALUE> if she has a Speed buff on her.",
@@ -30959,6 +31015,14 @@
       "ja": "",
       "zh_tw": "妖精型精靈的暴擊傷害增加1.5倍，暴擊率減少80%",
       "zh_cn": "妖精型精灵的暴击伤害增加1.5倍，暴击率减少80%"
+    },
+    {
+      "no": 359044,
+      "kr": "워리어/캐스터/레인저 정령의 가하는 피해 100% 증가",
+      "en": "Damage dealt by Warriors/Casters/Rangers +100%",
+      "ja": "ウォーリア/キャスター/レンジャー精霊の与えるダメージ100%増加",
+      "zh_tw": "戰士／魔法師／遊俠精靈的造成傷害增加100%",
+      "zh_cn": ""
     },
     {
       "no": 359045,
@@ -35009,6 +35073,30 @@
       "zh_cn": ""
     },
     {
+      "no": 366981,
+      "kr": "피해량이 <698121.VALUE>, 추가 피해량이 <698122.VALUE>로 변경된다.",
+      "en": "Damage changes to <698121.VALUE>, additional damage changes to <698122.VALUE>.",
+      "ja": "ダメージ量が<698121.VALUE>、追加ダメージ量が<698122.VALUE>に変更される。",
+      "zh_tw": "變更為造成<698121.VALUE>的傷害、造成<698122.VALUE>的額外傷害",
+      "zh_cn": "变更为造成<698121.VALUE>的伤害、造成<698122.VALUE>的额外伤害"
+    },
+    {
+      "no": 366982,
+      "kr": "피해량이 <698222.VALUE>로 변경된다.",
+      "en": "Damage changes to <698222.VALUE>.",
+      "ja": "ダメージ量が<698222.VALUE>に変更される。",
+      "zh_tw": "變更為造成<698222.VALUE>的傷害量",
+      "zh_cn": "变更为造成<698222.VALUE>的伤害量"
+    },
+    {
+      "no": 366983,
+      "kr": "피해량이 <698321.VALUE>로 변경된다.",
+      "en": "Damage changes to <698321.VALUE>.",
+      "ja": "ダメージ量が<698321.VALUE>に変更される。",
+      "zh_tw": "變更為造成<698321.VALUE>的傷害量",
+      "zh_cn": "变更为造成<698321.VALUE>的伤害量"
+    },
+    {
       "no": 366984,
       "kr": "증가하는 치명타 확률이 <698421.VALUE>, 치명타 위력이 <698423.VALUE>로 변경된다.",
       "en": "Crit Rate increase changes to <698421.VALUE>, and Crit DMG increase changes to <698423.VALUE>.",
@@ -38567,6 +38655,30 @@
       "ja": "",
       "zh_tw": "若隊長精靈為梅菲斯托佩萊斯，主要技能威力減少<COLOR=#B778FF><653933.VALUE></COLOR>，但使用主要技能<653935.DURATION>秒後會恢復滿點魔力",
       "zh_cn": ""
+    },
+    {
+      "no": 376981,
+      "kr": "피해량이 <698131.VALUE>, 추가 피해량이 <698132.VALUE>로 변경되고, 대상이 <COLOR=#FFFFFF><시간을 먹는 성></COLOR> 중첩이 5중첩 이상인 적일 경우 마나를 2000 회복한다.",
+      "en": "Damage changes to <698131.VALUE>, and additional damage changes to <698132.VALUE>. Restores 2000 Mana if the target has 5 or more stacks of <COLOR=#FFFFFF>\"City of Devouring Time.\"</COLOR>",
+      "ja": "",
+      "zh_tw": "變更為傷害量<698131.VALUE>、額外傷害量<698132.VALUE>，當目標為<COLOR=#FFFFFF>＜食時之城＞</COLOR>5疊加以上的敵人時，恢復魔力2000",
+      "zh_cn": "变更为造成<698131.VALUE>的伤害、造成<698132.VALUE>的额外伤害、加速效果<698137.VALUE>"
+    },
+    {
+      "no": 376982,
+      "kr": "피해량이 <698232.VALUE>로 변경된다. 대상이 보유한 <COLOR=#FFFFFF><시간을 먹는 성></COLOR> 디버프 효과가 5중첩일 경우 공격력 <698233.VALUE>의 추가 피해를 입힌다.",
+      "en": "Damage changes to <698232.VALUE>. If the target has 5 stacks of the <COLOR=#FFFFFF>\"City of Devouring Time\"</COLOR> debuff, Kurumi deals additional damage equal to <698233.VALUE> of ATK.",
+      "ja": "ダメージ量が<698232.VALUE>に変更される。対象が保有中の<COLOR=#FFFFFF><時喰みの城></COLOR>デバフ効果が5スタックの場合、攻撃力の<698233.VALUE>の追加ダメージを与える。",
+      "zh_tw": "變更為造成<698232.VALUE>的傷害量。若目標持有5疊加<COLOR=#FFFFFF>＜食時之城＞</COLOR>減益效果，則額外造成攻擊力<698233.VALUE>的傷害",
+      "zh_cn": "变更为造成<698232.VALUE>的伤害量。若目标持有5层<COLOR=#FFFFFF>＜食时之城＞</COLOR>减益效果，则额外造成攻击力<698233.VALUE>的伤害"
+    },
+    {
+      "no": 376983,
+      "kr": "피해량이 <698331.VALUE>로 변경된다. 대상이 보유한 <COLOR=#FFFFFF><시간을 먹는 성></COLOR> 디버프 효과가 5중첩일 경우 공격력 <698334.VALUE>의 추가 피해를 입힌다.",
+      "en": "Damage changes to <698331.VALUE>. If the target has 5 stacks of the <COLOR=#FFFFFF>\"City of Devouring Time\"</COLOR> debuff, Kurumi deals additional damage equal to <698334.VALUE> of ATK.",
+      "ja": "ダメージ量が<698331.VALUE>に変更される。対象が保有中の<COLOR=#FFFFFF><時喰みの城></COLOR>デバフ効果が5スタックの場合、攻撃力<698334.VALUE>の追加ダメージを与える。",
+      "zh_tw": "變更為造成<698331.VALUE>的傷害量。若目標持有5疊加<COLOR=#FFFFFF>＜食時之城＞</COLOR>減益效果，則額外造成攻擊力<698334.VALUE>的傷害",
+      "zh_cn": "变更为造成<698331.VALUE>的伤害量。若目标持有5层<COLOR=#FFFFFF>＜食时之城＞</COLOR>减益效果，则额外造成攻击力<698334.VALUE>的伤害"
     },
     {
       "no": 376984,
@@ -54601,6 +54713,30 @@
       "zh_cn": ""
     },
     {
+      "no": 34600031,
+      "kr": "베히모스의 흉곽",
+      "en": "Behemoth's Torso",
+      "ja": "",
+      "zh_tw": "貝希摩斯的胸廓",
+      "zh_cn": ""
+    },
+    {
+      "no": 34600041,
+      "kr": "베히모스의 꼬리",
+      "en": "Behemoth's Tail",
+      "ja": "",
+      "zh_tw": "貝希摩斯的尾巴",
+      "zh_cn": ""
+    },
+    {
+      "no": 34600042,
+      "kr": "모든 적을 공격하는 스킬을 사용할 시 베히모스가 추가 피해를 입는다. 해당 부위에 입히는 피해는 방어력 및 기본적인 받는 피해 감소 효과가 없다.",
+      "en": "Skills attacking all enemies deal additional damage to Behemoth. Damage dealt to this part ignores Behemoth's DEF and total damage received reduction.",
+      "ja": "",
+      "zh_tw": "使用攻擊所有敵人的技能時，貝希摩斯受到額外傷害。對該部位造成的傷害沒有防禦力與基本所受傷害減少效果",
+      "zh_cn": ""
+    },
+    {
       "no": 34600111,
       "kr": "발단",
       "en": "Exposition",
@@ -57174,6 +57310,14 @@
       "en": "Behemoth starts out with an Incoming Damage Reduction of <COLOR=#FFFFFF>50%</COLOR> by default. However, its massive size results in an additional hitbox extending 2.5m on both sides, making it susceptible to up to <COLOR=#FFFFFF>2</COLOR> additional hits from AoE attacks. From skills that attack all enemies, Behemoth receives <COLOR=#FFFFFF>2</COLOR> additional hits that ignore Incoming Damage Reduction and DEF (up to 5 times).",
       "ja": "",
       "zh_tw": "貝希摩斯基本上會使所受傷害減免<COLOR=#FFFFFF>50%</COLOR>，但因其巨大身軀，在牠中心兩旁2.5m範圍存有額外受擊判定，範圍攻擊最多有<COLOR=#FFFFFF>2</COLOR>次額外受擊判定，額外使攻擊所有敵人的技能有<COLOR=#FFFFFF>2</COLOR>次額外受擊判定，會無視所受傷害減免與防禦力（共5次）",
+      "zh_cn": ""
+    },
+    {
+      "no": 35600031,
+      "kr": "베히모스 주변 2.5m 범위에 공격을 가할 시 베히모스가 추가 피해를 입는다.",
+      "en": "Dealing damage to an area within 2.5m from Behemoth also deals additional damage to Behemoth.",
+      "ja": "",
+      "zh_tw": "對貝希摩斯周遭2.5m範圍造成攻擊時，貝希摩斯受到額外傷害",
       "zh_cn": ""
     },
     {
