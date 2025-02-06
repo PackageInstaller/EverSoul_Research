@@ -917,14 +917,6 @@
     },
     {
       "no": 104,
-      "name_sno": 91001,
-      "type": 1,
-      "contents_limit_no": 26,
-      "bar_name": "bar_event_calendar_list4",
-      "schedule_key": "Calender_SingleRaid_Catherine"
-    },
-    {
-      "no": 105,
       "name_sno": 91002,
       "type": 1,
       "contents_limit_no": 26,
@@ -932,7 +924,7 @@
       "schedule_key": "Calender_SingleRaid_Vivienne"
     },
     {
-      "no": 106,
+      "no": 105,
       "name_sno": 91009,
       "type": 1,
       "contents_limit_no": 26,
@@ -940,7 +932,7 @@
       "schedule_key": "Calender_SingleRaid_Naiah"
     },
     {
-      "no": 107,
+      "no": 106,
       "name_sno": 91005,
       "type": 1,
       "contents_limit_no": 26,
@@ -948,7 +940,7 @@
       "schedule_key": "Calender_SingleRaid_Adrianne"
     },
     {
-      "no": 108,
+      "no": 107,
       "name_sno": 91006,
       "type": 1,
       "contents_limit_no": 26,
@@ -956,15 +948,15 @@
       "schedule_key": "Calender_SingleRaid_Aira"
     },
     {
-      "no": 109,
-      "name_sno": 91000,
+      "no": 108,
+      "name_sno": 91001,
       "type": 1,
       "contents_limit_no": 26,
       "bar_name": "bar_event_calendar_list4",
-      "schedule_key": "Calender_SingleRaid_Jacqueline"
+      "schedule_key": "Calender_SingleRaid_Catherine"
     },
     {
-      "no": 110,
+      "no": 109,
       "name_sno": 92036,
       "type": 1,
       "contents_limit_no": 28,
@@ -972,7 +964,7 @@
       "schedule_key": "Calender_EdenAlliance_Tabria"
     },
     {
-      "no": 111,
+      "no": 110,
       "name_sno": 92034,
       "type": 1,
       "contents_limit_no": 28,
@@ -980,7 +972,7 @@
       "schedule_key": "Calender_EdenAlliance_Fayren"
     },
     {
-      "no": 112,
+      "no": 111,
       "name_sno": 92035,
       "type": 1,
       "contents_limit_no": 28,
@@ -988,7 +980,7 @@
       "schedule_key": "Calender_EdenAlliance_Chalar"
     },
     {
-      "no": 113,
+      "no": 112,
       "name_sno": 92033,
       "type": 1,
       "contents_limit_no": 28,
@@ -996,7 +988,7 @@
       "schedule_key": "Calender_EdenAlliance_Gaon"
     },
     {
-      "no": 114,
+      "no": 113,
       "name_sno": 92038,
       "type": 1,
       "contents_limit_no": 28,
@@ -1004,7 +996,7 @@
       "schedule_key": "Calender_EdenAlliance_Solrey"
     },
     {
-      "no": 115,
+      "no": 114,
       "name_sno": 92040,
       "type": 1,
       "contents_limit_no": 28,
@@ -1012,7 +1004,7 @@
       "schedule_key": "Calender_EdenAlliance_Troyca"
     },
     {
-      "no": 116,
+      "no": 115,
       "name_sno": 92039,
       "type": 1,
       "contents_limit_no": 28,
@@ -1020,7 +1012,7 @@
       "schedule_key": "Calender_EdenAlliance_Aurelia"
     },
     {
-      "no": 117,
+      "no": 116,
       "name_sno": 92074,
       "type": 2,
       "gacha_no": 564,
@@ -1028,7 +1020,7 @@
       "schedule_key": "Calender_PickUp_Renee"
     },
     {
-      "no": 118,
+      "no": 117,
       "name_sno": 92075,
       "type": 2,
       "gacha_no": 565,
@@ -1036,7 +1028,7 @@
       "schedule_key": "Calender_PickUp_Flynn"
     },
     {
-      "no": 119,
+      "no": 118,
       "name_sno": 92076,
       "type": 2,
       "gacha_no": 566,
@@ -1044,7 +1036,7 @@
       "schedule_key": "Calender_PickUp_Mephi_Dawn"
     },
     {
-      "no": 120,
+      "no": 119,
       "name_sno": 92077,
       "type": 2,
       "gacha_no": 567,
@@ -1052,7 +1044,7 @@
       "schedule_key": "Calender_PickUp_Weiss"
     },
     {
-      "no": 121,
+      "no": 120,
       "name_sno": 92020,
       "type": 2,
       "gacha_no": 520,
@@ -1060,7 +1052,7 @@
       "schedule_key": "Calender_PickUp_Jade"
     },
     {
-      "no": 122,
+      "no": 121,
       "name_sno": 92030,
       "type": 2,
       "gacha_no": 530,
@@ -1068,7 +1060,7 @@
       "schedule_key": "Calender_PickUp_Edith"
     },
     {
-      "no": 123,
+      "no": 122,
       "name_sno": 92056,
       "type": 2,
       "gacha_no": 548,
@@ -1076,12 +1068,20 @@
       "schedule_key": "Calender_PickUp_Catherine_Radiance"
     },
     {
-      "no": 124,
+      "no": 123,
       "name_sno": 92078,
       "type": 2,
       "gacha_no": 568,
       "bar_name": "bar_event_calendar_list5",
       "schedule_key": "Calender_PickUp_Rose_Prominence"
+    },
+    {
+      "no": 124,
+      "name_sno": 92042,
+      "type": 2,
+      "gacha_no": 533,
+      "bar_name": "bar_event_calendar_list5",
+      "schedule_key": "Calender_PickUp_Chloe"
     },
     {
       "no": 125,

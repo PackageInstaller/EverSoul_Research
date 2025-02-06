@@ -2402,14 +2402,6 @@
     },
     {
       "index": 30104,
-      "schedule_key": "Calender_SingleRaid_Catherine",
-      "schedule_type": 3,
-      "start_date": "2024-10-31 00:00:00",
-      "end_date": "2024-11-07 00:00:00",
-      "value_date01": ""
-    },
-    {
-      "index": 30105,
       "schedule_key": "Calender_SingleRaid_Vivienne",
       "schedule_type": 3,
       "start_date": "2024-11-21 00:00:00",
@@ -2417,7 +2409,7 @@
       "value_date01": ""
     },
     {
-      "index": 30106,
+      "index": 30105,
       "schedule_key": "Calender_SingleRaid_Naiah",
       "schedule_type": 3,
       "start_date": "2024-12-12 00:00:00",
@@ -2425,7 +2417,7 @@
       "value_date01": ""
     },
     {
-      "index": 30107,
+      "index": 30106,
       "schedule_key": "Calender_SingleRaid_Adrianne",
       "schedule_type": 3,
       "start_date": "2025-01-02 00:00:00",
@@ -2433,7 +2425,7 @@
       "value_date01": ""
     },
     {
-      "index": 30108,
+      "index": 30107,
       "schedule_key": "Calender_SingleRaid_Aira",
       "schedule_type": 3,
       "start_date": "2025-01-23 00:00:00",
@@ -2441,15 +2433,15 @@
       "value_date01": ""
     },
     {
-      "index": 30109,
-      "schedule_key": "Calender_SingleRaid_Jacqueline",
+      "index": 30108,
+      "schedule_key": "Calender_SingleRaid_Catherine",
       "schedule_type": 3,
       "start_date": "2025-02-13 00:00:00",
       "end_date": "2025-02-20 00:00:00",
       "value_date01": ""
     },
     {
-      "index": 30110,
+      "index": 30109,
       "schedule_key": "Calender_EdenAlliance_Tabria",
       "schedule_type": 3,
       "start_date": "2024-08-29 00:00:00",
@@ -2457,7 +2449,7 @@
       "value_date01": ""
     },
     {
-      "index": 30111,
+      "index": 30110,
       "schedule_key": "Calender_EdenAlliance_Fayren",
       "schedule_type": 3,
       "start_date": "2024-09-26 00:00:00",
@@ -2465,7 +2457,7 @@
       "value_date01": ""
     },
     {
-      "index": 30112,
+      "index": 30111,
       "schedule_key": "Calender_EdenAlliance_Chalar",
       "schedule_type": 3,
       "start_date": "2024-10-24 00:00:00",
@@ -2473,7 +2465,7 @@
       "value_date01": ""
     },
     {
-      "index": 30113,
+      "index": 30112,
       "schedule_key": "Calender_EdenAlliance_Gaon",
       "schedule_type": 3,
       "start_date": "2024-11-21 00:00:00",
@@ -2481,7 +2473,7 @@
       "value_date01": ""
     },
     {
-      "index": 30114,
+      "index": 30113,
       "schedule_key": "Calender_EdenAlliance_Solrey",
       "schedule_type": 3,
       "start_date": "2024-12-19 00:00:00",
@@ -2489,7 +2481,7 @@
       "value_date01": ""
     },
     {
-      "index": 30115,
+      "index": 30114,
       "schedule_key": "Calender_EdenAlliance_Troyca",
       "schedule_type": 3,
       "start_date": "2025-01-16 00:00:00",
@@ -2497,7 +2489,7 @@
       "value_date01": ""
     },
     {
-      "index": 30116,
+      "index": 30115,
       "schedule_key": "Calender_EdenAlliance_Aurelia",
       "schedule_type": 3,
       "start_date": "2025-02-13 00:00:00",
@@ -2505,7 +2497,7 @@
       "value_date01": ""
     },
     {
-      "index": 30117,
+      "index": 30116,
       "schedule_key": "Calender_PickUp_Renee",
       "schedule_type": 3,
       "start_date": "2025-01-02 00:00:00",
@@ -2513,7 +2505,7 @@
       "value_date01": ""
     },
     {
-      "index": 30118,
+      "index": 30117,
       "schedule_key": "Calender_PickUp_Flynn",
       "schedule_type": 3,
       "start_date": "2025-01-09 00:00:00",
@@ -2521,7 +2513,7 @@
       "value_date01": ""
     },
     {
-      "index": 30119,
+      "index": 30118,
       "schedule_key": "Calender_PickUp_Mephi_Dawn",
       "schedule_type": 3,
       "start_date": "2025-01-02 00:00:00",
@@ -2529,7 +2521,7 @@
       "value_date01": ""
     },
     {
-      "index": 30120,
+      "index": 30119,
       "schedule_key": "Calender_PickUp_Weiss",
       "schedule_type": 3,
       "start_date": "2025-01-23 00:00:00",
@@ -2537,7 +2529,7 @@
       "value_date01": ""
     },
     {
-      "index": 30121,
+      "index": 30120,
       "schedule_key": "Calender_PickUp_Jade",
       "schedule_type": 3,
       "start_date": "2025-01-23 00:00:00",
@@ -2545,7 +2537,7 @@
       "value_date01": ""
     },
     {
-      "index": 30122,
+      "index": 30121,
       "schedule_key": "Calender_PickUp_Edith",
       "schedule_type": 3,
       "start_date": "2025-01-30 00:00:00",
@@ -2553,7 +2545,7 @@
       "value_date01": ""
     },
     {
-      "index": 30123,
+      "index": 30122,
       "schedule_key": "Calender_PickUp_Catherine_Radiance",
       "schedule_type": 3,
       "start_date": "2025-02-06 00:00:00",
@@ -2561,11 +2553,19 @@
       "value_date01": ""
     },
     {
-      "index": 30124,
+      "index": 30123,
       "schedule_key": "Calender_PickUp_Rose_Prominence",
       "schedule_type": 3,
       "start_date": "2025-02-13 00:00:00",
       "end_date": "2025-03-06 00:00:00",
+      "value_date01": ""
+    },
+    {
+      "index": 30124,
+      "schedule_key": "Calender_PickUp_Chloe",
+      "schedule_type": 3,
+      "start_date": "2025-02-13 00:00:00",
+      "end_date": "2025-02-27 00:00:00",
       "value_date01": ""
     },
     {
