@@ -4,57 +4,61 @@
       "no": 101,
       "attack_timeline": "SDCommon_AttackDefense1",
       "motion_time": 0.45,
-      "search_range": 2.5,
-      "attack_range": 2.0,
-      "angle": 160
+      "search_range": 0.0,
+      "attack_range": 2.5,
+      "angle": 1073741824,
+      "use_rotate": 160
     },
     {
       "no": 102,
       "attack_timeline": "SDCommon_AttackDefense2",
       "motion_time": 0.45,
-      "search_range": 2.5,
-      "attack_range": 2.0,
-      "angle": 160
+      "search_range": 0.0,
+      "attack_range": 2.5,
+      "angle": 1073741824,
+      "use_rotate": 160
     },
     {
       "no": 103,
       "attack_timeline": "SDCommon_AttackDefense3",
       "motion_time": 0.45,
-      "search_range": 2.5,
-      "attack_range": 2.0,
-      "angle": 160
+      "search_range": 0.0,
+      "attack_range": 2.5,
+      "angle": 1073741824,
+      "use_rotate": 160
     },
     {
       "no": 201,
       "attack_timeline": "SD_Rose_AttackDefense1",
-      "motion_time": 0.8,
-      "search_range": 2.5,
-      "attack_range": 2.0,
-      "angle": 120
+      "motion_time": 0.45,
+      "search_range": 0.0,
+      "attack_range": 2.5,
+      "angle": 1073741824
     },
     {
       "no": 202,
       "attack_timeline": "SD_Rose_AttackDefense2",
-      "motion_time": 0.8,
-      "search_range": 2.5,
-      "attack_range": 2.0,
-      "angle": 120
+      "motion_time": 0.45,
+      "search_range": 0.0,
+      "attack_range": 2.5,
+      "angle": 1073741824
     },
     {
       "no": 203,
       "attack_timeline": "SD_Rose_AttackDefense3",
-      "motion_time": 0.8,
-      "search_range": 2.5,
-      "attack_range": 2.0,
-      "angle": 120
+      "motion_time": 0.45,
+      "search_range": 0.0,
+      "attack_range": 2.5,
+      "angle": 1073741824,
+      "use_rotate": 60
     },
     {
       "no": 301,
       "attack_timeline": "SD_RoseCrimson_AttackDefense1",
-      "motion_time": 1.5,
-      "search_range": 3.0,
-      "attack_range": 5.0,
-      "use_rotate": 1
+      "motion_time": 10.0,
+      "search_range": 0.0,
+      "attack_range": 3.0,
+      "angle": 1084227584
     }
   ]
 }

@@ -2399,6 +2399,306 @@
       "content_string_no": 359030,
       "icon_path": "icon_eas_time",
       "value1": 9030
+    },
+    {
+      "no": 2510001,
+      "constraint_group": 25100,
+      "constraint_no": 1,
+      "constraint_type": 1,
+      "title_string_no": 349001,
+      "content_string_no": 359001,
+      "icon_path": "icon_eas_mana_up",
+      "value1": 9001
+    },
+    {
+      "no": 2510002,
+      "constraint_group": 25100,
+      "constraint_no": 2,
+      "constraint_type": 1,
+      "title_string_no": 349032,
+      "content_string_no": 359032,
+      "icon_path": "icon_eas_speed",
+      "value1": 9032
+    },
+    {
+      "no": 2510003,
+      "constraint_group": 25100,
+      "constraint_no": 3,
+      "constraint_type": 1,
+      "title_string_no": 349050,
+      "content_string_no": 359050,
+      "icon_path": "icon_eas_attack_up_2",
+      "value1": 9050
+    },
+    {
+      "no": 2510004,
+      "constraint_group": 25100,
+      "constraint_no": 4,
+      "constraint_type": 1,
+      "title_string_no": 349044,
+      "content_string_no": 359044,
+      "icon_path": "icon_eas_attack_up",
+      "value1": 9044
+    },
+    {
+      "no": 2510005,
+      "constraint_group": 25100,
+      "constraint_no": 5,
+      "constraint_type": 1,
+      "title_string_no": 349013,
+      "content_string_no": 359013,
+      "icon_path": "icon_eas_position_2",
+      "value1": 9013
+    },
+    {
+      "no": 2520001,
+      "constraint_group": 25200,
+      "constraint_no": 1,
+      "constraint_type": 1,
+      "title_string_no": 349020,
+      "content_string_no": 359020,
+      "icon_path": "icon_eas_heal_up",
+      "value1": 9020
+    },
+    {
+      "no": 2520002,
+      "constraint_group": 25200,
+      "constraint_no": 2,
+      "constraint_type": 1,
+      "title_string_no": 349038,
+      "content_string_no": 359038,
+      "icon_path": "icon_eas_race_2",
+      "value1": 9038
+    },
+    {
+      "no": 2520003,
+      "constraint_group": 25200,
+      "constraint_no": 3,
+      "constraint_type": 1,
+      "title_string_no": 349035,
+      "content_string_no": 359035,
+      "icon_path": "icon_eas_fury",
+      "value1": 9035
+    },
+    {
+      "no": 2520004,
+      "constraint_group": 25200,
+      "constraint_no": 4,
+      "constraint_type": 1,
+      "title_string_no": 349059,
+      "content_string_no": 359059,
+      "icon_path": "icon_eas_attack_up",
+      "value1": 9059
+    },
+    {
+      "no": 2520005,
+      "constraint_group": 25200,
+      "constraint_no": 5,
+      "constraint_type": 1,
+      "title_string_no": 349042,
+      "content_string_no": 359042,
+      "icon_path": "icon_eas_mana_up",
+      "value1": 9042
+    },
+    {
+      "no": 2610001,
+      "constraint_group": 26100,
+      "constraint_no": 1,
+      "constraint_type": 1,
+      "title_string_no": 349001,
+      "content_string_no": 359001,
+      "icon_path": "icon_eas_mana_up",
+      "value1": 9001
+    },
+    {
+      "no": 2610002,
+      "constraint_group": 26100,
+      "constraint_no": 2,
+      "constraint_type": 1,
+      "title_string_no": 349032,
+      "content_string_no": 359032,
+      "icon_path": "icon_eas_speed",
+      "value1": 9032
+    },
+    {
+      "no": 2610003,
+      "constraint_group": 26100,
+      "constraint_no": 3,
+      "constraint_type": 1,
+      "title_string_no": 349050,
+      "content_string_no": 359050,
+      "icon_path": "icon_eas_attack_up_2",
+      "value1": 9050
+    },
+    {
+      "no": 2610004,
+      "constraint_group": 26100,
+      "constraint_no": 4,
+      "constraint_type": 1,
+      "title_string_no": 349044,
+      "content_string_no": 359044,
+      "icon_path": "icon_eas_attack_up",
+      "value1": 9044
+    },
+    {
+      "no": 2610005,
+      "constraint_group": 26100,
+      "constraint_no": 5,
+      "constraint_type": 1,
+      "title_string_no": 349017,
+      "content_string_no": 359017,
+      "icon_path": "icon_eas_leech",
+      "value1": 9017
+    },
+    {
+      "no": 2620001,
+      "constraint_group": 26200,
+      "constraint_no": 1,
+      "constraint_type": 1,
+      "title_string_no": 349020,
+      "content_string_no": 359020,
+      "icon_path": "icon_eas_heal_up",
+      "value1": 9020
+    },
+    {
+      "no": 2620002,
+      "constraint_group": 26200,
+      "constraint_no": 2,
+      "constraint_type": 1,
+      "title_string_no": 349038,
+      "content_string_no": 359038,
+      "icon_path": "icon_eas_race_2",
+      "value1": 9038
+    },
+    {
+      "no": 2620003,
+      "constraint_group": 26200,
+      "constraint_no": 3,
+      "constraint_type": 1,
+      "title_string_no": 349035,
+      "content_string_no": 359035,
+      "icon_path": "icon_eas_fury",
+      "value1": 9035
+    },
+    {
+      "no": 2620004,
+      "constraint_group": 26200,
+      "constraint_no": 4,
+      "constraint_type": 1,
+      "title_string_no": 349058,
+      "content_string_no": 359058,
+      "icon_path": "icon_eas_time",
+      "value1": 9058
+    },
+    {
+      "no": 2620005,
+      "constraint_group": 26200,
+      "constraint_no": 5,
+      "constraint_type": 1,
+      "title_string_no": 349046,
+      "content_string_no": 359046,
+      "icon_path": "icon_eas_heal_down",
+      "value1": 9046
+    },
+    {
+      "no": 2710001,
+      "constraint_group": 27100,
+      "constraint_no": 1,
+      "constraint_type": 1,
+      "title_string_no": 349001,
+      "content_string_no": 359001,
+      "icon_path": "icon_eas_mana_up",
+      "value1": 9001
+    },
+    {
+      "no": 2710002,
+      "constraint_group": 27100,
+      "constraint_no": 2,
+      "constraint_type": 1,
+      "title_string_no": 349032,
+      "content_string_no": 359032,
+      "icon_path": "icon_eas_speed",
+      "value1": 9032
+    },
+    {
+      "no": 2710003,
+      "constraint_group": 27100,
+      "constraint_no": 3,
+      "constraint_type": 1,
+      "title_string_no": 349050,
+      "content_string_no": 359050,
+      "icon_path": "icon_eas_attack_up_2",
+      "value1": 9050
+    },
+    {
+      "no": 2710004,
+      "constraint_group": 27100,
+      "constraint_no": 4,
+      "constraint_type": 1,
+      "title_string_no": 349044,
+      "content_string_no": 359044,
+      "icon_path": "icon_eas_attack_up",
+      "value1": 9044
+    },
+    {
+      "no": 2710005,
+      "constraint_group": 27100,
+      "constraint_no": 5,
+      "constraint_type": 1,
+      "title_string_no": 349047,
+      "content_string_no": 359047,
+      "icon_path": "icon_eas_defence_up",
+      "value1": 9047
+    },
+    {
+      "no": 2720001,
+      "constraint_group": 27200,
+      "constraint_no": 1,
+      "constraint_type": 1,
+      "title_string_no": 349020,
+      "content_string_no": 359020,
+      "icon_path": "icon_eas_heal_up",
+      "value1": 9020
+    },
+    {
+      "no": 2720002,
+      "constraint_group": 27200,
+      "constraint_no": 2,
+      "constraint_type": 1,
+      "title_string_no": 349038,
+      "content_string_no": 359038,
+      "icon_path": "icon_eas_race_2",
+      "value1": 9038
+    },
+    {
+      "no": 2720003,
+      "constraint_group": 27200,
+      "constraint_no": 3,
+      "constraint_type": 1,
+      "title_string_no": 349035,
+      "content_string_no": 359035,
+      "icon_path": "icon_eas_fury",
+      "value1": 9035
+    },
+    {
+      "no": 2720004,
+      "constraint_group": 27200,
+      "constraint_no": 4,
+      "constraint_type": 1,
+      "title_string_no": 349046,
+      "content_string_no": 359046,
+      "icon_path": "icon_eas_heal_down",
+      "value1": 9046
+    },
+    {
+      "no": 2720005,
+      "constraint_group": 27200,
+      "constraint_no": 5,
+      "constraint_type": 1,
+      "title_string_no": 349015,
+      "content_string_no": 359015,
+      "icon_path": "icon_eas_time",
+      "value1": 9015
     }
   ]
 }

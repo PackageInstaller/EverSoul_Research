@@ -179421,6 +179421,732 @@
       "emotion_name": "Panic",
       "index": 13,
       "weight": 100
+    },
+    {
+      "no": 26140,
+      "actor_no": 9714,
+      "emotion_name": "Normal",
+      "weight": 1
+    },
+    {
+      "no": 26141,
+      "actor_no": 9714,
+      "emotion_name": "Normal",
+      "weight": 1
+    },
+    {
+      "no": 26142,
+      "actor_no": 9714,
+      "emotion_name": "Happy",
+      "index": 2,
+      "weight": 100
+    },
+    {
+      "no": 26143,
+      "actor_no": 9714,
+      "emotion_name": "Happy",
+      "index": 3,
+      "weight": 100
+    },
+    {
+      "no": 26144,
+      "actor_no": 9714,
+      "emotion_name": "Happy",
+      "index": 9,
+      "weight": 50
+    },
+    {
+      "no": 26145,
+      "actor_no": 9714,
+      "emotion_name": "Angry",
+      "weight": 20
+    },
+    {
+      "no": 26146,
+      "actor_no": 9714,
+      "emotion_name": "Angry",
+      "index": 1,
+      "weight": 20
+    },
+    {
+      "no": 26147,
+      "actor_no": 9714,
+      "emotion_name": "Angry",
+      "index": 5,
+      "weight": 100
+    },
+    {
+      "no": 26148,
+      "actor_no": 9714,
+      "emotion_name": "Angry",
+      "index": 10,
+      "weight": 100
+    },
+    {
+      "no": 26149,
+      "actor_no": 9714,
+      "emotion_name": "Doubt",
+      "weight": 30
+    },
+    {
+      "no": 26150,
+      "actor_no": 9714,
+      "emotion_name": "Doubt",
+      "index": 1,
+      "weight": 30
+    },
+    {
+      "no": 26151,
+      "actor_no": 9714,
+      "emotion_name": "Doubt",
+      "index": 5,
+      "weight": 100
+    },
+    {
+      "no": 26152,
+      "actor_no": 9714,
+      "emotion_name": "Doubt",
+      "index": 10,
+      "weight": 100
+    },
+    {
+      "no": 26153,
+      "actor_no": 9714,
+      "emotion_name": "Sorrow",
+      "weight": 15
+    },
+    {
+      "no": 26154,
+      "actor_no": 9714,
+      "emotion_name": "Sorrow",
+      "index": 1,
+      "weight": 15
+    },
+    {
+      "no": 26155,
+      "actor_no": 9714,
+      "emotion_name": "Sorrow",
+      "index": 4,
+      "weight": 100
+    },
+    {
+      "no": 26156,
+      "actor_no": 9714,
+      "emotion_name": "Sorrow",
+      "index": 8,
+      "weight": 25
+    },
+    {
+      "no": 26157,
+      "actor_no": 9714,
+      "emotion_name": "Sorrow",
+      "index": 10,
+      "weight": 100
+    },
+    {
+      "no": 26158,
+      "actor_no": 9714,
+      "emotion_name": "Serious",
+      "weight": 100
+    },
+    {
+      "no": 26159,
+      "actor_no": 9714,
+      "emotion_name": "Serious",
+      "index": 1,
+      "weight": 100
+    },
+    {
+      "no": 26160,
+      "actor_no": 9714,
+      "emotion_name": "Serious",
+      "index": 10,
+      "weight": 70
+    },
+    {
+      "no": 26161,
+      "actor_no": 9714,
+      "emotion_name": "Shy",
+      "index": 4,
+      "weight": 30
+    },
+    {
+      "no": 26162,
+      "actor_no": 9714,
+      "emotion_name": "Shy",
+      "index": 9,
+      "weight": 100
+    },
+    {
+      "no": 26163,
+      "actor_no": 9714,
+      "emotion_name": "Shy",
+      "index": 14,
+      "weight": 100
+    },
+    {
+      "no": 26164,
+      "actor_no": 9714,
+      "emotion_name": "Shy2",
+      "index": 2,
+      "weight": 10
+    },
+    {
+      "no": 26165,
+      "actor_no": 9714,
+      "emotion_name": "Shy2",
+      "index": 3,
+      "weight": 10
+    },
+    {
+      "no": 26166,
+      "actor_no": 9714,
+      "emotion_name": "Shy2",
+      "index": 4,
+      "weight": 30
+    },
+    {
+      "no": 26167,
+      "actor_no": 9714,
+      "emotion_name": "Shy2",
+      "index": 5,
+      "weight": 30
+    },
+    {
+      "no": 26168,
+      "actor_no": 9714,
+      "emotion_name": "Shy2",
+      "index": 9,
+      "weight": 60
+    },
+    {
+      "no": 26169,
+      "actor_no": 9714,
+      "emotion_name": "Shy2",
+      "index": 13,
+      "weight": 100
+    },
+    {
+      "no": 26170,
+      "actor_no": 9714,
+      "emotion_name": "Shy2",
+      "index": 14,
+      "weight": 100
+    },
+    {
+      "no": 26171,
+      "actor_no": 9714,
+      "emotion_name": "Surprise",
+      "index": 8,
+      "weight": 90
+    },
+    {
+      "no": 26172,
+      "actor_no": 9714,
+      "emotion_name": "Surprise",
+      "index": 13,
+      "weight": 100
+    },
+    {
+      "no": 26173,
+      "actor_no": 9714,
+      "emotion_name": "Threat",
+      "index": 5,
+      "weight": 100
+    },
+    {
+      "no": 26174,
+      "actor_no": 9714,
+      "emotion_name": "Threat",
+      "index": 10,
+      "weight": 60
+    },
+    {
+      "no": 26175,
+      "actor_no": 9714,
+      "emotion_name": "Threat",
+      "index": 12,
+      "weight": 100
+    },
+    {
+      "no": 26176,
+      "actor_no": 9714,
+      "emotion_name": "Smile",
+      "index": 2,
+      "weight": 20
+    },
+    {
+      "no": 26177,
+      "actor_no": 9714,
+      "emotion_name": "Smile",
+      "index": 3,
+      "weight": 20
+    },
+    {
+      "no": 26178,
+      "actor_no": 9714,
+      "emotion_name": "Laugh",
+      "index": 2,
+      "weight": 100
+    },
+    {
+      "no": 26179,
+      "actor_no": 9714,
+      "emotion_name": "Laugh",
+      "index": 3,
+      "weight": 100
+    },
+    {
+      "no": 26180,
+      "actor_no": 9714,
+      "emotion_name": "Laugh",
+      "index": 6,
+      "weight": 40
+    },
+    {
+      "no": 26181,
+      "actor_no": 9714,
+      "emotion_name": "Laugh",
+      "index": 7,
+      "weight": 40
+    },
+    {
+      "no": 26182,
+      "actor_no": 9714,
+      "emotion_name": "Laugh",
+      "index": 9,
+      "weight": 100
+    },
+    {
+      "no": 26183,
+      "actor_no": 9714,
+      "emotion_name": "Proud",
+      "index": 9,
+      "weight": 100
+    },
+    {
+      "no": 26184,
+      "actor_no": 9714,
+      "emotion_name": "Proud2",
+      "weight": 100
+    },
+    {
+      "no": 26185,
+      "actor_no": 9714,
+      "emotion_name": "Proud2",
+      "index": 1,
+      "weight": 100
+    },
+    {
+      "no": 26186,
+      "actor_no": 9714,
+      "emotion_name": "Proud2",
+      "index": 9,
+      "weight": 100
+    },
+    {
+      "no": 26187,
+      "actor_no": 9714,
+      "emotion_name": "Oh",
+      "index": 8,
+      "weight": 40
+    },
+    {
+      "no": 26188,
+      "actor_no": 9714,
+      "emotion_name": "Oh2",
+      "index": 4,
+      "weight": 50
+    },
+    {
+      "no": 26189,
+      "actor_no": 9714,
+      "emotion_name": "Oh2",
+      "index": 8,
+      "weight": 50
+    },
+    {
+      "no": 26190,
+      "actor_no": 9714,
+      "emotion_name": "Oh2",
+      "index": 14,
+      "weight": 50
+    },
+    {
+      "no": 26191,
+      "actor_no": 9714,
+      "emotion_name": "Worry",
+      "weight": 20
+    },
+    {
+      "no": 26192,
+      "actor_no": 9714,
+      "emotion_name": "Worry",
+      "index": 1,
+      "weight": 20
+    },
+    {
+      "no": 26193,
+      "actor_no": 9714,
+      "emotion_name": "Worry",
+      "index": 4,
+      "weight": 70
+    },
+    {
+      "no": 26194,
+      "actor_no": 9714,
+      "emotion_name": "Worry",
+      "index": 10,
+      "weight": 50
+    },
+    {
+      "no": 26195,
+      "actor_no": 9714,
+      "emotion_name": "Bittersmile",
+      "weight": 15
+    },
+    {
+      "no": 26196,
+      "actor_no": 9714,
+      "emotion_name": "Bittersmile",
+      "index": 1,
+      "weight": 15
+    },
+    {
+      "no": 26197,
+      "actor_no": 9714,
+      "emotion_name": "Bittersmile",
+      "index": 4,
+      "weight": 70
+    },
+    {
+      "no": 26198,
+      "actor_no": 9714,
+      "emotion_name": "Pain",
+      "index": 4,
+      "weight": 70
+    },
+    {
+      "no": 26199,
+      "actor_no": 9714,
+      "emotion_name": "Pain",
+      "index": 10,
+      "weight": 30
+    },
+    {
+      "no": 26200,
+      "actor_no": 9714,
+      "emotion_name": "Pain",
+      "index": 14,
+      "weight": 100
+    },
+    {
+      "no": 26201,
+      "actor_no": 9714,
+      "emotion_name": "Sad",
+      "weight": 25
+    },
+    {
+      "no": 26202,
+      "actor_no": 9714,
+      "emotion_name": "Sad",
+      "index": 1,
+      "weight": 25
+    },
+    {
+      "no": 26203,
+      "actor_no": 9714,
+      "emotion_name": "Sad",
+      "index": 4,
+      "weight": 100
+    },
+    {
+      "no": 26204,
+      "actor_no": 9714,
+      "emotion_name": "Sad",
+      "index": 10,
+      "weight": 100
+    },
+    {
+      "no": 26205,
+      "actor_no": 9714,
+      "emotion_name": "Think",
+      "weight": 100
+    },
+    {
+      "no": 26206,
+      "actor_no": 9714,
+      "emotion_name": "Think",
+      "index": 1,
+      "weight": 100
+    },
+    {
+      "no": 26207,
+      "actor_no": 9714,
+      "emotion_name": "Think",
+      "index": 10,
+      "weight": 50
+    },
+    {
+      "no": 26208,
+      "actor_no": 9714,
+      "emotion_name": "Calm",
+      "weight": 100
+    },
+    {
+      "no": 26209,
+      "actor_no": 9714,
+      "emotion_name": "Calm",
+      "index": 1,
+      "weight": 100
+    },
+    {
+      "no": 26210,
+      "actor_no": 9714,
+      "emotion_name": "Gloomy",
+      "weight": 100
+    },
+    {
+      "no": 26211,
+      "actor_no": 9714,
+      "emotion_name": "Gloomy",
+      "index": 1,
+      "weight": 100
+    },
+    {
+      "no": 26212,
+      "actor_no": 9714,
+      "emotion_name": "Gloomy",
+      "index": 4,
+      "weight": 100
+    },
+    {
+      "no": 26213,
+      "actor_no": 9714,
+      "emotion_name": "Gloomy",
+      "index": 10,
+      "weight": 50
+    },
+    {
+      "no": 26214,
+      "actor_no": 9714,
+      "emotion_name": "Melody",
+      "weight": 100
+    },
+    {
+      "no": 26215,
+      "actor_no": 9714,
+      "emotion_name": "Melody",
+      "index": 1,
+      "weight": 100
+    },
+    {
+      "no": 26216,
+      "actor_no": 9714,
+      "emotion_name": "Melody",
+      "index": 4,
+      "weight": 20
+    },
+    {
+      "no": 26217,
+      "actor_no": 9714,
+      "emotion_name": "Melody",
+      "index": 9,
+      "weight": 70
+    },
+    {
+      "no": 26218,
+      "actor_no": 9714,
+      "emotion_name": "Melancholy",
+      "index": 4,
+      "weight": 100
+    },
+    {
+      "no": 26219,
+      "actor_no": 9714,
+      "emotion_name": "Melancholy",
+      "index": 9,
+      "weight": 100
+    },
+    {
+      "no": 26220,
+      "actor_no": 9714,
+      "emotion_name": "Shout",
+      "index": 5,
+      "weight": 100
+    },
+    {
+      "no": 26221,
+      "actor_no": 9714,
+      "emotion_name": "Shout",
+      "index": 6,
+      "weight": 40
+    },
+    {
+      "no": 26222,
+      "actor_no": 9714,
+      "emotion_name": "Shout",
+      "index": 8,
+      "weight": 50
+    },
+    {
+      "no": 26223,
+      "actor_no": 9714,
+      "emotion_name": "Panic",
+      "index": 2,
+      "weight": 10
+    },
+    {
+      "no": 26224,
+      "actor_no": 9714,
+      "emotion_name": "Panic",
+      "index": 3,
+      "weight": 10
+    },
+    {
+      "no": 26225,
+      "actor_no": 9714,
+      "emotion_name": "Panic",
+      "index": 4,
+      "weight": 40
+    },
+    {
+      "no": 26226,
+      "actor_no": 9714,
+      "emotion_name": "Panic",
+      "index": 5,
+      "weight": 40
+    },
+    {
+      "no": 26227,
+      "actor_no": 9714,
+      "emotion_name": "Panic",
+      "index": 6,
+      "weight": 40
+    },
+    {
+      "no": 26228,
+      "actor_no": 9714,
+      "emotion_name": "Panic",
+      "index": 8,
+      "weight": 40
+    },
+    {
+      "no": 26229,
+      "actor_no": 9714,
+      "emotion_name": "Panic",
+      "index": 10,
+      "weight": 50
+    },
+    {
+      "no": 26230,
+      "actor_no": 9714,
+      "emotion_name": "Crazy",
+      "index": 13,
+      "weight": 100
+    },
+    {
+      "no": 26231,
+      "actor_no": 9714,
+      "emotion_name": "Crazy2",
+      "index": 12,
+      "weight": 100
+    },
+    {
+      "no": 26232,
+      "actor_no": 9714,
+      "emotion_name": "Crazy2",
+      "index": 13,
+      "weight": 100
+    },
+    {
+      "no": 26233,
+      "actor_no": 9714,
+      "emotion_name": "Crazy3",
+      "index": 13,
+      "weight": 100
+    },
+    {
+      "no": 26234,
+      "actor_no": 9714,
+      "emotion_name": "Crazy3",
+      "index": 14,
+      "weight": 100
+    },
+    {
+      "no": 26235,
+      "actor_no": 9714,
+      "emotion_name": "Crazy3",
+      "index": 15,
+      "weight": 100
+    },
+    {
+      "no": 26236,
+      "actor_no": 9714,
+      "emotion_name": "Crazy4",
+      "index": 13,
+      "weight": 100
+    },
+    {
+      "no": 26237,
+      "actor_no": 9714,
+      "emotion_name": "Crazy4",
+      "index": 16,
+      "weight": 100
+    },
+    {
+      "no": 26238,
+      "actor_no": 9714,
+      "emotion_name": "Serious2",
+      "weight": 30
+    },
+    {
+      "no": 26239,
+      "actor_no": 9714,
+      "emotion_name": "Serious2",
+      "index": 1,
+      "weight": 30
+    },
+    {
+      "no": 26240,
+      "actor_no": 9714,
+      "emotion_name": "Serious2",
+      "index": 5,
+      "weight": 10
+    },
+    {
+      "no": 26241,
+      "actor_no": 9714,
+      "emotion_name": "Serious2",
+      "index": 10,
+      "weight": 70
+    },
+    {
+      "no": 26242,
+      "actor_no": 9714,
+      "emotion_name": "Angry2",
+      "weight": 100
+    },
+    {
+      "no": 26243,
+      "actor_no": 9714,
+      "emotion_name": "Angry2",
+      "index": 1,
+      "weight": 100
+    },
+    {
+      "no": 26244,
+      "actor_no": 9714,
+      "emotion_name": "Angry2",
+      "index": 5,
+      "weight": 100
+    },
+    {
+      "no": 26245,
+      "actor_no": 9714,
+      "emotion_name": "Angry2",
+      "index": 10,
+      "weight": 70
     }
   ]
 }

@@ -1028,7 +1028,7 @@
       "no": 607600,
       "kr": "흉몽의 나비 최종 1위 달성",
       "en": "Win First Place (Butterfly of An Ominous Dream)",
-      "ja": "",
+      "ja": "最終順位1位達成(凶夢の蝶)",
       "zh_tw": "達成凶夢之蝶最終第1名",
       "zh_cn": ""
     },
@@ -1036,7 +1036,7 @@
       "no": 607601,
       "kr": "흉몽의 나비 최종 2위 이내 달성",
       "en": "Place within Top 2 (Butterfly of An Ominous Dream)",
-      "ja": "",
+      "ja": "最終順位2位以内達成(凶夢の蝶)",
       "zh_tw": "達成凶夢之蝶最終第2名以內",
       "zh_cn": ""
     },
@@ -1044,7 +1044,7 @@
       "no": 607602,
       "kr": "흉몽의 나비 최종 3위 이내 달성",
       "en": "Place within Top 3 (Butterfly of An Ominous Dream)",
-      "ja": "",
+      "ja": "最終順位3位以内達成(凶夢の蝶)",
       "zh_tw": "達成凶夢之蝶最終第3名以內",
       "zh_cn": ""
     },
@@ -1052,7 +1052,7 @@
       "no": 607603,
       "kr": "흉몽의 나비 최종 100위 이내 달성",
       "en": "Place within Top 100 (Butterfly of An Ominous Dream)",
-      "ja": "",
+      "ja": "最終順位100位以内達成(凶夢の蝶)",
       "zh_tw": "達成凶夢之蝶最終第100名以內",
       "zh_cn": ""
     },
@@ -1060,7 +1060,7 @@
       "no": 607604,
       "kr": "흉몽의 나비 최종 300위 이내 달성",
       "en": "Place within Top 300 (Butterfly of An Ominous Dream)",
-      "ja": "",
+      "ja": "最終順位300位以内達成(凶夢の蝶)",
       "zh_tw": "達成凶夢之蝶最終第300名以內",
       "zh_cn": ""
     },
@@ -1068,7 +1068,7 @@
       "no": 607605,
       "kr": "흉몽의 나비 최종 1,000위 이내 달성",
       "en": "Place within Top 1,000 (Butterfly of An Ominous Dream)",
-      "ja": "",
+      "ja": "最終順位1000位以内達成(凶夢の蝶)",
       "zh_tw": "達成凶夢之蝶最終第1,000名以內",
       "zh_cn": ""
     },
@@ -1076,7 +1076,7 @@
       "no": 607606,
       "kr": "흉몽의 나비 누적 1,000레벨 클리어",
       "en": "Clear 1,000 levels in total (Butterfly of An Ominous Dream)",
-      "ja": "",
+      "ja": "累計Lv1000クリア(凶夢の蝶)",
       "zh_tw": "累積通關凶夢之蝶1,000等級",
       "zh_cn": ""
     },
@@ -1084,7 +1084,7 @@
       "no": 607607,
       "kr": "흉몽의 나비 301레벨 이상 클리어",
       "en": "Clear level 301 or higher (Butterfly of An Ominous Dream)",
-      "ja": "",
+      "ja": "Lv301以上クリア(凶夢の蝶)",
       "zh_tw": "通關凶夢之蝶301等級以上",
       "zh_cn": ""
     },
@@ -1095,6 +1095,14 @@
       "ja": "五色の秘境の窮奇Lv.{0}討伐",
       "zh_tw": "擊殺五彩祕境窮奇{0}等級",
       "zh_cn": "击败五彩秘境穷奇{0}等级"
+    },
+    {
+      "no": 609000,
+      "kr": "악령 토벌 보스 무관 {0} 레벨 클리어",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
     }
   ]
 }

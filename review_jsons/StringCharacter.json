@@ -4836,7 +4836,7 @@
       "no": 250659,
       "kr": "궁인 A",
       "en": "Court Lady A",
-      "ja": "",
+      "ja": "宮人A",
       "zh_tw": "宮人A",
       "zh_cn": ""
     },
@@ -4844,7 +4844,7 @@
       "no": 250660,
       "kr": "궁인 B",
       "en": "Court Lady B",
-      "ja": "",
+      "ja": "宮人B",
       "zh_tw": "宮人B",
       "zh_cn": ""
     },
@@ -4852,7 +4852,7 @@
       "no": 250661,
       "kr": "무제",
       "en": "Wu Di",
-      "ja": "",
+      "ja": "武帝",
       "zh_tw": "武帝",
       "zh_cn": ""
     },
@@ -4860,7 +4860,7 @@
       "no": 250662,
       "kr": "술사",
       "en": "Soul Conjuror",
-      "ja": "",
+      "ja": "術師",
       "zh_tw": "術士",
       "zh_cn": ""
     },
@@ -4868,7 +4868,7 @@
       "no": 250663,
       "kr": "이부인",
       "en": "Lady Li",
-      "ja": "",
+      "ja": "李夫人",
       "zh_tw": "李夫人",
       "zh_cn": ""
     },
@@ -4876,7 +4876,7 @@
       "no": 250664,
       "kr": "신입 연구원",
       "en": "Junior Researcher",
-      "ja": "",
+      "ja": "新入りの研究員",
       "zh_tw": "新研究員",
       "zh_cn": ""
     },
@@ -4884,7 +4884,7 @@
       "no": 250665,
       "kr": "과거의 페트라",
       "en": "Petra of the Past",
-      "ja": "",
+      "ja": "過去のペトラ",
       "zh_tw": "過去的佩特拉",
       "zh_cn": ""
     },
@@ -4892,7 +4892,7 @@
       "no": 250666,
       "kr": "뉴스",
       "en": "News",
-      "ja": "",
+      "ja": "ニュース",
       "zh_tw": "新聞",
       "zh_cn": ""
     },
@@ -4900,7 +4900,7 @@
       "no": 250667,
       "kr": "행사 참가자",
       "en": "",
-      "ja": "",
+      "ja": "イベント参加者",
       "zh_tw": "",
       "zh_cn": ""
     },
@@ -5159,6 +5159,14 @@
       "ja": "エイリーン",
       "zh_tw": "艾琳",
       "zh_cn": "艾琳"
+    },
+    {
+      "no": 301150,
+      "kr": "로제(홍염)",
+      "en": "Rose (Prominence)",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
     },
     {
       "no": 302010,
@@ -7241,6 +7249,14 @@
       "zh_cn": "光荣胜负师"
     },
     {
+      "no": 311150,
+      "kr": "태양의 손길",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 312010,
       "kr": "얼음달 나비",
       "en": "Ice Moon Butterfly",
@@ -7750,7 +7766,7 @@
       "en": "Ghost who weeps bitter tears",
       "ja": "血涙を流す怨霊",
       "zh_tw": "流下血淚的冤魂",
-      "zh_cn": "流下眼泪的受冤灵魂"
+      "zh_cn": "流下眼泪的受冤幻影"
     },
     {
       "no": 319920,
@@ -7758,7 +7774,7 @@
       "en": "Ghost who weeps bitter tears",
       "ja": "血涙を流す怨霊",
       "zh_tw": "流下血淚的冤魂",
-      "zh_cn": "流下眼泪的受冤灵魂"
+      "zh_cn": "流下眼泪的受冤幻影"
     },
     {
       "no": 319921,
@@ -7766,7 +7782,7 @@
       "en": "Ghost who weeps bitter tears",
       "ja": "血涙を流す怨霊",
       "zh_tw": "流下血淚的冤魂",
-      "zh_cn": "流下眼泪的受冤灵魂"
+      "zh_cn": "流下眼泪的受冤幻影"
     },
     {
       "no": 319925,
@@ -8135,6 +8151,14 @@
       "ja": "アタシのこと…知りたい？",
       "zh_tw": "對我…感到很好奇？",
       "zh_cn": "对我……感到很好奇？"
+    },
+    {
+      "no": 321150,
+      "kr": "기다리고 있었어요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
     },
     {
       "no": 322010,
@@ -8713,6 +8737,14 @@
       "zh_cn": "你仔细找～\r\n没有弄丢东西吗？"
     },
     {
+      "no": 341150,
+      "kr": "거스를 수 없는 우주의 운명, 그것이 섭리.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 342010,
       "kr": "아기 토끼, 아기 구름. \r\n오늘도 폭신폭신…♪",
       "en": "Baby rabbit, baby cloud.\r\nFluffy as usual…♪",
@@ -8974,7 +9006,7 @@
       "en": "I've been waitin' a long time. You're too slow!",
       "ja": "ちょっと遅すぎじゃない。待ちくたびれちゃったよ！",
       "zh_tw": "我等很久了，有夠慢！",
-      "zh_cn": "我等很久了，有够慢！"
+      "zh_cn": "我等很久了，太慢了！"
     },
     {
       "no": 344040,
@@ -9351,6 +9383,14 @@
       "ja": "キャハハ、今回もアタシの勝ち！",
       "zh_tw": "呀哈哈哈哈，勝利這次也歸我！",
       "zh_cn": "呀哈哈哈哈，这次的胜利也归我！"
+    },
+    {
+      "no": 391150,
+      "kr": "모두가 무너지지 않도록, 제가 지켜내겠어요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
     },
     {
       "no": 392010,
@@ -9934,7 +9974,7 @@
       "en": "Selective amnesia",
       "ja": "選択的記憶喪失",
       "zh_tw": "選擇性喪失記憶",
-      "zh_cn": "选择性丧失记忆"
+      "zh_cn": "选择性失忆"
     },
     {
       "no": 800113,
@@ -9998,7 +10038,7 @@
       "en": "Baguette, altruism",
       "ja": "バゲットパン、利他的行動",
       "zh_tw": "法國麵包、利他行動",
-      "zh_cn": "法式面包、利他行动"
+      "zh_cn": "法式面包、利他行为"
     },
     {
       "no": 800124,
@@ -10014,7 +10054,7 @@
       "en": "Hello, Savior, I'm Rose.\r\nIt is very rewarding for me to care for the altar of God.\r\nI'm very much looking forward to seeing this Eden that you will lead from now on.\r\nI really owe you one from last time. Let me pay you back someday.\r\nNow that I gave you my thanks… Shall we go for a short walk down the street in Arkenine?\r\nIt seemed Linzy and Chloe also have a lot of questions about you, Savior.\r\nI'll be looking forward to asking you many questions from now on. You'll be there for us, right?.",
       "ja": "こんにちは、救世主様。私はロゼといいます。\r\n神の祭壇の手入れは、とてもやりがいのある仕事です。\r\nこれから救世主様が率いてくださるこのエデンの姿も楽しみでなりません。\r\n前回は本当にお世話になりました。今後ともよろしくお願いします。\r\nひととおり感謝をお伝えしたところで…ちょっとアーケナインの街へ散歩にでも出かけませんか？\r\nリンジーとクロエも、救世主様に興味津々のようでした。\r\nこれからもあれこれ質問させていただきます。ふふ…付き合っていただけますよね？",
       "zh_tw": "你好，救援者？我叫蘿絲。\r\n打理神的祭壇是一件非常有意義的事情。\r\n我很期待伊甸園在救援者的帶領之下，會變成什麼模樣。\r\n上次給你添了很多麻煩，以後也請你多多關照。\r\n我已經向你道謝了…要不要去阿肯納因街上逛逛呢？\r\n琳賽跟克羅伊也對救援者充滿好奇。\r\n以後有很多問題想問你。呵呵…你會回答我吧？",
-      "zh_cn": "你好，救援者？我叫萝丝。\r\n打理神的祭坛是一件非常有意义的事情。\r\n我很期待精灵乐园在救援者的带领之下，会变成什么模样。\r\n上次给你添了很多麻烦，以后也请你多多关照。\r\n我已经向你道谢了……要不要去阿肯纳因街上逛逛呢？\r\n琳赛跟克罗伊也对救援者充满好奇。\r\n以后有很多问题想问你。呵呵……你会回答我吧？"
+      "zh_cn": "你好，救援者？我叫萝丝。\r\n打理神的祭坛是一件非常有意义的事情。\r\n我很期待精灵乐园在救援者的带领之下，会变成什么模样。\r\n上次给你添了很多麻烦，以后也请你多多关照。\r\n我已经向你道谢了……要不要去阿肯纳因街上逛逛呢？\r\n琳赛跟克罗伊也对救援者充满好奇。\r\n以后还有很多问题想问你。呵呵……你会回答我吧？"
     },
     {
       "no": 800126,
@@ -10182,7 +10222,7 @@
       "en": "Who the hell are you? You look like a wet mushroom. Ahh? Are you the Savior who summoned me?\r\nYou look so fair. I can't trust someone like you until I fight a match with you!\r\nWhat are you doing? Spare me a moment! Follow me!",
       "ja": "何だい？この湿っぽいキノコみたいなやつは。あぁん？テメーがあたいを召喚した救世主様だって？\r\nそんな青っ白いツラしやがって、手合わせしてみないことには信じられねぇな！\r\nこうなったからにはちょっと\r\nツラ貸しな！ついて来いって！",
       "zh_tw": "這個長得像潮濕香菇的小子是誰啊。咦？你就是召喚我的救援者？\r\n長得白白嫩嫩的，在我們較勁一場之前，我都無法相信你！\r\n既然如此，空出一點時間！跟我來！",
-      "zh_cn": "这个长得像潮湿香菇的小子是谁啊。咦？你就是召唤我的救援者？\r\n长得白白嫩嫩的，在我们较量之前，我都无法相信你！\r\n既然如此，空出一点时间！跟我来！"
+      "zh_cn": "这个长得像湿润润蘑菇的家伙是谁啊。咦？你就是召唤我的救援者？\r\n长得白白嫩嫩的，除非我们较量一下，否则我可没法相信你！\r\n既然如此，你就留出一点时间吧！跟我来！"
     },
     {
       "no": 800316,
@@ -10238,7 +10278,7 @@
       "en": "…Quiet. Now is the time for a nap.\r\nYou're not allowed to visit me at this time. Please go back.\r\nZzz… Zzz…",
       "ja": "…静かに。今はお昼寝の時間。\r\nこの時間の訪問はお断りよ。帰ってちょうだい。\r\nZzz…Zzz…",
       "zh_tw": "…小聲點。現在是睡午覺時間。\r\n這個時間拒絕訪客。請回吧。\r\nZzz…Zzz…",
-      "zh_cn": "……小声点。现在是睡午觉时间。\r\n这个时间拒绝访客。请回吧。\r\nZzz……Zzz……"
+      "zh_cn": "……小声点。现在是午休时间。\r\n这个时间拒绝访客。请回吧。\r\n呼噜……呼噜……"
     },
     {
       "no": 800326,
@@ -10406,7 +10446,7 @@
       "en": "…Vital sign check completed. Welcome, Savior.\r\n\r\nI am the operator of the Ark \"Metatron,\" an artificial Soul named Mephistopheles.\r\n\r\nYou wouldn't be able to understand what an Ark, operator, or artificial Soul is right away…\r\nI hope you take your time and get to know me. Sharing a piece of cake with you could be nice.\r\nI've often heard how amazing it is that a small Soul like myself can steer such a large Ark.\r\nBut…I think my appearance doesn't mean so much.\r\n\r\nSacrifice is only one of many available methods we have\r\nto save you and Eden from crisis. Please keep that in mind.",
       "ja": "…生体信号確認完了。歓迎します、救世主さま。\r\n\r\n私は方舟「メタトロン」のオペレーターを務める人工精霊、メフィストフェレスです。\r\n\r\n方舟、オペレーター、人工精霊…どれも初めて耳にする概念で、すぐには理解できないと思いますが…\r\nゆっくりと時間をかけて私のことを知ってもらいたいです。ケーキを食べながらでも良いと思います。\r\nこれだけ巨大な方舟を、私のように小さな精霊が動かしていることが不思議ですか？何度も聞いてきた言葉です。\r\nですが…私の外見に大して意味はないはずです。\r\n\r\n救世主さまとエデンの危機を救うためなら、\r\n犠牲を払うことも用い得る手段の一つにすぎないということを…どうか心に留めておいてください。",
       "zh_tw": "…已確認生命信號。歡迎你，救援者。\r\n\r\n我是方舟《梅塔特隆》的駕駛員也是人工精靈——梅菲斯托佩萊斯。\r\n\r\n不管是方舟、駕駛員還是人工精靈，都不是聽一次就能理解吧…\r\n希望你能花點時間慢慢地了解我，也可以一起吃塊蛋糕。\r\n我很常聽到別人說「這麼巨大的方舟就靠一隻這麼小的精靈驅動，真是神奇。」\r\n但…我認為我的外貌並不代表什麼。\r\n\r\n只要是為了救援者和拯救伊甸園的危機，\r\n即便得犧牲我，我也在所不辭，這點…還請你銘記於心。",
-      "zh_cn": "……已确认生命信号。欢迎你，救援者。\r\n\r\n我是方舟《梅塔特隆》的驾驶员也是人工精灵——梅菲斯托佩莱斯。\r\n\r\n不管是方舟、驾驶员还是人工精灵，都不是听一次就能理解吧……\r\n希望你能花点时间慢慢地了解我，也可以一起吃块蛋糕。\r\n我很常听到别人说“这么巨大的方舟就靠一只这么小的精灵驱动，真是神奇。”\r\n但……我认为我的外貌并不代表什么。\r\n\r\n只要是为了救援者和拯救精灵乐园的，\r\n即便得牺牲我，我也在所不辞，这点……还请你铭记于心。"
+      "zh_cn": "……已确认生命信号。欢迎你，救援者。\r\n\r\n我是方舟《梅塔特隆》的驾驶员，也是人工精灵——梅菲斯托佩莱斯。\r\n\r\n不管是方舟、驾驶员还是人工精灵，都不是听一次就能理解吧……\r\n希望你能花点时间慢慢了解我，也可以一起吃块蛋糕。\r\n我经常听到别人说“这么巨大的方舟就靠一只这么小的精灵驱动，真是神奇。”\r\n但……我认为我的外貌并不代表什么。\r\n\r\n只要是为了救援者和拯救精灵乐园，\r\n即便要牺牲我，我也在所不辞，这点……还请你铭记于心。"
     },
     {
       "no": 801016,
@@ -10518,7 +10558,7 @@
       "en": "Hello, Savior. I'm Claire. I'm the commander of the Order of Sun and my usual duty is to escort Yuria.\r\n\r\nI'm sometimes said to be uptight.\r\nI don't quite understand that, but…perhaps they mean I lack flexibility. Well, that's not good…\r\nI want to be someone who can deal with any kind of situation well. Because there is a place I want to protect, no matter what.\r\n\r\nHobbies? I like to carve wood. When I'm carving wood, my mind feels relaxed. No matter how chaotic times may be, it feels like I could see a way forward in the end. I like that feeling.\r\nIf you are interested, please come visit me someday. I'll make preparations for you.\r\nAll the knights of the Order of Sun and I will always be with you on your path, Savior.",
       "ja": "救世主様、ご挨拶申し上げます。クレールです。日頃はユリア様の護衛と太陽騎士団の団長を務めております。\r\n\r\n私は時折、堅物だと言われることがあります。\r\n自分としては納得しかねる評価ですが…融通が利かない人だと思われているのでしょうか。それでは困るのですが…\r\nいついかなる状況にも、巧みに対応できるようになりたいのです。どうしても守り抜きたい場所があるからです。\r\n\r\n趣味、ですか？木を彫ることが好きですね。木を彫っていると、心が落ち着くのです。どれだけ混乱している時にも、いずれは進むべき道が見えてくる気がします。その感覚が好きなのです。\r\n救世主様もご興味がありましたらいつでもお越しください。\r\nご用意しておきます。\r\n\r\n私含め騎士団の全員が、常に救世主様の進まれる道にお供いたします。",
       "zh_tw": "救援者你好，我是克萊兒。我平時負責保護尤里婭，是太陽騎士團的團長。\r\n\r\n我偶爾會聽到人家說我做事一板一眼。\r\n我自己不是很有共鳴…意思是我不知變通嗎？這樣不太好啊…\r\n我想成為無論在什麼情況下都能好好應對的人，因為有個想要守護的地方。\r\n\r\n興趣嗎？我喜歡木雕。雕刻木頭會讓內心平靜下來。不管是再怎麼混亂的時期，感覺最後都能看見前進的道路。我喜歡這種感覺。\r\n如果救援者也感興趣，就請你隨時來找我，我會先做好準備。\r\n我和所有的騎士團團員將會一直與救援者同行。",
-      "zh_cn": "救援者你好，我是克莱儿。我平时负责保护尤里娅，是太阳先锋团的团长。\r\n\r\n我偶尔会听到人家说我做事一板一眼。\r\n我自己不是很理解……意思是我不知变通吗？这样不太好啊……\r\n我想成为无论在什么情况下都能沉着冷静的人，因为有个想要守护的地方。\r\n\r\n兴趣吗？我喜欢木雕。雕刻木头会让内心平静下来。不管是再怎么混乱的时期，感觉最后都能看见前进的道路。我喜欢这种感觉。\r\n如果救援者也感兴趣，就请你随时来找我，我会先做好准备。\r\n我和所有的先锋团团员将会一直与救援者同行。"
+      "zh_cn": "救援者你好，我是克莱儿。我平时负责保护尤里娅，是太阳先锋团的团长。\r\n\r\n我偶尔会听到人家说我做事一板一眼。\r\n我自己不是很理解……意思是我不知变通吗？这样不太好啊……\r\n我想成为无论在什么情况下都能沉着冷静的人，因为有个想要守护的地方。\r\n\r\n兴趣吗？我喜欢木雕。雕刻木头会让内心平静下来。哪怕当时再怎么混乱，感觉最后都能看见前进的道路。我喜欢这种感觉。\r\n如果救援者也感兴趣，请随时来找我，我会提前做好准备。\r\n我和所有的先锋团团员将会一直与救援者同行。"
     },
     {
       "no": 801036,
@@ -10630,7 +10670,7 @@
       "en": "Nice to meet you, Savior. My name is Jade.\r\nI'm a Soul who will be with you for a long time to come.\r\nDo you know that jewelry has meaning just like flowers do? Among others, jade is said to symbolize wealth.\r\nHere, look. Doesn't their everlasting beauty resemble a Soul? It's iridescent.\r\n\r\nI begin my daily routine by thoroughly cleaning each one of these jewels to make them shine every morning.\r\nIt is worthwhile to look into something valuable one by one and spend enough effort to take care of them.\r\n…As you may already know, the same goes for the Souls.\r\nThe more affection and attention you give them, the stronger they become. It's similar to a romantic relationship in a way.\r\n\r\nAs I myself am a Soul, too, I hope you will show me your sincerity.\r\nNow, I don't believe in pure love or attachment that I couldn't buy with money, but…\r\nI can't help but expect some kind of ticklish and special attempts from you, who has appeared to us so dramatically.\r\nI hope something interesting would happen between you and me. Can I look forward to it?",
       "ja": "救世主さん。どうぞよろしくお願い\r\nします。私はジェイド。\r\nこれより長い時間を救世主さんと共に過ごす精霊です。\r\n\r\n救世主さんは、花と同じように、宝石にも意味が宿っているということをご存知ですか？その中でもジェイドという宝石は富を象徴するのだそうです。\r\nほら、ご覧ください。永遠に消えることのないこの美しさ…どこか精霊に似ていると思いませんか？\r\n\r\n私は、毎朝これらを一つ一つ磨き上げることで一日を始めるんです。価値のある物を、こうして一つずつ覗き込み、心を注ぐとより一層美しい輝きになる…\r\n…それは精霊も同じなんです。\r\n貴方が一人ひとりに愛情を注ぐと、精霊達もまた強い力を発揮します。\r\n\r\n私もそうした精霊の一人ですので、救世主さんには相応の誠意を示していただければと思っています。\r\nせっかく救世主さんとドラマチックな出会いを果たしたんですから、少し恥ずかしくても、何か特別なアプローチをしていただければと期待しているんです。\r\n救世主さんとの間に、何か楽しいことが起こってほしいと思います。\r\n待っていてもいいですよね？",
       "zh_tw": "很高興見到你，救援者。我叫潔依德。\r\n是未來會跟救援者相處很久的精靈。\r\n你知道寶石也像花朵一樣有特殊涵義嗎？名為潔依德的寶石就象徵著財富。\r\n你看！你不覺得這永不消逝的美麗，就像精靈一樣晶瑩剔透嗎。\r\n\r\n我每天早上做的第一件事就是仔細擦拭每一顆寶石。\r\n細心觀察並真心對待每一個有價值的東西，是很有意義的事情。\r\n…或許你也知道，精靈也是如此。\r\n你給予越多的關愛，他們越能展現出強大的力量，和愛或戀愛一樣。\r\n\r\n我身為精靈，也希望能夠感受到救援者的誠意，\r\n雖然我現在已經不相信什麼純真的愛情，或是無法用金錢換取的感情…\r\n但我仍期盼如戲劇般相遇的救援者能做一些讓我心癢癢的特別驚喜。\r\n希望救援者和我之間能有奇妙的化學變化，我可以期待一下吧？",
-      "zh_cn": "很高兴见到你，救援者。我叫洁依德。\r\n是未来会跟救援者相处很久的精灵。\r\n你知道宝石也像花朵一样有特殊含义吗？名为洁依德的宝石就象征着财富。\r\n你看！你不觉得这永不消逝的美丽，就像精灵一样晶莹剔透吗。\r\n\r\n我每天早上做的第一件事就是仔细擦拭每一颗宝石。\r\n细心观察并真心对待每一个有价值的东西，是很有意义的事情。\r\n……或许你也知道，精灵也是如此。\r\n你给予越多的关爱，他们越能展现出强大的力量，就像亲情一样。\r\n\r\n我身为精灵，也希望能够感受到救援者的诚意，\r\n虽然我现在已经不相信什么纯真的爱情，或是无法用金钱换取的感情……\r\n但我仍期盼如戏剧般相遇的救援者能做一些让我心痒痒的特别惊喜。\r\n希望救援者和我之间能有奇妙的化学反应，我可以期待一下吧？"
+      "zh_cn": "很高兴见到你，救援者。我叫洁依德。\r\n是未来会跟救援者相处很久的精灵。\r\n你知道宝石也像花朵一样有特殊含义吗？名为洁依德的宝石就象征着财富。\r\n你看！你不觉得这永不消逝的美丽，就像精灵一样晶莹剔透吗？\r\n\r\n我每天早上做的第一件事就是仔细擦拭每一颗宝石。\r\n细心观察并真心对待每一个有价值的东西，是很有意义的事情。\r\n……或许你也知道，精灵也是如此。\r\n你给予越多的关爱，他们越能展现出强大的力量，就像感情一样。\r\n\r\n我身为精灵，也希望能够感受到救援者的诚意，\r\n虽然我现在已经不相信什么纯真的爱情，或是无法用金钱衡量的感情……\r\n但我仍期盼如戏剧般相遇的救援者能做一些令我心痒的特别的事。\r\n希望救援者和我之间能有奇妙的化学反应，我可以期待一下吧？"
     },
     {
       "no": 801056,
@@ -10678,7 +10718,7 @@
       "en": "Mayonnaise",
       "ja": "マヨネーズ",
       "zh_tw": "美乃滋",
-      "zh_cn": "美乃滋"
+      "zh_cn": "蛋黄酱"
     },
     {
       "no": 801065,
@@ -10686,7 +10726,7 @@
       "en": "I am Linzy, the leader of the Order of Blackhawk in the Kingdom of Solrey.\r\nI hate wasting time. I always seek something efficient, elegant, and powerful.\r\n\r\nOn weekends, I usually borrow the Ark from Mephi to study the history of battles.\r\nFor the best path forward, it is essential to review and analyze the past.\r\nLooking at the overall battle, I carefully check…how we could launch a more skillful attack.\r\n\r\n…\"What's the purpose of that?\" Sounds like a strange question. Isn't it obvious?\r\nI'm the best knight in the Kingdom of Solrey. So I have to prove myself worthy of my title.\r\nA sword is meaningful only if it is recognized as being sharper and stronger than anything else.\r\nOnly the swords that have proven themselves in such a way can protect their master until the very end.\r\nI must be perfect for Her Highness Yuria and everyone in the Kingdom of Solrey.\r\nWell, I am not asking for your understanding. I'm just looking forward to your kind cooperation.\r\nFor the sake of Eden. And for the sake of Rose and Chloe…",
       "ja": "ソレイ王国、黒鷹騎士団の団長リン\r\nジーです。\r\n私は時間を無駄にすることを好んでいません。効率、優雅、そして強さを求めています。ふふっ。\r\n\r\n週末には戦闘記録を振り返るべくメフィから方舟を借りています。\r\n最高を目指すプロセスにおいて、検証と分析は欠かせません。\r\n戦況を大局的に見通し、どうすればより巧みに仕掛けられるのかを…綿密に確かめています。\r\n\r\n…そこまでする理由、ですか？おかしなことを聞くのですね。当たり前のことではないでしょうか？\r\nソレイ王国きっての騎士である私には、その価値を証明する義務があるのです。\r\n剣とは、他の何よりも鋭く、強くなければ意味を成さない代物です。\r\n自らの存在意義を認められた剣のみが、最後まで主に付き添い、守ることができます。\r\n私はユリア様とソレイ王国の皆のために完璧であらねばなりません。別に、理解していただきたくて話したのではありません。ただ、お願いしたまでです。\r\nエデンのために。そして、ロゼとクロエのために…",
       "zh_tw": "我是蘇萊伊王國黑鷹騎士團的團長琳賽。\r\n我討厭浪費時間，總是在追求效率、優雅還有強悍。哈哈。\r\n\r\n週末時總是向梅菲借方舟查看以前的戰鬥紀錄。\r\n反省及分析是成為最強者的必要條件。\r\n洞悉戰鬥全局，仔細確認…要怎麼做才能更加熟練地攻擊。\r\n\r\n…你問我為什麼要做到這樣？好奇怪的問題，這不是理所當然嗎？\r\n我乃是蘇萊伊王國最強的騎士，有義務證明自己不愧對這個頭銜。\r\n劍比任何東西都尖銳、強大，得到它的認可才有意義。\r\n透過這種方式向劍證明自己，劍才能陪伴劍的主人到最後一刻。\r\n我必須為了尤里婭和蘇萊伊王國變得更完美才行。\r\n說出這句話並不求你的理解，我只是想請你多多關照而已。\r\n為了伊甸園，為了蘿絲和克羅伊…",
-      "zh_cn": "我是苏莱伊王国黑鹰先锋团的团长琳赛。\r\n我讨厌浪费时间，总是在追求效率、优雅还有强悍。哈哈。\r\n\r\n周末时总是向梅菲借方舟查看以前的战斗记录。\r\n反省及分析是成为最强者的必要条件。\r\n洞悉战斗全局，仔细确认……要怎么做才能更加熟练地攻击。\r\n\r\n……你问我为什么要做到这种程度？好奇怪的问题，这不是理所当然吗？\r\n我乃是苏莱伊王国最强的骑士，有义务证明自己不愧对这个头衔。\r\n剑比任何东西都尖锐、强大，得到它的认可才有意义。\r\n通过这种方式向剑证明自己，剑才能陪伴剑的主人到最后一刻。\r\n我必须为了尤里娅和苏莱伊王国变得更完美才行。\r\n说出这句话并不求你的理解，我只是想请你多多关照而已。\r\n为了精灵乐园，为了萝丝和克罗伊……"
+      "zh_cn": "我是苏莱伊王国黑鹰先锋团的团长琳赛。\r\n我讨厌浪费时间，总是在追求效率、优雅还有强悍。哈哈。\r\n\r\n总会在周末向梅菲借方舟查看以前的战斗记录。\r\n反省及分析是成为最强者的必要条件。\r\n洞悉战斗全局，仔细确认……要怎么做才能更加熟练地攻击。\r\n\r\n……你问我为什么要做到如此境地？好奇怪的问题，这不是理所当然的事吗？\r\n我是苏莱伊王国最强的骑士，有义务证明自己无愧于这个头衔。\r\n剑比任何东西都尖锐、强大，得到它的认可才有意义。\r\n通过这种方式向剑证明自己，剑才能陪伴它的主人到最后一刻。\r\n我必须为了尤里娅和苏莱伊王国变得更完美才行。\r\n说出这句话并不求你的理解，我只是想请你多多关照而已。\r\n为了精灵乐园，为了萝丝和克罗伊……"
     },
     {
       "no": 801066,
@@ -10854,7 +10894,7 @@
       "en": "Hi there! Good afternoon, Savior.\r\n\r\nAre you surprised I spoke to you first? It might have been better to wait until you spoke to me, but it seemed like you were approaching me from afar.\r\nWell…maybe I felt that way because I was looking forward to speaking with you, Savior. It's interesting.\r\nThey say that every Soul is prone to get attracted to the Savior, and I think that's true.\r\nSometimes I'm amazed, too.\r\n\r\nFor you to have a happy and stable daily life, there are a few life habits I'd like to suggest to you. How does that sound?\r\nWaking up early in the morning, always going to bed at the same time, having meals at the same time every day…\r\nWould you follow my suggestion step by step? I trust you'll do a good job. Hehe.",
       "ja": "こんにちは。素敵な午後ですね、救世主様。\r\n\r\nふふ、私から話しに来るとは思わず驚かれましたか？本当は、待っていた方がよかったのかもしれませんが、なんだか、救世主様が呼び寄せてくれているような気がしたんです。\r\nひょっとすると、救世主様とお話しする機会を待っていたから、そう感じたのかもしれません。面白いですよね。\r\n精霊は救世主様に好意を覚えやすいとのことでしたが、本当にその通りみたいです。自分でも不思議に思うほど、救世主様とこうしてお話したくて仕方ありませんでした。\r\n\r\nそんな救世主様に、幸せで安定した日常を送っていただきたく、いくつかご提案したいことがあります。聞いていただけますか？\r\n早起きすること、毎日同じ時刻に眠りにつき、同じ時刻に食事を取ること…\r\nまずはできるところから、ゆっくりついて来ていただけますか？信じてますからね、ふふっ。",
       "zh_tw": "午安，救援者。\r\n\r\n我先向你搭話，讓你嚇到了吧？雖然等你先主動向我搭話可能會比較好，但不知為何，覺得你或許不會從遠處走向我。\r\n嗯…說不定是因為我很期待和救援者說話。很有趣吧。\r\n聽說所有精靈都對救援者有好感，似乎真的是如此，\r\n我有時候也覺得很神奇。\r\n\r\n為了讓救援者過上幸福安穩的生活，我想建議你幾個生活習慣。可以嗎？\r\n早點起床，在固定的時間睡覺，在固定的時間吃飯…\r\n你會一一照做吧？我相信你。",
-      "zh_cn": "午安，救援者。\r\n\r\n我向你搭话，让你吓到了吧？虽然等你主动向我搭话可能会比较好，但不知为何，觉得你或许不会从远处走向我。\r\n嗯……说不定是因为我很期待和救援者说话。很有趣吧。\r\n听说所有精灵都对救援者有好感，似乎真的是如此，\r\n我有时候也觉得很神奇。\r\n\r\n为了让救援者过上幸福安稳的生活，我想建议你几个生活习惯。可以吗？\r\n早点起床，在固定的时间睡觉，在固定的时间吃饭……\r\n你会一一照做吧？我相信你。"
+      "zh_cn": "午安，救援者。\r\n\r\n很惊讶我先向你搭话吧？虽然等你主动向我搭话可能会比较好，但我不知道你会不会从远处走向我。\r\n嗯……说不定是因为我很期待和救援者说话。很有趣吧。\r\n听说所有精灵都对救援者有好感，似乎真的是如此，我有时候也觉得很神奇。\r\n\r\n为了让救援者过上幸福安稳的生活，我想给你提几个生活习惯方面的建议，可以吗？\r\n早点起床，按时睡觉，按时吃饭……\r\n你会一一照做吧？我相信你。"
     },
     {
       "no": 801096,
@@ -10910,7 +10950,7 @@
       "en": "Ta-da! I'm Cherrie, captain of the Torch Pirates!\r\r\nWe're freelance pirates, roamin' the seas!\r\r\nI never planned to form a pirate crew, but people just kept joinin' me.\r\r\n\r\r\nWhat do ye say, Savior? Wanna join my crew?\r\r\nAfraid of gettin' seasick? Drinkin' some booze will fix that!\r\r\nWhaddya mean that doesn't work? No way!\r\r\nYe've got to get used to bein' dizzy all the time to beat gettin' seasick!\r\r\n\r\r\nAnyways! \r\r\nThat octopus monster lurkin' under the sea is scary, but…\r\r\nWe'll be fine! Trust yer Captain Cherrie!\r\r\nNow, let's set sail!",
       "ja": "じゃじゃ〜ん！「たいまつ海賊団」船長のシェリーだよ〜！\r\n我らたいまつ海賊団は、フリーランス海賊をやっているのよ！\r\n正直、海賊団を作るつもりはなかったんだけど、気づいたら一緒にいたい奴らがいっぱい増えてたんだ〜へへ\r\n\r\nどうよ、救世主しゃまもうちらの海賊団に入る？\r\n船酔いしちゃったらどうするかって？そしたらうちみたいに酒を飲めばいいのよ〜！\r\n…違う？そんなはずないけど\r\n普段から目がぐるぐる回る訓練をしておけば、船酔いも克服できるんじゃないの？\r\n\r\nとにかく！\r\nあの海に潜んでいるタコ怪物は、ほ〜んっとに恐ろしいけど…\r\nどうにかなるよ〜！このシェリー船長を信じなよ！\r\nじゃ、出発〜！！\r\n",
       "zh_tw": "鏘鏘！我是「火炬海賊團」的船長，雪莉～！\r\r\n我們火炬海賊團是自由業海盜！\r\r\n其實我本來不是想成立海賊團的，但等到我回過神來，就多了一堆想跟我一起行動的傢伙～嘿嘿。\r\r\n\r\r\n怎麼樣？救援者要不要也加入我們的海賊團？\r\r\n你問我會暈船怎麼辦？那就像我一樣喝飄飄飲就好～！\r\r\n…不行嗎？怎麼可能？\r\r\n不是平常就要做些頭暈目眩的訓練，才能克服暈船嗎？\r\r\n\r\r\n總而言之！\r\r\n雖然聽說躲在海底的章魚怪物真～的很恐怖…\r\r\n但無論如何都會順利的～！相信我雪莉船長！\r\r\n那就啟航～！！",
-      "zh_cn": "锵锵！我是“火炬冒险团”的船长，雪莉～！\r\n我们火炬冒险团是自由职业者！\r\n其实我本来不是想成立冒险团的，但等到我回过神来，就多了一堆想跟我一起行动的家伙～嘿嘿。\r\n\r\n怎么样？救援者要不要也加入我们的冒险团？\r\n你问我会晕船怎么办？那就像我一样喝飘飘饮就好～！\r\n……不行吗？怎么可能？\r\n不是平常就要做些头晕目眩的训练，才能克服晕船吗？\r\n\r\n总而言之！\r\n虽然听说躲在海底的章鱼怪物真～的很恐怖……\r\n但无论如何都会顺利的～！相信我雪莉船长！\r\n那就启航～！！"
+      "zh_cn": "锵锵！我是“火炬冒险团”的船长，雪莉～！\r\n我们火炬冒险团是自由职业者！\r\n其实我原本没想成立冒险团的，但等到我回过神来，已经多了一堆想跟我一起行动的家伙～嘿嘿。\r\n\r\n怎么样？救援者要不要也加入我们的冒险团？\r\n你问我晕船怎么办？那就像我一样喝飘飘饮就好～！\r\n……不行吗？怎么可能？\r\n平常多做些训练不就能克服晕船了吗？\r\n\r\n总而言之！\r\n虽然听说躲在海底的章鱼怪物真～的很恐怖……\r\n但无论如何都会顺利的～！相信我雪莉船长！\r\n那么，启航吧～！！"
     },
     {
       "no": 801106,
@@ -10966,7 +11006,7 @@
       "en": "Swish swish! Swish swish! This is definitely not the sound of my mouth! Swish swish!\r\n\r\nSavior! Did you see that? What do you think? Every time I stretched out my fist, there was a wind noise! Isn't that cool?\r\nDon't you think you could entrust me with a very, very important task? Hehe… Huh? \"Why didn't you show up yesterday?\"\r\nUmm… Well, on a rainy day…my hood gets heavy… That's why.\r\n\r\nHuh…? \"So you can't fight when it rains\"…? Wha, what do you mean by that? Of course I can fight! My head may feel heavy, but I still have my nice claws!\r\n\r\nI just…hate to take off my bear hood. Even if it's you, Savior, I won't follow your words about this matter. I don't have ears or a tail now…\r\nbut if I try hard every day, I'm sure I will become a real bear someday.\r\nThis is a secret, but there is an old story about a bear who endures a great ordeal to become a human. So maybe a Soul can become a bear, too? What do you think, Savior?\r\n\r\n…! So you know the story! Wow! It wasn't a rumor… Feels exciting! Thank you so much, Savior!\r\nI'll try really, really hard! I'll sleep with my bear feet on today!",
       "ja": "シュッシュッ！シュッシュッ！\r\nこの音は口から出しているわけじゃないぞ！シュッシュッ！\r\n\r\n救世主さま！今の見た？おいらが拳を伸ばすたびに風を切る音がしたでしょ！強い精霊だーって思わない？\r\nものすごーく重要な仕事を任せてもよさそうだ…とか、そんな気がしない？\r\nへへっ…え？ところでなんで昨日は見かけな\r\nかったのかって？うーん…それが、雨の日はちょっと…このフードが重たくなっちゃうから…\r\n\r\nえっ…？じゃあ、雨の日には戦えないのかって…？な、何言ってんだ！戦えるに決まってるだろ！頭は重たくなっても、この素敵な爪があるから大丈夫！\r\n\r\nただ…クマのフードを脱ぐのはイヤなんだ。これは救世主さまが脱げと言っても聞かないからね。今は耳も尻尾もないんだけど…\r\nこうして毎日頑張れば、いつかおいらも本物のクマちゃんになれるって信じてるんだ。\r\n…これは内緒だけど、昔話には、クマが試練に耐えて人間になるお話もあるんだって。だから、精霊でもクマになれるんじゃないかな？救世主さまはどう思う？\r\n\r\n……！救世主さまも知ってるお話なの？わぁ！やっぱり本当の話だったんだ…嬉しい！ほんとのほんとにありがとう、救世主さま！\r\nおいら、いっしょうけんめい頑張るからね！今日もクマの足まできっちりつけて寝ようっと！",
       "zh_tw": "咻咻！咻咻！這絕對不是從我嘴裡發出來的聲音！咻咻！\r\n\r\n救援者！你剛才有看到嗎？怎麼樣？我每次出拳的時候都會有風聲啊！不覺得我很可靠嗎？\r\n是不是有種「可以交付重任給這個人」的想法？嘿嘿…嗯？你問我為什麼昨天不施展嗎？\r\n呃嗯…那個，下雨天…戴在頭上的罩子會變重…\r\n\r\n嗯…？你說這樣雨天是不是就不能打鬥了…？在、在說什麼啊？當然可以打鬥！就算頭會變重，但我還有帥氣的爪子，所以沒問題！\r\n\r\n我就只是…不想脫下熊的頭罩，就算是你的話我也不會聽。雖然我現在沒有耳朵和尾巴…\r\n但我相信要是每天都這麼努力，總有一天我也可以變成真正的小熊。\r\n…這可是個祕密，有個很久以前的故事，說熊挺過艱苦的試煉後變成人類。那精靈應該也能變成熊吧？救援者你是怎麼想的呢？\r\n\r\n……！救援者也知道這個故事嗎？哇嗚！果然不是謠傳的…我好開心！救援者，真的真的很感謝你！\r\n我真的會非常努力的！我今天也一定要戴著熊掌睡覺！",
-      "zh_cn": "咻咻！咻咻！这绝对不是从我嘴里发出来的声音！咻咻！\r\n\r\n救援者！你刚才有看到吗？怎么样？我每次出拳的时候都会有风声啊！不觉得我很可靠吗？\r\n是不是有种“可以交付重任给这个人”的想法？嘿嘿……嗯？你问我为什么昨天不施展吗？\r\n呃嗯……那个，下雨天……戴在头上的罩子会变重……\r\n\r\n嗯……？你说这样雨天是不是就不能打斗了……？在、在说什么啊？当然可以打斗！就算头会变重，但我还有帅气的爪子，所以没问题！\r\n\r\n我就只是……不想脱下熊的头罩，就算是你的话我也不会听。虽然我现在没有耳朵和尾巴……\r\n但我相信要是每天都这么努力，总有一天我也可以变成真正的小熊。\r\n……这可是个秘密，有个很久以前的故事，说熊挺过艰苦的试炼后变成人类。那精灵应该也能变成熊吧？救援者你是怎么想的呢？\r\n\r\n……！救援者也知道这个故事吗？哇呜！果然不是谣传的……我好开心！救援者，真的真的很感谢你！\r\n我真的会非常努力的！我今天也一定要戴着熊掌睡觉！"
+      "zh_cn": "咻咻！咻咻！这绝对不是从我嘴里发出来的声音！咻咻！\r\n\r\n救援者！你刚才有看到吗？怎么样？我每次出拳的时候都会有风声啊！不觉得我很可靠吗？\r\n是不是有种“可以交付重任给这个人”的想法？嘿嘿……嗯？你问我为什么昨天不施展吗？\r\n呃嗯……那个，下雨天……戴在头上的罩子会变重……\r\n\r\n嗯……？你说雨天是不是就不能打斗了……？在、在说什么啊？当然可以打斗！就算头会变重，但我还有帅气的爪子，所以没问题！\r\n\r\n我只是……不想脱下熊熊兜帽，就算是你的话我也不会听。虽然我现在没有耳朵和尾巴……\r\n但我相信要是每天都这么努力，总有一天我也可以变成真正的小熊。\r\n……告诉你个秘密，在很久以前的故事里熊挺过艰苦的试炼后变成了人类。那精灵应该也能变成熊吧？救援者你是怎么想的呢？\r\n\r\n……！救援者也知道这个故事吗？哇呜！果然不是谣传的……我好开心！救援者，真的真的很感谢你！\r\n我真的会非常努力的！我今天也一定要戴着熊掌睡觉！"
     },
     {
       "no": 801116,
@@ -11153,6 +11193,62 @@
       "zh_cn": "孙善英"
     },
     {
+      "no": 801151,
+      "kr": "식물 돌보기",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 801152,
+      "kr": "기도",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 801153,
+      "kr": "포토푀, 향초",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 801154,
+      "kr": "심연",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 801155,
+      "kr": "태양의 왕관에 깃들어 있는 동안, 저는 정말 많은 미래를 관측했어요.\r\n정확히는… 그건 미래이자 과거이기도 한 시간이었죠. \r\n\r\n구원자님. 사실 제가 관측한 '제일 높은 가능성의' 미래에는 희망이 없었어요.\r\n저희는 아프고, 좌절하고, 무기력해하며, 부끄러움을 느낄 뿐이었어요.\r\n그런 순간이 억겁처럼 이어지는 미래를… 다시 겪고 싶지 않았어요.\r\n\r\n하지만 구원자님은 그럼에도 다시 싸울 수 있는 용기를, 제게 주셨죠.\r\n\r\n이제 저는… 제가 알지 못하는 새로운 미래를 지켜보고 싶어요.\r\n그럴 수 있도록 제 곁에서 힘이 되어 주시겠어요?",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 801156,
+      "kr": "이명호",
+      "en": "Myeongho Lee",
+      "ja": "前田 玲奈",
+      "zh_tw": "李敏好",
+      "zh_cn": "李敏好"
+    },
+    {
+      "no": 801157,
+      "kr": "Rena Maeda",
+      "en": "Rena Maeda",
+      "ja": "前田 玲奈",
+      "zh_tw": "Rena Maeda",
+      "zh_cn": "RenaMaeda"
+    },
+    {
       "no": 802011,
       "kr": "구름 빗어주기",
       "en": "Brushing the clouds",
@@ -11246,7 +11342,7 @@
       "en": "Humph, humph! Is there no one here? I am Soonie, the Soul with the mighty and great achievements thou have been looking forward to seeing!\r\n\r\n…That's weird. It's polite, I learned to welcome guests even in bare feet, but how come thou are so quiet?\r\nDid thou not yet learn the way of nobility, Savior? My, my… It is only now that thou come up. Thou look distracted somehow.\r\nAre thou so glad I came? Then I can't help it. I'll understand thou just break my petty custom.\r\n\r\nBy the way… It's good to be glad, but how about treating me with some cool sweet rice drink or sweet honey cookie? I've been sleeping for a long time and eating something sweet might open up my eyes.\r\nWhat…? No sweet rice drink, no honey cookies!? Why, then what shall I have to appease my hunger? …Phew… Can I have at least some boiled chestnuts?\r\n\r\n…Yum, umm. It's been a while since I ate them. Even chestnuts taste very good! Now, let me tell thee my story in earnest. I'm ashamed to say that I was called almost invincible on the sea.\r\nThe moment I appeared, the enemy would be busy watching me from retreat. It was awesome. I used my ship with hard shell and sharp thorns to block the invasion of enemy soldiers.\r\nIt also has a magnificent dragon head attached to the bow, with which I'd smash the side of the enemy battleships at a stroke so they get stuck. That's not all!\r\nThe ship is equipped with dozens of guns perfect for intercepting distant enemies, so there was no other champion on the sea.\r\n…I must have been called to come here since there must be a war here, too. I, Soonie, will aid thee as far as I can, so just trust me without worrying about what will happen!",
       "ja": "お、おっほん！たのもー！おぬしが救世主か。\r\nおぬしについては、かねてから聞いておる。 \r\nわしはスニという。ガオンの海を守る精霊の一人じゃ。\r\n\r\nおぬしがエデンを救うために遠くから\r\nやってきたと聞き及んでおるが、遠方からの客なら、ご馳走を出さねばな！ \r\n冷たい甘酒と甘いクッキー、美味しい団子まで、色々用意したから遠慮せず召し上がるがよい。 \r\n\r\nところで、よかったらゆっくり食べながらおぬしがいた世界の海について聞かせてくれぬか？ \r\n海は万物が生まれる源。 \r\n海を知れば、その世界がどういうところなのかも自然と分かるのじゃ。\r\nもちろんわしも、おぬしにわしの愛する海とガオンについて詳しく教えてあげようぞ。\r\n心通わす戦友として、おぬしと共に歩む一人の精霊として、\r\nこれからよろしく頼むぞ、救世主！\r\n",
       "zh_tw": "哼、哼！沒人嗎！我是順伊，我就是你所盼望的既強大又有豐功偉業的精靈！\r\n\r\n…真奇怪。我學到有訪客來的時候，穿著襪子出來迎接客人是禮貌，怎麼會這麼安靜呢？\r\n我們救援者沒有學過貴族的禮儀嗎？喔吼…你現在才出現，你怎麼看起來有點手忙腳亂？\r\n我來找你讓你那麼開心嗎？既然如此那就沒辦法了，雖然你違反了我的小小規矩，但我會原諒你的。\r\n\r\n但是…既然你很高興，可以給我一些爽口的甜味飄飄飲或甜甜的藥菓嗎？可能是因為我睡太久了吧，給我吃點甜的，我的眼睛就會立刻亮起來。\r\n啊…？你沒有甜味飄飄飲也沒有藥菓！？那要怎麼充飢啊？…嗚嗚……怎麼辦，難道連水煮栗子也沒有嗎？\r\n\r\n…嗯，嗯。好久沒吃到水煮栗子了，實在太美味啦！那我就開始認真告訴你我的故事。雖然有點不好意思，但我在海上可說是無敵呢。\r\n只要我一出現，敵人就會落荒而逃。厲害吧？我會用堅硬外殼上的尖刺封鎖敵人的入侵，\r\n然後用雄偉的龍頭擊碎敵艦側面，讓他們動彈不得。還沒完呢！\r\n我還有幾十個艦砲，正適合用來截擊遠方的敵人，就是所謂的海上霸主。\r\n…你會把我叫來這裡，一定也是因為有戰爭吧！我，順伊，會盡全力幫助你的，不必操心，以後就交給我啦！",
-      "zh_cn": "哼、哼！没人吗！我是顺伊，我就是你所盼望的既强大又有丰功伟业的精灵！\r\n\r\n……真奇怪。我学到有访客来的时候，穿着袜子出来迎接客人是礼貌，怎么会这么安静呢？\r\n我们救援者没有学过贵族的礼仪吗？喔吼……你现在才出现，你怎么看起来有点手忙脚乱？\r\n我来找你让你那么开心吗？既然如此那就没办法了，虽然你违反了我的小小规矩，但我会原谅你的。\r\n\r\n但是……既然你很高兴，可以给我一些爽口的甜味飘飘饮或甜甜的药果吗？可能是因为我睡太久了吧，给我吃点甜的，我的眼睛就会立刻亮起来。\r\n啊……？你没有甜味飘飘饮也没有药果！？那要怎么充饥啊？……呜呜……怎么办，难道连水煮栗子也没有吗？\r\n\r\n……嗯，嗯。好久没吃到水煮栗子了，实在太美味啦！那我就开始认真告诉你我的故事。虽然有点不好意思，但我在海上可以说是无敌呢。\r\n只要我一出现，敌人就会落荒而逃。厉害吧？我会用坚硬外壳上的尖刺封锁敌人的入侵，\r\n然后用雄伟的龙头击碎敌舰侧面，让他们动弹不得。还没完呢！\r\n我还有几十个舰炮，正适合用来截击远方的敌人，就是所谓的海上霸主。\r\n……你会把我叫来这里，一定也是因为有战争吧！我，顺伊，会尽全力帮助你的，不必操心，以后就交给我啦！"
+      "zh_cn": "哼、哼！没人吗！我是顺伊，我就是你所盼望的强大精灵！\r\n\r\n……真奇怪。我学到有访客来的时候，穿着袜子出来迎接客人是礼貌，怎么会这么安静呢？\r\n我们救援者没有学过贵族的礼仪吗？喔吼……你现在才出现，怎么看起来有点手忙脚乱的？\r\n我来找你让你那么开心吗？既然如此那就没办法了，虽然你违反了我的小小规矩，但我会原谅你的。\r\n\r\n但是……既然你很高兴，可以给我一些爽口的甜味飘飘饮或甜甜的药果吗？可能是因为我睡太久了吧，给我吃点甜的，我的眼睛就会立刻亮起来。\r\n啊……？你没有甜味飘飘饮也没有药果！？那要怎么充饥啊？……呜呜……怎么办，难道连水煮栗子也没有吗？\r\n\r\n……嗯，嗯。好久没吃到水煮栗子了，实在太美味啦！"
     },
     {
       "no": 802026,
@@ -11358,7 +11454,7 @@
       "en": "Ah~♬ Aaah~♪ Aaah~♬ Ah-ah~♪\r\nOh, Savi…hello, Mr. Producer.\r\n\r\nLooks like you were listening to my song. I was secretly practicing singing so that I could show my fans more of my true heart.\r\nPlease keep it a secret from Mica. She seemed a little anxious these days…\r\n\r\nSo, what brings you here? Oh, I see. You're here to interview me.\r\n\r\n\"My favorite hobby\"? I like to find pretty pebbles.\r\nThey may be just ordinary rocks, but when I find one trying to shine, I feel like holding it in my hand, unconsciously.\r\nPerhaps I'm the only one who identifies with it… Haha.\r\n\r\nI hope I can repay the love of my fans who are trying to get to know me…\r\nI will definitely become a great singer!",
       "ja": "あ～♬ああ～♪ああ～♬あーあ～♪\r\nあっ、救世…プロデューサー、おはようございます。\r\n\r\n歌を聞いてくださったのですね。\r\nファンの皆さんに気持ちをもっと伝えられるように、練習をしていたんです。\r\nミカには内緒にしてくださいね。最近、少し焦ってるみたいでしたから…\r\n\r\nところで、プロデューサーは私に何かご用でしたか？なるほど…インタビューをしにいらっしゃったのですね。\r\n\r\n好きなこと…趣味とかですか？きれいな小石を探すのが好きです。\r\nただの石ころでしかなくても、たくさんの石の中で輝こうと頑張ってる子を見かけると、思わず拾って握りたくなるんです。\r\nもしかすると、勝手に仲間意識を感じてるのかも…あはは。\r\n\r\nふふっ、私のことを知りたいと思ってくださるファンの方々の気持ち\r\nに応えられるように…絶対に素晴らしい歌手になってみせます！",
       "zh_tw": "啊～♬啊啊～♪啊啊～♬啊－啊～♪～\r\n啊，救援…製作人你好。\r\n\r\n原來你在聽我的歌呀。我正在偷偷練習，希望讓粉絲們更能感受到我的心意。\r\n請向米卡保密。她最近好像有點焦慮…\r\n\r\n話說回來，製作人來找我有什麼事嗎？啊哈，是來採訪我啊。\r\n\r\n我的興趣？我喜歡尋找美麗的鵝卵石。\r\n如果發現了一顆在平凡的石頭中努力發光的璞玉，我就會很想擁有。\r\n也許是覺得它有一部份跟我很像…哈哈。\r\n\r\n呵呵，為了報答那些努力想了解我的粉絲們…\r\n我一定會成為帥氣的歌手！",
-      "zh_cn": "啊～♬啊啊～♪啊啊～♬啊——啊～♪～\r\n啊，救援……制作人你好。\r\n\r\n原来你在听我的歌呀。我正在偷偷练习，希望让粉丝们更能感受到我的心意。\r\n请向米卡保密。她最近好像有点焦虑……\r\n\r\n话说回来，制作人来找我有什么事吗？啊哈，是来采访我啊。\r\n\r\n我的兴趣？我喜欢寻找美丽的鹅卵石。\r\n如果发现了一颗在平凡的石头中努力发光的璞玉，我就会很想拥有。\r\n也许是觉得它有一部分跟我很像……哈哈。\r\n\r\n呵呵，为了报答那些努力想了解我的粉丝们……\r\n我一定会成为帅气的歌手！"
+      "zh_cn": "啊～♬啊啊～♪啊啊～♬啊——啊～♪～\r\n啊，救援……制作人你好。\r\n\r\n原来你在听我的歌呀。我正在偷偷练习，希望粉丝们能更多地感受到我的心意。\r\n请向米卡保密。她最近好像有点焦虑……\r\n\r\n话说回来，制作人来找我有什么事吗？啊哈，是来采访我啊。\r\n\r\n我的兴趣？我喜欢寻找美丽的鹅卵石。\r\n如果发现了在平凡的石头中努力发光的璞玉，我就会很想拥有。\r\n也许是觉得它有一部分跟我很像……哈哈。\r\n\r\n呵呵，为了回报那些努力想了解我的粉丝们……\r\n我一定会成为帅气的歌手！"
     },
     {
       "no": 802046,
@@ -11414,7 +11510,7 @@
       "en": "Hooray~! Producer! Did you say, an \"interview\"?\r\nI'm having one, too, right?!\r\n\r\nAsk me any question! What am I good at?\r\nI'm good at anything, you know.\r\nIn particular, I won't lose to Seeha!\r\n\r\nMy hobby? Hehe, I will be honest with you!\r\nI practice signing my autograph every night! Now I can do it even with my eyes closed.\r\nWho knows when my autograph signing event might be held! Gotta be ready!\r\n\r\nMy favorite food? I like anything that tastes like oranges!\r\nAnd I love summer drinks!\r\n\r\nYou know, my motivation is always burning!\r\nMr. Producer, promise me you'll always look after me carefully!\r\nNow, repeat after me: \"Mica, I. L.O.V.E. M.I.C.A!\"",
       "ja": "ヤッホ～～！プロデューサー！\r\nインタビューやってるんだって？\r\nもちろんミカにもするんでしょ!?\r\n\r\nミカに何でも聞いてよ！得意なことは何かって？\r\nミカは何だって得意だよ!?\r\n言っておくけど、シハには絶対に負けないからね！\r\n\r\nミカの趣味？ふふっ、何を隠そう！毎晩サインの練習をしてるんだ！おかげで今は目を瞑ったままでもサインできちゃうんだよ。\r\nいつサイン会をやるか分からない\r\nでしょ？日頃から備えておかなきゃ！\r\n\r\n好きな食べ物？オレンジ味だったら何でも好き！\r\nそれから、夏っぽい飲み物が大好きなんだ～\r\n\r\nミカのやる気は、いつもメラメラ燃えあがってるよ！\r\nねえプロデューサー、いつもミカのことちゃんと見ててね？\r\n信じてるんだからね！それじゃ、最後に一緒に言おうよ。「ミカ、ミ～カ、だ～いすき！」",
       "zh_tw": "呀呼～！製作人！要採訪我嗎？\r\n米卡當然很樂意呀？！\r\n\r\n什麼都可以問米卡！你問我擅長什麼嗎？\r\n米卡什麼都擅長呀？！\r\n尤其我絕對不會輸西荷的！\r\n\r\n米卡的興趣？哈哈，不瞞你說～！\r\n我每天晚上都在練習簽名！我現在閉上眼睛都能簽。\r\n畢竟不知道什麼時候會辦簽名會呢！隨時要先做好準備！\r\n\r\n喜歡的食物？只要是柳橙口味的我都喜歡！\r\n我也很喜歡夏季的飲料～\r\n\r\n我的企圖心總是熊熊燃燒著！\r\n製作人，你會一直關注米卡吧？\r\n我相信你喔！那最後再跟我說一次。「米卡·我·愛·米·卡！」",
-      "zh_cn": "呀呼～！制作人！要采访我吗？\r\n米卡当然很乐意呀？！\r\n\r\n什么都可以问米卡！你问我擅长什么吗？\r\n米卡什么都擅长呀？！\r\n尤其我绝对不会输西荷的！\r\n\r\n米卡的兴趣？哈哈，不瞒你说～！\r\n我每天晚上都在练习签名！我现在闭上眼睛都能签。\r\n毕竟不知道什么时候会办签名会呢！随时要先做好准备！\r\n\r\n喜欢的食物？只要是柳橙口味的我都喜欢！\r\n我也很喜欢夏季的饮料～\r\n\r\n我的野心总是熊熊燃烧着！\r\n制作人，你会一直关注米卡吧？\r\n我相信你喔！那最后再跟我说一次。“米卡·我·爱·米·卡！”"
+      "zh_cn": "呀呼～！制作人！要采访我吗？\r\n米卡当然很乐意呀？！\r\n\r\n什么都可以问米卡！你问我擅长什么吗？\r\n米卡什么都擅长呀？！\r\n重要的是，我绝对不会输给西荷的！\r\n\r\n米卡的兴趣？哈哈，不瞒你说～！\r\n我每天晚上都在练习签名！我现在闭上眼睛都能签。\r\n毕竟不知道什么时候就会办签名会呢！要随时做好准备！\r\n\r\n喜欢的食物？只要是柳橙口味的我都喜欢！\r\n我也很喜欢夏季的饮料～\r\n\r\n我的野心总是熊熊燃烧着！\r\n制作人，你会一直关注米卡吧？\r\n我相信你喔！那最后再跟我说一次。“米卡·我·爱·米·卡！”"
     },
     {
       "no": 802056,
@@ -11526,7 +11622,7 @@
       "en": "Hehehe! Let everything burn!! Kaboom~! Let them explode~! Hehe, this is my secret bomb, \"Mr. Rocket\"! Explode!!!\r\n\r\nArgh, wha, what? Why isn't it working?! Who's there? Who's trying to mess with me…?! Ugh, oh… It was you, Savior. Tsk, what brings you here this time? I'll drop a bomb if you start nagging at me! Hehe. Go away if you don't want to get hurt!\r\n\r\nHmm? Give you a moment? Is there anything you want to say? …You received complaints from the neighborhood to ban explosions? Argh!!! Who could possibly make such complaints?! They just don't understand how cool explosions can be!!!\r\n\r\nDarn it, I should hurry up and complete my task: to make the world's most perfect bomb! Once I complete it and show the most splendid explosion to everyone, they will come to beg me for more. \"Please, we want to see that spectacular explosion one more time!\" they will say for sure. Hehe. Sounds awesome!\r\n\r\nWait, speaking of which, won't you see my spectacular explosion, too, Savior?! Hehe, experience it for yourself. How all your worries disappear when a bomb explodes!\r\n\r\nYou don't understand why I'm so serious about bombs? Do I really need to explain it? It's simple: I want to make the world's most perfect bomb! A beautiful bomb that'd explode spectacularly in any situation!!!\r\nI'll continue making bombs until I accomplish this dream. Hehe. So let me tell you in advance, Savior: don't you ever think of stopping me!",
       "ja": "ふ～ひひっ！全部燃えちまいな！ドカ～ン！と爆発しちまいなよ～！ひひっ、あたしのとっておきの爆弾！\r\nロケットくん！弾けろ!!!\r\n\r\nわっ、な、何だ？なんで爆発しないんだよ!?こんなはずないのに…誰だよ!?誰が邪魔しやがったんだ…!? \r\nなーんだ…救世主、おたくだったのか？チッ、また何しに現れやがったんだ!? \r\n説教垂れるつもりなら、この爆弾投げてぶつけるぞ～？ひひっ、消し炭になりたくなきゃ失せろ！\r\n\r\nあぁん？待ってほしい？話があるって？何だよ？…近隣住民から爆発を止めてほしいって通報が入った…？\r\nうぎゃぁっ!!! 爆弾の素晴らしさを理解できない石頭どもが!!!\r\n一体、通報しやがったのはどこのどいつだ!?\r\n\r\nくっ、こうなったら急いで作り上げるしかないな。世界でもっともパーフェクトな爆弾を作ってやる！完璧で素晴らしい爆発を見せてやりゃ、みんなあたしに泣きつくだろうさ。\r\nもう一度派手な爆発を見せてくださいってな！ひひっ、想像しただけでゾクゾクしてくるぜ！\r\n\r\n待てよ…どうせなら救世主も見に来たらどうだ？あたし特製の爆弾で、派手な爆発をさ!!! ふひひっ、せっかくだし一緒に感じようぜ！爆弾が弾けるときってさ、悩みも何も跡形もなく吹っ飛んじまう…素晴らしい瞬間なんだ！\r\n\r\nそんなに爆弾に入れ込む理由が分からないって？わざわざ説明する必要あるか？あたしはただ、この世でもっとも完璧な爆弾を作りたいだけなのさ！どんな状況でも派手に弾けてしまう、美しい爆弾をな!!!\r\nそれまで何個でも作って、何度でも爆発させてやるよ。くへへっ。\r\nだ～から、救世主…あたしの邪魔しようなんて思うなよ～！",
       "zh_tw": "呵～嘻嘻！全都燃燒殆盡吧！砰～！要爆炸了～！嘻嘻，我珍藏的炸彈！炸彈君！爆炸吧！！！\r\n\r\n呃啊，怎、怎麼一回事？為什麼沒爆炸？！怎麼可能…是誰！？是誰在妨礙我…！？呃，搞什麼，原來是救援者啊？哼，這次出現又是為了什麼！？如果是要嘮叨，炸彈會爆炸喔～西西，不想被炸到就滾邊去！\r\n\r\n嗯？要我等一下？你有話要說嗎？是什麼？…收到周遭要求禁止爆炸的投訴…呃啊啊！！！這些不懂炸彈魅力的傢伙！！！到底是哪些傢伙投訴的！？\r\n\r\n嘻嘻，總之得盡快完成了。製作出世界上最完美的炸彈！用最完美的炸彈展現出最帥氣的爆炸，到時候大家就會哀求我了吧？要求我再更華麗的爆炸給他們看。嘻嘻，光想就很興奮！\r\n\r\n等等，既然都提到了，救援者要不要也看看？我打造的華麗爆炸！！！嘻嘻，趁機體驗看看吧！炸彈爆炸時，不管是煩惱還是什麼東西，都會消失得無影無蹤的美妙感覺！\r\n\r\n你不能理解我為什麼那麼重視炸彈？一定要解釋嗎？就是～我想製作出世界上最完美的炸彈！在任何情況下，都會華麗引爆的美麗炸彈！！\r\n到製作出來前，我會繼續製作並引爆炸彈。呵呵呵。所以～救援者，別想妨礙我～！",
-      "zh_cn": "呵～嘻嘻！全都燃烧殆尽吧！砰～！要爆炸了～！嘻嘻，我珍藏的炸弹！炸弹君！爆炸吧！！！\r\n\r\n呃啊，怎、怎么一回事？为什么没爆炸？！怎么可能……是谁！？是谁在妨碍我……！？呃，搞什么，原来是救援者啊？哼，这次出现又是为了什么！？如果是要唠叨，炸弹会爆炸喔～嘻嘻，不想被炸到就滚边去！\r\n\r\n嗯？要我等一下？你有话要说吗？是什么？……收到周遭要求禁止爆炸的投诉……呃啊啊！！！这些不懂炸弹魅力的家伙！！！到底是哪些家伙投诉的！？\r\n\r\n嘻嘻，总之得尽快完成了。制作出世界上最完美的炸弹！用最完美的炸弹展现出最帅气的爆炸，到时候大家就会哀求我了吧？要求我再更华丽的爆炸给他们看。嘻嘻，光想就很兴奋！\r\n\r\n等等，既然都提到了，救援者要不要也看看？我打造的华丽爆炸！！！嘻嘻，趁机体验看看吧！炸弹爆炸时，不管是烦恼还是什么东西，都会消失得无影无踪的美妙感觉！\r\n\r\n你不能理解我为什么那么重视炸弹？一定要解释吗？就是～我想制作出世界上最完美的炸弹！在任何情况下，都会华丽引爆的美丽炸弹！！\r\n到制作出来前，我会继续制作并引爆炸弹。呵呵呵。所以～救援者，别想妨碍我～！"
+      "zh_cn": "呵～嘻嘻！全都燃烧殆尽吧！砰～！要爆炸了～！嘻嘻，我珍藏的炸弹！炸弹君！爆炸吧！！！\r\n\r\n呃啊，怎、怎么一回事？为什么没爆炸？！怎么可能……是谁！？是谁在妨碍我……！？呃，搞什么，原来是救援者啊？哼，这次出现又是为了什么！？如果是要唠叨，炸弹会爆炸喔～嘻嘻，不想被炸到就滚边去！\r\n\r\n嗯？要我等一下？你有话要说吗？是什么？……收到周围要求禁止爆炸的投诉……呃啊啊！！！这些不懂炸弹魅力的家伙！！！到底是哪些家伙投诉的！？\r\n\r\n嘻嘻，总之得尽快完成了。制作出世界上最完美的炸弹！用最完美的炸弹展现出最帅气的爆炸，到时候大家就会求着我了吧？要求我给他们看更华丽的爆炸。嘻嘻，光想就很兴奋！\r\n\r\n等等，既然都提到了，救援者要不要也看看？我打造的华丽爆炸！！！嘻嘻，趁机体验看看吧！那种炸弹爆炸时，不管是烦恼还是什么东西，都会消失得无影无踪的美妙感觉！\r\n\r\n你不能理解我为什么那么重视炸弹？一定要解释吗？就是～我想制作出世界上最完美的炸弹！在任何情况下，都会华丽引爆的美丽炸弹！！\r\n直到它被制作出来，我会一直制作并引爆炸弹。呵呵呵。所以～救援者，别想妨碍我～！"
     },
     {
       "no": 802076,
@@ -11750,7 +11846,7 @@
       "en": "Savior, Savior! Wake up! The weather is so good today!\r\n\r\nPardon…? \"Sleep for five more minutes\"? No way, not today! I can't just sit here and wait for you like last time!\r\nIf you keep doing this, then so be it!\r\nIn the next season, I will grow only vegetables that you hate!\r\n\r\nOh…! Hehe, you're awake. How nice would it be if you just woke up like this every day? Good and disciplined life!\r\nOne morning, you might not feel like waking up, but it's surprisingly not bad once you do, right?\r\nThe beautiful sunshine will always be with you, Savior! Hehe… I'll finish preparing our breakfast. Stretch yourself! ",
       "ja": "救世主さま、救世主さま！起きてください！今日もとっても良い天気です！\r\n\r\nはい…？あと5分だけ寝かせてほしい？今日は絶対にダメです！この前みたいに待たされるわけにはいかないんです！\r\n救世主さまがそのつもりなら、わたしにも考えがあります！\r\n次の季節は、救世主さまの苦手な野菜だけ栽培しますからね！\r\n\r\nあっ…！えへっ、やっと起きてくださいましたね。毎日こうだったらいいのに！正しい生活習慣は大事ですから！\r\n早起きしたくない朝でも、えいっ！と起きてしまうと、案外良いものですよね？\r\nいつも美しい日差しが救世主さまを照らしてくれるはずです！ふふ…それじゃわたし、朝ご飯の支度に戻りますね？\r\nグーッと伸びをして待っててください！",
       "zh_tw": "救援者、救援者！快起床！今天天氣也很好呢！\r\n\r\n什麼…？你要再多睡五分鐘？今天絕對不行！我不能像上次一樣等你了！\r\n你要是再這樣，我也沒辦法了喔！\r\n下一季我只會種救援者討厭的蔬菜！\r\n\r\n啊…！嘿嘿，總算起來了。平常也像這樣乖乖起床該有多好！好好生活、好好生活！\r\n早上很不想起床時，牙一咬起床其實意外的不錯吧？\r\n總是美麗的陽光會陪伴著救援者！呵呵…那我先準備早餐吧？你可以先伸個懶腰！",
-      "zh_cn": "救援者、救援者！快起床！今天天气也很好呢！\r\n\r\n什么……？你要再多睡五分钟？今天绝对不行！我不能像上次一样等你了！\r\n你要是再这样，我也没办法了喔！\r\n下一季我只会种救援者讨厌的蔬菜！\r\n\r\n啊……！嘿嘿，总算起来了。平常也像这样乖乖起床该有多好！好好生活、好好生活！\r\n早上很不想起床时，牙一咬起床其实意外的不错吧？\r\n总是美丽的阳光会陪伴着救援者！呵呵……那我先准备早餐吧？你可以先伸个懒腰！"
+      "zh_cn": "救援者、救援者！快起床！今天天气也很好呢！\r\n\r\n什么……？你要再多睡五分钟？今天绝对不行！我不能像上次一样等你了！\r\n你要是再这样，我也没办法了喔！\r\n下一季我只会种救援者讨厌的蔬菜！\r\n\r\n啊……！嘿嘿，总算起来了。平常也像这样乖乖起床该有多好！要好好生活、好好生活！\r\n哪怕早上很不想起来，咬咬牙起来后发现其实也挺不错吧？\r\n美丽的阳光会一直陪伴着救援者！呵呵……那我先准备早餐吧？你可以先伸个懒腰！"
     },
     {
       "no": 802116,
@@ -11804,7 +11900,7 @@
       "no": 802125,
       "kr": "오, 안녕! 네가 구원자구나?\r\n난 아케나인 최고의 맛집인 「대성만두」의 배달부! 소연이야.\r\n\r\n내가 좋아하는 거? 그건 고민할 필요도 없이 만두지!\r\n만두는 진~짜로 완벽한 음식이라니까? 자, 말 나온 김에 너도 하나 먹어봐.\r\n어때? 맛있지? 헤헷.\r\n\r\n시간이 되면 우리 가게 한번 놀러 와. 사장은 악덕 영감이지만 맛 하나는 보장할 수 있으니까.\r\n그리고… 너만 괜찮다면 내 동생들도 소개해 줄게. 다들 착하고 귀여운 애들이야.\r\n\r\n앗, 배달 들어왔다!\r\n그럼 난 이만 가볼게. 다음에 봐!",
       "en": "Oh, hello! You must be the Savior!\r\r\nI'm in charge of deliveries for \"Daesung Dumplings,\" the best place to eat in Arkenine!\r\r\n\r\r\nMy favorite food? Dumplings, of course!\r\r\nIt's just the perfect food! Here, just try one.\r\r\nWell? Tasty, isn't it? Hehe.\r\r\n\r\r\nCome visit the restaurant when you have time sometime. The boss is a greedy old man, but he sure can make a perfect dumpling.\r\r\nOh, and if you don't mind, I'll introduce you to some of my friends. They're all so cute and nice.\r\r\n\r\r\nOh, I need to make a delivery!\r\r\nSee you later!",
-      "ja": "お、まいど！あんたが救世主さん？\r\nウチはアーケナインで一番のグルメ「大成餃子」の配達員！シャオリンや。\r\n\r\nウチの好きなもの？そんなん豚まんにきまってるやん！\r\n豚まんは本当～に完璧な食べ物！ほな、せっかくやし、あんたも一つ食べてみ。\r\nどうや？おいしいやろ？へへっ。\r\n\r\nよかったらうちの店にも寄っていって。店主は悪徳じじいやけど、味は保証できるから。\r\nさらには…あんたさえよかったら、私の兄弟たちを紹介してあげるわ。みんな、優しくて可愛いで。\r\n\r\nあっ、出前に行かんと！\r\nそんじゃ、ウチは先に行くな。またな！",
+      "ja": "お、まいど！あんたが救世主さん？\r\nウチはアーケナインで一番のグルメ「大成餃子」の配達員！シャオリンや。\r\n\r\nウチの好きなもの？そんなん肉まんにきまってるやん！\r\n肉まんは本当～に完璧な食べ物！ほな、せっかくやし、あんたも一つ食べてみ。\r\nどうや？おいしいやろ？へへっ。\r\n\r\nよかったらうちの店にも寄っていって。店主は悪徳じじいやけど、味は保証できるから。\r\nさらには…あんたさえよかったら、私の兄弟たちを紹介してあげるわ。みんな、優しくて可愛いで。\r\n\r\nあっ、出前に行かんと！\r\nそんじゃ、ウチは先に行くな。またな！",
       "zh_tw": "哦，哈囉！你就是救援者啊？\r\r\n阿肯納因最好吃的美食餐廳，中華料理「大成包子」外送員就是我！我叫小蓮。\r\r\n\r\r\n你問我喜歡什麼？完全不需要猶豫，就是包子！\r\r\n包子真～的是完美的食物！來，既然提到了，你也吃一個看看。\r\r\n怎麼樣？好吃吧？嘿嘿。\r\r\n\r\r\n有空的話來我們的店看看，雖然老闆是缺德老頭，但餐點真的很好吃。\r\r\n還有…你願意的話，我再介紹我的弟弟妹妹們給你認識，他們都是乖巧可愛的孩子。\r\r\n\r\r\n啊，有外送訂單了！\r\r\n那我先走了，下次見！",
       "zh_cn": "哦，哈喽！你就是救援者啊？\r\r\n阿肯纳因最好吃的美食餐厅，中华料理“大成包子”外送员就是我！我叫小莲。\r\r\n\r\r\n你问我喜欢什么？完全不需要犹豫，就是包子！\r\r\n包子真～的是完美的食物！来，既然提到了，你也吃一个看看。\r\r\n怎么样？好吃吧？嘿嘿。\r\r\n\r\r\n有空的话来我们的店看看，虽然老板是缺德老头，但餐点真的很好吃。\r\r\n还有……你愿意的话，我再介绍我的弟弟妹妹们给你认识，他们都是乖巧可爱的孩子。\r\r\n\r\r\n啊，有外送订单了！\r\r\n那我先走了，下次见！"
     },
@@ -11818,11 +11914,11 @@
     },
     {
       "no": 802127,
-      "kr": "이다은",
-      "en": "Daeun Lee",
+      "kr": "Yuuki Takada",
+      "en": "Yuuki Takada",
       "ja": "高田 憂希",
-      "zh_tw": "李多恩",
-      "zh_cn": "李多恩"
+      "zh_tw": "Yuuki Takada",
+      "zh_cn": "Yuuki Takada"
     },
     {
       "no": 802131,
@@ -12134,7 +12230,7 @@
       "en": "Oh, my hair got all mussed.\r\nNo matter how well I comb it, a single gust of wind will do this...\r\nBut no worries!\r\nEven my disheveled hair won't detract from my beauty, but rather enhance it.\r\n\r\n... Mm? Savior, why are you hovering over there?\r\nIs it because you want to join my fan club?\r\nIf so, you should see someone at the Chalar Arms Corporation and take the official steps to join.\r\n\r\nNo matter how close you and I are,\r\nwe can't ignore the rules.\r\nIt's important to have a standardized process for these things, right?\r\n\r\nOh, sorry. I should get going. I have something else on my schedule.\r\n\r\nIf you have any questions, please drop me a line on Evertalk.\r\nI'll get back to you when I have time, as soon as I can.\r\n\r\nNow, see you!",
       "ja": "ああ、髪が乱れてしまった。\r\nいくらちゃんと整えて出てきても、風が吹けばこうなるんだから…\r\nでも、全然問題ないんだ！\r\n風で乱れた髪すら、私の美しさを損なうどころか、むしろ自然な魅力を引き立ててくれるのは間違いないからね。\r\n\r\n…ん？救世主。そこで何をキョロキョロしてるんだ？\r\nもしかして、私のファンクラブに入りたいのか？\r\nなら、カラールアームズコーポレーションで正式な手続きを踏めるから、そこの担当者に問い合わせてくれ。\r\n\r\n私たちがどんなに気楽に話せる仲だとしても、\r\n決められたルールを無視するわけにはいかないだろ？\r\nルールに従うことって、とても大事なことだからな。\r\n\r\nあ、悪い。次のスケジュールがあるから行かなきゃいけないんだ。\r\n\r\nもし何かあればエバートークにメッセージを残しておいてくれ。\r\n時間が空いたら、できるだけ早く返信するから。\r\n\r\nそれじゃ、失礼するよ。",
       "zh_tw": "啊，頭髮變亂了。\r\n就算整理得再整齊，一出來吹到風就會變這樣…\r\n但這完全不是問題！\r\n被風吹亂的頭髮別說是有損我的美了，反倒顯然會更襯托出我的自然美。\r\n\r\n…嗯？救援者，你為什麼在那邊探頭探腦的？\r\n是想要加入我的後援會嗎？\r\n那你可以透過卡拉爾安茲公司走正式流程，希望你可以問問那邊的負責人。\r\n\r\n就算我們是能毫不見外地聊天的關係，\r\n還是不能連訂好的規則都無視。\r\n遵循標準化流程不是非常重要的事嗎？\r\n\r\n啊，抱歉，我要先去趕下一個行程了。\r\n\r\n有什麼事就用EverTalk留訊息給我。\r\n我有空就會盡快回復你。\r\n\r\n那先失陪了。",
-      "zh_cn": "啊，头发变乱了。\r\n就算整理得再整齐，一出来吹到风就会变这样……\r\n但这完全不是问题！\r\n被风吹乱的头发别说是有损我的美了，反而明显会更衬托出我的自然美。\r\n\r\n……嗯？救援者，你为什么在那边探头探脑的？\r\n是想要加入我的后援会吗？\r\n那你可以通过卡拉尔安兹公司走正式流程，希望你可以问问那边的负责人。\r\n\r\n就算我们是能毫不见外地聊天的关系，\r\n也不能无视定好的规则。\r\n遵循标准化流程不是非常重要的事吗？\r\n\r\n啊，抱歉，我要先去赶下一个行程了。\r\n\r\n有什么事就用精灵通信发消息给我。\r\n我有空就会尽快回复你。\r\n\r\n那先失陪了。"
+      "zh_cn": "啊，头发变乱了。\r\n就算整理得再整齐，一出来吹到风就会变这样……\r\n但这完全不是问题！\r\n被风吹乱的头发不仅不会有损我的美，反而能更衬托出我的自然美。\r\n\r\n……嗯？救援者，你为什么在那边探头探脑的？\r\n是想加入我的后援会吗？\r\n那你可以通过卡拉尔安兹公司走正式流程，希望你可以问问那边的负责人。\r\n\r\n就算我们能毫不见外地聊天，也不能无视定好的规则。\r\n遵循标准化流程不是非常重要的事吗？\r\n\r\n啊，抱歉，我要先去赶下一个行程了。\r\n\r\n有什么事就用精灵通信发消息给我。\r\n我有空就会尽快回复你。\r\n\r\n那先失陪了。"
     },
     {
       "no": 803036,
@@ -12358,7 +12454,7 @@
       "en": "Oh, hi there! Are you the Savior? I'm Nicole! It would be better if you put the word \"Marksman\" before my name. Haha. My bow never misses its target.\r\n\r\nAh! Come on, say hello to my friend. Aren't her wings and tail amazing? You'd be even more surprised when you see her flying in the sky. She's not my pet. I just shared her some bread and meat when she was around. You know, if we shared a meal, we should be friends, right? Since then, she keeps showing up and greeting me, and doing even things I didn't tell her to do. She's a good bird. She also helps me a lot in fighting battles. For example, if I shoot an arrow and hit a prey, she flies off, snatches the prey, and then comes back! We have good chemistry. Well… Sometimes she just snatches up my food and flies away. Haha. She and I have similar appetites.\r\n\r\nCome to the forest whenever you want to eat your fill or play with my friend. I'm there more often than in the room. Just come and call my name, and my friend will find you right away wherever you are. Then, see you again!",
       "ja": "やあ、君が救世主？私はニコル！\r\n名射手のニコルと呼んでもらえると嬉しいかな。あははっ。私の弓は百発百中なんだよ。\r\n\r\nああ！せっかくだから私のお友達を紹介するね。翼と尻尾がかっこいいでしょ？空を飛ぶところを見たら、きっと驚くと思うよ。飼ってるわけじゃないけどね。ご飯を食べていたら近くをうろうろしていて、何度かパンとお肉を分けてあげただけ。ご飯を一緒に食べたなら、それはもう友達でしょ？それからはこうして何度も訪ねてきたり、頼んでもないのに色んなことを手伝ってくれたりしてね。良いやつなんだよ。戦うときも助かってるんだ。たとえば、私が放った矢をこいつが飛んでいって持ち帰ってきてくれたりね！結構息が合ってるんだ。\r\nまあ…時々、私のご飯をくわえて逃げ出すときもあるけどね。あはは。私達は味の好みも似てるからね。\r\n\r\n君もお腹一杯にご飯を食べたいときや、こいつと遊びたいときはいつでも森に来なよ。私は部屋にいるより森にいることが多いから。森で私の名前を呼んでくれれば、こいつがいつでも君のところを訪ねていくよ。それじゃ、また会おうね！",
       "zh_tw": "喔，你好啊？你是救援者吧？我是妮可！在我的名字前加個神射手稱號更好。哈哈。我的箭可是百發百中呢。\r\n\r\n啊！順便跟我的朋友打聲招呼。牠的翅膀和尾巴很帥吧？你看到牠飛天的樣子一定會更驚訝的。不過牠不是我養的，我只是在吃飯的時候因為牠在旁邊徘徊，而順手餵了牠幾次麵包和肉而已。一起吃過飯就算是朋友了，不是嗎？從那次之後牠一直來找我，裝作聽得懂我的話，還會做一些我沒叫牠做的事，真是個乖孩子。我在打架的時候牠在旁邊也幫了我不少呢！舉例來說，我射中敵人的時候，牠就會帥氣地飛過去把敵人抓過來！默契超級好。不過…牠有時候會咬走我的飯然後逃跑，哈哈，畢竟我們喜歡吃的東西很像嘛。\r\n\r\n如果你也想好好吃頓飯，或跟我的朋友一起玩，隨時都可以來森林找我，我待在這裡的時間比待在房間久。你來這裡只要叫我的名字，我的朋友會立刻跑來找你的。下次見！",
-      "zh_cn": "喔，你好啊？你是救援者吧？我是妮可！在我的名字前加个神射手称号更好。哈哈。我的箭可是百发百中呢。\r\n\r\n啊！顺便跟我的朋友打声招呼。它的翅膀和尾巴很帅吧？你看到它飞天的样子一定会更惊讶的。不过它不是我养的，我只是在吃饭的时候因为它在旁边徘徊，而顺手喂了它几次面包和肉而已。一起吃过饭就算是朋友了，不是吗？从那次之后它一直来找我，装作听得懂我的话，还会做一些我没叫它做的事，真是个乖孩子。我在打架的时候它在旁边也帮了我不少呢！举例来说，我射中敌人的时候，它就会帅气地飞过去把敌人抓过来！默契超级好。不过……它有时候会咬走我的饭然后逃跑，哈哈，毕竟我们喜欢吃的东西很像嘛。\r\n\r\n如果你也想好好吃顿饭，或跟我的朋友一起玩，随时都可以来森林找我，我待在这里的时间比待在房间久。你来这里只要叫我的名字，我的朋友会立刻跑来找你的。下次见！"
+      "zh_cn": "喔，你好啊？你是救援者吧？我是妮可！在我的名字前加个神射手称号更好。哈哈。我的箭可是百发百中呢。\r\n\r\n啊！顺便跟我的朋友打声招呼。它的翅膀和尾巴很帅吧？你看到它飞在天上的样子一定会更惊讶的。不过它不是我养的，我只是在吃饭的时候因为它在旁边徘徊，而顺手喂了它几次面包和肉而已。一起吃过饭就算是朋友了，不是吗？从那之后它一直来找我，装作好像认识我一样，还会做一些我没叫它做的事，真是个乖孩子。我在打架的时候它在旁边也帮了我不少呢！举例来说，我射中敌人的时候，它就会帅气地飞过去把敌人抓过来！超级默契。不过……它有时会咬走我的饭然后逃跑，哈哈，毕竟我们喜欢吃的东西很像嘛。\r\n\r\n如果你也想好好吃顿饭，或跟我的朋友一起玩，随时都可以来森林找我，我待在这里的时间比待在房间久。你来这里只要叫我的名字，我的朋友会立刻跑来找你的。下次见！"
     },
     {
       "no": 803076,
@@ -12414,7 +12510,7 @@
       "en": "Nice to meet you~! I'm Vivienne.\r\nLooking at your cute face makes my heart flutter, Savior. Haha.\r\n\r\nSorry that my room is a bit messy when this is my first greeting. I'm embarrassed.\r\nI'm afraid you'd misunderstand, but it's not that messy in the first place!\r\nI lost my notebook, so I'm looking for it now.\r\nI apparently left a long research journal yesterday, but it disappeared completely.\r\nUgh. I should have put it away beforehand. I can't tell where anything is.\r\nI definitely finished my research yesterday, and I was so excited that I took the notes and…\r\n\r\nRight! Now I remember! I went to the bar! Oh, I'm so glad I remembered it.\r\nI should go find it right now! You've been here at best, but I'm sorry. I was just telling my stories.\r\nBut it would be a big deal if the results of my week-long research were lost… Please understand.\r\nWhat am I researching?\r\nHmm, you're very interested in me, Savior, aren't you?\r\nWell, you will come to know someday.\r\nAll the best until then. Haha…",
       "ja": "どうも～ビビアンよ。\r\n可愛い救世主の顔を見たら、胸がドキドキしてきたわ。ふふっ。\r\n\r\nごめんなさいね。せっかくのご対面なのに、今ちょっとお部屋が汚いのよ。やぁん、恥ずかしい～\r\n誤解しないでよね。普段はここまで汚くないんだから！\r\nノートを失くしちゃって、探していたらこうなってしまったの。\r\n昨日、長い長～い研究日誌を書き残しておいたのに、跡形もなく消えてしまったのよね。\r\nんもぉ。こういうことなら日頃から整理しておけばよかったわ。何がどこにあるかさっぱり分からないじゃない。\r\n\r\n確か昨夜は研究を仕上げて上機嫌になっちゃって、ノートを持ってそのまま……\r\nそう！思い出したわ！バーに行ったのよね！思い出せて本当によかったわ。\r\nすぐに取りに戻らなくちゃ！せっかく来てもらったのにごめんなさい。\r\n自分の話ばかりしちゃったわね。\r\nでも、あたしの一週間の研究成果がなくなったら大変じゃない？どうか大目に見てちょうだい。\r\nいったい何を研究してるのかって？\r\nふぅ～ん…\r\n救世主ったら、あたしに興味津々みたいね。\r\nねぇ…それはいずれ嫌でも知ることになるのよ。\r\nそれまでは、どうぞよろしくね？ふふっ",
       "zh_tw": "很高興見到你～我是薇薇安。\r\n見到可愛的救援者，讓我很心動呢！呵呵。\r\n\r\n抱歉，初次見面就讓你看到我的房間有點亂，真不好意思～\r\n怕你誤會，我先解釋一下，原本沒有這麼亂！\r\n是因為我在找筆記本才會變這樣的。\r\n我昨天明明把我進行很久的研究日誌放在這裡，竟然神不知鬼不覺地消失了。\r\n唉，早知道就先整理好了。就是因為這樣才會都找不到東西。\r\n\r\n我昨天完成研究後還很高興的拿在手上……\r\n啊！我想起來了！我去了館子！還好我想起來了。\r\n我得快點去看看！抱歉，你人都來了，一直在聽我說話～\r\n但萬一一整個禮拜的研究心血通通不見，那可就嚴重了…體諒我一下吧。\r\n你問我在研究什麼？哼嗯～\r\n救援者好關心我呀。\r\n嗯，總有一天你不想知道也會知道。\r\n到那之前就多多關照了！呵呵…",
-      "zh_cn": "很高兴见到你～我是薇薇安。\r\n见到可爱的救援者，让我很心动呢！呵呵。\r\n\r\n抱歉，初次见面就让你看到我的房间有点乱，真不好意思～\r\n怕你误会，我先解释一下，原本没有这么乱！\r\n是因为我在找笔记本才会变这样的。\r\n我昨天明明把我进行很久的研究日志放在这里，竟然神不知鬼不觉地消失了。\r\n唉，早知道就先整理好了。就是因为这样才会都找不到东西。\r\n\r\n我昨天完成研究后还很高兴的拿在手上……\r\n啊！我想起来了！我去了饭馆！还好我想起来了。\r\n我得快点去看看！抱歉，你人都来了，一直在听我说话～\r\n但万一一整个礼拜的研究心血通通不见，那可就严重了……体谅我一下吧。\r\n你问我在研究什么？哼嗯～\r\n救援者好关心我呀。\r\n嗯，总有一天你不想知道也会知道。\r\n到那之前就多多关照了！呵呵……"
+      "zh_cn": "很高兴见到你～我是薇薇安。\r\n见到可爱的救援者，让我很心动呢！呵呵。\r\n\r\n抱歉，初次见面就让你看到我乱乱的房间，真不好意思～\r\n怕你误会，我先解释一下，原本没有这么乱！\r\n是因为我在找笔记本才会变这样的。\r\n我昨天明明把我进行很久的研究日志放在这里，竟然神不知鬼不觉地消失了。\r\n唉，早知道就先整理好了。就是因为这样才会找不到东西。\r\n\r\n我昨天完成研究后还很高兴地拿在手上……\r\n啊！我想起来了！我去了饭馆！还好我想起来了。\r\n我得快点去看看！抱歉，你人都来了，却一直在听我说话～\r\n但万一一整个礼拜的研究心血通通不见，那可就严重了……体谅我一下吧。\r\n你问我在研究什么？哼嗯～\r\n救援者好关心我呀。\r\n嗯，总有一天你不想知道也会知道。\r\n在那之前就请多多关照了！呵呵……"
     },
     {
       "no": 803086,
@@ -12526,7 +12622,7 @@
       "en": "Ta-ah! Ha-ah! Hup! \r\nPhew… Huh? Who's there… Savior?\r\n\r\nYou've been watching me! I didn't see you because I was so focused on practicing! \r\nWhen something's worrying me, I first move my body to find a solution.\r\nThen the answer comes out: I'm saying, \"Oh, I can do it this way!\" There's no need to spend too much time thinking over it.\r\nWhen you feel troubled, come here and do exercises with me, Savior!\r\n\r\nLet's do exercises and sweat a lot! Gotcha! And then, let's have a very delicious dinner! \r\nOf course, it's even better if you buy me dinner, Savior! Hehe.",
       "ja": "たぁ～っ！はあっ！えいや～っ！ふぅ…ん？そこにいるのは…救世主さま？\r\n\r\nずっと見てくださってたんですか？\r\n訓練に夢中でちっとも気付きませんでした！\r\nあたし、悩みがあるときは身体を動かしたくなるタイプなんです。\r\nそうすると、ピコーンと答えが閃いたりするんですよね。だから、悶々と悩んでる必要なんてないんです！\r\n救世主さまも悩みがあるんでしたらここであたしと訓練しましょう！\r\n\r\nビシバシやり合って、思いっきり汗をかいて～！そしてすご～く美味しい夕ご飯を食べましょう！\r\nついでに救世主さまのおごりなら言うことなしです！えへへっ。",
       "zh_tw": "嗒啊～！哈啊！咿呀～！\r\n呼…嗯？那是誰…救援者？\r\n\r\n你一直在看我嗎？我顧著練習都沒察覺呢！\r\n我有煩惱的時候就會先活動筋骨紓解一下，\r\n這樣一來就會想出解決辦法了。所以不必煩惱太久～\r\n所以救援者有煩惱的時候，就來這裡和我一起練習吧！\r\n\r\n試著大汗淋漓一場吧～！呀哈！結束後再吃一頓超美味的晚餐！\r\n救援者請客的話當然更好囉！嘿嘿。",
-      "zh_cn": "嗒啊～！哈啊！咿呀～！\r\n呼……嗯？那是谁……救援者？\r\n\r\n你一直在看我吗？我顾着练习都没察觉呢！\r\n我有烦恼的时候就会先活动筋骨舒解一下，\r\n这样一来就会想出解决办法了。所以不必烦恼太久～\r\n所以救援者有烦恼的时候，就来这里和我一起练习吧！\r\n\r\n试着让自己大汗淋漓吧～！呀哈！结束后再吃一顿超美味的晚餐！\r\n救援者请客的话当然更好咯！嘿嘿。"
+      "zh_cn": "嗒啊～！哈啊！咿呀～！\r\n呼……嗯？那是谁……救援者？\r\n\r\n你一直在看我吗？我光顾着练习都没察觉到呢！\r\n我有烦恼的时候就会先活动筋骨舒解一下，\r\n这样一来就会想出解决办法了。没有必要烦恼太久嘛～\r\n所以救援者有烦恼的时候，就来这里和我一起练习吧！\r\n\r\n试着让自己大汗淋漓吧～！呀哈！结束后再吃一顿超美味的晚餐！\r\n救援者请客的话当然更好咯！嘿嘿。"
     },
     {
       "no": 803106,
@@ -12582,7 +12678,7 @@
       "en": "Hello, Savior… Welcome to the Dream Shop… Yawn…\r\nI was just testing a new Dream Powder…so I'm somehow half asleep and half awake… Hehe, sorry for that…\r\n\r\nUm, I think I'm completely awake now… I assume you're here because…there's a dream you're looking for, am I right?\r\nHuh…? You wanted to talk to me? Haha, that pleases me… I'm thankful…and I feel like giving you something in return…\r\n\r\nSavior, if there's a dream you want, come to me any time… I'll invite you to a place where you could have the dream you want…\r\nOh, by the way, I'd like to ask you a favor… Would you visit me even if you had a wonderful dream? The Dream Shop also buys back a customer's dream… I'll give you a good price…\r\n\r\nWell then, Savior… I hope we can see each other more often…\r\nI'll be looking forward to your dream…\r\nHave a nice dream…",
       "ja": "救世主様、こんばんは…夢ショップへようこそ…ふぁぁ…\r\nちょうど新しく入荷した夢の粉のテストをしていたところだから…少し夢うつつな感じなの…ふふ、許してちょうだいね…\r\n\r\nんー…やっと目が覚めてきたみたい…救世主様がここを訪れた理由は…探している夢があるからなのでしょう…？\r\nえっ…？私とお話がしたくて訪ねてきた…？ふふっ、興味を持ってもらえて嬉しいわ…感謝でいっぱい…何かお礼がしたいわね…\r\n\r\n救世主様、ほしい夢があったらいつでも訪ねてきてね…希望通りの夢が見られる場所へ誘ってあげるから…\r\nそうそう、一つお願いがあるのだけど…もし、素敵な夢を見たときには…また私を訪ねてきてくれる？\r\n夢ショップは、お客さんが見た夢を買っているの…良い値で買い取ってあげるわ…\r\n\r\nそれじゃ、救世主様…これからたくさん会いましょうね…\r\n救世主様の見る夢はどんな夢か、楽しみだわ…\r\nどうか良い夢を見られますように…",
       "zh_tw": "你好，救援者…歡迎來到夢境商店…呼啊…\r\n我剛好在測試新到貨的夢之粉末…有點半夢半醒…呵呵，請見諒…\r\n\r\n嗯，現在好像清醒了…救援者來這裡…是因為有想要找的夢吧…？\r\n嗯…？是為了和我聊天而來的…？呵呵，很開心能被你關心…謝謝你…想要送你回禮…\r\n\r\n救援者，如果有想做的夢，隨時都可以來找我…我會邀請你進到夢境，讓你做你想做的夢…\r\n啊，對了，有件事想要拜託你…如果救援者做了很棒的夢…可以來找我嗎？夢境商店也會買回客人的夢…我會高價收購的…\r\n\r\n那麼，救援者…希望我們能經常見面…\r\n我很期待救援者做的夢…\r\n祝你有個美夢…",
-      "zh_cn": "你好，救援者……欢迎来到梦境商店……呼啊……\r\n我刚好在测试新到货的梦之粉末……有点半梦半醒……呵呵，请见谅……\r\n\r\n嗯，现在好像清醒了……救援者来这里……是因为有想要找的梦吧……？\r\n嗯……？是为了和我聊天而来的……？呵呵，很开心能被你关心……谢谢你……想要送你回礼……\r\n\r\n救援者，如果有想做的梦，随时都可以来找我……我会邀请你进到梦境，让你做你想做的梦……\r\n啊，对了，有件事想要拜托你……如果救援者做了很棒的梦……可以来找我吗？梦境商店也会买回客人的梦……我会高价收购的……\r\n\r\n那么，救援者……希望我们能经常见面……\r\n我很期待救援者做的梦……\r\n祝你有个美梦……"
+      "zh_cn": "你好，救援者……欢迎来到梦境商店……呼啊……\r\n我刚好在测试新到货的梦之粉末……有点半梦半醒……呵呵，请见谅……\r\n\r\n嗯，现在好像清醒了……救援者来这里……是因为有想要找的梦吧……？\r\n嗯……？是为了和我聊天而来的……？呵呵，被你关心的感觉真是不错……谢谢你……想要回赠你些什么……\r\n\r\n救援者，如果有想做的梦，随时都可以来找我……我会邀请你进到梦境，让你做你想做的梦……\r\n啊，对了，有件事想要拜托你……如果救援者做了很棒的梦……可以来找我吗？梦境商店也会购买客人的梦……我会给你个好价格的……\r\n\r\n那么，救援者……希望我们能经常见面……\r\n我很期待救援者做的梦……\r\n祝你有个美梦……"
     },
     {
       "no": 803116,
@@ -12862,7 +12958,7 @@
       "en": "Hahh… I didn't know you were such a cute guy, Savior. I'm very pleased. I really like you.\r\n\r\nMy name is Violette. I am the breath of disaster and the Soul harboring the pain and despair of living things.\r\n\r\nHehe. Did my self-introduction scare you? Even your scared face looks very cute. Don't be too afraid of me. If you listen to what I say…I could be pretty generous. And if you become my only darling, I could do more than that for you.\r\n\r\nAren't you curious about what kind of Soul I am? If you want, I am willing to teach you about it, one by one, kindly and slowly…\r\nCutie…what do you think?\r\n\r\nHmm, you are slow to reply. Well, that's fine. It's okay if you don't answer right away. There's enough time. I will bind and restrain you slowly with my love until the two of us come to think alike. Since you are special, I shall tame you, so accept it with pleasure.",
       "ja": "はぁ…まさか救世主がこんなにカワイイ人だったなんて。何て嬉しいのかしら。とっても気に入ったわ。\r\n\r\n私はヴィオレット。ふふっ、災厄の息吹であり、生きとし生けるものの苦痛と絶望を抱いている精霊よ。\r\n\r\nふふっ、今の自己紹介が怖かったのかしら？怯えている顔もすごくカワイイわ。そんなに私を恐れないで。あなたが私の言うことさえちゃんと聞けば…私、どこまでも寛大になれるから。ふふっ、あなたが私のダーリンになってくれるなら、それ以上の事もやってあげていいわよ。\r\n\r\n私がどんな精霊か気になってきたんじゃないかしら？好奇心を満たしたいなら、一つ一つ親切に、ゆっくり教えてあげてもいいのだけど…\r\n救世主の…カワイ子ちゃんの考えはどうかしら？\r\n\r\nふうん、即答できないのね？まあ、いいわ。今すぐ答えなくても大丈夫よ。時間はたっぷりあるんだから。\r\n愛を込めてゆっくり縛りつけて、あなたを束縛してあげる。私達の考えが似てくるまで、ト・ク・ベ・ツ・に、飼い慣らしてあげるわ。光栄で\r\nしょ？素直に喜びなさい。",
       "zh_tw": "哈哈…救援者竟然是這麼可愛的人啊，真令人高興。我很滿意。\r\n\r\n我叫薇奧蕾特。呵呵，我是災厄的氣息，蘊含了所有生物的痛苦與絕望的精靈。\r\n\r\n呵呵，我的自我介紹很可怕嗎？你害怕的模樣也很可愛呢，不需要太怕我，只要救援者照我說的做…我會寬待你的。呵呵，如果你可以成為專屬於我的愛人，我還可以為你做更多事。\r\n\r\n你不好奇我是什麼樣的精靈嗎？你願意的話，我會一個個、親切地、慢慢地告訴你…\r\n我們…小可愛覺得怎麼樣呢？\r\n\r\n嗯哼，回答的太慢了。沒關係，不需要馬上回覆我，還有很多時間。我會用愛慢慢地束縛你、限制你，直到我們兩個的想法雷同。我會特·別·關·照你，你就滿懷欣喜地接受吧。",
-      "zh_cn": "哈哈……救援者竟然是这么可爱的人啊，真令人高兴。我很满意。\r\n\r\n我叫薇奥蕾特。呵呵，我是灾厄的气息，蕴含了所有生物的痛苦与绝望的精灵。\r\n\r\n呵呵，我的自我介绍很可怕吗？你害怕的模样也很可爱呢，不需要太怕我，只要救援者照我说的做……我会宽待你的。呵呵，如果你可以成为专属于我的爱人，我还可以为你做更多事。\r\n\r\n你不好奇我是什么样的精灵吗？你愿意的话，我会一个个、亲切地、慢慢地告诉你……\r\n我们……小可爱觉得怎么样呢？\r\n\r\n嗯哼，回答的太慢了。没关系，不需要马上回复我，还有很多时间。我会用爱慢慢地束缚你、限制你，直到我们两个的想法雷同。我会特·别·关·照你，你就满怀欣喜地接受吧。"
+      "zh_cn": "哈哈……救援者竟然是这么可爱的人啊，真令人高兴。我很满意。\r\n\r\n我叫薇奥蕾特。呵呵，我是灾厄的气息，蕴含了所有生物痛苦与绝望的精灵。\r\n\r\n呵呵，我的自我介绍很可怕吗？你害怕的模样也很可爱呢，不需要太怕我，只要救援者照我说的做……我会宽待你的。呵呵，如果你能成为我的唯一，我还可以为你做更多的事。\r\n\r\n你不好奇我是什么样的精灵吗？你愿意的话，我会一个个、亲切地、慢慢地告诉你……\r\n我们……小可爱觉得怎么样呢？\r\n\r\n嗯哼，回答得太慢了。没关系，不需要马上回复我，还有很多时间。我会用爱慢慢地束缚你、限制你，直到我们两个的想法相同。我会特·别·关·照你，你就满怀欣喜地接受吧。"
     },
     {
       "no": 804016,
@@ -13174,7 +13270,7 @@
       "en": "Self-maintenance",
       "ja": "自己整備",
       "zh_tw": "自我整備",
-      "zh_cn": "自我整备"
+      "zh_cn": "自我检修"
     },
     {
       "no": 804073,
@@ -13198,7 +13294,7 @@
       "en": "… … … J-W2B, Jacqueline. Boot completed.\r\n\r\nAll systems OK. Command, self-introduction. Run.\r\n\r\nJ-W2B, a.k.a. Jacqueline. This model was developed as a lethal weapon for combat against many, and it is a type with excellent mobility and lethality. It always acts on the command of the contractor first. The contractor is only called: Savior. Jacqueline obeys any command of the contractor in combat situations, and, at other times, she automatically performs the required self-maintenance works on her own. Therefore, please check the remaining level of functional oil as often as possible. This model does nothing other than combat and self-maintenance. If it shows any other behavior, it is an operation error, pause operating it immediately and dispose of the device.\r\n\r\nRegarding the special features of this device, it was released without a learning function for human emotions and minds at the developer's discretion. Please take note of this precaution again. In case of malfunction, please stop operating it and dispose of it immediately.\r\n\r\nWould you permit me to kill the enemy?",
       "ja": "……………J-W2B、ジャクリーン。起動完了。\r\n\r\nシステム異常なし。\r\nコマンド、自己紹介。実行します。\r\n\r\nJ-W2B、コードネーム、ジャクリーン\r\n\r\n多人数戦闘用殺傷兵器として開発され、可動性と殺傷力が極めて高いモデルであり、常に契約者の命令を最優先に遂行します。契約者に対する呼称は「救世主様」に固定します。戦闘時はいかなる命令にも服従し、その他の状況では自ら必要な整備を行います。それにより、機能性オイルの残量を頻繁に確認することが望まれます。当モデルは戦闘と自己整備以外の行動をいたしません。その他の行動をした場合はエラーのため、速やかに作動を停止させ、当機を破棄してください。\r\n\r\n当機の特記事項としましては、開発者の判断により、人間の感情と精神に対する学習機能を搭載していない状態でロールアウトされています。\r\n改めて警告します。誤作動の際には速やかに作動を停止させ、即刻破棄してください。\r\n\r\n射殺許可、いただけますか？",
       "zh_tw": "………J-W2B，潔克琳。已啟動。\r\n\r\n系統正常。命令，自我介紹。執行。\r\n\r\nJ-W2B，又稱潔克琳。被開發作為多人戰鬥時造成死傷的武器，是機動性及殺傷力相當卓越的類型。她總是把立約者的命令視為第一優先，並稱呼立約者為「救援者」。在戰鬥中，無論是什麼命令都會無條件服從，其餘時間則會自動自發地自我整備，因此請時常確認她功能性機油的剩餘量。此型號不會進行戰鬥和自我整備以外的行為，若出現其他行為，則表示發生故障，請立刻中止其運轉，並處理機器。\r\n\r\n此機器較特殊的點為：會依據開發者的判斷，且出廠前尚未裝備能學習人類情感和心情的功能，請多加留意。如發生故障，請立刻中止其運轉並進行處理。\r\n\r\n要下達允許射殺的指令嗎？",
-      "zh_cn": "………J——W2B，洁克琳。已启动。\r\n\r\n系统正常。命令，自我介绍。执行。\r\n\r\nJ——W2B，又称洁克琳。被开发作为多人战斗时造成伤害的武器，是机动性及战斗力相当卓越的类型。她总是把立约者的命令视为第一优先，并称呼立约者为“救援者”。在战斗中，无论是什么命令都会无条件服从，其余时间则会自动自发地自我整备，因此请时常确认她功能性机油的剩余量。此型号不会进行战斗和自我整备以外的行为，若出现其他行为，则表示发生故障，请立刻中止其运转，并处理机器。\r\n\r\n此机器较特殊的点为：会依据开发者的判断，且出厂前尚未装备能学习人类情感和心情的功能，请多加留意。如发生故障，请立刻中止其运转并进行处理。\r\n\r\n要下达允许开火的指令吗？"
+      "zh_cn": "………J——W2B，洁克琳。已启动。\r\n\r\n系统正常。命令，自我介绍。执行。\r\n\r\nJ——W2B，又称洁克琳。作为一款机动性和战斗力相当卓越的武器，多用于多人战斗。她总是把缔约者的命令放在第一位，并称呼缔约者为“救援者”。在战斗中，无论是什么命令都会无条件服从，其余时间则会自动进行自我检修，多以请时常确认她功能性机油的剩余量。此型号不会进行战斗和自我检修以外的其他行为，若出现其他行为，则表示发生故障，请立刻中止其运转，并处理机器。\r\n\r\n注意事项：依据开发者的判断，该机器出厂前未装备能学习人类情感和心情的功能，请多加留意。如发生故障，请立刻中止其运转并进行处理。\r\n\r\n要下达允许开火的指令吗？"
     },
     {
       "no": 804076,
@@ -13366,7 +13462,7 @@
       "en": "Hello, Savior. I'm Petra, the \"goddess of death…\"\r\n…That was a joke. You are easy to fool…\r\nUm… No, I was joking when I said I'm the \"goddess of death,\" but I really am \"Petra.\"\r\n\r\nAre you a human, Savior? Then, do you know what \"death\" is?\r\nAll the Souls of this cemetery have been here for so long…\r\nthat most of them already forgot who they are.\r\nSo asking them will be useless… I won't get the answer I'm looking for…\r\nBut if it is you, Savior… Will you be able to give me the answer?",
       "ja": "どうも、救世主。わたしは「死の女神」ペトラ…\r\n…というのはウソ。救世主って騙されやすいのね…\r\nえっ…ううん、「死の女神」というのがウソで…\r\n「ペトラ」と言ったのは本当よ。\r\n\r\n救世主は人間なの…？なら「死」というものが何か知ってる…？\r\nこの墓の魂たちは、ずっとずっと昔からここにいたの。だから…もう自分が誰なのかも忘れちゃった魂がほとんど…\r\nそんな魂たちに聞いてみたところで…わたしが本当に求めている答えは返してもらえない…\r\n救世主なら…わたしの問いに答えることができるの？どうかな…？",
       "zh_tw": "你好，救援者。我是「死亡之神」佩特拉…\r\n…騙你的啦，救援者你還真容易被騙…\r\n嗯…不是，「死亡之神」是假的…但我真的叫「佩特拉」。\r\n\r\n救援者是人類嗎…？那你知道什麼是「死亡」嗎…？\r\n這群墓地的靈魂從很久以前就在這個地方了，所以…\r\n大部分的靈魂現在都忘了自己是誰…\r\n所以就算問這些靈魂…也無法聽到我真的想要的回答…　\r\n如果是救援者的話…可以回答我嗎，嗯…？\r\n",
-      "zh_cn": "你好，救援者。我是“衰朽之神”佩特拉……\r\n……骗你的啦，救援者你还真容易被骗……\r\n嗯……不是，“衰朽之神”是假的……但我真的叫“佩特拉”。\r\n\r\n救援者是人类吗……？那你知道什么是“衰朽”吗……？\r\n这群墓地的灵魂从很久以前就在这个地方了，所以……\r\n大部分的灵魂现在都忘了自己是谁……\r\n所以就算问这些灵魂……也无法听到我真的想要的回答……\r\n如果是救援者的话……可以回答我吗，嗯……？\r\n"
+      "zh_cn": "你好，救援者。我是“逝神”佩特拉……\r\n……骗你的啦，救援者你还真容易被骗……\r\n嗯……不是，“逝神”是假的……但我真的叫“佩特拉”。\r\n\r\n救援者是人类吗……？那你知道什么是“逝去”吗……？\r\n这群墓地的灵魂从很久以前就在这个地方了，所以……\r\n大部分的灵魂现在都忘了自己是谁……\r\n所以就算问这些灵魂……也无法听到我想要的回答……\r\n如果是救援者……可以回答我吗，嗯……？\r\n"
     },
     {
       "no": 804106,
@@ -13390,7 +13486,7 @@
       "en": "Origami (talisman)",
       "ja": "折り紙(お札)",
       "zh_tw": "摺紙（符咒）",
-      "zh_cn": "折纸（符咒）"
+      "zh_cn": "折纸"
     },
     {
       "no": 804112,
@@ -13422,7 +13518,7 @@
       "en": "(Looking around) No one is around, right?\r\n\r\nEeeeek?! Sa-Savior!? You surprised me! Don't suddenly appear from behind…! My heart almost stopped… Well, it's already stopped, though…\r\n\r\nHow do you do this though? I conceal my presence perfectly, but you end up finding me every time. \"Just happened to do that\"…? Sigh, whatever. I give up. Come to think of it, there are more than just a few strange things about you, Savior.\r\n\r\nAnd as I said from the first time we met, I will never go to a place crowded with Souls! Impossible! I might faint!\r\n\r\nYou want me to tell you why? There's no particular reason. I just don't like crowded and noisy places. Our conversation ends here. You'll have to work harder to find me from now on. Find me if you can!",
       "ja": "(キョロキョロ)誰もいないわね？\r\n\r\nひ、ひぃぃぃ～っ!? \r\nきゅ、救世主さん!? \r\n驚いたじゃない！急に後ろから現れないでよ…！心臓が止まるかと思ったじゃない…もう止まっちゃってるけど…\r\n\r\nメイの存在感消去スキルは完璧だったのに、どうやって毎回メイのこと見つけてるの？\r\nなんとなく、ですって…？ふぅ、もう降参よ。ギブアップするわ。\r\n思えば救世主さんって、不思議なところだらけなのよね。\r\n\r\nあ、そういえば、初めて会ったときから言ってるけど、メイは精霊の多いところになんか行かないからね！\r\n絶対無理！気絶しちゃうかも！\r\n\r\n理由を教えてほしいって？特に理由なんかないわ。ただ混んでいて騒がしい場所が嫌いなだけ。話はこれでおしまい。次もメイを見つけたかったら、もっと頑張らなきゃいけないはずよ。見つけられるものなら見つけてみなさい！",
       "zh_tw": "（左顧右盼）沒有人吧？\r\n\r\n嘻吚吚吚呀～？救、救援者！？嚇到我啦！不要突然出現在我身後…！我的心臟差點停了…雖然已經停了啦…\r\n\r\n妮妮消除存在感的技巧很完美啊，但你怎麼每次都還是可以找出妮妮呢？偶然…？嗚呼，算了，妮妮放棄。仔細想想，救援者神奇的地方可不只一兩個啊。\r\n\r\n第一次見面的時候我就說過了，妮妮絕對不會去有很多精靈的地方！不可能！說不定會暈倒！\r\n\r\n你問我為什麼？沒什麼特別的理由，就只是討厭擁擠又吵雜的地方而已。就說到這裡。以後你想找妮妮可要再加把勁，你找得到的話就試試看吧！",
-      "zh_cn": "（左顾右盼）没有人吧？\r\n\r\n嘻吚吚吚呀～？救、救援者！？吓到我啦！不要突然出现在我身后……！我的心脏差点停了……虽然已经停了啦……\r\n\r\n妮妮消除存在感的技巧很完美啊，但你怎么每次都还是可以找出妮妮呢？偶然……？呜呼，算了，妮妮放弃。仔细想想，救援者神奇的地方可不只一两个啊。\r\n\r\n第一次见面的时候我就说过了，妮妮绝对不会去有很多精灵的地方！不可能！说不定会晕倒！\r\n\r\n你问我为什么？没什么特别的理由，就只是讨厌拥挤又吵杂的地方而已。就说到这里。以后你想找妮妮可要再加把劲，你找得到的话就试试看吧！"
+      "zh_cn": "（左顾右盼）没有人吧？\r\n\r\n嘻吚吚吚呀～？救、救援者！？吓到我啦！不要突然出现在我身后……！我的心脏差点停了……虽然已经停了……\r\n\r\n妮妮消除存在感的技巧很完美啊，但你怎么每次都可以找出妮妮呢？偶然……？呜呼，算了，妮妮放弃。仔细想想，救援者神奇的地方可不只一两个啊。\r\n\r\n第一次见面的时候我就说过了，妮妮绝对不会去有很多精灵的地方！不可能！说不定会晕倒！\r\n\r\n你问我为什么？没什么特别的理由，就只是讨厌拥挤又嘈杂的地方而已。就说到这里。以后你想找妮妮可要再加把劲，试试看你能不能找得到吧！"
     },
     {
       "no": 804116,
@@ -13894,7 +13990,7 @@
       "en": "Ironing",
       "ja": "アイロンがけ",
       "zh_tw": "燙衣服",
-      "zh_cn": "烫衣服"
+      "zh_cn": "熨衣服"
     },
     {
       "no": 806022,
@@ -13910,7 +14006,7 @@
       "en": "Cup Ramen",
       "ja": "カップ麺",
       "zh_tw": "杯麵",
-      "zh_cn": "杯面"
+      "zh_cn": "桶装面"
     },
     {
       "no": 806024,
@@ -13926,7 +14022,7 @@
       "en": "I renounced it a long time ago:\r\nthe hopeless hope that I will one day be able to reveal my true self to the world, a \"sweet whisper\" that is nothing more than a complacent illusion.\r\nMy fate shall flourish at the end of this darkness…\r\n\r\n…Oh, what? It was you, Savior. I'm sorry I didn't notice you right away.\r\nThe artificial fog I had made to practice the scene was covering you.\r\nI mistook you for someone else. I should've stayed quiet.\r\n\r\nIt's funny, right? All this performance and play…\r\nHow long will I keep doing it?\r\nI don't know that yet…\r\n\r\nbut I'm becoming more and more certain\r\nthat everything I do is somehow meaningful\r\nbecause you, Savior, have come to me.\r\n\r\nI will then live another day of darkness, with my love for the audience.\r\nPlease…look after me today, too, Savior.",
       "ja": "遥か遠い昔に諦めた。\r\nいつか、世に真実の姿を示すことができるときが…そんな「甘い囁き」は、ただの勘違いでしかない。\r\n\r\n我が真の宿命は、あの闇の果てで満開となる―\r\n\r\n…あっ、なぁんだ。救世主じゃないの。すぐに気付けなくてごめんね。\r\n演出のリハーサルのために仕掛けておいた霧が、あなたの姿を覆い隠していたの。\r\n他の子かと思ったよ。意味もなく長台詞を言ってしまった。\r\n\r\nまったく滑稽だよね。こんな演劇、こんなごっこ遊び…\r\n\r\nいつまで続けるべきかな？\r\n未だによく分からないけど…\r\n救世主、あなたが私のところに来てくれたから、このごっこ遊びにも、それなりに意味があったんじゃないかって…最近は、そう思うするようになってきたの。\r\n\r\nだから、今日も漆黒の中を生き抜くことにするわ。\r\nそれじゃ…今日もよろしくね、救世主。",
       "zh_tw": "在很久很久之前，我就放棄了。\r\n期盼能向這世界展露我真實樣貌的希望是「甜蜜細語」，只不過是安逸的錯覺。\r\n我真正的宿命是，在那黑暗的盡頭盛開的­―­\r\n\r\n…啊，什麼嘛，是救援者啊。抱歉，沒能馬上認出你。\r\n你被我為了練習表演而施放的煙霧給遮住了。\r\n我還以為是其他人。好像說得太仔細了。\r\n\r\n真可笑吧。這種戲碼，這種遊戲…\r\n究竟要持續到什麼時候？\r\n雖然我也不太清楚…\r\n\r\n因為救援者來到我的身邊，\r\n所以這一切也都各自有其意義吧…\r\n我最近越來越堅信這件事。\r\n\r\n憑藉著對觀眾的愛，我今天也會繼續在漆黑中生存下去。\r\n那麼…今天也請多多指教，救援者。",
-      "zh_cn": "在很久很久之前，我就放弃了。\r\n期盼能向这世界展露我真实样貌的希望是“甜蜜细语”，只不过是安逸的错觉。\r\n我真正的宿命是，在那黑暗的尽头盛开的­―­\r\n\r\n……啊，什么嘛，是救援者啊。抱歉，没能马上认出你。\r\n你被我为了练习表演而施放的烟雾给遮住了。\r\n我还以为是其他人。好像说得太仔细了。\r\n\r\n真可笑吧。这种戏码，这种游戏……\r\n究竟要持续到什么时候？\r\n虽然我也不太清楚……\r\n\r\n因为救援者来到我的身边，\r\n所以这一切也都各自有其意义吧……\r\n我最近越来越坚信这件事。\r\n\r\n凭借着对观众的爱，我今天也会继续在漆黑中生存下去。\r\n那么……今天也请多多指教，救援者。"
+      "zh_cn": "在很久很久之前，我就放弃了。\r\n期盼能向这世界展露我真实的样貌不过是安逸的错觉。\r\n我真正的宿命是，在那黑暗的尽头盛开的­―­\r\n\r\n……啊，什么嘛，是救援者啊。抱歉，没能马上认出你。\r\n你被我为了练习表演而放出的烟雾给遮住了。\r\n我还以为是其他人。好像说得太仔细了。\r\n\r\n真可笑吧。这种戏码，这种游戏……\r\n究竟要持续到什么时候？\r\n虽然我也不太清楚……\r\n\r\n因为救援者来到我的身边，\r\n所以这一切也都各自有其意义吧……\r\n我最近越来越坚信这件事。\r\n\r\n凭借着对观众的爱，我今天也会继续在漆黑中生存下去。\r\n那么……今天也请多多指教，救援者。"
     },
     {
       "no": 806026,
@@ -13982,7 +14078,7 @@
       "en": "…I, I'm glad to meet you. Please call me Ayame.\r\n\r\nOh… I am so ashamed and happy that you visit me that I don't know what to do. Thanks to the bad luck that always follows me, I thought loneliness would be my only friend…\r\nBut how could I not be filled with happiness when my new acquaintance like yourself talks to me so kindly and listens to my humble story? Had I known that you were such a kind and friendly one, I would have come sooner to you.\r\n\r\nThis might be a little small since it was made for my hand, but…if it's no inconvenience to you, would you accept it?\r\nIt's called Knot Ring. Since ancient times, the red thread has been known as a symbol of a bond. I made it while looking forward to waking up from a long sleep someday and ultimately seeing the master of the ring.\r\n…Actually, there are some things that I'm not good at, so I got a little help from the Shadow Lads, but…please accept this ring as my gift for you.\r\n\r\n…After all, it seems to fit your little finger rather than your ring finger. That's a little disappointing, but the red thread of the original bond is said to be tied to one's little finger. Just looking at your little finger with the ring makes me happy enough. Just like the ring I gave you, I shall be next to you for a long time, no, longer than that.",
       "ja": "…は、初めてご挨拶申し上げます。\r\nわたくし、アヤメと申します。\r\n\r\nああ…わたくしのもとを訪ねてくださるなんて、身に余る光栄でございます。わたくしは常に不運につきまとわれ、孤独だけが友なのだと思っておりましたが…\r\nこうして出会い、縁を結ぶことができた貴方様が、優しく声をかけてくださり、わたくしの話を聞いてくださるとは、何と喜ばしいことなのでしょう。こんなに優しくもおおらかな方だとは存じませんでした。\r\nもっと早くこの場所を訪れていれば\r\nよかったと思います。\r\n\r\nわたくしの指に合わせて作ったので少し小さいかもしれませんが…もしご迷惑でなければ、これを受け取ってくださいませんか？組み紐指輪というものにございます。\r\n古来より、赤い糸は縁を象徴するといわれています。いつかわたくしも長い眠りから覚め、赤い糸で結ばれた人に会えるのではないかと胸躍らせながらしつらえた物です。\r\n…実はまだ至らぬところがあり、影坊主たちに少しばかり助けてもらったのですが…気持ちを込めましたので、受け取っていただけると幸いです。\r\n\r\n…やはり、薬指よりは小指に合いそうですね。少し残念ですが、元々縁を結ぶ赤い糸は小指に絡まっているといいます。それが指に絡まっているところを見ただけで、わたくしは十分幸せです。その縁結びの指輪よりも、さらに長くおそばでお仕えさせていただきます。",
       "zh_tw": "…初、初次見面。小女子名叫綾織。\r\n\r\n啊…你來找我，讓我很羞澀，卻又開心到不知該如何應對。不幸總是與小女相隨，我以為只有孤獨與我相伴…\r\n剛認識的有緣人這麼親切地找我搭話，並聽小女子說話，我怎麼可能不高興呢？要是這麼親切溫柔的人能早點來到我身邊就好了。\r\n\r\n因為是按照小女子的指圍製作的，可能會有點小…如果不會造成你的麻煩，你願意收下嗎？\r\n這個叫做繩結戒指。自古以來，紅線象徵著姻緣。是小女子想到或許從長眠中甦醒後，能遇到戒指的主人而準備的。\r\n…雖然因為不太熟練，影子少爺幫了我一些…但還請你把它當成是小女子的一片心意。\r\n\r\n…比起無名指，比較適合戴在小指啊。有點可惜，聽說小指上原本就繫有姻緣紅線，但看到你戴上戒指，小女子就覺得非常幸福。那枚戒指是獻給有緣人的，而我也會一直陪在你身邊的。",
-      "zh_cn": "……初、初次见面。小女子名叫绫织。\r\n\r\n啊……你来找我，让我很羞涩，却又开心到不知该如何应对。不幸总是与小女相随，我以为只有孤独与我相伴……\r\n刚认识的有缘人这么亲切地找我搭话，并听小女子说话，我怎么可能不高兴呢？要是这么亲切温柔的人能早点来到我身边就好了。\r\n\r\n因为是按照小女子的指围制作的，可能会有点小……如果不会造成你的麻烦，你愿意收下吗？\r\n这个叫做绳结戒指。自古以来，红线象征着姻缘。是小女子想到或许从长眠中苏醒后，能遇到戒指的主人而准备的。\r\n……虽然因为不太熟练，影子少爷帮了我一些……但还请你把它当成是小女子的一片心意。\r\n\r\n……比起无名指，比较适合戴在小指啊。有点可惜，听说小指上原本就系有姻缘红线，但看到你戴上戒指，小女子就觉得非常幸福。那枚戒指是献给有缘人的，而我也会一直陪在你身边的。"
+      "zh_cn": "……初、初次见面。小女子名叫绫织。\r\n\r\n啊……你来找我，让我感到既羞涩又开心，但又不知该如何应对。不幸总是与小女相随，所以我以为能陪伴我的只有孤独……\r\n刚认识的有缘人这么亲切地与我交谈，怎能不令我高兴呢？要是这么亲切温柔的人能早点来到我身边就好了。\r\n\r\n因为是按照小女子的指围制作的，可能会有点小……若不嫌弃，可以请你收下吗？\r\n这个叫做绳结戒指。自古以来，红线象征着姻缘。小女子想着，或许从长眠中苏醒后能遇到戒指的主人，所以备下的。\r\n……虽然因为不太熟练，请影子少爷帮了我一些小忙……但还请你把它当成是小女子的一片心意。\r\n\r\n……相较于无名指，更适合戴在小指上啊。虽然有点可惜，但听说小指上原本就系有姻缘红线。看到你戴上戒指，小女子就觉得非常幸福。那枚戒指是献给有缘人的，而我也会一直陪在你身边的。"
     },
     {
       "no": 806036,
@@ -14142,7 +14238,7 @@
       "en": "Sarcastic remarks,\r\r\nmayonnaise",
       "ja": "回りくどい話し方\r\nマヨネーズ",
       "zh_tw": "說話拐彎抹角、\r\r\n美乃滋",
-      "zh_cn": "说话拐弯抹角、\r\r\n美乃滋"
+      "zh_cn": "说话拐弯抹角、蛋黄酱"
     },
     {
       "no": 806525,
@@ -14150,7 +14246,7 @@
       "en": "So many things have changed, but there's one thing that hasn’t.\r\nDo you know what it is, Savior?\r\n\r\nMuch has transpired, in Eden and in my own life.\r\nSome say I've changed.\r\nIt's true that much of what makes up my body has altered.\r\nAnd yes, that process was painful.\r\n\r\nHowever...the most vital part of me hasn't changed.\r\nI have always strived to be the best, and I will continue to pursue the path of excellence.\r\nFor Eden, Solrey...and for you, Savior,\r\nI will become the sharpest and most elegant blade to protect you.\r\n\r\nSavior, allow me to introduce myself again.\r\nI am Linzy, the Commander of the Order of Blackhawk.\r\nI look forward to what lies ahead with us.",
       "ja": "変わってしまったたくさんのもの、変わらなかったたった一つのもの。\r\n救世主様なら分かるのでしょうか？\r\n\r\n本当にたくさんの出来事が起こりました。エデンにとっても、私にとっても…\r\n私が変わったと話す人々もいます。\r\n実際、私の体を構成している多くの要素が変わってしまったのは確かです。\r\nその変化の過程も苦しいものだったんです。\r\n\r\nでも…私の一番肝心な部分は変わっていません。\r\n私はいつも最高でありたいし、これからも最高の道を歩んでいきたいと思います。\r\nエデンの、ソレイの…そして救世主様のそばで、\r\n誰よりも優雅で鋭い剣となって。\r\n\r\n救世主様、改めてご挨拶を申し上げます。\r\n私は黒鷹騎士団長のリンジーです。\r\nこれからもよろしくお願いします。",
       "zh_tw": "有許多東西變了，唯有一個沒有變。\r\n救援者能認出來嗎？\r\n\r\n發生了許多事，無論是伊甸園，還是我個人…\r\n有人說我變了。\r\n而實際上，構成我身體的許多要素的確有所改變，\r\n變化的過程也很難受。\r\n\r\n但是…我最重要的部分並沒有改變。\r\n我總是渴望著頂尖，以後也只會走最好的路。\r\n我會成為伊甸園的、蘇萊伊的…還有在救援者身邊，\r\n比誰都還優雅、銳利的劍。\r\n\r\n救援者，再次跟你打聲招呼。\r\n我是黑鷹騎士團的團長琳賽，\r\n以後也要一如既往地請你多多指教。",
-      "zh_cn": "有许多东西变了，唯有一个没有变。\r\n救援者能认出来吗？\r\n\r\n发生了许多事，无论是精灵乐园，还是我个人……\r\n有人说我变了。\r\n而实际上，构成我身体的许多要素的确有所改变，\r\n变化的过程也很难受。\r\n\r\n但是……我最重要的部分并没有改变。\r\n我总是渴望着顶尖，以后也只会走最好的路。\r\n我会成为精灵乐园的、苏莱伊的……还有在救援者身边，\r\n比谁都还优雅、锐利的剑。\r\n\r\n救援者，再次跟你打声招呼。\r\n我是黑鹰先锋团的团长琳赛，\r\n以后也要一如既往地请你多多指教。"
+      "zh_cn": "有许多东西变了，但有一样没有变。\r\n救援者能认出来吗？\r\n\r\n发生了许多事，无论是精灵乐园，还是我个人……\r\n有人说我变了。\r\n而实际上，构成我身体的许多要素的确有所改变，变化的过程也很难受。\r\n\r\n但是……我最重要的部分并没有改变。\r\n我总是渴望着站在顶峰，以后也只会走最好的强者之路。\r\n我会成为精灵乐园的、苏莱伊的……还有在救援者身边，\r\n比任何人都优雅、锐利的剑。\r\n\r\n救援者，再次跟你打声招呼。\r\n我是黑鹰先锋团的团长琳赛，\r\n以后也要一如既往地请你多多指教。"
     },
     {
       "no": 806526,
@@ -15199,6 +15295,30 @@
       "ja": "",
       "zh_tw": "黑桃的公會會長…\r\r\n對特羅伊卡商人來說，她是最可怕的存在。",
       "zh_cn": "黑桃的公会会长……\r\r\n对特罗伊卡商人来说，她是最可怕的存在。"
+    },
+    {
+      "no": 811151,
+      "kr": "로제는 두려움 속에서도 길을 잃지 않았어요.\r\n로제가 에덴으로 돌아와 줘서… 정말 다행이에요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 811152,
+      "kr": "…다음부터는 절대 우리 곁을 떠나지 마.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 811153,
+      "kr": "로제 님 역시 인과율을 위배하고 돌아오셨기 때문에…\r\nANIMA의 안정을 최우선으로 생각하셔야 해요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
     },
     {
       "no": 812011,
@@ -16841,6 +16961,14 @@
       "zh_cn": "夜晚与早晨的价值"
     },
     {
+      "no": 831032,
+      "kr": "귀환자",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 832001,
       "kr": "원형 테이블에 앉아 생각에 잠겨있는 제이드와 샤링, 그리고 마농.\r\n공간을 메운 정적은 숨소리조차 잡아먹을 듯하다. \r\n마농은 손에 든 종이를 살짝 구기며 눈을 감고 있었다.\r\n정적 속에서 샤링은 제이드에게 조용히 눈짓하고, 제이드는 그 눈짓을 받고 고개를 살짝 끄덕였다.\r\n\r\n\"마농, 거짓말을 하고 있군요. 우리를 속이려 하다니.\"\r\n\r\n제이드의 차분하고도 날 선 목소리가 정적을 깨뜨렸다.\r\n\r\n\"거짓말이라뇨? 저는 일을 하고 있었는데요.\"\r\n\r\n마농은 흔들림 없이 대답했지만, 미묘하게 얼굴이 굳어있었다.\r\n\r\n\"그래, 그럼 무슨 일을 하고 있었는데?\"\r\n\r\n\"예? 그, 그게…\"\r\n\r\n샤링이 일에 관해 묻자, 마농은 식은땀을 흘리며 말을 더듬었다.\r\n\r\n\"역시, 마농이 '거짓말쟁이' 였군요.\"\r\n\"억울해요! 이건 모함이라구요!\"\r\n\"그러면 한번 볼까요?\"\r\n\r\n제이드와 샤링은 자신의 앞에 놓인 카드를 뒤집었다. \r\n마농은 살짝 떨리는 손으로 자신의 카드를 뒤집었다.\r\n\r\n제이드와 샤링의 카드는 '바다'를 뜻하는 글자가,\r\n마농의 카드에는 '첩자'를 뜻하는 글자가 인쇄되어 있었다.\r\n\r\n\"야호! 오늘 점심도 마농이 쏘는 거네?\"\r\n\"마농, 포커페이스는 상인의 기본인데 걱정인걸?\"\r\n\"그러니까, 이번 만큼은 첩자 게임 말고 다른 거 하자고 했잖아요…\"\r\n\r\n제이드와 샤링의 놀림에 마농은 입이 삐죽 나왔다.\r\n언제쯤 마농은 내기에서 이길 수 있을까?",
       "en": "Jade, Sharinne, and Manon were lost in thought, seated at a round table.\r\nSilence filled the air and it was so suffocating that one could hardly breathe.\r\nManon crushed the paper in her hand, her eyes closed.\r\nSharinne gave a look at Jade in silence, and Jade nodded to Sharinne.\r\n\r\n\"Manon, you are lying. How dare you deceive us.\"\r\n\r\nJade's calm yet sharp voice broke the silence.\r\n\r\n\"Lying? I was working.\"\r\n\r\nManon said without hesitation, but her face was slightly stern.\r\n\r\n\"Alright. Tell me what kind of work you were doing.\"\r\n\r\n\"Huh? Well, I was…\"\r\n\r\nSharinne asked and Manon stammered. Her face was covered in sweat.\r\n\r\n\"I knew it. You are the 'liar,' Manon.\"\r\n\"This is unfair! It's a slander!\"\r\n\"Let's see then.\"\r\n\r\nJade and Sharinne turned over the card before them.\r\nManon turned over her card as well, her hand shaking.\r\n\r\nThe word \"ocean\" was printed on Jade and Sharinne's cards,\r\nwhile the word \"spy\" was printed on Manon's.\r\n\r\n\"Yay! Manon is buying us lunch today again!\"\r\n\"Manon, a merchant must always keep a poker face. Now I'm worried about you.\"\r\n\"I told you. I wanted us to play something other than the spy game…\"\r\n\r\nManon pouted as Jade and Sharinne teased her.\r\nWill Manon be able to win a bet someday?",
@@ -17087,6 +17215,14 @@
       "ja": "フェイレンの応接室。\r\n深夜、フェイレンの大賢者ウェリーはお客さんにお茶を出した。\r\nその客というのはソレイの摂政となったキャサリンだった。\r\n\r\n「お招きいただきありがとうございます、ウェリー様」\r\n「いえいえ、こちらこそ。私の都合でこんな深夜になってしまって申し訳ない。\r\nこれからの戦いに備えて、私の知識が必要なんでしょう？」\r\n「…ええ、そうです。もしご協力がどうしても負担になるようでしたら…」\r\n「フェイレンの大賢者として、できる限り協力させていただきます」\r\n\r\nあまりにあっさりとした了承に驚くキャサリンをよそに、ウェリーは優しい微笑みを浮かべた。\r\n\r\n「ただし、対価はいただきたいです」\r\n「もちろん、私たちが協力できる範囲であれば、どんな対価でも…」\r\n「あ、私は大賢者としてソレイに協力します。でも…逆にソレイに何かを求めるつもりはありません」\r\n「…？」\r\n「私はあなたのことについて知りたいんです。「キャサリン」」\r\n\r\n予想外の答えにキャサリンは息を止めた。名前を呼ばれたその瞬間、彼女は気づいた。\r\nフェイレンの地に足を踏み入れた瞬間から、大賢者はすでにキャサリンの本質を見抜いていたのだ。\r\nだからこそ…\r\n\r\n「あなたに起きた変化、それは人間の成長や生命の進化のようなものです。\r\n本来、本物の命でない私たちには許されないことです。その経験について…詳しく教えていただきたいのです」\r\n「そういうこと…なんですね」\r\n「もしかして不愉快ですか？」\r\n\r\nキャサリンは少し考え込んだ後、首を横に振った。\r\n世界には無数の生が存在し、それぞれに価値や幸せがある。\r\nそう考えれば、争う必要などどこにもない。\r\nたとえお互いのことが完全に理解できなくても、それぞれの価値を尊重するなら、異なる生き方を受け入れればいいのだから。\r\n\r\n「…こんな反応をされるとは…意外ですね。普通なら、こういうことを聞かれると怒る人もいますから」\r\n「私に大切な思いがあるように、ウェリー様にもそのような思いがきっとあると思いますから」\r\n「なるほど…その通りです。それでは、ゆっくり話をしましょう」\r\n\r\n夜が明けるまでの短い間、二人の精霊による静かなお茶会が続いた。",
       "zh_tw": "費倫的會客室。\r\n深夜，費倫大賢者威里端了一杯茶給客人，\r\n那個客人正是，當上蘇萊伊攝政王的凱瑟琳。\r\n\r\n「威里，謝謝妳邀請我喝茶。」\r\n「別這麼說，因為我的關係，這麼晚還邀請妳，真的很抱歉。\r\n為了應對之後的戰鬥，需要我的資訊吧？」\r\n「…是，沒錯，如果幫忙讓妳覺得有壓力的話…」\r\n「身為費倫的大賢者，我會盡可能協助。」\r\n\r\n比想像中更輕易得到允許，讓凱瑟琳嚇了一跳，威里則露出十分溫和的微笑。\r\n\r\n「但我想得到回報。」\r\n「當然，只要我們能配合，無論什麼回報都行…」\r\n「啊，雖然我以大賢者的身分協助蘇萊伊…但反之，我不希望蘇萊伊協助我們。」\r\n「…？」\r\n「我想了解妳，『凱瑟琳』。」\r\n\r\n凱瑟琳聽見意外的回答，屏住了呼吸。名字被叫到的那一刻就知道了。\r\n踏上費倫土地的那一刻，「大賢者」就看出了凱瑟琳的本質，\r\n因此…\r\n\r\n「妳身上產生的變化就像人類的成長、生命的進化一樣。\r\n這些對不是真正生命的我們來說本來就不被允許。對於那個經歷…我想詳細了解。」\r\n「看來你了解…那種意義。」\r\n「妳不開心嗎？」\r\n\r\n凱瑟琳克制短暫的念頭後，搖了搖頭。\r\n世上有無數的生命，各有各的價值，也各有各的幸福。\r\n既然這樣，我們就不需要爭鬥。\r\n就算無法理解彼此，但只要珍惜各自的價值，接受並尊重各自不同的生活方式就行了。\r\n\r\n「…這樣的反應真令人意外，雖然不知道原因，但通常這樣說我就會生氣。」\r\n「就像我有自己珍惜的心意一樣，我覺得威里應該也會是這樣。」\r\n「原來如此…沒錯，那麼…我們就一起慢慢聊吧。」\r\n\r\n兩個精靈在短暫的夜晚享受寂靜的品茶時光，一直持續到早晨。",
       "zh_cn": "费伦的会客室。\r\n深夜，费伦大贤者威里端了一杯茶给客人，\r\n那个客人正是，当上苏莱伊摄政王的凯瑟琳。\r\n\r\n“威里，谢谢你邀请我喝茶。”\r\n“别这么说，因为我的关系，这么晚还邀请你，真的很抱歉。\r\n为了应对之后的战斗，需要我的情报吧？”\r\n“……是，没错，如果帮忙让你觉得有压力的话……”\r\n“身为费伦的大贤者，我会尽可能协助。”\r\n\r\n比想象中更轻易得到允许，让凯瑟琳吓了一跳，威里则露出十分温和的微笑。\r\n\r\n“但我想得到回报。”\r\n“当然，只要我们能配合，无论什么回报都行……”\r\n“啊，虽然我以大贤者的身份协助苏莱伊……但反之，我不希望苏莱伊协助我们。”\r\n“……？”\r\n“我想了解你，『凯瑟琳』。”\r\n\r\n凯瑟琳听见意外的回答，屏住了呼吸。名字被叫到的那一刻就知道了。\r\n踏上费伦土地的那一刻，“大贤者”就看出了凯瑟琳的本质，\r\n因此……\r\n\r\n“你身上产生的变化就像人类的成长、生命的进化一样。\r\n这些对不是真正生命的我们来说本来就不被允许。对于那个经历……我想详细了解。”\r\n“看来你了解……那种意义。”\r\n“你不开心吗？”\r\n\r\n凯瑟琳克制短暂的念头后，摇了摇头。\r\n世上有无数的生命，各有各的价值，也各有各的幸福。\r\n既然这样，我们就不需要争斗。\r\n就算无法理解彼此，但只要珍惜各自的价值，接受并尊重各自不同的生活方式就行了。\r\n\r\n“……这样的反应真令人意外，虽然不知道原因，但通常这样说我就会生气。”\r\n“就像我有自己珍惜的心意一样，我觉得威里应该也会是这样。”\r\n“原来如此……没错，那么……我们就一起慢慢聊吧。”\r\n\r\n两个精灵在短暂的夜晚享受寂静的品茶时光，一直持续到早晨。"
+    },
+    {
+      "no": 832032,
+      "kr": "로제와 메피스토펠레스가 긴 여정을 마치고 에덴으로 돌아온 이후.\r\n둘은 에덴을 떠나 있으며 보고 들은 것들에 대해 이야기하기 위해 자리를 마련했다.\r\n\r\n\"메피 님, 반가워요. 이렇게 카페에 오는 것도 정말 오랜만이네요.\"\r\n\"반갑습니다, 로제 님. 이 카페, 케이크가 더 맛있어졌더라구요.\"\r\n\r\n메피스토펠레스와 로제는 케이크를 하나 시켜, 절반씩 나눠 먹기로 했다.\r\n\r\n\"…! 그렇네요. 저번보다 딸기향이 강해졌는걸요.\"\r\n\"제가 에덴을 떠나 있던 건 아주 잠시였다고 생각했는데… \r\n그 짧은 사이에 생각보다 많은 것들이 변한 것 같습니다.\"\r\n\"맞아요. 저도 에덴으로 돌아온 후에 정말 많이 놀랐어요.\"\r\n\"…사실 로제 님이 에덴으로 돌아오실 수 없을까 봐 걱정했었어요.\r\n왜냐하면 제가 에덴을 떠나 있었을 때, 돌아올 수 있을 거라고 생각을 못했었거든요.\"\r\n\"메피 님…\"\r\n\r\n생각에 잠긴 메피스토펠레스에게 로제는 케이크 위의 딸기를 건넸다.\r\n\r\n\"…로제 님?\"\r\n\"우울할 땐 단 게 도움이 된다고들 하잖아요. \r\n후후, 이 딸기는 메피 님에게 양보할게요.\"\r\n\"하지만…\"\r\n\"얼른 드세요♪\"\r\n\r\n메피스토펠레스는 로제의 권유로 딸기를 한입 베어 물었다. \r\n그러자 입안 가득 터지는 상큼함에 순간, 조금 전까지의 침울함을 잊어버리고 말았다.\r\n\r\n\"…! 딸기가 무척 달콤하네요.\"\r\n\"후후. 메피 님. 저도 에덴으로 돌아오는 과정이 무척이나 고통스러웠어요.\r\n실은 돌아온 지금도, 여러 생각이 많아 마음이 편하지 않기도 해요.\"\r\n\"…….\"\r\n\"하지만 그래도, 지금 저희는 에덴으로 돌아왔으니까요. \r\n그래서 이 맛있는 케이크도 먹을 수 있는 거라고 생각해요.\"\r\n\"…그렇군요. 이렇게 돌아올 수 있어서, 정말 기쁩니다.\r\n그리고 돌아오신 로제 님과 케이크를 나눠 먹는 일도 기쁘고요.\"\r\n\"네. 저도 마찬가지예요, 메피 님♪\"\r\n\r\n씁쓸한 시간도 있었지만, 결국은 지금 에덴에서 달콤한 케이크 한 조각을 먹을 수 있다는 사실에―\r\n두 정령은 에덴으로 돌아왔음을 실감했다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
     },
     {
       "no": 851011,
@@ -17444,7 +17580,7 @@
       "no": 3032075,
       "kr": "메카이아",
       "en": "Mecha Gaia",
-      "ja": "",
+      "ja": "メカイア",
       "zh_tw": "機械蓋亞",
       "zh_cn": ""
     },
@@ -17452,7 +17588,7 @@
       "no": 3032080,
       "kr": "격투형 메카베어",
       "en": "Fighter Mech Bear",
-      "ja": "",
+      "ja": "格闘型メカベア",
       "zh_tw": "格鬥型機械熊",
       "zh_cn": ""
     },
@@ -17460,7 +17596,7 @@
       "no": 3032081,
       "kr": "격투형 메카베어",
       "en": "Fighter Mech Bear",
-      "ja": "",
+      "ja": "格闘型メカベア",
       "zh_tw": "格鬥型機械熊",
       "zh_cn": ""
     },
@@ -17468,7 +17604,7 @@
       "no": 3032082,
       "kr": "포격형 메카베어",
       "en": "Artillery Mech Bear",
-      "ja": "",
+      "ja": "砲撃型メカベア",
       "zh_tw": "砲擊型機械熊",
       "zh_cn": ""
     },
@@ -17476,7 +17612,7 @@
       "no": 3032083,
       "kr": "포격형 메카베어",
       "en": "Artillery Mech Bear",
-      "ja": "",
+      "ja": "砲撃型メカベア",
       "zh_tw": "砲擊型機械熊",
       "zh_cn": ""
     },
@@ -17484,7 +17620,7 @@
       "no": 3032084,
       "kr": "떡공장장 순이",
       "en": "Ricecake Maker Soonie",
-      "ja": "",
+      "ja": "モチ工場の工場長・スニ",
       "zh_tw": "年糕工廠廠長順伊",
       "zh_cn": ""
     },
@@ -17492,7 +17628,7 @@
       "no": 3032085,
       "kr": "떡공장장 순이",
       "en": "Ricecake Maker Soonie",
-      "ja": "",
+      "ja": "モチ工場の工場長・スニ",
       "zh_tw": "年糕工廠廠長順伊",
       "zh_cn": ""
     },
@@ -17500,7 +17636,7 @@
       "no": 3032086,
       "kr": "떡공장장 순이",
       "en": "Ricecake Maker Soonie",
-      "ja": "",
+      "ja": "モチ工場の工場長・スニ",
       "zh_tw": "年糕工廠廠長順伊",
       "zh_cn": ""
     },
@@ -17508,7 +17644,7 @@
       "no": 3032087,
       "kr": "떡공장장 순이",
       "en": "Ricecake Maker Soonie",
-      "ja": "",
+      "ja": "モチ工場の工場長・スニ",
       "zh_tw": "年糕工廠廠長順伊",
       "zh_cn": ""
     },
@@ -17516,7 +17652,7 @@
       "no": 3032088,
       "kr": "떡공장장 순이",
       "en": "Ricecake Maker Soonie",
-      "ja": "",
+      "ja": "モチ工場の工場長・スニ",
       "zh_tw": "年糕工廠廠長順伊",
       "zh_cn": ""
     },
@@ -17524,7 +17660,7 @@
       "no": 3032089,
       "kr": "맛 좋은 찹쌀떡",
       "en": "Tasty Rice Cake Stick",
-      "ja": "",
+      "ja": "おいしいあんこモチ",
       "zh_tw": "美味年糕條",
       "zh_cn": ""
     },
@@ -17532,8 +17668,16 @@
       "no": 3032090,
       "kr": "맛 좋은 가래떡",
       "en": "Tasty Sticky Rice Cake",
-      "ja": "",
+      "ja": "おいしいながモチ",
       "zh_tw": "美味糯米糕",
+      "zh_cn": ""
+    },
+    {
+      "no": 3032092,
+      "kr": "심상세계의 로제",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -18449,6 +18593,22 @@
       "zh_cn": "主人、主人♡今天是贝莱德的制造日！！\r\r\n对贝莱德来说，制造日是跟很多心爱的人见面的特别日子！\r\r\n虽然在遇见主人之前，我有很长一段时间忘记了制造日的意义……\r\r\n嘿嘿，遇见主人之后，贝莱德才能想起今天的特别！\r\r\n主人！主人在这种特别的日子，通常都会做什么呢？\r\r\n今天是主人帮我找回意义的日子，所以我也想跟主人学习好好度过今天的方法！"
     },
     {
+      "no": 6251051,
+      "kr": "어느새 봄…♪",
+      "en": "",
+      "ja": "もう春…♪",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 6251052,
+      "kr": "긴 겨울이 지나고 어느새 봄이 왔네요.\r\n이맘때의 트로이카는 경매와 무역으로 연일 대성황을 이룬답니다.\r\n후후… 맞아요. 상단 일이 매우 바빠진다는 뜻이기도 하죠.\r\n\r\n일이 정리되면… 조만간 휴가를 쓰려고 해요.\r\n그날만큼은 온전히, 제 소중한 인연들과 함께 시간을 보내고 싶거든요.\r\n\r\n오늘 만나지 못하는 건 아쉽지만, 그때는 저와 함께해주시겠어요? 구원자님.\r\n\r\n구원자님이 제 곁에 있어 주신다면,\r\n그 어떤 화려한 파티나 값비싼 보석보다도 반짝이는 하루가 될 것 같네요.\r\n저도 구원자님께 최고의 휴일을 선물할게요♪",
+      "en": "",
+      "ja": "長い冬が過ぎ、もう春になりましたね。\r\nこの頃のトロイカは、競りと貿易で毎日が大盛況になりますね。\r\nふふ…そう、商団がとても忙しくなるってことです。\r\n\r\n仕事が落ち着いたら…休みを取ろうと思います。\r\nその時だけは、大切な方々と時間を過ごしたいですから。\r\n\r\n今日会えないのは残念ですけど、その時は一緒にいてくれますか？\r\n救世主様。\r\n\r\n救世主様がそばにいてくださるなら、\r\nどんな華やかなパーティーや高い宝石よりも輝かしい一日になりそうです。\r\n私も、救世主様に最高の一日をプレゼントしますから♪",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 6251061,
       "kr": "못 말리겠어요",
       "en": "There's No Stopping Them",
@@ -18465,10 +18625,26 @@
       "zh_cn": "萝丝跟克罗伊从昨天开始就一直忙来忙去的，其实不用看也知道她们在干嘛。\r\n每年一到这个时候，她们就会想帮我准备惊喜生日派对。\r\n每年都会像这样准备惊喜派对，老实说也不惊喜了。\r\n因为就算我自己忘记生日快到了，看到她们忙着准备的样子也会想起来。\r\n救援者方便的话可以先装作不知道，然后来参加派对吗？\r\n救援者突然来派对的话，她们一定会超惊讶。\r\n我一直都只有接受惊喜，这次该换我准备了。"
     },
     {
+      "no": 6252011,
+      "kr": "생일에는 갖고 싶은 게 있어야 한대요…",
+      "en": "",
+      "ja": "誕生日には、ほしいものがあるべきだと…",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 6252012,
+      "kr": "작년 생일에는 잠만 잤다고 하니까…\r\n지호랑 순이가 그러면 안 된다고 하면서 가온 거리로 데려갔어요.\r\n\r\n생일엔 선물을 받아야 한다면서, 갖고 싶은 걸 고르라 했는데…\r\n저는 정말로 갖고 싶은 게 없었거든요…\r\n그랬더니 생일엔 갖고 싶은 게 있어야 한다면서, 이것저것 들고 와서 마음에 드냐고 물어봤어요…\r\n저는 그냥… 지호랑 순이랑 같이 있는 것만으로도 충분히 즐거운데 말이에요…\r\n\r\n구원자님은 어때요…? 생일에 갖고 싶은 거 있어요…?",
+      "en": "",
+      "ja": "きょねんの誕生日は寝てたといったら…\r\nジホとスニに、それはだめだとガオンのまちにつれていかれました。\r\n\r\n誕生日にはプレゼントをもらわなきゃと、ほしいものを選んでといわれたけど…\r\nほんとうにほしいものがなくて…\r\nそういったら、誕生日にはほしいものがあるべきだと、あれこれもってきて気に入ったのかと聞かれました…\r\nわたしは…ジホとスニといっしょにいるだけでも楽しいのに…\r\n\r\n救世主さまはどう…？誕生日にほしいものはありますか…？",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 6252021,
       "kr": "경사스러운 날",
       "en": "A Joyful Day",
-      "ja": "",
+      "ja": "めでたい日",
       "zh_tw": "大喜之日",
       "zh_cn": "大喜之日"
     },
@@ -18476,7 +18652,7 @@
       "no": 6252022,
       "kr": "자네, 잘 지내고 있었는가?\r\n내 입으로 말하긴 조금 쑥스럽네만, 오늘은 내 생일이라네. \r\n생일을 뜻깊게 보내고자 해변 대청소를 할까 한다네. 조금 소란스러워도 양해해 주게나.\r\n깨끗이 정리되고 나면 다함께 잔치를 벌일 생각이니 자네도 꼭 함께해 주게!\r\n경사스러운 날에 맞게 꿀떡과 감주도 준비되어 있으니 분명 즐거울 거라 내 장담하지!\r\n맘 편히 쉬지도 못하는 자네 생각이 나서 편지하는 것이니 부디 사양 말게나.\r\n그럼 기다리고 있겠네!",
       "en": "How art thou?\r\nIt is embarrassing for me to say this, but today is my birthday.\r\nI'm thinking of doing a beach clean-up to make this day special. I apologize in advance for the noise I shall make.\r\nAfter everything is tidy, we could all have a celebration together!\r\nI've got Honey Rice Cakes and Sweet Wine ready for the occasion, so 'tis sure to be fun.\r\nI'm writing thee so that thou canst take some rest from thy busy schedule.\r\nThen, please join me. I shall be waiting!",
-      "ja": "",
+      "ja": "おぬし、元気でござるか？\r\n自分から言うのも恥ずかしいが、今日はわしの誕生日なのじゃ。\r\nで、意味のある誕生部にすべく、海辺の大掃除に出かける予定なのじゃ。少し騒がしくても堪忍してくれ。\r\n綺麗に片づけてから宴会を催すから、おぬしにも是非来てほしいのじゃ！\r\nめでたい日だから団子も、甘酒も用意しておる！きっと楽しいだろう！\r\n休む暇もないおぬしのことを思ってお便りを出したのだから、遠慮など要らぬのじゃ。\r\nでは、お待ちしておるぞ！",
       "zh_tw": "你，過得好嗎？\r\n雖然親口說出來有些難為情，但今天是我的生日。\r\n我想度過一個意義深遠的生日，所以想在海邊進行大掃除，有點吵雜也要請你見諒。\r\n等我整理乾淨後，想跟大家一起辦場宴席，你也一定要來！\r\n為了慶祝大喜之日，我準備了蜜糖年糕和甜味飄飄飲，保證一定會很有趣！\r\n因為想起沒能放鬆休息的你，才寫下這封信，希望你不要拒絕。\r\n那我會等你來！",
       "zh_cn": "你，过得好吗？\r\n虽然亲口说出来有些难为情，但今天是我的生日。\r\n我想度过一个意义深远的生日，所以想在海边进行大扫除，有点吵闹也要请你见谅。\r\n等我整理干净后，想跟大家一起办场宴席，你也一定要来！\r\n为了庆祝大喜之日，我准备了蜜糖年糕和甜味飘飘饮，保证一定会很有趣！\r\n因为想起没能放松休息的你，才写下这封信，希望你不要拒绝。\r\n那我会等你来！"
     },
@@ -21210,7 +21386,7 @@
     },
     {
       "no": 9102003,
-      "kr": "발렌타인 데이에요, 마스터!",
+      "kr": "발렌타인 데이예요, 마스터!",
       "en": "It's Valentine's Day, Master!",
       "ja": "バレンタインデーです、マスター！",
       "zh_tw": "情人節到了，主人！",
@@ -25201,6 +25377,318 @@
       "zh_cn": "救援者，是时候参加公会突袭了。"
     },
     {
+      "no": 9115001,
+      "kr": "오늘도 축복이 함께하시기를…",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115002,
+      "kr": "새해가 밝았네요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115003,
+      "kr": "사랑을 전하는 계절이 돌아왔네요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115004,
+      "kr": "더위에 지치지 않게 조심하세요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115005,
+      "kr": "구원자님, 사탕이 남았는데 나눠드릴까요?",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115006,
+      "kr": "성스럽고 아름다운 축일이네요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115007,
+      "kr": "꽃이 아름답게 만개했어요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115011,
+      "kr": "이 모습으로 구원자님께 새해 인사를 드리게 되다니…\r\n아직도 믿어지지 않네요.\r\n새로운 힘으로, 구원자님을 열심히 도울게요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115012,
+      "kr": "요즘 같은 때에는 연인들끼리 초콜릿 선물을 주고 받더라고요.\r\n그러한 평화로운 일상을 지켜낼 수 있게… 저도 힘낼 거예요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115013,
+      "kr": "저는 캐서린 언니…\r\n아니, 섭정 각하와 때때로 무더위에 포토푀를 먹고는 했어요.\r\n시원한 음식도 좋지만, 따뜻한 포토푀가 기운을 보충해 주거든요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115014,
+      "kr": "성당에서 아이들이 사탕을 주지 않으면 장난칠 거라고 하더라고요.\r\n반응이 궁금해서 사탕이 없는 척했더니…\r\n눈이 울먹울먹해져서 제가 변했다고 하더군요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115015,
+      "kr": "구원자님, 축일을 맞이해 성당을 꾸며 봤어요.\r\n다들 구원자님이 오신다면 기뻐할 것 같은데…\r\n시간 내 주실 수 있을까요?",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115016,
+      "kr": "하늘하늘한 꽃잎에 마음이 흐트러지는 날이에요.\r\n하지만 이럴 때일수록, 제가 나아갈 방향을…\r\n섭정님과 구원자님을 도와 모두를 위할 다짐을 되새겨야만 해요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115021,
+      "kr": "스스로를 지키기 위해 가시를 세운 장미처럼,\r\n저 역시도 언제까지나 연약한 존재로만 남아 있을 수는 없었어요.\r\n이제 '로제'라는 제 이름에 걸맞은 정령이 되어 보이겠어요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115022,
+      "kr": "이 세계의 '섭리'…\r\n저는 그간 아무것도 알지 못했지만\r\n태양의 왕관에 깃든 이후, 많은 것을 보고 들을 수 있었어요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115023,
+      "kr": "주제 넘지만 저는 구원자님이 '진실'을 알게 되길 원치 않아요.\r\n섭리, 심연, 목소리, 얼굴 없는 자들…\r\n세계의 진실을 알게 되었을 때, 구원자님이 무너지지 않기를…",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115024,
+      "kr": "예전에 클로이와 린지랑 함께 다닐 때면,\r\n약한 제가 발목을 잡게 될까 봐 늘 걱정했었어요.\r\n하지만 이제는 둘에게 도움이 될 수 있는 힘이 생겨서 기뻐요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115031,
+      "kr": "…누구도 다치지 않게, 내가 그들을 지켜야만 해…",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115041,
+      "kr": "모두를 위해 희생하는 이들을 볼 때마다\r\n그들이 불타 없어지지 않게 지켜 주고 싶어요.\r\n저는 태양처럼 빛나는 이들이 쉬어갈 수 있는 그늘이 되고 싶거든요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115042,
+      "kr": "만약 구원자님과 제가 다른 곳에서, 다른 기회로 만날 수 있었다면…\r\n저희의 인연은 어떠한 형태였을까요?\r\n…그러한 인연을 기억하지 못하는 건 축복일까요, 아니면 저주일까요?",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115043,
+      "kr": "구원자님이 계셨기에 많은 정령들이 쓰러지지 않고 버틸 수 있었어요.\r\n그리고 저 역시도…\r\n구원자님이 계시지 않았다면, 마지막 희망을 놓아 버렸을지도 몰라요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115051,
+      "kr": "…모든 톱니바퀴가 맞물렸다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115052,
+      "kr": "…!?\r\n구원자님?",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115053,
+      "kr": "후후, 저와 긴 이야기를 나누고 싶으세요?",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115061,
+      "kr": "구원자님, 편지가 온 모양이에요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115062,
+      "kr": "퀘스트를 마치셨나요?",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115063,
+      "kr": "전리품을 챙기는 게 좋겠어요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115064,
+      "kr": "좀 더 강해질 수 있는 정령이 구원자님을 기다리고 있어요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115065,
+      "kr": "영지에 무슨 일이 있는 것 같은데…\r\n같이 가 보시겠어요?",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115066,
+      "kr": "구원자님, 진심으로 탄생일을 경축드려요.\r\n…네? 그렇게까지 격식을 차리지는 않아도 된다고요…?\r\n으음, 그럼… 평범하게 생일 축하 노래를 불러드려도 될까요? 친구처럼요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115067,
+      "kr": "사실 오늘은 제 육체가 재구성되기 전의 생일이지만…\r\n후후, 구원자님이 축하해 주셨으니 오늘을 생일로 할래요.\r\n오늘은 구원자님과 케이크를 먹는 사치를 부려도 괜찮겠죠?",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115068,
+      "kr": "-",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115069,
+      "kr": "-",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115070,
+      "kr": "구원자님, 지난 3년 간 에덴에서의 생활은 어떠셨나요?\r\n분명 어려움도 있으셨겠지만…\r\n지나고 보면, 모두 행복한 추억이 되면 좋겠어요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115071,
+      "kr": "-",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115091,
+      "kr": "구원자님, 전리품을 확인하실 시간이에요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115092,
+      "kr": "구원자님, 아레나 결산 보상을 잊지 마세요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115093,
+      "kr": "구원자님, 챔피언스 아레나 유지 보상이 준비됐어요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 9115094,
+      "kr": "구원자님, 길드 레이드 참여하시겠어요?",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 9201001,
       "kr": "구원자님 안녕~ 눈을 보고 인사해요…♪",
       "en": "Hello, Savior~! Let's look into each other's eyes as we greet…♪",
@@ -28292,7 +28780,7 @@
       "no": 9212003,
       "kr": "초콜릿 말고 만두를 교환하면 안 되나?",
       "en": "Can we exchange dumplings instead of chocolate?",
-      "ja": "チョコの代わりに豚まんの交換はあかんの？",
+      "ja": "チョコの代わりに肉まんの交換はあかんの？",
       "zh_tw": "巧克力可不可以換成包子啊？",
       "zh_cn": "巧克力可不可以换成包子啊？"
     },
@@ -28316,7 +28804,7 @@
       "no": 9212006,
       "kr": "추운 날엔~ 따뜻한 만두를 먹어야지♪",
       "en": "Hot dumplings are perfect for a cold day like this♪",
-      "ja": "寒い日には～やっぱアツアツの豚まんやな♪",
+      "ja": "寒い日には～やっぱアツアツの肉まんやな♪",
       "zh_tw": "冷冷的天～就是要吃熱呼呼的包子♪",
       "zh_cn": "冷冷的天～就是要吃热呼呼的包子♪"
     },
@@ -28340,7 +28828,7 @@
       "no": 9212012,
       "kr": "구원자, 생각을 해봤는데 말야.\r\n만두 속을 초콜릿으로 채우면 식사와 후식을 둘 다… 야! 어디 가!",
       "en": "Savior, I was thinking.\r\nIf we filled dumplings with chocolate, they could serve as a whole meal… Hey! Where're you going!",
-      "ja": "救世主さん、考えてみてんけどな。\r\nチョコを豚まんの具にすれば、食事とデザート両方…おい！どこに行くんや！",
+      "ja": "救世主さん、考えてみてんけどな。\r\nチョコを肉まんの具にすれば、食事とデザート両方…おい！どこに行くんや！",
       "zh_tw": "救援者，我想了一下，\r\n如果用巧克力填滿包子內餡，就能同時吃到正餐和甜點…喂！你要去哪！",
       "zh_cn": "救援者，我想了一下，\r\n如果用巧克力填满包子内馅，就能同时吃到正餐和甜点……喂！你要去哪！"
     },
@@ -28420,7 +28908,7 @@
       "no": 9212041,
       "kr": "영감이 남는 만두를 줬지 뭐야.\r\n저녁은 걱정 없겠어. 동생들이 얼마나 좋아할까? 히히…",
       "en": "Old man gave me some left over dumplings.\r\nShould be enough for dinner. They're going to love this! Hehe…",
-      "ja": "ジジイが余った豚まんをくれてん。\r\n夕ご飯はこれにしよう。弟妹たちの喜ぶ顔が浮かぶな。ひひ…",
+      "ja": "ジジイが余った肉まんをくれてん。\r\n夕ご飯はこれにしよう。弟妹たちの喜ぶ顔が浮かぶな。ひひ…",
       "zh_tw": "老頭給了我剩下的包子，\r\n晚餐不用擔心了，\r\n弟弟妹妹們會有多開心呢？嘻嘻…",
       "zh_cn": "老头给了我剩下的包子，\r\n晚餐不用担心了，\r\n弟弟妹妹们会有多开心呢？嘻嘻……"
     },
@@ -28476,7 +28964,7 @@
       "no": 9212063,
       "kr": "우와, 전리품이 한가득…\r\n이걸 팔면 만두가 몇 판이냐…",
       "en": "Wow, this is a huge pile of loot…\r\nI wonder how many dumplings you can get with this…",
-      "ja": "うわ、戦利品がいっぱいや…\r\nこれを売れば豚まんを何個…",
+      "ja": "うわ、戦利品がいっぱいや…\r\nこれを売れば肉まんを何個…",
       "zh_tw": "嗚哇，一大堆戰利品…\r\n賣掉這些的話等於幾籠包子啊…",
       "zh_cn": "呜哇，一大堆战利品……\r\n卖掉这些的话等于几笼包子啊……"
     },
@@ -28508,7 +28996,7 @@
       "no": 9212067,
       "kr": "내 생일이라고 만두를 이렇게 많이 준비한 거야…?\r\n하… 구원자 너… 큽… 고맙… 아, 우는 거 아니라고…! 침이라고…!",
       "en": "You, you've prepared all this dumplings for my birthday?\r\r\nSavior, I *munch* am so *gulp* happy… *chomp* no I'm not crying *gulp*.",
-      "ja": "ウ、ウチのために豚まんをこんなにたくさん…？\r\nはあ…救世主さん…あんた…くふっ…おおきに…あ、泣いてないで…！これはよだれや…！",
+      "ja": "ウ、ウチのために肉まんをこんなにたくさん…？\r\nはあ…救世主さん…あんた…くふっ…おおきに…あ、泣いてないで…！これはよだれや…！",
       "zh_tw": "你、你為了我的生日，準備了這麼多包子嗎…？\r\r\n啊…救援者，你…嗚…謝謝…啊，我不是在哭…！是口水啦…！",
       "zh_cn": "你、你为了我的生日，准备了这么多包子吗……？\r\n啊……救援者，你……呜……谢谢……啊，我不是在哭……！是口水啦……！"
     },
@@ -30732,7 +31220,7 @@
       "no": 9306001,
       "kr": "검은 매 부기사단장 이디스, 구원자님께 인사드립니다.",
       "en": "Greetings, Savior. I am Edith, the Assistant Commander of the Order of Blackhawk.",
-      "ja": "",
+      "ja": "黒鷹騎士団の副騎士団長、イーディスです。救世主様にご挨拶申し上げます。",
       "zh_tw": "黑鷹的副騎士團長伊迪絲，來向救援者問好。",
       "zh_cn": "黑鹰的副先锋团长伊迪丝，来向救援者问好。"
     },
@@ -30740,7 +31228,7 @@
       "no": 9306002,
       "kr": "새해 복 많이 받으시어요, 구원자님.",
       "en": "Happy New Year, Savior.",
-      "ja": "",
+      "ja": "明けましておめでとうですわ、救世主様。",
       "zh_tw": "祝你新年快樂，救援者。",
       "zh_cn": "祝你新年快乐，救援者。"
     },
@@ -30748,7 +31236,7 @@
       "no": 9306003,
       "kr": "사랑의 날이라고 들뜨면 안 된답니다.",
       "en": "It's Love Day, but don't get too excited.",
-      "ja": "",
+      "ja": "愛の日だからって、はしゃぐわけにはいきませんの。",
       "zh_tw": "不可以因為是戀愛之日就這麼興奮。",
       "zh_cn": "不可以因为是恋爱之日就这么兴奋。"
     },
@@ -30756,7 +31244,7 @@
       "no": 9306004,
       "kr": "여름이군요. 고향의 호수가 생각나요.",
       "en": "It's summer. This season reminds me of the lake in my hometown.",
-      "ja": "",
+      "ja": "夏ですね。故郷の湖が恋しいです。",
       "zh_tw": "夏天到了，我想起了故鄉的湖水。",
       "zh_cn": "夏天到了，我想起了故乡的湖水。"
     },
@@ -30764,7 +31252,7 @@
       "no": 9306005,
       "kr": "기억의 날이군요. 꽤 소란스럽겠어요.",
       "en": "It's Memory Day. It will get pretty noisy.",
-      "ja": "",
+      "ja": "記憶の日ですね。騒がしくなりそうです。",
       "zh_tw": "原來是記憶之日，一定會很吵鬧。",
       "zh_cn": "原来是记忆之日，一定会很吵闹。"
     },
@@ -30772,7 +31260,7 @@
       "no": 9306006,
       "kr": "평안한 이브의 날이 되시기를.",
       "en": "Wish you a peaceful Eve's Day.",
-      "ja": "",
+      "ja": "安らかなイブの日になりますように。",
       "zh_tw": "祝你度過平安的夏娃之日。",
       "zh_cn": "祝你度过平安的太古精灵之日。"
     },
@@ -30780,7 +31268,7 @@
       "no": 9306007,
       "kr": "에취! …꽃가루 때문에 꼴사나운 모습을 보였사와요. ",
       "en": "Achoo! … Sorry, that was embarrassing. It was because of pollen. ",
-      "ja": "",
+      "ja": "ハクション！花粉のせいでみっともない姿を見せてしまいましたわ。 ",
       "zh_tw": "哈啾！…花粉讓你看到我的醜態了。",
       "zh_cn": "哈啾！……花粉让你看到我的丑态了。"
     },
@@ -30788,7 +31276,7 @@
       "no": 9306011,
       "kr": "올해는 벌레들과 덜 마주치는 해가 되면 좋겠사와요.\r\n놀라서 우는 모습을 다른 정령들에게 보여주고 싶지 않거든요.",
       "en": "I hope I run into fewer insects this year.\r\r\nI don't want other Souls to see me cry.",
-      "ja": "",
+      "ja": "今年は虫とあまり出くわさない一年になってほしいですの。\r\nびっくりして泣いている姿を他の精霊たちに見せたくありませんわ。",
       "zh_tw": "希望今年可以跟蟲子有少一點接觸。\r\r\n我不想讓其他精靈看到我被嚇哭的樣子。",
       "zh_cn": "希望今年可以跟虫子有少一点接触。\r\r\n我不想让其他精灵看到我被吓哭的样子。"
     },
@@ -30796,7 +31284,7 @@
       "no": 9306012,
       "kr": "사랑의 날에는 역시 초콜릿이지만… 저는 많이 못먹사와요.\r\n많이 먹으면 어지럽고 가슴이 두근거린답니다.",
       "en": "Everyone exchanges chocolate on Love Day, but…I can't eat too much chocolate.\r\r\nIt makes me feel dizzy and my heart beat fast.",
-      "ja": "",
+      "ja": "愛の日はやっぱりチョコレートに限りますけど…私はたくさん食べられませんの。\r\n食べ過ぎるとめまいがして胸がドキドキしてしまって…",
       "zh_tw": "雖然戀愛之日當然要吃巧克力…但我沒辦法吃很多。\r\r\n吃太多會頭暈，還會心跳加速。",
       "zh_cn": "虽然恋爱之日当然要吃巧克力……但我没办法吃很多。\r\r\n吃太多会头晕，还会心跳加速。"
     },
@@ -30804,7 +31292,7 @@
       "no": 9306013,
       "kr": "오호홋, 교양수업으로 배운 수영 실력을 뽐낼 계절이 왔군요?\r\n딱히 오래전부터 기대하고 있던 건 아니지만요!",
       "en": "Hohoho, it is the season to show off the swimming skills I learned in my lecture!\r\r\nOf course I was not waiting for it!",
-      "ja": "",
+      "ja": "おーほっほ、教養で学んだ水泳の実力を披露する季節になりましたわ。\r\n別に昔から楽しみにしていたわけではありませんので！",
       "zh_tw": "哦呵呵，這個季節可以展現我在教養課學到的游泳實力了！\r\r\n不過我沒有從很久以前就在期待啦！",
       "zh_cn": "哦呵呵，这个季节可以展现我在教养课学到的游泳实力了！\r\r\n不过我没有从很久以前就在期待啦！"
     },
@@ -30812,7 +31300,7 @@
       "no": 9306014,
       "kr": "기억의 날을 싫어하진 않사와요.\r\n다양한 옷을 입어보고 구경하는 건 괜찮은데… 그 깜짝 놀래키지만 않았으면…",
       "en": "I don't hate Memory Day.\r\r\nIt's nice to try different outfits and look around…as long as no one surprises me.",
-      "ja": "",
+      "ja": "記憶の日、嫌いではありませんわ。\r\nいろんな服を着て、いろいろ見て回るのはいいんですけど…ただ、びっくりさせないでほしいというか…",
       "zh_tw": "我不討厭記憶之日。\r\r\n可以試穿各種衣服、到處逛逛是很好…但我希望可以不要嚇人…",
       "zh_cn": "我不讨厌记忆之日。\r\r\n可以试穿各种衣服、到处逛逛是很好……但我希望可以不要吓人……"
     },
@@ -30820,7 +31308,7 @@
       "no": 9306015,
       "kr": "날이 추운데 어머니랑 언니는 잘 계시려나…\r\n앗! 이브의 날이라고 감상에 빠지면 안돼요, 이디스!",
       "en": "It's been cold these days. I wonder if my mother and sister are doing well…\r\r\nOh! I shouldn't get emotional just because it's Eve's Day!",
-      "ja": "",
+      "ja": "寒くなりましたね。母上とお姉様は大丈夫かしら…\r\nあっ、いけない！イブの日だからって感傷に浸っていてはいけませんわ、イーディス！",
       "zh_tw": "天氣好冷，不知道媽媽跟姐姐過得好不好…\r\n啊！不能因為是夏娃之日就這麼感傷，伊迪絲！",
       "zh_cn": "天气好冷，不知道妈妈跟姐姐过得好不好……\r\n啊！不能因为是太古精灵之日就这么感伤，伊迪丝！"
     },
@@ -30828,7 +31316,7 @@
       "no": 9306016,
       "kr": "꽃가루는 싫지만, 흩날리는 꽃잎은 아름답다고 생각해요.\r\n찬란하면서도 쓸쓸한 장면 같다고나 할까… 에취!",
       "en": "I dislike pollen, but the fluttering petals are beautiful.\r\r\nThey look radiant yet lonely… Achoo!",
-      "ja": "",
+      "ja": "花粉は嫌いですけど、舞い散る花びらは美しいと思いますの。\r\n見ているときらびやかで物寂しい気持ちになって…ハクション！",
       "zh_tw": "雖然我不喜歡花粉，但我覺得紛飛的花瓣很美。\r\r\n感覺那場景燦爛又淒涼…哈啾！",
       "zh_cn": "虽然我不喜欢花粉，但我觉得纷飞的花瓣很美。\r\r\n感觉那场景灿烂又凄凉……哈啾！"
     },
@@ -30836,7 +31324,7 @@
       "no": 9306021,
       "kr": "아직도 제 출신 때문에 저를 어려워하는 분들이 있사와요.\r\n전 이제 완전히 솔레이의 기사로 살고 있는데 말이죠.",
       "en": "There are still Souls who find me difficult,\r\r\nwhen I'm already living as the knight of Solrey.",
-      "ja": "",
+      "ja": "私の出身を聞いて私を敬遠する方がまだいらっしゃいますの。\r\n私はもうソレイの騎士として生きているのに…",
       "zh_tw": "現在還是有很多人因為我的出身，覺得我很難接近。\r\r\n但我現在明明已經徹底是蘇萊伊的騎士了。",
       "zh_cn": "现在还是有很多人因为我的出身，觉得我很难接近。\r\r\n但我现在明明已经彻底是苏莱伊的骑士了。"
     },
@@ -30844,7 +31332,7 @@
       "no": 9306022,
       "kr": "가끔 속이 답답할 때 탄산수를 마시면 속이 풀리는 것 같사와요.\r\n물론 탄산 때문에 품위가 흐트러질까 봐 혼자 있을 때만 마신답니다.",
       "en": "Drinking sparkling water when I feel stuffy makes me feel better.\r\r\nOf course, I make sure to drink it only when I'm alone as it could be demeaning.",
-      "ja": "",
+      "ja": "胃がもたれたときに炭酸水を飲むとすっきりしますの。\r\nもちろん、炭酸のせいで品がないように見えるといけないから、一人のときに飲みますけど。",
       "zh_tw": "偶爾覺得內心很煩悶的時候，喝汽水就會感覺很暢快。\r\r\n當然，我怕汽水毀了我的品味，所以只會在自己一個人的時候喝。",
       "zh_cn": "偶尔觉得内心很烦闷的时候，喝汽水就会感觉很畅快。\r\r\n当然，我怕汽水毁了我的品味，所以只会在自己一个人的时候喝。"
     },
@@ -30852,7 +31340,7 @@
       "no": 9306023,
       "kr": "다이어리를 꾸미는 건 자기만족의 영역이지요.\r\n남에게 보여주려고 한 게 아니니, 구원자님일지라도 보여줄 수 없사와요.",
       "en": "I decorate the diary for my own satisfaction.\r\r\nI'm not doing it for anyone else. I can't show it to you either, Savior.",
-      "ja": "",
+      "ja": "デコ日記はあくまでも自己満足ですよね。\r\n人に見せるためのものでもないし…いくら救世主様でも見せられませんわ。",
       "zh_tw": "裝飾日記是自我滿足的部分。\r\r\n因為那不是寫來給別人看的，所以就算是救援者，也不能給你看。",
       "zh_cn": "装饰日记是自我满足的部分。\r\r\n因为那不是写来给别人看的，所以就算是救援者，也不能给你看。"
     },
@@ -30860,7 +31348,7 @@
       "no": 9306024,
       "kr": "언니… 아니, 헤이즐 님은 보기보다 술에 약해요.\r\n술을 과하게 마신 날에는 여러모로 저를 귀찮게 했지요.",
       "en": "My sister…Hazel is not a good drinker.\r\r\nShe used to trouble me whenever she had too much to drink.",
-      "ja": "",
+      "ja": "お姉様…いや、ヘーゼル様は意外とお酒に弱いのです。\r\n飲み過ぎた日は本当に面倒で…",
       "zh_tw": "姐姐…不對，黑伊茲爾的酒量比看上去還不好。\r\r\n她喝太多的時候，會在各方面上煩我。",
       "zh_cn": "姐姐……不对，黑伊兹尔的飘飘饮量比看上去还不好。\r\r\n她喝太多的时候，会在各方面上烦我。"
     },
@@ -30868,7 +31356,7 @@
       "no": 9306031,
       "kr": "…휴우, 어쩔 수 없군요.\r\n이렇게 기다릴 줄도 알아야 해요, 이디스.",
       "en": "… Sigh, it can't be helped.\r\r\nOne must know how to be patient.",
-      "ja": "",
+      "ja": "…ふう、仕方ありませんわね。\r\nこんなふうに待つのも修練の一環ですわ、イーディス。",
       "zh_tw": "…呼，沒辦法。\r\r\n要懂得像這樣等待，伊迪絲。",
       "zh_cn": "……呼，没办法。\r\r\n要懂得像这样等待，伊迪丝。"
     },
@@ -30876,7 +31364,7 @@
       "no": 9306041,
       "kr": "빈틈없는 정령이 되는 건, 쉽지 않사와요.\r\n언제나 긴장의 끈을 잡고 있는 기분이죠.",
       "en": "It is not easy to become an impeccable Soul.\r\r\nI can never let my guard down.",
-      "ja": "",
+      "ja": "完璧な精霊になるということは難しいことです。\r\nいつも緊張している、という感じですからね。",
       "zh_tw": "要成為完美的精靈並不容易。\r\r\n感覺隨時都要繃緊神經。",
       "zh_cn": "要成为完美的精灵并不容易。\r\r\n感觉随时都要绷紧神经。"
     },
@@ -30884,7 +31372,7 @@
       "no": 9306042,
       "kr": "구원자님은 진심으로 정령들을 존중하시는 것 같사와요.\r\n그런 점을 저는… 존경하고 있답니다.",
       "en": "You seem to sincerely respect the Souls, Savior.\r\r\nAnd I…admire that part of you.",
-      "ja": "",
+      "ja": "救世主様は本当に精霊たちを尊重しているようですね。\r\n私はそういうところを…尊敬していますわ。",
       "zh_tw": "感覺救援者是真心尊重精靈，\r\r\n那一點…我很尊敬你。",
       "zh_cn": "感觉救援者是真心尊重精灵，\r\r\n那一点……我很尊敬你。"
     },
@@ -30892,7 +31380,7 @@
       "no": 9306043,
       "kr": "청소나 요리도 재능의 영역이겠지요…?\r\n흑, 정말 저에게 재능이 없다고 하면 앞으로 어떻게 할지 모르겠사와요…!",
       "en": "I guess one is born good at cleaning or cooking…\r\r\n*Sob* I don't know what I will do if I'm told I'm not good at it…!",
-      "ja": "",
+      "ja": "掃除や料理も才能が必要なんですよね…？\r\nもし私にその才能がないなら、これからどうすればいいか分かりませんわ…",
       "zh_tw": "打掃和料理也歸類在才能裡吧…？\r\r\n如果我真的沒有才能，不知道以後該怎麼辦…！",
       "zh_cn": "打扫和料理也归类在才能里吧……？\r\r\n如果我真的没有才能，不知道以后该怎么办……！"
     },
@@ -30900,7 +31388,7 @@
       "no": 9306051,
       "kr": "응? 절 부르셨사와요?",
       "en": "Hmm? Did you call me?",
-      "ja": "",
+      "ja": "あら、呼びました？",
       "zh_tw": "嗯？你有叫我嗎？",
       "zh_cn": "嗯？你有叫我吗？"
     },
@@ -30908,7 +31396,7 @@
       "no": 9306052,
       "kr": "꺄악, 너무 가깝사와요!",
       "en": "Kyaa, you're too close!",
-      "ja": "",
+      "ja": "キャッ！近すぎますわ！",
       "zh_tw": "嘎啊，太靠近了！",
       "zh_cn": "嘎啊，太靠近了！"
     },
@@ -30916,7 +31404,7 @@
       "no": 9306053,
       "kr": "자꾸 이러시면…! \r\n부끄럽사와요…",
       "en": "Don't…!\r\r\nIt's embarrassing…",
-      "ja": "",
+      "ja": "そ、そんな風にされたら…\r\n恥ずかしいですの…",
       "zh_tw": "你一直這樣的話…！\r\r\n我很害羞…",
       "zh_cn": "你一直这样的话……！\r\r\n我很害羞……"
     },
@@ -30924,7 +31412,7 @@
       "no": 9306061,
       "kr": "우편물들이 쌓여있군요. 확인해 보셔요.",
       "en": "You have a lot of mail. Please check.",
-      "ja": "",
+      "ja": "お届け物が溜まってますわ。どうかご確認を。",
       "zh_tw": "累積了很多信件，請去確認一下。",
       "zh_cn": "累积了很多信件，请去确认一下。"
     },
@@ -30932,7 +31420,7 @@
       "no": 9306062,
       "kr": "퀘스트를 달성하셨군요. 역시 구원자님이시어요!",
       "en": "You completed a quest. You're amazing, Savior!",
-      "ja": "",
+      "ja": "クエストを達成しましたね。さすが救世主様ですわ！",
       "zh_tw": "你達成了任務，不愧是救援者！",
       "zh_cn": "你达成了任务，不愧是救援者！"
     },
@@ -30940,7 +31428,7 @@
       "no": 9306063,
       "kr": "전리품 확인이 필요할 것 같사와요.",
       "en": "You should check your loot.",
-      "ja": "",
+      "ja": "戦利品の確認をお願いします。",
       "zh_tw": "好像需要確認一下戰利品。",
       "zh_cn": "好像需要确认一下战利品。"
     },
@@ -30948,7 +31436,7 @@
       "no": 9306064,
       "kr": "구원자님, 정령들의 상태를 확인해 주셔야겠어요.",
       "en": "Savior, you should check on the Souls.",
-      "ja": "",
+      "ja": "救世主様、精霊たちの様子を見ていただけませんか？",
       "zh_tw": "救援者，你要確認一下精靈們的狀態。",
       "zh_cn": "救援者，你要确认一下精灵们的状态。"
     },
@@ -30956,7 +31444,7 @@
       "no": 9306065,
       "kr": "구원자님, 영지에서 확인하실 일이 있는 것 같사와요.",
       "en": "Savior, you should go to the town and check something.",
-      "ja": "",
+      "ja": "救世主様、領地で確認すべきことがあるようですわ。",
       "zh_tw": "救援者，領地好像有事情要確認。",
       "zh_cn": "救援者，领地好像有事情要确认。"
     },
@@ -30964,7 +31452,7 @@
       "no": 9306066,
       "kr": "생일이시군요, 구원자님.\r\n마침 저한테 케이크가 있사와요! 절대 미리 준비한 건 아니랍니다, 절대로.",
       "en": "So it's your birthday, Savior.\r\r\nIt just so happens that I have a cake! I didn't prepare it in advance, believe me.",
-      "ja": "",
+      "ja": "救世主様、今日がお誕生日ですよね！\r\nちょうどケーキがありますの。事前に準備したわけではありませんわ、絶対に！",
       "zh_tw": "原來是你的生日，救援者！\r\r\n我正好有蛋糕！絕對不是事先準備的，絕對不是。",
       "zh_cn": "原来是你的生日，救援者！\r\r\n我正好有蛋糕！绝对不是事先准备的，绝对不是。"
     },
@@ -30972,7 +31460,7 @@
       "no": 9306067,
       "kr": "제 생일을 기억해 주신 건가요?\r\n예, 예상하지 못한 축하를 받으니 가슴이 뛰는 것 같사와요.",
       "en": "You remembered my birthday!\r\r\nI, I didn't expect this at all. My heart is throbbing.",
-      "ja": "",
+      "ja": "私の誕生日、覚えていてくださったのですか？\r\nお、 思いもよりませんでした。胸がドキドキしますわ。",
       "zh_tw": "你記得我的生日嗎？\r\r\n收、收到了意料之外的祝福，感覺心跳好快。",
       "zh_cn": "你记得我的生日吗？\r\r\n收、收到了意料之外的祝福，感觉心跳好快。"
     },
@@ -31004,7 +31492,7 @@
       "no": 9306071,
       "kr": "구원자님, 올해도 저희와 함께 해주셨군요.\r\n에덴 생활에 불편한 점이 있다면 언제든지 말씀해 주시어요.\r\n이 이디스가 힘이 닿는 데까지 도와드리겠사와요!",
       "en": "Savior, it's wonderful to have you with us for another year.\r\nIf there's anything about life in Eden that feels inconvenient, please don't hesitate to let me know.\r\nI, Edith, will assist you to the best of my ability!",
-      "ja": "",
+      "ja": "救世主様、今年も一緒でしたわね。\r\nエデンで生活する上で何か不便なことがありましたら、いつでもおっしゃってくださいね。\r\nこのイーディス、頑張って協力いたしますわ！",
       "zh_tw": "救援者，你今年也和我們同在呢。\r\n要是在伊甸園的生活有什麼不便，就隨時告訴我。\r\n我伊迪絲會盡我所能幫忙的！",
       "zh_cn": ""
     },

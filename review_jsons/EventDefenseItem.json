@@ -49,8 +49,9 @@
     {
       "no": 7,
       "item_prefab": "PF_EventDefense_Item_Collect_02",
-      "item_type": 99,
-      "fx": "Fx_EventDefense_Item_Random_01"
+      "item_type": 4,
+      "item_value": 1.5,
+      "fx": "Fx_EventDefense_Item_bomb_01"
     }
   ]
 }

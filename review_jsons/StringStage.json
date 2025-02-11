@@ -1140,7 +1140,7 @@
       "no": 101028,
       "kr": "광역 역할 정령 {1}명 이상 배치하기",
       "en": "Deploy {1} or more AoE Souls",
-      "ja": "",
+      "ja": "広域役割の精霊を{1}体以上配置する",
       "zh_tw": "配置超過{1}個廣域定位精靈",
       "zh_cn": ""
     },
@@ -1996,8 +1996,24 @@
       "no": 419093,
       "kr": "VS 떡공장장 순이",
       "en": "Vs. Rice Cake Factory Chief Soonie",
-      "ja": "",
+      "ja": "VS モチ工場の工場長・スニ",
       "zh_tw": "VS 年糕工廠廠長順伊",
+      "zh_cn": ""
+    },
+    {
+      "no": 419094,
+      "kr": "VS 심상세계의 로제",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 419095,
+      "kr": "심상세계의 로제",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -2244,7 +2260,7 @@
       "no": 500026,
       "kr": "루멘 성 입구",
       "en": "Lumen Castle Entrance",
-      "ja": "ルーメン城の入口",
+      "ja": "ルーメン城入口",
       "zh_tw": "流明城入口",
       "zh_cn": "流明城入口"
     },
@@ -2292,7 +2308,7 @@
       "no": 500032,
       "kr": "별의 등대",
       "en": "",
-      "ja": "",
+      "ja": "星の灯台",
       "zh_tw": "",
       "zh_cn": ""
     },
@@ -2500,7 +2516,7 @@
       "no": 501026,
       "kr": "중앙 도시에 위치한 타브리아 황성의 입구.\r\n\r\n안개와 구름을 두른 채 수천 년 동안 정상을 수호하는 성이 보인다.\r\n다리 곳곳에 설치된 첨탑은 유사시 포탑으로 활용되기도.\r\n\r\n불리는 명칭은 입구이지만, 실제 본성까지의 거리는 굉장히 멀다고 한다.",
       "en": "Entrance to the imperial palace of Tabria nestled in the central city.\r\n\r\nEnveloped in mist and clouds, this ancient fortress has stood watch over the peak for millennia.\r\nThe spires along the bridge serve as turrets if needed.\r\n\r\nWhile it is called the entrance, the actual distance to the main castle is remarkably far.",
-      "ja": "中央都市に位置するタブリア皇城の入り口。\r\n\r\n霧と雲をまとったまま何千年もの間、頂上を守っている城が見える。\r\n橋のあちこちに設置された尖塔は、有事の際に砲塔として活用されることもある。\r\n\r\n入り口と呼ばれているが、実際の皇城までの距離はとても遠い。",
+      "ja": "中央都市に位置するタブリア皇城の入口。\r\n\r\n霧と雲をまとったまま何千年もの間、頂上を守っている城が見える。\r\n橋のあちこちに設置された尖塔は、有事の際に砲塔として活用されることもある。\r\n\r\n入口と呼ばれているが、実際の皇城までの距離はとても遠い。",
       "zh_tw": "位於中央城市的塔布里亞皇城入口。\r\n\r\n可看到雲霧繚繞，守護山頂數千年的城。\r\n橋上各處設置的尖塔在非常時期還被用作炮塔。\r\n\r\n雖然被稱為入口，但據說實際到主城的距離非常遠。",
       "zh_cn": "位于中央城市的塔布里亚皇城入口。\r\n\r\n可看到云雾缭绕，守护山顶数千年的城。\r\n桥上各处设置的尖塔在非常时期还被用作炮塔。\r\n\r\n虽然被称为入口，但据说实际到主城的距离非常远。"
     },

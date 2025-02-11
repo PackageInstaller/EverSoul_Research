@@ -47,6 +47,30 @@
       "content_string_no": 359503,
       "icon_path": "icon_eas_attack_up_2",
       "value1": 9503
+    },
+    {
+      "no": 7,
+      "event_group": 3,
+      "title_string_no": 349505,
+      "content_string_no": 359505,
+      "icon_path": "icon_eas_fury",
+      "value1": 9505
+    },
+    {
+      "no": 8,
+      "event_group": 3,
+      "title_string_no": 349504,
+      "content_string_no": 359504,
+      "icon_path": "icon_eas_race_1",
+      "value1": 9504
+    },
+    {
+      "no": 9,
+      "event_group": 3,
+      "title_string_no": 349503,
+      "content_string_no": 359503,
+      "icon_path": "icon_eas_attack_up_2",
+      "value1": 9503
     }
   ]
 }

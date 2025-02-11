@@ -1931,6 +1931,54 @@
       "event_no": 156,
       "order": 2,
       "desc_list": "[[6530,Sorrow1,900006358]]"
+    },
+    {
+      "no": 323,
+      "event_no": 157,
+      "order": 1,
+      "desc_list": "[[1150,Touch,900006359]]"
+    },
+    {
+      "no": 324,
+      "event_no": 157,
+      "order": 2,
+      "desc_list": "[[6510,Stay,900006360]]"
+    },
+    {
+      "no": 325,
+      "event_no": 158,
+      "order": 1,
+      "desc_list": "[[3100,Exercise,900006361]]"
+    },
+    {
+      "no": 326,
+      "event_no": 158,
+      "order": 2,
+      "desc_list": "[[1150,Stay,900006362]]"
+    },
+    {
+      "no": 327,
+      "event_no": 159,
+      "order": 1,
+      "desc_list": "[[1150,Talk,900006363]]"
+    },
+    {
+      "no": 328,
+      "event_no": 159,
+      "order": 2,
+      "desc_list": "[[6520,Talk,900006364]]"
+    },
+    {
+      "no": 329,
+      "event_no": 160,
+      "order": 1,
+      "desc_list": "[[1030,Talk,900006365]]"
+    },
+    {
+      "no": 330,
+      "event_no": 160,
+      "order": 2,
+      "desc_list": "[[1150,Talk,900006366]]"
     }
   ]
 }

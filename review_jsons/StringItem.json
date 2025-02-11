@@ -3420,7 +3420,7 @@
       "no": 214170,
       "kr": "설날 기념 복주머니",
       "en": "New Year's Lucky Pouch",
-      "ja": "",
+      "ja": "新年記念福袋",
       "zh_tw": "新春紀念福袋",
       "zh_cn": ""
     },
@@ -3428,7 +3428,7 @@
       "no": 214171,
       "kr": "큼직한 세뱃돈 봉투",
       "en": "Large Gift Envelope",
-      "ja": "",
+      "ja": "大きなポチ袋",
       "zh_tw": "巨大紅包袋",
       "zh_cn": ""
     },
@@ -3436,7 +3436,7 @@
       "no": 214172,
       "kr": "세뱃돈 봉투 (지정 소환권)",
       "en": "Gift Envelope (Targeted Summon Tickets)",
-      "ja": "",
+      "ja": "ポチ袋(指定召喚券)",
       "zh_tw": "巨大紅包袋（指定召喚券）",
       "zh_cn": ""
     },
@@ -3444,7 +3444,7 @@
       "no": 214173,
       "kr": "세뱃돈 봉투 (유물 소환권)",
       "en": "Gift Envelope (Artifact Summon Tickets)",
-      "ja": "",
+      "ja": "ポチ袋(遺物召喚券)",
       "zh_tw": "巨大紅包袋（遺物召喚券）",
       "zh_cn": ""
     },
@@ -3452,13 +3452,21 @@
       "no": 214174,
       "kr": "세뱃돈 봉투 (에리카의 연금술 티켓)",
       "en": "Gift Envelope (Erika's Alchemy Tickets)",
-      "ja": "",
+      "ja": "ポチ袋(エリカの錬金術チケット)",
       "zh_tw": "巨大紅包袋（艾麗卡的鍊金術票券）",
       "zh_cn": ""
     },
     {
       "no": 214175,
       "kr": "사랑의 날 기념 초콜릿 상자",
+      "en": "",
+      "ja": "愛の日記念チョコの箱",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 214176,
+      "kr": "사이드 이벤트 행운 상자",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -3900,7 +3908,7 @@
       "no": 215201,
       "kr": "메이드 카페",
       "en": "Maid Cafe",
-      "ja": "",
+      "ja": "メイドカフェ",
       "zh_tw": "女僕咖啡聽",
       "zh_cn": "女仆咖啡听"
     },
@@ -5508,7 +5516,7 @@
       "no": 216226,
       "kr": "스티커: 루멘 성 입구",
       "en": "Sticker: Lumen Castle Entrance",
-      "ja": "ステッカー：ルーメン城の入口",
+      "ja": "ステッカー：ルーメン城入口",
       "zh_tw": "貼紙：流明城入口",
       "zh_cn": "贴纸：流明城入口"
     },
@@ -5580,7 +5588,7 @@
       "no": 216303,
       "kr": "스티커: 달콤한 초콜릿",
       "en": "",
-      "ja": "",
+      "ja": "ステッカー：甘いチョコレート",
       "zh_tw": "",
       "zh_cn": ""
     },
@@ -6353,6 +6361,78 @@
       "zh_cn": ""
     },
     {
+      "no": 216928,
+      "kr": "스티커: 기록되지 않은 미래(1위)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 216929,
+      "kr": "스티커: 기록되지 않은 미래(2위)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 216930,
+      "kr": "스티커: 기록되지 않은 미래(3위)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 216931,
+      "kr": "스티커: 기록되지 않은 미래(챌린저)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 216932,
+      "kr": "스티커: 기록되지 않은 미래(마스터)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 216933,
+      "kr": "스티커: 기록되지 않은 미래(플래티넘)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 216934,
+      "kr": "스티커: 기록되지 않은 미래(골드)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 216935,
+      "kr": "스티커: 기록되지 않은 미래(실버)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 216936,
+      "kr": "스티커: 기록되지 않은 미래(브론즈)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 217001,
       "kr": "조각 케이크",
       "en": "Sliced Cake",
@@ -6916,7 +6996,7 @@
       "no": 218034,
       "kr": "미궁 올스타즈 입장권",
       "en": "Labyrinth All-Stars Ticket",
-      "ja": "",
+      "ja": "迷宮オールスターズ入場券",
       "zh_tw": "迷宮眾星雲集入場券",
       "zh_cn": "迷宫众星云集入场券"
     },
@@ -6924,7 +7004,7 @@
       "no": 218035,
       "kr": "훈련 포인트",
       "en": "Training Points",
-      "ja": "",
+      "ja": "訓練ポイント",
       "zh_tw": "訓練點數",
       "zh_cn": "训练点数"
     },
@@ -6972,7 +7052,7 @@
       "no": 218044,
       "kr": "파라다이스 레이드 입장권",
       "en": "Paradise Raid Ticket",
-      "ja": "",
+      "ja": "パラダイスレイド入場券",
       "zh_tw": "樂園突襲入場券",
       "zh_cn": "乐园突袭入场券"
     },
@@ -6980,7 +7060,7 @@
       "no": 218045,
       "kr": "메이드 경품 코인",
       "en": "Maid Prize Coins",
-      "ja": "",
+      "ja": "メイド景品コイン",
       "zh_tw": "女僕贈品硬幣",
       "zh_cn": "女仆赠品硬币"
     },
@@ -6988,7 +7068,7 @@
       "no": 218046,
       "kr": "진상 퇴치 딱지 A",
       "en": "Troublemaker Purge Sticker A",
-      "ja": "",
+      "ja": "クレーマー撃退バッジA",
       "zh_tw": "奧客退散圓卡A",
       "zh_cn": "奥客退散圆卡A"
     },
@@ -6996,7 +7076,7 @@
       "no": 218047,
       "kr": "진상 퇴치 딱지 B",
       "en": "Troublemaker Purge Sticker B",
-      "ja": "",
+      "ja": "クレーマー撃退バッジB",
       "zh_tw": "奧客退散圓卡B",
       "zh_cn": "奥客退散圆卡B"
     },
@@ -7004,7 +7084,7 @@
       "no": 218048,
       "kr": "쇼콜라 퀸 레이드 입장권",
       "en": "Chocolat Queen Raid Ticket",
-      "ja": "",
+      "ja": "ショコラクイーンレイド入場券",
       "zh_tw": "巧克力甜心女王突襲入場券",
       "zh_cn": "巧克力甜心女王突袭入场券"
     },
@@ -7012,7 +7092,7 @@
       "no": 218050,
       "kr": "하얀 울새 숲 미니 게임 입장권",
       "en": "White Robin Forest Mini Game Ticket",
-      "ja": "",
+      "ja": "ホワイトロビン森ミニゲーム入場券",
       "zh_tw": "雪白的知更鳥林小遊戲入場券",
       "zh_cn": "雪白的知更鸟林小游戏入场券"
     },
@@ -7268,7 +7348,7 @@
       "no": 218114,
       "kr": "떡주머니",
       "en": "Rice Cake Pouch",
-      "ja": "",
+      "ja": "モチ袋",
       "zh_tw": "年糕袋",
       "zh_cn": ""
     },
@@ -7276,7 +7356,7 @@
       "no": 218115,
       "kr": "탁주 사발",
       "en": "Rice Wine Bowl",
-      "ja": "",
+      "ja": "にごり酒",
       "zh_tw": "米酒碗缽",
       "zh_cn": ""
     },
@@ -7284,7 +7364,7 @@
       "no": 218116,
       "kr": "불꽃 노리개",
       "en": "Firework Charm",
-      "ja": "",
+      "ja": "花火の飾り",
       "zh_tw": "煙火飾品",
       "zh_cn": ""
     },
@@ -7292,7 +7372,7 @@
       "no": 218117,
       "kr": "신년맞이 떡공장털이 레이드 입장권",
       "en": "New Year's Rice Cake Factory Raid Ticket",
-      "ja": "",
+      "ja": "新年のモチ工場襲撃レイド入場券",
       "zh_tw": "迎春洗劫年糕工廠突襲入場券",
       "zh_cn": ""
     },
@@ -7300,9 +7380,17 @@
       "no": 218118,
       "kr": "룰렛 티켓",
       "en": "Spin Ticket",
-      "ja": "",
+      "ja": "ルーレットチケット",
       "zh_tw": "轉盤票券",
       "zh_cn": ""
+    },
+    {
+      "no": 218119,
+      "kr": "심연의 경계 미니 게임 입장권",
+      "en": "Boundaries of the Abyss Mini Game Ticket",
+      "ja": "深淵の境界ミニゲーム入場券",
+      "zh_tw": "",
+      "zh_cn": "深淵的邊界小游戏入场券"
     },
     {
       "no": 218901,
@@ -10748,7 +10836,7 @@
       "no": 224170,
       "kr": "신년을 기념하여 마련한 에버스톤 복주머니!\r\n사용 시 100~300 무료 에버스톤을 확률에 따라 획득합니다.\r\n\r\n[획득 확률]\r\n에버스톤(무료) 300개: 5%\r\n에버스톤(무료) 250개: 10%\r\n에버스톤(무료) 200개: 15%\r\n에버스톤(무료) 150개: 30%\r\n에버스톤(무료) 100개: 40%",
       "en": "New Year's Everstone lucky pouch!\r\nContains 100 to 300 free Everstones.\r\n\r\n[Probabilities]\r\n300 Everstones (Free): 5%\r\n250 Everstones (Free): 10%\r\n200 Everstones (Free): 15%\r\n150 Everstones (Free): 30%\r\n100 Everstones (Free): 40%",
-      "ja": "",
+      "ja": "新年を記念して用意したエバーストーン福袋！\r\n使用すると、100～300無料エバーストーンを確率によって獲得します。\r\n\r\n[獲得確率]\r\nエバーストーン(無料)x300：5%\r\nエバーストーン(無料)x250：10%\r\nエバーストーン(無料)x200：15%\r\nエバーストーン(無料)x150：30%\r\nエバーストーン(無料)x100：40%",
       "zh_tw": "為慶祝新年所準備的永恆石福袋！\r\n使用後將根據機率獲得100～300免費永恆石。\r\n\r\n［獲得機率］\r\n永恆石（免費）300個：5%\r\n永恆石（免費）250個：10%\r\n永恆石（免費）200個：15%\r\n永恆石（免費）150個：30%\r\n永恆石（免費）100個：40%",
       "zh_cn": ""
     },
@@ -10756,7 +10844,7 @@
       "no": 224171,
       "kr": "신년을 기념하여 마련한 소환권 세뱃돈 봉투!\r\n운이 좋다면 픽업 소환권이 들어있을 지도...?\r\n사용 시 구성품 중 1종을 선택하여 획득할 수 있습니다.",
       "en": "A New Year's gift envelope containing Summon Tickets!\r\nIf you're lucky, it may give you Pick-Up Summon Tickets!\r\nUse it to select and obtain 1 item from the available options.",
-      "ja": "",
+      "ja": "新年を記念して用意した召喚券のポチ袋！\r\n運が良ければ、ピックアップ召喚券が入っているかも…？\r\n使用すると、構成品のうち1種を選択して獲得できます。",
       "zh_tw": "為慶祝新年所準備的召喚券紅包袋！\r\n運氣好的話，說不定裡面會有Pick Up召喚券哦…？\r\n使用後可選擇獲得其中1項內容物。",
       "zh_cn": ""
     },
@@ -10764,7 +10852,7 @@
       "no": 224172,
       "kr": "신년을 기념하여 마련한 지정 소환권 세뱃돈 봉투!\r\n운이 좋다면 픽업 소환권이 들어있을 지도...?\r\n사용 시 아래 구성품을 확률에 따라 획득합니다.\r\n\r\n[획득 확률]\r\n픽업 소환권 50개: 1%\r\n지정 소환권 20개: 4%\r\n지정 소환권 15개: 5%\r\n지정 소환권 10개: 35%\r\n지정 소환권 5개: 55%",
       "en": "A New Year's gift envelope containing Targeted Summon Tickets!\r\nIf you're lucky, it may give you Pick-Up Summon Tickets instead!\r\nUse it to obtain one of the following options:\r\n\r\n[Probabilities]\r\n50 Pick-Up Summon Tickets: 1%\r\n20 Targeted Summon Tickets: 4%\r\n15 Targeted Summon Tickets: 5%\r\n10 Targeted Summon Tickets: 35%\r\n5 Targeted Summon Tickets: 55%",
-      "ja": "",
+      "ja": "新年を記念して用意した指定召喚券のポチ袋！\r\n運が良ければ、ピックアップ召喚券も入っているかも…？\r\n使用すると、以下の構成品を確率によって獲得します。\r\n\r\n[獲得確率]\r\nピックアップ召喚券x50：1%\r\n指定召喚券x20：4%\r\n指定召喚券x15：5%\r\n指定召喚券x10：35%\r\n指定召喚券x5：55%",
       "zh_tw": "為慶祝新年所準備的指定召喚券紅包袋！\r\n運氣好的話，說不定裡面會有Pick Up召喚券哦…？\r\n使用後將根據機率獲得下列內容物。\r\n\r\n［獲得機率］\r\nPick Up召喚券50個：1%\r\n指定召喚券20個：4%\r\n指定召喚券15個：5%\r\n指定召喚券10個：35%\r\n指定召喚券5個：55%",
       "zh_cn": ""
     },
@@ -10772,7 +10860,7 @@
       "no": 224173,
       "kr": "신년을 기념하여 마련한 유물 소환권 세뱃돈 봉투!\r\n운이 좋다면 픽업 소환권이 들어있을 지도...?\r\n사용 시 아래 구성품을 확률에 따라 획득합니다.\r\n\r\n[획득 확률]\r\n픽업 소환권 50개: 1%\r\n유물 소환권 35개: 4%\r\n유물 소환권 25개: 5%\r\n유물 소환권 20개: 35%\r\n유물 소환권 15개: 55%",
       "en": "A New Year's gift envelope containing Artifact Summon Tickets!\r\nIf you're lucky, it may give you Pick-Up Summon Tickets instead!\r\nUse it to obtain one of the following options:\r\n\r\n[Probabilities]\r\n50 Pick-Up Summon Tickets: 1%\r\n35 Artifact Summon Tickets: 4%\r\n25 Artifact Summon Tickets: 5%\r\n20 Artifact Summon Tickets: 35%\r\n15 Artifact Summon Tickets: 55%",
-      "ja": "",
+      "ja": "新年を記念して用意した遺物召喚券のポチ袋！\r\n運が良ければ、ピックアップ召喚券も入っているかも…？\r\n使用すると、以下の構成品を確率によって獲得します。\r\n\r\n[獲得確率]\r\nピックアップ召喚券x50：1%\r\n遺物召喚券x35：4%\r\n遺物召喚券x25：5%\r\n遺物召喚券x20：35%\r\n遺物召喚券x15：55%",
       "zh_tw": "為慶祝新年所準備的遺物召喚券紅包袋！\r\n運氣好的話，說不定裡面會有Pick Up召喚券哦…？\r\n使用後將根據機率獲得下列內容物。\r\n\r\n［獲得機率］\r\nPick Up召喚券50個：1%\r\n遺物召喚券35個：4%\r\n遺物召喚券25個：5%\r\n遺物召喚券20個：35%\r\n遺物召喚券15個：55%",
       "zh_cn": ""
     },
@@ -10780,13 +10868,21 @@
       "no": 224174,
       "kr": "신년을 기념하여 마련한 연금술 소환권 세뱃돈 봉투!\r\n운이 좋다면 픽업 소환권이 들어있을 지도...?\r\n사용 시 아래 구성품을 확률에 따라 획득합니다.\r\n\r\n[획득 확률]\r\n픽업 소환권 50개: 1%\r\n에리카의 연금술 티켓 15개: 4%\r\n에리카의 연금술 티켓 10개: 5%\r\n에리카의 연금술 티켓 5개: 35%\r\n에리카의 연금술 티켓 3개: 55%",
       "en": "A New Year's gift envelope containing Alchemy Summon Tickets!\r\nIf you're lucky, it may give you Pick-Up Summon Tickets instead!\r\nUse it to obtain one of the following options:\r\n\r\n[Probabilities]\r\n50 Pick-Up Summon Tickets: 1%\r\n15 Erika's Alchemy Tickets: 4%\r\n10 Erika's Alchemy Tickets: 5%\r\n5 Erika's Alchemy Tickets: 35%\r\n3 Erika's Alchemy Tickets: 55%",
-      "ja": "",
+      "ja": "新年を記念して用意した錬金術召喚券のポチ袋！\r\n運が良ければ、ピックアップ召喚券も入っているかも…？\r\n使用すると、以下の構成品を確率によって獲得します。\r\n\r\n[獲得確率]\r\nピックアップ召喚券x50：1%\r\nエリカの錬金術チケットx15：4%\r\nエリカの錬金術チケットx10：5%\r\nエリカの錬金術チケットx5：35%\r\nエリカの錬金術チケットx3：55%",
       "zh_tw": "為慶祝新年所準備的鍊金術召喚券紅包袋！\r\n運氣好的話，說不定裡面會有Pick Up召喚券哦…？\r\n使用後將根據機率獲得下列內容物。\r\n\r\n［獲得機率］\r\nPick Up召喚券50個：1%\r\n艾麗卡的鍊金術票券15個：4%\r\n艾麗卡的鍊金術票券10個：5%\r\n艾麗卡的鍊金術票券5個：35%\r\n艾麗卡的鍊金術票券3個：55%",
       "zh_cn": ""
     },
     {
       "no": 224175,
       "kr": "사랑의 날을 기념하여 맛있는 초콜릿을 포장한 상자.\r\n달콤한 향기 덕에 보고만 있어도 행복한 기분이 든다.",
+      "en": "",
+      "ja": "愛の日を記念して美味しいチョコレートを入れたボックス。\r\n甘い香りのおかげで、見ているだけで幸せになる。",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 224176,
+      "kr": "사이드 이벤트를 기념하여 준비한 행운 상자입니다.\r\n사용 시 아래 구성품을 확률에 따라 획득합니다.\r\n\r\n[구성품 확률]\r\n에리카의 연금술 티켓 70장: 1%\r\n유물 소환권 30장: 3%\r\n유물 소환권 20장: 4%\r\n유물 소환권 15장: 7%\r\n유물 소환권 10장: 35%\r\n유물 소환권 5장: 50%",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -11228,7 +11324,7 @@
       "no": 225201,
       "kr": "로비 배경을 변경할 수 있습니다. (메이드 카페)\r\n\r\n<맛있어져라! 메이드 대작전> 이벤트 스토리 열람 보상으로 획득 가능",
       "en": "You can change the background of the lobby. (Maid Cafe)\r\n\r\nCan be obtained as a reward for viewing the Taste Perfection Operation Maid Event Story.",
-      "ja": "",
+      "ja": "ロビーの背景を変更できます。 (メイドカフェ)\r\n\r\n<美味しくなれ！メイド大作戦>イベントストーリー閲覧報酬で獲得可能",
       "zh_tw": "可變更大廳背景（女僕咖啡聽）\r\n\r\n觀看＜變美味吧！女僕大作戰＞活動故事獎勵",
       "zh_cn": "可变更大厅背景（女仆咖啡听）\r\n\r\n观看＜变美味吧！女仆大作战＞活动故事奖励"
     },
@@ -12924,7 +13020,7 @@
       "no": 226303,
       "kr": "부드럽고 달콤한 맛이 나는 초콜릿 모양의 스티커.",
       "en": "",
-      "ja": "",
+      "ja": "やわらかくて甘い味がするチョコレートの形のステッカー",
       "zh_tw": "",
       "zh_cn": ""
     },
@@ -13697,6 +13793,78 @@
       "zh_cn": ""
     },
     {
+      "no": 226928,
+      "kr": "인피니티 보스 챌린지(심상세계의 로제) 최종 1위 달성 시 획득 가능한 스티커.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 226929,
+      "kr": "인피니티 보스 챌린지(심상세계의 로제) 최종 2위 달성 시 획득 가능한 스티커.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 226930,
+      "kr": "인피니티 보스 챌린지(심상세계의 로제) 최종 3위 달성 시 획득 가능한 스티커.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 226931,
+      "kr": "인피니티 보스 챌린지(심상세계의 로제) 최종 4~10위 달성 시 획득 가능한 스티커.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 226932,
+      "kr": "인피니티 보스 챌린지(심상세계의 로제) 최종 11~100위 달성 시 획득 가능한 스티커.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 226933,
+      "kr": "인피니티 보스 챌린지(심상세계의 로제) 최종 101~500위 달성 시 획득 가능한 스티커.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 226934,
+      "kr": "인피니티 보스 챌린지(심상세계의 로제) 최종 501~1000위 달성 시 획득 가능한 스티커.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 226935,
+      "kr": "인피니티 보스 챌린지(심상세계의 로제) 최종 1001~2000위 달성 시 획득 가능한 스티커.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 226936,
+      "kr": "인피니티 보스 챌린지(심상세계의 로제) 참여 시 획득 가능한 스티커.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 227001,
       "kr": "달콤한 생크림과 폭신한 시트가 인상적인 간식.",
       "en": "An impressive snack with sweet fresh cream and soft layers.",
@@ -14222,7 +14390,7 @@
       "en": "A ticket needed for entering into the event raid.\r\r\nAllows you to access the event raid once.\r\r\n\r\r\n(After the exchange period ends, each will be converted to 810,000 gold and sent to your mail.)",
       "ja": "イベントレイドへ入場するために必要なチケット。\r\nイベントレイドを1回利用できる。\r\n\r\nイベント交換期間にも使用できる。\r\n\r\n(交換期間終了後、1個810,000ゴールドに変更され、メールに届きます)",
       "zh_tw": "進入活動突襲時所需的入場券。\r\r\n可用於活動突襲1次。\r\r\n\r\r\n也可於活動兌換期間內使用。\r\r\n\r\r\n（兌換期間結束後，每個會換算成810,000金幣並發送至信箱。）",
-      "zh_cn": "进入活动突袭时所需的入场券。\r\r\n可用于活动突袭1次。\r\r\n\r\r\n也可于活动兑换期间内使用。\r\r\n\r\r\n（兑换期间结束后，每个会换算成810,000金币并发送至信箱。）"
+      "zh_cn": "进入活动突袭时所需的入场券。\r\n可用于活动突袭1次。\r\n\r\n也可于活动兑换期间内使用。\r\n\r\n（兑换期间结束后，每个会换算成810,000金币并发送至信箱。）"
     },
     {
       "no": 228030,
@@ -14252,7 +14420,7 @@
       "no": 228034,
       "kr": "미궁 올스타즈 입장에 필요한 입장권.\r\n미궁 올스타즈를 1회 이용할 수 있다.\r\n\r\n(이벤트 종료 후 최종 클리어 단계의 보상으로 환산되어 우편함으로 지급됩니다.)",
       "en": "A ticket needed for entering Labyrinth All-Stars.\r\r\nGrants 1-time access to Labyrinth All-Stars.\r\r\n\r\r\n(After the event ends, each will be converted to a reward for the last level you cleared and will be sent to your mail.)",
-      "ja": "",
+      "ja": "迷宮オールスターズへ入場するために必要な入場券。\r\n迷宮オールスターズを1回利用できる。\r\n\r\n(イベント終了後、最後にクリアした段階の報酬に換算してメールボックスに支給されます)",
       "zh_tw": "進入迷宮眾星雲集時所需的入場券。\r\r\n可用於迷宮眾星雲集1次。\r\r\n\r\r\n（活動結束後，會以最終通關階段的獎勵換算並發送至信箱。）",
       "zh_cn": "进入迷宫众星云集时所需的入场券。\r\r\n可用于迷宫众星云集1次。\r\r\n\r\r\n（活动结束后，会以最终通关阶段的奖励换算并发送至信箱。）"
     },
@@ -14260,7 +14428,7 @@
       "no": 228035,
       "kr": "미궁 올스타즈 훈련에 사용되는 포인트.\r\n미궁 올스타즈 훈련을 1회 이용할 수 있습니다.\r\n\r\n(이벤트 기간 종료 후 사라집니다.)",
       "en": "Points used for Labyrinth All-Stars Training.\r\r\nGrants a 1-time use of Labyrinth All-Stars Training.\r\r\n\r\r\n(Disappears after the event ends.)",
-      "ja": "",
+      "ja": "迷宮オールスターズの利用に使用されるポイント。\r\n迷宮オールスターズを1回利用できます。\r\n\r\n(イベント期間終了後、消滅します)",
       "zh_tw": "用於迷宮眾星雲集訓練的點數。\r\r\n可用於迷宮眾星雲集訓練1次。\r\r\n\r\r\n（活動結束後消失。）",
       "zh_cn": "用于迷宫众星云集训练的点数。\r\r\n可用于迷宫众星云集训练1次。\r\r\n\r\r\n（活动结束后消失。）"
     },
@@ -14292,7 +14460,7 @@
       "no": 228045,
       "kr": "메이드 나라에서 사용 가능한 코인. \r\n'메이드 카페는 꿈의 나라이기 때문에, 그에 맞는 전용 화폐를 사용하고 있다'라는 설정이라고 한다.\r\n\r\n메이드 경품 상점에서 사용할 수 있습니다.\r\n\r\n(교환 기간 종료 후 개당 3000 골드로 환산되어 우편함으로 지급됩니다.)",
       "en": "A coin that can be used in Maid Land.\r\nBecause the maid cafe is a land of dreams, it supposedly has its own special currency.\r\n\r\nCan be used at the Maid Prize Shop.\r\n\r\n(After the exchange period ends, each will be converted to 3,000 Gold and sent to your mail.)",
-      "ja": "",
+      "ja": "メイドの国で使用できるコイン。\r\n「メイドカフェは夢の国であるため、専用の通貨を使っている」という設定らしい。\r\n\r\nメイド景品ショップで使用できます。\r\n\r\n(交換期間終了後、1個当たり3000ゴールドに換算してメールボックスに支給されます)",
       "zh_tw": "可在女僕國家使用的硬幣。\r\n據說概念是「因為女僕咖啡廳是夢之國度，所以搭配使用專用貨幣。」\r\n\r\n可於女僕贈品商店使用。\r\n\r\n（兌換期間結束後，每個會換算成3000金幣並發送至信箱。）",
       "zh_cn": "可在女仆国家使用的硬币。\r\n据说概念是“因为女仆咖啡厅是梦之国度，所以搭配使用专用货币。”\r\n\r\n可于女仆赠品商店使用。\r\n\r\n（兑换期间结束后，每个会换算成3000金币并发送至信箱。）"
     },
@@ -14300,7 +14468,7 @@
       "no": 228046,
       "kr": "「술은 주점에 가서 찾으시라고요!!」\r\n메이드 카페에서 알코올을 찾는 익명의 진상 손님을 퇴치하고 얻은 딱지.\r\n\r\n메이드 카페 교환 상점에서 다양한 아이템으로 교환할 수 있습니다.\r\n\r\n(교환 기간 종료 후 개당 3000 골드로 환산되어 우편함으로 지급됩니다.)",
       "en": "\"Go to a bar if you want alcohol!\"\r\nA Sticker obtained after kicking out an anonymous customer causing trouble by demanding booze at the maid cafe.\r\n\r\nCan be exchanged for various items at the Maid Cafe Exchange Shop.\r\n\r\n(After the exchange period ends, each will be converted to 3,000 Gold and sent to your mail.)",
-      "ja": "",
+      "ja": "「酒が欲しいなら酒場に行きなさい！」\r\nメイドカフェで酒を求める匿名のクレーマーを撃退して獲得したバッジ。\r\n\r\nメイドカフェ交換ショップで様々なアイテムに交換できます。\r\n\r\n(交換期間終了後、1個当たり3000ゴールドに換算してメールボックスに支給されます)",
       "zh_tw": "「要喝酒請去酒館！！」\r\n擊退在女僕咖啡廳點酒喝的匿名奧客後獲得的圓卡。\r\n\r\n可兌換女僕咖啡廳兌換商店的各種道具。\r\n\r\n（兌換期間結束後，每個會換算成3000金幣並發送至信箱。）",
       "zh_cn": "“要喝酒请去酒馆！！”\r\n击退在女仆咖啡厅点酒喝的匿名奥客后获得的圆卡。\r\n\r\n可兑换女仆咖啡厅兑换商店的各种道具。\r\n\r\n（兑换期间结束后，每个会换算成3000金币并发送至信箱。）"
     },
@@ -14308,7 +14476,7 @@
       "no": 228047,
       "kr": "「자릿세? 계약 내용과 다르잖아~!!」\r\n메이드 카페의 자릿세를 받아내려는 익명의 진상 손님을 퇴치하고 얻은 딱지.\r\n\r\n메이드 카페 교환 상점에서 다양한 아이템으로 교환할 수 있습니다.\r\n\r\n(교환 기간 종료 후 개당 3000 골드로 환산되어 우편함으로 지급됩니다.)",
       "en": "\"Street tax? That wasn't in the contract!\"\r\nA Sticker obtained after kicking out an anonymous customer causing trouble by demanding street tax at the maid cafe.\r\n\r\nCan be exchanged for various items at the Maid Cafe Exchange Shop.\r\n\r\n(After the exchange period ends, each will be converted to 3,000 Gold and sent to your mail.)",
-      "ja": "",
+      "ja": "「場所代って契約内容と違うんだけど～!!」\r\nメイドカフェの場所代を要求する匿名のクレーマーを撃退して獲得したバッジ。\r\n\r\nメイドカフェ交換ショップで様々なアイテムに交換できます。\r\n\r\n(交換期間終了後、1個当たり3000ゴールドに換算してメールボックスに支給されます)",
       "zh_tw": "「租賃稅？這跟簽約內容不一樣～！！」\r\n擊退要女僕咖啡廳繳交租賃稅的奧客後獲得的圓卡。\r\n\r\n可兌換女僕咖啡廳兌換商店的各種道具。\r\n\r\n（兌換期間結束後，每個會換算成3000金幣並發送至信箱。）",
       "zh_cn": "“租赁税？这跟签约内容不一样～！！”\r\n击退要女仆咖啡厅缴交租赁税的奥客后获得的圆卡。\r\n\r\n可兑换女仆咖啡厅兑换商店的各种道具。\r\n\r\n（兑换期间结束后，每个会换算成3000金币并发送至信箱。）"
     },
@@ -14316,7 +14484,7 @@
       "no": 228050,
       "kr": "「위험천만?! 하얀 울새 숲」 미니 게임 입장에 필요한 입장권.\r\n미니 게임을 1회 이용할 수 있다.",
       "en": "A ticket needed for entering the Dangerous White Robin Forest mini game.\r\nAllows you to access the mini game once.",
-      "ja": "",
+      "ja": "「超危険!? ホワイトロビン森」ミニゲームへ入場するために必要な入場券。\r\nミニゲームを1回利用できる。",
       "zh_tw": "進入「危機四伏！？雪白的知更鳥林」小遊戲時所需的入場券。\r\n可以使用小遊戲1次。",
       "zh_cn": "进入“危机四伏！？雪白的知更鸟林”小游戏时所需的入场券。\r\n可以使用小游戏1次。"
     },
@@ -14460,7 +14628,7 @@
       "no": 228108,
       "kr": "컨벤션에 일어난 사고를 막아준 관람객에게 지급되는 경품 교환권.\r\n과연 어떤 경품이 나올까?\r\n[컨벤션 경품 상점]에서 사용할 수 있습니다.\r\n\r\n(교환 기간 종료 후 개당 3000 골드로 환산되어 우편함으로 지급됩니다.)",
       "en": "A prize ticket awarded to the valiant attendee who stepped in to stop a convention mishap.\r\n\r\nCan be used at the Convention Prize Shop.\r\n\r\n(After the exchange period ends, each will be converted to 3,000 Gold and sent to your mail.)",
-      "ja": "",
+      "ja": "コンベンションで起こった事故を阻止した来場者に支給される景品引換券。\r\nどんな景品がもらえるかな？\r\n[コンベンション景品ショップ]で使用できます。\r\n\r\n(交換期間終了後、1個当たり3000ゴールドに換算してメールボックスに支給されます)",
       "zh_tw": "贈品兌換券，發放給阻止在展覽發生意外的觀眾。\r\n究竟會出現什麼贈品呢？\r\n可於［展覽贈品商店］使用。\r\n\r\n（兌換期間結束後，每個會換算成3000金幣發送至信箱。）",
       "zh_cn": ""
     },
@@ -14468,7 +14636,7 @@
       "no": 228109,
       "kr": "폭주하는 메카 베어를 저지한 관람객에게 지급되는 저지 작전 훈장.\r\n[작전 훈장 교환 상점]에서 다양한 아이템으로 교환할 수 있습니다.\r\n\r\n(교환 기간 종료 후 개당 3000 골드로 환산되어 우편함으로 지급됩니다.)",
       "en": "A Stopping Operation Medal awarded to the valiant attendee who stopped the rampaging Mech Bears.\r\nCan be exchanged for various items at the Operation Medal Exchange Shop.\r\n\r\n(After the exchange period ends, each will be converted to 3,000 Gold and sent to your mail.)",
-      "ja": "",
+      "ja": "暴走するメカベアを阻止した来場者に支給される阻止作戦の勲章。\r\n[作戦勲章交換ショップ]で様々なアイテムに交換できます。\r\n\r\n(交換期間終了後、1個当たり3000ゴールドに換算してメールボックスに支給されます)",
       "zh_tw": "阻止作戰勳章，發放給阻止暴走機械熊的觀眾。\r\n可兌換［作戰勳章兌換商店］的各種道具。\r\n\r\n（兌換期間結束後，每個會換算成3000金幣發送至信箱。）",
       "zh_cn": ""
     },
@@ -14476,7 +14644,7 @@
       "no": 228110,
       "kr": "도둑 수색 작전에 참여한 관람객에게 지급되는 수색 작전 훈장.\r\n[작전 훈장 교환 상점]에서 다양한 아이템으로 교환할 수 있습니다.\r\n\r\n(교환 기간 종료 후 개당 3000 골드로 환산되어 우편함으로 지급됩니다.)",
       "en": "A Search Operation Medal awarded to the valiant attendee who participated in the operation after a thief.\r\nCan be exchanged for various items at the Operation Medal Exchange Shop.\r\n\r\n(After the exchange period ends, each will be converted to 3,000 Gold and sent to your mail.)",
-      "ja": "",
+      "ja": "泥棒捜索作戦に参加した来場者に支給される捜索作戦の勲章。\r\n[作戦勲章交換ショップ]で様々なアイテムに交換できます。\r\n\r\n(交換期間終了後、1個当たり3000ゴールドに換算してメールボックスに支給されます)",
       "zh_tw": "搜索作戰勳章，發放給參加搜索竊賊作戰的觀眾。\r\n可兌換［作戰勳章兌換商店］的各種道具。\r\n\r\n（兌換期間結束後，每個會換算成3000金幣發送至信箱。）",
       "zh_cn": ""
     },
@@ -14484,7 +14652,7 @@
       "no": 228114,
       "kr": "순이의 떡공장에서 훔쳐… 얻어 온 떡주머니. \r\n맛있어 보이는 떡이 가득하다.\r\n\r\n[떡공장 공판장]에서 사용할 수 있습니다.\r\n(교환 기간 종료 후 개당 3000 골드로 환산되어 우편함으로 지급됩니다.)",
       "en": "A pouch of rice cakes, stolen... nay, sourced from Soonie's rice cake factory.\r\nIt is packed with tasty-looking rice cakes.\r\nCan be used at the Rice Cake Factory Market.\r\n\r\n(After the exchange period ends, each will be converted to 3,000 Gold and sent to your mail.)",
-      "ja": "",
+      "ja": "スニのモチ工場から盗…もらってきたモチ袋。\r\n美味しそうなモチがいっぱい。\r\n\r\n[モチ工場共同店]で使用できます。\r\n(交換期間終了後、1個当たり3000ゴールドに換算してメールボックスに支給されます)",
       "zh_tw": "從順伊的年糕工廠偷來的…年糕袋。\r\n充滿了看起來很美味的年糕。\r\n\r\n可於［年糕工廠市集］使用。\r\n（兌換期間結束後，每個會換算成3000金幣發送至信箱。）",
       "zh_cn": ""
     },
@@ -14492,7 +14660,7 @@
       "no": 228115,
       "kr": "외국에서 온 손님이 연거푸 들이키던 가온의 전통주용 사발.  \r\n\r\n[축제 물품 교환 상점]에서 다양한 아이템으로 교환할 수 있습니다.\r\n(교환 기간 종료 후 개당 3000 골드로 환산되어 우편함으로 지급됩니다.)",
       "en": "A traditional rice wine bowl of Gaon, eagerly gulped down by tourists from abroad.\r\n\r\nCan be exchanged for various items at the Festival Goods Exchange Shop.\r\n(After the exchange period ends, each will be converted to 3,000 Gold and sent to your mail.)",
-      "ja": "",
+      "ja": "外国からのお客さんがずっと飲んでいた、ガオンのにごり酒。\r\n\r\n[お祭りアイテム交換ショップ]で様々なアイテムに交換できます。\r\n(交換期間終了後、1個当たり3000ゴールドに換算してメールボックスに支給されます)",
       "zh_tw": "外國遊客一口接一口喝下的加溫傳統酒用碗缽。\r\n\r\n可兌換［慶典物品兌換商店］的各種道具。\r\n（兌換期間結束後，每個會換算成3000金幣發送至信箱。）",
       "zh_cn": ""
     },
@@ -14500,17 +14668,25 @@
       "no": 228116,
       "kr": "신년 불꽃놀이를 기념해 만들어진 가온의 전통 장신구. \r\n\r\n[축제 물품 교환 상점]에서 다양한 아이템으로 교환할 수 있습니다.\r\n(교환 기간 종료 후 개당 3000 골드로 환산되어 우편함으로 지급됩니다.)",
       "en": "Traditional accessory from Gaon, celebrating the New Year fireworks.\r\n\r\nCan be exchanged for various items at the Festival Goods Exchange Shop.\r\n(After the exchange period ends, each will be converted to 3,000 Gold and sent to your mail.)",
-      "ja": "",
+      "ja": "新年の花火大会を記念して作られた、ガオンの伝統飾り。\r\n\r\n[お祭りアイテム交換ショップ]で様々なアイテムに交換できます。\r\n(交換期間終了後、1個当たり3000ゴールドに換算してメールボックスに支給されます)",
       "zh_tw": "旨在紀念新年煙火的加溫傳統飾品。\r\n\r\n可兌換［慶典物品兌換商店］的各種道具。\r\n（兌換期間結束後，每個會換算成3000金幣發送至信箱。）",
       "zh_cn": ""
     },
     {
       "no": 228118,
-      "kr": "룰렛 이용에 필요한 티켓.\r\n이벤트 룰렛에 사용하여 보상을 획득할 수 있습니다.\r\n\r\n(이벤트 기간 종료 후 사라집니다.)",
-      "en": "A ticket needed to spin the wheel.\r\nUse it on the Event Wheel to claim rewards.\r\n\r\n(Disappears after the event ends.)",
-      "ja": "",
-      "zh_tw": "可於轉盤使用的票券。\r\n可用於活動轉盤以獲得獎勵。\r\n\r\n（活動結束後消失。）",
+      "kr": "룰렛 이용에 필요한 티켓.\r\n이벤트 룰렛에 사용하여 보상을 획득할 수 있습니다.\r\n\r\n(이벤트 종료 후 개당 300,000 골드로 환산되어 우편함으로 지급됩니다.)",
+      "en": "A ticket needed to spin the wheel.\r\nUse it on the Event Wheel to claim rewards.\r\n\r\n(After the event ends, each will be converted to 300,000 Gold and sent to your mail.)",
+      "ja": "ルーレットの利用に必要なチケット。\r\nイベントルーレットに使用して報酬を獲得できます。\r\n\r\n(イベント終了後、1個当たり300,000ゴールドに換算してメールボックスに支給されます)",
+      "zh_tw": "可於轉盤使用的票券。\r\n可用於活動轉盤以獲得獎勵。\r\n\r\n可兌換［慶典物品兌換商店］的各種道具。\r\n（活動結束後，每個會換算成300,000金幣發送至信箱。）",
       "zh_cn": ""
+    },
+    {
+      "no": 228119,
+      "kr": "미니 게임 입장에 필요한 입장권.\r\n미니 게임을 1회 이용할 수 있다.\r\n\r\n(이벤트 종료 후 개당 810,000 골드로 환산되어 우편함으로 지급됩니다.)",
+      "en": "A ticket needed for entering into the mini game.\r\nAllows you to access the mini game once.\r\n\r\n(After the event ends, each will be converted to 810,000 gold and sent to your mail.)",
+      "ja": "ミニゲームに入場するために必要な入場券。\r\nミニゲームを1回利用できる。\r\n\r\n(イベント終了後、1個810,000ゴールドに変更され、メールに届きます)",
+      "zh_tw": "進入小遊戲時所需的入場券。\r\n可以使用小遊戲1次。\r\n\r\n（活動結束後，每個會換算成810,000金幣並發送至信箱。）",
+      "zh_cn": "进入小游戏时所需的入场券。\r\n可以使用小游戏1次。\r\n\r\n（活动结束后，每个会换算成810,000金币并发送至信箱。）"
     },
     {
       "no": 228901,
@@ -15268,7 +15444,7 @@
       "no": 520128,
       "kr": "기사의 품격",
       "en": "Knight's Dignity",
-      "ja": "イーディス基本コスチューム",
+      "ja": "騎士の品格",
       "zh_tw": "騎士之品格",
       "zh_cn": "骑士的品格"
     },
@@ -15650,7 +15826,7 @@
     },
     {
       "no": 520176,
-      "kr": "로제(홍염)기본 코스튬",
+      "kr": "홍염의 후예",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -15676,7 +15852,7 @@
       "no": 520403,
       "kr": "짓궂은 장난",
       "en": "Cheeky Mischief",
-      "ja": "クレール絆コスチュームの名前",
+      "ja": "",
       "zh_tw": "惡作劇",
       "zh_cn": "恶作剧"
     },
@@ -15788,7 +15964,7 @@
       "no": 520417,
       "kr": "메릴 인연 코스튬 이름",
       "en": "Meryl's Bond Costume Name",
-      "ja": "メリル絆コスチュームの名前",
+      "ja": "",
       "zh_tw": "梅莉兒好感時裝名字",
       "zh_cn": "梅莉儿好感时装名字"
     },
@@ -15796,7 +15972,7 @@
       "no": 520418,
       "kr": "플린 인연 코스튬 이름",
       "en": "Flynn's Bond Costume Name",
-      "ja": "フラン絆コスチュームの名前",
+      "ja": "",
       "zh_tw": "弗林好感時裝名字",
       "zh_cn": "弗林好感时装名字"
     },
@@ -15804,7 +15980,7 @@
       "no": 520419,
       "kr": "로즈 가든",
       "en": "Rose Garden",
-      "ja": "ターシャ絆コスチュームの名前",
+      "ja": "",
       "zh_tw": "玫瑰花園",
       "zh_cn": "玫瑰花园"
     },
@@ -15820,7 +15996,7 @@
       "no": 520421,
       "kr": "기분 좋은 꿈",
       "en": "Good Dream",
-      "ja": "ルーテ絆コスチュームの名前",
+      "ja": "気持ちいい夢",
       "zh_tw": "美夢",
       "zh_cn": "美梦"
     },
@@ -15844,7 +16020,7 @@
       "no": 520424,
       "kr": "이나 인연 코스튬 이름",
       "en": "Ina's Bond Costume Name",
-      "ja": "イナ絆コスチュームの名前",
+      "ja": "",
       "zh_tw": "伊娜好感時裝名字",
       "zh_cn": "伊娜好感时装名字"
     },
@@ -15876,7 +16052,7 @@
       "no": 520428,
       "kr": "공주의 침실 ",
       "en": "Princess's Room ",
-      "ja": "イーディス絆コスチュームの名前",
+      "ja": "姫の寝室 ",
       "zh_tw": "公主的寢室",
       "zh_cn": "公主的寝室"
     },
@@ -15884,7 +16060,7 @@
       "no": 520429,
       "kr": "여유로운 한 때",
       "en": "Moment of Leisure",
-      "ja": "",
+      "ja": "のんびりな一時",
       "zh_tw": "悠閒時光",
       "zh_cn": "悠闲时光"
     },
@@ -16028,7 +16204,7 @@
       "no": 520447,
       "kr": "사논 인연 코스튬 이름",
       "en": "Sanon's Bond Costume Name",
-      "ja": "シャノン絆コスチュームの名前",
+      "ja": "",
       "zh_tw": "薩農好感時裝名字",
       "zh_cn": "萨农好感时装名字"
     },
@@ -16036,7 +16212,7 @@
       "no": 520448,
       "kr": "헬레나 인연 코스튬 이름",
       "en": "Helena's Bond Costume Name",
-      "ja": "ヘレナ絆コスチュームの名前",
+      "ja": "",
       "zh_tw": "海倫娜好感時裝名字",
       "zh_cn": "海伦娜好感时装名字"
     },
@@ -16922,7 +17098,7 @@
     },
     {
       "no": 520559,
-      "kr": "로제(홍염) 이벤트 코스튬",
+      "kr": "태양의 그늘",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -16930,7 +17106,15 @@
     },
     {
       "no": 520560,
-      "kr": "로제(홍염) 초월 코스튬",
+      "kr": "심연의 마녀",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 520561,
+      "kr": "새로운 봄바람",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -17172,7 +17356,7 @@
       "no": 530128,
       "kr": "이디스는 기억한다. 옷을 갖춰 입음으로써 생기는 품격은 무시할 수 없다는 말을. 그래서 공주에서 기사가 되었어도 그녀는 여전히 옷차림을 신경 쓰고 있다.",
       "en": "Edith still remembers these words: \"You can't ignore the elegance you get from dressing nicely.\" That's why she still cares about her attire even after she's become a knight.",
-      "ja": "イーディス基本コスチュームの説明",
+      "ja": "イーディスは覚えている。きちんと着飾ることで生まれる品格は決して無視できないという言葉を。 プリンセスから騎士になった今でも、彼女が身だしなみを気をつけている理由だ。",
       "zh_tw": "伊迪絲記得一句話——穿著打扮散發出的品格不容忽視。所以即使已經從公主變成騎士，她仍然在意打扮。",
       "zh_cn": "伊迪丝记得一句话——穿着打扮散发出的品格不容忽视。所以即使已经从公主变成骑士，她仍然在意打扮。"
     },
@@ -17554,7 +17738,7 @@
     },
     {
       "no": 530176,
-      "kr": "로제(홍염) 기본 코스튬 설명",
+      "kr": "태양의 힘을 극대화하는 로제의 의복. \r\n소중한 이들을 지키고 싶다는 소망이 느껴진다.",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -17692,7 +17876,7 @@
       "no": 530417,
       "kr": "메릴 인연 코스튬 설명",
       "en": "Meryl's Bond Costume Description",
-      "ja": "メリル絆コスチュームの説明",
+      "ja": "",
       "zh_tw": "梅莉兒好感時裝說明",
       "zh_cn": "梅莉儿好感时装说明"
     },
@@ -17700,7 +17884,7 @@
       "no": 530418,
       "kr": "플린 인연 코스튬 설명",
       "en": "Flynn's Bond Costume Description",
-      "ja": "フラン絆コスチュームの説明",
+      "ja": "",
       "zh_tw": "弗林好感時裝說明",
       "zh_cn": "弗林好感时装说明"
     },
@@ -17708,7 +17892,7 @@
       "no": 530419,
       "kr": "구원자가 타샤에게 선물한 화려한 드레스.\r\n장미 장식으로 포인트를 주어 수많은 이들 사이에서도 눈에 띈다.",
       "en": "A splendid dress the Savior gave to Tasha as a gift.\r\r\nAdorned with rose accents, it stands out, even in a crowd.",
-      "ja": "ターシャ絆コスチュームの説明",
+      "ja": "救世主がターシャにプレゼントした華やかなドレス。\r\nバラの装飾でポイントを置き、群衆の中でも目立つ。",
       "zh_tw": "救援者送給塔莎的華麗禮服。\r\r\n使用玫瑰裝飾點綴，在人群當中也十分顯眼。",
       "zh_cn": "救援者送给塔莎的华丽礼服。\r\r\n使用玫瑰装饰点缀，在人群当中也十分显眼。"
     },
@@ -17724,7 +17908,7 @@
       "no": 530421,
       "kr": "포근하면서도 이상하게 통풍이 잘되는 터틀넥.\r\n몸에 열이 많은 루테가 잠옷으로 입기 위해 직접 리폼했다고 한다.",
       "en": "A cozy yet breathable polo neck.\r\r\nLute, who has high body temperature, altered it herself to wear it as a pajama.",
-      "ja": "ルーテ絆コスチュームの説明",
+      "ja": "暖かいけど、不思議にも通気性のいいタートルネック。\r\n体温の高いルーテが寝巻として着るために直接リフォームしたらしい。",
       "zh_tw": "柔軟的高領，而且出奇地通風。\r\r\n聽說是體溫偏高的魯特為了把它當睡衣而親手改造的。",
       "zh_cn": "柔软的高领，而且出奇地通风。\r\r\n听说是体温偏高的鲁特为了把它当睡衣而亲手改造的。"
     },
@@ -17788,7 +17972,7 @@
       "no": 530429,
       "kr": "니콜이 조금 더 편하게 입는 일상복.\r\n타이트한 바지와 대비되는 루즈한 셔츠가 매력적이다.",
       "en": "Nicole's casual wear for daily comfort.\r\nThe form-fitting pants and the relaxed, flowing shirt cast an alluring contrast.",
-      "ja": "",
+      "ja": "ニコルが気楽に着ている普段着。\r\nタイトなパンツと対照的なルーズなシャツが魅力的。",
       "zh_tw": "妮可相對舒適的日常服裝。\r\n跟緊身褲成對比的寬鬆袖口很有魅力。",
       "zh_cn": "妮可相对舒适的日常服装。\r\n跟紧身裤成对比的宽松袖口很有魅力。"
     },
@@ -18826,7 +19010,7 @@
     },
     {
       "no": 530559,
-      "kr": "로제(홍염) 이벤트 코스튬 설명",
+      "kr": "어두운 진실을 알게 된 로제의 사복.\r\n떠나간 이들에 대한 애도와 지친 이들을 안아 주고 싶은 마음이 담겨 있다.",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -18834,7 +19018,15 @@
     },
     {
       "no": 530560,
-      "kr": "로제(홍염) 초월 코스튬 설명",
+      "kr": "고통도 절망도 없는 세계에 물든 로제의 모습.\r\n환상과 현실의 경계에서 수녀는 진실을 거부했다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 530561,
+      "kr": "선선한 봄바람만큼이나 산뜻함이 느껴지는 클로이의 사복.\r\n어디로든 갈 수 있도록 활동성을 갖춘 의상이다.",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -22380,7 +22572,7 @@
       "no": 2144101,
       "kr": "로맨틱 라이브 스테이지",
       "en": "Romantic Live Stage",
-      "ja": "",
+      "ja": "ロマンチックライブステージ",
       "zh_tw": "浪漫現場表演舞台",
       "zh_cn": "浪漫现场表演舞台"
     },
@@ -22388,7 +22580,7 @@
       "no": 2144102,
       "kr": "앤티크 매직 턴테이블",
       "en": "Antique Magic Turntable",
-      "ja": "",
+      "ja": "アンティークなマジックターンテーブル",
       "zh_tw": "復古魔術唱盤",
       "zh_cn": "复古魔术唱盘"
     },
@@ -22396,7 +22588,7 @@
       "no": 2144103,
       "kr": "스위트 피팅룸",
       "en": "Sweet Fitting Room",
-      "ja": "",
+      "ja": "スイートフィッティングルーム",
       "zh_tw": "甜美試衣間",
       "zh_cn": "甜美试衣间"
     },
@@ -22404,7 +22596,7 @@
       "no": 2144104,
       "kr": "소연의 초콜릿 팩토리",
       "en": "Xiaolian's Chocolate Factory",
-      "ja": "",
+      "ja": "シャオリンのチョコレートファクトリー",
       "zh_tw": "小蓮的巧克力工廠",
       "zh_cn": "小莲的巧克力工厂"
     },
@@ -22412,7 +22604,7 @@
       "no": 2144105,
       "kr": "스위트 테이블",
       "en": "Sweet Table",
-      "ja": "",
+      "ja": "スイートテーブル",
       "zh_tw": "甜美桌子",
       "zh_cn": "甜美桌子"
     },
@@ -22420,7 +22612,7 @@
       "no": 2144106,
       "kr": "스위트 소파",
       "en": "Sweet Sofa",
-      "ja": "",
+      "ja": "スイートソファ",
       "zh_tw": "甜美沙發",
       "zh_cn": "甜美沙发"
     },
@@ -22428,7 +22620,7 @@
       "no": 2144107,
       "kr": "완벽한 트레이",
       "en": "Perfect Tray",
-      "ja": "",
+      "ja": "完璧なトレイ",
       "zh_tw": "完美托盤",
       "zh_cn": "完美托盘"
     },
@@ -22436,7 +22628,7 @@
       "no": 2144108,
       "kr": "카페 진열대",
       "en": "Cafe Display Case",
-      "ja": "",
+      "ja": "カフェの陳列棚",
       "zh_tw": "咖啡廳展示櫃",
       "zh_cn": "咖啡厅展示柜"
     },
@@ -22444,7 +22636,7 @@
       "no": 2144109,
       "kr": "봉봉 쇼콜라",
       "en": "Bonbon Chocolat",
-      "ja": "",
+      "ja": "ボンボンショコラ",
       "zh_tw": "夾心巧克力",
       "zh_cn": "夹心巧克力"
     },
@@ -23137,6 +23329,14 @@
       "zh_cn": ""
     },
     {
+      "no": 2144820,
+      "kr": "로제(홍염)의 심상의 시계탑",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 2147001,
       "kr": "메피스토펠레스 석상 ",
       "en": "Mephistopheles Statue ",
@@ -23588,7 +23788,7 @@
       "no": 2148095,
       "kr": "마나석 발굴터",
       "en": "Manastone Dig Site",
-      "ja": "",
+      "ja": "マナストーン発掘地",
       "zh_tw": "魔力石挖掘場",
       "zh_cn": ""
     },
@@ -23596,7 +23796,7 @@
       "no": 2148096,
       "kr": "강화석 정제소",
       "en": "Enhance Stone Refinery",
-      "ja": "",
+      "ja": "強化石精製所",
       "zh_tw": "強化石精煉場",
       "zh_cn": ""
     },
@@ -27260,7 +27460,7 @@
       "no": 2244101,
       "kr": "스페셜 메뉴 주문 시 제공되는 라이브 퍼포먼스 무대.\r\n귀여운 메이드들이 선사하는 최고의 서비스를 받아보자!\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 더스트를 +20/분 추가로 획득</color>할 수 있습니다.",
       "en": "A life performance stage provided when ordering a special menu.\r\nExperience the best service offered by cute maids!\r\n\r\nPlace it in town to receive an <color=\"#2d9b00\">additional 20 Mana Dust per minute in loot</color>.",
-      "ja": "",
+      "ja": "スペシャルメニューを注文すると提供されるライブパフォーマンスのステージ。\r\n可愛いメイドたちが贈る最高のサービスを受けよう！\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品マナダストを+20/分追加で獲得</color>できます。",
       "zh_tw": "點特別餐點時提供的現場表演舞台。\r\n接受可愛女僕們獻上的一流服務吧！\r\n\r\n配置在領地可<color=\"#2d9b00\">額外獲得戰利品魔力粉塵+20/分鐘</color>。",
       "zh_cn": "点特别餐点时提供的现场表演舞台。\r\n接受可爱女仆们献上的一流服务吧！\r\n\r\n配置在领地可<color=\"#2d9b00\">额外获得战利品魔力粉尘+20/分钟</color>。"
     },
@@ -27268,7 +27468,7 @@
       "no": 2244102,
       "kr": "사랑스러운 마술사의 앤티크 턴테이블.\r\n마술쇼에 어울리는 신나는 음악이 흘러나오고 있다.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 골드를 +15/분 추가로 획득</color>할 수 있습니다.",
       "en": "A lovely magician's antique turntable.\r\nFills the air with lively music perfect for a magic spectacle.\r\n\r\nPlace it in town to receive an <color=\"#2d9b00\">additional 15 Gold per minute in loot</color>.",
-      "ja": "",
+      "ja": "可愛らしいマジシャンのアンティークターンテーブル。\r\nマジックショーに似合う、明るい音楽が流れている。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品ゴールドを+15/分追加で獲得</color>できます。",
       "zh_tw": "可愛魔術師的復古唱盤。\r\n播放出適合魔術秀的輕快音樂。\r\n\r\n配置在領地可<color=\"#2d9b00\">額外獲得戰利品金幣+15/分鐘</color>。",
       "zh_cn": "可爱魔术师的复古唱盘。\r\n播放出适合魔术秀的轻快音乐。\r\n\r\n配置在领地可<color=\"#2d9b00\">额外获得战利品金币+15/分钟</color>。"
     },
@@ -27276,7 +27476,7 @@
       "no": 2244103,
       "kr": "평범한 소녀에서, 당신만을 위한 메이드로 변신할 수 있는 특별한 공간.\r\n당연하지만, 훔쳐보기는 금지!\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 골드를 +15/분 추가로 획득</color>할 수 있습니다.",
       "en": "A special space where an ordinary girl can transform into your personal maid.\r\nNeedless to say, peeping is a definite no-no!\r\n\r\nPlace it in town to receive an <color=\"#2d9b00\">additional 15 Gold per minute in loot</color>.",
-      "ja": "",
+      "ja": "普通の女の子があなただけのメイドに変身できる特別な空間。\r\n当然、覗き見は禁止！\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品ゴールドを+15/分追加で獲得</color>できます。",
       "zh_tw": "一個特殊空間，可以從平凡少女變身成專屬於你的女僕。\r\n當然，禁止偷看！\r\n\r\n配置在領地可<color=\"#2d9b00\">額外獲得戰利品金幣+15/分鐘</color>。",
       "zh_cn": "一个特殊空间，可以从平凡少女变身成专属于你的女仆。\r\n当然，禁止偷看！\r\n\r\n配置在领地可<color=\"#2d9b00\">额外获得战利品金币+15/分钟</color>。"
     },
@@ -27284,7 +27484,7 @@
       "no": 2244104,
       "kr": "소연과 구원자가 세운 초콜릿 생산 공장. 비경 내부에 자리 잡고 있다.\r\n참고로, 현재 소연은 「나 혹시… 제이드 상단을 뛰어넘는 억만장자가 돼버리는 거 아냐? 대, 대성만두는 어떡하지?」라며 걱정하고 있다고 한다.\r\n…누군가는 진실을 이야기해 주는 게 좋겠지?\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">특별한 아르바이트를 진행</color>할 수 있습니다.\r\n\r\n소연을 오브제에 배치하면 <color=\"#2d9b00\">소연의 공격력이 10% 증가</color>합니다. \r\n(다른 오브제에 중복 배치 불가)",
       "en": "Xiaolian and Savior's chocolate factory, nestled within a Scenic Instance.\r\nBy the way, Xiaolian is fretting over the possibility of becoming a billionaire with their business surpassing the Jade's Merchants' Guild and wondering about what might happen with the Daesung Dumplings.\r\nMaybe...somebody should set the record straight.\r\n\r\nPlace it in town to unlock a <color=\"#2d9b00\">special part-time job</color>.\r\n\r\nDeploying Xiaolian to this structure will <color=\"#2d9b00\">increase Xiaolian's ATK by 10%</color>.\r\n(Each Soul can occupy only one structure.)",
-      "ja": "",
+      "ja": "シャオリンと救世主が建てたチョコレート工場。位置は秘境内。\r\nちなみにシャオリンは「ウチ…ジェイド商団を超えるお金持ちになるんじゃね？大成包子はどうしよう！」と心配しているらしい。\r\n…誰か真実を話してくれたほうがいいかも。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">特別なバイトを進行</color>できます。\r\n\r\nシャオリンをオブジェに配置すると、<color=\"#2d9b00\">シャオリンの攻撃力が10%増加</color>します。\r\n(他のオブジェに重ねて配置不可)",
       "zh_tw": "小蓮和救援者設立的巧克力生產工廠，位於祕境內部。\r\n順帶一提，據說小蓮現在在擔心「我會不會…變成超越潔依德商團的億萬富翁啊？大、大成包子怎麼辦？」\r\n…最好要有人告訴她真相吧？\r\n\r\n配置在領地可<color=\"#2d9b00\">進行特別的打工</color>。\r\n\r\n將小蓮配置於物件可<color=\"#2d9b00\">增加小蓮的攻擊力10%</color>。\r\n（不可重複配置在其他物件）",
       "zh_cn": "小莲和救援者设立的巧克力生产工厂，位于秘境内部。\r\n顺带一提，据说小莲现在在担心“我会不会……变成超越洁依德商团的亿万富翁啊？大、大成包子怎么办？”\r\n……最好要有人告诉她真相吧？\r\n\r\n配置在领地可<color=\"#2d9b00\">进行特别的打工</color>。\r\n\r\n将小莲配置于物件可<color=\"#2d9b00\">增加小莲的攻击力10%</color>。\r\n（不可重复配置在其他物件）"
     },
@@ -27292,7 +27492,7 @@
       "no": 2244105,
       "kr": "앤티크한 디자인의 디저트 카페 테이블.\r\n맛있어지는 주문은 특별한 서비스.",
       "en": "A dessert cafe table with an antique design.\r\nCasting a spell for taste perfection is part of a special service.",
-      "ja": "",
+      "ja": "アンティークなデザインのデザートカフェテーブル。\r\n美味しくなるおまじないは特別なサービス。",
       "zh_tw": "設計復古的甜點咖啡廳桌子。\r\n變美味的咒語是特殊服務。",
       "zh_cn": "设计复古的甜点咖啡厅桌子。\r\n变美味的咒语是特殊服务。"
     },
@@ -27300,7 +27500,7 @@
       "no": 2244106,
       "kr": "메이드가 주인님을 위해 준비한 고풍스러운 벨벳 소파.\r\n기꺼이 착석해 최고의 접대를 받아보자.",
       "en": "An elegant vintage velvet sofa prepared by the maid for the master.\r\nSit back and savor the epitome of refined service.",
-      "ja": "",
+      "ja": "メイドがご主人様のために用意した、アンティークなベルベットのソファ。\r\nゆったりと座って最高のおもてなしを受けてみよう。",
       "zh_tw": "女僕為主人準備的古色古香紅絲絨沙發。\r\n欣然入座，享受最高級的招待吧。",
       "zh_cn": "女仆为主人准备的古色古香红丝绒沙发。\r\n欣然入座，享受最高级的招待吧。"
     },
@@ -27308,7 +27508,7 @@
       "no": 2244107,
       "kr": "주인님을 위해 메이드가 애정을 듬뿍 담아 준비한 디저트 트레이.\r\n완벽한 티 타임을 위해 메이드는 오늘도 노력한다.",
       "en": "A dessert tray lovingly crafted by the maid for the master.\r\nThe maid works hard every day for a perfect tea time.",
-      "ja": "",
+      "ja": "メイドがご主人様のために愛情を込めて用意したデザートのトレイ。\r\n完璧なティータイムのために、メイドは今日も頑張っている。",
       "zh_tw": "女僕帶著滿滿愛意，為主人準備的甜點盤。\r\n女僕今天也在為了完美的下午茶努力。",
       "zh_cn": "女仆带着满满爱意，为主人准备的甜点盘。\r\n女仆今天也在为了完美的下午茶努力。"
     },
@@ -27316,7 +27516,7 @@
       "no": 2244108,
       "kr": "앤티크한 디자인의 카페 진열대.\r\n보는 것만으로도 달콤한 향기가 느껴지는 디저트들이 잔뜩 진열되어 있다.",
       "en": "A cafe display case with an antique design.\r\nOverflows with desserts whose sweet aromas fill the air.",
-      "ja": "",
+      "ja": "アンティークなデザインのカフェの陳列棚。\r\n見ているだけで甘い香りが感じられるデザートがたくさん並んでいる。",
       "zh_tw": "設計復古的咖啡廳展示櫃。\r\n展示著滿滿的甜點，光是看著就能感受到甜美香氣。",
       "zh_cn": "设计复古的咖啡厅展示柜。\r\n展示着满满的甜点，光是看着就能感受到甜美香气。"
     },
@@ -27324,7 +27524,7 @@
       "no": 2244109,
       "kr": "초콜릿 봉봉이 들어있는 귀여운 상자.\r\n모양도 맛도 완벽하다.",
       "en": "A cute box containing chocolate bonbons.\r\nFlawless in design and divine in taste.",
-      "ja": "",
+      "ja": "ボンボンショコラが入っている可愛い箱。\r\n形も味も完璧。",
       "zh_tw": "裝有夾心巧克力的可愛箱子。\r\n外觀跟味道都十分完美。",
       "zh_cn": "装有夹心巧克力的可爱箱子。\r\n外观跟味道都十分完美。"
     },
@@ -28014,6 +28214,14 @@
       "en": "A round table of rice cakes offered to the distinguished guests of the festival.\r\nIt features an array of refined desserts unique to Gaon.",
       "ja": "",
       "zh_tw": "為參加慶典的貴賓所準備的圓形年糕桌子。\r\n擺滿了只有在加溫才能嚐到的高級甜點。",
+      "zh_cn": ""
+    },
+    {
+      "no": 2244820,
+      "kr": "로제의 마음이 만들어 낸 시계탑. \r\n세계의 규율을 깨뜨리고, 기록되지 않은 미래를 관측하려는 자의 염원이 담겨 있다.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">특별한 아르바이트를 진행</color>할 수 있습니다.\r\n\r\n로제(홍염)을 오브제에 배치하면 <color=\"#2d9b00\">로제(홍염)의 공격력이 10% 증가</color>합니다. \r\n(다른 오브제에 중복 배치 불가)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -29121,6 +29329,14 @@
       "zh_cn": "贴纸：珍贵的艾琳"
     },
     {
+      "no": 21511501,
+      "kr": "스티커: 소중한 로제(홍염)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 21520101,
       "kr": "스티커: 소중한 홍란",
       "en": "Sticker: Precious Honglan",
@@ -29671,6 +29887,14 @@
       "ja": "エイリーンの絆Lv40達成時に\r\n獲得できるステッカー",
       "zh_tw": "達成艾琳好感等級40時可獲得的貼紙。",
       "zh_cn": "达成艾琳好感等级40时可获得的贴纸。"
+    },
+    {
+      "no": 22511501,
+      "kr": "로제(홍염)의 인연 레벨 40 달성 시 획득 가능한 스티커.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
     },
     {
       "no": 22520101,

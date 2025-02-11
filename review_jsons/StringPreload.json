@@ -444,7 +444,7 @@
       "no": 61,
       "kr": "중국",
       "en": "China",
-      "ja": "",
+      "ja": "中国",
       "zh_tw": "中國",
       "zh_cn": "永恒灵魂"
     },
@@ -452,7 +452,7 @@
       "no": 62,
       "kr": "<color=\"#ffba15\">사용자 계약</color> 및 <color=\"#ffba15\">개인 정보 보호 계약</color>을 읽고 동의했습니다",
       "en": "",
-      "ja": "",
+      "ja": "<color=\"#ffba15\">ユーザー契約</color>および<color=\"#ffba15\">個人情報保護契約</color>を読んで同意しました。",
       "zh_tw": "",
       "zh_cn": "我已详细阅读并同意<color=\"#ffba15\">用户协议</color>和<color=\"#ffba15\">隐私保护协议</color>"
     },
@@ -460,7 +460,7 @@
       "no": 63,
       "kr": "개인 정보 보호 정책",
       "en": "",
-      "ja": "",
+      "ja": "個人情報保護方針",
       "zh_tw": "",
       "zh_cn": "隐私政策"
     },
@@ -468,7 +468,7 @@
       "no": 64,
       "kr": "개인 정보 보호 권한 초기화",
       "en": "",
-      "ja": "",
+      "ja": "個人情報保護権限のリセット",
       "zh_tw": "",
       "zh_cn": "隐私授权初始化"
     },
@@ -476,7 +476,7 @@
       "no": 65,
       "kr": "개인 정보 보호 정책에 대한 승인을 철회하려고 합니다.\r\n확인되면 게임에 들어가기 전에 클라이언트를 다시 시작하고 개인 정보 보호 정책을 다시 확인해야 합니다.",
       "en": "",
-      "ja": "",
+      "ja": "個人情報保護方針への承認を撤退します。\r\n確認が完了すると、ゲームを開始する前にクライアントを再起動し、個人情報保護方針を再確認します。",
       "zh_tw": "",
       "zh_cn": "您正在尝试撤回您对隐私政策的授权\r\n若确认，您需要重启客户端，并重新确认隐私政策内容后才可进入游戏"
     },
@@ -484,7 +484,7 @@
       "no": 66,
       "kr": "동의하고 아래의 \"사용자 계약 및 개인 정보 보호 계약\"을 선택하여 게임에 참여하십시오.",
       "en": "",
-      "ja": "",
+      "ja": "同意し、以下の「ユーザー契約および個人情報保護契約」を選択してゲームに参加してください。",
       "zh_tw": "",
       "zh_cn": "请同意并勾选下方《用户协议及隐私保护协议》方可进入游戏"
     },
@@ -1418,11 +1418,11 @@
     },
     {
       "no": 1317,
-      "kr": "음성 변경을 위해 일본어 보이스 다운로드가 필요합니다.\r\n필요 데이터를 다운로드 하시겠습니까?\r\n<color=\"#ff3739\"><size=16>Wi-Fi 환경에서 다운로드하시기를 권장합니다.</size></color>",
-      "en": "Japanese voice data needs to be downloaded for the voice change.\r\nDownload the necessary data?\r\n<color=\"#ff3739\"><size=16>Downloading over Wi-Fi is recommended.</size></color>",
-      "ja": "ボイス変更のため、日本語ボイスのダウンロードが必要です。\r\n必要なデータをダウンロードしますか？\r\n<color=\"#ff3739\"><size=16>Wi-Fi環境でのダウンロードをお勧めします。</size></color>",
-      "zh_tw": "變更須下載日文語音。\r\n確定要下載所需資料嗎？\r\n<color=\"#ff3739\"><size=16>建議在Wi-Fi環境下進行下載。</size></color>",
-      "zh_cn": "变更须下载日文语音。\r\n确定要下载所需资料吗？\r\n<color=\"#ff3739\"><size=16>建议在Wi-Fi环境下进行下载。</size></color>"
+      "kr": "음성 변경을 위해 보이스 다운로드가 필요합니다.\r\n필요 데이터를 다운로드 하시겠습니까?\r\n<color=\"#ff3739\"><size=16>Wi-Fi 환경에서 다운로드하시기를 권장합니다.</size></color>",
+      "en": "Voice data needs to be downloaded for the voice change.\r\nDownload the necessary data?\r\n<color=\"#ff3739\"><size=16>Downloading over Wi-Fi is recommended.</size></color>",
+      "ja": "ボイス変更のため、ボイスのダウンロードが必要です。\r\n必要なデータをダウンロードしますか？\r\n<color=\"#ff3739\"><size=16>Wi-Fi環境でのダウンロードをお勧めします。</size></color>",
+      "zh_tw": "變更須下載語音。\r\n確定要下載所需資料嗎？\r\n<color=\"#ff3739\"><size=16>建議在Wi-Fi環境下進行下載。</size></color>",
+      "zh_cn": "变更须下载语音。\r\n确定要下载所需资料吗？\r\n<color=\"#ff3739\"><size=16>建议在Wi-Fi环境下进行下载。</size></color>"
     },
     {
       "no": 1318,
