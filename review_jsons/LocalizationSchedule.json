@@ -492,7 +492,7 @@
       "index": 62,
       "schedule_key": "Cashshop_Heropass_RoseCrimson",
       "schedule_type": 1,
-      "start_date": "2025-02-11 00:00:00",
+      "start_date": "2025-02-13 00:00:00",
       "end_date": "2025-03-20 00:00:00",
       "value_date01": ""
     },
@@ -740,7 +740,7 @@
       "index": 93,
       "schedule_key": "Cashshop_Pickup_RoseCrimson",
       "schedule_type": 1,
-      "start_date": "2025-02-11 00:00:00",
+      "start_date": "2025-02-13 00:00:00",
       "end_date": "2025-03-06 00:00:00",
       "value_date01": ""
     },
@@ -1252,7 +1252,7 @@
       "index": 157,
       "schedule_key": "Cashshop_Bundle_Side_RoseCrimson",
       "schedule_type": 1,
-      "start_date": "2025-02-11 00:00:00",
+      "start_date": "2025-02-13 00:00:00",
       "end_date": "2025-03-05 23:00:00",
       "value_date01": ""
     },
@@ -1260,7 +1260,7 @@
       "index": 158,
       "schedule_key": "Cashshop_Event_Side_RoseCrimson",
       "schedule_type": 1,
-      "start_date": "2025-02-11 00:00:00",
+      "start_date": "2025-02-13 00:00:00",
       "end_date": "2025-03-05 23:00:00",
       "value_date01": ""
     },
@@ -2900,9 +2900,9 @@
       "index": 40007,
       "schedule_key": "EventInfo_RoseSideEvent_Pass",
       "schedule_type": 4,
-      "start_date": "2025-02-11 00:00:00",
-      "end_date": "2025-03-06 00:00:00",
-      "value_date01": "2025-03-06 00:00:00"
+      "start_date": "2025-01-22 00:00:00",
+      "end_date": "2025-02-09 00:00:00",
+      "value_date01": "2025-02-09 00:00:00"
     },
     {
       "index": 40008,
