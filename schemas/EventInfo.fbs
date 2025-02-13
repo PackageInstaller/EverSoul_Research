@@ -2,7 +2,8 @@ namespace EventInfo;
 
 table Deserialization {
     no: int32;
-    seasonal: int32;
+    category_type: int32;
+    show_list: int32;
     event_type: int32;
     group: int32;
     event_number: int32;

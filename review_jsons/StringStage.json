@@ -606,7 +606,7 @@
       "en": "All enemies' HP is doubled, their DEF is increased by 100%, and stat decrease effects are 100% amplified.\r\n(Stats: ATK/DEF/HP/Crit Rate/Crit DMG/Accuracy/Evasion/Physical Resistance/Magic Resistance/Life Steal/Speed)",
       "ja": "敵全員の体力が2倍、防御力が100%増加し、能力値減少効果が100%増加して適用される。\r\n(能力値：攻撃力/防御力/体力/クリティカル率/クリティカル威力/命中/回避/物理抵抗/魔法抵抗/吸血/加速)",
       "zh_tw": "所有敵人體力變為2倍、防禦力增加100%，能力值減少效果增幅100%。\r\n（能力值：攻擊力／防禦力／體力／暴擊率／暴擊威力／命中／迴避／物理抵抗／魔法抵抗／噬血／加速）",
-      "zh_cn": "所有敌人体力变为2倍、防御力增加100%，能力值减少效果增幅100%。\r\n（能力值：攻击力／防御力／体力／暴击率／暴击威力／命中／回避／物理抵抗／魔法抵抗／生命吸取／加速）"
+      "zh_cn": "所有敌人体力变为2倍、防御力增加100%，能力值减少效果增幅100%。\r\n（能力值：攻击力／防御力／体力／会心率／会心威力／命中／回避／物理抵抗／魔法抵抗／生命吸取／加速）"
     },
     {
       "no": 2036,
@@ -614,7 +614,7 @@
       "en": "All enemies' HP is doubled, their ATK is increased by 100%, DEF is increased by 150%, and stat decrease effects are 100% amplified.\r\n(Stats: ATK/DEF/HP/Crit Rate/Crit DMG/Accuracy/Evasion/Physical Resistance/Magic Resistance/Life Steal/Speed)",
       "ja": "敵全員の体力が2倍、攻撃力が100%、防御力が150%増加し、能力値減少効果が100%増加して適用される。\r\n(能力値：攻撃力/防御力/体力/クリティカル率/クリティカル威力/命中/回避/物理抵抗/魔法抵抗/吸血/加速)",
       "zh_tw": "所有敵人體力變為2倍、攻擊力增加100%、防禦力增加150%，能力值減少效果增幅100%。\r\n（能力值：攻擊力／防禦力／體力／暴擊率／暴擊威力／命中／迴避／物理抵抗／魔法抵抗／噬血／加速）",
-      "zh_cn": "所有敌人体力变为2倍、攻击力增加100%、防御力增加150%，能力值减少效果增幅100%。\r\n（能力值：攻击力／防御力／体力／暴击率／暴击威力／命中／回避／物理抵抗／魔法抵抗／生命吸取／加速）"
+      "zh_cn": "所有敌人体力变为2倍、攻击力增加100%、防御力增加150%，能力值减少效果增幅100%。\r\n（能力值：攻击力／防御力／体力／会心率／会心威力／命中／回避／物理抵抗／魔法抵抗／生命吸取／加速）"
     },
     {
       "no": 2037,
@@ -2003,17 +2003,17 @@
     {
       "no": 419094,
       "kr": "VS 심상세계의 로제",
-      "en": "",
+      "en": "Vs. Rose(Imaginary World)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "VS 心理世界的蘿絲",
       "zh_cn": ""
     },
     {
       "no": 419095,
       "kr": "심상세계의 로제",
-      "en": "",
+      "en": "Vs. Rose(Imaginary World)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "VS 心理世界的蘿絲",
       "zh_cn": ""
     },
     {
@@ -2307,9 +2307,9 @@
     {
       "no": 500032,
       "kr": "별의 등대",
-      "en": "",
+      "en": "The Lighthouse of the Stars",
       "ja": "星の灯台",
-      "zh_tw": "",
+      "zh_tw": "星之燈塔",
       "zh_cn": ""
     },
     {
@@ -2563,9 +2563,9 @@
     {
       "no": 501032,
       "kr": "트로이카 왕국 해역에 위치한 등대.\r\n이 인근의 거친 해류와 풍랑은 바다의 신이 잠들어 있기 때문이라는 전설이 있다.\r\n\r\n트로이카를 건국한 만물왕이 아우렐리아와 협력하며 교류를 다지기 위해 세운 것으로 알려져 있다.\r\n바닷길을 밝히는 등대이면서도 바닷물에 녹아 있는 마나를 정제해 마력으로 가공하는 발전소의 역할 또한 겸하고 있었으나, 만물왕이 잠든 순간부터 가동을 멈추었다.\r\n\r\n그러나 가동을 멈춘 지금도 등대는 하늘을 향해 강렬한 빛을 내뿜고 있다.\r\n무수한 생명이 공존하는 바다의 중심에서, 등대는 과연 무엇을 위해 아직도 불을 밝히고 있는 것일까…",
-      "en": "",
+      "en": "A lighthouse standing in the waters of the Kingdom of Troyca.\r\nLegends whisper that the fierce waves and treacherous currents here exist because the god of the sea slumbers beneath them.\r\n\r\nIt is said that the Queen of All Things, the founder of Troyca, built this lighthouse in collaboration with Aurelia to strengthen their ties.\r\nIt once refined mana from seawater into magical energy, serving as a power plant. Yet, when the Queen of All Things fell into slumber, its machinery stopped working.\r\n\r\nStill, even now, the lighthouse pierces the sky with its unwavering brilliance.\r\nIn the heart of the ever-changing sea, where countless lives intertwine, what purpose does its undying light still serve...?",
       "ja": "煉獄への道マップ説明",
-      "zh_tw": "",
+      "zh_tw": "位於特羅伊卡王國海域的燈塔。\r\n據傳這附近的湍急海流與洶湧風浪是因為有海洋之神沉睡於此。\r\n\r\n聽說是建設特羅伊卡的萬物之王建來與奧里利亞合作交流的。\r\n它是照亮海面的燈塔，同時也兼具發電廠的作用，將融在海裡的魔力來源精煉，加工成魔力，但自從萬物之王沉睡的瞬間起就停止運轉。\r\n\r\n然而停止運轉的現在，燈塔仍朝天空發射著強光。\r\n在無數生命共存的海洋中心，燈塔究竟是為了什麼，至今仍閃爍著燈光呢…",
       "zh_cn": ""
     },
     {

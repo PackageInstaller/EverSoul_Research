@@ -5059,8 +5059,7 @@
       "stat_sno": 110041,
       "specific_target": 1150,
       "skillcode1": 703551,
-      "skillcode2": 703552,
-      "skillcode3": 703553
+      "skillcode2": 703552
     },
     {
       "no": 7356,
@@ -5945,6 +5944,22 @@
       "stat_sno": 110041,
       "target": 1,
       "skillcode1": 950500
+    },
+    {
+      "no": 9506,
+      "ally_sno": 110302,
+      "race_sno": 110051,
+      "stat_sno": 110041,
+      "target": 1,
+      "skillcode1": 950600
+    },
+    {
+      "no": 9507,
+      "ally_sno": 110302,
+      "race_sno": 110051,
+      "stat_sno": 110041,
+      "target": 1,
+      "skillcode1": 950700
     }
   ]
 }

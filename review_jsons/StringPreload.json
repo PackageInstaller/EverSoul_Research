@@ -422,7 +422,7 @@
       "en": "Tips for Healthy Gaming\r\nSay no to harmful games and pirated software.\r\nGaming in moderation can stimulate the mind, but excessive play takes a toll on your health.\r\nStay vigilant about personal safety and watch out for potential scams.\r\nManage your time wisely and maintain a healthy life.",
       "ja": "健康的なゲームのためのアドバイス\r\n悪いゲームに抵抗し、海賊版ゲームを拒否します。\r\n適当なゲームプレイは脳に有益ですが、ゲームに没頭しすぎると体を壊す場合があります。\r\n自分の保護に注意を払い、騙されないように気をつけてください。\r\n時間を合理的に分配し、健康な生活を送りましょう。",
       "zh_tw": "健康遊戲宣導\r\n抵制有害遊戲，拒絕盜版遊戲。\r\n適度遊戲對頭腦有益，但過度沉溺有害身體健康。\r\n請注意自我保護，小心受騙。\r\n合理分配時間，享受健康生活。",
-      "zh_cn": "健康游戏忠告\r\n抵制不良游戏，拒绝盗版游戏。适度游戏益脑，沉迷游戏伤身。注意自我保护，谨防受骗上当。合理安排时间，享受健康生活。"
+      "zh_cn": "健康游戏忠告\r\n抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。"
     },
     {
       "no": 59,
@@ -451,41 +451,41 @@
     {
       "no": 62,
       "kr": "<color=\"#ffba15\">사용자 계약</color> 및 <color=\"#ffba15\">개인 정보 보호 계약</color>을 읽고 동의했습니다",
-      "en": "",
+      "en": "I have read and agreed to the <color=\"#ffba15\">User Agreement</color> and <color=\"#ffba15\">Privacy Policy</color>.",
       "ja": "<color=\"#ffba15\">ユーザー契約</color>および<color=\"#ffba15\">個人情報保護契約</color>を読んで同意しました。",
-      "zh_tw": "",
+      "zh_tw": "已閱讀並同意<color=\"#ffba15\">使用者條款</color>及<color=\"#ffba15\">隱私權政策</color>",
       "zh_cn": "我已详细阅读并同意<color=\"#ffba15\">用户协议</color>和<color=\"#ffba15\">隐私保护协议</color>"
     },
     {
       "no": 63,
       "kr": "개인 정보 보호 정책",
-      "en": "",
+      "en": "Privacy Policy",
       "ja": "個人情報保護方針",
-      "zh_tw": "",
+      "zh_tw": "隱私權政策",
       "zh_cn": "隐私政策"
     },
     {
       "no": 64,
       "kr": "개인 정보 보호 권한 초기화",
-      "en": "",
+      "en": "Reset Privacy Policy Agreement",
       "ja": "個人情報保護権限のリセット",
-      "zh_tw": "",
+      "zh_tw": "重置隱私權權限",
       "zh_cn": "隐私授权初始化"
     },
     {
       "no": 65,
       "kr": "개인 정보 보호 정책에 대한 승인을 철회하려고 합니다.\r\n확인되면 게임에 들어가기 전에 클라이언트를 다시 시작하고 개인 정보 보호 정책을 다시 확인해야 합니다.",
-      "en": "",
+      "en": "You are about to revoke your agreement to the Privacy Policy.\r\nUpon confirmation, the client must be restarted, and the Privacy Policy must be reviewed again before accessing the game.",
       "ja": "個人情報保護方針への承認を撤退します。\r\n確認が完了すると、ゲームを開始する前にクライアントを再起動し、個人情報保護方針を再確認します。",
-      "zh_tw": "",
+      "zh_tw": "將取消同意隱私權政策。\r\n確認後進入遊戲前將重啟用戶端，須重新確認隱私權政策。",
       "zh_cn": "您正在尝试撤回您对隐私政策的授权\r\n若确认，您需要重启客户端，并重新确认隐私政策内容后才可进入游戏"
     },
     {
       "no": 66,
       "kr": "동의하고 아래의 \"사용자 계약 및 개인 정보 보호 계약\"을 선택하여 게임에 참여하십시오.",
-      "en": "",
+      "en": "To proceed, agree and select \"User Agreement and Privacy Policy\" below to start playing.",
       "ja": "同意し、以下の「ユーザー契約および個人情報保護契約」を選択してゲームに参加してください。",
-      "zh_tw": "",
+      "zh_tw": "請同意並勾選下方「使用者條款與隱私權政策」後進入遊戲。",
       "zh_cn": "请同意并勾选下方《用户协议及隐私保护协议》方可进入游戏"
     },
     {
@@ -1766,7 +1766,7 @@
       "en": "Evertalk Skip feature activated\r\n<size=20>(Only applies when you Restart Love Story.)</size>",
       "ja": "エバートークスキップ機能活性化\r\n<size=20>(絆ストーリーリプレイにのみ適用)</size>",
       "zh_tw": "啟用Ever Talk略過功能\r\n<size=20>（僅適用重新進行好感故事）</size>",
-      "zh_cn": "精灵通信略过功能\r\n<size=20>（仅适用重新进行好感故事）</size>"
+      "zh_cn": "精灵通信跳过功能\r\n<size=20>（仅适用重新进行好感故事）</size>"
     }
   ]
 }

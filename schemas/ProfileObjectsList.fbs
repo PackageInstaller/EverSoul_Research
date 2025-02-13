@@ -5,7 +5,6 @@ table Deserialization {
     group_no: int32;
     img_path: string;
     item_no: int32;
-    sticker_point: int32;
 }
 
 table ProfileObjectsList {

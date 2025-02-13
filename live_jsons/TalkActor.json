@@ -737,6 +737,7 @@
       "costume_path": "",
       "controller_path": "",
       "portrait_reverse": 1,
+      "position_y": -0.05,
       "position_scale": 1.0
     },
     {
@@ -748,6 +749,7 @@
       "costume_path": "RoseCrimson_Costume01",
       "controller_path": "",
       "portrait_reverse": 1,
+      "position_y": -0.05,
       "position_scale": 1.0
     },
     {
@@ -759,6 +761,7 @@
       "costume_path": "RoseCrimson_Costume02",
       "controller_path": "",
       "portrait_reverse": 1,
+      "position_y": -0.05,
       "position_scale": 1.0
     },
     {
@@ -1673,6 +1676,17 @@
       "portrait512_path": "UI/Textures/Souls/Chloe/Chloe_Costume03_512",
       "portrait128_path": "UI/Textures/Souls/Chloe/Chloe_Costume03_512",
       "costume_path": "Chloe_Costume03",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
+      "no": 3104,
+      "name_sno": 303100,
+      "prefab_path": "Chloe",
+      "portrait512_path": "UI/Textures/Souls/Chloe/Chloe_Costume04_512",
+      "portrait128_path": "UI/Textures/Souls/Chloe/Chloe_Costume04_512",
+      "costume_path": "Chloe_Costume04",
       "controller_path": "",
       "portrait_reverse": 1,
       "position_scale": 1.0
@@ -4937,7 +4951,7 @@
       "no": 9215,
       "name_sno": 250215,
       "prefab_path": "",
-      "portrait512_path": "UI/Textures/Etc/NPC_UnknownMan_512",
+      "portrait512_path": "UI/Textures/Etc/NPC_UnknownWoman_512",
       "portrait128_path": "",
       "costume_path": "",
       "controller_path": "",
@@ -4947,7 +4961,7 @@
       "no": 9216,
       "name_sno": 250216,
       "prefab_path": "",
-      "portrait512_path": "UI/Textures/Etc/NPC_UnknownWoman2_512",
+      "portrait512_path": "UI/Textures/Etc/NPC_UnknownGirl_512",
       "portrait128_path": "",
       "costume_path": "",
       "controller_path": "",
@@ -4957,7 +4971,7 @@
       "no": 9217,
       "name_sno": 250217,
       "prefab_path": "",
-      "portrait512_path": "UI/Textures/Etc/NPC_UnknownMan_512",
+      "portrait512_path": "UI/Textures/Etc/NPC_UnknownWoman2_512",
       "portrait128_path": "",
       "costume_path": "",
       "controller_path": "",
@@ -10026,6 +10040,28 @@
       "portrait128_path": "",
       "costume_path": "",
       "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9713,
+      "name_sno": 259999,
+      "prefab_path": "Chloe",
+      "portrait512_path": "UI/Textures/Souls/Chloe/Chloe_Costume04_512",
+      "portrait128_path": "UI/Textures/Souls/Chloe/Chloe_Costume04_512",
+      "costume_path": "Chloe_Costume04",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
+      "no": 9714,
+      "name_sno": 259999,
+      "prefab_path": "RoseCrimson",
+      "portrait512_path": "UI/Textures/Souls/RoseCrimson/RoseCrimson_Costume02_512",
+      "portrait128_path": "UI/Textures/Souls/RoseCrimson/RoseCrimson_Costume02_128",
+      "costume_path": "RoseCrimson_Costume02",
+      "controller_path": "",
+      "portrait_reverse": 1,
       "position_scale": 1.0
     },
     {

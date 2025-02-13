@@ -211,6 +211,11 @@
       "prefab": "Lobby/PMap_Lobby_GaonNewYear_01"
     },
     {
+      "no": 5281,
+      "icon_path": "bg_RoseCrimson_01",
+      "prefab": "Lobby/PMap_Lobby_RoseCrimson_01"
+    },
+    {
       "no": 5400,
       "icon_path": "bg_Ark_01",
       "prefab": "Lobby/PMap_Lobby_Ark_01"

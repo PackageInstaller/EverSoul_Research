@@ -1201,6 +1201,28 @@
       "block_back": 1
     },
     {
+      "no": 4150,
+      "type": "OnUIActive",
+      "extra_condition": "ShowUntil",
+      "condition_params": "4200",
+      "is_win_battle": 1,
+      "trigger_ui": "UI_FORMATIONBUFF",
+      "formation": "0, 0, 0, 0, 0",
+      "button_name": "",
+      "item_no": "0",
+      "item_amount": "0",
+      "action": "0",
+      "action_params": "0",
+      "camera": "",
+      "camera_target": "",
+      "open_ui": "",
+      "add_fairy_no": "0",
+      "active_objects": "TutorialTypeBuff",
+      "unactive_objects": "",
+      "is_skippable": 1,
+      "block_back": 1
+    },
+    {
       "no": 4200,
       "type": "OnUIClosed",
       "extra_condition": "ShowSince, ShowUntil",
@@ -1218,7 +1240,7 @@
       "open_ui": "",
       "add_fairy_no": "0",
       "active_objects": "TutorialTribe01",
-      "unactive_objects": "",
+      "unactive_objects": "TutorialTypeBuff",
       "block_back": 1
     },
     {
@@ -5259,7 +5281,7 @@
       "open_ui": "",
       "add_fairy_no": "0",
       "active_objects": "TutorialAlchemyGacha",
-      "unactive_objects": "TutorialAlchemyWish",
+      "unactive_objects": "TutorialAlchemyWish, TutorialAlchemist",
       "is_skippable": 1,
       "block_back": 1
     },
@@ -5281,7 +5303,7 @@
       "open_ui": "",
       "add_fairy_no": "0",
       "active_objects": "",
-      "unactive_objects": "TutorialAlchemyGacha",
+      "unactive_objects": "TutorialAlchemyGacha, TutorialAlchemist",
       "is_skippable": 1,
       "block_back": 1
     },

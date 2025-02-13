@@ -825,6 +825,17 @@
       "controller_path": "Brigitte"
     },
     {
+      "no": 2076,
+      "type_sno": 520102,
+      "name_sno": 520176,
+      "hero_no": 1150,
+      "prefab_path": "RoseCrimson",
+      "timeline_path": "RoseCrimson",
+      "icon_path": "RoseCrimson_Icon_Costume_00",
+      "portrait_path": "RoseCrimson",
+      "controller_path": "RoseCrimson"
+    },
+    {
       "no": 2201,
       "type_sno": 710000,
       "name_sno": 520401,
@@ -2552,6 +2563,39 @@
       "controller_path": "Edith"
     },
     {
+      "no": 2359,
+      "type_sno": 710011,
+      "name_sno": 520559,
+      "hero_no": 1150,
+      "prefab_path": "RoseCrimson_Costume01",
+      "timeline_path": "RoseCrimson_Costume01",
+      "icon_path": "RoseCrimson_Icon_Costume_01",
+      "portrait_path": "RoseCrimson_Costume01",
+      "controller_path": "RoseCrimson"
+    },
+    {
+      "no": 2360,
+      "type_sno": 710012,
+      "name_sno": 520560,
+      "hero_no": 1150,
+      "prefab_path": "RoseCrimson_Costume02",
+      "timeline_path": "RoseCrimson_Costume02",
+      "icon_path": "RoseCrimson_Icon_Costume_02",
+      "portrait_path": "RoseCrimson_Costume02",
+      "controller_path": "RoseCrimson"
+    },
+    {
+      "no": 2361,
+      "type_sno": 710009,
+      "name_sno": 520561,
+      "hero_no": 3100,
+      "prefab_path": "Chloe_Costume04",
+      "timeline_path": "Chloe_Costume04",
+      "icon_path": "Chloe_Icon_Costume_04",
+      "portrait_path": "Chloe_Costume04",
+      "controller_path": "Chloe"
+    },
+    {
       "no": 2700,
       "prefab_path": "Apprentice",
       "timeline_path": "Apprentice",
@@ -2603,7 +2647,7 @@
       "no": 2706,
       "prefab_path": "Sharing",
       "timeline_path": "Sharing",
-      "icon_path": "",
+      "icon_path": "2",
       "portrait_path": "Sharing",
       "controller_path": ""
     },
@@ -3413,6 +3457,14 @@
       "timeline_path": "Ricecakelong",
       "icon_path": "",
       "portrait_path": "Ricecakelong",
+      "controller_path": ""
+    },
+    {
+      "no": 2808,
+      "prefab_path": "RoseCrimson_Costume02",
+      "timeline_path": "RoseCrimson_Costume02",
+      "icon_path": "",
+      "portrait_path": "RoseCrimson_SideEvent",
       "controller_path": ""
     },
     {

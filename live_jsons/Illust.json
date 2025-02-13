@@ -1766,6 +1766,16 @@
       "hero_check": 1140
     },
     {
+      "no": 11501,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2115004,
+      "thumbnail_path": "Codex_Talk_Event_RoseCrimson_01",
+      "bg_movie_path": "Story/Love/RoseCrimson/04_ADDON/Talk_Event_RoseCrimson_01",
+      "lobby": 1,
+      "hero_check": 1150
+    },
+    {
       "no": 20101,
       "category": 2,
       "open_type": 2,
@@ -5034,6 +5044,56 @@
       "lobby": 1
     },
     {
+      "no": 90003,
+      "category": 3,
+      "open_type": 1,
+      "open_condition": 6006,
+      "thumbnail_path": "Codex_Event_Contest_01",
+      "bg_movie_path": "Story/Event/EventMovie/Video/Talk_Event_Contest_01",
+      "lobby": 1,
+      "hero_check": -1
+    },
+    {
+      "no": 90004,
+      "category": 3,
+      "open_type": 1,
+      "open_condition": 6007,
+      "thumbnail_path": "Codex_Event_Contest_02",
+      "bg_movie_path": "Story/Event/EventMovie/Video/Talk_Event_Contest_02",
+      "lobby": 1,
+      "hero_check": -1
+    },
+    {
+      "no": 90005,
+      "category": 3,
+      "open_type": 1,
+      "open_condition": 6008,
+      "thumbnail_path": "Codex_Event_Contest_03",
+      "bg_movie_path": "Story/Event/EventMovie/Video/Talk_Event_Contest_03",
+      "lobby": 1,
+      "hero_check": -1
+    },
+    {
+      "no": 90006,
+      "category": 3,
+      "open_type": 1,
+      "open_condition": 6009,
+      "thumbnail_path": "Codex_Event_Contest_04",
+      "bg_movie_path": "Story/Event/EventMovie/Video/Talk_Event_Contest_04",
+      "lobby": 1,
+      "hero_check": -1
+    },
+    {
+      "no": 90007,
+      "category": 3,
+      "open_type": 1,
+      "open_condition": 6010,
+      "thumbnail_path": "Codex_Event_Contest_05",
+      "bg_movie_path": "Story/Event/EventMovie/Video/Talk_Event_Contest_05",
+      "lobby": 1,
+      "hero_check": -1
+    },
+    {
       "no": 90101,
       "category": 3,
       "open_type": 2,
@@ -5571,6 +5631,15 @@
       "open_condition": 250115,
       "thumbnail_path": "Codex_Talk_Event_250102",
       "bg_movie_path": "Story/Event/2501_NewYears/05_ADDON/Talk_Event_250102",
+      "lobby": 1
+    },
+    {
+      "no": 92101,
+      "category": 3,
+      "open_type": 2,
+      "open_condition": 250222,
+      "thumbnail_path": "Codex_Talk_Event_250201",
+      "bg_movie_path": "Story/Event/2502_RoseSideEvent/12_ADDON/Talk_Event_250201",
       "lobby": 1
     }
   ]

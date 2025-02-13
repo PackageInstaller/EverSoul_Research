@@ -47,6 +47,30 @@
       "content_string_no": 359503,
       "icon_path": "icon_eas_attack_up_2",
       "value1": 9503
+    },
+    {
+      "no": 7,
+      "event_group": 3,
+      "title_string_no": 349505,
+      "content_string_no": 359505,
+      "icon_path": "icon_eas_fury",
+      "value1": 9505
+    },
+    {
+      "no": 8,
+      "event_group": 3,
+      "title_string_no": 349506,
+      "content_string_no": 359506,
+      "icon_path": "icon_eas_time",
+      "value1": 9506
+    },
+    {
+      "no": 9,
+      "event_group": 3,
+      "title_string_no": 349507,
+      "content_string_no": 359507,
+      "icon_path": "icon_eas_burn",
+      "value1": 9507
     }
   ]
 }

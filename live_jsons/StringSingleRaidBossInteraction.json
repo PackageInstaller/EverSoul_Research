@@ -393,6 +393,34 @@
       "talk_string": 325050045
     },
     {
+      "no": 50051,
+      "hero_no": 9929,
+      "sound_path": "CatherineRaid_325050046",
+      "delay": 10.0,
+      "talk_string": 325050046
+    },
+    {
+      "no": 50052,
+      "hero_no": 1150,
+      "sound_path": "RoseCrimson_325050047",
+      "delay": 5.0,
+      "talk_string": 325050047
+    },
+    {
+      "no": 50053,
+      "hero_no": 9929,
+      "sound_path": "CatherineRaid_325050048",
+      "delay": 8.0,
+      "talk_string": 325050048
+    },
+    {
+      "no": 50054,
+      "hero_no": 1150,
+      "sound_path": "RoseCrimson_325050049",
+      "delay": 7.0,
+      "talk_string": 325050049
+    },
+    {
       "no": 60011,
       "hero_no": 5020,
       "sound_path": "Adrianne_30000061_1",

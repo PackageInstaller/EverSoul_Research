@@ -1,0 +1,16 @@
+namespace CashShopGrowPack;
+
+table Deserialization {
+    no: int32;
+    order: int32;
+    type: int32;
+    name_sno: int32;
+    state_string_sno1: int32;
+    state_string_sno2: int32;
+}
+
+table CashShopGrowPack {
+    json: [Deserialization];
+}
+
+root_type CashShopGrowPack;

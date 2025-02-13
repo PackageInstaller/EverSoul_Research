@@ -47,15 +47,15 @@
       "help_desc_sno": 110618,
       "challenge_no1": 1028,
       "challenge_bonus1": 0.5,
-      "challenge_no2": 1010,
+      "challenge_no2": 1011,
       "challenge_bonus2": 0.25,
-      "challenge_no3": 1009,
+      "challenge_no3": 1012,
       "challenge_bonus3": 0.25,
       "bg_path": "RoseCrimson_SideEvent",
       "bg_position": "[-50,-300,0]",
       "event_bg_path": "RoseSideEvent/bg_singleraid_SideEventRose",
-      "sound_path": "BGM_2025Newyear_Battle",
-      "open_date": "2025-01-23 00:00:00"
+      "sound_path": "BGM_RoseEvent_Battle",
+      "open_date": "2025-02-13 00:00:00"
     }
   ]
 }

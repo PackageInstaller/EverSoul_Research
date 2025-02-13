@@ -217,6 +217,18 @@
       "prefab_path": "Story/Main/109/Timeline/LinzyThanatos_Active_Scene_Start",
       "volume_type": "CutScene",
       "actor01": 6520
+    },
+    {
+      "no": 31,
+      "prefab_path": "Story/Event/2502_RoseSideEvent/Timeline/RoseCrimson_Active_Scene_Start",
+      "volume_type": "CutScene",
+      "actor01": 1152
+    },
+    {
+      "no": 32,
+      "prefab_path": "Story/Event/2502_RoseSideEvent/Timeline/LinzyThanatos_Ultimate_Scene_Start",
+      "volume_type": "CutScene",
+      "actor01": 6520
     }
   ]
 }

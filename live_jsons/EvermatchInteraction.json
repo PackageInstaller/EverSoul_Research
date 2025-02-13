@@ -1562,52 +1562,325 @@
     },
     {
       "no": 261,
-      "actor_no": 1080,
-      "voice": "Lilith_Call",
+      "actor_no": 2150,
+      "voice": "SakuyoShin_Phrase02",
+      "animation": "Serious",
+      "emotion": "Serious"
+    },
+    {
+      "no": 262,
+      "actor_no": 2150,
+      "action_type": 1,
+      "voice": "SakuyoShin_Question",
+      "animation": "Idle",
+      "emotion": "Oh"
+    },
+    {
+      "no": 263,
+      "actor_no": 2150,
+      "action_type": 2,
+      "voice": "SakuyoShin_Scare",
+      "animation": "Angry",
+      "emotion": "Angry"
+    },
+    {
+      "no": 264,
+      "actor_no": 2150,
+      "action_type": 3,
+      "voice": "SakuyoShin_Surprise",
+      "animation": "Surprise",
+      "emotion": "Surprise"
+    },
+    {
+      "no": 265,
+      "actor_no": 2150,
+      "action_type": 4,
+      "voice": "SakuyoShin_Surprise02",
+      "animation": "Threat",
+      "emotion": "Threat"
+    },
+    {
+      "no": 266,
+      "actor_no": 2010,
+      "voice": "Honglan_Sigh02",
+      "animation": "Yawn",
+      "emotion": "Yawn"
+    },
+    {
+      "no": 267,
+      "actor_no": 2010,
+      "action_type": 1,
+      "voice": "Honglan_Surprise",
+      "animation": "Idle",
+      "emotion": "Oh"
+    },
+    {
+      "no": 268,
+      "actor_no": 2010,
+      "action_type": 2,
+      "voice": "Honglan_Question",
+      "animation": "Shy",
+      "emotion": "Shy"
+    },
+    {
+      "no": 269,
+      "actor_no": 2010,
+      "action_type": 3,
+      "voice": "Honglan_Burst",
+      "animation": "Happy",
+      "emotion": "Happy"
+    },
+    {
+      "no": 270,
+      "actor_no": 2010,
+      "action_type": 4,
+      "voice": "Honglan_Amazed",
+      "animation": "Surprise",
+      "emotion": "Surprise"
+    },
+    {
+      "no": 271,
+      "actor_no": 2140,
+      "voice": "Onyx_Phrase01",
+      "animation": "Happy",
+      "emotion": "Happy2"
+    },
+    {
+      "no": 272,
+      "actor_no": 2140,
+      "action_type": 1,
+      "voice": "Onyx_Surprise",
+      "animation": "Idle",
+      "emotion": "Oh2"
+    },
+    {
+      "no": 273,
+      "actor_no": 2140,
+      "action_type": 2,
+      "voice": "Onyx_Amazed",
+      "animation": "Surprise",
+      "emotion": "Surprise2"
+    },
+    {
+      "no": 274,
+      "actor_no": 2140,
+      "action_type": 3,
+      "voice": "Onyx_Think03",
+      "animation": "Angry",
+      "emotion": "Angry"
+    },
+    {
+      "no": 275,
+      "actor_no": 2140,
+      "action_type": 4,
+      "voice": "Onyx_Burst",
+      "animation": "Heart",
+      "emotion": "Heart"
+    },
+    {
+      "no": 276,
+      "actor_no": 2070,
+      "voice": "Milia_Negative02",
+      "animation": "Angry",
+      "emotion": "Angry"
+    },
+    {
+      "no": 277,
+      "actor_no": 2070,
+      "action_type": 1,
+      "voice": "Milia_Think01",
+      "animation": "Question",
+      "emotion": "Question"
+    },
+    {
+      "no": 278,
+      "actor_no": 2070,
+      "action_type": 2,
+      "voice": "Milia_Surprise",
+      "animation": "Happy",
+      "emotion": "Happy"
+    },
+    {
+      "no": 279,
+      "actor_no": 2070,
+      "action_type": 3,
+      "voice": "Milia_Surprise02",
+      "animation": "Surprise",
+      "emotion": "Surprise2"
+    },
+    {
+      "no": 280,
+      "actor_no": 2070,
+      "action_type": 4,
+      "voice": "Milia_Humming",
+      "animation": "Crazy",
+      "emotion": "Smile4"
+    },
+    {
+      "no": 281,
+      "actor_no": 1110,
+      "voice": "Dora_Chuckle",
+      "animation": "Shy",
+      "emotion": "Smile"
+    },
+    {
+      "no": 282,
+      "actor_no": 1110,
+      "action_type": 1,
+      "voice": "Dora_Question",
+      "animation": "Idle",
+      "emotion": "Oh"
+    },
+    {
+      "no": 283,
+      "actor_no": 1110,
+      "action_type": 2,
+      "voice": "Dora_Amazed",
+      "animation": "Happy",
+      "emotion": "Happy"
+    },
+    {
+      "no": 284,
+      "actor_no": 1110,
+      "action_type": 3,
+      "voice": "Dora_Surprise",
+      "animation": "Surprise",
+      "emotion": "Surprise"
+    },
+    {
+      "no": 285,
+      "actor_no": 1110,
+      "action_type": 4,
+      "voice": "Dora_Laugh",
+      "animation": "Crazy",
+      "emotion": "Crazy"
+    },
+    {
+      "no": 286,
+      "actor_no": 3110,
+      "voice": "Nyah_Phrase01",
+      "animation": "Idle",
+      "emotion": "Calm"
+    },
+    {
+      "no": 287,
+      "actor_no": 3110,
+      "action_type": 1,
+      "voice": "Nyah_Question",
       "animation": "Idle",
       "emotion": "Normal"
     },
     {
-      "no": 262,
-      "actor_no": 1080,
-      "action_type": 1,
-      "voice": "Lilith_Chuckle",
+      "no": 288,
+      "actor_no": 3110,
+      "action_type": 2,
+      "voice": "Nyah_Surprise",
       "animation": "Idle",
+      "emotion": "Oh"
+    },
+    {
+      "no": 289,
+      "actor_no": 3110,
+      "action_type": 3,
+      "voice": "Nyah_Amazed",
+      "animation": "Surprise",
+      "emotion": "Surprise"
+    },
+    {
+      "no": 290,
+      "actor_no": 3110,
+      "action_type": 4,
+      "voice": "Nyah_Laugh",
+      "animation": "Happy",
+      "emotion": "Happy"
+    },
+    {
+      "no": 291,
+      "actor_no": 3070,
+      "voice": "Nicole_Think01",
+      "animation": "Shy",
+      "emotion": "Shy"
+    },
+    {
+      "no": 292,
+      "actor_no": 3070,
+      "action_type": 1,
+      "voice": "Nicole_Chuckle",
+      "animation": "Idle",
+      "emotion": "Wa"
+    },
+    {
+      "no": 293,
+      "actor_no": 3070,
+      "action_type": 2,
+      "voice": "Nicole_Amazed",
+      "animation": "Idle",
+      "emotion": "Oh"
+    },
+    {
+      "no": 294,
+      "actor_no": 3070,
+      "action_type": 3,
+      "voice": "Nicole_Surprise",
+      "animation": "Surprise",
+      "emotion": "Surprise"
+    },
+    {
+      "no": 295,
+      "actor_no": 3070,
+      "action_type": 4,
+      "voice": "Nicole_Laugh",
+      "animation": "Happy",
       "emotion": "Smile2"
     },
     {
-      "no": 263,
-      "actor_no": 1080,
+      "no": 296,
+      "actor_no": 3150,
+      "voice": "Wheri_Humming",
+      "animation": "Serious",
+      "emotion": "Calm"
+    },
+    {
+      "no": 297,
+      "actor_no": 3150,
+      "action_type": 1,
+      "voice": "Wheri_Chuckle",
+      "animation": "Idle",
+      "emotion": "Normal"
+    },
+    {
+      "no": 298,
+      "actor_no": 3150,
       "action_type": 2,
-      "voice": "Lilith_Think01",
+      "voice": "Wheri_Question",
       "animation": "Idle",
       "emotion": "Oh"
     },
     {
-      "no": 264,
-      "actor_no": 1080,
+      "no": 299,
+      "actor_no": 3150,
       "action_type": 3,
-      "voice": "Lilith_Pissed",
+      "voice": "Wheri_Amazed",
       "animation": "Surprise",
-      "emotion": "Oh"
+      "emotion": "Surprise"
     },
     {
-      "no": 265,
-      "actor_no": 1080,
+      "no": 300,
+      "actor_no": 3150,
       "action_type": 4,
-      "voice": "Lilith_Laugh",
-      "animation": "Mock",
-      "emotion": "Happy2"
+      "voice": "Wheri_Laugh",
+      "animation": "Happy",
+      "emotion": "Happy"
     },
     {
-      "no": 266,
+      "no": 301,
       "actor_no": 3140,
       "voice": "Dominique_Phrase02",
       "animation": "Shy",
       "emotion": "Normal"
     },
     {
-      "no": 267,
+      "no": 302,
       "actor_no": 3140,
       "action_type": 1,
       "voice": "Dominique_Question",
@@ -1615,7 +1888,7 @@
       "emotion": "Oh"
     },
     {
-      "no": 268,
+      "no": 303,
       "actor_no": 3140,
       "action_type": 2,
       "voice": "Dominique_Chuckle",
@@ -1623,7 +1896,7 @@
       "emotion": "Oh"
     },
     {
-      "no": 269,
+      "no": 304,
       "actor_no": 3140,
       "action_type": 3,
       "voice": "Dominique_Laugh",
@@ -1631,12 +1904,51 @@
       "emotion": "Smile"
     },
     {
-      "no": 270,
+      "no": 305,
       "actor_no": 3140,
       "action_type": 4,
       "voice": "Dominique_Amazed",
       "animation": "Happy",
       "emotion": "Smile2"
+    },
+    {
+      "no": 306,
+      "actor_no": 1080,
+      "voice": "Lilith_Call",
+      "animation": "Idle",
+      "emotion": "Normal"
+    },
+    {
+      "no": 307,
+      "actor_no": 1080,
+      "action_type": 1,
+      "voice": "Lilith_Chuckle",
+      "animation": "Idle",
+      "emotion": "Smile2"
+    },
+    {
+      "no": 308,
+      "actor_no": 1080,
+      "action_type": 2,
+      "voice": "Lilith_Think01",
+      "animation": "Idle",
+      "emotion": "Oh"
+    },
+    {
+      "no": 309,
+      "actor_no": 1080,
+      "action_type": 3,
+      "voice": "Lilith_Pissed",
+      "animation": "Surprise",
+      "emotion": "Oh"
+    },
+    {
+      "no": 310,
+      "actor_no": 1080,
+      "action_type": 4,
+      "voice": "Lilith_Laugh",
+      "animation": "Mock",
+      "emotion": "Happy2"
     }
   ]
 }

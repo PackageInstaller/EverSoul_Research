@@ -25,7 +25,6 @@ table Deserialization {
     item_amount5: int32;
     item_no6: int32;
     item_amount6: int32;
-    vip_point: int32;
     bg: string;
     price_krw: int32;
     price_other: string;

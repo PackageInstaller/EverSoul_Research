@@ -24006,7 +24006,7 @@
       "inc_attack": 209,
       "inc_max_mp": 1,
       "hero_type": 1,
-      "prefab_path": 2705,
+      "prefab_path": 2808,
       "battle_power_type": 3
     },
     {
@@ -24032,7 +24032,7 @@
       "inc_attack": 209,
       "inc_max_mp": 2,
       "hero_type": 1,
-      "prefab_path": 2705,
+      "prefab_path": 2808,
       "battle_power_type": 3
     },
     {
@@ -24174,7 +24174,7 @@
       "stat_sno": 110042,
       "grade_sno": 110014,
       "max_grade_sno": 110025,
-      "global_cooltime": 10.0,
+      "global_cooltime": 12.0,
       "base_attack": 663050,
       "skill_no1": 663051,
       "skill_no5": 663052,

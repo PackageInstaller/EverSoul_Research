@@ -1,0 +1,16 @@
+namespace EventRouletteItemList;
+
+table Deserialization {
+    no: int32;
+    list_group: int32;
+    slot_no: int32;
+    item_no: int32;
+    item_amount: int32;
+    rate: int32;
+}
+
+table EventRouletteItemList {
+    json: [Deserialization];
+}
+
+root_type EventRouletteItemList;

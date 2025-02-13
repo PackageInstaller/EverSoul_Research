@@ -935,6 +935,30 @@
       "hero_no": "[3040,6530]",
       "distance": 50,
       "ratio": 30
+    },
+    {
+      "no": 157,
+      "hero_no": "[1150,6510]",
+      "distance": 50,
+      "ratio": 30
+    },
+    {
+      "no": 158,
+      "hero_no": "[3100,1150]",
+      "distance": 50,
+      "ratio": 30
+    },
+    {
+      "no": 159,
+      "hero_no": "[1150,6520]",
+      "distance": 50,
+      "ratio": 30
+    },
+    {
+      "no": 160,
+      "hero_no": "[1030,1150]",
+      "distance": 50,
+      "ratio": 30
     }
   ]
 }

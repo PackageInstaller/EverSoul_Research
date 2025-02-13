@@ -259,14 +259,14 @@
       "no": 301,
       "event_group": 4,
       "task_type": 1,
-      "task_string": 12815,
+      "task_string": 12817,
       "score": 20000
     },
     {
       "no": 302,
       "event_group": 4,
       "task_type": 3,
-      "task_amount": 100,
+      "task_amount": 70,
       "task_string": 12803,
       "score": 25000
     },
@@ -274,7 +274,7 @@
       "no": 303,
       "event_group": 4,
       "task_type": 3,
-      "task_amount": 285,
+      "task_amount": 150,
       "task_string": 12803,
       "score": 50000
     },
@@ -283,7 +283,7 @@
       "event_group": 4,
       "task_type": 3,
       "task_param": 2,
-      "task_amount": 30,
+      "task_amount": 20,
       "task_string": 12804,
       "score": 30000
     },
@@ -292,7 +292,7 @@
       "event_group": 4,
       "task_type": 3,
       "task_param": 2,
-      "task_amount": 85,
+      "task_amount": 40,
       "task_string": 12804,
       "score": 65000
     },
@@ -317,19 +317,10 @@
     {
       "no": 308,
       "event_group": 4,
-      "task_type": 5,
+      "task_type": 10,
       "task_param": 2,
-      "task_amount": 7,
-      "task_string": 12811,
-      "score": 50000
-    },
-    {
-      "no": 309,
-      "event_group": 4,
-      "task_type": 9,
-      "task_param": 6,
-      "task_amount": 1,
-      "task_string": 12814,
+      "task_amount": 3,
+      "task_string": 12816,
       "score": 50000
     }
   ]

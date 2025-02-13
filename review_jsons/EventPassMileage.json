@@ -2,174 +2,193 @@
   "json": [
     {
       "no": 1,
+      "event_type": 1,
       "group": 1,
       "event_number": 1,
-      "spend_item": 1,
-      "mileage_point": 8015,
-      "event_shop_no": 1,
-      "shop_item_no": 10003
+      "spend_item": 8015,
+      "mileage_point": 1,
+      "event_shop_no": 10003,
+      "shop_item_no": 910
     },
     {
       "no": 2,
-      "group": 1,
-      "event_number": 2,
-      "spend_item": 1,
-      "mileage_point": 8020,
-      "event_shop_no": 1,
-      "shop_item_no": 10004
+      "event_type": 1,
+      "group": 2,
+      "event_number": 1,
+      "spend_item": 8020,
+      "mileage_point": 1,
+      "event_shop_no": 10004,
+      "shop_item_no": 910
     },
     {
       "no": 3,
-      "group": 1,
-      "event_number": 3,
-      "spend_item": 1,
-      "mileage_point": 8023,
-      "event_shop_no": 1,
-      "shop_item_no": 10006
+      "event_type": 1,
+      "group": 3,
+      "event_number": 1,
+      "spend_item": 8023,
+      "mileage_point": 1,
+      "event_shop_no": 10006,
+      "shop_item_no": 910
     },
     {
       "no": 4,
-      "group": 1,
-      "event_number": 4,
-      "spend_item": 1,
-      "mileage_point": 8026,
-      "event_shop_no": 1,
-      "shop_item_no": 10007
+      "event_type": 1,
+      "group": 4,
+      "event_number": 1,
+      "spend_item": 8026,
+      "mileage_point": 1,
+      "event_shop_no": 10007,
+      "shop_item_no": 910
     },
     {
       "no": 5,
-      "group": 1,
-      "event_number": 5,
-      "spend_item": 1,
-      "mileage_point": 8030,
-      "event_shop_no": 1,
-      "shop_item_no": 10008
+      "event_type": 1,
+      "group": 5,
+      "event_number": 1,
+      "spend_item": 8030,
+      "mileage_point": 1,
+      "event_shop_no": 10008,
+      "shop_item_no": 910
     },
     {
       "no": 6,
-      "group": 1,
-      "event_number": 6,
-      "spend_item": 1,
-      "mileage_point": 8039,
-      "event_shop_no": 1,
-      "shop_item_no": 10009
+      "event_type": 1,
+      "group": 6,
+      "event_number": 1,
+      "spend_item": 8039,
+      "mileage_point": 1,
+      "event_shop_no": 10009,
+      "shop_item_no": 910
     },
     {
       "no": 7,
-      "group": 1,
-      "event_number": 7,
-      "spend_item": 1,
-      "mileage_point": 8045,
-      "event_shop_no": 1,
-      "shop_item_no": 10010
+      "event_type": 1,
+      "group": 7,
+      "event_number": 1,
+      "spend_item": 8045,
+      "mileage_point": 1,
+      "event_shop_no": 10010,
+      "shop_item_no": 910
     },
     {
       "no": 8,
-      "group": 1,
-      "event_number": 8,
-      "spend_item": 1,
-      "mileage_point": 8055,
-      "event_shop_no": 1,
-      "shop_item_no": 10012
+      "event_type": 1,
+      "group": 8,
+      "event_number": 1,
+      "spend_item": 8055,
+      "mileage_point": 1,
+      "event_shop_no": 10012,
+      "shop_item_no": 910
     },
     {
       "no": 9,
-      "group": 1,
-      "event_number": 9,
-      "spend_item": 1,
-      "mileage_point": 8065,
-      "event_shop_no": 1,
-      "shop_item_no": 10014
+      "event_type": 1,
+      "group": 9,
+      "event_number": 1,
+      "spend_item": 8065,
+      "mileage_point": 1,
+      "event_shop_no": 10014,
+      "shop_item_no": 910
     },
     {
       "no": 10,
-      "group": 1,
-      "event_number": 10,
-      "spend_item": 1,
-      "mileage_point": 8071,
-      "event_shop_no": 1,
-      "shop_item_no": 10015
+      "event_type": 1,
+      "group": 10,
+      "event_number": 1,
+      "spend_item": 8071,
+      "mileage_point": 1,
+      "event_shop_no": 10015,
+      "shop_item_no": 910
     },
     {
       "no": 11,
-      "group": 1,
-      "event_number": 11,
-      "spend_item": 1,
-      "mileage_point": 8081,
-      "event_shop_no": 1,
-      "shop_item_no": 10017
+      "event_type": 1,
+      "group": 11,
+      "event_number": 1,
+      "spend_item": 8081,
+      "mileage_point": 1,
+      "event_shop_no": 10017,
+      "shop_item_no": 910
     },
     {
       "no": 12,
-      "group": 1,
-      "event_number": 12,
-      "spend_item": 1,
-      "mileage_point": 8086,
-      "event_shop_no": 1,
-      "shop_item_no": 10018
+      "event_type": 1,
+      "group": 12,
+      "event_number": 1,
+      "spend_item": 8086,
+      "mileage_point": 1,
+      "event_shop_no": 10018,
+      "shop_item_no": 911
     },
     {
       "no": 13,
-      "group": 1,
-      "event_number": 13,
-      "spend_item": 1,
-      "mileage_point": 8090,
-      "event_shop_no": 1,
-      "shop_item_no": 10019
+      "event_type": 1,
+      "group": 13,
+      "event_number": 1,
+      "spend_item": 8090,
+      "mileage_point": 1,
+      "event_shop_no": 10019,
+      "shop_item_no": 910
     },
     {
       "no": 14,
-      "group": 1,
-      "event_number": 14,
-      "spend_item": 1,
-      "mileage_point": 8095,
-      "event_shop_no": 1,
-      "shop_item_no": 10020
+      "event_type": 1,
+      "group": 14,
+      "event_number": 1,
+      "spend_item": 8095,
+      "mileage_point": 1,
+      "event_shop_no": 10020,
+      "shop_item_no": 911
     },
     {
       "no": 15,
-      "group": 1,
-      "event_number": 15,
-      "spend_item": 1,
-      "mileage_point": 8099,
-      "event_shop_no": 1,
-      "shop_item_no": 10021
+      "event_type": 1,
+      "group": 15,
+      "event_number": 1,
+      "spend_item": 8099,
+      "mileage_point": 1,
+      "event_shop_no": 10021,
+      "shop_item_no": 910
     },
     {
       "no": 16,
-      "group": 1,
-      "event_number": 16,
-      "spend_item": 1,
-      "mileage_point": 8104,
-      "event_shop_no": 1,
-      "shop_item_no": 10022
+      "event_type": 1,
+      "group": 16,
+      "event_number": 1,
+      "spend_item": 8104,
+      "mileage_point": 1,
+      "event_shop_no": 10022,
+      "shop_item_no": 911
     },
     {
       "no": 17,
-      "group": 1,
-      "event_number": 17,
-      "spend_item": 1,
-      "mileage_point": 8108,
-      "event_shop_no": 1,
-      "shop_item_no": 10023
+      "event_type": 1,
+      "group": 17,
+      "event_number": 1,
+      "spend_item": 8108,
+      "mileage_point": 1,
+      "event_shop_no": 10023,
+      "shop_item_no": 910
     },
     {
       "no": 18,
-      "group": 1,
-      "event_number": 18,
-      "spend_item": 1,
-      "mileage_point": 8114,
-      "event_shop_no": 1,
-      "shop_item_no": 10024
+      "event_type": 1,
+      "group": 18,
+      "event_number": 1,
+      "spend_item": 8114,
+      "mileage_point": 1,
+      "event_shop_no": 10024,
+      "shop_item_no": 911
     },
     {
       "no": 19,
-      "group": 2,
-      "event_number": 19,
-      "spend_item": 1,
-      "mileage_point": 8118,
-      "event_shop_no": 100,
-      "shop_item_no": 1
+      "event_type": 2,
+      "group": 19,
+      "event_number": 1,
+      "spend_item": 8118,
+      "mileage_point": 100,
+      "event_shop_no": 1,
+      "shop_item_no": 912
     }
   ]
 }

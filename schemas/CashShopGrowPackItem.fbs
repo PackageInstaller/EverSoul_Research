@@ -1,0 +1,20 @@
+namespace CashShopGrowPackItem;
+
+table Deserialization {
+    no: int32;
+    growpack_no: int32;
+    shopitem_no: int32;
+    behavior: int32;
+    content_string_sno: int32;
+    value: int64;
+    basic_item_no: int32;
+    basic_item_amount: int32;
+    gold_item_no: int32;
+    gold_item_amount: int32;
+}
+
+table CashShopGrowPackItem {
+    json: [Deserialization];
+}
+
+root_type CashShopGrowPackItem;

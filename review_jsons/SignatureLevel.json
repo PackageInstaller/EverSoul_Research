@@ -32025,10 +32025,10 @@
       "group": 1151,
       "signature_level_": 1,
       "race_group": 1,
-      "attack_rate": 0.056,
-      "max_hp_rate": 0.022,
-      "critical_power": 0.055,
-      "life_leech": 0.011,
+      "attack_rate": 0.055,
+      "max_hp_rate": 0.023,
+      "critical_rate": 0.033,
+      "critical_power": 0.044,
       "battle_power_per": 0.05
     },
     {
@@ -32036,10 +32036,10 @@
       "group": 1151,
       "signature_level_": 2,
       "race_group": 1,
-      "attack_rate": 0.062,
-      "max_hp_rate": 0.024,
-      "critical_power": 0.06,
-      "life_leech": 0.012,
+      "attack_rate": 0.06,
+      "max_hp_rate": 0.026,
+      "critical_rate": 0.036,
+      "critical_power": 0.048,
       "battle_power_per": 0.055
     },
     {
@@ -32047,10 +32047,10 @@
       "group": 1151,
       "signature_level_": 3,
       "race_group": 1,
-      "attack_rate": 0.068,
-      "max_hp_rate": 0.026,
-      "critical_power": 0.065,
-      "life_leech": 0.013,
+      "attack_rate": 0.065,
+      "max_hp_rate": 0.029,
+      "critical_rate": 0.039,
+      "critical_power": 0.052,
       "battle_power_per": 0.06
     },
     {
@@ -32058,10 +32058,10 @@
       "group": 1151,
       "signature_level_": 4,
       "race_group": 1,
-      "attack_rate": 0.074,
-      "max_hp_rate": 0.028,
-      "critical_power": 0.07,
-      "life_leech": 0.014,
+      "attack_rate": 0.07,
+      "max_hp_rate": 0.032,
+      "critical_rate": 0.042,
+      "critical_power": 0.056,
       "battle_power_per": 0.065
     },
     {
@@ -32069,10 +32069,10 @@
       "group": 1151,
       "signature_level_": 5,
       "race_group": 1,
-      "attack_rate": 0.08,
-      "max_hp_rate": 0.03,
-      "critical_power": 0.075,
-      "life_leech": 0.015,
+      "attack_rate": 0.075,
+      "max_hp_rate": 0.035,
+      "critical_rate": 0.045,
+      "critical_power": 0.06,
       "battle_power_per": 0.07
     },
     {
@@ -32080,10 +32080,10 @@
       "group": 1151,
       "signature_level_": 6,
       "race_group": 1,
-      "attack_rate": 0.086,
-      "max_hp_rate": 0.032,
-      "critical_power": 0.08,
-      "life_leech": 0.016,
+      "attack_rate": 0.08,
+      "max_hp_rate": 0.038,
+      "critical_rate": 0.048,
+      "critical_power": 0.064,
       "battle_power_per": 0.075
     },
     {
@@ -32091,10 +32091,10 @@
       "group": 1151,
       "signature_level_": 7,
       "race_group": 1,
-      "attack_rate": 0.092,
-      "max_hp_rate": 0.034,
-      "critical_power": 0.085,
-      "life_leech": 0.017,
+      "attack_rate": 0.085,
+      "max_hp_rate": 0.041,
+      "critical_rate": 0.051,
+      "critical_power": 0.068,
       "battle_power_per": 0.08
     },
     {
@@ -32102,10 +32102,10 @@
       "group": 1151,
       "signature_level_": 8,
       "race_group": 1,
-      "attack_rate": 0.098,
-      "max_hp_rate": 0.036,
-      "critical_power": 0.09,
-      "life_leech": 0.018,
+      "attack_rate": 0.09,
+      "max_hp_rate": 0.044,
+      "critical_rate": 0.054,
+      "critical_power": 0.072,
       "battle_power_per": 0.085
     },
     {
@@ -32113,10 +32113,10 @@
       "group": 1151,
       "signature_level_": 9,
       "race_group": 1,
-      "attack_rate": 0.104,
-      "max_hp_rate": 0.038,
-      "critical_power": 0.095,
-      "life_leech": 0.019,
+      "attack_rate": 0.095,
+      "max_hp_rate": 0.047,
+      "critical_rate": 0.057,
+      "critical_power": 0.076,
       "battle_power_per": 0.09
     },
     {
@@ -32124,10 +32124,10 @@
       "group": 1151,
       "signature_level_": 10,
       "race_group": 1,
-      "attack_rate": 0.11,
-      "max_hp_rate": 0.04,
-      "critical_power": 0.1,
-      "life_leech": 0.02,
+      "attack_rate": 0.1,
+      "max_hp_rate": 0.05,
+      "critical_rate": 0.06,
+      "critical_power": 0.08,
       "battle_power_per": 0.095
     },
     {
@@ -32135,10 +32135,10 @@
       "group": 1151,
       "signature_level_": 11,
       "race_group": 1,
-      "attack_rate": 0.116,
-      "max_hp_rate": 0.042,
-      "critical_power": 0.105,
-      "life_leech": 0.021,
+      "attack_rate": 0.105,
+      "max_hp_rate": 0.053,
+      "critical_rate": 0.063,
+      "critical_power": 0.084,
       "battle_power_per": 0.1
     },
     {
@@ -32146,10 +32146,10 @@
       "group": 1151,
       "signature_level_": 12,
       "race_group": 1,
-      "attack_rate": 0.122,
-      "max_hp_rate": 0.044,
-      "critical_power": 0.11,
-      "life_leech": 0.022,
+      "attack_rate": 0.11,
+      "max_hp_rate": 0.056,
+      "critical_rate": 0.066,
+      "critical_power": 0.088,
       "battle_power_per": 0.105
     },
     {
@@ -32157,10 +32157,10 @@
       "group": 1151,
       "signature_level_": 13,
       "race_group": 1,
-      "attack_rate": 0.128,
-      "max_hp_rate": 0.046,
-      "critical_power": 0.115,
-      "life_leech": 0.023,
+      "attack_rate": 0.115,
+      "max_hp_rate": 0.059,
+      "critical_rate": 0.069,
+      "critical_power": 0.092,
       "battle_power_per": 0.11
     },
     {
@@ -32168,10 +32168,10 @@
       "group": 1151,
       "signature_level_": 14,
       "race_group": 1,
-      "attack_rate": 0.134,
-      "max_hp_rate": 0.048,
-      "critical_power": 0.12,
-      "life_leech": 0.024,
+      "attack_rate": 0.12,
+      "max_hp_rate": 0.062,
+      "critical_rate": 0.072,
+      "critical_power": 0.096,
       "battle_power_per": 0.115
     },
     {
@@ -32179,10 +32179,10 @@
       "group": 1151,
       "signature_level_": 15,
       "race_group": 1,
-      "attack_rate": 0.14,
-      "max_hp_rate": 0.05,
-      "critical_power": 0.125,
-      "life_leech": 0.025,
+      "attack_rate": 0.125,
+      "max_hp_rate": 0.065,
+      "critical_rate": 0.075,
+      "critical_power": 0.1,
       "battle_power_per": 0.12
     },
     {
@@ -32190,10 +32190,10 @@
       "group": 1151,
       "signature_level_": 16,
       "race_group": 1,
-      "attack_rate": 0.146,
-      "max_hp_rate": 0.052,
-      "critical_power": 0.13,
-      "life_leech": 0.026,
+      "attack_rate": 0.13,
+      "max_hp_rate": 0.068,
+      "critical_rate": 0.078,
+      "critical_power": 0.104,
       "battle_power_per": 0.125
     },
     {
@@ -32201,10 +32201,10 @@
       "group": 1151,
       "signature_level_": 17,
       "race_group": 1,
-      "attack_rate": 0.152,
-      "max_hp_rate": 0.054,
-      "critical_power": 0.135,
-      "life_leech": 0.027,
+      "attack_rate": 0.135,
+      "max_hp_rate": 0.071,
+      "critical_rate": 0.081,
+      "critical_power": 0.108,
       "battle_power_per": 0.13
     },
     {
@@ -32212,10 +32212,10 @@
       "group": 1151,
       "signature_level_": 18,
       "race_group": 1,
-      "attack_rate": 0.158,
-      "max_hp_rate": 0.056,
-      "critical_power": 0.14,
-      "life_leech": 0.028,
+      "attack_rate": 0.14,
+      "max_hp_rate": 0.074,
+      "critical_rate": 0.084,
+      "critical_power": 0.112,
       "battle_power_per": 0.135
     },
     {
@@ -32223,10 +32223,10 @@
       "group": 1151,
       "signature_level_": 19,
       "race_group": 1,
-      "attack_rate": 0.164,
-      "max_hp_rate": 0.058,
-      "critical_power": 0.145,
-      "life_leech": 0.029,
+      "attack_rate": 0.145,
+      "max_hp_rate": 0.077,
+      "critical_rate": 0.087,
+      "critical_power": 0.116,
       "battle_power_per": 0.14
     },
     {
@@ -32234,10 +32234,10 @@
       "group": 1151,
       "signature_level_": 20,
       "race_group": 1,
-      "attack_rate": 0.17,
-      "max_hp_rate": 0.06,
-      "critical_power": 0.15,
-      "life_leech": 0.03,
+      "attack_rate": 0.15,
+      "max_hp_rate": 0.08,
+      "critical_rate": 0.09,
+      "critical_power": 0.12,
       "battle_power_per": 0.145
     },
     {
@@ -32245,10 +32245,10 @@
       "group": 1151,
       "signature_level_": 21,
       "race_group": 1,
-      "attack_rate": 0.176,
-      "max_hp_rate": 0.062,
-      "critical_power": 0.155,
-      "life_leech": 0.031,
+      "attack_rate": 0.155,
+      "max_hp_rate": 0.083,
+      "critical_rate": 0.093,
+      "critical_power": 0.124,
       "battle_power_per": 0.15
     },
     {
@@ -32256,10 +32256,10 @@
       "group": 1151,
       "signature_level_": 22,
       "race_group": 1,
-      "attack_rate": 0.182,
-      "max_hp_rate": 0.064,
-      "critical_power": 0.16,
-      "life_leech": 0.032,
+      "attack_rate": 0.16,
+      "max_hp_rate": 0.086,
+      "critical_rate": 0.096,
+      "critical_power": 0.128,
       "battle_power_per": 0.155
     },
     {
@@ -32267,10 +32267,10 @@
       "group": 1151,
       "signature_level_": 23,
       "race_group": 1,
-      "attack_rate": 0.188,
-      "max_hp_rate": 0.066,
-      "critical_power": 0.165,
-      "life_leech": 0.033,
+      "attack_rate": 0.165,
+      "max_hp_rate": 0.089,
+      "critical_rate": 0.099,
+      "critical_power": 0.132,
       "battle_power_per": 0.16
     },
     {
@@ -32278,10 +32278,10 @@
       "group": 1151,
       "signature_level_": 24,
       "race_group": 1,
-      "attack_rate": 0.194,
-      "max_hp_rate": 0.068,
-      "critical_power": 0.17,
-      "life_leech": 0.034,
+      "attack_rate": 0.17,
+      "max_hp_rate": 0.092,
+      "critical_rate": 0.102,
+      "critical_power": 0.136,
       "battle_power_per": 0.165
     },
     {
@@ -32289,10 +32289,10 @@
       "group": 1151,
       "signature_level_": 25,
       "race_group": 1,
-      "attack_rate": 0.2,
-      "max_hp_rate": 0.07,
-      "critical_power": 0.175,
-      "life_leech": 0.035,
+      "attack_rate": 0.175,
+      "max_hp_rate": 0.095,
+      "critical_rate": 0.105,
+      "critical_power": 0.14,
       "battle_power_per": 0.17
     },
     {
@@ -32300,10 +32300,10 @@
       "group": 1151,
       "signature_level_": 26,
       "race_group": 1,
-      "attack_rate": 0.206,
-      "max_hp_rate": 0.072,
-      "critical_power": 0.18,
-      "life_leech": 0.036,
+      "attack_rate": 0.18,
+      "max_hp_rate": 0.098,
+      "critical_rate": 0.108,
+      "critical_power": 0.144,
       "battle_power_per": 0.175
     },
     {
@@ -32311,10 +32311,10 @@
       "group": 1151,
       "signature_level_": 27,
       "race_group": 1,
-      "attack_rate": 0.212,
-      "max_hp_rate": 0.074,
-      "critical_power": 0.185,
-      "life_leech": 0.037,
+      "attack_rate": 0.185,
+      "max_hp_rate": 0.101,
+      "critical_rate": 0.111,
+      "critical_power": 0.148,
       "battle_power_per": 0.18
     },
     {
@@ -32322,10 +32322,10 @@
       "group": 1151,
       "signature_level_": 28,
       "race_group": 1,
-      "attack_rate": 0.218,
-      "max_hp_rate": 0.076,
-      "critical_power": 0.19,
-      "life_leech": 0.038,
+      "attack_rate": 0.19,
+      "max_hp_rate": 0.104,
+      "critical_rate": 0.114,
+      "critical_power": 0.152,
       "battle_power_per": 0.185
     },
     {
@@ -32333,10 +32333,10 @@
       "group": 1151,
       "signature_level_": 29,
       "race_group": 1,
-      "attack_rate": 0.224,
-      "max_hp_rate": 0.078,
-      "critical_power": 0.195,
-      "life_leech": 0.039,
+      "attack_rate": 0.195,
+      "max_hp_rate": 0.107,
+      "critical_rate": 0.117,
+      "critical_power": 0.156,
       "battle_power_per": 0.19
     },
     {
@@ -32344,10 +32344,10 @@
       "group": 1151,
       "signature_level_": 30,
       "race_group": 1,
-      "attack_rate": 0.23,
-      "max_hp_rate": 0.08,
-      "critical_power": 0.2,
-      "life_leech": 0.04,
+      "attack_rate": 0.2,
+      "max_hp_rate": 0.11,
+      "critical_rate": 0.12,
+      "critical_power": 0.16,
       "battle_power_per": 0.195
     },
     {
@@ -32355,10 +32355,10 @@
       "group": 1151,
       "signature_level_": 31,
       "race_group": 1,
-      "attack_rate": 0.236,
-      "max_hp_rate": 0.082,
-      "critical_power": 0.205,
-      "life_leech": 0.041,
+      "attack_rate": 0.205,
+      "max_hp_rate": 0.113,
+      "critical_rate": 0.123,
+      "critical_power": 0.164,
       "battle_power_per": 0.2
     },
     {
@@ -32366,10 +32366,10 @@
       "group": 1151,
       "signature_level_": 32,
       "race_group": 1,
-      "attack_rate": 0.242,
-      "max_hp_rate": 0.084,
-      "critical_power": 0.21,
-      "life_leech": 0.042,
+      "attack_rate": 0.21,
+      "max_hp_rate": 0.116,
+      "critical_rate": 0.126,
+      "critical_power": 0.168,
       "battle_power_per": 0.205
     },
     {
@@ -32377,10 +32377,10 @@
       "group": 1151,
       "signature_level_": 33,
       "race_group": 1,
-      "attack_rate": 0.248,
-      "max_hp_rate": 0.086,
-      "critical_power": 0.215,
-      "life_leech": 0.043,
+      "attack_rate": 0.215,
+      "max_hp_rate": 0.119,
+      "critical_rate": 0.129,
+      "critical_power": 0.172,
       "battle_power_per": 0.21
     },
     {
@@ -32388,10 +32388,10 @@
       "group": 1151,
       "signature_level_": 34,
       "race_group": 1,
-      "attack_rate": 0.254,
-      "max_hp_rate": 0.088,
-      "critical_power": 0.22,
-      "life_leech": 0.044,
+      "attack_rate": 0.22,
+      "max_hp_rate": 0.122,
+      "critical_rate": 0.132,
+      "critical_power": 0.176,
       "battle_power_per": 0.215
     },
     {
@@ -32399,10 +32399,10 @@
       "group": 1151,
       "signature_level_": 35,
       "race_group": 1,
-      "attack_rate": 0.26,
-      "max_hp_rate": 0.09,
-      "critical_power": 0.225,
-      "life_leech": 0.045,
+      "attack_rate": 0.225,
+      "max_hp_rate": 0.125,
+      "critical_rate": 0.135,
+      "critical_power": 0.18,
       "battle_power_per": 0.22
     },
     {
@@ -32410,10 +32410,10 @@
       "group": 1151,
       "signature_level_": 36,
       "race_group": 1,
-      "attack_rate": 0.266,
-      "max_hp_rate": 0.092,
-      "critical_power": 0.23,
-      "life_leech": 0.046,
+      "attack_rate": 0.23,
+      "max_hp_rate": 0.128,
+      "critical_rate": 0.138,
+      "critical_power": 0.184,
       "battle_power_per": 0.225
     },
     {
@@ -32421,10 +32421,10 @@
       "group": 1151,
       "signature_level_": 37,
       "race_group": 1,
-      "attack_rate": 0.272,
-      "max_hp_rate": 0.094,
-      "critical_power": 0.235,
-      "life_leech": 0.047,
+      "attack_rate": 0.235,
+      "max_hp_rate": 0.131,
+      "critical_rate": 0.141,
+      "critical_power": 0.188,
       "battle_power_per": 0.23
     },
     {
@@ -32432,10 +32432,10 @@
       "group": 1151,
       "signature_level_": 38,
       "race_group": 1,
-      "attack_rate": 0.278,
-      "max_hp_rate": 0.096,
-      "critical_power": 0.24,
-      "life_leech": 0.048,
+      "attack_rate": 0.24,
+      "max_hp_rate": 0.134,
+      "critical_rate": 0.144,
+      "critical_power": 0.192,
       "battle_power_per": 0.235
     },
     {
@@ -32443,10 +32443,10 @@
       "group": 1151,
       "signature_level_": 39,
       "race_group": 1,
-      "attack_rate": 0.284,
-      "max_hp_rate": 0.098,
-      "critical_power": 0.245,
-      "life_leech": 0.049,
+      "attack_rate": 0.245,
+      "max_hp_rate": 0.137,
+      "critical_rate": 0.147,
+      "critical_power": 0.196,
       "battle_power_per": 0.24
     },
     {
@@ -32454,10 +32454,10 @@
       "group": 1151,
       "signature_level_": 40,
       "race_group": 1,
-      "attack_rate": 0.29,
-      "max_hp_rate": 0.1,
-      "critical_power": 0.25,
-      "life_leech": 0.05,
+      "attack_rate": 0.25,
+      "max_hp_rate": 0.14,
+      "critical_rate": 0.15,
+      "critical_power": 0.2,
       "battle_power_per": 0.245
     },
     {

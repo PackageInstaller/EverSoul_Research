@@ -19121,7 +19121,7 @@
       "target_key": 1208,
       "value": 1.7,
       "condition_type": 1,
-      "fx_path": "none",
+      "fx_path": "Fx_RoseCrimson_Active_Skip_Hit_00",
       "penetration": 1
     },
     {
@@ -19159,7 +19159,7 @@
       "target_key": 1208,
       "value": 1.85,
       "condition_type": 1,
-      "fx_path": "none",
+      "fx_path": "Fx_RoseCrimson_Active_Skip_Hit_00",
       "penetration": 1
     },
     {
@@ -19177,7 +19177,7 @@
       "target_key": 1208,
       "value": 2.0,
       "condition_type": 1,
-      "fx_path": "none",
+      "fx_path": "Fx_RoseCrimson_Active_Skip_Hit_00",
       "penetration": 1
     },
     {
@@ -19207,6 +19207,15 @@
       "condition_type": 1,
       "condition_id1": 115121,
       "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 115210,
+      "function_key": 30,
+      "target_key": 2100,
+      "value": 100000.0,
+      "condition_type": 1,
+      "fx_path": "Fx_RoseCrimson_Skill01_Hit_00",
       "penetration": 1
     },
     {
@@ -19243,7 +19252,7 @@
       "target_key": 1100,
       "value": 0.8,
       "condition_type": 1,
-      "condition_id1": 115121,
+      "condition_id1": 115111,
       "fx_path": "Fx_CatherineBrave_Skill02_Hit_00",
       "penetration": 1
     },
@@ -19254,7 +19263,7 @@
       "target_key": 1100,
       "value": 0.8,
       "condition_type": 1,
-      "condition_id1": 115122,
+      "condition_id1": 115112,
       "fx_path": "none",
       "penetration": 1
     },
@@ -19265,7 +19274,7 @@
       "target_key": 1100,
       "value": 0.8,
       "condition_type": 1,
-      "condition_id1": 115123,
+      "condition_id1": 115113,
       "fx_path": "none",
       "penetration": 1
     },
@@ -19276,7 +19285,7 @@
       "target_key": 1100,
       "value": 0.8,
       "condition_type": 1,
-      "condition_id1": 115124,
+      "condition_id1": 115114,
       "fx_path": "none",
       "penetration": 1
     },
@@ -19287,7 +19296,7 @@
       "target_key": 1100,
       "value": 0.8,
       "condition_type": 1,
-      "condition_id1": 115125,
+      "condition_id1": 115115,
       "fx_path": "none",
       "penetration": 1
     },
@@ -19316,7 +19325,7 @@
       "target_key": 1100,
       "value": 0.9,
       "condition_type": 1,
-      "condition_id1": 115121,
+      "condition_id1": 115111,
       "fx_path": "Fx_CatherineBrave_Skill02_Hit_00",
       "penetration": 1
     },
@@ -19327,7 +19336,7 @@
       "target_key": 1100,
       "value": 0.9,
       "condition_type": 1,
-      "condition_id1": 115122,
+      "condition_id1": 115112,
       "fx_path": "none",
       "penetration": 1
     },
@@ -19338,7 +19347,7 @@
       "target_key": 1100,
       "value": 0.9,
       "condition_type": 1,
-      "condition_id1": 115123,
+      "condition_id1": 115113,
       "fx_path": "none",
       "penetration": 1
     },
@@ -19349,7 +19358,7 @@
       "target_key": 1100,
       "value": 0.9,
       "condition_type": 1,
-      "condition_id1": 115124,
+      "condition_id1": 115114,
       "fx_path": "none",
       "penetration": 1
     },
@@ -19360,7 +19369,7 @@
       "target_key": 1100,
       "value": 0.9,
       "condition_type": 1,
-      "condition_id1": 115125,
+      "condition_id1": 115115,
       "fx_path": "none",
       "penetration": 1
     },
@@ -19386,21 +19395,21 @@
       "no": 115234,
       "function_key": 1,
       "is_ally": 1,
-      "target_key": 1206,
+      "target_key": 1205,
       "value": 1.0,
       "condition_type": 1,
-      "condition_id1": 115121,
-      "fx_path": "Fx_CatherineBrave_Skill02_Hit_01",
+      "condition_id1": 115111,
+      "fx_path": "none",
       "penetration": 1
     },
     {
       "no": 115235,
       "function_key": 1,
       "is_ally": 1,
-      "target_key": 1206,
+      "target_key": 1205,
       "value": 1.0,
       "condition_type": 1,
-      "condition_id1": 115122,
+      "condition_id1": 115112,
       "fx_path": "none",
       "penetration": 1
     },
@@ -19408,10 +19417,10 @@
       "no": 115236,
       "function_key": 1,
       "is_ally": 1,
-      "target_key": 1206,
+      "target_key": 1205,
       "value": 1.0,
       "condition_type": 1,
-      "condition_id1": 115123,
+      "condition_id1": 115113,
       "fx_path": "none",
       "penetration": 1
     },
@@ -19419,10 +19428,10 @@
       "no": 115237,
       "function_key": 1,
       "is_ally": 1,
-      "target_key": 1206,
+      "target_key": 1205,
       "value": 1.0,
       "condition_type": 1,
-      "condition_id1": 115124,
+      "condition_id1": 115114,
       "fx_path": "none",
       "penetration": 1
     },
@@ -19430,11 +19439,31 @@
       "no": 115238,
       "function_key": 1,
       "is_ally": 1,
-      "target_key": 1206,
+      "target_key": 1205,
       "value": 1.0,
       "condition_type": 1,
-      "condition_id1": 115125,
+      "condition_id1": 115115,
       "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 115239,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 100000.0,
+      "condition_type": 1,
+      "condition_id1": 115111,
+      "fx_path": "Fx_CatherineBrave_Skill02_Hit_01",
+      "penetration": 1
+    },
+    {
+      "no": 115310,
+      "function_key": 30,
+      "target_key": 2100,
+      "value": 100000.0,
+      "condition_type": 1,
+      "fx_path": "Fx_RoseCrimson_Skill02_FireHit_00",
       "penetration": 1
     },
     {
@@ -19443,7 +19472,7 @@
       "target_key": 2207,
       "value": 2.0,
       "condition_type": 1,
-      "move_effect_key": 5,
+      "move_effect_key": 2,
       "fx_path": "none",
       "penetration": 1
     },
@@ -19462,7 +19491,7 @@
       "target_key": 2207,
       "value": 2.1,
       "condition_type": 1,
-      "move_effect_key": 5,
+      "move_effect_key": 2,
       "fx_path": "none",
       "penetration": 1
     },
@@ -19472,7 +19501,7 @@
       "target_key": 2207,
       "value": 2.2,
       "condition_type": 1,
-      "move_effect_key": 5,
+      "move_effect_key": 2,
       "fx_path": "none",
       "penetration": 1
     },
@@ -19482,7 +19511,7 @@
       "target_key": 2100,
       "value": 115332.0,
       "condition_type": 1,
-      "condition_id1": 115121,
+      "condition_id1": 115122,
       "fx_path": "none",
       "penetration": 1
     },
@@ -19493,6 +19522,7 @@
       "target_key": 1206,
       "value": 2.2,
       "condition_type": 1,
+      "move_effect_key": 2,
       "fx_path": "none",
       "penetration": 1
     },
@@ -19503,7 +19533,18 @@
       "target_key": 1206,
       "value": 115312.0,
       "condition_type": 1,
+      "move_effect_key": 2,
       "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 115335,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 100000.0,
+      "condition_type": 1,
+      "fx_path": "Fx_RoseCrimson_Skill02_FireHit_00",
       "penetration": 1
     },
     {
@@ -19824,8 +19865,8 @@
     {
       "no": 115511,
       "function_key": 1,
-      "target_key": 1351,
-      "value": 3.7,
+      "target_key": 1352,
+      "value": 1.8,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -19833,7 +19874,7 @@
     {
       "no": 115512,
       "function_key": 1,
-      "target_key": 1351,
+      "target_key": 1353,
       "value": 1.8,
       "condition_type": 1,
       "condition_id1": 115121,
@@ -19843,7 +19884,7 @@
     {
       "no": 115513,
       "function_key": 1,
-      "target_key": 1351,
+      "target_key": 1353,
       "value": 1.8,
       "condition_type": 1,
       "condition_id1": 115122,
@@ -19853,7 +19894,7 @@
     {
       "no": 115514,
       "function_key": 1,
-      "target_key": 1351,
+      "target_key": 1353,
       "value": 1.8,
       "condition_type": 1,
       "condition_id1": 115123,
@@ -19861,19 +19902,37 @@
       "penetration": 1
     },
     {
+      "no": 115515,
+      "function_key": 1,
+      "target_key": 1353,
+      "value": 1.8,
+      "condition_type": 1,
+      "fx_path": "Fx_RoseCrimson_Ultimate_Beam_Hit_00",
+      "penetration": 1
+    },
+    {
       "no": 115521,
       "function_key": 1,
-      "target_key": 1351,
-      "value": 3.95,
+      "target_key": 1352,
+      "value": 2.0,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
     },
     {
+      "no": 115522,
+      "function_key": 1,
+      "target_key": 1353,
+      "value": 2.0,
+      "condition_type": 1,
+      "fx_path": "Fx_RoseCrimson_Ultimate_Beam_Hit_00",
+      "penetration": 1
+    },
+    {
       "no": 115531,
       "function_key": 1,
-      "target_key": 1351,
-      "value": 4.2,
+      "target_key": 1352,
+      "value": 2.2,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -19881,8 +19940,8 @@
     {
       "no": 115532,
       "function_key": 1,
-      "target_key": 1351,
-      "value": 2.1,
+      "target_key": 1353,
+      "value": 2.2,
       "condition_type": 1,
       "condition_id1": 115121,
       "fx_path": "none",
@@ -19891,8 +19950,8 @@
     {
       "no": 115533,
       "function_key": 1,
-      "target_key": 1351,
-      "value": 2.1,
+      "target_key": 1353,
+      "value": 2.2,
       "condition_type": 1,
       "condition_id1": 115122,
       "fx_path": "none",
@@ -19901,8 +19960,8 @@
     {
       "no": 115534,
       "function_key": 1,
-      "target_key": 1351,
-      "value": 2.1,
+      "target_key": 1353,
+      "value": 2.2,
       "condition_type": 1,
       "condition_id1": 115123,
       "fx_path": "none",
@@ -19911,8 +19970,8 @@
     {
       "no": 115535,
       "function_key": 1,
-      "target_key": 1351,
-      "value": 2.1,
+      "target_key": 1353,
+      "value": 2.2,
       "condition_type": 1,
       "condition_id1": 115124,
       "fx_path": "none",
@@ -19921,11 +19980,20 @@
     {
       "no": 115536,
       "function_key": 1,
-      "target_key": 1351,
-      "value": 2.1,
+      "target_key": 1353,
+      "value": 2.2,
       "condition_type": 1,
       "condition_id1": 115125,
       "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 115537,
+      "function_key": 1,
+      "target_key": 1353,
+      "value": 2.2,
+      "condition_type": 1,
+      "fx_path": "Fx_RoseCrimson_Ultimate_Beam_Hit_00",
       "penetration": 1
     },
     {
@@ -94078,6 +94146,33 @@
       "penetration": 1
     },
     {
+      "no": 950600,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 950600.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 950601,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 950601.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 950700,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 950700.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
       "no": 962011,
       "function_key": 1,
       "target_key": 1206,
@@ -123215,65 +123310,193 @@
       "no": 3209211,
       "function_key": 1,
       "target_key": 1208,
-      "value": 1.0,
+      "value": 6.0,
       "condition_type": 1,
       "fx_path": "none"
     },
     {
       "no": 3209212,
-      "function_key": 1,
+      "function_key": 30,
       "target_key": 1208,
-      "value": 1.0,
+      "value": 3209212.0,
       "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209213,
+      "function_key": 30,
+      "target_key": 1208,
+      "value": 3209213.0,
+      "condition_type": 1,
+      "condition_id1": 3209213,
       "fx_path": "none"
     },
     {
       "no": 3209221,
       "function_key": 1,
-      "target_key": 2100,
-      "value": 1.0,
+      "target_key": 2206,
+      "value": 2.8,
       "condition_type": 1,
       "fx_path": "none"
     },
     {
       "no": 3209222,
+      "function_key": 30,
+      "target_key": 2206,
+      "value": 3209222.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209223,
+      "function_key": 30,
+      "target_key": 2206,
+      "value": 3209223.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209224,
       "function_key": 1,
-      "target_key": 2100,
-      "value": 1.0,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 5.0,
       "condition_type": 1,
       "fx_path": "none"
     },
     {
       "no": 3209231,
       "function_key": 1,
-      "target_key": 1208,
-      "value": 1.0,
+      "target_key": 2207,
+      "value": 3.0,
       "condition_type": 1,
       "fx_path": "none"
     },
     {
       "no": 3209232,
-      "function_key": 1,
-      "target_key": 1208,
-      "value": 1.0,
+      "function_key": 30,
+      "target_key": 2207,
+      "value": 3209232.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209233,
+      "function_key": 30,
+      "target_key": 2100,
+      "value": 3209233.0,
       "condition_type": 1,
       "fx_path": "none"
     },
     {
       "no": 3209241,
       "function_key": 30,
-      "is_ally": 1,
-      "target_key": 1100,
+      "target_key": 1208,
       "value": 3209241.0,
       "condition_type": 1,
       "fx_path": "none"
     },
     {
       "no": 3209242,
+      "function_key": 28,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 3209243.0,
+      "duration": 999.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209243,
+      "function_key": 30,
+      "target_key": 1213,
+      "value": 3209243.0,
+      "condition_type": 2,
+      "condition_id1": 3209242,
+      "condition_id2": 3209243,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209244,
+      "function_key": 1,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 10.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209245,
+      "function_key": 28,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 3209246.0,
+      "duration": 999.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209246,
+      "function_key": 30,
+      "target_key": 1208,
+      "value": 3209246.0,
+      "condition_type": 1,
+      "condition_id1": 3209246,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209247,
+      "function_key": 28,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 3209248.0,
+      "duration": 999.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209248,
+      "function_key": 30,
+      "target_key": 1208,
+      "value": 3209248.0,
+      "condition_type": 1,
+      "condition_id1": 3209248,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209249,
+      "function_key": 4,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 500.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209250,
+      "function_key": 28,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 3209251.0,
+      "duration": 999.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209251,
       "function_key": 30,
       "is_ally": 1,
       "target_key": 1100,
-      "value": 3209242.0,
+      "value": 3209251.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209252,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 3209252.0,
       "condition_type": 1,
       "fx_path": "none"
     },
@@ -123284,6 +123507,103 @@
       "target_key": 1100,
       "value": 3209261.0,
       "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209262,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 3209262.0,
+      "condition_type": 1,
+      "condition_id1": 3209261,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209263,
+      "function_key": 28,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 3209264.0,
+      "duration": 999.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209264,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 3209264.0,
+      "condition_type": 1,
+      "condition_id1": 3209262,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209265,
+      "function_key": 28,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 3209268.0,
+      "duration": 999.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209266,
+      "function_key": 23,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 3209262.0,
+      "condition_type": 1,
+      "condition_id1": 3209266,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209267,
+      "function_key": 4,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 10000.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209268,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 3209268.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209269,
+      "function_key": 23,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 3209262.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209270,
+      "function_key": 28,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 3209271.0,
+      "duration": 999.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 3209271,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 3209271.0,
+      "condition_type": 1,
+      "condition_id1": 3209266,
       "fx_path": "none"
     },
     {
@@ -138709,7 +139029,8 @@
     {
       "no": 6610532,
       "function_key": 30,
-      "target_key": 2100,
+      "is_ally": 1,
+      "target_key": 1100,
       "value": 6610532.0,
       "condition_type": 1,
       "fx_path": "none",
@@ -138718,11 +139039,59 @@
     {
       "no": 6610533,
       "function_key": 30,
-      "target_key": 2100,
+      "is_ally": 1,
+      "target_key": 1100,
       "value": 6610533.0,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
+    },
+    {
+      "no": 6610534,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 6610534.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 6610535,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 6610535.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 6610536,
+      "function_key": 30,
+      "target_key": 2100,
+      "value": 6610536.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 6610537,
+      "function_key": 30,
+      "target_key": 2100,
+      "value": 6610537.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 6611588,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 6611588.0,
+      "condition_type": 1,
+      "fx_path": "none"
     },
     {
       "no": 6611599,
@@ -138841,6 +139210,25 @@
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
+    },
+    {
+      "no": 6630532,
+      "function_key": 37,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 304012.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 6630533,
+      "function_key": 37,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 7.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "delay": 11.4
     },
     {
       "no": 6630541,

@@ -210,6 +210,22 @@
     },
     {
       "no": 14,
+      "hero_no": 1150,
+      "hero_grade": 110025,
+      "signature_no": 1151,
+      "signature_grade": 110020,
+      "signature_level": 40,
+      "slot1": 1093,
+      "slot_level1": 15,
+      "slot2": 1094,
+      "slot_level2": 15,
+      "slot3": 1095,
+      "slot_level3": 15,
+      "slot4": 1096,
+      "slot_level4": 15
+    },
+    {
+      "no": 15,
       "hero_no": 2010,
       "hero_grade": 110025,
       "signature_no": 2011,
@@ -225,7 +241,7 @@
       "slot_level4": 15
     },
     {
-      "no": 15,
+      "no": 16,
       "hero_no": 2020,
       "hero_grade": 110025,
       "signature_no": 2021,
@@ -241,7 +257,7 @@
       "slot_level4": 15
     },
     {
-      "no": 16,
+      "no": 17,
       "hero_no": 2030,
       "hero_grade": 110025,
       "signature_no": 2031,
@@ -257,7 +273,7 @@
       "slot_level4": 15
     },
     {
-      "no": 17,
+      "no": 18,
       "hero_no": 2040,
       "hero_grade": 110025,
       "signature_no": 2041,
@@ -273,7 +289,7 @@
       "slot_level4": 15
     },
     {
-      "no": 18,
+      "no": 19,
       "hero_no": 2050,
       "hero_grade": 110025,
       "signature_no": 2051,
@@ -289,7 +305,7 @@
       "slot_level4": 15
     },
     {
-      "no": 19,
+      "no": 20,
       "hero_no": 2060,
       "hero_grade": 110025,
       "signature_no": 2061,
@@ -305,7 +321,7 @@
       "slot_level4": 15
     },
     {
-      "no": 20,
+      "no": 21,
       "hero_no": 2070,
       "hero_grade": 110025,
       "signature_no": 2071,
@@ -321,7 +337,7 @@
       "slot_level4": 15
     },
     {
-      "no": 21,
+      "no": 22,
       "hero_no": 2080,
       "hero_grade": 110025,
       "signature_no": 2081,
@@ -337,7 +353,7 @@
       "slot_level4": 15
     },
     {
-      "no": 22,
+      "no": 23,
       "hero_no": 2090,
       "hero_grade": 110025,
       "signature_no": 2091,
@@ -353,7 +369,7 @@
       "slot_level4": 15
     },
     {
-      "no": 23,
+      "no": 24,
       "hero_no": 2100,
       "hero_grade": 110025,
       "signature_no": 2101,
@@ -369,7 +385,7 @@
       "slot_level4": 15
     },
     {
-      "no": 24,
+      "no": 25,
       "hero_no": 2110,
       "hero_grade": 110025,
       "signature_no": 2111,
@@ -385,7 +401,7 @@
       "slot_level4": 15
     },
     {
-      "no": 25,
+      "no": 26,
       "hero_no": 2120,
       "hero_grade": 110025,
       "signature_no": 2121,
@@ -401,7 +417,7 @@
       "slot_level4": 15
     },
     {
-      "no": 26,
+      "no": 27,
       "hero_no": 2130,
       "hero_grade": 110025,
       "signature_no": 2131,
@@ -417,7 +433,7 @@
       "slot_level4": 15
     },
     {
-      "no": 27,
+      "no": 28,
       "hero_no": 2140,
       "hero_grade": 110025,
       "signature_no": 2141,
@@ -433,7 +449,7 @@
       "slot_level4": 15
     },
     {
-      "no": 28,
+      "no": 29,
       "hero_no": 2150,
       "hero_grade": 110025,
       "signature_no": 2151,
@@ -449,7 +465,7 @@
       "slot_level4": 15
     },
     {
-      "no": 29,
+      "no": 30,
       "hero_no": 3010,
       "hero_grade": 110025,
       "signature_no": 3011,
@@ -465,7 +481,7 @@
       "slot_level4": 15
     },
     {
-      "no": 30,
+      "no": 31,
       "hero_no": 3020,
       "hero_grade": 110025,
       "signature_no": 3021,
@@ -481,7 +497,7 @@
       "slot_level4": 15
     },
     {
-      "no": 31,
+      "no": 32,
       "hero_no": 3030,
       "hero_grade": 110025,
       "signature_no": 3031,
@@ -497,7 +513,7 @@
       "slot_level4": 15
     },
     {
-      "no": 32,
+      "no": 33,
       "hero_no": 3040,
       "hero_grade": 110025,
       "signature_no": 3041,
@@ -513,7 +529,7 @@
       "slot_level4": 15
     },
     {
-      "no": 33,
+      "no": 34,
       "hero_no": 3050,
       "hero_grade": 110025,
       "signature_no": 3051,
@@ -529,7 +545,7 @@
       "slot_level4": 15
     },
     {
-      "no": 34,
+      "no": 35,
       "hero_no": 3060,
       "hero_grade": 110025,
       "signature_no": 3061,
@@ -545,7 +561,7 @@
       "slot_level4": 15
     },
     {
-      "no": 35,
+      "no": 36,
       "hero_no": 3070,
       "hero_grade": 110025,
       "signature_no": 3071,
@@ -561,7 +577,7 @@
       "slot_level4": 15
     },
     {
-      "no": 36,
+      "no": 37,
       "hero_no": 3080,
       "hero_grade": 110025,
       "signature_no": 3081,
@@ -577,7 +593,7 @@
       "slot_level4": 15
     },
     {
-      "no": 37,
+      "no": 38,
       "hero_no": 3090,
       "hero_grade": 110025,
       "signature_no": 3091,
@@ -593,7 +609,7 @@
       "slot_level4": 15
     },
     {
-      "no": 38,
+      "no": 39,
       "hero_no": 3100,
       "hero_grade": 110025,
       "signature_no": 3101,
@@ -609,7 +625,7 @@
       "slot_level4": 15
     },
     {
-      "no": 39,
+      "no": 40,
       "hero_no": 3110,
       "hero_grade": 110025,
       "signature_no": 3111,
@@ -625,7 +641,7 @@
       "slot_level4": 15
     },
     {
-      "no": 40,
+      "no": 41,
       "hero_no": 3120,
       "hero_grade": 110025,
       "signature_no": 3121,
@@ -641,7 +657,7 @@
       "slot_level4": 15
     },
     {
-      "no": 41,
+      "no": 42,
       "hero_no": 3130,
       "hero_grade": 110025,
       "signature_no": 3131,
@@ -657,7 +673,7 @@
       "slot_level4": 15
     },
     {
-      "no": 42,
+      "no": 43,
       "hero_no": 4010,
       "hero_grade": 110025,
       "signature_no": 4011,
@@ -673,7 +689,7 @@
       "slot_level4": 15
     },
     {
-      "no": 43,
+      "no": 44,
       "hero_no": 4020,
       "hero_grade": 110025,
       "signature_no": 4021,
@@ -689,7 +705,7 @@
       "slot_level4": 15
     },
     {
-      "no": 44,
+      "no": 45,
       "hero_no": 4030,
       "hero_grade": 110025,
       "signature_no": 4031,
@@ -705,7 +721,7 @@
       "slot_level4": 15
     },
     {
-      "no": 45,
+      "no": 46,
       "hero_no": 4040,
       "hero_grade": 110025,
       "signature_no": 4041,
@@ -721,7 +737,7 @@
       "slot_level4": 15
     },
     {
-      "no": 46,
+      "no": 47,
       "hero_no": 4050,
       "hero_grade": 110025,
       "signature_no": 4051,
@@ -737,7 +753,7 @@
       "slot_level4": 15
     },
     {
-      "no": 47,
+      "no": 48,
       "hero_no": 4060,
       "hero_grade": 110025,
       "signature_no": 4061,
@@ -753,7 +769,7 @@
       "slot_level4": 15
     },
     {
-      "no": 48,
+      "no": 49,
       "hero_no": 4070,
       "hero_grade": 110025,
       "signature_no": 4071,
@@ -769,7 +785,7 @@
       "slot_level4": 15
     },
     {
-      "no": 49,
+      "no": 50,
       "hero_no": 4080,
       "hero_grade": 110025,
       "signature_no": 4081,
@@ -785,7 +801,7 @@
       "slot_level4": 15
     },
     {
-      "no": 50,
+      "no": 51,
       "hero_no": 4090,
       "hero_grade": 110025,
       "signature_no": 4091,
@@ -801,7 +817,7 @@
       "slot_level4": 15
     },
     {
-      "no": 51,
+      "no": 52,
       "hero_no": 4100,
       "hero_grade": 110025,
       "signature_no": 4101,
@@ -817,7 +833,7 @@
       "slot_level4": 15
     },
     {
-      "no": 52,
+      "no": 53,
       "hero_no": 4110,
       "hero_grade": 110025,
       "signature_no": 4111,
@@ -833,7 +849,7 @@
       "slot_level4": 15
     },
     {
-      "no": 53,
+      "no": 54,
       "hero_no": 4120,
       "hero_grade": 110025,
       "signature_no": 4121,
@@ -849,7 +865,7 @@
       "slot_level4": 15
     },
     {
-      "no": 54,
+      "no": 55,
       "hero_no": 4130,
       "hero_grade": 110025,
       "signature_no": 4131,
@@ -865,7 +881,7 @@
       "slot_level4": 15
     },
     {
-      "no": 55,
+      "no": 56,
       "hero_no": 4140,
       "hero_grade": 110025,
       "signature_no": 4141,
@@ -881,7 +897,7 @@
       "slot_level4": 15
     },
     {
-      "no": 56,
+      "no": 57,
       "hero_no": 5010,
       "hero_grade": 110025,
       "signature_no": 5011,
@@ -897,7 +913,7 @@
       "slot_level4": 15
     },
     {
-      "no": 57,
+      "no": 58,
       "hero_no": 5020,
       "hero_grade": 110025,
       "signature_no": 5021,
@@ -913,7 +929,7 @@
       "slot_level4": 15
     },
     {
-      "no": 58,
+      "no": 59,
       "hero_no": 5030,
       "hero_grade": 110025,
       "signature_no": 5031,
@@ -929,7 +945,7 @@
       "slot_level4": 15
     },
     {
-      "no": 59,
+      "no": 60,
       "hero_no": 6010,
       "hero_grade": 110025,
       "signature_no": 6011,
@@ -945,7 +961,7 @@
       "slot_level4": 15
     },
     {
-      "no": 60,
+      "no": 61,
       "hero_no": 6020,
       "hero_grade": 110025,
       "signature_no": 6021,
@@ -961,7 +977,7 @@
       "slot_level4": 15
     },
     {
-      "no": 61,
+      "no": 62,
       "hero_no": 6030,
       "hero_grade": 110025,
       "signature_no": 6031,
@@ -977,7 +993,7 @@
       "slot_level4": 15
     },
     {
-      "no": 62,
+      "no": 63,
       "hero_no": 6050,
       "hero_grade": 110025,
       "signature_no": 6051,
@@ -993,7 +1009,7 @@
       "slot_level4": 15
     },
     {
-      "no": 63,
+      "no": 64,
       "hero_no": 6510,
       "hero_grade": 110025,
       "signature_no": 6511,
@@ -1009,7 +1025,7 @@
       "slot_level4": 15
     },
     {
-      "no": 64,
+      "no": 65,
       "hero_no": 3140,
       "hero_grade": 110025,
       "signature_no": 3141,
@@ -1025,7 +1041,7 @@
       "slot_level4": 15
     },
     {
-      "no": 65,
+      "no": 66,
       "hero_no": 6990,
       "hero_grade": 110025,
       "signature_no": 6991,
@@ -1041,7 +1057,7 @@
       "slot_level4": 15
     },
     {
-      "no": 66,
+      "no": 67,
       "hero_no": 6980,
       "hero_grade": 110025,
       "signature_no": 6981,
@@ -1057,7 +1073,7 @@
       "slot_level4": 15
     },
     {
-      "no": 67,
+      "no": 68,
       "hero_no": 6520,
       "hero_grade": 110025,
       "signature_no": 6521,
@@ -1073,7 +1089,7 @@
       "slot_level4": 15
     },
     {
-      "no": 68,
+      "no": 69,
       "hero_no": 1080,
       "hero_grade": 110025,
       "signature_no": 1081,
@@ -1089,7 +1105,7 @@
       "slot_level4": 15
     },
     {
-      "no": 69,
+      "no": 70,
       "hero_no": 3150,
       "hero_grade": 110025,
       "signature_no": 3151,
@@ -1105,7 +1121,7 @@
       "slot_level4": 15
     },
     {
-      "no": 70,
+      "no": 71,
       "hero_no": 6530,
       "hero_grade": 110025,
       "signature_no": 6531,
@@ -1121,7 +1137,7 @@
       "slot_level4": 15
     },
     {
-      "no": 71,
+      "no": 72,
       "hero_no": 4150,
       "hero_grade": 110025,
       "signature_no": 4151,

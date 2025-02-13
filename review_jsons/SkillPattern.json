@@ -236,12 +236,12 @@
     },
     {
       "hero_no": 1150,
-      "pattern1": 1153,
-      "pattern2": 1152,
-      "pattern3": 1150,
+      "pattern1": 1150,
+      "pattern2": 1153,
+      "pattern3": 1152,
       "pattern4": 1150,
-      "pattern5": 1152,
-      "pattern6": 1150
+      "pattern5": 1150,
+      "pattern6": 1152
     },
     {
       "hero_no": 2010,
@@ -9089,7 +9089,14 @@
     },
     {
       "hero_no": 32092,
-      "ai_pattern": 3,
+      "pattern1": 320920,
+      "pattern2": 320920,
+      "pattern3": 320922,
+      "pattern4": 320920,
+      "pattern5": 320923
+    },
+    {
+      "hero_no": 32093,
       "pattern1": 320920,
       "pattern2": 320920,
       "pattern3": 320922,

@@ -1774,7 +1774,7 @@
       "en": "Crit Rate",
       "ja": "クリティカル率",
       "zh_tw": "暴擊率",
-      "zh_cn": "暴击率"
+      "zh_cn": "会心率"
     },
     {
       "no": 223,
@@ -1782,7 +1782,7 @@
       "en": "Crit DMG",
       "ja": "クリティカル威力",
       "zh_tw": "暴擊威力",
-      "zh_cn": "暴击威力"
+      "zh_cn": "会心威力"
     },
     {
       "no": 224,
@@ -2078,7 +2078,7 @@
       "en": "ATK <color=\"#62CA38\">+15%</color>, Crit Rate <color=\"#62CA38\">+10%</color>",
       "ja": "攻撃力<color=\"#62CA38\">+15%</color>、クリティカル率<color=\"#62CA38\">+10%</color>",
       "zh_tw": "攻擊力<color=\"#62CA38\">+15％</color>，暴擊率<color=\"#62CA38\">+10％</color>",
-      "zh_cn": "攻击力<color=\"#62CA38\">+15％</color>，暴击率<color=\"#62CA38\">+10％</color>"
+      "zh_cn": "攻击力<color=\"#62CA38\">+15％</color>，会心率<color=\"#62CA38\">+10％</color>"
     },
     {
       "no": 261,
@@ -2094,7 +2094,7 @@
       "en": "ATK <color=\"#62CA38\">+15%</color>, Crit Rate <color=\"#62CA38\">+10%</color>, Crit DMG <color=\"#62CA38\">+20%</color>",
       "ja": "攻撃力<color=\"#62CA38\">+15%</color>、クリティカル率<color=\"#62CA38\">+10%</color>、クリティカル威力<color=\"#62CA38\">+20%</color>",
       "zh_tw": "攻擊力<color=\"#62CA38\">+15％</color>，暴擊率<color=\"#62CA38\">+10％</color>，暴擊威力<color=\"#62CA38\">+20％</color>",
-      "zh_cn": "攻击力<color=\"#62CA38\">+15％</color>，暴击率<color=\"#62CA38\">+10％</color>，暴击威力<color=\"#62CA38\">+20％</color>"
+      "zh_cn": "攻击力<color=\"#62CA38\">+15％</color>，会心率<color=\"#62CA38\">+10％</color>，会心威力<color=\"#62CA38\">+20％</color>"
     },
     {
       "no": 263,
@@ -2110,7 +2110,7 @@
       "en": "ATK <color=\"#62CA38\">+20%</color>, Crit Rate <color=\"#62CA38\">+15%</color>, Crit DMG <color=\"#62CA38\">+25%</color>",
       "ja": "攻撃力<color=\"#62CA38\">+20%</color>、クリティカル率<color=\"#62CA38\">+15%</color>、クリティカル威力<color=\"#62CA38\">+25%</color>",
       "zh_tw": "攻擊力<color=\"#62CA38\">+20％</color>，暴擊率<color=\"#62CA38\">+15％</color>，暴擊威力<color=\"#62CA38\">+25％</color>",
-      "zh_cn": "攻击力<color=\"#62CA38\">+20％</color>，暴击率<color=\"#62CA38\">+15％</color>，暴击威力<color=\"#62CA38\">+25％</color>"
+      "zh_cn": "攻击力<color=\"#62CA38\">+20％</color>，会心率<color=\"#62CA38\">+15％</color>，会心威力<color=\"#62CA38\">+25％</color>"
     },
     {
       "no": 265,
@@ -2126,7 +2126,7 @@
       "en": "ATK <color=\"#62CA38\">+25%</color>, Crit Rate <color=\"#62CA38\">+20%</color>, Crit DMG <color=\"#62CA38\">+30%</color>",
       "ja": "攻撃力<color=\"#62CA38\">+25%</color>、クリティカル率<color=\"#62CA38\">+20%</color>、クリティカル威力<color=\"#62CA38\">+30%</color>",
       "zh_tw": "攻擊力<color=\"#62CA38\">+25％</color>，暴擊率<color=\"#62CA38\">+20％</color>，暴擊威力<color=\"#62CA38\">+30％</color>",
-      "zh_cn": "攻击力<color=\"#62CA38\">+25％</color>，暴击率<color=\"#62CA38\">+20％</color>，暴击威力<color=\"#62CA38\">+30％</color>"
+      "zh_cn": "攻击力<color=\"#62CA38\">+25％</color>，会心率<color=\"#62CA38\">+20％</color>，会心威力<color=\"#62CA38\">+30％</color>"
     },
     {
       "no": 267,
@@ -3838,7 +3838,7 @@
       "en": "ATK <color=\"#62CA38\">20%</color>, HP <color=\"#62CA38\">10%</color>, Crit Rate <color=\"#62CA38\">10%</color>",
       "ja": "攻撃力<color=\"#62CA38\">20%</color>、体力<color=\"#62CA38\">10%</color>、クリティカル率<color=\"#62CA38\">10%</color>",
       "zh_tw": "攻擊力<color=\"#62CA38\">20％</color>，體力<color=\"#62CA38\">10％</color>，暴擊率<color=\"#62CA38\">10％</color>",
-      "zh_cn": "攻击力<color=\"#62CA38\">20％</color>，体力<color=\"#62CA38\">10％</color>，暴击率<color=\"#62CA38\">10％</color>"
+      "zh_cn": "攻击力<color=\"#62CA38\">20％</color>，体力<color=\"#62CA38\">10％</color>，会心率<color=\"#62CA38\">10％</color>"
     },
     {
       "no": 481,
@@ -5574,7 +5574,7 @@
       "en": "Skip Battle",
       "ja": "戦闘スキップ",
       "zh_tw": "略過戰鬥",
-      "zh_cn": "略过战斗"
+      "zh_cn": "跳过战斗"
     },
     {
       "no": 698,
@@ -5590,7 +5590,7 @@
       "en": "Skip",
       "ja": "スキップ",
       "zh_tw": "略過",
-      "zh_cn": "略过"
+      "zh_cn": "跳过"
     },
     {
       "no": 700,
@@ -5614,7 +5614,7 @@
       "en": "The monsters are overwhelmed and will run away.\r\nSkip battle?",
       "ja": "あなたに怖気づいたモンスターが逃げ出します。\r\n戦闘をスキップしますか？",
       "zh_tw": "怪物被你的氣勢嚇跑了。\r\n要略過戰鬥嗎？",
-      "zh_cn": "怪物被你的气势吓跑了。\r\n要略过战斗吗？"
+      "zh_cn": "怪物被你的气势吓跑了。\r\n要跳过战斗吗？"
     },
     {
       "no": 703,
@@ -7369,6 +7369,14 @@
       "zh_cn": ""
     },
     {
+      "no": 922,
+      "kr": "{0}-{1}",
+      "en": "{0}-{1}",
+      "ja": "{0}-{1}",
+      "zh_tw": "{0}-{1}",
+      "zh_cn": "{0}-{1}"
+    },
+    {
       "no": 8611,
       "kr": "저주받은 마검",
       "en": "Cursed Sword",
@@ -7910,7 +7918,7 @@
       "en": "Crit Rate <color=\"#5ed5f6\">+{0}%</color>",
       "ja": "クリティカル率<color=\"#5ed5f6\">{0}%</color>増加",
       "zh_tw": "暴擊率增加<color=\"#5ed5f6\">{0}%</color>",
-      "zh_cn": "暴击率增加<color=\"#5ed5f6\">{0}%</color>"
+      "zh_cn": "会心率增加<color=\"#5ed5f6\">{0}%</color>"
     },
     {
       "no": 10028,
@@ -7918,7 +7926,7 @@
       "en": "Crit DMG <color=\"#5ed5f6\">+{0}%</color>",
       "ja": "クリティカル威力<color=\"#5ed5f6\">{0}%</color>増加",
       "zh_tw": "暴擊威力增加<color=\"#5ed5f6\">{0}%</color>",
-      "zh_cn": "暴击威力增加<color=\"#5ed5f6\">{0}%</color>"
+      "zh_cn": "会心威力增加<color=\"#5ed5f6\">{0}%</color>"
     },
     {
       "no": 10029,
@@ -8926,7 +8934,7 @@
       "en": "Obtain all Leo buffs: \r\n<color=\"#5ed5f6\">Crit Rate of all Souls +2.5%</color>",
       "ja": "獅子座のすべてのバフを獲得すると、\r\n<color=\"#5ed5f6\">精霊全員のクリティカル率2.5%</color>増加",
       "zh_tw": "獲得獅子宮所有增益時\r\n增加<color=\"#5ed5f6\">所有精靈的暴擊率2.5％</color>",
-      "zh_cn": "获得狮子宫所有增益时\r\n增加<color=\"#5ed5f6\">所有精灵的暴击率2.5％</color>"
+      "zh_cn": "获得狮子宫所有增益时\r\n增加<color=\"#5ed5f6\">所有精灵的会心率2.5％</color>"
     },
     {
       "no": 10306,
@@ -8942,7 +8950,7 @@
       "en": "Obtain all Libra buffs: \r\n<color=\"#5ed5f6\">Crit Rate of all Souls +2.5%</color>",
       "ja": "天秤座のすべてのバフを獲得すると、\r\n<color=\"#5ed5f6\">精霊全員のクリティカル率2.5%</color>増加",
       "zh_tw": "獲得天秤宮所有增益時\r\n增加<color=\"#5ed5f6\">所有精靈的暴擊率2.5％</color>",
-      "zh_cn": "获得天秤宫所有增益时\r\n增加<color=\"#5ed5f6\">所有精灵的暴击率2.5％</color>"
+      "zh_cn": "获得天秤宫所有增益时\r\n增加<color=\"#5ed5f6\">所有精灵的会心率2.5％</color>"
     },
     {
       "no": 10308,
@@ -8950,7 +8958,7 @@
       "en": "Obtain all Scorpio buffs: \r\n<color=\"#5ed5f6\">Crit DMG of all Souls +5%</color>",
       "ja": "蠍座のすべてのバフを獲得すると、\r\n<color=\"#5ed5f6\">精霊全員のクリティカル威力5%</color>増加",
       "zh_tw": "獲得天蠍宮所有增益時\r\n增加<color=\"#5ed5f6\">所有精靈的暴擊威力5％</color>",
-      "zh_cn": "获得天蝎宫所有增益时\r\n增加<color=\"#5ed5f6\">所有精灵的暴击威力5％</color>"
+      "zh_cn": "获得天蝎宫所有增益时\r\n增加<color=\"#5ed5f6\">所有精灵的会心威力5％</color>"
     },
     {
       "no": 10309,
@@ -8974,7 +8982,7 @@
       "en": "Obtain all Aquarius buffs: \r\n<color=\"#5ed5f6\">Crit DMG of all Souls +5%</color>",
       "ja": "水瓶座のすべてのバフを獲得すると、\r\n<color=\"#5ed5f6\">精霊全員のクリティカル威力5%</color>増加",
       "zh_tw": "獲得寶瓶宮所有增益時\r\n增加<color=\"#5ed5f6\">所有精靈的暴擊威力5％</color>",
-      "zh_cn": "获得宝瓶宫所有增益时\r\n增加<color=\"#5ed5f6\">所有精灵的暴击威力5％</color>"
+      "zh_cn": "获得宝瓶宫所有增益时\r\n增加<color=\"#5ed5f6\">所有精灵的会心威力5％</color>"
     },
     {
       "no": 10312,
@@ -9086,7 +9094,7 @@
       "en": "Received Crit DMG of all enemies -40%",
       "ja": "敵全員の被クリティカル率40%減少",
       "zh_tw": "所有敵軍的被暴擊擊中率減少40%",
-      "zh_cn": "所有敌军的被暴击击中率减少40%"
+      "zh_cn": "所有敌军的被会心击中率减少40%"
     },
     {
       "no": 10503,
@@ -9190,7 +9198,7 @@
       "en": "Crit DMG +60% for all ally Souls",
       "ja": "味方精霊全員のクリティカルダメージ量60%増加",
       "zh_tw": "所有友軍精靈\r\n暴擊傷害量增加60%",
-      "zh_cn": "所有友军精灵\r\n暴击伤害量增加60%"
+      "zh_cn": "所有友军精灵\r\n会心伤害量增加60%"
     },
     {
       "no": 10532,
@@ -9302,7 +9310,7 @@
       "en": "Crit Rate +30% for all enemy Souls ",
       "ja": "敵精霊全員のクリティカル率30%増加 ",
       "zh_tw": "所有敵軍精靈\r\n暴擊機率增加30%",
-      "zh_cn": "所有敌军精灵\r\n暴击机率增加30%"
+      "zh_cn": "所有敌军精灵\r\n会心机率增加30%"
     },
     {
       "no": 10546,
@@ -9446,7 +9454,7 @@
       "en": "Received Crit DMG +25% for all ally Souls",
       "ja": "味方精霊全員の被クリティカル率25%増加",
       "zh_tw": "所有友軍精靈被暴擊擊中率增加25%",
-      "zh_cn": "所有友军精灵被暴击击中率增加25%"
+      "zh_cn": "所有友军精灵被会心击中率增加25%"
     },
     {
       "no": 10564,
@@ -9542,7 +9550,7 @@
       "en": "ATK -50% and Crit DMG -40% for all DEX ally Souls",
       "ja": "敏捷特性の味方全員の攻撃力50%、クリティカル威力40%減少",
       "zh_tw": "所有友軍敏捷特性精靈減少攻擊力50%、暴擊威力40%",
-      "zh_cn": "所有友军敏捷特性精灵减少攻击力50%、暴击威力40%"
+      "zh_cn": "所有友军敏捷特性精灵减少攻击力50%、会心威力40%"
     },
     {
       "no": 10576,
@@ -10358,7 +10366,7 @@
       "en": "Crit Rate",
       "ja": "クリティカル率",
       "zh_tw": "暴擊率",
-      "zh_cn": "暴击率"
+      "zh_cn": "会心率"
     },
     {
       "no": 10905,
@@ -10366,7 +10374,7 @@
       "en": "Crit DMG",
       "ja": "クリティカル威力",
       "zh_tw": "暴擊威力",
-      "zh_cn": "暴击威力"
+      "zh_cn": "会心威力"
     },
     {
       "no": 10906,
@@ -10422,7 +10430,7 @@
       "en": "Crit Resistance",
       "ja": "被クリティカル率",
       "zh_tw": "被暴擊擊中率",
-      "zh_cn": "被暴击击中率"
+      "zh_cn": "被会心击中率"
     },
     {
       "no": 10913,
@@ -12179,81 +12187,81 @@
     {
       "no": 11390,
       "kr": "로제(홍염) 획득",
-      "en": "Acquire {0}",
+      "en": "Acquire Rose (Prominence)",
       "ja": "{0}を獲得",
-      "zh_tw": "獲得{0}",
+      "zh_tw": "獲得蘿絲（紅焰）",
       "zh_cn": ""
     },
     {
       "no": 11391,
       "kr": "로제(홍염) 에픽+등급 달성",
-      "en": "Upgrade {0} to Epic+",
+      "en": "Upgrade Rose (Prominence) to Epic+",
       "ja": "{0}のエピック+ランクを達成",
-      "zh_tw": "達成{0}史詩＋階級",
+      "zh_tw": "達成蘿絲（紅焰）史詩＋階級",
       "zh_cn": ""
     },
     {
       "no": 11392,
       "kr": "로제(홍염) 레전더리 등급 달성",
-      "en": "Upgrade {0} to Legendary",
+      "en": "Upgrade Rose (Prominence) to Legendary",
       "ja": "{0}のレジェンダリーランクを達成",
-      "zh_tw": "達成{0}傳說階級",
+      "zh_tw": "達成蘿絲（紅焰）傳說階級",
       "zh_cn": ""
     },
     {
       "no": 11393,
       "kr": "이벤트 1일차 미션 완료",
-      "en": "",
+      "en": "Complete Day 1 Event Missions",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "完成第1天活動",
       "zh_cn": ""
     },
     {
       "no": 11394,
       "kr": "이벤트 2일차 미션 완료",
-      "en": "",
+      "en": "Complete Day 2 Event Missions",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "完成第2天活動",
       "zh_cn": ""
     },
     {
       "no": 11395,
       "kr": "이벤트 3일차 미션 완료",
-      "en": "",
+      "en": "Complete Day 3 Event Missions",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "完成第3天活動",
       "zh_cn": ""
     },
     {
       "no": 11396,
       "kr": "이벤트 4일차 미션 완료",
-      "en": "",
+      "en": "Complete Day 4 Event Missions",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "完成第4天活動",
       "zh_cn": ""
     },
     {
       "no": 11397,
       "kr": "이벤트 5일차 미션 완료",
-      "en": "",
+      "en": "Complete Day 5 Event Missions",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "完成第5天活動",
       "zh_cn": ""
     },
     {
       "no": 11398,
       "kr": "이벤트 6일차 미션 완료",
-      "en": "",
+      "en": "Complete Day 6 Event Missions",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "完成第6天活動",
       "zh_cn": ""
     },
     {
       "no": 11399,
       "kr": "이벤트 7일차 미션 완료",
-      "en": "",
+      "en": "Complete Day 7 Event Missions",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "完成第7天活動",
       "zh_cn": ""
     },
     {
@@ -13411,9 +13419,9 @@
     {
       "no": 12088,
       "kr": "마물을 물리치고 심상 세계를 탈출하세요!",
-      "en": "",
+      "en": "Defeat the monsters and escape the Imaginary World!",
       "ja": "魔物を倒して心象世界を脱出しましょう！",
-      "zh_tw": "",
+      "zh_tw": "擊退魔物，逃出心理世界！",
       "zh_cn": ""
     },
     {
@@ -15556,7 +15564,7 @@
       "no": 12356,
       "kr": "메이드 카페\r\n교환 상점",
       "en": "Maid Cafe\r\nExchange Shop",
-      "ja": "メイドカフェ\r\n交感ショップ",
+      "ja": "メイドカフェ\r\n交換ショップ",
       "zh_tw": "女僕咖啡廳\r\n兌換商店",
       "zh_cn": "女仆咖啡厅\r\n兑换商店"
     },
@@ -16726,7 +16734,7 @@
       "en": "Ally Soul Linzy's Crit Rate +10%",
       "ja": "味方精霊「リンジー」のクリティカル率10%増加",
       "zh_tw": "友軍精靈「琳賽」的暴擊率增加10％",
-      "zh_cn": "友军精灵“琳赛”的暴击率增加10％"
+      "zh_cn": "友军精灵“琳赛”的会心率增加10％"
     },
     {
       "no": 12509,
@@ -16774,7 +16782,7 @@
       "en": "Ally Soul Linzy's Crit DMG +20%",
       "ja": "味方精霊「リンジー」のクリティカル威力20%増加",
       "zh_tw": "友軍精靈「琳賽」的暴擊威力增加20%",
-      "zh_cn": "友军精灵“琳赛”的暴击威力增加20%"
+      "zh_cn": "友军精灵“琳赛”的会心威力增加20%"
     },
     {
       "no": 12515,
@@ -17166,7 +17174,7 @@
       "en": "Crit Rate increases by 30% for all allies when Prim is in your team.",
       "ja": "味方に「プリム」がいる場合、味方全員のクリティカル率が30%増加する。",
       "zh_tw": "友軍配有「弗里姆」時，使所有友軍暴擊率增加30%",
-      "zh_cn": "友军配有“弗里姆”时，使所有友军暴击率增加30%"
+      "zh_cn": "友军配有“弗里姆”时，使所有友军会心率增加30%"
     },
     {
       "no": 12564,
@@ -18595,9 +18603,9 @@
     {
       "no": 12816,
       "kr": "변신 사용하기 ({1}/{0}) \r\n+{2}점",
-      "en": "",
+      "en": "Use transformation ({1}/{0})\r\n+{2} pts",
       "ja": "変身を使用する({1}/{0}) \r\n+{2}点",
-      "zh_tw": "",
+      "zh_tw": "使用變身（{1}／{0}）\r\n+{2}分",
       "zh_cn": ""
     },
     {
@@ -19118,7 +19126,7 @@
       "en": "Crit Rate Set",
       "ja": "クリティカル率セット",
       "zh_tw": "暴擊率組合",
-      "zh_cn": "暴击率组合"
+      "zh_cn": "会心率组合"
     },
     {
       "no": 14105,
@@ -19126,7 +19134,7 @@
       "en": "Crit DMG Set",
       "ja": "クリティカル威力セット",
       "zh_tw": "暴擊威力組合",
-      "zh_cn": "暴击威力组合"
+      "zh_cn": "会心威力组合"
     },
     {
       "no": 14107,
@@ -19819,7 +19827,7 @@
     {
       "no": 19109,
       "kr": "주간 순위 보상: 월요일 UTC+0 이후 아레나 입장 시 우편 발송\r\n일일 순위 보상: UTC+0 우편 발송\r\n승리/패배 보상: 도전의 결과에 따라 인벤토리로 즉시 지급",
-      "en": "Weekly Ranking Reward: Sent to mail when entering Arena on Mon. after 00:00 UTC.\r\r\nDaily Ranking Reward: sent to mail at 00:00 UTC.\r\r\nVictory/Defeat Reward: Corresponding reward is immediately sent to the inventory.",
+      "en": "Weekly Ranking Reward: Sent to mail when entering Arena on Mon. after 00:00 UTC.\r\nDaily Ranking Reward: sent to mail at 00:00 UTC.\r\nVictory/Defeat Reward: Corresponding reward is immediately sent to the inventory.",
       "ja": "ウィークリーランキング報酬：月曜日UTC+0以降アリーナ入場時にメールで送信\r\nデイリーランキング報酬：UTC+0にメールで送信\r\n挑戦勝利報酬：挑戦勝利時、ランダム1種をインベントリへ即時支給",
       "zh_tw": "每週排名獎勵：週一UTC+0後進入競技場時透過信件發送\r\n每日排名獎勵：UTC+0透過信件發送\r\n戰勝／戰敗獎勵：根據挑戰結果立即發送至背包",
       "zh_cn": "每周排名奖励：周一8点后进入竞技场时通过信件发送\r\n每日排名奖励：8点通过信件发送\r\n战胜／战败奖励：根据挑战结果立即发送至背包"
@@ -20659,49 +20667,49 @@
     {
       "no": 19214,
       "kr": "연합 평가 특별 제약",
-      "en": "",
+      "en": "Alliance Assessment Special Disadvantages",
       "ja": "{0}シーズン特別制約",
-      "zh_tw": "",
+      "zh_tw": "聯合熱身特別限制",
       "zh_cn": ""
     },
     {
       "no": 19215,
       "kr": "에덴 연합 평가전",
-      "en": "",
+      "en": "Eden Alliance Assessment Battle",
       "ja": "特別制約作戦",
-      "zh_tw": "",
+      "zh_tw": "伊甸園聯合熱身賽",
       "zh_cn": ""
     },
     {
       "no": 19216,
       "kr": "개인 연합 작전에서 모든 제약을 적용하고 클리어 시 입장 가능합니다.",
-      "en": "",
+      "en": "Unlocks upon completing the Individual Alliance Operation with all disadvantages selected.",
       "ja": "無限作戦ですべての制約を選択してクリアすると入場できます。",
-      "zh_tw": "",
+      "zh_tw": "在個人聯合作戰中套用所有限制並通關後即可入場。",
       "zh_cn": ""
     },
     {
       "no": 19217,
       "kr": "개인 연합 작전",
-      "en": "",
+      "en": "Individual Alliance Operation",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "個人聯合作戰",
       "zh_cn": ""
     },
     {
       "no": 19218,
       "kr": "개인 연합 작전 임무",
-      "en": "",
+      "en": "Individual Alliance Operation Missions",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "個人聯合作戰任務",
       "zh_cn": ""
     },
     {
       "no": 19219,
       "kr": "에덴 연합 평가전 순위",
-      "en": "",
+      "en": "Eden Alliance Assessment Battle Rankings",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "伊甸園聯合熱身賽排名",
       "zh_cn": ""
     },
     {
@@ -21699,9 +21707,9 @@
     {
       "no": 21124,
       "kr": "화면을 터치하여 스킵",
-      "en": "Tap the screen to skip",
+      "en": "Tap screen to skip",
       "ja": "画面の空白部分をタップしてスキップ",
-      "zh_tw": "點擊畫面處跳過",
+      "zh_tw": "點擊畫面跳過",
       "zh_cn": ""
     },
     {
@@ -21715,9 +21723,9 @@
     {
       "no": 21126,
       "kr": "천리주단기",
-      "en": "",
+      "en": "Riding Alone for Thousands of Miles",
       "ja": "単騎、千里を走る",
-      "zh_tw": "",
+      "zh_tw": "過五關斬六將",
       "zh_cn": ""
     },
     {
@@ -21725,23 +21733,23 @@
       "kr": "심상세계 패스",
       "en": "Imaginary World Pass",
       "ja": "",
-      "zh_tw": "心理世界季通行",
+      "zh_tw": "心理世界通行證",
       "zh_cn": ""
     },
     {
       "no": 21128,
       "kr": "이벤트 룰렛에서 룰렛 티켓을 사용할 때마다\r\n개당 100 패스 포인트를 획득합니다.",
-      "en": "",
+      "en": "Every Spin Ticket used on the event wheel\r\ngives you 100 pass points.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "在活動轉盤使用轉盤票券時，\r\n每一個會獲得100通行證點數。",
       "zh_cn": ""
     },
     {
       "no": 21129,
       "kr": "이벤트 기간 동안 미션을 수행하고 다양한 보상을 받아가세요!",
-      "en": "",
+      "en": "Complete missions during the event and claim various rewards!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "在活動期間內執行任務，獲得各種獎勵吧！",
       "zh_cn": ""
     },
     {
@@ -21755,9 +21763,9 @@
     {
       "no": 21131,
       "kr": "변신중",
-      "en": "Transforming",
+      "en": "Transformed",
       "ja": "変身中",
-      "zh_tw": "變身",
+      "zh_tw": "變身中",
       "zh_cn": ""
     },
     {
@@ -23211,9 +23219,9 @@
     {
       "no": 30182,
       "kr": "심연의 마녀",
-      "en": "",
+      "en": "Witch of the Abyss",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "深淵的魔女",
       "zh_cn": ""
     },
     {
@@ -25003,9 +25011,9 @@
     {
       "no": 110616,
       "kr": "루드라는 불사형입니다.\r\n루드라가 액티브 스킬 '예정된 파멸의 검'의 시전하기 전에 기절 스킬을 가진 정령으로 방해하고, 노출된 루드라의 약점에 공격 스킬을 몰아쳐 격퇴하세요. <COLOR=#FFFFFF>냉기 공격에 취약한 모습을 보이므로 해당 정령을 편성하는 것 역시 도움이 될 것입니다.</COLOR>",
-      "en": "Ruthra is an Undead.\r\r\nUtilize a Soul who has a stun skill to interrupt Ruthra from casting the \"Intended Sword of Destruction\" skill, and then cast all skills possible to Ruthra's exposed weak point to defeat Ruthra.",
+      "en": "Ruthra is an Undead.\r\nUtilize a Soul who has a stun skill to interrupt Ruthra from casting the \"Intended Sword of Destruction\" skill, and then cast all skills possible to Ruthra's exposed weak point to defeat Ruthra. <COLOR=#FFFFFF>Since Ruthra seems to be vulnerable to Freeze attacks, deploying Souls with such skills would also be helpful.</COLOR>",
       "ja": "ルドラは不死型です。\r\nルドラがアクティブスキル「予定された破滅の剣」を発動する前に気絶スキルを持つ精霊で妨害し、表出したルドラの弱点に攻撃スキルを集中させて撃退しましょう。",
-      "zh_tw": "魯德拉為不死型。\r\r\n以具有暈眩技能的精靈妨礙魯德拉施展主動技能「已知毀滅之劍」，對暴露弱點的魯德拉施以技能擊退。",
+      "zh_tw": "魯德拉為不死型。\r\n以具有暈眩技能的精靈妨礙魯德拉施展主動技能「已知毀滅之劍」，對暴露弱點的魯德拉施以技能擊退。<COLOR=#FFFFFF>展現出對寒氣攻擊脆弱的模樣，編制相應精靈一定會有所幫助。</COLOR>",
       "zh_cn": "鲁德拉为不灭型。\r\r\n以具有眩晕技能的精灵妨碍鲁德拉施展主动技能“已知毁灭之剑”，对暴露弱点的鲁德拉施以技能击退。"
     },
     {
@@ -25171,9 +25179,9 @@
     {
       "no": 110637,
       "kr": "신에게 버림받은 비탄의 성녀는 다른 신과 계약해 자신의 길을 개척하기로 했다. \r\n\r\n레벨에 비례하여 더욱 강해지는 악신의 가호를 뚫고, 성녀의 손을 붙잡아 타락으로부터 구원하자.\r\n\r\n<COLOR=#FFFFFF>성녀는 자신의 상처를 보면 크게 동요하므로 출혈을 이용한 공격이 유효하다</COLOR>\r\n\r\n그대는 악신에게 홀린 존재조차도 구원할 수 있는 힘을 증명할 수 있는가?",
-      "en": "The Saint of Sorrow, abandoned by her god, signs a contract with another god and forges her own path.\r\r\n\r\r\nBreak through the blessing of the evil god that gets stronger by the level and take the saint's hand to save her from corruption.\r\r\n\r\r\nProve your strength by saving a Soul who has been lured by the evil god.",
+      "en": "The Saint of Sorrow, abandoned by her god, signs a contract with another god and forges her own path.\r\n \r\n Break through the blessing of the evil god that gets stronger by the level and take the saint's hand to save her from corruption.\r\n \r\n <COLOR=#FFFFFF>The saint becomes greatly agitated when she sees her own wounds, making Bleeding attacks highly effective.</COLOR>\r\n \r\n Prove your strength by saving a Soul who has been lured by the evil god.",
       "ja": "神に捨てられた悲嘆の聖女は、他の神と契約し自分の道を切り開くことにした。 Lvに比例して強くなる悪神の加護を振り払い、聖女の手を取って堕落から救い出そう。 あなたは悪神に憑かれた存在を救い、その力を証明できるだろうか？",
-      "zh_tw": "被神拋棄的悲嘆聖女決定與其他神簽約，開拓自己的道路。\r\r\n\r\r\n突破等級越高會越強大的惡神庇佑，抓住聖女的手，將她從墮落中救援出來。\r\r\n\r\r\n你能證明你的力量連被惡神迷惑的對象都能救援嗎？",
+      "zh_tw": "被神拋棄的悲嘆聖女決定與其他神簽約，開拓自己的道路。\r\n\r\n突破等級越高會越強大的惡神庇佑，抓住聖女的手，將她從墮落中救援出來。\r\n\r\n<COLOR=#FFFFFF>聖女看到自己的傷口會產生劇烈動搖，所以利用出血的攻擊很有效。</COLOR>\r\n\r\n你能證明你的力量連被惡神迷惑的對象都能救援嗎？",
       "zh_cn": "被神抛弃的悲叹贤女决定与其他神签约，开拓自己的道路。\r\n\r\n突破等级越高会越强大的恶神庇佑，抓住贤女的手，将她从堕落中救援出来。\r\n\r\n你能证明你的力量连被恶神迷惑的对象都能救援吗？"
     },
     {
@@ -25427,7 +25435,7 @@
     {
       "no": 110669,
       "kr": "떡공장장 순이를 물리치고 떡을 획득하자!\r\n떡공장장 순이는 공장을 지키기 위해 강력한 찹쌀떡과 가래떡을 소환한다. 끊임없는 회복으로 쉴틈없이 이어지는 광역 공격을 받아내자!\r\n특히, 떡공장장 순이의 물리/마법 저항을 증가시키는 가래떡을 빠르게 처치하면 떡공장 털이가 한결 쉬워질 것이다!",
-      "en": "Defeat Ricecake Maker Soonie and grab some rice cakes!\r\nRicecake Maker Soonie summons powerful Sticky Rice Cakes and Rice Cake Sticks to protect the factory. Keep the Recovery skills going to endure the endless series of AoE attacks!\r\nTaking down the Rice Cake Sticks that boost Soonie's Physical/Magic Resistance swiftly will make the factory raid much easier!",
+      "en": "Defeat Rice Cake Factory Chief Soonie and grab some rice cakes!\r\nRice Cake Factory Chief Soonie summons powerful Sticky Rice Cakes and Rice Cake Sticks to protect the factory. Keep the Recovery skills going to endure the endless series of AoE attacks!\r\nTaking down the Rice Cake Sticks that boost Soonie's Physical/Magic Resistance swiftly will make the factory raid much easier!",
       "ja": "モチ工場の工場長・スニを倒してモチを獲得しよう！\r\nモチ工場の工場長・スニは工場を守るために、強力なチャプサルトクとカレトックを召喚する。継続的な回復で次々と繰り出される広域攻撃を受け止めよう！\r\n特に、モチ工場の工場長・スニの物理/魔法抵抗を増加させるカレトックを素早く倒すと、モチ工場の襲撃がよりやりやすくなる！",
       "zh_tw": "擊退年糕工廠廠長順伊，獲得年糕吧！\r\n年糕工廠廠長順伊為了守住工廠，召喚了強大的糯米糕和年糕條。擋下會不斷恢復、永不停歇襲來的廣域攻擊吧！\r\n尤其是年糕條會提高年糕工廠廠長順伊的物理／魔法抵抗，迅速擊殺牠們會使洗劫年糕工廠更容易！",
       "zh_cn": ""
@@ -29910,7 +29918,7 @@
       "en": "Has a strong focus on ATK and Critical Hit stats\r\r\nand performs physical attacks.",
       "ja": "攻撃力とクリティカルステータスが他より高く、\r\n物理攻撃を行います。",
       "zh_tw": "攻擊力和暴擊能力值占比高，\r\r\n進行物理攻擊。",
-      "zh_cn": "攻击力和暴击能力值占比高，\r\r\n进行物理攻击。"
+      "zh_cn": "攻击力和会心能力值占比高，\r\r\n进行物理攻击。"
     },
     {
       "no": 450003,
@@ -30134,7 +30142,7 @@
       "en": "All allies: +10% Crit Rate",
       "ja": "味方全員のクリティカル率が10%増加",
       "zh_tw": "所有友軍暴擊率增加10%",
-      "zh_cn": "所有友军暴击率增加10%"
+      "zh_cn": "所有友军会心率增加10%"
     },
     {
       "no": 490071,
@@ -30198,7 +30206,7 @@
       "en": "All allies: +5% ATK, Crit Rate, Speed",
       "ja": "味方全員の攻撃力・クリティカル率・加速が5%増加",
       "zh_tw": "所有友軍攻擊力、暴擊率、加速增加5%",
-      "zh_cn": "所有友军攻击力、暴击率、加速增加5%"
+      "zh_cn": "所有友军攻击力、会心率、加速增加5%"
     },
     {
       "no": 490111,
@@ -30294,7 +30302,7 @@
       "en": "All allies: +1% Crit Rate & transforms into a mighty item upon upgrade",
       "ja": "味方全員のクリティカル率が1%増加、アップグレードすると強力なアイテムに生まれ変わる",
       "zh_tw": "所有友軍暴擊率增加1%，升級後會變成強大的道具",
-      "zh_cn": "所有友军暴击率增加1%，升级后会变成强大的道具"
+      "zh_cn": "所有友军会心率增加1%，升级后会变成强大的道具"
     },
     {
       "no": 490171,
@@ -30454,7 +30462,7 @@
       "en": "Increases Edith's ATK, Speed, and Crit DMG by 30% (counts as a buff)",
       "ja": "イディスの攻撃力・加速・クリティカルダメージが30%増加(バフとして扱う)",
       "zh_tw": "伊迪絲的攻擊力、加速、暴擊傷害增加30%（被視為增益效果）",
-      "zh_cn": "伊迪丝的攻击力、加速、暴击伤害增加30%（被视为增益效果）"
+      "zh_cn": "伊迪丝的攻击力、加速、会心伤害增加30%（被视为增益效果）"
     },
     {
       "no": 490271,
@@ -30518,7 +30526,7 @@
       "en": "Beast: +10% ATK, HP, Crit Rate",
       "ja": "野獣型の攻撃力・体力・クリティカル率が10%増加",
       "zh_tw": "野獸型攻擊力、體力、暴擊率增加10%",
-      "zh_cn": "野兽型攻击力、体力、暴击率增加10%"
+      "zh_cn": "野兽型攻击力、体力、会心率增加10%"
     },
     {
       "no": 491031,
@@ -30534,7 +30542,7 @@
       "en": "Fairy: +10% ATK, HP & +20% Crit DMG",
       "ja": "妖精型の攻撃力・体力が10%増加、クリティカル率が20%増加",
       "zh_tw": "妖精型攻擊力、體力增加10%，暴擊威力增加20%",
-      "zh_cn": "妖精型攻击力、体力增加10%，暴击威力增加20%"
+      "zh_cn": "妖精型攻击力、体力增加10%，会心威力增加20%"
     },
     {
       "no": 491041,
@@ -30582,7 +30590,7 @@
       "en": "All allies: +10% Crit Rate & +20% Crit DMG",
       "ja": "味方全員のクリティカル率が10%増加、クリティカルダメージが20%増加",
       "zh_tw": "所有友軍暴擊率增加10%，暴擊威力增加20%",
-      "zh_cn": "所有友军暴击率增加10%，暴击威力增加20%"
+      "zh_cn": "所有友军会心率增加10%，会心威力增加20%"
     },
     {
       "no": 491071,
@@ -30646,7 +30654,7 @@
       "en": "All allies: +10% ATK, Crit Rate, Speed",
       "ja": "味方全員の攻撃力・クリティカル率・加速が10%増加",
       "zh_tw": "所有友軍攻擊力、暴擊率、加速增加10%",
-      "zh_cn": "所有友军攻击力、暴击率、加速增加10%"
+      "zh_cn": "所有友军攻击力、会心率、加速增加10%"
     },
     {
       "no": 491111,
@@ -30694,7 +30702,7 @@
       "en": "Allies with shield: +20% Physical/Magic Resistance & +20% Crit Rate",
       "ja": "バリアのある味方の物理・魔法抵抗が20%増加、クリティカル率が20%増加",
       "zh_tw": "有防護罩的友軍增加物理／魔法抵抗20%，暴擊率增加20%",
-      "zh_cn": "有防护罩的友军增加物理／魔法抵抗20%，暴击率增加20%"
+      "zh_cn": "有防护罩的友军增加物理／魔法抵抗20%，会心率增加20%"
     },
     {
       "no": 491141,
@@ -30742,7 +30750,7 @@
       "en": "All allies: +30% Crit Rate & +50% Crit DMG for 45 seconds when battle begins",
       "ja": "戦闘開始後から45秒間、味方全員のクリティカル率が30%、クリティカルダメージが50%増加",
       "zh_tw": "所有友軍在戰鬥開始45秒內，暴擊率增加30%，暴擊威力增加50%",
-      "zh_cn": "所有友军在战斗开始45秒内，暴击率增加30%，暴击威力增加50%"
+      "zh_cn": "所有友军在战斗开始45秒内，会心率增加30%，会心威力增加50%"
     },
     {
       "no": 491171,
@@ -31158,7 +31166,7 @@
       "en": "- Crit Rate {0}%\r\n",
       "ja": "- クリティカル率{0}%\r\n",
       "zh_tw": "－暴擊率{0}％\r\n",
-      "zh_cn": "－暴击率{0}％\r\n"
+      "zh_cn": "－会心率{0}％\r\n"
     },
     {
       "no": 520067,
@@ -31166,7 +31174,7 @@
       "en": "- Crit DMG {0}%\r\n",
       "ja": "- クリティカル威力{0}%\r\n",
       "zh_tw": "－暴擊威力{0}％\r\n",
-      "zh_cn": "－暴击威力{0}％\r\n"
+      "zh_cn": "－会心威力{0}％\r\n"
     },
     {
       "no": 520068,
@@ -32270,7 +32278,7 @@
       "en": "Skip All Battles",
       "ja": "すべての戦闘をスキップ",
       "zh_tw": "略過所有戰鬥",
-      "zh_cn": "略过所有战斗"
+      "zh_cn": "跳过所有战斗"
     },
     {
       "no": 520206,
@@ -32806,7 +32814,7 @@
       "en": "Lead Soul: Crit Rate +{104}% and Crit DMG +{105}%",
       "ja": "リーダー精霊のクリティカル率{104}%、クリティカル威力{105}%増加",
       "zh_tw": "隊長精靈暴擊率增加{104}%、暴擊威力增加{105}%",
-      "zh_cn": "队长精灵暴击率增加{104}%、暴击威力增加{105}%"
+      "zh_cn": "队长精灵会心率增加{104}%、会心威力增加{105}%"
     },
     {
       "no": 520274,
@@ -32822,7 +32830,7 @@
       "en": "Lead Soul: ATK +{101}%, Crit Rate +{104}%, and Crit DMG +{105}%",
       "ja": "リーダー精霊の攻撃力{101}%、クリティカル率{104}%、クリティカル威力{105}%増加",
       "zh_tw": "隊長精靈攻擊力增加{101}%、暴擊率增加{104}%、暴擊威力增加{105}%",
-      "zh_cn": "队长精灵攻击力增加{101}%、暴击率增加{104}%、暴击威力增加{105}%"
+      "zh_cn": "队长精灵攻击力增加{101}%、会心率增加{104}%、会心威力增加{105}%"
     },
     {
       "no": 520276,
@@ -32830,7 +32838,7 @@
       "en": "Lead Soul: Crit Rate +{104}%",
       "ja": "リーダー精霊のクリティカル率{104}%増加",
       "zh_tw": "隊長精靈暴擊率增加{104}%",
-      "zh_cn": "队长精灵暴击率增加{104}%"
+      "zh_cn": "队长精灵会心率增加{104}%"
     },
     {
       "no": 520277,
@@ -32838,7 +32846,7 @@
       "en": "Lead Soul: Crit DMG +{105}%",
       "ja": "リーダー精霊のクリティカル威力{105}%増加",
       "zh_tw": "隊長精靈暴擊威力增加{105}%",
-      "zh_cn": "队长精灵暴击威力增加{105}%"
+      "zh_cn": "队长精灵会心威力增加{105}%"
     },
     {
       "no": 520278,
@@ -32862,7 +32870,7 @@
       "en": "Lead Soul: ATK +{101}% and Crit Rate +{104}%",
       "ja": "リーダー精霊の攻撃力{101}%、クリティカル率{104}%増加",
       "zh_tw": "隊長精靈攻擊力增加{101}%、暴擊率增加{104}%",
-      "zh_cn": "队长精灵攻击力增加{101}%、暴击率增加{104}%"
+      "zh_cn": "队长精灵攻击力增加{101}%、会心率增加{104}%"
     },
     {
       "no": 520281,
@@ -33739,9 +33747,9 @@
     {
       "no": 531050,
       "kr": "영지 20레벨을 달성해주세요.\r\n더 좋은 물건을 보여드릴게요!",
-      "en": "Reach Town Lv. 20.\r\nI'm gonna show you some better ones!",
+      "en": "Reach Town Lv. 20.\r\nI'll bring in better goodies!",
       "ja": "領地Lv20を達成すれば\r\nもっといい品をお見せします！",
-      "zh_tw": "請達成領地等級20。\r\n我會給你看更棒的物品！",
+      "zh_tw": "請挑戰達成領地等級20。\r\n我會給你看更棒的物品！",
       "zh_cn": "请达成领地等级20。\r\n我会给你看更棒的物品！"
     },
     {
@@ -38438,7 +38446,7 @@
       "en": "Deployed Soul's <color=\"#2d9b00\">Crit DMG +{0}%</color>",
       "ja": "配置された精霊の<color=\"#2d9b00\">クリティカル威力が{0}%</color>増加",
       "zh_tw": "當精靈配置於此物件時，精靈的<color=\"#2d9b00\">暴擊威力增加{0}%</color>",
-      "zh_cn": "当精灵配置于此物件时，精灵的<color=\"#2d9b00\">暴击威力增加{0}%</color>"
+      "zh_cn": "当精灵配置于此物件时，精灵的<color=\"#2d9b00\">会心威力增加{0}%</color>"
     },
     {
       "no": 552043,
@@ -40283,9 +40291,9 @@
     {
       "no": 552511,
       "kr": "로제(홍염) 배치 시 <color=\"#2d9b00\">로제(홍염)의 공격력 {0}%</color> 증가",
-      "en": "",
+      "en": "<color=\"#2d9b00\">Rose (Prominence)'s ATK +{0}%</color> when Rose (Prominence) is placed",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "配置蘿絲（紅焰）時，<color=\"#2d9b00\">蘿絲（紅焰）的攻擊力增加{0}%</color>",
       "zh_cn": ""
     },
     {
@@ -45931,33 +45939,33 @@
     {
       "no": 581097,
       "kr": "로제(홍염)",
-      "en": "",
+      "en": "Rose<size=22>(Prominence)</size>",
       "ja": "ロゼ(紅炎)",
-      "zh_tw": "",
+      "zh_tw": "蘿絲（紅焰）",
       "zh_cn": ""
     },
     {
       "no": 581098,
       "kr": "홍란(무쌍)",
-      "en": "",
+      "en": "Honglan (Peerless)",
       "ja": "ホンラン(無双)",
-      "zh_tw": "",
+      "zh_tw": "紅蘭（無雙）",
       "zh_cn": ""
     },
     {
       "no": 581099,
       "kr": "한울",
-      "en": "",
+      "en": "Hanul",
       "ja": "ハンウル",
-      "zh_tw": "",
+      "zh_tw": "韓羽",
       "zh_cn": ""
     },
     {
       "no": 581109,
       "kr": "메릴",
-      "en": "",
+      "en": "Meryl",
       "ja": "メリル",
-      "zh_tw": "",
+      "zh_tw": "梅莉兒",
       "zh_cn": ""
     },
     {
@@ -51107,65 +51115,65 @@
     {
       "no": 615671,
       "kr": "아케나인 성당",
-      "en": "",
+      "en": "Arkenine Cathedral",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "阿肯納因教堂",
       "zh_cn": ""
     },
     {
       "no": 615672,
       "kr": "태양 기사단",
-      "en": "",
+      "en": "Order of Sun",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "太陽騎士團",
       "zh_cn": ""
     },
     {
       "no": 615673,
       "kr": "린지",
-      "en": "",
+      "en": "Linzy",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "琳賽",
       "zh_cn": ""
     },
     {
       "no": 615674,
       "kr": "클로이",
-      "en": "",
+      "en": "Chloe",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "克羅伊",
       "zh_cn": ""
     },
     {
       "no": 615675,
       "kr": "사복",
-      "en": "",
+      "en": "Casual Wear",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "私服",
       "zh_cn": ""
     },
     {
       "no": 615676,
       "kr": "섭리",
-      "en": "",
+      "en": "Laws",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "法則",
       "zh_cn": ""
     },
     {
       "no": 615677,
       "kr": "새로운 옷",
-      "en": "",
+      "en": "New Clothes",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "新衣服",
       "zh_cn": ""
     },
     {
       "no": 615678,
       "kr": "미래",
-      "en": "",
+      "en": "Future",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "未來",
       "zh_cn": ""
     },
     {
@@ -53062,7 +53070,7 @@
       "en": "ATK +10%, Crit DMG +20% for all Mephistopheles Souls",
       "ja": "「メフィストフェレス」全員の攻撃力10%増加、クリティカル威力20%増加",
       "zh_tw": "增加所有「梅菲斯托佩萊斯」的攻擊力10%、暴擊威力20%",
-      "zh_cn": "增加所有“梅菲斯托佩莱斯”的攻击力10%、暴击威力20%"
+      "zh_cn": "增加所有“梅菲斯托佩莱斯”的攻击力10%、会心威力20%"
     },
     {
       "no": 673003,
@@ -53086,7 +53094,7 @@
       "en": "All Linzies' Crit DMG +20%, Evasion +10",
       "ja": "全ての「リンジー」のクリティカルダメージが20%増加、回避が10増加",
       "zh_tw": "增加所有「琳賽」的暴擊威力20%、迴避10",
-      "zh_cn": "增加所有“琳赛”的暴击威力20%、回避10"
+      "zh_cn": "增加所有“琳赛”的会心威力20%、回避10"
     },
     {
       "no": 673006,
@@ -53102,7 +53110,7 @@
       "en": "ATK +10%, Crit DMG +20% for all Nicole Souls",
       "ja": "全ての「ニコル」の攻撃力が10%増加、クリティカルダメージが20%増加",
       "zh_tw": "增加所有「妮可」的攻擊力10%、暴擊威力20%",
-      "zh_cn": "增加所有“妮可”的攻击力10%、暴击威力20%"
+      "zh_cn": "增加所有“妮可”的攻击力10%、会心威力20%"
     },
     {
       "no": 673008,
@@ -53110,7 +53118,7 @@
       "en": "ATK +10%, Crit Rate +10% for all Violette Souls",
       "ja": "全ての「ヴィオレット」の攻撃力が10%増加、クリティカル率が10%増加",
       "zh_tw": "增加所有「薇奧蕾特」的攻擊力10%、暴擊率10%",
-      "zh_cn": "增加所有“薇奥蕾特”的攻击力10%、暴击率10%"
+      "zh_cn": "增加所有“薇奥蕾特”的攻击力10%、会心率10%"
     },
     {
       "no": 673009,
@@ -53198,7 +53206,7 @@
       "en": "Crit Rate +10% and Speed +5% for all Claudia Souls",
       "ja": "「クラウディア」全員のクリティカル率10%増加、加速5%増加",
       "zh_tw": "所有「克勞迪婭」的暴擊率增加10%、加速增加5%",
-      "zh_cn": "所有“克劳迪娅”的暴击率增加10%、加速增加5%"
+      "zh_cn": "所有“克劳迪娅”的会心率增加10%、加速增加5%"
     },
     {
       "no": 673020,
@@ -57243,17 +57251,17 @@
     {
       "no": 990200,
       "kr": "외전 스토리 다시 보기",
-      "en": "",
+      "en": "Rewatch Spin-Off Story",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "再次觀看外傳故事",
       "zh_cn": ""
     },
     {
       "no": 990201,
       "kr": "외전 스토리에서는 별도의 조건 없이 \r\n종료된 외전 이벤트의 스토리를 감상할 수 있습니다. \r\n단, 외전 스토리 열람 보상은 획득할 수 없습니다.",
-      "en": "",
+      "en": "You can watch past Spin-Off Stories again,\r\nwithout meeting any specific requirements.\r\nHowever, you cannot obtain rewards again.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "外傳故事可查看\r\n已結束的外傳活動故事，\r\n但無法獲得外傳故事的獎勵。",
       "zh_cn": ""
     },
     {
@@ -57899,9 +57907,9 @@
     {
       "no": 991131,
       "kr": "일정 조건을 달성할 때마다 많은 에버스톤을 획득 가능한 상품입니다.\r\n해당 상품은 한 번만 구매 가능합니다.",
-      "en": "This product gives you many Everstones whenever you clear a certain stage.\r\nYou can only purchase one.",
+      "en": "This product gives you many Everstones whenever you meet certain conditions.\r\nYou can only purchase one.",
       "ja": "一定のステージ区間をクリアするたびに、大量のエバーストーンを獲得できる商品です。\r\nこの商品は1回のみ購入できます。",
-      "zh_tw": "每次通過一定關卡區間時可獲得大量永恆石的商品。\r\n每個帳號只可購買一次該商品。",
+      "zh_tw": "每次達成一定條件時可獲得大量永恆石的商品。\r\n每個帳號只可購買一次該商品。",
       "zh_cn": "每次通过一定关卡区间时可获得大量永恒石的商品。\r\n每个帐号只可购买一次该商品。"
     },
     {
@@ -63387,33 +63395,41 @@
     {
       "no": 996494,
       "kr": "이벤트 내 다양한 컨텐츠에서 룰렛 티켓을 획득할 수 있습니다.\r\n연출 스킵을 체크하거나, 진행 중 화면 터치 시 연출을 스킵할 수 있습니다.\r\n룰렛 1회마다 보상이 지급되며, 누적 사용량에 따라 추가 보상을 획득할 수 있습니다.\r\n룰렛 티켓은 이벤트 종료 후 300,000 골드로 치환됩니다.",
-      "en": "",
+      "en": "You can earn Spin Tickets from various event activities.\r\nEnable Skip Animation or tap the screen during an animation to skip it.\r\nEach spin awards a prize, with bonus prizes unlocked based on total spins.\r\nSpin Tickets are converted to 300,000 Gold each once the event ends.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "活動期間內，可在多種遊戲內容獲得轉盤票券。\r\n勾選跳過動畫或在進行中點擊畫面，即可跳過動畫。\r\n每進行1次轉盤會發放獎勵，並根據累積使用量獲得額外獎勵。\r\n活動結束後，轉盤票券會換算成300,000金幣。",
       "zh_cn": ""
     },
     {
       "no": 996495,
       "kr": "이벤트 기간 동안 미니 게임 「심연의 경계」가 오픈됩니다.\r\n미니게임은 매일 1회 입장할 수 있으며, UTC 0시를 기준으로 초기화됩니다.\r\n입장 횟수 소진 시 입장권으로 입장할 수 있으며, 입장권은 매일 5회 에버스톤으로 추가 구매할 수 있습니다. ",
-      "en": "",
+      "en": "The mini game, \"Boundaries of the Abyss\" is available during the event.\r\nYou can enter the mini game 1 time per day, and the entry count will reset at 00:00 UTC.\r\nYou can enter with a ticket after your free entry. Tickets can be purchased 5 times every day using Everstones. ",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "活動期間將開放「深淵的邊界」小遊戲。\r\n每天可進入1次小遊戲，並於UTC+0點重置。\r\n入場次數消耗完畢時，可使用入場券進入，每天可使用5次永恆石購買額外入場次數。",
       "zh_cn": ""
     },
     {
       "no": 996496,
       "kr": "몬스터를 처치 시 경험치를 획득하고 레벨을 상승시킬 수 있습니다.\r\n레벨이 상승할 때 체력을 모두 회복하며, 캐릭터의 능력치가 소폭 상승합니다.\r\n몬스터를 일정 이상 처치하면 변신 버튼이 활성화되며, 강력한 공격을 사용할 수 있습니다.",
-      "en": "",
+      "en": "Characters can level up by gaining EXP as you defeat monsters.\r\nCharacters fully recover HP when they level up, and their stats increase.\r\nOnce you've defeated enough monsters, the Transformation button activates, allowing you to unleash devastating attacks.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "擊退怪物可獲得經驗值並提升等級。\r\n等級提升時，將恢復所有體力，角色能力值將小幅上升。\r\n擊退一定數量以上的怪物後，將啟用變身按鈕，可使用強大攻擊。",
       "zh_cn": ""
     },
     {
       "no": 996497,
       "kr": "미니게임 완료 시 참여 보상을 획득할 수 있으며,\r\n누적된 점수에 따라 추가 보상을 획득할 수 있습니다.\r\n도전 과제를 완료하면 추가 포인트를 획득할 수 있습니다.",
-      "en": "",
+      "en": "Completing the mini game unlocks participation rewards.\r\nAdditional rewards can be earned based on cumulative points.\r\nCompleting challenges awards bonus points.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "完成小遊戲後可獲得參加獎勵，\r\n並可根據累積分數獲得額外獎勵。\r\n完成挑戰小任務可獲得額外點數。",
+      "zh_cn": ""
+    },
+    {
+      "no": 996498,
+      "kr": "이벤트 기간 동안 「기록되지 않은 미래」 이벤트가 진행됩니다.\r\n로제(홍염)의 이야기와 함께 다양한 컨텐츠를 즐겨 보세요.\r\n컨텐츠마다 지급되는 보상과 함께 룰렛 티켓을 획득할 수 있어요.\r\n룰렛 티켓은 「이벤트 룰렛」에서 사용할 수 있으며, 다양한 보상을 획득할 수 있습니다.",
+      "en": "\"The Unwritten Future\" event will take place during the event period. \r\nEnjoy Rose (Prominence)'s story and various activities with new content.\r\nEach activity awards Spin Tickets along with rewards.\r\nSpin Tickets can be used on the \"Event Wheel\" to win various prizes.",
+      "ja": "",
+      "zh_tw": "活動期間將進行「未記錄的未來」。\r\n享受蘿絲（紅焰）的故事與豐富的遊戲內容吧。\r\n各遊戲內容將發放獎勵，還可獲得轉盤票券。\r\n轉盤票券可用於「活動轉盤」，獲得各種獎勵。",
       "zh_cn": ""
     },
     {
@@ -63587,9 +63603,9 @@
     {
       "no": 997011,
       "kr": "정령의 상태를 확인하고 성장시킬 수 있습니다.\r\n좌측 탭을 이용하여 정령의 정보를 확인하세요.\r\n상세: 현재 정령의 상태를 확인하고 레벨업 할 수 있습니다.\r\n예장: 정령의 예장 / 유물을 장착하고 레벨업 할 수 있습니다.\r\n스킬: 정령의 스킬 정보를 확인할 수 있습니다.\r\n코스튬: 정령의 코스튬을 확인하고 착용할 수 있습니다.\r\n프로필: 정령의 정보를 확인할 수 있습니다. 정령에 대해 알아보세요.",
-      "en": "Monitor and enhance the status of your Soul.\r\r\nUse the left tab to check the information of the Soul.\r\r\nDetails: View and level up the current Soul.\r\r\nKeepsake: Equip and level up the Soul's Keepsakes/Artifacts.\r\r\nSkill: Access detailed skill information of the Soul.\r\r\nCostume: View and change the Soul's costume.\r\r\nProfile: Explore the Soul's background and characteristics.",
+      "en": "Monitor and enhance the status of your Soul.\r\nUse the left tab to check the information of the Soul.\r\nDetails: View and level up the current Soul.\r\nKeepsake: Equip and level up the Soul's Keepsakes/Artifacts.\r\nSkill: Access detailed skill information of the Soul.\r\nCostume: View and change the Soul's costume.\r\nProfile: Explore the Soul's background and characteristics.",
       "ja": "精霊の状態を確認して成長させることができます。\r\n左のタブを利用して精霊の情報を確認してください。\r\n詳細：現在の精霊の状態を確認してLvアップできます。\r\n礼装：精霊の礼装・遺物を装着してLvアップできます。\r\nスキル：精霊のスキル情報を確認できます。\r\nコスチューム：精霊のコスチュームを確認して着用できます。\r\nプロフィール：精霊の情報を確認できます。精霊についての理解を深めましょう。",
-      "zh_tw": "可查看精靈的狀態並使其成長。\r\r\n使用左側分頁，查看精靈資訊。\r\r\n詳細：可查看目前精靈的狀態並升級。\r\r\n禮品：可裝備精靈的禮品／遺物並升級。\r\r\n技能：可查看精靈的技能資訊。\r\r\n時裝：可查看並套用精靈的時裝。\r\r\n簡介：可查看精靈的資訊，前往了解精靈吧。",
+      "zh_tw": "可查看精靈的狀態並使其成長。\r\n使用左側分頁，查看精靈資訊。\r\n詳細：可查看目前精靈的狀態並升級。\r\n禮品：可裝備精靈的禮品／遺物並升級。\r\n技能：可查看精靈的技能資訊。\r\n時裝：可查看並套用精靈的時裝。\r\n簡介：可查看精靈的資訊，前往了解精靈吧。",
       "zh_cn": "可查看精灵的状态并使其成长。\r\r\n使用左侧分页，查看精灵信息。\r\r\n详细：可查看目前精灵的状态并升级。\r\r\n礼品：可装备精灵的礼品／神器并升级。\r\r\n技能：可查看精灵的技能信息。\r\r\n时装：可查看并套用精灵的时装。\r\r\n简介：可查看精灵的信息，前往了解精灵吧。"
     },
     {
@@ -64542,7 +64558,7 @@
       "en": "ATK: Increases the base ATK by the given percentage.\r\nDEF: Increases the base DEF by the given percentage.\r\nHP: Increases the base HP by the given percentage.\r\nCrit Rate: Adds the given value to the base Crit Rate.\r\nCrit DMG: Adds the given value to the base Crit DMG.\r\nATK (Level): Adds [Soul's Level x given ATK (Level) value] to the base ATK.\r\nDEF (Level): Adds [Soul's Level x given DEF (Level) value] to the base DEF.\r\nHP (Level): Adds [Soul's Level x given HP (Level) value] to the base HP.\r\nPhysical Resistance: Adds the given value to the base Physical Resistance.\r\nMagic Resistance: Adds the given value to the base Magic Resistance.\r\nAccuracy: Adds the given value to the base Accuracy.\r\nCrit Resistance: Decreases the chance of receiving a critical hit in battle.\r\nRecovery: Increases the received HP Recovery by the given percentage.\r\nVs. Humanlike DMG: Deal additional damage equal to the given percentage against Humanlike enemies.\r\nVs. Beast DMG: Deal additional damage equal to the given percentage against Beast enemies.\r\nVs. Fairy DMG: Deal additional damage equal to the given percentage against Fairy enemies.\r\nVs. Undead DMG: Deal additional damage equal to the given percentage against Undead enemies.\r\nVs. Angel DMG: Deal additional damage equal to the given percentage against Angel enemies.\r\nVs. Demon DMG: Deal additional damage equal to the given percentage against Demon enemies.\r\nVs. Chaotic DMG: Deal additional damage equal to the given percentage against Chaotic enemies.",
       "ja": "攻撃力：精霊の基本攻撃力に%の攻撃力が追加されます。\r\n防御力：精霊の基本防御力に%の防御力が追加されます。\r\n体力：精霊の基本体力に%の体力が追加されます。\r\nクリティカル率：精霊の基本クリティカル率に%のクリティカル率が追加されます。\r\nクリティカル威力：精霊の基本クリティカル威力に%のクリティカル威力が追加されます。\r\n攻撃力(レベル)：精霊の基本攻撃力に[「精霊のレベル」×「攻撃力(レベル)」]値が追加されます。\r\n防御力(レベル)：精霊の基本防御力に[「精霊のレベル」×「防御力(レベル)」]値が追加されます。\r\n体力(レベル)：精霊の基本体力に[「精霊のレベル」×「体力(レベル)」]値が追加されます。\r\n物理抵抗：精霊の基本物理抵抗に物理抵抗値が追加されます。\r\n魔法抵抗：精霊の基本魔法抵抗に魔法抵抗値が追加されます。\r\n命中：精霊の基本命中に命中値が追加されます。\r\n被クリティカルダメージ率：戦闘で精霊がクリティアカルヒットを受ける確率が下がります。\r\n受ける回復量増加：戦闘で精霊が受ける体力回復量に%の回復量が追加されます。\r\n人間相性追加ダメージ：人間型タイプの敵を攻撃するとき、%のダメージが追加されます。\r\n野獣相性追加ダメージ：野獣型タイプの敵を攻撃するとき、%のダメージが追加されます。\r\n妖精相性追加ダメージ：妖精型タイプの敵を攻撃するとき、%のダメージが追加されます。\r\n不死相性追加ダメージ：不死型タイプの敵を攻撃するとき、%のダメージが追加されます。\r\n天使相性追加ダメージ：天使型タイプの敵を攻撃するとき、%のダメージが追加されます。\r\n悪魔相性追加ダメージ：悪魔型タイプの敵を攻撃するとき、%のダメージが追加されます。\r\n混沌相性追加ダメージ：混沌型タイプの敵を攻撃するとき、%のダメージが追加されます。",
       "zh_tw": "攻擊力：精靈基本攻擊力加上%的攻擊力。\r\n防禦力：精靈基本防禦力加上%的防禦力。\r\n體力：精靈基本體力加上%的體力。\r\n暴擊率：精靈基本暴擊率加上暴擊率值。\r\n暴擊威力：精靈基本暴擊威力加上暴擊威力值。\r\n攻擊力（等級）：精靈基本攻擊力加上［「精靈等級」x「攻擊力（等級）」］的值。\r\n防禦力（等級）：精靈基本防禦力加上［「精靈等級」x「防禦力（等級）」］的值。\r\n體力（等級）：精靈基本體力加上［「精靈等級」x 「體力（等級）」］值。\r\n物理抵抗：精靈基本物理抵抗加上物理抵抗值。\r\n魔法抵抗：精靈基本魔法抵抗加上魔法抵抗值。\r\n命中：精靈基本命中加上命中值。\r\n被暴擊擊中率：減少戰鬥中精靈受到暴擊攻擊的機率。\r\n所受恢復量增加：戰鬥中精靈所受體力恢復量加上%的恢復量。\r\n人類契合度額外傷害：攻擊人類型敵人時，追加%的額外傷害。\r\n野獸契合度額外傷害：攻擊野獸型敵人時，追加%的額外傷害。\r\n妖精契合度額外傷害：攻擊妖精型敵人時，追加%的額外傷害。\r\n不死契合度額外傷害：攻擊不死型敵人時，追加%的額外傷害。\r\n天使契合度額外傷害：攻擊天使型敵人時，追加%的額外傷害。\r\n惡魔契合度額外傷害：攻擊惡魔型敵人時，追加%的額外傷害。\r\n混沌契合度額外傷害：攻擊混沌型敵人時，追加%的額外傷害。",
-      "zh_cn": "攻击力：精灵基本攻击力加上%的攻击力。\r\n防御力：精灵基本防御力加上%的防御力。\r\n体力：精灵基本体力加上%的体力。\r\n暴击率：精灵基本暴击率加上暴击率值。\r\n暴击威力：精灵基本暴击威力加上暴击威力值。\r\n攻击力（等级）：精灵基本攻击力加上［“精灵等级”x“攻击力（等级）”］的值。\r\n防御力（等级）：精灵基本防御力加上［“精灵等级”x“防御力（等级）”］的值。\r\n体力（等级）：精灵基本体力加上［“精灵等级”x“体力（等级）”］值。\r\n物理抵抗：精灵基本物理抵抗加上物理抵抗值。\r\n魔法抵抗：精灵基本魔法抵抗加上魔法抵抗值。\r\n命中：精灵基本命中加上命中值。\r\n被暴击击中率：减少战斗中精灵受到暴击攻击的几率。\r\n所受恢复量增加：战斗中精灵所受体力恢复量加上%的恢复量。\r\n人类契合度额外伤害：攻击人类型敌人时，追加%的额外伤害。\r\n野兽契合度额外伤害：攻击野兽型敌人时，追加%的额外伤害。\r\n妖精契合度额外伤害：攻击妖精型敌人时，追加%的额外伤害。\r\n不灭契合度额外伤害：攻击不灭型敌人时，追加%的额外伤害。\r\n天使契合度额外伤害：攻击天使型敌人时，追加%的额外伤害。\r\n恶魔契合度额外伤害：攻击恶魔型敌人时，追加%的额外伤害。\r\n混沌契合度额外伤害：攻击混沌型敌人时，追加%的额外伤害。"
+      "zh_cn": "攻击力：精灵基本攻击力加上%的攻击力。\r\n防御力：精灵基本防御力加上%的防御力。\r\n体力：精灵基本体力加上%的体力。\r\n会心率：精灵基本会心率加上会心率值。\r\n会心威力：精灵基本会心威力加上会心威力值。\r\n攻击力（等级）：精灵基本攻击力加上［“精灵等级”x“攻击力（等级）”］的值。\r\n防御力（等级）：精灵基本防御力加上［“精灵等级”x“防御力（等级）”］的值。\r\n体力（等级）：精灵基本体力加上［“精灵等级”x“体力（等级）”］值。\r\n物理抵抗：精灵基本物理抵抗加上物理抵抗值。\r\n魔法抵抗：精灵基本魔法抵抗加上魔法抵抗值。\r\n命中：精灵基本命中加上命中值。\r\n被会心击中率：减少战斗中精灵受到会心攻击的几率。\r\n所受恢复量增加：战斗中精灵所受体力恢复量加上%的恢复量。\r\n人类契合度额外伤害：攻击人类型敌人时，追加%的额外伤害。\r\n野兽契合度额外伤害：攻击野兽型敌人时，追加%的额外伤害。\r\n妖精契合度额外伤害：攻击妖精型敌人时，追加%的额外伤害。\r\n不灭契合度额外伤害：攻击不灭型敌人时，追加%的额外伤害。\r\n天使契合度额外伤害：攻击天使型敌人时，追加%的额外伤害。\r\n恶魔契合度额外伤害：攻击恶魔型敌人时，追加%的额外伤害。\r\n混沌契合度额外伤害：攻击混沌型敌人时，追加%的额外伤害。"
     },
     {
       "no": 997321,
