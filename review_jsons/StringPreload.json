@@ -6,7 +6,7 @@
       "en": "PRESS TO START",
       "ja": "画面をタップしてください",
       "zh_tw": "PRESS TO START",
-      "zh_cn": "轻触画面开始"
+      "zh_cn": ""
     },
     {
       "no": 2,
@@ -14,7 +14,7 @@
       "en": "Please enter your ID.",
       "ja": "IDを入力してください。",
       "zh_tw": "請輸入ID",
-      "zh_cn": "请输入账号"
+      "zh_cn": ""
     },
     {
       "no": 3,
@@ -22,7 +22,7 @@
       "en": "ID",
       "ja": "ID",
       "zh_tw": "ID",
-      "zh_cn": "账号"
+      "zh_cn": ""
     },
     {
       "no": 4,
@@ -30,7 +30,7 @@
       "en": "Port",
       "ja": "Port",
       "zh_tw": "Port",
-      "zh_cn": "地区"
+      "zh_cn": ""
     },
     {
       "no": 5,
@@ -38,7 +38,7 @@
       "en": "Copyright Ⓒ Kakao Games Corp. Nine Ark Inc. All Rights Reserved.",
       "ja": "Copyright Ⓒ Kakao Games Corp. Nine Ark Inc. All Rights Reserved.",
       "zh_tw": "Copyright Ⓒ Kakao Games Corp. Nine Ark Inc. All Rights Reserved.",
-      "zh_cn": "Copyright Ⓒ Nine Ark Inc. All Rights Reserved. and Tingjing Qunyi Technology., Ltd."
+      "zh_cn": ""
     },
     {
       "no": 6,
@@ -46,7 +46,7 @@
       "en": "EXTERNAL",
       "ja": "EXTERNAL",
       "zh_tw": "EXTERNAL",
-      "zh_cn": "EXTERNAL"
+      "zh_cn": ""
     },
     {
       "no": 7,
@@ -54,7 +54,7 @@
       "en": "Sign in with Apple",
       "ja": "Appleでログイン",
       "zh_tw": "使用Apple登入",
-      "zh_cn": "使用Apple登录"
+      "zh_cn": ""
     },
     {
       "no": 8,
@@ -62,7 +62,7 @@
       "en": "Sign in with Google",
       "ja": "Googleでログイン",
       "zh_tw": "使用Google登入",
-      "zh_cn": "使用Google登录"
+      "zh_cn": ""
     },
     {
       "no": 9,
@@ -70,7 +70,7 @@
       "en": "Sign in with Kakao",
       "ja": "KakaoTalkでログイン",
       "zh_tw": "使用Kakao登入",
-      "zh_cn": "使用Kakao登录"
+      "zh_cn": ""
     },
     {
       "no": 10,
@@ -78,7 +78,7 @@
       "en": "Sign in as Guest",
       "ja": "ゲストでログイン",
       "zh_tw": "使用訪客身份登入",
-      "zh_cn": "使用访客身份登录"
+      "zh_cn": ""
     },
     {
       "no": 11,
@@ -86,7 +86,7 @@
       "en": "Logout",
       "ja": "ログアウト",
       "zh_tw": "登出",
-      "zh_cn": "登出"
+      "zh_cn": ""
     },
     {
       "no": 12,
@@ -94,7 +94,7 @@
       "en": "Log in with Facebook",
       "ja": "Facebookでログイン",
       "zh_tw": "登入Facebook",
-      "zh_cn": "登录Facebook"
+      "zh_cn": ""
     },
     {
       "no": 14,
@@ -102,7 +102,7 @@
       "en": "Logging in...",
       "ja": "ログイン中…",
       "zh_tw": "登入中…",
-      "zh_cn": "登录中……"
+      "zh_cn": ""
     },
     {
       "no": 19,
@@ -110,7 +110,7 @@
       "en": "Are you sure you want to log out?\r\r\nThe game will end if you log out.",
       "ja": "本当にログアウトしますか？\r\nログアウトすると、ゲームが終了します。",
       "zh_tw": "確定要登出嗎？\r\r\n登出時將結束遊戲。",
-      "zh_cn": "确定要登出吗？\r\r\n登出时将结束游戏。"
+      "zh_cn": ""
     },
     {
       "no": 20,
@@ -118,7 +118,7 @@
       "en": "Disconnected from the server.\r\nWould you like to reconnect?",
       "ja": "サーバーとの接続が切れました。\r\nもう一度アクセスしますか？",
       "zh_tw": "與伺服器連接中斷。\r\n要重新連接嗎？",
-      "zh_cn": "与服务器连接中断。\r\n要重新连接吗？"
+      "zh_cn": ""
     },
     {
       "no": 21,
@@ -126,7 +126,7 @@
       "en": "Are you sure you want to delete your account?\r\nWhen you leave, all of your game data and purchase history will be deleted after 24 hours.",
       "ja": "本当に退会しますか？\r\n退会すると、24時間後にゲームデータと購入履歴がすべて削除されます。",
       "zh_tw": "確定要刪除遊戲嗎？\r\n刪除遊戲時，24小時後遊戲數據及購買明細將全數刪除。",
-      "zh_cn": "确定要删除游戏吗？\r\n删除游戏时，24小时后游戏数据及购买明细将全数删除。"
+      "zh_cn": ""
     },
     {
       "no": 22,
@@ -134,7 +134,7 @@
       "en": "Unable to connect to the server.",
       "ja": "サーバーにアクセスできません。",
       "zh_tw": "無法登入至伺服器。",
-      "zh_cn": "无法登录至服务器。"
+      "zh_cn": ""
     },
     {
       "no": 23,
@@ -142,7 +142,7 @@
       "en": "Notice",
       "ja": "通知",
       "zh_tw": "通知",
-      "zh_cn": "通知"
+      "zh_cn": ""
     },
     {
       "no": 24,
@@ -150,7 +150,7 @@
       "en": "Please enter your ID.",
       "ja": "IDを入力してください。",
       "zh_tw": "請輸入ID",
-      "zh_cn": "请输入账号"
+      "zh_cn": ""
     },
     {
       "no": 25,
@@ -158,7 +158,7 @@
       "en": "Your ID and password don't match.",
       "ja": "IDとパスワードが正しくありません。",
       "zh_tw": "ID與密碼不符。",
-      "zh_cn": "账号与密码不符。"
+      "zh_cn": ""
     },
     {
       "no": 26,
@@ -166,7 +166,7 @@
       "en": "This email address is already in use.",
       "ja": "すでに使用されているメールアドレスです。",
       "zh_tw": "已使用的Email。",
-      "zh_cn": "已注册的邮箱。"
+      "zh_cn": ""
     },
     {
       "no": 27,
@@ -174,7 +174,7 @@
       "en": "Confirm",
       "ja": "確認",
       "zh_tw": "確認",
-      "zh_cn": "确定"
+      "zh_cn": ""
     },
     {
       "no": 28,
@@ -182,7 +182,7 @@
       "en": "Cancel",
       "ja": "キャンセル",
       "zh_tw": "取消",
-      "zh_cn": "取消"
+      "zh_cn": ""
     },
     {
       "no": 29,
@@ -190,7 +190,7 @@
       "en": "Close",
       "ja": "閉じる",
       "zh_tw": "關閉",
-      "zh_cn": "关闭"
+      "zh_cn": ""
     },
     {
       "no": 30,
@@ -198,7 +198,7 @@
       "en": "Reset",
       "ja": "リセット",
       "zh_tw": "重置",
-      "zh_cn": "重置"
+      "zh_cn": ""
     },
     {
       "no": 31,
@@ -206,7 +206,7 @@
       "en": "Please close the app and open it again.",
       "ja": "アプリを終了してから、再度実行してください。",
       "zh_tw": "請結束應用程式再重啟。",
-      "zh_cn": "请结束应用程序再重新启动。"
+      "zh_cn": ""
     },
     {
       "no": 32,
@@ -214,7 +214,7 @@
       "en": "Do you want to log in as a guest?\r\nIf you delete the game app or change your device info, you cannot proceed with your previously saved game data. You can keep your data safe by linking your account in the in-game settings.",
       "ja": "ゲストでログインしますか？\r\nアプリ削除や機種変更の際、既存のゲーム情報でプレイすることができません。ゲーム内設定でアカウントを連携させると、データを安全に保護できます。",
       "zh_tw": "確定要以訪客身份登入嗎？\r\n刪除遊戲應用程式或變更裝置資訊時，將無法以原有遊戲資訊進行遊戲。在遊戲內設定中綁定帳號，則可以保護數據。",
-      "zh_cn": "确定要以访客身份登录吗？\r\n删除游戏应用程序或更换登录设备时，将无法恢复原有游戏进度。在游戏内设置中绑定账号，可以同步游戏进度。"
+      "zh_cn": ""
     },
     {
       "no": 33,
@@ -222,7 +222,7 @@
       "en": "Loading",
       "ja": "ローディング中",
       "zh_tw": "開啟遊戲中",
-      "zh_cn": "开启游戏中"
+      "zh_cn": ""
     },
     {
       "no": 34,
@@ -230,7 +230,7 @@
       "en": "Unable to connect to the internet.\r\nPlease check your internet connection and try again.",
       "ja": "インターネットにアクセスできません。\r\nネットワーク状態を確かめてから、再度お試しください。",
       "zh_tw": "無法連線。\r\n確認連線狀態後，請重試。",
-      "zh_cn": "网络连接失败，请确认网络状态。"
+      "zh_cn": ""
     },
     {
       "no": 35,
@@ -238,7 +238,7 @@
       "en": "You have successfully left the game.\r\nRestarting game.",
       "ja": "ゲームの退会に成功しました。\r\nゲームを再起動します。",
       "zh_tw": "成功刪除帳號。\r\n遊戲將重啟。",
-      "zh_cn": "成功删除账号，\r\n游戏将重启。"
+      "zh_cn": ""
     },
     {
       "no": 36,
@@ -246,7 +246,7 @@
       "en": "Connection to the server failed.\r\nYou will be returned to the title screen.",
       "ja": "サーバーアクセスに失敗しました。\r\nタイトル画面に戻ります。",
       "zh_tw": "無法與伺服器連線。\r\n將返回至首頁。",
-      "zh_cn": "已与服务器断开连接，\r\n将返回至首页。"
+      "zh_cn": ""
     },
     {
       "no": 37,
@@ -254,7 +254,7 @@
       "en": "Permission request has been rejected.\r\nExiting the game.",
       "ja": "権限リクエストが拒否されました。\r\nゲームを終了します。",
       "zh_tw": "權限請求遭到拒絕。\r\n結束遊戲。",
-      "zh_cn": "申请设备权限请求遭到拒绝，\r\n即将关闭游戏。"
+      "zh_cn": ""
     },
     {
       "no": 38,
@@ -262,7 +262,7 @@
       "en": "Select Server",
       "ja": "サーバー選択",
       "zh_tw": "選擇伺服器",
-      "zh_cn": "选择服务器"
+      "zh_cn": ""
     },
     {
       "no": 39,
@@ -270,7 +270,7 @@
       "en": "Please select a server.",
       "ja": "サーバーを選択してください。",
       "zh_tw": "請選擇伺服器",
-      "zh_cn": "请选择服务器"
+      "zh_cn": ""
     },
     {
       "no": 40,
@@ -278,7 +278,7 @@
       "en": "Do you want to change the server?\r\nThe game will restart when you tap the confirm button.\r\nIf you are logged in, you will automatically be logged out of your account.\r\n\r\nEach server's account data is not shared.",
       "ja": "サーバーを変更しますか？\r\n確認ボタンをタップすると、ゲームを再起動します。\r\nログイン中のアカウントは自動的にログアウトします。\r\n\r\n各サーバーのアカウントデータは共有されません。",
       "zh_tw": "確定要變更伺服器嗎？\r\n點擊確認鍵並重啟遊戲。\r\n已登入的帳號將會自動登出。\r\n \r\n各伺服器的帳號數據不會共享。",
-      "zh_cn": "确定要变更服务器吗？\r\n点击确认键并重启游戏。\r\n已登录的账号将会自动登出。\r\n \r\n各服务器的账号数据不会共享。"
+      "zh_cn": ""
     },
     {
       "no": 41,
@@ -286,7 +286,7 @@
       "en": "Recommended",
       "ja": "推奨",
       "zh_tw": "推薦",
-      "zh_cn": "推荐"
+      "zh_cn": ""
     },
     {
       "no": 42,
@@ -294,7 +294,7 @@
       "en": "South Korea",
       "ja": "韓国",
       "zh_tw": "韓國",
-      "zh_cn": "韩国"
+      "zh_cn": ""
     },
     {
       "no": 43,
@@ -302,7 +302,7 @@
       "en": "Asia",
       "ja": "アジア",
       "zh_tw": "亞洲",
-      "zh_cn": "亚洲"
+      "zh_cn": ""
     },
     {
       "no": 44,
@@ -310,7 +310,7 @@
       "en": "NA & Europe",
       "ja": "欧米",
       "zh_tw": "歐美",
-      "zh_cn": "欧美"
+      "zh_cn": ""
     },
     {
       "no": 45,
@@ -318,7 +318,7 @@
       "en": "Japan",
       "ja": "日本",
       "zh_tw": "日本",
-      "zh_cn": "日本"
+      "zh_cn": ""
     },
     {
       "no": 46,
@@ -326,7 +326,7 @@
       "en": "Server has been changed.",
       "ja": "サーバーが変更されました。",
       "zh_tw": "伺服器已變更。",
-      "zh_cn": "服务器已变更。"
+      "zh_cn": ""
     },
     {
       "no": 47,
@@ -334,7 +334,7 @@
       "en": "You cannot log in to the game from your current region.",
       "ja": "現在アクセスした地域は、ゲームサービス利用の制限地域です。",
       "zh_tw": "目前連線區域為遊戲伺服器禁止連線之區域。",
-      "zh_cn": "抱歉，游戏在您当前所在区域不可使用。"
+      "zh_cn": ""
     },
     {
       "no": 48,
@@ -342,7 +342,7 @@
       "en": "Server is under maintenance.\r\nWe apologize for any inconvenience caused.",
       "ja": "サーバーメンテナンス中です。\r\nメンテナンス時間はお知らせをご確認ください。",
       "zh_tw": "伺服器維護中。\r\n造成不便，敬請見諒。",
-      "zh_cn": "当前服务器正在维护中，请稍后重新登陆。"
+      "zh_cn": ""
     },
     {
       "no": 49,
@@ -350,7 +350,7 @@
       "en": "Your current login region is different from your last login region.\r\nYou will be logged off and returned to the title screen.",
       "ja": "以前アクセスされた地域と、現在アクセスされた地域が異なります。\r\nログアウト後、タイトル画面に戻ります。",
       "zh_tw": "目前連線區域和先前連線區域不同。\r\n稍後將登出並回到主畫面。",
-      "zh_cn": "目前登录区域和之前登录区域不同，\r\n稍后将登出并回到主画面。"
+      "zh_cn": ""
     },
     {
       "no": 50,
@@ -358,7 +358,7 @@
       "en": "This account doesn't exist.\r\nThe game will restart.",
       "ja": "すでに削除されたアカウントです。\r\nゲームを再起動します。",
       "zh_tw": "該帳號已刪除。\r\n將重啟遊戲。",
-      "zh_cn": "该账号已删除，\r\n将重启游戏。"
+      "zh_cn": ""
     },
     {
       "no": 51,
@@ -366,7 +366,7 @@
       "en": "The patch has been completed.\r\nPlease log in again after the server maintenance is complete.\r\n\r\n[Server Operation Schedule]\r\n{0}",
       "ja": "事前ダウンロードにご参加いただきありがとうございます。\r\n\r\n[サーバーオープン時間]\r\n{0}",
       "zh_tw": "更新完成。\r\n請在伺服器維護結束後登入。\r\n\r\n［伺服器開放時間］\r\n{0}",
-      "zh_cn": "更新完成，\r\n请在服务器维护结束后登录。\r\n\r\n【服务器开放时间】\r\n{0}"
+      "zh_cn": ""
     },
     {
       "no": 52,
@@ -374,7 +374,7 @@
       "en": "View Details",
       "ja": "詳細表示",
       "zh_tw": "查看更多",
-      "zh_cn": "查看更多"
+      "zh_cn": ""
     },
     {
       "no": 53,
@@ -382,7 +382,7 @@
       "en": "No data table server response.",
       "ja": "テーブルサーバーの応答がありません。",
       "zh_tw": "平台伺服器沒有回應。",
-      "zh_cn": "平台服务器没有回应。"
+      "zh_cn": ""
     },
     {
       "no": 54,
@@ -390,7 +390,7 @@
       "en": "No data table version info available.",
       "ja": "テーブルバージョン情報がありません。",
       "zh_tw": "沒有平台版本資訊。",
-      "zh_cn": "没有平台版本信息。"
+      "zh_cn": ""
     },
     {
       "no": 55,
@@ -398,7 +398,7 @@
       "en": "Invalid data table version.",
       "ja": "テーブルバージョンが有効ではありません。",
       "zh_tw": "平台版本無效。",
-      "zh_cn": "平台版本无效。"
+      "zh_cn": ""
     },
     {
       "no": 56,
@@ -406,7 +406,7 @@
       "en": "An error occurred while requesting data table information (1).\r\r\n{0}",
       "ja": "テーブル情報要請中にエラーが発生しました。(1)\r\n{0}",
       "zh_tw": "讀取平台資訊時發生錯誤。(1)\r\r\n{0}",
-      "zh_cn": "读取平台信息时发生错误。（1）\r\n{0}"
+      "zh_cn": ""
     },
     {
       "no": 57,
@@ -414,7 +414,7 @@
       "en": "An error occurred while requesting data table information (2).\r\r\n{0}",
       "ja": "テーブル情報要請中にエラーが発生しました。(2)\r\n{0}",
       "zh_tw": "讀取平台資訊時發生錯誤。(2)\r\r\n{0}",
-      "zh_cn": "读取平台信息时发生错误。（2）\r\n{0}"
+      "zh_cn": ""
     },
     {
       "no": 58,
@@ -422,7 +422,7 @@
       "en": "Tips for Healthy Gaming\r\nSay no to harmful games and pirated software.\r\nGaming in moderation can stimulate the mind, but excessive play takes a toll on your health.\r\nStay vigilant about personal safety and watch out for potential scams.\r\nManage your time wisely and maintain a healthy life.",
       "ja": "健康的なゲームのためのアドバイス\r\n悪いゲームに抵抗し、海賊版ゲームを拒否します。\r\n適当なゲームプレイは脳に有益ですが、ゲームに没頭しすぎると体を壊す場合があります。\r\n自分の保護に注意を払い、騙されないように気をつけてください。\r\n時間を合理的に分配し、健康な生活を送りましょう。",
       "zh_tw": "健康遊戲宣導\r\n抵制有害遊戲，拒絕盜版遊戲。\r\n適度遊戲對頭腦有益，但過度沉溺有害身體健康。\r\n請注意自我保護，小心受騙。\r\n合理分配時間，享受健康生活。",
-      "zh_cn": "健康游戏忠告\r\n抵制不良游戏，拒绝盗版游戏。注意自我保护，谨防受骗上当。适度游戏益脑，沉迷游戏伤身。合理安排时间，享受健康生活。"
+      "zh_cn": ""
     },
     {
       "no": 59,
@@ -430,7 +430,7 @@
       "en": "Age Information Subject",
       "ja": "年齢情報タイトル",
       "zh_tw": "年齡資訊標題",
-      "zh_cn": "《永恒灵魂》适龄提示"
+      "zh_cn": ""
     },
     {
       "no": 60,
@@ -438,7 +438,7 @@
       "en": "Age Information Body",
       "ja": "年齢情報内容",
       "zh_tw": "年齡資訊內容",
-      "zh_cn": "1.本游戏是一款以奇幻世界观为故事背景的角色扮演游戏，适用于年满12周岁及以上的的用户。建议未成年人在家长监护下使用游戏产品。\r\n\r\n2.本游戏在架空背景的基础上进行创作，游戏剧情积极向上，没有基于真实历史和现实事件改编的内容。游戏玩法基于放置操作，鼓励玩家通过思考与布局达成目标。游戏中有基于文字的陌生人社交系统，该社交系统遵循相关法律法规进行管理。\r\n\r\n3.本游戏中有用户实名认证系统，认证为12周岁以上的用户将接受以下管理：\r\n游戏中部分玩法和道具需要付费。未满12周岁的用户不能付费；12周岁以上未满16周岁的未成年人用户，单次充值金额不得超过50元人民币，每月充值金额累计不得超过200元人民币；16周岁以上的未成年人用户，单次充值金额不得超过100元人民币，每月充值金额累计不得超过400元人民币。本游戏仅在周五、周六、周日和法定节假日每日20时至21时，向未成年人提1小时游戏服务。其余时间未成年人将无法登录游戏。\r\n\r\n4.游戏中丰富多样的的策略玩法有助于锻炼玩家的分析能力和思考能力，基于团队的玩法可以锻炼玩家的沟通能力、团队协作能力和大局观。"
+      "zh_cn": ""
     },
     {
       "no": 61,
@@ -446,7 +446,7 @@
       "en": "China",
       "ja": "中国",
       "zh_tw": "中國",
-      "zh_cn": "永恒灵魂"
+      "zh_cn": ""
     },
     {
       "no": 62,
@@ -454,7 +454,7 @@
       "en": "I have read and agreed to the <color=\"#ffba15\">User Agreement</color> and <color=\"#ffba15\">Privacy Policy</color>.",
       "ja": "<color=\"#ffba15\">ユーザー契約</color>および<color=\"#ffba15\">個人情報保護契約</color>を読んで同意しました。",
       "zh_tw": "已閱讀並同意<color=\"#ffba15\">使用者條款</color>及<color=\"#ffba15\">隱私權政策</color>",
-      "zh_cn": "我已详细阅读并同意<color=\"#ffba15\">用户协议</color>和<color=\"#ffba15\">隐私保护协议</color>"
+      "zh_cn": ""
     },
     {
       "no": 63,
@@ -462,7 +462,7 @@
       "en": "Privacy Policy",
       "ja": "個人情報保護方針",
       "zh_tw": "隱私權政策",
-      "zh_cn": "隐私政策"
+      "zh_cn": ""
     },
     {
       "no": 64,
@@ -470,7 +470,7 @@
       "en": "Reset Privacy Policy Agreement",
       "ja": "個人情報保護権限のリセット",
       "zh_tw": "重置隱私權權限",
-      "zh_cn": "隐私授权初始化"
+      "zh_cn": ""
     },
     {
       "no": 65,
@@ -478,7 +478,7 @@
       "en": "You are about to revoke your agreement to the Privacy Policy.\r\nUpon confirmation, the client must be restarted, and the Privacy Policy must be reviewed again before accessing the game.",
       "ja": "個人情報保護方針への承認を撤退します。\r\n確認が完了すると、ゲームを開始する前にクライアントを再起動し、個人情報保護方針を再確認します。",
       "zh_tw": "將取消同意隱私權政策。\r\n確認後進入遊戲前將重啟用戶端，須重新確認隱私權政策。",
-      "zh_cn": "您正在尝试撤回您对隐私政策的授权\r\n若确认，您需要重启客户端，并重新确认隐私政策内容后才可进入游戏"
+      "zh_cn": ""
     },
     {
       "no": 66,
@@ -486,7 +486,7 @@
       "en": "To proceed, agree and select \"User Agreement and Privacy Policy\" below to start playing.",
       "ja": "同意し、以下の「ユーザー契約および個人情報保護契約」を選択してゲームに参加してください。",
       "zh_tw": "請同意並勾選下方「使用者條款與隱私權政策」後進入遊戲。",
-      "zh_cn": "请同意并勾选下方《用户协议及隐私保护协议》方可进入游戏"
+      "zh_cn": ""
     },
     {
       "no": 868,
@@ -494,7 +494,7 @@
       "en": "Soul Obtainment Notification",
       "ja": "精霊獲得時にバッグ通知",
       "zh_tw": "獲得精靈時背包通知",
-      "zh_cn": "背包提示获得新精灵"
+      "zh_cn": ""
     },
     {
       "no": 1101,
@@ -502,7 +502,7 @@
       "en": "Commands",
       "ja": "コマンド",
       "zh_tw": "指令",
-      "zh_cn": "指令"
+      "zh_cn": ""
     },
     {
       "no": 1102,
@@ -510,7 +510,7 @@
       "en": "ON",
       "ja": "ON",
       "zh_tw": "ON",
-      "zh_cn": "开启"
+      "zh_cn": ""
     },
     {
       "no": 1103,
@@ -518,7 +518,7 @@
       "en": "OFF",
       "ja": "OFF",
       "zh_tw": "OFF",
-      "zh_cn": "关闭"
+      "zh_cn": ""
     },
     {
       "no": 1104,
@@ -526,7 +526,7 @@
       "en": "Settings",
       "ja": "環境設定",
       "zh_tw": "環境設定",
-      "zh_cn": "环境设置"
+      "zh_cn": ""
     },
     {
       "no": 1105,
@@ -534,7 +534,7 @@
       "en": "Graphics",
       "ja": "グラフィック",
       "zh_tw": "圖像",
-      "zh_cn": "图像"
+      "zh_cn": ""
     },
     {
       "no": 1106,
@@ -542,7 +542,7 @@
       "en": "Sound",
       "ja": "サウンド",
       "zh_tw": "音效",
-      "zh_cn": "音效"
+      "zh_cn": ""
     },
     {
       "no": 1107,
@@ -550,7 +550,7 @@
       "en": "Language",
       "ja": "言語",
       "zh_tw": "語言",
-      "zh_cn": "语言"
+      "zh_cn": ""
     },
     {
       "no": 1108,
@@ -558,7 +558,7 @@
       "en": "Game",
       "ja": "ゲーム",
       "zh_tw": "遊戲",
-      "zh_cn": "游戏"
+      "zh_cn": ""
     },
     {
       "no": 1109,
@@ -566,7 +566,7 @@
       "en": "Server",
       "ja": "サーバー",
       "zh_tw": "伺服器",
-      "zh_cn": "服务器"
+      "zh_cn": ""
     },
     {
       "no": 1110,
@@ -574,7 +574,7 @@
       "en": "Account",
       "ja": "アカウント",
       "zh_tw": "帳號",
-      "zh_cn": "账号"
+      "zh_cn": ""
     },
     {
       "no": 1111,
@@ -582,7 +582,7 @@
       "en": "Quality",
       "ja": "クオリティ",
       "zh_tw": "品質",
-      "zh_cn": "品质"
+      "zh_cn": ""
     },
     {
       "no": 1112,
@@ -590,7 +590,7 @@
       "en": "Low",
       "ja": "低",
       "zh_tw": "低",
-      "zh_cn": "低"
+      "zh_cn": ""
     },
     {
       "no": 1113,
@@ -598,7 +598,7 @@
       "en": "Medium",
       "ja": "中",
       "zh_tw": "中",
-      "zh_cn": "中"
+      "zh_cn": ""
     },
     {
       "no": 1114,
@@ -606,7 +606,7 @@
       "en": "High",
       "ja": "高",
       "zh_tw": "高",
-      "zh_cn": "高"
+      "zh_cn": ""
     },
     {
       "no": 1115,
@@ -614,7 +614,7 @@
       "en": "Info",
       "ja": "説明",
       "zh_tw": "說明",
-      "zh_cn": "说明"
+      "zh_cn": ""
     },
     {
       "no": 1116,
@@ -622,7 +622,7 @@
       "en": "BGM",
       "ja": "BGM",
       "zh_tw": "BGM",
-      "zh_cn": "背景音"
+      "zh_cn": ""
     },
     {
       "no": 1117,
@@ -630,7 +630,7 @@
       "en": "SFX",
       "ja": "SE",
       "zh_tw": "效果音",
-      "zh_cn": "效果音"
+      "zh_cn": ""
     },
     {
       "no": 1118,
@@ -638,7 +638,7 @@
       "en": "Voice",
       "ja": "ボイス",
       "zh_tw": "語音",
-      "zh_cn": "语音"
+      "zh_cn": ""
     },
     {
       "no": 1119,
@@ -646,7 +646,7 @@
       "en": "Text",
       "ja": "テキスト",
       "zh_tw": "文字",
-      "zh_cn": "文字"
+      "zh_cn": ""
     },
     {
       "no": 1120,
@@ -654,7 +654,7 @@
       "en": "Voice",
       "ja": "ボイス",
       "zh_tw": "聲音",
-      "zh_cn": "声音"
+      "zh_cn": ""
     },
     {
       "no": 1121,
@@ -662,7 +662,7 @@
       "en": "Server – {0}",
       "ja": "サーバー - {0}",
       "zh_tw": "伺服器－{0}",
-      "zh_cn": "服务器－{0}"
+      "zh_cn": ""
     },
     {
       "no": 1122,
@@ -670,7 +670,7 @@
       "en": "Enable Buff Icons",
       "ja": "バフアイコン活性化",
       "zh_tw": "啟用增益圖示",
-      "zh_cn": "显示增益图标"
+      "zh_cn": ""
     },
     {
       "no": 1123,
@@ -678,7 +678,7 @@
       "en": "Enable Skill Dialog",
       "ja": "スキル台詞活性化",
       "zh_tw": "啟用技能台詞",
-      "zh_cn": "显示技能台词"
+      "zh_cn": ""
     },
     {
       "no": 1124,
@@ -686,7 +686,7 @@
       "en": "Link Account",
       "ja": "アカウント連携",
       "zh_tw": "綁定帳號",
-      "zh_cn": "绑定账号"
+      "zh_cn": ""
     },
     {
       "no": 1125,
@@ -694,7 +694,7 @@
       "en": "User Number",
       "ja": "ユーザーID",
       "zh_tw": "遊戲會員編號",
-      "zh_cn": "游戏账号编号"
+      "zh_cn": ""
     },
     {
       "no": 1126,
@@ -702,7 +702,7 @@
       "en": "User Guide",
       "ja": "利用のご案内",
       "zh_tw": "使用指南",
-      "zh_cn": "游戏指南"
+      "zh_cn": ""
     },
     {
       "no": 1127,
@@ -710,7 +710,7 @@
       "en": "Coupon Code",
       "ja": "クーポンコード",
       "zh_tw": "優惠券代碼",
-      "zh_cn": "礼包码"
+      "zh_cn": ""
     },
     {
       "no": 1128,
@@ -718,7 +718,7 @@
       "en": "Push Notifications",
       "ja": "プッシュ通知",
       "zh_tw": "推播通知",
-      "zh_cn": "推送通知"
+      "zh_cn": ""
     },
     {
       "no": 1129,
@@ -726,7 +726,7 @@
       "en": "Promotional Daytime Notifications",
       "ja": "広告昼間プッシュ通知",
       "zh_tw": "每週推播通知",
-      "zh_cn": "每周推送通知"
+      "zh_cn": ""
     },
     {
       "no": 1130,
@@ -734,7 +734,7 @@
       "en": "Promotional Night Notifications",
       "ja": "広告夜間プッシュ通知",
       "zh_tw": "夜間推播通知",
-      "zh_cn": "夜间推送通知"
+      "zh_cn": ""
     },
     {
       "no": 1131,
@@ -742,7 +742,7 @@
       "en": "100% Loot Notification",
       "ja": "戦利品100%達成通知",
       "zh_tw": "戰利品達成100%通知",
-      "zh_cn": "战利品达成100%通知"
+      "zh_cn": ""
     },
     {
       "no": 1132,
@@ -750,7 +750,7 @@
       "en": "Part-Time Job Completion Notification",
       "ja": "バイト完了通知",
       "zh_tw": "打工完成通知",
-      "zh_cn": "打工完成通知"
+      "zh_cn": ""
     },
     {
       "no": 1133,
@@ -758,7 +758,7 @@
       "en": "Copy",
       "ja": "コピー",
       "zh_tw": "複製",
-      "zh_cn": "复制"
+      "zh_cn": ""
     },
     {
       "no": 1134,
@@ -766,7 +766,7 @@
       "en": "Contact Us",
       "ja": "お問い合わせ",
       "zh_tw": "諮詢",
-      "zh_cn": "客服"
+      "zh_cn": ""
     },
     {
       "no": 1135,
@@ -774,7 +774,7 @@
       "en": "Terms of Use",
       "ja": "利用規約",
       "zh_tw": "使用條款",
-      "zh_cn": "隐私协议"
+      "zh_cn": ""
     },
     {
       "no": 1136,
@@ -782,7 +782,7 @@
       "en": "Privacy Policy",
       "ja": "プライバシーポリシー",
       "zh_tw": "個人資訊處理方針",
-      "zh_cn": "个人信息处理方案"
+      "zh_cn": ""
     },
     {
       "no": 1137,
@@ -790,7 +790,7 @@
       "en": "Enter Coupon",
       "ja": "クーポン入力",
       "zh_tw": "輸入優惠券",
-      "zh_cn": "输入礼包码"
+      "zh_cn": ""
     },
     {
       "no": 1138,
@@ -798,7 +798,7 @@
       "en": "Withdraw",
       "ja": "退会",
       "zh_tw": "刪除",
-      "zh_cn": "删除"
+      "zh_cn": ""
     },
     {
       "no": 1139,
@@ -806,7 +806,7 @@
       "en": "Do you want to change to the selected language?\r\nThe game will restart if you change the language.",
       "ja": "選択した言語に変更しますか？\r\n言語を変更すると、ゲームが再起動されます。",
       "zh_tw": "要變更為選擇的語言嗎？\r\n語言變更時，遊戲將會重啟。",
-      "zh_cn": "要变更为选择的语言吗？\r\n语言变更时，游戏将会重启。"
+      "zh_cn": ""
     },
     {
       "no": 1140,
@@ -814,7 +814,7 @@
       "en": "Do you want to change to the selected server?\r\nChanging will return you to the login screen.",
       "ja": "選択したサーバーに変更しますか？\r\nログイン画面に移動します。",
       "zh_tw": "要變更為選擇的伺服器嗎？\r\n將移動至登入畫面。",
-      "zh_cn": "要变更为选择的服务器吗？\r\n将移动至登录画面。"
+      "zh_cn": ""
     },
     {
       "no": 1141,
@@ -822,7 +822,7 @@
       "en": "{0}%",
       "ja": "{0}%",
       "zh_tw": "{0}％",
-      "zh_cn": "{0}％"
+      "zh_cn": ""
     },
     {
       "no": 1142,
@@ -830,7 +830,7 @@
       "en": "Google Play Login",
       "ja": "Google Playでログイン",
       "zh_tw": "登入Google Play",
-      "zh_cn": "登录Google Play"
+      "zh_cn": ""
     },
     {
       "no": 1143,
@@ -838,7 +838,7 @@
       "en": "Google Play Logout",
       "ja": "Google Playでログアウト",
       "zh_tw": "登出Google Play",
-      "zh_cn": "登出Google Play"
+      "zh_cn": ""
     },
     {
       "no": 1144,
@@ -846,7 +846,7 @@
       "en": "You have successfully left the game.\r\nRestarting game.",
       "ja": "ゲームの退会に成功しました。\r\nゲームを再起動します。",
       "zh_tw": "成功刪除帳號。\r\n遊戲將重啟。",
-      "zh_cn": "已经成功删除账号，游戏即将重启。"
+      "zh_cn": ""
     },
     {
       "no": 1145,
@@ -854,7 +854,7 @@
       "en": "Night push notification approval was successfully processed.\r\n{0}",
       "ja": "夜間プッシュ通知の受信同意が正常に行われました。\r\n{0}",
       "zh_tw": "已視為同意接收夜間推播。\r\n{0}",
-      "zh_cn": "已视为同意接收夜间推送。\r\n{0}"
+      "zh_cn": ""
     },
     {
       "no": 1146,
@@ -862,7 +862,7 @@
       "en": "Night push notification rejection was successfully processed.\r\n{0}",
       "ja": "夜間プッシュ通知の受信拒否が正常に行われました。\r\n{0}",
       "zh_tw": "已視為拒絕接收夜間推播。\r\n{0}",
-      "zh_cn": "已视为拒绝接收夜间推送。\r\n{0}"
+      "zh_cn": ""
     },
     {
       "no": 1147,
@@ -870,7 +870,7 @@
       "en": "Daytime push notification approval was successfully processed.\r\n{0}",
       "ja": "昼間プッシュ通知の受信同意が正常に行われました。\r\n{0}",
       "zh_tw": "已視為同意接收每週推播。\r\n{0}",
-      "zh_cn": "已视为同意接收每周推送。\r\n{0}"
+      "zh_cn": ""
     },
     {
       "no": 1148,
@@ -878,7 +878,7 @@
       "en": "Daytime push notification rejection was successfully processed.\r\n{0}",
       "ja": "昼間プッシュ通知の受信拒否が正常に行われました。\r\n{0}",
       "zh_tw": "已視為拒絕接收每週推播。\r\n{0}",
-      "zh_cn": "已视为拒绝接收每周推送。\r\n{0}"
+      "zh_cn": ""
     },
     {
       "no": 1149,
@@ -886,7 +886,7 @@
       "en": "Failed to set up notification approvals.",
       "ja": "プッシュ設定に失敗しました。",
       "zh_tw": "推播設定失敗。",
-      "zh_cn": "推送设置失败。"
+      "zh_cn": ""
     },
     {
       "no": 1150,
@@ -894,7 +894,7 @@
       "en": "Linking is complete.",
       "ja": "連携が完了しました。",
       "zh_tw": "已完成綁定。",
-      "zh_cn": "已完成绑定。"
+      "zh_cn": ""
     },
     {
       "no": 1151,
@@ -902,7 +902,7 @@
       "en": "Enable Buff Text",
       "ja": "バフテキスト活性化",
       "zh_tw": "啟用增益文字",
-      "zh_cn": "显示增益效果"
+      "zh_cn": ""
     },
     {
       "no": 1152,
@@ -910,7 +910,7 @@
       "en": "Copied User Number to clipboard.",
       "ja": "ユーザーIDをコピーしました。",
       "zh_tw": "已複製遊戲會員編號。",
-      "zh_cn": "已复制游戏会员编号。"
+      "zh_cn": ""
     },
     {
       "no": 1153,
@@ -918,7 +918,7 @@
       "en": "Customize Settings",
       "ja": "ユーザー指定",
       "zh_tw": "指定使用者",
-      "zh_cn": "自定义"
+      "zh_cn": ""
     },
     {
       "no": 1154,
@@ -926,7 +926,7 @@
       "en": "Frame",
       "ja": "フレーム",
       "zh_tw": "幀率",
-      "zh_cn": "帧率"
+      "zh_cn": ""
     },
     {
       "no": 1155,
@@ -934,7 +934,7 @@
       "en": "Resolution",
       "ja": "解像度",
       "zh_tw": "解析度",
-      "zh_cn": "清晰度"
+      "zh_cn": ""
     },
     {
       "no": 1156,
@@ -942,7 +942,7 @@
       "en": "Texture Quality",
       "ja": "テクスチャ品質",
       "zh_tw": "畫質",
-      "zh_cn": "画质"
+      "zh_cn": ""
     },
     {
       "no": 1157,
@@ -950,7 +950,7 @@
       "en": "Post-processing",
       "ja": "ポストプロセッシング",
       "zh_tw": "後製",
-      "zh_cn": "渲染精度"
+      "zh_cn": ""
     },
     {
       "no": 1158,
@@ -958,7 +958,7 @@
       "en": "Effect Quality",
       "ja": "エフェクト品質",
       "zh_tw": "效果品質",
-      "zh_cn": "效果品质"
+      "zh_cn": ""
     },
     {
       "no": 1159,
@@ -966,7 +966,7 @@
       "en": "Character Quality",
       "ja": "キャラクター品質",
       "zh_tw": "角色品質",
-      "zh_cn": "角色品质"
+      "zh_cn": ""
     },
     {
       "no": 1160,
@@ -974,7 +974,7 @@
       "en": "Social",
       "ja": "コミュニティ",
       "zh_tw": "社群",
-      "zh_cn": "社区"
+      "zh_cn": ""
     },
     {
       "no": 1161,
@@ -982,7 +982,7 @@
       "en": "Community",
       "ja": "公式サイト",
       "zh_tw": "官方論壇",
-      "zh_cn": "官方论坛"
+      "zh_cn": ""
     },
     {
       "no": 1162,
@@ -990,7 +990,7 @@
       "en": "User Guide & Coupons",
       "ja": "利用のご案内・クーポン",
       "zh_tw": "使用說明及優惠券",
-      "zh_cn": "使用说明及礼包码"
+      "zh_cn": ""
     },
     {
       "no": 1163,
@@ -998,7 +998,7 @@
       "en": "Default Settings for Additional Downloads",
       "ja": "追加ダウンロード基本設定",
       "zh_tw": "追加下載基本設定",
-      "zh_cn": "追加下载基本设置"
+      "zh_cn": ""
     },
     {
       "no": 1164,
@@ -1006,7 +1006,7 @@
       "en": "Download All Additional Data",
       "ja": "追加データ一括ダウンロード",
       "zh_tw": "一鍵下載追加數據",
-      "zh_cn": "一键下载追加数据"
+      "zh_cn": ""
     },
     {
       "no": 1165,
@@ -1014,7 +1014,7 @@
       "en": "Download",
       "ja": "ダウンロード",
       "zh_tw": "下載",
-      "zh_cn": "下载"
+      "zh_cn": ""
     },
     {
       "no": 1166,
@@ -1022,7 +1022,7 @@
       "en": "Download Complete",
       "ja": "ダウンロード完了",
       "zh_tw": "下載完畢",
-      "zh_cn": "下载完毕"
+      "zh_cn": ""
     },
     {
       "no": 1167,
@@ -1030,7 +1030,7 @@
       "en": "Arena Notification",
       "ja": "アリーナ通知",
       "zh_tw": "競技場通知",
-      "zh_cn": "竞技场通知"
+      "zh_cn": ""
     },
     {
       "no": 1168,
@@ -1038,7 +1038,7 @@
       "en": "Guild Raid Notification",
       "ja": "ギルドレイド通知",
       "zh_tw": "公會突襲通知",
-      "zh_cn": "公会突袭通知"
+      "zh_cn": ""
     },
     {
       "no": 1169,
@@ -1046,7 +1046,7 @@
       "en": "Reset Account",
       "ja": "アカウントリセット",
       "zh_tw": "重置帳號",
-      "zh_cn": "重置账号"
+      "zh_cn": ""
     },
     {
       "no": 1170,
@@ -1054,7 +1054,7 @@
       "en": "Closing app due to insecure environment.",
       "ja": "セキュリティが脆弱な環境と判断したため、アプリを終了します。",
       "zh_tw": "判斷為處於資安不足環境，將關閉應用程式。",
-      "zh_cn": "识别到当前设备有使用安全性问题，将关闭应用程序"
+      "zh_cn": ""
     },
     {
       "no": 1171,
@@ -1062,7 +1062,7 @@
       "en": "Notice Soul Settings",
       "ja": "通知精霊設定",
       "zh_tw": "設定通知精靈",
-      "zh_cn": "设置通知精灵"
+      "zh_cn": ""
     },
     {
       "no": 1172,
@@ -1070,7 +1070,7 @@
       "en": "Arena Notification",
       "ja": "アリーナ通知",
       "zh_tw": "競技場通知",
-      "zh_cn": "竞技场通知"
+      "zh_cn": ""
     },
     {
       "no": 1173,
@@ -1078,7 +1078,7 @@
       "en": "Champs Arena Notification",
       "ja": "チャンピオンズアリーナ通知",
       "zh_tw": "冠軍競技場通知",
-      "zh_cn": "冠军竞技场通知"
+      "zh_cn": ""
     },
     {
       "no": 1174,
@@ -1086,7 +1086,7 @@
       "en": "Very High",
       "ja": "最高",
       "zh_tw": "極高",
-      "zh_cn": "极高"
+      "zh_cn": ""
     },
     {
       "no": 1175,
@@ -1094,7 +1094,7 @@
       "en": "Notice",
       "ja": "通知",
       "zh_tw": "通知",
-      "zh_cn": "通知"
+      "zh_cn": ""
     },
     {
       "no": 1176,
@@ -1102,7 +1102,7 @@
       "en": "Change",
       "ja": "変更",
       "zh_tw": "變更",
-      "zh_cn": "变更"
+      "zh_cn": ""
     },
     {
       "no": 1177,
@@ -1110,7 +1110,7 @@
       "en": "Certain devices may get heated or may have connectivity issues when running the game for a long time.\r\nWould you like to proceed with these settings?",
       "ja": "デバイスによっては、長時間プレイによる\r\n発熱やフリーズが発生するおそれがあります。\r\nこちらの設定でよろしいですか？",
       "zh_tw": "根據裝置的不同，長時間使用可能會發生發熱及斷開現象。\r\n確定要使用該選項嗎？",
-      "zh_cn": "长时间使用会引发部分设备的过热及闪退问题，请确认是否使用该选项？"
+      "zh_cn": ""
     },
     {
       "no": 1178,
@@ -1118,7 +1118,7 @@
       "en": "Delete All Additional Data",
       "ja": "追加データ一括削除",
       "zh_tw": "一鍵刪除追加數據",
-      "zh_cn": "一键删除追加数据"
+      "zh_cn": ""
     },
     {
       "no": 1179,
@@ -1126,7 +1126,7 @@
       "en": "Delete All",
       "ja": "一括削除",
       "zh_tw": "一鍵刪除",
-      "zh_cn": "一键删除"
+      "zh_cn": ""
     },
     {
       "no": 1180,
@@ -1134,7 +1134,7 @@
       "en": "Deletion Complete",
       "ja": "削除完了",
       "zh_tw": "刪除完成",
-      "zh_cn": "删除完成"
+      "zh_cn": ""
     },
     {
       "no": 1181,
@@ -1142,7 +1142,7 @@
       "en": "Verifying data...",
       "ja": "データを確認中です。",
       "zh_tw": "確認數據中。",
-      "zh_cn": "确认数据中。"
+      "zh_cn": ""
     },
     {
       "no": 1182,
@@ -1150,7 +1150,7 @@
       "en": "Show real-time shadows in battles",
       "ja": "戦闘中にリアルタイムで影表示",
       "zh_tw": "戰鬥即時影子",
-      "zh_cn": "战斗时阴影效果"
+      "zh_cn": ""
     },
     {
       "no": 1183,
@@ -1158,7 +1158,7 @@
       "en": "Default Settings",
       "ja": "基本設定",
       "zh_tw": "基本設定",
-      "zh_cn": "基本设置"
+      "zh_cn": ""
     },
     {
       "no": 1184,
@@ -1166,7 +1166,7 @@
       "en": "Shadow Quality",
       "ja": "影の品質",
       "zh_tw": "影子品質",
-      "zh_cn": "阴影质量"
+      "zh_cn": ""
     },
     {
       "no": 1185,
@@ -1174,7 +1174,7 @@
       "en": "Anti-Aliasing",
       "ja": "アンチエイリアス",
       "zh_tw": "反鋸齒",
-      "zh_cn": "抗锯齿"
+      "zh_cn": ""
     },
     {
       "no": 1186,
@@ -1182,7 +1182,7 @@
       "en": "Lighting Effects",
       "ja": "光源効果",
       "zh_tw": "光源效果",
-      "zh_cn": "光源效果"
+      "zh_cn": ""
     },
     {
       "no": 1187,
@@ -1190,7 +1190,7 @@
       "en": "Overall Settings",
       "ja": "全体設定",
       "zh_tw": "所有設定",
-      "zh_cn": "画质设置"
+      "zh_cn": ""
     },
     {
       "no": 1188,
@@ -1198,7 +1198,7 @@
       "en": "Graphic Quality",
       "ja": "グラフィック品質",
       "zh_tw": "圖像畫質",
-      "zh_cn": "分辨率"
+      "zh_cn": ""
     },
     {
       "no": 1189,
@@ -1206,7 +1206,7 @@
       "en": "Not Supported",
       "ja": "サポート外",
       "zh_tw": "尚未支援",
-      "zh_cn": "暂不支持"
+      "zh_cn": ""
     },
     {
       "no": 1190,
@@ -1214,7 +1214,7 @@
       "en": "This option is not supported in the Google Play Games environment.",
       "ja": "Google Play Games環境でサポートしないオプションです。",
       "zh_tw": "該選項在Google Play遊戲環境下不支援。",
-      "zh_cn": "该选项在Google Play游戏环境下不支持。"
+      "zh_cn": ""
     },
     {
       "no": 1201,
@@ -1222,7 +1222,7 @@
       "en": "한국어",
       "ja": "한국어",
       "zh_tw": "한국어",
-      "zh_cn": "한국어"
+      "zh_cn": ""
     },
     {
       "no": 1202,
@@ -1230,7 +1230,7 @@
       "en": "English",
       "ja": "English",
       "zh_tw": "English",
-      "zh_cn": "English"
+      "zh_cn": ""
     },
     {
       "no": 1203,
@@ -1238,7 +1238,7 @@
       "en": "日本語",
       "ja": "日本語",
       "zh_tw": "日本語",
-      "zh_cn": "日本語"
+      "zh_cn": ""
     },
     {
       "no": 1204,
@@ -1246,7 +1246,7 @@
       "en": "中文(简体)",
       "ja": "中文(简体)",
       "zh_tw": "中文(简体)",
-      "zh_cn": "简体中文"
+      "zh_cn": ""
     },
     {
       "no": 1205,
@@ -1254,7 +1254,7 @@
       "en": "中文(繁體)",
       "ja": "中文(繁體)",
       "zh_tw": "中文(繁體)",
-      "zh_cn": "中文(繁体)"
+      "zh_cn": ""
     },
     {
       "no": 1206,
@@ -1262,7 +1262,7 @@
       "en": "Deutsch",
       "ja": "Deutsch",
       "zh_tw": "Deutsch",
-      "zh_cn": "Deutsch"
+      "zh_cn": ""
     },
     {
       "no": 1207,
@@ -1270,7 +1270,7 @@
       "en": "Portuguese",
       "ja": "Portuguese",
       "zh_tw": "Portuguese",
-      "zh_cn": "Portuguese"
+      "zh_cn": ""
     },
     {
       "no": 1208,
@@ -1278,7 +1278,7 @@
       "en": "Bahasa Indonesia",
       "ja": "Bahasa Indonesia",
       "zh_tw": "Bahasa Indonesia",
-      "zh_cn": "Bahasa Indonesia"
+      "zh_cn": ""
     },
     {
       "no": 1209,
@@ -1286,7 +1286,7 @@
       "en": "ภาษาไทย",
       "ja": "ภาษาไทย",
       "zh_tw": "ภาษาไทย",
-      "zh_cn": "ภาษาไทย"
+      "zh_cn": ""
     },
     {
       "no": 1301,
@@ -1294,7 +1294,7 @@
       "en": "Update available.\r\nWould you like to download the data?\r\n\r\n<color=\"#4794db\">{0} MB</color>",
       "ja": "アップデートがあります。\r\nデータをダウンロードしますか？\r\n\r\n<color=\"#4794db\">{0}MB</color>",
       "zh_tw": "已確認更新。\r\n要下載數據嗎？\r\n\r\n<color=\"#4794db\">{0}MB</color>",
-      "zh_cn": "已确认更新。\r\n要下载数据吗？\r\n\r\n<color=\"#4794db\">{0}MB</color>"
+      "zh_cn": ""
     },
     {
       "no": 1302,
@@ -1302,7 +1302,7 @@
       "en": "※ Please download at a place with a good connection. It may take some time depending on the status of your connection.",
       "ja": "※通信環境のいい場所でダウンロードしてください。通信状態により、時間がかかる場合があります。",
       "zh_tw": "※請至網路連線穩定的環境下載。根據網路連線狀態，有可能會花費一些時間。",
-      "zh_cn": "※下载时间会受网络状态影响，请在稳定的网络环境下进行下载。"
+      "zh_cn": ""
     },
     {
       "no": 1303,
@@ -1310,7 +1310,7 @@
       "en": "Checking for updates.",
       "ja": "アップデートを確認しています。",
       "zh_tw": "確認更新中。",
-      "zh_cn": "确认更新中。"
+      "zh_cn": ""
     },
     {
       "no": 1304,
@@ -1318,7 +1318,7 @@
       "en": "Downloading and installing data.",
       "ja": "データをダウンロードし、インストールしています。",
       "zh_tw": "數據下載及安裝中。",
-      "zh_cn": "数据下载及安装中。"
+      "zh_cn": ""
     },
     {
       "no": 1305,
@@ -1326,7 +1326,7 @@
       "en": "Download failed. Please try again.",
       "ja": "ダウンロードに失敗しました。再度お試しください。",
       "zh_tw": "下載失敗。請重試。",
-      "zh_cn": "下载失败，请检查网络设置后重启游戏尝试。"
+      "zh_cn": ""
     },
     {
       "no": 1306,
@@ -1334,7 +1334,7 @@
       "en": "( {0} / {1} )",
       "ja": "( {0} / {1} )",
       "zh_tw": "（{0}／{1}）",
-      "zh_cn": "（{0}／{1}）"
+      "zh_cn": ""
     },
     {
       "no": 1307,
@@ -1342,7 +1342,7 @@
       "en": "Failed to load data.",
       "ja": "データのロードに失敗しました。",
       "zh_tw": "數據載入失敗。",
-      "zh_cn": "数据载入失败。"
+      "zh_cn": ""
     },
     {
       "no": 1308,
@@ -1350,7 +1350,7 @@
       "en": "Not enough storage available.\r\nPlease try again after freeing up some space.\r\n\r\nRequired Space: <color=\"#4794db\">{0} MB</color>",
       "ja": "ストレージの空き容量が不足しています。\r\n空き容量を確保してから、再度お試しください。\r\n\r\n必要な容量：<color=\"#4794db\">{0}MB</color>",
       "zh_tw": "儲存空間不足。\r\n請確認有足夠的儲存空間後再嘗試。\r\n\r\n所需空間：<color=\"#4794db\">{0}MB</color>",
-      "zh_cn": "储存空间不足。\r\n请确认有足够的储存空间后再尝试。\r\n\r\n所需空间：<color=\"#4794db\">{0}MB</color>"
+      "zh_cn": ""
     },
     {
       "no": 1309,
@@ -1358,7 +1358,7 @@
       "en": "Download all additional data?\r\n<color=\"#ff3739\"><size=16>Wi-Fi download is recommended.</size></color>\r\n\r\n<color=\"#4794db\">{0} MB</color>",
       "ja": "全ての追加データをダウンロードしますか？\r\n<color=\"#ff3739\"><size=16>Wi-Fi環境でのダウンロードを推奨します。</size></color>\r\n\r\n<color=\"#4794db\">{0} MB</color>",
       "zh_tw": "要下載所有追加數據嗎？\r\n<color=\"#ff3739\"><size=16>建議在Wi-Fi環境下進行下載。</size></color>\r\n\r\n<color=\"#4794db\">{0}MB</color>",
-      "zh_cn": "要下载所有追加数据吗？\r\n<color=\"#ff3739\"><size=16>建议在Wi-Fi环境下进行下载。</size></color>\r\n\r\n<color=\"#4794db\">{0}MB</color>"
+      "zh_cn": ""
     },
     {
       "no": 1310,
@@ -1366,7 +1366,7 @@
       "en": "Return to the title screen\r\nto check download data?",
       "ja": "ダウンロードするデータを確認するために、\r\nタイトル画面に移動しますか？",
       "zh_tw": "要移動至主畫面\r\n確認要下載的數據嗎？",
-      "zh_cn": "要移动至主画面\r\n确认要下载的数据吗？"
+      "zh_cn": ""
     },
     {
       "no": 1311,
@@ -1374,7 +1374,7 @@
       "en": "* We recommend you to link your account before playing the game.",
       "ja": "*アカウント連携を行ってから、プレイすることをお勧めします。",
       "zh_tw": "※建議您綁定帳號後再遊玩。",
-      "zh_cn": "※推荐绑定账号后继续体验游戏。"
+      "zh_cn": ""
     },
     {
       "no": 1312,
@@ -1382,7 +1382,7 @@
       "en": "Turn on Promotional Night Notifications to get notifications at night.",
       "ja": "広告夜間プッシュ通知に同意(ON)すると、夜間にも通知が送信されます。",
       "zh_tw": "開啟夜間推播通知（ON），將於夜間發送通知。",
-      "zh_cn": "开启夜间推送通知（ON）后，您将收到夜间发送的通知消息。"
+      "zh_cn": ""
     },
     {
       "no": 1313,
@@ -1390,7 +1390,7 @@
       "en": "Delete all additionally downloaded data and return to the title screen?\r\r\n\r\r\nDeleting data may take a while depending on\r\r\nyour device or your network connection.",
       "ja": "追加ダウンロードしたデータを全て削除し、タイトル画面に移動しますか？\r\n\r\nデータ削除時、デバイスや環境によってかかる時間が変わる可能性があります。",
       "zh_tw": "確定要刪除追加下載的所有數據，移動至主畫面嗎？\r\r\n\r\r\n刪除資料時，根據設備或網路環境的不同，\r\r\n可能會需要較長的時間。",
-      "zh_cn": "确定要删除追加下载的所有数据，移动至主画面吗？\r\r\n\r\r\n删除资料时，根据设备或网络环境的不同，\r\r\n可能会需要较长的时间。"
+      "zh_cn": ""
     },
     {
       "no": 1314,
@@ -1398,7 +1398,7 @@
       "en": "Deleting additional data.\r\r\nYou will be redirected to the login screen once deletion is complete.\r\r\n\r\r\n<color=\"#ff3739\">Deleting data...</color>",
       "ja": "追加データを削除しています。\r\n削除が完了するとログイン画面に移動します。\r\n\r\n<color=\"#ff3739\">データ削除中…</color>",
       "zh_tw": "正在刪除追加數據。\r\r\n刪除結束後將移動至登入畫面。\r\r\n\r\r\n<color=\"#ff3739\">刪除數據中…</color>",
-      "zh_cn": "正在删除追加数据。\r\r\n删除结束后将移动至登录画面。\r\r\n\r\r\n<color=\"#ff3739\">删除数据中……</color>"
+      "zh_cn": ""
     },
     {
       "no": 1315,
@@ -1406,7 +1406,7 @@
       "en": "Data download finished.",
       "ja": "データダウンロードを完了しました。",
       "zh_tw": "資料已下載完成。",
-      "zh_cn": "资料已下载完成。"
+      "zh_cn": ""
     },
     {
       "no": 1316,
@@ -1414,7 +1414,7 @@
       "en": "Return to the title screen to apply the changed voice settings?\r\nThere may be additional data to download.",
       "ja": "ボイス変更設定を適用するためにタイトル画面へ移動しますか？\r\n追加ダウンロードが発生することがあります。",
       "zh_tw": "確定要移動至主畫面套用變更語音設定嗎？\r\n可能會進行追加下載。",
-      "zh_cn": "确定要移动至主画面套用变更语音设定吗？\r\n可能会进行追加下载。"
+      "zh_cn": ""
     },
     {
       "no": 1317,
@@ -1422,7 +1422,7 @@
       "en": "Voice data needs to be downloaded for the voice change.\r\nDownload the necessary data?\r\n<color=\"#ff3739\"><size=16>Downloading over Wi-Fi is recommended.</size></color>",
       "ja": "ボイス変更のため、ボイスのダウンロードが必要です。\r\n必要なデータをダウンロードしますか？\r\n<color=\"#ff3739\"><size=16>Wi-Fi環境でのダウンロードをお勧めします。</size></color>",
       "zh_tw": "變更須下載語音。\r\n確定要下載所需資料嗎？\r\n<color=\"#ff3739\"><size=16>建議在Wi-Fi環境下進行下載。</size></color>",
-      "zh_cn": "变更须下载语音。\r\n确定要下载所需资料吗？\r\n<color=\"#ff3739\"><size=16>建议在Wi-Fi环境下进行下载。</size></color>"
+      "zh_cn": ""
     },
     {
       "no": 1318,
@@ -1430,7 +1430,7 @@
       "en": "Required download\r\n<color=\"#787A98\"><size=18>({0}MB)</size></color>",
       "ja": "必須ダウンロード\r\n<color=\"#787A98\"><size=18>({0}MB)</size></color>",
       "zh_tw": "基本下載\r\n<color=\"#787A98\"><size=18>（{0}MB）</size></color>",
-      "zh_cn": "基本下载\r\n<color=\"#787A98\"><size=18>（{0}MB）</size></color>"
+      "zh_cn": ""
     },
     {
       "no": 1319,
@@ -1438,7 +1438,7 @@
       "en": "Full download\r\n<color=\"#787A98\"><size=18>({0}MB)</size></color>",
       "ja": "全体ダウンロード\r\n<color=\"#787A98\"><size=18>({0}MB)</size></color>",
       "zh_tw": "下載全部\r\n<color=\"#787A98\"><size=18>（{0}MB）</size></color>",
-      "zh_cn": "下载全部\r\n<color=\"#787A98\"><size=18>（{0}MB）</size></color>"
+      "zh_cn": ""
     },
     {
       "no": 2001,
@@ -1446,7 +1446,7 @@
       "en": "An error has occurred.{0}",
       "ja": "エラーが発生しました。{0}",
       "zh_tw": "發生錯誤。{0}",
-      "zh_cn": "发生错误。{0}"
+      "zh_cn": ""
     },
     {
       "no": 2002,
@@ -1454,7 +1454,7 @@
       "en": "This account is already in use.",
       "ja": "すでに使用されているアカウントです。",
       "zh_tw": "使用中的帳號。",
-      "zh_cn": "使用中的帐号。"
+      "zh_cn": ""
     },
     {
       "no": 2003,
@@ -1462,7 +1462,7 @@
       "en": "Message quota exceeded.",
       "ja": "メッセージの上限値を超過しました。",
       "zh_tw": "已超過訊息最高限度。",
-      "zh_cn": "已达到消息最高限制。"
+      "zh_cn": ""
     },
     {
       "no": 2004,
@@ -1470,7 +1470,7 @@
       "en": "This recipient has blocked messages.",
       "ja": "受信者がメッセージをブロックしました。",
       "zh_tw": "收件人已封鎖訊息。",
-      "zh_cn": "收件人已屏蔽消息。"
+      "zh_cn": ""
     },
     {
       "no": 2005,
@@ -1478,7 +1478,7 @@
       "en": "You cannot log in to the game from your current region.",
       "ja": "現在アクセスした地域は、ゲームサービス利用の制限地域です。",
       "zh_tw": "目前連線區域為遊戲伺服器禁止連線之區域。",
-      "zh_cn": "抱歉，游戏在您当前所在区域不可使用。"
+      "zh_cn": ""
     },
     {
       "no": 2006,
@@ -1486,7 +1486,7 @@
       "en": "You cannot log in to the game from your current region.",
       "ja": "現在アクセスした地域は、ゲームサービス利用の制限地域です。",
       "zh_tw": "目前連線區域為遊戲伺服器禁止連線之區域。",
-      "zh_cn": "抱歉，游戏在您当前所在区域不可使用。"
+      "zh_cn": ""
     },
     {
       "no": 2007,
@@ -1494,7 +1494,7 @@
       "en": "Payment failed. Payment module error.",
       "ja": "決済モジュールに不具合があり、決済に失敗しました。",
       "zh_tw": "結帳程序發生異常，結帳失敗。",
-      "zh_cn": "支付过程中发生错误，支付失败"
+      "zh_cn": ""
     },
     {
       "no": 3001,
@@ -1502,7 +1502,7 @@
       "en": "\"Souls.\"",
       "ja": "「精霊」",
       "zh_tw": "「精靈」",
-      "zh_cn": "“精灵”"
+      "zh_cn": ""
     },
     {
       "no": 3002,
@@ -1510,7 +1510,7 @@
       "en": "We Souls are born of the spirits",
       "ja": "私たちは人間と長い時間を共にした遺物に",
       "zh_tw": "我們是與靈魂蘊含在與人類長期相處的遺物中",
-      "zh_cn": "我们是与灵魂蕴含在与人类长期相处的神器中"
+      "zh_cn": ""
     },
     {
       "no": 3003,
@@ -1518,7 +1518,7 @@
       "en": "bound in ancient, legendary Artifacts that existed for a long time.",
       "ja": "魂が宿って生まれた存在です。",
       "zh_tw": "誕生的存在",
-      "zh_cn": "诞生的存在"
+      "zh_cn": ""
     },
     {
       "no": 3004,
@@ -1526,7 +1526,7 @@
       "en": "However, no Soul knows her origin",
       "ja": "しかし、私たち精霊は自らの起源―",
       "zh_tw": "但是我們精靈對於自己的起源－",
-      "zh_cn": "但是我们精灵对于自己的起源－"
+      "zh_cn": ""
     },
     {
       "no": 3005,
@@ -1534,7 +1534,7 @@
       "en": "or which Artifact she was born from.",
       "ja": "すなわち、どんな遺物から生まれたのかを知りません。",
       "zh_tw": "也就是說，我們不曉得自己是從哪種遺物中誕生的",
-      "zh_cn": "也就是说，我们不晓得自己是从哪种神器中诞生的"
+      "zh_cn": ""
     },
     {
       "no": 3006,
@@ -1542,7 +1542,7 @@
       "en": "The restoration of our true names.",
       "ja": "自分の根源にふさわしい名前を付けること",
       "zh_tw": "以我們的起源來命名",
-      "zh_cn": "以我们的起源来命名"
+      "zh_cn": ""
     },
     {
       "no": 3007,
@@ -1550,7 +1550,7 @@
       "en": "That is what we have been waiting for since time immemorial.",
       "ja": "まさにそれが、私たちが長い間待ち望んできたことです。",
       "zh_tw": "是我們長久以來，迫切渴望的事情",
-      "zh_cn": "是我们长久以来，迫切渴望的事情"
+      "zh_cn": ""
     },
     {
       "no": 3008,
@@ -1558,7 +1558,7 @@
       "en": "Recovering the essence and purpose of the spirits",
       "ja": "魂の本質と使命を取り戻すことは",
       "zh_tw": "如果能找回靈魂的本質與使命",
-      "zh_cn": "如果能找回灵魂的本质与使命"
+      "zh_cn": ""
     },
     {
       "no": 3009,
@@ -1566,7 +1566,7 @@
       "en": "means unparalleled joy for us Souls.",
       "ja": "精霊にとってかけがえのない喜び…",
       "zh_tw": "精靈才會感受到無與倫比的快樂…",
-      "zh_cn": "精灵才会感受到无与伦比的快乐……"
+      "zh_cn": ""
     },
     {
       "no": 3010,
@@ -1574,7 +1574,7 @@
       "en": "But...no Soul can do this on her own.",
       "ja": "しかし…私たちの力だけでは、成し遂げることができません。",
       "zh_tw": "可是…光憑我們一己之力是辦不到的。",
-      "zh_cn": "可是……光凭我们一己之力是办不到的。"
+      "zh_cn": ""
     },
     {
       "no": 3011,
@@ -1582,7 +1582,7 @@
       "en": "Someone who can see into the depths of ourselves and bring salvation to our world.",
       "ja": "精霊を理解して導き、やがて私たちを救ってくださる方…",
       "zh_tw": "我們一直在尋找能理解精靈、帶領精靈，",
-      "zh_cn": "我们一直在寻找能理解精灵、带领精灵，"
+      "zh_cn": ""
     },
     {
       "no": 3012,
@@ -1590,7 +1590,7 @@
       "en": "Someone we have been searching for, desperately.",
       "ja": "そういう存在を、私たちはずっと探し続けてきました。",
       "zh_tw": "並拯救我們的人…",
-      "zh_cn": "并拯救我们的人……"
+      "zh_cn": ""
     },
     {
       "no": 3013,
@@ -1598,7 +1598,7 @@
       "en": "Yes, Savior.",
       "ja": "ええ、そうです。",
       "zh_tw": "沒錯",
-      "zh_cn": "没错"
+      "zh_cn": ""
     },
     {
       "no": 3014,
@@ -1606,7 +1606,7 @@
       "en": "That someone is you.",
       "ja": "「救世主様」、まさにあなたのことです。",
       "zh_tw": "那個人就是「救援者」你。",
-      "zh_cn": "那个人就是“救援者”你。"
+      "zh_cn": ""
     },
     {
       "no": 3015,
@@ -1614,7 +1614,7 @@
       "en": "Find us, before the final bell tolls",
       "ja": "ですから、どうか私たちを見つけてください。",
       "zh_tw": "所以請你找到我們。",
-      "zh_cn": "所以请你找到我们。"
+      "zh_cn": ""
     },
     {
       "no": 3016,
@@ -1622,7 +1622,7 @@
       "en": "and the End sweeps everything away...",
       "ja": "…第五のラッパが吹かれ、終末が全てを覆い尽くす前に…",
       "zh_tw": "…在第五支號角吹響，末日襲捲一切之前…",
-      "zh_cn": "……在第五支号角吹响，末日袭卷一切之前……"
+      "zh_cn": ""
     },
     {
       "no": 3017,
@@ -1630,7 +1630,7 @@
       "en": "Welcome to \"Eden,\"",
       "ja": "「エデン」",
       "zh_tw": "「伊甸園」",
-      "zh_cn": "“精灵乐园”"
+      "zh_cn": ""
     },
     {
       "no": 3018,
@@ -1638,7 +1638,7 @@
       "en": "the paradise of Souls.",
       "ja": "私たち精霊が住んでいる美しい世界です。",
       "zh_tw": "這是我們精靈所生活的美麗世界。",
-      "zh_cn": "这是我们精灵所生活的美丽世界。"
+      "zh_cn": ""
     },
     {
       "no": 3019,
@@ -1646,7 +1646,7 @@
       "en": "You may not believe it,",
       "ja": "信じられないかもしれませんが…",
       "zh_tw": "雖然你可能不相信…",
-      "zh_cn": "虽然你可能不相信……"
+      "zh_cn": ""
     },
     {
       "no": 3020,
@@ -1654,7 +1654,7 @@
       "en": "but this is far into the future of the Earth you once knew.",
       "ja": "ここは救世主様が住んでいる地球の遠い未来です。",
       "zh_tw": "但這是距離救援者所生活的地球非常遙遠的未來。",
-      "zh_cn": "但这是距离救援者所生活的地球非常遥远的未来。"
+      "zh_cn": ""
     },
     {
       "no": 3021,
@@ -1662,7 +1662,7 @@
       "en": "The Ark Metatron, controlled by me, Mephistopheles,",
       "ja": "私、メフィストフェレスが制御する救いの方舟は",
       "zh_tw": "那艘梅菲斯托佩萊斯所操控的救援方舟",
-      "zh_cn": "那艘梅菲斯托佩莱斯所操控的救援方舟"
+      "zh_cn": ""
     },
     {
       "no": 3022,
@@ -1670,7 +1670,7 @@
       "en": "was originally created to save mankind.",
       "ja": "本来人類を救うために作られたものですが…",
       "zh_tw": "原本是為了拯救人類而建造的…",
-      "zh_cn": "原本是为了拯救人类而建造的……"
+      "zh_cn": ""
     },
     {
       "no": 3023,
@@ -1678,7 +1678,7 @@
       "en": "Now, with mankind long gone,",
       "ja": "人類が絶滅した今",
       "zh_tw": "但在人類滅亡的此刻",
-      "zh_cn": "但在人类灭亡的此刻"
+      "zh_cn": ""
     },
     {
       "no": 3024,
@@ -1686,7 +1686,7 @@
       "en": "the Ark roams the skies of Eden, watching over and protecting the Souls.",
       "ja": "方舟は精霊のためにエデンの空を飛行しています。",
       "zh_tw": "方舟為了精靈們而飛行於伊甸園的上空。",
-      "zh_cn": "方舟为了精灵们而飞行于精灵乐园的上空。"
+      "zh_cn": ""
     },
     {
       "no": 3025,
@@ -1694,7 +1694,7 @@
       "en": "However, Eden is in danger now.",
       "ja": "しかし、今エデンの平和が脅かされています。",
       "zh_tw": "可是，現在伊甸園的和平岌岌可危。",
-      "zh_cn": "可是，现在精灵乐园的和平岌岌可危。"
+      "zh_cn": ""
     },
     {
       "no": 3026,
@@ -1702,7 +1702,7 @@
       "en": "Because of \"the Gate,\" an anomaly that spews forth hordes of monsters without warning,",
       "ja": "予告なしに魔物を吐き出す異常現象「ゲート」",
       "zh_tw": "因為毫無預警湧現魔物的異常現象「傳送門」",
-      "zh_cn": "因为毫无预警涌现魔物的异常现象“传送门”"
+      "zh_cn": ""
     },
     {
       "no": 3027,
@@ -1710,7 +1710,7 @@
       "en": "every Soul of Eden is in pain.",
       "ja": "この現象のせいで、エデンの精霊は苦しんでいます。",
       "zh_tw": "導致伊甸園的精靈們陷入水深火熱之中。",
-      "zh_cn": "导致精灵乐园的精灵们陷入水深火热之中。"
+      "zh_cn": ""
     },
     {
       "no": 3028,
@@ -1718,7 +1718,7 @@
       "en": "The seven kingdoms of Arkenine are fighting to close the Gates against an overwhelming tide of monsters,",
       "ja": "アルカディア大陸の七つの国が、この「ゲート現象」に立ち向かっていますが",
       "zh_tw": "雖然阿卡迪亞大陸的七個國家正在應對「傳送門現象」",
-      "zh_cn": "虽然阿卡迪亚大陆的七个国家正在应对“传送门现象”"
+      "zh_cn": ""
     },
     {
       "no": 3029,
@@ -1726,7 +1726,7 @@
       "en": "but our strength alone is not enough.",
       "ja": "精霊の力だけでは手に負えない状況です。",
       "zh_tw": "但光靠我們精靈的力量是很吃力的。",
-      "zh_cn": "但光靠我们精灵的力量是很吃力的。"
+      "zh_cn": ""
     },
     {
       "no": 3030,
@@ -1734,7 +1734,7 @@
       "en": "Now, the only one who can save our world",
       "ja": "そして今、この世界を救うことのできる唯一の人",
       "zh_tw": "而現在，就只有一個人能拯救這世界",
-      "zh_cn": "而现在，就只有一个人能拯救这世界"
+      "zh_cn": ""
     },
     {
       "no": 3031,
@@ -1742,7 +1742,7 @@
       "en": "is you, Savior.",
       "ja": "それがまさに救世主様なのです。",
       "zh_tw": "那就是救援者。",
-      "zh_cn": "那就是救援者。"
+      "zh_cn": ""
     },
     {
       "no": 3032,
@@ -1750,7 +1750,7 @@
       "en": "Please, seal this pact with me and help us save our world.",
       "ja": "どうか遠くない未来に…",
       "zh_tw": "我相信你會在不久的將來",
-      "zh_cn": "我相信你会在不久的将来"
+      "zh_cn": ""
     },
     {
       "no": 3033,
@@ -1758,7 +1758,7 @@
       "en": "I am waiting for you.",
       "ja": "私と契約してくださることを…信じて待っています。",
       "zh_tw": "和我締結契約…我等著。",
-      "zh_cn": "和我缔结契约……我等着。"
+      "zh_cn": ""
     },
     {
       "no": 650309,
@@ -1766,7 +1766,7 @@
       "en": "Evertalk Skip feature activated\r\n<size=20>(Only applies when you Restart Love Story.)</size>",
       "ja": "エバートークスキップ機能活性化\r\n<size=20>(絆ストーリーリプレイにのみ適用)</size>",
       "zh_tw": "啟用Ever Talk略過功能\r\n<size=20>（僅適用重新進行好感故事）</size>",
-      "zh_cn": "精灵通信跳过功能\r\n<size=20>（仅适用重新进行好感故事）</size>"
+      "zh_cn": ""
     }
   ]
 }
