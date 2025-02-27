@@ -1513,27 +1513,6 @@
       "level_group": 5061
     },
     {
-      "no": 5071,
-      "hero_sno": 5070,
-      "signature_name_sno": 235070,
-      "need_item_no": 10080,
-      "item_amount": 10,
-      "icon_path": "Item_Signature_NoData",
-      "signature_bg_path": "NoData",
-      "skill_name_sno": 235071,
-      "skill_tooltip_sno1": 235072,
-      "skill_tooltip_sno2": 235073,
-      "skill_tooltip_sno3": 235074,
-      "skill_tooltip_sno4": 235075,
-      "skill_tooltip_sno5": 235076,
-      "skill_tooltip_sno6": 235077,
-      "skill_tooltip_sno7": 235078,
-      "icon_prefab": 4,
-      "tooltip_explain_sno": 235079,
-      "grade_group": 5071,
-      "level_group": 5071
-    },
-    {
       "no": 6011,
       "hero_sno": 6010,
       "signature_name_sno": 236010,

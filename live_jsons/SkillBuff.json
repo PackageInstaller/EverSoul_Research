@@ -64867,6 +64867,20 @@
       "battle_text": 20110
     },
     {
+      "no": 1003121,
+      "buff_category": 3,
+      "buff_effect": 103,
+      "value": 0.1,
+      "duration": 999.0,
+      "group": 1003121,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "MaxHP",
+      "name": 20103,
+      "desc": 103,
+      "battle_text": 20103
+    },
+    {
       "no": 1003201,
       "buff_category": 3,
       "buff_effect": 103,
@@ -65145,6 +65159,20 @@
       "name": 21203,
       "desc": 1002,
       "battle_text": 21203
+    },
+    {
+      "no": 1003221,
+      "buff_category": 3,
+      "buff_effect": 10111,
+      "value": 0.05,
+      "duration": 999.0,
+      "group": 1003221,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "AttackSpeed",
+      "name": 20111,
+      "desc": 10111,
+      "battle_text": 20111
     },
     {
       "no": 1008232,
@@ -77825,6 +77853,202 @@
       "icon_path": "0"
     },
     {
+      "no": 3209414,
+      "buff_category": 5,
+      "buff_effect": 901,
+      "duration": 999.0,
+      "group": 3209414,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 3209415,
+      "buff_category": 5,
+      "buff_effect": 209,
+      "value": 2.0,
+      "duration": 999.0,
+      "group": 3209415,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 3209417,
+      "buff_category": 5,
+      "buff_effect": 1602,
+      "value": 3209417.0,
+      "duration": 0.5,
+      "group": 3209417,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 3209511,
+      "buff_category": 5,
+      "buff_effect": 1301,
+      "duration": 999.0,
+      "group": 3209511,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 3209520,
+      "buff_category": 4,
+      "buff_effect": 2001,
+      "duration": 999.0,
+      "group": 3209520,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 3209531,
+      "buff_category": 3,
+      "buff_effect": 2904,
+      "value": 0.05,
+      "duration": 999.0,
+      "group": 3209531,
+      "overlap_limit": 9999,
+      "fx_path": "none",
+      "icon_path": "BuffAmplify",
+      "name": 2001,
+      "desc": 22001
+    },
+    {
+      "no": 3209611,
+      "buff_category": 5,
+      "buff_effect": 1301,
+      "duration": 999.0,
+      "group": 3209611,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 3209620,
+      "buff_category": 4,
+      "buff_effect": 2001,
+      "duration": 999.0,
+      "group": 3209620,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 3209631,
+      "buff_category": 3,
+      "buff_effect": 2904,
+      "value": 0.05,
+      "duration": 999.0,
+      "group": 3209631,
+      "overlap_limit": 9999,
+      "fx_path": "none",
+      "icon_path": "BuffAmplify",
+      "name": 2001,
+      "desc": 22001
+    },
+    {
+      "no": 3209711,
+      "buff_category": 5,
+      "buff_effect": 1301,
+      "duration": 999.0,
+      "group": 3209711,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 3209720,
+      "buff_category": 4,
+      "buff_effect": 2001,
+      "duration": 999.0,
+      "group": 3209720,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 3209731,
+      "buff_category": 3,
+      "buff_effect": 2904,
+      "value": 0.05,
+      "duration": 999.0,
+      "group": 3209731,
+      "overlap_limit": 9999,
+      "fx_path": "none",
+      "icon_path": "BuffAmplify",
+      "name": 2001,
+      "desc": 22001
+    },
+    {
+      "no": 3209811,
+      "buff_category": 5,
+      "buff_effect": 1301,
+      "duration": 999.0,
+      "group": 3209811,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 3209820,
+      "buff_category": 4,
+      "buff_effect": 2001,
+      "duration": 999.0,
+      "group": 3209820,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 3209831,
+      "buff_category": 3,
+      "buff_effect": 2904,
+      "value": 0.05,
+      "duration": 999.0,
+      "group": 3209831,
+      "overlap_limit": 9999,
+      "fx_path": "none",
+      "icon_path": "BuffAmplify",
+      "name": 2001,
+      "desc": 22001
+    },
+    {
+      "no": 3209914,
+      "buff_category": 5,
+      "buff_effect": 901,
+      "duration": 999.0,
+      "group": 3209914,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 3209915,
+      "buff_category": 5,
+      "buff_effect": 209,
+      "value": 2.0,
+      "duration": 999.0,
+      "group": 3209915,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 3209917,
+      "buff_category": 5,
+      "buff_effect": 1602,
+      "value": 3209917.0,
+      "duration": 0.5,
+      "group": 3209917,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
       "no": 3210121,
       "buff_category": 3,
       "buff_effect": 10105,
@@ -78132,6 +78356,71 @@
       "name": 232121,
       "desc": 10104,
       "battle_text": 232121
+    },
+    {
+      "no": 3220011,
+      "buff_category": 5,
+      "buff_effect": 1301,
+      "duration": 999.0,
+      "group": 3220011,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 3220012,
+      "buff_category": 5,
+      "buff_effect": 1605,
+      "value": 3220012.0,
+      "duration": 999.0,
+      "group": 3220012,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "BuffAmplify",
+      "name": 2001,
+      "desc": 22001
+    },
+    {
+      "no": 3220014,
+      "buff_category": 5,
+      "buff_effect": 1301,
+      "duration": 999.0,
+      "group": 3220014,
+      "overlap_limit": 999,
+      "fx_path": "none",
+      "icon_path": "BuffAmplify",
+      "name": 2001,
+      "desc": 22001
+    },
+    {
+      "no": 3221011,
+      "buff_category": 5,
+      "buff_effect": 1301,
+      "duration": 999.0,
+      "group": 3221011,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 3222011,
+      "buff_category": 5,
+      "buff_effect": 1301,
+      "duration": 999.0,
+      "group": 3222011,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 3223011,
+      "buff_category": 5,
+      "buff_effect": 1301,
+      "duration": 999.0,
+      "group": 3223011,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
     },
     {
       "no": 3261112,
