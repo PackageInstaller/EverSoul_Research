@@ -1,0 +1,139 @@
+03-01 00:01:00 [ERROR] apscheduler | Job "_ (trigger: cron[hour='0', minute='1'], next run at: 2025-03-02 00:01:00 CST)" raised an exception
+Traceback (most recent call last):
+
+  File "/home/rikka/zhenxun_bot/bot.py", line 28, in <module>
+    nonebot.run()
+    │       └ <function run at 0x7d8cc4be49a0>
+    └ <module 'nonebot' from '/home/rikka/.cache/pypoetry/virtualenvs/zhenxun-bot-gvg9wKVR-py3.13/lib/python3.13/site-packages/none...
+
+  File "/home/rikka/.cache/pypoetry/virtualenvs/zhenxun-bot-gvg9wKVR-py3.13/lib/python3.13/site-packages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x7d8cc4bda8e0>
+  File "/home/rikka/.cache/pypoetry/virtualenvs/zhenxun-bot-gvg9wKVR-py3.13/lib/python3.13/site-packages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+    │       └ <function run at 0x7d8cc403a200>
+    └ <module 'uvicorn' from '/home/rikka/.cache/pypoetry/virtualenvs/zhenxun-bot-gvg9wKVR-py3.13/lib/python3.13/site-packages/uvic...
+  File "/home/rikka/.cache/pypoetry/virtualenvs/zhenxun-bot-gvg9wKVR-py3.13/lib/python3.13/site-packages/uvicorn/main.py", line 579, in run
+    server.run()
+    │      └ <function Server.run at 0x7d8cc4039a80>
+    └ <uvicorn.server.Server object at 0x7d8bd18d2f90>
+  File "/home/rikka/.cache/pypoetry/virtualenvs/zhenxun-bot-gvg9wKVR-py3.13/lib/python3.13/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x7d8cc4039b20>
+           │       │   └ <uvicorn.server.Server object at 0x7d8bd18d2f90>
+           │       └ <function run at 0x7d8cc6148860>
+           └ <module 'asyncio' from '/usr/lib/python3.13/asyncio/__init__.py'>
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x7d8bd1671fc0>
+           │      └ <function Runner.run at 0x7d8cc5938540>
+           └ <asyncio.runners.Runner object at 0x7d8bd18d3620>
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at /home/rikka/.cache/pypoetry/virtualenvs/zhenxun-bot-gvg9wKVR-py3....
+           │    │     └ <cyfunction Loop.run_until_complete at 0x7d8bd11a9be0>
+           │    └ <uvloop.Loop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x7d8bd18d3620>
+> File "/home/rikka/.cache/pypoetry/virtualenvs/zhenxun-bot-gvg9wKVR-py3.13/lib/python3.13/site-packages/apscheduler/executors/base.py", line 181, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+                   │   │     │   │       │   └ <member 'kwargs' of 'Job' objects>
+                   │   │     │   │       └ <Job (id=f2efab9f166e4635a25df14e34a76b91 name=_)>
+                   │   │     │   └ <member 'args' of 'Job' objects>
+                   │   │     └ <Job (id=f2efab9f166e4635a25df14e34a76b91 name=_)>
+                   │   └ <member 'func' of 'Job' objects>
+                   └ <Job (id=f2efab9f166e4635a25df14e34a76b91 name=_)>
+
+  File "/home/rikka/zhenxun_bot/zhenxun/plugins/mahiro_report/__init__.py", line 108, in _
+    await Report.get_report_image()
+          │      └ <classmethod(<function Report.get_report_image at 0x7d8c93ae2fc0>)>
+          └ <class 'zhenxun.plugins.mahiro_report.data_source.Report'>
+
+  File "/home/rikka/zhenxun_bot/zhenxun/plugins/mahiro_report/data_source.py", line 41, in get_report_image
+    for f in REPORT_PATH.iterdir():
+             │           └ <function Path.iterdir at 0x7d8cc659da80>
+             └ PosixPath('data/mahiro_report')
+
+  File "/usr/lib/python3.13/pathlib/_local.py", line 575, in iterdir
+    with os.scandir(root_dir) as scandir_it:
+         │  │       └ 'data/mahiro_report'
+         │  └ <built-in function scandir>
+         └ <module 'os' (frozen)>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'data/mahiro_report'
+03-01 00:56:09 [ERROR] zhenxun | 清理日常签到图片数据数据失败... || 错误 <class 'FileNotFoundError'>: [Errno 2] No such file or directory: 'resources/image/sign/today_card'
+03-01 01:56:09 [ERROR] zhenxun | 清理日常签到图片数据数据失败... || 错误 <class 'FileNotFoundError'>: [Errno 2] No such file or directory: 'resources/image/sign/today_card'
+03-01 02:56:09 [ERROR] zhenxun | 清理日常签到图片数据数据失败... || 错误 <class 'FileNotFoundError'>: [Errno 2] No such file or directory: 'resources/image/sign/today_card'
+03-01 03:56:09 [ERROR] zhenxun | 清理日常签到图片数据数据失败... || 错误 <class 'FileNotFoundError'>: [Errno 2] No such file or directory: 'resources/image/sign/today_card'
+03-01 04:56:09 [ERROR] zhenxun | 清理日常签到图片数据数据失败... || 错误 <class 'FileNotFoundError'>: [Errno 2] No such file or directory: 'resources/image/sign/today_card'
+03-01 05:56:09 [ERROR] zhenxun | 清理日常签到图片数据数据失败... || 错误 <class 'FileNotFoundError'>: [Errno 2] No such file or directory: 'resources/image/sign/today_card'
+03-01 06:56:09 [ERROR] zhenxun | 清理日常签到图片数据数据失败... || 错误 <class 'FileNotFoundError'>: [Errno 2] No such file or directory: 'resources/image/sign/today_card'
+03-01 07:56:09 [ERROR] zhenxun | 清理日常签到图片数据数据失败... || 错误 <class 'FileNotFoundError'>: [Errno 2] No such file or directory: 'resources/image/sign/today_card'
+03-01 08:56:09 [ERROR] zhenxun | 清理日常签到图片数据数据失败... || 错误 <class 'FileNotFoundError'>: [Errno 2] No such file or directory: 'resources/image/sign/today_card'
+03-01 09:01:00 [ERROR] apscheduler | Job "_ (trigger: cron[hour='9', minute='1'], next run at: 2025-03-02 09:01:00 CST)" raised an exception
+Traceback (most recent call last):
+
+  File "/home/rikka/zhenxun_bot/bot.py", line 28, in <module>
+    nonebot.run()
+    │       └ <function run at 0x7d8cc4be49a0>
+    └ <module 'nonebot' from '/home/rikka/.cache/pypoetry/virtualenvs/zhenxun-bot-gvg9wKVR-py3.13/lib/python3.13/site-packages/none...
+
+  File "/home/rikka/.cache/pypoetry/virtualenvs/zhenxun-bot-gvg9wKVR-py3.13/lib/python3.13/site-packages/nonebot/__init__.py", line 337, in run
+    get_driver().run(*args, **kwargs)
+    │                 │       └ {}
+    │                 └ ()
+    └ <function get_driver at 0x7d8cc4bda8e0>
+  File "/home/rikka/.cache/pypoetry/virtualenvs/zhenxun-bot-gvg9wKVR-py3.13/lib/python3.13/site-packages/nonebot/drivers/fastapi.py", line 187, in run
+    uvicorn.run(
+    │       └ <function run at 0x7d8cc403a200>
+    └ <module 'uvicorn' from '/home/rikka/.cache/pypoetry/virtualenvs/zhenxun-bot-gvg9wKVR-py3.13/lib/python3.13/site-packages/uvic...
+  File "/home/rikka/.cache/pypoetry/virtualenvs/zhenxun-bot-gvg9wKVR-py3.13/lib/python3.13/site-packages/uvicorn/main.py", line 579, in run
+    server.run()
+    │      └ <function Server.run at 0x7d8cc4039a80>
+    └ <uvicorn.server.Server object at 0x7d8bd18d2f90>
+  File "/home/rikka/.cache/pypoetry/virtualenvs/zhenxun-bot-gvg9wKVR-py3.13/lib/python3.13/site-packages/uvicorn/server.py", line 66, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           │       │   │    │             └ None
+           │       │   │    └ <function Server.serve at 0x7d8cc4039b20>
+           │       │   └ <uvicorn.server.Server object at 0x7d8bd18d2f90>
+           │       └ <function run at 0x7d8cc6148860>
+           └ <module 'asyncio' from '/usr/lib/python3.13/asyncio/__init__.py'>
+  File "/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           │      │   └ <coroutine object Server.serve at 0x7d8bd1671fc0>
+           │      └ <function Runner.run at 0x7d8cc5938540>
+           └ <asyncio.runners.Runner object at 0x7d8bd18d3620>
+  File "/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           │    │     │                  └ <Task pending name='Task-1' coro=<Server.serve() running at /home/rikka/.cache/pypoetry/virtualenvs/zhenxun-bot-gvg9wKVR-py3....
+           │    │     └ <cyfunction Loop.run_until_complete at 0x7d8bd11a9be0>
+           │    └ <uvloop.Loop running=True closed=False debug=False>
+           └ <asyncio.runners.Runner object at 0x7d8bd18d3620>
+> File "/home/rikka/.cache/pypoetry/virtualenvs/zhenxun-bot-gvg9wKVR-py3.13/lib/python3.13/site-packages/apscheduler/executors/base.py", line 181, in run_coroutine_job
+    retval = await job.func(*job.args, **job.kwargs)
+                   │   │     │   │       │   └ <member 'kwargs' of 'Job' objects>
+                   │   │     │   │       └ <Job (id=e1ecbcad828d4bf9b4347197f90ef41f name=_)>
+                   │   │     │   └ <member 'args' of 'Job' objects>
+                   │   │     └ <Job (id=e1ecbcad828d4bf9b4347197f90ef41f name=_)>
+                   │   └ <member 'func' of 'Job' objects>
+                   └ <Job (id=e1ecbcad828d4bf9b4347197f90ef41f name=_)>
+
+  File "/home/rikka/zhenxun_bot/zhenxun/plugins/mahiro_report/__init__.py", line 121, in _
+    file = await Report.get_report_image()
+                 │      └ <classmethod(<function Report.get_report_image at 0x7d8c93ae2fc0>)>
+                 └ <class 'zhenxun.plugins.mahiro_report.data_source.Report'>
+
+  File "/home/rikka/zhenxun_bot/zhenxun/plugins/mahiro_report/data_source.py", line 41, in get_report_image
+    for f in REPORT_PATH.iterdir():
+             │           └ <function Path.iterdir at 0x7d8cc659da80>
+             └ PosixPath('data/mahiro_report')
+
+  File "/usr/lib/python3.13/pathlib/_local.py", line 575, in iterdir
+    with os.scandir(root_dir) as scandir_it:
+         │  │       └ 'data/mahiro_report'
+         │  └ <built-in function scandir>
+         └ <module 'os' (frozen)>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'data/mahiro_report'
