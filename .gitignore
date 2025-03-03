@@ -8,4 +8,5 @@ table_info.json
 *.cpp
 *.py
 *.cs
-log/
+log/*
+backup/*
