@@ -19680,6 +19680,30 @@
       "item_sort_no": 20006
     },
     {
+      "no": 2077,
+      "category_sno": 110009,
+      "grade_sno": 110014,
+      "name_sno": 520177,
+      "desc_sno": 530177,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "HonglanCombat_Icon_Costume_00",
+      "atlas_type": 5,
+      "item_sort_no": 20006
+    },
+    {
+      "no": 2078,
+      "category_sno": 110009,
+      "grade_sno": 110014,
+      "name_sno": 520178,
+      "desc_sno": 530178,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Hanul_Icon_Costume_00",
+      "atlas_type": 5,
+      "item_sort_no": 20006
+    },
+    {
       "no": 2201,
       "category_sno": 110009,
       "grade_sno": 110016,
@@ -20970,7 +20994,10 @@
       "stat_limit_sno": 110041,
       "icon_path": "Claudia_Icon_Costume_02",
       "atlas_type": 5,
-      "item_sort_no": 20004
+      "item_sort_no": 20004,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 500
     },
     {
       "no": 2307,
@@ -21629,6 +21656,42 @@
       "slot_limit_sno": 110038,
       "stat_limit_sno": 110041,
       "icon_path": "Chloe_Icon_Costume_04",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
+      "no": 2362,
+      "category_sno": 110009,
+      "grade_sno": 110018,
+      "name_sno": 520562,
+      "desc_sno": 530562,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "HonglanCombat_Icon_Costume_01",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
+      "no": 2363,
+      "category_sno": 110009,
+      "grade_sno": 110020,
+      "name_sno": 520563,
+      "desc_sno": 530563,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "HonglanCombat_Icon_Costume_02",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
+      "no": 2364,
+      "category_sno": 110009,
+      "grade_sno": 110016,
+      "name_sno": 520564,
+      "desc_sno": 530564,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Sunny_Icon_Costume_04",
       "atlas_type": 5,
       "item_sort_no": 20004
     },
@@ -22708,6 +22771,46 @@
     },
     {
       "no": 2808,
+      "category_sno": 110009,
+      "grade_sno": 110011,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Aki_Icon_Costume_01"
+    },
+    {
+      "no": 2809,
+      "category_sno": 110009,
+      "grade_sno": 110011,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Aki_Icon_Costume_01"
+    },
+    {
+      "no": 2810,
+      "category_sno": 110009,
+      "grade_sno": 110011,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Aki_Icon_Costume_01"
+    },
+    {
+      "no": 2811,
+      "category_sno": 110009,
+      "grade_sno": 110011,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Aki_Icon_Costume_01"
+    },
+    {
+      "no": 2812,
+      "category_sno": 110009,
+      "grade_sno": 110011,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Aki_Icon_Costume_01"
+    },
+    {
+      "no": 2813,
       "category_sno": 110009,
       "grade_sno": 110011,
       "slot_limit_sno": 110038,
@@ -24046,7 +24149,7 @@
       "desc_sno": 223378,
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
-      "icon_path": "Memory_Aki",
+      "icon_path": "Memory_HonglanCombat",
       "atlas_type": 4,
       "item_use_no": 1006,
       "item_sort_no": 3002
@@ -26137,6 +26240,17 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/BG/bg_RoseCrimson_01_i",
+      "item_sort_no": 60000
+    },
+    {
+      "no": 5291,
+      "category_sno": 110007,
+      "grade_sno": 110011,
+      "name_sno": 215291,
+      "desc_sno": 225291,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/BG/bg_HonglanCombat_01_i",
       "item_sort_no": 60000
     },
     {
@@ -29792,6 +29906,114 @@
       "item_sort_no": 60000
     },
     {
+      "no": 6937,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216937,
+      "desc_sno": 226937,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_infinityraid_side2_01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6938,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216938,
+      "desc_sno": 226938,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_infinityraid_side2_02",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6939,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216939,
+      "desc_sno": 226939,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_infinityraid_side2_03",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6940,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216940,
+      "desc_sno": 226940,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_infinityraid_side2_04",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6941,
+      "category_sno": 110077,
+      "grade_sno": 110018,
+      "name_sno": 216941,
+      "desc_sno": 226941,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_infinityraid_side2_05",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6942,
+      "category_sno": 110077,
+      "grade_sno": 110016,
+      "name_sno": 216942,
+      "desc_sno": 226942,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_infinityraid_side2_06",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6943,
+      "category_sno": 110077,
+      "grade_sno": 110014,
+      "name_sno": 216943,
+      "desc_sno": 226943,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_infinityraid_side2_07",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6944,
+      "category_sno": 110077,
+      "grade_sno": 110012,
+      "name_sno": 216944,
+      "desc_sno": 226944,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_infinityraid_side2_08",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6945,
+      "category_sno": 110077,
+      "grade_sno": 110011,
+      "name_sno": 216945,
+      "desc_sno": 226945,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_infinityraid_side2_09",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
       "no": 7001,
       "category_sno": 110004,
       "grade_sno": 110012,
@@ -31556,6 +31778,72 @@
       "item_sort_no": 10
     },
     {
+      "no": 8121,
+      "category_sno": 110075,
+      "grade_sno": 110012,
+      "name_sno": 218121,
+      "desc_sno": 228118,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_Ticket_Roulette_2",
+      "item_sort_no": 10
+    },
+    {
+      "no": 8122,
+      "category_sno": 110075,
+      "grade_sno": 110014,
+      "name_sno": 218122,
+      "desc_sno": 228119,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_Ticket_EventRaid",
+      "item_sort_no": 10
+    },
+    {
+      "no": 8123,
+      "category_sno": 110075,
+      "grade_sno": 110012,
+      "name_sno": 218039,
+      "desc_sno": 228039,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_CruiseParty_event_1",
+      "item_sort_no": 10
+    },
+    {
+      "no": 8124,
+      "category_sno": 110075,
+      "grade_sno": 110012,
+      "name_sno": 218040,
+      "desc_sno": 228040,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_CruiseParty_event_2",
+      "item_sort_no": 10
+    },
+    {
+      "no": 8125,
+      "category_sno": 110075,
+      "grade_sno": 110012,
+      "name_sno": 218041,
+      "desc_sno": 228041,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_CruiseParty_event_3",
+      "item_sort_no": 10
+    },
+    {
+      "no": 8126,
+      "category_sno": 110075,
+      "grade_sno": 110014,
+      "name_sno": 218042,
+      "desc_sno": 228029,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_Ticket_EventRaid_2",
+      "item_sort_no": 10
+    },
+    {
       "no": 8901,
       "category_sno": 110008,
       "grade_sno": 110014,
@@ -33254,7 +33542,7 @@
       "desc_sno": 2210072,
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
-      "icon_path": "Memory_Signature_NoData",
+      "icon_path": "Memory_Signature_HonglanCombat",
       "atlas_type": 4,
       "move_behavior": 603,
       "item_sort_no": 20000
@@ -35122,6 +35410,17 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/Souls/SakuyoShin_128",
+      "item_sort_no": 40000
+    },
+    {
+      "no": 32160,
+      "category_sno": 110074,
+      "grade_sno": 110014,
+      "name_sno": 2132160,
+      "desc_sno": 2232160,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Souls/HonglanCombat_128",
       "item_sort_no": 40000
     },
     {
@@ -38627,7 +38926,10 @@
       "slot_limit_sno": 553003,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/Town/PE_TOWN_B_1stanniv_CruiseBridge",
-      "item_sort_no": 50000
+      "item_sort_no": 50000,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 250
     },
     {
       "no": 44002,
@@ -38638,7 +38940,10 @@
       "slot_limit_sno": 553005,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/Town/PE_TOWN_B_1stanniv_LightningTower",
-      "item_sort_no": 50000
+      "item_sort_no": 50000,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 2500
     },
     {
       "no": 44003,
@@ -38682,7 +38987,10 @@
       "slot_limit_sno": 553001,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/Town/PE_TOWN_B_1stanniv_ChampagneTower",
-      "item_sort_no": 50000
+      "item_sort_no": 50000,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 500
     },
     {
       "no": 44007,
@@ -39774,6 +40082,17 @@
       "item_sort_no": 50000
     },
     {
+      "no": 44821,
+      "category_sno": 110005,
+      "grade_sno": 110018,
+      "name_sno": 2144821,
+      "desc_sno": 2244821,
+      "slot_limit_sno": 553005,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_HonglanSideEvent_RestArea",
+      "item_sort_no": 50000
+    },
+    {
       "no": 47001,
       "category_sno": 110005,
       "grade_sno": 110018,
@@ -40002,6 +40321,17 @@
       "slot_limit_sno": 553001,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/Town/PE_TOWN_B_Tower_Nini",
+      "item_sort_no": 50000
+    },
+    {
+      "no": 47022,
+      "category_sno": 110005,
+      "grade_sno": 110018,
+      "name_sno": 2147022,
+      "desc_sno": 2247022,
+      "slot_limit_sno": 553001,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_Tower_Petra",
       "item_sort_no": 50000
     },
     {
@@ -41053,6 +41383,18 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_path": "sticker_love_SakuyoShin01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 521601,
+      "category_sno": 110077,
+      "grade_sno": 110012,
+      "name_sno": 21521601,
+      "desc_sno": 22521601,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_love_HonglanCombat01",
       "atlas_type": 6,
       "item_sort_no": 60000
     },

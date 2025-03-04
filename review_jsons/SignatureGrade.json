@@ -5903,7 +5903,7 @@
       "collection_point": 300,
       "icon_bg_path": "bg_gear_epic",
       "skill_level": 1,
-      "signature_bg_effect": ""
+      "signature_bg_effect": "FxUI_Signature_HonglanCombat_00"
     },
     {
       "no": 499,
@@ -5915,7 +5915,7 @@
       "collection_point": 500,
       "icon_bg_path": "bg_gear_epic",
       "skill_level": 2,
-      "signature_bg_effect": ""
+      "signature_bg_effect": "FxUI_Signature_HonglanCombat_00"
     },
     {
       "no": 500,
@@ -5927,7 +5927,7 @@
       "collection_point": 750,
       "icon_bg_path": "bg_gear_legend",
       "skill_level": 3,
-      "signature_bg_effect": ""
+      "signature_bg_effect": "FxUI_Signature_HonglanCombat_00"
     },
     {
       "no": 501,
@@ -5939,7 +5939,7 @@
       "collection_point": 1050,
       "icon_bg_path": "bg_gear_legend",
       "skill_level": 4,
-      "signature_bg_effect": ""
+      "signature_bg_effect": "FxUI_Signature_HonglanCombat_00"
     },
     {
       "no": 502,
@@ -5951,7 +5951,7 @@
       "collection_point": 1400,
       "icon_bg_path": "bg_gear_myth",
       "skill_level": 5,
-      "signature_bg_effect": ""
+      "signature_bg_effect": "FxUI_Signature_HonglanCombat_00"
     },
     {
       "no": 503,
@@ -5963,7 +5963,7 @@
       "collection_point": 1800,
       "icon_bg_path": "bg_gear_myth",
       "skill_level": 6,
-      "signature_bg_effect": ""
+      "signature_bg_effect": "FxUI_Signature_HonglanCombat_00"
     },
     {
       "no": 504,
@@ -5974,7 +5974,7 @@
       "collection_point": 2250,
       "icon_bg_path": "bg_gear_ascension",
       "skill_level": 7,
-      "signature_bg_effect": ""
+      "signature_bg_effect": "FxUI_Signature_HonglanCombat_00"
     },
     {
       "no": 505,
@@ -6476,7 +6476,7 @@
     },
     {
       "no": 547,
-      "group": 5061,
+      "group": 5041,
       "signature_grade_": 110014,
       "signature_max_level": 10,
       "need_item_no": 10079,
@@ -6488,7 +6488,7 @@
     },
     {
       "no": 548,
-      "group": 5061,
+      "group": 5041,
       "signature_grade_": 110015,
       "signature_max_level": 15,
       "need_item_no": 10079,
@@ -6500,7 +6500,7 @@
     },
     {
       "no": 549,
-      "group": 5061,
+      "group": 5041,
       "signature_grade_": 110016,
       "signature_max_level": 20,
       "need_item_no": 10079,
@@ -6512,7 +6512,7 @@
     },
     {
       "no": 550,
-      "group": 5061,
+      "group": 5041,
       "signature_grade_": 110017,
       "signature_max_level": 25,
       "need_item_no": 10079,
@@ -6524,7 +6524,7 @@
     },
     {
       "no": 551,
-      "group": 5061,
+      "group": 5041,
       "signature_grade_": 110018,
       "signature_max_level": 30,
       "need_item_no": 10079,
@@ -6536,7 +6536,7 @@
     },
     {
       "no": 552,
-      "group": 5061,
+      "group": 5041,
       "signature_grade_": 110019,
       "signature_max_level": 35,
       "need_item_no": 10079,
@@ -6548,7 +6548,7 @@
     },
     {
       "no": 553,
-      "group": 5061,
+      "group": 5041,
       "signature_grade_": 110020,
       "signature_max_level": 40,
       "need_item_no": 10079,
@@ -6559,7 +6559,7 @@
     },
     {
       "no": 554,
-      "group": 5071,
+      "group": 5061,
       "signature_grade_": 110014,
       "signature_max_level": 10,
       "need_item_no": 10080,
@@ -6571,7 +6571,7 @@
     },
     {
       "no": 555,
-      "group": 5071,
+      "group": 5061,
       "signature_grade_": 110015,
       "signature_max_level": 15,
       "need_item_no": 10080,
@@ -6583,7 +6583,7 @@
     },
     {
       "no": 556,
-      "group": 5071,
+      "group": 5061,
       "signature_grade_": 110016,
       "signature_max_level": 20,
       "need_item_no": 10080,
@@ -6595,7 +6595,7 @@
     },
     {
       "no": 557,
-      "group": 5071,
+      "group": 5061,
       "signature_grade_": 110017,
       "signature_max_level": 25,
       "need_item_no": 10080,
@@ -6607,7 +6607,7 @@
     },
     {
       "no": 558,
-      "group": 5071,
+      "group": 5061,
       "signature_grade_": 110018,
       "signature_max_level": 30,
       "need_item_no": 10080,
@@ -6619,7 +6619,7 @@
     },
     {
       "no": 559,
-      "group": 5071,
+      "group": 5061,
       "signature_grade_": 110019,
       "signature_max_level": 35,
       "need_item_no": 10080,
@@ -6631,7 +6631,7 @@
     },
     {
       "no": 560,
-      "group": 5071,
+      "group": 5061,
       "signature_grade_": 110020,
       "signature_max_level": 40,
       "need_item_no": 10080,

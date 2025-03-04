@@ -390,6 +390,23 @@
       "hero2_bg_path": "NewYear2/bg_eventstage_NewYear2_s",
       "hero2_bg_color": "8249D4",
       "bg_path": "NewYear2/bg_eventstage_NewYear2"
+    },
+    {
+      "no": 24,
+      "event_group": 8,
+      "event_number": 2,
+      "stage_limit_value": 5,
+      "stage_limit_sno": 560090,
+      "buy_item_no": 100,
+      "buy_item_amount": "[50,75,100,125,150]",
+      "stage_name_sno": 12342,
+      "hero1_path": "CruiseParty/img_CruiseParty_Talia",
+      "hero1_bg_path": "CruiseParty/bg_eventstage_CruiseParty_s",
+      "hero1_bg_color": "6BA6FF",
+      "hero2_path": "CruiseParty/img_CruiseParty_Aira",
+      "hero2_bg_path": "CruiseParty/bg_eventstage_CruiseParty_s",
+      "hero2_bg_color": "FF8D71",
+      "bg_path": "CruiseParty/bg_eventstage_CruiseParty"
     }
   ]
 }

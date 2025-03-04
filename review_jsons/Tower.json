@@ -179,6 +179,15 @@
       "buff_release_stage": 4219032,
       "clear_buff_target": 4111,
       "open_date": "2023-07-20 01:00:00"
+    },
+    {
+      "no": 220,
+      "tower_name": 234100,
+      "req_hero": 4100,
+      "bg_path": "Petra",
+      "buff_release_stage": 4220032,
+      "clear_buff_target": 4101,
+      "open_date": "2024-03-06 00:00:00"
     }
   ]
 }

@@ -239,6 +239,22 @@
       "location_img": "Talk_BG_Chalar",
       "bg_sound": "BGM_EdenAlliance_Chalar",
       "amb_sound": ""
+    },
+    {
+      "no": 207,
+      "town_slot": 100,
+      "location_name_sno": 612017,
+      "location_img": "Talk_BG_GaonStreet_02",
+      "bg_sound": "BGM_GaonFestival",
+      "amb_sound": ""
+    },
+    {
+      "no": 208,
+      "town_slot": 100,
+      "location_name_sno": 612018,
+      "location_img": "Talk_BG_Forest_Gaon",
+      "bg_sound": "BGM_SlowDance",
+      "amb_sound": ""
     }
   ]
 }

@@ -617,7 +617,6 @@
       "shop_no": 9080,
       "hero_no": 3140,
       "hero_grade": 110023,
-      "basic_item1_no": 10061,
       "basic_item1_amount": 150,
       "shop_item_no": 9087
     },
@@ -752,7 +751,6 @@
       "shop_no": 9100,
       "hero_no": 4140,
       "hero_grade": 110023,
-      "basic_item1_no": 10062,
       "basic_item1_amount": 150,
       "shop_item_no": 9107
     },
@@ -824,7 +822,6 @@
       "shop_no": 9120,
       "hero_no": 2140,
       "hero_grade": 110023,
-      "basic_item1_no": 10063,
       "basic_item1_amount": 150,
       "shop_item_no": 9127
     },
@@ -961,7 +958,6 @@
       "shop_no": 9170,
       "hero_no": 1080,
       "hero_grade": 110023,
-      "basic_item1_no": 10065,
       "basic_item1_amount": 150,
       "shop_item_no": 9177
     },
@@ -1037,7 +1033,6 @@
       "shop_no": 9200,
       "hero_no": 3150,
       "hero_grade": 110023,
-      "basic_item1_no": 10066,
       "basic_item1_amount": 150,
       "shop_item_no": 9207
     },
@@ -1113,7 +1108,6 @@
       "shop_no": 9240,
       "hero_no": 2150,
       "hero_grade": 110023,
-      "basic_item1_no": 10067,
       "basic_item1_amount": 150,
       "shop_item_no": 9247
     },
@@ -1256,7 +1250,6 @@
       "shop_no": 9280,
       "hero_no": 4150,
       "hero_grade": 110023,
-      "basic_item1_no": 10069,
       "basic_item1_amount": 150,
       "shop_item_no": 9287
     },
@@ -1419,14 +1412,14 @@
       "hero_grade": 110025,
       "basic_item1_no": 12012,
       "basic_item1_amount": 70,
-      "basic_item2_no": 2355,
+      "basic_item2_no": 2363,
       "basic_item2_amount": 1,
       "shop_item_no": 9328
     },
     {
       "no": 156,
       "shop_no": 9340,
-      "hero_no": 5060,
+      "hero_no": 5040,
       "hero_grade": 110014,
       "basic_item1_no": 3024,
       "basic_item1_amount": 1,
@@ -1435,7 +1428,7 @@
     {
       "no": 157,
       "shop_no": 9340,
-      "hero_no": 5060,
+      "hero_no": 5040,
       "hero_grade": 110017,
       "basic_item1_no": 45,
       "basic_item1_amount": 10,
@@ -1444,7 +1437,7 @@
     {
       "no": 158,
       "shop_no": 9340,
-      "hero_no": 5060,
+      "hero_no": 5040,
       "hero_grade": 110019,
       "basic_item1_no": 3024,
       "basic_item1_amount": 1,
@@ -1453,7 +1446,7 @@
     {
       "no": 159,
       "shop_no": 9340,
-      "hero_no": 5060,
+      "hero_no": 5040,
       "hero_grade": 110020,
       "basic_item1_no": 19,
       "basic_item1_amount": 10,
@@ -1464,7 +1457,7 @@
     {
       "no": 160,
       "shop_no": 9340,
-      "hero_no": 5060,
+      "hero_no": 5040,
       "hero_grade": 110021,
       "basic_item1_no": 12009,
       "basic_item1_amount": 30,
@@ -1473,7 +1466,7 @@
     {
       "no": 161,
       "shop_no": 9340,
-      "hero_no": 5060,
+      "hero_no": 5040,
       "hero_grade": 110023,
       "basic_item1_no": 10079,
       "basic_item1_amount": 150,
@@ -1482,7 +1475,7 @@
     {
       "no": 162,
       "shop_no": 9340,
-      "hero_no": 5060,
+      "hero_no": 5040,
       "hero_grade": 110025,
       "basic_item1_no": 12009,
       "basic_item1_amount": 70,
@@ -2016,7 +2009,7 @@
     {
       "no": 218,
       "shop_no": 9430,
-      "hero_no": 5070,
+      "hero_no": 5060,
       "hero_grade": 110014,
       "basic_item1_no": 3024,
       "basic_item1_amount": 1,
@@ -2025,7 +2018,7 @@
     {
       "no": 219,
       "shop_no": 9430,
-      "hero_no": 5070,
+      "hero_no": 5060,
       "hero_grade": 110017,
       "basic_item1_no": 45,
       "basic_item1_amount": 10,
@@ -2034,7 +2027,7 @@
     {
       "no": 220,
       "shop_no": 9430,
-      "hero_no": 5070,
+      "hero_no": 5060,
       "hero_grade": 110019,
       "basic_item1_no": 3024,
       "basic_item1_amount": 1,
@@ -2043,7 +2036,7 @@
     {
       "no": 221,
       "shop_no": 9430,
-      "hero_no": 5070,
+      "hero_no": 5060,
       "hero_grade": 110020,
       "basic_item1_no": 19,
       "basic_item1_amount": 10,
@@ -2054,7 +2047,7 @@
     {
       "no": 222,
       "shop_no": 9430,
-      "hero_no": 5070,
+      "hero_no": 5060,
       "hero_grade": 110021,
       "basic_item1_no": 12009,
       "basic_item1_amount": 30,
@@ -2063,7 +2056,7 @@
     {
       "no": 223,
       "shop_no": 9430,
-      "hero_no": 5070,
+      "hero_no": 5060,
       "hero_grade": 110023,
       "basic_item1_no": 10080,
       "basic_item1_amount": 150,
@@ -2072,7 +2065,7 @@
     {
       "no": 224,
       "shop_no": 9430,
-      "hero_no": 5070,
+      "hero_no": 5060,
       "hero_grade": 110025,
       "basic_item1_no": 12009,
       "basic_item1_amount": 70,

@@ -4957,6 +4957,23 @@
       "far_motion": "0"
     },
     {
+      "no": 44821,
+      "path": "TownObjet_HonglanSideEvent",
+      "prefab": "PE_TOWN_B_HonglanSideEvent_RestArea",
+      "list_tab": 5,
+      "type": 4,
+      "original_slot": 534,
+      "buff1": 1001,
+      "buff2": 5914,
+      "develop_point": 2500,
+      "place_limit": 1,
+      "hero": 2160,
+      "castle": 1,
+      "animal_prefab": "0",
+      "close_motion": "0",
+      "far_motion": "0"
+    },
+    {
       "no": 47001,
       "path": "TownObjet_Tower",
       "prefab": "PE_TOWN_B_Tower_Mephisto",
@@ -5222,6 +5239,19 @@
       "no": 47021,
       "path": "TownObjet_Tower",
       "prefab": "PE_TOWN_B_Tower_Nini",
+      "list_tab": 1,
+      "original_slot": 111,
+      "develop_point": 2500,
+      "place_limit": 1,
+      "castle": 1,
+      "animal_prefab": "0",
+      "close_motion": "0",
+      "far_motion": "0"
+    },
+    {
+      "no": 47022,
+      "path": "TownObjet_Tower",
+      "prefab": "PE_TOWN_B_Tower_Petra",
       "list_tab": 1,
       "original_slot": 111,
       "develop_point": 2500,

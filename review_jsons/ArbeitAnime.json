@@ -593,6 +593,30 @@
       "action1_item": "0",
       "action2": "0",
       "action2_item": "0"
+    },
+    {
+      "no": 76,
+      "slot": 1,
+      "action1": "SDCommon_Spray",
+      "action1_item": "0",
+      "action2": "0",
+      "action2_item": "0"
+    },
+    {
+      "no": 77,
+      "slot": 2,
+      "action1": "SDCommon_Spray",
+      "action1_item": "0",
+      "action2": "0",
+      "action2_item": "0"
+    },
+    {
+      "no": 78,
+      "slot": 3,
+      "action1": "SDCommon_Pickup",
+      "action1_item": "0",
+      "action2": "0",
+      "action2_item": "0"
     }
   ]
 }

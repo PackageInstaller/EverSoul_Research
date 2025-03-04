@@ -71,6 +71,30 @@
       "content_string_no": 359507,
       "icon_path": "icon_eas_burn",
       "value1": 9507
+    },
+    {
+      "no": 10,
+      "event_group": 4,
+      "title_string_no": 349505,
+      "content_string_no": 3595051,
+      "icon_path": "icon_eas_fury",
+      "value1": 9505
+    },
+    {
+      "no": 11,
+      "event_group": 4,
+      "title_string_no": 349508,
+      "content_string_no": 359508,
+      "icon_path": "icon_eas_race_3",
+      "value1": 9508
+    },
+    {
+      "no": 12,
+      "event_group": 4,
+      "title_string_no": 349503,
+      "content_string_no": 359503,
+      "icon_path": "icon_eas_attack_up_2",
+      "value1": 9503
     }
   ]
 }

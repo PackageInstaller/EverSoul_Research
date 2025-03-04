@@ -443,6 +443,22 @@
       "rental_hero2": 3110,
       "rental_level2": 250,
       "force_use": 1
+    },
+    {
+      "no": 57,
+      "contents_type": 2,
+      "contents_no": 31,
+      "rental_hero1": 32105,
+      "rental_level1": 1,
+      "rental_hero2": 32106,
+      "rental_level2": 2,
+      "rental_hero3": 32107,
+      "rental_level3": 3,
+      "rental_hero4": 32108,
+      "rental_level4": 4,
+      "rental_hero5": 7216,
+      "rental_level5": 900,
+      "force_use": 1
     }
   ]
 }

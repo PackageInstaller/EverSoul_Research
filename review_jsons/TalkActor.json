@@ -765,6 +765,28 @@
       "position_scale": 1.0
     },
     {
+      "no": 1160,
+      "name_sno": 301120,
+      "prefab_path": "JihoMir",
+      "portrait512_path": "UI/Textures/Souls/JihoMir/JihoMir_512",
+      "portrait128_path": "UI/Textures/Souls/JihoMir/JihoMir_128",
+      "costume_path": "",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
+      "no": 1161,
+      "name_sno": 301120,
+      "prefab_path": "JihoMir",
+      "portrait512_path": "UI/Textures/Souls/JihoMir/JihoMir_Costume01_512",
+      "portrait128_path": "UI/Textures/Souls/JihoMir/JihoMir_Costume01_128",
+      "costume_path": "JihoMir_Costume01",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
       "no": 1990,
       "name_sno": 250068,
       "prefab_path": "NPCDarkknight",
@@ -881,6 +903,17 @@
       "portrait512_path": "UI/Textures/Souls/Sunny/Sunny_Costume03_512",
       "portrait128_path": "UI/Textures/Souls/Sunny/Sunny_Costume03_128",
       "costume_path": "Sunny_Costume03",
+      "controller_path": "",
+      "position_y": 0.165,
+      "position_scale": 1.0
+    },
+    {
+      "no": 2024,
+      "name_sno": 302020,
+      "prefab_path": "Sunny",
+      "portrait512_path": "UI/Textures/Souls/Sunny/Sunny_Costume04_512",
+      "portrait128_path": "UI/Textures/Souls/Sunny/Sunny_Costume04_128",
+      "costume_path": "Sunny_Costume04",
       "controller_path": "",
       "position_y": 0.165,
       "position_scale": 1.0
@@ -1286,6 +1319,26 @@
       "portrait512_path": "UI/Textures/Souls/SakuyoShin/SakuyoShin_Costume01_512",
       "portrait128_path": "UI/Textures/Souls/SakuyoShin/SakuyoShin_Costume01_2048",
       "costume_path": "SakuyoShin_Costume01",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 2160,
+      "name_sno": 302010,
+      "prefab_path": "HonglanCombat",
+      "portrait512_path": "UI/Textures/Souls/HonglanCombat/HonglanCombat_512",
+      "portrait128_path": "UI/Textures/Souls/HonglanCombat/HonglanCombat_2048",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 2161,
+      "name_sno": 302010,
+      "prefab_path": "HonglanCombat",
+      "portrait512_path": "UI/Textures/Souls/HonglanCombat/HonglanCombat_Costume01_512",
+      "portrait128_path": "UI/Textures/Souls/HonglanCombat/HonglanCombat_Costume01_2048",
+      "costume_path": "HonglanCombat_Costume01",
       "controller_path": "",
       "position_scale": 1.0
     },
@@ -1851,6 +1904,36 @@
       "prefab_path": "Wheri",
       "portrait512_path": "UI/Textures/Souls/Wheri/Wheri_512",
       "portrait128_path": "UI/Textures/Souls/Wheri/Wheri_128",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 3160,
+      "name_sno": 303030,
+      "prefab_path": "ReneeSilver",
+      "portrait512_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_512",
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 3161,
+      "name_sno": 303030,
+      "prefab_path": "ReneeSilver",
+      "portrait512_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_Costume01_512",
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_Costume01_128",
+      "costume_path": "ReneeSilver_Costume01",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 3168,
+      "name_sno": 250053,
+      "prefab_path": "ReneeSilver",
+      "portrait512_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_512",
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128",
       "costume_path": "",
       "controller_path": "",
       "position_scale": 1.0
@@ -2567,13 +2650,35 @@
     {
       "no": 5040,
       "name_sno": 305040,
-      "prefab_path": "",
+      "prefab_path": "Hanul",
+      "portrait512_path": "UI/Textures/Souls/Hanul/Hanul_512",
+      "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128",
+      "costume_path": "Hanul",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
+      "no": 5041,
+      "name_sno": 305040,
+      "prefab_path": "Hanul",
+      "portrait512_path": "UI/Textures/Souls/Hanul/Hanul_Costume01_512",
+      "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_Costume01_128",
+      "costume_path": "Hanul_Costume01",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
+      "no": 5049,
+      "name_sno": 259999,
+      "prefab_path": "Hanul",
       "portrait512_path": "UI/Textures/Etc/NPC_GaonTeacher_512",
       "portrait128_path": "",
       "costume_path": "",
       "controller_path": "",
       "portrait_reverse": 1,
-      "position_scale": 0.5
+      "position_scale": 1.0
     },
     {
       "no": 5050,
@@ -10062,6 +10167,219 @@
       "costume_path": "RoseCrimson_Costume02",
       "controller_path": "",
       "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
+      "no": 9715,
+      "name_sno": 250669,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
+      "no": 9716,
+      "name_sno": 250670,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
+      "no": 9717,
+      "name_sno": 250671,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
+      "no": 9718,
+      "name_sno": 250672,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9719,
+      "name_sno": 250673,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9720,
+      "name_sno": 250674,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9721,
+      "name_sno": 250675,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9722,
+      "name_sno": 250676,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9723,
+      "name_sno": 250677,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9724,
+      "name_sno": 250678,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9725,
+      "name_sno": 250679,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9726,
+      "name_sno": 250680,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9727,
+      "name_sno": 250681,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9728,
+      "name_sno": 250682,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9729,
+      "name_sno": 250626,
+      "prefab_path": "",
+      "portrait512_path": "UI/Textures/Etc/NPC_UnknownGirl_512",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9730,
+      "name_sno": 250683,
+      "prefab_path": "",
+      "portrait512_path": "UI/Textures/Etc/NPC_UnknownMan2",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9731,
+      "name_sno": 250684,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9732,
+      "name_sno": 250685,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9733,
+      "name_sno": 250686,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9734,
+      "name_sno": 250687,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9735,
+      "name_sno": 250688,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
       "position_scale": 1.0
     },
     {

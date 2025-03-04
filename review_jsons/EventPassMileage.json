@@ -189,6 +189,26 @@
       "mileage_point": 100,
       "event_shop_no": 1,
       "shop_item_no": 912
+    },
+    {
+      "no": 20,
+      "event_type": 2,
+      "group": 20,
+      "event_number": 1,
+      "spend_item": 8121,
+      "mileage_point": 100,
+      "event_shop_no": 2,
+      "shop_item_no": 913
+    },
+    {
+      "no": 21,
+      "event_type": 1,
+      "group": 21,
+      "event_number": 1,
+      "spend_item": 8123,
+      "mileage_point": 1,
+      "event_shop_no": 10025,
+      "shop_item_no": 910
     }
   ]
 }

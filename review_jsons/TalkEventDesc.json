@@ -1979,6 +1979,54 @@
       "event_no": 160,
       "order": 2,
       "desc_list": "[[1150,Talk,900006366]]"
+    },
+    {
+      "no": 331,
+      "event_no": 161,
+      "order": 1,
+      "desc_list": "[[5040,Talk,900006367]]"
+    },
+    {
+      "no": 332,
+      "event_no": 161,
+      "order": 2,
+      "desc_list": "[[2160,Stay,900006368]]"
+    },
+    {
+      "no": 333,
+      "event_no": 162,
+      "order": 1,
+      "desc_list": "[[2150,Talk,900006369]]"
+    },
+    {
+      "no": 334,
+      "event_no": 162,
+      "order": 2,
+      "desc_list": "[[2160,Stay,900006370]]"
+    },
+    {
+      "no": 335,
+      "event_no": 163,
+      "order": 1,
+      "desc_list": "[[2160,Talk,900006371]]"
+    },
+    {
+      "no": 336,
+      "event_no": 163,
+      "order": 2,
+      "desc_list": "[[1160,Talk,900006372]]"
+    },
+    {
+      "no": 337,
+      "event_no": 164,
+      "order": 1,
+      "desc_list": "[[2160,Talk,900006373]]"
+    },
+    {
+      "no": 338,
+      "event_no": 164,
+      "order": 2,
+      "desc_list": "[[2020,Exercise,900006374]]"
     }
   ]
 }
