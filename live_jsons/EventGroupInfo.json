@@ -39,6 +39,46 @@
       "sub_event_group": 1,
       "sub_event_number": 1,
       "button_no": 4
+    },
+    {
+      "no": 5,
+      "main_event_type": 24,
+      "main_event_group": 2,
+      "main_event_number": 1,
+      "sub_event_type": 3,
+      "sub_event_group": 5002,
+      "sub_event_number": 1,
+      "button_no": 1
+    },
+    {
+      "no": 6,
+      "main_event_type": 24,
+      "main_event_group": 2,
+      "main_event_number": 1,
+      "sub_event_type": 6,
+      "sub_event_group": 21,
+      "sub_event_number": 1,
+      "button_no": 2
+    },
+    {
+      "no": 7,
+      "main_event_type": 24,
+      "main_event_group": 2,
+      "main_event_number": 1,
+      "sub_event_type": 21,
+      "sub_event_group": 4,
+      "sub_event_number": 1,
+      "button_no": 3
+    },
+    {
+      "no": 8,
+      "main_event_type": 24,
+      "main_event_group": 2,
+      "main_event_number": 1,
+      "sub_event_type": 23,
+      "sub_event_group": 2,
+      "sub_event_number": 1,
+      "button_no": 4
     }
   ]
 }

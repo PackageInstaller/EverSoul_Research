@@ -215,6 +215,18 @@
       "reward_group": 4,
       "reward_cycle": 7,
       "schedule_key": "EdenAlliance_aurelia_03"
+    },
+    {
+      "no": 19,
+      "battle_group": 19,
+      "name_sno": 19131,
+      "story_no": 3013601,
+      "bg_path": "bg_alliance_tabria",
+      "sound_path": "BGM_EdenAlliance_Tabria",
+      "emblem_path": "emblem_alliance_tabria",
+      "reward_group": 5,
+      "reward_cycle": 7,
+      "schedule_key": "EdenAlliance_tabria_03"
     }
   ]
 }

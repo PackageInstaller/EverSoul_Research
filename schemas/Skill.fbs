@@ -20,6 +20,7 @@ table Deserialization {
     code7: int32;
     code8: int32;
     code9: int32;
+    code_extend: string;
     global_cooltime: float;
     target: int32;
     move_type: int32;

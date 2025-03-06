@@ -516,6 +516,28 @@
       "tip3_sno1": 532343,
       "tip3_sno2": 532343,
       "tip3_sno3": 532344
+    },
+    {
+      "no": 25,
+      "shop_no": 10025,
+      "pay_item_no": 8123,
+      "pay_item_amount": 100,
+      "repeat_draw_box": "6,7",
+      "bg_path": "CruiseParty/bg_eventstage_CruiseParty",
+      "shop_image_path": "",
+      "shop_name_sno": 12338,
+      "event_shop_hero": 5010,
+      "model_viewer_display": 2306,
+      "model_offset": "[0, 0, 0]",
+      "tip_sno1": 532153,
+      "tip_sno2": 532153,
+      "tip_sno3": 532154,
+      "tip2_sno1": 532155,
+      "tip2_sno2": 532155,
+      "tip2_sno3": 532156,
+      "tip3_sno1": 532157,
+      "tip3_sno2": 532157,
+      "tip3_sno3": 532158
     }
   ]
 }

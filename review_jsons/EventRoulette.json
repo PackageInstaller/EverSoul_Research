@@ -6,7 +6,9 @@
       "event_number": 1,
       "roulette_type": 4,
       "itemlist_group": 1,
-      "reward_group": 1
+      "reward_group": 1,
+      "img_roulette": "RoseSideEvent",
+      "bg_roulette": "bg_Roulette1_main"
     },
     {
       "no": 2,
@@ -14,7 +16,9 @@
       "event_number": 1,
       "roulette_type": 4,
       "itemlist_group": 1,
-      "reward_group": 2
+      "reward_group": 2,
+      "img_roulette": "HonglanSideEvent",
+      "bg_roulette": "bg_Roulette2_main"
     }
   ]
 }

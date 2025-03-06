@@ -662,6 +662,28 @@
       "event_shop_hero": 1050,
       "model_viewer_display": 2357,
       "model_offset": "[0, 0, 0]"
+    },
+    {
+      "no": 1072,
+      "event_type": 9,
+      "event_group": 8,
+      "event_number": 2,
+      "bg_path": "CruiseParty/bg_eventstage_CruiseParty",
+      "shop_name_sno": 12339,
+      "event_shop_hero": 3040,
+      "model_viewer_display": 2307,
+      "model_offset": "[0, 0, 0]"
+    },
+    {
+      "no": 1073,
+      "event_type": 9,
+      "event_group": 8,
+      "event_number": 2,
+      "bg_path": "CruiseParty/bg_eventstage_CruiseParty",
+      "shop_name_sno": 12340,
+      "event_shop_hero": 2030,
+      "model_viewer_display": 2305,
+      "model_offset": "[0.18, 0, 0]"
     }
   ]
 }

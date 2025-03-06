@@ -3,6 +3,7 @@
     {
       "no": 1,
       "reward_group": 1,
+      "reward_type": 1,
       "use_ticket_count": 20,
       "reward_item_no1": 3376,
       "reward_item_amount1": 60
@@ -10,6 +11,7 @@
     {
       "no": 2,
       "reward_group": 1,
+      "reward_type": 1,
       "use_ticket_count": 40,
       "reward_item_no1": 45,
       "reward_item_amount1": 5
@@ -17,6 +19,7 @@
     {
       "no": 3,
       "reward_group": 1,
+      "reward_type": 1,
       "use_ticket_count": 60,
       "reward_item_no1": 4010,
       "reward_item_amount1": 1
@@ -24,6 +27,7 @@
     {
       "no": 4,
       "reward_group": 1,
+      "reward_type": 1,
       "use_ticket_count": 80,
       "reward_item_no1": 45,
       "reward_item_amount1": 10
@@ -31,6 +35,7 @@
     {
       "no": 5,
       "reward_group": 1,
+      "reward_type": 1,
       "use_ticket_count": 100,
       "reward_item_no1": 4010,
       "reward_item_amount1": 1
@@ -38,6 +43,7 @@
     {
       "no": 6,
       "reward_group": 1,
+      "reward_type": 1,
       "use_ticket_count": 120,
       "reward_item_no1": 45,
       "reward_item_amount1": 15
@@ -45,6 +51,7 @@
     {
       "no": 7,
       "reward_group": 1,
+      "reward_type": 1,
       "use_ticket_count": 140,
       "reward_item_no1": 4010,
       "reward_item_amount1": 1
@@ -52,6 +59,7 @@
     {
       "no": 8,
       "reward_group": 1,
+      "reward_type": 1,
       "use_ticket_count": 160,
       "reward_item_no1": 45,
       "reward_item_amount1": 20
@@ -59,6 +67,7 @@
     {
       "no": 9,
       "reward_group": 1,
+      "reward_type": 1,
       "use_ticket_count": 180,
       "reward_item_no1": 4010,
       "reward_item_amount1": 1
@@ -66,147 +75,88 @@
     {
       "no": 10,
       "reward_group": 1,
-      "use_ticket_count": 200,
+      "reward_type": 2,
+      "use_ticket_count": 20,
       "reward_item_no1": 45,
       "reward_item_amount1": 20
     },
     {
       "no": 11,
-      "reward_group": 1,
-      "use_ticket_count": 220,
-      "reward_item_no1": 45,
-      "reward_item_amount1": 20
+      "reward_group": 2,
+      "reward_type": 1,
+      "use_ticket_count": 20,
+      "reward_item_no1": 3378,
+      "reward_item_amount1": 60
     },
     {
       "no": 12,
-      "reward_group": 1,
-      "use_ticket_count": 240,
+      "reward_group": 2,
+      "reward_type": 1,
+      "use_ticket_count": 40,
       "reward_item_no1": 45,
-      "reward_item_amount1": 20
+      "reward_item_amount1": 5
     },
     {
       "no": 13,
-      "reward_group": 1,
-      "use_ticket_count": 260,
-      "reward_item_no1": 45,
-      "reward_item_amount1": 20
+      "reward_group": 2,
+      "reward_type": 1,
+      "use_ticket_count": 60,
+      "reward_item_no1": 4010,
+      "reward_item_amount1": 1
     },
     {
       "no": 14,
-      "reward_group": 1,
-      "use_ticket_count": 280,
+      "reward_group": 2,
+      "reward_type": 1,
+      "use_ticket_count": 80,
       "reward_item_no1": 45,
-      "reward_item_amount1": 20
+      "reward_item_amount1": 10
     },
     {
       "no": 15,
-      "reward_group": 1,
-      "use_ticket_count": 300,
-      "reward_item_no1": 45,
-      "reward_item_amount1": 20
+      "reward_group": 2,
+      "reward_type": 1,
+      "use_ticket_count": 100,
+      "reward_item_no1": 4010,
+      "reward_item_amount1": 1
     },
     {
       "no": 16,
-      "reward_group": 1,
-      "use_ticket_count": 320,
+      "reward_group": 2,
+      "reward_type": 1,
+      "use_ticket_count": 120,
       "reward_item_no1": 45,
-      "reward_item_amount1": 20
+      "reward_item_amount1": 15
     },
     {
       "no": 17,
-      "reward_group": 1,
-      "use_ticket_count": 340,
-      "reward_item_no1": 45,
-      "reward_item_amount1": 20
+      "reward_group": 2,
+      "reward_type": 1,
+      "use_ticket_count": 140,
+      "reward_item_no1": 4010,
+      "reward_item_amount1": 1
     },
     {
       "no": 18,
-      "reward_group": 1,
-      "use_ticket_count": 360,
+      "reward_group": 2,
+      "reward_type": 1,
+      "use_ticket_count": 160,
       "reward_item_no1": 45,
       "reward_item_amount1": 20
     },
     {
       "no": 19,
-      "reward_group": 1,
-      "use_ticket_count": 380,
-      "reward_item_no1": 45,
-      "reward_item_amount1": 20
+      "reward_group": 2,
+      "reward_type": 1,
+      "use_ticket_count": 180,
+      "reward_item_no1": 4010,
+      "reward_item_amount1": 1
     },
     {
       "no": 20,
-      "reward_group": 1,
-      "use_ticket_count": 400,
-      "reward_item_no1": 45,
-      "reward_item_amount1": 20
-    },
-    {
-      "no": 21,
-      "reward_group": 1,
-      "use_ticket_count": 420,
-      "reward_item_no1": 45,
-      "reward_item_amount1": 20
-    },
-    {
-      "no": 22,
-      "reward_group": 1,
-      "use_ticket_count": 440,
-      "reward_item_no1": 45,
-      "reward_item_amount1": 20
-    },
-    {
-      "no": 23,
-      "reward_group": 1,
-      "use_ticket_count": 460,
-      "reward_item_no1": 45,
-      "reward_item_amount1": 20
-    },
-    {
-      "no": 24,
-      "reward_group": 1,
-      "use_ticket_count": 480,
-      "reward_item_no1": 45,
-      "reward_item_amount1": 20
-    },
-    {
-      "no": 25,
-      "reward_group": 1,
-      "use_ticket_count": 500,
-      "reward_item_no1": 45,
-      "reward_item_amount1": 20
-    },
-    {
-      "no": 26,
-      "reward_group": 1,
-      "use_ticket_count": 520,
-      "reward_item_no1": 45,
-      "reward_item_amount1": 20
-    },
-    {
-      "no": 27,
-      "reward_group": 1,
-      "use_ticket_count": 540,
-      "reward_item_no1": 45,
-      "reward_item_amount1": 20
-    },
-    {
-      "no": 28,
-      "reward_group": 1,
-      "use_ticket_count": 560,
-      "reward_item_no1": 45,
-      "reward_item_amount1": 20
-    },
-    {
-      "no": 29,
-      "reward_group": 1,
-      "use_ticket_count": 580,
-      "reward_item_no1": 45,
-      "reward_item_amount1": 20
-    },
-    {
-      "no": 30,
-      "reward_group": 1,
-      "use_ticket_count": 600,
+      "reward_group": 2,
+      "reward_type": 2,
+      "use_ticket_count": 20,
       "reward_item_no1": 45,
       "reward_item_amount1": 20
     }

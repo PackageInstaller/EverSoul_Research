@@ -216,6 +216,11 @@
       "prefab": "Lobby/PMap_Lobby_RoseCrimson_01"
     },
     {
+      "no": 5291,
+      "icon_path": "bg_HonglanCombat_01",
+      "prefab": "Lobby/PMap_Lobby_HonglanCombat_01"
+    },
+    {
       "no": 5400,
       "icon_path": "bg_Ark_01",
       "prefab": "Lobby/PMap_Lobby_Ark_01"

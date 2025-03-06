@@ -2643,9 +2643,9 @@
     {
       "no": 213378,
       "kr": "정령의 기억: 홍란(무쌍)",
-      "en": "",
+      "en": "Soul's Memory: Honglan (Peerless)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "精靈的記憶：紅蘭（無雙）",
       "zh_cn": ""
     },
     {
@@ -4006,6 +4006,14 @@
       "en": "Rose's Imaginary World",
       "ja": "",
       "zh_tw": "蘿絲的心理世界",
+      "zh_cn": ""
+    },
+    {
+      "no": 215291,
+      "kr": "노심굴",
+      "en": "Reactor Core Cave",
+      "ja": "",
+      "zh_tw": "爐心窟",
       "zh_cn": ""
     },
     {
@@ -6441,6 +6449,78 @@
       "zh_cn": ""
     },
     {
+      "no": 216937,
+      "kr": "스티커: 천리주단기(1위)",
+      "en": "Sticker: Riding Alone for Thousands of Miles (#1)",
+      "ja": "",
+      "zh_tw": "貼紙：過五關斬六將（第1名）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216938,
+      "kr": "스티커: 천리주단기(2위)",
+      "en": "Sticker: Riding Alone for Thousands of Miles (#2)",
+      "ja": "",
+      "zh_tw": "貼紙：過五關斬六將（第2名）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216939,
+      "kr": "스티커: 천리주단기(3위)",
+      "en": "Sticker: Riding Alone for Thousands of Miles (#3)",
+      "ja": "",
+      "zh_tw": "貼紙：過五關斬六將（第3名）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216940,
+      "kr": "스티커: 천리주단기(챌린저)",
+      "en": "Sticker: Riding Alone for Thousands of Miles (Challenger)",
+      "ja": "",
+      "zh_tw": "貼紙：過五關斬六將（王者）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216941,
+      "kr": "스티커: 천리주단기(마스터)",
+      "en": "Sticker: Riding Alone for Thousands of Miles (Master)",
+      "ja": "",
+      "zh_tw": "貼紙：過五關斬六將（大師）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216942,
+      "kr": "스티커: 천리주단기(플래티넘)",
+      "en": "Sticker: Riding Alone for Thousands of Miles (Platinum)",
+      "ja": "",
+      "zh_tw": "貼紙：過五關斬六將（白金）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216943,
+      "kr": "스티커: 천리주단기(골드)",
+      "en": "Sticker: Riding Alone for Thousands of Miles (Gold)",
+      "ja": "",
+      "zh_tw": "貼紙：過五關斬六將（黃金）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216944,
+      "kr": "스티커: 천리주단기(실버)",
+      "en": "Sticker: Riding Alone for Thousands of Miles (Silver)",
+      "ja": "",
+      "zh_tw": "貼紙：過五關斬六將（白銀）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216945,
+      "kr": "스티커: 천리주단기(브론즈)",
+      "en": "Sticker: Riding Alone for Thousands of Miles (Bronze)",
+      "ja": "",
+      "zh_tw": "貼紙：過五關斬六將（青銅）",
+      "zh_cn": ""
+    },
+    {
       "no": 217001,
       "kr": "조각 케이크",
       "en": "Sliced Cake",
@@ -7389,7 +7469,7 @@
       "kr": "룰렛 티켓 (기록되지 않은 미래)",
       "en": "Spin Ticket (The Unwritten Future)",
       "ja": "ルーレットチケット(記録されていない未来)",
-      "zh_tw": "轉盤票券(未記錄的未來)",
+      "zh_tw": "轉盤票券（未記錄的未來）",
       "zh_cn": ""
     },
     {
@@ -7405,15 +7485,15 @@
       "kr": "룰렛 티켓 (천리주단기)",
       "en": "Spin Ticket (Riding Alone for Thousands of Miles)",
       "ja": "ルーレットチケット(単騎、千里を走る)",
-      "zh_tw": "轉盤票券(過五關斬六將)",
+      "zh_tw": "轉盤票券（過五關斬六將）",
       "zh_cn": ""
     },
     {
       "no": 218122,
       "kr": "노심 방위전 미니 게임 입장권",
-      "en": "",
+      "en": "Reactor Core Defense Mini Game Ticket",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "爐心防衛戰小遊戲入場券",
       "zh_cn": ""
     },
     {
@@ -10083,9 +10163,9 @@
     {
       "no": 223378,
       "kr": "파편 60개 수집시 에픽 정령 홍란(무쌍) 소환 가능",
-      "en": "",
+      "en": "Collect 60 fragments to summon Epic Soul Honglan (Peerless).",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "收集60塊碎片時，即可召喚史詩精靈紅蘭（無雙）",
       "zh_cn": ""
     },
     {
@@ -11446,6 +11526,14 @@
       "en": "You can change the background of the lobby. (Rose's Imaginary World)\r\n\r\nCan be obtained as a reward for viewing The Unwritten Future Event Story.",
       "ja": "",
       "zh_tw": "可變更大廳背景（蘿絲的心理世界）\r\n\r\n觀看＜未記錄的未來＞活動故事獎勵",
+      "zh_cn": ""
+    },
+    {
+      "no": 225291,
+      "kr": "로비 배경을 변경할 수 있습니다. (노심굴)\r\n\r\n<천리주단기> 이벤트 스토리 열람 보상으로 획득 가능",
+      "en": "You can change the background of the lobby. (Reactor Core Cave)\r\n\r\nCan be obtained as a reward for viewing the Riding Alone for Thousands of Miles Event Story.",
+      "ja": "",
+      "zh_tw": "可變更大廳背景（爐心窟）\r\n\r\n觀看＜過五關斬六將＞活動故事獎勵",
       "zh_cn": ""
     },
     {
@@ -13897,6 +13985,78 @@
       "zh_cn": ""
     },
     {
+      "no": 226937,
+      "kr": "인피니티 보스 챌린지(노심) 최종 1위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Reactor Core) event in first place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（爐心）最終第1名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226938,
+      "kr": "인피니티 보스 챌린지(노심) 최종 2위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Reactor Core) event in second place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（爐心）最終第2名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226939,
+      "kr": "인피니티 보스 챌린지(노심) 최종 3위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Reactor Core) event in third place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（爐心）最終第3名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226940,
+      "kr": "인피니티 보스 챌린지(노심) 최종 4~10위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Reactor Core) event in 4th–10th place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（爐心）最終第4～10名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226941,
+      "kr": "인피니티 보스 챌린지(노심) 최종 11~100위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Reactor Core) event in 11th–100th place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（爐心）最終第11～100名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226942,
+      "kr": "인피니티 보스 챌린지(노심) 최종 101~500위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Reactor Core) event in 101st–500th place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（爐心）最終第101～500名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226943,
+      "kr": "인피니티 보스 챌린지(노심) 최종 501~1000위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Reactor Core) event in 501st–1000th place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（爐心）最終第501～1000名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226944,
+      "kr": "인피니티 보스 챌린지(노심) 최종 1001~2000위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Reactor Core) event in 1001st–2000th place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（爐心）最終第1001～2000名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226945,
+      "kr": "인피니티 보스 챌린지(노심) 참여 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon participating in an Infinity Boss Challenge (Reactor Core) event.",
+      "ja": "",
+      "zh_tw": "參加無限BOSS挑戰（爐心）時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
       "no": 227001,
       "kr": "달콤한 생크림과 폭신한 시트가 인상적인 간식.",
       "en": "An impressive snack with sweet fresh cream and soft layers.",
@@ -15867,9 +16027,9 @@
     {
       "no": 520177,
       "kr": "일기당천",
-      "en": "",
+      "en": "Solitary Decimator",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "以一當十",
       "zh_cn": ""
     },
     {
@@ -15956,7 +16116,7 @@
       "no": 520411,
       "kr": "베어 A LA MODE",
       "en": "Bear a la Mode",
-      "ja": "パステルサウルス",
+      "ja": "ベアA LA MODE",
       "zh_tw": "熊熊風潮",
       "zh_cn": ""
     },
@@ -17163,25 +17323,25 @@
     {
       "no": 520562,
       "kr": "도원향",
-      "en": "",
+      "en": "Fragrant Peach Blossoms",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "世外桃源",
       "zh_cn": ""
     },
     {
       "no": 520563,
       "kr": "난공불락",
-      "en": "",
+      "en": "Impenetrable Protection",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "堅不可摧",
       "zh_cn": ""
     },
     {
       "no": 520564,
-      "kr": "순이 이벤트 코스튬",
-      "en": "",
+      "kr": "장수의 마음",
+      "en": "Heart of a General",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "將帥意志",
       "zh_cn": ""
     },
     {
@@ -17811,9 +17971,9 @@
     {
       "no": 530177,
       "kr": "전장을 가로지르는 용맹무쌍한 영웅의 의상.\r\n단신으로 천 명의 적을 쓰러트리는 그 모습은 가히 무쌍이라.",
-      "en": "",
+      "en": "The outfit of a hero of peerless valor.\r\nWitness the unmatched power as she conquers a thousand enemies alone.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "縱橫沙場、驍勇善戰的英雄服裝。\r\n隻身一人擊垮千軍萬馬的模樣可謂舉世無雙。",
       "zh_cn": ""
     },
     {
@@ -17900,7 +18060,7 @@
       "no": 530411,
       "kr": "꿀에 의한, 꿀을 위한 꿀과자 베이커리 유니폼. 도라가 특별하게 어레인지한 초콜릿색 곰 귀 헤드드레스는 용기와 희망을 준다. 허리에 매달린 곰돌이는 시식 담당.",
       "en": "The honey dessert bakery uniform. The chocolate-colored bear ear headdress, especially arranged by Dora, represents courage and hope. The teddy bear on the waist samples the desserts.",
-      "ja": "モフモフで長い尻尾が付いた恐竜衣装。\r\n着ぐるみというには柔らかく、甘い色味がとても可愛らしい。",
+      "ja": "ハチミツによる、ハチミツのためのハチミツスイーツベーカリーのユニフォーム。ドーラが特別にアレンジしたチョコレート色のクマ耳ヘッドドレスは、勇気と希望を与えてくれる。腰にぶら下がっているクマさんは試食担当。",
       "zh_tw": "仰賴蜂蜜、為了蜂蜜的蜂蜜糕點烘焙坊制服。朵菈特別準備的巧克力色熊熊耳朵頭飾給了她勇氣與希望，掛在腰間的熊熊則負責試吃。",
       "zh_cn": ""
     },
@@ -19107,25 +19267,25 @@
     {
       "no": 530562,
       "kr": "홍란이 공식적인 자리에서 입는 예복.\r\n흐드러지게 피어난 수천 송이의 복숭아 꽃처럼 아름답지만,\r\n홍란은 불편하고 갑갑한 듯 하다.",
-      "en": "",
+      "en": "The formal attire Honglan dons for official events.\r\nWhile it is as gorgeous as a field of peach blossoms in full bloom,\r\nHonglan seems uncomfortable and constrained by it.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "紅蘭在正式場合穿著的禮服。\r\n雖然就像盛開的千朵桃花般美麗，\r\n但紅蘭似乎覺得很悶，看上去不太自在。",
       "zh_cn": ""
     },
     {
       "no": 530563,
-      "kr": "전장을 수호하는 냉정하고 강인한 수호신의 의상.\r\n수많은 적이 공격해 와도, 차분하고 침착하게 \r\n지켜야 할 장소를 지켜내리라.",
-      "en": "",
+      "kr": "전장을 수호하는 냉정하고 강인한 수호신의 의상.\r\n수많은 적이 공격해 와도, \r\n차분하고 침착하게 \r\n지켜야 할 장소를 지켜내리라.",
+      "en": "The outfit of a steadfast guardian who watches over the battlefield.\r\nEven in the face of countless enemies, she will stand firm,\r\nprotecting her post with calm determination.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "冷靜堅毅的戰場守護神服裝。\r\n儘管千軍萬馬攻來，也要沉著冷靜地\r\n捍衛應要守護的地方。",
       "zh_cn": ""
     },
     {
       "no": 530564,
-      "kr": "순이 이벤트 코스튬 설명",
-      "en": "",
+      "kr": "미늘을 이어 붙여 활동성과 방어력을 모두 챙긴 갑옷.\r\n모두를 지키기 위해 한 발자국 더 앞으로 나서는 순이의 용기가 담겨있다.",
+      "en": "A suit of armor forged with interwoven scales, balancing agility and defense.\r\nIt carries Soonie's bravery, stepping forward to shield those in need.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "將鱗片拼接，兼具活動性與防禦力的盔甲。\r\n蘊含順伊為了守護眾人，挺身而出的勇氣。",
       "zh_cn": ""
     },
     {
@@ -19795,9 +19955,9 @@
     {
       "no": 2110072,
       "kr": "유물의 기억: 청룡언월도(무쌍)",
-      "en": "",
+      "en": "Artifact Memory: Green Dragon Crescent Blade (Peerless)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "遺物的記憶：青龍偃月刀（無雙）",
       "zh_cn": ""
     },
     {
@@ -21788,7 +21948,7 @@
       "no": 2143103,
       "kr": "순정 메리 고 라운드",
       "en": "Pure Love Merry-Go-Round",
-      "ja": "純正メリーゴーラウンド",
+      "ja": "純情メリーゴーラウンド",
       "zh_tw": "純情旋轉木馬",
       "zh_cn": ""
     },
@@ -23441,6 +23601,14 @@
       "zh_cn": ""
     },
     {
+      "no": 2144821,
+      "kr": "홍란(무쌍)의 산속 쉼터",
+      "en": "Honglan (Peerless)'s Mountain Refuge",
+      "ja": "",
+      "zh_tw": "紅蘭（無雙）的山間休息處",
+      "zh_cn": ""
+    },
+    {
       "no": 2147001,
       "kr": "메피스토펠레스 석상 ",
       "en": "Mephistopheles Statue ",
@@ -24667,9 +24835,9 @@
     {
       "no": 2210072,
       "kr": "홍란(무쌍)의 유물, 청룡언월도(무쌍)의 기억입니다.\r\n유물을 획득하거나 승급에 사용됩니다.",
-      "en": "",
+      "en": "Artifact of Honglan (Peerless). The Memory of the Green Dragon Crescent Blade.\r\nUsed to obtain or ascend Artifacts.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "紅蘭（無雙）的遺物，青龍偃月刀（無雙）的記憶\r\n可獲得遺物或用來升階",
       "zh_cn": ""
     },
     {
@@ -28345,6 +28513,14 @@
       "zh_cn": ""
     },
     {
+      "no": 2244821,
+      "kr": "한때 홍란이 머물렀던 어느 산속의 쉼터.\r\n포근한 구름으로 가득해, 마치 번잡한 속세와 단절된 꿈처럼 느껴진다.\r\n중앙의 정자에선 홍란과 아기 토끼가 새근새근 낮잠을 자고 있다.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">특별한 아르바이트를 진행</color>할 수 있습니다.\r\n\r\n홍란(무쌍)을 오브제에 배치하면 <color=\"#2d9b00\">홍란(무쌍)의 체력이 10% 증가</color>합니다. \r\n(다른 오브제에 중복 배치 불가)",
+      "en": "A tranquil mountain refuge where Honglan once found rest.\r\n Surrounded by fluffy clouds, it feels like a dream untouched by the busy world.\r\n In the pavilion at the center, Honglan and a baby rabbit are peacefully napping.\r\n \r\n Place it in town to unlock a <color=\"#2d9b00\">special part-time job</color>.\r\n \r\n Deploying Honglan (Peerless) to this structure will <color=\"#2d9b00\">increase Honglan (Peerless)'s HP by 10%</color>.\r\n (Each Soul can occupy only one structure.)",
+      "ja": "",
+      "zh_tw": "紅蘭曾經停留過的某個山間休息處。\r\n滿是軟綿綿的雲朵，就好像與紅塵俗世隔絕的夢境一樣。\r\n紅蘭和小兔子正在中央的涼亭午睡。\r\n\r\n配置在領地可<color=\"#2d9b00\">進行特別的打工</color>。\r\n\r\n將紅蘭（無雙）配置於物件可<color=\"#2d9b00\">增加紅蘭（無雙）的體力10%</color>。\r\n（不可重複配置在其他物件）",
+      "zh_cn": ""
+    },
+    {
       "no": 2247001,
       "kr": "메피스토펠레스의 모습을 본따 만든 석상.",
       "en": "A stone statue made after Mephistopheles.",
@@ -29579,9 +29755,9 @@
     {
       "no": 21521601,
       "kr": "스티커: 소중한 홍란(무쌍)",
-      "en": "",
+      "en": "Sticker: Precious Honglan (Peerless)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "貼紙：珍貴的紅蘭（無雙）",
       "zh_cn": ""
     },
     {
@@ -30147,9 +30323,9 @@
     {
       "no": 22521601,
       "kr": "홍란(무쌍)의 인연 레벨 40 달성 시 획득 가능한 스티커.",
-      "en": "",
+      "en": "A sticker that can be obtained upon reaching Honglan (Peerless) Bond Level 40.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成紅蘭（無雙）好感等級40時可獲得的貼紙。",
       "zh_cn": ""
     },
     {

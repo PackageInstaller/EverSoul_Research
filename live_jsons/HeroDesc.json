@@ -496,7 +496,7 @@
       "introduction_sno": 802015,
       "cv_sno": 802016,
       "cv_jp_sno": 802017,
-      "union_sno": 809999,
+      "union_sno": 809023,
       "zodiac_type_sno": 10112
     },
     {
@@ -775,8 +775,28 @@
       "dislike_sno": 802154,
       "introduction_sno": 802155,
       "cv_sno": 802156,
-      "cv_jp_sno": 802137,
+      "cv_jp_sno": 802157,
       "union_sno": 809999,
+      "zodiac_type_sno": 10103
+    },
+    {
+      "hero_no": 2160,
+      "name_sno": 302160,
+      "nick_name_sno": 312160,
+      "ment_sno": 392160,
+      "gacha_ment_sno": 342160,
+      "height": 163,
+      "weight": 51,
+      "birthday": 225,
+      "constellation_sno": 800005,
+      "hobby_sno": 802161,
+      "speciality_sno": 802162,
+      "like_sno": 802163,
+      "dislike_sno": 802164,
+      "introduction_sno": 802165,
+      "cv_sno": 802166,
+      "cv_jp_sno": 802167,
+      "union_sno": 809023,
       "zodiac_type_sno": 10103
     },
     {
@@ -2026,6 +2046,66 @@
       "name_sno": 3032092
     },
     {
+      "hero_no": 32094,
+      "name_sno": 3032094
+    },
+    {
+      "hero_no": 32095,
+      "name_sno": 3032095
+    },
+    {
+      "hero_no": 32096,
+      "name_sno": 3032095
+    },
+    {
+      "hero_no": 32097,
+      "name_sno": 3032095
+    },
+    {
+      "hero_no": 32098,
+      "name_sno": 3032095
+    },
+    {
+      "hero_no": 32099,
+      "name_sno": 3032094
+    },
+    {
+      "hero_no": 32100,
+      "name_sno": 3032095
+    },
+    {
+      "hero_no": 32101,
+      "name_sno": 3032095
+    },
+    {
+      "hero_no": 32102,
+      "name_sno": 3032095
+    },
+    {
+      "hero_no": 32103,
+      "name_sno": 3032095
+    },
+    {
+      "hero_no": 32104,
+      "name_sno": 3032095
+    },
+    {
+      "hero_no": 32105,
+      "name_sno": 3032105
+    },
+    {
+      "hero_no": 32106,
+      "name_sno": 3032106
+    },
+    {
+      "hero_no": 32107,
+      "name_sno": 3032107
+    },
+    {
+      "hero_no": 32108,
+      "name_sno": 3032108
+    },
+    {
       "hero_no": 40100,
       "name_sno": 3040100
     },
@@ -2119,6 +2199,16 @@
       "hero_no": 66004,
       "name_sno": 309925,
       "nick_name_sno": 319925
+    },
+    {
+      "hero_no": 66005,
+      "name_sno": 309932,
+      "nick_name_sno": 319932
+    },
+    {
+      "hero_no": 66007,
+      "name_sno": 3050101,
+      "nick_name_sno": 3150101
     }
   ]
 }

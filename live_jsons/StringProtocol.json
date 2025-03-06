@@ -10578,6 +10578,24 @@
       "text_dev": "티어 보상 받는 기간이 아닙니다"
     },
     {
+      "no": 38209,
+      "kr": "union_group에 맞는 데이터가 없습니다.(38209)",
+      "en": "No matching data found for union_group (38209).",
+      "ja": "",
+      "zh_tw": "無符合union_group的數據。(38209)",
+      "zh_cn": "",
+      "text_dev": ""
+    },
+    {
+      "no": 38210,
+      "kr": "에덴 연합 본선전을 플레이 할 수 없습니다.(38210)",
+      "en": "Cannot play the main round of Eden Alliance (38210).",
+      "ja": "",
+      "zh_tw": "無法遊玩伊甸園聯合正賽。(38210)",
+      "zh_cn": "",
+      "text_dev": ""
+    },
+    {
       "no": 39000,
       "kr": "방주 코어 강화에 문제가 발생했습니다.(39000)",
       "en": "Ark Core Enhance error (39000).",
@@ -11224,6 +11242,127 @@
       "zh_cn": "",
       "text_dev": "[달성 패키지] 존재 하지 않은 behavior",
       "exception": 1,
+      "is_common": 1
+    },
+    {
+      "no": 99999,
+      "kr": "",
+      "en": "",
+      "ja": "",
+      "zh_tw": "系统繁忙，请稍候重试",
+      "zh_cn": "",
+      "text_dev": "",
+      "exception": 4,
+      "is_common": 1
+    },
+    {
+      "no": 101001,
+      "kr": "",
+      "en": "",
+      "ja": "",
+      "zh_tw": "请求过快，稍候重试",
+      "zh_cn": "",
+      "text_dev": "",
+      "exception": 4,
+      "is_common": 1
+    },
+    {
+      "no": 101002,
+      "kr": "",
+      "en": "",
+      "ja": "",
+      "zh_tw": "系统繁忙，请稍候重试",
+      "zh_cn": "",
+      "text_dev": "",
+      "exception": 4,
+      "is_common": 1
+    },
+    {
+      "no": 101099,
+      "kr": "",
+      "en": "",
+      "ja": "",
+      "zh_tw": "系统繁忙，请稍候重试",
+      "zh_cn": "",
+      "text_dev": "",
+      "exception": 4,
+      "is_common": 1
+    },
+    {
+      "no": 101101,
+      "kr": "",
+      "en": "",
+      "ja": "",
+      "zh_tw": "异常渠道",
+      "zh_cn": "",
+      "text_dev": "",
+      "exception": 4,
+      "is_common": 1
+    },
+    {
+      "no": 101102,
+      "kr": "",
+      "en": "",
+      "ja": "",
+      "zh_tw": "异常渠道",
+      "zh_cn": "",
+      "text_dev": "",
+      "exception": 4,
+      "is_common": 1
+    },
+    {
+      "no": 101103,
+      "kr": "",
+      "en": "",
+      "ja": "",
+      "zh_tw": "测试人数已达上限",
+      "zh_cn": "",
+      "text_dev": "",
+      "exception": 4,
+      "is_common": 1
+    },
+    {
+      "no": 101104,
+      "kr": "",
+      "en": "",
+      "ja": "",
+      "zh_tw": "帐号被封停",
+      "zh_cn": "",
+      "text_dev": "",
+      "exception": 4,
+      "is_common": 1
+    },
+    {
+      "no": 101105,
+      "kr": "",
+      "en": "",
+      "ja": "",
+      "zh_tw": "IOS帐号异常",
+      "zh_cn": "",
+      "text_dev": "",
+      "exception": 4,
+      "is_common": 1
+    },
+    {
+      "no": 101106,
+      "kr": "",
+      "en": "",
+      "ja": "",
+      "zh_tw": "Google & iOS端退款帐号限制登陆",
+      "zh_cn": "",
+      "text_dev": "",
+      "exception": 4,
+      "is_common": 1
+    },
+    {
+      "no": 101107,
+      "kr": "",
+      "en": "",
+      "ja": "",
+      "zh_tw": "未激活账号验证限制登录",
+      "zh_cn": "",
+      "text_dev": "",
+      "exception": 4,
       "is_common": 1
     }
   ]

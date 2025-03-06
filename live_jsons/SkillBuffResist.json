@@ -846,6 +846,160 @@
       "buff_effect": 1702,
       "buff_type": 2,
       "rate": 0.5
+    },
+    {
+      "no": 122,
+      "buff_value": 870013,
+      "buff_effect": 301,
+      "buff_type": 2,
+      "rate": 0.5
+    },
+    {
+      "no": 123,
+      "buff_value": 870013,
+      "buff_effect": 302,
+      "buff_type": 2,
+      "rate": 0.5
+    },
+    {
+      "no": 124,
+      "buff_value": 870013,
+      "buff_effect": 303,
+      "buff_type": 2,
+      "rate": 5.0
+    },
+    {
+      "no": 125,
+      "buff_value": 870013,
+      "buff_effect": 304,
+      "buff_type": 2,
+      "rate": 0.5
+    },
+    {
+      "no": 126,
+      "buff_value": 870013,
+      "buff_effect": 305,
+      "buff_type": 2,
+      "rate": 0.5
+    },
+    {
+      "no": 127,
+      "buff_value": 870013,
+      "buff_effect": 306,
+      "buff_type": 2,
+      "rate": 0.5
+    },
+    {
+      "no": 128,
+      "buff_value": 870013,
+      "buff_effect": 307,
+      "buff_type": 2,
+      "rate": 0.5
+    },
+    {
+      "no": 129,
+      "buff_value": 870013,
+      "buff_effect": 310,
+      "buff_type": 2,
+      "rate": 1.0
+    },
+    {
+      "no": 130,
+      "buff_value": 870013,
+      "buff_effect": 311,
+      "buff_type": 2,
+      "rate": 1.0
+    },
+    {
+      "no": 131,
+      "buff_value": 870013,
+      "buff_effect": 312,
+      "buff_type": 2,
+      "rate": 1.0
+    },
+    {
+      "no": 132,
+      "buff_value": 870013,
+      "buff_effect": 1702,
+      "buff_type": 2,
+      "rate": 0.3
+    },
+    {
+      "no": 133,
+      "buff_value": 880006,
+      "buff_effect": 301,
+      "buff_type": 2,
+      "rate": 0.5
+    },
+    {
+      "no": 134,
+      "buff_value": 880006,
+      "buff_effect": 302,
+      "buff_type": 2,
+      "rate": 0.5
+    },
+    {
+      "no": 135,
+      "buff_value": 880006,
+      "buff_effect": 303,
+      "buff_type": 2,
+      "rate": 0.5
+    },
+    {
+      "no": 136,
+      "buff_value": 880006,
+      "buff_effect": 304,
+      "buff_type": 2,
+      "rate": 0.5
+    },
+    {
+      "no": 137,
+      "buff_value": 880006,
+      "buff_effect": 305,
+      "buff_type": 2,
+      "rate": 0.5
+    },
+    {
+      "no": 138,
+      "buff_value": 880006,
+      "buff_effect": 306,
+      "buff_type": 2,
+      "rate": 9.0
+    },
+    {
+      "no": 139,
+      "buff_value": 880006,
+      "buff_effect": 307,
+      "buff_type": 2,
+      "rate": 0.5
+    },
+    {
+      "no": 140,
+      "buff_value": 880006,
+      "buff_effect": 310,
+      "buff_type": 2,
+      "rate": 1.0
+    },
+    {
+      "no": 141,
+      "buff_value": 880006,
+      "buff_effect": 311,
+      "buff_type": 2,
+      "rate": 1.0
+    },
+    {
+      "no": 142,
+      "buff_value": 880006,
+      "buff_effect": 312,
+      "buff_type": 2,
+      "rate": 1.0
+    },
+    {
+      "no": 143,
+      "buff_value": 880006,
+      "buff_effect": 1702,
+      "buff_type": 2,
+      "rate": 0.5
     }
   ]
 }

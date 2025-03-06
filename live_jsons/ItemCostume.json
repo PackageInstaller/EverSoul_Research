@@ -836,6 +836,28 @@
       "controller_path": "RoseCrimson"
     },
     {
+      "no": 2077,
+      "type_sno": 520102,
+      "name_sno": 520177,
+      "hero_no": 2160,
+      "prefab_path": "HonglanCombat",
+      "timeline_path": "HonglanCombat",
+      "icon_path": "HonglanCombat_Icon_Costume_00",
+      "portrait_path": "HonglanCombat",
+      "controller_path": "HonglanCombat"
+    },
+    {
+      "no": 2078,
+      "type_sno": 520102,
+      "name_sno": 520178,
+      "hero_no": 5040,
+      "prefab_path": "Hanul",
+      "timeline_path": "Hanul",
+      "icon_path": "Hanul_Icon_Costume_00",
+      "portrait_path": "Hanul",
+      "controller_path": "Hanul"
+    },
+    {
       "no": 2201,
       "type_sno": 710000,
       "name_sno": 520401,
@@ -2596,6 +2618,39 @@
       "controller_path": "Chloe"
     },
     {
+      "no": 2362,
+      "type_sno": 710011,
+      "name_sno": 520562,
+      "hero_no": 2160,
+      "prefab_path": "HonglanCombat_Costume01",
+      "timeline_path": "HonglanCombat_Costume01",
+      "icon_path": "HonglanCombat_Icon_Costume_01",
+      "portrait_path": "HonglanCombat_Costume01",
+      "controller_path": "HonglanCombat"
+    },
+    {
+      "no": 2363,
+      "type_sno": 710012,
+      "name_sno": 520563,
+      "hero_no": 2160,
+      "prefab_path": "HonglanCombat_Costume02",
+      "timeline_path": "HonglanCombat_Costume02",
+      "icon_path": "HonglanCombat_Icon_Costume_02",
+      "portrait_path": "HonglanCombat_Costume02",
+      "controller_path": "HonglanCombat"
+    },
+    {
+      "no": 2364,
+      "type_sno": 710009,
+      "name_sno": 520564,
+      "hero_no": 2020,
+      "prefab_path": "Sunny_Costume04",
+      "timeline_path": "Sunny_Costume04",
+      "icon_path": "Sunny_Icon_Costume_04",
+      "portrait_path": "Sunny_Costume04",
+      "controller_path": "Sunny"
+    },
+    {
       "no": 2700,
       "prefab_path": "Apprentice",
       "timeline_path": "Apprentice",
@@ -3465,6 +3520,46 @@
       "timeline_path": "RoseCrimson_Costume02",
       "icon_path": "",
       "portrait_path": "RoseCrimson_SideEvent",
+      "controller_path": ""
+    },
+    {
+      "no": 2809,
+      "prefab_path": "InvisibleHonglan",
+      "timeline_path": "InvisibleHonglan",
+      "icon_path": "",
+      "portrait_path": "HonglanSnow1",
+      "controller_path": ""
+    },
+    {
+      "no": 2810,
+      "prefab_path": "InvisibleHonglan",
+      "timeline_path": "InvisibleHonglan",
+      "icon_path": "",
+      "portrait_path": "HonglanSnow2",
+      "controller_path": ""
+    },
+    {
+      "no": 2811,
+      "prefab_path": "InvisibleHonglan",
+      "timeline_path": "InvisibleHonglan",
+      "icon_path": "",
+      "portrait_path": "HonglanSnow3",
+      "controller_path": ""
+    },
+    {
+      "no": 2812,
+      "prefab_path": "InvisibleHonglan2",
+      "timeline_path": "InvisibleHonglan2",
+      "icon_path": "",
+      "portrait_path": "HonglanSnowReset",
+      "controller_path": ""
+    },
+    {
+      "no": 2813,
+      "prefab_path": "InvisibleHonglan",
+      "timeline_path": "InvisibleHonglan",
+      "icon_path": "",
+      "portrait_path": "HonglanEventCore",
       "controller_path": ""
     },
     {

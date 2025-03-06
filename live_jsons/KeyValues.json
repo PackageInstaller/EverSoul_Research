@@ -721,6 +721,26 @@
       "type": 1
     },
     {
+      "key_name": "EDEN_UNION_OPEN_DATE",
+      "values_data": "8",
+      "type": 1
+    },
+    {
+      "key_name": "EDEN_UNION_OPEN_NEED_CLEAR_LEVEL",
+      "values_data": "600",
+      "type": 1
+    },
+    {
+      "key_name": "EDEN_UNION_RANK_DISPLAY_MAX",
+      "values_data": "100",
+      "type": 1
+    },
+    {
+      "key_name": "EDEN_UNION_RANK_REWARD_WAITING_TIME",
+      "values_data": "24",
+      "type": 1
+    },
+    {
       "key_name": "EMOTICON_REGEON_LIST",
       "values_data": "[570005, 570010, 570011, 570012]",
       "type": 2

@@ -8,6 +8,7 @@ table Deserialization {
     battle_view_type: int32;
     stage_limit_value: int32;
     is_additional_enter: int32;
+    additional_enter_price: string;
     stage_limit_sno: int32;
     stage_name_sno: int32;
     stage_desc_sno: int32;
@@ -31,6 +32,7 @@ table Deserialization {
     level5: int32;
     map: string;
     formation_type: int32;
+    rental_type: int32;
     global_volumn: int32;
     max_hp: int32;
     battle_time: int32;

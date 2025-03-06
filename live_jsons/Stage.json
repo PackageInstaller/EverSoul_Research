@@ -84660,6 +84660,18 @@
       "battle_time": 90
     },
     {
+      "no": 210105,
+      "stage_type": 110,
+      "name_sno": 419096,
+      "map": "Map_DungeonBattle_TempleRuins_02",
+      "global_volume": 1,
+      "monster_normal": "0",
+      "monster_elite": "0",
+      "monster_boss": "0",
+      "is_raid_battle": 1,
+      "battle_time": 90
+    },
+    {
       "no": 230617,
       "stage_type": 13,
       "name_sno": 419082,
@@ -84845,6 +84857,28 @@
       "name_sno": 419094,
       "map": "Map_DungeonBattle_BurningElnath_01",
       "global_volume": 3,
+      "monster_normal": "0",
+      "monster_elite": "0",
+      "monster_boss": "0",
+      "battle_time": 120
+    },
+    {
+      "no": 250315,
+      "stage_type": 13,
+      "name_sno": 419097,
+      "map": "Map_Battle_GaonStreet_01",
+      "global_volume": 3,
+      "monster_normal": "0",
+      "monster_elite": "0",
+      "monster_boss": "0",
+      "battle_time": 120
+    },
+    {
+      "no": 250322,
+      "stage_type": 13,
+      "name_sno": 419098,
+      "map": "Map_DungeonBattle_TempleRuins_02",
+      "global_volume": 1,
       "monster_normal": "0",
       "monster_elite": "0",
       "monster_boss": "0",
