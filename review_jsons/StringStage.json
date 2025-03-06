@@ -1147,9 +1147,9 @@
     {
       "no": 101029,
       "kr": "디버프 역할 정령 {1}명 이상 배치하기",
-      "en": "",
+      "en": "Deploy {1} or more debuff Souls",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "配置超過{1}個減益定位精靈",
       "zh_cn": ""
     },
     {
@@ -2019,17 +2019,33 @@
     {
       "no": 419095,
       "kr": "심상세계의 로제",
-      "en": "Vs. Rose(Imaginary World)",
+      "en": "Rose in Her Imaginary World",
       "ja": "",
-      "zh_tw": "VS 心理世界的蘿絲",
+      "zh_tw": "心理世界的蘿絲",
       "zh_cn": ""
     },
     {
       "no": 419096,
-      "kr": "오염된 노심",
-      "en": "",
+      "kr": "노심",
+      "en": "Reactor Core",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "爐心",
+      "zh_cn": ""
+    },
+    {
+      "no": 419097,
+      "kr": "토용군 습격 저지",
+      "en": "Repelling the Clay Creatures' attack",
+      "ja": "",
+      "zh_tw": "阻止土俑軍襲擊",
+      "zh_cn": ""
+    },
+    {
+      "no": 419098,
+      "kr": "노심굴 전투",
+      "en": "Battle at the Reactor Core Cave",
+      "ja": "",
+      "zh_tw": "爐心窟戰鬥",
       "zh_cn": ""
     },
     {

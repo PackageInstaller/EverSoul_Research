@@ -7379,17 +7379,17 @@
     {
       "no": 923,
       "kr": "에버스톤 {0}개를 사용하여 {2} {1}개를 구매하시겠습니까?",
-      "en": "",
+      "en": "Spend {0} Everstones to purchase {2} x{1}?",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "要使用{0}個永恆石，購買{1}個{2}嗎？",
       "zh_cn": ""
     },
     {
       "no": 924,
       "kr": "다운로드 <color=#787A98><size=18>({0:F2} MB)</size></color>",
-      "en": "",
+      "en": "Download <color=#787A98><size=18>({0:F2} MB)</size></color>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "下載<color=#787A98><size=18>（{0:F2} MB）</size></color>",
       "zh_cn": ""
     },
     {
@@ -7443,7 +7443,7 @@
     {
       "no": 931,
       "kr": "From.",
-      "en": "From.",
+      "en": "from",
       "ja": "From.",
       "zh_tw": "From.",
       "zh_cn": ""
@@ -7803,49 +7803,49 @@
     {
       "no": 9112,
       "kr": "완주 보상",
-      "en": "",
+      "en": "Completion Reward",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "完成獎勵",
       "zh_cn": ""
     },
     {
       "no": 9113,
       "kr": "완주 회차",
-      "en": "",
+      "en": "Completed Rounds",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "完成回合",
       "zh_cn": ""
     },
     {
       "no": 9114,
       "kr": "지급 포인트",
-      "en": "",
+      "en": "Awarded Points",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "發放點數",
       "zh_cn": ""
     },
     {
       "no": 9115,
       "kr": "획득한 누적 포인트에 따라 지급되는 보상입니다.",
-      "en": "",
+      "en": "Receive rewards based on your total cumulative points.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "根據所獲累積點數發放的獎勵。",
       "zh_cn": ""
     },
     {
       "no": 9116,
       "kr": "완주 회차에 따라 지급되는 포인트 보상입니다.",
-      "en": "",
+      "en": "Receive points based on the number of completed rounds.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "根據完成回合發放的點數獎勵。",
       "zh_cn": ""
     },
     {
       "no": 9117,
       "kr": "{0}회차",
-      "en": "",
+      "en": "Round {0}",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "第{0}次",
       "zh_cn": ""
     },
     {
@@ -12325,7 +12325,7 @@
       "kr": "인피니티 챌린지 {0}점 달성",
       "en": "Reach {0} points in the Infinity Challenge",
       "ja": "インフィニティチャレンジのスコアを{0}点達成",
-      "zh_tw": "達成無限挑戰{0}分",
+      "zh_tw": "無限挑戰達成{0}分",
       "zh_cn": ""
     },
     {
@@ -12419,7 +12419,7 @@
     {
       "no": 11400,
       "kr": "홍란(무쌍) 획득",
-      "en": "Acquire Honglan (Peerless)",
+      "en": "Obtain Honglan (Peerless)",
       "ja": "",
       "zh_tw": "獲得紅蘭（無雙）",
       "zh_cn": ""
@@ -18115,33 +18115,33 @@
     {
       "no": 12669,
       "kr": "제가 도울게요!",
-      "en": "",
+      "en": "I'll help you!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "我來幫忙！",
       "zh_cn": ""
     },
     {
       "no": 12670,
       "kr": "나쁜 마물은 혼내줄게요~",
-      "en": "",
+      "en": "I'll punish the bad monsters!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "我幫你教訓壞蛋魔物～",
       "zh_cn": ""
     },
     {
       "no": 12671,
       "kr": "도움이 필요하다면야.",
-      "en": "",
+      "en": "If you need my help, sure.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "如果需要幫助的話。",
       "zh_cn": ""
     },
     {
       "no": 12672,
       "kr": "재밌어 보이네?",
-      "en": "",
+      "en": "This looks fun!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "看起來很好玩欸？",
       "zh_cn": ""
     },
     {
@@ -18691,33 +18691,33 @@
     {
       "no": 12769,
       "kr": "꺄앗!?",
-      "en": "",
+      "en": "Aaaah?!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "呀啊！？",
       "zh_cn": ""
     },
     {
       "no": 12770,
       "kr": "후응… 낮잠 자러 갈래요~",
-      "en": "",
+      "en": "Yaaawn... I'm taking a nap.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "呼嗯…我要去睡午覺～",
       "zh_cn": ""
     },
     {
       "no": 12771,
       "kr": "이런, 갈 때가 됐군.",
-      "en": "",
+      "en": "Oh, it's time for me to go.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "哎呀，差不多要走了。",
       "zh_cn": ""
     },
     {
       "no": 12772,
       "kr": "앗, 벌써 시간이!",
-      "en": "",
+      "en": "Ah, look at the time!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "啊，已經這麼晚了！",
       "zh_cn": ""
     },
     {
@@ -19163,9 +19163,9 @@
     {
       "no": 13021,
       "kr": "누적 점수",
-      "en": "Accum. Score",
+      "en": "Cumulative Points",
       "ja": "累計ポイント",
-      "zh_tw": "累積點數",
+      "zh_tw": "累積分數",
       "zh_cn": ""
     },
     {
@@ -20955,17 +20955,17 @@
     {
       "no": 19220,
       "kr": "Day{0}",
-      "en": "",
+      "en": "Day {0}",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "Day{0}",
       "zh_cn": ""
     },
     {
       "no": 19221,
       "kr": "일일 참여 보상 획득!",
-      "en": "",
+      "en": "Daily Participation Rewards Won!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "獲得每日參加獎勵！",
       "zh_cn": ""
     },
     {
@@ -22027,9 +22027,9 @@
     {
       "no": 21132,
       "kr": "누적 사용 횟수 : {0}",
-      "en": "",
+      "en": "Cumulative Uses: {0}",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "累積使用次數：{0}",
       "zh_cn": ""
     },
     {
@@ -22043,25 +22043,25 @@
     {
       "no": 21134,
       "kr": "무쌍의 혼 패스",
-      "en": "",
+      "en": "Peerless Soul Pass",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "無雙之魂通行證",
       "zh_cn": ""
     },
     {
       "no": 21135,
       "kr": "노심 방위전",
-      "en": "",
+      "en": "Reactor Core Defense",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "爐心防衛戰",
       "zh_cn": ""
     },
     {
       "no": 21136,
       "kr": "{0}회 달성 후 추가 보상",
-      "en": "",
+      "en": "Bonus reward after {0} spins",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成{0}次後額外獎勵",
       "zh_cn": ""
     },
     {
@@ -23523,17 +23523,17 @@
     {
       "no": 30183,
       "kr": "선봉",
-      "en": "",
+      "en": "Vanguard",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "先鋒",
       "zh_cn": ""
     },
     {
       "no": 30184,
       "kr": "혼돈을 얼리는 빙하",
-      "en": "",
+      "en": "Chaos-Freezing Glacier",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "凍結混沌的冰川",
       "zh_cn": ""
     },
     {
@@ -25275,17 +25275,17 @@
     {
       "no": 92081,
       "kr": "[픽업 소환] 지호(미르)",
-      "en": "",
+      "en": "[Pick-Up Summon] Jiho (Mir)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "［Pick Up召喚］智河（米爾）",
       "zh_cn": ""
     },
     {
       "no": 92082,
       "kr": "[픽업 소환] 르네(백은)",
-      "en": "",
+      "en": "[Pick-Up Summon] Renee (Argent)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "［Pick Up召喚］勒內（白銀）",
       "zh_cn": ""
     },
     {
@@ -25355,9 +25355,9 @@
     {
       "no": 110617,
       "kr": "샤리트는 야수형입니다.\r\n<COLOR=#FFFFFF>공격력이 감소하면, 위축되어 더 큰 피해를 받으며 감전에 취약합니다.</COLOR>\r\n\r\n샤리트를 위축시키고, 보호막 스킬을 이용하여 서브 스킬 '흡수'로부터 정령을 보호하세요.",
-      "en": "Charite is a Beast.\r\r\nCharite's confidence shrivels when her ATK decreases, causing her to receive greater damage.\r\r\n\r\r\nChip away Charite's confidence and use barrier skills to protect Souls from her sub skill, \"Absorption.\"",
+      "en": "Charite is Beast type.\r\n<COLOR=#FFFFFF>When Charite's ATK is decreased, she becomes intimidated, taking greater damage. She is also vulnerable to Shock.</COLOR>\r\n\r\nKeep intimidating Charite and use shield-granting skills to protect Souls from her sub skill, \"Absorption.\"",
       "ja": "シャリトは野獣型です。\r\n攻撃力が減少すると畏縮してさらに大きなダメージを受けます。\r\n\r\nシャリトを畏縮させて、バリアスキルを活用しサブスキル「吸収」から精霊を守りましょう。",
-      "zh_tw": "夏里特為野獸型。\r\r\n若夏里特的攻擊力減少，將畏縮並受到更大的傷害。\r\r\n\r\r\n使夏里特畏縮，並使用防護罩技能，保護精靈免受夏里特輔助技能「吸收」的傷害吧。",
+      "zh_tw": "夏里特為野獸型。\r\n<COLOR=#FFFFFF>若夏里特的攻擊力減少，將畏縮並受到更大的傷害，並容易陷入觸電。</COLOR>\r\n\r\n使夏里特畏縮，並使用防護罩技能，保護精靈免受夏里特輔助技能「吸收」的傷害。",
       "zh_cn": ""
     },
     {
@@ -25515,9 +25515,9 @@
     {
       "no": 110637,
       "kr": "신에게 버림받은 비탄의 성녀는 다른 신과 계약해 자신의 길을 개척하기로 했다. \r\n\r\n레벨에 비례하여 더욱 강해지는 악신의 가호를 뚫고, 성녀의 손을 붙잡아 타락으로부터 구원하자.\r\n\r\n<COLOR=#FFFFFF>성녀는 자신의 상처를 보면 크게 동요하므로 출혈을 이용한 공격이 유효하다</COLOR>\r\n\r\n그대는 악신에게 홀린 존재조차도 구원할 수 있는 힘을 증명할 수 있는가?",
-      "en": "The Saint of Sorrow, abandoned by her god, signs a contract with another god and forges her own path.\r\n \r\n Break through the blessing of the evil god that gets stronger by the level and take the saint's hand to save her from corruption.\r\n \r\n <COLOR=#FFFFFF>The saint becomes greatly agitated when she sees her own wounds, making Bleeding attacks highly effective.</COLOR>\r\n \r\n Prove your strength by saving a Soul who has been lured by the evil god.",
+      "en": "The Saint of Sorrow, abandoned by her god, signs a contract with another god and forges her own path.\r\n\r\nBreak through the blessing of the evil god that gets stronger by the level and take the saint's hand to save her from corruption.\r\n\r\n<COLOR=#FFFFFF>The saint becomes greatly agitated when she sees her own wounds, making Bleeding attacks highly effective.</COLOR>\r\n\r\nProve your strength by saving a Soul who has been lured by an evil god.",
       "ja": "神に捨てられた悲嘆の聖女は、他の神と契約し自分の道を切り開くことにした。 Lvに比例して強くなる悪神の加護を振り払い、聖女の手を取って堕落から救い出そう。 あなたは悪神に憑かれた存在を救い、その力を証明できるだろうか？",
-      "zh_tw": "被神拋棄的悲嘆聖女決定與其他神簽約，開拓自己的道路。\r\n\r\n突破等級越高會越強大的惡神庇佑，抓住聖女的手，將她從墮落中救援出來。\r\n\r\n<COLOR=#FFFFFF>聖女看到自己的傷口會產生劇烈動搖，所以利用出血的攻擊很有效。</COLOR>\r\n\r\n你能證明你的力量連被惡神迷惑的對象都能救援嗎？",
+      "zh_tw": "被神拋棄的悲嘆聖女決定與其他神簽約，開拓自己的道路。\r\n\r\n突破等級越高會越強大的惡神庇佑，抓住聖女的手，將她從墮落中救援出來。\r\n\r\n<COLOR=#FFFFFF>聖女看到自己的傷口會產生劇烈動搖，所以利用出血的攻擊效果顯著。</COLOR>\r\n\r\n你能證明你的力量連被惡神迷惑的對象都能救援嗎？",
       "zh_cn": ""
     },
     {
@@ -25635,9 +25635,9 @@
     {
       "no": 110652,
       "kr": "피에 물든 검귀는 혈투를 거듭할수록 강해지며, 레벨이 높아질수록 다양한 공격을 구사하여 정령들을 압박할 것이다. \r\n\r\n흩뿌려진 핏방울이 더욱 진해질수록 그녀의 검은 더 많은 피를 갈망하게 될 것이다. 정령들의 체력이 일정치 이하로 떨어지지 않도록 치료에 특화된 정령들을 앞세워 그녀의 폭주를 저지하자.\r\n\r\n<COLOR=#FFFFFF>악은 악으로, 검귀의 저주보다 더욱 강력한 저주를 활용한다면 검귀의 저주를 억누를 수 있을 것이다</COLOR>\r\n\r\n그대는 피를 피로 씻는 과오를 반복하는 검귀의 저주로부터 그녀를 구원할 수 있을 것인가?\r\n아니면, 그녀의 저주를 이어가는 또 다른 희생자가 되고 말 것인가…",
-      "en": "The Blood-Soaked Sword Demon grows stronger with each battle, unleashing increasingly diverse attacks to overwhelm the Souls at higher levels.\r\n\r\nHer thirst for blood deepens with every drop spilled. Form a team with healing Souls to keep the Souls' HP from falling below a certain level and stop the Blood-Soaked Sword Demon's rampage.\r\n\r\nWill you be able to save her from the Sword Demon's curse of endless bloodshed?\r\nOr will you become another victim in the perpetuation of the curse?",
+      "en": "The Blood-Soaked Sword Demon grows stronger with each battle, unleashing increasingly diverse attacks to overwhelm the Souls at higher levels.\r\n\r\nHer thirst for blood deepens with every drop spilled. Form a team with healing Souls to keep the Souls' HP from falling below a certain level and stop the Blood-Soaked Sword Demon's rampage.\r\n\r\n<COLOR=#FFFFFF>Fight fire with fire—wield a curse much stronger than the Sword Demon's to subdue it.</COLOR>\r\n\r\nWill you be able to save her from the Sword Demon's curse of endless bloodshed?\r\nOr will you become another victim in the perpetuation of the curse?",
       "ja": "血に染まった剣鬼が戦闘を重ねるたびに強くなり、Lvがあがるほど様々な攻撃で精霊たちを脅かす。\r\n\r\nまき散らされた血が濃くなるほど、彼女の剣はさらに多くの血を欲しがる。\r\n精霊たちの体力が一定以下にならないよう、治療に特化した精霊を前に出して彼女の暴走を阻止しよう。\r\n\r\nあなたは血で血を洗う過ちを繰り返す剣鬼の呪いから彼女を救えるだろうか？\r\nもしくは、彼女の呪いを受け継ぐもう一人の犠牲者になるのか…",
-      "zh_tw": "血染劍鬼越是浴血奮戰就會越強，等級越高越容易發動各種攻擊，迫害精靈們。\r\n\r\n灑落的血水越濃，她的劍就越渴望更多的鮮血。為了不讓精靈們的體力降到一定值以下，使用治療專長的精靈阻止她的暴走吧。\r\n\r\n你能將她從重蹈血洗過錯的劍鬼詛咒中拯救出來嗎？\r\n或是，最終會成為延續她詛咒的另一個犧牲者…",
+      "zh_tw": "血染劍鬼越是浴血奮戰就會越強，等級越高越容易發動各種攻擊，迫害精靈們。\r\n\r\n灑落的血水越濃，她的劍就越渴望更多的鮮血。為了不讓精靈們的體力降到一定值以下，使用治療專長的精靈阻止她的暴走吧。\r\n\r\n<COLOR=#FFFFFF>以惡制惡，運用比劍鬼還要強烈的詛咒，就能抑制住劍鬼的詛咒</COLOR>\r\n\r\n你能將她從重蹈血洗過錯的劍鬼詛咒中拯救出來嗎？\r\n或是，最終會成為延續她詛咒的另一個犧牲者…",
       "zh_cn": ""
     },
     {
@@ -25778,18 +25778,18 @@
     },
     {
       "no": 110670,
-      "kr": "오염된 노심에서 끝없이 토용군이 나오는 현상이 확인되었다!\r\n홍란(무쌍)과 힘을 합쳐 몰려오는 토용군을 물리치고 가온의 평화를 되찾자!",
-      "en": "",
+      "kr": "마물의 모습을 본뜬 흙인형, '토용군'. 가온을 지키는 토용군을 만들어내야 할 노심이 어째서인지 가온 마을을 공격하는 토용군을 만들어내고 있다.\r\n\r\n홍란(무쌍)을 지원하여 마을을 공격하러 몰려온 토용군을 물리치고 가온의 평화를 되찾자!",
+      "en": "Clay Creatures are fashioned after monsters. The Reactor Core that should be producing Clay Creatures to defend Gaon is, for some reason, creating Clay Creatures that attack its towns.\r\n\r\nAssist Honglan (Peerless) and defeat the horde of Clay Creatures to restore peace to Gaon!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "仿造魔物外型的泥人「土俑軍」。爐心本應製作守護加溫的土俑軍，但不知為何在製作攻擊加溫村莊的土俑軍。\r\n\r\n支援紅蘭（無雙），擊退一擁而上要攻擊村莊的土俑軍，找回加溫和平！",
       "zh_cn": ""
     },
     {
       "no": 110671,
       "kr": "홍란(무쌍)이 지속적으로 토용군을 물리치지만, 빙결포의 도움이 있다면 더 많은 토용군을 한 번에 무찌를 수 있다!\r\n가장 많은 적이 몰려올 때 빙결포를 발사하는 게 핵심 포인트!\r\n한 번의 포격으로 많은 적을 물리칠 경우 빙결포의 장전 속도가 더욱 빨라진다!\r\n\r\n빙결포(상단): 눈결정 1개가 그려진 범위 내에 있는 모든 적을 궤멸시키는 혹한의 광선을 발사한다. (쿨타임: 20초)\r\n\r\n빙결포(중단): 눈결정 2개가 그려진 범위 내에 있는 모든 적을 궤멸시키는 혹한의 광선을 발사한다. (쿨타임: 20초)\r\n\r\n빙결포(하단): 눈결정 3개가 그려진 범위 내에 있는 모든 적을 궤멸시키는 혹한의 광선을 발사한다. (쿨타임: 20초)\r\n\r\n긴급 장전: 모든 빙결포를 즉시 사용 가능 상태로 변경한다. (1회에 한해 전투 시작 20초 이후 사용 가능)\r\n\r\n적 처치 시 10,000점 획득 가능",
-      "en": "",
+      "en": "Honglan (Peerless) continues to fend off the army of Clay Creatures, but with the Frost Cannons' help, even more can be wiped out at once!\r\nTime it right and fire the Frost Cannons when the enemy horde is at its thickest!\r\nTaking down multiple enemies with a single blast boosts the Frost Cannon's reload speed!\r\n\r\nFrost Cannon (Top): Unleashes a beam of intense cold, eradicating all enemies within the area marked by 1 Snowflake (Cooldown: 20 sec).\r\n\r\nFrost Cannon (Middle): Unleashes a beam of intense cold, eradicating all enemies within the area marked by 2 Snowflakes (Cooldown: 20 sec).\r\n\r\nFrost Cannon (Bottom): Unleashes a beam of intense cold, eradicating all enemies within the area marked by 3 Snowflakes (Cooldown: 20 sec).\r\n\r\nEmergency Reload: Instantly readies all Frost Cannons for use (can be used once per battle, 20 seconds after the battle begins)\r\n\r\nDefeating the enemy awards 10,000 points.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "紅蘭（無雙）持續擊退土俑軍，但有凍結砲就能一舉殲滅更多土俑軍！\r\n趁最多敵人蜂擁而上的時候，發射凍結砲正是獲勝關鍵！\r\n若一次砲擊擊退許多敵人，將加快凍結砲的裝填速度！\r\n\r\n凍結砲（上段）：發射嚴寒光線，擊垮1個冰晶畫出範圍內的所有敵人。（冷卻時間：20秒）\r\n\r\n凍結砲（中段）：發射嚴寒光線，擊垮2個冰晶畫出範圍內的所有敵人。（冷卻時間：20秒）\r\n\r\n凍結砲（下段）：發射嚴寒光線，擊垮3個冰晶畫出範圍內的所有敵人。（冷卻時間：20秒）\r\n\r\n緊急裝填：所有凍結砲變為可立即使用的狀態。（僅限戰鬥開始20秒後使用1次）\r\n\r\n擊殺敵人時可獲得10,000分",
       "zh_cn": ""
     },
     {
@@ -37955,17 +37955,17 @@
     {
       "no": 550034,
       "kr": "모두 휴식",
-      "en": "",
+      "en": "Rest All",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "全部休息",
       "zh_cn": ""
     },
     {
       "no": 550035,
       "kr": "아직 피로도가 남아있는 정령들이 있습니다.\r\n해당 정령들도 모두 휴식시키겠습니까?",
-      "en": "",
+      "en": "Some Souls still have Energy left.\r\nDo you want them to rest as well?",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "有些精靈還有剩餘精力，\r\n確定要讓該精靈一併休息嗎？",
       "zh_cn": ""
     },
     {
@@ -40667,9 +40667,9 @@
     {
       "no": 552512,
       "kr": "홍란(무쌍) 배치 시 <color=\"#2d9b00\">홍란(무쌍)의 체력 {0}%</color> 증가",
-      "en": "",
+      "en": "<color=\"#2d9b00\">Honglan (Peerless)'s HP +{0}%</color> when Honglan (Peerless) is placed",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "配置紅蘭（無雙）時，<color=\"#2d9b00\">紅蘭（無雙）的體力增加{0}%</color>",
       "zh_cn": ""
     },
     {
@@ -51571,65 +51571,65 @@
     {
       "no": 615679,
       "kr": "사방신",
-      "en": "",
+      "en": "Four Divine Guardians",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "四方守護神",
       "zh_cn": ""
     },
     {
       "no": 615680,
       "kr": "무기",
-      "en": "",
+      "en": "Weapons",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "武器",
       "zh_cn": ""
     },
     {
       "no": 615681,
       "kr": "토끼들",
-      "en": "",
+      "en": "Rabbits",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "兔子們",
       "zh_cn": ""
     },
     {
       "no": 615682,
       "kr": "가온",
-      "en": "",
+      "en": "Gaon",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "加溫",
       "zh_cn": ""
     },
     {
       "no": 615683,
       "kr": "구름",
-      "en": "",
+      "en": "Clouds",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "雲朵",
       "zh_cn": ""
     },
     {
       "no": 615684,
       "kr": "최근의 고민",
-      "en": "",
+      "en": "Recent Worries",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "最近的煩惱",
       "zh_cn": ""
     },
     {
       "no": 615685,
       "kr": "갖고 싶은 것",
-      "en": "",
+      "en": "Something she wants to have",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "想擁有的東西",
       "zh_cn": ""
     },
     {
       "no": 615686,
       "kr": "온천",
-      "en": "",
+      "en": "Hot Springs",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "溫泉",
       "zh_cn": ""
     },
     {
@@ -53677,7 +53677,7 @@
       "kr": "모든 '페트라'의 체력 10% 증가, 가속 5% 증가",
       "en": "HP +10% and Speed +5% for all Petra Souls",
       "ja": "すべての「ペトラ」の体力10%増加、加速5%増加",
-      "zh_tw": "所有「佩特拉」的體力增加10%、加速增加5%\t",
+      "zh_tw": "所有「佩特拉」的體力增加10%、加速增加5\t",
       "zh_cn": ""
     },
     {
@@ -57733,7 +57733,7 @@
       "kr": "외전 스토리에서는 별도의 조건 없이 \r\n종료된 외전 이벤트의 스토리를 감상할 수 있습니다. \r\n단, 외전 스토리 열람 보상은 획득할 수 없습니다.",
       "en": "You can watch past Spin-Off Stories again,\r\nwithout meeting any specific requirements.\r\nHowever, you cannot obtain rewards again.",
       "ja": "",
-      "zh_tw": "外傳故事可查看\r\n已結束的外傳活動故事，\r\n但無法獲得外傳故事的獎勵。",
+      "zh_tw": "外傳故事可查看\r\n已結束的外傳活動故事，\r\n但無法獲得外傳故事的觀看獎勵。",
       "zh_cn": ""
     },
     {
@@ -63901,7 +63901,7 @@
       "kr": "이벤트 기간 동안 「기록되지 않은 미래」 이벤트가 진행됩니다.\r\n로제(홍염)의 이야기와 함께 다양한 컨텐츠를 즐겨 보세요.\r\n컨텐츠마다 지급되는 보상과 함께 룰렛 티켓을 획득할 수 있어요.\r\n룰렛 티켓은 「이벤트 룰렛」에서 사용할 수 있으며, 다양한 보상을 획득할 수 있습니다.",
       "en": "\"The Unwritten Future\" event will take place during the event period. \r\nEnjoy Rose (Prominence)'s story and various activities with new content.\r\nEach activity awards Spin Tickets along with rewards.\r\nSpin Tickets can be used on the \"Event Wheel\" to win various prizes.",
       "ja": "",
-      "zh_tw": "活動期間將進行「未記錄的未來」。\r\n享受蘿絲（紅焰）的故事與豐富的遊戲內容吧。\r\n各遊戲內容將發放獎勵，還可獲得轉盤票券。\r\n轉盤票券可用於「活動轉盤」，獲得各種獎勵。",
+      "zh_tw": "活動期間將開放「未記錄的未來」。\r\n觀看蘿絲（紅焰）的故事，享受豐富的遊戲內容吧。\r\n可透過各遊戲內容獲得獎勵和轉盤票券。\r\n可於「活動轉盤」使用轉盤票券，獲得豐富獎勵。",
       "zh_cn": ""
     },
     {

@@ -12092,8 +12092,8 @@
       "no": 5176,
       "name": "Fx_HonglanCombat_Active_Hit_00",
       "mixer_group": 9,
-      "kor": "%S_FX%SYSTEM/BattleSkill/HonglanCombat/Fx_HonglanCombat_Active_Hit_00wav",
-      "jpn": "%S_FX%SYSTEM/BattleSkill/HonglanCombat/Fx_HonglanCombat_Active_Hit_00wav",
+      "kor": "%S_FX%SYSTEM/BattleSkill/HonglanCombat/Fx_HonglanCombat_Active_Hit_00.wav",
+      "jpn": "%S_FX%SYSTEM/BattleSkill/HonglanCombat/Fx_HonglanCombat_Active_Hit_00.wav",
       "volume": 0.8
     },
     {
@@ -60550,8 +60550,8 @@
       "name": "Otoha_325070021",
       "sound_type": 1,
       "mixer_group": 11,
-      "kor": "%S_CH%Otoha/Voice_KR/Otoha_325070021.wav",
-      "jpn": "%S_CH%Otoha/Voice_KR/Otoha_325070021.wav",
+      "kor": "%S_CH%Otoha/Voice_KR/V_Otoha_325070021_KR.wav",
+      "jpn": "%S_CH%Otoha/Voice_KR/V_Otoha_325070021_KR.wav",
       "volume": 0.8
     },
     {
@@ -60559,8 +60559,8 @@
       "name": "Otoha_325070023",
       "sound_type": 1,
       "mixer_group": 11,
-      "kor": "%S_CH%Otoha/Voice_KR/Otoha_325070023.wav",
-      "jpn": "%S_CH%Otoha/Voice_KR/Otoha_325070023.wav",
+      "kor": "%S_CH%Otoha/Voice_KR/V_Otoha_325070023_KR.wav",
+      "jpn": "%S_CH%Otoha/Voice_KR/V_Otoha_325070023_KR.wav",
       "volume": 0.8
     },
     {
@@ -60568,8 +60568,8 @@
       "name": "Otoha_325070024",
       "sound_type": 1,
       "mixer_group": 11,
-      "kor": "%S_CH%Otoha/Voice_KR/Otoha_325070024.wav",
-      "jpn": "%S_CH%Otoha/Voice_KR/Otoha_325070024.wav",
+      "kor": "%S_CH%Otoha/Voice_KR/V_Otoha_325070024_KR.wav",
+      "jpn": "%S_CH%Otoha/Voice_KR/V_Otoha_325070024_KR.wav",
       "volume": 0.8
     },
     {

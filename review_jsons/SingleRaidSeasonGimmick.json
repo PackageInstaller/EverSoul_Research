@@ -507,6 +507,45 @@
       "gimmick_value1": 7356,
       "gimmick_type2": 1,
       "gimmick_value2": 7357
+    },
+    {
+      "no": 42,
+      "season_no": 3,
+      "raid_no": 9,
+      "level": 100,
+      "icon_path": "srg_common_4",
+      "string_no": 703011,
+      "string_content_no": 703012,
+      "gimmick_type1": 1,
+      "gimmick_value1": 7371,
+      "gimmick_type2": 1,
+      "gimmick_value2": 7372
+    },
+    {
+      "no": 43,
+      "season_no": 3,
+      "raid_no": 9,
+      "level": 100,
+      "icon_path": "srg_aki_5",
+      "string_no": 703711,
+      "string_content_no": 703712,
+      "gimmick_type1": 1,
+      "gimmick_value1": 7373,
+      "gimmick_type2": 1,
+      "gimmick_value2": 7374
+    },
+    {
+      "no": 44,
+      "season_no": 3,
+      "raid_no": 9,
+      "level": 501,
+      "icon_path": "srg_oyome_4",
+      "string_no": 703721,
+      "string_content_no": 703722,
+      "gimmick_type1": 1,
+      "gimmick_value1": 7375,
+      "gimmick_type2": 1,
+      "gimmick_value2": 7376
     }
   ]
 }
