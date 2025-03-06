@@ -1908,7 +1908,7 @@
       "no": 910410,
       "kr": "한정",
       "en": "Limited",
-      "ja": "限定",
+      "ja": "",
       "zh_tw": "限定",
       "zh_cn": ""
     },
@@ -1923,15 +1923,15 @@
     {
       "no": 910412,
       "kr": "봄맞이 기념 패키지",
-      "en": "",
+      "en": "Spring Celebration Pack",
       "ja": "春のお祝い記念パック",
-      "zh_tw": "",
+      "zh_tw": "迎春紀念禮包",
       "zh_cn": ""
     },
     {
       "no": 910413,
       "kr": "새학기 기념 패키지",
-      "en": "New Semester Celebration Pack",
+      "en": "Back-to-School Pack",
       "ja": "",
       "zh_tw": "新學期紀念禮包",
       "zh_cn": ""
@@ -4363,33 +4363,33 @@
     {
       "no": 911216,
       "kr": "무쌍의 혼 데일리 패키지(15일)",
-      "en": "Daily Peerless Spirit Pack (15 Days)",
+      "en": "Peerless Soul Daily Pack (15 Days)",
       "ja": "",
-      "zh_tw": "無雙的靈魂每日禮包（15日）",
+      "zh_tw": "無雙之魂每日禮包（15日）",
       "zh_cn": ""
     },
     {
       "no": 911217,
       "kr": "무쌍의 혼 이벤트 패키지 1",
-      "en": "Peerless Spirit Event Pack 1",
+      "en": "Peerless Soul Event Pack 1",
       "ja": "",
-      "zh_tw": "無雙的靈魂活動禮包1",
+      "zh_tw": "無雙之魂活動禮包1",
       "zh_cn": ""
     },
     {
       "no": 911218,
       "kr": "무쌍의 혼 이벤트 패키지 2",
-      "en": "Peerless Spirit Event Pack 2",
+      "en": "Peerless Soul Event Pack 2",
       "ja": "",
-      "zh_tw": "無雙的靈魂活動禮包2",
+      "zh_tw": "無雙之魂活動禮包2",
       "zh_cn": ""
     },
     {
       "no": 911219,
       "kr": "무쌍의 혼 이벤트 패키지 3",
-      "en": "Peerless Spirit Event Pack 3",
+      "en": "Peerless Soul Event Pack 3",
       "ja": "",
-      "zh_tw": "無雙的靈魂活動禮包3",
+      "zh_tw": "無雙之魂活動禮包3",
       "zh_cn": ""
     },
     {
@@ -5019,25 +5019,25 @@
     {
       "no": 914091,
       "kr": "봄맞이 기념 패키지 1",
-      "en": "",
+      "en": "Spring Celebration Pack 1",
       "ja": "春のお祝い記念パック1",
-      "zh_tw": "",
+      "zh_tw": "迎春紀念禮包1",
       "zh_cn": ""
     },
     {
       "no": 914092,
       "kr": "봄맞이 기념 패키지 2",
-      "en": "",
+      "en": "Spring Celebration Pack 2",
       "ja": "春のお祝い記念パック2",
-      "zh_tw": "",
+      "zh_tw": "迎春紀念禮包2",
       "zh_cn": ""
     },
     {
       "no": 914093,
       "kr": "봄맞이 기념 패키지 3",
-      "en": "",
+      "en": "Spring Celebration Pack 3",
       "ja": "春のお祝い記念パック3",
-      "zh_tw": "",
+      "zh_tw": "迎春紀念禮包3",
       "zh_cn": ""
     },
     {
@@ -5275,7 +5275,7 @@
     {
       "no": 914171,
       "kr": "새학기 기념 체험권 패키지",
-      "en": "New Semester Celebration Trial Ticket Pack",
+      "en": "Back-to-School Trial Ticket Pack",
       "ja": "",
       "zh_tw": "新學期紀念體驗券禮包",
       "zh_cn": ""
@@ -5283,7 +5283,7 @@
     {
       "no": 914172,
       "kr": "새학기 기념 패키지 1",
-      "en": "New Semester Celebration Pack 1",
+      "en": "Back-to-School Pack 1",
       "ja": "",
       "zh_tw": "新學期紀念禮包1",
       "zh_cn": ""
@@ -5291,7 +5291,7 @@
     {
       "no": 914173,
       "kr": "새학기 기념 패키지 2",
-      "en": "New Semester Celebration Pack 2",
+      "en": "Back-to-School Pack 2",
       "ja": "",
       "zh_tw": "新學期紀念禮包2",
       "zh_cn": ""
@@ -5299,7 +5299,7 @@
     {
       "no": 914174,
       "kr": "새학기 기념 패키지 3",
-      "en": "New Semester Celebration Pack 3",
+      "en": "Back-to-School Pack 3",
       "ja": "",
       "zh_tw": "新學期紀念禮包3",
       "zh_cn": ""
@@ -10179,9 +10179,9 @@
     {
       "no": 924091,
       "kr": "봄맞이를 기념하여 특별히 준비한 패키지입니다.",
-      "en": "A special pack carefully prepared in celebration of the New Year.",
+      "en": "A special pack carefully prepared in celebration of the arrival of spring.",
       "ja": "春のお祝いを記念して特別に用意したパックです。",
-      "zh_tw": "為慶祝新年，特別準備的禮包。",
+      "zh_tw": "為紀念迎春，特別準備的禮包。",
       "zh_cn": ""
     },
     {
@@ -10275,7 +10275,7 @@
     {
       "no": 924171,
       "kr": "새학기를 기념하여 준비한 특별 패키지입니다.",
-      "en": "A special pack prepared in celebration of the New Semester.",
+      "en": "A special pack prepared in celebration of the back-to-school season.",
       "ja": "",
       "zh_tw": "為慶祝新學期所準備的特別禮包。",
       "zh_cn": ""

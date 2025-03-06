@@ -534,24 +534,31 @@
     },
     {
       "no": 70021,
+      "hero_no": 4120,
       "sound_path": "Otoha_325070021",
-      "talk_string": 325070021
+      "delay": 3.0,
+      "talk_string": 321040023
     },
     {
       "no": 70022,
       "hero_no": 50101,
       "sound_path": "AkiRaid_321040022",
-      "talk_string": 321040022
+      "delay": 3.0,
+      "talk_string": 321040024
     },
     {
       "no": 70023,
+      "hero_no": 4120,
       "sound_path": "Otoha_325070023",
-      "talk_string": 325070023
+      "delay": 4.0,
+      "talk_string": 321040025
     },
     {
       "no": 70024,
+      "hero_no": 4120,
       "sound_path": "Otoha_325070024",
-      "talk_string": 325070024
+      "delay": 6.0,
+      "talk_string": 321040026
     },
     {
       "no": 70031,

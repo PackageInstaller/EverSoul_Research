@@ -4,7 +4,7 @@
       "index": 1,
       "schedule_key": "Cashshop_Special_NewSchool_01",
       "schedule_type": 1,
-      "start_date": "2025-02-13 00:00:00",
+      "start_date": "2025-03-06 00:00:00",
       "end_date": "2025-03-27 00:00:00",
       "value_date01": ""
     },
@@ -668,7 +668,7 @@
       "index": 84,
       "schedule_key": "Cashshop_Pickup_Newyear_2024_Claudia_R",
       "schedule_type": 1,
-      "start_date": "2025-02-13 00:00:00",
+      "start_date": "2025-03-20 00:00:00",
       "end_date": "2025-03-27 00:00:00",
       "value_date01": ""
     },
@@ -1108,7 +1108,7 @@
       "index": 139,
       "schedule_key": "Cashshop_Event_Defense_01",
       "schedule_type": 1,
-      "start_date": "2025-02-13 00:00:00",
+      "start_date": "2025-03-20 00:00:00",
       "end_date": "2025-03-27 00:00:00",
       "value_date01": ""
     },
@@ -1116,7 +1116,7 @@
       "index": 140,
       "schedule_key": "Cashshop_Bundle_Side_HonglanCombat",
       "schedule_type": 1,
-      "start_date": "2025-02-13 00:00:00",
+      "start_date": "2025-03-06 00:00:00",
       "end_date": "2025-03-26 23:00:00",
       "value_date01": ""
     },
@@ -1124,7 +1124,7 @@
       "index": 141,
       "schedule_key": "Cashshop_Event_Side_HonglanCombat",
       "schedule_type": 1,
-      "start_date": "2025-02-13 00:00:00",
+      "start_date": "2025-03-06 00:00:00",
       "end_date": "2025-03-26 23:00:00",
       "value_date01": ""
     },
@@ -1732,41 +1732,41 @@
       "index": 20003,
       "schedule_key": "EdenAlliance_03",
       "schedule_type": 2,
-      "start_date": "2024-05-09 00:00:00",
-      "end_date": "2024-05-23 00:00:00",
-      "value_date01": "2024-06-06 00:00:00"
+      "start_date": "2023-11-23 00:00:00",
+      "end_date": "2023-12-07 00:00:00",
+      "value_date01": "2024-01-04 00:00:00"
     },
     {
       "index": 20004,
       "schedule_key": "EdenAlliance_04",
       "schedule_type": 2,
-      "start_date": "2024-05-09 00:00:00",
-      "end_date": "2024-05-23 00:00:00",
-      "value_date01": "2024-06-06 00:00:00"
+      "start_date": "2024-01-11 00:00:00",
+      "end_date": "2024-01-25 00:00:00",
+      "value_date01": "2024-02-08 00:00:00"
     },
     {
       "index": 20005,
       "schedule_key": "EdenAlliance_05",
       "schedule_type": 2,
-      "start_date": "2024-05-09 00:00:00",
-      "end_date": "2024-05-23 00:00:00",
-      "value_date01": "2024-06-06 00:00:00"
+      "start_date": "2024-02-08 00:00:00",
+      "end_date": "2024-02-22 00:00:00",
+      "value_date01": "2024-03-01 00:00:00"
     },
     {
       "index": 20006,
       "schedule_key": "EdenAlliance_06",
       "schedule_type": 2,
-      "start_date": "2024-05-09 00:00:00",
-      "end_date": "2024-05-23 00:00:00",
-      "value_date01": "2024-06-06 00:00:00"
+      "start_date": "2024-03-01 00:00:00",
+      "end_date": "2024-03-06 00:00:00",
+      "value_date01": "2024-04-04 00:00:00"
     },
     {
       "index": 20007,
       "schedule_key": "EdenAlliance_07",
       "schedule_type": 2,
-      "start_date": "2024-05-09 00:00:00",
-      "end_date": "2024-05-23 00:00:00",
-      "value_date01": "2024-06-06 00:00:00"
+      "start_date": "2024-04-11 00:00:00",
+      "end_date": "2024-04-25 00:00:00",
+      "value_date01": "2024-05-09 00:00:00"
     },
     {
       "index": 20008,
@@ -1780,88 +1780,88 @@
       "index": 20009,
       "schedule_key": "EdenAlliance_09",
       "schedule_type": 2,
-      "start_date": "2024-05-09 00:00:00",
-      "end_date": "2024-05-23 00:00:00",
-      "value_date01": "2024-06-06 00:00:00"
+      "start_date": "2024-06-06 00:00:00",
+      "end_date": "2024-06-20 00:00:00",
+      "value_date01": "2024-07-04 00:00:00"
     },
     {
       "index": 20010,
       "schedule_key": "EdenAlliance_10",
       "schedule_type": 2,
-      "start_date": "2024-05-09 00:00:00",
-      "end_date": "2024-05-23 00:00:00",
-      "value_date01": "2024-06-06 00:00:00"
+      "start_date": "2024-07-04 00:00:00",
+      "end_date": "2024-07-18 00:00:00",
+      "value_date01": "2024-08-01 00:00:00"
     },
     {
       "index": 20011,
       "schedule_key": "EdenAlliance_11",
       "schedule_type": 2,
-      "start_date": "2024-05-09 00:00:00",
-      "end_date": "2024-05-23 00:00:00",
-      "value_date01": "2024-06-06 00:00:00"
+      "start_date": "2024-08-01 00:00:00",
+      "end_date": "2024-08-15 00:00:00",
+      "value_date01": "2024-08-29 00:00:00"
     },
     {
       "index": 20012,
       "schedule_key": "EdenAlliance_tabria_02",
       "schedule_type": 2,
-      "start_date": "2024-05-09 00:00:00",
-      "end_date": "2024-05-23 00:00:00",
-      "value_date01": "2024-06-06 00:00:00"
+      "start_date": "2024-08-29 00:00:00",
+      "end_date": "2024-09-12 00:00:00",
+      "value_date01": "2024-09-26 00:00:00"
     },
     {
       "index": 20013,
       "schedule_key": "EdenAlliance_fayren_02",
       "schedule_type": 2,
-      "start_date": "2024-05-09 00:00:00",
-      "end_date": "2024-05-23 00:00:00",
-      "value_date01": "2024-06-06 00:00:00"
+      "start_date": "2024-09-26 00:00:00",
+      "end_date": "2024-10-10 00:00:00",
+      "value_date01": "2024-10-24 00:00:00"
     },
     {
       "index": 20014,
       "schedule_key": "EdenAlliance_chalar_02",
       "schedule_type": 2,
-      "start_date": "2024-09-25 00:00:00",
-      "end_date": "2024-10-09 00:00:00",
-      "value_date01": "2024-10-17 00:00:00"
+      "start_date": "2024-10-24 00:00:00",
+      "end_date": "2024-11-07 00:00:00",
+      "value_date01": "2024-11-21 00:00:00"
     },
     {
       "index": 20015,
       "schedule_key": "EdenAlliance_gaon_03",
       "schedule_type": 2,
-      "start_date": "2024-09-25 00:00:00",
-      "end_date": "2024-10-09 00:00:00",
-      "value_date01": "2024-10-17 00:00:00"
+      "start_date": "2024-11-21 00:00:00",
+      "end_date": "2024-12-05 00:00:00",
+      "value_date01": "2024-12-19 00:00:00"
     },
     {
       "index": 20016,
       "schedule_key": "EdenAlliance_solray_03",
       "schedule_type": 2,
-      "start_date": "2024-09-25 00:00:00",
-      "end_date": "2024-10-09 00:00:00",
-      "value_date01": "2024-10-17 00:00:00"
+      "start_date": "2024-12-19 00:00:00",
+      "end_date": "2025-01-02 00:00:00",
+      "value_date01": "2025-01-16 00:00:00"
     },
     {
       "index": 20017,
       "schedule_key": "EdenAlliance_troica_03",
       "schedule_type": 2,
-      "start_date": "2024-12-23 00:00:00",
-      "end_date": "2025-01-06 00:00:00",
-      "value_date01": "2025-01-19 00:00:00"
+      "start_date": "2025-01-16 00:00:00",
+      "end_date": "2025-01-30 00:00:00",
+      "value_date01": "2025-02-13 00:00:00"
     },
     {
       "index": 20018,
       "schedule_key": "EdenAlliance_aurelia_03",
       "schedule_type": 2,
-      "start_date": "2024-12-23 00:00:00",
-      "end_date": "2025-01-06 00:00:00",
-      "value_date01": "2025-01-19 00:00:00"
+      "start_date": "2025-02-13 00:00:00",
+      "end_date": "2025-02-27 00:00:00",
+      "value_date01": "2025-03-06 00:00:00"
     },
     {
       "index": 20019,
       "schedule_key": "EdenAlliance_tabria_03",
       "schedule_type": 2,
-      "start_date": "2025-02-27 00:00:00",
-      "end_date": "2025-03-13 00:00:00",
+      "start_date": "2025-03-06 00:00:00",
+      "end_date": "2025-03-20 00:00:00",
       "value_date01": "2025-03-27 00:00:00"
     },
     {
@@ -1869,7 +1869,7 @@
       "schedule_key": "Calender_MaidPlan_Return_Main",
       "schedule_type": 3,
       "start_date": "2025-04-03 00:00:00",
-      "end_date": "2024-04-17 00:00:00",
+      "end_date": "2025-04-17 00:00:00",
       "value_date01": ""
     },
     {
@@ -1877,7 +1877,7 @@
       "schedule_key": "Calender_CruiseParty_Return_Main",
       "schedule_type": 3,
       "start_date": "2025-03-20 00:00:00",
-      "end_date": "2024-04-03 00:00:00",
+      "end_date": "2025-04-03 00:00:00",
       "value_date01": ""
     },
     {
@@ -2892,7 +2892,7 @@
       "index": 40001,
       "schedule_key": "EventInfo_CruiseParty_Return_Attend",
       "schedule_type": 4,
-      "start_date": "2025-02-27 00:00:00",
+      "start_date": "2025-03-20 00:00:00",
       "end_date": "2025-04-03 00:00:00",
       "value_date01": "2025-03-20 00:00:00"
     },
@@ -2900,7 +2900,7 @@
       "index": 40002,
       "schedule_key": "EventInfo_CruiseParty_Return_Main",
       "schedule_type": 4,
-      "start_date": "2025-02-27 00:00:00",
+      "start_date": "2025-03-20 00:00:00",
       "end_date": "2025-04-03 00:00:00",
       "value_date01": "2025-04-10 00:00:00"
     },
@@ -2908,7 +2908,7 @@
       "index": 40003,
       "schedule_key": "EventInfo_CruiseParty_Return_Stage",
       "schedule_type": 4,
-      "start_date": "2025-02-27 00:00:00",
+      "start_date": "2025-03-20 00:00:00",
       "end_date": "2025-04-03 00:00:00",
       "value_date01": "2025-04-10 00:00:00"
     },
@@ -2916,7 +2916,7 @@
       "index": 40004,
       "schedule_key": "EventInfo_CruiseParty_Return_Pass",
       "schedule_type": 4,
-      "start_date": "2025-02-27 00:00:00",
+      "start_date": "2025-03-20 00:00:00",
       "end_date": "2025-04-10 00:00:00",
       "value_date01": "2025-04-10 00:00:00"
     },
@@ -2972,7 +2972,7 @@
       "index": 40011,
       "schedule_key": "EventInfo_Side_Honglan_Pass",
       "schedule_type": 4,
-      "start_date": "2025-02-27 00:00:00",
+      "start_date": "2025-03-06 00:00:00",
       "end_date": "2025-03-27 00:00:00",
       "value_date01": "2025-03-27 00:00:00"
     },
@@ -2990,7 +2990,7 @@
       "schedule_type": 4,
       "start_date": "2025-02-13 00:00:00",
       "end_date": "2025-02-27 00:00:00",
-      "value_date01": "2025-02-27 00:00:00"
+      "value_date01": "2025-03-06 00:00:00"
     },
     {
       "index": 40014,
@@ -3006,7 +3006,7 @@
       "schedule_type": 4,
       "start_date": "2025-02-13 00:00:00",
       "end_date": "2025-02-27 00:00:00",
-      "value_date01": "2025-02-27 00:00:00"
+      "value_date01": "2025-03-06 00:00:00"
     },
     {
       "index": 40016,
@@ -3021,16 +3021,16 @@
       "schedule_key": "EventInfo_Side_Rose_Rewardgame",
       "schedule_type": 4,
       "start_date": "2025-02-13 00:00:00",
-      "end_date": "2025-02-27 00:00:00",
-      "value_date01": "2025-02-27 00:00:00"
+      "end_date": "2025-03-06 00:00:00",
+      "value_date01": "2025-03-06 00:00:00"
     },
     {
       "index": 40018,
       "schedule_key": "EventInfo_RoseSideEvent_Pass",
       "schedule_type": 4,
       "start_date": "2025-02-13 00:00:00",
-      "end_date": "2025-02-27 00:00:00",
-      "value_date01": "2025-02-27 00:00:00"
+      "end_date": "2025-03-06 00:00:00",
+      "value_date01": "2025-03-06 00:00:00"
     },
     {
       "index": 40019,
@@ -3044,17 +3044,17 @@
       "index": 40020,
       "schedule_key": "EventInfo_NewYear2_Main",
       "schedule_type": 4,
-      "start_date": "2025-02-27 00:00:00",
-      "end_date": "2025-03-01 00:00:00",
-      "value_date01": "2025-03-02 00:00:00"
+      "start_date": "2025-01-23 01:00:00",
+      "end_date": "2025-02-13 00:00:00",
+      "value_date01": "2025-02-20 00:00:00"
     },
     {
       "index": 40021,
       "schedule_key": "EventInfo_NewYear2_Stage",
       "schedule_type": 4,
-      "start_date": "2025-02-27 00:00:00",
-      "end_date": "2025-03-01 00:00:00",
-      "value_date01": "2025-03-02 00:00:00"
+      "start_date": "2025-01-23 01:00:00",
+      "end_date": "2025-02-13 00:00:00",
+      "value_date01": "2025-02-20 00:00:00"
     },
     {
       "index": 40022,
@@ -4148,17 +4148,17 @@
       "index": 40158,
       "schedule_key": "EventInfo_QuestGuildRaid_30",
       "schedule_type": 4,
-      "start_date": "2025-01-24 00:00:00",
-      "end_date": "2025-02-20 00:00:00",
-      "value_date01": "2025-02-21 00:00:00"
+      "start_date": "2025-02-20 00:00:00",
+      "end_date": "2025-02-27 00:00:00",
+      "value_date01": "2025-03-06 00:00:00"
     },
     {
       "index": 40159,
       "schedule_key": "EventInfo_QuestGuildRaid_31",
       "schedule_type": 4,
-      "start_date": "2025-02-21 00:00:00",
-      "end_date": "2025-03-03 00:00:00",
-      "value_date01": "2025-04-03 00:00:00"
+      "start_date": "2025-03-13 00:00:00",
+      "end_date": "2025-03-20 00:00:00",
+      "value_date01": "2025-03-27 00:00:00"
     },
     {
       "index": 40160,
@@ -4204,7 +4204,7 @@
       "index": 40165,
       "schedule_key": "EventInfo_DefenseGame_9",
       "schedule_type": 4,
-      "start_date": "2025-02-27 00:00:00",
+      "start_date": "2025-03-20 00:00:00",
       "end_date": "2025-03-27 00:00:00",
       "value_date01": "2025-04-03 00:00:00"
     },
@@ -4476,7 +4476,7 @@
       "index": 50010,
       "schedule_key": "Gacha_503",
       "schedule_type": 5,
-      "start_date": "2025-02-20 00:00:00",
+      "start_date": "2025-03-24 00:00:00",
       "end_date": "2025-03-31 00:00:00",
       "value_date01": ""
     },
@@ -4596,7 +4596,7 @@
       "index": 50025,
       "schedule_key": "Gacha_518",
       "schedule_type": 5,
-      "start_date": "2025-02-20 00:00:00",
+      "start_date": "2025-03-06 00:00:00",
       "end_date": "2025-03-20 00:00:00",
       "value_date01": ""
     },
@@ -4620,7 +4620,7 @@
       "index": 50028,
       "schedule_key": "Gacha_521",
       "schedule_type": 5,
-      "start_date": "2025-02-20 00:00:00",
+      "start_date": "2025-03-20 00:00:00",
       "end_date": "2025-03-27 00:00:00",
       "value_date01": ""
     },
@@ -4740,7 +4740,7 @@
       "index": 50043,
       "schedule_key": "Gacha_536",
       "schedule_type": 5,
-      "start_date": "2025-02-20 00:00:00",
+      "start_date": "2025-03-27 00:00:00",
       "end_date": "2025-04-03 00:00:00",
       "value_date01": ""
     },
@@ -5364,7 +5364,7 @@
       "index": 55010,
       "schedule_key": "Gate_503",
       "schedule_type": 5,
-      "start_date": "2025-02-20 00:00:00",
+      "start_date": "2025-03-24 00:00:00",
       "end_date": "2025-03-25 00:00:00",
       "value_date01": ""
     },
@@ -5484,7 +5484,7 @@
       "index": 55025,
       "schedule_key": "Gate_518",
       "schedule_type": 5,
-      "start_date": "2025-02-20 00:00:00",
+      "start_date": "2025-03-06 00:00:00",
       "end_date": "2025-03-07 00:00:00",
       "value_date01": ""
     },
@@ -5628,7 +5628,7 @@
       "index": 55043,
       "schedule_key": "Gate_536",
       "schedule_type": 5,
-      "start_date": "2025-02-20 00:00:00",
+      "start_date": "2025-03-27 00:00:00",
       "end_date": "2025-03-28 00:00:00",
       "value_date01": ""
     },
@@ -5892,7 +5892,7 @@
       "index": 55076,
       "schedule_key": "Gate_569",
       "schedule_type": 5,
-      "start_date": "2025-02-20 00:00:00",
+      "start_date": "2025-03-06 00:00:00",
       "end_date": "2025-03-07 00:00:00",
       "value_date01": ""
     },
@@ -6397,7 +6397,7 @@
       "schedule_key": "GuildRaid_3_57",
       "schedule_type": 6,
       "start_date": "2025-02-21 00:00:00",
-      "end_date": "2025-03-03 00:00:00",
+      "end_date": "2025-03-20 00:00:00",
       "value_date01": "2025-04-03 00:00:00"
     },
     {
@@ -6533,14 +6533,14 @@
       "schedule_key": "SingleRaid_3_43",
       "schedule_type": 7,
       "start_date": "2025-01-24 00:00:00",
-      "end_date": "2025-03-01 00:00:00",
-      "value_date01": "2025-03-02 00:00:00"
+      "end_date": "2025-02-20 00:00:00",
+      "value_date01": "2025-02-21 00:00:00"
     },
     {
       "index": 70017,
       "schedule_key": "SingleRaid_3_44",
       "schedule_type": 7,
-      "start_date": "2025-03-02 00:00:00",
+      "start_date": "2025-02-21 00:00:00",
       "end_date": "2025-03-13 00:00:00",
       "value_date01": "2025-03-27 00:00:00"
     },
