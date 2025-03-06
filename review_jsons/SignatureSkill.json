@@ -1742,9 +1742,9 @@
     },
     {
       "no": 2160,
-      "signature_level1": "216013",
-      "signature_level2": "216013",
-      "signature_level3": "216013",
+      "signature_level1": "0",
+      "signature_level2": "0",
+      "signature_level3": "0",
       "signature_level4": "216010,216012",
       "signature_level5": "216010,216012",
       "signature_level6": "216010,216012",
@@ -1789,16 +1789,6 @@
       "signature_level5": "216554",
       "signature_level6": "216564",
       "signature_level7": "216574"
-    },
-    {
-      "no": 2166,
-      "signature_level1": "0",
-      "signature_level2": "0",
-      "signature_level3": "0",
-      "signature_level4": "0",
-      "signature_level5": "216711,216712",
-      "signature_level6": "216721,216722",
-      "signature_level7": "216731,216732"
     },
     {
       "no": 3010,

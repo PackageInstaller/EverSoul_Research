@@ -20591,7 +20591,7 @@
       "code3": 412415,
       "code4": 412499,
       "code5": 412417,
-      "code6": 660176,
+      "code6": 660177,
       "code_extend": "0",
       "target": 110607,
       "cool_time": 999.0,
@@ -20613,7 +20613,7 @@
       "code3": 412415,
       "code4": 412499,
       "code5": 412417,
-      "code6": 660176,
+      "code6": 660177,
       "code_extend": "0",
       "target": 110607,
       "cool_time": 999.0,
@@ -20635,7 +20635,7 @@
       "code3": 412415,
       "code4": 412499,
       "code5": 412417,
-      "code6": 660176,
+      "code6": 660177,
       "code_extend": "0",
       "target": 110607,
       "cool_time": 999.0,
@@ -26020,7 +26020,6 @@
       "code6": 879911,
       "code7": 879912,
       "code8": 879913,
-      "code9": 991511,
       "code_extend": "0",
       "target": 110607,
       "cool_time": 999.0,
@@ -80383,7 +80382,6 @@
       "code4": 1008603,
       "code5": 3209914,
       "code6": 3209915,
-      "code7": 3210831,
       "code_extend": "0",
       "target": 110607,
       "cool_time": 999.0,
@@ -80418,8 +80416,9 @@
       "is_ally": 1,
       "hero_level": 1,
       "level": 1,
-      "code1": 3210531,
-      "code2": 3210533,
+      "code1": 3210530,
+      "code2": 3210531,
+      "code3": 3210532,
       "code_extend": "0",
       "target": 110607,
       "cool_time": 999.0,
@@ -80434,8 +80433,9 @@
       "is_ally": 1,
       "hero_level": 1,
       "level": 1,
-      "code1": 3210631,
-      "code2": 3210633,
+      "code1": 3210630,
+      "code2": 3210631,
+      "code3": 3210632,
       "code_extend": "0",
       "target": 110607,
       "cool_time": 999.0,
@@ -80450,8 +80450,9 @@
       "is_ally": 1,
       "hero_level": 1,
       "level": 1,
-      "code1": 3210731,
-      "code2": 3210733,
+      "code1": 3210730,
+      "code2": 3210731,
+      "code3": 3210732,
       "code_extend": "0",
       "target": 110607,
       "cool_time": 999.0,
@@ -80504,16 +80505,13 @@
       "code4": 216114,
       "code5": 216115,
       "code6": 216116,
-      "code7": 216118,
-      "code8": 216119,
       "code_extend": "0",
       "target": 110601,
       "cost": 10000,
       "range": 3.0,
       "scene_target_key": 1205,
       "anim_path": "Active",
-      "icon_prefab": 2,
-      "skill_string": 382161
+      "icon_prefab": 2
     },
     {
       "index": 4203,
@@ -80529,16 +80527,13 @@
       "code4": 216124,
       "code5": 216125,
       "code6": 216126,
-      "code7": 216118,
-      "code8": 216119,
       "code_extend": "0",
       "target": 110601,
       "cost": 10000,
       "range": 3.0,
       "scene_target_key": 1205,
       "anim_path": "Active",
-      "icon_prefab": 2,
-      "skill_string": 382161
+      "icon_prefab": 2
     },
     {
       "index": 4204,
@@ -80554,16 +80549,13 @@
       "code4": 216134,
       "code5": 216135,
       "code6": 216136,
-      "code7": 216318,
-      "code8": 216319,
       "code_extend": "0",
       "target": 110601,
       "cost": 10000,
       "range": 3.0,
       "scene_target_key": 1205,
       "anim_path": "Active",
-      "icon_prefab": 2,
-      "skill_string": 382161
+      "icon_prefab": 2
     },
     {
       "index": 4205,
@@ -80586,8 +80578,7 @@
       "target": 110601,
       "range": 20.0,
       "anim_path": "Skill01",
-      "icon_prefab": 9,
-      "skill_string": 382162
+      "icon_prefab": 9
     },
     {
       "index": 4206,
@@ -80610,8 +80601,7 @@
       "target": 110601,
       "range": 20.0,
       "anim_path": "Skill01",
-      "icon_prefab": 9,
-      "skill_string": 382162
+      "icon_prefab": 9
     },
     {
       "index": 4207,
@@ -80635,8 +80625,7 @@
       "target": 110601,
       "range": 20.0,
       "anim_path": "Skill01",
-      "icon_prefab": 9,
-      "skill_string": 382162
+      "icon_prefab": 9
     },
     {
       "index": 4208,
@@ -80658,8 +80647,7 @@
       "move_position_offset": 1.73,
       "range": 20.0,
       "anim_path": "Skill02",
-      "icon_prefab": 6,
-      "skill_string": 382163
+      "icon_prefab": 6
     },
     {
       "index": 4209,
@@ -80681,8 +80669,7 @@
       "move_position_offset": 1.73,
       "range": 20.0,
       "anim_path": "Skill02",
-      "icon_prefab": 6,
-      "skill_string": 382163
+      "icon_prefab": 6
     },
     {
       "index": 4210,
@@ -80706,8 +80693,7 @@
       "move_position_offset": 1.73,
       "range": 20.0,
       "anim_path": "Skill02",
-      "icon_prefab": 6,
-      "skill_string": 382163
+      "icon_prefab": 6
     },
     {
       "index": 4211,
@@ -80790,8 +80776,7 @@
       "range": 20.0,
       "scene_target_key": 1100,
       "anim_path": "Ultimate",
-      "icon_prefab": 14,
-      "skill_string": 382164
+      "icon_prefab": 14
     },
     {
       "index": 4215,
@@ -80814,8 +80799,7 @@
       "range": 20.0,
       "scene_target_key": 1100,
       "anim_path": "Ultimate",
-      "icon_prefab": 14,
-      "skill_string": 382164
+      "icon_prefab": 14
     },
     {
       "index": 4216,
@@ -80838,8 +80822,7 @@
       "range": 20.0,
       "scene_target_key": 1100,
       "anim_path": "Ultimate",
-      "icon_prefab": 14,
-      "skill_string": 382164
+      "icon_prefab": 14
     },
     {
       "index": 4217,
@@ -80862,8 +80845,7 @@
       "target": 110601,
       "range": 20.0,
       "anim_path": "Skill03",
-      "icon_prefab": 9,
-      "skill_string": 382162
+      "icon_prefab": 9
     },
     {
       "index": 4218,
@@ -80886,8 +80868,7 @@
       "target": 110601,
       "range": 20.0,
       "anim_path": "Skill03",
-      "icon_prefab": 9,
-      "skill_string": 382162
+      "icon_prefab": 9
     },
     {
       "index": 4219,
@@ -80911,8 +80892,7 @@
       "target": 110601,
       "range": 20.0,
       "anim_path": "Skill03",
-      "icon_prefab": 9,
-      "skill_string": 382162
+      "icon_prefab": 9
     },
     {
       "index": 4220,
@@ -80934,8 +80914,7 @@
       "move_position_offset": 1.73,
       "range": 20.0,
       "anim_path": "Skill04",
-      "icon_prefab": 6,
-      "skill_string": 382163
+      "icon_prefab": 6
     },
     {
       "index": 4221,
@@ -80957,8 +80936,7 @@
       "move_position_offset": 1.73,
       "range": 20.0,
       "anim_path": "Skill04",
-      "icon_prefab": 6,
-      "skill_string": 382163
+      "icon_prefab": 6
     },
     {
       "index": 4222,
@@ -80982,15 +80960,14 @@
       "move_position_offset": 1.73,
       "range": 20.0,
       "anim_path": "Skill04",
-      "icon_prefab": 6,
-      "skill_string": 382163
+      "icon_prefab": 6
     },
     {
       "index": 4223,
       "no": 2169,
       "name_sno": 342169,
       "tooltip_sno": 352169,
-      "type": 110503,
+      "type": 110504,
       "is_ally": 1,
       "grade": 110014,
       "hero_level": 1,
@@ -80998,17 +80975,16 @@
       "code1": 216911,
       "code_extend": "0",
       "target": 110601,
-      "cool_time": 999.0,
       "range": 20.0,
-      "anim_path": "None",
-      "icon_prefab": 9
+      "anim_path": "Ultimate",
+      "icon_prefab": 14
     },
     {
       "index": 4224,
       "no": 2169,
       "name_sno": 342169,
       "tooltip_sno": 362169,
-      "type": 110503,
+      "type": 110504,
       "is_ally": 1,
       "grade": 110015,
       "hero_level": 1,
@@ -81016,17 +80992,16 @@
       "code1": 216921,
       "code_extend": "0",
       "target": 110601,
-      "cool_time": 999.0,
       "range": 20.0,
-      "anim_path": "None",
-      "icon_prefab": 9
+      "anim_path": "Ultimate",
+      "icon_prefab": 14
     },
     {
       "index": 4225,
       "no": 2169,
       "name_sno": 342169,
       "tooltip_sno": 372169,
-      "type": 110503,
+      "type": 110504,
       "is_ally": 1,
       "grade": 110016,
       "hero_level": 1,
@@ -81034,17 +81009,16 @@
       "code1": 216931,
       "code_extend": "0",
       "target": 110601,
-      "cool_time": 999.0,
       "range": 20.0,
-      "anim_path": "None",
-      "icon_prefab": 9
+      "anim_path": "Ultimate",
+      "icon_prefab": 14
     },
     {
       "index": 4226,
       "no": 2169,
       "name_sno": 342169,
       "tooltip_sno": 382169,
-      "type": 110503,
+      "type": 110504,
       "is_ally": 1,
       "grade": 110017,
       "hero_level": 1,
@@ -81052,17 +81026,16 @@
       "code1": 216941,
       "code_extend": "0",
       "target": 110601,
-      "cool_time": 999.0,
       "range": 20.0,
-      "anim_path": "None",
-      "icon_prefab": 9
+      "anim_path": "Ultimate",
+      "icon_prefab": 14
     },
     {
       "index": 4227,
       "no": 2169,
       "name_sno": 342169,
       "tooltip_sno": 392169,
-      "type": 110503,
+      "type": 110504,
       "is_ally": 1,
       "grade": 110018,
       "hero_level": 1,
@@ -81070,17 +81043,16 @@
       "code1": 216951,
       "code_extend": "0",
       "target": 110601,
-      "cool_time": 999.0,
       "range": 20.0,
-      "anim_path": "None",
-      "icon_prefab": 9
+      "anim_path": "Ultimate",
+      "icon_prefab": 14
     },
     {
       "index": 4228,
       "no": 2169,
       "name_sno": 342169,
       "tooltip_sno": 402169,
-      "type": 110503,
+      "type": 110504,
       "is_ally": 1,
       "grade": 110019,
       "hero_level": 1,
@@ -81088,17 +81060,16 @@
       "code1": 216961,
       "code_extend": "0",
       "target": 110601,
-      "cool_time": 999.0,
       "range": 20.0,
-      "anim_path": "None",
-      "icon_prefab": 9
+      "anim_path": "Ultimate",
+      "icon_prefab": 14
     },
     {
       "index": 4229,
       "no": 2169,
       "name_sno": 342169,
       "tooltip_sno": 412169,
-      "type": 110503,
+      "type": 110504,
       "is_ally": 1,
       "grade": 110020,
       "hero_level": 1,
@@ -81106,17 +81077,16 @@
       "code1": 216971,
       "code_extend": "0",
       "target": 110601,
-      "cool_time": 999.0,
       "range": 20.0,
-      "anim_path": "None",
-      "icon_prefab": 9
+      "anim_path": "Ultimate",
+      "icon_prefab": 14
     },
     {
       "index": 4230,
       "no": 2169,
       "name_sno": 342169,
       "tooltip_sno": 412169,
-      "type": 110503,
+      "type": 110504,
       "is_ally": 1,
       "grade": 110021,
       "hero_level": 1,
@@ -81124,17 +81094,16 @@
       "code1": 216971,
       "code_extend": "0",
       "target": 110601,
-      "cool_time": 999.0,
       "range": 20.0,
-      "anim_path": "None",
-      "icon_prefab": 9
+      "anim_path": "Ultimate",
+      "icon_prefab": 14
     },
     {
       "index": 4231,
       "no": 2169,
       "name_sno": 342169,
       "tooltip_sno": 412169,
-      "type": 110503,
+      "type": 110504,
       "is_ally": 1,
       "grade": 110022,
       "hero_level": 1,
@@ -81142,17 +81111,16 @@
       "code1": 216971,
       "code_extend": "0",
       "target": 110601,
-      "cool_time": 999.0,
       "range": 20.0,
-      "anim_path": "None",
-      "icon_prefab": 9
+      "anim_path": "Ultimate",
+      "icon_prefab": 14
     },
     {
       "index": 4232,
       "no": 2169,
       "name_sno": 342169,
       "tooltip_sno": 412169,
-      "type": 110503,
+      "type": 110504,
       "is_ally": 1,
       "grade": 110023,
       "hero_level": 1,
@@ -81160,17 +81128,16 @@
       "code1": 216971,
       "code_extend": "0",
       "target": 110601,
-      "cool_time": 999.0,
       "range": 20.0,
-      "anim_path": "None",
-      "icon_prefab": 9
+      "anim_path": "Ultimate",
+      "icon_prefab": 14
     },
     {
       "index": 4233,
       "no": 2169,
       "name_sno": 342169,
       "tooltip_sno": 412169,
-      "type": 110503,
+      "type": 110504,
       "is_ally": 1,
       "grade": 110024,
       "hero_level": 1,
@@ -81178,17 +81145,16 @@
       "code1": 216971,
       "code_extend": "0",
       "target": 110601,
-      "cool_time": 999.0,
       "range": 20.0,
-      "anim_path": "None",
-      "icon_prefab": 9
+      "anim_path": "Ultimate",
+      "icon_prefab": 14
     },
     {
       "index": 4234,
       "no": 2169,
       "name_sno": 342169,
       "tooltip_sno": 412169,
-      "type": 110503,
+      "type": 110504,
       "is_ally": 1,
       "grade": 110025,
       "hero_level": 1,
@@ -81196,10 +81162,9 @@
       "code1": 216971,
       "code_extend": "0",
       "target": 110601,
-      "cool_time": 999.0,
       "range": 20.0,
-      "anim_path": "None",
-      "icon_prefab": 9
+      "anim_path": "Ultimate",
+      "icon_prefab": 14
     },
     {
       "index": 4235,
@@ -81552,7 +81517,6 @@
       "code2": 660278,
       "code3": 660279,
       "code4": 660371,
-      "code5": 660373,
       "code_extend": "0",
       "global_cooltime": 4.0,
       "target": 110601,
