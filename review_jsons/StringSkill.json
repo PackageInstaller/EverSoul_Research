@@ -19067,7 +19067,7 @@
     {
       "no": 232166,
       "kr": "<COLOR=#FFFFFF><잠룡승천></COLOR>의 지속 시간이 <216554.DURATION>초로 변경되고, <COLOR=#FFFFFF><잠룡승천></COLOR> 상태에서 <COLOR=#FFFFFF><비룡승운></COLOR>을 사용 시 <216711.DURATION>초 동안 모든 아군의 받는 최종 피해 감소량 및 가속이 <216711.VALUE> 증가한다.",
-      "en": "Changes the duration of <COLOR=#FFFFFF>\"Hidden Dragon's Ascent\"</COLOR> to <216554.DURATION> sec. Using <COLOR=#FFFFFF>\"Cloud-Riding Dragon\"</COLOR> while <COLOR=#FFFFFF>\"Hidden Dragon's Ascent\"</COLOR> is active increases all allies' total damage received and Speed by <216711.VALUE> for <216711.DURATION> sec.",
+      "en": "Changes the duration of <COLOR=#FFFFFF>\"Hidden Dragon's Ascent\"</COLOR> to <216554.DURATION> sec. Using <COLOR=#FFFFFF>\"Cloud-Riding Dragon\"</COLOR> while <COLOR=#FFFFFF>\"Hidden Dragon's Ascent\"</COLOR> is active increases all allies' total damage received decrease and Speed by <216711.VALUE> for <216711.DURATION> sec.",
       "ja": "",
       "zh_tw": "<COLOR=#FFFFFF>＜潛龍升天＞</COLOR>的持續時間變為<216554.DURATION>秒，在<COLOR=#FFFFFF>＜潛龍升天＞</COLOR>狀態下使用<COLOR=#FFFFFF>＜飛龍乘雲＞</COLOR>時，<216711.DURATION>秒內所有友軍的所受最終傷害減少量與加速增加<216711.VALUE>",
       "zh_cn": ""
@@ -19075,7 +19075,7 @@
     {
       "no": 232167,
       "kr": "<COLOR=#FFFFFF><잠룡승천></COLOR>의 지속 시간이 <216564.DURATION>초로 변경되고,  <COLOR=#FFFFFF><비룡승운></COLOR>을 사용 시 받는 최종 피해 감소량 및 가속 증가량이 <216721.VALUE>로 변경된다.",
-      "en": "Changes the duration of <COLOR=#FFFFFF>\"Hidden Dragon's Ascent\"</COLOR> to <216564.DURATION> sec. Total damage received and Speed increase from using <COLOR=#FFFFFF>\"Cloud-Riding Dragon\"</COLOR> changes to <216721.VALUE>.",
+      "en": "Changes the duration of <COLOR=#FFFFFF>\"Hidden Dragon's Ascent\"</COLOR> to <216564.DURATION> sec. Total damage received decrease and Speed increase from using <COLOR=#FFFFFF>\"Cloud-Riding Dragon\"</COLOR> changes to <216721.VALUE>.",
       "ja": "",
       "zh_tw": "<COLOR=#FFFFFF>＜潛龍升天＞</COLOR>的持續時間變為<216564.DURATION>秒，使用<COLOR=#FFFFFF>＜飛龍乘雲＞</COLOR>時，所受最終傷害減少量與加速增加量變更為<216721.VALUE>",
       "zh_cn": ""
@@ -19083,7 +19083,7 @@
     {
       "no": 232168,
       "kr": "<COLOR=#FFFFFF><잠룡승천></COLOR>의 지속 시간이 <216574.DURATION>초로 변경되고,  <COLOR=#FFFFFF><비룡승운></COLOR>을 사용 시 받는 최종 피해 감소량 및 가속 증가량이 <216731.VALUE>로 변경된다.",
-      "en": "Changes the duration of <COLOR=#FFFFFF>\"Hidden Dragon's Ascent\"</COLOR> to <216574.DURATION> sec. Total damage received and Speed increase from using <COLOR=#FFFFFF>\"Cloud-Riding Dragon\"</COLOR> changes to <216731.VALUE>.",
+      "en": "Changes the duration of <COLOR=#FFFFFF>\"Hidden Dragon's Ascent\"</COLOR> to <216574.DURATION> sec. Total damage received decrease and Speed increase from using <COLOR=#FFFFFF>\"Cloud-Riding Dragon\"</COLOR> changes to <216731.VALUE>.",
       "ja": "",
       "zh_tw": "<COLOR=#FFFFFF>＜潛龍升天＞</COLOR>的持續時間變為<216574.DURATION>秒，使用<COLOR=#FFFFFF>＜飛龍乘雲＞</COLOR>時，所受最終傷害減少量與加速增加量變更為<216731.VALUE>",
       "zh_cn": ""
@@ -29059,7 +29059,7 @@
     {
       "no": 352161,
       "kr": "언월도에 청룡의 기운을 끌어모아 주변을 쓸어베며 자신의 주변 3m에 위치한 모든 적에게 공격력 <216111.VALUE>의 피해를 입히고 공격을 받은 대상은 <216113.DURATION>초 동안 받는 최종 피해량이 <216113.VALUE> 증가하고, 가하는 피해량이 <216114.VALUE> 감소한다.",
-      "en": "Concentrates the Blue Dragon's power into the Crescent Blade, slashing all enemies within 3m, dealing damage equal to <216111.VALUE> of ATK. Also increases the hit target's total damage received by <216113.VALUE> and increases their damage dealt by <216114.VALUE> for <216113.DURATION> sec.",
+      "en": "Concentrates the Blue Dragon's power into the Crescent Blade, slashing all enemies within 3m, dealing damage equal to <216111.VALUE> of ATK. Also increases the hit target's total damage received by <216113.VALUE> and decreases their damage dealt by <216114.VALUE> for <216113.DURATION> sec.",
       "ja": "",
       "zh_tw": "將青龍氣息凝聚在偃月刀，橫掃周邊，對位於自身周遭3m的所有敵人造成攻擊力<216111.VALUE>的傷害，受擊目標<216113.DURATION>秒內所受最終傷害量增加<216113.VALUE>，造成傷害量減少<216114.VALUE>",
       "zh_cn": ""
@@ -29075,7 +29075,7 @@
     {
       "no": 352163,
       "kr": "가장 가까운 적을 대상으로 돌진하여 대상을 꿰뚫고 지나가며 공격력 <216311.VALUE>의 피해를 입히고, 그 후 회전하여 후속 공격으로 자신의 주변 3m의 모든 적에게 공격력 <216313.VALUE>의 피해를 입히며 자신에게 <216314.DURATION>초 동안 받는 최종 피해를 <216314.VALUE> 감소시키는 효과를 부여한다. 후속 공격에 맞은 적은 <216315.DURATION>초 동안 2초마다 공격력 <216315.VALUE>의 피해를 입으며, 명중이 <216317.VALUE> 감소하고, 피격 시 마나 회복이 되지 않는 <COLOR=#FFFFFF><혹한></COLOR> 상태가 부여된다. 해당 상태는 <COLOR=#FFFFFF><냉기></COLOR>로 취급한다.",
-      "en": "Charges at the nearest enemy, piercing through them to deal damage equal to <216311.VALUE> of ATK, then follows up with a spin attack, dealing damage equal to <216313.VALUE> of ATK to all enemies within 3m while gaining a buff that decreases total damage received by <216314.VALUE> for <216314.DURATION> sec. The follow-up attack inflicts <COLOR=#FFFFFF>\"Freeze\"</COLOR> on hit targets, dealing DoT equal to <216315.VALUE> of ATK every 2 sec for <216315.DURATION> sec and decreasing Accuracy by <216317.VALUE>. When affected enemies receive damage, they are also inflicted with <COLOR=#FFFFFF>\"Harsh Cold,\"</COLOR> which disables Mana Recovery.",
+      "en": "Charges at the nearest enemy, piercing through them to deal damage equal to <216311.VALUE> of ATK, then follows up with a spin attack, dealing damage equal to <216313.VALUE> of ATK to all enemies within 3m while gaining a buff that decreases total damage received by <216314.VALUE> for <216314.DURATION> sec. The follow-up attack inflicts <COLOR=#FFFFFF>\"Harsh Cold\"</COLOR> on hit targets, dealing DoT equal to <216315.VALUE> of ATK every 2 sec, decreasing Accuracy by <216317.VALUE>, and prevents mana recovery from being triggered by hits for <216315.DURATION> sec. This debuff is considered the same as <COLOR=#FFFFFF>\"Freeze.\"</COLOR>",
       "ja": "",
       "zh_tw": "以最接近的敵人為目標突進，貫穿並掠過目標，造成攻擊力<216311.VALUE>的傷害後，迴轉進行後續攻擊，對自身周遭3m的所有敵人造成攻擊力<216313.VALUE>的傷害，賦予自身<216314.DURATION>秒內所受最終傷害減少<216314.VALUE>的效果。被後續攻擊擊中的敵人被賦予<COLOR=#FFFFFF>＜嚴寒＞</COLOR>狀態，<216315.DURATION>秒內每2秒受到攻擊力<216315.VALUE>的傷害，命中減少<216317.VALUE>，且受擊時不會恢復魔力。該狀態會被視為<COLOR=#FFFFFF>＜寒氣＞</COLOR>",
       "zh_cn": ""
@@ -29083,7 +29083,7 @@
     {
       "no": 352164,
       "kr": "기본적으로 자신의 최대 체력 <216412.VALUE>만큼의 공격을 흡수하는 <COLOR=#FFFFFF><재생 비늘></COLOR>을 보유하고 있으며 <COLOR=#FFFFFF><재생 비늘></COLOR>이 파괴될 경우 다시 <COLOR=#FFFFFF><재생 비늘></COLOR>이 생성된다. 또한 전장에 있는 동안 아군 전체가 받는 치명타 피해량이 <216418.VALUE> 감소한다.",
-      "en": "Starts out with <COLOR=#FFFFFF>\"Regenerating Scales\"</COLOR> by default, which absorbs damage equal to <216412.VALUE> of max HP. If <COLOR=#FFFFFF>\"Regenerating Scales\"</COLOR> is destroyed, it is regenerated anew. Also, while she is on the battlefield, the Crit DMG received by all allies changes to <216418.VALUE>.<COLOR=#FFFFFF></COLOR>",
+      "en": "Starts out with <COLOR=#FFFFFF>\"Regenerating Scales\"</COLOR> by default, which absorbs damage equal to <216412.VALUE> of max HP. If <COLOR=#FFFFFF>\"Regenerating Scales\"</COLOR> is destroyed, it is regenerated anew. Also, while she is on the battlefield, the Crit DMG received by all allies decreases by <216418.VALUE>.",
       "ja": "",
       "zh_tw": "基本上持有<COLOR=#FFFFFF>＜再生龍鱗＞</COLOR>，吸收相當自身體力上限<216412.VALUE>的攻擊，若<COLOR=#FFFFFF>＜再生龍鱗＞</COLOR>遭到破壞，將再次生成<COLOR=#FFFFFF>＜再生龍鱗＞</COLOR>。另外，在戰場上的期間，所有友軍所受暴擊傷害量變更為<216418.VALUE>",
       "zh_cn": ""
@@ -29091,7 +29091,7 @@
     {
       "no": 352165,
       "kr": "자신에게 청룡의 기운을 끌어모아 잠재된 능력을 해방하여 <216514.DURATION>초 동안 공격력이 <216512.VALUE>, 가속이 <216513.VALUE> 증가하는 <COLOR=#FFFFFF><잠룡승천></COLOR> 버프를 부여하고, 스킬이 부여되거나 해제 될 때 자신의 스킬 순서를 <COLOR=#FFFFFF><용맹무쌍></COLOR>으로 변경한다.\r\n\r\n해당 버프가 있는 동안 각 스킬의 효과가 다음과 같이 변경된다.\r\n\r\n<COLOR=#FFFFFF><빙륜참></COLOR> - 피해량이 2배로 증가하고, 빙륜참의 부여 효과가 1.5배로 변경된다.\r\n<COLOR=#FFFFFF><비룡승운></COLOR> - <COLOR=#FFFFFF><청룡의 숨결></COLOR>을 모든 아군에게 즉시 부여하며 <216241.DURATION>초 동안 받는 최종 피해량이 <216241.VALUE> 감소하고, 가속이 <216342.VALUE> 증가한다.\r\n<COLOR=#FFFFFF><용맹무쌍></COLOR> - 후속 공격을 받은 적의 마나를 <216342.VALUE> 훔쳐온다.\r\n<COLOR=#FFFFFF><빙린불괴></COLOR> - <COLOR=#FFFFFF><재생 비늘></COLOR>이 <COLOR=#FFFFFF><청룡의 비늘 갑주></COLOR>로 변경되며 모든 아군에게 부여되고 피해를 <216414.VALUE> 흡수하며, 치명타 위력을 <216416.VALUE> 증가시킨다.\r\n\r\n해당 스킬은 전투당 1회만 사용할 수 있다.",
-      "en": "Channels the Blue Dragon's power within her to unleash her dormant potential, gaining the <COLOR=#FFFFFF>\"Hidden Dragon's Ascent\"</COLOR> buff for <216514.DURATION> sec, increasing her ATK by <216512.VALUE> and Speed by <216513.VALUE>. Whenever a skill effect is activated or canceled, her skill order is changed to <COLOR=#FFFFFF>\"Peerless Valor.\"</COLOR>\r\n\r\nWhile this buff is active, her skill effects change as follows:\r\n\r\n<COLOR=#FFFFFF>\"Frost Wheel Slash\"</COLOR> - Damage is doubled, and the effects of Frost Wheel Slash are multiplied by 1.5.\r\n<COLOR=#FFFFFF>\"Cloud-Riding Dragon\"</COLOR> - Instantly grants <COLOR=#FFFFFF>\"Blue Dragon's Breath\"</COLOR> to all allies for <216241.DURATION> sec, decreasing their total damage received by <216241.VALUE> and increasing their Speed by <216342.VALUE>.\r\n<COLOR=#FFFFFF>\"Peerless Valor\"</COLOR> - Steals <216342.VALUE> Mana from enemies hit by the follow-up attack.\r\n<COLOR=#FFFFFF>\"Indestructible Ice Scales\"</COLOR> - Changes the <COLOR=#FFFFFF>\"Regenerating Scales\"</COLOR> to <COLOR=#FFFFFF>\"Blue Dragon's Scale Armor,\"</COLOR> which is granted to all allies, absorbs <216414.VALUE> damage, and increases Crit DMG by <216416.VALUE>.\r\n\r\nThis skill can be used only once per battle.",
+      "en": "Channels the Blue Dragon's power within her to unleash her dormant potential, gaining the <COLOR=#FFFFFF>\"Hidden Dragon's Ascent\"</COLOR> buff for <216514.DURATION> sec, increasing her ATK by <216512.VALUE> and Speed by <216513.VALUE>. Whenever a skill effect is activated or expired, the next skill on the rotation is changed to <COLOR=#FFFFFF>\"Peerless Valor.\"</COLOR>\r\n\r\nWhile this buff is active, her skill effects change as follows:\r\n\r\n<COLOR=#FFFFFF>\"Frost Wheel Slash\"</COLOR> - Damage is doubled, and the effects of Frost Wheel Slash are multiplied by 1.5.\r\n<COLOR=#FFFFFF>\"Cloud-Riding Dragon\"</COLOR> - Instantly grants <COLOR=#FFFFFF>\"Blue Dragon's Breath\"</COLOR> to all allies for <216241.DURATION> sec, decreasing their total damage received by <216241.VALUE> and increasing their Speed by <216342.VALUE>.\r\n<COLOR=#FFFFFF>\"Peerless Valor\"</COLOR> - Steals <216342.VALUE> Mana from enemies hit by the follow-up attack.\r\n<COLOR=#FFFFFF>\"Indestructible Ice Scales\"</COLOR> - Changes the <COLOR=#FFFFFF>\"Regenerating Scales\"</COLOR> to <COLOR=#FFFFFF>\"Blue Dragon's Scale Armor,\"</COLOR> which is granted to all allies, absorbs <216414.VALUE> damage, and increases Crit DMG by <216416.VALUE>.\r\n\r\nThis skill can be used only once per battle.",
       "ja": "",
       "zh_tw": "朝自身凝聚青龍氣息，解放潛在的能力，賦予<COLOR=#FFFFFF>＜潛龍升天＞</COLOR>增益效果<216514.DURATION>秒，攻擊力增加<216512.VALUE>、加速增加<216513.VALUE>。被賦予或解除技能時，將自身技能順序變為<COLOR=#FFFFFF>＜勇猛無雙＞</COLOR>。\r\n\r\n持有該增益效果的期間，各技能效果變更如下。\r\n\r\n<COLOR=#FFFFFF>＜冰輪斬＞</COLOR>－傷害量增為2倍，冰輪斬的賦予效果增為1.5倍。\r\n<COLOR=#FFFFFF>＜飛龍乘雲＞</COLOR>－即刻賦予所有友軍<COLOR=#FFFFFF>＜青龍氣息＞</COLOR>，<216241.DURATION>秒內所受最終傷害量減少<216241.VALUE>，加速增加<216342.VALUE>。\r\n<COLOR=#FFFFFF>＜勇猛無雙＞</COLOR>－偷走受到後續攻擊的敵人<216342.VALUE>魔力。\r\n<COLOR=#FFFFFF>＜冰鱗不壞＞</COLOR>－<COLOR=#FFFFFF>＜再生龍鱗＞</COLOR>變更為<COLOR=#FFFFFF>＜青龍鱗甲＞</COLOR>，並賦予所有友軍，吸收<216414.VALUE>傷害，暴擊威力增加<216416.VALUE>。\r\n\r\n該技能每次戰鬥僅能使用1次",
       "zh_cn": ""
@@ -33994,7 +33994,7 @@
     },
     {
       "no": 362164,
-      "kr": "받는 치명타 피해 감소량이 <216428.VALUE> 감소한다.",
+      "kr": "받는 치명타 피해 감소량이 <216428.VALUE>로 변경된다",
       "en": "Incoming Crit DMG decrease changes to <216428.VALUE>.",
       "ja": "",
       "zh_tw": "變更為所受暴擊傷害量減少<216428.VALUE>",
@@ -34003,7 +34003,7 @@
     {
       "no": 362165,
       "kr": "공격력 증가량이 <216522.VALUE>, 가속이 <216523.VALUE>로 변경된다.",
-      "en": "Attack increase changes to <216522.VALUE>. Speed increase changes to <216523.VALUE>.",
+      "en": "ATK increase changes to <216522.VALUE>. Speed increase changes to <216523.VALUE>.",
       "ja": "",
       "zh_tw": "變更為攻擊力增加<216522.VALUE>、加速<216523.VALUE>",
       "zh_cn": ""
@@ -37674,7 +37674,7 @@
     },
     {
       "no": 372164,
-      "kr": "받는 치명타 피해 감소량이 <216438.VALUE> 감소한다.",
+      "kr": "받는 치명타 피해 감소량이 <216438.VALUE>로 변경된다.",
       "en": "Incoming Crit DMG decrease changes to <216438.VALUE>.",
       "ja": "",
       "zh_tw": "變更為所受暴擊傷害量減少<216438.VALUE>",
@@ -37683,7 +37683,7 @@
     {
       "no": 372165,
       "kr": "공격력 증가량이 <216532.VALUE>, 가속이 <216533.VALUE>로 변경된다.",
-      "en": "Attack increase changes to <216532.VALUE>. Speed increase changes to <216533.VALUE>.",
+      "en": "ATK increase changes to <216532.VALUE>. Speed increase changes to <216533.VALUE>.",
       "ja": "",
       "zh_tw": "變更為攻擊力增加<216532.VALUE>、加速<216533.VALUE>",
       "zh_cn": ""
@@ -60058,7 +60058,7 @@
     },
     {
       "no": 38501020,
-      "kr": "<COLOR=#FFFFFF><피바람></COLOR> 부여 조건이 현재 체력 <COLOR=#E0942C>50%</COLOR> 미만으로 변경되고, <COLOR=#FFFFFF><피바람></COLOR>가 부여될 때 2중첩씩 부여된다.",
+      "kr": "<COLOR=#FFFFFF><피바람></COLOR> 부여 조건이 현재 체력 <COLOR=#E0942C>50%</COLOR> 미만으로 변경되고, <COLOR=#FFFFFF><피바람></COLOR>이 부여될 때 2중첩씩 부여된다.",
       "en": "The activation requirement for <COLOR=#FFFFFF>\"Bloodwind\"</COLOR> changes to current HP below <COLOR=#E0942C>50%</COLOR>. <COLOR=#FFFFFF>\"Bloodwind\"</COLOR> stacks increase by 2 at a time.",
       "ja": "<COLOR=#FFFFFF><血風></COLOR>の付与条件が現在の体力の<COLOR=#E0942C>50%</COLOR>未満に変更され、<COLOR=#FFFFFF><血風></COLOR>が付与される時に2スタックずつになる。",
       "zh_tw": "<COLOR=#FFFFFF>＜腥風血雨＞</COLOR>的賦予條件變更為目前體力未滿<COLOR=#E0942C>50%</COLOR>，被賦予<COLOR=#FFFFFF>＜腥風血雨＞</COLOR>時，各賦予2疊加",
