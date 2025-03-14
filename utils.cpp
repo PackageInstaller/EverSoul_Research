@@ -779,7 +779,7 @@ std::vector<std::string> QooAppAPI::generateVersions(const std::string &baseVers
         versions.push_back(std::format("{}.{}.{}", major, minor + 1, p));
     }
 
-    // 主版本号递增，minor从0开始，patch从0开始，向上检查到200
+    // major递增，minor从0开始，patch从0开始，向上检查到200
     for (int p = 0; p <= 200; p++)
     {
         versions.push_back(std::format("{}.{}.{}", major + 1, 0, p));
