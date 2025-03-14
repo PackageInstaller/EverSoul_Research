@@ -773,8 +773,8 @@ std::vector<std::string> QooAppAPI::generateVersions(const std::string &baseVers
         versions.push_back(std::format("{}.{}.{}", major, minor, p));
     }
 
-    // 下一个minor版本，从1开始，向上检查到200
-    for (int p = 1; p <= 200; p++)
+    // 下一个minor版本，从0开始，向上检查到200
+    for (int p = 0; p <= 200; p++)
     {
         versions.push_back(std::format("{}.{}.{}", major, minor + 1, p));
     }
