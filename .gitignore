@@ -1,12 +1,5 @@
 build/*
 .vscode/*
 __pycache__/*
-catalog_eversoul.hash
-CMakeLists.txt
-table_info.json
-*.hpp
-*.cpp
-*.py
-*.cs
 log/*
 backup/*
