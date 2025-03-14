@@ -25,12 +25,8 @@ public:
         TableInfo tableInfo;
     };
 
-    // 检查并安装必要的Python库
     static bool checkAndInstallPythonLibraries();
-    
-    // 使用Python脚本获取应用版本号
-    static std::string getVersionWithPython();
-    
+    static std::string getVersionWithGooglePlay();
     static ApkInfo getApkInfo(const std::string &game_id);
     static TableInfo getTableInfo(const std::string &version);
     static bool checkAndUpdateTables(const std::string &version);
@@ -38,7 +34,12 @@ public:
     static bool downloadAndProcessReviewTables(const ReviewServerInfo &reviewInfo);
     static std::string httpGet(const std::string &url, int retries = 5);
 
-    // 比较两个版本号，返回 -1 表示 v1 < v2，0 表示相等，1 表示 v1 > v2
+    /**
+    * @brief 比较两个版本号
+    * @param v1 第一个版本号
+    * @param v2 第二个版本号
+    * @return 如果v1 < v2返回-1，如果v1 > v2返回1，如果v1 == v2返回0
+    */
     static int compareVersions(const std::string &v1, const std::string &v2)
     {
         std::vector<int> ver1, ver2;
@@ -80,11 +81,11 @@ bool deriveKeyAndIv(std::vector<unsigned char> &key, std::vector<unsigned char> 
 bool isFileDecrypted(const fs::path &filePath);
 bool convertTablesToJson(const std::string &schema_dir, const std::string &table_dir, const std::string &output_dir);
 
-// 通用进度显示函数
+
 void updateProgressDisplay(
-    const std::string &prefix,           // 进度条前缀 (例如: "检查进度", "下载进度" 等)
-    size_t current,                      // 当前进度
-    size_t total,                        // 总数
-    const std::string &suffix = "",      // 进度条后缀 (例如: "当前版本: xxx" 或 "文件名: xxx")
-    size_t *last_output_length = nullptr // 上一次输出的长度，使用指针避免引用问题
+    const std::string &prefix,
+    size_t current,
+    size_t total,
+    const std::string &suffix = "",
+    size_t *last_output_length = nullptr
 );

@@ -4,12 +4,26 @@ using json = nlohmann::json;
 const int tableVersion = 0; // 从cdn直接下载的表版本为0, 游戏下载后的表为获取的版本号
 const std::string keyMagic = "!@UmWlXo";
 
+/**
+ * @brief CURL写回调函数，用于将接收到的数据写入字符串
+ * @param contents 接收到的数据的指针
+ * @param size 每个数据块的大小
+ * @param nmemb 数据块的数量
+ * @param userp 用户提供的指针，这里是指向std::string的指针
+ * @return 实际处理的数据大小
+ */
 size_t QooAppAPI::WriteCallback(void *contents, size_t size, size_t nmemb, std::string *userp)
 {
     userp->append((char *)contents, size * nmemb);
     return size * nmemb;
 }
 
+/**
+ * @brief 执行HTTP GET请求并返回响应内容
+ * @param url 请求的URL
+ * @param retries 重试次数，默认为3次
+ * @return 服务器响应的内容，如果请求失败则返回空字符串
+ */
 std::string QooAppAPI::httpGet(const std::string &url, int retries)
 {
     std::string response;
@@ -45,7 +59,6 @@ std::string QooAppAPI::httpGet(const std::string &url, int retries)
             response.clear();
             CURLcode res = curl_easy_perform(curl);
 
-            // 打印详细的请求信息
             char *effective_url = nullptr;
             curl_easy_getinfo(curl, CURLINFO_EFFECTIVE_URL, &effective_url);
 
@@ -83,6 +96,12 @@ std::string QooAppAPI::httpGet(const std::string &url, int retries)
     return response;
 }
 
+/**
+ * @brief 在字符串中查找两个分隔符之间的内容
+ * @param str 要搜索的字符串
+ * @param delimiters 包含起始分隔符、中间分隔符和结束分隔符的向量
+ * @return 找到的子字符串，如果未找到则返回空字符串
+ */
 std::string QooAppAPI::findBetween(const std::string &str, const std::vector<std::string> &delimiters)
 {
     size_t start = str.find(delimiters[0]);
@@ -101,6 +120,11 @@ std::string QooAppAPI::findBetween(const std::string &str, const std::vector<std
     return str.substr(start, end - start);
 }
 
+/**
+ * @brief 获取指定游戏的APK信息
+ * @param game_id 游戏的ID
+ * @return ApkInfo 包含版本和下载链接的APK信息
+ */
 QooAppAPI::ApkInfo QooAppAPI::getApkInfo(const std::string &game_id)
 {
     ApkInfo info;
@@ -163,7 +187,14 @@ QooAppAPI::ApkInfo QooAppAPI::getApkInfo(const std::string &game_id)
     return info;
 }
 
-// 通用进度显示函数
+/**
+ * @brief 更新并显示进度条
+ * @param prefix 进度条前缀文本
+ * @param current 当前进度值
+ * @param total 总进度值
+ * @param suffix 进度条后缀文本
+ * @param last_output_length 指向上次输出长度的指针，用于清除旧输出
+ */
 void updateProgressDisplay(const std::string &prefix, size_t current, size_t total,
                            const std::string &suffix, size_t *last_output_length)
 {
@@ -194,6 +225,15 @@ void updateProgressDisplay(const std::string &prefix, size_t current, size_t tot
     last_length = output_str.length();
 }
 
+/**
+ * @brief 下载进度回调函数
+ * @param clientp 用户自定义数据指针
+ * @param dltotal 预期下载的总字节数
+ * @param dlnow 当前已下载的字节数
+ * @param ultotal 预期上传的总字节数
+ * @param ulnow 当前已上传的字节数
+ * @return 0 表示继续传输，非 0 表示中止传输
+ */
 static int progressCallback(void *clientp, curl_off_t dltotal, curl_off_t dlnow, curl_off_t ultotal, curl_off_t ulnow)
 {
     if (dltotal <= 0)
@@ -205,6 +245,12 @@ static int progressCallback(void *clientp, curl_off_t dltotal, curl_off_t dlnow,
     return 0;
 }
 
+/**
+ * @brief 下载指定URL的文件到本地
+ * @param url 要下载的文件的URL
+ * @param filepath 保存下载文件的本地路径
+ * @return 下载成功返回true，失败返回false
+ */
 bool QooAppAPI::downloadFile(const std::string &url, const std::string &filepath)
 {
     CURL *curl = curl_easy_init();
@@ -234,6 +280,11 @@ bool QooAppAPI::downloadFile(const std::string &url, const std::string &filepath
     return (res == CURLE_OK);
 }
 
+/**
+ * @brief 获取指定版本的数据表信息
+ * @param version 游戏版本号
+ * @return TableInfo 包含数据表版本和操作信息的结构体
+ */
 QooAppAPI::TableInfo QooAppAPI::getTableInfo(const std::string &version)
 {
     std::string url = "https://patch.esoul.kakaogames.com/Live/" + version + "/Table/const_data_version.json";
@@ -246,6 +297,11 @@ QooAppAPI::TableInfo QooAppAPI::getTableInfo(const std::string &version)
     return info;
 }
 
+/**
+ * @brief 检查并更新游戏数据表
+ * @param version 游戏版本号
+ * @return 如果数据表需要更新并成功更新则返回true，否则返回false
+ */
 bool QooAppAPI::checkAndUpdateTables(const std::string &version)
 {
     std::println("检查 Live 服务器数据表更新...");
@@ -403,11 +459,9 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
 
 /**
  * @brief 密钥派生函数
- * 
- * @param key 
- * @param iv 
- * @return true 
- * @return false 
+ * @param key 解密密钥
+ * @param iv 初始化向量
+ * @return 解密成功返回true，失败返回false
  */
 bool deriveKeyAndIv(std::vector<unsigned char> &key, std::vector<unsigned char> &iv)
 {
@@ -432,14 +486,12 @@ bool deriveKeyAndIv(std::vector<unsigned char> &key, std::vector<unsigned char> 
 }
 
 /**
- * @brief aes128cbc解密
- * 
- * @param ciphertext 
- * @param plaintext 
- * @param key 
- * @param iv 
- * @return true 
- * @return false 
+ * @brief 使用AES-128-CBC模式解密数据
+ * @param ciphertext 待解密的密文数据
+ * @param plaintext 解密后的明文数据（输出参数）
+ * @param key 解密密钥
+ * @param iv 初始化向量
+ * @return 解密成功返回true，失败返回false
  */
 bool decryptAes128Cbc(const std::vector<unsigned char> &ciphertext, std::vector<unsigned char> &plaintext,
                       const std::vector<unsigned char> &key, const std::vector<unsigned char> &iv)
@@ -481,7 +533,15 @@ bool decryptAes128Cbc(const std::vector<unsigned char> &ciphertext, std::vector<
     return true;
 }
 
-// 将解密后的数据直接写回原文件
+/**
+ * @brief 在文件原位解密数据
+ * @param filePath 要解密的文件路径
+ * @param current_file 当前处理的文件序号
+ * @param total_files 总文件数
+ * @param key 解密密钥
+ * @param iv 初始化向量
+ * @return 解密成功返回true，失败返回false
+ */
 static bool decryptFileInPlace(const fs::path &filePath, size_t current_file, size_t total_files, const std::vector<unsigned char> &key, const std::vector<unsigned char> &iv)
 {
     try
@@ -548,7 +608,13 @@ static bool decryptFileInPlace(const fs::path &filePath, size_t current_file, si
     }
 }
 
-// 解密文件
+/**
+ * @brief 解密多个文件
+ * @param files 需要解密的文件路径列表
+ * @param key 解密密钥
+ * @param iv 初始化向量
+ * @return 所有文件解密成功返回true，任一文件解密失败返回false
+ */
 bool decryptFiles(const std::vector<fs::path> &files, const std::vector<unsigned char> &key, const std::vector<unsigned char> &iv)
 {
     size_t total_files = files.size();
@@ -571,7 +637,11 @@ bool decryptFiles(const std::vector<fs::path> &files, const std::vector<unsigned
     return true;
 }
 
-// 检查文件是否已解密
+/**
+ * @brief 检查文件是否已经被解密
+ * @param filePath 要检查的文件路径
+ * @return 如果文件已解密返回true，否则返回false
+ */
 bool isFileDecrypted(const fs::path &filePath)
 {
     std::ifstream file(filePath, std::ios::binary);
@@ -600,7 +670,13 @@ bool isFileDecrypted(const fs::path &filePath)
     return has_uniform_offsets;
 }
 
-// 转换表为json
+/**
+ * @brief 将数据表转换为JSON格式
+ * @param schema_dir FlatBuffers schema文件所在的目录路径
+ * @param table_dir 二进制数据表文件所在的目录路径
+ * @param output_dir 输出JSON文件的目录路径
+ * @return 转换成功返回true，失败返回false
+ */
 bool convertTablesToJson(const std::string &schema_dir, const std::string &table_dir, const std::string &output_dir)
 {
     try
@@ -670,6 +746,11 @@ bool convertTablesToJson(const std::string &schema_dir, const std::string &table
     }
 }
 
+/**
+ * @brief 生成一系列可能的版本号
+ * @param baseVersion 基础版本号
+ * @return 包含所有可能版本号的字符串向量
+ */
 std::vector<std::string> QooAppAPI::generateVersions(const std::string &baseVersion)
 {
     std::vector<std::string> versions;
@@ -707,6 +788,12 @@ std::vector<std::string> QooAppAPI::generateVersions(const std::string &baseVers
     return versions;
 }
 
+/**
+ * @brief 检查指定版本是否为可用的Review服务器版本
+ * @param version 要检查的版本号
+ * @param cdnDate 输出参数，如果版本可用，存储对应的CDN日期
+ * @return 如果版本可用返回true，否则返回false
+ */
 bool QooAppAPI::checkVersion(const std::string &version, std::string &cdnDate)
 {
     std::string url = "https://gc-infodesk-zinny3.kakaogames.com/v2/app?appId=743491&appVer=" +
@@ -763,6 +850,11 @@ bool QooAppAPI::checkVersion(const std::string &version, std::string &cdnDate)
     return false;
 }
 
+/**
+ * @brief 检查Review服务器并获取相关信息
+ * @param baseVersion 基础版本号，用于生成可能的版本号
+ * @return ReviewServerInfo 包含Review服务器信息的结构体
+ */
 QooAppAPI::ReviewServerInfo QooAppAPI::checkReviewServer(const std::string &baseVersion)
 {
     ReviewServerInfo info;
@@ -775,7 +867,7 @@ QooAppAPI::ReviewServerInfo QooAppAPI::checkReviewServer(const std::string &base
     // 首先搜索新版本
     std::vector<std::string> versions = generateVersions(baseVersion);
 
-    // 获取CPU核心数，如果获取失败则使用默认值8
+    // 获取CPU核心数，如果获取失败则使用默认值128
     const unsigned int cpu_cores = std::thread::hardware_concurrency();
     // 将线程数设置为核心数的18倍，但不超过1024
     const int max_threads = std::min(static_cast<unsigned int>(1024),
@@ -924,6 +1016,11 @@ QooAppAPI::ReviewServerInfo QooAppAPI::checkReviewServer(const std::string &base
     return info;
 }
 
+/**
+ * @brief 下载并处理Review服务器的数据表
+ * @param reviewInfo Review服务器的信息，包含版本、日期等
+ * @return 如果成功下载并处理数据表返回true，否则返回false
+ */
 bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInfo)
 {
     std::println("检查 Review 服务器数据表更新...");
@@ -1089,7 +1186,10 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
     return true;
 }
 
-// 检查并安装必要的Python库
+/**
+ * @brief 检查并安装必要的Python库
+ * @return 如果Python环境正确且所需库已安装或成功安装则返回true，否则返回false
+ */
 bool QooAppAPI::checkAndInstallPythonLibraries()
 {
     // 检查python3是否可用
@@ -1147,8 +1247,11 @@ print("installed" if importlib.util.find_spec("google_play_scraper") else "not_i
     return true;
 }
 
-// 使用Python脚本获取应用版本号
-std::string QooAppAPI::getVersionWithPython()
+/**
+ * @brief 使用Python脚本从Google Play获取最新的应用版本号
+ * @return 成功时返回版本号字符串，失败时返回空字符串
+ */
+std::string QooAppAPI::getVersionWithGooglePlay()
 {
 
     std::string pythonScript = R"(import json
