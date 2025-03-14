@@ -1,9 +1,14 @@
 # eversoul_tables
 
-## 以下为猜测schema实现的表，参数均参考其他表
+## 说明
+
+* 使用检查更新脚本前需要构建可执行文件并提前安装 `google_play_scraper` 这个python包
+
+### 以下为猜测schema实现的表，参数均参考其他表
 
 * DungeonBlock
 * EventDefenseInfo
 * HeroLoveBuff
-* TalkStage(这个尤其恶心，名称不知道写啥就先随便填了)
+* TalkStage
 * WorldRaidHpCare
+
