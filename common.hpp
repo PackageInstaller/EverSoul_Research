@@ -23,3 +23,8 @@
 #include <algorithm>
 
 namespace fs = std::filesystem;
+using json = nlohmann::json;
+
+// 全局常量
+const int tableVersion = 0; // 从cdn直接下载的表版本为0, 游戏下载后的表为获取的版本号
+const std::string keyMagic = "!@UmWlXo";

@@ -1,6 +1,14 @@
+/**
+ * @file main.cpp
+ * @author 少姜
+ * @brief 
+ * @version 1.0
+ * @date 2025-03-14
+ * 
+ * @copyright Copyright (c) 2025
+ * 
+ */
 #include "main.hpp"
-
-using json = nlohmann::json;
 
 int main(int argc, char *argv[])
 {

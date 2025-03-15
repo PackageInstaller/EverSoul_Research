@@ -1,9 +1,5 @@
 #include "utils.hpp"
 
-using json = nlohmann::json;
-const int tableVersion = 0; // 从cdn直接下载的表版本为0, 游戏下载后的表为获取的版本号
-const std::string keyMagic = "!@UmWlXo";
-
 /**
  * @brief CURL写回调函数，用于将接收到的数据写入字符串
  * @param contents 接收到的数据的指针
