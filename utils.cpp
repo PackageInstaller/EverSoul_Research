@@ -381,19 +381,22 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
     // 添加下载重试逻辑
     const int maxRetries = 3;
     bool downloadSuccess = false;
-    
-    for (int retry = 1; retry <= maxRetries; retry++) {
-        if (downloadFile(zipUrl, zipPath)) {
+
+    for (int retry = 1; retry <= maxRetries; retry++)
+    {
+        if (downloadFile(zipUrl, zipPath))
+        {
             downloadSuccess = true;
             break;
         }
-        
+
         std::println("\033[33m下载失败，等待重试...\033[0m");
         // 重试前等待一段时间，避免频繁请求
         std::this_thread::sleep_for(std::chrono::seconds(2));
     }
-    
-    if (!downloadSuccess) {
+
+    if (!downloadSuccess)
+    {
         std::println("\033[31m下载数据表压缩包失败，已重试 {} 次\033[0m", maxRetries);
         return false;
     }
@@ -408,7 +411,7 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
     fs::remove(zipPath);
 
     // 解密正式服数据表
-    std::vector<unsigned char> key, iv;
+    std::vector<u_int8_t> key, iv;
     if (!deriveKeyAndIv(key, iv))
     {
         std::println("\033[31m密钥派生失败\033[0m");
@@ -459,15 +462,15 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
  * @param iv 初始化向量
  * @return 解密成功返回true，失败返回false
  */
-bool deriveKeyAndIv(std::vector<unsigned char> &key, std::vector<unsigned char> &iv)
+bool deriveKeyAndIv(std::vector<u_int8_t> &key, std::vector<u_int8_t> &iv)
 {
     // 计算 (tableVersion ^ 0x80000000) 并作为有符号整数，生成一个基于tableVersion的唯一值
     int32_t xor_result = static_cast<int32_t>(tableVersion ^ 0x80000000);
-    std::string unhashKey = std::to_string(xor_result) + keyMagic; // "-2147483648!@UmWlXo"
+    std::string unhashKey = std::to_string(xor_result) + keyMagic;
 
-    // 使用SHA256算法对未哈希的密钥进行哈希处理
-    unsigned char hash[SHA256_DIGEST_LENGTH];
-    if (!SHA256(reinterpret_cast<const unsigned char *>(unhashKey.c_str()), unhashKey.size(), hash))
+    // SHA256处理
+    u_int8_t hash[SHA256_DIGEST_LENGTH];
+    if (!SHA256(reinterpret_cast<const u_int8_t *>(unhashKey.c_str()), unhashKey.size(), hash))
     {
         std::println("\033[31mSHA256 hashing 失败.\033[0m");
         return false;
@@ -489,8 +492,8 @@ bool deriveKeyAndIv(std::vector<unsigned char> &key, std::vector<unsigned char> 
  * @param iv 初始化向量
  * @return 解密成功返回true，失败返回false
  */
-bool decryptAes128Cbc(const std::vector<unsigned char> &ciphertext, std::vector<unsigned char> &plaintext,
-                      const std::vector<unsigned char> &key, const std::vector<unsigned char> &iv)
+bool decryptAes128Cbc(const std::vector<u_int8_t> &ciphertext, std::vector<u_int8_t> &plaintext,
+                      const std::vector<u_int8_t> &key, const std::vector<u_int8_t> &iv)
 {
     EVP_CIPHER_CTX *ctx = EVP_CIPHER_CTX_new();
     if (!ctx)
@@ -538,7 +541,7 @@ bool decryptAes128Cbc(const std::vector<unsigned char> &ciphertext, std::vector<
  * @param iv 初始化向量
  * @return 解密成功返回true，失败返回false
  */
-static bool decryptFileInPlace(const fs::path &filePath, size_t current_file, size_t total_files, const std::vector<unsigned char> &key, const std::vector<unsigned char> &iv)
+static bool decryptFileInPlace(const fs::path &filePath, size_t current_file, size_t total_files, const std::vector<u_int8_t> &key, const std::vector<u_int8_t> &iv)
 {
     try
     {
@@ -553,7 +556,7 @@ static bool decryptFileInPlace(const fs::path &filePath, size_t current_file, si
         size_t fileSize = inputFile.tellg();
         inputFile.seekg(0, std::ios::beg);
 
-        std::vector<unsigned char> ciphertext;
+        std::vector<u_int8_t> ciphertext;
         ciphertext.reserve(fileSize);
 
         const size_t bufferSize = 8192;
@@ -573,13 +576,13 @@ static bool decryptFileInPlace(const fs::path &filePath, size_t current_file, si
                 totalRead += bytesRead;
 
                 // 使用通用进度显示函数
-                updateProgressDisplay("解密进度", current_file, total_files, 
-                                     filePath.filename().string(), &last_output_length);
+                updateProgressDisplay("解密进度", current_file, total_files,
+                                      filePath.filename().string(), &last_output_length);
             }
         }
         inputFile.close();
 
-        std::vector<unsigned char> plaintext;
+        std::vector<u_int8_t> plaintext;
         if (!decryptAes128Cbc(ciphertext, plaintext, key, iv))
         {
             return false;
@@ -611,7 +614,7 @@ static bool decryptFileInPlace(const fs::path &filePath, size_t current_file, si
  * @param iv 初始化向量
  * @return 所有文件解密成功返回true，任一文件解密失败返回false
  */
-bool decryptFiles(const std::vector<fs::path> &files, const std::vector<unsigned char> &key, const std::vector<unsigned char> &iv)
+bool decryptFiles(const std::vector<fs::path> &files, const std::vector<u_int8_t> &key, const std::vector<u_int8_t> &iv)
 {
     size_t total_files = files.size();
     size_t current_file = 0;
@@ -644,7 +647,7 @@ bool isFileDecrypted(const fs::path &filePath)
     if (!file)
         return false;
 
-    unsigned char header[32];
+    u_int8_t header[32];
     file.read(reinterpret_cast<char *>(header), 32);
 
     if (!file)
@@ -864,9 +867,9 @@ QooAppAPI::ReviewServerInfo QooAppAPI::checkReviewServer(const std::string &base
     std::vector<std::string> versions = generateVersions(baseVersion);
 
     // 获取CPU核心数，如果获取失败则使用默认值128
-    const unsigned int cpu_cores = std::thread::hardware_concurrency();
+    const u_int32_t cpu_cores = std::thread::hardware_concurrency();
     // 将线程数设置为核心数的18倍，但不超过1024
-    const int max_threads = std::min(static_cast<unsigned int>(1024),
+    const int max_threads = std::min(static_cast<u_int32_t>(1024),
                                      cpu_cores > 0 ? cpu_cores * 18 : 128);
 
     std::vector<std::future<std::pair<bool, std::string>>> futures;
@@ -1108,19 +1111,22 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
     // 添加下载重试逻辑
     const int maxRetries = 3;
     bool downloadSuccess = false;
-    
-    for (int retry = 1; retry <= maxRetries; retry++) {
-        if (downloadFile(zipUrl, zipPath)) {
+
+    for (int retry = 1; retry <= maxRetries; retry++)
+    {
+        if (downloadFile(zipUrl, zipPath))
+        {
             downloadSuccess = true;
             break;
         }
-        
+
         std::println("\033[33m下载失败，等待重试...\033[0m");
         // 重试前等待一段时间，避免频繁请求
         std::this_thread::sleep_for(std::chrono::seconds(2));
     }
-    
-    if (!downloadSuccess) {
+
+    if (!downloadSuccess)
+    {
         std::println("\033[31m下载 Review 数据表压缩包失败，已重试 {} 次\033[0m", maxRetries);
         return false;
     }
@@ -1135,7 +1141,7 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
     fs::remove(zipPath);
 
     // 解密 Review 数据表
-    std::vector<unsigned char> key, iv;
+    std::vector<u_int8_t> key, iv;
     if (!deriveKeyAndIv(key, iv))
     {
         std::println("\033[31m密钥派生失败\033[0m");
@@ -1195,13 +1201,13 @@ bool QooAppAPI::checkAndInstallPythonLibraries()
         std::println("\033[31mPython3未安装或不可用\033[0m");
         return false;
     }
-    
+
     // 检查google_play_scraper库是否已安装
     std::string checkScript = R"(import importlib.util
 import sys
 print("installed" if importlib.util.find_spec("google_play_scraper") else "not_installed")
 )";
-    
+
     // 检查脚本文件是否存在，不存在则创建
     if (!fs::exists("check_library.py"))
     {
@@ -1209,13 +1215,13 @@ print("installed" if importlib.util.find_spec("google_play_scraper") else "not_i
         scriptFile << checkScript;
         scriptFile.close();
     }
-    
-    FILE* pipe = popen("python check_library.py", "r");
+
+    FILE *pipe = popen("python check_library.py", "r");
     if (!pipe)
     {
         return false;
     }
-    
+
     char buffer[128];
     std::string result = "";
     while (!feof(pipe))
@@ -1224,10 +1230,10 @@ print("installed" if importlib.util.find_spec("google_play_scraper") else "not_i
             result += buffer;
     }
     pclose(pipe);
-    
+
     // 去除结果中的空白字符
     result.erase(std::remove_if(result.begin(), result.end(), ::isspace), result.end());
-    
+
     if (result == "not_installed")
     {
         std::println("检测到缺失依赖，正在安装...");
@@ -1239,7 +1245,7 @@ print("installed" if importlib.util.find_spec("google_play_scraper") else "not_i
         }
         std::println("\033[32m成功安装缺失依赖\033[0m");
     }
-    
+
     return true;
 }
 
@@ -1259,7 +1265,7 @@ try:
 except Exception as e:
     print(json.dumps({"success": False, "error": str(e)}))
 )";
-    
+
     // 不存在则创建
     if (!fs::exists("version_scraper.py"))
     {
@@ -1267,15 +1273,15 @@ except Exception as e:
         scriptFile << pythonScript;
         scriptFile.close();
     }
-    
+
     std::string command = "python version_scraper.py 2>/dev/null";
-    FILE* pipe = popen(command.c_str(), "r");
+    FILE *pipe = popen(command.c_str(), "r");
     if (!pipe)
     {
         std::println("\033[31mPython脚本执行失败\033[0m");
         return "";
     }
-    
+
     char buffer[128];
     std::string result = "";
     while (!feof(pipe))
@@ -1284,7 +1290,7 @@ except Exception as e:
             result += buffer;
     }
     pclose(pipe);
-    
+
     try
     {
         json response = json::parse(result);
@@ -1297,10 +1303,10 @@ except Exception as e:
             std::println("\033[33mPython获取版本号失败: {}\033[0m", response["error"].get<std::string>());
         }
     }
-    catch (const std::exception& e)
+    catch (const std::exception &e)
     {
         std::println("\033[31mPython脚本返回结果解析失败: {}\033[0m", e.what());
     }
-    
+
     return "";
 }

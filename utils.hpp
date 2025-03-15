@@ -74,10 +74,10 @@ private:
     static std::vector<std::string> generateVersions(const std::string &baseVersion);
 };
 
-bool decryptFiles(const std::vector<fs::path> &files, const std::vector<unsigned char> &key, const std::vector<unsigned char> &iv);
-bool decryptAes128Cbc(const std::vector<unsigned char> &ciphertext, std::vector<unsigned char> &plaintext,
-                      const std::vector<unsigned char> &key, const std::vector<unsigned char> &iv);
-bool deriveKeyAndIv(std::vector<unsigned char> &key, std::vector<unsigned char> &iv);
+bool decryptFiles(const std::vector<fs::path> &files, const std::vector<u_int8_t> &key, const std::vector<u_int8_t> &iv);
+bool decryptAes128Cbc(const std::vector<u_int8_t> &ciphertext, std::vector<u_int8_t> &plaintext,
+                      const std::vector<u_int8_t> &key, const std::vector<u_int8_t> &iv);
+bool deriveKeyAndIv(std::vector<u_int8_t> &key, std::vector<u_int8_t> &iv);
 bool isFileDecrypted(const fs::path &filePath);
 bool convertTablesToJson(const std::string &schema_dir, const std::string &table_dir, const std::string &output_dir);
 
