@@ -1230,14 +1230,14 @@ print("installed" if importlib.util.find_spec("google_play_scraper") else "not_i
     
     if (result == "not_installed")
     {
-        std::println("安装 google_play_scraper 库...");
+        std::println("检测到缺失依赖，正在安装...");
         int installResult = system("pip install google_play_scraper --user > /dev/null 2>&1");
         if (installResult != 0)
         {
-            std::println("\033[31m安装 google_play_scraper 失败\033[0m");
+            std::println("\033[31m安装缺失依赖失败\033[0m");
             return false;
         }
-        std::println("\033[32m成功安装 google_play_scraper\033[0m");
+        std::println("\033[32m成功安装缺失依赖\033[0m");
     }
     
     return true;
