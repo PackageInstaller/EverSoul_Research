@@ -356,10 +356,16 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
             if (table_info.contains("live"))
             {
                 if (table_info["live"]["tableVersion"] != tableInfo.version)
+                {
                     std::println("- 表版本不同: {} -> {}",
-                                 table_info["live"]["tableVersion"].get<int>(), tableInfo.version);
+                        table_info["live"]["tableVersion"].get<int>(), tableInfo.version);
+                }
+                    
                 if (table_info["live"]["hash"] != currentHash)
+                {
                     std::println("- 哈希值不同");
+                }
+                    
             }
             else
             {
