@@ -530,6 +530,24 @@
       "story_act": 60901,
       "story_open_behavior": 101,
       "bg_path": "CruiseParty/bg_eventstage_CruiseParty"
+    },
+    {
+      "no": 60,
+      "event_type": 6,
+      "event_group": 13,
+      "event_number": 2,
+      "story_act": 61001,
+      "story_open_behavior": 101,
+      "bg_path": "MaidPlan/bg_eventstage_MaidPlan"
+    },
+    {
+      "no": 61,
+      "event_type": 9,
+      "event_group": 9,
+      "event_number": 2,
+      "story_act": 61001,
+      "story_open_behavior": 101,
+      "bg_path": "MaidPlan/bg_eventstage_MaidPlan"
     }
   ]
 }

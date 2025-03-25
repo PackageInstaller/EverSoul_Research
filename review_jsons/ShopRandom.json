@@ -538,6 +538,28 @@
       "tip3_sno1": 532157,
       "tip3_sno2": 532157,
       "tip3_sno3": 532158
+    },
+    {
+      "no": 26,
+      "shop_no": 10026,
+      "pay_item_no": 8129,
+      "pay_item_amount": 100,
+      "repeat_draw_box": "6,7",
+      "bg_path": "MaidPlan/bg_eventstage_MaidPlan",
+      "shop_image_path": "",
+      "shop_name_sno": 12352,
+      "event_shop_hero": 2120,
+      "model_viewer_display": 2309,
+      "model_offset": "[0, 0, 0]",
+      "tip_sno1": 532171,
+      "tip_sno2": 532171,
+      "tip_sno3": 532172,
+      "tip2_sno1": 532173,
+      "tip2_sno2": 532173,
+      "tip2_sno3": 532174,
+      "tip3_sno1": 532175,
+      "tip3_sno2": 532175,
+      "tip3_sno3": 532176
     }
   ]
 }

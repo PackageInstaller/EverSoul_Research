@@ -4756,6 +4756,66 @@
       "hero_check": 5030
     },
     {
+      "no": 50401,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2504001,
+      "thumbnail_path": "Codex_Talk_Event_Hanul_01",
+      "bg_movie_path": "Story/Love/Hanul/01_ADDON/Talk_Event_Hanul_01",
+      "lobby": 1,
+      "hero_check": 5040
+    },
+    {
+      "no": 50402,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2504003,
+      "thumbnail_path": "Codex_Talk_Event_Hanul_02",
+      "bg_movie_path": "Story/Love/Hanul/03_ADDON/Talk_Event_Hanul_02",
+      "lobby": 1,
+      "hero_check": 5040
+    },
+    {
+      "no": 50403,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2504005,
+      "thumbnail_path": "Codex_Talk_Event_Hanul_03",
+      "bg_movie_path": "Story/Love/Hanul/05_ADDON/Talk_Event_Hanul_03",
+      "lobby": 1,
+      "hero_check": 5040
+    },
+    {
+      "no": 50404,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2504008,
+      "thumbnail_path": "Codex_Talk_Event_Hanul_04",
+      "bg_movie_path": "Story/Love/Hanul/08_ADDON/Talk_Event_Hanul_04",
+      "lobby": 1,
+      "hero_check": 5040
+    },
+    {
+      "no": 50405,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2504009,
+      "thumbnail_path": "Codex_Talk_Event_Hanul_05",
+      "bg_movie_path": "Story/Love/Hanul/09_ADDON/Talk_Event_Hanul_05",
+      "lobby": 1,
+      "hero_check": 5040
+    },
+    {
+      "no": 50406,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2504010,
+      "thumbnail_path": "Codex_Talk_Event_Hanul_06",
+      "bg_movie_path": "Story/Love/Hanul/10_ADDON/Talk_Event_Hanul_06",
+      "lobby": 1,
+      "hero_check": 5040
+    },
+    {
       "no": 60101,
       "category": 2,
       "open_type": 2,

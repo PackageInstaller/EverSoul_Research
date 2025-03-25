@@ -2109,6 +2109,39 @@
       "icon_img": "Icon_Tresure_109",
       "name_sno": 490281,
       "desc_sno": 490282
+    },
+    {
+      "no": 3249,
+      "group": 3002,
+      "effect_type": 1,
+      "grade_sno": 110018,
+      "buff_group": 29,
+      "battlebuff_no": 6026,
+      "icon_img": "Icon_Tresure_107",
+      "name_sno": 490261,
+      "desc_sno": 490262
+    },
+    {
+      "no": 3250,
+      "group": 3002,
+      "effect_type": 1,
+      "grade_sno": 110018,
+      "buff_group": 30,
+      "battlebuff_no": 6028,
+      "icon_img": "Icon_Tresure_109",
+      "name_sno": 490281,
+      "desc_sno": 490282
+    },
+    {
+      "no": 3251,
+      "group": 3002,
+      "effect_type": 1,
+      "grade_sno": 110018,
+      "buff_group": 31,
+      "battlebuff_no": 8641,
+      "icon_img": "Icon_Tresure_110",
+      "name_sno": 490283,
+      "desc_sno": 490284
     }
   ]
 }

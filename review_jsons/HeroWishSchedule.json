@@ -278,7 +278,7 @@
       "wishlist_tier": 2,
       "view_type": 1,
       "server_check": 3,
-      "open_date": "2024-11-01 00:00:00"
+      "open_date": "2025-03-17 00:00:00"
     },
     {
       "no": 1014,
@@ -286,7 +286,7 @@
       "wishlist_tier": 2,
       "view_type": 1,
       "server_check": 4,
-      "open_date": "2024-11-01 00:00:00"
+      "open_date": "2025-03-17 00:00:00"
     },
     {
       "no": 1021,
@@ -2241,6 +2241,38 @@
       "open_date": "2024-11-01 00:00:00"
     },
     {
+      "no": 5041,
+      "hero_check": 5040,
+      "wishlist_tier": 1,
+      "view_type": 1,
+      "server_check": 1,
+      "open_date": "2025-05-08 00:00:00"
+    },
+    {
+      "no": 5042,
+      "hero_check": 5040,
+      "wishlist_tier": 1,
+      "view_type": 1,
+      "server_check": 2,
+      "open_date": "2025-05-08 00:00:00"
+    },
+    {
+      "no": 5043,
+      "hero_check": 5040,
+      "wishlist_tier": 1,
+      "view_type": 1,
+      "server_check": 3,
+      "open_date": "2025-05-08 00:00:00"
+    },
+    {
+      "no": 5044,
+      "hero_check": 5040,
+      "wishlist_tier": 1,
+      "view_type": 1,
+      "server_check": 4,
+      "open_date": "2025-05-08 00:00:00"
+    },
+    {
       "no": 6011,
       "hero_check": 6010,
       "wishlist_tier": 1,
@@ -2294,7 +2326,7 @@
       "wishlist_tier": 1,
       "view_type": 1,
       "server_check": 3,
-      "open_date": "2024-11-01 00:00:00"
+      "open_date": "2025-03-21 00:00:00"
     },
     {
       "no": 6024,
@@ -2302,7 +2334,7 @@
       "wishlist_tier": 1,
       "view_type": 1,
       "server_check": 4,
-      "open_date": "2024-11-01 00:00:00"
+      "open_date": "2025-03-21 00:00:00"
     },
     {
       "no": 6031,
@@ -2358,7 +2390,7 @@
       "wishlist_tier": 1,
       "view_type": 1,
       "server_check": 3,
-      "open_date": "2024-11-01 00:00:00"
+      "open_date": "2025-03-14 00:00:00"
     },
     {
       "no": 6054,
@@ -2366,7 +2398,7 @@
       "wishlist_tier": 1,
       "view_type": 1,
       "server_check": 4,
-      "open_date": "2024-11-01 00:00:00"
+      "open_date": "2025-03-14 00:00:00"
     }
   ]
 }

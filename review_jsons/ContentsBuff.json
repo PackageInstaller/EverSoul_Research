@@ -43529,6 +43529,64 @@
       "defence": 3.0,
       "defence_rate": 3.0,
       "hp_rate": 3.0
+    },
+    {
+      "no": 5010101,
+      "hp_rate": 0.3
+    },
+    {
+      "no": 5010102,
+      "attack_rate": 0.05,
+      "defence_rate": 0.05,
+      "hp_rate": 0.5
+    },
+    {
+      "no": 5010103,
+      "attack_rate": 0.1,
+      "defence_rate": 0.1,
+      "hp_rate": 0.75
+    },
+    {
+      "no": 5010104,
+      "attack_rate": 0.15,
+      "defence_rate": 0.15,
+      "hp_rate": 1.0
+    },
+    {
+      "no": 5010105,
+      "attack_rate": 0.25,
+      "defence_rate": 0.25,
+      "hp_rate": 1.3
+    },
+    {
+      "no": 5010106,
+      "attack_rate": 0.35,
+      "defence_rate": 0.35,
+      "hp_rate": 1.65
+    },
+    {
+      "no": 5010107,
+      "attack_rate": 0.45,
+      "defence_rate": 0.45,
+      "hp_rate": 2.0
+    },
+    {
+      "no": 5010108,
+      "attack_rate": 0.6,
+      "defence_rate": 0.6,
+      "hp_rate": 2.5
+    },
+    {
+      "no": 5010109,
+      "attack_rate": 0.8,
+      "defence_rate": 0.8,
+      "hp_rate": 3.0
+    },
+    {
+      "no": 5010110,
+      "attack_rate": 1.0,
+      "defence_rate": 1.0,
+      "hp_rate": 5.0
     }
   ]
 }

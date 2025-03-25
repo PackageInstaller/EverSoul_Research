@@ -1,12 +1,12 @@
 /**
  * @file main.cpp
  * @author 少姜
- * @brief 
+ * @brief
  * @version 1.0
  * @date 2025-03-14
- * 
+ *
  * @copyright Copyright (c) 2025
- * 
+ *
  */
 #include "main.hpp"
 
@@ -14,10 +14,9 @@ int main(int argc, char *argv[])
 {
     try
     {
-        // 检查并安装必要的Python库
         bool pythonReady = QooAppAPI::checkAndInstallPythonLibraries();
 
-        // 首先尝试使用Python获取版本号
+        // 首先使用Python获取版本号
         std::string version = "";
 
         if (pythonReady)

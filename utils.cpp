@@ -358,14 +358,13 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
                 if (table_info["live"]["tableVersion"] != tableInfo.version)
                 {
                     std::println("- 表版本不同: {} -> {}",
-                        table_info["live"]["tableVersion"].get<int>(), tableInfo.version);
+                                 table_info["live"]["tableVersion"].get<int>(), tableInfo.version);
                 }
-                    
+
                 if (table_info["live"]["hash"] != currentHash)
                 {
                     std::println("- 哈希值不同");
                 }
-                    
             }
             else
             {
@@ -772,19 +771,19 @@ std::vector<std::string> QooAppAPI::generateVersions(const std::string &baseVers
     int minor = std::stoi(matches[2]);
     int patch = std::stoi(matches[3]);
 
-    // 当前minor版本，从当前patch开始，向上检查到200
+    // 当前minor版本，从当前patch开始，向上检查到400
     for (int p = patch; p <= 200; p++)
     {
         versions.push_back(std::format("{}.{}.{}", major, minor, p));
     }
 
-    // 下一个minor版本，从0开始，向上检查到200
+    // 下一个minor版本，从0开始，向上检查到400
     for (int p = 0; p <= 200; p++)
     {
         versions.push_back(std::format("{}.{}.{}", major, minor + 1, p));
     }
 
-    // major递增，minor从0开始，patch从0开始，向上检查到200
+    // major递增，minor从0开始，patch从0开始，向上检查到400
     for (int p = 0; p <= 200; p++)
     {
         versions.push_back(std::format("{}.{}.{}", major + 1, 0, p));

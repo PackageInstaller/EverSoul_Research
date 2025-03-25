@@ -483,7 +483,7 @@
       "dungeon_map": "Map_Dungeon_BossRush_01",
       "dungeon_leveldesign": "Envs/Dungeon_Interactive/Prefabs/LevelDesign/LD_TrainingRoom_Event_01",
       "minimap_title_sno": 419074,
-      "hide_ui": "PanelMission, PanelReward, @ButtonItemList, PanelHelp",
+      "hide_ui": "PanelMission, PanelReward, @ButtonItemList, PanelHelp, @ButtonHeroList",
       "is_usable": 1,
       "sound_bgm": "BGM_Dungeon_03",
       "sound_ambience": "SFX_AMB_2D_Cave02"
@@ -502,7 +502,7 @@
       "dungeon_map": "Map_Dungeon_BossRush_01",
       "dungeon_leveldesign": "Envs/Dungeon_Interactive/Prefabs/LevelDesign/LD_TrainingRoom_Event_01",
       "minimap_title_sno": 419074,
-      "hide_ui": "PanelMission, PanelReward, @ButtonItemList, PanelHelp",
+      "hide_ui": "PanelMission, PanelReward, @ButtonItemList, PanelHelp, @ButtonHeroList",
       "is_usable": 1,
       "sound_bgm": "BGM_Dungeon_03",
       "sound_ambience": "SFX_AMB_2D_Cave02"
@@ -521,7 +521,7 @@
       "dungeon_map": "Map_Dungeon_BossRush_01",
       "dungeon_leveldesign": "Envs/Dungeon_Interactive/Prefabs/LevelDesign/LD_TrainingRoom_Event_01",
       "minimap_title_sno": 419074,
-      "hide_ui": "PanelMission, PanelReward, @ButtonItemList, PanelHelp",
+      "hide_ui": "PanelMission, PanelReward, @ButtonItemList, PanelHelp, @ButtonHeroList",
       "is_usable": 1,
       "sound_bgm": "BGM_Dungeon_03",
       "sound_ambience": "SFX_AMB_2D_Cave02"
@@ -540,7 +540,7 @@
       "dungeon_map": "Map_Dungeon_BossRush_01",
       "dungeon_leveldesign": "Envs/Dungeon_Interactive/Prefabs/LevelDesign/LD_TrainingRoom_Event_01",
       "minimap_title_sno": 419074,
-      "hide_ui": "PanelMission, PanelReward, @ButtonItemList, PanelHelp",
+      "hide_ui": "PanelMission, PanelReward, @ButtonItemList, PanelHelp, @ButtonHeroList",
       "is_usable": 1,
       "sound_bgm": "BGM_Dungeon_03",
       "sound_ambience": "SFX_AMB_2D_Cave02"
@@ -559,7 +559,7 @@
       "dungeon_map": "Map_Dungeon_BossRush_01",
       "dungeon_leveldesign": "Envs/Dungeon_Interactive/Prefabs/LevelDesign/LD_TrainingRoom_Event_01",
       "minimap_title_sno": 419074,
-      "hide_ui": "PanelMission, PanelReward, @ButtonItemList, PanelHelp",
+      "hide_ui": "PanelMission, PanelReward, @ButtonItemList, PanelHelp, @ButtonHeroList",
       "is_usable": 1,
       "sound_bgm": "BGM_Dungeon_03",
       "sound_ambience": "SFX_AMB_2D_Cave02"

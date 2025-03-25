@@ -8,12 +8,11 @@ endif()
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# 查找线程库
 find_package(Threads REQUIRED)
-
 find_package(OpenSSL REQUIRED CONFIG)
 find_package(CURL REQUIRED)
 find_package(nlohmann_json REQUIRED CONFIG)
+find_package(ZLIB REQUIRED)
 
 add_executable(eversoul
     main.cpp
@@ -26,4 +25,6 @@ target_link_libraries(eversoul
     OpenSSL::Crypto
     CURL::libcurl
     Threads::Threads
+    nlohmann_json::nlohmann_json
+    ZLIB::ZLIB
 )

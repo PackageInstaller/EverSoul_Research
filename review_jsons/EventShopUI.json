@@ -684,6 +684,39 @@
       "event_shop_hero": 2030,
       "model_viewer_display": 2305,
       "model_offset": "[0.18, 0, 0]"
+    },
+    {
+      "no": 1074,
+      "event_type": 6,
+      "event_group": 10001,
+      "event_number": 2,
+      "bg_path": "GaonFestival/bg_GaonFestival_shop",
+      "shop_name_sno": 12435,
+      "event_shop_hero": 6030,
+      "model_viewer_display": 2050,
+      "model_offset": "[0, 0, 0]"
+    },
+    {
+      "no": 1075,
+      "event_type": 9,
+      "event_group": 9,
+      "event_number": 2,
+      "bg_path": "MaidPlan/bg_eventstage_MaidPlan",
+      "shop_name_sno": 12357,
+      "event_shop_hero": 4060,
+      "model_viewer_display": 2310,
+      "model_offset": "[0.05, 0, 0]"
+    },
+    {
+      "no": 1076,
+      "event_type": 9,
+      "event_group": 9,
+      "event_number": 2,
+      "bg_path": "MaidPlan/bg_eventstage_MaidPlan",
+      "shop_name_sno": 12358,
+      "event_shop_hero": 3090,
+      "model_viewer_display": 2311,
+      "model_offset": "[0.05, 0, 0]"
     }
   ]
 }

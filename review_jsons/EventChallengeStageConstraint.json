@@ -284,6 +284,124 @@
       "value1": 8138,
       "value2": 8139,
       "value3": 8140
+    },
+    {
+      "no": 37,
+      "challenge_no": 1201,
+      "constraint_type": 1,
+      "title_string_no": 710111,
+      "content_string_no": 710112,
+      "value1": 8111,
+      "value2": 8112
+    },
+    {
+      "no": 38,
+      "challenge_no": 1202,
+      "constraint_type": 1,
+      "title_string_no": 710121,
+      "content_string_no": 710122,
+      "value1": 8113,
+      "value2": 8114
+    },
+    {
+      "no": 39,
+      "challenge_no": 1203,
+      "constraint_type": 1,
+      "title_string_no": 710131,
+      "content_string_no": 710132,
+      "value1": 8115
+    },
+    {
+      "no": 40,
+      "challenge_no": 1203,
+      "constraint_type": 1,
+      "title_string_no": 710133,
+      "content_string_no": 710134,
+      "value1": 8116
+    },
+    {
+      "no": 41,
+      "challenge_no": 1204,
+      "constraint_type": 1,
+      "title_string_no": 710141,
+      "content_string_no": 710142
+    },
+    {
+      "no": 42,
+      "challenge_no": 1204,
+      "constraint_type": 1,
+      "title_string_no": 710143,
+      "content_string_no": 710144
+    },
+    {
+      "no": 43,
+      "challenge_no": 1205,
+      "constraint_type": 1,
+      "title_string_no": 710151,
+      "content_string_no": 710152
+    },
+    {
+      "no": 44,
+      "challenge_no": 1205,
+      "constraint_type": 6,
+      "title_string_no": 710153,
+      "content_string_no": 710154,
+      "value1": 3
+    },
+    {
+      "no": 45,
+      "challenge_no": 1205,
+      "constraint_type": 1,
+      "title_string_no": 710155,
+      "content_string_no": 710156,
+      "value1": 5040,
+      "value2": 5041
+    },
+    {
+      "no": 46,
+      "challenge_no": 1206,
+      "constraint_type": 8,
+      "title_string_no": 710161,
+      "content_string_no": 710162,
+      "value1": 110104
+    },
+    {
+      "no": 47,
+      "challenge_no": 1206,
+      "constraint_type": 1,
+      "title_string_no": 710163,
+      "content_string_no": 710164,
+      "value1": 8117
+    },
+    {
+      "no": 48,
+      "challenge_no": 1206,
+      "constraint_type": 1,
+      "title_string_no": 710165,
+      "content_string_no": 710166,
+      "value1": 8118
+    },
+    {
+      "no": 49,
+      "challenge_no": 1207,
+      "constraint_type": 1,
+      "title_string_no": 710171,
+      "content_string_no": 710172
+    },
+    {
+      "no": 50,
+      "challenge_no": 1207,
+      "constraint_type": 1,
+      "title_string_no": 710173,
+      "content_string_no": 710174,
+      "value1": 8120
+    },
+    {
+      "no": 51,
+      "challenge_no": 1207,
+      "constraint_type": 1,
+      "title_string_no": 710175,
+      "content_string_no": 710176
     }
   ]
 }

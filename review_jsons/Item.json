@@ -21033,7 +21033,10 @@
       "stat_limit_sno": 110041,
       "icon_path": "Xiaolian_Icon_Costume_02",
       "atlas_type": 5,
-      "item_sort_no": 20004
+      "item_sort_no": 20004,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 500
     },
     {
       "no": 2310,
@@ -21692,6 +21695,54 @@
       "slot_limit_sno": 110038,
       "stat_limit_sno": 110041,
       "icon_path": "Sunny_Icon_Costume_04",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
+      "no": 2365,
+      "category_sno": 110009,
+      "grade_sno": 110016,
+      "name_sno": 520565,
+      "desc_sno": 530565,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Hanul_Icon_Costume_01",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
+      "no": 2366,
+      "category_sno": 110009,
+      "grade_sno": 110020,
+      "name_sno": 520566,
+      "desc_sno": 530566,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Hanul_Icon_Costume_02",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
+      "no": 2367,
+      "category_sno": 110009,
+      "grade_sno": 110016,
+      "name_sno": 520567,
+      "desc_sno": 530567,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Jacqueline_Icon_Costume_04",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
+      "no": 2368,
+      "category_sno": 110009,
+      "grade_sno": 110016,
+      "name_sno": 520568,
+      "desc_sno": 530568,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Edith_Icon_Costume_00",
       "atlas_type": 5,
       "item_sort_no": 20004
     },
@@ -24240,7 +24291,7 @@
       "desc_sno": 223385,
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
-      "icon_path": "Memory_Aki",
+      "icon_path": "Memory_Hanul",
       "atlas_type": 4,
       "item_use_no": 1013,
       "item_sort_no": 3002
@@ -27890,6 +27941,54 @@
       "item_sort_no": 60000
     },
     {
+      "no": 6137,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216137,
+      "desc_sno": 226137,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_eas_fayren_tier_7",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6138,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216138,
+      "desc_sno": 226138,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_eas_fayren_tier_7_3",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6139,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216139,
+      "desc_sno": 226139,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_eas_fayren_tier_7_2",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6140,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216140,
+      "desc_sno": 226140,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_eas_fayren_tier_7_1",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
       "no": 6141,
       "category_sno": 110077,
       "grade_sno": 110011,
@@ -30824,7 +30923,7 @@
       "no": 8034,
       "category_sno": 110075,
       "grade_sno": 110014,
-      "name_sno": 318034,
+      "name_sno": 218034,
       "desc_sno": 228034,
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
@@ -30839,7 +30938,8 @@
       "desc_sno": 228035,
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
-      "icon_path": "UI/Textures/Item/Event/Icon_BossRush_Upgrade_Point",
+      "icon_path": "Icon_BossRush_Upgrade_Point",
+      "atlas_type": 4,
       "item_sort_no": 10
     },
     {
@@ -31837,6 +31937,72 @@
       "category_sno": 110075,
       "grade_sno": 110014,
       "name_sno": 218042,
+      "desc_sno": 228029,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_Ticket_EventRaid_2",
+      "item_sort_no": 10
+    },
+    {
+      "no": 8127,
+      "category_sno": 110075,
+      "grade_sno": 110012,
+      "name_sno": 218063,
+      "desc_sno": 228063,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_GaonFestival_event_1",
+      "item_sort_no": 10
+    },
+    {
+      "no": 8128,
+      "category_sno": 110075,
+      "grade_sno": 110014,
+      "name_sno": 218064,
+      "desc_sno": 228029,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_Ticket_EventRaid_2",
+      "item_sort_no": 10
+    },
+    {
+      "no": 8129,
+      "category_sno": 110075,
+      "grade_sno": 110012,
+      "name_sno": 218045,
+      "desc_sno": 228045,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_MaidPlan_event_1",
+      "item_sort_no": 10
+    },
+    {
+      "no": 8130,
+      "category_sno": 110075,
+      "grade_sno": 110012,
+      "name_sno": 218046,
+      "desc_sno": 228046,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_MaidPlan_event_2",
+      "item_sort_no": 10
+    },
+    {
+      "no": 8131,
+      "category_sno": 110075,
+      "grade_sno": 110012,
+      "name_sno": 218047,
+      "desc_sno": 228047,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_MaidPlan_event_3",
+      "item_sort_no": 10
+    },
+    {
+      "no": 8132,
+      "category_sno": 110075,
+      "grade_sno": 110014,
+      "name_sno": 218048,
       "desc_sno": 228029,
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
@@ -33633,7 +33799,7 @@
       "desc_sno": 2210079,
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
-      "icon_path": "Memory_Signature_NoData",
+      "icon_path": "Memory_Signature_Hanul",
       "atlas_type": 4,
       "move_behavior": 603,
       "item_sort_no": 20000
@@ -35784,6 +35950,17 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/Souls/Yuria_128",
+      "item_sort_no": 40000
+    },
+    {
+      "no": 35040,
+      "category_sno": 110074,
+      "grade_sno": 110014,
+      "name_sno": 2135040,
+      "desc_sno": 2235040,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Souls/Hanul_128",
       "item_sort_no": 40000
     },
     {
@@ -39034,7 +39211,10 @@
       "slot_limit_sno": 553003,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/Town/PE_TOWN_B_24Valentine_LiveStage",
-      "item_sort_no": 50000
+      "item_sort_no": 50000,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 250
     },
     {
       "no": 44102,
@@ -39067,7 +39247,10 @@
       "slot_limit_sno": 553005,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/Town/PE_TOWN_B_24Valentine_ChocolateFactory",
-      "item_sort_no": 50000
+      "item_sort_no": 50000,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 2500
     },
     {
       "no": 44105,
@@ -39111,7 +39294,10 @@
       "slot_limit_sno": 553001,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/Town/PE_TOWN_B_24Valentine_CafeRegistry",
-      "item_sort_no": 50000
+      "item_sort_no": 50000,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 500
     },
     {
       "no": 44109,
@@ -40090,6 +40276,17 @@
       "slot_limit_sno": 553005,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/Town/PE_TOWN_B_HonglanSideEvent_RestArea",
+      "item_sort_no": 50000
+    },
+    {
+      "no": 44822,
+      "category_sno": 110005,
+      "grade_sno": 110018,
+      "name_sno": 2144822,
+      "desc_sno": 2244822,
+      "slot_limit_sno": 553005,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Town/PE_TOWN_B_JihoSideEvent_Throne",
       "item_sort_no": 50000
     },
     {
@@ -41779,6 +41976,18 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_path": "sticker_love_Yuria01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 550401,
+      "category_sno": 110077,
+      "grade_sno": 110012,
+      "name_sno": 21550401,
+      "desc_sno": 22550401,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_love_Hanul01",
       "atlas_type": 6,
       "item_sort_no": 60000
     },

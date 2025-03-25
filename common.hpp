@@ -13,7 +13,7 @@
 #include <openssl/sha.h>
 #include <filesystem>
 #include <fstream>
-#include <cstring>
+#include <string>
 #include <zlib.h>
 #include <cstdint>
 #include <format>

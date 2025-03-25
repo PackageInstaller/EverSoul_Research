@@ -2651,6 +2651,49 @@
       "controller_path": "Sunny"
     },
     {
+      "no": 2365,
+      "type_sno": 710000,
+      "name_sno": 520565,
+      "hero_no": 5040,
+      "prefab_path": "Hanul_Costume01",
+      "timeline_path": "Hanul_Costume01",
+      "icon_path": "Hanul_Icon_Costume_01",
+      "portrait_path": "Hanul_Costume01",
+      "controller_path": "Hanul"
+    },
+    {
+      "no": 2366,
+      "type_sno": 710012,
+      "name_sno": 520566,
+      "hero_no": 5040,
+      "prefab_path": "Hanul_Costume02",
+      "timeline_path": "Hanul_Costume02",
+      "icon_path": "Hanul_Icon_Costume_02",
+      "portrait_path": "Hanul_Costume02",
+      "controller_path": "Hanul"
+    },
+    {
+      "no": 2367,
+      "type_sno": 710000,
+      "name_sno": 520567,
+      "prefab_path": "Jacqueline_Costume04",
+      "timeline_path": "Jacqueline_Costume04",
+      "icon_path": "Jacqueline_Icon_Costume_04",
+      "portrait_path": "Jacqueline_Costume04",
+      "controller_path": "Jacqueline"
+    },
+    {
+      "no": 2368,
+      "type_sno": 710009,
+      "name_sno": 520568,
+      "hero_no": 3060,
+      "prefab_path": "Edith_Costume03",
+      "timeline_path": "Edith_Costume03",
+      "icon_path": "Edith_Icon_Costume_00",
+      "portrait_path": "Edith",
+      "controller_path": "Edith"
+    },
+    {
       "no": 2700,
       "prefab_path": "Apprentice",
       "timeline_path": "Apprentice",
