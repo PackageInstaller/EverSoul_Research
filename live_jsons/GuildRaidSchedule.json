@@ -1,6 +1,12 @@
 {
   "json": [
     {
+      "no": 32,
+      "raid_no": 4,
+      "server_check": 1,
+      "schedule_key": "GuildRaid_1_32"
+    },
+    {
       "no": 33,
       "raid_no": 2,
       "server_check": 1,
@@ -41,6 +47,12 @@
       "raid_no": 2,
       "server_check": 1,
       "schedule_key": "GuildRaid_1_39"
+    },
+    {
+      "no": 50032,
+      "raid_no": 4,
+      "server_check": 2,
+      "schedule_key": "GuildRaid_2_32"
     },
     {
       "no": 50033,
@@ -113,6 +125,12 @@
       "raid_no": 4,
       "server_check": 4,
       "schedule_key": "GuildRaid_4_115"
+    },
+    {
+      "no": 100053,
+      "raid_no": 4,
+      "server_check": 3,
+      "schedule_key": "GuildRaid_3_53"
     },
     {
       "no": 100054,

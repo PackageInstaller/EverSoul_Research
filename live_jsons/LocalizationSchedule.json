@@ -6122,6 +6122,14 @@
     },
     {
       "index": 60001,
+      "schedule_key": "GuildRaid_1_32",
+      "schedule_type": 6,
+      "start_date": "2024-11-28 01:00:00",
+      "end_date": "2024-12-05 00:00:00",
+      "value_date01": "2024-12-19 00:00:00"
+    },
+    {
+      "index": 60002,
       "schedule_key": "GuildRaid_1_33",
       "schedule_type": 6,
       "start_date": "2024-12-19 01:00:00",
@@ -6129,7 +6137,7 @@
       "value_date01": "2025-01-09 00:00:00"
     },
     {
-      "index": 60002,
+      "index": 60003,
       "schedule_key": "GuildRaid_1_34",
       "schedule_type": 6,
       "start_date": "2025-01-09 01:00:00",
@@ -6137,7 +6145,7 @@
       "value_date01": "2025-01-30 00:00:00"
     },
     {
-      "index": 60003,
+      "index": 60004,
       "schedule_key": "GuildRaid_1_35",
       "schedule_type": 6,
       "start_date": "2025-01-30 00:00:00",
@@ -6145,7 +6153,7 @@
       "value_date01": "2025-02-20 00:00:00"
     },
     {
-      "index": 60004,
+      "index": 60005,
       "schedule_key": "GuildRaid_1_36",
       "schedule_type": 6,
       "start_date": "2025-02-20 00:00:00",
@@ -6153,7 +6161,7 @@
       "value_date01": "2025-03-13 00:00:00"
     },
     {
-      "index": 60005,
+      "index": 60006,
       "schedule_key": "GuildRaid_1_37",
       "schedule_type": 6,
       "start_date": "2025-03-13 00:00:00",
@@ -6161,7 +6169,7 @@
       "value_date01": "2025-04-03 00:00:00"
     },
     {
-      "index": 60006,
+      "index": 60007,
       "schedule_key": "GuildRaid_1_38",
       "schedule_type": 6,
       "start_date": "2025-04-03 00:00:00",
@@ -6169,7 +6177,7 @@
       "value_date01": "2025-04-24 00:00:00"
     },
     {
-      "index": 60007,
+      "index": 60008,
       "schedule_key": "GuildRaid_1_39",
       "schedule_type": 6,
       "start_date": "2025-04-24 00:00:00",
@@ -6177,7 +6185,15 @@
       "value_date01": "2025-05-15 00:00:00"
     },
     {
-      "index": 60008,
+      "index": 60009,
+      "schedule_key": "GuildRaid_2_32",
+      "schedule_type": 6,
+      "start_date": "2024-11-28 01:00:00",
+      "end_date": "2024-12-05 00:00:00",
+      "value_date01": "2024-12-19 00:00:00"
+    },
+    {
+      "index": 60010,
       "schedule_key": "GuildRaid_2_33",
       "schedule_type": 6,
       "start_date": "2024-12-19 01:00:00",
@@ -6185,7 +6201,7 @@
       "value_date01": "2025-01-09 00:00:00"
     },
     {
-      "index": 60009,
+      "index": 60011,
       "schedule_key": "GuildRaid_2_34",
       "schedule_type": 6,
       "start_date": "2025-01-09 01:00:00",
@@ -6193,7 +6209,7 @@
       "value_date01": "2025-01-30 00:00:00"
     },
     {
-      "index": 60010,
+      "index": 60012,
       "schedule_key": "GuildRaid_2_35",
       "schedule_type": 6,
       "start_date": "2025-01-30 00:00:00",
@@ -6201,7 +6217,7 @@
       "value_date01": "2025-02-20 00:00:00"
     },
     {
-      "index": 60011,
+      "index": 60013,
       "schedule_key": "GuildRaid_2_36",
       "schedule_type": 6,
       "start_date": "2025-02-20 00:00:00",
@@ -6209,7 +6225,7 @@
       "value_date01": "2025-03-13 00:00:00"
     },
     {
-      "index": 60012,
+      "index": 60014,
       "schedule_key": "GuildRaid_2_37",
       "schedule_type": 6,
       "start_date": "2025-03-13 00:00:00",
@@ -6217,7 +6233,7 @@
       "value_date01": "2025-04-03 00:00:00"
     },
     {
-      "index": 60013,
+      "index": 60015,
       "schedule_key": "GuildRaid_2_38",
       "schedule_type": 6,
       "start_date": "2025-04-03 00:00:00",
@@ -6225,7 +6241,7 @@
       "value_date01": "2025-04-24 00:00:00"
     },
     {
-      "index": 60014,
+      "index": 60016,
       "schedule_key": "GuildRaid_2_39",
       "schedule_type": 6,
       "start_date": "2025-04-24 00:00:00",
@@ -6233,7 +6249,7 @@
       "value_date01": "2025-05-15 00:00:00"
     },
     {
-      "index": 60015,
+      "index": 60017,
       "schedule_key": "GuildRaid_4_111",
       "schedule_type": 6,
       "start_date": "2024-12-19 01:00:00",
@@ -6241,7 +6257,7 @@
       "value_date01": "2025-01-07 00:00:00"
     },
     {
-      "index": 60016,
+      "index": 60018,
       "schedule_key": "GuildRaid_4_112",
       "schedule_type": 6,
       "start_date": "2025-01-07 00:00:00",
@@ -6249,7 +6265,7 @@
       "value_date01": "2025-01-24 00:00:00"
     },
     {
-      "index": 60017,
+      "index": 60019,
       "schedule_key": "GuildRaid_4_113",
       "schedule_type": 6,
       "start_date": "2025-01-24 00:00:00",
@@ -6257,7 +6273,7 @@
       "value_date01": "2025-02-21 00:00:00"
     },
     {
-      "index": 60018,
+      "index": 60020,
       "schedule_key": "GuildRaid_4_114",
       "schedule_type": 6,
       "start_date": "2025-02-21 00:00:00",
@@ -6265,7 +6281,7 @@
       "value_date01": "2025-03-07 00:00:00"
     },
     {
-      "index": 60019,
+      "index": 60021,
       "schedule_key": "GuildRaid_4_115",
       "schedule_type": 6,
       "start_date": "2025-03-07 00:00:00",
@@ -6273,7 +6289,15 @@
       "value_date01": "2025-04-24 00:00:00"
     },
     {
-      "index": 60020,
+      "index": 60022,
+      "schedule_key": "GuildRaid_3_53",
+      "schedule_type": 6,
+      "start_date": "2024-11-28 01:00:00",
+      "end_date": "2024-12-05 00:00:00",
+      "value_date01": "2024-12-19 00:00:00"
+    },
+    {
+      "index": 60023,
       "schedule_key": "GuildRaid_3_54",
       "schedule_type": 6,
       "start_date": "2024-12-19 01:00:00",
@@ -6281,7 +6305,7 @@
       "value_date01": "2025-01-07 00:00:00"
     },
     {
-      "index": 60021,
+      "index": 60024,
       "schedule_key": "GuildRaid_3_55",
       "schedule_type": 6,
       "start_date": "2025-01-07 00:00:00",
@@ -6289,7 +6313,7 @@
       "value_date01": "2025-01-24 00:00:00"
     },
     {
-      "index": 60022,
+      "index": 60025,
       "schedule_key": "GuildRaid_3_56",
       "schedule_type": 6,
       "start_date": "2025-01-24 00:00:00",
@@ -6297,23 +6321,23 @@
       "value_date01": "2025-02-21 00:00:00"
     },
     {
-      "index": 60023,
+      "index": 60026,
       "schedule_key": "GuildRaid_3_57",
       "schedule_type": 6,
       "start_date": "2025-02-21 00:00:00",
       "end_date": "2025-03-04 00:00:00",
-      "value_date01": "2025-03-07 00:00:00"
+      "value_date01": "2025-04-03 00:00:00"
     },
     {
-      "index": 60024,
+      "index": 60027,
       "schedule_key": "GuildRaid_3_58",
       "schedule_type": 6,
-      "start_date": "2025-03-07 00:00:00",
+      "start_date": "2025-04-03 00:00:00",
       "end_date": "2025-04-10 00:00:00",
       "value_date01": "2025-04-24 00:00:00"
     },
     {
-      "index": 60025,
+      "index": 60028,
       "schedule_key": "GuildRaid_3_59",
       "schedule_type": 6,
       "start_date": "2025-04-24 00:00:00",
