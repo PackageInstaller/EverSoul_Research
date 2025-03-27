@@ -180,7 +180,7 @@
       "no": 23,
       "kr": "잘 성장한 정령들의 레벨을 다른 정령과 공유합니다.",
       "en": "Share the levels of high-level Souls with other Souls.",
-      "ja": "十分に成長した精霊のLvを他の精霊とシェアします。",
+      "ja": "Lvシンクロ",
       "zh_tw": "將成長良好的精靈等級，\r\n與其他精靈分享。",
       "zh_cn": ""
     },
@@ -7380,7 +7380,7 @@
       "no": 923,
       "kr": "에버스톤 {0}개를 사용하여 {2} {1}개를 구매하시겠습니까?",
       "en": "Spend {0} Everstones to purchase {2} x{1}?",
-      "ja": "",
+      "ja": "エバーストーン{0}個を使用して{2}{1}個を購入しますか？",
       "zh_tw": "要使用{0}個永恆石，購買{1}個{2}嗎？",
       "zh_cn": ""
     },
@@ -7388,7 +7388,7 @@
       "no": 924,
       "kr": "다운로드 <color=#787A98><size=18>({0:F2} MB)</size></color>",
       "en": "Download <color=#787A98><size=18>({0:F2} MB)</size></color>",
-      "ja": "",
+      "ja": "ダウンロード<color=#787A98><size=18>({0:F2} MB)</size></color>",
       "zh_tw": "下載<color=#787A98><size=18>（{0:F2} MB）</size></color>",
       "zh_cn": ""
     },
@@ -7481,6 +7481,30 @@
       "zh_cn": ""
     },
     {
+      "no": 936,
+      "kr": "SPACE",
+      "en": "SPACE",
+      "ja": "SPACE",
+      "zh_tw": "SPACE",
+      "zh_cn": ""
+    },
+    {
+      "no": 937,
+      "kr": "파티",
+      "en": "Party",
+      "ja": "パーティー",
+      "zh_tw": "派對",
+      "zh_cn": ""
+    },
+    {
+      "no": 938,
+      "kr": "VS",
+      "en": "VS",
+      "ja": "VS",
+      "zh_tw": "VS",
+      "zh_cn": ""
+    },
+    {
       "no": 8611,
       "kr": "저주받은 마검",
       "en": "Cursed Sword",
@@ -7518,6 +7542,22 @@
       "en": "Windy Boots",
       "ja": "風のブーツ",
       "zh_tw": "風之靴",
+      "zh_cn": ""
+    },
+    {
+      "no": 8616,
+      "kr": "속전속결의 모래시계",
+      "en": "Hourglass of Swift Battle",
+      "ja": "",
+      "zh_tw": "速戰速決的沙漏",
+      "zh_cn": ""
+    },
+    {
+      "no": 8617,
+      "kr": "축복의 성배",
+      "en": "Blessed Holy Grail",
+      "ja": "",
+      "zh_tw": "祝福的聖杯",
       "zh_cn": ""
     },
     {
@@ -7561,6 +7601,30 @@
       "zh_cn": ""
     },
     {
+      "no": 8626,
+      "kr": "저주의 깃털",
+      "en": "Feather of Curses",
+      "ja": "",
+      "zh_tw": "詛咒的羽毛",
+      "zh_cn": ""
+    },
+    {
+      "no": 8627,
+      "kr": "완고한 힘의 네클리스",
+      "en": "Necklace of Unyielding Strength",
+      "ja": "",
+      "zh_tw": "頑固力量的項鍊",
+      "zh_cn": ""
+    },
+    {
+      "no": 8628,
+      "kr": "곰의 건틀렛",
+      "en": "Gauntlet of the Bear",
+      "ja": "",
+      "zh_tw": "熊的金屬手套",
+      "zh_cn": ""
+    },
+    {
       "no": 8631,
       "kr": "자객의 클로",
       "en": "Assassin's Claw",
@@ -7598,6 +7662,14 @@
       "en": "Blue Mana Crystal",
       "ja": "青いマナクリスタル",
       "zh_tw": "藍魔力水晶",
+      "zh_cn": ""
+    },
+    {
+      "no": 8636,
+      "kr": "단절의 손길",
+      "en": "Severing Touch",
+      "ja": "",
+      "zh_tw": "阻斷之手",
       "zh_cn": ""
     },
     {
@@ -7804,7 +7876,7 @@
       "no": 9112,
       "kr": "완주 보상",
       "en": "Completion Reward",
-      "ja": "",
+      "ja": "完走報酬",
       "zh_tw": "完成獎勵",
       "zh_cn": ""
     },
@@ -7812,7 +7884,7 @@
       "no": 9113,
       "kr": "완주 회차",
       "en": "Completed Rounds",
-      "ja": "",
+      "ja": "完走回次",
       "zh_tw": "完成回合",
       "zh_cn": ""
     },
@@ -7820,7 +7892,7 @@
       "no": 9114,
       "kr": "지급 포인트",
       "en": "Awarded Points",
-      "ja": "",
+      "ja": "支給ポイント",
       "zh_tw": "發放點數",
       "zh_cn": ""
     },
@@ -7828,7 +7900,7 @@
       "no": 9115,
       "kr": "획득한 누적 포인트에 따라 지급되는 보상입니다.",
       "en": "Receive rewards based on your total cumulative points.",
-      "ja": "",
+      "ja": "獲得した累計ポイントに応じて支給される報酬です。",
       "zh_tw": "根據所獲累積點數發放的獎勵。",
       "zh_cn": ""
     },
@@ -7836,7 +7908,7 @@
       "no": 9116,
       "kr": "완주 회차에 따라 지급되는 포인트 보상입니다.",
       "en": "Receive points based on the number of completed rounds.",
-      "ja": "",
+      "ja": "完走した回次に応じて支給されるポイント報酬です。",
       "zh_tw": "根據完成回合發放的點數獎勵。",
       "zh_cn": ""
     },
@@ -7844,8 +7916,32 @@
       "no": 9117,
       "kr": "{0}회차",
       "en": "Round {0}",
-      "ja": "",
+      "ja": "{0}回目",
       "zh_tw": "第{0}次",
+      "zh_cn": ""
+    },
+    {
+      "no": 9118,
+      "kr": "주사위를 굴려 포인트를 획득하세요!\r\n포인트 목표 도달 시마다 보상을 획득할 수 있어요.",
+      "en": "Roll the dice and earn points!\r\nEach point goal reached offers a reward.",
+      "ja": "",
+      "zh_tw": "擲出骰子獲得點數！\r\n每達成目標點數，即可獲得獎勵。",
+      "zh_cn": ""
+    },
+    {
+      "no": 9119,
+      "kr": "주사위 횟수 보상",
+      "en": "Roll Count Rewards",
+      "ja": "",
+      "zh_tw": "骰子次數獎勵",
+      "zh_cn": ""
+    },
+    {
+      "no": 9120,
+      "kr": "2배속",
+      "en": "Double Speed",
+      "ja": "2倍速",
+      "zh_tw": "2倍速",
       "zh_cn": ""
     },
     {
@@ -12340,7 +12436,7 @@
       "no": 11390,
       "kr": "로제(홍염) 획득",
       "en": "Acquire Rose (Prominence)",
-      "ja": "{0}を獲得",
+      "ja": "ロゼ(紅炎)を獲得",
       "zh_tw": "獲得蘿絲（紅焰）",
       "zh_cn": ""
     },
@@ -12348,7 +12444,7 @@
       "no": 11391,
       "kr": "로제(홍염) 에픽+등급 달성",
       "en": "Upgrade Rose (Prominence) to Epic+",
-      "ja": "{0}のエピック+ランクを達成",
+      "ja": "ロゼ(紅炎)のエピック+ランクを達成",
       "zh_tw": "達成蘿絲（紅焰）史詩＋階級",
       "zh_cn": ""
     },
@@ -12356,7 +12452,7 @@
       "no": 11392,
       "kr": "로제(홍염) 레전더리 등급 달성",
       "en": "Upgrade Rose (Prominence) to Legendary",
-      "ja": "{0}のレジェンダリーランクを達成",
+      "ja": "ロゼ(紅炎)のレジェンダリーランクを達成",
       "zh_tw": "達成蘿絲（紅焰）傳說階級",
       "zh_cn": ""
     },
@@ -12364,7 +12460,7 @@
       "no": 11393,
       "kr": "이벤트 1일차 미션 완료",
       "en": "Complete Day 1 Event Missions",
-      "ja": "",
+      "ja": "イベントミッション1日目を完了",
       "zh_tw": "完成第1天活動",
       "zh_cn": ""
     },
@@ -12372,7 +12468,7 @@
       "no": 11394,
       "kr": "이벤트 2일차 미션 완료",
       "en": "Complete Day 2 Event Missions",
-      "ja": "",
+      "ja": "イベントミッション2日目を完了",
       "zh_tw": "完成第2天活動",
       "zh_cn": ""
     },
@@ -12380,7 +12476,7 @@
       "no": 11395,
       "kr": "이벤트 3일차 미션 완료",
       "en": "Complete Day 3 Event Missions",
-      "ja": "",
+      "ja": "イベントミッション3日目を完了",
       "zh_tw": "完成第3天活動",
       "zh_cn": ""
     },
@@ -12388,7 +12484,7 @@
       "no": 11396,
       "kr": "이벤트 4일차 미션 완료",
       "en": "Complete Day 4 Event Missions",
-      "ja": "",
+      "ja": "イベントミッション4日目を完了",
       "zh_tw": "完成第4天活動",
       "zh_cn": ""
     },
@@ -12396,7 +12492,7 @@
       "no": 11397,
       "kr": "이벤트 5일차 미션 완료",
       "en": "Complete Day 5 Event Missions",
-      "ja": "",
+      "ja": "イベントミッション5日目を完了",
       "zh_tw": "完成第5天活動",
       "zh_cn": ""
     },
@@ -12404,7 +12500,7 @@
       "no": 11398,
       "kr": "이벤트 6일차 미션 완료",
       "en": "Complete Day 6 Event Missions",
-      "ja": "",
+      "ja": "イベントミッション6日目を完了",
       "zh_tw": "完成第6天活動",
       "zh_cn": ""
     },
@@ -12412,7 +12508,7 @@
       "no": 11399,
       "kr": "이벤트 7일차 미션 완료",
       "en": "Complete Day 7 Event Missions",
-      "ja": "",
+      "ja": "イベントミッション7日目を完了",
       "zh_tw": "完成第7天活動",
       "zh_cn": ""
     },
@@ -12420,7 +12516,7 @@
       "no": 11400,
       "kr": "홍란(무쌍) 획득",
       "en": "Obtain Honglan (Peerless)",
-      "ja": "",
+      "ja": "ホンラン(無双)を獲得",
       "zh_tw": "獲得紅蘭（無雙）",
       "zh_cn": ""
     },
@@ -12428,7 +12524,7 @@
       "no": 11401,
       "kr": "홍란(무쌍) 에픽+등급 달성",
       "en": "Upgrade Honglan (Peerless) to Epic+",
-      "ja": "",
+      "ja": "ホンラン(無双)のエピック+ランクを達成",
       "zh_tw": "達成紅蘭（無雙）史詩＋階級",
       "zh_cn": ""
     },
@@ -12436,8 +12532,40 @@
       "no": 11402,
       "kr": "홍란(무쌍) 레전더리 등급 달성",
       "en": "Upgrade Honglan (Peerless) to Legendary",
-      "ja": "",
+      "ja": "ホンラン(無双)のレジェンダリーランクを達成",
       "zh_tw": "達成紅蘭（無雙）傳說階級",
+      "zh_cn": ""
+    },
+    {
+      "no": 11403,
+      "kr": "주사위 {0}회 사용",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 11404,
+      "kr": "지호(미르) 획득",
+      "en": "Acquire Jiho (Mir)",
+      "ja": "ジホ(ミル)を獲得",
+      "zh_tw": "獲得智河（米爾）",
+      "zh_cn": ""
+    },
+    {
+      "no": 11405,
+      "kr": "지호(미르) 에픽+등급 달성",
+      "en": "Upgrade Jiho (Mir) to Epic+",
+      "ja": "ジホ(ミル)のエピック+ランクを達成",
+      "zh_tw": "達成智河（米爾）史詩＋階級",
+      "zh_cn": ""
+    },
+    {
+      "no": 11406,
+      "kr": "지호(미르) 레전더리 등급 달성",
+      "en": "Upgrade Jiho (Mir) to Legendary",
+      "ja": "ジホ(ミル)のレジェンダリーランクを達成",
+      "zh_tw": "達成智河（米爾）傳說階級",
       "zh_cn": ""
     },
     {
@@ -15701,7 +15829,7 @@
       "kr": "달콤살벌 쇼콜라 퀸",
       "en": "Sweet Savage Chocolat Queen",
       "ja": "スイート&バイオレンス\r\nショコラクイーン",
-      "zh_tw": "煞氣巧克力甜心女王",
+      "zh_tw": "煞氣巧克力\r\n甜心女王",
       "zh_cn": ""
     },
     {
@@ -15746,18 +15874,18 @@
     },
     {
       "no": 12357,
-      "kr": "진상 퇴치 딱지 A 상점",
-      "en": "Troublemaker Purge Sticker A Shop",
+      "kr": "진상 퇴치 딱지\r\nA 상점",
+      "en": "Troublemaker Purge Sticker\r\nA Shop",
       "ja": "クレーマー撃退\r\nバッジAショップ",
-      "zh_tw": "奧客退散圓卡A商店",
+      "zh_tw": "奧客退散圓卡\r\nA商店",
       "zh_cn": ""
     },
     {
       "no": 12358,
-      "kr": "진상 퇴치 딱지 B 상점",
-      "en": "Troublemaker Purge Sticker B Shop",
+      "kr": "진상 퇴치 딱지\r\nB 상점",
+      "en": "Troublemaker Purge Sticker\r\nB Shop",
       "ja": "クレーマー撃退\r\nバッジBショップ",
-      "zh_tw": "奧客退散圓卡B商店",
+      "zh_tw": "奧客退散圓卡\r\nB商店",
       "zh_cn": ""
     },
     {
@@ -16242,18 +16370,18 @@
     },
     {
       "no": 12419,
-      "kr": "다프네의 바주카포 단추 상점",
-      "en": "Daphne's Bazooka Button Shop",
+      "kr": "다프네의\r\n바주카포 단추 상점",
+      "en": "Daphne's\r\nBazooka Button\r\nShop",
       "ja": "ダフネの\r\nバズーカメンコ\r\nショップ",
-      "zh_tw": "達芙妮的火箭筒鈕扣商店",
+      "zh_tw": "達芙妮的\r\n火箭筒鈕扣商店",
       "zh_cn": ""
     },
     {
       "no": 12420,
-      "kr": "마농의 회계부장 딱지 상점",
-      "en": "Manon's Bursar Sticker Shop",
+      "kr": "마농의\r\n회계부장 딱지 상점",
+      "en": "Manon's\r\nBursar Sticker\r\nShop",
       "ja": "マノンの\r\n会計委員長メンコ\r\nショップ",
-      "zh_tw": "瑪儂的財務部長圓卡商店",
+      "zh_tw": "瑪儂的\r\n財務部長圓卡商店",
       "zh_cn": ""
     },
     {
@@ -18116,7 +18244,7 @@
       "no": 12669,
       "kr": "제가 도울게요!",
       "en": "I'll help you!",
-      "ja": "",
+      "ja": "手助けします！",
       "zh_tw": "我來幫忙！",
       "zh_cn": ""
     },
@@ -18124,7 +18252,7 @@
       "no": 12670,
       "kr": "나쁜 마물은 혼내줄게요~",
       "en": "I'll punish the bad monsters!",
-      "ja": "",
+      "ja": "悪い魔物はお仕置きです～",
       "zh_tw": "我幫你教訓壞蛋魔物～",
       "zh_cn": ""
     },
@@ -18132,7 +18260,7 @@
       "no": 12671,
       "kr": "도움이 필요하다면야.",
       "en": "If you need my help, sure.",
-      "ja": "",
+      "ja": "助けが必要ならば。",
       "zh_tw": "如果需要幫助的話。",
       "zh_cn": ""
     },
@@ -18140,7 +18268,7 @@
       "no": 12672,
       "kr": "재밌어 보이네?",
       "en": "This looks fun!",
-      "ja": "",
+      "ja": "面白そうだね？",
       "zh_tw": "看起來很好玩欸？",
       "zh_cn": ""
     },
@@ -18692,7 +18820,7 @@
       "no": 12769,
       "kr": "꺄앗!?",
       "en": "Aaaah?!",
-      "ja": "",
+      "ja": "キャッ!?",
       "zh_tw": "呀啊！？",
       "zh_cn": ""
     },
@@ -18700,7 +18828,7 @@
       "no": 12770,
       "kr": "후응… 낮잠 자러 갈래요~",
       "en": "Yaaawn... I'm taking a nap.",
-      "ja": "",
+      "ja": "ふう…昼寝にいきます～",
       "zh_tw": "呼嗯…我要去睡午覺～",
       "zh_cn": ""
     },
@@ -18708,7 +18836,7 @@
       "no": 12771,
       "kr": "이런, 갈 때가 됐군.",
       "en": "Oh, it's time for me to go.",
-      "ja": "",
+      "ja": "おっと、もう時間か。",
       "zh_tw": "哎呀，差不多要走了。",
       "zh_cn": ""
     },
@@ -18716,7 +18844,7 @@
       "no": 12772,
       "kr": "앗, 벌써 시간이!",
       "en": "Ah, look at the time!",
-      "ja": "",
+      "ja": "あっ、もう時間が！",
       "zh_tw": "啊，已經這麼晚了！",
       "zh_cn": ""
     },
@@ -18852,8 +18980,24 @@
       "no": 12817,
       "kr": "심연의 경계 클리어 \r\n+{2}점",
       "en": "Clear Boundaries of the Abyss\r\n+{2} pts",
-      "ja": "",
+      "ja": "深淵の境界クリア\r\n+{2}点",
       "zh_tw": "通關深淵的邊界\r\n+{2}分",
+      "zh_cn": ""
+    },
+    {
+      "no": 12818,
+      "kr": "궁기 길들이기 클리어 \r\n+{2}점",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 12819,
+      "kr": "오브젝트 파괴 ({1}/{0}) \r\n+{2}점",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -19070,6 +19214,22 @@
       "en": "Alright, last push!",
       "ja": "よし、最後の力を…！",
       "zh_tw": "好，最後加把勁…！",
+      "zh_cn": ""
+    },
+    {
+      "no": 12928,
+      "kr": "스페셜 픽업 선택 소환",
+      "en": "Special Pick-Up Choice Summon",
+      "ja": "スペシャルピックアップ選択召喚",
+      "zh_tw": "特別Pick Up選擇召喚",
+      "zh_cn": ""
+    },
+    {
+      "no": 12929,
+      "kr": "천사 & 악마 타입의 정령 중에서 원하는 정령을 선택하면\r\n14일 동안 픽업 소환이 개방됩니다.",
+      "en": "Select one of the Angel and Demon Souls to start\r\na 14-day Pick-Up Summon for her.",
+      "ja": "天使＆悪魔型の精霊の中で好きな精霊を選択すると\r\n14日間ピックアップ召喚が開放されます。",
+      "zh_tw": "從天使 & 惡魔型精靈中選擇心儀的精靈後，\r\n開放為期14天的Pick Up召喚。",
       "zh_cn": ""
     },
     {
@@ -20482,10 +20642,10 @@
     },
     {
       "no": 19161,
-      "kr": "최고 작전 점수",
-      "en": "Best Operation Score",
-      "ja": "最高作戦スコア",
-      "zh_tw": "作戰最高分數",
+      "kr": "최대 클리어 레벨",
+      "en": "Max Level Cleared",
+      "ja": "",
+      "zh_tw": "最大通關等級",
       "zh_cn": ""
     },
     {
@@ -20586,10 +20746,10 @@
     },
     {
       "no": 19174,
-      "kr": "상위 {0}%",
-      "en": "Top {0}%",
-      "ja": "上位{0}%",
-      "zh_tw": "前段{0}%",
+      "kr": "예선전 {0}레벨 승리",
+      "en": "Win Qualifier Level {0}",
+      "ja": "",
+      "zh_tw": "預賽{0}等勝利",
       "zh_cn": ""
     },
     {
@@ -20906,57 +21066,57 @@
     },
     {
       "no": 19214,
-      "kr": "연합 평가 특별 제약",
-      "en": "Alliance Assessment Special Disadvantages",
-      "ja": "{0}シーズン特別制約",
-      "zh_tw": "聯合熱身特別限制",
+      "kr": "본선전 특별 효과 (최대 3개 까지 선택 가능)",
+      "en": "Special Effects for the Finals (Select up to 3)",
+      "ja": "",
+      "zh_tw": "正賽特別效果（最多可選擇3個）",
       "zh_cn": ""
     },
     {
       "no": 19215,
-      "kr": "에덴 연합 평가전",
-      "en": "Eden Alliance Assessment Battle",
-      "ja": "特別制約作戦",
-      "zh_tw": "伊甸園聯合熱身賽",
+      "kr": "에덴 연합 본선전",
+      "en": "Eden Alliance Finals",
+      "ja": "エデン連合本戦",
+      "zh_tw": "伊甸園聯合正賽",
       "zh_cn": ""
     },
     {
       "no": 19216,
-      "kr": "개인 연합 작전에서 모든 제약을 적용하고 클리어 시 입장 가능합니다.",
-      "en": "Unlocks upon completing the Individual Alliance Operation with all disadvantages selected.",
-      "ja": "無限作戦ですべての制約を選択してクリアすると入場できます。",
-      "zh_tw": "在個人聯合作戰中套用所有限制並通關後即可入場。",
+      "kr": "에덴 연합 예선전에서 모든 제약을 적용하고 클리어 시 입장 가능합니다.",
+      "en": "Unlocks upon completing the Eden Alliance Qualifiers with all disadvantages selected.",
+      "ja": "エデン連合予選ですべての制約を選択してクリアすると入場できます。",
+      "zh_tw": "在伊甸園聯合預賽套用所有限制並通關後即可入場。",
       "zh_cn": ""
     },
     {
       "no": 19217,
-      "kr": "개인 연합 작전",
-      "en": "Individual Alliance Operation",
-      "ja": "",
-      "zh_tw": "個人聯合作戰",
+      "kr": "에덴 연합 예선전",
+      "en": "Eden Alliance Qualifiers",
+      "ja": "エデン連合予選",
+      "zh_tw": "伊甸園聯合預賽",
       "zh_cn": ""
     },
     {
       "no": 19218,
-      "kr": "개인 연합 작전 임무",
-      "en": "Individual Alliance Operation Missions",
-      "ja": "",
-      "zh_tw": "個人聯合作戰任務",
+      "kr": "에덴 연합 예선전 임무",
+      "en": "Eden Alliance Qualifiers Schedule",
+      "ja": "エデン連合予選任務",
+      "zh_tw": "伊甸園聯合預賽任務",
       "zh_cn": ""
     },
     {
       "no": 19219,
-      "kr": "에덴 연합 평가전 순위",
-      "en": "Eden Alliance Assessment Battle Rankings",
-      "ja": "",
-      "zh_tw": "伊甸園聯合熱身賽排名",
+      "kr": "에덴 연합 본선전 순위",
+      "en": "Eden Alliance Finals Rankings",
+      "ja": "エデン連合本戦ランキング",
+      "zh_tw": "伊甸園聯合正賽排名",
       "zh_cn": ""
     },
     {
       "no": 19220,
       "kr": "Day{0}",
       "en": "Day {0}",
-      "ja": "",
+      "ja": "Day{0}",
       "zh_tw": "Day{0}",
       "zh_cn": ""
     },
@@ -20964,8 +21124,256 @@
       "no": 19221,
       "kr": "일일 참여 보상 획득!",
       "en": "Daily Participation Rewards Won!",
-      "ja": "",
+      "ja": "デイリー参加報酬獲得！",
       "zh_tw": "獲得每日參加獎勵！",
+      "zh_cn": ""
+    },
+    {
+      "no": 19222,
+      "kr": "에덴연합작전이 종료되었습니다.",
+      "en": "Operation Eden Alliance has ended.",
+      "ja": "エデン連合作戦は終了しました。",
+      "zh_tw": "伊甸園聯合作戰已結束。",
+      "zh_cn": ""
+    },
+    {
+      "no": 19223,
+      "kr": "레전더리 1위",
+      "en": "Legendary #1",
+      "ja": "",
+      "zh_tw": "傳說第1名",
+      "zh_cn": ""
+    },
+    {
+      "no": 19224,
+      "kr": "레전더리 2위",
+      "en": "Legendary #2",
+      "ja": "",
+      "zh_tw": "傳說第2名",
+      "zh_cn": ""
+    },
+    {
+      "no": 19225,
+      "kr": "레전더리 3위",
+      "en": "Legendary #3",
+      "ja": "",
+      "zh_tw": "傳說第3名",
+      "zh_cn": ""
+    },
+    {
+      "no": 19226,
+      "kr": "레전더리 Top 100",
+      "en": "Legendary Top 100",
+      "ja": "",
+      "zh_tw": "傳說Top 100",
+      "zh_cn": ""
+    },
+    {
+      "no": 19227,
+      "kr": "레전더리 Top 500",
+      "en": "Legendary Top 500",
+      "ja": "",
+      "zh_tw": "傳說Top 500",
+      "zh_cn": ""
+    },
+    {
+      "no": 19228,
+      "kr": "레전더리 Top 1000",
+      "en": "Legendary Top 1000",
+      "ja": "",
+      "zh_tw": "傳說Top 1000",
+      "zh_cn": ""
+    },
+    {
+      "no": 19229,
+      "kr": "레전더리",
+      "en": "Legendary",
+      "ja": "",
+      "zh_tw": "傳說",
+      "zh_cn": ""
+    },
+    {
+      "no": 19230,
+      "kr": "에덴 연합 예선전 챌린저 티어 달성 시 입장이 가능합니다.",
+      "en": "Unlocks upon reaching the Challenger tier in Eden Alliance Qualifiers.",
+      "ja": "",
+      "zh_tw": "達成伊甸園聯合預賽王者段位時可入場。",
+      "zh_cn": ""
+    },
+    {
+      "no": 19231,
+      "kr": "8일차 이후 입장이 가능합니다.",
+      "en": "Unlocks after Day 8.",
+      "ja": "",
+      "zh_tw": "第8天以後可入場。",
+      "zh_cn": ""
+    },
+    {
+      "no": 19232,
+      "kr": "에덴 연합 예선전 챌린저 티어 달성 및 에덴 연합 작전 8일차부터 입장이 가능합니다.",
+      "en": "Unlocks after Day 8 of Operation Eden Alliance upon reaching the Challenger tier in Eden Alliance Qualifiers .",
+      "ja": "",
+      "zh_tw": "達成伊甸園聯合預賽王者段位、伊甸園聯合作戰第8天起可入場。",
+      "zh_cn": ""
+    },
+    {
+      "no": 19233,
+      "kr": "선택한 효과: ({0}/{1})",
+      "en": "Selected Effects: ({0}/{1})",
+      "ja": "",
+      "zh_tw": "所選效果：（{0}／{1}）",
+      "zh_cn": ""
+    },
+    {
+      "no": 19234,
+      "kr": "특별 지원 효과 선택 이후 입장 가능합니다.",
+      "en": "Select special support effects to enter.",
+      "ja": "",
+      "zh_tw": "選擇特別支援效果後可入場。",
+      "zh_cn": ""
+    },
+    {
+      "no": 19235,
+      "kr": "일일 승리 보상 획득 가능!",
+      "en": "Offers daily victory rewards!",
+      "ja": "",
+      "zh_tw": "可獲得每日勝利獎勵！",
+      "zh_cn": ""
+    },
+    {
+      "no": 19236,
+      "kr": "일일 승리 보상 획득 완료!",
+      "en": "Daily participation reward won!",
+      "ja": "",
+      "zh_tw": "已獲得每日參加獎勵！",
+      "zh_cn": ""
+    },
+    {
+      "no": 19237,
+      "kr": "X {0}",
+      "en": "X {0}",
+      "ja": "",
+      "zh_tw": "X {0}",
+      "zh_cn": ""
+    },
+    {
+      "no": 19238,
+      "kr": "특별 지원 효과",
+      "en": "Special Support Effects",
+      "ja": "",
+      "zh_tw": "特別支援效果",
+      "zh_cn": ""
+    },
+    {
+      "no": 19239,
+      "kr": "필수 적용 제약",
+      "en": "Mandatory Disadvantages",
+      "ja": "",
+      "zh_tw": "必須套用限制",
+      "zh_cn": ""
+    },
+    {
+      "no": 19240,
+      "kr": "레전더리 Top 10",
+      "en": "Legendary Top 10",
+      "ja": "",
+      "zh_tw": "傳說Top 10",
+      "zh_cn": ""
+    },
+    {
+      "no": 19241,
+      "kr": "레전더리 Top 50",
+      "en": "Legendary Top 50",
+      "ja": "",
+      "zh_tw": "傳說Top 50",
+      "zh_cn": ""
+    },
+    {
+      "no": 19242,
+      "kr": "레전더리 Top 200",
+      "en": "Legendary Top 200",
+      "ja": "",
+      "zh_tw": "傳說Top 200",
+      "zh_cn": ""
+    },
+    {
+      "no": 19243,
+      "kr": "레전더리 Top 750",
+      "en": "Legendary Top 750",
+      "ja": "",
+      "zh_tw": "傳說Top 750",
+      "zh_cn": ""
+    },
+    {
+      "no": 19244,
+      "kr": "에덴 연합 본선전 순위 결과",
+      "en": "Eden Alliance Finals Rankings",
+      "ja": "",
+      "zh_tw": "伊甸園聯合正賽排名結果",
+      "zh_cn": ""
+    },
+    {
+      "no": 19245,
+      "kr": "보상 기간",
+      "en": "Reward period",
+      "ja": "",
+      "zh_tw": "獎勵期間",
+      "zh_cn": ""
+    },
+    {
+      "no": 19246,
+      "kr": "에덴 연합 예선전 종료",
+      "en": "Eden Alliance Qualifiers Over",
+      "ja": "",
+      "zh_tw": "伊甸園聯合預賽結束",
+      "zh_cn": ""
+    },
+    {
+      "no": 19247,
+      "kr": "브론즈",
+      "en": "Bronze",
+      "ja": "ブロンズ",
+      "zh_tw": "青銅",
+      "zh_cn": ""
+    },
+    {
+      "no": 19248,
+      "kr": "실버",
+      "en": "Silver",
+      "ja": "シルバー",
+      "zh_tw": "白銀",
+      "zh_cn": ""
+    },
+    {
+      "no": 19249,
+      "kr": "골드",
+      "en": "Gold",
+      "ja": "ゴールド",
+      "zh_tw": "黃金",
+      "zh_cn": ""
+    },
+    {
+      "no": 19250,
+      "kr": "플래티넘",
+      "en": "Platinum",
+      "ja": "プラチナ",
+      "zh_tw": "白金",
+      "zh_cn": ""
+    },
+    {
+      "no": 19251,
+      "kr": "마스터",
+      "en": "Master",
+      "ja": "マスター",
+      "zh_tw": "大師",
+      "zh_cn": ""
+    },
+    {
+      "no": 19252,
+      "kr": "챌린저",
+      "en": "Challenger",
+      "ja": "チャレンジャー",
+      "zh_tw": "王者",
       "zh_cn": ""
     },
     {
@@ -21988,7 +22396,7 @@
       "no": 21127,
       "kr": "심상세계 패스",
       "en": "Imaginary World Pass",
-      "ja": "",
+      "ja": "心象世界パス",
       "zh_tw": "心理世界通行證",
       "zh_cn": ""
     },
@@ -21996,7 +22404,7 @@
       "no": 21128,
       "kr": "이벤트 룰렛에서 룰렛 티켓을 사용할 때마다\r\n개당 100 패스 포인트를 획득합니다.",
       "en": "Every Spin Ticket used on the event wheel\r\ngives you 100 pass points.",
-      "ja": "",
+      "ja": "イベントルーレットでルーレットチケットを使用するたびに\r\n1個ごとに100パスポイントを獲得します。",
       "zh_tw": "在活動轉盤使用轉盤票券時，\r\n每一個會獲得100通行證點數。",
       "zh_cn": ""
     },
@@ -22004,7 +22412,7 @@
       "no": 21129,
       "kr": "이벤트 기간 동안 미션을 수행하고 다양한 보상을 받아가세요!",
       "en": "Complete missions during the event and claim various rewards!",
-      "ja": "",
+      "ja": "イベント期間中にミッションを行い、様々な報酬を受け取りましょう！",
       "zh_tw": "在活動期間內執行任務，獲得各種獎勵吧！",
       "zh_cn": ""
     },
@@ -22028,7 +22436,7 @@
       "no": 21132,
       "kr": "누적 사용 횟수 : {0}",
       "en": "Cumulative Uses: {0}",
-      "ja": "",
+      "ja": "累計使用回数：{0}",
       "zh_tw": "累積使用次數：{0}",
       "zh_cn": ""
     },
@@ -22044,7 +22452,7 @@
       "no": 21134,
       "kr": "무쌍의 혼 패스",
       "en": "Peerless Soul Pass",
-      "ja": "",
+      "ja": "無双の魂パス",
       "zh_tw": "無雙之魂通行證",
       "zh_cn": ""
     },
@@ -22052,7 +22460,7 @@
       "no": 21135,
       "kr": "노심 방위전",
       "en": "Reactor Core Defense",
-      "ja": "",
+      "ja": "爐心防衛戦",
       "zh_tw": "爐心防衛戰",
       "zh_cn": ""
     },
@@ -22060,8 +22468,64 @@
       "no": 21136,
       "kr": "{0}회 달성 후 추가 보상",
       "en": "Bonus reward after {0} spins",
-      "ja": "",
+      "ja": "{0}回達成後に追加報酬",
       "zh_tw": "達成{0}次後額外獎勵",
+      "zh_cn": ""
+    },
+    {
+      "no": 21137,
+      "kr": "사해파정",
+      "en": "Calm Waves of Four Seas",
+      "ja": "四海波静",
+      "zh_tw": "四海波靜",
+      "zh_cn": ""
+    },
+    {
+      "no": 21138,
+      "kr": "지호의 선물",
+      "en": "Jiho's Gift",
+      "ja": "ジホのプレゼント",
+      "zh_tw": "智河的禮物",
+      "zh_cn": ""
+    },
+    {
+      "no": 21139,
+      "kr": "궁기 길들이기",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21140,
+      "kr": "이벤트 주사위",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21141,
+      "kr": "미르의 맹약 패스",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21142,
+      "kr": "회고록: 극광의 너머로",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21143,
+      "kr": "물체를 파괴하여 날뛰는 궁기를 길들이세요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -23516,7 +23980,7 @@
       "no": 30182,
       "kr": "심연의 마녀",
       "en": "Witch of the Abyss",
-      "ja": "",
+      "ja": "深淵の魔女",
       "zh_tw": "深淵的魔女",
       "zh_cn": ""
     },
@@ -23524,7 +23988,7 @@
       "no": 30183,
       "kr": "선봉",
       "en": "Vanguard",
-      "ja": "",
+      "ja": "先鋒",
       "zh_tw": "先鋒",
       "zh_cn": ""
     },
@@ -23532,8 +23996,32 @@
       "no": 30184,
       "kr": "혼돈을 얼리는 빙하",
       "en": "Chaos-Freezing Glacier",
-      "ja": "",
+      "ja": "混沌を凍らせる氷河",
       "zh_tw": "凍結混沌的冰川",
+      "zh_cn": ""
+    },
+    {
+      "no": 30185,
+      "kr": "신검합일",
+      "en": "The unity of sword and mind",
+      "ja": "",
+      "zh_tw": "身劍合一",
+      "zh_cn": ""
+    },
+    {
+      "no": 30186,
+      "kr": "달빛에 흘려보내는 마음",
+      "en": "Heart drifting away in the moonlight",
+      "ja": "",
+      "zh_tw": "在月光中流淌的心",
+      "zh_cn": ""
+    },
+    {
+      "no": 30187,
+      "kr": "Across, Beyond, Call",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -24225,11 +24713,75 @@
       "zh_cn": ""
     },
     {
+      "no": 51001,
+      "kr": "제네시스 시뮬레이션",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 51002,
+      "kr": "제네시스 시뮬레이션\r\n{0}",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 51003,
+      "kr": "전체 순위",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 51004,
+      "kr": "클리어 층",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 51005,
+      "kr": "{0}위",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 51006,
+      "kr": "{0}층",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 51007,
+      "kr": "제네시스 시뮬레이션 - {0}",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 51008,
+      "kr": "현재 층 클리어 시간",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 61900,
       "kr": "쇼콜라 퀸의 시험",
       "en": "Chocolat Queen's Test",
       "ja": "ショコラクイーンの試験",
-      "zh_tw": "巧克力甜心女王試驗",
+      "zh_tw": "巧克力甜心\r\n女王試驗",
       "zh_cn": ""
     },
     {
@@ -24409,6 +24961,22 @@
       "zh_cn": ""
     },
     {
+      "no": 86160,
+      "kr": "2초마다 모든 아군의 마나가 1000 회복되고, 메인 스킬 사용 시 얼티밋 게이지가 5% 더 회복된다.",
+      "en": "All allies recover 1,000 Mana every 2 sec. Main skill use adds 5% to the Ultimate Gauge.",
+      "ja": "",
+      "zh_tw": "每2秒所有友軍的魔力恢復1000，使用主要技能時，終極計量條再恢復5%",
+      "zh_cn": ""
+    },
+    {
+      "no": 86170,
+      "kr": "3초마다 체력이 50% 이상이면 공격력이 4% 상승하고, 50% 미만이면 버프가 1개 감소한다.",
+      "en": "<SIZE=14>HP is checked every 3 sec. If HP is at 50% or more, a stack of ATK +4% buff is granted. If HP is below 50%, 1 stack of this buff is removed.</SIZE>",
+      "ja": "",
+      "zh_tw": "每3秒體力超過50%時，攻擊力提升4%，若未滿50%，則減少1個增益效果",
+      "zh_cn": ""
+    },
+    {
       "no": 86210,
       "kr": "모든 아군의 받는 피해가 10% 감소한다. 전방의 아군 하나 당 가하는 피해가 5% 감소하고, 받는 피해가 5% 감소한다.",
       "en": "Decreases all allies' total received damage by 10%. Decreases damage dealt by 5% and total damage received by 5% for every ally in the front row.",
@@ -24449,6 +25017,30 @@
       "zh_cn": ""
     },
     {
+      "no": 86260,
+      "kr": "적이 디버프를 13개 보유한 순간부터 받는 피해가 39% 증폭된다. (중첩 제외)",
+      "en": "When an enemy has 13 debuffs (excluding stacks), their total damage received is amplified by 39%.",
+      "ja": "",
+      "zh_tw": "敵人一持有13個減益效果時，所受傷害增福39%（疊加除外）",
+      "zh_cn": ""
+    },
+    {
+      "no": 86270,
+      "kr": "전투 시작 시 공격력이 가장 높은 아군의 공격력이 100% 증가한다.",
+      "en": "Increases the ATK of the ally with the highest ATK by 100% when battle begins.",
+      "ja": "",
+      "zh_tw": "戰鬥開始時，攻擊力最高的友軍攻擊力增加100%",
+      "zh_cn": ""
+    },
+    {
+      "no": 86280,
+      "kr": "우두머리 근처 3.5m 내에 있는 아군의 가하는 피해량이 35% 증가한다.",
+      "en": "Increases the damage dealt by the ally within 3.5m of the Ringleader by 35%.",
+      "ja": "",
+      "zh_tw": "首領附近3.5m內的友軍造成傷害量增加35%",
+      "zh_cn": ""
+    },
+    {
       "no": 86310,
       "kr": "전투 시작 시 공격력이 가장 높은 아군의 치명타 확률이 250% 증가하고, 치명타 위력이 60% 증가한다.",
       "en": "When battle begins, the Crit Rate of the ally with the highest ATK increases by 250%, and her Crit DMG increases by 60%.",
@@ -24486,6 +25078,14 @@
       "en": "All allies' Mana Recovery increases by 10%, and her main skill's effectiveness increases by 20%.",
       "ja": "味方全員のマナ回復量が10%増加し、メインスキルの威力が20%増加する。",
       "zh_tw": "所有友軍魔力恢復量增加10%、主要技能威力增加20%",
+      "zh_cn": ""
+    },
+    {
+      "no": 86360,
+      "kr": "해당 파티는 영구적인 침묵 상태에 빠지지만 공격력 및 가하는 피해량이 60%씩 상승한다.",
+      "en": "The party becomes permanently silenced, but their ATK and damage dealt increase by 60%.",
+      "ja": "",
+      "zh_tw": "該隊伍會永久陷入沉默狀態，但攻擊力與造成傷害量各上升60%",
       "zh_cn": ""
     },
     {
@@ -25276,7 +25876,7 @@
       "no": 92081,
       "kr": "[픽업 소환] 지호(미르)",
       "en": "[Pick-Up Summon] Jiho (Mir)",
-      "ja": "",
+      "ja": "[ピックアップ召喚] ジホ(ミル)",
       "zh_tw": "［Pick Up召喚］智河（米爾）",
       "zh_cn": ""
     },
@@ -25284,7 +25884,7 @@
       "no": 92082,
       "kr": "[픽업 소환] 르네(백은)",
       "en": "[Pick-Up Summon] Renee (Argent)",
-      "ja": "",
+      "ja": "[ピックアップ召喚] ルネ(白銀)",
       "zh_tw": "［Pick Up召喚］勒內（白銀）",
       "zh_cn": ""
     },
@@ -25355,9 +25955,9 @@
     {
       "no": 110617,
       "kr": "샤리트는 야수형입니다.\r\n<COLOR=#FFFFFF>공격력이 감소하면, 위축되어 더 큰 피해를 받으며 감전에 취약합니다.</COLOR>\r\n\r\n샤리트를 위축시키고, 보호막 스킬을 이용하여 서브 스킬 '흡수'로부터 정령을 보호하세요.",
-      "en": "Charite is Beast type.\r\n<COLOR=#FFFFFF>When Charite's ATK is decreased, she becomes intimidated, taking greater damage. She is also vulnerable to Shock.</COLOR>\r\n\r\nKeep intimidating Charite and use shield-granting skills to protect Souls from her sub skill, \"Absorption.\"",
+      "en": "Charite is Beast type.\r\n<COLOR=#FFFFFF>When Charite's ATK is decreased, she withers under intimidation, taking greater damage. She is also vulnerable to Shock.</COLOR>\r\n\r\nKeep intimidating Charite and use shield-granting skills to protect Souls from her sub skill, \"Absorption.\"",
       "ja": "シャリトは野獣型です。\r\n攻撃力が減少すると畏縮してさらに大きなダメージを受けます。\r\n\r\nシャリトを畏縮させて、バリアスキルを活用しサブスキル「吸収」から精霊を守りましょう。",
-      "zh_tw": "夏里特為野獸型。\r\n<COLOR=#FFFFFF>若夏里特的攻擊力減少，將畏縮並受到更大的傷害，並容易陷入觸電。</COLOR>\r\n\r\n使夏里特畏縮，並使用防護罩技能，保護精靈免受夏里特輔助技能「吸收」的傷害。",
+      "zh_tw": "夏里特為野獸型。\r\n<COLOR=#FFFFFF>若夏里特的攻擊力減少，將畏縮並受到更大的傷害，並容易陷入觸電。</COLOR>\r\n\r\n使夏里特畏縮，並使用防護罩技能，保護精靈免受夏里特輔助技能「吸收」的傷害吧。",
       "zh_cn": ""
     },
     {
@@ -25780,7 +26380,7 @@
       "no": 110670,
       "kr": "마물의 모습을 본뜬 흙인형, '토용군'. 가온을 지키는 토용군을 만들어내야 할 노심이 어째서인지 가온 마을을 공격하는 토용군을 만들어내고 있다.\r\n\r\n홍란(무쌍)을 지원하여 마을을 공격하러 몰려온 토용군을 물리치고 가온의 평화를 되찾자!",
       "en": "Clay Creatures are fashioned after monsters. The Reactor Core that should be producing Clay Creatures to defend Gaon is, for some reason, creating Clay Creatures that attack its towns.\r\n\r\nAssist Honglan (Peerless) and defeat the horde of Clay Creatures to restore peace to Gaon!",
-      "ja": "",
+      "ja": "魔物の姿を模した土の人形、「土の戦士」。しかしガオンを守る土の戦士を作るべき爐心が、なぜかガオンの村を攻撃する土の戦士を作り出している。\r\n\r\nホンラン(無双)をサポートして、村を襲撃しにきた土の戦士を倒し、ガオンの平和を取り戻そう！",
       "zh_tw": "仿造魔物外型的泥人「土俑軍」。爐心本應製作守護加溫的土俑軍，但不知為何在製作攻擊加溫村莊的土俑軍。\r\n\r\n支援紅蘭（無雙），擊退一擁而上要攻擊村莊的土俑軍，找回加溫和平！",
       "zh_cn": ""
     },
@@ -25788,7 +26388,7 @@
       "no": 110671,
       "kr": "홍란(무쌍)이 지속적으로 토용군을 물리치지만, 빙결포의 도움이 있다면 더 많은 토용군을 한 번에 무찌를 수 있다!\r\n가장 많은 적이 몰려올 때 빙결포를 발사하는 게 핵심 포인트!\r\n한 번의 포격으로 많은 적을 물리칠 경우 빙결포의 장전 속도가 더욱 빨라진다!\r\n\r\n빙결포(상단): 눈결정 1개가 그려진 범위 내에 있는 모든 적을 궤멸시키는 혹한의 광선을 발사한다. (쿨타임: 20초)\r\n\r\n빙결포(중단): 눈결정 2개가 그려진 범위 내에 있는 모든 적을 궤멸시키는 혹한의 광선을 발사한다. (쿨타임: 20초)\r\n\r\n빙결포(하단): 눈결정 3개가 그려진 범위 내에 있는 모든 적을 궤멸시키는 혹한의 광선을 발사한다. (쿨타임: 20초)\r\n\r\n긴급 장전: 모든 빙결포를 즉시 사용 가능 상태로 변경한다. (1회에 한해 전투 시작 20초 이후 사용 가능)\r\n\r\n적 처치 시 10,000점 획득 가능",
       "en": "Honglan (Peerless) continues to fend off the army of Clay Creatures, but with the Frost Cannons' help, even more can be wiped out at once!\r\nTime it right and fire the Frost Cannons when the enemy horde is at its thickest!\r\nTaking down multiple enemies with a single blast boosts the Frost Cannon's reload speed!\r\n\r\nFrost Cannon (Top): Unleashes a beam of intense cold, eradicating all enemies within the area marked by 1 Snowflake (Cooldown: 20 sec).\r\n\r\nFrost Cannon (Middle): Unleashes a beam of intense cold, eradicating all enemies within the area marked by 2 Snowflakes (Cooldown: 20 sec).\r\n\r\nFrost Cannon (Bottom): Unleashes a beam of intense cold, eradicating all enemies within the area marked by 3 Snowflakes (Cooldown: 20 sec).\r\n\r\nEmergency Reload: Instantly readies all Frost Cannons for use (can be used once per battle, 20 seconds after the battle begins)\r\n\r\nDefeating the enemy awards 10,000 points.",
-      "ja": "",
+      "ja": "ホンラン(無双)は持続的に土の戦士を倒すが、氷結砲があればより多くの土の戦士を一気に倒せる！\r\n最も多い敵が押し寄せてくるときに氷結砲を発射するのが、攻略の鍵となる！\r\n砲撃1回で多くの敵を倒すと、氷結砲のリロード速度がさらにアップ！\r\n\r\n氷結砲(上)：雪の結晶1個が描かれた範囲内の敵全員を潰滅させる極寒の光線を発射する。(クールタイム：20秒)\r\n\r\n氷結砲(中)：雪の結晶2個が描かれた範囲内の敵全員を潰滅させる極寒の光線を発射する。(クールタイム：20秒)\r\n\r\n氷結砲(下)：雪の結晶3個が描かれた範囲内の敵全員を潰滅させる極寒の光線を発射する。(クールタイム：20秒)\r\n\r\n緊急リロード：：すべての氷結砲をすぐに使用できる状態に変更する。(1回のみ、戦闘開始20秒後に使用可能)\r\n\r\n敵を倒すと10,000ポイントを獲得できる。",
       "zh_tw": "紅蘭（無雙）持續擊退土俑軍，但有凍結砲就能一舉殲滅更多土俑軍！\r\n趁最多敵人蜂擁而上的時候，發射凍結砲正是獲勝關鍵！\r\n若一次砲擊擊退許多敵人，將加快凍結砲的裝填速度！\r\n\r\n凍結砲（上段）：發射嚴寒光線，擊垮1個冰晶畫出範圍內的所有敵人。（冷卻時間：20秒）\r\n\r\n凍結砲（中段）：發射嚴寒光線，擊垮2個冰晶畫出範圍內的所有敵人。（冷卻時間：20秒）\r\n\r\n凍結砲（下段）：發射嚴寒光線，擊垮3個冰晶畫出範圍內的所有敵人。（冷卻時間：20秒）\r\n\r\n緊急裝填：所有凍結砲變為可立即使用的狀態。（僅限戰鬥開始20秒後使用1次）\r\n\r\n擊殺敵人時可獲得10,000分",
       "zh_cn": ""
     },
@@ -37956,7 +38556,7 @@
       "no": 550034,
       "kr": "모두 휴식",
       "en": "Rest All",
-      "ja": "",
+      "ja": "全員休憩",
       "zh_tw": "全部休息",
       "zh_cn": ""
     },
@@ -37964,7 +38564,7 @@
       "no": 550035,
       "kr": "아직 피로도가 남아있는 정령들이 있습니다.\r\n해당 정령들도 모두 휴식시키겠습니까?",
       "en": "Some Souls still have Energy left.\r\nDo you want them to rest as well?",
-      "ja": "",
+      "ja": "まだ活力が不足している精霊がいます。\r\nその精霊も全員休憩させますか？",
       "zh_tw": "有些精靈還有剩餘精力，\r\n確定要讓該精靈一併休息嗎？",
       "zh_cn": ""
     },
@@ -38470,6 +39070,14 @@
       "en": "Expedition Completed",
       "ja": "遠征完了",
       "zh_tw": "遠征完成",
+      "zh_cn": ""
+    },
+    {
+      "no": 551064,
+      "kr": "나들이 진행 횟수 {0}/{1}",
+      "en": "Outing Count: {0}/{1}",
+      "ja": "",
+      "zh_tw": "約會進行次數{0}／{1}",
       "zh_cn": ""
     },
     {
@@ -40660,7 +41268,7 @@
       "no": 552511,
       "kr": "로제(홍염) 배치 시 <color=\"#2d9b00\">로제(홍염)의 공격력 {0}%</color> 증가",
       "en": "<color=\"#2d9b00\">Rose (Prominence)'s ATK +{0}%</color> when Rose (Prominence) is placed",
-      "ja": "",
+      "ja": "ロゼ(紅炎)配置時、<color=\"#2d9b00\">ロゼ(紅炎)の攻撃力が{0}%</color>増加",
       "zh_tw": "配置蘿絲（紅焰）時，<color=\"#2d9b00\">蘿絲（紅焰）的攻擊力增加{0}%</color>",
       "zh_cn": ""
     },
@@ -40668,8 +41276,16 @@
       "no": 552512,
       "kr": "홍란(무쌍) 배치 시 <color=\"#2d9b00\">홍란(무쌍)의 체력 {0}%</color> 증가",
       "en": "<color=\"#2d9b00\">Honglan (Peerless)'s HP +{0}%</color> when Honglan (Peerless) is placed",
-      "ja": "",
+      "ja": "ホンラン(無双)配置時、<color=\"#2d9b00\">ホンラン(無双)の体力が{0}%</color>増加",
       "zh_tw": "配置紅蘭（無雙）時，<color=\"#2d9b00\">紅蘭（無雙）的體力增加{0}%</color>",
+      "zh_cn": ""
+    },
+    {
+      "no": 552513,
+      "kr": "지호(미르) 배치 시 <color=\"#2d9b00\">지호(미르)의 공격력 {0}%</color> 증가",
+      "en": "<color=\"#2d9b00\">Jiho (Mir)'s ATK +{0}%</color> when Jiho (Mir) is placed",
+      "ja": "",
+      "zh_tw": "配置智河（米爾）時，<color=\"#2d9b00\">智河（米爾）的攻擊力增加{0}%</color>",
       "zh_cn": ""
     },
     {
@@ -51508,7 +52124,7 @@
       "no": 615671,
       "kr": "아케나인 성당",
       "en": "Arkenine Cathedral",
-      "ja": "",
+      "ja": "アーケナイン聖堂",
       "zh_tw": "阿肯納因教堂",
       "zh_cn": ""
     },
@@ -51516,7 +52132,7 @@
       "no": 615672,
       "kr": "태양 기사단",
       "en": "Order of Sun",
-      "ja": "",
+      "ja": "太陽騎士団",
       "zh_tw": "太陽騎士團",
       "zh_cn": ""
     },
@@ -51524,7 +52140,7 @@
       "no": 615673,
       "kr": "린지",
       "en": "Linzy",
-      "ja": "",
+      "ja": "リンジー",
       "zh_tw": "琳賽",
       "zh_cn": ""
     },
@@ -51532,7 +52148,7 @@
       "no": 615674,
       "kr": "클로이",
       "en": "Chloe",
-      "ja": "",
+      "ja": "クロエ",
       "zh_tw": "克羅伊",
       "zh_cn": ""
     },
@@ -51540,7 +52156,7 @@
       "no": 615675,
       "kr": "사복",
       "en": "Casual Wear",
-      "ja": "",
+      "ja": "私服",
       "zh_tw": "私服",
       "zh_cn": ""
     },
@@ -51548,7 +52164,7 @@
       "no": 615676,
       "kr": "섭리",
       "en": "Laws",
-      "ja": "",
+      "ja": "摂理",
       "zh_tw": "法則",
       "zh_cn": ""
     },
@@ -51556,7 +52172,7 @@
       "no": 615677,
       "kr": "새로운 옷",
       "en": "New Clothes",
-      "ja": "",
+      "ja": "新しい服",
       "zh_tw": "新衣服",
       "zh_cn": ""
     },
@@ -51564,7 +52180,7 @@
       "no": 615678,
       "kr": "미래",
       "en": "Future",
-      "ja": "",
+      "ja": "未来",
       "zh_tw": "未來",
       "zh_cn": ""
     },
@@ -51572,7 +52188,7 @@
       "no": 615679,
       "kr": "사방신",
       "en": "Four Divine Guardians",
-      "ja": "",
+      "ja": "四方神",
       "zh_tw": "四方守護神",
       "zh_cn": ""
     },
@@ -51580,7 +52196,7 @@
       "no": 615680,
       "kr": "무기",
       "en": "Weapons",
-      "ja": "",
+      "ja": "武器",
       "zh_tw": "武器",
       "zh_cn": ""
     },
@@ -51588,7 +52204,7 @@
       "no": 615681,
       "kr": "토끼들",
       "en": "Rabbits",
-      "ja": "",
+      "ja": "ウサギたち",
       "zh_tw": "兔子們",
       "zh_cn": ""
     },
@@ -51596,7 +52212,7 @@
       "no": 615682,
       "kr": "가온",
       "en": "Gaon",
-      "ja": "",
+      "ja": "ガオン",
       "zh_tw": "加溫",
       "zh_cn": ""
     },
@@ -51604,7 +52220,7 @@
       "no": 615683,
       "kr": "구름",
       "en": "Clouds",
-      "ja": "",
+      "ja": "雲",
       "zh_tw": "雲朵",
       "zh_cn": ""
     },
@@ -51612,7 +52228,7 @@
       "no": 615684,
       "kr": "최근의 고민",
       "en": "Recent Worries",
-      "ja": "",
+      "ja": "最近の悩み",
       "zh_tw": "最近的煩惱",
       "zh_cn": ""
     },
@@ -51620,7 +52236,7 @@
       "no": 615685,
       "kr": "갖고 싶은 것",
       "en": "Something she wants to have",
-      "ja": "",
+      "ja": "ほしいもの",
       "zh_tw": "想擁有的東西",
       "zh_cn": ""
     },
@@ -51628,8 +52244,136 @@
       "no": 615686,
       "kr": "온천",
       "en": "Hot Springs",
-      "ja": "",
+      "ja": "温泉",
       "zh_tw": "溫泉",
+      "zh_cn": ""
+    },
+    {
+      "no": 615687,
+      "kr": "시력",
+      "en": "Eyesight",
+      "ja": "",
+      "zh_tw": "視力",
+      "zh_cn": ""
+    },
+    {
+      "no": 615688,
+      "kr": "사방의 수호자들",
+      "en": "Guardians of the Four Directions",
+      "ja": "",
+      "zh_tw": "四方守護者們",
+      "zh_cn": ""
+    },
+    {
+      "no": 615689,
+      "kr": "술 담그기",
+      "en": "Brewing alcohol",
+      "ja": "",
+      "zh_tw": "釀酒",
+      "zh_cn": ""
+    },
+    {
+      "no": 615690,
+      "kr": "가온",
+      "en": "Gaon",
+      "ja": "",
+      "zh_tw": "加溫",
+      "zh_cn": ""
+    },
+    {
+      "no": 615691,
+      "kr": "새",
+      "en": "Birds",
+      "ja": "",
+      "zh_tw": "鳥",
+      "zh_cn": ""
+    },
+    {
+      "no": 615692,
+      "kr": "명상",
+      "en": "Meditation",
+      "ja": "",
+      "zh_tw": "冥想",
+      "zh_cn": ""
+    },
+    {
+      "no": 615693,
+      "kr": "속세",
+      "en": "Outside world",
+      "ja": "",
+      "zh_tw": "俗世",
+      "zh_cn": ""
+    },
+    {
+      "no": 615694,
+      "kr": "제자",
+      "en": "Student",
+      "ja": "",
+      "zh_tw": "弟子",
+      "zh_cn": ""
+    },
+    {
+      "no": 615695,
+      "kr": "눈",
+      "en": "Snow",
+      "ja": "",
+      "zh_tw": "眼睛",
+      "zh_cn": ""
+    },
+    {
+      "no": 615696,
+      "kr": "드레스",
+      "en": "Dresses",
+      "ja": "",
+      "zh_tw": "禮服",
+      "zh_cn": ""
+    },
+    {
+      "no": 615697,
+      "kr": "제자",
+      "en": "Student",
+      "ja": "",
+      "zh_tw": "弟子",
+      "zh_cn": ""
+    },
+    {
+      "no": 615698,
+      "kr": "컨셉",
+      "en": "Concept",
+      "ja": "",
+      "zh_tw": "形象",
+      "zh_cn": ""
+    },
+    {
+      "no": 615699,
+      "kr": "미래",
+      "en": "Future",
+      "ja": "",
+      "zh_tw": "未來",
+      "zh_cn": ""
+    },
+    {
+      "no": 615700,
+      "kr": "아름다운 것",
+      "en": "Friends",
+      "ja": "",
+      "zh_tw": "好友",
+      "zh_cn": ""
+    },
+    {
+      "no": 615701,
+      "kr": "머리카락",
+      "en": "Hair",
+      "ja": "",
+      "zh_tw": "頭髮",
+      "zh_cn": ""
+    },
+    {
+      "no": 615702,
+      "kr": "비밀",
+      "en": "Secrets",
+      "ja": "",
+      "zh_tw": "祕密",
       "zh_cn": ""
     },
     {
@@ -53310,6 +54054,14 @@
       "en": "Soul Demo",
       "ja": "精霊体験",
       "zh_tw": "精靈體驗",
+      "zh_cn": ""
+    },
+    {
+      "no": 660147,
+      "kr": "기원의 탑 특별 증설 중\r\n{0}",
+      "en": "Special Expansion of Tower of Origin Underway\r\n{0}",
+      "ja": "",
+      "zh_tw": "起源之塔特別增設中\r\n{0}",
       "zh_cn": ""
     },
     {
@@ -57724,7 +58476,7 @@
       "no": 990200,
       "kr": "외전 스토리 다시 보기",
       "en": "Rewatch Spin-Off Story",
-      "ja": "",
+      "ja": "外伝ストーリーをもう一度見る",
       "zh_tw": "再次觀看外傳故事",
       "zh_cn": ""
     },
@@ -57732,7 +58484,7 @@
       "no": 990201,
       "kr": "외전 스토리에서는 별도의 조건 없이 \r\n종료된 외전 이벤트의 스토리를 감상할 수 있습니다. \r\n단, 외전 스토리 열람 보상은 획득할 수 없습니다.",
       "en": "You can watch past Spin-Off Stories again,\r\nwithout meeting any specific requirements.\r\nHowever, you cannot obtain rewards again.",
-      "ja": "",
+      "ja": "外伝ストーリーでは、別途の条件なしに\r\n終了した外伝イベントのストーリーを鑑賞できます。\r\nただし、外伝ストーリーの閲覧報酬は獲得できません。",
       "zh_tw": "外傳故事可查看\r\n已結束的外傳活動故事，\r\n但無法獲得外傳故事的觀看獎勵。",
       "zh_cn": ""
     },
@@ -62257,6 +63009,86 @@
       "zh_cn": ""
     },
     {
+      "no": 995340,
+      "kr": "에덴 연합 작전",
+      "en": "Operation Eden Alliance",
+      "ja": "",
+      "zh_tw": "伊甸園聯合作戰",
+      "zh_cn": ""
+    },
+    {
+      "no": 995341,
+      "kr": "에덴 연합 작전은 특수한 제약을 가진 적에게서 승리하고 보상을 얻을 수 있는 콘텐츠입니다.\r\n매일 참여하여 승리 시 참여 보상으로 작전 기념 코인을 획득할 수 있으며,\r\n예선전의 임무를 완료하여 더 많은 보상을 얻을 수 있습니다.\r\n8일 차부터 진행되는 본선전에 참여하여 다른 사람들과의 순위 경쟁에 참여하여 특별한 순위 보상을 획득할 수 있습니다.",
+      "en": "In Operation Eden Alliance, you battle enemies while dealing with special disadvantages to earn rewards.\r\nWin daily matches to receive Operation Coins and complete Qualifier missions for extra rewards.\r\nStarting on Day 8, join the Finals to compete in the rankings and earn special ranking rewards.",
+      "ja": "",
+      "zh_tw": "伊甸園聯合作戰是戰勝擁有特殊限制的敵人，即可獲得獎勵的遊戲內容。\r\n每天參加並勝利時，可獲得參加獎勵作戰紀念硬幣，完成預賽任務即可獲得更多獎勵。\r\n參加從第8天開始進行的正賽，與其他玩家競爭排名，可獲得特別的排名獎勵。",
+      "zh_cn": ""
+    },
+    {
+      "no": 995350,
+      "kr": "에덴 연합 예선전",
+      "en": "Eden Alliance Qualifiers",
+      "ja": "",
+      "zh_tw": "伊甸園聯合預賽",
+      "zh_cn": ""
+    },
+    {
+      "no": 995351,
+      "kr": "에덴 연합 예선전은 1일 ~ 14일 차까지 진행할 수 있으며 \r\n제약은 특정 날짜마다 자동으로 해금됩니다.\r\n제약을 통해 적 레벨을 설정하여 \r\n더 높은 제약과 레벨을 가진 강력한 적들과 전투하여 승리하고 보상을 획득할 수 있습니다.",
+      "en": "Operation Eden Alliance Qualifiers are open from Day 1 to Day 14, with disadvantages unlocking automatically on set days.\r\nAdjust enemy levels by selecting disadvantages and challenge stronger enemies for better rewards.",
+      "ja": "",
+      "zh_tw": "伊甸園聯合作戰預賽從第1天～第14天為止，特定日期會自動解除限制。\r\n可透過限制設定敵人等級，與擁有更高限制與等級的敵人戰鬥並獲勝，即可獲得獎勵。",
+      "zh_cn": ""
+    },
+    {
+      "no": 995360,
+      "kr": "에덴 연합 본선전",
+      "en": "Eden Alliance Finals",
+      "ja": "",
+      "zh_tw": "伊甸園聯合正賽",
+      "zh_cn": ""
+    },
+    {
+      "no": 995361,
+      "kr": "에덴 연합 본선전은 8일 ~ 14일 차까지 진행할 수 있으며, 에덴 연합 예선전의 모든 제약이 설정되지만,\r\n아군을 지원할 수 있는 특별 지원 효과를 선택하고 전투에 참여할 수 있습니다.",
+      "en": "Eden Alliance Finals are open from Day 8 to Day 14 with all top-tier disadvantages from the Qualifiers applied.\r\nTo balance the odds, you can choose special support effects to assist your team in battle.",
+      "ja": "",
+      "zh_tw": "伊甸園聯合正賽從第8天～第14天為止，設有伊甸園聯合預賽的所有限制，\r\n可選擇支援友軍的特別支援效果參戰。",
+      "zh_cn": ""
+    },
+    {
+      "no": 995370,
+      "kr": "에덴 연합 예선전 보상",
+      "en": "Eden Alliance Qualifiers Rewards",
+      "ja": "",
+      "zh_tw": "伊甸園聯合預賽獎勵",
+      "zh_cn": ""
+    },
+    {
+      "no": 995371,
+      "kr": "에덴 연합 예선전의 특정 레벨의 전투에서 승리 시 보상이 즉시 지급되고\r\n만약 이전 티어 보상을 이미 획득했을 경우, 이전 티어 보상의 차액만큼을 지급합니다.\r\n\r\n예시) 브론즈 티어 달성 이후 챌린저 달성 시 \r\n챌린저 티어 보상 - 브론즈 티어 보상의 차액 지급",
+      "en": "Winning battles at certain levels during the Qualifiers grants immediate rewards.\r\nIf you've already received rewards from a lower tier, you'll receive the difference in rewards between your current and previous tier.\r\n\r\nExample: If you reach the Challenger tier after Bronze,\r\nyou'll receive the difference between the Challenger and Bronze rewards.",
+      "ja": "",
+      "zh_tw": "在伊甸園聯合預賽的特定等級戰鬥獲勝時，將立即發放獎勵，\r\n若先前已獲得段位獎勵，將發放段位獎勵的差額。\r\n\r\n例）達成青銅段位後達成王者時，\r\n發放王者段位獎勵 - 青銅段位獎勵之差額",
+      "zh_cn": ""
+    },
+    {
+      "no": 995380,
+      "kr": "에덴 연합 본선전 보상",
+      "en": "Eden Alliance Finals Rewards",
+      "ja": "",
+      "zh_tw": "伊甸園聯合正賽獎勵",
+      "zh_cn": ""
+    },
+    {
+      "no": 995381,
+      "kr": "에덴 연합 본선전 종료 시점에 정산 기간이 진행되며, 최종 정산 이후 보상이 지급됩니다.\r\n에덴 연합 본선전을 참여하지 않고 예선전만 완료했을 경우 최종 정산 이후 본인의 예선전 티어 보상을 1회 추가로 지급합니다.",
+      "en": "When the Eden Alliance Finals end, a tally period begins, and rewards are distributed afterward.\r\nIf you only completed the Eden Alliance Qualifiers and didn't join the Finals, you'll receive your Qualifier tier reward one more time after the final tally.",
+      "ja": "",
+      "zh_tw": "伊甸園聯合正賽結束時將進行結算，最終結算後發放獎勵。\r\n若未參與伊甸園聯合正賽，僅完成預賽時，將在最終結算以後追加發放1次自己的預賽段位獎勵。",
+      "zh_cn": ""
+    },
+    {
       "no": 995410,
       "kr": "에덴 연합 작전 - 준비",
       "en": "Operation Eden Alliance - Preparations",
@@ -62836,23 +63668,23 @@
       "no": 996111,
       "kr": "「대난투! 미궁 올스타즈」는 매일 3회 입장할 수 있습니다.\r\n입장 횟수를 모두 소진 시 입장할 수 없으며, 에버스톤을 사용하여 추가 입장이 가능합니다.\r\n입장 횟수 및 구매 제한 횟수는 UTC +0에 초기화됩니다.",
       "en": "You can enter \"Labyrinth All-Stars Brawl!\" 3 times per day.\r\nYou cannot enter after you've used all of your challenges. However, you can use Everstones to enter again.\r\nThe entry count and purchase limit will reset daily at 00:00 UTC.",
-      "ja": "「挑戦！迷宮オールスターズ」は毎日5回入場できます。\r\n入場回数をすべて使用すると入場できず、エバーストーンを使用すると追加で入場できます。\r\n入場回数や購入制限回数はUTC +0にリセットされます。 ",
+      "ja": "「ボス集結！迷宮オールスターズ」は毎日3回入場できます。\r\n入場回数をすべて使用すると入場できず、エバーストーンを使用すると追加で入場できます。\r\n入場回数や購入制限回数はUTC +0にリセットされます。 ",
       "zh_tw": "「大亂鬥！迷宮眾星雲集」每天可入場3次。\r\r\n入場次數消耗完畢後則無法入場，可使用永恆石購買額外入場次數。\r\r\n入場次數與購買上限次數於UTC+0重置。",
       "zh_cn": ""
     },
     {
       "no": 996112,
-      "kr": "「대난투! 미궁 올스타즈」는 5단계로 나눠져있습니다.\r\n도전하는 단계가 높을수록 획득할 수 있는 보상이 증가합니다.\r\n또한, 이미 클리어 한 단계는 소탕을 진행할 수 있습니다.",
-      "en": "\"Labyrinth All-Stars Brawl!\" has 5 levels.\r\r\nThe higher the level, the better the rewards.\r\r\nYou can use the Sweep feature for levels you already cleared.",
-      "ja": "「挑戦！迷宮オールスターズ」は15ステップに分かれています。\r\n挑戦するステップが高いほど獲得できる報酬が増加します。\r\nまた、クリアしたステップは掃討を行えます。",
-      "zh_tw": "「大亂鬥！迷宮眾星雲集」分為5個階段。\r\r\n挑戰的階段越高，可獲得的獎勵也會越多。\r\r\n已通關的階段也能進行掃蕩。",
+      "kr": "「대난투! 미궁 올스타즈」는 5단계로 나눠져있습니다.\r\n이미 클리어 한 단계는 소탕을 진행할 수 있습니다.",
+      "en": "\"Labyrinth All-Stars Brawl!\" has 5 levels.\r\nYou can use the Sweep feature for levels you already cleared.",
+      "ja": "「ボス集結！迷宮オールスターズ」は5ステップに分かれています。\r\nまた、クリアしたステップは掃討を行えます。",
+      "zh_tw": "「大亂鬥！迷宮眾星雲集」分為5個階段。\r\n已通關的階段可進行掃蕩。",
       "zh_cn": ""
     },
     {
       "no": 996113,
       "kr": "「대난투! 미궁 올스타즈」를 완료 시 훈련 포인트를 획득하며, 훈련으로 상승한 스탯은 다음 도전에 적용됩니다.\r\n훈련 포인트는 초기화가 가능하며, 진행 중인 도전이 있을 경우 훈련 포인트 사용 및 초기화가 불가능합니다.",
       "en": "You can get Training Points when you complete \"Labyrinth All-Stars Brawl!\" Increased stats will be applied on your next challenge.\r\r\nYou can reset Training Points. You cannot use or reset Training Points if a challenge is in progress.",
-      "ja": "「挑戦！迷宮オールスターズ」を完了すると訓練ポイントを獲得し、訓練で上昇したステータスは次の挑戦に適用されます。\r\n訓練ポイントはリセット可能であり、進行中の挑戦がある場合は訓練ポイントの使用とリセットはできません。",
+      "ja": "「ボス集結！迷宮オールスターズ」を完了すると訓練ポイントを獲得し、訓練で上昇したステータスは次の挑戦に適用されます。\r\n訓練ポイントはリセット可能であり、進行中の挑戦がある場合は訓練ポイントの使用とリセットはできません。",
       "zh_tw": "完成「大亂鬥！迷宮眾星雲集」後可獲得訓練點數，因訓練提升的能力值會套用在下一個挑戰。\r\r\n可重置訓練點數，但若有挑戰正在進行，將無法使用和重置訓練點數。",
       "zh_cn": ""
     },
@@ -62868,7 +63700,7 @@
       "no": 996115,
       "kr": "「대난투! 미궁 올스타즈」 도전 시 필드에는 몬스터와 랜덤한 기믹 상자가 출현합니다.",
       "en": "You will see monsters and random gimmick chests when you enter \"Labyrinth All-Stars Brawl!\"",
-      "ja": "「挑戦！迷宮オールスターズ」に挑戦すると、フィールドにモンスターとランダムギミック箱が出現します。",
+      "ja": "「ボス集結！迷宮オールスターズ」に挑戦すると、フィールドにモンスターとランダムギミック箱が出現します。",
       "zh_tw": "挑戰「大亂鬥！迷宮眾星雲集」時，地圖上會出現怪物和隨機特殊機關箱子。",
       "zh_cn": ""
     },
@@ -62882,10 +63714,10 @@
     },
     {
       "no": 996117,
-      "kr": "여러가지 랜덤한 기믹을 만날 수 있습니다.\r\n교환상인 마농: 소유 중인 보물을 같은 등급의 다른 보물로 교환 합니다.\r\n유리아의 축복: 아주 강력한 보물을 획득합니다.\r\n프림의 카드마술: 랜덤한 보물을 한 가지 획득합니다.\r\n보물 강화: 보유 중인 강화 가능 보물들을 상위 등급으로 강화할 수 있습니다.",
-      "en": "You can run into various random gimmicks.\r\r\nExchange Merchant Manon: Exchanges your treasure for another treasure of the same grade.\r\r\nYuria's Blessings: Gives you a very powerful treasure.\r\r\nPrim's Card Magic: Gives you a random treasure.\r\r\nEnhance Treasure: You can enhance certain treasures to a higher grade.",
-      "ja": "様々なランダムギミックが出現します。\r\n交換商人マノン：所持中の宝物を同じランクの他の宝物に交換します。\r\nユリアの祝福：非常に強力な宝物を獲得します。\r\nプリムのカードマジック：宝物をランダムで1つ獲得します。\r\n宝物強化：所持中の京花可能宝物たちを上位等級に強化できます。",
-      "zh_tw": "會遇到各種隨機特殊機關。\r\r\n兌換商人瑪儂：將持有的寶物兌換成相同階級的其他寶物。\r\r\n尤里婭的祝福：獲得十分強大的寶物。\r\r\n弗里姆的紙牌魔術：隨機獲得一個寶物。\r\r\n強化寶物：將持有的可強化寶物強化至高階等級。",
+      "kr": "여러가지 랜덤한 기믹을 만날 수 있습니다.\r\n유리아의 축복: 아주 강력한 보물을 획득합니다.\r\n프림의 카드마술: 랜덤한 보물을 한 가지 획득합니다.\r\n보물 강화: 보유 중인 강화 가능 보물들을 상위 등급으로 강화할 수 있습니다.",
+      "en": "You can run into various random gimmicks.\r\nYuria's Blessings: Gives you a very powerful treasure.\r\nPrim's Card Magic: Gives you a random treasure.\r\nEnhance Treasure: You can enhance certain treasures to a higher grade.",
+      "ja": "様々なランダムギミックが出現します。\r\nユリアの祝福：非常に強力な宝物を獲得します。\r\nプリムのカードマジック：宝物をランダムで1つ獲得します。\r\n宝物強化：所持中の京花可能宝物たちを上位等級に強化できます。",
+      "zh_tw": "可以遇到各種隨機特殊機關。\r\n尤里婭的祝福：獲得十分強大的寶物。\r\n里姆的紙牌魔術：隨機獲得一個寶物。\r\n強化寶物：將持有的可強化寶物強化至至高階等級。",
       "zh_cn": ""
     },
     {
@@ -63868,7 +64700,7 @@
       "no": 996494,
       "kr": "이벤트 내 다양한 컨텐츠에서 룰렛 티켓을 획득할 수 있습니다.\r\n연출 스킵을 체크하거나, 진행 중 화면 터치 시 연출을 스킵할 수 있습니다.\r\n룰렛 1회마다 보상이 지급되며, 누적 사용량에 따라 추가 보상을 획득할 수 있습니다.\r\n룰렛 티켓은 이벤트 종료 후 300,000 골드로 치환됩니다.",
       "en": "You can earn Spin Tickets from various event activities.\r\nEnable Skip Animation or tap the screen during an animation to skip it.\r\nEach spin awards a prize, with bonus prizes unlocked based on total spins.\r\nSpin Tickets are converted to 300,000 Gold each once the event ends.",
-      "ja": "",
+      "ja": "イベントの様々なコンテンツでルーレットチケットを獲得できます。\r\n演出スキップにチェックを入れたり、進行中に画面をタップすると、演出をスキップすることができます。\r\nルーレットを1回回すたびに報酬が支給され、累計使用数に応じて追加報酬を獲得できます。\r\nルーレットチケットはイベント終了後に300,000ゴールドに変更されます。",
       "zh_tw": "活動期間內，可在多種遊戲內容獲得轉盤票券。\r\n勾選跳過動畫或在進行中點擊畫面，即可跳過動畫。\r\n每進行1次轉盤會發放獎勵，並根據累積使用量獲得額外獎勵。\r\n活動結束後，轉盤票券會換算成300,000金幣。",
       "zh_cn": ""
     },
@@ -63876,7 +64708,7 @@
       "no": 996495,
       "kr": "이벤트 기간 동안 미니 게임 「심연의 경계」가 오픈됩니다.\r\n미니게임은 매일 1회 입장할 수 있으며, UTC 0시를 기준으로 초기화됩니다.\r\n입장 횟수 소진 시 입장권으로 입장할 수 있으며, 입장권은 매일 5회 에버스톤으로 추가 구매할 수 있습니다. ",
       "en": "The mini game, \"Boundaries of the Abyss\" is available during the event.\r\nYou can enter the mini game 1 time per day, and the entry count will reset at 00:00 UTC.\r\nYou can enter with a ticket after your free entry. Tickets can be purchased 5 times every day using Everstones. ",
-      "ja": "",
+      "ja": "イベント期間中、ミニゲーム「深淵の境界」が開放されます。\r\nミニゲームは毎日1回入場でき、UTC +0にリセットします。\r\n入場回数をすべて使うと入場券で入場することができ、入場券は毎日5回エバーストーンで追加購入できます。 ",
       "zh_tw": "活動期間將開放「深淵的邊界」小遊戲。\r\n每天可進入1次小遊戲，並於UTC+0點重置。\r\n入場次數消耗完畢時，可使用入場券進入，每天可使用5次永恆石購買額外入場次數。",
       "zh_cn": ""
     },
@@ -63884,7 +64716,7 @@
       "no": 996496,
       "kr": "몬스터를 처치 시 경험치를 획득하고 레벨을 상승시킬 수 있습니다.\r\n레벨이 상승할 때 체력을 모두 회복하며, 캐릭터의 능력치가 소폭 상승합니다.\r\n몬스터를 일정 이상 처치하면 변신 버튼이 활성화되며, 강력한 공격을 사용할 수 있습니다.",
       "en": "Characters can level up by gaining EXP as you defeat monsters.\r\nCharacters fully recover HP when they level up, and their stats increase.\r\nOnce you've defeated enough monsters, the Transformation button activates, allowing you to unleash devastating attacks.",
-      "ja": "",
+      "ja": "モンスターを退治すると経験値を獲得してLvを上昇させることができます。\r\nLvアップの時体力を完全に回復し、キャラクターの能力値が少し上昇します。\r\n一定以上のモンスターを討伐すると変身ボタンが活性化し、強力な攻撃を使用できます。",
       "zh_tw": "擊退怪物可獲得經驗值並提升等級。\r\n等級提升時，將恢復所有體力，角色能力值將小幅上升。\r\n擊退一定數量以上的怪物後，將啟用變身按鈕，可使用強大攻擊。",
       "zh_cn": ""
     },
@@ -63892,7 +64724,7 @@
       "no": 996497,
       "kr": "미니게임 완료 시 참여 보상을 획득할 수 있으며,\r\n누적된 점수에 따라 추가 보상을 획득할 수 있습니다.\r\n도전 과제를 완료하면 추가 포인트를 획득할 수 있습니다.",
       "en": "Completing the mini game unlocks participation rewards.\r\nAdditional rewards can be earned based on cumulative points.\r\nCompleting challenges awards bonus points.",
-      "ja": "",
+      "ja": "ミニゲームを完了すると参加報酬を獲得でき、\r\n累計スコアに応じて追加報酬を獲得できます。\r\n挑戦ミッションを完了すると、追加ポイントを獲得できます。",
       "zh_tw": "完成小遊戲後可獲得參加獎勵，\r\n並可根據累積分數獲得額外獎勵。\r\n完成挑戰小任務可獲得額外點數。",
       "zh_cn": ""
     },
@@ -63900,16 +64732,16 @@
       "no": 996498,
       "kr": "이벤트 기간 동안 「기록되지 않은 미래」 이벤트가 진행됩니다.\r\n로제(홍염)의 이야기와 함께 다양한 컨텐츠를 즐겨 보세요.\r\n컨텐츠마다 지급되는 보상과 함께 룰렛 티켓을 획득할 수 있어요.\r\n룰렛 티켓은 「이벤트 룰렛」에서 사용할 수 있으며, 다양한 보상을 획득할 수 있습니다.",
       "en": "\"The Unwritten Future\" event will take place during the event period. \r\nEnjoy Rose (Prominence)'s story and various activities with new content.\r\nEach activity awards Spin Tickets along with rewards.\r\nSpin Tickets can be used on the \"Event Wheel\" to win various prizes.",
-      "ja": "",
+      "ja": "イベント期間中、「記録されていない未来」イベントが開催されます。\r\nロゼ(紅炎)のストーリーとともに、様々なコンテンツを楽しみましょう。\r\nコンテンツごとに支給される報酬とともに、ルーレットチケットを獲得できます。\r\nルーレットチケットは「イベントルーレット」で使用でき、様々な報酬を獲得できます。",
       "zh_tw": "活動期間將開放「未記錄的未來」。\r\n觀看蘿絲（紅焰）的故事，享受豐富的遊戲內容吧。\r\n可透過各遊戲內容獲得獎勵和轉盤票券。\r\n可於「活動轉盤」使用轉盤票券，獲得豐富獎勵。",
       "zh_cn": ""
     },
     {
       "no": 996499,
       "kr": "이벤트 기간 동안 「천리주단기」 이벤트가 진행됩니다.\r\n홍란(무쌍)의 이야기와 함께 다양한 컨텐츠를 즐겨 보세요.\r\n컨텐츠마다 지급되는 보상과 함께 룰렛 티켓을 획득할 수 있어요.\r\n룰렛 티켓은 「이벤트 룰렛」에서 사용할 수 있으며, 다양한 보상을 획득할 수 있습니다.",
-      "en": "\"Riding Alone for Thousands of Miles\" event will take place during the event period. \r\nEnjoy Honglan(Peerless)'s story and various activities with new content.\r\nEach activity awards Spin Tickets along with rewards.\r\nSpin Tickets can be used on the \"Event Wheel\" to win various prizes.",
-      "ja": "",
-      "zh_tw": "活動期間將進行「過五關斬六將」。\r\n享受紅蘭（無雙）的故事與豐富的遊戲內容吧。\r\n各遊戲內容將發放獎勵，還可獲得轉盤票券。\r\n轉盤票券可用於「活動轉盤」，獲得各種獎勵。",
+      "en": "The \"Riding Alone for Thousands of Miles\" event will take place during the event period.\r\nEnjoy Honglan (Peerless)'s story and various activities with new content.\r\nEach activity awards Spin Tickets along with rewards.\r\nSpin Tickets can be used on the \"Event Wheel\" to win various prizes.",
+      "ja": "イベント期間中、「単騎、千里を走る」イベントが開催されます。\r\nホンラン(無双)のストーリーとともに、様々なコンテンツを楽しみましょう。\r\nコンテンツごとに支給される報酬とともに、ルーレットチケットを獲得できます。\r\nルーレットチケットは「イベントルーレット」で使用でき、様々な報酬を獲得できます。",
+      "zh_tw": "活動期間將開放「過五關斬六將」。\r\n觀看紅蘭（無雙）的故事，享受豐富的遊戲內容吧。\r\n可透過各遊戲內容獲得獎勵和轉盤票券。\r\n可於「活動轉盤」使用轉盤票券，獲得豐富獎勵。",
       "zh_cn": ""
     },
     {
@@ -65054,6 +65886,78 @@
       "en": "Hit the damage milestone by the end of the battle to claim your reward.",
       "ja": "戦闘終了時に一定のダメージ量を達成した場合、報酬を獲得できます。",
       "zh_tw": "戰鬥結束後，達成一定傷害量即可獲得獎勵。",
+      "zh_cn": ""
+    },
+    {
+      "no": 997323,
+      "kr": "에덴 연합 예선전 - 준비",
+      "en": "Eden Alliance Qualifiers - Preparations",
+      "ja": "",
+      "zh_tw": "伊甸園聯合預賽－準備",
+      "zh_cn": ""
+    },
+    {
+      "no": 997324,
+      "kr": "에덴 연합 본선전 - 특별 지원 효과",
+      "en": "Eden Alliance Finals - Special Support Effects",
+      "ja": "",
+      "zh_tw": "伊甸園聯合正賽－特別支援效果",
+      "zh_cn": ""
+    },
+    {
+      "no": 997325,
+      "kr": "에덴 연합 본선전 - 필수 적용 제약",
+      "en": "Eden Alliance Finals - Mandatory Disadvantages",
+      "ja": "",
+      "zh_tw": "伊甸園聯合正賽－必須套用限制",
+      "zh_cn": ""
+    },
+    {
+      "no": 997326,
+      "kr": "에덴 연합 본선전 - 레벨 설정",
+      "en": "Eden Alliance Finals - Setting the Level",
+      "ja": "",
+      "zh_tw": "伊甸園聯合正賽－等級設定",
+      "zh_cn": ""
+    },
+    {
+      "no": 997327,
+      "kr": "에덴 연합 예선전은 고정된 배치의 적을 상대하고,\r\n특정 날짜마다 자동으로 제약이 해금되어 강력하고 높은 레벨의 제약 선택이 가능합니다.",
+      "en": "In the Eden Alliance Qualifiers, you battle enemies in a fixed formation.\r\nOn certain days, new disadvantages unlock automatically, letting you choose tougher, high-level ones.",
+      "ja": "",
+      "zh_tw": "伊甸園聯合預賽要面對固定配置的敵人，\r\n每到特定日子將自動解除限制，可選擇強大高等的限制。",
+      "zh_cn": ""
+    },
+    {
+      "no": 997328,
+      "kr": "선택한 제약에 따라 적의 레벨이 달라지며,\r\n같은 가로줄에 있는 제약은 그룹 제약으로 설정되어 하나의 제약만 선택이 가능합니다.",
+      "en": "The enemy's level varies based on\r\nthe disadvantages you select. Disadvantages on the same row are grouped together, meaning you can only pick one from each group.",
+      "ja": "",
+      "zh_tw": "敵人等級將根據所選限制變動，\r\n同一橫排為組別限制，僅能選擇一種限制。",
+      "zh_cn": ""
+    },
+    {
+      "no": 997329,
+      "kr": "에덴 연합 본선전은 예선전과 동일한 적을 상대하고, \r\n적은 예선전의 최종 제약을 필수로 사용하며 전투를 진행합니다.\r\n아군은 더욱 강력해진 적과 맞서기 위해 특별 지원 효과를 선택하여 전투에 참여할 수 있습니다.",
+      "en": "In the Eden Alliance Finals, you battle the same enemies from the Qualifiers with the final set of disadvantages applied.\r\nTo counter their increased strength, your team can enter battle with special support effects.",
+      "ja": "",
+      "zh_tw": "伊甸園聯合正賽會面對與預賽相同的敵人，敵人必須使用預賽的最終限制來進行戰鬥。\r\n為對抗更加強大的敵人，友軍可選擇特別支援效果參戰。",
+      "zh_cn": ""
+    },
+    {
+      "no": 997330,
+      "kr": "본선전에서는 예선전에 있는 모든 그룹 제약의 최종 단계가 필수로 적용되며, \r\n다프네 정령의 메인 스킬에 특수한 제약이 별도로 적용됩니다.",
+      "en": "In the Finals, the highest tier of every disadvantage group from the Qualifiers is automatically applied.\r\nAlso, there will be a special restriction on Daphne's main skill.",
+      "ja": "",
+      "zh_tw": "正賽必須套用預賽所有組別限制的最終階段，\r\n達芙妮精靈的主要技能將另外套用特殊限制。",
+      "zh_cn": ""
+    },
+    {
+      "no": 997331,
+      "kr": "더욱 강력해진 적 정령들의 레벨을 별도로 설정할 수 있으며, 클리어 한 레벨에 따라\r\n에덴 연합 본선전 랭킹에 등록됩니다.",
+      "en": "You can adjust the level of the strengthened enemy Souls to your liking.\r\nYour Eden Alliance Finals ranking will reflect the highest level cleared.",
+      "ja": "",
+      "zh_tw": "可另外設定變更強大的敵軍精靈等級，\r\n將根據通關等級登錄伊甸園聯合正賽的排行。",
       "zh_cn": ""
     },
     {

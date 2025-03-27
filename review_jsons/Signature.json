@@ -3415,6 +3415,25 @@
       "level_group": 3041
     },
     {
+      "no": 27306,
+      "hero_sno": 27306,
+      "signature_name_sno": 233060,
+      "icon_path": "Item_Signature_Edith",
+      "signature_bg_path": "Edith",
+      "skill_name_sno": 233061,
+      "skill_tooltip_sno1": 433062,
+      "skill_tooltip_sno2": 433063,
+      "skill_tooltip_sno3": 433064,
+      "skill_tooltip_sno4": 433065,
+      "skill_tooltip_sno5": 433066,
+      "skill_tooltip_sno6": 433067,
+      "skill_tooltip_sno7": 433068,
+      "icon_prefab": 4,
+      "tooltip_explain_sno": 233069,
+      "grade_group": 3061,
+      "level_group": 3061
+    },
+    {
       "no": 27309,
       "hero_sno": 27309,
       "signature_name_sno": 233090,

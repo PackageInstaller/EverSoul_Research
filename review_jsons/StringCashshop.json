@@ -1020,7 +1020,7 @@
       "no": 910149,
       "kr": "월간 오색의 결정 패키지",
       "en": "Monthly Iridescent Crystal Pack",
-      "ja": "",
+      "ja": "マンスリー五色の結晶パック",
       "zh_tw": "每月五彩結晶禮包",
       "zh_cn": ""
     },
@@ -1172,7 +1172,7 @@
       "no": 910177,
       "kr": "월간 지정 소환 패키지 1",
       "en": "Monthly Targeted Summon Pack 1",
-      "ja": "",
+      "ja": "マンスリー指定召喚パック1",
       "zh_tw": "每月指定召喚禮包1",
       "zh_cn": ""
     },
@@ -1180,7 +1180,7 @@
       "no": 910178,
       "kr": "월간 지정 소환 패키지 2",
       "en": "Monthly Targeted Summon Pack 2",
-      "ja": "",
+      "ja": "マンスリー指定召喚パック2",
       "zh_tw": "每月指定召喚禮包2",
       "zh_cn": ""
     },
@@ -1188,7 +1188,7 @@
       "no": 910179,
       "kr": "월간 지정 소환 패키지 3",
       "en": "Monthly Targeted Summon Pack 3",
-      "ja": "",
+      "ja": "マンスリー指定召喚パック3",
       "zh_tw": "每月指定召喚禮包3",
       "zh_cn": ""
     },
@@ -1908,7 +1908,7 @@
       "no": 910410,
       "kr": "한정",
       "en": "Limited",
-      "ja": "",
+      "ja": "限定",
       "zh_tw": "限定",
       "zh_cn": ""
     },
@@ -1932,8 +1932,16 @@
       "no": 910413,
       "kr": "새학기 기념 패키지",
       "en": "Back-to-School Pack",
-      "ja": "",
+      "ja": "新学期記念パック",
       "zh_tw": "新學期紀念禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 910414,
+      "kr": "봄맞이 특별 패키지",
+      "en": "Spring Celebration Special Pack",
+      "ja": "",
+      "zh_tw": "迎春特別禮包",
       "zh_cn": ""
     },
     {
@@ -1964,7 +1972,7 @@
       "no": 910511,
       "kr": "악령 토벌\r\n달성 패키지",
       "en": "Evil Soul Subjugation\r\nAchievement Pack",
-      "ja": "",
+      "ja": "悪霊討伐\r\n達成パック",
       "zh_tw": "惡靈討伐\r\n達成禮包",
       "zh_cn": ""
     },
@@ -4332,7 +4340,7 @@
       "no": 911212,
       "kr": "기록되지 않은 미래 데일리 패키지(15일)",
       "en": "Daily The Unwritten Future Pack (15 Days)",
-      "ja": "",
+      "ja": "記録されていない未来デイリーパック(15日)",
       "zh_tw": "未記錄的未來每日禮包（15日）",
       "zh_cn": ""
     },
@@ -4340,7 +4348,7 @@
       "no": 911213,
       "kr": "기록되지 않은 미래 이벤트 패키지 1",
       "en": "The Unwritten Future Event Pack 1",
-      "ja": "",
+      "ja": "記録されていない未来イベントパック1",
       "zh_tw": "未記錄的未來活動禮包1",
       "zh_cn": ""
     },
@@ -4348,7 +4356,7 @@
       "no": 911214,
       "kr": "기록되지 않은 미래 이벤트 패키지 2",
       "en": "The Unwritten Future Event Pack 2",
-      "ja": "",
+      "ja": "記録されていない未来イベントパック2",
       "zh_tw": "未記錄的未來活動禮包2",
       "zh_cn": ""
     },
@@ -4356,7 +4364,7 @@
       "no": 911215,
       "kr": "기록되지 않은 미래 이벤트 패키지 3",
       "en": "The Unwritten Future Event Pack 3",
-      "ja": "",
+      "ja": "記録されていない未来イベントパック3",
       "zh_tw": "未記錄的未來活動禮包3",
       "zh_cn": ""
     },
@@ -4364,7 +4372,7 @@
       "no": 911216,
       "kr": "무쌍의 혼 데일리 패키지(15일)",
       "en": "Peerless Soul Daily Pack (15 Days)",
-      "ja": "",
+      "ja": "無双の魂デイリーパック(15日)",
       "zh_tw": "無雙之魂每日禮包（15日）",
       "zh_cn": ""
     },
@@ -4372,7 +4380,7 @@
       "no": 911217,
       "kr": "무쌍의 혼 이벤트 패키지 1",
       "en": "Peerless Soul Event Pack 1",
-      "ja": "",
+      "ja": "無双の魂イベントパック1",
       "zh_tw": "無雙之魂活動禮包1",
       "zh_cn": ""
     },
@@ -4380,7 +4388,7 @@
       "no": 911218,
       "kr": "무쌍의 혼 이벤트 패키지 2",
       "en": "Peerless Soul Event Pack 2",
-      "ja": "",
+      "ja": "無双の魂イベントパック2",
       "zh_tw": "無雙之魂活動禮包2",
       "zh_cn": ""
     },
@@ -4388,7 +4396,7 @@
       "no": 911219,
       "kr": "무쌍의 혼 이벤트 패키지 3",
       "en": "Peerless Soul Event Pack 3",
-      "ja": "",
+      "ja": "無双の魂イベントパック3",
       "zh_tw": "無雙之魂活動禮包3",
       "zh_cn": ""
     },
@@ -5276,7 +5284,7 @@
       "no": 914171,
       "kr": "새학기 기념 체험권 패키지",
       "en": "Back-to-School Trial Ticket Pack",
-      "ja": "",
+      "ja": "新学期記念体験券パック",
       "zh_tw": "新學期紀念體驗券禮包",
       "zh_cn": ""
     },
@@ -5284,7 +5292,7 @@
       "no": 914172,
       "kr": "새학기 기념 패키지 1",
       "en": "Back-to-School Pack 1",
-      "ja": "",
+      "ja": "新学期記念パック1",
       "zh_tw": "新學期紀念禮包1",
       "zh_cn": ""
     },
@@ -5292,7 +5300,7 @@
       "no": 914173,
       "kr": "새학기 기념 패키지 2",
       "en": "Back-to-School Pack 2",
-      "ja": "",
+      "ja": "新学期記念パック2",
       "zh_tw": "新學期紀念禮包2",
       "zh_cn": ""
     },
@@ -5300,7 +5308,7 @@
       "no": 914174,
       "kr": "새학기 기념 패키지 3",
       "en": "Back-to-School Pack 3",
-      "ja": "",
+      "ja": "新学期記念パック3",
       "zh_tw": "新學期紀念禮包3",
       "zh_cn": ""
     },
@@ -5516,7 +5524,7 @@
       "no": 915027,
       "kr": "별의 등대 점령 패키지 1",
       "en": "Lighthouse of the Stars Conqueror Pack 1",
-      "ja": "",
+      "ja": "星の灯台占領パック1",
       "zh_tw": "佔領星之燈塔禮包1",
       "zh_cn": ""
     },
@@ -5524,7 +5532,7 @@
       "no": 915028,
       "kr": "별의 등대 점령 패키지 2",
       "en": "Lighthouse of the Stars Conqueror Pack 2",
-      "ja": "",
+      "ja": "星の灯台占領パック2",
       "zh_tw": "佔領星之燈塔禮包2",
       "zh_cn": ""
     },
@@ -5532,7 +5540,7 @@
       "no": 915029,
       "kr": "별의 등대 점령 패키지 3",
       "en": "Lighthouse of the Stars Conqueror Pack 3",
-      "ja": "",
+      "ja": "星の灯台占領パック3",
       "zh_tw": "佔領星之燈塔禮包3",
       "zh_cn": ""
     },
@@ -7202,34 +7210,34 @@
     },
     {
       "no": 918051,
-      "kr": "스페셜 골라담기 패키지 1",
-      "en": "Special Pick and Mix Pack 1",
-      "ja": "スペシャルカスタムパック1",
-      "zh_tw": "特別精選禮包1",
+      "kr": "봄맞이 특별 패키지 1",
+      "en": "Spring Celebration Special Pack 1",
+      "ja": "",
+      "zh_tw": "迎春特別禮包1",
       "zh_cn": ""
     },
     {
       "no": 918052,
-      "kr": "스페셜 골라담기 패키지 2",
-      "en": "Special Pick and Mix Pack 2",
-      "ja": "スペシャルカスタムパック2",
-      "zh_tw": "特別精選禮包2",
+      "kr": "봄맞이 특별 패키지 2",
+      "en": "Spring Celebration Special Pack 2",
+      "ja": "",
+      "zh_tw": "迎春特別禮包2",
       "zh_cn": ""
     },
     {
       "no": 918053,
-      "kr": "스페셜 골라담기 패키지 3",
-      "en": "Special Pick and Mix Pack 3",
-      "ja": "スペシャルカスタムパック3",
-      "zh_tw": "特別精選禮包3",
+      "kr": "봄맞이 특별 패키지 3",
+      "en": "Spring Celebration Special Pack 3",
+      "ja": "",
+      "zh_tw": "迎春特別禮包3",
       "zh_cn": ""
     },
     {
       "no": 918054,
-      "kr": "스페셜 골라담기 패키지 4",
-      "en": "Special Pick and Mix Pack 4",
-      "ja": "スペシャルカスタムパック4",
-      "zh_tw": "特別精選禮包4",
+      "kr": "봄맞이 특별 패키지 4",
+      "en": "Spring Celebration Special Pack 4",
+      "ja": "",
+      "zh_tw": "迎春特別禮包4",
       "zh_cn": ""
     },
     {
@@ -9281,6 +9289,70 @@
       "zh_cn": ""
     },
     {
+      "no": 919331,
+      "kr": "오토하 에픽 달성 패키지",
+      "en": "Otoha Epic Achievement Pack",
+      "ja": "オトハエピック達成パック",
+      "zh_tw": "達成乙葉史詩禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919332,
+      "kr": "오토하 에픽+ 달성 패키지",
+      "en": "Otoha Epic+ Achievement Pack",
+      "ja": "オトハエピック+達成パック",
+      "zh_tw": "達成乙葉史詩＋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919333,
+      "kr": "오토하 레전더리+ 달성 패키지",
+      "en": "Otoha Legendary+ Achievement Pack",
+      "ja": "オトハレジェンダリー+達成パック",
+      "zh_tw": "達成乙葉傳說＋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919334,
+      "kr": "오토하 이터널+ 달성 패키지",
+      "en": "Otoha Eternal+ Achievement Pack",
+      "ja": "オトハエターナル+達成パック",
+      "zh_tw": "達成乙葉永恆＋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919335,
+      "kr": "오토하 오리진 달성 패키지",
+      "en": "Otoha Origin Achievement Pack",
+      "ja": "オトハオリジン達成パック",
+      "zh_tw": "達成乙葉不朽禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919336,
+      "kr": "오토하 오리진+1 달성 패키지",
+      "en": "Otoha Origin+1 Achievement Pack",
+      "ja": "オトハオリジン+1達成パック",
+      "zh_tw": "達成乙葉不朽+1禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919337,
+      "kr": "오토하 오리진+3 달성 패키지",
+      "en": "Otoha Origin+3 Achievement Pack",
+      "ja": "オトハオリジン+3達成パック",
+      "zh_tw": "達成乙葉不朽+3禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919338,
+      "kr": "오토하 오리진+5 달성 패키지",
+      "en": "Otoha Origin+5 Achievement Pack",
+      "ja": "オトハオリジン+5達成パック",
+      "zh_tw": "達成乙葉不朽+5禮包",
+      "zh_cn": ""
+    },
+    {
       "no": 919341,
       "kr": "한울 에픽 달성 패키지",
       "en": "Hanul Epic Achievement Pack",
@@ -9524,7 +9596,7 @@
       "no": 920177,
       "kr": "지정 소환권을 획득할 수 있는 패키지",
       "en": "A pack from which you can obtain a Targeted Summon Ticket.",
-      "ja": "",
+      "ja": "指定召喚券を獲得できるパック",
       "zh_tw": "可獲得指定召喚券的禮包",
       "zh_cn": ""
     },
@@ -9548,7 +9620,7 @@
       "no": 920501,
       "kr": "구매 후 특정 지역을 클리어하면 대량의 에버스톤 보상을 획득할 수 있습니다.",
       "en": "Buy and complete a specific area to receive a large amount of Everstones as a reward.",
-      "ja": "購入後、特定地域をクリアすると、大量のエバーストーン報酬を獲得できます。",
+      "ja": "指定の戦線をクリアすると、エバーストーンを獲得できます。",
       "zh_tw": "購買後通關特定地區，可獲得大量永恆石獎勵",
       "zh_cn": ""
     },
@@ -9556,7 +9628,7 @@
       "no": 920511,
       "kr": "구매 후 악령 토벌에서 특정 레벨을 클리어하면 대량의 에버스톤 보상을 획득할 수 있습니다.",
       "en": "Buy and complete a specific level of Evil Soul Subjugation to receive a large amount of Everstones as a reward.",
-      "ja": "",
+      "ja": "悪霊討伐で特定のレベルをクリアするとエバーストーンを獲得できます。",
       "zh_tw": "購買後通關惡靈討伐特定等級，可獲得大量永恆石獎勵",
       "zh_cn": ""
     },
@@ -10276,7 +10348,7 @@
       "no": 924171,
       "kr": "새학기를 기념하여 준비한 특별 패키지입니다.",
       "en": "A special pack prepared in celebration of the back-to-school season.",
-      "ja": "",
+      "ja": "新学期を記念して用意した特別なパックです。",
       "zh_tw": "為慶祝新學期所準備的特別禮包。",
       "zh_cn": ""
     },

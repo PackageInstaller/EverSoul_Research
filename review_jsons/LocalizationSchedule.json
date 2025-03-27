@@ -4,8 +4,8 @@
       "index": 1,
       "schedule_key": "Cashshop_Custom_SpringSeason",
       "schedule_type": 1,
-      "start_date": "2025-03-06 00:00:00",
-      "end_date": "2025-03-24 00:00:00",
+      "start_date": "2025-03-27 00:00:00",
+      "end_date": "2025-04-16 00:00:00",
       "value_date01": ""
     },
     {
@@ -1724,9 +1724,9 @@
       "index": 20001,
       "schedule_key": "EdenUnion_fayren",
       "schedule_type": 2,
-      "start_date": "2025-02-28 00:00:00",
-      "end_date": "2025-03-14 00:00:00",
-      "value_date01": "2025-03-17 00:00:00"
+      "start_date": "2025-03-27 00:00:00",
+      "end_date": "2025-04-10 00:00:00",
+      "value_date01": "2025-04-24 00:00:00"
     },
     {
       "index": 30001,
@@ -2772,7 +2772,7 @@
       "index": 40001,
       "schedule_key": "EventInfo_MaidPlan_Return_Attend",
       "schedule_type": 4,
-      "start_date": "2025-03-07 00:00:00",
+      "start_date": "2025-04-03 00:00:00",
       "end_date": "2025-04-17 00:00:00",
       "value_date01": "2025-04-17 00:00:00"
     },
@@ -2780,7 +2780,7 @@
       "index": 40002,
       "schedule_key": "EventInfo_MaidPlan_Return_Main",
       "schedule_type": 4,
-      "start_date": "2025-03-07 00:00:00",
+      "start_date": "2025-04-03 00:00:00",
       "end_date": "2025-04-17 00:00:00",
       "value_date01": "2025-04-24 00:00:00"
     },
@@ -2788,7 +2788,7 @@
       "index": 40003,
       "schedule_key": "EventInfo_MaidPlan_Return_Stage",
       "schedule_type": 4,
-      "start_date": "2025-03-07 00:00:00",
+      "start_date": "2025-04-03 00:00:00",
       "end_date": "2025-04-17 00:00:00",
       "value_date01": "2025-04-24 00:00:00"
     },
@@ -2796,7 +2796,7 @@
       "index": 40004,
       "schedule_key": "EventInfo_MaidPlan_Return_Pass",
       "schedule_type": 4,
-      "start_date": "2025-03-07 00:00:00",
+      "start_date": "2025-04-03 00:00:00",
       "end_date": "2025-04-24 00:00:00",
       "value_date01": "2025-04-24 00:00:00"
     },
@@ -2804,7 +2804,7 @@
       "index": 40005,
       "schedule_key": "EventInfo_BossRush_Main_1",
       "schedule_type": 4,
-      "start_date": "2025-03-27 00:00:00",
+      "start_date": "2025-04-01 00:00:00",
       "end_date": "2025-04-04 00:00:00",
       "value_date01": "2025-04-04 00:00:00"
     },
@@ -4100,7 +4100,7 @@
       "index": 40167,
       "schedule_key": "EventInfo_DJsoul_NewSong",
       "schedule_type": 4,
-      "start_date": "2025-03-10 00:00:00",
+      "start_date": "2025-04-10 00:00:00",
       "end_date": "2025-04-17 00:00:00",
       "value_date01": "2025-04-17 00:00:00"
     },
@@ -4124,7 +4124,7 @@
       "index": 40170,
       "schedule_key": "EventInfo_DefenseGame_9",
       "schedule_type": 4,
-      "start_date": "2025-03-10 00:00:00",
+      "start_date": "2025-03-20 00:00:00",
       "end_date": "2025-03-27 00:00:00",
       "value_date01": "2025-04-03 00:00:00"
     },
@@ -4420,7 +4420,7 @@
       "index": 50012,
       "schedule_key": "Gacha_505",
       "schedule_type": 5,
-      "start_date": "2025-03-06 00:00:00",
+      "start_date": "2025-04-07 00:00:00",
       "end_date": "2025-04-14 00:00:00",
       "value_date01": ""
     },
@@ -4476,7 +4476,7 @@
       "index": 50019,
       "schedule_key": "Gacha_512",
       "schedule_type": 5,
-      "start_date": "2025-03-06 00:00:00",
+      "start_date": "2025-04-10 00:00:00",
       "end_date": "2025-04-17 00:00:00",
       "value_date01": ""
     },
@@ -4532,7 +4532,7 @@
       "index": 50026,
       "schedule_key": "Gacha_519",
       "schedule_type": 5,
-      "start_date": "2025-03-06 00:00:00",
+      "start_date": "2025-04-03 00:00:00",
       "end_date": "2025-04-10 00:00:00",
       "value_date01": ""
     },
@@ -4933,7 +4933,7 @@
       "schedule_key": "Gacha_569",
       "schedule_type": 5,
       "start_date": "2025-03-06 00:00:00",
-      "end_date": "2025-03-19 00:00:00",
+      "end_date": "2025-03-27 00:00:00",
       "value_date01": ""
     },
     {
@@ -5316,7 +5316,7 @@
       "index": 55012,
       "schedule_key": "Gate_505",
       "schedule_type": 5,
-      "start_date": "2025-03-06 00:00:00",
+      "start_date": "2025-04-07 00:00:00",
       "end_date": "2025-04-08 00:00:00",
       "value_date01": ""
     },
@@ -5372,7 +5372,7 @@
       "index": 55019,
       "schedule_key": "Gate_512",
       "schedule_type": 5,
-      "start_date": "2025-03-06 00:00:00",
+      "start_date": "2025-04-10 00:00:00",
       "end_date": "2025-04-11 00:00:00",
       "value_date01": ""
     },
@@ -5428,7 +5428,7 @@
       "index": 55026,
       "schedule_key": "Gate_519",
       "schedule_type": 5,
-      "start_date": "2025-03-06 00:00:00",
+      "start_date": "2025-04-03 00:00:00",
       "end_date": "2025-04-04 00:00:00",
       "value_date01": ""
     },
@@ -6302,13 +6302,13 @@
       "schedule_type": 6,
       "start_date": "2025-02-21 00:00:00",
       "end_date": "2025-03-04 00:00:00",
-      "value_date01": "2025-03-27 00:00:00"
+      "value_date01": "2025-03-07 00:00:00"
     },
     {
       "index": 60024,
       "schedule_key": "GuildRaid_3_58",
       "schedule_type": 6,
-      "start_date": "2025-03-27 00:00:00",
+      "start_date": "2025-03-07 00:00:00",
       "end_date": "2025-04-10 00:00:00",
       "value_date01": "2025-04-24 00:00:00"
     },
@@ -6470,13 +6470,13 @@
       "schedule_type": 7,
       "start_date": "2025-02-21 00:00:00",
       "end_date": "2025-03-05 00:00:00",
-      "value_date01": "2025-03-27 00:00:00"
+      "value_date01": "2025-03-07 00:00:00"
     },
     {
       "index": 70020,
       "schedule_key": "SingleRaid_3_45",
       "schedule_type": 7,
-      "start_date": "2025-03-27 00:00:00",
+      "start_date": "2025-03-07 00:00:00",
       "end_date": "2025-04-03 00:00:00",
       "value_date01": "2025-04-17 00:00:00"
     },
@@ -6647,6 +6647,22 @@
       "start_date": "2025-03-07 00:00:00",
       "end_date": "2025-04-17 00:00:00",
       "value_date01": "2025-05-01 00:00:00"
+    },
+    {
+      "index": 90001,
+      "schedule_key": "GS_3_0001",
+      "schedule_type": 9,
+      "start_date": "2025-03-11 00:00:00",
+      "end_date": "2025-03-18 00:00:00",
+      "value_date01": "2025-03-25 00:00:00"
+    },
+    {
+      "index": 90002,
+      "schedule_key": "GS_4_0001",
+      "schedule_type": 9,
+      "start_date": "2025-03-11 00:00:00",
+      "end_date": "2025-03-18 00:00:00",
+      "value_date01": "2025-03-25 00:00:00"
     }
   ]
 }

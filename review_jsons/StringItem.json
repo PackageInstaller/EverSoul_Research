@@ -2628,7 +2628,7 @@
       "no": 213375,
       "kr": "정령의 기억: 바이스",
       "en": "Soul's Memory: Weiss",
-      "ja": "",
+      "ja": "精霊の記憶：ヴァイス",
       "zh_tw": "精靈的記憶：拜斯",
       "zh_cn": ""
     },
@@ -2636,7 +2636,7 @@
       "no": 213376,
       "kr": "정령의 기억: 로제(홍염)",
       "en": "Soul's Memory: Rose (Prominence)",
-      "ja": "",
+      "ja": "精霊の記憶：ロゼ(紅炎)",
       "zh_tw": "精靈的記憶：蘿絲（紅焰）",
       "zh_cn": ""
     },
@@ -2644,8 +2644,16 @@
       "no": 213378,
       "kr": "정령의 기억: 홍란(무쌍)",
       "en": "Soul's Memory: Honglan (Peerless)",
-      "ja": "",
+      "ja": "精霊の記憶：ホンラン(無双)",
       "zh_tw": "精靈的記憶：紅蘭（無雙）",
+      "zh_cn": ""
+    },
+    {
+      "no": 213385,
+      "kr": "정령의 기억: 한울",
+      "en": "Soul's Memory: Hanul",
+      "ja": "精霊の記憶：ハンウル",
+      "zh_tw": "精靈的記憶：韓羽",
       "zh_cn": ""
     },
     {
@@ -3308,7 +3316,7 @@
       "no": 214155,
       "kr": "에픽 정령 선택 상자 (2주년)",
       "en": "Epic Soul Selection Chest (2-Year)",
-      "ja": "",
+      "ja": "エピック精霊選択箱 (2周年)",
       "zh_tw": "史詩精靈選擇箱子（2週年）",
       "zh_cn": ""
     },
@@ -3316,7 +3324,7 @@
       "no": 214156,
       "kr": "스페셜 에픽 정령 선택 상자 (2주년)",
       "en": "Special Epic Soul Selection Chest (2-Year)",
-      "ja": "",
+      "ja": "スペシャルエピック精霊選択箱 (2周年)",
       "zh_tw": "特別史詩精靈選擇箱子（2週年）",
       "zh_cn": ""
     },
@@ -3324,7 +3332,7 @@
       "no": 214157,
       "kr": "예장 성장 선택 상자",
       "en": "Keepsake Upgrade Selection Chest",
-      "ja": "",
+      "ja": "礼装成長選択箱",
       "zh_tw": "禮品成長選擇箱子",
       "zh_cn": ""
     },
@@ -3332,7 +3340,7 @@
       "no": 214158,
       "kr": "고급 예장 성장 선택 상자",
       "en": "Fine Keepsake Upgrade Selection Chest",
-      "ja": "",
+      "ja": "高級礼装成長選択箱",
       "zh_tw": "高級禮品成長選擇箱子",
       "zh_cn": ""
     },
@@ -3340,7 +3348,7 @@
       "no": 214159,
       "kr": "최고급 예장 성장 선택 상자",
       "en": "Exquisite Keepsake Upgrade Selection Chest",
-      "ja": "",
+      "ja": "最高級礼装成長選択箱",
       "zh_tw": "最高級禮品成長選擇箱子",
       "zh_cn": ""
     },
@@ -3348,7 +3356,7 @@
       "no": 214160,
       "kr": "유물의 기억 선택 상자 (2주년)",
       "en": "Artifact Memory Selection Chest (2-Year)",
-      "ja": "",
+      "ja": "遺物の記憶選択箱 (2周年)",
       "zh_tw": "遺物的記憶選擇箱子（2週年）",
       "zh_cn": ""
     },
@@ -3388,7 +3396,7 @@
       "no": 214165,
       "kr": "사진기: 거미님 일러스트",
       "en": "Camera: 거미's Illustration",
-      "ja": "",
+      "ja": "カメラ：거미さんのイラスト",
       "zh_tw": "相機：거미插圖",
       "zh_cn": ""
     },
@@ -3396,7 +3404,7 @@
       "no": 214166,
       "kr": "사진기: 주상절리님 일러스트",
       "en": "Camera: 주상절리's Illustration",
-      "ja": "",
+      "ja": "カメラ：주상절리さんのイラスト",
       "zh_tw": "相機：주상절리插圖",
       "zh_cn": ""
     },
@@ -3404,7 +3412,7 @@
       "no": 214167,
       "kr": "사진기: yuugen님 일러스트",
       "en": "Camera: yuugen's Illustration",
-      "ja": "",
+      "ja": "カメラ：yuugenさんのイラスト",
       "zh_tw": "相機：yuugen插圖",
       "zh_cn": ""
     },
@@ -3412,7 +3420,7 @@
       "no": 214168,
       "kr": "사진기: 귄터님 일러스트",
       "en": "Camera: 귄터's Illustration",
-      "ja": "",
+      "ja": "カメラ：귄터さんのイラスト",
       "zh_tw": "相機：귄터插圖",
       "zh_cn": ""
     },
@@ -3420,7 +3428,7 @@
       "no": 214169,
       "kr": "사진기: 고꾸닥님 일러스트",
       "en": "Camera: 고꾸닥's Illustration",
-      "ja": "",
+      "ja": "カメラ：고꾸닥さんのイラスト",
       "zh_tw": "相機：고꾸닥插圖",
       "zh_cn": ""
     },
@@ -3476,7 +3484,7 @@
       "no": 214176,
       "kr": "사이드 이벤트 행운 상자",
       "en": "Side Event Lucky Chest",
-      "ja": "",
+      "ja": "サイドイベント幸運箱",
       "zh_tw": "支線活動幸運箱子",
       "zh_cn": ""
     },
@@ -3988,7 +3996,7 @@
       "no": 215261,
       "kr": "이브의 날 메카 컨벤션",
       "en": "Eve's Day Mech Convention",
-      "ja": "",
+      "ja": "イブの日メカコンベンション",
       "zh_tw": "夏娃之日機械展覽",
       "zh_cn": ""
     },
@@ -3996,7 +4004,7 @@
       "no": 215271,
       "kr": "가온의 낮 신년제 거리",
       "en": "Daytime Street of Gaon's New Year's Festival",
-      "ja": "",
+      "ja": "昼のガオン新年祭の街並み",
       "zh_tw": "加溫新年祭白天街道",
       "zh_cn": ""
     },
@@ -4004,7 +4012,7 @@
       "no": 215281,
       "kr": "로제의 심상세계",
       "en": "Rose's Imaginary World",
-      "ja": "",
+      "ja": "ロゼの心象世界",
       "zh_tw": "蘿絲的心理世界",
       "zh_cn": ""
     },
@@ -4012,7 +4020,7 @@
       "no": 215291,
       "kr": "노심굴",
       "en": "Reactor Core Cave",
-      "ja": "",
+      "ja": "爐心の洞窟",
       "zh_tw": "爐心窟",
       "zh_cn": ""
     },
@@ -4676,7 +4684,7 @@
       "no": 215701,
       "kr": "프레임: 2주년 기념 프레임",
       "en": "Frame: 2nd Anniversary Frame",
-      "ja": "",
+      "ja": "フレーム：2周年記念フレーム",
       "zh_tw": "外框：2週年紀念外框",
       "zh_cn": ""
     },
@@ -5185,6 +5193,38 @@
       "zh_cn": ""
     },
     {
+      "no": 216137,
+      "kr": "스티커: 페이렌\r\n(레전더리)",
+      "en": "Sticker: Fayren\r\n(Legendary)",
+      "ja": "",
+      "zh_tw": "貼紙：費倫\r\n（傳說）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216138,
+      "kr": "스티커: 페이렌\r\n(레전더리 3위)",
+      "en": "Sticker: Fayren\r\n(Legendary #3)",
+      "ja": "",
+      "zh_tw": "貼紙：費倫\r\n（傳說第3名）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216139,
+      "kr": "스티커: 페이렌\r\n(레전더리 2위)",
+      "en": "Sticker: Fayren\r\n(Legendary #2)",
+      "ja": "",
+      "zh_tw": "貼紙：費倫\r\n（傳說第2名）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216140,
+      "kr": "스티커: 페이렌\r\n(레전더리 1위)",
+      "en": "Sticker: Fayren\r\n(Legendary #1)",
+      "ja": "",
+      "zh_tw": "貼紙：費倫\r\n（傳說第1名）",
+      "zh_cn": ""
+    },
+    {
       "no": 216141,
       "kr": "스티커: 칼라르 (브론즈)",
       "en": "Sticker: Chalar (Bronze)",
@@ -5580,7 +5620,7 @@
       "no": 216232,
       "kr": "스티커: 별의 등대",
       "en": "Sticker: Lighthouse of the Stars",
-      "ja": "",
+      "ja": "ステッカー：星の灯台",
       "zh_tw": "貼紙：星之燈塔",
       "zh_cn": ""
     },
@@ -6132,7 +6172,7 @@
       "no": 216805,
       "kr": "스티커: 기원의 증표 - 바이스",
       "en": "Sticker: Token of Origin - Weiss",
-      "ja": "",
+      "ja": "ステッカー：起源の証-ヴァイス",
       "zh_tw": "貼紙：起源的信物－拜斯",
       "zh_cn": ""
     },
@@ -6140,7 +6180,7 @@
       "no": 216806,
       "kr": "스티커: 기원의 증표 - 로제(홍염)",
       "en": "Sticker: Token of Origin - Rose (Prominence)",
-      "ja": "",
+      "ja": "ステッカー：起源の証-ロゼ(紅炎)",
       "zh_tw": "貼紙：起源的信物－蘿絲（紅焰）",
       "zh_cn": ""
     },
@@ -6148,7 +6188,7 @@
       "no": 216807,
       "kr": "스티커: 기원의 증표 - 홍란(무쌍)",
       "en": "Sticker: Token of Origin - Honglan (Peerless)",
-      "ja": "",
+      "ja": "ステッカー：起源の証-ホンラン(無双)",
       "zh_tw": "貼紙：起源的信物－紅蘭（無雙）",
       "zh_cn": ""
     },
@@ -6156,7 +6196,7 @@
       "no": 216808,
       "kr": "스티커: 기원의 증표 - 한울",
       "en": "Sticker: Token of Origin - Hanul",
-      "ja": "",
+      "ja": "ステッカー：起源の証-ハンウル",
       "zh_tw": "貼紙：起源的信物－韓羽",
       "zh_cn": ""
     },
@@ -6308,7 +6348,7 @@
       "no": 216919,
       "kr": "스티커: 떡공장장 순이 (1위)",
       "en": "Sticker: Rice Cake Factory Chief Soonie (#1)",
-      "ja": "",
+      "ja": "ステッカー：モチ工場の工場長・スニ(1位)",
       "zh_tw": "貼紙：年糕工廠廠長順伊（第1名）",
       "zh_cn": ""
     },
@@ -6316,7 +6356,7 @@
       "no": 216920,
       "kr": "스티커: 떡공장장 순이 (2위)",
       "en": "Sticker: Rice Cake Factory Chief Soonie (#2)",
-      "ja": "",
+      "ja": "ステッカー：モチ工場の工場長・スニ(2位)",
       "zh_tw": "貼紙：年糕工廠廠長順伊（第2名）",
       "zh_cn": ""
     },
@@ -6324,7 +6364,7 @@
       "no": 216921,
       "kr": "스티커: 떡공장장 순이 (3위)",
       "en": "Sticker: Rice Cake Factory Chief Soonie (#3)",
-      "ja": "",
+      "ja": "ステッカー：モチ工場の工場長・スニ(3位)",
       "zh_tw": "貼紙：年糕工廠廠長順伊（第3名）",
       "zh_cn": ""
     },
@@ -6332,7 +6372,7 @@
       "no": 216922,
       "kr": "스티커: 떡공장장 순이 (챌린저)",
       "en": "Sticker: Rice Cake Factory Chief Soonie (Challenger)",
-      "ja": "",
+      "ja": "ステッカー：モチ工場の工場長・スニ(チャレンジャー)",
       "zh_tw": "貼紙：年糕工廠廠長順伊（王者）",
       "zh_cn": ""
     },
@@ -6340,7 +6380,7 @@
       "no": 216923,
       "kr": "스티커: 떡공장장 순이 (마스터)",
       "en": "Sticker: Rice Cake Factory Chief Soonie (Master)",
-      "ja": "",
+      "ja": "ステッカー：モチ工場の工場長・スニ(マスター)",
       "zh_tw": "貼紙：年糕工廠廠長順伊（大師）",
       "zh_cn": ""
     },
@@ -6348,7 +6388,7 @@
       "no": 216924,
       "kr": "스티커: 떡공장장 순이 (플래티넘)",
       "en": "Sticker: Rice Cake Factory Chief Soonie (Platinum)",
-      "ja": "",
+      "ja": "ステッカー：モチ工場の工場長・スニ(プラチナ)",
       "zh_tw": "貼紙：年糕工廠廠長順伊（白金）",
       "zh_cn": ""
     },
@@ -6356,7 +6396,7 @@
       "no": 216925,
       "kr": "스티커: 떡공장장 순이 (골드)",
       "en": "Sticker: Rice Cake Factory Chief Soonie (Gold)",
-      "ja": "",
+      "ja": "ステッカー：モチ工場の工場長・スニ(ゴールド)",
       "zh_tw": "貼紙：年糕工廠廠長順伊（黃金）",
       "zh_cn": ""
     },
@@ -6364,7 +6404,7 @@
       "no": 216926,
       "kr": "스티커: 떡공장장 순이 (실버)",
       "en": "Sticker: Rice Cake Factory Chief Soonie (Silver)",
-      "ja": "",
+      "ja": "ステッカー：モチ工場の工場長・スニ(シルバー)",
       "zh_tw": "貼紙：年糕工廠廠長順伊（白銀）",
       "zh_cn": ""
     },
@@ -6372,7 +6412,7 @@
       "no": 216927,
       "kr": "스티커: 떡공장장 순이 (브론즈)",
       "en": "Sticker: Rice Cake Factory Chief Soonie (Bronze)",
-      "ja": "",
+      "ja": "ステッカー：モチ工場の工場長・スニ(ブロンズ)",
       "zh_tw": "貼紙：年糕工廠廠長順伊（青銅）",
       "zh_cn": ""
     },
@@ -6380,7 +6420,7 @@
       "no": 216928,
       "kr": "스티커: 기록되지 않은 미래(1위)",
       "en": "Sticker: The Unwritten Future (#1)",
-      "ja": "",
+      "ja": "ステッカー：記録されていない未来(1位)",
       "zh_tw": "貼紙：未記錄的未來（第1名）",
       "zh_cn": ""
     },
@@ -6388,7 +6428,7 @@
       "no": 216929,
       "kr": "스티커: 기록되지 않은 미래(2위)",
       "en": "Sticker: The Unwritten Future (#2)",
-      "ja": "",
+      "ja": "ステッカー：記録されていない未来(2位)",
       "zh_tw": "貼紙：未記錄的未來（第2名）",
       "zh_cn": ""
     },
@@ -6396,7 +6436,7 @@
       "no": 216930,
       "kr": "스티커: 기록되지 않은 미래(3위)",
       "en": "Sticker: The Unwritten Future (#3)",
-      "ja": "",
+      "ja": "ステッカー：記録されていない未来(3位)",
       "zh_tw": "貼紙：未記錄的未來（第3名）",
       "zh_cn": ""
     },
@@ -6404,7 +6444,7 @@
       "no": 216931,
       "kr": "스티커: 기록되지 않은 미래(챌린저)",
       "en": "Sticker: The Unwritten Future (Challenger)",
-      "ja": "",
+      "ja": "ステッカー：記録されていない未来(チャレンジャー)",
       "zh_tw": "貼紙：未記錄的未來（王者）",
       "zh_cn": ""
     },
@@ -6412,7 +6452,7 @@
       "no": 216932,
       "kr": "스티커: 기록되지 않은 미래(마스터)",
       "en": "Sticker: The Unwritten Future (Master)",
-      "ja": "",
+      "ja": "ステッカー：記録されていない未来(マスター)",
       "zh_tw": "貼紙：未記錄的未來（大師）",
       "zh_cn": ""
     },
@@ -6420,7 +6460,7 @@
       "no": 216933,
       "kr": "스티커: 기록되지 않은 미래(플래티넘)",
       "en": "Sticker: The Unwritten Future (Platinum)",
-      "ja": "",
+      "ja": "ステッカー：記録されていない未来(プラチナ)",
       "zh_tw": "貼紙：未記錄的未來（白金）",
       "zh_cn": ""
     },
@@ -6428,7 +6468,7 @@
       "no": 216934,
       "kr": "스티커: 기록되지 않은 미래(골드)",
       "en": "Sticker: The Unwritten Future (Gold)",
-      "ja": "",
+      "ja": "ステッカー：記録されていない未来(ゴールド)",
       "zh_tw": "貼紙：未記錄的未來（黃金）",
       "zh_cn": ""
     },
@@ -6436,7 +6476,7 @@
       "no": 216935,
       "kr": "스티커: 기록되지 않은 미래(실버)",
       "en": "Sticker: The Unwritten Future (Silver)",
-      "ja": "",
+      "ja": "ステッカー：記録されていない未来(シルバー)",
       "zh_tw": "貼紙：未記錄的未來（白銀）",
       "zh_cn": ""
     },
@@ -6444,7 +6484,7 @@
       "no": 216936,
       "kr": "스티커: 기록되지 않은 미래(브론즈)",
       "en": "Sticker: The Unwritten Future (Bronze)",
-      "ja": "",
+      "ja": "ステッカー：記録されていない未来(ブロンズ)",
       "zh_tw": "貼紙：未記錄的未來（青銅）",
       "zh_cn": ""
     },
@@ -6452,7 +6492,7 @@
       "no": 216937,
       "kr": "스티커: 천리주단기(1위)",
       "en": "Sticker: Riding Alone for Thousands of Miles (#1)",
-      "ja": "",
+      "ja": "ステッカー：単騎、千里を走る(1位)",
       "zh_tw": "貼紙：過五關斬六將（第1名）",
       "zh_cn": ""
     },
@@ -6460,7 +6500,7 @@
       "no": 216938,
       "kr": "스티커: 천리주단기(2위)",
       "en": "Sticker: Riding Alone for Thousands of Miles (#2)",
-      "ja": "",
+      "ja": "ステッカー：単騎、千里を走る(2位)",
       "zh_tw": "貼紙：過五關斬六將（第2名）",
       "zh_cn": ""
     },
@@ -6468,7 +6508,7 @@
       "no": 216939,
       "kr": "스티커: 천리주단기(3위)",
       "en": "Sticker: Riding Alone for Thousands of Miles (#3)",
-      "ja": "",
+      "ja": "ステッカー：単騎、千里を走る(3位)",
       "zh_tw": "貼紙：過五關斬六將（第3名）",
       "zh_cn": ""
     },
@@ -6476,7 +6516,7 @@
       "no": 216940,
       "kr": "스티커: 천리주단기(챌린저)",
       "en": "Sticker: Riding Alone for Thousands of Miles (Challenger)",
-      "ja": "",
+      "ja": "ステッカー：単騎、千里を走る(チャレンジャー)",
       "zh_tw": "貼紙：過五關斬六將（王者）",
       "zh_cn": ""
     },
@@ -6484,7 +6524,7 @@
       "no": 216941,
       "kr": "스티커: 천리주단기(마스터)",
       "en": "Sticker: Riding Alone for Thousands of Miles (Master)",
-      "ja": "",
+      "ja": "ステッカー：単騎、千里を走る(マスター)",
       "zh_tw": "貼紙：過五關斬六將（大師）",
       "zh_cn": ""
     },
@@ -6492,7 +6532,7 @@
       "no": 216942,
       "kr": "스티커: 천리주단기(플래티넘)",
       "en": "Sticker: Riding Alone for Thousands of Miles (Platinum)",
-      "ja": "",
+      "ja": "ステッカー：単騎、千里を走る(プラチナ)",
       "zh_tw": "貼紙：過五關斬六將（白金）",
       "zh_cn": ""
     },
@@ -6500,7 +6540,7 @@
       "no": 216943,
       "kr": "스티커: 천리주단기(골드)",
       "en": "Sticker: Riding Alone for Thousands of Miles (Gold)",
-      "ja": "",
+      "ja": "ステッカー：単騎、千里を走る(ゴールド)",
       "zh_tw": "貼紙：過五關斬六將（黃金）",
       "zh_cn": ""
     },
@@ -6508,7 +6548,7 @@
       "no": 216944,
       "kr": "스티커: 천리주단기(실버)",
       "en": "Sticker: Riding Alone for Thousands of Miles (Silver)",
-      "ja": "",
+      "ja": "ステッカー：単騎、千里を走る(シルバー)",
       "zh_tw": "貼紙：過五關斬六將（白銀）",
       "zh_cn": ""
     },
@@ -6516,7 +6556,7 @@
       "no": 216945,
       "kr": "스티커: 천리주단기(브론즈)",
       "en": "Sticker: Riding Alone for Thousands of Miles (Bronze)",
-      "ja": "",
+      "ja": "ステッカー：単騎、千里を走る(ブロンズ)",
       "zh_tw": "貼紙：過五關斬六將（青銅）",
       "zh_cn": ""
     },
@@ -7492,8 +7532,24 @@
       "no": 218122,
       "kr": "노심 방위전 미니 게임 입장권",
       "en": "Reactor Core Defense Mini Game Ticket",
-      "ja": "",
+      "ja": "爐心防衛戦ミニゲーム入場券",
       "zh_tw": "爐心防衛戰小遊戲入場券",
+      "zh_cn": ""
+    },
+    {
+      "no": 218133,
+      "kr": "주사위(사해파정)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 218134,
+      "kr": "궁기 길들이기 미니 게임 입장권",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -9284,7 +9340,7 @@
       "no": 221910,
       "kr": "('초월', '강화 재료로 사용' 불가)\r\n\r\n특수한 재질의 강화 아머.\r\n빛 한 점 들지 않는 심연에서도, 시릴 정도로 따스한 푸른 꽃이 피었다.",
       "en": "(Can't be used as an enhancing or transcending material)\r\n\r\nReinforced armor made from rare material.\r\nEven in the pitch-black abyss, a blue flower blooms, exuding a chill that feels oddly warm.",
-      "ja": "",
+      "ja": "(「超越」「強化素材として使用」不可)\r\n\r\n特殊な材質の強化アーマー。\r\n一筋の光も届かない深淵でも、沁みるほど温かな青い花が咲いた。",
       "zh_tw": "（無法「超越」、「當作強化材料」）\r\n\r\n特殊材質強化盔甲。\r\n就算是在毫不透光的深淵中，也綻放出光彩奪目的溫暖藍花。",
       "zh_cn": ""
     },
@@ -9292,7 +9348,7 @@
       "no": 221911,
       "kr": "('초월', '강화 재료로 사용' 불가)\r\n\r\n특수한 재질의 기동형 기체.\r\n드넓은 우주를 마치 유성처럼 유영한다.\r\n당신을 만나기 위해, 아득한 별의 바다를 넘어서.",
       "en": "(Can't be used as an enhancing or transcending material)\r\n\r\nA mobile unit made from rare material.\r\nIt traverses the vast expanse of space like a meteor.\r\nIt journeyed across the distant sea of stars to meet you.",
-      "ja": "",
+      "ja": "(「超越」「強化素材として使用」不可)\r\n\r\n特殊な材質の機動型機体。 \r\n広い宇宙を、まるで流星のように泳ぐ。\r\nあなたに会うために、遥かな星の海を越えて。",
       "zh_tw": "（無法「超越」、「當作強化材料」）\r\n\r\n特殊材質機動型機體。\r\n像流星一樣在浩瀚的宇宙遨遊。\r\n為了遇見你，穿越過無垠星海。",
       "zh_cn": ""
     },
@@ -9300,7 +9356,7 @@
       "no": 221912,
       "kr": "('초월', '강화 재료로 사용' 불가)\r\n\r\n특수한 재질의 강화 장갑.\r\n오랜 시간이 지나 다시 맞잡은 손에서 느껴지는 것은,\r\n한 번도 잊어본 적 없는 따스한 약속의 온기이다.",
       "en": "(Can't be used as an enhancing or transcending material)\r\n\r\nReinforced gloves made from rare material.\r\nThe warmth felt in the hands clasped once more after years apart\r\nis the enduring memory of a promise never forgotten.",
-      "ja": "",
+      "ja": "(「超越」「強化素材として使用」不可)\r\n\r\n特殊な材質の強化グローブ。\r\n長い時間が経って再びとった手から感じられるのは、\r\n一度も忘れたことのない、暖かな約束のぬくもり。",
       "zh_tw": "（無法「超越」、「當作強化材料」）\r\n\r\n特殊材質強化手套。\r\n經過漫長歲月後，透過重新交握的雙手\r\n感受到的溫度是從沒忘記過的溫暖約定。",
       "zh_cn": ""
     },
@@ -9308,7 +9364,7 @@
       "no": 221913,
       "kr": "('초월', '강화 재료로 사용' 불가)\r\n\r\n특수한 재질의 센서 모듈.\r\n아무리 멀리 있어도 당신의 기척을 선명하게 느낄 수 있다.",
       "en": "(Can't be used as an enhancing or transcending material)\r\n\r\nA sensor module made from rare material.\r\nNo matter how far, your presence can be clearly felt.",
-      "ja": "",
+      "ja": "(「超越」「強化素材として使用」不可)\r\n\r\n特殊な材質のセンサーモジュール。\r\n遠く離れていても、あなたの気配はちゃんと感じられる。",
       "zh_tw": "（無法「超越」、「當作強化材料」）\r\n\r\n特殊材質感應模組。\r\n就算距離再遙遠，也能清楚感受到你的動靜。",
       "zh_cn": ""
     },
@@ -10140,7 +10196,7 @@
       "no": 223374,
       "kr": "파편 60개 수집시 에픽 정령 메피스토펠레스(여명) 소환 가능",
       "en": "Collect 60 fragments to summon Epic Soul Mephistopheles (Dawn).",
-      "ja": "",
+      "ja": "破片60個収集時、エピック精霊メフィストフェレス(暁)の召喚可能",
       "zh_tw": "收集60塊碎片時，即可召喚史詩精靈梅菲斯托佩萊斯（黎明）",
       "zh_cn": ""
     },
@@ -10148,7 +10204,7 @@
       "no": 223375,
       "kr": "파편 60개 수집시 에픽 정령 바이스 소환 가능",
       "en": "Collect 60 fragments to summon Epic Soul Weiss.",
-      "ja": "",
+      "ja": "破片60個収集時、エピック精霊ヴァイスの召喚可能",
       "zh_tw": "收集60塊碎片時，即可召喚史詩精靈拜斯",
       "zh_cn": ""
     },
@@ -10156,7 +10212,7 @@
       "no": 223376,
       "kr": "파편 60개 수집시 에픽 정령 로제(홍염) 소환 가능",
       "en": "Collect 60 fragments to summon Epic Soul Rose (Prominence).",
-      "ja": "",
+      "ja": "破片60個収集時、エピック精霊ロゼ(紅炎)の召喚可能",
       "zh_tw": "收集60塊碎片時，即可召喚史詩精靈蘿絲（紅焰）",
       "zh_cn": ""
     },
@@ -10164,8 +10220,16 @@
       "no": 223378,
       "kr": "파편 60개 수집시 에픽 정령 홍란(무쌍) 소환 가능",
       "en": "Collect 60 fragments to summon Epic Soul Honglan (Peerless).",
-      "ja": "",
+      "ja": "破片60個収集時、エピック精霊ホンラン(無双)の召喚可能",
       "zh_tw": "收集60塊碎片時，即可召喚史詩精靈紅蘭（無雙）",
+      "zh_cn": ""
+    },
+    {
+      "no": 223385,
+      "kr": "파편 60개 수집시 에픽 정령 한울 소환 가능",
+      "en": "Collect 60 fragments to summon Epic Soul Hanul.",
+      "ja": "破片60個収集時、エピック精霊ハンウルの召喚可能",
+      "zh_tw": "收集60塊碎片時，即可召喚史詩精靈韓羽",
       "zh_cn": ""
     },
     {
@@ -10844,7 +10908,7 @@
       "no": 224155,
       "kr": "런칭~오닉스까지 출시 된 정령 중 천사형, 악마형, 혼돈형을 제외한 모든 정령의 정령의 기억 중 선택 가능한 상자.",
       "en": "A chest from which you can choose the Soul's Memory of any Soul released up to Onyx, excluding Angel, Demon, and Chaotic Souls.",
-      "ja": "",
+      "ja": "リリース～オニキスまでの精霊の中から、天使型と悪魔型、混沌型を除くすべての精霊の記憶の中で選択できる箱",
       "zh_tw": "除天使型、惡魔型、混沌型以外，可在上市～歐妮絲的所有精靈記憶中選擇的箱子。",
       "zh_cn": ""
     },
@@ -10852,7 +10916,7 @@
       "no": 224156,
       "kr": "런칭~오닉스까지 출시 된 정령 중 혼돈형을 제외한 모든 정령의 정령의 기억 중 선택 가능한 상자.",
       "en": "A chest from which you can choose the Soul's Memory of any Soul released up to Onyx, excluding Chaotic Souls.",
-      "ja": "",
+      "ja": "リリース～オニキスまでの精霊の中から、混沌型を除くすべての精霊の記憶の中で選択できる箱",
       "zh_tw": "除混沌型以外，可在上市～歐妮絲的所有精靈記憶中選擇的箱子。",
       "zh_cn": ""
     },
@@ -10860,7 +10924,7 @@
       "no": 224157,
       "kr": "예장 성장에 필요한 아이템을 선택하여 획득할 수 있는 상자",
       "en": "A chest from which you can obtain a Keepsake upgrade item of your choice.",
-      "ja": "",
+      "ja": "礼装成長に必要なアイテムを選択して獲得できるボックス",
       "zh_tw": "可選擇並獲得禮品成長所需道具的箱子",
       "zh_cn": ""
     },
@@ -10868,7 +10932,7 @@
       "no": 224160,
       "kr": "런칭~오닉스까지 출시 된 모든 정령의 유물의 기억 중 선택 가능한 상자.",
       "en": "A chest from which you can choose the Artifact Memory of any Soul released up to Onyx.",
-      "ja": "",
+      "ja": "リリース～オニキスまでの精霊の遺物の記憶の中から選択できる箱",
       "zh_tw": "可在上市～歐妮絲的所有精靈遺物記憶中選擇的箱子。",
       "zh_cn": ""
     },
@@ -10908,7 +10972,7 @@
       "no": 224165,
       "kr": "사진: 거미님 일러스트를 찍은 사진기입니다.\r\n사용 시 일러스트를 획득합니다.\r\n해당 일러스트는 2024년 에버소울 크리에이티브 컨테스트 일러스트 부문 대상 당선작입니다.",
       "en": "Camera that took a photo of an illustration by 거미.\r\nUse to obtain the illustration.\r\nThis illustration is the grand prize-winning entry in the illustration category of the 2024 Eversoul Creative Contest.",
-      "ja": "",
+      "ja": "写真：거미さんのイラストを撮ったカメラです。\r\n使用すると、イラストを獲得します。\r\nこのイラストは2024年エバーソウルクリエイティブコンテストのイラスト部門大賞受賞作品です。",
       "zh_tw": "照片：拍攝거미插圖的相機。\r\n使用時獲得插圖。\r\n該插圖是2024年永恆靈魂創意大賽插圖類大賞得獎作品。",
       "zh_cn": ""
     },
@@ -10916,7 +10980,7 @@
       "no": 224166,
       "kr": "사진: 주상절리님 일러스트를 찍은 사진기입니다.\r\n사용 시 일러스트를 획득합니다.\r\n해당 일러스트는 2024년 에버소울 크리에이티브 컨테스트 일러스트 부문 금상 당선작입니다.",
       "en": "Camera that took a photo of an illustration by 주상절리.\r\nUse to obtain the illustration.\r\nThis illustration is the gold prize-winning entry in the illustration category of the 2024 Eversoul Creative Contest.",
-      "ja": "",
+      "ja": "写真：주상절리さんのイラストを撮ったカメラです。\r\n使用すると、イラストを獲得します。\r\nこのイラストは2024年エバーソウルクリエイティブコンテストのイラスト部門金賞受賞作品です。",
       "zh_tw": "照片：拍攝주상절리插圖的相機。\r\n使用時獲得插圖。\r\n該插圖是2024年永恆靈魂創意大賽插圖類金賞得獎作品。",
       "zh_cn": ""
     },
@@ -10924,7 +10988,7 @@
       "no": 224167,
       "kr": "사진: yuugen님 일러스트를 찍은 사진기입니다.\r\n사용 시 일러스트를 획득합니다.\r\n해당 일러스트는 2024년 에버소울 크리에이티브 컨테스트 일러스트 부문 은상 당선작입니다.",
       "en": "Camera that took a photo of an illustration by yuugen.\r\nUse to obtain the illustration.\r\nThis illustration is the silver prize-winning entry in the illustration category of the 2024 Eversoul Creative Contest.",
-      "ja": "",
+      "ja": "写真：yuugenさんのイラストを撮ったカメラです。\r\n使用すると、イラストを獲得します。\r\nこのイラストは2024年エバーソウルクリエイティブコンテストのイラスト部門銀賞受賞作品です。",
       "zh_tw": "照片：拍攝yuugen插圖的相機。\r\n使用時獲得插圖。\r\n該插圖是2024年永恆靈魂創意大賽插圖類銀賞得獎作品。",
       "zh_cn": ""
     },
@@ -10932,7 +10996,7 @@
       "no": 224168,
       "kr": "사진: 귄터님 일러스트를 찍은 사진기입니다.\r\n사용 시 일러스트를 획득합니다.\r\n해당 일러스트는 2024년 에버소울 크리에이티브 컨테스트 일러스트 부문 특별상 당선작입니다.",
       "en": "Camera that took a photo of an illustration by 귄터.\r\nUse to obtain the illustration.\r\nThis illustration is the special prize-winning entry in the illustration category of the 2024 Eversoul Creative Contest.",
-      "ja": "",
+      "ja": "写真：귄터さんのイラストを撮ったカメラです。\r\n使用すると、イラストを獲得します。\r\nこのイラストは2024年エバーソウルクリエイティブコンテストのイラスト部門特別賞受賞作品です。",
       "zh_tw": "照片：拍攝귄터插圖的相機。\r\n使用時獲得插圖。\r\n該插圖是2024年永恆靈魂創意大賽插圖類特別賞得獎作品。",
       "zh_cn": ""
     },
@@ -10940,7 +11004,7 @@
       "no": 224169,
       "kr": "사진: 고꾸닥님 일러스트를 찍은 사진기입니다.\r\n사용 시 일러스트를 획득합니다.\r\n해당 일러스트는 2024년 에버소울 크리에이티브 컨테스트 일러스트 부문 특별상 당선작입니다.",
       "en": "Camera that took a photo of an illustration by 고꾸닥.\r\nUse to obtain the illustration.\r\nThis illustration is the special prize-winning entry in the illustration category of the 2024 Eversoul Creative Contest.",
-      "ja": "",
+      "ja": "写真：고꾸닥さんのイラストを撮ったカメラです。\r\n使用すると、イラストを獲得します。\r\nこのイラストは2024年エバーソウルクリエイティブコンテストのイラスト部門特別賞受賞作品です。",
       "zh_tw": "照片：拍攝고꾸닥插圖的相機。\r\n使用時獲得插圖。\r\n該插圖是2024年永恆靈魂創意大賽插圖類特別賞得獎作品。",
       "zh_cn": ""
     },
@@ -10996,7 +11060,7 @@
       "no": 224176,
       "kr": "사이드 이벤트를 기념하여 준비한 행운 상자입니다.\r\n사용 시 아래 구성품을 확률에 따라 획득합니다.\r\n\r\n[구성품 확률]\r\n에리카의 연금술 티켓 70장: 1%\r\n유물 소환권 30장: 3%\r\n유물 소환권 20장: 4%\r\n유물 소환권 15장: 7%\r\n유물 소환권 10장: 35%\r\n유물 소환권 5장: 50%",
       "en": "A lucky chest prepared in celebration of our side event.\r\nContains one of the following options based on chance.\r\n\r\n[Content Probabilities]\r\n70 Erika's Alchemy Tickets: 1%\r\n30 Artifact Summon Tickets: 3%\r\n20 Artifact Summon Tickets: 4%\r\n15 Artifact Summon Tickets: 7%\r\n10 Artifact Summon Tickets: 35%\r\n5 Artifact Summon Tickets: 50%",
-      "ja": "",
+      "ja": "サイドイベントを記念して用意した幸運箱です。\r\n使用すると、以下の構成品を確率によって獲得します。\r\n\r\n[構成品確率]\r\nエリカの錬金術チケットx70：1%\r\n遺物召喚券x30：3%\r\n遺物召喚券x20：4%\r\n遺物召喚券x15：7%\r\n遺物召喚券x10：35%\r\n遺物召喚券x5：50%",
       "zh_tw": "為紀念支線活動所準備的幸運箱子。\r\n使用後將根據機率獲得下列內容物。\r\n\r\n［內容物機率］\r\n艾麗卡的鍊金術票券70張：1%\r\n遺物召喚券30張：3%\r\n遺物召喚券20張：4%\r\n遺物召喚券15張：7%\r\n遺物召喚券10張：35%\r\n遺物召喚券5張：50%",
       "zh_cn": ""
     },
@@ -11508,7 +11572,7 @@
       "no": 225261,
       "kr": "로비 배경을 변경할 수 있습니다. (이브의 날 메카 컨벤션)\r\n\r\n<고요한 Bomb 거룩한 Bomb> 이벤트 스토리 열람 보상으로 획득 가능",
       "en": "You can change the background of the lobby. (Eve's Day Mech Convention)\r\n\r\nCan be obtained as a reward for viewing the Silent Bomb, Holy Bomb Event Story.",
-      "ja": "",
+      "ja": "ロビーの背景を変更できます。(イブの日メカコンベンション)\r\n\r\n<サイレントBombホーリーBomb>イベントストーリー閲覧報酬で獲得可能",
       "zh_tw": "可變更大廳背景（夏娃之日機械展覽）\r\n\r\n觀看＜寂靜Bomb聖潔Bomb＞活動故事獎勵",
       "zh_cn": ""
     },
@@ -11516,7 +11580,7 @@
       "no": 225271,
       "kr": "로비 배경을 변경할 수 있습니다. (가온의 낮 신년제 거리)\r\n\r\n<만사형통?! 가온 신년제> 이벤트 스토리 열람 보상으로 획득 가능",
       "en": "You can change the background of the lobby. (Daytime Street of Gaon's New Year's Festival)\r\n\r\nCan be obtained as a reward for viewing the Gaon New Year's Festival Event Story.",
-      "ja": "",
+      "ja": "ロビーの背景を変更できます。(昼のガオン新年祭の街並み)\r\n\r\n<万事順調!?ガオン新年祭>イベントストーリー閲覧報酬で獲得可能",
       "zh_tw": "可變更大廳背景（加溫新年祭白天街道）\r\n\r\n觀看＜萬事如意？！加溫新年祭＞活動故事獎勵",
       "zh_cn": ""
     },
@@ -11524,7 +11588,7 @@
       "no": 225281,
       "kr": "로비 배경을 변경할 수 있습니다. (로제의 심상세계)\r\n\r\n<기록 되지 않은 미래> 이벤트 스토리 열람 보상으로 획득 가능",
       "en": "You can change the background of the lobby. (Rose's Imaginary World)\r\n\r\nCan be obtained as a reward for viewing The Unwritten Future Event Story.",
-      "ja": "",
+      "ja": "ロビーの背景を変更できます。(ロゼの心象世界)\r\n\r\n<記録されていない未来>イベントストーリー閲覧報酬で獲得可能",
       "zh_tw": "可變更大廳背景（蘿絲的心理世界）\r\n\r\n觀看＜未記錄的未來＞活動故事獎勵",
       "zh_cn": ""
     },
@@ -11532,7 +11596,7 @@
       "no": 225291,
       "kr": "로비 배경을 변경할 수 있습니다. (노심굴)\r\n\r\n<천리주단기> 이벤트 스토리 열람 보상으로 획득 가능",
       "en": "You can change the background of the lobby. (Reactor Core Cave)\r\n\r\nCan be obtained as a reward for viewing the Riding Alone for Thousands of Miles Event Story.",
-      "ja": "",
+      "ja": "ロビーの背景を変更できます。(爐心の洞窟)\r\n\r\n<単騎、千里を走る>イベントストーリー閲覧報酬で獲得可能",
       "zh_tw": "可變更大廳背景（爐心窟）\r\n\r\n觀看＜過五關斬六將＞活動故事獎勵",
       "zh_cn": ""
     },
@@ -12196,7 +12260,7 @@
       "no": 225701,
       "kr": "2주년 기념 특별 보상으로 획득하는 프레임",
       "en": "A frame that can be obtained as a special 2nd anniversary reward.",
-      "ja": "",
+      "ja": "2周年記念特別報酬で獲得できるフレーム",
       "zh_tw": "2週年紀念特別獎勵的外框。",
       "zh_cn": ""
     },
@@ -12530,338 +12594,370 @@
     },
     {
       "no": 226101,
-      "kr": "에덴 연합 작전: 트로이카 편에서 브론즈 티어(상위 70%~100%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Bronze tier (top 70–100%) in [Operation Eden Alliance] Troyca.",
-      "ja": "エデン連合作戦：トロイカ編でブロンズティア (上位70%～100%)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：特羅伊卡篇達成青銅段位（前70%~100%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 트로이카 편에서 브론즈 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Bronze tier in [Operation Eden Alliance] Troyca.",
+      "ja": "エデン連合作戦：トロイカ編でブロンズティアを達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：特羅伊卡篇達成青銅段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226102,
-      "kr": "에덴 연합 작전: 트로이카 편에서 실버 티어(상위 40%~70%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Silver tier (top 40–70%) in [Operation Eden Alliance] Troyca.",
-      "ja": "エデン連合作戦：トロイカ編でシルバーティア (上位40%～70%)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：特羅伊卡篇達成白銀段位（前40%~70%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 트로이카 편에서 실버 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Silver tier in [Operation Eden Alliance] Troyca.",
+      "ja": "エデン連合作戦：トロイカ編でシルバーティアを達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：特羅伊卡篇達成白銀段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226103,
-      "kr": "에덴 연합 작전: 트로이카 편에서 골드 티어(상위 15%~40%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Gold tier (top 15–40%) in [Operation Eden Alliance] Troyca.",
-      "ja": "エデン連合作戦：トロイカ編でゴールドティア (上位15%～40%)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：特羅伊卡篇達成黃金段位（前15%~40%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 트로이카 편에서 골드 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Gold tier in [Operation Eden Alliance] Troyca.",
+      "ja": "エデン連合作戦：トロイカ編でゴールドティアを達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：特羅伊卡篇達成黃金段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226104,
-      "kr": "에덴 연합 작전: 트로이카 편에서 플래티넘 티어(상위 3%~15%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Platinum tier (top 3–15%) in [Operation Eden Alliance] Troyca.",
-      "ja": "エデン連合作戦：トロイカ編でプラチナティア (上位3%～15%)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：特羅伊卡篇達成白金段位（前3%~15%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 트로이카 편에서 플래티넘 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Platinum tier in [Operation Eden Alliance] Troyca.",
+      "ja": "エデン連合作戦：トロイカ編でプラチナティアを達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：特羅伊卡篇達成白金段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226105,
-      "kr": "에덴 연합 작전: 트로이카 편에서 마스터 티어(상위 1%~3%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Master tier (top 1–3%) in [Operation Eden Alliance] Troyca.",
-      "ja": "エデン連合作戦：トロイカ編でマスターティア (上位1%～3%)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：特羅伊卡篇達成大師段位（前1%~3%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 트로이카 편에서 마스터 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Master tier in [Operation Eden Alliance] Troyca.",
+      "ja": "エデン連合作戦：トロイカ編でマスターティアを達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：特羅伊卡篇達成大師段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226106,
-      "kr": "에덴 연합 작전: 트로이카 편에서 챌린저 티어(상위 1% 미만) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Challenger tier (under top 1%) in [Operation Eden Alliance] Troyca.",
-      "ja": "エデン連合作戦：トロイカ編でチャレンジャーティア (上位1%未満)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：特羅伊卡篇達成王者段位（前1%以內）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 트로이카 편에서 챌린저 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Challenger tier in [Operation Eden Alliance] Troyca.",
+      "ja": "エデン連合作戦：トロイカ編でチャレンジャーティア を達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：特羅伊卡篇達成王者段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226111,
-      "kr": "에덴 연합 작전: 아우렐리아 편에서 브론즈 티어(상위 70%~100%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Bronze tier (top 70–100%) in [Operation Eden Alliance] Aurelia.",
-      "ja": "エデン連合作戦：アウレリア編でブロンズティア (上位70%～100%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：奧里利亞篇達成青銅段位（前70%~100%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 아우렐리아 편에서 브론즈 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Bronze tier in [Operation Eden Alliance] Aurelia.",
+      "ja": "エデン連合作戦：アウレリア編でブロンズティアを達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：奧里利亞篇達成青銅段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226112,
-      "kr": "에덴 연합 작전: 아우렐리아 편에서 실버 티어(상위 40%~70%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Silver tier (top 40–70%) in [Operation Eden Alliance] Aurelia.",
-      "ja": "エデン連合作戦：アウレリア編でシルバーティア (上位40%～70%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：奧里利亞篇達成白銀段位（前40%~70%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 아우렐리아 편에서 실버 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Silver tier in [Operation Eden Alliance] Aurelia.",
+      "ja": "エデン連合作戦：アウレリア編でシルバーティアを達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：奧里利亞篇達成白銀段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226113,
-      "kr": "에덴 연합 작전: 아우렐리아 편에서 골드 티어(상위 15%~40%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Gold tier (top 15–40%) in [Operation Eden Alliance] Aurelia.",
-      "ja": "エデン連合作戦：アウレリア編でゴールドティア (上位15%～40%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：奧里利亞篇達成黃金段位（前15%~40%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 아우렐리아 편에서 골드 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Gold tier in [Operation Eden Alliance] Aurelia.",
+      "ja": "エデン連合作戦：アウレリア編でゴールドティアを達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：奧里利亞篇達成黃金段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226114,
-      "kr": "에덴 연합 작전: 아우렐리아 편에서 플래티넘 티어(상위 3%~15%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Platinum tier (top 3–15%) in [Operation Eden Alliance] Aurelia.",
-      "ja": "エデン連合作戦：アウレリア編でプラチナティア (上位3%～15%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：奧里利亞篇達成白金段位（前3%~15%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 아우렐리아 편에서 플래티넘 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Platinum tier in [Operation Eden Alliance] Aurelia.",
+      "ja": "エデン連合作戦：アウレリア編でプラチナティアを達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：奧里利亞篇達成白金段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226115,
-      "kr": "에덴 연합 작전: 아우렐리아 편에서 마스터 티어(상위 1%~3%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Master tier (top 1–3%) in [Operation Eden Alliance] Aurelia.",
-      "ja": "エデン連合作戦：アウレリア編でマスターティア (上位1%～3%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：奧里利亞篇達成大師段位（前1%~3%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 아우렐리아 편에서 마스터 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Master tier in [Operation Eden Alliance] Aurelia.",
+      "ja": "エデン連合作戦：アウレリア編でマスターティアを達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：奧里利亞篇達成大師段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226116,
-      "kr": "에덴 연합 작전: 아우렐리아 편에서 챌린저 티어(상위 1% 미만) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Challenger tier (under top 1%) in [Operation Eden Alliance] Aurelia.",
-      "ja": "エデン連合作戦：アウレリア編でチャレンジャーティア (上位1%未満)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：奧里利亞篇達成王者段位（前1%以內）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 아우렐리아 편에서 챌린저 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Challenger tier in [Operation Eden Alliance] Aurelia.",
+      "ja": "エデン連合作戦：アウレリア編でチャレンジャーティア を達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：奧里利亞篇達成王者段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226121,
-      "kr": "에덴 연합 작전: 타브리아 편에서 브론즈 티어(상위 70%~100%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Bronze tier (top 70–100%) in [Operation Eden Alliance] Tabria.",
-      "ja": "エデン連合作戦：タブリア編でブロンズティア (上位70%～100%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：塔布里亞篇達成青銅段位（前70%~100%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 타브리아 편에서 브론즈 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Bronze tier in [Operation Eden Alliance] Tabria.",
+      "ja": "エデン連合作戦：タブリア編でブロンズティアを達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：塔布里亞篇達成青銅段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226122,
-      "kr": "에덴 연합 작전: 타브리아 편에서 실버 티어(상위 40%~70%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Silver tier (top 40–70%) in [Operation Eden Alliance] Tabria.",
-      "ja": "エデン連合作戦：タブリア編でシルバーティア (上位40%～70%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：塔布里亞篇達成白銀段位（前40%~70%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 타브리아 편에서 실버 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Silver tier in [Operation Eden Alliance] Tabria.",
+      "ja": "エデン連合作戦：タブリア編でシルバーティアを達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：塔布里亞篇達成白銀段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226123,
-      "kr": "에덴 연합 작전: 타브리아 편에서 골드 티어(상위 15%~40%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Gold tier (top 15–40%) in [Operation Eden Alliance] Tabria.",
-      "ja": "エデン連合作戦：タブリア編でゴールドティア (上位15%～40%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：塔布里亞篇達成黃金段位（前15%~40%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 타브리아 편에서 골드 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Gold tier in [Operation Eden Alliance] Tabria.",
+      "ja": "エデン連合作戦：タブリア編でゴールドティアを達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：塔布里亞篇達成黃金段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226124,
-      "kr": "에덴 연합 작전: 타브리아 편에서 플래티넘 티어(상위 3%~15%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Platinum tier (top 3–15%) in [Operation Eden Alliance] Tabria.",
-      "ja": "エデン連合作戦：タブリア編でプラチナティア (上位3%～15%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：塔布里亞篇達成白金段位（前3%~15%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 타브리아 편에서 플래티넘 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Platinum tier in [Operation Eden Alliance] Tabria.",
+      "ja": "エデン連合作戦：タブリア編でプラチナティアを達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：塔布里亞篇達成白金段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226125,
-      "kr": "에덴 연합 작전: 타브리아 편에서 마스터 티어(상위 1%~3%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Master tier (top 1–3%) in [Operation Eden Alliance] Tabria.",
-      "ja": "エデン連合作戦：タブリア編でマスターティア (上位1%～3%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：塔布里亞篇達成大師段位（前1%~3%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 타브리아 편에서 마스터 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Master tier in [Operation Eden Alliance] Tabria.",
+      "ja": "エデン連合作戦：タブリア編でマスターティアを達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：塔布里亞篇達成大師段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226126,
-      "kr": "에덴 연합 작전: 타브리아 편에서 챌린저 티어(상위 1% 미만) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching the Challenger tier (within top 1%) in [Operation Eden Alliance] Tabria.",
-      "ja": "エデン連合作戦：タブリア編でチャレンジャーティア (上位1%未満)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：塔布里亞篇達成王者段位（前1%以內）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 타브리아 편에서 챌린저 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching the Challenger tier in [Operation Eden Alliance] Tabria.",
+      "ja": "エデン連合作戦：タブリア編でチャレンジャーティア を達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：塔布里亞篇達成王者段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226131,
-      "kr": "에덴 연합 작전: 페이렌 편에서 브론즈 티어(상위 70%~100%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Bronze tier (top 70–100%) in [Operation Eden Alliance] Fayren.",
-      "ja": "エデン連合作戦：フェイレン編でブロンズティア (上位70%～100%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：費倫篇達成青銅段位（前70%~100%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 페이렌 편에서 브론즈 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Bronze tier in [Operation Eden Alliance] Fayren.",
+      "ja": "エデン連合作戦：フェイレン編でブロンズティアを達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：費倫篇達成青銅段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226132,
-      "kr": "에덴 연합 작전: 페이렌 편에서 실버 티어(상위 40%~70%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Silver tier (top 40–70%) in [Operation Eden Alliance] Fayren.",
-      "ja": "エデン連合作戦：フェイレン編でシルバーティア (上位40%～70%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：費倫篇達成白銀段位（前40%~70%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 페이렌 편에서 실버 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Silver tier in [Operation Eden Alliance] Fayren.",
+      "ja": "エデン連合作戦：フェイレン編でシルバーティアを達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：費倫篇達成白銀段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226133,
-      "kr": "에덴 연합 작전: 페이렌 편에서 골드 티어(상위 15%~40%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Gold tier (top 15–40%) in [Operation Eden Alliance] Fayren.",
-      "ja": "エデン連合作戦：フェイレン編でゴールドティア (上位15%～40%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：費倫篇達成黃金段位（前15%~40%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 페이렌 편에서 골드 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Gold tier in [Operation Eden Alliance] Fayren.",
+      "ja": "エデン連合作戦：フェイレン編でゴールドティアを達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：費倫篇達成黃金段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226134,
-      "kr": "에덴 연합 작전: 페이렌 편에서 플래티넘 티어(상위 3%~15%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Platinum tier (top 3–15%) in [Operation Eden Alliance] Fayren.",
-      "ja": "エデン連合作戦：フェイレン編でプラチナティア (上位3%～15%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：費倫篇達成白金段位（前3%~15%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 페이렌 편에서 플래티넘 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Platinum tier in [Operation Eden Alliance] Fayren.",
+      "ja": "エデン連合作戦：フェイレン編でプラチナティアを達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：費倫篇達成白金段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226135,
-      "kr": "에덴 연합 작전: 페이렌 편에서 마스터 티어(상위 1%~3%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Master tier (top 1–3%) in [Operation Eden Alliance] Fayren.",
-      "ja": "エデン連合作戦：フェイレン編でマスターティア (上位1%～3%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：費倫篇達成大師段位（前1%~3%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 페이렌 편에서 마스터 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Master tier in [Operation Eden Alliance] Fayren.",
+      "ja": "エデン連合作戦：フェイレン編でマスターティアを達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：費倫篇達成大師段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226136,
-      "kr": "에덴 연합 작전: 페이렌 편에서 챌린저 티어(상위 1% 미만) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Challenger tier (within top 1%) in [Operation Eden Alliance] Fayren.",
-      "ja": "エデン連合作戦：フェイレン編でチャレンジャーティア (上位1%未満)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：費倫篇達成王者段位（前1%以內）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 페이렌 편에서 챌린저 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Challenger tier in [Operation Eden Alliance] Fayren.",
+      "ja": "エデン連合作戦：フェイレン編でチャレンジャーティア を達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：費倫篇達成王者段位可獲得的貼紙。",
+      "zh_cn": ""
+    },
+    {
+      "no": 226137,
+      "kr": "에덴 연합 작전: 페이렌 편에서 레전더리 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Legendary tier in [Operation Eden Alliance] Fayren.",
+      "ja": "",
+      "zh_tw": "在伊甸園聯合作戰：費倫篇達成傳說段位可獲得的貼紙。",
+      "zh_cn": ""
+    },
+    {
+      "no": 226138,
+      "kr": "에덴 연합 작전: 페이렌 편에서 레전더리 티어 3위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching third place in Legendary tier in [Operation Eden Alliance] Fayren.",
+      "ja": "",
+      "zh_tw": "在伊甸園聯合作戰：費倫篇達成傳說段位第3名可獲得的貼紙。",
+      "zh_cn": ""
+    },
+    {
+      "no": 226139,
+      "kr": "에덴 연합 작전: 페이렌 편에서 레전더리 티어 2위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching second place in Legendary tier in [Operation Eden Alliance] Fayren.",
+      "ja": "",
+      "zh_tw": "在伊甸園聯合作戰：費倫篇達成傳說段位第2名可獲得的貼紙。.",
+      "zh_cn": ""
+    },
+    {
+      "no": 226140,
+      "kr": "에덴 연합 작전: 페이렌 편에서 레전더리 티어 1위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching first place in Legendary tier in [Operation Eden Alliance] Fayren.",
+      "ja": "",
+      "zh_tw": "在伊甸園聯合作戰：費倫篇達成傳說段位第1名可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226141,
-      "kr": "에덴 연합 작전: 칼라르 편에서 브론즈 티어(상위 70%~100%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Bronze tier (top 70–100%) in [Operation Eden Alliance] Chalar.",
-      "ja": "エデン連合作戦：カラール編でブロンズティア (上位70%～100%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：卡拉爾篇達成青銅段位（前70%~100%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 칼라르 편에서 브론즈 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Bronze tier in [Operation Eden Alliance] Chalar.",
+      "ja": "エデン連合作戦：カラール編でブロンズティア を達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：卡拉爾篇達成青銅段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226142,
-      "kr": "에덴 연합 작전: 칼라르 편에서 실버 티어(상위 40%~70%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Silver tier (top 40–70%) in [Operation Eden Alliance] Chalar.",
-      "ja": "エデン連合作戦：カラール編でシルバーティア (上位40%～70%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：卡拉爾篇達成白銀段位（前40%~70%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 칼라르 편에서 실버 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Silver tier in [Operation Eden Alliance] Chalar.",
+      "ja": "エデン連合作戦：カラール編でシルバーティア を達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：卡拉爾篇達成白銀段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226143,
-      "kr": "에덴 연합 작전: 칼라르 편에서 골드 티어(상위 15%~40%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Gold tier (top 15–40%) in [Operation Eden Alliance] Chalar.",
-      "ja": "エデン連合作戦：カラール編でゴールドティア (上位15%～40%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：卡拉爾篇達成黃金段位（前15%~40%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 칼라르 편에서 골드 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Gold tier in [Operation Eden Alliance] Chalar.",
+      "ja": "エデン連合作戦：カラール編でゴールドティア を達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：卡拉爾篇達成黃金段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226144,
-      "kr": "에덴 연합 작전: 칼라르 편에서 플래티넘 티어(상위 3%~15%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Platinum tier (top 3–15%) in [Operation Eden Alliance] Chalar.",
-      "ja": "エデン連合作戦：カラール編でプラチナティア (上位3%～15%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：卡拉爾篇達成白金段位（前3%~15%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 칼라르 편에서 플래티넘 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Platinum tier in [Operation Eden Alliance] Chalar.",
+      "ja": "エデン連合作戦：カラール編でプラチナティア を達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：卡拉爾篇達成白金段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226145,
-      "kr": "에덴 연합 작전: 칼라르 편에서 마스터 티어(상위 1%~3%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Master tier (top 1–3%) in [Operation Eden Alliance] Chalar.",
-      "ja": "エデン連合作戦：カラール編でマスターティア (上位1%～3%)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：卡拉爾篇達成大師段位（前1%~3%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 칼라르 편에서 마스터 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Master tier in [Operation Eden Alliance] Chalar.",
+      "ja": "エデン連合作戦：カラール編でマスターティア を達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：卡拉爾篇達成大師段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226146,
-      "kr": "에덴 연합 작전: 칼라르 편에서 챌린저 티어(상위 1% 미만) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Challenger tier (within top 1%) in [Operation Eden Alliance] Chalar.",
-      "ja": "エデン連合作戦：カラール編でチャレンジャーティア (上位1%未満)を達成すると獲得できるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：卡拉爾篇達成王者段位（前1%以內）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 칼라르 편에서 챌린저 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Challenger tier in [Operation Eden Alliance] Chalar.",
+      "ja": "エデン連合作戦：カラール編でチャレンジャーティア を達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：卡拉爾篇達成王者段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226151,
-      "kr": "에덴 연합 작전: 가온 편에서 브론즈 티어(상위 70%~100%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Bronze tier (top 70–100%) in [Operation Eden Alliance] Gaon.",
-      "ja": "エデン連合作戦：ガオン編でブロンズティア (上位70%～100%)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：加溫篇達成青銅段位（前70%~100%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 가온 편에서 브론즈 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Bronze tier in [Operation Eden Alliance] Gaon.",
+      "ja": "エデン連合作戦：ガオン編でブロンズティア を達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：加溫篇達成青銅段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226152,
-      "kr": "에덴 연합 작전: 가온 편에서 실버 티어(상위 40%~70%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Silver tier (top 40–70%) in [Operation Eden Alliance] Gaon.",
-      "ja": "エデン連合作戦：ガオン編でシルバーティア (上位40%～70%)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：加溫篇達成白銀段位（前40%~70%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 가온 편에서 실버 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Silver tier in [Operation Eden Alliance] Gaon.",
+      "ja": "エデン連合作戦：ガオン編でシルバーティア を達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：加溫篇達成白銀段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226153,
-      "kr": "에덴 연합 작전: 가온 편에서 골드 티어(상위 15%~40%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Gold tier (top 15–40%) in [Operation Eden Alliance] Gaon.",
-      "ja": "エデン連合作戦：ガオン編でゴールドティア (上位15%～40%)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：加溫篇達成黃金段位（前15%~40%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 가온 편에서 골드 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Gold tier in [Operation Eden Alliance] Gaon.",
+      "ja": "エデン連合作戦：ガオン編でゴールドティア を達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：加溫篇達成黃金段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226154,
-      "kr": "에덴 연합 작전: 가온 편에서 플래티넘 티어(상위 3%~15%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Platinum tier (top 3–15%) in [Operation Eden Alliance] Gaon.",
-      "ja": "エデン連合作戦：ガオン編でプラチナティア (上位3%～15%)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：加溫篇達成白金段位（前3%~15%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 가온 편에서 플래티넘 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Platinum tier in [Operation Eden Alliance] Gaon.",
+      "ja": "エデン連合作戦：ガオン編でプラチナティア を達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：加溫篇達成白金段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226155,
-      "kr": "에덴 연합 작전: 가온 편에서 마스터 티어(상위 1%~3%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Master tier (top 1–3%) in [Operation Eden Alliance] Gaon.",
-      "ja": "エデン連合作戦：ガオン編でマスターティア (上位1%～3%)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：加溫篇達成大師段位（前1%~3%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 가온 편에서 마스터 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Master tier in [Operation Eden Alliance] Gaon.",
+      "ja": "エデン連合作戦：ガオン編でマスターティア を達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：加溫篇達成大師段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226156,
-      "kr": "에덴 연합 작전: 가온 편에서 챌린저 티어(상위 1% 미만) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Challenger tier (within top 1%) in [Operation Eden Alliance] Gaon.",
-      "ja": "エデン連合作戦：ガオン編でチャレンジャーティア (上位1%未満)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：加溫篇達成王者段位（前1%以內）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 가온 편에서 챌린저 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Challenger tier in [Operation Eden Alliance] Gaon.",
+      "ja": "エデン連合作戦：ガオン編でチャレンジャーティア を達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：加溫篇達成王者段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226161,
-      "kr": "에덴 연합 작전: 솔레이 편에서 브론즈 티어(상위 70%~100%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Bronze tier (top 70–100%) in [Operation Eden Alliance] Solrey.",
-      "ja": "エデン連合作戦：ソレイ編でブロンズティア (上位70%～100%)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：蘇萊伊篇達成青銅段位（前70%~100%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 솔레이 편에서 브론즈 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Bronze tier in [Operation Eden Alliance] Solrey.",
+      "ja": "エデン連合作戦：ソレイ編でブロンズティア を達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：蘇萊伊篇達成青銅段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226162,
-      "kr": "에덴 연합 작전: 솔레이 편에서 실버 티어(상위 40%~70%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Silver tier (top 40–70%) in [Operation Eden Alliance] Solrey.",
-      "ja": "エデン連合作戦：ソレイ編でシルバーティア (上位40%～70%)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：蘇萊伊篇達成白銀段位（前40%~70%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 솔레이 편에서 실버 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Silver tier in [Operation Eden Alliance] Solrey.",
+      "ja": "エデン連合作戦：ソレイ編でシルバーティア を達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：蘇萊伊篇達成白銀段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226163,
-      "kr": "에덴 연합 작전: 솔레이 편에서 골드 티어(상위 15%~40%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Gold tier (top 15–40%) in [Operation Eden Alliance] Solrey.",
-      "ja": "エデン連合作戦：ソレイ編でゴールドティア (上位15%～40%)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：蘇萊伊篇達成黃金段位（前15%~40%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 솔레이 편에서 골드 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Gold tier in [Operation Eden Alliance] Solrey.",
+      "ja": "エデン連合作戦：ソレイ編でゴールドティア を達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：蘇萊伊篇達成黃金段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226164,
-      "kr": "에덴 연합 작전: 솔레이 편에서 플래티넘 티어(상위 3%~15%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Platinum tier (top 3–15%) in [Operation Eden Alliance] Solrey.",
-      "ja": "エデン連合作戦：ソレイ編でプラチナティア (上位3%～15%)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：蘇萊伊篇達成白金段位（前3%~15%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 솔레이 편에서 플래티넘 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Platinum tier in [Operation Eden Alliance] Solrey.",
+      "ja": "エデン連合作戦：ソレイ編でプラチナティア を達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：蘇萊伊篇達成白金段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226165,
-      "kr": "에덴 연합 작전: 솔레이 편에서 마스터 티어(상위 1%~3%) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Master tier (top 1–3%) in [Operation Eden Alliance] Solrey.",
-      "ja": "エデン連合作戦：ソレイ編でマスターティア (上位1%～3%)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：蘇萊伊篇達成大師段位（前1%~3%）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 솔레이 편에서 마스터 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Master tier in [Operation Eden Alliance] Solrey.",
+      "ja": "エデン連合作戦：ソレイ編でマスターティア を達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：蘇萊伊篇達成大師段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
       "no": 226166,
-      "kr": "에덴 연합 작전: 솔레이 편에서 챌린저 티어(상위 1% 미만) 달성 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon reaching Challenger tier (within top 1%) in [Operation Eden Alliance] Solrey.",
-      "ja": "エデン連合作戦：ソレイ編でチャレンジャーティア (上位1%未満)を達成すると獲得てきるステッカー",
-      "zh_tw": "在伊甸園聯合作戰：蘇萊伊篇達成王者段位（前1%以內）可獲得的貼紙。",
+      "kr": "에덴 연합 작전: 솔레이 편에서 챌린저 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Challenger tier in [Operation Eden Alliance] Solrey .",
+      "ja": "エデン連合作戦：ソレイ編でチャレンジャーティア を達成すると獲得てきるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：蘇萊伊篇達成王者段位可獲得的貼紙。",
       "zh_cn": ""
     },
     {
@@ -13116,7 +13212,7 @@
       "no": 226232,
       "kr": "별의 등대 점령 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon occupying the Lighthouse of the Stars.",
-      "ja": "",
+      "ja": "星の灯台占領完了時に獲得できるステッカー",
       "zh_tw": "佔領星之燈塔時可獲得的貼紙。",
       "zh_cn": ""
     },
@@ -13506,10 +13602,10 @@
     },
     {
       "no": 226601,
-      "kr": "대난투! 미궁 올스타즈 5단계 완료 시 획득 가능한 스티커.",
-      "en": "A sticker that can be obtained upon finishing Labyrinth All-Stars Brawl! Stage 5.",
-      "ja": "ボス集結！迷宮オールスターズのステップ5を完了すると獲得できるステッカー",
-      "zh_tw": "完成大亂鬥！迷宮眾星雲集第5階段時可獲得的貼紙。",
+      "kr": "대난투! 미궁 올스타즈에서 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained in Labyrinth All-Stars Brawl!",
+      "ja": "ボス集結！迷宮オールスターズで\r\n獲得できるステッカー",
+      "zh_tw": "可在大亂鬥！迷宮眾星雲集獲得的貼紙。",
       "zh_cn": ""
     },
     {
@@ -13668,7 +13764,7 @@
       "no": 226805,
       "kr": "바이스 승급 패스 오리진 달성 무료 보상으로 획득 가능한 스티커. \r\n\r\n\"최강! 무적! 대폭발! 그게 바로 우리가 추구하는 아름다움이다!\"",
       "en": "A sticker that can be obtained as a free reward for reaching Origin on Weiss Ascension Pass.\r\n\r\n\"Unrivaled strength! Unmatched prowess! Massive explosions! That's the beauty we strive for!\"",
-      "ja": "",
+      "ja": "ヴァイスの昇級パスのオリジン達成の無料報酬で獲得できるステッカー。\r\n\r\n「最強！無敵！大爆発！それこそが、オレたちが追求する美しさ！」",
       "zh_tw": "達成拜斯升階通行證不朽可免費獲得的貼紙獎勵。\r\n\r\n「最強！無敵！大爆炸！那就是我們追求的美！」",
       "zh_cn": ""
     },
@@ -13676,7 +13772,7 @@
       "no": 226806,
       "kr": "로제(홍염) 승급 패스 오리진 달성 무료 보상으로 획득 가능한 스티커. \r\n\r\n\"구원자님, 제가 만든 포토푀예요. 같이 드시겠어요?\"",
       "en": "A sticker that can be obtained as a free reward for reaching Origin on Rose (Prominence) Ascension Pass.\r\n\r\n\"Savior, would you like to try some pot-au-feu I made?\"",
-      "ja": "",
+      "ja": "ロゼ(紅炎)の昇級パスのオリジン達成の無料報酬で獲得できるステッカー。\r\n\r\n「救世主様、ポトフを作りました。一緒にどうですか？」",
       "zh_tw": "達成蘿絲（紅焰）升階通行證不朽可免費獲得的貼紙獎勵。\r\n\r\n「救援者，這是我做的燉菜湯，要一起吃嗎？」",
       "zh_cn": ""
     },
@@ -13684,7 +13780,7 @@
       "no": 226807,
       "kr": "홍란(무쌍) 승급 패스 오리진 달성 무료 보상으로 획득 가능한 스티커. \r\n\r\n\"깡총~깡총~ 토끼를 따라하고 있어요~\"",
       "en": "A sticker that can be obtained as a free reward for reaching Origin on Honglan (Peerless) Ascension Pass.\r\n\r\n\"Hippity-hop! I'm pretending to be a bunny!\"",
-      "ja": "",
+      "ja": "ホンラン(無双)の昇級パスのオリジン達成の無料報酬で獲得できるステッカー。\r\n\r\n「ぴょんぴょん！ウサギのまねをしてるの！」",
       "zh_tw": "達成紅蘭（無雙）升階通行證不朽可免費獲得的貼紙獎勵。\r\n\r\n「蹦蹦～跳跳～我在學兔子～」",
       "zh_cn": ""
     },
@@ -13692,7 +13788,7 @@
       "no": 226808,
       "kr": "한울 승급 패스 오리진 달성 무료 보상으로 획득 가능한 스티커. \r\n\r\n\"이런, 미안해. 바람이 너무 좋아서 잠들었나봐.\"",
       "en": "A sticker that can be obtained as a free reward for reaching Origin on Hanul Ascension Pass.\r\n\r\n\"Oops, sorry. I guess the sweet breeze lulled me to sleep.\"",
-      "ja": "",
+      "ja": "ハンウルの昇級パスのオリジン達成の無料報酬で獲得できるステッカー。\r\n\r\n「おっと、ごめん。風が気持ちよすぎてうっかり眠ってしまった」",
       "zh_tw": "達成韓羽升階通行證不朽可免費獲得的貼紙獎勵。\r\n\r\n「哎呀，抱歉，可能微風太舒服，我就睡著了。」",
       "zh_cn": ""
     },
@@ -13844,7 +13940,7 @@
       "no": 226919,
       "kr": "인피니티 보스 챌린지(떡공장장 순이) 최종 1위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rice Cake Factory Chief Soonie) in first place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(モチ工場の工場長・スニ)で最終順位1位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（年糕工廠廠長順伊）最終第1名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13852,7 +13948,7 @@
       "no": 226920,
       "kr": "인피니티 보스 챌린지(떡공장장 순이) 최종 2위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rice Cake Factory Chief Soonie) in second place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(モチ工場の工場長・スニ)で最終順位2位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（年糕工廠廠長順伊）最終第2名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13860,7 +13956,7 @@
       "no": 226921,
       "kr": "인피니티 보스 챌린지(떡공장장 순이) 최종 3위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rice Cake Factory Chief Soonie) in third place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(モチ工場の工場長・スニ)で最終順位3位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（年糕工廠廠長順伊）最終第3名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13868,7 +13964,7 @@
       "no": 226922,
       "kr": "인피니티 보스 챌린지(떡공장장 순이) 최종 4~10위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rice Cake Factory Chief Soonie) in 4th–10th place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(モチ工場の工場長・スニ)で最終順位4位～10位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（年糕工廠廠長順伊）最終第4～10名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13876,7 +13972,7 @@
       "no": 226923,
       "kr": "인피니티 보스 챌린지(떡공장장 순이) 최종 11~100위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rice Cake Factory Chief Soonie) in 11th–100th place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(モチ工場の工場長・スニ)で最終順位11位～100位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（年糕工廠廠長順伊）最終第11～100名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13884,7 +13980,7 @@
       "no": 226924,
       "kr": "인피니티 보스 챌린지(떡공장장 순이) 최종 101~500위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rice Cake Factory Chief Soonie) in 101st–500th place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(モチ工場の工場長・スニ)で最終順位101位～500位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（年糕工廠廠長順伊）最終第101～500名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13892,7 +13988,7 @@
       "no": 226925,
       "kr": "인피니티 보스 챌린지(떡공장장 순이) 최종 501~1000위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rice Cake Factory Chief Soonie) in 501st–1000th place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(モチ工場の工場長・スニ)で最終順位501位～1000位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（年糕工廠廠長順伊）最終第501～1000名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13900,7 +13996,7 @@
       "no": 226926,
       "kr": "인피니티 보스 챌린지(떡공장장 순이) 최종 1001~2000위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rice Cake Factory Chief Soonie) in 1001st–2000th place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(モチ工場の工場長・スニ)で最終順位1001位～2000位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（年糕工廠廠長順伊）最終第1001～2000名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13908,7 +14004,7 @@
       "no": 226927,
       "kr": "인피니티 보스 챌린지(떡공장장 순이) 참여 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon participating in an Infinity Boss Challenge (Rice Cake Factory Chief Soonie).",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(モチ工場の工場長・スニ)に参加すると獲得できるステッカー",
       "zh_tw": "參加無限BOSS挑戰（年糕工廠廠長順伊）時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13916,7 +14012,7 @@
       "no": 226928,
       "kr": "인피니티 보스 챌린지(심상세계의 로제) 최종 1위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rose(Imaginary World)) in first place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(心象世界のロゼ)で最終順位1位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（心理世界的蘿絲）最終第1名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13924,7 +14020,7 @@
       "no": 226929,
       "kr": "인피니티 보스 챌린지(심상세계의 로제) 최종 2위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rose(Imaginary World)) in second place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(心象世界のロゼ)で最終順位2位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（心理世界的蘿絲）最終第2名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13932,7 +14028,7 @@
       "no": 226930,
       "kr": "인피니티 보스 챌린지(심상세계의 로제) 최종 3위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rose(Imaginary World)) in third place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(心象世界のロゼ)で最終順位3位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（心理世界的蘿絲）最終第3名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13940,7 +14036,7 @@
       "no": 226931,
       "kr": "인피니티 보스 챌린지(심상세계의 로제) 최종 4~10위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rose(Imaginary World)) in 4th–10th place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(心象世界のロゼ)で最終順位4位～10位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（心理世界的蘿絲）最終第4～10名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13948,7 +14044,7 @@
       "no": 226932,
       "kr": "인피니티 보스 챌린지(심상세계의 로제) 최종 11~100위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rose(Imaginary World)) in 11th–100th place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(心象世界のロゼ)で最終順位11位～100位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（心理世界的蘿絲）最終第11～100名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13956,7 +14052,7 @@
       "no": 226933,
       "kr": "인피니티 보스 챌린지(심상세계의 로제) 최종 101~500위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rose(Imaginary World)) in 101st–500th place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(心象世界のロゼ)で最終順位101位～500位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（心理世界的蘿絲）最終第101～500名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13964,7 +14060,7 @@
       "no": 226934,
       "kr": "인피니티 보스 챌린지(심상세계의 로제) 최종 501~1000위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rose(Imaginary World)) in 501st–1000th place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(心象世界のロゼ)で最終順位501位～1000位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（心理世界的蘿絲）最終第501～1000名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13972,7 +14068,7 @@
       "no": 226935,
       "kr": "인피니티 보스 챌린지(심상세계의 로제) 최종 1001~2000위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rose(Imaginary World)) in 1001st–2000th place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(心象世界のロゼ)で最終順位1001位～2000位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（心理世界的蘿絲）最終第1001～2000名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13980,7 +14076,7 @@
       "no": 226936,
       "kr": "인피니티 보스 챌린지(심상세계의 로제) 참여 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon participating in an Infinity Boss Challenge (Rose(Imaginary World)).",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(心象世界のロゼ)に参加すると獲得できるステッカー",
       "zh_tw": "參加無限BOSS挑戰（心理世界的蘿絲）時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13988,7 +14084,7 @@
       "no": 226937,
       "kr": "인피니티 보스 챌린지(노심) 최종 1위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Reactor Core) event in first place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(爐心)で最終順位1位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（爐心）最終第1名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -13996,7 +14092,7 @@
       "no": 226938,
       "kr": "인피니티 보스 챌린지(노심) 최종 2위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Reactor Core) event in second place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(爐心)で最終順位2位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（爐心）最終第2名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -14004,7 +14100,7 @@
       "no": 226939,
       "kr": "인피니티 보스 챌린지(노심) 최종 3위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Reactor Core) event in third place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(爐心)で最終順位3位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（爐心）最終第3名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -14012,7 +14108,7 @@
       "no": 226940,
       "kr": "인피니티 보스 챌린지(노심) 최종 4~10위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Reactor Core) event in 4th–10th place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(爐心)で最終順位4位～10位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（爐心）最終第4～10名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -14020,7 +14116,7 @@
       "no": 226941,
       "kr": "인피니티 보스 챌린지(노심) 최종 11~100위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Reactor Core) event in 11th–100th place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(爐心)で最終順位11位～100位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（爐心）最終第11～100名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -14028,7 +14124,7 @@
       "no": 226942,
       "kr": "인피니티 보스 챌린지(노심) 최종 101~500위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Reactor Core) event in 101st–500th place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(爐心)で最終順位101位～500位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（爐心）最終第101～500名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -14036,7 +14132,7 @@
       "no": 226943,
       "kr": "인피니티 보스 챌린지(노심) 최종 501~1000위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Reactor Core) event in 501st–1000th place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(爐心)で最終順位501位～1000位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（爐心）最終第501～1000名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -14044,7 +14140,7 @@
       "no": 226944,
       "kr": "인피니티 보스 챌린지(노심) 최종 1001~2000위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Reactor Core) event in 1001st–2000th place.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(爐心)で最終順位1001位～2000位を達成すると獲得できるステッカー",
       "zh_tw": "達成無限BOSS挑戰（爐心）最終第1001～2000名時獲得的貼紙",
       "zh_cn": ""
     },
@@ -14052,7 +14148,7 @@
       "no": 226945,
       "kr": "인피니티 보스 챌린지(노심) 참여 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon participating in an Infinity Boss Challenge (Reactor Core) event.",
-      "ja": "",
+      "ja": "インフィニティボスチャレンジ(爐心)に参加すると獲得できるステッカー",
       "zh_tw": "參加無限BOSS挑戰（爐心）時獲得的貼紙",
       "zh_cn": ""
     },
@@ -14878,6 +14974,14 @@
       "en": "A ticket needed for entering the Mini Game.\r\nGrants a 1-time access to the Mini Game.\r\n\r\n(After the event ends, each will be converted to 810,000 Gold and sent to your mail.)",
       "ja": "ミニゲームに入場するために必要な入場券。\r\nミニゲームを1回利用できる。\r\n\r\n(イベント終了後、1個810,000ゴールドに変更され、メールに届きます)",
       "zh_tw": "進入小遊戲時所需的入場券。\r\n可以使用小遊戲1次。\r\n\r\n（活動結束後，每個會換算成810,000金幣並發送至信箱。）",
+      "zh_cn": ""
+    },
+    {
+      "no": 228133,
+      "kr": "이벤트 진행에 사용되는 주사위 아이템.\r\n이벤트 주사위에 사용하여 보상을 획득할 수 있습니다.\r\n\r\n(이벤트 종료 후 개당 300,000 골드로 환산되어 우편함으로 지급됩니다.)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -15876,7 +15980,7 @@
       "no": 520158,
       "kr": "아카이토",
       "en": "Akaito",
-      "ja": "",
+      "ja": "アカイト",
       "zh_tw": "紅線",
       "zh_cn": ""
     },
@@ -16004,7 +16108,7 @@
       "no": 520174,
       "kr": "여명의 별빛",
       "en": "Starlight of Dawn",
-      "ja": "",
+      "ja": "暁の星明かり",
       "zh_tw": "黎明星光",
       "zh_cn": ""
     },
@@ -16012,7 +16116,7 @@
       "no": 520175,
       "kr": "브리기트 기본 코스튬 ",
       "en": "Brigid's Basic Costume ",
-      "ja": "",
+      "ja": "ブリギッテ基本コスチューム ",
       "zh_tw": "布利基特基本時裝",
       "zh_cn": ""
     },
@@ -16020,7 +16124,7 @@
       "no": 520176,
       "kr": "홍염의 후예",
       "en": "Descendant of Prominence",
-      "ja": "",
+      "ja": "紅炎の末裔",
       "zh_tw": "紅焰後裔",
       "zh_cn": ""
     },
@@ -16028,8 +16132,24 @@
       "no": 520177,
       "kr": "일기당천",
       "en": "Solitary Decimator",
-      "ja": "",
+      "ja": "一騎當千",
       "zh_tw": "以一當十",
+      "zh_cn": ""
+    },
+    {
+      "no": 520178,
+      "kr": "서방의 백호",
+      "en": "White Tiger of the West",
+      "ja": "",
+      "zh_tw": "西方白虎",
+      "zh_cn": ""
+    },
+    {
+      "no": 520179,
+      "kr": "파도의 주인",
+      "en": "Mistress of the Waves",
+      "ja": "",
+      "zh_tw": "浪花主人",
       "zh_cn": ""
     },
     {
@@ -16796,7 +16916,7 @@
       "no": 520496,
       "kr": "멜티 버니",
       "en": "Chocobunny",
-      "ja": "",
+      "ja": "メルティーバニー",
       "zh_tw": "甜蜜兔兔",
       "zh_cn": ""
     },
@@ -16852,7 +16972,7 @@
       "no": 520503,
       "kr": "멜티 스위트",
       "en": "Melty Sweets",
-      "ja": "",
+      "ja": "メルティースイート",
       "zh_tw": "深陷甜蜜",
       "zh_cn": ""
     },
@@ -17252,7 +17372,7 @@
       "no": 520553,
       "kr": "기만의 악마",
       "en": "Demon of Deception",
-      "ja": "",
+      "ja": "欺瞞の悪魔",
       "zh_tw": "欺瞞的惡魔",
       "zh_cn": ""
     },
@@ -17260,7 +17380,7 @@
       "no": 520554,
       "kr": "한낮의 꽃잎",
       "en": "Petals of Midday",
-      "ja": "",
+      "ja": "真昼の花びら",
       "zh_tw": "白晝落英",
       "zh_cn": ""
     },
@@ -17268,7 +17388,7 @@
       "no": 520555,
       "kr": "코드: 이머전시",
       "en": "Code: Emergency",
-      "ja": "",
+      "ja": "コード：エマージェンシー",
       "zh_tw": "代碼：緊急",
       "zh_cn": ""
     },
@@ -17276,7 +17396,7 @@
       "no": 520556,
       "kr": "자애의 햇살",
       "en": "Gracious Sunlight",
-      "ja": "",
+      "ja": "慈愛の日差し",
       "zh_tw": "慈愛暖陽",
       "zh_cn": ""
     },
@@ -17284,7 +17404,7 @@
       "no": 520557,
       "kr": "재복의 도래",
       "en": "Unfolding Fortune",
-      "ja": "",
+      "ja": "財福の到来",
       "zh_tw": "財運降臨",
       "zh_cn": ""
     },
@@ -17292,7 +17412,7 @@
       "no": 520558,
       "kr": "희망찬 한 걸음",
       "en": "Hopeful First Step",
-      "ja": "",
+      "ja": "希望の一歩",
       "zh_tw": "滿懷希望的步伐",
       "zh_cn": ""
     },
@@ -17300,7 +17420,7 @@
       "no": 520559,
       "kr": "태양의 그늘",
       "en": "Shade of the Sun",
-      "ja": "",
+      "ja": "太陽の影",
       "zh_tw": "太陽陰暗面",
       "zh_cn": ""
     },
@@ -17308,7 +17428,7 @@
       "no": 520560,
       "kr": "심연의 마녀",
       "en": "Witch of the Abyss",
-      "ja": "",
+      "ja": "深淵の魔女",
       "zh_tw": "深淵的魔女",
       "zh_cn": ""
     },
@@ -17316,7 +17436,7 @@
       "no": 520561,
       "kr": "새로운 봄바람",
       "en": "Fresh Spring Breeze",
-      "ja": "",
+      "ja": "新しい春の風",
       "zh_tw": "清新春風",
       "zh_cn": ""
     },
@@ -17324,7 +17444,7 @@
       "no": 520562,
       "kr": "도원향",
       "en": "Fragrant Peach Blossoms",
-      "ja": "",
+      "ja": "桃源郷",
       "zh_tw": "世外桃源",
       "zh_cn": ""
     },
@@ -17332,7 +17452,7 @@
       "no": 520563,
       "kr": "난공불락",
       "en": "Impenetrable Protection",
-      "ja": "",
+      "ja": "難攻不落",
       "zh_tw": "堅不可摧",
       "zh_cn": ""
     },
@@ -17340,8 +17460,56 @@
       "no": 520564,
       "kr": "장수의 마음",
       "en": "Heart of a General",
-      "ja": "",
+      "ja": "戦士の心",
       "zh_tw": "將帥意志",
+      "zh_cn": ""
+    },
+    {
+      "no": 520565,
+      "kr": "속세 나들이",
+      "en": "Visiting the Outside World",
+      "ja": "",
+      "zh_tw": "俗世約會",
+      "zh_cn": ""
+    },
+    {
+      "no": 520566,
+      "kr": "주단의 흑호",
+      "en": "Black Tiger in Silk",
+      "ja": "",
+      "zh_tw": "綢緞黑虎",
+      "zh_cn": ""
+    },
+    {
+      "no": 520567,
+      "kr": "재클린 인연 코스튬 이름",
+      "en": "Jacqueline's Bond Costume Name",
+      "ja": "",
+      "zh_tw": "潔克琳好感時裝名字",
+      "zh_cn": ""
+    },
+    {
+      "no": 520568,
+      "kr": "미궁 브레이커",
+      "en": "Labyrinth Breaker",
+      "ja": "迷宮ブレイカー",
+      "zh_tw": "迷宮破壞者",
+      "zh_cn": ""
+    },
+    {
+      "no": 520569,
+      "kr": "청해의 인어",
+      "en": "Mermaid of the Blue Sea",
+      "ja": "",
+      "zh_tw": "清海人魚",
+      "zh_cn": ""
+    },
+    {
+      "no": 520570,
+      "kr": "봄의 물보라",
+      "en": "Springtime Water Splash",
+      "ja": "",
+      "zh_tw": "春日浪花",
       "zh_cn": ""
     },
     {
@@ -17820,7 +17988,7 @@
       "no": 530158,
       "kr": "붉은 색과 하얀 프릴, 그리고 검은색의 조합이 인상적인 가온풍 의상. \r\n누가 뭐라고 하건 자신이 좋을 대로 하겠다는 오토하의 강렬한 성격이 드러나고 있다.",
       "en": "A Gaon outfit with white frills, and a harmonious mix of red and black colors.\r\r\nIt really brings out Otoha's \"I do what I want\" personality.",
-      "ja": "",
+      "ja": "赤と白のフリル、黒の組み合わせが際立つガオン風の衣装。\r\n誰に何と言われても、自分の好きなことを貫くオトハの強烈な性格が表れている。",
       "zh_tw": "紅白相間的荷葉邊搭配黑色，讓人印象深刻的加溫風格服裝。\r\r\n展現乙葉不管旁人說什麼，都要隨心所欲的強勢個性。",
       "zh_cn": ""
     },
@@ -17948,7 +18116,7 @@
       "no": 530174,
       "kr": "아득한 은하 너머에서 돌아온 메피스토펠레스의 새 의상. \r\n방주 메타트론 시스템과 일체화되어 보다 뛰어난 착용감을 자랑한다.",
       "en": "New attire of Mephistopheles, back from the depths of the far galaxy.\r\nSeamlessly integrated with Ark Metatron's system, it offers exceptional comfort.",
-      "ja": "",
+      "ja": "遥かな銀河の向こうから戻ってきたメフィストフェレスの新しい衣装。\r\n方舟メタトロンシステムと一体化していて、優れた着心地を誇る。",
       "zh_tw": "穿越過浩瀚銀河歸來的梅菲斯托佩萊斯新服裝。\r\n和方舟梅塔特隆系統合而為一，有更卓越的穿戴感。",
       "zh_cn": ""
     },
@@ -17956,7 +18124,7 @@
       "no": 530175,
       "kr": "브리기트 임시",
       "en": "Brigid Temporary",
-      "ja": "",
+      "ja": "ブリギッテ臨時",
       "zh_tw": "布利基特臨時",
       "zh_cn": ""
     },
@@ -17964,7 +18132,7 @@
       "no": 530176,
       "kr": "태양의 힘을 극대화하는 로제의 의복. \r\n소중한 이들을 지키고 싶다는 소망이 느껴진다.",
       "en": "Rose's outfit, which maximizes the power of the sun.\r\nHer desire to protect her loved ones can be felt.",
-      "ja": "",
+      "ja": "太陽の力を最大化するロゼの衣服。\r\n大切な人を守りたいという思いが感じられる。",
       "zh_tw": "將太陽力量發揮到極致的蘿絲服裝。\r\n能感受到她想守護珍貴之人的心願。",
       "zh_cn": ""
     },
@@ -17972,8 +18140,24 @@
       "no": 530177,
       "kr": "전장을 가로지르는 용맹무쌍한 영웅의 의상.\r\n단신으로 천 명의 적을 쓰러트리는 그 모습은 가히 무쌍이라.",
       "en": "The outfit of a hero of peerless valor.\r\nWitness the unmatched power as she conquers a thousand enemies alone.",
-      "ja": "",
+      "ja": "戦場を駆け抜ける勇猛な英雄の衣装。\r\n一人で千人の敵を倒すその姿は、まさしく無双。",
       "zh_tw": "縱橫沙場、驍勇善戰的英雄服裝。\r\n隻身一人擊垮千軍萬馬的模樣可謂舉世無雙。",
+      "zh_cn": ""
+    },
+    {
+      "no": 530178,
+      "kr": "한울이 가온 사방신으로 활동할 때 입는 복장.\r\n소탈하면서도 위엄 있는 모습이, \r\n그녀의 인품을 잘 표현하고 있다.",
+      "en": "Hanul's public attire as a divine guardian of Gaon.\r\nThe modest yet commanding design\r\ncaptures the essence of her noble character.",
+      "ja": "",
+      "zh_tw": "韓羽以加溫四方守護神活動時穿著的服裝。\r\n灑脫又具有威嚴的樣貌\r\n呈現出她的品格。",
+      "zh_cn": ""
+    },
+    {
+      "no": 530179,
+      "kr": "대영주가 된 지호의 예복.\r\n청량한 푸른빛 천과 고급스러운 금빛 자수가 조화를 이룬다.",
+      "en": "Jiho's formal attire as a Great Lord.\r\nVibrant blue fabric and exquisite gold embroidery come together in perfect harmony.",
+      "ja": "",
+      "zh_tw": "當上大領主的智河禮服。\r\n清涼的青色布料與高級的金色刺繡互相襯托。",
       "zh_cn": ""
     },
     {
@@ -18740,7 +18924,7 @@
       "no": 530496,
       "kr": "달콤한 컬러와 아찔한 디자인의 조합이 인상적인, 오토하가 직접 만든 사복.\r\n놀랍게도 이 의상은 여러 의미로 '전투복'이라고 한다.",
       "en": "An outfit Otoha made herself. The dark colors and the addition of punk bunnies really stand out.\r\nSurprisingly, it's used as a \"combat outfit.\"",
-      "ja": "",
+      "ja": "甘い色合いと妖艶なデザインの組み合わせが際立つ、オトハの手作り私服。\r\nなんとこの衣装、色んな意味で「戦闘服」だそうだ。",
       "zh_tw": "甜蜜的色調搭配讓人頭暈目眩的設計，令人印象深刻，是乙葉親自製作的便服。\r\r\n意外的是，這套衣服在各種意義上是「戰鬥服」。",
       "zh_cn": ""
     },
@@ -18796,7 +18980,7 @@
       "no": 530503,
       "kr": "달콤한 컬러와 아찔한 디자인의 조합이 인상적인, 오토하가 직접 만든 사복.\r\n마스크를 벗고 무장해제한, 청순한 모습은 특별한 누군가에게만 보이고 싶다.",
       "en": "An outfit Otoha made herself. The dark colors and the addition of punk bunnies really stand out.\r\r\nHer innocent appearance, unmasked and unarmed, is meant for the eyes of a special someone only.",
-      "ja": "",
+      "ja": "甘い色合いと妖艶なデザインの組み合わせが際立つ、オトハの手作り私服。\r\nマスクを外して武装解除した清純な姿は、特別な誰かにだけ見せてあげたい。",
       "zh_tw": "甜蜜的色調搭配讓人頭暈目眩的設計，令人印象深刻，是乙葉親自製作的便服。\r\r\n脫下口罩，卸下防備的清純模樣只想給某個特別的人看。",
       "zh_cn": ""
     },
@@ -19196,7 +19380,7 @@
       "no": 530553,
       "kr": "메피스토펠레스가 기만의 악마로써 지닌 모든 기능을 해금한 모습. \r\n강대한 힘을 제어하기 위해선 \r\n어떤 일에도 흔들리지 않는 강한 사명감이 필요하다.",
       "en": "Mephistopheles, with all her powers as the Demon of Deception fully unleashed.\r\nHarnessing such overwhelming might requires\r\na firm resolve that stands strong, no matter what.",
-      "ja": "",
+      "ja": "メフィストフェレスが欺瞞の悪魔としての機能をすべて解禁した姿。\r\n強大な力を制御するためには\r\nどんなことにも揺るがない強い使命感が求められる。",
       "zh_tw": "梅菲斯托佩萊斯作為欺瞞的惡魔，解鎖本身所有功能的樣貌。\r\n為控制強大的力量，\r\n需要不被任何事動搖的強烈使命感。",
       "zh_cn": ""
     },
@@ -19204,7 +19388,7 @@
       "no": 530554,
       "kr": "메피스토펠레스가 기분 전환을 위해 커스텀한 의상. \r\n새파란 여명의 하늘도 좋지만, \r\n가끔은 따사로운 오후를 만끽하는 것도 좋지 않을까.",
       "en": "An outfit customized by Mephistopheles for a change of pace.\r\nThe crisp blue skies of dawn are beautiful,\r\nbut basking in a cozy afternoon has its charms, too.",
-      "ja": "",
+      "ja": "メフィストフェレスが気分転換のためにカスタムした衣装。\r\n真っ青な暁の空もいいが\r\nたまには暖かな午後を満喫するのもよくないかな。",
       "zh_tw": "梅菲斯托佩萊斯想轉換心情的訂製服裝。\r\n雖然蔚藍的黎明天空也很好，\r\n但偶爾享受一下暖洋洋的午後也很棒吧？",
       "zh_cn": ""
     },
@@ -19212,7 +19396,7 @@
       "no": 530555,
       "kr": "에덴 최대 규모 군수 기업의 CEO가 비상 작전 시 착용하는 복식. \r\n연구직을 상징하는 푸른색이 아닌 전투직을 상징하는 붉은색 기조로 되어있다. ",
       "en": "The emergency operations attire of the CEO of Eden's largest military supplier.\r\nInstead of the blue theme symbolizing research roles, it adopts the red theme of combat roles. ",
-      "ja": "",
+      "ja": "エデン最大の軍事企業のCEOが非常作戦時に着用するコスチューム。\r\n研究職を象徴する青ではなく、戦闘職を象徴する赤を基調としている。 ",
       "zh_tw": "伊甸園最大規模軍火企業CEO在緊急作戰時穿戴的服飾。\r\n以象徵戰鬥工作的紅色為基調，而不是象徵研究工作的藍色。",
       "zh_cn": ""
     },
@@ -19220,7 +19404,7 @@
       "no": 530556,
       "kr": "찬란한 햇살로 물든 듯 화사한 가온의 전통 복장.\r\n새해에는 평화를 염원하는 경건한 바람이 꼭 이루어지기를.",
       "en": "A dazzling traditional outfit of Gaon, shimmering as if touched by radiant sunlight.\r\nMay the new year fulfill the solemn hope for lasting peace.",
-      "ja": "",
+      "ja": "眩しい日差しに染まったように華やかなガオンの伝統衣装。\r\n新年は平和を祈る敬虔な願いが、必ず叶いますように。",
       "zh_tw": "像染上燦爛陽光般，絢麗的加溫傳統服裝。\r\n但願在新的一年裡，盼望和平的虔誠心願一定要實現。",
       "zh_cn": ""
     },
@@ -19228,7 +19412,7 @@
       "no": 530557,
       "kr": "금빛으로 화려하게 장식된 가온의 전통 복장.\r\n새해에는 모두가 바라던 성과를 얻을 수 있기를.",
       "en": "Traditional attire of Gaon, lavishly adorned with golden accents.\r\nMay everyone achieve their dreams this new year.",
-      "ja": "",
+      "ja": "金色で華やかに飾ったガオンの伝統衣装。\r\n新年はみんなが望む成果を手に入れますように。",
       "zh_tw": "使用金色華麗裝飾的加溫傳統服裝。\r\n希望所有人都能在新年獲得期望的成果。",
       "zh_cn": ""
     },
@@ -19236,7 +19420,7 @@
       "no": 530558,
       "kr": "이디스의 재기발랄함이 돋보이는 가온의 전통 복장.\r\n새해에는 누구나 노력한 만큼 성장할 수 있기를.",
       "en": "Traditional garb of Gaon, showcasing Edith's cheerful nature.\r\nMay everyone flourish through their hard work in the new year.",
-      "ja": "",
+      "ja": "イーディスの才気煥発な魅力が際立つガオンの伝統衣装。\r\n新年は誰もが努力した分成長できますように。",
       "zh_tw": "突顯出伊迪絲才華洋溢的加溫傳統服裝。\r\n希望新年裡每個人付出努力就能有所成長。",
       "zh_cn": ""
     },
@@ -19244,7 +19428,7 @@
       "no": 530559,
       "kr": "어두운 진실을 알게 된 로제의 사복.\r\n떠나간 이들에 대한 애도와 지친 이들을 안아 주고 싶은 마음이 담겨 있다.",
       "en": "The outfit Rose wears after discovering a dark truth.\r\nHer sorrow for those who are gone and a deep wish to comfort the weary can be felt.",
-      "ja": "",
+      "ja": "暗い真実を知ってしまったロゼの私服。\r\n亡くなった者への哀悼、疲れた者を抱きしめてあげたい気持ちが込められている。",
       "zh_tw": "得知暗黑真相的蘿絲私服。\r\n蘊含著對離去之人的哀悼，與想擁抱疲憊人們的心意。",
       "zh_cn": ""
     },
@@ -19252,7 +19436,7 @@
       "no": 530560,
       "kr": "고통도 절망도 없는 세계에 물든 로제의 모습.\r\n환상과 현실의 경계에서 수녀는 진실을 거부했다.",
       "en": "Rose, lost in a realm where neither pain nor despair exists.\r\nStanding at the edge of illusion and reality, the nun refused to accept the truth.",
-      "ja": "",
+      "ja": "苦痛も絶望もない世界に染まったロゼの姿。\r\n幻想と現実の境界で、シスターは真実を拒んだ。",
       "zh_tw": "蘿絲沉浸在沒有痛苦也沒有絕望的世界裡的樣子。\r\n在幻想與真實的界線，修女拒絕了真相。",
       "zh_cn": ""
     },
@@ -19260,7 +19444,7 @@
       "no": 530561,
       "kr": "선선한 봄바람만큼이나 산뜻함이 느껴지는 클로이의 사복.\r\n어디로든 갈 수 있도록 활동성을 갖춘 의상이다.",
       "en": "Chloe's casual wear, light and breezy like a spring breeze.\r\nDesigned for ease of movement, ready for any journey.",
-      "ja": "",
+      "ja": "涼し気な春風のように爽やかなクロエの私服。\r\nどこにでも行けるように活動性のある衣装。",
       "zh_tw": "克羅伊的私服，清新的像涼爽的春風。\r\n是一款具備活動性的服裝，去哪裡都方便。",
       "zh_cn": ""
     },
@@ -19268,24 +19452,72 @@
       "no": 530562,
       "kr": "홍란이 공식적인 자리에서 입는 예복.\r\n흐드러지게 피어난 수천 송이의 복숭아 꽃처럼 아름답지만,\r\n홍란은 불편하고 갑갑한 듯 하다.",
       "en": "The formal attire Honglan dons for official events.\r\nWhile it is as gorgeous as a field of peach blossoms in full bloom,\r\nHonglan seems uncomfortable and constrained by it.",
-      "ja": "",
+      "ja": "ホンランが公式の場で着る礼服\r\n咲き乱れた数千本の桃の花のように美しいけど\r\nホンランは不便で窮屈だと思っているようだ。",
       "zh_tw": "紅蘭在正式場合穿著的禮服。\r\n雖然就像盛開的千朵桃花般美麗，\r\n但紅蘭似乎覺得很悶，看上去不太自在。",
       "zh_cn": ""
     },
     {
       "no": 530563,
       "kr": "전장을 수호하는 냉정하고 강인한 수호신의 의상.\r\n수많은 적이 공격해 와도, \r\n차분하고 침착하게 \r\n지켜야 할 장소를 지켜내리라.",
-      "en": "The outfit of a steadfast guardian who watches over the battlefield.\r\nEven in the face of countless enemies, she will stand firm,\r\nprotecting her post with calm determination.",
-      "ja": "",
-      "zh_tw": "冷靜堅毅的戰場守護神服裝。\r\n儘管千軍萬馬攻來，也要沉著冷靜地\r\n捍衛應要守護的地方。",
+      "en": "The outfit of a steadfast guardian who watches over the battlefield.\r\nEven in the face of countless enemies,\r\nshe will stand firm,\r\nprotecting her post with calm determination.",
+      "ja": "戦場を守る冷静で強い守護神の衣装。\r\n数えきれない敵の攻勢にも\r\n落ち着いて冷静に\r\n守るべき場所を守るだろう。",
+      "zh_tw": "冷靜堅毅的戰場守護神服裝。\r\n儘管千軍萬馬攻來，\r\n也要沉著冷靜地\r\n捍衛應要守護的地方。",
       "zh_cn": ""
     },
     {
       "no": 530564,
       "kr": "미늘을 이어 붙여 활동성과 방어력을 모두 챙긴 갑옷.\r\n모두를 지키기 위해 한 발자국 더 앞으로 나서는 순이의 용기가 담겨있다.",
       "en": "A suit of armor forged with interwoven scales, balancing agility and defense.\r\nIt carries Soonie's bravery, stepping forward to shield those in need.",
-      "ja": "",
+      "ja": "札をつなぎ合わせて活動性と防御力を兼ね備えたアーマー。\r\nみんなを守るために一歩踏み出すスニの勇気が込められている。",
       "zh_tw": "將鱗片拼接，兼具活動性與防禦力的盔甲。\r\n蘊含順伊為了守護眾人，挺身而出的勇氣。",
+      "zh_cn": ""
+    },
+    {
+      "no": 530565,
+      "kr": "한울이 속세에 외출하기 위해 준비한 복장.\r\n\"요즘 아이들은 이런 걸 좋아한다며…?\" \r\n살짝 향수가 느껴지는 패션이란 건 비밀로 하자.",
+      "en": "Hanul picked out this outfit for her visit to the outside world.\r\n\"I heard this is trendy with the kids now, right...?\"\r\nLet's not bring up the fact that it's got a bit of a retro vibe.",
+      "ja": "",
+      "zh_tw": "韓羽為了外出到俗世而準備的服裝。\r\n「聽說最近的小孩喜歡這種…？」\r\n這身時尚能稍微感受到鄉愁，這點就保密吧。",
+      "zh_cn": ""
+    },
+    {
+      "no": 530566,
+      "kr": "보다 강력한 존재감을 발하는 한울의 의복.\r\n평화를 원하기에, 때로는 \r\n싸움을 피할 수 없는 법이다.",
+      "en": "A garment that amplifies Hanul's formidable presence.\r\nThough she seeks peace,\r\nthere are times when she cannot avoid a fight.",
+      "ja": "",
+      "zh_tw": "散發出更強烈存在感的韓羽服裝。\r\n因為渴望和平，所以有時候\r\n戰爭是在所難免的。",
+      "zh_cn": ""
+    },
+    {
+      "no": 530567,
+      "kr": "재클린 인연 코스튬 설명",
+      "en": "Jacqueline's Bond Costume Description",
+      "ja": "",
+      "zh_tw": "潔克琳好感時裝說明",
+      "zh_cn": ""
+    },
+    {
+      "no": 530568,
+      "kr": "\"이딴 미궁, 전부 부숴버리겠사와요!\" \r\n누군가의 망상이 만들어낸, 폭주 모드 이디스. \r\n화려한 배팅 실력으로 전부 해치워버리겠사와요!",
+      "en": "\"I shall wreck this stupid labyrinth!\"\r\nEdith in rampage mode, conjured from someone's delusion.\r\nShe'll demolish everything with her fierce and flashy bat strikes!",
+      "ja": "「こんな迷宮、全部壊して見せますわ！」\r\n誰かの妄想が作り出した、暴走モードのイーディス。\r\n華麗なバッティングで全部倒しますわ！",
+      "zh_tw": "「這種迷宮，看我把它打得落花流水！」\r\n某人的妄想打造出暴走模式的伊迪絲。\r\n我要用華麗的打擊實力把你們全部一網打盡！",
+      "zh_cn": ""
+    },
+    {
+      "no": 530569,
+      "kr": "프릴과 조개로 사랑스럽게 꾸며진 지호의 수영복.\r\n걸을 때마다 파레오가 잔잔하게 흔들려,\r\n바다를 유영하는 인어의 꼬리처럼 보인다.",
+      "en": "Jiho's swimsuit, sweetly decorated with frills and seashells.\r\nAs she walks, the wrap sways gently,\r\nlike a mermaid's tail dancing through the water.",
+      "ja": "",
+      "zh_tw": "以荷葉邊和貝殼裝飾的智河可愛泳衣。\r\n走動的時候紗籠裙會輕輕擺動，\r\n看起來像徜徉在海裡的人魚尾巴。",
+      "zh_cn": ""
+    },
+    {
+      "no": 530570,
+      "kr": "4월의 새싹들처럼 싱그럽게 물든 지호의 예복.\r\n포근하고 따뜻한 봄의 햇살이 언제나 가온을 비추길.",
+      "en": "Jiho's formal attire, tinged with the lively green of April buds.\r\nWishing that the gentle spring sunshine forever shines on Gaon.",
+      "ja": "",
+      "zh_tw": "色調像4月新芽般清新的智河禮服。\r\n願和煦溫暖的春日陽光隨時都照耀著加溫。",
       "zh_cn": ""
     },
     {
@@ -19940,7 +20172,7 @@
       "no": 2110069,
       "kr": "유물의 기억: 솔로몬의 반지",
       "en": "Artifact Memory: Solomon's Ring",
-      "ja": "",
+      "ja": "遺物の記憶：ソロモンのリング",
       "zh_tw": "遺物的記憶：所羅門戒指",
       "zh_cn": ""
     },
@@ -19948,7 +20180,7 @@
       "no": 2110070,
       "kr": "유물의 기억: 태양의 왕관",
       "en": "Artifact Memory: Crown of the Sun",
-      "ja": "",
+      "ja": "遺物の記憶：太陽の王冠",
       "zh_tw": "遺物的記憶：太陽王冠",
       "zh_cn": ""
     },
@@ -19956,8 +20188,16 @@
       "no": 2110072,
       "kr": "유물의 기억: 청룡언월도(무쌍)",
       "en": "Artifact Memory: Green Dragon Crescent Blade (Peerless)",
-      "ja": "",
+      "ja": "遺物の記憶：青龍偃月刀(無双)",
       "zh_tw": "遺物的記憶：青龍偃月刀（無雙）",
+      "zh_cn": ""
+    },
+    {
+      "no": 2110079,
+      "kr": "유물의 기억: 천부인의 검",
+      "en": "Artifact Memory: Divine Sword of the Three Heavenly Seals",
+      "ja": "遺物の記憶：天符印の剣",
+      "zh_tw": "遺物的記憶：天符印之劍",
       "zh_cn": ""
     },
     {
@@ -23492,7 +23732,7 @@
       "no": 2144801,
       "kr": "동백 부티크",
       "en": "Camellia Boutique",
-      "ja": "",
+      "ja": "ツバキブティック",
       "zh_tw": "山茶花精品店",
       "zh_cn": ""
     },
@@ -23500,7 +23740,7 @@
       "no": 2144802,
       "kr": "다 함께 놀이마당",
       "en": "Life-Size Game Board",
-      "ja": "",
+      "ja": "みんなのゲームボード",
       "zh_tw": "一起玩耍遊樂場",
       "zh_cn": ""
     },
@@ -23508,7 +23748,7 @@
       "no": 2144803,
       "kr": "축제 단상",
       "en": "Festival Podium",
-      "ja": "",
+      "ja": "祭りの壇上",
       "zh_tw": "慶典舞台",
       "zh_cn": ""
     },
@@ -23516,7 +23756,7 @@
       "no": 2144804,
       "kr": "캐서린(광휘)의 사랑방",
       "en": "Catherine (Radiance)'s Parlor",
-      "ja": "",
+      "ja": "キャサリン(光輝)の大会会場",
       "zh_tw": "凱瑟琳（光輝）的廂房",
       "zh_cn": ""
     },
@@ -23524,7 +23764,7 @@
       "no": 2144805,
       "kr": "식혜 분수",
       "en": "Sweet Rice Drink Fountain",
-      "ja": "",
+      "ja": "甘酒噴水",
       "zh_tw": "甜米露噴水池",
       "zh_cn": ""
     },
@@ -23532,7 +23772,7 @@
       "no": 2144806,
       "kr": "동백 테이블",
       "en": "Camellia Table",
-      "ja": "",
+      "ja": "ツバキのテーブル",
       "zh_tw": "山茶花桌子",
       "zh_cn": ""
     },
@@ -23540,7 +23780,7 @@
       "no": 2144807,
       "kr": "동백 의자",
       "en": "Camellia Chair",
-      "ja": "",
+      "ja": "ツバキの椅子",
       "zh_tw": "山茶花椅子",
       "zh_cn": ""
     },
@@ -23548,7 +23788,7 @@
       "no": 2144808,
       "kr": "화훼도 병풍",
       "en": "Floral Motif Folding Screen",
-      "ja": "",
+      "ja": "ツバキの屏風",
       "zh_tw": "花卉圖屏風",
       "zh_cn": ""
     },
@@ -23556,7 +23796,7 @@
       "no": 2144809,
       "kr": "동백 좌등",
       "en": "Camellia Lantern Stand",
-      "ja": "",
+      "ja": "ツバキの照明",
       "zh_tw": "山茶花座燈",
       "zh_cn": ""
     },
@@ -23564,7 +23804,7 @@
       "no": 2144810,
       "kr": "이채 타일",
       "en": "Vibrant Tile",
-      "ja": "",
+      "ja": "異彩タイル",
       "zh_tw": "撞色地磚",
       "zh_cn": ""
     },
@@ -23572,7 +23812,7 @@
       "no": 2144811,
       "kr": "동백나무",
       "en": "Camellia Tree",
-      "ja": "",
+      "ja": "ツバキの木",
       "zh_tw": "山茶花樹",
       "zh_cn": ""
     },
@@ -23580,7 +23820,7 @@
       "no": 2144812,
       "kr": "가야금",
       "en": "Gayageum",
-      "ja": "",
+      "ja": "ガオンの伝統楽器",
       "zh_tw": "伽倻琴",
       "zh_cn": ""
     },
@@ -23588,7 +23828,7 @@
       "no": 2144813,
       "kr": "떡 테이블",
       "en": "Rice Cake Table",
-      "ja": "",
+      "ja": "モチテーブル",
       "zh_tw": "年糕桌子",
       "zh_cn": ""
     },
@@ -23596,7 +23836,7 @@
       "no": 2144820,
       "kr": "로제(홍염)의 심상의 시계탑",
       "en": "Rose (Prominence)'s Imaginary World Clock Tower",
-      "ja": "",
+      "ja": "ロゼ(紅炎)の心象の時計塔",
       "zh_tw": "蘿絲（紅焰）的心理鐘樓",
       "zh_cn": ""
     },
@@ -23604,8 +23844,16 @@
       "no": 2144821,
       "kr": "홍란(무쌍)의 산속 쉼터",
       "en": "Honglan (Peerless)'s Mountain Refuge",
-      "ja": "",
+      "ja": "ホンラン(無双)の山奥のシェルター",
       "zh_tw": "紅蘭（無雙）的山間休息處",
+      "zh_cn": ""
+    },
+    {
+      "no": 2144822,
+      "kr": "지호(미르)의 대영주 옥좌",
+      "en": "Jiho (Mir)'s High Seat of the Great Lord",
+      "ja": "",
+      "zh_tw": "智河（米爾）的大領主王座",
       "zh_cn": ""
     },
     {
@@ -23812,7 +24060,7 @@
       "no": 2147103,
       "kr": "2주년 기념 케이크",
       "en": "2nd Anniversary Cake",
-      "ja": "",
+      "ja": "2周年記念ケーキ",
       "zh_tw": "2週年紀念蛋糕",
       "zh_cn": ""
     },
@@ -24820,7 +25068,7 @@
       "no": 2210069,
       "kr": "바이스의 유물, 솔로몬의 반지의 기억입니다.\r\n유물을 획득하거나 승급에 사용됩니다.",
       "en": "Artifact of Weiss. The Memory of Solomon's Ring.\r\nUsed to obtain or ascend Artifacts.",
-      "ja": "",
+      "ja": "ヴァイスの遺物、ソロモンのリングの記憶です。\r\n遺物獲得や昇級に使用されます。",
       "zh_tw": "拜斯的遺物，所羅門戒指的記憶。\r\n可獲得遺物或用來升階。",
       "zh_cn": ""
     },
@@ -24828,7 +25076,7 @@
       "no": 2210070,
       "kr": "로제(홍염)의 유물, 태양의 왕관의 기억입니다.\r\n유물을 획득하거나 승급에 사용됩니다.",
       "en": "Artifact of Rose (Prominence). The Memory of the Crown of the Sun.\r\nUsed to obtain or ascend Artifacts.",
-      "ja": "",
+      "ja": "ロゼ(紅炎)の遺物、太陽の王冠の記憶です。\r\n遺物獲得や昇級に使用されます。",
       "zh_tw": "蘿絲（紅焰）的遺物，太陽王冠的記憶。\r\n可獲得遺物或用來升階。",
       "zh_cn": ""
     },
@@ -24836,8 +25084,16 @@
       "no": 2210072,
       "kr": "홍란(무쌍)의 유물, 청룡언월도(무쌍)의 기억입니다.\r\n유물을 획득하거나 승급에 사용됩니다.",
       "en": "Artifact of Honglan (Peerless). The Memory of the Green Dragon Crescent Blade.\r\nUsed to obtain or ascend Artifacts.",
-      "ja": "",
+      "ja": "ホンラン(無双)の遺物、青龍偃月刀(無双)の記憶です。\r\n遺物獲得や昇級に使用されます。",
       "zh_tw": "紅蘭（無雙）的遺物，青龍偃月刀（無雙）的記憶\r\n可獲得遺物或用來升階",
+      "zh_cn": ""
+    },
+    {
+      "no": 2210079,
+      "kr": "한울의 유물, 천부인의 검의 기억입니다.\r\n유물을 획득하거나 승급에 사용됩니다.",
+      "en": "Artifact of Hanul. The Memory of Divine Sword of the Three Heavenly Seals.\r\nUsed to obtain or ascend Artifacts.",
+      "ja": "ハンウルの遺物、天符印の剣の記憶です。\r\n遺物獲得や昇級に使用されます。",
+      "zh_tw": "韓羽的遺物，天符印之劍的記憶\r\n可獲得遺物或用來升階",
       "zh_cn": ""
     },
     {
@@ -28404,7 +28660,7 @@
       "no": 2244801,
       "kr": "신년제를 맞이해 제이드가 마련한 드레스 부티크.\r\n진열된 드레스는 단 한 벌뿐인 한정 상품으로, 아름다운 디자인뿐만 아니라 우수한 품질을 자랑한다고.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 마나 더스트를 +20/분 추가로 획득</color>할 수 있습니다.",
       "en": "A dress boutique opened by Jade in celebration of the New Year's Festival.\r\nEach dress on display is a one-of-a-kind limited item, boasting stunning designs and top-notch quality.\r\n\r\nPlace it in town to receive an <color=\"#2d9b00\">additional 20 Mana Dust per minute in loot</color>.",
-      "ja": "",
+      "ja": "新年祭を迎え、ジェイドが新しく用意したドレスブティック。\r\n並べられたドレスは一着だけの限定品で、デザインが美しいだけではなく、優れた品質を誇るという。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品マナダストを+20/分追加で獲得</color>できます。",
       "zh_tw": "潔依德為迎接新年祭所準備的禮服精品店。\r\n陳列的禮服都是僅此一套的限量版，不只有精美的設計，還有著優良的品質。\r\n\r\n配置在領地可<color=\"#2d9b00\">額外獲得戰利品魔力粉塵+20／分鐘</color>。",
       "zh_cn": ""
     },
@@ -28412,7 +28668,7 @@
       "no": 2244802,
       "kr": "대형 윷놀이판. 직접 윷말이 되어 움직이는 「윷말 체험」이 가능하다.\r\n소문으로는, 원래는 「윷말 체험」이 아닌 「윷 체험」이었다고 한다.\r\n당연히 위험성이 높아 기각되었다.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 골드를 +15/분 추가로 획득</color>할 수 있습니다.",
       "en": "A life-sized yutnori board where you can play as a yut token yourself.\r\nRumor has it that the initial concept involved players becoming the yut sticks instead,\r\nbut it was rejected for obvious safety reasons.\r\n\r\nPlace it in town to receive an <color=\"#2d9b00\">additional 15 Gold per minute in loot</color>.",
-      "ja": "",
+      "ja": "大きなゲームボード。直接コマになりきれて楽しむことができる。 \r\n噂によると、元々はコマになりきるのではなく、床に投げる形式のサイコロになりきる体験だったらしい。\r\n当然、危険性が高いため却下された。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品ゴールドを+15/分追加で獲得</color>できます。",
       "zh_tw": "大型擲柶板子。可以親自當棋子，體驗動態的「擲柶棋子」。\r\n據傳，本來並不是「棋子體驗」，而是要被拋出去的「骰子體驗」。\r\n當然因為過於危險被駁回了。\r\n\r\n配置在領地可<color=\"#2d9b00\">額外獲得戰利品金幣+15／分鐘</color>。",
       "zh_cn": ""
     },
@@ -28420,7 +28676,7 @@
       "no": 2244803,
       "kr": "개회사를 위해 준비된 단상.\r\n각국 수장들의 카리스마 있는 연설에 장내의 모두가 주목했다고 한다.\r\n다만, 바들바들 떠는 금발의 국왕만은 예외였다는 모양이다.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">전리품 골드를 +15/분 추가로 획득</color>할 수 있습니다.",
       "en": "A podium set for the opening ceremony.\r\nWhile the charismatic speeches of leaders from various nations captivated the audience,\r\nthe trembling blonde queen stood out as the exception.\r\n\r\nPlace it in town to receive an <color=\"#2d9b00\">additional 15 Gold per minute in loot</color>.",
-      "ja": "",
+      "ja": "開会のスピーチのために用意された壇上。\r\n各国の首長のカリスマ的なスピーチに会場の誰もが注目したらしい。\r\nただし、ぶるぶると震える金髪の国王だけは例外だったようだ。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">戦利品ゴールドを+15/分追加で獲得</color>できます。",
       "zh_tw": "為開幕致詞所準備的舞台。\r\n各國首長們極具魅力的致詞吸引了場內所有人的目光。\r\n但是，不停發抖的金髮國王似乎是例外。\r\n\r\n配置在領地可<color=\"#2d9b00\">額外獲得戰利品金幣+15／分鐘</color>。",
       "zh_cn": ""
     },
@@ -28428,7 +28684,7 @@
       "no": 2244804,
       "kr": "가온에서 주최한 서예 대회장.\r\n가장 아름다운 붓글씨를 쓴 자를 가리는 대회로, 예선전을 통과한 도전자는 캐서린과의 대결을 펼칠 수 있다.\r\n참고로, 아직 캐서린을 넘은 우승자는 없다고 한다.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">특별한 아르바이트를 진행</color>할 수 있습니다.\r\n\r\n캐서린(광휘)를 오브제에 배치하면 <color=\"#2d9b00\">캐서린(광휘)의 공격력이 10% 증가</color>합니다. \r\n(다른 오브제에 중복 배치 불가)",
       "en": "A calligraphy contest venue of Gaon.\r\nParticipants vie for the title of the finest brush artist. Those who make it through the preliminaries earn the chance to challenge Catherine,\r\nthough it's worth noting that no one has ever bested her.\r\n\r\nPlace it in town to unlock a <color=\"#2d9b00\">special part-time job</color>.\r\n\r\nDeploying Catherine (Radiance) to this structure will increase <color=\"#2d9b00\">Catherine (Radiance)'s ATK by 10%</color>.\r\n(Each Soul can occupy only one structure.)",
-      "ja": "",
+      "ja": "ガオン主催の書道大会の会場。\r\n最も美しい文字を書く者を決める大会で、予選を通過した挑戦者はキャサリンと対決できる。\r\nちなみに、まだキャサリンを超えた優勝者はまだいないらしい。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">特別なバイトを進行</color>できます。\r\n\r\nキャサリン(光輝)をオブジェに配置すると、<color=\"#2d9b00\">キャサリン(光輝)の攻撃力が10%増加</color>します。\r\n(他のオブジェに重ねて配置不可)",
       "zh_tw": "加溫主辦的書法大賽會場。\r\n大賽會選出寫下最美毛筆字的人，通過預賽的挑戰者可以和凱瑟琳進行對決。\r\n補充一下，據說目前還沒有優勝者贏過凱瑟琳。\r\n\r\n配置在領地可<color=\"#2d9b00\">進行特別的打工</color>。\r\n\r\n將凱瑟琳（光輝）配置於物件可<color=\"#2d9b00\">增加凱瑟琳（光輝）的攻擊力10%</color>。\r\n（不可重複配置在其他物件）",
       "zh_cn": ""
     },
@@ -28436,7 +28692,7 @@
       "no": 2244805,
       "kr": "식혜가 흐르는 떡 분수. \r\n달짝지근한 식혜와 함께라면 끊임없이 떡을 먹을 수 있다!",
       "en": "A rice cake fountain with streams of a sweet rice drink.\r\nWith every bite of rice cake paired with the sweet rice drink, the feast never ends!",
-      "ja": "",
+      "ja": "甘酒が流れるモチ噴水。\r\n甘い甘酒と一緒ならモチはいくらでも食べられる！",
       "zh_tw": "流淌著甜米露的噴水池。\r\n只要配上甜滋滋的甜米露，就能永無止境地吃年糕！",
       "zh_cn": ""
     },
@@ -28444,7 +28700,7 @@
       "no": 2244806,
       "kr": "동백의 절개가 느껴지는 단아한 테이블.",
       "en": "A refined table exuding the steadfast dignity of the camellia flower.",
-      "ja": "",
+      "ja": "ツバキの気骨が感じられる上品なテーブル。",
       "zh_tw": "感受到山茶花節操的端莊桌子。",
       "zh_cn": ""
     },
@@ -28452,7 +28708,7 @@
       "no": 2244807,
       "kr": "동백의 절개가 느껴지는 단아한 의자.",
       "en": "A refined chair exuding the steadfast dignity of the camellia flower.",
-      "ja": "",
+      "ja": "ツバキの気骨が感じられる上品な椅子。",
       "zh_tw": "感受到山茶花節操的端莊椅子。",
       "zh_cn": ""
     },
@@ -28460,7 +28716,7 @@
       "no": 2244808,
       "kr": "동백꽃이 그려진 아름다운 병풍.\r\n장인이 손수 만든 고급품이다.",
       "en": "A beautiful folding screen featuring painted camellia flowers.\r\nIt is a masterpiece crafted by a skilled artisan.",
-      "ja": "",
+      "ja": "ツバキの描かれた美しい屏風。\r\n職人が手作りした高級品。",
       "zh_tw": "畫有山茶花的美麗屏風。\r\n是工匠手工製作的高級品。",
       "zh_cn": ""
     },
@@ -28468,7 +28724,7 @@
       "no": 2244809,
       "kr": "깔끔한 디자인의 동백 좌등.\r\n흐드러지게 핀 동백이 축제의 밤을 밝혀준다.",
       "en": "An elegantly simple camellia lantern stand.\r\nThe flourishing camellias cast a warm glow over the festive evening.",
-      "ja": "",
+      "ja": "綺麗なデザインのツバキの照明。\r\n咲き誇ったツバキの花が祭りの夜を照らす。",
       "zh_tw": "設計簡潔的山茶花座燈。\r\n盛開的山茶花照亮了慶典的夜晚。",
       "zh_cn": ""
     },
@@ -28476,7 +28732,7 @@
       "no": 2244810,
       "kr": "신비로운 색상의 대리석 타일.",
       "en": "A marble tile of mystical colors.",
-      "ja": "",
+      "ja": "神秘的な色の大理石タイル。",
       "zh_tw": "色彩神祕的大理石地磚。",
       "zh_cn": ""
     },
@@ -28484,7 +28740,7 @@
       "no": 2244811,
       "kr": "추위에도 지지 않고 붉게 핀 동백나무.\r\n동백나무는 꽃이 질 때 꽃잎이 아닌 꽃송이 째로 떨어진다는 특징이 있는데, 이는 절개를 상징한다고 한다.\t",
       "en": "Even in the cold, the camellia tree blooms a vibrant red.\r\nIts unique trait of flowers dropping whole rather than shedding petals is often seen as a symbol of steadfast dignity.\t",
-      "ja": "",
+      "ja": "寒さに負けずに赤く咲いたツバキの木。\r\nツバキの花は花びらではなく、花ごと落ちるという特徴がある。これは気骨を象徴するらしい。\t",
       "zh_tw": "不畏寒冷，綻放出紅色花朵的山茶花樹。\r\n山茶花樹凋零時不是掉落花瓣，而是整個花朵掉落，這一特點象徵著節操。\t",
       "zh_cn": ""
     },
@@ -28492,7 +28748,7 @@
       "no": 2244812,
       "kr": "동백꽃 향기가 함께하는 가야금.\r\n음악과 함께 축제 분위기가 무르익어 간다.",
       "en": "A camellia-scented gayageum.\r\nIts music enriches the lively spirit of the festival.",
-      "ja": "",
+      "ja": "ツバキの香りが漂うガオンの伝統楽器。\r\n音楽とともに祭りの雰囲気は盛り上がる。",
       "zh_tw": "飄出山茶花香氣的伽倻琴。\r\n慶典的氣氛隨著音樂逐漸達到高點。",
       "zh_cn": ""
     },
@@ -28500,7 +28756,7 @@
       "no": 2244813,
       "kr": "축제를 찾은 귀빈들에게 제공되는 원형 떡 테이블.\r\n가온에서만 맛볼 수 있는 고급스러운 디저트들로 가득하다.",
       "en": "A round table of rice cakes offered to the distinguished guests of the festival.\r\nIt features an array of refined desserts unique to Gaon.",
-      "ja": "",
+      "ja": "祭りに訪れた来賓に提供される丸いモチテーブル。\r\nガオンでしか食べられない高級デザートでいっぱい。",
       "zh_tw": "為參加慶典的貴賓所準備的圓形年糕桌子。\r\n擺滿了只有在加溫才能嚐到的高級甜點。",
       "zh_cn": ""
     },
@@ -28508,16 +28764,24 @@
       "no": 2244820,
       "kr": "로제의 마음이 만들어 낸 시계탑. \r\n세계의 규율을 깨뜨리고, 기록되지 않은 미래를 관측하려는 자의 염원이 담겨 있다.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">특별한 아르바이트를 진행</color>할 수 있습니다.\r\n\r\n로제(홍염)을 오브제에 배치하면 <color=\"#2d9b00\">로제(홍염)의 공격력이 10% 증가</color>합니다. \r\n(다른 오브제에 중복 배치 불가)",
       "en": "A clock tower manifested from Rose's mind.\r\nIt holds the desire of one who dares to shatter the world's order and glimpse an unwritten future.\r\n\r\nPlace it in town to unlock a <color=\"#2d9b00\">special part-time job</color>.\r\n\r\nDeploying Rose (Prominence) to this structure will <color=\"#2d9b00\">increase Rose (Prominence)'s ATK by 10%</color>.\r\n(Each Soul can occupy only one structure.)",
-      "ja": "",
+      "ja": "ロゼの心が作り上げた時計塔。\r\n世界のルールを破り、記録されていない未来を観測しようとする者の願いが込められている。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">特別なバイトを進行</color>できます。\r\n\r\nロゼ(紅炎)をオブジェに配置すると、<color=\"#2d9b00\">ロゼ(紅炎)の攻撃力が10%増加</color>します。\r\n(他のオブジェに重ねて配置不可)",
       "zh_tw": "蘿絲的心打造而成的鐘樓。\r\n蘊含了某人想打破世界規則、觀測未記錄的未來的心願。\r\n\r\n配置在領地可<color=\"#2d9b00\">進行特別的打工</color>。\r\n\r\n將蘿絲（紅焰）配置於物件可<color=\"#2d9b00\">增加蘿絲（紅焰）的攻擊力10%</color>。\r\n（不可重複配置在其他物件）",
       "zh_cn": ""
     },
     {
       "no": 2244821,
       "kr": "한때 홍란이 머물렀던 어느 산속의 쉼터.\r\n포근한 구름으로 가득해, 마치 번잡한 속세와 단절된 꿈처럼 느껴진다.\r\n중앙의 정자에선 홍란과 아기 토끼가 새근새근 낮잠을 자고 있다.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">특별한 아르바이트를 진행</color>할 수 있습니다.\r\n\r\n홍란(무쌍)을 오브제에 배치하면 <color=\"#2d9b00\">홍란(무쌍)의 체력이 10% 증가</color>합니다. \r\n(다른 오브제에 중복 배치 불가)",
-      "en": "A tranquil mountain refuge where Honglan once found rest.\r\n Surrounded by fluffy clouds, it feels like a dream untouched by the busy world.\r\n In the pavilion at the center, Honglan and a baby rabbit are peacefully napping.\r\n \r\n Place it in town to unlock a <color=\"#2d9b00\">special part-time job</color>.\r\n \r\n Deploying Honglan (Peerless) to this structure will <color=\"#2d9b00\">increase Honglan (Peerless)'s HP by 10%</color>.\r\n (Each Soul can occupy only one structure.)",
-      "ja": "",
+      "en": "A tranquil mountain refuge where Honglan once found rest.\r\nSurrounded by fluffy clouds, it feels like a dream untouched by the busy world.\r\nIn the pavilion at the center, Honglan and a baby rabbit are peacefully napping.\r\n\r\nPlace it in town to unlock a <color=\"#2d9b00\">special part-time job</color>.\r\n\r\nDeploying Honglan (Peerless) to this structure will <color=\"#2d9b00\">increase Honglan (Peerless)'s HP by 10%</color>.\r\n(Each Soul can occupy only one structure.)",
+      "ja": "かつてホンランが過ごした山奥のシェルター。\r\n穏やかな雲がいっぱいで、まるで煩雑な世間から切り離された夢の世界のようだ。\r\n真ん中の東屋ではホンランと子ウサギがすやすやと昼寝をしている。\r\n\r\n領地に配置すると、<color=\"#2d9b00\">特別なバイトを進行</color>できます。\r\n\r\nホンラン(無双)をオブジェに配置すると、<color=\"#2d9b00\">ホンラン(無双)の体力が10%増加</color>します。\r\n(他のオブジェに重ねて配置不可)",
       "zh_tw": "紅蘭曾經停留過的某個山間休息處。\r\n滿是軟綿綿的雲朵，就好像與紅塵俗世隔絕的夢境一樣。\r\n紅蘭和小兔子正在中央的涼亭午睡。\r\n\r\n配置在領地可<color=\"#2d9b00\">進行特別的打工</color>。\r\n\r\n將紅蘭（無雙）配置於物件可<color=\"#2d9b00\">增加紅蘭（無雙）的體力10%</color>。\r\n（不可重複配置在其他物件）",
+      "zh_cn": ""
+    },
+    {
+      "no": 2244822,
+      "kr": "지호(미르)의 대영주 옥좌 설명",
+      "en": "Jiho (Mir)'s High Seat of the Great Lord description",
+      "ja": "",
+      "zh_tw": "智河（米爾）的大領主王座說明",
       "zh_cn": ""
     },
     {
@@ -28724,7 +28988,7 @@
       "no": 2247103,
       "kr": "2주년을 기념하는 파티 케이크. \r\n어떤 약속은 영원히 변치 않는다. 당신이 함께하는 한!",
       "en": "A party cake for celebrating the 2nd anniversary.\r\nSome promises remain unchanged forever. As long as you're there!",
-      "ja": "",
+      "ja": "2周年を記念するパーティーケーキ。\r\n永遠に変わらない約束がある。あなたが一緒にいる限り！",
       "zh_tw": "慶祝2週年的派對蛋糕。\r\n有些約定永遠不會變，只要有你一起！",
       "zh_cn": ""
     },
@@ -29636,7 +29900,7 @@
       "no": 21511501,
       "kr": "스티커: 소중한 로제(홍염)",
       "en": "Sticker: Precious Rose (Prominence)",
-      "ja": "",
+      "ja": "ステッカー：大切なロゼ(紅炎)",
       "zh_tw": "貼紙：珍貴的蘿絲（紅焰）",
       "zh_cn": ""
     },
@@ -29756,7 +30020,7 @@
       "no": 21521601,
       "kr": "스티커: 소중한 홍란(무쌍)",
       "en": "Sticker: Precious Honglan (Peerless)",
-      "ja": "",
+      "ja": "ステッカー：大切なホンラン(無双)",
       "zh_tw": "貼紙：珍貴的紅蘭（無雙）",
       "zh_cn": ""
     },
@@ -29988,7 +30252,7 @@
       "no": 21541501,
       "kr": "스티커: 소중한 바이스",
       "en": "Sticker: Precious Weiss",
-      "ja": "",
+      "ja": "ステッカー：大切なヴァイス",
       "zh_tw": "貼紙：珍貴的拜斯",
       "zh_cn": ""
     },
@@ -30014,6 +30278,14 @@
       "en": "Sticker: Precious Yuria",
       "ja": "ステッカー：大切なユリア",
       "zh_tw": "貼紙：珍貴的尤里婭",
+      "zh_cn": ""
+    },
+    {
+      "no": 21550401,
+      "kr": "스티커: 소중한 한울",
+      "en": "Sticker: Precious Hanul",
+      "ja": "",
+      "zh_tw": "貼紙：珍貴的韓羽",
       "zh_cn": ""
     },
     {
@@ -30068,7 +30340,7 @@
       "no": 21565301,
       "kr": "스티커: 소중한 메피스토펠레스(여명)",
       "en": "Sticker: Precious Mephistopheles (Dawn)",
-      "ja": "",
+      "ja": "ステッカー：大切なメフィストフェレス(暁)",
       "zh_tw": "貼紙：珍貴的梅菲斯托佩萊斯（黎明）",
       "zh_cn": ""
     },
@@ -30204,7 +30476,7 @@
       "no": 22511501,
       "kr": "로제(홍염)의 인연 레벨 40 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon reaching Rose (Prominence) Bond Level 40.",
-      "ja": "",
+      "ja": "ロゼ(紅炎)の絆Lv40達成時に獲得できるステッカー",
       "zh_tw": "達成蘿絲（紅焰）好感等級40時可獲得的貼紙。",
       "zh_cn": ""
     },
@@ -30324,7 +30596,7 @@
       "no": 22521601,
       "kr": "홍란(무쌍)의 인연 레벨 40 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon reaching Honglan (Peerless) Bond Level 40.",
-      "ja": "",
+      "ja": "ホンラン(無双)の絆Lv40達成時に獲得できるステッカー",
       "zh_tw": "達成紅蘭（無雙）好感等級40時可獲得的貼紙。",
       "zh_cn": ""
     },
@@ -30556,7 +30828,7 @@
       "no": 22541501,
       "kr": "바이스의 인연 레벨 40 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon reaching Weiss Bond Level 40.",
-      "ja": "",
+      "ja": "ヴァイスの絆Lv40達成時に獲得できるステッカー",
       "zh_tw": "達成拜斯好感等級40時可獲得的貼紙。",
       "zh_cn": ""
     },
@@ -30582,6 +30854,14 @@
       "en": "A sticker that can be obtained upon reaching Yuria Bond Level 40.",
       "ja": "ユリアの絆Lv40達成時に\r\n獲得できるステッカー",
       "zh_tw": "達成尤里婭好感等級40時可獲得的貼紙。",
+      "zh_cn": ""
+    },
+    {
+      "no": 22550401,
+      "kr": "한울의 인연 레벨 40 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Hanul Bond Level 40.",
+      "ja": "",
+      "zh_tw": "達成韓羽好感等級40時可獲得的貼紙。",
       "zh_cn": ""
     },
     {
@@ -30636,7 +30916,7 @@
       "no": 22565301,
       "kr": "메피스토펠레스(여명)의 인연 레벨 40 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon reaching Mephistopheles (Dawn) Bond Level 40.",
-      "ja": "",
+      "ja": "メフィストフェレス(暁)の絆Lv40達成時に獲得できるステッカー",
       "zh_tw": "達成梅菲斯托佩萊斯（黎明）好感等級40時可獲得的貼紙。",
       "zh_cn": ""
     },

@@ -1148,7 +1148,7 @@
       "no": 101029,
       "kr": "디버프 역할 정령 {1}명 이상 배치하기",
       "en": "Deploy {1} or more debuff Souls",
-      "ja": "",
+      "ja": "デバフ役割の精霊を{1}体以上配置する",
       "zh_tw": "配置超過{1}個減益定位精靈",
       "zh_cn": ""
     },
@@ -2012,7 +2012,7 @@
       "no": 419094,
       "kr": "VS 심상세계의 로제",
       "en": "Vs. Rose(Imaginary World)",
-      "ja": "",
+      "ja": "VS 心象世界のロゼ",
       "zh_tw": "VS 心理世界的蘿絲",
       "zh_cn": ""
     },
@@ -2020,7 +2020,7 @@
       "no": 419095,
       "kr": "심상세계의 로제",
       "en": "Rose in Her Imaginary World",
-      "ja": "",
+      "ja": "心象世界のロゼ",
       "zh_tw": "心理世界的蘿絲",
       "zh_cn": ""
     },
@@ -2028,7 +2028,7 @@
       "no": 419096,
       "kr": "노심",
       "en": "Reactor Core",
-      "ja": "",
+      "ja": "爐心",
       "zh_tw": "爐心",
       "zh_cn": ""
     },
@@ -2036,7 +2036,7 @@
       "no": 419097,
       "kr": "토용군 습격 저지",
       "en": "Repelling the Clay Creatures' attack",
-      "ja": "",
+      "ja": "土の戦士の襲撃阻止",
       "zh_tw": "阻止土俑軍襲擊",
       "zh_cn": ""
     },
@@ -2044,7 +2044,7 @@
       "no": 419098,
       "kr": "노심굴 전투",
       "en": "Battle at the Reactor Core Cave",
-      "ja": "",
+      "ja": "爐心の洞窟の戦闘",
       "zh_tw": "爐心窟戰鬥",
       "zh_cn": ""
     },
@@ -2588,7 +2588,7 @@
       "no": 501031,
       "kr": "타브리아 제국의 가장 깊은 곳이자, 일반적인 방법으로는 도달할 수 없는 왜곡된 장소. \r\n설명할 수 없는 강력한 힘이 이 공간의 모든 질서와 법칙을 어그러뜨리고 있다.\r\n\r\n먼 옛날, 타브리아의 대제는 이곳에서 거대한 짐승을 봉인했다고 한다.\r\n\r\n「타락한 영혼의 세계를 정화하는 신성한 의식이 거행될지어니\r\n모든 영혼은 두려워 말고 기도하라…」",
       "en": "The deepest, most twisted reaches of the Tabria Empire—a place beyond the reach of ordinary paths.\r\nAn incomprehensible power permeates this place, unraveling its order and laws.\r\n\r\nIn the distant past, the Great Empress of Tabria is said to have sealed a colossal beast here.\r\n\r\n\"A sacred ritual shall be performed to cleanse the world of fallen souls.\r\nAll souls shall pray without fear.\"",
-      "ja": "煉獄への道マップ説明",
+      "ja": "タブリア帝国の奥深く、一般的な方法では到達できない歪んだ場所。\r\n言葉にはできないほど強力な力が、この空間のすべての秩序と法則を乱している。\r\n\r\n遠い昔、タブリアの大帝はここで巨大な獣を封印したらしい。\r\n\r\n「堕落した魂の世界を浄化する神聖な儀式が行われる\r\nすべての魂は恐れず祈ればいい…」",
       "zh_tw": "塔布里亞帝國的最深處，無法用普通方法抵達的扭曲場所。\r\n不可名狀的強大力量破壞著這空間的所有秩序和法則。\r\n\r\n據說很久以前，塔布里亞大帝在這裡封印了巨大的野獸。\r\n\r\n「將會舉行淨化墮落之魂世界的神聖儀式，\r\n所有靈魂不必害怕，祈禱吧…」",
       "zh_cn": ""
     },
@@ -2596,7 +2596,7 @@
       "no": 501032,
       "kr": "트로이카 왕국 해역에 위치한 등대.\r\n이 인근의 거친 해류와 풍랑은 바다의 신이 잠들어 있기 때문이라는 전설이 있다.\r\n\r\n트로이카를 건국한 만물왕이 아우렐리아와 협력하며 교류를 다지기 위해 세운 것으로 알려져 있다.\r\n바닷길을 밝히는 등대이면서도 바닷물에 녹아 있는 마나를 정제해 마력으로 가공하는 발전소의 역할 또한 겸하고 있었으나, 만물왕이 잠든 순간부터 가동을 멈추었다.\r\n\r\n그러나 가동을 멈춘 지금도 등대는 하늘을 향해 강렬한 빛을 내뿜고 있다.\r\n무수한 생명이 공존하는 바다의 중심에서, 등대는 과연 무엇을 위해 아직도 불을 밝히고 있는 것일까…",
       "en": "A lighthouse standing in the waters of the Kingdom of Troyca.\r\nLegends whisper that the fierce waves and treacherous currents here exist because the god of the sea slumbers beneath them.\r\n\r\nIt is said that the Queen of All Things, the founder of Troyca, built this lighthouse in collaboration with Aurelia to strengthen their ties.\r\nIt once refined mana from seawater into magical energy, serving as a power plant. Yet, when the Queen of All Things fell into slumber, its machinery stopped working.\r\n\r\nStill, even now, the lighthouse pierces the sky with its unwavering brilliance.\r\nIn the heart of the ever-changing sea, where countless lives intertwine, what purpose does its undying light still serve...?",
-      "ja": "煉獄への道マップ説明",
+      "ja": "トロイカ王国の海域に位置している灯台。\r\nこの周りの海流や風浪が荒いのは、海神が眠っているためという伝説がある。\r\n\r\nトロイカを建国した万物王がアウレリアと協力し、交流を深めるために建てたと言われている。\r\n海道を照らす灯台でありながら、海水に溶け込んでいるマナを精製して魔力に加工する発電所の役割も兼ねていたが、万物王が眠ったときから稼働が止まっている。\r\n\r\nしかし、稼働が止まった今も灯台は空に向けて強烈な光を放っている。\r\n無数の命が共存する海の中心で、灯台はなんのためにいまだに明かりを灯しているのか…",
       "zh_tw": "位於特羅伊卡王國海域的燈塔。\r\n據傳這附近的湍急海流與洶湧風浪是因為有海洋之神沉睡於此。\r\n\r\n聽說是建設特羅伊卡的萬物之王建來與奧里利亞合作交流的。\r\n它是照亮海面的燈塔，同時也兼具發電廠的作用，將融在海裡的魔力來源精煉，加工成魔力，但自從萬物之王沉睡的瞬間起就停止運轉。\r\n\r\n然而停止運轉的現在，燈塔仍朝天空發射著強光。\r\n在無數生命共存的海洋中心，燈塔究竟是為了什麼，至今仍閃爍著燈光呢…",
       "zh_cn": ""
     },
@@ -2662,6 +2662,22 @@
       "en": "Logic of Love",
       "ja": "ドキドキ愛のロジック",
       "zh_tw": "噗通噗通愛情的邏輯",
+      "zh_cn": ""
+    },
+    {
+      "no": 8003110,
+      "kr": "제네시스 시뮬레이터 - 나이아 {0}층",
+      "en": "Genesis Simulator - Naiah {0}F",
+      "ja": "",
+      "zh_tw": "起源模擬裝置－娜伊雅{0}層",
+      "zh_cn": ""
+    },
+    {
+      "no": 8004100,
+      "kr": "제네시스 시뮬레이터 - 페트라 {0}층",
+      "en": "Genesis Simulator - Petra {0}F",
+      "ja": "",
+      "zh_tw": "起源模擬裝置－佩特拉{0}層",
       "zh_cn": ""
     }
   ]

@@ -1978,6 +1978,51 @@
       "goal_amount": 200,
       "reward_item_no1": 2,
       "reward_item_amount1": 500
+    },
+    {
+      "no": 214,
+      "event_stage_group": 13,
+      "event_number": 2,
+      "reward_type": 4,
+      "goal_amount": 100,
+      "reward_item_no1": 2,
+      "reward_item_amount1": 100
+    },
+    {
+      "no": 215,
+      "event_stage_group": 13,
+      "event_number": 2,
+      "reward_type": 4,
+      "goal_amount": 125,
+      "reward_item_no1": 2,
+      "reward_item_amount1": 200
+    },
+    {
+      "no": 216,
+      "event_stage_group": 13,
+      "event_number": 2,
+      "reward_type": 4,
+      "goal_amount": 150,
+      "reward_item_no1": 2,
+      "reward_item_amount1": 300
+    },
+    {
+      "no": 217,
+      "event_stage_group": 13,
+      "event_number": 2,
+      "reward_type": 4,
+      "goal_amount": 175,
+      "reward_item_no1": 2,
+      "reward_item_amount1": 400
+    },
+    {
+      "no": 218,
+      "event_stage_group": 13,
+      "event_number": 2,
+      "reward_type": 4,
+      "goal_amount": 200,
+      "reward_item_no1": 2,
+      "reward_item_amount1": 500
     }
   ]
 }

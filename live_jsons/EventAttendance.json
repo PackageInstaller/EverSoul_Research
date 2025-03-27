@@ -3653,6 +3653,132 @@
       "reward_amount": 10,
       "buy_attend_open": 7,
       "buy_attend_cost": 50
+    },
+    {
+      "no": 407,
+      "group": 10002,
+      "attendance_order": 1,
+      "reward_item": 2321,
+      "reward_amount": 1,
+      "buy_attend_open": 7,
+      "buy_attend_cost": 50
+    },
+    {
+      "no": 408,
+      "group": 10002,
+      "attendance_order": 2,
+      "reward_item": 2,
+      "reward_amount": 200,
+      "buy_attend_open": 7,
+      "buy_attend_cost": 50
+    },
+    {
+      "no": 409,
+      "group": 10002,
+      "attendance_order": 3,
+      "reward_item": 2,
+      "reward_amount": 200,
+      "buy_attend_open": 7,
+      "buy_attend_cost": 50
+    },
+    {
+      "no": 410,
+      "group": 10002,
+      "attendance_order": 4,
+      "reward_item": 2,
+      "reward_amount": 200,
+      "buy_attend_open": 7,
+      "buy_attend_cost": 50
+    },
+    {
+      "no": 411,
+      "group": 10002,
+      "attendance_order": 5,
+      "reward_item": 2,
+      "reward_amount": 200,
+      "buy_attend_open": 7,
+      "buy_attend_cost": 50
+    },
+    {
+      "no": 412,
+      "group": 10002,
+      "attendance_order": 6,
+      "reward_item": 2,
+      "reward_amount": 200,
+      "buy_attend_open": 7,
+      "buy_attend_cost": 50
+    },
+    {
+      "no": 413,
+      "group": 10002,
+      "attendance_order": 7,
+      "reward_item": 28,
+      "reward_amount": 10,
+      "buy_attend_open": 7,
+      "buy_attend_cost": 50
+    },
+    {
+      "no": 414,
+      "group": 37,
+      "attendance_order": 1,
+      "reward_item": 2,
+      "reward_amount": 200,
+      "buy_attend_open": 7,
+      "buy_attend_cost": 50
+    },
+    {
+      "no": 415,
+      "group": 37,
+      "attendance_order": 2,
+      "reward_item": 2,
+      "reward_amount": 200,
+      "buy_attend_open": 7,
+      "buy_attend_cost": 50
+    },
+    {
+      "no": 416,
+      "group": 37,
+      "attendance_order": 3,
+      "reward_item": 2,
+      "reward_amount": 200,
+      "buy_attend_open": 7,
+      "buy_attend_cost": 50
+    },
+    {
+      "no": 417,
+      "group": 37,
+      "attendance_order": 4,
+      "reward_item": 2,
+      "reward_amount": 200,
+      "buy_attend_open": 7,
+      "buy_attend_cost": 50
+    },
+    {
+      "no": 418,
+      "group": 37,
+      "attendance_order": 5,
+      "reward_item": 2,
+      "reward_amount": 200,
+      "buy_attend_open": 7,
+      "buy_attend_cost": 50
+    },
+    {
+      "no": 419,
+      "group": 37,
+      "attendance_order": 6,
+      "reward_item": 2,
+      "reward_amount": 200,
+      "buy_attend_open": 7,
+      "buy_attend_cost": 50
+    },
+    {
+      "no": 420,
+      "group": 37,
+      "attendance_order": 7,
+      "reward_item": 28,
+      "reward_amount": 10,
+      "buy_attend_open": 7,
+      "buy_attend_cost": 50
     }
   ]
 }

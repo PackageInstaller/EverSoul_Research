@@ -546,6 +546,43 @@
       "gimmick_value1": 7375,
       "gimmick_type2": 1,
       "gimmick_value2": 7376
+    },
+    {
+      "no": 45,
+      "season_no": 3,
+      "raid_no": 19,
+      "level": 100,
+      "icon_path": "srg_common_4",
+      "string_no": 703011,
+      "string_content_no": 703012,
+      "gimmick_type1": 1,
+      "gimmick_value1": 7391
+    },
+    {
+      "no": 46,
+      "season_no": 3,
+      "raid_no": 19,
+      "level": 100,
+      "icon_path": "srg_nyah_3",
+      "string_no": 703911,
+      "string_content_no": 703921,
+      "gimmick_type1": 1,
+      "gimmick_value1": 7392,
+      "gimmick_type2": 1,
+      "gimmick_value2": 7393
+    },
+    {
+      "no": 47,
+      "season_no": 3,
+      "raid_no": 19,
+      "level": 501,
+      "icon_path": "srg_nyah_4",
+      "string_no": 703912,
+      "string_content_no": 703922,
+      "gimmick_type1": 1,
+      "gimmick_value1": 7394,
+      "gimmick_type2": 1,
+      "gimmick_value2": 7395
     }
   ]
 }

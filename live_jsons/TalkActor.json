@@ -2653,7 +2653,7 @@
       "prefab_path": "Hanul",
       "portrait512_path": "UI/Textures/Souls/Hanul/Hanul_512",
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128",
-      "costume_path": "Hanul",
+      "costume_path": "",
       "controller_path": "",
       "portrait_reverse": 1,
       "position_scale": 1.0
@@ -10314,7 +10314,7 @@
     },
     {
       "no": 9729,
-      "name_sno": 250626,
+      "name_sno": 250696,
       "prefab_path": "",
       "portrait512_path": "UI/Textures/Etc/NPC_UnknownGirl_512",
       "portrait128_path": "",
@@ -10324,9 +10324,9 @@
     },
     {
       "no": 9730,
-      "name_sno": 250683,
+      "name_sno": 250697,
       "prefab_path": "",
-      "portrait512_path": "UI/Textures/Etc/NPC_UnknownMan2",
+      "portrait512_path": "UI/Textures/Etc/NPC_UnknownWoman_512",
       "portrait128_path": "",
       "costume_path": "",
       "controller_path": "",
@@ -10381,6 +10381,72 @@
       "costume_path": "",
       "controller_path": "",
       "position_scale": 1.0
+    },
+    {
+      "no": 9736,
+      "name_sno": 250689,
+      "prefab_path": "",
+      "portrait512_path": "UI/Textures/Etc/NPC_UnknownStudent2_512",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9737,
+      "name_sno": 250690,
+      "prefab_path": "",
+      "portrait512_path": "UI/Textures/Etc/NPC_UnknownGaonMan2B",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9738,
+      "name_sno": 250691,
+      "prefab_path": "",
+      "portrait512_path": "UI/Textures/Etc/NPC_UnknownMan2",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9739,
+      "name_sno": 250693,
+      "prefab_path": "",
+      "portrait512_path": "UI/Textures/Etc/NPC_UnknownBoy_512",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": ""
+    },
+    {
+      "no": 9740,
+      "name_sno": 250694,
+      "prefab_path": "",
+      "portrait512_path": "UI/Textures/Etc/NPC_UnknownWoman2_512",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": ""
+    },
+    {
+      "no": 9741,
+      "name_sno": 250695,
+      "prefab_path": "",
+      "portrait512_path": "UI/Textures/Etc/NPC_UnknownMan3_512",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": ""
+    },
+    {
+      "no": 9742,
+      "name_sno": 250698,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": ""
     },
     {
       "no": 9950,
@@ -10504,6 +10570,17 @@
     {
       "no": 9971,
       "name_sno": 306010,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
+      "no": 9972,
+      "name_sno": 250692,
       "prefab_path": "",
       "portrait512_path": "",
       "portrait128_path": "",

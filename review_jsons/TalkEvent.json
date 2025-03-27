@@ -983,6 +983,36 @@
       "hero_no": "[2160,2020]",
       "distance": 50,
       "ratio": 30
+    },
+    {
+      "no": 165,
+      "hero_no": "[2020,5040]",
+      "distance": 50,
+      "ratio": 30
+    },
+    {
+      "no": 166,
+      "hero_no": "[1040,5040]",
+      "distance": 50,
+      "ratio": 30
+    },
+    {
+      "no": 167,
+      "hero_no": "[4120,5040]",
+      "distance": 50,
+      "ratio": 30
+    },
+    {
+      "no": 168,
+      "hero_no": "[5040,4140]",
+      "distance": 50,
+      "ratio": 30
+    },
+    {
+      "no": 169,
+      "hero_no": "[5040,3070]",
+      "distance": 50,
+      "ratio": 30
     }
   ]
 }

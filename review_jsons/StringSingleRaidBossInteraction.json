@@ -799,13 +799,15 @@
     {
       "no": 90031,
       "hero_no": 3040,
-      "sound_path": "",
+      "sound_path": "Talia_323110041",
+      "delay": 11.0,
       "talk_string": 323110041
     },
     {
       "no": 90032,
       "hero_no": 3040,
-      "sound_path": "",
+      "sound_path": "Talia_323110042",
+      "delay": 10.0,
       "talk_string": 323110042
     },
     {

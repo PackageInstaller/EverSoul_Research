@@ -13723,7 +13723,7 @@
     {
       "no": 27412,
       "kr": "명중 <value>, 지속적으로 냉기 피해를 입으며 피격 시 마나가 회복되지 않는다.",
-      "en": "Accuracy <value>. Deals Freeze DoT and disables Mana Recovery upon being hit.",
+      "en": "Accuracy <value>%. Deals Freeze DoT and disables Mana Recovery upon being hit.",
       "ja": "",
       "zh_tw": "命中<value>，持續受到寒氣傷害，被擊中時不會恢復魔力",
       "zh_cn": ""
@@ -14051,17 +14051,17 @@
     {
       "no": 27453,
       "kr": "화사",
-      "en": "Work in Progress",
+      "en": "Floral Burn",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "落焰",
       "zh_cn": ""
     },
     {
       "no": 27454,
       "kr": "피안화의 꽃잎이 모두 진 상태, 매 초마다 피해를 입는다.",
-      "en": "Work in Progress",
+      "en": "All the petals of the Nirvana Flower have fallen off. Receives damage every second.",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "彼岸花花瓣全數凋零後，每秒受到傷害",
       "zh_cn": ""
     },
     {
@@ -14082,6 +14082,390 @@
     },
     {
       "no": 27457,
+      "kr": "노을",
+      "en": "Twilight",
+      "ja": "",
+      "zh_tw": "餘暉",
+      "zh_cn": ""
+    },
+    {
+      "no": 27458,
+      "kr": "<노을가름> 사용 시 마나를 회복한다.",
+      "en": "Using \"Twilight Cleave\" restores Mana.",
+      "ja": "",
+      "zh_tw": "使用＜劃破餘暉＞時，恢復魔力",
+      "zh_cn": ""
+    },
+    {
+      "no": 27459,
+      "kr": "헤살",
+      "en": "Shenanigans",
+      "ja": "",
+      "zh_tw": "干擾",
+      "zh_cn": ""
+    },
+    {
+      "no": 27460,
+      "kr": "대상이 한울을 우선적으로 공격하며, 공격이 빗나간다.",
+      "en": "The target prioritizes attacking Hanul, but the attacks miss.",
+      "ja": "",
+      "zh_tw": "目標優先攻擊韓羽，且攻擊失準",
+      "zh_cn": ""
+    },
+    {
+      "no": 27461,
+      "kr": "마음다짐",
+      "en": "Mind Renewal",
+      "ja": "",
+      "zh_tw": "決心",
+      "zh_cn": ""
+    },
+    {
+      "no": 27462,
+      "kr": "체력이 다 할 경우 자신에게 무적을 부여하고 회복한다.",
+      "en": "When HP reaches zero, she gains Invulnerable and recovers HP and Mana.",
+      "ja": "",
+      "zh_tw": "體力快耗盡時，賦予自身無敵並恢復",
+      "zh_cn": ""
+    },
+    {
+      "no": 27463,
+      "kr": "가수알바람",
+      "en": "Zephyr",
+      "ja": "",
+      "zh_tw": "西風",
+      "zh_cn": ""
+    },
+    {
+      "no": 27464,
+      "kr": "중첩 수 만큼 공격력 <value>%, 치명타 확률 <value>%",
+      "en": "ATK <value>% and Crit Rate <value>% per stack",
+      "ja": "",
+      "zh_tw": "按照疊加數攻擊力<value>%、暴擊率<value>%",
+      "zh_cn": ""
+    },
+    {
+      "no": 27465,
+      "kr": "은가비",
+      "en": "Subtle Shimmer",
+      "ja": "",
+      "zh_tw": "韜光養晦",
+      "zh_cn": ""
+    },
+    {
+      "no": 27466,
+      "kr": "매 2초마다 체력 및 마나 회복",
+      "en": "HP and Mana Recovery every 2 sec",
+      "ja": "",
+      "zh_tw": "每2秒恢復體力與魔力",
+      "zh_cn": ""
+    },
+    {
+      "no": 27467,
+      "kr": "축복의 성배",
+      "en": "Blessed Holy Grail",
+      "ja": "",
+      "zh_tw": "祝福的聖杯",
+      "zh_cn": ""
+    },
+    {
+      "no": 27468,
+      "kr": "중첩 당 공격력 <value>%",
+      "en": "ATK <value>% per stack",
+      "ja": "",
+      "zh_tw": "每疊加攻擊力<value>%",
+      "zh_cn": ""
+    },
+    {
+      "no": 27469,
+      "kr": "저주의 깃털",
+      "en": "Feather of Curses",
+      "ja": "",
+      "zh_tw": "詛咒的羽毛",
+      "zh_cn": ""
+    },
+    {
+      "no": 27470,
+      "kr": "받는 최종 피해 증폭 <value>%",
+      "en": "Total damage received amplification <value>%",
+      "ja": "",
+      "zh_tw": "所受最終傷害增幅<value>%",
+      "zh_cn": ""
+    },
+    {
+      "no": 27471,
+      "kr": "완고한 힘의 네클리스",
+      "en": "Necklace of Unyielding Strength",
+      "ja": "",
+      "zh_tw": "頑固力量的項鍊",
+      "zh_cn": ""
+    },
+    {
+      "no": 27472,
+      "kr": "공격력 <value>%",
+      "en": "ATK <value>%",
+      "ja": "",
+      "zh_tw": "攻擊力<value>%",
+      "zh_cn": ""
+    },
+    {
+      "no": 27473,
+      "kr": "곰의 건틀렛",
+      "en": "Gauntlet of the Bear",
+      "ja": "",
+      "zh_tw": "熊的金屬手套",
+      "zh_cn": ""
+    },
+    {
+      "no": 27474,
+      "kr": "가하는 피해량 <value>%",
+      "en": "Damage dealt <value>%",
+      "ja": "",
+      "zh_tw": "造成傷害量<value>%",
+      "zh_cn": ""
+    },
+    {
+      "no": 27475,
+      "kr": "단절의 손길",
+      "en": "Severing Touch",
+      "ja": "",
+      "zh_tw": "阻斷之手",
+      "zh_cn": ""
+    },
+    {
+      "no": 27476,
+      "kr": "영구적인 침묵 상태, 공격력 <value>%, 가하는 피해량 <value>%",
+      "en": "Permanently silenced. ATK <value>% and damage dealt <value>%",
+      "ja": "",
+      "zh_tw": "永久陷入沉默狀態，攻擊力<value>%，造成傷害量<value>%",
+      "zh_cn": ""
+    },
+    {
+      "no": 27477,
+      "kr": "수면 마취",
+      "en": "Sedation",
+      "ja": "",
+      "zh_tw": "睡眠麻醉",
+      "zh_cn": ""
+    },
+    {
+      "no": 27478,
+      "kr": "나이아의 수면 효과 스킬이 그로기 게이지를 감소시킨다.",
+      "en": "Naiah's Sleep-inflicting skills decrease Daze Gauge.",
+      "ja": "",
+      "zh_tw": "娜伊雅的睡眠效果技能使無力計量條減少",
+      "zh_cn": ""
+    },
+    {
+      "no": 27479,
+      "kr": "덧씌우기",
+      "en": "Overlay",
+      "ja": "",
+      "zh_tw": "落井下石",
+      "zh_cn": ""
+    },
+    {
+      "no": 27480,
+      "kr": "나이아의 모든 공격이 추가 피해와 함께 받는 피해를 증폭시킨다.",
+      "en": "All of Naiah's attacks deal additional damage and amplify total damage received.",
+      "ja": "",
+      "zh_tw": "娜伊雅的所有攻擊造成額外傷害，並使所受傷害增幅",
+      "zh_cn": ""
+    },
+    {
+      "no": 27481,
+      "kr": "중첩 당 받는 피해 증폭 <value>%",
+      "en": "Total damage received amplification <value>% per stack",
+      "ja": "",
+      "zh_tw": "每疊加所受傷害增幅<value>%",
+      "zh_cn": ""
+    },
+    {
+      "no": 27482,
+      "kr": "포기를 모르는 연금술사",
+      "en": "Unyielding Alchemist",
+      "ja": "",
+      "zh_tw": "鍥而不捨的鍊金術師",
+      "zh_cn": ""
+    },
+    {
+      "no": 27483,
+      "kr": "흉몽에 뒤덮힌 세계에서 그녀의 연금술은 커다란 희망이 되었다.",
+      "en": "In a world consumed by an ominous dream, her alchemy became a powerful light of hope.",
+      "ja": "",
+      "zh_tw": "被凶夢籠罩的世界裡，她的鍊金術成了莫大的希望。",
+      "zh_cn": ""
+    },
+    {
+      "no": 27484,
+      "kr": "완벽한 물질",
+      "en": "Perfect Substance",
+      "ja": "",
+      "zh_tw": "完美物質",
+      "zh_cn": ""
+    },
+    {
+      "no": 27485,
+      "kr": "에리카의 <아르스 마그나>가 모든 아군의 스트레스를 완전히 제거한다.",
+      "en": "Erika's \"Ars Magna\" removes all stress from all allies.",
+      "ja": "",
+      "zh_tw": "艾麗卡的＜黃金煉成＞徹底解除所有友軍的壓力",
+      "zh_cn": ""
+    },
+    {
+      "no": 27486,
+      "kr": "대 나비 특제 화학 포션",
+      "en": "Specialized Anti-Butterly Potion",
+      "ja": "",
+      "zh_tw": "蝴蝶專用特製化學藥水",
+      "zh_cn": ""
+    },
+    {
+      "no": 27487,
+      "kr": "에리카의 <포이즌 포션>이 화상 피해를 입히고, 그로기 게이지를 감소시킨다.",
+      "en": "Erika's \"Poisonous Potion\" deals Burn damage and decreases Daze Gauge.",
+      "ja": "",
+      "zh_tw": "艾麗卡的＜毒藥＞造成燒傷傷害，使無力計量條減少",
+      "zh_cn": ""
+    },
+    {
+      "no": 27488,
+      "kr": "전파되는 발상",
+      "en": "Contagious Insight",
+      "ja": "",
+      "zh_tw": "散播的靈感",
+      "zh_cn": ""
+    },
+    {
+      "no": 27489,
+      "kr": "에리카의 <유레카!>는 항상 천재적인 발상을 일으킨다.",
+      "en": "Erika's \"Eureka!\" is guaranteed to trigger a brilliant idea.",
+      "ja": "",
+      "zh_tw": "艾麗卡的＜我發現了！＞總是激盪出神來之筆的想法",
+      "zh_cn": ""
+    },
+    {
+      "no": 27490,
+      "kr": "다함께 유레카!!!",
+      "en": "Everybody, Eureka!!!",
+      "ja": "",
+      "zh_tw": "大家一起發現了！！！",
+      "zh_cn": ""
+    },
+    {
+      "no": 27491,
+      "kr": "공격력 <value>%, 가하는 피해량 <value>%",
+      "en": "ATK <value>% and damage dealt <value>%",
+      "ja": "",
+      "zh_tw": "攻擊力<value>%、造成傷害量<value>%",
+      "zh_cn": ""
+    },
+    {
+      "no": 27492,
+      "kr": "적응형 보호막",
+      "en": "Adaptive Shield",
+      "ja": "",
+      "zh_tw": "適應型防護罩",
+      "zh_cn": ""
+    },
+    {
+      "no": 27493,
+      "kr": "보호막이 해제되면 대상이 전투 불능이 된다.",
+      "en": "The target becomes incapacitated upon shield loss.",
+      "ja": "",
+      "zh_tw": "若防護罩解除，目標陷入無法戰鬥",
+      "zh_cn": ""
+    },
+    {
+      "no": 27494,
+      "kr": "거미 독",
+      "en": "Spider Venom",
+      "ja": "",
+      "zh_tw": "蜘蛛毒",
+      "zh_cn": ""
+    },
+    {
+      "no": 27495,
+      "kr": "영구적으로 중독된 상태, 중첩될 수록 위험해진다.",
+      "en": "Permanently poisoned. Grows deadlier with each stack.",
+      "ja": "",
+      "zh_tw": "永久中毒的狀態，越是疊加就越危險",
+      "zh_cn": ""
+    },
+    {
+      "no": 27496,
+      "kr": "압도적인 힘으로",
+      "en": "Power Overwhelming",
+      "ja": "圧倒的な力で",
+      "zh_tw": "以絕對的力量",
+      "zh_cn": ""
+    },
+    {
+      "no": 27497,
+      "kr": "고도로 강화된 물리력은 마법과 구분할 수 없다.",
+      "en": "When physical strength is pushed to its limits, it's no different from magic.",
+      "ja": "高度に強化された物理力は魔法と区別がつかない。",
+      "zh_tw": "高度強化的物理力與魔法不相上下。",
+      "zh_cn": ""
+    },
+    {
+      "no": 27498,
+      "kr": "Work in Progress",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27499,
+      "kr": "Work in Progress",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27500,
+      "kr": "Work in Progress",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27501,
+      "kr": "Work in Progress",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27502,
+      "kr": "Work in Progress",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27503,
+      "kr": "Work in Progress",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27504,
+      "kr": "Work in Progress",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27505,
       "kr": "Work in Progress",
       "en": "Work in Progress",
       "ja": "",
@@ -16182,6 +16566,54 @@
       "en": "Speed of all enemies +25%",
       "ja": "敵全員の加速が25%増加",
       "zh_tw": "所有敵軍加速增加25%",
+      "zh_cn": ""
+    },
+    {
+      "no": 40381,
+      "kr": "해방의 시작",
+      "en": "Beginning of Liberation",
+      "ja": "",
+      "zh_tw": "解放的開始",
+      "zh_cn": ""
+    },
+    {
+      "no": 40382,
+      "kr": "적 전체 정령 등급 레전더리+ 로 변경",
+      "en": "All enemy Souls are Legendary+",
+      "ja": "",
+      "zh_tw": "所有敵軍精靈階級變更為傳說＋",
+      "zh_cn": ""
+    },
+    {
+      "no": 40383,
+      "kr": "차오르는 해방감",
+      "en": "Surging Sense of Liberation",
+      "ja": "",
+      "zh_tw": "解放感爆發",
+      "zh_cn": ""
+    },
+    {
+      "no": 40384,
+      "kr": "적 전체 정령 등급 이터널+ 로 변경",
+      "en": "All enemy Souls are Eternal+",
+      "ja": "",
+      "zh_tw": "所有敵軍精靈階級變更為永恆＋",
+      "zh_cn": ""
+    },
+    {
+      "no": 40385,
+      "kr": "완전한 해방",
+      "en": "Complete Liberation",
+      "ja": "",
+      "zh_tw": "徹底解放",
+      "zh_cn": ""
+    },
+    {
+      "no": 40386,
+      "kr": "적 전체 정령 등급 오리진+5 등급으로 변경",
+      "en": "All enemy Souls are Origin+5",
+      "ja": "",
+      "zh_tw": "所有敵軍精靈階級變更為不朽+5",
       "zh_cn": ""
     },
     {
@@ -21180,7 +21612,7 @@
       "no": 234120,
       "kr": "아메노하바키리",
       "en": "Ame No Habakiri",
-      "ja": "",
+      "ja": "天羽々斬",
       "zh_tw": "天羽羽斬",
       "zh_cn": ""
     },
@@ -21188,7 +21620,7 @@
       "no": 234121,
       "kr": "빗장박기",
       "en": "Bar Tack",
-      "ja": "",
+      "ja": "閂止め",
       "zh_tw": "回針縫",
       "zh_cn": ""
     },
@@ -21196,7 +21628,7 @@
       "no": 234122,
       "kr": "<COLOR=#FFFFFF><우라가에시></COLOR> 상태에서 체력이 3% 미만인 적에게 피해를 입힐 시 적을 즉시 전투 불능으로 만드는 효과가 부여되고 전투 시작 시 <412021.DURATION>초 동안 자신의 공격력과 치명타 위력이 <412021.VALUE> 증가한다. 적이 전투 불능이 되면 해당 효과가 다시 발생한다.",
       "en": "Adds an effect which instantly incapacitates enemies when hitting an enemy with less than 3% HP when <COLOR=#FFFFFF>Inverted Weave</COLOR> is active, and increases her ATK and Crit DMG by <412021.VALUE> for <412021.DURATION> seconds when battle begins. This effect applies again if the enemy becomes incapacitated.",
-      "ja": "",
+      "ja": "<COLOR=#FFFFFF><裏返し></COLOR>状態で体力が3%未満の敵にダメージを与えると、敵をすぐに戦闘不能にする効果が付与され、戦闘開始時、<412021.DURATION>秒間、自身の攻撃力とクリティカル威力が<412021.VALUE>増加する。敵が戦闘不能になると、この効果は再び発生する。",
       "zh_tw": "在<COLOR=#FFFFFF>＜內外翻轉＞</COLOR>狀態下，對體力未滿3%的敵人造成傷害時，賦予立即使敵人處於無法戰鬥的效果。戰鬥開始後<412021.DURATION>秒期間，使自身攻擊力與暴擊威力增加<412021.VALUE>，敵人無法戰鬥時，會重新發動該效果",
       "zh_cn": ""
     },
@@ -21204,7 +21636,7 @@
       "no": 234123,
       "kr": "증가하는 공격력과 치명타 위력이 <412031.VALUE>로 변경된다.",
       "en": "ATK and Crit DMG increase changes to <412031.VALUE>.",
-      "ja": "",
+      "ja": "増加する攻撃力とクリティカル威力が<412031.VALUE>に変更される。",
       "zh_tw": "變更為攻擊力及暴擊威力增加<412031.VALUE>",
       "zh_cn": ""
     },
@@ -21212,7 +21644,7 @@
       "no": 234124,
       "kr": "증가하는 공격력과 치명타 위력이 <412041.VALUE>로 변경된다.",
       "en": "ATK and Crit DMG increase changes to <412041.VALUE>.",
-      "ja": "",
+      "ja": "増加する攻撃力とクリティカル威力が<412041.VALUE>に変更される。",
       "zh_tw": "變更為攻擊力及暴擊威力增加<412041.VALUE>",
       "zh_cn": ""
     },
@@ -21220,7 +21652,7 @@
       "no": 234125,
       "kr": "증가하는 공격력과 치명타 위력이 <412051.VALUE>로 변경된다. 추가로 지속 시간 동안 가속이 <412054.VALUE> 증가한다.",
       "en": "ATK and Crit DMG increase changes to <412051.VALUE>. Also, Speed increases by <412054.VALUE> for the same duration.",
-      "ja": "",
+      "ja": "増加する攻撃力とクリティカル威力が<412051.VALUE>に変更される。さらに、持続時間の間、加速が<412054.VALUE>増加する。",
       "zh_tw": "變更為攻擊力及暴擊威力增加<412051.VALUE>，在持續期間額外使加速增加<412054.VALUE>",
       "zh_cn": ""
     },
@@ -21228,7 +21660,7 @@
       "no": 234126,
       "kr": "증가하는 공격력과 치명타 위력이 <412061.VALUE>로 변경된다.",
       "en": "ATK and Crit DMG increase changes to <412061.VALUE>.",
-      "ja": "",
+      "ja": "増加する攻撃力とクリティカル威力が<412061.VALUE>に変更される。",
       "zh_tw": "變更為攻擊力及暴擊威力增加<412061.VALUE>",
       "zh_cn": ""
     },
@@ -21236,7 +21668,7 @@
       "no": 234127,
       "kr": "증가하는 공격력과 치명타 위력이 <412071.VALUE>로 변경된다.",
       "en": "ATK and Crit DMG increase changes to <412071.VALUE>.",
-      "ja": "",
+      "ja": "増加する攻撃力とクリティカル威力が<412071.VALUE>に変更される。",
       "zh_tw": "變更為攻擊力及暴擊威力增加<412071.VALUE>",
       "zh_cn": ""
     },
@@ -21244,7 +21676,7 @@
       "no": 234128,
       "kr": "증가하는 공격력과 치명타 위력이 <412081.VALUE>로 변경된다. 추가로 지속 시간 동안 가속이 <412084.VALUE> 증가한다.",
       "en": "ATK and Crit DMG increase changes to <412081.VALUE>. Also, Speed increases by <412084.VALUE> for the same duration.",
-      "ja": "",
+      "ja": "増加する攻撃力とクリティカル威力が<412081.VALUE>に変更される。さらに、持続時間の間、加速が<412084.VALUE>増加する。",
       "zh_tw": "變更為攻擊力及暴擊威力增加<412081.VALUE>，在持續期間額外使加速增加<412084.VALUE>",
       "zh_cn": ""
     },
@@ -21252,7 +21684,7 @@
       "no": 234129,
       "kr": "폭풍과 무예의 신 스사노오가 거대한 뱀, 야마타노 오로치를 퇴치할 때 사용했다고 전해지는 검.\r\n야마타노 오로치를 베어냄과 동시에, 뱀 안에 품고 있던 검과 부딪혀 칼날이 부러졌다고 한다.",
       "en": "According to lore, this is the sword used by Susanoo, the god of storms and martial arts, to defeat the colossal serpent, Yamata no Orochi.\r\nThe blade is believed to have shattered upon striking down the serpent, clashing with another sword concealed within the creature's body.",
-      "ja": "",
+      "ja": "嵐と武芸の神・スサノオが巨大な蛇・ヤマタノオロチを討伐するときに使用したという剣。\r\nヤマタノオロチを斬ると同時に蛇の中の剣とぶつかり、刃が折れたという。",
       "zh_tw": "據傳是風暴與武藝之神素戔嗚尊斬殺巨蛇——八岐大蛇時使用的劍。\r\n斬殺八岐大蛇時和蛇體內的劍碰撞，導致劍刃斷裂。",
       "zh_cn": ""
     },
@@ -21734,6 +22166,86 @@
       "en": "The Fifth Trumpet announces the end of the world.\r\r\nThe moment the sound of the trumpet roars, stars will fall to the grounds of the earth, and chasms will open up and swallow the world with darkness.",
       "ja": "世界の終わりを告げる第五のラッパ。\r\nラッパが鳴る瞬間、世界には星が落ち、アバドンが開き、その中の闇が世界を侵食するだろう。",
       "zh_tw": "宣告世界末日的第五支號角。\r\r\n號角響起的瞬間，世上的星星會墜落，開啟無底深淵，裡頭的黑暗將侵蝕世界。",
+      "zh_cn": ""
+    },
+    {
+      "no": 235040,
+      "kr": "천부인의 검",
+      "en": "Divine Sword of the Three Heavenly Seals",
+      "ja": "",
+      "zh_tw": "天符印之劍",
+      "zh_cn": ""
+    },
+    {
+      "no": 235041,
+      "kr": "가수알바람",
+      "en": "Zephyr",
+      "ja": "",
+      "zh_tw": "西風",
+      "zh_cn": ""
+    },
+    {
+      "no": 235042,
+      "kr": "전투 시작 시 한울을 포함한 파티원들의 타입 종류 수 만큼 모든 아군의 공격력 및 치명타 확률을 <504811.VALUE> 증가시킨다. 만약 서로 다른 타입이 4종류 이상이라면 받는 최종 피해량이 <504813.VALUE> 감소한다.",
+      "en": "When battle begins, all allies' ATK and Crit Rate are increased by <504811.VALUE> for every Soul type present in the party, including Hanul's. If 4 or more types are present, their total damage received decreases by <504813.VALUE>.",
+      "ja": "",
+      "zh_tw": "戰鬥開始時，根據包括韓羽在內的隊員類型種類數量，使所有友軍的攻擊力與暴擊率增加<504811.VALUE>。若有4種以上不同的類型，所受最終傷害量減少<504813.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 235043,
+      "kr": "공격력 및 치명타 확률 증가량이 <504821.VALUE>로 변경된다.",
+      "en": "ATK and Crit Rate increase changes to <504821.VALUE>.",
+      "ja": "",
+      "zh_tw": "攻擊力與暴擊率增加量變更為<504821.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 235044,
+      "kr": "공격력 및 치명타 확률 증가량이 <504831.VALUE>로 변경된다.",
+      "en": "ATK and Crit Rate increase changes to <504831.VALUE>.",
+      "ja": "",
+      "zh_tw": "攻擊力與暴擊率增加量變更為<504831.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 235045,
+      "kr": "공격력 및 치명타 확률 증가량이 <504841.VALUE>로 변경된다. 서로 다른 타입이 4종류 이상이라면 받는 최종 피해량이 <504843.VALUE> 감소한다.",
+      "en": "ATK and Crit Rate increase changes to <504841.VALUE>. If 4 or more types are present, her total damage received decreases by <504843.VALUE>.",
+      "ja": "",
+      "zh_tw": "攻擊力與暴擊率增加量變更為<504841.VALUE>。若有4種以上不同的類型，所受最終傷害量減少<504843.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 235046,
+      "kr": "공격력 및 치명타 확률 증가량이 <504851.VALUE>로 변경된다.",
+      "en": "ATK and Crit Rate increase changes to <504851.VALUE>.",
+      "ja": "",
+      "zh_tw": "攻擊力與暴擊率增加量變更為<504851.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 235047,
+      "kr": "공격력 및 치명타 확률 증가량이 <504861.VALUE>로 변경된다.",
+      "en": "ATK and Crit Rate increase changes to <504861.VALUE>.",
+      "ja": "",
+      "zh_tw": "攻擊力與暴擊率增加量變更為<504861.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 235048,
+      "kr": "공격력 및 치명타 확률 증가량이 <504871.VALUE>로 변경된다. 받는 피해가 감소하는 조건이 서로 다른 타입이 3종류 이상일 때로 변경된다.",
+      "en": "ATK and Crit Rate increase changes to <504871.VALUE>. The total damage received decrease triggers when 3 or more types are present.",
+      "ja": "",
+      "zh_tw": "攻擊力與暴擊率增加量變更為<504871.VALUE>。所受傷害減少的條件改為有3種以上不同的類型時。",
+      "zh_cn": ""
+    },
+    {
+      "no": 235049,
+      "kr": "하늘의 신이 인간 세상을 다스리러 가는 자신의 아들에게 선물한 검. \r\n이 검을 선물받은 영웅은 슬기롭게 인간 세상을 다스렸다고 한다.",
+      "en": "This sword was a gift from the god of the heavens to his son as he set out to govern the world of humans.\r\nWith this sword in hand, the hero is said to have led his people with wisdom.",
+      "ja": "",
+      "zh_tw": "天神送給前往統治人間的兒子的劍。\r\n據說收到這把劍的英雄巧妙治理了人間。",
       "zh_cn": ""
     },
     {
@@ -25428,7 +25940,7 @@
       "no": 344121,
       "kr": "정밀재단",
       "en": "Precision Tailoring",
-      "ja": "",
+      "ja": "精密な裁断",
       "zh_tw": "精準剪裁",
       "zh_cn": ""
     },
@@ -25436,7 +25948,7 @@
       "no": 344122,
       "kr": "교차수정",
       "en": "Cross Stitch",
-      "ja": "",
+      "ja": "交差修正",
       "zh_tw": "交錯修剪",
       "zh_cn": ""
     },
@@ -25444,7 +25956,7 @@
       "no": 344123,
       "kr": "가위집내기",
       "en": "Close Clipping",
-      "ja": "",
+      "ja": "チョキチョキノッチ",
       "zh_tw": "鍊鋸縫份",
       "zh_cn": ""
     },
@@ -25452,7 +25964,7 @@
       "no": 344124,
       "kr": "속감침",
       "en": "Blind Stitch",
-      "ja": "",
+      "ja": "まつり縫い",
       "zh_tw": "藏針縫",
       "zh_cn": ""
     },
@@ -25460,7 +25972,7 @@
       "no": 344125,
       "kr": "끝손질",
       "en": "Edge Finishing",
-      "ja": "",
+      "ja": "仕上げ",
       "zh_tw": "收尾工作",
       "zh_cn": ""
     },
@@ -25468,7 +25980,7 @@
       "no": 344129,
       "kr": "가윗집 내기",
       "en": "Seam Snip",
-      "ja": "",
+      "ja": "チョキチョキノッチ",
       "zh_tw": "留下剪刀痕",
       "zh_cn": ""
     },
@@ -25774,6 +26286,54 @@
       "en": "Holy Blessing",
       "ja": "聖なる祝福",
       "zh_tw": "聖潔的祝福",
+      "zh_cn": ""
+    },
+    {
+      "no": 345041,
+      "kr": "노을가름",
+      "en": "Twilight Cleave",
+      "ja": "",
+      "zh_tw": "劃破餘暉",
+      "zh_cn": ""
+    },
+    {
+      "no": 345042,
+      "kr": "성난너울",
+      "en": "Raging Waves",
+      "ja": "",
+      "zh_tw": "狂怒駭浪",
+      "zh_cn": ""
+    },
+    {
+      "no": 345043,
+      "kr": "겹가람",
+      "en": "Double River",
+      "ja": "",
+      "zh_tw": "萬重奔流",
+      "zh_cn": ""
+    },
+    {
+      "no": 345044,
+      "kr": "마음다짐",
+      "en": "Mind Renewal",
+      "ja": "",
+      "zh_tw": "決心",
+      "zh_cn": ""
+    },
+    {
+      "no": 345045,
+      "kr": "가온나래",
+      "en": "Gaon's Wings",
+      "ja": "",
+      "zh_tw": "加溫羽翼",
+      "zh_cn": ""
+    },
+    {
+      "no": 345049,
+      "kr": "은가비",
+      "en": "Subtle Shimmer",
+      "ja": "",
+      "zh_tw": "韜光養晦",
       "zh_cn": ""
     },
     {
@@ -26650,8 +27210,8 @@
     },
     {
       "no": 349026,
-      "kr": "초신속 마나",
-      "en": "Ultraswift Mana",
+      "kr": "초 신속 마나",
+      "en": "Ultra Swift Mana",
       "ja": "",
       "zh_tw": "超迅速魔力",
       "zh_cn": ""
@@ -26860,7 +27420,7 @@
       "no": 349055,
       "kr": "단 하나의 적",
       "en": "Single Enemy",
-      "ja": "",
+      "ja": "敵はただ一つ",
       "zh_tw": "唯一敵人",
       "zh_cn": ""
     },
@@ -26868,7 +27428,7 @@
       "no": 349056,
       "kr": "강철을 뚫어낼 각오",
       "en": "Steel-Piercing Determination",
-      "ja": "",
+      "ja": "鋼をも突き通す覚悟",
       "zh_tw": "鑿穿鋼鐵的覺悟",
       "zh_cn": ""
     },
@@ -26876,7 +27436,7 @@
       "no": 349057,
       "kr": "천사같은 영물",
       "en": "Angelic Mythic Creature",
-      "ja": "",
+      "ja": "天使のような霊物",
       "zh_tw": "天使般的靈物",
       "zh_cn": ""
     },
@@ -26884,7 +27444,7 @@
       "no": 349058,
       "kr": "천상의 정화",
       "en": "Celestial Purification",
-      "ja": "",
+      "ja": "天上の浄化",
       "zh_tw": "天之淨化",
       "zh_cn": ""
     },
@@ -26902,6 +27462,46 @@
       "en": "Oppression",
       "ja": "",
       "zh_tw": "壓迫",
+      "zh_cn": ""
+    },
+    {
+      "no": 349061,
+      "kr": "불사 연합군",
+      "en": "Undead Alliance",
+      "ja": "不死連合軍",
+      "zh_tw": "不死聯軍",
+      "zh_cn": ""
+    },
+    {
+      "no": 349062,
+      "kr": "신속한 암살",
+      "en": "Swift Assassination",
+      "ja": "迅速な暗殺",
+      "zh_tw": "神速暗殺",
+      "zh_cn": ""
+    },
+    {
+      "no": 349063,
+      "kr": "천사 연합군",
+      "en": "Angel Alliance",
+      "ja": "天使連合軍",
+      "zh_tw": "天使聯軍",
+      "zh_cn": ""
+    },
+    {
+      "no": 349064,
+      "kr": "목격자만 없다면 암살이지",
+      "en": "Assassination Without Witnesses",
+      "ja": "",
+      "zh_tw": "沒有目擊證人就是暗殺",
+      "zh_cn": ""
+    },
+    {
+      "no": 349065,
+      "kr": "융단 폭격",
+      "en": "Carpet Bombing",
+      "ja": "",
+      "zh_tw": "地毯式轟炸",
       "zh_cn": ""
     },
     {
@@ -29075,7 +29675,7 @@
     {
       "no": 352163,
       "kr": "가장 가까운 적을 대상으로 돌진하여 대상을 꿰뚫고 지나가며 공격력 <216311.VALUE>의 피해를 입히고, 그 후 회전하여 후속 공격으로 자신의 주변 3m의 모든 적에게 공격력 <216313.VALUE>의 피해를 입히며 자신에게 <216314.DURATION>초 동안 받는 최종 피해를 <216314.VALUE> 감소시키는 효과를 부여한다. 후속 공격에 맞은 적은 <216315.DURATION>초 동안 2초마다 공격력 <216315.VALUE>의 피해를 입으며, 명중이 <216317.VALUE> 감소하고, 피격 시 마나 회복이 되지 않는 <COLOR=#FFFFFF><혹한></COLOR> 상태가 부여된다. 해당 상태는 <COLOR=#FFFFFF><냉기></COLOR>로 취급한다.",
-      "en": "Charges at the nearest enemy, piercing through them to deal damage equal to <216311.VALUE> of ATK, then follows up with a spin attack, dealing damage equal to <216313.VALUE> of ATK to all enemies within 3m while gaining a buff that decreases total damage received by <216314.VALUE> for <216314.DURATION> sec. The follow-up attack inflicts <COLOR=#FFFFFF>\"Harsh Cold\"</COLOR> on hit targets, dealing DoT equal to <216315.VALUE> of ATK every 2 sec, decreasing Accuracy by <216317.VALUE>, and prevents mana recovery from being triggered by hits for <216315.DURATION> sec. This debuff is considered the same as <COLOR=#FFFFFF>\"Freeze.\"</COLOR>",
+      "en": "Charges at the nearest enemy, piercing through them to deal damage equal to <216311.VALUE> of ATK, then follows up with a spin attack, dealing damage equal to <216313.VALUE> of ATK to all enemies within 3m while gaining a buff that decreases total damage received by <216314.VALUE> for <216314.DURATION> sec. The follow-up attack inflicts <COLOR=#FFFFFF>\"Harsh Cold\"</COLOR> on hit targets, dealing DoT equal to <216315.VALUE> of ATK every 2 sec, decreasing Accuracy by <216317.VALUE>, and disabling Mana Recovery upon being hit for <216315.DURATION> sec. This debuff is considered the same as <COLOR=#FFFFFF>\"Freeze.\"</COLOR>",
       "ja": "",
       "zh_tw": "以最接近的敵人為目標突進，貫穿並掠過目標，造成攻擊力<216311.VALUE>的傷害後，迴轉進行後續攻擊，對自身周遭3m的所有敵人造成攻擊力<216313.VALUE>的傷害，賦予自身<216314.DURATION>秒內所受最終傷害減少<216314.VALUE>的效果。被後續攻擊擊中的敵人被賦予<COLOR=#FFFFFF>＜嚴寒＞</COLOR>狀態，<216315.DURATION>秒內每2秒受到攻擊力<216315.VALUE>的傷害，命中減少<216317.VALUE>，且受擊時不會恢復魔力。該狀態會被視為<COLOR=#FFFFFF>＜寒氣＞</COLOR>",
       "zh_cn": ""
@@ -29085,7 +29685,7 @@
       "kr": "기본적으로 자신의 최대 체력 <216412.VALUE>만큼의 공격을 흡수하는 <COLOR=#FFFFFF><재생 비늘></COLOR>을 보유하고 있으며 <COLOR=#FFFFFF><재생 비늘></COLOR>이 파괴될 경우 다시 <COLOR=#FFFFFF><재생 비늘></COLOR>이 생성된다. 또한 전장에 있는 동안 아군 전체가 받는 치명타 피해량이 <216418.VALUE> 감소한다.",
       "en": "Starts out with <COLOR=#FFFFFF>\"Regenerating Scales\"</COLOR> by default, which absorbs damage equal to <216412.VALUE> of max HP. If <COLOR=#FFFFFF>\"Regenerating Scales\"</COLOR> is destroyed, it is regenerated anew. Also, while she is on the battlefield, the Crit DMG received by all allies decreases by <216418.VALUE>.",
       "ja": "",
-      "zh_tw": "基本上持有<COLOR=#FFFFFF>＜再生龍鱗＞</COLOR>，吸收相當自身體力上限<216412.VALUE>的攻擊，若<COLOR=#FFFFFF>＜再生龍鱗＞</COLOR>遭到破壞，將再次生成<COLOR=#FFFFFF>＜再生龍鱗＞</COLOR>。另外，在戰場上的期間，所有友軍所受暴擊傷害量變更為<216418.VALUE>",
+      "zh_tw": "基本上持有<COLOR=#FFFFFF>＜再生龍鱗＞</COLOR>，吸收相當自身體力上限<216412.VALUE>的攻擊，若<COLOR=#FFFFFF>＜再生龍鱗＞</COLOR>遭到破壞，將再次生成<COLOR=#FFFFFF>＜再生龍鱗＞</COLOR>。另外，在戰場上的期間，所有友軍所受暴擊傷害量減少<216418.VALUE>",
       "zh_cn": ""
     },
     {
@@ -30388,7 +30988,7 @@
       "no": 354121,
       "kr": "재빠른 속도로 현재 체력 비율이 가장 낮은 적에게 다가가 대상을 무참히 난도질 하여 공격력 <412111.VALUE>의 피해를 입히고, 자신이 <COLOR=#FFFFFF><우라가에시></COLOR> 상태라면 공격력 <412112.VALUE>의 방어력을 무시하는 추가 피해를 입힌다.",
       "en": "Swiftly closes in on the enemy with the lowest HP, unleashing a savage assault that deals damage equal to <412111.VALUE> of ATK. Also deals additional damage that ignores DEF equal to <412112.VALUE> of ATK if <COLOR=#FFFFFF>\"Inverted Weave\"</COLOR> is active.",
-      "ja": "",
+      "ja": "素早いスピードで現在の体力の割合が一番低い敵に接近し無惨に斬りつけて、攻撃力の<412111.VALUE>のダメージを与える。自分が<COLOR=#FFFFFF><裏返し></COLOR>状態の場合、攻撃力の<412112.VALUE>の防御力を無視した追加ダメージを与える。",
       "zh_tw": "乙葉迅速靠近目前體力比例最低的敵人，殘忍地對目標亂刀揮舞，造成攻擊力<412111.VALUE>的傷害。若自身處於<COLOR=#FFFFFF>＜內外翻轉＞</COLOR>狀態時，無視防禦力，造成攻擊力<412112.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -30396,7 +30996,7 @@
       "no": 354122,
       "kr": "오토하가 톱날로 가장 가까운 적을 교차하여 베며 공격력 <412211.VALUE>의 피해를 입히고, <412213.DURATION>초 동안 회피를 <412213.VALUE> 감소시킨다. 자신이 <COLOR=#FFFFFF><우라가에시></COLOR> 상태라면 공격력 <412212.VALUE>의 방어력을 무시하는 추가 피해를 입힌다.",
       "en": "Otoha executes a crisscross slash on the nearest enemy with her saw blade, dealing damage equal to <412211.VALUE> of ATK and decreasing their Evasion by <412213.VALUE> for <412213.DURATION> seconds. Also deals additional damage that ignores DEF equal to <412212.VALUE> of ATK if <COLOR=#FFFFFF>\"Inverted Weave\"</COLOR> is active.",
-      "ja": "",
+      "ja": "オトハが鋸刃で一番近い敵を交差して斬り、攻撃力の<412211.VALUE>のダメージを与え、<412213.DURATION>秒間、回避を<412213.VALUE>減少させる。自分が<COLOR=#FFFFFF><裏返し></COLOR>状態の場合、攻撃力の<412212.VALUE>の防御力を無視した追加ダメージを与える。",
       "zh_tw": "乙葉用鋸齒交叉砍擊最接近的敵人，造成攻擊力<412211.VALUE>的傷害，並在<412213.DURATION>秒內使迴避減少<412213.VALUE>。若自身處於<COLOR=#FFFFFF>＜內外翻轉＞</COLOR>狀態，無視防禦力，造成攻擊力<412212.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -30404,7 +31004,7 @@
       "no": 354123,
       "kr": "오토하가 가장 가까운 적을 발로 차 넘어뜨린 뒤 쓰러진 상대에게 일격을 가해 공격력 <412311.VALUE>의 피해를 입히고, 자신이 <COLOR=#FFFFFF><우라가에시></COLOR> 상태라면 공격력 <412312.VALUE>의 방어력을 무시하는 추가 피해를 입힌다.",
       "en": "Otoha knocks down the nearest enemy with a kick, then delivers a crushing blow to the fallen target, dealing damage equal to <412311.VALUE> of ATK. Also deals additional damage that ignores DEF equal to <412312.VALUE> of ATK if <COLOR=#FFFFFF>\"Inverted Weave\"</COLOR> is active.",
-      "ja": "",
+      "ja": "オトハが一番近い敵を蹴って倒したあと、倒れた相手に一撃を与えて攻撃力の<412311.VALUE>のダメージを与える。自分が<COLOR=#FFFFFF><裏返し></COLOR>状態の場合、攻撃力の<412312.VALUE>の防御力を無視した追加ダメージを与える。",
       "zh_tw": "乙葉踹倒最接近的敵人後，對倒下的目標施以一擊，造成攻擊力<412311.VALUE>的傷害。自身處於<COLOR=#FFFFFF>＜內外翻轉＞</COLOR>狀態時，無視防禦力，造成攻擊力<412312.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -30412,7 +31012,7 @@
       "no": 354124,
       "kr": "오토하가 <COLOR=#FFFFFF><우라가에시></COLOR> 상태가 아니라면 일반 공격 혹은 서브 스킬을 사용할 때 마다 <COLOR=#FFFFFF><속감침></COLOR> 버프를 획득하며 해당 버프가 <COLOR=#FFFFFF>4</COLOR>중첩이 될 경우 모든 <COLOR=#FFFFFF><속감침></COLOR> 중첩을 제거하고 자신에게 <412003.DURATION>초 동안 <COLOR=#FFFFFF><우라가에시></COLOR> 상태를 부여한다. 해당 상태에서는 자신의 치명타 확률 및 물리/마법 저항이 <412412.VALUE> 증가하고 일반 공격이 공격력 <412101.VALUE>의 방어력을 무시한 피해를 입힌다. 만약 오토하가 전장에 있을 때 적이 전투 불능이 될 경우 즉시 <COLOR=#FFFFFF><우라가에시></COLOR> 상태로 돌입한다.",
       "en": "If <COLOR=#FFFFFF>\"Inverted Weave\"</COLOR> isn't active, Otoha gains a <COLOR=#FFFFFF>\"Blind Stitch\"</COLOR> buff for every normal attack or sub skill she performs. Upon reaching <COLOR=#FFFFFF>4</COLOR> stacks, all <COLOR=#FFFFFF>\"Blind Stitch\"</COLOR> stacks are removed, activating <COLOR=#FFFFFF>\"Inverted Weave\"</COLOR> for <412003.DURATION> seconds, during which her Crit Rate and Physical/Magic Resistance increase by <412412.VALUE> and her normal attacks deal damage that ignores DEF equal to <412101.VALUE> of ATK. If an enemy becomes incapacitated while Otoha is on the battlefield, she immediately enters into <COLOR=#FFFFFF>\"Inverted Weave\"</COLOR> mode.",
-      "ja": "",
+      "ja": "オトハが<COLOR=#FFFFFF><裏返し></COLOR>状態ではない場合、通常攻撃またはサブスキルを使用するたびに<COLOR=#FFFFFF><まつり縫い></COLOR>バフを獲得し、そのバフが<COLOR=#FFFFFF>4</COLOR>スタックになると、すべての<COLOR=#FFFFFF><まつり縫い></COLOR>スタックを削除し、自分に<412003.DURATION>秒間<COLOR=#FFFFFF><裏返し></COLOR>状態を付与する。この状態では自分のクリティカル率および物理/魔法抵抗が<412412.VALUE>増加し、通常攻撃が攻撃力の<412101.VALUE>の防御力を無視したダメージを与える。もしオトハが戦場にいるとき敵が戦闘不能になると、すぐに<COLOR=#FFFFFF><裏返し></COLOR>状態に突入する。",
       "zh_tw": "乙葉不處於<COLOR=#FFFFFF>＜內外翻轉＞</COLOR>狀態時，每當使用一般攻擊或輔助技能，會獲得增益效果<COLOR=#FFFFFF>＜藏針縫＞</COLOR>，當該增益效果達<COLOR=#FFFFFF>4</COLOR>疊加時，解除所有<COLOR=#FFFFFF>＜藏針縫＞</COLOR>疊加，賦予自身<COLOR=#FFFFFF>＜內外翻轉＞</COLOR>狀態，持續<412003.DURATION>秒。在該狀態下，使自身暴擊率和物理／魔法抵抗增加<412412.VALUE>，一般攻擊會無視防禦力，造成攻擊力<412101.VALUE>的傷害。若乙葉在戰場上，當敵人處於無法戰鬥時會立即進入<COLOR=#FFFFFF>＜內外翻轉＞</COLOR>狀態",
       "zh_cn": ""
     },
@@ -30420,7 +31020,7 @@
       "no": 354125,
       "kr": "오토하가 가장 가까운 적을 대상으로 돌진하여 공격력 <412511.VALUE>의 피해를 입히고, 자신에게 <COLOR=#FFFFFF><우라가에시></COLOR> 상태를 부여한다. 이미 <COLOR=#FFFFFF><우라가에시></COLOR> 상태라면 공격력 <412512.VALUE>의 방어력을 무시하는 추가 피해를 입히고 <COLOR=#FFFFFF><우라가에시></COLOR>의 시간을 초기화 시킨다.",
       "en": "Otoha charges at the nearest enemy and strikes, dealing damage equal to <412511.VALUE> of ATK and enters <COLOR=#FFFFFF>\"Inverted Weave\"</COLOR> mode. If <COLOR=#FFFFFF>\"Inverted Weave\"</COLOR> is already active, she deals additional damage that ignores DEF equal to <412512.VALUE> of ATK and resets the timer of <COLOR=#FFFFFF>\"Inverted Weave\"</COLOR>.",
-      "ja": "",
+      "ja": "オトハが最も近い敵を対象に突進して攻撃力の<412511.VALUE>のダメージを与え、自分に<COLOR=#FFFFFF><裏返し></COLOR>状態を付与する。すでに<COLOR=#FFFFFF><裏返し></COLOR>状態の場合、攻撃力の<412512.VALUE>の防御力を無視する追加ダメージを与え、<COLOR=#FFFFFF><裏返し></COLOR>の時間をリセットする。",
       "zh_tw": "乙葉朝最接近的敵人突進，造成攻擊力<412511.VALUE>的傷害，賦予自身<COLOR=#FFFFFF>＜內外翻轉＞</COLOR>狀態。若已經處於<COLOR=#FFFFFF>＜內外翻轉＞</COLOR>狀態，則無視防禦力，造成攻擊力<412512.VALUE>的額外傷害，並重置<COLOR=#FFFFFF>＜內外翻轉＞</COLOR>的時間",
       "zh_cn": ""
     },
@@ -30428,7 +31028,7 @@
       "no": 354129,
       "kr": "리더 정령이 전장에 존재하는 동안 아군이 메인 스킬을 사용하면 모든 적에게 리더 정령의 공격력 <412911.VALUE>의 피해를 입히고 <COLOR=#FFFFFF><가윗집></COLOR> 디버프를 부여한다. 대상에게 부여된 <COLOR=#FFFFFF><가윗집></COLOR> 디버프 5중첩 마다 <412912.VALUE>의 추가 피해를 입힌다.",
       "en": "Whenever an ally uses her main skill while the lead Soul is on the battlefield, deals damage equal to <412911.VALUE> of the lead Soul's ATK to all enemies and inflicts them with the <COLOR=#FFFFFF>\"Snip Snip\"</COLOR> debuff. Every 5 stacks of the <COLOR=#FFFFFF>\"Snip Snip\"</COLOR> debuff active on a target deals <412912.VALUE> additional damage.",
-      "ja": "",
+      "ja": "リーダー精霊が戦場にいる間、味方がメインスキルを使用すると、敵全員にリーダー精霊の攻撃力の<412911.VALUE>のダメージを与え、<COLOR=#FFFFFF><ノッチ></COLOR>デバフを付与する。対象に付与した<COLOR=#FFFFFF><ノッチ></COLOR>デバフの5スタックごとに<412912.VALUE>の追加ダメージを与える。",
       "zh_tw": "隊長精靈在戰場上時，若友軍使用主要技能，則對所有敵人造成隊長精靈攻擊力<412911.VALUE>的傷害，並賦予<COLOR=#FFFFFF>＜剪刀痕＞</COLOR>減益。賦予目標的<COLOR=#FFFFFF>＜剪刀痕＞</COLOR>減益每5疊加造成<412912.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -30726,6 +31326,54 @@
       "en": "Increases all allies' Type Match Bonus Damage by <COLOR=#E0942C><503912.VALUE></COLOR> while the lead Soul is on the battlefield.",
       "ja": "リーダー精霊が戦場にいる間、味方全員の相性追加ダメージ量が<COLOR=#E0942C><503912.VALUE></COLOR>増加する。",
       "zh_tw": "隊長精靈在戰場上時，所有友軍契合度額外傷害量增加<COLOR=#E0942C><503912.VALUE></COLOR>",
+      "zh_cn": ""
+    },
+    {
+      "no": 355041,
+      "kr": "검을 휘둘러 응축된 기를 생성해 가장 공격력이 높은 적에게 날려 대상 및 주변 3m의 적에게 공격력 <504111.VALUE>의 피해를 입히고 <504112.DURATION>초 동안 기절 상태로 만들고 <504113.DURATION>초 동안 공격 받은 대상의 체력 회복량을 <504113.VALUE> 감소시킨다. 전투 시작 시 자신에게 <COLOR=#FFFFFF><노을></COLOR> 효과를 부여하며, 해당 효과가 있는 상태에서 <COLOR=#FFFFFF><노을가름></COLOR>을 사용할 시 해당 효과를 소모하여 즉시 마나를 <504114.VALUE> 회복한다.",
+      "en": "Unleashes a concentrated sword blast toward the enemy with the highest ATK, dealing damage equal to <504111.VALUE> of ATK to the target and those within 3m, stunning them for <504112.DURATION> sec, and decreasing the HP Recovery of hit targets by <504113.VALUE> for <504113.DURATION> sec. Hanul starts battle with <COLOR=#FFFFFF>\"Twilight,\"</COLOR> which is consumed and triggers <504114.VALUE> Mana Recovery upon using <COLOR=#FFFFFF>\"Twilight Cleave\"</COLOR>.",
+      "ja": "",
+      "zh_tw": "揮劍生成凝聚之氣，射向攻擊力最高的敵人，對目標與周遭3m的敵人造成攻擊力<504111.VALUE>的傷害，使其陷入<504112.DURATION>秒暈眩狀態，並在<504113.DURATION>秒內使受擊目標的體力恢復量減少<504113.VALUE>。戰鬥開始時，賦予自身效果<COLOR=#FFFFFF>＜餘暉＞</COLOR>，在有該效果的狀態下使用<COLOR=#FFFFFF>＜劃破餘暉＞</COLOR>時，消耗該效果立即恢復魔力<504114.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 355042,
+      "kr": "가장 공격력이 높은 적 뒤로 순간적으로 이동하여 자신의 검들로 베어 공격력 <504211.VALUE>의 피해를 입히고, <504212.DURATION>초 동안 한울을 공격하게 하며 모든 공격을 빗나가게 하는 <COLOR=#FFFFFF><헤살></COLOR> 상태를 부여한다. 해당 효과는 도발 효과로 취급하며, 반드시 명중하는 스킬에 대해서는 적용되지 않는다.",
+      "en": "Instantly moves behind the enemy with the highest ATK and strikes with her swords, dealing damage equal to <504211.VALUE> of ATK and inflicting <COLOR=#FFFFFF>\"Shenanigans\"</COLOR> on the target, which forces them to attack Hanul while their attacks always miss for <504212.DURATION> sec. This debuff counts as a Taunt and does not apply to skills that are guaranteed to hit.",
+      "ja": "",
+      "zh_tw": "瞬間移動到攻擊力最高的敵人身後，使用自身的劍砍擊，造成攻擊力<504211.VALUE>的傷害，並賦予<COLOR=#FFFFFF>＜干擾＞</COLOR>狀態，使其在<504212.DURATION>秒內攻擊韓羽，且所有攻擊失準。該效果被視為挑釁，不適用於必定會命中的技能",
+      "zh_cn": ""
+    },
+    {
+      "no": 355043,
+      "kr": "가장 가까운 적의 등 뒤로 검을 날려보낸 뒤 해당 검을 사용해 베어내며 공격력 <504311.VALUE>의 피해를 입힌다. \r\n자신의 주변 3.5m내에 적이 3명 이상 있다면 <504312.DURATION>초 동안 자신의 회피를 <504312.VALUE> 증가시킨다.",
+      "en": "Hurls her swords behind the nearest enemy, then dashes in to deliver a surprise attack with them, dealing damage equal to <504311.VALUE> of ATK and returning to her starting spot. If there are 3 or more enemies within a 3.5m radius, her Evasion is increased by <504312.VALUE> for <504312.DURATION> sec.",
+      "ja": "",
+      "zh_tw": "將劍射向最接近的敵人背後，使用該劍突襲，造成攻擊力<504311.VALUE>的傷害並回到原位。若自身周遭3.5m內有3名以上敵人，<504312.DURATION>秒內使自身迴避增加<504312.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 355044,
+      "kr": "전투 시작 시 자신에게 <COLOR=#FFFFFF><마음다짐></COLOR> 버프를 부여한다. \r\n해당 버프가 존재하는 동안 자신의 체력이 다 할 경우 해당 <COLOR=#FFFFFF><마음다짐></COLOR>을 소모해 전투 불능을 막으며 이후 <504611.DURATION>초 동안 해제 가능한 무적 상태를 부여하고, <504612.DURATION>초 동안 2초마다 자신의 체력과 마나를 <504612.VALUE> 회복한다. \r\n\r\n공격 시 대상의 체력이 <COLOR=#FFFFFF>30%</COLOR> 미만일 경우 피해량의 <COLOR=#FFFFFF>50%</COLOR> 만큼 추가 피해를 입힌다.\r\n\r\n만약 대상이 <COLOR=#FFFFFF><악마형></COLOR> 혹은 <COLOR=#FFFFFF><혼돈형></COLOR>일 경우에는 남은 체력에 상관없이 추가 피해를 입힌다",
+      "en": "Hanul starts battle with <COLOR=#FFFFFF>\"Mind Renewal.\"</COLOR> If her HP is depleted while this buff is active, she sacrifices this buff to prevent incapacitation, gains cancellable Invulnerable for <504611.DURATION> sec, and recovers <504612.VALUE> HP and Mana every 2 sec for <504612.DURATION> sec. If the target's HP is below <COLOR=#FFFFFF>30%</COLOR> when Hanul attacks, her damage dealt increases by <COLOR=#FFFFFF>50%</COLOR>. If the target is <COLOR=#FFFFFF>\"Demon\"</COLOR> or <COLOR=#FFFFFF>\"Chaotic\"</COLOR> type, Hanul deals additional damage regardless of the target's remaining HP.",
+      "ja": "",
+      "zh_tw": "戰鬥開始時，賦予自身增益效果<COLOR=#FFFFFF>＜決心＞</COLOR>。持有該增益的期間，若快耗盡自身體力時，消耗該增益效果以避免無法戰鬥，賦予自身可解除的無敵狀態<504611.DURATION>秒，<504612.DURATION>秒內每2秒恢復自身體力和魔力<504612.VALUE>。若攻擊時目標體力未滿<COLOR=#FFFFFF>30%</COLOR>，自身造成傷害增加<COLOR=#FFFFFF>50%</COLOR>。若目標為<COLOR=#FFFFFF>＜惡魔型＞</COLOR>或<COLOR=#FFFFFF>＜混沌型＞</COLOR>，無論剩餘體力多少均造成額外傷害",
+      "zh_cn": ""
+    },
+    {
+      "no": 355045,
+      "kr": "가장 공격력이 높은 적을 대상으로 검으로 속박의 진을 그려 대상을 묶고 그 검들을 사용해 재빠르게 베어내어 공격력 <504511.VALUE>의 피해를 입힌다. 자신의 <COLOR=#FFFFFF><마음다짐></COLOR> 효과가 소진되었을 경우 해당 공격으로 대상이 쓰러졌을 시 <COLOR=#FFFFFF><마음다짐></COLOR> 효과를 부여한다.",
+      "en": "Traps the enemy with the highest ATK with a binding formation of her swords, then uses those swords to deliver quick slashes that deal damage equal to <504511.VALUE> of ATK. If <COLOR=#FFFFFF>\"Mind Renewal\"</COLOR> has been consumed, defeating the target with this skill reactivates <COLOR=#FFFFFF>\"Mind Renewal.\"</COLOR>",
+      "ja": "",
+      "zh_tw": "以攻擊力最高的敵人為目標，用劍劃出禁錮陣，綁住目標並用劍迅速砍擊，造成攻擊力<504511.VALUE>的傷害。若自身<COLOR=#FFFFFF>＜決心＞</COLOR>效果耗盡，則在用該攻擊擊倒目標時賦予<COLOR=#FFFFFF>＜決心＞</COLOR>效果",
+      "zh_cn": ""
+    },
+    {
+      "no": 355049,
+      "kr": "전투 시작 시 구성된 리더 정령이 서로 다른 타입 5명으로 구성되어 있다면 공격력이 <504912.VALUE> 증가한다.",
+      "en": "Increases ATK by <504912.VALUE> when battle begins if all 5 lead Souls are of different types.",
+      "ja": "",
+      "zh_tw": "戰鬥開始時，若隊長精靈是以5名不同類型組成，攻擊力增加<504912.VALUE>",
       "zh_cn": ""
     },
     {
@@ -31106,10 +31754,10 @@
     },
     {
       "no": 356991,
-      "kr": "공간조차 찢어버리는 검을 휘둘러 가장 가까운 적을 기준으로  폭 2.5m 길이 5m 범위의 대상에게 공격력 <699111.VALUE>의 방어력을 50% 관통하는 치명타 피해를 입힌다. 이후 <COLOR=#FFFFFF><최후의 검></COLOR> 버프 효과를 1스택을 얻는다.",
-      "en": "Swinging a sword that cleaves through space itself at the nearest enemy, Tohka deals Crit DMG equal to <699111.VALUE> of ATK to enemies within a 2.5m wide and 5m long area, piercing 50% of their DEF. Then, she gains a stack of the <COLOR=#FFFFFF>\"Final Sword\"</COLOR> buff.",
+      "kr": "공간조차 찢어버리는 검을 휘둘러 가장 가까운 적을 기준으로  폭 5m 길이 2.5m 범위의 대상에게 공격력 <699111.VALUE>의 방어력을 50% 관통하는 치명타 피해를 입힌다. 이후 <COLOR=#FFFFFF><최후의 검></COLOR> 버프 효과를 1스택을 얻는다.",
+      "en": "Swinging a sword that cleaves through space itself at the nearest enemy, Tohka deals Crit DMG equal to <699111.VALUE> of ATK to enemies within a 5m wide and 2.5m long area, piercing 50% of their DEF. Then, she gains a stack of the <COLOR=#FFFFFF>\"Final Sword\"</COLOR> buff.",
       "ja": "",
-      "zh_tw": "揮舞撕裂空間的劍，以距離最接近的敵人為中心，對寬2.5m、長5m範圍內的目標造成暴擊傷害，貫穿攻擊力<699111.VALUE>的防禦力。之後獲得增益效果<COLOR=#FFFFFF>＜最後之劍＞</COLOR>1疊加",
+      "zh_tw": "揮舞撕裂空間的劍，以距離最接近的敵人為中心，對寬5m、長2.5m範圍內的目標造成暴擊傷害，貫穿攻擊力<699111.VALUE>的防禦力。之後獲得增益效果<COLOR=#FFFFFF>＜最後之劍＞</COLOR>1疊加",
       "zh_cn": ""
     },
     {
@@ -31812,7 +32460,7 @@
       "no": 359055,
       "kr": "자신이 단일 역할일 경우 가하는 피해 150% 증가",
       "en": "Damage dealt +150% if in Single-target role",
-      "ja": "",
+      "ja": "自分の役割が単一の場合、与えるダメージ150%増加",
       "zh_tw": "若自身為單一定位，造成傷害增加150%",
       "zh_cn": ""
     },
@@ -31820,7 +32468,7 @@
       "no": 359056,
       "kr": "레인저/스트라이커 정령의 가하는 피해 100% 증가",
       "en": "Damage dealt by Rangers/Strikers +100%",
-      "ja": "",
+      "ja": "レンジャー・ストライカー精霊の与えるダメージ100%増加",
       "zh_tw": "遊俠／鬥士精靈造成傷害增加100%",
       "zh_cn": ""
     },
@@ -31828,7 +32476,7 @@
       "no": 359057,
       "kr": "적이 받는 피해가 60% 감소하고, 천사형으로 취급된다.",
       "en": "The Unicat is considered Angel type, and its total damage received is decreased by 60%.",
-      "ja": "",
+      "ja": "敵の受けるダメージが60%減少し、天使型として扱われる。",
       "zh_tw": "敵人所受傷害減少60%，被視為天使型。",
       "zh_cn": ""
     },
@@ -31836,7 +32484,7 @@
       "no": 359058,
       "kr": "12초마다 자신에게 걸린 해제 가능한 모든 디버프를 해제한다.",
       "en": "Cancels all cancellable debuffs from itself every 12 sec.",
-      "ja": "",
+      "ja": "12秒ごとに自分にかかったすべての解除可能なデバフを解除する。",
       "zh_tw": "每12秒解除自身所有可解除的減益效果",
       "zh_cn": ""
     },
@@ -31854,6 +32502,46 @@
       "en": "Damage dealt +150% if in debuff role",
       "ja": "",
       "zh_tw": "若自身為減益定位，造成傷害增加150%",
+      "zh_cn": ""
+    },
+    {
+      "no": 359061,
+      "kr": "배치된 불사형 정령 1명 마다 모든 불사형 정령의 가하는 피해 50% 증가 (최대 150%까지 적용)",
+      "en": "All Undead Souls' damage dealt +50% for every Undead Soul deployed (Up to 150%)",
+      "ja": "配置された不死型精霊1体ごとに、すべての不死型精霊の与えるダメージ50%増加(最大150%まで適用)",
+      "zh_tw": "每配置1名不死型精靈，所有不死型精靈的造成傷害增加50%（最多套用至150%）",
+      "zh_cn": ""
+    },
+    {
+      "no": 359062,
+      "kr": "암살 타입 정령의 가하는 피해 50% 증가, 가속 30% 증가",
+      "en": "Assassination Souls' damage dealt +50% and Speed +30%",
+      "ja": "暗殺タイプ精霊の与えるダメージ50%増加、加速30%増加",
+      "zh_tw": "暗殺類型的精靈造成傷害增加50%、加速增加30%",
+      "zh_cn": ""
+    },
+    {
+      "no": 359063,
+      "kr": "배치된 천사형 정령 1명 마다 모든 천사형 정령의 가하는 피해 100% 증가 (최대 200%까지 적용)",
+      "en": "All Angel Souls' damage dealt +100% for every Angel Soul deployed (Up to 200%)",
+      "ja": "配置された天使型精霊1体ごとに、すべての天使型精霊の与えるダメージ100%増加(最大200%まで適用)",
+      "zh_tw": "每配置1名天使型精靈，所有天使型精靈的造成傷害增加100%（最多套用至200%）",
+      "zh_cn": ""
+    },
+    {
+      "no": 359064,
+      "kr": "암살 역할 정령의 가하는 피해 100% 증가",
+      "en": "Damage dealt by Assassination Souls +100%",
+      "ja": "",
+      "zh_tw": "暗殺定位精靈的造成傷害增加100%",
+      "zh_cn": ""
+    },
+    {
+      "no": 359065,
+      "kr": "광역 역할 정령의 가하는 피해 50% 증가",
+      "en": "Damage dealt by AoE Souls +50%",
+      "ja": "",
+      "zh_tw": "廣域定位精靈的造成傷害增加50%",
       "zh_cn": ""
     },
     {
@@ -32203,9 +32891,9 @@
     {
       "no": 359912,
       "kr": "가장 가까운 적의 정령력을 흡수하여 대상의 체력을 75% 감소시키고, <991212.DURATION>초 동안 기절시키며 자신의 마나를 20000 회복한다. 대상이 보호막 효과를 받고 있다면 이 스킬의 효과는 무효화된다. 이 스킬은 회피할 수 없다.",
-      "en": "Absorbs Soul energy from the nearest enemy, decreasing the target's HP by 75% and stunning them for <991212.DURATION> sec while recovering up to 20,000 Mana. This skill will cancel out if the target has an active shield. This skill cannot be evaded.",
+      "en": "Absorbs Soul energy from the nearest enemy, decreasing the target's HP by 75% and stunning them for <991212.DURATION> sec while recovering 20,000 Mana. This skill will cancel out if the target has an active shield. This skill cannot be evaded.",
       "ja": "体力が一番高い敵の精霊力を吸収する。対象の体力を75%減少させて<991212.DURATION>秒間気絶状態にし、自分のマナを5000回復する。対象がバリア効果を受けている場合、このスキル効果は無効化されすべてのマナを失う。このスキルは回避できない。",
-      "zh_tw": "吸收最接近的敵人的精靈之力，使目標體力減少75%，並使其暈眩，持續<991212.DURATION>秒，並恢復自身上限20000魔力。當目標獲得防護罩效果時，該技能的效果會失效。無法迴避此技能",
+      "zh_tw": "吸收最接近的敵人的精靈之力，使目標體力減少75%，並使其暈眩，持續<991212.DURATION>秒，並恢復自身20000魔力。當目標獲得防護罩效果時，該技能的效果會失效。無法迴避此技能",
       "zh_cn": ""
     },
     {
@@ -35260,7 +35948,7 @@
       "no": 364121,
       "kr": "피해량이 <412121.VALUE>, 추가 피해량이 <412122.VALUE>로 변경된다.",
       "en": "Damage changes to <412121.VALUE>, additional damage changes to <412122.VALUE>.",
-      "ja": "",
+      "ja": "ダメージ量が<412121.VALUE>、追加ダメージ量が<412122.VALUE>に変更される。",
       "zh_tw": "變更為造成<412121.VALUE>的傷害、造成<412122.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -35268,7 +35956,7 @@
       "no": 364122,
       "kr": "피해량이 <412221.VALUE>, 추가 피해량이 <412222.VALUE>로 변경된다.",
       "en": "Damage changes to <412221.VALUE>, additional damage changes to <412222.VALUE>.",
-      "ja": "",
+      "ja": "ダメージ量が<412221.VALUE>、追加ダメージ量が<412222.VALUE>に変更される。",
       "zh_tw": "變更為造成<412221.VALUE>的傷害、造成<412222.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -35276,7 +35964,7 @@
       "no": 364123,
       "kr": "피해량이 <412321.VALUE>, 추가 피해량이 <412322.VALUE>로 변경된다.",
       "en": "Damage changes to <412321.VALUE>, additional damage changes to <412322.VALUE>.",
-      "ja": "",
+      "ja": "ダメージ量が<412321.VALUE>、追加ダメージ量が<412322.VALUE>に変更される。",
       "zh_tw": "變更為造成<412321.VALUE>的傷害、造成<412322.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -35284,7 +35972,7 @@
       "no": 364124,
       "kr": "<COLOR=#FFFFFF><우라가에시></COLOR> 상태의 일반 공격의 추가 피해량이 <412102.VALUE>로 변경된다.",
       "en": "Additional damage of normal attacks during <COLOR=#FFFFFF>\"Inverted Weave\"</COLOR> changes to <412102.VALUE>.",
-      "ja": "",
+      "ja": "<COLOR=#FFFFFF><裏返し></COLOR>状態の通常攻撃の追加ダメージ量が<412102.VALUE>に変更される。",
       "zh_tw": "<COLOR=#FFFFFF>＜內外翻轉＞</COLOR>狀態的一般攻擊變更為造成<412102.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -35292,7 +35980,7 @@
       "no": 364125,
       "kr": "피해량이 <412521.VALUE>, 추가 피해량이 <412522.VALUE>로 변경된다.",
       "en": "Damage changes to <412521.VALUE>, additional damage changes to <412522.VALUE>.",
-      "ja": "",
+      "ja": "ダメージ量が<412521.VALUE>、追加ダメージ量が<412522.VALUE>に変更される。",
       "zh_tw": "變更為造成<412521.VALUE>的傷害、造成<412522.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -35300,7 +35988,7 @@
       "no": 364129,
       "kr": "리더 정령이 전장에 존재하는 동안 아군이 메인 스킬을 사용하면 모든 적에게 리더 정령의 공격력 <412921.VALUE>의 피해를 입히고 <COLOR=#FFFFFF><가윗집></COLOR> 디버프를 부여한다. 대상에게 부여된 <COLOR=#FFFFFF><가윗집></COLOR> 디버프 5중첩 마다 <412922.VALUE>의 추가 피해를 입힌다.",
       "en": "Whenever an ally uses her main skill while the lead Soul is on the battlefield, deals damage equal to <412921.VALUE> of the lead Soul's ATK to all enemies and inflicts them with the <COLOR=#FFFFFF>\"Snip Snip\"</COLOR> debuff. Every 5 stacks of the <COLOR=#FFFFFF>\"Snip Snip\"</COLOR> debuff active on a target deals <412922.VALUE> additional damage.",
-      "ja": "",
+      "ja": "リーダー精霊が戦場にいる間、味方がメインスキルを使用すると、敵全員にリーダー精霊の攻撃力の<412921.VALUE>のダメージを与え、<COLOR=#FFFFFF><ノッチ></COLOR>デバフを付与する。対象に付与した<COLOR=#FFFFFF><ノッチ></COLOR>デバフの5スタックごとに<412922.VALUE>の追加ダメージを与える。",
       "zh_tw": "隊長精靈在戰場上時，若友軍使用主要技能，則對所有敵人造成隊長精靈攻擊力<412921.VALUE>的傷害，並賦予<COLOR=#FFFFFF>＜剪刀痕＞</COLOR>減益。賦予目標的<COLOR=#FFFFFF>＜剪刀痕＞</COLOR>減益每5疊加造成<412922.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -35590,6 +36278,54 @@
       "en": "Increases all allies' Type Match Bonus Damage by <COLOR=#E0942C><503922.VALUE></COLOR> while the lead Soul is on the battlefield.",
       "ja": "リーダー精霊が戦場にいる間、味方全員の相性追加ダメージ量が<COLOR=#E0942C><503922.VALUE></COLOR>増加する。",
       "zh_tw": "隊長精靈在戰場上時，所有友軍契合度額外傷害量增加<COLOR=#E0942C><503922.VALUE></COLOR>",
+      "zh_cn": ""
+    },
+    {
+      "no": 365041,
+      "kr": "피해량이 <504121.VALUE>로 변경된다.",
+      "en": "Damage changes to <504121.VALUE>.",
+      "ja": "",
+      "zh_tw": "變更為造成<504121.VALUE>的傷害量",
+      "zh_cn": ""
+    },
+    {
+      "no": 365042,
+      "kr": "피해량이 <504221.VALUE>로 변경되고, 자신의 가속이 영구적으로 <504222.VALUE> 증가한다. (중첩 불가)",
+      "en": "Damage changes to <504221.VALUE>. Permanently increases her Speed by <504222.VALUE> (does not stack).",
+      "ja": "",
+      "zh_tw": "變更為造成<504221.VALUE>的傷害量，自身加速永久增加<504222.VALUE>（無法疊加）",
+      "zh_cn": ""
+    },
+    {
+      "no": 365043,
+      "kr": "피해량이 <504321.VALUE>로 변경된다.",
+      "en": "Damage changes to <504321.VALUE>.",
+      "ja": "",
+      "zh_tw": "變更為造成<504321.VALUE>的傷害量",
+      "zh_cn": ""
+    },
+    {
+      "no": 365044,
+      "kr": "무적 시간이 <504621.DURATION>초, 회복량이 <504622.VALUE>로 변경된다.",
+      "en": "Invulnerable duration changes to <504621.DURATION> sec. Recovery changes to <504622.VALUE>.",
+      "ja": "",
+      "zh_tw": "無敵時間變為<504621.DURATION>秒、恢復量變為<504622.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 365045,
+      "kr": "피해량이 <504521.VALUE>로 변경된다.",
+      "en": "Damage changes to <504521.VALUE>.",
+      "ja": "",
+      "zh_tw": "變更為造成<504521.VALUE>的傷害量",
+      "zh_cn": ""
+    },
+    {
+      "no": 365049,
+      "kr": "전투 시작 시 구성된 리더 정령이 서로 다른 타입 5명으로 구성되어 있다면 공격력이 <504922.VALUE> 증가한다.",
+      "en": "Increases ATK by <504922.VALUE> when battle begins if all 5 lead Souls are of different types.",
+      "ja": "",
+      "zh_tw": "戰鬥開始時，若隊長精靈是以5名不同類型組成，攻擊力增加<504922.VALUE>",
       "zh_cn": ""
     },
     {
@@ -38940,7 +39676,7 @@
       "no": 374121,
       "kr": "피해량이 <412131.VALUE>, 추가 피해량이 <412132.VALUE>로 변경되고, 자신이 <COLOR=#FFFFFF><우라가에시></COLOR> 상태라면 해당 공격이 치명타로 발동한다.",
       "en": "Damage changes to <412131.VALUE>, additional damage changes to <412132.VALUE>. If <COLOR=#FFFFFF>\"Inverted Weave\"</COLOR> is active, this attack lands as a critical hit.",
-      "ja": "",
+      "ja": "ダメージ量が<412131.VALUE>、追加ダメージ量が<412132.VALUE>に変更され、自分が<COLOR=#FFFFFF><裏返し></COLOR>状態の場合、攻撃がクリティカルになる。",
       "zh_tw": "變更為造成<412131.VALUE>的傷害、造成<412132.VALUE>的額外傷害，若自身處於<COLOR=#FFFFFF>＜內外翻轉＞</COLOR>狀態，該攻擊以暴擊發動",
       "zh_cn": ""
     },
@@ -38948,7 +39684,7 @@
       "no": 374122,
       "kr": "피해량이 <412231.VALUE>, 추가 피해량이 <412232.VALUE>로 변경되고, 자신이 <COLOR=#FFFFFF><우라가에시></COLOR> 상태라면 <412233.DURATION>초 동안 적의 받는 체력 회복량을 <412233.VALUE> 감소시킨다.",
       "en": "Damage changes to <412231.VALUE>, additional damage changes to <412232.VALUE>. If <COLOR=#FFFFFF>\"Inverted Weave\"</COLOR> is active, decreases the target's Received HP Recovery by <412233.VALUE> for <412233.DURATION> seconds.",
-      "ja": "",
+      "ja": "ダメージ量が<412231.VALUE>、追加ダメージ量が<412232.VALUE>に変更され、自分が<COLOR=#FFFFFF><裏返し></COLOR>状態の場合、<412233.DURATION>秒間、敵の受ける体力回復量を<412233.VALUE>減少させる。",
       "zh_tw": "變更為造成<412231.VALUE>的傷害、造成<412232.VALUE>的額外傷害，若自身處於<COLOR=#FFFFFF>＜內外翻轉＞</COLOR>狀態，在<412233.DURATION>秒內使敵人所受體力恢復量減少<412233.VALUE>",
       "zh_cn": ""
     },
@@ -38956,7 +39692,7 @@
       "no": 374123,
       "kr": "피해량이 <412331.VALUE>, 추가 피해량이 <412332.VALUE>로 변경되고, 자신이 <COLOR=#FFFFFF><우라가에시></COLOR> 상태라면 적을 <412333.DURATION>초 동안 기절 상태로 만든다.",
       "en": "Damage changes to <412331.VALUE>, additional damage changes to <412332.VALUE>. If <COLOR=#FFFFFF>\"Inverted Weave\"</COLOR> is active, stuns the target for <412333.DURATION> seconds.",
-      "ja": "",
+      "ja": "ダメージ量が<412331.VALUE>、追加ダメージ量が<412332.VALUE>に変更され、自分が<COLOR=#FFFFFF><裏返し></COLOR>状態の場合、敵を<412333.DURATION>秒間気絶状態にする。",
       "zh_tw": "變更為造成<412331.VALUE>的傷害、造成<412332.VALUE>的額外傷害，若自身處於<COLOR=#FFFFFF>＜內外翻轉＞</COLOR>狀態，在<412333.DURATION>秒內使敵人處於暈眩狀態",
       "zh_cn": ""
     },
@@ -38964,7 +39700,7 @@
       "no": 374124,
       "kr": "<COLOR=#FFFFFF><우라가에시></COLOR> 상태의 일반 공격의 추가 피해량이 <412103.VALUE>로 변경된다. 추가로 오토하가 전장에 있을 때 적이 전투 불능이 될 경우 오토하의 체력을 <412493.VALUE>, 마나를 <412494.VALUE> 회복한다.",
       "en": "Additional damage of normal attacks during <COLOR=#FFFFFF>\"Inverted Weave\"</COLOR> changes to <412103.VALUE>. If an enemy becomes incapacitated while Otoha is on the battlefield, she recovers <412493.VALUE> HP and <412494.VALUE> Mana.",
-      "ja": "",
+      "ja": "<COLOR=#FFFFFF><裏返し></COLOR>状態の通常攻撃の追加ダメージ量が<412103.VALUE>に変更される。さらにオトハが戦場にいるとき敵が戦闘不能になると、オトハの体力を<412493.VALUE>、マナを<412494.VALUE>回復する。",
       "zh_tw": "<COLOR=#FFFFFF>＜內外翻轉＞</COLOR>狀態的一般攻擊變更為造成<412103.VALUE>的額外傷害。另外，若乙葉在戰場上，當敵人處於無法戰鬥時，使乙葉的體力恢復<412493.VALUE>、魔力恢復<412494.VALUE>",
       "zh_cn": ""
     },
@@ -38972,7 +39708,7 @@
       "no": 374125,
       "kr": "피해량이 <412531.VALUE>, 추가 피해량이 <412532.VALUE>로 변경되고, 추가로 적 마무리 여부와 상관없이 적이 전투 불능이 될 경우의 효과를 모두 발동시킨다.",
       "en": "Damage changes to <412531.VALUE>, additional damage changes to <412532.VALUE>, and all effects requiring enemy incapacitation are activated regardless of actual enemy incapacitation.",
-      "ja": "",
+      "ja": "ダメージ量が<412531.VALUE>、追加ダメージ量が<412532.VALUE>に変更され、さらに敵のとどめの有無とは関係なく敵が戦闘不能になる場合の効果をすべて発動させる。",
       "zh_tw": "變更為造成<412531.VALUE>的傷害、造成<412532.VALUE>的額外傷害。另外，無論擊倒敵人與否，都會發動敵人處於無法戰鬥時的所有效果",
       "zh_cn": ""
     },
@@ -38980,7 +39716,7 @@
       "no": 374129,
       "kr": "리더 정령이 전장에 존재하는 동안 아군이 메인 스킬을 사용하면 모든 적에게 리더 정령의 공격력 <412931.VALUE>의 피해를 입히고 <COLOR=#FFFFFF><가윗집></COLOR> 디버프를 부여한다. 대상에게 부여된 <COLOR=#FFFFFF><가윗집></COLOR> 디버프 5중첩 마다 <412932.VALUE>의 추가 피해를 입힌다.",
       "en": "Whenever an ally uses her main skill while the lead Soul is on the battlefield, deals damage equal to <412931.VALUE> of the lead Soul's ATK to all enemies and inflicts them with the <COLOR=#FFFFFF>\"Snip Snip\"</COLOR> debuff. Every 5 stacks of the <COLOR=#FFFFFF>\"Snip Snip\"</COLOR> debuff active on a target deals <412932.VALUE> additional damage.",
-      "ja": "",
+      "ja": "リーダー精霊が戦場にいる間、味方がメインスキルを使用すると、敵全員にリーダー精霊の攻撃力の<412931.VALUE>のダメージを与え、<COLOR=#FFFFFF><ノッチ></COLOR>デバフを付与する。対象に付与した<COLOR=#FFFFFF><ノッチ></COLOR>デバフの5スタックごとに<412932.VALUE>の追加ダメージを与える。",
       "zh_tw": "隊長精靈在戰場上時，若友軍使用主要技能，則對所有敵人造成隊長精靈攻擊力<412931.VALUE>的傷害，並賦予<COLOR=#FFFFFF>＜剪刀痕＞</COLOR>減益。賦予目標的<COLOR=#FFFFFF>＜剪刀痕＞</COLOR>減益每5疊加造成<412932.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -39270,6 +40006,54 @@
       "en": "Increases all allies' Type Match Bonus Damage by <COLOR=#E0942C><503932.VALUE></COLOR> while the lead Soul is on the battlefield.",
       "ja": "リーダー精霊が戦場にいる間、味方全員の相性追加ダメージ量が<COLOR=#E0942C><503932.VALUE></COLOR>増加する。",
       "zh_tw": "隊長精靈在戰場上時，所有友軍契合度額外傷害量增加<COLOR=#E0942C><503932.VALUE></COLOR>",
+      "zh_cn": ""
+    },
+    {
+      "no": 375041,
+      "kr": "피해량이 <504131.VALUE>로 변경되고, 만약 <COLOR=#FFFFFF><노을가름></COLOR>으로 인해 적이 쓰러질 경우 자신에게 <COLOR=#FFFFFF><노을></COLOR>을 부여한다.",
+      "en": "Damage changes to <504131.VALUE>. Defeating an enemy with <COLOR=#FFFFFF>\"Twilight Cleave\"</COLOR> grants <COLOR=#FFFFFF>\"Twilight\"</COLOR> to her.",
+      "ja": "",
+      "zh_tw": "變更為造成<504131.VALUE>的傷害量，若敵人因<COLOR=#FFFFFF>＜劃破餘暉＞</COLOR>倒下，賦予自身<COLOR=#FFFFFF>＜餘暉＞</COLOR>",
+      "zh_cn": ""
+    },
+    {
+      "no": 375042,
+      "kr": "피해량이 <504231.VALUE>로 변경되고, 만약 자신의 근처 3.5m 내의 적이 쓰러졌을 경우 다음 행동은 <COLOR=#FFFFFF><성난너울></COLOR>로 변경되며 공격력 <504213.VALUE>의 추가 피해를 입힌다.",
+      "en": "Damage changes to <504231.VALUE>. If an enemy within a 3.5m radius is defeated, the next skill on the rotation is changed to <COLOR=#FFFFFF>\"Raging Waves\"</COLOR> and deals additional damage equal to <504213.VALUE> of ATK.",
+      "ja": "",
+      "zh_tw": "變更為造成<504231.VALUE>的傷害量，若自身附近3.5m內的敵人倒下，下一行動變為<COLOR=#FFFFFF>＜狂怒駭浪＞</COLOR>，造成攻擊力<504213.VALUE>的額外傷害",
+      "zh_cn": ""
+    },
+    {
+      "no": 375043,
+      "kr": "피해량이 <504331.VALUE>로 변경되고, 해당 스킬로 회피 증가가 부여될 때 회피가 <504313.DURATION>초 동안 추가로 <504313.VALUE> 증가한다.",
+      "en": "Damage changes to <504331.VALUE>. When this skill triggers her Evasion increase, it additionally increases her Evasion by <504313.VALUE> for <504313.DURATION> sec.",
+      "ja": "",
+      "zh_tw": "變更為造成<504331.VALUE>的傷害量，因該技能被賦予迴避增加時，迴避在<504313.DURATION>秒內額外增加<504313.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 375044,
+      "kr": "무적 시간이 <504631.DURATION>초, 회복량이 <504632.VALUE>로 변경된다. 추가로 <COLOR=#FFFFFF><우두머리></COLOR> 및 <COLOR=#FFFFFF><하수인></COLOR>, <COLOR=#FFFFFF><악령></COLOR>에게도 체력에 상관없이 추가 피해를 입힌다.",
+      "en": "Invulnerable duration changes to <504631.DURATION> sec. Recovery changes to <504632.VALUE>. She also deals additional damage to <COLOR=#FFFFFF>\"Ringleaders,\"</COLOR> <COLOR=#FFFFFF>\"Minions,\"</COLOR> and <COLOR=#FFFFFF>\"Evil Souls\"</COLOR> regardless of their HP.",
+      "ja": "",
+      "zh_tw": "無敵時間變為<504631.DURATION>秒、恢復量變為<504632.VALUE>。無論體力多少，額外對<COLOR=#FFFFFF>＜首領＞</COLOR>、<COLOR=#FFFFFF>＜劊子手＞</COLOR>和<COLOR=#FFFFFF>＜惡靈＞</COLOR>造成額外傷害",
+      "zh_cn": ""
+    },
+    {
+      "no": 375045,
+      "kr": "피해량이 <504531.VALUE>로 변경된다. 대상이 쓰러지지 않아도 <COLOR=#FFFFFF><마음다짐></COLOR>을 재부여하며, 추가로 <COLOR=#FFFFFF><노을></COLOR> 효과가 소진되었을 경우 <COLOR=#FFFFFF><노을></COLOR> 효과를 부여한다. 만약 <COLOR=#FFFFFF><마음다짐></COLOR> 효과를 보유한 상태라면 즉시 자신의 체력 및 마나를 <504514.VALUE> 회복한다.",
+      "en": "Damage changes to <504531.VALUE>. Reactivates <COLOR=#FFFFFF>\"Mind Renewal\"</COLOR> even if the target is not defeated. Also reactivates <COLOR=#FFFFFF>\"Twilight\"</COLOR> if <COLOR=#FFFFFF>\"Twilight\"</COLOR> has been consumed. If <COLOR=#FFFFFF>\"Mind Renewal\"</COLOR> is active, Hanul instantly recovers <504514.VALUE> HP and Mana.",
+      "ja": "",
+      "zh_tw": "變更為造成<504531.VALUE>的傷害量。即使目標沒有倒下，仍會重新賦予<COLOR=#FFFFFF>＜決心＞</COLOR>，並在<COLOR=#FFFFFF>＜餘暉＞</COLOR>效果耗盡時，賦予<COLOR=#FFFFFF>＜餘暉＞</COLOR>效果。若是在持有<COLOR=#FFFFFF>＜決心＞</COLOR>效果的狀態下，立即恢復自身體力與魔力<504514.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 375049,
+      "kr": "전투 시작 시 구성된 리더 정령이 서로 다른 타입 5명으로 구성되어 있다면 공격력이 <504932.VALUE> 증가한다.",
+      "en": "Increases ATK by <504932.VALUE> when battle begins if all 5 lead Souls are of different types.",
+      "ja": "",
+      "zh_tw": "戰鬥開始時，若隊長精靈是以5名不同類型組成，攻擊力增加<504932.VALUE>",
       "zh_cn": ""
     },
     {
@@ -42276,7 +43060,7 @@
       "no": 384121,
       "kr": "전부 조각조각 내줄게.",
       "en": "I'll shred everything to pieces.",
-      "ja": "",
+      "ja": "バラバラにしてあげる。",
       "zh_tw": "我會把全部都四分五裂。",
       "zh_cn": ""
     },
@@ -42284,7 +43068,7 @@
       "no": 384122,
       "kr": "방해하지 마.",
       "en": "Don't get in my way.",
-      "ja": "",
+      "ja": "邪魔しないで。",
       "zh_tw": "不要妨礙我。",
       "zh_cn": ""
     },
@@ -42292,7 +43076,7 @@
       "no": 384123,
       "kr": "귀찮게 굴지 마.",
       "en": "Stop bothering me.",
-      "ja": "",
+      "ja": "面倒だな、もう。",
       "zh_tw": "別煩我。",
       "zh_cn": ""
     },
@@ -42300,7 +43084,7 @@
       "no": 384125,
       "kr": "톱날이 돌아가는 소리… \r\n흥분되지 않아?",
       "en": "The whirring sound of the saw blade...\r\nExciting, right?",
-      "ja": "",
+      "ja": "鋸刃が回る音…\r\nゾクゾクするでしょう？",
       "zh_tw": "不覺得鋸齒轉動的聲音…\r\n很讓人興奮嗎？",
       "zh_cn": ""
     },
@@ -42308,7 +43092,7 @@
       "no": 384129,
       "kr": "리더 정령이 전장에 존재하는 동안 아군이 메인 스킬을 사용하면 모든 적에게 리더 정령의 공격력 <412941.VALUE>의 피해를 입히고 <COLOR=#FFFFFF><가윗집></COLOR> 디버프를 부여한다. 대상에게 부여된 <COLOR=#FFFFFF><가윗집></COLOR> 디버프 5중첩 마다 <412942.VALUE>의 추가 피해를 입힌다.",
       "en": "Whenever an ally uses her main skill while the lead Soul is on the battlefield, deals damage equal to <412941.VALUE> of the lead Soul's ATK to all enemies and inflicts them with the <COLOR=#FFFFFF>\"Snip Snip\"</COLOR> debuff. Every 5 stacks of the <COLOR=#FFFFFF>\"Snip Snip\"</COLOR> debuff active on a target deals <412942.VALUE> additional damage.",
-      "ja": "",
+      "ja": "リーダー精霊が戦場にいる間、味方がメインスキルを使用すると、敵全員にリーダー精霊の攻撃力の<412941.VALUE>のダメージを与え、<COLOR=#FFFFFF><ノッチ></COLOR>デバフを付与する。対象に付与した<COLOR=#FFFFFF><ノッチ></COLOR>デバフの5スタックごとに<412942.VALUE>の追加ダメージを与える。",
       "zh_tw": "隊長精靈在戰場上時，若友軍使用主要技能，則對所有敵人造成隊長精靈攻擊力<412941.VALUE>的傷害，並賦予<COLOR=#FFFFFF>＜剪刀痕＞</COLOR>減益。賦予目標的<COLOR=#FFFFFF>＜剪刀痕＞</COLOR>減益每5疊加造成<412942.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -42558,6 +43342,46 @@
       "en": "Increases all allies' Type Match Bonus Damage by <COLOR=#E0942C><503942.VALUE></COLOR> while the lead Soul is on the battlefield.",
       "ja": "リーダー精霊が戦場にいる間、味方全員の相性追加ダメージ量が<COLOR=#E0942C><503942.VALUE></COLOR>増加する。",
       "zh_tw": "隊長精靈在戰場上時，所有友軍契合度額外傷害量增加<COLOR=#E0942C><503942.VALUE></COLOR>",
+      "zh_cn": ""
+    },
+    {
+      "no": 385041,
+      "kr": "뿌리가 얕으면 흔들릴 뿐.",
+      "en": "Shallow roots leave you unsteady.",
+      "ja": "",
+      "zh_tw": "根基不紮實，勢必會動搖。",
+      "zh_cn": ""
+    },
+    {
+      "no": 385042,
+      "kr": "느끼면, 보일지어니.",
+      "en": "Feel it, and it will become clear.",
+      "ja": "",
+      "zh_tw": "感受便能看見。",
+      "zh_cn": ""
+    },
+    {
+      "no": 385043,
+      "kr": "눈 깜짝할 사이에.",
+      "en": "All in the blink of an eye.",
+      "ja": "",
+      "zh_tw": "轉眼之間。",
+      "zh_cn": ""
+    },
+    {
+      "no": 385045,
+      "kr": "태산이 높다한들, 하늘아래 뫼일 뿐!",
+      "en": "Even the tallest mountain is still beneath the heavens!",
+      "ja": "",
+      "zh_tw": "天下無難事，只怕有心人！",
+      "zh_cn": ""
+    },
+    {
+      "no": 385049,
+      "kr": "전투 시작 시 구성된 리더 정령이 서로 다른 타입 5명으로 구성되어 있다면 공격력이 <504942.VALUE> 증가한다.",
+      "en": "Increases ATK by <504942.VALUE> when battle begins if all 5 lead Souls are of different types.",
+      "ja": "",
+      "zh_tw": "戰鬥開始時，若隊長精靈是以5名不同類型組成，攻擊力增加<504942.VALUE>",
       "zh_cn": ""
     },
     {
@@ -43468,7 +44292,7 @@
       "no": 394129,
       "kr": "리더 정령이 전장에 존재하는 동안 아군이 메인 스킬을 사용하면 모든 적에게 리더 정령의 공격력 <412951.VALUE>의 피해를 입히고 <COLOR=#FFFFFF><가윗집></COLOR> 디버프를 부여한다. 대상에게 부여된 <COLOR=#FFFFFF><가윗집></COLOR> 디버프 5중첩 마다 <412952.VALUE>의 추가 피해를 입힌다.",
       "en": "Whenever an ally uses her main skill while the lead Soul is on the battlefield, deals damage equal to <412951.VALUE> of the lead Soul's ATK to all enemies and inflicts them with the <COLOR=#FFFFFF>\"Snip Snip\"</COLOR> debuff. Every 5 stacks of the <COLOR=#FFFFFF>\"Snip Snip\"</COLOR> debuff active on a target deals <412952.VALUE> additional damage.",
-      "ja": "",
+      "ja": "リーダー精霊が戦場にいる間、味方がメインスキルを使用すると、敵全員にリーダー精霊の攻撃力の<412951.VALUE>のダメージを与え、<COLOR=#FFFFFF><ノッチ></COLOR>デバフを付与する。対象に付与した<COLOR=#FFFFFF><ノッチ></COLOR>デバフの5スタックごとに<412952.VALUE>の追加ダメージを与える。",
       "zh_tw": "隊長精靈在戰場上時，若友軍使用主要技能，則對所有敵人造成隊長精靈攻擊力<412951.VALUE>的傷害，並賦予<COLOR=#FFFFFF>＜剪刀痕＞</COLOR>減益。賦予目標的<COLOR=#FFFFFF>＜剪刀痕＞</COLOR>減益每5疊加造成<412952.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -43518,6 +44342,14 @@
       "en": "Increases all allies' Type Match Bonus Damage by <COLOR=#E0942C><503952.VALUE></COLOR> while the lead Soul is on the battlefield.",
       "ja": "リーダー精霊が戦場にいる間、味方全員の相性追加ダメージ量が<COLOR=#E0942C><503952.VALUE></COLOR>増加する。",
       "zh_tw": "隊長精靈在戰場上時，所有友軍契合度額外傷害量增加<COLOR=#E0942C><503952.VALUE></COLOR>",
+      "zh_cn": ""
+    },
+    {
+      "no": 395049,
+      "kr": "전투 시작 시 구성된 리더 정령이 서로 다른 타입 5명으로 구성되어 있다면 공격력이 <504952.VALUE> 증가한다.",
+      "en": "Increases ATK by <504952.VALUE> when battle begins if all 5 lead Souls are of different types.",
+      "ja": "",
+      "zh_tw": "戰鬥開始時，若隊長精靈是以5名不同類型組成，攻擊力增加<504952.VALUE>",
       "zh_cn": ""
     },
     {
@@ -43818,10 +44650,10 @@
     },
     {
       "no": 402169,
-      "kr": "리더 정령이 디펜더라면 모든 디펜더의 공격력이 <216962.VALUE>, 가속이 <2169614.VALUE> 증가한다. 만약 모든 정령이 디펜더라면 방어력도 <216966.VALUE> 증가한다.",
-      "en": "If the lead Soul is a Defender, increases all Defender's ATK by <216962.VALUE> and Speed by <2169614.VALUE>. If all allies are Defenders, also increases their DEF by <216966.VALUE>.",
+      "kr": "리더 정령이 디펜더라면 모든 디펜더의 공격력이 <216962.VALUE>, 가속이 <216964.VALUE> 증가한다. 만약 모든 정령이 디펜더라면 방어력도 <216966.VALUE> 증가한다.",
+      "en": "If the lead Soul is a Defender, increases all Defender's ATK by <216962.VALUE> and Speed by <216964.VALUE>. If all allies are Defenders, also increases their DEF by <216966.VALUE>.",
       "ja": "",
-      "zh_tw": "若隊長精靈為捍衛者，所有捍衛者的攻擊力增加<216962.VALUE>、加速增加<2169614.VALUE>。若所有精靈均為捍衛者，防禦力也增加<216966.VALUE>",
+      "zh_tw": "若隊長精靈為捍衛者，所有捍衛者的攻擊力增加<216962.VALUE>、加速增加<216964.VALUE>。若所有精靈均為捍衛者，防禦力也增加<216966.VALUE>",
       "zh_cn": ""
     },
     {
@@ -44036,7 +44868,7 @@
       "no": 404129,
       "kr": "리더 정령이 전장에 존재하는 동안 아군이 메인 스킬을 사용하면 모든 적에게 리더 정령의 공격력 <412961.VALUE>의 피해를 입히고 <COLOR=#FFFFFF><가윗집></COLOR> 디버프를 부여한다. 대상에게 부여된 <COLOR=#FFFFFF><가윗집></COLOR> 디버프 5중첩 마다 <412962.VALUE>의 추가 피해를 입힌다.",
       "en": "Whenever an ally uses her main skill while the lead Soul is on the battlefield, deals damage equal to <412961.VALUE> of the lead Soul's ATK to all enemies and inflicts them with the <COLOR=#FFFFFF>\"Snip Snip\"</COLOR> debuff. Every 5 stacks of the <COLOR=#FFFFFF>\"Snip Snip\"</COLOR> debuff active on a target deals <412962.VALUE> additional damage.",
-      "ja": "",
+      "ja": "リーダー精霊が戦場にいる間、味方がメインスキルを使用すると、敵全員にリーダー精霊の攻撃力の<412961.VALUE>のダメージを与え、<COLOR=#FFFFFF><ノッチ></COLOR>デバフを付与する。対象に付与した<COLOR=#FFFFFF><ノッチ></COLOR>デバフの5スタックごとに<412962.VALUE>の追加ダメージを与える。",
       "zh_tw": "隊長精靈在戰場上時，若友軍使用主要技能，則對所有敵人造成隊長精靈攻擊力<412961.VALUE>的傷害，並賦予<COLOR=#FFFFFF>＜剪刀痕＞</COLOR>減益。賦予目標的<COLOR=#FFFFFF>＜剪刀痕＞</COLOR>減益每5疊加造成<412962.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -44086,6 +44918,14 @@
       "en": "Increases all allies' Type Match Bonus Damage by <COLOR=#E0942C><503962.VALUE></COLOR> while the lead Soul is on the battlefield.",
       "ja": "リーダー精霊が戦場にいる間、味方全員の相性追加ダメージ量が<COLOR=#E0942C><503962.VALUE></COLOR>増加する。",
       "zh_tw": "隊長精靈在戰場上時，所有友軍契合度額外傷害量增加<COLOR=#E0942C><503962.VALUE></COLOR>",
+      "zh_cn": ""
+    },
+    {
+      "no": 405049,
+      "kr": "전투 시작 시 구성된 리더 정령이 서로 다른 타입 5명으로 구성되어 있다면 공격력이 <504962.VALUE> 증가한다.",
+      "en": "Increases ATK by <504962.VALUE> when battle begins if all 5 lead Souls are of different types.",
+      "ja": "",
+      "zh_tw": "戰鬥開始時，若隊長精靈是以5名不同類型組成，攻擊力增加<504962.VALUE>",
       "zh_cn": ""
     },
     {
@@ -44604,7 +45444,7 @@
       "no": 414129,
       "kr": "리더 정령이 전장에 존재하는 동안 아군이 메인 스킬을 사용하면 모든 적에게 리더 정령의 공격력 <412971.VALUE>의 피해를 입히고 <COLOR=#FFFFFF><가윗집></COLOR> 디버프를 부여한다. 대상에게 부여된 <COLOR=#FFFFFF><가윗집></COLOR> 디버프 5중첩 마다 <412972.VALUE>의 추가 피해를 입힌다.",
       "en": "Whenever an ally uses her main skill while the lead Soul is on the battlefield, deals damage equal to <412971.VALUE> of the lead Soul's ATK to all enemies and inflicts them with the <COLOR=#FFFFFF>\"Snip Snip\"</COLOR> debuff. Every 5 stacks of the <COLOR=#FFFFFF>\"Snip Snip\"</COLOR> debuff active on a target deals <412972.VALUE> additional damage.",
-      "ja": "",
+      "ja": "リーダー精霊が戦場にいる間、味方がメインスキルを使用すると、敵全員にリーダー精霊の攻撃力の<412971.VALUE>のダメージを与え、<COLOR=#FFFFFF><ノッチ></COLOR>デバフを付与する。対象に付与した<COLOR=#FFFFFF><ノッチ></COLOR>デバフの5スタックごとに<412972.VALUE>の追加ダメージを与える。",
       "zh_tw": "隊長精靈在戰場上時，若友軍使用主要技能，則對所有敵人造成隊長精靈攻擊力<412971.VALUE>的傷害，並賦予<COLOR=#FFFFFF>＜剪刀痕＞</COLOR>減益。賦予目標的<COLOR=#FFFFFF>＜剪刀痕＞</COLOR>減益每5疊加造成<412972.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -44654,6 +45494,14 @@
       "en": "Increases all allies' Type Match Bonus Damage by <COLOR=#E0942C><503972.VALUE></COLOR> while the lead Soul is on the battlefield.",
       "ja": "リーダー精霊が戦場にいる間、味方全員の相性追加ダメージ量が<COLOR=#E0942C><503972.VALUE></COLOR>増加する。",
       "zh_tw": "隊長精靈在戰場上時，所有友軍契合度額外傷害量增加<COLOR=#E0942C><503972.VALUE></COLOR>",
+      "zh_cn": ""
+    },
+    {
+      "no": 415049,
+      "kr": "전투 시작 시 구성된 리더 정령이 서로 다른 타입 5명으로 구성되어 있다면 공격력이 <504972.VALUE> 증가한다.",
+      "en": "Increases ATK by <504972.VALUE> when battle begins if all 5 lead Souls are of different types.",
+      "ja": "",
+      "zh_tw": "戰鬥開始時，若隊長精靈是以5名不同類型組成，攻擊力增加<504972.VALUE>",
       "zh_cn": ""
     },
     {
@@ -46577,6 +47425,38 @@
       "zh_cn": ""
     },
     {
+      "no": 703911,
+      "kr": "<color=#EDA900>흉몽에 대항하는 자</COLOR>",
+      "en": "<color=#EDA900>Defier of Ominous Dream</COLOR>",
+      "ja": "",
+      "zh_tw": "<color=#EDA900>對抗凶夢的人</COLOR>",
+      "zh_cn": ""
+    },
+    {
+      "no": 703912,
+      "kr": "<color=#EDA900>타락한 숲의 비명</COLOR>",
+      "en": "<color=#EDA900>Corrupted Forest's Shriek</COLOR>",
+      "ja": "",
+      "zh_tw": "<color=#EDA900>墮落森林的悲鳴</COLOR>",
+      "zh_cn": ""
+    },
+    {
+      "no": 703921,
+      "kr": "특정 요정형 정령을 배치할 경우 해당 정령의 능력치가 상승하고, 스킬이 추가 효과를 부여한다. ",
+      "en": "If a particular Fairy Soul is in the party, that Soul's stats are increased and her skills trigger additional effects.",
+      "ja": "",
+      "zh_tw": "配置特定妖精型精靈時，該精靈的能力值上升，賦予技能額外效果",
+      "zh_cn": ""
+    },
+    {
+      "no": 703922,
+      "kr": "흉몽에 의해 타락한 숲의 생명들이 나비의 전투를 돕는다.",
+      "en": "Forest creatures corrupted by the Dream of Omen rise to aid the butterfly in battle.",
+      "ja": "",
+      "zh_tw": "因凶夢而墮落的森林生命助蝴蝶的戰鬥一臂之力",
+      "zh_cn": ""
+    },
+    {
       "no": 710001,
       "kr": "속전속결",
       "en": "Rush Job",
@@ -46590,6 +47470,22 @@
       "en": "Battle time changed to 120 sec, all allies recover 1000 Mana every 2 sec, main skill use adds 5% to Ultimate Gauge",
       "ja": "",
       "zh_tw": "戰鬥時間變為120秒，所有友軍每2秒恢復魔力1000，使用主要技能時，終極計量條額外增加5%",
+      "zh_cn": ""
+    },
+    {
+      "no": 710003,
+      "kr": "역전된 먹이 사슬",
+      "en": "Food Chain Reversed",
+      "ja": "",
+      "zh_tw": "食物鏈逆轉",
+      "zh_cn": ""
+    },
+    {
+      "no": 710004,
+      "kr": "우두머리 및 하수인의 속성이 본래 자신이 유리했던 속성에게 불리해지도록 변경되고, 받는 상성 피해량이 25% 증가하며 역상성 피해량이 25% 감소한다.",
+      "en": "The Ringleader and the Minions' types are reversed, making them weak to what they were once strong against. Type Match damage received is increased by 25%, and Type Countermatch damage dealt is decreased by 25%.",
+      "ja": "",
+      "zh_tw": "原先對首領與劊子手有利的屬性，將逆轉成不利的屬性。所受契合度傷害量增加25%，反剋度傷害量減少25%",
       "zh_cn": ""
     },
     {
@@ -47354,10 +48250,10 @@
     },
     {
       "no": 1356991,
-      "kr": "공간조차 찢어버리는 검을 휘둘러 가장 가까운 적을 기준으로 폭 2.5m 길이 5m 범위의 대상에게 공격력 <699111.VALUE>의 피해를 입힌다. 토카가 공격력 증가 효과를 보유하고 있을 경우 공격력 <699112.VALUE>의 추가 피해를 입히고, 방어력 증가 효과를 보유하고 있을 경우 방어력 <699113.VALUE>의 추가 피해를 입힌다.",
-      "en": "Swinging a sword that cleaves through space itself at the nearest enemy, Tohka deals damage equal to <699111.VALUE> of ATK to enemies within a 2.5m wide and 5m long area. If Tohka has an ATK increase buff on her, she also deals additional damage equal to <699112.VALUE> of ATK. If she has a DEF increase buff on her, she also deals additional damage equal to <699113.VALUE> of DEF.",
-      "ja": "空間さえ切り裂く剣を振り回し、一番近い敵を基準に幅2.5m、長さ5mの対象に攻撃力<699111.VALUE>のダメージを与える。十香が攻撃力増加効果を保有していると攻撃力<699112.VALUE>の追加ダメージを与え、防御力増加効果を保有していると防御力<699113.VALUE>の追加ダメージを与える。",
-      "zh_tw": "揮舞撕裂空間的劍，以距離最接近的敵人為中心，對寬2.5m、長5m範圍內的目標造成攻擊力<699111.VALUE>的傷害。若十香持有攻擊力增加效果，則額外造成攻擊力<699112.VALUE>的傷害，如果持有防禦力增加效果，則造成防禦力<699113.VALUE>的額外傷害",
+      "kr": "공간조차 찢어버리는 검을 휘둘러 가장 가까운 적을 기준으로 폭 5m 길이 2.5m 범위의 대상에게 공격력 <699111.VALUE>의 피해를 입힌다. 토카가 공격력 증가 효과를 보유하고 있을 경우 공격력 <699112.VALUE>의 추가 피해를 입히고, 방어력 증가 효과를 보유하고 있을 경우 방어력 <699113.VALUE>의 추가 피해를 입힌다.",
+      "en": "Swinging a sword that cleaves through space itself at the nearest enemy, Tohka deals damage equal to <699111.VALUE> of ATK to enemies within a 5m wide and 2.5m long area. If Tohka has an ATK increase buff on her, she also deals additional damage equal to <699112.VALUE> of ATK. If she has a DEF increase buff on her, she also deals additional damage equal to <699113.VALUE> of DEF.",
+      "ja": "空間さえ切り裂く剣を振り回し、一番近い敵を基準に幅5m、長さ2.5mの対象に攻撃力<699111.VALUE>のダメージを与える。十香が攻撃力増加効果を保有していると攻撃力<699112.VALUE>の追加ダメージを与え、防御力増加効果を保有していると防御力<699113.VALUE>の追加ダメージを与える。",
+      "zh_tw": "揮舞撕裂空間的劍，以距離最接近的敵人為中心，對寬5m、長2.5m範圍內的目標造成攻擊力<699111.VALUE>的傷害。若十香持有攻擊力增加效果，則額外造成攻擊力<699112.VALUE>的傷害，如果持有防禦力增加效果，則造成防禦力<699113.VALUE>的額外傷害",
       "zh_cn": ""
     },
     {
@@ -53553,6 +54449,182 @@
       "zh_cn": ""
     },
     {
+      "no": 8000101,
+      "kr": "극한 시뮬레이터 Lv.1",
+      "en": "Extreme Simulator Lv. 1",
+      "ja": "",
+      "zh_tw": "極限模擬裝置Lv.1",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000102,
+      "kr": "극한 시뮬레이터 Lv.2",
+      "en": "Extreme Simulator Lv. 2",
+      "ja": "",
+      "zh_tw": "極限模擬裝置Lv.2",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000103,
+      "kr": "극한 시뮬레이터 Lv.3",
+      "en": "Extreme Simulator Lv. 3",
+      "ja": "",
+      "zh_tw": "極限模擬裝置Lv.3",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000104,
+      "kr": "극한 시뮬레이터 Lv.4",
+      "en": "Extreme Simulator Lv. 4",
+      "ja": "",
+      "zh_tw": "極限模擬裝置Lv.4",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000105,
+      "kr": "극한 시뮬레이터 Lv.5",
+      "en": "Extreme Simulator Lv. 5",
+      "ja": "",
+      "zh_tw": "極限模擬裝置Lv.5",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000106,
+      "kr": "극한 시뮬레이터 Lv.6",
+      "en": "Extreme Simulator Lv. 6",
+      "ja": "",
+      "zh_tw": "極限模擬裝置Lv.6",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000107,
+      "kr": "극한 시뮬레이터 Lv.7",
+      "en": "Extreme Simulator Lv. 7",
+      "ja": "",
+      "zh_tw": "極限模擬裝置Lv.7",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000108,
+      "kr": "극한 시뮬레이터 Lv.8",
+      "en": "Extreme Simulator Lv. 8",
+      "ja": "",
+      "zh_tw": "極限模擬裝置Lv.8",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000109,
+      "kr": "극한 시뮬레이터 Lv.9",
+      "en": "Extreme Simulator Lv. 9",
+      "ja": "",
+      "zh_tw": "極限模擬裝置Lv.9",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000110,
+      "kr": "극한 시뮬레이터 Lv.10",
+      "en": "Extreme Simulator Lv. 10",
+      "ja": "",
+      "zh_tw": "極限模擬裝置Lv.10",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000201,
+      "kr": "모든 적의 체력이 소폭 상승한다.",
+      "en": "Slightly increases the HP of all enemies.",
+      "ja": "",
+      "zh_tw": "所有敵人的體力小幅上升",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000202,
+      "kr": "모든 적의 공격력, 방어력, 체력이 소폭 상승한다.",
+      "en": "Slightly increases the ATK, DEF, and HP of all enemies.",
+      "ja": "",
+      "zh_tw": "所有敵人的攻擊力、防禦力、體力小幅上升",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000203,
+      "kr": "모든 적의 공격력, 방어력, 체력이 소폭 상승한다.",
+      "en": "Slightly increases the ATK, DEF, and HP of all enemies.",
+      "ja": "",
+      "zh_tw": "所有敵人的攻擊力、防禦力、體力小幅上升",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000204,
+      "kr": "모든 적의 공격력, 방어력, 체력이 상승한다.",
+      "en": "Increases the ATK, DEF, and HP of all enemies.",
+      "ja": "",
+      "zh_tw": "所有敵人的攻擊力、防禦力、體力上升",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000205,
+      "kr": "모든 적의 공격력, 방어력, 체력이 상승한다.",
+      "en": "Increases the ATK, DEF, and HP of all enemies.",
+      "ja": "",
+      "zh_tw": "所有敵人的攻擊力、防禦力、體力上升",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000206,
+      "kr": "모든 적의 공격력, 방어력, 체력이 상승한다.",
+      "en": "Increases the ATK, DEF, and HP of all enemies.",
+      "ja": "",
+      "zh_tw": "所有敵人的攻擊力、防禦力、體力上升",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000207,
+      "kr": "모든 적의 공격력, 방어력, 체력이 대폭 상승한다.",
+      "en": "Greatly increases the ATK, DEF, and HP of all enemies.",
+      "ja": "",
+      "zh_tw": "所有敵人的攻擊力、防禦力、體力大幅上升",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000208,
+      "kr": "모든 적의 공격력, 방어력, 체력이 대폭 상승한다.",
+      "en": "Greatly increases the ATK, DEF, and HP of all enemies.",
+      "ja": "",
+      "zh_tw": "所有敵人的攻擊力、防禦力、體力大幅上升",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000209,
+      "kr": "모든 적의 공격력, 방어력, 체력이 대폭 상승한다.",
+      "en": "Greatly increases the ATK, DEF, and HP of all enemies.",
+      "ja": "",
+      "zh_tw": "所有敵人的攻擊力、防禦力、體力大幅上升",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000210,
+      "kr": "모든 적의 공격력, 방어력, 체력이 감당할 수 없을 정도로 상승한다.",
+      "en": "Overwhelmingly increases the ATK, DEF, and HP of all enemies.",
+      "ja": "",
+      "zh_tw": "所有敵人的攻擊力、防禦力、體力上升到無法承受的程度",
+      "zh_cn": ""
+    },
+    {
+      "no": 8031101,
+      "kr": "해당 제네시스 시뮬레이션에 입장하기 위해서는\r\n\r\n기원의 탑 - 나이아의 60층 클리어가 필요합니다.",
+      "en": "Clear Naiah Tower of Origin 60F\r\n\r\nto unlock this Genesis Simulation.",
+      "ja": "",
+      "zh_tw": "欲進入該起源模擬裝置\r\n\r\n須通關起源之塔－娜伊雅60層。",
+      "zh_cn": ""
+    },
+    {
+      "no": 8041001,
+      "kr": "해당 제네시스 시뮬레이션에 입장하기 위해서는\r\n\r\n기원의 탑 - 페트라의 60층 클리어가 필요합니다.",
+      "en": "Clear Petra Tower of Origin 60F\r\n\r\nto unlock this Genesis Simulation.",
+      "ja": "",
+      "zh_tw": "欲進入該起源模擬裝置\r\n\r\n須通關起源之塔－佩特拉60層。",
+      "zh_cn": ""
+    },
+    {
       "no": 20320754,
       "kr": "방어 불가",
       "en": "Defenseless",
@@ -55873,6 +56945,14 @@
       "zh_cn": ""
     },
     {
+      "no": 34500166,
+      "kr": "본선전의 위압감",
+      "en": "Pressure of Finals",
+      "ja": "",
+      "zh_tw": "正賽的壓迫感",
+      "zh_cn": ""
+    },
+    {
       "no": 34501012,
       "kr": "혈월일섬",
       "en": "Blood Moon Flash Strike",
@@ -56190,6 +57270,14 @@
       "en": "Jealousy",
       "ja": "",
       "zh_tw": "嫉妒",
+      "zh_cn": ""
+    },
+    {
+      "no": 34661091,
+      "kr": "At, emhuad",
+      "en": "At, emhuad",
+      "ja": "",
+      "zh_tw": "At, emhuad",
       "zh_cn": ""
     },
     {
@@ -58275,7 +59363,7 @@
     {
       "no": 35320940,
       "kr": "지속적으로 토용군이 4마리가 될 때 까지 소환한다. ",
-      "en": "Keeps summoning Clay Creatures to always have four in battle.",
+      "en": "Keeps summoning Clay Creatures to always have four in battle. ",
       "ja": "",
       "zh_tw": "持續召喚直到有4個土俑軍為止",
       "zh_cn": ""
@@ -58301,7 +59389,7 @@
       "kr": "전투 중 <토용군>이 처치 될 때 마다 피해를 받고 <토용군>을 소환한다.",
       "en": "Whenever a \"Clay Creature\" is defeated during battle, she takes the damage and summons another \"Clay Creature.\"",
       "ja": "",
-      "zh_tw": "戰鬥中，每當＜土俑軍＞被擊殺時，自身會受到傷害，召喚新的＜土俑軍＞",
+      "zh_tw": "戰鬥中，每當＜土俑軍＞被擊殺時會受到傷害，召喚＜土俑軍＞",
       "zh_cn": ""
     },
     {
@@ -58582,6 +59670,14 @@
       "en": "Deals DoT and increases total damage received.",
       "ja": "持続的にダメージを受け、受ける最終ダメージ量が上昇する。",
       "zh_tw": "持續受到傷害，且所受最終傷害量上升",
+      "zh_cn": ""
+    },
+    {
+      "no": 35500166,
+      "kr": "다프네 버프 효과 중 <충격 흡수>의 누적 피해량에 따른 추가 피해가 <충격 발산> 스킬에 적용되지 않는다.",
+      "en": "The additional damage based on the cumulative damage of \"Shock Absorption\" of Daphne buff does not apply to \"Shock Release.\"",
+      "ja": "",
+      "zh_tw": "達芙妮增益效果中，根據＜吸收衝擊＞累積傷害量決定的額外傷害不會套用至技能＜發散衝擊＞",
       "zh_cn": ""
     },
     {
@@ -58886,6 +59982,14 @@
       "en": "Nothing can be taken for granted in this world. You were simply not chosen.",
       "ja": "",
       "zh_tw": "世界上沒有理所當然，只是你沒有被選擇而已",
+      "zh_cn": ""
+    },
+    {
+      "no": 35661091,
+      "kr": "Omz Kag Emhq Ge?",
+      "en": "Omz Kag Emhq Ge?",
+      "ja": "",
+      "zh_tw": "Omz Kag Emhq Ge?",
       "zh_cn": ""
     },
     {

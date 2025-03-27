@@ -19432,6 +19432,709 @@
       "item_amount": 5,
       "draw_limit": 1,
       "item_type": 3
+    },
+    {
+      "no": 1958,
+      "shop_no": 10026,
+      "draw_box": 1,
+      "item_no": 44101,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 1,
+      "draw_weight": 3000
+    },
+    {
+      "no": 1959,
+      "shop_no": 10026,
+      "draw_box": 1,
+      "item_no": 28,
+      "item_amount": 1,
+      "draw_limit": 2,
+      "item_type": 2,
+      "draw_weight": 7000
+    },
+    {
+      "no": 1960,
+      "shop_no": 10026,
+      "draw_box": 1,
+      "item_no": 45,
+      "item_amount": 1,
+      "draw_limit": 4,
+      "item_type": 2,
+      "draw_weight": 12000
+    },
+    {
+      "no": 1961,
+      "shop_no": 10026,
+      "draw_box": 1,
+      "item_no": 66,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 2,
+      "draw_weight": 5000
+    },
+    {
+      "no": 1962,
+      "shop_no": 10026,
+      "draw_box": 1,
+      "item_no": 30,
+      "item_amount": 60,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 1963,
+      "shop_no": 10026,
+      "draw_box": 1,
+      "item_no": 4,
+      "item_amount": 50,
+      "draw_limit": 9,
+      "item_type": 2,
+      "draw_weight": 15000
+    },
+    {
+      "no": 1964,
+      "shop_no": 10026,
+      "draw_box": 1,
+      "item_no": 3,
+      "item_amount": 10000,
+      "draw_limit": 10,
+      "item_type": 2,
+      "draw_weight": 24000
+    },
+    {
+      "no": 1965,
+      "shop_no": 10026,
+      "draw_box": 1,
+      "item_no": 1,
+      "item_amount": 10000,
+      "draw_limit": 10,
+      "item_type": 2,
+      "draw_weight": 24000
+    },
+    {
+      "no": 1966,
+      "shop_no": 10026,
+      "draw_box": 1,
+      "item_no": 45,
+      "item_amount": 5,
+      "draw_limit": 1,
+      "item_type": 3
+    },
+    {
+      "no": 1967,
+      "shop_no": 10026,
+      "draw_box": 2,
+      "item_no": 3323,
+      "item_amount": 60,
+      "draw_limit": 1,
+      "item_type": 1,
+      "draw_weight": 3000
+    },
+    {
+      "no": 1968,
+      "shop_no": 10026,
+      "draw_box": 2,
+      "item_no": 28,
+      "item_amount": 1,
+      "draw_limit": 2,
+      "item_type": 2,
+      "draw_weight": 7000
+    },
+    {
+      "no": 1969,
+      "shop_no": 10026,
+      "draw_box": 2,
+      "item_no": 45,
+      "item_amount": 1,
+      "draw_limit": 4,
+      "item_type": 2,
+      "draw_weight": 12000
+    },
+    {
+      "no": 1970,
+      "shop_no": 10026,
+      "draw_box": 2,
+      "item_no": 66,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 2,
+      "draw_weight": 5000
+    },
+    {
+      "no": 1971,
+      "shop_no": 10026,
+      "draw_box": 2,
+      "item_no": 30,
+      "item_amount": 60,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 1972,
+      "shop_no": 10026,
+      "draw_box": 2,
+      "item_no": 4,
+      "item_amount": 50,
+      "draw_limit": 9,
+      "item_type": 2,
+      "draw_weight": 15000
+    },
+    {
+      "no": 1973,
+      "shop_no": 10026,
+      "draw_box": 2,
+      "item_no": 3,
+      "item_amount": 10000,
+      "draw_limit": 10,
+      "item_type": 2,
+      "draw_weight": 24000
+    },
+    {
+      "no": 1974,
+      "shop_no": 10026,
+      "draw_box": 2,
+      "item_no": 1,
+      "item_amount": 10000,
+      "draw_limit": 10,
+      "item_type": 2,
+      "draw_weight": 24000
+    },
+    {
+      "no": 1975,
+      "shop_no": 10026,
+      "draw_box": 2,
+      "item_no": 45,
+      "item_amount": 5,
+      "draw_limit": 1,
+      "item_type": 3
+    },
+    {
+      "no": 1976,
+      "shop_no": 10026,
+      "draw_box": 3,
+      "item_no": 3345,
+      "item_amount": 60,
+      "draw_limit": 1,
+      "item_type": 1,
+      "draw_weight": 3000
+    },
+    {
+      "no": 1977,
+      "shop_no": 10026,
+      "draw_box": 3,
+      "item_no": 28,
+      "item_amount": 1,
+      "draw_limit": 2,
+      "item_type": 2,
+      "draw_weight": 7000
+    },
+    {
+      "no": 1978,
+      "shop_no": 10026,
+      "draw_box": 3,
+      "item_no": 45,
+      "item_amount": 1,
+      "draw_limit": 4,
+      "item_type": 2,
+      "draw_weight": 12000
+    },
+    {
+      "no": 1979,
+      "shop_no": 10026,
+      "draw_box": 3,
+      "item_no": 66,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 2,
+      "draw_weight": 5000
+    },
+    {
+      "no": 1980,
+      "shop_no": 10026,
+      "draw_box": 3,
+      "item_no": 30,
+      "item_amount": 60,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 1981,
+      "shop_no": 10026,
+      "draw_box": 3,
+      "item_no": 4,
+      "item_amount": 50,
+      "draw_limit": 9,
+      "item_type": 2,
+      "draw_weight": 15000
+    },
+    {
+      "no": 1982,
+      "shop_no": 10026,
+      "draw_box": 3,
+      "item_no": 3,
+      "item_amount": 10000,
+      "draw_limit": 10,
+      "item_type": 2,
+      "draw_weight": 24000
+    },
+    {
+      "no": 1983,
+      "shop_no": 10026,
+      "draw_box": 3,
+      "item_no": 1,
+      "item_amount": 10000,
+      "draw_limit": 10,
+      "item_type": 2,
+      "draw_weight": 24000
+    },
+    {
+      "no": 1984,
+      "shop_no": 10026,
+      "draw_box": 3,
+      "item_no": 45,
+      "item_amount": 5,
+      "draw_limit": 1,
+      "item_type": 3
+    },
+    {
+      "no": 1985,
+      "shop_no": 10026,
+      "draw_box": 4,
+      "item_no": 31,
+      "item_amount": 60,
+      "draw_limit": 1,
+      "item_type": 1,
+      "draw_weight": 3000
+    },
+    {
+      "no": 1986,
+      "shop_no": 10026,
+      "draw_box": 4,
+      "item_no": 28,
+      "item_amount": 1,
+      "draw_limit": 2,
+      "item_type": 2,
+      "draw_weight": 6000
+    },
+    {
+      "no": 1987,
+      "shop_no": 10026,
+      "draw_box": 4,
+      "item_no": 45,
+      "item_amount": 1,
+      "draw_limit": 4,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 1988,
+      "shop_no": 10026,
+      "draw_box": 4,
+      "item_no": 66,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 2,
+      "draw_weight": 4000
+    },
+    {
+      "no": 1989,
+      "shop_no": 10026,
+      "draw_box": 4,
+      "item_no": 30,
+      "item_amount": 60,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 9000
+    },
+    {
+      "no": 1990,
+      "shop_no": 10026,
+      "draw_box": 4,
+      "item_no": 21,
+      "item_amount": 3,
+      "draw_limit": 5,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 1991,
+      "shop_no": 10026,
+      "draw_box": 4,
+      "item_no": 20,
+      "item_amount": 5,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 9000
+    },
+    {
+      "no": 1992,
+      "shop_no": 10026,
+      "draw_box": 4,
+      "item_no": 4,
+      "item_amount": 50,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 13000
+    },
+    {
+      "no": 1993,
+      "shop_no": 10026,
+      "draw_box": 4,
+      "item_no": 3,
+      "item_amount": 10000,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 18000
+    },
+    {
+      "no": 1994,
+      "shop_no": 10026,
+      "draw_box": 4,
+      "item_no": 1,
+      "item_amount": 10000,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 18000
+    },
+    {
+      "no": 1995,
+      "shop_no": 10026,
+      "draw_box": 4,
+      "item_no": 45,
+      "item_amount": 5,
+      "draw_limit": 1,
+      "item_type": 3
+    },
+    {
+      "no": 1996,
+      "shop_no": 10026,
+      "draw_box": 5,
+      "item_no": 64,
+      "item_amount": 8,
+      "draw_limit": 1,
+      "item_type": 1,
+      "draw_weight": 3000
+    },
+    {
+      "no": 1997,
+      "shop_no": 10026,
+      "draw_box": 5,
+      "item_no": 28,
+      "item_amount": 1,
+      "draw_limit": 2,
+      "item_type": 2,
+      "draw_weight": 6000
+    },
+    {
+      "no": 1998,
+      "shop_no": 10026,
+      "draw_box": 5,
+      "item_no": 45,
+      "item_amount": 1,
+      "draw_limit": 4,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 1999,
+      "shop_no": 10026,
+      "draw_box": 5,
+      "item_no": 66,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 2,
+      "draw_weight": 4000
+    },
+    {
+      "no": 2000,
+      "shop_no": 10026,
+      "draw_box": 5,
+      "item_no": 30,
+      "item_amount": 60,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 9000
+    },
+    {
+      "no": 2001,
+      "shop_no": 10026,
+      "draw_box": 5,
+      "item_no": 21,
+      "item_amount": 3,
+      "draw_limit": 5,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 2002,
+      "shop_no": 10026,
+      "draw_box": 5,
+      "item_no": 20,
+      "item_amount": 5,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 9000
+    },
+    {
+      "no": 2003,
+      "shop_no": 10026,
+      "draw_box": 5,
+      "item_no": 4,
+      "item_amount": 50,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 13000
+    },
+    {
+      "no": 2004,
+      "shop_no": 10026,
+      "draw_box": 5,
+      "item_no": 3,
+      "item_amount": 10000,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 18000
+    },
+    {
+      "no": 2005,
+      "shop_no": 10026,
+      "draw_box": 5,
+      "item_no": 1,
+      "item_amount": 10000,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 18000
+    },
+    {
+      "no": 2006,
+      "shop_no": 10026,
+      "draw_box": 5,
+      "item_no": 45,
+      "item_amount": 5,
+      "draw_limit": 1,
+      "item_type": 3
+    },
+    {
+      "no": 2007,
+      "shop_no": 10026,
+      "draw_box": 6,
+      "item_no": 4010,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 1,
+      "draw_weight": 3000
+    },
+    {
+      "no": 2008,
+      "shop_no": 10026,
+      "draw_box": 6,
+      "item_no": 28,
+      "item_amount": 1,
+      "draw_limit": 2,
+      "item_type": 2,
+      "draw_weight": 6000
+    },
+    {
+      "no": 2009,
+      "shop_no": 10026,
+      "draw_box": 6,
+      "item_no": 45,
+      "item_amount": 1,
+      "draw_limit": 4,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 2010,
+      "shop_no": 10026,
+      "draw_box": 6,
+      "item_no": 66,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 2,
+      "draw_weight": 4000
+    },
+    {
+      "no": 2011,
+      "shop_no": 10026,
+      "draw_box": 6,
+      "item_no": 30,
+      "item_amount": 60,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 9000
+    },
+    {
+      "no": 2012,
+      "shop_no": 10026,
+      "draw_box": 6,
+      "item_no": 21,
+      "item_amount": 3,
+      "draw_limit": 5,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 2013,
+      "shop_no": 10026,
+      "draw_box": 6,
+      "item_no": 20,
+      "item_amount": 5,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 9000
+    },
+    {
+      "no": 2014,
+      "shop_no": 10026,
+      "draw_box": 6,
+      "item_no": 4,
+      "item_amount": 50,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 13000
+    },
+    {
+      "no": 2015,
+      "shop_no": 10026,
+      "draw_box": 6,
+      "item_no": 3,
+      "item_amount": 10000,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 18000
+    },
+    {
+      "no": 2016,
+      "shop_no": 10026,
+      "draw_box": 6,
+      "item_no": 1,
+      "item_amount": 10000,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 18000
+    },
+    {
+      "no": 2017,
+      "shop_no": 10026,
+      "draw_box": 6,
+      "item_no": 45,
+      "item_amount": 5,
+      "draw_limit": 1,
+      "item_type": 3
+    },
+    {
+      "no": 2018,
+      "shop_no": 10026,
+      "draw_box": 7,
+      "item_no": 45,
+      "item_amount": 40,
+      "draw_limit": 1,
+      "item_type": 1,
+      "draw_weight": 3000
+    },
+    {
+      "no": 2019,
+      "shop_no": 10026,
+      "draw_box": 7,
+      "item_no": 28,
+      "item_amount": 1,
+      "draw_limit": 2,
+      "item_type": 2,
+      "draw_weight": 6000
+    },
+    {
+      "no": 2020,
+      "shop_no": 10026,
+      "draw_box": 7,
+      "item_no": 2,
+      "item_amount": 100,
+      "draw_limit": 4,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 2021,
+      "shop_no": 10026,
+      "draw_box": 7,
+      "item_no": 66,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 2,
+      "draw_weight": 4000
+    },
+    {
+      "no": 2022,
+      "shop_no": 10026,
+      "draw_box": 7,
+      "item_no": 30,
+      "item_amount": 60,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 9000
+    },
+    {
+      "no": 2023,
+      "shop_no": 10026,
+      "draw_box": 7,
+      "item_no": 21,
+      "item_amount": 3,
+      "draw_limit": 5,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 2024,
+      "shop_no": 10026,
+      "draw_box": 7,
+      "item_no": 20,
+      "item_amount": 5,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 9000
+    },
+    {
+      "no": 2025,
+      "shop_no": 10026,
+      "draw_box": 7,
+      "item_no": 4,
+      "item_amount": 50,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 13000
+    },
+    {
+      "no": 2026,
+      "shop_no": 10026,
+      "draw_box": 7,
+      "item_no": 3,
+      "item_amount": 10000,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 18000
+    },
+    {
+      "no": 2027,
+      "shop_no": 10026,
+      "draw_box": 7,
+      "item_no": 1,
+      "item_amount": 10000,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 18000
+    },
+    {
+      "no": 2028,
+      "shop_no": 10026,
+      "draw_box": 7,
+      "item_no": 45,
+      "item_amount": 5,
+      "draw_limit": 1,
+      "item_type": 3
     }
   ]
 }

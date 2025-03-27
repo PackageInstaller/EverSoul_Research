@@ -82041,6 +82041,7 @@
       "code1": 504911,
       "code_extend": "0",
       "target": 110607,
+      "cool_time": 999.0,
       "range": 20.0,
       "anim_path": "None",
       "icon_prefab": 12
@@ -82058,6 +82059,7 @@
       "code1": 504921,
       "code_extend": "0",
       "target": 110607,
+      "cool_time": 999.0,
       "range": 20.0,
       "anim_path": "None",
       "icon_prefab": 12
@@ -82075,6 +82077,7 @@
       "code1": 504931,
       "code_extend": "0",
       "target": 110607,
+      "cool_time": 999.0,
       "range": 20.0,
       "anim_path": "None",
       "icon_prefab": 12
@@ -82092,6 +82095,7 @@
       "code1": 504941,
       "code_extend": "0",
       "target": 110607,
+      "cool_time": 999.0,
       "range": 20.0,
       "anim_path": "None",
       "icon_prefab": 12
@@ -82109,6 +82113,7 @@
       "code1": 504951,
       "code_extend": "0",
       "target": 110607,
+      "cool_time": 999.0,
       "range": 20.0,
       "anim_path": "None",
       "icon_prefab": 12
@@ -82126,6 +82131,7 @@
       "code1": 504961,
       "code_extend": "0",
       "target": 110607,
+      "cool_time": 999.0,
       "range": 20.0,
       "anim_path": "None",
       "icon_prefab": 12
@@ -82143,6 +82149,7 @@
       "code1": 504971,
       "code_extend": "0",
       "target": 110607,
+      "cool_time": 999.0,
       "range": 20.0,
       "anim_path": "None",
       "icon_prefab": 12
@@ -82160,6 +82167,7 @@
       "code1": 504971,
       "code_extend": "0",
       "target": 110607,
+      "cool_time": 999.0,
       "range": 20.0,
       "anim_path": "None",
       "icon_prefab": 12
@@ -82177,6 +82185,7 @@
       "code1": 504971,
       "code_extend": "0",
       "target": 110607,
+      "cool_time": 999.0,
       "range": 20.0,
       "anim_path": "None",
       "icon_prefab": 12
@@ -82194,6 +82203,7 @@
       "code1": 504971,
       "code_extend": "0",
       "target": 110607,
+      "cool_time": 999.0,
       "range": 20.0,
       "anim_path": "None",
       "icon_prefab": 12
@@ -82211,6 +82221,7 @@
       "code1": 504971,
       "code_extend": "0",
       "target": 110607,
+      "cool_time": 999.0,
       "range": 20.0,
       "anim_path": "None",
       "icon_prefab": 12
@@ -82228,6 +82239,7 @@
       "code1": 504971,
       "code_extend": "0",
       "target": 110607,
+      "cool_time": 999.0,
       "range": 20.0,
       "anim_path": "None",
       "icon_prefab": 12
@@ -82288,6 +82300,19 @@
     },
     {
       "index": 4293,
+      "no": 665090,
+      "type": 110500,
+      "hero_level": 1,
+      "level": 1,
+      "code_extend": "0",
+      "global_cooltime": 999.0,
+      "target": 110607,
+      "range": 20.0,
+      "anim_path": "Attack",
+      "icon_prefab": 1
+    },
+    {
+      "index": 4294,
       "no": 661091,
       "name_sno": 34661091,
       "tooltip_sno": 35661091,
@@ -82295,6 +82320,7 @@
       "hero_level": 1,
       "level": 1,
       "code1": 703981,
+      "code2": 703999,
       "code_extend": "0",
       "global_cooltime": 999.0,
       "target": 110607,
@@ -82303,7 +82329,7 @@
       "icon_prefab": 13
     },
     {
-      "index": 4294,
+      "index": 4295,
       "no": 661092,
       "type": 110503,
       "hero_level": 1,
@@ -82313,6 +82339,7 @@
       "code3": 703402,
       "code4": 703403,
       "code5": 661091,
+      "code6": 6611588,
       "code_extend": "0",
       "target": 110601,
       "cool_time": 999.0,
@@ -82321,7 +82348,7 @@
       "icon_prefab": 13
     },
     {
-      "index": 4295,
+      "index": 4296,
       "no": 662091,
       "name_sno": 34661091,
       "tooltip_sno": 35661091,
@@ -82340,7 +82367,7 @@
       "icon_prefab": 13
     },
     {
-      "index": 4296,
+      "index": 4297,
       "no": 662092,
       "type": 110503,
       "hero_level": 1,
@@ -82348,7 +82375,9 @@
       "code1": 703402,
       "code2": 703403,
       "code3": 703984,
+      "code4": 703998,
       "code6": 661098,
+      "code8": 870010,
       "code_extend": "0",
       "target": 110601,
       "cool_time": 999.0,
@@ -82357,7 +82386,7 @@
       "icon_prefab": 13
     },
     {
-      "index": 4297,
+      "index": 4298,
       "no": 663091,
       "name_sno": 34661091,
       "tooltip_sno": 35661091,
@@ -82367,9 +82396,9 @@
       "code1": 703402,
       "code2": 703403,
       "code3": 703984,
-      "code4": 703987,
-      "code5": 703988,
       "code6": 661098,
+      "code7": 703998,
+      "code8": 870010,
       "code_extend": "0",
       "target": 110601,
       "cool_time": 999.0,
@@ -82387,6 +82416,7 @@
       "level": 1,
       "code1": 703991,
       "code_extend": "0",
+      "global_cooltime": 3.0,
       "target": 110607,
       "range": 20.0,
       "anim_path": "Skill02",
@@ -82403,6 +82433,8 @@
       "code3": 703402,
       "code4": 703403,
       "code5": 664091,
+      "code6": 703998,
+      "code8": 870010,
       "code_extend": "0",
       "target": 110601,
       "cool_time": 999.0,
@@ -82419,6 +82451,38 @@
       "code1": 999999,
       "code_extend": "0",
       "global_cooltime": 999.0,
+      "target": 110607,
+      "cool_time": 999.0,
+      "range": 20.0,
+      "anim_path": "None",
+      "icon_prefab": 13
+    },
+    {
+      "index": 4302,
+      "no": 665091,
+      "name_sno": 34661091,
+      "tooltip_sno": 35661091,
+      "type": 110502,
+      "hero_level": 1,
+      "level": 1,
+      "code_extend": "0",
+      "global_cooltime": 999.0,
+      "target": 110607,
+      "range": 20.0,
+      "anim_path": "Skill01",
+      "icon_prefab": 13
+    },
+    {
+      "index": 4303,
+      "no": 665092,
+      "type": 110503,
+      "hero_level": 1,
+      "level": 1,
+      "code1": 703400,
+      "code2": 703401,
+      "code3": 703402,
+      "code4": 703403,
+      "code_extend": "0",
       "target": 110607,
       "cool_time": 999.0,
       "range": 20.0,

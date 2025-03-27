@@ -2694,6 +2694,27 @@
       "block_back": 1
     },
     {
+      "no": 8001,
+      "type": "OnUIClosed",
+      "extra_condition": "None",
+      "condition_params": "0",
+      "is_win_battle": 1,
+      "trigger_ui": "UI_TOWN_ARBEITINFO",
+      "formation": "0, 0, 0, 0, 0",
+      "button_name": "",
+      "item_no": "0",
+      "item_amount": "0",
+      "action": "0",
+      "action_params": "0",
+      "camera": "",
+      "camera_target": "",
+      "open_ui": "",
+      "add_fairy_no": "0",
+      "active_objects": "",
+      "unactive_objects": "TownTutorial12-1, TutorialObjet_Arbeit, TutorialObjet_Arbeit2",
+      "block_back": 1
+    },
+    {
       "no": 8100,
       "type": "OnClickButton",
       "extra_condition": "ShowSince",

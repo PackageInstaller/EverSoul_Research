@@ -87155,7 +87155,7 @@
       "target_key": 1100,
       "value": 661091.0,
       "condition_type": 1,
-      "fx_path": "none",
+      "fx_path": "Fx_LizelotteRaid_Attack_Lightning_00",
       "penetration": 1
     },
     {
@@ -87217,6 +87217,16 @@
       "is_ally": 1,
       "target_key": 1100,
       "value": 664091.0,
+      "condition_type": 1,
+      "fx_path": "Fx_NPCDarkknightRaid_BodyDel_01",
+      "penetration": 1
+    },
+    {
+      "no": 665090,
+      "function_key": 38,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 661095.0,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -93509,7 +93519,7 @@
       "no": 703991,
       "function_key": 1,
       "target_key": 1208,
-      "value": 5.0,
+      "value": 3.0,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -93518,10 +93528,31 @@
       "no": 703992,
       "function_key": 1,
       "target_key": 1208,
-      "value": 3.0,
+      "value": 2.0,
       "condition_type": 1,
-      "fx_path": "none",
+      "fx_path": "Fx_JacquelineRaid_Skill04_AddWpAtt_00",
       "penetration": 1
+    },
+    {
+      "no": 703998,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 100000.0,
+      "condition_type": 1,
+      "fx_path": "Fx_WheriRaid_Skill02_WSpider_Summon_00",
+      "penetration": 1
+    },
+    {
+      "no": 703999,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 100000.0,
+      "condition_type": 1,
+      "fx_path": "Fx_NPCDarkknightRaid_BodyDel_00",
+      "penetration": 1,
+      "delay": 4.7
     },
     {
       "no": 710411,
@@ -98597,6 +98628,14 @@
       "is_ally": 1,
       "target_key": 1100,
       "value": 950700.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 950901,
+      "function_key": 30,
+      "target_key": 1208,
+      "value": 950901.0,
       "condition_type": 1,
       "fx_path": "none"
     },
@@ -142107,7 +142146,7 @@
       "no": 5301011,
       "function_key": 1,
       "target_key": 2100,
-      "value": 2.0,
+      "value": 1.5,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -142116,7 +142155,7 @@
       "no": 5301021,
       "function_key": 1,
       "target_key": 2100,
-      "value": 2.5,
+      "value": 2.0,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -142125,7 +142164,7 @@
       "no": 5301031,
       "function_key": 1,
       "target_key": 2100,
-      "value": 3.0,
+      "value": 2.5,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -142134,7 +142173,7 @@
       "no": 5301041,
       "function_key": 1,
       "target_key": 2100,
-      "value": 3.5,
+      "value": 3.0,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -142152,7 +142191,7 @@
       "no": 5301111,
       "function_key": 1,
       "target_key": 1208,
-      "value": 4.0,
+      "value": 3.0,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -142161,7 +142200,7 @@
       "no": 5301121,
       "function_key": 1,
       "target_key": 1208,
-      "value": 5.5,
+      "value": 4.5,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -142170,7 +142209,7 @@
       "no": 5301131,
       "function_key": 1,
       "target_key": 1208,
-      "value": 7.5,
+      "value": 6.0,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -142207,7 +142246,7 @@
       "no": 5301141,
       "function_key": 1,
       "target_key": 1208,
-      "value": 9.5,
+      "value": 7.5,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -142216,7 +142255,7 @@
       "no": 5301142,
       "function_key": 1,
       "target_key": 1208,
-      "value": 4.5,
+      "value": 3.5,
       "condition_type": 1,
       "condition_id1": 5301050,
       "fx_path": "none",
@@ -142443,7 +142482,7 @@
       "no": 5301421,
       "function_key": 1,
       "target_key": 1208,
-      "value": 1.25,
+      "value": 1.15,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -142461,7 +142500,7 @@
       "no": 5301429,
       "function_key": 1,
       "target_key": 1208,
-      "value": 2.5,
+      "value": 2.3,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -142470,7 +142509,7 @@
       "no": 5301431,
       "function_key": 1,
       "target_key": 1208,
-      "value": 1.5,
+      "value": 1.3,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -142489,7 +142528,7 @@
       "no": 5301439,
       "function_key": 1,
       "target_key": 1208,
-      "value": 3.0,
+      "value": 2.6,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -142498,7 +142537,7 @@
       "no": 5301441,
       "function_key": 1,
       "target_key": 1208,
-      "value": 1.75,
+      "value": 1.5,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -142516,7 +142555,7 @@
       "no": 5301449,
       "function_key": 1,
       "target_key": 1208,
-      "value": 3.5,
+      "value": 3.0,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1

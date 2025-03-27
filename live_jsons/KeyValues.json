@@ -802,7 +802,7 @@
     },
     {
       "key_name": "EVENT_BOSS_RUSH_RAID_ENTER_EVERSTONE_PRICE",
-      "values_data": "[300, 300, 300, 300, 300]",
+      "values_data": "[150, 150, 150, 150, 150]",
       "type": 2
     },
     {
@@ -952,7 +952,7 @@
     },
     {
       "key_name": "EVENT_TICKET_BOSS_RUSH_REWARD_AMOUNT",
-      "values_data": "[1,2,3,4,5]",
+      "values_data": "[3,3,3,3,3]",
       "type": 2
     },
     {
@@ -1962,7 +1962,7 @@
     },
     {
       "key_name": "START_CHERRYBLOSSOM_DAY_VALUE",
-      "values_data": "[240328, 240411]",
+      "values_data": "[250327, 250409]",
       "type": 2
     },
     {
@@ -2197,12 +2197,17 @@
     },
     {
       "key_name": "WEATHER_CHANGE_CHECK",
-      "values_data": "[2, 8]",
+      "values_data": "[3, 8]",
       "type": 2
     },
     {
       "key_name": "WISHLIST_GACHA_GUARANTEE_EPIC_COUNT",
       "values_data": "30",
+      "type": 1
+    },
+    {
+      "key_name": "WISHLIST_NEW_FAIRY_DISPLAY_DATE",
+      "values_data": "7",
       "type": 1
     },
     {
