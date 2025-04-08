@@ -465,7 +465,7 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
  * @brief 密钥派生函数
  * @param key 解密密钥
  * @param iv 初始化向量
- * @return 解密成功返回true，失败返回false
+ * @return sha256成功返回true，失败返回false
  */
 bool deriveKeyAndIv(std::vector<u_int8_t> &key, std::vector<u_int8_t> &iv)
 {

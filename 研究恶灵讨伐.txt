@@ -1,0 +1,436 @@
+SingleRaidBossLevelGrade里面记录的倍数是血量的倍数
+{
+      "index": 751,
+      "level": 800,
+      "value": 2.75
+}
+
+
+SingleRaid
+{
+    {
+      "no": 19,
+      "level_group": 9001
+      "stage_no": 91009,Stage->no->battle_time 拿到战斗时长，秒为单位
+      "guide_sno": 110667, StringUI->no->zh_tw 讨伐攻略
+      "story_no": 3000009,
+      "bg_path": "Nyah_Raid",
+      "event_bg_path": "",
+      "bg_position": "[0,-330,0]",
+      "sound_path": "BGM_CT_EvilNyah",
+      "behavior1": 981,
+      "behavior2": 982,
+      "behavior3": 983,
+      "behavior4": 984,
+      "behavior5": 985,
+      "behavior6": 986,
+      "behavior7": 987,
+      "behavior8": 988,
+      "quest_category": 2009
+    }
+}
+
+SingleRaidBoss,从这里面找到level_group符合的boss_max_level最大的那个内容，这里举例最大是800
+{
+    {
+      "no": 9028, 去SingleRaidBossGroggyTrigger寻找single_raid_boss_no符合的内容
+      "level_group": 9001,
+      "boss_no": 66009, Hero->hero_id 拿详细内容
+      "boss_min_level": 776,
+      "boss_max_level": 800,
+      "groggy_ratio": 9000.0, 这里是护盾量
+      "groggy_desc": 323110000,
+      "formation_type": 5,
+      "reward_item1_no": 18, 击杀奖励，用get_string_item函数拿名字
+      "reward_item1_amount": 1600, 数量
+      "reward_item2_no": 52, 击杀奖励，用get_string_item函数拿名字
+      "reward_item2_amount": 50 数量
+    },
+}
+
+SingleRaidBossGroggyTrigger 这里是恶灵被破盾后的的效果
+{
+    {
+      "single_raid_boss_no": 9028,
+      "groggy_skill_code1": 9912901,
+      "groggy_skill_code2": 9912902,
+      "groggy_skill_code3": 9912903,
+      "groggy_skill_code4": 9912906,
+      "groggy_skill_code5": 9912907,
+      "groggy_skill_code6": 9912908,
+      "type1": 1,
+      "value1": 100.0,
+      "type2": 2,
+      "type3": 3,
+      "value3": 100.0,
+      "type4": 4,
+      "recovery_duration": 12, 恢复持续时间12秒
+      "sound_path": "NyahRaid_Groggy"
+    },
+}
+
+Hero 恶灵的详细信息
+{
+    {
+      "no": 66009,
+      "hero_id": 66009,
+      "name_sno": 3050301, StringCharacter->no->zh_tw 名字 娜伊娅
+      "race_sno": 110054, StringSystem->no->zh_tw 类型 妖精型
+      "class_sno": 110102, StringSystem->no->zh_tw 类型 游侠
+      "sub_class_sno": 110111, StringSystem->no->zh_tw 攻击方式
+      "stat_sno": 110044, StringSystem->no->zh_tw 属性 智力
+      "grade_sno": 110014,
+      "max_grade_sno": 110025,
+      "base_attack": 503010,
+      "skill_no1": 503011,
+      "skill_no2": 503012,
+      "skill_no3": 503013,
+      "skill_no4": 503014,
+      "skill_no5": 503016,
+      "skill_no6": 503017,
+      "skill_no7": 503018,
+      "skill_no8": 503019,
+      "skill_no9": 503020,
+      "skill_no10": 503021,
+      "ultimate_skill_no": 503015,
+      "attack": 182500, 攻击力
+      "defence": 73000, 防御力
+      "max_hp": 3150445, 初始体力
+      "max_mp": 10000, 初始魔力
+      "hit": 30, 命中
+      "inc_max_hp": 3150445, 每一级加的体力，结合SingleRaidBossLevelGrade里面记录的倍数来算，例如800极就是800*倍数*3150445
+      "hero_type": 1,
+      "prefab_path": 2801,
+      "battle_power_type": 3
+    },
+}
+
+SingleRaidSeasonGimmick 这里面是恶灵的额外词条
+{
+    {
+      "no": 46,
+      "season_no": 3, SingleRaidSeason->no->season_name_no->StringUI->no->zh_tw
+      "raid_no": 19, 恶灵的id, SingleRaid->no
+      "level": 100,
+      "icon_path": "srg_nyah_3",
+      "string_no": 703911, StringSkill->no->zh_tw 对抗凶梦的人
+      "string_content_no": 703921, StringSkill->no->zh_tw 这里是描述
+      "gimmick_type1": 1,
+      "gimmick_value1": 7392, BattleBuff->no 这里拿详细技能
+      "gimmick_type2": 1,
+      "gimmick_value2": 7393 BattleBuff->no 这里拿详细技能
+    },
+    {
+      "no": 47,
+      "season_no": 3,
+      "raid_no": 19,
+      "level": 501,
+      "icon_path": "srg_nyah_4",
+      "string_no": 703912,StringSkill->no->zh_tw 额外词条
+      "string_content_no": 703922,StringSkill->no->zh_tw 这里是描述
+      "gimmick_type1": 1,
+      "gimmick_value1": 7394, 不拿
+      "gimmick_type2": 1,
+      "gimmick_value2": 7395 不拿
+    }
+}
+
+BattleBuff
+{
+
+    {
+      "no": 7392,
+      "ally_sno": 110301,
+      "race_sno": 110051,
+      "stat_sno": 110041,
+      "specific_target": 3010, 这里是hero_id，使用get_string_charcter函数可以拿到角色名字
+      "skillcode1": 703921, SkillCode->no
+      "skillcode2": 703922, SkillCode->no
+      "skillcode3": 703923 SkillCode->no
+    },
+    {
+      "no": 7393,
+      "ally_sno": 110301, StringSystem->no->zh_tw 友方（类别）
+      "race_sno": 110051, StringSystem->no->zh_tw 所有 （范围）
+      "stat_sno": 110041, StringSystem->no->zh_tw 共用（属性限制）
+      "specific_target": 3010, hero_id
+      "skillcode1": 703924, SkillCode->no
+      "skillcode2": 703925, SkillCode->no
+      "skillcode3": 703926 SkillCode->no
+    }
+} 
+
+对恶灵特殊角色的技能的额外变化
+Skill
+{
+      "index": 564,
+      "no": 3014,
+      "name_sno": 343014, StringSkill->no->zh_tw 技能名字
+      "tooltip_sno": 373014, StringSkill->no->zh_tw 技能描述
+      "type": 110502,StringSystem->no->zh_tw 辅助（类别）
+      "is_ally": 1, # 如果是1,那么就是作用全体身上的效果
+      "hero_level": 161,
+      "level": 3,
+      "code1": 5,
+      "code2": 301411,
+      "code3": 301432,
+      "code4": 301433,
+      "code_extend": "703974,703975", 这里是变化的技能id，不为0
+      "global_cooltime": 1.0, 全局冷却时间1秒
+      "target": 110607, 
+      "pre_cool_time": 4.0, 开局预热释放冷却时间4秒
+      "range": 20.0, 
+      "anim_path": "Skill03",
+      "icon_prefab": 4,
+      "skill_string": 383014
+}
+
+
+SkillCode no与value一致（如果有.0,去掉.0对比），继续拿着no去SkillBuff里面找，反之不管
+{
+    {
+      "no": 703921,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703921.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 703922,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703922.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 703923,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703923.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 703924,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703924.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 703925,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703925.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 703926,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703926.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 9912901,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 9912901.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 9912902,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 9912902.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 9912903,
+      "function_key": 4,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": -100000.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 9912904,
+      "function_key": 36,
+      "is_ally": 1,
+      "target_key": 1100,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 9912905,
+      "function_key": 36,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 4.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 9912906,
+      "function_key": 4,
+      "target_key": 1208,
+      "value": 100000.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 9912907,
+      "function_key": 7,
+      "target_key": 1208,
+      "value": 100000.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 9912908,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 9912903.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+}
+
+SkillBuff 只找这种有name和desc的，其他的忽略，duration是技能的持续时间，如果是999那么就是全局，反之就是实际的持续时间
+{
+    {
+      "no": 703921,
+      "buff_category": 5,
+      "buff_order": -99999,
+      "buff_effect": 101,
+      "value": 1.0,
+      "duration": 999.0,
+      "group": 703921,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "state_balance",
+      "name": 27482, StringSkill->no->zh_tw 技能名字
+      "desc": 27483 StringSkill->no->zh_tw 技能描述
+    },
+    {
+      "no": 703922,
+      "buff_category": 5,
+      "buff_order": -99999,
+      "buff_effect": 1002,
+      "value": 0.5,
+      "duration": 999.0,
+      "group": 703922,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 703923,
+      "buff_category": 5,
+      "buff_order": -99999,
+      "buff_effect": 103,
+      "value": 1.0,
+      "duration": 999.0,
+      "group": 703923,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 703924,
+      "buff_category": 5,
+      "buff_order": -99998,
+      "buff_effect": 1301,
+      "duration": 999.0,
+      "group": 703924,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "DOTPoison",
+      "name": 27484, StringSkill->no->zh_tw 技能名字
+      "desc": 27485 StringSkill->no->zh_tw 技能描述
+    },
+    {
+      "no": 703925,
+      "buff_category": 5,
+      "buff_order": -99997,
+      "buff_effect": 1301,
+      "duration": 999.0,
+      "group": 703925,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "Delayed_Dmg",
+      "name": 27486, StringSkill->no->zh_tw 技能名字
+      "desc": 27487 StringSkill->no->zh_tw 技能描述
+    },
+    {
+      "no": 703926,
+      "buff_category": 5,
+      "buff_order": -99996,
+      "buff_effect": 1101,
+      "value": 1.0,
+      "duration": 999.0,
+      "group": 703926,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "Managain",
+      "name": 27488, StringSkill->no->zh_tw 技能名字
+      "desc": 27489 StringSkill->no->zh_tw 技能描述
+    },
+    {
+      "no": 9912901,
+      "buff_category": 4,
+      "buff_effect": 210,
+      "duration": 12.0,
+      "group": 9912901,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "state_stun",
+      "name": 20201, StringSkill->no->zh_tw 技能名字
+      "desc": 201 StringSkill->no->zh_tw 技能描述
+    },
+    {
+      "no": 9912902,
+      "buff_category": 4,
+      "buff_effect": 3401,
+      "value": 1.0,
+      "duration": 12.0,
+      "group": 9912901,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "Defence",
+      "name": 27230, StringSkill->no->zh_tw 技能名字
+      "desc": 27231 StringSkill->no->zh_tw 技能描述
+    },
+}
+
