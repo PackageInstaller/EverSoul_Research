@@ -7468,7 +7468,7 @@
       "no": 23802,
       "kr": "아르마 솔레스",
       "en": "Arma Solis",
-      "ja": "",
+      "ja": "アルマ・ソレス",
       "zh_tw": "太陽兵器",
       "zh_cn": ""
     },
@@ -7476,7 +7476,7 @@
       "no": 23803,
       "kr": "시전자의 공격력에 비례하여 피해를 흡수한다. 주변 적에게 지속적으로 피해를 입힌다.",
       "en": "Absorbs damage in proportion to the caster's ATK. Deals damage over time to nearby enemies.",
-      "ja": "",
+      "ja": "詠唱者の攻撃力に比例してダメージを吸収する。周辺の敵に持続的にダメージを与える。",
       "zh_tw": "依據施展者攻擊力比例吸收傷害，持續對周遭敵人造成傷害",
       "zh_cn": ""
     },
@@ -7484,7 +7484,7 @@
       "no": 23804,
       "kr": "아르마 솔레스: 파시오",
       "en": "Arma Solis: Pacio",
-      "ja": "",
+      "ja": "アルマ・ソレス：パーシオ",
       "zh_tw": "太陽兵器：熱情",
       "zh_cn": ""
     },
@@ -7492,7 +7492,7 @@
       "no": 23805,
       "kr": "가하는 피해량 <value>%",
       "en": "Damage dealt <value>%",
-      "ja": "",
+      "ja": "与えるダメージ量<value>%",
       "zh_tw": "造成傷害量<value>%",
       "zh_cn": ""
     },
@@ -7500,7 +7500,7 @@
       "no": 23806,
       "kr": "아르마 솔레스: 인빅투스",
       "en": "Arma Solis: Invictus",
-      "ja": "",
+      "ja": "アルマ・ソレス：インビクタス",
       "zh_tw": "太陽兵器：無敵",
       "zh_cn": ""
     },
@@ -7508,7 +7508,7 @@
       "no": 23807,
       "kr": "피해를 받지 않는 상태가 된다.",
       "en": "Does not take any damage.",
-      "ja": "",
+      "ja": "ダメージを受けなくなる。",
       "zh_tw": "處於不會受到傷害的狀態",
       "zh_cn": ""
     },
@@ -7516,7 +7516,7 @@
       "no": 23808,
       "kr": "받는 화상 피해량 증가",
       "en": "Burn damage received increase",
-      "ja": "",
+      "ja": "受ける火傷ダメージ量増加",
       "zh_tw": "所受燒傷傷害量增加",
       "zh_cn": ""
     },
@@ -7524,7 +7524,7 @@
       "no": 23809,
       "kr": "받는 화상 피해량 <value>%",
       "en": "Burn damage received <value>%",
-      "ja": "",
+      "ja": "受ける火傷ダメージ量<value>%",
       "zh_tw": "所受燒傷傷害量<value>%",
       "zh_cn": ""
     },
@@ -7532,7 +7532,7 @@
       "no": 23810,
       "kr": "듀오 솔레스: 오르투스",
       "en": "Duo Soles: Ortus",
-      "ja": "",
+      "ja": "デュオ・ソレス：オルトゥス",
       "zh_tw": "雙日當空：拂曉",
       "zh_cn": ""
     },
@@ -7540,7 +7540,7 @@
       "no": 23811,
       "kr": "시전자 기반 방어력 <value>%",
       "en": "DEF <value>% of caster's DEF",
-      "ja": "",
+      "ja": "詠唱者の防御力<value>%",
       "zh_tw": "施展者基礎防禦力<value>%",
       "zh_cn": ""
     },
@@ -7548,7 +7548,7 @@
       "no": 23812,
       "kr": "시전자 기반 방어력 <value>%, 받는 최종 피해량 -15%",
       "en": "DEF <value>% of caster's DEF, total damage received -15%",
-      "ja": "",
+      "ja": "詠唱者の防御力<value>%、受ける最終ダメージ量-15%",
       "zh_tw": "施展者基礎防禦力<value>%、所受最終傷害量-15%",
       "zh_cn": ""
     },
@@ -7556,7 +7556,7 @@
       "no": 23813,
       "kr": "듀오 솔레스: 베스페라",
       "en": "Duo Soles: Vespera",
-      "ja": "",
+      "ja": "デュオ・ソレス：ヴェスペラ",
       "zh_tw": "雙日當空：薄暮",
       "zh_cn": ""
     },
@@ -7564,7 +7564,7 @@
       "no": 23814,
       "kr": "시전자 기반 공격력 <value>%",
       "en": "ATK <value>% of caster's ATK",
-      "ja": "",
+      "ja": "詠唱者の攻撃力<value>%",
       "zh_tw": "施展者基礎攻擊力<value>%",
       "zh_cn": ""
     },
@@ -7572,7 +7572,7 @@
       "no": 23815,
       "kr": "시전자 기반 공격력 <value>%, 가하는 피해량 +15%",
       "en": "ATK <value>% of caster's ATK, damage dealt +15%",
-      "ja": "",
+      "ja": "詠唱者の攻撃力<value>%与えるダメージ量+15%",
       "zh_tw": "施展者基礎攻擊力<value>%、造成傷害量+15%",
       "zh_cn": ""
     },
@@ -7580,7 +7580,7 @@
       "no": 23816,
       "kr": "듀오 솔레스: 옴니스",
       "en": "Duo Soles: Omnis",
-      "ja": "",
+      "ja": "デュオ・ソレス：オムニス",
       "zh_tw": "雙日當空：相映",
       "zh_cn": ""
     },
@@ -7588,7 +7588,7 @@
       "no": 23817,
       "kr": "공격력 <value>%, 방어력 <value>%",
       "en": "ATK <value>%, DEF <value>%",
-      "ja": "",
+      "ja": "攻撃力<value>%、防御力<value>%",
       "zh_tw": "攻擊力<value>%、防禦力<value>%",
       "zh_cn": ""
     },
@@ -7596,7 +7596,7 @@
       "no": 23818,
       "kr": "공격력 <value>%,방어력 <value>%, 받는 최종 피해량 -15%, 가하는 피해량 +15%",
       "en": "ATK <value>%, DEF <value>%, damage dealt +15%, total damage received -15%",
-      "ja": "",
+      "ja": "攻撃力<value>%、防御力<value>%、受ける最終ダメージ量-15%、与えるダメージ量+15%",
       "zh_tw": "攻擊力<value>%、防禦力<value>%、所受最終傷害量-15%、造成傷害量+15%",
       "zh_cn": ""
     },
@@ -7604,7 +7604,7 @@
       "no": 23819,
       "kr": "플레나 솔리스",
       "en": "Plena Solis",
-      "ja": "",
+      "ja": "プレナ・ソリス",
       "zh_tw": "萬丈朝陽",
       "zh_cn": ""
     },
@@ -7612,7 +7612,7 @@
       "no": 23820,
       "kr": "태양의 힘과 융합한 상태, 모든 능력치가 증가하고 스킬이 강화되며 지속 피해를 입는다. 모든 군중 제어 효과와 감속 효과에 면역.",
       "en": "Fused with the power of the sun, all stats are increased and skills are enhanced, but takes damage over time. Immune to all crowd control and speed reduction effects.",
-      "ja": "",
+      "ja": "太陽の力と融合した状態。すべての能力値が増加し、スキルが強化され、持続ダメージを受ける。すべての行動阻害効果と減速効果を無効化する。",
       "zh_tw": "和太陽力量融合的狀態，增加所有能力值，強化技能並受到持續傷害。對所有集體控制效果和減速效果免疫",
       "zh_cn": ""
     },
@@ -7620,7 +7620,7 @@
       "no": 23821,
       "kr": "솔리스 그라티아: 오르투스",
       "en": "Solis Gratia: Ortus",
-      "ja": "",
+      "ja": "ソリス・グラティア：オルトゥス",
       "zh_tw": "太陽恩典：拂曉",
       "zh_cn": ""
     },
@@ -7628,7 +7628,7 @@
       "no": 23822,
       "kr": "물리/마법 저항력 <value>%",
       "en": "Physical/Magic Resistance <value>%",
-      "ja": "",
+      "ja": "物理/魔法抵抗<value>%",
       "zh_tw": "物理／魔法抵抗力<value>%",
       "zh_cn": ""
     },
@@ -7636,7 +7636,7 @@
       "no": 23823,
       "kr": "솔리스 그라티아: 베스페라",
       "en": "Solis Gratia: Vespera",
-      "ja": "",
+      "ja": "ソリス・グラティア：ヴェスペラ",
       "zh_tw": "太陽恩典：薄暮",
       "zh_cn": ""
     },
@@ -7644,7 +7644,7 @@
       "no": 23824,
       "kr": "치명타 확률, 치명타 위력 <value>%",
       "en": "Crit Rate, Crit DMG <value>%",
-      "ja": "",
+      "ja": "クリティカル率、クリティカル威力<value>%",
       "zh_tw": "暴擊率、暴擊威力<value>%",
       "zh_cn": ""
     },
@@ -7652,7 +7652,7 @@
       "no": 23825,
       "kr": "솔리스 그라티아: 옴니스",
       "en": "Solis Gratia: Omnis",
-      "ja": "",
+      "ja": "ソリス・グラティア：オムニス",
       "zh_tw": "太陽恩典：相映",
       "zh_cn": ""
     },
@@ -7660,7 +7660,7 @@
       "no": 23826,
       "kr": "물리/마법 저항력, 치명타 확률, 치명타 위력 <value>%",
       "en": "Physical/Magic Resistance, Crit Rate, Crit DMG <value>",
-      "ja": "",
+      "ja": "物理/魔法抵抗、クリティカル率、クリティカル威力<value>%",
       "zh_tw": "物理／魔法抵抗力、暴擊率、暴擊威力<value>%",
       "zh_cn": ""
     },
@@ -7668,7 +7668,7 @@
       "no": 23827,
       "kr": "마그니 솔리스 그라티아: 오르투스 ",
       "en": "Magni Solis Gratia: Ortus ",
-      "ja": "",
+      "ja": "マグニ・ソリス・グラティア：オルトゥス ",
       "zh_tw": "宏偉太陽恩典：拂曉",
       "zh_cn": ""
     },
@@ -7676,7 +7676,7 @@
       "no": 23828,
       "kr": "물리/마법 저항력 <value>%",
       "en": "Physical/Magic Resistance <value>%",
-      "ja": "",
+      "ja": "物理/魔法抵抗<value>%",
       "zh_tw": "物理／魔法抵抗力<value>%",
       "zh_cn": ""
     },
@@ -7684,7 +7684,7 @@
       "no": 23829,
       "kr": "마그니 솔리스 그라티아: 베스페라",
       "en": "Magni Solis Gratia: Vespera",
-      "ja": "",
+      "ja": "マグニ・ソリス・グラティア：ヴェスペラ",
       "zh_tw": "宏偉太陽恩典：薄暮",
       "zh_cn": ""
     },
@@ -7692,7 +7692,7 @@
       "no": 23830,
       "kr": "치명타 확률, 치명타 위력 <value>%",
       "en": "Crit Rate, Crit DMG <value>%",
-      "ja": "",
+      "ja": "クリティカル率、クリティカル威力<value>%",
       "zh_tw": "暴擊率、暴擊威力<value>%",
       "zh_cn": ""
     },
@@ -7700,7 +7700,7 @@
       "no": 23831,
       "kr": "마그니 솔리스 그라티아: 옴니스",
       "en": "Magni Solis Gratia: Omnis",
-      "ja": "",
+      "ja": "マグニ・ソリス・グラティア：オムニス",
       "zh_tw": "宏偉太陽恩典：相映",
       "zh_cn": ""
     },
@@ -7708,7 +7708,7 @@
       "no": 23832,
       "kr": "물리/마법 저항력, 치명타 확률, 치명타 위력 <value>%",
       "en": "Physical/Magic Resistance, Crit Rate, Crit DMG <value>",
-      "ja": "",
+      "ja": "物理/魔法抵抗、クリティカル率、クリティカル威力<value>%",
       "zh_tw": "物理／魔法抵抗力、暴擊率、暴擊威力<value>%",
       "zh_cn": ""
     },
@@ -7716,7 +7716,7 @@
       "no": 23833,
       "kr": "마그니 솔리스",
       "en": "Magni Solis",
-      "ja": "",
+      "ja": "マグニ・ソリス",
       "zh_tw": "宏偉太陽",
       "zh_cn": ""
     },
@@ -7724,7 +7724,7 @@
       "no": 23834,
       "kr": "솔리스 그라티아의 효과가 강화된다.",
       "en": "Enhances the effect of Solis Gratia.",
-      "ja": "",
+      "ja": "ソリス・グラティアの効果が強化される。",
       "zh_tw": "強化太陽恩典效果",
       "zh_cn": ""
     },
@@ -7732,7 +7732,7 @@
       "no": 23835,
       "kr": "물리/마법 저항력 감소",
       "en": "Physical/Magic Resistance decrease",
-      "ja": "",
+      "ja": "物理/魔法抵抗減少",
       "zh_tw": "物理／魔法抵抗力減少",
       "zh_cn": ""
     },
@@ -7740,7 +7740,7 @@
       "no": 23836,
       "kr": "물리/마법 저항력 <value>%",
       "en": "Physical/Magic Resistance <value>%",
-      "ja": "",
+      "ja": "物理/魔法抵抗<value>%",
       "zh_tw": "物理／魔法抵抗力<value>%",
       "zh_cn": ""
     },
@@ -7796,7 +7796,7 @@
       "no": 23843,
       "kr": "태양의 힘과 융합한 상태, 모든 능력치가 증가하고 스킬이 강화되며 지속 피해를 입는다. ",
       "en": "Fused with the power of the sun, all stats are increased and skills are enhanced, but takes damage over time. ",
-      "ja": "",
+      "ja": "太陽の力と融合した状態。すべての能力値が増加し、スキルが強化され、持続ダメージを受ける。 ",
       "zh_tw": "和太陽力量融合的狀態，增加所有能力值，強化技能並受到持續傷害",
       "zh_cn": ""
     },
@@ -8548,7 +8548,7 @@
       "no": 23937,
       "kr": "보호막이 유지되는 동안 가하는 피해량 <value>%",
       "en": "Damage dealt <value>% while shield is active",
-      "ja": "バリア継続中に与えるダメージ量<value>%",
+      "ja": "バリアが維持される間、与えるダメージ量<value>%",
       "zh_tw": "防護罩持續期間造成傷害量<value>%",
       "zh_cn": ""
     },
@@ -11660,7 +11660,7 @@
       "no": 27154,
       "kr": "플린의 특제 폭탄",
       "en": "Flynn's Custom Bomb",
-      "ja": "",
+      "ja": "フランの特製爆弾",
       "zh_tw": "弗林的特製炸彈",
       "zh_cn": ""
     },
@@ -11668,7 +11668,7 @@
       "no": 27155,
       "kr": "10중첩이 되면 폭발하여 주변에 강력한 피해를 입힌다!",
       "en": "Detonates once it reaches 10 stacks, dealing massive damage to the surrounding area!",
-      "ja": "",
+      "ja": "10スタックになると爆発して周りに強いダメージを与える！",
       "zh_tw": "達到10疊加後爆炸，對周遭造成強烈傷害！",
       "zh_cn": ""
     },
@@ -16572,7 +16572,7 @@
       "no": 40381,
       "kr": "해방의 시작",
       "en": "Beginning of Liberation",
-      "ja": "",
+      "ja": "解放の始まり",
       "zh_tw": "解放的開始",
       "zh_cn": ""
     },
@@ -16580,7 +16580,7 @@
       "no": 40382,
       "kr": "적 전체 정령 등급 레전더리+ 로 변경",
       "en": "All enemy Souls are Legendary+",
-      "ja": "",
+      "ja": "敵精霊全員のランクをレジェンダリー+に変更する",
       "zh_tw": "所有敵軍精靈階級變更為傳說＋",
       "zh_cn": ""
     },
@@ -16588,7 +16588,7 @@
       "no": 40383,
       "kr": "차오르는 해방감",
       "en": "Surging Sense of Liberation",
-      "ja": "",
+      "ja": "満ちる解放感",
       "zh_tw": "解放感爆發",
       "zh_cn": ""
     },
@@ -16596,7 +16596,7 @@
       "no": 40384,
       "kr": "적 전체 정령 등급 이터널+ 로 변경",
       "en": "All enemy Souls are Eternal+",
-      "ja": "",
+      "ja": "敵精霊全員のランクをエターナル+に変更する",
       "zh_tw": "所有敵軍精靈階級變更為永恆＋",
       "zh_cn": ""
     },
@@ -16604,7 +16604,7 @@
       "no": 40385,
       "kr": "완전한 해방",
       "en": "Complete Liberation",
-      "ja": "",
+      "ja": "完全なる解放",
       "zh_tw": "徹底解放",
       "zh_cn": ""
     },
@@ -16612,7 +16612,7 @@
       "no": 40386,
       "kr": "적 전체 정령 등급 오리진+5 등급으로 변경",
       "en": "All enemy Souls are Origin+5",
-      "ja": "",
+      "ja": "敵精霊全員のランクをオリジン+5に変更する",
       "zh_tw": "所有敵軍精靈階級變更為不朽+5",
       "zh_cn": ""
     },
@@ -18092,7 +18092,7 @@
       "no": 231140,
       "kr": "하르페",
       "en": "Harpe",
-      "ja": "",
+      "ja": "ハルパー",
       "zh_tw": "赫帕爾",
       "zh_cn": ""
     },
@@ -18100,7 +18100,7 @@
       "no": 231141,
       "kr": "스페이드의 리더",
       "en": "Leader of the Spades",
-      "ja": "",
+      "ja": "スペードのリーダー",
       "zh_tw": "黑桃隊長",
       "zh_cn": ""
     },
@@ -18108,7 +18108,7 @@
       "no": 231142,
       "kr": "은신 중인 모든 아군의 공격력 및 치명타 확률을 <114621.VALUE> 증가시킨다.",
       "en": "Increases ATK and Crit Rate of all stealthed allies by <114621.VALUE>.",
-      "ja": "",
+      "ja": "ハイド状態の味方全員の攻撃力およびクリティカル率を<114621.VALUE>増加させる。",
       "zh_tw": "使處於隱身狀態的所有友軍攻擊力及暴擊率增加<114621.VALUE>",
       "zh_cn": ""
     },
@@ -18116,7 +18116,7 @@
       "no": 231143,
       "kr": "증가하는 공격력 및 치명타 확률이 <114622.VALUE>로 변경된다.",
       "en": "ATK and Crit Rate increase changes to <114622.VALUE>.",
-      "ja": "",
+      "ja": "増加する攻撃力およびクリティカル率が<114622.VALUE>に変更される。",
       "zh_tw": "變更為攻擊力及暴擊率增加<114622.VALUE>",
       "zh_cn": ""
     },
@@ -18124,7 +18124,7 @@
       "no": 231144,
       "kr": "증가하는 공격력 및 치명타 확률이 <114623.VALUE>로 변경된다.",
       "en": "ATK and Crit Rate increase changes to <114623.VALUE>.",
-      "ja": "",
+      "ja": "増加する攻撃力およびクリティカル率が<114623.VALUE>に変更される。",
       "zh_tw": "變更為攻擊力及暴擊率增加<114623.VALUE>",
       "zh_cn": ""
     },
@@ -18132,7 +18132,7 @@
       "no": 231145,
       "kr": "증가하는 공격력 및 치명타 확률이 <114624.VALUE>로 변경된다. 추가로 <멍하니 있으면 안된다구~> 스킬 사용 시 대상 주변 3m 내에 다른 적이 없을 경우 <COLOR=#FFFFFF>4</COLOR>초 동안 은신 상태가 된다.",
       "en": "ATK and Crit Rate increase changes to <114624.VALUE>. In addition, becomes stealthed for <COLOR=#FFFFFF>4</COLOR> seconds when using the \"Don't just stand there!\" if there are no other enemies within 3m of the target.",
-      "ja": "",
+      "ja": "増加する攻撃力およびクリティカル率が<114624.VALUE>に変更される。さらに<ぼーっとしてたらダメだよ～>スキルを使用すると、対象の周辺3m内に他の敵がいない場合、<COLOR=#FFFFFF>4</COLOR>秒間、ハイド状態になる。",
       "zh_tw": "變更為攻擊力及暴擊率增加<114624.VALUE>。使用＜不可以一直發呆～＞技能時，若目標周遭3m內沒有其他敵人，額外在<COLOR=#FFFFFF>4</COLOR>秒期間處於隱身狀態",
       "zh_cn": ""
     },
@@ -18140,7 +18140,7 @@
       "no": 231146,
       "kr": "증가하는 공격력 및 치명타 확률이 <114625.VALUE>로 변경된다.",
       "en": "ATK and Crit Rate increase changes to <114625.VALUE>.",
-      "ja": "",
+      "ja": "増加する攻撃力およびクリティカル率が<114625.VALUE>に変更される。",
       "zh_tw": "變更為攻擊力及暴擊率增加<114625.VALUE>",
       "zh_cn": ""
     },
@@ -18148,7 +18148,7 @@
       "no": 231147,
       "kr": "증가하는 공격력 및 치명타 확률이 <114626.VALUE>로 변경된다.",
       "en": "ATK and Crit Rate increase changes to <114626.VALUE>.",
-      "ja": "",
+      "ja": "増加する攻撃力およびクリティカル率が<114626.VALUE>に変更される。",
       "zh_tw": "變更為攻擊力及暴擊率增加<114626.VALUE>",
       "zh_cn": ""
     },
@@ -18156,7 +18156,7 @@
       "no": 231148,
       "kr": "증가하는 공격력 및 치명타 확률이 <114627.VALUE>로 변경된다. 추가로 자신이 은신 상태일 경우 도발을 제외한 군중 제어 효과에 면역이 된다. ",
       "en": "ATK and Crit Rate increase changes to <114627.VALUE>. In addition, becomes immune to crowd control effects (excluding taunt) if she is stealthed.",
-      "ja": "",
+      "ja": "増加する攻撃力およびクリティカル率が<114627.VALUE>に変更される。さらに自分がハイド状態の場合、挑発を除く行動阻害効果を無効化する。 ",
       "zh_tw": "變更為攻擊力及暴擊率增加<114627.VALUE>。若自身處於隱身狀態，額外新增對除了挑釁以外的集體控制效果免疫的效果",
       "zh_cn": ""
     },
@@ -18164,7 +18164,7 @@
       "no": 231149,
       "kr": "헤르메스가 페르세우스에게 빌려준 날이 휜 검.\r\n페르세우스는 이 검으로 메두사의 목을 베었다.",
       "en": "A curved sword that Perseus borrowed from Hermes.\r\nPerseus used this sword to cut Medusa's head off.",
-      "ja": "",
+      "ja": "ヘルメスがペルセウスに貸した、刃の曲がった剣。\r\nペルセウスはこの剣でメデューサの首を切った。",
       "zh_tw": "荷米斯借給珀爾修斯的彎刀，\r\n珀爾修斯用這把刀劍砍下了梅杜莎的頭。",
       "zh_cn": ""
     },
@@ -22572,7 +22572,7 @@
       "no": 236510,
       "kr": "찬란한 광휘의 성해포",
       "en": "Holy Shroud of Splendid Radiance",
-      "ja": "",
+      "ja": "きらめく光輝の聖骸布",
       "zh_tw": "燦爛光輝聖骸布",
       "zh_cn": ""
     },
@@ -22580,7 +22580,7 @@
       "no": 236511,
       "kr": "솔리스 그라티아",
       "en": "Solis Gratia",
-      "ja": "",
+      "ja": "ソリス・グラティア",
       "zh_tw": "太陽恩典",
       "zh_cn": ""
     },
@@ -22588,7 +22588,7 @@
       "no": 236512,
       "kr": "전투 시작 전 자신이 배치된 위치에 따라 각기 다른 버프를 자신에게 부여한다. 전방 배치 시 <COLOR=#FFFFFF><솔리스 그라티아: 오르투스></COLOR>를 부여하며 물리/마법 저항을 <651612.VALUE> 증가시키고, 후방 배치 시 <COLOR=#FFFFFF><솔리스 그라티아: 베스페라></COLOR>를 부여하며 치명타 확률 및 치명타 위력을 <651616.VALUE> 증가시킨다. <COLOR=#FFFFFF><솔 옴니부스 루체트></COLOR> 사용 시 <651610.DURATION>초 동안 <COLOR=#FFFFFF><마그니 솔리스 그라티아></COLOR>로 변경되며 효과를 2배로 상승시킨다.\r\n \r\n <COLOR=#FFFFFF><솔 에테르누스></COLOR> 추가 효과 - <COLOR=#FFFFFF><솔리스 그라티아: 옴니스></COLOR>로 변경되어 모든 효과를 같이 부여받고, 다음 행동이 <COLOR=#FFFFFF><콘플라그로></COLOR>로 변경된다.",
       "en": "Starts the battle with one of two buffs based on her deployment position. Front row: <COLOR=#FFFFFF>\"Solis Gratia: Ortus\"</COLOR> increases her Physical/Magic Resistance by <651612.VALUE>. Back row: <COLOR=#FFFFFF>\"Solis Gratia: Vespera\"</COLOR> increases her Crit Rate and Crit DMG by <651616.VALUE>. Using <COLOR=#FFFFFF>\"Sol Omnibus Lucet\"</COLOR> upgrades either buff to <COLOR=#FFFFFF>\"Magni Solis Gratia,\"</COLOR> doubling the effect for <651610.DURATION> sec.\r\r\n \r\r\n <COLOR=#FFFFFF>\"Sol Aeternus\"</COLOR> synergy effect - Either buff is upgraded to <COLOR=#FFFFFF>\"Solis Gratia: Omnis,\"</COLOR> which grants the effects of both buffs, and her next action is changed to <COLOR=#FFFFFF>\"Conflagro.\"</COLOR>",
-      "ja": "",
+      "ja": "戦闘開始の前に自分が配置された位置によって違うバフを自分に付与する。前列配置：<COLOR=#FFFFFF><ソリス・グラティア：オルトゥス></COLOR>を付与し、物理/魔法抵抗を<651612.VALUE>増加させる。後列配置：<COLOR=#FFFFFF><ソリス・グラティア：ヴェスペラ></COLOR>を付与し、クリティカル率およびクリティカル威力を<651616.VALUE>増加させる。<COLOR=#FFFFFF><ソル・オムニブース・ルーケト></COLOR>を使用すると、<651610.DURATION>秒間<COLOR=#FFFFFF><マグニ・ソリス・グラティア></COLOR>に変更され、効果を2倍にする。\r\n \r\n<COLOR=#FFFFFF><ソル・アエテルヌス></COLOR>の追加効果 - <COLOR=#FFFFFF><ソリス・グラティア：オムニス></COLOR>に変更されてすべての効果が一緒に付与され、次の行動が<COLOR=#FFFFFF><コンフラグロ></COLOR>に変更される。",
       "zh_tw": "根據戰鬥開始前自身配置的位置，分別賦予自身不同增益效果。配置於前方時賦予<COLOR=#FFFFFF>＜太陽恩典：拂曉＞</COLOR>，使物理／魔法抵抗增加<651612.VALUE>；配置於後方時賦予<COLOR=#FFFFFF>＜太陽恩典：薄暮＞</COLOR>，使暴擊率和暴擊威力增加<651616.VALUE>。發動<COLOR=#FFFFFF>＜陽光普照＞</COLOR>時，在<651610.DURATION>秒期間變更為<COLOR=#FFFFFF>＜宏偉太陽恩典＞</COLOR>，效果提升為2倍。\r\r\n\r\r\n<COLOR=#FFFFFF>＜恆久焱陽＞</COLOR>額外效果－變更為<COLOR=#FFFFFF>＜太陽恩典：相映＞</COLOR>，一併賦予所有效果，下一行動變更為<COLOR=#FFFFFF>＜燎原之火＞</COLOR>",
       "zh_cn": ""
     },
@@ -22596,7 +22596,7 @@
       "no": 236513,
       "kr": "증가하는 물리/마법 저항력, 치명타 확률, 치명타 위력이 <651622.VALUE>로 변경된다.",
       "en": "Physical/Magic Resistance, Crit Rate, and Crit DMG increase changes to <651622.VALUE>.",
-      "ja": "",
+      "ja": "増加する物理/魔法抵抗、クリティカル率、クリティカル威力が<651622.VALUE>に変更される。",
       "zh_tw": "變更為物理／魔法抵抗力、暴擊率、暴擊威力增加<651622.VALUE>",
       "zh_cn": ""
     },
@@ -22604,7 +22604,7 @@
       "no": 236514,
       "kr": "증가하는 물리/마법 저항력, 치명타 확률, 치명타 위력이 <651632.VALUE>로 변경된다.",
       "en": "Physical/Magic Resistance, Crit Rate, and Crit DMG increase changes to <651632.VALUE>.",
-      "ja": "",
+      "ja": "増加する物理/魔法抵抗、クリティカル率、クリティカル威力が<651632.VALUE>に変更される。",
       "zh_tw": "變更為物理／魔法抵抗力、暴擊率、暴擊威力增加<651632.VALUE>",
       "zh_cn": ""
     },
@@ -22612,7 +22612,7 @@
       "no": 236515,
       "kr": "증가하는 물리/마법 저항력, 치명타 확률, 치명타 위력이 <651642.VALUE>로 변경된다. <COLOR=#FFFFFF><솔 에테르누스></COLOR> 사용 후 자신에게 입히는 지속 피해가 <651517.VALUE>로 감소한다.",
       "en": "Physical/Magic Resistance, Crit Rate, and Crit DMG increase changes to <651642.VALUE>. The self DoT from <COLOR=#FFFFFF>Sol Aeternus</COLOR> decreases to <651517.VALUE>.",
-      "ja": "",
+      "ja": "増加する物理/魔法抵抗、クリティカル率、クリティカル威力が<651642.VALUE>に変更される。<COLOR=#FFFFFF><ソル・アエテルヌス></COLOR>を使用すると、自分に与える持続ダメージが<651517.VALUE>に減少する。",
       "zh_tw": "變更為物理／魔法抵抗力、暴擊率、暴擊威力增加<651642.VALUE>。發動<COLOR=#FFFFFF>＜恆久焱陽＞</COLOR>後，對自身造成的持續傷害減少為<651517.VALUE>",
       "zh_cn": ""
     },
@@ -22620,7 +22620,7 @@
       "no": 236516,
       "kr": "증가하는 물리/마법 저항력, 치명타 확률, 치명타 위력이 <651652.VALUE>로 변경된다.",
       "en": "Physical/Magic Resistance, Crit Rate, and Crit DMG increase changes to <651652.VALUE>.",
-      "ja": "",
+      "ja": "増加する物理/魔法抵抗、クリティカル率、クリティカル威力が<651652.VALUE>に変更される。",
       "zh_tw": "變更為物理／魔法抵抗力、暴擊率、暴擊威力增加<651652.VALUE>",
       "zh_cn": ""
     },
@@ -22628,7 +22628,7 @@
       "no": 236517,
       "kr": "증가하는 물리/마법 저항력, 치명타 확률, 치명타 위력이 <651662.VALUE>로 변경된다.",
       "en": "Physical/Magic Resistance, Crit Rate, and Crit DMG increase changes to <651662.VALUE>.",
-      "ja": "",
+      "ja": "増加する物理/魔法抵抗、クリティカル率、クリティカル威力が<651662.VALUE>に変更される。",
       "zh_tw": "變更為物理／魔法抵抗力、暴擊率、暴擊威力增加<651662.VALUE>",
       "zh_cn": ""
     },
@@ -22636,7 +22636,7 @@
       "no": 236518,
       "kr": "증가하는 물리/마법 저항력, 치명타 확률, 치명타 위력이 <651672.VALUE>로 변경된다. <COLOR=#FFFFFF><솔 에테르누스></COLOR> 사용 후 자신에게 입히는 지속 피해가 <651518.VALUE>로 감소한다.",
       "en": "Physical/Magic Resistance, Crit Rate, and Crit DMG increase changes to <651672.VALUE>. The self DoT from <COLOR=#FFFFFF>Sol Aeternus</COLOR> decreases to <651518.VALUE>.",
-      "ja": "",
+      "ja": "増加する物理/魔法抵抗、クリティカル率、クリティカル威力が<651672.VALUE>に変更される。<COLOR=#FFFFFF><ソル・アエテルヌス></COLOR>を使用すると、自分に与える持続ダメージが<651518.VALUE>に減少する。",
       "zh_tw": "變更為物理／魔法抵抗力、暴擊率、暴擊威力增加<651672.VALUE>。發動<COLOR=#FFFFFF>＜恆久焱陽＞</COLOR>後，對自身造成的持續傷害減少為<651518.VALUE>",
       "zh_cn": ""
     },
@@ -22644,7 +22644,7 @@
       "no": 236519,
       "kr": "찬란한 태양의 힘이 깃들어 새롭게 다시 태어난 성해포. \r\n그에 깃들었던 고결한 영혼은 성스러운 화염으로 끝이 다가온 세상을 정화한다.",
       "en": "The Holy Shroud, reborn with the radiant power of the sun.\r\nThe noble soul within it purifies the dying world with sacred flames.",
-      "ja": "",
+      "ja": "輝かしい太陽の力を宿し、生まれ変わった聖骸布。\r\n聖骸布に宿った高潔な魂は、終末を迎えようとする世界を聖なる炎で浄化する。",
       "zh_tw": "蘊含燦爛太陽之力，重獲新生聖骸布。\r\n蘊藏其中的聖潔靈魂用神聖火焰淨化了末日逼近的世界。",
       "zh_cn": ""
     },
@@ -23876,7 +23876,7 @@
       "no": 341149,
       "kr": "잠행도구",
       "en": "Stealth Gear",
-      "ja": "",
+      "ja": "潜入道具",
       "zh_tw": "潛行工具",
       "zh_cn": ""
     },
@@ -26532,7 +26532,7 @@
       "no": 346511,
       "kr": "솔 옴니부스 루체트",
       "en": "Sol Omnibus Lucet",
-      "ja": "",
+      "ja": "ソル・オムニブース・ルーケト",
       "zh_tw": "陽光普照",
       "zh_cn": ""
     },
@@ -26540,7 +26540,7 @@
       "no": 346512,
       "kr": "글라디우스 플람메",
       "en": "Gladius Flammae",
-      "ja": "",
+      "ja": "グラディアス・フランメ",
       "zh_tw": "烈焰之劍",
       "zh_cn": ""
     },
@@ -26548,7 +26548,7 @@
       "no": 346513,
       "kr": "콘플라그로",
       "en": "Conflagro",
-      "ja": "",
+      "ja": "コンフラグロ",
       "zh_tw": "燎原之火",
       "zh_cn": ""
     },
@@ -26556,7 +26556,7 @@
       "no": 346514,
       "kr": "듀오 솔레스",
       "en": "Duo Soles",
-      "ja": "",
+      "ja": "デュオ・ソレス",
       "zh_tw": "雙日當空",
       "zh_cn": ""
     },
@@ -26564,7 +26564,7 @@
       "no": 346515,
       "kr": "솔 에테르누스",
       "en": "Sol Aeternus",
-      "ja": "",
+      "ja": "ソル・アエテルヌス",
       "zh_tw": "恆久焱陽",
       "zh_cn": ""
     },
@@ -26572,7 +26572,7 @@
       "no": 346519,
       "kr": "미래를 비추는 태양",
       "en": "Solar Providence",
-      "ja": "",
+      "ja": "未来を照らす太陽",
       "zh_tw": "照耀未來的太陽",
       "zh_cn": ""
     },
@@ -27212,7 +27212,7 @@
       "no": 349026,
       "kr": "초 신속 마나",
       "en": "Ultra Swift Mana",
-      "ja": "",
+      "ja": "超迅速マナ",
       "zh_tw": "超迅速魔力",
       "zh_cn": ""
     },
@@ -27252,7 +27252,7 @@
       "no": 349031,
       "kr": "악마의 영물",
       "en": "Demonic Creature",
-      "ja": "",
+      "ja": "悪魔の霊物",
       "zh_tw": "惡魔靈物",
       "zh_cn": ""
     },
@@ -27452,7 +27452,7 @@
       "no": 349059,
       "kr": "노릇노릇한 궁기",
       "en": "Well-Baked Unicat",
-      "ja": "",
+      "ja": "こんがり窮奇",
       "zh_tw": "焦黃窮奇",
       "zh_cn": ""
     },
@@ -31572,7 +31572,7 @@
       "no": 356511,
       "kr": "모든 아군을 태양의 빛으로 보호하여 <651111.DURATION>초 동안 공격력 <651111.VALUE>만큼의 피해를 흡수하는 보호막 <COLOR=#FFFFFF><아르마 솔레스></COLOR>를 부여하고 보호막이 부여되어 있는 동안 보호막 주변 2.5m 내의 적에게 2초마다 <651113.VALUE>만큼 피해를 입힌다.\r\n\r\n<COLOR=#FFFFFF><솔 에테르누스></COLOR> 추가 효과 - 해당 효과가 자신에게만 적용되고 주변에 입히는 피해량이 2배로 증가한다.",
       "en": "Protects all allies with the light of the sun, granting them the shield <COLOR=#FFFFFF>\"Arma Solis,\"</COLOR> which absorbs damage equal to <651111.VALUE> of ATK and deals <651113.VALUE> damage to enemies within 2.5m every 2 sec for <651111.DURATION> sec.\r\r\n\r\r\n<COLOR=#FFFFFF>\"Sol Aeternus\"</COLOR> synergy effect - the effect only applies to her, and the damage dealt to nearby enemies is doubled.",
-      "ja": "",
+      "ja": "味方全員を太陽の光で保護し、<651111.DURATION>秒間、攻撃力の<651111.VALUE>のダメージを吸収するバリア<COLOR=#FFFFFF><アルマ・ソレス></COLOR>を付与し、バリアが付与されている間、バリアの周辺2.5m以内の敵に2秒ごとに<651113.VALUE>のダメージを与える。\r\n\r\n<COLOR=#FFFFFF><ソル・アエテルヌス></COLOR>追加効果 - 効果が自分のみに適用され、周辺に与えるダメージ量が2倍に増加する。",
       "zh_tw": "使用太陽力量保護所有友軍，在<651111.DURATION>秒內賦予防護罩<COLOR=#FFFFFF>＜太陽兵器＞</COLOR>，吸收相當攻擊力<651111.VALUE>的傷害。防護罩賦予期間，每2秒對防護罩周遭2.5m內的敵人造成<651113.VALUE>的傷害\r\r\n\r\r\n<COLOR=#FFFFFF>＜恆久焱陽＞</COLOR>額外效果－該效果只會套用於自身，對周遭造成傷害量增為2倍",
       "zh_cn": ""
     },
@@ -31580,7 +31580,7 @@
       "no": 356512,
       "kr": "태양의 힘을 응축한 뒤 직선으로 힘을 방출하여 폭 1.5m, 길이 11m의 범위의 모든 적을 불태워 공격력 <651211.VALUE>의 피해를 입히고, <651212.DURATION>초 동안 <651212.VALUE>의 피해를 입히는 화상 상태로 만들며 받는 화상 피해가 <651213.VALUE> 증가하는 효과를 부여한다.\r\n\r\n<COLOR=#FFFFFF><솔 에테르누스></COLOR> 추가 효과 - 화상을 부여하지 않는 대신 위력이 2배로 증가하고, 반드시 치명타로 발동한다.",
       "en": "Condenses the power of the sun and releases it in a straight line, burning all enemies within a 1.5m wide and 11m long area, dealing damage equal to <651211.VALUE> of ATK and inflicting them with Burn, which deals <651212.VALUE> damage over <651212.DURATION> sec, and a debuff that increases Burn damage received by <651213.VALUE>.\r\r\n\r\r\n<COLOR=#FFFFFF>\"Sol Aeternus\"</COLOR> synergy effect - Skips the Burn effect and doubles the skill effect instead, guaranteeing it to land as a critical hit.",
-      "ja": "",
+      "ja": "太陽の力を凝縮し、直線で力を放出して幅1.5m、長さ11mの範囲の敵全員を燃やして攻撃力の<651211.VALUE>のダメージを与え、<651212.DURATION>秒間、<651212.VALUE>のダメージを与える火傷状態を付与する。受ける火傷ダメージが<651213.VALUE>増加する効果を付与する。\r\n\r\n<COLOR=#FFFFFF><ソル・アエテルヌス></COLOR>追加効果 - 火傷を付与しない代わりに威力が2倍に増加し、必ずクリティカルになる。",
       "zh_tw": "凝聚太陽力量後，直線射出力量，燃燒寬幅1.5m、長11m範圍內的所有敵人，造成攻擊力<651211.VALUE>的傷害，使其在<651212.DURATION>秒內處於燒傷狀態，造成<651212.VALUE>的傷害，並賦予使所受燒傷傷害增加<651213.VALUE>的效果。\r\r\n\r\r\n<COLOR=#FFFFFF>＜恆久焱陽＞</COLOR>額外效果－不會賦予燒傷，但威力增為2倍，必以暴擊發動",
       "zh_cn": ""
     },
@@ -31588,7 +31588,7 @@
       "no": 356513,
       "kr": "불씨를 소환한 뒤 해당 불씨를 베어내어 폭발시킨다. 모든 적에게 공격력 <651311.VALUE>의 피해를 입히고, 화상 상태인 적에게는 공격력 <651313.VALUE>의 추가 피해를 입히고, 물리/마법 저항을 <651214.DURATION>초 동안 <651214.VALUE> 감소시킨다.\r\n\r\n<COLOR=#FFFFFF><솔 에테르누스></COLOR> 추가 효과 - 물리/마법 저항 감소 효과 대신 위력이 2배로 증가한다.",
       "en": "Summons a spark and then cuts it, triggering a powerful blast. Deals damage equal to <651311.VALUE> of ATK to all enemies. Deals additional damage equal to <651313.VALUE> of ATK to burning enemies and decreases their Physical/Magic Resistance by <651214.VALUE> for <651214.DURATION> sec.\r\r\n\r\r\n<COLOR=#FFFFFF>\"Sol Aeternus\"</COLOR> synergy effect - Skips the Physical/Magic Resistance decrease effect and doubles the skill effect instead.",
-      "ja": "",
+      "ja": "火種を召喚し、その火種を斬って爆発させる。敵全員に攻撃力の<651311.VALUE>のダメージを与え、火傷状態の敵には攻撃力の<651313.VALUE>の追加ダメージを与え、物理/魔法抵抗を<651214.DURATION>秒間、<651214.VALUE>減少させる。\r\n\r\n<COLOR=#FFFFFF><ソル・アエテルヌス></COLOR>追加効果 - 物理/魔法抵抗減少効果の代わりに威力が2倍に増加する。",
       "zh_tw": "召喚火苗後，砍擊並爆破火苗，對所有敵人造成攻擊力<651311.VALUE>的傷害，對處於燒傷狀態的敵人造成攻擊力<651313.VALUE>的額外傷害，使物理／魔法抵抗在<651214.DURATION>秒內減少<651214.VALUE>。\r\r\n\r\r\n<COLOR=#FFFFFF>＜恆久焱陽＞</COLOR>額外效果－不套用物理／魔法抵抗減少效果，但威力增為2倍",
       "zh_cn": ""
     },
@@ -31596,7 +31596,7 @@
       "no": 356514,
       "kr": "전장에 있는 동안 전투 시작 전 아군을 배치한 위치에 따라 각기 다른 효과를 부여한다. 전방에 배치된 아군에게 캐서린의 기본 방어력의 <651412.VALUE>를 제공하는<COLOR=#FFFFFF><듀오 솔레스: 오르투스></COLOR>를 부여하고 후방에 배치된 아군에게 캐서린의 기본 공격력의 <651414.VALUE>를 제공하는 <COLOR=#FFFFFF><듀오 솔레스: 베스페라></COLOR>를 부여한다. 해당 효과는 증폭 효과가 적용되지 않는다.\r\n\r\n<COLOR=#FFFFFF><솔 에테르누스></COLOR> 추가 효과 - 해당 버프가 자신에게만 적용되도록 변경되고 모든 효과를 부여 받는 <COLOR=#FFFFFF><듀오 솔레스: 옴니스></COLOR>로 변경된다.",
       "en": "While she is on the battlefield, grants different buffs to allies based on their deployed positions. Allies in the front row get the <COLOR=#FFFFFF>\"Duo Soles: Ortus\"</COLOR> buff, which gives them <651412.VALUE> of Catherine's base DEF. Allies in the back row get the <COLOR=#FFFFFF>\"Duo Soles: Vespera\"</COLOR> buff, which gives them <651414.VALUE> of Catherine's base ATK. Excludes any amplification effects.\r\r\n\r\r\n<COLOR=#FFFFFF>\"Sol Aeternus\"</COLOR> synergy effect - Both buffs converge into one <COLOR=#FFFFFF>\"Duo Soles: Omnis\"</COLOR> buff and apply only to her.",
-      "ja": "",
+      "ja": "戦場にいる間、戦闘開始の前に配置した味方の位置によって違う効果を付与する。前列に配置した味方：キャサリンの基本防御力の<651412.VALUE>を提供する<COLOR=#FFFFFF><デュオ・ソレス：オルトゥス></COLOR>を付与する。後列に配置した味方：キャサリンの基本攻撃力の<651414.VALUE>を提供する<COLOR=#FFFFFF><デュオ・ソレス：ヴェスペラ></COLOR>を付与する。この効果には増幅効果が適用されない。\r\n\r\n<COLOR=#FFFFFF><ソル・アエテルヌス></COLOR>追加効果 - このバフが自分にのみ適用されるように変更され、すべての効果が付与される<COLOR=#FFFFFF><デュオ・ソレス：オムニス></COLOR>に変更される。",
       "zh_tw": "在戰場上的期間，根據戰鬥開始前友軍配置的位置，分別賦予不同效果。對配置在前方的友軍賦予<COLOR=#FFFFFF>＜雙日當空：拂曉＞</COLOR>，提供凱瑟琳基本防禦力的<651412.VALUE>；對配置在後方的友軍賦予<COLOR=#FFFFFF>＜雙日當空：薄暮＞</COLOR>，提供凱瑟琳基本功擊力的<651414.VALUE>。該效果不會套用增幅效果。\r\r\n\r\r\n<COLOR=#FFFFFF>＜恆久焱陽＞</COLOR>額外效果－該增益效果變更為僅套用於自身，且變更為被賦予所有效果的<COLOR=#FFFFFF>＜雙日當空：相映＞</COLOR>",
       "zh_cn": ""
     },
@@ -31604,7 +31604,7 @@
       "no": 356515,
       "kr": "자신과 태양의 힘이 융합하여 자신의 공격력이 <651513.VALUE>, 방어력이 <651514.VALUE> 증가하고 자신의 체력을 완전히 회복한다. 전장에 존재하는 동안 모든 적에게 2초마다 <651502.VALUE>의 피해를 입히는 화상 상태를 부여하며 모든 스킬에 추가 효과를 부여하고 군중 제어 및 이동 효과에 대해 면역이 되며 일반 공격이 공격력 <651001.VALUE>의 추가 피해를 입히는 <COLOR=#FFFFFF><플레나 솔리스></COLOR> 버프를 부여한다.\r\n\r\n해당 스킬은 전투 내에서 1회만 사용할 수 있으며, 강력한 힘을 얻는 대가로 <651519.DURATION>초 뒤부터 2초마다 자신의 최대 체력의 <651516.VALUE>의 피해를 입는 상태가 되며 <651519.DURATION>초 마다 동일한 수치만큼 가중된다. (최대 2회 가중)",
       "en": "Gains the <COLOR=#FFFFFF>\"Plena Solis\"</COLOR> buff by becoming one with the power of the sun. This buff increases her ATK by <651513.VALUE> and DEF by <651514.VALUE>, and fully recovers her HP. Inflicts Burn on all enemies, which deals <651502.VALUE> damage every 2 sec while she is on the battlefield. Adds synergy effects to all her skills, makes her immune to crowd control and movement effects, and her normal attacks deal additional damage equal to <651001.VALUE> of ATK.\r\r\n\r\r\nThis skill can be used only 1 time per battle. In exchange for great power, after <651519.DURATION> sec, she starts taking damage equal to <651516.VALUE> of her max HP every 2 sec, with the damage doubling every <651519.DURATION> sec (up to 2 times).",
-      "ja": "",
+      "ja": "自分と太陽の力を融合し、自身の攻撃力を<651513.VALUE>、防御力を<651514.VALUE>増加させ、自分の体力をすべて回復する。 戦場にいる間、敵全員に2秒ごとに<651502.VALUE>のダメージを与える火傷状態を付与し、すべてのスキルに追加効果を付与し、行動阻害および移動効果を無効化する。また、通常攻撃が攻撃力の<651001.VALUE>の追加ダメージを与える<COLOR=#FFFFFF><プレナ・ソリス></COLOR>バフを付与する。\r\n\r\nこのスキルは戦闘で1回のみ使用できる。強力な力を得る対価として<651519.DURATION>秒から2秒ごとに自分の最大体力の<651516.VALUE>のダメージを受け、<651519.DURATION>秒ごとに同じ数値の分スタックする。(最大2スタック)",
       "zh_tw": "融合自身和太陽的力量，增加自身攻擊力<651513.VALUE>、防禦力<651514.VALUE>，並完全恢復自身體力，在戰場上的期間，對所有敵人賦予燒傷狀態，每2秒造成<651502.VALUE>的傷害，並賦予所有技能額外效果，對集體控制效果及移動效果免疫，賦予增益效果<COLOR=#FFFFFF>＜萬丈朝陽＞</COLOR>，一般攻擊造成攻擊力<651001.VALUE>的額外傷害。\r\r\n\r\r\n該技能在戰鬥期間只能使用1次，獲得強大力量的代價是在<651519.DURATION>秒後開始，每2秒會受到自身體力上限<651516.VALUE>的傷害，且每<651519.DURATION>秒會加重相同數值（最多加重2次）",
       "zh_cn": ""
     },
@@ -31612,7 +31612,7 @@
       "no": 356520,
       "kr": "메인 스킬을 사용할 시 모든 아군을 리더 정령의 공격력 <652011.VALUE> 만큼 체력을 회복하고 <652012.DURATION>초 동안 리더 정령의 공격력 <652012.VALUE> 만큼의 공격을 흡수하는 보호막 효과를 부여한다. 만약 리더 정령이 캐서린일 경우 위 효과가 <COLOR=#FFFFFF>2</COLOR>배로 증가하고 보호막이 유지되는 동안 가하는 피해량이 <COLOR=#E0942C><652015.VALUE></COLOR> 증가한다.",
       "en": "Using the main skill restores all allies' HP by <652011.VALUE> of the lead Soul's ATK and grants them a shield that absorbs damage equal to <652012.VALUE> of the lead Soul's ATK for <652012.DURATION> sec. The above effects are multiplied by <COLOR=#FFFFFF>2</COLOR> and their damage dealt is increased by <COLOR=#E0942C><652015.VALUE></COLOR> while the shield is active if the lead Soul is Catherine.",
-      "ja": "",
+      "ja": "メインスキルを使用すると、味方全員の体力をリーダー精霊の攻撃力の<652011.VALUE>分だけ回復し、<652012.DURATION>秒間、リーダー精霊の攻撃力の<652012.VALUE>分の攻撃を吸収するバリア効果を付与する。キャサリンがリーダー精霊の場合、スキルの効果が<COLOR=#FFFFFF>2</COLOR>倍に増加し、バリア継続中に与えるダメージ量が<COLOR=#E0942C><652015.VALUE></COLOR>増加する。",
       "zh_tw": "使用主要技能時，所有友軍恢復隊長精靈攻擊力<652011.VALUE>的體力，<652012.DURATION>秒內賦予吸收隊長精靈攻擊力<652012.VALUE>攻擊的防護罩效果。若隊長精靈為凱瑟琳時，以上效果增加為<COLOR=#FFFFFF>2</COLOR>倍，且防護罩持續期間造成的傷害量增加<COLOR=#E0942C><652015.VALUE></COLOR>",
       "zh_cn": ""
     },
@@ -32252,7 +32252,7 @@
       "no": 359026,
       "kr": "자신의 마나가 30%보다 많을 때 가속이 30% 증가한다.",
       "en": "Speed +30% when Mana is more than 30%.",
-      "ja": "",
+      "ja": "自分のマナが30%より多い時、加速が30%増加する。",
       "zh_tw": "自身魔力高於30%時，加速增加30%",
       "zh_cn": ""
     },
@@ -32292,7 +32292,7 @@
       "no": 359031,
       "kr": "적이 받는 피해가 60% 감소하고, 악마형으로 취급된다.",
       "en": "Cheese is considered Demon type and its total damage received is decreased by 60%.",
-      "ja": "",
+      "ja": "敵の受けるダメージが60%減少し、悪魔型として扱われる。",
       "zh_tw": "敵人所受傷害減少60%，被視為惡魔型。",
       "zh_cn": ""
     },
@@ -32492,7 +32492,7 @@
       "no": 359059,
       "kr": "받는 화상 피해가 150% 증가하는 대신 화염을 머금어 가하는 피해가 20% 증가한다.",
       "en": "Burn damage received increases by 150%, but the absorbed fire energy increases damage dealt by 20%.",
-      "ja": "",
+      "ja": "受ける火傷ダメージが150%増加する代わり、炎を口含んで与えるダメージが20%増加する。",
       "zh_tw": "所受燒傷傷害量增加150%，但會含著火焰，造成傷害增加20%",
       "zh_cn": ""
     },
@@ -33924,7 +33924,7 @@
       "no": 361149,
       "kr": "리더 정령이 전장에 있는 동안 은신 상태인 아군의 가하는 피해량을 <COLOR=#E0942C><114922.VALUE></COLOR> 증가시킨다.",
       "en": "Increases the damage dealt by stealthed allies by <COLOR=#E0942C><114922.VALUE></COLOR> while the lead Soul is on the battlefield.",
-      "ja": "",
+      "ja": "リーダー精霊が戦場にいる間、ハイド状態の味方の与えるダメージ量を<COLOR=#E0942C><114922.VALUE></COLOR>増加させる。",
       "zh_tw": "隊長精靈在戰場上時，使處於隱身狀態的友軍造成傷害量增加<COLOR=#E0942C><114922.VALUE></COLOR>",
       "zh_cn": ""
     },
@@ -36524,7 +36524,7 @@
       "no": 366511,
       "kr": "보호막의 피해 흡수량이 <651121.VALUE>, 보호막 주변 대상에게 입히는 피해가 <651123.VALUE>로 변경된다.",
       "en": "Shield HP changes to <651121.VALUE>, and shield damage to nearby enemies changes to <651123.VALUE>.",
-      "ja": "",
+      "ja": "バリアのダメージ吸収量が<651121.VALUE>、バリア周辺の対象に与えるダメージが<651123.VALUE>に変更される。",
       "zh_tw": "防護罩傷害吸收量變更為<651121.VALUE>，對防護罩周遭目標造成傷害變更為<651123.VALUE>",
       "zh_cn": ""
     },
@@ -36532,7 +36532,7 @@
       "no": 366512,
       "kr": "피해량이 <651221.VALUE>, 화상 피해량이 <651222.VALUE>, 받는 화상 피해 증가량이 <651223.VALUE>로 변경된다.",
       "en": "Damage changes to <651221.VALUE>, Burn damage changes to <651222.VALUE>, and increased burn damage received changes to <651223.VALUE>.",
-      "ja": "",
+      "ja": "ダメージ量が<651221.VALUE>、火傷ダメージ量が<651222.VALUE>、受ける火傷ダメージ増加量が<651223.VALUE>に変更される。",
       "zh_tw": "變更為造成<651221.VALUE>的傷害、造成<651222.VALUE>的燒傷傷害、所受燒傷傷害增加量<651223.VALUE>",
       "zh_cn": ""
     },
@@ -36540,7 +36540,7 @@
       "no": 366513,
       "kr": "피해량이 <651321.VALUE>, 추가 피해량이 <651323.VALUE>로 변경된다.",
       "en": "Damage changes to <651321.VALUE>, additional damage changes to <651323.VALUE>.",
-      "ja": "",
+      "ja": "ダメージ量が<651321.VALUE>、追加ダメージ量が<651323.VALUE>に変更される。",
       "zh_tw": "變更為造成<651321.VALUE>的傷害、造成<651323.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -36548,7 +36548,7 @@
       "no": 366514,
       "kr": "제공하는 능력치가 <651424.VALUE>로 변경된다.",
       "en": "The stat increase changes to <651424.VALUE>.",
-      "ja": "",
+      "ja": "提供する能力値が<651424.VALUE>に変更される。",
       "zh_tw": "提供的能力值變更為<651424.VALUE>",
       "zh_cn": ""
     },
@@ -36556,7 +36556,7 @@
       "no": 366515,
       "kr": "증가하는 공격력이 <651523.VALUE>, 방어력이 <651524.VALUE>로 변경된다.",
       "en": "ATK increase changes to <651523.VALUE>, and DEF increase changes to <651524.VALUE>.",
-      "ja": "",
+      "ja": "増加する攻撃力が<651523.VALUE>、防御力が<651524.VALUE>に変更される。",
       "zh_tw": "變更為攻擊力增加<651523.VALUE>、防禦力增加<651524.VALUE>",
       "zh_cn": ""
     },
@@ -36564,7 +36564,7 @@
       "no": 366520,
       "kr": "메인 스킬을 사용할 시 모든 아군을 리더 정령의 공격력 <652021.VALUE> 만큼 체력을 회복하고 <652022.DURATION>초 동안 리더 정령의 공격력 <652022.VALUE> 만큼의 공격을 흡수하는 보호막 효과를 부여한다. 만약 리더 정령이 캐서린일 경우 위 효과가 <COLOR=#FFFFFF>2</COLOR>배로 증가하고 보호막이 유지되는 동안 가하는 피해량이 <COLOR=#E0942C><652025.VALUE></COLOR> 증가한다.",
       "en": "Using the main skill restores all allies' HP by <652021.VALUE> of the lead Soul's ATK and grants them a shield that absorbs damage equal to <652022.VALUE> of the lead Soul's ATK for <652022.DURATION> sec. The above effects are multiplied by <COLOR=#FFFFFF>2</COLOR> and their damage dealt is increased by <COLOR=#E0942C><652025.VALUE></COLOR> while the shield is active if the lead Soul is Catherine.",
-      "ja": "",
+      "ja": "メインスキルを使用すると、味方全員の体力をリーダー精霊の攻撃力の<652021.VALUE>分だけ回復し、<652022.DURATION>秒間、リーダー精霊の攻撃力の<652022.VALUE>分の攻撃を吸収するバリア効果を付与する。キャサリンがリーダー精霊の場合、スキルの効果が<COLOR=#FFFFFF>2</COLOR>倍に増加し、バリア継続中に与えるダメージ量が<COLOR=#E0942C><652025.VALUE></COLOR>増加する。",
       "zh_tw": "使用主要技能時，所有友軍恢復隊長精靈攻擊力<652021.VALUE>的體力，<652022.DURATION>秒內賦予吸收隊長精靈攻擊力<652022.VALUE>攻擊的防護罩效果。若隊長精靈為凱瑟琳時，以上效果增加為<COLOR=#FFFFFF>2</COLOR>倍，且防護罩持續期間造成的傷害量增加<COLOR=#E0942C><652025.VALUE></COLOR>",
       "zh_cn": ""
     },
@@ -37652,7 +37652,7 @@
       "no": 371149,
       "kr": "리더 정령이 전장에 있는 동안 은신 상태인 아군의 가하는 피해량을 <COLOR=#E0942C><114932.VALUE></COLOR> 증가시킨다.",
       "en": "Increases the damage dealt by stealthed allies by <COLOR=#E0942C><114932.VALUE></COLOR> while the lead Soul is on the battlefield.",
-      "ja": "",
+      "ja": "リーダー精霊が戦場にいる間、ハイド状態の味方の与えるダメージ量を<COLOR=#E0942C><114932.VALUE></COLOR>増加させる。",
       "zh_tw": "隊長精靈在戰場上時，使處於隱身狀態的友軍造成傷害量增加<COLOR=#E0942C><114932.VALUE></COLOR>",
       "zh_cn": ""
     },
@@ -40252,7 +40252,7 @@
       "no": 376511,
       "kr": "보호막의 피해 흡수량이 <651131.VALUE>, 보호막 주변 대상에게 입히는 피해가 <651133.VALUE>로 변경되고, <COLOR=#FFFFFF><솔 에테르누스></COLOR>를 사용한 상태라면 자신에게 <651138.DURATION>초 동안 무적 상태를 부여한다.",
       "en": "Shield HP changes to <651131.VALUE>, and shield damage to nearby enemies changes to <651133.VALUE>. If <COLOR=#FFFFFF>\"Sol Aeternus\"</COLOR> has been used, she becomes Invulnerable for <651138.DURATION> sec.",
-      "ja": "",
+      "ja": "バリアのダメージ吸収量が<651131.VALUE>、バリア周辺の対象に与えるダメージが<651133.VALUE>に変更される。<COLOR=#FFFFFF><ソル・アエテルヌス></COLOR>を使用した状態の場合、自分に<651138.DURATION>秒間、無敵状態を付与する。",
       "zh_tw": "防護罩傷害吸收量變更為<651131.VALUE>，對防護罩周遭目標造成傷害變更為<651133.VALUE>，若處於發動<COLOR=#FFFFFF>＜恆久焱陽＞</COLOR>的狀態，賦予自身<651138.DURATION>秒無敵狀態",
       "zh_cn": ""
     },
@@ -40260,7 +40260,7 @@
       "no": 376512,
       "kr": "피해량이 <651231.VALUE>, 화상 피해량이 <651232.VALUE>, 받는 화상 피해 증가량이 <651233.VALUE>로 변경된다.",
       "en": "Damage changes to <651231.VALUE>, Burn damage changes to <651232.VALUE>, and increased burn damage received changes to <651233.VALUE>.",
-      "ja": "",
+      "ja": "ダメージ量が<651231.VALUE>、火傷ダメージ量が<651232.VALUE>、受ける火傷ダメージ増加量が<651233.VALUE>に変更される。",
       "zh_tw": "變更為造成<651231.VALUE>的傷害、造成<651232.VALUE>的燒傷傷害、所受燒傷傷害增加量<651233.VALUE>",
       "zh_cn": ""
     },
@@ -40268,7 +40268,7 @@
       "no": 376513,
       "kr": "피해량이 <651331.VALUE>, 추가 피해량이 <651333.VALUE>로 변경된다.",
       "en": "Damage changes to <651331.VALUE>, additional damage changes to <651333.VALUE>.",
-      "ja": "",
+      "ja": "ダメージ量が<651331.VALUE>、追加ダメージ量が<651333.VALUE>に変更される。",
       "zh_tw": "變更為造成<651331.VALUE>的傷害、造成<651333.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -40276,7 +40276,7 @@
       "no": 376514,
       "kr": "<COLOR=#FFFFFF><듀오 솔레스: 오르투스></COLOR>를 부여받은 아군의 받는 최종 피해량이 <651442.VALUE> 감소하고, <COLOR=#FFFFFF><듀오 솔레스: 베스페라></COLOR>를 부여받은 아군의 가하는 피해량이 <COLOR=#E0942C><651444.VALUE></COLOR> 증가한다.",
       "en": "Total damage received decreases by <651442.VALUE> for allies with the <COLOR=#FFFFFF>\"Duo Soles: Ortus\"</COLOR> buff. Damage dealt increases by <COLOR=#E0942C><651444.VALUE></COLOR> for allies with the <COLOR=#FFFFFF>\"Duo Soles: Vespera\"</COLOR> buff.",
-      "ja": "",
+      "ja": "<COLOR=#FFFFFF><デュオ・ソレス：オルトゥス></COLOR>が付与された味方の受ける最終ダメージ量が<651442.VALUE>減少し、<COLOR=#FFFFFF><デュオ・ソレス：ヴェスペラ></COLOR>が付与された味方の与えるダメージ量が<COLOR=#E0942C><651444.VALUE></COLOR>増加する。",
       "zh_tw": "被賦予<COLOR=#FFFFFF>＜雙日當空：拂曉＞</COLOR>的友軍所受最終傷害量減少<651442.VALUE>；被賦予<COLOR=#FFFFFF>＜雙日當空：薄暮＞</COLOR>的友軍造成傷害量增加<COLOR=#E0942C><651444.VALUE></COLOR>",
       "zh_cn": ""
     },
@@ -40284,7 +40284,7 @@
       "no": 376515,
       "kr": "증가하는 공격력이 <651533.VALUE>, 방어력이 <651534.VALUE>로 변경된다.",
       "en": "ATK increase changes to <651533.VALUE>, and DEF increase changes to <651534.VALUE>.",
-      "ja": "",
+      "ja": "増加する攻撃力が<651533.VALUE>、防御力が<651534.VALUE>に変更される。",
       "zh_tw": "變更為攻擊力增加<651533.VALUE>、防禦力增加<651534.VALUE>",
       "zh_cn": ""
     },
@@ -40292,7 +40292,7 @@
       "no": 376520,
       "kr": "메인 스킬을 사용할 시 모든 아군을 리더 정령의 공격력 <652031.VALUE> 만큼 체력을 회복하고 <652032.DURATION>초 동안 리더 정령의 공격력 <652032.VALUE> 만큼의 공격을 흡수하는 보호막 효과를 부여한다. 만약 리더 정령이 캐서린일 경우 위 효과가 <COLOR=#FFFFFF>2</COLOR>배로 증가하고 보호막이 유지되는 동안 가하는 피해량이 <COLOR=#E0942C><652035.VALUE></COLOR> 증가한다.",
       "en": "Using the main skill restores all allies' HP by <652031.VALUE> of the lead Soul's ATK and grants them a shield that absorbs damage equal to <652032.VALUE> of the lead Soul's ATK for <652032.DURATION> sec. The above effects are multiplied by <COLOR=#FFFFFF>2</COLOR> and their damage dealt is increased by <COLOR=#E0942C><652035.VALUE></COLOR> while the shield is active if the lead Soul is Catherine.",
-      "ja": "",
+      "ja": "メインスキルを使用すると、味方全員の体力をリーダー精霊の攻撃力の<652031.VALUE>分だけ回復し、<652032.DURATION>秒間、リーダー精霊の攻撃力の<652032.VALUE>分の攻撃を吸収するバリア効果を付与する。キャサリンがリーダー精霊の場合、スキルの効果が<COLOR=#FFFFFF>2</COLOR>倍に増加し、バリア継続中に与えるダメージ量が<COLOR=#E0942C><652035.VALUE></COLOR>増加する。",
       "zh_tw": "使用主要技能時，所有友軍恢復隊長精靈攻擊力<652031.VALUE>的體力，<652032.DURATION>秒內賦予吸收隊長精靈攻擊力<652032.VALUE>攻擊的防護罩效果。若隊長精靈為凱瑟琳時，以上效果增加為<COLOR=#FFFFFF>2</COLOR>倍，且防護罩持續期間造成的傷害量增加<COLOR=#E0942C><652035.VALUE></COLOR>",
       "zh_cn": ""
     },
@@ -41292,7 +41292,7 @@
       "no": 381141,
       "kr": "우리 내기 하나 할까?",
       "en": "How about a bet?",
-      "ja": "",
+      "ja": "賭けをしてみない？",
       "zh_tw": "我們要不要來打個賭？",
       "zh_cn": ""
     },
@@ -41300,7 +41300,7 @@
       "no": 381142,
       "kr": "방심하지 마~",
       "en": "Don't let your guard down!",
-      "ja": "",
+      "ja": "油断しないでね～",
       "zh_tw": "別掉以輕心～",
       "zh_cn": ""
     },
@@ -41308,7 +41308,7 @@
       "no": 381143,
       "kr": "다 내 거!",
       "en": "ALL MINE!",
-      "ja": "",
+      "ja": "全部アタシのもの！",
       "zh_tw": "都是我的！",
       "zh_cn": ""
     },
@@ -41316,7 +41316,7 @@
       "no": 381145,
       "kr": "진심으로 할게?",
       "en": "This one's for real!",
-      "ja": "",
+      "ja": "本気出しちゃうよ？",
       "zh_tw": "我要認真了喔！",
       "zh_cn": ""
     },
@@ -41324,7 +41324,7 @@
       "no": 381149,
       "kr": "리더 정령이 전장에 있는 동안 은신 상태인 아군의 가하는 피해량을 <COLOR=#E0942C><114942.VALUE></COLOR> 증가시킨다.",
       "en": "Increases the damage dealt by stealthed allies by <COLOR=#E0942C><114942.VALUE></COLOR> while the lead Soul is on the battlefield.",
-      "ja": "",
+      "ja": "リーダー精霊が戦場にいる間、ハイド状態の味方の与えるダメージ量を<COLOR=#E0942C><114942.VALUE></COLOR>増加させる。",
       "zh_tw": "隊長精靈在戰場上時，使處於隱身狀態的友軍造成傷害量增加<COLOR=#E0942C><114942.VALUE></COLOR>",
       "zh_cn": ""
     },
@@ -43580,7 +43580,7 @@
       "no": 386511,
       "kr": "새빨간 불꽃으로 처단하겠습니다!",
       "en": "Receive the justice of crimson flames!",
-      "ja": "",
+      "ja": "真っ赤な炎で断罪します！",
       "zh_tw": "以赤紅火焰處決！",
       "zh_cn": ""
     },
@@ -43588,7 +43588,7 @@
       "no": 386512,
       "kr": "성스러운 태양의 힘으로!",
       "en": "By the sacred power of the sun!",
-      "ja": "",
+      "ja": "聖なる太陽の力で！",
       "zh_tw": "以神聖的太陽之力！",
       "zh_cn": ""
     },
@@ -43596,7 +43596,7 @@
       "no": 386513,
       "kr": "정화의 불꽃으로!",
       "en": "By the flames of purification!",
-      "ja": "",
+      "ja": "浄化の炎で！",
       "zh_tw": "以淨化花火！",
       "zh_cn": ""
     },
@@ -43604,7 +43604,7 @@
       "no": 386515,
       "kr": "타오르는 의지는 불과 빛으로!",
       "en": "My burning spirit is fire and light!",
-      "ja": "",
+      "ja": "燃え上がる志は、炎と光であれ！",
       "zh_tw": "熾熱意念，火光乍現！",
       "zh_cn": ""
     },
@@ -43612,7 +43612,7 @@
       "no": 386520,
       "kr": "메인 스킬을 사용할 시 모든 아군을 리더 정령의 공격력 <652041.VALUE> 만큼 체력을 회복하고 <652042.DURATION>초 동안 리더 정령의 공격력 <652042.VALUE> 만큼의 공격을 흡수하는 보호막 효과를 부여한다. 만약 리더 정령이 캐서린일 경우 위 효과가 <COLOR=#FFFFFF>2</COLOR>배로 증가하고 보호막이 유지되는 동안 가하는 피해량이 <COLOR=#E0942C><652045.VALUE></COLOR> 증가한다.",
       "en": "Using the main skill restores all allies' HP by <652041.VALUE> of the lead Soul's ATK and grants them a shield that absorbs damage equal to <652042.VALUE> of the lead Soul's ATK for <652042.DURATION> sec. The above effects are multiplied by <COLOR=#FFFFFF>2</COLOR> and their damage dealt is increased by <COLOR=#E0942C><652045.VALUE></COLOR> while the shield is active if the lead Soul is Catherine.",
-      "ja": "",
+      "ja": "メインスキルを使用すると、味方全員の体力をリーダー精霊の攻撃力の<652041.VALUE>分だけ回復し、<652042.DURATION>秒間、リーダー精霊の攻撃力の<652042.VALUE>分の攻撃を吸収するバリア効果を付与する。キャサリンがリーダー精霊の場合、スキルの効果が<COLOR=#FFFFFF>2</COLOR>倍に増加し、バリア継続中に与えるダメージ量が<COLOR=#E0942C><652045.VALUE></COLOR>増加する。",
       "zh_tw": "使用主要技能時，所有友軍恢復隊長精靈攻擊力<652041.VALUE>的體力，<652042.DURATION>秒內賦予吸收隊長精靈攻擊力<652042.VALUE>攻擊的防護罩效果。若隊長精靈為凱瑟琳時，以上效果增加為<COLOR=#FFFFFF>2</COLOR>倍，且防護罩持續期間造成的傷害量增加<COLOR=#E0942C><652045.VALUE></COLOR>",
       "zh_cn": ""
     },
@@ -43940,7 +43940,7 @@
       "no": 391149,
       "kr": "리더 정령이 전장에 있는 동안 은신 상태인 아군의 가하는 피해량을 <COLOR=#E0942C><114952.VALUE></COLOR> 증가시킨다.",
       "en": "Increases the damage dealt by stealthed allies by <COLOR=#E0942C><114952.VALUE></COLOR> while the lead Soul is on the battlefield.",
-      "ja": "",
+      "ja": "リーダー精霊が戦場にいる間、ハイド状態の味方の与えるダメージ量を<COLOR=#E0942C><114952.VALUE></COLOR>増加させる。",
       "zh_tw": "隊長精靈在戰場上時，使處於隱身狀態的友軍造成傷害量增加<COLOR=#E0942C><114952.VALUE></COLOR>",
       "zh_cn": ""
     },
@@ -44388,7 +44388,7 @@
       "no": 396520,
       "kr": "메인 스킬을 사용할 시 모든 아군을 리더 정령의 공격력 <652051.VALUE> 만큼 체력을 회복하고 <652052.DURATION>초 동안 리더 정령의 공격력 <652052.VALUE> 만큼의 공격을 흡수하는 보호막 효과를 부여한다. 만약 리더 정령이 캐서린일 경우 위 효과가 <COLOR=#FFFFFF>2</COLOR>배로 증가하고 보호막이 유지되는 동안 가하는 피해량이 <COLOR=#E0942C><652055.VALUE></COLOR> 증가한다.",
       "en": "Using the main skill restores all allies' HP by <652051.VALUE> of the lead Soul's ATK and grants them a shield that absorbs damage equal to <652052.VALUE> of the lead Soul's ATK for <652052.DURATION> sec. The above effects are multiplied by <COLOR=#FFFFFF>2</COLOR> and their damage dealt is increased by <COLOR=#E0942C><652055.VALUE></COLOR> while the shield is active if the lead Soul is Catherine.",
-      "ja": "",
+      "ja": "メインスキルを使用すると、味方全員の体力をリーダー精霊の攻撃力の<652051.VALUE>分だけ回復し、<652052.DURATION>秒間、リーダー精霊の攻撃力の<652052.VALUE>分の攻撃を吸収するバリア効果を付与する。キャサリンがリーダー精霊の場合、スキルの効果が<COLOR=#FFFFFF>2</COLOR>倍に増加し、バリア継続中に与えるダメージ量が<COLOR=#E0942C><652055.VALUE></COLOR>増加する。",
       "zh_tw": "使用主要技能時，所有友軍恢復隊長精靈攻擊力<652051.VALUE>的體力，<652052.DURATION>秒內賦予吸收隊長精靈攻擊力<652052.VALUE>攻擊的防護罩效果。若隊長精靈為凱瑟琳時，以上效果增加為<COLOR=#FFFFFF>2</COLOR>倍，且防護罩持續期間造成的傷害量增加<COLOR=#E0942C><652055.VALUE></COLOR>",
       "zh_cn": ""
     },
@@ -44516,7 +44516,7 @@
       "no": 401149,
       "kr": "리더 정령이 전장에 있는 동안 은신 상태인 아군의 가하는 피해량을 <COLOR=#E0942C><114962.VALUE></COLOR> 증가시킨다.",
       "en": "Increases the damage dealt by stealthed allies by <COLOR=#E0942C><114962.VALUE></COLOR> while the lead Soul is on the battlefield.",
-      "ja": "",
+      "ja": "リーダー精霊が戦場にいる間、ハイド状態の味方の与えるダメージ量を<COLOR=#E0942C><114962.VALUE></COLOR>増加させる。",
       "zh_tw": "隊長精靈在戰場上時，使處於隱身狀態的友軍造成傷害量增加<COLOR=#E0942C><114962.VALUE></COLOR>",
       "zh_cn": ""
     },
@@ -44964,7 +44964,7 @@
       "no": 406520,
       "kr": "메인 스킬을 사용할 시 모든 아군을 리더 정령의 공격력 <652061.VALUE> 만큼 체력을 회복하고 <652062.DURATION>초 동안 리더 정령의 공격력 <652062.VALUE> 만큼의 공격을 흡수하는 보호막 효과를 부여한다. 만약 리더 정령이 캐서린일 경우 위 효과가 <COLOR=#FFFFFF>2</COLOR>배로 증가하고 보호막이 유지되는 동안 가하는 피해량이 <COLOR=#E0942C><652065.VALUE></COLOR> 증가한다.",
       "en": "Using the main skill restores all allies' HP by <652061.VALUE> of the lead Soul's ATK and grants them a shield that absorbs damage equal to <652062.VALUE> of the lead Soul's ATK for <652062.DURATION> sec. The above effects are multiplied by <COLOR=#FFFFFF>2</COLOR> and their damage dealt is increased by <COLOR=#E0942C><652065.VALUE></COLOR> while the shield is active if the lead Soul is Catherine.",
-      "ja": "",
+      "ja": "メインスキルを使用すると、味方全員の体力をリーダー精霊の攻撃力の<652061.VALUE>分だけ回復し、<652062.DURATION>秒間、リーダー精霊の攻撃力の<652062.VALUE>分の攻撃を吸収するバリア効果を付与する。キャサリンがリーダー精霊の場合、スキルの効果が<COLOR=#FFFFFF>2</COLOR>倍に増加し、バリア継続中に与えるダメージ量が<COLOR=#E0942C><652065.VALUE></COLOR>増加する。",
       "zh_tw": "使用主要技能時，所有友軍恢復隊長精靈攻擊力<652061.VALUE>的體力，<652062.DURATION>秒內賦予吸收隊長精靈攻擊力<652062.VALUE>攻擊的防護罩效果。若隊長精靈為凱瑟琳時，以上效果增加為<COLOR=#FFFFFF>2</COLOR>倍，且防護罩持續期間造成的傷害量增加<COLOR=#E0942C><652065.VALUE></COLOR>",
       "zh_cn": ""
     },
@@ -45092,7 +45092,7 @@
       "no": 411149,
       "kr": "리더 정령이 전장에 있는 동안 은신 상태인 아군의 가하는 피해량을 <COLOR=#E0942C><114972.VALUE></COLOR> 증가시킨다.",
       "en": "Increases the damage dealt by stealthed allies by <COLOR=#E0942C><114972.VALUE></COLOR> while the lead Soul is on the battlefield.",
-      "ja": "",
+      "ja": "リーダー精霊が戦場にいる間、ハイド状態の味方の与えるダメージ量を<COLOR=#E0942C><114972.VALUE></COLOR>増加させる。",
       "zh_tw": "隊長精靈在戰場上時，使處於隱身狀態的友軍造成傷害量增加<COLOR=#E0942C><114972.VALUE></COLOR>",
       "zh_cn": ""
     },
@@ -45540,7 +45540,7 @@
       "no": 416520,
       "kr": "메인 스킬을 사용할 시 모든 아군을 리더 정령의 공격력 <652071.VALUE> 만큼 체력을 회복하고 <652072.DURATION>초 동안 리더 정령의 공격력 <652072.VALUE> 만큼의 공격을 흡수하는 보호막 효과를 부여한다. 만약 리더 정령이 캐서린일 경우 위 효과가 <COLOR=#FFFFFF>2</COLOR>배로 증가하고 보호막이 유지되는 동안 가하는 피해량이 <COLOR=#E0942C><652075.VALUE></COLOR> 증가한다.",
       "en": "Using the main skill restores all allies' HP by <652071.VALUE> of the lead Soul's ATK and grants them a shield that absorbs damage equal to <652072.VALUE> of the lead Soul's ATK for <652072.DURATION> sec. The above effects are multiplied by <COLOR=#FFFFFF>2</COLOR> and their damage dealt is increased by <COLOR=#E0942C><652075.VALUE></COLOR> while the shield is active if the lead Soul is Catherine.",
-      "ja": "",
+      "ja": "メインスキルを使用すると、味方全員の体力をリーダー精霊の攻撃力の<652071.VALUE>分だけ回復し、<652072.DURATION>秒間、リーダー精霊の攻撃力の<652072.VALUE>分の攻撃を吸収するバリア効果を付与する。キャサリンがリーダー精霊の場合、スキルの効果が<COLOR=#FFFFFF>2</COLOR>倍に増加し、バリア継続中に与えるダメージ量が<COLOR=#E0942C><652075.VALUE></COLOR>増加する。",
       "zh_tw": "使用主要技能時，所有友軍恢復隊長精靈攻擊力<652071.VALUE>的體力，<652072.DURATION>秒內賦予吸收隊長精靈攻擊力<652072.VALUE>攻擊的防護罩效果。若隊長精靈為凱瑟琳時，以上效果增加為<COLOR=#FFFFFF>2</COLOR>倍，且防護罩持續期間造成的傷害量增加<COLOR=#E0942C><652075.VALUE></COLOR>",
       "zh_cn": ""
     },
@@ -47396,7 +47396,7 @@
       "no": 703711,
       "kr": "<COLOR=#E0942C>도검제일주의</COLOR>",
       "en": "<COLOR=#E0942C>Rule of the Blade</COLOR>",
-      "ja": "",
+      "ja": "<COLOR=#E0942C>刀剣第一主義</COLOR>",
       "zh_tw": "<COLOR=#E0942C>刀劍至上主義</COLOR>",
       "zh_cn": ""
     },
@@ -47404,7 +47404,7 @@
       "no": 703712,
       "kr": "특정 불사형 정령이 파티 내에 존재할 시 해당 정령의 능력치 및 스킬 효과가 강화된다.",
       "en": "If a particular Undead Soul is in the party, that Soul's stats and skill effects are enhanced.",
-      "ja": "",
+      "ja": "特定の不死型精霊がパーティーにいる場合、その精霊の能力値およびスキル効果が強化される。",
       "zh_tw": "當有特定的不死型精靈在隊伍中時，該精靈的能力值與技能效果將強化",
       "zh_cn": ""
     },
@@ -47412,7 +47412,7 @@
       "no": 703721,
       "kr": "<COLOR=#E0942C>피로 이어진 저주</COLOR>",
       "en": "<COLOR=#E0942C>Curse Linked by Blood</COLOR>",
-      "ja": "",
+      "ja": "<COLOR=#E0942C>血で繋がれた呪い</COLOR>",
       "zh_tw": "<COLOR=#E0942C>血償詛咒</COLOR>",
       "zh_cn": ""
     },
@@ -47420,7 +47420,7 @@
       "no": 703722,
       "kr": "인과 조작으로 인해 검귀는 또 다른 혈귀를 불러온다.",
       "en": "Causal Manipulation leads the Sword Demon to bring another Blood Demon.",
-      "ja": "",
+      "ja": "因果の操作により、剣鬼は別の血鬼を呼び寄せる。",
       "zh_tw": "由於操縱因果，劍鬼又召喚了另一個血鬼",
       "zh_cn": ""
     },

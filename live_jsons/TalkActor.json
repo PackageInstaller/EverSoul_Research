@@ -2211,6 +2211,16 @@
       "position_scale": 1.0
     },
     {
+      "no": 4074,
+      "name_sno": 304070,
+      "prefab_path": "Jacqueline",
+      "portrait512_path": "UI/Textures/Souls/Jacqueline/Jacqueline_Costume04_512",
+      "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_Costume04_128",
+      "costume_path": "Jacqueline_Costume04",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
       "no": 4080,
       "name_sno": 304080,
       "prefab_path": "Velanna",
@@ -10419,7 +10429,8 @@
       "portrait512_path": "UI/Textures/Etc/NPC_UnknownBoy_512",
       "portrait128_path": "",
       "costume_path": "",
-      "controller_path": ""
+      "controller_path": "",
+      "position_scale": 1.0
     },
     {
       "no": 9740,
@@ -10428,7 +10439,8 @@
       "portrait512_path": "UI/Textures/Etc/NPC_UnknownWoman2_512",
       "portrait128_path": "",
       "costume_path": "",
-      "controller_path": ""
+      "controller_path": "",
+      "position_scale": 1.0
     },
     {
       "no": 9741,
@@ -10437,7 +10449,8 @@
       "portrait512_path": "UI/Textures/Etc/NPC_UnknownMan3_512",
       "portrait128_path": "",
       "costume_path": "",
-      "controller_path": ""
+      "controller_path": "",
+      "position_scale": 1.0
     },
     {
       "no": 9742,
@@ -10446,7 +10459,28 @@
       "portrait512_path": "",
       "portrait128_path": "",
       "costume_path": "",
-      "controller_path": ""
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9743,
+      "name_sno": 250699,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9744,
+      "name_sno": 250700,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
     },
     {
       "no": 9950,

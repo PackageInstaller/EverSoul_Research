@@ -1306,10 +1306,10 @@
       "no": 2242,
       "type_sno": 710000,
       "name_sno": 520442,
-      "prefab_path": "Erusha_Costume01",
-      "timeline_path": "Erusha_Costume01",
-      "icon_path": "Erusha_Icon_Costume_01",
-      "portrait_path": "Erusha",
+      "prefab_path": "Erusha_Costume03",
+      "timeline_path": "Erusha_Costume03",
+      "icon_path": "Erusha_Icon_Costume_03",
+      "portrait_path": "Erusha_Costume03",
       "controller_path": "Erusha"
     },
     {
@@ -2676,6 +2676,7 @@
       "no": 2367,
       "type_sno": 710000,
       "name_sno": 520567,
+      "hero_no": 4070,
       "prefab_path": "Jacqueline_Costume04",
       "timeline_path": "Jacqueline_Costume04",
       "icon_path": "Jacqueline_Icon_Costume_04",

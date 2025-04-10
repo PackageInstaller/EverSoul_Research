@@ -3196,7 +3196,7 @@
       "no": 214140,
       "kr": "유물의 기억 선택 상자",
       "en": "Artifact Memory Selection Chest",
-      "ja": "",
+      "ja": "遺物の記憶選択箱",
       "zh_tw": "遺物的記憶選擇箱子",
       "zh_cn": ""
     },
@@ -3204,7 +3204,7 @@
       "no": 214141,
       "kr": "정령 타입 선택 상자 (레전더리+)",
       "en": "Soul Type Selection Chest (Legendary+)",
-      "ja": "",
+      "ja": "精霊タイプ選択箱 (レジェンダリー+)",
       "zh_tw": "精靈類型選擇箱子（傳說＋）",
       "zh_cn": ""
     },
@@ -3486,6 +3486,14 @@
       "en": "Side Event Lucky Chest",
       "ja": "サイドイベント幸運箱",
       "zh_tw": "支線活動幸運箱子",
+      "zh_cn": ""
+    },
+    {
+      "no": 214177,
+      "kr": "어린 정령의 소망 상자",
+      "en": "Manon's Special Gift Box",
+      "ja": "",
+      "zh_tw": "瑪儂的特別禮物盒",
       "zh_cn": ""
     },
     {
@@ -4857,6 +4865,14 @@
       "zh_cn": ""
     },
     {
+      "no": 215723,
+      "kr": "프레임: 꿈꾸는 인형",
+      "en": "Frame: Cherished Heart",
+      "ja": "",
+      "zh_tw": "外框：珍貴的心意",
+      "zh_cn": ""
+    },
+    {
       "no": 215900,
       "kr": "낮의 방주",
       "en": "Ark (Daytime)",
@@ -5196,7 +5212,7 @@
       "no": 216137,
       "kr": "스티커: 페이렌\r\n(레전더리)",
       "en": "Sticker: Fayren\r\n(Legendary)",
-      "ja": "",
+      "ja": "ステッカー：フェイレン\r\n(レジェンダリー)",
       "zh_tw": "貼紙：費倫\r\n（傳說）",
       "zh_cn": ""
     },
@@ -5204,7 +5220,7 @@
       "no": 216138,
       "kr": "스티커: 페이렌\r\n(레전더리 3위)",
       "en": "Sticker: Fayren\r\n(Legendary #3)",
-      "ja": "",
+      "ja": "ステッカー：フェイレン\r\n(レジェンダリー3位)",
       "zh_tw": "貼紙：費倫\r\n（傳說第3名）",
       "zh_cn": ""
     },
@@ -5212,7 +5228,7 @@
       "no": 216139,
       "kr": "스티커: 페이렌\r\n(레전더리 2위)",
       "en": "Sticker: Fayren\r\n(Legendary #2)",
-      "ja": "",
+      "ja": "ステッカー：フェイレン\r\n(レジェンダリー2位)",
       "zh_tw": "貼紙：費倫\r\n（傳說第2名）",
       "zh_cn": ""
     },
@@ -5220,7 +5236,7 @@
       "no": 216140,
       "kr": "스티커: 페이렌\r\n(레전더리 1위)",
       "en": "Sticker: Fayren\r\n(Legendary #1)",
-      "ja": "",
+      "ja": "ステッカー：フェイレン\r\n(レジェンダリー1位)",
       "zh_tw": "貼紙：費倫\r\n（傳說第1名）",
       "zh_cn": ""
     },
@@ -6561,6 +6577,78 @@
       "zh_cn": ""
     },
     {
+      "no": 216946,
+      "kr": "스티커: 사해파정(1위)",
+      "en": "Sticker: Calm Waves of Four Seas (#1)",
+      "ja": "",
+      "zh_tw": "貼紙：四海波靜（第1名）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216947,
+      "kr": "스티커: 사해파정(2위)",
+      "en": "Sticker: Calm Waves of Four Seas (#2)",
+      "ja": "",
+      "zh_tw": "貼紙：四海波靜（第2名）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216948,
+      "kr": "스티커: 사해파정(3위)",
+      "en": "Sticker: Calm Waves of Four Seas (#3)",
+      "ja": "",
+      "zh_tw": "貼紙：四海波靜（第3名）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216949,
+      "kr": "스티커: 사해파정(챌린저)",
+      "en": "Sticker: Calm Waves of Four Seas (Challenger)",
+      "ja": "",
+      "zh_tw": "貼紙：四海波靜（王者）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216950,
+      "kr": "스티커: 사해파정(마스터)",
+      "en": "Sticker: Calm Waves of Four Seas (Master)",
+      "ja": "",
+      "zh_tw": "貼紙：四海波靜（大師）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216951,
+      "kr": "스티커: 사해파정(플래티넘)",
+      "en": "Sticker: Calm Waves of Four Seas (Platinum)",
+      "ja": "",
+      "zh_tw": "貼紙：四海波靜（白金）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216952,
+      "kr": "스티커: 사해파정(골드)",
+      "en": "Sticker: Calm Waves of Four Seas (Gold)",
+      "ja": "",
+      "zh_tw": "貼紙：四海波靜（黃金）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216953,
+      "kr": "스티커: 사해파정(실버)",
+      "en": "Sticker: Calm Waves of Four Seas (Silver)",
+      "ja": "",
+      "zh_tw": "貼紙：四海波靜（白銀）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216954,
+      "kr": "스티커: 사해파정(브론즈)",
+      "en": "Sticker: Calm Waves of Four Seas (Bronze)",
+      "ja": "",
+      "zh_tw": "貼紙：四海波靜（青銅）",
+      "zh_cn": ""
+    },
+    {
       "no": 217001,
       "kr": "조각 케이크",
       "en": "Sliced Cake",
@@ -7539,17 +7627,17 @@
     {
       "no": 218133,
       "kr": "주사위(사해파정)",
-      "en": "",
+      "en": "Dice (Calm Waves of Four Seas)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "骰子（四海波靜）",
       "zh_cn": ""
     },
     {
       "no": 218134,
       "kr": "궁기 길들이기 미니 게임 입장권",
-      "en": "",
+      "en": "Taming Unicat Mini Game Ticket",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "馴服窮奇小遊戲入場券",
       "zh_cn": ""
     },
     {
@@ -10788,7 +10876,7 @@
       "no": 224140,
       "kr": "런칭~오토하까지 출시 된 모든 정령의 유물의 기억 중 선택 가능한 상자.",
       "en": "A chest from which you could choose an Artifact Memory of any Soul released up until Otoha's release.",
-      "ja": "",
+      "ja": "リリース～オトハまでの精霊の遺物の記憶の中から選択できる箱",
       "zh_tw": "可在上市～乙葉的所有精靈遺物的記憶中選擇的箱子。",
       "zh_cn": ""
     },
@@ -10796,7 +10884,7 @@
       "no": 224141,
       "kr": "태생 레어 정령인 리타, 샤링, 알리샤, 무명 중 하나를 선택하여 레전더리+ 등급으로 획득할 수 있는 상자.",
       "en": "Select a Soul (Rita, Sharinne, Alisha, and Nameless) that was originally Rare to obtain her at Legendary+ grade.",
-      "ja": "",
+      "ja": "初期ランクがレアの精霊のリタ、シャーリン、アリーシャ、ナナシの中から1人をレジェンダリー+ランクで獲得できる箱",
       "zh_tw": "可在原先是稀有精靈的麗塔、夏琳、艾麗西雅、無名中擇一以傳說＋階級獲得的箱子。",
       "zh_cn": ""
     },
@@ -11062,6 +11150,14 @@
       "en": "A lucky chest prepared in celebration of our side event.\r\nContains one of the following options based on chance.\r\n\r\n[Content Probabilities]\r\n70 Erika's Alchemy Tickets: 1%\r\n30 Artifact Summon Tickets: 3%\r\n20 Artifact Summon Tickets: 4%\r\n15 Artifact Summon Tickets: 7%\r\n10 Artifact Summon Tickets: 35%\r\n5 Artifact Summon Tickets: 50%",
       "ja": "サイドイベントを記念して用意した幸運箱です。\r\n使用すると、以下の構成品を確率によって獲得します。\r\n\r\n[構成品確率]\r\nエリカの錬金術チケットx70：1%\r\n遺物召喚券x30：3%\r\n遺物召喚券x20：4%\r\n遺物召喚券x15：7%\r\n遺物召喚券x10：35%\r\n遺物召喚券x5：50%",
       "zh_tw": "為紀念支線活動所準備的幸運箱子。\r\n使用後將根據機率獲得下列內容物。\r\n\r\n［內容物機率］\r\n艾麗卡的鍊金術票券70張：1%\r\n遺物召喚券30張：3%\r\n遺物召喚券20張：4%\r\n遺物召喚券15張：7%\r\n遺物召喚券10張：35%\r\n遺物召喚券5張：50%",
+      "zh_cn": ""
+    },
+    {
+      "no": 224177,
+      "kr": "어린 정령들의 동심이 느껴지는 상자.\r\n꿈과 소망을 한껏 담아 포장한 그들의 마음이 느껴진다.",
+      "en": "A box full of special items Manon gathered to welcome May.",
+      "ja": "",
+      "zh_tw": "裝有瑪儂為了迎接5月，收集特別道具的禮盒。",
       "zh_cn": ""
     },
     {
@@ -11956,7 +12052,7 @@
       "no": 225663,
       "kr": "미니 게임(몰려와요 마물의 숲) 포인트 랭킹 3위 달성 시 획득하는 프레임\r\n\r\n획득 가능 기간 종료(~2024. 01)",
       "en": "Frame obtained upon ranking third in the Mini Game (Waving Forest of Monsters)\r\n\r\nNo longer available (since the end of January 2024)",
-      "ja": "",
+      "ja": "ミニゲーム(押し寄せてくる!?魔物の森)ポイント順位3位を達成すると獲得できるフレーム\r\n\r\n獲得可能期間終了(～2024. 01)",
       "zh_tw": "達成小遊戲（蜂擁而上魔物森林）分數排名第3名時可獲得的外框\r\n\r\n獲得期間已結束（~2024. 01）",
       "zh_cn": ""
     },
@@ -11964,7 +12060,7 @@
       "no": 225664,
       "kr": "미니 게임(몰려와요 마물의 숲) 포인트 랭킹 2위 달성 시 획득하는 프레임\r\n\r\n획득 가능 기간 종료(~2024. 01)",
       "en": "Frame obtained upon ranking second in the Mini Game (Waving Forest of Monsters)\r\n\r\nNo longer available (since the end of January 2024)",
-      "ja": "",
+      "ja": "ミニゲーム(押し寄せてくる!?魔物の森)ポイント順位2位を達成すると獲得できるフレーム\r\n\r\n獲得可能期間終了(～2024. 01)",
       "zh_tw": "達成小遊戲（蜂擁而上魔物森林）分數排名第2名時可獲得的外框\r\n\r\n獲得期間已結束（~2024. 01）",
       "zh_cn": ""
     },
@@ -11972,7 +12068,7 @@
       "no": 225665,
       "kr": "미니 게임(몰려와요 마물의 숲) 포인트 랭킹 1위 달성 시 획득하는 프레임\r\n\r\n획득 가능 기간 종료(~2024. 01)",
       "en": "Frame obtained upon ranking first in the Mini Game (Waving Forest of Monsters)\r\n\r\nNo longer available (since the end of January 2024)",
-      "ja": "",
+      "ja": "ミニゲーム(押し寄せてくる!?魔物の森)ポイント順位1位を達成すると獲得できるフレーム\r\n\r\n獲得可能期間終了(～2024. 01)",
       "zh_tw": "達成小遊戲（蜂擁而上魔物森林）分數排名第1名時可獲得的外框\r\n\r\n獲得期間已結束（~2024. 01）",
       "zh_cn": ""
     },
@@ -12196,7 +12292,7 @@
       "no": 225693,
       "kr": "돌아온 이상한 꿈결의 클로이 최대 피해 보상 3000만 달성 시 획득하는 프레임",
       "en": "Frame obtained upon reaching 30 million of max damage reward for Chloe's Strange Dream Is Back",
-      "ja": "",
+      "ja": "不思議な夢現のクロエの最大ダメージ報酬3000万を達成すると獲得できるフレーム",
       "zh_tw": "達成回歸的奇異夢境的克羅伊最大傷害獎勵3000萬時獲得此外框",
       "zh_cn": ""
     },
@@ -12430,6 +12526,14 @@
       "en": "Frame obtained upon securing first place in Evil Soul Subjugation (Butterfly of An Ominous Dream Naiah)",
       "ja": "悪霊討伐(凶夢の蝶ナイア)で最終順位1位を達成すると獲得できるフレーム",
       "zh_tw": "達成惡靈討伐（凶夢之蝶娜伊雅）最終第1名時獲得的外框",
+      "zh_cn": ""
+    },
+    {
+      "no": 225723,
+      "kr": "어린 정령의 소망이 깃든 프레임",
+      "en": "A frame decorated with stuffed toys, overflowing with affection",
+      "ja": "",
+      "zh_tw": "用玩偶裝飾，愛意滿滿的外框",
       "zh_cn": ""
     },
     {
@@ -12788,7 +12892,7 @@
       "no": 226137,
       "kr": "에덴 연합 작전: 페이렌 편에서 레전더리 티어 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon reaching Legendary tier in [Operation Eden Alliance] Fayren.",
-      "ja": "",
+      "ja": "エデン連合作戦：フェイレン編でレジェンダリーティアを達成すると獲得できるステッカー",
       "zh_tw": "在伊甸園聯合作戰：費倫篇達成傳說段位可獲得的貼紙。",
       "zh_cn": ""
     },
@@ -12796,7 +12900,7 @@
       "no": 226138,
       "kr": "에덴 연합 작전: 페이렌 편에서 레전더리 티어 3위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon reaching third place in Legendary tier in [Operation Eden Alliance] Fayren.",
-      "ja": "",
+      "ja": "エデン連合作戦：フェイレン編でレジェンダリーティアの3位を達成すると獲得できるステッカー",
       "zh_tw": "在伊甸園聯合作戰：費倫篇達成傳說段位第3名可獲得的貼紙。",
       "zh_cn": ""
     },
@@ -12804,7 +12908,7 @@
       "no": 226139,
       "kr": "에덴 연합 작전: 페이렌 편에서 레전더리 티어 2위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon reaching second place in Legendary tier in [Operation Eden Alliance] Fayren.",
-      "ja": "",
+      "ja": "エデン連合作戦：フェイレン編でレジェンダリーティアの2位を達成すると獲得できるステッカー",
       "zh_tw": "在伊甸園聯合作戰：費倫篇達成傳說段位第2名可獲得的貼紙。.",
       "zh_cn": ""
     },
@@ -12812,7 +12916,7 @@
       "no": 226140,
       "kr": "에덴 연합 작전: 페이렌 편에서 레전더리 티어 1위 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon reaching first place in Legendary tier in [Operation Eden Alliance] Fayren.",
-      "ja": "",
+      "ja": "エデン連合作戦：フェイレン編でレジェンダリーティアの1位を達成すると獲得できるステッカー",
       "zh_tw": "在伊甸園聯合作戰：費倫篇達成傳說段位第1名可獲得的貼紙。",
       "zh_cn": ""
     },
@@ -14153,6 +14257,78 @@
       "zh_cn": ""
     },
     {
+      "no": 226946,
+      "kr": "인피니티 보스 챌린지(시련의 환영) 최종 1위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Illusion of Ordeal) event in first place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（考驗的幻影）最終第1名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226947,
+      "kr": "인피니티 보스 챌린지(시련의 환영) 최종 2위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Illusion of Ordeal) event in second place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（考驗的幻影）最終第2名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226948,
+      "kr": "인피니티 보스 챌린지(시련의 환영) 최종 3위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Illusion of Ordeal) event in third place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（考驗的幻影）最終第3名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226949,
+      "kr": "인피니티 보스 챌린지(시련의 환영) 최종 4~10위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Illusion of Ordeal) event in 4th–10th place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（考驗的幻影）最終第4～10名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226950,
+      "kr": "인피니티 보스 챌린지(시련의 환영) 최종 11~100위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Illusion of Ordeal) event in 11th–100th place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（考驗的幻影）最終第11～100名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226951,
+      "kr": "인피니티 보스 챌린지(시련의 환영) 최종 101~500위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Illusion of Ordeal) event in 101st–500th place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（考驗的幻影）最終第101～500名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226952,
+      "kr": "인피니티 보스 챌린지(시련의 환영) 최종 501~1000위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Illusion of Ordeal) event in 501st–1000th place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（考驗的幻影）最終第501～1000名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226953,
+      "kr": "인피니티 보스 챌린지(시련의 환영) 최종 1001~2000위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Illusion of Ordeal) event in 1001st–2000th place.",
+      "ja": "",
+      "zh_tw": "達成無限BOSS挑戰（考驗的幻影）最終第1001～2000名時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
+      "no": 226954,
+      "kr": "인피니티 보스 챌린지(시련의 환영) 참여 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon participating in an Infinity Boss Challenge (Illusion of Ordeal) event.",
+      "ja": "",
+      "zh_tw": "參加無限BOSS挑戰（考驗的幻影）時獲得的貼紙",
+      "zh_cn": ""
+    },
+    {
       "no": 227001,
       "kr": "달콤한 생크림과 폭신한 시트가 인상적인 간식.",
       "en": "An impressive snack with sweet fresh cream and soft layers.",
@@ -14979,9 +15155,9 @@
     {
       "no": 228133,
       "kr": "이벤트 진행에 사용되는 주사위 아이템.\r\n이벤트 주사위에 사용하여 보상을 획득할 수 있습니다.\r\n\r\n(이벤트 종료 후 개당 300,000 골드로 환산되어 우편함으로 지급됩니다.)",
-      "en": "",
+      "en": "A dice used in the event.\r\nUse it to roll the dice and claim event rewards.\r\n\r\n(After the event ends, each will be converted to 300,000 Gold and sent to your mail.)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "可用來進行活動的骰子道具。\r\n使用活動骰子可獲得獎勵。\r\n\r\n（活動結束後，每個會換算成300,000金幣並發送至信箱。）",
       "zh_cn": ""
     },
     {
@@ -15732,7 +15908,7 @@
       "no": 520127,
       "kr": "공주 등장!",
       "en": "Enter Princess!",
-      "ja": "",
+      "ja": "お姫様、登場！",
       "zh_tw": "公主登場！",
       "zh_cn": ""
     },
@@ -15964,7 +16140,7 @@
       "no": 520156,
       "kr": "그건 잔상입니다",
       "en": "Just a Mirage",
-      "ja": "",
+      "ja": "それは残像です",
       "zh_tw": "那是殘影",
       "zh_cn": ""
     },
@@ -15988,7 +16164,7 @@
       "no": 520159,
       "kr": "타락의 증표",
       "en": "Token of Corruption",
-      "ja": "",
+      "ja": "堕落の証",
       "zh_tw": "墮落的信物",
       "zh_cn": ""
     },
@@ -15996,7 +16172,7 @@
       "no": 520160,
       "kr": "블루 나이팅게일",
       "en": "Blue Nightingale",
-      "ja": "",
+      "ja": "ブルーナイチンゲール",
       "zh_tw": "藍色夜鶯",
       "zh_cn": ""
     },
@@ -16140,7 +16316,7 @@
       "no": 520178,
       "kr": "서방의 백호",
       "en": "White Tiger of the West",
-      "ja": "",
+      "ja": "西方の白虎",
       "zh_tw": "西方白虎",
       "zh_cn": ""
     },
@@ -16148,7 +16324,7 @@
       "no": 520179,
       "kr": "파도의 주인",
       "en": "Mistress of the Waves",
-      "ja": "",
+      "ja": "波の主",
       "zh_tw": "浪花主人",
       "zh_cn": ""
     },
@@ -16172,7 +16348,7 @@
       "no": 520403,
       "kr": "짓궂은 장난",
       "en": "Cheeky Mischief",
-      "ja": "",
+      "ja": "意地悪ないたずら",
       "zh_tw": "惡作劇",
       "zh_cn": ""
     },
@@ -16300,7 +16476,7 @@
       "no": 520419,
       "kr": "로즈 가든",
       "en": "Rose Garden",
-      "ja": "",
+      "ja": "ローズガーデン",
       "zh_tw": "玫瑰花園",
       "zh_cn": ""
     },
@@ -16348,7 +16524,7 @@
       "no": 520425,
       "kr": "마이 페어 레이디",
       "en": "My Fair Lady",
-      "ja": "",
+      "ja": "マイ・フェア・レディ",
       "zh_tw": "窈窕淑女",
       "zh_cn": ""
     },
@@ -16364,7 +16540,7 @@
       "no": 520427,
       "kr": "마린 프린세스",
       "en": "Marine Princess",
-      "ja": "",
+      "ja": "マリンプリンセス",
       "zh_tw": "海軍公主",
       "zh_cn": ""
     },
@@ -16388,7 +16564,7 @@
       "no": 520430,
       "kr": "원초의 취옥",
       "en": "Primordial Emerald",
-      "ja": "",
+      "ja": "原始のエメラルド",
       "zh_tw": "原始翠玉",
       "zh_cn": ""
     },
@@ -16482,10 +16658,10 @@
     },
     {
       "no": 520442,
-      "kr": "스피드 업!",
-      "en": "Speed Up!",
-      "ja": "スピードアップ！",
-      "zh_tw": "加快速度！",
+      "kr": "에루샤 인연 코스튬",
+      "en": "Erusha's Bond Costume Name",
+      "ja": "",
+      "zh_tw": "艾魯莎好感時裝",
       "zh_cn": ""
     },
     {
@@ -16908,7 +17084,7 @@
       "no": 520495,
       "kr": "밤의 비서",
       "en": "Night Secretary",
-      "ja": "",
+      "ja": "夜の秘書",
       "zh_tw": "夜行祕書",
       "zh_cn": ""
     },
@@ -16980,7 +17156,7 @@
       "no": 520504,
       "kr": "라비앙 로즈",
       "en": "La Vie en Rose",
-      "ja": "",
+      "ja": "ラビアンローズ",
       "zh_tw": "玫瑰人生",
       "zh_cn": ""
     },
@@ -17044,7 +17220,7 @@
       "no": 520512,
       "kr": "메디컬 디렉터",
       "en": "Medical Director",
-      "ja": "",
+      "ja": "メディカルディレクター",
       "zh_tw": "醫療主任",
       "zh_cn": ""
     },
@@ -17468,7 +17644,7 @@
       "no": 520565,
       "kr": "속세 나들이",
       "en": "Visiting the Outside World",
-      "ja": "",
+      "ja": "俗世へのお出かけ",
       "zh_tw": "俗世約會",
       "zh_cn": ""
     },
@@ -17476,16 +17652,16 @@
       "no": 520566,
       "kr": "주단의 흑호",
       "en": "Black Tiger in Silk",
-      "ja": "",
+      "ja": "シルクの黒虎",
       "zh_tw": "綢緞黑虎",
       "zh_cn": ""
     },
     {
       "no": 520567,
-      "kr": "재클린 인연 코스튬 이름",
-      "en": "Jacqueline's Bond Costume Name",
+      "kr": "프로젝트 : 이데아",
+      "en": "Project: Idea",
       "ja": "",
-      "zh_tw": "潔克琳好感時裝名字",
+      "zh_tw": "計畫：理念",
       "zh_cn": ""
     },
     {
@@ -17500,7 +17676,7 @@
       "no": 520569,
       "kr": "청해의 인어",
       "en": "Mermaid of the Blue Sea",
-      "ja": "",
+      "ja": "青い海の人魚",
       "zh_tw": "清海人魚",
       "zh_cn": ""
     },
@@ -17508,8 +17684,16 @@
       "no": 520570,
       "kr": "봄의 물보라",
       "en": "Springtime Water Splash",
-      "ja": "",
+      "ja": "春の水しぶき",
       "zh_tw": "春日浪花",
+      "zh_cn": ""
+    },
+    {
+      "no": 520571,
+      "kr": "공주는 출장 중!",
+      "en": "Princess on Official Business!",
+      "ja": "お姫様は出張中！",
+      "zh_tw": "公主出差中！",
       "zh_cn": ""
     },
     {
@@ -17740,7 +17924,7 @@
       "no": 530127,
       "kr": "칸나 입맛대로 개조된 귀여운 제복.\r\n소매의 프릴 장식이 포인트로, 칸나가 직접 골랐다고 한다.",
       "en": "A cute uniform customized to Kanna's taste.\r\nHighlighted by frilly sleeves, a detail that Kanna picked out herself.",
-      "ja": "",
+      "ja": "カンナの好みに合わせて改造された可愛い制服。\r\n袖のフリルがポイントで、カンナが自分で選んだらしい。",
       "zh_tw": "按照坎納喜好改造的可愛制服。\r\n袖口以荷葉邊裝飾點綴，聽說是坎納親自挑選的。",
       "zh_cn": ""
     },
@@ -17972,7 +18156,7 @@
       "no": 530156,
       "kr": "에일린의 일상복. 옷소매가 네 개인 건 상대를 방심시키기 위해서라고 한다.",
       "en": "Eileen's everyday clothing. She says there's four sleeves on it so that she can confuse others.",
-      "ja": "",
+      "ja": "エイリーンの普段着。袖が4つなのは、相手を油断させるためだという。",
       "zh_tw": "艾琳的日常服裝。據說有四個衣袖是為了讓對方掉以輕心。",
       "zh_cn": ""
     },
@@ -17996,7 +18180,7 @@
       "no": 530159,
       "kr": "수많은 피의 기억에 물들어 타락한 이브의 모습.\r\n아무리 세상이 그녀를 악이라 매도한들, 세상은 그녀를 원하기를 멈출 수 없다.",
       "en": "Eve, tarnished by an ocean of bloody memories.\r\r\nThe world may label her vile, yet its yearning for her never ceases.",
-      "ja": "",
+      "ja": "数々の血の記憶に染まり、堕落したイブの姿。\r\nいくら彼女を悪と罵ろうとも、世界は彼女を求めることをやめられない。",
       "zh_tw": "夏娃沾染無數鮮血的記憶，進而墮落的模樣。\r\r\n無論世界如何謾罵她多麼邪惡，世界仍無法停止渴望她。",
       "zh_cn": ""
     },
@@ -18148,7 +18332,7 @@
       "no": 530178,
       "kr": "한울이 가온 사방신으로 활동할 때 입는 복장.\r\n소탈하면서도 위엄 있는 모습이, \r\n그녀의 인품을 잘 표현하고 있다.",
       "en": "Hanul's public attire as a divine guardian of Gaon.\r\nThe modest yet commanding design\r\ncaptures the essence of her noble character.",
-      "ja": "",
+      "ja": "ハンウルがガオンの四方神として活動するときの服装。\r\nその気さくさと威厳を兼ね備えた姿は、\r\n彼女の人柄をよく表している。",
       "zh_tw": "韓羽以加溫四方守護神活動時穿著的服裝。\r\n灑脫又具有威嚴的樣貌\r\n呈現出她的品格。",
       "zh_cn": ""
     },
@@ -18156,7 +18340,7 @@
       "no": 530179,
       "kr": "대영주가 된 지호의 예복.\r\n청량한 푸른빛 천과 고급스러운 금빛 자수가 조화를 이룬다.",
       "en": "Jiho's formal attire as a Great Lord.\r\nVibrant blue fabric and exquisite gold embroidery come together in perfect harmony.",
-      "ja": "",
+      "ja": "大領主になったジホの礼服。\r\n爽やかな青い生地と上品な金の刺繍がよく調和されている。",
       "zh_tw": "當上大領主的智河禮服。\r\n清涼的青色布料與高級的金色刺繡互相襯托。",
       "zh_cn": ""
     },
@@ -18356,7 +18540,7 @@
       "no": 530425,
       "kr": "칼라르 공화국의 상류 계급인 르네가 공식 석상에 등장할 때 입는 예복. \r\n새하얀 눈을 연상시키는 흰색이 어딘가 다가가기 어려운 고귀함을 풍긴다.",
       "en": "Ceremonial attire that Renee wears to state functions as a member of the upper echelons of the Republic of Chalar.\r\nIts snow-white color exudes an aura of unapproachable nobility.",
-      "ja": "",
+      "ja": "カラール共和国の上流階級であるルネが公式的に活動するときに着る礼服。\r\n真っ白な雪を思わせる白はどこか近寄りがたい高貴さを漂わせている。",
       "zh_tw": "卡拉爾共和國上流階層的勒內出席正式場合時穿著的禮服。\r\n讓人聯想到白雪的潔白色，莫名散發出難以接近的高貴感。",
       "zh_cn": ""
     },
@@ -18372,7 +18556,7 @@
       "no": 530427,
       "kr": "시원한 바닷바람이 떠오르는 해군풍 제복.\r\n어떤 바다에서도 당당하고 귀여운 공주가 되고픈 칸나의 마음이 담겼다.",
       "en": "A navy-style uniform evoking the fresh ocean breeze.\r\nIt reflects Kanna's wish to be a bold and adorable princess wherever the waves may take her.",
-      "ja": "",
+      "ja": "爽やかな潮風が思い浮かぶ海軍風の制服。\r\nどんな海でも堂々とした可愛いお姫様になりたいカンナの気持ちが込められている。",
       "zh_tw": "讓人想起涼爽海風的海軍風制服。\r\n蘊含了坎納想成為在任何海洋都威風又可愛的公主的心意。",
       "zh_cn": ""
     },
@@ -18396,7 +18580,7 @@
       "no": 530430,
       "kr": "비비안이 솔레이 왕국의 궁정 마도사였던 시절 입었던 의상. \r\n지금의 비비안과 비슷하면서도, 사뭇 다른 냉철한 분위기가 느껴진다.",
       "en": "An outfit Vivienne used to wear back when she was a court mage in Solrey.\r\nWhile similar to her current style, it exudes a markedly different aura with a cooler, more calculated demeanor.",
-      "ja": "",
+      "ja": "ビビアンがソレイ王国の王政魔法使いだった頃の衣装。\r\n今のビビアンに似ているが、どこか異なる冷徹な雰囲気が感じられる。",
       "zh_tw": "薇薇安還是蘇萊伊王國的宮廷魔導士時穿過的服裝。\r\n和現在的薇薇安有點相似，卻又散發出截然不同的高冷氣質。",
       "zh_cn": ""
     },
@@ -18490,10 +18674,10 @@
     },
     {
       "no": 530442,
-      "kr": "섹시함과 활기가 넘치는 레이징 모델 의상.\r\n화려한 스포트라이트와 플래시에도 자신감 넘치는 당당함이 느껴진다.",
-      "en": "A sexy and lively racing model outfit.\r\nFlashy spotlights and flashes won't stop her confidence in this outfit.",
-      "ja": "セクシーな魅力と活気があふれるレーシングモデルの衣装。\r\n華やかなスポットライトとフラッシュにも、自信に満ちた堂々とした様子がうかがえる。",
-      "zh_tw": "充滿性感與活力的賽車女郎服裝。\r\n在華麗的聚光燈與閃光燈下也能感受到滿滿的自信感。",
+      "kr": "에루샤 인연 코스튬 설명",
+      "en": "Erusha's Bond Costume Description",
+      "ja": "",
+      "zh_tw": "艾魯莎好感時裝說明",
       "zh_cn": ""
     },
     {
@@ -18916,7 +19100,7 @@
       "no": 530495,
       "kr": "평범한 비서 복장을 개량한 에일린의 특수복. 무기를 수납하기 좋은 벨트로 이뤄져 있다.",
       "en": "An ordinary secretary outfit remodeled as Eileen's special outfit. There's also a bet that's perfect for holding weapons.",
-      "ja": "",
+      "ja": "平凡な秘書の服装をアレンジしたエイリーンの特殊な服。武器の収納に便利なベルトで構成されている。",
       "zh_tw": "改良普通祕書服裝的艾琳特殊服裝。由便於收納武器的腰帶組成。",
       "zh_cn": ""
     },
@@ -18988,7 +19172,7 @@
       "no": 530504,
       "kr": "모든 것이 장밋빛 같았던, 찬란한 시절의 이브.\r\n아름답게 단장한 그녀를 본 순간, 인류는 사랑에 빠진 듯한 황홀감을 느꼈다.",
       "en": "Eve from a glorious time when everything seemed rosy.\r\r\nThe moment humanity laid eyes on her beautifully adorned figure, they felt a bliss as if they had fallen in love.",
-      "ja": "",
+      "ja": "すべてがバラ色だった、輝かしい時代のイブ。\r\n美しく装った彼女を見た瞬間、人類は恋に落ちたような恍惚感を感じた。",
       "zh_tw": "一切都如玫瑰般光彩、燦爛時節的夏娃。\r\n看見打扮得漂漂亮亮的她，人們瞬間就如墜入愛河一般，感到心醉神迷。",
       "zh_cn": ""
     },
@@ -19052,7 +19236,7 @@
       "no": 530512,
       "kr": "첨단 기술로 제작된 정령 연합군의 의료 장교용 제복.\r\n강한 권한에는 강한 책임이 따른다.",
       "en": "Medical officer uniform of the Soul Alliance, crafted with cutting-edge technology.\r\nWith great power also comes great responsibility.",
-      "ja": "",
+      "ja": "最先端の技術で製作された、精霊連合軍の医療将校用制服。\r\n強い権限には強い責任が伴う。",
       "zh_tw": "使用尖端技術製成的精靈聯軍醫療軍官制服。\r\n欲戴其冠，必承其重。",
       "zh_cn": ""
     },
@@ -19476,7 +19660,7 @@
       "no": 530565,
       "kr": "한울이 속세에 외출하기 위해 준비한 복장.\r\n\"요즘 아이들은 이런 걸 좋아한다며…?\" \r\n살짝 향수가 느껴지는 패션이란 건 비밀로 하자.",
       "en": "Hanul picked out this outfit for her visit to the outside world.\r\n\"I heard this is trendy with the kids now, right...?\"\r\nLet's not bring up the fact that it's got a bit of a retro vibe.",
-      "ja": "",
+      "ja": "ハンウルが俗世に出かけるために用意した衣装。\r\n「最近の若い子はこういうのが好きだって聞いたけど…？」 \r\nどこか懐かしさを感じるファッションであることは内緒にしておこう。",
       "zh_tw": "韓羽為了外出到俗世而準備的服裝。\r\n「聽說最近的小孩喜歡這種…？」\r\n這身時尚能稍微感受到鄉愁，這點就保密吧。",
       "zh_cn": ""
     },
@@ -19484,16 +19668,16 @@
       "no": 530566,
       "kr": "보다 강력한 존재감을 발하는 한울의 의복.\r\n평화를 원하기에, 때로는 \r\n싸움을 피할 수 없는 법이다.",
       "en": "A garment that amplifies Hanul's formidable presence.\r\nThough she seeks peace,\r\nthere are times when she cannot avoid a fight.",
-      "ja": "",
+      "ja": "より強い存在感を放つハンウルの衣服。\r\n平和を望んでいるからこそ、ときには\r\n戦いを避けられないこともある。",
       "zh_tw": "散發出更強烈存在感的韓羽服裝。\r\n因為渴望和平，所以有時候\r\n戰爭是在所難免的。",
       "zh_cn": ""
     },
     {
       "no": 530567,
-      "kr": "재클린 인연 코스튬 설명",
-      "en": "Jacqueline's Bond Costume Description",
+      "kr": "이상의 모습으로 다시 태어난 재클린.\r\n칼라르 암즈 코퍼레이션의 최신 기술, 르네의 심미안,\r\n구원자의 진실한 애정이 한데 모여 만들어낸 기적 같은 모습이다.",
+      "en": "Jacqueline reborn in her ideal form.\r\nA miraculous creation born from\r\nChalar Arms Corporation's cutting-edge technology, Renee's artistic vision, and Savior's genuine affection.",
       "ja": "",
-      "zh_tw": "潔克琳好感時裝說明",
+      "zh_tw": "以詭異樣貌再次現身的潔克琳。\r\n集卡拉爾安茲公司的最新技術、勒內的審美，\r\n以及救援者的真摯情感於一身，由此製成奇蹟般的樣貌。",
       "zh_cn": ""
     },
     {
@@ -19508,7 +19692,7 @@
       "no": 530569,
       "kr": "프릴과 조개로 사랑스럽게 꾸며진 지호의 수영복.\r\n걸을 때마다 파레오가 잔잔하게 흔들려,\r\n바다를 유영하는 인어의 꼬리처럼 보인다.",
       "en": "Jiho's swimsuit, sweetly decorated with frills and seashells.\r\nAs she walks, the wrap sways gently,\r\nlike a mermaid's tail dancing through the water.",
-      "ja": "",
+      "ja": "フリルと貝殻で可愛らしく飾られたジホの水着。\r\n歩くたびにパレオが穏やかに揺れ、\r\nまるで海を泳ぐ人魚の尻尾のようだ。",
       "zh_tw": "以荷葉邊和貝殼裝飾的智河可愛泳衣。\r\n走動的時候紗籠裙會輕輕擺動，\r\n看起來像徜徉在海裡的人魚尾巴。",
       "zh_cn": ""
     },
@@ -19516,8 +19700,16 @@
       "no": 530570,
       "kr": "4월의 새싹들처럼 싱그럽게 물든 지호의 예복.\r\n포근하고 따뜻한 봄의 햇살이 언제나 가온을 비추길.",
       "en": "Jiho's formal attire, tinged with the lively green of April buds.\r\nWishing that the gentle spring sunshine forever shines on Gaon.",
-      "ja": "",
+      "ja": "4月の新芽のように鮮やかに彩られたジホの礼服。\r\n穏やかで温かな春の日差しが、いつもガオンを照らしてくれますように。",
       "zh_tw": "色調像4月新芽般清新的智河禮服。\r\n願和煦溫暖的春日陽光隨時都照耀著加溫。",
+      "zh_cn": ""
+    },
+    {
+      "no": 530571,
+      "kr": "첫 가온 출장을 기념해 칸나가 야심차게 준비한 가온 전통 의상.\r\n섹시도 큐트도 포기하지 못한 끝에 다소 골때리는(?) 디자인이 되어 버렸다.",
+      "en": "Gaon's traditional attire, ambitiously prepared by Kanna to celebrate her first visit to Gaon.\r\nTorn between sexy and cute, the final look ended up being...delightfully chaotic.",
+      "ja": "初ガオン出張を記念してカンナが張り切って用意したガオンの伝統衣装。\r\nセクシーさとキュートさも諦められなかった結果、すこし気まずいデザインになってしまった。",
+      "zh_tw": "紀念第一次出差到加溫，坎納野心勃勃準備的加溫傳統服裝。\r\n性感與可愛都無法捨棄，於是變成多少有點滑稽(?)的設計。",
       "zh_cn": ""
     },
     {
@@ -23852,7 +24044,7 @@
       "no": 2144822,
       "kr": "지호(미르)의 대영주 옥좌",
       "en": "Jiho (Mir)'s High Seat of the Great Lord",
-      "ja": "",
+      "ja": "ジホ(ミル)の大領主の玉座",
       "zh_tw": "智河（米爾）的大領主王座",
       "zh_cn": ""
     },
@@ -28780,7 +28972,7 @@
       "no": 2244822,
       "kr": "지호(미르)의 대영주 옥좌 설명",
       "en": "Jiho (Mir)'s High Seat of the Great Lord description",
-      "ja": "",
+      "ja": "ジホ(ミル)の大領主の玉座の説明",
       "zh_tw": "智河（米爾）的大領主王座說明",
       "zh_cn": ""
     },
@@ -30284,7 +30476,7 @@
       "no": 21550401,
       "kr": "스티커: 소중한 한울",
       "en": "Sticker: Precious Hanul",
-      "ja": "",
+      "ja": "ステッカー：大切なハンウル",
       "zh_tw": "貼紙：珍貴的韓羽",
       "zh_cn": ""
     },
@@ -30860,7 +31052,7 @@
       "no": 22550401,
       "kr": "한울의 인연 레벨 40 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon reaching Hanul Bond Level 40.",
-      "ja": "",
+      "ja": "ハンウルの絆Lv40達成時に獲得できるステッカー",
       "zh_tw": "達成韓羽好感等級40時可獲得的貼紙。",
       "zh_cn": ""
     },
