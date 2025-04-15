@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sItemUseAbleGachaGrade {
+  int32 epic = 1;
+  int32 rare = 2;
+}
+

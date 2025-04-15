@@ -244,6 +244,14 @@
       "pattern6": 1152
     },
     {
+      "hero_no": 1160,
+      "pattern1": 1162,
+      "pattern2": 1160,
+      "pattern3": 1163,
+      "pattern4": 1160,
+      "pattern5": 1160
+    },
+    {
       "hero_no": 2010,
       "pattern1": 2010,
       "pattern2": 2012,
@@ -1102,6 +1110,23 @@
       "pattern4": 1140,
       "pattern5": 1140,
       "pattern7": 1145
+    },
+    {
+      "hero_no": 7115,
+      "pattern1": 1150,
+      "pattern2": 1153,
+      "pattern3": 1152,
+      "pattern4": 1150,
+      "pattern5": 1150,
+      "pattern6": 1152
+    },
+    {
+      "hero_no": 7116,
+      "pattern1": 1162,
+      "pattern2": 1160,
+      "pattern3": 1163,
+      "pattern4": 1160,
+      "pattern5": 1160
     },
     {
       "hero_no": 7201,
@@ -9440,6 +9465,22 @@
       "pattern2": 320975,
       "pattern3": 320970,
       "pattern4": 320970
+    },
+    {
+      "hero_no": 32118,
+      "pattern1": 321180,
+      "pattern2": 321180,
+      "pattern3": 321182,
+      "pattern4": 321180,
+      "pattern5": 321183
+    },
+    {
+      "hero_no": 32119,
+      "pattern1": 321180,
+      "pattern2": 321180,
+      "pattern3": 321182,
+      "pattern4": 321180,
+      "pattern5": 321183
     },
     {
       "hero_no": 37106,

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sHeroSetEquip {
+  repeated int32 setEffectNo = 1;
+  int32 count = 2;
+}
+

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sFriend {
+  string requestUserIdx = 1;
+  string responseUserIdx = 2;
+  int32 friendState = 3;
+  int64 requestDt = 4;
+}
+

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sShopItem {
+  int32 no = 1;
+  int32 shopNo = 2;
+  int32 shopItemNo = 3;
+  int32 buyCnt = 4;
+}
+

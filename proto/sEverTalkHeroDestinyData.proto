@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sEverTalkHeroDestinyData {
+  int32 groupNo = 1;
+  int32 lastReceiveGroupNo = 2;
+  int64 recordedDt = 3;
+}
+

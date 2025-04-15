@@ -548,6 +548,33 @@
       "story_act": 61001,
       "story_open_behavior": 101,
       "bg_path": "MaidPlan/bg_eventstage_MaidPlan"
+    },
+    {
+      "no": 62,
+      "event_type": 24,
+      "event_group": 3,
+      "event_number": 1,
+      "story_act": 62201,
+      "story_open_behavior": 101,
+      "bg_path": "JihoSideEvent/bg_SideEventJiho_story"
+    },
+    {
+      "no": 63,
+      "event_type": 6,
+      "event_group": 14,
+      "event_number": 2,
+      "story_act": 61201,
+      "story_open_behavior": 101,
+      "bg_path": "EverSchool2/bg_EverSchool2_event"
+    },
+    {
+      "no": 64,
+      "event_type": 9,
+      "event_group": 10,
+      "event_number": 2,
+      "story_act": 61201,
+      "story_open_behavior": 101,
+      "bg_path": "EverSchool2/bg_EverSchool2_event"
     }
   ]
 }

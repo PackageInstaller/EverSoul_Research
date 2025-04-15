@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sItemUseAbleGachaTribe {
+  int32 human = 1;
+  int32 furry = 2;
+  int32 elf = 3;
+  int32 undead = 4;
+  int32 angel = 5;
+  int32 devil = 6;
+}
+

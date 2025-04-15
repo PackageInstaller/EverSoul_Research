@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sEventBingo {
+  int32 bingoNo = 1;
+  int32 rewardNo = 2;
+  int32 isRewarded = 3;
+}
+

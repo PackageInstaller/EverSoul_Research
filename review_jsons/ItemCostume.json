@@ -858,6 +858,17 @@
       "controller_path": "Hanul"
     },
     {
+      "no": 2079,
+      "type_sno": 520102,
+      "name_sno": 520179,
+      "hero_no": 1160,
+      "prefab_path": "JihoMir",
+      "timeline_path": "JihoMir",
+      "icon_path": "JihoMir_Icon_Costume_00",
+      "portrait_path": "JihoMir",
+      "controller_path": "JihoMir"
+    },
+    {
       "no": 2201,
       "type_sno": 710000,
       "name_sno": 520401,
@@ -1306,6 +1317,7 @@
       "no": 2242,
       "type_sno": 710000,
       "name_sno": 520442,
+      "hero_no": 4090,
       "prefab_path": "Erusha_Costume03",
       "timeline_path": "Erusha_Costume03",
       "icon_path": "Erusha_Icon_Costume_03",
@@ -2695,6 +2707,39 @@
       "controller_path": "Edith"
     },
     {
+      "no": 2369,
+      "type_sno": 710011,
+      "name_sno": 520569,
+      "hero_no": 1160,
+      "prefab_path": "JihoMir_Costume01",
+      "timeline_path": "JihoMir_Costume01",
+      "icon_path": "JihoMir_Icon_Costume_01",
+      "portrait_path": "JihoMir_Costume01",
+      "controller_path": "JihoMir"
+    },
+    {
+      "no": 2370,
+      "type_sno": 710012,
+      "name_sno": 520570,
+      "hero_no": 1160,
+      "prefab_path": "JihoMir_Costume02",
+      "timeline_path": "JihoMir_Costume02",
+      "icon_path": "JihoMir_Icon_Costume_02",
+      "portrait_path": "JihoMir_Costume02",
+      "controller_path": "JihoMir"
+    },
+    {
+      "no": 2371,
+      "type_sno": 710009,
+      "name_sno": 520571,
+      "hero_no": 3050,
+      "prefab_path": "Kanna_Costume02",
+      "timeline_path": "Kanna_Costume02",
+      "icon_path": "Kanna_Icon_Costume_02",
+      "portrait_path": "Kanna_Costume02",
+      "controller_path": "Kanna"
+    },
+    {
       "no": 2700,
       "prefab_path": "Apprentice",
       "timeline_path": "Apprentice",
@@ -3604,6 +3649,14 @@
       "timeline_path": "InvisibleHonglan",
       "icon_path": "",
       "portrait_path": "HonglanEventCore",
+      "controller_path": ""
+    },
+    {
+      "no": 2814,
+      "prefab_path": "SakuyoShin_Costume02",
+      "timeline_path": "SakuyoShin_Costume02",
+      "icon_path": "",
+      "portrait_path": "SakuyoShinRaid",
       "controller_path": ""
     },
     {

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sHeroPassFreeItem {
+  int32 shopNo = 1;
+  int32 heroNo = 2;
+  int32 heroGrade = 3;
+  int32 rewarded = 4;
+}
+

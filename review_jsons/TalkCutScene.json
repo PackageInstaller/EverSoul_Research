@@ -256,9 +256,9 @@
     },
     {
       "no": 37,
-      "prefab_path": "Story/Love/HonglanCombat/Timeline/HonglanCombat_Active_Scene_Start",
+      "prefab_path": "Story/Event/2504_JihoSideEvent/Timeline/JihoMir_Summon",
       "volume_type": "CutScene",
-      "actor01": 2160
+      "actor01": 1160
     }
   ]
 }

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sProfileCustom {
+  int32 uid = 1;
+  bytes profile = 2;
+}
+

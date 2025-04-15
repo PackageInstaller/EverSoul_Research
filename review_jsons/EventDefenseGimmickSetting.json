@@ -143,6 +143,39 @@
       "spawn_end_time": 90,
       "spawn_per_sec": 10,
       "spawn_amount": 5
+    },
+    {
+      "no": 301,
+      "event_group": 5,
+      "fx_path": "Fx_EventDefense_Debuff_Spddown_00",
+      "type": 3,
+      "atk": 30,
+      "spawn_type": 5,
+      "spawn_start_time": 20,
+      "spawn_end_time": 90,
+      "spawn_per_sec": 10
+    },
+    {
+      "no": 302,
+      "event_group": 5,
+      "fx_path": "Fx_EventDefense_Debuff_Spddown_00",
+      "type": 3,
+      "atk": 30,
+      "spawn_type": 5,
+      "spawn_start_time": 40,
+      "spawn_end_time": 90,
+      "spawn_per_sec": 10
+    },
+    {
+      "no": 303,
+      "event_group": 5,
+      "fx_path": "Fx_EventDefense_Debuff_Spddown_00",
+      "type": 3,
+      "atk": 30,
+      "spawn_type": 5,
+      "spawn_start_time": 60,
+      "spawn_end_time": 90,
+      "spawn_per_sec": 10
     }
   ]
 }

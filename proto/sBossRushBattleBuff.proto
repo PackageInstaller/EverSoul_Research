@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sBossRushBattleBuff {
+  int32 group = 1;
+  int32 level = 2;
+}
+

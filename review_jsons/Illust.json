@@ -1776,6 +1776,26 @@
       "hero_check": 1150
     },
     {
+      "no": 11601,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2116002,
+      "thumbnail_path": "Codex_Talk_Event_JihoMir_02",
+      "bg_movie_path": "Story/Love/JihoMir/02_ADDON/Talk_Event_JihoMir_02",
+      "lobby": 1,
+      "hero_check": 1160
+    },
+    {
+      "no": 11602,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2116004,
+      "thumbnail_path": "Codex_Talk_Event_JihoMir_01",
+      "bg_movie_path": "Story/Love/JihoMir/04_ADDON/Talk_Event_JihoMir_01",
+      "lobby": 1,
+      "hero_check": 1160
+    },
+    {
       "no": 20101,
       "category": 2,
       "open_type": 2,
@@ -5808,6 +5828,24 @@
       "open_condition": 250324,
       "thumbnail_path": "Codex_Talk_Event_250301",
       "bg_movie_path": "Story/Event/2503_HonglanSideEvent/14_ADDON/Talk_Event_250301",
+      "lobby": 1
+    },
+    {
+      "no": 92301,
+      "category": 3,
+      "open_type": 2,
+      "open_condition": 250412,
+      "thumbnail_path": "Codex_Talk_Event_250402",
+      "bg_movie_path": "Story/Event/2504_JihoSideEvent/03_ADDON/Talk_Event_250402",
+      "lobby": 1
+    },
+    {
+      "no": 92302,
+      "category": 3,
+      "open_type": 2,
+      "open_condition": 250424,
+      "thumbnail_path": "Codex_Talk_Event_250401",
+      "bg_movie_path": "Story/Event/2504_JihoSideEvent/15_ADDON/Talk_Event_250401",
       "lobby": 1
     }
   ]

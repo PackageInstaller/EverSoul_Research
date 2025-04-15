@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sCashGrow {
+  int32 packageNo = 1;
+  int32 lastReceiveNo = 2;
+}
+

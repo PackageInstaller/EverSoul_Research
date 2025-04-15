@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sAttendance {
+  int32 no = 1;
+  int32 day = 2;
+  int32 consecutiveDays = 3;
+}
+

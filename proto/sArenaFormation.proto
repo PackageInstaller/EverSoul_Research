@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sArenaFormation {
+  int32 formationOrder = 1;
+  int32 formationType = 2;
+  int32 relicNo = 3;
+  repeated sArenaFormationHero formationHero = 4;
+}
+
+message sArenaFormationHero {
+  string heroIdx = 1;
+  int32 heroOrder = 2;
+}
+

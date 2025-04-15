@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sRentHero {
+  string idx = 1;
+  int32 heroNo = 2;
+  int32 level = 3;
+  int32 gradeSno = 5;
+  int32 raceSno = 6;
+  int64 power = 7;
+  string nickName = 8;
+  string userIdx = 9;
+  int32 costumeItemNo = 10;
+}
+

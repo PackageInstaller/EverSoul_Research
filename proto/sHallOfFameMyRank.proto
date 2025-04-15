@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sHallOfFameMyRank {
+  int32 id = 1;
+  int32 rank = 2;
+}
+

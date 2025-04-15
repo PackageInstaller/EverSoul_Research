@@ -560,6 +560,28 @@
       "tip3_sno1": 532175,
       "tip3_sno2": 532175,
       "tip3_sno3": 532176
+    },
+    {
+      "no": 27,
+      "shop_no": 10027,
+      "pay_item_no": 8135,
+      "pay_item_amount": 100,
+      "repeat_draw_box": "6,7",
+      "bg_path": "EverSchool2/bg_EverSchool2_shop",
+      "shop_image_path": "",
+      "shop_name_sno": 12415,
+      "event_shop_hero": 5030,
+      "model_viewer_display": 2316,
+      "model_offset": "[0, 0, 0]",
+      "tip_sno1": 532213,
+      "tip_sno2": 532213,
+      "tip_sno3": 532214,
+      "tip2_sno1": 532215,
+      "tip2_sno2": 532215,
+      "tip2_sno3": 532216,
+      "tip3_sno1": 532217,
+      "tip3_sno2": 532217,
+      "tip3_sno3": 532218
     }
   ]
 }

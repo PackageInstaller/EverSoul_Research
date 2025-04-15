@@ -215,6 +215,51 @@
       "event_stage_phase": 7,
       "first_clear_reward_no1": 7037,
       "first_clear_reward_amount1": 5
+    },
+    {
+      "no": 25,
+      "challenge_no": 1301,
+      "event_group": 10,
+      "event_number": 2,
+      "event_stage_phase": 1,
+      "first_clear_reward_no1": 7005,
+      "first_clear_reward_amount1": 20
+    },
+    {
+      "no": 26,
+      "challenge_no": 1302,
+      "event_group": 10,
+      "event_number": 2,
+      "event_stage_phase": 2,
+      "first_clear_reward_no1": 7020,
+      "first_clear_reward_amount1": 20
+    },
+    {
+      "no": 27,
+      "challenge_no": 1303,
+      "event_group": 10,
+      "event_number": 2,
+      "event_stage_phase": 3,
+      "first_clear_reward_no1": 7018,
+      "first_clear_reward_amount1": 20
+    },
+    {
+      "no": 28,
+      "challenge_no": 1304,
+      "event_group": 10,
+      "event_number": 2,
+      "event_stage_phase": 4,
+      "first_clear_reward_no1": 4132,
+      "first_clear_reward_amount1": 20
+    },
+    {
+      "no": 29,
+      "challenge_no": 1305,
+      "event_group": 10,
+      "event_number": 2,
+      "event_stage_phase": 5,
+      "first_clear_reward_no1": 7037,
+      "first_clear_reward_amount1": 5
     }
   ]
 }

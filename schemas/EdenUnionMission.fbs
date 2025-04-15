@@ -1,0 +1,22 @@
+namespace EdenUnionMission;
+
+table Deserialization {
+    no: int32;
+    union_group: int32;
+    mission_type: int32;
+    title_sno: int32;
+    content_sno: int32;
+    value1: int32;
+    value2: int32;
+    value3: int32;
+    value4: int32;
+    value5: int32;
+    reward_item_no: int32;
+    reward_item_amount: int32;
+}
+
+table EdenUnionMission {
+    json: [Deserialization];
+}
+
+root_type EdenUnionMission;

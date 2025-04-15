@@ -287,6 +287,78 @@
       "goal_amount": 250000,
       "reward_item_no1": 66,
       "reward_item_amount1": 1
+    },
+    {
+      "no": 33,
+      "event_group": 5,
+      "event_number": 1,
+      "reward_type": 1,
+      "goal_amount": 20000,
+      "reward_item_no1": 66,
+      "reward_item_amount1": 2
+    },
+    {
+      "no": 34,
+      "event_group": 5,
+      "event_number": 1,
+      "reward_type": 1,
+      "goal_amount": 40000,
+      "reward_item_no1": 66,
+      "reward_item_amount1": 2
+    },
+    {
+      "no": 35,
+      "event_group": 5,
+      "event_number": 1,
+      "reward_type": 1,
+      "goal_amount": 60000,
+      "reward_item_no1": 66,
+      "reward_item_amount1": 2
+    },
+    {
+      "no": 36,
+      "event_group": 5,
+      "event_number": 1,
+      "reward_type": 1,
+      "goal_amount": 80000,
+      "reward_item_no1": 66,
+      "reward_item_amount1": 2
+    },
+    {
+      "no": 37,
+      "event_group": 5,
+      "event_number": 1,
+      "reward_type": 1,
+      "goal_amount": 100000,
+      "reward_item_no1": 66,
+      "reward_item_amount1": 1
+    },
+    {
+      "no": 38,
+      "event_group": 5,
+      "event_number": 1,
+      "reward_type": 1,
+      "goal_amount": 150000,
+      "reward_item_no1": 66,
+      "reward_item_amount1": 1
+    },
+    {
+      "no": 39,
+      "event_group": 5,
+      "event_number": 1,
+      "reward_type": 1,
+      "goal_amount": 200000,
+      "reward_item_no1": 66,
+      "reward_item_amount1": 1
+    },
+    {
+      "no": 40,
+      "event_group": 5,
+      "event_number": 1,
+      "reward_type": 1,
+      "goal_amount": 250000,
+      "reward_item_no1": 66,
+      "reward_item_amount1": 1
     }
   ]
 }

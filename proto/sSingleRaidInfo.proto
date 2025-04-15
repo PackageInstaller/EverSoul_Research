@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sSingleRaidInfo {
+  int32 no = 1;
+  int32 currentLevel = 2;
+  int32 maxClearLevel = 3;
+  int32 isPlay = 4;
+  int32 clearCount = 5;
+  int32 enterLimitCount = 6;
+}
+

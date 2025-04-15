@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sHeroEquipPresetItemSlot {
+  int32 slot = 1;
+  int32 itemEquipId = 2;
+}
+

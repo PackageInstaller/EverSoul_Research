@@ -14410,7 +14410,7 @@
     },
     {
       "no": 27498,
-      "kr": "Work in Progress",
+      "kr": "환영 1식 - 호",
       "en": "Work in Progress",
       "ja": "",
       "zh_tw": "Work in Progress",
@@ -14418,7 +14418,7 @@
     },
     {
       "no": 27499,
-      "kr": "Work in Progress",
+      "kr": "환영 2식 - 령",
       "en": "Work in Progress",
       "ja": "",
       "zh_tw": "Work in Progress",
@@ -14426,7 +14426,7 @@
     },
     {
       "no": 27500,
-      "kr": "Work in Progress",
+      "kr": "환영 3식 - 천",
       "en": "Work in Progress",
       "ja": "",
       "zh_tw": "Work in Progress",
@@ -14434,7 +14434,7 @@
     },
     {
       "no": 27501,
-      "kr": "Work in Progress",
+      "kr": "환영 4식 - 하",
       "en": "Work in Progress",
       "ja": "",
       "zh_tw": "Work in Progress",
@@ -14442,7 +14442,7 @@
     },
     {
       "no": 27502,
-      "kr": "Work in Progress",
+      "kr": "환영 상처",
       "en": "Work in Progress",
       "ja": "",
       "zh_tw": "Work in Progress",
@@ -14450,7 +14450,7 @@
     },
     {
       "no": 27503,
-      "kr": "Work in Progress",
+      "kr": "영겁의 화염",
       "en": "Work in Progress",
       "ja": "",
       "zh_tw": "Work in Progress",
@@ -14458,7 +14458,7 @@
     },
     {
       "no": 27504,
-      "kr": "Work in Progress",
+      "kr": "가하는 피해와 받는 피해가 10% 증가한다.",
       "en": "Work in Progress",
       "ja": "",
       "zh_tw": "Work in Progress",
@@ -14466,7 +14466,343 @@
     },
     {
       "no": 27505,
-      "kr": "Work in Progress",
+      "kr": "10초마다 적 전체에게 공격력 100%의 피해를 입힌다.",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27506,
+      "kr": "받는 체력 회복량이 20% 감소한다.",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27507,
+      "kr": "20초 마다 마나가 최대로 회복된다.",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27508,
+      "kr": "세몰",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27509,
+      "kr": "가속 <value>%",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27510,
+      "kr": "격몰",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27511,
+      "kr": "공격력 <value>%",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27512,
+      "kr": "청몰",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27513,
+      "kr": "방어력 <value>%",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27514,
+      "kr": "침몰",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27515,
+      "kr": "일정 시간 마다 피해를 입는다. 지속 피해로 취급되지 않는다.",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27516,
+      "kr": "세류",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27517,
+      "kr": "아군이 메인 스킬을 사용할 때 마다 중첩되며, 자신의 스킬을 강화시킨다.",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27518,
+      "kr": "격류",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27519,
+      "kr": "<격류참> 효과를 강화한다.",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27520,
+      "kr": "청류",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27521,
+      "kr": "<청류쇄기> 효과를 강화한다.",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27522,
+      "kr": "종말에 대항하는 창",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27523,
+      "kr": "일정 버프 수 이상 보유 시 피해량이 크게 상승한다",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27524,
+      "kr": "오버 더 리미트",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27525,
+      "kr": "받는 버프의 효과가 더욱 강해진다.",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27526,
+      "kr": "인연을 향한 순수한 마음",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27527,
+      "kr": "그 날 묘지기는 짊어지는 것에 대한 아픔을 이해하게 되었다. 하지만…",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27528,
+      "kr": "진지한 마음가짐",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27529,
+      "kr": "묘지기의 상태에 따라 메인 스킬 사용 시 강력한 효과를 부여한다.",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27530,
+      "kr": "두려움을 잊은 묘지기",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27531,
+      "kr": "종말을 찌르는 창의 대부분의 공격을 대신해서 받는다.",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27532,
+      "kr": "2초마다 공격력 100%의 피해를 입는다.(해제 가능)",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27533,
+      "kr": "지속 회복 및 디버프 제거",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27534,
+      "kr": "일정 시간 마다 시전자의 공격력에 기반해 체력을 회복하고, 디버프를 제거한다",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27535,
+      "kr": "일시적 약화",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27536,
+      "kr": "디버프가 활성화 된 동안 모든 능력치가 대폭 하락한다. 회복되면 매우 크게 강화된다.",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27537,
+      "kr": "철벽요새",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27538,
+      "kr": "공격 능력을 거의 상실하지만 이것을 뚫기 위해서는 엄청난 노력을 쏟아야 한다.",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27539,
+      "kr": "종말의 카운트다운",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27540,
+      "kr": "모든 것을 집어삼킬 종말이 온다.",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27541,
+      "kr": "",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27542,
+      "kr": "",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27543,
+      "kr": "",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27544,
+      "kr": "",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27545,
+      "kr": "",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27546,
+      "kr": "",
+      "en": "Work in Progress",
+      "ja": "",
+      "zh_tw": "Work in Progress",
+      "zh_cn": ""
+    },
+    {
+      "no": 27547,
+      "kr": "",
       "en": "Work in Progress",
       "ja": "",
       "zh_tw": "Work in Progress",
@@ -18246,6 +18582,86 @@
       "en": "The crown that belonged to Queen Yuria of the Kingdom of Solrey.\r\nAfter Yuria disappeared, it passed to Catherine, who became the regent of Solrey.\r\nRose took the power concentrated within the Crown of the Sun for the sake of her loved ones.",
       "ja": "",
       "zh_tw": "蘇萊伊王國的女王尤里婭戴過的王冠。\r\n也是尤里婭消失以後，當上蘇萊伊攝政王的凱瑟琳繼承的王冠。\r\n為了守護珍貴的人們，蘿絲繼承了凝聚在太陽王冠裡的力量。",
+      "zh_cn": ""
+    },
+    {
+      "no": 231160,
+      "kr": "만파식적(미르)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 231161,
+      "kr": "유류지인",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 231162,
+      "kr": "<COLOR=#FFFFFF><격류참></COLOR>을 사용할 때 <COLOR=#FFFFFF><격류></COLOR>를 소모했을 경우 <116611.DURATION>초 동안 모든 아군의 치명타 피해량이 <116611.VALUE> 증가시킨다.\r\n<COLOR=#FFFFFF><청류쇄기></COLOR>를 사용할 때 <COLOR=#FFFFFF><청류></COLOR>를 소모했을 경우 모든 아군에게 <116612.DURATION>초 동안 3초마다 체력을 시전자의 공격력 <116613.VALUE>만큼 회복하고, 디버프를 <COLOR=#FFFFFF>1</COLOR>개 제거하는 효과를 부여한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 231163,
+      "kr": "증가하는 치명타 피해량이 <116621.VALUE>, 회복량이 <116623.VALUE>로 변경된다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 231164,
+      "kr": "증가하는 치명타 피해량이 <116631.VALUE>, 회복량이 <116633.VALUE>로 변경된다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 231165,
+      "kr": "증가하는 치명타 피해량이 <116641.VALUE>, 회복량이 <116643.VALUE>로 변경된다. 버프의 시간이 기존 대비 1.5배 상승한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 231166,
+      "kr": "증가하는 치명타 피해량이 <116651.VALUE>, 회복량이 <116653.VALUE>로 변경된다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 231167,
+      "kr": "증가하는 치명타 피해량이 <116661.VALUE>, 회복량이 <116663.VALUE>로 변경된다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 231168,
+      "kr": "증가하는 치명타 피해량이 <116671.VALUE>, 회복량이 <116673.VALUE>로 변경된다.  버프의 시간이 기존 대비 2배 상승한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 231169,
+      "kr": "미르의 힘을 계승받은 지호의 기원.\r\n나라의 안녕과 평안을 기원하는 마음이 피리에 깃들어 있던 해룡의 힘을 일깨웠다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -23929,6 +24345,54 @@
       "zh_cn": ""
     },
     {
+      "no": 341161,
+      "kr": "청수현룡",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 341162,
+      "kr": "격류참",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 341163,
+      "kr": "청류쇄기",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 341164,
+      "kr": "세류",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 341165,
+      "kr": "파란만장",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 341169,
+      "kr": "환류",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 342011,
       "kr": "빙하취우",
       "en": "Glacial Shower",
@@ -27505,6 +27969,38 @@
       "zh_cn": ""
     },
     {
+      "no": 349066,
+      "kr": "인간형 우상",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 349067,
+      "kr": "One-Coin",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 349068,
+      "kr": "최후의 한방",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 349069,
+      "kr": "목격자만 없다면 암살이지",
+      "en": "Assassination Without Witnesses",
+      "ja": "",
+      "zh_tw": "沒有目擊證人就是暗殺",
+      "zh_cn": ""
+    },
+    {
       "no": 349311,
       "kr": "카카오 스매시",
       "en": "Cacao Spike",
@@ -27798,6 +28294,14 @@
       "en": "Fairy Energy",
       "ja": "",
       "zh_tw": "妖精能量",
+      "zh_cn": ""
+    },
+    {
+      "no": 349511,
+      "kr": "영원한 순풍",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -28974,6 +29478,54 @@
       "en": "If the lead Soul is Catherine (Radiance), the ultimate skill's damage dealt increases by <115912.VALUE>.",
       "ja": "",
       "zh_tw": "若凱瑟琳（光輝）為隊長精靈，使用終極技能時造成傷害量增加<115912.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 351161,
+      "kr": "가장 가까운 적을 대상으로 현현시킨 용을 덮쳐 대상에게 공격력 <116111.VALUE>의 피해를 입히고, <COLOR=#FFFFFF><세류></COLOR> 효과를 보유 중이라면 중첩 당 추가로 공격력 <116112.VALUE>의 피해를 입히고, <세류> 효과를 모두 소모한다. 만약 <COLOR=#FFFFFF><세류></COLOR>의 중첩 수가 <COLOR=#FFFFFF>3</COLOR> 이상이라면 대상의 버프를 <COLOR=#FFFFFF>4</COLOR>개 제거하고, <COLOR=#FFFFFF><격류></COLOR> 및 <COLOR=#FFFFFF><청류></COLOR> 버프를 획득한다. 각 버프는 <COLOR=#FFFFFF><격류참></COLOR>, <COLOR=#FFFFFF><청류쇄기></COLOR>를 강화시킨다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 351162,
+      "kr": "가장 멀리 있는 적을 향해 검으로 격류를 일으켜 폭 2.5m, 길이 11m의 범위 내의 적에게 공격력 <116211.VALUE>의 피해를 입히고, 적의 버프를 <COLOR=#FFFFFF>1</COLOR>개 제거한다. 만약 <COLOR=#FFFFFF><세류></COLOR>의 중첩이 3중첩 이상일 경우 해당 스킬이 강화되어 공격력 <116212.VALUE>의 추가 피해를 입히고, 대상의 버프를 <COLOR=#FFFFFF>1</COLOR>개 더 제거하며, <116213.DURATION>초 동안 공격력을 <116213.VALUE> 감소시키는 <COLOR=#FFFFFF><격몰></COLOR> 디버프를 부여한다. 위 효과는 <COLOR=#FFFFFF><격류></COLOR>를 보유 중일 경우에도 강화되지만 그 경우 <COLOR=#FFFFFF><격류></COLOR>효과는 소모된다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 351163,
+      "kr": "가장 가까운 적을 중심으로 낙수를 일으켜 대상 및 주변 3m의 적에게 공격력 <116311.VALUE>의 피해를 입히고, 대상의 버프 효과를 <COLOR=#FFFFFF>1</COLOR>개 제거한다. <COLOR=#FFFFFF><세류></COLOR>의 중첩이 3중첩 이상일 경우 해당 스킬이 강화되어 공격력 <116312.VALUE>의 추가 피해를 입히고, 대상의 버프를 <COLOR=#FFFFFF>1</COLOR>개 더 제거하며, <116313.DURATION>초 동안 방어력을 <116213.VALUE> 감소시키는 <COLOR=#FFFFFF><청몰></COLOR> 디버프를 부여한다. 위 효과는 <COLOR=#FFFFFF><청류></COLOR>를 보유 중일 경우에도 강화되지만 그 경우 <COLOR=#FFFFFF><청류></COLOR>효과는 소모된다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 351164,
+      "kr": "전투 시작 시 <COLOR=#FFFFFF><세류></COLOR> 효과를 1개 획득하며, 자신을 포함한 아군이 메인 스킬을 사용할 때 마다 <COLOR=#FFFFFF><세류></COLOR> 효과를 1중첩 획득한다. (최대 5중첩)\r\n\r\n일반 공격 시 공격력 <116011.VALUE>의 추가 피해를 입히며, 적의 버프를 <COLOR=#FFFFFF>1</COLOR>개 제거하고, <116013.DURATION>초 동안 가속을 <116013.VALUE> 감소시키는 <COLOR=#FFFFFF><세몰></COLOR> 디버프를 부여한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 351165,
+      "kr": "파도의 흐름을 용으로 형상화시켜 적을 향해 발산해 폭 3.5m, 길이 11m의 범위의 적들에게 공격력 <116511.VALUE>의 피해를 입힌다. 만약 대상이 아래와 같은 효과를 보유 중일 경우 다음과 같은 효과를 부여한다.\r\n\r\n<COLOR=#FFFFFF><세몰></COLOR> - 공격력 <116512.VALUE>의 추가 피해를 입히고 대상의 버프를 <COLOR=#FFFFFF>4</COLOR>개 제거한다.\r\n<COLOR=#FFFFFF><격몰></COLOR> - 공격력 <116512.VALUE>의 추가 피해를 입히고 <116518.DURATION>초 동안 가하는 피해량을 <116518.VALUE> 감소시킨다.\r\n<COLOR=#FFFFFF><청몰></COLOR> - 공격력 <116512.VALUE>의 추가 피해를 입히고 <116518.DURATION>초 동안 받는 최종 피해량을 <116519.VALUE> 증가시킨다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 351169,
+      "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116913.VALUE> 회복한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -32545,6 +33097,38 @@
       "zh_cn": ""
     },
     {
+      "no": 359066,
+      "kr": "인간형 정령의 가하는 피해 150% 증가",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 359067,
+      "kr": "디버프 역할 정령의 HP가 10% 이하로 내려갈 경우 1회에 한해 해제되지 않는 무적 상태를 5초 동안 부여한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 359068,
+      "kr": "자신의 체력이 10% 이하일 경우 1회에 한해 2초마다 자신의 해제 가능한 모든 버프 효과를 해제하고, 가하는 피해를 200% 증가한다. (20초 지속)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 359069,
+      "kr": "암살 역할 정령의 가하는 피해 50% 증가",
+      "en": "Damage dealt by Assassination Souls +50%",
+      "ja": "",
+      "zh_tw": "暗殺定位精靈的造成傷害增加50%",
+      "zh_cn": ""
+    },
+    {
       "no": 359311,
       "kr": "가장 가까운 적과 주변 3m 범위에 공격력의 <931111.VALUE>만큼 피해를 입히고, <931112.DURATION>초 동안 공격력의 <931112.VALUE>씩 피해를 입는 화상 상태로 만든다.",
       "en": "Deals damage equal to <931111.VALUE> of ATK to the nearest enemy and 3m around it, and makes it burn, dealing damage equal to <931112.VALUE> of ATK for <931112.DURATION> seconds.",
@@ -32838,6 +33422,14 @@
       "en": "All enemies are considered Fairy type.",
       "ja": "",
       "zh_tw": "將所有敵人視為妖精型",
+      "zh_cn": ""
+    },
+    {
+      "no": 359511,
+      "kr": "모든 아군의 가속이 30% 증가한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -33974,6 +34566,54 @@
       "en": "If the lead Soul is Catherine (Radiance), the ultimate skill's damage dealt increases by <115922.VALUE>.",
       "ja": "",
       "zh_tw": "若凱瑟琳（光輝）為隊長精靈，使用終極技能時造成傷害量增加<115922.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 361161,
+      "kr": "피해량이 <116121.VALUE>, 추가 피해량이 <116122.VALUE>로 변경된다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 361162,
+      "kr": "피해량이 <116221.VALUE>, 추가 피해량이 <116222.VALUE>로 변경된다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 361163,
+      "kr": "피해량이 <116321.VALUE>, 추가 피해량이 <116322.VALUE>로 변경된다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 361164,
+      "kr": "일반 공격 추가 피해량이 <116021.VALUE>로 변경된다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 361165,
+      "kr": "피해량이 <116521.VALUE>, 추가 피해량이 <116522.VALUE>로 변경된다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 361169,
+      "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116923.VALUE> 회복한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -37705,6 +38345,54 @@
       "zh_cn": ""
     },
     {
+      "no": 371161,
+      "kr": "피해량이 <116131.VALUE>, 추가 피해량이 <116132.VALUE>로 변경된다. 만약 <COLOR=#FFFFFF><세류></COLOR> 중첩이 <COLOR=#FFFFFF>5</COLOR>중첩일 때 사용 시, <COLOR=#FFFFFF><세류></COLOR> 효과 소모 후, <COLOR=#FFFFFF><세류></COLOR> 효과를 1중첩 추가로 부여한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 371162,
+      "kr": "피해량이 <116231.VALUE>, 추가 피해량이 <116232.VALUE>로 변경된다. 전투 시작 후 <COLOR=#FFFFFF><격류></COLOR> 효과를 획득한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 371163,
+      "kr": "피해량이 <116331.VALUE>, 추가 피해량이 <116332.VALUE>로 변경된다. 전투 시작 후 <COLOR=#FFFFFF><청류></COLOR> 효과를 획득한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 371164,
+      "kr": "일반 공격 추가 피해량이 <116031.VALUE>로 변경된다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 371165,
+      "kr": "피해량이 <116531.VALUE>, 추가 피해량이 <116532.VALUE>로 변경된다. 만약 <COLOR=#FFFFFF><세몰></COLOR>, <COLOR=#FFFFFF><격몰></COLOR>, <COLOR=#FFFFFF><청몰></COLOR>을 모두 보유중인 대상에게 해당 스킬을 맞힐 경우 <116538.DURATION>초 동안 <COLOR=#FFFFFF><침몰></COLOR> 디버프를 부여하며 해당 효과가 부여된 동안 대상은 2초마다 시전자의 공격력 <116539.VALUE>의 피해를 입는다. 해당 피해는 지속 피해로 취급되지 않으며 치명타가 발생할 수 있다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 371169,
+      "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116933.VALUE> 회복한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 372011,
       "kr": "피해량이 <201131.VALUE>, 냉기 피해량이 <201133.VALUE>, 마나 감소량이 <201132.VALUE>으로 변경된다.",
       "en": "Damage changes to <201131.VALUE>, freezing damage changes to <201133.VALUE>, Mana decrease changes to <201132.VALUE>.",
@@ -41369,6 +42057,46 @@
       "zh_cn": ""
     },
     {
+      "no": 381161,
+      "kr": "파도에 휩쓸려라!",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 381162,
+      "kr": "휘몰아치는 물결로!",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 381163,
+      "kr": "머리 위를 조심해~!",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 381165,
+      "kr": "몰아치는 파도처럼!",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 381169,
+      "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116943.VALUE> 회복한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 382011,
       "kr": "한 바탕 쏟아질 거야!",
       "en": "Time to pour down!",
@@ -43953,6 +44681,14 @@
       "zh_cn": ""
     },
     {
+      "no": 391169,
+      "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116953.VALUE> 회복한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 392019,
       "kr": "메인 스킬 사용 시 모든 적에게 공격력 <201951.VALUE>의 피해를 입히고, 2초마다 공격력 <201952.VALUE>의 피해를 입히는 냉기 상태를 영구히 부여한다. (최대 20중첩)",
       "en": "Using the main skill deals damage equal to <201951.VALUE> of ATK to all enemies and permanently inflicts them with Freeze, which deals damage equal to <201952.VALUE> of ATK every 2 sec (up to 20 stacks).",
@@ -44529,6 +45265,14 @@
       "zh_cn": ""
     },
     {
+      "no": 401169,
+      "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116963.VALUE> 회복한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 402019,
       "kr": "메인 스킬 사용 시 모든 적에게 공격력 <201961.VALUE>의 피해를 입히고, 2초마다 공격력 <201962.VALUE>의 피해를 입히는 냉기 상태를 영구히 부여한다. (최대 20중첩)",
       "en": "Using the main skill deals damage equal to <201961.VALUE> of ATK to all enemies and permanently inflicts them with Freeze, which deals damage equal to <201962.VALUE> of ATK every 2 sec (up to 20 stacks).",
@@ -45102,6 +45846,14 @@
       "en": "If the lead Soul is Catherine (Radiance), the ultimate skill's damage dealt increases by <115972.VALUE>.",
       "ja": "",
       "zh_tw": "若凱瑟琳（光輝）為隊長精靈，使用終極技能時造成傷害量增加<115972.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 411169,
+      "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116973.VALUE> 회복한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -47425,6 +48177,38 @@
       "zh_cn": ""
     },
     {
+      "no": 703811,
+      "kr": "<color=#EDA900>이해, 그러나 부정</COLOR>",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 703812,
+      "kr": "<color=#EDA900>종말가담</COLOR>",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 703821,
+      "kr": "특정 불사형 정령을 배치할 경우 해당 정령의 능력치가 상승하고, 스킬이 추가 효과를 부여한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 703822,
+      "kr": "인과 조작으로 인해 종말을 감지한 무언가가 깨어난다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 703911,
       "kr": "<color=#EDA900>흉몽에 대항하는 자</COLOR>",
       "en": "<color=#EDA900>Defier of Ominous Dream</COLOR>",
@@ -48737,6 +49521,54 @@
       "zh_cn": ""
     },
     {
+      "no": 3419128,
+      "kr": "가온 연합의 힘",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 3419130,
+      "kr": "칼라르 연합의 힘",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 3419131,
+      "kr": "타브리아 연합의 힘",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 3419133,
+      "kr": "솔레이 연합의 힘",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 3419134,
+      "kr": "아우렐리아 연합의 힘",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 3419135,
+      "kr": "트로이카 연합의 힘",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 3460151,
       "kr": "균형 파괴",
       "en": "Balance Breaker",
@@ -50030,6 +50862,14 @@
       "en": "Fires a barrage with Vajra. Deals damage equal to <1409511.VALUE> ATK to the nearest enemy in a 4m wide and 6m long area and shocks them, dealing DoT equal to <1409512.VALUE> of ATK every 2 sec for <1409512.DURATION> sec. If <COLOR=#FFFFFF>\"Ravishment\"</COLOR> is active, also deals instant additional damage equal to the total Shock damage from this skill. Stacks with Onyx's <COLOR=#FFFFFF>\"High Frequency\"</COLOR> effect.",
       "ja": "",
       "zh_tw": "使用金剛杵進行砲火射擊。以最接近的敵人為目標，對寬幅4m、長6m的範圍造成攻擊力<1409511.VALUE>的傷害，並使其處於每2秒受到<1409512.VALUE>傷害的觸電狀態，持續<1409512.DURATION>秒。處於<COLOR=#FFFFFF>＜興致勃勃＞</COLOR>狀態時，該技能即時造成相當總觸電傷害量的攻擊力數值額外傷害。可和歐妮絲的<COLOR=#FFFFFF>＜高頻＞</COLOR>效果疊加",
+      "zh_cn": ""
+    },
+    {
+      "no": 3519128,
+      "kr": "에덴 연합 작전에 참여한 대표자를 위한 특별한 효과",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -54450,178 +55290,466 @@
     },
     {
       "no": 8000101,
-      "kr": "극한 시뮬레이터 Lv.1",
-      "en": "Extreme Simulator Lv. 1",
+      "kr": "스트라이크 시뮬레이터 Lv.1",
+      "en": "Strike Simulator Lv. 1",
       "ja": "",
-      "zh_tw": "極限模擬裝置Lv.1",
+      "zh_tw": "打擊模擬裝置Lv.1",
       "zh_cn": ""
     },
     {
       "no": 8000102,
-      "kr": "극한 시뮬레이터 Lv.2",
-      "en": "Extreme Simulator Lv. 2",
+      "kr": "스트라이크 시뮬레이터 Lv.2",
+      "en": "Strike Simulator Lv. 2",
       "ja": "",
-      "zh_tw": "極限模擬裝置Lv.2",
+      "zh_tw": "打擊模擬裝置Lv.2",
       "zh_cn": ""
     },
     {
       "no": 8000103,
-      "kr": "극한 시뮬레이터 Lv.3",
-      "en": "Extreme Simulator Lv. 3",
+      "kr": "스트라이크 시뮬레이터 Lv.3",
+      "en": "Strike Simulator Lv. 3",
       "ja": "",
-      "zh_tw": "極限模擬裝置Lv.3",
+      "zh_tw": "打擊模擬裝置Lv.3",
       "zh_cn": ""
     },
     {
       "no": 8000104,
-      "kr": "극한 시뮬레이터 Lv.4",
-      "en": "Extreme Simulator Lv. 4",
+      "kr": "스트라이크 시뮬레이터 Lv.4",
+      "en": "Strike Simulator Lv. 4",
       "ja": "",
-      "zh_tw": "極限模擬裝置Lv.4",
+      "zh_tw": "打擊模擬裝置Lv.4",
       "zh_cn": ""
     },
     {
       "no": 8000105,
-      "kr": "극한 시뮬레이터 Lv.5",
-      "en": "Extreme Simulator Lv. 5",
+      "kr": "스트라이크 시뮬레이터 Lv.5",
+      "en": "Strike Simulator Lv. 5",
       "ja": "",
-      "zh_tw": "極限模擬裝置Lv.5",
+      "zh_tw": "打擊模擬裝置Lv.5",
       "zh_cn": ""
     },
     {
       "no": 8000106,
-      "kr": "극한 시뮬레이터 Lv.6",
-      "en": "Extreme Simulator Lv. 6",
+      "kr": "스트라이크 시뮬레이터 Lv.6",
+      "en": "Strike Simulator Lv. 6",
       "ja": "",
-      "zh_tw": "極限模擬裝置Lv.6",
+      "zh_tw": "打擊模擬裝置Lv.6",
       "zh_cn": ""
     },
     {
       "no": 8000107,
-      "kr": "극한 시뮬레이터 Lv.7",
-      "en": "Extreme Simulator Lv. 7",
+      "kr": "스트라이크 시뮬레이터 Lv.7",
+      "en": "Strike Simulator Lv. 7",
       "ja": "",
-      "zh_tw": "極限模擬裝置Lv.7",
+      "zh_tw": "打擊模擬裝置Lv.7",
       "zh_cn": ""
     },
     {
       "no": 8000108,
-      "kr": "극한 시뮬레이터 Lv.8",
-      "en": "Extreme Simulator Lv. 8",
+      "kr": "스트라이크 시뮬레이터 Lv.8",
+      "en": "Strike Simulator Lv. 8",
       "ja": "",
-      "zh_tw": "極限模擬裝置Lv.8",
+      "zh_tw": "打擊模擬裝置Lv.8",
       "zh_cn": ""
     },
     {
       "no": 8000109,
-      "kr": "극한 시뮬레이터 Lv.9",
-      "en": "Extreme Simulator Lv. 9",
+      "kr": "스트라이크 시뮬레이터 Lv.9",
+      "en": "Strike Simulator Lv. 9",
       "ja": "",
-      "zh_tw": "極限模擬裝置Lv.9",
+      "zh_tw": "打擊模擬裝置Lv.9",
       "zh_cn": ""
     },
     {
       "no": 8000110,
-      "kr": "극한 시뮬레이터 Lv.10",
-      "en": "Extreme Simulator Lv. 10",
+      "kr": "스트라이크 시뮬레이터 Lv.10",
+      "en": "Strike Simulator Lv. 10",
       "ja": "",
-      "zh_tw": "極限模擬裝置Lv.10",
+      "zh_tw": "打擊模擬裝置Lv.10",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000111,
+      "kr": "인듀어 시뮬레이터 Lv.1",
+      "en": "Endure Simulator Lv. 1",
+      "ja": "",
+      "zh_tw": "忍受模擬裝置Lv.1",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000112,
+      "kr": "인듀어 시뮬레이터 Lv.2",
+      "en": "Endure Simulator Lv. 2",
+      "ja": "",
+      "zh_tw": "忍受模擬裝置Lv.2",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000113,
+      "kr": "인듀어 시뮬레이터 Lv.3",
+      "en": "Endure Simulator Lv. 3",
+      "ja": "",
+      "zh_tw": "忍受模擬裝置Lv.3",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000114,
+      "kr": "인듀어 시뮬레이터 Lv.4",
+      "en": "Endure Simulator Lv. 4",
+      "ja": "",
+      "zh_tw": "忍受模擬裝置Lv.4",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000115,
+      "kr": "인듀어 시뮬레이터 Lv.5",
+      "en": "Endure Simulator Lv. 5",
+      "ja": "",
+      "zh_tw": "忍受模擬裝置Lv.5",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000116,
+      "kr": "인듀어 시뮬레이터 Lv.6",
+      "en": "Endure Simulator Lv. 6",
+      "ja": "",
+      "zh_tw": "忍受模擬裝置Lv.6",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000117,
+      "kr": "인듀어 시뮬레이터 Lv.7",
+      "en": "Endure Simulator Lv. 7",
+      "ja": "",
+      "zh_tw": "忍受模擬裝置Lv.7",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000118,
+      "kr": "인듀어 시뮬레이터 Lv.8",
+      "en": "Endure Simulator Lv. 8",
+      "ja": "",
+      "zh_tw": "忍受模擬裝置Lv.8",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000119,
+      "kr": "인듀어 시뮬레이터 Lv.9",
+      "en": "Endure Simulator Lv. 9",
+      "ja": "",
+      "zh_tw": "忍受模擬裝置Lv.9",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000120,
+      "kr": "인듀어 시뮬레이터 Lv.10",
+      "en": "Endure Simulator Lv. 10",
+      "ja": "",
+      "zh_tw": "忍受模擬裝置Lv.10",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000121,
+      "kr": "밸런스 시뮬레이터 Lv.1",
+      "en": "Balance Simulator Lv. 1",
+      "ja": "",
+      "zh_tw": "平衡模擬裝置Lv.1",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000122,
+      "kr": "밸런스 시뮬레이터 Lv.2",
+      "en": "Balance Simulator Lv. 2",
+      "ja": "",
+      "zh_tw": "平衡模擬裝置Lv.2",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000123,
+      "kr": "밸런스 시뮬레이터 Lv.3",
+      "en": "Balance Simulator Lv. 3",
+      "ja": "",
+      "zh_tw": "平衡模擬裝置Lv.3",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000124,
+      "kr": "밸런스 시뮬레이터 Lv.4",
+      "en": "Balance Simulator Lv. 4",
+      "ja": "",
+      "zh_tw": "平衡模擬裝置Lv.4",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000125,
+      "kr": "밸런스 시뮬레이터 Lv.5",
+      "en": "Balance Simulator Lv. 5",
+      "ja": "",
+      "zh_tw": "平衡模擬裝置Lv.5",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000126,
+      "kr": "밸런스 시뮬레이터 Lv.6",
+      "en": "Balance Simulator Lv. 6",
+      "ja": "",
+      "zh_tw": "平衡模擬裝置Lv.6",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000127,
+      "kr": "밸런스 시뮬레이터 Lv.7",
+      "en": "Balance Simulator Lv. 7",
+      "ja": "",
+      "zh_tw": "平衡模擬裝置Lv.7",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000128,
+      "kr": "밸런스 시뮬레이터 Lv.8",
+      "en": "Balance Simulator Lv. 8",
+      "ja": "",
+      "zh_tw": "平衡模擬裝置Lv.8",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000129,
+      "kr": "밸런스 시뮬레이터 Lv.9",
+      "en": "Balance Simulator Lv. 9",
+      "ja": "",
+      "zh_tw": "平衡模擬裝置Lv.9",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000130,
+      "kr": "밸런스 시뮬레이터 Lv.10",
+      "en": "Balance Simulator Lv. 10",
+      "ja": "",
+      "zh_tw": "平衡模擬裝置Lv.10",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000131,
+      "kr": "앰부쉬 시뮬레이터 Lv.1",
+      "en": "Ambush Simulator Lv. 1",
+      "ja": "",
+      "zh_tw": "伏擊模擬裝置Lv.1",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000132,
+      "kr": "앰부쉬 시뮬레이터 Lv.2",
+      "en": "Ambush Simulator Lv. 2",
+      "ja": "",
+      "zh_tw": "伏擊模擬裝置Lv.2",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000133,
+      "kr": "앰부쉬 시뮬레이터 Lv.3",
+      "en": "Ambush Simulator Lv. 3",
+      "ja": "",
+      "zh_tw": "伏擊模擬裝置Lv.3",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000134,
+      "kr": "앰부쉬 시뮬레이터 Lv.4",
+      "en": "Ambush Simulator Lv. 4",
+      "ja": "",
+      "zh_tw": "伏擊模擬裝置Lv.4",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000135,
+      "kr": "앰부쉬 시뮬레이터 Lv.5",
+      "en": "Ambush Simulator Lv. 5",
+      "ja": "",
+      "zh_tw": "伏擊模擬裝置Lv.5",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000136,
+      "kr": "앰부쉬 시뮬레이터 Lv.6",
+      "en": "Ambush Simulator Lv. 6",
+      "ja": "",
+      "zh_tw": "伏擊模擬裝置Lv.6",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000137,
+      "kr": "앰부쉬 시뮬레이터 Lv.7",
+      "en": "Ambush Simulator Lv. 7",
+      "ja": "",
+      "zh_tw": "伏擊模擬裝置Lv.7",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000138,
+      "kr": "앰부쉬 시뮬레이터 Lv.8",
+      "en": "Ambush Simulator Lv. 8",
+      "ja": "",
+      "zh_tw": "伏擊模擬裝置Lv.8",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000139,
+      "kr": "앰부쉬 시뮬레이터 Lv.9",
+      "en": "Ambush Simulator Lv. 9",
+      "ja": "",
+      "zh_tw": "伏擊模擬裝置Lv.9",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000140,
+      "kr": "앰부쉬 시뮬레이터 Lv.10",
+      "en": "Ambush Simulator Lv. 10",
+      "ja": "",
+      "zh_tw": "伏擊模擬裝置Lv.10",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000141,
+      "kr": "시즈 시뮬레이터 Lv.1",
+      "en": "Siege Simulator Lv. 1",
+      "ja": "",
+      "zh_tw": "攻城模擬裝置Lv.1",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000142,
+      "kr": "시즈 시뮬레이터 Lv.2",
+      "en": "Siege Simulator Lv. 2",
+      "ja": "",
+      "zh_tw": "攻城模擬裝置Lv.2",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000143,
+      "kr": "시즈 시뮬레이터 Lv.3",
+      "en": "Siege Simulator Lv. 3",
+      "ja": "",
+      "zh_tw": "攻城模擬裝置Lv.3",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000144,
+      "kr": "시즈 시뮬레이터 Lv.4",
+      "en": "Siege Simulator Lv. 4",
+      "ja": "",
+      "zh_tw": "攻城模擬裝置Lv.4",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000145,
+      "kr": "시즈 시뮬레이터 Lv.5",
+      "en": "Siege Simulator Lv. 5",
+      "ja": "",
+      "zh_tw": "攻城模擬裝置Lv.5",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000146,
+      "kr": "시즈 시뮬레이터 Lv.6",
+      "en": "Siege Simulator Lv. 6",
+      "ja": "",
+      "zh_tw": "攻城模擬裝置Lv.6",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000147,
+      "kr": "시즈 시뮬레이터 Lv.7",
+      "en": "Siege Simulator Lv. 7",
+      "ja": "",
+      "zh_tw": "攻城模擬裝置Lv.7",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000148,
+      "kr": "시즈 시뮬레이터 Lv.8",
+      "en": "Siege Simulator Lv. 8",
+      "ja": "",
+      "zh_tw": "攻城模擬裝置Lv.8",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000149,
+      "kr": "시즈 시뮬레이터 Lv.9",
+      "en": "Siege Simulator Lv. 9",
+      "ja": "",
+      "zh_tw": "攻城模擬裝置Lv.9",
+      "zh_cn": ""
+    },
+    {
+      "no": 8000150,
+      "kr": "시즈 시뮬레이터 Lv.10",
+      "en": "Siege Simulator Lv. 10",
+      "ja": "",
+      "zh_tw": "攻城模擬裝置Lv.10",
       "zh_cn": ""
     },
     {
       "no": 8000201,
-      "kr": "모든 적의 체력이 소폭 상승한다.",
-      "en": "Slightly increases the HP of all enemies.",
+      "kr": "적의 능력치가 상승하고 그 중 공격 능력이 크게 상승한다.",
+      "en": "",
       "ja": "",
-      "zh_tw": "所有敵人的體力小幅上升",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
       "no": 8000202,
-      "kr": "모든 적의 공격력, 방어력, 체력이 소폭 상승한다.",
-      "en": "Slightly increases the ATK, DEF, and HP of all enemies.",
+      "kr": "적의 능력치가 상승하고 그 중 방어 능력이 크게 상승한다.",
+      "en": "",
       "ja": "",
-      "zh_tw": "所有敵人的攻擊力、防禦力、體力小幅上升",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
       "no": 8000203,
-      "kr": "모든 적의 공격력, 방어력, 체력이 소폭 상승한다.",
-      "en": "Slightly increases the ATK, DEF, and HP of all enemies.",
+      "kr": "적의 능력치가 고루 상승한다.",
+      "en": "",
       "ja": "",
-      "zh_tw": "所有敵人的攻擊力、防禦力、體力小幅上升",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
       "no": 8000204,
-      "kr": "모든 적의 공격력, 방어력, 체력이 상승한다.",
-      "en": "Increases the ATK, DEF, and HP of all enemies.",
+      "kr": "적의 능력치가 전체적으로 대폭 상승하지만 일정 시간 동안은 크게 약화된다.",
+      "en": "",
       "ja": "",
-      "zh_tw": "所有敵人的攻擊力、防禦力、體力上升",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
       "no": 8000205,
-      "kr": "모든 적의 공격력, 방어력, 체력이 상승한다.",
-      "en": "Increases the ATK, DEF, and HP of all enemies.",
+      "kr": "적의 공격 능력이 대폭 낮아지지만 방어 능력이 극한으로 상승한다.",
+      "en": "",
       "ja": "",
-      "zh_tw": "所有敵人的攻擊力、防禦力、體力上升",
-      "zh_cn": ""
-    },
-    {
-      "no": 8000206,
-      "kr": "모든 적의 공격력, 방어력, 체력이 상승한다.",
-      "en": "Increases the ATK, DEF, and HP of all enemies.",
-      "ja": "",
-      "zh_tw": "所有敵人的攻擊力、防禦力、體力上升",
-      "zh_cn": ""
-    },
-    {
-      "no": 8000207,
-      "kr": "모든 적의 공격력, 방어력, 체력이 대폭 상승한다.",
-      "en": "Greatly increases the ATK, DEF, and HP of all enemies.",
-      "ja": "",
-      "zh_tw": "所有敵人的攻擊力、防禦力、體力大幅上升",
-      "zh_cn": ""
-    },
-    {
-      "no": 8000208,
-      "kr": "모든 적의 공격력, 방어력, 체력이 대폭 상승한다.",
-      "en": "Greatly increases the ATK, DEF, and HP of all enemies.",
-      "ja": "",
-      "zh_tw": "所有敵人的攻擊力、防禦力、體力大幅上升",
-      "zh_cn": ""
-    },
-    {
-      "no": 8000209,
-      "kr": "모든 적의 공격력, 방어력, 체력이 대폭 상승한다.",
-      "en": "Greatly increases the ATK, DEF, and HP of all enemies.",
-      "ja": "",
-      "zh_tw": "所有敵人的攻擊力、防禦力、體力大幅上升",
-      "zh_cn": ""
-    },
-    {
-      "no": 8000210,
-      "kr": "모든 적의 공격력, 방어력, 체력이 감당할 수 없을 정도로 상승한다.",
-      "en": "Overwhelmingly increases the ATK, DEF, and HP of all enemies.",
-      "ja": "",
-      "zh_tw": "所有敵人的攻擊力、防禦力、體力上升到無法承受的程度",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
       "no": 8031101,
       "kr": "해당 제네시스 시뮬레이션에 입장하기 위해서는\r\n\r\n기원의 탑 - 나이아의 60층 클리어가 필요합니다.",
-      "en": "Clear Naiah Tower of Origin 60F\r\n\r\nto unlock this Genesis Simulation.",
+      "en": "",
       "ja": "",
-      "zh_tw": "欲進入該起源模擬裝置\r\n\r\n須通關起源之塔－娜伊雅60層。",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
       "no": 8041001,
       "kr": "해당 제네시스 시뮬레이션에 입장하기 위해서는\r\n\r\n기원의 탑 - 페트라의 60층 클리어가 필요합니다.",
-      "en": "Clear Petra Tower of Origin 60F\r\n\r\nto unlock this Genesis Simulation.",
+      "en": "",
       "ja": "",
-      "zh_tw": "欲進入該起源模擬裝置\r\n\r\n須通關起源之塔－佩特拉60層。",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 8060201,
+      "kr": "해당 스트라이브 시스템에 입장하기 위해서는\r\n\r\n기원의 탑 - 리젤로테의 60층 클리어가 필요합니다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -56673,6 +57801,38 @@
       "zh_cn": ""
     },
     {
+      "no": 34321181,
+      "kr": "천지개벽 - 환영",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34321182,
+      "kr": "황천염도 - 환영",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34321183,
+      "kr": "열공참 - 광",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34321184,
+      "kr": "시련의 지배자",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 34400150,
       "kr": " 그림자를 밝히는 등불",
       "en": " Shadow-Dispelling Lantern",
@@ -57273,6 +58433,14 @@
       "zh_cn": ""
     },
     {
+      "no": 34661081,
+      "kr": "function SaveTheWorld(guardian, destroyer)",
+      "en": "function SaveTheWorld(guardian, destroyer)",
+      "ja": "",
+      "zh_tw": "function SaveTheWorld(guardian, destroyer)",
+      "zh_cn": ""
+    },
+    {
       "no": 34661091,
       "kr": "At, emhuad",
       "en": "At, emhuad",
@@ -57326,6 +58494,14 @@
       "en": "Joint Combat",
       "ja": "",
       "zh_tw": "聯合戰鬥",
+      "zh_cn": ""
+    },
+    {
+      "no": 34951101,
+      "kr": "영원한 순풍",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -59409,6 +60585,38 @@
       "zh_cn": ""
     },
     {
+      "no": 35321181,
+      "kr": "가장 멀리 있는 적을 대상으로 검기를 날려 경로 상의 모든 적에게 공격력 <3211810.VALUE>의 피해를 입히고, <3211811.DURATION>초 동안 <COLOR=#FFFFFF>2</COLOR>초마다 공격력 <3211812.VALUE>의 피해를 입는 <COLOR=#FFFFFF><환영 상처></COLOR> 상태를 부여한다.(해제 가능)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35321182,
+      "kr": "가장 가까운 적을 대상으로 직선 범위로 검기를 날려 범위 내 모든 적에게 공격력 <3211820.VALUE>의 피해를 입히고 영구적으로 <COLOR=#FFFFFF>2</COLOR>초마다 공격력 <3211821.VALUE>의 화상 지속 피해를 입는 <COLOR=#FFFFFF><영겁의 화염></COLOR> 상태를 부여한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35321183,
+      "kr": "모든 적을 지목하고 허공을 갈라 모든 적에게 공격력 <3211830.VALUE>의 피해를 입히고, <3211831.DURATION>초 동안 가속을 <3211831.VALUE> 감소시킨다. (해제 가능)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35321184,
+      "kr": "전투 시작 이후 <3211841.DURATION>초마다 단계가 해방된다.\r\n<COLOR=#00B700><환영 1식 - 호></COLOR>\r\n모든 적의 가하는 피해와 받는 최종 피해가 <3211842.VALUE> 증가한다.\r\n\r\n<COLOR=#00B700><환영 2식 - 령></COLOR>\r\n<3211846.DURATION>초마다 모든 적에게 공격력 <3211847.VALUE>의 피해를 입힌다.\r\n\r\n<COLOR=#00B700><환영 3식 - 천></COLOR>\r\n적 전체의 체력 회복량이 <3211849.VALUE> 감소한다. \r\n\r\n<COLOR=#00B700><환영 4식 - 하></COLOR>\r\n<3211851.DURATION>초마다 모두의 <color=#4ABFD3>마나가 최대로 회복된다.</color>",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 35400150,
       "kr": "메인 스킬 사용 시 5중첩 씩 회복되며, 중첩 수가 0이 될 경우 즉사한다.",
       "en": "Using the main skill restores 5 stacks. Instant incapacitation upon reaching 0 stacks.",
@@ -59985,6 +61193,14 @@
       "zh_cn": ""
     },
     {
+      "no": 35661081,
+      "kr": "if(guardian.power <= destoryer.power)\r\n{\r\n    gu-r--an.de------------;\r\n    Sa--Th-W--ld(g-------n, destroyer);\r\n}else{\r\n    if(g-------.------ > 0){\r\n        <size=24><COLOR=#FFFFFF>destoryer = guardian;</COLOR></size>\r\n    }\r\n}",
+      "en": "if(guardian.power <= destoryer.power)\r\n{\r\n    gu-r--an.de------------;\r\n    Sa--Th-W--ld(g-------n, destroyer);\r\n}else{\r\n    if(g-------.------ > 0){\r\n        <size=24><COLOR=#FFFFFF>destoryer = guardian;</COLOR></size>\r\n    }\r\n}",
+      "ja": "",
+      "zh_tw": "if(guardian.power <= destoryer.power)\r\n{\r\n    gu-r--an.de------------;\r\n    Sa--Th-W--ld(g-------n, destroyer);\r\n}else{\r\n    if(g-------.------ > 0){\r\n        <size=24><COLOR=#FFFFFF>destoryer = guardian;</COLOR></size>\r\n    }\r\n}",
+      "zh_cn": ""
+    },
+    {
       "no": 35661091,
       "kr": "Omz Kag Emhq Ge?",
       "en": "Omz Kag Emhq Ge?",
@@ -60030,6 +61246,14 @@
       "en": "All enemies' ATK +5% for every HP bar loss of the boss",
       "ja": "",
       "zh_tw": "每當BOSS體力減少1條，所有敵軍攻擊力增加5%",
+      "zh_cn": ""
+    },
+    {
+      "no": 35951101,
+      "kr": "모든 아군 가속 30% 증가",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -61249,6 +62473,54 @@
       "zh_cn": ""
     },
     {
+      "no": 343211811,
+      "kr": "영겁의 화염",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 343211841,
+      "kr": "환영 1식 - 호",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 343211842,
+      "kr": "환영 상처",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 343211845,
+      "kr": "환영 2식 - 령",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 343211848,
+      "kr": "환영 3식 - 천",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 343211850,
+      "kr": "환영 4식 - 하",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 343266211,
       "kr": "고치",
       "en": "Cocooned",
@@ -61318,6 +62590,38 @@
       "en": "Static Charge",
       "ja": "静電気",
       "zh_tw": "靜電",
+      "zh_cn": ""
+    },
+    {
+      "no": 353211821,
+      "kr": "가하는 피해와 받는 피해가 10% 증가한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 353211846,
+      "kr": "10초 마다 적 전체에게 공격력 100%의 피해를 입힌다",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 353211849,
+      "kr": "받는 체력 회복량이 20% 감소한다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 353211851,
+      "kr": "20초 마다 마나가 최대로 회복된다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {

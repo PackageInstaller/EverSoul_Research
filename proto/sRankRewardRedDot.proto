@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sRankRewardRedDot {
+  int32 rankNo = 1;
+}
+

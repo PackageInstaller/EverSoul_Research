@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sVistaTreasureReward {
+  repeated sVistaTreasureItem vistaTreasureItem = 1;
+}
+
+message sVistaTreasureItem {
+  int32 itemNo = 1;
+  int32 itemCnt = 2;
+  bool isRandom = 3;
+}
+

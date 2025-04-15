@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sUnprocessedCashProduct {
+  string productId = 1;
+  int32 result = 2;
+}
+

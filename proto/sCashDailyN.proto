@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sCashDailyN {
+  int32 packageNo = 1;
+  int32 rewardYyyymmdd = 2;
+  int32 endYyyymmdd = 3;
+}
+

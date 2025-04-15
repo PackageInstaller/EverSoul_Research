@@ -3228,6 +3228,20 @@
       "image_gpg": "Category_02/Help_UI_TOWER_FLOOR_01"
     },
     {
+      "no": 21020001,
+      "category_type": 2,
+      "guide_name_sno": 1001063,
+      "contents_limit_no": 37,
+      "trigger": "UI_TOWER_EXTEND_MAIN",
+      "index": 1,
+      "title_sno": 996600,
+      "desc_sno": 996610,
+      "title_gpg_sno": 996600,
+      "desc_gpg_sno": 996610,
+      "image": "Category_02/Help_UI_TOWER_EXTEND_MAIN_01",
+      "image_gpg": "Category_02/Help_UI_TOWER_EXTEND_MAIN_01"
+    },
+    {
       "no": 30010001,
       "category_type": 3,
       "guide_name_sno": 1001049,
@@ -8114,6 +8128,84 @@
       "desc_gpg_sno": 996499,
       "image": "Category_04/Help_UI_EVENT_SIDE_HONGLAN_1_01",
       "image_gpg": "Category_04/Help_UI_EVENT_SIDE_HONGLAN_1_01"
+    },
+    {
+      "no": 40990001,
+      "category_type": 4,
+      "guide_name_sno": 1001037,
+      "trigger": "UI_EVENTINFO_SIDE_JIHO",
+      "index": 1,
+      "title_sno": 12015,
+      "desc_sno": 996513,
+      "title_gpg_sno": 12015,
+      "desc_gpg_sno": 996513,
+      "image": "Category_04/Help_UI_EVENT_SIDE_JIHO_1_01",
+      "image_gpg": "Category_04/Help_UI_EVENT_SIDE_JIHO_1_01"
+    },
+    {
+      "no": 41000001,
+      "category_type": 4,
+      "guide_name_sno": 1001037,
+      "trigger": "UI_EVENTINFO_SIDE_DICE_1",
+      "index": 1,
+      "title_sno": 12015,
+      "desc_sno": 996514,
+      "title_gpg_sno": 12015,
+      "desc_gpg_sno": 996514,
+      "image": "Category_04/Help_UI_EVENT_SIDE_DICE_1_01",
+      "image_gpg": "Category_04/Help_UI_EVENT_SIDE_DICE_1_01"
+    },
+    {
+      "no": 41000002,
+      "category_type": 4,
+      "guide_name_sno": 1001037,
+      "trigger": "UI_EVENTINFO_SIDE_DICE_1",
+      "index": 2,
+      "title_sno": 12015,
+      "desc_sno": 996515,
+      "title_gpg_sno": 12015,
+      "desc_gpg_sno": 996515,
+      "image": "Category_04/Help_UI_EVENT_SIDE_DICE_1_01",
+      "image_gpg": "Category_04/Help_UI_EVENT_SIDE_DICE_1_01"
+    },
+    {
+      "no": 41010001,
+      "category_type": 4,
+      "guide_name_sno": 1001037,
+      "trigger": "UI_EVENTINFO_SIDE_MINIGAME_2",
+      "index": 1,
+      "title_sno": 12015,
+      "desc_sno": 996516,
+      "title_gpg_sno": 12015,
+      "desc_gpg_sno": 996516,
+      "image": "Category_04/Help_UI_EVENT_SIDE_MINIGAME_2_01",
+      "image_gpg": "Category_04/Help_UI_EVENT_SIDE_MINIGAME_2_01"
+    },
+    {
+      "no": 41010002,
+      "category_type": 4,
+      "guide_name_sno": 1001037,
+      "trigger": "UI_EVENTINFO_SIDE_MINIGAME_2",
+      "index": 2,
+      "title_sno": 12015,
+      "desc_sno": 996517,
+      "title_gpg_sno": 12015,
+      "desc_gpg_sno": 996517,
+      "image": "Category_04/Help_UI_EVENT_SIDE_MINIGAME_2_01",
+      "image_gpg": "Category_04/Help_UI_EVENT_SIDE_MINIGAME_2_01"
+    },
+    {
+      "no": 41010003,
+      "category_type": 4,
+      "guide_name_sno": 1001037,
+      "trigger": "UI_EVENTINFO_SIDE_MINIGAME_2",
+      "index": 3,
+      "title_sno": 12015,
+      "desc_sno": 996518,
+      "title_gpg_sno": 12015,
+      "desc_gpg_sno": 996518,
+      "image": "Category_04/Help_UI_EVENT_SIDE_MINIGAME_2_01",
+      "image_gpg": "Category_04/Help_UI_EVENT_SIDE_MINIGAME_2_01"
     }
   ]
 }

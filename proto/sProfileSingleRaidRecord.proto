@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sProfileSingleRaidRecord {
+  int32 levelGroup = 1;
+  int32 level = 2;
+  int32 rank = 3;
+}
+

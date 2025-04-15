@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sEverTalkMemorialPicture {
+  int32 talkNo = 1;
+  string memorialMessage = 2;
+}
+

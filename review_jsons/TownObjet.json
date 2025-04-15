@@ -4974,6 +4974,23 @@
       "far_motion": "0"
     },
     {
+      "no": 44822,
+      "path": "TownObjet_JihoSideEvent",
+      "prefab": "PE_TOWN_B_JihoSideEvent_Throne",
+      "list_tab": 5,
+      "type": 4,
+      "original_slot": 535,
+      "buff1": 1001,
+      "buff2": 5915,
+      "develop_point": 2500,
+      "place_limit": 1,
+      "hero": 1160,
+      "castle": 1,
+      "animal_prefab": "0",
+      "close_motion": "0",
+      "far_motion": "0"
+    },
+    {
       "no": 47001,
       "path": "TownObjet_Tower",
       "prefab": "PE_TOWN_B_Tower_Mephisto",

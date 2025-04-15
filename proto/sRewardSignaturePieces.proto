@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sRewardSignaturePieces {
+  int32 itemNo = 1;
+  int32 cnt = 2;
+  int32 releaseCoinCnt = 3;
+}
+

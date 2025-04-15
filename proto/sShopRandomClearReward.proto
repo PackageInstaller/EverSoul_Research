@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sShopRandomClearReward {
+  int32 itemNo = 1;
+  int32 itemCount = 2;
+  int32 received = 3;
+}
+

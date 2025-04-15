@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sHeartSend {
+  string requestUserIdx = 1;
+  string responseUserIdx = 2;
+  int32 heartSendFlag = 3;
+}
+

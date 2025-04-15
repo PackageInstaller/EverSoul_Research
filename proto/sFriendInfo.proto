@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sFriendInfo {
+  string userIdx = 1;
+  string id = 2;
+  sThumbnail thumbnail = 3;
+  string nickName = 4;
+  int32 level = 5;
+  int64 lastLoginDt = 6;
+  int32 heartSendFlag = 7;
+  int32 heartReceiveFlag = 8;
+  int32 friendState = 9;
+  int64 power = 10;
+  int64 requestDt = 11;
+  int64 logoutDt = 12;
+}
+
+message sThumbnail {
+  int32 thumbnailFrame = 1;
+  int32 thumbnailImage = 2;
+  bool useCustom = 3;
+  bytes thumbnail = 4;
+}
+

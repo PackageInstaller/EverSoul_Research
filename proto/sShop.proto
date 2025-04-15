@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sShop {
+  int32 shopNo = 1;
+  int32 refreshAbleCnt = 2;
+  int32 nextResetYyyymmdd = 3;
+}
+

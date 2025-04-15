@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sRankList {
+  string userIdx = 1;
+  int32 rank = 2;
+  int32 score = 3;
+  int64 power = 4;
+  sThumbnail thumbnail = 5;
+  string nickName = 6;
+}
+
+message sThumbnail {
+  int32 thumbnailFrame = 1;
+  int32 thumbnailImage = 2;
+  bool useCustom = 3;
+  bytes thumbnail = 4;
+}
+

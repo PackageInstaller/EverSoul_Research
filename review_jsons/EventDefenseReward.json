@@ -642,6 +642,89 @@
       "reward_item_amount1": 10,
       "reward_item_no2": 2,
       "reward_item_amount2": 300
+    },
+    {
+      "no": 85,
+      "event_group": 5,
+      "reward_type": 1,
+      "reward_item_no1": 8133,
+      "reward_item_amount1": 3,
+      "reward_item_no2": 1,
+      "reward_item_amount2": 150000,
+      "reward_item_no3": 3,
+      "reward_item_amount3": 200000,
+      "reward_item_no4": 4,
+      "reward_item_amount4": 200
+    },
+    {
+      "no": 86,
+      "event_group": 5,
+      "reward_type": 4,
+      "score_value": 1000000,
+      "reward_item_no1": 8133,
+      "reward_item_amount1": 10,
+      "reward_item_no2": 2,
+      "reward_item_amount2": 100
+    },
+    {
+      "no": 87,
+      "event_group": 5,
+      "reward_type": 4,
+      "score_value": 2000000,
+      "reward_item_no1": 8133,
+      "reward_item_amount1": 10,
+      "reward_item_no2": 2,
+      "reward_item_amount2": 100
+    },
+    {
+      "no": 88,
+      "event_group": 5,
+      "reward_type": 4,
+      "score_value": 3000000,
+      "reward_item_no1": 8133,
+      "reward_item_amount1": 10,
+      "reward_item_no2": 2,
+      "reward_item_amount2": 100
+    },
+    {
+      "no": 89,
+      "event_group": 5,
+      "reward_type": 4,
+      "score_value": 4000000,
+      "reward_item_no1": 8133,
+      "reward_item_amount1": 10,
+      "reward_item_no2": 2,
+      "reward_item_amount2": 200
+    },
+    {
+      "no": 90,
+      "event_group": 5,
+      "reward_type": 4,
+      "score_value": 5000000,
+      "reward_item_no1": 8133,
+      "reward_item_amount1": 10,
+      "reward_item_no2": 2,
+      "reward_item_amount2": 200
+    },
+    {
+      "no": 91,
+      "event_group": 5,
+      "reward_type": 4,
+      "score_value": 6000000,
+      "reward_item_no1": 8133,
+      "reward_item_amount1": 10,
+      "reward_item_no2": 2,
+      "reward_item_amount2": 300
+    },
+    {
+      "no": 92,
+      "event_group": 5,
+      "reward_type": 4,
+      "score_value": 7000000,
+      "reward_item_no1": 8133,
+      "reward_item_amount1": 10,
+      "reward_item_no2": 2,
+      "reward_item_amount2": 300
     }
   ]
 }

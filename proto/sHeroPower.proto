@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sHeroPower {
+  int32 order = 1;
+  int32 heroPower = 2;
+}
+

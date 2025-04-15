@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sHistoryDetailFormation {
+  int32 historyId = 1;
+  int32 num = 2;
+  repeated sGuildRaidHero heros = 3;
+  int32 relicNo = 4;
+  int64 score = 5;
+}
+
+message sGuildRaidHero {
+  string heroIdx = 1;
+  int32 heroNo = 2;
+  int32 level = 3;
+  int32 gradeSno = 4;
+}
+

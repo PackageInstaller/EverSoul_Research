@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sUser {
+  string idx = 1;
+  string nickName = 2;
+  int64 lastLoginDt = 3;
+  int32 channelNo = 4;
+  int32 treeLevel = 5;
+  int32 isLog = 6;
+  string about = 7;
+  int64 returnUserDt = 8;
+  int64 createdDt = 9;
+  sThumbnail thumbnail = 10;
+  int32 popularity = 11;
+  int32 isFirstCashBuy = 12;
+  int32 reviewFlag = 13;
+  int64 reviewDt = 14;
+  int32 equipFlag = 15;
+  int64 paymentAgreeDt = 16;
+  int32 paymentAgreeType = 17;
+}
+
+message sThumbnail {
+  int32 thumbnailFrame = 1;
+  int32 thumbnailImage = 2;
+  bool useCustom = 3;
+  bytes thumbnail = 4;
+}
+

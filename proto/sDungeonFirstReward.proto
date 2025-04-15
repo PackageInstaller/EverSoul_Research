@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sDungeonFirstReward {
+  int32 rewardNo = 1;
+}
+

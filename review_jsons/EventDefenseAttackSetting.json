@@ -63,6 +63,33 @@
       "attack_range": 5.0,
       "attack_width": 1.5,
       "use_rotate": 1
+    },
+    {
+      "no": 401,
+      "attack_timeline": "SDCommon_AttackSword1",
+      "motion_time": 0.25,
+      "attack_type": 1,
+      "search_range": 2.5,
+      "attack_range": 2.0,
+      "angle": 180
+    },
+    {
+      "no": 402,
+      "attack_timeline": "SDCommon_AttackSword2",
+      "motion_time": 0.35,
+      "attack_type": 1,
+      "search_range": 2.5,
+      "attack_range": 2.0,
+      "angle": 180
+    },
+    {
+      "no": 403,
+      "attack_timeline": "SDCommon_AttackSword3",
+      "motion_time": 0.35,
+      "attack_type": 1,
+      "search_range": 2.5,
+      "attack_range": 2.0,
+      "angle": 180
     }
   ]
 }

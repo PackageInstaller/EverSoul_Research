@@ -20135,6 +20135,709 @@
       "item_amount": 5,
       "draw_limit": 1,
       "item_type": 3
+    },
+    {
+      "no": 2029,
+      "shop_no": 10027,
+      "draw_box": 1,
+      "item_no": 44201,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 1,
+      "draw_weight": 3000
+    },
+    {
+      "no": 2030,
+      "shop_no": 10027,
+      "draw_box": 1,
+      "item_no": 28,
+      "item_amount": 1,
+      "draw_limit": 2,
+      "item_type": 2,
+      "draw_weight": 7000
+    },
+    {
+      "no": 2031,
+      "shop_no": 10027,
+      "draw_box": 1,
+      "item_no": 45,
+      "item_amount": 1,
+      "draw_limit": 4,
+      "item_type": 2,
+      "draw_weight": 12000
+    },
+    {
+      "no": 2032,
+      "shop_no": 10027,
+      "draw_box": 1,
+      "item_no": 66,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 2,
+      "draw_weight": 5000
+    },
+    {
+      "no": 2033,
+      "shop_no": 10027,
+      "draw_box": 1,
+      "item_no": 30,
+      "item_amount": 60,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 2034,
+      "shop_no": 10027,
+      "draw_box": 1,
+      "item_no": 4,
+      "item_amount": 50,
+      "draw_limit": 9,
+      "item_type": 2,
+      "draw_weight": 15000
+    },
+    {
+      "no": 2035,
+      "shop_no": 10027,
+      "draw_box": 1,
+      "item_no": 3,
+      "item_amount": 10000,
+      "draw_limit": 10,
+      "item_type": 2,
+      "draw_weight": 24000
+    },
+    {
+      "no": 2036,
+      "shop_no": 10027,
+      "draw_box": 1,
+      "item_no": 1,
+      "item_amount": 10000,
+      "draw_limit": 10,
+      "item_type": 2,
+      "draw_weight": 24000
+    },
+    {
+      "no": 2037,
+      "shop_no": 10027,
+      "draw_box": 1,
+      "item_no": 45,
+      "item_amount": 5,
+      "draw_limit": 1,
+      "item_type": 3
+    },
+    {
+      "no": 2038,
+      "shop_no": 10027,
+      "draw_box": 2,
+      "item_no": 3355,
+      "item_amount": 60,
+      "draw_limit": 1,
+      "item_type": 1,
+      "draw_weight": 3000
+    },
+    {
+      "no": 2039,
+      "shop_no": 10027,
+      "draw_box": 2,
+      "item_no": 28,
+      "item_amount": 1,
+      "draw_limit": 2,
+      "item_type": 2,
+      "draw_weight": 7000
+    },
+    {
+      "no": 2040,
+      "shop_no": 10027,
+      "draw_box": 2,
+      "item_no": 45,
+      "item_amount": 1,
+      "draw_limit": 4,
+      "item_type": 2,
+      "draw_weight": 12000
+    },
+    {
+      "no": 2041,
+      "shop_no": 10027,
+      "draw_box": 2,
+      "item_no": 66,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 2,
+      "draw_weight": 5000
+    },
+    {
+      "no": 2042,
+      "shop_no": 10027,
+      "draw_box": 2,
+      "item_no": 30,
+      "item_amount": 60,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 2043,
+      "shop_no": 10027,
+      "draw_box": 2,
+      "item_no": 4,
+      "item_amount": 50,
+      "draw_limit": 9,
+      "item_type": 2,
+      "draw_weight": 15000
+    },
+    {
+      "no": 2044,
+      "shop_no": 10027,
+      "draw_box": 2,
+      "item_no": 3,
+      "item_amount": 10000,
+      "draw_limit": 10,
+      "item_type": 2,
+      "draw_weight": 24000
+    },
+    {
+      "no": 2045,
+      "shop_no": 10027,
+      "draw_box": 2,
+      "item_no": 1,
+      "item_amount": 10000,
+      "draw_limit": 10,
+      "item_type": 2,
+      "draw_weight": 24000
+    },
+    {
+      "no": 2046,
+      "shop_no": 10027,
+      "draw_box": 2,
+      "item_no": 45,
+      "item_amount": 5,
+      "draw_limit": 1,
+      "item_type": 3
+    },
+    {
+      "no": 2047,
+      "shop_no": 10027,
+      "draw_box": 3,
+      "item_no": 3354,
+      "item_amount": 60,
+      "draw_limit": 1,
+      "item_type": 1,
+      "draw_weight": 3000
+    },
+    {
+      "no": 2048,
+      "shop_no": 10027,
+      "draw_box": 3,
+      "item_no": 28,
+      "item_amount": 1,
+      "draw_limit": 2,
+      "item_type": 2,
+      "draw_weight": 7000
+    },
+    {
+      "no": 2049,
+      "shop_no": 10027,
+      "draw_box": 3,
+      "item_no": 45,
+      "item_amount": 1,
+      "draw_limit": 4,
+      "item_type": 2,
+      "draw_weight": 12000
+    },
+    {
+      "no": 2050,
+      "shop_no": 10027,
+      "draw_box": 3,
+      "item_no": 66,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 2,
+      "draw_weight": 5000
+    },
+    {
+      "no": 2051,
+      "shop_no": 10027,
+      "draw_box": 3,
+      "item_no": 30,
+      "item_amount": 60,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 2052,
+      "shop_no": 10027,
+      "draw_box": 3,
+      "item_no": 4,
+      "item_amount": 50,
+      "draw_limit": 9,
+      "item_type": 2,
+      "draw_weight": 15000
+    },
+    {
+      "no": 2053,
+      "shop_no": 10027,
+      "draw_box": 3,
+      "item_no": 3,
+      "item_amount": 10000,
+      "draw_limit": 10,
+      "item_type": 2,
+      "draw_weight": 24000
+    },
+    {
+      "no": 2054,
+      "shop_no": 10027,
+      "draw_box": 3,
+      "item_no": 1,
+      "item_amount": 10000,
+      "draw_limit": 10,
+      "item_type": 2,
+      "draw_weight": 24000
+    },
+    {
+      "no": 2055,
+      "shop_no": 10027,
+      "draw_box": 3,
+      "item_no": 45,
+      "item_amount": 5,
+      "draw_limit": 1,
+      "item_type": 3
+    },
+    {
+      "no": 2056,
+      "shop_no": 10027,
+      "draw_box": 4,
+      "item_no": 31,
+      "item_amount": 60,
+      "draw_limit": 1,
+      "item_type": 1,
+      "draw_weight": 3000
+    },
+    {
+      "no": 2057,
+      "shop_no": 10027,
+      "draw_box": 4,
+      "item_no": 28,
+      "item_amount": 1,
+      "draw_limit": 2,
+      "item_type": 2,
+      "draw_weight": 6000
+    },
+    {
+      "no": 2058,
+      "shop_no": 10027,
+      "draw_box": 4,
+      "item_no": 45,
+      "item_amount": 1,
+      "draw_limit": 4,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 2059,
+      "shop_no": 10027,
+      "draw_box": 4,
+      "item_no": 66,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 2,
+      "draw_weight": 4000
+    },
+    {
+      "no": 2060,
+      "shop_no": 10027,
+      "draw_box": 4,
+      "item_no": 30,
+      "item_amount": 60,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 9000
+    },
+    {
+      "no": 2061,
+      "shop_no": 10027,
+      "draw_box": 4,
+      "item_no": 21,
+      "item_amount": 3,
+      "draw_limit": 5,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 2062,
+      "shop_no": 10027,
+      "draw_box": 4,
+      "item_no": 20,
+      "item_amount": 5,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 9000
+    },
+    {
+      "no": 2063,
+      "shop_no": 10027,
+      "draw_box": 4,
+      "item_no": 4,
+      "item_amount": 50,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 13000
+    },
+    {
+      "no": 2064,
+      "shop_no": 10027,
+      "draw_box": 4,
+      "item_no": 3,
+      "item_amount": 10000,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 18000
+    },
+    {
+      "no": 2065,
+      "shop_no": 10027,
+      "draw_box": 4,
+      "item_no": 1,
+      "item_amount": 10000,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 18000
+    },
+    {
+      "no": 2066,
+      "shop_no": 10027,
+      "draw_box": 4,
+      "item_no": 45,
+      "item_amount": 5,
+      "draw_limit": 1,
+      "item_type": 3
+    },
+    {
+      "no": 2067,
+      "shop_no": 10027,
+      "draw_box": 5,
+      "item_no": 64,
+      "item_amount": 8,
+      "draw_limit": 1,
+      "item_type": 1,
+      "draw_weight": 3000
+    },
+    {
+      "no": 2068,
+      "shop_no": 10027,
+      "draw_box": 5,
+      "item_no": 28,
+      "item_amount": 1,
+      "draw_limit": 2,
+      "item_type": 2,
+      "draw_weight": 6000
+    },
+    {
+      "no": 2069,
+      "shop_no": 10027,
+      "draw_box": 5,
+      "item_no": 45,
+      "item_amount": 1,
+      "draw_limit": 4,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 2070,
+      "shop_no": 10027,
+      "draw_box": 5,
+      "item_no": 66,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 2,
+      "draw_weight": 4000
+    },
+    {
+      "no": 2071,
+      "shop_no": 10027,
+      "draw_box": 5,
+      "item_no": 30,
+      "item_amount": 60,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 9000
+    },
+    {
+      "no": 2072,
+      "shop_no": 10027,
+      "draw_box": 5,
+      "item_no": 21,
+      "item_amount": 3,
+      "draw_limit": 5,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 2073,
+      "shop_no": 10027,
+      "draw_box": 5,
+      "item_no": 20,
+      "item_amount": 5,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 9000
+    },
+    {
+      "no": 2074,
+      "shop_no": 10027,
+      "draw_box": 5,
+      "item_no": 4,
+      "item_amount": 50,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 13000
+    },
+    {
+      "no": 2075,
+      "shop_no": 10027,
+      "draw_box": 5,
+      "item_no": 3,
+      "item_amount": 10000,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 18000
+    },
+    {
+      "no": 2076,
+      "shop_no": 10027,
+      "draw_box": 5,
+      "item_no": 1,
+      "item_amount": 10000,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 18000
+    },
+    {
+      "no": 2077,
+      "shop_no": 10027,
+      "draw_box": 5,
+      "item_no": 45,
+      "item_amount": 5,
+      "draw_limit": 1,
+      "item_type": 3
+    },
+    {
+      "no": 2078,
+      "shop_no": 10027,
+      "draw_box": 6,
+      "item_no": 4010,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 1,
+      "draw_weight": 3000
+    },
+    {
+      "no": 2079,
+      "shop_no": 10027,
+      "draw_box": 6,
+      "item_no": 28,
+      "item_amount": 1,
+      "draw_limit": 2,
+      "item_type": 2,
+      "draw_weight": 6000
+    },
+    {
+      "no": 2080,
+      "shop_no": 10027,
+      "draw_box": 6,
+      "item_no": 45,
+      "item_amount": 1,
+      "draw_limit": 4,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 2081,
+      "shop_no": 10027,
+      "draw_box": 6,
+      "item_no": 66,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 2,
+      "draw_weight": 4000
+    },
+    {
+      "no": 2082,
+      "shop_no": 10027,
+      "draw_box": 6,
+      "item_no": 30,
+      "item_amount": 60,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 9000
+    },
+    {
+      "no": 2083,
+      "shop_no": 10027,
+      "draw_box": 6,
+      "item_no": 21,
+      "item_amount": 3,
+      "draw_limit": 5,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 2084,
+      "shop_no": 10027,
+      "draw_box": 6,
+      "item_no": 20,
+      "item_amount": 5,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 9000
+    },
+    {
+      "no": 2085,
+      "shop_no": 10027,
+      "draw_box": 6,
+      "item_no": 4,
+      "item_amount": 50,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 13000
+    },
+    {
+      "no": 2086,
+      "shop_no": 10027,
+      "draw_box": 6,
+      "item_no": 3,
+      "item_amount": 10000,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 18000
+    },
+    {
+      "no": 2087,
+      "shop_no": 10027,
+      "draw_box": 6,
+      "item_no": 1,
+      "item_amount": 10000,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 18000
+    },
+    {
+      "no": 2088,
+      "shop_no": 10027,
+      "draw_box": 6,
+      "item_no": 45,
+      "item_amount": 5,
+      "draw_limit": 1,
+      "item_type": 3
+    },
+    {
+      "no": 2089,
+      "shop_no": 10027,
+      "draw_box": 7,
+      "item_no": 45,
+      "item_amount": 40,
+      "draw_limit": 1,
+      "item_type": 1,
+      "draw_weight": 3000
+    },
+    {
+      "no": 2090,
+      "shop_no": 10027,
+      "draw_box": 7,
+      "item_no": 28,
+      "item_amount": 1,
+      "draw_limit": 2,
+      "item_type": 2,
+      "draw_weight": 6000
+    },
+    {
+      "no": 2091,
+      "shop_no": 10027,
+      "draw_box": 7,
+      "item_no": 2,
+      "item_amount": 100,
+      "draw_limit": 4,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 2092,
+      "shop_no": 10027,
+      "draw_box": 7,
+      "item_no": 66,
+      "item_amount": 1,
+      "draw_limit": 1,
+      "item_type": 2,
+      "draw_weight": 4000
+    },
+    {
+      "no": 2093,
+      "shop_no": 10027,
+      "draw_box": 7,
+      "item_no": 30,
+      "item_amount": 60,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 9000
+    },
+    {
+      "no": 2094,
+      "shop_no": 10027,
+      "draw_box": 7,
+      "item_no": 21,
+      "item_amount": 3,
+      "draw_limit": 5,
+      "item_type": 2,
+      "draw_weight": 10000
+    },
+    {
+      "no": 2095,
+      "shop_no": 10027,
+      "draw_box": 7,
+      "item_no": 20,
+      "item_amount": 5,
+      "draw_limit": 3,
+      "item_type": 2,
+      "draw_weight": 9000
+    },
+    {
+      "no": 2096,
+      "shop_no": 10027,
+      "draw_box": 7,
+      "item_no": 4,
+      "item_amount": 50,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 13000
+    },
+    {
+      "no": 2097,
+      "shop_no": 10027,
+      "draw_box": 7,
+      "item_no": 3,
+      "item_amount": 10000,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 18000
+    },
+    {
+      "no": 2098,
+      "shop_no": 10027,
+      "draw_box": 7,
+      "item_no": 1,
+      "item_amount": 10000,
+      "draw_limit": 7,
+      "item_type": 2,
+      "draw_weight": 18000
+    },
+    {
+      "no": 2099,
+      "shop_no": 10027,
+      "draw_box": 7,
+      "item_no": 45,
+      "item_amount": 5,
+      "draw_limit": 1,
+      "item_type": 3
     }
   ]
 }

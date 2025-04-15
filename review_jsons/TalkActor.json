@@ -1323,6 +1323,16 @@
       "position_scale": 1.0
     },
     {
+      "no": 2156,
+      "name_sno": 250707,
+      "prefab_path": "SakuyoShin",
+      "portrait512_path": "UI/Textures/Souls/SakuyoShin/SakuyoShin_Costume02_512",
+      "portrait128_path": "UI/Textures/Souls/SakuyoShin/SakuyoShin_Costume02_2048",
+      "costume_path": "SakuyoShin_Costume02",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
       "no": 2160,
       "name_sno": 302010,
       "prefab_path": "HonglanCombat",
@@ -1499,6 +1509,18 @@
       "portrait512_path": "UI/Textures/Souls/Kanna/Kanna_Costume01_512",
       "portrait128_path": "UI/Textures/Souls/Kanna/Kanna_Costume01_128",
       "costume_path": "Kanna_Costume01",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_y": 0.05,
+      "position_scale": 1.0
+    },
+    {
+      "no": 3052,
+      "name_sno": 303050,
+      "prefab_path": "Kanna",
+      "portrait512_path": "UI/Textures/Souls/Kanna/Kanna_Costume02_512",
+      "portrait128_path": "UI/Textures/Souls/Kanna/Kanna_Costume02_128",
+      "costume_path": "Kanna_Costume02",
       "controller_path": "",
       "portrait_reverse": 1,
       "position_y": 0.05,
@@ -10483,6 +10505,66 @@
       "position_scale": 1.0
     },
     {
+      "no": 9745,
+      "name_sno": 250701,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9746,
+      "name_sno": 250702,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9747,
+      "name_sno": 250703,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9748,
+      "name_sno": 250704,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9749,
+      "name_sno": 250705,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 9750,
+      "name_sno": 250708,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
       "no": 9950,
       "name_sno": 301010,
       "prefab_path": "MephistoHologram",
@@ -10616,7 +10698,18 @@
       "no": 9972,
       "name_sno": 250692,
       "prefab_path": "",
-      "portrait512_path": "",
+      "portrait512_path": "UI/Textures/Etc/NPC_Mir_512",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
+      "no": 9973,
+      "name_sno": 250706,
+      "prefab_path": "",
+      "portrait512_path": "UI/Textures/Etc/NPC_Narin_512",
       "portrait128_path": "",
       "costume_path": "",
       "controller_path": "",

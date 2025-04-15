@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sShopRandomItem {
+  int32 itemNo = 1;
+  int32 drewCount = 2;
+}
+

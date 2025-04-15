@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sEverTalkHeroAnniversaryData {
+  int32 groupNo = 1;
+  int32 receiveFlag = 2;
+  int64 recordedDt = 3;
+}
+

@@ -424,6 +424,23 @@
       "hero2_bg_path": "MaidPlan/bg_eventstage_MaidPlan_s",
       "hero2_bg_color": "FF8D71",
       "bg_path": "MaidPlan/bg_eventstage_MaidPlan"
+    },
+    {
+      "no": 26,
+      "event_group": 10,
+      "event_number": 2,
+      "stage_limit_value": 5,
+      "stage_limit_sno": 560090,
+      "buy_item_no": 100,
+      "buy_item_amount": "[50,75,100,125,150]",
+      "stage_name_sno": 12430,
+      "hero1_path": "EverSchool2/img_EverSchool2_DarkStudents",
+      "hero1_bg_path": "EverSchool2/bg_eventstage_EverSchool2_s",
+      "hero1_bg_color": "6BA6FF",
+      "hero2_path": "EverSchool2/img_EverSchool2_DarkTeacher",
+      "hero2_bg_path": "EverSchool2/bg_eventstage_EverSchool2_s",
+      "hero2_bg_color": "FF8D71",
+      "bg_path": "EverSchool2/bg_eventstage_EverSchool2"
     }
   ]
 }

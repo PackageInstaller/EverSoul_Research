@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sTutorialStory {
+  int32 storyNo = 1;
+}
+

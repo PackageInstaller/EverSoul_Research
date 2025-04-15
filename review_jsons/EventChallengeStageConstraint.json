@@ -402,6 +402,92 @@
       "constraint_type": 1,
       "title_string_no": 710175,
       "content_string_no": 710176
+    },
+    {
+      "no": 52,
+      "challenge_no": 1301,
+      "constraint_type": 1,
+      "title_string_no": 710211,
+      "content_string_no": 710212
+    },
+    {
+      "no": 53,
+      "challenge_no": 1302,
+      "constraint_type": 6,
+      "title_string_no": 710221,
+      "content_string_no": 710222,
+      "value1": 3
+    },
+    {
+      "no": 54,
+      "challenge_no": 1302,
+      "constraint_type": 1,
+      "title_string_no": 710223,
+      "content_string_no": 710224,
+      "value1": 8121,
+      "value2": 8122,
+      "value3": 8123,
+      "value4": 8124
+    },
+    {
+      "no": 55,
+      "challenge_no": 1303,
+      "constraint_type": 1,
+      "title_string_no": 710231,
+      "content_string_no": 710232
+    },
+    {
+      "no": 56,
+      "challenge_no": 1303,
+      "constraint_type": 1,
+      "title_string_no": 710233,
+      "content_string_no": 710234
+    },
+    {
+      "no": 57,
+      "challenge_no": 1304,
+      "constraint_type": 1,
+      "title_string_no": 710241,
+      "content_string_no": 710242
+    },
+    {
+      "no": 58,
+      "challenge_no": 1304,
+      "constraint_type": 1,
+      "title_string_no": 710243,
+      "content_string_no": 710244,
+      "value1": 8125
+    },
+    {
+      "no": 59,
+      "challenge_no": 1304,
+      "constraint_type": 1,
+      "title_string_no": 710245,
+      "content_string_no": 710246,
+      "value1": 5022
+    },
+    {
+      "no": 60,
+      "challenge_no": 1305,
+      "constraint_type": 1,
+      "title_string_no": 710251,
+      "content_string_no": 710252,
+      "value1": 8120
+    },
+    {
+      "no": 61,
+      "challenge_no": 1305,
+      "constraint_type": 1,
+      "title_string_no": 710253,
+      "content_string_no": 710254
+    },
+    {
+      "no": 62,
+      "challenge_no": 1305,
+      "constraint_type": 7,
+      "title_string_no": 710255,
+      "content_string_no": 710256,
+      "value1": 110057
     }
   ]
 }

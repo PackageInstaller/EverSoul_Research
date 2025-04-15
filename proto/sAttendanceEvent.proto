@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sAttendanceEvent {
+  int32 group = 1;
+  int32 order = 2;
+  int32 day = 3;
+  int32 rewardFlag = 4;
+}
+

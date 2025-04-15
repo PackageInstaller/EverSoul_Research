@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sStory {
+  int32 storyNo = 1;
+  int64 updateDt = 2;
+}
+

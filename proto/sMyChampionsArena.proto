@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sMyChampionsArena {
+  int32 championsRank = 1;
+  int64 waitRewardStartDt = 2;
+  int32 waitRewardPercentage = 3;
+  int64 championsArenaOpenNotificationDt = 4;
+}
+

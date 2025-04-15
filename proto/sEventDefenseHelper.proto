@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sEventDefenseHelper {
+  int32 heroNo = 1;
+  int32 ap = 2;
+  int32 isAffection = 3;
+}
+

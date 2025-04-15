@@ -416,7 +416,7 @@
       "introduction_sno": 801125,
       "cv_sno": 801126,
       "cv_jp_sno": 801127,
-      "union_sno": 809999,
+      "union_sno": 809024,
       "zodiac_type_sno": 10106
     },
     {
@@ -488,6 +488,7 @@
       "height": 165,
       "weight": 53,
       "birthday": 905,
+      "constellation_sno": 800008,
       "hobby_sno": 801161,
       "speciality_sno": 801162,
       "like_sno": 801163,
@@ -495,7 +496,8 @@
       "introduction_sno": 801165,
       "cv_sno": 801166,
       "cv_jp_sno": 801167,
-      "union_sno": 809999
+      "union_sno": 809024,
+      "zodiac_type_sno": 10106
     },
     {
       "hero_no": 2010,
@@ -534,7 +536,7 @@
       "introduction_sno": 802025,
       "cv_sno": 802026,
       "cv_jp_sno": 802027,
-      "union_sno": 809999,
+      "union_sno": 809024,
       "zodiac_type_sno": 10112
     },
     {
@@ -754,7 +756,7 @@
       "introduction_sno": 802135,
       "cv_sno": 802136,
       "cv_jp_sno": 802137,
-      "union_sno": 809999,
+      "union_sno": 809024,
       "zodiac_type_sno": 10103
     },
     {
@@ -794,7 +796,7 @@
       "introduction_sno": 802155,
       "cv_sno": 802156,
       "cv_jp_sno": 802157,
-      "union_sno": 809999,
+      "union_sno": 809024,
       "zodiac_type_sno": 10103
     },
     {
@@ -1352,7 +1354,7 @@
       "introduction_sno": 804125,
       "cv_sno": 804126,
       "cv_jp_sno": 804127,
-      "union_sno": 809999,
+      "union_sno": 809024,
       "zodiac_type_sno": 10108
     },
     {
@@ -1552,7 +1554,7 @@
       "introduction_sno": 806035,
       "cv_sno": 806036,
       "cv_jp_sno": 806037,
-      "union_sno": 809999,
+      "union_sno": 809024,
       "zodiac_type_sno": 10110
     },
     {
@@ -2162,6 +2164,10 @@
     {
       "hero_no": 32108,
       "name_sno": 3032108
+    },
+    {
+      "hero_no": 32118,
+      "name_sno": 3032118
     },
     {
       "hero_no": 40100,

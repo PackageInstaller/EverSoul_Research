@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+package EsPb;
+
+enum eDungeonMaxLevelType {
+  Weekly = 0;
+  Training = 1;
+}
+
+message sDungeonPerfectClearRecord {
+  eDungeonMaxLevelType type = 1;
+  int32 dungeonNo = 2;
+  int32 dungeonLevel = 3;
+}
+

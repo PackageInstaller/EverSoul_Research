@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sGuideQuest {
+  int32 questNo = 1;
+  int32 value = 2;
+}
+

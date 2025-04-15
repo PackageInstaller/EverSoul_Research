@@ -322,6 +322,86 @@
       "task_amount": 3,
       "task_string": 12816,
       "score": 50000
+    },
+    {
+      "no": 401,
+      "event_group": 5,
+      "task_type": 1,
+      "task_string": 12818,
+      "score": 20000
+    },
+    {
+      "no": 402,
+      "event_group": 5,
+      "task_type": 11,
+      "task_amount": 20,
+      "task_string": 12819,
+      "score": 20000
+    },
+    {
+      "no": 403,
+      "event_group": 5,
+      "task_type": 11,
+      "task_amount": 40,
+      "task_string": 12819,
+      "score": 30000
+    },
+    {
+      "no": 404,
+      "event_group": 5,
+      "task_type": 11,
+      "task_amount": 60,
+      "task_string": 12819,
+      "score": 40000
+    },
+    {
+      "no": 405,
+      "event_group": 5,
+      "task_type": 11,
+      "task_amount": 80,
+      "task_string": 12819,
+      "score": 50000
+    },
+    {
+      "no": 406,
+      "event_group": 5,
+      "task_type": 11,
+      "task_amount": 100,
+      "task_string": 12819,
+      "score": 60000
+    },
+    {
+      "no": 407,
+      "event_group": 5,
+      "task_type": 11,
+      "task_amount": 120,
+      "task_string": 12819,
+      "score": 70000
+    },
+    {
+      "no": 408,
+      "event_group": 5,
+      "task_type": 3,
+      "task_amount": 15,
+      "task_string": 12803,
+      "score": 30000
+    },
+    {
+      "no": 409,
+      "event_group": 5,
+      "task_type": 3,
+      "task_amount": 30,
+      "task_string": 12803,
+      "score": 50000
+    },
+    {
+      "no": 410,
+      "event_group": 5,
+      "task_type": 6,
+      "task_param": 2,
+      "task_amount": 5,
+      "task_string": 12820,
+      "score": 50000
     }
   ]
 }

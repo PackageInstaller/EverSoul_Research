@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sGachaHeroView {
+  int32 originHeroNo = 1;
+  int32 replaceHeroNo = 2;
+}
+

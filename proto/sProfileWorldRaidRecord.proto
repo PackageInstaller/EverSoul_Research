@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sProfileWorldRaidRecord {
+  int32 raidNo = 1;
+  int64 rank = 2;
+}
+

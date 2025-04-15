@@ -1,0 +1,19 @@
+{
+  "json": [
+    {
+      "no": 6,
+      "schedule_key": "EdenUnion_fayren",
+      "union_group": 6001,
+      "union_rank_group": 6101,
+      "union_rank_constraint_count": 2,
+      "stage_no": 93006,
+      "name_sno": 19129,
+      "story_no": 3013201,
+      "bg_path": "bg_alliance_fayren",
+      "sound_path": "BGM_EdenAlliance_Fayren",
+      "emblem_path": "emblem_alliance_fayren",
+      "daily_reward": 57,
+      "reward_amount": 600
+    }
+  ]
+}

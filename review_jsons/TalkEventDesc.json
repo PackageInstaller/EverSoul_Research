@@ -2087,6 +2087,54 @@
       "event_no": 169,
       "order": 2,
       "desc_list": "[[3070,Talk,900006384]]"
+    },
+    {
+      "no": 349,
+      "event_no": 170,
+      "order": 1,
+      "desc_list": "[[1160,Exercise,900006385]]"
+    },
+    {
+      "no": 350,
+      "event_no": 170,
+      "order": 2,
+      "desc_list": "[[2150,Throw,900006386]]"
+    },
+    {
+      "no": 351,
+      "event_no": 171,
+      "order": 1,
+      "desc_list": "[[3050,Sing,900006387]]"
+    },
+    {
+      "no": 352,
+      "event_no": 171,
+      "order": 2,
+      "desc_list": "[[1160,Talk,900006388]]"
+    },
+    {
+      "no": 353,
+      "event_no": 172,
+      "order": 1,
+      "desc_list": "[[4140,Stay,900006389]]"
+    },
+    {
+      "no": 354,
+      "event_no": 172,
+      "order": 2,
+      "desc_list": "[[1160,Catch_D,900006390]]"
+    },
+    {
+      "no": 355,
+      "event_no": 173,
+      "order": 1,
+      "desc_list": "[[5040,Talk,900006391]]"
+    },
+    {
+      "no": 356,
+      "event_no": 173,
+      "order": 2,
+      "desc_list": "[[1160,Happy1,900006392]]"
     }
   ]
 }

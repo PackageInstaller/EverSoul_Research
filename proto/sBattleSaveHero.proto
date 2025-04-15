@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package EsPb;
+
+message sBattleSaveHero {
+  sHero hero = 1;
+  repeated sItemEquipAndEquipSlot itemEquip = 2;
+  repeated int32 equipSetBuff = 3;
+  sItemSignature signature = 4;
+  bool isRental = 5;
+}
+
+message sHero {
+  string idx = 1;
+  int32 heroNo = 2;
+  int32 level = 3;
+  int32 isResonance = 4;
+  int32 gradeSno = 5;
+  int32 raceSno = 6;
+  int32 isLock = 7;
+}
+
+message sItemEquipAndEquipSlot {
+  int64 id = 1;
+  int32 itemNo = 2;
+  int32 exp = 3;
+  int32 slot = 4;
+}
+
+message sItemSignature {
+  int32 itemNo = 1;
+  int32 grade = 2;
+  int32 level = 3;
+}
+
