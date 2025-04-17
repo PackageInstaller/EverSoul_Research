@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package EsPb;
-
-message sEdenOperationMission {
-  int32 missionNo = 1;
-  int32 isReceive = 2;
-}
-

@@ -239,8 +239,15 @@ def process_dump_file(file_path, output_dir=None):
     # 解析CS文件
     namespace, message_types, enum_types = parse_cs_file(file_path)
     
+    # 计数器，用于记录生成的文件数量
+    generated_count = 0
+    
     # 对于每个消息类型，生成一个proto文件
     for message_name in message_types:
+        # 跳过以's'开头的消息类型，这些类型通常用作其他消息的字段补充
+        if message_name.startswith('s'):
+            continue
+            
         # 创建一个集合用于存储所有需要包含的消息类型
         related_messages = {}
         related_enums = {}
@@ -271,8 +278,9 @@ def process_dump_file(file_path, output_dir=None):
         # 生成proto文件
         output_file = os.path.join(output_dir, f"{message_name}.proto")
         generate_proto_file(namespace, related_messages, related_enums, output_file)
+        generated_count += 1
     
-    print(f"处理完成。共生成 {len(message_types)} 个proto文件。")
+    print(f"处理完成。共生成 {generated_count} 个proto文件。")
 
 def main():
     parser = argparse.ArgumentParser(description='从C#文件生成proto文件')

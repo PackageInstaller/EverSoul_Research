@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package EsPb;
-
-message sAchievementState {
-  int32 behavior = 1;
-  int32 value = 2;
-}
-

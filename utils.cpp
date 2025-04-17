@@ -323,8 +323,8 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
     json table_info;
 
     // 检查正式服数据表文件夹是否存在
-    bool liveTablesExist = fs::exists("../live_tables") && !fs::is_empty("../live_tables");
-    std::println("Live 数据表目录存在且非空: {}", liveTablesExist ? "是" : "否");
+    bool liveTableExist = fs::exists("../live_table") && !fs::is_empty("../live_table");
+    std::println("Live 数据表目录存在且非空: {}", liveTableExist ? "是" : "否");
 
     if (fs::exists(table_info_path))
     {
@@ -345,7 +345,7 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
             table_info["live"]["version"] == version &&
             table_info["live"]["tableVersion"] == tableInfo.version &&
             table_info["live"]["hash"] == currentHash &&
-            liveTablesExist)
+            liveTableExist)
         {
             std::println("\033[32mLive 服务器数据表已是最新版本\033[0m");
             return false;
@@ -406,11 +406,11 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
         return false;
     }
 
-    if (!fs::exists("../live_tables"))
+    if (!fs::exists("../live_table"))
     {
-        fs::create_directory("../live_tables");
+        fs::create_directory("../live_table");
     }
-    std::string unzipCommand = "unzip -o " + zipPath + " -d ../live_tables/ > /dev/null 2>&1";
+    std::string unzipCommand = "unzip -o " + zipPath + " -d ../live_table/ > /dev/null 2>&1";
     system(unzipCommand.c_str());
 
     fs::remove(zipPath);
@@ -424,7 +424,7 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
     }
 
     std::vector<fs::path> files_to_decrypt;
-    for (const auto &entry : fs::directory_iterator("../live_tables"))
+    for (const auto &entry : fs::directory_iterator("../live_table"))
     {
         if (entry.is_regular_file() && !isFileDecrypted(entry.path()))
         {
@@ -439,11 +439,11 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
     }
 
     // 转换正式服数据表
-    if (!fs::exists("../live_jsons"))
+    if (!fs::exists("../live_json"))
     {
-        fs::create_directory("../live_jsons");
+        fs::create_directory("../live_json");
     }
-    if (!convertTablesToJson("../schemas", "../live_tables", "../live_jsons"))
+    if (!convertTablesToJson("../schema", "../live_table", "../live_json"))
     {
         std::println("\033[31m正式服数据表转换失败\033[0m");
         return false;
@@ -1056,8 +1056,8 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
     bool needUpdate = true;
 
     // 检查 Review 服务器数据表文件夹是否存在
-    bool reviewTablesExist = fs::exists("../review_tables") && !fs::is_empty("../review_tables");
-    std::println("Review 数据表目录存在且非空: {}", reviewTablesExist ? "是" : "否");
+    bool reviewTableExist = fs::exists("../review_table") && !fs::is_empty("../review_table");
+    std::println("Review 数据表目录存在且非空: {}", reviewTableExist ? "是" : "否");
 
     if (fs::exists(table_info_path))
     {
@@ -1080,7 +1080,7 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
             table_info["review"]["cdnDate"] == reviewInfo.cdnDate &&
             table_info["review"]["tableVersion"] == serverTableVersion &&
             table_info["review"]["hash"] == currentHash &&
-            reviewTablesExist)
+            reviewTableExist)
         {
             std::println("\033[32mReview 服务器数据表已是最新版本\033[0m");
             return false;
@@ -1136,11 +1136,11 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
         return false;
     }
 
-    if (!fs::exists("../review_tables"))
+    if (!fs::exists("../review_table"))
     {
-        fs::create_directory("../review_tables");
+        fs::create_directory("../review_table");
     }
-    std::string unzipCommand = "unzip -o " + zipPath + " -d ../review_tables/ > /dev/null 2>&1";
+    std::string unzipCommand = "unzip -o " + zipPath + " -d ../review_table/ > /dev/null 2>&1";
     system(unzipCommand.c_str());
 
     fs::remove(zipPath);
@@ -1154,7 +1154,7 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
     }
 
     std::vector<fs::path> files_to_decrypt;
-    for (const auto &entry : fs::directory_iterator("../review_tables"))
+    for (const auto &entry : fs::directory_iterator("../review_table"))
     {
         if (entry.is_regular_file() && !isFileDecrypted(entry.path()))
         {
@@ -1169,11 +1169,11 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
     }
 
     // 转换 Review 数据表
-    if (!fs::exists("../review_jsons"))
+    if (!fs::exists("../review_json"))
     {
-        fs::create_directory("../review_jsons");
+        fs::create_directory("../review_json");
     }
-    if (!convertTablesToJson("../schemas", "../review_tables", "../review_jsons"))
+    if (!convertTablesToJson("../schema", "../review_table", "../review_json"))
     {
         std::println("\033[31mReview 数据表转换失败\033[0m");
         return false;

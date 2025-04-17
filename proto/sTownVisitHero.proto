@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package EsPb;
-
-message sTownVisitHero {
-  int32 heroNo = 1;
-  int32 pickUpFlag = 2;
-}
-

@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package EsPb;
-
-message sCashCustomPackOpenHero {
-  int32 type = 1;
-  repeated int32 itemNo = 2;
-}
-

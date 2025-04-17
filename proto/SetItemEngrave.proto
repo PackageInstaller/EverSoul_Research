@@ -45,7 +45,7 @@ enum E_CURRENCY {
   LabyrinthTicket = 51;
   TranscendentStone = 52;
   SingleRaidTicket = 53;
-  SetItemEngrave = 54;
+  SetItemEngrave_ = 54;
   RotationDungeonTicket = 55;
   EdenCoin = 57;
   TypeBarrierGateTicket = 58;

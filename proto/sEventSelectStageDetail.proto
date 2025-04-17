@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package EsPb;
-
-message sEventSelectStageDetail {
-  int32 eventStageGroup = 1;
-  int32 maxClearPhase = 2;
-}
-

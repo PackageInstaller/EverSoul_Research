@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package EsPb;
-
-message sMessageMail {
-  int32 no = 1;
-  bool isReceive = 2;
-}
-

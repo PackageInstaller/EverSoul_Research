@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package EsPb;
-
-message sHeroEquipPresetSlot {
-  int32 slot = 1;
-  string name = 2;
-}
-

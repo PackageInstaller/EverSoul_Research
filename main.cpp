@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
         }
 
         // 检查正式服数据表
-        std::string tableDir = "../live_tables";
+        std::string tableDir = "../live_table";
 
         if (!fs::exists(tableDir) || fs::is_empty(tableDir))
         {

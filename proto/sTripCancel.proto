@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package EsPb;
-
-message sTripCancel {
-  int32 heroNo = 1;
-  int64 tripCancelDt = 2;
-}
-

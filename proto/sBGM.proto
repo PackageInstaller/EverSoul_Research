@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package EsPb;
-
-message sBGM {
-  bytes lobbyBgm = 1;
-  bytes battleBgm = 2;
-}
-

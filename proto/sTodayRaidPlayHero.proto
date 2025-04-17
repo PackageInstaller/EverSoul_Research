@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-package EsPb;
-
-message sTodayRaidPlayHero {
-  string heroIdx = 1;
-}
-

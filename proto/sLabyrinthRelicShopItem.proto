@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package EsPb;
-
-message sLabyrinthRelicShopItem {
-  int32 relicNo = 1;
-  int32 soldOut = 2;
-}
-

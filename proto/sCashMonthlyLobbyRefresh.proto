@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package EsPb;
-
-message sCashMonthlyLobbyRefresh {
-  int32 packageNo = 1;
-  int32 endDt = 2;
-}
-

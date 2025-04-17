@@ -1,9 +1,0 @@
-syntax = "proto3";
-
-package EsPb;
-
-message sChallengeMode {
-  int32 clearStageNo = 1;
-  repeated int32 clearTaskNo = 2;
-}
-
