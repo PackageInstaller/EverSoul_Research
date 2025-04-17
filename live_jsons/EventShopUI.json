@@ -717,6 +717,28 @@
       "event_shop_hero": 3090,
       "model_viewer_display": 2311,
       "model_offset": "[0.05, 0, 0]"
+    },
+    {
+      "no": 1077,
+      "event_type": 9,
+      "event_group": 10,
+      "event_number": 2,
+      "bg_path": "EverSchool2/bg_EverSchool2_shop",
+      "shop_name_sno": 12419,
+      "event_shop_hero": 3130,
+      "model_viewer_display": 2317,
+      "model_offset": "[0.05, 0, 0]"
+    },
+    {
+      "no": 1078,
+      "event_type": 9,
+      "event_group": 10,
+      "event_number": 2,
+      "bg_path": "EverSchool2/bg_EverSchool2_shop",
+      "shop_name_sno": 12420,
+      "event_shop_hero": 3120,
+      "model_viewer_display": 2318,
+      "model_offset": "[0.05, 0, 0]"
     }
   ]
 }

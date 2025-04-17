@@ -1081,6 +1081,78 @@
       "group_trip": 9115090
     },
     {
+      "no": 116006,
+      "hero_no": 1160,
+      "quest_type": 1,
+      "keyword_type": 101,
+      "keyword_get_details": 1004,
+      "group_start": 9116081,
+      "group_doing": 9116084,
+      "group_end": 9116087
+    },
+    {
+      "no": 116007,
+      "hero_no": 1160,
+      "quest_type": 2,
+      "keyword_type": 102,
+      "keyword_get_details": 1,
+      "group_start": 9116082,
+      "group_doing": 9116085,
+      "group_end": 9116088
+    },
+    {
+      "no": 116008,
+      "hero_no": 1160,
+      "quest_type": 3,
+      "keyword_type": 103,
+      "keyword_get_details": 103,
+      "group_start": 9116083,
+      "group_doing": 9116086,
+      "group_end": 9116089,
+      "group_trip": 9116090
+    },
+    {
+      "no": 116009,
+      "hero_no": 1160,
+      "quest_type": 4,
+      "keyword_type": 101,
+      "keyword_get_details": 1002,
+      "group_start": 9116091,
+      "group_doing": 9116092,
+      "group_end": 9116093
+    },
+    {
+      "no": 116010,
+      "hero_no": 1160,
+      "quest_type": 4,
+      "keyword_type": 101,
+      "keyword_get_details": 1004,
+      "group_start": 9116081,
+      "group_doing": 9116084,
+      "group_end": 9116087
+    },
+    {
+      "no": 116011,
+      "hero_no": 1160,
+      "quest_type": 4,
+      "keyword_type": 102,
+      "keyword_get_details": 1,
+      "group_start": 9116082,
+      "group_doing": 9116085,
+      "group_end": 9116088
+    },
+    {
+      "no": 116012,
+      "hero_no": 1160,
+      "quest_type": 4,
+      "keyword_type": 103,
+      "keyword_get_details": 103,
+      "group_start": 9116083,
+      "group_doing": 9116086,
+      "group_end": 9116089,
+      "group_trip": 9116090
+    },
+    {
       "no": 201006,
       "hero_no": 2010,
       "quest_type": 1,

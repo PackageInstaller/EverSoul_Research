@@ -1536,6 +1536,15 @@
       "tooltip_sno": 552512,
       "amount_kind": 2,
       "contents_buff_no": 30
+    },
+    {
+      "no": 5915,
+      "buff_type": 50,
+      "buff_type_no": 2,
+      "amount": 0.1,
+      "tooltip_sno": 552513,
+      "amount_kind": 2,
+      "contents_buff_no": 10
     }
   ]
 }

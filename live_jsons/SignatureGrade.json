@@ -5820,7 +5820,7 @@
       "collection_point": 300,
       "icon_bg_path": "bg_gear_epic",
       "skill_level": 1,
-      "signature_bg_effect": ""
+      "signature_bg_effect": "FxUI_Signature_JihoMir_00"
     },
     {
       "no": 492,
@@ -5832,7 +5832,7 @@
       "collection_point": 500,
       "icon_bg_path": "bg_gear_epic",
       "skill_level": 2,
-      "signature_bg_effect": ""
+      "signature_bg_effect": "FxUI_Signature_JihoMir_00"
     },
     {
       "no": 493,
@@ -5844,7 +5844,7 @@
       "collection_point": 750,
       "icon_bg_path": "bg_gear_legend",
       "skill_level": 3,
-      "signature_bg_effect": ""
+      "signature_bg_effect": "FxUI_Signature_JihoMir_00"
     },
     {
       "no": 494,
@@ -5856,7 +5856,7 @@
       "collection_point": 1050,
       "icon_bg_path": "bg_gear_legend",
       "skill_level": 4,
-      "signature_bg_effect": ""
+      "signature_bg_effect": "FxUI_Signature_JihoMir_00"
     },
     {
       "no": 495,
@@ -5868,7 +5868,7 @@
       "collection_point": 1400,
       "icon_bg_path": "bg_gear_myth",
       "skill_level": 5,
-      "signature_bg_effect": ""
+      "signature_bg_effect": "FxUI_Signature_JihoMir_00"
     },
     {
       "no": 496,
@@ -5880,7 +5880,7 @@
       "collection_point": 1800,
       "icon_bg_path": "bg_gear_myth",
       "skill_level": 6,
-      "signature_bg_effect": ""
+      "signature_bg_effect": "FxUI_Signature_JihoMir_00"
     },
     {
       "no": 497,
@@ -5891,7 +5891,7 @@
       "collection_point": 2250,
       "icon_bg_path": "bg_gear_ascension",
       "skill_level": 7,
-      "signature_bg_effect": ""
+      "signature_bg_effect": "FxUI_Signature_JihoMir_00"
     },
     {
       "no": 498,
@@ -6843,6 +6843,69 @@
     {
       "no": 10014,
       "group": 6991,
+      "signature_grade_": 110020,
+      "signature_max_level": 40,
+      "icon_bg_path": "bg_gear_ascension",
+      "skill_level": 7,
+      "signature_bg_effect": ""
+    },
+    {
+      "no": 10015,
+      "group": 11001,
+      "signature_grade_": 110014,
+      "signature_max_level": 10,
+      "icon_bg_path": "bg_gear_epic",
+      "skill_level": 1,
+      "signature_bg_effect": ""
+    },
+    {
+      "no": 10016,
+      "group": 11001,
+      "signature_grade_": 110015,
+      "signature_max_level": 15,
+      "icon_bg_path": "bg_gear_epic",
+      "skill_level": 2,
+      "signature_bg_effect": ""
+    },
+    {
+      "no": 10017,
+      "group": 11001,
+      "signature_grade_": 110016,
+      "signature_max_level": 20,
+      "icon_bg_path": "bg_gear_legend",
+      "skill_level": 3,
+      "signature_bg_effect": ""
+    },
+    {
+      "no": 10018,
+      "group": 11001,
+      "signature_grade_": 110017,
+      "signature_max_level": 25,
+      "icon_bg_path": "bg_gear_legend",
+      "skill_level": 4,
+      "signature_bg_effect": ""
+    },
+    {
+      "no": 10019,
+      "group": 11001,
+      "signature_grade_": 110018,
+      "signature_max_level": 30,
+      "icon_bg_path": "bg_gear_myth",
+      "skill_level": 5,
+      "signature_bg_effect": ""
+    },
+    {
+      "no": 10020,
+      "group": 11001,
+      "signature_grade_": 110019,
+      "signature_max_level": 35,
+      "icon_bg_path": "bg_gear_myth",
+      "skill_level": 6,
+      "signature_bg_effect": ""
+    },
+    {
+      "no": 10021,
+      "group": 11001,
       "signature_grade_": 110020,
       "signature_max_level": 40,
       "icon_bg_path": "bg_gear_ascension",

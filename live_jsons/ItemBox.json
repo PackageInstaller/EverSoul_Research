@@ -22006,6 +22006,194 @@
       "getitem_rate": 50000,
       "getitem_amount": 5,
       "show_info": 1
+    },
+    {
+      "no": 2834,
+      "item_no": 4177,
+      "type": 2,
+      "getitem_no": 5723,
+      "getitem_amount": 1,
+      "show_info": 1
+    },
+    {
+      "no": 2835,
+      "item_no": 4177,
+      "type": 2,
+      "getitem_no": 2,
+      "getitem_amount": 1000,
+      "show_info": 1
+    },
+    {
+      "no": 2836,
+      "item_no": 4177,
+      "type": 2,
+      "getitem_no": 6,
+      "getitem_amount": 100,
+      "show_info": 1
+    },
+    {
+      "no": 2837,
+      "item_no": 4177,
+      "type": 2,
+      "getitem_no": 7037,
+      "getitem_amount": 3,
+      "show_info": 1
+    },
+    {
+      "no": 2838,
+      "item_no": 4178,
+      "getitem_no": 4179,
+      "getitem_amount": 1,
+      "show_info": 1
+    },
+    {
+      "no": 2839,
+      "item_no": 4178,
+      "getitem_no": 4180,
+      "getitem_amount": 1,
+      "show_info": 1
+    },
+    {
+      "no": 2840,
+      "item_no": 4178,
+      "getitem_no": 4181,
+      "getitem_amount": 1,
+      "show_info": 1
+    },
+    {
+      "no": 2841,
+      "item_no": 4179,
+      "type": 1,
+      "getitem_no": 19,
+      "getitem_rate": 1000,
+      "getitem_amount": 50,
+      "show_info": 1
+    },
+    {
+      "no": 2842,
+      "item_no": 4179,
+      "type": 1,
+      "getitem_no": 66,
+      "getitem_rate": 4000,
+      "getitem_amount": 20,
+      "show_info": 1
+    },
+    {
+      "no": 2843,
+      "item_no": 4179,
+      "type": 1,
+      "getitem_no": 66,
+      "getitem_rate": 5000,
+      "getitem_amount": 15,
+      "show_info": 1
+    },
+    {
+      "no": 2844,
+      "item_no": 4179,
+      "type": 1,
+      "getitem_no": 66,
+      "getitem_rate": 35000,
+      "getitem_amount": 10,
+      "show_info": 1
+    },
+    {
+      "no": 2845,
+      "item_no": 4179,
+      "type": 1,
+      "getitem_no": 66,
+      "getitem_rate": 55000,
+      "getitem_amount": 5,
+      "show_info": 1
+    },
+    {
+      "no": 2846,
+      "item_no": 4180,
+      "type": 1,
+      "getitem_no": 19,
+      "getitem_rate": 1000,
+      "getitem_amount": 50,
+      "show_info": 1
+    },
+    {
+      "no": 2847,
+      "item_no": 4180,
+      "type": 1,
+      "getitem_no": 45,
+      "getitem_rate": 4000,
+      "getitem_amount": 35,
+      "show_info": 1
+    },
+    {
+      "no": 2848,
+      "item_no": 4180,
+      "type": 1,
+      "getitem_no": 45,
+      "getitem_rate": 5000,
+      "getitem_amount": 25,
+      "show_info": 1
+    },
+    {
+      "no": 2849,
+      "item_no": 4180,
+      "type": 1,
+      "getitem_no": 45,
+      "getitem_rate": 35000,
+      "getitem_amount": 20,
+      "show_info": 1
+    },
+    {
+      "no": 2850,
+      "item_no": 4180,
+      "type": 1,
+      "getitem_no": 45,
+      "getitem_rate": 55000,
+      "getitem_amount": 15,
+      "show_info": 1
+    },
+    {
+      "no": 2851,
+      "item_no": 4181,
+      "type": 1,
+      "getitem_no": 19,
+      "getitem_rate": 1000,
+      "getitem_amount": 50,
+      "show_info": 1
+    },
+    {
+      "no": 2852,
+      "item_no": 4181,
+      "type": 1,
+      "getitem_no": 46,
+      "getitem_rate": 4000,
+      "getitem_amount": 15,
+      "show_info": 1
+    },
+    {
+      "no": 2853,
+      "item_no": 4181,
+      "type": 1,
+      "getitem_no": 46,
+      "getitem_rate": 5000,
+      "getitem_amount": 10,
+      "show_info": 1
+    },
+    {
+      "no": 2854,
+      "item_no": 4181,
+      "type": 1,
+      "getitem_no": 46,
+      "getitem_rate": 35000,
+      "getitem_amount": 5,
+      "show_info": 1
+    },
+    {
+      "no": 2855,
+      "item_no": 4181,
+      "type": 1,
+      "getitem_no": 46,
+      "getitem_rate": 55000,
+      "getitem_amount": 3,
+      "show_info": 1
     }
   ]
 }

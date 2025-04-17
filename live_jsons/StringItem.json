@@ -2641,6 +2641,14 @@
       "zh_cn": ""
     },
     {
+      "no": 213377,
+      "kr": "정령의 기억: 지호(미르)",
+      "en": "Soul's Memory: Jiho (Mir)",
+      "ja": "",
+      "zh_tw": "精靈的記憶：智河（米爾）",
+      "zh_cn": ""
+    },
+    {
       "no": 213378,
       "kr": "정령의 기억: 홍란(무쌍)",
       "en": "Soul's Memory: Honglan (Peerless)",
@@ -3490,10 +3498,42 @@
     },
     {
       "no": 214177,
-      "kr": "어린 정령의 소망 상자",
+      "kr": "마농의 특별 선물 상자",
       "en": "Manon's Special Gift Box",
-      "ja": "",
+      "ja": "マノンのスペシャルプレゼントボックス",
       "zh_tw": "瑪儂的特別禮物盒",
+      "zh_cn": ""
+    },
+    {
+      "no": 214178,
+      "kr": "큼직한 럭키 박스",
+      "en": "Large Lucky Box",
+      "ja": "",
+      "zh_tw": "大型幸運盒子",
+      "zh_cn": ""
+    },
+    {
+      "no": 214179,
+      "kr": "럭키 박스 (지정 소환권)",
+      "en": "Lucky Box (Targeted Summon Tickets)",
+      "ja": "",
+      "zh_tw": "幸運盒子（指定召喚券）",
+      "zh_cn": ""
+    },
+    {
+      "no": 214180,
+      "kr": "럭키 박스 (유물 소환권)",
+      "en": "Lucky Box (Artifact Summon Tickets)",
+      "ja": "",
+      "zh_tw": "幸運盒子（遺物召喚券）",
+      "zh_cn": ""
+    },
+    {
+      "no": 214181,
+      "kr": "럭키 박스 (에리카의 연금술 티켓)",
+      "en": "Lucky Box (Erika's Alchemy Tickets)",
+      "ja": "",
+      "zh_tw": "幸運盒子（艾麗卡的鍊金術票券）",
       "zh_cn": ""
     },
     {
@@ -4866,9 +4906,9 @@
     },
     {
       "no": 215723,
-      "kr": "프레임: 꿈꾸는 인형",
+      "kr": "프레임: 소중한 마음",
       "en": "Frame: Cherished Heart",
-      "ja": "",
+      "ja": "フレーム：大切な気持ち",
       "zh_tw": "外框：珍貴的心意",
       "zh_cn": ""
     },
@@ -5289,6 +5329,38 @@
       "zh_cn": ""
     },
     {
+      "no": 216147,
+      "kr": "스티커: 칼라르\r\n(레전더리)",
+      "en": "Sticker: Chalar\r\n(Legendary)",
+      "ja": "ステッカー：カラール\r\n(レジェンダリー)",
+      "zh_tw": "貼紙：卡拉爾\r\n（傳說）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216148,
+      "kr": "스티커: 칼라르\r\n(레전더리 3위)",
+      "en": "Sticker: Chalar\r\n(Legendary #3)",
+      "ja": "ステッカー：カラール\r\n(レジェンダリー3位)",
+      "zh_tw": "貼紙：卡拉爾\r\n（傳說第3名）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216149,
+      "kr": "스티커: 칼라르\r\n(레전더리 2위)",
+      "en": "Sticker: Chalar\r\n(Legendary #2)",
+      "ja": "ステッカー：カラール\r\n(レジェンダリー2位)",
+      "zh_tw": "貼紙：卡拉爾\r\n（傳說第2名）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216150,
+      "kr": "스티커: 칼라르\r\n(레전더리 1위)",
+      "en": "Sticker: Chalar\r\n(Legendary #1)",
+      "ja": "ステッカー：カラール\r\n(レジェンダリー1位)",
+      "zh_tw": "貼紙：卡拉爾\r\n（傳說第1名）",
+      "zh_cn": ""
+    },
+    {
       "no": 216151,
       "kr": "스티커: 가온 (브론즈)",
       "en": "Sticker: Gaon (Bronze)",
@@ -5638,6 +5710,14 @@
       "en": "Sticker: Lighthouse of the Stars",
       "ja": "ステッカー：星の灯台",
       "zh_tw": "貼紙：星之燈塔",
+      "zh_cn": ""
+    },
+    {
+      "no": 216233,
+      "kr": "스티커: 별의 바다",
+      "en": "Sticker: Sea of Stars",
+      "ja": "",
+      "zh_tw": "貼紙：星海",
       "zh_cn": ""
     },
     {
@@ -6214,6 +6294,14 @@
       "en": "Sticker: Token of Origin - Hanul",
       "ja": "ステッカー：起源の証-ハンウル",
       "zh_tw": "貼紙：起源的信物－韓羽",
+      "zh_cn": ""
+    },
+    {
+      "no": 216809,
+      "kr": "스티커: 기원의 증표 - 지호(미르)",
+      "en": "Sticker: Token of Origin - Jiho (Mir)",
+      "ja": "ステッカー：起源の証-ジホ(ミル)",
+      "zh_tw": "貼紙：起源的信物－智河（米爾）",
       "zh_cn": ""
     },
     {
@@ -10305,6 +10393,14 @@
       "zh_cn": ""
     },
     {
+      "no": 223377,
+      "kr": "파편 60개 수집시 에픽 정령 지호(미르) 소환 가능",
+      "en": "Collect 60 fragments to summon Epic Soul Jiho (Mir).",
+      "ja": "",
+      "zh_tw": "收集60塊碎片時，即可召喚史詩精靈智河（米爾）",
+      "zh_cn": ""
+    },
+    {
       "no": 223378,
       "kr": "파편 60개 수집시 에픽 정령 홍란(무쌍) 소환 가능",
       "en": "Collect 60 fragments to summon Epic Soul Honglan (Peerless).",
@@ -11154,10 +11250,42 @@
     },
     {
       "no": 224177,
-      "kr": "어린 정령들의 동심이 느껴지는 상자.\r\n꿈과 소망을 한껏 담아 포장한 그들의 마음이 느껴진다.",
+      "kr": "마농이 5월을 맞이하며 모아온 특별한 아이템이 가득 담긴 상자.",
       "en": "A box full of special items Manon gathered to welcome May.",
-      "ja": "",
+      "ja": "マノンが5月のために集めてきた特別なアイテムがいっぱい詰まっているボックス。",
       "zh_tw": "裝有瑪儂為了迎接5月，收集特別道具的禮盒。",
+      "zh_cn": ""
+    },
+    {
+      "no": 224178,
+      "kr": "운이 좋다면 픽업 소환권이 들어있을 지도...?\r\n사용 시 구성품 중 1종을 선택하여 획득할 수 있습니다.",
+      "en": "If you're lucky, it may give you Pick-Up Summon Tickets!\r\nUse it to select and obtain 1 item from the available options.",
+      "ja": "運が良ければ、ピックアップ召喚券が入っているかも…？\r\n使用すると、構成品のうち1種を選択して獲得できます。",
+      "zh_tw": "\r\n運氣好的話，說不定裡面會有Pick Up召喚券哦…？\r\n使用後可選擇獲得其中1項內容物。",
+      "zh_cn": ""
+    },
+    {
+      "no": 224179,
+      "kr": "사용 시 아래 구성품을 확률에 따라 획득합니다.\r\n\r\n[획득 확률]\r\n픽업 소환권 50개: 1%\r\n지정 소환권 20개: 4%\r\n지정 소환권 15개: 5%\r\n지정 소환권 10개: 35%\r\n지정 소환권 5개: 55%",
+      "en": "Use it to obtain one of the following options:\r\n\r\n[Probabilities]\r\n50 Pick-Up Summon Tickets: 1%\r\n20 Targeted Summon Tickets: 4%\r\n15 Targeted Summon Tickets: 5%\r\n10 Targeted Summon Tickets: 35%\r\n5 Targeted Summon Tickets: 55%",
+      "ja": "使用すると、以下の構成品を確率によって獲得します。\r\n\r\n[獲得確率]\r\nピックアップ召喚券x50：1%\r\n指定召喚券x20：4%\r\n指定召喚券x15：5%\r\n指定召喚券x10：35%\r\n指定召喚券x5：55%",
+      "zh_tw": "使用後將根據機率獲得下列內容物。\r\n\r\n［獲得機率］\r\nPick Up召喚券50個：1%\r\n指定召喚券20個：4%\r\n指定召喚券15個：5%\r\n指定召喚券10個：35%\r\n指定召喚券5個：55%",
+      "zh_cn": ""
+    },
+    {
+      "no": 224180,
+      "kr": "사용 시 아래 구성품을 확률에 따라 획득합니다.\r\n\r\n[획득 확률]\r\n픽업 소환권 50개: 1%\r\n유물 소환권 35개: 4%\r\n유물 소환권 25개: 5%\r\n유물 소환권 20개: 35%\r\n유물 소환권 15개: 55%",
+      "en": "Use it to obtain one of the following options:\r\n\r\n[Probabilities]\r\n50 Pick-Up Summon Tickets: 1%\r\n35 Artifact Summon Tickets: 4%\r\n25 Artifact Summon Tickets: 5%\r\n20 Artifact Summon Tickets: 35%\r\n15 Artifact Summon Tickets: 55%",
+      "ja": "使用すると、以下の構成品を確率によって獲得します。\r\n\r\n[獲得確率]\r\nピックアップ召喚券x50：1%\r\n遺物召喚券x35：4%\r\n遺物召喚券x25：5%\r\n遺物召喚券x20：35%\r\n遺物召喚券x15：55%",
+      "zh_tw": "使用後將根據機率獲得下列內容物。\r\n\r\n［獲得機率］\r\nPick Up召喚券50個：1%\r\n遺物召喚券35個：4%\r\n遺物召喚券25個：5%\r\n遺物召喚券20個：35%\r\n遺物召喚券15個：55%",
+      "zh_cn": ""
+    },
+    {
+      "no": 224181,
+      "kr": "사용 시 아래 구성품을 확률에 따라 획득합니다.\r\n\r\n[획득 확률]\r\n픽업 소환권 50개: 1%\r\n에리카의 연금술 티켓 15개: 4%\r\n에리카의 연금술 티켓 10개: 5%\r\n에리카의 연금술 티켓 5개: 35%\r\n에리카의 연금술 티켓 3개: 55%",
+      "en": "Use it to obtain one of the following options:\r\n\r\n[Probabilities]\r\n50 Pick-Up Summon Tickets: 1%\r\n15 Erika's Alchemy Tickets: 4%\r\n10 Erika's Alchemy Tickets: 5%\r\n5 Erika's Alchemy Tickets: 35%\r\n3 Erika's Alchemy Tickets: 55%",
+      "ja": "使用すると、以下の構成品を確率によって獲得します。\r\n\r\n[獲得確率]\r\nピックアップ召喚券x50：1%\r\nエリカの錬金術チケットx15：4%\r\nエリカの錬金術チケットx10：5%\r\nエリカの錬金術チケットx5：35%\r\nエリカの錬金術チケットx3：55%",
+      "zh_tw": "使用後將根據機率獲得下列內容物。\r\n\r\n［獲得機率］\r\nPick Up召喚券50個：1%\r\n艾麗卡的鍊金術票券15個：4%\r\n艾麗卡的鍊金術票券10個：5%\r\n艾麗卡的鍊金術票券5個：35%\r\n艾麗卡的鍊金術票券3個：55%",
       "zh_cn": ""
     },
     {
@@ -12530,9 +12658,9 @@
     },
     {
       "no": 225723,
-      "kr": "어린 정령의 소망이 깃든 프레임",
+      "kr": "인형으로 꾸며진 애정 가득한 프레임",
       "en": "A frame decorated with stuffed toys, overflowing with affection",
-      "ja": "",
+      "ja": "ぬいぐるみで飾られた、愛情たっぷりのフレーム",
       "zh_tw": "用玩偶裝飾，愛意滿滿的外框",
       "zh_cn": ""
     },
@@ -12969,6 +13097,38 @@
       "zh_cn": ""
     },
     {
+      "no": 226147,
+      "kr": "에덴 연합 작전: 칼라르 편에서 레전더리 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Legendary tier in [Operation Eden Alliance] Chalar.",
+      "ja": "エデン連合作戦：カラール編でレジェンダリーティアを達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：卡拉爾篇達成傳說段位可獲得的貼紙。",
+      "zh_cn": ""
+    },
+    {
+      "no": 226148,
+      "kr": "에덴 연합 작전: 칼라르 편에서 레전더리 티어 3위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching third place in Legendary tier in [Operation Eden Alliance] Chalar.",
+      "ja": "エデン連合作戦：カラール編でレジェンダリーティアの3位を達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：卡拉爾篇達成傳說段位第3名可獲得的貼紙。",
+      "zh_cn": ""
+    },
+    {
+      "no": 226149,
+      "kr": "에덴 연합 작전: 칼라르 편에서 레전더리 티어 2위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching second place in Legendary tier in [Operation Eden Alliance] Chalar.",
+      "ja": "エデン連合作戦：カラール編でレジェンダリーティアの2位を達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：卡拉爾篇達成傳說段位第2名可獲得的貼紙。.",
+      "zh_cn": ""
+    },
+    {
+      "no": 226150,
+      "kr": "에덴 연합 작전: 칼라르 편에서 레전더리 티어 1위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching first place in Legendary tier in [Operation Eden Alliance] Chalar.",
+      "ja": "エデン連合作戦：カラール編でレジェンダリーティアの1位を達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：卡拉爾篇達成傳說段位第1名可獲得的貼紙。",
+      "zh_cn": ""
+    },
+    {
       "no": 226151,
       "kr": "에덴 연합 작전: 가온 편에서 브론즈 티어 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon reaching Bronze tier in [Operation Eden Alliance] Gaon.",
@@ -13318,6 +13478,14 @@
       "en": "A sticker that can be obtained upon occupying the Lighthouse of the Stars.",
       "ja": "星の灯台占領完了時に獲得できるステッカー",
       "zh_tw": "佔領星之燈塔時可獲得的貼紙。",
+      "zh_cn": ""
+    },
+    {
+      "no": 226233,
+      "kr": "별의 바다 점령 시 획득 가능한 스티커",
+      "en": "A sticker that can be obtained upon occupying the Sea of Stars.",
+      "ja": "",
+      "zh_tw": "佔領星海時可獲得的貼紙。",
       "zh_cn": ""
     },
     {
@@ -13894,6 +14062,14 @@
       "en": "A sticker that can be obtained as a free reward for reaching Origin on Hanul Ascension Pass.\r\n\r\n\"Oops, sorry. I guess the sweet breeze lulled me to sleep.\"",
       "ja": "ハンウルの昇級パスのオリジン達成の無料報酬で獲得できるステッカー。\r\n\r\n「おっと、ごめん。風が気持ちよすぎてうっかり眠ってしまった」",
       "zh_tw": "達成韓羽升階通行證不朽可免費獲得的貼紙獎勵。\r\n\r\n「哎呀，抱歉，可能微風太舒服，我就睡著了。」",
+      "zh_cn": ""
+    },
+    {
+      "no": 226809,
+      "kr": "지호(미르) 승급 패스 오리진 달성 무료 보상으로 획득 가능한 스티커. \r\n\r\n\"꺄악! 시하 너무 좋아!\"",
+      "en": "A sticker that can be obtained as a free reward for reaching Origin on Jiho(Mir) Ascension Pass.\r\n\r\n\"Kyaa~ I really love Seeha~!\"",
+      "ja": "",
+      "zh_tw": "達成智河（米爾）升階通行證不朽可免費獲得的貼紙獎勵。\r\n\r\n「啊啊啊，西荷太喜欢了～」",
       "zh_cn": ""
     },
     {
@@ -15154,10 +15330,10 @@
     },
     {
       "no": 228133,
-      "kr": "이벤트 진행에 사용되는 주사위 아이템.\r\n이벤트 주사위에 사용하여 보상을 획득할 수 있습니다.\r\n\r\n(이벤트 종료 후 개당 300,000 골드로 환산되어 우편함으로 지급됩니다.)",
-      "en": "A dice used in the event.\r\nUse it to roll the dice and claim event rewards.\r\n\r\n(After the event ends, each will be converted to 300,000 Gold and sent to your mail.)",
+      "kr": "이벤트 진행에 사용되는 주사위 아이템.\r\n이벤트 주사위에 사용하여 보상을 획득할 수 있습니다.\r\n\r\n(이벤트 종료 후 개당 600,000 골드로 환산되어 우편함으로 지급됩니다.)",
+      "en": "A dice used in the event.\r\nUse it to roll the dice and claim event rewards.\r\n\r\n(After the event ends, each will be converted to 600,000 Gold and sent to your mail.)",
       "ja": "",
-      "zh_tw": "可用來進行活動的骰子道具。\r\n使用活動骰子可獲得獎勵。\r\n\r\n（活動結束後，每個會換算成300,000金幣並發送至信箱。）",
+      "zh_tw": "可用來進行活動的骰子道具。\r\n使用活動骰子可獲得獎勵。\r\n\r\n（活動結束後，每個會換算成600,000金幣並發送至信箱。）",
       "zh_cn": ""
     },
     {
@@ -20377,6 +20553,14 @@
       "zh_cn": ""
     },
     {
+      "no": 2110071,
+      "kr": "유물의 기억: 만파식적(미르)",
+      "en": "Artifact Memory: Manpashikjeok (Mir)",
+      "ja": "",
+      "zh_tw": "遺物的記憶：萬波息笛（米爾）",
+      "zh_cn": ""
+    },
+    {
       "no": 2110072,
       "kr": "유물의 기억: 청룡언월도(무쌍)",
       "en": "Artifact Memory: Green Dragon Crescent Blade (Peerless)",
@@ -24049,6 +24233,14 @@
       "zh_cn": ""
     },
     {
+      "no": 2144823,
+      "kr": "르네(백은)의 은빛 성",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 2147001,
       "kr": "메피스토펠레스 석상 ",
       "en": "Mephistopheles Statue ",
@@ -25270,6 +25462,14 @@
       "en": "Artifact of Rose (Prominence). The Memory of the Crown of the Sun.\r\nUsed to obtain or ascend Artifacts.",
       "ja": "ロゼ(紅炎)の遺物、太陽の王冠の記憶です。\r\n遺物獲得や昇級に使用されます。",
       "zh_tw": "蘿絲（紅焰）的遺物，太陽王冠的記憶。\r\n可獲得遺物或用來升階。",
+      "zh_cn": ""
+    },
+    {
+      "no": 2210071,
+      "kr": "지호(미르)의 유물, 만파식적(미르)의 기억입니다.\r\n유물을 획득하거나 승급에 사용됩니다.",
+      "en": "Artifact of Jiho (Mir). The Memory of the Manpashikjeok (Mir).\r\nUsed to obtain or ascend Artifacts.",
+      "ja": "",
+      "zh_tw": "智河（米爾）的遺物，萬波息笛（米爾）的記憶\r\n可獲得遺物或用來升階",
       "zh_cn": ""
     },
     {
@@ -28970,10 +29170,18 @@
     },
     {
       "no": 2244822,
-      "kr": "지호(미르)의 대영주 옥좌 설명",
-      "en": "Jiho (Mir)'s High Seat of the Great Lord description",
-      "ja": "ジホ(ミル)の大領主の玉座の説明",
-      "zh_tw": "智河（米爾）的大領主王座說明",
+      "kr": "가온의 대영주로 새롭게 등극한 지호가 공무를 보는 옥좌. \r\n지호의 취임을 기념하여 일류 장인이 제작했다. \r\n원래는 훨씬 더 호화롭게 만들려 했지만, 지호가 한사코 거부해 지금의 형태가 되었다는 소문이 있다.\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">특별한 아르바이트를 진행</color>할 수 있습니다.\r\n\r\n지호(미르)를 오브제에 배치하면 <color=\"#2d9b00\">지호(미르)의 공격력이 10% 증가</color>합니다. \r\n(다른 오브제에 중복 배치 불가)",
+      "en": "Jiho's official seat as the new Great Lord of Gaon.\r\nIt was crafted by a renowned artisan to honor the occasion.\r\nRumors say it was planned to be far more extravagant, but Jiho's firm refusal led to this modest design.\r\n\r\nPlace it in town to unlock a <color=\"#2d9b00\">special part-time job</color>.\r\n\r\nDeploying Jiho (Mir) to this structure will <color=\"#2d9b00\">increase Jiho (Mir)'s ATK by 10%</color>.\r\n(Each Soul can occupy only one structure.)",
+      "ja": "",
+      "zh_tw": "智河登上加溫大領主後的辦公王座。\r\n為慶祝智河就任，由一流匠人製作。\r\n據說本來打算打造得更奢華，但遭到智河強力拒絕，於是變成現在這個外觀。\r\n\r\n配置在領地可<color=\"#2d9b00\">進行特別的打工</color>。\r\n\r\n將智河（米爾）配置於物件可<color=\"#2d9b00\">增加智河（米爾）的攻擊力10%</color>。\r\n（不可重複配置在其他物件）",
+      "zh_cn": ""
+    },
+    {
+      "no": 2244823,
+      "kr": "르네(백은)의 은빛 성 설명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -30097,6 +30305,14 @@
       "zh_cn": ""
     },
     {
+      "no": 21511601,
+      "kr": "스티커: 소중한 지호(미르)",
+      "en": "Sticker: Precious Jiho (Mir)",
+      "ja": "",
+      "zh_tw": "貼紙：珍貴的智河（米爾）",
+      "zh_cn": ""
+    },
+    {
       "no": 21520101,
       "kr": "스티커: 소중한 홍란",
       "en": "Sticker: Precious Honglan",
@@ -30670,6 +30886,14 @@
       "en": "A sticker that can be obtained upon reaching Rose (Prominence) Bond Level 40.",
       "ja": "ロゼ(紅炎)の絆Lv40達成時に獲得できるステッカー",
       "zh_tw": "達成蘿絲（紅焰）好感等級40時可獲得的貼紙。",
+      "zh_cn": ""
+    },
+    {
+      "no": 22511601,
+      "kr": "지호(미르)의 인연 레벨 40 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Jiho (Mir) Bond Level 40.",
+      "ja": "",
+      "zh_tw": "達成智河（米爾）好感等級40時可獲得的貼紙。",
       "zh_cn": ""
     },
     {

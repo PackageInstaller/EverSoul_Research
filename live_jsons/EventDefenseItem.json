@@ -52,6 +52,13 @@
       "item_type": 4,
       "item_value": 1.5,
       "fx": "Fx_EventDefense_Item_bomb_01"
+    },
+    {
+      "no": 8,
+      "item_prefab": "PF_EventDefense_Item_bomb_01",
+      "item_type": 4,
+      "item_value": 1.5,
+      "fx": "Fx_EventDefense_Item_bomb_01"
     }
   ]
 }

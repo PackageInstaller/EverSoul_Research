@@ -19738,6 +19738,332 @@
     },
     {
       "no": 1927,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 3,
+      "love_level": 1,
+      "group_no": 7606001,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1928,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 3,
+      "love_level": 2,
+      "condition_value": 135,
+      "group_no": 7606002,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1929,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 3,
+      "love_level": 3,
+      "condition_value": 335,
+      "group_no": 7606003,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1930,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 3,
+      "love_level": 4,
+      "condition_value": 645,
+      "group_no": 7606004,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1931,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 3,
+      "love_level": 5,
+      "condition_value": 1075,
+      "group_no": 7606005,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1932,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 3,
+      "love_level": 6,
+      "condition_value": 1630,
+      "group_no": 7606006,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1933,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 3,
+      "love_level": 7,
+      "condition_value": 2200,
+      "group_no": 7606007,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1934,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 3,
+      "love_level": 7,
+      "condition_value": 2440,
+      "group_no": 7606008,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1935,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 3,
+      "love_level": 8,
+      "condition_value": 3000,
+      "group_no": 7606009,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1936,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 3,
+      "love_level": 8,
+      "condition_value": 3300,
+      "group_no": 7606010,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1937,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 2,
+      "love_level": 1,
+      "group_no": 7606011,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1938,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 2,
+      "love_level": 3,
+      "condition_value": 210,
+      "group_no": 7606012,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1939,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 2,
+      "love_level": 4,
+      "condition_value": 460,
+      "group_no": 7606013,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1940,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 2,
+      "love_level": 5,
+      "condition_value": 830,
+      "group_no": 7606014,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1941,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 2,
+      "love_level": 6,
+      "condition_value": 1320,
+      "group_no": 7606015,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1942,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 2,
+      "love_level": 7,
+      "condition_value": 1940,
+      "group_no": 7606016,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1943,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 2,
+      "love_level": 8,
+      "condition_value": 2700,
+      "group_no": 7606017,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1944,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 2,
+      "love_level": 9,
+      "condition_value": 3600,
+      "group_no": 7606018,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1945,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 2,
+      "love_level": 9,
+      "condition_value": 3600,
+      "group_no": 7606019,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_128",
+      "hide": 1
+    },
+    {
+      "no": 1946,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 2,
+      "love_level": 9,
+      "condition_value": 3600,
+      "group_no": 7606020,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_Costume01_128",
+      "hide": 1
+    },
+    {
+      "no": 1947,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 4,
+      "love_level": 9,
+      "condition_value": 3600,
+      "base_group_no": 86060002,
+      "group_no": 86060002,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_Costume01_128",
+      "hide": 1
+    },
+    {
+      "no": 1948,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 4,
+      "love_level": 9,
+      "condition_value": 3600,
+      "base_group_no": 86060011,
+      "group_no": 86060011,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_Costume01_128",
+      "hide": 1
+    },
+    {
+      "no": 1949,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 4,
+      "love_level": 9,
+      "condition_value": 3600,
+      "base_group_no": 86060012,
+      "group_no": 86060012,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_Costume01_128",
+      "hide": 1
+    },
+    {
+      "no": 1950,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 4,
+      "love_level": 9,
+      "condition_value": 3600,
+      "base_group_no": 86060002,
+      "group_no": 86060102,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_Costume01_128",
+      "hide": 1
+    },
+    {
+      "no": 1951,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 4,
+      "love_level": 9,
+      "condition_value": 3600,
+      "base_group_no": 86060004,
+      "group_no": 86060004,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_Costume01_128",
+      "hide": 1
+    },
+    {
+      "no": 1952,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 4,
+      "love_level": 9,
+      "condition_value": 3600,
+      "base_group_no": 86060012,
+      "group_no": 86060112,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_Costume01_128",
+      "hide": 1
+    },
+    {
+      "no": 1953,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 4,
+      "love_level": 9,
+      "condition_value": 3600,
+      "base_group_no": 86060002,
+      "group_no": 86060202,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_Costume01_128",
+      "hide": 1
+    },
+    {
+      "no": 1954,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 4,
+      "love_level": 9,
+      "condition_value": 3600,
+      "base_group_no": 86060004,
+      "group_no": 86060004,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_Costume01_128",
+      "hide": 1
+    },
+    {
+      "no": 1955,
+      "hero_no": 6060,
+      "speaker_no": 6060,
+      "condition_type": 4,
+      "love_level": 9,
+      "condition_value": 3600,
+      "base_group_no": 86060012,
+      "group_no": 86060212,
+      "portrait128_path": "UI/Textures/Souls/Nia/Nia_Costume01_128",
+      "hide": 1
+    },
+    {
+      "no": 1956,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -19746,7 +20072,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1928,
+      "no": 1957,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -19756,7 +20082,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1929,
+      "no": 1958,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -19766,7 +20092,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1930,
+      "no": 1959,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -19776,7 +20102,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1931,
+      "no": 1960,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -19786,7 +20112,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1932,
+      "no": 1961,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -19796,7 +20122,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1933,
+      "no": 1962,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -19806,7 +20132,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1934,
+      "no": 1963,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -19816,7 +20142,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1935,
+      "no": 1964,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -19826,7 +20152,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1936,
+      "no": 1965,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -19836,7 +20162,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1937,
+      "no": 1966,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 6,
@@ -19845,7 +20171,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1938,
+      "no": 1967,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 6,
@@ -19855,7 +20181,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1939,
+      "no": 1968,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 6,
@@ -19865,7 +20191,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1940,
+      "no": 1969,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 6,
@@ -19875,7 +20201,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1941,
+      "no": 1970,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -19884,7 +20210,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1942,
+      "no": 1971,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -19894,7 +20220,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1943,
+      "no": 1972,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -19904,7 +20230,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1944,
+      "no": 1973,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -19914,7 +20240,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1945,
+      "no": 1974,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -19924,7 +20250,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1946,
+      "no": 1975,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -19934,7 +20260,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1947,
+      "no": 1976,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -19944,7 +20270,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1948,
+      "no": 1977,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -19954,7 +20280,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1949,
+      "no": 1978,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -19964,7 +20290,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1950,
+      "no": 1979,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -19974,7 +20300,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1951,
+      "no": 1980,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 6,
@@ -19983,7 +20309,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1952,
+      "no": 1981,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 6,
@@ -19993,7 +20319,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1953,
+      "no": 1982,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 6,
@@ -20003,7 +20329,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1954,
+      "no": 1983,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 6,
@@ -20013,7 +20339,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1955,
+      "no": 1984,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20022,7 +20348,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1956,
+      "no": 1985,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20032,7 +20358,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1957,
+      "no": 1986,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20042,7 +20368,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1958,
+      "no": 1987,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20052,7 +20378,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1959,
+      "no": 1988,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20062,7 +20388,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1960,
+      "no": 1989,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20072,7 +20398,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1961,
+      "no": 1990,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20082,7 +20408,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1962,
+      "no": 1991,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20092,7 +20418,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1963,
+      "no": 1992,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20102,7 +20428,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1964,
+      "no": 1993,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20112,7 +20438,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1965,
+      "no": 1994,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 6,
@@ -20121,7 +20447,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1966,
+      "no": 1995,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 6,
@@ -20131,7 +20457,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1967,
+      "no": 1996,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 6,
@@ -20141,7 +20467,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1968,
+      "no": 1997,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 6,
@@ -20151,7 +20477,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1969,
+      "no": 1998,
       "hero_no": 6980,
       "speaker_no": 6980,
       "condition_type": 5,
@@ -20160,7 +20486,7 @@
       "portrait128_path": "UI/Textures/Souls/Tokisaki/Tokisaki_128"
     },
     {
-      "no": 1970,
+      "no": 1999,
       "hero_no": 6990,
       "speaker_no": 6990,
       "condition_type": 5,

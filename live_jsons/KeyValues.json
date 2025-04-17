@@ -2001,6 +2001,11 @@
       "type": 1
     },
     {
+      "key_name": "TOWER_EXTEND_RANK_DISPLAY_MAX",
+      "values_data": "100",
+      "type": 1
+    },
+    {
       "key_name": "TOWER_TICKET_DAILY_CHARGE",
       "values_data": "5",
       "type": 1

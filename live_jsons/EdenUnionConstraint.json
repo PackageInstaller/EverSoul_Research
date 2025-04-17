@@ -1880,9 +1880,72 @@
       "value1": 9026
     },
     {
+      "no": 700001,
+      "constraint_group": 700,
+      "add_level": 5,
+      "constraint_type": 9,
+      "title_string_no": 40381,
+      "content_string_no": 40382,
+      "icon_path": "icon_eas_fury",
+      "value1": 110017
+    },
+    {
+      "no": 700002,
+      "constraint_group": 700,
+      "add_level": 10,
+      "constraint_type": 9,
+      "title_string_no": 40383,
+      "content_string_no": 40384,
+      "icon_path": "icon_eas_fury",
+      "value1": 110019
+    },
+    {
+      "no": 700003,
+      "constraint_group": 700,
+      "add_level": 15,
+      "constraint_type": 9,
+      "title_string_no": 40385,
+      "content_string_no": 40386,
+      "icon_path": "icon_eas_fury",
+      "value1": 110025
+    },
+    {
       "no": 700101,
       "constraint_group": 701,
+      "add_level": 5,
+      "constraint_type": 4,
+      "title_string_no": 40041,
+      "content_string_no": 40042,
+      "icon_path": "icon_eas_signature",
+      "value1": 2,
+      "value2": 15
+    },
+    {
+      "no": 700102,
+      "constraint_group": 701,
       "add_level": 10,
+      "constraint_type": 4,
+      "title_string_no": 40043,
+      "content_string_no": 40044,
+      "icon_path": "icon_eas_signature",
+      "value1": 4,
+      "value2": 25
+    },
+    {
+      "no": 700103,
+      "constraint_group": 701,
+      "add_level": 15,
+      "constraint_type": 4,
+      "title_string_no": 40045,
+      "content_string_no": 40046,
+      "icon_path": "icon_eas_signature",
+      "value1": 7,
+      "value2": 40
+    },
+    {
+      "no": 700201,
+      "constraint_group": 702,
+      "add_level": 5,
       "constraint_type": 1,
       "title_string_no": 40311,
       "content_string_no": 40312,
@@ -1890,8 +1953,8 @@
       "value1": 5101
     },
     {
-      "no": 700102,
-      "constraint_group": 701,
+      "no": 700202,
+      "constraint_group": 702,
       "add_level": 15,
       "constraint_type": 1,
       "title_string_no": 40313,
@@ -1900,8 +1963,8 @@
       "value1": 5102
     },
     {
-      "no": 700103,
-      "constraint_group": 701,
+      "no": 700203,
+      "constraint_group": 702,
       "add_level": 20,
       "constraint_type": 1,
       "title_string_no": 40315,
@@ -1910,8 +1973,8 @@
       "value1": 5103
     },
     {
-      "no": 700104,
-      "constraint_group": 701,
+      "no": 700204,
+      "constraint_group": 702,
       "add_level": 25,
       "constraint_type": 1,
       "title_string_no": 40317,
@@ -1920,8 +1983,8 @@
       "value1": 5104
     },
     {
-      "no": 700105,
-      "constraint_group": 701,
+      "no": 700205,
+      "constraint_group": 702,
       "add_level": 30,
       "constraint_type": 1,
       "title_string_no": 40319,
@@ -1930,8 +1993,8 @@
       "value1": 5105
     },
     {
-      "no": 700201,
-      "constraint_group": 702,
+      "no": 700301,
+      "constraint_group": 703,
       "add_level": 10,
       "constraint_type": 1,
       "title_string_no": 40321,
@@ -1940,8 +2003,8 @@
       "value1": 5111
     },
     {
-      "no": 700202,
-      "constraint_group": 702,
+      "no": 700302,
+      "constraint_group": 703,
       "add_level": 15,
       "constraint_type": 1,
       "title_string_no": 40323,
@@ -1950,8 +2013,8 @@
       "value1": 5112
     },
     {
-      "no": 700203,
-      "constraint_group": 702,
+      "no": 700303,
+      "constraint_group": 703,
       "add_level": 20,
       "constraint_type": 1,
       "title_string_no": 40325,
@@ -1960,8 +2023,8 @@
       "value1": 5113
     },
     {
-      "no": 700204,
-      "constraint_group": 702,
+      "no": 700304,
+      "constraint_group": 703,
       "add_level": 25,
       "constraint_type": 1,
       "title_string_no": 40327,
@@ -1970,8 +2033,8 @@
       "value1": 5114
     },
     {
-      "no": 700205,
-      "constraint_group": 702,
+      "no": 700305,
+      "constraint_group": 703,
       "add_level": 30,
       "constraint_type": 1,
       "title_string_no": 40329,
@@ -1980,8 +2043,8 @@
       "value1": 5115
     },
     {
-      "no": 700301,
-      "constraint_group": 703,
+      "no": 700401,
+      "constraint_group": 704,
       "add_level": 10,
       "constraint_type": 1,
       "title_string_no": 40331,
@@ -1990,8 +2053,8 @@
       "value1": 5121
     },
     {
-      "no": 700302,
-      "constraint_group": 703,
+      "no": 700402,
+      "constraint_group": 704,
       "add_level": 15,
       "constraint_type": 1,
       "title_string_no": 40333,
@@ -2000,8 +2063,8 @@
       "value1": 5122
     },
     {
-      "no": 700303,
-      "constraint_group": 703,
+      "no": 700403,
+      "constraint_group": 704,
       "add_level": 20,
       "constraint_type": 1,
       "title_string_no": 40335,
@@ -2010,8 +2073,8 @@
       "value1": 5123
     },
     {
-      "no": 700304,
-      "constraint_group": 703,
+      "no": 700404,
+      "constraint_group": 704,
       "add_level": 25,
       "constraint_type": 1,
       "title_string_no": 40337,
@@ -2020,8 +2083,8 @@
       "value1": 5124
     },
     {
-      "no": 700305,
-      "constraint_group": 703,
+      "no": 700405,
+      "constraint_group": 704,
       "add_level": 30,
       "constraint_type": 1,
       "title_string_no": 40339,
@@ -2030,9 +2093,9 @@
       "value1": 5125
     },
     {
-      "no": 700401,
-      "constraint_group": 704,
-      "add_level": 10,
+      "no": 700501,
+      "constraint_group": 705,
+      "add_level": 5,
       "constraint_type": 1,
       "title_string_no": 40341,
       "content_string_no": 40342,
@@ -2040,9 +2103,9 @@
       "value1": 5131
     },
     {
-      "no": 700402,
-      "constraint_group": 704,
-      "add_level": 15,
+      "no": 700502,
+      "constraint_group": 705,
+      "add_level": 10,
       "constraint_type": 1,
       "title_string_no": 40343,
       "content_string_no": 40344,
@@ -2050,9 +2113,9 @@
       "value1": 5132
     },
     {
-      "no": 700403,
-      "constraint_group": 704,
-      "add_level": 20,
+      "no": 700503,
+      "constraint_group": 705,
+      "add_level": 15,
       "constraint_type": 1,
       "title_string_no": 40345,
       "content_string_no": 40346,
@@ -2060,9 +2123,9 @@
       "value1": 5133
     },
     {
-      "no": 700404,
-      "constraint_group": 704,
-      "add_level": 25,
+      "no": 700504,
+      "constraint_group": 705,
+      "add_level": 20,
       "constraint_type": 1,
       "title_string_no": 40347,
       "content_string_no": 40348,
@@ -2070,64 +2133,14 @@
       "value1": 5134
     },
     {
-      "no": 700405,
-      "constraint_group": 704,
-      "add_level": 30,
+      "no": 700505,
+      "constraint_group": 705,
+      "add_level": 25,
       "constraint_type": 1,
       "title_string_no": 40349,
       "content_string_no": 40350,
       "icon_path": "icon_eas_attack_up",
       "value1": 5135
-    },
-    {
-      "no": 700501,
-      "constraint_group": 705,
-      "add_level": 5,
-      "constraint_type": 1,
-      "title_string_no": 40361,
-      "content_string_no": 40362,
-      "icon_path": "icon_eas_defence_up",
-      "value1": 5141
-    },
-    {
-      "no": 700502,
-      "constraint_group": 705,
-      "add_level": 10,
-      "constraint_type": 1,
-      "title_string_no": 40363,
-      "content_string_no": 40364,
-      "icon_path": "icon_eas_defence_up",
-      "value1": 5142
-    },
-    {
-      "no": 700503,
-      "constraint_group": 705,
-      "add_level": 15,
-      "constraint_type": 1,
-      "title_string_no": 40365,
-      "content_string_no": 40366,
-      "icon_path": "icon_eas_defence_up",
-      "value1": 5143
-    },
-    {
-      "no": 700504,
-      "constraint_group": 705,
-      "add_level": 20,
-      "constraint_type": 1,
-      "title_string_no": 40367,
-      "content_string_no": 40368,
-      "icon_path": "icon_eas_defence_up",
-      "value1": 5144
-    },
-    {
-      "no": 700505,
-      "constraint_group": 705,
-      "add_level": 25,
-      "constraint_type": 1,
-      "title_string_no": 40369,
-      "content_string_no": 40370,
-      "icon_path": "icon_eas_defence_up",
-      "value1": 5145
     },
     {
       "no": 700601,
@@ -2392,8 +2405,40 @@
       "value3": 5251
     },
     {
+      "no": 710001,
+      "constraint_group": 1700,
+      "constraint_type": 1,
+      "title_string_no": 34500166,
+      "content_string_no": 35500166,
+      "icon_path": "icon_eas_daphne",
+      "value1": 5180,
+      "force_use": 1
+    },
+    {
       "no": 710101,
       "constraint_group": 1701,
+      "constraint_type": 9,
+      "title_string_no": 40385,
+      "content_string_no": 40386,
+      "icon_path": "icon_eas_fury",
+      "value1": 110025,
+      "force_use": 1
+    },
+    {
+      "no": 710201,
+      "constraint_group": 1702,
+      "add_level": 15,
+      "constraint_type": 4,
+      "title_string_no": 40045,
+      "content_string_no": 40046,
+      "icon_path": "icon_eas_signature",
+      "value1": 7,
+      "value2": 40,
+      "force_use": 1
+    },
+    {
+      "no": 710301,
+      "constraint_group": 1703,
       "add_level": 30,
       "constraint_type": 1,
       "title_string_no": 40319,
@@ -2403,8 +2448,8 @@
       "force_use": 1
     },
     {
-      "no": 710201,
-      "constraint_group": 1702,
+      "no": 710401,
+      "constraint_group": 1704,
       "add_level": 30,
       "constraint_type": 1,
       "title_string_no": 40329,
@@ -2414,8 +2459,8 @@
       "force_use": 1
     },
     {
-      "no": 710301,
-      "constraint_group": 1703,
+      "no": 710501,
+      "constraint_group": 1705,
       "add_level": 30,
       "constraint_type": 1,
       "title_string_no": 40339,
@@ -2425,8 +2470,8 @@
       "force_use": 1
     },
     {
-      "no": 710401,
-      "constraint_group": 1704,
+      "no": 710601,
+      "constraint_group": 1706,
       "add_level": 30,
       "constraint_type": 1,
       "title_string_no": 40349,
@@ -2436,19 +2481,8 @@
       "force_use": 1
     },
     {
-      "no": 710501,
-      "constraint_group": 1705,
-      "add_level": 25,
-      "constraint_type": 1,
-      "title_string_no": 40369,
-      "content_string_no": 40370,
-      "icon_path": "icon_eas_defence_up",
-      "value1": 5145,
-      "force_use": 1
-    },
-    {
-      "no": 710601,
-      "constraint_group": 1706,
+      "no": 710701,
+      "constraint_group": 1707,
       "add_level": 25,
       "constraint_type": 1,
       "title_string_no": 40359,
@@ -2458,8 +2492,8 @@
       "force_use": 1
     },
     {
-      "no": 710701,
-      "constraint_group": 1707,
+      "no": 710801,
+      "constraint_group": 1708,
       "add_level": 30,
       "constraint_type": 1,
       "title_string_no": 40379,
@@ -2469,8 +2503,8 @@
       "force_use": 1
     },
     {
-      "no": 710801,
-      "constraint_group": 1708,
+      "no": 710901,
+      "constraint_group": 1709,
       "add_level": 60,
       "constraint_type": 1,
       "title_string_no": 5160015,
@@ -2482,8 +2516,8 @@
       "force_use": 1
     },
     {
-      "no": 710901,
-      "constraint_group": 1709,
+      "no": 711001,
+      "constraint_group": 1710,
       "add_level": 60,
       "constraint_type": 1,
       "title_string_no": 5160025,
@@ -2495,8 +2529,8 @@
       "force_use": 1
     },
     {
-      "no": 711001,
-      "constraint_group": 1710,
+      "no": 711101,
+      "constraint_group": 1711,
       "add_level": 60,
       "constraint_type": 1,
       "title_string_no": 5160035,
@@ -2508,8 +2542,8 @@
       "force_use": 1
     },
     {
-      "no": 711101,
-      "constraint_group": 1711,
+      "no": 711201,
+      "constraint_group": 1712,
       "add_level": 60,
       "constraint_type": 1,
       "title_string_no": 5160045,
@@ -2519,8 +2553,8 @@
       "force_use": 1
     },
     {
-      "no": 711201,
-      "constraint_group": 1712,
+      "no": 711301,
+      "constraint_group": 1713,
       "add_level": 60,
       "constraint_type": 1,
       "title_string_no": 5160055,
@@ -2532,40 +2566,40 @@
       "force_use": 1
     },
     {
-      "no": 711301,
-      "constraint_group": 711301,
+      "no": 711401,
+      "constraint_group": 711401,
       "constraint_type": 1,
-      "title_string_no": 349003,
-      "content_string_no": 359003,
-      "icon_path": "icon_eas_attack_up_2",
-      "value1": 9003
+      "title_string_no": 349066,
+      "content_string_no": 359066,
+      "icon_path": "icon_eas_race_1",
+      "value1": 9066
     },
     {
-      "no": 711302,
-      "constraint_group": 711302,
+      "no": 711402,
+      "constraint_group": 711402,
       "constraint_type": 1,
-      "title_string_no": 349064,
-      "content_string_no": 359064,
+      "title_string_no": 349067,
+      "content_string_no": 359067,
+      "icon_path": "Icon_eas_Sub_Debuff",
+      "value1": 9067
+    },
+    {
+      "no": 711403,
+      "constraint_group": 711403,
+      "constraint_type": 1,
+      "title_string_no": 349068,
+      "content_string_no": 359068,
+      "icon_path": "icon_eas_attack_up",
+      "value1": 9068
+    },
+    {
+      "no": 711404,
+      "constraint_group": 711404,
+      "constraint_type": 1,
+      "title_string_no": 349069,
+      "content_string_no": 359069,
       "icon_path": "Icon_eas_Sub_Nuke",
-      "value1": 9064
-    },
-    {
-      "no": 711303,
-      "constraint_group": 711303,
-      "constraint_type": 1,
-      "title_string_no": 349065,
-      "content_string_no": 359065,
-      "icon_path": "Icon_eas_Sub_AOE",
-      "value1": 9065
-    },
-    {
-      "no": 711304,
-      "constraint_group": 711304,
-      "constraint_type": 1,
-      "title_string_no": 349026,
-      "content_string_no": 359026,
-      "icon_path": "icon_eas_mana_up",
-      "value1": 9026
+      "value1": 9069
     }
   ]
 }
