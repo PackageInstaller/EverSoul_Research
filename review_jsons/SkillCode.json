@@ -21483,6 +21483,8 @@
       "target_key": 1330,
       "value": 1.0,
       "condition_type": 1,
+      "condition_id1": 116013,
+      "condition_id2": 116118,
       "fx_path": "none"
     },
     {
@@ -21573,6 +21575,8 @@
       "target_key": 1330,
       "value": 2.0,
       "condition_type": 1,
+      "condition_id1": 116013,
+      "condition_id2": 116119,
       "fx_path": "none"
     },
     {
@@ -21689,6 +21693,28 @@
       "fx_path": "none"
     },
     {
+      "no": 116418,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 116418.0,
+      "condition_type": 1,
+      "condition_id1": 1164181,
+      "condition_id2": 1164182,
+      "condition_id3": 1164183,
+      "fx_path": "none"
+    },
+    {
+      "no": 116419,
+      "function_key": 28,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 116418.0,
+      "duration": 999.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
       "no": 116511,
       "function_key": 1,
       "target_key": 1309,
@@ -21743,6 +21769,24 @@
     },
     {
       "no": 116517,
+      "function_key": 30,
+      "target_key": 1309,
+      "value": 116517.0,
+      "condition_type": 1,
+      "condition_id1": 116313,
+      "fx_path": "none"
+    },
+    {
+      "no": 116518,
+      "function_key": 30,
+      "target_key": 1309,
+      "value": 116516.0,
+      "condition_type": 1,
+      "condition_id1": 116213,
+      "fx_path": "none"
+    },
+    {
+      "no": 116519,
       "function_key": 30,
       "target_key": 1309,
       "value": 116517.0,
@@ -21871,7 +21915,7 @@
     },
     {
       "no": 116614,
-      "function_key": 26,
+      "function_key": 27,
       "is_ally": 1,
       "target_key": 1100,
       "value": 1.0,
@@ -94430,6 +94474,159 @@
       "penetration": 1
     },
     {
+      "no": 703811,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703811.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 703812,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703812.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 703813,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703813.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 703821,
+      "function_key": 28,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703823.0,
+      "duration": 999.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 703822,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703822.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 703823,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703823.0,
+      "condition_type": 1,
+      "condition_id1": 703823,
+      "fx_path": "none"
+    },
+    {
+      "no": 703831,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703831.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 703832,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703832.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 703833,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703833.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 703841,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703841.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 703842,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1208,
+      "value": 703842.0,
+      "condition_type": 1,
+      "condition_id1": 703841,
+      "condition_id2": 703842,
+      "condition_id3": 703843,
+      "fx_path": "none"
+    },
+    {
+      "no": 703843,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1208,
+      "value": 703843.0,
+      "condition_type": 1,
+      "condition_id1": 703844,
+      "condition_id2": 703845,
+      "condition_id3": 703846,
+      "fx_path": "none"
+    },
+    {
+      "no": 703851,
+      "function_key": 28,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703852.0,
+      "duration": 999.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 703852,
+      "function_key": 30,
+      "target_key": 1208,
+      "value": 703852.0,
+      "condition_type": 1,
+      "condition_id1": 703851,
+      "fx_path": "none"
+    },
+    {
+      "no": 703861,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703861.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 703862,
+      "function_key": 38,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703862.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
       "no": 703911,
       "function_key": 30,
       "is_ally": 1,
@@ -99103,12 +99300,22 @@
       "fx_path": "none"
     },
     {
+      "no": 906806,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 906806.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
       "no": 906900,
       "function_key": 30,
       "is_ally": 1,
       "target_key": 1100,
       "value": 906900.0,
       "condition_type": 1,
+      "condition_id1": 452081,
       "fx_path": "none"
     },
     {
@@ -130789,7 +130996,7 @@
     {
       "no": 3211810,
       "function_key": 1,
-      "target_key": 1350,
+      "target_key": 1354,
       "value": 5.0,
       "condition_type": 1,
       "fx_path": "none"
@@ -130797,7 +131004,7 @@
     {
       "no": 3211811,
       "function_key": 30,
-      "target_key": 1350,
+      "target_key": 1354,
       "value": 3211811.0,
       "condition_type": 1,
       "fx_path": "none"
@@ -146917,6 +147124,51 @@
       "penetration": 1
     },
     {
+      "no": 6610821,
+      "function_key": 1,
+      "target_key": 2100,
+      "value": 2.0,
+      "condition_type": 1,
+      "move_effect_key": 5,
+      "fx_path": "none"
+    },
+    {
+      "no": 6610822,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 6610822.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "delay": 0.6
+    },
+    {
+      "no": 6610831,
+      "function_key": 39,
+      "target_key": 1208,
+      "condition_type": 1,
+      "fx_path": "none",
+      "delay": 0.5
+    },
+    {
+      "no": 6610832,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 100000.0,
+      "condition_type": 1,
+      "fx_path": "Fx_Common_BigWave_00"
+    },
+    {
+      "no": 6610833,
+      "function_key": 39,
+      "is_ally": 1,
+      "target_key": 1100,
+      "condition_type": 1,
+      "fx_path": "none",
+      "delay": 0.5
+    },
+    {
       "no": 6611588,
       "function_key": 30,
       "is_ally": 1,
@@ -147001,6 +147253,188 @@
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
+    },
+    {
+      "no": 6620841,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 100000.0,
+      "condition_type": 1,
+      "fx_path": "Fx_LizelotteRaid_Attack_Lightning_00"
+    },
+    {
+      "no": 6620842,
+      "function_key": 37,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 305014.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 6620843,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 6620843.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 6620844,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 6620844.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 6620845,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 6620845.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 6620846,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 100000.0,
+      "condition_type": 1,
+      "fx_path": "Fx_LizelotteRaid_Attack_Lightning_00",
+      "delay": 0.1
+    },
+    {
+      "no": 6620847,
+      "function_key": 23,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 6620844.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 6620848,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 6620848.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 6620849,
+      "function_key": 23,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703400.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "delay": 0.2
+    },
+    {
+      "no": 6620850,
+      "function_key": 23,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703401.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "delay": 0.2
+    },
+    {
+      "no": 6620851,
+      "function_key": 30,
+      "target_key": 1208,
+      "value": 6620851.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 6620852,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 6620852.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 6620853,
+      "function_key": 23,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 703401.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 6620854,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 6620854.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 6620855,
+      "function_key": 37,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 664091.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 6620856,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 100000.0,
+      "condition_type": 1,
+      "fx_path": "Fx_NPCDarkknightRaid_BodyDel_00"
+    },
+    {
+      "no": 6620857,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 6620857.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 6620858,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 6620858.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 6620859,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 6620859.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 6620860,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 6620860.0,
+      "condition_type": 1,
+      "fx_path": "none"
     },
     {
       "no": 6621598,
@@ -147153,8 +147587,7 @@
       "target_key": 1100,
       "value": 8000101.0,
       "condition_type": 1,
-      "fx_path": "none",
-      "penetration": 1
+      "fx_path": "none"
     },
     {
       "no": 8000102,
@@ -147163,8 +147596,7 @@
       "target_key": 1100,
       "value": 8000102.0,
       "condition_type": 1,
-      "fx_path": "none",
-      "penetration": 1
+      "fx_path": "none"
     },
     {
       "no": 8000103,
@@ -147173,78 +147605,268 @@
       "target_key": 1100,
       "value": 8000103.0,
       "condition_type": 1,
-      "fx_path": "none",
-      "penetration": 1
+      "fx_path": "none"
     },
     {
-      "no": 8000104,
+      "no": 8000111,
       "function_key": 30,
       "is_ally": 1,
       "target_key": 1100,
-      "value": 8000104.0,
+      "value": 8000111.0,
       "condition_type": 1,
-      "fx_path": "none",
-      "penetration": 1
+      "fx_path": "none"
     },
     {
-      "no": 8000105,
+      "no": 8000112,
       "function_key": 30,
       "is_ally": 1,
       "target_key": 1100,
-      "value": 8000105.0,
+      "value": 8000112.0,
       "condition_type": 1,
-      "fx_path": "none",
-      "penetration": 1
+      "fx_path": "none"
     },
     {
-      "no": 8000106,
+      "no": 8000113,
       "function_key": 30,
       "is_ally": 1,
       "target_key": 1100,
-      "value": 8000106.0,
+      "value": 8000113.0,
       "condition_type": 1,
-      "fx_path": "none",
-      "penetration": 1
+      "fx_path": "none"
     },
     {
-      "no": 8000107,
+      "no": 8000121,
       "function_key": 30,
       "is_ally": 1,
       "target_key": 1100,
-      "value": 8000107.0,
+      "value": 8000121.0,
       "condition_type": 1,
-      "fx_path": "none",
-      "penetration": 1
+      "fx_path": "none"
     },
     {
-      "no": 8000108,
+      "no": 8000122,
       "function_key": 30,
       "is_ally": 1,
       "target_key": 1100,
-      "value": 8000108.0,
+      "value": 8000122.0,
       "condition_type": 1,
-      "fx_path": "none",
-      "penetration": 1
+      "fx_path": "none"
     },
     {
-      "no": 8000109,
+      "no": 8000123,
       "function_key": 30,
       "is_ally": 1,
       "target_key": 1100,
-      "value": 8000109.0,
+      "value": 8000123.0,
       "condition_type": 1,
-      "fx_path": "none",
-      "penetration": 1
+      "fx_path": "none"
     },
     {
-      "no": 8000110,
+      "no": 8000131,
       "function_key": 30,
       "is_ally": 1,
       "target_key": 1100,
-      "value": 8000110.0,
+      "value": 8000131.0,
       "condition_type": 1,
-      "fx_path": "none",
-      "penetration": 1
+      "fx_path": "none"
+    },
+    {
+      "no": 8000132,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000132.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000133,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000133.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000141,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000141.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000142,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000142.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000143,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000143.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000151,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000151.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000152,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000152.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000153,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000153.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000161,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000161.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000162,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000162.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000163,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000163.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000171,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000171.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000172,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000172.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000173,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000173.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000181,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000181.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000182,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000182.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000183,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000183.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000191,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000191.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000192,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000192.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000193,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000193.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000198,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000198.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 8000199,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 8000199.0,
+      "condition_type": 1,
+      "fx_path": "none"
     },
     {
       "no": 9000101,

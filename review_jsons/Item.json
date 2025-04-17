@@ -21132,7 +21132,10 @@
       "stat_limit_sno": 110041,
       "icon_path": "YuriaQueen_Icon_Costume_02",
       "atlas_type": 5,
-      "item_sort_no": 20004
+      "item_sort_no": 20004,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 500
     },
     {
       "no": 2317,
@@ -39723,7 +39726,10 @@
       "slot_limit_sno": 553003,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/Town/PE_TOWN_B_24Everschool_SchoolStage",
-      "item_sort_no": 50000
+      "item_sort_no": 50000,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 250
     },
     {
       "no": 44202,
@@ -39756,7 +39762,10 @@
       "slot_limit_sno": 553005,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/Town/PE_TOWN_B_24Everschool_CouncilRoom",
-      "item_sort_no": 50000
+      "item_sort_no": 50000,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 2500
     },
     {
       "no": 44205,
@@ -39789,7 +39798,10 @@
       "slot_limit_sno": 553001,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/Town/PE_TOWN_B_24Everschool_ClockTower",
-      "item_sort_no": 50000
+      "item_sort_no": 50000,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 500
     },
     {
       "no": 44208,

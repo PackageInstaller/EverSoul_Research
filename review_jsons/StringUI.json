@@ -7947,129 +7947,129 @@
     {
       "no": 9121,
       "kr": "완주 2배",
-      "en": "",
+      "en": "Finish x2",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "完賽2倍",
       "zh_cn": ""
     },
     {
       "no": 9122,
       "kr": "행운",
-      "en": "",
+      "en": "Luck",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "幸運",
       "zh_cn": ""
     },
     {
       "no": 9123,
       "kr": "전진",
-      "en": "",
+      "en": "Advance",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "前進",
       "zh_cn": ""
     },
     {
       "no": 9124,
       "kr": "황금 주사위",
-      "en": "",
+      "en": "Golden Dice",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "黃金骰子",
       "zh_cn": ""
     },
     {
       "no": 9125,
       "kr": "즉시 완주",
-      "en": "",
+      "en": "Complete Now",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "立即完賽",
       "zh_cn": ""
     },
     {
       "no": 9126,
       "kr": "재배치",
-      "en": "",
+      "en": "Reshuffle",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "重新配置",
       "zh_cn": ""
     },
     {
       "no": 9127,
       "kr": "낡은 주사위",
-      "en": "",
+      "en": "Old Dice",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "老舊骰子",
       "zh_cn": ""
     },
     {
       "no": 9128,
       "kr": "후퇴",
-      "en": "",
+      "en": "Retreat",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "後退",
       "zh_cn": ""
     },
     {
       "no": 9129,
       "kr": "완주 보상이 <color=\"#5ed5f6\">2배</color>로 증가합니다.",
-      "en": "",
+      "en": "Multiplies the round completion reward by <color=\"#5ed5f6\">2</color>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "完賽獎勵增加為<color=\"#5ed5f6\">2倍</color>。",
       "zh_cn": ""
     },
     {
       "no": 9130,
       "kr": "주사위판 보상이 <color=\"#5ed5f6\">2배</color>로 증가합니다.",
-      "en": "",
+      "en": "Multiplies the dice board rewards by <color=\"#5ed5f6\">2</color>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "棋盤獎勵增加為<color=\"#5ed5f6\">2倍</color>。",
       "zh_cn": ""
     },
     {
       "no": 9131,
       "kr": "앞으로 <color=\"#5ed5f6\">{0}칸</color> 이동합니다.",
-      "en": "",
+      "en": "Move <color=\"#5ed5f6\">{0} tiles</color> forward.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "往前移動<color=\"#5ed5f6\">{0}格</color>。",
       "zh_cn": ""
     },
     {
       "no": 9132,
       "kr": "다음 주사위 굴림 시 <color=\"#5ed5f6\">4~6</color>이 나옵니다.",
-      "en": "",
+      "en": "The next dice roll will land between <color=\"#5ed5f6\">4 and 6</color>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "下次擲骰子時出現<color=\"#5ed5f6\">4～6</color>。",
       "zh_cn": ""
     },
     {
       "no": 9133,
       "kr": "즉시 <color=\"#5ed5f6\">골인 지점</color>으로 이동합니다.",
-      "en": "",
+      "en": "Go to the <color=\"#5ed5f6\">finish line</color> right away.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "立刻移動至<color=\"#5ed5f6\">終點</color>。",
       "zh_cn": ""
     },
     {
       "no": 9134,
       "kr": "주사위 판이 새롭게 <color=\"#5ed5f6\">재배치</color>됩니다.",
-      "en": "",
+      "en": "The dice board is <color=\"#5ed5f6\">reshuffled</color>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "棋盤<color=\"#5ed5f6\">重新配置</color>。",
       "zh_cn": ""
     },
     {
       "no": 9135,
       "kr": "다음 주사위 굴림 시 <color=\"#5ed5f6\">1~3</color>이 나옵니다.",
-      "en": "",
+      "en": "The next dice roll will land between <color=\"#5ed5f6\">1 and 3</color>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "下次擲骰子時出現<color=\"#5ed5f6\">1～3</color>。",
       "zh_cn": ""
     },
     {
       "no": 9136,
       "kr": "뒤로 <color=\"#5ed5f6\">{0}칸</color> 이동합니다.",
-      "en": "",
+      "en": "Move <color=\"#5ed5f6\">{0} tiles</color> backward.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "往後移動<color=\"#5ed5f6\">{0}格</color>。",
       "zh_cn": ""
     },
     {
@@ -8077,15 +8077,15 @@
       "kr": "획득 포인트:",
       "en": "Obtained Points:",
       "ja": "獲得ポイント:",
-      "zh_tw": "獲得點數:",
+      "zh_tw": "獲得分數：",
       "zh_cn": ""
     },
     {
       "no": 9138,
       "kr": "아래 이벤트 중 하나가 <color=#ffdb58>랜덤</color>으로 선택됩니다.",
-      "en": "",
+      "en": "One of the following events will be <color=#ffdb58>randomly</color> selected.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "將<color=#ffdb58>隨機</color>選擇下列任一活動。",
       "zh_cn": ""
     },
     {
@@ -8093,7 +8093,7 @@
       "kr": "반복",
       "en": "Repeat",
       "ja": "繰り返",
-      "zh_tw": "重複",
+      "zh_tw": "反覆",
       "zh_cn": ""
     },
     {
@@ -9491,9 +9491,9 @@
     {
       "no": 10411,
       "kr": "파괴한 수",
-      "en": "Destroyed Count:",
+      "en": "Objects Destroyed",
       "ja": "破壊した数",
-      "zh_tw": "摧毀數量",
+      "zh_tw": "已破壞數量",
       "zh_cn": ""
     },
     {
@@ -12707,15 +12707,15 @@
     {
       "no": 11403,
       "kr": "주사위 {0}회 사용",
-      "en": "",
+      "en": "Roll the dice {0} times",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "使用{0}次骰子",
       "zh_cn": ""
     },
     {
       "no": 11404,
       "kr": "지호(미르) 획득",
-      "en": "Acquire Jiho (Mir)",
+      "en": "Obtain Jiho (Mir)",
       "ja": "ジホ(ミル)を獲得",
       "zh_tw": "獲得智河（米爾）",
       "zh_cn": ""
@@ -12725,7 +12725,7 @@
       "kr": "지호(미르) 에픽+등급 달성",
       "en": "Upgrade Jiho (Mir) to Epic+",
       "ja": "ジホ(ミル)のエピック+ランクを達成",
-      "zh_tw": "達成智河（米爾）史詩＋階級",
+      "zh_tw": "獲得智河（米爾）史詩＋階級",
       "zh_cn": ""
     },
     {
@@ -12733,7 +12733,7 @@
       "kr": "지호(미르) 레전더리 등급 달성",
       "en": "Upgrade Jiho (Mir) to Legendary",
       "ja": "ジホ(ミル)のレジェンダリーランクを達成",
-      "zh_tw": "達成智河（米爾）傳說階級",
+      "zh_tw": "智河（米爾）傳說階級",
       "zh_cn": ""
     },
     {
@@ -13795,9 +13795,9 @@
     {
       "no": 12076,
       "kr": "파괴한 수: {0}",
-      "en": "Destroyed Count: {0}",
+      "en": "Objects Destroyed: {0}",
       "ja": "破壊した数: {0}",
-      "zh_tw": "摧毀數量: {0}",
+      "zh_tw": "已破壞數量：{0}",
       "zh_cn": ""
     },
     {
@@ -16539,7 +16539,7 @@
     {
       "no": 12419,
       "kr": "다프네의\r\n바주카포 단추 상점",
-      "en": "Daphne's\r\nBazooka Button\r\nShop",
+      "en": "Daphne's\r\nBazooka Button Shop",
       "ja": "ダフネの\r\nバズーカメンコ\r\nショップ",
       "zh_tw": "達芙妮的\r\n火箭筒鈕扣商店",
       "zh_cn": ""
@@ -16547,7 +16547,7 @@
     {
       "no": 12420,
       "kr": "마농의\r\n회계부장 딱지 상점",
-      "en": "Manon's\r\nBursar Sticker\r\nShop",
+      "en": "Manon's\r\nBursar Sticker Shop",
       "ja": "マノンの\r\n会計委員長メンコ\r\nショップ",
       "zh_tw": "瑪儂的\r\n財務部長圓卡商店",
       "zh_cn": ""
@@ -16571,9 +16571,9 @@
     {
       "no": 12423,
       "kr": "학생회 비품 상점에서 어둠의 에버스쿨 경품 메달을 사용할 때마다\r\n시즌 패스 포인트를 획득합니다.",
-      "en": "Spend Sinister Everschool Prize Medals at the Student Council Supply Shop\r\r\nto earn Season Pass points.",
-      "ja": "生徒会備品ショップで闇のエバースクール景品メダルを使うたび、\r\nシーズンパスポイントを獲得します。",
-      "zh_tw": "在學生會備品商店使用暗黑永恆校園贈品獎牌時，\r\r\n可獲得賽季通行證點數。",
+      "en": "Spend Sinister Everschool Prize Medals at the Student Council Supply Shop to earn Season Pass points.",
+      "ja": "生徒会備品ショップで闇のエバースクール景品メダルを使うたび、シーズンパスポイントを獲得します。",
+      "zh_tw": "在學生會備品商店使用暗黑永恆校園贈品獎牌時，可獲得賽季通行證點數。",
       "zh_cn": ""
     },
     {
@@ -16611,7 +16611,7 @@
     {
       "no": 12428,
       "kr": "~어둠의 학생회와\r\n              끝나지 않는 수업~",
-      "en": "~The Sinister Student Council\r\r\n              and the Unending Class~",
+      "en": "~The Sinister Student Council\r\n         and the Unending Class~",
       "ja": "～闇の生徒会と\r\n              終わらない授業～",
       "zh_tw": "～暗黑學生會和\r\r\n無盡課程～",
       "zh_cn": ""
@@ -16900,7 +16900,7 @@
       "no": 12464,
       "kr": "언약의 경품 상점",
       "en": "Wedding Vow Prize Shop",
-      "ja": "誓いの景品ショップ",
+      "ja": "誓いの\r\n景品ショップ",
       "zh_tw": "諾言贈品商店",
       "zh_cn": ""
     },
@@ -16924,7 +16924,7 @@
       "no": 12467,
       "kr": "순백의 교환 상점",
       "en": "Pure White\r\nExchange Shop",
-      "ja": "純白の交換ショップ",
+      "ja": "純白の\r\n交換ショップ",
       "zh_tw": "純白兌換商店",
       "zh_cn": ""
     },
@@ -16932,7 +16932,7 @@
       "no": 12468,
       "kr": "비올레트의 웨딩 슈즈 상점",
       "en": "Violette's Wedding Shoe Shop",
-      "ja": "ヴィオレットのウェディングシューズショップ",
+      "ja": "ヴィオレットの\r\nウェディングシューズ\r\nショップ",
       "zh_tw": "薇奧蕾特的\r\n婚鞋商店",
       "zh_cn": ""
     },
@@ -16940,7 +16940,7 @@
       "no": 12469,
       "kr": "가넷의 웨딩 브로치 상점",
       "en": "Garnet's Wedding Brooch Shop",
-      "ja": "ガーネットのウェディングブローチショップ",
+      "ja": "ガーネットの\r\nウェディングブローチ\r\nショップ",
       "zh_tw": "佳妮特的\r\n婚禮胸針商店",
       "zh_cn": ""
     },
@@ -16948,7 +16948,7 @@
       "no": 12470,
       "kr": "결혼 전쟁\r\n출석 체크",
       "en": "Wedding War\r\nAttendance Check",
-      "ja": "~結婚戦争~\r\nログインイベント",
+      "ja": "結婚戦争\r\nログインイベント",
       "zh_tw": "結婚戰爭\r\n簽到",
       "zh_cn": ""
     },
@@ -16956,7 +16956,7 @@
       "no": 12471,
       "kr": "결혼 전쟁 출석 체크",
       "en": "Wedding War Attendance Check",
-      "ja": "~結婚戦争~ログインイベント",
+      "ja": "結婚戦争ログインイベント",
       "zh_tw": "結婚戰爭簽到",
       "zh_cn": ""
     },
@@ -16964,7 +16964,7 @@
       "no": 12472,
       "kr": "결혼 전쟁 시즌 패스",
       "en": "Wedding War Season Pass",
-      "ja": "~結婚戦争~シーズンパス",
+      "ja": "結婚戦争シーズンパス",
       "zh_tw": "結婚戰爭季通行證",
       "zh_cn": ""
     },
@@ -16988,7 +16988,7 @@
       "no": 12475,
       "kr": "메리해피메리\r\n~결혼 전쟁~",
       "en": "Merry Happy Marry\r\n~Wedding War~",
-      "ja": "メリーハッピーマリー\r\n～最強花嫁頂上決戦～",
+      "ja": "メリーハッピーマリー\r\n～結婚戦争～",
       "zh_tw": "Merry Happy Marry\r\n～結婚戰爭～",
       "zh_cn": ""
     },
@@ -16996,7 +16996,7 @@
       "no": 12476,
       "kr": "메리해피메리\r\n~최종 신부 결정전~",
       "en": "Merry Happy Marry\r\n~Ultimate Bride Battle~",
-      "ja": "メリーハッピーマリー\r\n～雪山の花嫁戦争～",
+      "ja": "メリーハッピーマリー\r\n～最終花嫁決定戦～",
       "zh_tw": "Merry Happy Marry\r\n～終極新娘決戰～",
       "zh_cn": ""
     },
@@ -17004,7 +17004,7 @@
       "no": 12477,
       "kr": "~결혼 전쟁~",
       "en": "~Wedding War~",
-      "ja": "～最強花嫁頂上決戦～",
+      "ja": "～結婚戦争～",
       "zh_tw": "～結婚戰爭～",
       "zh_cn": ""
     },
@@ -17012,7 +17012,7 @@
       "no": 12478,
       "kr": "~최종 신부 결정전~",
       "en": "~Ultimate Bride Battle~",
-      "ja": "～雪山の花嫁戦争～",
+      "ja": "～最終花嫁決定戦～",
       "zh_tw": "～終極新娘決戰～",
       "zh_cn": ""
     },
@@ -17020,7 +17020,7 @@
       "no": 12479,
       "kr": "결혼 전쟁",
       "en": "Wedding War",
-      "ja": "最強花嫁頂上決戦",
+      "ja": "結婚戦争",
       "zh_tw": "結婚戰爭",
       "zh_cn": ""
     },
@@ -17036,7 +17036,7 @@
       "no": 12481,
       "kr": "결혼 전쟁\r\n시즌 패스",
       "en": "Wedding War\r\nSeason Pass",
-      "ja": "~結婚戦争~\r\nシーズンパス",
+      "ja": "結婚戦争\r\nシーズンパス",
       "zh_tw": "結婚戰爭\r\n季通行證",
       "zh_cn": ""
     },
@@ -18443,9 +18443,9 @@
     {
       "no": 12673,
       "kr": "내가 도울게, 구원자!",
-      "en": "",
+      "en": "I'll help you, Savior!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "我來幫你，救援者！",
       "zh_cn": ""
     },
     {
@@ -19027,9 +19027,9 @@
     {
       "no": 12773,
       "kr": "에구~ 너무 무리했나?",
-      "en": "",
+      "en": "Oops, that might have been too much!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "唉呦喂呀～太勉強了嗎？",
       "zh_cn": ""
     },
     {
@@ -19179,15 +19179,15 @@
     {
       "no": 12819,
       "kr": "오브젝트 파괴 ({1}/{0}) \r\n+{2}점",
-      "en": "Destroy Objects ({1}/{0}) \r\n+{2} pts",
+      "en": "Object Destruction ({1}/{0})\r\n+{2} pts",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "破壞物件（{1}／{0}）\r\n+{2}分",
       "zh_cn": ""
     },
     {
       "no": 12820,
       "kr": "폭탄 사용하기 ({1}/{0}) \r\n+{2}점",
-      "en": "Use Bombs ({1}/{0}) \r\n+{2} pts",
+      "en": "Bomb Usage ({1}/{0})\r\n+{2} pts",
       "ja": "爆弾を使用する ({1}/{0}) \r\n+{2}点",
       "zh_tw": "使用炸彈（{1}／{0}）\r\n+{2}分",
       "zh_cn": ""
@@ -21435,9 +21435,9 @@
     {
       "no": 19236,
       "kr": "일일 승리 보상 획득 완료!",
-      "en": "Daily participation reward won!",
+      "en": "Daily victory rewards earned!",
       "ja": "",
-      "zh_tw": "已獲得每日參加獎勵！",
+      "zh_tw": "已獲得每日勝利獎勵！",
       "zh_cn": ""
     },
     {
@@ -21571,17 +21571,17 @@
     {
       "no": 19253,
       "kr": "이후 참여 가능",
-      "en": "",
+      "en": "until available",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "後可參加",
       "zh_cn": ""
     },
     {
       "no": 19254,
       "kr": "챌린저 티어 달성 시 입장 가능",
-      "en": "",
+      "en": "Unlocks upon reaching Challenger tier",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成王者段位時可入場",
       "zh_cn": ""
     },
     {
@@ -22707,9 +22707,9 @@
     {
       "no": 21140,
       "kr": "이벤트 주사위",
-      "en": "",
+      "en": "Event Dice",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "活動骰子",
       "zh_cn": ""
     },
     {
@@ -22723,41 +22723,41 @@
     {
       "no": 21142,
       "kr": "회고록: 극광의 너머로",
-      "en": "",
+      "en": "Memoir: Beyond the Extreme Light",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "回憶錄：極光彼端",
       "zh_cn": ""
     },
     {
       "no": 21143,
       "kr": "물체를 파괴하여 날뛰는 궁기를 길들이세요.",
-      "en": "",
+      "en": "Destroy objects to tame the rampaging Unicat.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "破壞物體，馴服猖狂的窮奇。",
       "zh_cn": ""
     },
     {
       "no": 21144,
-      "kr": "이벤트 주사위에서 주사위를 사용할 때마다\r\n개당 100 패스 포인트를 획득합니다.",
-      "en": "",
+      "kr": "이벤트 주사위에서 주사위를 사용할 때마다\r\n개당 200 패스 포인트를 획득합니다.",
+      "en": "Each roll on the Event Dice gives you\r\n200 pass points.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "在活動使用骰子時，\r\n每一個會獲得200通行證點數。",
       "zh_cn": ""
     },
     {
       "no": 21145,
       "kr": "마농의 특별 출석체크",
-      "en": "",
-      "ja": "マノンのスペシャルログインボーナス",
-      "zh_tw": "",
+      "en": "Manon's\r\nSpecial Attendance Check",
+      "ja": "マノンの\r\nスペシャルログインボーナス",
+      "zh_tw": "瑪儂的特別簽到",
       "zh_cn": ""
     },
     {
       "no": 21146,
       "kr": "꿈과 소망을 가득 담아 매일매일 선물을 드려요!",
-      "en": "",
+      "en": "Daily gifts filled with dreams and wishes!",
       "ja": "毎日夢と希望を込めてプレゼントをさしあげます！",
-      "zh_tw": "",
+      "zh_tw": "裝滿了夢與希望，每天都會贈送禮物！",
       "zh_cn": ""
     },
     {
@@ -22771,9 +22771,9 @@
     {
       "no": 21148,
       "kr": "극광 패스",
-      "en": "",
+      "en": "Extreme Light Pass",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "極光通行證",
       "zh_cn": ""
     },
     {
@@ -24251,7 +24251,7 @@
     {
       "no": 30185,
       "kr": "신검합일",
-      "en": "One with the Sword",
+      "en": "One With the Sword",
       "ja": "",
       "zh_tw": "人劍合一",
       "zh_cn": ""
@@ -24259,7 +24259,7 @@
     {
       "no": 30186,
       "kr": "달빛에 흘려보내는 마음",
-      "en": "A Heart Sent Away in the Moonlight",
+      "en": "Feelings Drifting in Moonlight",
       "ja": "",
       "zh_tw": "融入月色的心",
       "zh_cn": ""
@@ -24283,17 +24283,17 @@
     {
       "no": 30189,
       "kr": "꽃, 보라",
-      "en": "",
+      "en": "Flower, Purple",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "花，嫣紫",
       "zh_cn": ""
     },
     {
       "no": 30190,
       "kr": "바다에 빛나는 윤슬",
-      "en": "",
+      "en": "Shimmering Ripples on the Sea",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "海面波光粼粼",
       "zh_cn": ""
     },
     {
@@ -24987,193 +24987,193 @@
     {
       "no": 51001,
       "kr": "스트라이브 시스템",
-      "en": "",
+      "en": "Strive System",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "奮戰系統",
       "zh_cn": ""
     },
     {
       "no": 51002,
       "kr": "스트라이브 시스템\r\n{0}",
-      "en": "",
+      "en": "Strive System\r\n{0}",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "奮戰系統\r\n{0}",
       "zh_cn": ""
     },
     {
       "no": 51003,
       "kr": "전체 순위",
-      "en": "",
+      "en": "Overall Ranking",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "全部排名",
       "zh_cn": ""
     },
     {
       "no": 51004,
       "kr": "최고 클리어 단계",
-      "en": "",
+      "en": "Max Stage Cleared",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "最高通關階段",
       "zh_cn": ""
     },
     {
       "no": 51005,
       "kr": "{0}위",
-      "en": "",
+      "en": "Rank: {0}",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "第{0}名",
       "zh_cn": ""
     },
     {
       "no": 51006,
       "kr": "{0}단계",
-      "en": "",
+      "en": "Stage {0}",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "第{0}階段",
       "zh_cn": ""
     },
     {
       "no": 51007,
       "kr": "스트라이브 시스템 - {0}",
-      "en": "",
+      "en": "Strive System - {0}",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "奮戰系統—{0}",
       "zh_cn": ""
     },
     {
       "no": 51008,
       "kr": "최고 클리어 단계 소요 시간",
-      "en": "",
+      "en": "Max Stage Clear Time",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "最高通關階段花費時間",
       "zh_cn": ""
     },
     {
       "no": 51009,
       "kr": "클리어 소요 시간",
-      "en": "",
+      "en": "Clear Time",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "通關花費時間",
       "zh_cn": ""
     },
     {
       "no": 51010,
       "kr": "순위 없음",
-      "en": "",
+      "en": "Not Ranked",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "沒有排名",
       "zh_cn": ""
     },
     {
       "no": 51011,
       "kr": "기록 없음",
-      "en": "",
+      "en": "No Records",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "無紀錄",
       "zh_cn": ""
     },
     {
       "no": 51012,
       "kr": "클리어 단계",
-      "en": "",
+      "en": "Cleared Stage",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "通關階段",
       "zh_cn": ""
     },
     {
       "no": 51013,
       "kr": "스트라이브 시스템 - {0} {1}단계",
-      "en": "",
+      "en": "Strive System - {0} Stage {1}",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "奮戰系統—{0}第{1}階段",
       "zh_cn": ""
     },
     {
       "no": 51014,
       "kr": "최고 기록",
-      "en": "",
+      "en": "Best Record",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "最高紀錄",
       "zh_cn": ""
     },
     {
       "no": 51015,
       "kr": "입장 종료",
-      "en": "",
+      "en": "Entry Closed",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "入場結束",
       "zh_cn": ""
     },
     {
       "no": 51016,
       "kr": "정산 기간",
-      "en": "",
+      "en": "Tally Period",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "結算期間",
       "zh_cn": ""
     },
     {
       "no": 51017,
       "kr": "입장 조건이 맞지 않음 (기원의 탑 {0} : {1}층 클리어)",
-      "en": "",
+      "en": "Entry requirement not met (Clear {0} Tower of Origin: {1}F)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "不符合入場條件（通關起源之塔{0}：{1}層）",
       "zh_cn": ""
     },
     {
       "no": 51018,
       "kr": "입장 기간이 아닙니다.",
-      "en": "",
+      "en": "Not open right now.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "非入場期間。",
       "zh_cn": ""
     },
     {
       "no": 51019,
       "kr": "최고 클리어 단계는 {0}단계, 전체 순위는 {1}위를 달성하여 \r\n아래의 보상을 증정합니다.",
-      "en": "",
+      "en": "You have earned the following rewards for clearing\r\nup to Stage {0} and an overall rank of {1}.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "最高通關階段為第{0}階段，達成全部排名第{1}名\r\n將贈送下列獎勵。",
       "zh_cn": ""
     },
     {
       "no": 51020,
       "kr": "비활성화",
-      "en": "",
+      "en": "Disable",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "未啟用",
       "zh_cn": ""
     },
     {
       "no": 51021,
       "kr": "보상 수령 가능 시간 :",
-      "en": "",
+      "en": "Reward Claim Window:",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "可領取獎勵時間：",
       "zh_cn": ""
     },
     {
       "no": 51022,
       "kr": "현재 순위를 정산 중입니다.",
-      "en": "",
+      "en": "The rankings are currently being tallied.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "現正結算排名。",
       "zh_cn": ""
     },
     {
       "no": 51023,
       "kr": "순위 보상",
-      "en": "",
+      "en": "Ranking Reward",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "排名獎勵",
       "zh_cn": ""
     },
     {
       "no": 51024,
       "kr": "순위 확인",
-      "en": "",
+      "en": "Check Ranking",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "確認排名",
       "zh_cn": ""
     },
     {
@@ -45189,7 +45189,7 @@
       "kr": "신규 정령 추가",
       "en": "New Soul Added",
       "ja": "",
-      "zh_tw": "推出新精靈",
+      "zh_tw": "新精靈推出",
       "zh_cn": ""
     },
     {
@@ -47387,7 +47387,7 @@
     {
       "no": 581119,
       "kr": "지호(미르)",
-      "en": "Jiho<size=22>(Mir)</size>",
+      "en": "Jiho (Mir)",
       "ja": "ジホ(ミル)",
       "zh_tw": "智河（米爾）",
       "zh_cn": ""
@@ -52771,9 +52771,9 @@
     {
       "no": 615700,
       "kr": "아름다운 것",
-      "en": "Friends",
+      "en": "Beautiful things",
       "ja": "",
-      "zh_tw": "好友",
+      "zh_tw": "美麗的事物",
       "zh_cn": ""
     },
     {
@@ -52795,65 +52795,65 @@
     {
       "no": 615703,
       "kr": "대영주관",
-      "en": "",
+      "en": "Great Lord's Manor",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "大領主館",
       "zh_cn": ""
     },
     {
       "no": 615704,
       "kr": "미르의 힘",
-      "en": "",
+      "en": "Mir's Power",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "米爾的力量",
       "zh_cn": ""
     },
     {
       "no": 615705,
       "kr": "사방신",
-      "en": "",
+      "en": "Four Divine Guardians",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "四方守護神",
       "zh_cn": ""
     },
     {
       "no": 615706,
       "kr": "영주들",
-      "en": "",
+      "en": "Lords",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "領主們",
       "zh_cn": ""
     },
     {
       "no": 615707,
       "kr": "행복",
-      "en": "",
+      "en": "Happiness",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "幸福",
       "zh_cn": ""
     },
     {
       "no": 615708,
       "kr": "검술",
-      "en": "",
+      "en": "Swordsmanship",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "劍術",
       "zh_cn": ""
     },
     {
       "no": 615709,
       "kr": "계획",
-      "en": "",
+      "en": "Plans",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "計畫",
       "zh_cn": ""
     },
     {
       "no": 615710,
       "kr": "꽃점",
-      "en": "",
+      "en": "Flower Fortune Reading",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "花瓣占卜",
       "zh_cn": ""
     },
     {
@@ -53829,7 +53829,7 @@
       "kr": "스트라이브 시스템",
       "en": "Strive System",
       "ja": "ストライブ·システム",
-      "zh_tw": "努力系统",
+      "zh_tw": "奮戰系統",
       "zh_cn": ""
     },
     {
@@ -55158,6 +55158,14 @@
       "en": "Applies Prudent Mana Consumption on all allies",
       "ja": "味方全員に賢明なマナ消費効果を付与",
       "zh_tw": "賦予所有友軍明智使用魔力效果",
+      "zh_cn": ""
+    },
+    {
+      "no": 675001,
+      "kr": "종말을 부르는 인형이 곧 자폭합니다! \r\n화력을 집중하여 저지하세요!",
+      "en": "The Doomsday Doll is about to self-detonate!\r\n Concentrate your firepower to stop her!",
+      "ja": "",
+      "zh_tw": "末日傀儡即將自爆！\r\n集中火力阻止她！",
       "zh_cn": ""
     },
     {
@@ -63507,9 +63515,9 @@
     {
       "no": 995341,
       "kr": "에덴 연합 작전은 특수한 제약을 가진 적에게서 승리하고 보상을 얻을 수 있는 콘텐츠입니다.\r\n매일 참여하여 승리 시 참여 보상으로 작전 기념 코인을 획득할 수 있으며,\r\n예선전의 임무를 완료하여 더 많은 보상을 얻을 수 있습니다.\r\n8일 차부터 진행되는 본선전에 참여하여 다른 사람들과의 순위 경쟁에 참여하여 특별한 순위 보상을 획득할 수 있습니다.",
-      "en": "In Operation Eden Alliance, you battle enemies while dealing with special disadvantages to earn rewards.\r\nWin daily matches to receive Operation Coins and complete Qualifier missions for extra rewards.\r\nStarting on Day 8, join the Finals to compete in the rankings and earn special ranking rewards.",
+      "en": "In Operation Eden Alliance, you battle enemies while dealing with special disadvantages to earn rewards.\r\nWin daily matches to receive Operation Coins and complete\r\nQualifier missions for extra rewards.\r\nStarting on Day 8, join the Finals to compete in the rankings and earn special ranking rewards.",
       "ja": "",
-      "zh_tw": "伊甸園聯合作戰是戰勝擁有特殊限制的敵人，即可獲得獎勵的遊戲內容。\r\n每天參加並勝利時，可獲得參加獎勵作戰紀念硬幣，完成預賽任務即可獲得更多獎勵。\r\n參加從第8天開始進行的正賽，與其他玩家競爭排名，可獲得特別的排名獎勵。",
+      "zh_tw": "伊甸園聯合作戰是戰勝擁有特殊限制的敵人，即可獲得獎勵的遊戲內容。\r\n每天參加並勝利時，可獲得參加獎勵作戰紀念硬幣，\r\n完成預賽任務即可獲得更多獎勵。\r\n參加從第8天開始進行的正賽，與其他玩家競爭排名，可獲得特別的排名獎勵。",
       "zh_cn": ""
     },
     {
@@ -63523,9 +63531,9 @@
     {
       "no": 995351,
       "kr": "에덴 연합 예선전은 1일 ~ 14일 차까지 진행할 수 있으며 \r\n제약은 특정 날짜마다 자동으로 해금됩니다.\r\n제약을 통해 적 레벨을 설정하여 \r\n더 높은 제약과 레벨을 가진 강력한 적들과 전투하여 승리하고 보상을 획득할 수 있습니다.",
-      "en": "Operation Eden Alliance Qualifiers are open from Day 1 to Day 14, with disadvantages unlocking automatically on set days.\r\nAdjust enemy levels by selecting disadvantages and challenge stronger enemies for better rewards.",
+      "en": "Operation Eden Alliance Qualifiers are open from Day 1 to Day 14,\r\nwith disadvantages unlocking automatically on set days.\r\nAdjust enemy levels by selecting disadvantages\r\nand challenge stronger enemies for better rewards.",
       "ja": "",
-      "zh_tw": "伊甸園聯合作戰預賽從第1天～第14天為止，特定日期會自動解除限制。\r\n可透過限制設定敵人等級，與擁有更高限制與等級的敵人戰鬥並獲勝，即可獲得獎勵。",
+      "zh_tw": "伊甸園聯合預賽從第1天～第14天為止，\r\n特定日期會自動解除限制。\r\n可透過限制設定敵人等級，\r\n與擁有更高限制與等級的敵人戰鬥並獲勝，即可獲得獎勵。",
       "zh_cn": ""
     },
     {
@@ -65331,57 +65339,57 @@
     {
       "no": 996513,
       "kr": "이벤트 기간 동안 「사해파정」 이벤트가 진행됩니다.\r\n지호(미르)의 이야기와 함께 다양한 컨텐츠를 즐겨 보세요.\r\n컨텐츠마다 지급되는 보상과 함께 주사위를 획득할 수 있어요.\r\n주사위는 「이벤트 주사위」에서 사용할 수 있으며, 다양한 보상을 획득할 수 있습니다.",
-      "en": "",
+      "en": "The \"Calm Waves of Four Seas\" event will take place during the event period.\r\nEnjoy Jiho (Mir)'s story and various activities with new content.\r\nEach activity awards dice along with rewards.\r\nDice can be rolled on the \"Event Dice\" to win various prizes.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "活動期間將開放「四海波靜」。\r\n觀看智河（米爾）的故事，享受豐富的遊戲內容吧。\r\n可透過各遊戲內容獲得獎勵和骰子。\r\n可於「活動骰子」使用骰子，獲得豐富獎勵。",
       "zh_cn": ""
     },
     {
       "no": 996514,
       "kr": "이벤트 내 다양한 컨텐츠에서 주사위를 획득할 수 있습니다.\r\n주사위를 굴려 나온 숫자만큼 캐릭터가 게임판을 이동합니다.\r\n포인트 칸에 도착하면 포인트를 획득하며, 완주 시마다 추가 포인트가 지급됩니다.\r\n이벤트 칸에 도착하면 다양한 이벤트가 발생됩니다.\r\n2배속을 체크하면 보다 빠르게 주사위 게임을 진행할 수 있습니다.",
-      "en": "",
+      "en": "Earn dice by engaging in various event activities.\r\nRoll the dice to move your character across the board according to the number shown.\r\nLanding on a point tile grants you points, and completing a full round gives you bonus points.\r\nLanding on an event tile triggers various events.\r\nEnable Double Speed to play the dice game faster.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "活動期間內，可在多種遊戲內容獲得骰子。\r\n角色會在棋盤上移動骰子擲出的步數。\r\n抵達分數格子即獲得分數，每完成一回合將發放額外分數。\r\n抵達活動格子，將觸發多樣活動。\r\n勾選2倍速，可更快速地進行骰子遊戲。",
       "zh_cn": ""
     },
     {
       "no": 996515,
-      "kr": "게임에서 획득한 포인트는 포인트 게이지에 누적됩니다.\r\n지정된 최대 포인트에 도달할 때마다 보상을 획득할 수 있습니다.\r\n또한, 주사위를 사용한 누적 사용량에 따라 추가 보상을 획득할 수 있습니다.\r\n주사위 아이템은 이벤트 종료 후 300,000 골드로 치환됩니다.",
-      "en": "",
+      "kr": "게임에서 획득한 포인트는 포인트 게이지에 누적됩니다.\r\n지정된 최대 포인트에 도달할 때마다 보상을 획득할 수 있습니다.\r\n또한, 주사위를 사용한 누적 사용량에 따라 추가 보상을 획득할 수 있습니다.\r\n주사위 아이템은 이벤트 종료 후 600,000 골드로 치환됩니다.",
+      "en": "Points earned in the game fill up your point gauge.\r\nReaching certain milestones unlocks rewards.\r\nAlso, bonus rewards are offered based on your total dice rolls.\r\nUnused dice will be converted to 600,000 Gold each after the event ends.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "在遊戲獲得的分數將累積分數計量條。\r\n每達到指定的最高分數，即可獲得獎勵。\r\n另外，可根據骰子的累積使用量獲得額外獎勵。\r\n活動結束後，骰子道具會換算成600,000金幣。",
       "zh_cn": ""
     },
     {
       "no": 996516,
       "kr": "이벤트 기간 동안 미니 게임 「궁기 길들이기」가 오픈됩니다.\r\n미니게임은 매일 1회 입장할 수 있으며, UTC 0시를 기준으로 초기화됩니다.\r\n입장 횟수 소진 시 입장권으로 입장할 수 있으며, 입장권은 매일 3회 에버스톤으로 추가 구매할 수 있습니다. ",
-      "en": "",
+      "en": "The mini game, \"Taming Unicat\" is available during the event.\r\nYou can enter the mini game 1 time per day, and the entry count will reset at 00:00 UTC.\r\nYou can enter with a ticket after your free entry. Tickets can be purchased 3 times every day using Everstones. ",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "活動期間將開放「馴服窮奇」小遊戲。\r\n每天可進入1次小遊戲，並於UTC+0點重置。\r\n入場次數消耗完畢時，可使用入場券進入，每天可使用3次永恆石購買額外入場次數。",
       "zh_cn": ""
     },
     {
       "no": 996517,
       "kr": "날뛰는 궁기에 올라타 오브젝트를 파괴하고 궁기를 진정시키세요.\r\n오브젝트 파괴 시 경험치와 포인트를 획득할 수 있습니다.\r\n레벨이 상승할 때 체력을 모두 회복하며, 캐릭터의 능력치가 소폭 상승합니다.\r\n정해진 시간동안 최대한 많은 오브젝트를 파괴하세요.",
-      "en": "",
+      "en": "Hop on the rampaging Unicat and destroy objects to calm it.\r\nDestroying objects grants you EXP and points.\r\nLeveling up fully restores you character's HP and slightly increases stats.\r\nDestroy as many objects as possible before time is up.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "坐上猖狂的窮奇，破壞物件後讓窮奇冷靜下來。\r\n破壞物件時，可獲得經驗值和分數。\r\n等級提升時，將恢復滿點體力，小幅提升角色能力值。\r\n在限制時間內盡量破壞越多物件。",
       "zh_cn": ""
     },
     {
       "no": 996518,
       "kr": "미니게임 완료 시 참여 보상을 획득할 수 있으며,\r\n누적된 점수에 따라 추가 보상을 획득할 수 있습니다.\r\n도전 과제를 완료하면 추가 포인트를 획득할 수 있습니다.",
-      "en": "",
+      "en": "Completing the mini game unlocks participation rewards.\r\nAdditional rewards can be earned based on cumulative points.\r\nCompleting challenges awards bonus points.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "完成小遊戲後可獲得參加獎勵，\r\n並可根據累積分數獲得額外獎勵。\r\n完成挑戰小任務可獲得額外點數。",
       "zh_cn": ""
     },
     {
       "no": 996600,
       "kr": "스트라이브 시스템",
-      "en": "",
+      "en": "Strive System",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "奮戰系統",
       "zh_cn": ""
     },
     {
@@ -65435,9 +65443,9 @@
     {
       "no": 996610,
       "kr": "스트라이브 시스템은 일정 기간 동안 해당 테마의 정령을 편성하고\r\n각 단계별로 설정된 적과 시뮬레이션에 대응하며 높은 단계를 향해 가는 컨텐츠입니다.",
-      "en": "",
+      "en": "With the Strive System, you'll deploy theme-based Souls\r\n to take on stage-specific enemies and simulations, climbing toward higher levels of difficulty over a limited time.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "奮戰系統是在一定期間內編制該主題的精靈，\r\n對付各階段設置的敵人和模擬裝置，逐漸邁向高階段的遊戲內容。",
       "zh_cn": ""
     },
     {
@@ -66491,9 +66499,9 @@
     {
       "no": 997329,
       "kr": "에덴 연합 본선전은 예선전과 동일한 적을 상대하고, \r\n적은 예선전의 최종 제약을 필수로 사용하며 전투를 진행합니다.\r\n아군은 더욱 강력해진 적과 맞서기 위해 특별 지원 효과를 선택하여 전투에 참여할 수 있습니다.",
-      "en": "In the Eden Alliance Finals, you battle the same enemies from the Qualifiers with the final set of disadvantages applied.\r\nTo counter their increased strength, your team can enter battle with special support effects.",
+      "en": "In the Eden Alliance Finals, you battle the same enemies\r\nfrom the Qualifiers with the final set of disadvantages applied.\r\nTo counter their increased strength, your team can enter battle with special support effects.",
       "ja": "",
-      "zh_tw": "伊甸園聯合正賽會面對與預賽相同的敵人，敵人必須使用預賽的最終限制來進行戰鬥。\r\n為對抗更加強大的敵人，友軍可選擇特別支援效果參戰。",
+      "zh_tw": "伊甸園聯合正賽會面對與預賽相同的敵人，\r\n敵人必須使用預賽的最終限制來進行戰鬥。\r\n為對抗更加強大的敵人，友軍可選擇特別支援效果參戰。",
       "zh_cn": ""
     },
     {
@@ -67069,7 +67077,7 @@
       "kr": "스트라이브 시스템",
       "en": "Strive System",
       "ja": "ストライブ·システム",
-      "zh_tw": "努力系统",
+      "zh_tw": "奮戰系統",
       "zh_cn": ""
     },
     {

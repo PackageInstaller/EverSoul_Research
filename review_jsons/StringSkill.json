@@ -14405,367 +14405,367 @@
       "kr": "고도로 강화된 물리력은 마법과 구분할 수 없다.",
       "en": "When physical strength is pushed to its limits, it's no different from magic.",
       "ja": "高度に強化された物理力は魔法と区別がつかない。",
-      "zh_tw": "高度強化的物理力與魔法不相上下。",
+      "zh_tw": "高度強化的物理力與魔法不相上下",
       "zh_cn": ""
     },
     {
       "no": 27498,
       "kr": "환영 1식 - 호",
-      "en": "Work in Progress",
+      "en": "Illusion Form 1 - Rule",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "幻影1式—稱",
       "zh_cn": ""
     },
     {
       "no": 27499,
       "kr": "환영 2식 - 령",
-      "en": "Work in Progress",
+      "en": "Illusion Form 2 - Over",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "幻影2式—霸",
       "zh_cn": ""
     },
     {
       "no": 27500,
       "kr": "환영 3식 - 천",
-      "en": "Work in Progress",
+      "en": "Illusion Form 3 - All",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "幻影3式—天",
       "zh_cn": ""
     },
     {
       "no": 27501,
       "kr": "환영 4식 - 하",
-      "en": "Work in Progress",
+      "en": "Illusion Form 4 - Lands",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "幻影4式—下",
       "zh_cn": ""
     },
     {
       "no": 27502,
       "kr": "환영 상처",
-      "en": "Work in Progress",
+      "en": "Illusory Wound",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "幻影傷口",
       "zh_cn": ""
     },
     {
       "no": 27503,
       "kr": "영겁의 화염",
-      "en": "Work in Progress",
+      "en": "Eternal Flame",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "永劫火焰",
       "zh_cn": ""
     },
     {
       "no": 27504,
       "kr": "가하는 피해와 받는 피해가 10% 증가한다.",
-      "en": "Work in Progress",
+      "en": "Increases damage dealt and total damage received by 10%.",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "造成傷害和所受傷害增加10%",
       "zh_cn": ""
     },
     {
       "no": 27505,
       "kr": "10초마다 적 전체에게 공격력 100%의 피해를 입힌다.",
-      "en": "Work in Progress",
+      "en": "Deals damage equal to 100% of ATK to all enemies every 10 sec.",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "每10秒對所有敵軍造成攻擊力100%傷害",
       "zh_cn": ""
     },
     {
       "no": 27506,
       "kr": "받는 체력 회복량이 20% 감소한다.",
-      "en": "Work in Progress",
+      "en": "Decreases Recovery by 20%.",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "所受體力恢復量減少20%",
       "zh_cn": ""
     },
     {
       "no": 27507,
       "kr": "20초 마다 마나가 최대로 회복된다.",
-      "en": "Work in Progress",
+      "en": "Mana is fully restored every 20 sec.",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "每20秒將魔力恢復到上限",
       "zh_cn": ""
     },
     {
       "no": 27508,
       "kr": "세몰",
-      "en": "Work in Progress",
+      "en": "Overflush",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "抹淨",
       "zh_cn": ""
     },
     {
       "no": 27509,
       "kr": "가속 <value>%",
-      "en": "Work in Progress",
+      "en": "Speed <value>%",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "加速<value>%",
       "zh_cn": ""
     },
     {
       "no": 27510,
       "kr": "격몰",
-      "en": "Work in Progress",
+      "en": "Raging Surge",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "狂噬",
       "zh_cn": ""
     },
     {
       "no": 27511,
       "kr": "공격력 <value>%",
-      "en": "Work in Progress",
+      "en": "ATK <value>%",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "攻擊力<value>%",
       "zh_cn": ""
     },
     {
       "no": 27512,
       "kr": "청몰",
-      "en": "Work in Progress",
+      "en": "Pure Submersion",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "澄沒",
       "zh_cn": ""
     },
     {
       "no": 27513,
       "kr": "방어력 <value>%",
-      "en": "Work in Progress",
+      "en": "DEF <value>%",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "防禦力<value>%",
       "zh_cn": ""
     },
     {
       "no": 27514,
       "kr": "침몰",
-      "en": "Work in Progress",
+      "en": "Submersion",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "淹沒",
       "zh_cn": ""
     },
     {
       "no": 27515,
       "kr": "일정 시간 마다 피해를 입는다. 지속 피해로 취급되지 않는다.",
-      "en": "Work in Progress",
+      "en": "Receives damage at a set interval. This does not count as DoT.",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "每隔一定時間受到傷害，不被視為持續傷害",
       "zh_cn": ""
     },
     {
       "no": 27516,
       "kr": "세류",
-      "en": "Work in Progress",
+      "en": "Cleansing Current",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "淨流",
       "zh_cn": ""
     },
     {
       "no": 27517,
       "kr": "아군이 메인 스킬을 사용할 때 마다 중첩되며, 자신의 스킬을 강화시킨다.",
-      "en": "Work in Progress",
+      "en": "Stacks whenever an ally uses a main skill and enhances the caster's skill.",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "每當友軍使用主要技能時會疊加，並強化自身技能",
       "zh_cn": ""
     },
     {
       "no": 27518,
       "kr": "격류",
-      "en": "Work in Progress",
+      "en": "Clashing Current",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "激流",
       "zh_cn": ""
     },
     {
       "no": 27519,
       "kr": "<격류참> 효과를 강화한다.",
-      "en": "Work in Progress",
+      "en": "Enhances \"Clashing Current Slash\".",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "強化＜激流斬＞效果",
       "zh_cn": ""
     },
     {
       "no": 27520,
       "kr": "청류",
-      "en": "Work in Progress",
+      "en": "Clear Current",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "清流",
       "zh_cn": ""
     },
     {
       "no": 27521,
       "kr": "<청류쇄기> 효과를 강화한다.",
-      "en": "Work in Progress",
+      "en": "Enhances \"Clear Current Shatter\".",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "強化＜清流粉碎＞效果",
       "zh_cn": ""
     },
     {
       "no": 27522,
       "kr": "종말에 대항하는 창",
-      "en": "Work in Progress",
+      "en": "Doom-Defying Spear",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "對抗末日之槍",
       "zh_cn": ""
     },
     {
       "no": 27523,
-      "kr": "일정 버프 수 이상 보유 시 피해량이 크게 상승한다",
-      "en": "Work in Progress",
+      "kr": "가하는 피해량 증가",
+      "en": "Damage dealt increases greatly when the number of active buffs goes over a threshold",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "持有一定數量以上的增益效果時，傷害量大幅提升",
       "zh_cn": ""
     },
     {
       "no": 27524,
       "kr": "오버 더 리미트",
-      "en": "Work in Progress",
+      "en": "Over the Limit",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "突破極限",
       "zh_cn": ""
     },
     {
       "no": 27525,
-      "kr": "받는 버프의 효과가 더욱 강해진다.",
-      "en": "Work in Progress",
+      "kr": "받는 버프의 효과가 더욱 강해진다. 일정 버프 수 이상 보유 시 피해량이 크게 상승한다",
+      "en": "Further enhances the effects of buffs received.",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "所受增益效果加強",
       "zh_cn": ""
     },
     {
       "no": 27526,
       "kr": "인연을 향한 순수한 마음",
-      "en": "Work in Progress",
+      "en": "Pure Heart for Affinity",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "對於緣分的赤子之心",
       "zh_cn": ""
     },
     {
       "no": 27527,
       "kr": "그 날 묘지기는 짊어지는 것에 대한 아픔을 이해하게 되었다. 하지만…",
-      "en": "Work in Progress",
+      "en": "On that day, the Grave Keeper learned to understand the suffering of burden. However...",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "那天，守墓人理解了肩負的痛苦，但是…",
       "zh_cn": ""
     },
     {
       "no": 27528,
       "kr": "진지한 마음가짐",
-      "en": "Work in Progress",
+      "en": "Sincere Heart Condition",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "認真的決心",
       "zh_cn": ""
     },
     {
       "no": 27529,
       "kr": "묘지기의 상태에 따라 메인 스킬 사용 시 강력한 효과를 부여한다.",
-      "en": "Work in Progress",
+      "en": "Main skill use triggers powerful effects based on the Grave Keeper's status.",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "根據守墓人的狀態，使用主要技能時賦予強大效果",
       "zh_cn": ""
     },
     {
       "no": 27530,
       "kr": "두려움을 잊은 묘지기",
-      "en": "Work in Progress",
+      "en": "Fearless Grave Keeper",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "忘卻恐懼的守墓人",
       "zh_cn": ""
     },
     {
       "no": 27531,
       "kr": "종말을 찌르는 창의 대부분의 공격을 대신해서 받는다.",
-      "en": "Work in Progress",
+      "en": "Takes most of the attack from the Doom Piercer instead.",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "代替末日之槍承受大部分的攻擊",
       "zh_cn": ""
     },
     {
       "no": 27532,
       "kr": "2초마다 공격력 100%의 피해를 입는다.(해제 가능)",
-      "en": "Work in Progress",
+      "en": "Deals DoT equal to 100% of ATK every 2 sec (cancellable).",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "每2秒受到攻擊力100%的傷害（可解除）",
       "zh_cn": ""
     },
     {
       "no": 27533,
       "kr": "지속 회복 및 디버프 제거",
-      "en": "Work in Progress",
+      "en": "Recovery Over Time and Debuff Removal",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "持續恢復並解除減益效果",
       "zh_cn": ""
     },
     {
       "no": 27534,
       "kr": "일정 시간 마다 시전자의 공격력에 기반해 체력을 회복하고, 디버프를 제거한다",
-      "en": "Work in Progress",
+      "en": "Restores HP based on the caster's ATK and cancels debuffs at a set interval",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "每隔一段時間，基於施展者的攻擊力恢復體力，解除減益效果",
       "zh_cn": ""
     },
     {
       "no": 27535,
       "kr": "일시적 약화",
-      "en": "Work in Progress",
+      "en": "Temporary Debilitation",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "暫時減弱",
       "zh_cn": ""
     },
     {
       "no": 27536,
       "kr": "디버프가 활성화 된 동안 모든 능력치가 대폭 하락한다. 회복되면 매우 크게 강화된다.",
-      "en": "Work in Progress",
+      "en": "All stats are greatly reduced while the debuff is active. They are greatly enhanced when the debuff is canceled.",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "減益效果啟用的期間，所有能力值大幅降低，恢復後將大幅強化",
       "zh_cn": ""
     },
     {
       "no": 27537,
       "kr": "철벽요새",
-      "en": "Work in Progress",
+      "en": "Impenetrable Fortress",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "鐵壁堡壘",
       "zh_cn": ""
     },
     {
       "no": 27538,
       "kr": "공격 능력을 거의 상실하지만 이것을 뚫기 위해서는 엄청난 노력을 쏟아야 한다.",
-      "en": "Work in Progress",
+      "en": "Loses most of the offensive capability, but takes extraordinary effort to break through.",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "幾乎失去攻擊能力，但為了突破這個需要付出極大心血",
       "zh_cn": ""
     },
     {
       "no": 27539,
       "kr": "종말의 카운트다운",
-      "en": "Work in Progress",
+      "en": "Apocalypse Countdown",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "末日倒數",
       "zh_cn": ""
     },
     {
       "no": 27540,
       "kr": "모든 것을 집어삼킬 종말이 온다.",
-      "en": "Work in Progress",
+      "en": "The End is coming to devour all.",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "吞噬一切的末日降臨",
       "zh_cn": ""
     },
     {
       "no": 27541,
-      "kr": "",
-      "en": "Work in Progress",
+      "kr": "2초마다 해제 가능한 모든 버프 및 디버프 효과를 해제하고, 가하는 피해가 200% 증가한다.",
+      "en": "Cancels all cancellable buffs and debuffs every 2 sec and increases damage dealt by 200%.",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "每2秒解除所有可解除的增益與減益效果，造成傷害增加200%",
       "zh_cn": ""
     },
     {
       "no": 27542,
-      "kr": "",
-      "en": "Work in Progress",
+      "kr": "가속 -15%",
+      "en": "Speed -15%",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "加速-15%",
       "zh_cn": ""
     },
     {
@@ -18587,81 +18587,81 @@
     {
       "no": 231160,
       "kr": "만파식적(미르)",
-      "en": "",
+      "en": "Manpashikjeok (Mir)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "萬波息笛（米爾）",
       "zh_cn": ""
     },
     {
       "no": 231161,
       "kr": "유류지인",
-      "en": "",
+      "en": "Flowing Soul",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "馭流之人",
       "zh_cn": ""
     },
     {
       "no": 231162,
       "kr": "<COLOR=#FFFFFF><격류참></COLOR>을 사용할 때 <COLOR=#FFFFFF><격류></COLOR>를 소모했을 경우 <116611.DURATION>초 동안 모든 아군의 치명타 피해량이 <116611.VALUE> 증가시킨다.\r\n<COLOR=#FFFFFF><청류쇄기></COLOR>를 사용할 때 <COLOR=#FFFFFF><청류></COLOR>를 소모했을 경우 모든 아군에게 <116612.DURATION>초 동안 3초마다 체력을 시전자의 공격력 <116613.VALUE>만큼 회복하고, 디버프를 <COLOR=#FFFFFF>1</COLOR>개 제거하는 효과를 부여한다.",
-      "en": "",
+      "en": "Consuming <COLOR=#FFFFFF>\"Clashing Current\"</COLOR> when using <COLOR=#FFFFFF>\"Clashing Current Slash\"</COLOR> increases all allies' Crit DMG by <116611.VALUE> for <116611.DURATION> sec.\r\nConsuming <COLOR=#FFFFFF>\"Clear Current\"</COLOR> when using <COLOR=#FFFFFF>\"Clear Current Shatter\"</COLOR> restores all allies' HP equal to <116613.VALUE> of the caster's ATK every 3 sec for <116612.DURATION> sec and grants an effect that cancels <COLOR=#FFFFFF>1</COLOR> debuff inflicted on them.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "使用<COLOR=#FFFFFF>＜激流斬＞</COLOR>時，若已消耗<COLOR=#FFFFFF>＜激流＞</COLOR>，<116611.DURATION>秒內使所有友軍的暴擊傷害量增加<116611.VALUE>。\r\n若使用<COLOR=#FFFFFF>＜清流粉碎＞</COLOR>時已消耗<COLOR=#FFFFFF>＜清流＞</COLOR>，賦予所有友軍效果，<116612.DURATION>秒內每3秒將體力恢復相當施展者攻擊力的<116613.VALUE>，並解除<COLOR=#FFFFFF>1</COLOR>個減益效果",
       "zh_cn": ""
     },
     {
       "no": 231163,
       "kr": "증가하는 치명타 피해량이 <116621.VALUE>, 회복량이 <116623.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Crit DMG increase changes to <116621.VALUE>, Recovery changes to <116623.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為暴擊傷害量增加<116621.VALUE>，恢復量<116623.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 231164,
       "kr": "증가하는 치명타 피해량이 <116631.VALUE>, 회복량이 <116633.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Crit DMG increase changes to <116631.VALUE>, Recovery changes to <116633.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為暴擊傷害量增加<116631.VALUE>，恢復量<116633.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 231165,
       "kr": "증가하는 치명타 피해량이 <116641.VALUE>, 회복량이 <116643.VALUE>로 변경된다. 버프의 시간이 기존 대비 1.5배 상승한다.",
-      "en": "",
+      "en": "Crit DMG increase changes to <116641.VALUE>, Recovery changes to <116643.VALUE>. The buff duration is multiplied by 1.5.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為暴擊傷害量增加<116641.VALUE>，恢復量<116643.VALUE>。增益效果時間比先前上升1.5倍",
       "zh_cn": ""
     },
     {
       "no": 231166,
       "kr": "증가하는 치명타 피해량이 <116651.VALUE>, 회복량이 <116653.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Crit DMG increase changes to <116651.VALUE>, Recovery changes to <116653.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為暴擊傷害量增加<116651.VALUE>，恢復量<116653.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 231167,
       "kr": "증가하는 치명타 피해량이 <116661.VALUE>, 회복량이 <116663.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Crit DMG increase changes to <116661.VALUE>, Recovery changes to <116663.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為暴擊傷害量增加<116661.VALUE>，恢復量<116663.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 231168,
       "kr": "증가하는 치명타 피해량이 <116671.VALUE>, 회복량이 <116673.VALUE>로 변경된다.  버프의 시간이 기존 대비 2배 상승한다.",
-      "en": "",
+      "en": "Crit DMG increase changes to <116671.VALUE>, Recovery changes to <116673.VALUE>. The buff's duration is multiplied by 2.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為暴擊傷害量增加<116671.VALUE>，恢復量<116673.VALUE>。增益效果時間比先前上升2倍",
       "zh_cn": ""
     },
     {
       "no": 231169,
       "kr": "미르의 힘을 계승받은 지호의 기원.\r\n나라의 안녕과 평안을 기원하는 마음이 피리에 깃들어 있던 해룡의 힘을 일깨웠다.",
-      "en": "",
+      "en": "Origin of Jiho, heir to Mir's power.\r\nThe wish for peace and well-being across the land stirred the power of the sea dragon within the flute.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "繼承米爾力量的智河的起源。\r\n祈願國泰民安的心意喚醒了笛子蘊含的海龍力量。",
       "zh_cn": ""
     },
     {
@@ -24347,49 +24347,49 @@
     {
       "no": 341161,
       "kr": "청수현룡",
-      "en": "",
+      "en": "Clear Wave Dragon",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "淸水顯龍",
       "zh_cn": ""
     },
     {
       "no": 341162,
       "kr": "격류참",
-      "en": "",
+      "en": "Clashing Current Slash",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "激流斬",
       "zh_cn": ""
     },
     {
       "no": 341163,
       "kr": "청류쇄기",
-      "en": "",
+      "en": "Clear Current Shatter",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "清流粉碎",
       "zh_cn": ""
     },
     {
       "no": 341164,
       "kr": "세류",
-      "en": "",
+      "en": "Cleansing Current",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "淨流",
       "zh_cn": ""
     },
     {
       "no": 341165,
       "kr": "파란만장",
-      "en": "",
+      "en": "Turbulent Waves",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "波濤洶湧",
       "zh_cn": ""
     },
     {
       "no": 341169,
       "kr": "환류",
-      "en": "",
+      "en": "Illusory Current",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "幻流",
       "zh_cn": ""
     },
     {
@@ -27971,25 +27971,25 @@
     {
       "no": 349066,
       "kr": "인간형 우상",
-      "en": "",
+      "en": "Humanlike Idol",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "人類型雕像",
       "zh_cn": ""
     },
     {
       "no": 349067,
       "kr": "One-Coin",
-      "en": "",
+      "en": "One-Coin",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "One-Coin",
       "zh_cn": ""
     },
     {
       "no": 349068,
       "kr": "최후의 한방",
-      "en": "",
+      "en": "Final Shot",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "最後一擊",
       "zh_cn": ""
     },
     {
@@ -28299,9 +28299,9 @@
     {
       "no": 349511,
       "kr": "영원한 순풍",
-      "en": "",
+      "en": "Eternal Tailwind",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "永恆的順風",
       "zh_cn": ""
     },
     {
@@ -29483,49 +29483,49 @@
     {
       "no": 351161,
       "kr": "가장 가까운 적을 대상으로 현현시킨 용을 덮쳐 대상에게 공격력 <116111.VALUE>의 피해를 입히고, <COLOR=#FFFFFF><세류></COLOR> 효과를 보유 중이라면 중첩 당 추가로 공격력 <116112.VALUE>의 피해를 입히고, <세류> 효과를 모두 소모한다. 만약 <COLOR=#FFFFFF><세류></COLOR>의 중첩 수가 <COLOR=#FFFFFF>3</COLOR> 이상이라면 대상의 버프를 <COLOR=#FFFFFF>4</COLOR>개 제거하고, <COLOR=#FFFFFF><격류></COLOR> 및 <COLOR=#FFFFFF><청류></COLOR> 버프를 획득한다. 각 버프는 <COLOR=#FFFFFF><격류참></COLOR>, <COLOR=#FFFFFF><청류쇄기></COLOR>를 강화시킨다.",
-      "en": "",
+      "en": "Unleashes a manifested dragon on the nearest enemy, dealing damage equal to <116111.VALUE> of ATK. If <COLOR=#FFFFFF>\"Cleansing Current\"</COLOR> is active, deals additional damage equal to <116112.VALUE> of ATK per stack and consumes all stacks of \"Cleansing Current. If <COLOR=#FFFFFF>\"Cleansing Current\"</COLOR> is at <COLOR=#FFFFFF>3</COLOR> stacks or more, cancels <COLOR=#FFFFFF>4</COLOR> buffs from the target and gains <COLOR=#FFFFFF>\"Clashing Current\"</COLOR> and <COLOR=#FFFFFF>\"Clear Current\"</COLOR> buffs. Each buff enhances <COLOR=#FFFFFF>\"Clashing Current Slash\"</COLOR> and <COLOR=#FFFFFF>\"Clear Current Shatter,\"</COLOR> respectively.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "對最接近的敵人召喚龍，對目標造成攻擊力<116111.VALUE>的傷害，若持有<COLOR=#FFFFFF>＜淨流＞</COLOR>效果，每疊加額外造成攻擊力<116112.VALUE>的傷害， 消耗所有＜淨流＞ 效果。若<COLOR=#FFFFFF>＜淨流＞</COLOR>為<COLOR=#FFFFFF>3</COLOR>疊加以上，解除目標<COLOR=#FFFFFF>4</COLOR>個增益效果，獲得<COLOR=#FFFFFF>＜激流＞</COLOR>與<COLOR=#FFFFFF>＜清流＞</COLOR>增益效果。各增益將強化<COLOR=#FFFFFF>＜激流斬＞</COLOR>、<COLOR=#FFFFFF>＜清流粉碎＞</COLOR>",
       "zh_cn": ""
     },
     {
       "no": 351162,
       "kr": "가장 멀리 있는 적을 향해 검으로 격류를 일으켜 폭 2.5m, 길이 11m의 범위 내의 적에게 공격력 <116211.VALUE>의 피해를 입히고, 적의 버프를 <COLOR=#FFFFFF>1</COLOR>개 제거한다. 만약 <COLOR=#FFFFFF><세류></COLOR>의 중첩이 3중첩 이상일 경우 해당 스킬이 강화되어 공격력 <116212.VALUE>의 추가 피해를 입히고, 대상의 버프를 <COLOR=#FFFFFF>1</COLOR>개 더 제거하며, <116213.DURATION>초 동안 공격력을 <116213.VALUE> 감소시키는 <COLOR=#FFFFFF><격몰></COLOR> 디버프를 부여한다. 위 효과는 <COLOR=#FFFFFF><격류></COLOR>를 보유 중일 경우에도 강화되지만 그 경우 <COLOR=#FFFFFF><격류></COLOR>효과는 소모된다.",
-      "en": "",
+      "en": "Unleashes a clashing current with the sword to the farthest enemy, dealing damage equal to <116211.VALUE> of ATK to enemies within a 2.5m wide and 11m long area. Cancels <COLOR=#FFFFFF>1</COLOR> buff from the enemy. When <COLOR=#FFFFFF>\"Cleansing Current\"</COLOR> is at 3 or more stacks, the skill is enhanced, dealing additional damage equal to <116212.VALUE> of ATK, removing <COLOR=#FFFFFF>1</COLOR> more buff from the target, and inflicting <COLOR=#FFFFFF>\"Raging Surge\"</COLOR> that decreases ATK by <116213.VALUE> for <116213.DURATION> sec. These effects are also enhanced if <COLOR=#FFFFFF>\"Clashing Current\"</COLOR> is active, although doing so consumes <COLOR=#FFFFFF>\"Clashing Current\"</COLOR>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "用劍對最遙遠的敵人掀起激流，在寬幅2.5m、長度11m的範圍內對敵人造成攻擊力<116211.VALUE>的傷害，解除敵人<COLOR=#FFFFFF>1</COLOR>個增益效果。若<COLOR=#FFFFFF>＜淨流＞</COLOR>為3疊加以上，該技能將強化並造成攻擊力<116212.VALUE>的額外傷害，追加解除目標<COLOR=#FFFFFF>1</COLOR>個增益效果，賦予減益效果<COLOR=#FFFFFF>＜狂噬＞</COLOR>，<116213.DURATION>秒內使攻擊力減少<116213.VALUE>。上述效果在持有<COLOR=#FFFFFF>＜激流＞</COLOR>的情況下也會強化，但此時將消耗<COLOR=#FFFFFF>＜激流＞</COLOR>效果",
       "zh_cn": ""
     },
     {
       "no": 351163,
-      "kr": "가장 가까운 적을 중심으로 낙수를 일으켜 대상 및 주변 3m의 적에게 공격력 <116311.VALUE>의 피해를 입히고, 대상의 버프 효과를 <COLOR=#FFFFFF>1</COLOR>개 제거한다. <COLOR=#FFFFFF><세류></COLOR>의 중첩이 3중첩 이상일 경우 해당 스킬이 강화되어 공격력 <116312.VALUE>의 추가 피해를 입히고, 대상의 버프를 <COLOR=#FFFFFF>1</COLOR>개 더 제거하며, <116313.DURATION>초 동안 방어력을 <116213.VALUE> 감소시키는 <COLOR=#FFFFFF><청몰></COLOR> 디버프를 부여한다. 위 효과는 <COLOR=#FFFFFF><청류></COLOR>를 보유 중일 경우에도 강화되지만 그 경우 <COLOR=#FFFFFF><청류></COLOR>효과는 소모된다.",
-      "en": "",
+      "kr": "가장 가까운 적을 중심으로 낙수를 일으켜 대상 및 주변 3m의 적에게 공격력 <116311.VALUE>의 피해를 입히고, 대상의 버프 효과를 <COLOR=#FFFFFF>2</COLOR>개 제거한다. <COLOR=#FFFFFF><세류></COLOR>의 중첩이 3중첩 이상일 경우 해당 스킬이 강화되어 공격력 <116312.VALUE>의 추가 피해를 입히고, 대상의 버프를 <COLOR=#FFFFFF>2</COLOR>개 더 제거하며, <116313.DURATION>초 동안 방어력을 <116213.VALUE> 감소시키는 <COLOR=#FFFFFF><청몰></COLOR> 디버프를 부여한다. 위 효과는 <COLOR=#FFFFFF><청류></COLOR>를 보유 중일 경우에도 강화되지만 그 경우 <COLOR=#FFFFFF><청류></COLOR>효과는 소모된다.",
+      "en": "Creates a cascade centered on the nearest enemy, dealing damage equal to <116311.VALUE> of ATK to the target and enemies within 3m. Cancels <COLOR=#FFFFFF>2</COLOR> of the target's buff. When <COLOR=#FFFFFF>\"Cleansing Current\"</COLOR> is at 3 or more stacks, the skill is enhanced, dealing additional damage equal to <116312.VALUE> of ATK. Cancels <COLOR=#FFFFFF>2</COLOR> more buff from the target, and inflicts <COLOR=#FFFFFF>\"Pure Submersion\"</COLOR> that decreases DEF by <116213.VALUE> for <116313.DURATION> sec. These effects are also enhanced if <COLOR=#FFFFFF>\"Clear Current\"</COLOR> is active, although doing so consumes <COLOR=#FFFFFF>\"Clear Current\"</COLOR>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "以最接近的敵人為中心，使水流傾瀉而下，對目標與周遭3m的敵人造成攻擊力<116311.VALUE>的傷害，解除目標<COLOR=#FFFFFF>2</COLOR>個增益效果。若<COLOR=#FFFFFF>＜淨流＞</COLOR>為3疊加以上，該技能將強化並造成攻擊力<116312.VALUE>的額外傷害，追加解除目標<COLOR=#FFFFFF>2</COLOR>個增益效果，賦予減益效果<COLOR=#FFFFFF>＜澄沒＞</COLOR>，<116313.DURATION>秒內使防禦力減少<116213.VALUE>。上述效果在持有<COLOR=#FFFFFF>＜清流＞</COLOR>的情況下也會強化，但此時將消耗<COLOR=#FFFFFF>＜清流＞</COLOR>效果",
       "zh_cn": ""
     },
     {
       "no": 351164,
       "kr": "전투 시작 시 <COLOR=#FFFFFF><세류></COLOR> 효과를 1개 획득하며, 자신을 포함한 아군이 메인 스킬을 사용할 때 마다 <COLOR=#FFFFFF><세류></COLOR> 효과를 1중첩 획득한다. (최대 5중첩)\r\n\r\n일반 공격 시 공격력 <116011.VALUE>의 추가 피해를 입히며, 적의 버프를 <COLOR=#FFFFFF>1</COLOR>개 제거하고, <116013.DURATION>초 동안 가속을 <116013.VALUE> 감소시키는 <COLOR=#FFFFFF><세몰></COLOR> 디버프를 부여한다.",
-      "en": "",
+      "en": "Gains 1 stack of <COLOR=#FFFFFF>\"Cleansing Current\"</COLOR> when battle begins. Also gains 1 stack of <COLOR=#FFFFFF>\"Cleansing Current\"</COLOR> whenever an ally including herself uses the main skill (up to 5 stacks).\r\n\r\nHer normal attack deals additional damage equal to <116011.VALUE> of ATK, cancels <COLOR=#FFFFFF>1</COLOR> buff on the target, and inflicts <COLOR=#FFFFFF>\"Overflush,\"</COLOR> which decreases Speed by <116013.VALUE> for <116013.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "戰鬥開始時，獲得1個<COLOR=#FFFFFF>＜淨流＞</COLOR>效果，包括自身在內，每當友軍使用主要技能時，獲得<COLOR=#FFFFFF>＜淨流＞</COLOR>效果1疊加。（最多5疊加）\r\n\r\n一般攻擊時，造成攻擊力<116011.VALUE>的額外傷害，解除敵人<COLOR=#FFFFFF>1</COLOR>個增益效果，並賦予減益效果<COLOR=#FFFFFF>＜抹淨＞</COLOR>，<116013.DURATION>秒內使加速減少<116013.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 351165,
       "kr": "파도의 흐름을 용으로 형상화시켜 적을 향해 발산해 폭 3.5m, 길이 11m의 범위의 적들에게 공격력 <116511.VALUE>의 피해를 입힌다. 만약 대상이 아래와 같은 효과를 보유 중일 경우 다음과 같은 효과를 부여한다.\r\n\r\n<COLOR=#FFFFFF><세몰></COLOR> - 공격력 <116512.VALUE>의 추가 피해를 입히고 대상의 버프를 <COLOR=#FFFFFF>4</COLOR>개 제거한다.\r\n<COLOR=#FFFFFF><격몰></COLOR> - 공격력 <116512.VALUE>의 추가 피해를 입히고 <116518.DURATION>초 동안 가하는 피해량을 <116518.VALUE> 감소시킨다.\r\n<COLOR=#FFFFFF><청몰></COLOR> - 공격력 <116512.VALUE>의 추가 피해를 입히고 <116518.DURATION>초 동안 받는 최종 피해량을 <116519.VALUE> 증가시킨다.",
-      "en": "",
+      "en": "Manifests the flow of waves into a dragon and unleashes it to enemies, dealing damage equal to <116511.VALUE> of ATK to enemies within a 3.5 wide and 11m long area. If a target is currently affected by one of the following effects, the corresponding additional effect is applied:\r\n\r\n<COLOR=#FFFFFF>\"Overflush\"</COLOR> - Deals additional damage equal to <116512.VALUE> of ATK and cancels <COLOR=#FFFFFF>4</COLOR> buffs from the target.\r\n<COLOR=#FFFFFF>\"Raging Surge\"</COLOR> - Deals additional damage equal to <116512.VALUE> of ATK and decreases damage dealt by <116518.VALUE> for <116518.DURATION> sec.\r\n<COLOR=#FFFFFF>\"Pure Submersion\"</COLOR> - Deals additional damage equal to <116512.VALUE> of ATK and increases the target's total damage received by <116519.VALUE> for <116518.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "以龍呈現翻湧的波濤並朝敵人發射，對寬幅3.5m、長度11m範圍的敵人造成攻擊力<116511.VALUE>的傷害。若目標持有下列效果，將賦予以下效果。\r\n\r\n<COLOR=#FFFFFF>＜抹淨＞</COLOR>－造成攻擊力<116512.VALUE>的額外傷害，解除目標<COLOR=#FFFFFF>4</COLOR>個增益效果\r\n<COLOR=#FFFFFF>＜狂噬＞</COLOR>－造成攻擊力<116512.VALUE>的額外傷害，<116518.DURATION>秒內使造成傷害量減少<116518.VALUE>\r\n<COLOR=#FFFFFF>＜澄沒＞</COLOR>－造成攻擊力<116512.VALUE>的額外傷害，<116518.DURATION>秒內使所受最終傷害量增加<116519.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 351169,
       "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116913.VALUE> 회복한다.",
-      "en": "",
+      "en": "Whenever a lead Soul uses a main skill, restores all allies' HP and Mana by <116913.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "每當隊長精靈使用主要技能時，恢復所有友軍體力與魔力<116913.VALUE>",
       "zh_cn": ""
     },
     {
@@ -31899,17 +31899,17 @@
     {
       "no": 355043,
       "kr": "가장 가까운 적의 등 뒤로 검을 날려보낸 뒤 해당 검을 사용해 베어내며 공격력 <504311.VALUE>의 피해를 입힌다. \r\n자신의 주변 3.5m내에 적이 3명 이상 있다면 <504312.DURATION>초 동안 자신의 회피를 <504312.VALUE> 증가시킨다.",
-      "en": "Hurls her swords behind the nearest enemy, then dashes in to deliver a surprise attack with them, dealing damage equal to <504311.VALUE> of ATK and returning to her starting spot. If there are 3 or more enemies within a 3.5m radius, her Evasion is increased by <504312.VALUE> for <504312.DURATION> sec.",
+      "en": "Hurls her swords behind the nearest enemy, then slashes through them with those blades, dealing damage equal to <504311.VALUE> of ATK.\r\nIf there are 3 or more enemies within a 3.5m radius, her Evasion is increased by <504312.VALUE> for <504312.DURATION> sec.",
       "ja": "",
-      "zh_tw": "將劍射向最接近的敵人背後，使用該劍突襲，造成攻擊力<504311.VALUE>的傷害並回到原位。若自身周遭3.5m內有3名以上敵人，<504312.DURATION>秒內使自身迴避增加<504312.VALUE>",
+      "zh_tw": "將劍射向最接近的敵人背後，使用該劍砍擊，造成攻擊力<504311.VALUE>的傷害。\r\n若自身周遭3.5m內有3名以上敵人，<504312.DURATION>秒內使自身迴避增加<504312.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 355044,
       "kr": "전투 시작 시 자신에게 <COLOR=#FFFFFF><마음다짐></COLOR> 버프를 부여한다. \r\n해당 버프가 존재하는 동안 자신의 체력이 다 할 경우 해당 <COLOR=#FFFFFF><마음다짐></COLOR>을 소모해 전투 불능을 막으며 이후 <504611.DURATION>초 동안 해제 가능한 무적 상태를 부여하고, <504612.DURATION>초 동안 2초마다 자신의 체력과 마나를 <504612.VALUE> 회복한다. \r\n\r\n공격 시 대상의 체력이 <COLOR=#FFFFFF>30%</COLOR> 미만일 경우 피해량의 <COLOR=#FFFFFF>50%</COLOR> 만큼 추가 피해를 입힌다.\r\n\r\n만약 대상이 <COLOR=#FFFFFF><악마형></COLOR> 혹은 <COLOR=#FFFFFF><혼돈형></COLOR>일 경우에는 남은 체력에 상관없이 추가 피해를 입힌다",
-      "en": "Hanul starts battle with <COLOR=#FFFFFF>\"Mind Renewal.\"</COLOR> If her HP is depleted while this buff is active, she sacrifices this buff to prevent incapacitation, gains cancellable Invulnerable for <504611.DURATION> sec, and recovers <504612.VALUE> HP and Mana every 2 sec for <504612.DURATION> sec. If the target's HP is below <COLOR=#FFFFFF>30%</COLOR> when Hanul attacks, her damage dealt increases by <COLOR=#FFFFFF>50%</COLOR>. If the target is <COLOR=#FFFFFF>\"Demon\"</COLOR> or <COLOR=#FFFFFF>\"Chaotic\"</COLOR> type, Hanul deals additional damage regardless of the target's remaining HP.",
+      "en": "Hanul starts battle with <COLOR=#FFFFFF>\"Mind Renewal.\"</COLOR>\r\nIf her HP is depleted while <COLOR=#FFFFFF>\"Mind Renewal\"</COLOR> is active, she consumes it to prevent incapacitation, gain cancellable Invulnerable for <504611.DURATION> sec, and recover <504612.VALUE> HP and Mana every 2 sec for <504612.DURATION> sec.\r\n\r\nIf the target's HP is below <COLOR=#FFFFFF>30%</COLOR> when Hanul attacks, she also deals additional damage equal to <COLOR=#FFFFFF>50%</COLOR> of the original damage.\r\n\r\nIf the target is <COLOR=#FFFFFF>\"Demon\"</COLOR> or <COLOR=#FFFFFF>\"Chaotic\"</COLOR> type, Hanul deals additional damage regardless of the target's remaining HP.",
       "ja": "",
-      "zh_tw": "戰鬥開始時，賦予自身增益效果<COLOR=#FFFFFF>＜決心＞</COLOR>。持有該增益的期間，若快耗盡自身體力時，消耗該增益效果以避免無法戰鬥，賦予自身可解除的無敵狀態<504611.DURATION>秒，<504612.DURATION>秒內每2秒恢復自身體力和魔力<504612.VALUE>。若攻擊時目標體力未滿<COLOR=#FFFFFF>30%</COLOR>，自身造成傷害增加<COLOR=#FFFFFF>50%</COLOR>。若目標為<COLOR=#FFFFFF>＜惡魔型＞</COLOR>或<COLOR=#FFFFFF>＜混沌型＞</COLOR>，無論剩餘體力多少均造成額外傷害",
+      "zh_tw": "戰鬥開始時，賦予自身增益效果<COLOR=#FFFFFF>＜決心＞</COLOR>。\r\n持有該增益的期間，若快耗盡自身體力時，消耗<COLOR=#FFFFFF>＜決心＞</COLOR>避免無法戰鬥後，賦予可解除的無敵狀態<504611.DURATION>秒，<504612.DURATION>秒內每2秒恢復自身體力和魔力<504612.VALUE>。\r\n\r\n若攻擊時目標體力未滿<COLOR=#FFFFFF>30%</COLOR>，造成傷害量<COLOR=#FFFFFF>50%</COLOR>的額外傷害。\r\n\r\n若目標為<COLOR=#FFFFFF>＜惡魔型＞</COLOR>或<COLOR=#FFFFFF>＜混沌型＞</COLOR>，無論剩餘體力多少均造成額外傷害",
       "zh_cn": ""
     },
     {
@@ -33059,7 +33059,7 @@
     {
       "no": 359061,
       "kr": "배치된 불사형 정령 1명 마다 모든 불사형 정령의 가하는 피해 50% 증가 (최대 150%까지 적용)",
-      "en": "All Undead Souls' damage dealt +50% for every Undead Soul deployed (Up to 150%)",
+      "en": "All Undead Souls' damage dealt +50% for every Undead Soul deployed (up to 150%)",
       "ja": "配置された不死型精霊1体ごとに、すべての不死型精霊の与えるダメージ50%増加(最大150%まで適用)",
       "zh_tw": "每配置1名不死型精靈，所有不死型精靈的造成傷害增加50%（最多套用至150%）",
       "zh_cn": ""
@@ -33075,7 +33075,7 @@
     {
       "no": 359063,
       "kr": "배치된 천사형 정령 1명 마다 모든 천사형 정령의 가하는 피해 100% 증가 (최대 200%까지 적용)",
-      "en": "All Angel Souls' damage dealt +100% for every Angel Soul deployed (Up to 200%)",
+      "en": "All Angel Souls' damage dealt +100% for every Angel Soul deployed (up to 200%)",
       "ja": "配置された天使型精霊1体ごとに、すべての天使型精霊の与えるダメージ100%増加(最大200%まで適用)",
       "zh_tw": "每配置1名天使型精靈，所有天使型精靈的造成傷害增加100%（最多套用至200%）",
       "zh_cn": ""
@@ -33099,25 +33099,25 @@
     {
       "no": 359066,
       "kr": "인간형 정령의 가하는 피해 150% 증가",
-      "en": "",
+      "en": "Damage dealt +150% for Humanlike Souls",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "人類型精靈的造成傷害增加150%",
       "zh_cn": ""
     },
     {
       "no": 359067,
       "kr": "디버프 역할 정령의 HP가 10% 이하로 내려갈 경우 1회에 한해 해제되지 않는 무적 상태를 5초 동안 부여한다.",
-      "en": "",
+      "en": "When a Debuff Soul's HP falls to 10% or below, she gains uncancellable Invulnerable for 5 sec. This effect triggers only once.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "減益定位精靈的HP下降到低於10%時，賦予1次不會解除的無敵狀態5秒",
       "zh_cn": ""
     },
     {
       "no": 359068,
-      "kr": "자신의 체력이 10% 이하일 경우 1회에 한해 2초마다 자신의 해제 가능한 모든 버프 효과를 해제하고, 가하는 피해를 200% 증가한다. (20초 지속)",
-      "en": "",
+      "kr": "자신의 체력이 10% 이하일 경우 1회에 한해 2초마다 자신의 해제 가능한 모든 버프 효과를 해제하고, 가하는 피해가 200% 증가한다. (10초 지속)",
+      "en": "When HP falls to 10% or below, cancels all cancellable buffs and debuffs every 2 sec and increases damage dealt by 200% for 10 sec. This effect triggers only once.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "自身體力低於10%時，每2秒解除自身可解除的所有增益和減益效果，造成傷害增加200%，僅限一次（持續10秒）",
       "zh_cn": ""
     },
     {
@@ -33427,9 +33427,9 @@
     {
       "no": 359511,
       "kr": "모든 아군의 가속이 30% 증가한다.",
-      "en": "",
+      "en": "Increases all allies' Speed by 30%.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "所有友軍加速增加30%",
       "zh_cn": ""
     },
     {
@@ -34571,49 +34571,49 @@
     {
       "no": 361161,
       "kr": "피해량이 <116121.VALUE>, 추가 피해량이 <116122.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <116121.VALUE>, additional damage changes to <116122.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<116121.VALUE>的傷害量、造成<116122.VALUE>的額外傷害量",
       "zh_cn": ""
     },
     {
       "no": 361162,
       "kr": "피해량이 <116221.VALUE>, 추가 피해량이 <116222.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <116221.VALUE>, additional damage changes to <116222.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<116221.VALUE>的傷害量、造成<116222.VALUE>的額外傷害量",
       "zh_cn": ""
     },
     {
       "no": 361163,
       "kr": "피해량이 <116321.VALUE>, 추가 피해량이 <116322.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <116321.VALUE>, additional damage changes to <116322.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<116321.VALUE>的傷害量、造成<116322.VALUE>的額外傷害量",
       "zh_cn": ""
     },
     {
       "no": 361164,
       "kr": "일반 공격 추가 피해량이 <116021.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Normal attack's additional damage changes to <116021.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "一般攻擊變更為造成<116021.VALUE>的額外傷害量",
       "zh_cn": ""
     },
     {
       "no": 361165,
       "kr": "피해량이 <116521.VALUE>, 추가 피해량이 <116522.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Damage changes to <116521.VALUE>, additional damage changes to <116522.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<116521.VALUE>的傷害量、造成<116522.VALUE>的額外傷害量",
       "zh_cn": ""
     },
     {
       "no": 361169,
       "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116923.VALUE> 회복한다.",
-      "en": "",
+      "en": "Whenever a lead Soul uses a main skill, restores all allies' HP and Mana by <116923.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "每當隊長精靈使用主要技能時，恢復所有友軍體力與魔力<116923.VALUE>",
       "zh_cn": ""
     },
     {
@@ -38347,49 +38347,49 @@
     {
       "no": 371161,
       "kr": "피해량이 <116131.VALUE>, 추가 피해량이 <116132.VALUE>로 변경된다. 만약 <COLOR=#FFFFFF><세류></COLOR> 중첩이 <COLOR=#FFFFFF>5</COLOR>중첩일 때 사용 시, <COLOR=#FFFFFF><세류></COLOR> 효과 소모 후, <COLOR=#FFFFFF><세류></COLOR> 효과를 1중첩 추가로 부여한다.",
-      "en": "",
+      "en": "Damage changes to <116131.VALUE>, and additional damage changes to <116132.VALUE>. If used while <COLOR=#FFFFFF>\"Cleansing Current\"</COLOR> is at <COLOR=#FFFFFF>5</COLOR> stacks, grants 1 stack of <COLOR=#FFFFFF>\"Cleansing Current\"</COLOR> after all stacks of <COLOR=#FFFFFF>\"Cleansing Current\"</COLOR> are consumed.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<116131.VALUE>的傷害量、<116132.VALUE>的額外傷害量。若在<COLOR=#FFFFFF>＜淨流＞</COLOR>為<COLOR=#FFFFFF>5</COLOR>疊加使用時，消耗<COLOR=#FFFFFF>＜淨流＞</COLOR>效果後，額外賦予<COLOR=#FFFFFF>＜淨流＞</COLOR>效果1疊加",
       "zh_cn": ""
     },
     {
       "no": 371162,
       "kr": "피해량이 <116231.VALUE>, 추가 피해량이 <116232.VALUE>로 변경된다. 전투 시작 후 <COLOR=#FFFFFF><격류></COLOR> 효과를 획득한다.",
-      "en": "",
+      "en": "Damage changes to <116231.VALUE>, additional damage changes to <116232.VALUE>. Once battle begins, gains the <COLOR=#FFFFFF>\"Clashing Current\"</COLOR>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<116231.VALUE>的傷害量、造成<116232.VALUE>的額外傷害量。戰鬥開始後獲得<COLOR=#FFFFFF>＜激流＞</COLOR>效果",
       "zh_cn": ""
     },
     {
       "no": 371163,
       "kr": "피해량이 <116331.VALUE>, 추가 피해량이 <116332.VALUE>로 변경된다. 전투 시작 후 <COLOR=#FFFFFF><청류></COLOR> 효과를 획득한다.",
-      "en": "",
+      "en": "Damage changes to <116331.VALUE>, additional damage changes to <116332.VALUE>. Once battle begins, gains the <COLOR=#FFFFFF>\"Clear Current\"</COLOR> effect.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<116331.VALUE>的傷害量、造成<116332.VALUE>的額外傷害量。戰鬥開始後獲得<COLOR=#FFFFFF>＜清流＞</COLOR>效果",
       "zh_cn": ""
     },
     {
       "no": 371164,
       "kr": "일반 공격 추가 피해량이 <116031.VALUE>로 변경된다.",
-      "en": "",
+      "en": "Normal attack's additional damage changes to <116031.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "一般攻擊變更為造成<116031.VALUE>的額外傷害量",
       "zh_cn": ""
     },
     {
       "no": 371165,
       "kr": "피해량이 <116531.VALUE>, 추가 피해량이 <116532.VALUE>로 변경된다. 만약 <COLOR=#FFFFFF><세몰></COLOR>, <COLOR=#FFFFFF><격몰></COLOR>, <COLOR=#FFFFFF><청몰></COLOR>을 모두 보유중인 대상에게 해당 스킬을 맞힐 경우 <116538.DURATION>초 동안 <COLOR=#FFFFFF><침몰></COLOR> 디버프를 부여하며 해당 효과가 부여된 동안 대상은 2초마다 시전자의 공격력 <116539.VALUE>의 피해를 입는다. 해당 피해는 지속 피해로 취급되지 않으며 치명타가 발생할 수 있다.",
-      "en": "",
+      "en": "Damage changes to <116531.VALUE>, additional damage changes to <116532.VALUE>. If this skill hits a target inflicted by <COLOR=#FFFFFF>\"Overflush\"</COLOR>, <COLOR=#FFFFFF>\"Raging Surge\"</COLOR>, and <COLOR=#FFFFFF>\"Pure Submersion\"</COLOR> all at the same time, inflicts <COLOR=#FFFFFF>\"Submerion\"</COLOR> for <116538.DURATION> sec. While this debuff is active, the target takes damage equal to <116539.VALUE> of the caster's ATK every 2 sec. This damage does not count as DoT and can land critical hits.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "變更為造成<116531.VALUE>的傷害量、造成<116532.VALUE>的額外傷害量。若該技能擊中<COLOR=#FFFFFF>＜抹淨＞</COLOR>、<COLOR=#FFFFFF>＜狂噬＞</COLOR>、<COLOR=#FFFFFF>＜澄沒＞</COLOR>全都持有的目標，賦予減益效果<COLOR=#FFFFFF>＜淹沒＞</COLOR><116538.DURATION>秒，被賦予該效果期間，目標每2秒受到施展者攻擊力<116539.VALUE>的傷害。該傷害不被視為持續傷害，可觸發暴擊",
       "zh_cn": ""
     },
     {
       "no": 371169,
       "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116933.VALUE> 회복한다.",
-      "en": "",
+      "en": "Whenever a lead Soul uses a main skill, restores all allies' HP and Mana by <116933.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "每當隊長精靈使用主要技能時，恢復所有友軍體力與魔力<116933.VALUE>",
       "zh_cn": ""
     },
     {
@@ -42059,41 +42059,41 @@
     {
       "no": 381161,
       "kr": "파도에 휩쓸려라!",
-      "en": "",
+      "en": "Wash away!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "任波濤襲捲而去吧！",
       "zh_cn": ""
     },
     {
       "no": 381162,
       "kr": "휘몰아치는 물결로!",
-      "en": "",
+      "en": "Surging waters!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "以翻湧而來的浪花！",
       "zh_cn": ""
     },
     {
       "no": 381163,
       "kr": "머리 위를 조심해~!",
-      "en": "",
+      "en": "Heads up!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "小心頭上～！",
       "zh_cn": ""
     },
     {
       "no": 381165,
       "kr": "몰아치는 파도처럼!",
-      "en": "",
+      "en": "Like raging waves!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "有如怒濤洶湧！",
       "zh_cn": ""
     },
     {
       "no": 381169,
       "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116943.VALUE> 회복한다.",
-      "en": "",
+      "en": "Whenever a lead Soul uses a main skill, restores all allies' HP and Mana by <116943.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "每當隊長精靈使用主要技能時，恢復所有友軍體力與魔力<116943.VALUE>",
       "zh_cn": ""
     },
     {
@@ -44683,9 +44683,9 @@
     {
       "no": 391169,
       "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116953.VALUE> 회복한다.",
-      "en": "",
+      "en": "Whenever a lead Soul uses a main skill, restores all allies' HP and Mana by <116953.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "每當隊長精靈使用主要技能時，恢復所有友軍體力與魔力<116953.VALUE>",
       "zh_cn": ""
     },
     {
@@ -45267,9 +45267,9 @@
     {
       "no": 401169,
       "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116963.VALUE> 회복한다.",
-      "en": "",
+      "en": "Whenever a lead Soul uses a main skill, restores all allies' HP and Mana by <116963.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "每當隊長精靈使用主要技能時，恢復所有友軍體力與魔力<116963.VALUE>",
       "zh_cn": ""
     },
     {
@@ -45851,9 +45851,9 @@
     {
       "no": 411169,
       "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116973.VALUE> 회복한다.",
-      "en": "",
+      "en": "Whenever a lead Soul uses a main skill, restores all allies' HP and Mana by <116973.VALUE>.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "每當隊長精靈使用主要技能時，恢復所有友軍體力與魔力<116973.VALUE>",
       "zh_cn": ""
     },
     {
@@ -48179,33 +48179,33 @@
     {
       "no": 703811,
       "kr": "<color=#EDA900>이해, 그러나 부정</COLOR>",
-      "en": "",
+      "en": "<color=#EDA900>Understood, but Denied</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "<color=#EDA900>理解，但否定</COLOR>",
       "zh_cn": ""
     },
     {
       "no": 703812,
       "kr": "<color=#EDA900>종말가담</COLOR>",
-      "en": "",
+      "en": "<color=#EDA900>Partaking in the End</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "<color=#EDA900>參與末日</COLOR>",
       "zh_cn": ""
     },
     {
       "no": 703821,
       "kr": "특정 불사형 정령을 배치할 경우 해당 정령의 능력치가 상승하고, 스킬이 추가 효과를 부여한다.",
-      "en": "",
+      "en": "If a particular Undead Soul is in the party, that Soul's stats are increased and her skills trigger additional effects.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "配置特定不死型精靈時，該精靈的能力值上升，賦予技能額外效果",
       "zh_cn": ""
     },
     {
       "no": 703822,
       "kr": "인과 조작으로 인해 종말을 감지한 무언가가 깨어난다.",
-      "en": "",
+      "en": "Causal Manipulation causes something to sense the End and awaken.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "由於操縱因果，感應到末日的某物甦醒",
       "zh_cn": ""
     },
     {
@@ -48227,7 +48227,7 @@
     {
       "no": 703921,
       "kr": "특정 요정형 정령을 배치할 경우 해당 정령의 능력치가 상승하고, 스킬이 추가 효과를 부여한다. ",
-      "en": "If a particular Fairy Soul is in the party, that Soul's stats are increased and her skills trigger additional effects.",
+      "en": "If a particular Fairy Soul is in the party, that Soul's stats are increased and her skills trigger additional effects. ",
       "ja": "",
       "zh_tw": "配置特定妖精型精靈時，該精靈的能力值上升，賦予技能額外效果",
       "zh_cn": ""
@@ -48235,7 +48235,7 @@
     {
       "no": 703922,
       "kr": "흉몽에 의해 타락한 숲의 생명들이 나비의 전투를 돕는다.",
-      "en": "Forest creatures corrupted by the Dream of Omen rise to aid the butterfly in battle.",
+      "en": "Forest creatures corrupted by the ominous dream rise to aid the butterfly in battle.",
       "ja": "",
       "zh_tw": "因凶夢而墮落的森林生命助蝴蝶的戰鬥一臂之力",
       "zh_cn": ""
@@ -49523,49 +49523,49 @@
     {
       "no": 3419128,
       "kr": "가온 연합의 힘",
-      "en": "",
+      "en": "Gaon Alliance Power",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "加溫聯合力量",
       "zh_cn": ""
     },
     {
       "no": 3419130,
       "kr": "칼라르 연합의 힘",
-      "en": "",
+      "en": "Chalar Alliance Power",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "卡拉爾聯合力量",
       "zh_cn": ""
     },
     {
       "no": 3419131,
       "kr": "타브리아 연합의 힘",
-      "en": "",
+      "en": "Tabria Alliance Power",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "塔布里亞聯合力量",
       "zh_cn": ""
     },
     {
       "no": 3419133,
       "kr": "솔레이 연합의 힘",
-      "en": "",
+      "en": "Solrey Alliance Power",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "蘇萊伊聯合力量",
       "zh_cn": ""
     },
     {
       "no": 3419134,
       "kr": "아우렐리아 연합의 힘",
-      "en": "",
+      "en": "Aurelia Alliance Power",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "奧里利亞聯合力量",
       "zh_cn": ""
     },
     {
       "no": 3419135,
       "kr": "트로이카 연합의 힘",
-      "en": "",
+      "en": "Troyca Alliance Power",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "特羅伊卡聯合力量",
       "zh_cn": ""
     },
     {
@@ -50867,9 +50867,9 @@
     {
       "no": 3519128,
       "kr": "에덴 연합 작전에 참여한 대표자를 위한 특별한 효과",
-      "en": "",
+      "en": "Special effects for the champions who took part in Operation Eden Alliance",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "為伊甸園聯合作戰的參加代表準備的特別效果",
       "zh_cn": ""
     },
     {
@@ -55691,41 +55691,41 @@
     {
       "no": 8000201,
       "kr": "적의 능력치가 상승하고 그 중 공격 능력이 크게 상승한다.",
-      "en": "",
+      "en": "Increases the stats of the enemies, especially attack-related ones.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "敵人的能力值上升，其中攻擊能力大幅提升",
       "zh_cn": ""
     },
     {
       "no": 8000202,
       "kr": "적의 능력치가 상승하고 그 중 방어 능력이 크게 상승한다.",
-      "en": "",
+      "en": "Increases the stats of the enemies, especially defense-related ones.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "敵人的能力值上升，其中防禦能力大幅提升",
       "zh_cn": ""
     },
     {
       "no": 8000203,
       "kr": "적의 능력치가 고루 상승한다.",
-      "en": "",
+      "en": "Evenly increases the stats of the enemies.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "敵人的能力值均勻上升",
       "zh_cn": ""
     },
     {
       "no": 8000204,
       "kr": "적의 능력치가 전체적으로 대폭 상승하지만 일정 시간 동안은 크게 약화된다.",
-      "en": "",
+      "en": "Considerably increases the overall stats of the enemies, but greatly lowers them for a brief time.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "敵人的能力值整體大幅上升，但在一定時間內大幅減弱",
       "zh_cn": ""
     },
     {
       "no": 8000205,
       "kr": "적의 공격 능력이 대폭 낮아지지만 방어 능력이 극한으로 상승한다.",
-      "en": "",
+      "en": "Greatly lowers the enemies' attack-related stats while extremely increasing their defense-related stats.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "敵人的攻擊能力大幅降低，但防禦能力提升到極限",
       "zh_cn": ""
     },
     {
@@ -55747,9 +55747,9 @@
     {
       "no": 8060201,
       "kr": "해당 스트라이브 시스템에 입장하기 위해서는\r\n\r\n기원의 탑 - 리젤로테의 60층 클리어가 필요합니다.",
-      "en": "",
+      "en": "Clear Lizelotte Tower of Origin 60F\r\n\r\nto unlock this Strive System.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "欲進入該奮戰系統\r\n\r\n須通關起源之塔－莉澤洛特60層。",
       "zh_cn": ""
     },
     {
@@ -57803,33 +57803,33 @@
     {
       "no": 34321181,
       "kr": "천지개벽 - 환영",
-      "en": "",
+      "en": "Cosmic Upheaval - Illusion",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "開天闢地—幻影",
       "zh_cn": ""
     },
     {
       "no": 34321182,
       "kr": "황천염도 - 환영",
-      "en": "",
+      "en": "Infernal Blade of the Nether - Illusion",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "黃泉閻刀—幻影",
       "zh_cn": ""
     },
     {
       "no": 34321183,
       "kr": "열공참 - 광",
-      "en": "",
+      "en": "Fiery Slash - Vast",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "裂空斬—廣",
       "zh_cn": ""
     },
     {
       "no": 34321184,
       "kr": "시련의 지배자",
-      "en": "",
+      "en": "Ruler of Ordeals",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "考驗的統治者",
       "zh_cn": ""
     },
     {
@@ -58499,9 +58499,9 @@
     {
       "no": 34951101,
       "kr": "영원한 순풍",
-      "en": "",
+      "en": "Eternal Tailwind",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "永恆的順風",
       "zh_cn": ""
     },
     {
@@ -60587,33 +60587,33 @@
     {
       "no": 35321181,
       "kr": "가장 멀리 있는 적을 대상으로 검기를 날려 경로 상의 모든 적에게 공격력 <3211810.VALUE>의 피해를 입히고, <3211811.DURATION>초 동안 <COLOR=#FFFFFF>2</COLOR>초마다 공격력 <3211812.VALUE>의 피해를 입는 <COLOR=#FFFFFF><환영 상처></COLOR> 상태를 부여한다.(해제 가능)",
-      "en": "",
+      "en": "Unleashes a sword blast toward the farthest enemy, dealing damage equal to <3211810.VALUE> of ATK to all enemies in its path and inflicting <COLOR=#FFFFFF>\"Illusory Wound\"</COLOR> on them for <3211811.DURATION> sec, which deals DoT equal to <3211812.VALUE> of ATK every <COLOR=#FFFFFF>2</COLOR> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "以最遙遠的敵人為目標射出劍氣，對路徑上的所有敵人造成攻擊力<3211810.VALUE>的傷害，<3211811.DURATION>秒內賦予<COLOR=#FFFFFF>＜幻影傷口＞</COLOR>狀態，每<COLOR=#FFFFFF>2</COLOR>秒受到攻擊力<3211812.VALUE>的傷害",
       "zh_cn": ""
     },
     {
       "no": 35321182,
       "kr": "가장 가까운 적을 대상으로 직선 범위로 검기를 날려 범위 내 모든 적에게 공격력 <3211820.VALUE>의 피해를 입히고 영구적으로 <COLOR=#FFFFFF>2</COLOR>초마다 공격력 <3211821.VALUE>의 화상 지속 피해를 입는 <COLOR=#FFFFFF><영겁의 화염></COLOR> 상태를 부여한다.",
-      "en": "",
+      "en": "Unleashes a sword blast in a straight line, dealing damage equal to <3211820.VALUE> of ATK to all enemies in that line and permanently inflicting <COLOR=#FFFFFF>\"Eternal Flame\"</COLOR> on them, which deals Burn DoT equal to <3211821.VALUE> of ATK every <COLOR=#FFFFFF>2</COLOR> sec (cancellable).",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "在直線範圍射出劍氣，對直線範圍上的所有敵人造成攻擊力<3211820.VALUE>的傷害，永久賦予<COLOR=#FFFFFF>＜永劫火焰＞</COLOR>狀態，每<COLOR=#FFFFFF>2</COLOR>秒造成攻擊力<3211821.VALUE>的燒傷傷害（可解除）",
       "zh_cn": ""
     },
     {
       "no": 35321183,
       "kr": "모든 적을 지목하고 허공을 갈라 모든 적에게 공격력 <3211830.VALUE>의 피해를 입히고, <3211831.DURATION>초 동안 가속을 <3211831.VALUE> 감소시킨다. (해제 가능)",
-      "en": "",
+      "en": "Targets all enemies and cleaves the air, dealing damage equal to <3211830.VALUE> of ATK to them and decreasing their Speed by <3211831.VALUE> for <3211831.DURATION> sec (cancellable).",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "指定所有敵人，劃破虛空，對所有敵人造成攻擊力<3211830.VALUE>的傷害，<3211831.DURATION>秒內加速減少<3211831.VALUE>（可解除）",
       "zh_cn": ""
     },
     {
       "no": 35321184,
       "kr": "전투 시작 이후 <3211841.DURATION>초마다 단계가 해방된다.\r\n<COLOR=#00B700><환영 1식 - 호></COLOR>\r\n모든 적의 가하는 피해와 받는 최종 피해가 <3211842.VALUE> 증가한다.\r\n\r\n<COLOR=#00B700><환영 2식 - 령></COLOR>\r\n<3211846.DURATION>초마다 모든 적에게 공격력 <3211847.VALUE>의 피해를 입힌다.\r\n\r\n<COLOR=#00B700><환영 3식 - 천></COLOR>\r\n적 전체의 체력 회복량이 <3211849.VALUE> 감소한다. \r\n\r\n<COLOR=#00B700><환영 4식 - 하></COLOR>\r\n<3211851.DURATION>초마다 모두의 <color=#4ABFD3>마나가 최대로 회복된다.</color>",
-      "en": "",
+      "en": "battle begins progresses to the next form every <3211841.DURATION> sec.\r\n\r\n\"Illusion Form 1 - Rule\" - Increases all enemies' damage dealt and total damage received by <3211842.VALUE>.\r\n\"Illusion Form 2 - Over\" - Deals DoT equal to <3211847.VALUE> of ATK to all enemies every <3211842.DURATION> sec.\r\n\"Illusion Form 3 - All\" - Decreases Recovery of all enemies by <3211849.VALUE>.\r\n\"Illusion Form 4 - Lands\" - Fully restores everyone's Mana every <3211851.DURATION> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "戰鬥開始每<3211841.DURATION>秒解放階段。\r\n\r\n＜幻影1式—稱＞－所有敵人的造成傷害和所受最終傷害增加<3211842.VALUE>\r\n＜幻影2式—霸＞－每<3211842.DURATION>秒對所有敵人造成攻擊力<3211847.VALUE>的傷害\r\n＜幻影3式—天＞－所有敵人的體力恢復量減少<3211849.VALUE>\r\n＜幻影4式—下＞－每<3211851.DURATION>秒將所有人的魔力恢復至上限",
       "zh_cn": ""
     },
     {
@@ -61194,10 +61194,10 @@
     },
     {
       "no": 35661081,
-      "kr": "if(guardian.power <= destoryer.power)\r\n{\r\n    gu-r--an.de------------;\r\n    Sa--Th-W--ld(g-------n, destroyer);\r\n}else{\r\n    if(g-------.------ > 0){\r\n        <size=24><COLOR=#FFFFFF>destoryer = guardian;</COLOR></size>\r\n    }\r\n}",
-      "en": "if(guardian.power <= destoryer.power)\r\n{\r\n    gu-r--an.de------------;\r\n    Sa--Th-W--ld(g-------n, destroyer);\r\n}else{\r\n    if(g-------.------ > 0){\r\n        <size=24><COLOR=#FFFFFF>destoryer = guardian;</COLOR></size>\r\n    }\r\n}",
+      "kr": "if(guardian.power <= destroyer.power)\r\n{\r\n    gu-r--an.de------------;\r\n    Sa--Th-W--ld(g-------n, destroyer);\r\n}else{\r\n    if(g-------.------ > 0){\r\n        <size=24><COLOR=#FFFFFF>destroyer = guardian;</COLOR></size>\r\n    }\r\n}",
+      "en": "if(guardian.power <= destroyer.power)\r\n{\r\n    gu-r--an.de------------;\r\n    Sa--Th-W--ld(g-------n, destroyer);\r\n}else{\r\n    if(g-------.------ > 0){\r\n        <size=24><COLOR=#FFFFFF>destroyer = guardian;</COLOR></size>\r\n    }\r\n}",
       "ja": "",
-      "zh_tw": "if(guardian.power <= destoryer.power)\r\n{\r\n    gu-r--an.de------------;\r\n    Sa--Th-W--ld(g-------n, destroyer);\r\n}else{\r\n    if(g-------.------ > 0){\r\n        <size=24><COLOR=#FFFFFF>destoryer = guardian;</COLOR></size>\r\n    }\r\n}",
+      "zh_tw": "if(guardian.power <= destroyer.power)\r\n{\r\n    gu-r--an.de------------;\r\n    Sa--Th-W--ld(g-------n, destroyer);\r\n}else{\r\n    if(g-------.------ > 0){\r\n        <size=24><COLOR=#FFFFFF>destroyer = guardian;</COLOR></size>\r\n    }\r\n}",
       "zh_cn": ""
     },
     {
@@ -61251,9 +61251,9 @@
     {
       "no": 35951101,
       "kr": "모든 아군 가속 30% 증가",
-      "en": "",
+      "en": "All allies: +30% Speed",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "所有友軍加速增加30%",
       "zh_cn": ""
     },
     {
@@ -62475,49 +62475,49 @@
     {
       "no": 343211811,
       "kr": "영겁의 화염",
-      "en": "",
+      "en": "Eternal Flame",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "永劫火焰",
       "zh_cn": ""
     },
     {
       "no": 343211841,
       "kr": "환영 1식 - 호",
-      "en": "",
+      "en": "Illusion Form 1 - Rule",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "幻影1式—稱",
       "zh_cn": ""
     },
     {
       "no": 343211842,
       "kr": "환영 상처",
-      "en": "",
+      "en": "Illusory Wound",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "幻影傷口",
       "zh_cn": ""
     },
     {
       "no": 343211845,
       "kr": "환영 2식 - 령",
-      "en": "",
+      "en": "Illusion Form 2 - Over",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "幻影2式—霸",
       "zh_cn": ""
     },
     {
       "no": 343211848,
       "kr": "환영 3식 - 천",
-      "en": "",
+      "en": "Illusion Form 3 - All",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "幻影3式—天",
       "zh_cn": ""
     },
     {
       "no": 343211850,
       "kr": "환영 4식 - 하",
-      "en": "",
+      "en": "Illusion Form 4 - Lands",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "幻影4式—下",
       "zh_cn": ""
     },
     {
@@ -62595,33 +62595,33 @@
     {
       "no": 353211821,
       "kr": "가하는 피해와 받는 피해가 10% 증가한다.",
-      "en": "",
+      "en": "Increases damage dealt and total damage received by 10%.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "造成傷害和所受傷害增加10%",
       "zh_cn": ""
     },
     {
       "no": 353211846,
       "kr": "10초 마다 적 전체에게 공격력 100%의 피해를 입힌다",
-      "en": "",
+      "en": "Deals damage equal to 100% of ATK to all enemies every 10 sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "每10秒對所有敵軍造成攻擊力100%傷害",
       "zh_cn": ""
     },
     {
       "no": 353211849,
       "kr": "받는 체력 회복량이 20% 감소한다.",
-      "en": "",
+      "en": "Decreases Recovery by 20%.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "所受體力恢復量減少20%",
       "zh_cn": ""
     },
     {
       "no": 353211851,
       "kr": "20초 마다 마나가 최대로 회복된다.",
-      "en": "",
+      "en": "Mana is fully restored every 20 sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "每20秒將魔力恢復到上限",
       "zh_cn": ""
     },
     {
