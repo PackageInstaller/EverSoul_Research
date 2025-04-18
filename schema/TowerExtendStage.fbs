@@ -1,0 +1,21 @@
+namespace TowerExtendStage;
+
+table Deserialization {
+    no: int32;
+    floor: int32;
+    stage_type: int32;
+    name_sno: int32;
+    enemy_group: int32;
+    map: string;
+    battle_time: int32;
+    enemy_contents_buff_title_sno: int32;
+    enemy_contents_buff_content_sno: int32;
+    enemy_contents_buff: int32;
+    enemy_battle_buff: int32;
+}
+
+table TowerExtendStage {
+    json: [Deserialization];
+}
+
+root_type TowerExtendStage;

@@ -1,0 +1,15 @@
+namespace EventDiceGoalPoint;
+
+table Deserialization {
+    no: int32;
+    goal_point_group: int32;
+    is_repeat: int32;
+    goal_no: int32;
+    reward_point: int32;
+}
+
+table EventDiceGoalPoint {
+    json: [Deserialization];
+}
+
+root_type EventDiceGoalPoint;

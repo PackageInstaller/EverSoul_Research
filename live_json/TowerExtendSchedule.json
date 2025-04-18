@@ -1,0 +1,36 @@
+{
+  "json": [
+    {
+      "no": 1,
+      "tower_extend_no": 1001,
+      "server_check": 1,
+      "play_schedule_key": "GS_1_0001_P",
+      "calculate_schedule_key": "GS_1_0001_C",
+      "reward_schedule_key": "GS_1_0001_R"
+    },
+    {
+      "no": 2,
+      "tower_extend_no": 1001,
+      "server_check": 2,
+      "play_schedule_key": "GS_2_0001_P",
+      "calculate_schedule_key": "GS_2_0001_C",
+      "reward_schedule_key": "GS_2_0001_R"
+    },
+    {
+      "no": 3,
+      "tower_extend_no": 1001,
+      "server_check": 3,
+      "play_schedule_key": "GS_3_0001_P",
+      "calculate_schedule_key": "GS_3_0001_C",
+      "reward_schedule_key": "GS_3_0001_R"
+    },
+    {
+      "no": 4,
+      "tower_extend_no": 1001,
+      "server_check": 4,
+      "play_schedule_key": "GS_4_0001_P",
+      "calculate_schedule_key": "GS_4_0001_C",
+      "reward_schedule_key": "GS_4_0001_R"
+    }
+  ]
+}

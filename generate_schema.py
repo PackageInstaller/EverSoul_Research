@@ -99,7 +99,7 @@ def generate_fsb(struct_name, properties):
 
 def main():
     input_file = 'dump.cs'
-    output_dir = 'schemas'
+    output_dir = 'schema'
 
     if not os.path.exists(input_file):
         print(f"Error: {input_file} 不存在。")

@@ -1,0 +1,124 @@
+{
+  "json": [
+    {
+      "no": 101,
+      "extend_no": 1001,
+      "rank_from": 1,
+      "rank_to": 1,
+      "reward_item1_no": 2,
+      "reward_item1_amount": 1000,
+      "reward_item2_no": 45,
+      "reward_item2_amount": 20,
+      "reward_item3_no": 4,
+      "reward_item3_amount": 15000
+    },
+    {
+      "no": 102,
+      "extend_no": 1001,
+      "rank_from": 2,
+      "rank_to": 2,
+      "reward_item1_no": 2,
+      "reward_item1_amount": 900,
+      "reward_item2_no": 45,
+      "reward_item2_amount": 18,
+      "reward_item3_no": 4,
+      "reward_item3_amount": 12500
+    },
+    {
+      "no": 103,
+      "extend_no": 1001,
+      "rank_from": 3,
+      "rank_to": 3,
+      "reward_item1_no": 2,
+      "reward_item1_amount": 800,
+      "reward_item2_no": 45,
+      "reward_item2_amount": 15,
+      "reward_item3_no": 4,
+      "reward_item3_amount": 10000
+    },
+    {
+      "no": 104,
+      "extend_no": 1001,
+      "rank_from": 4,
+      "rank_to": 10,
+      "reward_item1_no": 2,
+      "reward_item1_amount": 750,
+      "reward_item2_no": 45,
+      "reward_item2_amount": 14,
+      "reward_item3_no": 4,
+      "reward_item3_amount": 9500
+    },
+    {
+      "no": 105,
+      "extend_no": 1001,
+      "rank_from": 11,
+      "rank_to": 25,
+      "reward_item1_no": 2,
+      "reward_item1_amount": 700,
+      "reward_item2_no": 45,
+      "reward_item2_amount": 13,
+      "reward_item3_no": 4,
+      "reward_item3_amount": 9000
+    },
+    {
+      "no": 106,
+      "extend_no": 1001,
+      "rank_from": 26,
+      "rank_to": 100,
+      "reward_item1_no": 2,
+      "reward_item1_amount": 650,
+      "reward_item2_no": 45,
+      "reward_item2_amount": 12,
+      "reward_item3_no": 4,
+      "reward_item3_amount": 8500
+    },
+    {
+      "no": 107,
+      "extend_no": 1001,
+      "rank_from": 101,
+      "rank_to": 250,
+      "reward_item1_no": 2,
+      "reward_item1_amount": 600,
+      "reward_item2_no": 45,
+      "reward_item2_amount": 11,
+      "reward_item3_no": 4,
+      "reward_item3_amount": 8000
+    },
+    {
+      "no": 108,
+      "extend_no": 1001,
+      "rank_from": 251,
+      "rank_to": 500,
+      "reward_item1_no": 2,
+      "reward_item1_amount": 550,
+      "reward_item2_no": 45,
+      "reward_item2_amount": 9,
+      "reward_item3_no": 4,
+      "reward_item3_amount": 7000
+    },
+    {
+      "no": 109,
+      "extend_no": 1001,
+      "rank_from": 501,
+      "rank_to": 1000,
+      "reward_item1_no": 2,
+      "reward_item1_amount": 500,
+      "reward_item2_no": 45,
+      "reward_item2_amount": 7,
+      "reward_item3_no": 4,
+      "reward_item3_amount": 6000
+    },
+    {
+      "no": 110,
+      "extend_no": 1001,
+      "rank_from": 1001,
+      "rank_to": 10000000,
+      "reward_item1_no": 2,
+      "reward_item1_amount": 500,
+      "reward_item2_no": 45,
+      "reward_item2_amount": 5,
+      "reward_item3_no": 4,
+      "reward_item3_amount": 5000
+    }
+  ]
+}

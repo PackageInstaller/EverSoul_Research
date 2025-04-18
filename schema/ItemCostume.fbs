@@ -10,6 +10,7 @@ table Deserialization {
     icon_path: string;
     portrait_path: string;
     controller_path: string;
+    scale_set: float;
 }
 
 table ItemCostume {

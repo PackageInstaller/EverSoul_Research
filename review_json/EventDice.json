@@ -1,0 +1,15 @@
+{
+  "json": [
+    {
+      "no": 1001,
+      "event_group": 1,
+      "event_number": 1,
+      "slot_group": 1,
+      "goal_point_group": 1,
+      "reward_group": 1,
+      "hero_no": 1160,
+      "bg_path": "bg_Dice_main",
+      "dice_path": "JihoSideEvent"
+    }
+  ]
+}

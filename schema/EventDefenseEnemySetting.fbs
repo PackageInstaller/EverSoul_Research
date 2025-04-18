@@ -7,6 +7,8 @@ table Deserialization {
     timeline_path: string;
     timeline_name: string;
     monster_type: int32;
+    monster_move_type: int32;
+    max_count: int32;
     scale: int32;
     movedelay: int32;
     movespeed: int32;
