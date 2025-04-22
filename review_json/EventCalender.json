@@ -1104,6 +1104,14 @@
     },
     {
       "no": 128,
+      "name_sno": 92077,
+      "type": 2,
+      "gacha_no": 567,
+      "bar_name": "bar_event_calendar_list5",
+      "schedule_key": "Calender_PickUp_Weiss"
+    },
+    {
+      "no": 129,
       "name_sno": 11199,
       "type": 3,
       "event_type": 2,
@@ -1112,7 +1120,7 @@
       "schedule_key": "Calender_Rotation_Trip"
     },
     {
-      "no": 129,
+      "no": 130,
       "name_sno": 12065,
       "type": 3,
       "event_type": 2,
@@ -1121,7 +1129,7 @@
       "schedule_key": "Calender_Rotation_Heart"
     },
     {
-      "no": 130,
+      "no": 131,
       "name_sno": 11151,
       "type": 3,
       "event_type": 2,
@@ -1130,7 +1138,7 @@
       "schedule_key": "Calender_Rotation_Arena"
     },
     {
-      "no": 131,
+      "no": 132,
       "name_sno": 11145,
       "type": 3,
       "event_type": 2,
@@ -1139,7 +1147,7 @@
       "schedule_key": "Calender_Rotation_Labyrinth"
     },
     {
-      "no": 132,
+      "no": 133,
       "name_sno": 11175,
       "type": 3,
       "event_type": 2,
@@ -1148,7 +1156,7 @@
       "schedule_key": "Calender_Rotation_Champions"
     },
     {
-      "no": 133,
+      "no": 134,
       "name_sno": 11369,
       "type": 3,
       "event_type": 2,
@@ -1157,7 +1165,7 @@
       "schedule_key": "Calender_Rotation_DualGate"
     },
     {
-      "no": 134,
+      "no": 135,
       "name_sno": 11125,
       "type": 3,
       "event_type": 2,
@@ -1166,7 +1174,7 @@
       "schedule_key": "Calender_Rotation_AutoArbeit"
     },
     {
-      "no": 135,
+      "no": 136,
       "name_sno": 11553,
       "type": 3,
       "event_type": 2,
@@ -1175,7 +1183,7 @@
       "schedule_key": "Calender_Rotation_Arena2"
     },
     {
-      "no": 136,
+      "no": 137,
       "name_sno": 11551,
       "type": 3,
       "event_type": 2,
@@ -1184,7 +1192,7 @@
       "schedule_key": "Calender_Rotation_Labyrinth2"
     },
     {
-      "no": 137,
+      "no": 138,
       "name_sno": 11554,
       "type": 3,
       "event_type": 2,
@@ -1193,7 +1201,7 @@
       "schedule_key": "Calender_Rotation_Champions2"
     },
     {
-      "no": 138,
+      "no": 139,
       "name_sno": 11552,
       "type": 3,
       "event_type": 2,
@@ -1202,7 +1210,7 @@
       "schedule_key": "Calender_Rotation_DualGate2"
     },
     {
-      "no": 139,
+      "no": 140,
       "name_sno": 11555,
       "type": 3,
       "event_type": 2,

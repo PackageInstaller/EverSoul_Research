@@ -1724,23 +1724,23 @@
       "index": 216,
       "schedule_key": "Cashshop_Special_May",
       "schedule_type": 1,
-      "start_date": "2025-05-01 00:00:00",
-      "end_date": "2025-05-08 00:00:00",
+      "start_date": "2023-01-19 01:00:00",
+      "end_date": "2025-05-01 00:00:00",
       "value_date01": ""
     },
     {
       "index": 217,
       "schedule_key": "Cashshop_Special_GrowupPack",
       "schedule_type": 1,
-      "start_date": "2025-04-17 00:00:00",
-      "end_date": "2025-05-01 00:00:00",
+      "start_date": "2023-01-19 01:00:00",
+      "end_date": "2025-05-08 00:00:00",
       "value_date01": ""
     },
     {
       "index": 218,
       "schedule_key": "Cashshop_Pickup_JihoMir",
       "schedule_type": 1,
-      "start_date": "2025-04-17 00:00:00",
+      "start_date": "2023-01-19 01:00:00",
       "end_date": "2025-05-08 00:00:00",
       "value_date01": ""
     },
@@ -1748,7 +1748,7 @@
       "index": 219,
       "schedule_key": "Cashshop_Heropass_JihoMir",
       "schedule_type": 1,
-      "start_date": "2025-04-17 00:00:00",
+      "start_date": "2023-01-19 01:00:00",
       "end_date": "2025-05-22 00:00:00",
       "value_date01": ""
     },
@@ -1756,41 +1756,41 @@
       "index": 220,
       "schedule_key": "Cashshop_Bundle_Side_JihoMir",
       "schedule_type": 1,
-      "start_date": "2025-04-17 00:00:00",
-      "end_date": "2025-05-07 23:00:00",
+      "start_date": "2023-01-19 01:00:00",
+      "end_date": "2025-05-08 00:00:00",
       "value_date01": ""
     },
     {
       "index": 221,
       "schedule_key": "Cashshop_Event_Side_JihoMir",
       "schedule_type": 1,
-      "start_date": "2025-04-17 00:00:00",
-      "end_date": "2025-05-07 23:00:00",
+      "start_date": "2023-01-19 01:00:00",
+      "end_date": "2025-05-22 00:00:00",
       "value_date01": ""
     },
     {
       "index": 222,
       "schedule_key": "Cashshop_Pickup_Everschool_2025_Yuria_R",
       "schedule_type": 1,
-      "start_date": "2025-05-01 00:00:00",
-      "end_date": "2025-05-08 00:00:00",
+      "start_date": "2023-01-19 01:00:00",
+      "end_date": "2025-05-22 00:00:00",
       "value_date01": ""
     },
     {
       "index": 20001,
       "schedule_key": "EdenUnion_fayren",
       "schedule_type": 2,
-      "start_date": "2025-03-27 00:00:00",
-      "end_date": "2025-04-10 00:00:00",
-      "value_date01": "2025-04-24 00:00:00"
+      "start_date": "2023-02-09 01:00:00",
+      "end_date": "2023-03-02 00:00:00",
+      "value_date01": "2023-03-03 00:00:00"
     },
     {
       "index": 20002,
       "schedule_key": "EdenUnion_chalar",
       "schedule_type": 2,
-      "start_date": "2025-04-24 00:00:00",
-      "end_date": "2025-05-08 00:00:00",
-      "value_date01": "2025-05-22 00:00:00"
+      "start_date": "2025-04-09 00:00:00",
+      "end_date": "2025-04-23 00:00:00",
+      "value_date01": "2025-04-30 00:00:00"
     },
     {
       "index": 30001,
@@ -2908,7 +2908,7 @@
       "index": 40001,
       "schedule_key": "EventInfo_Special01_Attend",
       "schedule_type": 4,
-      "start_date": "2025-05-01 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-15 00:00:00",
       "value_date01": "2025-05-15 00:00:00"
     },
@@ -2916,7 +2916,7 @@
       "index": 40002,
       "schedule_key": "EventInfo_EverSchool2_Return_Attend",
       "schedule_type": 4,
-      "start_date": "2025-05-01 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-15 00:00:00",
       "value_date01": "2025-05-15 00:00:00"
     },
@@ -2924,7 +2924,7 @@
       "index": 40003,
       "schedule_key": "EventInfo_EverSchool2_Return_Main",
       "schedule_type": 4,
-      "start_date": "2025-05-01 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-15 00:00:00",
       "value_date01": "2025-05-22 00:00:00"
     },
@@ -2932,7 +2932,7 @@
       "index": 40004,
       "schedule_key": "EventInfo_EverSchool2_Return_Stage",
       "schedule_type": 4,
-      "start_date": "2025-05-01 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-15 00:00:00",
       "value_date01": "2025-05-22 00:00:00"
     },
@@ -2940,7 +2940,7 @@
       "index": 40005,
       "schedule_key": "EventInfo_EverSchool2_Return_Pass",
       "schedule_type": 4,
-      "start_date": "2025-05-01 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-22 00:00:00",
       "value_date01": "2025-05-22 00:00:00"
     },
@@ -2948,7 +2948,7 @@
       "index": 40006,
       "schedule_key": "EventInfo_Side_Jiho_Attend",
       "schedule_type": 4,
-      "start_date": "2025-04-17 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-01 00:00:00",
       "value_date01": "2025-05-01 00:00:00"
     },
@@ -2956,7 +2956,7 @@
       "index": 40007,
       "schedule_key": "EventInfo_Side_Jiho_Main",
       "schedule_type": 4,
-      "start_date": "2025-04-17 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-01 00:00:00",
       "value_date01": "2025-05-08 00:00:00"
     },
@@ -2964,7 +2964,7 @@
       "index": 40008,
       "schedule_key": "EventInfo_Side_Jiho_Quest",
       "schedule_type": 4,
-      "start_date": "2025-04-17 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-01 00:00:00",
       "value_date01": "2025-05-01 00:00:00"
     },
@@ -2972,7 +2972,7 @@
       "index": 40009,
       "schedule_key": "EventInfo_Side_Jiho_Infinity",
       "schedule_type": 4,
-      "start_date": "2025-04-17 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-01 00:00:00",
       "value_date01": "2025-05-08 00:00:00"
     },
@@ -2980,7 +2980,7 @@
       "index": 40010,
       "schedule_key": "EventInfo_Side_Jiho_Minigame",
       "schedule_type": 4,
-      "start_date": "2025-04-17 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-01 00:00:00",
       "value_date01": "2025-05-01 00:00:00"
     },
@@ -2988,7 +2988,7 @@
       "index": 40011,
       "schedule_key": "EventInfo_Side_Jiho_Rewardgame",
       "schedule_type": 4,
-      "start_date": "2025-04-17 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-08 00:00:00",
       "value_date01": "2025-05-08 00:00:00"
     },
@@ -2996,7 +2996,7 @@
       "index": 40012,
       "schedule_key": "EventInfo_Side_Jiho_Pass",
       "schedule_type": 4,
-      "start_date": "2025-04-17 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-08 00:00:00",
       "value_date01": "2025-05-08 00:00:00"
     },
@@ -4310,13 +4310,13 @@
       "schedule_type": 4,
       "start_date": "2025-04-03 00:00:00",
       "end_date": "2025-04-10 00:00:00",
-      "value_date01": "2025-04-17 00:00:00"
+      "value_date01": "2025-04-11 00:00:00"
     },
     {
       "index": 40177,
       "schedule_key": "EventInfo_QuestGuildRaid_33",
       "schedule_type": 4,
-      "start_date": "2025-04-24 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-01 00:00:00",
       "value_date01": "2025-05-08 00:00:00"
     },
@@ -4700,7 +4700,7 @@
       "index": 50020,
       "schedule_key": "Gacha_513",
       "schedule_type": 5,
-      "start_date": "2025-04-24 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-01 00:00:00",
       "value_date01": ""
     },
@@ -4732,7 +4732,7 @@
       "index": 50024,
       "schedule_key": "Gacha_517",
       "schedule_type": 5,
-      "start_date": "2025-05-08 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-15 00:00:00",
       "value_date01": ""
     },
@@ -4788,7 +4788,7 @@
       "index": 50031,
       "schedule_key": "Gacha_524",
       "schedule_type": 5,
-      "start_date": "2025-05-05 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-12 00:00:00",
       "value_date01": ""
     },
@@ -4820,7 +4820,7 @@
       "index": 50035,
       "schedule_key": "Gacha_528",
       "schedule_type": 5,
-      "start_date": "2025-05-01 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-08 00:00:00",
       "value_date01": ""
     },
@@ -4924,7 +4924,7 @@
       "index": 50048,
       "schedule_key": "Gacha_541",
       "schedule_type": 5,
-      "start_date": "2025-04-17 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-01 00:00:00",
       "value_date01": ""
     },
@@ -5164,7 +5164,7 @@
       "index": 50078,
       "schedule_key": "Gacha_571",
       "schedule_type": 5,
-      "start_date": "2025-04-17 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-08 00:00:00",
       "value_date01": ""
     },
@@ -5636,7 +5636,7 @@
       "index": 55024,
       "schedule_key": "Gate_517",
       "schedule_type": 5,
-      "start_date": "2025-05-08 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-09 00:00:00",
       "value_date01": ""
     },
@@ -5692,7 +5692,7 @@
       "index": 55031,
       "schedule_key": "Gate_524",
       "schedule_type": 5,
-      "start_date": "2025-05-05 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-05-06 00:00:00",
       "value_date01": ""
     },
@@ -5828,7 +5828,7 @@
       "index": 55048,
       "schedule_key": "Gate_541",
       "schedule_type": 5,
-      "start_date": "2025-04-17 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-04-18 00:00:00",
       "value_date01": ""
     },
@@ -6068,7 +6068,7 @@
       "index": 55078,
       "schedule_key": "Gate_571",
       "schedule_type": 5,
-      "start_date": "2025-04-17 00:00:00",
+      "start_date": "2025-04-11 00:00:00",
       "end_date": "2025-04-18 00:00:00",
       "value_date01": ""
     },
@@ -6758,13 +6758,13 @@
       "schedule_type": 7,
       "start_date": "2025-03-07 00:00:00",
       "end_date": "2025-03-27 00:00:00",
-      "value_date01": "2025-03-28 00:00:00"
+      "value_date01": "2025-04-15 00:00:00"
     },
     {
       "index": 70023,
       "schedule_key": "SingleRaid_3_46",
       "schedule_type": 7,
-      "start_date": "2025-03-28 00:00:00",
+      "start_date": "2025-04-15 00:00:00",
       "end_date": "2025-04-24 00:00:00",
       "value_date01": "2025-05-08 00:00:00"
     },
@@ -6972,96 +6972,96 @@
       "index": 90001,
       "schedule_key": "GS_1_0001_P",
       "schedule_type": 9,
-      "start_date": "2025-04-24 00:00:00",
-      "end_date": "2025-05-01 00:00:00",
+      "start_date": "2025-04-21 00:00:00",
+      "end_date": "2025-04-23 00:00:00",
       "value_date01": ""
     },
     {
       "index": 90002,
       "schedule_key": "GS_1_0001_C",
       "schedule_type": 9,
-      "start_date": "2025-05-01 00:00:00",
-      "end_date": "2025-05-02 00:00:00",
+      "start_date": "2025-04-23 00:00:00",
+      "end_date": "2025-04-24 00:00:00",
       "value_date01": ""
     },
     {
       "index": 90003,
       "schedule_key": "GS_1_0001_R",
       "schedule_type": 9,
-      "start_date": "2025-05-02 00:00:00",
-      "end_date": "2025-05-23 00:00:00",
+      "start_date": "2025-04-24 00:00:00",
+      "end_date": "2025-04-30 00:00:00",
       "value_date01": ""
     },
     {
       "index": 90004,
       "schedule_key": "GS_2_0001_P",
       "schedule_type": 9,
-      "start_date": "2025-04-24 00:00:00",
-      "end_date": "2025-05-01 00:00:00",
+      "start_date": "2025-04-21 00:00:00",
+      "end_date": "2025-04-23 00:00:00",
       "value_date01": ""
     },
     {
       "index": 90005,
       "schedule_key": "GS_2_0001_C",
       "schedule_type": 9,
-      "start_date": "2025-05-01 00:00:00",
-      "end_date": "2025-05-02 00:00:00",
+      "start_date": "2025-04-23 00:00:00",
+      "end_date": "2025-04-24 00:00:00",
       "value_date01": ""
     },
     {
       "index": 90006,
       "schedule_key": "GS_2_0001_R",
       "schedule_type": 9,
-      "start_date": "2025-05-02 00:00:00",
-      "end_date": "2025-05-23 00:00:00",
+      "start_date": "2025-04-24 00:00:00",
+      "end_date": "2025-04-30 00:00:00",
       "value_date01": ""
     },
     {
       "index": 90007,
       "schedule_key": "GS_3_0001_P",
       "schedule_type": 9,
-      "start_date": "2025-04-24 00:00:00",
-      "end_date": "2025-05-01 00:00:00",
+      "start_date": "2025-04-21 00:00:00",
+      "end_date": "2025-04-23 00:00:00",
       "value_date01": ""
     },
     {
       "index": 90008,
       "schedule_key": "GS_3_0001_C",
       "schedule_type": 9,
-      "start_date": "2025-05-01 00:00:00",
-      "end_date": "2025-05-02 00:00:00",
+      "start_date": "2025-04-23 00:00:00",
+      "end_date": "2025-04-24 00:00:00",
       "value_date01": ""
     },
     {
       "index": 90009,
       "schedule_key": "GS_3_0001_R",
       "schedule_type": 9,
-      "start_date": "2025-05-02 00:00:00",
-      "end_date": "2025-05-23 00:00:00",
+      "start_date": "2025-04-24 00:00:00",
+      "end_date": "2025-04-30 00:00:00",
       "value_date01": ""
     },
     {
       "index": 90010,
       "schedule_key": "GS_4_0001_P",
       "schedule_type": 9,
-      "start_date": "2025-04-24 00:00:00",
-      "end_date": "2025-05-01 00:00:00",
+      "start_date": "2025-04-21 00:00:00",
+      "end_date": "2025-04-23 00:00:00",
       "value_date01": ""
     },
     {
       "index": 90011,
       "schedule_key": "GS_4_0001_C",
       "schedule_type": 9,
-      "start_date": "2025-05-01 00:00:00",
-      "end_date": "2025-05-02 00:00:00",
+      "start_date": "2025-04-23 00:00:00",
+      "end_date": "2025-04-24 00:00:00",
       "value_date01": ""
     },
     {
       "index": 90012,
       "schedule_key": "GS_4_0001_R",
       "schedule_type": 9,
-      "start_date": "2025-05-02 00:00:00",
-      "end_date": "2025-05-23 00:00:00",
+      "start_date": "2025-04-24 00:00:00",
+      "end_date": "2025-04-30 00:00:00",
       "value_date01": ""
     }
   ]

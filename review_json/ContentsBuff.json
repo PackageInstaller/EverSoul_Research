@@ -43852,62 +43852,62 @@
     },
     {
       "no": 5010141,
-      "defence": 20000.0,
-      "defence_rate": 0.4,
+      "defence": 10000.0,
+      "defence_rate": 0.2,
       "hp_rate": 4.0
     },
     {
       "no": 5010142,
-      "defence": 40000.0,
-      "defence_rate": 1.0,
+      "defence": 20000.0,
+      "defence_rate": 0.5,
       "hp_rate": 8.0
     },
     {
       "no": 5010143,
-      "defence": 60000.0,
-      "defence_rate": 1.8,
+      "defence": 30000.0,
+      "defence_rate": 0.9,
       "hp_rate": 14.0
     },
     {
       "no": 5010144,
-      "defence": 80000.0,
-      "defence_rate": 2.8,
+      "defence": 40000.0,
+      "defence_rate": 1.4,
       "hp_rate": 20.0
     },
     {
       "no": 5010145,
-      "defence": 100000.0,
-      "defence_rate": 4.0,
+      "defence": 50000.0,
+      "defence_rate": 2.0,
       "hp_rate": 28.0
     },
     {
       "no": 5010146,
-      "defence": 120000.0,
-      "defence_rate": 5.4,
+      "defence": 60000.0,
+      "defence_rate": 2.7,
       "hp_rate": 36.0
     },
     {
       "no": 5010147,
-      "defence": 140000.0,
-      "defence_rate": 7.0,
+      "defence": 70000.0,
+      "defence_rate": 3.5,
       "hp_rate": 46.0
     },
     {
       "no": 5010148,
-      "defence": 160000.0,
-      "defence_rate": 8.8,
+      "defence": 80000.0,
+      "defence_rate": 4.4,
       "hp_rate": 56.0
     },
     {
       "no": 5010149,
-      "defence": 180000.0,
-      "defence_rate": 10.8,
+      "defence": 90000.0,
+      "defence_rate": 5.4,
       "hp_rate": 68.0
     },
     {
       "no": 5010150,
-      "defence": 200000.0,
-      "defence_rate": 13.0,
+      "defence": 100000.0,
+      "defence_rate": 6.5,
       "hp_rate": 80.0
     }
   ]

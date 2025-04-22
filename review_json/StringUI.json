@@ -22777,6 +22777,14 @@
       "zh_cn": ""
     },
     {
+      "no": 21149,
+      "kr": "메이드 인 마이 홈",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 30001,
       "kr": "The Daybreak",
       "en": "The Daybreak",
@@ -25003,7 +25011,7 @@
     {
       "no": 51003,
       "kr": "전체 순위",
-      "en": "Overall Ranking",
+      "en": "Ranking",
       "ja": "",
       "zh_tw": "全部排名",
       "zh_cn": ""
@@ -25011,7 +25019,7 @@
     {
       "no": 51004,
       "kr": "최고 클리어 단계",
-      "en": "Max Stage Cleared",
+      "en": "Stage",
       "ja": "",
       "zh_tw": "最高通關階段",
       "zh_cn": ""
@@ -25043,7 +25051,7 @@
     {
       "no": 51008,
       "kr": "최고 클리어 단계 소요 시간",
-      "en": "Max Stage Clear Time",
+      "en": "Last Stage Clear Time",
       "ja": "",
       "zh_tw": "最高通關階段花費時間",
       "zh_cn": ""
@@ -25059,7 +25067,7 @@
     {
       "no": 51010,
       "kr": "순위 없음",
-      "en": "Not Ranked",
+      "en": "-",
       "ja": "",
       "zh_tw": "沒有排名",
       "zh_cn": ""
@@ -25067,7 +25075,7 @@
     {
       "no": 51011,
       "kr": "기록 없음",
-      "en": "No Records",
+      "en": "-",
       "ja": "",
       "zh_tw": "無紀錄",
       "zh_cn": ""
@@ -25075,7 +25083,7 @@
     {
       "no": 51012,
       "kr": "클리어 단계",
-      "en": "Cleared Stage",
+      "en": "Clear Stage",
       "ja": "",
       "zh_tw": "通關階段",
       "zh_cn": ""
@@ -25163,7 +25171,7 @@
     {
       "no": 51023,
       "kr": "순위 보상",
-      "en": "Ranking Reward",
+      "en": "Reward info",
       "ja": "",
       "zh_tw": "排名獎勵",
       "zh_cn": ""
@@ -25171,7 +25179,7 @@
     {
       "no": 51024,
       "kr": "순위 확인",
-      "en": "Check Ranking",
+      "en": "Ranking info",
       "ja": "",
       "zh_tw": "確認排名",
       "zh_cn": ""
@@ -25534,6 +25542,14 @@
       "en": "[Guild Raid] Corrupt Official Chloe",
       "ja": "[ギルドレイド] 悪代官クロエ",
       "zh_tw": "［公會突襲］貪官汙吏克羅伊",
+      "zh_cn": ""
+    },
+    {
+      "no": 90007,
+      "kr": "[길드 레이드] 낙원의 마녀",
+      "en": "[Guild Raid] The Witch of Paradise",
+      "ja": "[ギルドレイド] 楽園の魔女",
+      "zh_tw": "［公會突襲］樂園魔女",
       "zh_cn": ""
     },
     {
@@ -26286,6 +26302,22 @@
       "en": "[Pick-Up Summon] Renee (Argent)",
       "ja": "[ピックアップ召喚] ルネ(白銀)",
       "zh_tw": "［Pick Up召喚］勒內（白銀）",
+      "zh_cn": ""
+    },
+    {
+      "no": 92083,
+      "kr": "[픽업 소환] 라우라",
+      "en": "[Pick-Up Summon] Laura",
+      "ja": "[ピックアップ召喚] ラウラ",
+      "zh_tw": "［Pick Up召喚］蘿拉",
+      "zh_cn": ""
+    },
+    {
+      "no": 92084,
+      "kr": "[픽업 소환] 하루(카무이)",
+      "en": "[Pick-Up Summon] Haru (Kamuy)",
+      "ja": "[ピックアップ召喚] ハル(カムイ)",
+      "zh_tw": "［Pick Up召喚］河路（神威）",
       "zh_cn": ""
     },
     {
@@ -41686,6 +41718,14 @@
       "en": "<color=\"#2d9b00\">Jiho (Mir)'s ATK +{0}%</color> when Jiho (Mir) is placed",
       "ja": "",
       "zh_tw": "配置智河（米爾）時，<color=\"#2d9b00\">智河（米爾）的攻擊力增加{0}%</color>",
+      "zh_cn": ""
+    },
+    {
+      "no": 552514,
+      "kr": "르네(백은) 배치 시 <color=\"#2d9b00\">르네(백은)의 공격력 {0}%</color> 증가",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -65346,7 +65386,7 @@
     },
     {
       "no": 996514,
-      "kr": "이벤트 내 다양한 컨텐츠에서 주사위를 획득할 수 있습니다.\r\n주사위를 굴려 나온 숫자만큼 캐릭터가 게임판을 이동합니다.\r\n포인트 칸에 도착하면 포인트를 획득하며, 완주 시마다 추가 포인트가 지급됩니다.\r\n이벤트 칸에 도착하면 다양한 이벤트가 발생됩니다.\r\n2배속을 체크하면 보다 빠르게 주사위 게임을 진행할 수 있습니다.",
+      "kr": "이벤트 내 다양한 컨텐츠에서 주사위를 획득할 수 있습니다.\r\n주사위를 굴려 나온 숫자만큼 캐릭터가 게임판을 이동합니다.\r\n포인트 칸에 도착하면 포인트를 획득하며, 완주 시마다 추가 포인트가 지급됩니다.\r\n이벤트 칸에 도착하면 다양한 이벤트가 발생됩니다.\r\n2배속 버튼으로 보다 빠르게 주사위 게임을 진행할 수 있습니다.\r\n자동버튼 사용 시 보유 주사위가 소진될 때까지 자동으로 진행됩니다.",
       "en": "Earn dice by engaging in various event activities.\r\nRoll the dice to move your character across the board according to the number shown.\r\nLanding on a point tile grants you points, and completing a full round gives you bonus points.\r\nLanding on an event tile triggers various events.\r\nEnable Double Speed to play the dice game faster.",
       "ja": "",
       "zh_tw": "活動期間內，可在多種遊戲內容獲得骰子。\r\n角色會在棋盤上移動骰子擲出的步數。\r\n抵達分數格子即獲得分數，每完成一回合將發放額外分數。\r\n抵達活動格子，將觸發多樣活動。\r\n勾選2倍速，可更快速地進行骰子遊戲。",
