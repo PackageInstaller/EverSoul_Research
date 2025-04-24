@@ -1725,7 +1725,7 @@
       "schedule_key": "Cashshop_Special_May",
       "schedule_type": 1,
       "start_date": "2025-05-01 00:00:00",
-      "end_date": "2025-05-08 00:00:00",
+      "end_date": "2025-05-15 00:00:00",
       "value_date01": ""
     },
     {
@@ -2810,6 +2810,14 @@
     },
     {
       "index": 30128,
+      "schedule_key": "Calender_PickUp_Weiss",
+      "schedule_type": 3,
+      "start_date": "2025-05-08 00:00:00",
+      "end_date": "2025-05-22 00:00:00",
+      "value_date01": ""
+    },
+    {
+      "index": 30129,
       "schedule_key": "Calender_Rotation_Trip",
       "schedule_type": 3,
       "start_date": "2024-02-15 01:00:00",
@@ -2817,7 +2825,7 @@
       "value_date01": ""
     },
     {
-      "index": 30129,
+      "index": 30130,
       "schedule_key": "Calender_Rotation_Heart",
       "schedule_type": 3,
       "start_date": "2024-03-28 01:00:00",
@@ -2825,7 +2833,7 @@
       "value_date01": ""
     },
     {
-      "index": 30130,
+      "index": 30131,
       "schedule_key": "Calender_Rotation_Arena",
       "schedule_type": 3,
       "start_date": "2025-04-30 00:00:00",
@@ -2833,7 +2841,7 @@
       "value_date01": ""
     },
     {
-      "index": 30131,
+      "index": 30132,
       "schedule_key": "Calender_Rotation_Labyrinth",
       "schedule_type": 3,
       "start_date": "2025-05-14 00:00:00",
@@ -2841,7 +2849,7 @@
       "value_date01": ""
     },
     {
-      "index": 30132,
+      "index": 30133,
       "schedule_key": "Calender_Rotation_Champions",
       "schedule_type": 3,
       "start_date": "2025-03-19 00:00:00",
@@ -2849,7 +2857,7 @@
       "value_date01": ""
     },
     {
-      "index": 30133,
+      "index": 30134,
       "schedule_key": "Calender_Rotation_DualGate",
       "schedule_type": 3,
       "start_date": "2025-04-02 00:00:00",
@@ -2857,7 +2865,7 @@
       "value_date01": ""
     },
     {
-      "index": 30134,
+      "index": 30135,
       "schedule_key": "Calender_Rotation_AutoArbeit",
       "schedule_type": 3,
       "start_date": "2025-04-16 00:00:00",
@@ -2865,7 +2873,7 @@
       "value_date01": ""
     },
     {
-      "index": 30135,
+      "index": 30136,
       "schedule_key": "Calender_Rotation_Arena2",
       "schedule_type": 3,
       "start_date": "2025-01-15 00:00:00",
@@ -2873,7 +2881,7 @@
       "value_date01": ""
     },
     {
-      "index": 30136,
+      "index": 30137,
       "schedule_key": "Calender_Rotation_Labyrinth2",
       "schedule_type": 3,
       "start_date": "2025-01-08 00:00:00",
@@ -2881,7 +2889,7 @@
       "value_date01": ""
     },
     {
-      "index": 30137,
+      "index": 30138,
       "schedule_key": "Calender_Rotation_Champions2",
       "schedule_type": 3,
       "start_date": "2025-01-15 00:00:00",
@@ -2889,7 +2897,7 @@
       "value_date01": ""
     },
     {
-      "index": 30138,
+      "index": 30139,
       "schedule_key": "Calender_Rotation_DualGate2",
       "schedule_type": 3,
       "start_date": "2024-12-25 00:00:00",
@@ -2897,7 +2905,7 @@
       "value_date01": ""
     },
     {
-      "index": 30139,
+      "index": 30140,
       "schedule_key": "Calender_Rotation_AutoArbeit2",
       "schedule_type": 3,
       "start_date": "2025-01-01 00:00:00",
