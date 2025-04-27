@@ -12737,6 +12737,30 @@
       "zh_cn": ""
     },
     {
+      "no": 11407,
+      "kr": "르네(백은) 획득",
+      "en": "Obtain Renee (Argent)",
+      "ja": "ルネ(白銀)を獲得",
+      "zh_tw": "獲得勒內（白銀）",
+      "zh_cn": ""
+    },
+    {
+      "no": 11408,
+      "kr": "르네(백은) 에픽+등급 달성",
+      "en": "Upgrade Renee (Argent) to Epic+",
+      "ja": "ルネ(白銀)のエピック+ランクを達成",
+      "zh_tw": "達成勒內（白銀）史詩＋階級",
+      "zh_cn": ""
+    },
+    {
+      "no": 11409,
+      "kr": "르네(백은) 레전더리 등급 달성",
+      "en": "Upgrade Renee (Argent) to Legendary",
+      "ja": "ルネ(白銀)のレジェンダリーランクを達成",
+      "zh_tw": "達成勒內（白銀）傳說階級",
+      "zh_cn": ""
+    },
+    {
       "no": 11500,
       "kr": "종료 30초 전, 모든 정령의 물리/마법 저항이 50% 감소합니다.",
       "en": "Physical/Magic Resistance -50% for all Souls 30 sec. before the end.",
@@ -22779,6 +22803,14 @@
     {
       "no": 21149,
       "kr": "메이드 인 마이 홈",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 21150,
+      "kr": "아케나인 방어전",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -47433,6 +47465,14 @@
       "zh_cn": ""
     },
     {
+      "no": 581120,
+      "kr": "르네(백은)",
+      "en": "Renee (Argent)",
+      "ja": "ルネ(白銀)",
+      "zh_tw": "勒內（白銀）",
+      "zh_cn": ""
+    },
+    {
       "no": 600112,
       "kr": "빠른 사냥",
       "en": "Quick Hunt",
@@ -65387,9 +65427,9 @@
     {
       "no": 996514,
       "kr": "이벤트 내 다양한 컨텐츠에서 주사위를 획득할 수 있습니다.\r\n주사위를 굴려 나온 숫자만큼 캐릭터가 게임판을 이동합니다.\r\n포인트 칸에 도착하면 포인트를 획득하며, 완주 시마다 추가 포인트가 지급됩니다.\r\n이벤트 칸에 도착하면 다양한 이벤트가 발생됩니다.\r\n2배속 버튼으로 보다 빠르게 주사위 게임을 진행할 수 있습니다.\r\n자동버튼 사용 시 보유 주사위가 소진될 때까지 자동으로 진행됩니다.",
-      "en": "Earn dice by engaging in various event activities.\r\nRoll the dice to move your character across the board according to the number shown.\r\nLanding on a point tile grants you points, and completing a full round gives you bonus points.\r\nLanding on an event tile triggers various events.\r\nEnable Double Speed to play the dice game faster.",
+      "en": "Earn dice by engaging in various event activities.\r\nRoll the dice to move your character across the board according to the number shown.\r\nLanding on a point tile grants you points, and completing a full round gives you bonus points.\r\nLanding on an event tile triggers various events.\r\nUse the 2x button to play the dice game faster.\r\nUse the Auto button to play automatically until you run out of dice.",
       "ja": "",
-      "zh_tw": "活動期間內，可在多種遊戲內容獲得骰子。\r\n角色會在棋盤上移動骰子擲出的步數。\r\n抵達分數格子即獲得分數，每完成一回合將發放額外分數。\r\n抵達活動格子，將觸發多樣活動。\r\n勾選2倍速，可更快速地進行骰子遊戲。",
+      "zh_tw": "活動期間內，可在多種遊戲內容獲得骰子。\r\n角色會在棋盤上移動骰子擲出的步數。\r\n抵達分數格子即獲得分數，每完成一回合將發放額外分數。\r\n抵達活動格子，將觸發多樣活動。\r\n使用2倍速按鈕，可更快速地進行骰子遊戲。\r\n使用自動按鈕，將自動進行到耗盡持有骰子為止。",
       "zh_cn": ""
     },
     {

@@ -10,6 +10,7 @@ table Deserialization {
     hero_no: int32;
     bg_path: string;
     dice_path: string;
+    sound_path: string;
 }
 
 table EventDice {
