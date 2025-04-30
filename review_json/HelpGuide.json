@@ -3132,32 +3132,6 @@
       "image_gpg": "Category_02/Help_UI_BATTLE_WORLDBOSS_FORMATION_MAIN_05"
     },
     {
-      "no": 20321006,
-      "category_type": 2,
-      "guide_name_sno": 1001060,
-      "trigger": "UI_WORLDBOSS_FORMATION_MAIN",
-      "index": 6,
-      "title_sno": 997265,
-      "desc_sno": 997266,
-      "title_gpg_sno": 997265,
-      "desc_gpg_sno": 997266,
-      "image": "Category_02/Help_UI_BATTLE_WORLDBOSS_FORMATION_MAIN_06",
-      "image_gpg": "Category_02/Help_UI_BATTLE_WORLDBOSS_FORMATION_MAIN_06"
-    },
-    {
-      "no": 20321007,
-      "category_type": 2,
-      "guide_name_sno": 1001060,
-      "trigger": "UI_WORLDBOSS_FORMATION_MAIN",
-      "index": 7,
-      "title_sno": 997267,
-      "desc_sno": 997268,
-      "title_gpg_sno": 997267,
-      "desc_gpg_sno": 997268,
-      "image": "Category_02/Help_UI_BATTLE_WORLDBOSS_FORMATION_MAIN_07",
-      "image_gpg": "Category_02/Help_UI_BATTLE_WORLDBOSS_FORMATION_MAIN_07"
-    },
-    {
       "no": 20330001,
       "category_type": 2,
       "guide_name_sno": 1001061,
@@ -8022,8 +7996,8 @@
       "desc_sno": 996494,
       "title_gpg_sno": 12015,
       "desc_gpg_sno": 996494,
-      "image": "Category_04/Help_UI_EVENT_SIDE_ROULETTE_1_02",
-      "image_gpg": "Category_04/Help_UI_EVENT_SIDE_ROULETTE_1_02"
+      "image": "Category_04/Help_UI_EVENT_SIDE_ROULETTE_3_01",
+      "image_gpg": "Category_04/Help_UI_EVENT_SIDE_ROULETTE_3_01"
     },
     {
       "no": 40950001,
@@ -8206,6 +8180,19 @@
       "desc_gpg_sno": 996518,
       "image": "Category_04/Help_UI_EVENT_SIDE_MINIGAME_2_01",
       "image_gpg": "Category_04/Help_UI_EVENT_SIDE_MINIGAME_2_01"
+    },
+    {
+      "no": 41020001,
+      "category_type": 4,
+      "guide_name_sno": 1001037,
+      "trigger": "UI_EVENTINFO_SIDE_RENEE",
+      "index": 1,
+      "title_sno": 12015,
+      "desc_sno": 996519,
+      "title_gpg_sno": 12015,
+      "desc_gpg_sno": 996519,
+      "image": "Category_04/Help_UI_EVENT_SIDE_RENEE_1_01",
+      "image_gpg": "Category_04/Help_UI_EVENT_SIDE_RENEE_1_01"
     }
   ]
 }

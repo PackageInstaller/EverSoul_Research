@@ -371,7 +371,7 @@
       "group_hero2": 2160,
       "group_title": 831033,
       "group_story": 832033,
-      "open_date": "2024-03-27 00:00"
+      "open_date": "2025-03-27 00:00"
     },
     {
       "no": 34,
@@ -382,7 +382,18 @@
       "group_hero2": 1160,
       "group_title": 831034,
       "group_story": 832034,
-      "open_date": "2024-04-17 00:00"
+      "open_date": "2025-04-17 00:00"
+    },
+    {
+      "no": 35,
+      "collection": 35,
+      "group_slot": "soullinkslot_Teacher_And_Student",
+      "group_content": "SOULLINK_CONTENT_Teacher_And_Student",
+      "group_hero1": 4150,
+      "group_hero2": 3160,
+      "group_title": 831035,
+      "group_story": 832035,
+      "open_date": "2024-05-08 00:00"
     }
   ]
 }

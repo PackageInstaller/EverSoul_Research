@@ -159,6 +159,86 @@
       "use_ticket_count": 20,
       "reward_item_no1": 45,
       "reward_item_amount1": 20
+    },
+    {
+      "no": 21,
+      "reward_group": 3,
+      "reward_type": 1,
+      "use_ticket_count": 20,
+      "reward_item_no1": 3380,
+      "reward_item_amount1": 60
+    },
+    {
+      "no": 22,
+      "reward_group": 3,
+      "reward_type": 1,
+      "use_ticket_count": 40,
+      "reward_item_no1": 45,
+      "reward_item_amount1": 5
+    },
+    {
+      "no": 23,
+      "reward_group": 3,
+      "reward_type": 1,
+      "use_ticket_count": 60,
+      "reward_item_no1": 2,
+      "reward_item_amount1": 1000
+    },
+    {
+      "no": 24,
+      "reward_group": 3,
+      "reward_type": 1,
+      "use_ticket_count": 80,
+      "reward_item_no1": 45,
+      "reward_item_amount1": 10
+    },
+    {
+      "no": 25,
+      "reward_group": 3,
+      "reward_type": 1,
+      "use_ticket_count": 100,
+      "reward_item_no1": 2,
+      "reward_item_amount1": 1000
+    },
+    {
+      "no": 26,
+      "reward_group": 3,
+      "reward_type": 1,
+      "use_ticket_count": 120,
+      "reward_item_no1": 45,
+      "reward_item_amount1": 15
+    },
+    {
+      "no": 27,
+      "reward_group": 3,
+      "reward_type": 1,
+      "use_ticket_count": 140,
+      "reward_item_no1": 2,
+      "reward_item_amount1": 1000
+    },
+    {
+      "no": 28,
+      "reward_group": 3,
+      "reward_type": 1,
+      "use_ticket_count": 160,
+      "reward_item_no1": 45,
+      "reward_item_amount1": 20
+    },
+    {
+      "no": 29,
+      "reward_group": 3,
+      "reward_type": 1,
+      "use_ticket_count": 180,
+      "reward_item_no1": 4010,
+      "reward_item_amount1": 1
+    },
+    {
+      "no": 30,
+      "reward_group": 3,
+      "reward_type": 2,
+      "use_ticket_count": 20,
+      "reward_item_no1": 45,
+      "reward_item_amount1": 25
     }
   ]
 }

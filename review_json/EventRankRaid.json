@@ -94,6 +94,25 @@
       "event_bg_path": "JihoSideEvent/bg_singleraid_JihoMir",
       "sound_path": "BGM_JihoEvent",
       "open_date": "2025-04-17 00:00:00"
+    },
+    {
+      "no": 6,
+      "event_group": 6,
+      "event_number": 1,
+      "stage_no": 210107,
+      "battle_view_type": 1,
+      "help_desc_sno": 110618,
+      "challenge_no1": 1030,
+      "challenge_bonus1": 0.5,
+      "challenge_no2": 1011,
+      "challenge_bonus2": 0.25,
+      "challenge_no3": 1006,
+      "challenge_bonus3": 0.25,
+      "bg_path": "ReneeSilver",
+      "bg_position": "[-50,-300,0]",
+      "event_bg_path": "ReneeSideEvent/bg_singleraid_ReneeSilver",
+      "sound_path": "BGM_ReneeEvent",
+      "open_date": "2025-05-08 00:00:00"
     }
   ]
 }

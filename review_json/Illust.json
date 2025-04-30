@@ -3596,6 +3596,26 @@
       "hero_check": 3150
     },
     {
+      "no": 31601,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2316001,
+      "thumbnail_path": "Codex_Talk_Event_ReneeSilver_01",
+      "bg_movie_path": "Story/Love/ReneeSilver/01_ADDON/Talk_Event_ReneeSilver_01",
+      "lobby": 1,
+      "hero_check": 3160
+    },
+    {
+      "no": 31602,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2316003,
+      "thumbnail_path": "Codex_Talk_Event_ReneeSilver_02",
+      "bg_movie_path": "Story/Love/ReneeSilver/03_ADDON/Talk_Event_ReneeSilver_02",
+      "lobby": 1,
+      "hero_check": 3160
+    },
+    {
       "no": 40101,
       "category": 2,
       "open_type": 2,
@@ -5846,6 +5866,24 @@
       "open_condition": 250424,
       "thumbnail_path": "Codex_Talk_Event_250401",
       "bg_movie_path": "Story/Event/2504_JihoSideEvent/15_ADDON/Talk_Event_250401",
+      "lobby": 1
+    },
+    {
+      "no": 92401,
+      "category": 3,
+      "open_type": 2,
+      "open_condition": 250524,
+      "thumbnail_path": "Codex_Talk_Event_250501",
+      "bg_movie_path": "Story/Event/2505_ReneeSideEvent/14_ADDON/Talk_Event_250501",
+      "lobby": 1
+    },
+    {
+      "no": 92402,
+      "category": 3,
+      "open_type": 2,
+      "open_condition": 250525,
+      "thumbnail_path": "Codex_Talk_Event_250502",
+      "bg_movie_path": "Story/Event/2505_ReneeSideEvent/15_ADDON/Talk_Event_250502",
       "lobby": 1
     }
   ]

@@ -488,6 +488,87 @@
       "title_string_no": 710255,
       "content_string_no": 710256,
       "value1": 110057
+    },
+    {
+      "no": 63,
+      "challenge_no": 1401,
+      "constraint_type": 6,
+      "title_string_no": 710311,
+      "content_string_no": 710312,
+      "value1": 1
+    },
+    {
+      "no": 64,
+      "challenge_no": 1401,
+      "constraint_type": 1,
+      "title_string_no": 710313,
+      "content_string_no": 710314,
+      "value1": 8131
+    },
+    {
+      "no": 65,
+      "challenge_no": 1402,
+      "constraint_type": 1,
+      "title_string_no": 710321,
+      "content_string_no": 710322
+    },
+    {
+      "no": 66,
+      "challenge_no": 1402,
+      "constraint_type": 1,
+      "title_string_no": 710323,
+      "content_string_no": 710324
+    },
+    {
+      "no": 67,
+      "challenge_no": 1403,
+      "constraint_type": 1,
+      "title_string_no": 710331,
+      "content_string_no": 710332
+    },
+    {
+      "no": 68,
+      "challenge_no": 1403,
+      "constraint_type": 1,
+      "title_string_no": 710333,
+      "content_string_no": 710334,
+      "value1": 8132,
+      "value2": 8133,
+      "value3": 8134
+    },
+    {
+      "no": 69,
+      "challenge_no": 1403,
+      "constraint_type": 1,
+      "title_string_no": 710335,
+      "content_string_no": 710336
+    },
+    {
+      "no": 70,
+      "challenge_no": 1404,
+      "constraint_type": 1,
+      "title_string_no": 710341,
+      "content_string_no": 710342,
+      "value1": 8135,
+      "value2": 8136,
+      "value3": 8137
+    },
+    {
+      "no": 71,
+      "challenge_no": 1404,
+      "constraint_type": 1,
+      "title_string_no": 710343,
+      "content_string_no": 710344
+    },
+    {
+      "no": 72,
+      "challenge_no": 1405,
+      "constraint_type": 1,
+      "title_string_no": 710353,
+      "content_string_no": 710354,
+      "value1": 8138,
+      "value2": 8139,
+      "value3": 8140
     }
   ]
 }

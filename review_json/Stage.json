@@ -86172,6 +86172,18 @@
       "battle_time": 90
     },
     {
+      "no": 210107,
+      "stage_type": 110,
+      "name_sno": 419099,
+      "map": "Map_Battle_OreolMountains_01",
+      "global_volume": 3,
+      "monster_normal": "0",
+      "monster_elite": "0",
+      "monster_boss": "0",
+      "is_raid_battle": 1,
+      "battle_time": 90
+    },
+    {
       "no": 230617,
       "stage_type": 13,
       "name_sno": 419082,

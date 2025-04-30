@@ -1961,6 +1961,16 @@
       "position_scale": 1.0
     },
     {
+      "no": 3170,
+      "name_sno": 303090,
+      "prefab_path": "MiriamMirage",
+      "portrait512_path": "UI/Textures/Souls/MiriamMirage/MiriamMirage_512",
+      "portrait128_path": "UI/Textures/Souls/MiriamMirage/MiriamMirage_128",
+      "costume_path": "",
+      "controller_path": "",
+      "position_scale": 1.0
+    },
+    {
       "no": 3180,
       "name_sno": 303180,
       "prefab_path": "",
@@ -2728,6 +2738,17 @@
       "name_sno": 259999,
       "prefab_path": "",
       "portrait512_path": "UI/Textures/Etc/NPC_Brigitte_512",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
+      "no": 5070,
+      "name_sno": 305070,
+      "prefab_path": "",
+      "portrait512_path": "UI/Textures/Etc/NPC_Girl_512",
       "portrait128_path": "",
       "costume_path": "",
       "controller_path": "",

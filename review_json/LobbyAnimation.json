@@ -22218,6 +22218,392 @@
     },
     {
       "no": 1941,
+      "voice": "ReneeSilver_Greeting",
+      "text_sno": 9316001,
+      "type": "Greeting",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "Greeting",
+      "emotion": ""
+    },
+    {
+      "no": 1942,
+      "voice": "ReneeSilver_Greeting02",
+      "text_sno": 9316002,
+      "type": "GreetingSp",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "Greeting",
+      "emotion": "",
+      "mm": 1,
+      "dd": 1,
+      "end": 3
+    },
+    {
+      "no": 1943,
+      "voice": "ReneeSilver_Greeting03",
+      "text_sno": 9316003,
+      "type": "GreetingSp",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "Greeting",
+      "emotion": "",
+      "mm": 2,
+      "dd": 10,
+      "end": 7
+    },
+    {
+      "no": 1944,
+      "voice": "ReneeSilver_Greeting04",
+      "text_sno": 9316004,
+      "type": "GreetingSp",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "Greeting",
+      "emotion": "",
+      "mm": 8,
+      "dd": 4,
+      "end": 7
+    },
+    {
+      "no": 1945,
+      "voice": "ReneeSilver_Greeting05",
+      "text_sno": 9316005,
+      "type": "GreetingSp",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "Greeting",
+      "emotion": "",
+      "mm": 10,
+      "dd": 28,
+      "end": 7
+    },
+    {
+      "no": 1946,
+      "voice": "ReneeSilver_Greeting06",
+      "text_sno": 9316006,
+      "type": "GreetingSp",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "Greeting",
+      "emotion": "",
+      "mm": 12,
+      "dd": 21,
+      "end": 7
+    },
+    {
+      "no": 1947,
+      "voice": "ReneeSilver_Greeting07",
+      "text_sno": 9316007,
+      "type": "GreetingSp",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "Greeting",
+      "emotion": "",
+      "mm": 4,
+      "dd": 13,
+      "end": 7
+    },
+    {
+      "no": 1948,
+      "voice": "ReneeSilver_Lobby02",
+      "text_sno": 9316011,
+      "type": "Season",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Smile2",
+      "mm": 1,
+      "dd": 1,
+      "end": 3
+    },
+    {
+      "no": 1949,
+      "voice": "ReneeSilver_Lobby03",
+      "text_sno": 9316012,
+      "type": "Season",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Worry",
+      "mm": 2,
+      "dd": 10,
+      "end": 7
+    },
+    {
+      "no": 1950,
+      "voice": "ReneeSilver_Lobby04",
+      "text_sno": 9316013,
+      "type": "Season",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Smile",
+      "mm": 8,
+      "dd": 4,
+      "end": 7
+    },
+    {
+      "no": 1951,
+      "voice": "ReneeSilver_Lobby05",
+      "text_sno": 9316014,
+      "type": "Season",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Oh",
+      "mm": 10,
+      "dd": 28,
+      "end": 7
+    },
+    {
+      "no": 1952,
+      "voice": "ReneeSilver_Lobby06",
+      "text_sno": 9316015,
+      "type": "Season",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Smile",
+      "mm": 12,
+      "dd": 21,
+      "end": 7
+    },
+    {
+      "no": 1953,
+      "voice": "ReneeSilver_Lobby07",
+      "text_sno": 9316016,
+      "type": "Season",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Bittersmile",
+      "mm": 4,
+      "dd": 13,
+      "end": 7
+    },
+    {
+      "no": 1954,
+      "voice": "ReneeSilver_Bday02",
+      "text_sno": 9316067,
+      "type": "Season",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Happy",
+      "mm": 7,
+      "dd": 3,
+      "end": 1
+    },
+    {
+      "no": 1956,
+      "voice": "ReneeSilver_Anniversary03",
+      "text_sno": 9316070,
+      "type": "Season",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Smile2",
+      "yy": 2026,
+      "mm": 1,
+      "dd": 1,
+      "end": 21
+    },
+    {
+      "no": 1957,
+      "voice": "ReneeSilver_Anniversary",
+      "text_sno": 9316071,
+      "type": "Season",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Bittersmile",
+      "yy": 2027,
+      "mm": 1,
+      "dd": 5,
+      "end": 21
+    },
+    {
+      "no": 1958,
+      "voice": "ReneeSilver_Lobby08",
+      "text_sno": 9316021,
+      "type": "Normal",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Calm"
+    },
+    {
+      "no": 1959,
+      "voice": "ReneeSilver_Lobby09",
+      "text_sno": 9316022,
+      "type": "Normal",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": ""
+    },
+    {
+      "no": 1960,
+      "voice": "ReneeSilver_Lobby10",
+      "text_sno": 9316023,
+      "type": "Normal",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Smile2"
+    },
+    {
+      "no": 1961,
+      "voice": "ReneeSilver_Lobby11",
+      "text_sno": 9316024,
+      "type": "Normal",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Sparkle"
+    },
+    {
+      "no": 1962,
+      "voice": "ReneeSilver_LobbyIdle01",
+      "text_sno": 9316031,
+      "type": "Leave",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Serious"
+    },
+    {
+      "no": 1963,
+      "voice": "ReneeSilver_LobbyH1",
+      "text_sno": 9316041,
+      "type": "Love1",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Sparkle"
+    },
+    {
+      "no": 1964,
+      "voice": "ReneeSilver_LobbyH2",
+      "text_sno": 9316042,
+      "type": "Love2",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": ""
+    },
+    {
+      "no": 1965,
+      "voice": "ReneeSilver_LobbyH3",
+      "text_sno": 9316043,
+      "type": "Love3",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Oh"
+    },
+    {
+      "no": 1966,
+      "voice": "ReneeSilver_LobbyTouch1",
+      "text_sno": 9316051,
+      "type": "Normal",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "Touch",
+      "emotion": ""
+    },
+    {
+      "no": 1967,
+      "voice": "ReneeSilver_LobbyTouchsp",
+      "text_sno": 9316052,
+      "type": "TouchSp",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "Touchsp",
+      "emotion": ""
+    },
+    {
+      "no": 1968,
+      "voice": "ReneeSilver_LobbyTouchsp2",
+      "text_sno": 9316053,
+      "type": "TouchSp2",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "Touchsp02",
+      "emotion": ""
+    },
+    {
+      "no": 1969,
+      "voice": "ReneeSilver_LobbyC1",
+      "text_sno": 9316061,
+      "type": "Mail",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": ""
+    },
+    {
+      "no": 1970,
+      "voice": "ReneeSilver_LobbyC2",
+      "text_sno": 9316062,
+      "type": "Achievements",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Smile2"
+    },
+    {
+      "no": 1971,
+      "voice": "ReneeSilver_LobbyC5",
+      "text_sno": 9316063,
+      "type": "AutoHunt",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": ""
+    },
+    {
+      "no": 1972,
+      "voice": "ReneeSilver_LobbyC6",
+      "text_sno": 9316064,
+      "type": "Hero",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Bittersmile"
+    },
+    {
+      "no": 1973,
+      "voice": "ReneeSilver_LobbyC7",
+      "text_sno": 9316065,
+      "type": "Town",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": "Smile"
+    },
+    {
+      "no": 1974,
+      "voice": "ReneeSilver_Manage01",
+      "type": "Manage1",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": ""
+    },
+    {
+      "no": 1975,
+      "voice": "ReneeSilver_Manage02",
+      "text_sno": 323160,
+      "type": "Manage2",
+      "hero_no": 3160,
+      "actor_no": 3160,
+      "ani": "",
+      "emotion": ""
+    },
+    {
+      "no": 1976,
       "voice": "Amelia_Greeting",
       "text_sno": 9401001,
       "type": "Greeting",
@@ -22227,7 +22613,7 @@
       "emotion": ""
     },
     {
-      "no": 1942,
+      "no": 1977,
       "voice": "Amelia_Greeting02",
       "text_sno": 9401002,
       "type": "GreetingSp",
@@ -22240,7 +22626,7 @@
       "end": 3
     },
     {
-      "no": 1943,
+      "no": 1978,
       "voice": "Amelia_Greeting03",
       "text_sno": 9401003,
       "type": "GreetingSp",
@@ -22253,7 +22639,7 @@
       "end": 7
     },
     {
-      "no": 1944,
+      "no": 1979,
       "voice": "Amelia_Greeting04",
       "text_sno": 9401004,
       "type": "GreetingSp",
@@ -22266,7 +22652,7 @@
       "end": 7
     },
     {
-      "no": 1945,
+      "no": 1980,
       "voice": "Amelia_Greeting05",
       "text_sno": 9401005,
       "type": "GreetingSp",
@@ -22279,7 +22665,7 @@
       "end": 7
     },
     {
-      "no": 1946,
+      "no": 1981,
       "voice": "Amelia_Greeting06",
       "text_sno": 9401006,
       "type": "GreetingSp",
@@ -22292,7 +22678,7 @@
       "end": 7
     },
     {
-      "no": 1947,
+      "no": 1982,
       "voice": "Amelia_Greeting07",
       "text_sno": 9401007,
       "type": "GreetingSp",
@@ -22305,7 +22691,7 @@
       "end": 7
     },
     {
-      "no": 1948,
+      "no": 1983,
       "voice": "Amelia_Lobby02",
       "text_sno": 9401011,
       "type": "Season",
@@ -22318,7 +22704,7 @@
       "end": 3
     },
     {
-      "no": 1949,
+      "no": 1984,
       "voice": "Amelia_Lobby03",
       "text_sno": 9401012,
       "type": "Season",
@@ -22331,7 +22717,7 @@
       "end": 7
     },
     {
-      "no": 1950,
+      "no": 1985,
       "voice": "Amelia_Lobby04",
       "text_sno": 9401013,
       "type": "Season",
@@ -22344,7 +22730,7 @@
       "end": 7
     },
     {
-      "no": 1951,
+      "no": 1986,
       "voice": "Amelia_Lobby05",
       "text_sno": 9401014,
       "type": "Season",
@@ -22357,7 +22743,7 @@
       "end": 7
     },
     {
-      "no": 1952,
+      "no": 1987,
       "voice": "Amelia_Lobby06",
       "text_sno": 9401015,
       "type": "Season",
@@ -22370,7 +22756,7 @@
       "end": 7
     },
     {
-      "no": 1953,
+      "no": 1988,
       "voice": "Amelia_Lobby07",
       "text_sno": 9401016,
       "type": "Season",
@@ -22383,7 +22769,7 @@
       "end": 7
     },
     {
-      "no": 1954,
+      "no": 1989,
       "voice": "Amelia_Bday02",
       "text_sno": 9401067,
       "type": "Season",
@@ -22396,7 +22782,7 @@
       "end": 1
     },
     {
-      "no": 1955,
+      "no": 1990,
       "voice": "Amelia_Anniversary01",
       "text_sno": 9401068,
       "type": "Season",
@@ -22410,7 +22796,7 @@
       "end": 21
     },
     {
-      "no": 1956,
+      "no": 1991,
       "voice": "Amelia_Anniversary02",
       "text_sno": 9401069,
       "type": "Season",
@@ -22424,7 +22810,7 @@
       "end": 21
     },
     {
-      "no": 1957,
+      "no": 1992,
       "voice": "Amelia_Anniversary03",
       "text_sno": 9401070,
       "type": "Season",
@@ -22438,7 +22824,7 @@
       "end": 21
     },
     {
-      "no": 1958,
+      "no": 1993,
       "voice": "Amelia_Lobby08",
       "text_sno": 9401021,
       "type": "Normal",
@@ -22448,7 +22834,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 1959,
+      "no": 1994,
       "voice": "Amelia_Lobby09",
       "text_sno": 9401022,
       "type": "Normal",
@@ -22458,7 +22844,7 @@
       "emotion": "Calm"
     },
     {
-      "no": 1960,
+      "no": 1995,
       "voice": "Amelia_Lobby10",
       "text_sno": 9401023,
       "type": "Normal",
@@ -22468,7 +22854,7 @@
       "emotion": "Mad"
     },
     {
-      "no": 1961,
+      "no": 1996,
       "voice": "Amelia_Lobby11",
       "text_sno": 9401024,
       "type": "Normal",
@@ -22478,7 +22864,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 1962,
+      "no": 1997,
       "voice": "Amelia_LobbyIdle01",
       "text_sno": 9401031,
       "type": "Leave",
@@ -22488,7 +22874,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 1963,
+      "no": 1998,
       "voice": "Amelia_LobbyH1",
       "text_sno": 9401041,
       "type": "Love1",
@@ -22498,7 +22884,7 @@
       "emotion": "Serious"
     },
     {
-      "no": 1964,
+      "no": 1999,
       "voice": "Amelia_LobbyH2",
       "text_sno": 9401042,
       "type": "Love2",
@@ -22508,7 +22894,7 @@
       "emotion": "Serious"
     },
     {
-      "no": 1965,
+      "no": 2000,
       "voice": "Amelia_LobbyH3",
       "text_sno": 9401043,
       "type": "Love3",
@@ -22518,7 +22904,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 1966,
+      "no": 2001,
       "voice": "Amelia_LobbyTouch1",
       "text_sno": 9401051,
       "type": "Normal",
@@ -22528,7 +22914,7 @@
       "emotion": ""
     },
     {
-      "no": 1967,
+      "no": 2002,
       "voice": "Amelia_LobbyTouchsp",
       "text_sno": 9401052,
       "type": "TouchSp",
@@ -22538,7 +22924,7 @@
       "emotion": ""
     },
     {
-      "no": 1968,
+      "no": 2003,
       "voice": "Amelia_LobbyTouchsp2",
       "text_sno": 9401053,
       "type": "TouchSp2",
@@ -22548,7 +22934,7 @@
       "emotion": ""
     },
     {
-      "no": 1969,
+      "no": 2004,
       "voice": "Amelia_LobbyC1",
       "text_sno": 9401061,
       "type": "Mail",
@@ -22558,7 +22944,7 @@
       "emotion": "Rage"
     },
     {
-      "no": 1970,
+      "no": 2005,
       "voice": "Amelia_LobbyC2",
       "text_sno": 9401062,
       "type": "Achievements",
@@ -22568,7 +22954,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 1971,
+      "no": 2006,
       "voice": "Amelia_LobbyC5",
       "text_sno": 9401063,
       "type": "AutoHunt",
@@ -22578,7 +22964,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 1972,
+      "no": 2007,
       "voice": "Amelia_LobbyC6",
       "text_sno": 9401064,
       "type": "Hero",
@@ -22588,7 +22974,7 @@
       "emotion": "Angry"
     },
     {
-      "no": 1973,
+      "no": 2008,
       "voice": "Amelia_LobbyC7",
       "text_sno": 9401065,
       "type": "Town",
@@ -22598,7 +22984,7 @@
       "emotion": "Mad"
     },
     {
-      "no": 1974,
+      "no": 2009,
       "voice": "Amelia_Manage01",
       "type": "Manage1",
       "hero_no": 4010,
@@ -22607,7 +22993,7 @@
       "emotion": ""
     },
     {
-      "no": 1975,
+      "no": 2010,
       "voice": "Amelia_Manage02",
       "text_sno": 324010,
       "type": "Manage2",
@@ -22617,7 +23003,7 @@
       "emotion": ""
     },
     {
-      "no": 1976,
+      "no": 2011,
       "voice": "Olivia_Greeting",
       "text_sno": 9402001,
       "type": "Greeting",
@@ -22627,7 +23013,7 @@
       "emotion": ""
     },
     {
-      "no": 1977,
+      "no": 2012,
       "voice": "Olivia_Greeting02",
       "text_sno": 9402002,
       "type": "GreetingSp",
@@ -22640,7 +23026,7 @@
       "end": 3
     },
     {
-      "no": 1978,
+      "no": 2013,
       "voice": "Olivia_Greeting03",
       "text_sno": 9402003,
       "type": "GreetingSp",
@@ -22653,7 +23039,7 @@
       "end": 7
     },
     {
-      "no": 1979,
+      "no": 2014,
       "voice": "Olivia_Greeting04",
       "text_sno": 9402004,
       "type": "GreetingSp",
@@ -22666,7 +23052,7 @@
       "end": 7
     },
     {
-      "no": 1980,
+      "no": 2015,
       "voice": "Olivia_Greeting05",
       "text_sno": 9402005,
       "type": "GreetingSp",
@@ -22679,7 +23065,7 @@
       "end": 7
     },
     {
-      "no": 1981,
+      "no": 2016,
       "voice": "Olivia_Greeting06",
       "text_sno": 9402006,
       "type": "GreetingSp",
@@ -22692,7 +23078,7 @@
       "end": 7
     },
     {
-      "no": 1982,
+      "no": 2017,
       "voice": "Olivia_Greeting07",
       "text_sno": 9402007,
       "type": "GreetingSp",
@@ -22705,7 +23091,7 @@
       "end": 7
     },
     {
-      "no": 1983,
+      "no": 2018,
       "voice": "Olivia_Lobby02",
       "text_sno": 9402011,
       "type": "Season",
@@ -22718,7 +23104,7 @@
       "end": 3
     },
     {
-      "no": 1984,
+      "no": 2019,
       "voice": "Olivia_Lobby03",
       "text_sno": 9402012,
       "type": "Season",
@@ -22731,7 +23117,7 @@
       "end": 7
     },
     {
-      "no": 1985,
+      "no": 2020,
       "voice": "Olivia_Lobby04",
       "text_sno": 9402013,
       "type": "Season",
@@ -22744,7 +23130,7 @@
       "end": 7
     },
     {
-      "no": 1986,
+      "no": 2021,
       "voice": "Olivia_Lobby05",
       "text_sno": 9402014,
       "type": "Season",
@@ -22757,7 +23143,7 @@
       "end": 7
     },
     {
-      "no": 1987,
+      "no": 2022,
       "voice": "Olivia_Lobby06",
       "text_sno": 9402015,
       "type": "Season",
@@ -22770,7 +23156,7 @@
       "end": 7
     },
     {
-      "no": 1988,
+      "no": 2023,
       "voice": "Olivia_Lobby07",
       "text_sno": 9402016,
       "type": "Season",
@@ -22783,7 +23169,7 @@
       "end": 7
     },
     {
-      "no": 1989,
+      "no": 2024,
       "voice": "Olivia_Bday02",
       "text_sno": 9402067,
       "type": "Season",
@@ -22796,7 +23182,7 @@
       "end": 1
     },
     {
-      "no": 1990,
+      "no": 2025,
       "voice": "Olivia_Anniversary01",
       "text_sno": 9402068,
       "type": "Season",
@@ -22810,7 +23196,7 @@
       "end": 21
     },
     {
-      "no": 1991,
+      "no": 2026,
       "voice": "Olivia_Anniversary02",
       "text_sno": 9402069,
       "type": "Season",
@@ -22824,7 +23210,7 @@
       "end": 21
     },
     {
-      "no": 1992,
+      "no": 2027,
       "voice": "Olivia_Anniversary03",
       "text_sno": 9402070,
       "type": "Season",
@@ -22838,7 +23224,7 @@
       "end": 21
     },
     {
-      "no": 1993,
+      "no": 2028,
       "voice": "Olivia_Lobby08",
       "text_sno": 9402021,
       "type": "Normal",
@@ -22848,7 +23234,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 1994,
+      "no": 2029,
       "voice": "Olivia_Lobby09",
       "text_sno": 9402022,
       "type": "Normal",
@@ -22858,7 +23244,7 @@
       "emotion": "Shy"
     },
     {
-      "no": 1995,
+      "no": 2030,
       "voice": "Olivia_Lobby10",
       "text_sno": 9402023,
       "type": "Normal",
@@ -22868,7 +23254,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 1996,
+      "no": 2031,
       "voice": "Olivia_Lobby11",
       "text_sno": 9402024,
       "type": "Normal",
@@ -22878,7 +23264,7 @@
       "emotion": "Shy"
     },
     {
-      "no": 1997,
+      "no": 2032,
       "voice": "Olivia_LobbyIdle01",
       "text_sno": 9402031,
       "type": "Leave",
@@ -22888,7 +23274,7 @@
       "emotion": "Angry"
     },
     {
-      "no": 1998,
+      "no": 2033,
       "voice": "Olivia_LobbyH1",
       "text_sno": 9402041,
       "type": "Love1",
@@ -22898,7 +23284,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 1999,
+      "no": 2034,
       "voice": "Olivia_LobbyH2",
       "text_sno": 9402042,
       "type": "Love2",
@@ -22908,7 +23294,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2000,
+      "no": 2035,
       "voice": "Olivia_LobbyH3",
       "text_sno": 9402043,
       "type": "Love3",
@@ -22918,7 +23304,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2001,
+      "no": 2036,
       "voice": "Olivia_LobbyTouch1",
       "text_sno": 9402051,
       "type": "Normal",
@@ -22928,7 +23314,7 @@
       "emotion": ""
     },
     {
-      "no": 2002,
+      "no": 2037,
       "voice": "Olivia_LobbyTouchsp",
       "text_sno": 9402052,
       "type": "TouchSp",
@@ -22938,7 +23324,7 @@
       "emotion": ""
     },
     {
-      "no": 2003,
+      "no": 2038,
       "voice": "Olivia_LobbyTouchsp2",
       "text_sno": 9402053,
       "type": "TouchSp2",
@@ -22948,7 +23334,7 @@
       "emotion": ""
     },
     {
-      "no": 2004,
+      "no": 2039,
       "voice": "Olivia_LobbyC1",
       "text_sno": 9402061,
       "type": "Mail",
@@ -22958,7 +23344,7 @@
       "emotion": "Angry"
     },
     {
-      "no": 2005,
+      "no": 2040,
       "voice": "Olivia_LobbyC2",
       "text_sno": 9402062,
       "type": "Achievements",
@@ -22968,7 +23354,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2006,
+      "no": 2041,
       "voice": "Olivia_LobbyC5",
       "text_sno": 9402063,
       "type": "AutoHunt",
@@ -22978,7 +23364,7 @@
       "emotion": "Shy"
     },
     {
-      "no": 2007,
+      "no": 2042,
       "voice": "Olivia_LobbyC6",
       "text_sno": 9402064,
       "type": "Hero",
@@ -22988,7 +23374,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2008,
+      "no": 2043,
       "voice": "Olivia_LobbyC7",
       "text_sno": 9402065,
       "type": "Town",
@@ -22998,7 +23384,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2009,
+      "no": 2044,
       "voice": "Olivia_Manage01",
       "type": "Manage1",
       "hero_no": 4020,
@@ -23007,7 +23393,7 @@
       "emotion": ""
     },
     {
-      "no": 2010,
+      "no": 2045,
       "voice": "Olivia_Manage02",
       "text_sno": 324020,
       "type": "Manage2",
@@ -23017,7 +23403,7 @@
       "emotion": ""
     },
     {
-      "no": 2011,
+      "no": 2046,
       "voice": "Rebecca_Greeting",
       "text_sno": 9403001,
       "type": "Greeting",
@@ -23027,7 +23413,7 @@
       "emotion": ""
     },
     {
-      "no": 2012,
+      "no": 2047,
       "voice": "Rebecca_Greeting02",
       "text_sno": 9403002,
       "type": "GreetingSp",
@@ -23040,7 +23426,7 @@
       "end": 3
     },
     {
-      "no": 2013,
+      "no": 2048,
       "voice": "Rebecca_Greeting03",
       "text_sno": 9403003,
       "type": "GreetingSp",
@@ -23053,7 +23439,7 @@
       "end": 7
     },
     {
-      "no": 2014,
+      "no": 2049,
       "voice": "Rebecca_Greeting04",
       "text_sno": 9403004,
       "type": "GreetingSp",
@@ -23066,7 +23452,7 @@
       "end": 7
     },
     {
-      "no": 2015,
+      "no": 2050,
       "voice": "Rebecca_Greeting05",
       "text_sno": 9403005,
       "type": "GreetingSp",
@@ -23079,7 +23465,7 @@
       "end": 7
     },
     {
-      "no": 2016,
+      "no": 2051,
       "voice": "Rebecca_Greeting06",
       "text_sno": 9403006,
       "type": "GreetingSp",
@@ -23092,7 +23478,7 @@
       "end": 7
     },
     {
-      "no": 2017,
+      "no": 2052,
       "voice": "Rebecca_Greeting07",
       "text_sno": 9403007,
       "type": "GreetingSp",
@@ -23105,7 +23491,7 @@
       "end": 7
     },
     {
-      "no": 2018,
+      "no": 2053,
       "voice": "Rebecca_Lobby02",
       "text_sno": 9403011,
       "type": "Season",
@@ -23118,7 +23504,7 @@
       "end": 3
     },
     {
-      "no": 2019,
+      "no": 2054,
       "voice": "Rebecca_Lobby03",
       "text_sno": 9403012,
       "type": "Season",
@@ -23131,7 +23517,7 @@
       "end": 7
     },
     {
-      "no": 2020,
+      "no": 2055,
       "voice": "Rebecca_Lobby04",
       "text_sno": 9403013,
       "type": "Season",
@@ -23144,7 +23530,7 @@
       "end": 7
     },
     {
-      "no": 2021,
+      "no": 2056,
       "voice": "Rebecca_Lobby05",
       "text_sno": 9403014,
       "type": "Season",
@@ -23157,7 +23543,7 @@
       "end": 7
     },
     {
-      "no": 2022,
+      "no": 2057,
       "voice": "Rebecca_Lobby06",
       "text_sno": 9403015,
       "type": "Season",
@@ -23170,7 +23556,7 @@
       "end": 7
     },
     {
-      "no": 2023,
+      "no": 2058,
       "voice": "Rebecca_Lobby07",
       "text_sno": 9403016,
       "type": "Season",
@@ -23183,7 +23569,7 @@
       "end": 7
     },
     {
-      "no": 2024,
+      "no": 2059,
       "voice": "Rebecca_Bday02",
       "text_sno": 9403067,
       "type": "Season",
@@ -23196,7 +23582,7 @@
       "end": 1
     },
     {
-      "no": 2025,
+      "no": 2060,
       "voice": "Rebecca_Anniversary01",
       "text_sno": 9403068,
       "type": "Season",
@@ -23210,7 +23596,7 @@
       "end": 21
     },
     {
-      "no": 2026,
+      "no": 2061,
       "voice": "Rebecca_Anniversary02",
       "text_sno": 9403069,
       "type": "Season",
@@ -23224,7 +23610,7 @@
       "end": 21
     },
     {
-      "no": 2027,
+      "no": 2062,
       "voice": "Rebecca_Anniversary03",
       "text_sno": 9403070,
       "type": "Season",
@@ -23238,7 +23624,7 @@
       "end": 21
     },
     {
-      "no": 2028,
+      "no": 2063,
       "voice": "Rebecca_Anniversary",
       "text_sno": 9403071,
       "type": "Season",
@@ -23252,7 +23638,7 @@
       "end": 21
     },
     {
-      "no": 2029,
+      "no": 2064,
       "voice": "Rebecca_Lobby08",
       "text_sno": 9403021,
       "type": "Normal",
@@ -23262,7 +23648,7 @@
       "emotion": "Sigh"
     },
     {
-      "no": 2030,
+      "no": 2065,
       "voice": "Rebecca_Lobby09",
       "text_sno": 9403022,
       "type": "Normal",
@@ -23272,7 +23658,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2031,
+      "no": 2066,
       "voice": "Rebecca_Lobby10",
       "text_sno": 9403023,
       "type": "Normal",
@@ -23282,7 +23668,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2032,
+      "no": 2067,
       "voice": "Rebecca_Lobby11",
       "text_sno": 9403024,
       "type": "Normal",
@@ -23292,7 +23678,7 @@
       "emotion": "Sorrow"
     },
     {
-      "no": 2033,
+      "no": 2068,
       "voice": "Rebecca_LobbyIdle01",
       "text_sno": 9403031,
       "type": "Leave",
@@ -23302,7 +23688,7 @@
       "emotion": "Irritate"
     },
     {
-      "no": 2034,
+      "no": 2069,
       "voice": "Rebecca_LobbyH1",
       "text_sno": 9403041,
       "type": "Love1",
@@ -23312,7 +23698,7 @@
       "emotion": "Angry"
     },
     {
-      "no": 2035,
+      "no": 2070,
       "voice": "Rebecca_LobbyH2",
       "text_sno": 9403042,
       "type": "Love2",
@@ -23322,7 +23708,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2036,
+      "no": 2071,
       "voice": "Rebecca_LobbyH3",
       "text_sno": 9403043,
       "type": "Love3",
@@ -23332,7 +23718,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2037,
+      "no": 2072,
       "voice": "Rebecca_LobbyTouch1",
       "text_sno": 9403051,
       "type": "Normal",
@@ -23342,7 +23728,7 @@
       "emotion": ""
     },
     {
-      "no": 2038,
+      "no": 2073,
       "voice": "Rebecca_LobbyTouchsp",
       "text_sno": 9403052,
       "type": "TouchSp",
@@ -23352,7 +23738,7 @@
       "emotion": ""
     },
     {
-      "no": 2039,
+      "no": 2074,
       "voice": "Rebecca_LobbyTouchsp2",
       "text_sno": 9403053,
       "type": "TouchSp2",
@@ -23362,7 +23748,7 @@
       "emotion": ""
     },
     {
-      "no": 2040,
+      "no": 2075,
       "voice": "Rebecca_LobbyC1",
       "text_sno": 9403061,
       "type": "Mail",
@@ -23372,7 +23758,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2041,
+      "no": 2076,
       "voice": "Rebecca_LobbyC2",
       "text_sno": 9403062,
       "type": "Achievements",
@@ -23382,7 +23768,7 @@
       "emotion": "Sorrow"
     },
     {
-      "no": 2042,
+      "no": 2077,
       "voice": "Rebecca_LobbyC5",
       "text_sno": 9403063,
       "type": "AutoHunt",
@@ -23392,7 +23778,7 @@
       "emotion": "Sigh"
     },
     {
-      "no": 2043,
+      "no": 2078,
       "voice": "Rebecca_LobbyC6",
       "text_sno": 9403064,
       "type": "Hero",
@@ -23402,7 +23788,7 @@
       "emotion": "Sorrow"
     },
     {
-      "no": 2044,
+      "no": 2079,
       "voice": "Rebecca_LobbyC7",
       "text_sno": 9403065,
       "type": "Town",
@@ -23412,7 +23798,7 @@
       "emotion": "Sigh"
     },
     {
-      "no": 2045,
+      "no": 2080,
       "voice": "Rebecca_Manage01",
       "type": "Manage1",
       "hero_no": 4030,
@@ -23421,7 +23807,7 @@
       "emotion": ""
     },
     {
-      "no": 2046,
+      "no": 2081,
       "voice": "Rebecca_Manage02",
       "text_sno": 324030,
       "type": "Manage2",
@@ -23431,7 +23817,7 @@
       "emotion": ""
     },
     {
-      "no": 2047,
+      "no": 2082,
       "voice": "Melfice_Greeting",
       "text_sno": 9404001,
       "type": "Greeting",
@@ -23441,7 +23827,7 @@
       "emotion": ""
     },
     {
-      "no": 2048,
+      "no": 2083,
       "voice": "Melfice_Greeting02",
       "text_sno": 9404002,
       "type": "GreetingSp",
@@ -23454,7 +23840,7 @@
       "end": 3
     },
     {
-      "no": 2049,
+      "no": 2084,
       "voice": "Melfice_Greeting03",
       "text_sno": 9404003,
       "type": "GreetingSp",
@@ -23467,7 +23853,7 @@
       "end": 7
     },
     {
-      "no": 2050,
+      "no": 2085,
       "voice": "Melfice_Greeting04",
       "text_sno": 9404004,
       "type": "GreetingSp",
@@ -23480,7 +23866,7 @@
       "end": 7
     },
     {
-      "no": 2051,
+      "no": 2086,
       "voice": "Melfice_Greeting05",
       "text_sno": 9404005,
       "type": "GreetingSp",
@@ -23493,7 +23879,7 @@
       "end": 7
     },
     {
-      "no": 2052,
+      "no": 2087,
       "voice": "Melfice_Greeting06",
       "text_sno": 9404006,
       "type": "GreetingSp",
@@ -23506,7 +23892,7 @@
       "end": 7
     },
     {
-      "no": 2053,
+      "no": 2088,
       "voice": "Melfice_Greeting07",
       "text_sno": 9404007,
       "type": "GreetingSp",
@@ -23519,7 +23905,7 @@
       "end": 7
     },
     {
-      "no": 2054,
+      "no": 2089,
       "voice": "Melfice_Lobby02",
       "text_sno": 9404011,
       "type": "Season",
@@ -23532,7 +23918,7 @@
       "end": 3
     },
     {
-      "no": 2055,
+      "no": 2090,
       "voice": "Melfice_Lobby03",
       "text_sno": 9404012,
       "type": "Season",
@@ -23545,7 +23931,7 @@
       "end": 7
     },
     {
-      "no": 2056,
+      "no": 2091,
       "voice": "Melfice_Lobby04",
       "text_sno": 9404013,
       "type": "Season",
@@ -23558,7 +23944,7 @@
       "end": 7
     },
     {
-      "no": 2057,
+      "no": 2092,
       "voice": "Melfice_Lobby05",
       "text_sno": 9404014,
       "type": "Season",
@@ -23571,7 +23957,7 @@
       "end": 7
     },
     {
-      "no": 2058,
+      "no": 2093,
       "voice": "Melfice_Lobby06",
       "text_sno": 9404015,
       "type": "Season",
@@ -23584,7 +23970,7 @@
       "end": 7
     },
     {
-      "no": 2059,
+      "no": 2094,
       "voice": "Melfice_Lobby07",
       "text_sno": 9404016,
       "type": "Season",
@@ -23597,7 +23983,7 @@
       "end": 7
     },
     {
-      "no": 2060,
+      "no": 2095,
       "voice": "Melfice_Bday02",
       "text_sno": 9404067,
       "type": "Season",
@@ -23610,7 +23996,7 @@
       "end": 1
     },
     {
-      "no": 2061,
+      "no": 2096,
       "voice": "Melfice_Anniversary01",
       "text_sno": 9404068,
       "type": "Season",
@@ -23624,7 +24010,7 @@
       "end": 21
     },
     {
-      "no": 2062,
+      "no": 2097,
       "voice": "Melfice_Anniversary02",
       "text_sno": 9404069,
       "type": "Season",
@@ -23638,7 +24024,7 @@
       "end": 21
     },
     {
-      "no": 2063,
+      "no": 2098,
       "voice": "Melfice_Anniversary03",
       "text_sno": 9404070,
       "type": "Season",
@@ -23652,7 +24038,7 @@
       "end": 21
     },
     {
-      "no": 2064,
+      "no": 2099,
       "voice": "Melfice_Lobby08",
       "text_sno": 9404021,
       "type": "Normal",
@@ -23662,7 +24048,7 @@
       "emotion": "Proud"
     },
     {
-      "no": 2065,
+      "no": 2100,
       "voice": "Melfice_Lobby09",
       "text_sno": 9404022,
       "type": "Normal",
@@ -23672,7 +24058,7 @@
       "emotion": "Doubt"
     },
     {
-      "no": 2066,
+      "no": 2101,
       "voice": "Melfice_Lobby10",
       "text_sno": 9404023,
       "type": "Normal",
@@ -23682,7 +24068,7 @@
       "emotion": "Proud"
     },
     {
-      "no": 2067,
+      "no": 2102,
       "voice": "Melfice_Lobby11",
       "text_sno": 9404024,
       "type": "Normal",
@@ -23692,7 +24078,7 @@
       "emotion": "Serious"
     },
     {
-      "no": 2068,
+      "no": 2103,
       "voice": "Melfice_LobbyIdle01",
       "text_sno": 9404031,
       "type": "Leave",
@@ -23702,7 +24088,7 @@
       "emotion": "Angry"
     },
     {
-      "no": 2069,
+      "no": 2104,
       "voice": "Melfice_LobbyH1",
       "text_sno": 9404041,
       "type": "Love1",
@@ -23712,7 +24098,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2070,
+      "no": 2105,
       "voice": "Melfice_LobbyH2",
       "text_sno": 9404042,
       "type": "Love2",
@@ -23722,7 +24108,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2071,
+      "no": 2106,
       "voice": "Melfice_LobbyH3",
       "text_sno": 9404043,
       "type": "Love3",
@@ -23732,7 +24118,7 @@
       "emotion": "Threat"
     },
     {
-      "no": 2072,
+      "no": 2107,
       "voice": "Melfice_LobbyTouch1",
       "text_sno": 9404051,
       "type": "Normal",
@@ -23742,7 +24128,7 @@
       "emotion": ""
     },
     {
-      "no": 2073,
+      "no": 2108,
       "voice": "Melfice_LobbyTouchsp",
       "text_sno": 9404052,
       "type": "TouchSp",
@@ -23752,7 +24138,7 @@
       "emotion": ""
     },
     {
-      "no": 2074,
+      "no": 2109,
       "voice": "Melfice_LobbyC1",
       "text_sno": 9404061,
       "type": "Mail",
@@ -23762,7 +24148,7 @@
       "emotion": ""
     },
     {
-      "no": 2075,
+      "no": 2110,
       "voice": "Melfice_LobbyC2",
       "text_sno": 9404062,
       "type": "Achievements",
@@ -23772,7 +24158,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2076,
+      "no": 2111,
       "voice": "Melfice_LobbyC5",
       "text_sno": 9404063,
       "type": "AutoHunt",
@@ -23782,7 +24168,7 @@
       "emotion": "Mock3"
     },
     {
-      "no": 2077,
+      "no": 2112,
       "voice": "Melfice_LobbyC6",
       "text_sno": 9404064,
       "type": "Hero",
@@ -23792,7 +24178,7 @@
       "emotion": "Oh"
     },
     {
-      "no": 2078,
+      "no": 2113,
       "voice": "Melfice_LobbyC7",
       "text_sno": 9404065,
       "type": "Town",
@@ -23802,7 +24188,7 @@
       "emotion": "Mock"
     },
     {
-      "no": 2079,
+      "no": 2114,
       "voice": "Melfice_Manage01",
       "type": "Manage1",
       "hero_no": 4040,
@@ -23811,7 +24197,7 @@
       "emotion": ""
     },
     {
-      "no": 2080,
+      "no": 2115,
       "voice": "Melfice_Manage02",
       "text_sno": 324040,
       "type": "Manage2",
@@ -23821,7 +24207,7 @@
       "emotion": ""
     },
     {
-      "no": 2081,
+      "no": 2116,
       "voice": "Blyce_Greeting",
       "text_sno": 9405001,
       "type": "Greeting",
@@ -23831,7 +24217,7 @@
       "emotion": ""
     },
     {
-      "no": 2082,
+      "no": 2117,
       "voice": "Blyce_Greeting02",
       "text_sno": 9405002,
       "type": "GreetingSp",
@@ -23844,7 +24230,7 @@
       "end": 3
     },
     {
-      "no": 2083,
+      "no": 2118,
       "voice": "Blyce_Greeting03",
       "text_sno": 9405003,
       "type": "GreetingSp",
@@ -23857,7 +24243,7 @@
       "end": 7
     },
     {
-      "no": 2084,
+      "no": 2119,
       "voice": "Blyce_Greeting04",
       "text_sno": 9405004,
       "type": "GreetingSp",
@@ -23870,7 +24256,7 @@
       "end": 7
     },
     {
-      "no": 2085,
+      "no": 2120,
       "voice": "Blyce_Greeting05",
       "text_sno": 9405005,
       "type": "GreetingSp",
@@ -23883,7 +24269,7 @@
       "end": 7
     },
     {
-      "no": 2086,
+      "no": 2121,
       "voice": "Blyce_Greeting06",
       "text_sno": 9405006,
       "type": "GreetingSp",
@@ -23896,7 +24282,7 @@
       "end": 7
     },
     {
-      "no": 2087,
+      "no": 2122,
       "voice": "Blyce_Greeting07",
       "text_sno": 9405007,
       "type": "GreetingSp",
@@ -23909,7 +24295,7 @@
       "end": 7
     },
     {
-      "no": 2088,
+      "no": 2123,
       "voice": "Blyce_Lobby02",
       "text_sno": 9405011,
       "type": "Season",
@@ -23922,7 +24308,7 @@
       "end": 3
     },
     {
-      "no": 2089,
+      "no": 2124,
       "voice": "Blyce_Lobby03",
       "text_sno": 9405012,
       "type": "Season",
@@ -23935,7 +24321,7 @@
       "end": 7
     },
     {
-      "no": 2090,
+      "no": 2125,
       "voice": "Blyce_Lobby04",
       "text_sno": 9405013,
       "type": "Season",
@@ -23948,7 +24334,7 @@
       "end": 7
     },
     {
-      "no": 2091,
+      "no": 2126,
       "voice": "Blyce_Lobby05",
       "text_sno": 9405014,
       "type": "Season",
@@ -23961,7 +24347,7 @@
       "end": 7
     },
     {
-      "no": 2092,
+      "no": 2127,
       "voice": "Blyce_Lobby06",
       "text_sno": 9405015,
       "type": "Season",
@@ -23974,7 +24360,7 @@
       "end": 7
     },
     {
-      "no": 2093,
+      "no": 2128,
       "voice": "Blyce_Lobby07",
       "text_sno": 9405016,
       "type": "Season",
@@ -23987,7 +24373,7 @@
       "end": 7
     },
     {
-      "no": 2094,
+      "no": 2129,
       "voice": "Blyce_Bday02",
       "text_sno": 9405067,
       "type": "Season",
@@ -24000,7 +24386,7 @@
       "end": 1
     },
     {
-      "no": 2095,
+      "no": 2130,
       "voice": "Blyce_Anniversary01",
       "text_sno": 9405068,
       "type": "Season",
@@ -24014,7 +24400,7 @@
       "end": 21
     },
     {
-      "no": 2096,
+      "no": 2131,
       "voice": "Blyce_Anniversary02",
       "text_sno": 9405069,
       "type": "Season",
@@ -24028,7 +24414,7 @@
       "end": 21
     },
     {
-      "no": 2097,
+      "no": 2132,
       "voice": "Blyce_Anniversary03",
       "text_sno": 9405070,
       "type": "Season",
@@ -24042,7 +24428,7 @@
       "end": 21
     },
     {
-      "no": 2098,
+      "no": 2133,
       "voice": "Blyce_Lobby08",
       "text_sno": 9405021,
       "type": "Normal",
@@ -24052,7 +24438,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2099,
+      "no": 2134,
       "voice": "Blyce_Lobby09",
       "text_sno": 9405022,
       "type": "Normal",
@@ -24062,7 +24448,7 @@
       "emotion": ""
     },
     {
-      "no": 2100,
+      "no": 2135,
       "voice": "Blyce_Lobby10",
       "text_sno": 9405023,
       "type": "Normal",
@@ -24072,7 +24458,7 @@
       "emotion": ""
     },
     {
-      "no": 2101,
+      "no": 2136,
       "voice": "Blyce_Lobby11",
       "text_sno": 9405024,
       "type": "Normal",
@@ -24082,7 +24468,7 @@
       "emotion": ""
     },
     {
-      "no": 2102,
+      "no": 2137,
       "voice": "Blyce_LobbyIdle01",
       "text_sno": 9405031,
       "type": "Leave",
@@ -24092,7 +24478,7 @@
       "emotion": ""
     },
     {
-      "no": 2103,
+      "no": 2138,
       "voice": "Blyce_LobbyH1",
       "text_sno": 9405041,
       "type": "Love1",
@@ -24102,7 +24488,7 @@
       "emotion": ""
     },
     {
-      "no": 2104,
+      "no": 2139,
       "voice": "Blyce_LobbyH2",
       "text_sno": 9405042,
       "type": "Love2",
@@ -24112,7 +24498,7 @@
       "emotion": "Calm"
     },
     {
-      "no": 2105,
+      "no": 2140,
       "voice": "Blyce_LobbyH3",
       "text_sno": 9405043,
       "type": "Love3",
@@ -24122,7 +24508,7 @@
       "emotion": ""
     },
     {
-      "no": 2106,
+      "no": 2141,
       "voice": "Blyce_LobbyTouch1",
       "text_sno": 9405051,
       "type": "Normal",
@@ -24132,7 +24518,7 @@
       "emotion": ""
     },
     {
-      "no": 2107,
+      "no": 2142,
       "voice": "Blyce_LobbyTouchsp",
       "text_sno": 9405052,
       "type": "TouchSp",
@@ -24142,7 +24528,7 @@
       "emotion": ""
     },
     {
-      "no": 2108,
+      "no": 2143,
       "voice": "Blyce_LobbyC1",
       "text_sno": 9405061,
       "type": "Mail",
@@ -24152,7 +24538,7 @@
       "emotion": ""
     },
     {
-      "no": 2109,
+      "no": 2144,
       "voice": "Blyce_LobbyC2",
       "text_sno": 9405062,
       "type": "Achievements",
@@ -24162,7 +24548,7 @@
       "emotion": ""
     },
     {
-      "no": 2110,
+      "no": 2145,
       "voice": "Blyce_LobbyC5",
       "text_sno": 9405063,
       "type": "AutoHunt",
@@ -24172,7 +24558,7 @@
       "emotion": ""
     },
     {
-      "no": 2111,
+      "no": 2146,
       "voice": "Blyce_LobbyC6",
       "text_sno": 9405064,
       "type": "Hero",
@@ -24182,7 +24568,7 @@
       "emotion": ""
     },
     {
-      "no": 2112,
+      "no": 2147,
       "voice": "Blyce_LobbyC7",
       "text_sno": 9405065,
       "type": "Town",
@@ -24192,7 +24578,7 @@
       "emotion": ""
     },
     {
-      "no": 2113,
+      "no": 2148,
       "voice": "Blyce_Manage01",
       "type": "Manage1",
       "hero_no": 4050,
@@ -24201,7 +24587,7 @@
       "emotion": ""
     },
     {
-      "no": 2114,
+      "no": 2149,
       "voice": "Blyce_Manage02",
       "text_sno": 324050,
       "type": "Manage2",
@@ -24211,7 +24597,7 @@
       "emotion": ""
     },
     {
-      "no": 2115,
+      "no": 2150,
       "voice": "Prim_Greeting",
       "text_sno": 9406001,
       "type": "Greeting",
@@ -24221,7 +24607,7 @@
       "emotion": ""
     },
     {
-      "no": 2116,
+      "no": 2151,
       "voice": "Prim_Greeting02",
       "text_sno": 9406002,
       "type": "GreetingSp",
@@ -24234,7 +24620,7 @@
       "end": 3
     },
     {
-      "no": 2117,
+      "no": 2152,
       "voice": "Prim_Greeting03",
       "text_sno": 9406003,
       "type": "GreetingSp",
@@ -24247,7 +24633,7 @@
       "end": 7
     },
     {
-      "no": 2118,
+      "no": 2153,
       "voice": "Prim_Greeting04",
       "text_sno": 9406004,
       "type": "GreetingSp",
@@ -24260,7 +24646,7 @@
       "end": 7
     },
     {
-      "no": 2119,
+      "no": 2154,
       "voice": "Prim_Greeting05",
       "text_sno": 9406005,
       "type": "GreetingSp",
@@ -24273,7 +24659,7 @@
       "end": 7
     },
     {
-      "no": 2120,
+      "no": 2155,
       "voice": "Prim_Greeting06",
       "text_sno": 9406006,
       "type": "GreetingSp",
@@ -24286,7 +24672,7 @@
       "end": 7
     },
     {
-      "no": 2121,
+      "no": 2156,
       "voice": "Prim_Greeting07",
       "text_sno": 9406007,
       "type": "GreetingSp",
@@ -24299,7 +24685,7 @@
       "end": 7
     },
     {
-      "no": 2122,
+      "no": 2157,
       "voice": "Prim_Lobby02",
       "text_sno": 9406011,
       "type": "Season",
@@ -24312,7 +24698,7 @@
       "end": 3
     },
     {
-      "no": 2123,
+      "no": 2158,
       "voice": "Prim_Lobby03",
       "text_sno": 9406012,
       "type": "Season",
@@ -24325,7 +24711,7 @@
       "end": 7
     },
     {
-      "no": 2124,
+      "no": 2159,
       "voice": "Prim_Lobby04",
       "text_sno": 9406013,
       "type": "Season",
@@ -24338,7 +24724,7 @@
       "end": 7
     },
     {
-      "no": 2125,
+      "no": 2160,
       "voice": "Prim_Lobby05",
       "text_sno": 9406014,
       "type": "Season",
@@ -24351,7 +24737,7 @@
       "end": 7
     },
     {
-      "no": 2126,
+      "no": 2161,
       "voice": "Prim_Lobby06",
       "text_sno": 9406015,
       "type": "Season",
@@ -24364,7 +24750,7 @@
       "end": 7
     },
     {
-      "no": 2127,
+      "no": 2162,
       "voice": "Prim_Lobby07",
       "text_sno": 9406016,
       "type": "Season",
@@ -24377,7 +24763,7 @@
       "end": 7
     },
     {
-      "no": 2128,
+      "no": 2163,
       "voice": "Prim_Bday02",
       "text_sno": 9406067,
       "type": "Season",
@@ -24390,7 +24776,7 @@
       "end": 1
     },
     {
-      "no": 2129,
+      "no": 2164,
       "voice": "Prim_Anniversary01",
       "text_sno": 9406068,
       "type": "Season",
@@ -24404,7 +24790,7 @@
       "end": 21
     },
     {
-      "no": 2130,
+      "no": 2165,
       "voice": "Prim_Anniversary02",
       "text_sno": 9406069,
       "type": "Season",
@@ -24418,7 +24804,7 @@
       "end": 21
     },
     {
-      "no": 2131,
+      "no": 2166,
       "voice": "Prim_Anniversary03",
       "text_sno": 9406070,
       "type": "Season",
@@ -24432,7 +24818,7 @@
       "end": 21
     },
     {
-      "no": 2132,
+      "no": 2167,
       "voice": "Prim_Lobby08",
       "text_sno": 9406021,
       "type": "Normal",
@@ -24442,7 +24828,7 @@
       "emotion": "Wink"
     },
     {
-      "no": 2133,
+      "no": 2168,
       "voice": "Prim_Lobby09",
       "text_sno": 9406022,
       "type": "Normal",
@@ -24452,7 +24838,7 @@
       "emotion": "Heart"
     },
     {
-      "no": 2134,
+      "no": 2169,
       "voice": "Prim_Lobby10",
       "text_sno": 9406023,
       "type": "Normal",
@@ -24462,7 +24848,7 @@
       "emotion": "Laugh"
     },
     {
-      "no": 2135,
+      "no": 2170,
       "voice": "Prim_Lobby11",
       "text_sno": 9406024,
       "type": "Normal",
@@ -24472,7 +24858,7 @@
       "emotion": "Worry"
     },
     {
-      "no": 2136,
+      "no": 2171,
       "voice": "Prim_LobbyIdle01",
       "text_sno": 9406031,
       "type": "Leave",
@@ -24482,7 +24868,7 @@
       "emotion": "Tremble"
     },
     {
-      "no": 2137,
+      "no": 2172,
       "voice": "Prim_LobbyH1",
       "text_sno": 9406041,
       "type": "Love1",
@@ -24492,7 +24878,7 @@
       "emotion": "Smile2"
     },
     {
-      "no": 2138,
+      "no": 2173,
       "voice": "Prim_LobbyH2",
       "text_sno": 9406042,
       "type": "Love2",
@@ -24502,7 +24888,7 @@
       "emotion": "Worry"
     },
     {
-      "no": 2139,
+      "no": 2174,
       "voice": "Prim_LobbyH3",
       "text_sno": 9406043,
       "type": "Love3",
@@ -24512,7 +24898,7 @@
       "emotion": "Smile2"
     },
     {
-      "no": 2140,
+      "no": 2175,
       "voice": "Prim_LobbyTouch1",
       "text_sno": 9406051,
       "type": "Normal",
@@ -24522,7 +24908,7 @@
       "emotion": ""
     },
     {
-      "no": 2141,
+      "no": 2176,
       "voice": "Prim_LobbyTouchsp",
       "text_sno": 9406052,
       "type": "TouchSp",
@@ -24532,7 +24918,7 @@
       "emotion": ""
     },
     {
-      "no": 2142,
+      "no": 2177,
       "voice": "Prim_LobbyC1",
       "text_sno": 9406061,
       "type": "Mail",
@@ -24542,7 +24928,7 @@
       "emotion": "Wink"
     },
     {
-      "no": 2143,
+      "no": 2178,
       "voice": "Prim_LobbyC2",
       "text_sno": 9406062,
       "type": "Achievements",
@@ -24552,7 +24938,7 @@
       "emotion": "Smile2"
     },
     {
-      "no": 2144,
+      "no": 2179,
       "voice": "Prim_LobbyC5",
       "text_sno": 9406063,
       "type": "AutoHunt",
@@ -24562,7 +24948,7 @@
       "emotion": "Heart"
     },
     {
-      "no": 2145,
+      "no": 2180,
       "voice": "Prim_LobbyC6",
       "text_sno": 9406064,
       "type": "Hero",
@@ -24572,7 +24958,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2146,
+      "no": 2181,
       "voice": "Prim_LobbyC7",
       "text_sno": 9406065,
       "type": "Town",
@@ -24582,7 +24968,7 @@
       "emotion": "Oh"
     },
     {
-      "no": 2147,
+      "no": 2182,
       "voice": "Prim_Manage01",
       "type": "Manage1",
       "hero_no": 4060,
@@ -24591,7 +24977,7 @@
       "emotion": ""
     },
     {
-      "no": 2148,
+      "no": 2183,
       "voice": "Prim_Manage02",
       "text_sno": 324060,
       "type": "Manage2",
@@ -24601,7 +24987,7 @@
       "emotion": ""
     },
     {
-      "no": 2149,
+      "no": 2184,
       "voice": "Jacqueline_Greeting",
       "text_sno": 9407001,
       "type": "Greeting",
@@ -24611,7 +24997,7 @@
       "emotion": ""
     },
     {
-      "no": 2150,
+      "no": 2185,
       "voice": "Jacqueline_Greeting02",
       "text_sno": 9407002,
       "type": "GreetingSp",
@@ -24624,7 +25010,7 @@
       "end": 3
     },
     {
-      "no": 2151,
+      "no": 2186,
       "voice": "Jacqueline_Greeting03",
       "text_sno": 9407003,
       "type": "GreetingSp",
@@ -24637,7 +25023,7 @@
       "end": 7
     },
     {
-      "no": 2152,
+      "no": 2187,
       "voice": "Jacqueline_Greeting04",
       "text_sno": 9407004,
       "type": "GreetingSp",
@@ -24650,7 +25036,7 @@
       "end": 7
     },
     {
-      "no": 2153,
+      "no": 2188,
       "voice": "Jacqueline_Greeting05",
       "text_sno": 9407005,
       "type": "GreetingSp",
@@ -24663,7 +25049,7 @@
       "end": 7
     },
     {
-      "no": 2154,
+      "no": 2189,
       "voice": "Jacqueline_Greeting06",
       "text_sno": 9407006,
       "type": "GreetingSp",
@@ -24676,7 +25062,7 @@
       "end": 7
     },
     {
-      "no": 2155,
+      "no": 2190,
       "voice": "Jacqueline_Greeting07",
       "text_sno": 9407007,
       "type": "GreetingSp",
@@ -24689,7 +25075,7 @@
       "end": 7
     },
     {
-      "no": 2156,
+      "no": 2191,
       "voice": "Jacqueline_Lobby02",
       "text_sno": 9407011,
       "type": "Season",
@@ -24702,7 +25088,7 @@
       "end": 3
     },
     {
-      "no": 2157,
+      "no": 2192,
       "voice": "Jacqueline_Lobby03",
       "text_sno": 9407012,
       "type": "Season",
@@ -24715,7 +25101,7 @@
       "end": 7
     },
     {
-      "no": 2158,
+      "no": 2193,
       "voice": "Jacqueline_Lobby04",
       "text_sno": 9407013,
       "type": "Season",
@@ -24728,7 +25114,7 @@
       "end": 7
     },
     {
-      "no": 2159,
+      "no": 2194,
       "voice": "Jacqueline_Lobby05",
       "text_sno": 9407014,
       "type": "Season",
@@ -24741,7 +25127,7 @@
       "end": 7
     },
     {
-      "no": 2160,
+      "no": 2195,
       "voice": "Jacqueline_Lobby06",
       "text_sno": 9407015,
       "type": "Season",
@@ -24754,7 +25140,7 @@
       "end": 7
     },
     {
-      "no": 2161,
+      "no": 2196,
       "voice": "Jacqueline_Lobby07",
       "text_sno": 9407016,
       "type": "Season",
@@ -24767,7 +25153,7 @@
       "end": 7
     },
     {
-      "no": 2162,
+      "no": 2197,
       "voice": "Jacqueline_Bday02",
       "text_sno": 9407067,
       "type": "Season",
@@ -24780,7 +25166,7 @@
       "end": 1
     },
     {
-      "no": 2163,
+      "no": 2198,
       "voice": "Jacqueline_Anniversary01",
       "text_sno": 9407068,
       "type": "Season",
@@ -24794,7 +25180,7 @@
       "end": 21
     },
     {
-      "no": 2164,
+      "no": 2199,
       "voice": "Jacqueline_Anniversary02",
       "text_sno": 9407069,
       "type": "Season",
@@ -24808,7 +25194,7 @@
       "end": 21
     },
     {
-      "no": 2165,
+      "no": 2200,
       "voice": "Jacqueline_Anniversary03",
       "text_sno": 9407070,
       "type": "Season",
@@ -24822,7 +25208,7 @@
       "end": 21
     },
     {
-      "no": 2166,
+      "no": 2201,
       "voice": "Jacqueline_Lobby08",
       "text_sno": 9407021,
       "type": "Normal",
@@ -24832,7 +25218,7 @@
       "emotion": ""
     },
     {
-      "no": 2167,
+      "no": 2202,
       "voice": "Jacqueline_Lobby09",
       "text_sno": 9407022,
       "type": "Normal",
@@ -24842,7 +25228,7 @@
       "emotion": ""
     },
     {
-      "no": 2168,
+      "no": 2203,
       "voice": "Jacqueline_Lobby10",
       "text_sno": 9407023,
       "type": "Normal",
@@ -24852,7 +25238,7 @@
       "emotion": "Pleasure"
     },
     {
-      "no": 2169,
+      "no": 2204,
       "voice": "Jacqueline_Lobby11",
       "text_sno": 9407024,
       "type": "Normal",
@@ -24862,7 +25248,7 @@
       "emotion": "Calm"
     },
     {
-      "no": 2170,
+      "no": 2205,
       "voice": "Jacqueline_LobbyIdle01",
       "text_sno": 9407031,
       "type": "Leave",
@@ -24872,7 +25258,7 @@
       "emotion": "Calm"
     },
     {
-      "no": 2171,
+      "no": 2206,
       "voice": "Jacqueline_LobbyH1",
       "text_sno": 9407041,
       "type": "Love1",
@@ -24882,7 +25268,7 @@
       "emotion": ""
     },
     {
-      "no": 2172,
+      "no": 2207,
       "voice": "Jacqueline_LobbyH2",
       "text_sno": 9407042,
       "type": "Love2",
@@ -24892,7 +25278,7 @@
       "emotion": "Lockon"
     },
     {
-      "no": 2173,
+      "no": 2208,
       "voice": "Jacqueline_LobbyH3",
       "text_sno": 9407043,
       "type": "Love3",
@@ -24902,7 +25288,7 @@
       "emotion": "Calm"
     },
     {
-      "no": 2174,
+      "no": 2209,
       "voice": "Jacqueline_LobbyTouch1",
       "text_sno": 9407051,
       "type": "Normal",
@@ -24912,7 +25298,7 @@
       "emotion": ""
     },
     {
-      "no": 2175,
+      "no": 2210,
       "voice": "Jacqueline_LobbyTouchsp",
       "text_sno": 9407052,
       "type": "TouchSp",
@@ -24922,7 +25308,7 @@
       "emotion": ""
     },
     {
-      "no": 2176,
+      "no": 2211,
       "voice": "Jacqueline_LobbyC1",
       "text_sno": 9407061,
       "type": "Mail",
@@ -24932,7 +25318,7 @@
       "emotion": ""
     },
     {
-      "no": 2177,
+      "no": 2212,
       "voice": "Jacqueline_LobbyC2",
       "text_sno": 9407062,
       "type": "Achievements",
@@ -24942,7 +25328,7 @@
       "emotion": "Lockon"
     },
     {
-      "no": 2178,
+      "no": 2213,
       "voice": "Jacqueline_LobbyC5",
       "text_sno": 9407063,
       "type": "AutoHunt",
@@ -24952,7 +25338,7 @@
       "emotion": "Calm"
     },
     {
-      "no": 2179,
+      "no": 2214,
       "voice": "Jacqueline_LobbyC6",
       "text_sno": 9407064,
       "type": "Hero",
@@ -24962,7 +25348,7 @@
       "emotion": "Lockon"
     },
     {
-      "no": 2180,
+      "no": 2215,
       "voice": "Jacqueline_LobbyC7",
       "text_sno": 9407065,
       "type": "Town",
@@ -24972,7 +25358,7 @@
       "emotion": "Lockon"
     },
     {
-      "no": 2181,
+      "no": 2216,
       "voice": "Jacqueline_Manage01",
       "type": "Manage1",
       "hero_no": 4070,
@@ -24981,7 +25367,7 @@
       "emotion": ""
     },
     {
-      "no": 2182,
+      "no": 2217,
       "voice": "Jacqueline_Manage02",
       "text_sno": 324070,
       "type": "Manage2",
@@ -24991,7 +25377,7 @@
       "emotion": ""
     },
     {
-      "no": 2183,
+      "no": 2218,
       "voice": "Velanna_Greeting",
       "text_sno": 9408001,
       "type": "Greeting",
@@ -25001,7 +25387,7 @@
       "emotion": ""
     },
     {
-      "no": 2184,
+      "no": 2219,
       "voice": "Velanna_Greeting02",
       "text_sno": 9408002,
       "type": "GreetingSp",
@@ -25014,7 +25400,7 @@
       "end": 3
     },
     {
-      "no": 2185,
+      "no": 2220,
       "voice": "Velanna_Greeting03",
       "text_sno": 9408003,
       "type": "GreetingSp",
@@ -25027,7 +25413,7 @@
       "end": 7
     },
     {
-      "no": 2186,
+      "no": 2221,
       "voice": "Velanna_Greeting04",
       "text_sno": 9408004,
       "type": "GreetingSp",
@@ -25040,7 +25426,7 @@
       "end": 7
     },
     {
-      "no": 2187,
+      "no": 2222,
       "voice": "Velanna_Greeting05",
       "text_sno": 9408005,
       "type": "GreetingSp",
@@ -25053,7 +25439,7 @@
       "end": 7
     },
     {
-      "no": 2188,
+      "no": 2223,
       "voice": "Velanna_Greeting06",
       "text_sno": 9408006,
       "type": "GreetingSp",
@@ -25066,7 +25452,7 @@
       "end": 7
     },
     {
-      "no": 2189,
+      "no": 2224,
       "voice": "Velanna_Greeting07",
       "text_sno": 9408007,
       "type": "GreetingSp",
@@ -25079,7 +25465,7 @@
       "end": 7
     },
     {
-      "no": 2190,
+      "no": 2225,
       "voice": "Velanna_Lobby02",
       "text_sno": 9408011,
       "type": "Season",
@@ -25092,7 +25478,7 @@
       "end": 3
     },
     {
-      "no": 2191,
+      "no": 2226,
       "voice": "Velanna_Lobby03",
       "text_sno": 9408012,
       "type": "Season",
@@ -25105,7 +25491,7 @@
       "end": 7
     },
     {
-      "no": 2192,
+      "no": 2227,
       "voice": "Velanna_Lobby04",
       "text_sno": 9408013,
       "type": "Season",
@@ -25118,7 +25504,7 @@
       "end": 7
     },
     {
-      "no": 2193,
+      "no": 2228,
       "voice": "Velanna_Lobby05",
       "text_sno": 9408014,
       "type": "Season",
@@ -25131,7 +25517,7 @@
       "end": 7
     },
     {
-      "no": 2194,
+      "no": 2229,
       "voice": "Velanna_Lobby06",
       "text_sno": 9408015,
       "type": "Season",
@@ -25144,7 +25530,7 @@
       "end": 7
     },
     {
-      "no": 2195,
+      "no": 2230,
       "voice": "Velanna_Lobby07",
       "text_sno": 9408016,
       "type": "Season",
@@ -25157,7 +25543,7 @@
       "end": 7
     },
     {
-      "no": 2196,
+      "no": 2231,
       "voice": "Velanna_Bday02",
       "text_sno": 9408067,
       "type": "Season",
@@ -25170,7 +25556,7 @@
       "end": 1
     },
     {
-      "no": 2197,
+      "no": 2232,
       "voice": "Velanna_Anniversary01",
       "text_sno": 9408068,
       "type": "Season",
@@ -25184,7 +25570,7 @@
       "end": 21
     },
     {
-      "no": 2198,
+      "no": 2233,
       "voice": "Velanna_Anniversary02",
       "text_sno": 9408069,
       "type": "Season",
@@ -25198,7 +25584,7 @@
       "end": 21
     },
     {
-      "no": 2199,
+      "no": 2234,
       "voice": "Velanna_Anniversary03",
       "text_sno": 9408070,
       "type": "Season",
@@ -25212,7 +25598,7 @@
       "end": 21
     },
     {
-      "no": 2200,
+      "no": 2235,
       "voice": "Velanna_Anniversary",
       "text_sno": 9408071,
       "type": "Season",
@@ -25226,7 +25612,7 @@
       "end": 21
     },
     {
-      "no": 2201,
+      "no": 2236,
       "voice": "Velanna_Lobby08",
       "text_sno": 9408021,
       "type": "Normal",
@@ -25236,7 +25622,7 @@
       "emotion": "Angry"
     },
     {
-      "no": 2202,
+      "no": 2237,
       "voice": "Velanna_Lobby09",
       "text_sno": 9408022,
       "type": "Normal",
@@ -25246,7 +25632,7 @@
       "emotion": "Angry"
     },
     {
-      "no": 2203,
+      "no": 2238,
       "voice": "Velanna_Lobby10",
       "text_sno": 9408023,
       "type": "Normal",
@@ -25256,7 +25642,7 @@
       "emotion": "Mock"
     },
     {
-      "no": 2204,
+      "no": 2239,
       "voice": "Velanna_Lobby11",
       "text_sno": 9408024,
       "type": "Normal",
@@ -25266,7 +25652,7 @@
       "emotion": "Angry"
     },
     {
-      "no": 2205,
+      "no": 2240,
       "voice": "Velanna_LobbyIdle01",
       "text_sno": 9408031,
       "type": "Leave",
@@ -25276,7 +25662,7 @@
       "emotion": "Calm"
     },
     {
-      "no": 2206,
+      "no": 2241,
       "voice": "Velanna_LobbyH1",
       "text_sno": 9408041,
       "type": "Love1",
@@ -25286,7 +25672,7 @@
       "emotion": "Sorrow"
     },
     {
-      "no": 2207,
+      "no": 2242,
       "voice": "Velanna_LobbyH2",
       "text_sno": 9408042,
       "type": "Love2",
@@ -25296,7 +25682,7 @@
       "emotion": "Sorrow"
     },
     {
-      "no": 2208,
+      "no": 2243,
       "voice": "Velanna_LobbyH3",
       "text_sno": 9408043,
       "type": "Love3",
@@ -25306,7 +25692,7 @@
       "emotion": "Calm"
     },
     {
-      "no": 2209,
+      "no": 2244,
       "voice": "Velanna_LobbyTouch1",
       "text_sno": 9408051,
       "type": "Normal",
@@ -25316,7 +25702,7 @@
       "emotion": ""
     },
     {
-      "no": 2210,
+      "no": 2245,
       "voice": "Velanna_LobbyTouchsp",
       "text_sno": 9408052,
       "type": "TouchSp",
@@ -25326,7 +25712,7 @@
       "emotion": ""
     },
     {
-      "no": 2211,
+      "no": 2246,
       "voice": "Velanna_LobbyTouchsp2",
       "text_sno": 9408053,
       "type": "TouchSp2",
@@ -25336,7 +25722,7 @@
       "emotion": ""
     },
     {
-      "no": 2212,
+      "no": 2247,
       "voice": "Velanna_LobbyC1",
       "text_sno": 9408061,
       "type": "Mail",
@@ -25346,7 +25732,7 @@
       "emotion": "Mock"
     },
     {
-      "no": 2213,
+      "no": 2248,
       "voice": "Velanna_LobbyC2",
       "text_sno": 9408062,
       "type": "Achievements",
@@ -25356,7 +25742,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2214,
+      "no": 2249,
       "voice": "Velanna_LobbyC5",
       "text_sno": 9408063,
       "type": "AutoHunt",
@@ -25366,7 +25752,7 @@
       "emotion": "Mock"
     },
     {
-      "no": 2215,
+      "no": 2250,
       "voice": "Velanna_LobbyC6",
       "text_sno": 9408064,
       "type": "Hero",
@@ -25376,7 +25762,7 @@
       "emotion": "Mock"
     },
     {
-      "no": 2216,
+      "no": 2251,
       "voice": "Velanna_LobbyC7",
       "text_sno": 9408065,
       "type": "Town",
@@ -25386,7 +25772,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2217,
+      "no": 2252,
       "voice": "Velanna_Manage01",
       "type": "Manage1",
       "hero_no": 4080,
@@ -25395,7 +25781,7 @@
       "emotion": ""
     },
     {
-      "no": 2218,
+      "no": 2253,
       "voice": "Velanna_Manage02",
       "text_sno": 324080,
       "type": "Manage2",
@@ -25405,7 +25791,7 @@
       "emotion": ""
     },
     {
-      "no": 2219,
+      "no": 2254,
       "voice": "Erusha_Greeting",
       "text_sno": 9409001,
       "type": "Greeting",
@@ -25415,7 +25801,7 @@
       "emotion": ""
     },
     {
-      "no": 2220,
+      "no": 2255,
       "voice": "Erusha_Greeting02",
       "text_sno": 9409002,
       "type": "GreetingSp",
@@ -25428,7 +25814,7 @@
       "end": 3
     },
     {
-      "no": 2221,
+      "no": 2256,
       "voice": "Erusha_Greeting03",
       "text_sno": 9409003,
       "type": "GreetingSp",
@@ -25441,7 +25827,7 @@
       "end": 7
     },
     {
-      "no": 2222,
+      "no": 2257,
       "voice": "Erusha_Greeting04",
       "text_sno": 9409004,
       "type": "GreetingSp",
@@ -25454,7 +25840,7 @@
       "end": 7
     },
     {
-      "no": 2223,
+      "no": 2258,
       "voice": "Erusha_Greeting05",
       "text_sno": 9409005,
       "type": "GreetingSp",
@@ -25467,7 +25853,7 @@
       "end": 7
     },
     {
-      "no": 2224,
+      "no": 2259,
       "voice": "Erusha_Greeting06",
       "text_sno": 9409006,
       "type": "GreetingSp",
@@ -25480,7 +25866,7 @@
       "end": 7
     },
     {
-      "no": 2225,
+      "no": 2260,
       "voice": "Erusha_Greeting07",
       "text_sno": 9409007,
       "type": "GreetingSp",
@@ -25493,7 +25879,7 @@
       "end": 7
     },
     {
-      "no": 2226,
+      "no": 2261,
       "voice": "Erusha_Lobby02",
       "text_sno": 9409011,
       "type": "Season",
@@ -25506,7 +25892,7 @@
       "end": 3
     },
     {
-      "no": 2227,
+      "no": 2262,
       "voice": "Erusha_Lobby03",
       "text_sno": 9409012,
       "type": "Season",
@@ -25519,7 +25905,7 @@
       "end": 7
     },
     {
-      "no": 2228,
+      "no": 2263,
       "voice": "Erusha_Lobby04",
       "text_sno": 9409013,
       "type": "Season",
@@ -25532,7 +25918,7 @@
       "end": 7
     },
     {
-      "no": 2229,
+      "no": 2264,
       "voice": "Erusha_Lobby05",
       "text_sno": 9409014,
       "type": "Season",
@@ -25545,7 +25931,7 @@
       "end": 7
     },
     {
-      "no": 2230,
+      "no": 2265,
       "voice": "Erusha_Lobby06",
       "text_sno": 9409015,
       "type": "Season",
@@ -25558,7 +25944,7 @@
       "end": 7
     },
     {
-      "no": 2231,
+      "no": 2266,
       "voice": "Erusha_Lobby07",
       "text_sno": 9409016,
       "type": "Season",
@@ -25571,7 +25957,7 @@
       "end": 7
     },
     {
-      "no": 2232,
+      "no": 2267,
       "voice": "Erusha_Bday02",
       "text_sno": 9409067,
       "type": "Season",
@@ -25584,7 +25970,7 @@
       "end": 1
     },
     {
-      "no": 2233,
+      "no": 2268,
       "voice": "Erusha_Anniversary01",
       "text_sno": 9409068,
       "type": "Season",
@@ -25598,7 +25984,7 @@
       "end": 21
     },
     {
-      "no": 2234,
+      "no": 2269,
       "voice": "Erusha_Anniversary02",
       "text_sno": 9409069,
       "type": "Season",
@@ -25612,7 +25998,7 @@
       "end": 21
     },
     {
-      "no": 2235,
+      "no": 2270,
       "voice": "Erusha_Anniversary03",
       "text_sno": 9409070,
       "type": "Season",
@@ -25626,7 +26012,7 @@
       "end": 21
     },
     {
-      "no": 2236,
+      "no": 2271,
       "voice": "Erusha_Anniversary",
       "text_sno": 9409071,
       "type": "Season",
@@ -25640,7 +26026,7 @@
       "end": 21
     },
     {
-      "no": 2237,
+      "no": 2272,
       "voice": "Erusha_Lobby08",
       "text_sno": 9409021,
       "type": "Normal",
@@ -25650,7 +26036,7 @@
       "emotion": "Crazy"
     },
     {
-      "no": 2238,
+      "no": 2273,
       "voice": "Erusha_Lobby09",
       "text_sno": 9409022,
       "type": "Normal",
@@ -25660,7 +26046,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2239,
+      "no": 2274,
       "voice": "Erusha_Lobby10",
       "text_sno": 9409023,
       "type": "Normal",
@@ -25670,7 +26056,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2240,
+      "no": 2275,
       "voice": "Erusha_Lobby11",
       "text_sno": 9409024,
       "type": "Normal",
@@ -25680,7 +26066,7 @@
       "emotion": "Crazy"
     },
     {
-      "no": 2241,
+      "no": 2276,
       "voice": "Erusha_LobbyIdle01",
       "text_sno": 9409031,
       "type": "Leave",
@@ -25690,7 +26076,7 @@
       "emotion": "Surprise"
     },
     {
-      "no": 2242,
+      "no": 2277,
       "voice": "Erusha_LobbyH1",
       "text_sno": 9409041,
       "type": "Love1",
@@ -25700,7 +26086,7 @@
       "emotion": "Sad"
     },
     {
-      "no": 2243,
+      "no": 2278,
       "voice": "Erusha_LobbyH2",
       "text_sno": 9409042,
       "type": "Love2",
@@ -25710,7 +26096,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2244,
+      "no": 2279,
       "voice": "Erusha_LobbyH3",
       "text_sno": 9409043,
       "type": "Love3",
@@ -25720,7 +26106,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2245,
+      "no": 2280,
       "voice": "Erusha_LobbyTouch1",
       "text_sno": 9409051,
       "type": "Normal",
@@ -25730,7 +26116,7 @@
       "emotion": ""
     },
     {
-      "no": 2246,
+      "no": 2281,
       "voice": "Erusha_LobbyTouchsp",
       "text_sno": 9409052,
       "type": "TouchSp",
@@ -25740,7 +26126,7 @@
       "emotion": ""
     },
     {
-      "no": 2247,
+      "no": 2282,
       "voice": "Erusha_LobbyC1",
       "text_sno": 9409061,
       "type": "Mail",
@@ -25750,7 +26136,7 @@
       "emotion": "Sad"
     },
     {
-      "no": 2248,
+      "no": 2283,
       "voice": "Erusha_LobbyC2",
       "text_sno": 9409062,
       "type": "Achievements",
@@ -25760,7 +26146,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2249,
+      "no": 2284,
       "voice": "Erusha_LobbyC5",
       "text_sno": 9409063,
       "type": "AutoHunt",
@@ -25770,7 +26156,7 @@
       "emotion": "Crazy"
     },
     {
-      "no": 2250,
+      "no": 2285,
       "voice": "Erusha_LobbyC6",
       "text_sno": 9409064,
       "type": "Hero",
@@ -25780,7 +26166,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2251,
+      "no": 2286,
       "voice": "Erusha_LobbyC7",
       "text_sno": 9409065,
       "type": "Town",
@@ -25790,7 +26176,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2252,
+      "no": 2287,
       "voice": "Erusha_Manage01",
       "type": "Manage1",
       "hero_no": 4090,
@@ -25799,7 +26185,7 @@
       "emotion": ""
     },
     {
-      "no": 2253,
+      "no": 2288,
       "voice": "Erusha_Manage02",
       "text_sno": 324090,
       "type": "Manage2",
@@ -25809,7 +26195,7 @@
       "emotion": ""
     },
     {
-      "no": 2254,
+      "no": 2289,
       "voice": "Petra_Greeting",
       "text_sno": 9410001,
       "type": "Greeting",
@@ -25819,7 +26205,7 @@
       "emotion": ""
     },
     {
-      "no": 2255,
+      "no": 2290,
       "voice": "Petra_Greeting02",
       "text_sno": 9410002,
       "type": "GreetingSp",
@@ -25832,7 +26218,7 @@
       "end": 3
     },
     {
-      "no": 2256,
+      "no": 2291,
       "voice": "Petra_Greeting03",
       "text_sno": 9410003,
       "type": "GreetingSp",
@@ -25845,7 +26231,7 @@
       "end": 7
     },
     {
-      "no": 2257,
+      "no": 2292,
       "voice": "Petra_Greeting04",
       "text_sno": 9410004,
       "type": "GreetingSp",
@@ -25858,7 +26244,7 @@
       "end": 7
     },
     {
-      "no": 2258,
+      "no": 2293,
       "voice": "Petra_Greeting05",
       "text_sno": 9410005,
       "type": "GreetingSp",
@@ -25871,7 +26257,7 @@
       "end": 7
     },
     {
-      "no": 2259,
+      "no": 2294,
       "voice": "Petra_Greeting06",
       "text_sno": 9410006,
       "type": "GreetingSp",
@@ -25884,7 +26270,7 @@
       "end": 7
     },
     {
-      "no": 2260,
+      "no": 2295,
       "voice": "Petra_Greeting07",
       "text_sno": 9410007,
       "type": "GreetingSp",
@@ -25897,7 +26283,7 @@
       "end": 7
     },
     {
-      "no": 2261,
+      "no": 2296,
       "voice": "Petra_Lobby02",
       "text_sno": 9410011,
       "type": "Season",
@@ -25910,7 +26296,7 @@
       "end": 3
     },
     {
-      "no": 2262,
+      "no": 2297,
       "voice": "Petra_Lobby03",
       "text_sno": 9410012,
       "type": "Season",
@@ -25923,7 +26309,7 @@
       "end": 7
     },
     {
-      "no": 2263,
+      "no": 2298,
       "voice": "Petra_Lobby04",
       "text_sno": 9410013,
       "type": "Season",
@@ -25936,7 +26322,7 @@
       "end": 7
     },
     {
-      "no": 2264,
+      "no": 2299,
       "voice": "Petra_Lobby05",
       "text_sno": 9410014,
       "type": "Season",
@@ -25949,7 +26335,7 @@
       "end": 7
     },
     {
-      "no": 2265,
+      "no": 2300,
       "voice": "Petra_Lobby06",
       "text_sno": 9410015,
       "type": "Season",
@@ -25962,7 +26348,7 @@
       "end": 7
     },
     {
-      "no": 2266,
+      "no": 2301,
       "voice": "Petra_Lobby07",
       "text_sno": 9410016,
       "type": "Season",
@@ -25975,7 +26361,7 @@
       "end": 7
     },
     {
-      "no": 2267,
+      "no": 2302,
       "voice": "Petra_Bday02",
       "text_sno": 9410067,
       "type": "Season",
@@ -25988,7 +26374,7 @@
       "end": 1
     },
     {
-      "no": 2268,
+      "no": 2303,
       "voice": "Petra_Anniversary01",
       "text_sno": 9410068,
       "type": "Season",
@@ -26002,7 +26388,7 @@
       "end": 21
     },
     {
-      "no": 2269,
+      "no": 2304,
       "voice": "Petra_Anniversary02",
       "text_sno": 9410069,
       "type": "Season",
@@ -26016,7 +26402,7 @@
       "end": 21
     },
     {
-      "no": 2270,
+      "no": 2305,
       "voice": "Petra_Anniversary03",
       "text_sno": 9410070,
       "type": "Season",
@@ -26030,7 +26416,7 @@
       "end": 21
     },
     {
-      "no": 2271,
+      "no": 2306,
       "voice": "Petra_Anniversary",
       "text_sno": 9410071,
       "type": "Season",
@@ -26044,7 +26430,7 @@
       "end": 21
     },
     {
-      "no": 2272,
+      "no": 2307,
       "voice": "Petra_Lobby08",
       "text_sno": 9410021,
       "type": "Normal",
@@ -26054,7 +26440,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2273,
+      "no": 2308,
       "voice": "Petra_Lobby09",
       "text_sno": 9410022,
       "type": "Normal",
@@ -26064,7 +26450,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2274,
+      "no": 2309,
       "voice": "Petra_Lobby10",
       "text_sno": 9410023,
       "type": "Normal",
@@ -26074,7 +26460,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2275,
+      "no": 2310,
       "voice": "Petra_Lobby11",
       "text_sno": 9410024,
       "type": "Normal",
@@ -26084,7 +26470,7 @@
       "emotion": "Pout"
     },
     {
-      "no": 2276,
+      "no": 2311,
       "voice": "Petra_LobbyIdle01",
       "text_sno": 9410031,
       "type": "Leave",
@@ -26094,7 +26480,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2277,
+      "no": 2312,
       "voice": "Petra_LobbyH1",
       "text_sno": 9410041,
       "type": "Love1",
@@ -26104,7 +26490,7 @@
       "emotion": "Calm"
     },
     {
-      "no": 2278,
+      "no": 2313,
       "voice": "Petra_LobbyH2",
       "text_sno": 9410042,
       "type": "Love2",
@@ -26114,7 +26500,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2279,
+      "no": 2314,
       "voice": "Petra_LobbyH3",
       "text_sno": 9410043,
       "type": "Love3",
@@ -26124,7 +26510,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2280,
+      "no": 2315,
       "voice": "Petra_LobbyTouch1",
       "text_sno": 9410051,
       "type": "Normal",
@@ -26134,7 +26520,7 @@
       "emotion": ""
     },
     {
-      "no": 2281,
+      "no": 2316,
       "voice": "Petra_LobbyTouchsp",
       "text_sno": 9410052,
       "type": "TouchSp",
@@ -26144,7 +26530,7 @@
       "emotion": ""
     },
     {
-      "no": 2282,
+      "no": 2317,
       "voice": "Petra_LobbyC1",
       "text_sno": 9410061,
       "type": "Mail",
@@ -26154,7 +26540,7 @@
       "emotion": "Oh"
     },
     {
-      "no": 2283,
+      "no": 2318,
       "voice": "Petra_LobbyC2",
       "text_sno": 9410062,
       "type": "Achievements",
@@ -26164,7 +26550,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2284,
+      "no": 2319,
       "voice": "Petra_LobbyC5",
       "text_sno": 9410063,
       "type": "AutoHunt",
@@ -26174,7 +26560,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2285,
+      "no": 2320,
       "voice": "Petra_LobbyC6",
       "text_sno": 9410064,
       "type": "Hero",
@@ -26184,7 +26570,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2286,
+      "no": 2321,
       "voice": "Petra_LobbyC7",
       "text_sno": 9410065,
       "type": "Town",
@@ -26194,7 +26580,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2287,
+      "no": 2322,
       "voice": "Petra_Manage01",
       "type": "Manage1",
       "hero_no": 4100,
@@ -26203,7 +26589,7 @@
       "emotion": ""
     },
     {
-      "no": 2288,
+      "no": 2323,
       "voice": "Petra_Manage02",
       "text_sno": 324100,
       "type": "Manage2",
@@ -26213,7 +26599,7 @@
       "emotion": ""
     },
     {
-      "no": 2289,
+      "no": 2324,
       "voice": "Nini_Greeting",
       "text_sno": 9411001,
       "type": "Greeting",
@@ -26223,7 +26609,7 @@
       "emotion": ""
     },
     {
-      "no": 2290,
+      "no": 2325,
       "voice": "Nini_Greeting02",
       "text_sno": 9411002,
       "type": "GreetingSp",
@@ -26236,7 +26622,7 @@
       "end": 3
     },
     {
-      "no": 2291,
+      "no": 2326,
       "voice": "Nini_Greeting03",
       "text_sno": 9411003,
       "type": "GreetingSp",
@@ -26249,7 +26635,7 @@
       "end": 7
     },
     {
-      "no": 2292,
+      "no": 2327,
       "voice": "Nini_Greeting04",
       "text_sno": 9411004,
       "type": "GreetingSp",
@@ -26262,7 +26648,7 @@
       "end": 7
     },
     {
-      "no": 2293,
+      "no": 2328,
       "voice": "Nini_Greeting05",
       "text_sno": 9411005,
       "type": "GreetingSp",
@@ -26275,7 +26661,7 @@
       "end": 7
     },
     {
-      "no": 2294,
+      "no": 2329,
       "voice": "Nini_Greeting06",
       "text_sno": 9411006,
       "type": "GreetingSp",
@@ -26288,7 +26674,7 @@
       "end": 7
     },
     {
-      "no": 2295,
+      "no": 2330,
       "voice": "Nini_Greeting07",
       "text_sno": 9411007,
       "type": "GreetingSp",
@@ -26301,7 +26687,7 @@
       "end": 7
     },
     {
-      "no": 2296,
+      "no": 2331,
       "voice": "Nini_Lobby02",
       "text_sno": 9411011,
       "type": "Season",
@@ -26314,7 +26700,7 @@
       "end": 3
     },
     {
-      "no": 2297,
+      "no": 2332,
       "voice": "Nini_Lobby03",
       "text_sno": 9411012,
       "type": "Season",
@@ -26327,7 +26713,7 @@
       "end": 7
     },
     {
-      "no": 2298,
+      "no": 2333,
       "voice": "Nini_Lobby04",
       "text_sno": 9411013,
       "type": "Season",
@@ -26340,7 +26726,7 @@
       "end": 7
     },
     {
-      "no": 2299,
+      "no": 2334,
       "voice": "Nini_Lobby05",
       "text_sno": 9411014,
       "type": "Season",
@@ -26353,7 +26739,7 @@
       "end": 7
     },
     {
-      "no": 2300,
+      "no": 2335,
       "voice": "Nini_Lobby06",
       "text_sno": 9411015,
       "type": "Season",
@@ -26366,7 +26752,7 @@
       "end": 7
     },
     {
-      "no": 2301,
+      "no": 2336,
       "voice": "Nini_Lobby07",
       "text_sno": 9411016,
       "type": "Season",
@@ -26379,7 +26765,7 @@
       "end": 7
     },
     {
-      "no": 2302,
+      "no": 2337,
       "voice": "Nini_Bday02",
       "text_sno": 9411067,
       "type": "Season",
@@ -26392,7 +26778,7 @@
       "end": 1
     },
     {
-      "no": 2303,
+      "no": 2338,
       "voice": "Nini_Anniversary01",
       "text_sno": 9411068,
       "type": "Season",
@@ -26406,7 +26792,7 @@
       "end": 21
     },
     {
-      "no": 2304,
+      "no": 2339,
       "voice": "Nini_Anniversary02",
       "text_sno": 9411069,
       "type": "Season",
@@ -26420,7 +26806,7 @@
       "end": 21
     },
     {
-      "no": 2305,
+      "no": 2340,
       "voice": "Nini_Anniversary03",
       "text_sno": 9411070,
       "type": "Season",
@@ -26434,7 +26820,7 @@
       "end": 21
     },
     {
-      "no": 2306,
+      "no": 2341,
       "voice": "Nini_Lobby08",
       "text_sno": 9411021,
       "type": "Normal",
@@ -26444,7 +26830,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2307,
+      "no": 2342,
       "voice": "Nini_Lobby09",
       "text_sno": 9411022,
       "type": "Normal",
@@ -26454,7 +26840,7 @@
       "emotion": "Shy"
     },
     {
-      "no": 2308,
+      "no": 2343,
       "voice": "Nini_Lobby10",
       "text_sno": 9411023,
       "type": "Normal",
@@ -26464,7 +26850,7 @@
       "emotion": "Irritate"
     },
     {
-      "no": 2309,
+      "no": 2344,
       "voice": "Nini_Lobby11",
       "text_sno": 9411024,
       "type": "Normal",
@@ -26474,7 +26860,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2310,
+      "no": 2345,
       "voice": "Nini_LobbyIdle01",
       "text_sno": 9411031,
       "type": "Leave",
@@ -26484,7 +26870,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2311,
+      "no": 2346,
       "voice": "Nini_LobbyH1",
       "text_sno": 9411041,
       "type": "Love1",
@@ -26494,7 +26880,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2312,
+      "no": 2347,
       "voice": "Nini_LobbyH2",
       "text_sno": 9411042,
       "type": "Love2",
@@ -26504,7 +26890,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2313,
+      "no": 2348,
       "voice": "Nini_LobbyH3",
       "text_sno": 9411043,
       "type": "Love3",
@@ -26514,7 +26900,7 @@
       "emotion": "Melancholy"
     },
     {
-      "no": 2314,
+      "no": 2349,
       "voice": "Nini_LobbyTouch1",
       "text_sno": 9411051,
       "type": "Normal",
@@ -26524,7 +26910,7 @@
       "emotion": ""
     },
     {
-      "no": 2315,
+      "no": 2350,
       "voice": "Nini_LobbyTouchsp",
       "text_sno": 9411052,
       "type": "TouchSp",
@@ -26534,7 +26920,7 @@
       "emotion": ""
     },
     {
-      "no": 2316,
+      "no": 2351,
       "voice": "Nini_LobbyTouchsp2",
       "text_sno": 9411053,
       "type": "TouchSp2",
@@ -26544,7 +26930,7 @@
       "emotion": ""
     },
     {
-      "no": 2317,
+      "no": 2352,
       "voice": "Nini_LobbyC1",
       "text_sno": 9411061,
       "type": "Mail",
@@ -26554,7 +26940,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2318,
+      "no": 2353,
       "voice": "Nini_LobbyC2",
       "text_sno": 9411062,
       "type": "Achievements",
@@ -26564,7 +26950,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2319,
+      "no": 2354,
       "voice": "Nini_LobbyC5",
       "text_sno": 9411063,
       "type": "AutoHunt",
@@ -26574,7 +26960,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2320,
+      "no": 2355,
       "voice": "Nini_LobbyC6",
       "text_sno": 9411064,
       "type": "Hero",
@@ -26584,7 +26970,7 @@
       "emotion": "Irritate"
     },
     {
-      "no": 2321,
+      "no": 2356,
       "voice": "Nini_LobbyC7",
       "text_sno": 9411065,
       "type": "Town",
@@ -26594,7 +26980,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2322,
+      "no": 2357,
       "voice": "Nini_Manage01",
       "type": "Manage1",
       "hero_no": 4110,
@@ -26603,7 +26989,7 @@
       "emotion": ""
     },
     {
-      "no": 2323,
+      "no": 2358,
       "voice": "Nini_Manage02",
       "text_sno": 324110,
       "type": "Manage2",
@@ -26613,7 +26999,7 @@
       "emotion": ""
     },
     {
-      "no": 2324,
+      "no": 2359,
       "voice": "Otoha_Greeting",
       "text_sno": 9412001,
       "type": "Greeting",
@@ -26623,7 +27009,7 @@
       "emotion": ""
     },
     {
-      "no": 2325,
+      "no": 2360,
       "voice": "Otoha_Greeting02",
       "text_sno": 9412002,
       "type": "GreetingSp",
@@ -26636,7 +27022,7 @@
       "end": 3
     },
     {
-      "no": 2326,
+      "no": 2361,
       "voice": "Otoha_Greeting03",
       "text_sno": 9412003,
       "type": "GreetingSp",
@@ -26649,7 +27035,7 @@
       "end": 7
     },
     {
-      "no": 2327,
+      "no": 2362,
       "voice": "Otoha_Greeting04",
       "text_sno": 9412004,
       "type": "GreetingSp",
@@ -26662,7 +27048,7 @@
       "end": 7
     },
     {
-      "no": 2328,
+      "no": 2363,
       "voice": "Otoha_Greeting05",
       "text_sno": 9412005,
       "type": "GreetingSp",
@@ -26675,7 +27061,7 @@
       "end": 7
     },
     {
-      "no": 2329,
+      "no": 2364,
       "voice": "Otoha_Greeting06",
       "text_sno": 9412006,
       "type": "GreetingSp",
@@ -26688,7 +27074,7 @@
       "end": 7
     },
     {
-      "no": 2330,
+      "no": 2365,
       "voice": "Otoha_Greeting07",
       "text_sno": 9412007,
       "type": "GreetingSp",
@@ -26701,7 +27087,7 @@
       "end": 7
     },
     {
-      "no": 2331,
+      "no": 2366,
       "voice": "Otoha_Lobby02",
       "text_sno": 9412011,
       "type": "Season",
@@ -26714,7 +27100,7 @@
       "end": 3
     },
     {
-      "no": 2332,
+      "no": 2367,
       "voice": "Otoha_Lobby03",
       "text_sno": 9412012,
       "type": "Season",
@@ -26727,7 +27113,7 @@
       "end": 7
     },
     {
-      "no": 2333,
+      "no": 2368,
       "voice": "Otoha_Lobby04",
       "text_sno": 9412013,
       "type": "Season",
@@ -26740,7 +27126,7 @@
       "end": 7
     },
     {
-      "no": 2334,
+      "no": 2369,
       "voice": "Otoha_Lobby05",
       "text_sno": 9412014,
       "type": "Season",
@@ -26753,7 +27139,7 @@
       "end": 7
     },
     {
-      "no": 2335,
+      "no": 2370,
       "voice": "Otoha_Lobby06",
       "text_sno": 9412015,
       "type": "Season",
@@ -26766,7 +27152,7 @@
       "end": 7
     },
     {
-      "no": 2336,
+      "no": 2371,
       "voice": "Otoha_Lobby07",
       "text_sno": 9412016,
       "type": "Season",
@@ -26779,7 +27165,7 @@
       "end": 7
     },
     {
-      "no": 2337,
+      "no": 2372,
       "voice": "Otoha_Bday02",
       "text_sno": 9412067,
       "type": "Season",
@@ -26792,7 +27178,7 @@
       "end": 1
     },
     {
-      "no": 2338,
+      "no": 2373,
       "voice": "Otoha_Anniversary01",
       "text_sno": 9412068,
       "type": "Season",
@@ -26806,7 +27192,7 @@
       "end": 21
     },
     {
-      "no": 2339,
+      "no": 2374,
       "voice": "Otoha_Anniversary02",
       "text_sno": 9412069,
       "type": "Season",
@@ -26820,7 +27206,7 @@
       "end": 21
     },
     {
-      "no": 2340,
+      "no": 2375,
       "voice": "Otoha_Anniversary03",
       "text_sno": 9412070,
       "type": "Season",
@@ -26834,7 +27220,7 @@
       "end": 21
     },
     {
-      "no": 2341,
+      "no": 2376,
       "voice": "Otoha_Anniversary",
       "text_sno": 9412071,
       "type": "Season",
@@ -26848,7 +27234,7 @@
       "end": 21
     },
     {
-      "no": 2342,
+      "no": 2377,
       "voice": "Otoha_Lobby08",
       "text_sno": 9412021,
       "type": "Normal",
@@ -26858,7 +27244,7 @@
       "emotion": ""
     },
     {
-      "no": 2343,
+      "no": 2378,
       "voice": "Otoha_Lobby09",
       "text_sno": 9412022,
       "type": "Normal",
@@ -26868,7 +27254,7 @@
       "emotion": ""
     },
     {
-      "no": 2344,
+      "no": 2379,
       "voice": "Otoha_Lobby10",
       "text_sno": 9412023,
       "type": "Normal",
@@ -26878,7 +27264,7 @@
       "emotion": ""
     },
     {
-      "no": 2345,
+      "no": 2380,
       "voice": "Otoha_Lobby11",
       "text_sno": 9412024,
       "type": "Normal",
@@ -26888,7 +27274,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2346,
+      "no": 2381,
       "voice": "Otoha_LobbyIdle01",
       "text_sno": 9412031,
       "type": "Leave",
@@ -26898,7 +27284,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2347,
+      "no": 2382,
       "voice": "Otoha_LobbyH1",
       "text_sno": 9412041,
       "type": "Love1",
@@ -26908,7 +27294,7 @@
       "emotion": ""
     },
     {
-      "no": 2348,
+      "no": 2383,
       "voice": "Otoha_LobbyH2",
       "text_sno": 9412042,
       "type": "Love2",
@@ -26918,7 +27304,7 @@
       "emotion": ""
     },
     {
-      "no": 2349,
+      "no": 2384,
       "voice": "Otoha_LobbyH3",
       "text_sno": 9412043,
       "type": "Love3",
@@ -26928,7 +27314,7 @@
       "emotion": ""
     },
     {
-      "no": 2350,
+      "no": 2385,
       "voice": "Otoha_LobbyTouch1",
       "text_sno": 9412051,
       "type": "Normal",
@@ -26938,7 +27324,7 @@
       "emotion": ""
     },
     {
-      "no": 2351,
+      "no": 2386,
       "voice": "Otoha_LobbyTouchsp",
       "text_sno": 9412052,
       "type": "TouchSp",
@@ -26948,7 +27334,7 @@
       "emotion": ""
     },
     {
-      "no": 2352,
+      "no": 2387,
       "voice": "Otoha_LobbyTouchsp2",
       "text_sno": 9412053,
       "type": "TouchSp2",
@@ -26958,7 +27344,7 @@
       "emotion": ""
     },
     {
-      "no": 2353,
+      "no": 2388,
       "voice": "Otoha_LobbyC1",
       "text_sno": 9412061,
       "type": "Mail",
@@ -26968,7 +27354,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2354,
+      "no": 2389,
       "voice": "Otoha_LobbyC2",
       "text_sno": 9412062,
       "type": "Achievements",
@@ -26978,7 +27364,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2355,
+      "no": 2390,
       "voice": "Otoha_LobbyC5",
       "text_sno": 9412063,
       "type": "AutoHunt",
@@ -26988,7 +27374,7 @@
       "emotion": ""
     },
     {
-      "no": 2356,
+      "no": 2391,
       "voice": "Otoha_LobbyC6",
       "text_sno": 9412064,
       "type": "Hero",
@@ -26998,7 +27384,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2357,
+      "no": 2392,
       "voice": "Otoha_LobbyC7",
       "text_sno": 9412065,
       "type": "Town",
@@ -27008,7 +27394,7 @@
       "emotion": ""
     },
     {
-      "no": 2358,
+      "no": 2393,
       "voice": "Otoha_Manage01",
       "type": "Manage1",
       "hero_no": 4120,
@@ -27017,7 +27403,7 @@
       "emotion": ""
     },
     {
-      "no": 2359,
+      "no": 2394,
       "voice": "Otoha_Manage02",
       "text_sno": 324120,
       "type": "Manage2",
@@ -27027,7 +27413,7 @@
       "emotion": ""
     },
     {
-      "no": 2360,
+      "no": 2395,
       "voice": "Joanne_Greeting",
       "text_sno": 9413001,
       "type": "Greeting",
@@ -27037,7 +27423,7 @@
       "emotion": ""
     },
     {
-      "no": 2361,
+      "no": 2396,
       "voice": "Joanne_Greeting02",
       "text_sno": 9413002,
       "type": "GreetingSp",
@@ -27050,7 +27436,7 @@
       "end": 3
     },
     {
-      "no": 2362,
+      "no": 2397,
       "voice": "Joanne_Greeting03",
       "text_sno": 9413003,
       "type": "GreetingSp",
@@ -27063,7 +27449,7 @@
       "end": 7
     },
     {
-      "no": 2363,
+      "no": 2398,
       "voice": "Joanne_Greeting04",
       "text_sno": 9413004,
       "type": "GreetingSp",
@@ -27076,7 +27462,7 @@
       "end": 7
     },
     {
-      "no": 2364,
+      "no": 2399,
       "voice": "Joanne_Greeting05",
       "text_sno": 9413005,
       "type": "GreetingSp",
@@ -27089,7 +27475,7 @@
       "end": 7
     },
     {
-      "no": 2365,
+      "no": 2400,
       "voice": "Joanne_Greeting06",
       "text_sno": 9413006,
       "type": "GreetingSp",
@@ -27102,7 +27488,7 @@
       "end": 7
     },
     {
-      "no": 2366,
+      "no": 2401,
       "voice": "Joanne_Greeting07",
       "text_sno": 9413007,
       "type": "GreetingSp",
@@ -27115,7 +27501,7 @@
       "end": 7
     },
     {
-      "no": 2367,
+      "no": 2402,
       "voice": "Joanne_Lobby02",
       "text_sno": 9413011,
       "type": "Season",
@@ -27128,7 +27514,7 @@
       "end": 3
     },
     {
-      "no": 2368,
+      "no": 2403,
       "voice": "Joanne_Lobby03",
       "text_sno": 9413012,
       "type": "Season",
@@ -27141,7 +27527,7 @@
       "end": 7
     },
     {
-      "no": 2369,
+      "no": 2404,
       "voice": "Joanne_Lobby04",
       "text_sno": 9413013,
       "type": "Season",
@@ -27154,7 +27540,7 @@
       "end": 7
     },
     {
-      "no": 2370,
+      "no": 2405,
       "voice": "Joanne_Lobby05",
       "text_sno": 9413014,
       "type": "Season",
@@ -27167,7 +27553,7 @@
       "end": 7
     },
     {
-      "no": 2371,
+      "no": 2406,
       "voice": "Joanne_Lobby06",
       "text_sno": 9413015,
       "type": "Season",
@@ -27180,7 +27566,7 @@
       "end": 7
     },
     {
-      "no": 2372,
+      "no": 2407,
       "voice": "Joanne_Lobby07",
       "text_sno": 9413016,
       "type": "Season",
@@ -27193,7 +27579,7 @@
       "end": 7
     },
     {
-      "no": 2373,
+      "no": 2408,
       "voice": "Joanne_Bday02",
       "text_sno": 9413067,
       "type": "Season",
@@ -27206,7 +27592,7 @@
       "end": 1
     },
     {
-      "no": 2374,
+      "no": 2409,
       "voice": "Joanne_Anniversary02",
       "text_sno": 9413069,
       "type": "Season",
@@ -27220,7 +27606,7 @@
       "end": 21
     },
     {
-      "no": 2375,
+      "no": 2410,
       "voice": "Joanne_Anniversary03",
       "text_sno": 9413070,
       "type": "Season",
@@ -27234,7 +27620,7 @@
       "end": 21
     },
     {
-      "no": 2376,
+      "no": 2411,
       "voice": "Joanne_Anniversary",
       "text_sno": 9413071,
       "type": "Season",
@@ -27248,7 +27634,7 @@
       "end": 21
     },
     {
-      "no": 2377,
+      "no": 2412,
       "voice": "Joanne_Lobby08",
       "text_sno": 9413021,
       "type": "Normal",
@@ -27258,7 +27644,7 @@
       "emotion": "Proud"
     },
     {
-      "no": 2378,
+      "no": 2413,
       "voice": "Joanne_Lobby09",
       "text_sno": 9413022,
       "type": "Normal",
@@ -27268,7 +27654,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2379,
+      "no": 2414,
       "voice": "Joanne_Lobby10",
       "text_sno": 9413023,
       "type": "Normal",
@@ -27278,7 +27664,7 @@
       "emotion": "Sigh"
     },
     {
-      "no": 2380,
+      "no": 2415,
       "voice": "Joanne_Lobby11",
       "text_sno": 9413024,
       "type": "Normal",
@@ -27288,7 +27674,7 @@
       "emotion": "Smile2"
     },
     {
-      "no": 2381,
+      "no": 2416,
       "voice": "Joanne_LobbyIdle01",
       "text_sno": 9413031,
       "type": "Leave",
@@ -27298,7 +27684,7 @@
       "emotion": "Oh"
     },
     {
-      "no": 2382,
+      "no": 2417,
       "voice": "Joanne_LobbyH1",
       "text_sno": 9413041,
       "type": "Love1",
@@ -27308,7 +27694,7 @@
       "emotion": "Gloomy"
     },
     {
-      "no": 2383,
+      "no": 2418,
       "voice": "Joanne_LobbyH2",
       "text_sno": 9413042,
       "type": "Love2",
@@ -27318,7 +27704,7 @@
       "emotion": "Sigh"
     },
     {
-      "no": 2384,
+      "no": 2419,
       "voice": "Joanne_LobbyH3",
       "text_sno": 9413043,
       "type": "Love3",
@@ -27328,7 +27714,7 @@
       "emotion": "Sigh"
     },
     {
-      "no": 2385,
+      "no": 2420,
       "voice": "Joanne_LobbyTouch1",
       "text_sno": 9413051,
       "type": "Normal",
@@ -27338,7 +27724,7 @@
       "emotion": ""
     },
     {
-      "no": 2386,
+      "no": 2421,
       "voice": "Joanne_LobbyTouchsp",
       "text_sno": 9413052,
       "type": "TouchSp",
@@ -27348,7 +27734,7 @@
       "emotion": ""
     },
     {
-      "no": 2387,
+      "no": 2422,
       "voice": "Joanne_LobbyTouchsp2",
       "text_sno": 9413053,
       "type": "TouchSp2",
@@ -27358,7 +27744,7 @@
       "emotion": ""
     },
     {
-      "no": 2388,
+      "no": 2423,
       "voice": "Joanne_LobbyC1",
       "text_sno": 9413061,
       "type": "Mail",
@@ -27368,7 +27754,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2389,
+      "no": 2424,
       "voice": "Joanne_LobbyC2",
       "text_sno": 9413062,
       "type": "Achievements",
@@ -27378,7 +27764,7 @@
       "emotion": "Wa"
     },
     {
-      "no": 2390,
+      "no": 2425,
       "voice": "Joanne_LobbyC5",
       "text_sno": 9413063,
       "type": "AutoHunt",
@@ -27388,7 +27774,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2391,
+      "no": 2426,
       "voice": "Joanne_LobbyC6",
       "text_sno": 9413064,
       "type": "Hero",
@@ -27398,7 +27784,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2392,
+      "no": 2427,
       "voice": "Joanne_LobbyC7",
       "text_sno": 9413065,
       "type": "Town",
@@ -27408,7 +27794,7 @@
       "emotion": "Oh"
     },
     {
-      "no": 2393,
+      "no": 2428,
       "voice": "Joanne_Manage01",
       "type": "Manage1",
       "hero_no": 4130,
@@ -27417,7 +27803,7 @@
       "emotion": ""
     },
     {
-      "no": 2394,
+      "no": 2429,
       "voice": "Joanne_Manage02",
       "text_sno": 324130,
       "type": "Manage2",
@@ -27427,7 +27813,7 @@
       "emotion": ""
     },
     {
-      "no": 2395,
+      "no": 2430,
       "voice": "Sigrid_Greeting",
       "text_sno": 9414001,
       "type": "Greeting",
@@ -27437,7 +27823,7 @@
       "emotion": ""
     },
     {
-      "no": 2396,
+      "no": 2431,
       "voice": "Sigrid_Greeting02",
       "text_sno": 9414002,
       "type": "GreetingSp",
@@ -27450,7 +27836,7 @@
       "end": 3
     },
     {
-      "no": 2397,
+      "no": 2432,
       "voice": "Sigrid_Greeting03",
       "text_sno": 9414003,
       "type": "GreetingSp",
@@ -27463,7 +27849,7 @@
       "end": 7
     },
     {
-      "no": 2398,
+      "no": 2433,
       "voice": "Sigrid_Greeting04",
       "text_sno": 9414004,
       "type": "GreetingSp",
@@ -27476,7 +27862,7 @@
       "end": 7
     },
     {
-      "no": 2399,
+      "no": 2434,
       "voice": "Sigrid_Greeting05",
       "text_sno": 9414005,
       "type": "GreetingSp",
@@ -27489,7 +27875,7 @@
       "end": 7
     },
     {
-      "no": 2400,
+      "no": 2435,
       "voice": "Sigrid_Greeting06",
       "text_sno": 9414006,
       "type": "GreetingSp",
@@ -27502,7 +27888,7 @@
       "end": 7
     },
     {
-      "no": 2401,
+      "no": 2436,
       "voice": "Sigrid_Greeting07",
       "text_sno": 9414007,
       "type": "GreetingSp",
@@ -27515,7 +27901,7 @@
       "end": 7
     },
     {
-      "no": 2402,
+      "no": 2437,
       "voice": "Sigrid_Lobby02",
       "text_sno": 9414011,
       "type": "Season",
@@ -27528,7 +27914,7 @@
       "end": 3
     },
     {
-      "no": 2403,
+      "no": 2438,
       "voice": "Sigrid_Lobby03",
       "text_sno": 9414012,
       "type": "Season",
@@ -27541,7 +27927,7 @@
       "end": 7
     },
     {
-      "no": 2404,
+      "no": 2439,
       "voice": "Sigrid_Lobby04",
       "text_sno": 9414013,
       "type": "Season",
@@ -27554,7 +27940,7 @@
       "end": 7
     },
     {
-      "no": 2405,
+      "no": 2440,
       "voice": "Sigrid_Lobby05",
       "text_sno": 9414014,
       "type": "Season",
@@ -27567,7 +27953,7 @@
       "end": 7
     },
     {
-      "no": 2406,
+      "no": 2441,
       "voice": "Sigrid_Lobby06",
       "text_sno": 9414015,
       "type": "Season",
@@ -27580,7 +27966,7 @@
       "end": 7
     },
     {
-      "no": 2407,
+      "no": 2442,
       "voice": "Sigrid_Lobby07",
       "text_sno": 9414016,
       "type": "Season",
@@ -27593,7 +27979,7 @@
       "end": 7
     },
     {
-      "no": 2408,
+      "no": 2443,
       "voice": "Sigrid_Bday02",
       "text_sno": 9414067,
       "type": "Season",
@@ -27606,7 +27992,7 @@
       "end": 1
     },
     {
-      "no": 2409,
+      "no": 2444,
       "voice": "Sigrid_Anniversary02",
       "text_sno": 9414069,
       "type": "Season",
@@ -27620,7 +28006,7 @@
       "end": 21
     },
     {
-      "no": 2410,
+      "no": 2445,
       "voice": "Sigrid_Anniversary03",
       "text_sno": 9414070,
       "type": "Season",
@@ -27634,7 +28020,7 @@
       "end": 21
     },
     {
-      "no": 2411,
+      "no": 2446,
       "voice": "Sigrid_Lobby08",
       "text_sno": 9414021,
       "type": "Normal",
@@ -27644,7 +28030,7 @@
       "emotion": "Wicked"
     },
     {
-      "no": 2412,
+      "no": 2447,
       "voice": "Sigrid_Lobby09",
       "text_sno": 9414022,
       "type": "Normal",
@@ -27654,7 +28040,7 @@
       "emotion": "Hmm"
     },
     {
-      "no": 2413,
+      "no": 2448,
       "voice": "Sigrid_Lobby10",
       "text_sno": 9414023,
       "type": "Normal",
@@ -27664,7 +28050,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2414,
+      "no": 2449,
       "voice": "Sigrid_Lobby11",
       "text_sno": 9414024,
       "type": "Normal",
@@ -27674,7 +28060,7 @@
       "emotion": "Hmm"
     },
     {
-      "no": 2415,
+      "no": 2450,
       "voice": "Sigrid_LobbyIdle01",
       "text_sno": 9414031,
       "type": "Leave",
@@ -27684,7 +28070,7 @@
       "emotion": "Serious"
     },
     {
-      "no": 2416,
+      "no": 2451,
       "voice": "Sigrid_LobbyH1",
       "text_sno": 9414041,
       "type": "Love1",
@@ -27694,7 +28080,7 @@
       "emotion": "Hmm"
     },
     {
-      "no": 2417,
+      "no": 2452,
       "voice": "Sigrid_LobbyH2",
       "text_sno": 9414042,
       "type": "Love2",
@@ -27704,7 +28090,7 @@
       "emotion": "Hmm"
     },
     {
-      "no": 2418,
+      "no": 2453,
       "voice": "Sigrid_LobbyH3",
       "text_sno": 9414043,
       "type": "Love3",
@@ -27714,7 +28100,7 @@
       "emotion": "Hmm"
     },
     {
-      "no": 2419,
+      "no": 2454,
       "voice": "Sigrid_LobbyTouch1",
       "text_sno": 9414051,
       "type": "Normal",
@@ -27724,7 +28110,7 @@
       "emotion": ""
     },
     {
-      "no": 2420,
+      "no": 2455,
       "voice": "Sigrid_LobbyTouchsp",
       "text_sno": 9414052,
       "type": "TouchSp",
@@ -27734,7 +28120,7 @@
       "emotion": ""
     },
     {
-      "no": 2421,
+      "no": 2456,
       "voice": "Sigrid_LobbyTouchsp2",
       "text_sno": 9414053,
       "type": "TouchSp2",
@@ -27744,7 +28130,7 @@
       "emotion": ""
     },
     {
-      "no": 2422,
+      "no": 2457,
       "voice": "Sigrid_LobbyC1",
       "text_sno": 9414061,
       "type": "Mail",
@@ -27754,7 +28140,7 @@
       "emotion": "Wicked"
     },
     {
-      "no": 2423,
+      "no": 2458,
       "voice": "Sigrid_LobbyC2",
       "text_sno": 9414062,
       "type": "Achievements",
@@ -27764,7 +28150,7 @@
       "emotion": "Hmm"
     },
     {
-      "no": 2424,
+      "no": 2459,
       "voice": "Sigrid_LobbyC5",
       "text_sno": 9414063,
       "type": "AutoHunt",
@@ -27774,7 +28160,7 @@
       "emotion": ""
     },
     {
-      "no": 2425,
+      "no": 2460,
       "voice": "Sigrid_LobbyC6",
       "text_sno": 9414064,
       "type": "Hero",
@@ -27784,7 +28170,7 @@
       "emotion": "Hmm"
     },
     {
-      "no": 2426,
+      "no": 2461,
       "voice": "Sigrid_LobbyC7",
       "text_sno": 9414065,
       "type": "Town",
@@ -27794,7 +28180,7 @@
       "emotion": "Hmm"
     },
     {
-      "no": 2427,
+      "no": 2462,
       "voice": "Sigrid_Manage01",
       "type": "Manage1",
       "hero_no": 4140,
@@ -27803,7 +28189,7 @@
       "emotion": ""
     },
     {
-      "no": 2428,
+      "no": 2463,
       "voice": "Sigrid_Manage02",
       "text_sno": 324140,
       "type": "Manage2",
@@ -27813,7 +28199,7 @@
       "emotion": ""
     },
     {
-      "no": 2429,
+      "no": 2464,
       "voice": "Weiss_Greeting",
       "text_sno": 9415001,
       "type": "Greeting",
@@ -27823,7 +28209,7 @@
       "emotion": ""
     },
     {
-      "no": 2430,
+      "no": 2465,
       "voice": "Weiss_Greeting02",
       "text_sno": 9415002,
       "type": "GreetingSp",
@@ -27836,7 +28222,7 @@
       "end": 3
     },
     {
-      "no": 2431,
+      "no": 2466,
       "voice": "Weiss_Greeting03",
       "text_sno": 9415003,
       "type": "GreetingSp",
@@ -27849,7 +28235,7 @@
       "end": 7
     },
     {
-      "no": 2432,
+      "no": 2467,
       "voice": "Weiss_Greeting04",
       "text_sno": 9415004,
       "type": "GreetingSp",
@@ -27862,7 +28248,7 @@
       "end": 7
     },
     {
-      "no": 2433,
+      "no": 2468,
       "voice": "Weiss_Greeting05",
       "text_sno": 9415005,
       "type": "GreetingSp",
@@ -27875,7 +28261,7 @@
       "end": 7
     },
     {
-      "no": 2434,
+      "no": 2469,
       "voice": "Weiss_Greeting06",
       "text_sno": 9415006,
       "type": "GreetingSp",
@@ -27888,7 +28274,7 @@
       "end": 7
     },
     {
-      "no": 2435,
+      "no": 2470,
       "voice": "Weiss_Greeting07",
       "text_sno": 9415007,
       "type": "GreetingSp",
@@ -27901,7 +28287,7 @@
       "end": 7
     },
     {
-      "no": 2436,
+      "no": 2471,
       "voice": "Weiss_Lobby02",
       "text_sno": 9415011,
       "type": "Season",
@@ -27914,7 +28300,7 @@
       "end": 3
     },
     {
-      "no": 2437,
+      "no": 2472,
       "voice": "Weiss_Lobby03",
       "text_sno": 9415012,
       "type": "Season",
@@ -27927,7 +28313,7 @@
       "end": 7
     },
     {
-      "no": 2438,
+      "no": 2473,
       "voice": "Weiss_Lobby04",
       "text_sno": 9415013,
       "type": "Season",
@@ -27940,7 +28326,7 @@
       "end": 7
     },
     {
-      "no": 2439,
+      "no": 2474,
       "voice": "Weiss_Lobby05",
       "text_sno": 9415014,
       "type": "Season",
@@ -27953,7 +28339,7 @@
       "end": 7
     },
     {
-      "no": 2440,
+      "no": 2475,
       "voice": "Weiss_Lobby06",
       "text_sno": 9415015,
       "type": "Season",
@@ -27966,7 +28352,7 @@
       "end": 7
     },
     {
-      "no": 2441,
+      "no": 2476,
       "voice": "Weiss_Lobby07",
       "text_sno": 9415016,
       "type": "Season",
@@ -27979,7 +28365,7 @@
       "end": 7
     },
     {
-      "no": 2442,
+      "no": 2477,
       "voice": "Weiss_Bday02",
       "text_sno": 9415067,
       "type": "Season",
@@ -27992,7 +28378,7 @@
       "end": 1
     },
     {
-      "no": 2443,
+      "no": 2478,
       "voice": "Weiss_Lobby08",
       "text_sno": 9415021,
       "type": "Normal",
@@ -28002,7 +28388,7 @@
       "emotion": "Irritate"
     },
     {
-      "no": 2444,
+      "no": 2479,
       "voice": "Weiss_Lobby09",
       "text_sno": 9415022,
       "type": "Normal",
@@ -28012,7 +28398,7 @@
       "emotion": "Proud"
     },
     {
-      "no": 2445,
+      "no": 2480,
       "voice": "Weiss_Lobby10",
       "text_sno": 9415023,
       "type": "Normal",
@@ -28022,7 +28408,7 @@
       "emotion": "Bittersmile"
     },
     {
-      "no": 2446,
+      "no": 2481,
       "voice": "Weiss_Lobby11",
       "text_sno": 9415024,
       "type": "Normal",
@@ -28032,7 +28418,7 @@
       "emotion": "Oh"
     },
     {
-      "no": 2447,
+      "no": 2482,
       "voice": "Weiss_LobbyIdle01",
       "text_sno": 9415031,
       "type": "Leave",
@@ -28042,7 +28428,7 @@
       "emotion": "Irritate"
     },
     {
-      "no": 2448,
+      "no": 2483,
       "voice": "Weiss_LobbyH1",
       "text_sno": 9415041,
       "type": "Love1",
@@ -28052,7 +28438,7 @@
       "emotion": "Calm"
     },
     {
-      "no": 2449,
+      "no": 2484,
       "voice": "Weiss_LobbyH2",
       "text_sno": 9415042,
       "type": "Love2",
@@ -28062,7 +28448,7 @@
       "emotion": "Bittersmile"
     },
     {
-      "no": 2450,
+      "no": 2485,
       "voice": "Weiss_LobbyH3",
       "text_sno": 9415043,
       "type": "Love3",
@@ -28072,7 +28458,7 @@
       "emotion": "Teary"
     },
     {
-      "no": 2451,
+      "no": 2486,
       "voice": "Weiss_LobbyTouch1",
       "text_sno": 9415051,
       "type": "Normal",
@@ -28082,7 +28468,7 @@
       "emotion": ""
     },
     {
-      "no": 2452,
+      "no": 2487,
       "voice": "Weiss_LobbyTouchsp",
       "text_sno": 9415052,
       "type": "TouchSp",
@@ -28092,7 +28478,7 @@
       "emotion": ""
     },
     {
-      "no": 2453,
+      "no": 2488,
       "voice": "Weiss_LobbyTouchsp2",
       "text_sno": 9415053,
       "type": "TouchSp2",
@@ -28102,7 +28488,7 @@
       "emotion": ""
     },
     {
-      "no": 2454,
+      "no": 2489,
       "voice": "Weiss_LobbyC1",
       "text_sno": 9415061,
       "type": "Mail",
@@ -28112,7 +28498,7 @@
       "emotion": "Angry"
     },
     {
-      "no": 2455,
+      "no": 2490,
       "voice": "Weiss_LobbyC2",
       "text_sno": 9415062,
       "type": "Achievements",
@@ -28122,7 +28508,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2456,
+      "no": 2491,
       "voice": "Weiss_LobbyC5",
       "text_sno": 9415063,
       "type": "AutoHunt",
@@ -28132,7 +28518,7 @@
       "emotion": "Shout"
     },
     {
-      "no": 2457,
+      "no": 2492,
       "voice": "Weiss_LobbyC6",
       "text_sno": 9415064,
       "type": "Hero",
@@ -28142,7 +28528,7 @@
       "emotion": "Proud"
     },
     {
-      "no": 2458,
+      "no": 2493,
       "voice": "Weiss_LobbyC7",
       "text_sno": 9415065,
       "type": "Town",
@@ -28152,7 +28538,7 @@
       "emotion": "Proud"
     },
     {
-      "no": 2459,
+      "no": 2494,
       "voice": "Weiss_Manage01",
       "type": "Manage1",
       "hero_no": 4150,
@@ -28161,7 +28547,7 @@
       "emotion": ""
     },
     {
-      "no": 2460,
+      "no": 2495,
       "voice": "Weiss_Manage02",
       "text_sno": 324150,
       "type": "Manage2",
@@ -28171,7 +28557,7 @@
       "emotion": ""
     },
     {
-      "no": 2461,
+      "no": 2496,
       "voice": "Claudia_Greeting",
       "text_sno": 9501001,
       "type": "Greeting",
@@ -28181,7 +28567,7 @@
       "emotion": ""
     },
     {
-      "no": 2462,
+      "no": 2497,
       "voice": "Claudia_Greeting02",
       "text_sno": 9501002,
       "type": "GreetingSp",
@@ -28194,7 +28580,7 @@
       "end": 3
     },
     {
-      "no": 2463,
+      "no": 2498,
       "voice": "Claudia_Greeting03",
       "text_sno": 9501003,
       "type": "GreetingSp",
@@ -28207,7 +28593,7 @@
       "end": 7
     },
     {
-      "no": 2464,
+      "no": 2499,
       "voice": "Claudia_Greeting04",
       "text_sno": 9501004,
       "type": "GreetingSp",
@@ -28220,7 +28606,7 @@
       "end": 7
     },
     {
-      "no": 2465,
+      "no": 2500,
       "voice": "Claudia_Greeting05",
       "text_sno": 9501005,
       "type": "GreetingSp",
@@ -28233,7 +28619,7 @@
       "end": 7
     },
     {
-      "no": 2466,
+      "no": 2501,
       "voice": "Claudia_Greeting06",
       "text_sno": 9501006,
       "type": "GreetingSp",
@@ -28246,7 +28632,7 @@
       "end": 7
     },
     {
-      "no": 2467,
+      "no": 2502,
       "voice": "Claudia_Greeting07",
       "text_sno": 9501007,
       "type": "GreetingSp",
@@ -28259,7 +28645,7 @@
       "end": 7
     },
     {
-      "no": 2468,
+      "no": 2503,
       "voice": "Claudia_Lobby02",
       "text_sno": 9501011,
       "type": "Season",
@@ -28272,7 +28658,7 @@
       "end": 3
     },
     {
-      "no": 2469,
+      "no": 2504,
       "voice": "Claudia_Lobby03",
       "text_sno": 9501012,
       "type": "Season",
@@ -28285,7 +28671,7 @@
       "end": 7
     },
     {
-      "no": 2470,
+      "no": 2505,
       "voice": "Claudia_Lobby04",
       "text_sno": 9501013,
       "type": "Season",
@@ -28298,7 +28684,7 @@
       "end": 7
     },
     {
-      "no": 2471,
+      "no": 2506,
       "voice": "Claudia_Lobby05",
       "text_sno": 9501014,
       "type": "Season",
@@ -28311,7 +28697,7 @@
       "end": 7
     },
     {
-      "no": 2472,
+      "no": 2507,
       "voice": "Claudia_Lobby06",
       "text_sno": 9501015,
       "type": "Season",
@@ -28324,7 +28710,7 @@
       "end": 7
     },
     {
-      "no": 2473,
+      "no": 2508,
       "voice": "Claudia_Lobby07",
       "text_sno": 9501016,
       "type": "Season",
@@ -28337,7 +28723,7 @@
       "end": 7
     },
     {
-      "no": 2474,
+      "no": 2509,
       "voice": "Claudia_Bday02",
       "text_sno": 9501067,
       "type": "Season",
@@ -28350,7 +28736,7 @@
       "end": 1
     },
     {
-      "no": 2475,
+      "no": 2510,
       "voice": "Claudia_Anniversary01",
       "text_sno": 9501068,
       "type": "Season",
@@ -28364,7 +28750,7 @@
       "end": 21
     },
     {
-      "no": 2476,
+      "no": 2511,
       "voice": "Claudia_Anniversary02",
       "text_sno": 9501069,
       "type": "Season",
@@ -28378,7 +28764,7 @@
       "end": 21
     },
     {
-      "no": 2477,
+      "no": 2512,
       "voice": "Claudia_Anniversary03",
       "text_sno": 9501070,
       "type": "Season",
@@ -28392,7 +28778,7 @@
       "end": 21
     },
     {
-      "no": 2478,
+      "no": 2513,
       "voice": "Claudia_Lobby08",
       "text_sno": 9501021,
       "type": "Normal",
@@ -28402,7 +28788,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2479,
+      "no": 2514,
       "voice": "Claudia_Lobby09",
       "text_sno": 9501022,
       "type": "Normal",
@@ -28412,7 +28798,7 @@
       "emotion": "Sorrow"
     },
     {
-      "no": 2480,
+      "no": 2515,
       "voice": "Claudia_Lobby10",
       "text_sno": 9501023,
       "type": "Normal",
@@ -28422,7 +28808,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2481,
+      "no": 2516,
       "voice": "Claudia_Lobby11",
       "text_sno": 9501024,
       "type": "Normal",
@@ -28432,7 +28818,7 @@
       "emotion": "Sorrow"
     },
     {
-      "no": 2482,
+      "no": 2517,
       "voice": "Claudia_LobbyIdle01",
       "text_sno": 9501031,
       "type": "Leave",
@@ -28442,7 +28828,7 @@
       "emotion": "Sorrow"
     },
     {
-      "no": 2483,
+      "no": 2518,
       "voice": "Claudia_LobbyH1",
       "text_sno": 9501041,
       "type": "Love1",
@@ -28452,7 +28838,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2484,
+      "no": 2519,
       "voice": "Claudia_LobbyH2",
       "text_sno": 9501042,
       "type": "Love2",
@@ -28462,7 +28848,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2485,
+      "no": 2520,
       "voice": "Claudia_LobbyH3",
       "text_sno": 9501043,
       "type": "Love3",
@@ -28472,7 +28858,7 @@
       "emotion": "Worry"
     },
     {
-      "no": 2486,
+      "no": 2521,
       "voice": "Claudia_LobbyTouch1",
       "text_sno": 9501051,
       "type": "Normal",
@@ -28482,7 +28868,7 @@
       "emotion": ""
     },
     {
-      "no": 2487,
+      "no": 2522,
       "voice": "Claudia_LobbyTouchsp",
       "text_sno": 9501052,
       "type": "TouchSp",
@@ -28492,7 +28878,7 @@
       "emotion": ""
     },
     {
-      "no": 2488,
+      "no": 2523,
       "voice": "Claudia_LobbyC1",
       "text_sno": 9501061,
       "type": "Mail",
@@ -28502,7 +28888,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2489,
+      "no": 2524,
       "voice": "Claudia_LobbyC2",
       "text_sno": 9501062,
       "type": "Achievements",
@@ -28512,7 +28898,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2490,
+      "no": 2525,
       "voice": "Claudia_LobbyC5",
       "text_sno": 9501063,
       "type": "AutoHunt",
@@ -28522,7 +28908,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2491,
+      "no": 2526,
       "voice": "Claudia_LobbyC6",
       "text_sno": 9501064,
       "type": "Hero",
@@ -28532,7 +28918,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2492,
+      "no": 2527,
       "voice": "Claudia_LobbyC7",
       "text_sno": 9501065,
       "type": "Town",
@@ -28542,7 +28928,7 @@
       "emotion": "Surprise"
     },
     {
-      "no": 2493,
+      "no": 2528,
       "voice": "Claudia_Manage01",
       "type": "Manage1",
       "hero_no": 5010,
@@ -28551,7 +28937,7 @@
       "emotion": ""
     },
     {
-      "no": 2494,
+      "no": 2529,
       "voice": "Claudia_Manage02",
       "text_sno": 325010,
       "type": "Manage2",
@@ -28561,7 +28947,7 @@
       "emotion": ""
     },
     {
-      "no": 2495,
+      "no": 2530,
       "voice": "Adrianne_Greeting",
       "text_sno": 9502001,
       "type": "Greeting",
@@ -28571,7 +28957,7 @@
       "emotion": ""
     },
     {
-      "no": 2496,
+      "no": 2531,
       "voice": "Adrianne_Greeting02",
       "text_sno": 9502002,
       "type": "GreetingSp",
@@ -28584,7 +28970,7 @@
       "end": 3
     },
     {
-      "no": 2497,
+      "no": 2532,
       "voice": "Adrianne_Greeting03",
       "text_sno": 9502003,
       "type": "GreetingSp",
@@ -28597,7 +28983,7 @@
       "end": 7
     },
     {
-      "no": 2498,
+      "no": 2533,
       "voice": "Adrianne_Greeting04",
       "text_sno": 9502004,
       "type": "GreetingSp",
@@ -28610,7 +28996,7 @@
       "end": 7
     },
     {
-      "no": 2499,
+      "no": 2534,
       "voice": "Adrianne_Greeting05",
       "text_sno": 9502005,
       "type": "GreetingSp",
@@ -28623,7 +29009,7 @@
       "end": 7
     },
     {
-      "no": 2500,
+      "no": 2535,
       "voice": "Adrianne_Greeting06",
       "text_sno": 9502006,
       "type": "GreetingSp",
@@ -28636,7 +29022,7 @@
       "end": 7
     },
     {
-      "no": 2501,
+      "no": 2536,
       "voice": "Adrianne_Greeting07",
       "text_sno": 9502007,
       "type": "GreetingSp",
@@ -28649,7 +29035,7 @@
       "end": 7
     },
     {
-      "no": 2502,
+      "no": 2537,
       "voice": "Adrianne_Lobby02",
       "text_sno": 9502011,
       "type": "Season",
@@ -28662,7 +29048,7 @@
       "end": 3
     },
     {
-      "no": 2503,
+      "no": 2538,
       "voice": "Adrianne_Lobby03",
       "text_sno": 9502012,
       "type": "Season",
@@ -28675,7 +29061,7 @@
       "end": 7
     },
     {
-      "no": 2504,
+      "no": 2539,
       "voice": "Adrianne_Lobby04",
       "text_sno": 9502013,
       "type": "Season",
@@ -28688,7 +29074,7 @@
       "end": 7
     },
     {
-      "no": 2505,
+      "no": 2540,
       "voice": "Adrianne_Lobby05",
       "text_sno": 9502014,
       "type": "Season",
@@ -28701,7 +29087,7 @@
       "end": 7
     },
     {
-      "no": 2506,
+      "no": 2541,
       "voice": "Adrianne_Lobby06",
       "text_sno": 9502015,
       "type": "Season",
@@ -28714,7 +29100,7 @@
       "end": 7
     },
     {
-      "no": 2507,
+      "no": 2542,
       "voice": "Adrianne_Lobby07",
       "text_sno": 9502016,
       "type": "Season",
@@ -28727,7 +29113,7 @@
       "end": 7
     },
     {
-      "no": 2508,
+      "no": 2543,
       "voice": "Adrianne_Bday02",
       "text_sno": 9502067,
       "type": "Season",
@@ -28740,7 +29126,7 @@
       "end": 1
     },
     {
-      "no": 2509,
+      "no": 2544,
       "voice": "Adrianne_Anniversary01",
       "text_sno": 9502068,
       "type": "Season",
@@ -28754,7 +29140,7 @@
       "end": 21
     },
     {
-      "no": 2510,
+      "no": 2545,
       "voice": "Adrianne_Anniversary02",
       "text_sno": 9502069,
       "type": "Season",
@@ -28768,7 +29154,7 @@
       "end": 21
     },
     {
-      "no": 2511,
+      "no": 2546,
       "voice": "Adrianne_Anniversary03",
       "text_sno": 9502070,
       "type": "Season",
@@ -28782,7 +29168,7 @@
       "end": 21
     },
     {
-      "no": 2512,
+      "no": 2547,
       "voice": "Adrianne_Anniversary",
       "text_sno": 9502071,
       "type": "Season",
@@ -28796,7 +29182,7 @@
       "end": 21
     },
     {
-      "no": 2513,
+      "no": 2548,
       "voice": "Adrianne_Lobby08",
       "text_sno": 9502021,
       "type": "Normal",
@@ -28806,7 +29192,7 @@
       "emotion": "Laugh"
     },
     {
-      "no": 2514,
+      "no": 2549,
       "voice": "Adrianne_Lobby09",
       "text_sno": 9502022,
       "type": "Normal",
@@ -28816,7 +29202,7 @@
       "emotion": "Cute"
     },
     {
-      "no": 2515,
+      "no": 2550,
       "voice": "Adrianne_Lobby10",
       "text_sno": 9502023,
       "type": "Normal",
@@ -28826,7 +29212,7 @@
       "emotion": "Worry"
     },
     {
-      "no": 2516,
+      "no": 2551,
       "voice": "Adrianne_Lobby11",
       "text_sno": 9502024,
       "type": "Normal",
@@ -28836,7 +29222,7 @@
       "emotion": "Excuse"
     },
     {
-      "no": 2517,
+      "no": 2552,
       "voice": "Adrianne_LobbyIdle01",
       "text_sno": 9502031,
       "type": "Leave",
@@ -28846,7 +29232,7 @@
       "emotion": "Sorrow"
     },
     {
-      "no": 2518,
+      "no": 2553,
       "voice": "Adrianne_LobbyH1",
       "text_sno": 9502041,
       "type": "Love1",
@@ -28856,7 +29242,7 @@
       "emotion": "Brave"
     },
     {
-      "no": 2519,
+      "no": 2554,
       "voice": "Adrianne_LobbyH2",
       "text_sno": 9502042,
       "type": "Love2",
@@ -28866,7 +29252,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2520,
+      "no": 2555,
       "voice": "Adrianne_LobbyH3",
       "text_sno": 9502043,
       "type": "Love3",
@@ -28876,7 +29262,7 @@
       "emotion": "Serious"
     },
     {
-      "no": 2521,
+      "no": 2556,
       "voice": "Adrianne_LobbyTouch1",
       "text_sno": 9502051,
       "type": "Normal",
@@ -28886,7 +29272,7 @@
       "emotion": ""
     },
     {
-      "no": 2522,
+      "no": 2557,
       "voice": "Adrianne_LobbyTouchsp",
       "text_sno": 9502052,
       "type": "TouchSp",
@@ -28896,7 +29282,7 @@
       "emotion": ""
     },
     {
-      "no": 2523,
+      "no": 2558,
       "voice": "Adrianne_LobbyTouchsp2",
       "text_sno": 9502053,
       "type": "TouchSp2",
@@ -28906,7 +29292,7 @@
       "emotion": ""
     },
     {
-      "no": 2524,
+      "no": 2559,
       "voice": "Adrianne_LobbyC1",
       "text_sno": 9502061,
       "type": "Mail",
@@ -28916,7 +29302,7 @@
       "emotion": "Oh"
     },
     {
-      "no": 2525,
+      "no": 2560,
       "voice": "Adrianne_LobbyC2",
       "text_sno": 9502062,
       "type": "Achievements",
@@ -28926,7 +29312,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2526,
+      "no": 2561,
       "voice": "Adrianne_LobbyC5",
       "text_sno": 9502063,
       "type": "AutoHunt",
@@ -28936,7 +29322,7 @@
       "emotion": "Laugh"
     },
     {
-      "no": 2527,
+      "no": 2562,
       "voice": "Adrianne_LobbyC6",
       "text_sno": 9502064,
       "type": "Hero",
@@ -28946,7 +29332,7 @@
       "emotion": "Twinkle"
     },
     {
-      "no": 2528,
+      "no": 2563,
       "voice": "Adrianne_LobbyC7",
       "text_sno": 9502065,
       "type": "Town",
@@ -28956,7 +29342,7 @@
       "emotion": "Laugh"
     },
     {
-      "no": 2529,
+      "no": 2564,
       "voice": "Adrianne_Manage01",
       "type": "Manage1",
       "hero_no": 5020,
@@ -28965,7 +29351,7 @@
       "emotion": ""
     },
     {
-      "no": 2530,
+      "no": 2565,
       "voice": "Adrianne_Manage02",
       "text_sno": 325020,
       "type": "Manage2",
@@ -28975,7 +29361,7 @@
       "emotion": ""
     },
     {
-      "no": 2531,
+      "no": 2566,
       "voice": "Yuria_Greeting",
       "text_sno": 9503001,
       "type": "Greeting",
@@ -28985,7 +29371,7 @@
       "emotion": ""
     },
     {
-      "no": 2532,
+      "no": 2567,
       "voice": "Yuria_Greeting02",
       "text_sno": 9503002,
       "type": "GreetingSp",
@@ -28998,7 +29384,7 @@
       "end": 3
     },
     {
-      "no": 2533,
+      "no": 2568,
       "voice": "Yuria_Greeting03",
       "text_sno": 9503003,
       "type": "GreetingSp",
@@ -29011,7 +29397,7 @@
       "end": 7
     },
     {
-      "no": 2534,
+      "no": 2569,
       "voice": "Yuria_Greeting04",
       "text_sno": 9503004,
       "type": "GreetingSp",
@@ -29024,7 +29410,7 @@
       "end": 7
     },
     {
-      "no": 2535,
+      "no": 2570,
       "voice": "Yuria_Greeting05",
       "text_sno": 9503005,
       "type": "GreetingSp",
@@ -29037,7 +29423,7 @@
       "end": 7
     },
     {
-      "no": 2536,
+      "no": 2571,
       "voice": "Yuria_Greeting06",
       "text_sno": 9503006,
       "type": "GreetingSp",
@@ -29050,7 +29436,7 @@
       "end": 7
     },
     {
-      "no": 2537,
+      "no": 2572,
       "voice": "Yuria_Greeting07",
       "text_sno": 9503007,
       "type": "GreetingSp",
@@ -29063,7 +29449,7 @@
       "end": 7
     },
     {
-      "no": 2538,
+      "no": 2573,
       "voice": "Yuria_Lobby02",
       "text_sno": 9503011,
       "type": "Season",
@@ -29076,7 +29462,7 @@
       "end": 3
     },
     {
-      "no": 2539,
+      "no": 2574,
       "voice": "Yuria_Lobby03",
       "text_sno": 9503012,
       "type": "Season",
@@ -29089,7 +29475,7 @@
       "end": 7
     },
     {
-      "no": 2540,
+      "no": 2575,
       "voice": "Yuria_Lobby04",
       "text_sno": 9503013,
       "type": "Season",
@@ -29102,7 +29488,7 @@
       "end": 7
     },
     {
-      "no": 2541,
+      "no": 2576,
       "voice": "Yuria_Lobby05",
       "text_sno": 9503014,
       "type": "Season",
@@ -29115,7 +29501,7 @@
       "end": 7
     },
     {
-      "no": 2542,
+      "no": 2577,
       "voice": "Yuria_Lobby06",
       "text_sno": 9503015,
       "type": "Season",
@@ -29128,7 +29514,7 @@
       "end": 7
     },
     {
-      "no": 2543,
+      "no": 2578,
       "voice": "Yuria_Lobby07",
       "text_sno": 9503016,
       "type": "Season",
@@ -29141,7 +29527,7 @@
       "end": 7
     },
     {
-      "no": 2544,
+      "no": 2579,
       "voice": "Yuria_Bday02",
       "text_sno": 9503067,
       "type": "Season",
@@ -29154,7 +29540,7 @@
       "end": 1
     },
     {
-      "no": 2545,
+      "no": 2580,
       "voice": "Yuria_Anniversary01",
       "text_sno": 9503068,
       "type": "Season",
@@ -29168,7 +29554,7 @@
       "end": 21
     },
     {
-      "no": 2546,
+      "no": 2581,
       "voice": "Yuria_Anniversary02",
       "text_sno": 9503069,
       "type": "Season",
@@ -29182,7 +29568,7 @@
       "end": 21
     },
     {
-      "no": 2547,
+      "no": 2582,
       "voice": "Yuria_Anniversary03",
       "text_sno": 9503070,
       "type": "Season",
@@ -29196,7 +29582,7 @@
       "end": 21
     },
     {
-      "no": 2548,
+      "no": 2583,
       "voice": "Yuria_Anniversary",
       "text_sno": 9503071,
       "type": "Season",
@@ -29210,7 +29596,7 @@
       "end": 21
     },
     {
-      "no": 2549,
+      "no": 2584,
       "voice": "Yuria_Lobby08",
       "text_sno": 9503021,
       "type": "Normal",
@@ -29220,7 +29606,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2550,
+      "no": 2585,
       "voice": "Yuria_Lobby09",
       "text_sno": 9503022,
       "type": "Normal",
@@ -29230,7 +29616,7 @@
       "emotion": "Melody"
     },
     {
-      "no": 2551,
+      "no": 2586,
       "voice": "Yuria_Lobby10",
       "text_sno": 9503023,
       "type": "Normal",
@@ -29240,7 +29626,7 @@
       "emotion": "Serious"
     },
     {
-      "no": 2552,
+      "no": 2587,
       "voice": "Yuria_Lobby11",
       "text_sno": 9503024,
       "type": "Normal",
@@ -29250,7 +29636,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2553,
+      "no": 2588,
       "voice": "Yuria_LobbyIdle01",
       "text_sno": 9503031,
       "type": "Leave",
@@ -29260,7 +29646,7 @@
       "emotion": "Oh"
     },
     {
-      "no": 2554,
+      "no": 2589,
       "voice": "Yuria_LobbyH1",
       "text_sno": 9503041,
       "type": "Love1",
@@ -29270,7 +29656,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2555,
+      "no": 2590,
       "voice": "Yuria_LobbyH2",
       "text_sno": 9503042,
       "type": "Love2",
@@ -29280,7 +29666,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2556,
+      "no": 2591,
       "voice": "Yuria_LobbyH3",
       "text_sno": 9503043,
       "type": "Love3",
@@ -29290,7 +29676,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2557,
+      "no": 2592,
       "voice": "Yuria_LobbyTouch1",
       "text_sno": 9503051,
       "type": "Normal",
@@ -29300,7 +29686,7 @@
       "emotion": ""
     },
     {
-      "no": 2558,
+      "no": 2593,
       "voice": "Yuria_LobbyTouchsp",
       "text_sno": 9503052,
       "type": "TouchSp",
@@ -29310,7 +29696,7 @@
       "emotion": ""
     },
     {
-      "no": 2559,
+      "no": 2594,
       "voice": "Yuria_LobbyTouchsp2",
       "text_sno": 9503053,
       "type": "TouchSp2",
@@ -29320,7 +29706,7 @@
       "emotion": ""
     },
     {
-      "no": 2560,
+      "no": 2595,
       "voice": "Yuria_LobbyC1",
       "text_sno": 9503061,
       "type": "Mail",
@@ -29330,7 +29716,7 @@
       "emotion": "Aye"
     },
     {
-      "no": 2561,
+      "no": 2596,
       "voice": "Yuria_LobbyC2",
       "text_sno": 9503062,
       "type": "Achievements",
@@ -29340,7 +29726,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2562,
+      "no": 2597,
       "voice": "Yuria_LobbyC5",
       "text_sno": 9503063,
       "type": "AutoHunt",
@@ -29350,7 +29736,7 @@
       "emotion": "Aye"
     },
     {
-      "no": 2563,
+      "no": 2598,
       "voice": "Yuria_LobbyC6",
       "text_sno": 9503064,
       "type": "Hero",
@@ -29360,7 +29746,7 @@
       "emotion": "Serious"
     },
     {
-      "no": 2564,
+      "no": 2599,
       "voice": "Yuria_LobbyC7",
       "text_sno": 9503065,
       "type": "Town",
@@ -29370,7 +29756,7 @@
       "emotion": "Oh"
     },
     {
-      "no": 2565,
+      "no": 2600,
       "voice": "Yuria_Manage01",
       "type": "Manage1",
       "hero_no": 5030,
@@ -29379,7 +29765,7 @@
       "emotion": ""
     },
     {
-      "no": 2566,
+      "no": 2601,
       "voice": "Yuria_Manage02",
       "text_sno": 325030,
       "type": "Manage2",
@@ -29389,7 +29775,7 @@
       "emotion": ""
     },
     {
-      "no": 2567,
+      "no": 2602,
       "voice": "Hanul_Greeting",
       "text_sno": 9504001,
       "type": "Greeting",
@@ -29399,7 +29785,7 @@
       "emotion": ""
     },
     {
-      "no": 2568,
+      "no": 2603,
       "voice": "Hanul_Greeting02",
       "text_sno": 9504002,
       "type": "GreetingSp",
@@ -29412,7 +29798,7 @@
       "end": 3
     },
     {
-      "no": 2569,
+      "no": 2604,
       "voice": "Hanul_Greeting03",
       "text_sno": 9504003,
       "type": "GreetingSp",
@@ -29425,7 +29811,7 @@
       "end": 7
     },
     {
-      "no": 2570,
+      "no": 2605,
       "voice": "Hanul_Greeting04",
       "text_sno": 9504004,
       "type": "GreetingSp",
@@ -29438,7 +29824,7 @@
       "end": 7
     },
     {
-      "no": 2571,
+      "no": 2606,
       "voice": "Hanul_Greeting05",
       "text_sno": 9504005,
       "type": "GreetingSp",
@@ -29451,7 +29837,7 @@
       "end": 7
     },
     {
-      "no": 2572,
+      "no": 2607,
       "voice": "Hanul_Greeting06",
       "text_sno": 9504006,
       "type": "GreetingSp",
@@ -29464,7 +29850,7 @@
       "end": 7
     },
     {
-      "no": 2573,
+      "no": 2608,
       "voice": "Hanul_Greeting07",
       "text_sno": 9504007,
       "type": "GreetingSp",
@@ -29477,7 +29863,7 @@
       "end": 7
     },
     {
-      "no": 2574,
+      "no": 2609,
       "voice": "Hanul_Lobby02",
       "text_sno": 9504011,
       "type": "Season",
@@ -29490,7 +29876,7 @@
       "end": 3
     },
     {
-      "no": 2575,
+      "no": 2610,
       "voice": "Hanul_Lobby03",
       "text_sno": 9504012,
       "type": "Season",
@@ -29503,7 +29889,7 @@
       "end": 7
     },
     {
-      "no": 2576,
+      "no": 2611,
       "voice": "Hanul_Lobby04",
       "text_sno": 9504013,
       "type": "Season",
@@ -29516,7 +29902,7 @@
       "end": 7
     },
     {
-      "no": 2577,
+      "no": 2612,
       "voice": "Hanul_Lobby05",
       "text_sno": 9504014,
       "type": "Season",
@@ -29529,7 +29915,7 @@
       "end": 7
     },
     {
-      "no": 2578,
+      "no": 2613,
       "voice": "Hanul_Lobby06",
       "text_sno": 9504015,
       "type": "Season",
@@ -29542,7 +29928,7 @@
       "end": 7
     },
     {
-      "no": 2579,
+      "no": 2614,
       "voice": "Hanul_Lobby07",
       "text_sno": 9504016,
       "type": "Season",
@@ -29555,7 +29941,7 @@
       "end": 7
     },
     {
-      "no": 2580,
+      "no": 2615,
       "voice": "Hanul_Bday02",
       "text_sno": 9504067,
       "type": "Season",
@@ -29568,7 +29954,7 @@
       "end": 1
     },
     {
-      "no": 2581,
+      "no": 2616,
       "voice": "Hanul_Anniversary03",
       "text_sno": 9504070,
       "type": "Season",
@@ -29582,7 +29968,7 @@
       "end": 21
     },
     {
-      "no": 2582,
+      "no": 2617,
       "voice": "Hanul_Anniversary",
       "text_sno": 9504071,
       "type": "Season",
@@ -29596,7 +29982,7 @@
       "end": 21
     },
     {
-      "no": 2583,
+      "no": 2618,
       "voice": "Hanul_Lobby08",
       "text_sno": 9504021,
       "type": "Normal",
@@ -29606,7 +29992,7 @@
       "emotion": "Bittersmile"
     },
     {
-      "no": 2584,
+      "no": 2619,
       "voice": "Hanul_Lobby09",
       "text_sno": 9504022,
       "type": "Normal",
@@ -29616,7 +30002,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2585,
+      "no": 2620,
       "voice": "Hanul_Lobby10",
       "text_sno": 9504023,
       "type": "Normal",
@@ -29626,7 +30012,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2586,
+      "no": 2621,
       "voice": "Hanul_Lobby11",
       "text_sno": 9504024,
       "type": "Normal",
@@ -29636,7 +30022,7 @@
       "emotion": "Bittersmile2"
     },
     {
-      "no": 2587,
+      "no": 2622,
       "voice": "Hanul_LobbyIdle01",
       "text_sno": 9504031,
       "type": "Leave",
@@ -29646,7 +30032,7 @@
       "emotion": ""
     },
     {
-      "no": 2588,
+      "no": 2623,
       "voice": "Hanul_LobbyH1",
       "text_sno": 9504041,
       "type": "Love1",
@@ -29656,7 +30042,7 @@
       "emotion": ""
     },
     {
-      "no": 2589,
+      "no": 2624,
       "voice": "Hanul_LobbyH2",
       "text_sno": 9504042,
       "type": "Love2",
@@ -29666,7 +30052,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2590,
+      "no": 2625,
       "voice": "Hanul_LobbyH3",
       "text_sno": 9504043,
       "type": "Love3",
@@ -29676,7 +30062,7 @@
       "emotion": "Bittersmile2"
     },
     {
-      "no": 2591,
+      "no": 2626,
       "voice": "Hanul_LobbyTouch1",
       "text_sno": 9504051,
       "type": "Normal",
@@ -29686,7 +30072,7 @@
       "emotion": ""
     },
     {
-      "no": 2592,
+      "no": 2627,
       "voice": "Hanul_LobbyTouchsp",
       "text_sno": 9504052,
       "type": "TouchSp",
@@ -29696,7 +30082,7 @@
       "emotion": ""
     },
     {
-      "no": 2593,
+      "no": 2628,
       "voice": "Hanul_LobbyTouchsp2",
       "text_sno": 9504053,
       "type": "TouchSp2",
@@ -29706,7 +30092,7 @@
       "emotion": ""
     },
     {
-      "no": 2594,
+      "no": 2629,
       "voice": "Hanul_LobbyC1",
       "text_sno": 9504061,
       "type": "Mail",
@@ -29716,7 +30102,7 @@
       "emotion": ""
     },
     {
-      "no": 2595,
+      "no": 2630,
       "voice": "Hanul_LobbyC2",
       "text_sno": 9504062,
       "type": "Achievements",
@@ -29726,7 +30112,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2596,
+      "no": 2631,
       "voice": "Hanul_LobbyC5",
       "text_sno": 9504063,
       "type": "AutoHunt",
@@ -29736,7 +30122,7 @@
       "emotion": ""
     },
     {
-      "no": 2597,
+      "no": 2632,
       "voice": "Hanul_LobbyC6",
       "text_sno": 9504064,
       "type": "Hero",
@@ -29746,7 +30132,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2598,
+      "no": 2633,
       "voice": "Hanul_LobbyC7",
       "text_sno": 9504065,
       "type": "Town",
@@ -29756,7 +30142,7 @@
       "emotion": "Question"
     },
     {
-      "no": 2599,
+      "no": 2634,
       "voice": "Hanul_Manage01",
       "type": "Manage1",
       "hero_no": 5040,
@@ -29765,7 +30151,7 @@
       "emotion": ""
     },
     {
-      "no": 2600,
+      "no": 2635,
       "voice": "Hanul_Manage02",
       "text_sno": 325040,
       "type": "Manage2",
@@ -29775,7 +30161,7 @@
       "emotion": ""
     },
     {
-      "no": 2601,
+      "no": 2636,
       "voice": "Larimar_Greeting",
       "text_sno": 9601001,
       "type": "Greeting",
@@ -29785,7 +30171,7 @@
       "emotion": ""
     },
     {
-      "no": 2602,
+      "no": 2637,
       "voice": "Larimar_Greeting02",
       "text_sno": 9601002,
       "type": "GreetingSp",
@@ -29798,7 +30184,7 @@
       "end": 3
     },
     {
-      "no": 2603,
+      "no": 2638,
       "voice": "Larimar_Greeting03",
       "text_sno": 9601003,
       "type": "GreetingSp",
@@ -29811,7 +30197,7 @@
       "end": 7
     },
     {
-      "no": 2604,
+      "no": 2639,
       "voice": "Larimar_Greeting04",
       "text_sno": 9601004,
       "type": "GreetingSp",
@@ -29824,7 +30210,7 @@
       "end": 7
     },
     {
-      "no": 2605,
+      "no": 2640,
       "voice": "Larimar_Greeting05",
       "text_sno": 9601005,
       "type": "GreetingSp",
@@ -29837,7 +30223,7 @@
       "end": 7
     },
     {
-      "no": 2606,
+      "no": 2641,
       "voice": "Larimar_Greeting06",
       "text_sno": 9601006,
       "type": "GreetingSp",
@@ -29850,7 +30236,7 @@
       "end": 7
     },
     {
-      "no": 2607,
+      "no": 2642,
       "voice": "Larimar_Greeting07",
       "text_sno": 9601007,
       "type": "GreetingSp",
@@ -29863,7 +30249,7 @@
       "end": 7
     },
     {
-      "no": 2608,
+      "no": 2643,
       "voice": "Larimar_Lobby02",
       "text_sno": 9601011,
       "type": "Season",
@@ -29876,7 +30262,7 @@
       "end": 3
     },
     {
-      "no": 2609,
+      "no": 2644,
       "voice": "Larimar_Lobby03",
       "text_sno": 9601012,
       "type": "Season",
@@ -29889,7 +30275,7 @@
       "end": 7
     },
     {
-      "no": 2610,
+      "no": 2645,
       "voice": "Larimar_Lobby04",
       "text_sno": 9601013,
       "type": "Season",
@@ -29902,7 +30288,7 @@
       "end": 7
     },
     {
-      "no": 2611,
+      "no": 2646,
       "voice": "Larimar_Lobby05",
       "text_sno": 9601014,
       "type": "Season",
@@ -29915,7 +30301,7 @@
       "end": 7
     },
     {
-      "no": 2612,
+      "no": 2647,
       "voice": "Larimar_Lobby06",
       "text_sno": 9601015,
       "type": "Season",
@@ -29928,7 +30314,7 @@
       "end": 7
     },
     {
-      "no": 2613,
+      "no": 2648,
       "voice": "Larimar_Lobby07",
       "text_sno": 9601016,
       "type": "Season",
@@ -29941,7 +30327,7 @@
       "end": 7
     },
     {
-      "no": 2614,
+      "no": 2649,
       "voice": "Larimar_Bday02",
       "text_sno": 9601067,
       "type": "Season",
@@ -29954,7 +30340,7 @@
       "end": 1
     },
     {
-      "no": 2615,
+      "no": 2650,
       "voice": "Larimar_Anniversary02",
       "text_sno": 9601069,
       "type": "Season",
@@ -29968,7 +30354,7 @@
       "end": 21
     },
     {
-      "no": 2616,
+      "no": 2651,
       "voice": "Larimar_Anniversary03",
       "text_sno": 9601070,
       "type": "Season",
@@ -29982,7 +30368,7 @@
       "end": 21
     },
     {
-      "no": 2617,
+      "no": 2652,
       "voice": "Larimar_Anniversary",
       "text_sno": 9601071,
       "type": "Season",
@@ -29996,7 +30382,7 @@
       "end": 21
     },
     {
-      "no": 2618,
+      "no": 2653,
       "voice": "Larimar_Lobby08",
       "text_sno": 9601021,
       "type": "Normal",
@@ -30006,7 +30392,7 @@
       "emotion": "Calm"
     },
     {
-      "no": 2619,
+      "no": 2654,
       "voice": "Larimar_Lobby09",
       "text_sno": 9601022,
       "type": "Normal",
@@ -30016,7 +30402,7 @@
       "emotion": "Proud2"
     },
     {
-      "no": 2620,
+      "no": 2655,
       "voice": "Larimar_Lobby10",
       "text_sno": 9601023,
       "type": "Normal",
@@ -30026,7 +30412,7 @@
       "emotion": "Angry2"
     },
     {
-      "no": 2621,
+      "no": 2656,
       "voice": "Larimar_Lobby11",
       "text_sno": 9601024,
       "type": "Normal",
@@ -30036,7 +30422,7 @@
       "emotion": "Bittersmile"
     },
     {
-      "no": 2622,
+      "no": 2657,
       "voice": "Larimar_LobbyIdle01",
       "text_sno": 9601031,
       "type": "Leave",
@@ -30046,7 +30432,7 @@
       "emotion": "Proud"
     },
     {
-      "no": 2623,
+      "no": 2658,
       "voice": "Larimar_LobbyH1",
       "text_sno": 9601041,
       "type": "Love1",
@@ -30056,7 +30442,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2624,
+      "no": 2659,
       "voice": "Larimar_LobbyH2",
       "text_sno": 9601042,
       "type": "Love2",
@@ -30066,7 +30452,7 @@
       "emotion": "Bittersmile"
     },
     {
-      "no": 2625,
+      "no": 2660,
       "voice": "Larimar_LobbyH3",
       "text_sno": 9601043,
       "type": "Love3",
@@ -30076,7 +30462,7 @@
       "emotion": "Laugh"
     },
     {
-      "no": 2626,
+      "no": 2661,
       "voice": "Larimar_LobbyTouch1",
       "text_sno": 9601051,
       "type": "Normal",
@@ -30086,7 +30472,7 @@
       "emotion": ""
     },
     {
-      "no": 2627,
+      "no": 2662,
       "voice": "Larimar_LobbyTouchsp",
       "text_sno": 9601052,
       "type": "TouchSp",
@@ -30096,7 +30482,7 @@
       "emotion": ""
     },
     {
-      "no": 2628,
+      "no": 2663,
       "voice": "Larimar_LobbyTouchsp2",
       "text_sno": 9601053,
       "type": "TouchSp2",
@@ -30106,7 +30492,7 @@
       "emotion": ""
     },
     {
-      "no": 2629,
+      "no": 2664,
       "voice": "Larimar_LobbyC1",
       "text_sno": 9601061,
       "type": "Mail",
@@ -30116,7 +30502,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2630,
+      "no": 2665,
       "voice": "Larimar_LobbyC2",
       "text_sno": 9601062,
       "type": "Achievements",
@@ -30126,7 +30512,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2631,
+      "no": 2666,
       "voice": "Larimar_LobbyC5",
       "text_sno": 9601063,
       "type": "AutoHunt",
@@ -30136,7 +30522,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2632,
+      "no": 2667,
       "voice": "Larimar_LobbyC6",
       "text_sno": 9601064,
       "type": "Hero",
@@ -30146,7 +30532,7 @@
       "emotion": "Calm"
     },
     {
-      "no": 2633,
+      "no": 2668,
       "voice": "Larimar_LobbyC7",
       "text_sno": 9601065,
       "type": "Town",
@@ -30156,7 +30542,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2634,
+      "no": 2669,
       "voice": "Larimar_Manage01",
       "type": "Manage1",
       "hero_no": 6010,
@@ -30165,7 +30551,7 @@
       "emotion": ""
     },
     {
-      "no": 2635,
+      "no": 2670,
       "voice": "Larimar_Manage02",
       "text_sno": 326010,
       "type": "Manage2",
@@ -30175,7 +30561,7 @@
       "emotion": ""
     },
     {
-      "no": 2636,
+      "no": 2671,
       "voice": "Lizelotte_Greeting",
       "text_sno": 9602001,
       "type": "Greeting",
@@ -30185,7 +30571,7 @@
       "emotion": ""
     },
     {
-      "no": 2637,
+      "no": 2672,
       "voice": "Lizelotte_Greeting02",
       "text_sno": 9602002,
       "type": "GreetingSp",
@@ -30198,7 +30584,7 @@
       "end": 3
     },
     {
-      "no": 2638,
+      "no": 2673,
       "voice": "Lizelotte_Greeting03",
       "text_sno": 9602003,
       "type": "GreetingSp",
@@ -30211,7 +30597,7 @@
       "end": 7
     },
     {
-      "no": 2639,
+      "no": 2674,
       "voice": "Lizelotte_Greeting04",
       "text_sno": 9602004,
       "type": "GreetingSp",
@@ -30224,7 +30610,7 @@
       "end": 7
     },
     {
-      "no": 2640,
+      "no": 2675,
       "voice": "Lizelotte_Greeting05",
       "text_sno": 9602005,
       "type": "GreetingSp",
@@ -30237,7 +30623,7 @@
       "end": 7
     },
     {
-      "no": 2641,
+      "no": 2676,
       "voice": "Lizelotte_Greeting06",
       "text_sno": 9602006,
       "type": "GreetingSp",
@@ -30250,7 +30636,7 @@
       "end": 7
     },
     {
-      "no": 2642,
+      "no": 2677,
       "voice": "Lizelotte_Greeting07",
       "text_sno": 9602007,
       "type": "GreetingSp",
@@ -30263,7 +30649,7 @@
       "end": 7
     },
     {
-      "no": 2643,
+      "no": 2678,
       "voice": "Lizelotte_Lobby02",
       "text_sno": 9602011,
       "type": "Season",
@@ -30276,7 +30662,7 @@
       "end": 3
     },
     {
-      "no": 2644,
+      "no": 2679,
       "voice": "Lizelotte_Lobby03",
       "text_sno": 9602012,
       "type": "Season",
@@ -30289,7 +30675,7 @@
       "end": 7
     },
     {
-      "no": 2645,
+      "no": 2680,
       "voice": "Lizelotte_Lobby04",
       "text_sno": 9602013,
       "type": "Season",
@@ -30302,7 +30688,7 @@
       "end": 7
     },
     {
-      "no": 2646,
+      "no": 2681,
       "voice": "Lizelotte_Lobby05",
       "text_sno": 9602014,
       "type": "Season",
@@ -30315,7 +30701,7 @@
       "end": 7
     },
     {
-      "no": 2647,
+      "no": 2682,
       "voice": "Lizelotte_Lobby06",
       "text_sno": 9602015,
       "type": "Season",
@@ -30328,7 +30714,7 @@
       "end": 7
     },
     {
-      "no": 2648,
+      "no": 2683,
       "voice": "Lizelotte_Lobby07",
       "text_sno": 9602016,
       "type": "Season",
@@ -30341,7 +30727,7 @@
       "end": 7
     },
     {
-      "no": 2649,
+      "no": 2684,
       "voice": "Lizelotte_Bday02",
       "text_sno": 9602067,
       "type": "Season",
@@ -30354,7 +30740,7 @@
       "end": 1
     },
     {
-      "no": 2650,
+      "no": 2685,
       "voice": "Lizelotte_Anniversary01",
       "text_sno": 9602068,
       "type": "Season",
@@ -30368,7 +30754,7 @@
       "end": 21
     },
     {
-      "no": 2651,
+      "no": 2686,
       "voice": "Lizelotte_Anniversary02",
       "text_sno": 9602069,
       "type": "Season",
@@ -30382,7 +30768,7 @@
       "end": 21
     },
     {
-      "no": 2652,
+      "no": 2687,
       "voice": "Lizelotte_Anniversary03",
       "text_sno": 9602070,
       "type": "Season",
@@ -30396,7 +30782,7 @@
       "end": 21
     },
     {
-      "no": 2653,
+      "no": 2688,
       "voice": "Lizelotte_Anniversary",
       "text_sno": 9602071,
       "type": "Season",
@@ -30410,7 +30796,7 @@
       "end": 21
     },
     {
-      "no": 2654,
+      "no": 2689,
       "voice": "Lizelotte_Lobby08",
       "text_sno": 9602021,
       "type": "Normal",
@@ -30420,7 +30806,7 @@
       "emotion": "Shy"
     },
     {
-      "no": 2655,
+      "no": 2690,
       "voice": "Lizelotte_Lobby09",
       "text_sno": 9602022,
       "type": "Normal",
@@ -30430,7 +30816,7 @@
       "emotion": "Gloomy"
     },
     {
-      "no": 2656,
+      "no": 2691,
       "voice": "Lizelotte_Lobby10",
       "text_sno": 9602023,
       "type": "Normal",
@@ -30440,7 +30826,7 @@
       "emotion": "Shy"
     },
     {
-      "no": 2657,
+      "no": 2692,
       "voice": "Lizelotte_Lobby11",
       "text_sno": 9602024,
       "type": "Normal",
@@ -30450,7 +30836,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2658,
+      "no": 2693,
       "voice": "Lizelotte_LobbyIdle01",
       "text_sno": 9602031,
       "type": "Leave",
@@ -30460,7 +30846,7 @@
       "emotion": "Surprise"
     },
     {
-      "no": 2659,
+      "no": 2694,
       "voice": "Lizelotte_LobbyH1",
       "text_sno": 9602041,
       "type": "Love1",
@@ -30470,7 +30856,7 @@
       "emotion": "Shy"
     },
     {
-      "no": 2660,
+      "no": 2695,
       "voice": "Lizelotte_LobbyH2",
       "text_sno": 9602042,
       "type": "Love2",
@@ -30480,7 +30866,7 @@
       "emotion": "Laugh"
     },
     {
-      "no": 2661,
+      "no": 2696,
       "voice": "Lizelotte_LobbyH3",
       "text_sno": 9602043,
       "type": "Love3",
@@ -30490,7 +30876,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2662,
+      "no": 2697,
       "voice": "Lizelotte_LobbyTouch1",
       "text_sno": 9602051,
       "type": "Normal",
@@ -30500,7 +30886,7 @@
       "emotion": ""
     },
     {
-      "no": 2663,
+      "no": 2698,
       "voice": "Lizelotte_LobbyTouchsp",
       "text_sno": 9602052,
       "type": "TouchSp",
@@ -30510,7 +30896,7 @@
       "emotion": ""
     },
     {
-      "no": 2664,
+      "no": 2699,
       "voice": "Lizelotte_LobbyTouchsp2",
       "text_sno": 9602053,
       "type": "TouchSp2",
@@ -30520,7 +30906,7 @@
       "emotion": ""
     },
     {
-      "no": 2665,
+      "no": 2700,
       "voice": "Lizelotte_LobbyC1",
       "text_sno": 9602061,
       "type": "Mail",
@@ -30530,7 +30916,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2666,
+      "no": 2701,
       "voice": "Lizelotte_LobbyC2",
       "text_sno": 9602062,
       "type": "Achievements",
@@ -30540,7 +30926,7 @@
       "emotion": ""
     },
     {
-      "no": 2667,
+      "no": 2702,
       "voice": "Lizelotte_LobbyC5",
       "text_sno": 9602063,
       "type": "AutoHunt",
@@ -30550,7 +30936,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2668,
+      "no": 2703,
       "voice": "Lizelotte_LobbyC6",
       "text_sno": 9602064,
       "type": "Hero",
@@ -30560,7 +30946,7 @@
       "emotion": ""
     },
     {
-      "no": 2669,
+      "no": 2704,
       "voice": "Lizelotte_LobbyC7",
       "text_sno": 9602065,
       "type": "Town",
@@ -30570,7 +30956,7 @@
       "emotion": "Oh"
     },
     {
-      "no": 2670,
+      "no": 2705,
       "voice": "Lizelotte_Manage01",
       "type": "Manage1",
       "hero_no": 6020,
@@ -30579,7 +30965,7 @@
       "emotion": ""
     },
     {
-      "no": 2671,
+      "no": 2706,
       "voice": "Lizelotte_Manage02",
       "text_sno": 326020,
       "type": "Manage2",
@@ -30589,7 +30975,7 @@
       "emotion": ""
     },
     {
-      "no": 2672,
+      "no": 2707,
       "voice": "Oyome_Greeting",
       "text_sno": 9603001,
       "type": "Greeting",
@@ -30599,7 +30985,7 @@
       "emotion": ""
     },
     {
-      "no": 2673,
+      "no": 2708,
       "voice": "Oyome_Greeting02",
       "text_sno": 9603002,
       "type": "GreetingSp",
@@ -30612,7 +30998,7 @@
       "end": 3
     },
     {
-      "no": 2674,
+      "no": 2709,
       "voice": "Oyome_Greeting03",
       "text_sno": 9603003,
       "type": "GreetingSp",
@@ -30625,7 +31011,7 @@
       "end": 7
     },
     {
-      "no": 2675,
+      "no": 2710,
       "voice": "Oyome_Greeting04",
       "text_sno": 9603004,
       "type": "GreetingSp",
@@ -30638,7 +31024,7 @@
       "end": 7
     },
     {
-      "no": 2676,
+      "no": 2711,
       "voice": "Oyome_Greeting05",
       "text_sno": 9603005,
       "type": "GreetingSp",
@@ -30651,7 +31037,7 @@
       "end": 7
     },
     {
-      "no": 2677,
+      "no": 2712,
       "voice": "Oyome_Greeting06",
       "text_sno": 9603006,
       "type": "GreetingSp",
@@ -30664,7 +31050,7 @@
       "end": 7
     },
     {
-      "no": 2678,
+      "no": 2713,
       "voice": "Oyome_Greeting07",
       "text_sno": 9603007,
       "type": "GreetingSp",
@@ -30677,7 +31063,7 @@
       "end": 7
     },
     {
-      "no": 2679,
+      "no": 2714,
       "voice": "Oyome_Lobby02",
       "text_sno": 9603011,
       "type": "Season",
@@ -30690,7 +31076,7 @@
       "end": 3
     },
     {
-      "no": 2680,
+      "no": 2715,
       "voice": "Oyome_Lobby03",
       "text_sno": 9603012,
       "type": "Season",
@@ -30703,7 +31089,7 @@
       "end": 7
     },
     {
-      "no": 2681,
+      "no": 2716,
       "voice": "Oyome_Lobby04",
       "text_sno": 9603013,
       "type": "Season",
@@ -30716,7 +31102,7 @@
       "end": 7
     },
     {
-      "no": 2682,
+      "no": 2717,
       "voice": "Oyome_Lobby05",
       "text_sno": 9603014,
       "type": "Season",
@@ -30729,7 +31115,7 @@
       "end": 7
     },
     {
-      "no": 2683,
+      "no": 2718,
       "voice": "Oyome_Lobby06",
       "text_sno": 9603015,
       "type": "Season",
@@ -30742,7 +31128,7 @@
       "end": 7
     },
     {
-      "no": 2684,
+      "no": 2719,
       "voice": "Oyome_Lobby07",
       "text_sno": 9603016,
       "type": "Season",
@@ -30755,7 +31141,7 @@
       "end": 7
     },
     {
-      "no": 2685,
+      "no": 2720,
       "voice": "Oyome_Bday02",
       "text_sno": 9603067,
       "type": "Season",
@@ -30768,7 +31154,7 @@
       "end": 1
     },
     {
-      "no": 2686,
+      "no": 2721,
       "voice": "Oyome_Anniversary01",
       "text_sno": 9603068,
       "type": "Season",
@@ -30782,7 +31168,7 @@
       "end": 21
     },
     {
-      "no": 2687,
+      "no": 2722,
       "voice": "Oyome_Anniversary02",
       "text_sno": 9603069,
       "type": "Season",
@@ -30796,7 +31182,7 @@
       "end": 21
     },
     {
-      "no": 2688,
+      "no": 2723,
       "voice": "Oyome_Anniversary03",
       "text_sno": 9603070,
       "type": "Season",
@@ -30810,7 +31196,7 @@
       "end": 21
     },
     {
-      "no": 2689,
+      "no": 2724,
       "voice": "Oyome_Anniversary",
       "text_sno": 9603071,
       "type": "Season",
@@ -30824,7 +31210,7 @@
       "end": 21
     },
     {
-      "no": 2690,
+      "no": 2725,
       "voice": "Oyome_Lobby08",
       "text_sno": 9603021,
       "type": "Normal",
@@ -30834,7 +31220,7 @@
       "emotion": "Shy"
     },
     {
-      "no": 2691,
+      "no": 2726,
       "voice": "Oyome_Lobby09",
       "text_sno": 9603022,
       "type": "Normal",
@@ -30844,7 +31230,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2692,
+      "no": 2727,
       "voice": "Oyome_Lobby10",
       "text_sno": 9603023,
       "type": "Normal",
@@ -30854,7 +31240,7 @@
       "emotion": "Surprise"
     },
     {
-      "no": 2693,
+      "no": 2728,
       "voice": "Oyome_Lobby11",
       "text_sno": 9603024,
       "type": "Normal",
@@ -30864,7 +31250,7 @@
       "emotion": "Shy"
     },
     {
-      "no": 2694,
+      "no": 2729,
       "voice": "Oyome_LobbyIdle01",
       "text_sno": 9603031,
       "type": "Leave",
@@ -30874,7 +31260,7 @@
       "emotion": "Shy"
     },
     {
-      "no": 2695,
+      "no": 2730,
       "voice": "Oyome_LobbyH1",
       "text_sno": 9603041,
       "type": "Love1",
@@ -30884,7 +31270,7 @@
       "emotion": "Shy"
     },
     {
-      "no": 2696,
+      "no": 2731,
       "voice": "Oyome_LobbyH2",
       "text_sno": 9603042,
       "type": "Love2",
@@ -30894,7 +31280,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2697,
+      "no": 2732,
       "voice": "Oyome_LobbyH3",
       "text_sno": 9603043,
       "type": "Love3",
@@ -30904,7 +31290,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2698,
+      "no": 2733,
       "voice": "Oyome_LobbyTouch1",
       "text_sno": 9603051,
       "type": "Normal",
@@ -30914,7 +31300,7 @@
       "emotion": ""
     },
     {
-      "no": 2699,
+      "no": 2734,
       "voice": "Oyome_LobbyTouchsp",
       "text_sno": 9603052,
       "type": "TouchSp",
@@ -30924,7 +31310,7 @@
       "emotion": ""
     },
     {
-      "no": 2700,
+      "no": 2735,
       "voice": "Oyome_LobbyTouchsp2",
       "text_sno": 9603053,
       "type": "TouchSp2",
@@ -30934,7 +31320,7 @@
       "emotion": ""
     },
     {
-      "no": 2701,
+      "no": 2736,
       "voice": "Oyome_LobbyC1",
       "text_sno": 9603061,
       "type": "Mail",
@@ -30944,7 +31330,7 @@
       "emotion": "Shy"
     },
     {
-      "no": 2702,
+      "no": 2737,
       "voice": "Oyome_LobbyC2",
       "text_sno": 9603062,
       "type": "Achievements",
@@ -30954,7 +31340,7 @@
       "emotion": "Shy"
     },
     {
-      "no": 2703,
+      "no": 2738,
       "voice": "Oyome_LobbyC5",
       "text_sno": 9603063,
       "type": "AutoHunt",
@@ -30964,7 +31350,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2704,
+      "no": 2739,
       "voice": "Oyome_LobbyC6",
       "text_sno": 9603064,
       "type": "Hero",
@@ -30974,7 +31360,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2705,
+      "no": 2740,
       "voice": "Oyome_LobbyC7",
       "text_sno": 9603065,
       "type": "Town",
@@ -30984,7 +31370,7 @@
       "emotion": "Shy"
     },
     {
-      "no": 2706,
+      "no": 2741,
       "voice": "Oyome_Manage01",
       "type": "Manage1",
       "hero_no": 6030,
@@ -30993,7 +31379,7 @@
       "emotion": ""
     },
     {
-      "no": 2707,
+      "no": 2742,
       "voice": "Oyome_Manage02",
       "text_sno": 326030,
       "type": "Manage2",
@@ -31003,7 +31389,7 @@
       "emotion": ""
     },
     {
-      "no": 2708,
+      "no": 2743,
       "voice": "Eve_Greeting",
       "text_sno": 9605001,
       "type": "Greeting",
@@ -31013,7 +31399,7 @@
       "emotion": ""
     },
     {
-      "no": 2709,
+      "no": 2744,
       "voice": "Eve_Greeting02",
       "text_sno": 9605002,
       "type": "GreetingSp",
@@ -31026,7 +31412,7 @@
       "end": 3
     },
     {
-      "no": 2710,
+      "no": 2745,
       "voice": "Eve_Greeting03",
       "text_sno": 9605003,
       "type": "GreetingSp",
@@ -31039,7 +31425,7 @@
       "end": 7
     },
     {
-      "no": 2711,
+      "no": 2746,
       "voice": "Eve_Greeting04",
       "text_sno": 9605004,
       "type": "GreetingSp",
@@ -31052,7 +31438,7 @@
       "end": 7
     },
     {
-      "no": 2712,
+      "no": 2747,
       "voice": "Eve_Greeting05",
       "text_sno": 9605005,
       "type": "GreetingSp",
@@ -31065,7 +31451,7 @@
       "end": 7
     },
     {
-      "no": 2713,
+      "no": 2748,
       "voice": "Eve_Greeting06",
       "text_sno": 9605006,
       "type": "GreetingSp",
@@ -31078,7 +31464,7 @@
       "end": 7
     },
     {
-      "no": 2714,
+      "no": 2749,
       "voice": "Eve_Greeting07",
       "text_sno": 9605007,
       "type": "GreetingSp",
@@ -31091,7 +31477,7 @@
       "end": 7
     },
     {
-      "no": 2715,
+      "no": 2750,
       "voice": "Eve_Lobby02",
       "text_sno": 9605011,
       "type": "Season",
@@ -31104,7 +31490,7 @@
       "end": 3
     },
     {
-      "no": 2716,
+      "no": 2751,
       "voice": "Eve_Lobby03",
       "text_sno": 9605012,
       "type": "Season",
@@ -31117,7 +31503,7 @@
       "end": 7
     },
     {
-      "no": 2717,
+      "no": 2752,
       "voice": "Eve_Lobby04",
       "text_sno": 9605013,
       "type": "Season",
@@ -31130,7 +31516,7 @@
       "end": 7
     },
     {
-      "no": 2718,
+      "no": 2753,
       "voice": "Eve_Lobby05",
       "text_sno": 9605014,
       "type": "Season",
@@ -31143,7 +31529,7 @@
       "end": 7
     },
     {
-      "no": 2719,
+      "no": 2754,
       "voice": "Eve_Lobby06",
       "text_sno": 9605015,
       "type": "Season",
@@ -31156,7 +31542,7 @@
       "end": 7
     },
     {
-      "no": 2720,
+      "no": 2755,
       "voice": "Eve_Lobby07",
       "text_sno": 9605016,
       "type": "Season",
@@ -31169,7 +31555,7 @@
       "end": 7
     },
     {
-      "no": 2721,
+      "no": 2756,
       "voice": "Eve_Bday02",
       "text_sno": 9605067,
       "type": "Season",
@@ -31182,7 +31568,7 @@
       "end": 1
     },
     {
-      "no": 2722,
+      "no": 2757,
       "voice": "Eve_Anniversary01",
       "text_sno": 9605068,
       "type": "Season",
@@ -31196,7 +31582,7 @@
       "end": 21
     },
     {
-      "no": 2723,
+      "no": 2758,
       "voice": "Eve_Anniversary02",
       "text_sno": 9605069,
       "type": "Season",
@@ -31210,7 +31596,7 @@
       "end": 21
     },
     {
-      "no": 2724,
+      "no": 2759,
       "voice": "Eve_Anniversary03",
       "text_sno": 9605070,
       "type": "Season",
@@ -31224,7 +31610,7 @@
       "end": 21
     },
     {
-      "no": 2725,
+      "no": 2760,
       "voice": "Eve_Anniversary",
       "text_sno": 9605071,
       "type": "Season",
@@ -31238,7 +31624,7 @@
       "end": 21
     },
     {
-      "no": 2726,
+      "no": 2761,
       "voice": "Eve_Lobby08",
       "text_sno": 9605021,
       "type": "Normal",
@@ -31248,7 +31634,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2727,
+      "no": 2762,
       "voice": "Eve_Lobby09",
       "text_sno": 9605022,
       "type": "Normal",
@@ -31258,7 +31644,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2728,
+      "no": 2763,
       "voice": "Eve_Lobby10",
       "text_sno": 9605023,
       "type": "Normal",
@@ -31268,7 +31654,7 @@
       "emotion": "Shy"
     },
     {
-      "no": 2729,
+      "no": 2764,
       "voice": "Eve_Lobby11",
       "text_sno": 9605024,
       "type": "Normal",
@@ -31278,7 +31664,7 @@
       "emotion": ""
     },
     {
-      "no": 2730,
+      "no": 2765,
       "voice": "Eve_LobbyIdle01",
       "text_sno": 9605031,
       "type": "Leave",
@@ -31288,7 +31674,7 @@
       "emotion": "Sorrow"
     },
     {
-      "no": 2731,
+      "no": 2766,
       "voice": "Eve_LobbyH1",
       "text_sno": 9605041,
       "type": "Love1",
@@ -31298,7 +31684,7 @@
       "emotion": "Angry"
     },
     {
-      "no": 2732,
+      "no": 2767,
       "voice": "Eve_LobbyH2",
       "text_sno": 9605042,
       "type": "Love2",
@@ -31308,7 +31694,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2733,
+      "no": 2768,
       "voice": "Eve_LobbyH3",
       "text_sno": 9605043,
       "type": "Love3",
@@ -31318,7 +31704,7 @@
       "emotion": "Sorrow"
     },
     {
-      "no": 2734,
+      "no": 2769,
       "voice": "Eve_LobbyTouch1",
       "text_sno": 9605051,
       "type": "Normal",
@@ -31328,7 +31714,7 @@
       "emotion": ""
     },
     {
-      "no": 2735,
+      "no": 2770,
       "voice": "Eve_LobbyTouchsp",
       "text_sno": 9605052,
       "type": "TouchSp",
@@ -31338,7 +31724,7 @@
       "emotion": ""
     },
     {
-      "no": 2736,
+      "no": 2771,
       "voice": "Eve_LobbyTouchsp2",
       "text_sno": 9605053,
       "type": "TouchSp2",
@@ -31348,7 +31734,7 @@
       "emotion": ""
     },
     {
-      "no": 2737,
+      "no": 2772,
       "voice": "Eve_LobbyC1",
       "text_sno": 9605061,
       "type": "Mail",
@@ -31358,7 +31744,7 @@
       "emotion": ""
     },
     {
-      "no": 2738,
+      "no": 2773,
       "voice": "Eve_LobbyC2",
       "text_sno": 9605062,
       "type": "Achievements",
@@ -31368,7 +31754,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2739,
+      "no": 2774,
       "voice": "Eve_LobbyC5",
       "text_sno": 9605063,
       "type": "AutoHunt",
@@ -31378,7 +31764,7 @@
       "emotion": ""
     },
     {
-      "no": 2740,
+      "no": 2775,
       "voice": "Eve_LobbyC6",
       "text_sno": 9605064,
       "type": "Hero",
@@ -31388,7 +31774,7 @@
       "emotion": "Doubt"
     },
     {
-      "no": 2741,
+      "no": 2776,
       "voice": "Eve_LobbyC7",
       "text_sno": 9605065,
       "type": "Town",
@@ -31398,7 +31784,7 @@
       "emotion": ""
     },
     {
-      "no": 2742,
+      "no": 2777,
       "voice": "Eve_Manage01",
       "type": "Manage1",
       "hero_no": 6050,
@@ -31407,7 +31793,7 @@
       "emotion": ""
     },
     {
-      "no": 2743,
+      "no": 2778,
       "voice": "Eve_Manage02",
       "text_sno": 326050,
       "type": "Manage2",
@@ -31417,7 +31803,7 @@
       "emotion": ""
     },
     {
-      "no": 2744,
+      "no": 2779,
       "voice": "CatherineBrave_Greeting",
       "text_sno": 9651001,
       "type": "Greeting",
@@ -31427,7 +31813,7 @@
       "emotion": ""
     },
     {
-      "no": 2745,
+      "no": 2780,
       "voice": "CatherineBrave_Greeting02",
       "text_sno": 9651002,
       "type": "GreetingSp",
@@ -31440,7 +31826,7 @@
       "end": 3
     },
     {
-      "no": 2746,
+      "no": 2781,
       "voice": "CatherineBrave_Greeting03",
       "text_sno": 9651003,
       "type": "GreetingSp",
@@ -31453,7 +31839,7 @@
       "end": 7
     },
     {
-      "no": 2747,
+      "no": 2782,
       "voice": "CatherineBrave_Greeting04",
       "text_sno": 9651004,
       "type": "GreetingSp",
@@ -31466,7 +31852,7 @@
       "end": 7
     },
     {
-      "no": 2748,
+      "no": 2783,
       "voice": "CatherineBrave_Greeting05",
       "text_sno": 9651005,
       "type": "GreetingSp",
@@ -31479,7 +31865,7 @@
       "end": 7
     },
     {
-      "no": 2749,
+      "no": 2784,
       "voice": "CatherineBrave_Greeting06",
       "text_sno": 9651006,
       "type": "GreetingSp",
@@ -31492,7 +31878,7 @@
       "end": 7
     },
     {
-      "no": 2750,
+      "no": 2785,
       "voice": "CatherineBrave_Greeting07",
       "text_sno": 9651007,
       "type": "GreetingSp",
@@ -31505,7 +31891,7 @@
       "end": 7
     },
     {
-      "no": 2751,
+      "no": 2786,
       "voice": "CatherineBrave_Lobby02",
       "text_sno": 9651011,
       "type": "Season",
@@ -31518,7 +31904,7 @@
       "end": 3
     },
     {
-      "no": 2752,
+      "no": 2787,
       "voice": "CatherineBrave_Lobby03",
       "text_sno": 9651012,
       "type": "Season",
@@ -31531,7 +31917,7 @@
       "end": 7
     },
     {
-      "no": 2753,
+      "no": 2788,
       "voice": "CatherineBrave_Lobby04",
       "text_sno": 9651013,
       "type": "Season",
@@ -31544,7 +31930,7 @@
       "end": 7
     },
     {
-      "no": 2754,
+      "no": 2789,
       "voice": "CatherineBrave_Lobby05",
       "text_sno": 9651014,
       "type": "Season",
@@ -31557,7 +31943,7 @@
       "end": 7
     },
     {
-      "no": 2755,
+      "no": 2790,
       "voice": "CatherineBrave_Lobby06",
       "text_sno": 9651015,
       "type": "Season",
@@ -31570,7 +31956,7 @@
       "end": 7
     },
     {
-      "no": 2756,
+      "no": 2791,
       "voice": "CatherineBrave_Lobby07",
       "text_sno": 9651016,
       "type": "Season",
@@ -31583,7 +31969,7 @@
       "end": 7
     },
     {
-      "no": 2757,
+      "no": 2792,
       "voice": "CatherineBrave_Bday02",
       "text_sno": 9651067,
       "type": "Season",
@@ -31596,7 +31982,7 @@
       "end": 1
     },
     {
-      "no": 2758,
+      "no": 2793,
       "voice": "CatherineBrave_Anniversary02",
       "text_sno": 9651069,
       "type": "Season",
@@ -31610,7 +31996,7 @@
       "end": 21
     },
     {
-      "no": 2759,
+      "no": 2794,
       "voice": "CatherineBrave_Anniversary03",
       "text_sno": 9651070,
       "type": "Season",
@@ -31624,7 +32010,7 @@
       "end": 21
     },
     {
-      "no": 2760,
+      "no": 2795,
       "voice": "CatherineBrave_Anniversary",
       "text_sno": 9651071,
       "type": "Season",
@@ -31638,7 +32024,7 @@
       "end": 21
     },
     {
-      "no": 2761,
+      "no": 2796,
       "voice": "CatherineBrave_Lobby08",
       "text_sno": 9651021,
       "type": "Normal",
@@ -31648,7 +32034,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2762,
+      "no": 2797,
       "voice": "CatherineBrave_Lobby09",
       "text_sno": 9651022,
       "type": "Normal",
@@ -31658,7 +32044,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2763,
+      "no": 2798,
       "voice": "CatherineBrave_Lobby10",
       "text_sno": 9651023,
       "type": "Normal",
@@ -31668,7 +32054,7 @@
       "emotion": "Shy"
     },
     {
-      "no": 2764,
+      "no": 2799,
       "voice": "CatherineBrave_Lobby11",
       "text_sno": 9651024,
       "type": "Normal",
@@ -31678,7 +32064,7 @@
       "emotion": "Bittersmile"
     },
     {
-      "no": 2765,
+      "no": 2800,
       "voice": "CatherineBrave_LobbyIdle01",
       "text_sno": 9651031,
       "type": "Leave",
@@ -31688,7 +32074,7 @@
       "emotion": "Worry"
     },
     {
-      "no": 2766,
+      "no": 2801,
       "voice": "CatherineBrave_LobbyH1",
       "text_sno": 9651041,
       "type": "Love1",
@@ -31698,7 +32084,7 @@
       "emotion": "Sorrow"
     },
     {
-      "no": 2767,
+      "no": 2802,
       "voice": "CatherineBrave_LobbyH2",
       "text_sno": 9651042,
       "type": "Love2",
@@ -31708,7 +32094,7 @@
       "emotion": "Melancholy"
     },
     {
-      "no": 2768,
+      "no": 2803,
       "voice": "CatherineBrave_LobbyH3",
       "text_sno": 9651043,
       "type": "Love3",
@@ -31718,7 +32104,7 @@
       "emotion": "Calm"
     },
     {
-      "no": 2769,
+      "no": 2804,
       "voice": "CatherineBrave_LobbyTouch1",
       "text_sno": 9651051,
       "type": "Normal",
@@ -31728,7 +32114,7 @@
       "emotion": ""
     },
     {
-      "no": 2770,
+      "no": 2805,
       "voice": "CatherineBrave_LobbyTouchsp",
       "text_sno": 9651052,
       "type": "TouchSp",
@@ -31738,7 +32124,7 @@
       "emotion": ""
     },
     {
-      "no": 2771,
+      "no": 2806,
       "voice": "CatherineBrave_LobbyTouchsp2",
       "text_sno": 9651053,
       "type": "TouchSp2",
@@ -31748,7 +32134,7 @@
       "emotion": ""
     },
     {
-      "no": 2772,
+      "no": 2807,
       "voice": "CatherineBrave_LobbyC1",
       "text_sno": 9651061,
       "type": "Mail",
@@ -31758,7 +32144,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2773,
+      "no": 2808,
       "voice": "CatherineBrave_LobbyC2",
       "text_sno": 9651062,
       "type": "Achievements",
@@ -31768,7 +32154,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2774,
+      "no": 2809,
       "voice": "CatherineBrave_LobbyC5",
       "text_sno": 9651063,
       "type": "AutoHunt",
@@ -31778,7 +32164,7 @@
       "emotion": ""
     },
     {
-      "no": 2775,
+      "no": 2810,
       "voice": "CatherineBrave_LobbyC6",
       "text_sno": 9651064,
       "type": "Hero",
@@ -31788,7 +32174,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2776,
+      "no": 2811,
       "voice": "CatherineBrave_LobbyC7",
       "text_sno": 9651065,
       "type": "Town",
@@ -31798,7 +32184,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2777,
+      "no": 2812,
       "voice": "CatherineBrave_Manage01",
       "type": "Manage1",
       "hero_no": 6510,
@@ -31807,7 +32193,7 @@
       "emotion": ""
     },
     {
-      "no": 2778,
+      "no": 2813,
       "voice": "CatherineBrave_Manage02",
       "text_sno": 326510,
       "type": "Manage2",
@@ -31817,7 +32203,7 @@
       "emotion": ""
     },
     {
-      "no": 2779,
+      "no": 2814,
       "voice": "LinzyThanatos_Greeting",
       "text_sno": 9652001,
       "type": "Greeting",
@@ -31827,7 +32213,7 @@
       "emotion": ""
     },
     {
-      "no": 2780,
+      "no": 2815,
       "voice": "LinzyThanatos_Greeting02",
       "text_sno": 9652002,
       "type": "GreetingSp",
@@ -31840,7 +32226,7 @@
       "end": 3
     },
     {
-      "no": 2781,
+      "no": 2816,
       "voice": "LinzyThanatos_Greeting03",
       "text_sno": 9652003,
       "type": "GreetingSp",
@@ -31853,7 +32239,7 @@
       "end": 7
     },
     {
-      "no": 2782,
+      "no": 2817,
       "voice": "LinzyThanatos_Greeting04",
       "text_sno": 9652004,
       "type": "GreetingSp",
@@ -31866,7 +32252,7 @@
       "end": 7
     },
     {
-      "no": 2783,
+      "no": 2818,
       "voice": "LinzyThanatos_Greeting05",
       "text_sno": 9652005,
       "type": "GreetingSp",
@@ -31879,7 +32265,7 @@
       "end": 7
     },
     {
-      "no": 2784,
+      "no": 2819,
       "voice": "LinzyThanatos_Greeting06",
       "text_sno": 9652006,
       "type": "GreetingSp",
@@ -31892,7 +32278,7 @@
       "end": 7
     },
     {
-      "no": 2785,
+      "no": 2820,
       "voice": "LinzyThanatos_Greeting07",
       "text_sno": 9652007,
       "type": "GreetingSp",
@@ -31905,7 +32291,7 @@
       "end": 7
     },
     {
-      "no": 2786,
+      "no": 2821,
       "voice": "LinzyThanatos_Lobby02",
       "text_sno": 9652011,
       "type": "Season",
@@ -31918,7 +32304,7 @@
       "end": 3
     },
     {
-      "no": 2787,
+      "no": 2822,
       "voice": "LinzyThanatos_Lobby03",
       "text_sno": 9652012,
       "type": "Season",
@@ -31931,7 +32317,7 @@
       "end": 7
     },
     {
-      "no": 2788,
+      "no": 2823,
       "voice": "LinzyThanatos_Lobby04",
       "text_sno": 9652013,
       "type": "Season",
@@ -31944,7 +32330,7 @@
       "end": 7
     },
     {
-      "no": 2789,
+      "no": 2824,
       "voice": "LinzyThanatos_Lobby05",
       "text_sno": 9652014,
       "type": "Season",
@@ -31957,7 +32343,7 @@
       "end": 7
     },
     {
-      "no": 2790,
+      "no": 2825,
       "voice": "LinzyThanatos_Lobby06",
       "text_sno": 9652015,
       "type": "Season",
@@ -31970,7 +32356,7 @@
       "end": 7
     },
     {
-      "no": 2791,
+      "no": 2826,
       "voice": "LinzyThanatos_Lobby07",
       "text_sno": 9652016,
       "type": "Season",
@@ -31983,7 +32369,7 @@
       "end": 7
     },
     {
-      "no": 2792,
+      "no": 2827,
       "voice": "LinzyThanatos_Bday02",
       "text_sno": 9652067,
       "type": "Season",
@@ -31996,7 +32382,7 @@
       "end": 1
     },
     {
-      "no": 2793,
+      "no": 2828,
       "voice": "LinzyThanatos_Anniversary02",
       "text_sno": 9652069,
       "type": "Season",
@@ -32010,7 +32396,7 @@
       "end": 21
     },
     {
-      "no": 2794,
+      "no": 2829,
       "voice": "LinzyThanatos_Anniversary03",
       "text_sno": 9652070,
       "type": "Season",
@@ -32024,7 +32410,7 @@
       "end": 21
     },
     {
-      "no": 2795,
+      "no": 2830,
       "voice": "LinzyThanatos_Anniversary",
       "text_sno": 9652071,
       "type": "Season",
@@ -32038,7 +32424,7 @@
       "end": 21
     },
     {
-      "no": 2796,
+      "no": 2831,
       "voice": "LinzyThanatos_Lobby08",
       "text_sno": 9652021,
       "type": "Normal",
@@ -32048,7 +32434,7 @@
       "emotion": "Calm"
     },
     {
-      "no": 2797,
+      "no": 2832,
       "voice": "LinzyThanatos_Lobby09",
       "text_sno": 9652022,
       "type": "Normal",
@@ -32058,7 +32444,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2798,
+      "no": 2833,
       "voice": "LinzyThanatos_Lobby10",
       "text_sno": 9652023,
       "type": "Normal",
@@ -32068,7 +32454,7 @@
       "emotion": "Worry"
     },
     {
-      "no": 2799,
+      "no": 2834,
       "voice": "LinzyThanatos_Lobby11",
       "text_sno": 9652024,
       "type": "Normal",
@@ -32078,7 +32464,7 @@
       "emotion": "Bittersmile"
     },
     {
-      "no": 2800,
+      "no": 2835,
       "voice": "LinzyThanatos_LobbyIdle01",
       "text_sno": 9652031,
       "type": "Leave",
@@ -32088,7 +32474,7 @@
       "emotion": "Calm"
     },
     {
-      "no": 2801,
+      "no": 2836,
       "voice": "LinzyThanatos_LobbyH1",
       "text_sno": 9652041,
       "type": "Love1",
@@ -32098,7 +32484,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2802,
+      "no": 2837,
       "voice": "LinzyThanatos_LobbyH2",
       "text_sno": 9652042,
       "type": "Love2",
@@ -32108,7 +32494,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2803,
+      "no": 2838,
       "voice": "LinzyThanatos_LobbyH3",
       "text_sno": 9652043,
       "type": "Love3",
@@ -32118,7 +32504,7 @@
       "emotion": "Sorrow"
     },
     {
-      "no": 2804,
+      "no": 2839,
       "voice": "LinzyThanatos_LobbyTouch1",
       "text_sno": 9652051,
       "type": "Normal",
@@ -32128,7 +32514,7 @@
       "emotion": ""
     },
     {
-      "no": 2805,
+      "no": 2840,
       "voice": "LinzyThanatos_LobbyTouchsp",
       "text_sno": 9652052,
       "type": "TouchSp",
@@ -32138,7 +32524,7 @@
       "emotion": ""
     },
     {
-      "no": 2806,
+      "no": 2841,
       "voice": "LinzyThanatos_LobbyTouchsp2",
       "text_sno": 9652053,
       "type": "TouchSp2",
@@ -32148,7 +32534,7 @@
       "emotion": ""
     },
     {
-      "no": 2807,
+      "no": 2842,
       "voice": "LinzyThanatos_LobbyC1",
       "text_sno": 9652061,
       "type": "Mail",
@@ -32158,7 +32544,7 @@
       "emotion": ""
     },
     {
-      "no": 2808,
+      "no": 2843,
       "voice": "LinzyThanatos_LobbyC2",
       "text_sno": 9652062,
       "type": "Achievements",
@@ -32168,7 +32554,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2809,
+      "no": 2844,
       "voice": "LinzyThanatos_LobbyC5",
       "text_sno": 9652063,
       "type": "AutoHunt",
@@ -32178,7 +32564,7 @@
       "emotion": ""
     },
     {
-      "no": 2810,
+      "no": 2845,
       "voice": "LinzyThanatos_LobbyC6",
       "text_sno": 9652064,
       "type": "Hero",
@@ -32188,7 +32574,7 @@
       "emotion": ""
     },
     {
-      "no": 2811,
+      "no": 2846,
       "voice": "LinzyThanatos_LobbyC7",
       "text_sno": 9652065,
       "type": "Town",
@@ -32198,7 +32584,7 @@
       "emotion": ""
     },
     {
-      "no": 2812,
+      "no": 2847,
       "voice": "LinzyThanatos_Manage01",
       "type": "Manage1",
       "hero_no": 6520,
@@ -32207,7 +32593,7 @@
       "emotion": ""
     },
     {
-      "no": 2813,
+      "no": 2848,
       "voice": "LinzyThanatos_Manage02",
       "text_sno": 326520,
       "type": "Manage2",
@@ -32217,7 +32603,7 @@
       "emotion": ""
     },
     {
-      "no": 2814,
+      "no": 2849,
       "voice": "MephistoDawn_Greeting",
       "text_sno": 9653001,
       "type": "Greeting",
@@ -32227,7 +32613,7 @@
       "emotion": ""
     },
     {
-      "no": 2815,
+      "no": 2850,
       "voice": "MephistoDawn_Greeting02",
       "text_sno": 9653002,
       "type": "GreetingSp",
@@ -32240,7 +32626,7 @@
       "end": 3
     },
     {
-      "no": 2816,
+      "no": 2851,
       "voice": "MephistoDawn_Greeting03",
       "text_sno": 9653003,
       "type": "GreetingSp",
@@ -32253,7 +32639,7 @@
       "end": 7
     },
     {
-      "no": 2817,
+      "no": 2852,
       "voice": "MephistoDawn_Greeting04",
       "text_sno": 9653004,
       "type": "GreetingSp",
@@ -32266,7 +32652,7 @@
       "end": 7
     },
     {
-      "no": 2818,
+      "no": 2853,
       "voice": "MephistoDawn_Greeting05",
       "text_sno": 9653005,
       "type": "GreetingSp",
@@ -32279,7 +32665,7 @@
       "end": 7
     },
     {
-      "no": 2819,
+      "no": 2854,
       "voice": "MephistoDawn_Greeting06",
       "text_sno": 9653006,
       "type": "GreetingSp",
@@ -32292,7 +32678,7 @@
       "end": 7
     },
     {
-      "no": 2820,
+      "no": 2855,
       "voice": "MephistoDawn_Greeting07",
       "text_sno": 9653007,
       "type": "GreetingSp",
@@ -32305,7 +32691,7 @@
       "end": 7
     },
     {
-      "no": 2821,
+      "no": 2856,
       "voice": "MephistoDawn_Lobby02",
       "text_sno": 9653011,
       "type": "Season",
@@ -32318,7 +32704,7 @@
       "end": 3
     },
     {
-      "no": 2822,
+      "no": 2857,
       "voice": "MephistoDawn_Lobby03",
       "text_sno": 9653012,
       "type": "Season",
@@ -32331,7 +32717,7 @@
       "end": 7
     },
     {
-      "no": 2823,
+      "no": 2858,
       "voice": "MephistoDawn_Lobby04",
       "text_sno": 9653013,
       "type": "Season",
@@ -32344,7 +32730,7 @@
       "end": 7
     },
     {
-      "no": 2824,
+      "no": 2859,
       "voice": "MephistoDawn_Lobby05",
       "text_sno": 9653014,
       "type": "Season",
@@ -32357,7 +32743,7 @@
       "end": 7
     },
     {
-      "no": 2825,
+      "no": 2860,
       "voice": "MephistoDawn_Lobby06",
       "text_sno": 9653015,
       "type": "Season",
@@ -32370,7 +32756,7 @@
       "end": 7
     },
     {
-      "no": 2826,
+      "no": 2861,
       "voice": "MephistoDawn_Lobby07",
       "text_sno": 9653016,
       "type": "Season",
@@ -32383,7 +32769,7 @@
       "end": 7
     },
     {
-      "no": 2827,
+      "no": 2862,
       "voice": "MephistoDawn_Bday02",
       "text_sno": 9653067,
       "type": "Season",
@@ -32396,7 +32782,7 @@
       "end": 1
     },
     {
-      "no": 2828,
+      "no": 2863,
       "voice": "MephistoDawn_Anniversary02",
       "text_sno": 9653069,
       "type": "Season",
@@ -32410,7 +32796,7 @@
       "end": 21
     },
     {
-      "no": 2829,
+      "no": 2864,
       "voice": "MephistoDawn_Anniversary03",
       "text_sno": 9653070,
       "type": "Season",
@@ -32424,7 +32810,7 @@
       "end": 21
     },
     {
-      "no": 2830,
+      "no": 2865,
       "voice": "MephistoDawn_Anniversary",
       "text_sno": 9653071,
       "type": "Season",
@@ -32438,7 +32824,7 @@
       "end": 21
     },
     {
-      "no": 2831,
+      "no": 2866,
       "voice": "MephistoDawn_Lobby08",
       "text_sno": 9653021,
       "type": "Normal",
@@ -32448,7 +32834,7 @@
       "emotion": "Melody"
     },
     {
-      "no": 2832,
+      "no": 2867,
       "voice": "MephistoDawn_Lobby09",
       "text_sno": 9653022,
       "type": "Normal",
@@ -32458,7 +32844,7 @@
       "emotion": "Worry"
     },
     {
-      "no": 2833,
+      "no": 2868,
       "voice": "MephistoDawn_Lobby10",
       "text_sno": 9653023,
       "type": "Normal",
@@ -32468,7 +32854,7 @@
       "emotion": "Smile2"
     },
     {
-      "no": 2834,
+      "no": 2869,
       "voice": "MephistoDawn_Lobby11",
       "text_sno": 9653024,
       "type": "Normal",
@@ -32478,7 +32864,7 @@
       "emotion": "Worry"
     },
     {
-      "no": 2835,
+      "no": 2870,
       "voice": "MephistoDawn_LobbyIdle01",
       "text_sno": 9653031,
       "type": "Leave",
@@ -32488,7 +32874,7 @@
       "emotion": "Surprise"
     },
     {
-      "no": 2836,
+      "no": 2871,
       "voice": "MephistoDawn_LobbyH1",
       "text_sno": 9653041,
       "type": "Love1",
@@ -32498,7 +32884,7 @@
       "emotion": "Worry"
     },
     {
-      "no": 2837,
+      "no": 2872,
       "voice": "MephistoDawn_LobbyH2",
       "text_sno": 9653042,
       "type": "Love2",
@@ -32508,7 +32894,7 @@
       "emotion": "Calm"
     },
     {
-      "no": 2838,
+      "no": 2873,
       "voice": "MephistoDawn_LobbyH3",
       "text_sno": 9653043,
       "type": "Love3",
@@ -32518,7 +32904,7 @@
       "emotion": "Smile2"
     },
     {
-      "no": 2839,
+      "no": 2874,
       "voice": "MephistoDawn_LobbyTouch1",
       "text_sno": 9653051,
       "type": "Normal",
@@ -32528,7 +32914,7 @@
       "emotion": ""
     },
     {
-      "no": 2840,
+      "no": 2875,
       "voice": "MephistoDawn_LobbyTouchsp",
       "text_sno": 9653052,
       "type": "TouchSp",
@@ -32538,7 +32924,7 @@
       "emotion": ""
     },
     {
-      "no": 2841,
+      "no": 2876,
       "voice": "MephistoDawn_LobbyTouchsp2",
       "text_sno": 9653053,
       "type": "TouchSp2",
@@ -32548,7 +32934,7 @@
       "emotion": ""
     },
     {
-      "no": 2842,
+      "no": 2877,
       "voice": "MephistoDawn_LobbyC1",
       "text_sno": 9653061,
       "type": "Mail",
@@ -32558,7 +32944,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2843,
+      "no": 2878,
       "voice": "MephistoDawn_LobbyC2",
       "text_sno": 9653062,
       "type": "Achievements",
@@ -32568,7 +32954,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2844,
+      "no": 2879,
       "voice": "MephistoDawn_LobbyC5",
       "text_sno": 9653063,
       "type": "AutoHunt",
@@ -32578,7 +32964,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2845,
+      "no": 2880,
       "voice": "MephistoDawn_LobbyC6",
       "text_sno": 9653064,
       "type": "Hero",
@@ -32588,7 +32974,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2846,
+      "no": 2881,
       "voice": "MephistoDawn_LobbyC7",
       "text_sno": 9653065,
       "type": "Town",
@@ -32598,7 +32984,7 @@
       "emotion": "Surprise"
     },
     {
-      "no": 2847,
+      "no": 2882,
       "voice": "MephistoDawn_Manage01",
       "type": "Manage1",
       "hero_no": 6530,
@@ -32607,7 +32993,7 @@
       "emotion": ""
     },
     {
-      "no": 2848,
+      "no": 2883,
       "voice": "MephistoDawn_Manage02",
       "text_sno": 326530,
       "type": "Manage2",
@@ -32617,7 +33003,7 @@
       "emotion": ""
     },
     {
-      "no": 2849,
+      "no": 2884,
       "voice": "MephistoDawn_851039",
       "text_sno": 851039,
       "type": "GreetingArk",
@@ -32627,7 +33013,7 @@
       "emotion": ""
     },
     {
-      "no": 2850,
+      "no": 2885,
       "voice": "MephistoDawn_851040",
       "text_sno": 851040,
       "type": "GreetingArk",
@@ -32637,7 +33023,7 @@
       "emotion": ""
     },
     {
-      "no": 2851,
+      "no": 2886,
       "voice": "MephistoDawn_851041",
       "text_sno": 851041,
       "type": "TouchArk",
@@ -32647,7 +33033,7 @@
       "emotion": ""
     },
     {
-      "no": 2852,
+      "no": 2887,
       "voice": "MephistoDawn_851042",
       "text_sno": 851042,
       "type": "TouchArk",
@@ -32657,7 +33043,7 @@
       "emotion": ""
     },
     {
-      "no": 2853,
+      "no": 2888,
       "voice": "MephistoDawn_851043",
       "text_sno": 851043,
       "type": "TouchArk",
@@ -32667,7 +33053,7 @@
       "emotion": ""
     },
     {
-      "no": 2854,
+      "no": 2889,
       "voice": "MephistoDawn_851044",
       "text_sno": 851044,
       "type": "TouchArk",
@@ -32677,7 +33063,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2855,
+      "no": 2890,
       "voice": "MephistoDawn_851045",
       "text_sno": 851045,
       "type": "TouchArk",
@@ -32687,7 +33073,7 @@
       "emotion": ""
     },
     {
-      "no": 2856,
+      "no": 2891,
       "voice": "MephistoDawn_851046",
       "text_sno": 851046,
       "type": "TouchArk",
@@ -32697,7 +33083,7 @@
       "emotion": ""
     },
     {
-      "no": 2857,
+      "no": 2892,
       "voice": "MephistoDawn_851047",
       "text_sno": 851047,
       "type": "TouchArk",
@@ -32707,7 +33093,7 @@
       "emotion": "Worry"
     },
     {
-      "no": 2858,
+      "no": 2893,
       "voice": "MephistoDawn_LobbyTouchsp",
       "text_sno": 9653052,
       "type": "TouchSpArk",
@@ -32717,7 +33103,7 @@
       "emotion": ""
     },
     {
-      "no": 2859,
+      "no": 2894,
       "voice": "MephistoDawn_LobbyTouchsp2",
       "text_sno": 9653053,
       "type": "TouchSp2Ark",
@@ -32727,7 +33113,7 @@
       "emotion": ""
     },
     {
-      "no": 2860,
+      "no": 2895,
       "voice": "Tokisaki_Greeting",
       "text_sno": 9698001,
       "type": "Greeting",
@@ -32737,7 +33123,7 @@
       "emotion": ""
     },
     {
-      "no": 2861,
+      "no": 2896,
       "voice": "Tokisaki_Greeting02",
       "text_sno": 9698002,
       "type": "GreetingSp",
@@ -32750,7 +33136,7 @@
       "end": 3
     },
     {
-      "no": 2862,
+      "no": 2897,
       "voice": "Tokisaki_Greeting03",
       "text_sno": 9698003,
       "type": "GreetingSp",
@@ -32763,7 +33149,7 @@
       "end": 7
     },
     {
-      "no": 2863,
+      "no": 2898,
       "voice": "Tokisaki_Greeting04",
       "text_sno": 9698004,
       "type": "GreetingSp",
@@ -32776,7 +33162,7 @@
       "end": 7
     },
     {
-      "no": 2864,
+      "no": 2899,
       "voice": "Tokisaki_Greeting05",
       "text_sno": 9698005,
       "type": "GreetingSp",
@@ -32789,7 +33175,7 @@
       "end": 7
     },
     {
-      "no": 2865,
+      "no": 2900,
       "voice": "Tokisaki_Greeting06",
       "text_sno": 9698006,
       "type": "GreetingSp",
@@ -32802,7 +33188,7 @@
       "end": 7
     },
     {
-      "no": 2866,
+      "no": 2901,
       "voice": "Tokisaki_Greeting07",
       "text_sno": 9698007,
       "type": "GreetingSp",
@@ -32815,7 +33201,7 @@
       "end": 7
     },
     {
-      "no": 2867,
+      "no": 2902,
       "voice": "Tokisaki_Lobby02",
       "text_sno": 9698011,
       "type": "Season",
@@ -32828,7 +33214,7 @@
       "end": 3
     },
     {
-      "no": 2868,
+      "no": 2903,
       "voice": "Tokisaki_Lobby03",
       "text_sno": 9698012,
       "type": "Season",
@@ -32841,7 +33227,7 @@
       "end": 7
     },
     {
-      "no": 2869,
+      "no": 2904,
       "voice": "Tokisaki_Lobby04",
       "text_sno": 9698013,
       "type": "Season",
@@ -32854,7 +33240,7 @@
       "end": 7
     },
     {
-      "no": 2870,
+      "no": 2905,
       "voice": "Tokisaki_Lobby05",
       "text_sno": 9698014,
       "type": "Season",
@@ -32867,7 +33253,7 @@
       "end": 7
     },
     {
-      "no": 2871,
+      "no": 2906,
       "voice": "Tokisaki_Lobby06",
       "text_sno": 9698015,
       "type": "Season",
@@ -32880,7 +33266,7 @@
       "end": 7
     },
     {
-      "no": 2872,
+      "no": 2907,
       "voice": "Tokisaki_Lobby07",
       "text_sno": 9698016,
       "type": "Season",
@@ -32893,7 +33279,7 @@
       "end": 7
     },
     {
-      "no": 2873,
+      "no": 2908,
       "voice": "Tokisaki_Bday02",
       "text_sno": 9698067,
       "type": "Season",
@@ -32906,7 +33292,7 @@
       "end": 1
     },
     {
-      "no": 2874,
+      "no": 2909,
       "voice": "Tokisaki_Lobby08",
       "text_sno": 9698021,
       "type": "Normal",
@@ -32916,7 +33302,7 @@
       "emotion": "Sigh"
     },
     {
-      "no": 2875,
+      "no": 2910,
       "voice": "Tokisaki_Lobby09",
       "text_sno": 9698022,
       "type": "Normal",
@@ -32926,7 +33312,7 @@
       "emotion": "Smile2"
     },
     {
-      "no": 2876,
+      "no": 2911,
       "voice": "Tokisaki_Lobby10",
       "text_sno": 9698023,
       "type": "Normal",
@@ -32936,7 +33322,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2877,
+      "no": 2912,
       "voice": "Tokisaki_Lobby11",
       "text_sno": 9698024,
       "type": "Normal",
@@ -32946,7 +33332,7 @@
       "emotion": "Sorrow"
     },
     {
-      "no": 2878,
+      "no": 2913,
       "voice": "Tokisaki_LobbyIdle01",
       "text_sno": 9698031,
       "type": "Leave",
@@ -32956,7 +33342,7 @@
       "emotion": "Angry"
     },
     {
-      "no": 2879,
+      "no": 2914,
       "voice": "Tokisaki_LobbyH1",
       "text_sno": 9698041,
       "type": "Love1",
@@ -32966,7 +33352,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2880,
+      "no": 2915,
       "voice": "Tokisaki_LobbyH2",
       "text_sno": 9698042,
       "type": "Love2",
@@ -32976,7 +33362,7 @@
       "emotion": "Melancholy"
     },
     {
-      "no": 2881,
+      "no": 2916,
       "voice": "Tokisaki_LobbyH3",
       "text_sno": 9698043,
       "type": "Love3",
@@ -32986,7 +33372,7 @@
       "emotion": "Wink2"
     },
     {
-      "no": 2882,
+      "no": 2917,
       "voice": "Tokisaki_LobbyTouch1",
       "text_sno": 9698051,
       "type": "Normal",
@@ -32996,7 +33382,7 @@
       "emotion": ""
     },
     {
-      "no": 2883,
+      "no": 2918,
       "voice": "Tokisaki_LobbyTouchsp",
       "text_sno": 9698052,
       "type": "TouchSp",
@@ -33006,7 +33392,7 @@
       "emotion": ""
     },
     {
-      "no": 2884,
+      "no": 2919,
       "voice": "Tokisaki_LobbyTouchsp2",
       "text_sno": 9698053,
       "type": "TouchSp2",
@@ -33016,7 +33402,7 @@
       "emotion": ""
     },
     {
-      "no": 2885,
+      "no": 2920,
       "voice": "Tokisaki_LobbyC1",
       "text_sno": 9698061,
       "type": "Mail",
@@ -33026,7 +33412,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2886,
+      "no": 2921,
       "voice": "Tokisaki_LobbyC2",
       "text_sno": 9698062,
       "type": "Achievements",
@@ -33036,7 +33422,7 @@
       "emotion": "Smile2"
     },
     {
-      "no": 2887,
+      "no": 2922,
       "voice": "Tokisaki_LobbyC5",
       "text_sno": 9698063,
       "type": "AutoHunt",
@@ -33046,7 +33432,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2888,
+      "no": 2923,
       "voice": "Tokisaki_LobbyC6",
       "text_sno": 9698064,
       "type": "Hero",
@@ -33056,7 +33442,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2889,
+      "no": 2924,
       "voice": "Tokisaki_LobbyC7",
       "text_sno": 9698065,
       "type": "Town",
@@ -33066,7 +33452,7 @@
       "emotion": "Oh"
     },
     {
-      "no": 2890,
+      "no": 2925,
       "voice": "Tokisaki_Manage01",
       "type": "Manage1",
       "hero_no": 6980,
@@ -33075,7 +33461,7 @@
       "emotion": ""
     },
     {
-      "no": 2891,
+      "no": 2926,
       "voice": "Tokisaki_Manage02",
       "text_sno": 326980,
       "type": "Manage2",
@@ -33085,7 +33471,7 @@
       "emotion": ""
     },
     {
-      "no": 2892,
+      "no": 2927,
       "voice": "Yatogami_Greeting",
       "text_sno": 9699001,
       "type": "Greeting",
@@ -33095,7 +33481,7 @@
       "emotion": ""
     },
     {
-      "no": 2893,
+      "no": 2928,
       "voice": "Yatogami_Greeting02",
       "text_sno": 9699002,
       "type": "GreetingSp",
@@ -33108,7 +33494,7 @@
       "end": 3
     },
     {
-      "no": 2894,
+      "no": 2929,
       "voice": "Yatogami_Greeting03",
       "text_sno": 9699003,
       "type": "GreetingSp",
@@ -33121,7 +33507,7 @@
       "end": 7
     },
     {
-      "no": 2895,
+      "no": 2930,
       "voice": "Yatogami_Greeting04",
       "text_sno": 9699004,
       "type": "GreetingSp",
@@ -33134,7 +33520,7 @@
       "end": 7
     },
     {
-      "no": 2896,
+      "no": 2931,
       "voice": "Yatogami_Greeting05",
       "text_sno": 9699005,
       "type": "GreetingSp",
@@ -33147,7 +33533,7 @@
       "end": 7
     },
     {
-      "no": 2897,
+      "no": 2932,
       "voice": "Yatogami_Greeting06",
       "text_sno": 9699006,
       "type": "GreetingSp",
@@ -33160,7 +33546,7 @@
       "end": 7
     },
     {
-      "no": 2898,
+      "no": 2933,
       "voice": "Yatogami_Greeting07",
       "text_sno": 9699007,
       "type": "GreetingSp",
@@ -33173,7 +33559,7 @@
       "end": 7
     },
     {
-      "no": 2899,
+      "no": 2934,
       "voice": "Yatogami_Lobby02",
       "text_sno": 9699011,
       "type": "Season",
@@ -33186,7 +33572,7 @@
       "end": 3
     },
     {
-      "no": 2900,
+      "no": 2935,
       "voice": "Yatogami_Lobby03",
       "text_sno": 9699012,
       "type": "Season",
@@ -33199,7 +33585,7 @@
       "end": 7
     },
     {
-      "no": 2901,
+      "no": 2936,
       "voice": "Yatogami_Lobby04",
       "text_sno": 9699013,
       "type": "Season",
@@ -33212,7 +33598,7 @@
       "end": 7
     },
     {
-      "no": 2902,
+      "no": 2937,
       "voice": "Yatogami_Lobby05",
       "text_sno": 9699014,
       "type": "Season",
@@ -33225,7 +33611,7 @@
       "end": 7
     },
     {
-      "no": 2903,
+      "no": 2938,
       "voice": "Yatogami_Lobby06",
       "text_sno": 9699015,
       "type": "Season",
@@ -33238,7 +33624,7 @@
       "end": 7
     },
     {
-      "no": 2904,
+      "no": 2939,
       "voice": "Yatogami_Lobby07",
       "text_sno": 9699016,
       "type": "Season",
@@ -33251,7 +33637,7 @@
       "end": 7
     },
     {
-      "no": 2905,
+      "no": 2940,
       "voice": "Yatogami_Bday02",
       "text_sno": 9699067,
       "type": "Season",
@@ -33264,7 +33650,7 @@
       "end": 1
     },
     {
-      "no": 2906,
+      "no": 2941,
       "voice": "Yatogami_Lobby08",
       "text_sno": 9699021,
       "type": "Normal",
@@ -33274,7 +33660,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2907,
+      "no": 2942,
       "voice": "Yatogami_Lobby09",
       "text_sno": 9699022,
       "type": "Normal",
@@ -33284,7 +33670,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2908,
+      "no": 2943,
       "voice": "Yatogami_Lobby10",
       "text_sno": 9699023,
       "type": "Normal",
@@ -33294,7 +33680,7 @@
       "emotion": "Worry"
     },
     {
-      "no": 2909,
+      "no": 2944,
       "voice": "Yatogami_Lobby11",
       "text_sno": 9699024,
       "type": "Normal",
@@ -33304,7 +33690,7 @@
       "emotion": "Melancholy"
     },
     {
-      "no": 2910,
+      "no": 2945,
       "voice": "Yatogami_LobbyIdle01",
       "text_sno": 9699031,
       "type": "Leave",
@@ -33314,7 +33700,7 @@
       "emotion": "Surprise"
     },
     {
-      "no": 2911,
+      "no": 2946,
       "voice": "Yatogami_LobbyH1",
       "text_sno": 9699041,
       "type": "Love1",
@@ -33324,7 +33710,7 @@
       "emotion": "Melody"
     },
     {
-      "no": 2912,
+      "no": 2947,
       "voice": "Yatogami_LobbyH2",
       "text_sno": 9699042,
       "type": "Love2",
@@ -33334,7 +33720,7 @@
       "emotion": "Melancholy"
     },
     {
-      "no": 2913,
+      "no": 2948,
       "voice": "Yatogami_LobbyH3",
       "text_sno": 9699043,
       "type": "Love3",
@@ -33344,7 +33730,7 @@
       "emotion": "Gloomy"
     },
     {
-      "no": 2914,
+      "no": 2949,
       "voice": "Yatogami_LobbyTouch1",
       "text_sno": 9699051,
       "type": "Normal",
@@ -33354,7 +33740,7 @@
       "emotion": ""
     },
     {
-      "no": 2915,
+      "no": 2950,
       "voice": "Yatogami_LobbyTouchsp",
       "text_sno": 9699052,
       "type": "TouchSp",
@@ -33364,7 +33750,7 @@
       "emotion": ""
     },
     {
-      "no": 2916,
+      "no": 2951,
       "voice": "Yatogami_LobbyTouchsp2",
       "text_sno": 9699053,
       "type": "TouchSp2",
@@ -33374,7 +33760,7 @@
       "emotion": ""
     },
     {
-      "no": 2917,
+      "no": 2952,
       "voice": "Yatogami_LobbyC1",
       "text_sno": 9699061,
       "type": "Mail",
@@ -33384,7 +33770,7 @@
       "emotion": "Normal"
     },
     {
-      "no": 2918,
+      "no": 2953,
       "voice": "Yatogami_LobbyC2",
       "text_sno": 9699062,
       "type": "Achievements",
@@ -33394,7 +33780,7 @@
       "emotion": "Happy"
     },
     {
-      "no": 2919,
+      "no": 2954,
       "voice": "Yatogami_LobbyC5",
       "text_sno": 9699063,
       "type": "AutoHunt",
@@ -33404,7 +33790,7 @@
       "emotion": "Smile"
     },
     {
-      "no": 2920,
+      "no": 2955,
       "voice": "Yatogami_LobbyC6",
       "text_sno": 9699064,
       "type": "Hero",
@@ -33414,7 +33800,7 @@
       "emotion": "Wa"
     },
     {
-      "no": 2921,
+      "no": 2956,
       "voice": "Yatogami_LobbyC7",
       "text_sno": 9699065,
       "type": "Town",
@@ -33424,7 +33810,7 @@
       "emotion": "Surprise"
     },
     {
-      "no": 2922,
+      "no": 2957,
       "voice": "Yatogami_Manage01",
       "type": "Manage1",
       "hero_no": 6990,
@@ -33433,7 +33819,7 @@
       "emotion": ""
     },
     {
-      "no": 2923,
+      "no": 2958,
       "voice": "Yatogami_Manage02",
       "text_sno": 326990,
       "type": "Manage2",
@@ -33443,7 +33829,7 @@
       "emotion": ""
     },
     {
-      "no": 2924,
+      "no": 2959,
       "voice": "NPCDarkKnight_Greeting",
       "text_sno": 9399901,
       "type": "Greeting",
@@ -33453,7 +33839,7 @@
       "emotion": ""
     },
     {
-      "no": 2925,
+      "no": 2960,
       "voice": "NPCDarkKnight_Lobby08",
       "text_sno": 9399921,
       "type": "Normal",
@@ -33463,7 +33849,7 @@
       "emotion": ""
     },
     {
-      "no": 2926,
+      "no": 2961,
       "voice": "NPCDarkKnight_Lobby09",
       "text_sno": 9399922,
       "type": "Normal",
@@ -33473,7 +33859,7 @@
       "emotion": ""
     },
     {
-      "no": 2927,
+      "no": 2962,
       "voice": "NPCDarkKnight_Lobby10",
       "text_sno": 9399923,
       "type": "Normal",
@@ -33483,7 +33869,7 @@
       "emotion": ""
     },
     {
-      "no": 2928,
+      "no": 2963,
       "voice": "NPCDarkKnight_LobbyIdle01",
       "text_sno": 9399931,
       "type": "Leave",
@@ -33493,7 +33879,7 @@
       "emotion": ""
     },
     {
-      "no": 2929,
+      "no": 2964,
       "voice": "NPCDarkKnight_LobbyTouch1",
       "text_sno": 9399951,
       "type": "Normal",
@@ -33503,7 +33889,7 @@
       "emotion": ""
     },
     {
-      "no": 2930,
+      "no": 2965,
       "voice": "NPCDarkKnight_LobbyTouchsp",
       "text_sno": 9399952,
       "type": "TouchSp",
@@ -33513,7 +33899,7 @@
       "emotion": ""
     },
     {
-      "no": 2931,
+      "no": 2966,
       "voice": "NPCDarkKnight_Manage02",
       "type": "Manage1",
       "hero_no": 30999,
@@ -33522,7 +33908,7 @@
       "emotion": ""
     },
     {
-      "no": 2932,
+      "no": 2967,
       "voice": "NPCDarkKnight_Manage02",
       "text_sno": 323999,
       "type": "Manage2",

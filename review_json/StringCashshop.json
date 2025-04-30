@@ -1868,8 +1868,16 @@
       "no": 910395,
       "kr": "지호(미르) 승급 패스",
       "en": "Jiho (Mir) Ascension Pass",
-      "ja": "",
+      "ja": "ジホ(ミル)昇級パス",
       "zh_tw": "智河（米爾）升階通行證",
+      "zh_cn": ""
+    },
+    {
+      "no": 910396,
+      "kr": "르네(백은) 승급 패스",
+      "en": "Renee (Argent) Ascension Pass",
+      "ja": "",
+      "zh_tw": "勒內（白銀）升階通行證",
       "zh_cn": ""
     },
     {
@@ -1956,7 +1964,7 @@
       "no": 910415,
       "kr": "지호(미르) 픽업",
       "en": "Jiho (Mir) Pick-Up",
-      "ja": "",
+      "ja": "ジホ(ミル)Pick-Up",
       "zh_tw": "智河（米爾）Pick Up",
       "zh_cn": ""
     },
@@ -1964,7 +1972,7 @@
       "no": 910416,
       "kr": "사해파정",
       "en": "Calm Waves of Four Seas",
-      "ja": "",
+      "ja": "四海波静",
       "zh_tw": "四海波靜",
       "zh_cn": ""
     },
@@ -1972,7 +1980,7 @@
       "no": 910417,
       "kr": "5월 깜짝 패키지",
       "en": "May Surprise Pack",
-      "ja": "",
+      "ja": "5月サプライズパック",
       "zh_tw": "5月驚喜禮包",
       "zh_cn": ""
     },
@@ -1980,8 +1988,24 @@
       "no": 910418,
       "kr": "성장 지원 패키지",
       "en": "Growth Support Pack",
-      "ja": "",
+      "ja": "成長支援パック",
       "zh_tw": "成長支援禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 910419,
+      "kr": "르네(백은) 픽업",
+      "en": "Renee (Argent) Pick-Up",
+      "ja": "",
+      "zh_tw": "勒內（白銀）Pick Up",
+      "zh_cn": ""
+    },
+    {
+      "no": 910420,
+      "kr": "회고록 : 극광의 넘어로",
+      "en": "Memoirs: Beyond the Polaris",
+      "ja": "",
+      "zh_tw": "回憶錄:極光的彼岸",
       "zh_cn": ""
     },
     {
@@ -4444,7 +4468,7 @@
       "no": 911224,
       "kr": "사해파정 데일리 패키지(15일)",
       "en": "Daily Calm Waves of Four Seas Pack (15 Days)",
-      "ja": "",
+      "ja": "四海波静デイリーパック(15日)",
       "zh_tw": "四海波靜每日禮包（15日）",
       "zh_cn": ""
     },
@@ -4452,7 +4476,7 @@
       "no": 911225,
       "kr": "사해파정 이벤트 패키지 1",
       "en": "Calm Waves of Four Seas Event Pack 1",
-      "ja": "",
+      "ja": "四海波静イベントパック1",
       "zh_tw": "四海波靜活動禮包1",
       "zh_cn": ""
     },
@@ -4460,7 +4484,7 @@
       "no": 911226,
       "kr": "사해파정 이벤트 패키지 2",
       "en": "Calm Waves of Four Seas Event Pack 2",
-      "ja": "",
+      "ja": "四海波静イベントパック2",
       "zh_tw": "四海波靜活動禮包2",
       "zh_cn": ""
     },
@@ -4468,8 +4492,40 @@
       "no": 911227,
       "kr": "사해파정 이벤트 패키지 3",
       "en": "Calm Waves of Four Seas Event Pack 3",
-      "ja": "",
+      "ja": "四海波静イベントパック3",
       "zh_tw": "四海波靜活動禮包3",
+      "zh_cn": ""
+    },
+    {
+      "no": 911231,
+      "kr": "회고록 : 극광의 너머로 데일리 패키지(15일)",
+      "en": "Daily Memoirs: Beyond the Polaris Event Pack (15 Days)",
+      "ja": "",
+      "zh_tw": "回憶錄:極光的彼岸每日禮包（15日）",
+      "zh_cn": ""
+    },
+    {
+      "no": 911232,
+      "kr": "회고록 : 극광의 너머로 이벤트 패키지 1",
+      "en": "Memoirs: Beyond the Polaris Event Pack 2",
+      "ja": "",
+      "zh_tw": "回憶錄:極光的彼岸動禮包1",
+      "zh_cn": ""
+    },
+    {
+      "no": 911233,
+      "kr": "회고록 : 극광의 너머로 이벤트 패키지 2",
+      "en": "Memoirs: Beyond the Polaris Event Pack 2",
+      "ja": "",
+      "zh_tw": "回憶錄:極光的彼岸動禮包2",
+      "zh_cn": ""
+    },
+    {
+      "no": 911234,
+      "kr": "회고록 : 극광의 너머로 이벤트 패키지 3",
+      "en": "Memoirs: Beyond the Polaris Event Pack 3",
+      "ja": "",
+      "zh_tw": "回憶錄:極光的彼岸動禮包3",
       "zh_cn": ""
     },
     {
@@ -4934,6 +4990,14 @@
       "en": "Petra Tower of Origin Boost Pack",
       "ja": "ペトラの起源の塔突破パック",
       "zh_tw": "突破佩特拉起源之塔禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 913210,
+      "kr": "클레르 기원의 탑 돌파 패키지",
+      "en": "Claire Tower of Origin Boost Pack",
+      "ja": "クレールの起源の塔突破パック",
+      "zh_tw": "突破克萊兒起源之塔禮包",
       "zh_cn": ""
     },
     {
@@ -5420,7 +5484,7 @@
       "no": 914184,
       "kr": "성장 지원 패키지 1",
       "en": "Growth Support Pack 1",
-      "ja": "",
+      "ja": "成長支援パック1",
       "zh_tw": "成長支援禮包1",
       "zh_cn": ""
     },
@@ -5428,7 +5492,7 @@
       "no": 914185,
       "kr": "성장 지원 패키지 2",
       "en": "Growth Support Pack 2",
-      "ja": "",
+      "ja": "成長支援パック2",
       "zh_tw": "成長支援禮包2",
       "zh_cn": ""
     },
@@ -5436,7 +5500,7 @@
       "no": 914186,
       "kr": "성장 지원 패키지 3",
       "en": "Growth Support Pack 3",
-      "ja": "",
+      "ja": "成長支援パック3",
       "zh_tw": "成長支援禮包3",
       "zh_cn": ""
     },
@@ -5444,7 +5508,7 @@
       "no": 914187,
       "kr": "성장 지원 패키지 4",
       "en": "Growth Support Pack 4",
-      "ja": "",
+      "ja": "成長支援パック4",
       "zh_tw": "成長支援禮包4",
       "zh_cn": ""
     },
@@ -5452,7 +5516,7 @@
       "no": 914188,
       "kr": "5월 깜짝 패키지 1",
       "en": "May Surprise Pack 1",
-      "ja": "",
+      "ja": "5月サプライズパック1",
       "zh_tw": "5月驚喜禮包1",
       "zh_cn": ""
     },
@@ -5460,7 +5524,7 @@
       "no": 914189,
       "kr": "5월 깜짝 패키지 2",
       "en": "May Surprise Pack 2",
-      "ja": "",
+      "ja": "5月サプライズパック2",
       "zh_tw": "5月驚喜禮包2",
       "zh_cn": ""
     },
@@ -5468,7 +5532,7 @@
       "no": 914190,
       "kr": "5월 깜짝 패키지 3",
       "en": "May Surprise Pack 3",
-      "ja": "",
+      "ja": "5月サプライズパック3",
       "zh_tw": "5月驚喜禮包3",
       "zh_cn": ""
     },
@@ -7116,7 +7180,7 @@
       "no": 917551,
       "kr": "지호(미르) 픽업 기념 패키지 1",
       "en": "Jiho (Mir) Pick-Up Pack 1",
-      "ja": "",
+      "ja": "ジホ(ミル)Pick-Up記念パック1",
       "zh_tw": "智河（米爾）Pick Up紀念禮包1",
       "zh_cn": ""
     },
@@ -7124,7 +7188,7 @@
       "no": 917552,
       "kr": "지호(미르) 픽업 기념 패키지 2",
       "en": "Jiho (Mir) Pick-Up Pack 2",
-      "ja": "",
+      "ja": "ジホ(ミル)Pick-Up記念パック2",
       "zh_tw": "智河（米爾）Pick Up紀念禮包2",
       "zh_cn": ""
     },
@@ -7145,11 +7209,27 @@
       "zh_cn": ""
     },
     {
+      "no": 917571,
+      "kr": "르네(백은) 픽업 기념 패키지 1",
+      "en": "Renee (Argent) Pick-Up Pack 1",
+      "ja": "ルネ(白銀) Pick-Up記念パック1",
+      "zh_tw": "勒內（白銀）Pick Up紀念禮包1",
+      "zh_cn": ""
+    },
+    {
+      "no": 917572,
+      "kr": "르네(백은) 픽업 기념 패키지 2",
+      "en": "Renee (Argent)Pick-Up Pack 2",
+      "ja": "ルネ(白銀) Pick-Up記念パック2",
+      "zh_tw": "勒內（白銀）Pick Up紀念禮包2",
+      "zh_cn": ""
+    },
+    {
       "no": 917601,
       "kr": "신년의 날 픽업 패키지 1",
       "en": "New Year's Day Pick-Up Pack 1",
       "ja": "新年Pick-Upパック1",
-      "zh_tw": "新年之日Pick Up禮包1",
+      "zh_tw": "勒內（白銀）新年之日Pick Up禮包1",
       "zh_cn": ""
     },
     {
@@ -7157,7 +7237,7 @@
       "kr": "신년의 날 픽업 패키지 2",
       "en": "New Year's Day Pick-Up Pack 2",
       "ja": "新年Pick-Upパック2",
-      "zh_tw": "新年之日Pick Up禮包2",
+      "zh_tw": "勒內（白銀）新年之日Pick Up禮包2",
       "zh_cn": ""
     },
     {
@@ -9628,7 +9708,7 @@
       "no": 919351,
       "kr": "지호(미르) 에픽 달성 패키지",
       "en": "Jiho (Mir) Epic Achievement Pack",
-      "ja": "",
+      "ja": "ジホ(ミル)エピック達成パック",
       "zh_tw": "達成智河（米爾）史詩禮包",
       "zh_cn": ""
     },
@@ -9636,7 +9716,7 @@
       "no": 919352,
       "kr": "지호(미르) 에픽+ 달성 패키지",
       "en": "Jiho (Mir) Epic+ Achievement Pack",
-      "ja": "",
+      "ja": "ジホ(ミル)エピック+達成パック",
       "zh_tw": "達成智河（米爾）史詩＋禮包",
       "zh_cn": ""
     },
@@ -9644,7 +9724,7 @@
       "no": 919353,
       "kr": "지호(미르) 레전더리+ 달성 패키지",
       "en": "Jiho (Mir) Legendary+ Achievement Pack",
-      "ja": "",
+      "ja": "ジホ(ミル)レジェンダリー+達成パック",
       "zh_tw": "達成智河（米爾）傳說＋禮包",
       "zh_cn": ""
     },
@@ -9652,7 +9732,7 @@
       "no": 919354,
       "kr": "지호(미르) 이터널+ 달성 패키지",
       "en": "Jiho (Mir) Eternal+ Achievement Pack",
-      "ja": "",
+      "ja": "ジホ(ミル)エターナル+達成パック",
       "zh_tw": "達成智河（米爾）永恆＋禮包",
       "zh_cn": ""
     },
@@ -9660,7 +9740,7 @@
       "no": 919355,
       "kr": "지호(미르) 오리진 달성 패키지",
       "en": "Jiho (Mir) Origin Achievement Pack",
-      "ja": "",
+      "ja": "ジホ(ミル)オリジン達成パック",
       "zh_tw": "達成智河（米爾）不朽禮包",
       "zh_cn": ""
     },
@@ -9668,7 +9748,7 @@
       "no": 919356,
       "kr": "지호(미르) 오리진+1 달성 패키지",
       "en": "Jiho (Mir) Origin+1 Achievement Pack",
-      "ja": "",
+      "ja": "ジホ(ミル)オリジン+1達成パック",
       "zh_tw": "達成智河（米爾）不朽+1禮包",
       "zh_cn": ""
     },
@@ -9676,7 +9756,7 @@
       "no": 919357,
       "kr": "지호(미르) 오리진+3 달성 패키지",
       "en": "Jiho (Mir) Origin+3 Achievement Pack",
-      "ja": "",
+      "ja": "ジホ(ミル)オリジン+3達成パック",
       "zh_tw": "達成智河（米爾）不朽+3禮包",
       "zh_cn": ""
     },
@@ -9684,8 +9764,136 @@
       "no": 919358,
       "kr": "지호(미르) 오리진+5 달성 패키지",
       "en": "Jiho (Mir) Origin+5 Achievement Pack",
-      "ja": "",
+      "ja": "ジホ(ミル)オリジン+5達成パック",
       "zh_tw": "達成智河（米爾）不朽+5禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919371,
+      "kr": "르네(백은) 에픽 달성 패키지",
+      "en": "Renee (Argent) Epic Achievement Pack",
+      "ja": "",
+      "zh_tw": "勒內（白銀）史詩禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919372,
+      "kr": "르네(백은) 에픽+ 달성 패키지",
+      "en": "Renee (Argent) Epic+ Achievement Pack",
+      "ja": "",
+      "zh_tw": "勒內（白銀）史詩＋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919373,
+      "kr": "르네(백은) 레전더리+ 달성 패키지",
+      "en": "Renee (Argent) Legendary+ Achievement Pack",
+      "ja": "",
+      "zh_tw": "勒內（白銀）傳說＋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919374,
+      "kr": "르네(백은) 이터널+ 달성 패키지",
+      "en": "Renee (Argent) Eternal+ Achievement Pack",
+      "ja": "",
+      "zh_tw": "勒內（白銀）永恆＋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919375,
+      "kr": "르네(백은) 오리진 달성 패키지",
+      "en": "Renee (Argent) Origin Achievement Pack",
+      "ja": "",
+      "zh_tw": "勒內（白銀）不朽禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919376,
+      "kr": "르네(백은) 오리진+1 달성 패키지",
+      "en": "Renee (Argent) Origin+1 Achievement Pack",
+      "ja": "",
+      "zh_tw": "勒內（白銀）不朽+1禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919377,
+      "kr": "르네(백은) 오리진+3 달성 패키지",
+      "en": "Renee (Argent) Origin+3 Achievement Pack",
+      "ja": "",
+      "zh_tw": "勒內（白銀）不朽+3禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919378,
+      "kr": "르네(백은) 오리진+5 달성 패키지",
+      "en": "Renee (Argent) Origin+5 Achievement Pack",
+      "ja": "",
+      "zh_tw": "勒內（白銀）不朽+5禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919461,
+      "kr": "에일린 에픽 달성 패키지",
+      "en": "Manon Epic Achievement Pack",
+      "ja": "エイリーンエピック達成パック",
+      "zh_tw": "達成艾琳史詩禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919462,
+      "kr": "에일린 에픽+ 달성 패키지",
+      "en": "Eileen Epic+ Achievement Pack",
+      "ja": "エイリーンエピック＋達成パック",
+      "zh_tw": "達成艾琳史詩＋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919463,
+      "kr": "에일린 레전더리+ 달성 패키지",
+      "en": "Eileen Legendary+ Achievement Pack",
+      "ja": "エイリーンレジェンダリー＋達成パック",
+      "zh_tw": "達成艾琳傳說＋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919464,
+      "kr": "에일린 이터널+ 달성 패키지",
+      "en": "Eileen Eternal+ Achievement Pack",
+      "ja": "エイリーンエターナル＋達成パック",
+      "zh_tw": "達成艾琳永恆＋禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919465,
+      "kr": "에일린 오리진 달성 패키지",
+      "en": "Eileen Origin Achievement Pack",
+      "ja": "エイリーンオリジン達成パック",
+      "zh_tw": "達成艾琳不朽禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919466,
+      "kr": "에일린 오리진+1 달성 패키지",
+      "en": "Eileen Origin+1 Achievement Pack",
+      "ja": "エイリーンオリジン＋1達成パック",
+      "zh_tw": "達成艾琳不朽+1禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919467,
+      "kr": "에일린 오리진+3 달성 패키지",
+      "en": "Eileen Origin+3 Achievement Pack",
+      "ja": "エイリーンオリジン＋3達成パック",
+      "zh_tw": "達成艾琳不朽+3禮包",
+      "zh_cn": ""
+    },
+    {
+      "no": 919468,
+      "kr": "에일린 오리진+5 달성 패키지",
+      "en": "Eileen Origin+5 Achievement Pack",
+      "ja": "エイリーンオリジン＋5達成パック",
+      "zh_tw": "達成艾琳不朽+5禮包",
       "zh_cn": ""
     },
     {
@@ -10465,6 +10673,14 @@
       "zh_cn": ""
     },
     {
+      "no": 923210,
+      "kr": "클레르의 탑 20층을 돌파한 자에게 주어지는 기념 패키지",
+      "en": "A pack offered to those who have cleared 20F on Claire's tower.",
+      "ja": "クレールの塔20階を突破したプレイヤーが購入できる記念パック",
+      "zh_tw": "突破克萊兒之塔20層的紀念禮包",
+      "zh_cn": ""
+    },
+    {
       "no": 924000,
       "kr": "구매 즉시 1일차 보상이 우편으로 지급됩니다.\r\n이후 7일차까지 매일 접속 시 보상이 우편으로 지급됩니다.\r\n1일 당 지급 보상은 아래와 같습니다.\r\n미접속 일차의 보상은 미지급됩니다.",
       "en": "Day 1 reward is sent to your mailbox immediately upon purchase.\r\nReward is sent to your mailbox if you log in every day up to day 7.\r\nThe below are the rewards given per day.\r\nRewards for unattended days will not be given.",
@@ -10636,7 +10852,7 @@
       "no": 924181,
       "kr": "정령 성장을 지원하는 특별 패키지입니다.",
       "en": "A special pack for supporting the growth of Souls.",
-      "ja": "",
+      "ja": "精霊の成長をサポートする特別なパックです。",
       "zh_tw": "支援精靈成長的特別禮包。",
       "zh_cn": ""
     },
@@ -10644,7 +10860,7 @@
       "no": 924191,
       "kr": "5월을 맞아 깜짝 등장한 고효율 패키지!",
       "en": "A surprise high-value pack to celebrate May!",
-      "ja": "",
+      "ja": "5月のサプライズで高効率パックが登場！",
       "zh_tw": "迎接5月，驚喜登場的高效禮包！",
       "zh_cn": ""
     },

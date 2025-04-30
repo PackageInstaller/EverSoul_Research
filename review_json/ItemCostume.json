@@ -948,6 +948,18 @@
       "scale_set": 1.0
     },
     {
+      "no": 2080,
+      "type_sno": 520102,
+      "name_sno": 520180,
+      "hero_no": 3160,
+      "prefab_path": "ReneeSilver",
+      "timeline_path": "ReneeSilver",
+      "icon_path": "ReneeSilver_Icon_Costume_00",
+      "portrait_path": "ReneeSilver",
+      "controller_path": "ReneeSilver",
+      "scale_set": 1.0
+    },
+    {
       "no": 2201,
       "type_sno": 710000,
       "name_sno": 520401,
@@ -2986,6 +2998,42 @@
       "icon_path": "Kanna_Icon_Costume_02",
       "portrait_path": "Kanna_Costume02",
       "controller_path": "Kanna",
+      "scale_set": 1.0
+    },
+    {
+      "no": 2372,
+      "type_sno": 710011,
+      "name_sno": 520572,
+      "hero_no": 3160,
+      "prefab_path": "ReneeSilver_Costume01",
+      "timeline_path": "ReneeSilver_Costume01",
+      "icon_path": "ReneeSilver_Icon_Costume_01",
+      "portrait_path": "ReneeSilver_Costume01",
+      "controller_path": "ReneeSilver",
+      "scale_set": 1.0
+    },
+    {
+      "no": 2373,
+      "type_sno": 710012,
+      "name_sno": 520573,
+      "hero_no": 3160,
+      "prefab_path": "ReneeSilver_Costume02",
+      "timeline_path": "ReneeSilver_Costume02",
+      "icon_path": "ReneeSilver_Icon_Costume_02",
+      "portrait_path": "ReneeSilver_Costume02",
+      "controller_path": "ReneeSilver",
+      "scale_set": 1.0
+    },
+    {
+      "no": 2374,
+      "type_sno": 710009,
+      "name_sno": 520574,
+      "hero_no": 4150,
+      "prefab_path": "Weiss_Costume03",
+      "timeline_path": "Weiss_Costume03",
+      "icon_path": "Weiss_Icon_Costume_03",
+      "portrait_path": "Weiss_Costume03",
+      "controller_path": "Weiss",
       "scale_set": 1.0
     },
     {
