@@ -37,14 +37,15 @@ double GetResist(statType, penetration, penetrationRate, defence):
     resist = defence->Status->MagicResist
   else:  // Physical attack
     resist = defence->Status->PhysicalResist
-    
+  
+  // When the penetration flag is less than 5, the penetration rate takes effect
   if ((penetration - 3) < 2)::
     return (1.0 - penetrationRate) * resist
   else:
     return resist
 ```
 
-Resistance is divided into magic resistance and physical resistance based on the attack type. The penetration mechanism also affects resistance values, but only when the penetration flag is 3 or 4 will the penetration rate be applied to resistance calculation.
+Resistance is divided into magic resistance and physical resistance based on the attack type. The penetration mechanism also affects resistance values, but only when the penetration flag is less than 5 will the penetration rate be applied to resistance calculation.
 
 The effect of resistance value on damage:
 
@@ -85,4 +86,4 @@ $$
 
 $$
 \text{Final Damage} = \max(\text{Post-Skill-Rate Damage}, \text{1})
-$$ 
+$$

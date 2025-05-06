@@ -37,15 +37,15 @@ double GetResist(statType, penetration, penetrationRate, defence):
     resist = defence->Status->MagicResist
   else:  // 物理攻击
     resist = defence->Status->PhysicalResist
-    
-  // 穿透标志位小于6时，穿透率生效
+
+  // 穿透标志位小于5时，穿透率生效
   if ((penetration - 3) < 2):
     return (1.0 - penetrationRate) * resist
   else:
     return resist
 ```
 
-抗性根据攻击类型分为魔法抗性和物理抗性。穿透机制也影响抗性值，但只有当穿透标志位为3或4时，穿透率才会应用于抗性计算。
+抗性根据攻击类型分为魔法抗性和物理抗性。穿透机制也影响抗性值，但只有当穿透标志位小于5时，穿透率才会应用于抗性计算。
 
 抗性值对伤害的影响:
 
