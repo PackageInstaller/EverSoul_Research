@@ -12988,6 +12988,144 @@
     },
     {
       "no": 1270,
+      "hero_no": 3160,
+      "speaker_no": 3160,
+      "condition_type": 5,
+      "love_level": 1,
+      "group_no": 7316001,
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128"
+    },
+    {
+      "no": 1271,
+      "hero_no": 3160,
+      "speaker_no": 3160,
+      "condition_type": 5,
+      "love_level": 2,
+      "condition_value": 60,
+      "group_no": 7316002,
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128"
+    },
+    {
+      "no": 1272,
+      "hero_no": 3160,
+      "speaker_no": 3160,
+      "condition_type": 5,
+      "love_level": 3,
+      "condition_value": 210,
+      "group_no": 7316003,
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128"
+    },
+    {
+      "no": 1273,
+      "hero_no": 3160,
+      "speaker_no": 3160,
+      "condition_type": 5,
+      "love_level": 4,
+      "condition_value": 460,
+      "group_no": 7316004,
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128"
+    },
+    {
+      "no": 1274,
+      "hero_no": 3160,
+      "speaker_no": 3160,
+      "condition_type": 5,
+      "love_level": 5,
+      "condition_value": 830,
+      "group_no": 7316005,
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128"
+    },
+    {
+      "no": 1275,
+      "hero_no": 3160,
+      "speaker_no": 3160,
+      "condition_type": 5,
+      "love_level": 6,
+      "condition_value": 1320,
+      "group_no": 7316006,
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128"
+    },
+    {
+      "no": 1276,
+      "hero_no": 3160,
+      "speaker_no": 3160,
+      "condition_type": 5,
+      "love_level": 7,
+      "condition_value": 1940,
+      "group_no": 7316007,
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128"
+    },
+    {
+      "no": 1277,
+      "hero_no": 3160,
+      "speaker_no": 3160,
+      "condition_type": 5,
+      "love_level": 8,
+      "condition_value": 2700,
+      "group_no": 7316008,
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128"
+    },
+    {
+      "no": 1278,
+      "hero_no": 3160,
+      "speaker_no": 3160,
+      "condition_type": 5,
+      "love_level": 9,
+      "condition_value": 3600,
+      "group_no": 7316009,
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128"
+    },
+    {
+      "no": 1279,
+      "hero_no": 3160,
+      "speaker_no": 3160,
+      "condition_type": 5,
+      "love_level": 9,
+      "condition_value": 4100,
+      "group_no": 7316010,
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128"
+    },
+    {
+      "no": 1280,
+      "hero_no": 3160,
+      "speaker_no": 3160,
+      "condition_type": 6,
+      "love_level": 1,
+      "group_no": 7316011,
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128"
+    },
+    {
+      "no": 1281,
+      "hero_no": 3160,
+      "speaker_no": 3160,
+      "condition_type": 6,
+      "love_level": 3,
+      "condition_value": 210,
+      "group_no": 7316012,
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128"
+    },
+    {
+      "no": 1282,
+      "hero_no": 3160,
+      "speaker_no": 3160,
+      "condition_type": 6,
+      "love_level": 5,
+      "condition_value": 830,
+      "group_no": 7316013,
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128"
+    },
+    {
+      "no": 1283,
+      "hero_no": 3160,
+      "speaker_no": 3160,
+      "condition_type": 6,
+      "love_level": 7,
+      "condition_value": 1940,
+      "group_no": 7316014,
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128"
+    },
+    {
+      "no": 1284,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 3,
@@ -12996,7 +13134,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1271,
+      "no": 1285,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 3,
@@ -13006,7 +13144,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1272,
+      "no": 1286,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 3,
@@ -13016,7 +13154,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1273,
+      "no": 1287,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 3,
@@ -13026,7 +13164,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1274,
+      "no": 1288,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 3,
@@ -13036,7 +13174,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1275,
+      "no": 1289,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 3,
@@ -13046,7 +13184,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1276,
+      "no": 1290,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 3,
@@ -13056,7 +13194,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1277,
+      "no": 1291,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 3,
@@ -13066,7 +13204,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1278,
+      "no": 1292,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 3,
@@ -13076,7 +13214,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1279,
+      "no": 1293,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 3,
@@ -13086,7 +13224,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1280,
+      "no": 1294,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 2,
@@ -13095,7 +13233,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1281,
+      "no": 1295,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 2,
@@ -13105,7 +13243,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1282,
+      "no": 1296,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 2,
@@ -13115,7 +13253,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1283,
+      "no": 1297,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 2,
@@ -13125,7 +13263,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1284,
+      "no": 1298,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 2,
@@ -13135,7 +13273,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1285,
+      "no": 1299,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 2,
@@ -13145,7 +13283,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1286,
+      "no": 1300,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 2,
@@ -13155,7 +13293,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1287,
+      "no": 1301,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 2,
@@ -13165,7 +13303,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1288,
+      "no": 1302,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 2,
@@ -13175,7 +13313,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1289,
+      "no": 1303,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 2,
@@ -13185,7 +13323,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1290,
+      "no": 1304,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 4,
@@ -13196,7 +13334,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1291,
+      "no": 1305,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 4,
@@ -13207,7 +13345,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1292,
+      "no": 1306,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 4,
@@ -13218,7 +13356,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1293,
+      "no": 1307,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 4,
@@ -13229,7 +13367,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1294,
+      "no": 1308,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 4,
@@ -13240,7 +13378,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1295,
+      "no": 1309,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 4,
@@ -13251,7 +13389,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1296,
+      "no": 1310,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 4,
@@ -13262,7 +13400,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1297,
+      "no": 1311,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 4,
@@ -13273,7 +13411,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1298,
+      "no": 1312,
       "hero_no": 4010,
       "speaker_no": 4010,
       "condition_type": 4,
@@ -13284,7 +13422,7 @@
       "portrait128_path": "UI/Textures/Souls/Amelia/Amelia_128"
     },
     {
-      "no": 1299,
+      "no": 1313,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 3,
@@ -13293,7 +13431,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1300,
+      "no": 1314,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 3,
@@ -13303,7 +13441,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1301,
+      "no": 1315,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 3,
@@ -13313,7 +13451,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1302,
+      "no": 1316,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 3,
@@ -13323,7 +13461,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1303,
+      "no": 1317,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 3,
@@ -13333,7 +13471,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1304,
+      "no": 1318,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 3,
@@ -13343,7 +13481,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1305,
+      "no": 1319,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 3,
@@ -13353,7 +13491,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1306,
+      "no": 1320,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 3,
@@ -13363,7 +13501,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1307,
+      "no": 1321,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 3,
@@ -13373,7 +13511,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1308,
+      "no": 1322,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 3,
@@ -13383,7 +13521,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1309,
+      "no": 1323,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 2,
@@ -13392,7 +13530,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1310,
+      "no": 1324,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 2,
@@ -13402,7 +13540,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1311,
+      "no": 1325,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 2,
@@ -13412,7 +13550,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1312,
+      "no": 1326,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 2,
@@ -13422,7 +13560,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1313,
+      "no": 1327,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 2,
@@ -13432,7 +13570,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1314,
+      "no": 1328,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 2,
@@ -13442,7 +13580,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1315,
+      "no": 1329,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 2,
@@ -13452,7 +13590,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1316,
+      "no": 1330,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 2,
@@ -13462,7 +13600,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1317,
+      "no": 1331,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 2,
@@ -13472,7 +13610,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1318,
+      "no": 1332,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 2,
@@ -13482,7 +13620,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1319,
+      "no": 1333,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 4,
@@ -13493,7 +13631,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1320,
+      "no": 1334,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 4,
@@ -13504,7 +13642,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1321,
+      "no": 1335,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 4,
@@ -13515,7 +13653,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1322,
+      "no": 1336,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 4,
@@ -13526,7 +13664,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1323,
+      "no": 1337,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 4,
@@ -13537,7 +13675,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1324,
+      "no": 1338,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 4,
@@ -13548,7 +13686,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1325,
+      "no": 1339,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 4,
@@ -13559,7 +13697,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1326,
+      "no": 1340,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 4,
@@ -13570,7 +13708,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1327,
+      "no": 1341,
       "hero_no": 4020,
       "speaker_no": 4020,
       "condition_type": 4,
@@ -13581,7 +13719,7 @@
       "portrait128_path": "UI/Textures/Souls/Olivia/Olivia_128"
     },
     {
-      "no": 1328,
+      "no": 1342,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 3,
@@ -13590,7 +13728,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1329,
+      "no": 1343,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 3,
@@ -13600,7 +13738,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1330,
+      "no": 1344,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 3,
@@ -13610,7 +13748,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1331,
+      "no": 1345,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 3,
@@ -13620,7 +13758,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1332,
+      "no": 1346,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 3,
@@ -13630,7 +13768,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1333,
+      "no": 1347,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 3,
@@ -13640,7 +13778,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1334,
+      "no": 1348,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 3,
@@ -13650,7 +13788,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1335,
+      "no": 1349,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 3,
@@ -13660,7 +13798,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1336,
+      "no": 1350,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 3,
@@ -13670,7 +13808,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1337,
+      "no": 1351,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 3,
@@ -13680,7 +13818,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1338,
+      "no": 1352,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 2,
@@ -13689,7 +13827,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1339,
+      "no": 1353,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 2,
@@ -13699,7 +13837,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1340,
+      "no": 1354,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 2,
@@ -13709,7 +13847,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1341,
+      "no": 1355,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 2,
@@ -13719,7 +13857,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1342,
+      "no": 1356,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 2,
@@ -13729,7 +13867,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1343,
+      "no": 1357,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 2,
@@ -13739,7 +13877,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1344,
+      "no": 1358,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 2,
@@ -13749,7 +13887,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1345,
+      "no": 1359,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 2,
@@ -13759,7 +13897,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1346,
+      "no": 1360,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 2,
@@ -13769,7 +13907,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1347,
+      "no": 1361,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 2,
@@ -13779,7 +13917,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1348,
+      "no": 1362,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 4,
@@ -13790,7 +13928,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1349,
+      "no": 1363,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 4,
@@ -13801,7 +13939,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1350,
+      "no": 1364,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 4,
@@ -13812,7 +13950,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1351,
+      "no": 1365,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 4,
@@ -13823,7 +13961,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1352,
+      "no": 1366,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 4,
@@ -13834,7 +13972,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1353,
+      "no": 1367,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 4,
@@ -13845,7 +13983,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1354,
+      "no": 1368,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 4,
@@ -13856,7 +13994,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1355,
+      "no": 1369,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 4,
@@ -13867,7 +14005,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1356,
+      "no": 1370,
       "hero_no": 4030,
       "speaker_no": 4030,
       "condition_type": 4,
@@ -13878,7 +14016,7 @@
       "portrait128_path": "UI/Textures/Souls/Rebecca/Rebecca_128"
     },
     {
-      "no": 1357,
+      "no": 1371,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 3,
@@ -13887,7 +14025,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1358,
+      "no": 1372,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 3,
@@ -13897,7 +14035,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1359,
+      "no": 1373,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 3,
@@ -13907,7 +14045,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1360,
+      "no": 1374,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 3,
@@ -13917,7 +14055,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1361,
+      "no": 1375,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 3,
@@ -13927,7 +14065,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1362,
+      "no": 1376,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 3,
@@ -13937,7 +14075,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1363,
+      "no": 1377,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 3,
@@ -13947,7 +14085,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1364,
+      "no": 1378,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 3,
@@ -13957,7 +14095,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1365,
+      "no": 1379,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 3,
@@ -13967,7 +14105,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1366,
+      "no": 1380,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 3,
@@ -13977,7 +14115,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1367,
+      "no": 1381,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 2,
@@ -13986,7 +14124,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1368,
+      "no": 1382,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 2,
@@ -13996,7 +14134,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1369,
+      "no": 1383,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 2,
@@ -14006,7 +14144,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1370,
+      "no": 1384,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 2,
@@ -14016,7 +14154,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1371,
+      "no": 1385,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 2,
@@ -14026,7 +14164,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1372,
+      "no": 1386,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 2,
@@ -14036,7 +14174,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1373,
+      "no": 1387,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 2,
@@ -14046,7 +14184,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1374,
+      "no": 1388,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 2,
@@ -14056,7 +14194,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1375,
+      "no": 1389,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 2,
@@ -14066,7 +14204,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_Costume01_128"
     },
     {
-      "no": 1376,
+      "no": 1390,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 2,
@@ -14076,7 +14214,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_Costume01_128"
     },
     {
-      "no": 1377,
+      "no": 1391,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 4,
@@ -14087,7 +14225,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1378,
+      "no": 1392,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 4,
@@ -14098,7 +14236,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1379,
+      "no": 1393,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 4,
@@ -14109,7 +14247,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1380,
+      "no": 1394,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 4,
@@ -14120,7 +14258,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1381,
+      "no": 1395,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 4,
@@ -14131,7 +14269,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1382,
+      "no": 1396,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 4,
@@ -14142,7 +14280,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1383,
+      "no": 1397,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 4,
@@ -14153,7 +14291,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1384,
+      "no": 1398,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 4,
@@ -14164,7 +14302,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1385,
+      "no": 1399,
       "hero_no": 4040,
       "speaker_no": 4040,
       "condition_type": 4,
@@ -14175,7 +14313,7 @@
       "portrait128_path": "UI/Textures/Souls/Melfice/Melfice_128"
     },
     {
-      "no": 1386,
+      "no": 1400,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 3,
@@ -14184,7 +14322,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1387,
+      "no": 1401,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 3,
@@ -14194,7 +14332,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1388,
+      "no": 1402,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 3,
@@ -14204,7 +14342,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1389,
+      "no": 1403,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 3,
@@ -14214,7 +14352,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1390,
+      "no": 1404,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 3,
@@ -14224,7 +14362,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1391,
+      "no": 1405,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 3,
@@ -14234,7 +14372,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1392,
+      "no": 1406,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 3,
@@ -14244,7 +14382,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1393,
+      "no": 1407,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 3,
@@ -14254,7 +14392,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1394,
+      "no": 1408,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 3,
@@ -14264,7 +14402,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1395,
+      "no": 1409,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 3,
@@ -14274,7 +14412,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1396,
+      "no": 1410,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 2,
@@ -14283,7 +14421,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1397,
+      "no": 1411,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 2,
@@ -14293,7 +14431,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1398,
+      "no": 1412,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 2,
@@ -14303,7 +14441,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1399,
+      "no": 1413,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 2,
@@ -14313,7 +14451,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1400,
+      "no": 1414,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 2,
@@ -14323,7 +14461,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1401,
+      "no": 1415,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 2,
@@ -14333,7 +14471,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1402,
+      "no": 1416,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 2,
@@ -14343,7 +14481,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1403,
+      "no": 1417,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 2,
@@ -14353,7 +14491,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1404,
+      "no": 1418,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 2,
@@ -14363,7 +14501,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1405,
+      "no": 1419,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 2,
@@ -14373,7 +14511,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1406,
+      "no": 1420,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 4,
@@ -14384,7 +14522,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1407,
+      "no": 1421,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 4,
@@ -14395,7 +14533,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1408,
+      "no": 1422,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 4,
@@ -14406,7 +14544,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1409,
+      "no": 1423,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 4,
@@ -14417,7 +14555,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1410,
+      "no": 1424,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 4,
@@ -14428,7 +14566,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1411,
+      "no": 1425,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 4,
@@ -14439,7 +14577,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1412,
+      "no": 1426,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 4,
@@ -14450,7 +14588,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1413,
+      "no": 1427,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 4,
@@ -14461,7 +14599,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1414,
+      "no": 1428,
       "hero_no": 4050,
       "speaker_no": 4050,
       "condition_type": 4,
@@ -14472,7 +14610,7 @@
       "portrait128_path": "UI/Textures/Souls/Blyce/Blyce_128"
     },
     {
-      "no": 1415,
+      "no": 1429,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 3,
@@ -14481,7 +14619,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1416,
+      "no": 1430,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 3,
@@ -14491,7 +14629,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1417,
+      "no": 1431,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 3,
@@ -14501,7 +14639,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1418,
+      "no": 1432,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 3,
@@ -14511,7 +14649,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1419,
+      "no": 1433,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 3,
@@ -14521,7 +14659,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1420,
+      "no": 1434,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 3,
@@ -14531,7 +14669,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1421,
+      "no": 1435,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 3,
@@ -14541,7 +14679,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1422,
+      "no": 1436,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 3,
@@ -14551,7 +14689,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1423,
+      "no": 1437,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 3,
@@ -14561,7 +14699,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1424,
+      "no": 1438,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 3,
@@ -14571,7 +14709,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1425,
+      "no": 1439,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 2,
@@ -14580,7 +14718,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1426,
+      "no": 1440,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 2,
@@ -14590,7 +14728,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1427,
+      "no": 1441,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 2,
@@ -14600,7 +14738,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1428,
+      "no": 1442,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 2,
@@ -14610,7 +14748,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1429,
+      "no": 1443,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 2,
@@ -14620,7 +14758,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1430,
+      "no": 1444,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 2,
@@ -14630,7 +14768,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1431,
+      "no": 1445,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 2,
@@ -14640,7 +14778,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1432,
+      "no": 1446,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 2,
@@ -14650,7 +14788,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1433,
+      "no": 1447,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 2,
@@ -14660,7 +14798,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1434,
+      "no": 1448,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 2,
@@ -14670,7 +14808,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1435,
+      "no": 1449,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 4,
@@ -14681,7 +14819,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1436,
+      "no": 1450,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 4,
@@ -14692,7 +14830,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1437,
+      "no": 1451,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 4,
@@ -14703,7 +14841,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1438,
+      "no": 1452,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 4,
@@ -14714,7 +14852,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1439,
+      "no": 1453,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 4,
@@ -14725,7 +14863,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1440,
+      "no": 1454,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 4,
@@ -14736,7 +14874,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1441,
+      "no": 1455,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 4,
@@ -14747,7 +14885,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1442,
+      "no": 1456,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 4,
@@ -14758,7 +14896,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1443,
+      "no": 1457,
       "hero_no": 4060,
       "speaker_no": 4060,
       "condition_type": 4,
@@ -14769,7 +14907,7 @@
       "portrait128_path": "UI/Textures/Souls/Prim/Prim_128"
     },
     {
-      "no": 1444,
+      "no": 1458,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 3,
@@ -14778,7 +14916,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1445,
+      "no": 1459,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 3,
@@ -14788,7 +14926,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1446,
+      "no": 1460,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 3,
@@ -14798,7 +14936,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1447,
+      "no": 1461,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 3,
@@ -14808,7 +14946,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1448,
+      "no": 1462,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 3,
@@ -14818,7 +14956,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1449,
+      "no": 1463,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 3,
@@ -14828,7 +14966,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1450,
+      "no": 1464,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 3,
@@ -14838,7 +14976,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1451,
+      "no": 1465,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 3,
@@ -14848,7 +14986,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1452,
+      "no": 1466,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 3,
@@ -14858,7 +14996,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1453,
+      "no": 1467,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 3,
@@ -14868,7 +15006,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1454,
+      "no": 1468,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 2,
@@ -14877,7 +15015,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1455,
+      "no": 1469,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 2,
@@ -14887,7 +15025,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1456,
+      "no": 1470,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 2,
@@ -14897,7 +15035,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1457,
+      "no": 1471,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 2,
@@ -14907,7 +15045,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1458,
+      "no": 1472,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 2,
@@ -14917,7 +15055,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1459,
+      "no": 1473,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 2,
@@ -14927,7 +15065,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1460,
+      "no": 1474,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 2,
@@ -14937,7 +15075,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1461,
+      "no": 1475,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 2,
@@ -14947,7 +15085,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1462,
+      "no": 1476,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 2,
@@ -14957,7 +15095,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1463,
+      "no": 1477,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 2,
@@ -14967,7 +15105,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_Costume04_128"
     },
     {
-      "no": 1464,
+      "no": 1478,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 4,
@@ -14978,7 +15116,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1465,
+      "no": 1479,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 4,
@@ -14989,7 +15127,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1466,
+      "no": 1480,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 4,
@@ -15000,7 +15138,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1467,
+      "no": 1481,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 4,
@@ -15011,7 +15149,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1468,
+      "no": 1482,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 4,
@@ -15022,7 +15160,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1469,
+      "no": 1483,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 4,
@@ -15033,7 +15171,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1470,
+      "no": 1484,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 4,
@@ -15044,7 +15182,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1471,
+      "no": 1485,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 4,
@@ -15055,7 +15193,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1472,
+      "no": 1486,
       "hero_no": 4070,
       "speaker_no": 4070,
       "condition_type": 4,
@@ -15066,7 +15204,7 @@
       "portrait128_path": "UI/Textures/Souls/Jacqueline/Jacqueline_128"
     },
     {
-      "no": 1473,
+      "no": 1487,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 3,
@@ -15075,7 +15213,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1474,
+      "no": 1488,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 3,
@@ -15085,7 +15223,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1475,
+      "no": 1489,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 3,
@@ -15095,7 +15233,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1476,
+      "no": 1490,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 3,
@@ -15105,7 +15243,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1477,
+      "no": 1491,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 3,
@@ -15115,7 +15253,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1478,
+      "no": 1492,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 3,
@@ -15125,7 +15263,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1479,
+      "no": 1493,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 3,
@@ -15135,7 +15273,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1480,
+      "no": 1494,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 3,
@@ -15145,7 +15283,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1481,
+      "no": 1495,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 3,
@@ -15155,7 +15293,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1482,
+      "no": 1496,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 3,
@@ -15165,7 +15303,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1483,
+      "no": 1497,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 2,
@@ -15174,7 +15312,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1484,
+      "no": 1498,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 2,
@@ -15184,7 +15322,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1485,
+      "no": 1499,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 2,
@@ -15194,7 +15332,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1486,
+      "no": 1500,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 2,
@@ -15204,7 +15342,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1487,
+      "no": 1501,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 2,
@@ -15214,7 +15352,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1488,
+      "no": 1502,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 2,
@@ -15224,7 +15362,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1489,
+      "no": 1503,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 2,
@@ -15234,7 +15372,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1490,
+      "no": 1504,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 2,
@@ -15244,7 +15382,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1491,
+      "no": 1505,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 2,
@@ -15254,7 +15392,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1492,
+      "no": 1506,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 2,
@@ -15264,7 +15402,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1493,
+      "no": 1507,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 4,
@@ -15275,7 +15413,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1494,
+      "no": 1508,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 4,
@@ -15286,7 +15424,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1495,
+      "no": 1509,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 4,
@@ -15297,7 +15435,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1496,
+      "no": 1510,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 4,
@@ -15308,7 +15446,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1497,
+      "no": 1511,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 4,
@@ -15319,7 +15457,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1498,
+      "no": 1512,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 4,
@@ -15330,7 +15468,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1499,
+      "no": 1513,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 4,
@@ -15341,7 +15479,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1500,
+      "no": 1514,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 4,
@@ -15352,7 +15490,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1501,
+      "no": 1515,
       "hero_no": 4080,
       "speaker_no": 4080,
       "condition_type": 4,
@@ -15363,7 +15501,7 @@
       "portrait128_path": "UI/Textures/Souls/Velanna/Velanna_128"
     },
     {
-      "no": 1502,
+      "no": 1516,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 3,
@@ -15372,7 +15510,7 @@
       "portrait128_path": "UI/Textures/Souls/Erusha/Erusha_128"
     },
     {
-      "no": 1503,
+      "no": 1517,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 3,
@@ -15383,7 +15521,7 @@
       "hide": 1
     },
     {
-      "no": 1504,
+      "no": 1518,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 3,
@@ -15394,7 +15532,7 @@
       "hide": 1
     },
     {
-      "no": 1505,
+      "no": 1519,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 3,
@@ -15405,7 +15543,7 @@
       "hide": 1
     },
     {
-      "no": 1506,
+      "no": 1520,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 3,
@@ -15416,7 +15554,7 @@
       "hide": 1
     },
     {
-      "no": 1507,
+      "no": 1521,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 3,
@@ -15427,7 +15565,7 @@
       "hide": 1
     },
     {
-      "no": 1508,
+      "no": 1522,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 3,
@@ -15438,7 +15576,7 @@
       "hide": 1
     },
     {
-      "no": 1509,
+      "no": 1523,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 3,
@@ -15449,7 +15587,7 @@
       "hide": 1
     },
     {
-      "no": 1510,
+      "no": 1524,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 3,
@@ -15460,7 +15598,7 @@
       "hide": 1
     },
     {
-      "no": 1511,
+      "no": 1525,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 3,
@@ -15471,7 +15609,7 @@
       "hide": 1
     },
     {
-      "no": 1512,
+      "no": 1526,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 4,
@@ -15483,7 +15621,7 @@
       "hide": 1
     },
     {
-      "no": 1513,
+      "no": 1527,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 4,
@@ -15495,7 +15633,7 @@
       "hide": 1
     },
     {
-      "no": 1514,
+      "no": 1528,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 4,
@@ -15507,7 +15645,7 @@
       "hide": 1
     },
     {
-      "no": 1515,
+      "no": 1529,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 4,
@@ -15519,7 +15657,7 @@
       "hide": 1
     },
     {
-      "no": 1516,
+      "no": 1530,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 4,
@@ -15531,7 +15669,7 @@
       "hide": 1
     },
     {
-      "no": 1517,
+      "no": 1531,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 4,
@@ -15543,7 +15681,7 @@
       "hide": 1
     },
     {
-      "no": 1518,
+      "no": 1532,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 4,
@@ -15555,7 +15693,7 @@
       "hide": 1
     },
     {
-      "no": 1519,
+      "no": 1533,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 4,
@@ -15567,7 +15705,7 @@
       "hide": 1
     },
     {
-      "no": 1520,
+      "no": 1534,
       "hero_no": 4090,
       "speaker_no": 4090,
       "condition_type": 4,
@@ -15579,7 +15717,7 @@
       "hide": 1
     },
     {
-      "no": 1521,
+      "no": 1535,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 3,
@@ -15588,7 +15726,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1522,
+      "no": 1536,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 3,
@@ -15598,7 +15736,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1523,
+      "no": 1537,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 3,
@@ -15608,7 +15746,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1524,
+      "no": 1538,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 3,
@@ -15618,7 +15756,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1525,
+      "no": 1539,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 3,
@@ -15628,7 +15766,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1526,
+      "no": 1540,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 3,
@@ -15638,7 +15776,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1527,
+      "no": 1541,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 3,
@@ -15648,7 +15786,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1528,
+      "no": 1542,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 3,
@@ -15658,7 +15796,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1529,
+      "no": 1543,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 3,
@@ -15668,7 +15806,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1530,
+      "no": 1544,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 3,
@@ -15678,7 +15816,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1531,
+      "no": 1545,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 2,
@@ -15687,7 +15825,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1532,
+      "no": 1546,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 2,
@@ -15697,7 +15835,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1533,
+      "no": 1547,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 2,
@@ -15707,7 +15845,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1534,
+      "no": 1548,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 2,
@@ -15717,7 +15855,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1535,
+      "no": 1549,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 2,
@@ -15727,7 +15865,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1536,
+      "no": 1550,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 2,
@@ -15737,7 +15875,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1537,
+      "no": 1551,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 2,
@@ -15747,7 +15885,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1538,
+      "no": 1552,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 2,
@@ -15757,7 +15895,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1539,
+      "no": 1553,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 2,
@@ -15767,7 +15905,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1540,
+      "no": 1554,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 2,
@@ -15777,7 +15915,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1541,
+      "no": 1555,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 4,
@@ -15788,7 +15926,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1542,
+      "no": 1556,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 4,
@@ -15799,7 +15937,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1543,
+      "no": 1557,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 4,
@@ -15810,7 +15948,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1544,
+      "no": 1558,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 4,
@@ -15821,7 +15959,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1545,
+      "no": 1559,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 4,
@@ -15832,7 +15970,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1546,
+      "no": 1560,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 4,
@@ -15843,7 +15981,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1547,
+      "no": 1561,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 4,
@@ -15854,7 +15992,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1548,
+      "no": 1562,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 4,
@@ -15865,7 +16003,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1549,
+      "no": 1563,
       "hero_no": 4100,
       "speaker_no": 4100,
       "condition_type": 4,
@@ -15876,7 +16014,7 @@
       "portrait128_path": "UI/Textures/Souls/Petra/Petra_128"
     },
     {
-      "no": 1550,
+      "no": 1564,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 3,
@@ -15885,7 +16023,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1551,
+      "no": 1565,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 3,
@@ -15895,7 +16033,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1552,
+      "no": 1566,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 3,
@@ -15905,7 +16043,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1553,
+      "no": 1567,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 3,
@@ -15915,7 +16053,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1554,
+      "no": 1568,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 3,
@@ -15925,7 +16063,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1555,
+      "no": 1569,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 3,
@@ -15935,7 +16073,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1556,
+      "no": 1570,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 3,
@@ -15945,7 +16083,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1557,
+      "no": 1571,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 3,
@@ -15955,7 +16093,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1558,
+      "no": 1572,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 3,
@@ -15965,7 +16103,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1559,
+      "no": 1573,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 3,
@@ -15975,7 +16113,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1560,
+      "no": 1574,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 2,
@@ -15984,7 +16122,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1561,
+      "no": 1575,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 2,
@@ -15994,7 +16132,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1562,
+      "no": 1576,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 2,
@@ -16004,7 +16142,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1563,
+      "no": 1577,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 2,
@@ -16014,7 +16152,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1564,
+      "no": 1578,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 2,
@@ -16024,7 +16162,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1565,
+      "no": 1579,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 2,
@@ -16034,7 +16172,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1566,
+      "no": 1580,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 2,
@@ -16044,7 +16182,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1567,
+      "no": 1581,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 2,
@@ -16054,7 +16192,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1568,
+      "no": 1582,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 2,
@@ -16064,7 +16202,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1569,
+      "no": 1583,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 2,
@@ -16074,7 +16212,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1570,
+      "no": 1584,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 4,
@@ -16085,7 +16223,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1571,
+      "no": 1585,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 4,
@@ -16096,7 +16234,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1572,
+      "no": 1586,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 4,
@@ -16107,7 +16245,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1573,
+      "no": 1587,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 4,
@@ -16118,7 +16256,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1574,
+      "no": 1588,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 4,
@@ -16129,7 +16267,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1575,
+      "no": 1589,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 4,
@@ -16140,7 +16278,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1576,
+      "no": 1590,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 4,
@@ -16151,7 +16289,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1577,
+      "no": 1591,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 4,
@@ -16162,7 +16300,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1578,
+      "no": 1592,
       "hero_no": 4110,
       "speaker_no": 4110,
       "condition_type": 4,
@@ -16173,7 +16311,7 @@
       "portrait128_path": "UI/Textures/Souls/Nini/Nini_128"
     },
     {
-      "no": 1579,
+      "no": 1593,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 3,
@@ -16182,7 +16320,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1580,
+      "no": 1594,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 3,
@@ -16192,7 +16330,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1581,
+      "no": 1595,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 3,
@@ -16202,7 +16340,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1582,
+      "no": 1596,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 3,
@@ -16212,7 +16350,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1583,
+      "no": 1597,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 3,
@@ -16222,7 +16360,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1584,
+      "no": 1598,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 3,
@@ -16232,7 +16370,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1585,
+      "no": 1599,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 3,
@@ -16242,7 +16380,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1586,
+      "no": 1600,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 3,
@@ -16252,7 +16390,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1587,
+      "no": 1601,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 3,
@@ -16262,7 +16400,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1588,
+      "no": 1602,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 3,
@@ -16272,7 +16410,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1589,
+      "no": 1603,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 2,
@@ -16281,7 +16419,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1590,
+      "no": 1604,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 2,
@@ -16291,7 +16429,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1591,
+      "no": 1605,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 2,
@@ -16301,7 +16439,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1592,
+      "no": 1606,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 2,
@@ -16311,7 +16449,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1593,
+      "no": 1607,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 2,
@@ -16321,7 +16459,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1594,
+      "no": 1608,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 2,
@@ -16331,7 +16469,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1595,
+      "no": 1609,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 2,
@@ -16341,7 +16479,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1596,
+      "no": 1610,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 2,
@@ -16351,7 +16489,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1597,
+      "no": 1611,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 2,
@@ -16361,7 +16499,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_Costume01_128"
     },
     {
-      "no": 1598,
+      "no": 1612,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 2,
@@ -16371,7 +16509,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_Costume01_128"
     },
     {
-      "no": 1599,
+      "no": 1613,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 4,
@@ -16382,7 +16520,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_Costume01_128"
     },
     {
-      "no": 1600,
+      "no": 1614,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 4,
@@ -16393,7 +16531,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1601,
+      "no": 1615,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 4,
@@ -16404,7 +16542,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_Costume01_128"
     },
     {
-      "no": 1602,
+      "no": 1616,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 4,
@@ -16415,7 +16553,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_Costume01_128"
     },
     {
-      "no": 1603,
+      "no": 1617,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 4,
@@ -16426,7 +16564,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1604,
+      "no": 1618,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 4,
@@ -16437,7 +16575,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_Costume01_128"
     },
     {
-      "no": 1605,
+      "no": 1619,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 4,
@@ -16448,7 +16586,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_Costume01_128"
     },
     {
-      "no": 1606,
+      "no": 1620,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 4,
@@ -16459,7 +16597,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_128"
     },
     {
-      "no": 1607,
+      "no": 1621,
       "hero_no": 4120,
       "speaker_no": 4120,
       "condition_type": 4,
@@ -16470,7 +16608,7 @@
       "portrait128_path": "UI/Textures/Souls/Otoha/Otoha_Costume01_128"
     },
     {
-      "no": 1608,
+      "no": 1622,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 3,
@@ -16479,7 +16617,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1609,
+      "no": 1623,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 3,
@@ -16489,7 +16627,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1610,
+      "no": 1624,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 3,
@@ -16499,7 +16637,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1611,
+      "no": 1625,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 3,
@@ -16509,7 +16647,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1612,
+      "no": 1626,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 3,
@@ -16519,7 +16657,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1613,
+      "no": 1627,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 3,
@@ -16529,7 +16667,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1614,
+      "no": 1628,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 3,
@@ -16539,7 +16677,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1615,
+      "no": 1629,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 3,
@@ -16549,7 +16687,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1616,
+      "no": 1630,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 3,
@@ -16559,7 +16697,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1617,
+      "no": 1631,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 3,
@@ -16569,7 +16707,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1618,
+      "no": 1632,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 2,
@@ -16578,7 +16716,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1619,
+      "no": 1633,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 2,
@@ -16588,7 +16726,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1620,
+      "no": 1634,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 2,
@@ -16598,7 +16736,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1621,
+      "no": 1635,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 2,
@@ -16608,7 +16746,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1622,
+      "no": 1636,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 2,
@@ -16618,7 +16756,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1623,
+      "no": 1637,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 2,
@@ -16628,7 +16766,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1624,
+      "no": 1638,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 2,
@@ -16638,7 +16776,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1625,
+      "no": 1639,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 2,
@@ -16648,7 +16786,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1626,
+      "no": 1640,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 2,
@@ -16658,7 +16796,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1627,
+      "no": 1641,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 2,
@@ -16668,7 +16806,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1628,
+      "no": 1642,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 4,
@@ -16679,7 +16817,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1629,
+      "no": 1643,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 4,
@@ -16690,7 +16828,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1630,
+      "no": 1644,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 4,
@@ -16701,7 +16839,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1631,
+      "no": 1645,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 4,
@@ -16712,7 +16850,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1632,
+      "no": 1646,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 4,
@@ -16723,7 +16861,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1633,
+      "no": 1647,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 4,
@@ -16734,7 +16872,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1634,
+      "no": 1648,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 4,
@@ -16745,7 +16883,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1635,
+      "no": 1649,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 4,
@@ -16756,7 +16894,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1636,
+      "no": 1650,
       "hero_no": 4130,
       "speaker_no": 4130,
       "condition_type": 4,
@@ -16767,7 +16905,7 @@
       "portrait128_path": "UI/Textures/Souls/Joanne/Joanne_128"
     },
     {
-      "no": 1637,
+      "no": 1651,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 3,
@@ -16776,7 +16914,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1638,
+      "no": 1652,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 3,
@@ -16786,7 +16924,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1639,
+      "no": 1653,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 3,
@@ -16796,7 +16934,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1640,
+      "no": 1654,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 3,
@@ -16806,7 +16944,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1641,
+      "no": 1655,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 3,
@@ -16816,7 +16954,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1642,
+      "no": 1656,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 3,
@@ -16826,7 +16964,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1643,
+      "no": 1657,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 3,
@@ -16836,7 +16974,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1644,
+      "no": 1658,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 3,
@@ -16846,7 +16984,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1645,
+      "no": 1659,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 3,
@@ -16856,7 +16994,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1646,
+      "no": 1660,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 3,
@@ -16866,7 +17004,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1647,
+      "no": 1661,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 2,
@@ -16875,7 +17013,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1648,
+      "no": 1662,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 2,
@@ -16885,7 +17023,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1649,
+      "no": 1663,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 2,
@@ -16895,7 +17033,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1650,
+      "no": 1664,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 2,
@@ -16905,7 +17043,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1651,
+      "no": 1665,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 2,
@@ -16915,7 +17053,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1652,
+      "no": 1666,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 2,
@@ -16925,7 +17063,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1653,
+      "no": 1667,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 2,
@@ -16935,7 +17073,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1654,
+      "no": 1668,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 2,
@@ -16945,7 +17083,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1655,
+      "no": 1669,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 2,
@@ -16955,7 +17093,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1656,
+      "no": 1670,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 2,
@@ -16965,7 +17103,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1657,
+      "no": 1671,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 4,
@@ -16976,7 +17114,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1658,
+      "no": 1672,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 4,
@@ -16987,7 +17125,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1659,
+      "no": 1673,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 4,
@@ -16998,7 +17136,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1660,
+      "no": 1674,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 4,
@@ -17009,7 +17147,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1661,
+      "no": 1675,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 4,
@@ -17020,7 +17158,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1662,
+      "no": 1676,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 4,
@@ -17031,7 +17169,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1663,
+      "no": 1677,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 4,
@@ -17042,7 +17180,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1664,
+      "no": 1678,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 4,
@@ -17053,7 +17191,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1665,
+      "no": 1679,
       "hero_no": 4140,
       "speaker_no": 4140,
       "condition_type": 4,
@@ -17064,7 +17202,7 @@
       "portrait128_path": "UI/Textures/Souls/Sigrid/Sigrid_128"
     },
     {
-      "no": 1666,
+      "no": 1680,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 3,
@@ -17073,7 +17211,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1667,
+      "no": 1681,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 3,
@@ -17083,7 +17221,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1668,
+      "no": 1682,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 3,
@@ -17093,7 +17231,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1669,
+      "no": 1683,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 3,
@@ -17103,7 +17241,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1670,
+      "no": 1684,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 3,
@@ -17113,7 +17251,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1671,
+      "no": 1685,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 3,
@@ -17123,7 +17261,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1672,
+      "no": 1686,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 3,
@@ -17133,7 +17271,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1673,
+      "no": 1687,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 3,
@@ -17143,7 +17281,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1674,
+      "no": 1688,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 3,
@@ -17153,7 +17291,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1675,
+      "no": 1689,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 3,
@@ -17163,7 +17301,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1676,
+      "no": 1690,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 2,
@@ -17172,7 +17310,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1677,
+      "no": 1691,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 2,
@@ -17182,7 +17320,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1678,
+      "no": 1692,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 2,
@@ -17192,7 +17330,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1679,
+      "no": 1693,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 2,
@@ -17202,7 +17340,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1680,
+      "no": 1694,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 2,
@@ -17212,7 +17350,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1681,
+      "no": 1695,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 2,
@@ -17222,7 +17360,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1682,
+      "no": 1696,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 2,
@@ -17232,7 +17370,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1683,
+      "no": 1697,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 2,
@@ -17242,7 +17380,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1684,
+      "no": 1698,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 2,
@@ -17252,7 +17390,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1685,
+      "no": 1699,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 2,
@@ -17262,7 +17400,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1686,
+      "no": 1700,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 4,
@@ -17273,7 +17411,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1687,
+      "no": 1701,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 4,
@@ -17284,7 +17422,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1688,
+      "no": 1702,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 4,
@@ -17295,7 +17433,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1689,
+      "no": 1703,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 4,
@@ -17306,7 +17444,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1690,
+      "no": 1704,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 4,
@@ -17317,7 +17455,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1691,
+      "no": 1705,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 4,
@@ -17328,7 +17466,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1692,
+      "no": 1706,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 4,
@@ -17339,7 +17477,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1693,
+      "no": 1707,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 4,
@@ -17350,7 +17488,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1694,
+      "no": 1708,
       "hero_no": 4150,
       "speaker_no": 4150,
       "condition_type": 4,
@@ -17361,7 +17499,7 @@
       "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_128"
     },
     {
-      "no": 1695,
+      "no": 1709,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 3,
@@ -17370,7 +17508,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1696,
+      "no": 1710,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 3,
@@ -17380,7 +17518,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1697,
+      "no": 1711,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 3,
@@ -17390,7 +17528,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1698,
+      "no": 1712,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 3,
@@ -17400,7 +17538,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1699,
+      "no": 1713,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 3,
@@ -17410,7 +17548,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1700,
+      "no": 1714,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 3,
@@ -17420,7 +17558,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1701,
+      "no": 1715,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 3,
@@ -17430,7 +17568,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1702,
+      "no": 1716,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 3,
@@ -17440,7 +17578,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1703,
+      "no": 1717,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 3,
@@ -17450,7 +17588,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1704,
+      "no": 1718,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 3,
@@ -17460,7 +17598,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1705,
+      "no": 1719,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 2,
@@ -17469,7 +17607,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1706,
+      "no": 1720,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 2,
@@ -17479,7 +17617,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1707,
+      "no": 1721,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 2,
@@ -17489,7 +17627,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1708,
+      "no": 1722,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 2,
@@ -17499,7 +17637,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1709,
+      "no": 1723,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 2,
@@ -17509,7 +17647,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1710,
+      "no": 1724,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 2,
@@ -17519,7 +17657,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1711,
+      "no": 1725,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 2,
@@ -17529,7 +17667,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1712,
+      "no": 1726,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 2,
@@ -17539,7 +17677,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1713,
+      "no": 1727,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 2,
@@ -17549,7 +17687,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1714,
+      "no": 1728,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 2,
@@ -17559,7 +17697,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1715,
+      "no": 1729,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 4,
@@ -17570,7 +17708,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1716,
+      "no": 1730,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 4,
@@ -17581,7 +17719,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1717,
+      "no": 1731,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 4,
@@ -17592,7 +17730,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1718,
+      "no": 1732,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 4,
@@ -17603,7 +17741,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1719,
+      "no": 1733,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 4,
@@ -17614,7 +17752,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1720,
+      "no": 1734,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 4,
@@ -17625,7 +17763,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1721,
+      "no": 1735,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 4,
@@ -17636,7 +17774,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1722,
+      "no": 1736,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 4,
@@ -17647,7 +17785,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1723,
+      "no": 1737,
       "hero_no": 5010,
       "speaker_no": 5010,
       "condition_type": 4,
@@ -17658,7 +17796,7 @@
       "portrait128_path": "UI/Textures/Souls/Claudia/Claudia_128"
     },
     {
-      "no": 1724,
+      "no": 1738,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 3,
@@ -17667,7 +17805,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1725,
+      "no": 1739,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 3,
@@ -17677,7 +17815,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1726,
+      "no": 1740,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 3,
@@ -17687,7 +17825,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1727,
+      "no": 1741,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 3,
@@ -17697,7 +17835,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1728,
+      "no": 1742,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 3,
@@ -17707,7 +17845,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1729,
+      "no": 1743,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 3,
@@ -17717,7 +17855,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1730,
+      "no": 1744,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 3,
@@ -17727,7 +17865,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1731,
+      "no": 1745,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 3,
@@ -17737,7 +17875,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1732,
+      "no": 1746,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 3,
@@ -17747,7 +17885,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1733,
+      "no": 1747,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 3,
@@ -17757,7 +17895,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1734,
+      "no": 1748,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 2,
@@ -17766,7 +17904,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1735,
+      "no": 1749,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 2,
@@ -17776,7 +17914,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1736,
+      "no": 1750,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 2,
@@ -17786,7 +17924,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1737,
+      "no": 1751,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 2,
@@ -17796,7 +17934,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1738,
+      "no": 1752,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 2,
@@ -17806,7 +17944,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1739,
+      "no": 1753,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 2,
@@ -17816,7 +17954,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1740,
+      "no": 1754,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 2,
@@ -17826,7 +17964,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1741,
+      "no": 1755,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 2,
@@ -17836,7 +17974,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1742,
+      "no": 1756,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 2,
@@ -17846,7 +17984,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1743,
+      "no": 1757,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 2,
@@ -17856,7 +17994,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1744,
+      "no": 1758,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 4,
@@ -17867,7 +18005,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1745,
+      "no": 1759,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 4,
@@ -17878,7 +18016,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1746,
+      "no": 1760,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 4,
@@ -17889,7 +18027,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1747,
+      "no": 1761,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 4,
@@ -17900,7 +18038,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1748,
+      "no": 1762,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 4,
@@ -17911,7 +18049,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1749,
+      "no": 1763,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 4,
@@ -17922,7 +18060,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1750,
+      "no": 1764,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 4,
@@ -17933,7 +18071,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1751,
+      "no": 1765,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 4,
@@ -17944,7 +18082,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1752,
+      "no": 1766,
       "hero_no": 5020,
       "speaker_no": 5020,
       "condition_type": 4,
@@ -17955,7 +18093,7 @@
       "portrait128_path": "UI/Textures/Souls/Adrianne/Adrianne_128"
     },
     {
-      "no": 1753,
+      "no": 1767,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 3,
@@ -17964,7 +18102,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1754,
+      "no": 1768,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 3,
@@ -17974,7 +18112,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1755,
+      "no": 1769,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 3,
@@ -17984,7 +18122,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1756,
+      "no": 1770,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 3,
@@ -17994,7 +18132,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1757,
+      "no": 1771,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 3,
@@ -18004,7 +18142,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1758,
+      "no": 1772,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 3,
@@ -18014,7 +18152,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1759,
+      "no": 1773,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 3,
@@ -18024,7 +18162,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1760,
+      "no": 1774,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 3,
@@ -18034,7 +18172,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1761,
+      "no": 1775,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 3,
@@ -18044,7 +18182,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1762,
+      "no": 1776,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 3,
@@ -18054,7 +18192,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1763,
+      "no": 1777,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 2,
@@ -18063,7 +18201,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1764,
+      "no": 1778,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 2,
@@ -18073,7 +18211,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1765,
+      "no": 1779,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 2,
@@ -18083,7 +18221,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1766,
+      "no": 1780,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 2,
@@ -18093,7 +18231,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1767,
+      "no": 1781,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 2,
@@ -18103,7 +18241,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1768,
+      "no": 1782,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 2,
@@ -18113,7 +18251,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1769,
+      "no": 1783,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 2,
@@ -18123,7 +18261,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1770,
+      "no": 1784,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 2,
@@ -18133,7 +18271,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1771,
+      "no": 1785,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 2,
@@ -18143,7 +18281,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1772,
+      "no": 1786,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 2,
@@ -18153,7 +18291,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1773,
+      "no": 1787,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 4,
@@ -18164,7 +18302,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1774,
+      "no": 1788,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 4,
@@ -18175,7 +18313,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1775,
+      "no": 1789,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 4,
@@ -18186,7 +18324,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1776,
+      "no": 1790,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 4,
@@ -18197,7 +18335,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1777,
+      "no": 1791,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 4,
@@ -18208,7 +18346,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1778,
+      "no": 1792,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 4,
@@ -18219,7 +18357,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1779,
+      "no": 1793,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 4,
@@ -18230,7 +18368,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1780,
+      "no": 1794,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 4,
@@ -18241,7 +18379,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1781,
+      "no": 1795,
       "hero_no": 5030,
       "speaker_no": 5030,
       "condition_type": 4,
@@ -18252,7 +18390,7 @@
       "portrait128_path": "UI/Textures/Souls/YuriaQueen/YuriaQueen_128"
     },
     {
-      "no": 1782,
+      "no": 1796,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 3,
@@ -18261,7 +18399,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1783,
+      "no": 1797,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 3,
@@ -18271,7 +18409,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1784,
+      "no": 1798,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 3,
@@ -18281,7 +18419,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1785,
+      "no": 1799,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 3,
@@ -18291,7 +18429,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1786,
+      "no": 1800,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 3,
@@ -18301,7 +18439,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1787,
+      "no": 1801,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 3,
@@ -18311,7 +18449,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1788,
+      "no": 1802,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 3,
@@ -18321,7 +18459,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1789,
+      "no": 1803,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 3,
@@ -18331,7 +18469,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1790,
+      "no": 1804,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 3,
@@ -18341,7 +18479,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1791,
+      "no": 1805,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 3,
@@ -18351,7 +18489,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1792,
+      "no": 1806,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 2,
@@ -18360,7 +18498,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1793,
+      "no": 1807,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 2,
@@ -18370,7 +18508,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1794,
+      "no": 1808,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 2,
@@ -18380,7 +18518,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1795,
+      "no": 1809,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 2,
@@ -18390,7 +18528,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1796,
+      "no": 1810,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 2,
@@ -18400,7 +18538,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1797,
+      "no": 1811,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 2,
@@ -18410,7 +18548,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1798,
+      "no": 1812,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 2,
@@ -18420,7 +18558,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1799,
+      "no": 1813,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 2,
@@ -18430,7 +18568,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1800,
+      "no": 1814,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 2,
@@ -18440,7 +18578,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1801,
+      "no": 1815,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 2,
@@ -18450,7 +18588,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1802,
+      "no": 1816,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 4,
@@ -18461,7 +18599,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1803,
+      "no": 1817,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 4,
@@ -18472,7 +18610,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1804,
+      "no": 1818,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 4,
@@ -18483,7 +18621,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1805,
+      "no": 1819,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 4,
@@ -18494,7 +18632,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1806,
+      "no": 1820,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 4,
@@ -18505,7 +18643,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1807,
+      "no": 1821,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 4,
@@ -18516,7 +18654,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1808,
+      "no": 1822,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 4,
@@ -18527,7 +18665,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1809,
+      "no": 1823,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 4,
@@ -18538,7 +18676,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1810,
+      "no": 1824,
       "hero_no": 5040,
       "speaker_no": 5040,
       "condition_type": 4,
@@ -18549,7 +18687,7 @@
       "portrait128_path": "UI/Textures/Souls/Hanul/Hanul_128"
     },
     {
-      "no": 1811,
+      "no": 1825,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 3,
@@ -18558,7 +18696,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1812,
+      "no": 1826,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 3,
@@ -18568,7 +18706,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1813,
+      "no": 1827,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 3,
@@ -18578,7 +18716,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1814,
+      "no": 1828,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 3,
@@ -18588,7 +18726,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1815,
+      "no": 1829,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 3,
@@ -18598,7 +18736,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1816,
+      "no": 1830,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 3,
@@ -18608,7 +18746,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1817,
+      "no": 1831,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 3,
@@ -18618,7 +18756,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1818,
+      "no": 1832,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 3,
@@ -18628,7 +18766,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1819,
+      "no": 1833,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 3,
@@ -18638,7 +18776,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1820,
+      "no": 1834,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 3,
@@ -18648,7 +18786,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1821,
+      "no": 1835,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 2,
@@ -18657,7 +18795,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1822,
+      "no": 1836,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 2,
@@ -18667,7 +18805,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1823,
+      "no": 1837,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 2,
@@ -18677,7 +18815,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1824,
+      "no": 1838,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 2,
@@ -18687,7 +18825,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1825,
+      "no": 1839,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 2,
@@ -18697,7 +18835,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1826,
+      "no": 1840,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 2,
@@ -18707,7 +18845,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1827,
+      "no": 1841,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 2,
@@ -18717,7 +18855,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1828,
+      "no": 1842,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 2,
@@ -18727,7 +18865,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1829,
+      "no": 1843,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 2,
@@ -18737,7 +18875,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1830,
+      "no": 1844,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 2,
@@ -18747,7 +18885,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1831,
+      "no": 1845,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 4,
@@ -18758,7 +18896,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1832,
+      "no": 1846,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 4,
@@ -18769,7 +18907,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1833,
+      "no": 1847,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 4,
@@ -18780,7 +18918,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1834,
+      "no": 1848,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 4,
@@ -18791,7 +18929,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1835,
+      "no": 1849,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 4,
@@ -18802,7 +18940,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1836,
+      "no": 1850,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 4,
@@ -18813,7 +18951,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1837,
+      "no": 1851,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 4,
@@ -18824,7 +18962,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1838,
+      "no": 1852,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 4,
@@ -18835,7 +18973,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1839,
+      "no": 1853,
       "hero_no": 6010,
       "speaker_no": 6010,
       "condition_type": 4,
@@ -18846,7 +18984,7 @@
       "portrait128_path": "UI/Textures/Souls/Larimar/Larimar_128"
     },
     {
-      "no": 1840,
+      "no": 1854,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 3,
@@ -18855,7 +18993,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1841,
+      "no": 1855,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 3,
@@ -18865,7 +19003,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1842,
+      "no": 1856,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 3,
@@ -18875,7 +19013,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1843,
+      "no": 1857,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 3,
@@ -18885,7 +19023,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1844,
+      "no": 1858,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 3,
@@ -18895,7 +19033,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1845,
+      "no": 1859,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 3,
@@ -18905,7 +19043,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1846,
+      "no": 1860,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 3,
@@ -18915,7 +19053,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1847,
+      "no": 1861,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 3,
@@ -18925,7 +19063,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1848,
+      "no": 1862,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 3,
@@ -18935,7 +19073,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1849,
+      "no": 1863,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 3,
@@ -18945,7 +19083,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1850,
+      "no": 1864,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 2,
@@ -18954,7 +19092,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1851,
+      "no": 1865,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 2,
@@ -18964,7 +19102,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1852,
+      "no": 1866,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 2,
@@ -18974,7 +19112,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1853,
+      "no": 1867,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 2,
@@ -18984,7 +19122,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1854,
+      "no": 1868,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 2,
@@ -18994,7 +19132,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1855,
+      "no": 1869,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 2,
@@ -19004,7 +19142,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1856,
+      "no": 1870,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 2,
@@ -19014,7 +19152,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1857,
+      "no": 1871,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 2,
@@ -19024,7 +19162,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1858,
+      "no": 1872,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 2,
@@ -19034,7 +19172,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1859,
+      "no": 1873,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 2,
@@ -19044,7 +19182,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1860,
+      "no": 1874,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 4,
@@ -19055,7 +19193,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1861,
+      "no": 1875,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 4,
@@ -19066,7 +19204,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1862,
+      "no": 1876,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 4,
@@ -19077,7 +19215,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1863,
+      "no": 1877,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 4,
@@ -19088,7 +19226,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1864,
+      "no": 1878,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 4,
@@ -19099,7 +19237,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1865,
+      "no": 1879,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 4,
@@ -19110,7 +19248,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1866,
+      "no": 1880,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 4,
@@ -19121,7 +19259,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1867,
+      "no": 1881,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 4,
@@ -19132,7 +19270,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1868,
+      "no": 1882,
       "hero_no": 6020,
       "speaker_no": 6020,
       "condition_type": 4,
@@ -19143,7 +19281,7 @@
       "portrait128_path": "UI/Textures/Souls/Lizelotte/Lizelotte_128"
     },
     {
-      "no": 1869,
+      "no": 1883,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 3,
@@ -19152,7 +19290,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1870,
+      "no": 1884,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 3,
@@ -19162,7 +19300,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1871,
+      "no": 1885,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 3,
@@ -19172,7 +19310,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1872,
+      "no": 1886,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 3,
@@ -19182,7 +19320,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1873,
+      "no": 1887,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 3,
@@ -19192,7 +19330,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1874,
+      "no": 1888,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 3,
@@ -19202,7 +19340,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1875,
+      "no": 1889,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 3,
@@ -19212,7 +19350,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1876,
+      "no": 1890,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 3,
@@ -19222,7 +19360,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1877,
+      "no": 1891,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 3,
@@ -19232,7 +19370,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1878,
+      "no": 1892,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 3,
@@ -19242,7 +19380,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1879,
+      "no": 1893,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 2,
@@ -19251,7 +19389,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1880,
+      "no": 1894,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 2,
@@ -19261,7 +19399,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1881,
+      "no": 1895,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 2,
@@ -19271,7 +19409,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1882,
+      "no": 1896,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 2,
@@ -19281,7 +19419,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1883,
+      "no": 1897,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 2,
@@ -19291,7 +19429,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1884,
+      "no": 1898,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 2,
@@ -19301,7 +19439,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1885,
+      "no": 1899,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 2,
@@ -19311,7 +19449,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1886,
+      "no": 1900,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 2,
@@ -19321,7 +19459,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1887,
+      "no": 1901,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 2,
@@ -19331,7 +19469,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1888,
+      "no": 1902,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 2,
@@ -19341,7 +19479,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1889,
+      "no": 1903,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 4,
@@ -19352,7 +19490,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1890,
+      "no": 1904,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 4,
@@ -19363,7 +19501,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1891,
+      "no": 1905,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 4,
@@ -19374,7 +19512,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1892,
+      "no": 1906,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 4,
@@ -19385,7 +19523,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1893,
+      "no": 1907,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 4,
@@ -19396,7 +19534,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1894,
+      "no": 1908,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 4,
@@ -19407,7 +19545,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1895,
+      "no": 1909,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 4,
@@ -19418,7 +19556,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1896,
+      "no": 1910,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 4,
@@ -19429,7 +19567,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1897,
+      "no": 1911,
       "hero_no": 6030,
       "speaker_no": 6030,
       "condition_type": 4,
@@ -19440,7 +19578,7 @@
       "portrait128_path": "UI/Textures/Souls/Oyome/Oyome_128"
     },
     {
-      "no": 1898,
+      "no": 1912,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 3,
@@ -19449,7 +19587,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1899,
+      "no": 1913,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 3,
@@ -19459,7 +19597,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1900,
+      "no": 1914,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 3,
@@ -19469,7 +19607,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1901,
+      "no": 1915,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 3,
@@ -19479,7 +19617,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1902,
+      "no": 1916,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 3,
@@ -19489,7 +19627,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1903,
+      "no": 1917,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 3,
@@ -19499,7 +19637,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1904,
+      "no": 1918,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 3,
@@ -19509,7 +19647,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1905,
+      "no": 1919,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 3,
@@ -19519,7 +19657,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1906,
+      "no": 1920,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 3,
@@ -19529,7 +19667,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1907,
+      "no": 1921,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 3,
@@ -19539,7 +19677,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1908,
+      "no": 1922,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 2,
@@ -19548,7 +19686,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1909,
+      "no": 1923,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 2,
@@ -19558,7 +19696,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1910,
+      "no": 1924,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 2,
@@ -19568,7 +19706,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1911,
+      "no": 1925,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 2,
@@ -19578,7 +19716,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1912,
+      "no": 1926,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 2,
@@ -19588,7 +19726,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1913,
+      "no": 1927,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 2,
@@ -19598,7 +19736,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1914,
+      "no": 1928,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 2,
@@ -19608,7 +19746,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1915,
+      "no": 1929,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 2,
@@ -19618,7 +19756,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1916,
+      "no": 1930,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 2,
@@ -19628,7 +19766,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_128"
     },
     {
-      "no": 1917,
+      "no": 1931,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 2,
@@ -19638,7 +19776,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_Costume01_128"
     },
     {
-      "no": 1918,
+      "no": 1932,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 4,
@@ -19649,7 +19787,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_Costume01_128"
     },
     {
-      "no": 1919,
+      "no": 1933,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 4,
@@ -19660,7 +19798,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_Costume01_128"
     },
     {
-      "no": 1920,
+      "no": 1934,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 4,
@@ -19671,7 +19809,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_Costume01_128"
     },
     {
-      "no": 1921,
+      "no": 1935,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 4,
@@ -19682,7 +19820,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_Costume01_128"
     },
     {
-      "no": 1922,
+      "no": 1936,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 4,
@@ -19693,7 +19831,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_Costume01_128"
     },
     {
-      "no": 1923,
+      "no": 1937,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 4,
@@ -19704,7 +19842,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_Costume01_128"
     },
     {
-      "no": 1924,
+      "no": 1938,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 4,
@@ -19715,7 +19853,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_Costume01_128"
     },
     {
-      "no": 1925,
+      "no": 1939,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 4,
@@ -19726,7 +19864,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_Costume01_128"
     },
     {
-      "no": 1926,
+      "no": 1940,
       "hero_no": 6050,
       "speaker_no": 6050,
       "condition_type": 4,
@@ -19737,7 +19875,7 @@
       "portrait128_path": "UI/Textures/Souls/Eve/Eve_Costume01_128"
     },
     {
-      "no": 1927,
+      "no": 1941,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 3,
@@ -19747,7 +19885,7 @@
       "hide": 1
     },
     {
-      "no": 1928,
+      "no": 1942,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 3,
@@ -19758,7 +19896,7 @@
       "hide": 1
     },
     {
-      "no": 1929,
+      "no": 1943,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 3,
@@ -19769,7 +19907,7 @@
       "hide": 1
     },
     {
-      "no": 1930,
+      "no": 1944,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 3,
@@ -19780,7 +19918,7 @@
       "hide": 1
     },
     {
-      "no": 1931,
+      "no": 1945,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 3,
@@ -19791,7 +19929,7 @@
       "hide": 1
     },
     {
-      "no": 1932,
+      "no": 1946,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 3,
@@ -19802,7 +19940,7 @@
       "hide": 1
     },
     {
-      "no": 1933,
+      "no": 1947,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 3,
@@ -19813,7 +19951,7 @@
       "hide": 1
     },
     {
-      "no": 1934,
+      "no": 1948,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 3,
@@ -19824,7 +19962,7 @@
       "hide": 1
     },
     {
-      "no": 1935,
+      "no": 1949,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 3,
@@ -19835,7 +19973,7 @@
       "hide": 1
     },
     {
-      "no": 1936,
+      "no": 1950,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 3,
@@ -19846,7 +19984,7 @@
       "hide": 1
     },
     {
-      "no": 1937,
+      "no": 1951,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 2,
@@ -19856,7 +19994,7 @@
       "hide": 1
     },
     {
-      "no": 1938,
+      "no": 1952,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 2,
@@ -19867,7 +20005,7 @@
       "hide": 1
     },
     {
-      "no": 1939,
+      "no": 1953,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 2,
@@ -19878,7 +20016,7 @@
       "hide": 1
     },
     {
-      "no": 1940,
+      "no": 1954,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 2,
@@ -19889,7 +20027,7 @@
       "hide": 1
     },
     {
-      "no": 1941,
+      "no": 1955,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 2,
@@ -19900,7 +20038,7 @@
       "hide": 1
     },
     {
-      "no": 1942,
+      "no": 1956,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 2,
@@ -19911,7 +20049,7 @@
       "hide": 1
     },
     {
-      "no": 1943,
+      "no": 1957,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 2,
@@ -19922,7 +20060,7 @@
       "hide": 1
     },
     {
-      "no": 1944,
+      "no": 1958,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 2,
@@ -19933,7 +20071,7 @@
       "hide": 1
     },
     {
-      "no": 1945,
+      "no": 1959,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 2,
@@ -19944,7 +20082,7 @@
       "hide": 1
     },
     {
-      "no": 1946,
+      "no": 1960,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 2,
@@ -19955,7 +20093,7 @@
       "hide": 1
     },
     {
-      "no": 1947,
+      "no": 1961,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 4,
@@ -19967,7 +20105,7 @@
       "hide": 1
     },
     {
-      "no": 1948,
+      "no": 1962,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 4,
@@ -19979,7 +20117,7 @@
       "hide": 1
     },
     {
-      "no": 1949,
+      "no": 1963,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 4,
@@ -19991,7 +20129,7 @@
       "hide": 1
     },
     {
-      "no": 1950,
+      "no": 1964,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 4,
@@ -20003,7 +20141,7 @@
       "hide": 1
     },
     {
-      "no": 1951,
+      "no": 1965,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 4,
@@ -20015,7 +20153,7 @@
       "hide": 1
     },
     {
-      "no": 1952,
+      "no": 1966,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 4,
@@ -20027,7 +20165,7 @@
       "hide": 1
     },
     {
-      "no": 1953,
+      "no": 1967,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 4,
@@ -20039,7 +20177,7 @@
       "hide": 1
     },
     {
-      "no": 1954,
+      "no": 1968,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 4,
@@ -20051,7 +20189,7 @@
       "hide": 1
     },
     {
-      "no": 1955,
+      "no": 1969,
       "hero_no": 6060,
       "speaker_no": 6060,
       "condition_type": 4,
@@ -20063,7 +20201,7 @@
       "hide": 1
     },
     {
-      "no": 1956,
+      "no": 1970,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -20072,7 +20210,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1957,
+      "no": 1971,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -20082,7 +20220,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1958,
+      "no": 1972,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -20092,7 +20230,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1959,
+      "no": 1973,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -20102,7 +20240,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1960,
+      "no": 1974,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -20112,7 +20250,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1961,
+      "no": 1975,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -20122,7 +20260,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1962,
+      "no": 1976,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -20132,7 +20270,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1963,
+      "no": 1977,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -20142,7 +20280,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1964,
+      "no": 1978,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -20152,7 +20290,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1965,
+      "no": 1979,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 5,
@@ -20162,7 +20300,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1966,
+      "no": 1980,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 6,
@@ -20171,7 +20309,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1967,
+      "no": 1981,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 6,
@@ -20181,7 +20319,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1968,
+      "no": 1982,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 6,
@@ -20191,7 +20329,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1969,
+      "no": 1983,
       "hero_no": 6510,
       "speaker_no": 6510,
       "condition_type": 6,
@@ -20201,7 +20339,7 @@
       "portrait128_path": "UI/Textures/Souls/CatherineBrave/CatherineBrave_128"
     },
     {
-      "no": 1970,
+      "no": 1984,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -20210,7 +20348,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1971,
+      "no": 1985,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -20220,7 +20358,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1972,
+      "no": 1986,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -20230,7 +20368,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1973,
+      "no": 1987,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -20240,7 +20378,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1974,
+      "no": 1988,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -20250,7 +20388,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1975,
+      "no": 1989,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -20260,7 +20398,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1976,
+      "no": 1990,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -20270,7 +20408,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1977,
+      "no": 1991,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -20280,7 +20418,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1978,
+      "no": 1992,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -20290,7 +20428,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1979,
+      "no": 1993,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 5,
@@ -20300,7 +20438,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1980,
+      "no": 1994,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 6,
@@ -20309,7 +20447,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1981,
+      "no": 1995,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 6,
@@ -20319,7 +20457,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1982,
+      "no": 1996,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 6,
@@ -20329,7 +20467,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1983,
+      "no": 1997,
       "hero_no": 6520,
       "speaker_no": 6520,
       "condition_type": 6,
@@ -20339,7 +20477,7 @@
       "portrait128_path": "UI/Textures/Souls/LinzyThanatos/LinzyThanatos_128"
     },
     {
-      "no": 1984,
+      "no": 1998,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20348,7 +20486,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1985,
+      "no": 1999,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20358,7 +20496,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1986,
+      "no": 2000,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20368,7 +20506,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1987,
+      "no": 2001,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20378,7 +20516,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1988,
+      "no": 2002,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20388,7 +20526,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1989,
+      "no": 2003,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20398,7 +20536,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1990,
+      "no": 2004,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20408,7 +20546,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1991,
+      "no": 2005,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20418,7 +20556,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1992,
+      "no": 2006,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20428,7 +20566,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1993,
+      "no": 2007,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 5,
@@ -20438,7 +20576,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1994,
+      "no": 2008,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 6,
@@ -20447,7 +20585,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1995,
+      "no": 2009,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 6,
@@ -20457,7 +20595,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1996,
+      "no": 2010,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 6,
@@ -20467,7 +20605,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1997,
+      "no": 2011,
       "hero_no": 6530,
       "speaker_no": 6530,
       "condition_type": 6,
@@ -20477,7 +20615,7 @@
       "portrait128_path": "UI/Textures/Souls/MephistoDawn/MephistoDawn_128"
     },
     {
-      "no": 1998,
+      "no": 2012,
       "hero_no": 6980,
       "speaker_no": 6980,
       "condition_type": 5,
@@ -20486,7 +20624,7 @@
       "portrait128_path": "UI/Textures/Souls/Tokisaki/Tokisaki_128"
     },
     {
-      "no": 1999,
+      "no": 2013,
       "hero_no": 6990,
       "speaker_no": 6990,
       "condition_type": 5,

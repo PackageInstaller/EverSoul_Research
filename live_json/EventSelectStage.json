@@ -441,6 +441,23 @@
       "hero2_bg_path": "EverSchool2/bg_eventstage_EverSchool2_s",
       "hero2_bg_color": "FF8D71",
       "bg_path": "EverSchool2/bg_eventstage_EverSchool2"
+    },
+    {
+      "no": 27,
+      "event_group": 11,
+      "event_number": 2,
+      "stage_limit_value": 5,
+      "stage_limit_sno": 560090,
+      "buy_item_no": 100,
+      "buy_item_amount": "[50,75,100,125,150]",
+      "stage_name_sno": 12480,
+      "hero1_path": "Wedding2/img_Wedding2_Amelia",
+      "hero1_bg_path": "Wedding2/bg_eventstage_Wedding2_s",
+      "hero1_bg_color": "6BA6FF",
+      "hero2_path": "Wedding2/img_Wedding2_Olivia",
+      "hero2_bg_path": "Wedding2/bg_eventstage_Wedding2_s",
+      "hero2_bg_color": "FF8D71",
+      "bg_path": "Wedding2/bg_eventstage_Wedding2"
     }
   ]
 }

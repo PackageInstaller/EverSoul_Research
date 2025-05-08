@@ -8692,7 +8692,7 @@
       "no": 23955,
       "kr": "빈털터리",
       "en": "Destitute",
-      "ja": "",
+      "ja": "貧民",
       "zh_tw": "身無分文",
       "zh_cn": ""
     },
@@ -8700,7 +8700,7 @@
       "no": 23956,
       "kr": "파산",
       "en": "Bankrupt",
-      "ja": "",
+      "ja": "大貧民",
       "zh_tw": "破產",
       "zh_cn": ""
     },
@@ -8708,7 +8708,7 @@
       "no": 23957,
       "kr": "지속 시간동안 마나 회복이 불가능해지며, 2중첩 시 <파산> 상태가 된다.",
       "en": "Mana Recovery is disabled for the duration. Reaching 2 stacks triggers the \"Bankrupt\" debuff.",
-      "ja": "",
+      "ja": "持続時間中、マナ回復ができなくなり、2スタックすると<大貧民>状態になる。",
       "zh_tw": "持續時間內變成無法恢復魔力，達2疊加時變成＜破產＞狀態",
       "zh_cn": ""
     },
@@ -8716,7 +8716,7 @@
       "no": 23958,
       "kr": "영구 마나 회복 불가",
       "en": "Permanently disables Mana Recovery",
-      "ja": "",
+      "ja": "永続的にマナ回復不可",
       "zh_tw": "永久無法恢復魔力",
       "zh_cn": ""
     },
@@ -8724,7 +8724,7 @@
       "no": 23959,
       "kr": "결혼 전쟁",
       "en": "Wedding War",
-      "ja": "",
+      "ja": "結婚戦争",
       "zh_tw": "結婚戰爭",
       "zh_cn": ""
     },
@@ -8748,7 +8748,7 @@
       "no": 23962,
       "kr": "못말리는 신부",
       "en": "Unstoppable Bride",
-      "ja": "",
+      "ja": "止められない花嫁",
       "zh_tw": "攔不住的新娘",
       "zh_cn": ""
     },
@@ -8756,7 +8756,7 @@
       "no": 23963,
       "kr": "받는 대부분의 피해를 경감한다.",
       "en": "Most of the damage received is mitigated.",
-      "ja": "",
+      "ja": "受けるほとんどのダメージを軽減する。",
       "zh_tw": "減輕大部分的所受傷害",
       "zh_cn": ""
     },
@@ -8764,7 +8764,7 @@
       "no": 23964,
       "kr": "말릴 수 있을지도?",
       "en": "Possibly Stoppable?",
-      "ja": "",
+      "ja": "止められるかも？",
       "zh_tw": "也許攔得住？",
       "zh_cn": ""
     },
@@ -8772,7 +8772,7 @@
       "no": 23965,
       "kr": "정상적으로 피해를 받게되며 받는 최종 피해량 +200%",
       "en": "Receives damage normally and total damage received +200%",
-      "ja": "",
+      "ja": "通常通りダメージを受け、受ける最終ダメージ量+200%",
       "zh_tw": "變得照常受到傷害，所受最終傷害量+200%",
       "zh_cn": ""
     },
@@ -8780,7 +8780,7 @@
       "no": 23966,
       "kr": "수분 보충",
       "en": "Hydration",
-      "ja": "",
+      "ja": "水分補給",
       "zh_tw": "補充水分",
       "zh_cn": ""
     },
@@ -8788,7 +8788,7 @@
       "no": 23967,
       "kr": "지속 시간 종료 시 체력이 회복된다.",
       "en": "Restores HP upon expiration.",
-      "ja": "",
+      "ja": "持続時間が終了すると、体力が回復される。",
       "zh_tw": "持續時間結束時恢復體力",
       "zh_cn": ""
     },
@@ -8796,7 +8796,7 @@
       "no": 23968,
       "kr": "붉은 실",
       "en": "Red Thread",
-      "ja": "",
+      "ja": "赤い糸",
       "zh_tw": "紅線",
       "zh_cn": ""
     },
@@ -8804,7 +8804,7 @@
       "no": 23969,
       "kr": "푸른 실",
       "en": "Blue Thread",
-      "ja": "",
+      "ja": "青い糸",
       "zh_tw": "藍線",
       "zh_cn": ""
     },
@@ -8812,7 +8812,7 @@
       "no": 23970,
       "kr": "해당 정령이 메인 스킬을 사용하면 <못말리는 신부> 중첩을 100 회복시킨다.",
       "en": "Using the main skill restores 100 stacks of \"Unstoppable Bride\" on Lute.",
-      "ja": "",
+      "ja": "精霊がメインスキルを使用すると、<止められない花嫁>スタックを100回復させる。",
       "zh_tw": "該精靈使用主要技能時，恢復＜攔不住的新娘＞100疊加",
       "zh_cn": ""
     },
@@ -8820,7 +8820,7 @@
       "no": 23971,
       "kr": "해당 정령이 메인 스킬을 사용하지 않고 지속 시간이 종료되면 <못말리는 신부> 중첩을 100 회복시킨다.",
       "en": "Not using the main skill before expiration restores 100 stacks of \"Unstoppable Bride\" on Lute.",
-      "ja": "",
+      "ja": "メインスキルを使用せずに持続時間が終了すると、<止められない花嫁>スタックを100回復させる。",
       "zh_tw": "該精靈不使用主要技能，持續時間結束後，恢復＜攔不住的新娘＞100疊加",
       "zh_cn": ""
     },
@@ -10476,7 +10476,7 @@
       "no": 26074,
       "kr": "파멸자",
       "en": "Doom Bringer",
-      "ja": "",
+      "ja": "破滅者",
       "zh_tw": "毀滅者",
       "zh_cn": ""
     },
@@ -10484,7 +10484,7 @@
       "no": 26075,
       "kr": "대재앙",
       "en": "Apocalypse",
-      "ja": "",
+      "ja": "大災害",
       "zh_tw": "大災難",
       "zh_cn": ""
     },
@@ -10492,7 +10492,7 @@
       "no": 26076,
       "kr": "찾아낸 희망",
       "en": "Found Hope",
-      "ja": "",
+      "ja": "見つけ出した希望",
       "zh_tw": "一絲希望",
       "zh_cn": ""
     },
@@ -13018,10 +13018,10 @@
     },
     {
       "no": 27324,
-      "kr": "냉기, 중독에 취약",
-      "en": "Vulnerable to Freeze and Poison",
+      "kr": "중독에 취약",
+      "en": "Vulnerable to Poison",
       "ja": "",
-      "zh_tw": "容易陷入寒氣、中毒",
+      "zh_tw": "容易陷入中毒",
       "zh_cn": ""
     },
     {
@@ -14547,7 +14547,7 @@
     {
       "no": 27515,
       "kr": "일정 시간 마다 피해를 입는다. 지속 피해로 취급되지 않는다.",
-      "en": "Receives damage at a set interval. This does not count as DoT.",
+      "en": "Deals damage at a set interval. This does not count as DoT.",
       "ja": "",
       "zh_tw": "每隔一定時間受到傷害，不被視為持續傷害",
       "zh_cn": ""
@@ -14563,7 +14563,7 @@
     {
       "no": 27517,
       "kr": "아군이 메인 스킬을 사용할 때 마다 중첩되며, 자신의 스킬을 강화시킨다.",
-      "en": "Stacks whenever an ally uses a main skill and enhances the caster's skill.",
+      "en": "Stacks whenever an ally uses her main skill and enhances the caster's skill.",
       "ja": "",
       "zh_tw": "每當友軍使用主要技能時會疊加，並強化自身技能",
       "zh_cn": ""
@@ -14579,7 +14579,7 @@
     {
       "no": 27519,
       "kr": "<격류참> 효과를 강화한다.",
-      "en": "Enhances \"Clashing Current Slash\".",
+      "en": "Enhances the effects of \"Clashing Current Slash.\"",
       "ja": "",
       "zh_tw": "強化＜激流斬＞效果",
       "zh_cn": ""
@@ -14595,7 +14595,7 @@
     {
       "no": 27521,
       "kr": "<청류쇄기> 효과를 강화한다.",
-      "en": "Enhances \"Clear Current Shatter\".",
+      "en": "Enhances the effects of \"Clear Current Shatter.\"",
       "ja": "",
       "zh_tw": "強化＜清流粉碎＞效果",
       "zh_cn": ""
@@ -14611,9 +14611,9 @@
     {
       "no": 27523,
       "kr": "가하는 피해량 증가",
-      "en": "Damage dealt increases greatly when the number of active buffs goes over a threshold",
+      "en": "Damage dealt increased",
       "ja": "",
-      "zh_tw": "持有一定數量以上的增益效果時，傷害量大幅提升",
+      "zh_tw": "造成傷害量增加",
       "zh_cn": ""
     },
     {
@@ -14627,9 +14627,9 @@
     {
       "no": 27525,
       "kr": "받는 버프의 효과가 더욱 강해진다. 일정 버프 수 이상 보유 시 피해량이 크게 상승한다",
-      "en": "Further enhances the effects of buffs received.",
+      "en": "Further enhances the effects of buffs received. Damage dealt increases greatly when the number of active buffs goes over a threshold.",
       "ja": "",
-      "zh_tw": "所受增益效果加強",
+      "zh_tw": "進一步強化所受增益效果。持有一定數量以上的增益效果時，傷害量大幅提升",
       "zh_cn": ""
     },
     {
@@ -14770,38 +14770,246 @@
     },
     {
       "no": 27543,
-      "kr": "",
-      "en": "Work in Progress",
+      "kr": "글레이셜 마나",
+      "en": "Glacial Mana",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "冰川魔力",
       "zh_cn": ""
     },
     {
       "no": 27544,
-      "kr": "",
-      "en": "Work in Progress",
+      "kr": "글레이셜 페어리 마나",
+      "en": "Glacial Fairy Mana",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "冰川仙子魔力",
       "zh_cn": ""
     },
     {
       "no": 27545,
-      "kr": "",
-      "en": "Work in Progress",
+      "kr": "르네(백은)의 유물 효과로 인해 2초마다 마나를 <value> 회복한다.",
+      "en": "Restores <value> Mana every 2 sec thanks to Renee (Argent)'s Artifact effects.",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "因勒內（白銀）的遺物效果，每2秒恢復魔力<value>",
       "zh_cn": ""
     },
     {
       "no": 27546,
-      "kr": "",
-      "en": "Work in Progress",
+      "kr": "르네(백은)의 유물 효과로 인해 2초마다 마나를 <value> 회복한다. (요정형 전용)",
+      "en": "Restores <value> Mana every 2 sec thanks to Renee (Argent)'s Artifact effects (exclusive to Fairy Souls).",
       "ja": "",
-      "zh_tw": "Work in Progress",
+      "zh_tw": "因勒內（白銀）的遺物效果，每2秒恢復魔力<value>（妖精型專用）",
       "zh_cn": ""
     },
     {
       "no": 27547,
+      "kr": "중첩 당 공격력 <value>%",
+      "en": "ATK <value>% per stack",
+      "ja": "",
+      "zh_tw": "每疊加攻擊力<value>%",
+      "zh_cn": ""
+    },
+    {
+      "no": 27548,
+      "kr": "앱솔루트 제로",
+      "en": "Absolute Zero",
+      "ja": "",
+      "zh_tw": "絕對零度",
+      "zh_cn": ""
+    },
+    {
+      "no": 27549,
+      "kr": "혹한의 마력",
+      "en": "Arctic Mana",
+      "ja": "",
+      "zh_tw": "酷寒魔力",
+      "zh_cn": ""
+    },
+    {
+      "no": 27550,
+      "kr": "2초 마다 공격력 <value>%의 냉기 피해를 받는 상태가 되었다! ",
+      "en": "Deals Freeze DoT equal to <value>% of ATK every 2 sec! ",
+      "ja": "",
+      "zh_tw": "陷入每2秒受到攻擊力<value>%的寒氣傷害狀態！",
+      "zh_cn": ""
+    },
+    {
+      "no": 27551,
+      "kr": "자신의 마력이 완전히 해방되어 공격력이 <value>% 증가한다!",
+      "en": "With her Mana fully unleashed, ATK is increased by <value>%!",
+      "ja": "",
+      "zh_tw": "自身魔力完全解放，攻擊力增加<value>%！",
+      "zh_cn": ""
+    },
+    {
+      "no": 27552,
+      "kr": "마력 해방",
+      "en": "Mana Release",
+      "ja": "",
+      "zh_tw": "魔力解放",
+      "zh_cn": ""
+    },
+    {
+      "no": 27553,
+      "kr": "붓꽃 개화",
+      "en": "Iris Bloom",
+      "ja": "",
+      "zh_tw": "鳶尾花開",
+      "zh_cn": ""
+    },
+    {
+      "no": 27554,
+      "kr": "메인 스킬 및 얼티밋 스킬 사용 시 추가 효과가 부여된다.",
+      "en": "Using main/ultimate skills triggers additional effects.",
+      "ja": "",
+      "zh_tw": "使用主要技能與終極技能時，賦予額外效果",
+      "zh_cn": ""
+    },
+    {
+      "no": 27555,
+      "kr": "내면을 비추는 거울",
+      "en": "Mirror of Introspection",
+      "ja": "",
+      "zh_tw": "映照內心的鏡子",
+      "zh_cn": ""
+    },
+    {
+      "no": 27556,
+      "kr": "매혹의 거울 사용 시 모든 아군의 가하는 피해가 증가하고, 받는 피해가 감소한다.",
+      "en": "Using Alluring Mirror increases damage dealt and decreases total damage received for all allies.",
+      "ja": "",
+      "zh_tw": "使用魅惑之鏡時，所有友軍的造成傷害增加，所受傷害減少",
+      "zh_cn": ""
+    },
+    {
+      "no": 27557,
+      "kr": "깨달은 영원의 의미",
+      "en": "Realized Meaning of Eternity",
+      "ja": "",
+      "zh_tw": "意識到永遠含意",
+      "zh_cn": ""
+    },
+    {
+      "no": 27558,
+      "kr": "영원의 의미를 깨달은 그녀는 그의 뒤를 이어가기로 결심했다.",
+      "en": "Having realized the meaning of eternity, she decided to follow in his footsteps.",
+      "ja": "",
+      "zh_tw": "意識到永遠含意的她，決定跟上他的腳步",
+      "zh_cn": ""
+    },
+    {
+      "no": 27559,
+      "kr": "가시 돋친 장미",
+      "en": "Thorny Rose",
+      "ja": "",
+      "zh_tw": "帶刺玫瑰",
+      "zh_cn": ""
+    },
+    {
+      "no": 27560,
+      "kr": "일반 공격 시 중독을 부여한다.",
+      "en": "Normal attacks inflict Poison.",
+      "ja": "",
+      "zh_tw": "一般攻擊時賦予中毒",
+      "zh_cn": ""
+    },
+    {
+      "no": 27561,
+      "kr": "뱀의 춤사위",
+      "en": "Snake Dance",
+      "ja": "",
+      "zh_tw": "蛇的舞姿",
+      "zh_cn": ""
+    },
+    {
+      "no": 27562,
+      "kr": "메인 스킬 및 얼티밋 스킬 사용 시 추가 효과가 부여된다.",
+      "en": "Using main/ultimate skills triggers additional effects.",
+      "ja": "",
+      "zh_tw": "使用主要技能與終極技能時，賦予額外效果",
+      "zh_cn": ""
+    },
+    {
+      "no": 27563,
+      "kr": "한계 돌파 동기화",
+      "en": "Limit Break Synchronization",
+      "ja": "",
+      "zh_tw": "同步突破極限",
+      "zh_cn": ""
+    },
+    {
+      "no": 27564,
+      "kr": "종말을 부르는 인형의 리미터 해제에 반응한다.",
+      "en": "Reacts to the Doomsday Doll's Unlock Limiter.",
+      "ja": "",
+      "zh_tw": "對末日傀儡的解除限制產生反應",
+      "zh_cn": ""
+    },
+    {
+      "no": 27565,
+      "kr": "최후의 작전",
+      "en": "Final Operation",
+      "ja": "",
+      "zh_tw": "最後的作戰",
+      "zh_cn": ""
+    },
+    {
+      "no": 27566,
+      "kr": "얼티밋 스킬 사용 시 궤멸적인 피해를 입히지만 전투 불능이 된다.",
+      "en": "Ultimate skill deals massive damage but incapacitates the Soul who uses it.",
+      "ja": "",
+      "zh_tw": "使用終極技能時，造成毀滅性傷害，但陷入無法戰鬥",
+      "zh_cn": ""
+    },
+    {
+      "no": 27567,
+      "kr": "불사의 레베카",
+      "en": "Rebecca the Immortal",
+      "ja": "",
+      "zh_tw": "不死的瑞貝卡",
+      "zh_cn": ""
+    },
+    {
+      "no": 27568,
+      "kr": "내가 나서야 할 때구나",
+      "en": "Time to Step Up",
+      "ja": "",
+      "zh_tw": "看來該我出場了",
+      "zh_cn": ""
+    },
+    {
+      "no": 27569,
+      "kr": "고장 유발",
+      "en": "Induce Malfunction",
+      "ja": "",
+      "zh_tw": "誘發故障",
+      "zh_cn": ""
+    },
+    {
+      "no": 27570,
+      "kr": "메인 스킬 및 얼티밋 스킬 사용 시 추가 효과가 부여된다.",
+      "en": "Using main/ultimate skills triggers additional effects.",
+      "ja": "",
+      "zh_tw": "使用主要技能與終極技能時，賦予額外效果",
+      "zh_cn": ""
+    },
+    {
+      "no": 27571,
+      "kr": "침수 쇼트",
+      "en": "Wetwire",
+      "ja": "",
+      "zh_tw": "浸水短路",
+      "zh_cn": ""
+    },
+    {
+      "no": 27572,
+      "kr": "일반 공격 시 감전을 부여한다.",
+      "en": "Normal attacks inflict Shock.",
+      "ja": "",
+      "zh_tw": "一般攻擊時賦予觸電",
+      "zh_cn": ""
+    },
+    {
+      "no": 27573,
       "kr": "",
       "en": "Work in Progress",
       "ja": "",
@@ -18603,7 +18811,7 @@
     {
       "no": 231162,
       "kr": "<COLOR=#FFFFFF><격류참></COLOR>을 사용할 때 <COLOR=#FFFFFF><격류></COLOR>를 소모했을 경우 <116611.DURATION>초 동안 모든 아군의 치명타 피해량이 <116611.VALUE> 증가시킨다.\r\n<COLOR=#FFFFFF><청류쇄기></COLOR>를 사용할 때 <COLOR=#FFFFFF><청류></COLOR>를 소모했을 경우 모든 아군에게 <116612.DURATION>초 동안 3초마다 체력을 시전자의 공격력 <116613.VALUE>만큼 회복하고, 디버프를 <COLOR=#FFFFFF>1</COLOR>개 제거하는 효과를 부여한다.",
-      "en": "Consuming <COLOR=#FFFFFF>\"Clashing Current\"</COLOR> when using <COLOR=#FFFFFF>\"Clashing Current Slash\"</COLOR> increases all allies' Crit DMG by <116611.VALUE> for <116611.DURATION> sec.\r\nConsuming <COLOR=#FFFFFF>\"Clear Current\"</COLOR> when using <COLOR=#FFFFFF>\"Clear Current Shatter\"</COLOR> restores all allies' HP equal to <116613.VALUE> of the caster's ATK every 3 sec for <116612.DURATION> sec and grants an effect that cancels <COLOR=#FFFFFF>1</COLOR> debuff inflicted on them.",
+      "en": "Consuming <COLOR=#FFFFFF>\"Clashing Current\"</COLOR> when using <COLOR=#FFFFFF>\"Clashing Current Slash\"</COLOR> increases all allies' Crit DMG by <116611.VALUE> for <116611.DURATION> sec.\r\nConsuming <COLOR=#FFFFFF>\"Clear Current\"</COLOR> when using <COLOR=#FFFFFF>\"Clear Current Shatter\"</COLOR> grants a buff on all allies, restoring their HP by <116613.VALUE> of the caster's ATK and canceling <COLOR=#FFFFFF>1</COLOR> debuff every 3 sec for <116612.DURATION> sec.",
       "ja": "",
       "zh_tw": "使用<COLOR=#FFFFFF>＜激流斬＞</COLOR>時，若已消耗<COLOR=#FFFFFF>＜激流＞</COLOR>，<116611.DURATION>秒內使所有友軍的暴擊傷害量增加<116611.VALUE>。\r\n若使用<COLOR=#FFFFFF>＜清流粉碎＞</COLOR>時已消耗<COLOR=#FFFFFF>＜清流＞</COLOR>，賦予所有友軍效果，<116612.DURATION>秒內每3秒將體力恢復相當施展者攻擊力的<116613.VALUE>，並解除<COLOR=#FFFFFF>1</COLOR>個減益效果",
       "zh_cn": ""
@@ -18611,7 +18819,7 @@
     {
       "no": 231163,
       "kr": "증가하는 치명타 피해량이 <116621.VALUE>, 회복량이 <116623.VALUE>로 변경된다.",
-      "en": "Crit DMG increase changes to <116621.VALUE>, Recovery changes to <116623.VALUE>.",
+      "en": "Crit DMG increase changes to <116621.VALUE>, and Recovery changes to <116623.VALUE>.",
       "ja": "",
       "zh_tw": "變更為暴擊傷害量增加<116621.VALUE>，恢復量<116623.VALUE>",
       "zh_cn": ""
@@ -18619,7 +18827,7 @@
     {
       "no": 231164,
       "kr": "증가하는 치명타 피해량이 <116631.VALUE>, 회복량이 <116633.VALUE>로 변경된다.",
-      "en": "Crit DMG increase changes to <116631.VALUE>, Recovery changes to <116633.VALUE>.",
+      "en": "Crit DMG increase changes to <116631.VALUE>, and Recovery changes to <116633.VALUE>.",
       "ja": "",
       "zh_tw": "變更為暴擊傷害量增加<116631.VALUE>，恢復量<116633.VALUE>",
       "zh_cn": ""
@@ -18627,7 +18835,7 @@
     {
       "no": 231165,
       "kr": "증가하는 치명타 피해량이 <116641.VALUE>, 회복량이 <116643.VALUE>로 변경된다. 버프의 시간이 기존 대비 1.5배 상승한다.",
-      "en": "Crit DMG increase changes to <116641.VALUE>, Recovery changes to <116643.VALUE>. The buff duration is multiplied by 1.5.",
+      "en": "Crit DMG increase changes to <116641.VALUE>, and Recovery changes to <116643.VALUE>. The buff duration is multiplied by 1.5.",
       "ja": "",
       "zh_tw": "變更為暴擊傷害量增加<116641.VALUE>，恢復量<116643.VALUE>。增益效果時間比先前上升1.5倍",
       "zh_cn": ""
@@ -18635,7 +18843,7 @@
     {
       "no": 231166,
       "kr": "증가하는 치명타 피해량이 <116651.VALUE>, 회복량이 <116653.VALUE>로 변경된다.",
-      "en": "Crit DMG increase changes to <116651.VALUE>, Recovery changes to <116653.VALUE>.",
+      "en": "Crit DMG increase changes to <116651.VALUE>, and Recovery changes to <116653.VALUE>.",
       "ja": "",
       "zh_tw": "變更為暴擊傷害量增加<116651.VALUE>，恢復量<116653.VALUE>",
       "zh_cn": ""
@@ -18643,7 +18851,7 @@
     {
       "no": 231167,
       "kr": "증가하는 치명타 피해량이 <116661.VALUE>, 회복량이 <116663.VALUE>로 변경된다.",
-      "en": "Crit DMG increase changes to <116661.VALUE>, Recovery changes to <116663.VALUE>.",
+      "en": "Crit DMG increase changes to <116661.VALUE>, and Recovery changes to <116663.VALUE>.",
       "ja": "",
       "zh_tw": "變更為暴擊傷害量增加<116661.VALUE>，恢復量<116663.VALUE>",
       "zh_cn": ""
@@ -18651,7 +18859,7 @@
     {
       "no": 231168,
       "kr": "증가하는 치명타 피해량이 <116671.VALUE>, 회복량이 <116673.VALUE>로 변경된다.  버프의 시간이 기존 대비 2배 상승한다.",
-      "en": "Crit DMG increase changes to <116671.VALUE>, Recovery changes to <116673.VALUE>. The buff's duration is multiplied by 2.",
+      "en": "Crit DMG increase changes to <116671.VALUE>, and Recovery changes to <116673.VALUE>. The buff duration is multiplied by 2.",
       "ja": "",
       "zh_tw": "變更為暴擊傷害量增加<116671.VALUE>，恢復量<116673.VALUE>。增益效果時間比先前上升2倍",
       "zh_cn": ""
@@ -21142,6 +21350,86 @@
       "en": "A wellspring of wisdom guarded by the giant of Wisdom.\r\nHidden beneath the World Tree Yggdrasil and brimming with mead.\r\nIt grants wisdom and discernment to those who drink from it.",
       "ja": "",
       "zh_tw": "由智慧巨人守護的智慧泉水。\r\n位於世界之樹底下，充滿了蜂蜜酒。\r\n喝下這泉水的人能獲得智慧與明辨是非的能力。",
+      "zh_cn": ""
+    },
+    {
+      "no": 233160,
+      "kr": "누아다의 의수(백은)",
+      "en": "Nuada Airgetlám (Argent)",
+      "ja": "",
+      "zh_tw": "努亞達的義肢（白銀）",
+      "zh_cn": ""
+    },
+    {
+      "no": 233161,
+      "kr": "글레이셜 마나",
+      "en": "Glacial Mana",
+      "ja": "",
+      "zh_tw": "冰川魔力",
+      "zh_cn": ""
+    },
+    {
+      "no": 233162,
+      "kr": "<color=#FFFFFF><앱솔루트 제로></color> 효과가 발동될 때 16초 동안 자신의 가하는 피해가 <316811.VALUE>, 치명타 위력이 <316813.VALUE> 증가한다. 추가로 <color=#FFFFFF><앱솔루트 제로></color> 효과가 유지되는 동안 자신을 제외한 모든 아군의 <color=#FFFFFF>2</color>초마다 마나를 <316815.VALUE> 회복시키고, 만약 대상이 요정형일 경우 <color=#FFFFFF>2</color>초 마다 마나를 <316817.VALUE> 회복한다.",
+      "en": "Increases damage dealt by <316811.VALUE> and Crit DMG by <316813.VALUE> for 16 sec when <color=#FFFFFF>\"Absolute Zero\"</color> is triggered. While <color=#FFFFFF>\"Absolute Zero\"</color> is active, all non-Fairy allies recover <316815.VALUE> Mana every <color=#FFFFFF>2</color> sec, and all other Fairy allies recover <316817.VALUE> Mana every <color=#FFFFFF>2</color> sec.",
+      "ja": "",
+      "zh_tw": "<color=#FFFFFF>＜絕對零度＞</color>效果發動時，16秒內自身造成傷害增加<316811.VALUE>、暴擊威力增加<316813.VALUE>。另外，<color=#FFFFFF>＜絕對零度＞</color>效果持續期間，除自身以外，每<color=#FFFFFF>2</color>秒恢復所有友軍魔力<316815.VALUE>，若目標為妖精型，每<color=#FFFFFF>2</color>秒恢復魔力<316817.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 233163,
+      "kr": "증가하는 가하는 피해가 <316821.VALUE>로, 치명타 위력이 <316823.VALUE>로 변경된다.",
+      "en": "Damage dealt increase changes to <316821.VALUE>, and Crit DMG increase changes to <316823.VALUE>.",
+      "ja": "",
+      "zh_tw": "變更為造成傷害增加<316821.VALUE>、暴擊威力增加<316823.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 233164,
+      "kr": "증가하는 가하는 피해가 <316831.VALUE>로, 치명타 위력이 <316833.VALUE>로 변경된다.",
+      "en": "Damage dealt increase changes to <316831.VALUE>, and Crit DMG increase changes to <316833.VALUE>.",
+      "ja": "",
+      "zh_tw": "變更為造成傷害增加<316831.VALUE>、暴擊威力增加<316833.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 233165,
+      "kr": "전투 시작 이후 10초마다 <마력 해방> 버프를 1중첩 획득하고, <앱솔루트 제로> 상태일 때 유물 효과로 증가하는 가하는 피해가 <316841.VALUE>로, 치명타 위력이 <316843.VALUE>로 변경된다. <color=#FFFFFF><앱솔루트 제로></color> 효과 중 <color=#FFFFFF>2</color>초마다 회복되는 마나가 <316845.VALUE>, 요정형일 경우 회복되는 마나가 <316847.VALUE> 으로 변경된다.",
+      "en": "Gains a stack of \"Mana Release\" every 10 sec once battle begins. While <color=#FFFFFF>\"Absolute Zero\"</color> is active, her damage dealt increase from her Artifact effects changes to <316841.VALUE>, her Crit DMG increase from her Artifact effects changes to <316843.VALUE>, and Mana Recovery every <color=#FFFFFF>2</color> sec changes to <316845.VALUE> for non-Fairy allies and <316847.VALUE> for all other Fairy allies.",
+      "ja": "",
+      "zh_tw": "戰鬥開始後每10秒獲得增益效果＜魔力解放＞1疊加，處於＜絕對零度＞狀態時因遺物效果變更為造成傷害增加<316841.VALUE>、暴擊威力增加<316843.VALUE>。<color=#FFFFFF>＜絕對零度＞</color>效果期間，每<color=#FFFFFF>2</color>秒恢復魔力<316845.VALUE>，若為妖精型，變更為恢復魔力<316847.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 233166,
+      "kr": "증가하는 가하는 피해가 <316851.VALUE>로, 치명타 위력이 <316853.VALUE>로 변경된다.",
+      "en": "Damage dealt increase changes to <316851.VALUE>, and Crit DMG increase changes to <316853.VALUE>.",
+      "ja": "",
+      "zh_tw": "變更為造成傷害增加<316851.VALUE>、暴擊威力增加<316853.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 233167,
+      "kr": "증가하는 가하는 피해가 <316861.VALUE>로, 치명타 위력이 <316863.VALUE>로 변경된다.",
+      "en": "Damage dealt increase changes to <316861.VALUE>, and Crit DMG increase changes to <316863.VALUE>.",
+      "ja": "",
+      "zh_tw": "變更為造成傷害增加<316861.VALUE>、暴擊威力增加<316863.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 233168,
+      "kr": "증가하는 가하는 피해가 <316871.VALUE>로, 치명타 위력이 <316873.VALUE>로 변경된다. <color=#FFFFFF><앱솔루트 제로></color> 효과 중 <color=#FFFFFF>2</color>초마다 회복되는 마나가 <316875.VALUE>, 요정형일 경우 회복되는 마나가 <316877.VALUE> 으로 변경된다.\r\n추가로 유물 효과를 통해 부여되는 <마력 해방>이 <앱솔루트 제로> 상태에서도 받을 수 있게 된다.",
+      "en": "Damage dealt increase changes to <316871.VALUE>, and Crit DMG increase changes to <316873.VALUE>. While <color=#FFFFFF>\"Absolute Zero\"</color> is active, Mana Recovery every <color=#FFFFFF>2</color> sec changes to <316875.VALUE> for non-Fairy allies and <316877.VALUE> for all other Fairy allies.\r\nAlso, \"Mana Release\" stacks gained from Artifact effects can now also be gained while in \"Absolute Zero.\"",
+      "ja": "",
+      "zh_tw": "變更為造成傷害增加<316871.VALUE>、暴擊威力增加<316873.VALUE>。<color=#FFFFFF>＜絕對零度＞</color>效果期間，每<color=#FFFFFF>2</color>秒恢復魔力<316875.VALUE>，若為妖精型，變更為恢復魔力<316877.VALUE>。\r\n另外變成在＜絕對零度＞狀態下也能受到因遺物效果賦予的＜魔力解放＞",
+      "zh_cn": ""
+    },
+    {
+      "no": 233169,
+      "kr": "성스러운 은빛 광채를 품은 의수.\r\n신들의 왕에 걸맞도록 그의 진짜 팔보다도 더욱 완벽하고 아름답게 만들어졌다.\r\n왕좌에서 내려온 그가 이 세상에 도사리는 어둠을 계속해서 섬멸할 수 있도록…",
+      "en": "A prosthetic arm imbued with holy, silver radiance.\r\nCrafted to be even more perfect and beautiful than his true arm, as befits the King of Gods,\r\nso that he, descended from the throne, may continue to annihilate the darkness lurking in this world...",
+      "ja": "",
+      "zh_tw": "閃爍著神聖銀光的義肢。\r\n據說為了不愧為眾神之王，製作得比他真正的手臂還要更完美、更美麗。\r\n讓從王座下來的他，可以持續消滅籠罩在這世界的黑暗…",
       "zh_cn": ""
     },
     {
@@ -24252,7 +24540,7 @@
       "no": 341141,
       "kr": "날 잡을 수는 없을걸?",
       "en": "Catch me if you can!",
-      "ja": "",
+      "ja": "私は捕まえられないよ？",
       "zh_tw": "你應該抓不到我喔！",
       "zh_cn": ""
     },
@@ -24260,7 +24548,7 @@
       "no": 341142,
       "kr": "멍하니 있으면 안된다구~",
       "en": "Don't just stand there!",
-      "ja": "",
+      "ja": "ぼーっとしているとだめだよ～",
       "zh_tw": "不可以一直發呆～",
       "zh_cn": ""
     },
@@ -24268,7 +24556,7 @@
       "no": 341143,
       "kr": "이것도 저것도 다 내꺼야~",
       "en": "Everything's mine!",
-      "ja": "",
+      "ja": "あれもこれも、全部もらっちゃうよ～",
       "zh_tw": "這個和那個都是我的～",
       "zh_cn": ""
     },
@@ -24276,7 +24564,7 @@
       "no": 341144,
       "kr": "작업 시작! 잡아보라구~",
       "en": "Here we go! Try to catch me!",
-      "ja": "",
+      "ja": "作業開始！捕まえてみて～",
       "zh_tw": "開始工作！來抓我呀～",
       "zh_cn": ""
     },
@@ -24284,7 +24572,7 @@
       "no": 341145,
       "kr": "체크메이트야~",
       "en": "Checkmate!",
-      "ja": "",
+      "ja": "チェックメイト～",
       "zh_tw": "將死你～",
       "zh_cn": ""
     },
@@ -25838,6 +26126,54 @@
       "en": "Rapid Growth",
       "ja": "",
       "zh_tw": "急速成長",
+      "zh_cn": ""
+    },
+    {
+      "no": 343161,
+      "kr": "아이시클 스피어",
+      "en": "Icicle Spear",
+      "ja": "",
+      "zh_tw": "冰柱領域",
+      "zh_cn": ""
+    },
+    {
+      "no": 343162,
+      "kr": "사이로 스파이크",
+      "en": "Cryo Spike",
+      "ja": "",
+      "zh_tw": "寒冰重擊",
+      "zh_cn": ""
+    },
+    {
+      "no": 343163,
+      "kr": "글레이셜 매그넘",
+      "en": "Glacial Magnum",
+      "ja": "",
+      "zh_tw": "冰川麥格農",
+      "zh_cn": ""
+    },
+    {
+      "no": 343164,
+      "kr": "앱솔루트 제로",
+      "en": "Absolute Zero",
+      "ja": "",
+      "zh_tw": "絕對零度",
+      "zh_cn": ""
+    },
+    {
+      "no": 343165,
+      "kr": "아이시클 피스트",
+      "en": "Icicle Fist",
+      "ja": "",
+      "zh_tw": "超冰鐵拳",
+      "zh_cn": ""
+    },
+    {
+      "no": 343169,
+      "kr": "이터널 콜드",
+      "en": "Eternal Cold",
+      "ja": "",
+      "zh_tw": "恆久酷寒",
       "zh_cn": ""
     },
     {
@@ -27756,7 +28092,7 @@
       "no": 349037,
       "kr": "약점 공략",
       "en": "Weakness Exploitation",
-      "ja": "",
+      "ja": "弱点攻略",
       "zh_tw": "攻略弱點",
       "zh_cn": ""
     },
@@ -27998,6 +28334,14 @@
       "en": "Assassination Without Witnesses",
       "ja": "",
       "zh_tw": "沒有目擊證人就是暗殺",
+      "zh_cn": ""
+    },
+    {
+      "no": 349070,
+      "kr": "마나 폭발",
+      "en": "Mana Burst",
+      "ja": "",
+      "zh_tw": "魔力爆發",
       "zh_cn": ""
     },
     {
@@ -29388,7 +29732,7 @@
       "no": 351141,
       "kr": "에일린이 주사위 연막탄을 터트리며 자신에게 <114111.DURATION>초간 은신 상태를 부여하고, 주변 2.5m 내의 적을 <114113.DURATION>초 동안 수면 상태로 만든다. 은신이 지속되는 동안 치명타 확률이 <114112.VALUE>, 치명타 위력이 <114114.VALUE> 증가한다. ",
       "en": "Eileen tosses a dice that's actually a smoke bomb, stealthing her for <114111.DURATION> seconds and making enemies within 2.5m fall asleep for <114113.DURATION> seconds. Her Crit Rate increases by <114112.VALUE> and her Crit DMG increases by <114114.VALUE> while she is stealthed.",
-      "ja": "",
+      "ja": "エイリーンがサイコロ煙幕弾を爆発させて自分に<114111.DURATION>秒間ハイド状態を付与し、周辺2.5m内の敵を<114113.DURATION>秒間睡眠状態にする。ハイドが持続する間、クリティカル率が<114112.VALUE>、クリティカル威力が<114114.VALUE>増加する。 ",
       "zh_tw": "艾琳引爆骰子煙霧彈，使自身處於隱身狀態，持續<114111.DURATION>秒，並使周遭2.5m的敵人陷入睡眠狀態<114113.DURATION>秒。隱身狀態持續期間，使暴擊率增加<114112.VALUE>、暴擊威力增加<114114.VALUE>",
       "zh_cn": ""
     },
@@ -29396,7 +29740,7 @@
       "no": 351142,
       "kr": "에일린이 가장 가까운 적을 대상으로 자신의 단검으로 적을 교차로 베어내어 공격력 <114211.VALUE>의 피해를 입히고, 적의 마나를 <114214.VALUE>만큼 감소시킨다. 자신이 은신 상태라면 공격력 <114212.VALUE>의 추가 피해를 입히고, 대상 주변 3m 범위 내에 다른 적이 없을 경우 공격력 <114213.VALUE> 추가 피해를 더 입힌다.",
       "en": "Eileen cuts through her nearest enemy with her dagger, dealing <114211.VALUE> ATK damage and decreasing the enemey's Mana by <114214.VALUE>. If she is stealthed, she deals additional <114212.VALUE> ATK damage, and deals another <114213.VALUE> ATK damage if there are no enemies within 3m of the target.",
-      "ja": "",
+      "ja": "エイリーンが最も近い敵を対象に自分の短剣で敵を交差斬りし、攻撃力の<114211.VALUE>のダメージを与え、敵のマナを<114214.VALUE>減少させる。自分がハイド状態の場合、攻撃力の<114212.VALUE>の追加ダメージを与え、対象の周辺3m内に他の敵がいない場合、攻撃力の<114213.VALUE>の追加ダメージをさらに与える。",
       "zh_tw": "艾琳以最接近的敵人為目標，用自己的短劍交叉砍擊敵人，造成攻擊力<114211.VALUE>的傷害，並使敵人魔力減少<114214.VALUE>。若自身處於隱身狀態，則造成攻擊力<114212.VALUE>的額外傷害。若目標周遭3m內沒有其他敵人，再造成攻擊力<114213.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -29404,7 +29748,7 @@
       "no": 351143,
       "kr": "에일린이 가장 가까운 적을 대상으로 순간적으로 회전하여 자신의 주변 2m 내의 적에게 공격력 <114311.VALUE>의 피해를 입히고 자신이 은신 상태일 경우 공격을 받은 적들이 가진 공격 능력 증가 버프와 같은 종류의 효과를 은신 상태인 모든 아군에게 영구적으로 부여한다.(최대 3중첩)\r\n \r\n<COLOR=#FFFFFF>공격력/치명타 확률</COLOR> - <114312.VALUE>\r\n<COLOR=#FFFFFF>명중/치명타 위력</COLOR> - <114314.VALUE>\r\n<COLOR=#FFFFFF>가속/흡혈</COLOR> - <114317.VALUE>",
       "en": "Eileen spins near the nearest enemy, dealing <114311.VALUE> ATK damage to enemies within 2m. If she is stealthed, she steals a buff effect from the enemy and permanently transfers the buff to all stealthed allies (up to 3 stacks).\r\n\r\n<COLOR=#FFFFFF>ATK/Crit Rate</COLOR> - <114312.VALUE>\r\n<COLOR=#FFFFFF>Accuracy/Crit DMG</COLOR> - <114314.VALUE>\r\n<COLOR=#FFFFFF>Speed/Life Steal</COLOR> - <114317.VALUE>\r\n",
-      "ja": "",
+      "ja": "エイリーンが最も近い敵を対象に瞬間的に回転し、自分の周辺2m以内の敵に攻撃力の<114311.VALUE>のダメージを与え、自分がハイド状態の場合、攻撃を受けた敵が持っている攻撃能力増加バフと同じ種類の効果をハイド状態の味方全員に永続的に付与する。(最大3スタック)\r\n\r\n<COLOR=#FFFFFF>攻撃力/クリティカル率</COLOR> - <114312.VALUE>\r\n<COLOR=#FFFFFF>命中/クリティカル威力</COLOR> - <114314.VALUE>\r\n<COLOR=#FFFFFF>加速/吸血</COLOR> - <114317.VALUE>",
       "zh_tw": "艾琳以最接近的敵人為目標，瞬間旋轉，對自身周圍2m內的敵人造成攻擊力<114311.VALUE>的傷害，若自身處於隱身狀態，會帶走受擊敵人持有的同種攻擊增益，永久賦予處於隱身狀態的所有友軍。（疊加上限3）\r\n\r\n<COLOR=#FFFFFF>攻擊力／暴擊率</COLOR>－<114312.VALUE>\r\n<COLOR=#FFFFFF>命中／暴擊威力</COLOR>－<114314.VALUE>\r\n<COLOR=#FFFFFF>加速／噬血</COLOR>－<114317.VALUE>\r\n",
       "zh_cn": ""
     },
@@ -29412,7 +29756,7 @@
       "no": 351144,
       "kr": "에일린은 전투 시작 시 <114413.DURATION>초 동안 은신 상태를 부여 받으며 은신 상태에서 가속이 <114417.VALUE> 증가한다. 에일린의 일반 공격 대상이 최대 체력이 가장 낮은 적을 대상으로 하며 에일린 혼자 남았을 경우 <발각> 상태가 되어 은신 상태에서도 공격을 받을 수 있다. ",
       "en": "Eileen gets stealthed for <114413.DURATION> upon starting the battle, increasing her Speed by <114417.VALUE> while she is stealthed. Her normal attacks target the enemy with the lowest max HP. If Eileen is alone, she becomes \"Discovered,\" during which she can get hit even when she's stealthed.",
-      "ja": "",
+      "ja": "エイリーンは戦闘開始時、<114413.DURATION>秒間ハイド状態になる。ハイド状態では加速が<114417.VALUE>増加する。エイリーンの通常攻撃は最大体力が一番低い敵を対象にする。エイリーンが一人残された場合、<発覚>状態になり、ハイド状態でも攻撃を受ける。 ",
       "zh_tw": "戰鬥開始後的<114413.DURATION>秒期間，艾琳賦予自身隱身狀態，且在隱身狀態下加速增加<114417.VALUE>。艾琳將一般攻擊的目標定為最大體力最低的敵人，但若只剩艾琳，則處於＜敗露＞狀態，即使在隱身狀態下仍會受擊",
       "zh_cn": ""
     },
@@ -29420,7 +29764,7 @@
       "no": 351145,
       "kr": "에일린이 현재 체력이 가장 낮은 대상의 뒤를 노린다. 하늘 위에서 교차로 베어 대상 및 주변 2.5m의 범위에 <114511.VALUE>의 피해를 입히고, 주 대상에게는 추가로 <114512.VALUE>의 피해를 입히며, 만약 주 대상 주변 3m 내에 적이 없을 경우 추가로 <114513.VALUE>의 피해를 더 입힌다.",
       "en": "Eileen aims for the back of the enemy with the lowest HP. She slashes down from the sky, dealing <114511.VALUE> damage to an area 2.5m near her target. Her main target receives an additional <114512.VALUE> damage, and <114513.VALUE> more damage if there are no enemies within 3m of the target.",
-      "ja": "",
+      "ja": "エイリーンが現在の体力が一番低い対象の後ろを狙う。空の上から交差して斬り、対象および周辺2.5mの範囲に<114511.VALUE>のダメージを与え、メイン対象にさらに<114512.VALUE>のダメージを与える。メイン対象の周辺3m以内に敵がいない場合、さらに<114513.VALUE>のダメージを与える。",
       "zh_tw": "艾琳瞄準目前體力最低的敵人後方，在空中交叉砍擊，對目標及其周圍2.5m的範圍造成<114511.VALUE>的傷害，對主要目標額外造成<114512.VALUE>的傷害，若主要目標周遭3m內沒有敵人，額外造成<114513.VALUE>的傷害",
       "zh_cn": ""
     },
@@ -29428,7 +29772,7 @@
       "no": 351149,
       "kr": "리더 정령이 전장에 있는 동안 은신 상태인 아군의 가하는 피해량을 <COLOR=#E0942C><114912.VALUE></COLOR> 증가시킨다.",
       "en": "Increases the damage dealt by stealthed allies by <COLOR=#E0942C><114912.VALUE></COLOR> while the lead Soul is on the battlefield.",
-      "ja": "",
+      "ja": "リーダー精霊が戦場にいる間、ハイド状態の味方の与えるダメージ量を<COLOR=#E0942C><114912.VALUE></COLOR>増加させる。",
       "zh_tw": "隊長精靈在戰場上時，使處於隱身狀態的友軍造成傷害量增加<COLOR=#E0942C><114912.VALUE></COLOR>",
       "zh_cn": ""
     },
@@ -29485,13 +29829,13 @@
       "kr": "가장 가까운 적을 대상으로 현현시킨 용을 덮쳐 대상에게 공격력 <116111.VALUE>의 피해를 입히고, <COLOR=#FFFFFF><세류></COLOR> 효과를 보유 중이라면 중첩 당 추가로 공격력 <116112.VALUE>의 피해를 입히고, <세류> 효과를 모두 소모한다. 만약 <COLOR=#FFFFFF><세류></COLOR>의 중첩 수가 <COLOR=#FFFFFF>3</COLOR> 이상이라면 대상의 버프를 <COLOR=#FFFFFF>4</COLOR>개 제거하고, <COLOR=#FFFFFF><격류></COLOR> 및 <COLOR=#FFFFFF><청류></COLOR> 버프를 획득한다. 각 버프는 <COLOR=#FFFFFF><격류참></COLOR>, <COLOR=#FFFFFF><청류쇄기></COLOR>를 강화시킨다.",
       "en": "Unleashes a manifested dragon on the nearest enemy, dealing damage equal to <116111.VALUE> of ATK. If <COLOR=#FFFFFF>\"Cleansing Current\"</COLOR> is active, deals additional damage equal to <116112.VALUE> of ATK per stack and consumes all stacks of \"Cleansing Current. If <COLOR=#FFFFFF>\"Cleansing Current\"</COLOR> is at <COLOR=#FFFFFF>3</COLOR> stacks or more, cancels <COLOR=#FFFFFF>4</COLOR> buffs from the target and gains <COLOR=#FFFFFF>\"Clashing Current\"</COLOR> and <COLOR=#FFFFFF>\"Clear Current\"</COLOR> buffs. Each buff enhances <COLOR=#FFFFFF>\"Clashing Current Slash\"</COLOR> and <COLOR=#FFFFFF>\"Clear Current Shatter,\"</COLOR> respectively.",
       "ja": "",
-      "zh_tw": "對最接近的敵人召喚龍，對目標造成攻擊力<116111.VALUE>的傷害，若持有<COLOR=#FFFFFF>＜淨流＞</COLOR>效果，每疊加額外造成攻擊力<116112.VALUE>的傷害， 消耗所有＜淨流＞ 效果。若<COLOR=#FFFFFF>＜淨流＞</COLOR>為<COLOR=#FFFFFF>3</COLOR>疊加以上，解除目標<COLOR=#FFFFFF>4</COLOR>個增益效果，獲得<COLOR=#FFFFFF>＜激流＞</COLOR>與<COLOR=#FFFFFF>＜清流＞</COLOR>增益效果。各增益將強化<COLOR=#FFFFFF>＜激流斬＞</COLOR>、<COLOR=#FFFFFF>＜清流粉碎＞</COLOR>",
+      "zh_tw": "對最接近的敵人召喚龍，對目標造成攻擊力<116111.VALUE>的傷害，若持有<COLOR=#FFFFFF>＜淨流＞</COLOR>效果，每疊加額外造成攻擊力<116112.VALUE>的傷害，消耗所有＜淨流＞ 效果。若<COLOR=#FFFFFF>＜淨流＞</COLOR>為<COLOR=#FFFFFF>3</COLOR>疊加以上，解除目標<COLOR=#FFFFFF>4</COLOR>個增益效果，獲得<COLOR=#FFFFFF>＜激流＞</COLOR>與<COLOR=#FFFFFF>＜清流＞</COLOR>增益效果。各增益將強化<COLOR=#FFFFFF>＜激流斬＞</COLOR>、<COLOR=#FFFFFF>＜清流粉碎＞</COLOR>",
       "zh_cn": ""
     },
     {
       "no": 351162,
       "kr": "가장 멀리 있는 적을 향해 검으로 격류를 일으켜 폭 2.5m, 길이 11m의 범위 내의 적에게 공격력 <116211.VALUE>의 피해를 입히고, 적의 버프를 <COLOR=#FFFFFF>1</COLOR>개 제거한다. 만약 <COLOR=#FFFFFF><세류></COLOR>의 중첩이 3중첩 이상일 경우 해당 스킬이 강화되어 공격력 <116212.VALUE>의 추가 피해를 입히고, 대상의 버프를 <COLOR=#FFFFFF>1</COLOR>개 더 제거하며, <116213.DURATION>초 동안 공격력을 <116213.VALUE> 감소시키는 <COLOR=#FFFFFF><격몰></COLOR> 디버프를 부여한다. 위 효과는 <COLOR=#FFFFFF><격류></COLOR>를 보유 중일 경우에도 강화되지만 그 경우 <COLOR=#FFFFFF><격류></COLOR>효과는 소모된다.",
-      "en": "Unleashes a clashing current with the sword to the farthest enemy, dealing damage equal to <116211.VALUE> of ATK to enemies within a 2.5m wide and 11m long area. Cancels <COLOR=#FFFFFF>1</COLOR> buff from the enemy. When <COLOR=#FFFFFF>\"Cleansing Current\"</COLOR> is at 3 or more stacks, the skill is enhanced, dealing additional damage equal to <116212.VALUE> of ATK, removing <COLOR=#FFFFFF>1</COLOR> more buff from the target, and inflicting <COLOR=#FFFFFF>\"Raging Surge\"</COLOR> that decreases ATK by <116213.VALUE> for <116213.DURATION> sec. These effects are also enhanced if <COLOR=#FFFFFF>\"Clashing Current\"</COLOR> is active, although doing so consumes <COLOR=#FFFFFF>\"Clashing Current\"</COLOR>.",
+      "en": "Unleashes a clashing current with the sword to the farthest enemy, dealing damage equal to <116211.VALUE> of ATK to enemies within a 2.5m wide and 11m long area. Cancels <COLOR=#FFFFFF>1</COLOR> buff on the enemy. When <COLOR=#FFFFFF>\"Cleansing Current\"</COLOR> is at 3 or more stacks, the skill is enhanced, dealing additional damage equal to <116212.VALUE> of ATK, removing <COLOR=#FFFFFF>1</COLOR> more buff from the target, and inflicting <COLOR=#FFFFFF>\"Raging Surge,\"</COLOR> which decreases ATK by <116213.VALUE> for <116213.DURATION> sec. These effects are also enhanced if <COLOR=#FFFFFF>\"Clashing Current\"</COLOR> is active, but <COLOR=#FFFFFF>\"Clashing Current\"</COLOR> is consumed in the process.",
       "ja": "",
       "zh_tw": "用劍對最遙遠的敵人掀起激流，在寬幅2.5m、長度11m的範圍內對敵人造成攻擊力<116211.VALUE>的傷害，解除敵人<COLOR=#FFFFFF>1</COLOR>個增益效果。若<COLOR=#FFFFFF>＜淨流＞</COLOR>為3疊加以上，該技能將強化並造成攻擊力<116212.VALUE>的額外傷害，追加解除目標<COLOR=#FFFFFF>1</COLOR>個增益效果，賦予減益效果<COLOR=#FFFFFF>＜狂噬＞</COLOR>，<116213.DURATION>秒內使攻擊力減少<116213.VALUE>。上述效果在持有<COLOR=#FFFFFF>＜激流＞</COLOR>的情況下也會強化，但此時將消耗<COLOR=#FFFFFF>＜激流＞</COLOR>效果",
       "zh_cn": ""
@@ -29499,7 +29843,7 @@
     {
       "no": 351163,
       "kr": "가장 가까운 적을 중심으로 낙수를 일으켜 대상 및 주변 3m의 적에게 공격력 <116311.VALUE>의 피해를 입히고, 대상의 버프 효과를 <COLOR=#FFFFFF>2</COLOR>개 제거한다. <COLOR=#FFFFFF><세류></COLOR>의 중첩이 3중첩 이상일 경우 해당 스킬이 강화되어 공격력 <116312.VALUE>의 추가 피해를 입히고, 대상의 버프를 <COLOR=#FFFFFF>2</COLOR>개 더 제거하며, <116313.DURATION>초 동안 방어력을 <116213.VALUE> 감소시키는 <COLOR=#FFFFFF><청몰></COLOR> 디버프를 부여한다. 위 효과는 <COLOR=#FFFFFF><청류></COLOR>를 보유 중일 경우에도 강화되지만 그 경우 <COLOR=#FFFFFF><청류></COLOR>효과는 소모된다.",
-      "en": "Creates a cascade centered on the nearest enemy, dealing damage equal to <116311.VALUE> of ATK to the target and enemies within 3m. Cancels <COLOR=#FFFFFF>2</COLOR> of the target's buff. When <COLOR=#FFFFFF>\"Cleansing Current\"</COLOR> is at 3 or more stacks, the skill is enhanced, dealing additional damage equal to <116312.VALUE> of ATK. Cancels <COLOR=#FFFFFF>2</COLOR> more buff from the target, and inflicts <COLOR=#FFFFFF>\"Pure Submersion\"</COLOR> that decreases DEF by <116213.VALUE> for <116313.DURATION> sec. These effects are also enhanced if <COLOR=#FFFFFF>\"Clear Current\"</COLOR> is active, although doing so consumes <COLOR=#FFFFFF>\"Clear Current\"</COLOR>.",
+      "en": "Creates a cascade centered on the nearest enemy, dealing damage equal to <116311.VALUE> of ATK to the target and enemies within 3m and canceling <COLOR=#FFFFFF>2</COLOR> buffs on the target. When <COLOR=#FFFFFF>\"Cleansing Current\"</COLOR> is at 3 or more stacks, the skill is enhanced, dealing additional damage equal to <116312.VALUE> of ATK, canceling <COLOR=#FFFFFF>2</COLOR> more buffs on the target, and inflicting <COLOR=#FFFFFF>\"Pure Submersion,\"</COLOR> which decreases DEF by <116213.VALUE> for <116313.DURATION> sec. These effects are also enhanced if <COLOR=#FFFFFF>\"Clear Current\"</COLOR> is active, but <COLOR=#FFFFFF>\"Clear Current\"</COLOR> is consumed in the process.",
       "ja": "",
       "zh_tw": "以最接近的敵人為中心，使水流傾瀉而下，對目標與周遭3m的敵人造成攻擊力<116311.VALUE>的傷害，解除目標<COLOR=#FFFFFF>2</COLOR>個增益效果。若<COLOR=#FFFFFF>＜淨流＞</COLOR>為3疊加以上，該技能將強化並造成攻擊力<116312.VALUE>的額外傷害，追加解除目標<COLOR=#FFFFFF>2</COLOR>個增益效果，賦予減益效果<COLOR=#FFFFFF>＜澄沒＞</COLOR>，<116313.DURATION>秒內使防禦力減少<116213.VALUE>。上述效果在持有<COLOR=#FFFFFF>＜清流＞</COLOR>的情況下也會強化，但此時將消耗<COLOR=#FFFFFF>＜清流＞</COLOR>效果",
       "zh_cn": ""
@@ -29515,7 +29859,7 @@
     {
       "no": 351165,
       "kr": "파도의 흐름을 용으로 형상화시켜 적을 향해 발산해 폭 3.5m, 길이 11m의 범위의 적들에게 공격력 <116511.VALUE>의 피해를 입힌다. 만약 대상이 아래와 같은 효과를 보유 중일 경우 다음과 같은 효과를 부여한다.\r\n\r\n<COLOR=#FFFFFF><세몰></COLOR> - 공격력 <116512.VALUE>의 추가 피해를 입히고 대상의 버프를 <COLOR=#FFFFFF>4</COLOR>개 제거한다.\r\n<COLOR=#FFFFFF><격몰></COLOR> - 공격력 <116512.VALUE>의 추가 피해를 입히고 <116518.DURATION>초 동안 가하는 피해량을 <116518.VALUE> 감소시킨다.\r\n<COLOR=#FFFFFF><청몰></COLOR> - 공격력 <116512.VALUE>의 추가 피해를 입히고 <116518.DURATION>초 동안 받는 최종 피해량을 <116519.VALUE> 증가시킨다.",
-      "en": "Manifests the flow of waves into a dragon and unleashes it to enemies, dealing damage equal to <116511.VALUE> of ATK to enemies within a 3.5 wide and 11m long area. If a target is currently affected by one of the following effects, the corresponding additional effect is applied:\r\n\r\n<COLOR=#FFFFFF>\"Overflush\"</COLOR> - Deals additional damage equal to <116512.VALUE> of ATK and cancels <COLOR=#FFFFFF>4</COLOR> buffs from the target.\r\n<COLOR=#FFFFFF>\"Raging Surge\"</COLOR> - Deals additional damage equal to <116512.VALUE> of ATK and decreases damage dealt by <116518.VALUE> for <116518.DURATION> sec.\r\n<COLOR=#FFFFFF>\"Pure Submersion\"</COLOR> - Deals additional damage equal to <116512.VALUE> of ATK and increases the target's total damage received by <116519.VALUE> for <116518.DURATION> sec.",
+      "en": "Shapes the flow of waves into a dragon and unleashes it to enemies, dealing damage equal to <116511.VALUE> of ATK to enemies within a 3.5 wide and 11m long area. Additional effects apply to targets based on their debuff status:\r\n\r\n<COLOR=#FFFFFF>\"Overflush\"</COLOR> - Deals additional damage equal to <116512.VALUE> of ATK and cancels <COLOR=#FFFFFF>4</COLOR> buffs on the target.\r\n<COLOR=#FFFFFF>\"Raging Surge\"</COLOR> - Deals additional damage equal to <116512.VALUE> of ATK and decreases damage dealt by <116518.VALUE> for <116518.DURATION> sec.\r\n<COLOR=#FFFFFF>\"Pure Submersion\"</COLOR> - Deals additional damage equal to <116512.VALUE> of ATK and increases the target's total damage received by <116519.VALUE> for <116518.DURATION> sec.",
       "ja": "",
       "zh_tw": "以龍呈現翻湧的波濤並朝敵人發射，對寬幅3.5m、長度11m範圍的敵人造成攻擊力<116511.VALUE>的傷害。若目標持有下列效果，將賦予以下效果。\r\n\r\n<COLOR=#FFFFFF>＜抹淨＞</COLOR>－造成攻擊力<116512.VALUE>的額外傷害，解除目標<COLOR=#FFFFFF>4</COLOR>個增益效果\r\n<COLOR=#FFFFFF>＜狂噬＞</COLOR>－造成攻擊力<116512.VALUE>的額外傷害，<116518.DURATION>秒內使造成傷害量減少<116518.VALUE>\r\n<COLOR=#FFFFFF>＜澄沒＞</COLOR>－造成攻擊力<116512.VALUE>的額外傷害，<116518.DURATION>秒內使所受最終傷害量增加<116519.VALUE>",
       "zh_cn": ""
@@ -29523,7 +29867,7 @@
     {
       "no": 351169,
       "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116913.VALUE> 회복한다.",
-      "en": "Whenever a lead Soul uses a main skill, restores all allies' HP and Mana by <116913.VALUE>.",
+      "en": "Restores all allies' HP and Mana by <116913.VALUE> whenever a lead Soul uses her main skill.",
       "ja": "",
       "zh_tw": "每當隊長精靈使用主要技能時，恢復所有友軍體力與魔力<116913.VALUE>",
       "zh_cn": ""
@@ -30974,6 +31318,54 @@
       "en": "Increases the lead Soul's max HP by <315911.VALUE>. If the lead Soul is not a Supporter, using the main skill restores the HP of all allies by <315912.VALUE> of the lead Soul's max HP every 2 sec for <315912.DURATION> sec. If the lead Soul is a Supporter, using the main skill grants a shield that absorbs damage equal to <315913.VALUE> of the lead Soul's max HP for <315913.DURATION> sec to all allies.",
       "ja": "",
       "zh_tw": "使隊長精靈的體力上限增加<315911.VALUE>，使用主要技能時，若隊長精靈非輔助者，<315912.DURATION>秒內賦予所有友軍每2秒恢復隊長精靈體力上限<315912.VALUE>的效果；若隊長精靈為輔助者，<315913.DURATION>秒內賦予所有友軍防護罩，吸收相當隊長精靈體力上限<315913.VALUE>的攻擊",
+      "zh_cn": ""
+    },
+    {
+      "no": 353161,
+      "kr": "가장 먼 적을 향해 얼음의 창을 날려 공격력 <316110.VALUE>의 피해를 입힌다. \r\n<color=#FFFFFF><앱솔루트 제로></color> 상태에서 사용 시 반드시 치명타가 발생한다.",
+      "en": "Launches a spear of ice toward the farthest enemy, dealing damage equal to <316110.VALUE> of ATK.\r\nWhen used while <color=#FFFFFF>\"Absolute Zero\"</color> is active, this attack is guaranteed to land as a critical hit.",
+      "ja": "",
+      "zh_tw": "朝最遙遠的敵人發射冰槍，造成攻擊力<316110.VALUE>的傷害。\r\n在<color=#FFFFFF>＜絕對零度＞</color>狀態下使用時，必觸發暴擊",
+      "zh_cn": ""
+    },
+    {
+      "no": 353162,
+      "kr": "가장 가까운 적의 발 밑에 빙결 지대를 생성해 대상을 얼려 공격력 <316210.VALUE>의 피해를 입히고 <316211.DURATION>초 동안 <color=#FFFFFF><기절></color> 상태를 부여한다.\r\n<color=#FFFFFF><앱솔루트 제로></color> 상태일 경우 피해량이 <316212.VALUE>로 변경되고 대상 주변 <color=#FFFFFF>2.5m</color> 범위의 적을 공격한다.",
+      "en": "Creates a frost zone under the nearest enemy, freezing the target to deal damage equal to <316210.VALUE> of ATK and inflict <color=#FFFFFF>\"Stun\"</color> for <316211.DURATION> sec.\r\nIf <color=#FFFFFF>\"Absolute Zero\"</color> is active, damage changes to <316212.VALUE> and also attacks enemies within a <color=#FFFFFF>2.5m</color> radius around the target.",
+      "ja": "",
+      "zh_tw": "在最接近的敵人腳下生成結冰地帶，凍住目標並造成攻擊力<316210.VALUE>的傷害，賦予<316211.DURATION>秒<color=#FFFFFF>＜暈眩＞</color>狀態。\r\n處於<color=#FFFFFF>＜絕對零度＞</color>狀態時，變更為造成<316212.VALUE>的傷害量，攻擊目標周遭<color=#FFFFFF>2.5m</color>範圍的敵人",
+      "zh_cn": ""
+    },
+    {
+      "no": 353163,
+      "kr": "가장 먼 적의 등 뒤로 순간이동 후 응축된 마력을 폭발 시켜 적에게 쏘아 공격력 <316310.VALUE>의 피해를 입힌다. <color=#FFFFFF><앱솔루트 제로></color> 상태일 경우 대상에게 <316311.DURATION>초 동안 공격력 <316311.VALUE>의 <color=#FFFFFF><냉기></color> 효과를 부여한다.",
+      "en": "Teleports behind the farthest enemy, then unleashes condensed mana in a blast, dealing damage equal to <316310.VALUE> of ATK. If <color=#FFFFFF>\"Absolute Zero\"</color> is active, this attack also inflicts <color=#FFFFFF>\"Freeze\"</color> on the target, dealing DoT equal to <316311.VALUE> of ATK every 2 sec for <316311.DURATION> sec.",
+      "ja": "",
+      "zh_tw": "順移到最遠的敵人背後，引爆凝聚的魔力射向敵人，造成攻擊力<316310.VALUE>的傷害。處於<color=#FFFFFF>＜絕對零度＞</color>狀態時，<316311.DURATION>秒內賦予攻擊力<316311.VALUE>的<color=#FFFFFF>＜寒氣＞</color>效果",
+      "zh_cn": ""
+    },
+    {
+      "no": 353164,
+      "kr": "아군이 메인 스킬을 사용할 때 마다 내면에 잠재된 마력이 해방되어 자신의 공격력이 <316612.VALUE> 증가하는 <color=#FFFFFF><마력 해방></color> 효과를 받는다. (최대 4중첩)\r\n<마력 해방> 최대 중첩 시 모든 중첩을 소모하여 <color=#FFFFFF><앱솔루트 제로></color> 상태가 되며 <color=#FFFFFF>24</color>초 동안 자신의 공격력이 <316412.VALUE> 증가한다.\r\n<color=#FFFFFF><앱솔루트 제로></color> 효과가 유지되는 동안 <color=#FFFFFF><마력 해방></color> 중첩을 쌓을 수 없다.",
+      "en": "Whenever an ally uses her main skill, Renee (Argent) gains a stack of <color=#FFFFFF>\"Mana Release\"</color> increasing her ATK by <316612.VALUE> (up to 4 stacks).\r\nAt max \"Mana Release\" stacks, she consumes all stacks to enter <color=#FFFFFF>\"Absolute Zero\"</color> for <color=#FFFFFF>24</color> sec, increasing her ATK by <316412.VALUE>.\r\n<color=#FFFFFF>\"Mana Release\"</color> stacks are not gained while <color=#FFFFFF>\"Absolute Zero\"</color> is active.",
+      "ja": "",
+      "zh_tw": "每當友軍使用主要技能時，將解放體內的潛在魔力，自身受到攻擊力增加<316612.VALUE>的<color=#FFFFFF>＜魔力解放＞</color>效果（最多4疊加）\r\n＜魔力解放＞達疊加上限時，將消耗所有疊加轉為<color=#FFFFFF>＜絕對零度＞</color>狀態，<color=#FFFFFF>24</color>秒內自身攻擊力增加<316412.VALUE>\r\n<color=#FFFFFF>＜絕對零度＞</color>效果維持期間，無法累積<color=#FFFFFF>＜魔力解放＞</color>疊加",
+      "zh_cn": ""
+    },
+    {
+      "no": 353165,
+      "kr": "자신의 마력을 강제로 응축시켜 건틀렛의 형태로 가장 가까운 대상에게 떨어뜨려 대상과 주변 6m내 모든 적에게 공격력 <316510.VALUE>의 피해를 입히고 <316511.DURATION>초 동안 <기절> 상태를 부여한다. \r\n<color=#FFFFFF><앱솔루트 제로></color> 상태에서 사용할 경우 <316512.DURATION>초 동안 <color=#FFFFFF>2</color>초마다 공격력 <316512.VALUE>의 냉기 피해를 입히는 <color=#FFFFFF><혹한의 마력></color> 상태를 부여한다.",
+      "en": "Shapes her mana into a gauntlet through sheer force of will, then crashes it onto the nearest target, dealing damage equal to <316510.VALUE> of ATK and inflicting \"Stun\" on the target and all enemies within 6m for <316511.DURATION> sec.\r\nWhen used while <color=#FFFFFF>\"Absolute Zero\"</color> is active, this skill also inflicts <color=#FFFFFF>\"Arctic Mana,\"</color> dealing Freeze DoT equal to <316512.VALUE> of ATK every <color=#FFFFFF>2</color> sec for <316512.DURATION> sec.",
+      "ja": "",
+      "zh_tw": "強制凝聚自身魔力，以鐵手甲的形態重擊最接近的敵人，對目標及周遭6m內所有敵人造成攻擊力<316510.VALUE>的傷害，賦予<316511.DURATION>秒＜暈眩＞狀態\r\n在<color=#FFFFFF>＜絕對零度＞</color>狀態下使用時，賦予<color=#FFFFFF>＜酷寒魔力＞</color>狀態，<316512.DURATION>秒內每<color=#FFFFFF>2</color>秒造成攻擊力<316512.VALUE>的寒氣傷害",
+      "zh_cn": ""
+    },
+    {
+      "no": 353169,
+      "kr": "메인 정령이 메인스킬 사용 시 6초동안 2초마다 마나를 250 회복한다. (최대 1회 발동)",
+      "en": "When the lead Soul uses her main skill, she recovers 250 Mana every 2 sec for 6 sec (triggers up to 1 time).",
+      "ja": "",
+      "zh_tw": "主要精靈使用主要技能時，6秒內每2秒恢復魔力250（最多發動1次）",
       "zh_cn": ""
     },
     {
@@ -32884,7 +33276,7 @@
       "no": 359037,
       "kr": "인간형 정령의 치명타 피해 1.5배 증가, 치명타 확률 80% 감소",
       "en": "Crit DMG x1.5 and Crit Rate -80% for Humanlike Souls",
-      "ja": "",
+      "ja": "人間型精霊のクリティカルダメージ150%増加、クリティカル率80%減少",
       "zh_tw": "人類型精靈的暴擊傷害增加1.5倍，暴擊率減少80%",
       "zh_cn": ""
     },
@@ -33126,6 +33518,14 @@
       "en": "Damage dealt by Assassination Souls +50%",
       "ja": "",
       "zh_tw": "暗殺定位精靈的造成傷害增加50%",
+      "zh_cn": ""
+    },
+    {
+      "no": 359070,
+      "kr": "전투 시작 시 모든 아군의 마나가 2500 회복된다.",
+      "en": "All allies recover 2,500 Mana when battle begins.",
+      "ja": "",
+      "zh_tw": "戰鬥開始時，所有友軍的魔力恢復2500",
       "zh_cn": ""
     },
     {
@@ -34476,7 +34876,7 @@
       "no": 361141,
       "kr": "치명타 확률 증가량이 <114122.VALUE>, 치명타 위력 증가량이 <114124.VALUE>로 변경된다.",
       "en": "Crit Rate increase changes to <114122.VALUE>, Crit DMG increase changes to <114124.VALUE>.",
-      "ja": "",
+      "ja": "クリティカル率増加量が<114122.VALUE>、クリティカル威力増加量が<114124.VALUE>に変更される。",
       "zh_tw": "變更為暴擊率增加<114122.VALUE>、暴擊威力增加<114124.VALUE>",
       "zh_cn": ""
     },
@@ -34484,7 +34884,7 @@
       "no": 361142,
       "kr": "피해량이 <114221.VALUE>, 추가 피해량이 <114222.VALUE>로 변경된다.",
       "en": "Damage changes to <114221.VALUE>, additional damage changes to <114222.VALUE>.",
-      "ja": "",
+      "ja": "ダメージ量が<114221.VALUE>、追加ダメージ量が<114222.VALUE>に変更される。",
       "zh_tw": "變更為造成<114221.VALUE>的傷害、造成<114222.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -34492,7 +34892,7 @@
       "no": 361143,
       "kr": "피해량이 <114321.VALUE>로 변경된다.",
       "en": "Damage changes to <114321.VALUE>.",
-      "ja": "",
+      "ja": "ダメージ量が<114321.VALUE>に変更される。",
       "zh_tw": "變更為造成<114321.VALUE>的傷害",
       "zh_cn": ""
     },
@@ -34500,7 +34900,7 @@
       "no": 361144,
       "kr": "증가하는 가속이 <114425.VALUE>로 변경된다.",
       "en": "Speed increase changes to <114425.VALUE>.",
-      "ja": "",
+      "ja": "増加する加速が<114425.VALUE>に変更される。",
       "zh_tw": "變更為加速增加<114425.VALUE>",
       "zh_cn": ""
     },
@@ -34508,7 +34908,7 @@
       "no": 361145,
       "kr": "피해량이 <114521.VALUE>, 주 대상 피해량이 <114522.VALUE>, 고립된 주 대상에게 입히는 추가 피해량이 <114523.VALUE>로 변경된다.",
       "en": "Damage changes to <114521.VALUE>, damage against main target changes to <114522.VALUE>, additional damage dealt to isolated main target changes to <114523.VALUE>.",
-      "ja": "",
+      "ja": "ダメージ量が<114521.VALUE>、メイン対象へのダメージ量が<114522.VALUE>、孤立したメイン対象への追加ダメージ量が<114523.VALUE>に変更される。",
       "zh_tw": "變更為造成<114521.VALUE>的傷害，對主要目標造成<114522.VALUE>的傷害，對被孤立的主要目標額外造成<114523.VALUE>的傷害",
       "zh_cn": ""
     },
@@ -34611,7 +35011,7 @@
     {
       "no": 361169,
       "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116923.VALUE> 회복한다.",
-      "en": "Whenever a lead Soul uses a main skill, restores all allies' HP and Mana by <116923.VALUE>.",
+      "en": "Restores all allies' HP and Mana by <116923.VALUE> whenever a lead Soul uses her main skill.",
       "ja": "",
       "zh_tw": "每當隊長精靈使用主要技能時，恢復所有友軍體力與魔力<116923.VALUE>",
       "zh_cn": ""
@@ -36022,6 +36422,54 @@
       "en": "Increases the lead Soul's max HP by <315921.VALUE>. If the lead Soul is not a Supporter, using the main skill restores the HP of all allies by <315922.VALUE> of the lead Soul's max HP every 2 sec for <315922.DURATION> sec. If the lead Soul is a Supporter, using the main skill grants a shield that absorbs damage equal to <315923.VALUE> of the lead Soul's max HP for <315923.DURATION> sec to all allies.",
       "ja": "",
       "zh_tw": "使隊長精靈的體力上限增加<315921.VALUE>，使用主要技能時，若隊長精靈非輔助者，<315922.DURATION>秒內賦予所有友軍每2秒恢復隊長精靈體力上限<315922.VALUE>的效果；若隊長精靈為輔助者，<315923.DURATION>秒內賦予所有友軍防護罩，吸收相當隊長精靈體力上限<315923.VALUE>的攻擊",
+      "zh_cn": ""
+    },
+    {
+      "no": 363161,
+      "kr": "피해량이 <316120.VALUE>로 변경된다.",
+      "en": "Damage changes to <316120.VALUE>.",
+      "ja": "",
+      "zh_tw": "變更為造成<316120.VALUE>的傷害量",
+      "zh_cn": ""
+    },
+    {
+      "no": 363162,
+      "kr": "피해량이 <316220.VALUE>로, <앱솔루트 제로> 상태일 때 피해량이 <316222.VALUE>로 변경된다.",
+      "en": "Damage changes to <316220.VALUE>. Damage while \"Absolute Zero\" is active changes to <316222.VALUE>.",
+      "ja": "",
+      "zh_tw": "變更為造成<316220.VALUE>的傷害量，處於＜絕對零度＞狀態時，變更為造成<316222.VALUE>的傷害量",
+      "zh_cn": ""
+    },
+    {
+      "no": 363163,
+      "kr": "피해량이 <316320.VALUE>, 냉기 피해량이 <316321.VALUE>로 변경된다.",
+      "en": "Damage changes to <316320.VALUE>, and Freeze DoT changes to <316321.VALUE>.",
+      "ja": "",
+      "zh_tw": "變更為造成<316320.VALUE>的傷害量、寒氣傷害量<316321.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 363164,
+      "kr": "<마력 해방> 효과로 증가하는 공격력이 <316622.VALUE>로 변경되고, <color=#FFFFFF><앱솔루트 제로></color> 상태일 때 증가하는 공격력이 <316422.VALUE>로 변경된다.",
+      "en": "ATK increase from \"Mana Release\" changes to <316622.VALUE>. ATK increase while <color=#FFFFFF>\"Absolute Zero\"</color> is active changes to <316422.VALUE>.",
+      "ja": "",
+      "zh_tw": "因＜魔力解放＞效果增加的攻擊力變更為<316622.VALUE>，處於<color=#FFFFFF>＜絕對零度＞</color>狀態時增加的攻擊力變更為<316422.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 363165,
+      "kr": "피해량이 <316520.VALUE>로, 냉기 지속 피해량이 <316522.VALUE>로 변경된다.",
+      "en": "Damage changes to <316520.VALUE>, and Freeze DoT changes to <316522.VALUE>.",
+      "ja": "",
+      "zh_tw": "變更為造成<316520.VALUE>的傷害量、寒氣持續傷害量<316522.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 363169,
+      "kr": "메인 정령이 메인스킬 사용 시 6초동안 2초마다 마나를 500 회복한다. (최대 1회 발동)",
+      "en": "When the lead Soul uses her main skill, she recovers 500 Mana every 2 sec for 6 sec (triggers up to 1 time).",
+      "ja": "",
+      "zh_tw": "主要精靈使用主要技能時，6秒內每2秒恢復魔力500（最多發動1次）",
       "zh_cn": ""
     },
     {
@@ -38252,7 +38700,7 @@
       "no": 371141,
       "kr": "치명타 확률 증가량이 <114132.VALUE>, 치명타 위력 증가량이 <114134.VALUE>로 변경된다. ",
       "en": "Crit Rate increase changes to <114132.VALUE>, Crit DMG increase changes to <114134.VALUE>.",
-      "ja": "",
+      "ja": "クリティカル率増加量が<114132.VALUE>、クリティカル威力増加量が<114134.VALUE>に変更される。 ",
       "zh_tw": "變更為暴擊率增加<114132.VALUE>、暴擊威力增加<114134.VALUE>",
       "zh_cn": ""
     },
@@ -38260,7 +38708,7 @@
       "no": 371142,
       "kr": "피해량이 <114231.VALUE>, 추가 피해량이 <114232.VALUE>로 변경되고, 적의 마나가 <COLOR=#FFFFFF>20% 미만</COLOR>이라면 공격력 <114232.VALUE>의 추가 피해를 더 입히고, 적의 마나를 모두 훔쳐온다.",
       "en": "Damage changes to <114231.VALUE>, additional damage changes to <114232.VALUE>, deals additional <114232.VALUE> ATK damage if the enemy's Mana is <COLOR=#FFFFFF>below 20%</COLOR>, steals all of the enemy's Mana.",
-      "ja": "",
+      "ja": "ダメージ量が<114231.VALUE>、追加ダメージ量が<114232.VALUE>に変更され、敵のマナが<COLOR=#FFFFFF>20%未満</COLOR>の場合、攻撃力の<114232.VALUE>の追加ダメージをさらに与え、敵のマナをすべて盗む。",
       "zh_tw": "變更為造成<114231.VALUE>的傷害、造成<114232.VALUE>的額外傷害。若敵人的魔力<COLOR=#FFFFFF>低於20%</COLOR>，會再造成攻擊力<114232.VALUE>的額外傷害，並偷走全部魔力",
       "zh_cn": ""
     },
@@ -38268,7 +38716,7 @@
       "no": 371143,
       "kr": "피해량이 <114331.VALUE>로 변경되고, 만약 적이 한명만 맞았을 경우 <114338.VALUE>의 추가 피해를 입힌다",
       "en": "Damage changes to <114331.VALUE>, deals additional <114338.VALUE> damage if only one enemy got hit.",
-      "ja": "",
+      "ja": "ダメージ量が<114331.VALUE>に変更され、もし攻撃が敵1体のみに命中した場合、その敵に<114338.VALUE>の追加ダメージを与える。",
       "zh_tw": "變更為造成<114331.VALUE>的傷害。若只有1個敵人受擊，額外造成<114338.VALUE>的傷害",
       "zh_cn": ""
     },
@@ -38276,7 +38724,7 @@
       "no": 371144,
       "kr": "증가하는 가속이 <114435.VALUE>로 변경된다.",
       "en": "Speed increase changes to <114435.VALUE>.",
-      "ja": "",
+      "ja": "増加する加速が<114435.VALUE>に変更される。",
       "zh_tw": "變更為加速增加<114435.VALUE>",
       "zh_cn": ""
     },
@@ -38284,7 +38732,7 @@
       "no": 371145,
       "kr": "피해량이 <114531.VALUE>, 주 대상 피해량이 <114532.VALUE>, 고립된 주 대상에게 입히는 추가 피해량이 <114533.VALUE>로 변경되며, 만약 공격을 받은 적의 마나가 <COLOR=#FFFFFF>30% 미만</COLOR>이라면 <114534.VALUE>의 추가 피해를 입히고 해당 적의 마나를 모두 훔쳐온다.",
       "en": "Damage changes to <114531.VALUE>, damage against main target changes to <114532.VALUE>, additional damage dealt to isolated main target changes to <114533.VALUE>. Deals an additional <114534.VALUE> damage if the target enemy's Mana is <COLOR=#FFFFFF>below 30%</COLOR> and steals all of the enemy's Mana.",
-      "ja": "",
+      "ja": "ダメージ量が<114531.VALUE>、メイン対象へのダメージ量が<114532.VALUE>、孤立したメイン対象への追加ダメージ量が<114533.VALUE>に変更される。もし攻撃を受けた敵のマナが<COLOR=#FFFFFF>30%未満</COLOR>の場合、<114534.VALUE>の追加ダメージを与え、その敵のマナをすべて奪う。",
       "zh_tw": "變更為造成<114531.VALUE>的傷害，對主要目標造成<114532.VALUE>的傷害，對被孤立的主要目標額外造成<114533.VALUE>的傷害。若受擊敵人的魔力<COLOR=#FFFFFF>低於30%</COLOR>，再造成<114534.VALUE>的額外傷害，並偷走該名敵人的全部魔力",
       "zh_cn": ""
     },
@@ -38355,7 +38803,7 @@
     {
       "no": 371162,
       "kr": "피해량이 <116231.VALUE>, 추가 피해량이 <116232.VALUE>로 변경된다. 전투 시작 후 <COLOR=#FFFFFF><격류></COLOR> 효과를 획득한다.",
-      "en": "Damage changes to <116231.VALUE>, additional damage changes to <116232.VALUE>. Once battle begins, gains the <COLOR=#FFFFFF>\"Clashing Current\"</COLOR>.",
+      "en": "Damage changes to <116231.VALUE>, and additional damage changes to <116232.VALUE>. Gains <COLOR=#FFFFFF>\"Clashing Current\"</COLOR> when battle begins.",
       "ja": "",
       "zh_tw": "變更為造成<116231.VALUE>的傷害量、造成<116232.VALUE>的額外傷害量。戰鬥開始後獲得<COLOR=#FFFFFF>＜激流＞</COLOR>效果",
       "zh_cn": ""
@@ -38363,7 +38811,7 @@
     {
       "no": 371163,
       "kr": "피해량이 <116331.VALUE>, 추가 피해량이 <116332.VALUE>로 변경된다. 전투 시작 후 <COLOR=#FFFFFF><청류></COLOR> 효과를 획득한다.",
-      "en": "Damage changes to <116331.VALUE>, additional damage changes to <116332.VALUE>. Once battle begins, gains the <COLOR=#FFFFFF>\"Clear Current\"</COLOR> effect.",
+      "en": "Damage changes to <116331.VALUE>, and additional damage changes to <116332.VALUE>. Gains <COLOR=#FFFFFF>\"Clear Current\"</COLOR> when battle begins.",
       "ja": "",
       "zh_tw": "變更為造成<116331.VALUE>的傷害量、造成<116332.VALUE>的額外傷害量。戰鬥開始後獲得<COLOR=#FFFFFF>＜清流＞</COLOR>效果",
       "zh_cn": ""
@@ -38379,7 +38827,7 @@
     {
       "no": 371165,
       "kr": "피해량이 <116531.VALUE>, 추가 피해량이 <116532.VALUE>로 변경된다. 만약 <COLOR=#FFFFFF><세몰></COLOR>, <COLOR=#FFFFFF><격몰></COLOR>, <COLOR=#FFFFFF><청몰></COLOR>을 모두 보유중인 대상에게 해당 스킬을 맞힐 경우 <116538.DURATION>초 동안 <COLOR=#FFFFFF><침몰></COLOR> 디버프를 부여하며 해당 효과가 부여된 동안 대상은 2초마다 시전자의 공격력 <116539.VALUE>의 피해를 입는다. 해당 피해는 지속 피해로 취급되지 않으며 치명타가 발생할 수 있다.",
-      "en": "Damage changes to <116531.VALUE>, additional damage changes to <116532.VALUE>. If this skill hits a target inflicted by <COLOR=#FFFFFF>\"Overflush\"</COLOR>, <COLOR=#FFFFFF>\"Raging Surge\"</COLOR>, and <COLOR=#FFFFFF>\"Pure Submersion\"</COLOR> all at the same time, inflicts <COLOR=#FFFFFF>\"Submerion\"</COLOR> for <116538.DURATION> sec. While this debuff is active, the target takes damage equal to <116539.VALUE> of the caster's ATK every 2 sec. This damage does not count as DoT and can land critical hits.",
+      "en": "Damage changes to <116531.VALUE>, and additional damage changes to <116532.VALUE>. If this skill hits a target inflicted by <COLOR=#FFFFFF>\"Overflush\"</COLOR>, <COLOR=#FFFFFF>\"Raging Surge\"</COLOR>, and <COLOR=#FFFFFF>\"Pure Submersion\"</COLOR> all at the same time, it also inflicts <COLOR=#FFFFFF>\"Submersion\"</COLOR> on the target for <116538.DURATION> sec, during which the target receives damage equal to <116539.VALUE> of the caster's ATK every 2 sec. This damage does not count as DoT and can land critical hits.",
       "ja": "",
       "zh_tw": "變更為造成<116531.VALUE>的傷害量、造成<116532.VALUE>的額外傷害量。若該技能擊中<COLOR=#FFFFFF>＜抹淨＞</COLOR>、<COLOR=#FFFFFF>＜狂噬＞</COLOR>、<COLOR=#FFFFFF>＜澄沒＞</COLOR>全都持有的目標，賦予減益效果<COLOR=#FFFFFF>＜淹沒＞</COLOR><116538.DURATION>秒，被賦予該效果期間，目標每2秒受到施展者攻擊力<116539.VALUE>的傷害。該傷害不被視為持續傷害，可觸發暴擊",
       "zh_cn": ""
@@ -38387,7 +38835,7 @@
     {
       "no": 371169,
       "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116933.VALUE> 회복한다.",
-      "en": "Whenever a lead Soul uses a main skill, restores all allies' HP and Mana by <116933.VALUE>.",
+      "en": "Restores all allies' HP and Mana by <116933.VALUE> whenever a lead Soul uses her main skill.",
       "ja": "",
       "zh_tw": "每當隊長精靈使用主要技能時，恢復所有友軍體力與魔力<116933.VALUE>",
       "zh_cn": ""
@@ -39798,6 +40246,54 @@
       "en": "Increases the lead Soul's max HP by <315931.VALUE>. If the lead Soul is not a Supporter, using the main skill restores the HP of all allies by <315932.VALUE> of the lead Soul's max HP every 2 sec for <315932.DURATION> sec. If the lead Soul is a Supporter, using the main skill grants a shield that absorbs damage equal to <315933.VALUE> of the lead Soul's max HP for <315933.DURATION> sec to all allies.",
       "ja": "",
       "zh_tw": "使隊長精靈的體力上限增加<315931.VALUE>，使用主要技能時，若隊長精靈非輔助者，<315932.DURATION>秒內賦予所有友軍每2秒恢復隊長精靈體力上限<315932.VALUE>的效果；若隊長精靈為輔助者，<315933.DURATION>秒內賦予所有友軍防護罩，吸收相當隊長精靈體力上限<315933.VALUE>的攻擊",
+      "zh_cn": ""
+    },
+    {
+      "no": 373161,
+      "kr": "피해량이 <316130.VALUE>로 변경되고, <color=#FFFFFF><앱솔루트 제로></color> 상태에서 사용 시 공격력 <316132.VALUE>의 추가 피해를 입힌다.",
+      "en": "Damage changes to <316130.VALUE>. Also deals additional damage equal to <316132.VALUE> of ATK while <color=#FFFFFF>\"Absolute Zero\"</color> is active.",
+      "ja": "",
+      "zh_tw": "變更為造成<316130.VALUE>的傷害量，在<color=#FFFFFF>＜絕對零度＞</color>狀態下使用時，造成攻擊力<316132.VALUE>的額外傷害",
+      "zh_cn": ""
+    },
+    {
+      "no": 373162,
+      "kr": "피해량이 <316230.VALUE>로, <앱솔루트 제로> 상태일 때 피해량이 <316232.VALUE>로 변경된다.",
+      "en": "Damage changes to <316230.VALUE>. Damage while \"Absolute Zero\" is active changes to <316232.VALUE>.",
+      "ja": "",
+      "zh_tw": "變更為造成<316230.VALUE>的傷害量，處於＜絕對零度＞狀態時，變更為造成<316232.VALUE>的傷害量",
+      "zh_cn": ""
+    },
+    {
+      "no": 373163,
+      "kr": "피해량이 <316330.VALUE>, 냉기 피해량이 <316331.VALUE>로 변경되고 해당 스킬을 사용하는 동안 모든 군중 제어 효과에 면역 된다.",
+      "en": "Damage changes to <316330.VALUE>, and Freeze DoT changes to <316331.VALUE>. Becomes immune to all crowd control effects while using this skill.",
+      "ja": "",
+      "zh_tw": "變更為造成<316330.VALUE>的傷害量、寒氣傷害量<316331.VALUE>，且使用該技能期間對所有集體控制效果免疫",
+      "zh_cn": ""
+    },
+    {
+      "no": 373164,
+      "kr": "<마력 해방> 효과로 증가하는 공격력이 <316632.VALUE>로 변경되고, <color=#FFFFFF><앱솔루트 제로></color> 상태일 때 증가하는 공격력이 <316432.VALUE>로 변경된다.",
+      "en": "ATK increase from \"Mana Release\" changes to <316632.VALUE>. ATK increase while <color=#FFFFFF>\"Absolute Zero\"</color> is active changes to <316432.VALUE>.",
+      "ja": "",
+      "zh_tw": "因＜魔力解放＞效果增加的攻擊力變更為<316632.VALUE>，處於<color=#FFFFFF>＜絕對零度＞</color>狀態時增加的攻擊力變更為<316432.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 373165,
+      "kr": "피해량이 <316530.VALUE>로, 냉기 지속 피해량이 <316532.VALUE>로 변경된다.",
+      "en": "Damage changes to <316530.VALUE>, and Freeze DoT changes to <316532.VALUE>.",
+      "ja": "",
+      "zh_tw": "變更為造成<316530.VALUE>的傷害量、寒氣持續傷害量<316532.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 373169,
+      "kr": "메인 정령이 메인스킬 사용 시 6초동안 2초마다 마나를 750 회복한다. (최대 1회 발동)",
+      "en": "When the lead Soul uses her main skill, she recovers 750 Mana every 2 sec for 6 sec (triggers up to 1 time).",
+      "ja": "",
+      "zh_tw": "主要精靈使用主要技能時，6秒內每2秒恢復魔力750（最多發動1次）",
       "zh_cn": ""
     },
     {
@@ -41980,7 +42476,7 @@
       "no": 381141,
       "kr": "우리 내기 하나 할까?",
       "en": "How about a bet?",
-      "ja": "賭けをしてみない？",
+      "ja": "賭けでもしようか？",
       "zh_tw": "我們要不要來打個賭？",
       "zh_cn": ""
     },
@@ -42004,7 +42500,7 @@
       "no": 381145,
       "kr": "진심으로 할게?",
       "en": "This one's for real!",
-      "ja": "本気出しちゃうよ？",
+      "ja": "本気でいくよ？",
       "zh_tw": "我要認真了喔！",
       "zh_cn": ""
     },
@@ -42091,7 +42587,7 @@
     {
       "no": 381169,
       "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116943.VALUE> 회복한다.",
-      "en": "Whenever a lead Soul uses a main skill, restores all allies' HP and Mana by <116943.VALUE>.",
+      "en": "Restores all allies' HP and Mana by <116943.VALUE> whenever a lead Soul uses her main skill.",
       "ja": "",
       "zh_tw": "每當隊長精靈使用主要技能時，恢復所有友軍體力與魔力<116943.VALUE>",
       "zh_cn": ""
@@ -43330,7 +43826,7 @@
     },
     {
       "no": 383154,
-      "kr": "당신의 미래를... 내게 맡기세요.",
+      "kr": "당신의 미래를… 내게 맡기세요.",
       "en": "Entrust your future...to me.",
       "ja": "",
       "zh_tw": "你的未來…就交給我吧。",
@@ -43342,6 +43838,46 @@
       "en": "Increases the lead Soul's max HP by <315941.VALUE>. If the lead Soul is not a Supporter, using the main skill restores the HP of all allies by <315942.VALUE> of the lead Soul's max HP every 2 sec for <315942.DURATION> sec. If the lead Soul is a Supporter, using the main skill grants a shield that absorbs damage equal to <315943.VALUE> of the lead Soul's max HP for <315943.DURATION> sec to all allies.",
       "ja": "",
       "zh_tw": "使隊長精靈的體力上限增加<315941.VALUE>，使用主要技能時，若隊長精靈非輔助者，<315942.DURATION>秒內賦予所有友軍每2秒恢復隊長精靈體力上限<315942.VALUE>的效果；若隊長精靈為輔助者，<315943.DURATION>秒內賦予所有友軍防護罩，吸收相當隊長精靈體力上限<315943.VALUE>的攻擊",
+      "zh_cn": ""
+    },
+    {
+      "no": 383161,
+      "kr": "이 추위… 참을 수 있겠어?",
+      "en": "Can you stand this cold?",
+      "ja": "",
+      "zh_tw": "你受得了…這種寒冷嗎？",
+      "zh_cn": ""
+    },
+    {
+      "no": 383162,
+      "kr": "미끄러지지 않게 조심해?",
+      "en": "Careful not to slip.",
+      "ja": "",
+      "zh_tw": "小心別滑倒囉。",
+      "zh_cn": ""
+    },
+    {
+      "no": 383163,
+      "kr": "실례 좀 할게.",
+      "en": "'Scuse me for a moment.",
+      "ja": "",
+      "zh_tw": "失禮囉。",
+      "zh_cn": ""
+    },
+    {
+      "no": 383165,
+      "kr": "순간의 아름다움이여, 영원하거라.",
+      "en": "Beauty in this moment—made eternal!",
+      "ja": "",
+      "zh_tw": "一瞬即逝的美，永遠定格吧。",
+      "zh_cn": ""
+    },
+    {
+      "no": 383169,
+      "kr": "메인 정령이 메인스킬 사용 시 6초동안 2초마다 마나를 1000 회복한다. (최대 2회 발동)",
+      "en": "When the lead Soul uses her main skill, she recovers 1,000 Mana every 2 sec for 6 sec (triggers up to 2 times).",
+      "ja": "",
+      "zh_tw": "主要精靈使用主要技能時，6秒內每2秒恢復魔力1000（最多發動2次）",
       "zh_cn": ""
     },
     {
@@ -44683,7 +45219,7 @@
     {
       "no": 391169,
       "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116953.VALUE> 회복한다.",
-      "en": "Whenever a lead Soul uses a main skill, restores all allies' HP and Mana by <116953.VALUE>.",
+      "en": "Restores all allies' HP and Mana by <116953.VALUE> whenever a lead Soul uses her main skill.",
       "ja": "",
       "zh_tw": "每當隊長精靈使用主要技能時，恢復所有友軍體力與魔力<116953.VALUE>",
       "zh_cn": ""
@@ -44934,6 +45470,14 @@
       "en": "Increases the lead Soul's max HP by <315951.VALUE>. If the lead Soul is not a Supporter, using the main skill restores the HP of all allies by <315952.VALUE> of the lead Soul's max HP every 2 sec for <315952.DURATION> sec. If the lead Soul is a Supporter, using the main skill grants a shield that absorbs damage equal to <315953.VALUE> of the lead Soul's max HP for <315953.DURATION> sec to all allies.",
       "ja": "",
       "zh_tw": "使隊長精靈的體力上限增加<315951.VALUE>，使用主要技能時，若隊長精靈非輔助者，<315952.DURATION>秒內賦予所有友軍每2秒恢復隊長精靈體力上限<315952.VALUE>的效果；若隊長精靈為輔助者，<315953.DURATION>秒內賦予所有友軍防護罩，吸收相當隊長精靈體力上限<315953.VALUE>的攻擊",
+      "zh_cn": ""
+    },
+    {
+      "no": 393169,
+      "kr": "메인 정령이 메인스킬 사용 시 6초동안 2초마다 마나를 1250 회복한다. (최대 2회 발동)",
+      "en": "When the lead Soul uses her main skill, she recovers 1,250 Mana every 2 sec for 6 sec (triggers up to 2 times).",
+      "ja": "",
+      "zh_tw": "主要精靈使用主要技能時，6秒內每2秒恢復魔力1250（最多發動2次）",
       "zh_cn": ""
     },
     {
@@ -45267,7 +45811,7 @@
     {
       "no": 401169,
       "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116963.VALUE> 회복한다.",
-      "en": "Whenever a lead Soul uses a main skill, restores all allies' HP and Mana by <116963.VALUE>.",
+      "en": "Restores all allies' HP and Mana by <116963.VALUE> whenever a lead Soul uses her main skill.",
       "ja": "",
       "zh_tw": "每當隊長精靈使用主要技能時，恢復所有友軍體力與魔力<116963.VALUE>",
       "zh_cn": ""
@@ -45518,6 +46062,14 @@
       "en": "Increases the lead Soul's max HP by <315961.VALUE>. If the lead Soul is not a Supporter, using the main skill restores the HP of all allies by <315962.VALUE> of the lead Soul's max HP every 2 sec for <315962.DURATION> sec. If the lead Soul is a Supporter, using the main skill grants a shield that absorbs damage equal to <315963.VALUE> of the lead Soul's max HP for <315963.DURATION> sec to all allies.",
       "ja": "",
       "zh_tw": "使隊長精靈的體力上限增加<315961.VALUE>，使用主要技能時，若隊長精靈非輔助者，<315962.DURATION>秒內賦予所有友軍每2秒恢復隊長精靈體力上限<315962.VALUE>的效果；若隊長精靈為輔助者，<315963.DURATION>秒內賦予所有友軍防護罩，吸收相當隊長精靈體力上限<315963.VALUE>的攻擊",
+      "zh_cn": ""
+    },
+    {
+      "no": 403169,
+      "kr": "메인 정령이 메인스킬 사용 시 6초동안 2초마다 마나를 1500 회복한다. (최대 2회 발동)",
+      "en": "When the lead Soul uses her main skill, she recovers 1,500 Mana every 2 sec for 6 sec (triggers up to 2 times).",
+      "ja": "",
+      "zh_tw": "主要精靈使用主要技能時，6秒內每2秒恢復魔力1500（最多發動2次）",
       "zh_cn": ""
     },
     {
@@ -45851,7 +46403,7 @@
     {
       "no": 411169,
       "kr": "리더 정령들이 메인 스킬을 사용할 때 마다 모든 아군의 체력 및 마나를 <116973.VALUE> 회복한다.",
-      "en": "Whenever a lead Soul uses a main skill, restores all allies' HP and Mana by <116973.VALUE>.",
+      "en": "Restores all allies' HP and Mana by <116973.VALUE> whenever a lead Soul uses her main skill.",
       "ja": "",
       "zh_tw": "每當隊長精靈使用主要技能時，恢復所有友軍體力與魔力<116973.VALUE>",
       "zh_cn": ""
@@ -46102,6 +46654,14 @@
       "en": "Increases the lead Soul's max HP by <315971.VALUE>. If the lead Soul is not a Supporter, using the main skill restores the HP of all allies by <315972.VALUE> of the lead Soul's max HP every 2 sec for <315972.DURATION> sec. If the lead Soul is a Supporter, using the main skill grants a shield that absorbs damage equal to <315973.VALUE> of the lead Soul's max HP for <315973.DURATION> sec to all allies.",
       "ja": "",
       "zh_tw": "使隊長精靈的體力上限增加<315971.VALUE>，使用主要技能時，若隊長精靈非輔助者，<315972.DURATION>秒內賦予所有友軍每2秒恢復隊長精靈體力上限<315972.VALUE>的效果；若隊長精靈為輔助者，<315973.DURATION>秒內賦予所有友軍防護罩，吸收相當隊長精靈體力上限<315973.VALUE>的攻擊",
+      "zh_cn": ""
+    },
+    {
+      "no": 413169,
+      "kr": "메인 정령이 메인스킬 사용 시 6초동안 2초마다 마나를 2000 회복한다. (최대 2회 발동)",
+      "en": "When the lead Soul uses her main skill, she recovers 2,000 Mana every 2 sec for 6 sec (triggers up to 2 times).",
+      "ja": "",
+      "zh_tw": "主要精靈使用主要技能時，6秒內每2秒恢復魔力2000（最多發動2次）",
       "zh_cn": ""
     },
     {
@@ -48081,6 +48641,38 @@
       "zh_cn": ""
     },
     {
+      "no": 703111,
+      "kr": "<color=#EDA900>돌아온 전성기</COLOR>",
+      "en": "<color=#EDA900>Returned Prime</COLOR>",
+      "ja": "",
+      "zh_tw": "<color=#EDA900>回到巔峰期</COLOR>",
+      "zh_cn": ""
+    },
+    {
+      "no": 703121,
+      "kr": "특정 불사형 정령을 배치할 경우 해당 정령의 능력치가 상승하고, 스킬이 추가 효과를 부여한다.",
+      "en": "If a particular Undead Soul is in the party, that Soul's stats are increased and her skills trigger additional effects.",
+      "ja": "",
+      "zh_tw": "配置特定不死型精靈時，該精靈的能力值上升，賦予技能額外效果",
+      "zh_cn": ""
+    },
+    {
+      "no": 703311,
+      "kr": "<color=#EDA900>구원 대행</COLOR>",
+      "en": "<color=#EDA900>Salvation Proxy</COLOR>",
+      "ja": "",
+      "zh_tw": "<color=#EDA900>代理救援</COLOR>",
+      "zh_cn": ""
+    },
+    {
+      "no": 703321,
+      "kr": "특정 불사형 정령을 배치할 경우 해당 정령의 능력치가 상승하고, 스킬이 추가 효과를 부여한다.",
+      "en": "If a particular Undead Soul is in the party, that Soul's stats are increased and her skills trigger additional effects.",
+      "ja": "",
+      "zh_tw": "配置特定不死型精靈時，該精靈的能力值上升，賦予技能額外效果",
+      "zh_cn": ""
+    },
+    {
       "no": 703411,
       "kr": "<COLOR=#E0942C>야생의 벗</COLOR>",
       "en": "<COLOR=#E0942C>Friend of the Wild</COLOR>",
@@ -48740,7 +49332,7 @@
       "no": 710311,
       "kr": "어둠속에 나홀로",
       "en": "Alone in the Dark",
-      "ja": "",
+      "ja": "アローン・イン・ザ・ダーク",
       "zh_tw": "我獨自在黑暗中",
       "zh_cn": ""
     },
@@ -48748,7 +49340,7 @@
       "no": 710312,
       "kr": "아군을 1명만 배치할 수 있다.",
       "en": "Only 1 Soul can be deployed.",
-      "ja": "",
+      "ja": "味方を1体のみ配置できる。",
       "zh_tw": "僅可配置1名友軍",
       "zh_cn": ""
     },
@@ -48756,7 +49348,7 @@
       "no": 710313,
       "kr": "술래잡기",
       "en": "Playing Tag",
-      "ja": "",
+      "ja": "鬼ごっこ",
       "zh_tw": "捉迷藏",
       "zh_cn": ""
     },
@@ -48764,7 +49356,7 @@
       "no": 710314,
       "kr": "전투 시작 시 마나가 가득 채워지며, 메인 스킬 사용 후 일정 시간 뒤 마나가 가득 찬다.",
       "en": "Starts battle with full Mana. Main skill use is followed by full Mana restoration after a set time.",
-      "ja": "",
+      "ja": "戦闘を開始するときマナがすべて回復する。メインスキルを使用してから一定時間後にマナがすべて回復する。",
       "zh_tw": "戰鬥開始時填滿魔力，且使用主要技能後，在一定時間後填滿魔力",
       "zh_cn": ""
     },
@@ -48772,7 +49364,7 @@
       "no": 710321,
       "kr": "고스트 버스터즈",
       "en": "Ghost Busters",
-      "ja": "",
+      "ja": "ゴースト・バスターズ",
       "zh_tw": "幽靈剋星",
       "zh_cn": ""
     },
@@ -48780,7 +49372,7 @@
       "no": 710322,
       "kr": "유령 신부를 쓰러뜨리면 전투에서 승리한다.",
       "en": "The battle is won by defeating the ghost bride.",
-      "ja": "",
+      "ja": "幽霊の花嫁を倒す戦闘に勝利する。",
       "zh_tw": "擊倒幽靈新娘即獲勝。",
       "zh_cn": ""
     },
@@ -48788,7 +49380,7 @@
       "no": 710323,
       "kr": "무적의 군대",
       "en": "Invulnerable Army",
-      "ja": "",
+      "ja": "無敵の部隊",
       "zh_tw": "無敵軍隊",
       "zh_cn": ""
     },
@@ -48796,7 +49388,7 @@
       "no": 710324,
       "kr": "유령 신부를 제외한 다른 적들은 무적이 된다.",
       "en": "All other enemies except the ghost bride become Invulnerable.",
-      "ja": "",
+      "ja": "幽霊の花嫁以外の敵はすべて無敵になる。",
       "zh_tw": "除幽靈新娘以外的其他敵人處於無敵狀態。",
       "zh_cn": ""
     },
@@ -48804,7 +49396,7 @@
       "no": 710331,
       "kr": "일대일 결투",
       "en": "One-On-One Match",
-      "ja": "",
+      "ja": "決闘",
       "zh_tw": "一對一決鬥",
       "zh_cn": ""
     },
@@ -48812,7 +49404,7 @@
       "no": 710332,
       "kr": "배치된 정령 순서로 일대일 결투를 벌인다. 5번째 배치된 정령은 전투에 참가하지 않지만 패시브 효과는 부여할 수 있다. 모든 신부에게서 승리하라! ",
       "en": "The Souls engage in 1:1 duels in the order of deployment. The 5th Soul does not participate in the battle, but her passive effects do apply. Win against every bride! ",
-      "ja": "",
+      "ja": "配置された精霊の順に決闘を行う。5番目に配置された精霊は戦闘に参加しないが、パッシブ効果を付与できる。すべての花嫁に勝利せよ！ ",
       "zh_tw": "依照配置精靈的順序，展開一對一決鬥。第5個配置的精靈不會參戰，但可賦予被動效果。戰勝所有新娘吧！",
       "zh_cn": ""
     },
@@ -48820,7 +49412,7 @@
       "no": 710333,
       "kr": "퍼펙트 게임",
       "en": "Perfect Game",
-      "ja": "",
+      "ja": "パーフェクトゲーム",
       "zh_tw": "完全比賽",
       "zh_cn": ""
     },
@@ -48828,7 +49420,7 @@
       "no": 710334,
       "kr": "5명이 모두 생존해있지 않을 시 전투에서 패배한다.",
       "en": "The battle is lost if any of the 5 Souls is incapacitated.",
-      "ja": "",
+      "ja": "5体全員が生存しないと戦闘に敗北する。",
       "zh_tw": "5名沒有全數生存時即戰敗。",
       "zh_cn": ""
     },
@@ -48836,7 +49428,7 @@
       "no": 710335,
       "kr": "만만치 않은 신부들",
       "en": "Tough Brides",
-      "ja": "",
+      "ja": "手強い花嫁たち",
       "zh_tw": "不容小覷的新娘們",
       "zh_cn": ""
     },
@@ -48844,7 +49436,7 @@
       "no": 710336,
       "kr": "각 신부들은 고유한 특성을 지닌다. 각 신부의 특성을 파악하여 대응하자",
       "en": "Each bride has unique characteristics that you should analyze and adapt to.",
-      "ja": "",
+      "ja": "花嫁たちにはそれぞれ異なる特性を持つ。その特性を見極めて対応していこう。",
       "zh_tw": "各新娘具固有特性，掌握並對付各新娘的特性吧",
       "zh_cn": ""
     },
@@ -48852,7 +49444,7 @@
       "no": 710341,
       "kr": "못말리는 신부",
       "en": "Unstoppable Bride",
-      "ja": "",
+      "ja": "止められない花嫁",
       "zh_tw": "攔不住的新娘",
       "zh_cn": ""
     },
@@ -48860,7 +49452,7 @@
       "no": 710342,
       "kr": "일반적인 상태에서 대부분의 피해를 경감한다.",
       "en": "Most of the damage is mitigated in a normal state.",
-      "ja": "",
+      "ja": "通常状態ではほとんどのダメージを軽減する。",
       "zh_tw": "在一般狀態下減輕大部分的傷害。",
       "zh_cn": ""
     },
@@ -48868,7 +49460,7 @@
       "no": 710343,
       "kr": "말릴 수 있을지도?",
       "en": "Possibly Stoppable?",
-      "ja": "",
+      "ja": "止められるかも？",
       "zh_tw": "也許攔得住？",
       "zh_cn": ""
     },
@@ -48876,7 +49468,7 @@
       "no": 710344,
       "kr": "일정 타수 이상 공격 시 말릴 수 있을지도 모른다.",
       "en": "Delivering a high number of hits may allow you to stop her.",
-      "ja": "",
+      "ja": "一定以上攻撃すると止められるかもしれない。",
       "zh_tw": "攻擊到一定次數以上時，也許就能攔得住。",
       "zh_cn": ""
     },
@@ -48884,7 +49476,7 @@
       "no": 710351,
       "kr": "준비만전",
       "en": "Prepared for Anything",
-      "ja": "",
+      "ja": "準備は万全",
       "zh_tw": "萬無一失",
       "zh_cn": ""
     },
@@ -48892,7 +49484,7 @@
       "no": 710352,
       "kr": "전투 시작 시 아군 전체 마나 및 얼티밋 게이지 100% 회복",
       "en": "All allies' Mana and Ultimate Gauge start at 100% when battle begins",
-      "ja": "",
+      "ja": "戦闘開始時、味方全員のマナおよびアルティメットゲージが100%回復する",
       "zh_tw": "戰鬥開始後，所有友軍的魔力和終極計量條恢復100%",
       "zh_cn": ""
     },
@@ -48900,7 +49492,7 @@
       "no": 710353,
       "kr": "신부 연합회의 시련",
       "en": "The Bride Union's Challenge",
-      "ja": "",
+      "ja": "花嫁連合会の試練",
       "zh_tw": "新娘聯合會的考驗",
       "zh_cn": ""
     },
@@ -48908,7 +49500,7 @@
       "no": 710354,
       "kr": "에일린이 각 신부들과 협공을 펼친다.",
       "en": "Eileen launches joint attacks with each bride.",
-      "ja": "",
+      "ja": "エイリーンがそれぞれの花嫁たちと連携攻撃をしかける。",
       "zh_tw": "艾琳和各新娘展開夾擊。",
       "zh_cn": ""
     },
@@ -49276,7 +49868,7 @@
       "no": 3410081,
       "kr": "한 눈 팔지마~",
       "en": "Keep Your Eyes on Me",
-      "ja": "",
+      "ja": "よそ見しないでね～",
       "zh_tw": "不要分心～",
       "zh_cn": ""
     },
@@ -49284,7 +49876,7 @@
       "no": 3410082,
       "kr": "축의금도 다 내꺼야~",
       "en": "All Wedding Gifts Are Mine",
-      "ja": "",
+      "ja": "お祝い金、全部もらっちゃうよ～",
       "zh_tw": "禮金都是我的～",
       "zh_cn": ""
     },
@@ -49292,7 +49884,7 @@
       "no": 3410083,
       "kr": "내가 선사하는 부케야",
       "en": "Bouquet from Me",
-      "ja": "",
+      "ja": "アタシからのブーケ",
       "zh_tw": "這是我獻的捧花",
       "zh_cn": ""
     },
@@ -49300,7 +49892,7 @@
       "no": 3410084,
       "kr": "여기 주인공은 나야",
       "en": "I'm the Star Here",
-      "ja": "",
+      "ja": "ここの主役はアタシ",
       "zh_tw": "我就是這裡的主角",
       "zh_cn": ""
     },
@@ -49308,7 +49900,7 @@
       "no": 3410086,
       "kr": "꿈꾸던 허니문",
       "en": "Dreamy Honeymoon",
-      "ja": "",
+      "ja": "夢見たハニームーン",
       "zh_tw": "憧憬的蜜月",
       "zh_cn": ""
     },
@@ -50500,7 +51092,7 @@
       "no": 3510081,
       "kr": "가장 공격력이 높은 대상 뒤로 순간이동 하여 X자로 베며 대상의 최대 체력의 <color=#E67373><1008211.VALUE></color>의 피해를 입힌다",
       "en": "Teleports behind the target with the highest ATK and performs a criss-cross slash, dealing damage equal to <color=#E67373><1008211.VALUE></color> of the target's max HP.",
-      "ja": "",
+      "ja": "攻撃力が一番強い対象の後ろにテレポートしてX字形に斬り、対象の最大体力の<color=#E67373><1008211.VALUE></color>のダメージを与える。",
       "zh_tw": "瞬間移動到攻擊力最高的目標後方，X字砍擊，造成目標體力上限<color=#E67373><1008211.VALUE></color>的傷害",
       "zh_cn": ""
     },
@@ -50508,7 +51100,7 @@
       "no": 3510082,
       "kr": "가까운 대상에게 접근하여 공격력 <1008221.VALUE>의 피해를 입힌다.",
       "en": "Approaches a nearby target and deals damage equal to <1008221.VALUE> of ATK.",
-      "ja": "",
+      "ja": "近い対象に接近し、攻撃力の<1008221.VALUE>のダメージを与える。",
       "zh_tw": "靠近最近的目標，造成攻擊力<1008221.VALUE>的傷害",
       "zh_cn": ""
     },
@@ -50516,7 +51108,7 @@
       "no": 3510083,
       "kr": "에일린이 공격력이 가장 높은 적에게 단검을 던져 공격력 <1008231.VALUE>의 피해를 입히고 <1008532.DURATION>초 동안 마나 회복량을 <1008232.VALUE> 감소시킨다. 마나 회복량 감소 효과는 <1008532.DURATION>초 내에 해제하지 못 할 경우 <1008234.DURATION>초 동안 공격력을 <1008234.VALUE> 감소시키는 효과로 변경된다.",
       "en": "Eileen throws a dagger at the enemy with the highest ATK, dealing damage equal to <1008231.VALUE> of ATK and decreasing their Mana Recovery by <1008232.VALUE> for <1008532.DURATION> sec. If this debuff is not canceled within <1008532.DURATION> sec, it turns into another debuff that decreases ATK by <1008234.VALUE> for <1008234.DURATION> sec.",
-      "ja": "",
+      "ja": "エイリーンが攻撃力が一番高い敵に短剣を投げて攻撃力の<1008231.VALUE>のダメージを与え、<1008532.DURATION>秒間、マナ回復量を<1008232.VALUE>減少させる。マナ回復量減少効果を<1008532.DURATION>秒以内に解除できなかった場合、<1008234.DURATION>秒間、攻撃力を<1008234.VALUE>減少させる効果に変更される。",
       "zh_tw": "艾琳朝攻擊力最高的敵人丟出短劍，造成攻擊力<1008231.VALUE>的傷害，在<1008532.DURATION>秒內使魔力恢復量減少<1008232.VALUE>。若無法在<1008532.DURATION>秒內解除魔力恢復量減少效果，則變更為在<1008234.DURATION>秒內使攻擊力減少<1008234.VALUE>的效果",
       "zh_cn": ""
     },
@@ -50524,7 +51116,7 @@
       "no": 3510084,
       "kr": "가장 멀리있는 대상에게 순간이동 하여 급습해 공격력 <1008241.VALUE>의 피해를 입힌다.",
       "en": "Teleports to the farthest target and performs a surprise attack, dealing damage equal to <1008241.VALUE> of ATK.",
-      "ja": "",
+      "ja": "一番遠い対象にテレポートして急襲し、攻撃力の<1008241.VALUE>のダメージを与える。",
       "zh_tw": "瞬間移動至最遠的目標進行突擊，造成攻擊力<1008241.VALUE>的傷害",
       "zh_cn": ""
     },
@@ -50532,7 +51124,7 @@
       "no": 3510086,
       "kr": "에일린은 마나 감소 효과에 면역이 되며, 버프 보유 수가 <color=#FFFFFF>8개</color> 이상인 적 한명 당 1초마다 마나를 <1008263.VALUE> 회복한다.",
       "en": "Eileen becomes immune to Mana decrease effects and recovers <1008263.VALUE> Mana per second for every enemy with <color=#FFFFFF>8</color> or more active buffs.",
-      "ja": "",
+      "ja": "エイリーンはマナ減少効果を無効化し、バフを<color=#FFFFFF>8個</color>以上所持する敵1体につき、1秒ごとにマナを<1008263.VALUE>回復する。",
       "zh_tw": "艾琳對魔力減少效果免疫，持有增益數量超過<color=#FFFFFF>8個</color>以上的敵人，每個每1秒會使魔力恢復<1008263.VALUE>",
       "zh_cn": ""
     },
@@ -51796,7 +52388,7 @@
       "no": 3610081,
       "kr": "20초 동안 해제 불가능한 가하는 피해량을 <1008311.VALUE> 감소시키는 효과가 추가된다.",
       "en": "Adds an uncancelable effect that decreases the target's damage dealt by <1008311.VALUE> for 20 sec.",
-      "ja": "",
+      "ja": "20秒間、与えるダメージ量を<1008311.VALUE>減少させる効果が追加される。この効果は解除できない。",
       "zh_tw": "追加使造成傷害量減少<1008311.VALUE>的效果，且20秒內無法解除",
       "zh_cn": ""
     },
@@ -51804,7 +52396,7 @@
       "no": 3610082,
       "kr": "피해량이 <1008321.VALUE>로 변경된다.",
       "en": "Damage changes to <1008321.VALUE>.",
-      "ja": "",
+      "ja": "ダメージ量が<1008321.VALUE>に変更される。",
       "zh_tw": "變更為造成<1008321.VALUE>的傷害量",
       "zh_cn": ""
     },
@@ -51812,7 +52404,7 @@
       "no": 3610083,
       "kr": "피해량이 <1008331.VALUE>로, 감소되는 마나 회복량이 <1008332.VALUE>로 변경되고, 감소되는 공격력이 <1008334.VALUE>로 변경된다.",
       "en": "Damage changes to <1008331.VALUE>, Mana Recovery decrease changes to <1008332.VALUE>, and ATK decrease changes to <1008334.VALUE>.",
-      "ja": "",
+      "ja": "ダメージ量が<1008331.VALUE>に、減少されるマナ回復量が<1008332.VALUE>に変更され、減少される攻撃力が<1008334.VALUE>に変更される。",
       "zh_tw": "變更為造成<1008331.VALUE>的傷害，減少的魔力恢復量變更為<1008332.VALUE>，減少的攻擊力變更為<1008334.VALUE>",
       "zh_cn": ""
     },
@@ -51820,7 +52412,7 @@
       "no": 3610084,
       "kr": "피해량이 <1008341.VALUE>로 변경된다.",
       "en": "Damage changes to <1008341.VALUE>.",
-      "ja": "",
+      "ja": "ダメージ量が<1008341.VALUE>に変更される。",
       "zh_tw": "變更為造成<1008341.VALUE>的傷害量",
       "zh_cn": ""
     },
@@ -51828,7 +52420,7 @@
       "no": 3610086,
       "kr": "마나 회복량이 <1008363.VALUE>로 변경된다.",
       "en": "Mana recovery changes to <1008363.VALUE>.",
-      "ja": "",
+      "ja": "マナ回復量が<1008363.VALUE>に変更される。",
       "zh_tw": "變更為恢復<1008363.VALUE>的魔力",
       "zh_cn": ""
     },
@@ -52508,7 +53100,7 @@
       "no": 3710081,
       "kr": "가하는 피해량 감소 효과가 <1008411.VALUE>로 변경된다.",
       "en": "Damage dealt decrease changes to <1008411.VALUE>.",
-      "ja": "",
+      "ja": "与えるダメージ量減少の効果が<1008411.VALUE>に変更される。",
       "zh_tw": "造成傷害量減少效果變更為<1008411.VALUE>",
       "zh_cn": ""
     },
@@ -52516,7 +53108,7 @@
       "no": 3710082,
       "kr": "피해량이 <1008421.VALUE>로 변경되고, 대상이 <color=#FFFFFF>민첩 혹은 지능 특성의 정령</color>일 경우 마나를 <color=#4ABFD3>50%</color> 훔쳐오는 효과가 추가된다.",
       "en": "Damage changes to <1008421.VALUE>. Also steals <color=#4ABFD3>50%</color> Mana from the target if she is a <color=#FFFFFF>DEX or INT Soul</color>.",
-      "ja": "",
+      "ja": "ダメージ量が<1008421.VALUE>に変更され、対象が<color=#FFFFFF>敏捷または知能特性の精霊</color>の場合、マナを<color=#4ABFD3>50%</color>盗む効果が追加される。",
       "zh_tw": "變更為造成<1008421.VALUE>的傷害量，若目標是<color=#FFFFFF>敏捷或智力特性的精靈</color>，追加搶奪<color=#4ABFD3>50%</color>魔力的效果",
       "zh_cn": ""
     },
@@ -52524,7 +53116,7 @@
       "no": 3710083,
       "kr": "피해량이 <1008431.VALUE>로 변경되고, 마나 회복량 감소 효과 <COLOR=#FFFFFF>2</COLOR>개를 한번에 부여한다.",
       "en": "Damage changes to <1008431.VALUE>. Inflicts <COLOR=#FFFFFF>2</COLOR> Mana Recovery decrease debuffs at the same time.",
-      "ja": "",
+      "ja": "ダメージ量が<1008431.VALUE>に変更され、マナ回復量減少効果を一度に<COLOR=#FFFFFF>2</COLOR>個付与する。",
       "zh_tw": "變更為造成<1008431.VALUE>的傷害，一次賦予<COLOR=#FFFFFF>2</COLOR>個魔力恢復量減少效果",
       "zh_cn": ""
     },
@@ -52532,7 +53124,7 @@
       "no": 3710084,
       "kr": "피해량이 <1008441.VALUE>로 변경된다. 대상의 마나가 <COLOR=#4ABFD3>5000</COLOR> 이상일 경우 피해량이 <COLOR=#FFFFFF>2</COLOR>배로 증가한다.",
       "en": "Damage changes to <1008441.VALUE>. Damage is multiplied by <COLOR=#4ABFD3>2</COLOR> if the target has <COLOR=#FFFFFF>5,000</COLOR> or more Mana.",
-      "ja": "",
+      "ja": "ダメージ量が<1008441.VALUE>に変更される。対象のマナが<COLOR=#4ABFD3>5000</COLOR>以上の場合、ダメージ量が<COLOR=#FFFFFF>2</COLOR>倍に増加する。",
       "zh_tw": "變更為造成<1008441.VALUE>的傷害量，若目標魔力超過<COLOR=#4ABFD3>5000</COLOR>，傷害量增加為<COLOR=#FFFFFF>2</COLOR>倍",
       "zh_cn": ""
     },
@@ -52540,7 +53132,7 @@
       "no": 3710086,
       "kr": "마나 회복량이 <1008463.VALUE>로 변경된다.",
       "en": "Mana recovery changes to <1008463.VALUE>.",
-      "ja": "",
+      "ja": "マナ回復量が<1008463.VALUE>に変更される。",
       "zh_tw": "變更為恢復<1008463.VALUE>的魔力",
       "zh_cn": ""
     },
@@ -53212,7 +53804,7 @@
       "no": 3810081,
       "kr": "피해량이 최대 체력의 <color=#E67373><1008511.VALUE></color>로, 가하는 피해량 감소 효과가 <1008512.VALUE>로 변경된다.",
       "en": "Damage changes to <color=#E67373><1008511.VALUE></color> of max HP, and damage dealt decrease changes to <1008512.VALUE>.",
-      "ja": "",
+      "ja": "ダメージ量が最大体力の<color=#E67373><1008511.VALUE></color>に、与えるダメージ量減少効果が<1008512.VALUE>に変更される。",
       "zh_tw": "傷害量變更為體力上限的<color=#E67373><1008511.VALUE></color>，造成傷害量減少效果變更為<1008512.VALUE>",
       "zh_cn": ""
     },
@@ -53220,7 +53812,7 @@
       "no": 3810082,
       "kr": "피해량이 <1008521.VALUE>으로 변경되며, <1008522.DURATION>초 동안 <COLOR=#FFFFFF><빈털터리></COLOR> 상태가 되어 마나를 회복할 수 없다. 만약 <COLOR=#FFFFFF><빈털터리></COLOR> 상태에서 해당 효과를 추가로 받을 경우 <COLOR=#FFFFFF><파산></COLOR> 디버프를 영구적으로 부여받으며 마나를 회복할 수 없다.",
       "en": "Damage changes to <1008521.VALUE>. Becomes <COLOR=#FFFFFF>\"Destitute\"</COLOR> for <1008522.DURATION> sec, during which Mana Recovery is disabled. Gaining another <COLOR=#FFFFFF>\"Destitute\"</COLOR> effect while it's already active permanently applies the <COLOR=#FFFFFF>\"Bankrupt\"</COLOR> debuff, disabling Mana Recovery.",
-      "ja": "",
+      "ja": "ダメージ量が<1008521.VALUE>に変更され、<1008522.DURATION>秒間、<COLOR=#FFFFFF><貧民></COLOR>状態になり、マナを回復できなくなる。<COLOR=#FFFFFF><貧民></COLOR>状態でこの効果をさらに受けると<COLOR=#FFFFFF><大貧民></COLOR>デバフが永続的に付与され、マナを回復できなくなる。",
       "zh_tw": "變更為造成<1008521.VALUE>的傷害量，在<1008522.DURATION>秒內變成<COLOR=#FFFFFF>＜身無分文＞</COLOR>的狀態，無法恢復魔力。若在<COLOR=#FFFFFF>＜身無分文＞</COLOR>狀態下額外獲得該效果，永久被賦予減益效果<COLOR=#FFFFFF>＜破產＞</COLOR>，無法恢復魔力",
       "zh_cn": ""
     },
@@ -53228,7 +53820,7 @@
       "no": 3810083,
       "kr": "피해량이 <1008531.VALUE>로 변경되고, 마나 회복량 감소 효과 <COLOR=#FFFFFF>3</COLOR>개를 한번에 부여한다.",
       "en": "Damage changes to <1008531.VALUE>. Inflicts <COLOR=#FFFFFF>3</COLOR> Mana Recovery decrease debuffs at the same time.",
-      "ja": "",
+      "ja": "ダメージ量が<1008531.VALUE>に変更され、マナ回復量減少効果を一度に<COLOR=#FFFFFF>3</COLOR>個付与する。",
       "zh_tw": "變更為造成<1008531.VALUE>的傷害，一次賦予<COLOR=#FFFFFF>3</COLOR>個魔力恢復量減少效果",
       "zh_cn": ""
     },
@@ -53236,7 +53828,7 @@
       "no": 3810084,
       "kr": "피해량이 <1008541.VALUE>로 변경된다. 대상의 마나가 <COLOR=#4ABFD3>5000</COLOR> 이상일 경우 피해량이 <COLOR=#FFFFFF>3</COLOR>배로 증가한다.",
       "en": "Damage changes to <1008541.VALUE>. Damage is multiplied by <COLOR=#4ABFD3>3</COLOR> if the target has <COLOR=#FFFFFF>5,000</COLOR> or more Mana.",
-      "ja": "",
+      "ja": "ダメージ量が<1008541.VALUE>に変更される。対象のマナが<COLOR=#4ABFD3>5000</COLOR>以上の場合、ダメージ量が<COLOR=#FFFFFF>3</COLOR>倍に増加する。",
       "zh_tw": "變更為造成<1008541.VALUE>的傷害量，若目標魔力超過<COLOR=#4ABFD3>5000</COLOR>，傷害量增加為<COLOR=#FFFFFF>3</COLOR>倍",
       "zh_cn": ""
     },
@@ -53244,7 +53836,7 @@
       "no": 3810086,
       "kr": "마나 회복량이 <1008563.VALUE>로 변경된다.",
       "en": "Mana recovery changes to <1008563.VALUE>.",
-      "ja": "",
+      "ja": "マナ回復量が<1008563.VALUE>に変更される。",
       "zh_tw": "變更為恢復<1008563.VALUE>的魔力",
       "zh_cn": ""
     },
@@ -55293,7 +55885,7 @@
       "kr": "스트라이크 시뮬레이터 Lv.1",
       "en": "Strike Simulator Lv. 1",
       "ja": "",
-      "zh_tw": "打擊模擬裝置Lv.1",
+      "zh_tw": "重擊模擬裝置Lv.1",
       "zh_cn": ""
     },
     {
@@ -55301,7 +55893,7 @@
       "kr": "스트라이크 시뮬레이터 Lv.2",
       "en": "Strike Simulator Lv. 2",
       "ja": "",
-      "zh_tw": "打擊模擬裝置Lv.2",
+      "zh_tw": "重擊模擬裝置Lv.2",
       "zh_cn": ""
     },
     {
@@ -55309,7 +55901,7 @@
       "kr": "스트라이크 시뮬레이터 Lv.3",
       "en": "Strike Simulator Lv. 3",
       "ja": "",
-      "zh_tw": "打擊模擬裝置Lv.3",
+      "zh_tw": "重擊模擬裝置Lv.3",
       "zh_cn": ""
     },
     {
@@ -55317,7 +55909,7 @@
       "kr": "스트라이크 시뮬레이터 Lv.4",
       "en": "Strike Simulator Lv. 4",
       "ja": "",
-      "zh_tw": "打擊模擬裝置Lv.4",
+      "zh_tw": "重擊模擬裝置Lv.4",
       "zh_cn": ""
     },
     {
@@ -55325,7 +55917,7 @@
       "kr": "스트라이크 시뮬레이터 Lv.5",
       "en": "Strike Simulator Lv. 5",
       "ja": "",
-      "zh_tw": "打擊模擬裝置Lv.5",
+      "zh_tw": "重擊模擬裝置Lv.5",
       "zh_cn": ""
     },
     {
@@ -55333,7 +55925,7 @@
       "kr": "스트라이크 시뮬레이터 Lv.6",
       "en": "Strike Simulator Lv. 6",
       "ja": "",
-      "zh_tw": "打擊模擬裝置Lv.6",
+      "zh_tw": "重擊模擬裝置Lv.6",
       "zh_cn": ""
     },
     {
@@ -55341,7 +55933,7 @@
       "kr": "스트라이크 시뮬레이터 Lv.7",
       "en": "Strike Simulator Lv. 7",
       "ja": "",
-      "zh_tw": "打擊模擬裝置Lv.7",
+      "zh_tw": "重擊模擬裝置Lv.7",
       "zh_cn": ""
     },
     {
@@ -55349,7 +55941,7 @@
       "kr": "스트라이크 시뮬레이터 Lv.8",
       "en": "Strike Simulator Lv. 8",
       "ja": "",
-      "zh_tw": "打擊模擬裝置Lv.8",
+      "zh_tw": "重擊模擬裝置Lv.8",
       "zh_cn": ""
     },
     {
@@ -55357,7 +55949,7 @@
       "kr": "스트라이크 시뮬레이터 Lv.9",
       "en": "Strike Simulator Lv. 9",
       "ja": "",
-      "zh_tw": "打擊模擬裝置Lv.9",
+      "zh_tw": "重擊模擬裝置Lv.9",
       "zh_cn": ""
     },
     {
@@ -55365,87 +55957,87 @@
       "kr": "스트라이크 시뮬레이터 Lv.10",
       "en": "Strike Simulator Lv. 10",
       "ja": "",
-      "zh_tw": "打擊模擬裝置Lv.10",
+      "zh_tw": "重擊模擬裝置Lv.10",
       "zh_cn": ""
     },
     {
       "no": 8000111,
       "kr": "인듀어 시뮬레이터 Lv.1",
-      "en": "Endure Simulator Lv. 1",
+      "en": "Endurance Simulator Lv. 1",
       "ja": "",
-      "zh_tw": "忍受模擬裝置Lv.1",
+      "zh_tw": "耐力模擬裝置Lv.1",
       "zh_cn": ""
     },
     {
       "no": 8000112,
       "kr": "인듀어 시뮬레이터 Lv.2",
-      "en": "Endure Simulator Lv. 2",
+      "en": "Endurance Simulator Lv. 2",
       "ja": "",
-      "zh_tw": "忍受模擬裝置Lv.2",
+      "zh_tw": "耐力模擬裝置Lv.2",
       "zh_cn": ""
     },
     {
       "no": 8000113,
       "kr": "인듀어 시뮬레이터 Lv.3",
-      "en": "Endure Simulator Lv. 3",
+      "en": "Endurance Simulator Lv. 3",
       "ja": "",
-      "zh_tw": "忍受模擬裝置Lv.3",
+      "zh_tw": "耐力模擬裝置Lv.3",
       "zh_cn": ""
     },
     {
       "no": 8000114,
       "kr": "인듀어 시뮬레이터 Lv.4",
-      "en": "Endure Simulator Lv. 4",
+      "en": "Endurance Simulator Lv. 4",
       "ja": "",
-      "zh_tw": "忍受模擬裝置Lv.4",
+      "zh_tw": "耐力模擬裝置Lv.4",
       "zh_cn": ""
     },
     {
       "no": 8000115,
       "kr": "인듀어 시뮬레이터 Lv.5",
-      "en": "Endure Simulator Lv. 5",
+      "en": "Endurance Simulator Lv. 5",
       "ja": "",
-      "zh_tw": "忍受模擬裝置Lv.5",
+      "zh_tw": "耐力模擬裝置Lv.5",
       "zh_cn": ""
     },
     {
       "no": 8000116,
       "kr": "인듀어 시뮬레이터 Lv.6",
-      "en": "Endure Simulator Lv. 6",
+      "en": "Endurance Simulator Lv. 6",
       "ja": "",
-      "zh_tw": "忍受模擬裝置Lv.6",
+      "zh_tw": "耐力模擬裝置Lv.6",
       "zh_cn": ""
     },
     {
       "no": 8000117,
       "kr": "인듀어 시뮬레이터 Lv.7",
-      "en": "Endure Simulator Lv. 7",
+      "en": "Endurance Simulator Lv. 7",
       "ja": "",
-      "zh_tw": "忍受模擬裝置Lv.7",
+      "zh_tw": "耐力模擬裝置Lv.7",
       "zh_cn": ""
     },
     {
       "no": 8000118,
       "kr": "인듀어 시뮬레이터 Lv.8",
-      "en": "Endure Simulator Lv. 8",
+      "en": "Endurance Simulator Lv. 8",
       "ja": "",
-      "zh_tw": "忍受模擬裝置Lv.8",
+      "zh_tw": "耐力模擬裝置Lv.8",
       "zh_cn": ""
     },
     {
       "no": 8000119,
       "kr": "인듀어 시뮬레이터 Lv.9",
-      "en": "Endure Simulator Lv. 9",
+      "en": "Endurance Simulator Lv. 9",
       "ja": "",
-      "zh_tw": "忍受模擬裝置Lv.9",
+      "zh_tw": "耐力模擬裝置Lv.9",
       "zh_cn": ""
     },
     {
       "no": 8000120,
       "kr": "인듀어 시뮬레이터 Lv.10",
-      "en": "Endure Simulator Lv. 10",
+      "en": "Endurance Simulator Lv. 10",
       "ja": "",
-      "zh_tw": "忍受模擬裝置Lv.10",
+      "zh_tw": "耐力模擬裝置Lv.10",
       "zh_cn": ""
     },
     {
@@ -55613,7 +56205,7 @@
       "kr": "시즈 시뮬레이터 Lv.1",
       "en": "Siege Simulator Lv. 1",
       "ja": "",
-      "zh_tw": "攻城模擬裝置Lv.1",
+      "zh_tw": "圍攻模擬裝置Lv.1",
       "zh_cn": ""
     },
     {
@@ -55621,7 +56213,7 @@
       "kr": "시즈 시뮬레이터 Lv.2",
       "en": "Siege Simulator Lv. 2",
       "ja": "",
-      "zh_tw": "攻城模擬裝置Lv.2",
+      "zh_tw": "圍攻模擬裝置Lv.2",
       "zh_cn": ""
     },
     {
@@ -55629,7 +56221,7 @@
       "kr": "시즈 시뮬레이터 Lv.3",
       "en": "Siege Simulator Lv. 3",
       "ja": "",
-      "zh_tw": "攻城模擬裝置Lv.3",
+      "zh_tw": "圍攻模擬裝置Lv.3",
       "zh_cn": ""
     },
     {
@@ -55637,7 +56229,7 @@
       "kr": "시즈 시뮬레이터 Lv.4",
       "en": "Siege Simulator Lv. 4",
       "ja": "",
-      "zh_tw": "攻城模擬裝置Lv.4",
+      "zh_tw": "圍攻模擬裝置Lv.4",
       "zh_cn": ""
     },
     {
@@ -55645,7 +56237,7 @@
       "kr": "시즈 시뮬레이터 Lv.5",
       "en": "Siege Simulator Lv. 5",
       "ja": "",
-      "zh_tw": "攻城模擬裝置Lv.5",
+      "zh_tw": "圍攻模擬裝置Lv.5",
       "zh_cn": ""
     },
     {
@@ -55653,7 +56245,7 @@
       "kr": "시즈 시뮬레이터 Lv.6",
       "en": "Siege Simulator Lv. 6",
       "ja": "",
-      "zh_tw": "攻城模擬裝置Lv.6",
+      "zh_tw": "圍攻模擬裝置Lv.6",
       "zh_cn": ""
     },
     {
@@ -55661,7 +56253,7 @@
       "kr": "시즈 시뮬레이터 Lv.7",
       "en": "Siege Simulator Lv. 7",
       "ja": "",
-      "zh_tw": "攻城模擬裝置Lv.7",
+      "zh_tw": "圍攻模擬裝置Lv.7",
       "zh_cn": ""
     },
     {
@@ -55669,7 +56261,7 @@
       "kr": "시즈 시뮬레이터 Lv.8",
       "en": "Siege Simulator Lv. 8",
       "ja": "",
-      "zh_tw": "攻城模擬裝置Lv.8",
+      "zh_tw": "圍攻模擬裝置Lv.8",
       "zh_cn": ""
     },
     {
@@ -55677,7 +56269,7 @@
       "kr": "시즈 시뮬레이터 Lv.9",
       "en": "Siege Simulator Lv. 9",
       "ja": "",
-      "zh_tw": "攻城模擬裝置Lv.9",
+      "zh_tw": "圍攻模擬裝置Lv.9",
       "zh_cn": ""
     },
     {
@@ -55685,7 +56277,7 @@
       "kr": "시즈 시뮬레이터 Lv.10",
       "en": "Siege Simulator Lv. 10",
       "ja": "",
-      "zh_tw": "攻城模擬裝置Lv.10",
+      "zh_tw": "圍攻模擬裝置Lv.10",
       "zh_cn": ""
     },
     {
@@ -55750,6 +56342,14 @@
       "en": "Clear Lizelotte Tower of Origin 60F\r\n\r\nto unlock this Strive System.",
       "ja": "",
       "zh_tw": "欲進入該奮戰系統\r\n\r\n須通關起源之塔－莉澤洛特60層。",
+      "zh_cn": ""
+    },
+    {
+      "no": 8089301,
+      "kr": "해당 스트라이브 시스템에 입장하기 위해서는\r\n\r\n기원의 탑 - 아키의 60층 클리어가 필요합니다.",
+      "en": "Clear Aki Tower of Origin 60F\r\n\r\nto unlock this Strive System.",
+      "ja": "",
+      "zh_tw": "欲進入該奮戰系統\r\n\r\n須通關起源之塔－秋60層。",
       "zh_cn": ""
     },
     {
@@ -57300,7 +57900,7 @@
       "no": 34320111,
       "kr": "죽음의 손길",
       "en": "Death's Touch",
-      "ja": "",
+      "ja": "死の手",
       "zh_tw": "死亡之手",
       "zh_cn": ""
     },
@@ -57308,7 +57908,7 @@
       "no": 34320121,
       "kr": "탈출구",
       "en": "Escape Route",
-      "ja": "",
+      "ja": "脱出口",
       "zh_tw": "逃生口",
       "zh_cn": ""
     },
@@ -57316,7 +57916,7 @@
       "no": 34320211,
       "kr": "쇠약의 손길",
       "en": "Debilitating Touch",
-      "ja": "",
+      "ja": "衰弱の手",
       "zh_tw": "衰弱之手",
       "zh_cn": ""
     },
@@ -57324,7 +57924,7 @@
       "no": 34320212,
       "kr": "유령 신부",
       "en": "Ghost Bride",
-      "ja": "",
+      "ja": "幽霊の花嫁",
       "zh_tw": "幽靈新娘",
       "zh_cn": ""
     },
@@ -57332,7 +57932,7 @@
       "no": 34320221,
       "kr": "기력 흡수",
       "en": "Vigor Absorption",
-      "ja": "",
+      "ja": "気力吸収",
       "zh_tw": "吸收元氣",
       "zh_cn": ""
     },
@@ -57340,7 +57940,7 @@
       "no": 34320222,
       "kr": "불사의 군대",
       "en": "Undead Army",
-      "ja": "",
+      "ja": "不死の軍隊",
       "zh_tw": "不死軍隊",
       "zh_cn": ""
     },
@@ -57348,7 +57948,7 @@
       "no": 34320311,
       "kr": "폭발 탄환",
       "en": "Bomb Shot",
-      "ja": "",
+      "ja": "爆発弾丸",
       "zh_tw": "炸裂子彈",
       "zh_cn": ""
     },
@@ -57356,7 +57956,7 @@
       "no": 34320312,
       "kr": "수분 보충",
       "en": "Hydration",
-      "ja": "",
+      "ja": "水分補給",
       "zh_tw": "補充水分",
       "zh_cn": ""
     },
@@ -57364,7 +57964,7 @@
       "no": 34320313,
       "kr": "신부 수업: 셰리",
       "en": "Bridal Lesson: Cherrie",
-      "ja": "",
+      "ja": "花嫁修業：シェリー",
       "zh_tw": "新娘課程：雪莉",
       "zh_cn": ""
     },
@@ -57372,7 +57972,7 @@
       "no": 34320321,
       "kr": "봉마부",
       "en": "Amulet of Exorcism",
-      "ja": "",
+      "ja": "封魔符",
       "zh_tw": "封魔符",
       "zh_cn": ""
     },
@@ -57380,7 +57980,7 @@
       "no": 34320322,
       "kr": "호신부",
       "en": "Amulet of Protection",
-      "ja": "",
+      "ja": "護符",
       "zh_tw": "護身符",
       "zh_cn": ""
     },
@@ -57388,7 +57988,7 @@
       "no": 34320323,
       "kr": "신부 수업: 니니",
       "en": "Bridal Lesson: Nini",
-      "ja": "",
+      "ja": "花嫁修業：メイ",
       "zh_tw": "新娘課程：妮妮",
       "zh_cn": ""
     },
@@ -57396,7 +57996,7 @@
       "no": 34320331,
       "kr": "원소의 저주",
       "en": "Curse of Elements",
-      "ja": "",
+      "ja": "元素の呪い",
       "zh_tw": "元素詛咒",
       "zh_cn": ""
     },
@@ -57404,7 +58004,7 @@
       "no": 34320332,
       "kr": "고통의 저주",
       "en": "Curse of Affliction",
-      "ja": "",
+      "ja": "苦痛の呪い",
       "zh_tw": "苦痛詛咒",
       "zh_cn": ""
     },
@@ -57412,7 +58012,7 @@
       "no": 34320333,
       "kr": "신부 수업: 비올레트",
       "en": "Bridal Lesson: Violette",
-      "ja": "",
+      "ja": "花嫁修業：ヴィオレット",
       "zh_tw": "新娘課程：薇奧蕾特",
       "zh_cn": ""
     },
@@ -57420,7 +58020,7 @@
       "no": 34320341,
       "kr": "장난스런 캐럿",
       "en": "Mischievous Carrot",
-      "ja": "",
+      "ja": "いたずらなキャロット",
       "zh_tw": "調皮的克拉",
       "zh_cn": ""
     },
@@ -57428,7 +58028,7 @@
       "no": 34320342,
       "kr": "치명적인 바늘",
       "en": "Fatal Needle",
-      "ja": "",
+      "ja": "致命的な針",
       "zh_tw": "致命針頭",
       "zh_cn": ""
     },
@@ -57436,7 +58036,7 @@
       "no": 34320343,
       "kr": "신부 수업: 가넷",
       "en": "Bridal Lesson: Garnet",
-      "ja": "",
+      "ja": "花嫁修業：ガーネット",
       "zh_tw": "新娘課程：佳妮特",
       "zh_cn": ""
     },
@@ -57444,7 +58044,7 @@
       "no": 34320411,
       "kr": "부끄럽사옵니다",
       "en": "I Feel Shy",
-      "ja": "",
+      "ja": "恥ずかしゅうございます",
       "zh_tw": "十分難為情",
       "zh_cn": ""
     },
@@ -57452,7 +58052,7 @@
       "no": 34320412,
       "kr": "점괘를 보겠사옵니다",
       "en": "I Shall Read Your Fortune",
-      "ja": "",
+      "ja": "占わせていただきます",
       "zh_tw": "我看一下占卦",
       "zh_cn": ""
     },
@@ -57460,7 +58060,7 @@
       "no": 34320413,
       "kr": "절 받으시옵소서",
       "en": "I Bow Down to You",
-      "ja": "",
+      "ja": "ご機嫌よろしゅう",
       "zh_tw": "請受我一拜",
       "zh_cn": ""
     },
@@ -57468,7 +58068,7 @@
       "no": 34320414,
       "kr": "못말리는 신부",
       "en": "Unstoppable Bride",
-      "ja": "",
+      "ja": "止められない花嫁",
       "zh_tw": "攔不住的新娘",
       "zh_cn": ""
     },
@@ -57770,26 +58370,26 @@
     },
     {
       "no": 34321051,
-      "kr": "빙결포(상단)",
-      "en": "Frost Cannon (Top)",
+      "kr": "1호 탱크 사격(상단)",
+      "en": "Tank #1 Bombardment (Upper)",
       "ja": "",
-      "zh_tw": "凍結砲（上段）",
+      "zh_tw": "1號坦克射擊（上）",
       "zh_cn": ""
     },
     {
       "no": 34321061,
-      "kr": "빙결포(중단)",
-      "en": "Frost Cannon (Middle)",
+      "kr": "2호 탱크 사격(중단)",
+      "en": "Tank #2 Bombardment (Middle)",
       "ja": "",
-      "zh_tw": "凍結砲（中段）",
+      "zh_tw": "2號坦克射擊（中）",
       "zh_cn": ""
     },
     {
       "no": 34321071,
-      "kr": "빙결포(하단)",
-      "en": "Frost Cannon (Bottom)",
+      "kr": "3호 탱크 사격(하단)",
+      "en": "Tank #3 Bombardment (Lower)",
       "ja": "",
-      "zh_tw": "凍結砲（下段）",
+      "zh_tw": "3號坦克射擊（下）",
       "zh_cn": ""
     },
     {
@@ -57830,6 +58430,14 @@
       "en": "Ruler of Ordeals",
       "ja": "",
       "zh_tw": "考驗的統治者",
+      "zh_cn": ""
+    },
+    {
+      "no": 34321205,
+      "kr": "아이시클 필드",
+      "en": "Icicle Field",
+      "ja": "",
+      "zh_tw": "極凍場域",
       "zh_cn": ""
     },
     {
@@ -60068,7 +60676,7 @@
       "no": 35320111,
       "kr": "카렌은 영구적인 은신 상태이며 행동이 매우 느리다. 그녀의 손길에 닿은 적은 전투 불능이 된다.",
       "en": "Karen is in a permanent stealth state and moves very slowly. Enemies touched by her become incapacitated.",
-      "ja": "",
+      "ja": "カレンは永続的なハイド状態にあり、行動が非常に遅い。彼女の手に触れた敵は戦闘不能になる。",
       "zh_tw": "卡倫永久處於隱身狀態，行動非常緩慢。被她碰到的敵人會無法戰鬥",
       "zh_cn": ""
     },
@@ -60076,7 +60684,7 @@
       "no": 35320121,
       "kr": "어디선가 나타난 체력이 매우 높은 선인장 이 녀석을 이용하면 유령 신부에게서 도망칠 수 있을지도 모른다",
       "en": "A cactus with a high HP has appeared from somewhere. Using it might help you escape from the Ghost Bride.",
-      "ja": "",
+      "ja": "どこかで現れた体力が非常に高いサボテン。こいつをうまく利用すれば、幽霊の花嫁から逃げられるかもしれない。",
       "zh_tw": "從某處出現體力非常高的仙人掌，利用這傢伙說不定就能從幽靈新娘手中逃離",
       "zh_cn": ""
     },
@@ -60084,7 +60692,7 @@
       "no": 35320211,
       "kr": "카렌에게 공격 받은 적은 <3202111.DURATION>초 동안 가하는 피해량이 <3202111.VALUE> 감소한다.",
       "en": "Decreases damage dealt by enemies hit by Karen <3202111.VALUE> for <3202111.DURATION> sec.",
-      "ja": "",
+      "ja": "カレンの攻撃を受けた敵は<3202111.DURATION>秒間、与えるダメージ量が<3202111.VALUE>減少する。",
       "zh_tw": "受到卡倫攻擊的敵人造成的傷害量在<3202111.DURATION>秒內減少<3202111.VALUE>",
       "zh_cn": ""
     },
@@ -60092,7 +60700,7 @@
       "no": 35320212,
       "kr": "첫번째로 배치된 적만을 노리며 공격의 직접적인 대상이 되지 않는다.",
       "en": "Targets only the first placed Soul and does not become a direct target of attacks.",
-      "ja": "",
+      "ja": "1番目に配置された敵のみを狙い、攻撃の直接的な対象にならない。",
       "zh_tw": "只瞄準第一個被配置的敵人，不會直接成為攻擊目標",
       "zh_cn": ""
     },
@@ -60100,7 +60708,7 @@
       "no": 35320221,
       "kr": "무명의 일반 공격에 맞은 적은 현재 마나의 30%를 잃고, 얼티밋 게이지를 모두 잃는다.",
       "en": "Enemies hit by Nameless' normal attacks lose 30% of current Mana and loses all ultimate gauge.",
-      "ja": "",
+      "ja": "ナナシの通常攻撃に命中された敵は、現在のマナの30%と、すべてのアルティメットゲージを失う。",
       "zh_tw": "受到無名一般攻擊的敵人，失去目前魔力的30%並耗盡終極計量條",
       "zh_cn": ""
     },
@@ -60108,7 +60716,7 @@
       "no": 35320222,
       "kr": "무명은 자신이 배치된 순서와 동일한 순서의 적만을 노린다.",
       "en": "Nameless targets only the enemy that matches the order in which it was placed.",
-      "ja": "",
+      "ja": "ナナシは自分が配置された順番と同じ順番の敵のみを狙う。",
       "zh_tw": "無名只會瞄準跟自身配置順序一樣的敵人",
       "zh_cn": ""
     },
@@ -60116,7 +60724,7 @@
       "no": 35320311,
       "kr": "가장 가까운 적에게 폭발 탄환을 발사하여 공격력 <3203111.VALUE>의 피해를 입힌다. 만약 대상이 힘 특성 정령이 아닐 경우 공격력 <3203112.VALUE>의 추가 피해를 입힌다.",
       "en": "Launches an explosive shot at the nearest enemy, dealing damage equal to <3203111.VALUE> of ATK. If the target is not a STR Soul, deals additional damage equal to <3203112.VALUE> of ATK.",
-      "ja": "",
+      "ja": "一番近い敵に爆発弾丸を発射し、攻撃力の<3203111.VALUE>のダメージを与える。対象が力特性精霊ではない場合、攻撃力の<3203112.VALUE>の追加ダメージを与える。",
       "zh_tw": "朝最近的敵人發射炸裂子彈，造成攻擊力<3203111.VALUE>的傷害。若目標不是力量特性的精靈，則造成攻擊力<3203112.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -60124,7 +60732,7 @@
       "no": 35320312,
       "kr": "자신이 물이라고 주장하는 것을 마셔 <3203121.DURATION>초 뒤 자신의 최대 체력의 <3203122.VALUE>를 회복한다. 해당 효과는 기절 상태로 만들면 해제된다.",
       "en": "Drinks something she claims is water, which restores <3203122.VALUE> of her max HP after <3203121.DURATION> sec. This effect is canceled upon being stunned.",
-      "ja": "",
+      "ja": "水だと主張するものを飲んで<3203121.DURATION>秒後に自分の最大体力の<3203122.VALUE>を回復する。効果は気絶状態にすると解除される。",
       "zh_tw": "喝下自己聲稱是水的東西，<3203121.DURATION>秒後恢復自身體力上限的<3203122.VALUE>。該效果在造成暈眩狀態後解除",
       "zh_cn": ""
     },
@@ -60132,7 +60740,7 @@
       "no": 35320313,
       "kr": "첫번째로 배치된 아군과 전투를 벌인다. 피해를 경감하고 회복을 저지하기 위해 힘 특성의 기절 효과를 가진 정령이 있다면 조금 수월하지 않을까?",
       "en": "Fights the Soul that was deployed first. Having a STR Soul that can reduce the damage received and stun the opponent to interrupt HP recovery could make things easier.",
-      "ja": "",
+      "ja": "1番目に配置された味方と戦闘を行う。ダメージを軽減して回復を阻止するために、力特性で気絶効果を持っている精霊を配置すれば対応しやすいかもしれない。",
       "zh_tw": "和第一個被配置的友軍展開戰鬥。為了減輕傷害和阻止恢復，有力量特性暈眩效果的精靈會不會比較容易呢？",
       "zh_cn": ""
     },
@@ -60140,7 +60748,7 @@
       "no": 35320321,
       "kr": "가장 가까운 적에게 마나 회복을 막는 부적을 던져 <3203241.DURATION>초 동안 대상의 마나 회복량을 <3203241.VALUE> 감소시킨다.",
       "en": "Throws an amulet that hinders Mana Recovery to the nearest enemy, decreasing their Mana Recovery by <3203241.VALUE> for <3203241.DURATION> sec.",
-      "ja": "",
+      "ja": "一番近い敵にマナ回復を止めるお札を投げ、<3203241.DURATION>秒間、対象のマナ回復量を<3203241.VALUE>減少させる。",
       "zh_tw": "朝最近的敵人扔出阻止恢復魔力的符咒，在<3203241.DURATION>秒內使目標魔力恢復量減少<3203241.VALUE>",
       "zh_cn": ""
     },
@@ -60148,7 +60756,7 @@
       "no": 35320322,
       "kr": "자신에게 호신부를 붙여 자신의 최대 체력의 <3203221.VALUE>의 보호막을 부여한다.",
       "en": "Puts an amulet of protection on herself, gaining a shield equal to <3203221.VALUE> of her max HP.",
-      "ja": "",
+      "ja": "自分に護符をつけ、自分の最大体力の<3203221.VALUE>のバリアを付与する。",
       "zh_tw": "替自己貼上護身符，賦予自身體力上限<3203221.VALUE>的防護罩",
       "zh_cn": ""
     },
@@ -60156,7 +60764,7 @@
       "no": 35320323,
       "kr": "두번째로 배치된 아군과 전투를 벌인다. 니니가 수호부를 보유하고 있지 않는 경우 받는 최종 피해량이 <3203232.VALUE> 증가한다. 마나를 쓰지 않아도 적의 버프를 해제 할 수 있는 정령이 있을까?",
       "en": "Fights the Soul that was deployed second. If Nini doesn't have an amulet of protection on her, her total damage received increases by <3203232.VALUE>. Do you have any Souls who can cancel enemy buffs without using Mana?",
-      "ja": "",
+      "ja": "2番目に配置された味方と戦闘を行う。メイが守護符を所持していない場合、受ける最終ダメージ量が<3203232.VALUE>増加する。マナを消費しなくても敵のバフを解除できる精霊はいるかな？",
       "zh_tw": "和第二個被配置的友軍展開戰鬥。若妮妮未持有守護符，所受最終傷害量增加<3203232.VALUE>。有精靈不須使用魔力，就能解除敵人的增益嗎？",
       "zh_cn": ""
     },
@@ -60164,7 +60772,7 @@
       "no": 35320331,
       "kr": "가장 가까운 적에게 영구적으로 2초마다 공격력 <3203311.VALUE>의 피해를 입히는 화상, 빙결, 감전 효과를 부여한다. (중첩 가능)",
       "en": "Permanently inflicts stacking Burn, Frost, and Shock on the nearest enemy, dealing damage equal to <3203311.VALUE> of ATK every 2 sec.",
-      "ja": "",
+      "ja": "一番近い敵に永続的に2秒ごとに攻撃力の<3203311.VALUE>のダメージを与える火傷、氷結、感電効果を付与する。(スタック可能)",
       "zh_tw": "永久賦予最近的敵人燒傷、凍結、觸電效果，每2秒造成攻擊力<3203311.VALUE>的傷害（可疊加）",
       "zh_cn": ""
     },
@@ -60172,7 +60780,7 @@
       "no": 35320332,
       "kr": "가장 가까운 적에게 영구적으로 2초마다 공격력 <3203321.VALUE>의 피해를 입히는 중독, 출혈, 저주 효과를 부여한다. (중첩 가능)",
       "en": "Permanently inflicts stacking Poison, Bleeding, and Curse on the nearest enemy, dealing damage equal to <3203321.VALUE> of ATK every 2 sec.",
-      "ja": "",
+      "ja": "一番近い敵に永続的に2秒ごとに攻撃力の<3203321.VALUE>のダメージを与える中毒、出血、呪い効果を付与する。(スタック可能)",
       "zh_tw": "永久賦予最近的敵人中毒、出血、詛咒效果，每2秒造成攻擊力<3203321.VALUE>的傷害（可疊加）",
       "zh_cn": ""
     },
@@ -60180,7 +60788,7 @@
       "no": 35320333,
       "kr": "세번째로 배치된 아군과 전투를 벌인다. 물리 피해를 크게 경감하지만 받는 지속 피해가 크게 증가한다. 저주를 해제하면서 자신의 체력을 보존하며 마법 피해를 입힐 수 있는 정령은 누구일까?",
       "en": "Fights the Soul that was deployed third. Greatly decreases physical damage received but also greatly increases incoming DoT. Which Soul can cancel curses and preserve her HP while dealing Magic damage?",
-      "ja": "",
+      "ja": "3番目に配置された味方と戦闘を行う。物理ダメージを大きく軽減するが、受ける持続ダメージが大きく増加する。呪いを解除しながら自分の体力を保存し、魔法ダメージを与えられる精霊は誰かな？",
       "zh_tw": "和第三個被配置的友軍展開戰鬥。大幅降低物理傷害，但所受持續傷害大幅增加。解除詛咒的同時還能保留自身體力，並造成魔法傷害的精靈是誰呢？",
       "zh_cn": ""
     },
@@ -60188,7 +60796,7 @@
       "no": 35320341,
       "kr": "가장 가까운 적에게 공격력, 방어력, 치명타 확률, 치명타 위력, 가하는 피해 버프가 걸려있을 경우 해당 능력치의 <3203411.VALUE>만큼의 감소 효과를 가진 디버프를 영구적으로 부여하고, <3203418.DURATION>초 뒤 전투 불능이 되는 <COLOR=#FFFFFF><죽음의 선고></COLOR>를 부여한다.",
       "en": "If the nearest enemy has a buff affecting her ATK, DEF, Crit Rate, Crit DMG, or damage dealt, permanently inflicts a debuff that decreases that buffed stat by <3203411.VALUE> on this target while also inflicting her with <COLOR=#FFFFFF>\"Death Sentence\"</COLOR>, which incapacitates her in <3203418.DURATION> sec.",
-      "ja": "",
+      "ja": "一番近い敵に攻撃力、防御力、クリティカル率、クリティカル威力、与えるダメージバフが付与されている場合、その能力値の<3203411.VALUE>分の減少効果を持つデバフを永続的に付与し、<3203418.DURATION>秒後に戦闘不能になる<COLOR=#FFFFFF><死の宣告></COLOR>を付与する。",
       "zh_tw": "若最近的敵人有攻擊力、防禦力、暴擊率、暴擊威力、造成傷害增益時，則永久賦予相當該能力值<3203411.VALUE>減少效果的減益，並賦予<3203418.DURATION>秒後處於無法戰鬥的<COLOR=#FFFFFF>＜宣告死亡＞</COLOR>",
       "zh_cn": ""
     },
@@ -60196,7 +60804,7 @@
       "no": 35320342,
       "kr": "가장 가까운 적에게 바늘을 꽂아 공격력 <3203421.VALUE>의 피해를 입히고, 디버프를 3종 이상 보유 중일 경우 공격력 <3203422.VALUE>의 추가 피해를 입힌다.",
       "en": "Stabs the nearest enemy with a needle, dealing damage equal to <3203421.VALUE> of ATK. If the target has 3 or more active debuffs, also deals additional damage equal to <3203422.VALUE> of ATK.",
-      "ja": "",
+      "ja": "一番近い敵に針を刺して攻撃力の<3203421.VALUE>のダメージを与える。デバフを3種以上獲得している場合、攻撃力の<3203422.VALUE>の追加ダメージを与える。",
       "zh_tw": "對最近的敵人扎針，造成攻擊力<3203421.VALUE>的傷害，若持有3種以上減益效果，則造成攻擊力<3203422.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -60204,7 +60812,7 @@
       "no": 35320343,
       "kr": "네번째로 배치된 아군과 전투를 벌인다. 자신에게 버프를 부여하지 않으면서 강한 피해를 입힐 수 있는 정령은 누가 있을까? 지금까지 쌓여온 얼티밋 게이지도 함께 활용하도록 하자!",
       "en": "Fights the Soul that was deployed fourth. Which Soul can deal massive damage without giving herself a buff? Utilizing the Ultimate Gauge that's been charging so far would be good, too!",
-      "ja": "",
+      "ja": "4番目に配置された味方と戦闘を行う。自分にバフを付与せずに強力なダメージを与えられる精霊は誰かな？今までためてきたアルティメットゲージも一緒に活用しよう！",
       "zh_tw": "和第四個被配置的友軍展開戰鬥。不會賦予自身增益效果，又能造成強大傷害的精靈是誰呢？一併運用目前為止累積的終極計量條吧！",
       "zh_cn": ""
     },
@@ -60212,7 +60820,7 @@
       "no": 35320411,
       "kr": "적 전체에게 공격력 <3204111.VALUE>의 피해를 입힌다 만약 자신에게 <COLOR=#FFFFFF><못말리는 신부></COLOR> 버프가 50중첩 이상 부여되어 있을 경우  공격력 <3204112.VALUE>의 추가 피해를 입힌다.",
       "en": "Deals damage equal to <3204111.VALUE> of ATK to all enemies. If she has 50 or more stacks of <COLOR=#FFFFFF>\"Unstoppable Bride,\"</COLOR> also deals additional damage equal to <3204112.VALUE> of ATK.",
-      "ja": "",
+      "ja": "敵全員に攻撃力の<3204111.VALUE>のダメージを与える。自分に<COLOR=#FFFFFF><止められない花嫁></COLOR>バフが50スタック以上付与されている場合、攻撃力の<3204112.VALUE>の追加ダメージを与える。",
       "zh_tw": "對所有敵人造成攻擊力<3204111.VALUE>的傷害。若自身被賦予增益<COLOR=#FFFFFF>＜攔不住的新娘＞</COLOR>50疊加以上，則造成攻擊力<3204112.VALUE>的額外傷害",
       "zh_cn": ""
     },
@@ -60220,7 +60828,7 @@
       "no": 35320412,
       "kr": "무작위 대상에게 <COLOR=#FFFFFF><푸른 실></COLOR> 혹은 <COLOR=#FFFFFF><붉은 실></COLOR> 효과를 부여한다. 각 효과는 <3204124.DURATION>초 동안 지속되며 <COLOR=#FFFFFF><푸른 실></COLOR>은 메인 스킬을 사용하면 해제되고,  <COLOR=#FFFFFF><붉은 실></COLOR>은 메인 스킬을 사용하지 않으면 해제된다. 만약 위 내용대로 수행하지 않을 시 루테에게 <COLOR=#FFFFFF><못말리는 신부></COLOR> 버프가 100중첩 부여된다.",
       "en": "Inflicts a random target with either <COLOR=#FFFFFF>\"Blue Thread\"</COLOR> or <COLOR=#FFFFFF>\"Red Thread.\"</COLOR> Each effect lasts for <3204124.DURATION> sec, during which the <COLOR=#FFFFFF>\"Blue Thread\"</COLOR> effect is canceled upon main skill use, and the <COLOR=#FFFFFF>\"Red Thread\"</COLOR> effect is canceled if the main skill is not used. Failure to cancel either of these effects grants 100 stacks of <COLOR=#FFFFFF>\"Unstoppable Bride\"</COLOR> to Lute.",
-      "ja": "",
+      "ja": "ランダムな敵に<COLOR=#FFFFFF><青い糸></COLOR>または<COLOR=#FFFFFF><赤い糸></COLOR>効果を付与する。それぞれの効果は<3204124.DURATION>秒間持続する。<COLOR=#FFFFFF><青い糸></COLOR>はメインスキルを使用すると解除され、<COLOR=#FFFFFF><赤い糸></COLOR>はメインスキルを使用しないと解除される。以上の内容を遂行しない場合、ルーテに<COLOR=#FFFFFF><止められない花嫁></COLOR>バフが100スタック付与される。",
       "zh_tw": "隨機賦予目標<COLOR=#FFFFFF>＜藍線＞</COLOR>或<COLOR=#FFFFFF>＜紅線＞</COLOR>效果。各效果持續<3204124.DURATION>秒，使用主要技能會解除<COLOR=#FFFFFF>＜藍線＞</COLOR>，不使用主要技能會解除<COLOR=#FFFFFF>＜紅線＞</COLOR>。若沒有照上述內容執行，會賦予魯特增益效果<COLOR=#FFFFFF>＜攔不住的新娘＞</COLOR>100疊加",
       "zh_cn": ""
     },
@@ -60228,7 +60836,7 @@
       "no": 35320413,
       "kr": "적 전체에게 공격력 <3204131.VALUE>의 피해를 입힌다. 만약 <COLOR=#FFFFFF><못말리는 신부></COLOR> 버프가 1중첩 이상 있을 경우 모든 적의 물리 저항력을 영구적으로 <3204132.VALUE> 감소시킨다. 이후 2초마다 자신의 <COLOR=#FFFFFF><못말리는 신부></COLOR> 10중첩씩 증가시킨다.",
       "en": "Deals damage equal to <3204131.VALUE> of ATK to all enemies. Permanently decreases all enemies' Physical Resistance by <3204132.VALUE> if she has 1 or more stacks of <COLOR=#FFFFFF>\"Unstoppable Bride.\"</COLOR> Then, she gains 10 stacks of <COLOR=#FFFFFF>\"Unstoppable Bride\"</COLOR> every 2 sec.",
-      "ja": "",
+      "ja": "敵全員に攻撃力の<3204131.VALUE>のダメージを与える。<COLOR=#FFFFFF><止められない花嫁></COLOR>バフが1スタック以上いる場合、敵全員の物理抵抗を永続的に<3204132.VALUE>減少させる。以後、2秒ごとに自分の<COLOR=#FFFFFF><止められない花嫁></COLOR>を10スタックずつ増加させる。",
       "zh_tw": "對所有敵人造成攻擊力<3204131.VALUE>的傷害，若增益效果<COLOR=#FFFFFF>＜攔不住的新娘＞</COLOR>達1疊加以上，使所有敵人物理抵抗力永久減少<3204132.VALUE>，之後每2秒替自身的<COLOR=#FFFFFF>＜攔不住的新娘＞</COLOR>增加10疊加",
       "zh_cn": ""
     },
@@ -60236,7 +60844,7 @@
       "no": 35320414,
       "kr": "전투 시작 후 <COLOR=#FFFFFF><못말리는 신부></COLOR> 100중첩을 획득한다. <COLOR=#FFFFFF><못말리는 신부></COLOR> 중첩이 존재하는 동안 루테는 대부분의 피해를 경감하며 공격을 맞을 때 마다 중첩이 소모된다. 만약 중첩이 모두 소진되면 <COLOR=#FFFFFF><말릴 수 있을지도?></COLOR> 디버프가 부여되고, 정상적으로 피해를 입힐 수 있게되며 루테의 받는 최종 피해량이 <3204198.VALUE> 증가한다.",
       "en": "Gains 100 stacks of <COLOR=#FFFFFF>\"Unstoppable Bride\"</COLOR> when battle begins. While <COLOR=#FFFFFF>\"Unstoppable Bride\"</COLOR> is active on Lute, most incoming damage is greatly reduced, and each attack hit consumes a stack. When all stacks are depleted, she is inflicted with the <COLOR=#FFFFFF>\"Possibly Stoppable?\"</COLOR> debuff, which makes her receive damage normally and increases her total damage received by <3204198.VALUE>.",
-      "ja": "",
+      "ja": "戦闘開始後、<COLOR=#FFFFFF><止められない花嫁></COLOR>100スタックを獲得する。<COLOR=#FFFFFF><止められない花嫁></COLOR>スタックがある間、ルーテは攻撃を受けるたびにスタックを消費し、ほとんどのダメージを軽減する。スタックをすべて消費すると、<COLOR=#FFFFFF><止められるかも？></COLOR>デバフが付与され、通常通りダメージを与えられるようになり、ルーテの受ける最終ダメージ量が<3204198.VALUE>増加する。",
       "zh_tw": "戰鬥開始後，獲得<COLOR=#FFFFFF>＜攔不住的新娘＞</COLOR>100疊加。持有<COLOR=#FFFFFF>＜攔不住的新娘＞</COLOR>疊加期間，魯特降低大部分傷害，每次受擊會消耗疊加。疊加全數耗盡後，賦予減益效果<COLOR=#FFFFFF>＜也許攔得住？＞</COLOR>，變得照常受到傷害，且魯特所受最終傷害量增加<3204198.VALUE>",
       "zh_cn": ""
     },
@@ -60562,42 +61170,42 @@
     },
     {
       "no": 35320990,
-      "kr": "전투 중 <토용군>이 처치 될 때 마다 피해를 받고 <토용군>을 소환한다.",
-      "en": "Whenever a \"Clay Creature\" is defeated during battle, she takes the damage and summons another \"Clay Creature.\"",
+      "kr": "전투 중 <마물>이 처치 될 때 마다 피해를 받고 <마물>을 소환한다.",
+      "en": "Whenever a \"Monster\" is defeated during battle, she takes the damage and summons another \"Monster\"",
       "ja": "",
-      "zh_tw": "戰鬥中，每當＜土俑軍＞被擊殺時會受到傷害，召喚＜土俑軍＞",
+      "zh_tw": "戰鬥中，每當＜魔物＞被擊殺時會受到傷害，召喚＜魔物＞",
       "zh_cn": ""
     },
     {
       "no": 35321051,
-      "kr": "빙결포를 발사하여 직선 범위 내 모든 적을 섬멸합니다. (쿨타임: 20초)",
-      "en": "Fires a Frost Cannon, wiping out all enemies in a straight line (Cooldown: 20 sec).",
+      "kr": "모든 적을 궤멸시키는 포를 직선으로 발사한다. (쿨타임: 15초)",
+      "en": "Fires a shell in a straight line that annihilates all enemies in its path (Cooldown: 15 sec).",
       "ja": "",
-      "zh_tw": "發射凍結砲，殲滅直線範圍內所有敵人。（冷卻時間：20秒）",
+      "zh_tw": "直線發射出殲滅所有敵人的砲彈。（冷卻時間：15秒）",
       "zh_cn": ""
     },
     {
       "no": 35321081,
-      "kr": "전투 시작 20초 후 사용 가능하며, 1회에 한해 모든 빙결포의 마나를 최대로 회복한다.",
-      "en": "Can be used 20 sec after the battle begins. Fully restores the Mana of all Frost Cannons once.",
+      "kr": "모든 탱크 포격을 즉시 사용 가능 상태로 변경한다. (1회에 한해 전투 시작 20초 이후 사용 가능)",
+      "en": "Instantly readies all tank bombardments for use (can be used once per battle, 20 seconds after the battle begins)",
       "ja": "",
-      "zh_tw": "僅限戰鬥開始20秒後使用1次，將所有凍結砲的魔力恢復至上限",
+      "zh_tw": "所有坦克轉為可立即使用砲擊的狀態。（僅限發動1次，可在戰鬥開始20秒後使用）",
       "zh_cn": ""
     },
     {
       "no": 35321181,
       "kr": "가장 멀리 있는 적을 대상으로 검기를 날려 경로 상의 모든 적에게 공격력 <3211810.VALUE>의 피해를 입히고, <3211811.DURATION>초 동안 <COLOR=#FFFFFF>2</COLOR>초마다 공격력 <3211812.VALUE>의 피해를 입는 <COLOR=#FFFFFF><환영 상처></COLOR> 상태를 부여한다.(해제 가능)",
-      "en": "Unleashes a sword blast toward the farthest enemy, dealing damage equal to <3211810.VALUE> of ATK to all enemies in its path and inflicting <COLOR=#FFFFFF>\"Illusory Wound\"</COLOR> on them for <3211811.DURATION> sec, which deals DoT equal to <3211812.VALUE> of ATK every <COLOR=#FFFFFF>2</COLOR> sec.",
+      "en": "Unleashes a sword blast toward the farthest enemy, dealing damage equal to <3211810.VALUE> of ATK to all enemies in its path and inflicting <COLOR=#FFFFFF>\"Illusory Wound\"</COLOR> on them for <3211811.DURATION> sec, which deals DoT equal to <3211812.VALUE> of ATK every <COLOR=#FFFFFF>2</COLOR> sec (cancellable).",
       "ja": "",
-      "zh_tw": "以最遙遠的敵人為目標射出劍氣，對路徑上的所有敵人造成攻擊力<3211810.VALUE>的傷害，<3211811.DURATION>秒內賦予<COLOR=#FFFFFF>＜幻影傷口＞</COLOR>狀態，每<COLOR=#FFFFFF>2</COLOR>秒受到攻擊力<3211812.VALUE>的傷害",
+      "zh_tw": "以最遙遠的敵人為目標射出劍氣，對路徑上的所有敵人造成攻擊力<3211810.VALUE>的傷害，<3211811.DURATION>秒內賦予<COLOR=#FFFFFF>＜幻影傷口＞</COLOR>狀態，每<COLOR=#FFFFFF>2</COLOR>秒受到攻擊力<3211812.VALUE>的傷害（可解除）",
       "zh_cn": ""
     },
     {
       "no": 35321182,
       "kr": "가장 가까운 적을 대상으로 직선 범위로 검기를 날려 범위 내 모든 적에게 공격력 <3211820.VALUE>의 피해를 입히고 영구적으로 <COLOR=#FFFFFF>2</COLOR>초마다 공격력 <3211821.VALUE>의 화상 지속 피해를 입는 <COLOR=#FFFFFF><영겁의 화염></COLOR> 상태를 부여한다.",
-      "en": "Unleashes a sword blast in a straight line, dealing damage equal to <3211820.VALUE> of ATK to all enemies in that line and permanently inflicting <COLOR=#FFFFFF>\"Eternal Flame\"</COLOR> on them, which deals Burn DoT equal to <3211821.VALUE> of ATK every <COLOR=#FFFFFF>2</COLOR> sec (cancellable).",
+      "en": "Unleashes a sword blast toward the nearest enemy in a straight line, dealing damage equal to <3211820.VALUE> of ATK to all enemies within range and permanently inflicting <COLOR=#FFFFFF>\"Eternal Flame\"</COLOR> on them, which deals Burn DoT equal to <3211821.VALUE> of ATK every <COLOR=#FFFFFF>2</COLOR> sec.",
       "ja": "",
-      "zh_tw": "在直線範圍射出劍氣，對直線範圍上的所有敵人造成攻擊力<3211820.VALUE>的傷害，永久賦予<COLOR=#FFFFFF>＜永劫火焰＞</COLOR>狀態，每<COLOR=#FFFFFF>2</COLOR>秒造成攻擊力<3211821.VALUE>的燒傷傷害（可解除）",
+      "zh_tw": "以最接近的敵人為目標，在直線範圍射出劍氣，對範圍內的所有敵人造成攻擊力<3211820.VALUE>的傷害，永久賦予<COLOR=#FFFFFF>＜永劫火焰＞</COLOR>狀態，每<COLOR=#FFFFFF>2</COLOR>秒受到攻擊力<3211821.VALUE>的持續燒傷傷害",
       "zh_cn": ""
     },
     {
@@ -60611,9 +61219,57 @@
     {
       "no": 35321184,
       "kr": "전투 시작 이후 <3211841.DURATION>초마다 단계가 해방된다.\r\n<COLOR=#00B700><환영 1식 - 호></COLOR>\r\n모든 적의 가하는 피해와 받는 최종 피해가 <3211842.VALUE> 증가한다.\r\n\r\n<COLOR=#00B700><환영 2식 - 령></COLOR>\r\n<3211846.DURATION>초마다 모든 적에게 공격력 <3211847.VALUE>의 피해를 입힌다.\r\n\r\n<COLOR=#00B700><환영 3식 - 천></COLOR>\r\n적 전체의 체력 회복량이 <3211849.VALUE> 감소한다. \r\n\r\n<COLOR=#00B700><환영 4식 - 하></COLOR>\r\n<3211851.DURATION>초마다 모두의 <color=#4ABFD3>마나가 최대로 회복된다.</color>",
-      "en": "battle begins progresses to the next form every <3211841.DURATION> sec.\r\n\r\n\"Illusion Form 1 - Rule\" - Increases all enemies' damage dealt and total damage received by <3211842.VALUE>.\r\n\"Illusion Form 2 - Over\" - Deals DoT equal to <3211847.VALUE> of ATK to all enemies every <3211842.DURATION> sec.\r\n\"Illusion Form 3 - All\" - Decreases Recovery of all enemies by <3211849.VALUE>.\r\n\"Illusion Form 4 - Lands\" - Fully restores everyone's Mana every <3211851.DURATION> sec.",
+      "en": "Progresses to the next form every <3211841.DURATION> sec when battle begins.\r\n<COLOR=#00B700>\"Illusion Form 1 - Rule\"</COLOR>\r\nIncreases all enemies' damage dealt and total damage received by <3211842.VALUE>.\r\n\r\n<COLOR=#00B700>\"Illusion Form 2 - Over\"</COLOR>\r\nDeals DoT equal to <3211847.VALUE> of ATK to all enemies every <3211846.DURATION> sec.\r\n\r\n<COLOR=#00B700>\"Illusion Form 3 - All\"</COLOR>\r\nDecreases Recovery of all enemies by <3211849.VALUE>.\r\n\r\n<COLOR=#00B700>\"Illusion Form 4 - Lands\"</COLOR>\r\n<color=#4ABFD3>Fully restores everyone's Mana</color> every <3211851.DURATION> sec.",
       "ja": "",
-      "zh_tw": "戰鬥開始每<3211841.DURATION>秒解放階段。\r\n\r\n＜幻影1式—稱＞－所有敵人的造成傷害和所受最終傷害增加<3211842.VALUE>\r\n＜幻影2式—霸＞－每<3211842.DURATION>秒對所有敵人造成攻擊力<3211847.VALUE>的傷害\r\n＜幻影3式—天＞－所有敵人的體力恢復量減少<3211849.VALUE>\r\n＜幻影4式—下＞－每<3211851.DURATION>秒將所有人的魔力恢復至上限",
+      "zh_tw": "戰鬥開始後每<3211841.DURATION>秒解放階段。\r\n<COLOR=#00B700>＜幻影1式—稱＞</COLOR>\r\n所有敵人的造成傷害和所受最終傷害增加<3211842.VALUE>\r\n\r\n<COLOR=#00B700>＜幻影2式—霸＞</COLOR>\r\n每<3211846.DURATION>秒對所有敵人造成攻擊力<3211847.VALUE>的傷害\r\n\r\n<COLOR=#00B700>＜幻影3式—天＞</COLOR>\r\n所有敵人的體力恢復量減少<3211849.VALUE>\r\n\r\n<COLOR=#00B700>＜幻影4式—下＞</COLOR>\r\n每<3211851.DURATION>秒將所有人的<color=#4ABFD3>魔力恢復至上限</color>",
+      "zh_cn": ""
+    },
+    {
+      "no": 35321201,
+      "kr": "가장 먼 적을 향해 얼음의 창을 날려 공격력 <316130.VALUE>의 피해를 입힌다. \r\n<color=#FFFFFF><앱솔루트 제로></color> 상태에서 사용 시 반드시 치명타가 발생하고, 공격력 <316132.VALUE>의 추가 피해를 입힌다.",
+      "en": "Launches a spear of ice toward the farthest enemy, dealing damage equal to <316110.VALUE> of ATK.\r\nWhen used while <color=#FFFFFF>\"Absolute Zero\"</color> is active, this attack is guaranteed to land as a critical hit and deals additional damage equal to <316132.VALUE> of ATK.",
+      "ja": "",
+      "zh_tw": "朝最遙遠的敵人發射冰槍，造成攻擊力<316110.VALUE>的傷害。\r\n在<color=#FFFFFF>＜絕對零度＞</color>狀態下使用時，必觸發暴擊，造成攻擊力<316132.VALUE>的額外傷害",
+      "zh_cn": ""
+    },
+    {
+      "no": 35321202,
+      "kr": "가장 가까운 적의 발 밑에 빙결 지대를 생성해 대상을 얼려 공격력 <316230.VALUE>의 피해를 입히고 <316231.DURATION>초 동안 <color=#FFFFFF><기절></color> 상태를 부여한다.\r\n<color=#FFFFFF><앱솔루트 제로></color> 상태일 경우 피해량이 <316232.VALUE>로 변경되고 대상 주변 <color=#FFFFFF>2.5m</color> 범위의 적을 공격한다.",
+      "en": "Creates a frost zone under the nearest enemy, freezing the target to deal damage equal to <316230.VALUE> of ATK and inflict <color=#FFFFFF>\"Stun\"</color> for <316231.DURATION> sec.\r\nIf <color=#FFFFFF>\"Absolute Zero\"</color> is active, damage changes to <316232.VALUE> and also attacks enemies within a <color=#FFFFFF>2.5m</color> radius around the target.",
+      "ja": "",
+      "zh_tw": "在最接近的敵人腳下生成結冰地帶，凍住目標並造成攻擊力<316230.VALUE>的傷害，賦予<316231.DURATION>秒<color=#FFFFFF>＜暈眩＞</color>狀態。\r\n處於<color=#FFFFFF>＜絕對零度＞</color>狀態時，變更為造成<316232.VALUE>的傷害量，攻擊目標周遭<color=#FFFFFF>2.5m</color>範圍的敵人",
+      "zh_cn": ""
+    },
+    {
+      "no": 35321203,
+      "kr": "가장 먼 적의 등 뒤로 순간이동 후 응축된 마력을 폭발 시켜 적에게 쏘아 공격력 <316330.VALUE>의 피해를 입힌다. <color=#FFFFFF><앱솔루트 제로></color> 상태일 경우 대상에게 <316331.DURATION>초 동안 공격력 <316331.VALUE>의 <color=#FFFFFF><냉기></color> 효과를 부여한다.",
+      "en": "Teleports behind the farthest enemy, then unleashes condensed mana in a blast, dealing damage equal to <316330.VALUE> of ATK. If <color=#FFFFFF>\"Absolute Zero\"</color> is active, this attack also inflicts <color=#FFFFFF>\"Freeze\"</color> on the target, dealing DoT equal to <316311.VALUE> of ATK every 2 sec for <316331.DURATION> sec.",
+      "ja": "",
+      "zh_tw": "順移到最遠的敵人背後，引爆凝聚的魔力射向敵人，造成攻擊力<316330.VALUE>的傷害。處於<color=#FFFFFF>＜絕對零度＞</color>狀態時，<316331.DURATION>秒內賦予攻擊力<316311.VALUE>的<color=#FFFFFF>＜寒氣＞</color>效果",
+      "zh_cn": ""
+    },
+    {
+      "no": 35321204,
+      "kr": "10초마다 잠재된 마력이 해방되어 자신의 공격력이 <316632.VALUE> 증가하는 <color=#FFFFFF><마력 해방></color> 효과를 받는다. (최대 4중첩)\r\n<마력 해방> 최대 중첩 시 모든 중첩을 소모하여 <color=#FFFFFF><앱솔루트 제로></color> 상태가 되며 <color=#FFFFFF>24</color>초 동안 자신의 공격력이 <316432.VALUE> 증가한다.",
+      "en": "Her latent mana is released every 10 sec, granting her a stack of <color=#FFFFFF>\"Mana Release,\"</color> which increases her ATK by <316632.VALUE> (up to 4 stacks).\r\nAt max \"Mana Release\" stacks, she consumes all stacks to enter <color=#FFFFFF>\"Absolute Zero\"</color> for <color=#FFFFFF>24</color> sec, increasing her ATK by <316432.VALUE>.",
+      "ja": "",
+      "zh_tw": "每10秒解放體內的潛在魔力，自身受到攻擊力增加<316632.VALUE>的<color=#FFFFFF>＜魔力解放＞</color>效果（最多4疊加）\r\n＜魔力解放＞達疊加上限時，將消耗所有疊加轉為<color=#FFFFFF>＜絕對零度＞</color>狀態，<color=#FFFFFF>24</color>秒內自身攻擊力增加<316432.VALUE>",
+      "zh_cn": ""
+    },
+    {
+      "no": 35321205,
+      "kr": "눈의 현자의 마력은 대지를 얼어붙게 만든다. 전투 시작 이후 <3212052.DURATION>초 마다 모든 적에게 공격력 <3212053.VALUE>의 피해를 입힌다.",
+      "en": "The mana of the Sage of the Snow freezes the land. Deals damage equal to <3212053.VALUE> of ATK to all enemies every <3212052.DURATION> sec once battle begins.",
+      "ja": "",
+      "zh_tw": "雪之賢者的魔力讓大地結凍。戰鬥開始後每6秒對所有敵人造成攻擊力<3212053.VALUE>的傷害",
+      "zh_cn": ""
+    },
+    {
+      "no": 35321225,
+      "kr": "바이스가 자신의 전차에 탑재한 비장의 마신포를 발포하여 가장 적을 많이 맞출 수 있는 범위를 중심으로 20m의 범위에 공격력 <3212250.VALUE>의 피해를 입힌다.",
+      "en": "Weiss fires the ultimate Demon Cannon from her tank, targeting the area with the most enemies within a 20m radius and dealing damage equal to <3212250.VALUE> of ATK. ",
+      "ja": "",
+      "zh_tw": "拜斯發射自身坦克搭載的終極魔神砲，以能瞄準最多敵人的範圍為中心，在20m的範圍造成攻擊力<3212250.VALUE>。",
       "zh_cn": ""
     },
     {

@@ -4991,6 +4991,23 @@
       "far_motion": "0"
     },
     {
+      "no": 44823,
+      "path": "TownObjet_ReneeSideEvent",
+      "prefab": "PE_TOWN_B_ReneeSideEvent_Castle",
+      "list_tab": 5,
+      "type": 4,
+      "original_slot": 536,
+      "buff1": 1001,
+      "buff2": 5916,
+      "develop_point": 2500,
+      "place_limit": 1,
+      "hero": 3160,
+      "castle": 1,
+      "animal_prefab": "0",
+      "close_motion": "0",
+      "far_motion": "0"
+    },
+    {
       "no": 47001,
       "path": "TownObjet_Tower",
       "prefab": "PE_TOWN_B_Tower_Mephisto",

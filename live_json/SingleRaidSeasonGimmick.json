@@ -624,6 +624,58 @@
       "gimmick_value1": 7386,
       "gimmick_type2": 1,
       "gimmick_value2": 7387
+    },
+    {
+      "no": 51,
+      "season_no": 3,
+      "raid_no": 3,
+      "level": 100,
+      "icon_path": "srg_common_4",
+      "string_no": 703011,
+      "string_content_no": 703012,
+      "gimmick_type1": 1,
+      "gimmick_value1": 7331,
+      "gimmick_type2": 1,
+      "gimmick_value2": 7332
+    },
+    {
+      "no": 52,
+      "season_no": 3,
+      "raid_no": 3,
+      "level": 100,
+      "icon_path": "srg_oyome_5",
+      "string_no": 703311,
+      "string_content_no": 703321,
+      "gimmick_type1": 1,
+      "gimmick_value1": 7333,
+      "gimmick_type2": 1,
+      "gimmick_value2": 7334
+    },
+    {
+      "no": 53,
+      "season_no": 3,
+      "raid_no": 1,
+      "level": 100,
+      "icon_path": "srg_common_4",
+      "string_no": 703011,
+      "string_content_no": 703012,
+      "gimmick_type1": 1,
+      "gimmick_value1": 7311,
+      "gimmick_type2": 1,
+      "gimmick_value2": 7312
+    },
+    {
+      "no": 54,
+      "season_no": 3,
+      "raid_no": 1,
+      "level": 100,
+      "icon_path": "srg_jacqueline_5",
+      "string_no": 703111,
+      "string_content_no": 703121,
+      "gimmick_type1": 1,
+      "gimmick_value1": 7313,
+      "gimmick_type2": 1,
+      "gimmick_value2": 7314
     }
   ]
 }

@@ -5100,7 +5100,7 @@
       "no": 250692,
       "kr": "미르",
       "en": "Mir",
-      "ja": "",
+      "ja": "ミル",
       "zh_tw": "米爾",
       "zh_cn": ""
     },
@@ -5108,7 +5108,7 @@
       "no": 250693,
       "kr": "이상한 정령 A",
       "en": "Deranged Soul A",
-      "ja": "",
+      "ja": "変な精霊A",
       "zh_tw": "可疑的精靈A",
       "zh_cn": ""
     },
@@ -5116,7 +5116,7 @@
       "no": 250694,
       "kr": "이상한 정령 B",
       "en": "Deranged Soul B",
-      "ja": "",
+      "ja": "変な精霊B",
       "zh_tw": "可疑的精靈B",
       "zh_cn": ""
     },
@@ -5124,7 +5124,7 @@
       "no": 250695,
       "kr": "이상한 정령 C",
       "en": "Deranged Soul C",
-      "ja": "",
+      "ja": "変な精霊C",
       "zh_tw": "可疑的精靈C",
       "zh_cn": ""
     },
@@ -5132,7 +5132,7 @@
       "no": 250696,
       "kr": "이상한 정령 D",
       "en": "Deranged Soul D",
-      "ja": "",
+      "ja": "変な精霊D",
       "zh_tw": "可疑的精靈D",
       "zh_cn": ""
     },
@@ -5140,7 +5140,7 @@
       "no": 250697,
       "kr": "이상한 정령 E",
       "en": "Deranged Soul E",
-      "ja": "",
+      "ja": "変な精霊E",
       "zh_tw": "可疑的精靈E",
       "zh_cn": ""
     },
@@ -5148,7 +5148,7 @@
       "no": 250698,
       "kr": "순이&지호 / 사쿠요&홍란",
       "en": "Soonie & Jiho/Sakuyo & Honglan",
-      "ja": "",
+      "ja": "スニ&ジホ / サクヨ&ホンラン",
       "zh_tw": "順伊&智河／櫻世&紅蘭",
       "zh_cn": ""
     },
@@ -5156,7 +5156,7 @@
       "no": 250699,
       "kr": "쿠훌린",
       "en": "Cú Chulainn",
-      "ja": "",
+      "ja": "クー・フーリン",
       "zh_tw": "庫胡林",
       "zh_cn": ""
     },
@@ -5164,7 +5164,7 @@
       "no": 250700,
       "kr": "스카사하",
       "en": "Scáthach",
-      "ja": "",
+      "ja": "スカサハ",
       "zh_tw": "斯卡哈",
       "zh_cn": ""
     },
@@ -5172,7 +5172,7 @@
       "no": 250701,
       "kr": "가온의 정령 A",
       "en": "Gaon Soul A",
-      "ja": "",
+      "ja": "ガオンの精霊A",
       "zh_tw": "加溫精靈A",
       "zh_cn": ""
     },
@@ -5180,7 +5180,7 @@
       "no": 250702,
       "kr": "가온의 정령 B",
       "en": "Gaon Soul B",
-      "ja": "",
+      "ja": "ガオンの精霊B",
       "zh_tw": "加溫精靈B",
       "zh_cn": ""
     },
@@ -5188,7 +5188,7 @@
       "no": 250703,
       "kr": "가온의 정령 C",
       "en": "Gaon Soul C",
-      "ja": "",
+      "ja": "ガオンの精霊C",
       "zh_tw": "加溫精靈C",
       "zh_cn": ""
     },
@@ -5196,7 +5196,7 @@
       "no": 250704,
       "kr": "가온의 정령 D",
       "en": "Gaon Soul D",
-      "ja": "",
+      "ja": "ガオンの精霊D",
       "zh_tw": "加溫精靈D",
       "zh_cn": ""
     },
@@ -5204,7 +5204,7 @@
       "no": 250705,
       "kr": "가온의 정령들",
       "en": "Gaon Souls",
-      "ja": "",
+      "ja": "ガオンの精霊たち",
       "zh_tw": "加溫精靈們",
       "zh_cn": ""
     },
@@ -5212,7 +5212,7 @@
       "no": 250706,
       "kr": "나린",
       "en": "Narin",
-      "ja": "",
+      "ja": "ナリン",
       "zh_tw": "娜林",
       "zh_cn": ""
     },
@@ -5220,7 +5220,7 @@
       "no": 250707,
       "kr": "사쿠요?",
       "en": "Sakuyo?",
-      "ja": "",
+      "ja": "サクヨ？",
       "zh_tw": "櫻世？",
       "zh_cn": ""
     },
@@ -5228,8 +5228,16 @@
       "no": 250708,
       "kr": "사쿠요&지호",
       "en": "Sakuyo & Jiho",
-      "ja": "",
+      "ja": "サクヨ&ジホ",
       "zh_tw": "櫻世&智河",
+      "zh_cn": ""
+    },
+    {
+      "no": 250709,
+      "kr": "조앤&바이스",
+      "en": "Joanne & Weiss",
+      "ja": "ジョアン&ヴァイス",
+      "zh_tw": "瓊&拜斯",
       "zh_cn": ""
     },
     {
@@ -5916,7 +5924,7 @@
       "no": 304160,
       "kr": "페트라(각혼)",
       "en": "Petra (Awakened Soul)",
-      "ja": "",
+      "ja": "ペトラ(覚魂)",
       "zh_tw": "佩特拉（覺魂）",
       "zh_cn": ""
     },
@@ -5974,6 +5982,14 @@
       "en": "Carnelian",
       "ja": "カーネリアン",
       "zh_tw": "卡內莉安",
+      "zh_cn": ""
+    },
+    {
+      "no": 305070,
+      "kr": "아스테리아",
+      "en": "Asteria",
+      "ja": "",
+      "zh_tw": "阿斯忒里亞",
       "zh_cn": ""
     },
     {
@@ -7652,7 +7668,7 @@
       "no": 311160,
       "kr": "평화의 물결",
       "en": "Wave of Peace",
-      "ja": "",
+      "ja": "平和の波",
       "zh_tw": "和平浪花",
       "zh_cn": ""
     },
@@ -7916,7 +7932,7 @@
       "no": 313170,
       "kr": "차가운 그림자",
       "en": "Cold Shadow",
-      "ja": "",
+      "ja": "冷たい影",
       "zh_tw": "冰冷暗影",
       "zh_cn": ""
     },
@@ -8068,7 +8084,7 @@
       "no": 315040,
       "kr": "서방의 수호자",
       "en": "The Guardian of the West",
-      "ja": "",
+      "ja": "西方の守護者",
       "zh_tw": "西方守護者",
       "zh_cn": ""
     },
@@ -8580,7 +8596,7 @@
       "no": 321140,
       "kr": "내가… 궁금해?",
       "en": "You want to know more about me?",
-      "ja": "アタシのこと…知りたい？",
+      "ja": "アタシのこと…気になる？",
       "zh_tw": "對我…感到很好奇？",
       "zh_cn": ""
     },
@@ -9204,7 +9220,7 @@
       "no": 341140,
       "kr": "잘 찾아봐~\r\n잃어버린 거 없어?",
       "en": "Look carefully!\r\r\nDid you lose anything?",
-      "ja": "ちゃんと探してみて～\r\n落とし物とかない？",
+      "ja": "よく探してみて～忘れ物ない？",
       "zh_tw": "你仔細找～\r\r\n沒有弄丟東西嗎？",
       "zh_cn": ""
     },
@@ -9892,7 +9908,7 @@
       "no": 391140,
       "kr": "꺄하하하하, 이번에도 내 승리네?",
       "en": "Ahahahaha! I win again!",
-      "ja": "キャハハ、今回もアタシの勝ち！",
+      "ja": "きゃはははは、今回もアタシの勝ちね？",
       "zh_tw": "呀哈哈哈哈，勝利這次也歸我！",
       "zh_cn": ""
     },
@@ -11692,7 +11708,7 @@
       "no": 801141,
       "kr": "승부, 내기",
       "en": "Competitions, bets",
-      "ja": "",
+      "ja": "勝負、賭け",
       "zh_tw": "決勝、打賭",
       "zh_cn": ""
     },
@@ -11700,7 +11716,7 @@
       "no": 801142,
       "kr": "도둑질",
       "en": "Stealing",
-      "ja": "",
+      "ja": "泥棒",
       "zh_tw": "偷竊",
       "zh_cn": ""
     },
@@ -11708,7 +11724,7 @@
       "no": 801143,
       "kr": "돈, 승리",
       "en": "Money, winning",
-      "ja": "",
+      "ja": "お金、勝利",
       "zh_tw": "金錢、勝利",
       "zh_cn": ""
     },
@@ -11716,7 +11732,7 @@
       "no": 801144,
       "kr": "이별",
       "en": "Farewells",
-      "ja": "",
+      "ja": "別れ",
       "zh_tw": "離別",
       "zh_cn": ""
     },
@@ -11724,7 +11740,7 @@
       "no": 801145,
       "kr": "흐응. 구원자?\r\n사진보다는 실물이 낫구나?\r\n\r\n네 정보를 수집하느라 돈이 꽤 많이 들었어.\r\n'구원자 기밀 수첩'이라는 게 암시장에서 거래되고 있는 건 알아?\r\n\r\n후후, 앞으로는 조심해~\r\n구원자의 정보나 소지품은 엄청 값비싸니까.\r\n항상 몸조심하라구?\r\n\r\n구원자도 남몰래 갖고 싶은 물건이 있다면 우리 길드로 연락해.\r\n물론 의뢰비가 감당된다면 말이야.\r\n\r\n기억해.\r\n내가 에덴에서 훔치지 못할 건 없어.\r\n\r\n그럼~ 오늘은 어떤 물건을 훔쳐볼까?",
       "en": "Hmm. Savior?\r\r\nYou look better in person!\r\r\n\r\r\nI used quite a lot of money to get some information about you.\r\r\nDid you know there's this thing called the \"Classified Documents of the Savior\" that's being traded at the black market?\r\r\n\r\r\nHehe you should be careful!\r\r\nRemember, your information and possessions are valuable.\r\r\nSo always watch your back.\r\r\n\r\r\nIf there's anything you want to secretly get your hands on, contact our guild.\r\r\nIf you can afford our services, that is.\r\r\n\r\r\nJust remember.\r\r\nI can steal ANYTHING in Eden.\r\r\n\r\r\nWell, what should I steal today?",
-      "ja": "",
+      "ja": "ふーん、救世主？\r\n写真より本物のほうがいいじゃない。\r\n\r\nあんたの情報を集めるのにけっこうお金がかかったんだよ。\r\n「救世主極秘ノート」って、闇市場で取引されてるの、知ってた？\r\n\r\nふふ、これからは気をつけてね～\r\nあんたの情報も、持ち物も、超高値で売れるから。\r\n常に用心するように。\r\n\r\nもし、みんなには内緒で欲しいモノがあるなら…アタシのギルドに連絡して。\r\nもちろん、依頼料を払えるならの話だけど。\r\n\r\n覚えておいて。\r\nアタシがエデンで盗めないものなんてないから。\r\n\r\nさぁて～今日はどんなものを盗もうかな～？",
       "zh_tw": "哼嗯，救援者？\r\n你本人比照片好看耶。\r\n\r\n我花了很多錢收集你的情報。\r\n你知道黑市有流通「救援者祕密手冊」嗎？\r\n\r\n呵呵，你以後也要小心～\r\n因為救援者的情報跟個人物品都超級昂貴。\r\n你要隨時注意身體喔。\r\n\r\n如果救援者私下有想要的東西，就聯絡我們公會。\r\n如果你負擔得起委託費的話。\r\n\r\n記住，\r\n伊甸園裡沒有我偷不走的東西。\r\n\r\n那麼～今天要偷什麼好呢？",
       "zh_cn": ""
     },
@@ -11732,16 +11748,16 @@
       "no": 801146,
       "kr": "손선영",
       "en": "Son Seon-yeong",
-      "ja": "",
+      "ja": "山根綺",
       "zh_tw": "孫善英",
       "zh_cn": ""
     },
     {
       "no": 801147,
-      "kr": "손선영",
-      "en": "Son Seon-yeong",
-      "ja": "to be added",
-      "zh_tw": "孫善英",
+      "kr": "Aya Yamane",
+      "en": "Aya Yamane",
+      "ja": "山根綺",
+      "zh_tw": "Aya Yamane",
       "zh_cn": ""
     },
     {
@@ -13348,7 +13364,7 @@
       "no": 803116,
       "kr": "이새아",
       "en": "Saeah Lee",
-      "ja": "森山 由梨佳",
+      "ja": "森山 友梨佳",
       "zh_tw": "李世雅",
       "zh_cn": ""
     },
@@ -13674,10 +13690,10 @@
     },
     {
       "no": 803175,
-      "kr": "",
-      "en": "",
+      "kr": "\r\n안녕, 구원자.\r\n새 기어로 파워 업한 미리암이야. \r\n\r\n이제 나름대로 회사 생활도 착실하게 하고 있고, \r\n연합군 일도 돕고 있는 만큼 가능한 예전처럼 싸우고 싶지는 않았지만…\r\n상황이 상황인 만큼 어쩔 수 없겠지.\r\n\r\n그러니 기왕 이렇게 되어 버린 거, 네게 도움이 될 수 있다면 좋겠네.\r\n지금의 나는 그 어떤 타깃이라도 놓치지 않을 자신이 있거든.\r\n\r\n예전의 나는 내 힘을 어찌 사용하면 좋을지, \r\n어떻게 하면 남들처럼 '옳은' 방법으로 살아갈 수 있을지 고민하기도 했어.\r\n\r\n하지만 지금의 나는 그 답을 알아.\r\n내 힘은 내게 소중한 모두를 지키기 위해, \r\n그들에게 가해지는 위협을 제거하기 위해 있는 거야.\r\n\r\n그리고 구원자, 너 또한 내게 소중한 존재야.\r\n그러니, 나는 너를 지키기 위해서라면 망설이지 않겠어.\r\n\r\n휴. 답답한 소리 오래 했네.\r\n그러니까 요는, 무슨 일 있으면 나한테 말해주기다? 알겠지? ",
+      "en": "\r\nHey, Savior.\r\nIt's Miriam, powered up with new gear.\r\n\r\nNow that I'm managing my work life pretty well these days\r\nand also helping the Alliance, I'm not as eager to fight as before,\r\nbut I guess that's the way things are.\r\n\r\nSo, since it's come to this, I hope I can be useful to you.\r\nRight now, I'm confident I won't miss any target.\r\n\r\nThere was a time when I wasn't sure how to use my strength,\r\nwhen I wondered how I could live the \"right way,\" like everyone else.\r\n\r\nBut now I know the answer.\r\nMy power exists to protect the people I care about,\r\nand to take down any threat that comes their way.\r\n\r\nAnd Savior, you're one of those precious people to me.\r\nSo, if it's to protect you, I won't hesitate.\r\n\r\nWhew, that got a bit heavy.\r\nAnyway, the point is, if anything happens, let me know. Okay? ",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "\r\n嗨，救援者。\r\n我是有了新裝備後升級的米里昂。\r\n\r\n現在還算是在認真上班，\r\n也有在幫忙聯軍的工作，想盡可能地避免像以前一樣戰鬥…\r\n但局勢如此，我也沒辦法。\r\n\r\n所以既然變成這樣了，希望能幫上你的忙。\r\n現在的我有自信不會錯過任何目標。\r\n\r\n以前的我會苦惱該如何使用自己的力量、\r\n要怎麼做才能像別人一樣用「正確的方法」活下去。\r\n\r\n但現在的我知道那個答案。\r\n我的力量是為了守護所有我重要的人，\r\n是為了消除對他們的威脅。\r\n\r\n還有救援者，你也是我重要的人。\r\n所以，只要是為了守護你，我就不會猶豫。\r\n\r\n呼，說了好多沉重的事情。\r\n總之重點是，發生什麼事都要跟我說哦，知道了吧？",
       "zh_cn": ""
     },
     {
@@ -15540,7 +15556,7 @@
       "no": 810000,
       "kr": "도둑길드 스페이드",
       "en": "Spades, Guild of Thieves",
-      "ja": "",
+      "ja": "泥棒ギルドスペード",
       "zh_tw": "小偷公會黑桃",
       "zh_cn": ""
     },
@@ -16124,7 +16140,7 @@
       "no": 811141,
       "kr": "시끄럽고, 부도덕하고,\r\n여러모로 제가 추구하는 바와는 정반대죠.",
       "en": "Loud, immoral,\r\r\nbasically the opposite of what I strive for.",
-      "ja": "",
+      "ja": "騒がしくて、不道徳で、\r\n何から何まで私の目指すものとは正反対です。",
       "zh_tw": "很吵又不道德，\r\r\n各方面都跟我追求的完全相反。",
       "zh_cn": ""
     },
@@ -16132,7 +16148,7 @@
       "no": 811142,
       "kr": "별점을 엄청 재밌어했는데…\r\n아무래도 게임 같다고 생각했나 봐.",
       "en": "She really enjoys horoscopes…\r\r\nShe must think they're like games.",
-      "ja": "",
+      "ja": "星占いをすごく気に入ってくれた…\r\nゲームみたいだと思ってくれたみたい。",
       "zh_tw": "她很喜歡占星…\r\r\n可能是覺得那很像在玩遊戲。",
       "zh_cn": ""
     },
@@ -16140,7 +16156,7 @@
       "no": 811143,
       "kr": "스페이드의 길드 마스터…\r\n트로이카 상인들에겐 가장 두려운 존재예요.",
       "en": "Guild master of the Spades…\r\r\nShe's feared among the merchants of Troyca.",
-      "ja": "",
+      "ja": "スペードのギルドマスター…\r\nトロイカの商人たちが最も恐れている存在です。",
       "zh_tw": "黑桃的公會會長…\r\r\n對特羅伊卡商人來說，她是最可怕的存在。",
       "zh_cn": ""
     },
@@ -16958,6 +16974,30 @@
       "en": "Wah! Who the hell is she?!!",
       "ja": "ひえぇぇっ！何よ、こいつ！",
       "zh_tw": "呃啊！？這到底是誰啊？！！？！？",
+      "zh_cn": ""
+    },
+    {
+      "no": 813171,
+      "kr": "스카우트했을 땐 모험이었지만, 결과적으로는 아주 탁월한 선택이었지.",
+      "en": "Scouting her was a gamble, but it turned out to be an excellent choice.",
+      "ja": "",
+      "zh_tw": "挖角的時候是場賭注，但以結果來說是非常明智的選擇。",
+      "zh_cn": ""
+    },
+    {
+      "no": 813172,
+      "kr": "의외의 인연. 조금은… 친해졌을지도.",
+      "en": "An unexpected meeting. We might have gotten a little...close.",
+      "ja": "",
+      "zh_tw": "意料之外的緣分，可能…有變熟一點吧。",
+      "zh_cn": ""
+    },
+    {
+      "no": 813173,
+      "kr": "미리암이 사용하는 걸 전제로 한다면 장비 개발에도 많은 제약이 풀리지. \r\n모든 걸 수동 조작 처리해도 되면 그만큼 화력에 투자할 수 있거든!",
+      "en": "Having Miriam use it frees up a lot of constraints on equipment development.\r\nIf I can get away with doing everything manually, I can invest in more firepower!",
+      "ja": "",
+      "zh_tw": "以米里昂使用作為前提，在裝備開發上解除了很多限制。\r\n如果全都能用手動操作，那就能投入更多火力！",
       "zh_cn": ""
     },
     {
@@ -17929,6 +17969,14 @@
       "zh_cn": ""
     },
     {
+      "no": 831035,
+      "kr": "현자님과 제자님의 하루 일과!",
+      "en": "A Day of the Sage and the Disciple",
+      "ja": "",
+      "zh_tw": "賢者與弟子一天的行程！",
+      "zh_cn": ""
+    },
+    {
       "no": 832001,
       "kr": "원형 테이블에 앉아 생각에 잠겨있는 제이드와 샤링, 그리고 마농.\r\n공간을 메운 정적은 숨소리조차 잡아먹을 듯하다. \r\n마농은 손에 든 종이를 살짝 구기며 눈을 감고 있었다.\r\n정적 속에서 샤링은 제이드에게 조용히 눈짓하고, 제이드는 그 눈짓을 받고 고개를 살짝 끄덕였다.\r\n\r\n\"마농, 거짓말을 하고 있군요. 우리를 속이려 하다니.\"\r\n\r\n제이드의 차분하고도 날 선 목소리가 정적을 깨뜨렸다.\r\n\r\n\"거짓말이라뇨? 저는 일을 하고 있었는데요.\"\r\n\r\n마농은 흔들림 없이 대답했지만, 미묘하게 얼굴이 굳어있었다.\r\n\r\n\"그래, 그럼 무슨 일을 하고 있었는데?\"\r\n\r\n\"예? 그, 그게…\"\r\n\r\n샤링이 일에 관해 묻자, 마농은 식은땀을 흘리며 말을 더듬었다.\r\n\r\n\"역시, 마농이 '거짓말쟁이' 였군요.\"\r\n\"억울해요! 이건 모함이라구요!\"\r\n\"그러면 한번 볼까요?\"\r\n\r\n제이드와 샤링은 자신의 앞에 놓인 카드를 뒤집었다. \r\n마농은 살짝 떨리는 손으로 자신의 카드를 뒤집었다.\r\n\r\n제이드와 샤링의 카드는 '바다'를 뜻하는 글자가,\r\n마농의 카드에는 '첩자'를 뜻하는 글자가 인쇄되어 있었다.\r\n\r\n\"야호! 오늘 점심도 마농이 쏘는 거네?\"\r\n\"마농, 포커페이스는 상인의 기본인데 걱정인걸?\"\r\n\"그러니까, 이번 만큼은 첩자 게임 말고 다른 거 하자고 했잖아요…\"\r\n\r\n제이드와 샤링의 놀림에 마농은 입이 삐죽 나왔다.\r\n언제쯤 마농은 내기에서 이길 수 있을까?",
       "en": "Jade, Sharinne, and Manon were lost in thought, seated at a round table.\r\nSilence filled the air and it was so suffocating that one could hardly breathe.\r\nManon crushed the paper in her hand, her eyes closed.\r\nSharinne gave a look at Jade in silence, and Jade nodded to Sharinne.\r\n\r\n\"Manon, you are lying. How dare you deceive us.\"\r\n\r\nJade's calm yet sharp voice broke the silence.\r\n\r\n\"Lying? I was working.\"\r\n\r\nManon said without hesitation, but her face was slightly stern.\r\n\r\n\"Alright. Tell me what kind of work you were doing.\"\r\n\r\n\"Huh? Well, I was…\"\r\n\r\nSharinne asked and Manon stammered. Her face was covered in sweat.\r\n\r\n\"I knew it. You are the 'liar,' Manon.\"\r\n\"This is unfair! It's a slander!\"\r\n\"Let's see then.\"\r\n\r\nJade and Sharinne turned over the card before them.\r\nManon turned over her card as well, her hand shaking.\r\n\r\nThe word \"ocean\" was printed on Jade and Sharinne's cards,\r\nwhile the word \"spy\" was printed on Manon's.\r\n\r\n\"Yay! Manon is buying us lunch today again!\"\r\n\"Manon, a merchant must always keep a poker face. Now I'm worried about you.\"\r\n\"I told you. I wanted us to play something other than the spy game…\"\r\n\r\nManon pouted as Jade and Sharinne teased her.\r\nWill Manon be able to win a bet someday?",
@@ -18198,6 +18246,14 @@
       "en": "After the meeting of the lords at Gaon Castle,\r\nJiho called out to Sakuyo, who was about to return to her town.\r\n\r\n\"Sakuyo, have you thought about what I told you the other day?\r\nIf you get into trouble again, like when you were small, tell me.\"\r\n\"Hmph, I told you already. No.\"\r\n\r\nThis was the third time she'd refused this help.\r\nBut from Sakuyo's point of view, it was natural.\r\nIt was humiliating for a Soul as strong and capable as herself to admit weakness,\r\nmuch less reveal it to others.\r\n\r\n\"But, Sakuyo, I am now the Great Lord of Gaon now.\r\nHow can I look after the country if I don't know the affairs of the other lords?\"\r\n\"That's your own business.\"\r\n\"But if you cooperate with me, I'll be able to rule the country better—\"\r\n\"No! Stop asking me!\"\r\n\r\nSakuyo was irritated, but in truth, she knew.\r\nJiho had been wanting to help her ever since she became Great Lord.\r\nWhile she was inwardly pleased that Jiho had grown,\r\naccepting help from her was another matter.\r\n\r\nBut Jiho was just as adamant as Sakuyo.\r\n\r\n\"Phew, I really didn't want to go this far.\"\r\n\"...?\"\r\n\r\n\"Sakuyo, this is the Great Lord's order.\"\r\n\"Wha...?!\"\r\n\"From now on, if anything happens to you,\r\nwhether as a lord or personally, report it to me immediately.\"\r\n\"Hah, you can't be so bossy just because you've become Great Lord!\"\r\n\"Are you refusing to obey my orders?\"\r\n\"Eeeeek... I can't believe you could be so mean... Grr...!\r\nDo as you please! I'll do it without your help, anyway!\"\r\n\"Okay. So, you promise?\"\r\n\r\nSakuyo thought as she forced herself to accept the order.\r\nPerhaps she had placed a dangerous Soul in the Great Lord's seat.",
       "ja": "",
       "zh_tw": "在加溫城堡召開的領主會議結束後。\r\n智河叫住了正要回到自己領地的櫻世。\r\n\r\n「櫻世～我上次說的，妳考慮過了嗎？\r\n就像櫻世縮小時一樣，如果又發生問題就告訴我。」\r\n「哼，不是已經回答妳了嗎？我拒絕。」\r\n\r\n已經是第三次碰釘子了。\r\n但以櫻世的立場來看，可想而知會拒絕。\r\n因為像自己一樣強大又能幹的精靈，承認弱點這件事是種屈辱，\r\n而且也不能對別人自曝致命缺陷。\r\n\r\n「但是，櫻世，我現在可是加溫的大領主，\r\n大領主不了解領主狀況的話，要如何治理國家～」\r\n「那件事妳自己看著辦。」\r\n「可是～如果櫻世配合，應該就能將領地治理得更好…」\r\n「我還是不想！都說不想了，為什麼還這樣逼我！」\r\n\r\n雖然櫻世不耐煩地反問著，但其實她都知道，\r\n知道智河當上大領主後，不斷想幫助自己的事。\r\n那樣貌似乎比從前有所成長，所以她暗自覺得很滿意，\r\n但問題在於承認她「值得信任」和「接受幫助」是兩碼子事。\r\n\r\n但智河也和櫻世一樣堅決。\r\n\r\n「呼，我本來不想用這個辦法的。」\r\n「……？」\r\n\r\n「櫻世，這是大領主的命令。」\r\n「蛤啊…？！」\r\n「以後不管是身為領主，還是私下的事，\r\n只要櫻世遇到困難，就要馬上向我報告。」\r\n「哈，當上大領主，就這麼亂來啊！」\r\n「妳是抗命不從嗎？」\r\n「妳妳妳妳…竟然這麼可惡…呃呃呃…\r\n…隨便妳！反正我會自己看著辦，不會需要幫助的！」\r\n「嗯嗯，那妳答應我囉？」\r\n\r\n櫻世硬著頭皮接下命令，她心想，\r\n不管怎麼看，自己好像都讓一個小老虎坐上大領主的位子了。",
+      "zh_cn": ""
+    },
+    {
+      "no": 832035,
+      "kr": "해가 뜨지도 않은 꼭두새벽, 제자님의 하루는 빠르게 시작된다.\r\n\r\n\"저번에 산 식료품이 얼마나 남아 있더라…\"\r\n제자님은 침구를 정리한 후, 현자님과 함께 먹을 아침을 챙겼다.\r\n현자님은 아침을 챙겨주지 않으면 아무거나 대충 먹고 식사를 때워버리니까.\r\n\r\n\"으응, 고마워, 근데 나 조금만 더 자고…\"\r\n\"그러면서 낮까지 푹 자고 밤에 또 안 주무실 거잖아요…\r\n일어나세요! 머리를 빗어 드릴게요.\"\r\n제자님은 현자님의 이리저리 뻗친 머리를 잘 빗고 가지런히 넘겨주었다.\r\n이렇게 빗어주지 않으면 현자님의 긴 머리카락이 엉망진창으로 엉켜버리니까.\r\n\r\n\"이것 봐, 새로 설계한 식을 응용한 이 연구 말인데,\r\n이 부분에서 보강식을 넣으면 다른 반응을 이끌어낼 수 있지 않을까?\"\r\n\"와, 그, 그러게요…! 그럼 혹시 촉매를 바꿔서 넣으면 어떨까요…?\"\r\n제자님은 현자님과 함께 연구를 시작했다.\r\n낮부터 시작한 연구는 밤이 되어도 끝나지 않는다.\r\n하지만 포기할 수는 없다. 이 연구는 그들의 꿈이었으니까.\r\n\r\n아득히 멀리 있는 꿈은 한없이 불가능에 가깝고, 연구의 성과는 미진했다.\r\n하늘에 등불을 날리는 것처럼 무모하고 쓸모없는 일일지도 모른다.\r\n하지만 매일매일 조금씩, 그들은 꿈을 향해 나아가고 있었다.\r\n\r\n이 척박한 땅이 언젠가 모두에게 살기 좋은 땅이 되기를.\r\n하늘에서 쏟아지는 차가운 눈이 오갈 곳 없는 이들의 따스한 희망이 되기를.\r\n\r\n기도하는 마음으로 밤하늘에 띄워 올린 하루하루.\r\n그 모든 노력이 언젠가 거대한 빛으로 모여,\r\n오로라보다도 밝게 혹한의 땅을 비출 수 있기를.",
+      "en": "The Disciple's day begins at the crack of dawn.\r\n\r\n\"How much of the groceries we bought last time is still left...?\"\r\nAfter tidying up her bedding, the Disciple prepares breakfast for the Sage.\r\nIf left alone, the Sage would just grab anything and call it a meal.\r\n\r\n\"Mmm...thanks... But let me sleep a little longer...\"\r\n\"You'll just sleep through the day and stay up all night again.\r\nCome on, sit up. I'll brush your hair.\"\r\nThe Disciple gently combs the Sage's wild, tangled hair.\r\nIf she didn't, the Sage's long hair would end up a complete mess.\r\n\r\n\"Hey, look at this new formula I came up with.\r\nIf we layer a reinforcing equation here, might that trigger a different reaction?\"\r\n\"Wh-whoa, maybe! What if we tried swapping out the catalyst, too?\"\r\nTogether, they dive into their research.\r\nEven as night falls, the day's experiments show no signs of stopping.\r\nBut they can't give up. This research is their shared dream.\r\n\r\nTheir distant goal feels impossibly far, and progress is painfully slow.\r\nAt times, it feels as futile as sending sky lanterns adrift.\r\nBut day by day, little by little, they press on toward that dream.\r\n\r\nMay this harsh, frozen land someday become a place where all can thrive.\r\nMay the snow that falls from the sky bring warmth and hope to those with nowhere else to go.\r\n\r\nEach day's effort, like a sky lantern lifted by a quiet wish, rises into the night sky.\r\nAnd may those prayers gather, one by one,\r\nuntil they shine brighter than the aurora, lighting even the coldest corners of this world.",
+      "ja": "",
+      "zh_tw": "連太陽都尚未升起的大清早，弟子早早就展開了一天。\r\n\r\n「上次買的食材還剩多少…」\r\n弟子整理完被褥後，便準備了要與賢者共進的早餐。\r\n因為如果不幫她準備早餐，賢者就會隨便吃點東西充飢。\r\n\r\n「呃嗯，謝謝，但我想再睡一下…」\r\n「但是妳睡到這麼晚，晚上又不會睡覺了…\r\n快點起來！我幫妳梳頭髮。」\r\n弟子仔細梳理了賢者到處亂翹的頭髮，整理得整整齊齊。\r\n如果不這樣梳，賢者的長髮就會纏繞在一塊，慘不忍睹。\r\n\r\n「妳看，這是運用我新設計的術式做出來的研究，\r\n在這個部分加入加強術式，會不會導出其他反應？」\r\n「哇，對、對耶…！那要不要換個催化劑加進去看看…？」\r\n弟子和賢者一起開始進行研究。\r\n從白天開始的研究，一直持續到夜晚都沒有結束。\r\n但是不能就此放棄，因為這個研究是她們的夢想。\r\n\r\n遠在天邊的夢想幾乎是不可能的任務，研究成果仍然有所不足。\r\n也許這件事就像讓燈光照亮天空一樣毫無用處可言。\r\n但是她們每天都在一步一腳印地靠近夢想。\r\n\r\n希望這片不毛之地有朝一日能變成適合所有人居住的肥沃土壤。\r\n希望從天而降的冰冷雪花能為無處可去的她們帶來一道曙光。\r\n\r\n日復一日將祈禱的心寄託於夜空。\r\n但願所有的努力終將匯聚成巨大光束，\r\n比極光更加閃耀動人，照亮這片酷寒大地。",
       "zh_cn": ""
     },
     {
@@ -18710,6 +18766,62 @@
       "en": "Illusion of Ordeal",
       "ja": "",
       "zh_tw": "考驗的幻影",
+      "zh_cn": ""
+    },
+    {
+      "no": 3032119,
+      "kr": "눈의 현자",
+      "en": "Sage of the Snow",
+      "ja": "",
+      "zh_tw": "雪之賢者",
+      "zh_cn": ""
+    },
+    {
+      "no": 3032120,
+      "kr": "지원군 소환",
+      "en": "Summon Reinforcements",
+      "ja": "",
+      "zh_tw": "召喚援軍",
+      "zh_cn": ""
+    },
+    {
+      "no": 3032121,
+      "kr": "마물 습격",
+      "en": "Monster Attack",
+      "ja": "",
+      "zh_tw": "魔物襲擊",
+      "zh_cn": ""
+    },
+    {
+      "no": 3032122,
+      "kr": "1호 탱크",
+      "en": "Tank #1",
+      "ja": "",
+      "zh_tw": "1號坦克射擊",
+      "zh_cn": ""
+    },
+    {
+      "no": 3032123,
+      "kr": "2호 탱크",
+      "en": "Tank #2",
+      "ja": "",
+      "zh_tw": "2號坦克射擊",
+      "zh_cn": ""
+    },
+    {
+      "no": 3032124,
+      "kr": "3호 탱크",
+      "en": "Tank #3",
+      "ja": "",
+      "zh_tw": "3號坦克射擊",
+      "zh_cn": ""
+    },
+    {
+      "no": 3032125,
+      "kr": "긴급 장전",
+      "en": "Emergency Reload",
+      "ja": "",
+      "zh_tw": "緊急裝填",
       "zh_cn": ""
     },
     {
@@ -19604,7 +19716,7 @@
       "no": 6246051,
       "kr": "순간의 단상",
       "en": "A Flash of Contemplation",
-      "ja": "",
+      "ja": "一瞬の想い",
       "zh_tw": "瞬間的想法",
       "zh_cn": ""
     },
@@ -19630,6 +19742,22 @@
       "en": "Master, Master ♡ Today marks my manufacture date!\r\r\nFor me, it's a special day when I got to meet so many wonderful people!\r\r\nBefore meeting you, I had forgotten about the significance of this day…\r\r\nBut being with you reminded me of how special this day is!\r\r\nMaster! What do you normally do on such special occasions?\r\r\nSince it's thanks to you that I remember the meaning of this day, I want to learn from you how best to celebrate it!",
       "ja": "マスター、マスター♡今日は、ベルの製造日です！！\r\nベルにとって製造日は、大好きな人たちにたーくさん出会えた特別な日なのです！\r\nマスターに会うまでは、とても長い間、製造日の意味を忘れてしまっていましたが…\r\nへへっ、マスターと出会えて、ベルは今日の特別さを思い出すことができました！\r\nマスター！マスターは、こんな特別な日にどんなことをしますか？\r\n今日は、マスターが意味を思い出させてくれた日なので、今日を楽しく過ごせる方法も、マスターに教えて欲しいです！",
       "zh_tw": "主人、主人♡今天是貝萊德的製造日！！\r\r\n對貝萊德來說，製造日是跟很多心愛的人見面的特別日子！\r\r\n雖然在遇見主人之前，我有很長一段時間忘記了製造日的意義…\r\r\n嘿嘿，遇見主人之後，貝萊德才能想起今天的特別！\r\r\n主人！主人在這種特別的日子，通常都會做什麼呢？\r\r\n今天是主人幫我找回意義的日子，所以我也想跟主人學習好好度過今天的方法！",
+      "zh_cn": ""
+    },
+    {
+      "no": 6251031,
+      "kr": "강제 휴식",
+      "en": "A Forced Day of Rest",
+      "ja": "強制休憩",
+      "zh_tw": "強制休息",
+      "zh_cn": ""
+    },
+    {
+      "no": 6251032,
+      "kr": "구원자님, 안녕하세요. 클레르입니다.\r\n오늘은 아침부터 태양 기사단의 분위기가 상당히 이상하더군요.\r\n무언가 숨기고 있는 일이 있는 것 같아 조사해 보려던 참이었는데,\r\n갑작스럽게 폭죽과 케이크가 튀어나왔습니다.\r\n\r\n…네, 단원들이 준비한 서프라이즈 파티였습니다.\r\n올해는 바빠서 제 생일이라는 사실도 잊고 있었는데,\r\n다들 저를 쉬게 하기로 작전을 짠 모양입니다.\r\n\r\n처음엔 좀 얼떨떨했습니다.\r\n하지만… 이렇게 마음 써주는 이들이 곁에 있다는 사실이 기쁘기도 합니다.\r\n덕분에 하루 쯤은 평소와 다르게 보내도 괜찮지 않을까, 그렇게 생각하고\r\n오늘은 하루 쉬어가기로 마음 먹었습니다.\r\n\r\n그래서, 이렇게 편지를 드립니다.\r\n오늘 잠깐 뵐 수 있을까요?\r\n특별한 이유는 없습니다.\r\n그냥… 생일이기도 하니, 구원자님과 함께 시간을 보내 보고 싶습니다.\r\n\r\n그럼 답장 기다리고 있겠습니다.",
+      "en": "Hello, Savior. This is Claire.\r\nI noticed the atmosphere at the Order of Sun this morning was very strange.\r\nIt seemed as if they were hiding something, so I was about to look into it\r\nwhen suddenly, fireworks and cake appeared.\r\n\r\n... Yes, it turned out to be a surprise party prepared by the members.\r\nI'd been so busy this year that I'd forgotten it was even my birthday,\r\nand they had planned to give me the day off.\r\n\r\nAt first, I was a bit bewildered,\r\nbut it's nice to have such caring people around.\r\nSo, I decided to take the day off, figuring that it wouldn't hurt to\r\nhave a day off from work..\r\n\r\nThat's why I'm writing to you.\r\nCould we meet, just for a little while today?\r\nThere's no special reason.\r\nIt's just... Since it's my birthday, I'd like to spend some time with you.\r\n\r\nI'll be waiting for your reply.",
+      "ja": "救世主様、おはようございます。クレールです。\r\n今日は朝から太陽騎士団の雰囲気がおかしかったです。\r\n何か隠し事をしているみたいだったから調べようとしたところ、\r\n急にケーキと花火が出てきました。\r\n\r\n…はい、団員たちがサプライズパーティーを用意していたのです。\r\n今年が忙しくて自分の誕生日も忘れていましたが、\r\nみんなが私を休ませようと作戦を立てていたみらいです。\r\n\r\n最初は少し戸惑いました。\r\nでも…こんなに気を使ってもらえることが嬉しくもあります。\r\nおかげで、一日ぐらいはいつもと違う日にしてもいいのでは、と思って\r\n今日は休むことにしました。\r\n\r\nなので、こうしてお手紙を出させていただきます。\r\n今日ちょっとでもお会いできますか？\r\n特別な理由はありません。\r\nただ…誕生日でもあるので、救世主様と一緒に過ごしたいと思います。\r\n\r\nでは、お返事をお待ちしています。",
+      "zh_tw": "救援者，你好，我是克萊兒。\r\n今天早上開始，太陽騎士團的氣氛就非常詭異。\r\n感覺在隱瞞我什麼，正當我想調查的時候，\r\n突然迸出生日禮炮跟蛋糕。\r\n\r\n…對，是團員們準備的驚喜派對。\r\n今年太忙了，我都忘記是我的生日，\r\n大家好像計畫好要讓我休息。\r\n\r\n一開始還很不知所措。\r\n但是…我身邊有這麼用心照顧我的人們，這件事也讓我很開心。\r\n多虧這樣，我覺得這一天過的和平時不一樣也沒關係，\r\n就決定今天要休息一天。\r\n\r\n於是像這樣寫信給你。\r\n今天可以見一下面嗎？\r\n沒什麼特別的原因，\r\n就…今天是我生日，所以想跟救援者一起度過。\r\n\r\n那麼，我會等你回覆。",
       "zh_cn": ""
     },
     {
@@ -19665,6 +19793,22 @@
       "zh_cn": ""
     },
     {
+      "no": 6251071,
+      "kr": "생일 기념 화해 파티",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 6251072,
+      "kr": "안녕, 구원자! 좋은 하루 보내고 있어?\r\n나는 프로덕션에 출근해서 이 편지를 쓰고 있어.\r\n사실 우리 프로덕션 말이야, 며칠 전부터 소란스러웠거든.\r\n사장님이 올해는 내 생일 파티를 성대하게 열어서 축하해 주시겠다는데…\r\n그날 나를 위해 직접 작사작곡한 신곡을 들려주시겠다는 거야.\r\n근데 그 노래를 미카가 녹음하다가 사장님이랑 싸웠나 봐…\r\n특히 미카는 요 며칠 사장님이랑 대화도 안 하는 것 같더라구…\r\n그래서 구원자, 혹시 구원자가 내 생일 파티에 와 줄 수 있을까?\r\n구원자가 방문해서 분위기를 띄워주면 미카랑 사장님도 화해할 수 있을 것 같아.\r\n바쁘겠지만 보고 싶으니까 꼭 와 주기다? 기다릴게!",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 6251091,
       "kr": "같이 향초를 켜시겠어요?",
       "en": "Shall We Light the Scented Candle Together?",
@@ -19681,6 +19825,22 @@
       "zh_cn": ""
     },
     {
+      "no": 6251101,
+      "kr": "술의 가치!",
+      "en": "The Value of a Good Drink!",
+      "ja": "お酒の価値！",
+      "zh_tw": "酒的價值！",
+      "zh_cn": ""
+    },
+    {
+      "no": 6251102,
+      "kr": "구원자님은 술의 가치가 뭐라고 생각해?\r\n오랜 시간을 들여 아름답게 숙성된 빛깔과 향?\r\n알딸딸~하게 취해서 기분이 좋아지는 점?\r\n아니면 술을 마신다는 핑계로 모두를 한자리에 모을 수 있다는 거?\r\n음~ 내 생각에는 셋 다 맞는 것 같아!! \r\n다 같이 모여서 예쁜 빛깔의 술을 마시고, 함께 즐거운 시간을 보내는 것만큼 멋진 게 어디 있겠어!! \r\n\r\n그런데 오늘은 무려!! 여기에 한 가지 가치가 더해지는 날이야~\r\n바로바로~ 내 생일을 축하하는 의미의 축하주!!\r\n그리고 그건 구원자님이 직접 날 축하해 줘야 가능한 거니까\r\n빠지지 말고 꼭!! \r\n이 셰리 선장님의 생일 축하 파티에 참석하도록~!!",
+      "en": "Savior, what do you think is the true value of alcohol?\r\nThe beautiful color and aroma that come from years of aging?\r\nThe tipsy, happy feeling you get after a drink or two?\r\nOr the fact that you can use it as an excuse to get everyone together?\r\nWell, I think it's all three!\r\nWhat's better than getting together, drinking beautifully colored alcohol, and having a good time together? \r\n\r\nAnd today's the day to add one more thing to the mix:\r\na toast to my birthday!\r\nAnd that can only happen if you, the Savior, celebrate me in person,\r\nso make sure\r\nyou don't miss out on Captain Cherrie's birthday party!",
+      "ja": "救世主しゃまは、お酒の価値は何だと思う？\r\n長い時間をかけて熟成された、綺麗な色と香り？\r\n酔いが回って気持ちよくなるところ？\r\nもしくは、お酒を飲むという理由でみんなが集まれること？\r\nう～ん、うちは全部正解だと思うの！！！\r\nみんなで綺麗な色のお酒を飲んで、楽しい時間を過ごすことより素敵なことはないのよ！！！\r\n\r\nところで、今日はなんと！！それにもう一つの価値が追加される日なの～\r\nそれは～うちの誕生日の祝い酒！！\r\nそしてそれは、救世主しゃまがうちをお祝いしてくれないと追加されないから\r\n絶対来てね！！\r\nこのシェリー船長の誕生日パーティーに～！！",
+      "zh_tw": "救援者覺得酒的價值是什麼？\r\n是耗費很多時間發酵的美麗色澤和香氣？\r\n還是喝到茫茫的～心情變好這點？\r\n還是可以用喝酒當藉口，讓大家聚在一起？\r\n嗯～我覺得這三點都對！！\r\n大家聚在一起喝著色澤漂亮的酒、共度美好時光，哪裡有比這更棒的事！！\r\n\r\n但是今天竟然！！可以再添加一個意義～\r\n那就是～慶祝我生日的慶生酒！！\r\n而且要救援者親自幫我慶祝才有意義，\r\n所以你不能缺席！！\r\n一定要參加我雪莉船長的慶生派對～！！",
+      "zh_cn": ""
+    },
+    {
       "no": 6251141,
       "kr": "생일 선물 청구서?",
       "en": "Birthday Gift...Invoice?",
@@ -19694,6 +19854,22 @@
       "en": "Savior, it's been a while.\r\nI could have sent you a message on Evertalk, but I decided to write to you personally instead because...\r\nI heard it's fashionable these days to ask you for a birthday present in a letter.\r\n\r\nHm, but even though I'm the leader of the Thief Guild, I don't feel it's fair to demand— I mean, ask for—a gift without offering anything in return.\r\nSo, I got you a little something. I hope you like it.\r\n\r\nAnd as for what you can get me,\r\nyou don't have to go to the trouble of bringing it to me.\r\nI've already nabbed it from you!\r\n\r\nCheck your pockets. You'll probably notice something missing.\r\nI took it because it looked nice.\r\nSo, thank you. I'll make good use of it! Teehee!\r\n\r\nP.S. If you want it back, come visit me at Spade's!",
       "ja": "救世主～久しぶり！\r\nエバートークで送ってもよかったけど、こうして直接手紙を書く理由は…\r\n最近、誕生日になると救世主に手紙を送って誕生日プレゼントを請求するのが流行ってるらしいじゃん？\r\n\r\nふーん？いくらアタシが盗賊ギルドのリーダーとはいえ、手ぶらでプレゼントをくれ…というのはちょっとねぇ？\r\nだから、アタシもいろいろ考えてみたんだ。気に入ってもらえたら嬉しいな～\r\n\r\nで、プレゼントとして何がほしいかっていうと～\r\n別に～救世主がわざわざ持ってくる必要なんてないよ？\r\nだってもう、私がちゃっかりいただいちゃったから！\r\n\r\n今着てる服のポケットをよく見てみて。何か無くなってるかもよ？\r\n気に入ったから、アタシがもらっていくね～！\r\nありがとう～きゃははははっ！\r\n\r\nP.S. これを返してほしければ、スペードまで遊びに来ること！",
       "zh_tw": "救援者～好久不見耶？\r\n雖然可以傳EverTalk給你，但我之所以這樣親～筆寫信給你…\r\n是因為聽說最近流行生日的時候，寫信給救援者跟你申請生日禮物？\r\n\r\n哼嗯～儘管我是小偷公會的人，但白白叫你交出禮…跟你要禮物還是不太好吧？\r\n所以我也做了很多準備，希望你會喜歡～\r\n\r\n至於要送我什麼禮物的話～\r\n沒有必要～麻煩～救援者帶過來…\r\n我已經偷偷摸走了！\r\n\r\n翻翻看你穿過的衣服口袋～會發現有東西不見的。\r\n因為看起來很棒，我就拿走啦！\r\n我會好好用的～呀哈哈哈哈！\r\n\r\np.s. 想拿回去的話就來黑桃玩！",
+      "zh_cn": ""
+    },
+    {
+      "no": 6251151,
+      "kr": "생일을 맞이하여",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 6251152,
+      "kr": "구원자님, 안녕하세요.\r\n후후. 다름이 아니라 제 생일을 기념해서 이렇게 편지를 드려요.\r\n그동안 정말 많은 분들이 제 생일을 축하해 주시고, 선물도 주셨었는데…\r\n올해는 제가 다른 분들께 축하 편지와 선물을 드릴까 해요.\r\n캐서린 언니… 아니, 섭정님은 제 생일에는 제가 축하받아야 마땅하다고 말하셨지만요.\r\n제가 이렇게 돌아오게 된 건 많은 분들이 힘을 써주신 덕분이니까, 생일을 맞이해서 감사 인사를 드리고 싶었어요.\r\n그래서 구원자님, 약소하지만 작은 선물과 함께 편지를 보내드려요.\r\n저는 오늘 구원자님을 생각하며 기도할 테니까, 시간 되실 때 성당에 놀러 와 주시면 기쁠 거예요.\r\n늘 따스한 태양의 축복이 가득하시길 기도하고 있을게요.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -19758,6 +19934,22 @@
       "en": "Savior, do you know about carrot cake?\r\nIt's made with a mixture of finely grated carrots and sugar.\r\nI never thought of putting a vegetable in a cake. It doesn't seem like it would go with anything,\r\nbut Nicole says it's really good.\r\nDora was like, \"Why would you put carrots in a cake?\" (She doesn't like carrots.)\r\n\r\nBut then, I realized that carrot cake was kind of like me,\r\nmaking a place for itself in a place where it doesn't belong,\r\nand being accepted by someone, somewhere, if not everyone.\r\n\r\nUm, so what I'm trying to say is...\r\nI don't hate carrots like Dora, and I'm kind of curious to see what it tastes like...\r\nSavior, do you want to try carrot cake with me for my birthday this year?\r\nIf you do, you can come to the Fayren Forest.\r\nI'll free up some time.",
       "ja": "救世主、もしかしてキャロットケーキって知ってる？\r\nみじん切りにしたニンジンと砂糖を混ぜて作るケーキらしいけど…\r\nケーキに野菜だなんて想像したこともなかったよ。全然に合わなさそうだしね。\r\nでも、ニコルはとてもおいしいんだってさ？\r\nドーラはなんでケーキにニンジンなんかを入れるのかって嫌がってたけど…(ドーラはニンジンが苦手だからね。)\r\n\r\nで、ふと考えてみるとキャロットケーキってボクみたいだなって思ってさ。\r\n似合わないところに居座ってる自分の姿がね。\r\nみんなにまでは言わないけど、どこかの誰かには認められて…\r\n\r\nえっと、それでボクが言いたかったことは…\r\nボクはドーラのようにニンジンが苦手でもないし、どんな味なのかが気になるんだけど…\r\n救世主、今度のボクの誕生日に一緒にキャロットケーキ、食べてみない…？\r\nもしよかったらフェイレンの森に来てね。\r\n時間を空けておくから。",
       "zh_tw": "救援者，你知道胡蘿蔔蛋糕嗎？\r\n聽說是把胡蘿蔔磨碎後，跟砂糖攪拌製作而成的蛋糕…\r\n竟然把蔬菜加進蛋糕，想都沒想過，感覺完全不搭啊。\r\n但是妮可說超好吃耶？\r\n朵菈倒是很嫌棄，說為什麼要在蛋糕加胡蘿蔔…（朵菈討厭胡蘿蔔。）\r\n\r\n但後來仔細想想，莫名覺得胡蘿蔔蛋糕跟我很像。\r\n就是都待在一個不屬於自己的地方。\r\n雖然不是所有人，但還是在某處獲得某人的認可…\r\n\r\n嗯，所以我想說的是…\r\n我不像朵菈一樣討厭胡蘿蔔，也有點好奇那會是什麼味道…\r\n救援者，我今年生日要不要跟我一起吃胡蘿蔔蛋糕…？\r\n可以的話，就來費倫森林找我。\r\n我會空出時間。",
+      "zh_cn": ""
+    },
+    {
+      "no": 6252101,
+      "kr": "정말로 원하는 것",
+      "en": "What I Truly Want",
+      "ja": "本当にほしいもの",
+      "zh_tw": "真心想要的",
+      "zh_cn": ""
+    },
+    {
+      "no": 6252102,
+      "kr": "구, 구원자님… 루테예요…\r\n저… 올해도… 생일이 와버렸어요…\r\n\r\n작년에도 결국 원하는 생일 선물을 말씀드리지 못했었는데…\r\n그게, 제가 너무 당황해서… 결국 아무 말도 못 했던 그거요오…\r\n올해는 꼭! 말할 거예요…! 진짜로요!\r\n\r\n근데 막상 편지를 쓰려고 하니까… 또 이상하게 마음이 콩닥콩닥 뛰고… 으으으…\r\n그니까, 올해는요… 정말로 갖고 싶은 선물이 하나 있는데요…\r\n그건… 어… 음, 그러니까…\r\n예를 들면요, 구원자님이랑 같은 공간에서, 그러니까 이렇게 가까이…\r\n역시 안 되겠어요…! 왜 이렇게 얼굴이 화끈거리는지… 하우우우…\r\n\r\n그, 그러니까 제 말은… 우으으… 저랑 사… 사… 산책!\r\n산책…! 하지 않으실래요? 히윽…\r\n오늘 하늘이 되게 예쁘거든요…! 하핫…\r\n하우우… 역시 오늘을 이 정도 선물만 부탁드릴래요오…\r\n\r\n정말 말하려고 했는데… 히윽.\r\n심장이 쿵쿵 뛰는 소리에… 하우우… 눈 앞이 핑핑 도는 것 같아요오…\r\n그래도 정말로… 구원자님 곁에서 생일을 보내면…\r\n저, 너무너무 기쁠 거예요… 헤헤…",
+      "en": "U-um, Savior... It's me, Lute...\r\nMy birthday...came again this year.\r\n\r\nLast year, I wasn't able to tell you what gift I really wanted...\r\nYou know, because I got too flustered and ended up not saying anything at all...\r\nBut this year, I'm really going to say it! I mean it!\r\n\r\nBut now, actually writing this letter, my heart is beating really fast again... Uuugh...\r\nSo, um... this year… there's something I truly want as a gift...\r\nAnd that would be...um, how should I say this...?\r\nLike, being close to you, in the same place, spending time together...\r\nN-no, I can't! My face feels way too hot right now... Auuugh...\r\n\r\nW-what I mean is, umm... Would you like to\r\nt-take a w-walk...with me? Ack...!\r\nThe sky looks really pretty today, after all... Haha...\r\nAuuugh... I-I guess that's enough of a gift for today...\r\n\r\nI was really determined to say it, but...\r\nMy heart is pounding so loudly that...auuugh...the room is spinning...\r\nBut really, if I could spend my birthday beside you...\r\nI'd be really happy... Heheh...",
+      "ja": "きゅ、救世主さま…ルーテです。\r\nわたし…今年も…誕生日が来てしまいました…\r\n\r\n去年は結局ほしいプレゼントが言えなかったんですけど…\r\nそれは、慌てすぎちゃって…結局何も言えなかったんですぅ…\r\n今年は絶対！言います…！本当に！\r\n\r\nでもいざお手紙を書こうとしたら…また変にドキドキしちゃうし…\r\nううう…\r\nだから、今年は…本当にほしいプレゼントがありますけど…\r\nそれは…あ…えっと、だから…\r\n例えばですね、救世主さまと同じ空間で、だからこう近く…\r\nやっぱり無理です…！顔がこんなに熱くなって…はううう…\r\n\r\nだ、だから、わたしが言いたいことは…ううう…わたしとお…お…お散歩！\r\nお散歩！しませんか？ひうっ…\r\n今日空がすごく綺麗なんですよ…！ははっ…\r\nはうう…やっぱり今日はこれぐらいのプレゼントでお願いしますぅ…\r\n\r\n本当に言いたかったのに…ひうっ。\r\n胸がドキドキして…はうう…目がぐるぐる回っちゃいますぅ…\r\nでも本当に…救世主さまと一緒に誕生日が過ごせれば…\r\nわたし、本当に嬉しいです…へへ…",
+      "zh_tw": "救、救援者…我是魯特…\r\n我…今年的…生日又到了…\r\n\r\n我去年最後都沒能告訴你我想要什麼生日禮物…\r\n那是因為我太慌張了…結果什麼話都說不出來…\r\n我今年一定會！說出口的…！真的！\r\n\r\n但真的要寫信給你…心跳又異常地撲通撲通跳…呃呃呃…\r\n所以，今年啊…我有個真的很想要的禮物…\r\n那個…呃…嗯，就是…\r\n舉例來說，跟救援者待在同個空間，就是像這樣很靠近…\r\n果然不行…！我的臉怎麼會這麼紅…呼唔唔唔…\r\n\r\n所、所以我的意思是…唔呃呃…跟我散…散…散步！\r\n散步…！可以嗎？呃呃…\r\n今天的天空很漂亮…！哈哈…\r\n呼唔唔…今天還是先拜託你這個禮物就好…\r\n\r\n我真的想說出口的…呃呃。\r\n心臟撲通跳的聲音…呼唔唔…感覺頭昏眼花的…\r\n但如果…能在救援者身邊過生日…\r\n我真的會，非常非常高興…嘿嘿…",
       "zh_cn": ""
     },
     {
@@ -19857,6 +20049,22 @@
       "zh_cn": ""
     },
     {
+      "no": 6253151,
+      "kr": "시간의 흐름을 알아차리는 법",
+      "en": "How to Notice the Passage of Time",
+      "ja": "",
+      "zh_tw": "意識到時間流逝的辦法",
+      "zh_cn": ""
+    },
+    {
+      "no": 6253152,
+      "kr": "잘 지냈나요, 구원자?\r\n오늘은 제 생일이에요.\r\n구원자는 왜 생일이 특별한지 알고 있나요?\r\n그건, 구원자를 포함한 생물들은 성장하고 변화하기 때문이에요.\r\n당신의 지난날과 달라진 1년을 체감할 수 있는 날이죠.\r\n정령의 삶은 과거와 크게 달라지지 않기 때문에 생일에 큰 의미가 없어요.\r\n\r\n하지만 올해는 당신을 만났어요.\r\n당신의 삶을 지켜보는 것만으로도 지난 1년이 예전과 다르게 느껴져요.\r\n그래서 원래 생일을 챙기는 편이 아니었지만...\r\n올해는 이렇게 편지를 써 기분을 내볼까 해요.\r\n고마워요, 나의 새로운 1년이 되어주셔서.\r\n앞으로도 잘 부탁해요.",
+      "en": "Have you been well, Savior?\r\nToday is my birthday.\r\nDo you know why birthdays are special?\r\nBecause all living beings, including you, grow and change.\r\nIt's a day to recognize how much you've changed over the past year.\r\nBut a Soul's life hardly changes from year to year, so birthdays never held much meaning for me.\r\n\r\nBut this year, I met you.\r\nJust watching your life unfold makes this past year feel different from all the others.\r\nSo, even though I don't usually celebrate my birthday,\r\nI decided to write this letter to mark the occasion.\r\nThank you for becoming my reason to see the new year.\r\nI look forward to spending many more with you.",
+      "ja": "",
+      "zh_tw": "救援者，你過的好嗎？\r\n今天是我生日。\r\n救援者知道為什麼生日很特別嗎？\r\n那是因為包括救援者在內的生物會成長和變化。\r\n這一天可以感受到你的過去和產生變化的1年。\r\n精靈的生活和過去沒有很大的不同，所以生日沒有什麼意義。\r\n\r\n但我今年遇見了你。\r\n光是看著你的生活，就能感受到過去1年和以前不一樣。\r\n所以，我本來是不過生日的…\r\n但今年像這樣寫信，想要有點儀式感。\r\n謝謝你，成為我嶄新的1年。\r\n以後也請你多多指教。",
+      "zh_cn": ""
+    },
+    {
       "no": 6254061,
       "kr": "서프라이즈☆★☆",
       "en": "Surprise ☆★☆",
@@ -19924,7 +20132,7 @@
       "no": 6254131,
       "kr": "조앤 선생님의 특별 비법",
       "en": "Doctor Joanne's Special Tricks",
-      "ja": "",
+      "ja": "ジョアン先生の特別ストレッチ法",
       "zh_tw": "瓊醫生的特別祕訣",
       "zh_cn": ""
     },
@@ -19932,7 +20140,7 @@
       "no": 6254132,
       "kr": "고생이 많은 우리 구원자님에게 \r\n\r\n공무를 보다 보면 여러모로 찌뿌두둥할 때가 있을 텐데, \r\n그렇게 느낀 순간 바로 일어서야 해. \r\n\r\n양손으로 깍지를 끼고 쭈욱, 팔을 올려서 머리 위로 번쩍. \r\n중요한 건 그 동작을 하면서 네 견갑골이 있는 구간이 쭈욱하고 \r\n펴지는 느낌을 받아야 해. \r\n\r\n그리고 그 상태로 상체만 사용해서 바로 좌, 우로 천천히 몸을 뉘여봐. \r\n이상적인 건 75도 정도려나? 상체가 뒤나 앞으로 기울어지면 안 돼!\r\n어깨까지 기분 좋은 자극이 느껴지면 성공. \r\n\r\n어깨와 등 근육이 제대로 펴지면 자세를 곧게 유지할 수 있고 \r\n곧은 자세는 일상에서 피로감을 덜어주지. \r\n\r\n잘 모르겠다면 언제든지 찾아와. 이 선생님이 직접 가르쳐 줄테니♪\r\n물론, 커피를 얻어마시고 싶다면 그것도 좋고. \r\n\r\n- 너를 생각하는 의사 선생님 조앤 씨가",
       "en": "Dear hardworking Savior,\r\n\r\nWhen you're sitting at your desk, you may feel stiff,\r\nand as soon as you do, you should stand up.\r\n\r\nClasp your hands together and raise your arms straight up and over your head.\r\nThe important thing is to feel the stretch in your shoulder blades\r\nas you do this. \r\n\r\nAnd while you're doing it, slowly lean to the left and right, using only your upper body.\r\nThe ideal angle is about seventy-five degrees. Don't let your upper body tilt back or forward!\r\nYou're done when you feel a pleasant tingle in your shoulders.\r\n\r\nWhen your shoulders and back muscles are properly stretched, you'll be able to keep your posture upright,\r\nand a healthy posture will help you feel less fatigued during the day.\r\n\r\nIf you're not sure, come and see me. Miss Joanne will teach you in person ♪\r\nOf course, you're always welcome to come by for a cup of coffee, too. \r\n\r\n- Miss Joanne, the doctor who cares about you",
-      "ja": "",
+      "ja": "いつも苦労している救世主君へ\r\n\r\nお役目をこなしていると、なんだか体がだるく感じる瞬間があるよな。\r\nそんなときは、すぐに立ち上がったほうがいい。\r\n\r\n両手の指を組んで、ぐーんっと上に伸ばして、頭の上でピシッ！\r\nこのとき大事なのは、肩甲骨のあたりがじわ〜っと\r\n伸びているのを感じること。\r\n\r\nそのまま上半身だけを使って、ゆっくりと左右に傾けてみて。\r\n理想は…75度くらいかな？ 上半身が前後に倒れないように注意すること！\r\n肩まで気持ちいい刺激が届けばいい。\r\n\r\n肩や背中の筋肉がしっかり伸びれば、姿勢もスッと整うし、\r\n姿勢が良くなると日々の疲れもずっとラクになるからな。\r\n\r\nやり方がよくわからない時は、いつでも来ていいよ。この先生が直々に教えてあげるから♪\r\nもちろん、コーヒーを飲みに来てもいいよ。\r\n\r\nお前の健康を願う、お医者さんのジョアンより",
       "zh_tw": "給我們辛苦的救援者\r\n\r\n處理著公務，各方面來說應該會有身體變沉重的時候，\r\n有那種感覺的瞬間，就得馬上站起來。\r\n\r\n雙手十指交叉，伸直手臂後舉到頭上。\r\n重要的是，做這個動作的時候，要感覺肩胛骨的地方\r\n被伸展開來。\r\n\r\n接著保持那個姿勢，只用上半身左右慢慢地伸展身體。\r\n最好是彎到大概75度嗎？上半身不可以往前彎或往後仰！\r\n如果肩膀有舒爽的刺激感就成功了。\r\n\r\n好好伸展肩膀跟背部的話，可以保持良好的姿勢，\r\n而端正姿勢可以減輕平時的疲勞感。\r\n\r\n搞不清楚的話，隨時來找我，老師我會親自教你♪\r\n如果是想蹭咖啡喝的話當然也可以。\r\n\r\n—為你著想的瓊小姐醫生上",
       "zh_cn": ""
     },
@@ -20020,7 +20228,7 @@
       "no": 6256531,
       "kr": "메피입니다.",
       "en": "Hi from Mephi.",
-      "ja": "",
+      "ja": "メフィです。",
       "zh_tw": "我是梅菲。",
       "zh_cn": ""
     },
@@ -20028,7 +20236,7 @@
       "no": 6256532,
       "kr": "구원자님, 좋은 하루 보내고 계신가요?\r\n눈 깜짝할 사이에 계절이 몇 번이나 바뀌고, 어느새 제 생일이 찾아왔습니다.\r\n\r\n지난 생일날을 기억하시나요?\r\n그날 저는 모두에게 과분할 정도의 축하를 받았고,\r\n그 따뜻한 마음에 어떻게 보답해 드려야 할지 오랫동안 고민해 왔습니다.\r\n\r\n그러던 중… 유리아 님께서\r\n'메피가 가장 좋아하는 걸 모두에게 선물하면 어떨까요?'라고 제안해 주셨고,\r\n조금 부끄럽지만, 그 말을 계기로 베이킹을 시도해 보았어요.\r\n\r\n만드는 과정에서 몇 번의 시행착오가 있긴 했지만…\r\n네, 결과적으로 꽤 마음에 드는 3단 딸기 케이크가 완성이 되었습니다.\r\n\r\n기성품처럼 완벽한 모양은 아니어도… 맛은 나쁘지 않을 거라 자신합니다.\r\n그러니 구원자님, 저와 함께 이 딸기 케이크를 드셔주시겠어요?\r\n아케나인 성의 장미 정원에서 기다리고 있겠습니다.",
       "en": "Savior, how are you today?\r\nThe seasons already have changed several times, and before I knew it, my birthday is here.\r\n\r\nDo you remember my last birthday?\r\nI received undeserved congratulations from everyone that day,\r\nand I've been thinking for a long time about how to repay them.\r\n\r\nThen, Yuria suggested,\r\n\"Why don't you give everyone what you like most?\"\r\nAnd so, I took her advice and gave baking a try.\r\n\r\nIt took some trial and error,\r\nbut in the end, I ended up with a three-tier strawberry cake that I'm pretty happy with.\r\n\r\nIt may not look as perfect as a store-bought one, but I'm confident it won't taste too bad.\r\nSo, Savior, will you join me in eating this strawberry cake?\r\nI'll be waiting for you in the rose garden of the Arkenine Palace.",
-      "ja": "",
+      "ja": "救世主さま、今日も素敵な一日をお過ごしでしょうか？\r\nあっという間に季節は何度も移り変わり、気づけばまた、私の誕生日がやってきました。\r\n\r\n去年の誕生日のこと、覚えていますか？\r\nあの日、私はみんなからもったいないほどのお祝いをもらい、\r\nそのあたたかい気持ちにどうお返しすればよいのか、ずっと考えていました。\r\n\r\nそんな中…ユリア様が\r\n「メフィが一番好きなものを皆さんに贈るのはどうでしょうか」と提案してくださって、\r\n少し恥ずかしかったのですが、それをきっかけにベイキングに挑戦してみたんです。\r\n\r\n試行錯誤を繰り返しながらも…\r\n最終的には自分でも納得のいく三段のイチゴケーキが完成しました。\r\n\r\n市販品のように完璧な見た目とはいかないけれど…味にはちょっと自信があります。\r\nですから、救世主さま。よかったら私と一緒に、このイチゴケーキを食べてもらえませんか？\r\nアーケナイン城のバラ庭園でお待ちしています。",
       "zh_tw": "救援者，你今天過得好嗎？\r\n轉眼間季節就更迭了好幾次，不知不覺就到了我的生日。\r\n\r\n你還記得上次生日嗎？\r\n我那天從大家那裡收到太多的祝福，\r\n煩惱了很久該如何報答那份溫暖的心意。\r\n\r\n就在這時候…尤里婭向我提議\r\n「把梅菲最喜歡的東西送給大家怎麼樣？」\r\n雖然有點害羞，但那句話讓我試著做烘培。\r\n\r\n在製作的過程中，是嘗試了幾次錯誤，不過…\r\n沒錯，就結果來說，我完成了相當滿意的3層草莓蛋糕。\r\n\r\n雖然外觀不像現成的一樣完美…但我相信味道一定還不錯。\r\n所以救援者，你可以跟我一起吃這個草莓蛋糕嗎？\r\n我會在阿肯納因的玫瑰庭園等你。",
       "zh_cn": ""
     },
@@ -20252,7 +20460,7 @@
       "no": 9011068,
       "kr": "충성! 에덴에 와주셔서 감사함다, 구원자님! \r\n지난 1년간 정말 수고하셨슴다! 앞으로도 잘 부탁드림다!",
       "en": "Salute! Thank you for coming to Eden, Savior!\r\r\nYou've done so much this past year! Counting on your continued guidance, sir!",
-      "ja": "",
+      "ja": "救世主様、エデンに来てくださってありがとうございます！\r\nこの1年間、本当にお疲れ様でした！これからもよろしくお願いしまっす！",
       "zh_tw": "敬禮！謝謝你來到伊甸園，救援者！\r\r\n過去1年來真的辛苦你了！以後也請多多指教！",
       "zh_cn": ""
     },
@@ -20532,7 +20740,7 @@
       "no": 9012068,
       "kr": "구원자님을 처음 본 순간이 바로 어제 같은데…\r\n언제 이렇게 시간이 1년이란 시간이 지났을까요. \r\n후훗. 앞으로도 잘 부탁드려요.",
       "en": "It feels as if it was only yesterday when we first met, Savior…\r\r\nHow swiftly has this year flown by.\r\r\nHeheh. Here's hoping for another good year.",
-      "ja": "",
+      "ja": "救世主様と初めてあったのが昨日のことのようなのに…\r\nいつの間にか1年が過ぎてしまいましたね。\r\nふふっ、これからもよろしくお願いします。",
       "zh_tw": "初次見到救援者的瞬間彷彿還是昨天…\r\r\n怎麼就這樣經過了1年呢？\r\r\n呵呵，以後也要多多指教。",
       "zh_cn": ""
     },
@@ -20812,7 +21020,7 @@
       "no": 9021068,
       "kr": "오늘은 구원자님 에덴에 오신 날! 축하해, 구원자님!\r\n특별히 1주년 기념으로 구원자님 인형 굿즈를 만들었어. 자!",
       "en": "Today marks the day you came to Eden! Cheers to you, Savior!\r\r\nIn honor of this 1st anniversary, I've crafted a special Savior doll as a keepsake. Here!",
-      "ja": "",
+      "ja": "今日は救世主様がエデンにやってきた日！おめでとう、救世主様！\r\n1周年を記念して、特別に救世主様のぬいぐるみグッズを作ってみたんだよ！はい、これ！",
       "zh_tw": "今天是救援者來到伊甸園的日子！恭喜你，救援者！\r\r\n我為了紀念1週年，特地製作了救援者的玩偶，給你！",
       "zh_cn": ""
     },
@@ -21084,7 +21292,7 @@
       "no": 9022068,
       "kr": "벌써 일주년이 되었다니, 놀랍소.\r\n눈 깜짝할 새에 시간이 지난 것 같게 느껴지오.",
       "en": "How remarkable it is that it's already been a year.\r\r\nIt feels like time has flown by in the blink of an eye.",
-      "ja": "",
+      "ja": "もう1年か…驚いたでござる。\r\n時間というのは本当に早いものだな。",
       "zh_tw": "竟然已經一週年了，真嚇人。\r\r\n感覺一眨眼，時間就過了。",
       "zh_cn": ""
     },
@@ -21356,7 +21564,7 @@
       "no": 9031068,
       "kr": "구원자가 여기 온 지 얼마나 됐지? 벌써 일 년?\r\n흠~ 기념으로 한번 겨뤄보자고. 어때?",
       "en": "Time flies, huh? A year with the Savior already?\r\nHeh, let's have a friendly bout to mark the occasion. What do you say?",
-      "ja": "",
+      "ja": "救世主がここに来て、もうどれくらい経った？もう1年か？\r\nへえ～それじゃあ、記念に一勝負付き合ってくれ。どうだ？",
       "zh_tw": "救援者來到這裡多久了？已經一年了？\r\n嗯～為了紀念一週年，來切磋一下怎麼樣？",
       "zh_cn": ""
     },
@@ -21636,7 +21844,7 @@
       "no": 9032068,
       "kr": "구원자님이 에덴에 온 지 벌써 일 년이 지났다니~\r\n함께 숲을 지켜줘서 고마워. 앞으로도 잘 부탁해?",
       "en": "I can't believe it's already been a year since you came to Eden, Savior.\r\nThanks for your help in guarding our forest. Can we count on your continued support?",
-      "ja": "",
+      "ja": "救世主さまがエデンに来てもう1年が経ったなんて～\r\n一緒に森を守ってくれてありがとう。これからもよろしくね！",
       "zh_tw": "救援者竟然已經來到伊甸園一年了～\r\n謝謝你陪我一起守護森林，以後也要拜託你囉！",
       "zh_cn": ""
     },
@@ -21916,7 +22124,7 @@
       "no": 9041068,
       "kr": "크르륵… 일… 년… 함께… 카륵! 고마워…",
       "en": "Grrrr… One… year… with us… Grrrr! Thanks…",
-      "ja": "",
+      "ja": "クル…1…年…いっしょに…グルル！ありがとう…",
       "zh_tw": "咳嚕嚕…謝…謝…陪我…喀嚕！這一年…",
       "zh_cn": ""
     },
@@ -22196,7 +22404,7 @@
       "no": 9042068,
       "kr": "벌써 일 년이 되었네요. 당신이 에덴에 온 게.\r\n'앞으로도…'라는 말을, 당신께 써도 될까요…?",
       "en": "It's already been a year since you came to Eden.\r\r\nWould it be presumptuous to speak of our future with you…?",
-      "ja": "",
+      "ja": "もう1年になりましたね。あなたがエデンに来てから。\r\n「これからも…」という言葉を、あなたに使ってもいいのでしょうか…？",
       "zh_tw": "自從你來到伊甸園，已經過一年了。\r\r\n可以對你說「以後也要…」這種話嗎…？",
       "zh_cn": ""
     },
@@ -23420,7 +23628,7 @@
       "no": 9104068,
       "kr": "벌써 1주년? 우와… 언제 이렇게 시간이 흘렀죠? \r\n구원자님이랑 만난 이후로 하루하루가 너무 빠르게 지나가요. 구원자님은요?",
       "en": "First anniversary, already? Wow, time just zoomed by, didn't it?\r\r\nLife's been a whirlwind of fun since I met you, Savior. How about you?",
-      "ja": "",
+      "ja": "もう1周年…？うわ…本当に早いです！\r\n救世主さまに会ってから毎日が本当に早く過ぎてしまいます。救世主さまはどうですか？",
       "zh_tw": "已經1週年了？哇…時間怎麼過這麼快？\r\r\n自從見到救援者以後，每一天都過得好快，救援者覺得呢？",
       "zh_cn": ""
     },
@@ -23732,7 +23940,7 @@
       "no": 9105068,
       "kr": "구원자님이 에덴에 와주시기 전인 작년과 올해가 \r\n저에게는 완전히 다른 세상으로 느껴져요.\r\n앞으로도 제 손 잡아 주실래요?",
       "en": "For me, the year before you came to Eden and the one after\r\r\nare as different as night and day.\r\r\nCan I count on you to stay by my side?",
-      "ja": "",
+      "ja": "救世主さんがエデンにやってくる前の去年と今年…\r\n私にとってはまるで違う世界のように感じられます。\r\nこれからも私の手を握ってくれませんか？",
       "zh_tw": "救援者來到伊甸園之前的去年和今年，\r\r\n對我來說是兩個截然不同的世界。\r\r\n以後也要牽住我的手好嗎？",
       "zh_cn": ""
     },
@@ -24044,7 +24252,7 @@
       "no": 9106068,
       "kr": "에덴에 오신 지 벌써 1년이 지났네요. \r\n구원자님을 처음 봤을 때의 일을 잊을 순 없죠.\r\n감회가 참 새롭네요. 앞으로도 잘 부탁드려요, 후훗.",
       "en": "A full year has gone by since your arrival in Eden.\r\nI can never forget the day I first saw you, Savior.\r\nI'm feeling a surge of nostalgia. Looking forward to creating more fond memories.",
-      "ja": "",
+      "ja": "エデンに来てもう1年が経ちました。\r\n救世主様と初めて会ったときのことは今でも覚えています。\r\nなんだか感慨深いですね。これからもよろしくお願いします、ふふっ。",
       "zh_tw": "你已經來到伊甸園1年了。\r\n我忘不掉第一次見到救援者的時候，\r\n真是感概，以後也多多指教了，呵呵。",
       "zh_cn": ""
     },
@@ -24964,7 +25172,7 @@
       "no": 9109068,
       "kr": "구원자님과 함께한 1년이라는 시간, 제겐 정말 보물 같아요.\r\n앞으로 훨씬 더 많은 추억을 만들고 싶은데… 어떠세요?",
       "en": "This past year with you, Savior, has been a real treasure to me.\r\r\nI want to create many more memories in the future… What do you think?",
-      "ja": "",
+      "ja": "救世主様と一緒に過ごした1年は私にとって宝物です。\r\nこれからも一緒に思い出を作っていきたいと思うのですが…どうですか？",
       "zh_tw": "跟救援者共度的這1年，對我來說真的像寶石一樣。\r\r\n我以後還想創造更多回憶…你覺得怎麼樣？",
       "zh_cn": ""
     },
@@ -25276,7 +25484,7 @@
       "no": 9110068,
       "kr": "구원자님 에덴 소환 일주년 기념 파티! 당연히 할 거지~?\r\n내가 특~별히 귀한 술 꺼내올 테니까! 하자 하자~!",
       "en": "Savior's first year in Eden calls for a celebration! We're doin' it, ain't we?\r\r\nI'll haul out the extra good stuff jus' fer this! Let's make it happen!",
-      "ja": "",
+      "ja": "救世主しゃまのエデン召喚1周年記念パーティー！当然やるんでしょう～？\r\nうちが特別に！高～いお酒を持って来るから！パーティーやろう！",
       "zh_tw": "救援者召喚到伊甸園一週年紀念派對！一定會慶祝的吧～？\r\r\n我會特～地拿出珍貴的酒！開派對吧，派對～！",
       "zh_cn": ""
     },
@@ -25588,7 +25796,7 @@
       "no": 9111068,
       "kr": "구원자님! 에덴 1주년 축하해! 나한테 와줘서 정말 고마워!!\r\n앞으로도 같이 곰곰류 무술을 에덴에 널리널리 퍼뜨리자!!",
       "en": "Savior! Big cheers for your first year in Eden! I'm so grateful you're here with me!!\r\r\nLet's keep on spreading Bearjutsu martial arts far and wide across Eden!!",
-      "ja": "",
+      "ja": "救世主さま！エデン1周年、おめでとう！おいらのところに来てくれて本当にありがとう！\r\nこれからも一緒にクマクマ流の武術をエデンに広めよう！",
       "zh_tw": "救援者！恭喜伊甸園1週年！真的謝謝你來到我身邊！！\r\r\n以後要跟我一起在伊甸園廣傳熊熊流武術！！",
       "zh_cn": ""
     },
@@ -25900,7 +26108,7 @@
       "no": 9112068,
       "kr": "365일… 이렇게 써 보면 길어 보이는데\r\n구원자랑 함께한 1년은 엄청 알차고 짧았어!",
       "en": "365 days… It looks long when you type it out,\r\r\nbut the year I spent with you was epic and zoomed by so fast!",
-      "ja": "",
+      "ja": "365日…数字だけ見るとすごく長いようだけど、\r\n救世主と一緒に過ごした1年はすごく充実して短かった！",
       "zh_tw": "365天…這樣寫起來感覺很漫長，\r\r\n但跟救援者共度的1年非常充實，太短暫了！",
       "zh_cn": ""
     },
@@ -26268,7 +26476,7 @@
       "no": 9114001,
       "kr": "안녕, 살아 있었네?",
       "en": "Hey there, you're alive!",
-      "ja": "",
+      "ja": "おはよう、まだ生きてたんだ？",
       "zh_tw": "你好，你還活著耶。",
       "zh_cn": ""
     },
@@ -26276,7 +26484,7 @@
       "no": 9114002,
       "kr": "새해네. 복 받는 건 공짜지?",
       "en": "It's a new year. New Year's luck is free, right?",
-      "ja": "",
+      "ja": "救世主も「明けましておめでとう」って言った？",
       "zh_tw": "新年到了，沾沾喜氣是免費的吧？",
       "zh_cn": ""
     },
@@ -26284,7 +26492,7 @@
       "no": 9114003,
       "kr": "초콜릿? 하나 훔쳐줄까?",
       "en": "Chocolate? Should I steal some?",
-      "ja": "",
+      "ja": "チョコレート？盗んできてあげようか？",
       "zh_tw": "巧克力？要不要幫你偷一個？",
       "zh_cn": ""
     },
@@ -26292,7 +26500,7 @@
       "no": 9114004,
       "kr": "여름엔 옷이 얇아서 훔치기 좋아.",
       "en": "Stealing is summer is easy. Nobody wears a lot of layers.",
-      "ja": "",
+      "ja": "夏は薄着になるから盗みやすいよ。",
       "zh_tw": "夏天的衣服很薄，偷東西很方便。",
       "zh_cn": ""
     },
@@ -26300,7 +26508,7 @@
       "no": 9114005,
       "kr": "사탕 내놔!",
       "en": "Hand me over some candy!",
-      "ja": "",
+      "ja": "キャンディーちょうだい！",
       "zh_tw": "交出你的糖果！",
       "zh_cn": ""
     },
@@ -26308,7 +26516,7 @@
       "no": 9114006,
       "kr": "반짝반짝해서 좋네. 메리 크리스마스?",
       "en": "The decorations are really nice. Merry Christmas, I guess?",
-      "ja": "",
+      "ja": "キラキラしてていいね。メリークリスマス？",
       "zh_tw": "閃閃發光真好，聖誕節快樂。",
       "zh_cn": ""
     },
@@ -26316,7 +26524,7 @@
       "no": 9114007,
       "kr": "꽃보단 돈이 좋은데.",
       "en": "Flowers? I prefer money.",
-      "ja": "",
+      "ja": "花よりお金の方がいいのに。",
       "zh_tw": "比起花朵，我更喜歡錢。",
       "zh_cn": ""
     },
@@ -26324,7 +26532,7 @@
       "no": 9114011,
       "kr": "새해에 말이야. 복 받으라고들 하잖아.\r\n근데 그거… 누가 주는 거야?",
       "en": "You know how they wish you a happy new year?\r\r\nW-who's supposed to make you happy?",
-      "ja": "",
+      "ja": "新年になるとみんな「明けましておめでとう」って言うよね？\r\nでもそれってさ、何がおめでたいんだ？\r\n新年なんて何百回も何千回も繰り返されるものなのにね～",
       "zh_tw": "新年時不是都會說恭喜發財嗎？\r\r\n但是那個財…是哪來的？",
       "zh_cn": ""
     },
@@ -26332,7 +26540,7 @@
       "no": 9114012,
       "kr": "초콜릿 받고 싶어?\r\n게임 해서 이기면 하나 훔쳐줄게.",
       "en": "Do you want chocolate?\r\r\nI'll steal some for you if you can beat me in a game.",
-      "ja": "",
+      "ja": "チョコレートがほしい？\r\nゲームで勝ったら一つ盗んできてあげる。",
       "zh_tw": "你想收到巧克力嗎？\r\r\n如果你玩遊戲贏了，我就幫你偷一個。",
       "zh_cn": ""
     },
@@ -26340,7 +26548,7 @@
       "no": 9114013,
       "kr": "날이 더운 건지, 옷이 더운 건지 모르겠네…\r\n응? 옷을 벗어보는 게 어떻겠냐고? 변태야~?",
       "en": "I can't tell if it's hot, or if it's my clothes…\r\r\nWhat? Take my clothes off? Are you a perv?!",
-      "ja": "",
+      "ja": "暑いのが天気のせいなのか服のせいなのか分からないね…\r\nえ？服を脱いでみたらって？救世主ってやらし～",
       "zh_tw": "不知道是不是天氣熱，還是衣服熱…\r\r\n嗯？你說我要不要脫衣服？你是變態嗎～？",
       "zh_cn": ""
     },
@@ -26348,7 +26556,7 @@
       "no": 9114014,
       "kr": "귀신이라…\r\n그런 형태로라도 소중한 존재를 다시 볼 수 있다면… ",
       "en": "Ghosts…\r\r\nWell, if it's a ghost of someone precious to me, I wouldn't mind seeing one… ",
-      "ja": "",
+      "ja": "お化けか…\r\nそんな形でも大切な存在にまた会えるなら…",
       "zh_tw": "鬼喔…\r\r\n如果還能以那種形態看到珍貴的存在…",
       "zh_cn": ""
     },
@@ -26356,7 +26564,7 @@
       "no": 9114015,
       "kr": "이런 날에는 도둑질 파업이야.\r\n꼬마 정령이 나타나서 도둑을 혼내준다더라구.",
       "en": "Thieves go on strike this time of the year.\r\r\nI heard a child Soul appears and scolds thieves.",
-      "ja": "",
+      "ja": "こういう日は、怪盗ストライキよ。\r\nちび精霊が現れて泥棒を懲らしめるんだって。",
       "zh_tw": "這種日子小偷會停工，\r\r\n聽說會有小精靈出現教訓小偷。",
       "zh_cn": ""
     },
@@ -26364,7 +26572,7 @@
       "no": 9114016,
       "kr": "트로이카의 봄엔 무투회가 열려. 누가 최강이 될지 판돈을 거는 거지. \r\n아아~ 생각만 해도 즐거워…",
       "en": "There's a fighting competition that takes place during the spring in Troyca. We all make bets on who will be the champion.\r\r\nAh, just thinking about it excites me!",
-      "ja": "",
+      "ja": "トロイカでは春に武闘会が開かれるの。誰が最強なのか賭けをするんだよね。\r\nああ～考えるだけで楽しい…",
       "zh_tw": "特羅伊卡春天會舉行武鬥大會，打賭看誰最強。\r\r\n啊啊～光是想像就很開心…",
       "zh_cn": ""
     },
@@ -26372,7 +26580,7 @@
       "no": 9114021,
       "kr": "내가 내기 중독인 것 같아? 아닌데.\r\n내기 중독이 아니라는 걸 걸고 내기할래?",
       "en": "You think I'm addicted to betting? Nope.\r\r\nYou wanna bet?",
-      "ja": "",
+      "ja": "アタシが賭け事に夢中になってるって？いーや、違うね。\r\nじゃあ、アタシが賭け事に夢中になってるかどうか、掛けてみる？",
       "zh_tw": "你覺得我打賭成癮嗎？沒有，\r\r\n我們要不要打賭，看看我有沒有成癮？",
       "zh_cn": ""
     },
@@ -26380,7 +26588,7 @@
       "no": 9114022,
       "kr": "길드원들을 어떻게 통솔하냐고?\r\n그야 돈이지. 몫을 많이 주면 없던 충성심도 생기거든.",
       "en": "You're wondering how I lead the guild members?\r\r\nMoney talks. The more I offer, the more loyal they get.",
-      "ja": "",
+      "ja": "ギルドメンバーの統率方法？\r\nそりゃお金でしょ。取り分が多くなると忠誠心も高くなるからね。",
       "zh_tw": "你問我怎麼統率公會成員？\r\r\n當然是用錢。多給點錢，他們自然就會展現忠誠。",
       "zh_cn": ""
     },
@@ -26388,7 +26596,7 @@
       "no": 9114023,
       "kr": "평범한 은행원으로 살았어도 좋았을 텐데.\r\n비리 한번 크게 저지르고 은퇴하는 거지. ",
       "en": "I could've worked in banking.\r\r\nYou know, I could've gone corrupt on one big job, and then just retire. ",
-      "ja": "",
+      "ja": "普通の銀行員として生きてもよかったけどね。\r\n汚職で一儲けして引退、ってことで。",
       "zh_tw": "如果我能當普通的銀行職員就好了。\r\r\n我要犯下一起重大弊案，然後金盆洗手。",
       "zh_cn": ""
     },
@@ -26396,7 +26604,7 @@
       "no": 9114024,
       "kr": "제이드 상단 말이야. 어쩜 그렇게 부자인 걸까.\r\n확실히 능력 있단 말이지.",
       "en": "About Jade's Merchants' Guild. How is she so rich?\r\r\nShe must be really talented.",
-      "ja": "",
+      "ja": "ジェイド商団ってさ。どうしてあんなにお金を持っているんだろうね。\r\n本当に有能なんだろうね。",
       "zh_tw": "潔依德商團啊，怎麼會那麼富有呢？\r\r\n的確有能力。",
       "zh_cn": ""
     },
@@ -26404,7 +26612,7 @@
       "no": 9114031,
       "kr": "흐음~ 배짱 좋네? \r\n무슨 짓 당해도 몰라~?",
       "en": "Oh, the nerve!\r\r\nNot my fault if you lose something!",
-      "ja": "",
+      "ja": "ふうん～いい度胸だね？何かされても知らないよ～？",
       "zh_tw": "哼嗯～你很有膽識嘛！\r\r\n發生什麼事我可不管喔～",
       "zh_cn": ""
     },
@@ -26412,7 +26620,7 @@
       "no": 9114041,
       "kr": "구원자, 누가 곤란하게 하면 말해.\r\n도와줄 거냐고? 아니? 내가 더 곤란하게 해주려고 그러지. ",
       "en": "If someone gives you a hard time, just tell me.\r\r\nMe? Help you? Nah, I just wanted to give you an even harder time. ",
-      "ja": "",
+      "ja": "救世主、困ったことがあれば言ってね。\r\n助けてくれるのかって？いや、アタシがもっと困らせてあげるからさ。",
       "zh_tw": "救援者，如果有人造成你的困擾就告訴我。\r\r\n你問我是不是要幫忙？不是！我是要讓你更困擾。",
       "zh_cn": ""
     },
@@ -26420,7 +26628,7 @@
       "no": 9114042,
       "kr": "트로이카의 뒷골목과 달리 아케나인은 참 평화로워. \r\n이 평화도 구원자가 노력한 결과겠지.",
       "en": "Unlike the back alleys of Troyca, Arkenine is so peaceful.\r\r\nI'm sure it's thanks to your efforts, Savior.",
-      "ja": "",
+      "ja": "トロイカの裏路地とは違ってアーケナインは本当に平和だよ。\r\nこの平和も救世主が頑張った結果だろうね。",
       "zh_tw": "不同於特羅伊卡的後巷，阿肯納因非常和平。\r\r\n這種和平也是救援者努力的成果吧。",
       "zh_cn": ""
     },
@@ -26428,7 +26636,7 @@
       "no": 9114043,
       "kr": "신뢰받는 사람일수록 도둑이 되기 좋아. 남들이 의심을 안 하거든. \r\n그러니까 구원자, 은퇴하고 도둑이 되는 건 어때?",
       "en": "The more trust others have in you, the better thief you could become. Nobody will suspect you.\r\r\nSo, how about you become a thief after you retire?",
-      "ja": "",
+      "ja": "信頼されるほど泥棒しやすいの。疑われないからね。\r\nだから救世主、引退して泥棒になるのはどう？",
       "zh_tw": "越是受人信任，越適合當小偷，因為別人不會懷疑他。\r\r\n所以救援者，你退休當小偷怎麼樣？",
       "zh_cn": ""
     },
@@ -26436,7 +26644,7 @@
       "no": 9114051,
       "kr": "봤어?",
       "en": "Did you get a good look?",
-      "ja": "",
+      "ja": "見た？",
       "zh_tw": "你看到了嗎？",
       "zh_cn": ""
     },
@@ -26444,7 +26652,7 @@
       "no": 9114052,
       "kr": "흐응. 이건 무슨 의미일까?",
       "en": "Hmm. What was that for?",
-      "ja": "",
+      "ja": "ふうん。これはどういう意味かな？",
       "zh_tw": "哼嗯，這是什麼意思呢？",
       "zh_cn": ""
     },
@@ -26452,7 +26660,7 @@
       "no": 9114053,
       "kr": "나라는 보석을 훔치고 싶어?",
       "en": "Am I a jewel you want to steal?",
-      "ja": "",
+      "ja": "盗みたい？アタシという宝石を。",
       "zh_tw": "你想偷我這個寶石嗎？",
       "zh_cn": ""
     },
@@ -26460,7 +26668,7 @@
       "no": 9114061,
       "kr": "무슨 편지야? 어디서 빚졌어?",
       "en": "What kind of mail did you get? Do you owe someone money?",
-      "ja": "",
+      "ja": "何の手紙？借金でも作った？",
       "zh_tw": "這什麼信啊？你欠誰錢？",
       "zh_cn": ""
     },
@@ -26468,7 +26676,7 @@
       "no": 9114062,
       "kr": "성실하네? 퀘스트 보상은 나 줘.",
       "en": "How diligent. Let me have the quest rewards.",
-      "ja": "",
+      "ja": "まじめだね？クエスト報酬はアタシにちょうだい。",
       "zh_tw": "你很勤奮耶，給我任務獎勵吧。",
       "zh_cn": ""
     },
@@ -26476,7 +26684,7 @@
       "no": 9114063,
       "kr": "하아아… 전리품 냄새…",
       "en": "Ahh… The smell of loot…",
-      "ja": "",
+      "ja": "はああ…戦利品の匂い…",
       "zh_tw": "哈啊啊…戰利品的味道…",
       "zh_cn": ""
     },
@@ -26484,7 +26692,7 @@
       "no": 9114064,
       "kr": "정령들 관리해야지?",
       "en": "You need to take care of the Souls!",
-      "ja": "",
+      "ja": "精霊たちの管理もしないとね？",
       "zh_tw": "你該管理精靈了吧？",
       "zh_cn": ""
     },
@@ -26492,7 +26700,7 @@
       "no": 9114065,
       "kr": "영지에서 재밌는 일 안 생기나…?",
       "en": "I wonder if anything fun is happening at the town…?",
-      "ja": "",
+      "ja": "領地で何か楽しいことでも起きないかな…？",
       "zh_tw": "領地有沒有發生有趣的事情…？",
       "zh_cn": ""
     },
@@ -26500,7 +26708,7 @@
       "no": 9114066,
       "kr": "구원자! 생일 축하해. \r\n여기 케이크. …훔친 거 아니거든?",
       "en": "Savior! Happy birthday.\r\r\nHere's a cake… And no, I didn't steal it!",
-      "ja": "",
+      "ja": "救世主！誕生日おめでとう。\r\nはい、ケーキ。…盗んだものじゃないよ？",
       "zh_tw": "救援者！生日快樂。\r\r\n給你蛋糕…這不是偷來的好嗎！",
       "zh_cn": ""
     },
@@ -26508,7 +26716,7 @@
       "no": 9114067,
       "kr": "구원자, 나 오늘 생일이야.\r\n생일 선물 준비했어? 없으면 제일 비싼 거 내놔!",
       "en": "Savrio, it's my birthday.\r\r\nDid you prepare a gift? If you didn't hand me over the most expensive thing you've got!",
-      "ja": "",
+      "ja": "救世主！アタシ、今日が誕生日なの。\r\n誕生日プレゼントは用意してる？なかったら一番高いものちょうだい！",
       "zh_tw": "救援者，今天是我生日。\r\r\n你有準備生日禮物嗎？沒準備的話，就要給我最貴的東西！",
       "zh_cn": ""
     },
@@ -26516,7 +26724,7 @@
       "no": 9114068,
       "kr": "에덴에 온 지 1년이지? 갖고 싶은 거 다~ 말해 봐. \r\n돈으로 살 수 있는 게 따분하다면… 오늘 하루 재밌게 해줄게.",
       "en": "A year in Eden, eh? Spill it, what's your heart's desire?\r\r\nBored of what money can buy? I can make sure today is anything but dull.",
-      "ja": "",
+      "ja": "エデンに来て1年だね？ほしいものがあればぜ～んぶ言ってみて。\r\nお金で買えるものは要らないなら…今日は楽しませてあげる。",
       "zh_tw": "你來到伊甸園1年了吧？有什麼想要的，儘～管告訴我，\r\n如果你對可以用錢買的東西沒興趣…我今天會讓你開心的。",
       "zh_cn": ""
     },
@@ -26524,7 +26732,7 @@
       "no": 9114069,
       "kr": "구원자~ 에덴에 온 지 2년이 됐다면서?\r\n오래되면 값어치가 오르는 물건처럼, 구원자도 나한테 그래.\r\n후훗, 오래 볼수록 더 갖고 싶어진다는 뜻이야.",
       "en": "Savior! So, it's been two years since you arrived in Eden, huh?\r\nLike things that grow more valuable with time, you've become that way to me.\r\nHeheh, it means the more I see you, the more I want to keep you close.",
-      "ja": "救世主～エデンに来てもう2年になったと聞いたよ？\r\n古くなるほど価値が上がるもののように、アタシにとっての救世主もそうだよ。\r\nふふ、長い付き合いになるほど、もっと大切になるってことだよ。",
+      "ja": "救世主～エデンに来てからもう２年だって？\r\nアタシにとって救世主はビンテージみたいなもんなんだよね。\r\nふふっ…つまり、一緒にいればいるほど\r\nもっと価値が高まって、ほしくなるワケ。",
       "zh_tw": "救援者～聽說你來到伊甸園已經兩年了？\r\n就像時間久了價值會上升的東西一樣，你對我來說也是這樣。\r\n呵呵，意思是看越久越想要。",
       "zh_cn": ""
     },
@@ -26532,7 +26740,7 @@
       "no": 9114070,
       "kr": "구원자가 에덴에서 구른 지 벌써 3년이라니~\r\n힘들지는 않아? 그럴 때는 나한테 슬쩍 얘기해.\r\n내가 힘들게 하는 것들을 몰래 없애 줄게!",
       "en": "Can you believe it's already been three years since you've been here in Eden?\r\nAre you holding up okay? If you ever feel overwhelmed, just quietly let me know.\r\nI'll quietly make whatever's bothering you disappear!",
-      "ja": "救世主がエデンで苦労してもう3年になったね～\r\n大変なことはない？そういうときはアタシにこっそり話してね。\r\n救世主に苦労さるものは、アタシがこっそり消してあげるから！",
+      "ja": "救世主がエデンで苦労し始めてからもう３年も経ったなんてね～\r\nしんどくはない？だったらアタシにそっと言ってみてよ。\r\n救世主をしんどくすること、アタシがこっそり消してあげるからさ。",
       "zh_tw": "救援者居然已經在伊甸園打滾三年了～\r\n不累嗎？那種時候就悄悄告訴我吧。\r\n我會偷偷幫你除掉讓你疲憊的東西！",
       "zh_cn": ""
     },
@@ -26540,7 +26748,7 @@
       "no": 9114071,
       "kr": "구원자~ 구원자가 에덴에 온 걸 기념하는 파티를 준비했어!\r\n나한테 파티 참가비만 주면 돼!\r\n꺄하하하하! 장난 좀 친 거야~ 그냥 몸만 오라구!",
       "en": "Savior! I've thrown a party to celebrate the day you came to Eden!\r\nAll you need to do is pay the party fee!\r\nTeehee! Just kidding. Just show up, that's all I ask!",
-      "ja": "救世主がエデンに来た日を記念するパーティーを用意したんだ！\r\n参加費はアタシにちょうだいね！\r\nきゃははは！冗談だよ～そんなもの要らないから早く来て！",
+      "ja": "救世主～救世主がエデンに来た日を記念したパーティを準備したんだ～\r\nパーティの参加費だけアタシにちょうだい？\r\n…きゃははははっ！なに、そのマヌケな顔！\r\n冗談に決まってるじゃない。救世主はただでいいよ！",
       "zh_tw": "救援者～我準備了紀念你來到伊甸園的派對！\r\n只要給我派對參加費就好！\r\n哈哈哈哈哈！只是開個玩笑～人來就好！",
       "zh_cn": ""
     },
@@ -26548,7 +26756,7 @@
       "no": 9114091,
       "kr": "구원자, 전리품이 가득 찼어~ 빨리 챙기자구.",
       "en": "Savior, your loot is full! Collect it now.",
-      "ja": "",
+      "ja": "救世主…戦利品がいっぱいになったみたいだよ～早く確認して。",
       "zh_tw": "救援者，戰利品多到滿出來了～快點拿走。",
       "zh_cn": ""
     },
@@ -26556,7 +26764,7 @@
       "no": 9114092,
       "kr": "구원자, 아레나 결산 보상받는 거 잊지 않았지?",
       "en": "Savior, did you forget about your arena rewards?",
-      "ja": "",
+      "ja": "救世主、アリーナ決算報酬の受け取り、忘れないでね。",
       "zh_tw": "救援者，你沒忘記要領競技場結算獎勵吧？",
       "zh_cn": ""
     },
@@ -26564,7 +26772,7 @@
       "no": 9114093,
       "kr": "구원자, 챔피언스 아레나 유지 보상 챙겨.",
       "en": "Savior, get your Champs Arena Login Time Reward.",
-      "ja": "",
+      "ja": "救世主、チャンピオンズアリーナランク防衛報酬、ちゃんと受け取って。",
       "zh_tw": "救援者，去領冠軍競技場維持獎勵吧。",
       "zh_cn": ""
     },
@@ -26572,7 +26780,7 @@
       "no": 9114094,
       "kr": "구원자, 길드 레이드 참여할 시간이야.",
       "en": "Savior, it's time to participate in the Guild Raid.",
-      "ja": "",
+      "ja": "救世主、ギルドレイドに参加する時間だよ。",
       "zh_tw": "救援者，是時候參加公會突襲了。",
       "zh_cn": ""
     },
@@ -29604,7 +29812,7 @@
       "no": 9209068,
       "kr": "구원자가 에덴에 온지 일 년… 이곳의 모든 계절을 봤겠구나. \r\n그래도, 더 많이 알아줬음 좋겠어. 우리들을.",
       "en": "A whole year since you arrived in Eden, Savior… You've seen the full cycle of seasons, I suppose.\r\nStill, I hope you'll come to understand us more.",
-      "ja": "",
+      "ja": "救世主がエデンに来てもう1年…すべての季節を見たんだね。\r\nでも、ボクたちのことを、もっともっと知ってほしいんだ",
       "zh_tw": "救援者已經來到伊甸園一年…你已經看過這裡的四季了。\r\n但是，我還是希望你可以再多了解一點，了解我們。",
       "zh_cn": ""
     },
@@ -30220,7 +30428,7 @@
       "no": 9211068,
       "kr": "그거 아세요? \r\n시간이 1년 있으면 정말 수많은 작물을 키워낼 수 있어요.\r\n구원자님이 와주신 이후로부터 멋진 일들이 잔뜩 일어난 것처럼요!",
       "en": "Did you know?\r\r\nIn a year's time, you can grow an impressive variety of crops.\r\r\nAnd since you've come, it's as if a harvest of fantastic happenings has sprouted up!",
-      "ja": "",
+      "ja": "知っていますか？\r\n1年で本当にたくさんの作物を育てることができます。\r\n救世主さまがここに来て素敵なことがいっぱい起こったように！",
       "zh_tw": "你知道嗎？\r\r\n1年的時間真的可以栽培出無數的作物。\r\r\n就像救援者來到這裡後，發生了一籮筐帥氣的事一樣！",
       "zh_cn": ""
     },
@@ -30516,7 +30724,7 @@
       "no": 9212068,
       "kr": "널 만난 지도 벌써 1년이네. 솔직히 이제 가족 같… \r\n아니, 잠깐. 뭐야 이 낯 간지러운 분위기는! \r\n됐어. 앞으로도 잘 부탁해. 끝!",
       "en": "Wow, it's really been a whole year with you. Frankly, you're starting to feel like family…\r\r\nHold on, what's with this weird, mush vibe?!\r\r\nNever mind that. Just keep up with the good work. That's it!",
-      "ja": "",
+      "ja": "あんたに出会ってもう1年か。正直、もう家族みた…\r\nって、何や、くすぐったくなってきたやないか！\r\nもういい、これからもよろしくな！終わり！",
       "zh_tw": "已經認識你1年了，老實說現在很像家…\r\r\n不對，等一下，這讓人害羞的氣氛是怎樣！\r\r\n不管啦，以後也請多多指教，就這樣！",
       "zh_cn": ""
     },
@@ -32020,7 +32228,7 @@
       "no": 9301068,
       "kr": "구원자! 기념일 축하해! 내가 케이크를 좀 만들어 봤어… \r\n요리를 잘 안 해서 별로일 수도 있는데… 체력은 회복될걸…? 어때…?",
       "en": "Savior! Happy anniversary! I tried making a make…\r\nMy culinary skills are rather rudimentary, so the result might be lackluster… but it should restore your health… How is it…?",
-      "ja": "",
+      "ja": "救世主！記念日だね、おめでとう！ケーキを作ってみたけど…\r\n料理とかあんまりやらないから自信はないけど…体力は回復できる…と思うよ。どう…？",
       "zh_tw": "救援者！紀念日快樂！我做了點蛋糕…\r\n我不太會下廚，吃起來可能會不怎麼樣…但應該可以恢復體力…？怎麼樣…？",
       "zh_cn": ""
     },
@@ -32356,7 +32564,7 @@
       "no": 9303068,
       "kr": "네가 온 지 1년이라… 벌써 그렇게 됐나? \r\n뭐, 시간이야 많지. 앞으로도 내 아름다움을 그 눈에 잘 새겨두라고.",
       "en": "You've been here for a whole year already? I didn't realize…\r\nNo matter, there's an abundance of time ahead. Make sure you keep my beauty well etched in your eyes.",
-      "ja": "",
+      "ja": "君がここに来て1年か…もうそんなになるか。\r\nまあ、時間はたっぷりある。これからも私の美しい姿をその目に焼き付けたまえ。",
       "zh_tw": "你已經來這裡1年了…已經這麼久了嗎？\r\n嗯，時間多的是啊，你以後也要用雙眼牢牢記住我的美。",
       "zh_cn": ""
     },
@@ -32668,7 +32876,7 @@
       "no": 9304068,
       "kr": "우와~ 구원자! 에덴에 온 지 1년이나 됐네!?\r\n헤헤, 축하해! 앞으로도 나랑 우리 별님들 잘 부탁할게☆",
       "en": "Wow, Savior! You've been in Eden for a whole year!\r\r\nHeheh, congrats! Counting on you to keep taking good care of me and our little stars☆",
-      "ja": "",
+      "ja": "うわ～救世主！エデンに来てもう1年になった？\r\nへへ、おめでとう！これからも私とお星さまのこと、よろしくね☆",
       "zh_tw": "哇～救援者！你已經來伊甸園1年了耶！？\r\r\n嘿嘿，恭喜你！我跟星星以後也要拜託你囉☆",
       "zh_cn": ""
     },
@@ -32916,7 +33124,7 @@
       "no": 9305053,
       "kr": "하낫, 둘, 왕자님♡LOVE!",
       "en": "One, two, prince ♡ LOVE!",
-      "ja": "",
+      "ja": "せーの！王子さま♡LOVE！",
       "zh_tw": "一、二，王子♡LOVE！",
       "zh_cn": ""
     },
@@ -33276,7 +33484,7 @@
       "no": 9306068,
       "kr": "구원자님이 에덴에 오신 지 벌써 1년이 되었사와요.\r\n앞으로도 유리아 님과 구원자님을 지키기 위해 \r\n끊임없이 정진할 것을 약속드려요.",
       "en": "A year has swiftly passed since you graced Eden with your presence, Savior.\r\r\nI solemnly pledge to tirelessly continue my endeavors\r\r\nin protecting both Queen Yuria and yourself in the times to come.",
-      "ja": "",
+      "ja": "救世主様がエデンに来てもう1年になったなんて。\r\nこれからもユリア様と救世主様をお守りするために\r\n頑張りたいと思いますの。",
       "zh_tw": "救援者已經來到伊甸園1年了。\r\r\n我答應你，我以後也會不斷努力\r\r\n守護尤里婭跟救援者。",
       "zh_cn": ""
     },
@@ -33588,7 +33796,7 @@
       "no": 9307068,
       "kr": "구원자랑 만난 지 벌써 1년인가~ 그동안 이런저런 일이 있었지.\r\n앞으로도 매돌이랑 날 잘 부탁할게?",
       "en": "Wow, a whole year with you already. We've seen quite a bit together, haven't we, Savior?\r\nMaedori and I look forward to more good times.",
-      "ja": "",
+      "ja": "救世主に会ってもう1年か～本当にいろいろあったね。\r\nこれからもタカくんと私のこと、よろしく頼むよ！",
       "zh_tw": "已經認識救援者1年了嗎～這段時間真的發生了很多事。\r\n我跟小梅以後也要拜託你囉！",
       "zh_cn": ""
     },
@@ -33892,7 +34100,7 @@
       "no": 9308068,
       "kr": "정령들의 구원자가 에덴에 강림한 지도 이제 1년…\r\n뭐, 어찌 보면 겨우 1년이라고 볼 수도 있겠네. \r\n앞으로가 기대되는걸?",
       "en": "It's been a year now since the Savior of the Souls descended upon Eden…\r\nOne might say it's but a mere year in the grand scheme of things.\r\nLooking forward to what the future holds.",
-      "ja": "",
+      "ja": "精霊たちの救世主がエデンに降臨してもう1年…\r\nまあ、「たった」1年と言ったほうがいいかしら。\r\nこれからが楽しみだからね。",
       "zh_tw": "精靈們的救援者現在也降臨到伊甸園1年了…\r\n嗯，某種層面上，也可以說是只有1年。\r\n我很期待未來哦！",
       "zh_cn": ""
     },
@@ -34204,7 +34412,7 @@
       "no": 9309068,
       "kr": "구원자가 온지 벌써 1년이라~ 순식간이었지? \r\n앞으로도 함께 에덴을 구해보자고. 힘들 땐 꼭 말하기다?",
       "en": "Can you believe it, Savior? A whole year zipped by just like that.\r\r\nWe're gonna keep saving Eden, right? Shout out if you're feelin' the grind, yeah?",
-      "ja": "",
+      "ja": "救世主がエデンに来てもう1年か～あっという間だったね。\r\nこれからも一緒にエデンのために頑張ろう。困ったときはいつでも相談して。",
       "zh_tw": "救援者已經來1年了～一眨眼就過了吧？\r\r\n以後也要一起拯救伊甸園，累的時候一定要告訴我哦！",
       "zh_cn": ""
     },
@@ -34500,7 +34708,7 @@
       "no": 9310068,
       "kr": "엥?! 구원자님이 오신 지 벌써 1년이 됐다구요?! 와… \r\n지금 여기서 뭐 하시는 거예요. 당장 축제를 벌이자구요! \r\n구원자님, 오늘 밤은 절대 주무실 생각 하지 마세요!",
       "en": "Huh?! It's been a whole year since you came here, Savior?! Whoa…\r\r\nWhat are you doing here? We should celebrate!\r\r\nSavior, don't you even think about sleeping tonight!",
-      "ja": "",
+      "ja": "えっ？救世主さまがここに来てもう1年？わあ…\r\nここで何やってるんですか！早くお祝いしないと！\r\n今夜は絶対に寝かせませんよ！",
       "zh_tw": "咦？！救援者已經來1年了？！哇…\r\r\n你還在這裡幹嘛？趕快去辦慶典啊！\r\r\n救援者，你今晚不用睡了！",
       "zh_cn": ""
     },
@@ -34812,7 +35020,7 @@
       "no": 9311068,
       "kr": "구원자님… 에덴에 온 지도 1년이 되었네…\r\n그동안 꾼 꿈들은… 만족스러웠겠지…? \r\n계속… 좋은 꿈으로 인도해 줄게….",
       "en": "Savior… One year you've graced Eden with your presence…\r\nThe dreams you've had in the meantime…were they pleasing…?\r\nI'll continue…to guide you to finer dreams…",
-      "ja": "",
+      "ja": "救世主さま…エデンに来てもう1年になったね…\r\n今まで見た夢は…満足だった…？\r\nずっと…甘い夢へと誘ってあげる…",
       "zh_tw": "救援者…也來到伊甸園1年了…\r\n你應該很滿意…這段時間做的夢吧…？\r\n我會…繼續引領你到美好夢境的…",
       "zh_cn": ""
     },
@@ -35420,7 +35628,7 @@
       "no": 9313068,
       "kr": "구원자님이 에덴에 오신 지도 벌써 1년이 되었네요♪\r\n앞으로도 잘 부탁드립니다! \r\n물론 저도 더 열심히 구원자님을 지켜드릴게요!",
       "en": "A year has flown by since your arrival in Eden, dear Savior♪\r\r\nLooking forward to more wonderful years!\r\r\nOf course, I'll also work harder to protect you, Savior!",
-      "ja": "",
+      "ja": "救世主様がエデンに来てもう1年になりましたね♪\r\nこれからもよろしくお願いします！\r\nもちろん、わたしもこれまで以上に救世主様をお守りします！",
       "zh_tw": "救援者已經來到伊甸園1年了♪\r\r\n以後也請多多指教！\r\r\n當然，我也會更努力守護救援者！",
       "zh_cn": ""
     },
@@ -36377,6 +36585,302 @@
       "zh_cn": ""
     },
     {
+      "no": 9317001,
+      "kr": "안녕, 구원자. 수고가 많네?",
+      "en": "Hello, Savior. Keep up the good work.",
+      "ja": "",
+      "zh_tw": "嗨，救援者，辛苦你了耶！",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317002,
+      "kr": "해피 뉴 이어, 구원자.",
+      "en": "Happy New Year, Savior.",
+      "ja": "",
+      "zh_tw": "新年快樂，救援者。",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317003,
+      "kr": "사랑의 날이네. \r\n어떤 신상이 나왔으려나~",
+      "en": "It's Love Day.\r\nI wonder what new products are out this year.",
+      "ja": "",
+      "zh_tw": "戀愛之日到了，\r\n有出什麼新品呢～",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317004,
+      "kr": "휴, 오늘도 덥다. 그치?",
+      "en": "Phew, it's hot today, isn't it?",
+      "ja": "",
+      "zh_tw": "呼，今天也好熱哦，對吧？",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317005,
+      "kr": "해피 할로윈, 구원자! \r\n사탕 줄까?",
+      "en": "Happy Halloween, Savior!\r\nWant some candy?",
+      "ja": "",
+      "zh_tw": "萬聖節快樂，救援者！\r\n要給你糖果嗎？",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317006,
+      "kr": "흐흥. 연말이네. \r\n뭐 계획 있어?",
+      "en": "Hm, it's the end of the year.\r\nAny plans?",
+      "ja": "",
+      "zh_tw": "哼哼，年底到了，\r\n你有什麼計畫嗎？",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317007,
+      "kr": "이제 완전히 봄이구만~ \r\n꽃 예쁘다. 그치?",
+      "en": "It's officially spring now.\r\nThe flowers are beautiful, aren't they?",
+      "ja": "",
+      "zh_tw": "春天真的到了～\r\n花朵好漂亮，對吧？",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317011,
+      "kr": "벌써 또 이 시기가 됐네. \r\n그럼 내년에도 잘 부탁할게. \r\n가능하다면 그 다음 해랑, 다다음 해도. ",
+      "en": "It's that time of year again already.\r\nI hope we can count on each other next year,\r\nand the year after that— even the year after that, too. ",
+      "ja": "",
+      "zh_tw": "這麼快又到這個時候了呢，\r\n明年也請你多多指教。\r\n可以的話，後年、大後年也拜託了。",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317012,
+      "kr": "사랑의 날에는 신상품이 많이 나와서 신이 난단 말이지. \r\n맛있어 보이는 거 있으면 너한테도 선물해 줄게, 구원자. \r\n…따, 딱히 뭐, 다른 의미는 없다?",
+      "en": "Love Day always has lots of new products, it gets me excited.\r\nIf I find something tasty, I'll get you one too, Savior.\r\n... N-not that it means anything special.",
+      "ja": "",
+      "zh_tw": "戀愛之日時會推出很多新品，所以我很興奮。\r\n如果有看起來很好吃的，我也會送給你，救援者。\r\n…我、我沒什麼別的意思哦！",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317013,
+      "kr": "여름 휴가철에는 정작 이것도 해야지, 저것도 해야지 싶은데 \r\n막상 쉬다 보면 아무것도 못하고 지나가기도 한단 말이지. \r\n올해는 바다에라도 가볼까…?",
+      "en": "There are so many things I want to do during the summer holidays,\r\nbut when I finally get the time off, I end up doing nothing.\r\nMaybe this year, I'll go to the sea...",
+      "ja": "",
+      "zh_tw": "暑假的時候會想做這個做那個，\r\n但真的休息下來，什麼都沒做就結束了。\r\n今年要不要去個海邊…？",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317014,
+      "kr": "기억의 날에는 이상하게 감상적이게 된단 말이지. \r\n떠나간 녀석들에 대해 생각해봤자 뭐하냐는 애들도 있지만, \r\n오히려 내 곁을 떠났기에 더 생각이 나는 걸지도 모르겠네.",
+      "en": "I get strangely sentimental on Memory Day.\r\nSome say it's a waste of time to think about the departed,\r\nbut maybe I think about them more because they're gone.",
+      "ja": "",
+      "zh_tw": "記憶之日時莫名會變得多愁善感。\r\n雖然有人覺得想念離去的傢伙們沒有意義，\r\n但也許是因為他們離開我的身邊，反而才會更加想念。",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317015,
+      "kr": "올해 이브 데이에는 뭐 해, 구원자? \r\n아직 선약 안 잡혔으면 우리랑 놀러 갈래? \r\n회사 애들하고 같이 파티하기로 했거든.",
+      "en": "What are you doing for Eve's Day this year, Savior?\r\nIf you don't already have plans, do you want to come hang out with us?\r\nI'm having a party with the guys from work.",
+      "ja": "",
+      "zh_tw": "今年夏娃之日要做什麼？救援者？\r\n如果還沒有約，要不要跟我們去玩？\r\n我跟同事們說好要一起辦派對。",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317016,
+      "kr": "이상하게 이 시기가 되면 안하던 짓을 하고 싶어진다? \r\n난 요리같은 거 별로 안 좋아하는데, 괜히 도시락을 싸보고 싶다던가. \r\n만들면 먹어 줄래?",
+      "en": "It's weird, this time of year makes me want to do things I don't normally do.\r\nI don't really like to cook or anything, but I feel like packing a lunch.\r\nIf I make it, will you eat it?",
+      "ja": "",
+      "zh_tw": "很奇怪，只要到了這個時期，就會想做一些平常不會做的事。\r\n像是我明明不怎麼喜歡料理，卻莫名其妙地想做便當。\r\n做好的話，你要幫我吃嗎？",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317021,
+      "kr": "사실 이 차림을 하는 건 그렇게 좋아하진 않아. \r\n있는 그대로의 실력을 발휘하면 그만큼 대가가 따르긴 하거든. ",
+      "en": "I don't really like dressing up like this,\r\nbut I guess being yourself comes at a price. ",
+      "ja": "",
+      "zh_tw": "其實我不怎麼喜歡穿這身打扮。\r\n但要發揮百分之百的實力，就得付出相對的代價。",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317022,
+      "kr": "청소와 정리정돈은 해도해도 끝이 없다니깐. \r\n정말로 말이지...",
+      "en": "I can never get enough of cleaning\r\nand organizing, I swear.",
+      "ja": "",
+      "zh_tw": "打掃跟整理真的是做都做不完。\r\n我是說真的…",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317023,
+      "kr": "사실, 무기의 분해랑 조립을 엄청 빨리 할 수 있어. \r\n원래 쓰던 총은 12초 컷이라구. \r\n언제 한 번 보여줄까?",
+      "en": "I can disassemble and reassemble a weapon really fast.\r\nI can do my old gun in 12 seconds.\r\nWant to watch me do it sometime?",
+      "ja": "",
+      "zh_tw": "其實，我可以超快速地分解跟組裝武器。\r\n本來在用的槍需要12秒。\r\n改天要不要讓你看一下？",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317024,
+      "kr": "칸나는 후배이기도 하고, 부하기도 해. \r\n가끔 골때리는 말을 해서 가슴을 철렁하게도 하지만… \r\n그래도 도움이 되는 애야. 많이 기대하고 있어. \r\n칸나한테는 비밀이다?",
+      "en": "Kanna is a junior and a subordinate to me.\r\nSometimes she says things that make me cringe,\r\nbut she's very helpful. I'm counting on her—a lot.\r\nBut don't tell her that.",
+      "ja": "",
+      "zh_tw": "坎納不只是我的後輩，還是我的部下。\r\n雖然她偶爾會說出荒唐的話，嚇得我心驚膽跳…\r\n但她還是個能幫上忙的孩子，我對她期望很高。\r\n這件事要對坎納保密哦！",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317031,
+      "kr": "구원자~ 잘 거면 침대에 누워서 제대로 자.",
+      "en": "Savior, if you're going to sleep, get in bed and sleep properly.",
+      "ja": "",
+      "zh_tw": "救援者～要睡覺的話，就躺去床上好好睡。",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317041,
+      "kr": "첩보니, 암살이니… 그런 거 잘 해봤자 뭐가 자랑이겠어? \r\n그런 것보다는 좀 더 다른 일을 잘하고 싶네. \r\n교섭이나 관리 업무 같은 거 말이야.",
+      "en": "Spying. Assassination. There's nothing to be proud of if you're good at those things.\r\nI'd rather be good at something else.\r\nNegotiations, management, that sort of thing.",
+      "ja": "",
+      "zh_tw": "間諜、暗殺什麼的…擅長那種事有什麼好驕傲的？\r\n比起那種事，我更想要擅長其他工作。\r\n像是談判或是管理職之類的。",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317042,
+      "kr": "사실 구원자 네가 나에 대해 알고 나면 \r\n좀 더 거리를 두거나 하지 않으려나 싶었는데… \r\n너는 예나 지금이나 똑같구나? ",
+      "en": "To tell you the truth, I thought you'd keep your distance or avoid me\r\nonce you found out about me,\r\nbut you're the same as before. ",
+      "ja": "",
+      "zh_tw": "其實我以為救援者進一步了解我，\r\n就會想和我保持距離…\r\n但你不管是以前還是現在，都始終如一耶？",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317043,
+      "kr": "…먼 옛날엔, 정말 아무것도 느끼고 싶지 않았어. \r\n지금은 달라. 너희와 함께 살아가는 것. \r\n모두와 함께하는 미래. 그게 바로 내가 바라는 거야.",
+      "en": "... A long time ago, I didn't really want to feel anything.\r\nIt's different now. Living with you,\r\na future with all of you. That's what I want.",
+      "ja": "",
+      "zh_tw": "…很久以前，我真的什麼都不想感受。\r\n現在不一樣了，和你們一起生活下去、\r\n和大家共度未來，那就是我想要的。",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317051,
+      "kr": "실은 총보다 나이프를 더 잘 다룬다고. 어때?",
+      "en": "I'm actually better with a knife than a gun. How's that?",
+      "ja": "",
+      "zh_tw": "其實比起槍，我更擅長揮刀，怎麼樣？",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317052,
+      "kr": "…깜짝이야! \r\n아, 구원자. 너였구나?",
+      "en": "... Wah—geez!\r\nOh, Savior, it's you.",
+      "ja": "",
+      "zh_tw": "…嚇我一跳！\r\n啊，救援者，原來是你？",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317053,
+      "kr": "뭐야. 내가 그렇게 좋아?",
+      "en": "What, you like me so much?",
+      "ja": "",
+      "zh_tw": "什麼嘛，你那麼喜歡我？",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317061,
+      "kr": "구원자. 연락사항은 제때제때 확인해~",
+      "en": "Savior, make sure you check your messages on time.",
+      "ja": "",
+      "zh_tw": "救援者，要按時確認通知～",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317062,
+      "kr": "오~ 퀘스트가 벌써 끝났다고? \r\n멋진데?",
+      "en": "Oh, you've completed the quest already?\r\nGood job!",
+      "ja": "",
+      "zh_tw": "哦～這麼快就完成任務了？\r\n很帥嘛？",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317063,
+      "kr": "전리품이 잔뜩 쌓인 거 같네. \r\n확인 안해도 괜찮겠어?",
+      "en": "Looks like you've got a lot of loot.\r\nWhy don't you check it out?",
+      "ja": "",
+      "zh_tw": "好像積滿了戰利品，\r\n不用去確認沒關係嗎？",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317064,
+      "kr": "강해질 수 있는 정령들이 보이네. \r\n어디 한번 구경이나 좀 해볼까?",
+      "en": "I see some Souls here who could become stronger.\r\nWhy don't you go check them out?",
+      "ja": "",
+      "zh_tw": "看起來有精靈可以變更強大，\r\n要不要去看一眼？",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317065,
+      "kr": "영지에 또 뭔가 일이 있는 거 같네. \r\n그럼 구경하러 가볼까요, 영주님~?",
+      "en": "Looks like there's something else going on in town.\r\nShall we go take a look, my lord?",
+      "ja": "",
+      "zh_tw": "領地好像又發生什麼事了。\r\n那要不要去看看，領主～？",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317066,
+      "kr": "오늘 생일이라며? 축하해. \r\n조만간 미리암 씨가 거하게 한 턱 쏠테니까 기대하라구~",
+      "en": "It's your birthday today, right? Happy birthday.\r\nI'll treat you to something big soon, so look forward to it.",
+      "ja": "",
+      "zh_tw": "聽說你今天生日？生日快樂。\r\n之後米里昂會大手筆請你大吃一對的，敬請期待～",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317067,
+      "kr": "오늘은 내 생일이야. \r\n고맙게도 다들 많이 축하해 줬지 뭐야. 파티도 한다더라. \r\n…괜찮으면 너도 같이 어때, 구원자? \r\n네가 와주면 정말 기쁠 거 같아.",
+      "en": "It's my birthday today.\r\nEveryone's been really kind and wished me well. There's even going to be a party.\r\n... If you're free, why not join us, Savior?\r\nI'd be really happy if you came.",
+      "ja": "",
+      "zh_tw": "今天是我生日。\r\n很感激的是許多人都有給我生日祝福，還辦了派對呢。\r\n…方便的話，你要不要也一起參加，救援者？\r\n你來的話，我真的會很高興。",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317070,
+      "kr": "구원자, 네가 벌써 에덴에 온지 3년이 지났다니... \r\n시간 가는거 참 빠르다. 그치? \r\n이러다가 너랑 알고 지낸지 금방 10년 되겠어. \r\n그때쯤 되면 너도 지금과 많이 달라지려나?...하핫.",
+      "en": "Savior, I can't believe it's already been three years since you came to Eden.\r\nTime flies, doesn't it?\r\nBefore I know it, I'll have known you for ten years.\r\nWill you be much different than you are now by then? Haha.",
+      "ja": "",
+      "zh_tw": "救援者，你竟然已經來到伊甸園3年了…\r\n時光飛逝，對吧？\r\n照這樣下去，很快就要跟你認識10年了。\r\n到時候，你會變得跟現在很不一樣嗎？…哈哈。",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317071,
+      "kr": "벌써 올해도 구원자 강림 축제 시기가 왔구나? \r\n여러모로 고생이 많겠지만 이 기간만큼은 너를 위한 기간이니까 \r\n푹 쉬면서 제대로 즐기자구♪",
+      "en": "It's already time for the Savior's Advent Festival again this year.\r\nI know you're going through a lot, but this time is for you.\r\nLet's make the most of it ♪",
+      "ja": "",
+      "zh_tw": "這麼快又到了今年救援者降臨慶典的時候啊？\r\n你在各方面都很辛苦，但這段時間是為你準備的，\r\n你要好好休息、盡情享受♪",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317091,
+      "kr": "구원자~ 전리품 쌓였어. 빨리 안 보면 가져가 버린다?",
+      "en": "Savior, the loot is piling up. If you don't grab it soon, I'll take it away.",
+      "ja": "",
+      "zh_tw": "救援者～戰利品積滿了，不趕快去看的話，我要拿走囉？",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317092,
+      "kr": "아레나 결산 보상이 도착했네, 구원자. 수고 많았어.",
+      "en": "Your Arena evaluation reward is here. Good job, Savior.",
+      "ja": "",
+      "zh_tw": "競技場結算獎勵到了，救援者，辛苦了。",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317093,
+      "kr": "챔피언스 아레나 결산 보상이 왔네. 얼른 받아가자!",
+      "en": "Your Champs Arena evaluation reward has arrived. Let's go get it!",
+      "ja": "",
+      "zh_tw": "冠軍競技場結算獎勵來了，快點去領吧！",
+      "zh_cn": ""
+    },
+    {
+      "no": 9317094,
+      "kr": "길드 레이드 … 실력 발휘 좀 해볼까, 구원자?",
+      "en": "The Guild Raid... Time to show what you've got!",
+      "ja": "",
+      "zh_tw": "公會突襲…要不要發揮一下實力，救援者？",
+      "zh_cn": ""
+    },
+    {
       "no": 9399901,
       "kr": "방해하지 마라.",
       "en": "Do not dare to interrupt.",
@@ -36684,7 +37188,7 @@
       "no": 9401068,
       "kr": "귀염둥이, 우리가 만난 지도 벌써 일 년이 됐네.\r\n특별한 상을 주고 싶은데… 어떻게 생각해?",
       "en": "Cutie, a year with you has flown by in the blink of an eye.\r\nI feel like giving you a special prize… Does it pique your interest?",
-      "ja": "",
+      "ja": "カワイ子ちゃん、私たちが出会ってもう1年になったわね。\r\n特別なご褒美をあげたいけど…どう？",
       "zh_tw": "小可愛，我們也已經認識一年了。\r\n我想給你特別的獎勵…你覺得怎麼樣？",
       "zh_cn": ""
     },
@@ -37292,7 +37796,7 @@
       "no": 9403068,
       "kr": "응? 기념일? …꼴랑 1년을 기념하는 거야?\r\n참나… 귀여운 녀석들. 그래그래, 축하한다 구원자야~",
       "en": "Eh? Anniversary? …You're making a fuss over a mere year?\r\r\nLordy… How adorable. Well then, cheers to you, Savior!",
-      "ja": "",
+      "ja": "え？記念日？1年しか経ってないのに？\r\nまったく…カワイイね。分かった。おめでとう、救世主～",
       "zh_tw": "嗯？紀念日？…就為了紀念那短短的1年？\r\r\n真是的…可愛的傢伙們。好啦，恭喜你哦，救援者～",
       "zh_cn": ""
     },
@@ -37596,7 +38100,7 @@
       "no": 9404068,
       "kr": "야 구원자! 너 에덴에 온 지 1년 됐다며? \r\n그럼 이 주변은 다 꿰고 있겠네? \r\n얼른 안내나 해줘! 브라이스랑 놀러 다니게!",
       "en": "Oi, Savior! A whole year in Eden for you, yeah?\r\nSo you know every nook and cranny here, right?\r\nCome on, give us a tour! We wanna hit the spots with Bryce!",
-      "ja": "",
+      "ja": "救世主！エデンに来て1年が経ったって？\r\nじゃ、この辺りは詳しいはずだよな。\r\n早く案内して！ブライスと一緒に遊びたいから！",
       "zh_tw": "喂，救援者！聽說你來到伊甸園1年了？\r\n那你一定很熟悉這一帶！\r\n快點帶我參觀！好讓我跟布萊斯到處去玩！",
       "zh_cn": ""
     },
@@ -38188,7 +38692,7 @@
       "no": 9406068,
       "kr": "짜자자잔! 오늘은 바로! 구원자가 에덴에 온 지 1년이 된 날! \r\n여기 와줘서, 나와 만나줘서 고마워, 구원자! 항상 좋아해♥",
       "en": "Voilà! Today is the day! A year since you arrived in Eden!\r\nMerci for coming here and being with me, Savior! J'adore you always♥",
-      "ja": "",
+      "ja": "じゃじゃーん！今日は救世主くんがエデンに来て1年になる日！\r\nここに来てくれて、わたしに出会ってくれてありがとう、救世主くん！いつも大好きだよ♥",
       "zh_tw": "鏘鏘鏘鏘！今天就是！救援者來到伊甸園滿1年的日子！\r\n謝謝你來到這裡、跟我見面，救援者！一 直都很喜歡你♥",
       "zh_cn": ""
     },
@@ -38484,7 +38988,7 @@
       "no": 9407068,
       "kr": "벌써 구원자님이 오신 지 1년이 되었습니다. 감개무량하군요.\r\n앞으로도 계속해서 구원자님을 보조하겠습니다.",
       "en": "Marking one year of your presence here, Savior. I am immensely moved.\r\nI shall continue to offer support and assistance to you.",
-      "ja": "",
+      "ja": "救世主様がここに来てもう1年が経ちました。感無量です。\r\nこれからも、変わらず救世主様をお支えいたします。",
       "zh_tw": "救援者已經來這裡1年了，真是感慨萬千。\r\n我以後會持續輔助救援者的。",
       "zh_cn": ""
     },
@@ -38788,7 +39292,7 @@
       "no": 9408068,
       "kr": "즐거운 1주년 기념일. 그대로 헤실헤실 웃고 있어봐. \r\n내가 그 파티를 망칠게.",
       "en": "Oh, do enjoy your 1st anniversary celebration. Keep up that ridiculously sanguine grin.\r\r\nI'll be sure to ruin the party.",
-      "ja": "",
+      "ja": "楽しい1周年の記念日。そう、そのままへらへら笑っていて。\r\n私がそのパーティーをめちゃくちゃにするから。",
       "zh_tw": "開心的1週年紀念日，繼續傻呼呼地笑著吧。\r\r\n我會破壞那個派對的。",
       "zh_cn": ""
     },
@@ -39092,7 +39596,7 @@
       "no": 9409068,
       "kr": "구원자님, 벌써 온 지 1년인데 이제 슬슬 적응했을까? \r\n언젠가는 돌아가야겠지만… 돌아가서도 날 잊지 못하게 잘해줄게! 히힛.",
       "en": "Savior, are you getting the hang of things here now that you've been here for a year?\r\nSomeday you'll go back, but…I'll make sure you won't forget me even when you do! Teehee.",
-      "ja": "",
+      "ja": "救世主、ここに来てもう1年が経つけど、そろそろ慣れた？\r\nいつかは戻る運命だけど…戻っても私のこと、忘れられないように頑張る！ひひっ！",
       "zh_tw": "救援者，你已經來這裡1年了，現在差不多適應了嗎？\r\n雖然你總有一天要回去…但我會讓你回去也忘不了我的！嘻嘻。",
       "zh_cn": ""
     },
@@ -39396,7 +39900,7 @@
       "no": 9410068,
       "kr": "구원자님. 일 년 동안 함께 해줘서 고마워. \r\n덕분에 이런 훌륭한 어른으로 자랐습니다… 앞으로도 잘 부탁해요… \r\n…감동했으면 울어도 돼.",
       "en": "Savior, thanks for being with me for a year.\r\nThanks to you, I've grown into such a fine adult… Stick around for more growth spurts…\r\nIf you're touched, feel free to cry as much as you want.",
-      "ja": "",
+      "ja": "救世主、1年間一緒にいてくれてありがとう。\r\nおかげで立派な大人になれました…これからもよろしくお願いします…\r\n…感動したなら泣いてもいいよ。",
       "zh_tw": "救援者，謝謝你陪我共度這一年。\r\n多虧了你，我才能長成這麼優秀的大人…以後也請多多指教…\r\n…你很感動的話，可以哭沒關係。",
       "zh_cn": ""
     },
@@ -39708,7 +40212,7 @@
       "no": 9411068,
       "kr": "오늘 구원자님이 에덴에 온지 1년째 된다면서? \r\n뭐… 앞으로도 잘해보던가. …잘하겠지, 뭐.",
       "en": "Today marks your first year here in Eden, I heard.\r\nGuess we'll just have to keep muddling through… I'm sure you'll do fine…",
-      "ja": "",
+      "ja": "今日は救世主さんがエデンに来て1年になる日だと聞いたけど？\r\nまあ…せいぜい頑張って。…よくやってくれるよね。",
       "zh_tw": "聽說今天救援者來到伊甸園就滿1年了？\r\n嗯…以後也要好好表現啊…應該會吧。",
       "zh_cn": ""
     },
@@ -41196,7 +41700,7 @@
       "no": 9501068,
       "kr": "정령에게 있어서 1년은 사실 그렇게 긴 시간이 아니랍니다.\r\n하지만 구원자님과 함께한 1년은… 무척 알찬 시간이었어요.",
       "en": "For a Soul, a year is merely a brief passage in the continuum of eternity.\r\r\nNonetheless, the time I've been graced with your presence, dear Savior…has been immensely fulfilling.",
-      "ja": "",
+      "ja": "精霊にとって1年はあまり長い時間ではありません。\r\nでも、救世主様と過ごした1年は…とても充実した時間だったのです。",
       "zh_tw": "其實對精靈來說，1年並不是那麼長的時間。\r\r\n但是跟救援者共度的1年…是非常充實的時光。",
       "zh_cn": ""
     },
@@ -41500,7 +42004,7 @@
       "no": 9502068,
       "kr": "구원자~! 우리 함께 정의를 지켜나간 지 1년이 됐어!\r\n앞으로도 같이 힘내보자! \r\n네 곁은 언제나 내가 지켜줄 테니까!",
       "en": "Savior! We've been upholding justice together for a year now!\r\r\nLet's keep our spirits high and continue on!\r\r\nYou can count on me to always have your back!",
-      "ja": "",
+      "ja": "救世主～！私たちが正義を守ってもう1年になった！\r\nこれからも頑張ろうね！\r\n君のそばでいつも君を守ってあげるから！",
       "zh_tw": "救援者~！我們已經一起守護正義1年了！\r\r\n以後也要一起加油！\r\r\n我會永遠守在你身邊！",
       "zh_cn": ""
     },
@@ -42724,7 +43228,7 @@
       "no": 9602068,
       "kr": "네가 이곳에 온 지도 벌써 1년이 지났구나.\r\n'구원'이라는 무거운 운명에 짓눌리지 않고 너만의 길을 걸어가는 모습… \r\n멋져. 앞으로도 잘 부탁해.",
       "en": "It's already been a year since you came here.\r\r\nWatching you navigate your own course without being overwhelmed by the grave duty of salvation…\r\r\nIt's inspiring. I look forward to seeing you continue on with your journey.",
-      "ja": "",
+      "ja": "あなたがここに来てもう1年になったなんて。\r\n「救い」という重い運命に押しつぶされることなく、あなただけの道を歩むその姿…\r\n素敵だよ。これからもよろしくね。",
       "zh_tw": "原來你也已經來到這裡1年了。\r\r\n沒有被所謂「救援」的沉重命運壓垮，只走在屬於自己的路上…\r\r\n很帥氣，以後也拜託你了。",
       "zh_cn": ""
     },
@@ -43036,7 +43540,7 @@
       "no": 9603068,
       "kr": "구원자님과 여러 날의 계절을 보낸 지도 1년이 흘렀군요.\r\n여태 모셨던 것처럼, 앞으로도 계속 소녀가 곁에 있겠사옵니다.",
       "en": "Verily, a full year has elapsed since I have had the honor of observing the seasons in your company.\r\r\nAs ever, I shall persist in my humble attendance by your side.",
-      "ja": "",
+      "ja": "救世主様とめぐる季節を一緒に過ごすうちに1年が経ちました。\r\n今までのように、これからもわたくしがそばでお供いたします。",
       "zh_tw": "原來也已經跟救援者度過1年的各種季節了。\r\r\n小女子會像以往那樣，繼續待在你的身邊。",
       "zh_cn": ""
     },

@@ -11,6 +11,7 @@ table Deserialization {
     condition_id1: int32;
     condition_id2: int32;
     condition_id3: int32;
+    condition_id4: int32;
     move_effect_key: int32;
     fx_path: string;
     penetration: int32;
