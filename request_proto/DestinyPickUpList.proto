@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package ReqPb;
+
+message DestinyPickUpList {
+  repeated int32 pickUpHeroNoList = 1;
+}
+

@@ -7,7 +7,7 @@ import sys
 from collections import defaultdict
 import argparse
 
-def parse_cs_file(file_path):
+def parse_cs_file(proto_type, file_path):
     """解析C#文件，提取消息类型定义
     
     Args:
@@ -20,9 +20,11 @@ def parse_cs_file(file_path):
     
     with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
         content = f.read()
-    
-    # 我们只关注EsPb命名空间
-    namespace = "EsPb"
+
+    if proto_type is None:
+        namespace = "EsPb"
+    else:
+        namespace = proto_type
     
     # 分割文件内容，按照命名空间的注释进行分割
     namespace_sections = re.split(r'//\s*Namespace:\s*(\w+)', content)
@@ -222,7 +224,7 @@ def generate_proto_file(namespace, message_types, enum_types, output_file):
             
             f.write('}\n\n')
 
-def process_dump_file(file_path, output_dir=None):
+def process_dump_file(proto_type, file_path, output_dir=None):
     """处理dump.cs文件并生成相应的proto文件
     
     Args:
@@ -237,7 +239,7 @@ def process_dump_file(file_path, output_dir=None):
         os.makedirs(output_dir)
     
     # 解析CS文件
-    namespace, message_types, enum_types = parse_cs_file(file_path)
+    namespace, message_types, enum_types = parse_cs_file(proto_type, file_path)
     
     # 计数器，用于记录生成的文件数量
     generated_count = 0
@@ -286,9 +288,10 @@ def main():
     parser = argparse.ArgumentParser(description='从C#文件生成proto文件')
     parser.add_argument('input_file', help='输入的C#文件路径')
     parser.add_argument('-o', '--output_dir', help='输出目录路径', default=None)
+    parser.add_argument('-p', '--proto_type', help='proto类型', default=None)
     args = parser.parse_args()
     
-    process_dump_file(args.input_file, args.output_dir)
+    process_dump_file(args.proto_type, args.input_file, args.output_dir)
 
 if __name__ == "__main__":
     main() 

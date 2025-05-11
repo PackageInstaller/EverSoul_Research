@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package ReqPb;
+
+message Login {
+  string playerId = 1;
+  int32 type = 2;
+}
+

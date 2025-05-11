@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package ReqPb;
+
+message EventDoubleStageReddot {
+  int32 enterCnt = 1;
+}
+
