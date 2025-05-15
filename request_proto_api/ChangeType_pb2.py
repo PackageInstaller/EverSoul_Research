@@ -24,13 +24,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x43hangeType.proto\x12\x05ReqPb\",\n\nChangeType\x12\x0c\n\x04type\x18\x01 \x01(\x05\x12\x10\n\x08playerId\x18\x02 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10\x43hangeType.proto\x12\x05ReqPb\"-\n\nChangeType\x12\x1f\n\x04type\x18\x01 \x01(\x0e\x32\x11.ReqPb.eLoginType*\xb2\x01\n\neLoginType\x12\x07\n\x03\x44\x65v\x10\x00\x12\t\n\x05Kakao\x10\x01\x12\x11\n\rKakaoFacebook\x10\x02\x12\x0f\n\x0bKakaoGoogle\x10\x03\x12\x0e\n\nKakaoApple\x10\x04\x12\x0e\n\nKakaoGuest\x10\x05\x12\n\n\x06Zilong\x10\x0b\x12\x10\n\x0cZilongWechat\x10\x0c\x12\x0f\n\x0bZilongWeibo\x10\r\x12\x0c\n\x08ZilongQq\x10\x0e\x12\x0f\n\x0bZilongGuest\x10\x0f\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ChangeType_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
+  _globals['_ELOGINTYPE']._serialized_start=75
+  _globals['_ELOGINTYPE']._serialized_end=253
   _globals['_CHANGETYPE']._serialized_start=27
-  _globals['_CHANGETYPE']._serialized_end=71
+  _globals['_CHANGETYPE']._serialized_end=72
 # @@protoc_insertion_point(module_scope)

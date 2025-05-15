@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45ventDoubleStageReset.proto\x12\x05ReqPb\"+\n\x15\x45ventDoubleStageReset\x12\x12\n\ndifficulty\x18\x01 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45ventDoubleStageReset.proto\x12\x05ReqPb\"@\n\x15\x45ventDoubleStageReset\x12\x12\n\neventGroup\x18\x01 \x01(\x05\x12\x13\n\x0b\x65ventNumber\x18\x02 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,5 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EventDoubleStageReset_pb2',
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_EVENTDOUBLESTAGERESET']._serialized_start=38
-  _globals['_EVENTDOUBLESTAGERESET']._serialized_end=81
+  _globals['_EVENTDOUBLESTAGERESET']._serialized_end=102
 # @@protoc_insertion_point(module_scope)

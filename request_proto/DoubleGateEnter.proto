@@ -11,26 +11,7 @@ enum eDoubleGateStageType {
 }
 
 message DoubleGateEnter {
-  sDoubleGate doubleGate = 1;
-}
-
-message sDoubleGate {
-  eDoubleGateStageType stageType = 1;
-  int32 difficulty = 2;
-  int32 isEnter = 3;
-  int32 sweepDifficulty = 4;
-  repeated sDoubleGateRecord record = 5;
-}
-
-message sDoubleGateRecord {
-  int32 roundType = 1;
-  repeated sDoubleGateHero heroInfo = 2;
-}
-
-message sDoubleGateHero {
-  string heroIdx = 1;
-  int32 heroNo = 2;
-  int32 level = 3;
-  int32 gradeSno = 4;
+  int32 difficulty = 1;
+  eDoubleGateStageType stageType = 2;
 }
 

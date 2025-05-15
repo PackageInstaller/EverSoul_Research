@@ -3,8 +3,7 @@ syntax = "proto3";
 package ReqPb;
 
 message TownTileMultiPlace {
-  repeated sTownObjet townObjectList = 1;
-  repeated sItemEtc itemEtc = 2;
+  repeated sTownObjet placeTile = 1;
 }
 
 message sTownObjet {
@@ -13,10 +12,5 @@ message sTownObjet {
   string position = 3;
   string rotation = 4;
   int32 objetGroupNo = 5;
-}
-
-message sItemEtc {
-  int32 itemNo = 1;
-  int32 cnt = 2;
 }
 

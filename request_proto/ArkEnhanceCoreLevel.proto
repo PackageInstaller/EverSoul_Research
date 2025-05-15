@@ -3,10 +3,6 @@ syntax = "proto3";
 package ReqPb;
 
 message ArkEnhanceCoreLevel {
-  repeated sArkCore arkCore = 1;
-}
-
-message sArkCore {
   int32 coreType01 = 1;
   int32 coreType02 = 2;
   int32 coreLevel = 3;

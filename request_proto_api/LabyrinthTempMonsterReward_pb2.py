@@ -24,21 +24,13 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n LabyrinthTempMonsterReward.proto\x12\x05ReqPb\"V\n\x1aLabyrinthTempMonsterReward\x12\x38\n\x13labyrinthTempReward\x18\x01 \x01(\x0b\x32\x1b.ReqPb.sLabyrinthTempReward\"\x85\x01\n\x14sLabyrinthTempReward\x12,\n\rdungeonReward\x18\x01 \x01(\x0b\x32\x15.ReqPb.sDungeonReward\x12\x11\n\tdungeonNo\x18\x02 \x01(\x05\x12,\n\rlabyrinthItem\x18\x03 \x03(\x0b\x32\x15.ReqPb.sLabyrinthItem\"K\n\x0esDungeonReward\x12\'\n\x04type\x18\x01 \x01(\x0e\x32\x19.ReqPb.eDungeonRewardType\x12\x10\n\x08rewardNo\x18\x02 \x01(\x05\"-\n\x0esLabyrinthItem\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\x0b\n\x03\x63nt\x18\x02 \x01(\x05*\\\n\x12\x65\x44ungeonRewardType\x12\x15\n\x11NoneDungeonReward\x10\x00\x12\x0b\n\x07Mission\x10\x01\x12\n\n\x06Object\x10\x02\x12\x0b\n\x07Monster\x10\x03\x12\t\n\x05\x43hest\x10\x04\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n LabyrinthTempMonsterReward.proto\x12\x05ReqPb\"n\n\x1aLabyrinthTempMonsterReward\x12\x11\n\tdungeonId\x18\x01 \x01(\x05\x12\x12\n\nmonsterUid\x18\x02 \x01(\x05\x12\x14\n\x0clevelGroupNo\x18\x03 \x01(\x05\x12\x13\n\x0bmonsterType\x18\x04 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LabyrinthTempMonsterReward_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_EDUNGEONREWARDTYPE']._serialized_start=391
-  _globals['_EDUNGEONREWARDTYPE']._serialized_end=483
   _globals['_LABYRINTHTEMPMONSTERREWARD']._serialized_start=43
-  _globals['_LABYRINTHTEMPMONSTERREWARD']._serialized_end=129
-  _globals['_SLABYRINTHTEMPREWARD']._serialized_start=132
-  _globals['_SLABYRINTHTEMPREWARD']._serialized_end=265
-  _globals['_SDUNGEONREWARD']._serialized_start=267
-  _globals['_SDUNGEONREWARD']._serialized_end=342
-  _globals['_SLABYRINTHITEM']._serialized_start=344
-  _globals['_SLABYRINTHITEM']._serialized_end=389
+  _globals['_LABYRINTHTEMPMONSTERREWARD']._serialized_end=153
 # @@protoc_insertion_point(module_scope)

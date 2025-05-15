@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n SetEverTalkMemorialPicture.proto\x12\x05ReqPb\"^\n\x1aSetEverTalkMemorialPicture\x12@\n\x17\x65verTalkMemorialPicture\x18\x01 \x01(\x0b\x32\x1f.ReqPb.sEverTalkMemorialPicture\"C\n\x18sEverTalkMemorialPicture\x12\x0e\n\x06talkNo\x18\x01 \x01(\x05\x12\x17\n\x0fmemorialMessage\x18\x02 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n SetEverTalkMemorialPicture.proto\x12\x05ReqPb\"E\n\x1aSetEverTalkMemorialPicture\x12\x0e\n\x06talkNo\x18\x01 \x01(\x05\x12\x17\n\x0fmemorialMessage\x18\x02 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetEverTalkMemorialPicture_
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_SETEVERTALKMEMORIALPICTURE']._serialized_start=43
-  _globals['_SETEVERTALKMEMORIALPICTURE']._serialized_end=137
-  _globals['_SEVERTALKMEMORIALPICTURE']._serialized_start=139
-  _globals['_SEVERTALKMEMORIALPICTURE']._serialized_end=206
+  _globals['_SETEVERTALKMEMORIALPICTURE']._serialized_end=112
 # @@protoc_insertion_point(module_scope)

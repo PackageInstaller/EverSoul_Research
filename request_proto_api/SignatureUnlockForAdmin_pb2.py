@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSignatureUnlockForAdmin.proto\x12\x05ReqPb\"G\n\x17SignatureUnlockForAdmin\x12,\n\ritemSignature\x18\x01 \x01(\x0b\x32\x15.ReqPb.sItemSignature\">\n\x0esItemSignature\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\r\n\x05grade\x18\x02 \x01(\x05\x12\r\n\x05level\x18\x03 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dSignatureUnlockForAdmin.proto\x12\x05ReqPb\"%\n\x17SignatureUnlockForAdmin\x12\n\n\x02no\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SignatureUnlockForAdmin_pb2
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_SIGNATUREUNLOCKFORADMIN']._serialized_start=40
-  _globals['_SIGNATUREUNLOCKFORADMIN']._serialized_end=111
-  _globals['_SITEMSIGNATURE']._serialized_start=113
-  _globals['_SITEMSIGNATURE']._serialized_end=175
+  _globals['_SIGNATUREUNLOCKFORADMIN']._serialized_end=77
 # @@protoc_insertion_point(module_scope)

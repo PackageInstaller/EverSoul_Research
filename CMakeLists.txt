@@ -15,8 +15,8 @@ find_package(nlohmann_json REQUIRED CONFIG)
 find_package(ZLIB REQUIRED)
 
 add_executable(eversoul
-    main.cpp
-    utils.cpp
+    source/main.cpp
+    source/utils.cpp
 )
 
 target_link_libraries(eversoul

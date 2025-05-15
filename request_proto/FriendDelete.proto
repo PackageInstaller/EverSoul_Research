@@ -3,6 +3,6 @@ syntax = "proto3";
 package ReqPb;
 
 message FriendDelete {
-  string friendDelete_ = 1;
+  string responseUserIdx = 1;
 }
 

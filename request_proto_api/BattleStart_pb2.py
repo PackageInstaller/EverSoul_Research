@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11\x42\x61ttleStart.proto\x12\x05ReqPb\"\x1d\n\x0b\x42\x61ttleStart\x12\x0e\n\x06result\x18\x01 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11\x42\x61ttleStart.proto\x12\x05ReqPb\"T\n\x0b\x42\x61ttleStart\x12\x12\n\nheroNoList\x18\x01 \x03(\x05\x12\x10\n\x08hashCode\x18\x02 \x01(\t\x12\x1f\n\x04hero\x18\x04 \x03(\x0b\x32\x11.ReqPb.sHeroLevel\",\n\nsHeroLevel\x12\x0f\n\x07heroIdx\x18\x01 \x01(\t\x12\r\n\x05level\x18\x02 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,5 +32,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BattleStart_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_BATTLESTART']._serialized_start=28
-  _globals['_BATTLESTART']._serialized_end=57
+  _globals['_BATTLESTART']._serialized_end=112
+  _globals['_SHEROLEVEL']._serialized_start=114
+  _globals['_SHEROLEVEL']._serialized_end=158
 # @@protoc_insertion_point(module_scope)

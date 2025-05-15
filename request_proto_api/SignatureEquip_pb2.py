@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14SignatureEquip.proto\x12\x05ReqPb\"d\n\x0eSignatureEquip\x12$\n\theroEquip\x18\x01 \x01(\x0b\x32\x11.ReqPb.sHeroEquip\x12,\n\ritemSignature\x18\x02 \x03(\x0b\x32\x15.ReqPb.sItemSignature\"D\n\nsHeroEquip\x12\x0f\n\x07heroIdx\x18\x01 \x01(\t\x12%\n\x05\x65quip\x18\x02 \x01(\x0b\x32\x16.ReqPb.sSlotAndEquipId\"4\n\x0fsSlotAndEquipId\x12\x0c\n\x04slot\x18\x01 \x01(\x05\x12\x13\n\x0bitemEquipId\x18\x02 \x01(\x05\">\n\x0esItemSignature\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\r\n\x05grade\x18\x02 \x01(\x05\x12\r\n\x05level\x18\x03 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14SignatureEquip.proto\x12\x05ReqPb\"-\n\x0eSignatureEquip\x12\n\n\x02no\x18\x01 \x01(\x05\x12\x0f\n\x07heroIdx\x18\x02 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,11 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SignatureEquip_pb2', _globa
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_SIGNATUREEQUIP']._serialized_start=31
-  _globals['_SIGNATUREEQUIP']._serialized_end=131
-  _globals['_SHEROEQUIP']._serialized_start=133
-  _globals['_SHEROEQUIP']._serialized_end=201
-  _globals['_SSLOTANDEQUIPID']._serialized_start=203
-  _globals['_SSLOTANDEQUIPID']._serialized_end=255
-  _globals['_SITEMSIGNATURE']._serialized_start=257
-  _globals['_SITEMSIGNATURE']._serialized_end=319
+  _globals['_SIGNATUREEQUIP']._serialized_end=76
 # @@protoc_insertion_point(module_scope)

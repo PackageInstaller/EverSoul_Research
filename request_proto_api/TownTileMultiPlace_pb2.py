@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18TownTileMultiPlace.proto\x12\x05ReqPb\"a\n\x12TownTileMultiPlace\x12)\n\x0etownObjectList\x18\x01 \x03(\x0b\x32\x11.ReqPb.sTownObjet\x12 \n\x07itemEtc\x18\x02 \x03(\x0b\x32\x0f.ReqPb.sItemEtc\"d\n\nsTownObjet\x12\x0f\n\x07objetNo\x18\x01 \x01(\x05\x12\x0b\n\x03uid\x18\x02 \x01(\x05\x12\x10\n\x08position\x18\x03 \x01(\t\x12\x10\n\x08rotation\x18\x04 \x01(\t\x12\x14\n\x0cobjetGroupNo\x18\x05 \x01(\x05\"\'\n\x08sItemEtc\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\x0b\n\x03\x63nt\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18TownTileMultiPlace.proto\x12\x05ReqPb\":\n\x12TownTileMultiPlace\x12$\n\tplaceTile\x18\x01 \x03(\x0b\x32\x11.ReqPb.sTownObjet\"d\n\nsTownObjet\x12\x0f\n\x07objetNo\x18\x01 \x01(\x05\x12\x0b\n\x03uid\x18\x02 \x01(\x05\x12\x10\n\x08position\x18\x03 \x01(\t\x12\x10\n\x08rotation\x18\x04 \x01(\t\x12\x14\n\x0cobjetGroupNo\x18\x05 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,9 +32,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TownTileMultiPlace_pb2', _g
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_TOWNTILEMULTIPLACE']._serialized_start=35
-  _globals['_TOWNTILEMULTIPLACE']._serialized_end=132
-  _globals['_STOWNOBJET']._serialized_start=134
-  _globals['_STOWNOBJET']._serialized_end=234
-  _globals['_SITEMETC']._serialized_start=236
-  _globals['_SITEMETC']._serialized_end=275
+  _globals['_TOWNTILEMULTIPLACE']._serialized_end=93
+  _globals['_STOWNOBJET']._serialized_start=95
+  _globals['_STOWNOBJET']._serialized_end=195
 # @@protoc_insertion_point(module_scope)

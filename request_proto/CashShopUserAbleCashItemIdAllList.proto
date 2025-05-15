@@ -3,6 +3,6 @@ syntax = "proto3";
 package ReqPb;
 
 message CashShopUserAbleCashItemIdAllList {
-  repeated int32 cashItemId = 1;
+  repeated int32 tabId = 1;
 }
 

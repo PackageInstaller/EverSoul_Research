@@ -24,17 +24,13 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45ventRankRaidRankList.proto\x12\x05ReqPb\"\x8b\x01\n\x15\x45ventRankRaidRankList\x12\x39\n\x16myEventRankRaidRanking\x18\x01 \x01(\x0b\x32\x19.ReqPb.sEventRankRaidRank\x12\x37\n\x14\x65ventRankRaidRanking\x18\x02 \x03(\x0b\x32\x19.ReqPb.sEventRankRaidRank\"\x7f\n\x12sEventRankRaidRank\x12\x0f\n\x07userIdx\x18\x01 \x01(\t\x12\x10\n\x08nickName\x18\x02 \x01(\t\x12$\n\tthumbnail\x18\x03 \x01(\x0b\x32\x11.ReqPb.sThumbnail\x12\x0c\n\x04rank\x18\x04 \x01(\x05\x12\x12\n\nuserDamage\x18\x05 \x01(\x05\"b\n\nsThumbnail\x12\x16\n\x0ethumbnailFrame\x18\x01 \x01(\x05\x12\x16\n\x0ethumbnailImage\x18\x02 \x01(\x05\x12\x11\n\tuseCustom\x18\x03 \x01(\x08\x12\x11\n\tthumbnail\x18\x04 \x01(\x0c\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45ventRankRaidRankList.proto\x12\x05ReqPb\"@\n\x15\x45ventRankRaidRankList\x12\x12\n\neventGroup\x18\x01 \x01(\x05\x12\x13\n\x0b\x65ventNumber\x18\x02 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EventRankRaidRankList_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_EVENTRANKRAIDRANKLIST']._serialized_start=39
-  _globals['_EVENTRANKRAIDRANKLIST']._serialized_end=178
-  _globals['_SEVENTRANKRAIDRANK']._serialized_start=180
-  _globals['_SEVENTRANKRAIDRANK']._serialized_end=307
-  _globals['_STHUMBNAIL']._serialized_start=309
-  _globals['_STHUMBNAIL']._serialized_end=407
+  _globals['_EVENTRANKRAIDRANKLIST']._serialized_start=38
+  _globals['_EVENTRANKRAIDRANKLIST']._serialized_end=102
 # @@protoc_insertion_point(module_scope)

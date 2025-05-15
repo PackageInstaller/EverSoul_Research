@@ -24,13 +24,13 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x45ventDoubleStageInfo.proto\x12\x05ReqPb\"\xf4\x01\n\x14\x45ventDoubleStageInfo\x12\x10\n\x08\x65nterCnt\x18\x01 \x01(\x05\x12\x12\n\ndifficulty\x18\x02 \x01(\x05\x12\x16\n\x0e\x61\x62leDifficulty\x18\x03 \x01(\x05\x12\x11\n\tisPlaying\x18\x04 \x01(\x05\x12\x12\n\nbuffStage1\x18\x05 \x01(\x05\x12\x12\n\nbuffStage2\x18\x06 \x01(\x05\x12\x1b\n\x13\x62uffUpdateTimestamp\x18\x07 \x01(\x03\x12\x1d\n\x15\x66irstClearRewardedArr\x18\x08 \x03(\x05\x12\x12\n\neventGroup\x18\t \x01(\x05\x12\x13\n\x0b\x65ventNumber\x18\n \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x45ventDoubleStageInfo.proto\x12\x05ReqPb\"\'\n\x14\x45ventDoubleStageInfo\x12\x0f\n\x07getBuff\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EventDoubleStageInfo_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_EVENTDOUBLESTAGEINFO']._serialized_start=38
-  _globals['_EVENTDOUBLESTAGEINFO']._serialized_end=282
+  _globals['_EVENTDOUBLESTAGEINFO']._serialized_start=37
+  _globals['_EVENTDOUBLESTAGEINFO']._serialized_end=76
 # @@protoc_insertion_point(module_scope)

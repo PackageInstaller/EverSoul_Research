@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19SpiritTreeSlotEquip.proto\x12\x05ReqPb\"=\n\x13SpiritTreeSlotEquip\x12&\n\nspiritTree\x18\x01 \x01(\x0b\x32\x12.ReqPb.sSpiritTree\"@\n\x0bsSpiritTree\x12\x0e\n\x06slotNo\x18\x01 \x01(\x05\x12\x0f\n\x07heroIdx\x18\x02 \x01(\t\x12\x10\n\x08\x65nableDt\x18\x03 \x01(\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19SpiritTreeSlotEquip.proto\x12\x05ReqPb\"6\n\x13SpiritTreeSlotEquip\x12\x0e\n\x06slotNo\x18\x01 \x01(\x05\x12\x0f\n\x07heroIdx\x18\x02 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SpiritTreeSlotEquip_pb2', _
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_SPIRITTREESLOTEQUIP']._serialized_start=36
-  _globals['_SPIRITTREESLOTEQUIP']._serialized_end=97
-  _globals['_SSPIRITTREE']._serialized_start=99
-  _globals['_SSPIRITTREE']._serialized_end=163
+  _globals['_SPIRITTREESLOTEQUIP']._serialized_end=90
 # @@protoc_insertion_point(module_scope)

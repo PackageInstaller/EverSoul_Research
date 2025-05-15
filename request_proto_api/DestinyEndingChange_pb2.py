@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44\x65stinyEndingChange.proto\x12\x05ReqPb\"O\n\x13\x44\x65stinyEndingChange\x12\x38\n\raffinityPoint\x18\x01 \x01(\x0b\x32!.ReqPb.sDestinyStoryAffinityPoint\"C\n\x1asDestinyStoryAffinityPoint\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x15\n\raffinityPoint\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x44\x65stinyEndingChange.proto\x12\x05ReqPb\"8\n\x13\x44\x65stinyEndingChange\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x11\n\tepisodeNo\x18\x02 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DestinyEndingChange_pb2', _
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_DESTINYENDINGCHANGE']._serialized_start=36
-  _globals['_DESTINYENDINGCHANGE']._serialized_end=115
-  _globals['_SDESTINYSTORYAFFINITYPOINT']._serialized_start=117
-  _globals['_SDESTINYSTORYAFFINITYPOINT']._serialized_end=184
+  _globals['_DESTINYENDINGCHANGE']._serialized_end=92
 # @@protoc_insertion_point(module_scope)

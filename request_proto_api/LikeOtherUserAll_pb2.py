@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16LikeOtherUserAll.proto\x12\x05ReqPb\"D\n\x10LikeOtherUserAll\x12\x30\n\x11otherUserInfoList\x18\x01 \x03(\x0b\x32\x15.ReqPb.sOtherUserInfo\"\xf7\x02\n\x0esOtherUserInfo\x12\x0f\n\x07userIdx\x18\x01 \x01(\t\x12\x10\n\x08nickName\x18\x02 \x01(\t\x12\x13\n\x0blastLoginDt\x18\x03 \x01(\x03\x12$\n\tthumbnail\x18\x04 \x01(\x0b\x32\x11.ReqPb.sThumbnail\x12\x0f\n\x07stageNo\x18\x05 \x01(\x05\x12\x12\n\npopularity\x18\x06 \x01(\x05\x12\x11\n\tlikeClick\x18\x07 \x01(\x08\x12\x17\n\x0f\x65nemyTotalCount\x18\x08 \x01(\x05\x12\x18\n\x10\x65nemyDefeatCount\x18\t \x01(\x05\x12\x11\n\ttownLevel\x18\n \x01(\x05\x12\x19\n\x11isVisitBattleFlag\x18\x0b \x01(\x05\x12\x1e\n\x16visitBattleFriendCount\x18\x0c \x01(\x05\x12\x1f\n\x17isVisitBattleFriendFlag\x18\r \x01(\x05\x12\x12\n\nisFavorite\x18\x0e \x01(\x08\x12\x19\n\x11isYesterdayHelper\x18\x0f \x01(\x08\"b\n\nsThumbnail\x12\x16\n\x0ethumbnailFrame\x18\x01 \x01(\x05\x12\x16\n\x0ethumbnailImage\x18\x02 \x01(\x05\x12\x11\n\tuseCustom\x18\x03 \x01(\x08\x12\x11\n\tthumbnail\x18\x04 \x01(\x0c\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16LikeOtherUserAll.proto\x12\x05ReqPb\"(\n\x10LikeOtherUserAll\x12\x14\n\x0cotherUserIdx\x18\x01 \x03(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,9 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LikeOtherUserAll_pb2', _glo
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_LIKEOTHERUSERALL']._serialized_start=33
-  _globals['_LIKEOTHERUSERALL']._serialized_end=101
-  _globals['_SOTHERUSERINFO']._serialized_start=104
-  _globals['_SOTHERUSERINFO']._serialized_end=479
-  _globals['_STHUMBNAIL']._serialized_start=481
-  _globals['_STHUMBNAIL']._serialized_end=579
+  _globals['_LIKEOTHERUSERALL']._serialized_end=73
 # @@protoc_insertion_point(module_scope)

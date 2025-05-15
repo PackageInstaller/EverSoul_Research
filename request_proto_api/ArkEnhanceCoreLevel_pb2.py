@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41rkEnhanceCoreLevel.proto\x12\x05ReqPb\"7\n\x13\x41rkEnhanceCoreLevel\x12 \n\x07\x61rkCore\x18\x01 \x03(\x0b\x32\x0f.ReqPb.sArkCore\"E\n\x08sArkCore\x12\x12\n\ncoreType01\x18\x01 \x01(\x05\x12\x12\n\ncoreType02\x18\x02 \x01(\x05\x12\x11\n\tcoreLevel\x18\x03 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19\x41rkEnhanceCoreLevel.proto\x12\x05ReqPb\"P\n\x13\x41rkEnhanceCoreLevel\x12\x12\n\ncoreType01\x18\x01 \x01(\x05\x12\x12\n\ncoreType02\x18\x02 \x01(\x05\x12\x11\n\tcoreLevel\x18\x03 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ArkEnhanceCoreLevel_pb2', _
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_ARKENHANCECORELEVEL']._serialized_start=36
-  _globals['_ARKENHANCECORELEVEL']._serialized_end=91
-  _globals['_SARKCORE']._serialized_start=93
-  _globals['_SARKCORE']._serialized_end=162
+  _globals['_ARKENHANCECORELEVEL']._serialized_end=116
 # @@protoc_insertion_point(module_scope)

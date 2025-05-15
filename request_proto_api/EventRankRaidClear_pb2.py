@@ -24,29 +24,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x45ventRankRaidClear.proto\x12\x05ReqPb\"\xf2\x01\n\x12\x45ventRankRaidClear\x12,\n\reventRankRaid\x18\x01 \x01(\x0b\x32\x15.ReqPb.sEventRankRaid\x12%\n\x08\x63urrency\x18\x02 \x01(\x0b\x32\x13.ReqPb.sCurrencyAll\x12$\n\titemEquip\x18\x03 \x03(\x0b\x32\x11.ReqPb.sItemEquip\x12 \n\x07itemEtc\x18\x04 \x03(\x0b\x32\x0f.ReqPb.sItemEtc\x12,\n\ritemAddAmount\x18\x05 \x03(\x0b\x32\x15.ReqPb.sItemAddAmount\x12\x11\n\trankScore\x18\x06 \x01(\x05\"\xae\x01\n\x0esEventRankRaid\x12\x12\n\neventGroup\x18\x01 \x01(\x05\x12\x13\n\x0b\x65ventNumber\x18\x02 \x01(\x05\x12\x14\n\x0cmaxRankScore\x18\x03 \x01(\x05\x12\x1b\n\x13maxDamageLastReward\x18\x04 \x01(\x05\x12\x30\n\x0frankRewardState\x18\x05 \x01(\x0e\x32\x17.ReqPb.eRankRewardState\x12\x0e\n\x06myRank\x18\x06 \x01(\x05\"5\n\x0csCurrencyAll\x12%\n\x0b\x61llCurrency\x18\x01 \x03(\x0b\x32\x10.ReqPb.sCurrency\";\n\tsCurrency\x12\x1f\n\x04type\x18\x01 \x01(\x0e\x32\x11.ReqPb.E_CURRENCY\x12\r\n\x05value\x18\x02 \x01(\x03\"5\n\nsItemEquip\x12\n\n\x02id\x18\x01 \x01(\x03\x12\x0e\n\x06itemNo\x18\x02 \x01(\x05\x12\x0b\n\x03\x65xp\x18\x03 \x01(\x05\"\'\n\x08sItemEtc\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\x0b\n\x03\x63nt\x18\x02 \x01(\x05\"-\n\x0esItemAddAmount\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\x0b\n\x03\x63nt\x18\x02 \x01(\x05*`\n\x10\x65RankRewardState\x12\x0c\n\x08Rewarded\x10\x00\x12\r\n\tAvailable\x10\x01\x12\t\n\x05\x45mpty\x10\x02\x12\x13\n\x0fRankCalculating\x10\x03\x12\x0f\n\x0bProgressing\x10\x04*\xc5\x07\n\nE_CURRENCY\x12\x08\n\x04None\x10\x00\x12\x08\n\x04Gold\x10\x01\x12\x0b\n\x07\x46reeDia\x10\x02\x12\x0c\n\x08ManaDust\x10\x03\x12\x0f\n\x0bManaCrystal\x10\x04\x12\x07\n\x03\x45xp\x10\x05\x12\t\n\x05Heart\x10\x06\x12\x0f\n\x0bLifeEssence\x10\x08\x12\x0f\n\x0b\x41renaTicket\x10\t\x12\x0b\n\x07\x44ungeon\x10\n\x12\t\n\x05Guild\x10\x0b\x12\x0b\n\x07Release\x10\x0c\x12\t\n\x05\x41rena\x10\r\x12\n\n\x06Relics\x10\x0e\x12\n\n\x06Silver\x10\x10\x12\x12\n\x0eSingleRaidCoin\x10\x12\x12\x15\n\x11PickupGachaTicket\x10\x13\x12\t\n\x05Sign1\x10\x14\x12\t\n\x05Sign2\x10\x15\x12\r\n\tSignHuman\x10\x16\x12\r\n\tSignFurry\x10\x17\x12\x0b\n\x07SignElf\x10\x18\x12\x0e\n\nSignUndead\x10\x19\x12\r\n\tSignAngel\x10\x1a\x12\r\n\tSignDemon\x10\x1b\x12\x10\n\x0cNormalTicket\x10\x1c\x12\x0e\n\nRaceTicket\x10\x1d\x12\x11\n\rRareSoulstone\x10\x1e\x12\x11\n\rEpicSoulstone\x10\x1f\x12\x0c\n\x08\x45quipExp\x10 \x12\x1d\n\x19\x43ollaborationSummonTicket\x10!\x12\n\n\x06PayDia\x10*\x12\x13\n\x0fTeamarenaTicket\x10,\x12\x18\n\x14SignatureGachaTicket\x10-\x12\x16\n\x12PremiumGachaTicket\x10.\x12\x1a\n\x16MonthlyHeroResetTicket\x10/\x12\x12\n\x0e\x45quipExpMiddle\x10\x30\x12\x10\n\x0c\x45quipExpHigh\x10\x31\x12\r\n\tZodiacExp\x10\x32\x12\x13\n\x0fLabyrinthTicket\x10\x33\x12\x15\n\x11TranscendentStone\x10\x34\x12\x14\n\x10SingleRaidTicket\x10\x35\x12\x12\n\x0eSetItemEngrave\x10\x36\x12\x19\n\x15RotationDungeonTicket\x10\x37\x12\x0c\n\x08\x45\x64\x65nCoin\x10\x39\x12\x19\n\x15TypeBarrierGateTicket\x10:\x12\x15\n\x11OriginTowerTicket\x10;\x12\x1a\n\x16\x44oubleGateNormalTicket\x10<\x12 \n\x1c\x44oubleGateNormalTicketCharge\x10>\x12\x19\n\x15SignatureEnhanceStone\x10@\x12\x19\n\x15HeroOptionChangeStone\x10\x41\x12\x13\n\x0fWishGachaTicket\x10\x42\x12\x0c\n\x08TotalDia\x10\x64\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x45ventRankRaidClear.proto\x12\x05ReqPb\"\xe6\x01\n\x12\x45ventRankRaidClear\x12\x12\n\neventGroup\x18\x01 \x01(\x05\x12\x13\n\x0b\x65ventNumber\x18\x02 \x01(\x05\x12\x0e\n\x06\x64\x61mage\x18\x03 \x01(\x03\x12\x12\n\naliveCount\x18\x04 \x01(\x05\x12\x35\n\x10heroIdxKillCount\x18\x05 \x03(\x0b\x32\x1b.ReqPb.sHeroIdxAndKillCount\x12\x18\n\x10useUltimateCount\x18\x06 \x01(\x05\x12\x1b\n\x13useActiveSkillCount\x18\x07 \x01(\x05\x12\x15\n\rformationType\x18\x08 \x01(\x05\":\n\x14sHeroIdxAndKillCount\x12\x0f\n\x07heroIdx\x18\x01 \x01(\t\x12\x11\n\tkillCount\x18\x02 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EventRankRaidClear_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_ERANKREWARDSTATE']._serialized_start=716
-  _globals['_ERANKREWARDSTATE']._serialized_end=812
-  _globals['_E_CURRENCY']._serialized_start=815
-  _globals['_E_CURRENCY']._serialized_end=1780
   _globals['_EVENTRANKRAIDCLEAR']._serialized_start=36
-  _globals['_EVENTRANKRAIDCLEAR']._serialized_end=278
-  _globals['_SEVENTRANKRAID']._serialized_start=281
-  _globals['_SEVENTRANKRAID']._serialized_end=455
-  _globals['_SCURRENCYALL']._serialized_start=457
-  _globals['_SCURRENCYALL']._serialized_end=510
-  _globals['_SCURRENCY']._serialized_start=512
-  _globals['_SCURRENCY']._serialized_end=571
-  _globals['_SITEMEQUIP']._serialized_start=573
-  _globals['_SITEMEQUIP']._serialized_end=626
-  _globals['_SITEMETC']._serialized_start=628
-  _globals['_SITEMETC']._serialized_end=667
-  _globals['_SITEMADDAMOUNT']._serialized_start=669
-  _globals['_SITEMADDAMOUNT']._serialized_end=714
+  _globals['_EVENTRANKRAIDCLEAR']._serialized_end=266
+  _globals['_SHEROIDXANDKILLCOUNT']._serialized_start=268
+  _globals['_SHEROIDXANDKILLCOUNT']._serialized_end=326
 # @@protoc_insertion_point(module_scope)

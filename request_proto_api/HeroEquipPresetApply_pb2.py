@@ -24,17 +24,19 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aHeroEquipPresetApply.proto\x12\x05ReqPb\"V\n\x14HeroEquipPresetApply\x12\x12\n\npresetSlot\x18\x01 \x01(\x05\x12*\n\x0cheroEquipAll\x18\x02 \x03(\x0b\x32\x14.ReqPb.sHeroEquipAll\"G\n\rsHeroEquipAll\x12\x0f\n\x07heroIdx\x18\x01 \x01(\t\x12%\n\x05\x65quip\x18\x02 \x03(\x0b\x32\x16.ReqPb.sSlotAndEquipId\"4\n\x0fsSlotAndEquipId\x12\x0c\n\x04slot\x18\x01 \x01(\x05\x12\x13\n\x0bitemEquipId\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1aHeroEquipPresetApply.proto\x12\x05ReqPb\"[\n\x14HeroEquipPresetApply\x12\x12\n\npresetSlot\x18\x01 \x01(\x05\x12/\n\npresetHero\x18\x02 \x03(\x0b\x32\x1b.ReqPb.sHeroEquipPresetHero\"Z\n\x14sHeroEquipPresetHero\x12\x0f\n\x07heroIdx\x18\x01 \x01(\t\x12\x31\n\x08itemSlot\x18\x02 \x03(\x0b\x32\x1f.ReqPb.sHeroEquipPresetItemSlot\"P\n\x18sHeroEquipPresetItemSlot\x12\x1f\n\x04slot\x18\x01 \x01(\x0e\x32\x11.ReqPb.eEquipSlot\x12\x13\n\x0bitemEquipId\x18\x02 \x01(\x03*H\n\neEquipSlot\x12\n\n\x06Weapon\x10\x00\x12\n\n\x06Helmet\x10\x01\x12\t\n\x05\x41rmor\x10\x02\x12\x08\n\x04\x42oot\x10\x03\x12\r\n\tSignature\x10\x04\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HeroEquipPresetApply_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
+  _globals['_EEQUIPSLOT']._serialized_start=304
+  _globals['_EEQUIPSLOT']._serialized_end=376
   _globals['_HEROEQUIPPRESETAPPLY']._serialized_start=37
-  _globals['_HEROEQUIPPRESETAPPLY']._serialized_end=123
-  _globals['_SHEROEQUIPALL']._serialized_start=125
-  _globals['_SHEROEQUIPALL']._serialized_end=196
-  _globals['_SSLOTANDEQUIPID']._serialized_start=198
-  _globals['_SSLOTANDEQUIPID']._serialized_end=250
+  _globals['_HEROEQUIPPRESETAPPLY']._serialized_end=128
+  _globals['_SHEROEQUIPPRESETHERO']._serialized_start=130
+  _globals['_SHEROEQUIPPRESETHERO']._serialized_end=220
+  _globals['_SHEROEQUIPPRESETITEMSLOT']._serialized_start=222
+  _globals['_SHEROEQUIPPRESETITEMSLOT']._serialized_end=302
 # @@protoc_insertion_point(module_scope)

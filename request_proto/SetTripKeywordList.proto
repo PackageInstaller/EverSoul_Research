@@ -8,7 +8,6 @@ message SetTripKeywordList {
 
 message sTripKeyword {
   int32 keywordNo = 1;
-  int32 isFirst = 2;
-  int32 heroNo = 3;
+  int32 heroNo = 2;
 }
 

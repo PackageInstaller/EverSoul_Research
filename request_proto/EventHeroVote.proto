@@ -3,12 +3,8 @@ syntax = "proto3";
 package ReqPb;
 
 message EventHeroVote {
-  sEventHeroVoteInfo voteResult = 1;
-  int32 ticketCount = 2;
-}
-
-message sEventHeroVoteInfo {
-  int32 heroNo = 1;
-  int32 voteCount = 2;
+  int32 eventGroup = 1;
+  int32 heroNo = 2;
+  int32 voteCount = 3;
 }
 

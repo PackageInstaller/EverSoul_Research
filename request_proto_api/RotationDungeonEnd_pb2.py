@@ -24,27 +24,13 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18RotationDungeonEnd.proto\x12\x05ReqPb\">\n\x12RotationDungeonEnd\x12(\n\x0b\x64ungeonList\x18\x01 \x01(\x0b\x32\x13.ReqPb.sDungeonList\"\xd6\x02\n\x0csDungeonList\x12/\n\rdungeonReward\x18\x01 \x03(\x0b\x32\x18.ReqPb.sDungeonAndReward\x12\x44\n\x19\x64ungeonPerfectClearRecord\x18\x02 \x03(\x0b\x32!.ReqPb.sDungeonPerfectClearRecord\x12\x19\n\x11rotationDungeonNo\x18\x03 \x01(\x05\x12\x1f\n\x17rotationDungeonExpireDt\x18\x04 \x01(\x03\x12\x19\n\x11labyrinthExpireDt\x18\x05 \x01(\x03\x12\x19\n\x11labyrinthClearCnt\x18\x06 \x01(\x05\x12\x1a\n\x12labyrinthTicketCnt\x18\x07 \x01(\x05\x12\x1f\n\x17rotationDungeonClearCnt\x18\x08 \x01(\x05\x12 \n\x18rotationDungeonTicketCnt\x18\t \x01(\x05\"c\n\x11sDungeonAndReward\x12 \n\x07\x64ungeon\x18\x01 \x01(\x0b\x32\x0f.ReqPb.sDungeon\x12,\n\rdungeonReward\x18\x02 \x03(\x0b\x32\x15.ReqPb.sDungeonReward\"\x8e\x04\n\x08sDungeon\x12\n\n\x02id\x18\x01 \x01(\x05\x12\x11\n\tdungeonNo\x18\x02 \x01(\x05\x12\x14\n\x0c\x64ungeonLevel\x18\x03 \x01(\x05\x12\t\n\x01x\x18\x04 \x01(\x02\x12\t\n\x01z\x18\x05 \x01(\x02\x12\x0f\n\x07mapInfo\x18\x06 \x01(\x0c\x12\x15\n\rconditionInfo\x18\x07 \x01(\x0c\x12\x10\n\x08heroInfo\x18\x08 \x01(\x0c\x12\x16\n\x0e\x61\x64\x64itionalInfo\x18\t \x01(\x0c\x12\x11\n\trelicInfo\x18\n \x01(\x0c\x12\x0f\n\x07isEnter\x18\x0b \x01(\x05\x12\x0f\n\x07isClear\x18\x0c \x01(\x05\x12\x14\n\x0cisFirstClear\x18\r \x01(\x05\x12\x11\n\tmissionNo\x18\x0e \x01(\x05\x12\x12\n\nmissionCnt\x18\x0f \x01(\x05\x12\x0c\n\x04seed\x18\x10 \x01(\x05\x12\x13\n\x0b\x64ungeonItem\x18\x11 \x01(\x0c\x12\x12\n\ndifficulty\x18\x12 \x01(\x05\x12\x15\n\rultimatePoint\x18\x13 \x01(\x05\x12\x16\n\x0eplayerObjectId\x18\x14 \x01(\x05\x12\x11\n\tuseTicket\x18\x15 \x01(\x08\x12\x15\n\rmaxClearLevel\x18\x16 \x01(\x05\x12\x0f\n\x07isSweep\x18\x17 \x01(\x05\x12\x16\n\x0eisPerfectClear\x18\x18 \x01(\x05\x12\x1f\n\x17isHiddenKeyNotAvailable\x18\x19 \x01(\x05\x12\x19\n\x11randomGimmickSeed\x18\x1a \x01(\x05\"K\n\x0esDungeonReward\x12\'\n\x04type\x18\x01 \x01(\x0e\x32\x19.ReqPb.eDungeonRewardType\x12\x10\n\x08rewardNo\x18\x02 \x01(\x05\"p\n\x1asDungeonPerfectClearRecord\x12)\n\x04type\x18\x01 \x01(\x0e\x32\x1b.ReqPb.eDungeonMaxLevelType\x12\x11\n\tdungeonNo\x18\x02 \x01(\x05\x12\x14\n\x0c\x64ungeonLevel\x18\x03 \x01(\x05*\\\n\x12\x65\x44ungeonRewardType\x12\x15\n\x11NoneDungeonReward\x10\x00\x12\x0b\n\x07Mission\x10\x01\x12\n\n\x06Object\x10\x02\x12\x0b\n\x07Monster\x10\x03\x12\t\n\x05\x43hest\x10\x04*0\n\x14\x65\x44ungeonMaxLevelType\x12\n\n\x06Weekly\x10\x00\x12\x0c\n\x08Training\x10\x01\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18RotationDungeonEnd.proto\x12\x05ReqPb\"\'\n\x12RotationDungeonEnd\x12\x11\n\tdungeonId\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RotationDungeonEnd_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_EDUNGEONREWARDTYPE']._serialized_start=1265
-  _globals['_EDUNGEONREWARDTYPE']._serialized_end=1357
-  _globals['_EDUNGEONMAXLEVELTYPE']._serialized_start=1359
-  _globals['_EDUNGEONMAXLEVELTYPE']._serialized_end=1407
   _globals['_ROTATIONDUNGEONEND']._serialized_start=35
-  _globals['_ROTATIONDUNGEONEND']._serialized_end=97
-  _globals['_SDUNGEONLIST']._serialized_start=100
-  _globals['_SDUNGEONLIST']._serialized_end=442
-  _globals['_SDUNGEONANDREWARD']._serialized_start=444
-  _globals['_SDUNGEONANDREWARD']._serialized_end=543
-  _globals['_SDUNGEON']._serialized_start=546
-  _globals['_SDUNGEON']._serialized_end=1072
-  _globals['_SDUNGEONREWARD']._serialized_start=1074
-  _globals['_SDUNGEONREWARD']._serialized_end=1149
-  _globals['_SDUNGEONPERFECTCLEARRECORD']._serialized_start=1151
-  _globals['_SDUNGEONPERFECTCLEARRECORD']._serialized_end=1263
+  _globals['_ROTATIONDUNGEONEND']._serialized_end=74
 # @@protoc_insertion_point(module_scope)

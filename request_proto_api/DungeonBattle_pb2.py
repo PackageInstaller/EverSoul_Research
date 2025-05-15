@@ -24,15 +24,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x44ungeonBattle.proto\x12\x05ReqPb\";\n\rDungeonBattle\x12*\n\x0crentUsedHero\x18\x01 \x03(\x0b\x32\x14.ReqPb.sRentUsedHero\".\n\rsRentUsedHero\x12\x0f\n\x07heroIdx\x18\x01 \x01(\t\x12\x0c\n\x04used\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x44ungeonBattle.proto\x12\x05ReqPb\"\x9c\x01\n\rDungeonBattle\x12\x15\n\rfriendHeroIdx\x18\x01 \x01(\t\x12\x0f\n\x07heroIdx\x18\x02 \x03(\t\x12\x0f\n\x07stageNo\x18\x03 \x01(\x05\x12\x11\n\tstageType\x18\x04 \x01(\x05\x12&\n\nrentalHero\x18\x05 \x03(\x0b\x32\x12.ReqPb.sRentalHero\x12\x17\n\x0fmonsterPowerSum\x18\x06 \x01(\x05\"O\n\x0bsRentalHero\x12\r\n\x05level\x18\x01 \x01(\x05\x12\x0e\n\x06heroNo\x18\x02 \x01(\x05\x12\x10\n\x08gradeSno\x18\x03 \x01(\x05\x12\x0f\n\x07raceSno\x18\x04 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonBattle_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_DUNGEONBATTLE']._serialized_start=30
-  _globals['_DUNGEONBATTLE']._serialized_end=89
-  _globals['_SRENTUSEDHERO']._serialized_start=91
-  _globals['_SRENTUSEDHERO']._serialized_end=137
+  _globals['_DUNGEONBATTLE']._serialized_start=31
+  _globals['_DUNGEONBATTLE']._serialized_end=187
+  _globals['_SRENTALHERO']._serialized_start=189
+  _globals['_SRENTALHERO']._serialized_end=268
 # @@protoc_insertion_point(module_scope)

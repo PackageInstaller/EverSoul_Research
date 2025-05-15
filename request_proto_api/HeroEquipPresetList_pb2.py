@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HeroEquipPresetList.proto\x12\x05ReqPb\"n\n\x13HeroEquipPresetList\x12\x12\n\npresetSlot\x18\x01 \x01(\x05\x12\x12\n\npresetName\x18\x02 \x01(\t\x12/\n\npresetHero\x18\x03 \x03(\x0b\x32\x1b.ReqPb.sHeroEquipPresetHero\"Z\n\x14sHeroEquipPresetHero\x12\x0f\n\x07heroIdx\x18\x01 \x01(\t\x12\x31\n\x08itemSlot\x18\x02 \x03(\x0b\x32\x1f.ReqPb.sHeroEquipPresetItemSlot\"=\n\x18sHeroEquipPresetItemSlot\x12\x0c\n\x04slot\x18\x01 \x01(\x05\x12\x13\n\x0bitemEquipId\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19HeroEquipPresetList.proto\x12\x05ReqPb\")\n\x13HeroEquipPresetList\x12\x12\n\npresetSlot\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,9 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HeroEquipPresetList_pb2', _
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_HEROEQUIPPRESETLIST']._serialized_start=36
-  _globals['_HEROEQUIPPRESETLIST']._serialized_end=146
-  _globals['_SHEROEQUIPPRESETHERO']._serialized_start=148
-  _globals['_SHEROEQUIPPRESETHERO']._serialized_end=238
-  _globals['_SHEROEQUIPPRESETITEMSLOT']._serialized_start=240
-  _globals['_SHEROEQUIPPRESETITEMSLOT']._serialized_end=301
+  _globals['_HEROEQUIPPRESETLIST']._serialized_end=77
 # @@protoc_insertion_point(module_scope)

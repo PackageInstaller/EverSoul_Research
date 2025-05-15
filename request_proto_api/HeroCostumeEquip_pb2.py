@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16HeroCostumeEquip.proto\x12\x05ReqPb\"A\n\x10HeroCostumeEquip\x12-\n\rheroRepuation\x18\x01 \x01(\x0b\x32\x16.ReqPb.sHeroReputation\"\x9c\x02\n\x0fsHeroReputation\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x12\n\nreputation\x18\x02 \x01(\x05\x12\r\n\x05state\x18\x03 \x01(\x05\x12\x0e\n\x06stress\x18\x04 \x01(\x05\x12\x14\n\x0clastUpdateDt\x18\x05 \x01(\x03\x12\x0e\n\x06giftDt\x18\x06 \x01(\x03\x12\x15\n\rcostumeItemNo\x18\x07 \x01(\x05\x12\x13\n\x0bstoryReward\x18\x08 \x01(\x05\x12\x13\n\x0bmaxGradeSno\x18\t \x01(\x05\x12\x10\n\x08objetUid\x18\n \x01(\x05\x12\x12\n\nmaxLevelDt\x18\x0b \x01(\x03\x12\x11\n\tarbeitExp\x18\x0c \x01(\x05\x12\x10\n\x08priority\x18\r \x01(\x05\x12\x14\n\x0crestFinishDt\x18\x0e \x01(\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16HeroCostumeEquip.proto\x12\x05ReqPb\"@\n\x10HeroCostumeEquip\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x0e\n\x06itemNo\x18\x02 \x01(\x05\x12\x0c\n\x04\x66lag\x18\x03 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HeroCostumeEquip_pb2', _glo
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_HEROCOSTUMEEQUIP']._serialized_start=33
-  _globals['_HEROCOSTUMEEQUIP']._serialized_end=98
-  _globals['_SHEROREPUTATION']._serialized_start=101
-  _globals['_SHEROREPUTATION']._serialized_end=385
+  _globals['_HEROCOSTUMEEQUIP']._serialized_end=97
 # @@protoc_insertion_point(module_scope)

@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cUnprocessedCashProduct.proto\x12\x05ReqPb\"[\n\x16UnprocessedCashProduct\x12/\n\x07product\x18\x01 \x03(\x0b\x32\x1e.ReqPb.sUnprocessedCashProduct\x12\x10\n\x08playerId\x18\x02 \x01(\t\"<\n\x17sUnprocessedCashProduct\x12\x11\n\tproductId\x18\x01 \x01(\t\x12\x0e\n\x06result\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cUnprocessedCashProduct.proto\x12\x05ReqPb\"I\n\x16UnprocessedCashProduct\x12/\n\x07product\x18\x01 \x03(\x0b\x32\x1e.ReqPb.sUnprocessedCashProduct\"\x96\x01\n\x17sUnprocessedCashProduct\x12\x11\n\tproductId\x18\x01 \x01(\t\x12\r\n\x05token\x18\x02 \x01(\t\x12\x10\n\x08\x63urrency\x18\x03 \x01(\t\x12\x0f\n\x07\x63ountry\x18\x04 \x01(\t\x12\r\n\x05price\x18\x05 \x01(\t\x12\x10\n\x08playerId\x18\x06 \x01(\t\x12\x15\n\rpaymentUserId\x18\x07 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'UnprocessedCashProduct_pb2'
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_UNPROCESSEDCASHPRODUCT']._serialized_start=39
-  _globals['_UNPROCESSEDCASHPRODUCT']._serialized_end=130
-  _globals['_SUNPROCESSEDCASHPRODUCT']._serialized_start=132
-  _globals['_SUNPROCESSEDCASHPRODUCT']._serialized_end=192
+  _globals['_UNPROCESSEDCASHPRODUCT']._serialized_end=112
+  _globals['_SUNPROCESSEDCASHPRODUCT']._serialized_start=115
+  _globals['_SUNPROCESSEDCASHPRODUCT']._serialized_end=265
 # @@protoc_insertion_point(module_scope)

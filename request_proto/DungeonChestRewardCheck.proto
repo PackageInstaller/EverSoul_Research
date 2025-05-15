@@ -3,6 +3,7 @@ syntax = "proto3";
 package ReqPb;
 
 message DungeonChestRewardCheck {
-  bool isRewarded = 1;
+  int32 dungeonId = 1;
+  int32 rewardNo = 2;
 }
 

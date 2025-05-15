@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19LabyrinthRewardList.proto\x12\x05ReqPb\"C\n\x13LabyrinthRewardList\x12,\n\rlabyrinthItem\x18\x01 \x03(\x0b\x32\x15.ReqPb.sLabyrinthItem\"-\n\x0esLabyrinthItem\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\x0b\n\x03\x63nt\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19LabyrinthRewardList.proto\x12\x05ReqPb\"(\n\x13LabyrinthRewardList\x12\x11\n\tdungeonId\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LabyrinthRewardList_pb2', _
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_LABYRINTHREWARDLIST']._serialized_start=36
-  _globals['_LABYRINTHREWARDLIST']._serialized_end=103
-  _globals['_SLABYRINTHITEM']._serialized_start=105
-  _globals['_SLABYRINTHITEM']._serialized_end=150
+  _globals['_LABYRINTHREWARDLIST']._serialized_end=76
 # @@protoc_insertion_point(module_scope)

@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11QRPromotion.proto\x12\x05ReqPb\"\x1e\n\x0bQRPromotion\x12\x0f\n\x07success\x18\x01 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11QRPromotion.proto\x12\x05ReqPb\"\x1f\n\x0bQRPromotion\x12\x10\n\x08\x64\x65\x65plink\x18\x01 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,5 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'QRPromotion_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_QRPROMOTION']._serialized_start=28
-  _globals['_QRPROMOTION']._serialized_end=58
+  _globals['_QRPROMOTION']._serialized_end=59
 # @@protoc_insertion_point(module_scope)

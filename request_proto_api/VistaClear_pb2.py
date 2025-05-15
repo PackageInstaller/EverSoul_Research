@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10VistaClear.proto\x12\x05ReqPb\"2\n\nVistaClear\x12$\n\tvistaInfo\x18\x01 \x01(\x0b\x32\x11.ReqPb.sVistaInfo\"\x93\x01\n\nsVistaInfo\x12\x0f\n\x07vistaNo\x18\x01 \x01(\x05\x12\x15\n\rmaxClearLevel\x18\x02 \x01(\x05\x12\x16\n\x0emaxRewardLevel\x18\x03 \x01(\x05\x12\x1b\n\x13vistaTreasureEnergy\x18\x04 \x01(\x05\x12\x10\n\x08\x65xpireDt\x18\x05 \x01(\x03\x12\x16\n\x0e\x65nergyUpdateDt\x18\x06 \x01(\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10VistaClear.proto\x12\x05ReqPb\"F\n\nVistaClear\x12\x0f\n\x07vistaNo\x18\x01 \x01(\x05\x12\x0f\n\x07heroIdx\x18\x02 \x03(\t\x12\x16\n\x0e\x63learBossLevel\x18\x03 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VistaClear_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_VISTACLEAR']._serialized_start=27
-  _globals['_VISTACLEAR']._serialized_end=77
-  _globals['_SVISTAINFO']._serialized_start=80
-  _globals['_SVISTAINFO']._serialized_end=227
+  _globals['_VISTACLEAR']._serialized_end=97
 # @@protoc_insertion_point(module_scope)

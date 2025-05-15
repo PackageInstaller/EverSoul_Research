@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18LabyrinthRelicSell.proto\x12\x05ReqPb\"h\n\x12LabyrinthRelicSell\x12\x11\n\tdungeonNo\x18\x01 \x01(\x05\x12\x11\n\trelicInfo\x18\x02 \x01(\x0c\x12,\n\rlabyrinthItem\x18\x03 \x03(\x0b\x32\x15.ReqPb.sLabyrinthItem\"-\n\x0esLabyrinthItem\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\x0b\n\x03\x63nt\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18LabyrinthRelicSell.proto\x12\x05ReqPb\"K\n\x12LabyrinthRelicSell\x12\x11\n\tdungeonId\x18\x01 \x01(\x05\x12\x0f\n\x07relicNo\x18\x02 \x03(\x05\x12\x11\n\trelicInfo\x18\x03 \x01(\x0c\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LabyrinthRelicSell_pb2', _g
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_LABYRINTHRELICSELL']._serialized_start=35
-  _globals['_LABYRINTHRELICSELL']._serialized_end=139
-  _globals['_SLABYRINTHITEM']._serialized_start=141
-  _globals['_SLABYRINTHITEM']._serialized_end=186
+  _globals['_LABYRINTHRELICSELL']._serialized_end=110
 # @@protoc_insertion_point(module_scope)

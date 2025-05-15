@@ -3,6 +3,6 @@ syntax = "proto3";
 package ReqPb;
 
 message FriendResponseAll {
-  string friendResponseAll_ = 1;
+  int32 decision = 1;
 }
 

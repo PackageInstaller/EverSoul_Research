@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSignatureLevelUpForAdmin.proto\x12\x05ReqPb\"n\n\x18SignatureLevelUpForAdmin\x12,\n\ritemSignature\x18\x01 \x01(\x0b\x32\x15.ReqPb.sItemSignature\x12$\n\theroEquip\x18\x02 \x01(\x0b\x32\x11.ReqPb.sHeroEquip\">\n\x0esItemSignature\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\r\n\x05grade\x18\x02 \x01(\x05\x12\r\n\x05level\x18\x03 \x01(\x05\"D\n\nsHeroEquip\x12\x0f\n\x07heroIdx\x18\x01 \x01(\t\x12%\n\x05\x65quip\x18\x02 \x01(\x0b\x32\x16.ReqPb.sSlotAndEquipId\"4\n\x0fsSlotAndEquipId\x12\x0c\n\x04slot\x18\x01 \x01(\x05\x12\x13\n\x0bitemEquipId\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1eSignatureLevelUpForAdmin.proto\x12\x05ReqPb\"F\n\x18SignatureLevelUpForAdmin\x12\n\n\x02no\x18\x01 \x01(\x05\x12\r\n\x05level\x18\x02 \x01(\x05\x12\x0f\n\x07heroIdx\x18\x03 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,11 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SignatureLevelUpForAdmin_pb
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_SIGNATURELEVELUPFORADMIN']._serialized_start=41
-  _globals['_SIGNATURELEVELUPFORADMIN']._serialized_end=151
-  _globals['_SITEMSIGNATURE']._serialized_start=153
-  _globals['_SITEMSIGNATURE']._serialized_end=215
-  _globals['_SHEROEQUIP']._serialized_start=217
-  _globals['_SHEROEQUIP']._serialized_end=285
-  _globals['_SSLOTANDEQUIPID']._serialized_start=287
-  _globals['_SSLOTANDEQUIPID']._serialized_end=339
+  _globals['_SIGNATURELEVELUPFORADMIN']._serialized_end=111
 # @@protoc_insertion_point(module_scope)

@@ -3,6 +3,6 @@ syntax = "proto3";
 package ReqPb;
 
 message ContentLimitSave {
-  repeated int32 no = 1;
+  int32 no = 1;
 }
 

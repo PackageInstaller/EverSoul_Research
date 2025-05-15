@@ -3,6 +3,7 @@ syntax = "proto3";
 package ReqPb;
 
 message EventSelectStageEnter {
-  int64 enterDt = 1;
+  int32 eventGroup = 1;
+  int32 eventNumber = 2;
 }
 

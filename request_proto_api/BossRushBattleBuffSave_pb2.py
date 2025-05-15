@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x42ossRushBattleBuffSave.proto\x12\x05ReqPb\"J\n\x16\x42ossRushBattleBuffSave\x12\x30\n\x0f\x62ossRushDungeon\x18\x01 \x01(\x0b\x32\x17.ReqPb.sBossRushDungeon\"\xd4\x01\n\x10sBossRushDungeon\x12\x12\n\neventGroup\x18\x01 \x01(\x05\x12\x13\n\x0b\x65ventNumber\x18\x02 \x01(\x05\x12\x10\n\x08\x63learCnt\x18\x03 \x01(\x05\x12\x13\n\x0b\x64iaUseCount\x18\x04 \x01(\x05\x12\x10\n\x08maxLevel\x18\x05 \x01(\x05\x12\x18\n\x10sumTrainingPoint\x18\x06 \x01(\x05\x12\x14\n\x0c\x63urrentLevel\x18\x07 \x01(\x05\x12.\n\nbattleBuff\x18\x08 \x03(\x0b\x32\x1a.ReqPb.sBossRushBattleBuff\"3\n\x13sBossRushBattleBuff\x12\r\n\x05group\x18\x01 \x01(\x05\x12\r\n\x05level\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1c\x42ossRushBattleBuffSave.proto\x12\x05ReqPb\"P\n\x16\x42ossRushBattleBuffSave\x12\x36\n\x12\x62ossRushBattleBuff\x18\x01 \x03(\x0b\x32\x1a.ReqPb.sBossRushBattleBuff\"3\n\x13sBossRushBattleBuff\x12\r\n\x05group\x18\x01 \x01(\x05\x12\r\n\x05level\x18\x02 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,9 +32,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BossRushBattleBuffSave_pb2'
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_BOSSRUSHBATTLEBUFFSAVE']._serialized_start=39
-  _globals['_BOSSRUSHBATTLEBUFFSAVE']._serialized_end=113
-  _globals['_SBOSSRUSHDUNGEON']._serialized_start=116
-  _globals['_SBOSSRUSHDUNGEON']._serialized_end=328
-  _globals['_SBOSSRUSHBATTLEBUFF']._serialized_start=330
-  _globals['_SBOSSRUSHBATTLEBUFF']._serialized_end=381
+  _globals['_BOSSRUSHBATTLEBUFFSAVE']._serialized_end=119
+  _globals['_SBOSSRUSHBATTLEBUFF']._serialized_start=121
+  _globals['_SBOSSRUSHBATTLEBUFF']._serialized_end=172
 # @@protoc_insertion_point(module_scope)

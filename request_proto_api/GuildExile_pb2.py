@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10GuildExile.proto\x12\x05ReqPb\"T\n\nGuildExile\x12\x1c\n\x05guild\x18\x01 \x01(\x0b\x32\r.ReqPb.sGuild\x12(\n\x0bguildMember\x18\x02 \x03(\x0b\x32\x13.ReqPb.sGuildMember\"\xbe\x02\n\x06sGuild\x12\x0b\n\x03idx\x18\x01 \x01(\t\x12\x10\n\x08\x65mblemNo\x18\x02 \x01(\x05\x12\x0c\n\x04name\x18\x03 \x01(\t\x12\x0b\n\x03\x65xp\x18\x04 \x01(\x05\x12\x0b\n\x03\x63nt\x18\x05 \x01(\x05\x12\x10\n\x08joinType\x18\x06 \x01(\x05\x12\x0f\n\x07limitLv\x18\x07 \x01(\x05\x12\x0e\n\x06notice\x18\x08 \x01(\t\x12\n\n\x02\x64t\x18\t \x01(\x03\x12\x15\n\rregularRaidNo\x18\n \x01(\x05\x12\x17\n\x0firregularRaidNo\x18\x0b \x01(\x05\x12\x11\n\traidPoint\x18\x0c \x01(\x05\x12\x15\n\ruseSkillPoint\x18\r \x01(\x05\x12\x12\n\nskillLevel\x18\x0e \x01(\t\x12\x14\n\x0c\x63ustomEmblem\x18\x0f \x01(\x0c\x12\x14\n\x0cskillResetDt\x18\x10 \x01(\x03\x12\x14\n\x0cintroduction\x18\x11 \x01(\t\"\x8e\x02\n\x0csGuildMember\x12\x10\n\x08guildIdx\x18\x01 \x01(\t\x12\x0f\n\x07userIdx\x18\x02 \x01(\t\x12\x11\n\tchannelNo\x18\x03 \x01(\x05\x12\r\n\x05grade\x18\x04 \x01(\x05\x12\n\n\x02\x64t\x18\x05 \x01(\x03\x12\x14\n\x0c\x63ontribution\x18\x06 \x01(\x05\x12\x10\n\x08nickName\x18\x07 \x01(\t\x12\x13\n\x0blastLoginDt\x18\x08 \x01(\x03\x12$\n\tthumbnail\x18\t \x01(\x0b\x32\x11.ReqPb.sThumbnail\x12\r\n\x05power\x18\n \x01(\x03\x12\r\n\x05level\x18\x0b \x01(\x05\x12\x10\n\x08logoutDt\x18\x0c \x01(\x03\x12\x1a\n\x12weeklyContribution\x18\r \x01(\x05\"b\n\nsThumbnail\x12\x16\n\x0ethumbnailFrame\x18\x01 \x01(\x05\x12\x16\n\x0ethumbnailImage\x18\x02 \x01(\x05\x12\x11\n\tuseCustom\x18\x03 \x01(\x08\x12\x11\n\tthumbnail\x18\x04 \x01(\x0c\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x10GuildExile.proto\x12\x05ReqPb\"0\n\nGuildExile\x12\x10\n\x08tUserIdx\x18\x01 \x01(\t\x12\x10\n\x08guildIdx\x18\x02 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,11 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GuildExile_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_GUILDEXILE']._serialized_start=27
-  _globals['_GUILDEXILE']._serialized_end=111
-  _globals['_SGUILD']._serialized_start=114
-  _globals['_SGUILD']._serialized_end=432
-  _globals['_SGUILDMEMBER']._serialized_start=435
-  _globals['_SGUILDMEMBER']._serialized_end=705
-  _globals['_STHUMBNAIL']._serialized_start=707
-  _globals['_STHUMBNAIL']._serialized_end=805
+  _globals['_GUILDEXILE']._serialized_end=75
 # @@protoc_insertion_point(module_scope)

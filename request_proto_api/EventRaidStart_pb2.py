@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x45ventRaidStart.proto\x12\x05ReqPb\"6\n\x0e\x45ventRaidStart\x12$\n\teventRaid\x18\x01 \x01(\x0b\x32\x11.ReqPb.sEventRaid\"\x81\x02\n\nsEventRaid\x12\x12\n\neventGroup\x18\x01 \x01(\x05\x12\x13\n\x0b\x65ventNumber\x18\x02 \x01(\x05\x12\x10\n\x08\x65nterCnt\x18\x03 \x01(\x05\x12\x11\n\tstageStep\x18\x04 \x01(\x05\x12\x11\n\tmaxDemage\x18\x05 \x01(\x03\x12\x1b\n\x13maxDemageLastReward\x18\x06 \x01(\x03\x12\x13\n\x0b\x61\x63\x63umDemage\x18\x07 \x01(\x03\x12\x1d\n\x15\x61\x63\x63umDemageLastReward\x18\x08 \x01(\x03\x12,\n\reventRaidHero\x18\t \x03(\x0b\x32\x15.ReqPb.sEventRaidHero\x12\x13\n\x0b\x64iaUseCount\x18\n \x01(\x05\">\n\x0esEventRaidHero\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\r\n\x05grade\x18\x02 \x01(\x05\x12\r\n\x05level\x18\x03 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x45ventRaidStart.proto\x12\x05ReqPb\"L\n\x0e\x45ventRaidStart\x12\x12\n\neventGroup\x18\x01 \x01(\x05\x12\x13\n\x0b\x65ventNumber\x18\x02 \x01(\x05\x12\x11\n\tstageStep\x18\x03 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,9 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EventRaidStart_pb2', _globa
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_EVENTRAIDSTART']._serialized_start=31
-  _globals['_EVENTRAIDSTART']._serialized_end=85
-  _globals['_SEVENTRAID']._serialized_start=88
-  _globals['_SEVENTRAID']._serialized_end=345
-  _globals['_SEVENTRAIDHERO']._serialized_start=347
-  _globals['_SEVENTRAIDHERO']._serialized_end=409
+  _globals['_EVENTRAIDSTART']._serialized_end=107
 # @@protoc_insertion_point(module_scope)

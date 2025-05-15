@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17SetPlayerPosition.proto\x12\x05ReqPb\"<\n\x11SetPlayerPosition\x12\'\n\x0eplayerPosition\x18\x01 \x01(\x0b\x32\x0f.ReqPb.sVector3\"+\n\x08sVector3\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x12\t\n\x01z\x18\x03 \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17SetPlayerPosition.proto\x12\x05ReqPb\"4\n\x11SetPlayerPosition\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x12\t\n\x01z\x18\x03 \x01(\x02\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SetPlayerPosition_pb2', _gl
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_SETPLAYERPOSITION']._serialized_start=34
-  _globals['_SETPLAYERPOSITION']._serialized_end=94
-  _globals['_SVECTOR3']._serialized_start=96
-  _globals['_SVECTOR3']._serialized_end=139
+  _globals['_SETPLAYERPOSITION']._serialized_end=86
 # @@protoc_insertion_point(module_scope)

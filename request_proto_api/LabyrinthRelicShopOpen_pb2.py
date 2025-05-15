@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cLabyrinthRelicShopOpen.proto\x12\x05ReqPb\"\x98\x01\n\x16LabyrinthRelicShopOpen\x12>\n\x16labyrinthRelicShopItem\x18\x01 \x03(\x0b\x32\x1e.ReqPb.sLabyrinthRelicShopItem\x12\'\n\x08haveCoin\x18\x02 \x01(\x0b\x32\x15.ReqPb.sLabyrinthItem\x12\x15\n\risReceiveCoin\x18\x03 \x01(\x08\";\n\x17sLabyrinthRelicShopItem\x12\x0f\n\x07relicNo\x18\x01 \x01(\x05\x12\x0f\n\x07soldOut\x18\x02 \x01(\x05\"-\n\x0esLabyrinthItem\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\x0b\n\x03\x63nt\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cLabyrinthRelicShopOpen.proto\x12\x05ReqPb\"\xb3\x01\n\x16LabyrinthRelicShopOpen\x12\x11\n\tdungeonId\x18\x01 \x01(\x05\x12\x0b\n\x03uid\x18\x02 \x01(\x05\x12\x11\n\tallWeight\x18\x03 \x01(\x05\x12\x14\n\x0chiddenWeight\x18\x04 \x01(\x05\x12\x14\n\x0coverrideSlot\x18\x05 \x01(\x05\x12:\n\x14labyrinthRelicHidden\x18\x06 \x03(\x0b\x32\x1c.ReqPb.sLabyrinthRelicHidden\"8\n\x15sLabyrinthRelicHidden\x12\x0f\n\x07relicNo\x18\x01 \x01(\x05\x12\x0e\n\x06weight\x18\x02 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,9 +32,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LabyrinthRelicShopOpen_pb2'
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_LABYRINTHRELICSHOPOPEN']._serialized_start=40
-  _globals['_LABYRINTHRELICSHOPOPEN']._serialized_end=192
-  _globals['_SLABYRINTHRELICSHOPITEM']._serialized_start=194
-  _globals['_SLABYRINTHRELICSHOPITEM']._serialized_end=253
-  _globals['_SLABYRINTHITEM']._serialized_start=255
-  _globals['_SLABYRINTHITEM']._serialized_end=300
+  _globals['_LABYRINTHRELICSHOPOPEN']._serialized_end=219
+  _globals['_SLABYRINTHRELICHIDDEN']._serialized_start=221
+  _globals['_SLABYRINTHRELICHIDDEN']._serialized_end=277
 # @@protoc_insertion_point(module_scope)

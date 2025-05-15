@@ -3,7 +3,6 @@ syntax = "proto3";
 package ReqPb;
 
 message UpdatePaymentAgreeDt {
-  int64 paymentAgreeDt = 1;
-  int32 paymentAgreeType = 2;
+  int32 paymentAgreeType = 1;
 }
 

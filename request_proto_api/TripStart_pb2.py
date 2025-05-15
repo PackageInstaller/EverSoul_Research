@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fTripStart.proto\x12\x05ReqPb\"A\n\tTripStart\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x17\n\x0ftripRemainCount\x18\x02 \x01(\x05\x12\x0b\n\x03uid\x18\x03 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fTripStart.proto\x12\x05ReqPb\"\x1b\n\tTripStart\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,5 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TripStart_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_TRIPSTART']._serialized_start=26
-  _globals['_TRIPSTART']._serialized_end=91
+  _globals['_TRIPSTART']._serialized_end=53
 # @@protoc_insertion_point(module_scope)

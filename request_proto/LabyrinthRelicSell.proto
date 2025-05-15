@@ -3,13 +3,8 @@ syntax = "proto3";
 package ReqPb;
 
 message LabyrinthRelicSell {
-  int32 dungeonNo = 1;
-  bytes relicInfo = 2;
-  repeated sLabyrinthItem labyrinthItem = 3;
-}
-
-message sLabyrinthItem {
-  int32 itemNo = 1;
-  int32 cnt = 2;
+  int32 dungeonId = 1;
+  repeated int32 relicNo = 2;
+  bytes relicInfo = 3;
 }
 

@@ -24,13 +24,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fHeroEquip.proto\x12\x05ReqPb\"\x1f\n\tHeroEquip\x12\x12\n\nheroEquip_\x18\x01 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0fHeroEquip.proto\x12\x05ReqPb\"R\n\tHeroEquip\x12\x0f\n\x07heroIdx\x18\x01 \x01(\t\x12\x13\n\x0bitemEquipId\x18\x02 \x01(\x03\x12\x1f\n\x04slot\x18\x03 \x01(\x0e\x32\x11.ReqPb.eEquipSlot*H\n\neEquipSlot\x12\n\n\x06Weapon\x10\x00\x12\n\n\x06Helmet\x10\x01\x12\t\n\x05\x41rmor\x10\x02\x12\x08\n\x04\x42oot\x10\x03\x12\r\n\tSignature\x10\x04\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HeroEquip_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
+  _globals['_EEQUIPSLOT']._serialized_start=110
+  _globals['_EEQUIPSLOT']._serialized_end=182
   _globals['_HEROEQUIP']._serialized_start=26
-  _globals['_HEROEQUIP']._serialized_end=57
+  _globals['_HEROEQUIP']._serialized_end=108
 # @@protoc_insertion_point(module_scope)

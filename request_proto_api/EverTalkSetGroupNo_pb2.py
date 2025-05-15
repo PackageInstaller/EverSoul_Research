@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x45verTalkSetGroupNo.proto\x12\x05ReqPb\"I\n\x12\x45verTalkSetGroupNo\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x0f\n\x07groupNo\x18\x02 \x01(\x05\x12\x12\n\nrecordedDt\x18\x03 \x01(\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18\x45verTalkSetGroupNo.proto\x12\x05ReqPb\"5\n\x12\x45verTalkSetGroupNo\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x0f\n\x07groupNo\x18\x02 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,5 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EverTalkSetGroupNo_pb2', _g
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_EVERTALKSETGROUPNO']._serialized_start=35
-  _globals['_EVERTALKSETGROUPNO']._serialized_end=108
+  _globals['_EVERTALKSETGROUPNO']._serialized_end=88
 # @@protoc_insertion_point(module_scope)

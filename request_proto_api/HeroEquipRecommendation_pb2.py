@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dHeroEquipRecommendation.proto\x12\x05ReqPb\"I\n\x17HeroEquipRecommendation\x12.\n\x10heroSetEquipList\x18\x01 \x03(\x0b\x32\x14.ReqPb.sHeroSetEquip\"3\n\rsHeroSetEquip\x12\x13\n\x0bsetEffectNo\x18\x01 \x03(\x05\x12\r\n\x05\x63ount\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dHeroEquipRecommendation.proto\x12\x05ReqPb\")\n\x17HeroEquipRecommendation\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HeroEquipRecommendation_pb2
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_HEROEQUIPRECOMMENDATION']._serialized_start=40
-  _globals['_HEROEQUIPRECOMMENDATION']._serialized_end=113
-  _globals['_SHEROSETEQUIP']._serialized_start=115
-  _globals['_SHEROSETEQUIP']._serialized_end=166
+  _globals['_HEROEQUIPRECOMMENDATION']._serialized_end=81
 # @@protoc_insertion_point(module_scope)

@@ -3,11 +3,7 @@ syntax = "proto3";
 package ReqPb;
 
 message LabyrinthRelicShopBuyNothing {
-  sLabyrinthItem getCoin = 1;
-}
-
-message sLabyrinthItem {
-  int32 itemNo = 1;
-  int32 cnt = 2;
+  int32 dungeonId = 1;
+  int32 uid = 2;
 }
 

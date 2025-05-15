@@ -3,11 +3,13 @@ syntax = "proto3";
 package EsPb;
 
 message CashGrowInfo {
-  sCashGrow cashGrow = 1;
+  repeated sCashGrow cashGrow = 1;
 }
 
 message sCashGrow {
-  int32 packageNo = 1;
+  int32 shopItemNo = 1;
   int32 lastReceiveNo = 2;
+  bool firstPaidReceived = 3;
+  bool bought = 4;
 }
 

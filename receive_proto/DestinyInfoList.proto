@@ -9,10 +9,9 @@ message DestinyInfoList {
   repeated sDestinyStoryAffinityPoint destinyStoryAffinityPoint = 4;
   repeated sTrip trip = 6;
   int32 tripRemainCount = 7;
-  repeated sTripCancel tripCancel = 8;
-  repeated sTripKeyword tripKeyword = 9;
-  int64 tripResetDt = 10;
-  repeated sLostFound lostFound = 11;
+  repeated sTripKeyword tripKeyword = 8;
+  int64 tripResetDt = 9;
+  repeated sLostFound lostFound = 10;
 }
 
 message sDestinyStoryEpisode {
@@ -42,11 +41,6 @@ message sTrip {
   int32 isReceive = 2;
   int64 yymmdd = 3;
   int32 uid = 4;
-}
-
-message sTripCancel {
-  int32 heroNo = 1;
-  int64 tripCancelDt = 2;
 }
 
 message sTripKeyword {

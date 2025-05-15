@@ -24,15 +24,13 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14HeroOptionList.proto\x12\x05ReqPb\"\x97\x01\n\x0eHeroOptionList\x12&\n\nheroOption\x18\x01 \x03(\x0b\x32\x12.ReqPb.sHeroOption\x12)\n\rnewHeroOption\x18\x02 \x03(\x0b\x32\x12.ReqPb.sHeroOption\x12\x32\n\x16notConfirmedHeroOption\x18\x03 \x03(\x0b\x32\x12.ReqPb.sHeroOption\"\x91\x01\n\x0bsHeroOption\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x0f\n\x07groupNo\x18\x02 \x01(\x05\x12\x12\n\noptionSlot\x18\x03 \x01(\x05\x12\x10\n\x08optionNo\x18\x04 \x01(\x05\x12\x13\n\x0boptionValue\x18\x05 \x01(\x05\x12\x12\n\noptionType\x18\x06 \x01(\x05\x12\x12\n\noptionLock\x18\x07 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14HeroOptionList.proto\x12\x05ReqPb\" \n\x0eHeroOptionList\x12\x0e\n\x06heroNo\x18\x01 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HeroOptionList_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_HEROOPTIONLIST']._serialized_start=32
-  _globals['_HEROOPTIONLIST']._serialized_end=183
-  _globals['_SHEROOPTION']._serialized_start=186
-  _globals['_SHEROOPTION']._serialized_end=331
+  _globals['_HEROOPTIONLIST']._serialized_start=31
+  _globals['_HEROOPTIONLIST']._serialized_end=63
 # @@protoc_insertion_point(module_scope)

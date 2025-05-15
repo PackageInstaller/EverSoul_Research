@@ -64,6 +64,7 @@ message GuildRaidBattleResult {
   sCurrencyAll currency = 3;
   repeated sItemEquip itemEquip = 4;
   repeated sItemEtc itemEtc = 5;
+  int64 bestScore = 6;
 }
 
 message sCurrencyAll {

@@ -24,17 +24,13 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16ItemUseAbleItems.proto\x12\x05ReqPb\"\xa8\x01\n\x10ItemUseAbleItems\x12<\n\x15itemUseAbleGachaGrade\x18\x01 \x01(\x0b\x32\x1d.ReqPb.sItemUseAbleGachaGrade\x12<\n\x15itemUseAbleGachaTribe\x18\x02 \x01(\x0b\x32\x1d.ReqPb.sItemUseAbleGachaTribe\x12\x18\n\x10signatureAbleCnt\x18\x03 \x01(\x05\"4\n\x16sItemUseAbleGachaGrade\x12\x0c\n\x04\x65pic\x18\x01 \x01(\x05\x12\x0c\n\x04rare\x18\x02 \x01(\x05\"q\n\x16sItemUseAbleGachaTribe\x12\r\n\x05human\x18\x01 \x01(\x05\x12\r\n\x05\x66urry\x18\x02 \x01(\x05\x12\x0b\n\x03\x65lf\x18\x03 \x01(\x05\x12\x0e\n\x06undead\x18\x04 \x01(\x05\x12\r\n\x05\x61ngel\x18\x05 \x01(\x05\x12\r\n\x05\x64\x65vil\x18\x06 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16ItemUseAbleItems.proto\x12\x05ReqPb\"\"\n\x10ItemUseAbleItems\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ItemUseAbleItems_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_ITEMUSEABLEITEMS']._serialized_start=34
-  _globals['_ITEMUSEABLEITEMS']._serialized_end=202
-  _globals['_SITEMUSEABLEGACHAGRADE']._serialized_start=204
-  _globals['_SITEMUSEABLEGACHAGRADE']._serialized_end=256
-  _globals['_SITEMUSEABLEGACHATRIBE']._serialized_start=258
-  _globals['_SITEMUSEABLEGACHATRIBE']._serialized_end=371
+  _globals['_ITEMUSEABLEITEMS']._serialized_start=33
+  _globals['_ITEMUSEABLEITEMS']._serialized_end=67
 # @@protoc_insertion_point(module_scope)

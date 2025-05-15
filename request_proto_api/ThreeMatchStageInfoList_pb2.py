@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dThreeMatchStageInfoList.proto\x12\x05ReqPb\"X\n\x17ThreeMatchStageInfoList\x12$\n\x04info\x18\x01 \x03(\x0b\x32\x16.ReqPb.sThreeMatchInfo\x12\x17\n\x0freceiveRewardNo\x18\x02 \x03(\x05\"\\\n\x0fsThreeMatchInfo\x12\x0f\n\x07groupNo\x18\x01 \x01(\x05\x12\x0f\n\x07stageNo\x18\x02 \x01(\x05\x12\x10\n\x08maxScore\x18\x03 \x01(\x05\x12\x15\n\rmaxHeartCount\x18\x04 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dThreeMatchStageInfoList.proto\x12\x05ReqPb\"*\n\x17ThreeMatchStageInfoList\x12\x0f\n\x07groupNo\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ThreeMatchStageInfoList_pb2
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_THREEMATCHSTAGEINFOLIST']._serialized_start=40
-  _globals['_THREEMATCHSTAGEINFOLIST']._serialized_end=128
-  _globals['_STHREEMATCHINFO']._serialized_start=130
-  _globals['_STHREEMATCHINFO']._serialized_end=222
+  _globals['_THREEMATCHSTAGEINFOLIST']._serialized_end=82
 # @@protoc_insertion_point(module_scope)

@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19TownTileMultiRemove.proto\x12\x05ReqPb\"b\n\x13TownTileMultiRemove\x12)\n\x0etownObjectList\x18\x01 \x03(\x0b\x32\x11.ReqPb.sTownObjet\x12 \n\x07itemEtc\x18\x02 \x03(\x0b\x32\x0f.ReqPb.sItemEtc\"d\n\nsTownObjet\x12\x0f\n\x07objetNo\x18\x01 \x01(\x05\x12\x0b\n\x03uid\x18\x02 \x01(\x05\x12\x10\n\x08position\x18\x03 \x01(\t\x12\x10\n\x08rotation\x18\x04 \x01(\t\x12\x14\n\x0cobjetGroupNo\x18\x05 \x01(\x05\"\'\n\x08sItemEtc\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\x0b\n\x03\x63nt\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19TownTileMultiRemove.proto\x12\x05ReqPb\"B\n\x13TownTileMultiRemove\x12+\n\nremoveTile\x18\x01 \x03(\x0b\x32\x17.ReqPb.sRemoveTownObjet\"0\n\x10sRemoveTownObjet\x12\x0f\n\x07objetNo\x18\x01 \x01(\x05\x12\x0b\n\x03uid\x18\x02 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,9 +32,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TownTileMultiRemove_pb2', _
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_TOWNTILEMULTIREMOVE']._serialized_start=36
-  _globals['_TOWNTILEMULTIREMOVE']._serialized_end=134
-  _globals['_STOWNOBJET']._serialized_start=136
-  _globals['_STOWNOBJET']._serialized_end=236
-  _globals['_SITEMETC']._serialized_start=238
-  _globals['_SITEMETC']._serialized_end=277
+  _globals['_TOWNTILEMULTIREMOVE']._serialized_end=102
+  _globals['_SREMOVETOWNOBJET']._serialized_start=104
+  _globals['_SREMOVETOWNOBJET']._serialized_end=152
 # @@protoc_insertion_point(module_scope)

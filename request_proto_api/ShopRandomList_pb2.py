@@ -24,15 +24,13 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14ShopRandomList.proto\x12\x05ReqPb\"\x84\x01\n\x0eShopRandomList\x12\x0e\n\x06shopNo\x18\x01 \x01(\x05\x12\x17\n\x0fshopDrawBoxStep\x18\x02 \x01(\x05\x12\x1d\n\x15shopDrawBoxRepeatStep\x18\x03 \x01(\x05\x12*\n\nboughtItem\x18\x04 \x03(\x0b\x32\x16.ReqPb.sShopRandomItem\"4\n\x0fsShopRandomItem\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\x11\n\tdrewCount\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14ShopRandomList.proto\x12\x05ReqPb\" \n\x0eShopRandomList\x12\x0e\n\x06shopNo\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ShopRandomList_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_SHOPRANDOMLIST']._serialized_start=32
-  _globals['_SHOPRANDOMLIST']._serialized_end=164
-  _globals['_SSHOPRANDOMITEM']._serialized_start=166
-  _globals['_SSHOPRANDOMITEM']._serialized_end=218
+  _globals['_SHOPRANDOMLIST']._serialized_start=31
+  _globals['_SHOPRANDOMLIST']._serialized_end=63
 # @@protoc_insertion_point(module_scope)

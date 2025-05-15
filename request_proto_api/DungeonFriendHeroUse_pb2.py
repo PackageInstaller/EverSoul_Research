@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x44ungeonFriendHeroUse.proto\x12\x05ReqPb\"B\n\x14\x44ungeonFriendHeroUse\x12*\n\x0crentUsedHero\x18\x01 \x03(\x0b\x32\x14.ReqPb.sRentUsedHero\".\n\rsRentUsedHero\x12\x0f\n\x07heroIdx\x18\x01 \x01(\t\x12\x0c\n\x04used\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x44ungeonFriendHeroUse.proto\x12\x05ReqPb\"1\n\x14\x44ungeonFriendHeroUse\x12\x19\n\x11\x66riendHeroIdxList\x18\x01 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonFriendHeroUse_pb2', 
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_DUNGEONFRIENDHEROUSE']._serialized_start=37
-  _globals['_DUNGEONFRIENDHEROUSE']._serialized_end=103
-  _globals['_SRENTUSEDHERO']._serialized_start=105
-  _globals['_SRENTUSEDHERO']._serialized_end=151
+  _globals['_DUNGEONFRIENDHEROUSE']._serialized_end=86
 # @@protoc_insertion_point(module_scope)

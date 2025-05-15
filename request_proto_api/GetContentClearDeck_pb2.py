@@ -24,19 +24,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19GetContentClearDeck.proto\x12\x05ReqPb\"v\n\x13GetContentClearDeck\x12\x13\n\x0b\x63ontentType\x18\x01 \x01(\x05\x12\x11\n\tcontentNo\x18\x02 \x01(\x05\x12\x37\n\x11\x63ontentClearDecks\x18\x03 \x03(\x0b\x32\x1c.ReqPb.sContentClearDeckList\"S\n\x15sContentClearDeckList\x12:\n\x14\x63ontentClearDeckInfo\x18\x01 \x03(\x0b\x32\x1c.ReqPb.sContentClearDeckInfo\"\x86\x01\n\x15sContentClearDeckInfo\x12\x15\n\rformationType\x18\x01 \x01(\x05\x12\x10\n\x08sumPower\x18\x02 \x01(\x05\x12\x13\n\x0b\x64\x65\x63kOrderNo\x18\x03 \x01(\x05\x12/\n\tclearHero\x18\x04 \x03(\x0b\x32\x1c.ReqPb.sContentClearHeroInfo\"H\n\x15sContentClearHeroInfo\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x10\n\x08gradeSno\x18\x02 \x01(\x05\x12\r\n\x05level\x18\x03 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19GetContentClearDeck.proto\x12\x05ReqPb\"W\n\x13GetContentClearDeck\x12-\n\x0b\x63ontentType\x18\x01 \x01(\x0e\x32\x18.ReqPb.eContentClearType\x12\x11\n\tcontentNo\x18\x02 \x01(\x05*\x83\x01\n\x11\x65\x43ontentClearType\x12\t\n\x05Stage\x10\x00\x12\x14\n\x10\x46reedomGateClear\x10\x01\x12\x12\n\x0eHumanGateClear\x10\x02\x12\x12\n\x0e\x46urryGateClear\x10\x03\x12\x10\n\x0c\x45lfGateClear\x10\x04\x12\x13\n\x0fUndeadGateClear\x10\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GetContentClearDeck_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
+  _globals['_ECONTENTCLEARTYPE']._serialized_start=126
+  _globals['_ECONTENTCLEARTYPE']._serialized_end=257
   _globals['_GETCONTENTCLEARDECK']._serialized_start=36
-  _globals['_GETCONTENTCLEARDECK']._serialized_end=154
-  _globals['_SCONTENTCLEARDECKLIST']._serialized_start=156
-  _globals['_SCONTENTCLEARDECKLIST']._serialized_end=239
-  _globals['_SCONTENTCLEARDECKINFO']._serialized_start=242
-  _globals['_SCONTENTCLEARDECKINFO']._serialized_end=376
-  _globals['_SCONTENTCLEARHEROINFO']._serialized_start=378
-  _globals['_SCONTENTCLEARHEROINFO']._serialized_end=450
+  _globals['_GETCONTENTCLEARDECK']._serialized_end=123
 # @@protoc_insertion_point(module_scope)

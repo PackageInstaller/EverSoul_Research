@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dHeroOptionChangeConfirm.proto\x12\x05ReqPb\"A\n\x17HeroOptionChangeConfirm\x12&\n\nheroOption\x18\x01 \x03(\x0b\x32\x12.ReqPb.sHeroOption\"\x91\x01\n\x0bsHeroOption\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x0f\n\x07groupNo\x18\x02 \x01(\x05\x12\x12\n\noptionSlot\x18\x03 \x01(\x05\x12\x10\n\x08optionNo\x18\x04 \x01(\x05\x12\x13\n\x0boptionValue\x18\x05 \x01(\x05\x12\x12\n\noptionType\x18\x06 \x01(\x05\x12\x12\n\noptionLock\x18\x07 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dHeroOptionChangeConfirm.proto\x12\x05ReqPb\":\n\x17HeroOptionChangeConfirm\x12\x0e\n\x06heroNo\x18\x01 \x01(\t\x12\x0f\n\x07groupNo\x18\x02 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HeroOptionChangeConfirm_pb2
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_HEROOPTIONCHANGECONFIRM']._serialized_start=40
-  _globals['_HEROOPTIONCHANGECONFIRM']._serialized_end=105
-  _globals['_SHEROOPTION']._serialized_start=108
-  _globals['_SHEROOPTION']._serialized_end=253
+  _globals['_HEROOPTIONCHANGECONFIRM']._serialized_end=98
 # @@protoc_insertion_point(module_scope)

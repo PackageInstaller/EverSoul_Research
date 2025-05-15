@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18SetTripKeywordList.proto\x12\x05ReqPb\">\n\x12SetTripKeywordList\x12(\n\x0btripKeyword\x18\x01 \x03(\x0b\x32\x13.ReqPb.sTripKeyword\"B\n\x0csTripKeyword\x12\x11\n\tkeywordNo\x18\x01 \x01(\x05\x12\x0f\n\x07isFirst\x18\x02 \x01(\x05\x12\x0e\n\x06heroNo\x18\x03 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18SetTripKeywordList.proto\x12\x05ReqPb\">\n\x12SetTripKeywordList\x12(\n\x0btripKeyword\x18\x01 \x03(\x0b\x32\x13.ReqPb.sTripKeyword\"1\n\x0csTripKeyword\x12\x11\n\tkeywordNo\x18\x01 \x01(\x05\x12\x0e\n\x06heroNo\x18\x02 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -34,5 +34,5 @@ if not _descriptor._USE_C_DESCRIPTORS:
   _globals['_SETTRIPKEYWORDLIST']._serialized_start=35
   _globals['_SETTRIPKEYWORDLIST']._serialized_end=97
   _globals['_STRIPKEYWORD']._serialized_start=99
-  _globals['_STRIPKEYWORD']._serialized_end=165
+  _globals['_STRIPKEYWORD']._serialized_end=148
 # @@protoc_insertion_point(module_scope)

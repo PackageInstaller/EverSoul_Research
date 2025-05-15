@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x43\x61shShopItemBuy.proto\x12\x05ReqPb\"\xaa\x01\n\x0f\x43\x61shShopItemBuy\x12\x10\n\x08playerId\x18\x01 \x01(\t\x12\r\n\x05tabNo\x18\x02 \x01(\x05\x12\"\n\x08\x63\x61shShop\x18\x03 \x03(\x0b\x32\x10.ReqPb.sCashShop\x12&\n\ncashDailyN\x18\x04 \x03(\x0b\x32\x12.ReqPb.sCashDailyN\x12*\n\x0c\x64\x61ilyContent\x18\x05 \x01(\x0b\x32\x14.ReqPb.sDailyContent\"L\n\tsCashShop\x12\n\n\x02no\x18\x01 \x01(\x05\x12\x10\n\x08\x62uyCount\x18\x02 \x01(\x05\x12\x11\n\texpiredDt\x18\x03 \x01(\x03\x12\x0e\n\x06openDt\x18\x04 \x01(\x03\"M\n\x0bsCashDailyN\x12\x11\n\tpackageNo\x18\x01 \x01(\x05\x12\x16\n\x0erewardYyyymmdd\x18\x02 \x01(\x05\x12\x13\n\x0b\x65ndYyyymmdd\x18\x03 \x01(\x05\"\x96\x01\n\rsDailyContent\x12\x10\n\x08\x61renaCnt\x18\x01 \x01(\x05\x12\x10\n\x08townCoin\x18\x02 \x01(\x05\x12\x0f\n\x07raceSno\x18\x03 \x01(\x05\x12\x12\n\nahQuickCnt\x18\x04 \x01(\x05\x12\x14\n\x0cteamarenaCnt\x18\x05 \x01(\x05\x12&\n\x1e\x64oubleGateNormalTicketBuyCount\x18\x06 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x43\x61shShopItemBuy.proto\x12\x05ReqPb\"\xf8\x01\n\x0f\x43\x61shShopItemBuy\x12\x0f\n\x07iapType\x18\x01 \x01(\x05\x12\r\n\x05payDt\x18\x02 \x01(\x03\x12\x0f\n\x07receipt\x18\x03 \x01(\t\x12\x0f\n\x07\x63ountry\x18\x04 \x01(\t\x12\x10\n\x08\x63urrency\x18\x05 \x01(\t\x12\r\n\x05price\x18\x06 \x01(\t\x12\x14\n\x0ciapProductId\x18\x07 \x01(\t\x12\x0e\n\x06iExtra\x18\x08 \x01(\x03\x12\x19\n\x11marketCountryCode\x18\t \x01(\t\x12\x18\n\x10marketIdentifier\x18\n \x01(\t\x12\x10\n\x08playerId\x18\x0b \x01(\t\x12\x15\n\rpaymentUserId\x18\x0c \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,11 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CashShopItemBuy_pb2', _glob
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_CASHSHOPITEMBUY']._serialized_start=33
-  _globals['_CASHSHOPITEMBUY']._serialized_end=203
-  _globals['_SCASHSHOP']._serialized_start=205
-  _globals['_SCASHSHOP']._serialized_end=281
-  _globals['_SCASHDAILYN']._serialized_start=283
-  _globals['_SCASHDAILYN']._serialized_end=360
-  _globals['_SDAILYCONTENT']._serialized_start=363
-  _globals['_SDAILYCONTENT']._serialized_end=513
+  _globals['_CASHSHOPITEMBUY']._serialized_end=281
 # @@protoc_insertion_point(module_scope)

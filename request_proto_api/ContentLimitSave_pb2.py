@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43ontentLimitSave.proto\x12\x05ReqPb\"\x1e\n\x10\x43ontentLimitSave\x12\n\n\x02no\x18\x01 \x03(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16\x43ontentLimitSave.proto\x12\x05ReqPb\"\x1e\n\x10\x43ontentLimitSave\x12\n\n\x02no\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)

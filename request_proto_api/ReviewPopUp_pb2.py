@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11ReviewPopUp.proto\x12\x05ReqPb\"-\n\x0bReviewPopUp\x12\x10\n\x08reviewDt\x18\x01 \x01(\x03\x12\x0c\n\x04\x66lag\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11ReviewPopUp.proto\x12\x05ReqPb\"\x1b\n\x0bReviewPopUp\x12\x0c\n\x04\x66lag\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,5 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ReviewPopUp_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_REVIEWPOPUP']._serialized_start=28
-  _globals['_REVIEWPOPUP']._serialized_end=73
+  _globals['_REVIEWPOPUP']._serialized_end=55
 # @@protoc_insertion_point(module_scope)

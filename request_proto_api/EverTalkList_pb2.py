@@ -24,21 +24,13 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12\x45verTalkList.proto\x12\x05ReqPb\"\x80\x01\n\x0c\x45verTalkList\x12.\n\x0c\x65verTalkData\x18\x01 \x03(\x0b\x32\x18.ReqPb.sEverTalkDataList\x12@\n\x17\x65verTalkMemorialPicture\x18\x04 \x03(\x0b\x32\x1f.ReqPb.sEverTalkMemorialPicture\"\x9f\x01\n\x11sEverTalkDataList\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x38\n\x0f\x64\x65stinyTalkData\x18\x02 \x01(\x0b\x32\x1f.ReqPb.sEverTalkHeroDestinyData\x12@\n\x13\x61nniversaryTalkData\x18\x03 \x03(\x0b\x32#.ReqPb.sEverTalkHeroAnniversaryData\"[\n\x18sEverTalkHeroDestinyData\x12\x0f\n\x07groupNo\x18\x01 \x01(\x05\x12\x1a\n\x12lastReceiveGroupNo\x18\x02 \x01(\x05\x12\x12\n\nrecordedDt\x18\x03 \x01(\x03\"X\n\x1csEverTalkHeroAnniversaryData\x12\x0f\n\x07groupNo\x18\x01 \x01(\x05\x12\x13\n\x0breceiveFlag\x18\x02 \x01(\x05\x12\x12\n\nrecordedDt\x18\x03 \x01(\x03\"C\n\x18sEverTalkMemorialPicture\x12\x0e\n\x06talkNo\x18\x01 \x01(\x05\x12\x17\n\x0fmemorialMessage\x18\x02 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12\x45verTalkList.proto\x12\x05ReqPb\"\x1e\n\x0c\x45verTalkList\x12\x0e\n\x06heroNo\x18\x01 \x03(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EverTalkList_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_EVERTALKLIST']._serialized_start=30
-  _globals['_EVERTALKLIST']._serialized_end=158
-  _globals['_SEVERTALKDATALIST']._serialized_start=161
-  _globals['_SEVERTALKDATALIST']._serialized_end=320
-  _globals['_SEVERTALKHERODESTINYDATA']._serialized_start=322
-  _globals['_SEVERTALKHERODESTINYDATA']._serialized_end=413
-  _globals['_SEVERTALKHEROANNIVERSARYDATA']._serialized_start=415
-  _globals['_SEVERTALKHEROANNIVERSARYDATA']._serialized_end=503
-  _globals['_SEVERTALKMEMORIALPICTURE']._serialized_start=505
-  _globals['_SEVERTALKMEMORIALPICTURE']._serialized_end=572
+  _globals['_EVERTALKLIST']._serialized_start=29
+  _globals['_EVERTALKLIST']._serialized_end=59
 # @@protoc_insertion_point(module_scope)

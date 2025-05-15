@@ -24,17 +24,13 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bLabyrinthRelicShopBuy.proto\x12\x05ReqPb\"\x95\x01\n\x15LabyrinthRelicShopBuy\x12>\n\x16labyrinthRelicShopItem\x18\x01 \x03(\x0b\x32\x1e.ReqPb.sLabyrinthRelicShopItem\x12\x11\n\trelicInfo\x18\x02 \x01(\x0c\x12)\n\nremainCoin\x18\x03 \x01(\x0b\x32\x15.ReqPb.sLabyrinthItem\";\n\x17sLabyrinthRelicShopItem\x12\x0f\n\x07relicNo\x18\x01 \x01(\x05\x12\x0f\n\x07soldOut\x18\x02 \x01(\x05\"-\n\x0esLabyrinthItem\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\x0b\n\x03\x63nt\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bLabyrinthRelicShopBuy.proto\x12\x05ReqPb\"H\n\x15LabyrinthRelicShopBuy\x12\x11\n\tdungeonId\x18\x01 \x01(\x05\x12\x0b\n\x03uid\x18\x02 \x01(\x05\x12\x0f\n\x07relicNo\x18\x03 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'LabyrinthRelicShopBuy_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_LABYRINTHRELICSHOPBUY']._serialized_start=39
-  _globals['_LABYRINTHRELICSHOPBUY']._serialized_end=188
-  _globals['_SLABYRINTHRELICSHOPITEM']._serialized_start=190
-  _globals['_SLABYRINTHRELICSHOPITEM']._serialized_end=249
-  _globals['_SLABYRINTHITEM']._serialized_start=251
-  _globals['_SLABYRINTHITEM']._serialized_end=296
+  _globals['_LABYRINTHRELICSHOPBUY']._serialized_start=38
+  _globals['_LABYRINTHRELICSHOPBUY']._serialized_end=110
 # @@protoc_insertion_point(module_scope)

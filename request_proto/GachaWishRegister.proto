@@ -3,7 +3,8 @@ syntax = "proto3";
 package ReqPb;
 
 message GachaWishRegister {
-  repeated sGachaWish gachaWish = 1;
+  int32 gachaNo = 1;
+  repeated sGachaWish gachaWish = 2;
 }
 
 message sGachaWish {

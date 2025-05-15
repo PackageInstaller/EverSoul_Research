@@ -63,6 +63,7 @@ message SingleRaidBattleResult {
   sCurrencyAll currency = 2;
   repeated sItemEtc itemEtc = 3;
   repeated sItemEquip itemEquip = 4;
+  int32 bestScore = 5;
 }
 
 message sSingleRaidBoss {

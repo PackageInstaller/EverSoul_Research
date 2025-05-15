@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11\x44ungeonMode.proto\x12\x05ReqPb\"4\n\x0b\x44ungeonMode\x12\x11\n\tdungeonNo\x18\x01 \x01(\x05\x12\x12\n\ndifficulty\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11\x44ungeonMode.proto\x12\x05ReqPb\"J\n\x0b\x44ungeonMode\x12\x11\n\tdungeonId\x18\x01 \x01(\x05\x12\x12\n\ndifficulty\x18\x02 \x01(\x05\x12\x14\n\x0c\x64ungeonLevel\x18\x03 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,5 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonMode_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_DUNGEONMODE']._serialized_start=28
-  _globals['_DUNGEONMODE']._serialized_end=80
+  _globals['_DUNGEONMODE']._serialized_end=102
 # @@protoc_insertion_point(module_scope)

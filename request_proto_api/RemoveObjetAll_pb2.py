@@ -24,21 +24,13 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14RemoveObjetAll.proto\x12\x05ReqPb\"\xb1\x01\n\x0eRemoveObjetAll\x12 \n\x07itemEtc\x18\x01 \x03(\x0b\x32\x0f.ReqPb.sItemEtc\x12)\n\x0etownObjectList\x18\x02 \x03(\x0b\x32\x11.ReqPb.sTownObjet\x12\"\n\x08townInfo\x18\x03 \x01(\x0b\x32\x10.ReqPb.sTownInfo\x12.\n\x0eheroReputation\x18\x04 \x03(\x0b\x32\x16.ReqPb.sHeroReputation\"\'\n\x08sItemEtc\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\x0b\n\x03\x63nt\x18\x02 \x01(\x05\"d\n\nsTownObjet\x12\x0f\n\x07objetNo\x18\x01 \x01(\x05\x12\x0b\n\x03uid\x18\x02 \x01(\x05\x12\x10\n\x08position\x18\x03 \x01(\t\x12\x10\n\x08rotation\x18\x04 \x01(\t\x12\x14\n\x0cobjetGroupNo\x18\x05 \x01(\x05\";\n\tsTownInfo\x12\x11\n\ttownLevel\x18\x01 \x01(\x05\x12\x1b\n\x13\x63urrentDevelopPoint\x18\x02 \x01(\x03\"\x9c\x02\n\x0fsHeroReputation\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x12\n\nreputation\x18\x02 \x01(\x05\x12\r\n\x05state\x18\x03 \x01(\x05\x12\x0e\n\x06stress\x18\x04 \x01(\x05\x12\x14\n\x0clastUpdateDt\x18\x05 \x01(\x03\x12\x0e\n\x06giftDt\x18\x06 \x01(\x03\x12\x15\n\rcostumeItemNo\x18\x07 \x01(\x05\x12\x13\n\x0bstoryReward\x18\x08 \x01(\x05\x12\x13\n\x0bmaxGradeSno\x18\t \x01(\x05\x12\x10\n\x08objetUid\x18\n \x01(\x05\x12\x12\n\nmaxLevelDt\x18\x0b \x01(\x03\x12\x11\n\tarbeitExp\x18\x0c \x01(\x05\x12\x10\n\x08priority\x18\r \x01(\x05\x12\x14\n\x0crestFinishDt\x18\x0e \x01(\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14RemoveObjetAll.proto\x12\x05ReqPb\":\n\x0eRemoveObjetAll\x12\x12\n\nisBuilding\x18\x01 \x01(\x08\x12\x14\n\x0cobjetGroupNo\x18\x02 \x03(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'RemoveObjetAll_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_REMOVEOBJETALL']._serialized_start=32
-  _globals['_REMOVEOBJETALL']._serialized_end=209
-  _globals['_SITEMETC']._serialized_start=211
-  _globals['_SITEMETC']._serialized_end=250
-  _globals['_STOWNOBJET']._serialized_start=252
-  _globals['_STOWNOBJET']._serialized_end=352
-  _globals['_STOWNINFO']._serialized_start=354
-  _globals['_STOWNINFO']._serialized_end=413
-  _globals['_SHEROREPUTATION']._serialized_start=416
-  _globals['_SHEROREPUTATION']._serialized_end=700
+  _globals['_REMOVEOBJETALL']._serialized_start=31
+  _globals['_REMOVEOBJETALL']._serialized_end=89
 # @@protoc_insertion_point(module_scope)

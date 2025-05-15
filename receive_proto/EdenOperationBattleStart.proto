@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-package EsPb;
-
-message EdenOperationBattleStart {
-  repeated int32 lastSelectConstraintNo = 1;
-}
-

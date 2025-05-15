@@ -78,8 +78,9 @@ message sWorldRaidInfo {
   int64 myDamage = 10;
   int32 rewardReceiveFlag = 11;
   int32 rankRewardReceiveFlag = 12;
-  sWorldRaidRanking firstRankingData = 13;
-  repeated int32 bannedHeroNo = 14;
+  int64 battleRewardDamage = 13;
+  sWorldRaidRanking firstRankingData = 14;
+  repeated int32 bannedHeroNo = 15;
 }
 
 message sWorldRaidRanking {

@@ -3,13 +3,6 @@ syntax = "proto3";
 package ReqPb;
 
 message TempHeroReputationInfo {
-  sTempReputation tempHeroReputation = 1;
-}
-
-message sTempReputation {
   int32 heroNo = 1;
-  int32 reputation = 2;
-  int64 giftDt = 3;
-  int64 maxLevelDt = 4;
 }
 

@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16SignatureUpgrade.proto\x12\x05ReqPb\"b\n\x10SignatureUpgrade\x12,\n\ritemSignature\x18\x01 \x01(\x0b\x32\x15.ReqPb.sItemSignature\x12 \n\x07itemEtc\x18\x02 \x01(\x0b\x32\x0f.ReqPb.sItemEtc\">\n\x0esItemSignature\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\r\n\x05grade\x18\x02 \x01(\x05\x12\r\n\x05level\x18\x03 \x01(\x05\"\'\n\x08sItemEtc\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\x0b\n\x03\x63nt\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x16SignatureUpgrade.proto\x12\x05ReqPb\"/\n\x10SignatureUpgrade\x12\n\n\x02no\x18\x01 \x01(\x05\x12\x0f\n\x07heroIdx\x18\x02 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,9 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SignatureUpgrade_pb2', _glo
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_SIGNATUREUPGRADE']._serialized_start=33
-  _globals['_SIGNATUREUPGRADE']._serialized_end=131
-  _globals['_SITEMSIGNATURE']._serialized_start=133
-  _globals['_SITEMSIGNATURE']._serialized_end=195
-  _globals['_SITEMETC']._serialized_start=197
-  _globals['_SITEMETC']._serialized_end=236
+  _globals['_SIGNATUREUPGRADE']._serialized_end=80
 # @@protoc_insertion_point(module_scope)

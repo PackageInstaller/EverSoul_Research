@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cTempHeroReputationInfo.proto\x12\x05ReqPb\"L\n\x16TempHeroReputationInfo\x12\x32\n\x12tempHeroReputation\x18\x01 \x01(\x0b\x32\x16.ReqPb.sTempReputation\"Y\n\x0fsTempReputation\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x12\n\nreputation\x18\x02 \x01(\x05\x12\x0e\n\x06giftDt\x18\x03 \x01(\x03\x12\x12\n\nmaxLevelDt\x18\x04 \x01(\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1cTempHeroReputationInfo.proto\x12\x05ReqPb\"(\n\x16TempHeroReputationInfo\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TempHeroReputationInfo_pb2'
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_TEMPHEROREPUTATIONINFO']._serialized_start=39
-  _globals['_TEMPHEROREPUTATIONINFO']._serialized_end=115
-  _globals['_STEMPREPUTATION']._serialized_start=117
-  _globals['_STEMPREPUTATION']._serialized_end=206
+  _globals['_TEMPHEROREPUTATIONINFO']._serialized_end=79
 # @@protoc_insertion_point(module_scope)

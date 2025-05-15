@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17MessageMailDelete.proto\x12\x05ReqPb\"=\n\x11MessageMailDelete\x12(\n\x0bmessageMail\x18\x01 \x01(\x0b\x32\x13.ReqPb.sMessageMail\"-\n\x0csMessageMail\x12\n\n\x02no\x18\x01 \x01(\x05\x12\x11\n\tisReceive\x18\x02 \x01(\x08\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17MessageMailDelete.proto\x12\x05ReqPb\"\x1f\n\x11MessageMailDelete\x12\n\n\x02no\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MessageMailDelete_pb2', _gl
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_MESSAGEMAILDELETE']._serialized_start=34
-  _globals['_MESSAGEMAILDELETE']._serialized_end=95
-  _globals['_SMESSAGEMAIL']._serialized_start=97
-  _globals['_SMESSAGEMAIL']._serialized_end=142
+  _globals['_MESSAGEMAILDELETE']._serialized_end=65
 # @@protoc_insertion_point(module_scope)

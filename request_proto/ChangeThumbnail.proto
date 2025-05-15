@@ -3,10 +3,6 @@ syntax = "proto3";
 package ReqPb;
 
 message ChangeThumbnail {
-  sThumbnail thumbnail = 1;
-}
-
-message sThumbnail {
   int32 thumbnailFrame = 1;
   int32 thumbnailImage = 2;
   bool useCustom = 3;

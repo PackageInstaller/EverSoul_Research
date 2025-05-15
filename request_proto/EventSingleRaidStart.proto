@@ -3,17 +3,9 @@ syntax = "proto3";
 package ReqPb;
 
 message EventSingleRaidStart {
-  sEventSingleRaid eventSingleRaid = 1;
-  int64 bossHp = 2;
-  int64 groggy = 3;
-}
-
-message sEventSingleRaid {
   int32 eventGroup = 1;
   int32 eventNumber = 2;
-  int32 enterCnt = 3;
-  int32 maxLevel = 4;
-  int32 maxLevelLastReward = 5;
-  int32 diaUseCount = 6;
+  int32 level = 3;
+  int32 ticketType = 4;
 }
 

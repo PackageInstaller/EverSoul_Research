@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x46riendRequest.proto\x12\x05ReqPb\"\'\n\rFriendRequest\x12\x16\n\x0e\x66riendRequest_\x18\x01 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x46riendRequest.proto\x12\x05ReqPb\"(\n\rFriendRequest\x12\x17\n\x0fresponseUserIdx\x18\x01 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,5 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FriendRequest_pb2', _global
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_FRIENDREQUEST']._serialized_start=30
-  _globals['_FRIENDREQUEST']._serialized_end=69
+  _globals['_FRIENDREQUEST']._serialized_end=70
 # @@protoc_insertion_point(module_scope)

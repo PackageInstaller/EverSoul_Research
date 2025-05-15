@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x46riendRentHero.proto\x12\x05ReqPb\";\n\x0e\x46riendRentHero\x12)\n\x0crentHeroList\x18\x01 \x03(\x0b\x32\x13.ReqPb.sRentUseHero\"\xe1\x02\n\x0csRentUseHero\x12\x0f\n\x07heroIdx\x18\x01 \x01(\t\x12\x0f\n\x07userIdx\x18\x02 \x01(\t\x12\x0e\n\x06heroNo\x18\x03 \x01(\x05\x12\r\n\x05level\x18\x04 \x01(\x05\x12\x10\n\x08gradeSno\x18\x05 \x01(\x05\x12\x0f\n\x07raceSno\x18\x06 \x01(\x05\x12\r\n\x05power\x18\x07 \x01(\x03\x12\x10\n\x08nickName\x18\x08 \x01(\t\x12\x0c\n\x04used\x18\t \x01(\x05\x12\x15\n\rcostumeItemNo\x18\n \x01(\x05\x12\x32\n\x10slotAndEquipItem\x18\x0b \x03(\x0b\x32\x18.ReqPb.sSlotAndEquipItem\x12(\n\tsignature\x18\x0c \x01(\x0b\x32\x15.ReqPb.sItemSignature\x12!\n\x04\x62uff\x18\r \x03(\x0b\x32\x13.ReqPb.sContentBuff\x12&\n\nheroOption\x18\x0e \x03(\x0b\x32\x12.ReqPb.sHeroOption\"G\n\x11sSlotAndEquipItem\x12\x0c\n\x04slot\x18\x01 \x01(\x05\x12$\n\titemEquip\x18\x02 \x01(\x0b\x32\x11.ReqPb.sItemEquip\"5\n\nsItemEquip\x12\n\n\x02id\x18\x01 \x01(\x03\x12\x0e\n\x06itemNo\x18\x02 \x01(\x05\x12\x0b\n\x03\x65xp\x18\x03 \x01(\x05\">\n\x0esItemSignature\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\r\n\x05grade\x18\x02 \x01(\x05\x12\r\n\x05level\x18\x03 \x01(\x05\"T\n\x0csContentBuff\x12\x13\n\x0b\x63ontentType\x18\x01 \x01(\x05\x12\x10\n\x08\x62uffType\x18\x02 \x01(\x05\x12\x0e\n\x06\x62uffNo\x18\x03 \x01(\x05\x12\r\n\x05value\x18\x04 \x01(\x05\"\x91\x01\n\x0bsHeroOption\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x0f\n\x07groupNo\x18\x02 \x01(\x05\x12\x12\n\noptionSlot\x18\x03 \x01(\x05\x12\x10\n\x08optionNo\x18\x04 \x01(\x05\x12\x13\n\x0boptionValue\x18\x05 \x01(\x05\x12\x12\n\noptionType\x18\x06 \x01(\x05\x12\x12\n\noptionLock\x18\x07 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x14\x46riendRentHero.proto\x12\x05ReqPb\"%\n\x0e\x46riendRentHero\x12\x13\n\x0bheroIdxList\x18\x01 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,17 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FriendRentHero_pb2', _globa
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_FRIENDRENTHERO']._serialized_start=31
-  _globals['_FRIENDRENTHERO']._serialized_end=90
-  _globals['_SRENTUSEHERO']._serialized_start=93
-  _globals['_SRENTUSEHERO']._serialized_end=446
-  _globals['_SSLOTANDEQUIPITEM']._serialized_start=448
-  _globals['_SSLOTANDEQUIPITEM']._serialized_end=519
-  _globals['_SITEMEQUIP']._serialized_start=521
-  _globals['_SITEMEQUIP']._serialized_end=574
-  _globals['_SITEMSIGNATURE']._serialized_start=576
-  _globals['_SITEMSIGNATURE']._serialized_end=638
-  _globals['_SCONTENTBUFF']._serialized_start=640
-  _globals['_SCONTENTBUFF']._serialized_end=724
-  _globals['_SHEROOPTION']._serialized_start=727
-  _globals['_SHEROOPTION']._serialized_end=872
+  _globals['_FRIENDRENTHERO']._serialized_end=68
 # @@protoc_insertion_point(module_scope)

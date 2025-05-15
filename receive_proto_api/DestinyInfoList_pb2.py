@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x44\x65stinyInfoList.proto\x12\x04\x45sPb\"\x96\x03\n\x0f\x44\x65stinyInfoList\x12\x37\n\x13\x64\x65stinyStoryEpisode\x18\x01 \x03(\x0b\x32\x1a.EsPb.sDestinyStoryEpisode\x12\x18\n\x10pickUpHeroNoList\x18\x02 \x03(\x05\x12-\n\x0etempReputation\x18\x03 \x03(\x0b\x32\x15.EsPb.sTempReputation\x12\x43\n\x19\x64\x65stinyStoryAffinityPoint\x18\x04 \x03(\x0b\x32 .EsPb.sDestinyStoryAffinityPoint\x12\x19\n\x04trip\x18\x06 \x03(\x0b\x32\x0b.EsPb.sTrip\x12\x17\n\x0ftripRemainCount\x18\x07 \x01(\x05\x12%\n\ntripCancel\x18\x08 \x03(\x0b\x32\x11.EsPb.sTripCancel\x12\'\n\x0btripKeyword\x18\t \x03(\x0b\x32\x12.EsPb.sTripKeyword\x12\x13\n\x0btripResetDt\x18\n \x01(\x03\x12#\n\tlostFound\x18\x0b \x03(\x0b\x32\x10.EsPb.sLostFound\"\x8e\x01\n\x14sDestinyStoryEpisode\x12\x0f\n\x07storyNo\x18\x01 \x01(\x03\x12\r\n\x05state\x18\x02 \x01(\x05\x12\x0e\n\x06heroNo\x18\x03 \x01(\x05\x12\r\n\x05happy\x18\x04 \x01(\x05\x12\x0e\n\x06normal\x18\x05 \x01(\x05\x12\x0b\n\x03\x62\x61\x64\x18\x06 \x01(\x05\x12\x1a\n\x12lastReceiveStoryNo\x18\x07 \x01(\x05\"Y\n\x0fsTempReputation\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x12\n\nreputation\x18\x02 \x01(\x05\x12\x0e\n\x06giftDt\x18\x03 \x01(\x03\x12\x12\n\nmaxLevelDt\x18\x04 \x01(\x03\"C\n\x1asDestinyStoryAffinityPoint\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x15\n\raffinityPoint\x18\x02 \x01(\x05\"G\n\x05sTrip\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x11\n\tisReceive\x18\x02 \x01(\x05\x12\x0e\n\x06yymmdd\x18\x03 \x01(\x03\x12\x0b\n\x03uid\x18\x04 \x01(\x05\"3\n\x0bsTripCancel\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x14\n\x0ctripCancelDt\x18\x02 \x01(\x03\"B\n\x0csTripKeyword\x12\x11\n\tkeywordNo\x18\x01 \x01(\x05\x12\x0f\n\x07isFirst\x18\x02 \x01(\x05\x12\x0e\n\x06heroNo\x18\x03 \x01(\x05\"X\n\nsLostFound\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x0e\n\x06lastNo\x18\x02 \x01(\x05\x12\r\n\x05state\x18\x03 \x01(\x05\x12\n\n\x02id\x18\x04 \x01(\x05\x12\x0f\n\x07\x63learDt\x18\x05 \x01(\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x44\x65stinyInfoList.proto\x12\x04\x45sPb\"\xef\x02\n\x0f\x44\x65stinyInfoList\x12\x37\n\x13\x64\x65stinyStoryEpisode\x18\x01 \x03(\x0b\x32\x1a.EsPb.sDestinyStoryEpisode\x12\x18\n\x10pickUpHeroNoList\x18\x02 \x03(\x05\x12-\n\x0etempReputation\x18\x03 \x03(\x0b\x32\x15.EsPb.sTempReputation\x12\x43\n\x19\x64\x65stinyStoryAffinityPoint\x18\x04 \x03(\x0b\x32 .EsPb.sDestinyStoryAffinityPoint\x12\x19\n\x04trip\x18\x06 \x03(\x0b\x32\x0b.EsPb.sTrip\x12\x17\n\x0ftripRemainCount\x18\x07 \x01(\x05\x12\'\n\x0btripKeyword\x18\x08 \x03(\x0b\x32\x12.EsPb.sTripKeyword\x12\x13\n\x0btripResetDt\x18\t \x01(\x03\x12#\n\tlostFound\x18\n \x03(\x0b\x32\x10.EsPb.sLostFound\"\x8e\x01\n\x14sDestinyStoryEpisode\x12\x0f\n\x07storyNo\x18\x01 \x01(\x03\x12\r\n\x05state\x18\x02 \x01(\x05\x12\x0e\n\x06heroNo\x18\x03 \x01(\x05\x12\r\n\x05happy\x18\x04 \x01(\x05\x12\x0e\n\x06normal\x18\x05 \x01(\x05\x12\x0b\n\x03\x62\x61\x64\x18\x06 \x01(\x05\x12\x1a\n\x12lastReceiveStoryNo\x18\x07 \x01(\x05\"Y\n\x0fsTempReputation\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x12\n\nreputation\x18\x02 \x01(\x05\x12\x0e\n\x06giftDt\x18\x03 \x01(\x03\x12\x12\n\nmaxLevelDt\x18\x04 \x01(\x03\"C\n\x1asDestinyStoryAffinityPoint\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x15\n\raffinityPoint\x18\x02 \x01(\x05\"G\n\x05sTrip\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x11\n\tisReceive\x18\x02 \x01(\x05\x12\x0e\n\x06yymmdd\x18\x03 \x01(\x03\x12\x0b\n\x03uid\x18\x04 \x01(\x05\"B\n\x0csTripKeyword\x12\x11\n\tkeywordNo\x18\x01 \x01(\x05\x12\x0f\n\x07isFirst\x18\x02 \x01(\x05\x12\x0e\n\x06heroNo\x18\x03 \x01(\x05\"X\n\nsLostFound\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x0e\n\x06lastNo\x18\x02 \x01(\x05\x12\r\n\x05state\x18\x03 \x01(\x05\x12\n\n\x02id\x18\x04 \x01(\x05\x12\x0f\n\x07\x63learDt\x18\x05 \x01(\x03\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,19 +32,17 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DestinyInfoList_pb2', _glob
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_DESTINYINFOLIST']._serialized_start=32
-  _globals['_DESTINYINFOLIST']._serialized_end=438
-  _globals['_SDESTINYSTORYEPISODE']._serialized_start=441
-  _globals['_SDESTINYSTORYEPISODE']._serialized_end=583
-  _globals['_STEMPREPUTATION']._serialized_start=585
-  _globals['_STEMPREPUTATION']._serialized_end=674
-  _globals['_SDESTINYSTORYAFFINITYPOINT']._serialized_start=676
-  _globals['_SDESTINYSTORYAFFINITYPOINT']._serialized_end=743
-  _globals['_STRIP']._serialized_start=745
-  _globals['_STRIP']._serialized_end=816
-  _globals['_STRIPCANCEL']._serialized_start=818
-  _globals['_STRIPCANCEL']._serialized_end=869
-  _globals['_STRIPKEYWORD']._serialized_start=871
-  _globals['_STRIPKEYWORD']._serialized_end=937
-  _globals['_SLOSTFOUND']._serialized_start=939
-  _globals['_SLOSTFOUND']._serialized_end=1027
+  _globals['_DESTINYINFOLIST']._serialized_end=399
+  _globals['_SDESTINYSTORYEPISODE']._serialized_start=402
+  _globals['_SDESTINYSTORYEPISODE']._serialized_end=544
+  _globals['_STEMPREPUTATION']._serialized_start=546
+  _globals['_STEMPREPUTATION']._serialized_end=635
+  _globals['_SDESTINYSTORYAFFINITYPOINT']._serialized_start=637
+  _globals['_SDESTINYSTORYAFFINITYPOINT']._serialized_end=704
+  _globals['_STRIP']._serialized_start=706
+  _globals['_STRIP']._serialized_end=777
+  _globals['_STRIPKEYWORD']._serialized_start=779
+  _globals['_STRIPKEYWORD']._serialized_end=845
+  _globals['_SLOSTFOUND']._serialized_start=847
+  _globals['_SLOSTFOUND']._serialized_end=935
 # @@protoc_insertion_point(module_scope)

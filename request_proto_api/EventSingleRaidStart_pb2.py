@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x45ventSingleRaidStart.proto\x12\x05ReqPb\"h\n\x14\x45ventSingleRaidStart\x12\x30\n\x0f\x65ventSingleRaid\x18\x01 \x01(\x0b\x32\x17.ReqPb.sEventSingleRaid\x12\x0e\n\x06\x62ossHp\x18\x02 \x01(\x03\x12\x0e\n\x06groggy\x18\x03 \x01(\x03\"\x90\x01\n\x10sEventSingleRaid\x12\x12\n\neventGroup\x18\x01 \x01(\x05\x12\x13\n\x0b\x65ventNumber\x18\x02 \x01(\x05\x12\x10\n\x08\x65nterCnt\x18\x03 \x01(\x05\x12\x10\n\x08maxLevel\x18\x04 \x01(\x05\x12\x1a\n\x12maxLevelLastReward\x18\x05 \x01(\x05\x12\x13\n\x0b\x64iaUseCount\x18\x06 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x45ventSingleRaidStart.proto\x12\x05ReqPb\"b\n\x14\x45ventSingleRaidStart\x12\x12\n\neventGroup\x18\x01 \x01(\x05\x12\x13\n\x0b\x65ventNumber\x18\x02 \x01(\x05\x12\r\n\x05level\x18\x03 \x01(\x05\x12\x12\n\nticketType\x18\x04 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EventSingleRaidStart_pb2', 
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_EVENTSINGLERAIDSTART']._serialized_start=37
-  _globals['_EVENTSINGLERAIDSTART']._serialized_end=141
-  _globals['_SEVENTSINGLERAID']._serialized_start=144
-  _globals['_SEVENTSINGLERAID']._serialized_end=288
+  _globals['_EVENTSINGLERAIDSTART']._serialized_end=135
 # @@protoc_insertion_point(module_scope)

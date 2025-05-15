@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12ZodiacActive.proto\x12\x05ReqPb\".\n\x0cZodiacActive\x12\x1e\n\x06zodiac\x18\x01 \x01(\x0b\x32\x0e.ReqPb.sZodiac\"\x1b\n\x07sZodiac\x12\x10\n\x08zodiacNo\x18\x01 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12ZodiacActive.proto\x12\x05ReqPb\" \n\x0cZodiacActive\x12\x10\n\x08zodiacNo\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ZodiacActive_pb2', _globals
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_ZODIACACTIVE']._serialized_start=29
-  _globals['_ZODIACACTIVE']._serialized_end=75
-  _globals['_SZODIAC']._serialized_start=77
-  _globals['_SZODIAC']._serialized_end=104
+  _globals['_ZODIACACTIVE']._serialized_end=61
 # @@protoc_insertion_point(module_scope)

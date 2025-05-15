@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x44ungeonShopOpen.proto\x12\x05ReqPb\"C\n\x0f\x44ungeonShopOpen\x12\x30\n\x0f\x64ungeonShopItem\x18\x01 \x03(\x0b\x32\x17.ReqPb.sDungeonShopItem\"\x98\x01\n\x10sDungeonShopItem\x12\n\n\x02no\x18\x01 \x01(\x05\x12\x0e\n\x06slotNo\x18\x02 \x01(\x05\x12\x0e\n\x06itemNo\x18\x03 \x01(\x05\x12\x0f\n\x07sellCnt\x18\x04 \x01(\x05\x12\x11\n\tpayItemNo\x18\x05 \x01(\x05\x12\x11\n\tpayAmount\x18\x06 \x01(\x05\x12\x10\n\x08saleRate\x18\x07 \x01(\x05\x12\x0f\n\x07soldOut\x18\x08 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x44ungeonShopOpen.proto\x12\x05ReqPb\"W\n\x0f\x44ungeonShopOpen\x12\x0f\n\x07stageNo\x18\x01 \x01(\x05\x12\x13\n\x0b\x64ungeonType\x18\x02 \x01(\x05\x12\x0b\n\x03uid\x18\x03 \x01(\x05\x12\x11\n\tdungeonNo\x18\x04 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DungeonShopOpen_pb2', _glob
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_DUNGEONSHOPOPEN']._serialized_start=32
-  _globals['_DUNGEONSHOPOPEN']._serialized_end=99
-  _globals['_SDUNGEONSHOPITEM']._serialized_start=102
-  _globals['_SDUNGEONSHOPITEM']._serialized_end=254
+  _globals['_DUNGEONSHOPOPEN']._serialized_end=119
 # @@protoc_insertion_point(module_scope)

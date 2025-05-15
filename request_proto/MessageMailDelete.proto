@@ -3,11 +3,6 @@ syntax = "proto3";
 package ReqPb;
 
 message MessageMailDelete {
-  sMessageMail messageMail = 1;
-}
-
-message sMessageMail {
   int32 no = 1;
-  bool isReceive = 2;
 }
 

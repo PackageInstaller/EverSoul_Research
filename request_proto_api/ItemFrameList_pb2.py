@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13ItemFrameList.proto\x12\x05ReqPb\"3\n\rItemFrameList\x12\"\n\titemFrame\x18\x01 \x03(\x0b\x32\x0f.ReqPb.sItemEtc\"\'\n\x08sItemEtc\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\x0b\n\x03\x63nt\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13ItemFrameList.proto\x12\x05ReqPb\"%\n\rItemFrameList\x12\x14\n\x0cotherUserIdx\x18\x01 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ItemFrameList_pb2', _global
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_ITEMFRAMELIST']._serialized_start=30
-  _globals['_ITEMFRAMELIST']._serialized_end=81
-  _globals['_SITEMETC']._serialized_start=83
-  _globals['_SITEMETC']._serialized_end=122
+  _globals['_ITEMFRAMELIST']._serialized_end=67
 # @@protoc_insertion_point(module_scope)

@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x45ventHeroVoteList.proto\x12\x05ReqPb\"@\n\x11\x45ventHeroVoteList\x12+\n\x08voteList\x18\x01 \x03(\x0b\x32\x19.ReqPb.sEventHeroVoteInfo\"7\n\x12sEventHeroVoteInfo\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x11\n\tvoteCount\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17\x45ventHeroVoteList.proto\x12\x05ReqPb\"\'\n\x11\x45ventHeroVoteList\x12\x12\n\neventGroup\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EventHeroVoteList_pb2', _gl
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_EVENTHEROVOTELIST']._serialized_start=34
-  _globals['_EVENTHEROVOTELIST']._serialized_end=98
-  _globals['_SEVENTHEROVOTEINFO']._serialized_start=100
-  _globals['_SEVENTHEROVOTEINFO']._serialized_end=155
+  _globals['_EVENTHEROVOTELIST']._serialized_end=73
 # @@protoc_insertion_point(module_scope)

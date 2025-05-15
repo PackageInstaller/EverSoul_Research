@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12\x43\x61shShopList.proto\x12\x05ReqPb\"2\n\x0c\x43\x61shShopList\x12\"\n\x08\x63\x61shShop\x18\x01 \x03(\x0b\x32\x10.ReqPb.sCashShop\"L\n\tsCashShop\x12\n\n\x02no\x18\x01 \x01(\x05\x12\x10\n\x08\x62uyCount\x18\x02 \x01(\x05\x12\x11\n\texpiredDt\x18\x03 \x01(\x03\x12\x0e\n\x06openDt\x18\x04 \x01(\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12\x43\x61shShopList.proto\x12\x05ReqPb\"\x1a\n\x0c\x43\x61shShopList\x12\n\n\x02no\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'CashShopList_pb2', _globals
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_CASHSHOPLIST']._serialized_start=29
-  _globals['_CASHSHOPLIST']._serialized_end=79
-  _globals['_SCASHSHOP']._serialized_start=81
-  _globals['_SCASHSHOP']._serialized_end=157
+  _globals['_CASHSHOPLIST']._serialized_end=55
 # @@protoc_insertion_point(module_scope)

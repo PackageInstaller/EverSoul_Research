@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12ProfileInfos.proto\x12\x05ReqPb\"[\n\x0cProfileInfos\x12(\n\x0bprofileInfo\x18\x01 \x03(\x0b\x32\x13.ReqPb.sProfileInfo\x12!\n\x04\x62uff\x18\x02 \x03(\x0b\x32\x13.ReqPb.sContentBuff\"f\n\x0csProfileInfo\x12(\n\x0bprofileBase\x18\x01 \x01(\x0b\x32\x13.ReqPb.sProfileBase\x12,\n\rprofileCustom\x18\x02 \x01(\x0b\x32\x15.ReqPb.sProfileCustom\"\xb3\x07\n\x0csProfileBase\x12\x0f\n\x07userIdx\x18\x01 \x01(\t\x12\x11\n\tchannelNo\x18\x02 \x01(\x05\x12\x10\n\x08nickName\x18\x03 \x01(\t\x12\x0f\n\x07\x61\x62outMe\x18\x04 \x01(\t\x12\x10\n\x08guildIdx\x18\x05 \x01(\t\x12\x11\n\tguildName\x18\x06 \x01(\t\x12\x16\n\x0e\x63urrentStageNo\x18\x07 \x01(\x05\x12\x18\n\x10\x63urrentBarrierNo\x18\x08 \x01(\x05\x12$\n\tthumbnail\x18\t \x01(\x0b\x32\x11.ReqPb.sThumbnail\x12\x12\n\npopularity\x18\n \x01(\x05\x12\r\n\x05power\x18\x0b \x01(\x03\x12\x16\n\x0espritTreeLevel\x18\x0c \x01(\x05\x12\x16\n\x0eownedHeroCount\x18\r \x01(\x05\x12\x12\n\narenaScore\x18\x0e \x01(\x03\x12\x1e\n\x16\x61\x63tivatedZodiacBlessNo\x18\x0f \x01(\x05\x12\x1c\n\x06heroes\x18\x10 \x03(\x0b\x32\x0c.ReqPb.sHero\x12\n\n\x02id\x18\x11 \x01(\t\x12\x18\n\x10\x61rkMainCoreLevel\x18\x12 \x01(\x05\x12\x32\n\x10hallOfFameMyRank\x18\x13 \x03(\x0b\x32\x18.ReqPb.sHallOfFameMyRank\x12\x14\n\x0c\x63ostumeCount\x18\x14 \x01(\x05\x12\x11\n\tcreatedDt\x18\x15 \x01(\x03\x12\x11\n\ttownLevel\x18\x16 \x01(\x05\x12#\n\x1b\x64\x65stinyStoryTrueEndingCount\x18\x17 \x01(\x05\x12\x14\n\x0cstickerCount\x18\x18 \x01(\x05\x12\x12\n\nframeCount\x18\x19 \x01(\x05\x12\x19\n\x11sdCharacterHeroNo\x18\x1a \x01(\x05\x12:\n\x0fguildRaidRecord\x18\x1b \x03(\x0b\x32!.ReqPb.sGuildRaidMyMaxScoreRecord\x12\x39\n\x10singleRaidRecord\x18\x1c \x03(\x0b\x32\x1f.ReqPb.sProfileSingleRaidRecord\x12=\n\x12\x65\x64\x65nAllianceRecord\x18\x1d \x03(\x0b\x32!.ReqPb.sProfileEdenAllianceRecord\x12\x1c\n\x14profileVisibleBase64\x18\x1e \x01(\t\x12\x1a\n\x12\x63hampionsArenaRank\x18\x1f \x01(\x05\x12\x11\n\tuserLevel\x18  \x01(\x05\x12\x37\n\x0fworldRaidRecord\x18! \x03(\x0b\x32\x1e.ReqPb.sProfileWorldRaidRecord\"b\n\nsThumbnail\x12\x16\n\x0ethumbnailFrame\x18\x01 \x01(\x05\x12\x16\n\x0ethumbnailImage\x18\x02 \x01(\x05\x12\x11\n\tuseCustom\x18\x03 \x01(\x08\x12\x11\n\tthumbnail\x18\x04 \x01(\x0c\"{\n\x05sHero\x12\x0b\n\x03idx\x18\x01 \x01(\t\x12\x0e\n\x06heroNo\x18\x02 \x01(\x05\x12\r\n\x05level\x18\x03 \x01(\x05\x12\x13\n\x0bisResonance\x18\x04 \x01(\x05\x12\x10\n\x08gradeSno\x18\x05 \x01(\x05\x12\x0f\n\x07raceSno\x18\x06 \x01(\x05\x12\x0e\n\x06isLock\x18\x07 \x01(\x05\"-\n\x11sHallOfFameMyRank\x12\n\n\x02id\x18\x01 \x01(\x05\x12\x0c\n\x04rank\x18\x02 \x01(\x05\";\n\x1asGuildRaidMyMaxScoreRecord\x12\x0e\n\x06\x62ossNo\x18\x01 \x01(\x05\x12\r\n\x05score\x18\x02 \x01(\x03\"K\n\x18sProfileSingleRaidRecord\x12\x12\n\nlevelGroup\x18\x01 \x01(\x05\x12\r\n\x05level\x18\x02 \x01(\x05\x12\x0c\n\x04rank\x18\x03 \x01(\x05\"J\n\x1asProfileEdenAllianceRecord\x12\x0f\n\x07nameSno\x18\x01 \x01(\x05\x12\r\n\x05score\x18\x02 \x01(\x03\x12\x0c\n\x04tier\x18\x03 \x01(\x05\"7\n\x17sProfileWorldRaidRecord\x12\x0e\n\x06raidNo\x18\x01 \x01(\x05\x12\x0c\n\x04rank\x18\x02 \x01(\x03\".\n\x0esProfileCustom\x12\x0b\n\x03uid\x18\x01 \x01(\x05\x12\x0f\n\x07profile\x18\x02 \x01(\x0c\"T\n\x0csContentBuff\x12\x13\n\x0b\x63ontentType\x18\x01 \x01(\x05\x12\x10\n\x08\x62uffType\x18\x02 \x01(\x05\x12\x0e\n\x06\x62uffNo\x18\x03 \x01(\x05\x12\r\n\x05value\x18\x04 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12ProfileInfos.proto\x12\x05ReqPb\"&\n\x0cProfileInfos\x12\x16\n\x0etargetUserIdxs\x18\x01 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,27 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ProfileInfos_pb2', _globals
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_PROFILEINFOS']._serialized_start=29
-  _globals['_PROFILEINFOS']._serialized_end=120
-  _globals['_SPROFILEINFO']._serialized_start=122
-  _globals['_SPROFILEINFO']._serialized_end=224
-  _globals['_SPROFILEBASE']._serialized_start=227
-  _globals['_SPROFILEBASE']._serialized_end=1174
-  _globals['_STHUMBNAIL']._serialized_start=1176
-  _globals['_STHUMBNAIL']._serialized_end=1274
-  _globals['_SHERO']._serialized_start=1276
-  _globals['_SHERO']._serialized_end=1399
-  _globals['_SHALLOFFAMEMYRANK']._serialized_start=1401
-  _globals['_SHALLOFFAMEMYRANK']._serialized_end=1446
-  _globals['_SGUILDRAIDMYMAXSCORERECORD']._serialized_start=1448
-  _globals['_SGUILDRAIDMYMAXSCORERECORD']._serialized_end=1507
-  _globals['_SPROFILESINGLERAIDRECORD']._serialized_start=1509
-  _globals['_SPROFILESINGLERAIDRECORD']._serialized_end=1584
-  _globals['_SPROFILEEDENALLIANCERECORD']._serialized_start=1586
-  _globals['_SPROFILEEDENALLIANCERECORD']._serialized_end=1660
-  _globals['_SPROFILEWORLDRAIDRECORD']._serialized_start=1662
-  _globals['_SPROFILEWORLDRAIDRECORD']._serialized_end=1717
-  _globals['_SPROFILECUSTOM']._serialized_start=1719
-  _globals['_SPROFILECUSTOM']._serialized_end=1765
-  _globals['_SCONTENTBUFF']._serialized_start=1767
-  _globals['_SCONTENTBUFF']._serialized_end=1851
+  _globals['_PROFILEINFOS']._serialized_end=67
 # @@protoc_insertion_point(module_scope)

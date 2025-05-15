@@ -3,6 +3,6 @@ syntax = "proto3";
 package ReqPb;
 
 message QRPromotion {
-  bool success = 1;
+  string deeplink = 1;
 }
 

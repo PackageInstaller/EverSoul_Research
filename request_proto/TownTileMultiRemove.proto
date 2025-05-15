@@ -3,20 +3,11 @@ syntax = "proto3";
 package ReqPb;
 
 message TownTileMultiRemove {
-  repeated sTownObjet townObjectList = 1;
-  repeated sItemEtc itemEtc = 2;
+  repeated sRemoveTownObjet removeTile = 1;
 }
 
-message sTownObjet {
+message sRemoveTownObjet {
   int32 objetNo = 1;
   int32 uid = 2;
-  string position = 3;
-  string rotation = 4;
-  int32 objetGroupNo = 5;
-}
-
-message sItemEtc {
-  int32 itemNo = 1;
-  int32 cnt = 2;
 }
 

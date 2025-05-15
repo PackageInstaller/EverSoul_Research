@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11\x42lackDelete.proto\x12\x05ReqPb\"#\n\x0b\x42lackDelete\x12\x14\n\x0c\x62lackDelete_\x18\x01 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x11\x42lackDelete.proto\x12\x05ReqPb\"&\n\x0b\x42lackDelete\x12\x17\n\x0fresponseUserIdx\x18\x01 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,5 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlackDelete_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_BLACKDELETE']._serialized_start=28
-  _globals['_BLACKDELETE']._serialized_end=63
+  _globals['_BLACKDELETE']._serialized_end=66
 # @@protoc_insertion_point(module_scope)

@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bSingleRaidBattleStart.proto\x12\x05ReqPb\"6\n\x15SingleRaidBattleStart\x12\x1d\n\x15lastUseFormationIndex\x18\x01 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bSingleRaidBattleStart.proto\x12\x05ReqPb\"2\n\x15SingleRaidBattleStart\x12\x19\n\x11useFormationIndex\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,5 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SingleRaidBattleStart_pb2',
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_SINGLERAIDBATTLESTART']._serialized_start=38
-  _globals['_SINGLERAIDBATTLESTART']._serialized_end=92
+  _globals['_SINGLERAIDBATTLESTART']._serialized_end=88
 # @@protoc_insertion_point(module_scope)

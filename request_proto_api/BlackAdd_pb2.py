@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0e\x42lackAdd.proto\x12\x05ReqPb\"\x1d\n\x08\x42lackAdd\x12\x11\n\tblackAdd_\x18\x01 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x0e\x42lackAdd.proto\x12\x05ReqPb\"#\n\x08\x42lackAdd\x12\x17\n\x0fresponseUserIdx\x18\x01 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,5 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'BlackAdd_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_BLACKADD']._serialized_start=25
-  _globals['_BLACKADD']._serialized_end=54
+  _globals['_BLACKADD']._serialized_end=60
 # @@protoc_insertion_point(module_scope)

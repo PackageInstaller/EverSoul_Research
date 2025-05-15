@@ -24,15 +24,13 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19ThreeMatchScoreSave.proto\x12\x05ReqPb\";\n\x13ThreeMatchScoreSave\x12$\n\x04info\x18\x01 \x01(\x0b\x32\x16.ReqPb.sThreeMatchInfo\"\\\n\x0fsThreeMatchInfo\x12\x0f\n\x07groupNo\x18\x01 \x01(\x05\x12\x0f\n\x07stageNo\x18\x02 \x01(\x05\x12\x10\n\x08maxScore\x18\x03 \x01(\x05\x12\x15\n\rmaxHeartCount\x18\x04 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x19ThreeMatchScoreSave.proto\x12\x05ReqPb\"\x82\x01\n\x13ThreeMatchScoreSave\x12\x0f\n\x07groupNo\x18\x01 \x01(\x05\x12\x0f\n\x07stageNo\x18\x02 \x01(\x05\x12\r\n\x05score\x18\x03 \x01(\x05\x12\x12\n\nheartCount\x18\x04 \x01(\x05\x12\x12\n\nclickCount\x18\x05 \x01(\x05\x12\x12\n\nvalidCount\x18\x06 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ThreeMatchScoreSave_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_THREEMATCHSCORESAVE']._serialized_start=36
-  _globals['_THREEMATCHSCORESAVE']._serialized_end=95
-  _globals['_STHREEMATCHINFO']._serialized_start=97
-  _globals['_STHREEMATCHINFO']._serialized_end=189
+  _globals['_THREEMATCHSCORESAVE']._serialized_start=37
+  _globals['_THREEMATCHSCORESAVE']._serialized_end=167
 # @@protoc_insertion_point(module_scope)

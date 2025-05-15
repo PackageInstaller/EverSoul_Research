@@ -3,11 +3,6 @@ syntax = "proto3";
 package ReqPb;
 
 message ItemStickerList {
-  repeated sItemEtc itemSticker = 1;
-}
-
-message sItemEtc {
-  int32 itemNo = 1;
-  int32 cnt = 2;
+  string otherUserIdx = 1;
 }
 

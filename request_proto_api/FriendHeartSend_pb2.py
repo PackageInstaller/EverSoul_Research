@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x46riendHeartSend.proto\x12\x05ReqPb\"M\n\x0f\x46riendHeartSend\x12$\n\theartSend\x18\x01 \x01(\x0b\x32\x11.ReqPb.sHeartSend\x12\x14\n\x0cheartSendCnt\x18\x02 \x01(\x05\"T\n\nsHeartSend\x12\x16\n\x0erequestUserIdx\x18\x01 \x01(\t\x12\x17\n\x0fresponseUserIdx\x18\x02 \x01(\t\x12\x15\n\rheartSendFlag\x18\x03 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x46riendHeartSend.proto\x12\x05ReqPb\"*\n\x0f\x46riendHeartSend\x12\x17\n\x0fresponseUserIdx\x18\x01 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FriendHeartSend_pb2', _glob
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_FRIENDHEARTSEND']._serialized_start=32
-  _globals['_FRIENDHEARTSEND']._serialized_end=109
-  _globals['_SHEARTSEND']._serialized_start=111
-  _globals['_SHEARTSEND']._serialized_end=195
+  _globals['_FRIENDHEARTSEND']._serialized_end=74
 # @@protoc_insertion_point(module_scope)

@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GachaWishRegister.proto\x12\x05ReqPb\"9\n\x11GachaWishRegister\x12$\n\tgachaWish\x18\x01 \x03(\x0b\x32\x11.ReqPb.sGachaWish\"@\n\nsGachaWish\x12\x11\n\tgachaType\x18\x01 \x01(\x05\x12\x0f\n\x07slotNum\x18\x02 \x01(\x05\x12\x0e\n\x06wishId\x18\x03 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17GachaWishRegister.proto\x12\x05ReqPb\"J\n\x11GachaWishRegister\x12\x0f\n\x07gachaNo\x18\x01 \x01(\x05\x12$\n\tgachaWish\x18\x02 \x03(\x0b\x32\x11.ReqPb.sGachaWish\"@\n\nsGachaWish\x12\x11\n\tgachaType\x18\x01 \x01(\x05\x12\x0f\n\x07slotNum\x18\x02 \x01(\x05\x12\x0e\n\x06wishId\x18\x03 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,7 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'GachaWishRegister_pb2', _gl
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_GACHAWISHREGISTER']._serialized_start=34
-  _globals['_GACHAWISHREGISTER']._serialized_end=91
-  _globals['_SGACHAWISH']._serialized_start=93
-  _globals['_SGACHAWISH']._serialized_end=157
+  _globals['_GACHAWISHREGISTER']._serialized_end=108
+  _globals['_SGACHAWISH']._serialized_start=110
+  _globals['_SGACHAWISH']._serialized_end=174
 # @@protoc_insertion_point(module_scope)

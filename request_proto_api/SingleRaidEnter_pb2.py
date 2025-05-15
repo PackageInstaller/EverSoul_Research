@@ -24,33 +24,13 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15SingleRaidEnter.proto\x12\x05ReqPb\"\x8a\x02\n\x0fSingleRaidEnter\x12(\n\x08raidInfo\x18\x01 \x01(\x0b\x32\x16.ReqPb.sSingleRaidInfo\x12(\n\x08raidBoss\x18\x02 \x01(\x0b\x32\x16.ReqPb.sSingleRaidBoss\x12-\n\x08raidHero\x18\x03 \x03(\x0b\x32\x1b.ReqPb.sSingleRaidCloneHero\x12\x32\n\rraidFormation\x18\x04 \x03(\x0b\x32\x1b.ReqPb.sSingleRaidFormation\x12\x1d\n\x15lastUseFormationIndex\x18\x05 \x01(\x05\x12!\n\x04\x62uff\x18\x06 \x03(\x0b\x32\x13.ReqPb.sContentBuff\"\x87\x01\n\x0fsSingleRaidInfo\x12\n\n\x02no\x18\x01 \x01(\x05\x12\x14\n\x0c\x63urrentLevel\x18\x02 \x01(\x05\x12\x15\n\rmaxClearLevel\x18\x03 \x01(\x05\x12\x0e\n\x06isPlay\x18\x04 \x01(\x05\x12\x12\n\nclearCount\x18\x05 \x01(\x05\x12\x17\n\x0f\x65nterLimitCount\x18\x06 \x01(\x05\"O\n\x0fsSingleRaidBoss\x12\n\n\x02hp\x18\x01 \x01(\x03\x12\r\n\x05maxHp\x18\x02 \x01(\x03\x12\x0e\n\x06groggy\x18\x03 \x01(\x03\x12\x11\n\tmaxGroggy\x18\x04 \x01(\x03\"\xef\x01\n\x14sSingleRaidCloneHero\x12\x0f\n\x07heroIdx\x18\x01 \x01(\t\x12\x0e\n\x06heroNo\x18\x02 \x01(\x05\x12\r\n\x05level\x18\x03 \x01(\x05\x12\x10\n\x08gradeSno\x18\x04 \x01(\x05\x12\x0f\n\x07raceSno\x18\x05 \x01(\x05\x12\x32\n\x10slotAndEquipItem\x18\x06 \x03(\x0b\x32\x18.ReqPb.sSlotAndEquipItem\x12(\n\tsignature\x18\x07 \x01(\x0b\x32\x15.ReqPb.sItemSignature\x12&\n\nheroOption\x18\x08 \x03(\x0b\x32\x12.ReqPb.sHeroOption\"G\n\x11sSlotAndEquipItem\x12\x0c\n\x04slot\x18\x01 \x01(\x05\x12$\n\titemEquip\x18\x02 \x01(\x0b\x32\x11.ReqPb.sItemEquip\"5\n\nsItemEquip\x12\n\n\x02id\x18\x01 \x01(\x03\x12\x0e\n\x06itemNo\x18\x02 \x01(\x05\x12\x0b\n\x03\x65xp\x18\x03 \x01(\x05\">\n\x0esItemSignature\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\r\n\x05grade\x18\x02 \x01(\x05\x12\r\n\x05level\x18\x03 \x01(\x05\"\x91\x01\n\x0bsHeroOption\x12\x0e\n\x06heroNo\x18\x01 \x01(\x05\x12\x0f\n\x07groupNo\x18\x02 \x01(\x05\x12\x12\n\noptionSlot\x18\x03 \x01(\x05\x12\x10\n\x08optionNo\x18\x04 \x01(\x05\x12\x13\n\x0boptionValue\x18\x05 \x01(\x05\x12\x12\n\noptionType\x18\x06 \x01(\x05\x12\x12\n\noptionLock\x18\x07 \x01(\x05\"d\n\x14sSingleRaidFormation\x12\x15\n\rformationType\x18\x01 \x01(\x05\x12\x35\n\rformationHero\x18\x02 \x03(\x0b\x32\x1e.ReqPb.sSingleRaidHeroPosition\"<\n\x17sSingleRaidHeroPosition\x12\x0f\n\x07heroIdx\x18\x01 \x01(\t\x12\x10\n\x08position\x18\x02 \x01(\x05\"T\n\x0csContentBuff\x12\x13\n\x0b\x63ontentType\x18\x01 \x01(\x05\x12\x10\n\x08\x62uffType\x18\x02 \x01(\x05\x12\x0e\n\x06\x62uffNo\x18\x03 \x01(\x05\x12\r\n\x05value\x18\x04 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15SingleRaidEnter.proto\x12\x05ReqPb\" \n\x0fSingleRaidEnter\x12\r\n\x05level\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'SingleRaidEnter_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_SINGLERAIDENTER']._serialized_start=33
-  _globals['_SINGLERAIDENTER']._serialized_end=299
-  _globals['_SSINGLERAIDINFO']._serialized_start=302
-  _globals['_SSINGLERAIDINFO']._serialized_end=437
-  _globals['_SSINGLERAIDBOSS']._serialized_start=439
-  _globals['_SSINGLERAIDBOSS']._serialized_end=518
-  _globals['_SSINGLERAIDCLONEHERO']._serialized_start=521
-  _globals['_SSINGLERAIDCLONEHERO']._serialized_end=760
-  _globals['_SSLOTANDEQUIPITEM']._serialized_start=762
-  _globals['_SSLOTANDEQUIPITEM']._serialized_end=833
-  _globals['_SITEMEQUIP']._serialized_start=835
-  _globals['_SITEMEQUIP']._serialized_end=888
-  _globals['_SITEMSIGNATURE']._serialized_start=890
-  _globals['_SITEMSIGNATURE']._serialized_end=952
-  _globals['_SHEROOPTION']._serialized_start=955
-  _globals['_SHEROOPTION']._serialized_end=1100
-  _globals['_SSINGLERAIDFORMATION']._serialized_start=1102
-  _globals['_SSINGLERAIDFORMATION']._serialized_end=1202
-  _globals['_SSINGLERAIDHEROPOSITION']._serialized_start=1204
-  _globals['_SSINGLERAIDHEROPOSITION']._serialized_end=1264
-  _globals['_SCONTENTBUFF']._serialized_start=1266
-  _globals['_SCONTENTBUFF']._serialized_end=1350
+  _globals['_SINGLERAIDENTER']._serialized_start=32
+  _globals['_SINGLERAIDENTER']._serialized_end=64
 # @@protoc_insertion_point(module_scope)

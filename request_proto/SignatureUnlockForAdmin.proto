@@ -3,12 +3,6 @@ syntax = "proto3";
 package ReqPb;
 
 message SignatureUnlockForAdmin {
-  sItemSignature itemSignature = 1;
-}
-
-message sItemSignature {
-  int32 itemNo = 1;
-  int32 grade = 2;
-  int32 level = 3;
+  int32 no = 1;
 }
 

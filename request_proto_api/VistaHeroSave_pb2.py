@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13VistaHeroSave.proto\x12\x05ReqPb\"[\n\rVistaHeroSave\x12$\n\tvistaInfo\x18\x01 \x01(\x0b\x32\x11.ReqPb.sVistaInfo\x12$\n\tvistaHero\x18\x02 \x01(\x0b\x32\x11.ReqPb.sVistaHero\"\x93\x01\n\nsVistaInfo\x12\x0f\n\x07vistaNo\x18\x01 \x01(\x05\x12\x15\n\rmaxClearLevel\x18\x02 \x01(\x05\x12\x16\n\x0emaxRewardLevel\x18\x03 \x01(\x05\x12\x1b\n\x13vistaTreasureEnergy\x18\x04 \x01(\x05\x12\x10\n\x08\x65xpireDt\x18\x05 \x01(\x03\x12\x16\n\x0e\x65nergyUpdateDt\x18\x06 \x01(\x03\"\x1c\n\nsVistaHero\x12\x0e\n\x06heroNo\x18\x01 \x03(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13VistaHeroSave.proto\x12\x05ReqPb\"0\n\rVistaHeroSave\x12\x0f\n\x07vistaNo\x18\x01 \x01(\x05\x12\x0e\n\x06heroNo\x18\x02 \x03(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,9 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'VistaHeroSave_pb2', _global
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_VISTAHEROSAVE']._serialized_start=30
-  _globals['_VISTAHEROSAVE']._serialized_end=121
-  _globals['_SVISTAINFO']._serialized_start=124
-  _globals['_SVISTAINFO']._serialized_end=271
-  _globals['_SVISTAHERO']._serialized_start=273
-  _globals['_SVISTAHERO']._serialized_end=301
+  _globals['_VISTAHEROSAVE']._serialized_end=78
 # @@protoc_insertion_point(module_scope)

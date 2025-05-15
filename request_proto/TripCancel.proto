@@ -1,8 +1,0 @@
-syntax = "proto3";
-
-package ReqPb;
-
-message TripCancel {
-  string tripCancel_ = 1;
-}
-

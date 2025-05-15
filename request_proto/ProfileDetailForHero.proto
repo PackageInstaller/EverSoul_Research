@@ -3,6 +3,6 @@ syntax = "proto3";
 package ReqPb;
 
 message ProfileDetailForHero {
-  string profileDetailForHero_ = 1;
+  string targetUserIdx = 1;
 }
 

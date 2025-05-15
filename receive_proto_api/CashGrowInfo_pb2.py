@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12\x43\x61shGrowInfo.proto\x12\x04\x45sPb\"1\n\x0c\x43\x61shGrowInfo\x12!\n\x08\x63\x61shGrow\x18\x01 \x01(\x0b\x32\x0f.EsPb.sCashGrow\"5\n\tsCashGrow\x12\x11\n\tpackageNo\x18\x01 \x01(\x05\x12\x15\n\rlastReceiveNo\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12\x43\x61shGrowInfo.proto\x12\x04\x45sPb\"1\n\x0c\x43\x61shGrowInfo\x12!\n\x08\x63\x61shGrow\x18\x01 \x03(\x0b\x32\x0f.EsPb.sCashGrow\"a\n\tsCashGrow\x12\x12\n\nshopItemNo\x18\x01 \x01(\x05\x12\x15\n\rlastReceiveNo\x18\x02 \x01(\x05\x12\x19\n\x11\x66irstPaidReceived\x18\x03 \x01(\x08\x12\x0e\n\x06\x62ought\x18\x04 \x01(\x08\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -34,5 +34,5 @@ if not _descriptor._USE_C_DESCRIPTORS:
   _globals['_CASHGROWINFO']._serialized_start=28
   _globals['_CASHGROWINFO']._serialized_end=77
   _globals['_SCASHGROW']._serialized_start=79
-  _globals['_SCASHGROW']._serialized_end=132
+  _globals['_SCASHGROW']._serialized_end=176
 # @@protoc_insertion_point(module_scope)

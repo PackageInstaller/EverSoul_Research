@@ -24,17 +24,17 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x44oubleGateRoundReset.proto\x12\x05ReqPb\"@\n\x14\x44oubleGateRoundReset\x12(\n\x06record\x18\x01 \x01(\x0b\x32\x18.ReqPb.sDoubleGateRecord\"P\n\x11sDoubleGateRecord\x12\x11\n\troundType\x18\x01 \x01(\x05\x12(\n\x08heroInfo\x18\x02 \x03(\x0b\x32\x16.ReqPb.sDoubleGateHero\"S\n\x0fsDoubleGateHero\x12\x0f\n\x07heroIdx\x18\x01 \x01(\t\x12\x0e\n\x06heroNo\x18\x02 \x01(\x05\x12\r\n\x05level\x18\x03 \x01(\x05\x12\x10\n\x08gradeSno\x18\x04 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1a\x44oubleGateRoundReset.proto\x12\x05ReqPb\"v\n\x14\x44oubleGateRoundReset\x12.\n\troundType\x18\x01 \x01(\x0e\x32\x1b.ReqPb.eDoubleGateRoundType\x12.\n\tstageType\x18\x02 \x01(\x0e\x32\x1b.ReqPb.eDoubleGateStageType*-\n\x14\x65\x44oubleGateRoundType\x12\t\n\x05\x46irst\x10\x00\x12\n\n\x06Second\x10\x01*\xae\x01\n\x14\x65\x44oubleGateStageType\x12\x1b\n\x17\x44oubleGateStageTypeNone\x10\x00\x12\x1f\n\x1b\x44oubleGateNormalManaCrystal\x10\x01\x12\x18\n\x14\x44oubleGateNormalGold\x10\x02\x12\x1c\n\x18\x44oubleGateNormalManaDust\x10\x03\x12 \n\x1c\x44oubleGateNormalEnhanceStone\x10\x04\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'DoubleGateRoundReset_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
+  _globals['_EDOUBLEGATEROUNDTYPE']._serialized_start=157
+  _globals['_EDOUBLEGATEROUNDTYPE']._serialized_end=202
+  _globals['_EDOUBLEGATESTAGETYPE']._serialized_start=205
+  _globals['_EDOUBLEGATESTAGETYPE']._serialized_end=379
   _globals['_DOUBLEGATEROUNDRESET']._serialized_start=37
-  _globals['_DOUBLEGATEROUNDRESET']._serialized_end=101
-  _globals['_SDOUBLEGATERECORD']._serialized_start=103
-  _globals['_SDOUBLEGATERECORD']._serialized_end=183
-  _globals['_SDOUBLEGATEHERO']._serialized_start=185
-  _globals['_SDOUBLEGATEHERO']._serialized_end=268
+  _globals['_DOUBLEGATEROUNDRESET']._serialized_end=155
 # @@protoc_insertion_point(module_scope)

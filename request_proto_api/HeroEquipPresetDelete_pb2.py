@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHeroEquipPresetDelete.proto\x12\x05ReqPb\"n\n\x15HeroEquipPresetDelete\x12\x11\n\tslotCount\x18\x01 \x01(\x05\x12\x11\n\tapplySlot\x18\x02 \x01(\x05\x12/\n\npresetSlot\x18\x03 \x03(\x0b\x32\x1b.ReqPb.sHeroEquipPresetSlot\"2\n\x14sHeroEquipPresetSlot\x12\x0c\n\x04slot\x18\x01 \x01(\x05\x12\x0c\n\x04name\x18\x02 \x01(\tb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1bHeroEquipPresetDelete.proto\x12\x05ReqPb\"+\n\x15HeroEquipPresetDelete\x12\x12\n\npresetSlot\x18\x01 \x03(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'HeroEquipPresetDelete_pb2',
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_HEROEQUIPPRESETDELETE']._serialized_start=38
-  _globals['_HEROEQUIPPRESETDELETE']._serialized_end=148
-  _globals['_SHEROEQUIPPRESETSLOT']._serialized_start=150
-  _globals['_SHEROEQUIPPRESETSLOT']._serialized_end=200
+  _globals['_HEROEQUIPPRESETDELETE']._serialized_end=81
 # @@protoc_insertion_point(module_scope)

@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18UsedRelicGroupList.proto\x12\x05ReqPb\"*\n\x12UsedRelicGroupList\x12\x14\n\x0crelicGroupNo\x18\x01 \x03(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x18UsedRelicGroupList.proto\x12\x05ReqPb\"*\n\x12UsedRelicGroupList\x12\x14\n\x0c\x63ontentsType\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)

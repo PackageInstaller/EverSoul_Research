@@ -2,17 +2,21 @@ syntax = "proto3";
 
 package ReqPb;
 
+enum eEquipSlot {
+  Weapon = 0;
+  Helmet = 1;
+  Armor = 2;
+  Boot = 3;
+  Signature = 4;
+}
+
 message HeroEquipMulti {
-  sHeroEquipAll heroEquipList = 1;
-}
-
-message sHeroEquipAll {
   string heroIdx = 1;
-  repeated sSlotAndEquipId equip = 2;
+  repeated sEquipMulti equipMulti = 2;
 }
 
-message sSlotAndEquipId {
-  int32 slot = 1;
-  int32 itemEquipId = 2;
+message sEquipMulti {
+  eEquipSlot slot = 1;
+  int64 itemEquipId = 2;
 }
 

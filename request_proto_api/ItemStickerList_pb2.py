@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15ItemStickerList.proto\x12\x05ReqPb\"7\n\x0fItemStickerList\x12$\n\x0bitemSticker\x18\x01 \x03(\x0b\x32\x0f.ReqPb.sItemEtc\"\'\n\x08sItemEtc\x12\x0e\n\x06itemNo\x18\x01 \x01(\x05\x12\x0b\n\x03\x63nt\x18\x02 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15ItemStickerList.proto\x12\x05ReqPb\"\'\n\x0fItemStickerList\x12\x14\n\x0cotherUserIdx\x18\x01 \x01(\tb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'ItemStickerList_pb2', _glob
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_ITEMSTICKERLIST']._serialized_start=32
-  _globals['_ITEMSTICKERLIST']._serialized_end=87
-  _globals['_SITEMETC']._serialized_start=89
-  _globals['_SITEMETC']._serialized_end=128
+  _globals['_ITEMSTICKERLIST']._serialized_end=71
 # @@protoc_insertion_point(module_scope)

@@ -3,6 +3,6 @@ syntax = "proto3";
 package ReqPb;
 
 message SingleRaidBattleStart {
-  int32 lastUseFormationIndex = 1;
+  int32 useFormationIndex = 1;
 }
 

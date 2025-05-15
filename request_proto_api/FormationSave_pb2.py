@@ -24,17 +24,15 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x46ormationSave.proto\x12\x05ReqPb\"3\n\rFormationSave\x12\"\n\x07results\x18\x01 \x01(\x0b\x32\x11.ReqPb.sFormation\"\x83\x01\n\nsFormation\x12\n\n\x02no\x18\x01 \x01(\x05\x12\x0c\n\x04kind\x18\x02 \x01(\x05\x12\x0f\n\x07heroidx\x18\x03 \x03(\t\x12\x15\n\rformationType\x18\x04 \x01(\x05\x12\x15\n\rformationName\x18\x05 \x01(\t\x12\x1c\n\x05relic\x18\x06 \x01(\x0b\x32\r.ReqPb.sRelic\"N\n\x06sRelic\x12\x0c\n\x04type\x18\x01 \x01(\x05\x12\x11\n\tformation\x18\x02 \x01(\x05\x12\x12\n\nrelicOrder\x18\x03 \x01(\x05\x12\x0f\n\x07relicNo\x18\x04 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x13\x46ormationSave.proto\x12\x05ReqPb\"\x86\x01\n\rFormationSave\x12\n\n\x02no\x18\x01 \x01(\x05\x12\x0c\n\x04kind\x18\x02 \x01(\x05\x12\x0f\n\x07heroIdx\x18\x03 \x03(\t\x12\x15\n\rformationType\x18\x04 \x01(\x05\x12\x15\n\rformationName\x18\x05 \x01(\t\x12\x1c\n\x05relic\x18\x06 \x01(\x0b\x32\r.ReqPb.sRelic\"N\n\x06sRelic\x12\x0c\n\x04type\x18\x01 \x01(\x05\x12\x11\n\tformation\x18\x02 \x01(\x05\x12\x12\n\nrelicOrder\x18\x03 \x01(\x05\x12\x0f\n\x07relicNo\x18\x04 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'FormationSave_pb2', _globals)
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
-  _globals['_FORMATIONSAVE']._serialized_start=30
-  _globals['_FORMATIONSAVE']._serialized_end=81
-  _globals['_SFORMATION']._serialized_start=84
-  _globals['_SFORMATION']._serialized_end=215
-  _globals['_SRELIC']._serialized_start=217
-  _globals['_SRELIC']._serialized_end=295
+  _globals['_FORMATIONSAVE']._serialized_start=31
+  _globals['_FORMATIONSAVE']._serialized_end=165
+  _globals['_SRELIC']._serialized_start=167
+  _globals['_SRELIC']._serialized_end=245
 # @@protoc_insertion_point(module_scope)

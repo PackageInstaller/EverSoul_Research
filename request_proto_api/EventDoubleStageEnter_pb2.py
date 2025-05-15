@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45ventDoubleStageEnter.proto\x12\x05ReqPb\"K\n\x15\x45ventDoubleStageEnter\x12\x32\n\x10\x65ventDoubleStage\x18\x01 \x01(\x0b\x32\x18.ReqPb.sEventDoubleStage\"\xb1\x01\n\x11sEventDoubleStage\x12\n\n\x02id\x18\x01 \x01(\x03\x12\x12\n\neventGroup\x18\x02 \x01(\x05\x12\x13\n\x0b\x65ventNumber\x18\x03 \x01(\x05\x12\x12\n\ndifficulty\x18\x04 \x01(\x05\x12\x14\n\x0c\x63leardStage1\x18\x05 \x01(\x05\x12\x14\n\x0c\x63leardStage2\x18\x06 \x01(\x05\x12\x10\n\x08rewarded\x18\x07 \x01(\x05\x12\x15\n\rfirstRewarded\x18\x08 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45ventDoubleStageEnter.proto\x12\x05ReqPb\"T\n\x15\x45ventDoubleStageEnter\x12\x12\n\neventGroup\x18\x01 \x01(\x05\x12\x13\n\x0b\x65ventNumber\x18\x02 \x01(\x05\x12\x12\n\ndifficulty\x18\x03 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'EventDoubleStageEnter_pb2',
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_EVENTDOUBLESTAGEENTER']._serialized_start=38
-  _globals['_EVENTDOUBLESTAGEENTER']._serialized_end=113
-  _globals['_SEVENTDOUBLESTAGE']._serialized_start=116
-  _globals['_SEVENTDOUBLESTAGE']._serialized_end=293
+  _globals['_EVENTDOUBLESTAGEENTER']._serialized_end=122
 # @@protoc_insertion_point(module_scope)

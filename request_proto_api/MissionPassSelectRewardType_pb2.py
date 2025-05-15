@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!MissionPassSelectRewardType.proto\x12\x05ReqPb\"G\n\x1bMissionPassSelectRewardType\x12(\n\x0bmissionPass\x18\x01 \x01(\x0b\x32\x13.ReqPb.sMissionPass\"\x85\x01\n\x0csMissionPass\x12\x15\n\rmissionPassNo\x18\x01 \x01(\x05\x12\r\n\x05point\x18\x02 \x01(\x05\x12\x15\n\rrewardedPoint\x18\x03 \x01(\x05\x12\x13\n\x0bisBuyTicket\x18\x04 \x01(\x05\x12\x10\n\x08rewardNo\x18\x05 \x01(\x05\x12\x11\n\texpiredDt\x18\x06 \x01(\x03\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!MissionPassSelectRewardType.proto\x12\x05ReqPb\"5\n\x1bMissionPassSelectRewardType\x12\x16\n\x0eselectRewardNo\x18\x01 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,7 +32,5 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'MissionPassSelectRewardType
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_MISSIONPASSSELECTREWARDTYPE']._serialized_start=44
-  _globals['_MISSIONPASSSELECTREWARDTYPE']._serialized_end=115
-  _globals['_SMISSIONPASS']._serialized_start=118
-  _globals['_SMISSIONPASS']._serialized_end=251
+  _globals['_MISSIONPASSSELECTREWARDTYPE']._serialized_end=97
 # @@protoc_insertion_point(module_scope)
