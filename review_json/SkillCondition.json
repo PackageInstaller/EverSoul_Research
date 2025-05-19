@@ -4586,11 +4586,25 @@
       "condition_value2": 4
     },
     {
+      "no": 316613,
+      "condition_key": 4,
+      "condition_target": 1,
+      "condition_value1": 316613.0,
+      "condition_value2": 1
+    },
+    {
       "no": 316622,
       "condition_key": 34,
       "condition_target": 1,
       "condition_value1": 316622.0,
       "condition_value2": 4
+    },
+    {
+      "no": 316623,
+      "condition_key": 4,
+      "condition_target": 1,
+      "condition_value1": 316623.0,
+      "condition_value2": 1
     },
     {
       "no": 316632,
@@ -4600,11 +4614,60 @@
       "condition_value2": 4
     },
     {
+      "no": 316633,
+      "condition_key": 4,
+      "condition_target": 1,
+      "condition_value1": 316633.0,
+      "condition_value2": 1
+    },
+    {
       "no": 316881,
       "condition_key": 4,
       "condition_target": 1,
       "condition_value1": 316881.0,
       "condition_value2": 1
+    },
+    {
+      "no": 316910,
+      "condition_key": 26,
+      "condition_target": 1,
+      "condition_value1": 316910.0
+    },
+    {
+      "no": 316920,
+      "condition_key": 26,
+      "condition_target": 1,
+      "condition_value1": 316920.0
+    },
+    {
+      "no": 316930,
+      "condition_key": 26,
+      "condition_target": 1,
+      "condition_value1": 316930.0
+    },
+    {
+      "no": 316940,
+      "condition_key": 26,
+      "condition_target": 1,
+      "condition_value1": 316940.0
+    },
+    {
+      "no": 316950,
+      "condition_key": 26,
+      "condition_target": 1,
+      "condition_value1": 316950.0
+    },
+    {
+      "no": 316960,
+      "condition_key": 26,
+      "condition_target": 1,
+      "condition_value1": 316960.0
+    },
+    {
+      "no": 316970,
+      "condition_key": 26,
+      "condition_target": 1,
+      "condition_value1": 316970.0
     },
     {
       "no": 321210,
@@ -7603,6 +7666,20 @@
       "condition_value2": 1
     },
     {
+      "no": 703311,
+      "condition_key": 4,
+      "condition_target": 1,
+      "condition_value1": 703311.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 703321,
+      "condition_key": 4,
+      "condition_target": 1,
+      "condition_value1": 703321.0,
+      "condition_value2": 1
+    },
+    {
       "no": 703511,
       "condition_key": 4,
       "condition_target": 1,
@@ -10453,6 +10530,19 @@
       "condition_key": 4,
       "condition_target": 1,
       "condition_value1": 316441.0,
+      "condition_value2": 1
+    },
+    {
+      "no": 3169801,
+      "condition_key": 26,
+      "condition_target": 1,
+      "condition_value1": 3169801.0
+    },
+    {
+      "no": 3169802,
+      "condition_key": 26,
+      "condition_target": 1,
+      "condition_value1": 3169802.0,
       "condition_value2": 1
     },
     {

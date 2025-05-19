@@ -259,6 +259,18 @@
       "prefab_path": "Story/Event/2504_JihoSideEvent/Timeline/JihoMir_Summon",
       "volume_type": "CutScene",
       "actor01": 1160
+    },
+    {
+      "no": 38,
+      "prefab_path": "Story/Event/2505_ReneeSideEvent/Timeline/ReneeSilver_Active_Scene_Start",
+      "volume_type": "CutScene",
+      "actor01": 3160
+    },
+    {
+      "no": 39,
+      "prefab_path": "Story/Event/2505_ReneeSideEvent/Timeline/ReneeSilver_Ultimate_Scene_Start",
+      "volume_type": "CutScene",
+      "actor01": 3160
     }
   ]
 }

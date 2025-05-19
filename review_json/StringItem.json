@@ -2659,9 +2659,9 @@
     {
       "no": 213380,
       "kr": "정령의 기억: 르네(백은)",
-      "en": "",
+      "en": "Soul's Memory: Renee (Argent)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "精靈的記憶：勒內（白銀）",
       "zh_cn": ""
     },
     {
@@ -3515,57 +3515,57 @@
     {
       "no": 214178,
       "kr": "큼직한 럭키 박스",
-      "en": "Large Lucky Box",
+      "en": "Huge Lucky Chest",
       "ja": "",
-      "zh_tw": "大型幸運盒子",
+      "zh_tw": "巨大幸運盒",
       "zh_cn": ""
     },
     {
       "no": 214179,
       "kr": "럭키 박스 (지정 소환권)",
-      "en": "Lucky Box (Targeted Summon Tickets)",
+      "en": "Lucky Chest (Targeted Summon Ticket)",
       "ja": "",
-      "zh_tw": "幸運盒子（指定召喚券）",
+      "zh_tw": "巨大幸運盒（指定召喚券）",
       "zh_cn": ""
     },
     {
       "no": 214180,
       "kr": "럭키 박스 (유물 소환권)",
-      "en": "Lucky Box (Artifact Summon Tickets)",
+      "en": "Lucky Chest (Artifact Summon Ticket)",
       "ja": "",
-      "zh_tw": "幸運盒子（遺物召喚券）",
+      "zh_tw": "巨大幸運盒（遺物召喚券）",
       "zh_cn": ""
     },
     {
       "no": 214181,
       "kr": "럭키 박스 (에리카의 연금술 티켓)",
-      "en": "Lucky Box (Erika's Alchemy Tickets)",
+      "en": "Lucky Chest (Erika's Alchemy Ticket)",
       "ja": "",
-      "zh_tw": "幸運盒子（艾麗卡的鍊金術票券）",
+      "zh_tw": "巨大幸運盒（艾麗卡的鍊金術票券）",
       "zh_cn": ""
     },
     {
       "no": 214182,
       "kr": "에픽 정령 선택 상자 (2025)",
-      "en": "",
+      "en": "Epic Soul Selection Chest (2025)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "史詩精靈選擇箱子（2025）",
       "zh_cn": ""
     },
     {
       "no": 214183,
       "kr": "스페셜 에픽 정령 선택 상자 (2025)",
-      "en": "",
+      "en": "Special Epic Soul Selection Chest (2025)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "特別史詩精靈選擇箱子（2025）",
       "zh_cn": ""
     },
     {
       "no": 214184,
       "kr": "유물의 기억 선택 상자 (2025)",
-      "en": "",
+      "en": "Artifact Memory Selection Chest (2025)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "遺物的記憶選擇箱子（2025）",
       "zh_cn": ""
     },
     {
@@ -5438,6 +5438,38 @@
       "en": "Sticker: Gaon (Challenger)",
       "ja": "ステッカー：ガオン (チャレンジャー)",
       "zh_tw": "貼紙：加溫（王者）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216157,
+      "kr": "스티커: 가온\r\n(레전더리)",
+      "en": "Sticker: Gaon\r\n(Legendary)",
+      "ja": "ステッカー：ガオン\r\n(レジェンダリー)",
+      "zh_tw": "貼紙：加溫\r\n（傳說）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216158,
+      "kr": "스티커: 가온\r\n(레전더리 3위)",
+      "en": "Sticker: Gaon\r\n(Legendary #3)",
+      "ja": "ステッカー：ガオン\r\n(レジェンダリー3位)",
+      "zh_tw": "貼紙：加溫\r\n（傳說第3名）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216159,
+      "kr": "스티커: 가온\r\n(레전더리 2위)",
+      "en": "Sticker: Gaon\r\n(Legendary #2)",
+      "ja": "ステッカー：ガオン\r\n(レジェンダリー2位)",
+      "zh_tw": "貼紙：加溫\r\n（傳說第2名）",
+      "zh_cn": ""
+    },
+    {
+      "no": 216160,
+      "kr": "스티커: 가온\r\n(레전더리 1위)",
+      "en": "Sticker: Gaon\r\n(Legendary #1)",
+      "ja": "ステッカー：ガオン\r\n(レジェンダリー1位)",
+      "zh_tw": "貼紙：加溫\r\n（傳說第1名）",
       "zh_cn": ""
     },
     {
@@ -7843,9 +7875,9 @@
     {
       "no": 218140,
       "kr": "아케나인 방어전 미니 게임 입장권",
-      "en": "",
+      "en": "Defense of Arkenine Mini Game Ticket",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "阿肯納因防禦戰小遊戲入場券",
       "zh_cn": ""
     },
     {
@@ -10539,9 +10571,9 @@
     {
       "no": 223380,
       "kr": "파편 60개 수집시 에픽 정령 르네(백은) 소환 가능",
-      "en": "",
+      "en": "Collect 60 fragments to summon Epic Soul Renee (Argent).",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "收集60塊碎片時，即可召喚史詩精靈勒內（白銀）",
       "zh_cn": ""
     },
     {
@@ -11397,7 +11429,7 @@
       "kr": "운이 좋다면 픽업 소환권이 들어있을 지도...?\r\n사용 시 구성품 중 1종을 선택하여 획득할 수 있습니다.",
       "en": "If you're lucky, it may give you Pick-Up Summon Tickets!\r\nUse it to select and obtain 1 item from the available options.",
       "ja": "運が良ければ、ピックアップ召喚券が入っているかも…？\r\n使用すると、構成品のうち1種を選択して獲得できます。",
-      "zh_tw": "\r\n運氣好的話，說不定裡面會有Pick Up召喚券哦…？\r\n使用後可選擇獲得其中1項內容物。",
+      "zh_tw": "運氣好的話，說不定裡面會有Pick Up召喚券哦…？\r\n使用後可選擇獲得其中1項內容物。",
       "zh_cn": ""
     },
     {
@@ -11427,25 +11459,25 @@
     {
       "no": 224182,
       "kr": "런칭~바이스까지 출시 된 정령 중 천사형, 악마형, 혼돈형을 제외한 모든 정령의 정령의 기억 중 선택 가능한 상자.",
-      "en": "",
+      "en": "A chest from which you can choose the Soul's Memory of any Soul released up to Weiss, excluding Angel, Demon, and Chaotic Souls.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "除天使型、惡魔型、混沌型以外，可在上市～拜斯的所有精靈記憶中選擇的箱子。",
       "zh_cn": ""
     },
     {
       "no": 224183,
       "kr": "런칭~바이스까지 출시 된 정령 중 혼돈형을 제외한 모든 정령의 정령의 기억 중 선택 가능한 상자.",
-      "en": "",
+      "en": "A chest from which you can choose the Soul's Memory of any Soul released up to Weiss, excluding Chaotic Souls.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "除混沌型以外，可在上市～拜斯的所有精靈記憶中選擇的箱子。",
       "zh_cn": ""
     },
     {
       "no": 224184,
       "kr": "런칭~바이스까지 출시 된 모든 정령의 유물의 기억 중 선택 가능한 상자.",
-      "en": "",
+      "en": "A chest from which you can choose the Artifact Memory of any Soul released up to Weiss.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "可在上市～拜斯的所有精靈遺物記憶中選擇的箱子。",
       "zh_cn": ""
     },
     {
@@ -13337,6 +13369,38 @@
       "zh_cn": ""
     },
     {
+      "no": 226157,
+      "kr": "에덴 연합 작전: 가온 편에서 레전더리 티어 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching Legendary tier in [Operation Eden Alliance] Gaon.",
+      "ja": "エデン連合作戦：ガオン編でレジェンダリーティアを達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：加溫篇達成傳說段位可獲得的貼紙。",
+      "zh_cn": ""
+    },
+    {
+      "no": 226158,
+      "kr": "에덴 연합 작전: 가온 편에서 레전더리 티어 3위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching third place in Legendary tier in [Operation Eden Alliance] Gaon.",
+      "ja": "エデン連合作戦：ガオン編でレジェンダリーティアの3位を達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：加溫篇達成傳說段位第3名可獲得的貼紙。",
+      "zh_cn": ""
+    },
+    {
+      "no": 226159,
+      "kr": "에덴 연합 작전: 가온 편에서 레전더리 티어 2위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching second place in Legendary tier in [Operation Eden Alliance] Gaon.",
+      "ja": "エデン連合作戦：ガオン編でレジェンダリーティアの2位を達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：加溫篇達成傳說段位第2名可獲得的貼紙。.",
+      "zh_cn": ""
+    },
+    {
+      "no": 226160,
+      "kr": "에덴 연합 작전: 가온 편에서 레전더리 티어 1위 달성 시 획득 가능한 스티커.",
+      "en": "A sticker that can be obtained upon reaching first place in Legendary tier in [Operation Eden Alliance] Gaon.",
+      "ja": "エデン連合作戦：ガオン編でレジェンダリーティアの1位を達成すると獲得できるステッカー",
+      "zh_tw": "在伊甸園聯合作戰：加溫篇達成傳說段位第1名可獲得的貼紙。",
+      "zh_cn": ""
+    },
+    {
       "no": 226161,
       "kr": "에덴 연합 작전: 솔레이 편에서 브론즈 티어 달성 시 획득 가능한 스티커.",
       "en": "A sticker that can be obtained upon reaching Bronze tier in [Operation Eden Alliance] Solrey.",
@@ -14227,17 +14291,17 @@
     {
       "no": 226809,
       "kr": "지호(미르) 승급 패스 오리진 달성 무료 보상으로 획득 가능한 스티커. \r\n\r\n\"꺄악! 시하 너무 좋아!\"",
-      "en": "A sticker that can be obtained as a free reward for reaching Origin on Jiho(Mir) Ascension Pass.\r\n\r\n\"Kyaa~ I really love Seeha~!\"",
+      "en": "A sticker that can be obtained as a free reward for reaching Origin on Jiho (Mir) Ascension Pass.\r\n\r\n\"Squee! I love Siha so much!\"",
       "ja": "",
-      "zh_tw": "達成智河（米爾）升階通行證不朽可免費獲得的貼紙獎勵。\r\n\r\n「啊啊啊，西荷太喜欢了～」",
+      "zh_tw": "達成智河（米爾）升階通行證不朽可免費獲得的貼紙獎勵。\r\n\r\n「啊啊！我好喜歡西荷！」",
       "zh_cn": ""
     },
     {
       "no": 226810,
       "kr": "르네(백은) 승급 패스 오리진 달성 무료 보상으로 획득 가능한 스티커. \r\n\r\n\"무엇 하나 변함 없는 나... 라고 하기엔 너무 갭이 큰가? 후후.\"",
-      "en": "A sticker that can be obtained as a free reward for reaching Origin on Renee (Argent) Ascension Pass.\r\n\r\n\"Kyaa~ I really love Seeha~!\"",
+      "en": "A sticker that can be obtained as a free reward for reaching Origin on Renee (Argent) Ascension Pass.\r\n\r\n\"I'm still the same as ever...or maybe not?\"",
       "ja": "",
-      "zh_tw": "達成勒內（白銀）升階通行證不朽可免費獲得的貼紙獎勵。\r\n\r\n「啊啊啊，西荷太喜欢了～」",
+      "zh_tw": "達成勒內（白銀）升階通行證不朽可免費獲得的貼紙獎勵。\r\n\r\n「要說我不曾變過…這差距會太大嗎？呵呵。」",
       "zh_cn": ""
     },
     {
@@ -14667,81 +14731,81 @@
     {
       "no": 226954,
       "kr": "인피니티 보스 챌린지(눈의 현자) 참여 시 획득 가능한 스티커.",
-      "en": "",
+      "en": "A sticker that can be obtained upon participating in an Infinity Boss Challenge (Sage of the Snow) event.",
       "ja": "インフィニティボスチャレンジ(試練の幻影)に参加すると獲得できるステッカー",
-      "zh_tw": "",
+      "zh_tw": "參加無限BOSS挑戰（雪之賢者）時獲得的貼紙",
       "zh_cn": ""
     },
     {
       "no": 226955,
       "kr": "인피니티 보스 챌린지(눈의 현자) 최종 1위 달성 시 획득 가능한 스티커.",
-      "en": "",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Sage of the Snow) event in first place.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成無限BOSS挑戰（雪之賢者）最終第1名時獲得的貼紙",
       "zh_cn": ""
     },
     {
       "no": 226956,
       "kr": "인피니티 보스 챌린지(눈의 현자) 최종 2위 달성 시 획득 가능한 스티커.",
-      "en": "",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Sage of the Snow) event in second place.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成無限BOSS挑戰（雪之賢者）最終第2名時獲得的貼紙",
       "zh_cn": ""
     },
     {
       "no": 226957,
       "kr": "인피니티 보스 챌린지(눈의 현자) 최종 3위 달성 시 획득 가능한 스티커.",
-      "en": "",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Sage of the Snow) event in third place.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成無限BOSS挑戰（雪之賢者）最終第3名時獲得的貼紙",
       "zh_cn": ""
     },
     {
       "no": 226958,
       "kr": "인피니티 보스 챌린지(눈의 현자) 최종 4~10위 달성 시 획득 가능한 스티커.",
-      "en": "",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Sage of the Snow) event in 4th–10th place.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成無限BOSS挑戰（雪之賢者）最終第4～10名時獲得的貼紙",
       "zh_cn": ""
     },
     {
       "no": 226959,
       "kr": "인피니티 보스 챌린지(눈의 현자) 최종 11~100위 달성 시 획득 가능한 스티커.",
-      "en": "",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Sage of the Snow) event in 11th–100th place.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成無限BOSS挑戰（雪之賢者）最終第11～100名時獲得的貼紙",
       "zh_cn": ""
     },
     {
       "no": 226960,
       "kr": "인피니티 보스 챌린지(눈의 현자) 최종 101~500위 달성 시 획득 가능한 스티커.",
-      "en": "",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Sage of the Snow) event in 101st–500th place.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成無限BOSS挑戰（雪之賢者）最終第101～500名時獲得的貼紙",
       "zh_cn": ""
     },
     {
       "no": 226961,
       "kr": "인피니티 보스 챌린지(눈의 현자) 최종 501~1000위 달성 시 획득 가능한 스티커.",
-      "en": "",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Sage of the Snow) event in 501st–1000th place.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成無限BOSS挑戰（雪之賢者）最終第501～1000名時獲得的貼紙",
       "zh_cn": ""
     },
     {
       "no": 226962,
       "kr": "인피니티 보스 챌린지(눈의 현자) 최종 1001~2000위 달성 시 획득 가능한 스티커.",
-      "en": "",
+      "en": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Sage of the Snow) event in 1001st–2000th place.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成無限BOSS挑戰（雪之賢者）最終第1001～2000名時獲得的貼紙",
       "zh_cn": ""
     },
     {
       "no": 226963,
       "kr": "인피니티 보스 챌린지(눈의 현자) 참여 시 획득 가능한 스티커.",
-      "en": "",
+      "en": "A sticker that can be obtained upon participating in an Infinity Boss Challenge (Sage of the Snow) event.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "參加無限BOSS挑戰（雪之賢者）時獲得的貼紙",
       "zh_cn": ""
     },
     {
@@ -16747,17 +16811,17 @@
     {
       "no": 520180,
       "kr": "백은의 공주",
-      "en": "",
+      "en": "The Argent Princess",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "白銀公主",
       "zh_cn": ""
     },
     {
       "no": 520181,
       "kr": "결전 장비 : 허영",
-      "en": "",
+      "en": "Endgame Gear: Vanity",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "決戰裝備：氣派",
       "zh_cn": ""
     },
     {
@@ -18131,41 +18195,41 @@
     {
       "no": 520572,
       "kr": "실버 라이닝",
-      "en": "",
+      "en": "Silver Lining",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "白銀流線",
       "zh_cn": ""
     },
     {
       "no": 520573,
       "kr": "한밤중의 오로라",
-      "en": "",
+      "en": "Midnight Aurora",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "午夜極光",
       "zh_cn": ""
     },
     {
       "no": 520574,
       "kr": "현자의 제자",
-      "en": "",
+      "en": "Sage's Disciple",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "賢者的弟子",
       "zh_cn": ""
     },
     {
       "no": 520575,
       "kr": "모드: 오피스",
-      "en": "",
+      "en": "Mode: Office",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "模式：辦公",
       "zh_cn": ""
     },
     {
       "no": 520576,
-      "kr": "결전 장비: 극광",
-      "en": "",
+      "kr": "결전 장비: 백설",
+      "en": "Endgame Gear: Extreme Light",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "決戰裝備：極光",
       "zh_cn": ""
     },
     {
@@ -18819,17 +18883,17 @@
     {
       "no": 530180,
       "kr": "과거 백은의 공주라 불렸던 시절의 르네의 모습.\r\n눈처럼 새하얗고, 얼음처럼 투명하며, 백은처럼 빛난다.",
-      "en": "",
+      "en": "Renee from her past days, when she was known as the Argent Princess.\r\nSnow-white, ice-clear, and luminous as silver.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "勒內從前被稱作白銀公主時期的樣貌。\r\n像雪一樣潔白，如冰晶般透明，像白銀一樣閃閃發光。",
       "zh_cn": ""
     },
     {
       "no": 530181,
       "kr": "미리암을 위해 특별히 제작된 결전 장비.\r\n마력 운용을 최적화할 수 있는 신기술은 물론,\r\n본래의 전투 스타일에 걸맞는 각종 무기가 준비되었다.",
-      "en": "",
+      "en": "Endgame gear specially crafted for Miriam.\r\nIt features new technology to optimize mana usage\r\nas well as various weapons suited to her original combat style.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "特別為米里昂製作的決戰裝備。\r\n不只有能將魔力運用到最大化的新技術，\r\n還備有各種適合原本戰鬥風格的武器。",
       "zh_cn": ""
     },
     {
@@ -20203,41 +20267,41 @@
     {
       "no": 530572,
       "kr": "르네를 위해 준비된 암즈 코퍼레이션의 새로운 제복.\r\n깔끔하게 떨어지는 실루엣이 심플하게 멋스럽다.",
-      "en": "",
+      "en": "Arms Corporation's new uniform prepared for Renee.\r\nThe silhouette flows gracefully, offering simple elegance.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "為勒內準備的安茲公司新制服。\r\n自然垂落的線條簡約優雅。",
       "zh_cn": ""
     },
     {
       "no": 530573,
       "kr": "밤의 오로라처럼 신비롭게 빛나는 르네의 의상.\r\n평소와는 다른 일면을 볼 수 있을지도…?",
-      "en": "",
+      "en": "Renee's outfit, shining mysteriously like an aurora at night.\r\nPerhaps you'll be able to glimpse a different side of her...",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "勒內的服裝，像夜空的極光般發出神祕的光芒。\r\n說不定能看見不同於往常的一面…？",
       "zh_cn": ""
     },
     {
       "no": 530574,
       "kr": "과거 바이스가 현자의 제자로 활동했던 시절의 모습. \r\n당시에는 나름 위엄을 갖춘다고 애쓴 모습이지만, \r\n지금와서 보면 살짝 귀여움이 과할지도 모른다.",
-      "en": "",
+      "en": "Weiss from her past days as a disciple of a sage.\r\nShe tried so hard to look dignified back then,\r\nbut looking at it now...maybe it's a little too cute.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "拜斯曾經作為賢者弟子活動的樣貌。\r\n當時努力塑造出具有威嚴的形象，\r\n但現在看來可能有些過於可愛。",
       "zh_cn": ""
     },
     {
       "no": 530575,
       "kr": "미리암이 내근이나 외부 미팅을 할 때 입는 정장.\r\n솜씨 좋은 중간 관리직 답게 \r\n군더더기 없이 스타일리시하다.",
-      "en": "",
+      "en": "Miriam's business attire, worn for internal duties or outside meetings.\r\nBefitting a competent middle manager,\r\nit's sleek and stylish.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "米里昂從事內勤工作或外出開會時穿的正式服裝。\r\n符合能幹的中階管理職形象，\r\n乾淨俐落又兼具時尚。",
       "zh_cn": ""
     },
     {
       "no": 530576,
-      "kr": "미리암을 위해 특별히 제작된 결전 장비.\r\n칼라르에서 아주 드물게 발견되는\r\n희귀한 광석을 사용해서 만들어졌다고 한다.",
-      "en": "",
+      "kr": "미리암을 위해 특별히 제작된 결전 장비.\r\n칼라르에서 극히 최근에 발명한 신소재로 제작되어\r\n보다 가볍고 빠르게 움직일 수 있다. ",
+      "en": "Endgame gear specially crafted for Miriam.\r\nIt is said to be made using a rare ore\r\nvery rarely found in Chalar.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "特別為米里昂製作的決戰裝備。\r\n據說是採用在卡拉爾極少見的\r\n稀有礦石製作而成。",
       "zh_cn": ""
     },
     {
@@ -20923,9 +20987,9 @@
     {
       "no": 2110074,
       "kr": "유물의 기억: 누아다의 의수(백은)",
-      "en": "",
+      "en": "Artifact Memory: Nuada Airgetlám (Argent)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "遺物的記憶：努亞達的義肢（白銀）",
       "zh_cn": ""
     },
     {
@@ -24595,6 +24659,110 @@
     {
       "no": 2144823,
       "kr": "르네(백은)의 은빛 성",
+      "en": "Renee (Argent)'s Silver Castle",
+      "ja": "",
+      "zh_tw": "勒內（白銀）的銀色城堡",
+      "zh_cn": ""
+    },
+    {
+      "no": 2144901,
+      "kr": "유리 온실",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2144902,
+      "kr": "정원의 티타임",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2144903,
+      "kr": "럭셔리한 귀빈실",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2144904,
+      "kr": "린지(타나토스)의 아케나인 성 서재",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2144905,
+      "kr": "메이드의 주방",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2144906,
+      "kr": "정원 토피어리",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2144907,
+      "kr": "실베스터 조이의 샘",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2144908,
+      "kr": "티타임 트롤리",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2144909,
+      "kr": "엘레강스 바닥 타일",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2144910,
+      "kr": "메이드의 빨래터",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2144911,
+      "kr": "정원 가로등",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2144912,
+      "kr": "정원 담벼락",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2144913,
+      "kr": "정원 대문",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -25843,9 +26011,9 @@
     {
       "no": 2210074,
       "kr": "르네(백은)의 유물, 누아다의 의수(백은)의 기억입니다.\r\n유물을 획득하거나 승급에 사용됩니다.",
-      "en": "",
+      "en": "Artifact of Renee (Argent). The Memory of the Nuada Airgetlám (Argent).\r\nUsed to obtain or ascend Artifacts.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "勒內（白銀）的遺物，努亞達的義肢（白銀）的記憶\r\n可獲得遺物或用來升階",
       "zh_cn": ""
     },
     {
@@ -29547,6 +29715,110 @@
     {
       "no": 2244823,
       "kr": "동화에 나오는 백은의 공주가 살았다고 하는 성. \r\n밤하늘의 북극성처럼 찬란하고 아름답게 빛났다고 한다. \r\n르네가 말하길, 사실 이렇게 호화롭지는 않았다는데…\r\n\r\n영지에 배치하면 <color=\"#2d9b00\">특별한 아르바이트를 진행</color>할 수 있습니다.\r\n\r\n르네(백은)을 오브제에 배치하면 <color=\"#2d9b00\">르네(백은)의 공격력이 10% 증가</color>합니다. \r\n(다른 오브제에 중복 배치 불가)",
+      "en": "The castle said to be home to the Argent Princess of fairy tales.\r\nIt supposedly shone as brilliantly as the North Star.\r\nRenee mentions, though, that in reality, it wasn't nearly so grand...\r\n\r\nPlace it in town to unlock a <color=\"#2d9b00\">special part-time job</color>.\r\n\r\nDeploying Renee (Argent) to this structure will <color=\"#2d9b00\">increase Renee (Argent)'s ATK by 10%</color>.\r\n(Each Soul can occupy only one structure.)",
+      "ja": "",
+      "zh_tw": "據說是童話裡白銀公主住過的城堡。\r\n像夜空的北極星一樣燦爛，閃爍著美麗的光芒。\r\n勒內說，其實以前沒有這麼豪華…\r\n\r\n配置在領地可<color=\"#2d9b00\">進行特別的打工</color>。\r\n\r\n將勒內（白銀）配置於物件可<color=\"#2d9b00\">增加勒內（白銀）的攻擊力10%</color>。\r\n（不可重複配置在其他物件）",
+      "zh_cn": ""
+    },
+    {
+      "no": 2244901,
+      "kr": "유리 온실 설명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2244902,
+      "kr": "정원의 티타임 설명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2244903,
+      "kr": "럭셔리한 귀빈실 설명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2244904,
+      "kr": "린지(타나토스)의 아케나인 성 서재 설명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2244905,
+      "kr": "메이드의 주방 설명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2244906,
+      "kr": "정원 토피어리 설명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2244907,
+      "kr": "실베스터 조이의 샘 설명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2244908,
+      "kr": "티타임 트롤리 설명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2244909,
+      "kr": "엘레강스 바닥 타일 설명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2244910,
+      "kr": "메이드의 빨래터 설명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2244911,
+      "kr": "정원 가로등 설명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2244912,
+      "kr": "정원 담벼락 설명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 2244913,
+      "kr": "정원 대문 설명",
       "en": "",
       "ja": "",
       "zh_tw": "",
@@ -30915,9 +31187,9 @@
     {
       "no": 21531601,
       "kr": "스티커: 소중한 르네(백은)",
-      "en": "",
+      "en": "Sticker: Precious Renee (Argent)",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "貼紙：珍貴的勒內（白銀）",
       "zh_cn": ""
     },
     {
@@ -31507,9 +31779,9 @@
     {
       "no": 22531601,
       "kr": "르네(백은)의 인연 레벨 40 달성 시 획득 가능한 스티커.",
-      "en": "",
+      "en": "A sticker that can be obtained upon reaching Renee (Argent) Bond Level 40.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "達成勒內（白銀）好感等級40時可獲得的貼紙。",
       "zh_cn": ""
     },
     {

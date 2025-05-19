@@ -4022,7 +4022,7 @@
       "prefab_path": "InvisibleHonglan",
       "timeline_path": "InvisibleHonglan",
       "icon_path": "",
-      "portrait_path": "HonglanSnow1",
+      "portrait_path": "WeissTank1",
       "controller_path": "",
       "scale_set": 1.0
     },
@@ -4031,7 +4031,7 @@
       "prefab_path": "InvisibleHonglan",
       "timeline_path": "InvisibleHonglan",
       "icon_path": "",
-      "portrait_path": "HonglanSnow2",
+      "portrait_path": "WeissTank2",
       "controller_path": "",
       "scale_set": 1.0
     },
@@ -4040,7 +4040,7 @@
       "prefab_path": "InvisibleHonglan",
       "timeline_path": "InvisibleHonglan",
       "icon_path": "",
-      "portrait_path": "HonglanSnow3",
+      "portrait_path": "WeissTank3",
       "controller_path": "",
       "scale_set": 1.0
     },
@@ -4049,7 +4049,7 @@
       "prefab_path": "InvisibleHonglan2",
       "timeline_path": "InvisibleHonglan2",
       "icon_path": "",
-      "portrait_path": "HonglanSnowReset",
+      "portrait_path": "WeissTankReset",
       "controller_path": "",
       "scale_set": 1.0
     },
@@ -4070,6 +4070,24 @@
       "portrait_path": "SakuyoShinRaid",
       "controller_path": "",
       "scale_set": 1.3
+    },
+    {
+      "no": 2815,
+      "prefab_path": "ReneeSilver",
+      "timeline_path": "ReneeSilver",
+      "icon_path": "",
+      "portrait_path": "ReneeSilver",
+      "controller_path": "",
+      "scale_set": 1.3
+    },
+    {
+      "no": 2816,
+      "prefab_path": "InvisibleHonglan",
+      "timeline_path": "InvisibleHonglan",
+      "icon_path": "",
+      "portrait_path": "MercilessInquisitor",
+      "controller_path": "",
+      "scale_set": 1.0
     },
     {
       "no": 2998,

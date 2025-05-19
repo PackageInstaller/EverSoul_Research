@@ -12749,7 +12749,7 @@
       "kr": "지호(미르) 에픽+등급 달성",
       "en": "Upgrade Jiho (Mir) to Epic+",
       "ja": "ジホ(ミル)のエピック+ランクを達成",
-      "zh_tw": "獲得智河（米爾）史詩＋階級",
+      "zh_tw": "達成智河（米爾）史詩＋階級",
       "zh_cn": ""
     },
     {
@@ -12757,13 +12757,13 @@
       "kr": "지호(미르) 레전더리 등급 달성",
       "en": "Upgrade Jiho (Mir) to Legendary",
       "ja": "ジホ(ミル)のレジェンダリーランクを達成",
-      "zh_tw": "智河（米爾）傳說階級",
+      "zh_tw": "達成智河（米爾）傳說階級",
       "zh_cn": ""
     },
     {
       "no": 11407,
       "kr": "르네(백은) 획득",
-      "en": "Obtain Renee (Argent)",
+      "en": "Acquire Renee (Argent)",
       "ja": "ルネ(白銀)を獲得",
       "zh_tw": "獲得勒內（白銀）",
       "zh_cn": ""
@@ -22843,17 +22843,17 @@
     {
       "no": 21149,
       "kr": "메이드 인 마이 홈",
-      "en": "",
+      "en": "Homemade by Me",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "女僕在我家",
       "zh_cn": ""
     },
     {
       "no": 21150,
       "kr": "아케나인 방어전",
-      "en": "",
+      "en": "Defense of Arkenine",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "阿肯納因防禦戰",
       "zh_cn": ""
     },
     {
@@ -24377,6 +24377,22 @@
       "zh_cn": ""
     },
     {
+      "no": 30191,
+      "kr": "Argent Brilliance",
+      "en": "Argent Brilliance",
+      "ja": "Argent Brilliance",
+      "zh_tw": "Argent Brilliance",
+      "zh_cn": ""
+    },
+    {
+      "no": 30192,
+      "kr": "불완전하고도 찬란한 내일로",
+      "en": "Incomplete and brilliant tomorrow",
+      "ja": "",
+      "zh_tw": "邁向不完整但燦爛的明天",
+      "zh_cn": ""
+    },
+    {
       "no": 40000,
       "kr": "무한작전",
       "en": "Infinite Operation",
@@ -25254,6 +25270,22 @@
       "en": "Ranking info",
       "ja": "ランキング確認",
       "zh_tw": "確認排名",
+      "zh_cn": ""
+    },
+    {
+      "no": 51025,
+      "kr": "적 정보",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 51026,
+      "kr": "기원 효과",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -26381,7 +26413,7 @@
       "kr": "[픽업 소환] 라우라",
       "en": "[Pick-Up Summon] Laura",
       "ja": "[ピックアップ召喚] ラウラ",
-      "zh_tw": "［Pick Up召喚］蘿拉",
+      "zh_tw": "［Pick Up］蘿拉",
       "zh_cn": ""
     },
     {
@@ -26389,7 +26421,7 @@
       "kr": "[픽업 소환] 하루(카무이)",
       "en": "[Pick-Up Summon] Haru (Kamuy)",
       "ja": "[ピックアップ召喚] ハル(カムイ)",
-      "zh_tw": "［Pick Up召喚］河路（神威）",
+      "zh_tw": "［Pick Up］河路（神威）",
       "zh_cn": ""
     },
     {
@@ -26898,18 +26930,18 @@
     },
     {
       "no": 110672,
-      "kr": "갑작스럽게 이성을 잃은 마물들이 아케나인을 침공하기 위해 움직이기 시작했다!\r\n이 다리에서 마물들을 막지 못한다면 아케나인의 정령들이 위험에 빠진다!\r\n르네(백은)과 바이스의 탱크 지원을 받으며 마을을 공격하러 몰려온 마물들을 물리치고 아케나인을 지켜내자!",
-      "en": "",
+      "kr": "갑작스럽게 이성을 잃은 마물들이 아케나인을 침공하기 위해 움직이기 시작했다!\r\n이 다리에서 마물들을 막지 못한다면 아케나인의 정령들이 위험에 빠진다!\r\n바이스의 지원을 받으며 마을을 공격하러 몰려온 마물들을 물리치고 아케나인을 지켜내자!",
+      "en": "Maddened monsters are on the move, intent on invading Arkenine!\r\nIf the monsters cannot be stopped at this bridge, the Souls of Arkenine will be in danger!\r\nWith Weiss's tank support, defeat the monsters swarming to attack the town and defend Arkenine!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "突然失去理性的魔物開始準備要襲擊阿肯納因了！\r\n如果無法在這座橋成功阻止魔物，阿肯納因的精靈就會陷入危險！\r\n接受拜斯的坦克支援，擊退蜂擁而上要攻擊村莊的魔物，保護阿肯納因！",
       "zh_cn": ""
     },
     {
       "no": 110673,
-      "kr": "바이스의 탱크 지원과 르네(백은)의 도움이 있다면 더 많은 마물을 한 번에 무찌를 수 있다!\r\n각 위치에 맞춰 바이스의 탱크 지원을 사용하는 것이 승리의 포인트!\r\n한 번의 포격으로 많은 적을 물리칠 경우 탱크의 장전 속도가 더욱 빨라진다!\r\n\r\n1호 탱크 사격(상단): 모든 적을 궤멸시키는 포를 직선으로 발사한다. (쿨타임: 20초)\r\n\r\n2호 탱크 사격(중단): 모든 적을 궤멸시키는 포를 직선으로 발사한다. (쿨타임: 20초)\r\n\r\n3호 탱크 사격(하단): 모든 적을 궤멸시키는 포를 직선으로 발사한다. (쿨타임: 20초)\r\n\r\n긴급 장전: 모든 탱크 포격을 즉시 사용 가능 상태로 변경한다. (1회에 한해 전투 시작 20초 이후 사용 가능)\r\n\r\n적 처치 시 10,000점 획득 가능",
-      "en": "",
+      "kr": "바이스의 도움이 있다면 더 많은 마물을 한 번에 무찌를 수 있다!\r\n각 위치에 맞춰 바이스의 탱크 지원을 사용하는 것이 승리의 포인트!\r\n한 번의 포격으로 많은 적을 물리칠 경우 탱크의 장전 속도가 더욱 빨라진다!\r\n\r\n1호 탱크 사격(상단): 모든 적을 궤멸시키는 포를 직선으로 발사한다. (쿨타임: 15초)\r\n\r\n2호 탱크 사격(중단): 모든 적을 궤멸시키는 포를 직선으로 발사한다. (쿨타임: 15초)\r\n\r\n3호 탱크 사격(하단): 모든 적을 궤멸시키는 포를 직선으로 발사한다. (쿨타임: 15초)\r\n\r\n긴급 장전: 모든 탱크 포격을 즉시 사용 가능 상태로 변경한다. (1회에 한해 전투 시작 20초 이후 사용 가능)\r\n\r\n적 처치 시 25,000점 획득 가능",
+      "en": "With Weiss's tank support, you can defeat even more monsters at once!\r\nSmart positioning with Weiss's tank support is key to victory!\r\nDefeating multiple enemies with a single tank bombardment reduces the tank's reload time!\r\n\r\nTank #1 Bombardment (Upper): Fires a shell in a straight line that annihilates all enemies in its path (Cooldown: 15 sec).\r\n\r\nTank #2 Bombardment (Middle): Fires a shell in a straight line that annihilates all enemies in its path (Cooldown: 15 sec).\r\n\r\nTank #3 Bombardment (Lower): Fires a shell in a straight line that annihilates all enemies in its path (Cooldown: 15 sec).\r\n\r\nEmergency Reload: Instantly readies all tank bombardments for use (can be used once per battle, 20 seconds after the battle begins)\r\n\r\nDefeating the enemy awards 25,000 points.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "有了拜斯的幫助，就能一口氣殲滅更多魔物！\r\n配合各個位置使用拜斯的坦克支援是獲勝關鍵！\r\n如果一次砲擊擊中眾多敵人，坦克的裝填速度會變更快！\r\n\r\n1號坦克射擊（上）：直線發射出殲滅所有敵人的砲彈。（冷卻時間：15秒）\r\n\r\n2號坦克射擊（中）：直線發射出殲滅所有敵人的砲彈。（冷卻時間：15秒）\r\n\r\n3號坦克射擊（下）：直線發射出殲滅所有敵人的砲彈。（冷卻時間：15秒）\r\n\r\n緊急裝填：所有坦克轉為可立即使用砲擊的狀態。（僅限發動1次，可在戰鬥開始20秒後使用）\r\n\r\n擊殺敵人時可獲得25,000分",
       "zh_cn": ""
     },
     {
@@ -38235,49 +38267,49 @@
     {
       "no": 532357,
       "kr": "그래. 왔나?\r\n한번 둘러보도록.",
-      "en": "",
+      "en": "Ah, you're here.\r\nGo on, take a look around.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "好，你來啦？\r\n看看吧。",
       "zh_cn": ""
     },
     {
       "no": 532358,
       "kr": "흐흥. 네 녀석을 위해 특별히 준비한 물건들이다!\r\n어때. 멋지지 않나!",
-      "en": "",
+      "en": "Specially picked out for you!\r\nPretty cool, aren't they?",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "哼哼，這些是我特別為你這傢伙準備的東西！\r\n怎麼樣？很酷吧！",
       "zh_cn": ""
     },
     {
       "no": 532359,
       "kr": "제 아무리 동맹 관계라고 해도\r\n뭐든지 공짜로 줄 수는 없지.\r\n더 필요한 게 있다면 따로 상담도 받아 주겠다.",
-      "en": "",
+      "en": "We may be allies, but I can't\r\nhand things out for free.\r\nBut if you need more, I'm open to negotiation.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "就算我們是結盟關係，\r\n也不能什麼都白白送你。\r\n如果還有需要的，我可以另外跟你商量。",
       "zh_cn": ""
     },
     {
       "no": 532360,
       "kr": "네 녀석이 뭘 필요로 할지 모르니\r\n일단 다양하게 가져와 봤다.\r\n설마 이게 전부라고 생각하진 않겠지?",
-      "en": "",
+      "en": "Wasn't sure what you'd need,\r\nso brought a mix.\r\nSurely you didn't think this was all I had, did you?",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "不知道你這傢伙需要什麼，\r\n就先拿了各式各樣的東西來。\r\n你應該不會認為這就是全部吧？",
       "zh_cn": ""
     },
     {
       "no": 532361,
       "kr": "그래! 좋은 선택이군.\r\n앞으로도 고생하도록.",
-      "en": "",
+      "en": "Wise selection!\r\nKeep up the hard work.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "好！選得好，\r\n之後也要麻煩你了。",
       "zh_cn": ""
     },
     {
       "no": 532362,
       "kr": "쿨한 구매 고맙군.\r\n더 필요한 건 없나?",
-      "en": "",
+      "en": "I appreciate the quick purchase.\r\nNeed anything else?",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "謝謝你大手筆的消費。\r\n還有沒有需要的？",
       "zh_cn": ""
     },
     {
@@ -41859,9 +41891,9 @@
     {
       "no": 552514,
       "kr": "르네(백은) 배치 시 <color=\"#2d9b00\">르네(백은)의 공격력 {0}%</color> 증가",
-      "en": "",
+      "en": "<color=\"#2d9b00\">Renee (Argent)'s ATK +{0}%</color> when Renee (Argent) is placed",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "配置勒內（白銀）時，<color=\"#2d9b00\">勒內（白銀）的攻擊力增加{0}%</color>",
       "zh_cn": ""
     },
     {
@@ -55347,7 +55379,7 @@
     {
       "no": 675001,
       "kr": "종말을 부르는 인형이 곧 자폭합니다! \r\n화력을 집중하여 저지하세요!",
-      "en": "The Doomsday Doll is about to self-detonate!\r\n Concentrate your firepower to stop her!",
+      "en": "The Doomsday Doll is about to self-detonate!\r\nConcentrate your firepower to stop her!",
       "ja": "",
       "zh_tw": "末日傀儡即將自爆！\r\n集中火力阻止她！",
       "zh_cn": ""
@@ -65531,7 +65563,7 @@
     {
       "no": 996514,
       "kr": "이벤트 내 다양한 컨텐츠에서 주사위를 획득할 수 있습니다.\r\n주사위를 굴려 나온 숫자만큼 캐릭터가 게임판을 이동합니다.\r\n포인트 칸에 도착하면 포인트를 획득하며, 완주 시마다 추가 포인트가 지급됩니다.\r\n이벤트 칸에 도착하면 다양한 이벤트가 발생됩니다.\r\n2배속 버튼으로 보다 빠르게 주사위 게임을 진행할 수 있습니다.\r\n자동버튼 사용 시 보유 주사위가 소진될 때까지 자동으로 진행됩니다.",
-      "en": "Earn dice by engaging in various event activities.\r\nRoll the dice to move your character across the board according to the number shown.\r\nLanding on a point tile grants you points, and completing a full round gives you bonus points.\r\nLanding on an event tile triggers various events.\r\nUse the 2x button to play the dice game faster.\r\nUse the Auto button to play automatically until you run out of dice.",
+      "en": "Earn dice by engaging in various event activities.\r\nRoll the dice to move your character across the board according to the number shown.\r\nLanding on a point tile grants you points, and completing a full round gives you bonus points.\r\nLanding on an event tile triggers various events.\r\nEnable Double Speed to play the dice game faster.\r\nTap the auto button to keep playing until you run out of dice.",
       "ja": "イベントの様々なコンテンツでサイコロを獲得できます。\r\nキャラクターはサイコロの出目に応じてボードを進みます。\r\nポイントマスに止まるとポイントを獲得でき、完走するたびに追加ポイントが支給されます。\r\nイベントマスに止まると様々なイベントが発生します。\r\n2倍速にチェックを入れると、サイコロゲームをより速くプレイできます。",
       "zh_tw": "活動期間內，可在多種遊戲內容獲得骰子。\r\n角色會在棋盤上移動骰子擲出的步數。\r\n抵達分數格子即獲得分數，每完成一回合將發放額外分數。\r\n抵達活動格子，將觸發多樣活動。\r\n使用2倍速按鈕，可更快速地進行骰子遊戲。\r\n使用自動按鈕，將自動進行到耗盡持有骰子為止。",
       "zh_cn": ""
@@ -65634,8 +65666,8 @@
     },
     {
       "no": 996610,
-      "kr": "스트라이브 시스템은 일정 기간 동안 해당 테마의 정령을 편성하고\r\n각 단계별로 설정된 적과 시뮬레이션에 대응하며 높은 단계를 향해 가는 컨텐츠입니다.",
-      "en": "With the Strive System, you'll deploy theme-based Souls\r\n to take on stage-specific enemies and simulations, climbing toward higher levels of difficulty over a limited time.",
+      "kr": "스트라이브 시스템은 각 단계별로 설정된 적과 시뮬레이션에 대응하며 높은 단계를 향해 가는 컨텐츠입니다.\r\n일정 기간 동안 해당 테마의 정령에게는 기원 효과가 적용됩니다.\r\n기원 효과는 대상 정령에게만 적용되는 강력한 버프입니다.",
+      "en": "With the Strive System, you'll deploy theme-based Souls\r\nto take on stage-specific enemies and simulations, climbing toward higher levels of difficulty over a limited time.",
       "ja": "",
       "zh_tw": "奮戰系統是在一定期間內編制該主題的精靈，\r\n對付各階段設置的敵人和模擬裝置，逐漸邁向高階段的遊戲內容。",
       "zh_cn": ""

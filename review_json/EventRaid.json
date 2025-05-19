@@ -793,12 +793,12 @@
       "hero_no1": 32099,
       "hero_grade1": 110014,
       "level1": 1,
-      "map": "Map_Battle_Bridge_01",
+      "map": "Map_Battle_Bridge_Event_01",
       "formation_type": 3,
       "rental_type": 4,
       "global_volumn": 2,
       "max_hp": 3000000,
-      "battle_time": 120
+      "battle_time": 60
     },
     {
       "no": 36,

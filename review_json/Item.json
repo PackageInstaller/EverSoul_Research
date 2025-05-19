@@ -22999,6 +22999,26 @@
       "item_sort_no": 20004
     },
     {
+      "no": 2815,
+      "category_sno": 110009,
+      "grade_sno": 110011,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Aki_Icon_Costume_01",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
+      "no": 2816,
+      "category_sno": 110009,
+      "grade_sno": 110011,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Aki_Icon_Costume_01",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
       "no": 2998,
       "category_sno": 110009,
       "grade_sno": 110016,
@@ -28415,6 +28435,54 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_path": "sticker_eas_gaon_tier_6",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6157,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216157,
+      "desc_sno": 226157,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_eas_gaon_tier_7",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6158,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216158,
+      "desc_sno": 226158,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_eas_gaon_tier_7_3",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6159,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216159,
+      "desc_sno": 226159,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_eas_gaon_tier_7_2",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6160,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216160,
+      "desc_sno": 226160,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_eas_gaon_tier_7_1",
       "atlas_type": 6,
       "item_sort_no": 60000
     },

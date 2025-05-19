@@ -1948,6 +1948,7 @@
       "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_Costume01_128",
       "costume_path": "ReneeSilver_Costume01",
       "controller_path": "",
+      "position_y": 0.05,
       "position_scale": 1.0
     },
     {
@@ -1958,6 +1959,18 @@
       "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128",
       "costume_path": "",
       "controller_path": "",
+      "position_y": 0.05,
+      "position_scale": 1.0
+    },
+    {
+      "no": 3169,
+      "name_sno": 259999,
+      "prefab_path": "ReneeSilver",
+      "portrait512_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_512",
+      "portrait128_path": "UI/Textures/Souls/ReneeSilver/ReneeSilver_128",
+      "costume_path": "",
+      "controller_path": "",
+      "position_y": 0.05,
       "position_scale": 1.0
     },
     {
@@ -2498,6 +2511,18 @@
       "position_scale": 1.0
     },
     {
+      "no": 4152,
+      "name_sno": 304150,
+      "prefab_path": "Weiss",
+      "portrait512_path": "UI/Textures/Souls/Weiss/Weiss_Costume03_512",
+      "portrait128_path": "UI/Textures/Souls/Weiss/Weiss_Costume03_128",
+      "costume_path": "Weiss_Costume03",
+      "controller_path": "",
+      "portrait_reverse": 1,
+      "position_y": 0.1,
+      "position_scale": 1.0
+    },
+    {
       "no": 4157,
       "name_sno": 259999,
       "prefab_path": "Weiss",
@@ -2748,7 +2773,7 @@
       "no": 5070,
       "name_sno": 305070,
       "prefab_path": "",
-      "portrait512_path": "UI/Textures/Etc/NPC_Girl_512",
+      "portrait512_path": "",
       "portrait128_path": "",
       "costume_path": "",
       "controller_path": "",
@@ -10584,6 +10609,15 @@
       "costume_path": "",
       "controller_path": "",
       "position_scale": 1.0
+    },
+    {
+      "no": 9751,
+      "name_sno": 250709,
+      "prefab_path": "",
+      "portrait512_path": "",
+      "portrait128_path": "",
+      "costume_path": "",
+      "controller_path": ""
     },
     {
       "no": 9950,
