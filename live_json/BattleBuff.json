@@ -2594,6 +2594,14 @@
       "skillcode3": 2023052
     },
     {
+      "no": 2500,
+      "ally_sno": 110301,
+      "race_sno": 110051,
+      "stat_sno": 110041,
+      "target": 999,
+      "skillcode1": 250010
+    },
+    {
       "no": 3001,
       "race_sno": 110051,
       "stat_sno": 110041,
@@ -4973,7 +4981,6 @@
       "ally_sno": 110301,
       "race_sno": 110051,
       "stat_sno": 110041,
-      "target": 1,
       "specific_target": 4070,
       "skillcode1": 703111,
       "skillcode2": 703112,
@@ -4984,7 +4991,6 @@
       "ally_sno": 110301,
       "race_sno": 110051,
       "stat_sno": 110041,
-      "target": 1,
       "specific_target": 4070,
       "skillcode1": 703114,
       "skillcode2": 703115
@@ -4994,7 +5000,6 @@
       "ally_sno": 110301,
       "race_sno": 110051,
       "stat_sno": 110041,
-      "target": 1,
       "specific_target": 4030,
       "skillcode1": 703121,
       "skillcode2": 703122,
@@ -5005,7 +5010,6 @@
       "ally_sno": 110301,
       "race_sno": 110051,
       "stat_sno": 110041,
-      "target": 1,
       "specific_target": 4030,
       "skillcode1": 703124,
       "skillcode2": 703125
@@ -5015,7 +5019,6 @@
       "ally_sno": 110301,
       "race_sno": 110051,
       "stat_sno": 110041,
-      "target": 1,
       "specific_target": 6030,
       "skillcode1": 703311,
       "skillcode2": 703312,
@@ -5026,7 +5029,6 @@
       "ally_sno": 110301,
       "race_sno": 110051,
       "stat_sno": 110041,
-      "target": 1,
       "specific_target": 6030,
       "skillcode1": 703314,
       "skillcode2": 703315
@@ -5036,7 +5038,6 @@
       "ally_sno": 110301,
       "race_sno": 110051,
       "stat_sno": 110041,
-      "target": 1,
       "specific_target": 4080,
       "skillcode1": 703321,
       "skillcode2": 703322,
@@ -5047,7 +5048,6 @@
       "ally_sno": 110301,
       "race_sno": 110051,
       "stat_sno": 110041,
-      "target": 1,
       "specific_target": 4080,
       "skillcode1": 703324,
       "skillcode2": 703325
@@ -5473,6 +5473,16 @@
       "target": 1,
       "skillcode1": 8000198,
       "skillcode2": 8000199
+    },
+    {
+      "no": 8023,
+      "ally_sno": 110302,
+      "race_sno": 110051,
+      "stat_sno": 110041,
+      "target": 1,
+      "skillcode1": 802310,
+      "skillcode2": 802311,
+      "skillcode3": 802312
     },
     {
       "no": 8111,

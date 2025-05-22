@@ -7255,6 +7255,102 @@
       "start_date": "2025-05-02 00:00:00",
       "end_date": "2025-05-22 00:00:00",
       "value_date01": ""
+    },
+    {
+      "index": 90013,
+      "schedule_key": "GS_1_0002_P",
+      "schedule_type": 9,
+      "start_date": "2025-05-22 00:00:00",
+      "end_date": "2025-05-29 00:00:00",
+      "value_date01": ""
+    },
+    {
+      "index": 90014,
+      "schedule_key": "GS_1_0002_C",
+      "schedule_type": 9,
+      "start_date": "2025-05-29 00:00:00",
+      "end_date": "2025-05-30 00:00:00",
+      "value_date01": ""
+    },
+    {
+      "index": 90015,
+      "schedule_key": "GS_1_0002_R",
+      "schedule_type": 9,
+      "start_date": "2025-05-30 00:00:00",
+      "end_date": "2025-06-19 00:00:00",
+      "value_date01": ""
+    },
+    {
+      "index": 90016,
+      "schedule_key": "GS_2_0002_P",
+      "schedule_type": 9,
+      "start_date": "2025-05-22 00:00:00",
+      "end_date": "2025-05-29 00:00:00",
+      "value_date01": ""
+    },
+    {
+      "index": 90017,
+      "schedule_key": "GS_2_0002_C",
+      "schedule_type": 9,
+      "start_date": "2025-05-29 00:00:00",
+      "end_date": "2025-05-30 00:00:00",
+      "value_date01": ""
+    },
+    {
+      "index": 90018,
+      "schedule_key": "GS_2_0002_R",
+      "schedule_type": 9,
+      "start_date": "2025-05-30 00:00:00",
+      "end_date": "2025-06-19 00:00:00",
+      "value_date01": ""
+    },
+    {
+      "index": 90019,
+      "schedule_key": "GS_3_0002_P",
+      "schedule_type": 9,
+      "start_date": "2025-05-02 00:00:00",
+      "end_date": "2025-05-29 00:00:00",
+      "value_date01": ""
+    },
+    {
+      "index": 90020,
+      "schedule_key": "GS_3_0002_C",
+      "schedule_type": 9,
+      "start_date": "2025-05-29 00:00:00",
+      "end_date": "2025-05-30 00:00:00",
+      "value_date01": ""
+    },
+    {
+      "index": 90021,
+      "schedule_key": "GS_3_0002_R",
+      "schedule_type": 9,
+      "start_date": "2025-05-30 00:00:00",
+      "end_date": "2025-06-19 00:00:00",
+      "value_date01": ""
+    },
+    {
+      "index": 90022,
+      "schedule_key": "GS_4_0002_P",
+      "schedule_type": 9,
+      "start_date": "2025-05-02 00:00:00",
+      "end_date": "2025-05-29 00:00:00",
+      "value_date01": ""
+    },
+    {
+      "index": 90023,
+      "schedule_key": "GS_4_0002_C",
+      "schedule_type": 9,
+      "start_date": "2025-05-29 00:00:00",
+      "end_date": "2025-05-30 00:00:00",
+      "value_date01": ""
+    },
+    {
+      "index": 90024,
+      "schedule_key": "GS_4_0002_R",
+      "schedule_type": 9,
+      "start_date": "2025-05-30 00:00:00",
+      "end_date": "2025-06-19 00:00:00",
+      "value_date01": ""
     }
   ]
 }

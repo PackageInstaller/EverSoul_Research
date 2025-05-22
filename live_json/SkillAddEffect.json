@@ -1415,6 +1415,13 @@
       "skill_code3": 216976
     },
     {
+      "effect_no": 250010,
+      "skill_code1": 250011,
+      "skill_code2": 250012,
+      "skill_code3": 250013,
+      "skill_code4": 250014
+    },
+    {
       "effect_no": 301001,
       "skill_code1": 3010011
     },
@@ -4825,6 +4832,115 @@
     {
       "effect_no": 720742,
       "skill_code1": 720742
+    },
+    {
+      "effect_no": 801011,
+      "skill_code1": 801410
+    },
+    {
+      "effect_no": 801111,
+      "skill_code1": 801410,
+      "skill_code2": 801410
+    },
+    {
+      "effect_no": 801141,
+      "skill_code1": 801410,
+      "skill_code2": 801410,
+      "skill_code3": 801410
+    },
+    {
+      "effect_no": 801211,
+      "skill_code1": 801410
+    },
+    {
+      "effect_no": 801311,
+      "skill_code1": 801410
+    },
+    {
+      "effect_no": 801321,
+      "skill_code1": 801410
+    },
+    {
+      "effect_no": 801331,
+      "skill_code1": 801410
+    },
+    {
+      "effect_no": 801341,
+      "skill_code1": 801410
+    },
+    {
+      "effect_no": 801412,
+      "skill_code1": 801413,
+      "skill_code2": 801414,
+      "skill_code3": 801412
+    },
+    {
+      "effect_no": 801510,
+      "skill_code1": 801511,
+      "skill_code2": 801410
+    },
+    {
+      "effect_no": 801513,
+      "skill_code1": 801514
+    },
+    {
+      "effect_no": 801515,
+      "skill_code1": 801516
+    },
+    {
+      "effect_no": 801517,
+      "skill_code1": 801518
+    },
+    {
+      "effect_no": 801520,
+      "skill_code1": 801521,
+      "skill_code2": 801410
+    },
+    {
+      "effect_no": 801523,
+      "skill_code1": 801524
+    },
+    {
+      "effect_no": 801525,
+      "skill_code1": 801526
+    },
+    {
+      "effect_no": 801527,
+      "skill_code1": 801528
+    },
+    {
+      "effect_no": 801530,
+      "skill_code1": 801531,
+      "skill_code2": 801410
+    },
+    {
+      "effect_no": 801533,
+      "skill_code1": 801534
+    },
+    {
+      "effect_no": 801535,
+      "skill_code1": 801536
+    },
+    {
+      "effect_no": 801537,
+      "skill_code1": 801538
+    },
+    {
+      "effect_no": 801540,
+      "skill_code1": 801541,
+      "skill_code2": 801410
+    },
+    {
+      "effect_no": 801543,
+      "skill_code1": 801544
+    },
+    {
+      "effect_no": 801545,
+      "skill_code1": 801546
+    },
+    {
+      "effect_no": 801547,
+      "skill_code1": 801548
     },
     {
       "effect_no": 811801,

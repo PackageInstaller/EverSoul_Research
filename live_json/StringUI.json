@@ -25273,6 +25273,22 @@
       "zh_cn": ""
     },
     {
+      "no": 51025,
+      "kr": "적 정보",
+      "en": "Enemy Info",
+      "ja": "",
+      "zh_tw": "敵人資訊",
+      "zh_cn": ""
+    },
+    {
+      "no": 51026,
+      "kr": "기원 효과",
+      "en": "Origin Effect",
+      "ja": "",
+      "zh_tw": "起源效果",
+      "zh_cn": ""
+    },
+    {
       "no": 61900,
       "kr": "쇼콜라 퀸의 시험",
       "en": "Chocolat Queen's Test",
@@ -65650,10 +65666,10 @@
     },
     {
       "no": 996610,
-      "kr": "스트라이브 시스템은 일정 기간 동안 해당 테마의 정령을 편성하고\r\n각 단계별로 설정된 적과 시뮬레이션에 대응하며 높은 단계를 향해 가는 컨텐츠입니다.",
-      "en": "With the Strive System, you'll deploy theme-based Souls\r\nto take on stage-specific enemies and simulations, climbing toward higher levels of difficulty over a limited time.",
+      "kr": "스트라이브 시스템은 각 단계별로 설정된 적과 시뮬레이션에 대응하며 높은 단계를 향해 가는 컨텐츠입니다.\r\n일정 기간 동안 해당 테마의 정령에게는 기원 효과가 적용됩니다.\r\n기원 효과는 대상 정령에게만 적용되는 강력한 버프입니다.",
+      "en": "With the Strive System, you'll take on stage-specific enemies and simulations, climbing toward higher levels of difficulty.\r\nOrigin Effects are applied to theme-based Souls for a limited time.\r\nOrigin Effects are powerful buffs that apply only to the target Soul.",
       "ja": "",
-      "zh_tw": "奮戰系統是在一定期間內編制該主題的精靈，\r\n對付各階段設置的敵人和模擬裝置，逐漸邁向高階段的遊戲內容。",
+      "zh_tw": "奮戰系統是對付各階段設置的敵人和模擬裝置，逐漸邁向高階段的遊戲內容。\r\n在一定期間內，將對相應主題的精靈套用起源效果。\r\n起源效果是只會套用於相應精靈的強大增益效果。",
       "zh_cn": ""
     },
     {
