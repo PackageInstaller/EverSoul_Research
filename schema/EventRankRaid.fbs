@@ -7,17 +7,17 @@ table Deserialization {
     stage_no: int32;
     battle_view_type: int32;
     help_desc_sno: int32;
-    challenge_no1: int32;
-    challenge_bonus1: float;
-    challenge_no2: int32;
-    challenge_bonus2: float;
-    challenge_no3: int32;
-    challenge_bonus3: float;
-    bg_path: string;
-    bg_position: string;
-    event_bg_path: string;
-    sound_path: string;
-    open_date: string;
+    challenge_no_1: int32;
+    challenge_bonus_1: float;
+    challenge_no_2: int32;
+    challenge_bonus_2: float;
+    challenge_no_3: int32;
+    challenge_bonus_3: float;
+    bg_pathOffset: string;
+    bg_positionOffset: string;
+    event_bg_pathOffset: string;
+    sound_pathOffset: string;
+    open_dateOffset: string;
 }
 
 table EventRankRaid {

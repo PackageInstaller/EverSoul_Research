@@ -7,7 +7,7 @@ table Deserialization {
     event_number: int32;
     story_act: int32;
     story_open_behavior: int32;
-    bg_path: string;
+    bg_pathOffset: string;
 }
 
 table EventStory {

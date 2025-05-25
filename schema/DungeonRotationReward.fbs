@@ -4,26 +4,26 @@ table Deserialization {
     no: int32;
     dungeon_no: int32;
     difficulty: int32;
-    clear_reward_no1: int32;
-    clear_reward_amount1: int32;
-    clear_reward_no2: int32;
-    clear_reward_amount2: int32;
-    clear_reward_no3: int32;
-    clear_reward_amount3: int32;
-    clear_reward_no4: int32;
-    clear_reward_amount4: int32;
-    clear_reward_no5: int32;
-    clear_reward_amount5: int32;
-    clear_reward_no6: int32;
-    clear_reward_amount6: int32;
-    clear_reward_no7: int32;
-    clear_reward_amount7: int32;
-    clear_reward_no8: int32;
-    clear_reward_amount8: int32;
-    clear_reward_no9: int32;
-    clear_reward_amount9: int32;
-    clear_reward_no10: int32;
-    clear_reward_amount10: int32;
+    clear_reward_no_1: int32;
+    clear_reward_amount_1: int32;
+    clear_reward_no_2: int32;
+    clear_reward_amount_2: int32;
+    clear_reward_no_3: int32;
+    clear_reward_amount_3: int32;
+    clear_reward_no_4: int32;
+    clear_reward_amount_4: int32;
+    clear_reward_no_5: int32;
+    clear_reward_amount_5: int32;
+    clear_reward_no_6: int32;
+    clear_reward_amount_6: int32;
+    clear_reward_no_7: int32;
+    clear_reward_amount_7: int32;
+    clear_reward_no_8: int32;
+    clear_reward_amount_8: int32;
+    clear_reward_no_9: int32;
+    clear_reward_amount_9: int32;
+    clear_reward_no_10: int32;
+    clear_reward_amount_10: int32;
 }
 
 table DungeonRotationReward {

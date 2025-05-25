@@ -2,17 +2,17 @@ namespace GuildRaidAffix;
 
 table Deserialization {
     no: int32;
-    icon_path: string;
+    icon_pathOffset: string;
     string_no: int32;
     string_content_no: int32;
-    gimmick_type1: int32;
-    gimmick_value1: int32;
-    gimmick_type2: int32;
-    gimmick_value2: int32;
-    gimmick_type3: int32;
-    gimmick_value3: int32;
-    start_date: string;
-    end_date: string;
+    gimmick_type_1: int32;
+    gimmick_value_1: int32;
+    gimmick_type_2: int32;
+    gimmick_value_2: int32;
+    gimmick_type_3: int32;
+    gimmick_value_3: int32;
+    start_dateOffset: string;
+    end_dateOffset: string;
 }
 
 table GuildRaidAffix {

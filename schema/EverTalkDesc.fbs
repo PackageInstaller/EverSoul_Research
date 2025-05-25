@@ -7,7 +7,7 @@ table Deserialization {
     love_level: int8;
     hero_no: int16;
     talk_type: int16;
-    ui_type: string;
+    ui_typeOffset: string;
     speaker_no: int16;
     talk_index: int16;
     choice_group: int16;

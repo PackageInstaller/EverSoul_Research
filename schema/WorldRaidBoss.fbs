@@ -6,8 +6,8 @@ table Deserialization {
     boss_no: int32;
     guide_sno: int32;
     story_no: int32;
-    bg_path: string;
-    sound_path: string;
+    bg_pathOffset: string;
+    sound_pathOffset: string;
 }
 
 table WorldRaidBoss {

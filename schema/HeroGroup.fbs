@@ -4,8 +4,8 @@ table Deserialization {
     name_sno: int32;
     group_sno: int32;
     group_desc_sno: int32;
-    icon: string;
-    icon_color: string;
+    iconOffset: string;
+    icon_colorOffset: string;
 }
 
 table HeroGroup {

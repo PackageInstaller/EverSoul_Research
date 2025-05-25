@@ -7,12 +7,12 @@ table Deserialization {
     constraint_type: int32;
     title_string_no: int32;
     content_string_no: int32;
-    icon_path: string;
-    value1: int32;
-    value2: int32;
-    value3: int32;
-    value4: int32;
-    value5: int32;
+    icon_pathOffset: string;
+    value_1: int32;
+    value_2: int32;
+    value_3: int32;
+    value_4: int32;
+    value_5: int32;
 }
 
 table VistaConstraint {

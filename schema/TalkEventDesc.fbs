@@ -4,7 +4,7 @@ table Deserialization {
     no: int32;
     event_no: int32;
     order: int32;
-    desc_list: string;
+    desc_listOffset: string;
 }
 
 table TalkEventDesc {

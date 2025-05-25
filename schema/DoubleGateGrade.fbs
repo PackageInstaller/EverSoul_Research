@@ -13,7 +13,7 @@ table Deserialization {
     add_signature_skill_level: int32;
     reward_no: int32;
     reward_amount: int32;
-    map: string;
+    mapOffset: string;
     global_volume: int32;
 }
 

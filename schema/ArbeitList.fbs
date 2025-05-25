@@ -18,9 +18,9 @@ table Deserialization {
     item1_amount: int32;
     item2_no: int32;
     item2_amount: int32;
-    anime01: int32;
-    anime02: int32;
-    anime03: int32;
+    anime_01: int32;
+    anime_02: int32;
+    anime_03: int32;
 }
 
 table ArbeitList {

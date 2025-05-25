@@ -3,9 +3,9 @@ namespace EventDefenseEnemySetting;
 table Deserialization {
     no: int32;
     event_group: int32;
-    prefab_path: string;
-    timeline_path: string;
-    timeline_name: string;
+    prefab_pathOffset: string;
+    timeline_pathOffset: string;
+    timeline_nameOffset: string;
     monster_type: int32;
     monster_move_type: int32;
     max_count: int32;
@@ -21,7 +21,7 @@ table Deserialization {
     score: int32;
     exp: int32;
     item_drop_prob: int32;
-    item_drop_list: string;
+    item_drop_listOffset: string;
 }
 
 table EventDefenseEnemySetting {

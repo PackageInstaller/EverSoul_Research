@@ -2,10 +2,10 @@ namespace EventDefenseItem;
 
 table Deserialization {
     no: int32;
-    item_prefab: string;
+    item_prefabOffset: string;
     item_type: int32;
     item_value: float;
-    fx: string;
+    fxOffset: string;
     duration: int32;
     random_rate: int32;
     count_string: int32;

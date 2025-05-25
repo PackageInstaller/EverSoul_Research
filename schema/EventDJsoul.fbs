@@ -3,16 +3,16 @@ namespace EventDJsoul;
 table Deserialization {
     no: int32;
     title_sno: int32;
-    img_path: string;
-    bg_path: string;
-    preview_path: string;
-    bgm_path: string;
+    img_pathOffset: string;
+    bg_pathOffset: string;
+    preview_pathOffset: string;
+    bgm_pathOffset: string;
     difficulty_easy: int32;
     difficulty_normal: int32;
     difficulty_hard: int32;
-    note_easy: string;
-    note_normal: string;
-    note_hard: string;
+    note_easyOffset: string;
+    note_normalOffset: string;
+    note_hardOffset: string;
 }
 
 table EventDJsoul {

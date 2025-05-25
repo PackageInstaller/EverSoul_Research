@@ -2,9 +2,9 @@ namespace HelpGuideCategory;
 
 table Deserialization {
     no: int32;
-    category_title_icon: string;
+    category_title_iconOffset: string;
     category_title_sno: int32;
-    is_use: string;
+    is_use: bool;
 }
 
 table HelpGuideCategory {

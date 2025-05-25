@@ -4,7 +4,7 @@ table Deserialization {
     no: int32;
     tab_no: int32;
     sort_no: int32;
-    img: string;
+    imgOffset: string;
     use_anim: int32;
 }
 

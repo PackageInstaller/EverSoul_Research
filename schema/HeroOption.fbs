@@ -10,7 +10,7 @@ table Deserialization {
     effect_no2: int32;
     effect_no3: int32;
     tooltip_sno: int32;
-    icon_path: string;
+    icon_pathOffset: string;
 }
 
 table HeroOption {

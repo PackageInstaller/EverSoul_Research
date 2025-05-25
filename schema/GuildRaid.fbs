@@ -4,9 +4,9 @@ table Deserialization {
     no: int32;
     boss_no: int32;
     guide_sno: int32;
-    bg_path: string;
+    bg_pathOffset: string;
     stage_no: int32;
-    bgm_path: string;
+    bgm_pathOffset: string;
     practiceroom_view: int32;
     profile_view: int32;
 }

@@ -4,7 +4,7 @@ table Deserialization {
     index: int32;
     no: int32;
     type: int32;
-    type_code: string;
+    type_codeOffset: string;
     need_amount: int32;
     value: int32;
     value2: int32;

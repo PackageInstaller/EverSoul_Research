@@ -9,8 +9,8 @@ table Deserialization {
     contents_limit_no: int32;
     gacha_no: int32;
     hide_calender: int32;
-    bar_name: string;
-    schedule_key: string;
+    bar_nameOffset: string;
+    schedule_keyOffset: string;
 }
 
 table EventCalender {

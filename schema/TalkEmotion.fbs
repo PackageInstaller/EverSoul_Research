@@ -3,7 +3,7 @@ namespace TalkEmotion;
 table Deserialization {
     no: int32;
     actor_no: int32;
-    emotion_name: string;
+    emotion_nameOffset: string;
     index: int32;
     weight: int32;
 }

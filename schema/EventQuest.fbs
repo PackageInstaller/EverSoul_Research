@@ -8,7 +8,7 @@ table Deserialization {
     behavior: int32;
     value: int32;
     value2: int32;
-    item_infos: string;
+    item_infosOffset: string;
     content_sno: int32;
     reset_hour_sno: int32;
 }

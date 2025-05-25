@@ -2,8 +2,8 @@ namespace TownEnemy;
 
 table Deserialization {
     no: int32;
-    prefab_path: string;
-    slot: string;
+    prefab_pathOffset: string;
+    slotOffset: string;
     type: int32;
     movedelay: float;
     movetime: float;
@@ -13,7 +13,7 @@ table Deserialization {
     avoidspeed: int32;
     atk: int32;
     hp: int32;
-    reward: string;
+    rewardOffset: string;
     rewardgroup: int32;
     appear_ratio: int32;
     section: int32;

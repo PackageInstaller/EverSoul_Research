@@ -3,7 +3,7 @@ namespace TownVehicle;
 table Deserialization {
     no: int32;
     type: int32;
-    path: string;
+    pathOffset: string;
     move_speed: float;
 }
 

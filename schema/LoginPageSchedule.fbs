@@ -2,9 +2,9 @@ namespace LoginPageSchedule;
 
 table Deserialization {
     no: int32;
-    login_path: string;
-    start_date: string;
-    end_date: string;
+    login_pathOffset: string;
+    start_dateOffset: string;
+    end_dateOffset: string;
 }
 
 table LoginPageSchedule {

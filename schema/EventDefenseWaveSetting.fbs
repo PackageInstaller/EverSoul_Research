@@ -4,16 +4,16 @@ table Deserialization {
     no: int32;
     event_group: int32;
     wave_start_time: int32;
-    wave_monster_no1: int32;
-    wave_monster_amount1: int32;
-    wave_monster_no2: int32;
-    wave_monster_amount2: int32;
-    wave_monster_no3: int32;
-    wave_monster_amount3: int32;
-    wave_monster_no4: int32;
-    wave_monster_amount4: int32;
-    wave_monster_no5: int32;
-    wave_monster_amount5: int32;
+    wave_monster_no_1: int32;
+    wave_monster_amount_1: int32;
+    wave_monster_no_2: int32;
+    wave_monster_amount_2: int32;
+    wave_monster_no_3: int32;
+    wave_monster_amount_3: int32;
+    wave_monster_no_4: int32;
+    wave_monster_amount_4: int32;
+    wave_monster_no_5: int32;
+    wave_monster_amount_5: int32;
 }
 
 table EventDefenseWaveSetting {

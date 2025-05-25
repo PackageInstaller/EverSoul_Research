@@ -1,8 +1,8 @@
 namespace ShortcutPath;
 
 table Deserialization {
-    no: string;
-    path: string;
+    noOffset: string;
+    pathOffset: string;
 }
 
 table ShortcutPath {

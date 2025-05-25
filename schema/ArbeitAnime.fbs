@@ -3,10 +3,10 @@ namespace ArbeitAnime;
 table Deserialization {
     no: int32;
     slot: int32;
-    action1: string;
-    action1_item: string;
-    action2: string;
-    action2_item: string;
+    action1Offset: string;
+    action1_itemOffset: string;
+    action2Offset: string;
+    action2_itemOffset: string;
 }
 
 table ArbeitAnime {

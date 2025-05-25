@@ -13,14 +13,14 @@ table Deserialization {
     stage_limit: int32;
     content_unlock_storyno: int32;
     battle_ticket_item: int32;
-    item_infos: string;
-    event_shop_no: string;
+    item_infosOffset: string;
+    event_shop_noOffset: string;
     date_type: int32;
-    magic_value: string;
-    ui_path: string;
-    banner_path: string;
-    title_path: string;
-    schedule_key: string;
+    magic_valueOffset: string;
+    ui_pathOffset: string;
+    banner_pathOffset: string;
+    title_pathOffset: string;
+    schedule_keyOffset: string;
 }
 
 table EventInfo {

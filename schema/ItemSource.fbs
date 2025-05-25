@@ -3,12 +3,12 @@ namespace ItemSource;
 table Deserialization {
     no: int32;
     item_no: int32;
-    item_source_sno1: int32;
-    move_behavior1: int32;
-    item_source_sno2: int32;
-    move_behavior2: int32;
-    item_source_sno3: int32;
-    move_behavior3: int32;
+    item_source_sno_1: int32;
+    move_behavior_1: int32;
+    item_source_sno_2: int32;
+    move_behavior_2: int32;
+    item_source_sno_3: int32;
+    move_behavior_3: int32;
 }
 
 table ItemSource {

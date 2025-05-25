@@ -2,8 +2,8 @@ namespace TownObjet;
 
 table Deserialization {
     no: int32;
-    path: string;
-    prefab: string;
+    pathOffset: string;
+    prefabOffset: string;
     list_tab: int32;
     type: int32;
     type_value: int32;
@@ -15,9 +15,9 @@ table Deserialization {
     hero: int32;
     castle: int32;
     furnace: int32;
-    animal_prefab: string;
-    close_motion: string;
-    far_motion: string;
+    animal_prefabOffset: string;
+    close_motionOffset: string;
+    far_motionOffset: string;
 }
 
 table TownObjet {

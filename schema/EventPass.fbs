@@ -11,7 +11,7 @@ table Deserialization {
     gold_item_amount1: int32;
     gold_item_no2: int32;
     gold_item_amount2: int32;
-    item_highlight: string;
+    item_highlightOffset: string;
 }
 
 table EventPass {

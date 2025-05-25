@@ -13,9 +13,9 @@ table Deserialization {
     gacha_prob_group: int32;
     ban_group: int32;
     get_mileage: int32;
-    category_path: string;
-    ui_path: string;
-    banner_path: string;
+    category_pathOffset: string;
+    ui_pathOffset: string;
+    banner_pathOffset: string;
     check_stage_no: int32;
     limit_sno: int32;
     limit_value: int32;
@@ -28,8 +28,8 @@ table Deserialization {
     paid_gacha_no: int32;
     change_mail_no: int32;
     change_item: int32;
-    schedule_key1: string;
-    schedule_key2: string;
+    schedule_key_1Offset: string;
+    schedule_key_2Offset: string;
 }
 
 table Gacha {

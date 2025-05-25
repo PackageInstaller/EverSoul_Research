@@ -4,7 +4,7 @@ table Deserialization {
     no: int32;
     hero_check: int32;
     server_check: int32;
-    open_date: string;
+    open_dateOffset: string;
 }
 
 table AlchemistSchedule {

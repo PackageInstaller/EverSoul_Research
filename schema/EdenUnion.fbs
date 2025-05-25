@@ -2,16 +2,16 @@ namespace EdenUnion;
 
 table Deserialization {
     no: int32;
-    schedule_key: string;
+    schedule_keyOffset: string;
     union_group: int32;
     union_rank_group: int32;
     union_rank_constraint_count: int32;
     stage_no: int32;
     name_sno: int32;
     story_no: int32;
-    bg_path: string;
-    sound_path: string;
-    emblem_path: string;
+    bg_pathOffset: string;
+    sound_pathOffset: string;
+    emblem_pathOffset: string;
     daily_reward: int32;
     reward_amount: int32;
 }

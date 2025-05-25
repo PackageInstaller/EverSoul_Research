@@ -2,8 +2,8 @@ namespace TownAnimationBubble;
 
 table Deserialization {
     no: int32;
-    animation: string;
-    bubble: string;
+    animationOffset: string;
+    bubbleOffset: string;
     ratio: int32;
 }
 

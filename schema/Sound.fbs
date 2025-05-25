@@ -2,11 +2,11 @@ namespace Sound;
 
 table Deserialization {
     no: int32;
-    name: string;
+    nameOffset: string;
     sound_type: int8;
     mixer_group: int8;
-    kor: string;
-    jpn: string;
+    korOffset: string;
+    jpnOffset: string;
     volume: float;
 }
 

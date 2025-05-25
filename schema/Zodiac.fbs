@@ -6,7 +6,7 @@ table Deserialization {
     zodiac_type_sno: int32;
     zodiac_node_no: int32;
     require_level: int32;
-    require_node_no: string;
+    require_node_noOffset: string;
     need_point: int32;
     buff_type_sno: int32;
     buff_type_no: int32;

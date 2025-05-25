@@ -2,7 +2,7 @@ namespace TalkEvent;
 
 table Deserialization {
     no: int32;
-    hero_no: string;
+    hero_noOffset: string;
     distance: int32;
     ratio: int32;
 }

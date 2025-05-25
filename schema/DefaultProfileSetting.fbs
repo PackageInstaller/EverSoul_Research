@@ -5,7 +5,7 @@ table Deserialization {
     type: int32;
     index: int32;
     name_sno: int32;
-    panel_type: string;
+    panel_typeOffset: string;
     contents_limit_no: int32;
 }
 

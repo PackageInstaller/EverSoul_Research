@@ -8,8 +8,8 @@ table Deserialization {
     title_sno: int32;
     arrange_sno: int32;
     item_no: int32;
-    image_path: string;
-    bgm_name: string;
+    image_pathOffset: string;
+    bgm_nameOffset: string;
 }
 
 table BattleBGM {

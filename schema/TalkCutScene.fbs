@@ -2,8 +2,8 @@ namespace TalkCutScene;
 
 table Deserialization {
     no: int32;
-    prefab_path: string;
-    volume_type: string;
+    prefab_pathOffset: string;
+    volume_typeOffset: string;
     actor01: int32;
     actor02: int32;
     actor03: int32;

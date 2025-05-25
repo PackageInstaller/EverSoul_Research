@@ -3,14 +3,14 @@ namespace SignatureGrade;
 table Deserialization {
     no: int32;
     group: int32;
-    signature_grade_: int32;
+    signature_grade: int32;
     signature_max_level: int32;
     need_item_no: int32;
     item_amount: int32;
     collection_point: int32;
-    icon_bg_path: string;
+    icon_bg_pathOffset: string;
     skill_level: int32;
-    signature_bg_effect: string;
+    signature_bg_effectOffset: string;
 }
 
 table SignatureGrade {

@@ -7,17 +7,17 @@ table Deserialization {
     stage_limit_value: int32;
     stage_limit_sno: int32;
     buy_item_no: int32;
-    buy_item_amount: string;
+    buy_item_amountOffset: string;
     stage_name_sno: int32;
-    hero1_path: string;
-    hero1_reverse: string;
-    hero1_bg_path: string;
-    hero1_bg_color: string;
-    hero2_path: string;
-    hero2_reverse: string;
-    hero2_bg_path: string;
-    hero2_bg_color: string;
-    bg_path: string;
+    hero1_pathOffset: string;
+    hero1_reverse: bool;
+    hero1_bg_pathOffset: string;
+    hero1_bg_colorOffset: string;
+    hero2_pathOffset: string;
+    hero2_reverse: bool;
+    hero2_bg_pathOffset: string;
+    hero2_bg_colorOffset: string;
+    bg_pathOffset: string;
 }
 
 table EventSelectStage {

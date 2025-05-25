@@ -4,11 +4,11 @@ table Deserialization {
     no: int32;
     town_slot: int32;
     location_name_sno: int32;
-    location_img: string;
+    location_imgOffset: string;
     talk_basic: int32;
     day_type: int32;
-    bg_sound: string;
-    amb_sound: string;
+    bg_soundOffset: string;
+    amb_soundOffset: string;
 }
 
 table TownLocation {

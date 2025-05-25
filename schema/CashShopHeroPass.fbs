@@ -4,7 +4,7 @@ table Deserialization {
     no: int32;
     shop_no: int32;
     hero_no: int32;
-    hero_image_position: string;
+    hero_image_positionOffset: string;
 }
 
 table CashShopHeroPass {

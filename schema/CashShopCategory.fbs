@@ -4,8 +4,8 @@ table Deserialization {
     no: int32;
     order: int32;
     name_sno: int32;
-    bg_color: string;
-    name_color: string;
+    bg_colorOffset: string;
+    name_colorOffset: string;
 }
 
 table CashShopCategory {

@@ -4,7 +4,7 @@ table Deserialization {
     stage_type: int32;
     limit_stage_no: int32;
     notice_stage_no: int32;
-    notice_end_date: string;
+    notice_end_dateOffset: string;
     text_title_sno: int32;
     text_explain_sno: int32;
     notice_sno: int32;

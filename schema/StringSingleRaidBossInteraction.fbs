@@ -3,7 +3,7 @@ namespace StringSingleRaidBossInteraction;
 table Deserialization {
     no: int32;
     hero_no: int32;
-    sound_path: string;
+    sound_pathOffset: string;
     delay: float;
     talk_string: int32;
 }

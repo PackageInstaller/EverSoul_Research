@@ -7,8 +7,8 @@ table Deserialization {
     rank_to: int32;
     weekly_item_no: int32;
     weekly_amount: int32;
-    weekly_item_no2: int32;
-    weekly_amount2: int32;
+    weekly_item_no_2: int32;
+    weekly_amount_2: int32;
     daily_item_no: int32;
     daily_amount: int32;
     win_item_no: int32;

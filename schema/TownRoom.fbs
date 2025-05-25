@@ -9,7 +9,7 @@ table Deserialization {
     pay_amount1: int32;
     pay_item_no2: int32;
     pay_amount2: int32;
-    resource_path: string;
+    resource_pathOffset: string;
 }
 
 table TownRoom {

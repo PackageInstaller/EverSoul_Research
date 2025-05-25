@@ -4,10 +4,10 @@ table Deserialization {
     no: int32;
     tower_name: int32;
     req_hero: int32;
-    bg_path: string;
+    bg_pathOffset: string;
     buff_release_stage: int32;
     clear_buff_target: int32;
-    open_date: string;
+    open_dateOffset: string;
 }
 
 table Tower {

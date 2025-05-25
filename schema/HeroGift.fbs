@@ -2,7 +2,7 @@ namespace HeroGift;
 
 table Deserialization {
     hero_no: int32;
-    prefer_gift_items: string;
+    prefer_gift_itemsOffset: string;
     start_lovepoint: int32;
     lovebuff_type: int32;
 }

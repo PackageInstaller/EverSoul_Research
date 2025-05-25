@@ -11,16 +11,16 @@ table Deserialization {
     hero_level: int32;
     level: int32;
     skill_condition: int32;
-    code1: int32;
-    code2: int32;
-    code3: int32;
-    code4: int32;
-    code5: int32;
-    code6: int32;
-    code7: int32;
-    code8: int32;
-    code9: int32;
-    code_extend: string;
+    code_1: int32;
+    code_2: int32;
+    code_3: int32;
+    code_4: int32;
+    code_5: int32;
+    code_6: int32;
+    code_7: int32;
+    code_8: int32;
+    code_9: int32;
+    code_extendOffset: string;
     global_cooltime: float;
     target: int32;
     move_type: int32;
@@ -34,7 +34,7 @@ table Deserialization {
     passive_use_order: int32;
     never_miss: int32;
     scene_target_key: int32;
-    anim_path: string;
+    anim_pathOffset: string;
     icon_prefab: int32;
     skill_string: int32;
 }

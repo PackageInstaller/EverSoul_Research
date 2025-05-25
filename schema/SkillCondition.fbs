@@ -4,8 +4,8 @@ table Deserialization {
     no: int32;
     condition_key: int32;
     condition_target: int32;
-    condition_value1: double;
-    condition_value2: int32;
+    condition_value_1: double;
+    condition_value_2: int32;
 }
 
 table SkillCondition {

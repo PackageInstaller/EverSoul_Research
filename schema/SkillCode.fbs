@@ -8,12 +8,12 @@ table Deserialization {
     value: float;
     duration: float;
     condition_type: int32;
-    condition_id1: int32;
-    condition_id2: int32;
-    condition_id3: int32;
-    condition_id4: int32;
+    condition_id_1: int32;
+    condition_id_2: int32;
+    condition_id_3: int32;
+    condition_id_4: int32;
     move_effect_key: int32;
-    fx_path: string;
+    fx_pathOffset: string;
     penetration: int32;
     penetration_rate: float;
     delay: float;

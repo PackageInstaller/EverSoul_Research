@@ -13,7 +13,7 @@ table Deserialization {
     effect_buff: int32;
     buff_value1: float;
     buff_value2: float;
-    icon_img: string;
+    icon_imgOffset: string;
     name_sno: int32;
     desc_sno: int32;
     weight: int32;

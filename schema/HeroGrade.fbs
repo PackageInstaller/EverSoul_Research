@@ -4,7 +4,7 @@ table Deserialization {
     name_sno: int32;
     hero_grade_value: float;
     hero_max_level: int32;
-    grade_color: string;
+    grade_colorOffset: string;
     collection_point: int32;
 }
 

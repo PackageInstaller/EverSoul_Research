@@ -5,12 +5,12 @@ table Deserialization {
     event_type: int32;
     event_group: int32;
     event_number: int32;
-    bg_path: string;
+    bg_pathOffset: string;
     use_title: int32;
     shop_name_sno: int32;
     event_shop_hero: int32;
     model_viewer_display: int32;
-    model_offset: string;
+    model_offsetOffset: string;
 }
 
 table EventShopUI {

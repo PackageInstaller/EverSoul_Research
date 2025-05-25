@@ -1,7 +1,7 @@
 namespace Level;
 
 table Deserialization {
-    level_: int32;
+    level: int32;
     gold: int32;
     mana_dust: int32;
     mana_crystal: int32;

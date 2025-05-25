@@ -5,7 +5,7 @@ table Deserialization {
     area_no: int32;
     name_sno: int32;
     desc_sno: int32;
-    area_img: string;
+    area_imgOffset: string;
 }
 
 table StageArea {

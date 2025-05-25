@@ -5,10 +5,10 @@ table Deserialization {
     shop_no: int32;
     hero_no: int32;
     hero_grade: int32;
-    basic_item1_no: int32;
-    basic_item1_amount: int32;
-    basic_item2_no: int32;
-    basic_item2_amount: int32;
+    basic_item_1_no: int32;
+    basic_item_1_amount: int32;
+    basic_item_2_no: int32;
+    basic_item_2_amount: int32;
     shop_item_no: int32;
 }
 

@@ -2,13 +2,13 @@ namespace LobbyAnimation;
 
 table Deserialization {
     no: int32;
-    voice: string;
+    voiceOffset: string;
     text_sno: int32;
-    type: string;
+    typeOffset: string;
     hero_no: int32;
     actor_no: int32;
-    ani: string;
-    emotion: string;
+    aniOffset: string;
+    emotionOffset: string;
     yy: int32;
     mm: int32;
     dd: int32;

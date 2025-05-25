@@ -5,7 +5,7 @@ table Deserialization {
     arbeit_no: int32;
     objet_no: int32;
     arbeit_ratio: int32;
-    daynight: string;
+    daynightOffset: string;
 }
 
 table ArbeitChoice {

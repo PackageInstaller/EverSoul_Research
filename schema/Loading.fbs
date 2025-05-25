@@ -5,8 +5,8 @@ table Deserialization {
     template_no: int32;
     template_title: int32;
     template_string: int32;
-    template_img: string;
-    template_bg: string;
+    template_imgOffset: string;
+    template_bgOffset: string;
 }
 
 table Loading {

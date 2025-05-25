@@ -4,10 +4,10 @@ table Deserialization {
     no: int32;
     tab: int32;
     shop_no: int32;
-    type: string;
+    typeOffset: string;
     type_value: int32;
     limit_hour: int32;
-    schedule_key: string;
+    schedule_keyOffset: string;
     check_contents_limit: int32;
 }
 

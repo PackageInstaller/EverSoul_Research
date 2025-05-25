@@ -8,10 +8,10 @@ table Deserialization {
     treasure_group: int32;
     buff_group: int32;
     debuff_group: int32;
-    bg_path: string;
-    frame_path: string;
-    sound_path: string;
-    portrait_path: string;
+    bg_pathOffset: string;
+    frame_pathOffset: string;
+    sound_pathOffset: string;
+    portrait_pathOffset: string;
 }
 
 table Vista {

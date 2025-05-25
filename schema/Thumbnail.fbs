@@ -2,8 +2,8 @@ namespace Thumbnail;
 
 table Deserialization {
     no: int32;
-    item_kind: string;
-    icon_path: string;
+    item_kindOffset: string;
+    icon_pathOffset: string;
     order: int32;
 }
 

@@ -2,10 +2,10 @@ namespace ItemGrade;
 
 table Deserialization {
     name_sno: int32;
-    grade_color: string;
-    item_slot_bg: string;
-    relic_card_bg: string;
-    grade_bg_color: string;
+    grade_colorOffset: string;
+    item_slot_bgOffset: string;
+    relic_card_bgOffset: string;
+    grade_bg_colorOffset: string;
 }
 
 table ItemGrade {

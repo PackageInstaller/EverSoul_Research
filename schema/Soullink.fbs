@@ -1,17 +1,17 @@
 namespace Soullink;
 
 table Deserialization {
-    no: int32;
-    collection: int32;
-    group_slot: string;
-    group_content: string;
-    group_hero1: int32;
-    group_hero2: int32;
-    group_hero3: int32;
-    group_hero4: int32;
-    group_title: int32;
-    group_story: int32;
-    open_date: string;
+    No: int32;
+    Collection: int32;
+    Group_SlotOffset: string;
+    Group_ContentOffset: string;
+    Group_Hero1: int32;
+    Group_Hero2: int32;
+    Group_Hero3: int32;
+    Group_Hero4: int32;
+    Group_Title: int32;
+    Group_Story: int32;
+    Open_dateOffset: string;
 }
 
 table Soullink {

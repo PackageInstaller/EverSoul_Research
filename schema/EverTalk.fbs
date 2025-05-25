@@ -9,7 +9,7 @@ table Deserialization {
     condition_value: int32;
     base_group_no: int32;
     group_no: int32;
-    portrait128_path: string;
+    portrait128_pathOffset: string;
     hide: int32;
 }
 

@@ -7,7 +7,7 @@ table Deserialization {
     name_sno: int32;
     helper_call_string_sno: int32;
     helper_out_string_sno: int32;
-    helper_open_date: string;
+    helper_open_dateOffset: string;
 }
 
 table EventDefenseHelperList {

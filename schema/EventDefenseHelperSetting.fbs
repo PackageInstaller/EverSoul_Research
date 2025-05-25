@@ -6,7 +6,7 @@ table Deserialization {
     helper_love_level: int32;
     helper_love_point: int32;
     helper_hp: int32;
-    helper_damage: string;
+    helper_damageOffset: string;
 }
 
 table EventDefenseHelperSetting {

@@ -2,7 +2,7 @@ namespace EventDefenseAttackSetting;
 
 table Deserialization {
     no: int32;
-    attack_timeline: string;
+    attack_timelineOffset: string;
     motion_time: float;
     attack_type: int32;
     search_range: float;

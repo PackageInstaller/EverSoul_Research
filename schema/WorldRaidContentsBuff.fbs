@@ -3,10 +3,10 @@ namespace WorldRaidContentsBuff;
 table Deserialization {
     no: int32;
     score: int32;
-    icon_path: string;
+    icon_pathOffset: string;
     contentsbuff_no: int32;
-    buff_no1: int32;
-    buff_no2: int32;
+    buff_no_1: int32;
+    buff_no_2: int32;
 }
 
 table WorldRaidContentsBuff {

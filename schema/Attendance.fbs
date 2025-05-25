@@ -6,7 +6,7 @@ table Deserialization {
     attendance_order: int32;
     reward_item: int32;
     reward_amount: int32;
-    ui_path: string;
+    ui_pathOffset: string;
     next_no: int32;
 }
 

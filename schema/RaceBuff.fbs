@@ -13,8 +13,8 @@ table Deserialization {
     magic_resist: float;
     life_leech: float;
     attack_speed: float;
-    tooltip: string;
-    icon_path: string;
+    tooltipOffset: string;
+    icon_pathOffset: string;
     string_title: int32;
     string_content: int32;
 }

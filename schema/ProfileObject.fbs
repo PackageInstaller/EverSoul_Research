@@ -3,9 +3,9 @@ namespace ProfileObject;
 table Deserialization {
     no: int32;
     subject: int32;
-    object_name: string;
+    object_nameOffset: string;
     name_sno: int32;
-    edit_group: string;
+    edit_groupOffset: string;
     place_limit: int32;
     always_on: int32;
     button_delete: int32;

@@ -2,9 +2,9 @@ namespace PromotionMovie;
 
 table Deserialization {
     no: int32;
-    movie_path: string;
-    start_date: string;
-    end_date: string;
+    movie_pathOffset: string;
+    start_dateOffset: string;
+    end_dateOffset: string;
     hero_check: int32;
 }
 

@@ -2,11 +2,11 @@ namespace LocalizationSchedule;
 
 table Deserialization {
     index: int32;
-    schedule_key: string;
+    schedule_keyOffset: string;
     schedule_type: int32;
-    start_date: string;
-    end_date: string;
-    value_date01: string;
+    start_dateOffset: string;
+    end_dateOffset: string;
+    value_date_01Offset: string;
 }
 
 table LocalizationSchedule {

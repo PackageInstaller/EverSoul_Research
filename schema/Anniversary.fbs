@@ -4,7 +4,7 @@ table Deserialization {
     no: int32;
     date_start: int32;
     date_end: int32;
-    item: string;
+    itemOffset: string;
     amount: int32;
 }
 

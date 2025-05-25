@@ -3,11 +3,11 @@ namespace EventDJsoulReward;
 table Deserialization {
     no: int32;
     song_no: int32;
-    item_no1: int32;
-    item_amount1: int32;
-    item_no2: int32;
-    item_amount2: int32;
-    sp_date: string;
+    item_no_1: int32;
+    item_amount_1: int32;
+    item_no_2: int32;
+    item_amount_2: int32;
+    sp_dateOffset: string;
     sp_item_no: int32;
     sp_item_amount: int32;
 }

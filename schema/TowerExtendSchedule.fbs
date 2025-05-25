@@ -4,9 +4,9 @@ table Deserialization {
     no: int32;
     tower_extend_no: int32;
     server_check: int32;
-    play_schedule_key: string;
-    calculate_schedule_key: string;
-    reward_schedule_key: string;
+    play_schedule_keyOffset: string;
+    calculate_schedule_keyOffset: string;
+    reward_schedule_keyOffset: string;
 }
 
 table TowerExtendSchedule {

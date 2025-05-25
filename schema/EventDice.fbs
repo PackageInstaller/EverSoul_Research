@@ -8,9 +8,9 @@ table Deserialization {
     goal_point_group: int32;
     reward_group: int32;
     hero_no: int32;
-    bg_path: string;
-    dice_path: string;
-    sound_path: string;
+    bg_pathOffset: string;
+    dice_pathOffset: string;
+    sound_pathOffset: string;
 }
 
 table EventDice {

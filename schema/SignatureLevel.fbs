@@ -3,7 +3,7 @@ namespace SignatureLevel;
 table Deserialization {
     no: int32;
     group: int32;
-    signature_level_: int32;
+    signature_level: int32;
     race_group: int32;
     attack_rate: float;
     defence_rate: float;

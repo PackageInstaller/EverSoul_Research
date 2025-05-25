@@ -6,8 +6,8 @@ table Deserialization {
     act: int32;
     chapter: int32;
     episode: int32;
-    open_date: string;
-    end_date: string;
+    open_dateOffset: string;
+    end_dateOffset: string;
 }
 
 table StorySchedule {

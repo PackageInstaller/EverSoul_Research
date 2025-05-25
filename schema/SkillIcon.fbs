@@ -2,8 +2,8 @@ namespace SkillIcon;
 
 table Deserialization {
     no: int32;
-    icon: string;
-    color: string;
+    iconOffset: string;
+    colorOffset: string;
 }
 
 table SkillIcon {

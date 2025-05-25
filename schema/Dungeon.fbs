@@ -10,21 +10,21 @@ table Deserialization {
     hero_count_max: int32;
     hero_level_min: int32;
     hero_grade_min: int32;
-    race_buff_no: string;
-    dungeon_buff_no: string;
+    race_buff_noOffset: string;
+    dungeon_buff_noOffset: string;
     monster_tribe: int32;
     advantage_tribe: int32;
     disadvantage_tribe: int32;
-    dungeon_list_image: string;
-    dungeon_info_image: string;
-    dungeon_map: string;
-    dungeon_leveldesign: string;
+    dungeon_list_imageOffset: string;
+    dungeon_info_imageOffset: string;
+    dungeon_mapOffset: string;
+    dungeon_leveldesignOffset: string;
     mission_group_no: int32;
     minimap_title_sno: int32;
-    hide_ui: string;
+    hide_uiOffset: string;
     is_usable: int32;
-    sound_bgm: string;
-    sound_ambience: string;
+    sound_bgmOffset: string;
+    sound_ambienceOffset: string;
 }
 
 table Dungeon {

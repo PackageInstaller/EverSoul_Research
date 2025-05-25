@@ -6,7 +6,7 @@ table Deserialization {
     stage_type: int32;
     name_sno: int32;
     enemy_group: int32;
-    map: string;
+    mapOffset: string;
     battle_time: int32;
     enemy_contents_buff_title_sno: int32;
     enemy_contents_buff_content_sno: int32;

@@ -7,7 +7,7 @@ table Deserialization {
     grade_sno: int32;
     battlebuff_no: int32;
     relic_type: int32;
-    icon_img: string;
+    icon_imgOffset: string;
     name_sno: int32;
     desc_sno: int32;
 }

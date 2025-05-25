@@ -3,8 +3,8 @@ namespace SingleRaidSeason;
 table Deserialization {
     no: int32;
     season_name_no: int32;
-    season_bg_path: string;
-    season_bg1_path: string;
+    season_bg_pathOffset: string;
+    season_bg1_pathOffset: string;
 }
 
 table SingleRaidSeason {

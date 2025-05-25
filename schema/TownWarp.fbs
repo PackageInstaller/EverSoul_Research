@@ -4,9 +4,9 @@ table Deserialization {
     no: int32;
     group: int32;
     button_sno: int32;
-    position: string;
+    positionOffset: string;
     section_limit: int32;
-    img: string;
+    imgOffset: string;
 }
 
 table TownWarp {

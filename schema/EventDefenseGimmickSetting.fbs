@@ -3,7 +3,7 @@ namespace EventDefenseGimmickSetting;
 table Deserialization {
     no: int32;
     event_group: int32;
-    fx_path: string;
+    fx_pathOffset: string;
     type: int32;
     atk: int32;
     spawn_type: int32;

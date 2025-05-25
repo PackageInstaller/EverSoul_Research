@@ -12,12 +12,12 @@ table Deserialization {
     monster_equip: int32;
     monster_signiture: int32;
     monster_ultimate: int32;
-    item_no1: int32;
-    amount1: int32;
-    item_no2: int32;
-    amount2: int32;
-    item_no3: int32;
-    amount3: int32;
+    item_no_1: int32;
+    amount_1: int32;
+    item_no_2: int32;
+    amount_2: int32;
+    item_no_3: int32;
+    amount_3: int32;
 }
 
 table DungeonRotationLevel {

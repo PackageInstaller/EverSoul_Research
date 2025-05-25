@@ -3,7 +3,7 @@ namespace TowerExtend;
 table Deserialization {
     no: int32;
     req_hero: int32;
-    bg_path: string;
+    bg_pathOffset: string;
     req_clear_stage: int32;
     req_string: int32;
 }
