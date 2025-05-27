@@ -2,27 +2,15 @@
   "json": [
     {
       "no": 1,
-      "login_path": "UI_LOGIN_WEDDING02",
-      "start_date": "2025-04-08 00:00",
-      "end_date": "2025-04-28 00:00"
+      "login_pathOffset": "UI_LOGIN_VALENTINE03",
+      "start_dateOffset": "2025-05-20 00:00",
+      "end_dateOffset": "2025-06-19 00:00"
     },
     {
       "no": 2,
-      "login_path": "UI_LOGIN_RENEESIDE",
-      "start_date": "2025-04-28 00:00",
-      "end_date": "2025-05-22 00:00"
-    },
-    {
-      "no": 3,
-      "login_path": "UI_LOGIN_WEDDING02",
-      "start_date": "2025-05-22 00:00",
-      "end_date": "2025-05-29 00:00"
-    },
-    {
-      "no": 4,
-      "login_path": "UI_LOGIN",
-      "start_date": "2025-05-29 00:00",
-      "end_date": "2099-12-31 00:00"
+      "login_pathOffset": "UI_LOGIN",
+      "start_dateOffset": "2025-06-19 00:00",
+      "end_dateOffset": "2099-12-31 00:00"
     }
   ]
 }

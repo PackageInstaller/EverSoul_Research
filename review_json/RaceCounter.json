@@ -2,7 +2,7 @@
   "json": [
     {
       "no": 1,
-      "match_key": "human",
+      "match_keyOffset": "human",
       "human": 1.0,
       "furry": 1.25,
       "elf": 1.0,
@@ -13,7 +13,7 @@
     },
     {
       "no": 2,
-      "match_key": "furry",
+      "match_keyOffset": "furry",
       "human": 1.0,
       "furry": 1.0,
       "elf": 1.25,
@@ -24,7 +24,7 @@
     },
     {
       "no": 3,
-      "match_key": "elf",
+      "match_keyOffset": "elf",
       "human": 1.0,
       "furry": 1.0,
       "elf": 1.0,
@@ -35,7 +35,7 @@
     },
     {
       "no": 4,
-      "match_key": "undead",
+      "match_keyOffset": "undead",
       "human": 1.25,
       "furry": 1.0,
       "elf": 1.0,
@@ -46,7 +46,7 @@
     },
     {
       "no": 5,
-      "match_key": "angel",
+      "match_keyOffset": "angel",
       "human": 1.0,
       "furry": 1.0,
       "elf": 1.0,
@@ -57,7 +57,7 @@
     },
     {
       "no": 6,
-      "match_key": "demon",
+      "match_keyOffset": "demon",
       "human": 1.0,
       "furry": 1.0,
       "elf": 1.0,
@@ -68,7 +68,7 @@
     },
     {
       "no": 7,
-      "match_key": "chaos",
+      "match_keyOffset": "chaos",
       "human": 1.0,
       "furry": 1.0,
       "elf": 1.0,

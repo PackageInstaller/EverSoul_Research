@@ -43531,6 +43531,9 @@
       "hp_rate": 3.0
     },
     {
+      "no": 5010100
+    },
+    {
       "no": 5010101,
       "attack": 10000.0,
       "attack_rate": 0.4,
@@ -43909,6 +43912,12 @@
       "defence": 100000.0,
       "defence_rate": 4.0,
       "hp_rate": 55.0
+    },
+    {
+      "no": 5011101,
+      "attack_rate": 2.0,
+      "defence_rate": 1.0,
+      "hp_rate": 1.5
     }
   ]
 }
