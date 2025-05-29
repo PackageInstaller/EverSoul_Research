@@ -538,6 +538,14 @@
       "offset_depth": 10.0
     },
     {
+      "no": 1355,
+      "target_anchor": 1,
+      "collider_type": 3,
+      "depth": 5.0,
+      "width": 3.0,
+      "offset_depth": 3.5
+    },
+    {
       "no": 1400,
       "target_anchor": 1,
       "collider_type": 4,
@@ -770,6 +778,13 @@
       "target_anchor": 2,
       "collider_type": 2,
       "width": 4.5
+    },
+    {
+      "no": 2213,
+      "target_anchor": 2,
+      "collider_type": 2,
+      "width": 3.5,
+      "offset_depth": 0.5
     },
     {
       "no": 2301,

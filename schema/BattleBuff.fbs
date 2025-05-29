@@ -7,10 +7,10 @@ table Deserialization {
     stat_sno: int32;
     target: int32;
     specific_target: int32;
-    specific_target2: int32;
-    specific_target3: int32;
-    specific_target4: int32;
-    specific_target5: int32;
+    specific_target_2: int32;
+    specific_target_3: int32;
+    specific_target_4: int32;
+    specific_target_5: int32;
     skillcode1: int32;
     skillcode2: int32;
     skillcode3: int32;

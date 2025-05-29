@@ -1,73 +1,73 @@
 {
   "json": [
     {
-      "level_": 1
+      "level": 1
     },
     {
-      "level_": 2,
+      "level": 2,
       "gold": 30,
       "mana_dust": 90,
       "sum_gold": 30,
       "sum_mana_dust": 90
     },
     {
-      "level_": 3,
+      "level": 3,
       "gold": 80,
       "mana_dust": 150,
       "sum_gold": 110,
       "sum_mana_dust": 240
     },
     {
-      "level_": 4,
+      "level": 4,
       "gold": 140,
       "mana_dust": 220,
       "sum_gold": 250,
       "sum_mana_dust": 460
     },
     {
-      "level_": 5,
+      "level": 5,
       "gold": 210,
       "mana_dust": 300,
       "sum_gold": 460,
       "sum_mana_dust": 760
     },
     {
-      "level_": 6,
+      "level": 6,
       "gold": 290,
       "mana_dust": 390,
       "sum_gold": 750,
       "sum_mana_dust": 1150
     },
     {
-      "level_": 7,
+      "level": 7,
       "gold": 380,
       "mana_dust": 490,
       "sum_gold": 1130,
       "sum_mana_dust": 1640
     },
     {
-      "level_": 8,
+      "level": 8,
       "gold": 480,
       "mana_dust": 600,
       "sum_gold": 1610,
       "sum_mana_dust": 2240
     },
     {
-      "level_": 9,
+      "level": 9,
       "gold": 590,
       "mana_dust": 720,
       "sum_gold": 2200,
       "sum_mana_dust": 2960
     },
     {
-      "level_": 10,
+      "level": 10,
       "gold": 710,
       "mana_dust": 850,
       "sum_gold": 2910,
       "sum_mana_dust": 3810
     },
     {
-      "level_": 11,
+      "level": 11,
       "gold": 840,
       "mana_dust": 990,
       "mana_crystal": 10,
@@ -76,7 +76,7 @@
       "sum_mana_crystal": 10
     },
     {
-      "level_": 12,
+      "level": 12,
       "gold": 980,
       "mana_dust": 1140,
       "sum_gold": 4730,
@@ -84,7 +84,7 @@
       "sum_mana_crystal": 10
     },
     {
-      "level_": 13,
+      "level": 13,
       "gold": 1120,
       "mana_dust": 1300,
       "sum_gold": 5850,
@@ -92,7 +92,7 @@
       "sum_mana_crystal": 10
     },
     {
-      "level_": 14,
+      "level": 14,
       "gold": 1270,
       "mana_dust": 1470,
       "sum_gold": 7120,
@@ -100,7 +100,7 @@
       "sum_mana_crystal": 10
     },
     {
-      "level_": 15,
+      "level": 15,
       "gold": 1430,
       "mana_dust": 1650,
       "sum_gold": 8550,
@@ -108,7 +108,7 @@
       "sum_mana_crystal": 10
     },
     {
-      "level_": 16,
+      "level": 16,
       "gold": 1600,
       "mana_dust": 1840,
       "sum_gold": 10150,
@@ -116,7 +116,7 @@
       "sum_mana_crystal": 10
     },
     {
-      "level_": 17,
+      "level": 17,
       "gold": 1780,
       "mana_dust": 2040,
       "sum_gold": 11930,
@@ -124,7 +124,7 @@
       "sum_mana_crystal": 10
     },
     {
-      "level_": 18,
+      "level": 18,
       "gold": 1970,
       "mana_dust": 2250,
       "sum_gold": 13900,
@@ -132,7 +132,7 @@
       "sum_mana_crystal": 10
     },
     {
-      "level_": 19,
+      "level": 19,
       "gold": 2160,
       "mana_dust": 2470,
       "sum_gold": 16060,
@@ -140,7 +140,7 @@
       "sum_mana_crystal": 10
     },
     {
-      "level_": 20,
+      "level": 20,
       "gold": 2360,
       "mana_dust": 2700,
       "sum_gold": 18420,
@@ -148,7 +148,7 @@
       "sum_mana_crystal": 10
     },
     {
-      "level_": 21,
+      "level": 21,
       "gold": 2570,
       "mana_dust": 2940,
       "mana_crystal": 50,
@@ -157,7 +157,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 22,
+      "level": 22,
       "gold": 2790,
       "mana_dust": 3190,
       "sum_gold": 23780,
@@ -165,7 +165,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 23,
+      "level": 23,
       "gold": 3020,
       "mana_dust": 3450,
       "sum_gold": 26800,
@@ -173,7 +173,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 24,
+      "level": 24,
       "gold": 3260,
       "mana_dust": 3720,
       "sum_gold": 30060,
@@ -181,7 +181,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 25,
+      "level": 25,
       "gold": 3500,
       "mana_dust": 4000,
       "sum_gold": 33560,
@@ -189,7 +189,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 26,
+      "level": 26,
       "gold": 3750,
       "mana_dust": 4290,
       "sum_gold": 37310,
@@ -197,7 +197,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 27,
+      "level": 27,
       "gold": 4000,
       "mana_dust": 4590,
       "sum_gold": 41310,
@@ -205,7 +205,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 28,
+      "level": 28,
       "gold": 4250,
       "mana_dust": 4900,
       "sum_gold": 45560,
@@ -213,7 +213,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 29,
+      "level": 29,
       "gold": 4500,
       "mana_dust": 5250,
       "sum_gold": 50060,
@@ -221,7 +221,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 30,
+      "level": 30,
       "gold": 4750,
       "mana_dust": 5600,
       "sum_gold": 54810,
@@ -229,7 +229,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 31,
+      "level": 31,
       "gold": 5000,
       "mana_dust": 5950,
       "sum_gold": 59810,
@@ -237,7 +237,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 32,
+      "level": 32,
       "gold": 5250,
       "mana_dust": 6300,
       "sum_gold": 65060,
@@ -245,7 +245,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 33,
+      "level": 33,
       "gold": 5500,
       "mana_dust": 6650,
       "sum_gold": 70560,
@@ -253,7 +253,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 34,
+      "level": 34,
       "gold": 5750,
       "mana_dust": 7000,
       "sum_gold": 76310,
@@ -261,7 +261,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 35,
+      "level": 35,
       "gold": 6000,
       "mana_dust": 7350,
       "sum_gold": 82310,
@@ -269,7 +269,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 36,
+      "level": 36,
       "gold": 6250,
       "mana_dust": 7700,
       "sum_gold": 88560,
@@ -277,7 +277,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 37,
+      "level": 37,
       "gold": 6500,
       "mana_dust": 8050,
       "sum_gold": 95060,
@@ -285,7 +285,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 38,
+      "level": 38,
       "gold": 6750,
       "mana_dust": 8400,
       "sum_gold": 101810,
@@ -293,7 +293,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 39,
+      "level": 39,
       "gold": 7000,
       "mana_dust": 8750,
       "sum_gold": 108810,
@@ -301,7 +301,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 40,
+      "level": 40,
       "gold": 7250,
       "mana_dust": 9100,
       "sum_gold": 116060,
@@ -309,7 +309,7 @@
       "sum_mana_crystal": 60
     },
     {
-      "level_": 41,
+      "level": 41,
       "gold": 7500,
       "mana_dust": 9450,
       "mana_crystal": 100,
@@ -318,7 +318,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 42,
+      "level": 42,
       "gold": 7750,
       "mana_dust": 9800,
       "sum_gold": 131310,
@@ -326,7 +326,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 43,
+      "level": 43,
       "gold": 8000,
       "mana_dust": 10150,
       "sum_gold": 139310,
@@ -334,7 +334,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 44,
+      "level": 44,
       "gold": 8250,
       "mana_dust": 10500,
       "sum_gold": 147560,
@@ -342,7 +342,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 45,
+      "level": 45,
       "gold": 8500,
       "mana_dust": 10850,
       "sum_gold": 156060,
@@ -350,7 +350,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 46,
+      "level": 46,
       "gold": 8750,
       "mana_dust": 11200,
       "sum_gold": 164810,
@@ -358,7 +358,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 47,
+      "level": 47,
       "gold": 9000,
       "mana_dust": 11600,
       "sum_gold": 173810,
@@ -366,7 +366,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 48,
+      "level": 48,
       "gold": 9250,
       "mana_dust": 12000,
       "sum_gold": 183060,
@@ -374,7 +374,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 49,
+      "level": 49,
       "gold": 9500,
       "mana_dust": 12400,
       "sum_gold": 192560,
@@ -382,7 +382,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 50,
+      "level": 50,
       "gold": 9750,
       "mana_dust": 12800,
       "sum_gold": 202310,
@@ -390,7 +390,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 51,
+      "level": 51,
       "gold": 10000,
       "mana_dust": 13200,
       "sum_gold": 212310,
@@ -398,7 +398,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 52,
+      "level": 52,
       "gold": 10500,
       "mana_dust": 13600,
       "sum_gold": 222810,
@@ -406,7 +406,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 53,
+      "level": 53,
       "gold": 11000,
       "mana_dust": 14000,
       "sum_gold": 233810,
@@ -414,7 +414,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 54,
+      "level": 54,
       "gold": 11500,
       "mana_dust": 14500,
       "sum_gold": 245310,
@@ -422,7 +422,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 55,
+      "level": 55,
       "gold": 12000,
       "mana_dust": 15000,
       "sum_gold": 257310,
@@ -430,7 +430,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 56,
+      "level": 56,
       "gold": 12500,
       "mana_dust": 15500,
       "sum_gold": 269810,
@@ -438,7 +438,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 57,
+      "level": 57,
       "gold": 13000,
       "mana_dust": 16000,
       "sum_gold": 282810,
@@ -446,7 +446,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 58,
+      "level": 58,
       "gold": 13500,
       "mana_dust": 16500,
       "sum_gold": 296310,
@@ -454,7 +454,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 59,
+      "level": 59,
       "gold": 14000,
       "mana_dust": 17000,
       "sum_gold": 310310,
@@ -462,7 +462,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 60,
+      "level": 60,
       "gold": 14500,
       "mana_dust": 17500,
       "sum_gold": 324810,
@@ -470,7 +470,7 @@
       "sum_mana_crystal": 160
     },
     {
-      "level_": 61,
+      "level": 61,
       "gold": 15000,
       "mana_dust": 18000,
       "mana_crystal": 250,
@@ -479,7 +479,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 62,
+      "level": 62,
       "gold": 15500,
       "mana_dust": 19000,
       "sum_gold": 355310,
@@ -487,7 +487,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 63,
+      "level": 63,
       "gold": 16000,
       "mana_dust": 20000,
       "sum_gold": 371310,
@@ -495,7 +495,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 64,
+      "level": 64,
       "gold": 16500,
       "mana_dust": 21000,
       "sum_gold": 387810,
@@ -503,7 +503,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 65,
+      "level": 65,
       "gold": 17000,
       "mana_dust": 22000,
       "sum_gold": 404810,
@@ -511,7 +511,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 66,
+      "level": 66,
       "gold": 17500,
       "mana_dust": 23000,
       "sum_gold": 422310,
@@ -519,7 +519,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 67,
+      "level": 67,
       "gold": 18000,
       "mana_dust": 24000,
       "sum_gold": 440310,
@@ -527,7 +527,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 68,
+      "level": 68,
       "gold": 19000,
       "mana_dust": 25000,
       "sum_gold": 459310,
@@ -535,7 +535,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 69,
+      "level": 69,
       "gold": 20000,
       "mana_dust": 26000,
       "sum_gold": 479310,
@@ -543,7 +543,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 70,
+      "level": 70,
       "gold": 21000,
       "mana_dust": 27000,
       "sum_gold": 500310,
@@ -551,7 +551,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 71,
+      "level": 71,
       "gold": 22000,
       "mana_dust": 28000,
       "sum_gold": 522310,
@@ -559,7 +559,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 72,
+      "level": 72,
       "gold": 23000,
       "mana_dust": 29000,
       "sum_gold": 545310,
@@ -567,7 +567,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 73,
+      "level": 73,
       "gold": 24000,
       "mana_dust": 30000,
       "sum_gold": 569310,
@@ -575,7 +575,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 74,
+      "level": 74,
       "gold": 25000,
       "mana_dust": 31000,
       "sum_gold": 594310,
@@ -583,7 +583,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 75,
+      "level": 75,
       "gold": 26000,
       "mana_dust": 32000,
       "sum_gold": 620310,
@@ -591,7 +591,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 76,
+      "level": 76,
       "gold": 27000,
       "mana_dust": 33000,
       "sum_gold": 647310,
@@ -599,7 +599,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 77,
+      "level": 77,
       "gold": 28000,
       "mana_dust": 34000,
       "sum_gold": 675310,
@@ -607,7 +607,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 78,
+      "level": 78,
       "gold": 29000,
       "mana_dust": 35000,
       "sum_gold": 704310,
@@ -615,7 +615,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 79,
+      "level": 79,
       "gold": 30000,
       "mana_dust": 36000,
       "sum_gold": 734310,
@@ -623,7 +623,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 80,
+      "level": 80,
       "gold": 31000,
       "mana_dust": 37000,
       "sum_gold": 765310,
@@ -631,7 +631,7 @@
       "sum_mana_crystal": 410
     },
     {
-      "level_": 81,
+      "level": 81,
       "gold": 32000,
       "mana_dust": 39000,
       "mana_crystal": 500,
@@ -640,7 +640,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 82,
+      "level": 82,
       "gold": 33000,
       "mana_dust": 41000,
       "sum_gold": 830310,
@@ -648,7 +648,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 83,
+      "level": 83,
       "gold": 34000,
       "mana_dust": 43000,
       "sum_gold": 864310,
@@ -656,7 +656,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 84,
+      "level": 84,
       "gold": 35000,
       "mana_dust": 45000,
       "sum_gold": 899310,
@@ -664,7 +664,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 85,
+      "level": 85,
       "gold": 36000,
       "mana_dust": 47000,
       "sum_gold": 935310,
@@ -672,7 +672,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 86,
+      "level": 86,
       "gold": 37000,
       "mana_dust": 49000,
       "sum_gold": 972310,
@@ -680,7 +680,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 87,
+      "level": 87,
       "gold": 38000,
       "mana_dust": 51000,
       "sum_gold": 1010310,
@@ -688,7 +688,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 88,
+      "level": 88,
       "gold": 39000,
       "mana_dust": 53000,
       "sum_gold": 1049310,
@@ -696,7 +696,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 89,
+      "level": 89,
       "gold": 40000,
       "mana_dust": 55000,
       "sum_gold": 1089310,
@@ -704,7 +704,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 90,
+      "level": 90,
       "gold": 41000,
       "mana_dust": 57000,
       "sum_gold": 1130310,
@@ -712,7 +712,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 91,
+      "level": 91,
       "gold": 42000,
       "mana_dust": 59000,
       "sum_gold": 1172310,
@@ -720,7 +720,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 92,
+      "level": 92,
       "gold": 43000,
       "mana_dust": 61000,
       "sum_gold": 1215310,
@@ -728,7 +728,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 93,
+      "level": 93,
       "gold": 44000,
       "mana_dust": 63000,
       "sum_gold": 1259310,
@@ -736,7 +736,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 94,
+      "level": 94,
       "gold": 45000,
       "mana_dust": 65000,
       "sum_gold": 1304310,
@@ -744,7 +744,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 95,
+      "level": 95,
       "gold": 46000,
       "mana_dust": 67000,
       "sum_gold": 1350310,
@@ -752,7 +752,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 96,
+      "level": 96,
       "gold": 48000,
       "mana_dust": 69000,
       "sum_gold": 1398310,
@@ -760,7 +760,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 97,
+      "level": 97,
       "gold": 50000,
       "mana_dust": 71000,
       "sum_gold": 1448310,
@@ -768,7 +768,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 98,
+      "level": 98,
       "gold": 52000,
       "mana_dust": 73000,
       "sum_gold": 1500310,
@@ -776,7 +776,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 99,
+      "level": 99,
       "gold": 54000,
       "mana_dust": 75000,
       "sum_gold": 1554310,
@@ -784,7 +784,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 100,
+      "level": 100,
       "gold": 56000,
       "mana_dust": 77000,
       "sum_gold": 1610310,
@@ -792,7 +792,7 @@
       "sum_mana_crystal": 910
     },
     {
-      "level_": 101,
+      "level": 101,
       "gold": 58000,
       "mana_dust": 80000,
       "mana_crystal": 1200,
@@ -801,7 +801,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 102,
+      "level": 102,
       "gold": 60000,
       "mana_dust": 83000,
       "sum_gold": 1728310,
@@ -809,7 +809,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 103,
+      "level": 103,
       "gold": 62000,
       "mana_dust": 86000,
       "sum_gold": 1790310,
@@ -817,7 +817,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 104,
+      "level": 104,
       "gold": 64000,
       "mana_dust": 89000,
       "sum_gold": 1854310,
@@ -825,7 +825,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 105,
+      "level": 105,
       "gold": 66000,
       "mana_dust": 92000,
       "sum_gold": 1920310,
@@ -833,7 +833,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 106,
+      "level": 106,
       "gold": 68000,
       "mana_dust": 95000,
       "sum_gold": 1988310,
@@ -841,7 +841,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 107,
+      "level": 107,
       "gold": 70000,
       "mana_dust": 98000,
       "sum_gold": 2058310,
@@ -849,7 +849,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 108,
+      "level": 108,
       "gold": 73000,
       "mana_dust": 102000,
       "sum_gold": 2131310,
@@ -857,7 +857,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 109,
+      "level": 109,
       "gold": 76000,
       "mana_dust": 106000,
       "sum_gold": 2207310,
@@ -865,7 +865,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 110,
+      "level": 110,
       "gold": 79000,
       "mana_dust": 110000,
       "sum_gold": 2286310,
@@ -873,7 +873,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 111,
+      "level": 111,
       "gold": 82000,
       "mana_dust": 114000,
       "sum_gold": 2368310,
@@ -881,7 +881,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 112,
+      "level": 112,
       "gold": 85000,
       "mana_dust": 118000,
       "sum_gold": 2453310,
@@ -889,7 +889,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 113,
+      "level": 113,
       "gold": 88000,
       "mana_dust": 122000,
       "sum_gold": 2541310,
@@ -897,7 +897,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 114,
+      "level": 114,
       "gold": 92000,
       "mana_dust": 127000,
       "sum_gold": 2633310,
@@ -905,7 +905,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 115,
+      "level": 115,
       "gold": 96000,
       "mana_dust": 133000,
       "sum_gold": 2729310,
@@ -913,7 +913,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 116,
+      "level": 116,
       "gold": 100000,
       "mana_dust": 139000,
       "sum_gold": 2829310,
@@ -921,7 +921,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 117,
+      "level": 117,
       "gold": 105000,
       "mana_dust": 146000,
       "sum_gold": 2934310,
@@ -929,7 +929,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 118,
+      "level": 118,
       "gold": 110000,
       "mana_dust": 154000,
       "sum_gold": 3044310,
@@ -937,7 +937,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 119,
+      "level": 119,
       "gold": 116000,
       "mana_dust": 163000,
       "sum_gold": 3160310,
@@ -945,7 +945,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 120,
+      "level": 120,
       "gold": 122000,
       "mana_dust": 173000,
       "sum_gold": 3282310,
@@ -953,7 +953,7 @@
       "sum_mana_crystal": 2110
     },
     {
-      "level_": 121,
+      "level": 121,
       "gold": 129000,
       "mana_dust": 184000,
       "mana_crystal": 3000,
@@ -962,7 +962,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 122,
+      "level": 122,
       "gold": 136000,
       "mana_dust": 196000,
       "sum_gold": 3547310,
@@ -970,7 +970,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 123,
+      "level": 123,
       "gold": 143000,
       "mana_dust": 209000,
       "sum_gold": 3690310,
@@ -978,7 +978,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 124,
+      "level": 124,
       "gold": 150000,
       "mana_dust": 223000,
       "sum_gold": 3840310,
@@ -986,7 +986,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 125,
+      "level": 125,
       "gold": 157000,
       "mana_dust": 237000,
       "sum_gold": 3997310,
@@ -994,7 +994,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 126,
+      "level": 126,
       "gold": 164000,
       "mana_dust": 251000,
       "sum_gold": 4161310,
@@ -1002,7 +1002,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 127,
+      "level": 127,
       "gold": 171000,
       "mana_dust": 265000,
       "sum_gold": 4332310,
@@ -1010,7 +1010,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 128,
+      "level": 128,
       "gold": 178000,
       "mana_dust": 279000,
       "sum_gold": 4510310,
@@ -1018,7 +1018,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 129,
+      "level": 129,
       "gold": 185000,
       "mana_dust": 293000,
       "sum_gold": 4695310,
@@ -1026,7 +1026,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 130,
+      "level": 130,
       "gold": 192000,
       "mana_dust": 307000,
       "sum_gold": 4887310,
@@ -1034,7 +1034,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 131,
+      "level": 131,
       "gold": 199000,
       "mana_dust": 321000,
       "sum_gold": 5086310,
@@ -1042,7 +1042,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 132,
+      "level": 132,
       "gold": 206000,
       "mana_dust": 335000,
       "sum_gold": 5292310,
@@ -1050,7 +1050,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 133,
+      "level": 133,
       "gold": 213000,
       "mana_dust": 349000,
       "sum_gold": 5505310,
@@ -1058,7 +1058,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 134,
+      "level": 134,
       "gold": 220000,
       "mana_dust": 363000,
       "sum_gold": 5725310,
@@ -1066,7 +1066,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 135,
+      "level": 135,
       "gold": 227000,
       "mana_dust": 377000,
       "sum_gold": 5952310,
@@ -1074,7 +1074,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 136,
+      "level": 136,
       "gold": 234000,
       "mana_dust": 391000,
       "sum_gold": 6186310,
@@ -1082,7 +1082,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 137,
+      "level": 137,
       "gold": 241000,
       "mana_dust": 405000,
       "sum_gold": 6427310,
@@ -1090,7 +1090,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 138,
+      "level": 138,
       "gold": 248000,
       "mana_dust": 419000,
       "sum_gold": 6675310,
@@ -1098,7 +1098,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 139,
+      "level": 139,
       "gold": 255000,
       "mana_dust": 433000,
       "sum_gold": 6930310,
@@ -1106,7 +1106,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 140,
+      "level": 140,
       "gold": 262000,
       "mana_dust": 447000,
       "sum_gold": 7192310,
@@ -1114,7 +1114,7 @@
       "sum_mana_crystal": 5110
     },
     {
-      "level_": 141,
+      "level": 141,
       "gold": 269000,
       "mana_dust": 461000,
       "mana_crystal": 6000,
@@ -1123,7 +1123,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 142,
+      "level": 142,
       "gold": 276000,
       "mana_dust": 475000,
       "sum_gold": 7737310,
@@ -1131,7 +1131,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 143,
+      "level": 143,
       "gold": 283000,
       "mana_dust": 489000,
       "sum_gold": 8020310,
@@ -1139,7 +1139,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 144,
+      "level": 144,
       "gold": 290000,
       "mana_dust": 503000,
       "sum_gold": 8310310,
@@ -1147,7 +1147,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 145,
+      "level": 145,
       "gold": 297000,
       "mana_dust": 517000,
       "sum_gold": 8607310,
@@ -1155,7 +1155,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 146,
+      "level": 146,
       "gold": 304000,
       "mana_dust": 531000,
       "sum_gold": 8911310,
@@ -1163,7 +1163,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 147,
+      "level": 147,
       "gold": 311000,
       "mana_dust": 545000,
       "sum_gold": 9222310,
@@ -1171,7 +1171,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 148,
+      "level": 148,
       "gold": 318000,
       "mana_dust": 558000,
       "sum_gold": 9540310,
@@ -1179,7 +1179,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 149,
+      "level": 149,
       "gold": 325000,
       "mana_dust": 571000,
       "sum_gold": 9865310,
@@ -1187,7 +1187,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 150,
+      "level": 150,
       "gold": 332000,
       "mana_dust": 584000,
       "sum_gold": 10197310,
@@ -1195,7 +1195,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 151,
+      "level": 151,
       "gold": 338000,
       "mana_dust": 597000,
       "sum_gold": 10535310,
@@ -1203,7 +1203,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 152,
+      "level": 152,
       "gold": 344000,
       "mana_dust": 610000,
       "sum_gold": 10879310,
@@ -1211,7 +1211,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 153,
+      "level": 153,
       "gold": 350000,
       "mana_dust": 623000,
       "sum_gold": 11229310,
@@ -1219,7 +1219,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 154,
+      "level": 154,
       "gold": 356000,
       "mana_dust": 636000,
       "sum_gold": 11585310,
@@ -1227,7 +1227,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 155,
+      "level": 155,
       "gold": 361000,
       "mana_dust": 649000,
       "sum_gold": 11946310,
@@ -1235,7 +1235,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 156,
+      "level": 156,
       "gold": 366000,
       "mana_dust": 662000,
       "sum_gold": 12312310,
@@ -1243,7 +1243,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 157,
+      "level": 157,
       "gold": 371000,
       "mana_dust": 675000,
       "sum_gold": 12683310,
@@ -1251,7 +1251,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 158,
+      "level": 158,
       "gold": 376000,
       "mana_dust": 688000,
       "sum_gold": 13059310,
@@ -1259,7 +1259,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 159,
+      "level": 159,
       "gold": 380000,
       "mana_dust": 701000,
       "sum_gold": 13439310,
@@ -1267,7 +1267,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 160,
+      "level": 160,
       "gold": 384000,
       "mana_dust": 713000,
       "sum_gold": 13823310,
@@ -1275,7 +1275,7 @@
       "sum_mana_crystal": 11110
     },
     {
-      "level_": 161,
+      "level": 161,
       "gold": 388000,
       "mana_dust": 725000,
       "mana_crystal": 12000,
@@ -1284,7 +1284,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 162,
+      "level": 162,
       "gold": 392000,
       "mana_dust": 737000,
       "sum_gold": 14603310,
@@ -1292,7 +1292,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 163,
+      "level": 163,
       "gold": 396000,
       "mana_dust": 749000,
       "sum_gold": 14999310,
@@ -1300,7 +1300,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 164,
+      "level": 164,
       "gold": 400000,
       "mana_dust": 761000,
       "sum_gold": 15399310,
@@ -1308,7 +1308,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 165,
+      "level": 165,
       "gold": 403000,
       "mana_dust": 773000,
       "sum_gold": 15802310,
@@ -1316,7 +1316,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 166,
+      "level": 166,
       "gold": 406000,
       "mana_dust": 785000,
       "sum_gold": 16208310,
@@ -1324,7 +1324,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 167,
+      "level": 167,
       "gold": 409000,
       "mana_dust": 797000,
       "sum_gold": 16617310,
@@ -1332,7 +1332,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 168,
+      "level": 168,
       "gold": 412000,
       "mana_dust": 809000,
       "sum_gold": 17029310,
@@ -1340,7 +1340,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 169,
+      "level": 169,
       "gold": 415000,
       "mana_dust": 821000,
       "sum_gold": 17444310,
@@ -1348,7 +1348,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 170,
+      "level": 170,
       "gold": 418000,
       "mana_dust": 833000,
       "sum_gold": 17862310,
@@ -1356,7 +1356,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 171,
+      "level": 171,
       "gold": 421000,
       "mana_dust": 845000,
       "sum_gold": 18283310,
@@ -1364,7 +1364,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 172,
+      "level": 172,
       "gold": 424000,
       "mana_dust": 857000,
       "sum_gold": 18707310,
@@ -1372,7 +1372,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 173,
+      "level": 173,
       "gold": 427000,
       "mana_dust": 869000,
       "sum_gold": 19134310,
@@ -1380,7 +1380,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 174,
+      "level": 174,
       "gold": 430000,
       "mana_dust": 881000,
       "sum_gold": 19564310,
@@ -1388,7 +1388,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 175,
+      "level": 175,
       "gold": 433000,
       "mana_dust": 893000,
       "sum_gold": 19997310,
@@ -1396,7 +1396,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 176,
+      "level": 176,
       "gold": 436000,
       "mana_dust": 905000,
       "sum_gold": 20433310,
@@ -1404,7 +1404,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 177,
+      "level": 177,
       "gold": 439000,
       "mana_dust": 917000,
       "sum_gold": 20872310,
@@ -1412,7 +1412,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 178,
+      "level": 178,
       "gold": 442000,
       "mana_dust": 929000,
       "sum_gold": 21314310,
@@ -1420,7 +1420,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 179,
+      "level": 179,
       "gold": 445000,
       "mana_dust": 941000,
       "sum_gold": 21759310,
@@ -1428,7 +1428,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 180,
+      "level": 180,
       "gold": 447000,
       "mana_dust": 955000,
       "sum_gold": 22206310,
@@ -1436,7 +1436,7 @@
       "sum_mana_crystal": 23110
     },
     {
-      "level_": 181,
+      "level": 181,
       "gold": 449000,
       "mana_dust": 970000,
       "mana_crystal": 24000,
@@ -1445,7 +1445,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 182,
+      "level": 182,
       "gold": 451000,
       "mana_dust": 986000,
       "sum_gold": 23106310,
@@ -1453,7 +1453,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 183,
+      "level": 183,
       "gold": 453000,
       "mana_dust": 1003000,
       "sum_gold": 23559310,
@@ -1461,7 +1461,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 184,
+      "level": 184,
       "gold": 455000,
       "mana_dust": 1021000,
       "sum_gold": 24014310,
@@ -1469,7 +1469,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 185,
+      "level": 185,
       "gold": 457000,
       "mana_dust": 1039000,
       "sum_gold": 24471310,
@@ -1477,7 +1477,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 186,
+      "level": 186,
       "gold": 459000,
       "mana_dust": 1057000,
       "sum_gold": 24930310,
@@ -1485,7 +1485,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 187,
+      "level": 187,
       "gold": 461000,
       "mana_dust": 1075000,
       "sum_gold": 25391310,
@@ -1493,7 +1493,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 188,
+      "level": 188,
       "gold": 463000,
       "mana_dust": 1093000,
       "sum_gold": 25854310,
@@ -1501,7 +1501,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 189,
+      "level": 189,
       "gold": 465000,
       "mana_dust": 1111000,
       "sum_gold": 26319310,
@@ -1509,7 +1509,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 190,
+      "level": 190,
       "gold": 467000,
       "mana_dust": 1131000,
       "sum_gold": 26786310,
@@ -1517,7 +1517,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 191,
+      "level": 191,
       "gold": 469000,
       "mana_dust": 1151000,
       "sum_gold": 27255310,
@@ -1525,7 +1525,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 192,
+      "level": 192,
       "gold": 471000,
       "mana_dust": 1171000,
       "sum_gold": 27726310,
@@ -1533,7 +1533,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 193,
+      "level": 193,
       "gold": 473000,
       "mana_dust": 1191000,
       "sum_gold": 28199310,
@@ -1541,7 +1541,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 194,
+      "level": 194,
       "gold": 475000,
       "mana_dust": 1211000,
       "sum_gold": 28674310,
@@ -1549,7 +1549,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 195,
+      "level": 195,
       "gold": 477000,
       "mana_dust": 1234000,
       "sum_gold": 29151310,
@@ -1557,7 +1557,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 196,
+      "level": 196,
       "gold": 479000,
       "mana_dust": 1257000,
       "sum_gold": 29630310,
@@ -1565,7 +1565,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 197,
+      "level": 197,
       "gold": 481000,
       "mana_dust": 1280000,
       "sum_gold": 30111310,
@@ -1573,7 +1573,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 198,
+      "level": 198,
       "gold": 483000,
       "mana_dust": 1303000,
       "sum_gold": 30594310,
@@ -1581,7 +1581,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 199,
+      "level": 199,
       "gold": 485000,
       "mana_dust": 1326000,
       "sum_gold": 31079310,
@@ -1589,7 +1589,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 200,
+      "level": 200,
       "gold": 488000,
       "mana_dust": 1352000,
       "sum_gold": 31567310,
@@ -1597,7 +1597,7 @@
       "sum_mana_crystal": 47110
     },
     {
-      "level_": 201,
+      "level": 201,
       "gold": 491000,
       "mana_dust": 1378000,
       "mana_crystal": 30000,
@@ -1606,7 +1606,7 @@
       "sum_mana_crystal": 77110
     },
     {
-      "level_": 202,
+      "level": 202,
       "gold": 500000,
       "mana_dust": 1400000,
       "mana_crystal": 800,
@@ -1615,7 +1615,7 @@
       "sum_mana_crystal": 77910
     },
     {
-      "level_": 203,
+      "level": 203,
       "gold": 525000,
       "mana_dust": 1470000,
       "mana_crystal": 840,
@@ -1624,7 +1624,7 @@
       "sum_mana_crystal": 78750
     },
     {
-      "level_": 204,
+      "level": 204,
       "gold": 550000,
       "mana_dust": 1540000,
       "mana_crystal": 880,
@@ -1633,7 +1633,7 @@
       "sum_mana_crystal": 79630
     },
     {
-      "level_": 205,
+      "level": 205,
       "gold": 575000,
       "mana_dust": 1610000,
       "mana_crystal": 920,
@@ -1642,7 +1642,7 @@
       "sum_mana_crystal": 80550
     },
     {
-      "level_": 206,
+      "level": 206,
       "gold": 600000,
       "mana_dust": 1680000,
       "mana_crystal": 960,
@@ -1651,7 +1651,7 @@
       "sum_mana_crystal": 81510
     },
     {
-      "level_": 207,
+      "level": 207,
       "gold": 625000,
       "mana_dust": 1750000,
       "mana_crystal": 1000,
@@ -1660,7 +1660,7 @@
       "sum_mana_crystal": 82510
     },
     {
-      "level_": 208,
+      "level": 208,
       "gold": 650000,
       "mana_dust": 1820000,
       "mana_crystal": 1040,
@@ -1669,7 +1669,7 @@
       "sum_mana_crystal": 83550
     },
     {
-      "level_": 209,
+      "level": 209,
       "gold": 675000,
       "mana_dust": 1890000,
       "mana_crystal": 1080,
@@ -1678,7 +1678,7 @@
       "sum_mana_crystal": 84630
     },
     {
-      "level_": 210,
+      "level": 210,
       "gold": 700000,
       "mana_dust": 1960000,
       "mana_crystal": 1120,
@@ -1687,7 +1687,7 @@
       "sum_mana_crystal": 85750
     },
     {
-      "level_": 211,
+      "level": 211,
       "gold": 725000,
       "mana_dust": 2030000,
       "mana_crystal": 1160,
@@ -1696,7 +1696,7 @@
       "sum_mana_crystal": 86910
     },
     {
-      "level_": 212,
+      "level": 212,
       "gold": 750000,
       "mana_dust": 2100000,
       "mana_crystal": 1200,
@@ -1705,7 +1705,7 @@
       "sum_mana_crystal": 88110
     },
     {
-      "level_": 213,
+      "level": 213,
       "gold": 775000,
       "mana_dust": 2170000,
       "mana_crystal": 1240,
@@ -1714,7 +1714,7 @@
       "sum_mana_crystal": 89350
     },
     {
-      "level_": 214,
+      "level": 214,
       "gold": 800000,
       "mana_dust": 2240000,
       "mana_crystal": 1280,
@@ -1723,7 +1723,7 @@
       "sum_mana_crystal": 90630
     },
     {
-      "level_": 215,
+      "level": 215,
       "gold": 825000,
       "mana_dust": 2310000,
       "mana_crystal": 1320,
@@ -1732,7 +1732,7 @@
       "sum_mana_crystal": 91950
     },
     {
-      "level_": 216,
+      "level": 216,
       "gold": 850000,
       "mana_dust": 2380000,
       "mana_crystal": 1360,
@@ -1741,7 +1741,7 @@
       "sum_mana_crystal": 93310
     },
     {
-      "level_": 217,
+      "level": 217,
       "gold": 875000,
       "mana_dust": 2450000,
       "mana_crystal": 1400,
@@ -1750,7 +1750,7 @@
       "sum_mana_crystal": 94710
     },
     {
-      "level_": 218,
+      "level": 218,
       "gold": 900000,
       "mana_dust": 2520000,
       "mana_crystal": 1440,
@@ -1759,7 +1759,7 @@
       "sum_mana_crystal": 96150
     },
     {
-      "level_": 219,
+      "level": 219,
       "gold": 925000,
       "mana_dust": 2590000,
       "mana_crystal": 1480,
@@ -1768,7 +1768,7 @@
       "sum_mana_crystal": 97630
     },
     {
-      "level_": 220,
+      "level": 220,
       "gold": 950000,
       "mana_dust": 2660000,
       "mana_crystal": 1520,
@@ -1777,7 +1777,7 @@
       "sum_mana_crystal": 99150
     },
     {
-      "level_": 221,
+      "level": 221,
       "gold": 975000,
       "mana_dust": 2730000,
       "mana_crystal": 1560,
@@ -1786,7 +1786,7 @@
       "sum_mana_crystal": 100710
     },
     {
-      "level_": 222,
+      "level": 222,
       "gold": 1000000,
       "mana_dust": 2800000,
       "mana_crystal": 1600,
@@ -1795,7 +1795,7 @@
       "sum_mana_crystal": 102310
     },
     {
-      "level_": 223,
+      "level": 223,
       "gold": 1025000,
       "mana_dust": 2870000,
       "mana_crystal": 1640,
@@ -1804,7 +1804,7 @@
       "sum_mana_crystal": 103950
     },
     {
-      "level_": 224,
+      "level": 224,
       "gold": 1050000,
       "mana_dust": 2940000,
       "mana_crystal": 1680,
@@ -1813,7 +1813,7 @@
       "sum_mana_crystal": 105630
     },
     {
-      "level_": 225,
+      "level": 225,
       "gold": 1075000,
       "mana_dust": 3010000,
       "mana_crystal": 1720,
@@ -1822,7 +1822,7 @@
       "sum_mana_crystal": 107350
     },
     {
-      "level_": 226,
+      "level": 226,
       "gold": 1100000,
       "mana_dust": 3080000,
       "mana_crystal": 1760,
@@ -1831,7 +1831,7 @@
       "sum_mana_crystal": 109110
     },
     {
-      "level_": 227,
+      "level": 227,
       "gold": 1125000,
       "mana_dust": 3150000,
       "mana_crystal": 1800,
@@ -1840,7 +1840,7 @@
       "sum_mana_crystal": 110910
     },
     {
-      "level_": 228,
+      "level": 228,
       "gold": 1150000,
       "mana_dust": 3220000,
       "mana_crystal": 1840,
@@ -1849,7 +1849,7 @@
       "sum_mana_crystal": 112750
     },
     {
-      "level_": 229,
+      "level": 229,
       "gold": 1175000,
       "mana_dust": 3290000,
       "mana_crystal": 1880,
@@ -1858,7 +1858,7 @@
       "sum_mana_crystal": 114630
     },
     {
-      "level_": 230,
+      "level": 230,
       "gold": 1200000,
       "mana_dust": 3360000,
       "mana_crystal": 1920,
@@ -1867,7 +1867,7 @@
       "sum_mana_crystal": 116550
     },
     {
-      "level_": 231,
+      "level": 231,
       "gold": 1225000,
       "mana_dust": 3430000,
       "mana_crystal": 1960,
@@ -1876,7 +1876,7 @@
       "sum_mana_crystal": 118510
     },
     {
-      "level_": 232,
+      "level": 232,
       "gold": 1250000,
       "mana_dust": 3500000,
       "mana_crystal": 2000,
@@ -1885,7 +1885,7 @@
       "sum_mana_crystal": 120510
     },
     {
-      "level_": 233,
+      "level": 233,
       "gold": 1275000,
       "mana_dust": 3570000,
       "mana_crystal": 2040,
@@ -1894,7 +1894,7 @@
       "sum_mana_crystal": 122550
     },
     {
-      "level_": 234,
+      "level": 234,
       "gold": 1300000,
       "mana_dust": 3640000,
       "mana_crystal": 2080,
@@ -1903,7 +1903,7 @@
       "sum_mana_crystal": 124630
     },
     {
-      "level_": 235,
+      "level": 235,
       "gold": 1325000,
       "mana_dust": 3710000,
       "mana_crystal": 2120,
@@ -1912,7 +1912,7 @@
       "sum_mana_crystal": 126750
     },
     {
-      "level_": 236,
+      "level": 236,
       "gold": 1350000,
       "mana_dust": 3780000,
       "mana_crystal": 2160,
@@ -1921,7 +1921,7 @@
       "sum_mana_crystal": 128910
     },
     {
-      "level_": 237,
+      "level": 237,
       "gold": 1375000,
       "mana_dust": 3850000,
       "mana_crystal": 2200,
@@ -1930,7 +1930,7 @@
       "sum_mana_crystal": 131110
     },
     {
-      "level_": 238,
+      "level": 238,
       "gold": 1400000,
       "mana_dust": 3920000,
       "mana_crystal": 2240,
@@ -1939,7 +1939,7 @@
       "sum_mana_crystal": 133350
     },
     {
-      "level_": 239,
+      "level": 239,
       "gold": 1425000,
       "mana_dust": 3990000,
       "mana_crystal": 2280,
@@ -1948,7 +1948,7 @@
       "sum_mana_crystal": 135630
     },
     {
-      "level_": 240,
+      "level": 240,
       "gold": 1450000,
       "mana_dust": 4060000,
       "mana_crystal": 2320,
@@ -1957,7 +1957,7 @@
       "sum_mana_crystal": 137950
     },
     {
-      "level_": 241,
+      "level": 241,
       "gold": 1453125,
       "mana_dust": 4068750,
       "mana_crystal": 2325,
@@ -1966,7 +1966,7 @@
       "sum_mana_crystal": 140275
     },
     {
-      "level_": 242,
+      "level": 242,
       "gold": 1456250,
       "mana_dust": 4077500,
       "mana_crystal": 2330,
@@ -1975,7 +1975,7 @@
       "sum_mana_crystal": 142605
     },
     {
-      "level_": 243,
+      "level": 243,
       "gold": 1459375,
       "mana_dust": 4086250,
       "mana_crystal": 2335,
@@ -1984,7 +1984,7 @@
       "sum_mana_crystal": 144940
     },
     {
-      "level_": 244,
+      "level": 244,
       "gold": 1462500,
       "mana_dust": 4095000,
       "mana_crystal": 2340,
@@ -1993,7 +1993,7 @@
       "sum_mana_crystal": 147280
     },
     {
-      "level_": 245,
+      "level": 245,
       "gold": 1465625,
       "mana_dust": 4103750,
       "mana_crystal": 2345,
@@ -2002,7 +2002,7 @@
       "sum_mana_crystal": 149625
     },
     {
-      "level_": 246,
+      "level": 246,
       "gold": 1468750,
       "mana_dust": 4112500,
       "mana_crystal": 2350,
@@ -2011,7 +2011,7 @@
       "sum_mana_crystal": 151975
     },
     {
-      "level_": 247,
+      "level": 247,
       "gold": 1471875,
       "mana_dust": 4121250,
       "mana_crystal": 2355,
@@ -2020,7 +2020,7 @@
       "sum_mana_crystal": 154330
     },
     {
-      "level_": 248,
+      "level": 248,
       "gold": 1475000,
       "mana_dust": 4130000,
       "mana_crystal": 2360,
@@ -2029,7 +2029,7 @@
       "sum_mana_crystal": 156690
     },
     {
-      "level_": 249,
+      "level": 249,
       "gold": 1478125,
       "mana_dust": 4138750,
       "mana_crystal": 2365,
@@ -2038,7 +2038,7 @@
       "sum_mana_crystal": 159055
     },
     {
-      "level_": 250,
+      "level": 250,
       "gold": 1481250,
       "mana_dust": 4147500,
       "mana_crystal": 2370,
@@ -2047,7 +2047,7 @@
       "sum_mana_crystal": 161425
     },
     {
-      "level_": 251,
+      "level": 251,
       "gold": 1484375,
       "mana_dust": 4156250,
       "mana_crystal": 2375,
@@ -2056,7 +2056,7 @@
       "sum_mana_crystal": 163800
     },
     {
-      "level_": 252,
+      "level": 252,
       "gold": 1487500,
       "mana_dust": 4165000,
       "mana_crystal": 2380,
@@ -2065,7 +2065,7 @@
       "sum_mana_crystal": 166180
     },
     {
-      "level_": 253,
+      "level": 253,
       "gold": 1490625,
       "mana_dust": 4173750,
       "mana_crystal": 2385,
@@ -2074,7 +2074,7 @@
       "sum_mana_crystal": 168565
     },
     {
-      "level_": 254,
+      "level": 254,
       "gold": 1493750,
       "mana_dust": 4182500,
       "mana_crystal": 2390,
@@ -2083,7 +2083,7 @@
       "sum_mana_crystal": 170955
     },
     {
-      "level_": 255,
+      "level": 255,
       "gold": 1496875,
       "mana_dust": 4191250,
       "mana_crystal": 2395,
@@ -2092,7 +2092,7 @@
       "sum_mana_crystal": 173350
     },
     {
-      "level_": 256,
+      "level": 256,
       "gold": 1500000,
       "mana_dust": 4200000,
       "mana_crystal": 2400,
@@ -2101,7 +2101,7 @@
       "sum_mana_crystal": 175750
     },
     {
-      "level_": 257,
+      "level": 257,
       "gold": 1503125,
       "mana_dust": 4208750,
       "mana_crystal": 2405,
@@ -2110,7 +2110,7 @@
       "sum_mana_crystal": 178155
     },
     {
-      "level_": 258,
+      "level": 258,
       "gold": 1506250,
       "mana_dust": 4217500,
       "mana_crystal": 2410,
@@ -2119,7 +2119,7 @@
       "sum_mana_crystal": 180565
     },
     {
-      "level_": 259,
+      "level": 259,
       "gold": 1509375,
       "mana_dust": 4226250,
       "mana_crystal": 2415,
@@ -2128,7 +2128,7 @@
       "sum_mana_crystal": 182980
     },
     {
-      "level_": 260,
+      "level": 260,
       "gold": 1512500,
       "mana_dust": 4235000,
       "mana_crystal": 2420,
@@ -2137,7 +2137,7 @@
       "sum_mana_crystal": 185400
     },
     {
-      "level_": 261,
+      "level": 261,
       "gold": 1515625,
       "mana_dust": 4243750,
       "mana_crystal": 2425,
@@ -2146,7 +2146,7 @@
       "sum_mana_crystal": 187825
     },
     {
-      "level_": 262,
+      "level": 262,
       "gold": 1518750,
       "mana_dust": 4252500,
       "mana_crystal": 2430,
@@ -2155,7 +2155,7 @@
       "sum_mana_crystal": 190255
     },
     {
-      "level_": 263,
+      "level": 263,
       "gold": 1521875,
       "mana_dust": 4261250,
       "mana_crystal": 2435,
@@ -2164,7 +2164,7 @@
       "sum_mana_crystal": 192690
     },
     {
-      "level_": 264,
+      "level": 264,
       "gold": 1525000,
       "mana_dust": 4270000,
       "mana_crystal": 2440,
@@ -2173,7 +2173,7 @@
       "sum_mana_crystal": 195130
     },
     {
-      "level_": 265,
+      "level": 265,
       "gold": 1528125,
       "mana_dust": 4278750,
       "mana_crystal": 2445,
@@ -2182,7 +2182,7 @@
       "sum_mana_crystal": 197575
     },
     {
-      "level_": 266,
+      "level": 266,
       "gold": 1531250,
       "mana_dust": 4287500,
       "mana_crystal": 2450,
@@ -2191,7 +2191,7 @@
       "sum_mana_crystal": 200025
     },
     {
-      "level_": 267,
+      "level": 267,
       "gold": 1534375,
       "mana_dust": 4296250,
       "mana_crystal": 2455,
@@ -2200,7 +2200,7 @@
       "sum_mana_crystal": 202480
     },
     {
-      "level_": 268,
+      "level": 268,
       "gold": 1537500,
       "mana_dust": 4305000,
       "mana_crystal": 2460,
@@ -2209,7 +2209,7 @@
       "sum_mana_crystal": 204940
     },
     {
-      "level_": 269,
+      "level": 269,
       "gold": 1540625,
       "mana_dust": 4313750,
       "mana_crystal": 2465,
@@ -2218,7 +2218,7 @@
       "sum_mana_crystal": 207405
     },
     {
-      "level_": 270,
+      "level": 270,
       "gold": 1543750,
       "mana_dust": 4322500,
       "mana_crystal": 2470,
@@ -2227,7 +2227,7 @@
       "sum_mana_crystal": 209875
     },
     {
-      "level_": 271,
+      "level": 271,
       "gold": 1546875,
       "mana_dust": 4331250,
       "mana_crystal": 2475,
@@ -2236,7 +2236,7 @@
       "sum_mana_crystal": 212350
     },
     {
-      "level_": 272,
+      "level": 272,
       "gold": 1550000,
       "mana_dust": 4340000,
       "mana_crystal": 2480,
@@ -2245,7 +2245,7 @@
       "sum_mana_crystal": 214830
     },
     {
-      "level_": 273,
+      "level": 273,
       "gold": 1553125,
       "mana_dust": 4348750,
       "mana_crystal": 2485,
@@ -2254,7 +2254,7 @@
       "sum_mana_crystal": 217315
     },
     {
-      "level_": 274,
+      "level": 274,
       "gold": 1556250,
       "mana_dust": 4357500,
       "mana_crystal": 2490,
@@ -2263,7 +2263,7 @@
       "sum_mana_crystal": 219805
     },
     {
-      "level_": 275,
+      "level": 275,
       "gold": 1559375,
       "mana_dust": 4366250,
       "mana_crystal": 2495,
@@ -2272,7 +2272,7 @@
       "sum_mana_crystal": 222300
     },
     {
-      "level_": 276,
+      "level": 276,
       "gold": 1562500,
       "mana_dust": 4375000,
       "mana_crystal": 2500,
@@ -2281,7 +2281,7 @@
       "sum_mana_crystal": 224800
     },
     {
-      "level_": 277,
+      "level": 277,
       "gold": 1565625,
       "mana_dust": 4383750,
       "mana_crystal": 2505,
@@ -2290,7 +2290,7 @@
       "sum_mana_crystal": 227305
     },
     {
-      "level_": 278,
+      "level": 278,
       "gold": 1568750,
       "mana_dust": 4392500,
       "mana_crystal": 2510,
@@ -2299,7 +2299,7 @@
       "sum_mana_crystal": 229815
     },
     {
-      "level_": 279,
+      "level": 279,
       "gold": 1571875,
       "mana_dust": 4401250,
       "mana_crystal": 2515,
@@ -2308,7 +2308,7 @@
       "sum_mana_crystal": 232330
     },
     {
-      "level_": 280,
+      "level": 280,
       "gold": 1575000,
       "mana_dust": 4410000,
       "mana_crystal": 2520,
@@ -2317,7 +2317,7 @@
       "sum_mana_crystal": 234850
     },
     {
-      "level_": 281,
+      "level": 281,
       "gold": 1578125,
       "mana_dust": 4418750,
       "mana_crystal": 2525,
@@ -2326,7 +2326,7 @@
       "sum_mana_crystal": 237375
     },
     {
-      "level_": 282,
+      "level": 282,
       "gold": 1581250,
       "mana_dust": 4427500,
       "mana_crystal": 2530,
@@ -2335,7 +2335,7 @@
       "sum_mana_crystal": 239905
     },
     {
-      "level_": 283,
+      "level": 283,
       "gold": 1584375,
       "mana_dust": 4436250,
       "mana_crystal": 2535,
@@ -2344,7 +2344,7 @@
       "sum_mana_crystal": 242440
     },
     {
-      "level_": 284,
+      "level": 284,
       "gold": 1587500,
       "mana_dust": 4445000,
       "mana_crystal": 2540,
@@ -2353,7 +2353,7 @@
       "sum_mana_crystal": 244980
     },
     {
-      "level_": 285,
+      "level": 285,
       "gold": 1590625,
       "mana_dust": 4453750,
       "mana_crystal": 2545,
@@ -2362,7 +2362,7 @@
       "sum_mana_crystal": 247525
     },
     {
-      "level_": 286,
+      "level": 286,
       "gold": 1593750,
       "mana_dust": 4462500,
       "mana_crystal": 2550,
@@ -2371,7 +2371,7 @@
       "sum_mana_crystal": 250075
     },
     {
-      "level_": 287,
+      "level": 287,
       "gold": 1596875,
       "mana_dust": 4471250,
       "mana_crystal": 2555,
@@ -2380,7 +2380,7 @@
       "sum_mana_crystal": 252630
     },
     {
-      "level_": 288,
+      "level": 288,
       "gold": 1600000,
       "mana_dust": 4480000,
       "mana_crystal": 2560,
@@ -2389,7 +2389,7 @@
       "sum_mana_crystal": 255190
     },
     {
-      "level_": 289,
+      "level": 289,
       "gold": 1603125,
       "mana_dust": 4488750,
       "mana_crystal": 2565,
@@ -2398,7 +2398,7 @@
       "sum_mana_crystal": 257755
     },
     {
-      "level_": 290,
+      "level": 290,
       "gold": 1606250,
       "mana_dust": 4497500,
       "mana_crystal": 2570,
@@ -2407,7 +2407,7 @@
       "sum_mana_crystal": 260325
     },
     {
-      "level_": 291,
+      "level": 291,
       "gold": 1609375,
       "mana_dust": 4506250,
       "mana_crystal": 2575,
@@ -2416,7 +2416,7 @@
       "sum_mana_crystal": 262900
     },
     {
-      "level_": 292,
+      "level": 292,
       "gold": 1612500,
       "mana_dust": 4515000,
       "mana_crystal": 2580,
@@ -2425,7 +2425,7 @@
       "sum_mana_crystal": 265480
     },
     {
-      "level_": 293,
+      "level": 293,
       "gold": 1615625,
       "mana_dust": 4523750,
       "mana_crystal": 2585,
@@ -2434,7 +2434,7 @@
       "sum_mana_crystal": 268065
     },
     {
-      "level_": 294,
+      "level": 294,
       "gold": 1618750,
       "mana_dust": 4532500,
       "mana_crystal": 2590,
@@ -2443,7 +2443,7 @@
       "sum_mana_crystal": 270655
     },
     {
-      "level_": 295,
+      "level": 295,
       "gold": 1621875,
       "mana_dust": 4541250,
       "mana_crystal": 2595,
@@ -2452,7 +2452,7 @@
       "sum_mana_crystal": 273250
     },
     {
-      "level_": 296,
+      "level": 296,
       "gold": 1625000,
       "mana_dust": 4550000,
       "mana_crystal": 2600,
@@ -2461,7 +2461,7 @@
       "sum_mana_crystal": 275850
     },
     {
-      "level_": 297,
+      "level": 297,
       "gold": 1628125,
       "mana_dust": 4558750,
       "mana_crystal": 2605,
@@ -2470,7 +2470,7 @@
       "sum_mana_crystal": 278455
     },
     {
-      "level_": 298,
+      "level": 298,
       "gold": 1631250,
       "mana_dust": 4567500,
       "mana_crystal": 2610,
@@ -2479,7 +2479,7 @@
       "sum_mana_crystal": 281065
     },
     {
-      "level_": 299,
+      "level": 299,
       "gold": 1634375,
       "mana_dust": 4576250,
       "mana_crystal": 2615,
@@ -2488,7 +2488,7 @@
       "sum_mana_crystal": 283680
     },
     {
-      "level_": 300,
+      "level": 300,
       "gold": 1637500,
       "mana_dust": 4585000,
       "mana_crystal": 2620,
@@ -2497,7 +2497,7 @@
       "sum_mana_crystal": 286300
     },
     {
-      "level_": 301,
+      "level": 301,
       "gold": 1640625,
       "mana_dust": 4593750,
       "mana_crystal": 2625,
@@ -2506,7 +2506,7 @@
       "sum_mana_crystal": 288925
     },
     {
-      "level_": 302,
+      "level": 302,
       "gold": 1643750,
       "mana_dust": 4602500,
       "mana_crystal": 2630,
@@ -2515,7 +2515,7 @@
       "sum_mana_crystal": 291555
     },
     {
-      "level_": 303,
+      "level": 303,
       "gold": 1646875,
       "mana_dust": 4611250,
       "mana_crystal": 2635,
@@ -2524,7 +2524,7 @@
       "sum_mana_crystal": 294190
     },
     {
-      "level_": 304,
+      "level": 304,
       "gold": 1650000,
       "mana_dust": 4620000,
       "mana_crystal": 2640,
@@ -2533,7 +2533,7 @@
       "sum_mana_crystal": 296830
     },
     {
-      "level_": 305,
+      "level": 305,
       "gold": 1653125,
       "mana_dust": 4628750,
       "mana_crystal": 2645,
@@ -2542,7 +2542,7 @@
       "sum_mana_crystal": 299475
     },
     {
-      "level_": 306,
+      "level": 306,
       "gold": 1656250,
       "mana_dust": 4637500,
       "mana_crystal": 2650,
@@ -2551,7 +2551,7 @@
       "sum_mana_crystal": 302125
     },
     {
-      "level_": 307,
+      "level": 307,
       "gold": 1659375,
       "mana_dust": 4646250,
       "mana_crystal": 2655,
@@ -2560,7 +2560,7 @@
       "sum_mana_crystal": 304780
     },
     {
-      "level_": 308,
+      "level": 308,
       "gold": 1662500,
       "mana_dust": 4655000,
       "mana_crystal": 2660,
@@ -2569,7 +2569,7 @@
       "sum_mana_crystal": 307440
     },
     {
-      "level_": 309,
+      "level": 309,
       "gold": 1665625,
       "mana_dust": 4663750,
       "mana_crystal": 2665,
@@ -2578,7 +2578,7 @@
       "sum_mana_crystal": 310105
     },
     {
-      "level_": 310,
+      "level": 310,
       "gold": 1668750,
       "mana_dust": 4672500,
       "mana_crystal": 2670,
@@ -2587,7 +2587,7 @@
       "sum_mana_crystal": 312775
     },
     {
-      "level_": 311,
+      "level": 311,
       "gold": 1671875,
       "mana_dust": 4681250,
       "mana_crystal": 2675,
@@ -2596,7 +2596,7 @@
       "sum_mana_crystal": 315450
     },
     {
-      "level_": 312,
+      "level": 312,
       "gold": 1675000,
       "mana_dust": 4690000,
       "mana_crystal": 2680,
@@ -2605,7 +2605,7 @@
       "sum_mana_crystal": 318130
     },
     {
-      "level_": 313,
+      "level": 313,
       "gold": 1678125,
       "mana_dust": 4698750,
       "mana_crystal": 2685,
@@ -2614,7 +2614,7 @@
       "sum_mana_crystal": 320815
     },
     {
-      "level_": 314,
+      "level": 314,
       "gold": 1681250,
       "mana_dust": 4707500,
       "mana_crystal": 2690,
@@ -2623,7 +2623,7 @@
       "sum_mana_crystal": 323505
     },
     {
-      "level_": 315,
+      "level": 315,
       "gold": 1684375,
       "mana_dust": 4716250,
       "mana_crystal": 2695,
@@ -2632,7 +2632,7 @@
       "sum_mana_crystal": 326200
     },
     {
-      "level_": 316,
+      "level": 316,
       "gold": 1687500,
       "mana_dust": 4725000,
       "mana_crystal": 2700,
@@ -2641,7 +2641,7 @@
       "sum_mana_crystal": 328900
     },
     {
-      "level_": 317,
+      "level": 317,
       "gold": 1690625,
       "mana_dust": 4733750,
       "mana_crystal": 2705,
@@ -2650,7 +2650,7 @@
       "sum_mana_crystal": 331605
     },
     {
-      "level_": 318,
+      "level": 318,
       "gold": 1693750,
       "mana_dust": 4742500,
       "mana_crystal": 2710,
@@ -2659,7 +2659,7 @@
       "sum_mana_crystal": 334315
     },
     {
-      "level_": 319,
+      "level": 319,
       "gold": 1696875,
       "mana_dust": 4751250,
       "mana_crystal": 2715,
@@ -2668,7 +2668,7 @@
       "sum_mana_crystal": 337030
     },
     {
-      "level_": 320,
+      "level": 320,
       "gold": 1700000,
       "mana_dust": 4760000,
       "mana_crystal": 2720,
@@ -2677,7 +2677,7 @@
       "sum_mana_crystal": 339750
     },
     {
-      "level_": 321,
+      "level": 321,
       "gold": 1703125,
       "mana_dust": 4768750,
       "mana_crystal": 2725,
@@ -2686,7 +2686,7 @@
       "sum_mana_crystal": 342475
     },
     {
-      "level_": 322,
+      "level": 322,
       "gold": 1706250,
       "mana_dust": 4777500,
       "mana_crystal": 2730,
@@ -2695,7 +2695,7 @@
       "sum_mana_crystal": 345205
     },
     {
-      "level_": 323,
+      "level": 323,
       "gold": 1709375,
       "mana_dust": 4786250,
       "mana_crystal": 2735,
@@ -2704,7 +2704,7 @@
       "sum_mana_crystal": 347940
     },
     {
-      "level_": 324,
+      "level": 324,
       "gold": 1712500,
       "mana_dust": 4795000,
       "mana_crystal": 2740,
@@ -2713,7 +2713,7 @@
       "sum_mana_crystal": 350680
     },
     {
-      "level_": 325,
+      "level": 325,
       "gold": 1715625,
       "mana_dust": 4803750,
       "mana_crystal": 2745,
@@ -2722,7 +2722,7 @@
       "sum_mana_crystal": 353425
     },
     {
-      "level_": 326,
+      "level": 326,
       "gold": 1718750,
       "mana_dust": 4812500,
       "mana_crystal": 2750,
@@ -2731,7 +2731,7 @@
       "sum_mana_crystal": 356175
     },
     {
-      "level_": 327,
+      "level": 327,
       "gold": 1721875,
       "mana_dust": 4821250,
       "mana_crystal": 2755,
@@ -2740,7 +2740,7 @@
       "sum_mana_crystal": 358930
     },
     {
-      "level_": 328,
+      "level": 328,
       "gold": 1725000,
       "mana_dust": 4830000,
       "mana_crystal": 2760,
@@ -2749,7 +2749,7 @@
       "sum_mana_crystal": 361690
     },
     {
-      "level_": 329,
+      "level": 329,
       "gold": 1728125,
       "mana_dust": 4838750,
       "mana_crystal": 2765,
@@ -2758,7 +2758,7 @@
       "sum_mana_crystal": 364455
     },
     {
-      "level_": 330,
+      "level": 330,
       "gold": 1731250,
       "mana_dust": 4847500,
       "mana_crystal": 2770,
@@ -2767,7 +2767,7 @@
       "sum_mana_crystal": 367225
     },
     {
-      "level_": 331,
+      "level": 331,
       "gold": 1734375,
       "mana_dust": 4856250,
       "mana_crystal": 2775,
@@ -2776,7 +2776,7 @@
       "sum_mana_crystal": 370000
     },
     {
-      "level_": 332,
+      "level": 332,
       "gold": 1737500,
       "mana_dust": 4865000,
       "mana_crystal": 2780,
@@ -2785,7 +2785,7 @@
       "sum_mana_crystal": 372780
     },
     {
-      "level_": 333,
+      "level": 333,
       "gold": 1740625,
       "mana_dust": 4873750,
       "mana_crystal": 2785,
@@ -2794,7 +2794,7 @@
       "sum_mana_crystal": 375565
     },
     {
-      "level_": 334,
+      "level": 334,
       "gold": 1743750,
       "mana_dust": 4882500,
       "mana_crystal": 2790,
@@ -2803,7 +2803,7 @@
       "sum_mana_crystal": 378355
     },
     {
-      "level_": 335,
+      "level": 335,
       "gold": 1746875,
       "mana_dust": 4891250,
       "mana_crystal": 2795,
@@ -2812,7 +2812,7 @@
       "sum_mana_crystal": 381150
     },
     {
-      "level_": 336,
+      "level": 336,
       "gold": 1750000,
       "mana_dust": 4900000,
       "mana_crystal": 2800,
@@ -2821,7 +2821,7 @@
       "sum_mana_crystal": 383950
     },
     {
-      "level_": 337,
+      "level": 337,
       "gold": 1753125,
       "mana_dust": 4908750,
       "mana_crystal": 2805,
@@ -2830,7 +2830,7 @@
       "sum_mana_crystal": 386755
     },
     {
-      "level_": 338,
+      "level": 338,
       "gold": 1756250,
       "mana_dust": 4917500,
       "mana_crystal": 2810,
@@ -2839,7 +2839,7 @@
       "sum_mana_crystal": 389565
     },
     {
-      "level_": 339,
+      "level": 339,
       "gold": 1759375,
       "mana_dust": 4926250,
       "mana_crystal": 2815,
@@ -2848,7 +2848,7 @@
       "sum_mana_crystal": 392380
     },
     {
-      "level_": 340,
+      "level": 340,
       "gold": 1762500,
       "mana_dust": 4935000,
       "mana_crystal": 2820,
@@ -2857,7 +2857,7 @@
       "sum_mana_crystal": 395200
     },
     {
-      "level_": 341,
+      "level": 341,
       "gold": 1765625,
       "mana_dust": 4943750,
       "mana_crystal": 2825,
@@ -2866,7 +2866,7 @@
       "sum_mana_crystal": 398025
     },
     {
-      "level_": 342,
+      "level": 342,
       "gold": 1768750,
       "mana_dust": 4952500,
       "mana_crystal": 2830,
@@ -2875,7 +2875,7 @@
       "sum_mana_crystal": 400855
     },
     {
-      "level_": 343,
+      "level": 343,
       "gold": 1771875,
       "mana_dust": 4961250,
       "mana_crystal": 2835,
@@ -2884,7 +2884,7 @@
       "sum_mana_crystal": 403690
     },
     {
-      "level_": 344,
+      "level": 344,
       "gold": 1775000,
       "mana_dust": 4970000,
       "mana_crystal": 2840,
@@ -2893,7 +2893,7 @@
       "sum_mana_crystal": 406530
     },
     {
-      "level_": 345,
+      "level": 345,
       "gold": 1778125,
       "mana_dust": 4978750,
       "mana_crystal": 2845,
@@ -2902,7 +2902,7 @@
       "sum_mana_crystal": 409375
     },
     {
-      "level_": 346,
+      "level": 346,
       "gold": 1781250,
       "mana_dust": 4987500,
       "mana_crystal": 2850,
@@ -2911,7 +2911,7 @@
       "sum_mana_crystal": 412225
     },
     {
-      "level_": 347,
+      "level": 347,
       "gold": 1784375,
       "mana_dust": 4996250,
       "mana_crystal": 2855,
@@ -2920,7 +2920,7 @@
       "sum_mana_crystal": 415080
     },
     {
-      "level_": 348,
+      "level": 348,
       "gold": 1787500,
       "mana_dust": 5005000,
       "mana_crystal": 2860,
@@ -2929,7 +2929,7 @@
       "sum_mana_crystal": 417940
     },
     {
-      "level_": 349,
+      "level": 349,
       "gold": 1790625,
       "mana_dust": 5013750,
       "mana_crystal": 2865,
@@ -2938,7 +2938,7 @@
       "sum_mana_crystal": 420805
     },
     {
-      "level_": 350,
+      "level": 350,
       "gold": 1793750,
       "mana_dust": 5022500,
       "mana_crystal": 2870,
@@ -2947,7 +2947,7 @@
       "sum_mana_crystal": 423675
     },
     {
-      "level_": 351,
+      "level": 351,
       "gold": 1796875,
       "mana_dust": 5031250,
       "mana_crystal": 2875,
@@ -2956,7 +2956,7 @@
       "sum_mana_crystal": 426550
     },
     {
-      "level_": 352,
+      "level": 352,
       "gold": 1800000,
       "mana_dust": 5040000,
       "mana_crystal": 2880,
@@ -2965,7 +2965,7 @@
       "sum_mana_crystal": 429430
     },
     {
-      "level_": 353,
+      "level": 353,
       "gold": 1803125,
       "mana_dust": 5048750,
       "mana_crystal": 2885,
@@ -2974,7 +2974,7 @@
       "sum_mana_crystal": 432315
     },
     {
-      "level_": 354,
+      "level": 354,
       "gold": 1806250,
       "mana_dust": 5057500,
       "mana_crystal": 2890,
@@ -2983,7 +2983,7 @@
       "sum_mana_crystal": 435205
     },
     {
-      "level_": 355,
+      "level": 355,
       "gold": 1809375,
       "mana_dust": 5066250,
       "mana_crystal": 2895,
@@ -2992,7 +2992,7 @@
       "sum_mana_crystal": 438100
     },
     {
-      "level_": 356,
+      "level": 356,
       "gold": 1812500,
       "mana_dust": 5075000,
       "mana_crystal": 2900,
@@ -3001,7 +3001,7 @@
       "sum_mana_crystal": 441000
     },
     {
-      "level_": 357,
+      "level": 357,
       "gold": 1815625,
       "mana_dust": 5083750,
       "mana_crystal": 2905,
@@ -3010,7 +3010,7 @@
       "sum_mana_crystal": 443905
     },
     {
-      "level_": 358,
+      "level": 358,
       "gold": 1818750,
       "mana_dust": 5092500,
       "mana_crystal": 2910,
@@ -3019,7 +3019,7 @@
       "sum_mana_crystal": 446815
     },
     {
-      "level_": 359,
+      "level": 359,
       "gold": 1821875,
       "mana_dust": 5101250,
       "mana_crystal": 2915,
@@ -3028,7 +3028,7 @@
       "sum_mana_crystal": 449730
     },
     {
-      "level_": 360,
+      "level": 360,
       "gold": 1825000,
       "mana_dust": 5110000,
       "mana_crystal": 2920,
@@ -3037,7 +3037,7 @@
       "sum_mana_crystal": 452650
     },
     {
-      "level_": 361,
+      "level": 361,
       "gold": 1828125,
       "mana_dust": 5118750,
       "mana_crystal": 2925,
@@ -3046,7 +3046,7 @@
       "sum_mana_crystal": 455575
     },
     {
-      "level_": 362,
+      "level": 362,
       "gold": 1831250,
       "mana_dust": 5127500,
       "mana_crystal": 2930,
@@ -3055,7 +3055,7 @@
       "sum_mana_crystal": 458505
     },
     {
-      "level_": 363,
+      "level": 363,
       "gold": 1834375,
       "mana_dust": 5136250,
       "mana_crystal": 2935,
@@ -3064,7 +3064,7 @@
       "sum_mana_crystal": 461440
     },
     {
-      "level_": 364,
+      "level": 364,
       "gold": 1837500,
       "mana_dust": 5145000,
       "mana_crystal": 2940,
@@ -3073,7 +3073,7 @@
       "sum_mana_crystal": 464380
     },
     {
-      "level_": 365,
+      "level": 365,
       "gold": 1840625,
       "mana_dust": 5153750,
       "mana_crystal": 2945,
@@ -3082,7 +3082,7 @@
       "sum_mana_crystal": 467325
     },
     {
-      "level_": 366,
+      "level": 366,
       "gold": 1843750,
       "mana_dust": 5162500,
       "mana_crystal": 2950,
@@ -3091,7 +3091,7 @@
       "sum_mana_crystal": 470275
     },
     {
-      "level_": 367,
+      "level": 367,
       "gold": 1846875,
       "mana_dust": 5171250,
       "mana_crystal": 2955,
@@ -3100,7 +3100,7 @@
       "sum_mana_crystal": 473230
     },
     {
-      "level_": 368,
+      "level": 368,
       "gold": 1850000,
       "mana_dust": 5180000,
       "mana_crystal": 2960,
@@ -3109,7 +3109,7 @@
       "sum_mana_crystal": 476190
     },
     {
-      "level_": 369,
+      "level": 369,
       "gold": 1853125,
       "mana_dust": 5188750,
       "mana_crystal": 2965,
@@ -3118,7 +3118,7 @@
       "sum_mana_crystal": 479155
     },
     {
-      "level_": 370,
+      "level": 370,
       "gold": 1856250,
       "mana_dust": 5197500,
       "mana_crystal": 2970,
@@ -3127,7 +3127,7 @@
       "sum_mana_crystal": 482125
     },
     {
-      "level_": 371,
+      "level": 371,
       "gold": 1859375,
       "mana_dust": 5206250,
       "mana_crystal": 2975,
@@ -3136,7 +3136,7 @@
       "sum_mana_crystal": 485100
     },
     {
-      "level_": 372,
+      "level": 372,
       "gold": 1862500,
       "mana_dust": 5215000,
       "mana_crystal": 2980,
@@ -3145,7 +3145,7 @@
       "sum_mana_crystal": 488080
     },
     {
-      "level_": 373,
+      "level": 373,
       "gold": 1865625,
       "mana_dust": 5223750,
       "mana_crystal": 2985,
@@ -3154,7 +3154,7 @@
       "sum_mana_crystal": 491065
     },
     {
-      "level_": 374,
+      "level": 374,
       "gold": 1868750,
       "mana_dust": 5232500,
       "mana_crystal": 2990,
@@ -3163,7 +3163,7 @@
       "sum_mana_crystal": 494055
     },
     {
-      "level_": 375,
+      "level": 375,
       "gold": 1871875,
       "mana_dust": 5241250,
       "mana_crystal": 2995,
@@ -3172,7 +3172,7 @@
       "sum_mana_crystal": 497050
     },
     {
-      "level_": 376,
+      "level": 376,
       "gold": 1875000,
       "mana_dust": 5250000,
       "mana_crystal": 3000,
@@ -3181,7 +3181,7 @@
       "sum_mana_crystal": 500050
     },
     {
-      "level_": 377,
+      "level": 377,
       "gold": 1878125,
       "mana_dust": 5258750,
       "mana_crystal": 3005,
@@ -3190,7 +3190,7 @@
       "sum_mana_crystal": 503055
     },
     {
-      "level_": 378,
+      "level": 378,
       "gold": 1881250,
       "mana_dust": 5267500,
       "mana_crystal": 3010,
@@ -3199,7 +3199,7 @@
       "sum_mana_crystal": 506065
     },
     {
-      "level_": 379,
+      "level": 379,
       "gold": 1884375,
       "mana_dust": 5276250,
       "mana_crystal": 3015,
@@ -3208,7 +3208,7 @@
       "sum_mana_crystal": 509080
     },
     {
-      "level_": 380,
+      "level": 380,
       "gold": 1887500,
       "mana_dust": 5285000,
       "mana_crystal": 3020,
@@ -3217,7 +3217,7 @@
       "sum_mana_crystal": 512100
     },
     {
-      "level_": 381,
+      "level": 381,
       "gold": 1890625,
       "mana_dust": 5293750,
       "mana_crystal": 3025,
@@ -3226,7 +3226,7 @@
       "sum_mana_crystal": 515125
     },
     {
-      "level_": 382,
+      "level": 382,
       "gold": 1893750,
       "mana_dust": 5302500,
       "mana_crystal": 3030,
@@ -3235,7 +3235,7 @@
       "sum_mana_crystal": 518155
     },
     {
-      "level_": 383,
+      "level": 383,
       "gold": 1896875,
       "mana_dust": 5311250,
       "mana_crystal": 3035,
@@ -3244,7 +3244,7 @@
       "sum_mana_crystal": 521190
     },
     {
-      "level_": 384,
+      "level": 384,
       "gold": 1900000,
       "mana_dust": 5320000,
       "mana_crystal": 3040,
@@ -3253,7 +3253,7 @@
       "sum_mana_crystal": 524230
     },
     {
-      "level_": 385,
+      "level": 385,
       "gold": 1903125,
       "mana_dust": 5328750,
       "mana_crystal": 3045,
@@ -3262,7 +3262,7 @@
       "sum_mana_crystal": 527275
     },
     {
-      "level_": 386,
+      "level": 386,
       "gold": 1906250,
       "mana_dust": 5337500,
       "mana_crystal": 3050,
@@ -3271,7 +3271,7 @@
       "sum_mana_crystal": 530325
     },
     {
-      "level_": 387,
+      "level": 387,
       "gold": 1909375,
       "mana_dust": 5346250,
       "mana_crystal": 3055,
@@ -3280,7 +3280,7 @@
       "sum_mana_crystal": 533380
     },
     {
-      "level_": 388,
+      "level": 388,
       "gold": 1912500,
       "mana_dust": 5355000,
       "mana_crystal": 3060,
@@ -3289,7 +3289,7 @@
       "sum_mana_crystal": 536440
     },
     {
-      "level_": 389,
+      "level": 389,
       "gold": 1915625,
       "mana_dust": 5363750,
       "mana_crystal": 3065,
@@ -3298,7 +3298,7 @@
       "sum_mana_crystal": 539505
     },
     {
-      "level_": 390,
+      "level": 390,
       "gold": 1918750,
       "mana_dust": 5372500,
       "mana_crystal": 3070,
@@ -3307,7 +3307,7 @@
       "sum_mana_crystal": 542575
     },
     {
-      "level_": 391,
+      "level": 391,
       "gold": 1921875,
       "mana_dust": 5381250,
       "mana_crystal": 3075,
@@ -3316,7 +3316,7 @@
       "sum_mana_crystal": 545650
     },
     {
-      "level_": 392,
+      "level": 392,
       "gold": 1925000,
       "mana_dust": 5390000,
       "mana_crystal": 3080,
@@ -3325,7 +3325,7 @@
       "sum_mana_crystal": 548730
     },
     {
-      "level_": 393,
+      "level": 393,
       "gold": 1928125,
       "mana_dust": 5398750,
       "mana_crystal": 3085,
@@ -3334,7 +3334,7 @@
       "sum_mana_crystal": 551815
     },
     {
-      "level_": 394,
+      "level": 394,
       "gold": 1931250,
       "mana_dust": 5407500,
       "mana_crystal": 3090,
@@ -3343,7 +3343,7 @@
       "sum_mana_crystal": 554905
     },
     {
-      "level_": 395,
+      "level": 395,
       "gold": 1934375,
       "mana_dust": 5416250,
       "mana_crystal": 3095,
@@ -3352,7 +3352,7 @@
       "sum_mana_crystal": 558000
     },
     {
-      "level_": 396,
+      "level": 396,
       "gold": 1937500,
       "mana_dust": 5425000,
       "mana_crystal": 3100,
@@ -3361,7 +3361,7 @@
       "sum_mana_crystal": 561100
     },
     {
-      "level_": 397,
+      "level": 397,
       "gold": 1940625,
       "mana_dust": 5433750,
       "mana_crystal": 3105,
@@ -3370,7 +3370,7 @@
       "sum_mana_crystal": 564205
     },
     {
-      "level_": 398,
+      "level": 398,
       "gold": 1943750,
       "mana_dust": 5442500,
       "mana_crystal": 3110,
@@ -3379,7 +3379,7 @@
       "sum_mana_crystal": 567315
     },
     {
-      "level_": 399,
+      "level": 399,
       "gold": 1946875,
       "mana_dust": 5451250,
       "mana_crystal": 3115,
@@ -3388,7 +3388,7 @@
       "sum_mana_crystal": 570430
     },
     {
-      "level_": 400,
+      "level": 400,
       "gold": 1950000,
       "mana_dust": 5460000,
       "mana_crystal": 3120,
@@ -3397,7 +3397,7 @@
       "sum_mana_crystal": 573550
     },
     {
-      "level_": 401,
+      "level": 401,
       "gold": 1953125,
       "mana_dust": 5468750,
       "mana_crystal": 3125,
@@ -3406,7 +3406,7 @@
       "sum_mana_crystal": 576675
     },
     {
-      "level_": 402,
+      "level": 402,
       "gold": 1956250,
       "mana_dust": 5477500,
       "mana_crystal": 3130,
@@ -3415,7 +3415,7 @@
       "sum_mana_crystal": 579805
     },
     {
-      "level_": 403,
+      "level": 403,
       "gold": 1959375,
       "mana_dust": 5486250,
       "mana_crystal": 3135,
@@ -3424,7 +3424,7 @@
       "sum_mana_crystal": 582940
     },
     {
-      "level_": 404,
+      "level": 404,
       "gold": 1962500,
       "mana_dust": 5495000,
       "mana_crystal": 3140,
@@ -3433,7 +3433,7 @@
       "sum_mana_crystal": 586080
     },
     {
-      "level_": 405,
+      "level": 405,
       "gold": 1965625,
       "mana_dust": 5503750,
       "mana_crystal": 3145,
@@ -3442,7 +3442,7 @@
       "sum_mana_crystal": 589225
     },
     {
-      "level_": 406,
+      "level": 406,
       "gold": 1968750,
       "mana_dust": 5512500,
       "mana_crystal": 3150,
@@ -3451,7 +3451,7 @@
       "sum_mana_crystal": 592375
     },
     {
-      "level_": 407,
+      "level": 407,
       "gold": 1971875,
       "mana_dust": 5521250,
       "mana_crystal": 3155,
@@ -3460,7 +3460,7 @@
       "sum_mana_crystal": 595530
     },
     {
-      "level_": 408,
+      "level": 408,
       "gold": 1975000,
       "mana_dust": 5530000,
       "mana_crystal": 3160,
@@ -3469,7 +3469,7 @@
       "sum_mana_crystal": 598690
     },
     {
-      "level_": 409,
+      "level": 409,
       "gold": 1978125,
       "mana_dust": 5538750,
       "mana_crystal": 3165,
@@ -3478,7 +3478,7 @@
       "sum_mana_crystal": 601855
     },
     {
-      "level_": 410,
+      "level": 410,
       "gold": 1981250,
       "mana_dust": 5547500,
       "mana_crystal": 3170,
@@ -3487,7 +3487,7 @@
       "sum_mana_crystal": 605025
     },
     {
-      "level_": 411,
+      "level": 411,
       "gold": 1984375,
       "mana_dust": 5556250,
       "mana_crystal": 3175,
@@ -3496,7 +3496,7 @@
       "sum_mana_crystal": 608200
     },
     {
-      "level_": 412,
+      "level": 412,
       "gold": 1987500,
       "mana_dust": 5565000,
       "mana_crystal": 3180,
@@ -3505,7 +3505,7 @@
       "sum_mana_crystal": 611380
     },
     {
-      "level_": 413,
+      "level": 413,
       "gold": 1990625,
       "mana_dust": 5573750,
       "mana_crystal": 3185,
@@ -3514,7 +3514,7 @@
       "sum_mana_crystal": 614565
     },
     {
-      "level_": 414,
+      "level": 414,
       "gold": 1993750,
       "mana_dust": 5582500,
       "mana_crystal": 3190,
@@ -3523,7 +3523,7 @@
       "sum_mana_crystal": 617755
     },
     {
-      "level_": 415,
+      "level": 415,
       "gold": 1996875,
       "mana_dust": 5591250,
       "mana_crystal": 3195,
@@ -3532,7 +3532,7 @@
       "sum_mana_crystal": 620950
     },
     {
-      "level_": 416,
+      "level": 416,
       "gold": 2000000,
       "mana_dust": 5600000,
       "mana_crystal": 3200,
@@ -3541,7 +3541,7 @@
       "sum_mana_crystal": 624150
     },
     {
-      "level_": 417,
+      "level": 417,
       "gold": 2003125,
       "mana_dust": 5608750,
       "mana_crystal": 3205,
@@ -3550,7 +3550,7 @@
       "sum_mana_crystal": 627355
     },
     {
-      "level_": 418,
+      "level": 418,
       "gold": 2006250,
       "mana_dust": 5617500,
       "mana_crystal": 3210,
@@ -3559,7 +3559,7 @@
       "sum_mana_crystal": 630565
     },
     {
-      "level_": 419,
+      "level": 419,
       "gold": 2009375,
       "mana_dust": 5626250,
       "mana_crystal": 3215,
@@ -3568,7 +3568,7 @@
       "sum_mana_crystal": 633780
     },
     {
-      "level_": 420,
+      "level": 420,
       "gold": 2012500,
       "mana_dust": 5635000,
       "mana_crystal": 3220,
@@ -3577,7 +3577,7 @@
       "sum_mana_crystal": 637000
     },
     {
-      "level_": 421,
+      "level": 421,
       "gold": 2015625,
       "mana_dust": 5643750,
       "mana_crystal": 3225,
@@ -3586,7 +3586,7 @@
       "sum_mana_crystal": 640225
     },
     {
-      "level_": 422,
+      "level": 422,
       "gold": 2018750,
       "mana_dust": 5652500,
       "mana_crystal": 3230,
@@ -3595,7 +3595,7 @@
       "sum_mana_crystal": 643455
     },
     {
-      "level_": 423,
+      "level": 423,
       "gold": 2021875,
       "mana_dust": 5661250,
       "mana_crystal": 3235,
@@ -3604,7 +3604,7 @@
       "sum_mana_crystal": 646690
     },
     {
-      "level_": 424,
+      "level": 424,
       "gold": 2025000,
       "mana_dust": 5670000,
       "mana_crystal": 3240,
@@ -3613,7 +3613,7 @@
       "sum_mana_crystal": 649930
     },
     {
-      "level_": 425,
+      "level": 425,
       "gold": 2028125,
       "mana_dust": 5678750,
       "mana_crystal": 3245,
@@ -3622,7 +3622,7 @@
       "sum_mana_crystal": 653175
     },
     {
-      "level_": 426,
+      "level": 426,
       "gold": 2031250,
       "mana_dust": 5687500,
       "mana_crystal": 3250,
@@ -3631,7 +3631,7 @@
       "sum_mana_crystal": 656425
     },
     {
-      "level_": 427,
+      "level": 427,
       "gold": 2034375,
       "mana_dust": 5696250,
       "mana_crystal": 3255,
@@ -3640,7 +3640,7 @@
       "sum_mana_crystal": 659680
     },
     {
-      "level_": 428,
+      "level": 428,
       "gold": 2037500,
       "mana_dust": 5705000,
       "mana_crystal": 3260,
@@ -3649,7 +3649,7 @@
       "sum_mana_crystal": 662940
     },
     {
-      "level_": 429,
+      "level": 429,
       "gold": 2040625,
       "mana_dust": 5713750,
       "mana_crystal": 3265,
@@ -3658,7 +3658,7 @@
       "sum_mana_crystal": 666205
     },
     {
-      "level_": 430,
+      "level": 430,
       "gold": 2043750,
       "mana_dust": 5722500,
       "mana_crystal": 3270,
@@ -3667,7 +3667,7 @@
       "sum_mana_crystal": 669475
     },
     {
-      "level_": 431,
+      "level": 431,
       "gold": 2046875,
       "mana_dust": 5731250,
       "mana_crystal": 3275,
@@ -3676,7 +3676,7 @@
       "sum_mana_crystal": 672750
     },
     {
-      "level_": 432,
+      "level": 432,
       "gold": 2050000,
       "mana_dust": 5740000,
       "mana_crystal": 3280,
@@ -3685,7 +3685,7 @@
       "sum_mana_crystal": 676030
     },
     {
-      "level_": 433,
+      "level": 433,
       "gold": 2053125,
       "mana_dust": 5748750,
       "mana_crystal": 3285,
@@ -3694,7 +3694,7 @@
       "sum_mana_crystal": 679315
     },
     {
-      "level_": 434,
+      "level": 434,
       "gold": 2056250,
       "mana_dust": 5757500,
       "mana_crystal": 3290,
@@ -3703,7 +3703,7 @@
       "sum_mana_crystal": 682605
     },
     {
-      "level_": 435,
+      "level": 435,
       "gold": 2059375,
       "mana_dust": 5766250,
       "mana_crystal": 3295,
@@ -3712,7 +3712,7 @@
       "sum_mana_crystal": 685900
     },
     {
-      "level_": 436,
+      "level": 436,
       "gold": 2062500,
       "mana_dust": 5775000,
       "mana_crystal": 3300,
@@ -3721,7 +3721,7 @@
       "sum_mana_crystal": 689200
     },
     {
-      "level_": 437,
+      "level": 437,
       "gold": 2065625,
       "mana_dust": 5783750,
       "mana_crystal": 3305,
@@ -3730,7 +3730,7 @@
       "sum_mana_crystal": 692505
     },
     {
-      "level_": 438,
+      "level": 438,
       "gold": 2068750,
       "mana_dust": 5792500,
       "mana_crystal": 3310,
@@ -3739,7 +3739,7 @@
       "sum_mana_crystal": 695815
     },
     {
-      "level_": 439,
+      "level": 439,
       "gold": 2071875,
       "mana_dust": 5801250,
       "mana_crystal": 3315,
@@ -3748,7 +3748,7 @@
       "sum_mana_crystal": 699130
     },
     {
-      "level_": 440,
+      "level": 440,
       "gold": 2075000,
       "mana_dust": 5810000,
       "mana_crystal": 3320,
@@ -3757,7 +3757,7 @@
       "sum_mana_crystal": 702450
     },
     {
-      "level_": 441,
+      "level": 441,
       "gold": 2078125,
       "mana_dust": 5818750,
       "mana_crystal": 3325,
@@ -3766,7 +3766,7 @@
       "sum_mana_crystal": 705775
     },
     {
-      "level_": 442,
+      "level": 442,
       "gold": 2081250,
       "mana_dust": 5827500,
       "mana_crystal": 3330,
@@ -3775,7 +3775,7 @@
       "sum_mana_crystal": 709105
     },
     {
-      "level_": 443,
+      "level": 443,
       "gold": 2084375,
       "mana_dust": 5836250,
       "mana_crystal": 3335,
@@ -3784,7 +3784,7 @@
       "sum_mana_crystal": 712440
     },
     {
-      "level_": 444,
+      "level": 444,
       "gold": 2087500,
       "mana_dust": 5845000,
       "mana_crystal": 3340,
@@ -3793,7 +3793,7 @@
       "sum_mana_crystal": 715780
     },
     {
-      "level_": 445,
+      "level": 445,
       "gold": 2090625,
       "mana_dust": 5853750,
       "mana_crystal": 3345,
@@ -3802,7 +3802,7 @@
       "sum_mana_crystal": 719125
     },
     {
-      "level_": 446,
+      "level": 446,
       "gold": 2093750,
       "mana_dust": 5862500,
       "mana_crystal": 3350,
@@ -3811,7 +3811,7 @@
       "sum_mana_crystal": 722475
     },
     {
-      "level_": 447,
+      "level": 447,
       "gold": 2096875,
       "mana_dust": 5871250,
       "mana_crystal": 3355,
@@ -3820,7 +3820,7 @@
       "sum_mana_crystal": 725830
     },
     {
-      "level_": 448,
+      "level": 448,
       "gold": 2100000,
       "mana_dust": 5880000,
       "mana_crystal": 3360,
@@ -3829,7 +3829,7 @@
       "sum_mana_crystal": 729190
     },
     {
-      "level_": 449,
+      "level": 449,
       "gold": 2103125,
       "mana_dust": 5888750,
       "mana_crystal": 3365,
@@ -3838,7 +3838,7 @@
       "sum_mana_crystal": 732555
     },
     {
-      "level_": 450,
+      "level": 450,
       "gold": 2106250,
       "mana_dust": 5897500,
       "mana_crystal": 3370,
@@ -3847,7 +3847,7 @@
       "sum_mana_crystal": 735925
     },
     {
-      "level_": 451,
+      "level": 451,
       "gold": 2109375,
       "mana_dust": 5906250,
       "mana_crystal": 3375,
@@ -3856,7 +3856,7 @@
       "sum_mana_crystal": 739300
     },
     {
-      "level_": 452,
+      "level": 452,
       "gold": 2112500,
       "mana_dust": 5915000,
       "mana_crystal": 3380,
@@ -3865,7 +3865,7 @@
       "sum_mana_crystal": 742680
     },
     {
-      "level_": 453,
+      "level": 453,
       "gold": 2115625,
       "mana_dust": 5923750,
       "mana_crystal": 3385,
@@ -3874,7 +3874,7 @@
       "sum_mana_crystal": 746065
     },
     {
-      "level_": 454,
+      "level": 454,
       "gold": 2118750,
       "mana_dust": 5932500,
       "mana_crystal": 3390,
@@ -3883,7 +3883,7 @@
       "sum_mana_crystal": 749455
     },
     {
-      "level_": 455,
+      "level": 455,
       "gold": 2121875,
       "mana_dust": 5941250,
       "mana_crystal": 3395,
@@ -3892,7 +3892,7 @@
       "sum_mana_crystal": 752850
     },
     {
-      "level_": 456,
+      "level": 456,
       "gold": 2125000,
       "mana_dust": 5950000,
       "mana_crystal": 3400,
@@ -3901,7 +3901,7 @@
       "sum_mana_crystal": 756250
     },
     {
-      "level_": 457,
+      "level": 457,
       "gold": 2128125,
       "mana_dust": 5958750,
       "mana_crystal": 3405,
@@ -3910,7 +3910,7 @@
       "sum_mana_crystal": 759655
     },
     {
-      "level_": 458,
+      "level": 458,
       "gold": 2131250,
       "mana_dust": 5967500,
       "mana_crystal": 3410,
@@ -3919,7 +3919,7 @@
       "sum_mana_crystal": 763065
     },
     {
-      "level_": 459,
+      "level": 459,
       "gold": 2134375,
       "mana_dust": 5976250,
       "mana_crystal": 3415,
@@ -3928,7 +3928,7 @@
       "sum_mana_crystal": 766480
     },
     {
-      "level_": 460,
+      "level": 460,
       "gold": 2137500,
       "mana_dust": 5985000,
       "mana_crystal": 3420,
@@ -3937,7 +3937,7 @@
       "sum_mana_crystal": 769900
     },
     {
-      "level_": 461,
+      "level": 461,
       "gold": 2140625,
       "mana_dust": 5993750,
       "mana_crystal": 3425,
@@ -3946,7 +3946,7 @@
       "sum_mana_crystal": 773325
     },
     {
-      "level_": 462,
+      "level": 462,
       "gold": 2143750,
       "mana_dust": 6002500,
       "mana_crystal": 3430,
@@ -3955,7 +3955,7 @@
       "sum_mana_crystal": 776755
     },
     {
-      "level_": 463,
+      "level": 463,
       "gold": 2146875,
       "mana_dust": 6011250,
       "mana_crystal": 3435,
@@ -3964,7 +3964,7 @@
       "sum_mana_crystal": 780190
     },
     {
-      "level_": 464,
+      "level": 464,
       "gold": 2150000,
       "mana_dust": 6020000,
       "mana_crystal": 3440,
@@ -3973,7 +3973,7 @@
       "sum_mana_crystal": 783630
     },
     {
-      "level_": 465,
+      "level": 465,
       "gold": 2153125,
       "mana_dust": 6028750,
       "mana_crystal": 3445,
@@ -3982,7 +3982,7 @@
       "sum_mana_crystal": 787075
     },
     {
-      "level_": 466,
+      "level": 466,
       "gold": 2156250,
       "mana_dust": 6037500,
       "mana_crystal": 3450,
@@ -3991,7 +3991,7 @@
       "sum_mana_crystal": 790525
     },
     {
-      "level_": 467,
+      "level": 467,
       "gold": 2159375,
       "mana_dust": 6046250,
       "mana_crystal": 3455,
@@ -4000,7 +4000,7 @@
       "sum_mana_crystal": 793980
     },
     {
-      "level_": 468,
+      "level": 468,
       "gold": 2162500,
       "mana_dust": 6055000,
       "mana_crystal": 3460,
@@ -4009,7 +4009,7 @@
       "sum_mana_crystal": 797440
     },
     {
-      "level_": 469,
+      "level": 469,
       "gold": 2165625,
       "mana_dust": 6063750,
       "mana_crystal": 3465,
@@ -4018,7 +4018,7 @@
       "sum_mana_crystal": 800905
     },
     {
-      "level_": 470,
+      "level": 470,
       "gold": 2168750,
       "mana_dust": 6072500,
       "mana_crystal": 3470,
@@ -4027,7 +4027,7 @@
       "sum_mana_crystal": 804375
     },
     {
-      "level_": 471,
+      "level": 471,
       "gold": 2171875,
       "mana_dust": 6081250,
       "mana_crystal": 3475,
@@ -4036,7 +4036,7 @@
       "sum_mana_crystal": 807850
     },
     {
-      "level_": 472,
+      "level": 472,
       "gold": 2175000,
       "mana_dust": 6090000,
       "mana_crystal": 3480,
@@ -4045,7 +4045,7 @@
       "sum_mana_crystal": 811330
     },
     {
-      "level_": 473,
+      "level": 473,
       "gold": 2178125,
       "mana_dust": 6098750,
       "mana_crystal": 3485,
@@ -4054,7 +4054,7 @@
       "sum_mana_crystal": 814815
     },
     {
-      "level_": 474,
+      "level": 474,
       "gold": 2181250,
       "mana_dust": 6107500,
       "mana_crystal": 3490,
@@ -4063,7 +4063,7 @@
       "sum_mana_crystal": 818305
     },
     {
-      "level_": 475,
+      "level": 475,
       "gold": 2184375,
       "mana_dust": 6116250,
       "mana_crystal": 3495,
@@ -4072,7 +4072,7 @@
       "sum_mana_crystal": 821800
     },
     {
-      "level_": 476,
+      "level": 476,
       "gold": 2187500,
       "mana_dust": 6125000,
       "mana_crystal": 3500,
@@ -4081,7 +4081,7 @@
       "sum_mana_crystal": 825300
     },
     {
-      "level_": 477,
+      "level": 477,
       "gold": 2190625,
       "mana_dust": 6133750,
       "mana_crystal": 3505,
@@ -4090,7 +4090,7 @@
       "sum_mana_crystal": 828805
     },
     {
-      "level_": 478,
+      "level": 478,
       "gold": 2193750,
       "mana_dust": 6142500,
       "mana_crystal": 3510,
@@ -4099,7 +4099,7 @@
       "sum_mana_crystal": 832315
     },
     {
-      "level_": 479,
+      "level": 479,
       "gold": 2196875,
       "mana_dust": 6151250,
       "mana_crystal": 3515,
@@ -4108,7 +4108,7 @@
       "sum_mana_crystal": 835830
     },
     {
-      "level_": 480,
+      "level": 480,
       "gold": 2200000,
       "mana_dust": 6160000,
       "mana_crystal": 3520,
@@ -4117,7 +4117,7 @@
       "sum_mana_crystal": 839350
     },
     {
-      "level_": 481,
+      "level": 481,
       "gold": 2203125,
       "mana_dust": 6168750,
       "mana_crystal": 3525,
@@ -4126,7 +4126,7 @@
       "sum_mana_crystal": 842875
     },
     {
-      "level_": 482,
+      "level": 482,
       "gold": 2206250,
       "mana_dust": 6177500,
       "mana_crystal": 3530,
@@ -4135,7 +4135,7 @@
       "sum_mana_crystal": 846405
     },
     {
-      "level_": 483,
+      "level": 483,
       "gold": 2209375,
       "mana_dust": 6186250,
       "mana_crystal": 3535,
@@ -4144,7 +4144,7 @@
       "sum_mana_crystal": 849940
     },
     {
-      "level_": 484,
+      "level": 484,
       "gold": 2212500,
       "mana_dust": 6195000,
       "mana_crystal": 3540,
@@ -4153,7 +4153,7 @@
       "sum_mana_crystal": 853480
     },
     {
-      "level_": 485,
+      "level": 485,
       "gold": 2215625,
       "mana_dust": 6203750,
       "mana_crystal": 3545,
@@ -4162,7 +4162,7 @@
       "sum_mana_crystal": 857025
     },
     {
-      "level_": 486,
+      "level": 486,
       "gold": 2218750,
       "mana_dust": 6212500,
       "mana_crystal": 3550,
@@ -4171,7 +4171,7 @@
       "sum_mana_crystal": 860575
     },
     {
-      "level_": 487,
+      "level": 487,
       "gold": 2221875,
       "mana_dust": 6221250,
       "mana_crystal": 3555,
@@ -4180,7 +4180,7 @@
       "sum_mana_crystal": 864130
     },
     {
-      "level_": 488,
+      "level": 488,
       "gold": 2225000,
       "mana_dust": 6230000,
       "mana_crystal": 3560,
@@ -4189,7 +4189,7 @@
       "sum_mana_crystal": 867690
     },
     {
-      "level_": 489,
+      "level": 489,
       "gold": 2228125,
       "mana_dust": 6238750,
       "mana_crystal": 3565,
@@ -4198,7 +4198,7 @@
       "sum_mana_crystal": 871255
     },
     {
-      "level_": 490,
+      "level": 490,
       "gold": 2231250,
       "mana_dust": 6247500,
       "mana_crystal": 3570,
@@ -4207,7 +4207,7 @@
       "sum_mana_crystal": 874825
     },
     {
-      "level_": 491,
+      "level": 491,
       "gold": 2234375,
       "mana_dust": 6256250,
       "mana_crystal": 3575,
@@ -4216,7 +4216,7 @@
       "sum_mana_crystal": 878400
     },
     {
-      "level_": 492,
+      "level": 492,
       "gold": 2237500,
       "mana_dust": 6265000,
       "mana_crystal": 3580,
@@ -4225,7 +4225,7 @@
       "sum_mana_crystal": 881980
     },
     {
-      "level_": 493,
+      "level": 493,
       "gold": 2240625,
       "mana_dust": 6273750,
       "mana_crystal": 3585,
@@ -4234,7 +4234,7 @@
       "sum_mana_crystal": 885565
     },
     {
-      "level_": 494,
+      "level": 494,
       "gold": 2243750,
       "mana_dust": 6282500,
       "mana_crystal": 3590,
@@ -4243,7 +4243,7 @@
       "sum_mana_crystal": 889155
     },
     {
-      "level_": 495,
+      "level": 495,
       "gold": 2246875,
       "mana_dust": 6291250,
       "mana_crystal": 3595,
@@ -4252,7 +4252,7 @@
       "sum_mana_crystal": 892750
     },
     {
-      "level_": 496,
+      "level": 496,
       "gold": 2250000,
       "mana_dust": 6300000,
       "mana_crystal": 3600,
@@ -4261,7 +4261,7 @@
       "sum_mana_crystal": 896350
     },
     {
-      "level_": 497,
+      "level": 497,
       "gold": 2253125,
       "mana_dust": 6308750,
       "mana_crystal": 3605,
@@ -4270,7 +4270,7 @@
       "sum_mana_crystal": 899955
     },
     {
-      "level_": 498,
+      "level": 498,
       "gold": 2256250,
       "mana_dust": 6317500,
       "mana_crystal": 3610,
@@ -4279,7 +4279,7 @@
       "sum_mana_crystal": 903565
     },
     {
-      "level_": 499,
+      "level": 499,
       "gold": 2259375,
       "mana_dust": 6326250,
       "mana_crystal": 3615,
@@ -4288,7 +4288,7 @@
       "sum_mana_crystal": 907180
     },
     {
-      "level_": 500,
+      "level": 500,
       "gold": 2262500,
       "mana_dust": 6335000,
       "mana_crystal": 3620,
@@ -4297,7 +4297,7 @@
       "sum_mana_crystal": 910800
     },
     {
-      "level_": 501,
+      "level": 501,
       "gold": 2265625,
       "mana_dust": 6343750,
       "mana_crystal": 3625,
@@ -4306,7 +4306,7 @@
       "sum_mana_crystal": 914425
     },
     {
-      "level_": 502,
+      "level": 502,
       "gold": 2268750,
       "mana_dust": 6352500,
       "mana_crystal": 3630,
@@ -4315,7 +4315,7 @@
       "sum_mana_crystal": 918055
     },
     {
-      "level_": 503,
+      "level": 503,
       "gold": 2271875,
       "mana_dust": 6361250,
       "mana_crystal": 3635,
@@ -4324,7 +4324,7 @@
       "sum_mana_crystal": 921690
     },
     {
-      "level_": 504,
+      "level": 504,
       "gold": 2275000,
       "mana_dust": 6370000,
       "mana_crystal": 3640,
@@ -4333,7 +4333,7 @@
       "sum_mana_crystal": 925330
     },
     {
-      "level_": 505,
+      "level": 505,
       "gold": 2278125,
       "mana_dust": 6378750,
       "mana_crystal": 3645,
@@ -4342,7 +4342,7 @@
       "sum_mana_crystal": 928975
     },
     {
-      "level_": 506,
+      "level": 506,
       "gold": 2281250,
       "mana_dust": 6387500,
       "mana_crystal": 3650,
@@ -4351,7 +4351,7 @@
       "sum_mana_crystal": 932625
     },
     {
-      "level_": 507,
+      "level": 507,
       "gold": 2284375,
       "mana_dust": 6396250,
       "mana_crystal": 3655,
@@ -4360,7 +4360,7 @@
       "sum_mana_crystal": 936280
     },
     {
-      "level_": 508,
+      "level": 508,
       "gold": 2287500,
       "mana_dust": 6405000,
       "mana_crystal": 3660,
@@ -4369,7 +4369,7 @@
       "sum_mana_crystal": 939940
     },
     {
-      "level_": 509,
+      "level": 509,
       "gold": 2290625,
       "mana_dust": 6413750,
       "mana_crystal": 3665,
@@ -4378,7 +4378,7 @@
       "sum_mana_crystal": 943605
     },
     {
-      "level_": 510,
+      "level": 510,
       "gold": 2293750,
       "mana_dust": 6422500,
       "mana_crystal": 3670,
@@ -4387,7 +4387,7 @@
       "sum_mana_crystal": 947275
     },
     {
-      "level_": 511,
+      "level": 511,
       "gold": 2296875,
       "mana_dust": 6431250,
       "mana_crystal": 3675,
@@ -4396,7 +4396,7 @@
       "sum_mana_crystal": 950950
     },
     {
-      "level_": 512,
+      "level": 512,
       "gold": 2300000,
       "mana_dust": 6440000,
       "mana_crystal": 3680,
@@ -4405,7 +4405,7 @@
       "sum_mana_crystal": 954630
     },
     {
-      "level_": 513,
+      "level": 513,
       "gold": 2303125,
       "mana_dust": 6448750,
       "mana_crystal": 3685,
@@ -4414,7 +4414,7 @@
       "sum_mana_crystal": 958315
     },
     {
-      "level_": 514,
+      "level": 514,
       "gold": 2306250,
       "mana_dust": 6457500,
       "mana_crystal": 3690,
@@ -4423,7 +4423,7 @@
       "sum_mana_crystal": 962005
     },
     {
-      "level_": 515,
+      "level": 515,
       "gold": 2309375,
       "mana_dust": 6466250,
       "mana_crystal": 3695,
@@ -4432,7 +4432,7 @@
       "sum_mana_crystal": 965700
     },
     {
-      "level_": 516,
+      "level": 516,
       "gold": 2312500,
       "mana_dust": 6475000,
       "mana_crystal": 3700,
@@ -4441,7 +4441,7 @@
       "sum_mana_crystal": 969400
     },
     {
-      "level_": 517,
+      "level": 517,
       "gold": 2315625,
       "mana_dust": 6483750,
       "mana_crystal": 3705,
@@ -4450,7 +4450,7 @@
       "sum_mana_crystal": 973105
     },
     {
-      "level_": 518,
+      "level": 518,
       "gold": 2318750,
       "mana_dust": 6492500,
       "mana_crystal": 3710,
@@ -4459,7 +4459,7 @@
       "sum_mana_crystal": 976815
     },
     {
-      "level_": 519,
+      "level": 519,
       "gold": 2321875,
       "mana_dust": 6501250,
       "mana_crystal": 3715,
@@ -4468,7 +4468,7 @@
       "sum_mana_crystal": 980530
     },
     {
-      "level_": 520,
+      "level": 520,
       "gold": 2325000,
       "mana_dust": 6510000,
       "mana_crystal": 3720,
@@ -4477,7 +4477,7 @@
       "sum_mana_crystal": 984250
     },
     {
-      "level_": 521,
+      "level": 521,
       "gold": 2328125,
       "mana_dust": 6518750,
       "mana_crystal": 3725,
@@ -4486,7 +4486,7 @@
       "sum_mana_crystal": 987975
     },
     {
-      "level_": 522,
+      "level": 522,
       "gold": 2331250,
       "mana_dust": 6527500,
       "mana_crystal": 3730,
@@ -4495,7 +4495,7 @@
       "sum_mana_crystal": 991705
     },
     {
-      "level_": 523,
+      "level": 523,
       "gold": 2334375,
       "mana_dust": 6536250,
       "mana_crystal": 3735,
@@ -4504,7 +4504,7 @@
       "sum_mana_crystal": 995440
     },
     {
-      "level_": 524,
+      "level": 524,
       "gold": 2337500,
       "mana_dust": 6545000,
       "mana_crystal": 3740,
@@ -4513,7 +4513,7 @@
       "sum_mana_crystal": 999180
     },
     {
-      "level_": 525,
+      "level": 525,
       "gold": 2340625,
       "mana_dust": 6553750,
       "mana_crystal": 3745,
@@ -4522,7 +4522,7 @@
       "sum_mana_crystal": 1002925
     },
     {
-      "level_": 526,
+      "level": 526,
       "gold": 2343750,
       "mana_dust": 6562500,
       "mana_crystal": 3750,
@@ -4531,7 +4531,7 @@
       "sum_mana_crystal": 1006675
     },
     {
-      "level_": 527,
+      "level": 527,
       "gold": 2346875,
       "mana_dust": 6571250,
       "mana_crystal": 3755,
@@ -4540,7 +4540,7 @@
       "sum_mana_crystal": 1010430
     },
     {
-      "level_": 528,
+      "level": 528,
       "gold": 2350000,
       "mana_dust": 6580000,
       "mana_crystal": 3760,
@@ -4549,7 +4549,7 @@
       "sum_mana_crystal": 1014190
     },
     {
-      "level_": 529,
+      "level": 529,
       "gold": 2353125,
       "mana_dust": 6588750,
       "mana_crystal": 3765,
@@ -4558,7 +4558,7 @@
       "sum_mana_crystal": 1017955
     },
     {
-      "level_": 530,
+      "level": 530,
       "gold": 2356250,
       "mana_dust": 6597500,
       "mana_crystal": 3770,
@@ -4567,7 +4567,7 @@
       "sum_mana_crystal": 1021725
     },
     {
-      "level_": 531,
+      "level": 531,
       "gold": 2359375,
       "mana_dust": 6606250,
       "mana_crystal": 3775,
@@ -4576,7 +4576,7 @@
       "sum_mana_crystal": 1025500
     },
     {
-      "level_": 532,
+      "level": 532,
       "gold": 2362500,
       "mana_dust": 6615000,
       "mana_crystal": 3780,
@@ -4585,7 +4585,7 @@
       "sum_mana_crystal": 1029280
     },
     {
-      "level_": 533,
+      "level": 533,
       "gold": 2365625,
       "mana_dust": 6623750,
       "mana_crystal": 3785,
@@ -4594,7 +4594,7 @@
       "sum_mana_crystal": 1033065
     },
     {
-      "level_": 534,
+      "level": 534,
       "gold": 2368750,
       "mana_dust": 6632500,
       "mana_crystal": 3790,
@@ -4603,7 +4603,7 @@
       "sum_mana_crystal": 1036855
     },
     {
-      "level_": 535,
+      "level": 535,
       "gold": 2371875,
       "mana_dust": 6641250,
       "mana_crystal": 3795,
@@ -4612,7 +4612,7 @@
       "sum_mana_crystal": 1040650
     },
     {
-      "level_": 536,
+      "level": 536,
       "gold": 2375000,
       "mana_dust": 6650000,
       "mana_crystal": 3800,
@@ -4621,7 +4621,7 @@
       "sum_mana_crystal": 1044450
     },
     {
-      "level_": 537,
+      "level": 537,
       "gold": 2378125,
       "mana_dust": 6658750,
       "mana_crystal": 3805,
@@ -4630,7 +4630,7 @@
       "sum_mana_crystal": 1048255
     },
     {
-      "level_": 538,
+      "level": 538,
       "gold": 2381250,
       "mana_dust": 6667500,
       "mana_crystal": 3810,
@@ -4639,7 +4639,7 @@
       "sum_mana_crystal": 1052065
     },
     {
-      "level_": 539,
+      "level": 539,
       "gold": 2384375,
       "mana_dust": 6676250,
       "mana_crystal": 3815,
@@ -4648,7 +4648,7 @@
       "sum_mana_crystal": 1055880
     },
     {
-      "level_": 540,
+      "level": 540,
       "gold": 2387500,
       "mana_dust": 6685000,
       "mana_crystal": 3820,
@@ -4657,7 +4657,7 @@
       "sum_mana_crystal": 1059700
     },
     {
-      "level_": 541,
+      "level": 541,
       "gold": 2390625,
       "mana_dust": 6693750,
       "mana_crystal": 3825,
@@ -4666,7 +4666,7 @@
       "sum_mana_crystal": 1063525
     },
     {
-      "level_": 542,
+      "level": 542,
       "gold": 2393750,
       "mana_dust": 6702500,
       "mana_crystal": 3830,
@@ -4675,7 +4675,7 @@
       "sum_mana_crystal": 1067355
     },
     {
-      "level_": 543,
+      "level": 543,
       "gold": 2396875,
       "mana_dust": 6711250,
       "mana_crystal": 3835,
@@ -4684,7 +4684,7 @@
       "sum_mana_crystal": 1071190
     },
     {
-      "level_": 544,
+      "level": 544,
       "gold": 2400000,
       "mana_dust": 6720000,
       "mana_crystal": 3840,
@@ -4693,7 +4693,7 @@
       "sum_mana_crystal": 1075030
     },
     {
-      "level_": 545,
+      "level": 545,
       "gold": 2403125,
       "mana_dust": 6728750,
       "mana_crystal": 3845,
@@ -4702,7 +4702,7 @@
       "sum_mana_crystal": 1078875
     },
     {
-      "level_": 546,
+      "level": 546,
       "gold": 2406250,
       "mana_dust": 6737500,
       "mana_crystal": 3850,
@@ -4711,7 +4711,7 @@
       "sum_mana_crystal": 1082725
     },
     {
-      "level_": 547,
+      "level": 547,
       "gold": 2409375,
       "mana_dust": 6746250,
       "mana_crystal": 3855,
@@ -4720,7 +4720,7 @@
       "sum_mana_crystal": 1086580
     },
     {
-      "level_": 548,
+      "level": 548,
       "gold": 2412500,
       "mana_dust": 6755000,
       "mana_crystal": 3860,
@@ -4729,7 +4729,7 @@
       "sum_mana_crystal": 1090440
     },
     {
-      "level_": 549,
+      "level": 549,
       "gold": 2415625,
       "mana_dust": 6763750,
       "mana_crystal": 3865,
@@ -4738,7 +4738,7 @@
       "sum_mana_crystal": 1094305
     },
     {
-      "level_": 550,
+      "level": 550,
       "gold": 2418750,
       "mana_dust": 6772500,
       "mana_crystal": 3870,
@@ -4747,7 +4747,7 @@
       "sum_mana_crystal": 1098175
     },
     {
-      "level_": 551,
+      "level": 551,
       "gold": 2421875,
       "mana_dust": 6781250,
       "mana_crystal": 3875,
@@ -4756,7 +4756,7 @@
       "sum_mana_crystal": 1102050
     },
     {
-      "level_": 552,
+      "level": 552,
       "gold": 2425000,
       "mana_dust": 6790000,
       "mana_crystal": 3880,
@@ -4765,7 +4765,7 @@
       "sum_mana_crystal": 1105930
     },
     {
-      "level_": 553,
+      "level": 553,
       "gold": 2428125,
       "mana_dust": 6798750,
       "mana_crystal": 3885,
@@ -4774,7 +4774,7 @@
       "sum_mana_crystal": 1109815
     },
     {
-      "level_": 554,
+      "level": 554,
       "gold": 2431250,
       "mana_dust": 6807500,
       "mana_crystal": 3890,
@@ -4783,7 +4783,7 @@
       "sum_mana_crystal": 1113705
     },
     {
-      "level_": 555,
+      "level": 555,
       "gold": 2434375,
       "mana_dust": 6816250,
       "mana_crystal": 3895,
@@ -4792,7 +4792,7 @@
       "sum_mana_crystal": 1117600
     },
     {
-      "level_": 556,
+      "level": 556,
       "gold": 2437500,
       "mana_dust": 6825000,
       "mana_crystal": 3900,
@@ -4801,7 +4801,7 @@
       "sum_mana_crystal": 1121500
     },
     {
-      "level_": 557,
+      "level": 557,
       "gold": 2440625,
       "mana_dust": 6833750,
       "mana_crystal": 3905,
@@ -4810,7 +4810,7 @@
       "sum_mana_crystal": 1125405
     },
     {
-      "level_": 558,
+      "level": 558,
       "gold": 2443750,
       "mana_dust": 6842500,
       "mana_crystal": 3910,
@@ -4819,7 +4819,7 @@
       "sum_mana_crystal": 1129315
     },
     {
-      "level_": 559,
+      "level": 559,
       "gold": 2446875,
       "mana_dust": 6851250,
       "mana_crystal": 3915,
@@ -4828,7 +4828,7 @@
       "sum_mana_crystal": 1133230
     },
     {
-      "level_": 560,
+      "level": 560,
       "gold": 2450000,
       "mana_dust": 6860000,
       "mana_crystal": 3920,
@@ -4837,7 +4837,7 @@
       "sum_mana_crystal": 1137150
     },
     {
-      "level_": 561,
+      "level": 561,
       "gold": 2453125,
       "mana_dust": 6868750,
       "mana_crystal": 3925,
@@ -4846,7 +4846,7 @@
       "sum_mana_crystal": 1141075
     },
     {
-      "level_": 562,
+      "level": 562,
       "gold": 2456250,
       "mana_dust": 6877500,
       "mana_crystal": 3930,
@@ -4855,7 +4855,7 @@
       "sum_mana_crystal": 1145005
     },
     {
-      "level_": 563,
+      "level": 563,
       "gold": 2459375,
       "mana_dust": 6886250,
       "mana_crystal": 3935,
@@ -4864,7 +4864,7 @@
       "sum_mana_crystal": 1148940
     },
     {
-      "level_": 564,
+      "level": 564,
       "gold": 2462500,
       "mana_dust": 6895000,
       "mana_crystal": 3940,
@@ -4873,7 +4873,7 @@
       "sum_mana_crystal": 1152880
     },
     {
-      "level_": 565,
+      "level": 565,
       "gold": 2465625,
       "mana_dust": 6903750,
       "mana_crystal": 3945,
@@ -4882,7 +4882,7 @@
       "sum_mana_crystal": 1156825
     },
     {
-      "level_": 566,
+      "level": 566,
       "gold": 2468750,
       "mana_dust": 6912500,
       "mana_crystal": 3950,
@@ -4891,7 +4891,7 @@
       "sum_mana_crystal": 1160775
     },
     {
-      "level_": 567,
+      "level": 567,
       "gold": 2471875,
       "mana_dust": 6921250,
       "mana_crystal": 3955,
@@ -4900,7 +4900,7 @@
       "sum_mana_crystal": 1164730
     },
     {
-      "level_": 568,
+      "level": 568,
       "gold": 2475000,
       "mana_dust": 6930000,
       "mana_crystal": 3960,
@@ -4909,7 +4909,7 @@
       "sum_mana_crystal": 1168690
     },
     {
-      "level_": 569,
+      "level": 569,
       "gold": 2478125,
       "mana_dust": 6938750,
       "mana_crystal": 3965,
@@ -4918,7 +4918,7 @@
       "sum_mana_crystal": 1172655
     },
     {
-      "level_": 570,
+      "level": 570,
       "gold": 2481250,
       "mana_dust": 6947500,
       "mana_crystal": 3970,
@@ -4927,7 +4927,7 @@
       "sum_mana_crystal": 1176625
     },
     {
-      "level_": 571,
+      "level": 571,
       "gold": 2484375,
       "mana_dust": 6956250,
       "mana_crystal": 3975,
@@ -4936,7 +4936,7 @@
       "sum_mana_crystal": 1180600
     },
     {
-      "level_": 572,
+      "level": 572,
       "gold": 2487500,
       "mana_dust": 6965000,
       "mana_crystal": 3980,
@@ -4945,7 +4945,7 @@
       "sum_mana_crystal": 1184580
     },
     {
-      "level_": 573,
+      "level": 573,
       "gold": 2490625,
       "mana_dust": 6973750,
       "mana_crystal": 3985,
@@ -4954,7 +4954,7 @@
       "sum_mana_crystal": 1188565
     },
     {
-      "level_": 574,
+      "level": 574,
       "gold": 2493750,
       "mana_dust": 6982500,
       "mana_crystal": 3990,
@@ -4963,7 +4963,7 @@
       "sum_mana_crystal": 1192555
     },
     {
-      "level_": 575,
+      "level": 575,
       "gold": 2496875,
       "mana_dust": 6991250,
       "mana_crystal": 3995,
@@ -4972,7 +4972,7 @@
       "sum_mana_crystal": 1196550
     },
     {
-      "level_": 576,
+      "level": 576,
       "gold": 2500000,
       "mana_dust": 7000000,
       "mana_crystal": 4000,
@@ -4981,7 +4981,7 @@
       "sum_mana_crystal": 1200550
     },
     {
-      "level_": 577,
+      "level": 577,
       "gold": 2503125,
       "mana_dust": 7008750,
       "mana_crystal": 4005,
@@ -4990,7 +4990,7 @@
       "sum_mana_crystal": 1204555
     },
     {
-      "level_": 578,
+      "level": 578,
       "gold": 2506250,
       "mana_dust": 7017500,
       "mana_crystal": 4010,
@@ -4999,7 +4999,7 @@
       "sum_mana_crystal": 1208565
     },
     {
-      "level_": 579,
+      "level": 579,
       "gold": 2509375,
       "mana_dust": 7026250,
       "mana_crystal": 4015,
@@ -5008,7 +5008,7 @@
       "sum_mana_crystal": 1212580
     },
     {
-      "level_": 580,
+      "level": 580,
       "gold": 2512500,
       "mana_dust": 7035000,
       "mana_crystal": 4020,
@@ -5017,7 +5017,7 @@
       "sum_mana_crystal": 1216600
     },
     {
-      "level_": 581,
+      "level": 581,
       "gold": 2515625,
       "mana_dust": 7043750,
       "mana_crystal": 4025,
@@ -5026,7 +5026,7 @@
       "sum_mana_crystal": 1220625
     },
     {
-      "level_": 582,
+      "level": 582,
       "gold": 2518750,
       "mana_dust": 7052500,
       "mana_crystal": 4030,
@@ -5035,7 +5035,7 @@
       "sum_mana_crystal": 1224655
     },
     {
-      "level_": 583,
+      "level": 583,
       "gold": 2521875,
       "mana_dust": 7061250,
       "mana_crystal": 4035,
@@ -5044,7 +5044,7 @@
       "sum_mana_crystal": 1228690
     },
     {
-      "level_": 584,
+      "level": 584,
       "gold": 2525000,
       "mana_dust": 7070000,
       "mana_crystal": 4040,
@@ -5053,7 +5053,7 @@
       "sum_mana_crystal": 1232730
     },
     {
-      "level_": 585,
+      "level": 585,
       "gold": 2528125,
       "mana_dust": 7078750,
       "mana_crystal": 4045,
@@ -5062,7 +5062,7 @@
       "sum_mana_crystal": 1236775
     },
     {
-      "level_": 586,
+      "level": 586,
       "gold": 2531250,
       "mana_dust": 7087500,
       "mana_crystal": 4050,
@@ -5071,7 +5071,7 @@
       "sum_mana_crystal": 1240825
     },
     {
-      "level_": 587,
+      "level": 587,
       "gold": 2534375,
       "mana_dust": 7096250,
       "mana_crystal": 4055,
@@ -5080,7 +5080,7 @@
       "sum_mana_crystal": 1244880
     },
     {
-      "level_": 588,
+      "level": 588,
       "gold": 2537500,
       "mana_dust": 7105000,
       "mana_crystal": 4060,
@@ -5089,7 +5089,7 @@
       "sum_mana_crystal": 1248940
     },
     {
-      "level_": 589,
+      "level": 589,
       "gold": 2540625,
       "mana_dust": 7113750,
       "mana_crystal": 4065,
@@ -5098,7 +5098,7 @@
       "sum_mana_crystal": 1253005
     },
     {
-      "level_": 590,
+      "level": 590,
       "gold": 2543750,
       "mana_dust": 7122500,
       "mana_crystal": 4070,
@@ -5107,7 +5107,7 @@
       "sum_mana_crystal": 1257075
     },
     {
-      "level_": 591,
+      "level": 591,
       "gold": 2546875,
       "mana_dust": 7131250,
       "mana_crystal": 4075,
@@ -5116,7 +5116,7 @@
       "sum_mana_crystal": 1261150
     },
     {
-      "level_": 592,
+      "level": 592,
       "gold": 2550000,
       "mana_dust": 7140000,
       "mana_crystal": 4080,
@@ -5125,7 +5125,7 @@
       "sum_mana_crystal": 1265230
     },
     {
-      "level_": 593,
+      "level": 593,
       "gold": 2553125,
       "mana_dust": 7148750,
       "mana_crystal": 4085,
@@ -5134,7 +5134,7 @@
       "sum_mana_crystal": 1269315
     },
     {
-      "level_": 594,
+      "level": 594,
       "gold": 2556250,
       "mana_dust": 7157500,
       "mana_crystal": 4090,
@@ -5143,7 +5143,7 @@
       "sum_mana_crystal": 1273405
     },
     {
-      "level_": 595,
+      "level": 595,
       "gold": 2559375,
       "mana_dust": 7166250,
       "mana_crystal": 4095,
@@ -5152,7 +5152,7 @@
       "sum_mana_crystal": 1277500
     },
     {
-      "level_": 596,
+      "level": 596,
       "gold": 2562500,
       "mana_dust": 7175000,
       "mana_crystal": 4100,
@@ -5161,7 +5161,7 @@
       "sum_mana_crystal": 1281600
     },
     {
-      "level_": 597,
+      "level": 597,
       "gold": 2565625,
       "mana_dust": 7183750,
       "mana_crystal": 4105,
@@ -5170,7 +5170,7 @@
       "sum_mana_crystal": 1285705
     },
     {
-      "level_": 598,
+      "level": 598,
       "gold": 2568750,
       "mana_dust": 7192500,
       "mana_crystal": 4110,
@@ -5179,7 +5179,7 @@
       "sum_mana_crystal": 1289815
     },
     {
-      "level_": 599,
+      "level": 599,
       "gold": 2571875,
       "mana_dust": 7201250,
       "mana_crystal": 4115,
@@ -5188,7 +5188,7 @@
       "sum_mana_crystal": 1293930
     },
     {
-      "level_": 600,
+      "level": 600,
       "gold": 2575000,
       "mana_dust": 7210000,
       "mana_crystal": 4120,
@@ -5197,7 +5197,7 @@
       "sum_mana_crystal": 1298050
     },
     {
-      "level_": 601,
+      "level": 601,
       "gold": 2578125,
       "mana_dust": 7218750,
       "mana_crystal": 4125,
@@ -5206,7 +5206,7 @@
       "sum_mana_crystal": 1302175
     },
     {
-      "level_": 602,
+      "level": 602,
       "gold": 2581250,
       "mana_dust": 7227500,
       "mana_crystal": 4130,
@@ -5215,7 +5215,7 @@
       "sum_mana_crystal": 1306305
     },
     {
-      "level_": 603,
+      "level": 603,
       "gold": 2584375,
       "mana_dust": 7236250,
       "mana_crystal": 4135,
@@ -5224,7 +5224,7 @@
       "sum_mana_crystal": 1310440
     },
     {
-      "level_": 604,
+      "level": 604,
       "gold": 2587500,
       "mana_dust": 7245000,
       "mana_crystal": 4140,
@@ -5233,7 +5233,7 @@
       "sum_mana_crystal": 1314580
     },
     {
-      "level_": 605,
+      "level": 605,
       "gold": 2590625,
       "mana_dust": 7253750,
       "mana_crystal": 4145,
@@ -5242,7 +5242,7 @@
       "sum_mana_crystal": 1318725
     },
     {
-      "level_": 606,
+      "level": 606,
       "gold": 2593750,
       "mana_dust": 7262500,
       "mana_crystal": 4150,
@@ -5251,7 +5251,7 @@
       "sum_mana_crystal": 1322875
     },
     {
-      "level_": 607,
+      "level": 607,
       "gold": 2596875,
       "mana_dust": 7271250,
       "mana_crystal": 4155,
@@ -5260,7 +5260,7 @@
       "sum_mana_crystal": 1327030
     },
     {
-      "level_": 608,
+      "level": 608,
       "gold": 2600000,
       "mana_dust": 7280000,
       "mana_crystal": 4160,
@@ -5269,7 +5269,7 @@
       "sum_mana_crystal": 1331190
     },
     {
-      "level_": 609,
+      "level": 609,
       "gold": 2603125,
       "mana_dust": 7288750,
       "mana_crystal": 4165,
@@ -5278,7 +5278,7 @@
       "sum_mana_crystal": 1335355
     },
     {
-      "level_": 610,
+      "level": 610,
       "gold": 2606250,
       "mana_dust": 7297500,
       "mana_crystal": 4170,
@@ -5287,7 +5287,7 @@
       "sum_mana_crystal": 1339525
     },
     {
-      "level_": 611,
+      "level": 611,
       "gold": 2609375,
       "mana_dust": 7306250,
       "mana_crystal": 4175,
@@ -5296,7 +5296,7 @@
       "sum_mana_crystal": 1343700
     },
     {
-      "level_": 612,
+      "level": 612,
       "gold": 2612500,
       "mana_dust": 7315000,
       "mana_crystal": 4180,
@@ -5305,7 +5305,7 @@
       "sum_mana_crystal": 1347880
     },
     {
-      "level_": 613,
+      "level": 613,
       "gold": 2615625,
       "mana_dust": 7323750,
       "mana_crystal": 4185,
@@ -5314,7 +5314,7 @@
       "sum_mana_crystal": 1352065
     },
     {
-      "level_": 614,
+      "level": 614,
       "gold": 2618750,
       "mana_dust": 7332500,
       "mana_crystal": 4190,
@@ -5323,7 +5323,7 @@
       "sum_mana_crystal": 1356255
     },
     {
-      "level_": 615,
+      "level": 615,
       "gold": 2621875,
       "mana_dust": 7341250,
       "mana_crystal": 4195,
@@ -5332,7 +5332,7 @@
       "sum_mana_crystal": 1360450
     },
     {
-      "level_": 616,
+      "level": 616,
       "gold": 2625000,
       "mana_dust": 7350000,
       "mana_crystal": 4200,
@@ -5341,7 +5341,7 @@
       "sum_mana_crystal": 1364650
     },
     {
-      "level_": 617,
+      "level": 617,
       "gold": 2628125,
       "mana_dust": 7358750,
       "mana_crystal": 4205,
@@ -5350,7 +5350,7 @@
       "sum_mana_crystal": 1368855
     },
     {
-      "level_": 618,
+      "level": 618,
       "gold": 2631250,
       "mana_dust": 7367500,
       "mana_crystal": 4210,
@@ -5359,7 +5359,7 @@
       "sum_mana_crystal": 1373065
     },
     {
-      "level_": 619,
+      "level": 619,
       "gold": 2634375,
       "mana_dust": 7376250,
       "mana_crystal": 4215,
@@ -5368,7 +5368,7 @@
       "sum_mana_crystal": 1377280
     },
     {
-      "level_": 620,
+      "level": 620,
       "gold": 2637500,
       "mana_dust": 7385000,
       "mana_crystal": 4220,
@@ -5377,7 +5377,7 @@
       "sum_mana_crystal": 1381500
     },
     {
-      "level_": 621,
+      "level": 621,
       "gold": 2640625,
       "mana_dust": 7393750,
       "mana_crystal": 4225,
@@ -5386,7 +5386,7 @@
       "sum_mana_crystal": 1385725
     },
     {
-      "level_": 622,
+      "level": 622,
       "gold": 2643750,
       "mana_dust": 7402500,
       "mana_crystal": 4230,
@@ -5395,7 +5395,7 @@
       "sum_mana_crystal": 1389955
     },
     {
-      "level_": 623,
+      "level": 623,
       "gold": 2646875,
       "mana_dust": 7411250,
       "mana_crystal": 4235,
@@ -5404,7 +5404,7 @@
       "sum_mana_crystal": 1394190
     },
     {
-      "level_": 624,
+      "level": 624,
       "gold": 2650000,
       "mana_dust": 7420000,
       "mana_crystal": 4240,
@@ -5413,7 +5413,7 @@
       "sum_mana_crystal": 1398430
     },
     {
-      "level_": 625,
+      "level": 625,
       "gold": 2653125,
       "mana_dust": 7428750,
       "mana_crystal": 4245,
@@ -5422,7 +5422,7 @@
       "sum_mana_crystal": 1402675
     },
     {
-      "level_": 626,
+      "level": 626,
       "gold": 2656250,
       "mana_dust": 7437500,
       "mana_crystal": 4250,
@@ -5431,7 +5431,7 @@
       "sum_mana_crystal": 1406925
     },
     {
-      "level_": 627,
+      "level": 627,
       "gold": 2659375,
       "mana_dust": 7446250,
       "mana_crystal": 4255,
@@ -5440,7 +5440,7 @@
       "sum_mana_crystal": 1411180
     },
     {
-      "level_": 628,
+      "level": 628,
       "gold": 2662500,
       "mana_dust": 7455000,
       "mana_crystal": 4260,
@@ -5449,7 +5449,7 @@
       "sum_mana_crystal": 1415440
     },
     {
-      "level_": 629,
+      "level": 629,
       "gold": 2665625,
       "mana_dust": 7463750,
       "mana_crystal": 4265,
@@ -5458,7 +5458,7 @@
       "sum_mana_crystal": 1419705
     },
     {
-      "level_": 630,
+      "level": 630,
       "gold": 2668750,
       "mana_dust": 7472500,
       "mana_crystal": 4270,
@@ -5467,7 +5467,7 @@
       "sum_mana_crystal": 1423975
     },
     {
-      "level_": 631,
+      "level": 631,
       "gold": 2671875,
       "mana_dust": 7481250,
       "mana_crystal": 4275,
@@ -5476,7 +5476,7 @@
       "sum_mana_crystal": 1428250
     },
     {
-      "level_": 632,
+      "level": 632,
       "gold": 2675000,
       "mana_dust": 7490000,
       "mana_crystal": 4280,
@@ -5485,7 +5485,7 @@
       "sum_mana_crystal": 1432530
     },
     {
-      "level_": 633,
+      "level": 633,
       "gold": 2678125,
       "mana_dust": 7498750,
       "mana_crystal": 4285,
@@ -5494,7 +5494,7 @@
       "sum_mana_crystal": 1436815
     },
     {
-      "level_": 634,
+      "level": 634,
       "gold": 2681250,
       "mana_dust": 7507500,
       "mana_crystal": 4290,
@@ -5503,7 +5503,7 @@
       "sum_mana_crystal": 1441105
     },
     {
-      "level_": 635,
+      "level": 635,
       "gold": 2684375,
       "mana_dust": 7516250,
       "mana_crystal": 4295,
@@ -5512,7 +5512,7 @@
       "sum_mana_crystal": 1445400
     },
     {
-      "level_": 636,
+      "level": 636,
       "gold": 2687500,
       "mana_dust": 7525000,
       "mana_crystal": 4300,
@@ -5521,7 +5521,7 @@
       "sum_mana_crystal": 1449700
     },
     {
-      "level_": 637,
+      "level": 637,
       "gold": 2690625,
       "mana_dust": 7533750,
       "mana_crystal": 4305,
@@ -5530,7 +5530,7 @@
       "sum_mana_crystal": 1454005
     },
     {
-      "level_": 638,
+      "level": 638,
       "gold": 2693750,
       "mana_dust": 7542500,
       "mana_crystal": 4310,
@@ -5539,7 +5539,7 @@
       "sum_mana_crystal": 1458315
     },
     {
-      "level_": 639,
+      "level": 639,
       "gold": 2696875,
       "mana_dust": 7551250,
       "mana_crystal": 4315,
@@ -5548,7 +5548,7 @@
       "sum_mana_crystal": 1462630
     },
     {
-      "level_": 640,
+      "level": 640,
       "gold": 2700000,
       "mana_dust": 7560000,
       "mana_crystal": 4320,
@@ -5557,7 +5557,7 @@
       "sum_mana_crystal": 1466950
     },
     {
-      "level_": 641,
+      "level": 641,
       "gold": 2703125,
       "mana_dust": 7568750,
       "mana_crystal": 4325,
@@ -5566,7 +5566,7 @@
       "sum_mana_crystal": 1471275
     },
     {
-      "level_": 642,
+      "level": 642,
       "gold": 2706250,
       "mana_dust": 7577500,
       "mana_crystal": 4330,
@@ -5575,7 +5575,7 @@
       "sum_mana_crystal": 1475605
     },
     {
-      "level_": 643,
+      "level": 643,
       "gold": 2709375,
       "mana_dust": 7586250,
       "mana_crystal": 4335,
@@ -5584,7 +5584,7 @@
       "sum_mana_crystal": 1479940
     },
     {
-      "level_": 644,
+      "level": 644,
       "gold": 2712500,
       "mana_dust": 7595000,
       "mana_crystal": 4340,
@@ -5593,7 +5593,7 @@
       "sum_mana_crystal": 1484280
     },
     {
-      "level_": 645,
+      "level": 645,
       "gold": 2715625,
       "mana_dust": 7603750,
       "mana_crystal": 4345,
@@ -5602,7 +5602,7 @@
       "sum_mana_crystal": 1488625
     },
     {
-      "level_": 646,
+      "level": 646,
       "gold": 2718750,
       "mana_dust": 7612500,
       "mana_crystal": 4350,
@@ -5611,7 +5611,7 @@
       "sum_mana_crystal": 1492975
     },
     {
-      "level_": 647,
+      "level": 647,
       "gold": 2721875,
       "mana_dust": 7621250,
       "mana_crystal": 4355,
@@ -5620,7 +5620,7 @@
       "sum_mana_crystal": 1497330
     },
     {
-      "level_": 648,
+      "level": 648,
       "gold": 2725000,
       "mana_dust": 7630000,
       "mana_crystal": 4360,
@@ -5629,7 +5629,7 @@
       "sum_mana_crystal": 1501690
     },
     {
-      "level_": 649,
+      "level": 649,
       "gold": 2728125,
       "mana_dust": 7638750,
       "mana_crystal": 4365,
@@ -5638,7 +5638,7 @@
       "sum_mana_crystal": 1506055
     },
     {
-      "level_": 650,
+      "level": 650,
       "gold": 2731250,
       "mana_dust": 7647500,
       "mana_crystal": 4370,
@@ -5647,7 +5647,7 @@
       "sum_mana_crystal": 1510425
     },
     {
-      "level_": 651,
+      "level": 651,
       "gold": 2734375,
       "mana_dust": 7656250,
       "mana_crystal": 4375,
@@ -5656,7 +5656,7 @@
       "sum_mana_crystal": 1514800
     },
     {
-      "level_": 652,
+      "level": 652,
       "gold": 2737500,
       "mana_dust": 7665000,
       "mana_crystal": 4380,
@@ -5665,7 +5665,7 @@
       "sum_mana_crystal": 1519180
     },
     {
-      "level_": 653,
+      "level": 653,
       "gold": 2740625,
       "mana_dust": 7673750,
       "mana_crystal": 4385,
@@ -5674,7 +5674,7 @@
       "sum_mana_crystal": 1523565
     },
     {
-      "level_": 654,
+      "level": 654,
       "gold": 2743750,
       "mana_dust": 7682500,
       "mana_crystal": 4390,
@@ -5683,7 +5683,7 @@
       "sum_mana_crystal": 1527955
     },
     {
-      "level_": 655,
+      "level": 655,
       "gold": 2746875,
       "mana_dust": 7691250,
       "mana_crystal": 4395,
@@ -5692,7 +5692,7 @@
       "sum_mana_crystal": 1532350
     },
     {
-      "level_": 656,
+      "level": 656,
       "gold": 2750000,
       "mana_dust": 7700000,
       "mana_crystal": 4400,
@@ -5701,7 +5701,7 @@
       "sum_mana_crystal": 1536750
     },
     {
-      "level_": 657,
+      "level": 657,
       "gold": 2753125,
       "mana_dust": 7708750,
       "mana_crystal": 4405,
@@ -5710,7 +5710,7 @@
       "sum_mana_crystal": 1541155
     },
     {
-      "level_": 658,
+      "level": 658,
       "gold": 2756250,
       "mana_dust": 7717500,
       "mana_crystal": 4410,
@@ -5719,7 +5719,7 @@
       "sum_mana_crystal": 1545565
     },
     {
-      "level_": 659,
+      "level": 659,
       "gold": 2759375,
       "mana_dust": 7726250,
       "mana_crystal": 4415,
@@ -5728,7 +5728,7 @@
       "sum_mana_crystal": 1549980
     },
     {
-      "level_": 660,
+      "level": 660,
       "gold": 2762500,
       "mana_dust": 7735000,
       "mana_crystal": 4420,
@@ -5737,7 +5737,7 @@
       "sum_mana_crystal": 1554400
     },
     {
-      "level_": 661,
+      "level": 661,
       "gold": 2765625,
       "mana_dust": 7743750,
       "mana_crystal": 4425,
@@ -5746,7 +5746,7 @@
       "sum_mana_crystal": 1558825
     },
     {
-      "level_": 662,
+      "level": 662,
       "gold": 2768750,
       "mana_dust": 7752500,
       "mana_crystal": 4430,
@@ -5755,7 +5755,7 @@
       "sum_mana_crystal": 1563255
     },
     {
-      "level_": 663,
+      "level": 663,
       "gold": 2771875,
       "mana_dust": 7761250,
       "mana_crystal": 4435,
@@ -5764,7 +5764,7 @@
       "sum_mana_crystal": 1567690
     },
     {
-      "level_": 664,
+      "level": 664,
       "gold": 2775000,
       "mana_dust": 7770000,
       "mana_crystal": 4440,
@@ -5773,7 +5773,7 @@
       "sum_mana_crystal": 1572130
     },
     {
-      "level_": 665,
+      "level": 665,
       "gold": 2778125,
       "mana_dust": 7778750,
       "mana_crystal": 4445,
@@ -5782,7 +5782,7 @@
       "sum_mana_crystal": 1576575
     },
     {
-      "level_": 666,
+      "level": 666,
       "gold": 2781250,
       "mana_dust": 7787500,
       "mana_crystal": 4450,
@@ -5791,7 +5791,7 @@
       "sum_mana_crystal": 1581025
     },
     {
-      "level_": 667,
+      "level": 667,
       "gold": 2784375,
       "mana_dust": 7796250,
       "mana_crystal": 4455,
@@ -5800,7 +5800,7 @@
       "sum_mana_crystal": 1585480
     },
     {
-      "level_": 668,
+      "level": 668,
       "gold": 2787500,
       "mana_dust": 7805000,
       "mana_crystal": 4460,
@@ -5809,7 +5809,7 @@
       "sum_mana_crystal": 1589940
     },
     {
-      "level_": 669,
+      "level": 669,
       "gold": 2790625,
       "mana_dust": 7813750,
       "mana_crystal": 4465,
@@ -5818,7 +5818,7 @@
       "sum_mana_crystal": 1594405
     },
     {
-      "level_": 670,
+      "level": 670,
       "gold": 2793750,
       "mana_dust": 7822500,
       "mana_crystal": 4470,
@@ -5827,7 +5827,7 @@
       "sum_mana_crystal": 1598875
     },
     {
-      "level_": 671,
+      "level": 671,
       "gold": 2796875,
       "mana_dust": 7831250,
       "mana_crystal": 4475,
@@ -5836,7 +5836,7 @@
       "sum_mana_crystal": 1603350
     },
     {
-      "level_": 672,
+      "level": 672,
       "gold": 2800000,
       "mana_dust": 7840000,
       "mana_crystal": 4480,
@@ -5845,7 +5845,7 @@
       "sum_mana_crystal": 1607830
     },
     {
-      "level_": 673,
+      "level": 673,
       "gold": 2803125,
       "mana_dust": 7848750,
       "mana_crystal": 4485,
@@ -5854,7 +5854,7 @@
       "sum_mana_crystal": 1612315
     },
     {
-      "level_": 674,
+      "level": 674,
       "gold": 2806250,
       "mana_dust": 7857500,
       "mana_crystal": 4490,
@@ -5863,7 +5863,7 @@
       "sum_mana_crystal": 1616805
     },
     {
-      "level_": 675,
+      "level": 675,
       "gold": 2809375,
       "mana_dust": 7866250,
       "mana_crystal": 4495,
@@ -5872,7 +5872,7 @@
       "sum_mana_crystal": 1621300
     },
     {
-      "level_": 676,
+      "level": 676,
       "gold": 2812500,
       "mana_dust": 7875000,
       "mana_crystal": 4500,
@@ -5881,7 +5881,7 @@
       "sum_mana_crystal": 1625800
     },
     {
-      "level_": 677,
+      "level": 677,
       "gold": 2815625,
       "mana_dust": 7883750,
       "mana_crystal": 4505,
@@ -5890,7 +5890,7 @@
       "sum_mana_crystal": 1630305
     },
     {
-      "level_": 678,
+      "level": 678,
       "gold": 2818750,
       "mana_dust": 7892500,
       "mana_crystal": 4510,
@@ -5899,7 +5899,7 @@
       "sum_mana_crystal": 1634815
     },
     {
-      "level_": 679,
+      "level": 679,
       "gold": 2821875,
       "mana_dust": 7901250,
       "mana_crystal": 4515,
@@ -5908,7 +5908,7 @@
       "sum_mana_crystal": 1639330
     },
     {
-      "level_": 680,
+      "level": 680,
       "gold": 2825000,
       "mana_dust": 7910000,
       "mana_crystal": 4520,
@@ -5917,7 +5917,7 @@
       "sum_mana_crystal": 1643850
     },
     {
-      "level_": 681,
+      "level": 681,
       "gold": 2828125,
       "mana_dust": 7918750,
       "mana_crystal": 4525,
@@ -5926,7 +5926,7 @@
       "sum_mana_crystal": 1648375
     },
     {
-      "level_": 682,
+      "level": 682,
       "gold": 2831250,
       "mana_dust": 7927500,
       "mana_crystal": 4530,
@@ -5935,7 +5935,7 @@
       "sum_mana_crystal": 1652905
     },
     {
-      "level_": 683,
+      "level": 683,
       "gold": 2834375,
       "mana_dust": 7936250,
       "mana_crystal": 4535,
@@ -5944,7 +5944,7 @@
       "sum_mana_crystal": 1657440
     },
     {
-      "level_": 684,
+      "level": 684,
       "gold": 2837500,
       "mana_dust": 7945000,
       "mana_crystal": 4540,
@@ -5953,7 +5953,7 @@
       "sum_mana_crystal": 1661980
     },
     {
-      "level_": 685,
+      "level": 685,
       "gold": 2840625,
       "mana_dust": 7953750,
       "mana_crystal": 4545,
@@ -5962,7 +5962,7 @@
       "sum_mana_crystal": 1666525
     },
     {
-      "level_": 686,
+      "level": 686,
       "gold": 2843750,
       "mana_dust": 7962500,
       "mana_crystal": 4550,
@@ -5971,7 +5971,7 @@
       "sum_mana_crystal": 1671075
     },
     {
-      "level_": 687,
+      "level": 687,
       "gold": 2846875,
       "mana_dust": 7971250,
       "mana_crystal": 4555,
@@ -5980,7 +5980,7 @@
       "sum_mana_crystal": 1675630
     },
     {
-      "level_": 688,
+      "level": 688,
       "gold": 2850000,
       "mana_dust": 7980000,
       "mana_crystal": 4560,
@@ -5989,7 +5989,7 @@
       "sum_mana_crystal": 1680190
     },
     {
-      "level_": 689,
+      "level": 689,
       "gold": 2853125,
       "mana_dust": 7988750,
       "mana_crystal": 4565,
@@ -5998,7 +5998,7 @@
       "sum_mana_crystal": 1684755
     },
     {
-      "level_": 690,
+      "level": 690,
       "gold": 2856250,
       "mana_dust": 7997500,
       "mana_crystal": 4570,
@@ -6007,7 +6007,7 @@
       "sum_mana_crystal": 1689325
     },
     {
-      "level_": 691,
+      "level": 691,
       "gold": 2859375,
       "mana_dust": 8006250,
       "mana_crystal": 4575,
@@ -6016,7 +6016,7 @@
       "sum_mana_crystal": 1693900
     },
     {
-      "level_": 692,
+      "level": 692,
       "gold": 2862500,
       "mana_dust": 8015000,
       "mana_crystal": 4580,
@@ -6025,7 +6025,7 @@
       "sum_mana_crystal": 1698480
     },
     {
-      "level_": 693,
+      "level": 693,
       "gold": 2865625,
       "mana_dust": 8023750,
       "mana_crystal": 4585,
@@ -6034,7 +6034,7 @@
       "sum_mana_crystal": 1703065
     },
     {
-      "level_": 694,
+      "level": 694,
       "gold": 2868750,
       "mana_dust": 8032500,
       "mana_crystal": 4590,
@@ -6043,7 +6043,7 @@
       "sum_mana_crystal": 1707655
     },
     {
-      "level_": 695,
+      "level": 695,
       "gold": 2871875,
       "mana_dust": 8041250,
       "mana_crystal": 4595,
@@ -6052,7 +6052,7 @@
       "sum_mana_crystal": 1712250
     },
     {
-      "level_": 696,
+      "level": 696,
       "gold": 2875000,
       "mana_dust": 8050000,
       "mana_crystal": 4600,
@@ -6061,7 +6061,7 @@
       "sum_mana_crystal": 1716850
     },
     {
-      "level_": 697,
+      "level": 697,
       "gold": 2878125,
       "mana_dust": 8058750,
       "mana_crystal": 4605,
@@ -6070,7 +6070,7 @@
       "sum_mana_crystal": 1721455
     },
     {
-      "level_": 698,
+      "level": 698,
       "gold": 2881250,
       "mana_dust": 8067500,
       "mana_crystal": 4610,
@@ -6079,7 +6079,7 @@
       "sum_mana_crystal": 1726065
     },
     {
-      "level_": 699,
+      "level": 699,
       "gold": 2884375,
       "mana_dust": 8076250,
       "mana_crystal": 4615,
@@ -6088,7 +6088,7 @@
       "sum_mana_crystal": 1730680
     },
     {
-      "level_": 700,
+      "level": 700,
       "gold": 2887500,
       "mana_dust": 8085000,
       "mana_crystal": 4620,
@@ -6097,7 +6097,7 @@
       "sum_mana_crystal": 1735300
     },
     {
-      "level_": 701,
+      "level": 701,
       "gold": 2890625,
       "mana_dust": 8093750,
       "mana_crystal": 4625,
@@ -6106,7 +6106,7 @@
       "sum_mana_crystal": 1739925
     },
     {
-      "level_": 702,
+      "level": 702,
       "gold": 2893750,
       "mana_dust": 8102500,
       "mana_crystal": 4630,
@@ -6115,7 +6115,7 @@
       "sum_mana_crystal": 1744555
     },
     {
-      "level_": 703,
+      "level": 703,
       "gold": 2896875,
       "mana_dust": 8111250,
       "mana_crystal": 4635,
@@ -6124,7 +6124,7 @@
       "sum_mana_crystal": 1749190
     },
     {
-      "level_": 704,
+      "level": 704,
       "gold": 2900000,
       "mana_dust": 8120000,
       "mana_crystal": 4640,
@@ -6133,7 +6133,7 @@
       "sum_mana_crystal": 1753830
     },
     {
-      "level_": 705,
+      "level": 705,
       "gold": 2903125,
       "mana_dust": 8128750,
       "mana_crystal": 4645,
@@ -6142,7 +6142,7 @@
       "sum_mana_crystal": 1758475
     },
     {
-      "level_": 706,
+      "level": 706,
       "gold": 2906250,
       "mana_dust": 8137500,
       "mana_crystal": 4650,
@@ -6151,7 +6151,7 @@
       "sum_mana_crystal": 1763125
     },
     {
-      "level_": 707,
+      "level": 707,
       "gold": 2909375,
       "mana_dust": 8146250,
       "mana_crystal": 4655,
@@ -6160,7 +6160,7 @@
       "sum_mana_crystal": 1767780
     },
     {
-      "level_": 708,
+      "level": 708,
       "gold": 2912500,
       "mana_dust": 8155000,
       "mana_crystal": 4660,
@@ -6169,7 +6169,7 @@
       "sum_mana_crystal": 1772440
     },
     {
-      "level_": 709,
+      "level": 709,
       "gold": 2915625,
       "mana_dust": 8163750,
       "mana_crystal": 4665,
@@ -6178,7 +6178,7 @@
       "sum_mana_crystal": 1777105
     },
     {
-      "level_": 710,
+      "level": 710,
       "gold": 2918750,
       "mana_dust": 8172500,
       "mana_crystal": 4670,
@@ -6187,7 +6187,7 @@
       "sum_mana_crystal": 1781775
     },
     {
-      "level_": 711,
+      "level": 711,
       "gold": 2921875,
       "mana_dust": 8181250,
       "mana_crystal": 4675,
@@ -6196,7 +6196,7 @@
       "sum_mana_crystal": 1786450
     },
     {
-      "level_": 712,
+      "level": 712,
       "gold": 2925000,
       "mana_dust": 8190000,
       "mana_crystal": 4680,
@@ -6205,7 +6205,7 @@
       "sum_mana_crystal": 1791130
     },
     {
-      "level_": 713,
+      "level": 713,
       "gold": 2928125,
       "mana_dust": 8198750,
       "mana_crystal": 4685,
@@ -6214,7 +6214,7 @@
       "sum_mana_crystal": 1795815
     },
     {
-      "level_": 714,
+      "level": 714,
       "gold": 2931250,
       "mana_dust": 8207500,
       "mana_crystal": 4690,
@@ -6223,7 +6223,7 @@
       "sum_mana_crystal": 1800505
     },
     {
-      "level_": 715,
+      "level": 715,
       "gold": 2934375,
       "mana_dust": 8216250,
       "mana_crystal": 4695,
@@ -6232,7 +6232,7 @@
       "sum_mana_crystal": 1805200
     },
     {
-      "level_": 716,
+      "level": 716,
       "gold": 2937500,
       "mana_dust": 8225000,
       "mana_crystal": 4700,
@@ -6241,7 +6241,7 @@
       "sum_mana_crystal": 1809900
     },
     {
-      "level_": 717,
+      "level": 717,
       "gold": 2940625,
       "mana_dust": 8233750,
       "mana_crystal": 4705,
@@ -6250,7 +6250,7 @@
       "sum_mana_crystal": 1814605
     },
     {
-      "level_": 718,
+      "level": 718,
       "gold": 2943750,
       "mana_dust": 8242500,
       "mana_crystal": 4710,
@@ -6259,7 +6259,7 @@
       "sum_mana_crystal": 1819315
     },
     {
-      "level_": 719,
+      "level": 719,
       "gold": 2946875,
       "mana_dust": 8251250,
       "mana_crystal": 4715,
@@ -6268,7 +6268,7 @@
       "sum_mana_crystal": 1824030
     },
     {
-      "level_": 720,
+      "level": 720,
       "gold": 2950000,
       "mana_dust": 8260000,
       "mana_crystal": 4720,
@@ -6277,7 +6277,7 @@
       "sum_mana_crystal": 1828750
     },
     {
-      "level_": 721,
+      "level": 721,
       "gold": 2953125,
       "mana_dust": 8268750,
       "mana_crystal": 4725,
@@ -6286,7 +6286,7 @@
       "sum_mana_crystal": 1833475
     },
     {
-      "level_": 722,
+      "level": 722,
       "gold": 2956250,
       "mana_dust": 8277500,
       "mana_crystal": 4730,
@@ -6295,7 +6295,7 @@
       "sum_mana_crystal": 1838205
     },
     {
-      "level_": 723,
+      "level": 723,
       "gold": 2959375,
       "mana_dust": 8286250,
       "mana_crystal": 4735,
@@ -6304,7 +6304,7 @@
       "sum_mana_crystal": 1842940
     },
     {
-      "level_": 724,
+      "level": 724,
       "gold": 2962500,
       "mana_dust": 8295000,
       "mana_crystal": 4740,
@@ -6313,7 +6313,7 @@
       "sum_mana_crystal": 1847680
     },
     {
-      "level_": 725,
+      "level": 725,
       "gold": 2965625,
       "mana_dust": 8303750,
       "mana_crystal": 4745,
@@ -6322,7 +6322,7 @@
       "sum_mana_crystal": 1852425
     },
     {
-      "level_": 726,
+      "level": 726,
       "gold": 2968750,
       "mana_dust": 8312500,
       "mana_crystal": 4750,
@@ -6331,7 +6331,7 @@
       "sum_mana_crystal": 1857175
     },
     {
-      "level_": 727,
+      "level": 727,
       "gold": 2971875,
       "mana_dust": 8321250,
       "mana_crystal": 4755,
@@ -6340,7 +6340,7 @@
       "sum_mana_crystal": 1861930
     },
     {
-      "level_": 728,
+      "level": 728,
       "gold": 2975000,
       "mana_dust": 8330000,
       "mana_crystal": 4760,
@@ -6349,7 +6349,7 @@
       "sum_mana_crystal": 1866690
     },
     {
-      "level_": 729,
+      "level": 729,
       "gold": 2978125,
       "mana_dust": 8338750,
       "mana_crystal": 4765,
@@ -6358,7 +6358,7 @@
       "sum_mana_crystal": 1871455
     },
     {
-      "level_": 730,
+      "level": 730,
       "gold": 2981250,
       "mana_dust": 8347500,
       "mana_crystal": 4770,
@@ -6367,7 +6367,7 @@
       "sum_mana_crystal": 1876225
     },
     {
-      "level_": 731,
+      "level": 731,
       "gold": 2984375,
       "mana_dust": 8356250,
       "mana_crystal": 4775,
@@ -6376,7 +6376,7 @@
       "sum_mana_crystal": 1881000
     },
     {
-      "level_": 732,
+      "level": 732,
       "gold": 2987500,
       "mana_dust": 8365000,
       "mana_crystal": 4780,
@@ -6385,7 +6385,7 @@
       "sum_mana_crystal": 1885780
     },
     {
-      "level_": 733,
+      "level": 733,
       "gold": 2990625,
       "mana_dust": 8373750,
       "mana_crystal": 4785,
@@ -6394,7 +6394,7 @@
       "sum_mana_crystal": 1890565
     },
     {
-      "level_": 734,
+      "level": 734,
       "gold": 2993750,
       "mana_dust": 8382500,
       "mana_crystal": 4790,
@@ -6403,7 +6403,7 @@
       "sum_mana_crystal": 1895355
     },
     {
-      "level_": 735,
+      "level": 735,
       "gold": 2996875,
       "mana_dust": 8391250,
       "mana_crystal": 4795,
@@ -6412,7 +6412,7 @@
       "sum_mana_crystal": 1900150
     },
     {
-      "level_": 736,
+      "level": 736,
       "gold": 3000000,
       "mana_dust": 8400000,
       "mana_crystal": 4800,
@@ -6421,7 +6421,7 @@
       "sum_mana_crystal": 1904950
     },
     {
-      "level_": 737,
+      "level": 737,
       "gold": 3003125,
       "mana_dust": 8408750,
       "mana_crystal": 4805,
@@ -6430,7 +6430,7 @@
       "sum_mana_crystal": 1909755
     },
     {
-      "level_": 738,
+      "level": 738,
       "gold": 3006250,
       "mana_dust": 8417500,
       "mana_crystal": 4810,
@@ -6439,7 +6439,7 @@
       "sum_mana_crystal": 1914565
     },
     {
-      "level_": 739,
+      "level": 739,
       "gold": 3009375,
       "mana_dust": 8426250,
       "mana_crystal": 4815,
@@ -6448,7 +6448,7 @@
       "sum_mana_crystal": 1919380
     },
     {
-      "level_": 740,
+      "level": 740,
       "gold": 3012500,
       "mana_dust": 8435000,
       "mana_crystal": 4820,
@@ -6457,7 +6457,7 @@
       "sum_mana_crystal": 1924200
     },
     {
-      "level_": 741,
+      "level": 741,
       "gold": 3015625,
       "mana_dust": 8443750,
       "mana_crystal": 4825,
@@ -6466,7 +6466,7 @@
       "sum_mana_crystal": 1929025
     },
     {
-      "level_": 742,
+      "level": 742,
       "gold": 3018750,
       "mana_dust": 8452500,
       "mana_crystal": 4830,
@@ -6475,7 +6475,7 @@
       "sum_mana_crystal": 1933855
     },
     {
-      "level_": 743,
+      "level": 743,
       "gold": 3021875,
       "mana_dust": 8461250,
       "mana_crystal": 4835,
@@ -6484,7 +6484,7 @@
       "sum_mana_crystal": 1938690
     },
     {
-      "level_": 744,
+      "level": 744,
       "gold": 3025000,
       "mana_dust": 8470000,
       "mana_crystal": 4840,
@@ -6493,7 +6493,7 @@
       "sum_mana_crystal": 1943530
     },
     {
-      "level_": 745,
+      "level": 745,
       "gold": 3028125,
       "mana_dust": 8478750,
       "mana_crystal": 4845,
@@ -6502,7 +6502,7 @@
       "sum_mana_crystal": 1948375
     },
     {
-      "level_": 746,
+      "level": 746,
       "gold": 3031250,
       "mana_dust": 8487500,
       "mana_crystal": 4850,
@@ -6511,7 +6511,7 @@
       "sum_mana_crystal": 1953225
     },
     {
-      "level_": 747,
+      "level": 747,
       "gold": 3034375,
       "mana_dust": 8496250,
       "mana_crystal": 4855,
@@ -6520,7 +6520,7 @@
       "sum_mana_crystal": 1958080
     },
     {
-      "level_": 748,
+      "level": 748,
       "gold": 3037500,
       "mana_dust": 8505000,
       "mana_crystal": 4860,
@@ -6529,7 +6529,7 @@
       "sum_mana_crystal": 1962940
     },
     {
-      "level_": 749,
+      "level": 749,
       "gold": 3040625,
       "mana_dust": 8513750,
       "mana_crystal": 4865,
@@ -6538,7 +6538,7 @@
       "sum_mana_crystal": 1967805
     },
     {
-      "level_": 750,
+      "level": 750,
       "gold": 3043750,
       "mana_dust": 8522500,
       "mana_crystal": 4870,
@@ -6547,7 +6547,7 @@
       "sum_mana_crystal": 1972675
     },
     {
-      "level_": 751,
+      "level": 751,
       "gold": 3046875,
       "mana_dust": 8531250,
       "mana_crystal": 4875,
@@ -6556,7 +6556,7 @@
       "sum_mana_crystal": 1977550
     },
     {
-      "level_": 752,
+      "level": 752,
       "gold": 3050000,
       "mana_dust": 8540000,
       "mana_crystal": 4880,
@@ -6565,7 +6565,7 @@
       "sum_mana_crystal": 1982430
     },
     {
-      "level_": 753,
+      "level": 753,
       "gold": 3053125,
       "mana_dust": 8548750,
       "mana_crystal": 4885,
@@ -6574,7 +6574,7 @@
       "sum_mana_crystal": 1987315
     },
     {
-      "level_": 754,
+      "level": 754,
       "gold": 3056250,
       "mana_dust": 8557500,
       "mana_crystal": 4890,
@@ -6583,7 +6583,7 @@
       "sum_mana_crystal": 1992205
     },
     {
-      "level_": 755,
+      "level": 755,
       "gold": 3059375,
       "mana_dust": 8566250,
       "mana_crystal": 4895,
@@ -6592,7 +6592,7 @@
       "sum_mana_crystal": 1997100
     },
     {
-      "level_": 756,
+      "level": 756,
       "gold": 3062500,
       "mana_dust": 8575000,
       "mana_crystal": 4900,
@@ -6601,7 +6601,7 @@
       "sum_mana_crystal": 2002000
     },
     {
-      "level_": 757,
+      "level": 757,
       "gold": 3065625,
       "mana_dust": 8583750,
       "mana_crystal": 4905,
@@ -6610,7 +6610,7 @@
       "sum_mana_crystal": 2006905
     },
     {
-      "level_": 758,
+      "level": 758,
       "gold": 3068750,
       "mana_dust": 8592500,
       "mana_crystal": 4910,
@@ -6619,7 +6619,7 @@
       "sum_mana_crystal": 2011815
     },
     {
-      "level_": 759,
+      "level": 759,
       "gold": 3071875,
       "mana_dust": 8601250,
       "mana_crystal": 4915,
@@ -6628,7 +6628,7 @@
       "sum_mana_crystal": 2016730
     },
     {
-      "level_": 760,
+      "level": 760,
       "gold": 3075000,
       "mana_dust": 8610000,
       "mana_crystal": 4920,
@@ -6637,7 +6637,7 @@
       "sum_mana_crystal": 2021650
     },
     {
-      "level_": 761,
+      "level": 761,
       "gold": 3078125,
       "mana_dust": 8618750,
       "mana_crystal": 4925,
@@ -6646,7 +6646,7 @@
       "sum_mana_crystal": 2026575
     },
     {
-      "level_": 762,
+      "level": 762,
       "gold": 3081250,
       "mana_dust": 8627500,
       "mana_crystal": 4930,
@@ -6655,7 +6655,7 @@
       "sum_mana_crystal": 2031505
     },
     {
-      "level_": 763,
+      "level": 763,
       "gold": 3084375,
       "mana_dust": 8636250,
       "mana_crystal": 4935,
@@ -6664,7 +6664,7 @@
       "sum_mana_crystal": 2036440
     },
     {
-      "level_": 764,
+      "level": 764,
       "gold": 3087500,
       "mana_dust": 8645000,
       "mana_crystal": 4940,
@@ -6673,7 +6673,7 @@
       "sum_mana_crystal": 2041380
     },
     {
-      "level_": 765,
+      "level": 765,
       "gold": 3090625,
       "mana_dust": 8653750,
       "mana_crystal": 4945,
@@ -6682,7 +6682,7 @@
       "sum_mana_crystal": 2046325
     },
     {
-      "level_": 766,
+      "level": 766,
       "gold": 3093750,
       "mana_dust": 8662500,
       "mana_crystal": 4950,
@@ -6691,7 +6691,7 @@
       "sum_mana_crystal": 2051275
     },
     {
-      "level_": 767,
+      "level": 767,
       "gold": 3096875,
       "mana_dust": 8671250,
       "mana_crystal": 4955,
@@ -6700,7 +6700,7 @@
       "sum_mana_crystal": 2056230
     },
     {
-      "level_": 768,
+      "level": 768,
       "gold": 3100000,
       "mana_dust": 8680000,
       "mana_crystal": 4960,
@@ -6709,7 +6709,7 @@
       "sum_mana_crystal": 2061190
     },
     {
-      "level_": 769,
+      "level": 769,
       "gold": 3103125,
       "mana_dust": 8688750,
       "mana_crystal": 4965,
@@ -6718,7 +6718,7 @@
       "sum_mana_crystal": 2066155
     },
     {
-      "level_": 770,
+      "level": 770,
       "gold": 3106250,
       "mana_dust": 8697500,
       "mana_crystal": 4970,
@@ -6727,7 +6727,7 @@
       "sum_mana_crystal": 2071125
     },
     {
-      "level_": 771,
+      "level": 771,
       "gold": 3109375,
       "mana_dust": 8706250,
       "mana_crystal": 4975,
@@ -6736,7 +6736,7 @@
       "sum_mana_crystal": 2076100
     },
     {
-      "level_": 772,
+      "level": 772,
       "gold": 3112500,
       "mana_dust": 8715000,
       "mana_crystal": 4980,
@@ -6745,7 +6745,7 @@
       "sum_mana_crystal": 2081080
     },
     {
-      "level_": 773,
+      "level": 773,
       "gold": 3115625,
       "mana_dust": 8723750,
       "mana_crystal": 4985,
@@ -6754,7 +6754,7 @@
       "sum_mana_crystal": 2086065
     },
     {
-      "level_": 774,
+      "level": 774,
       "gold": 3118750,
       "mana_dust": 8732500,
       "mana_crystal": 4990,
@@ -6763,7 +6763,7 @@
       "sum_mana_crystal": 2091055
     },
     {
-      "level_": 775,
+      "level": 775,
       "gold": 3121875,
       "mana_dust": 8741250,
       "mana_crystal": 4995,
@@ -6772,7 +6772,7 @@
       "sum_mana_crystal": 2096050
     },
     {
-      "level_": 776,
+      "level": 776,
       "gold": 3125000,
       "mana_dust": 8750000,
       "mana_crystal": 5000,
@@ -6781,7 +6781,7 @@
       "sum_mana_crystal": 2101050
     },
     {
-      "level_": 777,
+      "level": 777,
       "gold": 3128125,
       "mana_dust": 8758750,
       "mana_crystal": 5005,
@@ -6790,7 +6790,7 @@
       "sum_mana_crystal": 2106055
     },
     {
-      "level_": 778,
+      "level": 778,
       "gold": 3131250,
       "mana_dust": 8767500,
       "mana_crystal": 5010,
@@ -6799,7 +6799,7 @@
       "sum_mana_crystal": 2111065
     },
     {
-      "level_": 779,
+      "level": 779,
       "gold": 3134375,
       "mana_dust": 8776250,
       "mana_crystal": 5015,
@@ -6808,7 +6808,7 @@
       "sum_mana_crystal": 2116080
     },
     {
-      "level_": 780,
+      "level": 780,
       "gold": 3137500,
       "mana_dust": 8785000,
       "mana_crystal": 5020,
@@ -6817,7 +6817,7 @@
       "sum_mana_crystal": 2121100
     },
     {
-      "level_": 781,
+      "level": 781,
       "gold": 3140625,
       "mana_dust": 8793750,
       "mana_crystal": 5025,
@@ -6826,7 +6826,7 @@
       "sum_mana_crystal": 2126125
     },
     {
-      "level_": 782,
+      "level": 782,
       "gold": 3143750,
       "mana_dust": 8802500,
       "mana_crystal": 5030,
@@ -6835,7 +6835,7 @@
       "sum_mana_crystal": 2131155
     },
     {
-      "level_": 783,
+      "level": 783,
       "gold": 3146875,
       "mana_dust": 8811250,
       "mana_crystal": 5035,
@@ -6844,7 +6844,7 @@
       "sum_mana_crystal": 2136190
     },
     {
-      "level_": 784,
+      "level": 784,
       "gold": 3150000,
       "mana_dust": 8820000,
       "mana_crystal": 5040,
@@ -6853,7 +6853,7 @@
       "sum_mana_crystal": 2141230
     },
     {
-      "level_": 785,
+      "level": 785,
       "gold": 3153125,
       "mana_dust": 8828750,
       "mana_crystal": 5045,
@@ -6862,7 +6862,7 @@
       "sum_mana_crystal": 2146275
     },
     {
-      "level_": 786,
+      "level": 786,
       "gold": 3156250,
       "mana_dust": 8837500,
       "mana_crystal": 5050,
@@ -6871,7 +6871,7 @@
       "sum_mana_crystal": 2151325
     },
     {
-      "level_": 787,
+      "level": 787,
       "gold": 3159375,
       "mana_dust": 8846250,
       "mana_crystal": 5055,
@@ -6880,7 +6880,7 @@
       "sum_mana_crystal": 2156380
     },
     {
-      "level_": 788,
+      "level": 788,
       "gold": 3162500,
       "mana_dust": 8855000,
       "mana_crystal": 5060,
@@ -6889,7 +6889,7 @@
       "sum_mana_crystal": 2161440
     },
     {
-      "level_": 789,
+      "level": 789,
       "gold": 3165625,
       "mana_dust": 8863750,
       "mana_crystal": 5065,
@@ -6898,7 +6898,7 @@
       "sum_mana_crystal": 2166505
     },
     {
-      "level_": 790,
+      "level": 790,
       "gold": 3168750,
       "mana_dust": 8872500,
       "mana_crystal": 5070,
@@ -6907,7 +6907,7 @@
       "sum_mana_crystal": 2171575
     },
     {
-      "level_": 791,
+      "level": 791,
       "gold": 3171875,
       "mana_dust": 8881250,
       "mana_crystal": 5075,
@@ -6916,7 +6916,7 @@
       "sum_mana_crystal": 2176650
     },
     {
-      "level_": 792,
+      "level": 792,
       "gold": 3175000,
       "mana_dust": 8890000,
       "mana_crystal": 5080,
@@ -6925,7 +6925,7 @@
       "sum_mana_crystal": 2181730
     },
     {
-      "level_": 793,
+      "level": 793,
       "gold": 3178125,
       "mana_dust": 8898750,
       "mana_crystal": 5085,
@@ -6934,7 +6934,7 @@
       "sum_mana_crystal": 2186815
     },
     {
-      "level_": 794,
+      "level": 794,
       "gold": 3181250,
       "mana_dust": 8907500,
       "mana_crystal": 5090,
@@ -6943,7 +6943,7 @@
       "sum_mana_crystal": 2191905
     },
     {
-      "level_": 795,
+      "level": 795,
       "gold": 3184375,
       "mana_dust": 8916250,
       "mana_crystal": 5095,
@@ -6952,7 +6952,7 @@
       "sum_mana_crystal": 2197000
     },
     {
-      "level_": 796,
+      "level": 796,
       "gold": 3187500,
       "mana_dust": 8925000,
       "mana_crystal": 5100,
@@ -6961,7 +6961,7 @@
       "sum_mana_crystal": 2202100
     },
     {
-      "level_": 797,
+      "level": 797,
       "gold": 3190625,
       "mana_dust": 8933750,
       "mana_crystal": 5105,
@@ -6970,7 +6970,7 @@
       "sum_mana_crystal": 2207205
     },
     {
-      "level_": 798,
+      "level": 798,
       "gold": 3193750,
       "mana_dust": 8942500,
       "mana_crystal": 5110,
@@ -6979,7 +6979,7 @@
       "sum_mana_crystal": 2212315
     },
     {
-      "level_": 799,
+      "level": 799,
       "gold": 3196875,
       "mana_dust": 8951250,
       "mana_crystal": 5115,
@@ -6988,7 +6988,7 @@
       "sum_mana_crystal": 2217430
     },
     {
-      "level_": 800,
+      "level": 800,
       "gold": 3200000,
       "mana_dust": 8960000,
       "mana_crystal": 5120,
@@ -6997,7 +6997,7 @@
       "sum_mana_crystal": 2222550
     },
     {
-      "level_": 801,
+      "level": 801,
       "gold": 3203125,
       "mana_dust": 8968750,
       "mana_crystal": 5125,
@@ -7006,7 +7006,7 @@
       "sum_mana_crystal": 2227675
     },
     {
-      "level_": 802,
+      "level": 802,
       "gold": 3206250,
       "mana_dust": 8977500,
       "mana_crystal": 5130,
@@ -7015,7 +7015,7 @@
       "sum_mana_crystal": 2232805
     },
     {
-      "level_": 803,
+      "level": 803,
       "gold": 3209375,
       "mana_dust": 8986250,
       "mana_crystal": 5135,
@@ -7024,7 +7024,7 @@
       "sum_mana_crystal": 2237940
     },
     {
-      "level_": 804,
+      "level": 804,
       "gold": 3212500,
       "mana_dust": 8995000,
       "mana_crystal": 5140,
@@ -7033,7 +7033,7 @@
       "sum_mana_crystal": 2243080
     },
     {
-      "level_": 805,
+      "level": 805,
       "gold": 3215625,
       "mana_dust": 9003750,
       "mana_crystal": 5145,
@@ -7042,7 +7042,7 @@
       "sum_mana_crystal": 2248225
     },
     {
-      "level_": 806,
+      "level": 806,
       "gold": 3218750,
       "mana_dust": 9012500,
       "mana_crystal": 5150,
@@ -7051,7 +7051,7 @@
       "sum_mana_crystal": 2253375
     },
     {
-      "level_": 807,
+      "level": 807,
       "gold": 3221875,
       "mana_dust": 9021250,
       "mana_crystal": 5155,
@@ -7060,7 +7060,7 @@
       "sum_mana_crystal": 2258530
     },
     {
-      "level_": 808,
+      "level": 808,
       "gold": 3225000,
       "mana_dust": 9030000,
       "mana_crystal": 5160,
@@ -7069,7 +7069,7 @@
       "sum_mana_crystal": 2263690
     },
     {
-      "level_": 809,
+      "level": 809,
       "gold": 3228125,
       "mana_dust": 9038750,
       "mana_crystal": 5165,
@@ -7078,7 +7078,7 @@
       "sum_mana_crystal": 2268855
     },
     {
-      "level_": 810,
+      "level": 810,
       "gold": 3231250,
       "mana_dust": 9047500,
       "mana_crystal": 5170,
@@ -7087,7 +7087,7 @@
       "sum_mana_crystal": 2274025
     },
     {
-      "level_": 811,
+      "level": 811,
       "gold": 3234375,
       "mana_dust": 9056250,
       "mana_crystal": 5175,
@@ -7096,7 +7096,7 @@
       "sum_mana_crystal": 2279200
     },
     {
-      "level_": 812,
+      "level": 812,
       "gold": 3237500,
       "mana_dust": 9065000,
       "mana_crystal": 5180,
@@ -7105,7 +7105,7 @@
       "sum_mana_crystal": 2284380
     },
     {
-      "level_": 813,
+      "level": 813,
       "gold": 3240625,
       "mana_dust": 9073750,
       "mana_crystal": 5185,
@@ -7114,7 +7114,7 @@
       "sum_mana_crystal": 2289565
     },
     {
-      "level_": 814,
+      "level": 814,
       "gold": 3243750,
       "mana_dust": 9082500,
       "mana_crystal": 5190,
@@ -7123,7 +7123,7 @@
       "sum_mana_crystal": 2294755
     },
     {
-      "level_": 815,
+      "level": 815,
       "gold": 3246875,
       "mana_dust": 9091250,
       "mana_crystal": 5195,
@@ -7132,7 +7132,7 @@
       "sum_mana_crystal": 2299950
     },
     {
-      "level_": 816,
+      "level": 816,
       "gold": 3250000,
       "mana_dust": 9100000,
       "mana_crystal": 5200,
@@ -7141,7 +7141,7 @@
       "sum_mana_crystal": 2305150
     },
     {
-      "level_": 817,
+      "level": 817,
       "gold": 3253125,
       "mana_dust": 9108750,
       "mana_crystal": 5205,
@@ -7150,7 +7150,7 @@
       "sum_mana_crystal": 2310355
     },
     {
-      "level_": 818,
+      "level": 818,
       "gold": 3256250,
       "mana_dust": 9117500,
       "mana_crystal": 5210,
@@ -7159,7 +7159,7 @@
       "sum_mana_crystal": 2315565
     },
     {
-      "level_": 819,
+      "level": 819,
       "gold": 3259375,
       "mana_dust": 9126250,
       "mana_crystal": 5215,
@@ -7168,7 +7168,7 @@
       "sum_mana_crystal": 2320780
     },
     {
-      "level_": 820,
+      "level": 820,
       "gold": 3262500,
       "mana_dust": 9135000,
       "mana_crystal": 5220,
@@ -7177,7 +7177,7 @@
       "sum_mana_crystal": 2326000
     },
     {
-      "level_": 821,
+      "level": 821,
       "gold": 3265625,
       "mana_dust": 9143750,
       "mana_crystal": 5225,
@@ -7186,7 +7186,7 @@
       "sum_mana_crystal": 2331225
     },
     {
-      "level_": 822,
+      "level": 822,
       "gold": 3268750,
       "mana_dust": 9152500,
       "mana_crystal": 5230,
@@ -7195,7 +7195,7 @@
       "sum_mana_crystal": 2336455
     },
     {
-      "level_": 823,
+      "level": 823,
       "gold": 3271875,
       "mana_dust": 9161250,
       "mana_crystal": 5235,
@@ -7204,7 +7204,7 @@
       "sum_mana_crystal": 2341690
     },
     {
-      "level_": 824,
+      "level": 824,
       "gold": 3275000,
       "mana_dust": 9170000,
       "mana_crystal": 5240,
@@ -7213,7 +7213,7 @@
       "sum_mana_crystal": 2346930
     },
     {
-      "level_": 825,
+      "level": 825,
       "gold": 3278125,
       "mana_dust": 9178750,
       "mana_crystal": 5245,
@@ -7222,7 +7222,7 @@
       "sum_mana_crystal": 2352175
     },
     {
-      "level_": 826,
+      "level": 826,
       "gold": 3281250,
       "mana_dust": 9187500,
       "mana_crystal": 5250,
@@ -7231,7 +7231,7 @@
       "sum_mana_crystal": 2357425
     },
     {
-      "level_": 827,
+      "level": 827,
       "gold": 3284375,
       "mana_dust": 9196250,
       "mana_crystal": 5255,
@@ -7240,7 +7240,7 @@
       "sum_mana_crystal": 2362680
     },
     {
-      "level_": 828,
+      "level": 828,
       "gold": 3287500,
       "mana_dust": 9205000,
       "mana_crystal": 5260,
@@ -7249,7 +7249,7 @@
       "sum_mana_crystal": 2367940
     },
     {
-      "level_": 829,
+      "level": 829,
       "gold": 3290625,
       "mana_dust": 9213750,
       "mana_crystal": 5265,
@@ -7258,7 +7258,7 @@
       "sum_mana_crystal": 2373205
     },
     {
-      "level_": 830,
+      "level": 830,
       "gold": 3293750,
       "mana_dust": 9222500,
       "mana_crystal": 5270,
@@ -7267,7 +7267,7 @@
       "sum_mana_crystal": 2378475
     },
     {
-      "level_": 831,
+      "level": 831,
       "gold": 3296875,
       "mana_dust": 9231250,
       "mana_crystal": 5275,
@@ -7276,7 +7276,7 @@
       "sum_mana_crystal": 2383750
     },
     {
-      "level_": 832,
+      "level": 832,
       "gold": 3300000,
       "mana_dust": 9240000,
       "mana_crystal": 5280,
@@ -7285,7 +7285,7 @@
       "sum_mana_crystal": 2389030
     },
     {
-      "level_": 833,
+      "level": 833,
       "gold": 3303125,
       "mana_dust": 9248750,
       "mana_crystal": 5285,
@@ -7294,7 +7294,7 @@
       "sum_mana_crystal": 2394315
     },
     {
-      "level_": 834,
+      "level": 834,
       "gold": 3306250,
       "mana_dust": 9257500,
       "mana_crystal": 5290,
@@ -7303,7 +7303,7 @@
       "sum_mana_crystal": 2399605
     },
     {
-      "level_": 835,
+      "level": 835,
       "gold": 3309375,
       "mana_dust": 9266250,
       "mana_crystal": 5295,
@@ -7312,7 +7312,7 @@
       "sum_mana_crystal": 2404900
     },
     {
-      "level_": 836,
+      "level": 836,
       "gold": 3312500,
       "mana_dust": 9275000,
       "mana_crystal": 5300,
@@ -7321,7 +7321,7 @@
       "sum_mana_crystal": 2410200
     },
     {
-      "level_": 837,
+      "level": 837,
       "gold": 3315625,
       "mana_dust": 9283750,
       "mana_crystal": 5305,
@@ -7330,7 +7330,7 @@
       "sum_mana_crystal": 2415505
     },
     {
-      "level_": 838,
+      "level": 838,
       "gold": 3318750,
       "mana_dust": 9292500,
       "mana_crystal": 5310,
@@ -7339,7 +7339,7 @@
       "sum_mana_crystal": 2420815
     },
     {
-      "level_": 839,
+      "level": 839,
       "gold": 3321875,
       "mana_dust": 9301250,
       "mana_crystal": 5315,
@@ -7348,7 +7348,7 @@
       "sum_mana_crystal": 2426130
     },
     {
-      "level_": 840,
+      "level": 840,
       "gold": 3325000,
       "mana_dust": 9310000,
       "mana_crystal": 5320,
@@ -7357,7 +7357,7 @@
       "sum_mana_crystal": 2431450
     },
     {
-      "level_": 841,
+      "level": 841,
       "gold": 3328125,
       "mana_dust": 9318750,
       "mana_crystal": 5325,
@@ -7366,7 +7366,7 @@
       "sum_mana_crystal": 2436775
     },
     {
-      "level_": 842,
+      "level": 842,
       "gold": 3331250,
       "mana_dust": 9327500,
       "mana_crystal": 5330,
@@ -7375,7 +7375,7 @@
       "sum_mana_crystal": 2442105
     },
     {
-      "level_": 843,
+      "level": 843,
       "gold": 3334375,
       "mana_dust": 9336250,
       "mana_crystal": 5335,
@@ -7384,7 +7384,7 @@
       "sum_mana_crystal": 2447440
     },
     {
-      "level_": 844,
+      "level": 844,
       "gold": 3337500,
       "mana_dust": 9345000,
       "mana_crystal": 5340,
@@ -7393,7 +7393,7 @@
       "sum_mana_crystal": 2452780
     },
     {
-      "level_": 845,
+      "level": 845,
       "gold": 3340625,
       "mana_dust": 9353750,
       "mana_crystal": 5345,
@@ -7402,7 +7402,7 @@
       "sum_mana_crystal": 2458125
     },
     {
-      "level_": 846,
+      "level": 846,
       "gold": 3343750,
       "mana_dust": 9362500,
       "mana_crystal": 5350,
@@ -7411,7 +7411,7 @@
       "sum_mana_crystal": 2463475
     },
     {
-      "level_": 847,
+      "level": 847,
       "gold": 3346875,
       "mana_dust": 9371250,
       "mana_crystal": 5355,
@@ -7420,7 +7420,7 @@
       "sum_mana_crystal": 2468830
     },
     {
-      "level_": 848,
+      "level": 848,
       "gold": 3350000,
       "mana_dust": 9380000,
       "mana_crystal": 5360,
@@ -7429,7 +7429,7 @@
       "sum_mana_crystal": 2474190
     },
     {
-      "level_": 849,
+      "level": 849,
       "gold": 3353125,
       "mana_dust": 9388750,
       "mana_crystal": 5365,
@@ -7438,7 +7438,7 @@
       "sum_mana_crystal": 2479555
     },
     {
-      "level_": 850,
+      "level": 850,
       "gold": 3356250,
       "mana_dust": 9397500,
       "mana_crystal": 5370,
@@ -7447,7 +7447,7 @@
       "sum_mana_crystal": 2484925
     },
     {
-      "level_": 851,
+      "level": 851,
       "gold": 3359375,
       "mana_dust": 9406250,
       "mana_crystal": 5375,
@@ -7456,7 +7456,7 @@
       "sum_mana_crystal": 2490300
     },
     {
-      "level_": 852,
+      "level": 852,
       "gold": 3362500,
       "mana_dust": 9415000,
       "mana_crystal": 5380,
@@ -7465,7 +7465,7 @@
       "sum_mana_crystal": 2495680
     },
     {
-      "level_": 853,
+      "level": 853,
       "gold": 3365625,
       "mana_dust": 9423750,
       "mana_crystal": 5385,
@@ -7474,7 +7474,7 @@
       "sum_mana_crystal": 2501065
     },
     {
-      "level_": 854,
+      "level": 854,
       "gold": 3368750,
       "mana_dust": 9432500,
       "mana_crystal": 5390,
@@ -7483,7 +7483,7 @@
       "sum_mana_crystal": 2506455
     },
     {
-      "level_": 855,
+      "level": 855,
       "gold": 3371875,
       "mana_dust": 9441250,
       "mana_crystal": 5395,
@@ -7492,7 +7492,7 @@
       "sum_mana_crystal": 2511850
     },
     {
-      "level_": 856,
+      "level": 856,
       "gold": 3375000,
       "mana_dust": 9450000,
       "mana_crystal": 5400,
@@ -7501,7 +7501,7 @@
       "sum_mana_crystal": 2517250
     },
     {
-      "level_": 857,
+      "level": 857,
       "gold": 3378125,
       "mana_dust": 9458750,
       "mana_crystal": 5405,
@@ -7510,7 +7510,7 @@
       "sum_mana_crystal": 2522655
     },
     {
-      "level_": 858,
+      "level": 858,
       "gold": 3381250,
       "mana_dust": 9467500,
       "mana_crystal": 5410,
@@ -7519,7 +7519,7 @@
       "sum_mana_crystal": 2528065
     },
     {
-      "level_": 859,
+      "level": 859,
       "gold": 3384375,
       "mana_dust": 9476250,
       "mana_crystal": 5415,
@@ -7528,7 +7528,7 @@
       "sum_mana_crystal": 2533480
     },
     {
-      "level_": 860,
+      "level": 860,
       "gold": 3387500,
       "mana_dust": 9485000,
       "mana_crystal": 5420,
@@ -7537,7 +7537,7 @@
       "sum_mana_crystal": 2538900
     },
     {
-      "level_": 861,
+      "level": 861,
       "gold": 3390625,
       "mana_dust": 9493750,
       "mana_crystal": 5425,
@@ -7546,7 +7546,7 @@
       "sum_mana_crystal": 2544325
     },
     {
-      "level_": 862,
+      "level": 862,
       "gold": 3393750,
       "mana_dust": 9502500,
       "mana_crystal": 5430,
@@ -7555,7 +7555,7 @@
       "sum_mana_crystal": 2549755
     },
     {
-      "level_": 863,
+      "level": 863,
       "gold": 3396875,
       "mana_dust": 9511250,
       "mana_crystal": 5435,
@@ -7564,7 +7564,7 @@
       "sum_mana_crystal": 2555190
     },
     {
-      "level_": 864,
+      "level": 864,
       "gold": 3400000,
       "mana_dust": 9520000,
       "mana_crystal": 5440,
@@ -7573,7 +7573,7 @@
       "sum_mana_crystal": 2560630
     },
     {
-      "level_": 865,
+      "level": 865,
       "gold": 3403125,
       "mana_dust": 9528750,
       "mana_crystal": 5445,
@@ -7582,7 +7582,7 @@
       "sum_mana_crystal": 2566075
     },
     {
-      "level_": 866,
+      "level": 866,
       "gold": 3406250,
       "mana_dust": 9537500,
       "mana_crystal": 5450,
@@ -7591,7 +7591,7 @@
       "sum_mana_crystal": 2571525
     },
     {
-      "level_": 867,
+      "level": 867,
       "gold": 3409375,
       "mana_dust": 9546250,
       "mana_crystal": 5455,
@@ -7600,7 +7600,7 @@
       "sum_mana_crystal": 2576980
     },
     {
-      "level_": 868,
+      "level": 868,
       "gold": 3412500,
       "mana_dust": 9555000,
       "mana_crystal": 5460,
@@ -7609,7 +7609,7 @@
       "sum_mana_crystal": 2582440
     },
     {
-      "level_": 869,
+      "level": 869,
       "gold": 3415625,
       "mana_dust": 9563750,
       "mana_crystal": 5465,
@@ -7618,7 +7618,7 @@
       "sum_mana_crystal": 2587905
     },
     {
-      "level_": 870,
+      "level": 870,
       "gold": 3418750,
       "mana_dust": 9572500,
       "mana_crystal": 5470,
@@ -7627,7 +7627,7 @@
       "sum_mana_crystal": 2593375
     },
     {
-      "level_": 871,
+      "level": 871,
       "gold": 3421875,
       "mana_dust": 9581250,
       "mana_crystal": 5475,
@@ -7636,7 +7636,7 @@
       "sum_mana_crystal": 2598850
     },
     {
-      "level_": 872,
+      "level": 872,
       "gold": 3425000,
       "mana_dust": 9590000,
       "mana_crystal": 5480,
@@ -7645,7 +7645,7 @@
       "sum_mana_crystal": 2604330
     },
     {
-      "level_": 873,
+      "level": 873,
       "gold": 3428125,
       "mana_dust": 9598750,
       "mana_crystal": 5485,
@@ -7654,7 +7654,7 @@
       "sum_mana_crystal": 2609815
     },
     {
-      "level_": 874,
+      "level": 874,
       "gold": 3431250,
       "mana_dust": 9607500,
       "mana_crystal": 5490,
@@ -7663,7 +7663,7 @@
       "sum_mana_crystal": 2615305
     },
     {
-      "level_": 875,
+      "level": 875,
       "gold": 3434375,
       "mana_dust": 9616250,
       "mana_crystal": 5495,
@@ -7672,7 +7672,7 @@
       "sum_mana_crystal": 2620800
     },
     {
-      "level_": 876,
+      "level": 876,
       "gold": 3437500,
       "mana_dust": 9625000,
       "mana_crystal": 5500,
@@ -7681,7 +7681,7 @@
       "sum_mana_crystal": 2626300
     },
     {
-      "level_": 877,
+      "level": 877,
       "gold": 3440625,
       "mana_dust": 9633750,
       "mana_crystal": 5505,
@@ -7690,7 +7690,7 @@
       "sum_mana_crystal": 2631805
     },
     {
-      "level_": 878,
+      "level": 878,
       "gold": 3443750,
       "mana_dust": 9642500,
       "mana_crystal": 5510,
@@ -7699,7 +7699,7 @@
       "sum_mana_crystal": 2637315
     },
     {
-      "level_": 879,
+      "level": 879,
       "gold": 3446875,
       "mana_dust": 9651250,
       "mana_crystal": 5515,
@@ -7708,7 +7708,7 @@
       "sum_mana_crystal": 2642830
     },
     {
-      "level_": 880,
+      "level": 880,
       "gold": 3450000,
       "mana_dust": 9660000,
       "mana_crystal": 5520,
@@ -7717,7 +7717,7 @@
       "sum_mana_crystal": 2648350
     },
     {
-      "level_": 881,
+      "level": 881,
       "gold": 3453125,
       "mana_dust": 9668750,
       "mana_crystal": 5525,
@@ -7726,7 +7726,7 @@
       "sum_mana_crystal": 2653875
     },
     {
-      "level_": 882,
+      "level": 882,
       "gold": 3456250,
       "mana_dust": 9677500,
       "mana_crystal": 5530,
@@ -7735,7 +7735,7 @@
       "sum_mana_crystal": 2659405
     },
     {
-      "level_": 883,
+      "level": 883,
       "gold": 3459375,
       "mana_dust": 9686250,
       "mana_crystal": 5535,
@@ -7744,7 +7744,7 @@
       "sum_mana_crystal": 2664940
     },
     {
-      "level_": 884,
+      "level": 884,
       "gold": 3462500,
       "mana_dust": 9695000,
       "mana_crystal": 5540,
@@ -7753,7 +7753,7 @@
       "sum_mana_crystal": 2670480
     },
     {
-      "level_": 885,
+      "level": 885,
       "gold": 3465625,
       "mana_dust": 9703750,
       "mana_crystal": 5545,
@@ -7762,7 +7762,7 @@
       "sum_mana_crystal": 2676025
     },
     {
-      "level_": 886,
+      "level": 886,
       "gold": 3468750,
       "mana_dust": 9712500,
       "mana_crystal": 5550,
@@ -7771,7 +7771,7 @@
       "sum_mana_crystal": 2681575
     },
     {
-      "level_": 887,
+      "level": 887,
       "gold": 3471875,
       "mana_dust": 9721250,
       "mana_crystal": 5555,
@@ -7780,7 +7780,7 @@
       "sum_mana_crystal": 2687130
     },
     {
-      "level_": 888,
+      "level": 888,
       "gold": 3475000,
       "mana_dust": 9730000,
       "mana_crystal": 5560,
@@ -7789,7 +7789,7 @@
       "sum_mana_crystal": 2692690
     },
     {
-      "level_": 889,
+      "level": 889,
       "gold": 3478125,
       "mana_dust": 9738750,
       "mana_crystal": 5565,
@@ -7798,7 +7798,7 @@
       "sum_mana_crystal": 2698255
     },
     {
-      "level_": 890,
+      "level": 890,
       "gold": 3481250,
       "mana_dust": 9747500,
       "mana_crystal": 5570,
@@ -7807,7 +7807,7 @@
       "sum_mana_crystal": 2703825
     },
     {
-      "level_": 891,
+      "level": 891,
       "gold": 3484375,
       "mana_dust": 9756250,
       "mana_crystal": 5575,
@@ -7816,7 +7816,7 @@
       "sum_mana_crystal": 2709400
     },
     {
-      "level_": 892,
+      "level": 892,
       "gold": 3487500,
       "mana_dust": 9765000,
       "mana_crystal": 5580,
@@ -7825,7 +7825,7 @@
       "sum_mana_crystal": 2714980
     },
     {
-      "level_": 893,
+      "level": 893,
       "gold": 3490625,
       "mana_dust": 9773750,
       "mana_crystal": 5585,
@@ -7834,7 +7834,7 @@
       "sum_mana_crystal": 2720565
     },
     {
-      "level_": 894,
+      "level": 894,
       "gold": 3493750,
       "mana_dust": 9782500,
       "mana_crystal": 5590,
@@ -7843,7 +7843,7 @@
       "sum_mana_crystal": 2726155
     },
     {
-      "level_": 895,
+      "level": 895,
       "gold": 3496875,
       "mana_dust": 9791250,
       "mana_crystal": 5595,
@@ -7852,7 +7852,7 @@
       "sum_mana_crystal": 2731750
     },
     {
-      "level_": 896,
+      "level": 896,
       "gold": 3500000,
       "mana_dust": 9800000,
       "mana_crystal": 5600,
@@ -7861,7 +7861,7 @@
       "sum_mana_crystal": 2737350
     },
     {
-      "level_": 897,
+      "level": 897,
       "gold": 3503125,
       "mana_dust": 9808750,
       "mana_crystal": 5605,
@@ -7870,7 +7870,7 @@
       "sum_mana_crystal": 2742955
     },
     {
-      "level_": 898,
+      "level": 898,
       "gold": 3506250,
       "mana_dust": 9817500,
       "mana_crystal": 5610,
@@ -7879,7 +7879,7 @@
       "sum_mana_crystal": 2748565
     },
     {
-      "level_": 899,
+      "level": 899,
       "gold": 3509375,
       "mana_dust": 9826250,
       "mana_crystal": 5615,
@@ -7888,7 +7888,7 @@
       "sum_mana_crystal": 2754180
     },
     {
-      "level_": 900,
+      "level": 900,
       "gold": 3512500,
       "mana_dust": 9835000,
       "mana_crystal": 5620,
@@ -7897,7 +7897,7 @@
       "sum_mana_crystal": 2759800
     },
     {
-      "level_": 901,
+      "level": 901,
       "gold": 3515625,
       "mana_dust": 9843750,
       "mana_crystal": 5625,
@@ -7906,7 +7906,7 @@
       "sum_mana_crystal": 2765425
     },
     {
-      "level_": 902,
+      "level": 902,
       "gold": 3518750,
       "mana_dust": 9852500,
       "mana_crystal": 5630,
@@ -7915,7 +7915,7 @@
       "sum_mana_crystal": 2771055
     },
     {
-      "level_": 903,
+      "level": 903,
       "gold": 3521875,
       "mana_dust": 9861250,
       "mana_crystal": 5635,
@@ -7924,7 +7924,7 @@
       "sum_mana_crystal": 2776690
     },
     {
-      "level_": 904,
+      "level": 904,
       "gold": 3525000,
       "mana_dust": 9870000,
       "mana_crystal": 5640,
@@ -7933,7 +7933,7 @@
       "sum_mana_crystal": 2782330
     },
     {
-      "level_": 905,
+      "level": 905,
       "gold": 3528125,
       "mana_dust": 9878750,
       "mana_crystal": 5645,
@@ -7942,7 +7942,7 @@
       "sum_mana_crystal": 2787975
     },
     {
-      "level_": 906,
+      "level": 906,
       "gold": 3531250,
       "mana_dust": 9887500,
       "mana_crystal": 5650,
@@ -7951,7 +7951,7 @@
       "sum_mana_crystal": 2793625
     },
     {
-      "level_": 907,
+      "level": 907,
       "gold": 3534375,
       "mana_dust": 9896250,
       "mana_crystal": 5655,
@@ -7960,7 +7960,7 @@
       "sum_mana_crystal": 2799280
     },
     {
-      "level_": 908,
+      "level": 908,
       "gold": 3537500,
       "mana_dust": 9905000,
       "mana_crystal": 5660,
@@ -7969,7 +7969,7 @@
       "sum_mana_crystal": 2804940
     },
     {
-      "level_": 909,
+      "level": 909,
       "gold": 3540625,
       "mana_dust": 9913750,
       "mana_crystal": 5665,
@@ -7978,7 +7978,7 @@
       "sum_mana_crystal": 2810605
     },
     {
-      "level_": 910,
+      "level": 910,
       "gold": 3543750,
       "mana_dust": 9922500,
       "mana_crystal": 5670,
@@ -7987,7 +7987,7 @@
       "sum_mana_crystal": 2816275
     },
     {
-      "level_": 911,
+      "level": 911,
       "gold": 3546875,
       "mana_dust": 9931250,
       "mana_crystal": 5675,
@@ -7996,7 +7996,7 @@
       "sum_mana_crystal": 2821950
     },
     {
-      "level_": 912,
+      "level": 912,
       "gold": 3550000,
       "mana_dust": 9940000,
       "mana_crystal": 5680,
@@ -8005,7 +8005,7 @@
       "sum_mana_crystal": 2827630
     },
     {
-      "level_": 913,
+      "level": 913,
       "gold": 3553125,
       "mana_dust": 9948750,
       "mana_crystal": 5685,
@@ -8014,7 +8014,7 @@
       "sum_mana_crystal": 2833315
     },
     {
-      "level_": 914,
+      "level": 914,
       "gold": 3556250,
       "mana_dust": 9957500,
       "mana_crystal": 5690,
@@ -8023,7 +8023,7 @@
       "sum_mana_crystal": 2839005
     },
     {
-      "level_": 915,
+      "level": 915,
       "gold": 3559375,
       "mana_dust": 9966250,
       "mana_crystal": 5695,
@@ -8032,7 +8032,7 @@
       "sum_mana_crystal": 2844700
     },
     {
-      "level_": 916,
+      "level": 916,
       "gold": 3562500,
       "mana_dust": 9975000,
       "mana_crystal": 5700,
@@ -8041,7 +8041,7 @@
       "sum_mana_crystal": 2850400
     },
     {
-      "level_": 917,
+      "level": 917,
       "gold": 3565625,
       "mana_dust": 9983750,
       "mana_crystal": 5705,
@@ -8050,7 +8050,7 @@
       "sum_mana_crystal": 2856105
     },
     {
-      "level_": 918,
+      "level": 918,
       "gold": 3568750,
       "mana_dust": 9992500,
       "mana_crystal": 5710,
@@ -8059,7 +8059,7 @@
       "sum_mana_crystal": 2861815
     },
     {
-      "level_": 919,
+      "level": 919,
       "gold": 3571875,
       "mana_dust": 10001250,
       "mana_crystal": 5715,
@@ -8068,7 +8068,7 @@
       "sum_mana_crystal": 2867530
     },
     {
-      "level_": 920,
+      "level": 920,
       "gold": 3575000,
       "mana_dust": 10010000,
       "mana_crystal": 5720,
@@ -8077,7 +8077,7 @@
       "sum_mana_crystal": 2873250
     },
     {
-      "level_": 921,
+      "level": 921,
       "gold": 3578125,
       "mana_dust": 10018750,
       "mana_crystal": 5725,
@@ -8086,7 +8086,7 @@
       "sum_mana_crystal": 2878975
     },
     {
-      "level_": 922,
+      "level": 922,
       "gold": 3581250,
       "mana_dust": 10027500,
       "mana_crystal": 5730,
@@ -8095,7 +8095,7 @@
       "sum_mana_crystal": 2884705
     },
     {
-      "level_": 923,
+      "level": 923,
       "gold": 3584375,
       "mana_dust": 10036250,
       "mana_crystal": 5735,
@@ -8104,7 +8104,7 @@
       "sum_mana_crystal": 2890440
     },
     {
-      "level_": 924,
+      "level": 924,
       "gold": 3587500,
       "mana_dust": 10045000,
       "mana_crystal": 5740,
@@ -8113,7 +8113,7 @@
       "sum_mana_crystal": 2896180
     },
     {
-      "level_": 925,
+      "level": 925,
       "gold": 3590625,
       "mana_dust": 10053750,
       "mana_crystal": 5745,
@@ -8122,7 +8122,7 @@
       "sum_mana_crystal": 2901925
     },
     {
-      "level_": 926,
+      "level": 926,
       "gold": 3593750,
       "mana_dust": 10062500,
       "mana_crystal": 5750,
@@ -8131,7 +8131,7 @@
       "sum_mana_crystal": 2907675
     },
     {
-      "level_": 927,
+      "level": 927,
       "gold": 3596875,
       "mana_dust": 10071250,
       "mana_crystal": 5755,
@@ -8140,7 +8140,7 @@
       "sum_mana_crystal": 2913430
     },
     {
-      "level_": 928,
+      "level": 928,
       "gold": 3600000,
       "mana_dust": 10080000,
       "mana_crystal": 5760,
@@ -8149,7 +8149,7 @@
       "sum_mana_crystal": 2919190
     },
     {
-      "level_": 929,
+      "level": 929,
       "gold": 3603125,
       "mana_dust": 10088750,
       "mana_crystal": 5765,
@@ -8158,7 +8158,7 @@
       "sum_mana_crystal": 2924955
     },
     {
-      "level_": 930,
+      "level": 930,
       "gold": 3606250,
       "mana_dust": 10097500,
       "mana_crystal": 5770,
@@ -8167,7 +8167,7 @@
       "sum_mana_crystal": 2930725
     },
     {
-      "level_": 931,
+      "level": 931,
       "gold": 3609375,
       "mana_dust": 10106250,
       "mana_crystal": 5775,
@@ -8176,7 +8176,7 @@
       "sum_mana_crystal": 2936500
     },
     {
-      "level_": 932,
+      "level": 932,
       "gold": 3612500,
       "mana_dust": 10115000,
       "mana_crystal": 5780,
@@ -8185,7 +8185,7 @@
       "sum_mana_crystal": 2942280
     },
     {
-      "level_": 933,
+      "level": 933,
       "gold": 3615625,
       "mana_dust": 10123750,
       "mana_crystal": 5785,
@@ -8194,7 +8194,7 @@
       "sum_mana_crystal": 2948065
     },
     {
-      "level_": 934,
+      "level": 934,
       "gold": 3618750,
       "mana_dust": 10132500,
       "mana_crystal": 5790,
@@ -8203,7 +8203,7 @@
       "sum_mana_crystal": 2953855
     },
     {
-      "level_": 935,
+      "level": 935,
       "gold": 3621875,
       "mana_dust": 10141250,
       "mana_crystal": 5795,
@@ -8212,7 +8212,7 @@
       "sum_mana_crystal": 2959650
     },
     {
-      "level_": 936,
+      "level": 936,
       "gold": 3625000,
       "mana_dust": 10150000,
       "mana_crystal": 5800,
@@ -8221,7 +8221,7 @@
       "sum_mana_crystal": 2965450
     },
     {
-      "level_": 937,
+      "level": 937,
       "gold": 3628125,
       "mana_dust": 10158750,
       "mana_crystal": 5805,
@@ -8230,7 +8230,7 @@
       "sum_mana_crystal": 2971255
     },
     {
-      "level_": 938,
+      "level": 938,
       "gold": 3631250,
       "mana_dust": 10167500,
       "mana_crystal": 5810,
@@ -8239,7 +8239,7 @@
       "sum_mana_crystal": 2977065
     },
     {
-      "level_": 939,
+      "level": 939,
       "gold": 3634375,
       "mana_dust": 10176250,
       "mana_crystal": 5815,
@@ -8248,7 +8248,7 @@
       "sum_mana_crystal": 2982880
     },
     {
-      "level_": 940,
+      "level": 940,
       "gold": 3637500,
       "mana_dust": 10185000,
       "mana_crystal": 5820,
@@ -8257,7 +8257,7 @@
       "sum_mana_crystal": 2988700
     },
     {
-      "level_": 941,
+      "level": 941,
       "gold": 3640625,
       "mana_dust": 10193750,
       "mana_crystal": 5825,
@@ -8266,7 +8266,7 @@
       "sum_mana_crystal": 2994525
     },
     {
-      "level_": 942,
+      "level": 942,
       "gold": 3643750,
       "mana_dust": 10202500,
       "mana_crystal": 5830,
@@ -8275,7 +8275,7 @@
       "sum_mana_crystal": 3000355
     },
     {
-      "level_": 943,
+      "level": 943,
       "gold": 3646875,
       "mana_dust": 10211250,
       "mana_crystal": 5835,
@@ -8284,7 +8284,7 @@
       "sum_mana_crystal": 3006190
     },
     {
-      "level_": 944,
+      "level": 944,
       "gold": 3650000,
       "mana_dust": 10220000,
       "mana_crystal": 5840,
@@ -8293,7 +8293,7 @@
       "sum_mana_crystal": 3012030
     },
     {
-      "level_": 945,
+      "level": 945,
       "gold": 3653125,
       "mana_dust": 10228750,
       "mana_crystal": 5845,
@@ -8302,7 +8302,7 @@
       "sum_mana_crystal": 3017875
     },
     {
-      "level_": 946,
+      "level": 946,
       "gold": 3656250,
       "mana_dust": 10237500,
       "mana_crystal": 5850,
@@ -8311,7 +8311,7 @@
       "sum_mana_crystal": 3023725
     },
     {
-      "level_": 947,
+      "level": 947,
       "gold": 3659375,
       "mana_dust": 10246250,
       "mana_crystal": 5855,
@@ -8320,7 +8320,7 @@
       "sum_mana_crystal": 3029580
     },
     {
-      "level_": 948,
+      "level": 948,
       "gold": 3662500,
       "mana_dust": 10255000,
       "mana_crystal": 5860,
@@ -8329,7 +8329,7 @@
       "sum_mana_crystal": 3035440
     },
     {
-      "level_": 949,
+      "level": 949,
       "gold": 3665625,
       "mana_dust": 10263750,
       "mana_crystal": 5865,
@@ -8338,7 +8338,7 @@
       "sum_mana_crystal": 3041305
     },
     {
-      "level_": 950,
+      "level": 950,
       "gold": 3668750,
       "mana_dust": 10272500,
       "mana_crystal": 5870,
@@ -8347,7 +8347,7 @@
       "sum_mana_crystal": 3047175
     },
     {
-      "level_": 951,
+      "level": 951,
       "gold": 3671875,
       "mana_dust": 10281250,
       "mana_crystal": 5875,
@@ -8356,7 +8356,7 @@
       "sum_mana_crystal": 3053050
     },
     {
-      "level_": 952,
+      "level": 952,
       "gold": 3675000,
       "mana_dust": 10290000,
       "mana_crystal": 5880,
@@ -8365,7 +8365,7 @@
       "sum_mana_crystal": 3058930
     },
     {
-      "level_": 953,
+      "level": 953,
       "gold": 3678125,
       "mana_dust": 10298750,
       "mana_crystal": 5885,
@@ -8374,7 +8374,7 @@
       "sum_mana_crystal": 3064815
     },
     {
-      "level_": 954,
+      "level": 954,
       "gold": 3681250,
       "mana_dust": 10307500,
       "mana_crystal": 5890,
@@ -8383,7 +8383,7 @@
       "sum_mana_crystal": 3070705
     },
     {
-      "level_": 955,
+      "level": 955,
       "gold": 3684375,
       "mana_dust": 10316250,
       "mana_crystal": 5895,
@@ -8392,7 +8392,7 @@
       "sum_mana_crystal": 3076600
     },
     {
-      "level_": 956,
+      "level": 956,
       "gold": 3687500,
       "mana_dust": 10325000,
       "mana_crystal": 5900,
@@ -8401,7 +8401,7 @@
       "sum_mana_crystal": 3082500
     },
     {
-      "level_": 957,
+      "level": 957,
       "gold": 3690625,
       "mana_dust": 10333750,
       "mana_crystal": 5905,
@@ -8410,7 +8410,7 @@
       "sum_mana_crystal": 3088405
     },
     {
-      "level_": 958,
+      "level": 958,
       "gold": 3693750,
       "mana_dust": 10342500,
       "mana_crystal": 5910,
@@ -8419,7 +8419,7 @@
       "sum_mana_crystal": 3094315
     },
     {
-      "level_": 959,
+      "level": 959,
       "gold": 3696875,
       "mana_dust": 10351250,
       "mana_crystal": 5915,
@@ -8428,7 +8428,7 @@
       "sum_mana_crystal": 3100230
     },
     {
-      "level_": 960,
+      "level": 960,
       "gold": 3700000,
       "mana_dust": 10360000,
       "mana_crystal": 5920,
@@ -8437,7 +8437,7 @@
       "sum_mana_crystal": 3106150
     },
     {
-      "level_": 961,
+      "level": 961,
       "gold": 3703125,
       "mana_dust": 10368750,
       "mana_crystal": 5925,
@@ -8446,7 +8446,7 @@
       "sum_mana_crystal": 3112075
     },
     {
-      "level_": 962,
+      "level": 962,
       "gold": 3706250,
       "mana_dust": 10377500,
       "mana_crystal": 5930,
@@ -8455,7 +8455,7 @@
       "sum_mana_crystal": 3118005
     },
     {
-      "level_": 963,
+      "level": 963,
       "gold": 3709375,
       "mana_dust": 10386250,
       "mana_crystal": 5935,
@@ -8464,7 +8464,7 @@
       "sum_mana_crystal": 3123940
     },
     {
-      "level_": 964,
+      "level": 964,
       "gold": 3712500,
       "mana_dust": 10395000,
       "mana_crystal": 5940,
@@ -8473,7 +8473,7 @@
       "sum_mana_crystal": 3129880
     },
     {
-      "level_": 965,
+      "level": 965,
       "gold": 3715625,
       "mana_dust": 10403750,
       "mana_crystal": 5945,
@@ -8482,7 +8482,7 @@
       "sum_mana_crystal": 3135825
     },
     {
-      "level_": 966,
+      "level": 966,
       "gold": 3718750,
       "mana_dust": 10412500,
       "mana_crystal": 5950,
@@ -8491,7 +8491,7 @@
       "sum_mana_crystal": 3141775
     },
     {
-      "level_": 967,
+      "level": 967,
       "gold": 3721875,
       "mana_dust": 10421250,
       "mana_crystal": 5955,
@@ -8500,7 +8500,7 @@
       "sum_mana_crystal": 3147730
     },
     {
-      "level_": 968,
+      "level": 968,
       "gold": 3725000,
       "mana_dust": 10430000,
       "mana_crystal": 5960,
@@ -8509,7 +8509,7 @@
       "sum_mana_crystal": 3153690
     },
     {
-      "level_": 969,
+      "level": 969,
       "gold": 3728125,
       "mana_dust": 10438750,
       "mana_crystal": 5965,
@@ -8518,7 +8518,7 @@
       "sum_mana_crystal": 3159655
     },
     {
-      "level_": 970,
+      "level": 970,
       "gold": 3731250,
       "mana_dust": 10447500,
       "mana_crystal": 5970,
@@ -8527,7 +8527,7 @@
       "sum_mana_crystal": 3165625
     },
     {
-      "level_": 971,
+      "level": 971,
       "gold": 3734375,
       "mana_dust": 10456250,
       "mana_crystal": 5975,
@@ -8536,7 +8536,7 @@
       "sum_mana_crystal": 3171600
     },
     {
-      "level_": 972,
+      "level": 972,
       "gold": 3737500,
       "mana_dust": 10465000,
       "mana_crystal": 5980,
@@ -8545,7 +8545,7 @@
       "sum_mana_crystal": 3177580
     },
     {
-      "level_": 973,
+      "level": 973,
       "gold": 3740625,
       "mana_dust": 10473750,
       "mana_crystal": 5985,
@@ -8554,7 +8554,7 @@
       "sum_mana_crystal": 3183565
     },
     {
-      "level_": 974,
+      "level": 974,
       "gold": 3743750,
       "mana_dust": 10482500,
       "mana_crystal": 5990,
@@ -8563,7 +8563,7 @@
       "sum_mana_crystal": 3189555
     },
     {
-      "level_": 975,
+      "level": 975,
       "gold": 3746875,
       "mana_dust": 10491250,
       "mana_crystal": 5995,
@@ -8572,7 +8572,7 @@
       "sum_mana_crystal": 3195550
     },
     {
-      "level_": 976,
+      "level": 976,
       "gold": 3750000,
       "mana_dust": 10500000,
       "mana_crystal": 6000,
@@ -8581,7 +8581,7 @@
       "sum_mana_crystal": 3201550
     },
     {
-      "level_": 977,
+      "level": 977,
       "gold": 3753125,
       "mana_dust": 10508750,
       "mana_crystal": 6005,
@@ -8590,7 +8590,7 @@
       "sum_mana_crystal": 3207555
     },
     {
-      "level_": 978,
+      "level": 978,
       "gold": 3756250,
       "mana_dust": 10517500,
       "mana_crystal": 6010,
@@ -8599,7 +8599,7 @@
       "sum_mana_crystal": 3213565
     },
     {
-      "level_": 979,
+      "level": 979,
       "gold": 3759375,
       "mana_dust": 10526250,
       "mana_crystal": 6015,
@@ -8608,7 +8608,7 @@
       "sum_mana_crystal": 3219580
     },
     {
-      "level_": 980,
+      "level": 980,
       "gold": 3762500,
       "mana_dust": 10535000,
       "mana_crystal": 6020,
@@ -8617,7 +8617,7 @@
       "sum_mana_crystal": 3225600
     },
     {
-      "level_": 981,
+      "level": 981,
       "gold": 3765625,
       "mana_dust": 10543750,
       "mana_crystal": 6025,
@@ -8626,7 +8626,7 @@
       "sum_mana_crystal": 3231625
     },
     {
-      "level_": 982,
+      "level": 982,
       "gold": 3768750,
       "mana_dust": 10552500,
       "mana_crystal": 6030,
@@ -8635,7 +8635,7 @@
       "sum_mana_crystal": 3237655
     },
     {
-      "level_": 983,
+      "level": 983,
       "gold": 3771875,
       "mana_dust": 10561250,
       "mana_crystal": 6035,
@@ -8644,7 +8644,7 @@
       "sum_mana_crystal": 3243690
     },
     {
-      "level_": 984,
+      "level": 984,
       "gold": 3775000,
       "mana_dust": 10570000,
       "mana_crystal": 6040,
@@ -8653,7 +8653,7 @@
       "sum_mana_crystal": 3249730
     },
     {
-      "level_": 985,
+      "level": 985,
       "gold": 3778125,
       "mana_dust": 10578750,
       "mana_crystal": 6045,
@@ -8662,7 +8662,7 @@
       "sum_mana_crystal": 3255775
     },
     {
-      "level_": 986,
+      "level": 986,
       "gold": 3781250,
       "mana_dust": 10587500,
       "mana_crystal": 6050,
@@ -8671,7 +8671,7 @@
       "sum_mana_crystal": 3261825
     },
     {
-      "level_": 987,
+      "level": 987,
       "gold": 3784375,
       "mana_dust": 10596250,
       "mana_crystal": 6055,
@@ -8680,7 +8680,7 @@
       "sum_mana_crystal": 3267880
     },
     {
-      "level_": 988,
+      "level": 988,
       "gold": 3787500,
       "mana_dust": 10605000,
       "mana_crystal": 6060,
@@ -8689,7 +8689,7 @@
       "sum_mana_crystal": 3273940
     },
     {
-      "level_": 989,
+      "level": 989,
       "gold": 3790625,
       "mana_dust": 10613750,
       "mana_crystal": 6065,
@@ -8698,7 +8698,7 @@
       "sum_mana_crystal": 3280005
     },
     {
-      "level_": 990,
+      "level": 990,
       "gold": 3793750,
       "mana_dust": 10622500,
       "mana_crystal": 6070,
@@ -8707,7 +8707,7 @@
       "sum_mana_crystal": 3286075
     },
     {
-      "level_": 991,
+      "level": 991,
       "gold": 3796875,
       "mana_dust": 10631250,
       "mana_crystal": 6075,
@@ -8716,7 +8716,7 @@
       "sum_mana_crystal": 3292150
     },
     {
-      "level_": 992,
+      "level": 992,
       "gold": 3800000,
       "mana_dust": 10640000,
       "mana_crystal": 6080,
@@ -8725,7 +8725,7 @@
       "sum_mana_crystal": 3298230
     },
     {
-      "level_": 993,
+      "level": 993,
       "gold": 3803125,
       "mana_dust": 10648750,
       "mana_crystal": 6085,
@@ -8734,7 +8734,7 @@
       "sum_mana_crystal": 3304315
     },
     {
-      "level_": 994,
+      "level": 994,
       "gold": 3806250,
       "mana_dust": 10657500,
       "mana_crystal": 6090,
@@ -8743,7 +8743,7 @@
       "sum_mana_crystal": 3310405
     },
     {
-      "level_": 995,
+      "level": 995,
       "gold": 3809375,
       "mana_dust": 10666250,
       "mana_crystal": 6095,
@@ -8752,7 +8752,7 @@
       "sum_mana_crystal": 3316500
     },
     {
-      "level_": 996,
+      "level": 996,
       "gold": 3812500,
       "mana_dust": 10675000,
       "mana_crystal": 6100,
@@ -8761,7 +8761,7 @@
       "sum_mana_crystal": 3322600
     },
     {
-      "level_": 997,
+      "level": 997,
       "gold": 3815625,
       "mana_dust": 10683750,
       "mana_crystal": 6105,
@@ -8770,7 +8770,7 @@
       "sum_mana_crystal": 3328705
     },
     {
-      "level_": 998,
+      "level": 998,
       "gold": 3818750,
       "mana_dust": 10692500,
       "mana_crystal": 6110,
@@ -8779,7 +8779,7 @@
       "sum_mana_crystal": 3334815
     },
     {
-      "level_": 999,
+      "level": 999,
       "gold": 3821875,
       "mana_dust": 10701250,
       "mana_crystal": 6115,
@@ -8788,7 +8788,7 @@
       "sum_mana_crystal": 3340930
     },
     {
-      "level_": 1000,
+      "level": 1000,
       "gold": 3825000,
       "mana_dust": 10710000,
       "mana_crystal": 6120,

@@ -7,8 +7,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 200,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 200,
       "first_reward_group": 1001
     },
     {
@@ -18,8 +18,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 280,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 280,
       "first_reward_group": 1002
     },
     {
@@ -29,8 +29,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 360,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 360,
       "first_reward_group": 1003
     },
     {
@@ -40,8 +40,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 440,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 440,
       "first_reward_group": 1004
     },
     {
@@ -51,8 +51,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 520,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 520,
       "first_reward_group": 1005
     },
     {
@@ -62,8 +62,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 540,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 540,
       "first_reward_group": 1006
     },
     {
@@ -73,8 +73,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 560,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 560,
       "first_reward_group": 1007
     },
     {
@@ -84,8 +84,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 580,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 580,
       "first_reward_group": 1008
     },
     {
@@ -95,8 +95,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 600,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 600,
       "first_reward_group": 1009
     },
     {
@@ -106,10 +106,10 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 175000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 250000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 175000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 250000,
       "first_reward_group": 2001
     },
     {
@@ -119,10 +119,10 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 325000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 450000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 325000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 450000,
       "first_reward_group": 2002
     },
     {
@@ -132,10 +132,10 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 475000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 650000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 475000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 650000,
       "first_reward_group": 2003
     },
     {
@@ -145,10 +145,10 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 625000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 850000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 625000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 850000,
       "first_reward_group": 2004
     },
     {
@@ -158,10 +158,10 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 775000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1050000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 775000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1050000,
       "first_reward_group": 2005
     },
     {
@@ -171,10 +171,10 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 805000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1090000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 805000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1090000,
       "first_reward_group": 2006
     },
     {
@@ -184,10 +184,10 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 835000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1130000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 835000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1130000,
       "first_reward_group": 2007
     },
     {
@@ -197,10 +197,10 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 865000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1170000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 865000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1170000,
       "first_reward_group": 2008
     },
     {
@@ -210,10 +210,10 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 895000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1210000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 895000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1210000,
       "first_reward_group": 2009
     },
     {
@@ -223,8 +223,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 400,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 400,
       "first_reward_group": 3001
     },
     {
@@ -234,8 +234,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 550,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 550,
       "first_reward_group": 3002
     },
     {
@@ -245,8 +245,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 700,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 700,
       "first_reward_group": 3003
     },
     {
@@ -256,8 +256,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 850,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 850,
       "first_reward_group": 3004
     },
     {
@@ -267,8 +267,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1000,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1000,
       "first_reward_group": 3005
     },
     {
@@ -278,8 +278,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1030,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1030,
       "first_reward_group": 3006
     },
     {
@@ -289,8 +289,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1060,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1060,
       "first_reward_group": 3007
     },
     {
@@ -300,8 +300,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1090,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1090,
       "first_reward_group": 3008
     },
     {
@@ -311,8 +311,8 @@
       "dungeon_no": 2001,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1120,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1120,
       "first_reward_group": 3009
     },
     {
@@ -322,10 +322,10 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 550,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 550,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4001
     },
     {
@@ -335,10 +335,10 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 650,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 650,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4002
     },
     {
@@ -348,10 +348,10 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 750,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 750,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4003
     },
     {
@@ -361,10 +361,10 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 850,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 850,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4004
     },
     {
@@ -374,10 +374,10 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 950,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 950,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4005
     },
     {
@@ -387,10 +387,10 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 970,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 970,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4006
     },
     {
@@ -400,10 +400,10 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 990,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 990,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4007
     },
     {
@@ -413,10 +413,10 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 1010,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 1010,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4008
     },
     {
@@ -426,10 +426,10 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 1030,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 1030,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4009
     },
     {
@@ -439,8 +439,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 3,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 3,
       "first_reward_group": 5001
     },
     {
@@ -450,8 +450,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 4,
       "first_reward_group": 5002
     },
     {
@@ -461,8 +461,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 4,
       "first_reward_group": 5003
     },
     {
@@ -472,8 +472,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 5,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 5,
       "first_reward_group": 5004
     },
     {
@@ -483,8 +483,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 6,
       "first_reward_group": 5005
     },
     {
@@ -494,8 +494,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 6,
       "first_reward_group": 5006
     },
     {
@@ -505,8 +505,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5007
     },
     {
@@ -516,8 +516,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5008
     },
     {
@@ -527,8 +527,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5009
     },
     {
@@ -538,8 +538,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 3,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 3,
       "first_reward_group": 6001
     },
     {
@@ -549,8 +549,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 4,
       "first_reward_group": 6002
     },
     {
@@ -560,8 +560,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 6,
       "first_reward_group": 6003
     },
     {
@@ -571,8 +571,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 7,
       "first_reward_group": 6004
     },
     {
@@ -582,8 +582,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 8,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 8,
       "first_reward_group": 6005
     },
     {
@@ -593,8 +593,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 8,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 8,
       "first_reward_group": 6006
     },
     {
@@ -604,8 +604,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 9,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 9,
       "first_reward_group": 6007
     },
     {
@@ -615,8 +615,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 9,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 9,
       "first_reward_group": 6008
     },
     {
@@ -626,8 +626,8 @@
       "dungeon_no": 2001,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 10,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 10,
       "first_reward_group": 6009
     },
     {
@@ -637,8 +637,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 200,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 200,
       "first_reward_group": 1001
     },
     {
@@ -648,8 +648,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 280,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 280,
       "first_reward_group": 1002
     },
     {
@@ -659,8 +659,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 360,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 360,
       "first_reward_group": 1003
     },
     {
@@ -670,8 +670,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 440,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 440,
       "first_reward_group": 1004
     },
     {
@@ -681,8 +681,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 520,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 520,
       "first_reward_group": 1005
     },
     {
@@ -692,8 +692,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 540,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 540,
       "first_reward_group": 1006
     },
     {
@@ -703,8 +703,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 560,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 560,
       "first_reward_group": 1007
     },
     {
@@ -714,8 +714,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 580,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 580,
       "first_reward_group": 1008
     },
     {
@@ -725,8 +725,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 600,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 600,
       "first_reward_group": 1009
     },
     {
@@ -736,10 +736,10 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 175000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 250000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 175000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 250000,
       "first_reward_group": 2001
     },
     {
@@ -749,10 +749,10 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 325000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 450000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 325000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 450000,
       "first_reward_group": 2002
     },
     {
@@ -762,10 +762,10 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 475000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 650000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 475000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 650000,
       "first_reward_group": 2003
     },
     {
@@ -775,10 +775,10 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 625000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 850000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 625000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 850000,
       "first_reward_group": 2004
     },
     {
@@ -788,10 +788,10 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 775000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1050000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 775000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1050000,
       "first_reward_group": 2005
     },
     {
@@ -801,10 +801,10 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 805000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1090000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 805000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1090000,
       "first_reward_group": 2006
     },
     {
@@ -814,10 +814,10 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 835000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1130000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 835000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1130000,
       "first_reward_group": 2007
     },
     {
@@ -827,10 +827,10 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 865000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1170000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 865000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1170000,
       "first_reward_group": 2008
     },
     {
@@ -840,10 +840,10 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 895000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1210000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 895000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1210000,
       "first_reward_group": 2009
     },
     {
@@ -853,8 +853,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 400,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 400,
       "first_reward_group": 3001
     },
     {
@@ -864,8 +864,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 550,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 550,
       "first_reward_group": 3002
     },
     {
@@ -875,8 +875,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 700,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 700,
       "first_reward_group": 3003
     },
     {
@@ -886,8 +886,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 850,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 850,
       "first_reward_group": 3004
     },
     {
@@ -897,8 +897,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1000,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1000,
       "first_reward_group": 3005
     },
     {
@@ -908,8 +908,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1030,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1030,
       "first_reward_group": 3006
     },
     {
@@ -919,8 +919,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1060,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1060,
       "first_reward_group": 3007
     },
     {
@@ -930,8 +930,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1090,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1090,
       "first_reward_group": 3008
     },
     {
@@ -941,8 +941,8 @@
       "dungeon_no": 2002,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1120,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1120,
       "first_reward_group": 3009
     },
     {
@@ -952,10 +952,10 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 550,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 550,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4001
     },
     {
@@ -965,10 +965,10 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 650,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 650,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4002
     },
     {
@@ -978,10 +978,10 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 750,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 750,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4003
     },
     {
@@ -991,10 +991,10 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 850,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 850,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4004
     },
     {
@@ -1004,10 +1004,10 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 950,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 950,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4005
     },
     {
@@ -1017,10 +1017,10 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 970,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 970,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4006
     },
     {
@@ -1030,10 +1030,10 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 990,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 990,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4007
     },
     {
@@ -1043,10 +1043,10 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 1010,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 1010,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4008
     },
     {
@@ -1056,10 +1056,10 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 1030,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 1030,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4009
     },
     {
@@ -1069,8 +1069,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 3,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 3,
       "first_reward_group": 5001
     },
     {
@@ -1080,8 +1080,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 4,
       "first_reward_group": 5002
     },
     {
@@ -1091,8 +1091,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 4,
       "first_reward_group": 5003
     },
     {
@@ -1102,8 +1102,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 5,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 5,
       "first_reward_group": 5004
     },
     {
@@ -1113,8 +1113,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 6,
       "first_reward_group": 5005
     },
     {
@@ -1124,8 +1124,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 6,
       "first_reward_group": 5006
     },
     {
@@ -1135,8 +1135,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5007
     },
     {
@@ -1146,8 +1146,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5008
     },
     {
@@ -1157,8 +1157,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5009
     },
     {
@@ -1168,8 +1168,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 3,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 3,
       "first_reward_group": 6001
     },
     {
@@ -1179,8 +1179,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 4,
       "first_reward_group": 6002
     },
     {
@@ -1190,8 +1190,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 6,
       "first_reward_group": 6003
     },
     {
@@ -1201,8 +1201,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 7,
       "first_reward_group": 6004
     },
     {
@@ -1212,8 +1212,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 8,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 8,
       "first_reward_group": 6005
     },
     {
@@ -1223,8 +1223,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 8,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 8,
       "first_reward_group": 6006
     },
     {
@@ -1234,8 +1234,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 9,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 9,
       "first_reward_group": 6007
     },
     {
@@ -1245,8 +1245,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 9,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 9,
       "first_reward_group": 6008
     },
     {
@@ -1256,8 +1256,8 @@
       "dungeon_no": 2002,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 10,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 10,
       "first_reward_group": 6009
     },
     {
@@ -1267,8 +1267,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 200,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 200,
       "first_reward_group": 1001
     },
     {
@@ -1278,8 +1278,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 280,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 280,
       "first_reward_group": 1002
     },
     {
@@ -1289,8 +1289,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 360,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 360,
       "first_reward_group": 1003
     },
     {
@@ -1300,8 +1300,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 440,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 440,
       "first_reward_group": 1004
     },
     {
@@ -1311,8 +1311,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 520,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 520,
       "first_reward_group": 1005
     },
     {
@@ -1322,8 +1322,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 540,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 540,
       "first_reward_group": 1006
     },
     {
@@ -1333,8 +1333,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 560,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 560,
       "first_reward_group": 1007
     },
     {
@@ -1344,8 +1344,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 580,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 580,
       "first_reward_group": 1008
     },
     {
@@ -1355,8 +1355,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 600,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 600,
       "first_reward_group": 1009
     },
     {
@@ -1366,10 +1366,10 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 175000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 250000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 175000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 250000,
       "first_reward_group": 2001
     },
     {
@@ -1379,10 +1379,10 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 325000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 450000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 325000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 450000,
       "first_reward_group": 2002
     },
     {
@@ -1392,10 +1392,10 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 475000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 650000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 475000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 650000,
       "first_reward_group": 2003
     },
     {
@@ -1405,10 +1405,10 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 625000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 850000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 625000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 850000,
       "first_reward_group": 2004
     },
     {
@@ -1418,10 +1418,10 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 775000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1050000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 775000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1050000,
       "first_reward_group": 2005
     },
     {
@@ -1431,10 +1431,10 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 805000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1090000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 805000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1090000,
       "first_reward_group": 2006
     },
     {
@@ -1444,10 +1444,10 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 835000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1130000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 835000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1130000,
       "first_reward_group": 2007
     },
     {
@@ -1457,10 +1457,10 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 865000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1170000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 865000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1170000,
       "first_reward_group": 2008
     },
     {
@@ -1470,10 +1470,10 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 895000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1210000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 895000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1210000,
       "first_reward_group": 2009
     },
     {
@@ -1483,8 +1483,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 400,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 400,
       "first_reward_group": 3001
     },
     {
@@ -1494,8 +1494,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 550,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 550,
       "first_reward_group": 3002
     },
     {
@@ -1505,8 +1505,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 700,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 700,
       "first_reward_group": 3003
     },
     {
@@ -1516,8 +1516,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 850,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 850,
       "first_reward_group": 3004
     },
     {
@@ -1527,8 +1527,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1000,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1000,
       "first_reward_group": 3005
     },
     {
@@ -1538,8 +1538,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1030,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1030,
       "first_reward_group": 3006
     },
     {
@@ -1549,8 +1549,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1060,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1060,
       "first_reward_group": 3007
     },
     {
@@ -1560,8 +1560,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1090,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1090,
       "first_reward_group": 3008
     },
     {
@@ -1571,8 +1571,8 @@
       "dungeon_no": 2003,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1120,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1120,
       "first_reward_group": 3009
     },
     {
@@ -1582,10 +1582,10 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 550,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 550,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4001
     },
     {
@@ -1595,10 +1595,10 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 650,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 650,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4002
     },
     {
@@ -1608,10 +1608,10 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 750,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 750,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4003
     },
     {
@@ -1621,10 +1621,10 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 850,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 850,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4004
     },
     {
@@ -1634,10 +1634,10 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 950,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 950,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4005
     },
     {
@@ -1647,10 +1647,10 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 970,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 970,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4006
     },
     {
@@ -1660,10 +1660,10 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 990,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 990,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4007
     },
     {
@@ -1673,10 +1673,10 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 1010,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 1010,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4008
     },
     {
@@ -1686,10 +1686,10 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 1030,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 1030,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4009
     },
     {
@@ -1699,8 +1699,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 3,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 3,
       "first_reward_group": 5001
     },
     {
@@ -1710,8 +1710,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 4,
       "first_reward_group": 5002
     },
     {
@@ -1721,8 +1721,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 4,
       "first_reward_group": 5003
     },
     {
@@ -1732,8 +1732,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 5,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 5,
       "first_reward_group": 5004
     },
     {
@@ -1743,8 +1743,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 6,
       "first_reward_group": 5005
     },
     {
@@ -1754,8 +1754,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 6,
       "first_reward_group": 5006
     },
     {
@@ -1765,8 +1765,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5007
     },
     {
@@ -1776,8 +1776,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5008
     },
     {
@@ -1787,8 +1787,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5009
     },
     {
@@ -1798,8 +1798,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 3,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 3,
       "first_reward_group": 6001
     },
     {
@@ -1809,8 +1809,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 4,
       "first_reward_group": 6002
     },
     {
@@ -1820,8 +1820,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 6,
       "first_reward_group": 6003
     },
     {
@@ -1831,8 +1831,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 7,
       "first_reward_group": 6004
     },
     {
@@ -1842,8 +1842,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 8,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 8,
       "first_reward_group": 6005
     },
     {
@@ -1853,8 +1853,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 8,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 8,
       "first_reward_group": 6006
     },
     {
@@ -1864,8 +1864,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 9,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 9,
       "first_reward_group": 6007
     },
     {
@@ -1875,8 +1875,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 9,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 9,
       "first_reward_group": 6008
     },
     {
@@ -1886,8 +1886,8 @@
       "dungeon_no": 2003,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 10,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 10,
       "first_reward_group": 6009
     },
     {
@@ -1897,8 +1897,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 200,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 200,
       "first_reward_group": 1001
     },
     {
@@ -1908,8 +1908,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 280,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 280,
       "first_reward_group": 1002
     },
     {
@@ -1919,8 +1919,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 360,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 360,
       "first_reward_group": 1003
     },
     {
@@ -1930,8 +1930,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 440,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 440,
       "first_reward_group": 1004
     },
     {
@@ -1941,8 +1941,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 520,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 520,
       "first_reward_group": 1005
     },
     {
@@ -1952,8 +1952,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 540,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 540,
       "first_reward_group": 1006
     },
     {
@@ -1963,8 +1963,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 560,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 560,
       "first_reward_group": 1007
     },
     {
@@ -1974,8 +1974,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 580,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 580,
       "first_reward_group": 1008
     },
     {
@@ -1985,8 +1985,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 600,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 600,
       "first_reward_group": 1009
     },
     {
@@ -1996,10 +1996,10 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 175000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 250000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 175000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 250000,
       "first_reward_group": 2001
     },
     {
@@ -2009,10 +2009,10 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 325000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 450000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 325000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 450000,
       "first_reward_group": 2002
     },
     {
@@ -2022,10 +2022,10 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 475000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 650000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 475000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 650000,
       "first_reward_group": 2003
     },
     {
@@ -2035,10 +2035,10 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 625000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 850000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 625000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 850000,
       "first_reward_group": 2004
     },
     {
@@ -2048,10 +2048,10 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 775000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1050000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 775000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1050000,
       "first_reward_group": 2005
     },
     {
@@ -2061,10 +2061,10 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 805000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1090000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 805000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1090000,
       "first_reward_group": 2006
     },
     {
@@ -2074,10 +2074,10 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 835000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1130000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 835000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1130000,
       "first_reward_group": 2007
     },
     {
@@ -2087,10 +2087,10 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 865000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1170000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 865000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1170000,
       "first_reward_group": 2008
     },
     {
@@ -2100,10 +2100,10 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 895000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1210000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 895000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1210000,
       "first_reward_group": 2009
     },
     {
@@ -2113,8 +2113,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 400,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 400,
       "first_reward_group": 3001
     },
     {
@@ -2124,8 +2124,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 550,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 550,
       "first_reward_group": 3002
     },
     {
@@ -2135,8 +2135,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 700,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 700,
       "first_reward_group": 3003
     },
     {
@@ -2146,8 +2146,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 850,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 850,
       "first_reward_group": 3004
     },
     {
@@ -2157,8 +2157,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1000,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1000,
       "first_reward_group": 3005
     },
     {
@@ -2168,8 +2168,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1030,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1030,
       "first_reward_group": 3006
     },
     {
@@ -2179,8 +2179,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1060,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1060,
       "first_reward_group": 3007
     },
     {
@@ -2190,8 +2190,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1090,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1090,
       "first_reward_group": 3008
     },
     {
@@ -2201,8 +2201,8 @@
       "dungeon_no": 2004,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1120,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1120,
       "first_reward_group": 3009
     },
     {
@@ -2212,10 +2212,10 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 550,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 550,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4001
     },
     {
@@ -2225,10 +2225,10 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 650,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 650,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4002
     },
     {
@@ -2238,10 +2238,10 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 750,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 750,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4003
     },
     {
@@ -2251,10 +2251,10 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 850,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 850,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4004
     },
     {
@@ -2264,10 +2264,10 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 950,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 950,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4005
     },
     {
@@ -2277,10 +2277,10 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 970,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 970,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4006
     },
     {
@@ -2290,10 +2290,10 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 990,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 990,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4007
     },
     {
@@ -2303,10 +2303,10 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 1010,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 1010,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4008
     },
     {
@@ -2316,10 +2316,10 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 1030,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 1030,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4009
     },
     {
@@ -2329,8 +2329,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 3,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 3,
       "first_reward_group": 5001
     },
     {
@@ -2340,8 +2340,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 4,
       "first_reward_group": 5002
     },
     {
@@ -2351,8 +2351,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 4,
       "first_reward_group": 5003
     },
     {
@@ -2362,8 +2362,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 5,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 5,
       "first_reward_group": 5004
     },
     {
@@ -2373,8 +2373,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 6,
       "first_reward_group": 5005
     },
     {
@@ -2384,8 +2384,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 6,
       "first_reward_group": 5006
     },
     {
@@ -2395,8 +2395,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5007
     },
     {
@@ -2406,8 +2406,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5008
     },
     {
@@ -2417,8 +2417,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5009
     },
     {
@@ -2428,8 +2428,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 3,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 3,
       "first_reward_group": 6001
     },
     {
@@ -2439,8 +2439,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 4,
       "first_reward_group": 6002
     },
     {
@@ -2450,8 +2450,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 6,
       "first_reward_group": 6003
     },
     {
@@ -2461,8 +2461,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 7,
       "first_reward_group": 6004
     },
     {
@@ -2472,8 +2472,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 8,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 8,
       "first_reward_group": 6005
     },
     {
@@ -2483,8 +2483,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 8,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 8,
       "first_reward_group": 6006
     },
     {
@@ -2494,8 +2494,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 9,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 9,
       "first_reward_group": 6007
     },
     {
@@ -2505,8 +2505,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 9,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 9,
       "first_reward_group": 6008
     },
     {
@@ -2516,8 +2516,8 @@
       "dungeon_no": 2004,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 10,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 10,
       "first_reward_group": 6009
     },
     {
@@ -2527,8 +2527,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 200,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 200,
       "first_reward_group": 1001
     },
     {
@@ -2538,8 +2538,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 280,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 280,
       "first_reward_group": 1002
     },
     {
@@ -2549,8 +2549,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 360,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 360,
       "first_reward_group": 1003
     },
     {
@@ -2560,8 +2560,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 440,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 440,
       "first_reward_group": 1004
     },
     {
@@ -2571,8 +2571,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 520,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 520,
       "first_reward_group": 1005
     },
     {
@@ -2582,8 +2582,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 540,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 540,
       "first_reward_group": 1006
     },
     {
@@ -2593,8 +2593,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 560,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 560,
       "first_reward_group": 1007
     },
     {
@@ -2604,8 +2604,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 580,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 580,
       "first_reward_group": 1008
     },
     {
@@ -2615,8 +2615,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 600,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 600,
       "first_reward_group": 1009
     },
     {
@@ -2626,10 +2626,10 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 175000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 250000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 175000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 250000,
       "first_reward_group": 2001
     },
     {
@@ -2639,10 +2639,10 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 325000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 450000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 325000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 450000,
       "first_reward_group": 2002
     },
     {
@@ -2652,10 +2652,10 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 475000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 650000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 475000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 650000,
       "first_reward_group": 2003
     },
     {
@@ -2665,10 +2665,10 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 625000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 850000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 625000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 850000,
       "first_reward_group": 2004
     },
     {
@@ -2678,10 +2678,10 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 775000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1050000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 775000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1050000,
       "first_reward_group": 2005
     },
     {
@@ -2691,10 +2691,10 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 805000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1090000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 805000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1090000,
       "first_reward_group": 2006
     },
     {
@@ -2704,10 +2704,10 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 835000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1130000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 835000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1130000,
       "first_reward_group": 2007
     },
     {
@@ -2717,10 +2717,10 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 865000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1170000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 865000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1170000,
       "first_reward_group": 2008
     },
     {
@@ -2730,10 +2730,10 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 895000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1210000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 895000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1210000,
       "first_reward_group": 2009
     },
     {
@@ -2743,8 +2743,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 400,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 400,
       "first_reward_group": 3001
     },
     {
@@ -2754,8 +2754,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 550,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 550,
       "first_reward_group": 3002
     },
     {
@@ -2765,8 +2765,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 700,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 700,
       "first_reward_group": 3003
     },
     {
@@ -2776,8 +2776,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 850,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 850,
       "first_reward_group": 3004
     },
     {
@@ -2787,8 +2787,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1000,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1000,
       "first_reward_group": 3005
     },
     {
@@ -2798,8 +2798,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1030,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1030,
       "first_reward_group": 3006
     },
     {
@@ -2809,8 +2809,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1060,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1060,
       "first_reward_group": 3007
     },
     {
@@ -2820,8 +2820,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1090,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1090,
       "first_reward_group": 3008
     },
     {
@@ -2831,8 +2831,8 @@
       "dungeon_no": 2005,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1120,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1120,
       "first_reward_group": 3009
     },
     {
@@ -2842,10 +2842,10 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 550,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 550,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4001
     },
     {
@@ -2855,10 +2855,10 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 650,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 650,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4002
     },
     {
@@ -2868,10 +2868,10 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 750,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 750,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4003
     },
     {
@@ -2881,10 +2881,10 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 850,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 850,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4004
     },
     {
@@ -2894,10 +2894,10 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 950,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 950,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4005
     },
     {
@@ -2907,10 +2907,10 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 970,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 970,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4006
     },
     {
@@ -2920,10 +2920,10 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 990,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 990,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4007
     },
     {
@@ -2933,10 +2933,10 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 1010,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 1010,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4008
     },
     {
@@ -2946,10 +2946,10 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 1030,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 1030,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4009
     },
     {
@@ -2959,8 +2959,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 3,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 3,
       "first_reward_group": 5001
     },
     {
@@ -2970,8 +2970,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 4,
       "first_reward_group": 5002
     },
     {
@@ -2981,8 +2981,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 4,
       "first_reward_group": 5003
     },
     {
@@ -2992,8 +2992,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 5,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 5,
       "first_reward_group": 5004
     },
     {
@@ -3003,8 +3003,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 6,
       "first_reward_group": 5005
     },
     {
@@ -3014,8 +3014,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 6,
       "first_reward_group": 5006
     },
     {
@@ -3025,8 +3025,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5007
     },
     {
@@ -3036,8 +3036,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5008
     },
     {
@@ -3047,8 +3047,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5009
     },
     {
@@ -3058,8 +3058,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 3,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 3,
       "first_reward_group": 6001
     },
     {
@@ -3069,8 +3069,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 4,
       "first_reward_group": 6002
     },
     {
@@ -3080,8 +3080,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 6,
       "first_reward_group": 6003
     },
     {
@@ -3091,8 +3091,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 7,
       "first_reward_group": 6004
     },
     {
@@ -3102,8 +3102,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 8,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 8,
       "first_reward_group": 6005
     },
     {
@@ -3113,8 +3113,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 8,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 8,
       "first_reward_group": 6006
     },
     {
@@ -3124,8 +3124,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 9,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 9,
       "first_reward_group": 6007
     },
     {
@@ -3135,8 +3135,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 9,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 9,
       "first_reward_group": 6008
     },
     {
@@ -3146,8 +3146,8 @@
       "dungeon_no": 2005,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 10,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 10,
       "first_reward_group": 6009
     },
     {
@@ -3157,8 +3157,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 200,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 200,
       "first_reward_group": 1001
     },
     {
@@ -3168,8 +3168,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 280,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 280,
       "first_reward_group": 1002
     },
     {
@@ -3179,8 +3179,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 360,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 360,
       "first_reward_group": 1003
     },
     {
@@ -3190,8 +3190,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 440,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 440,
       "first_reward_group": 1004
     },
     {
@@ -3201,8 +3201,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 520,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 520,
       "first_reward_group": 1005
     },
     {
@@ -3212,8 +3212,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 540,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 540,
       "first_reward_group": 1006
     },
     {
@@ -3223,8 +3223,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 560,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 560,
       "first_reward_group": 1007
     },
     {
@@ -3234,8 +3234,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 580,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 580,
       "first_reward_group": 1008
     },
     {
@@ -3245,8 +3245,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 4,
-      "first_reward_amount1": 600,
+      "first_reward_no_1": 4,
+      "first_reward_amount_1": 600,
       "first_reward_group": 1009
     },
     {
@@ -3256,10 +3256,10 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 175000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 250000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 175000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 250000,
       "first_reward_group": 2001
     },
     {
@@ -3269,10 +3269,10 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 325000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 450000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 325000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 450000,
       "first_reward_group": 2002
     },
     {
@@ -3282,10 +3282,10 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 475000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 650000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 475000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 650000,
       "first_reward_group": 2003
     },
     {
@@ -3295,10 +3295,10 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 625000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 850000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 625000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 850000,
       "first_reward_group": 2004
     },
     {
@@ -3308,10 +3308,10 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 775000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1050000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 775000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1050000,
       "first_reward_group": 2005
     },
     {
@@ -3321,10 +3321,10 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 805000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1090000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 805000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1090000,
       "first_reward_group": 2006
     },
     {
@@ -3334,10 +3334,10 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 835000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1130000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 835000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1130000,
       "first_reward_group": 2007
     },
     {
@@ -3347,10 +3347,10 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 865000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1170000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 865000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1170000,
       "first_reward_group": 2008
     },
     {
@@ -3360,10 +3360,10 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 1,
-      "first_reward_amount1": 895000,
-      "first_reward_no2": 3,
-      "first_reward_amount2": 1210000,
+      "first_reward_no_1": 1,
+      "first_reward_amount_1": 895000,
+      "first_reward_no_2": 3,
+      "first_reward_amount_2": 1210000,
       "first_reward_group": 2009
     },
     {
@@ -3373,8 +3373,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1101,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 400,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 400,
       "first_reward_group": 3001
     },
     {
@@ -3384,8 +3384,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1102,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 550,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 550,
       "first_reward_group": 3002
     },
     {
@@ -3395,8 +3395,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1103,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 700,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 700,
       "first_reward_group": 3003
     },
     {
@@ -3406,8 +3406,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1104,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 850,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 850,
       "first_reward_group": 3004
     },
     {
@@ -3417,8 +3417,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1105,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1000,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1000,
       "first_reward_group": 3005
     },
     {
@@ -3428,8 +3428,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1106,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1030,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1030,
       "first_reward_group": 3006
     },
     {
@@ -3439,8 +3439,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1107,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1060,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1060,
       "first_reward_group": 3007
     },
     {
@@ -3450,8 +3450,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1108,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1090,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1090,
       "first_reward_group": 3008
     },
     {
@@ -3461,8 +3461,8 @@
       "dungeon_no": 2006,
       "grade": 1,
       "dropitem_no": 1109,
-      "first_reward_no1": 14,
-      "first_reward_amount1": 1120,
+      "first_reward_no_1": 14,
+      "first_reward_amount_1": 1120,
       "first_reward_group": 3009
     },
     {
@@ -3472,10 +3472,10 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 550,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 550,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4001
     },
     {
@@ -3485,10 +3485,10 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 650,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 650,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4002
     },
     {
@@ -3498,10 +3498,10 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 750,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 750,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4003
     },
     {
@@ -3511,10 +3511,10 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 850,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 850,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4004
     },
     {
@@ -3524,10 +3524,10 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 950,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 1,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 950,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 1,
       "first_reward_group": 4005
     },
     {
@@ -3537,10 +3537,10 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 970,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 970,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4006
     },
     {
@@ -3550,10 +3550,10 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 990,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 990,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4007
     },
     {
@@ -3563,10 +3563,10 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 1010,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 1010,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4008
     },
     {
@@ -3576,10 +3576,10 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 2,
-      "first_reward_amount1": 1030,
-      "first_reward_no2": 66,
-      "first_reward_amount2": 2,
+      "first_reward_no_1": 2,
+      "first_reward_amount_1": 1030,
+      "first_reward_no_2": 66,
+      "first_reward_amount_2": 2,
       "first_reward_group": 4009
     },
     {
@@ -3589,8 +3589,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 3,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 3,
       "first_reward_group": 5001
     },
     {
@@ -3600,8 +3600,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 4,
       "first_reward_group": 5002
     },
     {
@@ -3611,8 +3611,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 4,
       "first_reward_group": 5003
     },
     {
@@ -3622,8 +3622,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 5,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 5,
       "first_reward_group": 5004
     },
     {
@@ -3633,8 +3633,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 6,
       "first_reward_group": 5005
     },
     {
@@ -3644,8 +3644,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 6,
       "first_reward_group": 5006
     },
     {
@@ -3655,8 +3655,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5007
     },
     {
@@ -3666,8 +3666,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5008
     },
     {
@@ -3677,8 +3677,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 28,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 28,
+      "first_reward_amount_1": 7,
       "first_reward_group": 5009
     },
     {
@@ -3688,8 +3688,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1201,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 3,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 3,
       "first_reward_group": 6001
     },
     {
@@ -3699,8 +3699,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1202,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 4,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 4,
       "first_reward_group": 6002
     },
     {
@@ -3710,8 +3710,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1203,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 6,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 6,
       "first_reward_group": 6003
     },
     {
@@ -3721,8 +3721,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1204,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 7,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 7,
       "first_reward_group": 6004
     },
     {
@@ -3732,8 +3732,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1205,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 8,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 8,
       "first_reward_group": 6005
     },
     {
@@ -3743,8 +3743,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1206,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 8,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 8,
       "first_reward_group": 6006
     },
     {
@@ -3754,8 +3754,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1207,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 9,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 9,
       "first_reward_group": 6007
     },
     {
@@ -3765,8 +3765,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1208,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 9,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 9,
       "first_reward_group": 6008
     },
     {
@@ -3776,8 +3776,8 @@
       "dungeon_no": 2006,
       "grade": 2,
       "dropitem_no": 1209,
-      "first_reward_no1": 45,
-      "first_reward_amount1": 10,
+      "first_reward_no_1": 45,
+      "first_reward_amount_1": 10,
       "first_reward_group": 6009
     }
   ]

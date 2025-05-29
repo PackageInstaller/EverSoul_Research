@@ -1871,6 +1871,150 @@
       "vista_no": 39,
       "bonus_hero": 220,
       "bonus_rate": 10
+    },
+    {
+      "no": 4001,
+      "vista_no": 40,
+      "bonus_hero": 3180,
+      "bonus_rate": 30
+    },
+    {
+      "no": 4002,
+      "vista_no": 40,
+      "bonus_hero": 6520,
+      "bonus_rate": 30
+    },
+    {
+      "no": 4003,
+      "vista_no": 40,
+      "bonus_hero": 4050,
+      "bonus_rate": 20
+    },
+    {
+      "no": 4004,
+      "vista_no": 40,
+      "bonus_hero": 4040,
+      "bonus_rate": 20
+    },
+    {
+      "no": 4005,
+      "vista_no": 40,
+      "bonus_hero": 3160,
+      "bonus_rate": 10
+    },
+    {
+      "no": 4006,
+      "vista_no": 40,
+      "bonus_hero": 3120,
+      "bonus_rate": 10
+    },
+    {
+      "no": 4007,
+      "vista_no": 40,
+      "bonus_hero": 310,
+      "bonus_rate": 10
+    },
+    {
+      "no": 4008,
+      "vista_no": 40,
+      "bonus_hero": 320,
+      "bonus_rate": 10
+    },
+    {
+      "no": 4101,
+      "vista_no": 41,
+      "bonus_hero": 3180,
+      "bonus_rate": 30
+    },
+    {
+      "no": 4102,
+      "vista_no": 41,
+      "bonus_hero": 4050,
+      "bonus_rate": 30
+    },
+    {
+      "no": 4103,
+      "vista_no": 41,
+      "bonus_hero": 6520,
+      "bonus_rate": 20
+    },
+    {
+      "no": 4104,
+      "vista_no": 41,
+      "bonus_hero": 4040,
+      "bonus_rate": 20
+    },
+    {
+      "no": 4105,
+      "vista_no": 41,
+      "bonus_hero": 3160,
+      "bonus_rate": 10
+    },
+    {
+      "no": 4106,
+      "vista_no": 41,
+      "bonus_hero": 4010,
+      "bonus_rate": 10
+    },
+    {
+      "no": 4107,
+      "vista_no": 41,
+      "bonus_hero": 310,
+      "bonus_rate": 10
+    },
+    {
+      "no": 4108,
+      "vista_no": 41,
+      "bonus_hero": 320,
+      "bonus_rate": 10
+    },
+    {
+      "no": 4201,
+      "vista_no": 42,
+      "bonus_hero": 3180,
+      "bonus_rate": 30
+    },
+    {
+      "no": 4202,
+      "vista_no": 42,
+      "bonus_hero": 4040,
+      "bonus_rate": 30
+    },
+    {
+      "no": 4203,
+      "vista_no": 42,
+      "bonus_hero": 6520,
+      "bonus_rate": 20
+    },
+    {
+      "no": 4204,
+      "vista_no": 42,
+      "bonus_hero": 4050,
+      "bonus_rate": 20
+    },
+    {
+      "no": 4205,
+      "vista_no": 42,
+      "bonus_hero": 3160,
+      "bonus_rate": 10
+    },
+    {
+      "no": 4206,
+      "vista_no": 42,
+      "bonus_hero": 1140,
+      "bonus_rate": 10
+    },
+    {
+      "no": 4207,
+      "vista_no": 42,
+      "bonus_hero": 310,
+      "bonus_rate": 10
+    },
+    {
+      "no": 4208,
+      "vista_no": 42,
+      "bonus_hero": 320,
+      "bonus_rate": 10
     }
   ]
 }

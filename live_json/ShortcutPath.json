@@ -1,44 +1,44 @@
 {
   "json": [
     {
-      "no": "S_BG",
-      "path": "Sound/BGM/"
+      "noOffset": "S_BG",
+      "pathOffset": "Sound/BGM/"
     },
     {
-      "no": "S_CH",
-      "path": "Sound/Character/"
+      "noOffset": "S_CH",
+      "pathOffset": "Sound/Character/"
     },
     {
-      "no": "S_FX",
-      "path": "Sound/SFX/"
+      "noOffset": "S_FX",
+      "pathOffset": "Sound/SFX/"
     },
     {
-      "no": "S_FXS",
-      "path": "Sound/SFX/STORY/"
+      "noOffset": "S_FXS",
+      "pathOffset": "Sound/SFX/STORY/"
     },
     {
-      "no": "S_MO",
-      "path": "Sound/Monster/"
+      "noOffset": "S_MO",
+      "pathOffset": "Sound/Monster/"
     },
     {
-      "no": "VC_E",
-      "path": "Story/Evil/"
+      "noOffset": "VC_E",
+      "pathOffset": "Story/Evil/"
     },
     {
-      "no": "VC_I",
-      "path": "Story/Intro/"
+      "noOffset": "VC_I",
+      "pathOffset": "Story/Intro/"
     },
     {
-      "no": "VC_T",
-      "path": "Story/Tower/"
+      "noOffset": "VC_T",
+      "pathOffset": "Story/Tower/"
     },
     {
-      "no": "VL",
-      "path": "Story/Love/"
+      "noOffset": "VL",
+      "pathOffset": "Story/Love/"
     },
     {
-      "no": "VM",
-      "path": "Story/Main/"
+      "noOffset": "VM",
+      "pathOffset": "Story/Main/"
     }
   ]
 }

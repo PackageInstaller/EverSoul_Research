@@ -46,6 +46,7 @@ message sProfileBase {
   int32 championsArenaRank = 31;
   int32 userLevel = 32;
   repeated sProfileWorldRaidRecord worldRaidRecord = 33;
+  int32 maxHeroCount = 34;
 }
 
 message sThumbnail {
