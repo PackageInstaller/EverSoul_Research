@@ -1,0 +1,32 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/rikka/Eversoul/build",
+	"dir-cur-src" : "/home/rikka/Eversoul",
+	"dir-top-bld" : "/home/rikka/Eversoul/build",
+	"dir-top-src" : "/home/rikka/Eversoul",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/rikka/Eversoul/build/CMakeFiles/eversoul.dir",
+	"sources" : 
+	{
+		"CMakeFiles/eversoul.dir/source/main.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/rikka/Eversoul/source/main.cpp"
+		},
+		"CMakeFiles/eversoul.dir/source/utils.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/rikka/Eversoul/source/utils.cpp"
+		}
+	}
+}

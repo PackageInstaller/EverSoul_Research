@@ -78,7 +78,7 @@ void __fastcall _Battle_BattleCharacterEvent__TriggerAddCCBuff(
    - 通过 `dword_1908624`数组映射到削减类型(1-4)
 2. **查找削减系数**：
 
-   - 在 `_Battle_BattleCharacterEvent__DecreaseGroggy`函数中遍历触发器列表
+   - 在 _Battle_BattleCharacterEvent__TriggerAddCCBuff函数中遍历触发器列表
    - 找到与当前削减类型匹配的触发器项
    - 提取该项的值作为削减系数
 3. **计算削减量**：
