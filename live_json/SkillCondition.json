@@ -3355,6 +3355,12 @@
       "condition_value_1": 216216.0
     },
     {
+      "no": 216316,
+      "condition_key": 38,
+      "condition_target": 2,
+      "condition_value_1": 8050.0
+    },
+    {
       "no": 216334,
       "condition_key": 4,
       "condition_target": 2,
@@ -10485,7 +10491,8 @@
       "no": 3089121,
       "condition_key": 27,
       "condition_target": 1,
-      "condition_value_1": 110042.0
+      "condition_value_1": 110042.0,
+      "condition_value_2": 1
     },
     {
       "no": 3101142,

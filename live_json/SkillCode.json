@@ -37710,6 +37710,7 @@
       "target_key": 1206,
       "value": 216316.0,
       "condition_type": 1,
+      "condition_id_1": 216316,
       "fx_pathOffset": "none",
       "penetration": 1
     },
@@ -38763,6 +38764,65 @@
       "is_ally": 1,
       "target_key": 1100,
       "value": 250014.0,
+      "condition_type": 1,
+      "fx_pathOffset": "none",
+      "penetration": 1
+    },
+    {
+      "no": 251010,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 251010.0,
+      "condition_type": 1,
+      "fx_pathOffset": "none",
+      "penetration": 1
+    },
+    {
+      "no": 251011,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 251011.0,
+      "condition_type": 1,
+      "fx_pathOffset": "none",
+      "penetration": 1
+    },
+    {
+      "no": 251012,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 251012.0,
+      "condition_type": 1,
+      "fx_pathOffset": "none",
+      "penetration": 1
+    },
+    {
+      "no": 251013,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 251013.0,
+      "condition_type": 1,
+      "fx_pathOffset": "none",
+      "penetration": 1
+    },
+    {
+      "no": 251020,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 251020.0,
+      "condition_type": 1,
+      "fx_pathOffset": "none",
+      "penetration": 1
+    },
+    {
+      "no": 251021,
+      "function_key": 9,
+      "target_key": 1216,
+      "value": 0.3,
       "condition_type": 1,
       "fx_pathOffset": "none",
       "penetration": 1
@@ -113487,6 +113547,16 @@
       "penetration": 1
     },
     {
+      "no": 1003122,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1003122.0,
+      "condition_type": 1,
+      "fx_pathOffset": "none",
+      "penetration": 1
+    },
+    {
       "no": 1003201,
       "function_key": 30,
       "is_ally": 1,
@@ -113692,6 +113762,16 @@
       "is_ally": 1,
       "target_key": 1100,
       "value": 1003221.0,
+      "condition_type": 1,
+      "fx_pathOffset": "none",
+      "penetration": 1
+    },
+    {
+      "no": 1003222,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1003222.0,
       "condition_type": 1,
       "fx_pathOffset": "none",
       "penetration": 1
