@@ -943,8 +943,7 @@ QooAppAPI::ReviewServerInfo QooAppAPI::checkReviewServer(const std::string &base
         }
 
         // 更新进度显示
-        updateProgressDisplay("检查进度", checked_versions, total_versions,
-                              "当前版本: " + pending_versions[i], &last_output_length);
+        updateProgressDisplay("检查进度", checked_versions, total_versions, pending_versions[i], &last_output_length);
     }
     // 清除最后一行进度显示
     std::cout << "\r" << std::string(last_output_length, ' ') << "\r";

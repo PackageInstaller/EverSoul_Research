@@ -108352,7 +108352,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 # 1 "/usr/include/curl/curlver.h" 1 3 4
 # 63 "/usr/include/curl/curl.h" 2 3 4
 # 1 "/usr/include/curl/system.h" 1 3 4
-# 378 "/usr/include/curl/system.h" 3 4
+# 382 "/usr/include/curl/system.h" 3 4
 # 1 "/usr/include/sys/socket.h" 1 3 4
 # 24 "/usr/include/sys/socket.h" 3 4
 extern "C" {
@@ -108775,8 +108775,8 @@ extern int sockatmark (int __fd) noexcept (true);
 extern int isfdtype (int __fd, int __fdtype) noexcept (true);
 # 346 "/usr/include/sys/socket.h" 3 4
 }
-# 379 "/usr/include/curl/system.h" 2 3 4
-# 389 "/usr/include/curl/system.h" 3 4
+# 383 "/usr/include/curl/system.h" 2 3 4
+# 393 "/usr/include/curl/system.h" 3 4
   typedef socklen_t curl_socklen_t;
 
 
@@ -110546,21 +110546,24 @@ typedef enum {
 
   CURLOPT_UPLOAD_FLAGS = 0 + 327,
 
+
+  CURLOPT_SSL_SIGNATURE_ALGORITHMS = 10000 + 328,
+
   CURLOPT_LASTENTRY
 } CURLoption;
-# 2360 "/usr/include/curl/curl.h" 3 4
+# 2363 "/usr/include/curl/curl.h" 3 4
 enum CURL_NETRC_OPTION {
 
 
   CURL_NETRC_LAST = 3
 };
-# 2390 "/usr/include/curl/curl.h" 3 4
+# 2393 "/usr/include/curl/curl.h" 3 4
 enum CURL_TLSAUTH {
 
 
   CURL_TLSAUTH_LAST = 2
 };
-# 2413 "/usr/include/curl/curl.h" 3 4
+# 2416 "/usr/include/curl/curl.h" 3 4
 typedef enum {
 
 
@@ -110579,36 +110582,36 @@ typedef enum {
 
 typedef struct curl_mime curl_mime;
 typedef struct curl_mimepart curl_mimepart;
-# 2443 "/usr/include/curl/curl.h" 3 4
+# 2446 "/usr/include/curl/curl.h" 3 4
  curl_mime *curl_mime_init(CURL *easy);
-# 2452 "/usr/include/curl/curl.h" 3 4
+# 2455 "/usr/include/curl/curl.h" 3 4
  void curl_mime_free(curl_mime *mime);
-# 2462 "/usr/include/curl/curl.h" 3 4
+# 2465 "/usr/include/curl/curl.h" 3 4
  curl_mimepart *curl_mime_addpart(curl_mime *mime);
-# 2471 "/usr/include/curl/curl.h" 3 4
+# 2474 "/usr/include/curl/curl.h" 3 4
  CURLcode curl_mime_name(curl_mimepart *part, const char *name);
-# 2480 "/usr/include/curl/curl.h" 3 4
+# 2483 "/usr/include/curl/curl.h" 3 4
  CURLcode curl_mime_filename(curl_mimepart *part,
                                         const char *filename);
-# 2490 "/usr/include/curl/curl.h" 3 4
+# 2493 "/usr/include/curl/curl.h" 3 4
  CURLcode curl_mime_type(curl_mimepart *part, const char *mimetype);
-# 2499 "/usr/include/curl/curl.h" 3 4
+# 2502 "/usr/include/curl/curl.h" 3 4
  CURLcode curl_mime_encoder(curl_mimepart *part,
                                        const char *encoding);
-# 2509 "/usr/include/curl/curl.h" 3 4
+# 2512 "/usr/include/curl/curl.h" 3 4
  CURLcode curl_mime_data(curl_mimepart *part,
                                     const char *data, size_t datasize);
-# 2519 "/usr/include/curl/curl.h" 3 4
+# 2522 "/usr/include/curl/curl.h" 3 4
  CURLcode curl_mime_filedata(curl_mimepart *part,
                                         const char *filename);
-# 2529 "/usr/include/curl/curl.h" 3 4
+# 2532 "/usr/include/curl/curl.h" 3 4
  CURLcode curl_mime_data_cb(curl_mimepart *part,
                                        curl_off_t datasize,
                                        curl_read_callback readfunc,
                                        curl_seek_callback seekfunc,
                                        curl_free_callback freefunc,
                                        void *arg);
-# 2543 "/usr/include/curl/curl.h" 3 4
+# 2546 "/usr/include/curl/curl.h" 3 4
  CURLcode curl_mime_subparts(curl_mimepart *part,
                                         curl_mime *subparts);
 
@@ -110658,7 +110661,7 @@ struct curl_forms {
   CURLformoption option;
   const char *value;
 };
-# 2609 "/usr/include/curl/curl.h" 3 4
+# 2612 "/usr/include/curl/curl.h" 3 4
 typedef enum {
   CURL_FORMADD_OK __attribute__((deprecated("since " "7.56.0" ". " ""))),
 
@@ -110673,15 +110676,15 @@ typedef enum {
 
   CURL_FORMADD_LAST
 } CURLFORMcode;
-# 2633 "/usr/include/curl/curl.h" 3 4
+# 2636 "/usr/include/curl/curl.h" 3 4
  CURLFORMcode __attribute__((deprecated("since " "7.56.0" ". " "Use curl_mime_init()")))
 curl_formadd(struct curl_httppost **httppost,
              struct curl_httppost **last_post,
              ...);
-# 2646 "/usr/include/curl/curl.h" 3 4
+# 2649 "/usr/include/curl/curl.h" 3 4
 typedef size_t (*curl_formget_callback)(void *arg, const char *buf,
                                         size_t len);
-# 2659 "/usr/include/curl/curl.h" 3 4
+# 2662 "/usr/include/curl/curl.h" 3 4
  int __attribute__((deprecated("since " "7.56.0" ". " "")))
 curl_formget(struct curl_httppost *form, void *arg,
              curl_formget_callback append);
@@ -110694,11 +110697,11 @@ curl_formget(struct curl_httppost *form, void *arg,
 
  void __attribute__((deprecated("since " "7.56.0" ". " "Use curl_mime_free()")))
 curl_formfree(struct curl_httppost *form);
-# 2680 "/usr/include/curl/curl.h" 3 4
+# 2683 "/usr/include/curl/curl.h" 3 4
  char *curl_getenv(const char *variable);
-# 2689 "/usr/include/curl/curl.h" 3 4
+# 2692 "/usr/include/curl/curl.h" 3 4
  char *curl_version(void);
-# 2700 "/usr/include/curl/curl.h" 3 4
+# 2703 "/usr/include/curl/curl.h" 3 4
  char *curl_easy_escape(CURL *handle,
                                    const char *string,
                                    int length);
@@ -110706,7 +110709,7 @@ curl_formfree(struct curl_httppost *form);
 
  char *curl_escape(const char *string,
                               int length);
-# 2720 "/usr/include/curl/curl.h" 3 4
+# 2723 "/usr/include/curl/curl.h" 3 4
  char *curl_easy_unescape(CURL *handle,
                                      const char *string,
                                      int length,
@@ -110715,20 +110718,20 @@ curl_formfree(struct curl_httppost *form);
 
  char *curl_unescape(const char *string,
                                 int length);
-# 2737 "/usr/include/curl/curl.h" 3 4
+# 2740 "/usr/include/curl/curl.h" 3 4
  void curl_free(void *p);
-# 2751 "/usr/include/curl/curl.h" 3 4
+# 2754 "/usr/include/curl/curl.h" 3 4
  CURLcode curl_global_init(long flags);
-# 2766 "/usr/include/curl/curl.h" 3 4
+# 2769 "/usr/include/curl/curl.h" 3 4
  CURLcode curl_global_init_mem(long flags,
                                           curl_malloc_callback m,
                                           curl_free_callback f,
                                           curl_realloc_callback r,
                                           curl_strdup_callback s,
                                           curl_calloc_callback c);
-# 2781 "/usr/include/curl/curl.h" 3 4
+# 2784 "/usr/include/curl/curl.h" 3 4
  void curl_global_cleanup(void);
-# 2795 "/usr/include/curl/curl.h" 3 4
+# 2798 "/usr/include/curl/curl.h" 3 4
  CURLcode curl_global_trace(const char *config);
 
 
@@ -110736,7 +110739,7 @@ struct curl_slist {
   char *data;
   struct curl_slist *next;
 };
-# 2829 "/usr/include/curl/curl.h" 3 4
+# 2832 "/usr/include/curl/curl.h" 3 4
 struct curl_ssl_backend {
   curl_sslbackend id;
   const char *name;
@@ -110752,12 +110755,12 @@ typedef enum {
 
  CURLsslset curl_global_sslset(curl_sslbackend id, const char *name,
                                           const curl_ssl_backend ***avail);
-# 2853 "/usr/include/curl/curl.h" 3 4
+# 2856 "/usr/include/curl/curl.h" 3 4
  struct curl_slist *curl_slist_append(struct curl_slist *list,
                                                  const char *data);
-# 2863 "/usr/include/curl/curl.h" 3 4
+# 2866 "/usr/include/curl/curl.h" 3 4
  void curl_slist_free_all(struct curl_slist *list);
-# 2874 "/usr/include/curl/curl.h" 3 4
+# 2877 "/usr/include/curl/curl.h" 3 4
  time_t curl_getdate(const char *p, const time_t *unused);
 
 
@@ -110777,7 +110780,7 @@ struct curl_tlssessioninfo {
   curl_sslbackend backend;
   void *internals;
 };
-# 2904 "/usr/include/curl/curl.h" 3 4
+# 2907 "/usr/include/curl/curl.h" 3 4
 typedef enum {
   CURLINFO_NONE,
   CURLINFO_EFFECTIVE_URL = 0x100000 + 1,
@@ -110891,7 +110894,7 @@ typedef enum {
 
   CURLCLOSEPOLICY_LAST
 } curl_closepolicy;
-# 3031 "/usr/include/curl/curl.h" 3 4
+# 3034 "/usr/include/curl/curl.h" 3 4
 typedef enum {
   CURL_LOCK_DATA_NONE = 0,
 
@@ -110970,7 +110973,7 @@ typedef enum {
   CURLVERSION_TWELFTH,
   CURLVERSION_LAST
 } CURLversion;
-# 3117 "/usr/include/curl/curl.h" 3 4
+# 3120 "/usr/include/curl/curl.h" 3 4
 struct curl_version_info_data {
   CURLversion age;
   const char *version;
@@ -111034,15 +111037,15 @@ struct curl_version_info_data {
   const char *rtmp_version;
 };
 typedef struct curl_version_info_data curl_version_info_data;
-# 3226 "/usr/include/curl/curl.h" 3 4
+# 3229 "/usr/include/curl/curl.h" 3 4
  curl_version_info_data *curl_version_info(CURLversion);
-# 3237 "/usr/include/curl/curl.h" 3 4
+# 3240 "/usr/include/curl/curl.h" 3 4
  const char *curl_easy_strerror(CURLcode);
-# 3248 "/usr/include/curl/curl.h" 3 4
+# 3251 "/usr/include/curl/curl.h" 3 4
  const char *curl_share_strerror(CURLSHcode);
-# 3259 "/usr/include/curl/curl.h" 3 4
+# 3262 "/usr/include/curl/curl.h" 3 4
  CURLcode curl_easy_pause(CURL *handle, int bitmask);
-# 3278 "/usr/include/curl/curl.h" 3 4
+# 3281 "/usr/include/curl/curl.h" 3 4
  CURLcode curl_easy_ssls_import(CURL *handle,
                                            const char *session_key,
                                            const unsigned char *shmac,
@@ -111063,7 +111066,7 @@ typedef CURLcode curl_ssls_export_cb(CURL *handle,
                                      int ietf_tls_id,
                                      const char *alpn,
                                      size_t earlydata_max);
-# 3309 "/usr/include/curl/curl.h" 3 4
+# 3312 "/usr/include/curl/curl.h" 3 4
  CURLcode curl_easy_ssls_export(CURL *handle,
                                            curl_ssls_export_cb *export_fn,
                                            void *userptr);
@@ -111112,7 +111115,7 @@ struct curl_blob {
 
 
 }
-# 3321 "/usr/include/curl/curl.h" 2 3 4
+# 3324 "/usr/include/curl/curl.h" 2 3 4
 # 1 "/usr/include/curl/multi.h" 1 3 4
 # 51 "/usr/include/curl/multi.h" 3 4
 # 1 "/usr/include/curl/curl.h" 1 3 4
@@ -111314,7 +111317,7 @@ typedef int (*curl_push_callback)(CURL *parent,
 
 
 }
-# 3322 "/usr/include/curl/curl.h" 2 3 4
+# 3325 "/usr/include/curl/curl.h" 2 3 4
 # 1 "/usr/include/curl/urlapi.h" 1 3 4
 # 30 "/usr/include/curl/urlapi.h" 3 4
 extern "C" {
@@ -111417,7 +111420,7 @@ typedef struct Curl_URL CURLU;
 
 
 }
-# 3323 "/usr/include/curl/curl.h" 2 3 4
+# 3326 "/usr/include/curl/curl.h" 2 3 4
 # 1 "/usr/include/curl/options.h" 1 3 4
 # 28 "/usr/include/curl/options.h" 3 4
 extern "C" {
@@ -111453,7 +111456,7 @@ curl_easy_option_next(const struct curl_easyoption *prev);
 
 
 }
-# 3324 "/usr/include/curl/curl.h" 2 3 4
+# 3327 "/usr/include/curl/curl.h" 2 3 4
 # 1 "/usr/include/curl/header.h" 1 3 4
 # 28 "/usr/include/curl/header.h" 3 4
 extern "C" {
@@ -111493,7 +111496,7 @@ typedef enum {
 
 
 }
-# 3325 "/usr/include/curl/curl.h" 2 3 4
+# 3328 "/usr/include/curl/curl.h" 2 3 4
 # 1 "/usr/include/curl/websockets.h" 1 3 4
 # 28 "/usr/include/curl/websockets.h" 3 4
 extern "C" {
@@ -111519,12 +111522,12 @@ struct curl_ws_frame {
 
 
 
+
  const struct curl_ws_frame *curl_ws_meta(CURL *curl);
 
 
 }
-# 3326 "/usr/include/curl/curl.h" 2 3 4
-
+# 3329 "/usr/include/curl/curl.h" 2 3 4
 # 1 "/usr/include/curl/mprintf.h" 1 3 4
 # 27 "/usr/include/curl/mprintf.h" 3 4
 # 1 "/usr/lib/gcc/x86_64-pc-linux-gnu/15.1.1/include/stdarg.h" 1 3 4
@@ -111562,7 +111565,7 @@ extern "C" {
 
 
 }
-# 3328 "/usr/include/curl/curl.h" 2 3 4
+# 3330 "/usr/include/curl/curl.h" 2 3 4
 # 11 "/home/rikka/Eversoul/source/common.hpp" 2
 # 1 "/usr/include/nlohmann/json.hpp" 1 3 4
 # 21 "/usr/include/nlohmann/json.hpp" 3 4
