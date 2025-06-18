@@ -4228,6 +4228,76 @@
       "value": 25000,
       "item_infosOffset": "[[46, 30]]",
       "reset_hour_sno": 560089
+    },
+    {
+      "no": 391,
+      "group": 4001,
+      "event_number": 4,
+      "day_order": 1,
+      "behavior": 227,
+      "value": 2000,
+      "item_infosOffset": "[[7036, 10]]",
+      "reset_hour_sno": 560089
+    },
+    {
+      "no": 392,
+      "group": 4001,
+      "event_number": 4,
+      "day_order": 1,
+      "behavior": 227,
+      "value": 5000,
+      "item_infosOffset": "[[4, 1500]]",
+      "reset_hour_sno": 560089
+    },
+    {
+      "no": 393,
+      "group": 4001,
+      "event_number": 4,
+      "day_order": 1,
+      "behavior": 227,
+      "value": 8000,
+      "item_infosOffset": "[[28, 10]]",
+      "reset_hour_sno": 560089
+    },
+    {
+      "no": 394,
+      "group": 4001,
+      "event_number": 4,
+      "day_order": 1,
+      "behavior": 227,
+      "value": 13000,
+      "item_infosOffset": "[[4189, 1]]",
+      "reset_hour_sno": 560089
+    },
+    {
+      "no": 395,
+      "group": 4001,
+      "event_number": 4,
+      "day_order": 1,
+      "behavior": 227,
+      "value": 17000,
+      "item_infosOffset": "[[45, 20]]",
+      "reset_hour_sno": 560089
+    },
+    {
+      "no": 396,
+      "group": 4001,
+      "event_number": 4,
+      "day_order": 1,
+      "behavior": 227,
+      "value": 21000,
+      "item_infosOffset": "[[19, 10]]",
+      "reset_hour_sno": 560089
+    },
+    {
+      "no": 397,
+      "group": 4001,
+      "event_number": 4,
+      "day_order": 1,
+      "behavior": 227,
+      "value": 25000,
+      "item_infosOffset": "[[4190, 1]]",
+      "reset_hour_sno": 560089
     }
   ]
 }

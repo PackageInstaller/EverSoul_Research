@@ -1343,6 +1343,366 @@
       "reward_type": 3,
       "reward_item": 46,
       "reward_amount": 10
+    },
+    {
+      "no": 169,
+      "group": 5,
+      "bingo_no": 1,
+      "reward_type": 1,
+      "reward_item": 3001,
+      "reward_amount": 1
+    },
+    {
+      "no": 170,
+      "group": 5,
+      "bingo_no": 2,
+      "reward_type": 1,
+      "reward_item": 3001,
+      "reward_amount": 1
+    },
+    {
+      "no": 171,
+      "group": 5,
+      "bingo_no": 3,
+      "reward_type": 1,
+      "reward_item": 3001,
+      "reward_amount": 1
+    },
+    {
+      "no": 172,
+      "group": 5,
+      "bingo_no": 4,
+      "reward_type": 1,
+      "reward_item": 3001,
+      "reward_amount": 1
+    },
+    {
+      "no": 173,
+      "group": 5,
+      "bingo_no": 5,
+      "reward_type": 1,
+      "reward_item": 3001,
+      "reward_amount": 1
+    },
+    {
+      "no": 174,
+      "group": 5,
+      "bingo_no": 6,
+      "reward_type": 1,
+      "reward_item": 3006,
+      "reward_amount": 1
+    },
+    {
+      "no": 175,
+      "group": 5,
+      "bingo_no": 7,
+      "reward_type": 1,
+      "reward_item": 3006,
+      "reward_amount": 1
+    },
+    {
+      "no": 176,
+      "group": 5,
+      "bingo_no": 8,
+      "reward_type": 1,
+      "reward_item": 3006,
+      "reward_amount": 1
+    },
+    {
+      "no": 177,
+      "group": 5,
+      "bingo_no": 9,
+      "reward_type": 1,
+      "reward_item": 3006,
+      "reward_amount": 1
+    },
+    {
+      "no": 178,
+      "group": 5,
+      "bingo_no": 10,
+      "reward_type": 1,
+      "reward_item": 3006,
+      "reward_amount": 1
+    },
+    {
+      "no": 179,
+      "group": 5,
+      "bingo_no": 11,
+      "reward_type": 1,
+      "reward_item": 3011,
+      "reward_amount": 1
+    },
+    {
+      "no": 180,
+      "group": 5,
+      "bingo_no": 12,
+      "reward_type": 1,
+      "reward_item": 3011,
+      "reward_amount": 1
+    },
+    {
+      "no": 181,
+      "group": 5,
+      "bingo_no": 13,
+      "reward_type": 1,
+      "reward_item": 3011,
+      "reward_amount": 1
+    },
+    {
+      "no": 182,
+      "group": 5,
+      "bingo_no": 14,
+      "reward_type": 1,
+      "reward_item": 3011,
+      "reward_amount": 1
+    },
+    {
+      "no": 183,
+      "group": 5,
+      "bingo_no": 15,
+      "reward_type": 1,
+      "reward_item": 3011,
+      "reward_amount": 1
+    },
+    {
+      "no": 184,
+      "group": 5,
+      "bingo_no": 16,
+      "reward_type": 1,
+      "reward_item": 30,
+      "reward_amount": 15
+    },
+    {
+      "no": 185,
+      "group": 5,
+      "bingo_no": 17,
+      "reward_type": 1,
+      "reward_item": 30,
+      "reward_amount": 15
+    },
+    {
+      "no": 186,
+      "group": 5,
+      "bingo_no": 18,
+      "reward_type": 1,
+      "reward_item": 30,
+      "reward_amount": 15
+    },
+    {
+      "no": 187,
+      "group": 5,
+      "bingo_no": 19,
+      "reward_type": 1,
+      "reward_item": 30,
+      "reward_amount": 15
+    },
+    {
+      "no": 188,
+      "group": 5,
+      "bingo_no": 20,
+      "reward_type": 1,
+      "reward_item": 2,
+      "reward_amount": 100
+    },
+    {
+      "no": 189,
+      "group": 5,
+      "bingo_no": 21,
+      "reward_type": 1,
+      "reward_item": 2,
+      "reward_amount": 100
+    },
+    {
+      "no": 190,
+      "group": 5,
+      "bingo_no": 22,
+      "reward_type": 1,
+      "reward_item": 2,
+      "reward_amount": 100
+    },
+    {
+      "no": 191,
+      "group": 5,
+      "bingo_no": 23,
+      "reward_type": 1,
+      "reward_item": 45,
+      "reward_amount": 1
+    },
+    {
+      "no": 192,
+      "group": 5,
+      "bingo_no": 24,
+      "reward_type": 1,
+      "reward_item": 28,
+      "reward_amount": 1
+    },
+    {
+      "no": 193,
+      "group": 5,
+      "bingo_no": 25,
+      "reward_type": 1,
+      "reward_item": 66,
+      "reward_amount": 1
+    },
+    {
+      "no": 194,
+      "group": 5,
+      "bingo_no": 26,
+      "reward_type": 2,
+      "reward_item": 45,
+      "reward_amount": 1
+    },
+    {
+      "no": 195,
+      "group": 5,
+      "bingo_no": 27,
+      "reward_type": 2,
+      "reward_item": 45,
+      "reward_amount": 1
+    },
+    {
+      "no": 196,
+      "group": 5,
+      "bingo_no": 28,
+      "reward_type": 2,
+      "reward_item": 45,
+      "reward_amount": 1
+    },
+    {
+      "no": 197,
+      "group": 5,
+      "bingo_no": 29,
+      "reward_type": 2,
+      "reward_item": 45,
+      "reward_amount": 1
+    },
+    {
+      "no": 198,
+      "group": 5,
+      "bingo_no": 30,
+      "reward_type": 2,
+      "reward_item": 28,
+      "reward_amount": 1
+    },
+    {
+      "no": 199,
+      "group": 5,
+      "bingo_no": 31,
+      "reward_type": 2,
+      "reward_item": 28,
+      "reward_amount": 1
+    },
+    {
+      "no": 200,
+      "group": 5,
+      "bingo_no": 32,
+      "reward_type": 2,
+      "reward_item": 28,
+      "reward_amount": 1
+    },
+    {
+      "no": 201,
+      "group": 5,
+      "bingo_no": 33,
+      "reward_type": 2,
+      "reward_item": 28,
+      "reward_amount": 1
+    },
+    {
+      "no": 202,
+      "group": 5,
+      "bingo_no": 34,
+      "reward_type": 2,
+      "reward_item": 66,
+      "reward_amount": 1
+    },
+    {
+      "no": 203,
+      "group": 5,
+      "bingo_no": 35,
+      "reward_type": 2,
+      "reward_item": 12000,
+      "reward_amount": 10
+    },
+    {
+      "no": 204,
+      "group": 5,
+      "bingo_no": 36,
+      "reward_type": 2,
+      "reward_item": 65,
+      "reward_amount": 2000
+    },
+    {
+      "no": 205,
+      "group": 5,
+      "bingo_no": 37,
+      "reward_type": 2,
+      "reward_item": 4126,
+      "reward_amount": 5
+    },
+    {
+      "no": 206,
+      "group": 5,
+      "bingo_no": 38,
+      "reward_type": 3,
+      "reward_item": 2,
+      "reward_amount": 1200
+    },
+    {
+      "no": 207,
+      "group": 5,
+      "bingo_no": 39,
+      "reward_type": 3,
+      "reward_item": 3023,
+      "reward_amount": 7
+    },
+    {
+      "no": 208,
+      "group": 5,
+      "bingo_no": 40,
+      "reward_type": 3,
+      "reward_item": 2,
+      "reward_amount": 1500
+    },
+    {
+      "no": 209,
+      "group": 5,
+      "bingo_no": 41,
+      "reward_type": 3,
+      "reward_item": 4141,
+      "reward_amount": 1
+    },
+    {
+      "no": 210,
+      "group": 5,
+      "bingo_no": 42,
+      "reward_type": 3,
+      "reward_item": 46,
+      "reward_amount": 10
+    },
+    {
+      "no": 211,
+      "group": 5,
+      "bingo_no": 43,
+      "reward_type": 3,
+      "reward_item": 3023,
+      "reward_amount": 2
+    },
+    {
+      "no": 212,
+      "group": 5,
+      "bingo_no": 44,
+      "reward_type": 3,
+      "reward_item": 3023,
+      "reward_amount": 2
+    },
+    {
+      "no": 213,
+      "group": 5,
+      "bingo_no": 45,
+      "reward_type": 3,
+      "reward_item": 3023,
+      "reward_amount": 2
     }
   ]
 }

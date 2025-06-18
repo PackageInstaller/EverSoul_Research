@@ -10611,14 +10611,30 @@
     {
       "no": 26091,
       "krOffset": "선물이 두배~!",
+      "enOffset": "Double the Gifts!",
+      "jaOffset": "",
+      "zh_twOffset": "禮物變兩倍～！",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 26092,
+      "krOffset": "신속한 준비",
+      "enOffset": "Quick Prep",
+      "jaOffset": "",
+      "zh_twOffset": "神速準備",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 26093,
+      "krOffset": "ON AIR",
       "enOffset": "",
       "jaOffset": "",
       "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
-      "no": 26092,
-      "krOffset": "신속한 준비",
+      "no": 26094,
+      "krOffset": "무섭지 않아!",
       "enOffset": "",
       "jaOffset": "",
       "zh_twOffset": "",
@@ -11499,9 +11515,9 @@
     {
       "no": 27132,
       "krOffset": "지속 시간이 종료되면 아군 전체의 영구적으로 가하는 피해가 감소한다.",
-      "enOffset": "",
+      "enOffset": "When the duration ends, permanently decreases the damage dealt by all allies.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "持續時間結束後，所有友軍的造成傷害永久減少",
       "zh_cnOffset": ""
     },
     {
@@ -15035,249 +15051,249 @@
     {
       "no": 27574,
       "krOffset": "피로",
-      "enOffset": "Work in Progress",
+      "enOffset": "Fatigue",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "疲勞",
       "zh_cnOffset": ""
     },
     {
       "no": 27575,
       "krOffset": "10중첩 시 공격력이 30%, 가속이 15% 감소한다!",
-      "enOffset": "Work in Progress",
+      "enOffset": "At 10 stacks, decreases ATK by 30% and Speed by 15%!",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "達10疊加時，攻擊力減少30%、加速減少15%！",
       "zh_cnOffset": ""
     },
     {
       "no": 27576,
       "krOffset": "어지러워..",
-      "enOffset": "Work in Progress",
+      "enOffset": "So Dizzy...",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "頭好暈…",
       "zh_cnOffset": ""
     },
     {
       "no": 27577,
       "krOffset": "말썽쟁이 실베스터",
-      "enOffset": "Work in Progress",
+      "enOffset": "Varmint",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "搗蛋鬼席爾維斯特",
       "zh_cnOffset": ""
     },
     {
       "no": 27578,
       "krOffset": "실베스터의 받는 최종 피해량이 30% 감소한다.\r\n버프가 해제되면 <어지러워..> 상태일때 더 큰 피해 받는다.",
-      "enOffset": "Work in Progress",
+      "enOffset": "Decreases Total damage received by 30%. Takes greater damage while in \"So Dizzy...\" when the buff is canceled.",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "席爾維斯特的所受最終傷害量減少30%，\r\n增益解除後處於＜頭好暈…＞狀態時，將受到更大的傷害",
       "zh_cnOffset": ""
     },
     {
       "no": 27579,
       "krOffset": "실베스터의 받는 최종 피해량이 50% 감소한다.\r\n버프가 해제되면 <어지러워..> 상태일때 더 큰 피해 받는다.",
-      "enOffset": "Work in Progress",
+      "enOffset": "Decreases Total damage received by 50%. Takes greater damage while in \"So Dizzy...\" when the buff is canceled.",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "席爾維斯特的所受最終傷害量減少50%，\r\n增益解除後處於＜頭好暈…＞狀態時，將受到更大的傷害",
       "zh_cnOffset": ""
     },
     {
       "no": 27580,
       "krOffset": "유물 효과로 인해 치명타 확률이 10%, 가속이 5 증가한다.",
-      "enOffset": "Work in Progress",
+      "enOffset": "Increases Crit Rate by 10% and Speed by 5 thanks to the Artifact effect.",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "因遺物效果，暴擊率增加10%、加速增加5",
       "zh_cnOffset": ""
     },
     {
       "no": 27581,
       "krOffset": "유물 효과로 인해 치명타 확률이 15%, 가속이 7.5 증가한다.",
-      "enOffset": "Work in Progress",
+      "enOffset": "Increases Crit Rate by 15% and Speed by 7.5 thanks to the Artifact effect.",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "因遺物效果，暴擊率增加15%、加速增加7.5",
       "zh_cnOffset": ""
     },
     {
       "no": 27582,
       "krOffset": "유물 효과로 인해 치명타 확률이 20%, 가속이 10 증가한다.",
-      "enOffset": "Work in Progress",
+      "enOffset": "Increases Crit Rate by 20% and Speed by 10 thanks to the Artifact effect.",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "因遺物效果，暴擊率增加20%、加速增加10",
       "zh_cnOffset": ""
     },
     {
       "no": 27583,
       "krOffset": "유물 효과로 인해 치명타 확률이 25%, 가속이 12.5 증가한다.",
-      "enOffset": "Work in Progress",
+      "enOffset": "Increases Crit Rate by 25% and Speed by 12.5 thanks to the Artifact effect.",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "因遺物效果，暴擊率增加25%、加速增加12.5",
       "zh_cnOffset": ""
     },
     {
       "no": 27584,
       "krOffset": "유물 효과로 인해 치명타 확률이 30%, 가속이 15 증가한다.",
-      "enOffset": "Work in Progress",
+      "enOffset": "Increases Crit Rate by 30% and Speed by 15 thanks to the Artifact effect.",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "因遺物效果，暴擊率增加30%、加速增加15",
       "zh_cnOffset": ""
     },
     {
       "no": 27585,
       "krOffset": "유물 효과로 인해 치명타 확률이 35%, 가속이 17.5 증가한다.",
-      "enOffset": "Work in Progress",
+      "enOffset": "Increases Crit Rate by 35% and Speed by 17.5 thanks to the Artifact effect.",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "因遺物效果，暴擊率增加35%、加速增加17.5",
       "zh_cnOffset": ""
     },
     {
       "no": 27586,
       "krOffset": "유물 효과로 인해 치명타 확률이 40%, 가속이 20 증가한다.",
-      "enOffset": "Work in Progress",
+      "enOffset": "Increases Crit Rate by 40% and Speed by 20 thanks to the Artifact effect.",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "因遺物效果，暴擊率增加40%、加速增加20",
       "zh_cnOffset": ""
     },
     {
       "no": 27587,
       "krOffset": "피니셔",
-      "enOffset": "Work in Progress",
+      "enOffset": "Finisher",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "終結者",
       "zh_cnOffset": ""
     },
     {
       "no": 27588,
       "krOffset": "중첩 당 치명타 위력, 가하는 피해 6% 증가",
-      "enOffset": "Work in Progress",
+      "enOffset": "Crit DMG +6% and Damage Dealt +6% per stack",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "每疊加暴擊威力、造成傷害增加6%",
       "zh_cnOffset": ""
     },
     {
       "no": 27589,
       "krOffset": "마킹",
-      "enOffset": "Work in Progress",
+      "enOffset": "Marking",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "鎖定",
       "zh_cnOffset": ""
     },
     {
       "no": 27590,
       "krOffset": "중첩 당 치명타 피격률 +2%, 방어력 2% 감소",
-      "enOffset": "Work in Progress",
+      "enOffset": "Incoming Crit Rate +2% and DEF -2% per stack",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "每疊加被暴擊擊中率+2%、防禦力減少2%",
       "zh_cnOffset": ""
     },
     {
       "no": 27591,
       "krOffset": "중첩 당 치명타 피격률 +1%",
-      "enOffset": "Work in Progress",
+      "enOffset": "Incoming Crit Rate +1% per stack",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "每疊加被暴擊擊中率+1%",
       "zh_cnOffset": ""
     },
     {
       "no": 27592,
       "krOffset": "스파이럴 킥 - 마킹",
-      "enOffset": "Work in Progress",
+      "enOffset": "Spiral Kick - Marking",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "螺旋踢－鎖定",
       "zh_cnOffset": ""
     },
     {
       "no": 27593,
       "krOffset": "펜타 스트라이크 - 마킹",
-      "enOffset": "Work in Progress",
+      "enOffset": "Penta Strike - Marking",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "五連擊－鎖定",
       "zh_cnOffset": ""
     },
     {
       "no": 27594,
       "krOffset": "중첩 당 치명타 피격률 +1.5%",
-      "enOffset": "Work in Progress",
+      "enOffset": "Incoming Crit Rate +1.5% per stack",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "每疊加被暴擊擊中率+1.5%",
       "zh_cnOffset": ""
     },
     {
       "no": 27595,
       "krOffset": "중첩 당 가하는 피해 20% 감소",
-      "enOffset": "Work in Progress",
+      "enOffset": "Damage dealt -20% per stack",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "每疊加造成傷害減少20%",
       "zh_cnOffset": ""
     },
     {
       "no": 27596,
       "krOffset": "멸살 저지에 성공하여 기절한 시간 동안 받는 최종 피해량 <value>%",
-      "enOffset": "Work in Progress",
+      "enOffset": "Successfully stopping Obliteration grants <value>% Total damage received while stunned",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "成功阻止滅絕，暈眩期間所受最終傷害量<value>%",
       "zh_cnOffset": ""
     },
     {
       "no": 27597,
       "krOffset": "라우라 메인 2레벨 효과",
-      "enOffset": "Work in Progress",
+      "enOffset": "Laura Main Level 2 Effect",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "蘿拉主要2等級效果",
       "zh_cnOffset": ""
     },
     {
       "no": 27598,
       "krOffset": "라우라 메인 3레벨 효과",
-      "enOffset": "Work in Progress",
+      "enOffset": "Laura Main Level 3 Effect",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "蘿拉主要3等級效果",
       "zh_cnOffset": ""
     },
     {
       "no": 27599,
       "krOffset": "라우라 유물 4레벨  - 조건 없이 삼격 효과",
-      "enOffset": "Work in Progress",
+      "enOffset": "Laura Artifact Level 4 - Triple Strike effect without any requirements",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "蘿拉遺物4等級－無條件閃擊效果",
       "zh_cnOffset": ""
     },
     {
       "no": 27600,
       "krOffset": "라우라 유물 7레벨 - 조건 없이 환영 효과",
-      "enOffset": "Work in Progress",
+      "enOffset": "Laura Artifact Level 7 - Illusion effect without any requirements",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "蘿拉遺物7等級－無條件幻影效果",
       "zh_cnOffset": ""
     },
     {
       "no": 27601,
       "krOffset": "마력의 인장",
-      "enOffset": "Work in Progress",
+      "enOffset": "Mana Seal",
       "jaOffset": "",
-      "zh_twOffset": "Work in Progress",
+      "zh_twOffset": "魔力的印章",
       "zh_cnOffset": ""
     },
     {
       "no": 27602,
       "krOffset": "해제하지 못할 경우 모든 마나가 사라지고 적의 마나를 2500 회복시킨다!",
-      "enOffset": "",
+      "enOffset": "If not canceled, loses all Mana and restores the enemy's Mana by 2,500!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "未解除時，所有魔力消失，並恢復敵人魔力2500！",
       "zh_cnOffset": ""
     },
     {
       "no": 27603,
       "krOffset": "정화의 바람",
-      "enOffset": "",
+      "enOffset": "Purifying Wind",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "淨化之風",
       "zh_cnOffset": ""
     },
     {
       "no": 27604,
       "krOffset": "해제될 때까지 2초 마다 모든 디버프를 해제하는 상태가 되었다!",
-      "enOffset": "",
+      "enOffset": "Entered a state that cancels all debuffs every 2 sec until it's removed!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "到解除為止，處於每2秒解除所有減益效果的狀態！",
       "zh_cnOffset": ""
     },
     {
@@ -15291,161 +15307,1249 @@
     {
       "no": 27606,
       "krOffset": "압도적인 마나",
-      "enOffset": "",
+      "enOffset": "Overwhelming Mana",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "絕對的魔力",
       "zh_cnOffset": ""
     },
     {
       "no": 27607,
       "krOffset": "마녀가 보유 중인 마나가 100%일 경우 모든 적의 가하는 피해를 50% 감소시킨다.",
-      "enOffset": "",
+      "enOffset": "When the witch has 100% Mana, decreases the damage dealt by all enemies by 50%.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "魔女持有魔力100%時，使所有敵人的造成傷害減少50%",
       "zh_cnOffset": ""
     },
     {
       "no": 27608,
       "krOffset": "흔들리는 마나",
-      "enOffset": "",
+      "enOffset": "Wavering Mana",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "不穩定的魔力",
       "zh_cnOffset": ""
     },
     {
       "no": 27609,
       "krOffset": "공격을 받을 때마다 중첩이 쌓이며, 60중첩일 경우 모든 중첩과 마나를 소모하고 낙원의 마녀가 받는 피해가 100% 증가한다.",
-      "enOffset": "",
+      "enOffset": "At 60 stacks, consumes all stacks and Mana and increases the Witch of Paradise's damage received by 100%.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "每受到攻擊時累積疊加，達60疊加時，消耗所有疊加和魔力，樂園魔女所受傷害增加100%",
       "zh_cnOffset": ""
     },
     {
       "no": 27610,
       "krOffset": "오버히트",
-      "enOffset": "",
+      "enOffset": "Overheat",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "過熱",
       "zh_cnOffset": ""
     },
     {
       "no": 27611,
       "krOffset": "공격력 100%, 최대체력 100%, 가하는 피해가 50% 증가한다.",
-      "enOffset": "",
+      "enOffset": "Increases ATK by 100%, max HP by 100%, and damage dealt by 50%.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "攻擊力100%，體力上限100%，造成傷害增加50%",
       "zh_cnOffset": ""
     },
     {
       "no": 27612,
       "krOffset": "얼티밋 스킬 사용 시 추가 피해를 입히는 대신 영구적으로 자신의 가하는 피해가 60% 감소한다.",
-      "enOffset": "",
+      "enOffset": "Using the ultimate skill permanently decreases damage dealt by 60% instead of dealing additional damage.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "使用終極技能時會造成額外傷害，但自身的造成傷害會永久減少60%",
       "zh_cnOffset": ""
     },
     {
       "no": 27613,
       "krOffset": "낙원의 마녀",
-      "enOffset": "",
+      "enOffset": "The Witch of Paradise",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "樂園魔女",
       "zh_cnOffset": ""
     },
     {
       "no": 27614,
-      "krOffset": "피해를 입은 만큼 공격력과 방어력 증가, 다른 지속 피해는 잘 견디지만 냉기와 중독에 취약하다!",
-      "enOffset": "",
+      "krOffset": "다른 지속 피해는 잘 견디지만 냉기와 중독에 취약하다!",
+      "enOffset": "vulnerable to Freeze and Poison!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "能忍受其他持續傷害，但容易陷入寒氣和中毒！",
       "zh_cnOffset": ""
     },
     {
       "no": 27615,
-      "krOffset": "레베카의 메인 스킬로 인해 받는 최종 피해가 60% 증가하고",
-      "enOffset": "",
+      "krOffset": "레베카의 메인 스킬로 인해 받는 최종 피해가 60% 증가한다.",
+      "enOffset": "Increases total damage received from Rebecca's main skill by 60%.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "受到瑞貝卡主要技能影響，最終傷害提高60%",
       "zh_cnOffset": ""
     },
     {
       "no": 27616,
       "krOffset": "전성기의 힘",
-      "enOffset": "",
+      "enOffset": "The Power of Prime",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "巔峰期的力量",
       "zh_cnOffset": ""
     },
     {
       "no": 27617,
       "krOffset": "메인 스킬 사용 시 대상에게 일정 시간동안 받는 최종 피해를 증가시키고 영구적인 감전 피해를 입힌다.",
-      "enOffset": "",
+      "enOffset": "Using the main skill increases the damage received target for a set duration and deals permanent Shock damage.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "使用主要技能時，一定時間內增加目標所受最終傷害，並造成永久觸電傷害",
       "zh_cnOffset": ""
     },
     {
       "no": 27618,
       "krOffset": "받는 최종 피해 60% 증가",
-      "enOffset": "",
+      "enOffset": "Total damage received +60%",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "所受最終傷害增加60%",
       "zh_cnOffset": ""
     },
     {
       "no": 27619,
-      "krOffset": "",
-      "enOffset": "",
+      "krOffset": "울프 소울",
+      "enOffset": "work in progress",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "work in progress",
       "zh_cnOffset": ""
     },
     {
       "no": 27620,
-      "krOffset": "",
-      "enOffset": "",
+      "krOffset": "<저주> 상태 시 가속 <value>",
+      "enOffset": "work in progress",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "work in progress",
       "zh_cnOffset": ""
     },
     {
       "no": 27621,
-      "krOffset": "",
-      "enOffset": "",
+      "krOffset": "저주의 무게",
+      "enOffset": "work in progress",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "work in progress",
       "zh_cnOffset": ""
     },
     {
       "no": 27622,
-      "krOffset": "",
-      "enOffset": "",
+      "krOffset": "<저주> 상태에서 2초마다 공격력, 물리 저항, 마법 저항이 감소한다.",
+      "enOffset": "work in progress",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "work in progress",
       "zh_cnOffset": ""
     },
     {
       "no": 27623,
-      "krOffset": "",
-      "enOffset": "",
+      "krOffset": "저주 폭발",
+      "enOffset": "work in progress",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "work in progress",
       "zh_cnOffset": ""
     },
     {
       "no": 27624,
-      "krOffset": "",
-      "enOffset": "",
+      "krOffset": "효과가 종료될 때 부여된 저주의 수에 따라 추가 피해를 받는다!",
+      "enOffset": "work in progress",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "work in progress",
       "zh_cnOffset": ""
     },
     {
       "no": 27625,
-      "krOffset": "",
-      "enOffset": "",
+      "krOffset": "전의 상실",
+      "enOffset": "work in progress",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27626,
+      "krOffset": "심연의 저주",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27627,
+      "krOffset": "가하는 피해 20% 감소, 받는 피해 10% 증가",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27628,
+      "krOffset": "가하는 피해 25% 감소, 받는 피해 15% 증가",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27629,
+      "krOffset": "가하는 피해 30% 감소, 받는 피해 20% 증가",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27630,
+      "krOffset": "울프 소울",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27631,
+      "krOffset": "야수의 힘",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27632,
+      "krOffset": "가랑비",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27633,
+      "krOffset": "느림의 미학",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27634,
+      "krOffset": "받는 최종 피해 감소",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27635,
+      "krOffset": "굳건함",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27636,
+      "krOffset": "군중 제어 및 넉백 계열 효과에 면역",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27637,
+      "krOffset": "짓눌림",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27638,
+      "krOffset": "중첩 당 공격력 1%, 물리 저항, 마법 저항 2% 감소",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27639,
+      "krOffset": "중첩 당 공격력 1.5%, 물리 저항, 마법 저항 3% 감소",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27640,
+      "krOffset": "중첩 당 공격력 2%, 물리 저항, 마법 저항 4% 감소",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27641,
+      "krOffset": "겨울 늑대의 보호",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27642,
+      "krOffset": "죽음에 이르는 피해를 받았을 때 1회에 한해 피해를 면역하고 체력을 회복한다.",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27643,
+      "krOffset": "여름 여우의 축복",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27644,
+      "krOffset": "받는 최종 피해 80% 감소",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27645,
+      "krOffset": "받는 저주 피해 증가",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27646,
+      "krOffset": "받는 저주 피해 25% 증가",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27647,
+      "krOffset": "받는 저주 피해 50% 증가",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27648,
+      "krOffset": "바람의 상처",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27649,
+      "krOffset": "비비안이 메인 스킬 사용 시 대상의 그로기가 크게 감소하고 4회까지 중첩되는 저주 피해를 부여한다.",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27650,
+      "krOffset": "순풍",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27651,
+      "krOffset": "비비안이 전장에 있는 동안 모든 아군의 가속이 증가한다.",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27652,
+      "krOffset": "인과율 위배",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27653,
+      "krOffset": "가하는 피해, 최대 체력, 마나 회복량 증가 및 일부 스킬 효과 강화",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27654,
+      "krOffset": "세계를 멸망시킨 마녀",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27655,
+      "krOffset": "저주 피해에 취약",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27656,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27657,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27658,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27659,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27660,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27661,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27662,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27663,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27664,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27665,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27666,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27667,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27668,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27669,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27670,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27671,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27672,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27673,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27674,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27675,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27676,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27677,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27678,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27679,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27680,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27681,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27682,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27683,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27684,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27685,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27686,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27687,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27688,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27689,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27690,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27691,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27692,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27693,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27694,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27695,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27696,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27697,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27698,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27699,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27700,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27701,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27702,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27703,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27704,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27705,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27706,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27707,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27708,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27709,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27710,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27711,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27712,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27713,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27714,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27715,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27716,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27717,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27718,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27719,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27720,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27721,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27722,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27723,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27724,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27725,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27726,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27727,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27728,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27729,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27730,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27731,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27732,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27733,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27734,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27735,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27736,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27737,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27738,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27739,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27740,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27741,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27742,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27743,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27744,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27745,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27746,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27747,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27748,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27749,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27750,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27751,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27752,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27753,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27754,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27755,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27756,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27757,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27758,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27759,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27760,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 27761,
+      "krOffset": "work in progress",
+      "enOffset": "work in progress",
+      "jaOffset": "",
+      "zh_twOffset": "work in progress",
       "zh_cnOffset": ""
     },
     {
@@ -20585,6 +21689,86 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 232170,
+      "krOffset": "쿠투네시르카(카무이)",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 232171,
+      "krOffset": "울프 소울",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 232172,
+      "krOffset": "전투 중 <저주>상태인 적의 가속을 <217611.VALUE> 감소시키고, 늑대의 영혼이 하루를 도와 자신이 죽음에 이르는 피해를 받았을 때 피해를 면역하고 체력을 <217616.VALUE> 회복하는 <color=#FFFFFF><겨울 늑대의 보호></color> 효과를 전투 시작 시 획득한다. (1회 발동)",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 232173,
+      "krOffset": "감소하는 가속이 <217621.VALUE>로 변경된다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 232174,
+      "krOffset": "감소하는 가속이 <217631.VALUE>로 변경된다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 232175,
+      "krOffset": "감소하는 가속이 <217641.VALUE>로 변경되고, <color=#FFFFFF><겨울 늑대의 보호></color> 효과로 회복하는 체력이 <217646.VALUE>로 변경되며, 해당 효과 발동 이후 <color=#FFFFFF>4</color>초 동안 받는 최종 피해가 <color=#EDA900>80%</color> 감소하는 <color=#FFFFFF><여름 여우의 보호></color> 효과가 추가된다. 추가로 전투 시작 시 모든 적이 받는 저주 피해가 <color=#B778FF>25%</color> 증가한다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 232176,
+      "krOffset": "감소하는 가속이 <217651.VALUE>로 변경된다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 232177,
+      "krOffset": "감소하는 가속이 <217661.VALUE>로 변경된다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 232178,
+      "krOffset": "감소하는 가속이 <217671.VALUE>로 변경되고,<color=#FFFFFF><겨울 늑대의 보호></color> 효과로 회복하는 체력이 <217676.VALUE>로 변경된다.\r\n추가로 전투 시작 시 모든 적이 받는 저주 피해가 <color=#B778FF>50%</color> 증가한다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 232179,
+      "krOffset": "붕괴하는 세상에서 홀로 풍요로운 산, 이오루에 고독하게 남겨진 검. \r\n하지만 겨울 늑대와 여름 여우, 암수 용신의 가호는 변함없이 깃들어 있다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 233010,
       "krOffset": "엘릭서",
       "enOffset": "Elixir of Life",
@@ -21867,97 +23051,97 @@
     {
       "no": 233170,
       "krOffset": "7발의 마탄(잔영)",
-      "enOffset": "",
+      "enOffset": "The Seventh Bullet (Afterimage)",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "七發魔彈（殘影）",
       "zh_cnOffset": ""
     },
     {
       "no": 233179,
       "krOffset": "마탄의 악마 자미엘의 힘이 깃든 탄환. \r\n마지막 일곱 번째 탄환은 목표를 반드시 꿰뚫은 후, \r\n그림자처럼 사라진다고 한다.",
-      "enOffset": "",
+      "enOffset": "A bullet imbued with the power of Samiel, the Demon of Magic Bullet.\r\nThe final, seventh shot is said to pierce its mark without fail,\r\nthen vanish like a shadow...",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "蘊含著魔彈惡魔賈米爾力量的子彈。\r\n據說最後的第七發子彈必會射穿目標，\r\n接著會像影子般消失。",
       "zh_cnOffset": ""
     },
     {
       "no": 233180,
       "krOffset": "소림사 탑림",
-      "enOffset": "",
+      "enOffset": "Shaolin Temple Pagoda Forest",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "少林寺塔林",
       "zh_cnOffset": ""
     },
     {
       "no": 233181,
       "krOffset": "언리미티드 체이스",
-      "enOffset": "",
+      "enOffset": "Unlimited Chase",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "窮追不捨",
       "zh_cnOffset": ""
     },
     {
       "no": 233182,
       "krOffset": "자신의 치명타 확률이 <318610.VALUE>, 가속이 <318611.VALUE> 증가한다.",
-      "enOffset": "",
+      "enOffset": "Increases her Crit Rate by <318610.VALUE> and Speed by <318611.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "自身暴擊率增加<318610.VALUE>、加速增加<318611.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 233183,
       "krOffset": "자신의 치명타 확률이 <318620.VALUE>, 가속이 <318621.VALUE> 증가한다.",
-      "enOffset": "",
+      "enOffset": "Increases her Crit Rate by <318620.VALUE> and Speed by <318621.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "自身暴擊率增加<318620.VALUE>、加速增加<318621.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 233184,
       "krOffset": "자신의 치명타 확률이 <318630.VALUE>, 가속이 <318631.VALUE> 증가한다.",
-      "enOffset": "",
+      "enOffset": "Increases her Crit Rate by <318630.VALUE> and Speed by <318631.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "自身暴擊率增加<318630.VALUE>、加速增加<318631.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 233185,
-      "krOffset": "자신의 치명타 확률이 <318640.VALUE>, 가속이 <318641.VALUE> 증가한다.\r\n추가로<COLOR=#FFFFFF><링크 스트라이크></COLOR>의 모든 추가 효과를 <COLOR=#FFFFFF><마킹></COLOR> 중첩과 관계 없이 사용할 수 있게 된다.",
-      "enOffset": "",
+      "krOffset": "자신의 치명타 확률이 <318640.VALUE>, 가속이 <318641.VALUE> 증가한다.\r\n\r\n추가로 <COLOR=#FFFFFF><링크 스트라이크></COLOR> 의 모든 추가 효과를 <COLOR=#FFFFFF><마킹></COLOR> 중첩과 관계 없이 사용할 수 있게 되고 <COLOR=#FFFFFF><어퍼 블로우></COLOR> 의 피해량 증가 효과가 상시 10중첩으로 적용된다.",
+      "enOffset": "Increases her Crit Rate by <318640.VALUE> and Speed by <318641.VALUE>.\r\n\r\nAdditionally, all additional effects of <COLOR=#FFFFFF>\"Link Strike\"</COLOR> can be used regardless of <COLOR=#FFFFFF>\"Marking\"</COLOR> stacks and the damage increase of <COLOR=#FFFFFF>\"Upper Blow\"</COLOR> is now always applied at its 10 stacks.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "自身暴擊率增加<318640.VALUE>、加速增加<318641.VALUE>。\r\n\r\n另外，無論<COLOR=#FFFFFF>＜鎖定＞</COLOR>疊加數，均可使用<COLOR=#FFFFFF>＜連續重擊＞</COLOR>的所有額外效果，<COLOR=#FFFFFF>＜上鉤拳＞</COLOR>的傷害量增加效果固定為10疊加",
       "zh_cnOffset": ""
     },
     {
       "no": 233186,
       "krOffset": "자신의 치명타 확률이 <318650.VALUE>, 가속이 <318651.VALUE> 증가한다.",
-      "enOffset": "",
+      "enOffset": "Increases her Crit Rate by <318650.VALUE> and Speed by <318651.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "自身暴擊率增加<318650.VALUE>、加速增加<318651.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 233187,
       "krOffset": "자신의 치명타 확률이 <318660.VALUE>, 가속이 <318661.VALUE> 증가한다.",
-      "enOffset": "",
+      "enOffset": "Increases her Crit Rate by <318660.VALUE> and Speed by <318661.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "自身暴擊率增加<318660.VALUE>、加速增加<318661.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 233188,
-      "krOffset": "자신의 치명타 확률이 <318670.VALUE>, 가속이 <318671.VALUE> 증가한다. <COLOR=#FFFFFF><매그넘 피니셔></COLOR>을 <COLOR=#FFFFFF><마킹></COLOR> 중첩과 관계 없이 사용할 수 있게 되고, 얼티밋 사용 시 <COLOR=#FFFFFF><매그넘 피니셔></COLOR>를 <COLOR=#FFFFFF>2</COLOR>회 사용하는 효과가 추가된다.",
-      "enOffset": "",
+      "krOffset": "자신의 치명타 확률이 <318670.VALUE>, 가속이 <318671.VALUE> 증가한다.\r\n\r\n추가로 <COLOR=#FFFFFF><매그넘 피니셔></COLOR>를 <COLOR=#FFFFFF><마킹></COLOR> 중첩과 관계 없이 사용할 수 있게 되고, 얼티밋 사용 이후 <COLOR=#FFFFFF><매그넘 피니셔></COLOR>를 <COLOR=#FFFFFF>2</COLOR>회 사용하는 효과가 추가된다.",
+      "enOffset": "Increases her Crit Rate by <318670.VALUE> and Speed by <318671.VALUE>.\r\n\r\nAdditionally, <COLOR=#FFFFFF>\"Magnum Finisher\"</COLOR> can be used regardless of <COLOR=#FFFFFF>\"Marking\"</COLOR> stacks. After using the ultimate skill, adds an effect that triggers <COLOR=#FFFFFF>\"Magnum Finisher</COLOR>\" <COLOR=#FFFFFF>2</COLOR> times.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "自身暴擊率增加<318670.VALUE>、加速增加<318671.VALUE>。\r\n\r\n另外，無論<COLOR=#FFFFFF>＜鎖定＞</COLOR> 疊加數，均可使用<COLOR=#FFFFFF>＜麥格農終結者＞</COLOR>，且使用終極技能後，追加可使用<COLOR=#FFFFFF>2</COLOR>次<COLOR=#FFFFFF>＜麥格農終結者＞</COLOR>的效果",
       "zh_cnOffset": ""
     },
     {
       "no": 233189,
       "krOffset": "소림사의 역대 고승들의 묘지.\r\n248개의 탑이 마치 숲처럼 서 있다고 하여 '탑림'이라 불린다.",
-      "enOffset": "",
+      "enOffset": "A burial ground for the revered monks of the Shaolin Temple.\r\nIt is called \"Pagoda Forest\" for the 248 pagodas rising like trees in a forest.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "少林寺歷代高僧的墓地。\r\n248座塔有如森林般矗立，因此被稱為「塔林」。",
       "zh_cnOffset": ""
     },
     {
@@ -23161,19 +24345,35 @@
       "zh_cnOffset": ""
     },
     {
-      "no": 234170,
-      "krOffset": "롱기누스의 창(열락)",
+      "no": 234160,
+      "krOffset": "반혼향(각혼)",
       "enOffset": "",
       "jaOffset": "",
       "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
-      "no": 234179,
-      "krOffset": "꿈의 세계를 넘어 아득한 하늘 저편에 존재하는 광란의 영향을 받은 가넷의 기원. \r\n먼 과거, 고결한 신의 피를 받아냈던 그 창은 다시 한 번 그 피를 맛보고자 한다.",
+      "no": 234169,
+      "krOffset": "자신의 진정한 힘을 되찾은 페트라의 기원.\r\n마침내 깨어난 식신의 혼이, 영혼의 친우를 언제나 비호하리라.",
       "enOffset": "",
       "jaOffset": "",
       "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 234170,
+      "krOffset": "롱기누스의 창(열락)",
+      "enOffset": "Spear of Longinus (Rapture)",
+      "jaOffset": "",
+      "zh_twOffset": "朗基努斯之槍（狂喜）",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 234179,
+      "krOffset": "꿈의 세계를 넘어 아득한 하늘 저편에 존재하는 광란의 영향을 받은 가넷의 기원. \r\n먼 과거, 고결한 신의 피를 받아냈던 그 창은 다시 한 번 그 피를 맛보고자 한다.",
+      "enOffset": "Garnet's origin, influenced by the madness that lies in the distant skies, beyond the dream realm.\r\nThe spear that once drank the blood of a noble god seeks that taste again.",
+      "jaOffset": "",
+      "zh_twOffset": "佳妮特的起源，穿越夢境世界，受到存在於遙遠天際彼端的狂亂影響。\r\n在遙遠的過去，那把槍得到了高潔神靈的鮮血，想要重新嚐到那血的滋味。",
       "zh_cnOffset": ""
     },
     {
@@ -25953,6 +27153,62 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 342171,
+      "krOffset": "포가튼 일루전",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 342172,
+      "krOffset": "하울링",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 342173,
+      "krOffset": "커스 오브 어비스",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 342174,
+      "krOffset": "커스드 울프",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 342175,
+      "krOffset": "드림 언다잉",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 342179,
+      "krOffset": "엔들리스 커스",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 342501,
+      "krOffset": "정령의 기원 - 클레르",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 343011,
       "krOffset": "마그넘 오푸스",
       "enOffset": "Magnum Opus",
@@ -26723,49 +27979,49 @@
     {
       "no": 343181,
       "krOffset": "매그넘 피스트",
-      "enOffset": "",
+      "enOffset": "Magnum Fist",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "麥格農盛宴",
       "zh_cnOffset": ""
     },
     {
       "no": 343182,
       "krOffset": "링크 스트라이크",
-      "enOffset": "",
+      "enOffset": "Link Strike",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "連續重擊",
       "zh_cnOffset": ""
     },
     {
       "no": 343183,
       "krOffset": "매그넘 피니셔",
-      "enOffset": "",
+      "enOffset": "Magnum Finisher",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "麥格農終結者",
       "zh_cnOffset": ""
     },
     {
       "no": 343184,
       "krOffset": "라이징 체이스",
-      "enOffset": "",
+      "enOffset": "Rising Chase",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "升級追殺",
       "zh_cnOffset": ""
     },
     {
       "no": 343185,
       "krOffset": "그랜드 피니셔",
-      "enOffset": "",
+      "enOffset": "Grand Finisher",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "究極終結者",
       "zh_cnOffset": ""
     },
     {
       "no": 343189,
       "krOffset": "체이스 마킹",
-      "enOffset": "",
+      "enOffset": "Chase Marking",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "鎖定追殺",
       "zh_cnOffset": ""
     },
     {
@@ -28147,81 +29403,81 @@
     {
       "no": 348011,
       "krOffset": "흙장난",
-      "enOffset": "",
+      "enOffset": "Playing with Dirt",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "玩泥巴",
       "zh_cnOffset": ""
     },
     {
       "no": 348012,
       "krOffset": "신난다",
-      "enOffset": "",
+      "enOffset": "Wahoo",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "好興奮",
       "zh_cnOffset": ""
     },
     {
       "no": 348013,
       "krOffset": "놀아 줘!",
-      "enOffset": "",
+      "enOffset": "Play With Me!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "陪我玩！",
       "zh_cnOffset": ""
     },
     {
       "no": 348014,
       "krOffset": "노는 게 제일 좋아",
-      "enOffset": "",
+      "enOffset": "Having Fun is the Best",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "最喜歡玩耍了",
       "zh_cnOffset": ""
     },
     {
       "no": 348015,
       "krOffset": "못말리는 실베스터",
-      "enOffset": "",
+      "enOffset": "Unstoppable Sylvester",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "攔不住的席爾維斯特",
       "zh_cnOffset": ""
     },
     {
       "no": 348051,
       "krOffset": "여름 여신의 한숨",
-      "enOffset": "",
+      "enOffset": "Summer Goddess' Sigh",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "夏季女神的嘆息",
       "zh_cnOffset": ""
     },
     {
       "no": 348052,
       "krOffset": "시원한 회오리",
-      "enOffset": "",
+      "enOffset": "Cool Whirlwind",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "涼爽旋風",
       "zh_cnOffset": ""
     },
     {
       "no": 348053,
       "krOffset": "마력 회수",
-      "enOffset": "",
+      "enOffset": "Mana Absorption",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "魔力回收",
       "zh_cnOffset": ""
     },
     {
       "no": 348054,
       "krOffset": "칼날 바람",
-      "enOffset": "",
+      "enOffset": "Blade Wind",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "刺骨寒風",
       "zh_cnOffset": ""
     },
     {
       "no": 348055,
       "krOffset": "한여름의 환상",
-      "enOffset": "",
+      "enOffset": "Midsummer Illusion",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "盛夏之幻",
       "zh_cnOffset": ""
     },
     {
@@ -29014,6 +30270,38 @@
       "enOffset": "Mana Burst",
       "jaOffset": "",
       "zh_twOffset": "魔力爆發",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 349071,
+      "krOffset": "야수의 힘",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 349072,
+      "krOffset": "가랑비",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 349073,
+      "krOffset": "느림의 미학",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 349074,
+      "krOffset": "굳건함",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
@@ -31273,6 +32561,62 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 352171,
+      "krOffset": "가장 가까운 적을 대상으로 검기를 날려 공격력 <217110.VALUE>의 피해를 입힌다. 대상이 만약 <color=#FFFFFF><저주></color> 상태일 경우 <217111.DURATION>초 동안 가하는 피해를 <217111.VALUE> 감소시키고, 받는 최종 피해를 <color=#B778FF><217112.VALUE></color> 증가시키는 <color=#FFFFFF><심연의 저주></color> 상태를 부여한다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 352172,
+      "krOffset": "가장 가까운 적을 타겟으로 늑대를 소환해 대상과 주변 3m내 모든 적에게 공격력 <217210.VALUE>의 피해를 입히고 전의를 꺾어 <217213.DURATION>초 동안 공격력을 <217213.VALUE> 감소시킨다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 352173,
+      "krOffset": "가장 가까운 적을 타겟으로 심연이 깃든 검기를 날려 대상과 대상 주변 3m내 모든 적에게 공격력 <217310.VALUE>의 피해를 입히고 <217311.DURATION>초 동안 <color=#FFFFFF><저주 폭발></color> 상태를 부여한다.\r\n\r\n<color=#FFFFFF><저주 폭발></color>이 종료될 때 대상이 지닌 <color=#FFFFFF><저주></color> 1중첩 당 공격력 <217312.VALUE>의 추가 피해를 입힌다. (최대 3중첩)",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 352174,
+      "krOffset": "하루(카무이)는 검에 깃든 영혼을 적에게 날려 베어내 대상을 짓누르는 <color=#FFFFFF><저주></color>를 부여한다. 하루(카무이)의 기본 공격은 공격력 <217010.VALUE>의 피해를 입히고, 대상에게 <217011.DURATION>초 동안 2초마다 <217011.VALUE>의 <color=#FFFFFF><저주></color> 효과를 부여한다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 352175,
+      "krOffset": "하루가 꿈에서도 잊지 못할 존재를 소환해 가장 멀리 있는 적을 대상으로 물어 뜯고 지나가 대상에게는 공격력 <color=#E67373>400%</color>의 피해를 입히고, 직선 11m, 폭 5m 내 모든 적에게 공격력 <color=#E67373>200%</color>의 피해를 입히며 영구적인 <color=#FFFFFF><저주의 무게></color> 효과를 부여한다.\r\n \r\n<color=#FFFFFF><저주의 무게></color> 상태인 적의 <color=#FFFFFF><저주></color> 효과가 2초 동안 유지될 때마다 적의 공격력이 <217512.VALUE>, 물리 저항, 마법 저항이 <217513.VALUE> 감소하는 <color=#FFFFFF><짓눌림></color> 효과를 부여한다. (짓눌림은 해제가 가능하며 최대 15중첩까지 적용된다.)",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 352179,
+      "krOffset": "리더 정령이 전장에 있는 동안 <저주> 상태인 적이 받는 최종 피해가 10% 증가한다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 352501,
+      "krOffset": "아군 클레르의 능력치가 대폭 증가하고, 2초 마다 자신 주변 5m내 모든 적에게 자신 최대 체력의 30%만큼 피해를 입힌다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 353011,
       "krOffset": "연금술로 만들어낸 회복의 정수를 아군에게 던진다. 가장 체력이 적은 아군과 그 주변 2.5m 범위에 위치한 아군의 체력을 공격력의 <301111.VALUE>만큼 회복시킨다. \r\n<COLOR=#FFFFFF>유레카!</COLOR>: 공격력의 <301112.VALUE>만큼의 체력을 추가로 회복시킨다.\r\n<COLOR=#FFFFFF>유레카!!!</COLOR>:  <301113.DURATION>초 동안 에리카의 공격력의 <301113.VALUE> 만큼 피해를 흡수하는 보호막을 걸어준다.",
       "enOffset": "Throws an essence of recovery. Restores HP of the ally with the lowest HP and nearby allies within 2.5m by <301111.VALUE> of ATK.\r\n<COLOR=#FFFFFF>Eureka!</COLOR>: Recovers additional HP by <301112.VALUE> of ATK.\r\n<COLOR=#FFFFFF>Eureka!!!</COLOR>: Casts a barrier which absorbs damage equal to <301113.VALUE> of Erika's ATK for <301113.DURATION> seconds.",
@@ -32043,49 +33387,49 @@
     {
       "no": 353181,
       "krOffset": "가장 가까운 대상에게 강력한 일격을 가해 공격력 <318110.VALUE>의 피해를 입히고, 다음 스킬로 <COLOR=#FFFFFF><어퍼 블로우></COLOR>를 사용한다. ",
-      "enOffset": "",
+      "enOffset": "Delivers a powerful blow to the nearest target, dealing damage equal to <318110.VALUE>of ATK, then instantly follows up with <COLOR=#FFFFFF>\"Upper Blow\"</COLOR> as the next skill.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "對最接近的目標使出強力一擊，造成攻擊力<318110.VALUE>的傷害，下一技能立刻使用<COLOR=#FFFFFF>＜上鉤拳＞</COLOR>",
       "zh_cnOffset": ""
     },
     {
       "no": 353182,
       "krOffset": "라우라는 공격 후 대기 시간 없이 연속으로 스킬을 사용하며, 다음과 같은 순서로 스킬을 사용한다.\r\n<COLOR=#00B700><스킬 사용 순서></COLOR>\r\n스파이럴 킥 → 펜타 스트라이크 → 어퍼 블로우\r\n\r\n<COLOR=#E0942C><스파이럴 킥></COLOR>\r\n가장 가까운 적을 대상으로 공격력 <318010.VALUE>의 피해를 입힌다. 대상의 <COLOR=#FFFFFF><마킹></COLOR>이 <COLOR=#FFFFFF>3</COLOR>중첩 이상일 경우 공격력 <318013.VALUE>의 추가 피해를 입힌다.\r\n\r\n<COLOR=#E0942C><펜타 스트라이크></COLOR>\r\n가장 가까운 적을 대상으로 공격력 <318210.VALUE>의 피해를 입히고 이로운 효과를 2개 해제 시킨다. 대상의 <COLOR=#FFFFFF><마킹></COLOR>이 <COLOR=#FFFFFF>6</COLOR>중첩 이상일 경우 <318212.DURATION>초 동안 대상이 받는 최종 피해가 <318212.VALUE> 증가한다.\r\n\r\n<COLOR=#E0942C><어퍼 블로우></COLOR>\r\n가장 가까운 적을 대상으로 공격력 <318310.VALUE>의 피해를 입히고, 대상이 보유 중인 <COLOR=#FFFFFF><마킹></COLOR> 중첩 <COLOR=#FFFFFF>2</COLOR>중첩 당 피해량이 <318311.VALUE>씩 증가한다.\r\n",
-      "enOffset": "",
+      "enOffset": "Laura performs consecutive skills with no cooldown between them, using them in the following order.\r\n<COLOR=#00B700>Skill Activation Sequence:</COLOR>\r\nSpiral Kick → Penta Strike → Upper Blow\r\n\r\n<COLOR=#E0942C>\"Spiral Kick\"</COLOR>\r\nDeals damage equal to <318010.VALUE> of ATK to the nearest enemy.\r\nIf the target has <COLOR=#FFFFFF>3</COLOR> or more stacks of <COLOR=#FFFFFF>\"Marking,\"</COLOR> deals additional damage equal to <318013.VALUE> of ATK.\r\n\r\n<COLOR=#E0942C>\"Penta Strike\"</COLOR>\r\nDeals damage equal to <318210.VALUE> of ATK to the nearest enemy and cancels 2 positive effects.\r\nIf the target has <COLOR=#FFFFFF>6</COLOR> or more stacks of <COLOR=#FFFFFF>\"Marking,\"</COLOR> increases their total damage received by <318212.VALUE> for <318212.DURATION> sec.\r\n\r\n<COLOR=#E0942C>\"Upper Blow\"</COLOR>\r\nDeals damage equal to <318310.VALUE> of ATK to the nearest enemy. For every <COLOR=#FFFFFF>2</COLOR> stacks of <COLOR=#FFFFFF>\"Marking\"</COLOR> on the target, increases damage by <318311.VALUE>.\r\n",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "蘿拉攻擊後無須冷卻時間，連續使用技能，並按照下列順序發動技能。\r\n<COLOR=#00B700>＜技能使用順序＞</COLOR>\r\n螺旋踢 → 五連擊 → 上鉤拳\r\n\r\n<COLOR=#E0942C>＜螺旋踢＞</COLOR>\r\n對最接近的敵人造成攻擊力<318010.VALUE>的傷害\r\n當目標的<COLOR=#FFFFFF>＜鎖定＞</COLOR>達<COLOR=#FFFFFF>3</COLOR>疊加以上時，造成攻擊力<318013.VALUE>的額外傷害\r\n\r\n<COLOR=#E0942C>＜五連擊＞</COLOR>\r\n對最接近的敵人造成攻擊力<318210.VALUE>的傷害，並解除2個有利效果。\r\n當目標的<COLOR=#FFFFFF>＜鎖定＞</COLOR>達<COLOR=#FFFFFF>6</COLOR>疊加以上時，<318212.DURATION>秒內使目標所受最終傷害增加<318212.VALUE>\r\n\r\n<COLOR=#E0942C>＜上鉤拳＞</COLOR>\r\n對最接近的敵人造成攻擊力<318310.VALUE>的傷害，目標持有的每<COLOR=#FFFFFF>2</COLOR>個<COLOR=#FFFFFF>＜鎖定＞</COLOR>疊加，增加傷害量<318311.VALUE>\r\n",
       "zh_cnOffset": ""
     },
     {
       "no": 353183,
-      "krOffset": "라우라의 체술을 극한까지 끌어 올리기 위해 대상의 <COLOR=#FFFFFF><마킹></COLOR>이 10중첩 일 때 <COLOR=#FFFFFF><어퍼 블로우></COLOR> 사용 후 해당 스킬을 사용한다. \r\n\r\n빛보다 빠른 속도로 움직여 가장 가까운 적을 대상을 연속으로 타격해 대상에게 공격력 <318710.VALUE>의 피해를 입히고 마지막 공격으로 자신 주변 2.5m 범위에 공격력 <318712.VALUE>의 추가 피해를 입힌다.\r\n",
-      "enOffset": "",
+      "krOffset": "라우라의 체술을 극한까지 끌어 올리기 위해 대상의 <COLOR=#FFFFFF><마킹></COLOR>이 10중첩 일 때 <COLOR=#FFFFFF><어퍼 블로우></COLOR> 사용 후 해당 스킬을 사용한다. \r\n\r\n빛보다 빠른 속도로 움직여 가장 가까운 적을 대상을 연속으로 타격해 대상에게 공격력 <318710.VALUE>의 피해를 입히고 바닥을 내리 찍는 공격으로 자신 주변 2.5m 범위에 공격력 <318712.VALUE>의 추가 피해를 입힌다.",
+      "enOffset": "Used after <COLOR=#FFFFFF>\"Upper Blow\"</COLOR> when the target has 10 stacks of <COLOR=#FFFFFF>\"Marking,\"</COLOR> pushing Laura's martial technique to the limit.\r\n\r\nShe moves faster than light, striking the nearest enemy multiple times, dealing damage equal to <318710.VALUE> of ATK, then finishes with a plunging AoE attack that deals additional damage equal to <318712.VALUE> of ATK within a 2.5m radius.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "為了將蘿拉的體術發揮到極致，當目標的<COLOR=#FFFFFF>＜鎖定＞</COLOR>達10疊加時，使用<COLOR=#FFFFFF>＜上鉤拳＞</COLOR>後，發動該技能。\r\n\r\n用比光速還快的速度移動，連續打擊最接近的目標，對目標造成攻擊力<318710.VALUE>的傷害，以猛擊地面的攻擊，對自身周圍2.5m範圍內造成攻擊力<318712.VALUE>的額外傷害",
       "zh_cnOffset": ""
     },
     {
       "no": 353184,
-      "krOffset": "라우라의 기본 공격과 서브 스킬은 <318410.DURATION>초 동안 대상에게 <COLOR=#FFFFFF><마킹></COLOR> 효과를 부여한다. 대상의<COLOR=#FFFFFF><마킹></COLOR> <COLOR=#FFFFFF>1</COLOR>중첩 당 대상의 치명타 피격률이 <318410.VALUE> 증가한다. (최대 10중첩)",
-      "enOffset": "",
+      "krOffset": "라우라의 기본 공격과 서브 스킬은 <318410.DURATION>초 동안 대상에게 <COLOR=#FFFFFF><마킹></COLOR> 효과를 부여한다. 대상의 <COLOR=#FFFFFF><마킹></COLOR> <COLOR=#FFFFFF>1</COLOR>중첩 당 대상의 치명타 피격률이 <318410.VALUE> 증가한다. (최대 10중첩)",
+      "enOffset": "Laura's basic attacks and sub skills apply <COLOR=#FFFFFF>\"Marking\"</COLOR> for <318410.DURATION> sec. For each stack of <COLOR=#FFFFFF>\"Marking\",</COLOR> increases the target's Incoming Crit Rate by <318410.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "蘿拉使用的基本攻擊和輔助技能在<318410.DURATION>秒內賦予目標<COLOR=#FFFFFF>＜鎖定＞</COLOR>效果。目標每1疊加<COLOR=#FFFFFF>＜鎖定＞</COLOR>將使目標的被暴擊擊中率增加<318410.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 353185,
       "krOffset": "대상에게 공격력 <318510.VALUE>의 피해를 입히고, 직선 5m, 폭 3m 내 모든 적을 대상으로 공격력 <318511.VALUE>의 범위 피해를 입힌다. 추가로, 자신의 <COLOR=#FFFFFF><피니셔></COLOR> 중첩이 <COLOR=#FFFFFF>5</COLOR>중첩일 경우 대상에게 공격력 <318512.VALUE>의 추가 피해를 입힌다.",
-      "enOffset": "",
+      "enOffset": "Deals damage equal to <318510.VALUE> of ATK and deals an additional damage equal to <318511.VALUE> of ATK to all enemies within a 5m long and 3m wide area. Additionally, if she has <COLOR=#FFFFFF>5</COLOR> stacks of <COLOR=#FFFFFF>\"Finisher,\"</COLOR> she deals additional damage equal to <318512.VALUE> of ATK to the target.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "對目標造成攻擊力<318510.VALUE>的傷害，對直線5m、寬幅3m內的所有敵人造成攻擊力<318511.VALUE>的額外傷害。另外，當自身的<COLOR=#FFFFFF>＜終結者＞</COLOR>達<COLOR=#FFFFFF>5</COLOR>疊加時，對目標造成攻擊力<318512.VALUE>的額外傷害",
       "zh_cnOffset": ""
     },
     {
       "no": 353189,
       "krOffset": "리더 정령이 공격을 받을 때마다 리더 정령의 가하는 피해를 6초 동안 0.5% 증가 시킨다. (최대 10중첩)",
-      "enOffset": "",
+      "enOffset": "When the lead Soul receives attacks, increases the lead Soul's damage dealt by 0.5% for 6 sec (up to 10 stacks).",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "每當隊長精靈受到攻擊時，隊長精靈造成傷害在6秒內增加0.5%（最多10疊加）",
       "zh_cnOffset": ""
     },
     {
@@ -33459,81 +34803,81 @@
     {
       "no": 358011,
       "krOffset": "실베스터 조이 3세가 땅속으로 파고들어 숨은 뒤 가장 공격력이 높은 적 후방으로 나와 자신의 주변 3m에 위치한 모든 적에게 공격력 <801110.VALUE>의 피해를 입힌다. 해당 피해를 받은 적이 보호막을 보유하고 있지 않은 경우, <color=#FFFFFF><피로></color> 효과를 <color=#FFFFFF>2</color>중첩 부여한다.",
-      "enOffset": "",
+      "enOffset": "King Sylvester Joey III burrows underground and reemerges behind the enemy with the highest ATK, dealing damage equal to <801110.VALUE> of ATK to all enemies within 3m. If the target has no shield, inflicts <color=#FFFFFF>2</color> stacks of <color=#FFFFFF>\"Fatigue.\"</color>",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "席爾維斯特喬伊三世挖掘土地躲藏後，在攻擊力最高的敵人後方現身，對自身周遭3m的所有敵人造成攻擊力<801110.VALUE>的傷害。若受擊敵人未持有防護罩，賦予<color=#FFFFFF>＜疲勞＞</color>效果<color=#FFFFFF>2</color>疊加",
       "zh_cnOffset": ""
     },
     {
       "no": 358012,
       "krOffset": "공중으로 도약한 뒤 제자리를 찍어 충격파를 발생시킨다. 해당 충격파는 모든 적에게 공격력의 <801210.VALUE> 피해를 입히고 <color=#FFFFFF><피로></color> 효과를 <color=#FFFFFF>1</color>중첩 부여한다.",
-      "enOffset": "",
+      "enOffset": "Leaps into the air and slams the ground, generating a shockwave. The shockwave deals damage equal to <801210.VALUE> of ATK and inflicts <color=#FFFFFF>1</color> stack of <color=#FFFFFF>\"Fatigue\"</color> to all enemies.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "騰空飛起後重擊原地，引起衝擊波。該衝擊波對所有敵人造成攻擊力<801210.VALUE>的傷害，並賦予<color=#FFFFFF>＜疲勞＞</color>效果<color=#FFFFFF>1</color>疊加",
       "zh_cnOffset": ""
     },
     {
       "no": 358013,
       "krOffset": "실베스터가 포효하여 모든 적에게 <801310.VALUE> 피해를 입히고 <color=#FFFFFF><피로></color> 효과를 1중첩 부여한다. 대상이 <color=#FFFFFF><피로></color> 효과를 <color=#FFFFFF>5</color>중첩 이상 보유하고 있을 경우 공격력 <801312.VALUE>의 추가 피해를 입힌다.",
-      "enOffset": "",
+      "enOffset": "Sylvester roars, dealing <801310.VALUE> damage and inflicting 1 stack of <color=#FFFFFF>\"Fatigue\"</color> to all enemies. If a target has <color=#FFFFFF>5</color> or more stacks of <color=#FFFFFF>\"Fatigue,\"</color> deals additional damage equal to <801312.VALUE> of ATK.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "席爾維斯特咆哮，對所有敵人造成<801310.VALUE>的傷害，賦予<color=#FFFFFF>＜疲勞＞</color>效果1疊加。若目標持有<color=#FFFFFF>＜疲勞＞</color>效果<color=#FFFFFF>5</color>疊加以上時，造成攻擊力<801312.VALUE>的額外傷害",
       "zh_cnOffset": ""
     },
     {
       "no": 358014,
       "krOffset": "실베스터와 놀아주기 힘들어!\r\n\r\n실베스터의 공격은 피격 대상에게 <color=#FFFFFF><피로></color> 중첩을 부여하며, <color=#FFFFFF>10</color>중첩 될 때 해당 정령의 공격력이 <801413.VALUE>, 가속이 <801414.VALUE> 감소한다.\r\n\r\n추가로, 실베스터의 기본 공격은 적을 앞발로 내려찍어 대상 및 주변 3m 범위 적을 공격력의 <801010.VALUE>의 피해를 입히고 <color=#FFFFFF><피로></color> 효과를 <color=#FFFFFF>1</color>중첩 부여한다.",
-      "enOffset": "",
+      "enOffset": "Playing with Sylvester is exhausting!\r\n\r\nHis attacks inflict <color=#FFFFFF>\"Fatigue\"</color> stacks to targets. At <color=#FFFFFF>10</color> stacks, decreases the affected Soul's ATK by <801413.VALUE> and Speed by <801414.VALUE>.\r\n\r\nAdditionally, Sylvester slams his front paw down as his basic attack, dealing damage equal to <801010.VALUE> of ATK and inflicting <color=#FFFFFF>1</color> stack of <color=#FFFFFF>\"Fatigue\"</color> to the target and enemies in a 3m radius.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "陪席爾維斯特玩超累！\r\n\r\n席爾維斯特的攻擊會賦予受擊目標<color=#FFFFFF>＜疲勞＞</color>疊加，達<color=#FFFFFF>10</color>疊加時，該精靈攻擊力將減少<801413.VALUE>、加速減少<801414.VALUE>。\r\n\r\n另外，席爾維斯特的基本攻擊會使用前腳重擊敵人，對目標與周遭3m範圍的敵人造成攻擊力<801010.VALUE>的傷害，賦予<color=#FFFFFF>＜疲勞＞</color>效果<color=#FFFFFF>1</color>疊加",
       "zh_cnOffset": ""
     },
     {
       "no": 358015,
       "krOffset": "실베스터의 폭주를 막을 수 없다!\r\n\r\n<801510.DURATION>초 동안 <color=#FFFFFF>2</color>초마다 모든 적에게 공격력 <801511.VALUE> 피해를 입히고 <color=#FFFFFF><피로></color> 효과를 <color=#FFFFFF>1</color>중첩 부여하며, <color=#FFFFFF><말썽쟁이 실베스터></color> 상태가 되어 <801512.DURATION>초 동안 자신의 받는 최종 피해를 <801512.VALUE> 감소시킨다.(해제 가능)\r\n\r\n해당 스킬 사용 이후 실베스터는 <color=#FFFFFF><어지러워..></color> 상태가 되어 <color=#FFFFFF>4</color>초 동안 받는 최종 피해가 <801514.VALUE> 증가한다.\r\n만약, <color=#FFFFFF><말썽쟁이 실베스터></color> 효과를 해제 시켰을 경우, <color=#FFFFFF><어지러워..></color> 상태의 받는 최종 피해가 <801518.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Sylvester's rampage is unstoppable!\r\n\r\nDeals damage equal to <801511.VALUE> of ATK for <801510.DURATION> sec every <color=#FFFFFF>2</color> sec and inflicts <color=#FFFFFF>1</color> stack of <color=#FFFFFF>\"Fatigue\"</color> to all enemies. Enters the <color=#FFFFFF>\"Varmint Sylvester\"</color> state, decreasing total damage received by <801512.VALUE> for <801512.DURATION> sec (cancellable).\r\n\r\nAfter using this skill, Sylvester enters the <color=#FFFFFF>\"So Dizzy...\"</color> state, increasing total damage received by <801514.VALUE> for <color=#FFFFFF>4</color> sec.\r\nIf <color=#FFFFFF>\"Varmint Sylvester\"</color> is canceled, the total damage received during <color=#FFFFFF>\"So Dizzy...\"</color> changes to <801518.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "無法阻止席爾維斯特暴走！\r\n\r\n<801510.DURATION>秒內，每<color=#FFFFFF>2</color>秒對所有敵人造成攻擊力<801511.VALUE>的傷害，並賦予<color=#FFFFFF>＜疲勞＞</color>效果<color=#FFFFFF>1</color>疊加，變成<color=#FFFFFF>＜搗蛋鬼席爾維斯特＞</color>狀態，<801512.DURATION>秒內使自身所受最終傷害減少<801512.VALUE>（可解除）\r\n\r\n使用該技能後，席爾維斯特將陷入<color=#FFFFFF>＜頭好暈…＞</color>狀態，<color=#FFFFFF>4</color>秒內所受最終傷害增加<801514.VALUE>。\r\n若使<color=#FFFFFF>＜搗蛋鬼席爾維斯特＞</color>效果解除，<color=#FFFFFF>＜頭好暈…＞</color>狀態下所受最終傷害將變為<801518.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 358051,
       "krOffset": "보유 중인 마나와 관계 없이 정해진 주기마다 한숨을 내쉬어 모든 적에게 공격력 <805110.VALUE>의 피해를 입히고, 낙원의 마녀가 보유한 마나량에 따라 추가 효과가 누적되어 발생한다.\r\n\r\n<COLOR=#00B700><보유 마나 33% 이상></COLOR>\r\n공격력 <805111.VALUE>의 추가 피해를 입힌다.\r\n\r\n<COLOR=#00B700><보유 마나 66% 이상></COLOR>\r\n공격력 <805112.VALUE>의 추가 피해를 입히고, 대상의 가하는 피해를 <805113.DURATION>초 동안 <805113.VALUE> 감소 시킨다.\r\n\r\n<COLOR=#00B700><보유 마나 100%></COLOR>\r\n공격력 <805114.VALUE>의 추가 피해를 입히고, 모든 대상에게 <805115.DURATION>초 동안 침묵 상태를 부여한다.",
-      "enOffset": "",
+      "enOffset": "The Witch of Paradise sighs periodically regardless of her current Mana, dealing damage equal to <805110.VALUE> of ATK to all enemies. Additional effects stack based on the amount of Mana she has.\r\n\r\n<COLOR=#00B700>When Mana is at 33% or above:</COLOR>\r\nDeals additional damage equal to <805111.VALUE>of ATK.\r\n\r\n<COLOR=#00B700>When Mana is at 66% or above:</COLOR>\r\nDeals additional equal to <805112.VALUE> of ATK damage and decreases the target's damage dealt by <805113.VALUE> for <805113.DURATION> sec.\r\n\r\n<COLOR=#00B700>When Mana is at 100%:</COLOR>\r\nDeals damage equal to <805114.VALUE> of ATK and inflicts Silence to all targets for <805115.DURATION> sec.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "無論持有魔力，在固定週期呼出一口氣，對所有敵人造成攻擊力<805110.VALUE>的傷害，根據樂園魔女持有的魔力量，累積發動額外效果。\r\n\r\n<COLOR=#00B700>＜持有33%以上魔力＞</COLOR>\r\n造成攻擊力<805111.VALUE>的額外傷害。\r\n\r\n<COLOR=#00B700>＜持有66% 以上魔力＞</COLOR>\r\n造成攻擊力<805112.VALUE>的額外傷害，<805113.DURATION>秒內使目標造成傷害減少<805113.VALUE>。\r\n\r\n<COLOR=#00B700>＜持有100%魔力＞</COLOR>\r\n造成攻擊力<805114.VALUE>的額外傷害，賦予所有目標<805115.DURATION>秒沉默狀態",
       "zh_cnOffset": ""
     },
     {
       "no": 358052,
-      "krOffset": "보유한 마나가 가장 많은 적을 대상으로 회오리를 일으켜 공격력 <805210.VALUE>의 피해를 입히고 넘어뜨린다.\r\n대상이 보유한 마나가 70% 이상일 경우 대상의 마나를 0으로 만들고 모든 적과 자신의 마나를 <805213.VALUE> 회복한다.",
-      "enOffset": "",
+      "krOffset": "보유한 마나가 가장 많은 적을 대상으로 회오리를 일으켜 공격력 <805210.VALUE>의 피해를 입히고 넘어뜨린다.\r\n대상이 보유한 마나가 70% 이상일 경우 대상의 마나를 0으로 만들고 모든 적과 자신의 마나를 <color=#4ABFD3>2500</color> 회복한다.",
+      "enOffset": "Creates a vortex targeting the enemy with the highest Mana, dealing damage equal to <805210.VALUE> of ATK and knocking them down.\r\nIf the target has 70% or more Mana, decreases their Mana to 0, and restores the Mana of all enemies and Vivienne by <color=#4ABFD3>2500</color>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "對持有最多魔力的敵人颳起旋風，造成攻擊力<805210.VALUE>的傷害並將其擊倒。\r\n若目標持有70%以上魔力，使目標魔力歸0，並恢復所有敵人和自身魔力<color=#4ABFD3>2500</color>",
       "zh_cnOffset": ""
     },
     {
       "no": 358053,
       "krOffset": "마력을 흡수하는 패밀리어를 소환하여 공격력 <805310.VALUE>의 피해를 입히고, 모든 적에게 <805311.DURATION>초 동안 유지되는 <COLOR=#FFFFFF><마력의 인장></COLOR> 효과를 부여한다.\r\n <COLOR=#FFFFFF><마력의 인장></COLOR> 효과를 해제하지 못할 경우 대상자의 마나를 0으로 만들고 낙원의 마녀의 마나를 <805313.VALUE> 회복시킨다.",
-      "enOffset": "",
+      "enOffset": "Summons a familiar that absorbs Mana, dealing damage equal to <805310.VALUE> of ATK and inflicting <COLOR=#FFFFFF>\"Mana Seal\"</COLOR> that lasts <805311.DURATION> sec to all enemies.\r\nIf <COLOR=#FFFFFF>\"Mana Seal\"</COLOR> is not canceled, decreases the affected enemy's Mana to 0 and the Witch of Paradise recovers <805313.VALUE> Mana.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "召喚吸收魔力能量的使魔，造成攻擊力<805310.VALUE>的傷害，賦予所有敵人<COLOR=#FFFFFF>＜魔力的印章＞</COLOR>效果，持續<805311.DURATION>秒。\r\n若未能解除<COLOR=#FFFFFF>＜魔力的印章＞</COLOR>效果，將使目標魔力歸0，恢復樂園魔女的魔力<805313.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 358054,
       "krOffset": "칼날 바람을 소환하여 모든 적에게 공격력 <805410.VALUE>의 피해를 입히고, 자신에게 해제될 때 까지 유지되는 <COLOR=#FFFFFF><정화의 바람></COLOR> 효과를 부여한다.\r\n <COLOR=#FFFFFF><정화의 바람></COLOR> 상태가 지속되는 동안 <COLOR=#FFFFFF>2</COLOR>초마다 자신에게 걸린 해제 가능한 모든 디버프를 해제한다.",
-      "enOffset": "",
+      "enOffset": "Summons a blade that deals damage equal to <805410.VALUE> of ATK and grants <COLOR=#FFFFFF>\"Purifying Wind\"</COLOR> to herself. The effect lasts until it is canceled.\r\nWhile <COLOR=#FFFFFF>\"Purifying Wind\"</COLOR> is active, removes all cancellable debuffs from itself every <COLOR=#FFFFFF>2</COLOR> sec.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "召喚刺骨寒風，對所有敵人造成攻擊力<805410.VALUE>的傷害，賦予自身<COLOR=#FFFFFF>＜淨化之風＞</COLOR>效果直到解除為止。\r\n <COLOR=#FFFFFF>＜淨化之風＞</COLOR>狀態持續期間，每<COLOR=#FFFFFF>2</COLOR>秒解除所有自身陷入的可解除減益效果",
       "zh_cnOffset": ""
     },
     {
       "no": 358055,
       "krOffset": "낙원의 마녀는 공격을 통해 마나를 회복하지 않고 공격을 받을 때 마나를 회복함과 동시에 <COLOR=#FFFFFF><흔들리는 마나></COLOR> 중첩을 1 획득한다. <COLOR=#FFFFFF><흔들리는 마나></COLOR>가 <COLOR=#FFFFFF>60</COLOR> 중첩이 될 경우 자신의 모든 마나와 <COLOR=#FFFFFF><흔들리는 마나></COLOR> 중첩을 소모하고 <805714.DURATION>초 동안 낙원의 마녀가 받는 최종 피해가 <805714.VALUE> 증가한다\r\n\r\n추가로, 기본 공격이 공격력 <805010.VALUE>의 피해로 모든 대상을 공격하며, 자신이 보유 중인 마나가 100%일 경우 모든 적군의 가하는 피해를 <805511.VALUE>감소시킨다.",
-      "enOffset": "",
+      "enOffset": "Rather than gaining Mana by attacking, the Witch of Paradise recovers it when hit, also gaining 1 stack of <COLOR=#FFFFFF>\"Wavering Mana\"</COLOR> per hit. At <COLOR=#FFFFFF>60</COLOR> <COLOR=#FFFFFF>\"Wavering Mana\"</COLOR> stacks, she consumes all of her Mana and <COLOR=#FFFFFF>\"Wavering Mana\"</COLOR> stacks, increasing her total damage received by <805714.VALUE> for <805714.DURATION> sec.\r\n\r\nAdditionally, her basic attack deals damage equal to <805010.VALUE> of ATK to all enemies. When her Mana is at 100%, decreases all enemies' damage dealt by <805511.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "樂園魔女不會透過攻擊恢復魔力，而是受擊時恢復魔力，並獲得<COLOR=#FFFFFF>＜不穩定的魔力＞</COLOR>1疊加。<COLOR=#FFFFFF>＜不穩定的魔力＞</COLOR>達<COLOR=#FFFFFF>60</COLOR>疊加時，消耗自身所有魔力和<COLOR=#FFFFFF>＜不穩定的魔力＞</COLOR>疊加，<805714.DURATION>秒內使樂園魔女所受最終傷害增加<805714.VALUE>\r\n\r\n另外，基本攻擊會以攻擊力<805010.VALUE>的傷害攻擊所有目標，當自身持有魔力達100%時，使所有敵軍的造成傷害減少<805511.VALUE>",
       "zh_cnOffset": ""
     },
     {
@@ -34326,6 +35670,38 @@
       "enOffset": "All allies recover 2,500 Mana when battle begins.",
       "jaOffset": "",
       "zh_twOffset": "戰鬥開始時，所有友軍的魔力恢復2500",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 359071,
+      "krOffset": "야수형 정령의 가하는 피해 200% 증가",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 359072,
+      "krOffset": "모든 적군이 받는 지속 피해 8배 증가",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 359073,
+      "krOffset": "모든 적군의 가속 10% 감소",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 359074,
+      "krOffset": "모든 아군의 받는 최종 피해가 10% 감소하고, 정령이 메인 스킬을 사용한 이후 4초 동안 군중 제어 효과 및 넉백 계열 효과에 면역된다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
@@ -36545,6 +37921,54 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 362171,
+      "krOffset": "피해량이 <217120.VALUE>로, 감소하는 가하는 피해가 <217121.VALUE>로, 받는 최종 피해가 <color=#B778FF><217122.VALUE></color>로 변경된다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 362172,
+      "krOffset": "피해량이 <217220.VALUE>로 변경되고 감소하는 공격력이 <217223.VALUE>로 변경된다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 362173,
+      "krOffset": "피해량이 <217320.VALUE>로, <color=#FFFFFF><저주></color> 1중첩 당 추가 피해가 <217322.VALUE>로 변경된다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 362174,
+      "krOffset": "기본 공격의 피해량이 <217020.VALUE>로 변경되고, 지속 피해량이 <217021.VALUE>로 변경된다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 362175,
+      "krOffset": "대상 피해량이 <color=#E67373>425%</color>로 범위 피해가 <color=#E67373>225%</color>로 변경되고, 중첩 당 감소하는 공격력이 <217522.VALUE>, 물리/마법 저항이 <217523.VALUE>로 변경된다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 362179,
+      "krOffset": "리더 정령이 전장에 있는 동안 <저주> 상태인 적이 받는 최종 피해가 12.5% 증가한다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 363011,
       "krOffset": "체력 회복량이 <301121.VALUE>로 변경된다.\r\n<COLOR=#FFFFFF>유레카!</COLOR>: 체력 회복량이 <301122.VALUE>로 변경된다.\r\n<COLOR=#FFFFFF>유레카!!!</COLOR>: 보호막의 흡수량이 <301123.VALUE>로 변경된다.",
       "enOffset": "HP recovery changes to <301121.VALUE>.\r\n<COLOR=#FFFFFF>Eureka!</COLOR>: HP recovery changes to <301122.VALUE>.\r\n<COLOR=#FFFFFF>Eureka!!!</COLOR>: Barrier absorption changes to <301123.VALUE>.",
@@ -37275,49 +38699,49 @@
     {
       "no": 363181,
       "krOffset": "피해량이 <318120.VALUE>로 변경되고, 다음 <COLOR=#FFFFFF><어퍼 블로우></COLOR> 에 공격력 <318123.VALUE>의 추가 피해를 더한다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <318120.VALUE>, and the next skill, <COLOR=#FFFFFF>\"Upper Blow\",</COLOR> deals additional damage equal to <318123.VALUE> of ATK.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<318120.VALUE>的傷害量，下一技能的<COLOR=#FFFFFF>＜上鉤拳＞</COLOR>追加攻擊力<318123.VALUE>的額外傷害",
       "zh_cnOffset": ""
     },
     {
       "no": 363182,
       "krOffset": "<COLOR=#E0942C><스파이럴 킥></COLOR>\r\n피해량이 <318020.VALUE>로, 추가 피해량이 <318023.VALUE>로 변경된다.\r\n<COLOR=#E0942C><펜타 스트라이크></COLOR>\r\n피해량이 <318220.VALUE>로, 받는 최종 피해 증가 효과가 <318222.VALUE>로 변경된다.\r\n<COLOR=#E0942C><어퍼 블로우></COLOR>\r\n피해량이 <318320.VALUE>로, 중첩 당 증가하는 피해량이 <318321.VALUE>로 변경된다.\r\n",
-      "enOffset": "",
+      "enOffset": "<COLOR=#E0942C>\"Spiral Kick\"</COLOR>\r\nDamage changes to <318020.VALUE>, and additional damage changes to <318023.VALUE>.\r\n<COLOR=#E0942C>\"Penta Strike\"</COLOR>\r\nDamage changes to <318220.VALUE>, total damage received increase changes to <318222.VALUE>.\r\n<COLOR=#E0942C>\"Upper Blow\"</COLOR>\r\nDamage changes to <318320.VALUE>, and damage increase per stack changes to <318321.VALUE>.\r\n",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "<COLOR=#E0942C>＜螺旋踢＞</COLOR>\r\n變更為造成<318020.VALUE>的傷害量、<318023.VALUE>的額外傷害量。\r\n<COLOR=#E0942C>＜五連擊＞</COLOR>\r\n變更為造成<318220.VALUE>的傷害量，所受最終傷害增加效果變更為<318222.VALUE>\r\n<COLOR=#E0942C>＜上鉤拳＞</COLOR>\r\n變更為造成<318320.VALUE>的傷害量，每疊加增加的傷害量變更為<318321.VALUE>\r\n",
       "zh_cnOffset": ""
     },
     {
       "no": 363183,
       "krOffset": "대상 피해량이 <318720.VALUE>로, 범위 피해량이 <318722.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage to the target changes to <318720.VALUE>, and AoE damage changes to <318722.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為對目標造成<318720.VALUE>的傷害量，造成<318722.VALUE>的範圍傷害量",
       "zh_cnOffset": ""
     },
     {
       "no": 363184,
       "krOffset": "<COLOR=#FFFFFF><마킹></COLOR> 1중첩 당 증가하는 수치가 <318420.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Changes the value increased per <COLOR=#FFFFFF>\"Marking\"</COLOR> stack to <318420.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "<COLOR=#FFFFFF>＜鎖定＞</COLOR>每1疊加增加的數值變更為<318420.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 363185,
       "krOffset": "피해량이 <318520.VALUE>로, 범위 피해량이 <318521.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <318520.VALUE>, and AoE damage changes to <318521.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為對目標造成<318520.VALUE>的傷害量，造成<318521.VALUE>的範圍傷害量",
       "zh_cnOffset": ""
     },
     {
       "no": 363189,
       "krOffset": "리더 정령이 공격을 받을 때마다 리더 정령의 가하는 피해를 6초 동안 1% 증가 시킨다. (최대 10중첩)",
-      "enOffset": "",
+      "enOffset": "When the lead Soul receives attacks, increases the lead Soul's damage dealt by 1% for 6 sec (up to 10 stacks).",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "每當隊長精靈受到攻擊時，隊長精靈造成傷害在6秒內增加1%（最多10疊加）",
       "zh_cnOffset": ""
     },
     {
@@ -38683,41 +40107,41 @@
     {
       "no": 368011,
       "krOffset": "피해량이 <801120.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <801120.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<801120.VALUE>的傷害量",
       "zh_cnOffset": ""
     },
     {
       "no": 368012,
       "krOffset": "피해량이 <801220.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <801220.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<801220.VALUE>的傷害量",
       "zh_cnOffset": ""
     },
     {
       "no": 368013,
       "krOffset": "피해량이 <801320.VALUE>, 추가 피해가 <801322.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <801320.VALUE>, and additional damage changes to <801322.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<801320.VALUE>的傷害量、造成<801322.VALUE>的額外傷害",
       "zh_cnOffset": ""
     },
     {
       "no": 368014,
       "krOffset": "기본 공격 피해량이 <801020.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Basic attack damage changes to <801020.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "基本攻擊變更為造成<801020.VALUE>的傷害量",
       "zh_cnOffset": ""
     },
     {
       "no": 368015,
       "krOffset": "피해량이 <801521.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <801521.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<801521.VALUE>的傷害量",
       "zh_cnOffset": ""
     },
     {
@@ -40457,6 +41881,54 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 372171,
+      "krOffset": "피해량이 <217130.VALUE>로, 감소하는 가하는 피해가 <217131.VALUE>로, 받는 최종 피해가 <color=#B778FF><217132.VALUE></color>로 변경된다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 372172,
+      "krOffset": "피해량이 <217230.VALUE>로 변경되고 감소하는 공격력이 <217233.VALUE>로 변경된다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 372173,
+      "krOffset": "피해량이 <217330.VALUE>로, <color=#FFFFFF><저주></color> 1중첩 당 추가 피해가 <217332.VALUE>로 변경된다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 372174,
+      "krOffset": "기본 공격의 피해량이 <217030.VALUE>로 변경되고, 지속 피해량이 <217031.VALUE>로 변경된다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 372175,
+      "krOffset": "대상 피해량이 <color=#E67373>450%</color>로 범위 피해가 <color=#E67373>250%</color>로 변경되고, 중첩 당 감소하는 공격력이 <217532.VALUE>, 물리/마법 저항이 <217533.VALUE>로 변경된다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 372179,
+      "krOffset": "리더 정령이 전장에 있는 동안 <저주> 상태인 적이 받는 최종 피해가 15% 증가한다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 373011,
       "krOffset": "체력 회복량이 <301131.VALUE>로 변경된다.\r\n<COLOR=#FFFFFF>유레카!</COLOR>: 체력 회복량이 <301132.VALUE>로 변경된다.\r\n<COLOR=#FFFFFF>유레카!!!</COLOR>: 보호막의 흡수량이 <301133.VALUE>로 변경된다.",
       "enOffset": "HP recovery changes to <301131.VALUE>.\r\n<COLOR=#FFFFFF>Eureka!</COLOR>: HP recovery changes to <301132.VALUE>.\r\n<COLOR=#FFFFFF>Eureka!!!</COLOR>: Barrier absorption changes to <301133.VALUE>.",
@@ -41187,49 +42659,49 @@
     {
       "no": 373181,
       "krOffset": "피해량이 <318130.VALUE>로 변경되고, <COLOR=#FFFFFF><어퍼 블로우></COLOR> 의 추가 피해가 <318133.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <318130.VALUE>, and the additional damage from <COLOR=#FFFFFF>\"Upper Blow\"</COLOR> changes to <318133.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<318130.VALUE>的傷害量，<COLOR=#FFFFFF>＜上鉤拳＞</COLOR>的額外傷害變更為<318133.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 373182,
       "krOffset": "<COLOR=#E0942C><스파이럴 킥></COLOR>\r\n피해량이 <318030.VALUE>로, 추가 피해량이 <318033.VALUE>로 변경된다.\r\n<COLOR=#E0942C><펜타 스트라이크></COLOR>\r\n피해량이 <318230.VALUE>로, 받는 최종 피해 증가 효과가 <318232.VALUE>로 변경된다.\r\n<COLOR=#E0942C><어퍼 블로우></COLOR>\r\n피해량이 <318330.VALUE>로, 중첩 당 증가하는 피해량이 <318331.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "<COLOR=#E0942C>\"Spiral Kick\"</COLOR>\r\nDamage changes to <318030.VALUE>, and additional damage changes to <318033.VALUE>.\r\n<COLOR=#E0942C>\"Penta Strike\"</COLOR>\r\nDamage changes to <318230.VALUE>, total damage received increase changes to <318232.VALUE>.\r\n<COLOR=#E0942C>\"Upper Blow\"</COLOR>\r\nDamage changes to <318330.VALUE>, and damage increase per stack changes to <318331.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "<COLOR=#E0942C>＜螺旋踢＞</COLOR>\r\n變更為造成<318030.VALUE>的傷害量、<318033.VALUE>的額外傷害量。\r\n<COLOR=#E0942C>＜五連擊＞</COLOR>\r\n變更為造成<318230.VALUE>的傷害量，所受最終傷害增加效果變更為<318232.VALUE>\r\n<COLOR=#E0942C>＜上鉤拳＞</COLOR>\r\n變更為造成<318330.VALUE>的傷害量，每疊加增加的傷害量變更為<318331.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 373183,
       "krOffset": "대상 피해량이 <318730.VALUE>로, 범위 피해량이 <318732.VALUE>로 변경되고, 자신의 가하는 피해와 치명타 위력이 영구적으로 <318734.VALUE> 증가하는 <COLOR=#FFFFFF><피니셔></COLOR> 효과가 추가된다. (최대 5중첩)",
-      "enOffset": "",
+      "enOffset": "Damage to the target changes to <318730.VALUE>, AoE damage changes to <318732.VALUE>. Grants the <COLOR=#FFFFFF>\"Finisher\"</COLOR> effect, which permanently increases her Damage Dealt and Crit DMG by <318734.VALUE> (up to 5 stacks).",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為對目標造成<318730.VALUE>的傷害量，造成<318732.VALUE>的範圍傷害量，追加<COLOR=#FFFFFF>＜終結者＞</COLOR>效果，永久使自身造成傷害和暴擊威力增加<318734.VALUE>（最多5疊加）",
       "zh_cnOffset": ""
     },
     {
       "no": 373184,
       "krOffset": "<COLOR=#FFFFFF><마킹></COLOR> 1중첩 당 증가하는 수치가 <318430.VALUE>로 변경되고, 대상의 방어력이 <318431.VALUE> 감소하는 효과가 추가된다.",
-      "enOffset": "",
+      "enOffset": "Changes the value increased per <COLOR=#FFFFFF>\"Marking\"</COLOR> stack to <318430.VALUE>, and adds an effect that decreases the target's DEF by <318431.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "<COLOR=#FFFFFF>＜鎖定＞</COLOR>每1疊加增加的數值變更為<318430.VALUE>，並增加使目標防禦力減少<318431.VALUE>的效果",
       "zh_cnOffset": ""
     },
     {
       "no": 373185,
       "krOffset": "피해량이 <318530.VALUE>로, 범위 피해량이 <318531.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <318530.VALUE>, and AoE damage changes to <318531.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為對目標造成<318530.VALUE>的傷害量，造成<318531.VALUE>的範圍傷害量",
       "zh_cnOffset": ""
     },
     {
       "no": 373189,
       "krOffset": "리더 정령이 공격을 받을 때마다 리더 정령의 가하는 피해를 6초 동안 1.5% 증가 시킨다. (최대 10중첩)",
-      "enOffset": "",
+      "enOffset": "When the lead Soul receives attacks, increases the lead Soul's damage dealt by 1.5% for 6 sec (up to 10 stacks).",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "每當隊長精靈受到攻擊時，隊長精靈造成傷害在6秒內增加1.5%（最多10疊加）",
       "zh_cnOffset": ""
     },
     {
@@ -42595,41 +44067,41 @@
     {
       "no": 378011,
       "krOffset": "피해량이 <801130.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <801130.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<801130.VALUE>的傷害量",
       "zh_cnOffset": ""
     },
     {
       "no": 378012,
       "krOffset": "피해량이 <801230.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <801230.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<801230.VALUE>的傷害量",
       "zh_cnOffset": ""
     },
     {
       "no": 378013,
       "krOffset": "피해량이 <801330.VALUE>, 추가 피해가 <801332.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <801330.VALUE>, and additional damage changes to <801332.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<801330.VALUE>的傷害量、造成<801332.VALUE>的額外傷害",
       "zh_cnOffset": ""
     },
     {
       "no": 378014,
       "krOffset": "기본 공격 피해량이 <801030.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Basic attack damage changes to <801030.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "基本攻擊變更為造成<801030.VALUE>的傷害量",
       "zh_cnOffset": ""
     },
     {
       "no": 378015,
       "krOffset": "피해량이 <801531.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <801531.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<801531.VALUE>的傷害量",
       "zh_cnOffset": ""
     },
     {
@@ -44225,6 +45697,46 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 382171,
+      "krOffset": "길었던 고독은, 새로운 힘으로!",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 382172,
+      "krOffset": "거역하지 마!",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 382173,
+      "krOffset": "이제 망설이지 않아!",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 382174,
+      "krOffset": "카무이의 힘, 남김없이 개방하겠어!",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 382179,
+      "krOffset": "리더 정령이 전장에 있는 동안 <저주> 상태인 적이 받는 최종 피해가 17.5% 증가한다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 383011,
       "krOffset": "보여줄게… 내 최고 걸작이야!",
       "enOffset": "Let me show you...my best masterpiece!",
@@ -44859,73 +46371,73 @@
     {
       "no": 383171,
       "krOffset": "도망칠 수 있으리라 생각해?",
-      "enOffset": "",
+      "enOffset": "Did you really think you could escape?",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "你以為你逃得了？",
       "zh_cnOffset": ""
     },
     {
       "no": 383172,
       "krOffset": "물아일체.",
-      "enOffset": "",
+      "enOffset": "Oneness.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "天人合一。",
       "zh_cnOffset": ""
     },
     {
       "no": 383173,
       "krOffset": "허공 속으로.",
-      "enOffset": "",
+      "enOffset": "Into the void.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "騰空而起。",
       "zh_cnOffset": ""
     },
     {
       "no": 383175,
       "krOffset": "이미 늦었어.\r\n이대로 환영 속에서 잠들어.",
-      "enOffset": "",
+      "enOffset": "Too late.\r\nDrift into slumber within the illusion.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "來不及了，\r\n就這樣沉睡在幻影中吧。",
       "zh_cnOffset": ""
     },
     {
       "no": 383181,
       "krOffset": "느려…!!!",
-      "enOffset": "",
+      "enOffset": "Too slow...!!!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "太慢了…！！！",
       "zh_cnOffset": ""
     },
     {
       "no": 383182,
       "krOffset": "이 꽉 깨물어라?",
-      "enOffset": "",
+      "enOffset": "Clench your teeth, 'kay?",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "給我咬緊牙關哦！",
       "zh_cnOffset": ""
     },
     {
       "no": 383183,
       "krOffset": "그림자보다 빠르게!",
-      "enOffset": "",
+      "enOffset": "Faster than a shadow!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "比影子還快！",
       "zh_cnOffset": ""
     },
     {
       "no": 383184,
       "krOffset": "내 진심을… 보여주지!!",
-      "enOffset": "",
+      "enOffset": "Here comes my true power!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "讓你看看…我的真心！！",
       "zh_cnOffset": ""
     },
     {
       "no": 383189,
       "krOffset": "리더 정령이 공격을 받을 때마다 리더 정령의 가하는 피해를 6초 동안 2% 증가 시킨다. (최대 10중첩)",
-      "enOffset": "",
+      "enOffset": "When the lead Soul receives attacks, increases the lead Soul's damage dealt by 2% for 6 sec (up to 10 stacks).",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "每當隊長精靈受到攻擊時，隊長精靈造成傷害在6秒內增加2%（最多10疊加）",
       "zh_cnOffset": ""
     },
     {
@@ -45529,35 +47041,75 @@
       "zh_cnOffset": ""
     },
     {
-      "no": 384171,
-      "krOffset": "자아, 놀이 시간이야♥ \r\n가자, 캐럿!",
+      "no": 384161,
+      "krOffset": "종착역은 '지옥'… 이대로 날려줄게.",
       "enOffset": "",
       "jaOffset": "",
       "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 384162,
+      "krOffset": "머리 위로… 쿵.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 384163,
+      "krOffset": "응, 이리 와.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 384164,
+      "krOffset": "찾았다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 384165,
+      "krOffset": "이제부터는… 여기가 '지옥'이야.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 384171,
+      "krOffset": "자아, 놀이 시간이야♥ \r\n가자, 캐럿!",
+      "enOffset": "It's playtime♥\r\nLet's go, Carrot!",
+      "jaOffset": "",
+      "zh_twOffset": "來，玩耍時間到囉♥\r\n上吧，克拉！",
       "zh_cnOffset": ""
     },
     {
       "no": 384172,
       "krOffset": "어딜 보는 거야?",
-      "enOffset": "",
+      "enOffset": "Eyes over here!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "你在看哪？",
       "zh_cnOffset": ""
     },
     {
       "no": 384173,
       "krOffset": "짜릿하지?",
-      "enOffset": "",
+      "enOffset": "Thrilling, isn't it?",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "很刺激吧？",
       "zh_cnOffset": ""
     },
     {
       "no": 384175,
       "krOffset": "영원히 끝나지 않는 밤에 초대할게♥",
-      "enOffset": "",
+      "enOffset": "Welcome to an endless night♥",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "邀請你來到永無止境之夜♥",
       "zh_cnOffset": ""
     },
     {
@@ -46107,41 +47659,41 @@
     {
       "no": 388011,
       "krOffset": "피해량이 <801140.VALUE>로, 부여하는 <color=#FFFFFF><피로></color> 중첩이 <color=#FFFFFF>3</color>중첩으로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <801140.VALUE>. The number of <color=#FFFFFF>\"Fatigue\"</color> stacks inflicted changes to <color=#FFFFFF>3</color>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<801140.VALUE>的傷害量，賦予的<color=#FFFFFF>＜疲勞＞</color>變更為<color=#FFFFFF>3</color>疊加",
       "zh_cnOffset": ""
     },
     {
       "no": 388012,
       "krOffset": "피해량이 <801240.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <801240.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<801240.VALUE>的傷害量",
       "zh_cnOffset": ""
     },
     {
       "no": 388013,
       "krOffset": "피해량이 <801340.VALUE>, 추가 피해가 <801342.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <801340.VALUE>, and additional damage changes to <801342.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<801340.VALUE>的傷害量、造成<801342.VALUE>的額外傷害",
       "zh_cnOffset": ""
     },
     {
       "no": 388014,
       "krOffset": "기본 공격 피해량이 <801040.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Basic attack damage changes to <801040.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "基本攻擊變更為造成<801040.VALUE>的傷害量",
       "zh_cnOffset": ""
     },
     {
       "no": 388015,
       "krOffset": "피해량이 <801541.VALUE>로 변경되고, 윈드밀을 유지하는 동안 받는 피해 감소가 <801542.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <801541.VALUE>, and damage received reduction while Windmill is active changes to <801542.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<801541.VALUE>的傷害量，風車持續期間，所受傷害變更為減少<801542.VALUE>",
       "zh_cnOffset": ""
     },
     {
@@ -46473,6 +48025,14 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 392179,
+      "krOffset": "리더 정령이 전장에 있는 동안 <저주> 상태인 적이 받는 최종 피해가 20% 증가한다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 393019,
       "krOffset": "전투 시작 <COLOR=#FFFFFF>60</COLOR>초 마다 리더 정령의 공격력,방어력,치명타 확률,치명타 위력을 각각 <301952.VALUE> 증가시킨다.",
       "enOffset": "Every <COLOR=#FFFFFF>60</COLOR> sec after battle begins, increases the lead Soul's ATK, DEF, Crit Rate, and Crit DMG by <301952.VALUE> each.",
@@ -46603,9 +48163,9 @@
     {
       "no": 393189,
       "krOffset": "리더 정령이 공격을 받을 때마다 리더 정령의 가하는 피해를 6초 동안 2.5% 증가 시킨다. (최대 10중첩)",
-      "enOffset": "",
+      "enOffset": "When the lead Soul receives attacks, increases the lead Soul's damage dealt by 2.5% for 6 sec (up to 10 stacks).",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "每當隊長精靈受到攻擊時，隊長精靈造成傷害在6秒內增加2.5%（最多10疊加）",
       "zh_cnOffset": ""
     },
     {
@@ -47073,6 +48633,14 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 402179,
+      "krOffset": "리더 정령이 전장에 있는 동안 <저주> 상태인 적이 받는 최종 피해가 22.5% 증가한다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 403019,
       "krOffset": "전투 시작 <COLOR=#FFFFFF>60</COLOR>초 마다 리더 정령의 공격력,방어력,치명타 확률,치명타 위력을 각각 <301962.VALUE> 증가시킨다.",
       "enOffset": "Every <COLOR=#FFFFFF>60</COLOR> sec after battle begins, increases the lead Soul's ATK, DEF, Crit Rate, and Crit DMG by <301962.VALUE> each.",
@@ -47203,9 +48771,9 @@
     {
       "no": 403189,
       "krOffset": "리더 정령이 공격을 받을 때마다 리더 정령의 가하는 피해를 6초 동안 3% 증가 시킨다. (최대 10중첩)",
-      "enOffset": "",
+      "enOffset": "When the lead Soul receives attacks, increases the lead Soul's damage dealt by 3% for 6 sec (up to 10 stacks).",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "每當隊長精靈受到攻擊時，隊長精靈造成傷害在6秒內增加3%（最多10疊加）",
       "zh_cnOffset": ""
     },
     {
@@ -47673,6 +49241,14 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 412179,
+      "krOffset": "리더 정령이 전장에 있는 동안 <저주> 상태인 적이 받는 최종 피해가 25% 증가한다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 413019,
       "krOffset": "전투 시작 <COLOR=#FFFFFF>60</COLOR>초 후 리더 정령의 공격력,방어력,치명타 확률,치명타 위력을 각각 <301972.VALUE> 증가시킨다.",
       "enOffset": "Every <COLOR=#FFFFFF>60</COLOR> sec after battle begins, increases the lead Soul's ATK, DEF, Crit Rate, and Crit DMG by <301972.VALUE> each.",
@@ -47803,9 +49379,9 @@
     {
       "no": 413189,
       "krOffset": "리더 정령이 공격을 받을 때마다 리더 정령의 가하는 피해를 6초 동안 3.5% 증가 시킨다. (최대 10중첩)",
-      "enOffset": "",
+      "enOffset": "When the lead Soul receives attacks, increases the lead Soul's damage dealt by 3.5% for 6 sec (up to 10 stacks).",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "每當隊長精靈受到攻擊時，隊長精靈造成傷害在6秒內增加3.5%（最多10疊加）",
       "zh_cnOffset": ""
     },
     {
@@ -50019,9 +51595,9 @@
     {
       "no": 710006,
       "krOffset": "아군 정령이 얼티밋 스킬 사용 시 모든 아군의 가하는 피해가 12초 동안 100% 증가한다.",
-      "enOffset": "",
+      "enOffset": "Using the ultimate skill increases the ally Soul's damage dealt by 100% for 12 sec.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "使用終極技能時，12秒內友軍精靈造成的傷害量增加100%",
       "zh_cnOffset": ""
     },
     {
@@ -62347,9 +63923,9 @@
     {
       "no": 35320990,
       "krOffset": "전투 중 <마물>이 처치 될 때 마다 피해를 받고 <마물>을 소환한다.",
-      "enOffset": "Whenever a \"Monster\" is defeated during battle, she takes the damage and summons another \"Monster\"",
+      "enOffset": "Whenever a \"monster\" is defeated during battle, she takes the damage and summons another \"monster.\"",
       "jaOffset": "",
-      "zh_twOffset": "戰鬥中，每當＜魔物＞被擊殺時會受到傷害，召喚＜魔物＞",
+      "zh_twOffset": "戰鬥中，每當＜魔物＞被擊殺時，會承受傷害召喚＜魔物＞",
       "zh_cnOffset": ""
     },
     {
@@ -62363,7 +63939,7 @@
     {
       "no": 35321081,
       "krOffset": "모든 탱크 포격을 즉시 사용 가능 상태로 변경한다. (1회에 한해 전투 시작 20초 이후 사용 가능)",
-      "enOffset": "Instantly readies all tank bombardments for use (can be used once per battle, 20 seconds after the battle begins)",
+      "enOffset": "Instantly readies all tank bombardments for use (can be used once per battle, 20 seconds after the battle begins).",
       "jaOffset": "",
       "zh_twOffset": "所有坦克轉為可立即使用砲擊的狀態。（僅限發動1次，可在戰鬥開始20秒後使用）",
       "zh_cnOffset": ""
@@ -62403,9 +63979,9 @@
     {
       "no": 35321201,
       "krOffset": "가장 먼 적을 향해 얼음의 창을 날려 공격력 <316130.VALUE>의 피해를 입힌다. \r\n<color=#FFFFFF><앱솔루트 제로></color> 상태에서 사용 시 반드시 치명타가 발생하고, 공격력 <316132.VALUE>의 추가 피해를 입힌다.",
-      "enOffset": "Launches a spear of ice toward the farthest enemy, dealing damage equal to <316110.VALUE> of ATK.\r\nWhen used while <color=#FFFFFF>\"Absolute Zero\"</color> is active, this attack is guaranteed to land as a critical hit and deals additional damage equal to <316132.VALUE> of ATK.",
+      "enOffset": "Launches a spear of ice toward the farthest enemy, dealing damage equal to <316130.VALUE> of ATK.\r\nWhen used while <color=#FFFFFF>\"Absolute Zero\"</color> is active, this attack is guaranteed to land as a critical hit and deals additional damage equal to <316132.VALUE> of ATK.",
       "jaOffset": "",
-      "zh_twOffset": "朝最遙遠的敵人發射冰槍，造成攻擊力<316110.VALUE>的傷害。\r\n在<color=#FFFFFF>＜絕對零度＞</color>狀態下使用時，必觸發暴擊，造成攻擊力<316132.VALUE>的額外傷害",
+      "zh_twOffset": "朝最遙遠的敵人發射冰槍，造成攻擊力<316130.VALUE>的傷害。\r\n在<color=#FFFFFF>＜絕對零度＞</color>狀態下使用時，必觸發暴擊，造成攻擊力<316132.VALUE>的額外傷害",
       "zh_cnOffset": ""
     },
     {
@@ -62419,9 +63995,9 @@
     {
       "no": 35321203,
       "krOffset": "가장 먼 적의 등 뒤로 순간이동 후 응축된 마력을 폭발 시켜 적에게 쏘아 공격력 <316330.VALUE>의 피해를 입힌다. <color=#FFFFFF><앱솔루트 제로></color> 상태일 경우 대상에게 <316331.DURATION>초 동안 공격력 <316331.VALUE>의 <color=#FFFFFF><냉기></color> 효과를 부여한다.",
-      "enOffset": "Teleports behind the farthest enemy, then unleashes condensed mana in a blast, dealing damage equal to <316330.VALUE> of ATK. If <color=#FFFFFF>\"Absolute Zero\"</color> is active, this attack also inflicts <color=#FFFFFF>\"Freeze\"</color> on the target, dealing DoT equal to <316311.VALUE> of ATK every 2 sec for <316331.DURATION> sec.",
+      "enOffset": "Teleports behind the farthest enemy, then unleashes condensed mana in a blast, dealing damage equal to <316330.VALUE> of ATK. If <color=#FFFFFF>\"Absolute Zero\"</color> is active, this attack also inflicts <color=#FFFFFF>\"Freeze\"</color> on the target, dealing DoT equal to <316331.VALUE> of ATK for <316331.DURATION> sec.",
       "jaOffset": "",
-      "zh_twOffset": "順移到最遠的敵人背後，引爆凝聚的魔力射向敵人，造成攻擊力<316330.VALUE>的傷害。處於<color=#FFFFFF>＜絕對零度＞</color>狀態時，<316331.DURATION>秒內賦予攻擊力<316311.VALUE>的<color=#FFFFFF>＜寒氣＞</color>效果",
+      "zh_twOffset": "順移到最遠的敵人背後，引爆凝聚的魔力射向敵人，造成攻擊力<316330.VALUE>的傷害。處於<color=#FFFFFF>＜絕對零度＞</color>狀態時，<316331.DURATION>秒內賦予攻擊力<316331.VALUE>的<color=#FFFFFF>＜寒氣＞</color>效果",
       "zh_cnOffset": ""
     },
     {
@@ -62437,15 +64013,15 @@
       "krOffset": "눈의 현자의 마력은 대지를 얼어붙게 만든다. 전투 시작 이후 <3212052.DURATION>초 마다 모든 적에게 공격력 <3212053.VALUE>의 피해를 입힌다.",
       "enOffset": "The mana of the Sage of the Snow freezes the land. Deals damage equal to <3212053.VALUE> of ATK to all enemies every <3212052.DURATION> sec once battle begins.",
       "jaOffset": "",
-      "zh_twOffset": "雪之賢者的魔力讓大地結凍。戰鬥開始後每6秒對所有敵人造成攻擊力<3212053.VALUE>的傷害",
+      "zh_twOffset": "雪之賢者的魔力讓大地結凍。戰鬥開始後每<3212052.DURATION>秒對所有敵人造成攻擊力<3212053.VALUE>的傷害",
       "zh_cnOffset": ""
     },
     {
       "no": 35321225,
       "krOffset": "바이스가 자신의 전차에 탑재한 비장의 마신포를 발포하여 가장 적을 많이 맞출 수 있는 범위를 중심으로 20m의 범위에 공격력 <3212250.VALUE>의 피해를 입힌다.",
-      "enOffset": "Weiss fires the ultimate Demon Cannon from her tank, targeting the area with the most enemies within a 20m radius and dealing damage equal to <3212250.VALUE> of ATK. ",
+      "enOffset": "Weiss fires the ultimate Demon Cannon from her tank, targeting the area with the most enemies within a 20m radius and dealing damage equal to <3212250.VALUE> of ATK.",
       "jaOffset": "",
-      "zh_twOffset": "拜斯發射自身坦克搭載的終極魔神砲，以能瞄準最多敵人的範圍為中心，在20m的範圍造成攻擊力<3212250.VALUE>。",
+      "zh_twOffset": "拜斯發射自身坦克搭載的終極魔神砲，以能瞄準最多敵人的範圍為中心，在20m的範圍造成攻擊力<3212250.VALUE>的傷害",
       "zh_cnOffset": ""
     },
     {
@@ -62883,9 +64459,9 @@
     {
       "no": 35600021,
       "krOffset": "베히모스는 봉인을 풀기 위해 거슬리는 모든 것을 말살하는 기운을 방출하여, 모든 적에게 총 <6000211.VALUE>의 피해를 입힌다. 이와 함께 자신에게 <COLOR=#FFFFFF><멸살></COLOR> 효과와 <COLOR=#FFFFFF><뇌전갑각></COLOR> 20중첩을 부여한다.\r\n\r\n이후 본체를 1회 타격할 때마다 <COLOR=#FFFFFF><뇌전갑각></COLOR>이 1중첩씩 감소하며, 중첩이 모두 사라지면 베히모스를 기절시킬 수 있다. 기절에 성공하면 <COLOR=#FFFFFF><멸살></COLOR> 효과가 즉시 해제되고, <6000272.DURATION>초 동안 베히모스의 최종 피해 감소 효과가 사라진다. 이 기절 시간 동안 베히모스가 받는 최종 피해는 <6000274.VALUE> 증가한다.\r\n\r\n기절에 실패할 경우, 남아 있는 <COLOR=#FFFFFF><뇌전갑각></COLOR> 5중첩마다 아군 전체의 가하는 피해가 영구적으로 <6000316.VALUE> 감소한다.",
-      "enOffset": "",
+      "enOffset": "Behemoth releases a destructive aura to eliminate all obstacles in its path to break the seal, dealing a total of <6000211.VALUE> damage to all enemies. It also grants itself <COLOR=#FFFFFF>\"Obliteration\"</COLOR> and 20 stacks of <COLOR=#FFFFFF>\"Lightning Carapace\"</COLOR>.\r\n\r\nAfterward, hitting the main body removes 1 stack of <COLOR=#FFFFFF>\"Lightning Carapace\"</COLOR> per hit. Once all stacks are gone, Behemoth can be stunned. Successfully inflicting Stun immediately cancels <COLOR=#FFFFFF>\"Obliteration\"</COLOR>, and for <6000272.DURATION> sec, Behemoth's total damage received reduction effect is removed. During the stun, Behemoth's total damage received is increased by <6000274.VALUE>.\r\n\r\nIf the stun fails, for every 5 remaining stacks of <COLOR=#FFFFFF>\"Lightning Carapace\"</COLOR>, all allies' damage dealt is permanently decreased by <6000316.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "為了解除封印，貝希摩斯對看不順眼的一切發射毀滅氣息，對所有敵人造成總共<6000211.VALUE>的傷害。同時賦予自身<COLOR=#FFFFFF>＜滅絕＞</COLOR>效果和<COLOR=#FFFFFF>＜雷電盔甲＞</COLOR>20疊加。\r\n\r\n之後每打擊1次本體，將減少<COLOR=#FFFFFF>＜雷電盔甲＞</COLOR>1疊加，疊加全數耗盡後即可使貝希摩斯暈眩。成功暈眩後，立刻解除<COLOR=#FFFFFF>＜滅絕＞</COLOR>效果，<6000272.DURATION>秒內貝希摩斯的最終傷害減少效果消失。暈眩期間，貝希摩斯所受最終傷害增加<6000274.VALUE>。\r\n\r\n暈眩失敗時，每剩餘5疊加<COLOR=#FFFFFF>＜雷電盔甲＞</COLOR>，將永久減少所有友軍的造成傷害<6000316.VALUE>",
       "zh_cnOffset": ""
     },
     {
@@ -64315,9 +65891,9 @@
     {
       "no": 80351140,
       "krOffset": "아군 아키의 능력치가 대폭 증가하고 마나를 2500 만큼 보유한 상태로 전투를 시작한다.",
-      "enOffset": "Greatly increases stats with the power of origin and starts battle with 2,500 Mana.",
+      "enOffset": "Greatly increases Aki (ally)'s stats, and she starts battle with 2,500 Mana.",
       "jaOffset": "",
-      "zh_twOffset": "起源的力量使能力值大幅增加，將以持有2500魔力的狀態開始戰鬥。",
+      "zh_twOffset": "友軍秋的能力值大幅增加，將以持有2500魔力的狀態開始戰鬥。",
       "zh_cnOffset": ""
     },
     {

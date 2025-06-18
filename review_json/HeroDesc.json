@@ -820,6 +820,26 @@
       "zodiac_type_sno": 10103
     },
     {
+      "hero_no": 2170,
+      "name_sno": 302170,
+      "nick_name_sno": 312170,
+      "ment_sno": 392170,
+      "gacha_ment_sno": 342170,
+      "height": 158,
+      "weight": 43,
+      "birthday": 328,
+      "constellation_sno": 800003,
+      "hobby_sno": 802091,
+      "speciality_sno": 802172,
+      "like_sno": 802173,
+      "dislike_sno": 802174,
+      "introduction_sno": 802175,
+      "cv_sno": 802176,
+      "cv_jp_sno": 802177,
+      "union_sno": 809999,
+      "zodiac_type_sno": 10101
+    },
+    {
       "hero_no": 3010,
       "name_sno": 303010,
       "nick_name_sno": 313010,
@@ -2369,6 +2389,11 @@
       "hero_no": 60002,
       "name_sno": 3060002,
       "nick_name_sno": 3160002
+    },
+    {
+      "hero_no": 66001,
+      "name_sno": 309928,
+      "nick_name_sno": 319928
     },
     {
       "hero_no": 66004,

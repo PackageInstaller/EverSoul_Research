@@ -78937,6 +78937,2406 @@
       "talk_index": 4
     },
     {
+      "no": 721700101,
+      "group_no": 7217001,
+      "love_level": 1,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 1
+    },
+    {
+      "no": 721700102,
+      "group_no": 7217001,
+      "love_level": 1,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 2
+    },
+    {
+      "no": 721700103,
+      "group_no": 7217001,
+      "love_level": 1,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 3,
+      "choice_group": 1
+    },
+    {
+      "no": 721700104,
+      "group_no": 7217001,
+      "love_level": 1,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 4,
+      "choice_group": 1
+    },
+    {
+      "no": 721700105,
+      "group_no": 7217001,
+      "love_level": 1,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 5,
+      "choice_group": 1
+    },
+    {
+      "no": 721700106,
+      "group_no": 7217001,
+      "love_level": 1,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 6,
+      "choice_group": 1
+    },
+    {
+      "no": 721700107,
+      "group_no": 7217001,
+      "love_level": 1,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 7
+    },
+    {
+      "no": 721700108,
+      "group_no": 7217001,
+      "love_level": 1,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 8
+    },
+    {
+      "no": 721700109,
+      "group_no": 7217001,
+      "love_level": 1,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 9
+    },
+    {
+      "no": 721700110,
+      "group_no": 7217001,
+      "love_level": 1,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 10,
+      "choice_group": 1
+    },
+    {
+      "no": 721700111,
+      "group_no": 7217001,
+      "love_level": 1,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 11,
+      "choice_group": 1
+    },
+    {
+      "no": 721700201,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 1
+    },
+    {
+      "no": 721700202,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 2,
+      "choice_group": 1
+    },
+    {
+      "no": 721700203,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 3,
+      "choice_group": 1
+    },
+    {
+      "no": 721700204,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 4,
+      "choice_group": 1
+    },
+    {
+      "no": 721700205,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 5,
+      "choice_group": 1
+    },
+    {
+      "no": 721700206,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 6
+    },
+    {
+      "no": 721700207,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 7
+    },
+    {
+      "no": 721700208,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 8
+    },
+    {
+      "no": 721700209,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 9,
+      "choice_group": 1
+    },
+    {
+      "no": 721700210,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 10,
+      "choice_group": 1
+    },
+    {
+      "no": 721700211,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 11,
+      "choice_group": 1
+    },
+    {
+      "no": 721700212,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 12,
+      "choice_group": 1
+    },
+    {
+      "no": 721700213,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 13
+    },
+    {
+      "no": 721700214,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 14
+    },
+    {
+      "no": 721700215,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 15
+    },
+    {
+      "no": 721700216,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 16,
+      "choice_group": 1
+    },
+    {
+      "no": 721700217,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 17,
+      "choice_group": 1
+    },
+    {
+      "no": 721700218,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 18
+    },
+    {
+      "no": 721700219,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 19
+    },
+    {
+      "no": 721700220,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 20
+    },
+    {
+      "no": 721700221,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 21
+    },
+    {
+      "no": 721700222,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 22
+    },
+    {
+      "no": 721700223,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 23
+    },
+    {
+      "no": 721700224,
+      "group_no": 7217002,
+      "love_level": 2,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 24
+    },
+    {
+      "no": 721700301,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 1
+    },
+    {
+      "no": 721700302,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 2
+    },
+    {
+      "no": 721700303,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 3
+    },
+    {
+      "no": 721700304,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 4
+    },
+    {
+      "no": 721700305,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 5,
+      "choice_group": 1
+    },
+    {
+      "no": 721700306,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 6,
+      "choice_group": 1
+    },
+    {
+      "no": 721700307,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 7
+    },
+    {
+      "no": 721700308,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 8
+    },
+    {
+      "no": 721700309,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 9,
+      "choice_group": 1
+    },
+    {
+      "no": 721700310,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 10,
+      "choice_group": 1
+    },
+    {
+      "no": 721700311,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 11
+    },
+    {
+      "no": 721700312,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 12,
+      "choice_group": 1
+    },
+    {
+      "no": 721700313,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 13,
+      "choice_group": 1
+    },
+    {
+      "no": 721700314,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 14
+    },
+    {
+      "no": 721700315,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 15
+    },
+    {
+      "no": 721700316,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 16,
+      "choice_group": 1
+    },
+    {
+      "no": 721700317,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 17,
+      "choice_group": 1
+    },
+    {
+      "no": 721700318,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 18
+    },
+    {
+      "no": 721700319,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 19
+    },
+    {
+      "no": 721700320,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 20
+    },
+    {
+      "no": 721700321,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 21
+    },
+    {
+      "no": 721700322,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 22,
+      "choice_group": 1
+    },
+    {
+      "no": 721700323,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 23,
+      "choice_group": 1
+    },
+    {
+      "no": 721700324,
+      "group_no": 7217003,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 24
+    },
+    {
+      "no": 721700401,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 1
+    },
+    {
+      "no": 721700402,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 2
+    },
+    {
+      "no": 721700403,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 3,
+      "choice_group": 1
+    },
+    {
+      "no": 721700404,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 4,
+      "choice_group": 1
+    },
+    {
+      "no": 721700405,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 5
+    },
+    {
+      "no": 721700406,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 6,
+      "choice_group": 1
+    },
+    {
+      "no": 721700407,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 7,
+      "choice_group": 1
+    },
+    {
+      "no": 721700408,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 8
+    },
+    {
+      "no": 721700409,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 9
+    },
+    {
+      "no": 721700410,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 10
+    },
+    {
+      "no": 721700411,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 11,
+      "choice_group": 1
+    },
+    {
+      "no": 721700412,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 12,
+      "choice_group": 1
+    },
+    {
+      "no": 721700413,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 13,
+      "choice_group": 1
+    },
+    {
+      "no": 721700414,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 14,
+      "choice_group": 1
+    },
+    {
+      "no": 721700415,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 15,
+      "choice_group": 1
+    },
+    {
+      "no": 721700416,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 16,
+      "choice_group": 1
+    },
+    {
+      "no": 721700417,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 17
+    },
+    {
+      "no": 721700418,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 18
+    },
+    {
+      "no": 721700419,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 19
+    },
+    {
+      "no": 721700420,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 20
+    },
+    {
+      "no": 721700421,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 21
+    },
+    {
+      "no": 721700422,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 22,
+      "choice_group": 1
+    },
+    {
+      "no": 721700423,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 23,
+      "choice_group": 1
+    },
+    {
+      "no": 721700424,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 24,
+      "choice_group": 1
+    },
+    {
+      "no": 721700425,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 25,
+      "choice_group": 1
+    },
+    {
+      "no": 721700426,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 26
+    },
+    {
+      "no": 721700427,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 27
+    },
+    {
+      "no": 721700428,
+      "group_no": 7217004,
+      "love_level": 4,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 28
+    },
+    {
+      "no": 721700501,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 1,
+      "choice_group": 1
+    },
+    {
+      "no": 721700502,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 2,
+      "choice_group": 1
+    },
+    {
+      "no": 721700503,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 3,
+      "choice_group": 1
+    },
+    {
+      "no": 721700504,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 4,
+      "choice_group": 1
+    },
+    {
+      "no": 721700505,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 5
+    },
+    {
+      "no": 721700506,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 6
+    },
+    {
+      "no": 721700507,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 7
+    },
+    {
+      "no": 721700508,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 8
+    },
+    {
+      "no": 721700509,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 9
+    },
+    {
+      "no": 721700510,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 10,
+      "choice_group": 1
+    },
+    {
+      "no": 721700511,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 11,
+      "choice_group": 1
+    },
+    {
+      "no": 721700512,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 12,
+      "choice_group": 1
+    },
+    {
+      "no": 721700513,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 13,
+      "choice_group": 1
+    },
+    {
+      "no": 721700514,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 14,
+      "choice_group": 1
+    },
+    {
+      "no": 721700515,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 15,
+      "choice_group": 1
+    },
+    {
+      "no": 721700516,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 16,
+      "choice_group": 1
+    },
+    {
+      "no": 721700517,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 17,
+      "choice_group": 1
+    },
+    {
+      "no": 721700518,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 18
+    },
+    {
+      "no": 721700519,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 19,
+      "choice_group": 1
+    },
+    {
+      "no": 721700520,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 20,
+      "choice_group": 1
+    },
+    {
+      "no": 721700521,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 21,
+      "choice_group": 1
+    },
+    {
+      "no": 721700522,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 22,
+      "choice_group": 1
+    },
+    {
+      "no": 721700523,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 23
+    },
+    {
+      "no": 721700524,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 24
+    },
+    {
+      "no": 721700525,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 25
+    },
+    {
+      "no": 721700526,
+      "group_no": 7217005,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 26
+    },
+    {
+      "no": 721700601,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 1
+    },
+    {
+      "no": 721700602,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 2
+    },
+    {
+      "no": 721700603,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 3,
+      "choice_group": 1
+    },
+    {
+      "no": 721700604,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 4,
+      "choice_group": 1
+    },
+    {
+      "no": 721700605,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 5
+    },
+    {
+      "no": 721700606,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 6
+    },
+    {
+      "no": 721700607,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 7
+    },
+    {
+      "no": 721700608,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 8,
+      "choice_group": 1
+    },
+    {
+      "no": 721700609,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 9,
+      "choice_group": 1
+    },
+    {
+      "no": 721700610,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 10
+    },
+    {
+      "no": 721700611,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 11,
+      "choice_group": 1
+    },
+    {
+      "no": 721700612,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 12,
+      "choice_group": 1
+    },
+    {
+      "no": 721700613,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 13
+    },
+    {
+      "no": 721700614,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 14
+    },
+    {
+      "no": 721700615,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 15
+    },
+    {
+      "no": 721700616,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 16,
+      "choice_group": 1
+    },
+    {
+      "no": 721700617,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 17,
+      "choice_group": 1
+    },
+    {
+      "no": 721700618,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 18
+    },
+    {
+      "no": 721700619,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 19,
+      "choice_group": 1
+    },
+    {
+      "no": 721700620,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 20,
+      "choice_group": 1
+    },
+    {
+      "no": 721700621,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 21
+    },
+    {
+      "no": 721700622,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 22
+    },
+    {
+      "no": 721700623,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 23
+    },
+    {
+      "no": 721700624,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 24
+    },
+    {
+      "no": 721700625,
+      "group_no": 7217006,
+      "love_level": 6,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 25
+    },
+    {
+      "no": 721700701,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 1
+    },
+    {
+      "no": 721700702,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 2
+    },
+    {
+      "no": 721700703,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 3
+    },
+    {
+      "no": 721700704,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 4
+    },
+    {
+      "no": 721700705,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 5
+    },
+    {
+      "no": 721700706,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 6
+    },
+    {
+      "no": 721700707,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 7
+    },
+    {
+      "no": 721700708,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 8
+    },
+    {
+      "no": 721700709,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 9
+    },
+    {
+      "no": 721700710,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 10
+    },
+    {
+      "no": 721700711,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 11
+    },
+    {
+      "no": 721700712,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 12
+    },
+    {
+      "no": 721700713,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 13
+    },
+    {
+      "no": 721700714,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 14
+    },
+    {
+      "no": 721700715,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 15,
+      "choice_group": 1
+    },
+    {
+      "no": 721700716,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 16,
+      "choice_group": 1
+    },
+    {
+      "no": 721700717,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 17
+    },
+    {
+      "no": 721700718,
+      "group_no": 7217007,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 18
+    },
+    {
+      "no": 721700801,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 1
+    },
+    {
+      "no": 721700802,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 2
+    },
+    {
+      "no": 721700803,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 3
+    },
+    {
+      "no": 721700804,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 4
+    },
+    {
+      "no": 721700805,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 5
+    },
+    {
+      "no": 721700806,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 6,
+      "choice_group": 1
+    },
+    {
+      "no": 721700807,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 7,
+      "choice_group": 1
+    },
+    {
+      "no": 721700808,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 8,
+      "choice_group": 1
+    },
+    {
+      "no": 721700809,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 9,
+      "choice_group": 1
+    },
+    {
+      "no": 721700810,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 10
+    },
+    {
+      "no": 721700811,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 11,
+      "choice_group": 1
+    },
+    {
+      "no": 721700812,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 12,
+      "choice_group": 1
+    },
+    {
+      "no": 721700813,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 13,
+      "choice_group": 1
+    },
+    {
+      "no": 721700814,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 14,
+      "choice_group": 1
+    },
+    {
+      "no": 721700815,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 15
+    },
+    {
+      "no": 721700816,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 16
+    },
+    {
+      "no": 721700817,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 17
+    },
+    {
+      "no": 721700818,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 18
+    },
+    {
+      "no": 721700819,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 19
+    },
+    {
+      "no": 721700820,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 20,
+      "choice_group": 1
+    },
+    {
+      "no": 721700821,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 21,
+      "choice_group": 1
+    },
+    {
+      "no": 721700822,
+      "group_no": 7217008,
+      "love_level": 8,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 22
+    },
+    {
+      "no": 721700901,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Illust",
+      "speaker_no": 2170,
+      "talk_index": 1
+    },
+    {
+      "no": 721700902,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 2
+    },
+    {
+      "no": 721700903,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 3
+    },
+    {
+      "no": 721700904,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 4
+    },
+    {
+      "no": 721700905,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 5,
+      "choice_group": 1
+    },
+    {
+      "no": 721700906,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 6,
+      "choice_group": 1
+    },
+    {
+      "no": 721700907,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 7
+    },
+    {
+      "no": 721700908,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 8
+    },
+    {
+      "no": 721700909,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 9
+    },
+    {
+      "no": 721700910,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 10
+    },
+    {
+      "no": 721700911,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 11,
+      "choice_group": 1
+    },
+    {
+      "no": 721700912,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 12,
+      "choice_group": 1
+    },
+    {
+      "no": 721700913,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 13,
+      "choice_group": 1
+    },
+    {
+      "no": 721700914,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 14,
+      "choice_group": 1
+    },
+    {
+      "no": 721700915,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 15
+    },
+    {
+      "no": 721700916,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 16
+    },
+    {
+      "no": 721700917,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 17,
+      "choice_group": 1
+    },
+    {
+      "no": 721700918,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 18,
+      "choice_group": 1
+    },
+    {
+      "no": 721700919,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 19
+    },
+    {
+      "no": 721700920,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 20
+    },
+    {
+      "no": 721700921,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 21
+    },
+    {
+      "no": 721700922,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 22
+    },
+    {
+      "no": 721700923,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 23,
+      "choice_group": 1
+    },
+    {
+      "no": 721700924,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 24,
+      "choice_group": 1
+    },
+    {
+      "no": 721700925,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 25
+    },
+    {
+      "no": 721700926,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 26,
+      "choice_group": 1
+    },
+    {
+      "no": 721700927,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 27,
+      "choice_group": 1
+    },
+    {
+      "no": 721700928,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 28
+    },
+    {
+      "no": 721700929,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 29,
+      "choice_group": 1
+    },
+    {
+      "no": 721700930,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 30,
+      "choice_group": 1
+    },
+    {
+      "no": 721700931,
+      "group_no": 7217009,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 31
+    },
+    {
+      "no": 721701001,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 1
+    },
+    {
+      "no": 721701002,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 2
+    },
+    {
+      "no": 721701003,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 3
+    },
+    {
+      "no": 721701004,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 4
+    },
+    {
+      "no": 721701005,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 5,
+      "choice_group": 1
+    },
+    {
+      "no": 721701006,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 6,
+      "choice_group": 1
+    },
+    {
+      "no": 721701007,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 7
+    },
+    {
+      "no": 721701008,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 8
+    },
+    {
+      "no": 721701009,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 9
+    },
+    {
+      "no": 721701010,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 10
+    },
+    {
+      "no": 721701011,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 11
+    },
+    {
+      "no": 721701012,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 12
+    },
+    {
+      "no": 721701013,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 13,
+      "choice_group": 1
+    },
+    {
+      "no": 721701014,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 14,
+      "choice_group": 1
+    },
+    {
+      "no": 721701015,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 15
+    },
+    {
+      "no": 721701016,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 16
+    },
+    {
+      "no": 721701017,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 17
+    },
+    {
+      "no": 721701018,
+      "group_no": 7217010,
+      "love_level": 9,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 18
+    },
+    {
+      "no": 721701101,
+      "group_no": 7217011,
+      "love_level": 1,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 1
+    },
+    {
+      "no": 721701102,
+      "group_no": 7217011,
+      "love_level": 1,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 2
+    },
+    {
+      "no": 721701103,
+      "group_no": 7217011,
+      "love_level": 1,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 3
+    },
+    {
+      "no": 721701201,
+      "group_no": 7217012,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 1
+    },
+    {
+      "no": 721701202,
+      "group_no": 7217012,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 2
+    },
+    {
+      "no": 721701203,
+      "group_no": 7217012,
+      "love_level": 3,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 3
+    },
+    {
+      "no": 721701301,
+      "group_no": 7217013,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 1
+    },
+    {
+      "no": 721701302,
+      "group_no": 7217013,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 2
+    },
+    {
+      "no": 721701303,
+      "group_no": 7217013,
+      "love_level": 5,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 3
+    },
+    {
+      "no": 721701401,
+      "group_no": 7217014,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 1
+    },
+    {
+      "no": 721701402,
+      "group_no": 7217014,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 2
+    },
+    {
+      "no": 721701403,
+      "group_no": 7217014,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 3
+    },
+    {
+      "no": 721701404,
+      "group_no": 7217014,
+      "love_level": 7,
+      "hero_no": 2170,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 2170,
+      "talk_index": 4
+    },
+    {
       "no": 730100101,
       "group_no": 7301001,
       "love_level": 1,
@@ -149980,6 +152380,4343 @@
       "ui_typeOffset": "Normal",
       "speaker_no": 4090,
       "talk_index": 16
+    },
+    {
+      "no": 740900201,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740900202,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 2
+    },
+    {
+      "no": 740900203,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 3,
+      "choice_group": 1
+    },
+    {
+      "no": 740900204,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 4,
+      "choice_group": 1
+    },
+    {
+      "no": 740900205,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 5
+    },
+    {
+      "no": 740900206,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Illust",
+      "speaker_no": 4090,
+      "talk_index": 6
+    },
+    {
+      "no": 740900207,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 7,
+      "choice_group": 1
+    },
+    {
+      "no": 740900208,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 8,
+      "choice_group": 1
+    },
+    {
+      "no": 740900209,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 9
+    },
+    {
+      "no": 740900210,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 10
+    },
+    {
+      "no": 740900211,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 11
+    },
+    {
+      "no": 740900212,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 12,
+      "choice_group": 1
+    },
+    {
+      "no": 740900213,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 13,
+      "choice_group": 1
+    },
+    {
+      "no": 740900214,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 14,
+      "choice_group": 1
+    },
+    {
+      "no": 740900215,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 15,
+      "choice_group": 1
+    },
+    {
+      "no": 740900216,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 16
+    },
+    {
+      "no": 740900217,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 17
+    },
+    {
+      "no": 740900218,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 18
+    },
+    {
+      "no": 740900219,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 19
+    },
+    {
+      "no": 740900220,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 20
+    },
+    {
+      "no": 740900221,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 21
+    },
+    {
+      "no": 740900222,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 22,
+      "choice_group": 1
+    },
+    {
+      "no": 740900223,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 23,
+      "choice_group": 1
+    },
+    {
+      "no": 740900224,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 24
+    },
+    {
+      "no": 740900225,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 25
+    },
+    {
+      "no": 740900226,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 26
+    },
+    {
+      "no": 740900227,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 27
+    },
+    {
+      "no": 740900228,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 28,
+      "choice_group": 1
+    },
+    {
+      "no": 740900229,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 29,
+      "choice_group": 1
+    },
+    {
+      "no": 740900230,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 30
+    },
+    {
+      "no": 740900231,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 31
+    },
+    {
+      "no": 740900232,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 32
+    },
+    {
+      "no": 740900233,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 33,
+      "choice_group": 1
+    },
+    {
+      "no": 740900234,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 34,
+      "choice_group": 1
+    },
+    {
+      "no": 740900235,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 35,
+      "choice_group": 1
+    },
+    {
+      "no": 740900236,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 36,
+      "choice_group": 1
+    },
+    {
+      "no": 740900237,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 37,
+      "choice_group": 1
+    },
+    {
+      "no": 740900238,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 38,
+      "choice_group": 1
+    },
+    {
+      "no": 740900239,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 39
+    },
+    {
+      "no": 740900240,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 40
+    },
+    {
+      "no": 740900241,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 41
+    },
+    {
+      "no": 740900242,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 42
+    },
+    {
+      "no": 740900243,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 43,
+      "choice_group": 1
+    },
+    {
+      "no": 740900244,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 44,
+      "choice_group": 1
+    },
+    {
+      "no": 740900245,
+      "group_no": 7409002,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 45
+    },
+    {
+      "no": 740900301,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740900302,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 2
+    },
+    {
+      "no": 740900303,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 3,
+      "choice_group": 1
+    },
+    {
+      "no": 740900304,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 4,
+      "choice_group": 1
+    },
+    {
+      "no": 740900305,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 5
+    },
+    {
+      "no": 740900306,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 6
+    },
+    {
+      "no": 740900307,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 7,
+      "choice_group": 1
+    },
+    {
+      "no": 740900308,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 8,
+      "choice_group": 1
+    },
+    {
+      "no": 740900309,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 9
+    },
+    {
+      "no": 740900310,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 10
+    },
+    {
+      "no": 740900311,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 11
+    },
+    {
+      "no": 740900312,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 12,
+      "choice_group": 1
+    },
+    {
+      "no": 740900313,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 13,
+      "choice_group": 1
+    },
+    {
+      "no": 740900314,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 14
+    },
+    {
+      "no": 740900315,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 15
+    },
+    {
+      "no": 740900316,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 16
+    },
+    {
+      "no": 740900317,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 17
+    },
+    {
+      "no": 740900318,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 18
+    },
+    {
+      "no": 740900319,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 19,
+      "choice_group": 1
+    },
+    {
+      "no": 740900320,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 20,
+      "choice_group": 1
+    },
+    {
+      "no": 740900321,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 21
+    },
+    {
+      "no": 740900322,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 22
+    },
+    {
+      "no": 740900323,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 23
+    },
+    {
+      "no": 740900324,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 24
+    },
+    {
+      "no": 740900325,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 25
+    },
+    {
+      "no": 740900326,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 26
+    },
+    {
+      "no": 740900327,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 27
+    },
+    {
+      "no": 740900328,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 28
+    },
+    {
+      "no": 740900329,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 29
+    },
+    {
+      "no": 740900330,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 30,
+      "choice_group": 1
+    },
+    {
+      "no": 740900331,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 31,
+      "choice_group": 1
+    },
+    {
+      "no": 740900332,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 32,
+      "choice_group": 1
+    },
+    {
+      "no": 740900333,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 33,
+      "choice_group": 1
+    },
+    {
+      "no": 740900334,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 34
+    },
+    {
+      "no": 740900335,
+      "group_no": 7409003,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 35
+    },
+    {
+      "no": 740900401,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740900402,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 2
+    },
+    {
+      "no": 740900403,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 3,
+      "choice_group": 1
+    },
+    {
+      "no": 740900404,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 4,
+      "choice_group": 1
+    },
+    {
+      "no": 740900405,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 5
+    },
+    {
+      "no": 740900406,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 6
+    },
+    {
+      "no": 740900407,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 7
+    },
+    {
+      "no": 740900408,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 8
+    },
+    {
+      "no": 740900409,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 9
+    },
+    {
+      "no": 740900410,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 10,
+      "choice_group": 1
+    },
+    {
+      "no": 740900411,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 11,
+      "choice_group": 1
+    },
+    {
+      "no": 740900412,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 12,
+      "choice_group": 1
+    },
+    {
+      "no": 740900413,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 13,
+      "choice_group": 1
+    },
+    {
+      "no": 740900414,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 14
+    },
+    {
+      "no": 740900415,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 15
+    },
+    {
+      "no": 740900416,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 16
+    },
+    {
+      "no": 740900417,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 17
+    },
+    {
+      "no": 740900418,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 18
+    },
+    {
+      "no": 740900419,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 19,
+      "choice_group": 1
+    },
+    {
+      "no": 740900420,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 20,
+      "choice_group": 1
+    },
+    {
+      "no": 740900421,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 21
+    },
+    {
+      "no": 740900422,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 22
+    },
+    {
+      "no": 740900423,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 23,
+      "choice_group": 1
+    },
+    {
+      "no": 740900424,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 24,
+      "choice_group": 1
+    },
+    {
+      "no": 740900425,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 25,
+      "choice_group": 1
+    },
+    {
+      "no": 740900426,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 26,
+      "choice_group": 1
+    },
+    {
+      "no": 740900427,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 27,
+      "choice_group": 1
+    },
+    {
+      "no": 740900428,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 28,
+      "choice_group": 1
+    },
+    {
+      "no": 740900429,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 29
+    },
+    {
+      "no": 740900430,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 30
+    },
+    {
+      "no": 740900431,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 31
+    },
+    {
+      "no": 740900432,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 32,
+      "choice_group": 1
+    },
+    {
+      "no": 740900433,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 33,
+      "choice_group": 1
+    },
+    {
+      "no": 740900434,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 34,
+      "choice_group": 1
+    },
+    {
+      "no": 740900435,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 35,
+      "choice_group": 1
+    },
+    {
+      "no": 740900436,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 36
+    },
+    {
+      "no": 740900437,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 37
+    },
+    {
+      "no": 740900438,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 38
+    },
+    {
+      "no": 740900439,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 39
+    },
+    {
+      "no": 740900440,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 40
+    },
+    {
+      "no": 740900441,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 41,
+      "choice_group": 1
+    },
+    {
+      "no": 740900442,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 42,
+      "choice_group": 1
+    },
+    {
+      "no": 740900443,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 43
+    },
+    {
+      "no": 740900444,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 44
+    },
+    {
+      "no": 740900445,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 45
+    },
+    {
+      "no": 740900446,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 46
+    },
+    {
+      "no": 740900447,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 47
+    },
+    {
+      "no": 740900448,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 48
+    },
+    {
+      "no": 740900449,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 49,
+      "choice_group": 1
+    },
+    {
+      "no": 740900450,
+      "group_no": 7409004,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 50,
+      "choice_group": 1
+    },
+    {
+      "no": 740900501,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740900502,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 2
+    },
+    {
+      "no": 740900503,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 3
+    },
+    {
+      "no": 740900504,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 4,
+      "choice_group": 1
+    },
+    {
+      "no": 740900505,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 5,
+      "choice_group": 1
+    },
+    {
+      "no": 740900506,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 6,
+      "choice_group": 1
+    },
+    {
+      "no": 740900507,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 7,
+      "choice_group": 1
+    },
+    {
+      "no": 740900508,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 8,
+      "choice_group": 1
+    },
+    {
+      "no": 740900509,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 9,
+      "choice_group": 1
+    },
+    {
+      "no": 740900510,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 10
+    },
+    {
+      "no": 740900511,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 11
+    },
+    {
+      "no": 740900512,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 12
+    },
+    {
+      "no": 740900513,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 13
+    },
+    {
+      "no": 740900514,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 14
+    },
+    {
+      "no": 740900515,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 15
+    },
+    {
+      "no": 740900516,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 16,
+      "choice_group": 1
+    },
+    {
+      "no": 740900517,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 17,
+      "choice_group": 1
+    },
+    {
+      "no": 740900518,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 18
+    },
+    {
+      "no": 740900519,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 19
+    },
+    {
+      "no": 740900520,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 20,
+      "choice_group": 1
+    },
+    {
+      "no": 740900521,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 21,
+      "choice_group": 1
+    },
+    {
+      "no": 740900522,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 22
+    },
+    {
+      "no": 740900523,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 23
+    },
+    {
+      "no": 740900524,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 24
+    },
+    {
+      "no": 740900525,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 25,
+      "choice_group": 1
+    },
+    {
+      "no": 740900526,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 26,
+      "choice_group": 1
+    },
+    {
+      "no": 740900527,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 27,
+      "choice_group": 1
+    },
+    {
+      "no": 740900528,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 28,
+      "choice_group": 1
+    },
+    {
+      "no": 740900529,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 29,
+      "choice_group": 1
+    },
+    {
+      "no": 740900530,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 30,
+      "choice_group": 1
+    },
+    {
+      "no": 740900531,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 31
+    },
+    {
+      "no": 740900532,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 32
+    },
+    {
+      "no": 740900533,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 33
+    },
+    {
+      "no": 740900534,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 34
+    },
+    {
+      "no": 740900535,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 35
+    },
+    {
+      "no": 740900536,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 36
+    },
+    {
+      "no": 740900537,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 37
+    },
+    {
+      "no": 740900538,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 38
+    },
+    {
+      "no": 740900539,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 39,
+      "choice_group": 1
+    },
+    {
+      "no": 740900540,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 40,
+      "choice_group": 1
+    },
+    {
+      "no": 740900541,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 41,
+      "choice_group": 1
+    },
+    {
+      "no": 740900542,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 42,
+      "choice_group": 1
+    },
+    {
+      "no": 740900543,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 43
+    },
+    {
+      "no": 740900544,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 44
+    },
+    {
+      "no": 740900545,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 45
+    },
+    {
+      "no": 740900546,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 46
+    },
+    {
+      "no": 740900547,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 47
+    },
+    {
+      "no": 740900548,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 48,
+      "choice_group": 1
+    },
+    {
+      "no": 740900549,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 49,
+      "choice_group": 1
+    },
+    {
+      "no": 740900550,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 50,
+      "choice_group": 1
+    },
+    {
+      "no": 740900551,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 51,
+      "choice_group": 1
+    },
+    {
+      "no": 740900552,
+      "group_no": 7409005,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 52
+    },
+    {
+      "no": 740900601,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740900602,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 2,
+      "choice_group": 1
+    },
+    {
+      "no": 740900603,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 3,
+      "choice_group": 1
+    },
+    {
+      "no": 740900604,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 4,
+      "choice_group": 1
+    },
+    {
+      "no": 740900605,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 5,
+      "choice_group": 1
+    },
+    {
+      "no": 740900606,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 6
+    },
+    {
+      "no": 740900607,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 7
+    },
+    {
+      "no": 740900608,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 8
+    },
+    {
+      "no": 740900609,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 9
+    },
+    {
+      "no": 740900610,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 10
+    },
+    {
+      "no": 740900611,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 11
+    },
+    {
+      "no": 740900612,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 12
+    },
+    {
+      "no": 740900613,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 13
+    },
+    {
+      "no": 740900614,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 14,
+      "choice_group": 1
+    },
+    {
+      "no": 740900615,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 15,
+      "choice_group": 1
+    },
+    {
+      "no": 740900616,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 16
+    },
+    {
+      "no": 740900617,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 17
+    },
+    {
+      "no": 740900618,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 18
+    },
+    {
+      "no": 740900619,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 19
+    },
+    {
+      "no": 740900620,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "speaker_no": 4090,
+      "talk_index": 20
+    },
+    {
+      "no": 740900621,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "speaker_no": 4090,
+      "talk_index": 21
+    },
+    {
+      "no": 740900622,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 22,
+      "choice_group": 1
+    },
+    {
+      "no": 740900623,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 23,
+      "choice_group": 1
+    },
+    {
+      "no": 740900624,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 24,
+      "choice_group": 1
+    },
+    {
+      "no": 740900625,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 25,
+      "choice_group": 1
+    },
+    {
+      "no": 740900626,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 26
+    },
+    {
+      "no": 740900627,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 27
+    },
+    {
+      "no": 740900628,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 28
+    },
+    {
+      "no": 740900629,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 29
+    },
+    {
+      "no": 740900630,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 30
+    },
+    {
+      "no": 740900631,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 31
+    },
+    {
+      "no": 740900632,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 32
+    },
+    {
+      "no": 740900633,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 33,
+      "choice_group": 1
+    },
+    {
+      "no": 740900634,
+      "group_no": 7409006,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 34,
+      "choice_group": 1
+    },
+    {
+      "no": 740900701,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740900702,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 2
+    },
+    {
+      "no": 740900703,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 3,
+      "choice_group": 1
+    },
+    {
+      "no": 740900704,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 4,
+      "choice_group": 1
+    },
+    {
+      "no": 740900705,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 5,
+      "choice_group": 1
+    },
+    {
+      "no": 740900706,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 6,
+      "choice_group": 1
+    },
+    {
+      "no": 740900707,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 7
+    },
+    {
+      "no": 740900708,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 8
+    },
+    {
+      "no": 740900709,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 9
+    },
+    {
+      "no": 740900710,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 10
+    },
+    {
+      "no": 740900711,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 11
+    },
+    {
+      "no": 740900712,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 12,
+      "choice_group": 1
+    },
+    {
+      "no": 740900713,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 13,
+      "choice_group": 1
+    },
+    {
+      "no": 740900714,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 14,
+      "choice_group": 1
+    },
+    {
+      "no": 740900715,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 15,
+      "choice_group": 1
+    },
+    {
+      "no": 740900716,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 16
+    },
+    {
+      "no": 740900717,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 17
+    },
+    {
+      "no": 740900718,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 18
+    },
+    {
+      "no": 740900719,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 19
+    },
+    {
+      "no": 740900720,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 20
+    },
+    {
+      "no": 740900721,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 21
+    },
+    {
+      "no": 740900722,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 22
+    },
+    {
+      "no": 740900723,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 23,
+      "choice_group": 1
+    },
+    {
+      "no": 740900724,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 24,
+      "choice_group": 1
+    },
+    {
+      "no": 740900725,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 25
+    },
+    {
+      "no": 740900726,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 26
+    },
+    {
+      "no": 740900727,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 27
+    },
+    {
+      "no": 740900728,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 28
+    },
+    {
+      "no": 740900729,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 29,
+      "choice_group": 1
+    },
+    {
+      "no": 740900730,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 30,
+      "choice_group": 1
+    },
+    {
+      "no": 740900731,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 31,
+      "choice_group": 1
+    },
+    {
+      "no": 740900732,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 32,
+      "choice_group": 1
+    },
+    {
+      "no": 740900733,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 33,
+      "choice_group": 1
+    },
+    {
+      "no": 740900734,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 34,
+      "choice_group": 1
+    },
+    {
+      "no": 740900735,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 35
+    },
+    {
+      "no": 740900736,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 36
+    },
+    {
+      "no": 740900737,
+      "group_no": 7409007,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 37
+    },
+    {
+      "no": 740900801,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740900802,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 2
+    },
+    {
+      "no": 740900803,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 3,
+      "choice_group": 1
+    },
+    {
+      "no": 740900804,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 4,
+      "choice_group": 1
+    },
+    {
+      "no": 740900805,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 5
+    },
+    {
+      "no": 740900806,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 6
+    },
+    {
+      "no": 740900807,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 7
+    },
+    {
+      "no": 740900808,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 8
+    },
+    {
+      "no": 740900809,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 9
+    },
+    {
+      "no": 740900810,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 10
+    },
+    {
+      "no": 740900811,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 11
+    },
+    {
+      "no": 740900812,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 12,
+      "choice_group": 1
+    },
+    {
+      "no": 740900813,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 13,
+      "choice_group": 1
+    },
+    {
+      "no": 740900814,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 14,
+      "choice_group": 1
+    },
+    {
+      "no": 740900815,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 15,
+      "choice_group": 1
+    },
+    {
+      "no": 740900816,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 16
+    },
+    {
+      "no": 740900817,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 17
+    },
+    {
+      "no": 740900818,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 18
+    },
+    {
+      "no": 740900819,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 19
+    },
+    {
+      "no": 740900820,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 20,
+      "choice_group": 1
+    },
+    {
+      "no": 740900821,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 21,
+      "choice_group": 1
+    },
+    {
+      "no": 740900822,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 22,
+      "choice_group": 1
+    },
+    {
+      "no": 740900823,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 23,
+      "choice_group": 1
+    },
+    {
+      "no": 740900824,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 24,
+      "choice_group": 1
+    },
+    {
+      "no": 740900825,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 25,
+      "choice_group": 1
+    },
+    {
+      "no": 740900826,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 26,
+      "choice_group": 1
+    },
+    {
+      "no": 740900827,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 27,
+      "choice_group": 1
+    },
+    {
+      "no": 740900828,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 28
+    },
+    {
+      "no": 740900829,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 29
+    },
+    {
+      "no": 740900830,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 30
+    },
+    {
+      "no": 740900831,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 31
+    },
+    {
+      "no": 740900832,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 32
+    },
+    {
+      "no": 740900833,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 33
+    },
+    {
+      "no": 740900834,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 34
+    },
+    {
+      "no": 740900835,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 35,
+      "choice_group": 1
+    },
+    {
+      "no": 740900836,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 36,
+      "choice_group": 1
+    },
+    {
+      "no": 740900837,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 37
+    },
+    {
+      "no": 740900838,
+      "group_no": 7409008,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 38
+    },
+    {
+      "no": 740900901,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740900902,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 2
+    },
+    {
+      "no": 740900903,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 3
+    },
+    {
+      "no": 740900904,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 4,
+      "choice_group": 1
+    },
+    {
+      "no": 740900905,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 5,
+      "choice_group": 1
+    },
+    {
+      "no": 740900906,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 6
+    },
+    {
+      "no": 740900907,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 7
+    },
+    {
+      "no": 740900908,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 8
+    },
+    {
+      "no": 740900909,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 9
+    },
+    {
+      "no": 740900910,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 10,
+      "choice_group": 1
+    },
+    {
+      "no": 740900911,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 11,
+      "choice_group": 1
+    },
+    {
+      "no": 740900912,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 12,
+      "choice_group": 1
+    },
+    {
+      "no": 740900913,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 13,
+      "choice_group": 1
+    },
+    {
+      "no": 740900914,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 14
+    },
+    {
+      "no": 740900915,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 15
+    },
+    {
+      "no": 740900916,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 16
+    },
+    {
+      "no": 740900917,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 17
+    },
+    {
+      "no": 740900918,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 18,
+      "choice_group": 1
+    },
+    {
+      "no": 740900919,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 19,
+      "choice_group": 1
+    },
+    {
+      "no": 740900920,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 20,
+      "choice_group": 1
+    },
+    {
+      "no": 740900921,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 21,
+      "choice_group": 1
+    },
+    {
+      "no": 740900922,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 22,
+      "choice_group": 1
+    },
+    {
+      "no": 740900923,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 23,
+      "choice_group": 1
+    },
+    {
+      "no": 740900924,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 24
+    },
+    {
+      "no": 740900925,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 25,
+      "choice_group": 1
+    },
+    {
+      "no": 740900926,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 26,
+      "choice_group": 1
+    },
+    {
+      "no": 740900927,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 27
+    },
+    {
+      "no": 740900928,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 28
+    },
+    {
+      "no": 740900929,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 29
+    },
+    {
+      "no": 740900930,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 30,
+      "choice_group": 1
+    },
+    {
+      "no": 740900931,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 31,
+      "choice_group": 1
+    },
+    {
+      "no": 740900932,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 32
+    },
+    {
+      "no": 740900933,
+      "group_no": 7409009,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 33
+    },
+    {
+      "no": 740901001,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740901002,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 2
+    },
+    {
+      "no": 740901003,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 3
+    },
+    {
+      "no": 740901004,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 4
+    },
+    {
+      "no": 740901005,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 5,
+      "choice_group": 1
+    },
+    {
+      "no": 740901006,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 6,
+      "choice_group": 1
+    },
+    {
+      "no": 740901007,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 7,
+      "choice_group": 1
+    },
+    {
+      "no": 740901008,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 8,
+      "choice_group": 1
+    },
+    {
+      "no": 740901009,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 9
+    },
+    {
+      "no": 740901010,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 10
+    },
+    {
+      "no": 740901011,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 11,
+      "choice_group": 1
+    },
+    {
+      "no": 740901012,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 12,
+      "choice_group": 1
+    },
+    {
+      "no": 740901013,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 13
+    },
+    {
+      "no": 740901014,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 14
+    },
+    {
+      "no": 740901015,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 15
+    },
+    {
+      "no": 740901016,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 16
+    },
+    {
+      "no": 740901017,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 17
+    },
+    {
+      "no": 740901018,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 18
+    },
+    {
+      "no": 740901019,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 19,
+      "choice_group": 1
+    },
+    {
+      "no": 740901020,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 20,
+      "choice_group": 1
+    },
+    {
+      "no": 740901021,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 21,
+      "choice_group": 1
+    },
+    {
+      "no": 740901022,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 22,
+      "choice_group": 1
+    },
+    {
+      "no": 740901023,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 23
+    },
+    {
+      "no": 740901024,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 24
+    },
+    {
+      "no": 740901025,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 25,
+      "choice_group": 1
+    },
+    {
+      "no": 740901026,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 26,
+      "choice_group": 1
+    },
+    {
+      "no": 740901027,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 27,
+      "choice_group": 1
+    },
+    {
+      "no": 740901028,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 28,
+      "choice_group": 1
+    },
+    {
+      "no": 740901029,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 29
+    },
+    {
+      "no": 740901030,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 30
+    },
+    {
+      "no": 740901031,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 31
+    },
+    {
+      "no": 740901032,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 32
+    },
+    {
+      "no": 740901033,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 33,
+      "choice_group": 1
+    },
+    {
+      "no": 740901034,
+      "group_no": 7409010,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 34,
+      "choice_group": 1
+    },
+    {
+      "no": 740901101,
+      "group_no": 7409011,
+      "love_level": 1,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740901102,
+      "group_no": 7409011,
+      "love_level": 1,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 2
+    },
+    {
+      "no": 740901103,
+      "group_no": 7409011,
+      "love_level": 1,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 3
+    },
+    {
+      "no": 740901104,
+      "group_no": 7409011,
+      "love_level": 1,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 4,
+      "choice_group": 1
+    },
+    {
+      "no": 740901105,
+      "group_no": 7409011,
+      "love_level": 1,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 5,
+      "choice_group": 1
+    },
+    {
+      "no": 740901106,
+      "group_no": 7409011,
+      "love_level": 1,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 6
+    },
+    {
+      "no": 740901107,
+      "group_no": 7409011,
+      "love_level": 1,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 7
+    },
+    {
+      "no": 740901108,
+      "group_no": 7409011,
+      "love_level": 1,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 8
+    },
+    {
+      "no": 740901109,
+      "group_no": 7409011,
+      "love_level": 1,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 9,
+      "choice_group": 1
+    },
+    {
+      "no": 740901110,
+      "group_no": 7409011,
+      "love_level": 1,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 10,
+      "choice_group": 1
+    },
+    {
+      "no": 740901111,
+      "group_no": 7409011,
+      "love_level": 1,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 11
+    },
+    {
+      "no": 740901112,
+      "group_no": 7409011,
+      "love_level": 1,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 12
+    },
+    {
+      "no": 740901113,
+      "group_no": 7409011,
+      "love_level": 1,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 13
+    },
+    {
+      "no": 740901114,
+      "group_no": 7409011,
+      "love_level": 1,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 14
+    },
+    {
+      "no": 740901201,
+      "group_no": 7409012,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740901202,
+      "group_no": 7409012,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 2
+    },
+    {
+      "no": 740901203,
+      "group_no": 7409012,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 3
+    },
+    {
+      "no": 740901204,
+      "group_no": 7409012,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 4
+    },
+    {
+      "no": 740901205,
+      "group_no": 7409012,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 5
+    },
+    {
+      "no": 740901206,
+      "group_no": 7409012,
+      "love_level": 2,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 6
+    },
+    {
+      "no": 740901301,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740901302,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 2
+    },
+    {
+      "no": 740901303,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 3,
+      "choice_group": 1
+    },
+    {
+      "no": 740901304,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 4,
+      "choice_group": 1
+    },
+    {
+      "no": 740901305,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 5
+    },
+    {
+      "no": 740901306,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 6
+    },
+    {
+      "no": 740901307,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 7
+    },
+    {
+      "no": 740901308,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 8,
+      "choice_group": 1
+    },
+    {
+      "no": 740901309,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 9,
+      "choice_group": 1
+    },
+    {
+      "no": 740901310,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 10
+    },
+    {
+      "no": 740901311,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 11
+    },
+    {
+      "no": 740901312,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 12
+    },
+    {
+      "no": 740901313,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 13
+    },
+    {
+      "no": 740901314,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 14
+    },
+    {
+      "no": 740901315,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 15
+    },
+    {
+      "no": 740901316,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 16
+    },
+    {
+      "no": 740901317,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 17
+    },
+    {
+      "no": 740901318,
+      "group_no": 7409013,
+      "love_level": 3,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 18
+    },
+    {
+      "no": 740901401,
+      "group_no": 7409014,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740901402,
+      "group_no": 7409014,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 2
+    },
+    {
+      "no": 740901403,
+      "group_no": 7409014,
+      "love_level": 4,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 3
+    },
+    {
+      "no": 740901501,
+      "group_no": 7409015,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740901502,
+      "group_no": 7409015,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 2
+    },
+    {
+      "no": 740901503,
+      "group_no": 7409015,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 3
+    },
+    {
+      "no": 740901504,
+      "group_no": 7409015,
+      "love_level": 5,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 4
+    },
+    {
+      "no": 740901601,
+      "group_no": 7409016,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740901602,
+      "group_no": 7409016,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 2,
+      "choice_group": 1
+    },
+    {
+      "no": 740901603,
+      "group_no": 7409016,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 3,
+      "choice_group": 1
+    },
+    {
+      "no": 740901604,
+      "group_no": 7409016,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 4
+    },
+    {
+      "no": 740901605,
+      "group_no": 7409016,
+      "love_level": 6,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 5
+    },
+    {
+      "no": 740901701,
+      "group_no": 7409017,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 1,
+      "choice_group": 1
+    },
+    {
+      "no": 740901702,
+      "group_no": 7409017,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 2,
+      "choice_group": 1
+    },
+    {
+      "no": 740901703,
+      "group_no": 7409017,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 3,
+      "choice_group": 1
+    },
+    {
+      "no": 740901704,
+      "group_no": 7409017,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 4,
+      "choice_group": 1
+    },
+    {
+      "no": 740901705,
+      "group_no": 7409017,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Choice",
+      "talk_index": 5,
+      "choice_group": 1
+    },
+    {
+      "no": 740901706,
+      "group_no": 7409017,
+      "love_level": 7,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Player",
+      "talk_index": 6,
+      "choice_group": 1
+    },
+    {
+      "no": 740901801,
+      "group_no": 7409018,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740901802,
+      "group_no": 7409018,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 2
+    },
+    {
+      "no": 740901803,
+      "group_no": 7409018,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 3
+    },
+    {
+      "no": 740901804,
+      "group_no": 7409018,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 4
+    },
+    {
+      "no": 740901805,
+      "group_no": 7409018,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 5
+    },
+    {
+      "no": 740901806,
+      "group_no": 7409018,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 6
+    },
+    {
+      "no": 740901807,
+      "group_no": 7409018,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 7
+    },
+    {
+      "no": 740901808,
+      "group_no": 7409018,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "EverEnding",
+      "talk_index": 8
+    },
+    {
+      "no": 740901901,
+      "group_no": 7409019,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740901902,
+      "group_no": 7409019,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 2
+    },
+    {
+      "no": 740901903,
+      "group_no": 7409019,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 3
+    },
+    {
+      "no": 740901904,
+      "group_no": 7409019,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 4
+    },
+    {
+      "no": 740901905,
+      "group_no": 7409019,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 5
+    },
+    {
+      "no": 740901906,
+      "group_no": 7409019,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 6
+    },
+    {
+      "no": 740901907,
+      "group_no": 7409019,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "EverEnding",
+      "talk_index": 7
+    },
+    {
+      "no": 740902001,
+      "group_no": 7409020,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 1
+    },
+    {
+      "no": 740902002,
+      "group_no": 7409020,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 2
+    },
+    {
+      "no": 740902003,
+      "group_no": 7409020,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 3
+    },
+    {
+      "no": 740902004,
+      "group_no": 7409020,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "Normal",
+      "speaker_no": 4090,
+      "talk_index": 4
+    },
+    {
+      "no": 740902005,
+      "group_no": 7409020,
+      "love_level": 8,
+      "hero_no": 4090,
+      "talk_type": 7,
+      "ui_typeOffset": "EverEnding",
+      "talk_index": 5
     },
     {
       "no": 741000101,

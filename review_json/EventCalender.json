@@ -561,6 +561,15 @@
     },
     {
       "no": 63,
+      "name_sno": 9016,
+      "type": 3,
+      "event_type": 20,
+      "group": 4001,
+      "bar_nameOffset": "bar_event_calendar_list1",
+      "schedule_keyOffset": "Calender_LimitShop_9"
+    },
+    {
+      "no": 64,
       "name_sno": 9015,
       "type": 3,
       "event_type": 20,
@@ -569,7 +578,7 @@
       "schedule_keyOffset": "Calender_LimitShop_8"
     },
     {
-      "no": 64,
+      "no": 65,
       "name_sno": 9013,
       "type": 3,
       "event_type": 20,
@@ -578,7 +587,7 @@
       "schedule_keyOffset": "Calender_LimitShop_7"
     },
     {
-      "no": 65,
+      "no": 66,
       "name_sno": 9009,
       "type": 3,
       "event_type": 20,
@@ -587,7 +596,7 @@
       "schedule_keyOffset": "Calender_LimitShop_6"
     },
     {
-      "no": 66,
+      "no": 67,
       "name_sno": 12369,
       "type": 3,
       "event_type": 11,
@@ -596,7 +605,7 @@
       "schedule_keyOffset": "Calender_LimitShop_5"
     },
     {
-      "no": 67,
+      "no": 68,
       "name_sno": 12330,
       "type": 3,
       "event_type": 11,
@@ -605,7 +614,7 @@
       "schedule_keyOffset": "Calender_LimitShop_4"
     },
     {
-      "no": 68,
+      "no": 69,
       "name_sno": 12313,
       "type": 3,
       "event_type": 11,
@@ -614,7 +623,7 @@
       "schedule_keyOffset": "Calender_LimitShop_3"
     },
     {
-      "no": 69,
+      "no": 70,
       "name_sno": 12287,
       "type": 3,
       "event_type": 11,
@@ -623,7 +632,7 @@
       "schedule_keyOffset": "Calender_LimitShop_2"
     },
     {
-      "no": 70,
+      "no": 71,
       "name_sno": 12200,
       "type": 3,
       "event_type": 11,
@@ -632,7 +641,7 @@
       "schedule_keyOffset": "Calender_LimitShop_1"
     },
     {
-      "no": 71,
+      "no": 72,
       "name_sno": 21042,
       "type": 3,
       "event_type": 22,
@@ -641,7 +650,7 @@
       "schedule_keyOffset": "Calender_DailyPass_Newbie"
     },
     {
-      "no": 72,
+      "no": 73,
       "name_sno": 11127,
       "type": 3,
       "event_type": 3,
@@ -650,7 +659,7 @@
       "schedule_keyOffset": "Calender_Launching_Quest"
     },
     {
-      "no": 73,
+      "no": 74,
       "name_sno": 11181,
       "type": 3,
       "event_type": 3,
@@ -659,7 +668,7 @@
       "schedule_keyOffset": "Calender_FariyCollect_Quest"
     },
     {
-      "no": 74,
+      "no": 75,
       "name_sno": 11501,
       "type": 3,
       "event_type": 1,
@@ -668,7 +677,7 @@
       "schedule_keyOffset": "Calender_Comeback_Attend"
     },
     {
-      "no": 75,
+      "no": 76,
       "name_sno": 11503,
       "type": 3,
       "event_type": 3,
@@ -677,7 +686,7 @@
       "schedule_keyOffset": "Calender_Comeback_Quest"
     },
     {
-      "no": 76,
+      "no": 77,
       "name_sno": 12408,
       "type": 3,
       "event_type": 15,
@@ -686,7 +695,7 @@
       "schedule_keyOffset": "Calender_SelectPickup_Season2"
     },
     {
-      "no": 77,
+      "no": 78,
       "name_sno": 12254,
       "type": 3,
       "event_type": 15,
@@ -695,7 +704,7 @@
       "schedule_keyOffset": "Calender_SelectPickup_Season1"
     },
     {
-      "no": 78,
+      "no": 79,
       "name_sno": 12431,
       "type": 3,
       "event_type": 19,
@@ -704,7 +713,7 @@
       "schedule_keyOffset": "Calender_DJSoul"
     },
     {
-      "no": 79,
+      "no": 80,
       "name_sno": 12371,
       "type": 3,
       "event_type": 18,
@@ -713,22 +722,13 @@
       "schedule_keyOffset": "Calender_EverMatch"
     },
     {
-      "no": 80,
+      "no": 81,
       "name_sno": 12460,
       "type": 3,
       "event_type": 8,
       "group": 3,
       "bar_nameOffset": "bar_event_calendar_list4",
       "schedule_keyOffset": "Calender_DefenseGame_Dominique"
-    },
-    {
-      "no": 81,
-      "name_sno": 12182,
-      "type": 3,
-      "event_type": 8,
-      "group": 2,
-      "bar_nameOffset": "bar_event_calendar_list4",
-      "schedule_keyOffset": "Calender_DefenseGame_9"
     },
     {
       "no": 82,
@@ -741,11 +741,12 @@
     },
     {
       "no": 83,
-      "name_sno": 90501,
-      "type": 1,
-      "contents_limit_no": 35,
+      "name_sno": 12182,
+      "type": 3,
+      "event_type": 8,
+      "group": 2,
       "bar_nameOffset": "bar_event_calendar_list4",
-      "schedule_keyOffset": "Calender_WorldBoss_17"
+      "schedule_keyOffset": "Calender_DefenseGame_11"
     },
     {
       "no": 84,
@@ -893,14 +894,6 @@
     },
     {
       "no": 102,
-      "name_sno": 92039,
-      "type": 1,
-      "contents_limit_no": 28,
-      "bar_nameOffset": "bar_event_calendar_list1",
-      "schedule_keyOffset": "Calender_EdenAlliance_Aurelia"
-    },
-    {
-      "no": 103,
       "name_sno": 92036,
       "type": 1,
       "contents_limit_no": 28,
@@ -908,7 +901,7 @@
       "schedule_keyOffset": "Calender_EdenAlliance_Tabria"
     },
     {
-      "no": 104,
+      "no": 103,
       "name_sno": 92034,
       "type": 1,
       "contents_limit_no": 28,
@@ -916,7 +909,7 @@
       "schedule_keyOffset": "Calender_EdenAlliance_Fayren"
     },
     {
-      "no": 105,
+      "no": 104,
       "name_sno": 92035,
       "type": 1,
       "contents_limit_no": 28,
@@ -924,7 +917,7 @@
       "schedule_keyOffset": "Calender_EdenAlliance_Chalar"
     },
     {
-      "no": 106,
+      "no": 105,
       "name_sno": 92033,
       "type": 1,
       "contents_limit_no": 28,
@@ -932,7 +925,7 @@
       "schedule_keyOffset": "Calender_EdenAlliance_Gaon"
     },
     {
-      "no": 107,
+      "no": 106,
       "name_sno": 92038,
       "type": 1,
       "contents_limit_no": 28,
@@ -940,7 +933,7 @@
       "schedule_keyOffset": "Calender_EdenAlliance_Solrey"
     },
     {
-      "no": 108,
+      "no": 107,
       "name_sno": 92040,
       "type": 1,
       "contents_limit_no": 28,
@@ -948,47 +941,15 @@
       "schedule_keyOffset": "Calender_EdenAlliance_Troyca"
     },
     {
+      "no": 108,
+      "name_sno": 92039,
+      "type": 1,
+      "contents_limit_no": 28,
+      "bar_nameOffset": "bar_event_calendar_list1",
+      "schedule_keyOffset": "Calender_EdenAlliance_Aurelia"
+    },
+    {
       "no": 109,
-      "name_sno": 92082,
-      "type": 2,
-      "gacha_no": 572,
-      "bar_nameOffset": "bar_event_calendar_list5",
-      "schedule_keyOffset": "Calender_PickUp_ReneeSiver"
-    },
-    {
-      "no": 110,
-      "name_sno": 92077,
-      "type": 2,
-      "gacha_no": 567,
-      "bar_nameOffset": "bar_event_calendar_list5",
-      "schedule_keyOffset": "Calender_PickUp_Weiss"
-    },
-    {
-      "no": 111,
-      "name_sno": 92016,
-      "type": 2,
-      "gacha_no": 516,
-      "bar_nameOffset": "bar_event_calendar_list5",
-      "schedule_keyOffset": "Calender_PickUp_Violette"
-    },
-    {
-      "no": 112,
-      "name_sno": 92015,
-      "type": 2,
-      "gacha_no": 515,
-      "bar_nameOffset": "bar_event_calendar_list5",
-      "schedule_keyOffset": "Calender_PickUp_Garnet"
-    },
-    {
-      "no": 113,
-      "name_sno": 92029,
-      "type": 2,
-      "gacha_no": 529,
-      "bar_nameOffset": "bar_event_calendar_list5",
-      "schedule_keyOffset": "Calender_PickUp_Eileen"
-    },
-    {
-      "no": 114,
       "name_sno": 92083,
       "type": 2,
       "gacha_no": 573,
@@ -996,7 +957,7 @@
       "schedule_keyOffset": "Calender_PickUp_Laura"
     },
     {
-      "no": 115,
+      "no": 110,
       "name_sno": 92068,
       "type": 2,
       "gacha_no": 558,
@@ -1004,7 +965,7 @@
       "schedule_keyOffset": "Calender_PickUp_Linzy_Thanatos"
     },
     {
-      "no": 116,
+      "no": 111,
       "name_sno": 92027,
       "type": 2,
       "gacha_no": 527,
@@ -1012,7 +973,7 @@
       "schedule_keyOffset": "Calender_PickUp_Bryce"
     },
     {
-      "no": 117,
+      "no": 112,
       "name_sno": 92026,
       "type": 2,
       "gacha_no": 526,
@@ -1020,7 +981,7 @@
       "schedule_keyOffset": "Calender_PickUp_Melfice"
     },
     {
-      "no": 118,
+      "no": 113,
       "name_sno": 92084,
       "type": 2,
       "gacha_no": 574,
@@ -1028,7 +989,7 @@
       "schedule_keyOffset": "Calender_PickUp_Haru_Kamuy"
     },
     {
-      "no": 119,
+      "no": 114,
       "name_sno": 92007,
       "type": 2,
       "gacha_no": 507,
@@ -1036,7 +997,7 @@
       "schedule_keyOffset": "Calender_PickUp_Mica"
     },
     {
-      "no": 120,
+      "no": 115,
       "name_sno": 92008,
       "type": 2,
       "gacha_no": 508,
@@ -1044,7 +1005,7 @@
       "schedule_keyOffset": "Calender_PickUp_Seeha"
     },
     {
-      "no": 121,
+      "no": 116,
       "name_sno": 92044,
       "type": 2,
       "gacha_no": 535,
@@ -1052,7 +1013,7 @@
       "schedule_keyOffset": "Calender_PickUp_Eve"
     },
     {
-      "no": 122,
+      "no": 117,
       "name_sno": 92022,
       "type": 2,
       "gacha_no": 522,
@@ -1060,7 +1021,7 @@
       "schedule_keyOffset": "Calender_PickUp_Naomi"
     },
     {
-      "no": 123,
+      "no": 118,
       "name_sno": 11199,
       "type": 3,
       "event_type": 2,
@@ -1069,7 +1030,7 @@
       "schedule_keyOffset": "Calender_Rotation_Trip"
     },
     {
-      "no": 124,
+      "no": 119,
       "name_sno": 12065,
       "type": 3,
       "event_type": 2,
@@ -1078,7 +1039,7 @@
       "schedule_keyOffset": "Calender_Rotation_Heart"
     },
     {
-      "no": 125,
+      "no": 120,
       "name_sno": 11151,
       "type": 3,
       "event_type": 2,
@@ -1087,7 +1048,7 @@
       "schedule_keyOffset": "Calender_Rotation_Arena"
     },
     {
-      "no": 126,
+      "no": 121,
       "name_sno": 11145,
       "type": 3,
       "event_type": 2,
@@ -1096,7 +1057,7 @@
       "schedule_keyOffset": "Calender_Rotation_Labyrinth"
     },
     {
-      "no": 127,
+      "no": 122,
       "name_sno": 11175,
       "type": 3,
       "event_type": 2,
@@ -1105,7 +1066,7 @@
       "schedule_keyOffset": "Calender_Rotation_Champions"
     },
     {
-      "no": 128,
+      "no": 123,
       "name_sno": 11369,
       "type": 3,
       "event_type": 2,
@@ -1114,7 +1075,7 @@
       "schedule_keyOffset": "Calender_Rotation_DualGate"
     },
     {
-      "no": 129,
+      "no": 124,
       "name_sno": 11125,
       "type": 3,
       "event_type": 2,
@@ -1123,7 +1084,7 @@
       "schedule_keyOffset": "Calender_Rotation_AutoArbeit"
     },
     {
-      "no": 130,
+      "no": 125,
       "name_sno": 11558,
       "type": 3,
       "event_type": 2,
@@ -1132,7 +1093,7 @@
       "schedule_keyOffset": "Calender_Rotation_Arena2"
     },
     {
-      "no": 131,
+      "no": 126,
       "name_sno": 11556,
       "type": 3,
       "event_type": 2,
@@ -1141,7 +1102,7 @@
       "schedule_keyOffset": "Calender_Rotation_Labyrinth2"
     },
     {
-      "no": 132,
+      "no": 127,
       "name_sno": 11559,
       "type": 3,
       "event_type": 2,
@@ -1150,7 +1111,7 @@
       "schedule_keyOffset": "Calender_Rotation_Champions2"
     },
     {
-      "no": 133,
+      "no": 128,
       "name_sno": 11557,
       "type": 3,
       "event_type": 2,
@@ -1159,7 +1120,7 @@
       "schedule_keyOffset": "Calender_Rotation_DualGate2"
     },
     {
-      "no": 134,
+      "no": 129,
       "name_sno": 11560,
       "type": 3,
       "event_type": 2,

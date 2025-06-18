@@ -19740,6 +19740,18 @@
       "item_sort_no": 20006
     },
     {
+      "no": 2084,
+      "category_sno": 110009,
+      "grade_sno": 110014,
+      "name_sno": 520184,
+      "desc_sno": 530184,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "HaruKamuy_Icon_Costume_00",
+      "atlas_type": 5,
+      "item_sort_no": 20006
+    },
+    {
       "no": 2201,
       "category_sno": 110009,
       "grade_sno": 110016,
@@ -21354,7 +21366,10 @@
       "stat_limit_sno": 110041,
       "icon_pathOffset": "Eve_Icon_Costume_02",
       "atlas_type": 5,
-      "item_sort_no": 20004
+      "item_sort_no": 20004,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 500
     },
     {
       "no": 2333,
@@ -21366,7 +21381,10 @@
       "stat_limit_sno": 110041,
       "icon_pathOffset": "Seeha_Icon_Costume_03",
       "atlas_type": 5,
-      "item_sort_no": 20004
+      "item_sort_no": 20004,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 500
     },
     {
       "no": 2334,
@@ -21378,7 +21396,10 @@
       "stat_limit_sno": 110041,
       "icon_pathOffset": "Mica_Icon_Costume_03",
       "atlas_type": 5,
-      "item_sort_no": 20004
+      "item_sort_no": 20004,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 500
     },
     {
       "no": 2335,
@@ -21390,7 +21411,10 @@
       "stat_limit_sno": 110041,
       "icon_pathOffset": "Naomi_Icon_Costume_02",
       "atlas_type": 5,
-      "item_sort_no": 20004
+      "item_sort_no": 20004,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 500
     },
     {
       "no": 2336,
@@ -21917,6 +21941,30 @@
       "slot_limit_sno": 110038,
       "stat_limit_sno": 110041,
       "icon_pathOffset": "Blyce_Icon_Costume03",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
+      "no": 2384,
+      "category_sno": 110009,
+      "grade_sno": 110018,
+      "name_sno": 520584,
+      "desc_sno": 530584,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "HaruKamuy_Icon_Costume_01",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
+      "no": 2385,
+      "category_sno": 110009,
+      "grade_sno": 110020,
+      "name_sno": 520585,
+      "desc_sno": 530585,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "HaruKamuy_Icon_Costume_02",
       "atlas_type": 5,
       "item_sort_no": 20004
     },
@@ -24445,7 +24493,7 @@
       "desc_sno": 223379,
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
-      "icon_pathOffset": "Memory_Aki",
+      "icon_pathOffset": "Memory_HaruKamuy",
       "atlas_type": 4,
       "item_use_no": 1007,
       "item_sort_no": 3002
@@ -25869,6 +25917,54 @@
       "grade_sno": 110018,
       "name_sno": 214184,
       "desc_sno": 224184,
+      "slot_limit_sno": 661,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "Icon_Box_Legendary",
+      "atlas_type": 4,
+      "item_sort_no": 2220
+    },
+    {
+      "no": 4188,
+      "category_sno": 110006,
+      "grade_sno": 110021,
+      "name_sno": 214188,
+      "desc_sno": 224188,
+      "slot_limit_sno": 662,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "Icon_Box_Origin",
+      "atlas_type": 4,
+      "item_sort_no": 2220
+    },
+    {
+      "no": 4189,
+      "category_sno": 110006,
+      "grade_sno": 110019,
+      "name_sno": 214189,
+      "desc_sno": 224189,
+      "slot_limit_sno": 661,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "Icon_Box_Select_Fairy",
+      "atlas_type": 4,
+      "item_sort_no": 2220
+    },
+    {
+      "no": 4190,
+      "category_sno": 110006,
+      "grade_sno": 110020,
+      "name_sno": 214190,
+      "desc_sno": 224190,
+      "slot_limit_sno": 661,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "Icon_Box_Select_Fairy",
+      "atlas_type": 4,
+      "item_sort_no": 2220
+    },
+    {
+      "no": 4191,
+      "category_sno": 110006,
+      "grade_sno": 110018,
+      "name_sno": 214191,
+      "desc_sno": 224191,
       "slot_limit_sno": 661,
       "stat_limit_sno": 110041,
       "icon_pathOffset": "Icon_Box_Legendary",
@@ -28689,6 +28785,54 @@
       "item_sort_no": 60000
     },
     {
+      "no": 6167,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216167,
+      "desc_sno": 226167,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "sticker_eas_solrey_tier_7",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6168,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216168,
+      "desc_sno": 226168,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "sticker_eas_solrey_tier_7_3",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6169,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216169,
+      "desc_sno": 226169,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "sticker_eas_solrey_tier_7_2",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6170,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216170,
+      "desc_sno": 226170,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "sticker_eas_solrey_tier_7_1",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
       "no": 6201,
       "category_sno": 110077,
       "grade_sno": 110011,
@@ -29081,6 +29225,18 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_pathOffset": "sticker_Stage33_icon",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6234,
+      "category_sno": 110077,
+      "grade_sno": 110011,
+      "name_sno": 216234,
+      "desc_sno": 226234,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "sticker_Stage34_icon",
       "atlas_type": 6,
       "item_sort_no": 60000
     },
@@ -30004,7 +30160,7 @@
       "desc_sno": 226813,
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
-      "icon_pathOffset": "sticker_special_",
+      "icon_pathOffset": "sticker_special_HaruKamuy01",
       "atlas_type": 6,
       "item_sort_no": 60000
     },
@@ -30821,6 +30977,114 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_pathOffset": "sticker_infinityraid_side4_09",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6964,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216964,
+      "desc_sno": 226964,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "sticker_infinityraid_valentine3_01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6965,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216965,
+      "desc_sno": 226965,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "sticker_infinityraid_valentine3_02",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6966,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216966,
+      "desc_sno": 226966,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "sticker_infinityraid_valentine3_03",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6967,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216967,
+      "desc_sno": 226967,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "sticker_infinityraid_valentine3_04",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6968,
+      "category_sno": 110077,
+      "grade_sno": 110018,
+      "name_sno": 216968,
+      "desc_sno": 226968,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "sticker_infinityraid_valentine3_05",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6969,
+      "category_sno": 110077,
+      "grade_sno": 110016,
+      "name_sno": 216969,
+      "desc_sno": 226969,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "sticker_infinityraid_valentine3_06",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6970,
+      "category_sno": 110077,
+      "grade_sno": 110014,
+      "name_sno": 216970,
+      "desc_sno": 226970,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "sticker_infinityraid_valentine3_07",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6971,
+      "category_sno": 110077,
+      "grade_sno": 110012,
+      "name_sno": 216971,
+      "desc_sno": 226971,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "sticker_infinityraid_valentine3_08",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6972,
+      "category_sno": 110077,
+      "grade_sno": 110011,
+      "name_sno": 216972,
+      "desc_sno": 226972,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "sticker_infinityraid_valentine3_09",
       "atlas_type": 6,
       "item_sort_no": 60000
     },
@@ -34664,7 +34928,7 @@
       "desc_sno": 2210073,
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
-      "icon_pathOffset": "Memory_Signature_NoData",
+      "icon_pathOffset": "Memory_Signature_HaruKamuy",
       "atlas_type": 4,
       "move_behavior": 603,
       "item_sort_no": 20000
@@ -36541,6 +36805,17 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_pathOffset": "UI/Textures/Souls/HonglanCombat_128",
+      "item_sort_no": 40000
+    },
+    {
+      "no": 32170,
+      "category_sno": 110074,
+      "grade_sno": 110014,
+      "name_sno": 2132170,
+      "desc_sno": 2232170,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "UI/Textures/Souls/HaruKamuy_128",
       "item_sort_no": 40000
     },
     {
@@ -40764,7 +41039,10 @@
       "slot_limit_sno": 553003,
       "stat_limit_sno": 110041,
       "icon_pathOffset": "UI/Textures/Town/PE_TOWN_B_24Summer_Cathedral",
-      "item_sort_no": 50000
+      "item_sort_no": 50000,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 250
     },
     {
       "no": 44504,
@@ -40775,7 +41053,10 @@
       "slot_limit_sno": 553005,
       "stat_limit_sno": 110041,
       "icon_pathOffset": "UI/Textures/Town/PE_TOWN_B_24Summer_HauntedHouse",
-      "item_sort_no": 50000
+      "item_sort_no": 50000,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 2500
     },
     {
       "no": 44505,
@@ -40830,7 +41111,10 @@
       "slot_limit_sno": 553001,
       "stat_limit_sno": 110041,
       "icon_pathOffset": "UI/Textures/Town/PE_TOWN_B_24Summer_Storehouse",
-      "item_sort_no": 50000
+      "item_sort_no": 50000,
+      "have_limit": 1,
+      "repl_item_no": 2,
+      "repl_amount": 500
     },
     {
       "no": 44510,
@@ -41677,6 +41961,17 @@
       "slot_limit_sno": 553001,
       "stat_limit_sno": 110041,
       "icon_pathOffset": "UI/Textures/Town/PE_TOWN_B_Tower_Petra",
+      "item_sort_no": 50000
+    },
+    {
+      "no": 47023,
+      "category_sno": 110005,
+      "grade_sno": 110018,
+      "name_sno": 2147023,
+      "desc_sno": 2247023,
+      "slot_limit_sno": 553001,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "UI/Textures/Town/PE_TOWN_B_Tower_Beatrice",
       "item_sort_no": 50000
     },
     {
@@ -42752,6 +43047,18 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_pathOffset": "sticker_love_HonglanCombat01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 521701,
+      "category_sno": 110077,
+      "grade_sno": 110012,
+      "name_sno": 21521701,
+      "desc_sno": 22521701,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_pathOffset": "sticker_love_HaruKamuy01",
       "atlas_type": 6,
       "item_sort_no": 60000
     },

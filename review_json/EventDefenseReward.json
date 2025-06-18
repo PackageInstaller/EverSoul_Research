@@ -725,6 +725,142 @@
       "reward_item_amount_1": 10,
       "reward_item_no_2": 2,
       "reward_item_amount_2": 300
+    },
+    {
+      "no": 93,
+      "event_group": 6,
+      "reward_type": 1,
+      "reward_item_no_1": 1,
+      "reward_item_amount_1": 200000,
+      "reward_item_no_2": 3,
+      "reward_item_amount_2": 300000,
+      "reward_item_no_3": 4,
+      "reward_item_amount_3": 300
+    },
+    {
+      "no": 94,
+      "event_group": 6,
+      "reward_type": 2
+    },
+    {
+      "no": 95,
+      "event_group": 6,
+      "reward_type": 3,
+      "score_value": 100000,
+      "reward_item_no_1": 30,
+      "reward_item_amount_1": 20
+    },
+    {
+      "no": 96,
+      "event_group": 6,
+      "reward_type": 3,
+      "score_value": 200000,
+      "reward_item_no_1": 30,
+      "reward_item_amount_1": 40
+    },
+    {
+      "no": 97,
+      "event_group": 6,
+      "reward_type": 3,
+      "score_value": 300000,
+      "reward_item_no_1": 30,
+      "reward_item_amount_1": 60
+    },
+    {
+      "no": 98,
+      "event_group": 6,
+      "reward_type": 3,
+      "score_value": 400000,
+      "reward_item_no_1": 30,
+      "reward_item_amount_1": 80
+    },
+    {
+      "no": 99,
+      "event_group": 6,
+      "reward_type": 3,
+      "score_value": 500000,
+      "reward_item_no_1": 30,
+      "reward_item_amount_1": 100
+    },
+    {
+      "no": 100,
+      "event_group": 6,
+      "reward_type": 3,
+      "score_value": 600000,
+      "reward_item_no_1": 30,
+      "reward_item_amount_1": 120
+    },
+    {
+      "no": 101,
+      "event_group": 6,
+      "reward_type": 3,
+      "score_value": 700000,
+      "reward_item_no_1": 30,
+      "reward_item_amount_1": 140
+    },
+    {
+      "no": 102,
+      "event_group": 6,
+      "reward_type": 3,
+      "score_value": 800000,
+      "reward_item_no_1": 30,
+      "reward_item_amount_1": 160
+    },
+    {
+      "no": 103,
+      "event_group": 6,
+      "reward_type": 3,
+      "score_value": 900000,
+      "reward_item_no_1": 30,
+      "reward_item_amount_1": 180
+    },
+    {
+      "no": 104,
+      "event_group": 6,
+      "reward_type": 3,
+      "score_value": 9999999,
+      "reward_item_no_1": 30,
+      "reward_item_amount_1": 200
+    },
+    {
+      "no": 105,
+      "event_group": 6,
+      "reward_type": 4,
+      "score_value": 1000000,
+      "reward_item_no_1": 28,
+      "reward_item_amount_1": 5
+    },
+    {
+      "no": 106,
+      "event_group": 6,
+      "reward_type": 4,
+      "score_value": 2000000,
+      "reward_item_no_1": 28,
+      "reward_item_amount_1": 5
+    },
+    {
+      "no": 107,
+      "event_group": 6,
+      "reward_type": 4,
+      "score_value": 3000000,
+      "reward_item_no_1": 28,
+      "reward_item_amount_1": 5
+    },
+    {
+      "no": 108,
+      "event_group": 6,
+      "reward_type": 4,
+      "score_value": 4000000,
+      "reward_item_no_1": 28,
+      "reward_item_amount_1": 5
+    },
+    {
+      "no": 109,
+      "event_group": 6,
+      "reward_type": 4,
+      "score_value": 5000000,
+      "reward_item_no_1": 28,
+      "reward_item_amount_1": 10
     }
   ]
 }

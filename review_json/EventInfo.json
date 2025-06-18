@@ -112,6 +112,7 @@
       "name_sno": 21149,
       "desc_sno": 21149,
       "stage_limit": 3,
+      "content_unlock_storyno": 8,
       "battle_ticket_item": 8149,
       "item_infosOffset": "[[8146,1]]",
       "event_shop_noOffset": "10029",
@@ -132,6 +133,7 @@
       "name_sno": 21153,
       "desc_sno": 21153,
       "stage_limit": 3,
+      "content_unlock_storyno": 10,
       "battle_ticket_item": 8010,
       "item_infosOffset": "[[8147,1],[8148,1]]",
       "event_shop_noOffset": "1088,1089",
@@ -3741,6 +3743,40 @@
       "no": 191,
       "event_type": 20,
       "group": 4001,
+      "event_number": 4,
+      "user_type": 3,
+      "name_sno": 9016,
+      "desc_sno": 9010,
+      "stage_limit": 3,
+      "item_infosOffset": "[]",
+      "event_shop_noOffset": "1092,1093,1094,1095,1096,1097,1098",
+      "magic_valueOffset": "0",
+      "ui_pathOffset": "PanelSpecialShop_2_5thEve",
+      "banner_pathOffset": "0",
+      "title_pathOffset": "Etc/Title_SpecialShop",
+      "schedule_keyOffset": "EventInfo_SpecialShop_2_5thEve"
+    },
+    {
+      "no": 192,
+      "event_type": 3,
+      "group": 4001,
+      "event_number": 4,
+      "user_type": 3,
+      "name_sno": 9016,
+      "desc_sno": 9010,
+      "stage_limit": 3,
+      "item_infosOffset": "[]",
+      "event_shop_noOffset": "0",
+      "magic_valueOffset": "0",
+      "ui_pathOffset": "PanelSpecialMain_2_5thEve",
+      "banner_pathOffset": "0",
+      "title_pathOffset": "0",
+      "schedule_keyOffset": "EventInfo_SpecialShop_2_5thEveM"
+    },
+    {
+      "no": 193,
+      "event_type": 20,
+      "group": 4001,
       "event_number": 3,
       "user_type": 3,
       "name_sno": 9015,
@@ -3755,7 +3791,7 @@
       "schedule_keyOffset": "EventInfo_SpecialShop_May"
     },
     {
-      "no": 192,
+      "no": 194,
       "event_type": 3,
       "group": 4001,
       "event_number": 3,
@@ -3772,7 +3808,7 @@
       "schedule_keyOffset": "EventInfo_SpecialShop_MayM"
     },
     {
-      "no": 193,
+      "no": 195,
       "event_type": 20,
       "group": 4001,
       "event_number": 2,
@@ -3789,7 +3825,7 @@
       "schedule_keyOffset": "EventInfo_SpecialShop_2ndAnni"
     },
     {
-      "no": 194,
+      "no": 196,
       "event_type": 3,
       "group": 4001,
       "event_number": 2,
@@ -3806,7 +3842,7 @@
       "schedule_keyOffset": "EventInfo_SpecialShop_2ndAnniM"
     },
     {
-      "no": 195,
+      "no": 197,
       "event_type": 20,
       "group": 4001,
       "event_number": 1,
@@ -3823,7 +3859,7 @@
       "schedule_keyOffset": "EventInfo_SpecialShop_1halfAnni"
     },
     {
-      "no": 196,
+      "no": 198,
       "event_type": 3,
       "group": 4001,
       "event_number": 1,
@@ -3840,7 +3876,7 @@
       "schedule_keyOffset": "EventInfo_SpecialShop_1halfAnniM"
     },
     {
-      "no": 197,
+      "no": 199,
       "show_list": 1,
       "event_type": 3,
       "group": 2000,
@@ -3858,7 +3894,7 @@
       "schedule_keyOffset": "EventInfo_QuestGuildRaid_34"
     },
     {
-      "no": 198,
+      "no": 200,
       "show_list": 1,
       "event_type": 3,
       "group": 2000,
@@ -3876,7 +3912,7 @@
       "schedule_keyOffset": "EventInfo_QuestGuildRaid_35"
     },
     {
-      "no": 199,
+      "no": 201,
       "show_list": 1,
       "event_type": 3,
       "group": 2000,
@@ -3894,7 +3930,7 @@
       "schedule_keyOffset": "EventInfo_QuestGuildRaid_36"
     },
     {
-      "no": 200,
+      "no": 202,
       "show_list": 1,
       "event_type": 3,
       "group": 2000,
@@ -3912,7 +3948,7 @@
       "schedule_keyOffset": "EventInfo_QuestGuildRaid_37"
     },
     {
-      "no": 201,
+      "no": 203,
       "show_list": 1,
       "event_type": 19,
       "group": 1,
@@ -3930,7 +3966,7 @@
       "schedule_keyOffset": "EventInfo_DJsoul_NewSong"
     },
     {
-      "no": 202,
+      "no": 204,
       "show_list": 1,
       "event_type": 18,
       "group": 1,
@@ -3945,10 +3981,28 @@
       "ui_pathOffset": "PanelPreviewMiniGameMatch3Puzzle",
       "banner_pathOffset": "banner_EvermatchEvent",
       "title_pathOffset": "MiniGame/Title_EvermatchEvent",
-      "schedule_keyOffset": "EventInfo_EverMatch_5"
+      "schedule_keyOffset": "EventInfo_EverMatch_6"
     },
     {
-      "no": 203,
+      "no": 205,
+      "show_list": 1,
+      "event_type": 8,
+      "group": 6,
+      "event_number": 1,
+      "user_type": 3,
+      "name_sno": 12461,
+      "desc_sno": 12461,
+      "stage_limit": 3,
+      "item_infosOffset": "[]",
+      "event_shop_noOffset": "0",
+      "magic_valueOffset": "0",
+      "ui_pathOffset": "PanelPreviewMiniGameDefense3",
+      "banner_pathOffset": "banner_MiniGameEvent3",
+      "title_pathOffset": "MiniGame/Title_MiniGameEvent3",
+      "schedule_keyOffset": "EventInfo_DefenseGame_Sakuyo"
+    },
+    {
+      "no": 206,
       "show_list": 1,
       "event_type": 8,
       "group": 3,
@@ -3967,26 +4021,7 @@
       "schedule_keyOffset": "EventInfo_DefenseGame_Dominique"
     },
     {
-      "no": 204,
-      "show_list": 1,
-      "event_type": 8,
-      "group": 2,
-      "event_number": 9,
-      "user_type": 3,
-      "name_sno": 12182,
-      "desc_sno": 12182,
-      "stage_limit": 3,
-      "battle_ticket_item": 8014,
-      "item_infosOffset": "[]",
-      "event_shop_noOffset": "0",
-      "magic_valueOffset": "0",
-      "ui_pathOffset": "PanelPreviewMiniGameDefense",
-      "banner_pathOffset": "banner_MiniGameEvent",
-      "title_pathOffset": "MiniGame/Title_MiniGameEvent",
-      "schedule_keyOffset": "EventInfo_DefenseGame_9"
-    },
-    {
-      "no": 205,
+      "no": 207,
       "show_list": 1,
       "event_type": 8,
       "group": 2,
@@ -4005,7 +4040,26 @@
       "schedule_keyOffset": "EventInfo_DefenseGame_10"
     },
     {
-      "no": 206,
+      "no": 208,
+      "show_list": 1,
+      "event_type": 8,
+      "group": 2,
+      "event_number": 11,
+      "user_type": 3,
+      "name_sno": 12182,
+      "desc_sno": 12182,
+      "stage_limit": 3,
+      "battle_ticket_item": 8014,
+      "item_infosOffset": "[]",
+      "event_shop_noOffset": "0",
+      "magic_valueOffset": "0",
+      "ui_pathOffset": "PanelPreviewMiniGameDefense",
+      "banner_pathOffset": "banner_MiniGameEvent",
+      "title_pathOffset": "MiniGame/Title_MiniGameEvent",
+      "schedule_keyOffset": "EventInfo_DefenseGame_11"
+    },
+    {
+      "no": 209,
       "show_list": 1,
       "event_type": 12,
       "group": 2,
@@ -4023,7 +4077,7 @@
       "schedule_keyOffset": "EventInfo_FairyVote_2"
     },
     {
-      "no": 207,
+      "no": 210,
       "show_list": 1,
       "event_type": 17,
       "group": 1,
@@ -4041,7 +4095,7 @@
       "schedule_keyOffset": "EventInfo_EGT_Movie_1"
     },
     {
-      "no": 208,
+      "no": 211,
       "show_list": 1,
       "event_type": 12,
       "group": 1,
@@ -4059,7 +4113,7 @@
       "schedule_keyOffset": "EventInfo_FairyVote_1"
     },
     {
-      "no": 209,
+      "no": 212,
       "show_list": 1,
       "event_type": 22,
       "group": 1,
@@ -4078,7 +4132,7 @@
       "schedule_keyOffset": "EventInfo_Newbie_DailyPass"
     },
     {
-      "no": 210,
+      "no": 213,
       "show_list": 1,
       "event_type": 3,
       "group": 1,
@@ -4097,7 +4151,7 @@
       "schedule_keyOffset": "EventInfo_Launching_Quest"
     },
     {
-      "no": 211,
+      "no": 214,
       "show_list": 1,
       "event_type": 3,
       "group": 2,
@@ -4116,7 +4170,7 @@
       "schedule_keyOffset": "EventInfo_FariyCollect_Quest"
     },
     {
-      "no": 212,
+      "no": 215,
       "show_list": 1,
       "event_type": 15,
       "group": 2,
@@ -4135,7 +4189,7 @@
       "schedule_keyOffset": "EventInfo_SelectPickup_Season2"
     },
     {
-      "no": 213,
+      "no": 216,
       "show_list": 1,
       "event_type": 15,
       "group": 1,
@@ -4154,7 +4208,7 @@
       "schedule_keyOffset": "EventInfo_SelectPickup_Season1"
     },
     {
-      "no": 214,
+      "no": 217,
       "show_list": 1,
       "event_type": 1,
       "group": 1000,
@@ -4172,7 +4226,7 @@
       "schedule_keyOffset": "EventInfo_Comeback_Attend"
     },
     {
-      "no": 215,
+      "no": 218,
       "show_list": 1,
       "event_type": 3,
       "group": 1000,
@@ -4190,7 +4244,7 @@
       "schedule_keyOffset": "EventInfo_Comeback_Quest"
     },
     {
-      "no": 216,
+      "no": 219,
       "show_list": 1,
       "event_type": 2,
       "group": 9,
@@ -4208,7 +4262,7 @@
       "schedule_keyOffset": "EventInfo_Rotation_Trip"
     },
     {
-      "no": 217,
+      "no": 220,
       "show_list": 1,
       "event_type": 2,
       "group": 8,
@@ -4226,7 +4280,7 @@
       "schedule_keyOffset": "EventInfo_Rotation_Heart"
     },
     {
-      "no": 218,
+      "no": 221,
       "show_list": 1,
       "event_type": 2,
       "group": 6,
@@ -4244,7 +4298,7 @@
       "schedule_keyOffset": "EventInfo_Rotation_Arena"
     },
     {
-      "no": 219,
+      "no": 222,
       "show_list": 1,
       "event_type": 2,
       "group": 3,
@@ -4262,7 +4316,7 @@
       "schedule_keyOffset": "EventInfo_Rotation_Labyrinth"
     },
     {
-      "no": 220,
+      "no": 223,
       "show_list": 1,
       "event_type": 2,
       "group": 7,
@@ -4280,7 +4334,7 @@
       "schedule_keyOffset": "EventInfo_Rotation_Champions"
     },
     {
-      "no": 221,
+      "no": 224,
       "show_list": 1,
       "event_type": 2,
       "group": 5,
@@ -4298,7 +4352,7 @@
       "schedule_keyOffset": "EventInfo_Rotation_DualGate"
     },
     {
-      "no": 222,
+      "no": 225,
       "show_list": 1,
       "event_type": 2,
       "group": 2,
@@ -4316,11 +4370,11 @@
       "schedule_keyOffset": "EventInfo_Rotation_AutoArbeit"
     },
     {
-      "no": 223,
+      "no": 226,
       "show_list": 1,
       "event_type": 2,
-      "group": 106,
-      "event_number": 1,
+      "group": 6,
+      "event_number": 2,
       "user_type": 3,
       "name_sno": 11558,
       "desc_sno": 11527,
@@ -4334,11 +4388,11 @@
       "schedule_keyOffset": "EventInfo_Rotation_Arena2"
     },
     {
-      "no": 224,
+      "no": 227,
       "show_list": 1,
       "event_type": 2,
-      "group": 103,
-      "event_number": 1,
+      "group": 3,
+      "event_number": 2,
       "user_type": 3,
       "name_sno": 11556,
       "desc_sno": 11521,
@@ -4352,11 +4406,11 @@
       "schedule_keyOffset": "EventInfo_Rotation_Labyrinth2"
     },
     {
-      "no": 225,
+      "no": 228,
       "show_list": 1,
       "event_type": 2,
-      "group": 107,
-      "event_number": 1,
+      "group": 7,
+      "event_number": 2,
       "user_type": 3,
       "name_sno": 11559,
       "desc_sno": 11529,
@@ -4370,11 +4424,11 @@
       "schedule_keyOffset": "EventInfo_Rotation_Champions2"
     },
     {
-      "no": 226,
+      "no": 229,
       "show_list": 1,
       "event_type": 2,
-      "group": 105,
-      "event_number": 1,
+      "group": 5,
+      "event_number": 2,
       "user_type": 3,
       "name_sno": 11557,
       "desc_sno": 11545,
@@ -4388,11 +4442,11 @@
       "schedule_keyOffset": "EventInfo_Rotation_DualGate2"
     },
     {
-      "no": 227,
+      "no": 230,
       "show_list": 1,
       "event_type": 2,
-      "group": 102,
-      "event_number": 1,
+      "group": 2,
+      "event_number": 2,
       "user_type": 3,
       "name_sno": 11560,
       "desc_sno": 11531,

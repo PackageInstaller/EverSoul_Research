@@ -7809,6 +7809,14 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 9016,
+      "krOffset": "2.5주년 전야제 특별 상점",
+      "enOffset": "2.5-Year Anniv. Eve Special Shop",
+      "jaOffset": "2.5周年前夜祭特別ショップ",
+      "zh_twOffset": "2.5週年前夕特別商店",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 9101,
       "krOffset": "연속 도전",
       "enOffset": "Auto-Advance",
@@ -13293,7 +13301,7 @@
       "krOffset": "아레나 보상 3배 이벤트",
       "enOffset": "Arena Triple Reward Event",
       "jaOffset": "アリーナ報酬3倍イベント",
-      "zh_twOffset": "競技場三倍獎勵活動",
+      "zh_twOffset": "競技場3倍獎勵活動",
       "zh_cnOffset": ""
     },
     {
@@ -18003,6 +18011,22 @@
     {
       "no": 12592,
       "krOffset": "모든 아군의 가속이 10% 증가한다.",
+      "enOffset": "Increases all allies' Speed by 10%.",
+      "jaOffset": "",
+      "zh_twOffset": "所有友軍加速增加10%",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 12593,
+      "krOffset": "모든 아군의 공격력 30% 증가",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 12594,
+      "krOffset": "모든 아군의 가속 20% 증가",
       "enOffset": "",
       "jaOffset": "",
       "zh_twOffset": "",
@@ -18595,9 +18619,9 @@
     {
       "no": 12674,
       "krOffset": "뭐~ 이정도쯤이야.",
-      "enOffset": "",
+      "enOffset": "Heh, piece of cake.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "嗯～這點小事。",
       "zh_cnOffset": ""
     },
     {
@@ -19187,9 +19211,9 @@
     {
       "no": 12774,
       "krOffset": "뒤는 맡기겠슴다~",
-      "enOffset": "",
+      "enOffset": "I'll leave the rest to you!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "後面交給我～",
       "zh_cnOffset": ""
     },
     {
@@ -19578,7 +19602,7 @@
     },
     {
       "no": 12929,
-      "krOffset": "천사 & 악마 타입의 정령 중에서 원하는 정령을 선택하면\r\n14일 동안 픽업 소환이 개방됩니다.",
+      "krOffset": "천사 & 악마 & 혼돈 타입의 정령 중에서 원하는 정령을 선택하면\r\n14일 동안 픽업 소환이 개방됩니다.",
       "enOffset": "Select one of the Angel and Demon Souls to start\r\na 14-day Pick-Up Summon for her.",
       "jaOffset": "天使＆悪魔型の精霊の中で好きな精霊を選択すると\r\n14日間ピックアップ召喚が開放されます。",
       "zh_twOffset": "從天使 & 惡魔型精靈中選擇心儀的精靈後，\r\n開放為期14天的Pick Up召喚。",
@@ -22955,9 +22979,9 @@
     {
       "no": 21151,
       "krOffset": "1주년 특별 선물",
-      "enOffset": "1st Anniversary Special Gift",
+      "enOffset": "1-Year Anniversary Special Gift",
       "jaOffset": "1周年記念\r\nプレゼント",
-      "zh_twOffset": "1週年紀念\r\n特別獎勵",
+      "zh_twOffset": "1週年特別禮物",
       "zh_cnOffset": ""
     },
     {
@@ -22979,17 +23003,17 @@
     {
       "no": 21154,
       "krOffset": "정리정돈의 시간",
-      "enOffset": "",
+      "enOffset": "Cleanup Time",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "整頓的時間",
       "zh_cnOffset": ""
     },
     {
       "no": 21155,
       "krOffset": "식사 준비하기",
-      "enOffset": "",
+      "enOffset": "Meal Prep",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "準備餐點",
       "zh_cnOffset": ""
     },
     {
@@ -23003,9 +23027,9 @@
     {
       "no": 21157,
       "krOffset": "메이드의\r\n물물교환 상점",
-      "enOffset": "",
+      "enOffset": "Maid's\r\nExchange Shop",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "女僕的\r\n以物易物商店",
       "zh_cnOffset": ""
     },
     {
@@ -23027,33 +23051,33 @@
     {
       "no": 21160,
       "krOffset": "구원자님을 위해 메이드들이 정성껏 골라둔 선물입니다!",
-      "enOffset": "",
+      "enOffset": "Here's a special gift handpicked by the maids for you, Savior!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "這是女僕們為救援者精心挑選的禮物！",
       "zh_cnOffset": ""
     },
     {
       "no": 21161,
       "krOffset": "개이득 경품 상점에서 흩어진 서류 뭉치를 사용할 때마다\r\n시즌 패스 포인트를 획득합니다.",
-      "enOffset": "",
+      "enOffset": "Spend Scattered Document Bundles at the Paw-some Prize Shop\r\nto earn Season Pass points.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "在狗賺好禮商店使用文件堆時，\r\n可獲得賽季通行證點數。",
       "zh_cnOffset": ""
     },
     {
       "no": 21162,
       "krOffset": "왕궁 먼지떨이 상점",
-      "enOffset": "",
+      "enOffset": "Royal Palace Duster Shop",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "王宮撢子商店",
       "zh_cnOffset": ""
     },
     {
       "no": 21163,
       "krOffset": "최고급 식자재 상점",
-      "enOffset": "",
+      "enOffset": "Top-Quality Ingredients Shop",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "頂級食材商店",
       "zh_cnOffset": ""
     },
     {
@@ -23123,7 +23147,7 @@
     {
       "no": 21172,
       "krOffset": "2.5주년 특별 출석",
-      "enOffset": "2.5-Year Anniversary Special Attendance",
+      "enOffset": "2.5-Year Anniversary Special Attendance Check",
       "jaOffset": "2.5周年スペシャルログインボーナス",
       "zh_twOffset": "2.5週年特別簽到",
       "zh_cnOffset": ""
@@ -23147,22 +23171,142 @@
     {
       "no": 21175,
       "krOffset": "2.5주년 전야제 특별상점",
-      "enOffset": "2.5-Year Anni. Eve Shop",
+      "enOffset": "2.5-Year Anniv. Eve Special Shop",
       "jaOffset": "2.5周年前夜祭ショップ",
       "zh_twOffset": "2.5週年前夕特別商店",
       "zh_cnOffset": ""
     },
     {
       "no": 21176,
-      "krOffset": "2.5주년 전야제 특별출석",
-      "enOffset": "2.5-Year Anni. Eve Special Attendance",
-      "jaOffset": "2.5周年前夜祭\r\nスペシャルログインボーナス",
+      "krOffset": "2.5주년 전야제 출석체크",
+      "enOffset": "2.5-Year Anniv. Eve\r\nSpecial Attendance Check",
+      "jaOffset": "2.5周年前夜祭\r\nログインボーナス",
       "zh_twOffset": "2.5週年前夕特別簽到",
       "zh_cnOffset": ""
     },
     {
       "no": 21177,
-      "krOffset": "다가올 에버소울 2.5주년을 함께 기다리며 매일매일 선물을 드려요!",
+      "krOffset": "다가오는 에버소울 2.5주년을 함께 기다리며 매일매일 선물을 드려요!",
+      "enOffset": "Celebrate the upcoming Eversoul 2.5-Year anniversary with us! Gifts await you every day!",
+      "jaOffset": "",
+      "zh_twOffset": "一起等待即將到來的永恆靈魂2.5週年，每天都會送禮！",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21178,
+      "krOffset": "디모니크와 광기의 숲",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21179,
+      "krOffset": "속삭이는 바다와 여름 합숙 훈련",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21180,
+      "krOffset": "여름 합숙 시즌 패스",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21181,
+      "krOffset": "여름 합숙 훈련 출석 체크",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21182,
+      "krOffset": "여름 합숙 훈련에 참여하신 구원자님들을 위한 특별한 선물입니다!",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21183,
+      "krOffset": "물 뜨라 부르는 소리 있도다",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21184,
+      "krOffset": "속삭이는 바다",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21185,
+      "krOffset": "속삭이는 바다의 경품 상점",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21186,
+      "krOffset": "여름 합숙 교환 상점",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21187,
+      "krOffset": "광기에 빠진 스승 사쿠요를 무찌르세요.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21188,
+      "krOffset": "광기의 숲\r\n입장",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21189,
+      "krOffset": "속삭이는 바다의 경품 상점에서 유리병 쪽지를 사용할 때마다\r\n시즌 패스 포인트를 획득합니다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21190,
+      "krOffset": "낚시 찌 상점",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21191,
+      "krOffset": "마물 스티커 상점",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21192,
+      "krOffset": "천지게벽",
       "enOffset": "",
       "jaOffset": "",
       "zh_twOffset": "",
@@ -24699,7 +24843,7 @@
     {
       "no": 30192,
       "krOffset": "불완전하고도 찬란한 내일로",
-      "enOffset": "Incomplete and brilliant tomorrow",
+      "enOffset": "Toward an Imperfect but Radiant Tomorrow",
       "jaOffset": "",
       "zh_twOffset": "邁向不完整但燦爛的明天",
       "zh_cnOffset": ""
@@ -24726,6 +24870,30 @@
       "enOffset": "Shadow Leap",
       "jaOffset": "Shadow Leap",
       "zh_twOffset": "Shadow Leap",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 30196,
+      "krOffset": "Absolute Loneliness",
+      "enOffset": "Absolute Loneliness",
+      "jaOffset": "Absolute Loneliness",
+      "zh_twOffset": "Absolute Loneliness",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 30197,
+      "krOffset": "Unwanted Loneliness",
+      "enOffset": "Unwanted Loneliness",
+      "jaOffset": "Unwanted Loneliness",
+      "zh_twOffset": "Unwanted Loneliness",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 30198,
+      "krOffset": "Explosion of Joy",
+      "enOffset": "Explosion of Joy",
+      "jaOffset": "Explosion of Joy",
+      "zh_twOffset": "Explosion of Joy",
       "zh_cnOffset": ""
     },
     {
@@ -27283,9 +27451,9 @@
     {
       "no": 110674,
       "krOffset": "실베스터 조이 3세의 몸에 궁기가 빙의해 폭주했다!\r\n빙의된 궁기의 혼을 퇴치하고 실베스터의 폭주를 저지해야 한다.\r\n\r\n전투를 진행하며 쌓이는 <COLOR=#FFFFFF><피로></COLOR>를 적절하게 풀어주는 것이 공략의 포인트!\r\n\r\n실베스터가 빙글빙글 돌 때 버프를 해제하면 더 쉽게 공략이 가능할수도..?",
-      "enOffset": "",
+      "enOffset": "King Sylvester Joey III has gone berserk after being possessed by a Unicat!\r\nDefeat the Unicat and stop Sylvester's rampage.\r\n\r\nCarefully managing the accumulating <COLOR=#FFFFFF>\"Fatigue\"</COLOR> during combat is the key to success!\r\n\r\nTip: try removing his buff when he spins—it might help!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "席爾維斯特喬伊三世被窮奇附身，開始暴走！\r\n必須擊退附身的窮奇靈魂，阻止席爾維斯特暴走。\r\n\r\n適當緩解進行戰鬥累積的<COLOR=#FFFFFF>＜疲勞＞</COLOR>是攻略要點！\r\n\r\n趁席爾維斯特轉圈圈的時候解除增益，說不定可以更輕鬆地攻略…？",
       "zh_cnOffset": ""
     },
     {
@@ -38659,142 +38827,286 @@
     {
       "no": 532363,
       "krOffset": "어서오세요, 구원자님.\r\n찾으시는 물건이 있나요?",
-      "enOffset": "",
+      "enOffset": "Welcome, Savior.\r\nNeed anything in particular?",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "歡迎，救援者。\r\n有要找什麼商品嗎？",
       "zh_cnOffset": ""
     },
     {
       "no": 532364,
       "krOffset": "오셨군요.\r\n성 안은 완벽하게 정리해 두었어요.",
-      "enOffset": "",
+      "enOffset": "Welcome back.\r\nEverything inside the castle is in order.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "你來啦。\r\n我把城堡裡整理得很完美了。",
       "zh_cnOffset": ""
     },
     {
       "no": 532365,
       "krOffset": "이런 시답잖은 하루는 오랜만이네요.\r\n솔직히, 조금은 즐거웠습니다.",
-      "enOffset": "",
+      "enOffset": "It's been a while since I had such a trivial day.\r\nHonestly, I kind of enjoyed it.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "好久沒有度過這樣無聊的一天了。\r\n老實說，我還滿享受的。",
       "zh_cnOffset": ""
     },
     {
       "no": 532366,
       "krOffset": "정신 없는 하루였지만,\r\n덕분에 마음의 여유는 조금 되찾을 수 있었어요.",
-      "enOffset": "",
+      "enOffset": "It was a hectic day, but thanks to you,\r\nI found a bit of peace of mind.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "一整天都忙得暈頭轉向，\r\n不過多虧了你，我稍微恢復了內心的平靜。",
       "zh_cnOffset": ""
     },
     {
       "no": 532367,
       "krOffset": "원하시는 것을 얻으셨나요?\r\n저도 계속 찾아보고 있겠습니다.",
-      "enOffset": "",
+      "enOffset": "Did you find what you were looking for?\r\nI'll keep looking on my end.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "有得到想要的了嗎？\r\n我也會持續找的。",
       "zh_cnOffset": ""
     },
     {
       "no": 532368,
       "krOffset": "마음에 드시나요?\r\n좋은 물건을 계속 구비해 두겠습니다.",
-      "enOffset": "",
+      "enOffset": "Do you like it?\r\nI'll make sure to keep quality goods in stock.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "還滿意嗎？\r\n我會繼續準備優質的物品。",
       "zh_cnOffset": ""
     },
     {
       "no": 532369,
       "krOffset": "구원자! 왔어?\r\n청소 상태는 마음에 들어?",
-      "enOffset": "",
+      "enOffset": "Oh hey, Savior!\r\nAre you happy with how clean everything is?",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "救援者！你來了？\r\n整潔狀態還滿意嗎？",
       "zh_cnOffset": ""
     },
     {
       "no": 532370,
       "krOffset": "천천히 둘러봐!\r\n허접 구원자 군에게 필요한 건 \r\n다 준비해 놨으니까!",
-      "enOffset": "",
+      "enOffset": "No rush!\r\nI've got everything ready\r\nfor our shabby Mr. Savior!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "慢慢逛！\r\n遜咖救援者需要的東西\r\n我全都備齊了！",
       "zh_cnOffset": ""
     },
     {
       "no": 532371,
       "krOffset": "위대하신 멜피스 님에게\r\n메이드 일 정도는 식은 죽 먹기지!",
-      "enOffset": "",
+      "enOffset": "To someone as great as Melfice,\r\nmaid chores are child's play!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "對偉大的梅爾菲斯來說\r\n女僕工作根本是小蛋糕一塊！",
       "zh_cnOffset": ""
     },
     {
       "no": 532372,
       "krOffset": "브라이스가 정말 즐거워 보였어!\r\n뭐… 특별히 고맙다고 해줄게!\t",
-      "enOffset": "",
+      "enOffset": "Bryce seems like she had a great time!\r\nSo...thanks, I guess?\t",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "布萊斯看起來真的很享受！\r\n嗯…我就破例跟你道謝吧！\t",
       "zh_cnOffset": ""
     },
     {
       "no": 532373,
       "krOffset": "보는 눈이 있는 걸!\r\n내가 특별히 준비한 거라구!",
-      "enOffset": "",
+      "enOffset": "Nice taste!\r\nThis one's something I handpicked myself!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "真有眼光！\r\n那可是我特別準備的！",
       "zh_cnOffset": ""
     },
     {
       "no": 532374,
       "krOffset": "어때! 맘에 들지?\r\n필요한 게 있다면 언제든 말해!",
-      "enOffset": "",
+      "enOffset": "Well? You like it?\r\nJust let me know if you need anything else!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "怎麼樣！喜歡吧？\r\n有需要就隨時告訴我！",
       "zh_cnOffset": ""
     },
     {
       "no": 532375,
       "krOffset": "부탁 받은 일은 다 했어.\r\n어때? 이 정도면 충분해?",
-      "enOffset": "",
+      "enOffset": "I've done everything you asked.\r\nWhat do you think? Satisfied?",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "我承接的工作都做完了，\r\n怎麼樣？這種程度夠了吧？",
       "zh_cnOffset": ""
     },
     {
       "no": 532376,
       "krOffset": "왔구나.\r\n방은 깔끔하게 정리해 뒀어.",
-      "enOffset": "",
+      "enOffset": "You're back.\r\nI tidied up the room nicely.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "你來啦。\r\n我把房間整理乾淨了。",
       "zh_cnOffset": ""
     },
     {
       "no": 532377,
       "krOffset": "성의 옥상에서 본 햇살…\r\n반짝반짝, 예쁘더라.",
-      "enOffset": "",
+      "enOffset": "The sunlight from the castle roof\r\nwas lovely and radiant.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "在城堡屋頂看見的陽光…\r\n閃閃發亮的，很漂亮。",
       "zh_cnOffset": ""
     },
     {
       "no": 532378,
       "krOffset": "메이드 일도 꽤 마음에 들어.\r\n덕분에 멜피스의 해맑은 모습을 잔뜩 봤거든.",
-      "enOffset": "",
+      "enOffset": "Turns out I quite like being a maid.\r\nI got to see Melfice smile so much.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "女僕的工作我也很喜歡。\r\n多虧這樣，我還能看到很多梅爾菲斯開朗的樣子。",
       "zh_cnOffset": ""
     },
     {
       "no": 532379,
       "krOffset": "마음에 드나 보네.\r\n다행이야.",
+      "enOffset": "Seems like you're happy with it.\r\nThat's a relief.",
+      "jaOffset": "",
+      "zh_twOffset": "看來你很滿意，\r\n太好了。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532380,
+      "krOffset": "좋은 선택이네.\r\n조금 더 둘러봐도 돼.",
+      "enOffset": "Good pick.\r\nFeel free to look around some more.",
+      "jaOffset": "",
+      "zh_twOffset": "很棒的選擇。\r\n你可以再逛一下。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532381,
+      "krOffset": "구원자!\r\n오늘은 특별 상점의 일일 매니저, 나오미야~",
       "enOffset": "",
       "jaOffset": "",
       "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
-      "no": 532380,
-      "krOffset": "좋은 선택이네.\r\n조금 더 둘러봐도 돼.",
+      "no": 532382,
+      "krOffset": "구원자에게 필요한 물건들로 준비했으니까\r\n편하게 둘러봐, 구원자!",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532383,
+      "krOffset": "어떤 물건을 사야 할지 결정하기 어렵다면\r\n내가 추천해 줄 수도 있어.\r\n편하게 말해줘, 구원자!",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532384,
+      "krOffset": "매일 새로운 물건들을 들여오고 있어.\r\n아이돌 정령을 관리할 때처럼 꼼꼼하게 체크했으니까,\r\n구원자도 열심히 살펴봐 줘~",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532385,
+      "krOffset": "네, 계산해 드리겠습니다~♪\r\n구매해 줘서 고마워!",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532386,
+      "krOffset": "그 물건, 특히 신경 쓴 건데.\r\n역시 보는 눈이 있구나, 구원자?",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532387,
+      "krOffset": "어서오세요, 구원자님.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532388,
+      "krOffset": "구원자님, 특훈에 필요한 물건들을 준비했어요.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532389,
+      "krOffset": "후후. 바다에 제가 숨겨둔 유리병을\r\n찾아보시겠어요?",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532390,
+      "krOffset": "이번 여름 훈련을 마치면,\r\n얼마나 강해져 있을지 스스로도 기대됩니다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532391,
+      "krOffset": "구원자님께 도움이 되는 물건이었으면 좋겠어요.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532392,
+      "krOffset": "구원자님, 마음에 드시나요?",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532393,
+      "krOffset": "아, 구, 구승님…\r\n아, 아니… 구원자님, 어서 오세요.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532394,
+      "krOffset": "구, 구, 구원자님…\r\n반가워요…!",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532395,
+      "krOffset": "지, 진짜 이, 이 차림이\r\n특훈에 도움이 되는 걸까요…?",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532396,
+      "krOffset": "사쿠요의 낚싯대…\r\n근육 다, 단련을 위해 제대로 개조되어 있었어요.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532397,
+      "krOffset": "트, 특훈에 도움이 되는 물건이셨기를 바랄게요.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532398,
+      "krOffset": "우와…! \r\n조, 좋은 물건을 선택하셨네요…",
       "enOffset": "",
       "jaOffset": "",
       "zh_twOffset": "",
@@ -42387,9 +42699,9 @@
     {
       "no": 552515,
       "krOffset": "린지(타나토스) 배치 시 <color=\"#2d9b00\">린지(타나토스)의 공격력 {0}%</color> 증가",
-      "enOffset": "",
+      "enOffset": "<color=\"#2d9b00\">Linzy (Thanatos)'s ATK +{0}%</color> when Linzy (Thanatos) is placed",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "配置琳賽（桑納托斯）時，<color=\"#2d9b00\">琳賽（桑納托斯）的攻擊力增加{0}%</color>",
       "zh_cnOffset": ""
     },
     {
@@ -48109,7 +48421,15 @@
       "krOffset": "라우라",
       "enOffset": "Laura",
       "jaOffset": "ラウラ",
-      "zh_twOffset": "蘿拉\t萝拉",
+      "zh_twOffset": "蘿拉",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 581122,
+      "krOffset": "하루(카무이)",
+      "enOffset": "Haru (Kamuy)",
+      "jaOffset": "ハル(カムイ)",
+      "zh_twOffset": "河路（神威）",
       "zh_cnOffset": ""
     },
     {
@@ -53579,190 +53899,254 @@
     {
       "no": 615711,
       "krOffset": "직장",
-      "enOffset": "",
+      "enOffset": "Workplace",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "職場",
       "zh_cnOffset": ""
     },
     {
       "no": 615712,
       "krOffset": "과거",
-      "enOffset": "",
+      "enOffset": "The Past",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "過去",
       "zh_cnOffset": ""
     },
     {
       "no": 615713,
       "krOffset": "버릇",
-      "enOffset": "",
+      "enOffset": "Habits",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "習慣",
       "zh_cnOffset": ""
     },
     {
       "no": 615714,
       "krOffset": "기계",
-      "enOffset": "",
+      "enOffset": "Machine",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "機器",
       "zh_cnOffset": ""
     },
     {
       "no": 615715,
       "krOffset": "말투",
-      "enOffset": "",
+      "enOffset": "Speech",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "語氣",
       "zh_cnOffset": ""
     },
     {
       "no": 615716,
       "krOffset": "마스크",
-      "enOffset": "",
+      "enOffset": "Mask",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "面罩",
       "zh_cnOffset": ""
     },
     {
       "no": 615717,
       "krOffset": "헤어스타일",
-      "enOffset": "",
+      "enOffset": "Hairstyle",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "髮型",
       "zh_cnOffset": ""
     },
     {
       "no": 615718,
       "krOffset": "음악",
-      "enOffset": "",
+      "enOffset": "Music",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "音樂",
       "zh_cnOffset": ""
     },
     {
       "no": 615719,
       "krOffset": "전투복",
-      "enOffset": "",
+      "enOffset": "Combat Suit",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "戰鬥服",
       "zh_cnOffset": ""
     },
     {
       "no": 615720,
       "krOffset": "숲지기",
-      "enOffset": "",
+      "enOffset": "Forest Keeper",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "森林守護者",
       "zh_cnOffset": ""
     },
     {
       "no": 615721,
       "krOffset": "제철 과일",
-      "enOffset": "",
+      "enOffset": "Fruits in Season",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "當季水果",
       "zh_cnOffset": ""
     },
     {
       "no": 615722,
       "krOffset": "땡땡이",
-      "enOffset": "",
+      "enOffset": "Play Hooky",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "偷懶",
       "zh_cnOffset": ""
     },
     {
       "no": 615723,
       "krOffset": "여행",
-      "enOffset": "",
+      "enOffset": "Travel",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "旅行",
       "zh_cnOffset": ""
     },
     {
       "no": 615724,
       "krOffset": "보좌관",
-      "enOffset": "",
+      "enOffset": "Assistant",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "輔佐官",
       "zh_cnOffset": ""
     },
     {
       "no": 615725,
       "krOffset": "이불",
-      "enOffset": "",
+      "enOffset": "Blanket",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "被子",
       "zh_cnOffset": ""
     },
     {
       "no": 615726,
       "krOffset": "화재",
-      "enOffset": "",
+      "enOffset": "Fire",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "火警",
       "zh_cnOffset": ""
     },
     {
       "no": 615727,
       "krOffset": "밤의 일족",
-      "enOffset": "",
+      "enOffset": "Nightbloods",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "夜之族",
       "zh_cnOffset": ""
     },
     {
       "no": 615728,
       "krOffset": "바니 복장",
-      "enOffset": "",
+      "enOffset": "Bunny Outfit",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "兔兔服裝",
       "zh_cnOffset": ""
     },
     {
       "no": 615729,
       "krOffset": "오토하",
-      "enOffset": "",
+      "enOffset": "Otoha",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "乙葉",
       "zh_cnOffset": ""
     },
     {
       "no": 615730,
       "krOffset": "토끼",
-      "enOffset": "",
+      "enOffset": "Rabbit",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "兔子",
       "zh_cnOffset": ""
     },
     {
       "no": 615731,
       "krOffset": "칵테일",
-      "enOffset": "",
+      "enOffset": "Cocktail",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "雞尾酒",
       "zh_cnOffset": ""
     },
     {
       "no": 615732,
       "krOffset": "속임수",
-      "enOffset": "",
+      "enOffset": "Trick",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "把戲",
       "zh_cnOffset": ""
     },
     {
       "no": 615733,
       "krOffset": "행운",
+      "enOffset": "Luck",
+      "jaOffset": "",
+      "zh_twOffset": "幸運",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 615734,
+      "krOffset": "능력",
+      "enOffset": "Abilities",
+      "jaOffset": "",
+      "zh_twOffset": "能力",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 615735,
+      "krOffset": "새로운 옷",
       "enOffset": "",
       "jaOffset": "",
       "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
-      "no": 615734,
-      "krOffset": "능력",
+      "no": 615736,
+      "krOffset": "식사",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 615737,
+      "krOffset": "이 세계",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 615738,
+      "krOffset": "야수형 정령",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 615739,
+      "krOffset": "하늘",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 615740,
+      "krOffset": "카무이의 증표",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 615741,
+      "krOffset": "발소리",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 615742,
+      "krOffset": "다른 나라",
       "enOffset": "",
       "jaOffset": "",
       "zh_twOffset": "",
@@ -54563,9 +54947,9 @@
     {
       "no": 650046,
       "krOffset": "영지 이동",
-      "enOffset": "",
+      "enOffset": "Go to Town",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "移動至領地",
       "zh_cnOffset": ""
     },
     {
@@ -55475,9 +55859,9 @@
     {
       "no": 660148,
       "krOffset": "기원의 좌",
-      "enOffset": "",
+      "enOffset": "Seat of Origin",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "起源之座",
       "zh_cnOffset": ""
     },
     {
@@ -55846,6 +56230,14 @@
       "enOffset": "HP +10% and Speed +5% for all Petra Souls",
       "jaOffset": "すべての「ペトラ」の体力10%増加、加速5%増加",
       "zh_twOffset": "所有「佩特拉」的體力增加10%、加速增加5\t",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 673022,
+      "krOffset": "모든 '클레르'의 공격력 10% 증가, 방어력 15% 증가",
+      "enOffset": "ATK +10% and DEF +15% for all Claire Souls",
+      "jaOffset": "すべての「クレール」の攻撃力10%増加、防御力15%増加",
+      "zh_twOffset": "增加所有「克萊兒」的攻擊力10%、防禦力15%",
       "zh_cnOffset": ""
     },
     {
@@ -58353,6 +58745,22 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 900009,
+      "krOffset": "오버클럭 초기화 안내",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 900010,
+      "krOffset": "오버클럭 개선으로 인해 레벨이 초기화됐습니다.\r\n초기화 전 오버클럭 레벨은 {0}이며, 마나 크리스탈 {1}개를 우편으로 보내드립니다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 980001,
       "krOffset": "상황이 급박하니 바로 전선으로 이동하겠습니다.",
       "enOffset": "The situation is urgent, so I'll head to the battlefront right away.",
@@ -59755,17 +60163,17 @@
     {
       "no": 980181,
       "krOffset": "구원자님, 1호 방주가 파괴되어 기존 기원의 탑에 더 이상 액세스하기 어려워졌습니다.\r\n그래서 가능한 기존 탑의 기능을 제 메타트론 시스템을 사용해 복구했습니다.",
-      "enOffset": "",
+      "enOffset": "Savior, with Ark Metatron destroyed, accessing the original Tower of Origin has become challenging.\r\nSo, I've used my Metatron system to recover as much of its function as possible.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "救援者，一號方舟已遭破壞，現在難以存取既有的起源之塔。\r\n所以目前使用我的梅塔特隆系統，盡可能復原了塔既有的功能。",
       "zh_cnOffset": ""
     },
     {
       "no": 980182,
       "krOffset": "다만 복구를 하긴 했으나 이전과 완전히 같은 스펙은 아니므로 모쪼록 주의 부탁드립니다.\r\n기존 기원의 탑의 데이터는 백업해두었으므로 여전히 액세스 가능하니 참고 부탁드릴게요.\r\n그럼, 행운을 빕니다.",
-      "enOffset": "",
+      "enOffset": "However, although I've restored it, the specifications aren't exactly the same as before, so please proceed with caution.\r\nThe data from the original Tower of Origin has been backed up and is still accessible. Please keep that in mind.\r\nGood luck to you.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "雖然已經進行復原，但因為數據和先前不完全一樣，務必多加留意。\r\n補充說明，既有起源之塔的數據已完成備份，因此仍然可以存取。\r\n那麼，祝你好運。",
       "zh_cnOffset": ""
     },
     {
@@ -60098,10 +60506,10 @@
     },
     {
       "no": 990431,
-      "krOffset": "인연 레벨에 따라 인연 스토리를 볼 수 있는 메시지가 오기도 합니다.\r\n인연 스토리 버튼을 터치하면 \r\n영지로 이동해 인연 스토리를 진행할 수 있습니다.",
-      "enOffset": "Depending on the Bond Level, you may receive a message that lets you view a Love Story. You can then tap on the Love Story button which will move you to the Town to proceed to the Love Story.",
-      "jaOffset": "絆Lvに応じて、絆ストーリー閲覧を知らせるメッセージが届きます。\r\n絆ストーリーボタンをタップすると、\r\n領地に移動して絆ストーリーを進行できます。",
-      "zh_twOffset": "根據好感等級不同，可看到的好感故事的訊息也會有所不同。\r\n點擊好感故事按鍵後，會移動至領地並進行好感故事。",
+      "krOffset": "인연 레벨에 따라 인연 스토리를 볼 수 있는 메시지가 오기도 합니다.\r\n인연 스토리 버튼을 터치하면 인연 스토리를 진행할 수 있습니다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
@@ -66339,65 +66747,65 @@
     {
       "no": 996520,
       "krOffset": "이벤트 기간 동안 특별 스테이지 「개판 5분 전」이 오픈됩니다.\r\n폭주한 실베스터 조이 3세로부터 흩어진 서류 뭉치를 되찾아 다양한 보상을 획득하세요.",
-      "enOffset": "",
+      "enOffset": "During the event period, the special stage \"5 Minutes to Fur-mageddon\" will be open.\r\nRetrieve Scattered Document Bundle from Rampaging King Sylvester Joey III and earn various rewards.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "活動期間內開放特別關卡「狗亂前五分鐘」。\r\n從暴走的席爾維斯特喬伊三世那裡找回四散的文件堆，獲得各種獎勵吧！",
       "zh_cnOffset": ""
     },
     {
       "no": 996521,
       "krOffset": "이벤트 레이드 「개판 5분 전」에 입장하기 위해서는\r\n이벤트 스토리 「메이드 인 마이 홈」 8화를 확인해야 합니다.",
-      "enOffset": "",
+      "enOffset": "You need to view episode 8 of the event story \"Homemade by Me\"\r\nto enter the \"5 Minutes to Fur-mageddon\" event raid.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "需先觀看活動故事「女僕在我家」第8話，\r\n才可進入活動突襲「狗亂前五分鐘」。",
       "zh_cnOffset": ""
     },
     {
       "no": 996522,
       "krOffset": "「흩어진 서류 뭉치」는 「개판 5분 전」에서 획득할 수 있으며,\r\n「개이득 경품 상점」에서 다양한 아이템으로 교환할 수 있습니다.",
-      "enOffset": "",
+      "enOffset": "You can get \"Scattered Document Bundle\" from \"5 Minutes to Fur-mageddon\"\r\nand exchange them for various items at the \"Paw-some Prize Shop.\"",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "可在「狗亂前五分鐘」獲得「四散的文件堆」，\r\n並在「狗賺好禮商店」兌換各種道具。",
       "zh_cnOffset": ""
     },
     {
       "no": 996523,
       "krOffset": "교환 기간이 종료되면 「흩어진 서류 뭉치」는 개당 3000골드로 환산됩니다.\r\n환산된 아이템은 우편함으로 지급됩니다.",
-      "enOffset": "",
+      "enOffset": "When the exchange period ends, each \"Scattered Document Bundle\" will be converted into 3,000 Gold.\r\nThe converted gold will be sent to your mailbox.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "兌換時間結束後，每1個「四散的文件堆」將換算成3000金幣，\r\n並發送至信箱。",
       "zh_cnOffset": ""
     },
     {
       "no": 996524,
       "krOffset": "폭주한 실베스터 조이 3세를 물리치고 「흩어진 서류 뭉치」를 획득하세요.\r\n클리어한 레벨이 높을수록 더 풍성한 보상을 획득할 수 있습니다.",
-      "enOffset": "",
+      "enOffset": "Defeat Rampaging King Sylvester Joey III and earn \"Scattered Document Bundle.\"\r\nThe higher the level you clear, the more rewards you'll get.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "擊退暴走的席爾維斯特喬伊三世並獲得「四散的文件堆」。\r\n通關的等級越高，可獲得的獎品也會越多。",
       "zh_cnOffset": ""
     },
     {
       "no": 996525,
       "krOffset": "이벤트 스테이지 「메이드의 일과」는\r\n「정리정돈의 시간」, 혹은 「식사 준비하기」 중 하나를 선택하여 도전할 수 있습니다.\r\n멜피스 혹은 브라이스와 함께 작전을 수행해 보세요!",
-      "enOffset": "",
+      "enOffset": "In the event stage \"The Maid's Daily Tasks,\"\r\nyou can choose to challenge either \"Cleanup Time\" or \"Meal Prep.\"\r\nCarry out the mission with Melfice or Bryce!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "活動關卡「女僕的例行公事」\r\n可在「整頓的時間」與「準備餐點」中擇一挑戰。\r\n與梅爾菲斯和布萊斯一起進行作戰吧！",
       "zh_cnOffset": ""
     },
     {
       "no": 996526,
       "krOffset": "「메이드의 일과」에서 「왕궁 먼지떨이」와 「최고급 식자재」를 획득할 수 있으며,\r\n「메이드의 물물교환 상점」에서 다양한 아이템으로 교환할 수 있습니다.",
-      "enOffset": "",
+      "enOffset": "You can get \"Royal Palace Duster\" and \"Top-Grade Ingredients\" from \"The Maid's Daily Tasks\"\r\nand exchange them for various items at the \"Maid's Exchange Shop.\"",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "可在「女僕的例行公事」獲得「王宮撢子」和「頂級食材」，\r\n並在「女僕的以物易物商店」兌換各種道具。",
       "zh_cnOffset": ""
     },
     {
       "no": 996527,
       "krOffset": "「왕궁 먼지떨이」와 「최고급 식자재」는 교환 기간이 종료되면 개당 3000골드로 환산됩니다.\r\n환산된 아이템은 우편함으로 지급됩니다.",
-      "enOffset": "",
+      "enOffset": "When the exchange period ends, each \"Royal Palace Duster\" and \"Top-Grade Ingredients\" will be converted into 3,000 Gold.\r\nThe converted gold will be sent to your mailbox.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "兌換時間結束後，每1個「王宮撢子」與「頂級食材」將換算成3000金幣，\r\n並發送至信箱。",
       "zh_cnOffset": ""
     },
     {
@@ -66883,17 +67291,17 @@
     {
       "no": 997222,
       "krOffset": "기원의 좌",
-      "enOffset": "",
+      "enOffset": "Seat of Origin",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "起源之座",
       "zh_cnOffset": ""
     },
     {
       "no": 997223,
       "krOffset": "기원의 좌에서는 각 정령들의 유물과 관련된 스토리를 해금할 수 있습니다.\r\n정령들의 기원에 대해 더욱 자세히 알아보세요.",
-      "enOffset": "",
+      "enOffset": "At the Seat of Origin, you can unlock stories associated with each Soul's Artifact.\r\nDelve deeper into the lore of the Souls' origins.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "可在起源之座解鎖各精靈的遺物相關故事。\r\n前往進一步了解精靈的起源吧。",
       "zh_cnOffset": ""
     },
     {
@@ -67114,7 +67522,7 @@
     },
     {
       "no": 997257,
-      "krOffset": "세부 편성 화면에서는 리더, 메인 파트너, 서브 파트너 배치 및 고유 효과를 확인할 수 있습니다.",
+      "krOffset": "세부 편성 화면에서는 리더, 메인 파트너 배치 및 고유 효과를 확인할 수 있습니다.",
       "enOffset": "You can view the placement and respective specific effects of the lead Souls and their respective main and sub partner Souls.",
       "jaOffset": "細部編成画面ではリーダー、メインパートナー、サブパートナーの配置と固有効果を確認できます。",
       "zh_twOffset": "詳細編制畫面中，可配置隊長、主要夥伴、輔助夥伴，並確認固有效果。",
@@ -68113,6 +68521,14 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 1001064,
+      "krOffset": "기원의 좌",
+      "enOffset": "Seat of Origin",
+      "jaOffset": "",
+      "zh_twOffset": "起源之座",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 1001101,
       "krOffset": "월정액 체험권이 적용되었습니다. 다음 날 부터 우편으로 매일 획득 보상 지급",
       "enOffset": "A Monthly Sub Trial Ticket has been activated. You'll be getting daily rewards in the mail starting tomorrow.",
@@ -68131,9 +68547,9 @@
     {
       "no": 1106183,
       "krOffset": "낙원의 마녀는 아군의 마나를 계속 흡수하여 자신의 공격을 강화한다!\r\n빠르게 보스를 공격하여 <COLOR=#FFFFFF><흔들리는 마나></COLOR> 효과를 부여하면 마녀가 쌓아둔 마나를 감소시키고 약화시킬 수 있다! 적극적으로 공격하여 낙원의 마녀를 무력화 시키자!\r\n\r\n낙원의 마녀는 특히 냉기와 중독 지속 피해에 취약한 것 같기도..?",
-      "enOffset": "",
+      "enOffset": "The Witch of Paradise drains your allies' Mana to enhance her own attacks!\r\nInflicting <COLOR=#FFFFFF>\"Wavering Mana\"</COLOR> by attacking quickly will decrease her accumulated mana and weaken her! Launch relentless attacks to overpower the Witch of Paradise!\r\n\r\nIt's possible...that she's extra vulnerable to Freeze and Poison DoT.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "樂園魔女不斷吸收友軍的魔力，強化自身攻擊！\r\n快速攻擊BOSS並賦予<COLOR=#FFFFFF>＜不穩定的魔力＞</COLOR>效果，可減少魔女累積的魔力並削弱她！積極攻擊並削弱樂園魔女吧！\r\n\r\n樂園魔女似乎特別容易陷入寒氣和中毒持續傷害…？",
       "zh_cnOffset": ""
     },
     {

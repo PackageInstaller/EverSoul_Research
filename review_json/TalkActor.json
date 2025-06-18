@@ -1363,6 +1363,46 @@
       "position_scale": 1.0
     },
     {
+      "no": 2170,
+      "name_sno": 302170,
+      "prefab_pathOffset": "HaruKamuy",
+      "portrait512_pathOffset": "UI/Textures/Souls/HaruKamuy/HaruKamuy_512",
+      "portrait128_pathOffset": "UI/Textures/Souls/HaruKamuy/HaruKamuy_2048",
+      "costume_pathOffset": "",
+      "controller_pathOffset": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 2171,
+      "name_sno": 302170,
+      "prefab_pathOffset": "HaruKamuy",
+      "portrait512_pathOffset": "UI/Textures/Souls/HaruKamuy/HaruKamuy_Costume01_512",
+      "portrait128_pathOffset": "UI/Textures/Souls/HaruKamuy/HaruKamuy_Costume01_2048",
+      "costume_pathOffset": "HaruKamuy_Costume01",
+      "controller_pathOffset": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 2172,
+      "name_sno": 302170,
+      "prefab_pathOffset": "HaruKamuy",
+      "portrait512_pathOffset": "UI/Textures/Souls/HaruKamuy/HaruKamuy_Costume02_512",
+      "portrait128_pathOffset": "UI/Textures/Souls/HaruKamuy/HaruKamuy_Costume02_2048",
+      "costume_pathOffset": "HaruKamuy_Costume02",
+      "controller_pathOffset": "",
+      "position_scale": 1.0
+    },
+    {
+      "no": 2179,
+      "name_sno": 259999,
+      "prefab_pathOffset": "HaruKamuy",
+      "portrait512_pathOffset": "UI/Textures/Souls/HaruKamuy/HaruKamuy_512",
+      "portrait128_pathOffset": "UI/Textures/Souls/HaruKamuy/HaruKamuy_2048",
+      "costume_pathOffset": "",
+      "controller_pathOffset": "",
+      "position_scale": 1.0
+    },
+    {
       "no": 3010,
       "name_sno": 303010,
       "prefab_pathOffset": "Erika",
@@ -2365,6 +2405,17 @@
       "position_scale": 1.0
     },
     {
+      "no": 4091,
+      "name_sno": 304090,
+      "prefab_pathOffset": "Erusha",
+      "portrait512_pathOffset": "UI/Textures/Souls/Erusha/Erusha_Costume03_512",
+      "portrait128_pathOffset": "UI/Textures/Souls/Erusha/Erusha_Costume03_128",
+      "costume_pathOffset": "Erusha_Costume03",
+      "controller_pathOffset": "",
+      "portrait_reverse": 1,
+      "position_scale": 1.0
+    },
+    {
       "no": 4092,
       "name_sno": 304090,
       "prefab_pathOffset": "Erusha",
@@ -3051,7 +3102,7 @@
     {
       "no": 6060,
       "name_sno": 306060,
-      "prefab_pathOffset": "",
+      "prefab_pathOffset": "Nia",
       "portrait512_pathOffset": "UI/Textures/Etc/NPC_Nia_512",
       "portrait128_pathOffset": "",
       "costume_pathOffset": "",
@@ -10775,7 +10826,7 @@
       "no": 9755,
       "name_sno": 250712,
       "prefab_pathOffset": "",
-      "portrait512_pathOffset": "",
+      "portrait512_pathOffset": "UI/Textures/Etc/NPC_UnknownMan",
       "portrait128_pathOffset": "",
       "costume_pathOffset": "",
       "controller_pathOffset": "",
@@ -10785,7 +10836,7 @@
       "no": 9756,
       "name_sno": 250713,
       "prefab_pathOffset": "",
-      "portrait512_pathOffset": "",
+      "portrait512_pathOffset": "UI/Textures/Etc/NPC_UnknownMan2",
       "portrait128_pathOffset": "",
       "costume_pathOffset": "",
       "controller_pathOffset": "",

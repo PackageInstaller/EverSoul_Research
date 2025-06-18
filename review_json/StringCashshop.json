@@ -2027,9 +2027,25 @@
     {
       "no": 910422,
       "krOffset": "메이드 인 마이 홈",
-      "enOffset": "Maid in My home",
+      "enOffset": "Homemade by Me",
       "jaOffset": "",
-      "zh_twOffset": "家中的女僕",
+      "zh_twOffset": "女僕在我家",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 910423,
+      "krOffset": "하루(카무이) 승급 패스",
+      "enOffset": "Haru (Kamuy) Ascension Pass",
+      "jaOffset": "",
+      "zh_twOffset": "河路（神威）升階通行證",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 910424,
+      "krOffset": "하루(카무이) 픽업",
+      "enOffset": "Haru (Kamuy) Pick-Up",
+      "jaOffset": "",
+      "zh_twOffset": "河路（神威）Pick Up",
       "zh_cnOffset": ""
     },
     {
@@ -4555,57 +4571,57 @@
     {
       "no": 911235,
       "krOffset": "일일 메이드 인 마이 홈 이벤트 초특가 패키지",
-      "enOffset": "Daily maid in My Home Event Super Special Package",
+      "enOffset": "Daily Homemade by Me Event Special Deal Pack",
       "jaOffset": "",
-      "zh_twOffset": "家政每日特別套餐活動",
+      "zh_twOffset": "每日女僕在我家活動超值特價禮包",
       "zh_cnOffset": ""
     },
     {
       "no": 911236,
       "krOffset": "일일 메이드 인 마이 홈 이벤트 정령 소환 패키지",
-      "enOffset": "Daily maid in My Home Event Spirits Summon Package",
+      "enOffset": "Daily Homemade by Me Event Soul Summon Pack",
       "jaOffset": "",
-      "zh_twOffset": "家政每日女僕活動靈體召喚套餐",
+      "zh_twOffset": "每日女僕在我家活動精靈召喚禮包",
       "zh_cnOffset": ""
     },
     {
       "no": 911237,
       "krOffset": "일일 메이드 인 마이 홈 이벤트 성장 패키지",
-      "enOffset": "Daily maid in My Home Event Growth Package",
+      "enOffset": "Daily Homemade by Me Event Growth Pack",
       "jaOffset": "",
-      "zh_twOffset": "我的家活動成長套餐中的每日家政服務",
+      "zh_twOffset": "每日女僕在我家活動成長禮包",
       "zh_cnOffset": ""
     },
     {
       "no": 911238,
       "krOffset": "일일 메이드 인 마이 홈 이벤트 크리스탈 패키지",
-      "enOffset": "Daily maid in My Home Event Crystal Package",
+      "enOffset": "Daily Homemade by Me Event Crystal Pack",
       "jaOffset": "",
-      "zh_twOffset": "家政日常活動水晶套餐",
+      "zh_twOffset": "每日女僕在我家活動魔力水晶禮包",
       "zh_cnOffset": ""
     },
     {
       "no": 911239,
       "krOffset": "메이드 인 마이 홈 이벤트 패키지 1",
-      "enOffset": "maid in My Home Event Package 1",
+      "enOffset": "Homemade by Me Event Pack 1",
       "jaOffset": "",
-      "zh_twOffset": "家政服務活動套餐1",
+      "zh_twOffset": "女僕在我家活動禮包1",
       "zh_cnOffset": ""
     },
     {
       "no": 911240,
       "krOffset": "메이드 인 마이 홈 이벤트 패키지 2",
-      "enOffset": "maid in My Home Event Package 2",
+      "enOffset": "Homemade by Me Event Pack 2",
       "jaOffset": "",
-      "zh_twOffset": "家政服務套餐2",
+      "zh_twOffset": "女僕在我家活動禮包2",
       "zh_cnOffset": ""
     },
     {
       "no": 911241,
       "krOffset": "메이드 인 마이 홈 이벤트 패키지 3",
-      "enOffset": "maid in My Home Event Package 3",
+      "enOffset": "Homemade by Me Event Pack 3",
       "jaOffset": "",
-      "zh_twOffset": "家政服務套餐3",
+      "zh_twOffset": "女僕在我家活動禮包3",
       "zh_cnOffset": ""
     },
     {
@@ -5074,7 +5090,7 @@
     },
     {
       "no": 913210,
-      "krOffset": "클레르 기원의 탑 돌파 패키지",
+      "krOffset": "클레르 기원의 좌 돌파 패키지",
       "enOffset": "Claire Tower of Origin Boost Pack",
       "jaOffset": "クレールの起源の塔突破パック",
       "zh_twOffset": "突破克萊兒起源之塔禮包",
@@ -5910,6 +5926,30 @@
       "enOffset": "Sea of Stars Conqueror Pack 3",
       "jaOffset": "",
       "zh_twOffset": "佔領星海禮包3",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 915033,
+      "krOffset": "하늘뱃길 점령 패키지 1",
+      "enOffset": "Sky Sea Route Conqueror Pack 1",
+      "jaOffset": "",
+      "zh_twOffset": "佔領空中航道路禮包1",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 915034,
+      "krOffset": "하늘뱃길 점령 패키지 2",
+      "enOffset": "Sky Sea Route Conqueror Pack 2",
+      "jaOffset": "",
+      "zh_twOffset": "佔領空中航道路禮包2",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 915035,
+      "krOffset": "하늘뱃길 점령 패키지 3",
+      "enOffset": "Sky Sea Route Conqueror Pack 3",
+      "jaOffset": "",
+      "zh_twOffset": "佔領空中航道路禮包3",
       "zh_cnOffset": ""
     },
     {
@@ -7357,7 +7397,7 @@
       "krOffset": "라우라 픽업 기념 패키지 2",
       "enOffset": "Laura Pick-Up Pack 2",
       "jaOffset": "",
-      "zh_twOffset": "蘿拉Pick Up紀念禮包1",
+      "zh_twOffset": "蘿拉Pick Up紀念禮包2",
       "zh_cnOffset": ""
     },
     {
@@ -7390,6 +7430,22 @@
       "enOffset": "New Year's Day Pick-Up Pack (Naiah)",
       "jaOffset": "新年Pick-Upパック（ナイア）",
       "zh_twOffset": "新年之日Pick Up禮包（娜伊雅）",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 917611,
+      "krOffset": "하루(카무이) 픽업 기념 패키지 1",
+      "enOffset": "Haru (Kamuy) Pick-Up Pack 1",
+      "jaOffset": "",
+      "zh_twOffset": "河路（神威）Pick Up紀念禮包1",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 917612,
+      "krOffset": "하루(카무이) 픽업 기념 패키지 2",
+      "enOffset": "Haru (Kamuy) Pick-Up Pack 2",
+      "jaOffset": "",
+      "zh_twOffset": "河路（神威）Pick Up紀念禮包2",
       "zh_cnOffset": ""
     },
     {
@@ -10033,6 +10089,70 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 919401,
+      "krOffset": "하루(카무이) 에픽 달성 패키지",
+      "enOffset": "Haru (Kamuy) Epic Achievement Pack",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）史詩禮包",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 919402,
+      "krOffset": "하루(카무이) 에픽+ 달성 패키지",
+      "enOffset": "Haru (Kamuy) Epic+ Achievement Pack",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）史詩＋禮包",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 919403,
+      "krOffset": "하루(카무이) 레전더리+ 달성 패키지",
+      "enOffset": "Haru (Kamuy) Legendary+ Achievement Pack",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）傳說＋禮包",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 919404,
+      "krOffset": "하루(카무이) 이터널+ 달성 패키지",
+      "enOffset": "Haru (Kamuy) Eternal+ Achievement Pack",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）永恆＋禮包",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 919405,
+      "krOffset": "하루(카무이) 오리진 달성 패키지",
+      "enOffset": "Haru (Kamuy) Origin Achievement Pack",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）不朽禮包",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 919406,
+      "krOffset": "하루(카무이) 오리진+1 달성 패키지",
+      "enOffset": "Haru (Kamuy) Origin+1 Achievement Pack",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）不朽+1禮包",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 919407,
+      "krOffset": "하루(카무이) 오리진+3 달성 패키지",
+      "enOffset": "Haru (Kamuy) Origin+3 Achievement Pack",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）不朽+3禮包",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 919408,
+      "krOffset": "하루(카무이) 오리진+5 달성 패키지",
+      "enOffset": "Haru (Kamuy) Origin+5 Achievement Pack",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）不朽+5禮包",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 919461,
       "krOffset": "에일린 에픽 달성 패키지",
       "enOffset": "Eileen Epic Achievement Pack",
@@ -10874,7 +10994,7 @@
     },
     {
       "no": 923210,
-      "krOffset": "클레르의 탑 20층을 돌파한 자에게 주어지는 기념 패키지",
+      "krOffset": "클레르의 기원의 좌 5층을 돌파한 자에게 주어지는 기념 패키지",
       "enOffset": "A pack offered to those who have cleared 20F on Claire's tower.",
       "jaOffset": "クレールの塔20階を突破したプレイヤーが購入できる記念パック",
       "zh_twOffset": "突破克萊兒之塔20層的紀念禮包",
