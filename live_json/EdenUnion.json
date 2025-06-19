@@ -13,7 +13,8 @@
       "sound_pathOffset": "BGM_EdenAlliance_Gaon",
       "emblem_pathOffset": "emblem_alliance_gaon",
       "daily_reward": 57,
-      "reward_amount": 600
+      "reward_amount": 600,
+      "profile_view": 1
     },
     {
       "no": 2,
@@ -28,7 +29,8 @@
       "sound_pathOffset": "BGM_EdenAlliance_Solrey",
       "emblem_pathOffset": "emblem_alliance_solrey",
       "daily_reward": 57,
-      "reward_amount": 600
+      "reward_amount": 600,
+      "profile_view": 1
     },
     {
       "no": 3,
@@ -43,7 +45,8 @@
       "sound_pathOffset": "BGM_EdenAlliance_Troica",
       "emblem_pathOffset": "emblem_alliance_troyca",
       "daily_reward": 57,
-      "reward_amount": 600
+      "reward_amount": 600,
+      "profile_view": 1
     },
     {
       "no": 4,
@@ -58,7 +61,8 @@
       "sound_pathOffset": "BGM_Aurelia",
       "emblem_pathOffset": "emblem_alliance_aurelia",
       "daily_reward": 57,
-      "reward_amount": 600
+      "reward_amount": 600,
+      "profile_view": 1
     },
     {
       "no": 5,
@@ -73,7 +77,8 @@
       "sound_pathOffset": "BGM_EdenAlliance_Tabria",
       "emblem_pathOffset": "emblem_alliance_tabria",
       "daily_reward": 57,
-      "reward_amount": 600
+      "reward_amount": 600,
+      "profile_view": 1
     },
     {
       "no": 6,
@@ -88,7 +93,8 @@
       "sound_pathOffset": "BGM_EdenAlliance_Fayren",
       "emblem_pathOffset": "emblem_alliance_fayren",
       "daily_reward": 57,
-      "reward_amount": 600
+      "reward_amount": 600,
+      "profile_view": 1
     },
     {
       "no": 7,
@@ -103,7 +109,8 @@
       "sound_pathOffset": "BGM_EdenAlliance_Chalar",
       "emblem_pathOffset": "emblem_alliance_chalar",
       "daily_reward": 57,
-      "reward_amount": 600
+      "reward_amount": 600,
+      "profile_view": 1
     }
   ]
 }
