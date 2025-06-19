@@ -2686,6 +2686,26 @@
       "hero_check": 2160
     },
     {
+      "no": 21701,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2217001,
+      "thumbnail_pathOffset": "Codex_Talk_Event_HaruKamuy_01",
+      "bg_movie_pathOffset": "Story/Love/HaruKamuy/01_ADDON/Talk_Event_HaruKamuy_01",
+      "lobby": 1,
+      "hero_check": 2170
+    },
+    {
+      "no": 21702,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2217004,
+      "thumbnail_pathOffset": "Codex_Talk_Event_HaruKamuy_02",
+      "bg_movie_pathOffset": "Story/Love/HaruKamuy/04_ADDON/Talk_Event_HaruKamuy_02",
+      "lobby": 1,
+      "hero_check": 2170
+    },
+    {
       "no": 30101,
       "category": 2,
       "open_type": 2,
@@ -4274,6 +4294,66 @@
       "bg_movie_pathOffset": "Story/Love/Velanna/10_ADDON/Talk_Event_Velanna_06",
       "lobby": 1,
       "hero_check": 4080
+    },
+    {
+      "no": 40901,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2409001,
+      "thumbnail_pathOffset": "Codex_Talk_Event_Erusha_01",
+      "bg_movie_pathOffset": "Story/Love/Erusha/01_ADDON/Talk_Event_Erusha_01",
+      "lobby": 1,
+      "hero_check": 4090
+    },
+    {
+      "no": 40902,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2409006,
+      "thumbnail_pathOffset": "Codex_Talk_Event_Erusha_02",
+      "bg_movie_pathOffset": "Story/Love/Erusha/06_ADDON/Talk_Event_Erusha_02",
+      "lobby": 1,
+      "hero_check": 4090
+    },
+    {
+      "no": 40903,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2409007,
+      "thumbnail_pathOffset": "Codex_Talk_Event_Erusha_03",
+      "bg_movie_pathOffset": "Story/Love/Erusha/07_ADDON/Talk_Event_Erusha_03",
+      "lobby": 1,
+      "hero_check": 4090
+    },
+    {
+      "no": 40904,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2409008,
+      "thumbnail_pathOffset": "Codex_Talk_Event_Erusha_04",
+      "bg_movie_pathOffset": "Story/Love/Erusha/08_ADDON/Talk_Event_Erusha_04",
+      "lobby": 1,
+      "hero_check": 4090
+    },
+    {
+      "no": 40905,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2409009,
+      "thumbnail_pathOffset": "Codex_Talk_Event_Erusha_05",
+      "bg_movie_pathOffset": "Story/Love/Erusha/09_ADDON/Talk_Event_Erusha_05",
+      "lobby": 1,
+      "hero_check": 4090
+    },
+    {
+      "no": 40906,
+      "category": 2,
+      "open_type": 2,
+      "open_condition": 2409010,
+      "thumbnail_pathOffset": "Codex_Talk_Event_Erusha_06",
+      "bg_movie_pathOffset": "Story/Love/Erusha/10_ADDON/Talk_Event_Erusha_06",
+      "lobby": 1,
+      "hero_check": 4090
     },
     {
       "no": 41001,

@@ -1169,6 +1169,36 @@
       "hero_noOffset": "[4170,1110]",
       "distance": 50,
       "ratio": 30
+    },
+    {
+      "no": 200,
+      "hero_noOffset": "[2170,2090]",
+      "distance": 50,
+      "ratio": 30
+    },
+    {
+      "no": 201,
+      "hero_noOffset": "[4160,4130]",
+      "distance": 50,
+      "ratio": 30
+    },
+    {
+      "no": 202,
+      "hero_noOffset": "[4160,4110]",
+      "distance": 50,
+      "ratio": 30
+    },
+    {
+      "no": 203,
+      "hero_noOffset": "[3170,4160]",
+      "distance": 50,
+      "ratio": 30
+    },
+    {
+      "no": 204,
+      "hero_noOffset": "[4010,4160]",
+      "distance": 50,
+      "ratio": 30
     }
   ]
 }

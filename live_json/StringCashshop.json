@@ -2033,6 +2033,22 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 910423,
+      "krOffset": "하루(카무이) 승급 패스",
+      "enOffset": "Haru (Kamuy) Ascension Pass",
+      "jaOffset": "",
+      "zh_twOffset": "河路（神威）升階通行證",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 910424,
+      "krOffset": "하루(카무이) 픽업",
+      "enOffset": "Haru (Kamuy) Pick-Up",
+      "jaOffset": "",
+      "zh_twOffset": "河路（神威）Pick Up",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 910501,
       "krOffset": "달성 패키지",
       "enOffset": "Achievement Pack",
@@ -5074,10 +5090,10 @@
     },
     {
       "no": 913210,
-      "krOffset": "클레르 기원의 탑 돌파 패키지",
-      "enOffset": "Claire Tower of Origin Boost Pack",
+      "krOffset": "클레르 기원의 좌 돌파 패키지",
+      "enOffset": "Claire Seat of Origin Boost Pack",
       "jaOffset": "クレールの起源の塔突破パック",
-      "zh_twOffset": "突破克萊兒起源之塔禮包",
+      "zh_twOffset": "突破克萊兒起源之座禮包",
       "zh_cnOffset": ""
     },
     {
@@ -5910,6 +5926,30 @@
       "enOffset": "Sea of Stars Conqueror Pack 3",
       "jaOffset": "",
       "zh_twOffset": "佔領星海禮包3",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 915033,
+      "krOffset": "하늘뱃길 점령 패키지 1",
+      "enOffset": "Sky Fareway Conqueror Pack 1",
+      "jaOffset": "",
+      "zh_twOffset": "佔領空中航道禮包1",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 915034,
+      "krOffset": "하늘뱃길 점령 패키지 2",
+      "enOffset": "Sky Fareway Conqueror Pack 2",
+      "jaOffset": "",
+      "zh_twOffset": "佔領空中航道禮包2",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 915035,
+      "krOffset": "하늘뱃길 점령 패키지 3",
+      "enOffset": "Sky Fareway Conqueror Pack 3",
+      "jaOffset": "",
+      "zh_twOffset": "佔領空中航道禮包3",
       "zh_cnOffset": ""
     },
     {
@@ -7390,6 +7430,22 @@
       "enOffset": "New Year's Day Pick-Up Pack (Naiah)",
       "jaOffset": "新年Pick-Upパック（ナイア）",
       "zh_twOffset": "新年之日Pick Up禮包（娜伊雅）",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 917611,
+      "krOffset": "하루(카무이) 픽업 기념 패키지 1",
+      "enOffset": "Haru (Kamuy) Pick-Up Pack 1",
+      "jaOffset": "",
+      "zh_twOffset": "河路（神威）Pick Up紀念禮包1",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 917612,
+      "krOffset": "하루(카무이) 픽업 기념 패키지 2",
+      "enOffset": "Haru (Kamuy) Pick-Up Pack 2",
+      "jaOffset": "",
+      "zh_twOffset": "河路（神威）Pick Up紀念禮包2",
       "zh_cnOffset": ""
     },
     {
@@ -10033,6 +10089,70 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 919401,
+      "krOffset": "하루(카무이) 에픽 달성 패키지",
+      "enOffset": "Haru (Kamuy) Epic Achievement Pack",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）史詩禮包",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 919402,
+      "krOffset": "하루(카무이) 에픽+ 달성 패키지",
+      "enOffset": "Haru (Kamuy) Epic+ Achievement Pack",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）史詩＋禮包",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 919403,
+      "krOffset": "하루(카무이) 레전더리+ 달성 패키지",
+      "enOffset": "Haru (Kamuy) Legendary+ Achievement Pack",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）傳說＋禮包",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 919404,
+      "krOffset": "하루(카무이) 이터널+ 달성 패키지",
+      "enOffset": "Haru (Kamuy) Eternal+ Achievement Pack",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）永恆＋禮包",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 919405,
+      "krOffset": "하루(카무이) 오리진 달성 패키지",
+      "enOffset": "Haru (Kamuy) Origin Achievement Pack",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）不朽禮包",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 919406,
+      "krOffset": "하루(카무이) 오리진+1 달성 패키지",
+      "enOffset": "Haru (Kamuy) Origin+1 Achievement Pack",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）不朽+1禮包",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 919407,
+      "krOffset": "하루(카무이) 오리진+3 달성 패키지",
+      "enOffset": "Haru (Kamuy) Origin+3 Achievement Pack",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）不朽+3禮包",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 919408,
+      "krOffset": "하루(카무이) 오리진+5 달성 패키지",
+      "enOffset": "Haru (Kamuy) Origin+5 Achievement Pack",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）不朽+5禮包",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 919461,
       "krOffset": "에일린 에픽 달성 패키지",
       "enOffset": "Eileen Epic Achievement Pack",
@@ -10874,10 +10994,10 @@
     },
     {
       "no": 923210,
-      "krOffset": "클레르의 탑 20층을 돌파한 자에게 주어지는 기념 패키지",
-      "enOffset": "A pack offered to those who have cleared 20F on Claire's tower.",
+      "krOffset": "클레르의 기원의 좌 5층을 돌파한 자에게 주어지는 기념 패키지",
+      "enOffset": "A pack offered to those who have cleared 5F on Claire's Seat of Origin.",
       "jaOffset": "クレールの塔20階を突破したプレイヤーが購入できる記念パック",
-      "zh_twOffset": "突破克萊兒之塔20層的紀念禮包",
+      "zh_twOffset": "突破克萊兒起源之座5層的紀念禮包",
       "zh_cnOffset": ""
     },
     {

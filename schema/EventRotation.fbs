@@ -3,6 +3,7 @@ namespace EventRotation;
 table Deserialization {
     no: int32;
     group: int32;
+    event_number: int32;
     reward_path: int32;
     table_nameOffset: string;
     column_name_1Offset: string;

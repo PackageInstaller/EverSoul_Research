@@ -3119,19 +3119,6 @@
       "image_gpgOffset": "Category_02/Help_UI_BATTLE_WORLDBOSS_FORMATION_MAIN_04"
     },
     {
-      "no": 20321005,
-      "category_type": 2,
-      "guide_name_sno": 1001060,
-      "triggerOffset": "UI_WORLDBOSS_FORMATION_MAIN",
-      "index": 5,
-      "title_sno": 997262,
-      "desc_sno": 997263,
-      "title_gpg_sno": 997262,
-      "desc_gpg_sno": 997263,
-      "imageOffset": "Category_02/Help_UI_BATTLE_WORLDBOSS_FORMATION_MAIN_05",
-      "image_gpgOffset": "Category_02/Help_UI_BATTLE_WORLDBOSS_FORMATION_MAIN_05"
-    },
-    {
       "no": 20330001,
       "category_type": 2,
       "guide_name_sno": 1001061,
@@ -3200,6 +3187,20 @@
       "desc_gpg_sno": 997221,
       "imageOffset": "Category_02/Help_UI_TOWER_FLOOR_01",
       "image_gpgOffset": "Category_02/Help_UI_TOWER_FLOOR_01"
+    },
+    {
+      "no": 20621001,
+      "category_type": 2,
+      "guide_name_sno": 1001064,
+      "contents_limit_no": 25,
+      "triggerOffset": "UI_NEWTOWER_FLOOR",
+      "index": 1,
+      "title_sno": 997222,
+      "desc_sno": 997223,
+      "title_gpg_sno": 997222,
+      "desc_gpg_sno": 997223,
+      "imageOffset": "Category_02/Help_UI_NEWTOWER_FLOOR_01",
+      "image_gpgOffset": "Category_02/Help_UI_NEWTOWER_FLOOR_01"
     },
     {
       "no": 21020001,

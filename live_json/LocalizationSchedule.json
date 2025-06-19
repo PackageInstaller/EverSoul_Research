@@ -1857,6 +1857,30 @@
       "value_date_01Offset": ""
     },
     {
+      "index": 233,
+      "schedule_keyOffset": "Cashshop_Pickup_HaruKamuy",
+      "schedule_type": 1,
+      "start_dateOffset": "2025-06-19 0:00:00",
+      "end_dateOffset": "2025-07-10 0:00:00",
+      "value_date_01Offset": ""
+    },
+    {
+      "index": 234,
+      "schedule_keyOffset": "Cashshop_Pickup_Eve_R",
+      "schedule_type": 1,
+      "start_dateOffset": "2025-06-26 0:00:00",
+      "end_dateOffset": "2025-07-03 0:00:00",
+      "value_date_01Offset": ""
+    },
+    {
+      "index": 235,
+      "schedule_keyOffset": "Cashshop_Heropass_HaruKamuy",
+      "schedule_type": 1,
+      "start_dateOffset": "2025-06-19 0:00:00",
+      "end_dateOffset": "2025-07-24 0:00:00",
+      "value_date_01Offset": ""
+    },
+    {
       "index": 20001,
       "schedule_keyOffset": "EdenUnion_fayren",
       "schedule_type": 2,
@@ -1879,6 +1903,14 @@
       "start_dateOffset": "2025-05-22 00:00:00",
       "end_dateOffset": "2025-06-05 00:00:00",
       "value_date_01Offset": "2025-06-19 00:00:00"
+    },
+    {
+      "index": 20004,
+      "schedule_keyOffset": "EdenUnion_solrey",
+      "schedule_type": 2,
+      "start_dateOffset": "2025-06-19 00:00:00",
+      "end_dateOffset": "2025-07-03 00:00:00",
+      "value_date_01Offset": "2025-07-17 00:00:00"
     },
     {
       "index": 30001,
@@ -2378,6 +2410,14 @@
     },
     {
       "index": 30063,
+      "schedule_keyOffset": "Calender_LimitShop_9",
+      "schedule_type": 3,
+      "start_dateOffset": "2025-07-03 00:00:00",
+      "end_dateOffset": "2025-07-17 00:00:00",
+      "value_date_01Offset": ""
+    },
+    {
+      "index": 30064,
       "schedule_keyOffset": "Calender_LimitShop_8",
       "schedule_type": 3,
       "start_dateOffset": "2025-05-22 00:00:00",
@@ -2385,7 +2425,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30064,
+      "index": 30065,
       "schedule_keyOffset": "Calender_LimitShop_7",
       "schedule_type": 3,
       "start_dateOffset": "2024-12-26 00:00:00",
@@ -2393,7 +2433,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30065,
+      "index": 30066,
       "schedule_keyOffset": "Calender_LimitShop_6",
       "schedule_type": 3,
       "start_dateOffset": "2024-07-04 01:00:00",
@@ -2401,7 +2441,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30066,
+      "index": 30067,
       "schedule_keyOffset": "Calender_LimitShop_5",
       "schedule_type": 3,
       "start_dateOffset": "2024-04-04 01:00:00",
@@ -2409,7 +2449,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30067,
+      "index": 30068,
       "schedule_keyOffset": "Calender_LimitShop_4",
       "schedule_type": 3,
       "start_dateOffset": "2024-01-04 01:00:00",
@@ -2417,7 +2457,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30068,
+      "index": 30069,
       "schedule_keyOffset": "Calender_LimitShop_3",
       "schedule_type": 3,
       "start_dateOffset": "2023-11-23 00:00:00",
@@ -2425,7 +2465,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30069,
+      "index": 30070,
       "schedule_keyOffset": "Calender_LimitShop_2",
       "schedule_type": 3,
       "start_dateOffset": "2023-08-24 00:00:00",
@@ -2433,7 +2473,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30070,
+      "index": 30071,
       "schedule_keyOffset": "Calender_LimitShop_1",
       "schedule_type": 3,
       "start_dateOffset": "2023-06-22 00:00:00",
@@ -2441,7 +2481,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30071,
+      "index": 30072,
       "schedule_keyOffset": "Calender_DailyPass_Newbie",
       "schedule_type": 3,
       "start_dateOffset": "2024-11-21 00:00:00",
@@ -2449,7 +2489,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30072,
+      "index": 30073,
       "schedule_keyOffset": "Calender_Launching_Quest",
       "schedule_type": 3,
       "start_dateOffset": "2022-10-26 00:00:00",
@@ -2457,7 +2497,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30073,
+      "index": 30074,
       "schedule_keyOffset": "Calender_FariyCollect_Quest",
       "schedule_type": 3,
       "start_dateOffset": "2022-10-26 00:00:00",
@@ -2465,7 +2505,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30074,
+      "index": 30075,
       "schedule_keyOffset": "Calender_Comeback_Attend",
       "schedule_type": 3,
       "start_dateOffset": "2023-06-15 00:00:00",
@@ -2473,7 +2513,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30075,
+      "index": 30076,
       "schedule_keyOffset": "Calender_Comeback_Quest",
       "schedule_type": 3,
       "start_dateOffset": "2023-06-15 00:00:00",
@@ -2481,7 +2521,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30076,
+      "index": 30077,
       "schedule_keyOffset": "Calender_SelectPickup_Season2",
       "schedule_type": 3,
       "start_dateOffset": "2024-04-18 01:00:00",
@@ -2489,7 +2529,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30077,
+      "index": 30078,
       "schedule_keyOffset": "Calender_SelectPickup_Season1",
       "schedule_type": 3,
       "start_dateOffset": "2023-06-29 01:00:00",
@@ -2497,7 +2537,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30078,
+      "index": 30079,
       "schedule_keyOffset": "Calender_DJSoul",
       "schedule_type": 3,
       "start_dateOffset": "2024-05-30 00:00:00",
@@ -2505,7 +2545,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30079,
+      "index": 30080,
       "schedule_keyOffset": "Calender_EverMatch",
       "schedule_type": 3,
       "start_dateOffset": "2025-07-03 00:00:00",
@@ -2513,19 +2553,11 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30080,
+      "index": 30081,
       "schedule_keyOffset": "Calender_DefenseGame_Dominique",
       "schedule_type": 3,
       "start_dateOffset": "2024-06-27 00:00:00",
       "end_dateOffset": "2024-07-04 00:00:00",
-      "value_date_01Offset": ""
-    },
-    {
-      "index": 30081,
-      "schedule_keyOffset": "Calender_DefenseGame_9",
-      "schedule_type": 3,
-      "start_dateOffset": "2025-03-20 00:00:00",
-      "end_dateOffset": "2025-03-27 00:00:00",
       "value_date_01Offset": ""
     },
     {
@@ -2538,10 +2570,10 @@
     },
     {
       "index": 30083,
-      "schedule_keyOffset": "Calender_WorldBoss_17",
+      "schedule_keyOffset": "Calender_DefenseGame_11",
       "schedule_type": 3,
-      "start_dateOffset": "2025-05-22 00:00:00",
-      "end_dateOffset": "2025-05-29 00:00:00",
+      "start_dateOffset": "2025-07-31 00:00:00",
+      "end_dateOffset": "2025-08-07 00:00:00",
       "value_date_01Offset": ""
     },
     {
@@ -2690,14 +2722,6 @@
     },
     {
       "index": 30102,
-      "schedule_keyOffset": "Calender_EdenAlliance_Aurelia",
-      "schedule_type": 3,
-      "start_dateOffset": "2025-02-13 00:00:00",
-      "end_dateOffset": "2025-02-27 00:00:00",
-      "value_date_01Offset": ""
-    },
-    {
-      "index": 30103,
       "schedule_keyOffset": "Calender_EdenAlliance_Tabria",
       "schedule_type": 3,
       "start_dateOffset": "2025-03-06 00:00:00",
@@ -2705,7 +2729,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30104,
+      "index": 30103,
       "schedule_keyOffset": "Calender_EdenAlliance_Fayren",
       "schedule_type": 3,
       "start_dateOffset": "2025-03-27 00:00:00",
@@ -2713,7 +2737,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30105,
+      "index": 30104,
       "schedule_keyOffset": "Calender_EdenAlliance_Chalar",
       "schedule_type": 3,
       "start_dateOffset": "2025-04-24 00:00:00",
@@ -2721,7 +2745,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30106,
+      "index": 30105,
       "schedule_keyOffset": "Calender_EdenAlliance_Gaon",
       "schedule_type": 3,
       "start_dateOffset": "2025-05-22 00:00:00",
@@ -2729,7 +2753,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30107,
+      "index": 30106,
       "schedule_keyOffset": "Calender_EdenAlliance_Solrey",
       "schedule_type": 3,
       "start_dateOffset": "2025-06-19 00:00:00",
@@ -2737,7 +2761,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30108,
+      "index": 30107,
       "schedule_keyOffset": "Calender_EdenAlliance_Troyca",
       "schedule_type": 3,
       "start_dateOffset": "2025-07-17 00:00:00",
@@ -2745,47 +2769,15 @@
       "value_date_01Offset": ""
     },
     {
+      "index": 30108,
+      "schedule_keyOffset": "Calender_EdenAlliance_Aurelia",
+      "schedule_type": 3,
+      "start_dateOffset": "2025-08-14 00:00:00",
+      "end_dateOffset": "2025-08-28 00:00:00",
+      "value_date_01Offset": ""
+    },
+    {
       "index": 30109,
-      "schedule_keyOffset": "Calender_PickUp_ReneeSiver",
-      "schedule_type": 3,
-      "start_dateOffset": "2025-05-08 00:00:00",
-      "end_dateOffset": "2025-05-29 00:00:00",
-      "value_date_01Offset": ""
-    },
-    {
-      "index": 30110,
-      "schedule_keyOffset": "Calender_PickUp_Weiss",
-      "schedule_type": 3,
-      "start_dateOffset": "2025-05-08 00:00:00",
-      "end_dateOffset": "2025-05-22 00:00:00",
-      "value_date_01Offset": ""
-    },
-    {
-      "index": 30111,
-      "schedule_keyOffset": "Calender_PickUp_Violette",
-      "schedule_type": 3,
-      "start_dateOffset": "2025-05-15 00:00:00",
-      "end_dateOffset": "2025-05-22 00:00:00",
-      "value_date_01Offset": ""
-    },
-    {
-      "index": 30112,
-      "schedule_keyOffset": "Calender_PickUp_Garnet",
-      "schedule_type": 3,
-      "start_dateOffset": "2025-05-19 00:00:00",
-      "end_dateOffset": "2025-05-26 00:00:00",
-      "value_date_01Offset": ""
-    },
-    {
-      "index": 30113,
-      "schedule_keyOffset": "Calender_PickUp_Eileen",
-      "schedule_type": 3,
-      "start_dateOffset": "2025-05-22 00:00:00",
-      "end_dateOffset": "2025-05-29 00:00:00",
-      "value_date_01Offset": ""
-    },
-    {
-      "index": 30114,
       "schedule_keyOffset": "Calender_PickUp_Laura",
       "schedule_type": 3,
       "start_dateOffset": "2025-05-29 00:00:00",
@@ -2793,7 +2785,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30115,
+      "index": 30110,
       "schedule_keyOffset": "Calender_PickUp_Linzy_Thanatos",
       "schedule_type": 3,
       "start_dateOffset": "2025-05-29 00:00:00",
@@ -2801,7 +2793,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30116,
+      "index": 30111,
       "schedule_keyOffset": "Calender_PickUp_Bryce",
       "schedule_type": 3,
       "start_dateOffset": "2025-06-05 00:00:00",
@@ -2809,7 +2801,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30117,
+      "index": 30112,
       "schedule_keyOffset": "Calender_PickUp_Melfice",
       "schedule_type": 3,
       "start_dateOffset": "2025-06-12 00:00:00",
@@ -2817,7 +2809,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30118,
+      "index": 30113,
       "schedule_keyOffset": "Calender_PickUp_Haru_Kamuy",
       "schedule_type": 3,
       "start_dateOffset": "2025-06-19 00:00:00",
@@ -2825,7 +2817,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30119,
+      "index": 30114,
       "schedule_keyOffset": "Calender_PickUp_Mica",
       "schedule_type": 3,
       "start_dateOffset": "2025-06-19 00:00:00",
@@ -2833,7 +2825,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30120,
+      "index": 30115,
       "schedule_keyOffset": "Calender_PickUp_Seeha",
       "schedule_type": 3,
       "start_dateOffset": "2025-06-19 00:00:00",
@@ -2841,7 +2833,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30121,
+      "index": 30116,
       "schedule_keyOffset": "Calender_PickUp_Eve",
       "schedule_type": 3,
       "start_dateOffset": "2025-06-26 00:00:00",
@@ -2849,7 +2841,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30122,
+      "index": 30117,
       "schedule_keyOffset": "Calender_PickUp_Naomi",
       "schedule_type": 3,
       "start_dateOffset": "2025-06-26 00:00:00",
@@ -2857,7 +2849,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30123,
+      "index": 30118,
       "schedule_keyOffset": "Calender_Rotation_Trip",
       "schedule_type": 3,
       "start_dateOffset": "2024-02-15 01:00:00",
@@ -2865,7 +2857,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30124,
+      "index": 30119,
       "schedule_keyOffset": "Calender_Rotation_Heart",
       "schedule_type": 3,
       "start_dateOffset": "2024-03-28 01:00:00",
@@ -2873,7 +2865,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30125,
+      "index": 30120,
       "schedule_keyOffset": "Calender_Rotation_Arena",
       "schedule_type": 3,
       "start_dateOffset": "2025-08-20 00:00:00",
@@ -2881,7 +2873,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30126,
+      "index": 30121,
       "schedule_keyOffset": "Calender_Rotation_Labyrinth",
       "schedule_type": 3,
       "start_dateOffset": "2025-05-14 00:00:00",
@@ -2889,7 +2881,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30127,
+      "index": 30122,
       "schedule_keyOffset": "Calender_Rotation_Champions",
       "schedule_type": 3,
       "start_dateOffset": "2025-05-28 00:00:00",
@@ -2897,7 +2889,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30128,
+      "index": 30123,
       "schedule_keyOffset": "Calender_Rotation_DualGate",
       "schedule_type": 3,
       "start_dateOffset": "2025-06-11 00:00:00",
@@ -2905,7 +2897,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30129,
+      "index": 30124,
       "schedule_keyOffset": "Calender_Rotation_AutoArbeit",
       "schedule_type": 3,
       "start_dateOffset": "2025-06-25 00:00:00",
@@ -2913,7 +2905,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30130,
+      "index": 30125,
       "schedule_keyOffset": "Calender_Rotation_Arena2",
       "schedule_type": 3,
       "start_dateOffset": "2025-07-16 00:00:00",
@@ -2921,7 +2913,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30131,
+      "index": 30126,
       "schedule_keyOffset": "Calender_Rotation_Labyrinth2",
       "schedule_type": 3,
       "start_dateOffset": "2025-07-30 00:00:00",
@@ -2929,7 +2921,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30132,
+      "index": 30127,
       "schedule_keyOffset": "Calender_Rotation_Champions2",
       "schedule_type": 3,
       "start_dateOffset": "2025-07-16 00:00:00",
@@ -2937,7 +2929,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30133,
+      "index": 30128,
       "schedule_keyOffset": "Calender_Rotation_DualGate2",
       "schedule_type": 3,
       "start_dateOffset": "2025-07-09 00:00:00",
@@ -2945,7 +2937,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 30134,
+      "index": 30129,
       "schedule_keyOffset": "Calender_Rotation_AutoArbeit2",
       "schedule_type": 3,
       "start_dateOffset": "2025-07-23 00:00:00",
@@ -4474,6 +4466,22 @@
     },
     {
       "index": 40191,
+      "schedule_keyOffset": "EventInfo_SpecialShop_2_5thEve",
+      "schedule_type": 4,
+      "start_dateOffset": "2025-07-03 00:00:00",
+      "end_dateOffset": "2025-07-17 00:00:00",
+      "value_date_01Offset": "2025-07-17 00:00:00"
+    },
+    {
+      "index": 40192,
+      "schedule_keyOffset": "EventInfo_SpecialShop_2_5thEveM",
+      "schedule_type": 4,
+      "start_dateOffset": "2025-07-03 00:00:00",
+      "end_dateOffset": "2025-07-17 00:00:00",
+      "value_date_01Offset": "2025-07-17 00:00:00"
+    },
+    {
+      "index": 40193,
       "schedule_keyOffset": "EventInfo_SpecialShop_May",
       "schedule_type": 4,
       "start_dateOffset": "2025-05-22 00:00:00",
@@ -4481,7 +4489,7 @@
       "value_date_01Offset": "2025-06-05 00:00:00"
     },
     {
-      "index": 40192,
+      "index": 40194,
       "schedule_keyOffset": "EventInfo_SpecialShop_MayM",
       "schedule_type": 4,
       "start_dateOffset": "2025-05-22 00:00:00",
@@ -4489,7 +4497,7 @@
       "value_date_01Offset": "2025-06-05 00:00:00"
     },
     {
-      "index": 40193,
+      "index": 40195,
       "schedule_keyOffset": "EventInfo_SpecialShop_2ndAnni",
       "schedule_type": 4,
       "start_dateOffset": "2024-12-26 00:00:00",
@@ -4497,7 +4505,7 @@
       "value_date_01Offset": "2025-01-09 00:00:00"
     },
     {
-      "index": 40194,
+      "index": 40196,
       "schedule_keyOffset": "EventInfo_SpecialShop_2ndAnniM",
       "schedule_type": 4,
       "start_dateOffset": "2024-12-26 00:00:00",
@@ -4505,7 +4513,7 @@
       "value_date_01Offset": "2025-01-09 00:00:00"
     },
     {
-      "index": 40195,
+      "index": 40197,
       "schedule_keyOffset": "EventInfo_SpecialShop_1halfAnni",
       "schedule_type": 4,
       "start_dateOffset": "2024-07-04 01:00:00",
@@ -4513,7 +4521,7 @@
       "value_date_01Offset": "2024-07-18 00:00:00"
     },
     {
-      "index": 40196,
+      "index": 40198,
       "schedule_keyOffset": "EventInfo_SpecialShop_1halfAnniM",
       "schedule_type": 4,
       "start_dateOffset": "2024-07-04 01:00:00",
@@ -4521,7 +4529,7 @@
       "value_date_01Offset": "2024-07-18 00:00:00"
     },
     {
-      "index": 40197,
+      "index": 40199,
       "schedule_keyOffset": "EventInfo_QuestGuildRaid_34",
       "schedule_type": 4,
       "start_dateOffset": "2025-05-15 00:00:00",
@@ -4529,7 +4537,7 @@
       "value_date_01Offset": "2025-05-29 00:00:00"
     },
     {
-      "index": 40198,
+      "index": 40200,
       "schedule_keyOffset": "EventInfo_QuestGuildRaid_35",
       "schedule_type": 4,
       "start_dateOffset": "2025-06-05 00:00:00",
@@ -4537,7 +4545,7 @@
       "value_date_01Offset": "2025-06-19 00:00:00"
     },
     {
-      "index": 40199,
+      "index": 40201,
       "schedule_keyOffset": "EventInfo_QuestGuildRaid_36",
       "schedule_type": 4,
       "start_dateOffset": "2025-06-26 00:00:00",
@@ -4545,7 +4553,7 @@
       "value_date_01Offset": "2025-07-10 00:00:00"
     },
     {
-      "index": 40200,
+      "index": 40202,
       "schedule_keyOffset": "EventInfo_QuestGuildRaid_37",
       "schedule_type": 4,
       "start_dateOffset": "2025-07-17 00:00:00",
@@ -4553,7 +4561,7 @@
       "value_date_01Offset": "2025-07-31 00:00:00"
     },
     {
-      "index": 40201,
+      "index": 40203,
       "schedule_keyOffset": "EventInfo_DJsoul_NewSong",
       "schedule_type": 4,
       "start_dateOffset": "2025-04-10 00:00:00",
@@ -4561,15 +4569,23 @@
       "value_date_01Offset": "2025-04-17 00:00:00"
     },
     {
-      "index": 40202,
-      "schedule_keyOffset": "EventInfo_EverMatch_5",
+      "index": 40204,
+      "schedule_keyOffset": "EventInfo_EverMatch_6",
       "schedule_type": 4,
-      "start_dateOffset": "2025-05-08 00:00:00",
-      "end_dateOffset": "2025-05-15 00:00:00",
-      "value_date_01Offset": "2025-05-15 00:00:00"
+      "start_dateOffset": "2025-07-03 00:00:00",
+      "end_dateOffset": "2025-07-10 00:00:00",
+      "value_date_01Offset": "2025-07-10 00:00:00"
     },
     {
-      "index": 40203,
+      "index": 40205,
+      "schedule_keyOffset": "EventInfo_DefenseGame_Sakuyo",
+      "schedule_type": 4,
+      "start_dateOffset": "2025-07-03 00:00:00",
+      "end_dateOffset": "2025-07-10 00:00:00",
+      "value_date_01Offset": "2025-07-10 00:00:00"
+    },
+    {
+      "index": 40206,
       "schedule_keyOffset": "EventInfo_DefenseGame_Dominique",
       "schedule_type": 4,
       "start_dateOffset": "2024-06-27 01:00:00",
@@ -4577,15 +4593,7 @@
       "value_date_01Offset": "2024-07-11 00:00:00"
     },
     {
-      "index": 40204,
-      "schedule_keyOffset": "EventInfo_DefenseGame_9",
-      "schedule_type": 4,
-      "start_dateOffset": "2025-03-20 00:00:00",
-      "end_dateOffset": "2025-03-27 00:00:00",
-      "value_date_01Offset": "2025-04-03 00:00:00"
-    },
-    {
-      "index": 40205,
+      "index": 40207,
       "schedule_keyOffset": "EventInfo_DefenseGame_10",
       "schedule_type": 4,
       "start_dateOffset": "2025-06-05 00:00:00",
@@ -4593,7 +4601,15 @@
       "value_date_01Offset": "2025-06-19 00:00:00"
     },
     {
-      "index": 40206,
+      "index": 40208,
+      "schedule_keyOffset": "EventInfo_DefenseGame_11",
+      "schedule_type": 4,
+      "start_dateOffset": "2025-07-31 00:00:00",
+      "end_dateOffset": "2025-08-07 00:00:00",
+      "value_date_01Offset": "2025-08-14 00:00:00"
+    },
+    {
+      "index": 40209,
       "schedule_keyOffset": "EventInfo_FairyVote_2",
       "schedule_type": 4,
       "start_dateOffset": "2024-07-11 00:00:00",
@@ -4601,7 +4617,7 @@
       "value_date_01Offset": "2024-08-08 00:00:00"
     },
     {
-      "index": 40207,
+      "index": 40210,
       "schedule_keyOffset": "EventInfo_EGT_Movie_1",
       "schedule_type": 4,
       "start_dateOffset": "2024-01-04 01:00:00",
@@ -4609,7 +4625,7 @@
       "value_date_01Offset": "2024-01-18 00:00:00"
     },
     {
-      "index": 40208,
+      "index": 40211,
       "schedule_keyOffset": "EventInfo_FairyVote_1",
       "schedule_type": 4,
       "start_dateOffset": "2023-06-22 00:00:00",
@@ -4617,7 +4633,7 @@
       "value_date_01Offset": "2023-07-20 00:00:00"
     },
     {
-      "index": 40209,
+      "index": 40212,
       "schedule_keyOffset": "EventInfo_Newbie_DailyPass",
       "schedule_type": 4,
       "start_dateOffset": "2024-11-21 00:00:00",
@@ -4625,7 +4641,7 @@
       "value_date_01Offset": "2999-12-31 23:59:59"
     },
     {
-      "index": 40210,
+      "index": 40213,
       "schedule_keyOffset": "EventInfo_Launching_Quest",
       "schedule_type": 4,
       "start_dateOffset": "2022-10-26 00:00:00",
@@ -4633,7 +4649,7 @@
       "value_date_01Offset": "2999-12-31 23:59:59"
     },
     {
-      "index": 40211,
+      "index": 40214,
       "schedule_keyOffset": "EventInfo_FariyCollect_Quest",
       "schedule_type": 4,
       "start_dateOffset": "2022-10-26 00:00:00",
@@ -4641,7 +4657,7 @@
       "value_date_01Offset": "2999-12-31 23:59:59"
     },
     {
-      "index": 40212,
+      "index": 40215,
       "schedule_keyOffset": "EventInfo_SelectPickup_Season2",
       "schedule_type": 4,
       "start_dateOffset": "2024-04-18 01:00:00",
@@ -4649,7 +4665,7 @@
       "value_date_01Offset": "2999-12-31 23:59:59"
     },
     {
-      "index": 40213,
+      "index": 40216,
       "schedule_keyOffset": "EventInfo_SelectPickup_Season1",
       "schedule_type": 4,
       "start_dateOffset": "2023-06-29 01:00:00",
@@ -4657,7 +4673,7 @@
       "value_date_01Offset": "2024-04-17 23:59:59"
     },
     {
-      "index": 40214,
+      "index": 40217,
       "schedule_keyOffset": "EventInfo_Comeback_Attend",
       "schedule_type": 4,
       "start_dateOffset": "2023-06-15 00:00:00",
@@ -4665,7 +4681,7 @@
       "value_date_01Offset": "2999-12-31 23:59:59"
     },
     {
-      "index": 40215,
+      "index": 40218,
       "schedule_keyOffset": "EventInfo_Comeback_Quest",
       "schedule_type": 4,
       "start_dateOffset": "2023-06-15 00:00:00",
@@ -4673,7 +4689,7 @@
       "value_date_01Offset": "2999-12-31 23:59:59"
     },
     {
-      "index": 40216,
+      "index": 40219,
       "schedule_keyOffset": "EventInfo_Rotation_Trip",
       "schedule_type": 4,
       "start_dateOffset": "2024-03-28 01:00:00",
@@ -4681,7 +4697,7 @@
       "value_date_01Offset": "2024-04-11 00:00:00"
     },
     {
-      "index": 40217,
+      "index": 40220,
       "schedule_keyOffset": "EventInfo_Rotation_Heart",
       "schedule_type": 4,
       "start_dateOffset": "2024-02-15 01:00:00",
@@ -4689,7 +4705,7 @@
       "value_date_01Offset": "2024-02-29 00:00:00"
     },
     {
-      "index": 40218,
+      "index": 40221,
       "schedule_keyOffset": "EventInfo_Rotation_Arena",
       "schedule_type": 4,
       "start_dateOffset": "2025-08-20 00:00:00",
@@ -4697,7 +4713,7 @@
       "value_date_01Offset": "2025-09-03 00:00:00"
     },
     {
-      "index": 40219,
+      "index": 40222,
       "schedule_keyOffset": "EventInfo_Rotation_Labyrinth",
       "schedule_type": 4,
       "start_dateOffset": "2025-05-14 00:00:00",
@@ -4705,7 +4721,7 @@
       "value_date_01Offset": "2025-05-28 00:00:00"
     },
     {
-      "index": 40220,
+      "index": 40223,
       "schedule_keyOffset": "EventInfo_Rotation_Champions",
       "schedule_type": 4,
       "start_dateOffset": "2025-05-28 00:00:00",
@@ -4713,7 +4729,7 @@
       "value_date_01Offset": "2025-06-11 00:00:00"
     },
     {
-      "index": 40221,
+      "index": 40224,
       "schedule_keyOffset": "EventInfo_Rotation_DualGate",
       "schedule_type": 4,
       "start_dateOffset": "2025-06-11 00:00:00",
@@ -4721,7 +4737,7 @@
       "value_date_01Offset": "2025-06-25 00:00:00"
     },
     {
-      "index": 40222,
+      "index": 40225,
       "schedule_keyOffset": "EventInfo_Rotation_AutoArbeit",
       "schedule_type": 4,
       "start_dateOffset": "2025-06-25 00:00:00",
@@ -4729,7 +4745,7 @@
       "value_date_01Offset": "2025-07-09 00:00:00"
     },
     {
-      "index": 40223,
+      "index": 40226,
       "schedule_keyOffset": "EventInfo_Rotation_Arena2",
       "schedule_type": 4,
       "start_dateOffset": "2025-07-16 00:00:00",
@@ -4737,7 +4753,7 @@
       "value_date_01Offset": "2025-07-23 00:00:00"
     },
     {
-      "index": 40224,
+      "index": 40227,
       "schedule_keyOffset": "EventInfo_Rotation_Labyrinth2",
       "schedule_type": 4,
       "start_dateOffset": "2025-07-30 00:00:00",
@@ -4745,7 +4761,7 @@
       "value_date_01Offset": "2025-08-06 00:00:00"
     },
     {
-      "index": 40225,
+      "index": 40228,
       "schedule_keyOffset": "EventInfo_Rotation_Champions2",
       "schedule_type": 4,
       "start_dateOffset": "2025-07-16 00:00:00",
@@ -4753,7 +4769,7 @@
       "value_date_01Offset": "2025-07-23 00:00:00"
     },
     {
-      "index": 40226,
+      "index": 40229,
       "schedule_keyOffset": "EventInfo_Rotation_DualGate2",
       "schedule_type": 4,
       "start_dateOffset": "2025-07-09 00:00:00",
@@ -4761,7 +4777,7 @@
       "value_date_01Offset": "2025-07-16 00:00:00"
     },
     {
-      "index": 40227,
+      "index": 40230,
       "schedule_keyOffset": "EventInfo_Rotation_AutoArbeit2",
       "schedule_type": 4,
       "start_dateOffset": "2025-07-23 00:00:00",
@@ -4876,16 +4892,16 @@
       "index": 50014,
       "schedule_keyOffset": "Gacha_507",
       "schedule_type": 5,
-      "start_dateOffset": "2024-08-29 01:00:00",
-      "end_dateOffset": "2024-09-05 00:00:00",
+      "start_dateOffset": "2025-06-19 00:00:00",
+      "end_dateOffset": "2025-06-26 00:00:00",
       "value_date_01Offset": ""
     },
     {
       "index": 50015,
       "schedule_keyOffset": "Gacha_508",
       "schedule_type": 5,
-      "start_dateOffset": "2024-09-02 01:00:00",
-      "end_dateOffset": "2024-09-09 00:00:00",
+      "start_dateOffset": "2025-06-19 00:00:00",
+      "end_dateOffset": "2025-06-26 00:00:00",
       "value_date_01Offset": ""
     },
     {
@@ -4996,8 +5012,8 @@
       "index": 50029,
       "schedule_keyOffset": "Gacha_522",
       "schedule_type": 5,
-      "start_dateOffset": "2024-09-12 01:00:00",
-      "end_dateOffset": "2024-09-19 00:00:00",
+      "start_dateOffset": "2025-06-26 00:00:00",
+      "end_dateOffset": "2025-07-03 00:00:00",
       "value_date_01Offset": ""
     },
     {
@@ -5100,8 +5116,8 @@
       "index": 50042,
       "schedule_keyOffset": "Gacha_535",
       "schedule_type": 5,
-      "start_dateOffset": "2024-09-07 01:00:00",
-      "end_dateOffset": "2024-09-14 00:00:00",
+      "start_dateOffset": "2025-06-26 00:00:00",
+      "end_dateOffset": "2025-07-03 00:00:00",
       "value_date_01Offset": ""
     },
     {
@@ -5410,6 +5426,14 @@
     },
     {
       "index": 50081,
+      "schedule_keyOffset": "Gacha_574",
+      "schedule_type": 5,
+      "start_dateOffset": "2025-06-19 00:00:00",
+      "end_dateOffset": "2025-07-10 00:00:00",
+      "value_date_01Offset": ""
+    },
+    {
+      "index": 50082,
       "schedule_keyOffset": "Gacha_801",
       "schedule_type": 5,
       "start_dateOffset": "2024-11-21 01:00:00",
@@ -5417,7 +5441,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50082,
+      "index": 50083,
       "schedule_keyOffset": "Gacha_802",
       "schedule_type": 5,
       "start_dateOffset": "2024-11-21 01:00:00",
@@ -5425,7 +5449,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50083,
+      "index": 50084,
       "schedule_keyOffset": "Gacha_901",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -5433,7 +5457,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50084,
+      "index": 50085,
       "schedule_keyOffset": "Gacha_902",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -5441,7 +5465,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50085,
+      "index": 50086,
       "schedule_keyOffset": "Gacha_930",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -5449,7 +5473,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50086,
+      "index": 50087,
       "schedule_keyOffset": "Gacha_931",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -5457,7 +5481,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50087,
+      "index": 50088,
       "schedule_keyOffset": "Gacha_932",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -5465,7 +5489,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50088,
+      "index": 50089,
       "schedule_keyOffset": "Gacha_1101",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -5473,7 +5497,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50089,
+      "index": 50090,
       "schedule_keyOffset": "Gacha_1201",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -5481,7 +5505,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50090,
+      "index": 50091,
       "schedule_keyOffset": "Gacha_5001",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5489,7 +5513,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50091,
+      "index": 50092,
       "schedule_keyOffset": "Gacha_5002",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5497,7 +5521,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50092,
+      "index": 50093,
       "schedule_keyOffset": "Gacha_5003",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5505,7 +5529,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50093,
+      "index": 50094,
       "schedule_keyOffset": "Gacha_5004",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5513,7 +5537,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50094,
+      "index": 50095,
       "schedule_keyOffset": "Gacha_5005",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5521,7 +5545,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50095,
+      "index": 50096,
       "schedule_keyOffset": "Gacha_5006",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5529,7 +5553,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50096,
+      "index": 50097,
       "schedule_keyOffset": "Gacha_5101",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5537,7 +5561,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50097,
+      "index": 50098,
       "schedule_keyOffset": "Gacha_5102",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5545,7 +5569,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50098,
+      "index": 50099,
       "schedule_keyOffset": "Gacha_5103",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5553,7 +5577,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50099,
+      "index": 50100,
       "schedule_keyOffset": "Gacha_5104",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5561,7 +5585,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50100,
+      "index": 50101,
       "schedule_keyOffset": "Gacha_5105",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5569,7 +5593,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50101,
+      "index": 50102,
       "schedule_keyOffset": "Gacha_5106",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5577,7 +5601,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50102,
+      "index": 50103,
       "schedule_keyOffset": "Gacha_5107",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5585,7 +5609,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50103,
+      "index": 50104,
       "schedule_keyOffset": "Gacha_5108",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5593,7 +5617,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50104,
+      "index": 50105,
       "schedule_keyOffset": "Gacha_5109",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5601,7 +5625,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50105,
+      "index": 50106,
       "schedule_keyOffset": "Gacha_5110",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5609,7 +5633,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50106,
+      "index": 50107,
       "schedule_keyOffset": "Gacha_5111",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5617,7 +5641,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50107,
+      "index": 50108,
       "schedule_keyOffset": "Gacha_5112",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5625,7 +5649,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50108,
+      "index": 50109,
       "schedule_keyOffset": "Gacha_5113",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5633,7 +5657,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50109,
+      "index": 50110,
       "schedule_keyOffset": "Gacha_5114",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5641,7 +5665,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50110,
+      "index": 50111,
       "schedule_keyOffset": "Gacha_5115",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5649,7 +5673,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50111,
+      "index": 50112,
       "schedule_keyOffset": "Gacha_5116",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5657,7 +5681,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50112,
+      "index": 50113,
       "schedule_keyOffset": "Gacha_5117",
       "schedule_type": 5,
       "start_dateOffset": "2999-12-31 01:00:00",
@@ -5665,7 +5689,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50113,
+      "index": 50114,
       "schedule_keyOffset": "Gacha_10001",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -5673,7 +5697,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50114,
+      "index": 50115,
       "schedule_keyOffset": "Gacha_15001",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -5681,7 +5705,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 50115,
+      "index": 50116,
       "schedule_keyOffset": "Gacha_20001",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -5796,16 +5820,16 @@
       "index": 55014,
       "schedule_keyOffset": "Gate_507",
       "schedule_type": 5,
-      "start_dateOffset": "2024-08-29 01:00:00",
-      "end_dateOffset": "2024-08-30 00:00:00",
+      "start_dateOffset": "2025-06-19 00:00:00",
+      "end_dateOffset": "2025-06-20 00:00:00",
       "value_date_01Offset": ""
     },
     {
       "index": 55015,
       "schedule_keyOffset": "Gate_508",
       "schedule_type": 5,
-      "start_dateOffset": "2024-09-02 01:00:00",
-      "end_dateOffset": "2024-09-03 00:00:00",
+      "start_dateOffset": "2025-06-19 00:00:00",
+      "end_dateOffset": "2025-06-20 00:00:00",
       "value_date_01Offset": ""
     },
     {
@@ -5916,8 +5940,8 @@
       "index": 55029,
       "schedule_keyOffset": "Gate_522",
       "schedule_type": 5,
-      "start_dateOffset": "2024-09-12 01:00:00",
-      "end_dateOffset": "2024-09-13 00:00:00",
+      "start_dateOffset": "2025-06-26 00:00:00",
+      "end_dateOffset": "2025-06-27 00:00:00",
       "value_date_01Offset": ""
     },
     {
@@ -6330,6 +6354,14 @@
     },
     {
       "index": 55081,
+      "schedule_keyOffset": "Gate_574",
+      "schedule_type": 5,
+      "start_dateOffset": "2025-06-19 00:00:00",
+      "end_dateOffset": "2025-06-20 00:00:00",
+      "value_date_01Offset": ""
+    },
+    {
+      "index": 55082,
       "schedule_keyOffset": "Gate_801",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6337,7 +6369,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55082,
+      "index": 55083,
       "schedule_keyOffset": "Gate_802",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6345,7 +6377,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55083,
+      "index": 55084,
       "schedule_keyOffset": "Gate_901",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6353,7 +6385,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55084,
+      "index": 55085,
       "schedule_keyOffset": "Gate_902",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6361,7 +6393,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55085,
+      "index": 55086,
       "schedule_keyOffset": "Gate_930",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6369,7 +6401,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55086,
+      "index": 55087,
       "schedule_keyOffset": "Gate_931",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6377,7 +6409,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55087,
+      "index": 55088,
       "schedule_keyOffset": "Gate_932",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6385,7 +6417,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55088,
+      "index": 55089,
       "schedule_keyOffset": "Gate_1101",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6393,7 +6425,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55089,
+      "index": 55090,
       "schedule_keyOffset": "Gate_1201",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6401,7 +6433,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55090,
+      "index": 55091,
       "schedule_keyOffset": "Gate_5001",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6409,7 +6441,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55091,
+      "index": 55092,
       "schedule_keyOffset": "Gate_5002",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6417,7 +6449,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55092,
+      "index": 55093,
       "schedule_keyOffset": "Gate_5003",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6425,7 +6457,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55093,
+      "index": 55094,
       "schedule_keyOffset": "Gate_5004",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6433,7 +6465,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55094,
+      "index": 55095,
       "schedule_keyOffset": "Gate_5005",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6441,7 +6473,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55095,
+      "index": 55096,
       "schedule_keyOffset": "Gate_5006",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6449,7 +6481,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55096,
+      "index": 55097,
       "schedule_keyOffset": "Gate_5101",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6457,7 +6489,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55097,
+      "index": 55098,
       "schedule_keyOffset": "Gate_5102",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6465,7 +6497,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55098,
+      "index": 55099,
       "schedule_keyOffset": "Gate_5103",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6473,7 +6505,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55099,
+      "index": 55100,
       "schedule_keyOffset": "Gate_5104",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6481,7 +6513,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55100,
+      "index": 55101,
       "schedule_keyOffset": "Gate_5105",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6489,7 +6521,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55101,
+      "index": 55102,
       "schedule_keyOffset": "Gate_5106",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6497,7 +6529,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55102,
+      "index": 55103,
       "schedule_keyOffset": "Gate_5107",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6505,7 +6537,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55103,
+      "index": 55104,
       "schedule_keyOffset": "Gate_5108",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6513,7 +6545,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55104,
+      "index": 55105,
       "schedule_keyOffset": "Gate_5109",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6521,7 +6553,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55105,
+      "index": 55106,
       "schedule_keyOffset": "Gate_5110",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6529,7 +6561,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55106,
+      "index": 55107,
       "schedule_keyOffset": "Gate_5111",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6537,7 +6569,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55107,
+      "index": 55108,
       "schedule_keyOffset": "Gate_5112",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6545,7 +6577,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55108,
+      "index": 55109,
       "schedule_keyOffset": "Gate_5113",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6553,7 +6585,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55109,
+      "index": 55110,
       "schedule_keyOffset": "Gate_5114",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6561,7 +6593,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55110,
+      "index": 55111,
       "schedule_keyOffset": "Gate_5115",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6569,7 +6601,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55111,
+      "index": 55112,
       "schedule_keyOffset": "Gate_5116",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6577,7 +6609,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55112,
+      "index": 55113,
       "schedule_keyOffset": "Gate_5117",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6585,7 +6617,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55113,
+      "index": 55114,
       "schedule_keyOffset": "Gate_10001",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6593,7 +6625,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55114,
+      "index": 55115,
       "schedule_keyOffset": "Gate_15001",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6601,7 +6633,7 @@
       "value_date_01Offset": ""
     },
     {
-      "index": 55115,
+      "index": 55116,
       "schedule_keyOffset": "Gate_20001",
       "schedule_type": 5,
       "start_dateOffset": "0",
@@ -6682,6 +6714,14 @@
     },
     {
       "index": 60010,
+      "schedule_keyOffset": "GuildRaid_1_43",
+      "schedule_type": 6,
+      "start_dateOffset": "2025-07-17 00:00:00",
+      "end_dateOffset": "2025-07-24 00:00:00",
+      "value_date_01Offset": "2025-08-07 00:00:00"
+    },
+    {
+      "index": 60011,
       "schedule_keyOffset": "GuildRaid_2_34",
       "schedule_type": 6,
       "start_dateOffset": "2025-01-09 01:00:00",
@@ -6689,7 +6729,7 @@
       "value_date_01Offset": "2025-01-30 00:00:00"
     },
     {
-      "index": 60011,
+      "index": 60012,
       "schedule_keyOffset": "GuildRaid_2_35",
       "schedule_type": 6,
       "start_dateOffset": "2025-01-30 00:00:00",
@@ -6697,7 +6737,7 @@
       "value_date_01Offset": "2025-02-20 00:00:00"
     },
     {
-      "index": 60012,
+      "index": 60013,
       "schedule_keyOffset": "GuildRaid_2_36",
       "schedule_type": 6,
       "start_dateOffset": "2025-02-20 00:00:00",
@@ -6705,7 +6745,7 @@
       "value_date_01Offset": "2025-03-13 00:00:00"
     },
     {
-      "index": 60013,
+      "index": 60014,
       "schedule_keyOffset": "GuildRaid_2_37",
       "schedule_type": 6,
       "start_dateOffset": "2025-03-13 00:00:00",
@@ -6713,7 +6753,7 @@
       "value_date_01Offset": "2025-04-03 00:00:00"
     },
     {
-      "index": 60014,
+      "index": 60015,
       "schedule_keyOffset": "GuildRaid_2_38",
       "schedule_type": 6,
       "start_dateOffset": "2025-04-03 00:00:00",
@@ -6721,7 +6761,7 @@
       "value_date_01Offset": "2025-04-24 00:00:00"
     },
     {
-      "index": 60015,
+      "index": 60016,
       "schedule_keyOffset": "GuildRaid_2_39",
       "schedule_type": 6,
       "start_dateOffset": "2025-04-24 00:00:00",
@@ -6729,7 +6769,7 @@
       "value_date_01Offset": "2025-05-15 00:00:00"
     },
     {
-      "index": 60016,
+      "index": 60017,
       "schedule_keyOffset": "GuildRaid_2_40",
       "schedule_type": 6,
       "start_dateOffset": "2025-05-15 00:00:00",
@@ -6737,7 +6777,7 @@
       "value_date_01Offset": "2025-06-05 00:00:00"
     },
     {
-      "index": 60017,
+      "index": 60018,
       "schedule_keyOffset": "GuildRaid_2_41",
       "schedule_type": 6,
       "start_dateOffset": "2025-06-05 00:00:00",
@@ -6745,7 +6785,7 @@
       "value_date_01Offset": "2025-06-26 00:00:00"
     },
     {
-      "index": 60018,
+      "index": 60019,
       "schedule_keyOffset": "GuildRaid_2_42",
       "schedule_type": 6,
       "start_dateOffset": "2025-06-26 00:00:00",
@@ -6753,7 +6793,15 @@
       "value_date_01Offset": "2025-07-17 00:00:00"
     },
     {
-      "index": 60019,
+      "index": 60020,
+      "schedule_keyOffset": "GuildRaid_2_43",
+      "schedule_type": 6,
+      "start_dateOffset": "2025-07-17 00:00:00",
+      "end_dateOffset": "2025-07-24 00:00:00",
+      "value_date_01Offset": "2025-08-07 00:00:00"
+    },
+    {
+      "index": 60021,
       "schedule_keyOffset": "GuildRaid_4_113",
       "schedule_type": 6,
       "start_dateOffset": "2025-01-24 00:00:00",
@@ -6761,7 +6809,7 @@
       "value_date_01Offset": "2025-02-21 00:00:00"
     },
     {
-      "index": 60020,
+      "index": 60022,
       "schedule_keyOffset": "GuildRaid_4_114",
       "schedule_type": 6,
       "start_dateOffset": "2025-02-21 00:00:00",
@@ -6769,7 +6817,7 @@
       "value_date_01Offset": "2025-03-07 00:00:00"
     },
     {
-      "index": 60021,
+      "index": 60023,
       "schedule_keyOffset": "GuildRaid_4_115",
       "schedule_type": 6,
       "start_dateOffset": "2025-03-07 00:00:00",
@@ -6777,7 +6825,7 @@
       "value_date_01Offset": "2025-03-28 00:00:00"
     },
     {
-      "index": 60022,
+      "index": 60024,
       "schedule_keyOffset": "GuildRaid_4_116",
       "schedule_type": 6,
       "start_dateOffset": "2025-03-28 00:00:00",
@@ -6785,7 +6833,7 @@
       "value_date_01Offset": "2025-04-19 00:00:00"
     },
     {
-      "index": 60023,
+      "index": 60025,
       "schedule_keyOffset": "GuildRaid_4_117",
       "schedule_type": 6,
       "start_dateOffset": "2025-04-19 00:00:00",
@@ -6793,15 +6841,23 @@
       "value_date_01Offset": "2025-05-15 00:00:00"
     },
     {
-      "index": 60024,
+      "index": 60026,
       "schedule_keyOffset": "GuildRaid_4_118",
       "schedule_type": 6,
       "start_dateOffset": "2025-05-15 00:00:00",
-      "end_dateOffset": "2025-06-12 00:00:00",
-      "value_date_01Offset": "2025-06-26 00:00:00"
+      "end_dateOffset": "2025-06-08 00:00:00",
+      "value_date_01Offset": "2025-06-09 00:00:00"
     },
     {
-      "index": 60025,
+      "index": 60027,
+      "schedule_keyOffset": "GuildRaid_4_119",
+      "schedule_type": 6,
+      "start_dateOffset": "2025-06-09 00:00:00",
+      "end_dateOffset": "2025-07-03 00:00:00",
+      "value_date_01Offset": "2025-07-17 00:00:00"
+    },
+    {
+      "index": 60028,
       "schedule_keyOffset": "GuildRaid_3_56",
       "schedule_type": 6,
       "start_dateOffset": "2025-01-24 00:00:00",
@@ -6809,7 +6865,7 @@
       "value_date_01Offset": "2025-02-21 00:00:00"
     },
     {
-      "index": 60026,
+      "index": 60029,
       "schedule_keyOffset": "GuildRaid_3_57",
       "schedule_type": 6,
       "start_dateOffset": "2025-02-21 00:00:00",
@@ -6817,7 +6873,7 @@
       "value_date_01Offset": "2025-03-07 00:00:00"
     },
     {
-      "index": 60027,
+      "index": 60030,
       "schedule_keyOffset": "GuildRaid_3_58",
       "schedule_type": 6,
       "start_dateOffset": "2025-03-07 00:00:00",
@@ -6825,7 +6881,7 @@
       "value_date_01Offset": "2025-03-28 00:00:00"
     },
     {
-      "index": 60028,
+      "index": 60031,
       "schedule_keyOffset": "GuildRaid_3_59",
       "schedule_type": 6,
       "start_dateOffset": "2025-03-28 00:00:00",
@@ -6833,7 +6889,7 @@
       "value_date_01Offset": "2025-04-19 00:00:00"
     },
     {
-      "index": 60029,
+      "index": 60032,
       "schedule_keyOffset": "GuildRaid_3_60",
       "schedule_type": 6,
       "start_dateOffset": "2025-04-19 00:00:00",
@@ -6841,20 +6897,28 @@
       "value_date_01Offset": "2025-05-15 00:00:00"
     },
     {
-      "index": 60030,
+      "index": 60033,
       "schedule_keyOffset": "GuildRaid_3_61",
       "schedule_type": 6,
       "start_dateOffset": "2025-05-15 00:00:00",
-      "end_dateOffset": "2025-06-12 00:00:00",
-      "value_date_01Offset": "2025-06-26 00:00:00"
+      "end_dateOffset": "2025-06-08 00:00:00",
+      "value_date_01Offset": "2025-06-09 00:00:00"
     },
     {
-      "index": 60031,
+      "index": 60034,
       "schedule_keyOffset": "GuildRaid_3_62",
       "schedule_type": 6,
-      "start_dateOffset": "2025-06-26 00:00:00",
+      "start_dateOffset": "2025-06-09 00:00:00",
       "end_dateOffset": "2025-07-03 00:00:00",
       "value_date_01Offset": "2025-07-17 00:00:00"
+    },
+    {
+      "index": 60035,
+      "schedule_keyOffset": "GuildRaid_3_63",
+      "schedule_type": 6,
+      "start_dateOffset": "2025-07-17 00:00:00",
+      "end_dateOffset": "2025-07-24 00:00:00",
+      "value_date_01Offset": "2025-08-07 00:00:00"
     },
     {
       "index": 70001,
@@ -6930,6 +6994,14 @@
     },
     {
       "index": 70010,
+      "schedule_keyOffset": "SingleRaid_1_39",
+      "schedule_type": 7,
+      "start_dateOffset": "2025-07-10 00:00:00",
+      "end_dateOffset": "2025-07-17 00:00:00",
+      "value_date_01Offset": "2025-07-31 00:00:00"
+    },
+    {
+      "index": 70011,
       "schedule_keyOffset": "SingleRaid_2_30",
       "schedule_type": 7,
       "start_dateOffset": "2025-01-02 01:00:00",
@@ -6937,7 +7009,7 @@
       "value_date_01Offset": "2025-01-23 00:00:00"
     },
     {
-      "index": 70011,
+      "index": 70012,
       "schedule_keyOffset": "SingleRaid_2_31",
       "schedule_type": 7,
       "start_dateOffset": "2025-01-23 00:00:00",
@@ -6945,7 +7017,7 @@
       "value_date_01Offset": "2025-02-13 00:00:00"
     },
     {
-      "index": 70012,
+      "index": 70013,
       "schedule_keyOffset": "SingleRaid_2_32",
       "schedule_type": 7,
       "start_dateOffset": "2025-02-13 00:00:00",
@@ -6953,7 +7025,7 @@
       "value_date_01Offset": "2025-03-06 00:00:00"
     },
     {
-      "index": 70013,
+      "index": 70014,
       "schedule_keyOffset": "SingleRaid_2_33",
       "schedule_type": 7,
       "start_dateOffset": "2025-03-06 00:00:00",
@@ -6961,7 +7033,7 @@
       "value_date_01Offset": "2025-03-27 00:00:00"
     },
     {
-      "index": 70014,
+      "index": 70015,
       "schedule_keyOffset": "SingleRaid_2_34",
       "schedule_type": 7,
       "start_dateOffset": "2025-03-27 00:00:00",
@@ -6969,7 +7041,7 @@
       "value_date_01Offset": "2025-04-17 00:00:00"
     },
     {
-      "index": 70015,
+      "index": 70016,
       "schedule_keyOffset": "SingleRaid_2_35",
       "schedule_type": 7,
       "start_dateOffset": "2025-04-17 00:00:00",
@@ -6977,7 +7049,7 @@
       "value_date_01Offset": "2025-05-08 00:00:00"
     },
     {
-      "index": 70016,
+      "index": 70017,
       "schedule_keyOffset": "SingleRaid_2_36",
       "schedule_type": 7,
       "start_dateOffset": "2025-05-08 00:00:00",
@@ -6985,7 +7057,7 @@
       "value_date_01Offset": "2025-05-29 00:00:00"
     },
     {
-      "index": 70017,
+      "index": 70018,
       "schedule_keyOffset": "SingleRaid_2_37",
       "schedule_type": 7,
       "start_dateOffset": "2025-05-29 00:00:00",
@@ -6993,7 +7065,7 @@
       "value_date_01Offset": "2025-06-19 00:00:00"
     },
     {
-      "index": 70018,
+      "index": 70019,
       "schedule_keyOffset": "SingleRaid_2_38",
       "schedule_type": 7,
       "start_dateOffset": "2025-06-19 00:00:00",
@@ -7001,7 +7073,15 @@
       "value_date_01Offset": "2025-07-10 00:00:00"
     },
     {
-      "index": 70019,
+      "index": 70020,
+      "schedule_keyOffset": "SingleRaid_2_39",
+      "schedule_type": 7,
+      "start_dateOffset": "2025-07-10 00:00:00",
+      "end_dateOffset": "2025-07-17 00:00:00",
+      "value_date_01Offset": "2025-07-31 00:00:00"
+    },
+    {
+      "index": 70021,
       "schedule_keyOffset": "SingleRaid_3_41",
       "schedule_type": 7,
       "start_dateOffset": "2024-12-19 00:00:00",
@@ -7009,7 +7089,7 @@
       "value_date_01Offset": "2025-01-07 00:00:00"
     },
     {
-      "index": 70020,
+      "index": 70022,
       "schedule_keyOffset": "SingleRaid_3_42",
       "schedule_type": 7,
       "start_dateOffset": "2025-01-07 00:00:00",
@@ -7017,7 +7097,7 @@
       "value_date_01Offset": "2025-01-24 00:00:00"
     },
     {
-      "index": 70021,
+      "index": 70023,
       "schedule_keyOffset": "SingleRaid_3_43",
       "schedule_type": 7,
       "start_dateOffset": "2025-01-24 00:00:00",
@@ -7025,7 +7105,7 @@
       "value_date_01Offset": "2025-02-21 00:00:00"
     },
     {
-      "index": 70022,
+      "index": 70024,
       "schedule_keyOffset": "SingleRaid_3_44",
       "schedule_type": 7,
       "start_dateOffset": "2025-02-21 00:00:00",
@@ -7033,7 +7113,7 @@
       "value_date_01Offset": "2025-03-07 00:00:00"
     },
     {
-      "index": 70023,
+      "index": 70025,
       "schedule_keyOffset": "SingleRaid_3_45",
       "schedule_type": 7,
       "start_dateOffset": "2025-03-07 00:00:00",
@@ -7041,7 +7121,7 @@
       "value_date_01Offset": "2025-03-28 00:00:00"
     },
     {
-      "index": 70024,
+      "index": 70026,
       "schedule_keyOffset": "SingleRaid_3_46",
       "schedule_type": 7,
       "start_dateOffset": "2025-03-28 00:00:00",
@@ -7049,7 +7129,7 @@
       "value_date_01Offset": "2025-04-19 00:00:00"
     },
     {
-      "index": 70025,
+      "index": 70027,
       "schedule_keyOffset": "SingleRaid_3_47",
       "schedule_type": 7,
       "start_dateOffset": "2025-04-19 00:00:00",
@@ -7057,23 +7137,31 @@
       "value_date_01Offset": "2025-05-16 00:00:00"
     },
     {
-      "index": 70026,
+      "index": 70028,
       "schedule_keyOffset": "SingleRaid_3_48",
       "schedule_type": 7,
       "start_dateOffset": "2025-05-16 00:00:00",
-      "end_dateOffset": "2025-06-05 00:00:00",
-      "value_date_01Offset": "2025-06-19 00:00:00"
+      "end_dateOffset": "2025-06-04 00:00:00",
+      "value_date_01Offset": "2025-06-05 00:00:00"
     },
     {
-      "index": 70027,
+      "index": 70029,
       "schedule_keyOffset": "SingleRaid_3_49",
       "schedule_type": 7,
-      "start_dateOffset": "2025-06-19 00:00:00",
+      "start_dateOffset": "2025-06-05 00:00:00",
       "end_dateOffset": "2025-06-26 00:00:00",
       "value_date_01Offset": "2025-07-10 00:00:00"
     },
     {
-      "index": 70028,
+      "index": 70030,
+      "schedule_keyOffset": "SingleRaid_3_50",
+      "schedule_type": 7,
+      "start_dateOffset": "2025-07-10 00:00:00",
+      "end_dateOffset": "2025-07-17 00:00:00",
+      "value_date_01Offset": "2025-07-31 00:00:00"
+    },
+    {
+      "index": 70031,
       "schedule_keyOffset": "SingleRaid_4_99",
       "schedule_type": 7,
       "start_dateOffset": "2024-11-22 00:00:00",
@@ -7081,7 +7169,7 @@
       "value_date_01Offset": "2024-12-19 00:00:00"
     },
     {
-      "index": 70029,
+      "index": 70032,
       "schedule_keyOffset": "SingleRaid_4_100",
       "schedule_type": 7,
       "start_dateOffset": "2024-12-19 00:00:00",
@@ -7089,7 +7177,7 @@
       "value_date_01Offset": "2025-01-07 00:00:00"
     },
     {
-      "index": 70030,
+      "index": 70033,
       "schedule_keyOffset": "SingleRaid_4_101",
       "schedule_type": 7,
       "start_dateOffset": "2025-01-07 00:00:00",
@@ -7097,7 +7185,7 @@
       "value_date_01Offset": "2025-01-24 00:00:00"
     },
     {
-      "index": 70031,
+      "index": 70034,
       "schedule_keyOffset": "SingleRaid_4_102",
       "schedule_type": 7,
       "start_dateOffset": "2025-01-24 00:00:00",
@@ -7105,7 +7193,7 @@
       "value_date_01Offset": "2025-02-21 00:00:00"
     },
     {
-      "index": 70032,
+      "index": 70035,
       "schedule_keyOffset": "SingleRaid_4_103",
       "schedule_type": 7,
       "start_dateOffset": "2025-02-21 00:00:00",
@@ -7113,7 +7201,7 @@
       "value_date_01Offset": "2025-03-07 00:00:00"
     },
     {
-      "index": 70033,
+      "index": 70036,
       "schedule_keyOffset": "SingleRaid_4_104",
       "schedule_type": 7,
       "start_dateOffset": "2025-03-07 00:00:00",
@@ -7121,7 +7209,7 @@
       "value_date_01Offset": "2025-03-28 00:00:00"
     },
     {
-      "index": 70034,
+      "index": 70037,
       "schedule_keyOffset": "SingleRaid_4_105",
       "schedule_type": 7,
       "start_dateOffset": "2025-03-28 00:00:00",
@@ -7129,7 +7217,7 @@
       "value_date_01Offset": "2025-04-19 00:00:00"
     },
     {
-      "index": 70035,
+      "index": 70038,
       "schedule_keyOffset": "SingleRaid_4_106",
       "schedule_type": 7,
       "start_dateOffset": "2025-04-19 00:00:00",
@@ -7137,12 +7225,20 @@
       "value_date_01Offset": "2025-05-16 00:00:00"
     },
     {
-      "index": 70036,
+      "index": 70039,
       "schedule_keyOffset": "SingleRaid_4_107",
       "schedule_type": 7,
       "start_dateOffset": "2025-05-16 00:00:00",
-      "end_dateOffset": "2025-06-05 00:00:00",
-      "value_date_01Offset": "2025-06-19 00:00:00"
+      "end_dateOffset": "2025-06-04 00:00:00",
+      "value_date_01Offset": "2025-06-05 00:00:00"
+    },
+    {
+      "index": 70040,
+      "schedule_keyOffset": "SingleRaid_4_108",
+      "schedule_type": 7,
+      "start_dateOffset": "2025-06-05 00:00:00",
+      "end_dateOffset": "2025-06-26 00:00:00",
+      "value_date_01Offset": "2025-07-10 00:00:00"
     },
     {
       "index": 80001,
@@ -7178,6 +7274,14 @@
     },
     {
       "index": 80005,
+      "schedule_keyOffset": "WorldRaid_1_20",
+      "schedule_type": 8,
+      "start_dateOffset": "2025-07-24 00:00:00",
+      "end_dateOffset": "2025-07-31 00:00:00",
+      "value_date_01Offset": "2025-08-14 00:00:00"
+    },
+    {
+      "index": 80006,
       "schedule_keyOffset": "WorldRaid_2_50016",
       "schedule_type": 8,
       "start_dateOffset": "2025-05-01 00:00:00",
@@ -7185,7 +7289,7 @@
       "value_date_01Offset": "2025-05-22 00:00:00"
     },
     {
-      "index": 80006,
+      "index": 80007,
       "schedule_keyOffset": "WorldRaid_2_50017",
       "schedule_type": 8,
       "start_dateOffset": "2025-05-22 00:00:00",
@@ -7193,7 +7297,7 @@
       "value_date_01Offset": "2025-06-12 00:00:00"
     },
     {
-      "index": 80007,
+      "index": 80008,
       "schedule_keyOffset": "WorldRaid_2_50018",
       "schedule_type": 8,
       "start_dateOffset": "2025-06-12 00:00:00",
@@ -7201,7 +7305,7 @@
       "value_date_01Offset": "2025-07-03 00:00:00"
     },
     {
-      "index": 80008,
+      "index": 80009,
       "schedule_keyOffset": "WorldRaid_2_50019",
       "schedule_type": 8,
       "start_dateOffset": "2025-07-03 00:00:00",
@@ -7209,52 +7313,52 @@
       "value_date_01Offset": "2025-07-24 00:00:00"
     },
     {
-      "index": 80009,
-      "schedule_keyOffset": "WorldRaid_3_90106",
-      "schedule_type": 8,
-      "start_dateOffset": "2025-03-28 00:00:00",
-      "end_dateOffset": "2025-04-18 00:00:00",
-      "value_date_01Offset": "2025-04-19 00:00:00"
-    },
-    {
       "index": 80010,
-      "schedule_keyOffset": "WorldRaid_3_90107",
+      "schedule_keyOffset": "WorldRaid_2_50020",
       "schedule_type": 8,
-      "start_dateOffset": "2025-04-19 00:00:00",
-      "end_dateOffset": "2025-05-14 00:00:00",
-      "value_date_01Offset": "2025-05-15 00:00:00"
+      "start_dateOffset": "2025-07-24 00:00:00",
+      "end_dateOffset": "2025-07-31 00:00:00",
+      "value_date_01Offset": "2025-08-14 00:00:00"
     },
     {
       "index": 80011,
       "schedule_keyOffset": "WorldRaid_3_90108",
       "schedule_type": 8,
       "start_dateOffset": "2025-05-15 00:00:00",
-      "end_dateOffset": "2025-06-19 00:00:00",
-      "value_date_01Offset": "2025-07-03 00:00:00"
+      "end_dateOffset": "2025-06-08 00:00:00",
+      "value_date_01Offset": "2025-06-09 00:00:00"
     },
     {
       "index": 80012,
       "schedule_keyOffset": "WorldRaid_3_90109",
       "schedule_type": 8,
-      "start_dateOffset": "2025-07-03 00:00:00",
+      "start_dateOffset": "2025-06-09 00:00:00",
       "end_dateOffset": "2025-07-10 00:00:00",
       "value_date_01Offset": "2025-07-24 00:00:00"
     },
     {
       "index": 80013,
-      "schedule_keyOffset": "WorldRaid_4_100015",
+      "schedule_keyOffset": "WorldRaid_3_90110",
       "schedule_type": 8,
-      "start_dateOffset": "2025-04-19 00:00:00",
-      "end_dateOffset": "2025-05-14 00:00:00",
-      "value_date_01Offset": "2025-05-15 00:00:00"
+      "start_dateOffset": "2025-07-24 00:00:00",
+      "end_dateOffset": "2025-07-31 00:00:00",
+      "value_date_01Offset": "2025-08-14 00:00:00"
     },
     {
       "index": 80014,
       "schedule_keyOffset": "WorldRaid_4_100016",
       "schedule_type": 8,
       "start_dateOffset": "2025-05-15 00:00:00",
-      "end_dateOffset": "2025-06-19 00:00:00",
-      "value_date_01Offset": "2025-07-03 00:00:00"
+      "end_dateOffset": "2025-06-08 00:00:00",
+      "value_date_01Offset": "2025-06-09 00:00:00"
+    },
+    {
+      "index": 80015,
+      "schedule_keyOffset": "WorldRaid_4_100017",
+      "schedule_type": 8,
+      "start_dateOffset": "2025-06-09 00:00:00",
+      "end_dateOffset": "2025-07-10 00:00:00",
+      "value_date_01Offset": "2025-07-24 00:00:00"
     },
     {
       "index": 90001,
@@ -7446,6 +7550,102 @@
       "schedule_type": 9,
       "start_dateOffset": "2025-05-30 00:00:00",
       "end_dateOffset": "2025-06-19 00:00:00",
+      "value_date_01Offset": ""
+    },
+    {
+      "index": 90025,
+      "schedule_keyOffset": "GS_1_0003_P",
+      "schedule_type": 9,
+      "start_dateOffset": "2025-06-19 00:00:00",
+      "end_dateOffset": "2025-06-26 00:00:00",
+      "value_date_01Offset": ""
+    },
+    {
+      "index": 90026,
+      "schedule_keyOffset": "GS_1_0003_C",
+      "schedule_type": 9,
+      "start_dateOffset": "2025-06-26 00:00:00",
+      "end_dateOffset": "2025-06-27 00:00:00",
+      "value_date_01Offset": ""
+    },
+    {
+      "index": 90027,
+      "schedule_keyOffset": "GS_1_0003_R",
+      "schedule_type": 9,
+      "start_dateOffset": "2025-06-27 00:00:00",
+      "end_dateOffset": "2025-07-17 00:00:00",
+      "value_date_01Offset": ""
+    },
+    {
+      "index": 90028,
+      "schedule_keyOffset": "GS_2_0003_P",
+      "schedule_type": 9,
+      "start_dateOffset": "2025-06-19 00:00:00",
+      "end_dateOffset": "2025-06-26 00:00:00",
+      "value_date_01Offset": ""
+    },
+    {
+      "index": 90029,
+      "schedule_keyOffset": "GS_2_0003_C",
+      "schedule_type": 9,
+      "start_dateOffset": "2025-06-26 00:00:00",
+      "end_dateOffset": "2025-06-27 00:00:00",
+      "value_date_01Offset": ""
+    },
+    {
+      "index": 90030,
+      "schedule_keyOffset": "GS_2_0003_R",
+      "schedule_type": 9,
+      "start_dateOffset": "2025-06-27 00:00:00",
+      "end_dateOffset": "2025-07-17 00:00:00",
+      "value_date_01Offset": ""
+    },
+    {
+      "index": 90031,
+      "schedule_keyOffset": "GS_3_0003_P",
+      "schedule_type": 9,
+      "start_dateOffset": "2025-06-19 00:00:00",
+      "end_dateOffset": "2025-06-26 00:00:00",
+      "value_date_01Offset": ""
+    },
+    {
+      "index": 90032,
+      "schedule_keyOffset": "GS_3_0003_C",
+      "schedule_type": 9,
+      "start_dateOffset": "2025-06-26 00:00:00",
+      "end_dateOffset": "2025-06-27 00:00:00",
+      "value_date_01Offset": ""
+    },
+    {
+      "index": 90033,
+      "schedule_keyOffset": "GS_3_0003_R",
+      "schedule_type": 9,
+      "start_dateOffset": "2025-06-27 00:00:00",
+      "end_dateOffset": "2025-07-17 00:00:00",
+      "value_date_01Offset": ""
+    },
+    {
+      "index": 90034,
+      "schedule_keyOffset": "GS_4_0003_P",
+      "schedule_type": 9,
+      "start_dateOffset": "2025-06-19 00:00:00",
+      "end_dateOffset": "2025-06-26 00:00:00",
+      "value_date_01Offset": ""
+    },
+    {
+      "index": 90035,
+      "schedule_keyOffset": "GS_4_0003_C",
+      "schedule_type": 9,
+      "start_dateOffset": "2025-06-26 00:00:00",
+      "end_dateOffset": "2025-06-27 00:00:00",
+      "value_date_01Offset": ""
+    },
+    {
+      "index": 90036,
+      "schedule_keyOffset": "GS_4_0003_R",
+      "schedule_type": 9,
+      "start_dateOffset": "2025-06-27 00:00:00",
+      "end_dateOffset": "2025-07-17 00:00:00",
       "value_date_01Offset": ""
     }
   ]

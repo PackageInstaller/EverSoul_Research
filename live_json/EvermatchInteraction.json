@@ -2339,6 +2339,396 @@
       "voiceOffset": "Weiss_Laugh",
       "animationOffset": "Proud",
       "emotionOffset": "Laugh"
+    },
+    {
+      "no": 361,
+      "actor_no": 3010,
+      "voiceOffset": "Erika_Call",
+      "animationOffset": "Smile",
+      "emotionOffset": "Smile"
+    },
+    {
+      "no": 362,
+      "actor_no": 3010,
+      "action_type": 1,
+      "voiceOffset": "Erika_Surprise",
+      "animationOffset": "Crazy",
+      "emotionOffset": "Oh"
+    },
+    {
+      "no": 363,
+      "actor_no": 3010,
+      "action_type": 2,
+      "voiceOffset": "Erika_Laugh",
+      "animationOffset": "Shy",
+      "emotionOffset": "Laugh"
+    },
+    {
+      "no": 364,
+      "actor_no": 3010,
+      "action_type": 3,
+      "voiceOffset": "Erika_Surprise02",
+      "animationOffset": "Surprise",
+      "emotionOffset": "Surprise"
+    },
+    {
+      "no": 365,
+      "actor_no": 3010,
+      "action_type": 4,
+      "voiceOffset": "Erika_Burst",
+      "animationOffset": "Happy",
+      "emotionOffset": "Crazy"
+    },
+    {
+      "no": 366,
+      "actor_no": 1140,
+      "voiceOffset": "Eileen_Phrase02",
+      "animationOffset": "Idle",
+      "emotionOffset": "Normal"
+    },
+    {
+      "no": 367,
+      "actor_no": 1140,
+      "action_type": 1,
+      "voiceOffset": "Eileen_Positive01",
+      "animationOffset": "Angry",
+      "emotionOffset": "Wink"
+    },
+    {
+      "no": 368,
+      "actor_no": 1140,
+      "action_type": 2,
+      "voiceOffset": "Eileen_Chuckle",
+      "animationOffset": "Happy",
+      "emotionOffset": "Surprise"
+    },
+    {
+      "no": 369,
+      "actor_no": 1140,
+      "action_type": 3,
+      "voiceOffset": "Eileen_Positive02",
+      "animationOffset": "Shy",
+      "emotionOffset": "Smile"
+    },
+    {
+      "no": 370,
+      "actor_no": 1140,
+      "action_type": 4,
+      "voiceOffset": "Eileen_Laugh",
+      "animationOffset": "Surprise",
+      "emotionOffset": "Smile2"
+    },
+    {
+      "no": 371,
+      "actor_no": 4070,
+      "voiceOffset": "Jacqueline_Manage01",
+      "animationOffset": "Idle",
+      "emotionOffset": "Normal"
+    },
+    {
+      "no": 372,
+      "actor_no": 4070,
+      "action_type": 1,
+      "voiceOffset": "Jacqueline_Positive01",
+      "animationOffset": "Nod",
+      "emotionOffset": "Normal"
+    },
+    {
+      "no": 373,
+      "actor_no": 4070,
+      "action_type": 2,
+      "voiceOffset": "Jacqueline_Chuckle",
+      "animationOffset": "Question",
+      "emotionOffset": "Smile"
+    },
+    {
+      "no": 374,
+      "actor_no": 4070,
+      "action_type": 3,
+      "voiceOffset": "Jacqueline_Amazed",
+      "animationOffset": "Sorrow",
+      "emotionOffset": "Oh"
+    },
+    {
+      "no": 375,
+      "actor_no": 4070,
+      "action_type": 4,
+      "voiceOffset": "Jacqueline_Burst",
+      "animationOffset": "Idle",
+      "emotionOffset": "Melody"
+    },
+    {
+      "no": 376,
+      "actor_no": 1150,
+      "voiceOffset": "RoseCrimson_Manage02",
+      "animationOffset": "Nod",
+      "emotionOffset": "Normal"
+    },
+    {
+      "no": 377,
+      "actor_no": 1150,
+      "action_type": 1,
+      "voiceOffset": "RoseCrimson_Laugh",
+      "animationOffset": "Serious",
+      "emotionOffset": "Happy"
+    },
+    {
+      "no": 378,
+      "actor_no": 1150,
+      "action_type": 2,
+      "voiceOffset": "RoseCrimson_Burst",
+      "animationOffset": "Shy",
+      "emotionOffset": "Smile"
+    },
+    {
+      "no": 379,
+      "actor_no": 1150,
+      "action_type": 3,
+      "voiceOffset": "RoseCrimson_Surprise02",
+      "animationOffset": "Surprise",
+      "emotionOffset": "Surprise"
+    },
+    {
+      "no": 380,
+      "actor_no": 1150,
+      "action_type": 4,
+      "voiceOffset": "RoseCrimson_Amazed",
+      "animationOffset": "Happy",
+      "emotionOffset": "Happy"
+    },
+    {
+      "no": 381,
+      "actor_no": 6510,
+      "voiceOffset": "CatherineBrave_Plead",
+      "animationOffset": "Greeting",
+      "emotionOffset": "Normal"
+    },
+    {
+      "no": 382,
+      "actor_no": 6510,
+      "action_type": 1,
+      "voiceOffset": "CatherineBrave_Surprise",
+      "animationOffset": "Idle",
+      "emotionOffset": "Happy"
+    },
+    {
+      "no": 383,
+      "actor_no": 6510,
+      "action_type": 2,
+      "voiceOffset": "CatherineBrave_Positive02",
+      "animationOffset": "Idle",
+      "emotionOffset": "Happy"
+    },
+    {
+      "no": 384,
+      "actor_no": 6510,
+      "action_type": 3,
+      "voiceOffset": "CatherineBrave_Chuckle",
+      "animationOffset": "Happy",
+      "emotionOffset": "Smile"
+    },
+    {
+      "no": 385,
+      "actor_no": 6510,
+      "action_type": 4,
+      "voiceOffset": "CatherineBrave_Laugh",
+      "animationOffset": "Happy",
+      "emotionOffset": "Smile2"
+    },
+    {
+      "no": 386,
+      "actor_no": 4100,
+      "voiceOffset": "Petra_Question",
+      "animationOffset": "Idle",
+      "emotionOffset": "Normal"
+    },
+    {
+      "no": 387,
+      "actor_no": 4100,
+      "action_type": 1,
+      "voiceOffset": "Petra_Think01",
+      "animationOffset": "Shy",
+      "emotionOffset": "Smile"
+    },
+    {
+      "no": 388,
+      "actor_no": 4100,
+      "action_type": 2,
+      "voiceOffset": "Petra_Positive01",
+      "animationOffset": "Surprise",
+      "emotionOffset": "Surprise"
+    },
+    {
+      "no": 389,
+      "actor_no": 4100,
+      "action_type": 3,
+      "voiceOffset": "Petra_Surprise",
+      "animationOffset": "Angry",
+      "emotionOffset": "Oh"
+    },
+    {
+      "no": 390,
+      "actor_no": 4100,
+      "action_type": 4,
+      "voiceOffset": "Petra_Amazed",
+      "animationOffset": "Crazy",
+      "emotionOffset": "Smile"
+    },
+    {
+      "no": 391,
+      "actor_no": 6020,
+      "voiceOffset": "Lizelotte_Call",
+      "animationOffset": "Shy",
+      "emotionOffset": "Normal"
+    },
+    {
+      "no": 392,
+      "actor_no": 6020,
+      "action_type": 1,
+      "voiceOffset": "Lizelotte_Question",
+      "animationOffset": "Idle",
+      "emotionOffset": "Oh"
+    },
+    {
+      "no": 393,
+      "actor_no": 6020,
+      "action_type": 2,
+      "voiceOffset": "Lizelotte_Amazed",
+      "animationOffset": "Idle",
+      "emotionOffset": "Surprise"
+    },
+    {
+      "no": 394,
+      "actor_no": 6020,
+      "action_type": 3,
+      "voiceOffset": "Lizelotte_Surprise",
+      "animationOffset": "Surprise",
+      "emotionOffset": "Surprise"
+    },
+    {
+      "no": 395,
+      "actor_no": 6020,
+      "action_type": 4,
+      "voiceOffset": "Lizelotte_Chuckle",
+      "animationOffset": "Shy",
+      "emotionOffset": "Smile"
+    },
+    {
+      "no": 396,
+      "actor_no": 4110,
+      "voiceOffset": "Nini_Positive01",
+      "animationOffset": "Idle",
+      "emotionOffset": "Smile"
+    },
+    {
+      "no": 397,
+      "actor_no": 4110,
+      "action_type": 1,
+      "voiceOffset": "Nini_Chuckle",
+      "animationOffset": "Happy",
+      "emotionOffset": "Shy"
+    },
+    {
+      "no": 398,
+      "actor_no": 4110,
+      "action_type": 2,
+      "voiceOffset": "Nini_Positive02",
+      "animationOffset": "Angry",
+      "emotionOffset": "Wicked"
+    },
+    {
+      "no": 399,
+      "actor_no": 4110,
+      "action_type": 3,
+      "voiceOffset": "Nini_Laugh",
+      "animationOffset": "Shy",
+      "emotionOffset": "Proud2"
+    },
+    {
+      "no": 400,
+      "actor_no": 4110,
+      "action_type": 4,
+      "voiceOffset": "Nini_Humming",
+      "animationOffset": "Mock",
+      "emotionOffset": "Mock"
+    },
+    {
+      "no": 401,
+      "actor_no": 6520,
+      "voiceOffset": "LinzyThanatos_Phrase01",
+      "animationOffset": "Idle",
+      "emotionOffset": "Normal"
+    },
+    {
+      "no": 402,
+      "actor_no": 6520,
+      "action_type": 1,
+      "voiceOffset": "LinzyThanatos_Amazed",
+      "animationOffset": "Angry",
+      "emotionOffset": "Oh"
+    },
+    {
+      "no": 403,
+      "actor_no": 6520,
+      "action_type": 2,
+      "voiceOffset": "LinzyThanatos_Chuckle",
+      "animationOffset": "Serious",
+      "emotionOffset": "Smile"
+    },
+    {
+      "no": 404,
+      "actor_no": 6520,
+      "action_type": 3,
+      "voiceOffset": "LinzyThanatos_Positive01",
+      "animationOffset": "Shy",
+      "emotionOffset": "Calm"
+    },
+    {
+      "no": 405,
+      "actor_no": 6520,
+      "action_type": 4,
+      "voiceOffset": "LinzyThanatos_Laugh",
+      "animationOffset": "Idle",
+      "emotionOffset": "Happy"
+    },
+    {
+      "no": 406,
+      "actor_no": 6530,
+      "voiceOffset": "MephistoDawn_Manage02",
+      "animationOffset": "Idle",
+      "emotionOffset": "Smile"
+    },
+    {
+      "no": 407,
+      "actor_no": 6530,
+      "action_type": 1,
+      "voiceOffset": "MephistoDawn_Chuckle",
+      "animationOffset": "Sorrow",
+      "emotionOffset": "Smile2"
+    },
+    {
+      "no": 408,
+      "actor_no": 6530,
+      "action_type": 2,
+      "voiceOffset": "MephistoDawn_Surprise",
+      "animationOffset": "Surprise",
+      "emotionOffset": "Sparkle"
+    },
+    {
+      "no": 409,
+      "actor_no": 6530,
+      "action_type": 3,
+      "voiceOffset": "MephistoDawn_Amazed",
+      "animationOffset": "Serious",
+      "emotionOffset": "Happy"
+    },
+    {
+      "no": 410,
+      "actor_no": 6530,
+      "action_type": 4,
+      "voiceOffset": "MephistoDawn_Laugh",
+      "animationOffset": "Proud",
+      "emotionOffset": "Smile2"
     }
   ]
 }

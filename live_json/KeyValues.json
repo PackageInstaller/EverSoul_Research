@@ -806,6 +806,11 @@
       "type": 2
     },
     {
+      "key_nameOffset": "EVENT_DEFENSE_BOSS_DAMEGE_SCORE",
+      "values_dataOffset": "10",
+      "type": 1
+    },
+    {
       "key_nameOffset": "EVENT_DEFENSE_HELPER_LIMIT",
       "values_dataOffset": "20",
       "type": 1
@@ -829,6 +834,11 @@
       "key_nameOffset": "EVENT_DEFENSE_HIDDEN_HELPER_PROB",
       "values_dataOffset": "10000",
       "type": 1
+    },
+    {
+      "key_nameOffset": "EVENT_DEFENSE_ITEM_DELETE_BLINK",
+      "values_dataOffset": "[2, 0.25]",
+      "type": 2
     },
     {
       "key_nameOffset": "EVENT_DEFENSE_KILL_TRANSFORMATION_POINT",

@@ -2657,6 +2657,14 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 213379,
+      "krOffset": "정령의 기억: 하루(카무이)",
+      "enOffset": "Soul's Memory: Haru (Kamuy)",
+      "jaOffset": "",
+      "zh_twOffset": "精靈的記憶：河路（神威）",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 213380,
       "krOffset": "정령의 기억: 르네(백은)",
       "enOffset": "Soul's Memory: Renee (Argent)",
@@ -3598,6 +3606,38 @@
       "enOffset": "Artifact Memory Selection Chest (1-Year)",
       "jaOffset": "遺物の記憶選択箱 (1周年)",
       "zh_twOffset": "遺物的記憶選擇箱子（1週年）",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 214188,
+      "krOffset": "세트 예장함 (오리진)",
+      "enOffset": "Set Keepsake Chest (Origin)",
+      "jaOffset": "",
+      "zh_twOffset": "組合禮品箱（不朽）",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 214189,
+      "krOffset": "에픽 정령 선택 상자 (2.5주년)",
+      "enOffset": "Epic Soul Selection Chest (2.5-Year)",
+      "jaOffset": "",
+      "zh_twOffset": "史詩精靈選擇箱子（2.5週年）",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 214190,
+      "krOffset": "스페셜 에픽 정령 선택 상자 (2.5주년)",
+      "enOffset": "Special Epic Soul Selection Chest (2.5-Year)",
+      "jaOffset": "",
+      "zh_twOffset": "特別史詩精靈選擇箱子（2.5週年）",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 214191,
+      "krOffset": "유물의 기억 선택 상자 (2.5주년)",
+      "enOffset": "Artifact Memory Selection Chest (2.5-Year)",
+      "jaOffset": "",
+      "zh_twOffset": "遺物的記憶選擇箱子（2.5週年）",
       "zh_cnOffset": ""
     },
     {
@@ -5585,6 +5625,38 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 216167,
+      "krOffset": "스티커: 솔레이\r\n(레전더리)",
+      "enOffset": "Sticker: Solrey\r\n(Legendary)",
+      "jaOffset": "ステッカー：ソレイ\r\n(レジェンダリー)",
+      "zh_twOffset": "貼紙：蘇萊伊\r\n（傳說）",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 216168,
+      "krOffset": "스티커: 솔레이\r\n(레전더리 3위)",
+      "enOffset": "Sticker: Solrey\r\n(Legendary #3)",
+      "jaOffset": "ステッカー：ソレイ\r\n(レジェンダリー3位)",
+      "zh_twOffset": "貼紙：蘇萊伊\r\n（傳說第3名）",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 216169,
+      "krOffset": "스티커: 솔레이\r\n(레전더리 2위)",
+      "enOffset": "Sticker: Solrey\r\n(Legendary #2)",
+      "jaOffset": "ステッカー：ソレイ\r\n(レジェンダリー2位)",
+      "zh_twOffset": "貼紙：蘇萊伊\r\n（傳說第2名）",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 216170,
+      "krOffset": "스티커: 솔레이\r\n(레전더리 1위)",
+      "enOffset": "Sticker: Solrey\r\n(Legendary #1)",
+      "jaOffset": "ステッカー：ソレイ\r\n(レジェンダリー1位)",
+      "zh_twOffset": "貼紙：蘇萊伊\r\n（傳說第1名）",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 216201,
       "krOffset": "스티커: 엘나스",
       "enOffset": "Sticker: Elnath",
@@ -5846,6 +5918,14 @@
       "enOffset": "Sticker: Sea of Stars",
       "jaOffset": "",
       "zh_twOffset": "貼紙：星海",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 216234,
+      "krOffset": "스티커: 하늘뱃길",
+      "enOffset": "Sticker: Sky Fareway",
+      "jaOffset": "",
+      "zh_twOffset": "貼紙：空中航道",
       "zh_cnOffset": ""
     },
     {
@@ -6446,6 +6526,14 @@
       "enOffset": "Sticker: Token of Origin - Laura",
       "jaOffset": "ステッカー：起源の証-ラウラ",
       "zh_twOffset": "貼紙：起源的信物－蘿拉",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 216813,
+      "krOffset": "스티커: 기원의 증표 - 하루(카무이)",
+      "enOffset": "Sticker: Token of Origin - Haru (Kamuy)",
+      "jaOffset": "ステッカー：起源の証-ハル(カムイ)",
+      "zh_twOffset": "貼紙：起源的信物－河路（神威）",
       "zh_cnOffset": ""
     },
     {
@@ -8062,6 +8150,46 @@
       "enOffset": "5 Minutes to Fur-mageddon Raid Ticket",
       "jaOffset": "",
       "zh_twOffset": "狗亂前五分鐘突襲入場券",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 218155,
+      "krOffset": "집게발 코인",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 218156,
+      "krOffset": "사쿠요의 칭찬 도장",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 218157,
+      "krOffset": "구원자의 칭찬 도장",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 218158,
+      "krOffset": "물 뜨라 부르는 소리 있도다 레이드 입장권",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 218159,
+      "krOffset": "디모니크와 광기의 숲 미니 게임 입장권",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
@@ -10745,6 +10873,14 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 223379,
+      "krOffset": "파편 60개 수집시 에픽 정령 하루(카무이) 소환 가능",
+      "enOffset": "Collect 60 fragments to summon Epic Soul Haru (Kamuy).",
+      "jaOffset": "",
+      "zh_twOffset": "收集60塊碎片時，即可召喚史詩精靈河路（神威）",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 223380,
       "krOffset": "파편 60개 수집시 에픽 정령 르네(백은) 소환 가능",
       "enOffset": "Collect 60 fragments to summon Epic Soul Renee (Argent).",
@@ -11686,6 +11822,38 @@
       "enOffset": "A chest from which you can choose the Artifact Memory of any Soul released up to Yuria.",
       "jaOffset": "リリース～ユリアまでの精霊の遺物の記憶の中から選択できる箱",
       "zh_twOffset": "可在上市～尤里婭的所有精靈遺物記憶中選擇的箱子。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 224188,
+      "krOffset": "오리진 세트 예장을 획득할 수 있는 상자.\r\n오리진 세트 예장중 1개를 랜덤으로 획득한다.",
+      "enOffset": "A chest containing an Origin Set Keepsake.\r\nOffers 1 random Origin Set Keepsake.",
+      "jaOffset": "",
+      "zh_twOffset": "可獲得不朽禮品組合的箱子。\r\n隨機獲得1個不朽禮品組合。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 224189,
+      "krOffset": "런칭~홍란(무쌍)까지 출시 된 정령 중 천사형, 악마형, 혼돈형을 제외한 모든 정령의 정령의 기억 중 선택 가능한 상자.",
+      "enOffset": "A chest from which you can choose the Soul's Memory of any Soul released up to Honglan (Peerless), excluding Angel, Demon, and Chaotic Souls.",
+      "jaOffset": "",
+      "zh_twOffset": "除天使型、惡魔型、混沌型以外，可在上市～紅蘭（無雙）的所有精靈記憶中選擇的箱子。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 224190,
+      "krOffset": "런칭~한울까지 출시 된 정령 중 혼돈형을 제외한 모든 정령의 정령의 기억 중 선택 가능한 상자.",
+      "enOffset": "A chest from which you can choose the Soul's Memory of any Soul released up to Hanul, excluding Chaotic Souls.",
+      "jaOffset": "",
+      "zh_twOffset": "除混沌型以外，可在上市～韓羽的所有精靈記憶中選擇的箱子。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 224191,
+      "krOffset": "런칭~한울까지 출시 된 모든 정령의 유물의 기억 중 선택 가능한 상자.",
+      "enOffset": "A chest from which you can choose the Artifact Memory of any Soul released up to Hanul.",
+      "jaOffset": "",
+      "zh_twOffset": "可在上市～韓羽的所有精靈遺物記憶中選擇的箱子。",
       "zh_cnOffset": ""
     },
     {
@@ -13689,6 +13857,38 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 226167,
+      "krOffset": "에덴 연합 작전: 솔레이 편에서 레전더리 티어 달성 시 획득 가능한 스티커.",
+      "enOffset": "A sticker that can be obtained upon reaching Legendary tier in [Operation Eden Alliance] Solrey.",
+      "jaOffset": "エデン連合作戦：ソレイ編でレジェンダリーティアを達成すると獲得できるステッカー",
+      "zh_twOffset": "在伊甸園聯合作戰：蘇萊伊篇達成傳說段位可獲得的貼紙。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 226168,
+      "krOffset": "에덴 연합 작전: 솔레이 편에서 레전더리 티어 3위 달성 시 획득 가능한 스티커.",
+      "enOffset": "A sticker that can be obtained upon reaching third place in Legendary tier in [Operation Eden Alliance] Solrey.",
+      "jaOffset": "エデン連合作戦：ソレイ編でレジェンダリーティアの3位を達成すると獲得できるステッカー",
+      "zh_twOffset": "在伊甸園聯合作戰：蘇萊伊篇達成傳說段位第3名可獲得的貼紙。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 226169,
+      "krOffset": "에덴 연합 작전: 솔레이 편에서 레전더리 티어 2위 달성 시 획득 가능한 스티커.",
+      "enOffset": "A sticker that can be obtained upon reaching second place in Legendary tier in [Operation Eden Alliance] Solrey.",
+      "jaOffset": "エデン連合作戦：ソレイ編でレジェンダリーティアの2位を達成すると獲得できるステッカー",
+      "zh_twOffset": "在伊甸園聯合作戰：蘇萊伊篇達成傳說段位第2名可獲得的貼紙。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 226170,
+      "krOffset": "에덴 연합 작전: 솔레이 편에서 레전더리 티어 1위 달성 시 획득 가능한 스티커.",
+      "enOffset": "A sticker that can be obtained upon reaching first place in Legendary tier in [Operation Eden Alliance] Solrey.",
+      "jaOffset": "エデン連合作戦：ソレイ編でレジェンダリーティアの1位を達成すると獲得できるステッカー",
+      "zh_twOffset": "在伊甸園聯合作戰：蘇萊伊篇達成傳說段位第1名可獲得的貼紙。",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 226201,
       "krOffset": "엘나스 지역 점령 시 획득 가능한 스티커.",
       "enOffset": "A sticker that can be obtained when occupying Elnath.",
@@ -13950,6 +14150,14 @@
       "enOffset": "A sticker that can be obtained upon occupying the Sea of Stars.",
       "jaOffset": "",
       "zh_twOffset": "佔領星海時可獲得的貼紙。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 226234,
+      "krOffset": "하를뱃길 점령 시 획득 가능한 스티커.",
+      "enOffset": "A sticker that can be obtained upon occupying the Sky Fareway.",
+      "jaOffset": "",
+      "zh_twOffset": "佔領空中航道時可獲得的貼紙。",
       "zh_cnOffset": ""
     },
     {
@@ -14553,6 +14761,14 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 226813,
+      "krOffset": "하루(카무이) 승급 패스 오리진 달성 무료 보상으로 획득 가능한 스티커. \r\n\r\n\"나, 난 구원자가 없으면 안 되는 거… 아, 알지?\"",
+      "enOffset": "A sticker that can be obtained as a free reward for reaching Origin on Haru (Kamuy) Ascension Pass.\r\n\r\n\"You do know I can't live without you, right?\"",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）升階通行證不朽可免費獲得的貼紙獎勵。 \r\n\r\n「我、我沒有救援者就不行…你、你知道的吧？」",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 226901,
       "krOffset": "인피니티 보스 레이드(썰매왕 슬레이봅) 최종 1위 달성 시 획득 가능한 스티커.",
       "enOffset": "A sticker that can be obtained upon finishing an Infinity Boss Raid (Sled King Sleighbob) in first place.",
@@ -15059,7 +15275,7 @@
     {
       "no": 226964,
       "krOffset": "인피니티 보스 챌린지(폭주한 실베스터 조이 3세) 최종 1위 달성 시 획득 가능한 스티커.",
-      "enOffset": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rampaging King Sylvester Joey III) in first place.",
+      "enOffset": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rampaging King Sylvester Joey III) event in first place.",
       "jaOffset": "インフィニティボスチャレンジ(暴走したシルベスタージョイ3世)で最終順位1位を達成すると獲得できるステッカー",
       "zh_twOffset": "達成無限BOSS挑戰（暴走的席爾維斯特喬伊三世）最終第1名時獲得的貼紙",
       "zh_cnOffset": ""
@@ -15067,7 +15283,7 @@
     {
       "no": 226965,
       "krOffset": "인피니티 보스 챌린지(폭주한 실베스터 조이 3세) 최종 2위 달성 시 획득 가능한 스티커.",
-      "enOffset": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rampaging King Sylvester Joey III) in second place.",
+      "enOffset": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rampaging King Sylvester Joey III) event in second place.",
       "jaOffset": "インフィニティボスチャレンジ(暴走したシルベスタージョイ3世)で最終順位2位を達成すると獲得できるステッカー",
       "zh_twOffset": "達成無限BOSS挑戰（暴走的席爾維斯特喬伊三世）最終第2名時獲得的貼紙",
       "zh_cnOffset": ""
@@ -15075,7 +15291,7 @@
     {
       "no": 226966,
       "krOffset": "인피니티 보스 챌린지(폭주한 실베스터 조이 3세) 최종 3위 달성 시 획득 가능한 스티커.",
-      "enOffset": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rampaging King Sylvester Joey III) in third place.",
+      "enOffset": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rampaging King Sylvester Joey III) event in third place.",
       "jaOffset": "インフィニティボスチャレンジ(暴走したシルベスタージョイ3世)で最終順位3位を達成すると獲得できるステッカー",
       "zh_twOffset": "達成無限BOSS挑戰（暴走的席爾維斯特喬伊三世）最終第3名時獲得的貼紙",
       "zh_cnOffset": ""
@@ -15083,7 +15299,7 @@
     {
       "no": 226967,
       "krOffset": "인피니티 보스 챌린지(폭주한 실베스터 조이 3세) 최종 4~10위 달성 시 획득 가능한 스티커.",
-      "enOffset": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rampaging King Sylvester Joey III) in 4th–10th place.",
+      "enOffset": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rampaging King Sylvester Joey III) event in 4th–10th place.",
       "jaOffset": "インフィニティボスチャレンジ(暴走したシルベスタージョイ3世)で最終順位4位～10位を達成すると獲得できるステッカー",
       "zh_twOffset": "達成無限BOSS挑戰（暴走的席爾維斯特喬伊三世）最終第4～10名時獲得的貼紙",
       "zh_cnOffset": ""
@@ -15091,7 +15307,7 @@
     {
       "no": 226968,
       "krOffset": "인피니티 보스 챌린지(폭주한 실베스터 조이 3세) 최종 11~100위 달성 시 획득 가능한 스티커.",
-      "enOffset": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rampaging King Sylvester Joey III) in 11th–100th place.",
+      "enOffset": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rampaging King Sylvester Joey III) event in 11th–100th place.",
       "jaOffset": "インフィニティボスチャレンジ(暴走したシルベスタージョイ3世)で最終順位11位～100位を達成すると獲得できるステッカー",
       "zh_twOffset": "達成無限BOSS挑戰（暴走的席爾維斯特喬伊三世）最終第11～100名時獲得的貼紙",
       "zh_cnOffset": ""
@@ -15099,7 +15315,7 @@
     {
       "no": 226969,
       "krOffset": "인피니티 보스 챌린지(폭주한 실베스터 조이 3세) 최종 101~500위 달성 시 획득 가능한 스티커.",
-      "enOffset": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rampaging King Sylvester Joey III) in 101st–500th place.",
+      "enOffset": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rampaging King Sylvester Joey III) event in 101st–500th place.",
       "jaOffset": "インフィニティボスチャレンジ(暴走したシルベスタージョイ3世)で最終順位101位～500位を達成すると獲得できるステッカー",
       "zh_twOffset": "達成無限BOSS挑戰（暴走的席爾維斯特喬伊三世）最終第101～500名時獲得的貼紙",
       "zh_cnOffset": ""
@@ -15107,7 +15323,7 @@
     {
       "no": 226970,
       "krOffset": "인피니티 보스 챌린지(폭주한 실베스터 조이 3세) 최종 501~1000위 달성 시 획득 가능한 스티커.",
-      "enOffset": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rampaging King Sylvester Joey III) in 501st–1000th place.",
+      "enOffset": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rampaging King Sylvester Joey III) event in 501st–1000th place.",
       "jaOffset": "インフィニティボスチャレンジ(暴走したシルベスタージョイ3世)で最終順位501位～1000位を達成すると獲得できるステッカー",
       "zh_twOffset": "達成無限BOSS挑戰（暴走的席爾維斯特喬伊三世）最終第501～1000名時獲得的貼紙",
       "zh_cnOffset": ""
@@ -15115,7 +15331,7 @@
     {
       "no": 226971,
       "krOffset": "인피니티 보스 챌린지(폭주한 실베스터 조이 3세) 최종 1001~2000위 달성 시 획득 가능한 스티커.",
-      "enOffset": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rampaging King Sylvester Joey III) in 1001st–2000th place.",
+      "enOffset": "A sticker that can be obtained upon finishing an Infinity Boss Challenge (Rampaging King Sylvester Joey III) event in 1001st–2000th place.",
       "jaOffset": "インフィニティボスチャレンジ(暴走したシルベスタージョイ3世)で最終順位1001位～2000位を達成すると獲得できるステッカー",
       "zh_twOffset": "達成無限BOSS挑戰（暴走的席爾維斯特喬伊三世）最終第1001～2000名時獲得的貼紙",
       "zh_cnOffset": ""
@@ -15123,7 +15339,7 @@
     {
       "no": 226972,
       "krOffset": "인피니티 보스 챌린지(폭주한 실베스터 조이 3세) 참여 시 획득 가능한 스티커.",
-      "enOffset": "A sticker that can be obtained upon participating in an Infinity Boss Challenge (Rampaging King Sylvester Joey III).",
+      "enOffset": "A sticker that can be obtained upon participating in an Infinity Boss Challenge (Rampaging King Sylvester Joey III) event.",
       "jaOffset": "インフィニティボスチャレンジ(暴走したシルベスタージョイ3世)でに参加すると獲得できるステッカー",
       "zh_twOffset": "參加無限BOSS挑戰（暴走的席爾維斯特喬伊三世）時獲得的貼紙",
       "zh_cnOffset": ""
@@ -15982,6 +16198,30 @@
       "enOffset": "Ingredients specially sourced from Clara Farm.\r\nTheir glossy sheen makes them look incredibly appetizing.\r\n\r\nCan be exchanged for various items at the Maid's Goods Exchange Shop.\r\n(After the exchange period ends, each will be converted to 3,000 Gold and sent to your mail.)",
       "jaOffset": "",
       "zh_twOffset": "特別從克拉拉的農場空運過來的食材。\r\n色澤亮麗，令人垂涎三尺。\r\n\r\n可兌換［女僕的以物易物商店］的各種道具。\r\n（兌換期間結束後，每個會換算成3000金幣並發送至信箱。）",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 228155,
+      "krOffset": "거대 보스 몬스터 「아마'게'돈」 을 처치하고 획득한 기념 코인.\r\n\r\n[속삭이는 바다의 경품 상점]에서 사용할 수 있습니다.\r\n(교환 기간 종료 후 개당 3000 골드로 환산되어 우편함으로 지급됩니다.)",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 228156,
+      "krOffset": "사쿠요의 얼굴이 각인된 칭찬 도장.\r\n\r\n[여름 합숙 교환 상점]에서 다양한 아이템으로 교환할 수 있습니다.\r\n(교환 기간 종료 후 개당 3000 골드로 환산되어 우편함으로 지급됩니다.)",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 228157,
+      "krOffset": "구원자의 얼굴이 각인된 칭찬 도장.\r\n\r\n[여름 합숙 교환 상점]에서 다양한 아이템으로 교환할 수 있습니다.\r\n(교환 기간 종료 후 개당 3000 골드로 환산되어 우편함으로 지급됩니다.)",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
@@ -17186,7 +17426,23 @@
     },
     {
       "no": 520184,
-      "krOffset": "하루(카무이) 기본",
+      "krOffset": "이오루의 수호자",
+      "enOffset": "Guardian of Ioru",
+      "jaOffset": "",
+      "zh_twOffset": "伊奧魯的守護者",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 520185,
+      "krOffset": "마리오네트 엘레지",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 520186,
+      "krOffset": "니아 기본 코스튬",
       "enOffset": "",
       "jaOffset": "",
       "zh_twOffset": "",
@@ -17522,10 +17778,10 @@
     },
     {
       "no": 520442,
-      "krOffset": "에루샤 인연 코스튬",
-      "enOffset": "Erusha's Bond Costume Name",
+      "krOffset": "꿈꾸는 무희",
+      "enOffset": "Dreaming Dancer",
       "jaOffset": "",
-      "zh_twOffset": "艾魯莎好感時裝",
+      "zh_twOffset": "夢幻舞姬",
       "zh_cnOffset": ""
     },
     {
@@ -18658,15 +18914,79 @@
     },
     {
       "no": 520584,
-      "krOffset": "하루(카무이) 오리진 코스튬",
+      "krOffset": "새출발의 발걸음",
+      "enOffset": "Strides of a Fresh Start",
+      "jaOffset": "",
+      "zh_twOffset": "重新出發的步伐",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 520585,
+      "krOffset": "오지 않은 미래",
+      "enOffset": "Unrealized Future",
+      "jaOffset": "",
+      "zh_twOffset": "未來臨的未來",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 520586,
+      "krOffset": "데일리 언더테이크",
       "enOffset": "",
       "jaOffset": "",
       "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
-      "no": 520585,
-      "krOffset": "하루(카무이) 초월 코스튬",
+      "no": 520587,
+      "krOffset": "밤의 마리오네트",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 520588,
+      "krOffset": "니아 인연 코스튬",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 520589,
+      "krOffset": "니아 초월 코스튬",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 520590,
+      "krOffset": "니아 이벤트 코스튬",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 520591,
+      "krOffset": "사쿠요(업화) 이벤트 코스튬",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 520592,
+      "krOffset": "메피(여명) 이벤트 코스튬",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 520593,
+      "krOffset": "도미니크 이벤트 코스튬",
       "enOffset": "",
       "jaOffset": "",
       "zh_twOffset": "",
@@ -19354,7 +19674,23 @@
     },
     {
       "no": 530184,
-      "krOffset": "하루(카무이) 기본 코스튬 설명",
+      "krOffset": "이오루를 지키는 자의 의복. \r\n이 옷의 주인은 몇백 년, 어쩌면 몇천 년간 변함없이 고향을 지켜왔다.",
+      "enOffset": "The attire of the Guardian of Ioru.\r\nIts wearer has unwaveringly stood watch over their homeland for centuries, if not for millennia.",
+      "jaOffset": "",
+      "zh_twOffset": "伊奧魯守護者的服裝。\r\n衣服的主人好幾百年來，說不定是好幾千年來始終都堅守著故鄉。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 530185,
+      "krOffset": "페트라가 과거, 용병단 스웜프 소속이었던 시절에 입었던 의상.\r\n페트라가 아닌 누군가의 고풍스러운 취향이 잔뜩 담겨 있다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 530186,
+      "krOffset": "니아 기본 코스튬 설명",
       "enOffset": "",
       "jaOffset": "",
       "zh_twOffset": "",
@@ -19690,10 +20026,10 @@
     },
     {
       "no": 530442,
-      "krOffset": "에루샤 인연 코스튬 설명",
-      "enOffset": "Erusha's Bond Costume Description",
+      "krOffset": "티아라와 섬세한 레이스 장식이 돋보이는 파티용 드레스.\r\n그 무도회장에서 무희는 어떤 꿈을 꾸었을까?",
+      "enOffset": "A party dress adorned with intricate lace trim, complete with a tiara.\r\nIn that ballroom, what dreams twirled through the dancer's mind?",
       "jaOffset": "",
-      "zh_twOffset": "艾魯莎好感時裝說明",
+      "zh_twOffset": "王冠與精緻蕾絲裝飾亮眼的派對禮服。\r\n舞姬在那場舞會上，描繪了什麼夢想呢？",
       "zh_cnOffset": ""
     },
     {
@@ -20826,15 +21162,79 @@
     },
     {
       "no": 530584,
-      "krOffset": "하루(카무이) 오리진 코스튬 설명",
+      "krOffset": "새로운 세계를 찾아온 자를 위한 옷.\r\n앞으로는 사랑받을 일만 남은 미래를 위한 것인 듯, 러블리한 장식으로 가득하다.",
+      "enOffset": "An outfit made for the one who has come looking for a new world.\r\nIt is adorned with adorable details as though tailored for a future where only love awaits.",
+      "jaOffset": "",
+      "zh_twOffset": "為來到新世界的人準備的衣服。\r\n滿滿小巧可愛的裝飾，彷彿在象徵今後只會被人疼愛的未來。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 530585,
+      "krOffset": "어쩌면 도래했을지도 모르는 미래를 연상시키는 모습.\r\n검게 물든 머리카락엔 상상조차 어려운 심연의 어둠이 일렁인다.",
+      "enOffset": "A look reminiscent of a future that could have come.\r\nThe blackened hair ripples with the darkness of an abyss too deep to imagine.",
+      "jaOffset": "",
+      "zh_twOffset": "這一身令人聯想到說不定早已到來的未來。\r\n難以想像的暗黑深淵在染黑的髮絲間蕩漾著。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 530586,
+      "krOffset": "페트라가 새로 장만한 용병 활동복이자 평상복 의상.\r\n묘지의 흙으로 옷이 더러워지는 일이 잦은 만큼, 세탁에 용이한 특수 소재로 만들어졌다.",
       "enOffset": "",
       "jaOffset": "",
       "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
-      "no": 530585,
-      "krOffset": "하루(카무이) 초월 코스튬 설명",
+      "no": 530587,
+      "krOffset": "페트라가 과거, 용병단 스웜프 소속이었던 시절에 입었던 의상.\r\n허리를 조이는 코르셋 때문인지, 옷을 입을 때마다 묘하게 답답함이 느껴진다고 한다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 530588,
+      "krOffset": "니아 인연 코스튬 설명",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 530589,
+      "krOffset": "니아 초월 코스튬 설명",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 530590,
+      "krOffset": "니아 이벤트 코스튬 설명",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 530591,
+      "krOffset": "사쿠요(업화) 이벤트 코스튬 설명",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 530592,
+      "krOffset": "메피(여명) 이벤트 코스튬 설명",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 530593,
+      "krOffset": "도미니크 이벤트 코스튬 설명",
       "enOffset": "",
       "jaOffset": "",
       "zh_twOffset": "",
@@ -21518,6 +21918,14 @@
       "enOffset": "Artifact Memory: Green Dragon Crescent Blade (Peerless)",
       "jaOffset": "遺物の記憶：青龍偃月刀(無双)",
       "zh_twOffset": "遺物的記憶：青龍偃月刀（無雙）",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 2110073,
+      "krOffset": "유물의 기억: 쿠투네시르카(카무이)",
+      "enOffset": "Artifact Memory: Kutune Shirka (Kamuy)",
+      "jaOffset": "",
+      "zh_twOffset": "遺物的記憶：阿伊努寶刀（神威）",
       "zh_cnOffset": ""
     },
     {
@@ -26558,6 +26966,14 @@
       "enOffset": "Artifact of Honglan (Peerless). The Memory of the Green Dragon Crescent Blade.\r\nUsed to obtain or ascend Artifacts.",
       "jaOffset": "ホンラン(無双)の遺物、青龍偃月刀(無双)の記憶です。\r\n遺物獲得や昇級に使用されます。",
       "zh_twOffset": "紅蘭（無雙）的遺物，青龍偃月刀（無雙）的記憶\r\n可獲得遺物或用來升階",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 2210073,
+      "krOffset": "하루(카무이)의 유물, 쿠투네시르카(카무이)의 기억입니다.\r\n유물을 획득하거나 승급에 사용됩니다.",
+      "enOffset": "Artifact of Haru (Kamuy). The Memory of the Kutune Shirka (Kamuy).\r\nUsed to obtain or ascend Artifacts.",
+      "jaOffset": "",
+      "zh_twOffset": "河路（神威）的遺物，阿伊努寶刀（神威）的記憶\r\n可獲得遺物或用來升階",
       "zh_cnOffset": ""
     },
     {
@@ -31641,6 +32057,14 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 21521701,
+      "krOffset": "스티커: 소중한 하루(카무이)",
+      "enOffset": "Sticker: Precious Haru (Kamuy)",
+      "jaOffset": "",
+      "zh_twOffset": "貼紙：珍貴的河路（神威）",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 21530101,
       "krOffset": "스티커: 소중한 에리카",
       "enOffset": "Sticker: Precious Erika",
@@ -32238,6 +32662,14 @@
       "enOffset": "A sticker that can be obtained upon reaching Honglan (Peerless) Bond Level 40.",
       "jaOffset": "ホンラン(無双)の絆Lv40達成時に獲得できるステッカー",
       "zh_twOffset": "達成紅蘭（無雙）好感等級40時可獲得的貼紙。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 22521701,
+      "krOffset": "하루(카무이)의 인연 레벨 40 달성 시 획득 가능한 스티커.",
+      "enOffset": "A sticker that can be obtained upon reaching Haru (Kamuy) Bond Level 40.",
+      "jaOffset": "",
+      "zh_twOffset": "達成河路（神威）好感等級40時可獲得的貼紙。",
       "zh_cnOffset": ""
     },
     {

@@ -87,6 +87,24 @@
       "additional_enter_priceOffset": "[250, 400, 600]",
       "limit_sno": 560090,
       "mapOffset": "Map_EventDefense_03"
+    },
+    {
+      "no": 6,
+      "event_group": 6,
+      "game_type": 2,
+      "stage_name_sno": 21178,
+      "mission_sno": 21187,
+      "bg_pathOffset": "MiniGame/bg_minigame_main",
+      "sound_pathOffset": "BGM_Flora_8bitOrchestra",
+      "playable_hero_no": 3140,
+      "vehicle_prefabOffset": "0",
+      "camera_setting_no": 3,
+      "playtime": 600,
+      "limit_value": 1,
+      "is_additional_enter": 1,
+      "additional_enter_priceOffset": "[250, 400, 600]",
+      "limit_sno": 560090,
+      "mapOffset": "Map_EventDefense_04"
     }
   ]
 }

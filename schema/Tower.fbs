@@ -2,6 +2,7 @@ namespace Tower;
 
 table Deserialization {
     no: int32;
+    tower_type: int32;
     tower_name: int32;
     req_hero: int32;
     bg_pathOffset: string;

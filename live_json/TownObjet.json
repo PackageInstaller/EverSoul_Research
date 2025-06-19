@@ -5469,6 +5469,19 @@
       "far_motionOffset": "0"
     },
     {
+      "no": 47023,
+      "pathOffset": "TownObjet_Tower",
+      "prefabOffset": "PE_TOWN_B_Tower_Beatrice",
+      "list_tab": 1,
+      "original_slot": 111,
+      "develop_point": 2500,
+      "place_limit": 1,
+      "castle": 1,
+      "animal_prefabOffset": "0",
+      "close_motionOffset": "0",
+      "far_motionOffset": "0"
+    },
+    {
       "no": 47100,
       "pathOffset": "TownObjet_1Stanniv",
       "prefabOffset": "PE_TOWN_B_1StAnniversary",

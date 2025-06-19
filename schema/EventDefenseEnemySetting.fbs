@@ -6,6 +6,8 @@ table Deserialization {
     prefab_pathOffset: string;
     timeline_pathOffset: string;
     timeline_nameOffset: string;
+    model_type: int32;
+    use_boss_slot: int32;
     monster_type: int32;
     monster_move_type: int32;
     max_count: int32;

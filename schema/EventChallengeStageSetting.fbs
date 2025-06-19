@@ -7,6 +7,9 @@ table Deserialization {
     event_stage_phase: int32;
     event_phase_sno: int32;
     stage_name_sno: int32;
+    bg_pathOffset: string;
+    bg_positionOffset: string;
+    event_bg_pathOffset: string;
     level_limit: int32;
     hero_no_1: int32;
     hero_grade_1: int32;

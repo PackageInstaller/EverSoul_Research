@@ -14,6 +14,7 @@ table Deserialization {
     emblem_pathOffset: string;
     daily_reward: int32;
     reward_amount: int32;
+    profile_view: int32;
 }
 
 table EdenUnion {

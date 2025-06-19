@@ -7811,7 +7811,7 @@
     {
       "no": 9016,
       "krOffset": "2.5주년 전야제 특별 상점",
-      "enOffset": "2.5-Year Anni. Eve Special Shop",
+      "enOffset": "2.5-Year Anniversary Eve Special Shop",
       "jaOffset": "2.5周年前夜祭特別ショップ",
       "zh_twOffset": "2.5週年前夕特別商店",
       "zh_cnOffset": ""
@@ -12790,6 +12790,62 @@
       "enOffset": "Upgrade Renee (Argent) to Legendary",
       "jaOffset": "ルネ(白銀)のレジェンダリーランクを達成",
       "zh_twOffset": "達成勒內（白銀）傳說階級",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 11410,
+      "krOffset": "메인 방주 강화 {0}레벨 달성",
+      "enOffset": "Reach Main Enhance Circuit Lv. {0}",
+      "jaOffset": "",
+      "zh_twOffset": "達成主要強化迴路Lv.{0}",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 11411,
+      "krOffset": "강화 회로: 워리어 {0}레벨 달성",
+      "enOffset": "Reach Enhance Circuit: Warrior Lv. {0}",
+      "jaOffset": "",
+      "zh_twOffset": "達成強化迴路：戰士Lv.{0}",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 11412,
+      "krOffset": "강화 회로: 레인저 {0}레벨 달성",
+      "enOffset": "Reach Enhance Circuit: Ranger Lv. {0}",
+      "jaOffset": "",
+      "zh_twOffset": "達成強化迴路：遊俠Lv.{0}",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 11413,
+      "krOffset": "강화 회로: 스트라이커 {0}레벨 달성",
+      "enOffset": "Reach Enhance Circuit: Striker Lv. {0}",
+      "jaOffset": "",
+      "zh_twOffset": "達成強化迴路：鬥士Lv.{0}",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 11414,
+      "krOffset": "강화 회로: 캐스터 {0}레벨 달성",
+      "enOffset": "Reach Enhance Circuit: Caster Lv. {0}",
+      "jaOffset": "",
+      "zh_twOffset": "達成強化迴路：魔法師Lv.{0}",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 11415,
+      "krOffset": "강화 회로: 서포터 {0}레벨 달성",
+      "enOffset": "Reach Enhance Circuit: Supporter Lv. {0}",
+      "jaOffset": "",
+      "zh_twOffset": "達成強化迴路：輔助者Lv.{0}",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 11416,
+      "krOffset": "강화 회로: 디펜더 {0}레벨 달성",
+      "enOffset": "Reach Enhance Circuit: Defender Lv. {0}",
+      "jaOffset": "",
+      "zh_twOffset": "達成強化迴路：捍衛者Lv.{0}",
       "zh_cnOffset": ""
     },
     {
@@ -18017,6 +18073,22 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 12593,
+      "krOffset": "모든 아군의 공격력 30% 증가",
+      "enOffset": "All allies' ATK +30%",
+      "jaOffset": "",
+      "zh_twOffset": "所有友軍攻擊力增加30%",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 12594,
+      "krOffset": "모든 아군의 가속 20% 증가",
+      "enOffset": "All allies' Speed +20%",
+      "jaOffset": "",
+      "zh_twOffset": "所有友軍加速增加20%",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 12601,
       "krOffset": "기다리고 있었습니다, 구원자님.",
       "enOffset": "I was waiting for you, Savior.",
@@ -19586,10 +19658,10 @@
     },
     {
       "no": 12929,
-      "krOffset": "천사 & 악마 타입의 정령 중에서 원하는 정령을 선택하면\r\n14일 동안 픽업 소환이 개방됩니다.",
-      "enOffset": "Select one of the Angel and Demon Souls to start\r\na 14-day Pick-Up Summon for her.",
+      "krOffset": "천사 & 악마 & 혼돈 타입의 정령 중에서 원하는 정령을 선택하면\r\n14일 동안 픽업 소환이 개방됩니다.",
+      "enOffset": "Select one of the Angel, Demon, and Chaotic Souls to start\r\na 14-day Pick-Up Summon for her.",
       "jaOffset": "天使＆悪魔型の精霊の中で好きな精霊を選択すると\r\n14日間ピックアップ召喚が開放されます。",
-      "zh_twOffset": "從天使 & 惡魔型精靈中選擇心儀的精靈後，\r\n開放為期14天的Pick Up召喚。",
+      "zh_twOffset": "從天使 & 惡魔 & 混沌型精靈中選擇心儀的精靈後，\r\n開放為期14天的Pick Up召喚。",
       "zh_cnOffset": ""
     },
     {
@@ -23155,7 +23227,7 @@
     {
       "no": 21175,
       "krOffset": "2.5주년 전야제 특별상점",
-      "enOffset": "2.5-Year Anniversary Eve Special Shop",
+      "enOffset": "2.5-Year Anniv. Eve Special Shop",
       "jaOffset": "2.5周年前夜祭ショップ",
       "zh_twOffset": "2.5週年前夕特別商店",
       "zh_cnOffset": ""
@@ -23163,9 +23235,9 @@
     {
       "no": 21176,
       "krOffset": "2.5주년 전야제 출석체크",
-      "enOffset": "2.5-Year Anniversary Eve Special Attendance Check",
+      "enOffset": "2.5-Year Anniversary Eve Attendance Check",
       "jaOffset": "2.5周年前夜祭\r\nログインボーナス",
-      "zh_twOffset": "2.5週年前夕特別簽到",
+      "zh_twOffset": "2.5週年前夕簽到",
       "zh_cnOffset": ""
     },
     {
@@ -23174,6 +23246,142 @@
       "enOffset": "Celebrate the upcoming Eversoul 2.5-Year anniversary with us! Gifts await you every day!",
       "jaOffset": "",
       "zh_twOffset": "一起等待即將到來的永恆靈魂2.5週年，每天都會送禮！",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21178,
+      "krOffset": "디모니크와 광기의 숲",
+      "enOffset": "Dimonique and the Forest of Madness",
+      "jaOffset": "",
+      "zh_twOffset": "迪莫尼克與瘋狂森林",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21179,
+      "krOffset": "속삭이는 바다와 여름 합숙 훈련",
+      "enOffset": "Whispering Ocean and Summer Training Camp",
+      "jaOffset": "",
+      "zh_twOffset": "低語的大海和夏日集訓",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21180,
+      "krOffset": "여름 합숙 시즌 패스",
+      "enOffset": "Summer Training Camp Season Pass",
+      "jaOffset": "",
+      "zh_twOffset": "夏日集訓季通行證",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21181,
+      "krOffset": "여름 합숙 훈련 출석 체크",
+      "enOffset": "Summer Training Camp Attendance Check",
+      "jaOffset": "",
+      "zh_twOffset": "夏日集訓簽到",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21182,
+      "krOffset": "여름 합숙 훈련에 참여하신 구원자님들을 위한 특별한 선물입니다!",
+      "enOffset": "Special gifts for Saviors participating in the Summer Training Camp!",
+      "jaOffset": "",
+      "zh_twOffset": "參加夏日集訓的救援者特別禮物！",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21183,
+      "krOffset": "물 뜨라 부르는 소리 있도다",
+      "enOffset": "Fetch Water, the Voice Calls",
+      "jaOffset": "",
+      "zh_twOffset": "舀水來，那聲音呼喚我們",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21184,
+      "krOffset": "속삭이는 바다",
+      "enOffset": "Whispering Ocean",
+      "jaOffset": "",
+      "zh_twOffset": "低語的大海",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21185,
+      "krOffset": "속삭이는 바다의 경품 상점",
+      "enOffset": "Whispering Ocean Prize Shop",
+      "jaOffset": "",
+      "zh_twOffset": "低語的大海贈品商店",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21186,
+      "krOffset": "여름 합숙 교환 상점",
+      "enOffset": "Summer Training Camp Exchange Shop",
+      "jaOffset": "",
+      "zh_twOffset": "夏日集訓兌換商店",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21187,
+      "krOffset": "광기에 빠진 스승 사쿠요를 무찌르세요.",
+      "enOffset": "Defeat Sakuyo, the mentor consumed by madness.",
+      "jaOffset": "",
+      "zh_twOffset": "擊敗陷入瘋狂的師父櫻世。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21188,
+      "krOffset": "광기의 숲\r\n입장",
+      "enOffset": "Enter\r\nForest of Madness",
+      "jaOffset": "",
+      "zh_twOffset": "瘋狂森林\r\n入場",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21189,
+      "krOffset": "속삭이는 바다의 경품 상점에서 집게발 코인을 사용할 때마다\r\n시즌 패스 포인트를 획득합니다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21190,
+      "krOffset": "사쿠요의 칭찬 도장 상점",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21191,
+      "krOffset": "구원자의 칭찬 도장 상점",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21192,
+      "krOffset": "천지게벽",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21193,
+      "krOffset": "황당무게",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 21194,
+      "krOffset": "성장 지원 돌파 미션",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
@@ -24734,6 +24942,30 @@
       "enOffset": "Shadow Leap",
       "jaOffset": "Shadow Leap",
       "zh_twOffset": "Shadow Leap",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 30196,
+      "krOffset": "Absolute Loneliness",
+      "enOffset": "Absolute Loneliness",
+      "jaOffset": "Absolute Loneliness",
+      "zh_twOffset": "Absolute Loneliness",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 30197,
+      "krOffset": "Unwanted Loneliness",
+      "enOffset": "Unwanted Loneliness",
+      "jaOffset": "Unwanted Loneliness",
+      "zh_twOffset": "Unwanted Loneliness",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 30198,
+      "krOffset": "Explosion of Joy",
+      "enOffset": "Explosion of Joy",
+      "jaOffset": "Explosion of Joy",
+      "zh_twOffset": "Explosion of Joy",
       "zh_cnOffset": ""
     },
     {
@@ -26766,6 +26998,14 @@
       "enOffset": "[Pick-Up Summon] Haru (Kamuy)",
       "jaOffset": "[ピックアップ召喚] ハル(カムイ)",
       "zh_twOffset": "［Pick Up］河路（神威）",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 92085,
+      "krOffset": "[에덴 연합 작전] 에덴 여름 훈련",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
@@ -35769,6 +36009,38 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 531081,
+      "krOffset": "오리진+5 달성",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 531082,
+      "krOffset": "오리진 달성",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 531083,
+      "krOffset": "스티커",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 531084,
+      "krOffset": "{0}% 할인 {1} 일 남음",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 532001,
       "krOffset": "메리 크마리스스!\r\n아… 아니지, 메리 크리스마스~!",
       "enOffset": "Merry Kumawreaths!\r\nAh, I mean... Merry Christmas!",
@@ -38806,6 +39078,150 @@
       "enOffset": "Good pick.\r\nFeel free to look around some more.",
       "jaOffset": "",
       "zh_twOffset": "很棒的選擇。\r\n你可以再逛一下。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532381,
+      "krOffset": "구원자!\r\n오늘은 특별 상점의 일일 매니저, 나오미야~",
+      "enOffset": "Savior!\r\nI, Naomi, am the manager of the special shop for the day!",
+      "jaOffset": "",
+      "zh_twOffset": "救援者！\r\n我是今天特別商店的一日經理，直美～",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532382,
+      "krOffset": "구원자에게 필요한 물건들로 준비했으니까\r\n편하게 둘러봐, 구원자!",
+      "enOffset": "Everything here's handpicked for you, Savior.\r\nTake your time and look around!",
+      "jaOffset": "",
+      "zh_twOffset": "我準備了救援者需要的物品，\r\n你慢慢逛，救援者！",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532383,
+      "krOffset": "어떤 물건을 사야 할지 결정하기 어렵다면\r\n내가 추천해 줄 수도 있어.\r\n편하게 말해줘, 구원자!",
+      "enOffset": "Can't decide what to get?\r\nI can help you pick.\r\nJust let me know, Savior!",
+      "jaOffset": "",
+      "zh_twOffset": "如果不好抉擇要買什麼商品的話，\r\n我也可以幫你推薦。\r\n儘管告訴我，救援者！",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532384,
+      "krOffset": "매일 새로운 물건들을 들여오고 있어.\r\n아이돌 정령을 관리할 때처럼 꼼꼼하게 체크했으니까,\r\n구원자도 열심히 살펴봐 줘~",
+      "enOffset": "I restock every day with different items.\r\nI've checked everything with the same care I give to idols,\r\nso give it a good look yourself, Savior!",
+      "jaOffset": "",
+      "zh_twOffset": "每天都會進新的商品，\r\n我像管理偶像精靈時那樣仔細檢查過了，\r\n救援者也認真看一下～",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532385,
+      "krOffset": "네, 계산해 드리겠습니다~♪\r\n구매해 줘서 고마워!",
+      "enOffset": "Sure, let me help you with checking out♪\r\nThank you for your business!",
+      "jaOffset": "",
+      "zh_twOffset": "好，我幫你結帳～♪\r\n謝謝惠顧！",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532386,
+      "krOffset": "그 물건, 특히 신경 쓴 건데.\r\n역시 보는 눈이 있구나, 구원자?",
+      "enOffset": "I put extra care into that one.\r\nYou've got a good eye, Savior!",
+      "jaOffset": "",
+      "zh_twOffset": "那個商品，是我特地精心挑選的。\r\n你果然很有眼光耶，救援者。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532387,
+      "krOffset": "어서오세요, 구원자님.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532388,
+      "krOffset": "구원자님, 특훈에 필요한 물건들을 준비했어요.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532389,
+      "krOffset": "후후. 바다에 제가 숨겨둔 유리병을\r\n찾아보시겠어요?",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532390,
+      "krOffset": "이번 여름 훈련을 마치면,\r\n얼마나 강해져 있을지 스스로도 기대됩니다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532391,
+      "krOffset": "구원자님께 도움이 되는 물건이었으면 좋겠어요.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532392,
+      "krOffset": "구원자님, 마음에 드시나요?",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532393,
+      "krOffset": "후후…기다리고 있었어.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532394,
+      "krOffset": "필요한 게 잔뜩 있을거야…♪",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532395,
+      "krOffset": "게들하고는, 재미있게 놀았어?\r\n후후…즐거웠거든, 니아는.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532396,
+      "krOffset": "아아, 언제 또 즐겁게 같이 춤출 수 있을까?\r\n기대할게, 구원자님. 후후.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532397,
+      "krOffset": "니아는, 기대하고 있어…♪",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 532398,
+      "krOffset": "더 강해지고 있는거지? 후후….",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
@@ -48121,6 +48537,14 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 581122,
+      "krOffset": "하루(카무이)",
+      "enOffset": "Haru (Kamuy)",
+      "jaOffset": "ハル(カムイ)",
+      "zh_twOffset": "河路（神威）",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 600112,
       "krOffset": "빠른 사냥",
       "enOffset": "Quick Hunt",
@@ -53777,6 +54201,70 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 615735,
+      "krOffset": "새로운 옷",
+      "enOffset": "New Clothes",
+      "jaOffset": "",
+      "zh_twOffset": "新衣服",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 615736,
+      "krOffset": "식사",
+      "enOffset": "Meals",
+      "jaOffset": "",
+      "zh_twOffset": "用餐",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 615737,
+      "krOffset": "이 세계",
+      "enOffset": "This World",
+      "jaOffset": "",
+      "zh_twOffset": "這個世界",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 615738,
+      "krOffset": "야수형 정령",
+      "enOffset": "Beast Souls",
+      "jaOffset": "",
+      "zh_twOffset": "野獸型精靈",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 615739,
+      "krOffset": "하늘",
+      "enOffset": "Sky",
+      "jaOffset": "",
+      "zh_twOffset": "天空",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 615740,
+      "krOffset": "카무이의 증표",
+      "enOffset": "Kamuy's Token",
+      "jaOffset": "",
+      "zh_twOffset": "神威的信物",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 615741,
+      "krOffset": "발소리",
+      "enOffset": "Sound of Footsteps",
+      "jaOffset": "",
+      "zh_twOffset": "腳步聲",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 615742,
+      "krOffset": "다른 나라",
+      "enOffset": "Other Kingdoms",
+      "jaOffset": "",
+      "zh_twOffset": "其他國家",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 619003,
       "krOffset": "메인 스토리 {0} {1}화 완료 시 얻을 수 있습니다.",
       "enOffset": "Obtained when you complete Main Story {0}, Episode {1}.",
@@ -55419,7 +55907,7 @@
     {
       "no": 660140,
       "krOffset": "탐사 완료",
-      "enOffset": "Exploration complete",
+      "enOffset": "<size=20>Exploration complete</size>",
       "jaOffset": "探査完了",
       "zh_twOffset": "探查完畢",
       "zh_cnOffset": ""
@@ -55854,6 +56342,14 @@
       "enOffset": "HP +10% and Speed +5% for all Petra Souls",
       "jaOffset": "すべての「ペトラ」の体力10%増加、加速5%増加",
       "zh_twOffset": "所有「佩特拉」的體力增加10%、加速增加5\t",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 673022,
+      "krOffset": "모든 '클레르'의 공격력 10% 증가, 방어력 15% 증가",
+      "enOffset": "ATK +10% and DEF +15% for all Claire Souls",
+      "jaOffset": "すべての「クレール」の攻撃力10%増加、防御力15%増加",
+      "zh_twOffset": "增加所有「克萊兒」的攻擊力10%、防禦力15%",
       "zh_cnOffset": ""
     },
     {
@@ -58361,6 +58857,22 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 900009,
+      "krOffset": "오버클럭 초기화 안내",
+      "enOffset": "About Overclock Reset",
+      "jaOffset": "",
+      "zh_twOffset": "超頻重置說明",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 900010,
+      "krOffset": "오버클럭 개선으로 인해 레벨이 초기화됐습니다.\r\n초기화 전 오버클럭 레벨은 {0}이며, 마나 크리스탈 {1}개를 우편으로 보내드립니다.",
+      "enOffset": "Overclock level has been reset due to system improvements.\r\nYour Overclock level before the reset was {0}, so you're getting {1} Mana Crystals back in the mail.",
+      "jaOffset": "",
+      "zh_twOffset": "因超頻優化，等級已重置。\r\n重置前的超頻等級為{0}，已將{1}個魔力水晶發送至信箱。",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 980001,
       "krOffset": "상황이 급박하니 바로 전선으로 이동하겠습니다.",
       "enOffset": "The situation is urgent, so I'll head to the battlefront right away.",
@@ -60106,10 +60618,10 @@
     },
     {
       "no": 990431,
-      "krOffset": "인연 레벨에 따라 인연 스토리를 볼 수 있는 메시지가 오기도 합니다.\r\n인연 스토리 버튼을 터치하면 \r\n영지로 이동해 인연 스토리를 진행할 수 있습니다.",
-      "enOffset": "Depending on the Bond Level, you may receive a message that lets you view a Love Story. You can then tap on the Love Story button which will move you to the Town to proceed to the Love Story.",
-      "jaOffset": "絆Lvに応じて、絆ストーリー閲覧を知らせるメッセージが届きます。\r\n絆ストーリーボタンをタップすると、\r\n領地に移動して絆ストーリーを進行できます。",
-      "zh_twOffset": "根據好感等級不同，可看到的好感故事的訊息也會有所不同。\r\n點擊好感故事按鍵後，會移動至領地並進行好感故事。",
+      "krOffset": "인연 레벨에 따라 인연 스토리를 볼 수 있는 메시지가 오기도 합니다.\r\n인연 스토리 버튼을 터치하면 인연 스토리를 진행할 수 있습니다.",
+      "enOffset": "Depending on the Bond Level, you may receive a message that lets you view a Love Story.\r\nTap on the Love Story button to view the Love Story.",
+      "jaOffset": "",
+      "zh_twOffset": "將根據好感等級，收到可瀏覽好感故事的訊息。\r\n點擊好感故事按鈕，即可進行好感故事。",
       "zh_cnOffset": ""
     },
     {
@@ -66409,6 +66921,70 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 996528,
+      "krOffset": "이벤트 기간 동안 특별 스테이지 「물 뜨라 부르는 소리 있도다」가 오픈됩니다.\r\n거대 보스 몬스터 「아마'게'돈」으로부터 집게발 코인을 빼앗아 다양한 보상을 획득하세요.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 996529,
+      "krOffset": "이벤트 레이드 「물 뜨라 부르는 소리 있도다」에 입장하기 위해서는\r\n이벤트 스토리 「속삭이는 바다와 여름 합숙 훈련」 8화를 확인해야 합니다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 996530,
+      "krOffset": "「집게발 코인」은 「물 뜨라 부르는 소리 있도다」에서 획득할 수 있으며,\r\n「속삭이는 바다의 경품 상점」에서 다양한 아이템으로 교환할 수 있습니다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 996531,
+      "krOffset": "교환 기간이 종료되면 「집게발 코인」은 개당 3000골드로 환산됩니다.\r\n환산된 아이템은 우편함으로 지급됩니다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 996532,
+      "krOffset": "거대 몬스터 「아마'게'돈」을 물리치고 「집게발 코인」를 획득하세요.\r\n클리어한 레벨이 높을수록 더 풍성한 보상을 획득할 수 있습니다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 996533,
+      "krOffset": "이벤트 스테이지 「속삭이는 바다」는\r\n「천지게벽」, 혹은 「황당무게」 중 하나를 선택하여 도전할 수 있습니다.\r\n사쿠요(업화) 혹은 니아와 함께 작전을 수행해 보세요!",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 996534,
+      "krOffset": "「속삭이는 바다」에서 「사쿠요의 칭찬 도장」과 「구원자의 칭찬 도장」을 획득할 수 있으며,\r\n「여름 합숙 교환 상점」에서 다양한 아이템으로 교환할 수 있습니다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 996535,
+      "krOffset": " 「사쿠요의 칭찬 도장」과 「구원자의 칭찬 도장」은 교환 기간이 종료되면 개당 3000골드로 환산됩니다.\r\n환산된 아이템은 우편함으로 지급됩니다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 996600,
       "krOffset": "스트라이브 시스템",
       "enOffset": "Strive System",
@@ -67122,10 +67698,10 @@
     },
     {
       "no": 997257,
-      "krOffset": "세부 편성 화면에서는 리더, 메인 파트너, 서브 파트너 배치 및 고유 효과를 확인할 수 있습니다.",
-      "enOffset": "You can view the placement and respective specific effects of the lead Souls and their respective main and sub partner Souls.",
+      "krOffset": "세부 편성 화면에서는 리더, 메인 파트너 배치 및 고유 효과를 확인할 수 있습니다.",
+      "enOffset": "You can view the placement and respective specific effects of the lead Souls and their respective main partner Souls.",
       "jaOffset": "細部編成画面ではリーダー、メインパートナー、サブパートナーの配置と固有効果を確認できます。",
-      "zh_twOffset": "詳細編制畫面中，可配置隊長、主要夥伴、輔助夥伴，並確認固有效果。",
+      "zh_twOffset": "詳細編制畫面中，可配置隊長、主要夥伴，並確認固有效果。",
       "zh_cnOffset": ""
     },
     {
@@ -68118,6 +68694,14 @@
       "enOffset": "Strive System",
       "jaOffset": "ストライブ·システム",
       "zh_twOffset": "奮戰系統",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 1001064,
+      "krOffset": "기원의 좌",
+      "enOffset": "Seat of Origin",
+      "jaOffset": "",
+      "zh_twOffset": "起源之座",
       "zh_cnOffset": ""
     },
     {

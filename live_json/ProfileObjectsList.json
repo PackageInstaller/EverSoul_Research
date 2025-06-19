@@ -460,6 +460,30 @@
       "item_no": 6166
     },
     {
+      "no": 56167,
+      "group_no": 17,
+      "img_pathOffset": "sticker_eas_solrey_tier_7",
+      "item_no": 6167
+    },
+    {
+      "no": 56168,
+      "group_no": 17,
+      "img_pathOffset": "sticker_eas_solrey_tier_7_3",
+      "item_no": 6168
+    },
+    {
+      "no": 56169,
+      "group_no": 17,
+      "img_pathOffset": "sticker_eas_solrey_tier_7_2",
+      "item_no": 6169
+    },
+    {
+      "no": 56170,
+      "group_no": 17,
+      "img_pathOffset": "sticker_eas_solrey_tier_7_1",
+      "item_no": 6170
+    },
+    {
       "no": 56201,
       "group_no": 17,
       "img_pathOffset": "sticker_Stage01",
@@ -656,6 +680,12 @@
       "group_no": 17,
       "img_pathOffset": "sticker_Stage33",
       "item_no": 6233
+    },
+    {
+      "no": 56234,
+      "group_no": 17,
+      "img_pathOffset": "sticker_Stage34",
+      "item_no": 6234
     },
     {
       "no": 56301,
@@ -1113,7 +1143,8 @@
     },
     {
       "no": 56813,
-      "img_pathOffset": "sticker_special_",
+      "group_no": 17,
+      "img_pathOffset": "sticker_special_HaruKamuy01",
       "item_no": 6813
     },
     {
@@ -1749,6 +1780,12 @@
       "group_no": 17,
       "img_pathOffset": "sticker_love_HonglanCombat01",
       "item_no": 521601
+    },
+    {
+      "no": 5521701,
+      "group_no": 17,
+      "img_pathOffset": "sticker_love_HaruKamuy01",
+      "item_no": 521701
     },
     {
       "no": 5530101,

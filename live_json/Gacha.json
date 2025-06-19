@@ -1547,6 +1547,26 @@
       "schedule_key_2Offset": "Gate_573"
     },
     {
+      "no": 574,
+      "bundle_count": 10,
+      "pay_item_no": 100,
+      "pay_item_amount": 240,
+      "pay_item_bundle_amount": 2100,
+      "ticket_item_no": 19,
+      "ticket_amount": 1,
+      "ticket_bundle_amount": 10,
+      "gacha_type": 1,
+      "gacha_prob_group": 2170,
+      "get_mileage": 217,
+      "category_pathOffset": "ToggleHaruKamuyGacha",
+      "ui_pathOffset": "GachaListPanelPickupHaruKamuy",
+      "banner_pathOffset": "banner_pickup_HaruKamuy",
+      "pickup": 2170,
+      "gate_type": 6,
+      "schedule_key_1Offset": "Gacha_574",
+      "schedule_key_2Offset": "Gate_574"
+    },
+    {
       "no": 801,
       "bundle_count": 10,
       "pay_item_no": 100,

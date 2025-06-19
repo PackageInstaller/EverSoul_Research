@@ -1409,6 +1409,14 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 414005,
+      "krOffset": "기원의 좌 {0} 층",
+      "enOffset": "Seat of Origin Floor {0}",
+      "jaOffset": "",
+      "zh_twOffset": "起源之座{0}樓",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 419001,
       "krOffset": "수정 동굴",
       "enOffset": "Crystal Cave",
@@ -2379,9 +2387,9 @@
     {
       "no": 500034,
       "krOffset": "하늘뱃길",
-      "enOffset": "",
+      "enOffset": "Sky Fareway",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "空中航道",
       "zh_cnOffset": ""
     },
     {
@@ -2650,10 +2658,10 @@
     },
     {
       "no": 501034,
-      "krOffset": "하늘뱃길설명",
-      "enOffset": "",
+      "krOffset": "아우렐리아 도시 연맹으로 향하는 하늘배용 공중 항로.\r\n\r\n항로는 고정되어 있지 않고, 시시각각 변화하는 기후와 하늘배 운항 상황에 맞춰 최적의 항로를 찾아 변화한다. \r\n\r\n이 항로를 유지하기 위해서는 막대한 마나와 복잡한 술식이 필요한데, 아우렐리아는 마나 융합로를 통해 항로에 마력을 상시 공급하고 있다. 또한 복잡한 운용 술식은 아우렐리아에 다수 소속된 천사형, 악마형 정령들의 역량으로 감당하고 있다고 한다.",
+      "enOffset": "An aerial route designated for airships bound for Megalopolis Aurelia.\r\n\r\nIt constantly recalibrates itself, adjusting to changing climates and shifting airship traffic to maintain optimal conditions.\r\n\r\nMaintaining it calls for immense Mana and complex spells. Aurelia powers the route through a mana fusion reactor. The intricate operational spells are handled by the many Angel and Demon Souls of Aurelia.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "前往奧里利亞市聯盟的飛船用空中航道。\r\n\r\n沒有固定的航道，將根據時刻變換的氣候與飛船的航行狀況找出最佳航線。\r\n\r\n為維持航道，需要莫大的魔力與複雜的術式，不過奧里利亞透過魔力融合爐，固定供給航道所需的魔力。另外，奧里利亞大多為天使型、惡魔型精靈，藉由她們的能力來承擔複雜的操作術式。",
       "zh_cnOffset": ""
     },
     {
@@ -2726,6 +2734,14 @@
       "enOffset": "Illusion of Ordeal",
       "jaOffset": "試練の幻影",
       "zh_twOffset": "考驗的幻影",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 8001030,
+      "krOffset": "스트라이브 시스템 - 클레르 {0}단계",
+      "enOffset": "Strive System - Claire Stage {0}",
+      "jaOffset": "",
+      "zh_twOffset": "奮戰系統—克萊兒第{0}階段",
       "zh_cnOffset": ""
     },
     {

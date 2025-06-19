@@ -13,6 +13,5 @@ message sWorldRaidFormation {
   int32 formationOrder = 1;
   string heroIdx = 2;
   string mainSupportHeroIdx = 3;
-  string subSupportHeroIdx = 4;
 }
 

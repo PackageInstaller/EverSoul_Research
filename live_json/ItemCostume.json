@@ -972,6 +972,18 @@
       "scale_set": 1.0
     },
     {
+      "no": 2084,
+      "type_sno": 520102,
+      "name_sno": 520184,
+      "hero_no": 2170,
+      "prefab_pathOffset": "HaruKamuy",
+      "timeline_pathOffset": "HaruKamuy",
+      "icon_pathOffset": "HaruKamuy_Icon_Costume_00",
+      "portrait_pathOffset": "HaruKamuy",
+      "controller_pathOffset": "HaruKamuy",
+      "scale_set": 1.0
+    },
+    {
       "no": 2201,
       "type_sno": 710000,
       "name_sno": 520401,
@@ -1461,6 +1473,7 @@
       "no": 2242,
       "type_sno": 710000,
       "name_sno": 520442,
+      "hero_no": 4090,
       "prefab_pathOffset": "Erusha_Costume03",
       "timeline_pathOffset": "Erusha_Costume03",
       "icon_pathOffset": "Erusha_Icon_Costume_03",
@@ -3109,6 +3122,30 @@
       "scale_set": 1.0
     },
     {
+      "no": 2384,
+      "type_sno": 710011,
+      "name_sno": 520584,
+      "hero_no": 2170,
+      "prefab_pathOffset": "HaruKamuy_Costume01",
+      "timeline_pathOffset": "HaruKamuy_Costume01",
+      "icon_pathOffset": "HaruKamuy_Icon_Costume_01",
+      "portrait_pathOffset": "HaruKamuy_Costume01",
+      "controller_pathOffset": "HaruKamuy",
+      "scale_set": 1.0
+    },
+    {
+      "no": 2385,
+      "type_sno": 710012,
+      "name_sno": 520585,
+      "hero_no": 2170,
+      "prefab_pathOffset": "HaruKamuy_Costume02",
+      "timeline_pathOffset": "HaruKamuy_Costume02",
+      "icon_pathOffset": "HaruKamuy_Icon_Costume_02",
+      "portrait_pathOffset": "HaruKamuy_Costume02",
+      "controller_pathOffset": "HaruKamuy",
+      "scale_set": 1.0
+    },
+    {
       "no": 2700,
       "prefab_pathOffset": "Apprentice",
       "timeline_pathOffset": "Apprentice",
@@ -3166,7 +3203,7 @@
       "no": 2706,
       "prefab_pathOffset": "Sharing",
       "timeline_pathOffset": "Sharing",
-      "icon_pathOffset": "2",
+      "icon_pathOffset": "",
       "portrait_pathOffset": "Sharing",
       "controller_pathOffset": "",
       "scale_set": 1.0

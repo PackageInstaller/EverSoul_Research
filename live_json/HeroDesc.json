@@ -820,6 +820,26 @@
       "zodiac_type_sno": 10103
     },
     {
+      "hero_no": 2170,
+      "name_sno": 302170,
+      "nick_name_sno": 312170,
+      "ment_sno": 392170,
+      "gacha_ment_sno": 342170,
+      "height": 158,
+      "weight": 43,
+      "birthday": 328,
+      "constellation_sno": 800003,
+      "hobby_sno": 802171,
+      "speciality_sno": 802172,
+      "like_sno": 802173,
+      "dislike_sno": 802174,
+      "introduction_sno": 802175,
+      "cv_sno": 802176,
+      "cv_jp_sno": 802177,
+      "union_sno": 809999,
+      "zodiac_type_sno": 10101
+    },
+    {
       "hero_no": 3010,
       "name_sno": 303010,
       "nick_name_sno": 313010,
@@ -1475,6 +1495,26 @@
       "cv_jp_sno": 804157,
       "union_sno": 809010,
       "zodiac_type_sno": 10111
+    },
+    {
+      "hero_no": 4160,
+      "name_sno": 304160,
+      "nick_name_sno": 314160,
+      "ment_sno": 394160,
+      "gacha_ment_sno": 344160,
+      "height": 144,
+      "weight": 39,
+      "birthday": 423,
+      "constellation_sno": 800004,
+      "hobby_sno": 804161,
+      "speciality_sno": 804162,
+      "like_sno": 804163,
+      "dislike_sno": 804164,
+      "introduction_sno": 804165,
+      "cv_sno": 804166,
+      "cv_jp_sno": 804167,
+      "union_sno": 809013,
+      "zodiac_type_sno": 10102
     },
     {
       "hero_no": 4170,
@@ -2371,6 +2411,21 @@
       "nick_name_sno": 3160002
     },
     {
+      "hero_no": 66001,
+      "name_sno": 309928,
+      "nick_name_sno": 319928
+    },
+    {
+      "hero_no": 66002,
+      "name_sno": 309917,
+      "nick_name_sno": 319917
+    },
+    {
+      "hero_no": 66003,
+      "name_sno": 309919,
+      "nick_name_sno": 319919
+    },
+    {
       "hero_no": 66004,
       "name_sno": 309925,
       "nick_name_sno": 319925
@@ -2384,6 +2439,11 @@
       "hero_no": 66007,
       "name_sno": 3050101,
       "nick_name_sno": 3150101
+    },
+    {
+      "hero_no": 66008,
+      "name_sno": 3050201,
+      "nick_name_sno": 3150201
     },
     {
       "hero_no": 66009,

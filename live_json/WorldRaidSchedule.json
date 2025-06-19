@@ -25,6 +25,12 @@
       "step_value": 1
     },
     {
+      "no": 20,
+      "raid_no": 2,
+      "step": 8,
+      "step_value": 1
+    },
+    {
       "no": 50016,
       "raid_no": 2,
       "step": 8,
@@ -49,16 +55,10 @@
       "step_value": 2
     },
     {
-      "no": 90106,
+      "no": 50020,
       "raid_no": 2,
       "step": 8,
-      "step_value": 3
-    },
-    {
-      "no": 90107,
-      "raid_no": 1,
-      "step": 8,
-      "step_value": 3
+      "step_value": 2
     },
     {
       "no": 90108,
@@ -73,14 +73,20 @@
       "step_value": 3
     },
     {
-      "no": 100015,
-      "raid_no": 1,
+      "no": 90110,
+      "raid_no": 2,
       "step": 8,
-      "step_value": 4
+      "step_value": 3
     },
     {
       "no": 100016,
       "raid_no": 2,
+      "step": 8,
+      "step_value": 4
+    },
+    {
+      "no": 100017,
+      "raid_no": 1,
       "step": 8,
       "step_value": 4
     }
