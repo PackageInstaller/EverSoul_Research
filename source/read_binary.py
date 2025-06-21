@@ -63,7 +63,7 @@ def parse_proto_message(binary_data, proto_module, message_class):
 def main():
     parser = argparse.ArgumentParser(description='读取二进制文件并根据proto定义解析')
     parser.add_argument('binary_file', help='要读取的二进制文件路径')
-    parser.add_argument('-p', '--proto_dir', help='proto_api目录路径', default='receive_proto_api')
+    parser.add_argument('-p', '--proto_dir', help='proto_api目录路径', default='response_proto_api')
     parser.add_argument('-c', '--class_name', help='消息类名称(如果与文件名不同)', default=None)
     args = parser.parse_args()
     

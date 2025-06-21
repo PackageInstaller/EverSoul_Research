@@ -372,9 +372,9 @@ def main():
         return 1
     
     # 定义目录
-    receive_proto_dir = "../receive_proto"
+    response_proto_dir = "../response_proto"
     request_proto_dir = "../request_proto"
-    receive_output_dir = "../receive_proto_api"
+    response_output_dir = "../response_proto_api"
     request_output_dir = "../request_proto_api"
     
     # 第一步：生成proto文件
@@ -388,7 +388,7 @@ def main():
     for proto_type in proto_types:
         # 设置输出目录
         if proto_type == "EsPb":
-            output_dir = receive_proto_dir
+            output_dir = response_proto_dir
         else:  # ReqPb
             output_dir = request_proto_dir
         
@@ -405,7 +405,7 @@ def main():
     print("=" * 50)
     
     # 清空输出目录
-    for output_dir in [receive_output_dir, request_output_dir]:
+    for output_dir in [response_output_dir, request_output_dir]:
         if os.path.exists(output_dir):
             for item in os.listdir(output_dir):
                 item_path = os.path.join(output_dir, item)
@@ -419,14 +419,14 @@ def main():
     
     # 处理接收proto
     print("\n编译接收proto文件...")
-    if os.path.exists(receive_proto_dir):
-        success, fail = process_proto_directory(receive_proto_dir, receive_output_dir)
+    if os.path.exists(response_proto_dir):
+        success, fail = process_proto_directory(response_proto_dir, response_output_dir)
         total_success += success
         total_fail += fail
         # 创建__init__.py使输出目录成为Python包
-        create_init_file(receive_output_dir)
+        create_init_file(response_output_dir)
     else:
-        print(f"目录 {receive_proto_dir} 不存在，跳过")
+        print(f"目录 {response_proto_dir} 不存在，跳过")
     
     # 处理请求proto
     print("\n编译请求proto文件...")
