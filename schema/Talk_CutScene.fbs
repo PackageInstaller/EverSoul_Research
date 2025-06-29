@@ -1,0 +1,23 @@
+namespace Talk_CutScene;
+
+table Deserialization {
+    no: int32;
+    prefab_pathOffset: string;
+    volume_typeOffset: string;
+    actor01: int32;
+    actor02: int32;
+    actor03: int32;
+    actor04: int32;
+    actor05: int32;
+    actor06: int32;
+    actor07: int32;
+    actor08: int32;
+    actor09: int32;
+    actor10: int32;
+}
+
+table Talk_CutScene {
+    json: [Deserialization];
+}
+
+root_type Talk_CutScene;

@@ -5,12 +5,12 @@ table Deserialization {
     battle_group: int32;
     name_sno: int32;
     story_no: int32;
-    bg_path: string;
-    sound_path: string;
-    emblem_path: string;
+    bg_pathOffset: string;
+    sound_pathOffset: string;
+    emblem_pathOffset: string;
     reward_group: int32;
     reward_cycle: int32;
-    schedule_key: string;
+    schedule_keyOffset: string;
 }
 
 table EdenAlliance {

@@ -5,7 +5,7 @@ table Deserialization {
     tier_no: int32;
     rank_standard: float;
     tier_string_no: int32;
-    tier_path: string;
+    tier_pathOffset: string;
 }
 
 table EdenAllianceTier {
