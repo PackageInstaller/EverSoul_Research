@@ -1,6 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-
 import re
 import os
 import sys
@@ -297,7 +294,6 @@ def ensure_directory(directory):
     """确保目录存在，如果不存在则创建"""
     if not os.path.exists(directory):
         os.makedirs(directory)
-        print(f"创建目录: {directory}")
 
 def compile_proto_to_python(proto_file, output_dir):
     """将单个proto文件编译为Python代码
@@ -377,11 +373,6 @@ def main():
     response_output_dir = "../response_proto_api"
     request_output_dir = "../request_proto_api"
     
-    # 第一步：生成proto文件
-    print("=" * 50)
-    print("第一步：生成proto文件")
-    print("=" * 50)
-    
     proto_types = ["EsPb", "ReqPb"]
     total_proto_generated = 0
     
@@ -399,10 +390,6 @@ def main():
     
     print(f"\nproto文件生成完成，共生成 {total_proto_generated} 个文件")
     
-    # 第二步：编译proto文件为Python API
-    print("\n" + "=" * 50)
-    print("第二步：编译proto文件为Python API")
-    print("=" * 50)
     
     # 清空输出目录
     for output_dir in [response_output_dir, request_output_dir]:
@@ -439,10 +426,6 @@ def main():
     else:
         print(f"目录 {request_proto_dir} 不存在，跳过")
     
-    # 输出最终统计信息
-    print("\n" + "=" * 50)
-    print("处理完成统计")
-    print("=" * 50)
     print(f"生成proto文件: {total_proto_generated} 个")
     print(f"编译成功: {total_success} 个")
     print(f"编译失败: {total_fail} 个")

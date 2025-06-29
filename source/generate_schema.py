@@ -42,11 +42,11 @@ def map_csharp_to_flatbuffers(csharp_type):
         'UInt16': 'uint16',
         'ushort': 'uint16',
     }
-    # 处理可空类型
-    nullable_match = re.match(r'Nullable<(\w+)>', csharp_type)
-    if nullable_match:
-        base_type = nullable_match.group(1)
-        return type_mapping.get(base_type, 'string')  # 未找到时默认为 string
+    # 可空类型
+    # nullable_match = re.match(r'Nullable<(\w+)>', csharp_type)
+    # if nullable_match:
+    #     base_type = nullable_match.group(1)
+    #     return type_mapping.get(base_type, 'string')
     return type_mapping.get(csharp_type, 'string')
 
 def extract_structs_and_create_methods(content):
