@@ -76,7 +76,7 @@ private:
 
 bool decryptFiles(const std::vector<fs::path> &files, const std::vector<u_int8_t> &key, const std::vector<u_int8_t> &iv);
 bool decryptAes128Cbc(const std::vector<u_int8_t> &ciphertext, std::vector<u_int8_t> &plaintext,
-                      const std::vector<u_int8_t> &key, const std::vector<u_int8_t> &iv);
+                        const std::vector<u_int8_t> &key, const std::vector<u_int8_t> &iv);
 bool deriveKeyAndIv(std::vector<u_int8_t> &key, std::vector<u_int8_t> &iv);
 bool isFileDecrypted(const fs::path &filePath);
 bool convertTablesToJson(const std::string &schema_dir, const std::string &table_dir, const std::string &output_dir);
