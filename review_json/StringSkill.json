@@ -10627,17 +10627,17 @@
     {
       "no": 26093,
       "krOffset": "ON AIR",
-      "enOffset": "",
+      "enOffset": "ON AIR",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "ON AIR",
       "zh_cnOffset": ""
     },
     {
       "no": 26094,
       "krOffset": "무섭지 않아!",
-      "enOffset": "",
+      "enOffset": "No Fear!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "我不害怕！",
       "zh_cnOffset": ""
     },
     {
@@ -10914,26 +10914,26 @@
     },
     {
       "no": 27057,
-      "krOffset": "메인 스킬을 사용 시 <감금> 상태에 빠진다. 얼티밋 스킬을 사용 시 엄포를 해제할 수 있다.",
-      "enOffset": "Using the main skill activates \"Confinement.\" Canceled by using the ultimate skill.",
+      "krOffset": "메인 스킬을 사용 시 모든 아군이 <약화> 상태에 빠진다.",
+      "enOffset": "",
       "jaOffset": "",
-      "zh_twOffset": "使用主要技能時陷入＜監禁＞狀態，使用終極技能時可解除威嚇",
+      "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
       "no": 27058,
-      "krOffset": "감금",
-      "enOffset": "Confinement",
+      "krOffset": "약화",
+      "enOffset": "",
       "jaOffset": "",
-      "zh_twOffset": "監禁",
+      "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
       "no": 27059,
-      "krOffset": "감금 당한 상태, 매우 긴 시간 동안 아무런 행동을 할 수 없다.",
-      "enOffset": "Cannot do anything for a long time while confined.",
+      "krOffset": "공격력 -50%",
+      "enOffset": "ATK -50%",
       "jaOffset": "",
-      "zh_twOffset": "處於被監禁的狀態，長時間不能做出任何行動",
+      "zh_twOffset": "攻擊力-50%",
       "zh_cnOffset": ""
     },
     {
@@ -15299,7 +15299,7 @@
     {
       "no": 27605,
       "krOffset": "낙원의 가호",
-      "enOffset": "Protection of the Paradise",
+      "enOffset": "Paradise's Protection",
       "jaOffset": "",
       "zh_twOffset": "樂園的庇佑",
       "zh_cnOffset": ""
@@ -15371,7 +15371,7 @@
     {
       "no": 27614,
       "krOffset": "다른 지속 피해는 잘 견디지만 냉기와 중독에 취약하다!",
-      "enOffset": "vulnerable to Freeze and Poison!",
+      "enOffset": "Resilient to other DoTs, but vulnerable to Freeze and Poison!",
       "jaOffset": "",
       "zh_twOffset": "能忍受其他持續傷害，但容易陷入寒氣和中毒！",
       "zh_cnOffset": ""
@@ -15381,7 +15381,7 @@
       "krOffset": "레베카의 메인 스킬로 인해 받는 최종 피해가 60% 증가한다.",
       "enOffset": "Increases total damage received from Rebecca's main skill by 60%.",
       "jaOffset": "",
-      "zh_twOffset": "受到瑞貝卡主要技能影響，最終傷害提高60%",
+      "zh_twOffset": "受到瑞貝卡主要技能影響，所受最終傷害增加60%",
       "zh_cnOffset": ""
     },
     {
@@ -15395,7 +15395,7 @@
     {
       "no": 27617,
       "krOffset": "메인 스킬 사용 시 대상에게 일정 시간동안 받는 최종 피해를 증가시키고 영구적인 감전 피해를 입힌다.",
-      "enOffset": "Using the main skill increases the damage received target for a set duration and deals permanent Shock damage.",
+      "enOffset": "Using the main skill inflicts permanent Shock on the target and increases their total damage received for a set duration.",
       "jaOffset": "",
       "zh_twOffset": "使用主要技能時，一定時間內增加目標所受最終傷害，並造成永久觸電傷害",
       "zh_cnOffset": ""
@@ -15411,302 +15411,302 @@
     {
       "no": 27619,
       "krOffset": "울프 소울",
-      "enOffset": "work in progress",
+      "enOffset": "Wolf's Soul",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "野狼靈魂",
       "zh_cnOffset": ""
     },
     {
       "no": 27620,
       "krOffset": "<저주> 상태 시 가속 <value>",
-      "enOffset": "work in progress",
+      "enOffset": "Speed <value> while under a \"Curse\"",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "＜詛咒＞狀態時加速<value>",
       "zh_cnOffset": ""
     },
     {
       "no": 27621,
       "krOffset": "저주의 무게",
-      "enOffset": "work in progress",
+      "enOffset": "Curse's Weight",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "詛咒的重量",
       "zh_cnOffset": ""
     },
     {
       "no": 27622,
       "krOffset": "<저주> 상태에서 2초마다 공격력, 물리 저항, 마법 저항이 감소한다.",
-      "enOffset": "work in progress",
+      "enOffset": "ATK, Physical Resistance, and Magic Resistance decrease every 2 sec while under a \"Curse\".",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "＜詛咒＞狀態下每2秒攻擊力、物理抵抗、魔法抵抗減少",
       "zh_cnOffset": ""
     },
     {
       "no": 27623,
       "krOffset": "저주 폭발",
-      "enOffset": "work in progress",
+      "enOffset": "Curse Explosion",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "詛咒爆發",
       "zh_cnOffset": ""
     },
     {
       "no": 27624,
       "krOffset": "효과가 종료될 때 부여된 저주의 수에 따라 추가 피해를 받는다!",
-      "enOffset": "work in progress",
+      "enOffset": "Deals additional damage based on the number of applied curses upon expiration!",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "效果結束時，根據被賦予的詛咒數量，受到額外傷害！",
       "zh_cnOffset": ""
     },
     {
       "no": 27625,
       "krOffset": "전의 상실",
-      "enOffset": "work in progress",
+      "enOffset": "Morale Down",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "喪失鬥志",
       "zh_cnOffset": ""
     },
     {
       "no": 27626,
       "krOffset": "심연의 저주",
-      "enOffset": "work in progress",
+      "enOffset": "Curse of Abyss",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "深淵的詛咒",
       "zh_cnOffset": ""
     },
     {
       "no": 27627,
       "krOffset": "가하는 피해 20% 감소, 받는 피해 10% 증가",
-      "enOffset": "work in progress",
+      "enOffset": "Damage dealt -20% and total damage received +10%",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "造成傷害減少20%、所受傷害增加10%",
       "zh_cnOffset": ""
     },
     {
       "no": 27628,
       "krOffset": "가하는 피해 25% 감소, 받는 피해 15% 증가",
-      "enOffset": "work in progress",
+      "enOffset": "Damage dealt -25% and total damage received +15%",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "造成傷害減少25%、所受傷害增加15%",
       "zh_cnOffset": ""
     },
     {
       "no": 27629,
       "krOffset": "가하는 피해 30% 감소, 받는 피해 20% 증가",
-      "enOffset": "work in progress",
+      "enOffset": "Damage dealt -30% and total damage received +20%",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "造成傷害減少30%、所受傷害增加20%",
       "zh_cnOffset": ""
     },
     {
       "no": 27630,
       "krOffset": "울프 소울",
-      "enOffset": "work in progress",
+      "enOffset": "Wolf's Soul",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "野狼靈魂",
       "zh_cnOffset": ""
     },
     {
       "no": 27631,
       "krOffset": "야수의 힘",
-      "enOffset": "work in progress",
+      "enOffset": "Beast Power",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "野獸之力",
       "zh_cnOffset": ""
     },
     {
       "no": 27632,
       "krOffset": "가랑비",
-      "enOffset": "work in progress",
+      "enOffset": "Misty Rain",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "毛毛細雨",
       "zh_cnOffset": ""
     },
     {
       "no": 27633,
       "krOffset": "느림의 미학",
-      "enOffset": "work in progress",
+      "enOffset": "The Art of Lentitude",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "慢活美學",
       "zh_cnOffset": ""
     },
     {
       "no": 27634,
       "krOffset": "받는 최종 피해 감소",
-      "enOffset": "work in progress",
+      "enOffset": "Total damage received decrease",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "所受最終傷害減少",
       "zh_cnOffset": ""
     },
     {
       "no": 27635,
       "krOffset": "굳건함",
-      "enOffset": "work in progress",
+      "enOffset": "Steadfast",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "堅毅",
       "zh_cnOffset": ""
     },
     {
       "no": 27636,
       "krOffset": "군중 제어 및 넉백 계열 효과에 면역",
-      "enOffset": "work in progress",
+      "enOffset": "Immune to crowd control effects and Knockback effects",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "對集體控制和擊退系列效果免疫",
       "zh_cnOffset": ""
     },
     {
       "no": 27637,
       "krOffset": "짓눌림",
-      "enOffset": "work in progress",
+      "enOffset": "Crushed",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "壓抑",
       "zh_cnOffset": ""
     },
     {
       "no": 27638,
       "krOffset": "중첩 당 공격력 1%, 물리 저항, 마법 저항 2% 감소",
-      "enOffset": "work in progress",
+      "enOffset": "ATK -1% and Physical/Magic Resistance -2% per stack",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "每疊加攻擊力減少1%、物理抵抗、魔法抵抗減少2%",
       "zh_cnOffset": ""
     },
     {
       "no": 27639,
       "krOffset": "중첩 당 공격력 1.5%, 물리 저항, 마법 저항 3% 감소",
-      "enOffset": "work in progress",
+      "enOffset": "ATK -1.5% and Physical/Magic Resistance -3% per stack",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "每疊加攻擊力減少1.5%、物理抵抗、魔法抵抗減少3%",
       "zh_cnOffset": ""
     },
     {
       "no": 27640,
       "krOffset": "중첩 당 공격력 2%, 물리 저항, 마법 저항 4% 감소",
-      "enOffset": "work in progress",
+      "enOffset": "ATK -2% and Physical/Magic Resistance -4% per stack",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "每疊加攻擊力減少2%、物理抵抗、魔法抵抗減少4%",
       "zh_cnOffset": ""
     },
     {
       "no": 27641,
       "krOffset": "겨울 늑대의 보호",
-      "enOffset": "work in progress",
+      "enOffset": "Winter Wolf's Protection",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "冬狼的保護",
       "zh_cnOffset": ""
     },
     {
       "no": 27642,
       "krOffset": "죽음에 이르는 피해를 받았을 때 1회에 한해 피해를 면역하고 체력을 회복한다.",
-      "enOffset": "work in progress",
+      "enOffset": "Negates fatal damage and restores HP once.",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "受到致命傷害時，僅限1次對傷害免疫並恢復體力",
       "zh_cnOffset": ""
     },
     {
       "no": 27643,
       "krOffset": "여름 여우의 축복",
-      "enOffset": "work in progress",
+      "enOffset": "Summer Fox's Protection",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "夏狐的保護",
       "zh_cnOffset": ""
     },
     {
       "no": 27644,
       "krOffset": "받는 최종 피해 80% 감소",
-      "enOffset": "work in progress",
+      "enOffset": "Total damage received -80%",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "所受最終傷害減少80%",
       "zh_cnOffset": ""
     },
     {
       "no": 27645,
       "krOffset": "받는 저주 피해 증가",
-      "enOffset": "work in progress",
+      "enOffset": "Curse damage received increase",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "所受詛咒傷害增加",
       "zh_cnOffset": ""
     },
     {
       "no": 27646,
       "krOffset": "받는 저주 피해 25% 증가",
-      "enOffset": "work in progress",
+      "enOffset": "Curse damage received +25%",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "所受詛咒傷害增加25%",
       "zh_cnOffset": ""
     },
     {
       "no": 27647,
       "krOffset": "받는 저주 피해 50% 증가",
-      "enOffset": "work in progress",
+      "enOffset": "Curse damage received +50%",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "所受詛咒傷害增加50%",
       "zh_cnOffset": ""
     },
     {
       "no": 27648,
       "krOffset": "바람의 상처",
-      "enOffset": "work in progress",
+      "enOffset": "Wind Scar",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "風之傷痕",
       "zh_cnOffset": ""
     },
     {
       "no": 27649,
       "krOffset": "비비안이 메인 스킬 사용 시 대상의 그로기가 크게 감소하고 4회까지 중첩되는 저주 피해를 부여한다.",
-      "enOffset": "work in progress",
+      "enOffset": "Vivienne's main skill inflicts a curse on the target, which deals DoT, greatly decreases the Daze Gauge, and stacks up to 4 times.",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "薇薇安使用主要技能時，大幅減少目標的無力計量條，並賦予4疊加的詛咒傷害",
       "zh_cnOffset": ""
     },
     {
       "no": 27650,
       "krOffset": "순풍",
-      "enOffset": "work in progress",
+      "enOffset": "Fair Wind",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "順風",
       "zh_cnOffset": ""
     },
     {
       "no": 27651,
       "krOffset": "비비안이 전장에 있는 동안 모든 아군의 가속이 증가한다.",
-      "enOffset": "work in progress",
+      "enOffset": "Increases Speed of all allies while Vivienne is on the battlefield.",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "薇薇安在戰場期間，所有友軍加速增加",
       "zh_cnOffset": ""
     },
     {
       "no": 27652,
       "krOffset": "인과율 위배",
-      "enOffset": "work in progress",
+      "enOffset": "Violating Causality",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "違反因果",
       "zh_cnOffset": ""
     },
     {
       "no": 27653,
-      "krOffset": "가하는 피해, 최대 체력, 마나 회복량 증가 및 일부 스킬 효과 강화",
-      "enOffset": "work in progress",
+      "krOffset": "악령과 동일한 이름을 가진 정령의 능력치 및 스킬 효과가 강화된다.",
+      "enOffset": "Enhances the stats and skill effects of Souls of the same name as the Evil Soul.",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "擁有與惡靈相同名字精靈的能力值與技能效果將強化。",
       "zh_cnOffset": ""
     },
     {
       "no": 27654,
       "krOffset": "세계를 멸망시킨 마녀",
-      "enOffset": "work in progress",
+      "enOffset": "Witch Who Destroyed the World",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "毀滅世界的魔女",
       "zh_cnOffset": ""
     },
     {
       "no": 27655,
       "krOffset": "저주 피해에 취약",
-      "enOffset": "work in progress",
+      "enOffset": "Vulnerable to Curse damage",
       "jaOffset": "",
-      "zh_twOffset": "work in progress",
+      "zh_twOffset": "容易陷入詛咒傷害",
       "zh_cnOffset": ""
     },
     {
       "no": 27656,
-      "krOffset": "work in progress",
+      "krOffset": "등대의 빛",
       "enOffset": "work in progress",
       "jaOffset": "",
       "zh_twOffset": "work in progress",
@@ -15714,7 +15714,7 @@
     },
     {
       "no": 27657,
-      "krOffset": "work in progress",
+      "krOffset": "등대의 어둠",
       "enOffset": "work in progress",
       "jaOffset": "",
       "zh_twOffset": "work in progress",
@@ -21691,81 +21691,81 @@
     {
       "no": 232170,
       "krOffset": "쿠투네시르카(카무이)",
-      "enOffset": "",
+      "enOffset": "Kutune Shirka (Kamuy)",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "阿伊努寶刀（神威）",
       "zh_cnOffset": ""
     },
     {
       "no": 232171,
       "krOffset": "울프 소울",
-      "enOffset": "",
+      "enOffset": "Wolf's Soul",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "野狼靈魂",
       "zh_cnOffset": ""
     },
     {
       "no": 232172,
       "krOffset": "전투 중 <저주>상태인 적의 가속을 <217611.VALUE> 감소시키고, 늑대의 영혼이 하루를 도와 자신이 죽음에 이르는 피해를 받았을 때 피해를 면역하고 체력을 <217616.VALUE> 회복하는 <color=#FFFFFF><겨울 늑대의 보호></color> 효과를 전투 시작 시 획득한다. (1회 발동)",
-      "enOffset": "",
+      "enOffset": "Decreases the Speed of enemies under a \"Curse\" by <217611.VALUE> during battle. When battle begins, Haru is aided by a wolf's soul and gains <color=#FFFFFF>\"Winter Wolf's Protection,\"</color> which negates fatal damage and restores <217616.VALUE> HP for her (triggers 1 time).",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "戰鬥中使處於＜詛咒＞狀態的敵人加速減少<217611.VALUE>，野狼的靈魂幫助河路，在戰鬥開始時獲得<color=#FFFFFF>＜冬狼的保護＞</color>效果，當自身受到致命傷害時對傷害免疫，體力恢復<217616.VALUE>（發動1次）",
       "zh_cnOffset": ""
     },
     {
       "no": 232173,
       "krOffset": "감소하는 가속이 <217621.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Speed decrease changes to <217621.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為加速減少<217621.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 232174,
       "krOffset": "감소하는 가속이 <217631.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Speed decrease changes to <217631.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為加速減少<217631.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 232175,
       "krOffset": "감소하는 가속이 <217641.VALUE>로 변경되고, <color=#FFFFFF><겨울 늑대의 보호></color> 효과로 회복하는 체력이 <217646.VALUE>로 변경되며, 해당 효과 발동 이후 <color=#FFFFFF>4</color>초 동안 받는 최종 피해가 <color=#EDA900>80%</color> 감소하는 <color=#FFFFFF><여름 여우의 보호></color> 효과가 추가된다. 추가로 전투 시작 시 모든 적이 받는 저주 피해가 <color=#B778FF>25%</color> 증가한다.",
-      "enOffset": "",
+      "enOffset": "Speed decrease changes to <217641.VALUE>. <color=#FFFFFF>\"Winter Wolf's Protection\"</color> restores <217646.VALUE> HP, and once it is triggered, Haru also gains \"<color=#FFFFFF>\"Summer Fox's Protection,\"</color> which decreases total damage received by <color=#EDA900>80%</color> for <color=#FFFFFF>4</color> sec. Also, when battle begins, curse damage received increases by <color=#B778FF>25%</color> for all enemies.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為加速減少<217641.VALUE>，因<color=#FFFFFF>＜冬狼的保護＞</color>效果恢復的體力變更為<217646.VALUE>，該效果發動後追加<color=#FFFFFF>＜夏狐的保護＞</color>效果，<color=#FFFFFF>4</color>秒內所受最終傷害減少<color=#EDA900>80%</color>。另外，戰鬥開始時，所有敵人所受詛咒傷害增加<color=#B778FF>25%</color>",
       "zh_cnOffset": ""
     },
     {
       "no": 232176,
       "krOffset": "감소하는 가속이 <217651.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Speed decrease changes to <217651.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為加速減少<217651.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 232177,
       "krOffset": "감소하는 가속이 <217661.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Speed decrease changes to <217661.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為加速減少<217661.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 232178,
       "krOffset": "감소하는 가속이 <217671.VALUE>로 변경되고,<color=#FFFFFF><겨울 늑대의 보호></color> 효과로 회복하는 체력이 <217676.VALUE>로 변경된다.\r\n추가로 전투 시작 시 모든 적이 받는 저주 피해가 <color=#B778FF>50%</color> 증가한다.",
-      "enOffset": "",
+      "enOffset": "Speed decrease changes to <217671.VALUE>. HP Recovery from <color=#FFFFFF>\"Winter Wolf's Protection\"</color> changes to <217676.VALUE>\r\nAlso, when battle begins, curse damage received increases by <color=#B778FF>50%</color> for all enemies.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為加速減少<217671.VALUE>，因<color=#FFFFFF>＜冬狼的保護＞</color>效果恢復的體力變更為<217676.VALUE>。\r\n另外，戰鬥開始時，所有敵人所受詛咒傷害增加<color=#B778FF>50%</color>",
       "zh_cnOffset": ""
     },
     {
       "no": 232179,
       "krOffset": "붕괴하는 세상에서 홀로 풍요로운 산, 이오루에 고독하게 남겨진 검. \r\n하지만 겨울 늑대와 여름 여우, 암수 용신의 가호는 변함없이 깃들어 있다.",
-      "enOffset": "",
+      "enOffset": "A lone sword left on Ioru, the only mountain of abundance amidst a crumbling world.\r\nStill, the protection of a winter wolf, a summer fox, and a pair of divine dragons within it remains unchanged.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "在崩塌的世界中唯獨富饒的山岳——伊奧魯，這把劍孤獨地遺留在此。\r\n但冬狼、夏狐和雌雄龍神的庇護依然蘊含其中。",
       "zh_cnOffset": ""
     },
     {
@@ -23107,7 +23107,7 @@
     {
       "no": 233185,
       "krOffset": "자신의 치명타 확률이 <318640.VALUE>, 가속이 <318641.VALUE> 증가한다.\r\n\r\n추가로 <COLOR=#FFFFFF><링크 스트라이크></COLOR> 의 모든 추가 효과를 <COLOR=#FFFFFF><마킹></COLOR> 중첩과 관계 없이 사용할 수 있게 되고 <COLOR=#FFFFFF><어퍼 블로우></COLOR> 의 피해량 증가 효과가 상시 10중첩으로 적용된다.",
-      "enOffset": "Increases her Crit Rate by <318640.VALUE> and Speed by <318641.VALUE>.\r\n\r\nAdditionally, all additional effects of <COLOR=#FFFFFF>\"Link Strike\"</COLOR> can be used regardless of <COLOR=#FFFFFF>\"Marking\"</COLOR> stacks and the damage increase of <COLOR=#FFFFFF>\"Upper Blow\"</COLOR> is now always applied at its 10 stacks.",
+      "enOffset": "Increases her Crit Rate by <318640.VALUE> and Speed by <318641.VALUE>.\r\n\r\nAlso, all additional effects of <COLOR=#FFFFFF>\"Link Strike\"</COLOR> can be used regardless of <COLOR=#FFFFFF>\"Marking\"</COLOR> stacks, and the damage increase of <COLOR=#FFFFFF>\"Upper Blow\"</COLOR> is always maximized as if the target has 10 stacks.",
       "jaOffset": "",
       "zh_twOffset": "自身暴擊率增加<318640.VALUE>、加速增加<318641.VALUE>。\r\n\r\n另外，無論<COLOR=#FFFFFF>＜鎖定＞</COLOR>疊加數，均可使用<COLOR=#FFFFFF>＜連續重擊＞</COLOR>的所有額外效果，<COLOR=#FFFFFF>＜上鉤拳＞</COLOR>的傷害量增加效果固定為10疊加",
       "zh_cnOffset": ""
@@ -23131,7 +23131,7 @@
     {
       "no": 233188,
       "krOffset": "자신의 치명타 확률이 <318670.VALUE>, 가속이 <318671.VALUE> 증가한다.\r\n\r\n추가로 <COLOR=#FFFFFF><매그넘 피니셔></COLOR>를 <COLOR=#FFFFFF><마킹></COLOR> 중첩과 관계 없이 사용할 수 있게 되고, 얼티밋 사용 이후 <COLOR=#FFFFFF><매그넘 피니셔></COLOR>를 <COLOR=#FFFFFF>2</COLOR>회 사용하는 효과가 추가된다.",
-      "enOffset": "Increases her Crit Rate by <318670.VALUE> and Speed by <318671.VALUE>.\r\n\r\nAdditionally, <COLOR=#FFFFFF>\"Magnum Finisher\"</COLOR> can be used regardless of <COLOR=#FFFFFF>\"Marking\"</COLOR> stacks. After using the ultimate skill, adds an effect that triggers <COLOR=#FFFFFF>\"Magnum Finisher</COLOR>\" <COLOR=#FFFFFF>2</COLOR> times.",
+      "enOffset": "Increases her Crit Rate by <318670.VALUE> and Speed by <318671.VALUE>.\r\n\r\nAlso, <COLOR=#FFFFFF>\"Magnum Finisher\"</COLOR> can be used regardless of <COLOR=#FFFFFF>\"Marking\"</COLOR> stacks, and using the ultimate skill adds an effect that triggers <COLOR=#FFFFFF>\"Magnum Finisher</COLOR>\" <COLOR=#FFFFFF>2</COLOR> times.",
       "jaOffset": "",
       "zh_twOffset": "自身暴擊率增加<318670.VALUE>、加速增加<318671.VALUE>。\r\n\r\n另外，無論<COLOR=#FFFFFF>＜鎖定＞</COLOR> 疊加數，均可使用<COLOR=#FFFFFF>＜麥格農終結者＞</COLOR>，且使用終極技能後，追加可使用<COLOR=#FFFFFF>2</COLOR>次<COLOR=#FFFFFF>＜麥格農終結者＞</COLOR>的效果",
       "zh_cnOffset": ""
@@ -25014,6 +25014,22 @@
       "enOffset": "A mythical tablet recorded with the roles and lifespans of all creatures in the world, symbolizing the authority of the ultimate deity.\r\r\nIt is said that the goddess of the primeval sea, who held this tablet, birthed numerous gods and created the world.",
       "jaOffset": "",
       "zh_twOffset": "象徵至高無上神權的石板，據說寫有世間萬物的職責和壽命。\r\r\n相傳擁有這片石板的太古海洋女神孕育了眾神，並創造世界。",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 236060,
+      "krOffset": "니아_유물명",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 236069,
+      "krOffset": "니아_유물 설명",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
@@ -27155,57 +27171,57 @@
     {
       "no": 342171,
       "krOffset": "포가튼 일루전",
-      "enOffset": "",
+      "enOffset": "Forgotten Illusion",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "被遺忘的幻覺",
       "zh_cnOffset": ""
     },
     {
       "no": 342172,
       "krOffset": "하울링",
-      "enOffset": "",
+      "enOffset": "Howling",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "狂嚎怒吼",
       "zh_cnOffset": ""
     },
     {
       "no": 342173,
       "krOffset": "커스 오브 어비스",
-      "enOffset": "",
+      "enOffset": "Hex of Abyss",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "深淵的咒語",
       "zh_cnOffset": ""
     },
     {
       "no": 342174,
       "krOffset": "커스드 울프",
-      "enOffset": "",
+      "enOffset": "Cursed Wolf",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "受詛咒野狼",
       "zh_cnOffset": ""
     },
     {
       "no": 342175,
       "krOffset": "드림 언다잉",
-      "enOffset": "",
+      "enOffset": "Undying Dream",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "不朽夢境",
       "zh_cnOffset": ""
     },
     {
       "no": 342179,
       "krOffset": "엔들리스 커스",
-      "enOffset": "",
+      "enOffset": "Endless Curse",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "無盡詛咒",
       "zh_cnOffset": ""
     },
     {
       "no": 342501,
       "krOffset": "정령의 기원 - 클레르",
-      "enOffset": "",
+      "enOffset": "Soul Origin - Claire",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "精靈起源－克萊兒",
       "zh_cnOffset": ""
     },
     {
@@ -29177,6 +29193,46 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 346061,
+      "krOffset": "니아_active_스킬명",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 346062,
+      "krOffset": "니아_skill01_스킬명",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 346063,
+      "krOffset": "니아_skill02_스킬명",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 346064,
+      "krOffset": "니아_passive_스킬명",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 346065,
+      "krOffset": "니아_ultimate_스킬명",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 346511,
       "krOffset": "솔 옴니부스 루체트",
       "enOffset": "Sol Omnibus Lucet",
@@ -30275,33 +30331,33 @@
     {
       "no": 349071,
       "krOffset": "야수의 힘",
-      "enOffset": "",
+      "enOffset": "Beast Power",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "野獸之力",
       "zh_cnOffset": ""
     },
     {
       "no": 349072,
       "krOffset": "가랑비",
-      "enOffset": "",
+      "enOffset": "Misty Rain",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "毛毛細雨",
       "zh_cnOffset": ""
     },
     {
       "no": 349073,
       "krOffset": "느림의 미학",
-      "enOffset": "",
+      "enOffset": "The Art of Lentitude",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "慢活美學",
       "zh_cnOffset": ""
     },
     {
       "no": 349074,
       "krOffset": "굳건함",
-      "enOffset": "",
+      "enOffset": "Steadfast",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "堅毅",
       "zh_cnOffset": ""
     },
     {
@@ -32330,18 +32386,18 @@
     },
     {
       "no": 352122,
-      "krOffset": "가장 가까운 적을 봉으로 빠르게 연타해서 공격력 <212211.VALUE>의 피해를 입힌다. <COLOR=#FFFFFF><천도 만두></COLOR> 버프 효과를 받고 있을 경우 공격력 <212212.VALUE>의 추가 피해를 입힌다. <COLOR=#FFFFFF><내려쳐라 여의금고봉!> 및 <분신술 총공격이야!!></COLOR> 효과로 강화되었을 경우 대상에게 공격력 <216211.VALUE>의 피해를 입히고 방어력을 <216233.DURATION>초 동안 <216233.VALUE> 감소시키는 스킬로 변경된다.",
-      "enOffset": "Applies a quick consecutive attack to the nearest enemy with Ruyi Jingu Bang, dealing <212211.VALUE> ATK damage. If she has the <COLOR=#FFFFFF>\"Heavenly Dumplings\"</COLOR>buff, deals additional <212212.VALUE> ATK damage. Changes to a skill that deals <216211.VALUE> ATK damage to the target and decreases their DEF by <216233.VALUE> for <216233.DURATION> sec when the skill has been enhanced by the <COLOR=#FFFFFF>the \"Ruyi Jingu Bang Strike!\" or the \"Clone Strike!!\"</COLOR> effect.",
-      "jaOffset": "一番近い敵を棒で素早く連打し、攻撃力の<212211.VALUE>のダメージを与える。<COLOR=#FFFFFF><天上の肉まん></COLOR>バフ効果を受けている場合、攻撃力の<212212.VALUE>の追加ダメージを与える。\r\n<COLOR=#FFFFFF><叩きつけ、如意金箍棒！>と<分身の術で総攻撃や!!></COLOR>効果で強化された場合、対象に攻撃力の<216211.VALUE>のダメージを与え、防御力を<216233.DURATION>秒間<216233.VALUE>減少させるスキルに変更される。",
-      "zh_twOffset": "使用金箍棒對最接近的敵人施展快速連擊，造成攻擊力<212211.VALUE>的傷害。若持有增益效果<COLOR=#FFFFFF>＜仙桃包子＞</COLOR>，則造成攻擊力<212212.VALUE>的額外傷害。以<COLOR=#FFFFFF>＜重擊吧如意金箍棒！＞及＜分身術總攻擊！！＞</COLOR>效果強化時，技能變更為對目標造成攻擊力<216211.VALUE>的傷害，且在<216233.DURATION>秒內使防禦力減少<216233.VALUE>",
+      "krOffset": "가장 가까운 적을 봉으로 빠르게 연타해서 공격력 <212211.VALUE>의 피해를 입힌다. <COLOR=#FFFFFF><천도 만두></COLOR> 버프 효과를 받고 있을 경우 공격력 <212212.VALUE>의 추가 피해를 입힌다. <COLOR=#FFFFFF><내려쳐라 여의금고봉!> 및 <분신술 총공격이야!!></COLOR> 효과로 강화되었을 경우 대상에게 공격력 <212611.VALUE>의 피해를 입히고 방어력을 <212633.DURATION>초 동안 <212633.VALUE> 감소시키는 스킬로 변경된다.",
+      "enOffset": "Applies a quick consecutive attack to the nearest enemy with Ruyi Jingu Bang, dealing <212211.VALUE> ATK damage. If she has the <COLOR=#FFFFFF>\"Heavenly Dumplings\"</COLOR>buff, deals additional <212212.VALUE> ATK damage. Changes to a skill that deals <212611.VALUE> ATK damage to the target and decreases their DEF by <212633.VALUE> for <212633.DURATION> sec when the skill has been enhanced by the <COLOR=#FFFFFF>the \"Ruyi Jingu Bang Strike!\" or the \"Clone Strike!!\"</COLOR> effect.",
+      "jaOffset": "一番近い敵を棒で素早く連打し、攻撃力の<212211.VALUE>のダメージを与える。<COLOR=#FFFFFF><天上の肉まん></COLOR>バフ効果を受けている場合、攻撃力の<212212.VALUE>の追加ダメージを与える。\r\n<COLOR=#FFFFFF><叩きつけ、如意金箍棒！>と<分身の術で総攻撃や!!></COLOR>効果で強化された場合、対象に攻撃力の<212611.VALUE>のダメージを与え、防御力を<212633.DURATION>秒間<212633.VALUE>減少させるスキルに変更される。",
+      "zh_twOffset": "使用金箍棒對最接近的敵人施展快速連擊，造成攻擊力<212211.VALUE>的傷害。若持有增益效果<COLOR=#FFFFFF>＜仙桃包子＞</COLOR>，則造成攻擊力<212212.VALUE>的額外傷害。以<COLOR=#FFFFFF>＜重擊吧如意金箍棒！＞及＜分身術總攻擊！！＞</COLOR>效果強化時，技能變更為對目標造成攻擊力<212611.VALUE>的傷害，且在<212633.DURATION>秒內使防禦力減少<212633.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 352123,
-      "krOffset": "가장 가까운 적의 다리를 노려 봉을 휘두른다. 공격력 <212311.VALUE>의 피해를 입히고 적을 넘어뜨린다. <COLOR=#FFFFFF><천도 만두></COLOR> 버프 효과를 받고 있을 경우 공격력 <212312.VALUE>의 추가 피해를 입힌다. <COLOR=#FFFFFF><내려쳐라 여의금고봉!> 및 <분신술 총공격이야!!></COLOR> 효과로 강화되었을 경우 주변 3m에 공격력 <217311.VALUE>의 피해를 입히고 <217333.DURATION>초 동안 기절시키는 스킬로 변경된다.",
-      "enOffset": "Wields her Ruyi Jingu Bang, aiming at the nearest enemy's legs. Deals <212311.VALUE> ATK damage and pushes the enemy down. If she has the <COLOR=#FFFFFF>\"Heavenly Dumplings\"</COLOR> buff, deals additional <212312.VALUE> ATK damage. Changes to a skill that deals <217311.VALUE> ATK damage to the targets within 3m and stuns them for <217333.DURATION> sec when the skill has been enhanced by <COLOR=#FFFFFF>the \"Ruyi Jingu Bang Strike!\" or the \"Clone Strike!!\"</COLOR> effect.",
-      "jaOffset": "一番近い敵の足を棒で払う。攻撃力の<212311.VALUE>のダメージを与えて敵を転倒させる。<COLOR=#FFFFFF><天上の肉まん></COLOR>バフ効果を受けている場合、攻撃力の<212312.VALUE>の追加ダメージを与える。\r\n<COLOR=#FFFFFF><叩きつけ、如意金箍棒！>と<分身の術で総攻撃や!!></COLOR>効果で強化された場合、周辺3mに攻撃力の<217311.VALUE>のダメージを与え、<217333.DURATION>秒間気絶させるスキルに変更される。",
-      "zh_twOffset": "瞄準最接近的敵人的腿部，揮舞金箍棒，造成攻擊力<212311.VALUE>的傷害，擊倒敵人。持有增益效果<COLOR=#FFFFFF>＜仙桃包子＞</COLOR>時，造成攻擊力<212312.VALUE>的額外傷害。以<COLOR=#FFFFFF>＜重擊吧如意金箍棒！＞和＜分身術總攻擊！！＞</COLOR>效果強化時，技能變更為對周遭3m造成攻擊力<217311.VALUE>的傷害，並使其在<217333.DURATION>秒內陷入暈眩",
+      "krOffset": "가장 가까운 적의 다리를 노려 봉을 휘두른다. 공격력 <212311.VALUE>의 피해를 입히고 적을 넘어뜨린다. <COLOR=#FFFFFF><천도 만두></COLOR> 버프 효과를 받고 있을 경우 공격력 <212312.VALUE>의 추가 피해를 입힌다. <COLOR=#FFFFFF><내려쳐라 여의금고봉!> 및 <분신술 총공격이야!!></COLOR> 효과로 강화되었을 경우 주변 3m에 공격력 <212711.VALUE>의 피해를 입히고 <212733.DURATION>초 동안 기절시키는 스킬로 변경된다.",
+      "enOffset": "Wields her Ruyi Jingu Bang, aiming at the nearest enemy's legs. Deals <212311.VALUE> ATK damage and pushes the enemy down. If she has the <COLOR=#FFFFFF>\"Heavenly Dumplings\"</COLOR> buff, deals additional <212312.VALUE> ATK damage. Changes to a skill that deals <212711.VALUE> ATK damage to the targets within 3m and stuns them for <212733.DURATION> sec when the skill has been enhanced by <COLOR=#FFFFFF>the \"Ruyi Jingu Bang Strike!\" or the \"Clone Strike!!\"</COLOR> effect.",
+      "jaOffset": "一番近い敵の足を棒で払う。攻撃力の<212311.VALUE>のダメージを与えて敵を転倒させる。<COLOR=#FFFFFF><天上の肉まん></COLOR>バフ効果を受けている場合、攻撃力の<212312.VALUE>の追加ダメージを与える。\r\n<COLOR=#FFFFFF><叩きつけ、如意金箍棒！>と<分身の術で総攻撃や!!></COLOR>効果で強化された場合、周辺3mに攻撃力の<212711.VALUE>のダメージを与え、<212733.DURATION>秒間気絶させるスキルに変更される。",
+      "zh_twOffset": "瞄準最接近的敵人的腿部，揮舞金箍棒，造成攻擊力<212311.VALUE>的傷害，擊倒敵人。持有增益效果<COLOR=#FFFFFF>＜仙桃包子＞</COLOR>時，造成攻擊力<212312.VALUE>的額外傷害。以<COLOR=#FFFFFF>＜重擊吧如意金箍棒！＞和＜分身術總攻擊！！＞</COLOR>效果強化時，技能變更為對周遭3m造成攻擊力<212711.VALUE>的傷害，並使其在<212733.DURATION>秒內陷入暈眩",
       "zh_cnOffset": ""
     },
     {
@@ -32563,57 +32619,57 @@
     {
       "no": 352171,
       "krOffset": "가장 가까운 적을 대상으로 검기를 날려 공격력 <217110.VALUE>의 피해를 입힌다. 대상이 만약 <color=#FFFFFF><저주></color> 상태일 경우 <217111.DURATION>초 동안 가하는 피해를 <217111.VALUE> 감소시키고, 받는 최종 피해를 <color=#B778FF><217112.VALUE></color> 증가시키는 <color=#FFFFFF><심연의 저주></color> 상태를 부여한다.",
-      "enOffset": "",
+      "enOffset": "Releases a sword blast to the nearest enemy, dealing damage equal to <217110.VALUE> of ATK. Also inflicts <color=#FFFFFF>\"Curse of Abyss\"</color> on the target, which decreases their damage dealt by <217111.VALUE> and increases total damage received by <color=#B778FF><217112.VALUE></color> for <217111.DURATION> sec if the target is under a <color=#FFFFFF>\"Curse.\"</color>",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "以最接近的敵人為目標射出劍氣，造成攻擊力<217110.VALUE>的傷害。若目標處於<color=#FFFFFF>＜詛咒＞</color>狀態，<217111.DURATION>秒內賦予<color=#FFFFFF>＜深淵的詛咒＞</color>狀態，使造成傷害減少<217111.VALUE>，所受最終傷害增加<color=#B778FF><217112.VALUE></color>",
       "zh_cnOffset": ""
     },
     {
       "no": 352172,
-      "krOffset": "가장 가까운 적을 타겟으로 늑대를 소환해 대상과 주변 3m내 모든 적에게 공격력 <217210.VALUE>의 피해를 입히고 전의를 꺾어 <217213.DURATION>초 동안 공격력을 <217213.VALUE> 감소시킨다.",
-      "enOffset": "",
+      "krOffset": "가장 가까운 적의 위치에 <217213.DURATION>초 동안 늑대를 소환하여 2초마다 대상과 주변 3m 내 모든 적에게 공격력 <217210.VALUE>의 피해를 입히고, 전의를 꺾어 <217213.DURATION>초 동안 공격력을 <217213.VALUE> 감소시킨다.",
+      "enOffset": "Summons a wolf at the location of the nearest enemy, dealing DoT equal to <217210.VALUE> of ATK every 2 sec for <217213.DURATION> sec to the target and all enemies within 3m of the target and decreasing their ATK by <217213.VALUE> for <217213.DURATION> sec by crippling their morale.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "在最接近的敵人位置召喚出野狼<217213.DURATION>秒，每2秒對目標與周遭3m內所有敵人造成攻擊力<217210.VALUE>的傷害，削弱其鬥志，<217213.DURATION>秒內使攻擊力減少<217213.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 352173,
-      "krOffset": "가장 가까운 적을 타겟으로 심연이 깃든 검기를 날려 대상과 대상 주변 3m내 모든 적에게 공격력 <217310.VALUE>의 피해를 입히고 <217311.DURATION>초 동안 <color=#FFFFFF><저주 폭발></color> 상태를 부여한다.\r\n\r\n<color=#FFFFFF><저주 폭발></color>이 종료될 때 대상이 지닌 <color=#FFFFFF><저주></color> 1중첩 당 공격력 <217312.VALUE>의 추가 피해를 입힌다. (최대 3중첩)",
-      "enOffset": "",
+      "krOffset": "가장 가까운 적을 타겟으로 심연이 깃든 검기를 날려 대상과 대상 주변 3m 내 모든 적에게 공격력 <217310.VALUE>의 피해를 입히고 <217311.DURATION>초 동안 <color=#FFFFFF><저주 폭발></color> 상태를 부여한다.\r\n\r\n<color=#FFFFFF><저주 폭발></color>이 종료될 때 대상이 지닌 <color=#FFFFFF><저주></color> 1중첩 당 공격력 <217312.VALUE>의 추가 피해를 입힌다. (최대 3중첩)",
+      "enOffset": "Unleashes an abyssal sword blast toward the nearest enemy, dealing damage equal to <217310.VALUE> of ATK to the target and all enemies within 3m of the target and inflicting <color=#FFFFFF>\"Curse Explosion\"</color> on them for <217311.DURATION> sec.\r\n\r\nUpon expiration, <color=#FFFFFF>\"Curse Explosion\"</color> deals additional damage equal to <217312.VALUE> of ATK per <color=#FFFFFF>\"Curse\"</color> stack on the target (up to 3 stacks).",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "以最接近的敵人為目標，射出蘊含深淵的劍氣，對目標與其周遭3m內所有敵人造成攻擊力<217310.VALUE>的傷害，<217311.DURATION>秒內賦予<color=#FFFFFF>＜詛咒爆發＞</color>狀態。\r\n\r\n<color=#FFFFFF>＜詛咒爆發＞</color>結束時，目標擁有的每1疊加<color=#FFFFFF>＜詛咒＞</color>造成攻擊力<217312.VALUE>的額外傷害。（最多3疊加）",
       "zh_cnOffset": ""
     },
     {
       "no": 352174,
-      "krOffset": "하루(카무이)는 검에 깃든 영혼을 적에게 날려 베어내 대상을 짓누르는 <color=#FFFFFF><저주></color>를 부여한다. 하루(카무이)의 기본 공격은 공격력 <217010.VALUE>의 피해를 입히고, 대상에게 <217011.DURATION>초 동안 2초마다 <217011.VALUE>의 <color=#FFFFFF><저주></color> 효과를 부여한다.",
-      "enOffset": "",
+      "krOffset": "하루(카무이)는 검에 깃든 영혼을 적에게 날려 베어내 대상을 짓누르는 <color=#FFFFFF><저주></color>를 부여한다. 하루(카무이)의 기본 공격은 공격력 <217010.VALUE>의 피해를 입히고, 대상에게 <217011.DURATION>초 동안 2초마다 공격력 <217011.VALUE>의 피해를 입히는 <color=#FFFFFF><저주></color> 효과를 부여한다.",
+      "enOffset": "Haru (Kamuy) unleashes the soul bound to her sword to slash the enemy, inflicting a crushing <color=#FFFFFF>\"Curse\"</color> on them. Haru (Kamuy)'s basic attack deals damage equal to <217010.VALUE> of ATK and inflicts a <color=#FFFFFF>\"Curse\"</color> on them, which deals DoT equal to <217011.VALUE> of ATK every 2 sec for <217011.DURATION> sec.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "河路（神威）對敵人射出劍上蘊藏的靈魂並砍擊對方，賦予壓制目標的<color=#FFFFFF>＜詛咒＞</color>。河路（神威）的基本攻擊造成攻擊力<217010.VALUE>的傷害，<217011.DURATION>秒內賦予目標每2秒造成攻擊力<217011.VALUE>傷害的<color=#FFFFFF>＜詛咒＞</color>效果",
       "zh_cnOffset": ""
     },
     {
       "no": 352175,
       "krOffset": "하루가 꿈에서도 잊지 못할 존재를 소환해 가장 멀리 있는 적을 대상으로 물어 뜯고 지나가 대상에게는 공격력 <color=#E67373>400%</color>의 피해를 입히고, 직선 11m, 폭 5m 내 모든 적에게 공격력 <color=#E67373>200%</color>의 피해를 입히며 영구적인 <color=#FFFFFF><저주의 무게></color> 효과를 부여한다.\r\n \r\n<color=#FFFFFF><저주의 무게></color> 상태인 적의 <color=#FFFFFF><저주></color> 효과가 2초 동안 유지될 때마다 적의 공격력이 <217512.VALUE>, 물리 저항, 마법 저항이 <217513.VALUE> 감소하는 <color=#FFFFFF><짓눌림></color> 효과를 부여한다. (짓눌림은 해제가 가능하며 최대 15중첩까지 적용된다.)",
-      "enOffset": "",
+      "enOffset": "Haru summons an unforgettable entity to maul the farthest enemy, dealing damage equal to <color=#E67373>400%</color> of ATK to the target while dealing damage equal to <color=#E67373>200%</color> of ATK to all enemies within an 11m long and 5m wide area and inflicting permanent <color=#FFFFFF>\"Curse's Weight\"</color> on them.\r\n\r\nFor every 2 sec the <color=#FFFFFF>\"Curse\"</color> remains active on the target, <color=#FFFFFF>\"Curse's Weight\"</color> inflicts <color=#FFFFFF>\"Crushed,\"</color> decreasing the target's ATK by <217512.VALUE> and Physical Resistance and Magic Resistance by <217513.VALUE> (cancellable and up to 15 stacks).",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "河路召喚在夢中也難以忘懷的存在，以最遙遠的敵人為目標撕咬並掠過，對目標造成攻擊力<color=#E67373>400%</color>的傷害，對直線11m、寬幅5m內的所有敵人造成攻擊力<color=#E67373>200%</color>的傷害，賦予永久的<color=#FFFFFF>＜詛咒的重量＞</color>效果。\r\n\r\n每當處於<color=#FFFFFF>＜詛咒的重量＞</color>狀態的敵人<color=#FFFFFF>＜詛咒＞</color>效果維持2秒期間，賦予<color=#FFFFFF>＜壓抑＞</color>效果，使敵人攻擊力減少<217512.VALUE>、物理抵抗、魔法抵抗減少<217513.VALUE>（壓抑可解除，最多可套用至15疊加。）",
       "zh_cnOffset": ""
     },
     {
       "no": 352179,
       "krOffset": "리더 정령이 전장에 있는 동안 <저주> 상태인 적이 받는 최종 피해가 10% 증가한다.",
-      "enOffset": "",
+      "enOffset": "While the lead Soul is on the battlefield, the total damage received for enemies under an active \"Curse\" increases by 10%.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "隊長精靈在戰場上時，處於＜詛咒＞狀態的敵人所受最終傷害增加10%",
       "zh_cnOffset": ""
     },
     {
       "no": 352501,
       "krOffset": "아군 클레르의 능력치가 대폭 증가하고, 2초 마다 자신 주변 5m내 모든 적에게 자신 최대 체력의 30%만큼 피해를 입힌다.",
-      "enOffset": "",
+      "enOffset": "Greatly increases stats. Every 2 sec, she deals 30% max HP damage to all enemies within 5m.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "友軍克萊兒的能力值大幅增加，每2秒對自身周遭5m內所有敵人造成自身體力上限30%的傷害",
       "zh_cnOffset": ""
     },
     {
@@ -33387,17 +33443,17 @@
     {
       "no": 353181,
       "krOffset": "가장 가까운 대상에게 강력한 일격을 가해 공격력 <318110.VALUE>의 피해를 입히고, 다음 스킬로 <COLOR=#FFFFFF><어퍼 블로우></COLOR>를 사용한다. ",
-      "enOffset": "Delivers a powerful blow to the nearest target, dealing damage equal to <318110.VALUE>of ATK, then instantly follows up with <COLOR=#FFFFFF>\"Upper Blow\"</COLOR> as the next skill.",
+      "enOffset": "Delivers a powerful blow to the nearest target, dealing damage equal to <318110.VALUE> of ATK, then follows up with <COLOR=#FFFFFF>\"Upper Blow\"</COLOR> as the next skill. ",
       "jaOffset": "",
-      "zh_twOffset": "對最接近的目標使出強力一擊，造成攻擊力<318110.VALUE>的傷害，下一技能立刻使用<COLOR=#FFFFFF>＜上鉤拳＞</COLOR>",
+      "zh_twOffset": "對最接近的目標使出強力一擊，造成攻擊力<318110.VALUE>的傷害，下一技能使用<COLOR=#FFFFFF>＜上鉤拳＞</COLOR>",
       "zh_cnOffset": ""
     },
     {
       "no": 353182,
       "krOffset": "라우라는 공격 후 대기 시간 없이 연속으로 스킬을 사용하며, 다음과 같은 순서로 스킬을 사용한다.\r\n<COLOR=#00B700><스킬 사용 순서></COLOR>\r\n스파이럴 킥 → 펜타 스트라이크 → 어퍼 블로우\r\n\r\n<COLOR=#E0942C><스파이럴 킥></COLOR>\r\n가장 가까운 적을 대상으로 공격력 <318010.VALUE>의 피해를 입힌다. 대상의 <COLOR=#FFFFFF><마킹></COLOR>이 <COLOR=#FFFFFF>3</COLOR>중첩 이상일 경우 공격력 <318013.VALUE>의 추가 피해를 입힌다.\r\n\r\n<COLOR=#E0942C><펜타 스트라이크></COLOR>\r\n가장 가까운 적을 대상으로 공격력 <318210.VALUE>의 피해를 입히고 이로운 효과를 2개 해제 시킨다. 대상의 <COLOR=#FFFFFF><마킹></COLOR>이 <COLOR=#FFFFFF>6</COLOR>중첩 이상일 경우 <318212.DURATION>초 동안 대상이 받는 최종 피해가 <318212.VALUE> 증가한다.\r\n\r\n<COLOR=#E0942C><어퍼 블로우></COLOR>\r\n가장 가까운 적을 대상으로 공격력 <318310.VALUE>의 피해를 입히고, 대상이 보유 중인 <COLOR=#FFFFFF><마킹></COLOR> 중첩 <COLOR=#FFFFFF>2</COLOR>중첩 당 피해량이 <318311.VALUE>씩 증가한다.\r\n",
-      "enOffset": "Laura performs consecutive skills with no cooldown between them, using them in the following order.\r\n<COLOR=#00B700>Skill Activation Sequence:</COLOR>\r\nSpiral Kick → Penta Strike → Upper Blow\r\n\r\n<COLOR=#E0942C>\"Spiral Kick\"</COLOR>\r\nDeals damage equal to <318010.VALUE> of ATK to the nearest enemy.\r\nIf the target has <COLOR=#FFFFFF>3</COLOR> or more stacks of <COLOR=#FFFFFF>\"Marking,\"</COLOR> deals additional damage equal to <318013.VALUE> of ATK.\r\n\r\n<COLOR=#E0942C>\"Penta Strike\"</COLOR>\r\nDeals damage equal to <318210.VALUE> of ATK to the nearest enemy and cancels 2 positive effects.\r\nIf the target has <COLOR=#FFFFFF>6</COLOR> or more stacks of <COLOR=#FFFFFF>\"Marking,\"</COLOR> increases their total damage received by <318212.VALUE> for <318212.DURATION> sec.\r\n\r\n<COLOR=#E0942C>\"Upper Blow\"</COLOR>\r\nDeals damage equal to <318310.VALUE> of ATK to the nearest enemy. For every <COLOR=#FFFFFF>2</COLOR> stacks of <COLOR=#FFFFFF>\"Marking\"</COLOR> on the target, increases damage by <318311.VALUE>.\r\n",
+      "enOffset": "Laura performs consecutive skills with no cooldown between them, using them in the following order.\r\n<COLOR=#00B700>Skill Activation Sequence:</COLOR>\r\nSpiral Kick → Penta Strike → Upper Blow\r\n\r\n<COLOR=#E0942C>\"Spiral Kick\"</COLOR>\r\nDeals damage equal to <318010.VALUE> of ATK to the nearest enemy. If the target has <COLOR=#FFFFFF>3</COLOR> or more stacks of <COLOR=#FFFFFF>\"Marking,\"</COLOR> deals additional damage equal to <318013.VALUE> of ATK.\r\n\r\n<COLOR=#E0942C>\"Penta Strike\"</COLOR>\r\nDeals damage equal to <318210.VALUE> of ATK to the nearest enemy and cancels 2 positive effects. If the target has <COLOR=#FFFFFF>6</COLOR> or more stacks of <COLOR=#FFFFFF>\"Marking,\"</COLOR> increases their total damage received by <318212.VALUE> for <318212.DURATION> sec.\r\n\r\n<COLOR=#E0942C>\"Upper Blow\"</COLOR>\r\nDeals damage equal to <318310.VALUE> of ATK to the nearest enemy. For every <COLOR=#FFFFFF>2</COLOR> stacks of <COLOR=#FFFFFF>\"Marking\"</COLOR> on the target, increases damage by <318311.VALUE>.\r\n",
       "jaOffset": "",
-      "zh_twOffset": "蘿拉攻擊後無須冷卻時間，連續使用技能，並按照下列順序發動技能。\r\n<COLOR=#00B700>＜技能使用順序＞</COLOR>\r\n螺旋踢 → 五連擊 → 上鉤拳\r\n\r\n<COLOR=#E0942C>＜螺旋踢＞</COLOR>\r\n對最接近的敵人造成攻擊力<318010.VALUE>的傷害\r\n當目標的<COLOR=#FFFFFF>＜鎖定＞</COLOR>達<COLOR=#FFFFFF>3</COLOR>疊加以上時，造成攻擊力<318013.VALUE>的額外傷害\r\n\r\n<COLOR=#E0942C>＜五連擊＞</COLOR>\r\n對最接近的敵人造成攻擊力<318210.VALUE>的傷害，並解除2個有利效果。\r\n當目標的<COLOR=#FFFFFF>＜鎖定＞</COLOR>達<COLOR=#FFFFFF>6</COLOR>疊加以上時，<318212.DURATION>秒內使目標所受最終傷害增加<318212.VALUE>\r\n\r\n<COLOR=#E0942C>＜上鉤拳＞</COLOR>\r\n對最接近的敵人造成攻擊力<318310.VALUE>的傷害，目標持有的每<COLOR=#FFFFFF>2</COLOR>個<COLOR=#FFFFFF>＜鎖定＞</COLOR>疊加，增加傷害量<318311.VALUE>\r\n",
+      "zh_twOffset": "蘿拉攻擊後無須冷卻時間，連續使用技能，並按照下列順序發動技能。\r\n<COLOR=#00B700>＜技能使用順序＞</COLOR>\r\n螺旋踢 → 五連擊 → 上鉤拳\r\n\r\n<COLOR=#E0942C>＜螺旋踢＞</COLOR>\r\n對最接近的敵人造成攻擊力<318010.VALUE>的傷害。當目標的<COLOR=#FFFFFF>＜鎖定＞</COLOR>達<COLOR=#FFFFFF>3</COLOR>疊加以上時，造成攻擊力<318013.VALUE>的額外傷害\r\n\r\n<COLOR=#E0942C>＜五連擊＞</COLOR>\r\n對最接近的敵人造成攻擊力<318210.VALUE>的傷害，並解除2個有利效果。當目標的<COLOR=#FFFFFF>＜鎖定＞</COLOR>達<COLOR=#FFFFFF>6</COLOR>疊加以上時，<318212.DURATION>秒內使目標所受最終傷害增加<318212.VALUE>\r\n\r\n<COLOR=#E0942C>＜上鉤拳＞</COLOR>\r\n對最接近的敵人造成攻擊力<318310.VALUE>的傷害，目標持有的每<COLOR=#FFFFFF>2</COLOR>個<COLOR=#FFFFFF>＜鎖定＞</COLOR>疊加，增加傷害量<318311.VALUE>\r\n",
       "zh_cnOffset": ""
     },
     {
@@ -33411,23 +33467,23 @@
     {
       "no": 353184,
       "krOffset": "라우라의 기본 공격과 서브 스킬은 <318410.DURATION>초 동안 대상에게 <COLOR=#FFFFFF><마킹></COLOR> 효과를 부여한다. 대상의 <COLOR=#FFFFFF><마킹></COLOR> <COLOR=#FFFFFF>1</COLOR>중첩 당 대상의 치명타 피격률이 <318410.VALUE> 증가한다. (최대 10중첩)",
-      "enOffset": "Laura's basic attacks and sub skills apply <COLOR=#FFFFFF>\"Marking\"</COLOR> for <318410.DURATION> sec. For each stack of <COLOR=#FFFFFF>\"Marking\",</COLOR> increases the target's Incoming Crit Rate by <318410.VALUE>.",
+      "enOffset": "Laura's basic attacks and sub skills apply <COLOR=#FFFFFF>\"Marking\"</COLOR> on the target for <318410.DURATION> sec. <COLOR=#FFFFFF>Each</COLOR> stack of <COLOR=#FFFFFF>\"Marking\"</COLOR> increases the target's Incoming Crit Rate by <318410.VALUE> (up to 10 stacks).",
       "jaOffset": "",
-      "zh_twOffset": "蘿拉使用的基本攻擊和輔助技能在<318410.DURATION>秒內賦予目標<COLOR=#FFFFFF>＜鎖定＞</COLOR>效果。目標每1疊加<COLOR=#FFFFFF>＜鎖定＞</COLOR>將使目標的被暴擊擊中率增加<318410.VALUE>",
+      "zh_twOffset": "蘿拉的基本攻擊和輔助技能在<318410.DURATION>秒內賦予目標<COLOR=#FFFFFF>＜鎖定＞</COLOR>效果。目標每<COLOR=#FFFFFF>1</COLOR>疊加<COLOR=#FFFFFF>＜鎖定＞</COLOR>將使目標的被暴擊擊中率增加<318410.VALUE>。（最多10疊加）",
       "zh_cnOffset": ""
     },
     {
       "no": 353185,
       "krOffset": "대상에게 공격력 <318510.VALUE>의 피해를 입히고, 직선 5m, 폭 3m 내 모든 적을 대상으로 공격력 <318511.VALUE>의 범위 피해를 입힌다. 추가로, 자신의 <COLOR=#FFFFFF><피니셔></COLOR> 중첩이 <COLOR=#FFFFFF>5</COLOR>중첩일 경우 대상에게 공격력 <318512.VALUE>의 추가 피해를 입힌다.",
-      "enOffset": "Deals damage equal to <318510.VALUE> of ATK and deals an additional damage equal to <318511.VALUE> of ATK to all enemies within a 5m long and 3m wide area. Additionally, if she has <COLOR=#FFFFFF>5</COLOR> stacks of <COLOR=#FFFFFF>\"Finisher,\"</COLOR> she deals additional damage equal to <318512.VALUE> of ATK to the target.",
+      "enOffset": "Deals damage equal to <318510.VALUE> of ATK to the target and also deals AoE damage equal to <318511.VALUE> of ATK to all enemies within a 5m long and 3m wide area. If <COLOR=#FFFFFF>\"Finisher\"</COLOR> is at <COLOR=#FFFFFF>5</COLOR> stacks, she also deals additional damage equal to <318512.VALUE> of ATK to the target.",
       "jaOffset": "",
-      "zh_twOffset": "對目標造成攻擊力<318510.VALUE>的傷害，對直線5m、寬幅3m內的所有敵人造成攻擊力<318511.VALUE>的額外傷害。另外，當自身的<COLOR=#FFFFFF>＜終結者＞</COLOR>達<COLOR=#FFFFFF>5</COLOR>疊加時，對目標造成攻擊力<318512.VALUE>的額外傷害",
+      "zh_twOffset": "對目標造成攻擊力<318510.VALUE>的傷害，以直線5m、寬幅3m內所有敵人為目標，造成攻擊力<318511.VALUE>的範圍傷害。另外，當自身的<COLOR=#FFFFFF>＜終結者＞</COLOR>達<COLOR=#FFFFFF>5</COLOR>疊加時，對目標造成攻擊力<318512.VALUE>的額外傷害",
       "zh_cnOffset": ""
     },
     {
       "no": 353189,
       "krOffset": "리더 정령이 공격을 받을 때마다 리더 정령의 가하는 피해를 6초 동안 0.5% 증가 시킨다. (최대 10중첩)",
-      "enOffset": "When the lead Soul receives attacks, increases the lead Soul's damage dealt by 0.5% for 6 sec (up to 10 stacks).",
+      "enOffset": "Whenever the lead Soul is attacked, her damage dealt is increased by 0.5% for 6 sec (up to 10 stacks).",
       "jaOffset": "",
       "zh_twOffset": "每當隊長精靈受到攻擊時，隊長精靈造成傷害在6秒內增加0.5%（最多10疊加）",
       "zh_cnOffset": ""
@@ -34577,6 +34633,46 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 356061,
+      "krOffset": "니아_active_1레벨",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 356062,
+      "krOffset": "니아_skill01_1레벨",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 356063,
+      "krOffset": "니아_skill02_1레벨",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 356064,
+      "krOffset": "니아_passive_1레벨",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 356065,
+      "krOffset": "니아_ultimate_1레벨",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 356511,
       "krOffset": "모든 아군을 태양의 빛으로 보호하여 <651111.DURATION>초 동안 공격력 <651111.VALUE>만큼의 피해를 흡수하는 보호막 <COLOR=#FFFFFF><아르마 솔레스></COLOR>를 부여하고 보호막이 부여되어 있는 동안 보호막 주변 2.5m 내의 적에게 2초마다 <651113.VALUE>만큼 피해를 입힌다.\r\n\r\n<COLOR=#FFFFFF><솔 에테르누스></COLOR> 추가 효과 - 해당 효과가 자신에게만 적용되고 주변에 입히는 피해량이 2배로 증가한다.",
       "enOffset": "Protects all allies with the light of the sun, granting them the shield <COLOR=#FFFFFF>\"Arma Solis,\"</COLOR> which absorbs damage equal to <651111.VALUE> of ATK and deals <651113.VALUE> damage to enemies within 2.5m every 2 sec for <651111.DURATION> sec.\r\r\n\r\r\n<COLOR=#FFFFFF>\"Sol Aeternus\"</COLOR> synergy effect - the effect only applies to her, and the damage dealt to nearby enemies is doubled.",
@@ -34851,7 +34947,7 @@
     {
       "no": 358052,
       "krOffset": "보유한 마나가 가장 많은 적을 대상으로 회오리를 일으켜 공격력 <805210.VALUE>의 피해를 입히고 넘어뜨린다.\r\n대상이 보유한 마나가 70% 이상일 경우 대상의 마나를 0으로 만들고 모든 적과 자신의 마나를 <color=#4ABFD3>2500</color> 회복한다.",
-      "enOffset": "Creates a vortex targeting the enemy with the highest Mana, dealing damage equal to <805210.VALUE> of ATK and knocking them down.\r\nIf the target has 70% or more Mana, decreases their Mana to 0, and restores the Mana of all enemies and Vivienne by <color=#4ABFD3>2500</color>.",
+      "enOffset": "Creates a vortex targeting the enemy with the highest Mana, dealing damage equal to <805210.VALUE> of ATK and knocking them down.\r\nIf the target has 70% or more Mana, decreases their Mana to 0, and restores the Mana of herself and all her allies by <color=#4ABFD3>2500</color>.",
       "jaOffset": "",
       "zh_twOffset": "對持有最多魔力的敵人颳起旋風，造成攻擊力<805210.VALUE>的傷害並將其擊倒。\r\n若目標持有70%以上魔力，使目標魔力歸0，並恢復所有敵人和自身魔力<color=#4ABFD3>2500</color>",
       "zh_cnOffset": ""
@@ -35675,33 +35771,33 @@
     {
       "no": 359071,
       "krOffset": "야수형 정령의 가하는 피해 200% 증가",
-      "enOffset": "",
+      "enOffset": "Damage dealt by Beast Souls +200%",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "野獸型精靈的造成傷害增加200%",
       "zh_cnOffset": ""
     },
     {
       "no": 359072,
       "krOffset": "모든 적군이 받는 지속 피해 8배 증가",
-      "enOffset": "",
+      "enOffset": "All enemies' Incoming DoT x8",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "所有敵軍所受持續傷害增加8倍",
       "zh_cnOffset": ""
     },
     {
       "no": 359073,
       "krOffset": "모든 적군의 가속 10% 감소",
-      "enOffset": "",
+      "enOffset": "All enemies' Speed -10%",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "所有敵軍加速減少10%",
       "zh_cnOffset": ""
     },
     {
       "no": 359074,
       "krOffset": "모든 아군의 받는 최종 피해가 10% 감소하고, 정령이 메인 스킬을 사용한 이후 4초 동안 군중 제어 효과 및 넉백 계열 효과에 면역된다.",
-      "enOffset": "",
+      "enOffset": "All allies' total damage received decreases by 10%. Any Soul using her main skill becomes immune to crowd control effects and knockback effects for 4 sec.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "所有友軍所受最終傷害減少10%，精靈使用主要技能後，4秒內對集體控制效果及擊退系列效果免疫",
       "zh_cnOffset": ""
     },
     {
@@ -37698,10 +37794,10 @@
     },
     {
       "no": 362123,
-      "krOffset": "피해량이 <212321.VALUE>, 추가 피해량이 <212322.VALUE>로 변경된다.\r\n<COLOR=#FFFFFF><내려쳐라 여의금고봉!> 및 <분신술 총공격이야!!></COLOR> 효과로 강화되었을 경우의 피해량이 <217321.VALUE>로 변경된다.",
-      "enOffset": "Damage changes to <212321.VALUE>, additional damage changes to <212322.VALUE>.\r\nDamage changes to <217321.VALUE> when the skill has been enhanced by <COLOR=#FFFFFF>the \"Ruyi Jingu Bang Strike!\" or the \"Clone Strike!!\"</COLOR> effect.",
-      "jaOffset": "ダメージ量が<212321.VALUE>、追加ダメージ量が<212322.VALUE>に変更される。\r\n<COLOR=#FFFFFF><叩きつけ、如意金箍棒！>と<分身の術で総攻撃や!!></COLOR>効果で強化された場合のダメージ量が<217321.VALUE>に変更される。",
-      "zh_twOffset": "變更為造成<212321.VALUE>的傷害、造成<212322.VALUE>的額外傷害。\r\n以<COLOR=#FFFFFF>＜重擊吧如意金箍棒！＞和<分身術總攻擊！！></COLOR>效果強化時，變更為造成<217321.VALUE>的傷害",
+      "krOffset": "피해량이 <212321.VALUE>, 추가 피해량이 <212322.VALUE>로 변경된다.\r\n<COLOR=#FFFFFF><내려쳐라 여의금고봉!> 및 <분신술 총공격이야!!></COLOR> 효과로 강화되었을 경우의 피해량이 <212721.VALUE>로 변경된다.",
+      "enOffset": "Damage changes to <212321.VALUE>, additional damage changes to <212322.VALUE>.\r\nDamage changes to <212721.VALUE> when the skill has been enhanced by <COLOR=#FFFFFF>the \"Ruyi Jingu Bang Strike!\" or the \"Clone Strike!!\"</COLOR> effect.",
+      "jaOffset": "ダメージ量が<212321.VALUE>、追加ダメージ量が<212322.VALUE>に変更される。\r\n<COLOR=#FFFFFF><叩きつけ、如意金箍棒！>と<分身の術で総攻撃や!!></COLOR>効果で強化された場合のダメージ量が<212721.VALUE>に変更される。",
+      "zh_twOffset": "變更為造成<212321.VALUE>的傷害、造成<212322.VALUE>的額外傷害。\r\n以<COLOR=#FFFFFF>＜重擊吧如意金箍棒！＞和<分身術總攻擊！！></COLOR>效果強化時，變更為造成<212721.VALUE>的傷害",
       "zh_cnOffset": ""
     },
     {
@@ -37923,49 +38019,49 @@
     {
       "no": 362171,
       "krOffset": "피해량이 <217120.VALUE>로, 감소하는 가하는 피해가 <217121.VALUE>로, 받는 최종 피해가 <color=#B778FF><217122.VALUE></color>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <217120.VALUE>, damage dealt decrease changes to <217121.VALUE>, and total damage received increase changes to <color=#B778FF><217122.VALUE></color>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為傷害量<217120.VALUE>、造成傷害減少<217121.VALUE>、所受最終傷害增加<color=#B778FF><217122.VALUE></color>",
       "zh_cnOffset": ""
     },
     {
       "no": 362172,
       "krOffset": "피해량이 <217220.VALUE>로 변경되고 감소하는 공격력이 <217223.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <217220.VALUE>, and ATK decrease changes to <217223.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<217220.VALUE>的傷害量，攻擊力減少<217223.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 362173,
       "krOffset": "피해량이 <217320.VALUE>로, <color=#FFFFFF><저주></color> 1중첩 당 추가 피해가 <217322.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <217320.VALUE>, and additional damage per <color=#FFFFFF>\"Curse\"</color> stack changes to <217322.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<217320.VALUE>的傷害量，每1疊加<color=#FFFFFF>＜詛咒＞</color>造成<217322.VALUE>額外傷害",
       "zh_cnOffset": ""
     },
     {
       "no": 362174,
       "krOffset": "기본 공격의 피해량이 <217020.VALUE>로 변경되고, 지속 피해량이 <217021.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Basic attack damage changes to <217020.VALUE>, and DoT changes to <217021.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "基本攻擊變更為造成<217020.VALUE>的傷害量、造成<217021.VALUE>的持續傷害量",
       "zh_cnOffset": ""
     },
     {
       "no": 362175,
       "krOffset": "대상 피해량이 <color=#E67373>425%</color>로 범위 피해가 <color=#E67373>225%</color>로 변경되고, 중첩 당 감소하는 공격력이 <217522.VALUE>, 물리/마법 저항이 <217523.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Target damage changes to <color=#E67373>425%</color>, and AoE damage changes to <color=#E67373>225%</color>. ATK decrease per stack changes to <217522.VALUE>, and Physical/Magic Resistance decrease per stack changes to <217523.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "目標傷害量變更為<color=#E67373>425%</color>、範圍傷害變更為<color=#E67373>225%</color>，每疊加變更為攻擊力減少<217522.VALUE>、物理／魔法抵抗減少<217523.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 362179,
       "krOffset": "리더 정령이 전장에 있는 동안 <저주> 상태인 적이 받는 최종 피해가 12.5% 증가한다.",
-      "enOffset": "",
+      "enOffset": "While the lead Soul is on the battlefield, the total damage received for enemies under an active \"Curse\" increases by 12.5%.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "隊長精靈在戰場上時，處於＜詛咒＞狀態的敵人所受最終傷害增加12.5%",
       "zh_cnOffset": ""
     },
     {
@@ -38699,9 +38795,9 @@
     {
       "no": 363181,
       "krOffset": "피해량이 <318120.VALUE>로 변경되고, 다음 <COLOR=#FFFFFF><어퍼 블로우></COLOR> 에 공격력 <318123.VALUE>의 추가 피해를 더한다.",
-      "enOffset": "Damage changes to <318120.VALUE>, and the next skill, <COLOR=#FFFFFF>\"Upper Blow\",</COLOR> deals additional damage equal to <318123.VALUE> of ATK.",
+      "enOffset": "Damage changes to <318120.VALUE>, and the next <COLOR=#FFFFFF>\"Upper Blow\"</COLOR> deals additional damage equal to <318123.VALUE> of ATK.",
       "jaOffset": "",
-      "zh_twOffset": "變更為造成<318120.VALUE>的傷害量，下一技能的<COLOR=#FFFFFF>＜上鉤拳＞</COLOR>追加攻擊力<318123.VALUE>的額外傷害",
+      "zh_twOffset": "變更為造成<318120.VALUE>的傷害量，下一次<COLOR=#FFFFFF>＜上鉤拳＞</COLOR>追加攻擊力<318123.VALUE>的額外傷害",
       "zh_cnOffset": ""
     },
     {
@@ -38739,7 +38835,7 @@
     {
       "no": 363189,
       "krOffset": "리더 정령이 공격을 받을 때마다 리더 정령의 가하는 피해를 6초 동안 1% 증가 시킨다. (최대 10중첩)",
-      "enOffset": "When the lead Soul receives attacks, increases the lead Soul's damage dealt by 1% for 6 sec (up to 10 stacks).",
+      "enOffset": "Whenever the lead Soul is attacked, her damage dealt is increased by 1% for 6 sec (up to 10 stacks).",
       "jaOffset": "",
       "zh_twOffset": "每當隊長精靈受到攻擊時，隊長精靈造成傷害在6秒內增加1%（最多10疊加）",
       "zh_cnOffset": ""
@@ -39878,6 +39974,46 @@
       "enOffset": "Using the main skill fully restores Eve's Mana. Using the main skill again with full Mana propels her into an <COLOR=#FFFFFF>\"Overload\"</COLOR> mode for <605924.DURATION> sec, during which Mana Recovery is disabled.",
       "jaOffset": "",
       "zh_twOffset": "使用主要技能時，恢復滿滿魔力。在該狀態下再次使用主要技能時，<605924.DURATION>秒內進入<COLOR=#FFFFFF>＜超負荷＞</COLOR>狀態，並成為無法恢復魔力的狀態",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 366061,
+      "krOffset": "니아_active_2레벨",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 366062,
+      "krOffset": "니아_skill01_2레벨",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 366063,
+      "krOffset": "니아_skill02_2레벨",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 366064,
+      "krOffset": "니아_passive_2레벨",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 366065,
+      "krOffset": "니아_ultimate_2레벨",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
@@ -41658,10 +41794,10 @@
     },
     {
       "no": 372123,
-      "krOffset": "피해량이 <212331.VALUE>, 추가 피해량이 <212332.VALUE>로 변경된다. 대상을 <212333.DURATION>초 동안 기절 시키는 효과가 추가된다.\r\n<COLOR=#FFFFFF><내려쳐라 여의금고봉!> 및 <분신술 총공격이야!!></COLOR> 효과로 강화되었을 경우의 피해량이 <217331.VALUE>로 변경된다.",
-      "enOffset": "Damage changes to <212331.VALUE>, additional damage changes to <212332.VALUE>. Adds an effect which stuns target for <212333.DURATION> sec.\r\nDamage changes to <217331.VALUE> when the skill has been enhanced by <COLOR=#FFFFFF>the \"Ruyi Jingu Bang Strike!\" or the \"Clone Strike!!\"</COLOR> effect.",
-      "jaOffset": "ダメージ量が<212331.VALUE>、追加ダメージ量が<212332.VALUE>に変更される。対象を<212333.DURATION>秒間気絶させる効果が追加される。\r\n<COLOR=#FFFFFF><叩きつけ、如意金箍棒！>と<分身の術で総攻撃や!!></COLOR>効果で強化された場合のダメージ量が<217331.VALUE>に変更される。",
-      "zh_twOffset": "變更為造成<212331.VALUE>的傷害、造成<212332.VALUE>的額外傷害，並新增使目標在<212333.DURATION>秒內暈眩的效果。\r\n以<COLOR=#FFFFFF>＜重擊吧如意金箍棒！＞和＜分身術總攻擊！！＞</COLOR>效果強化時，變更為造成<217331.VALUE>的傷害",
+      "krOffset": "피해량이 <212331.VALUE>, 추가 피해량이 <212332.VALUE>로 변경된다. 대상을 <212333.DURATION>초 동안 기절 시키는 효과가 추가된다.\r\n<COLOR=#FFFFFF><내려쳐라 여의금고봉!> 및 <분신술 총공격이야!!></COLOR> 효과로 강화되었을 경우의 피해량이 <212731.VALUE>로 변경된다.",
+      "enOffset": "Damage changes to <212331.VALUE>, additional damage changes to <212332.VALUE>. Adds an effect which stuns target for <212333.DURATION> sec.\r\nDamage changes to <212731.VALUE> when the skill has been enhanced by <COLOR=#FFFFFF>the \"Ruyi Jingu Bang Strike!\" or the \"Clone Strike!!\"</COLOR> effect.",
+      "jaOffset": "ダメージ量が<212331.VALUE>、追加ダメージ量が<212332.VALUE>に変更される。対象を<212333.DURATION>秒間気絶させる効果が追加される。\r\n<COLOR=#FFFFFF><叩きつけ、如意金箍棒！>と<分身の術で総攻撃や!!></COLOR>効果で強化された場合のダメージ量が<212731.VALUE>に変更される。",
+      "zh_twOffset": "變更為造成<212331.VALUE>的傷害、造成<212332.VALUE>的額外傷害，並新增使目標在<212333.DURATION>秒內暈眩的效果。\r\n以<COLOR=#FFFFFF>＜重擊吧如意金箍棒！＞和＜分身術總攻擊！！＞</COLOR>效果強化時，變更為造成<212731.VALUE>的傷害",
       "zh_cnOffset": ""
     },
     {
@@ -41883,49 +42019,49 @@
     {
       "no": 372171,
       "krOffset": "피해량이 <217130.VALUE>로, 감소하는 가하는 피해가 <217131.VALUE>로, 받는 최종 피해가 <color=#B778FF><217132.VALUE></color>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <217130.VALUE>, damage dealt decrease changes to <217131.VALUE>, and total damage received increase changes to <color=#B778FF><217132.VALUE></color>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為傷害量<217130.VALUE>、造成傷害減少<217131.VALUE>、所受最終傷害增加<color=#B778FF><217132.VALUE></color>",
       "zh_cnOffset": ""
     },
     {
       "no": 372172,
       "krOffset": "피해량이 <217230.VALUE>로 변경되고 감소하는 공격력이 <217233.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <217230.VALUE>, and ATK decrease changes to <217233.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<217230.VALUE>的傷害量，攻擊力減少<217233.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 372173,
       "krOffset": "피해량이 <217330.VALUE>로, <color=#FFFFFF><저주></color> 1중첩 당 추가 피해가 <217332.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Damage changes to <217330.VALUE>, and additional damage per <color=#FFFFFF>\"Curse\"</color> stack changes to <217332.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "變更為造成<217330.VALUE>的傷害量，每1疊加<color=#FFFFFF>＜詛咒＞</color>造成<217332.VALUE>額外傷害",
       "zh_cnOffset": ""
     },
     {
       "no": 372174,
       "krOffset": "기본 공격의 피해량이 <217030.VALUE>로 변경되고, 지속 피해량이 <217031.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Basic attack damage changes to <217030.VALUE>, and DoT changes to <217031.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "基本攻擊變更為造成<217030.VALUE>的傷害量、造成<217031.VALUE>的持續傷害量",
       "zh_cnOffset": ""
     },
     {
       "no": 372175,
       "krOffset": "대상 피해량이 <color=#E67373>450%</color>로 범위 피해가 <color=#E67373>250%</color>로 변경되고, 중첩 당 감소하는 공격력이 <217532.VALUE>, 물리/마법 저항이 <217533.VALUE>로 변경된다.",
-      "enOffset": "",
+      "enOffset": "Target damage changes to <color=#E67373>450%</color>, and AoE damage changes to <color=#E67373>250%</color>. ATK decrease per stack changes to <217532.VALUE>, and Physical/Magic Resistance decrease per stack changes to <217533.VALUE>.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "目標傷害量變更為<color=#E67373>450%</color>、範圍傷害變更為<color=#E67373>250%</color>，每疊加變更為攻擊力減少<217532.VALUE>、物理／魔法抵抗減少<217533.VALUE>",
       "zh_cnOffset": ""
     },
     {
       "no": 372179,
       "krOffset": "리더 정령이 전장에 있는 동안 <저주> 상태인 적이 받는 최종 피해가 15% 증가한다.",
-      "enOffset": "",
+      "enOffset": "While the lead Soul is on the battlefield, the total damage received for enemies under an active \"Curse\" increases by 15%.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "隊長精靈在戰場上時，處於＜詛咒＞狀態的敵人所受最終傷害增加15%",
       "zh_cnOffset": ""
     },
     {
@@ -42699,7 +42835,7 @@
     {
       "no": 373189,
       "krOffset": "리더 정령이 공격을 받을 때마다 리더 정령의 가하는 피해를 6초 동안 1.5% 증가 시킨다. (최대 10중첩)",
-      "enOffset": "When the lead Soul receives attacks, increases the lead Soul's damage dealt by 1.5% for 6 sec (up to 10 stacks).",
+      "enOffset": "Whenever the lead Soul is attacked, her damage dealt is increased by 1.5% for 6 sec (up to 10 stacks).",
       "jaOffset": "",
       "zh_twOffset": "每當隊長精靈受到攻擊時，隊長精靈造成傷害在6秒內增加1.5%（最多10疊加）",
       "zh_cnOffset": ""
@@ -43838,6 +43974,46 @@
       "enOffset": "Using the main skill fully restores Eve's Mana. Using the main skill again with full Mana propels her into an <COLOR=#FFFFFF>\"Overload\"</COLOR> mode for <605934.DURATION> sec, during which Mana Recovery is disabled.",
       "jaOffset": "",
       "zh_twOffset": "使用主要技能時，恢復滿滿魔力。在該狀態下再次使用主要技能時，<605934.DURATION>秒內進入<COLOR=#FFFFFF>＜超負荷＞</COLOR>狀態，並成為無法恢復魔力的狀態",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 376061,
+      "krOffset": "니아_active_3레벨",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 376062,
+      "krOffset": "니아_skill01_3레벨",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 376063,
+      "krOffset": "니아_skill02_3레벨",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 376064,
+      "krOffset": "니아_passive_3레벨",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 376065,
+      "krOffset": "니아_ultimate_3레벨",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
@@ -45699,41 +45875,41 @@
     {
       "no": 382171,
       "krOffset": "길었던 고독은, 새로운 힘으로!",
-      "enOffset": "",
+      "enOffset": "Solitude turned to new strength!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "漫長的孤獨，將化作嶄新的力量！",
       "zh_cnOffset": ""
     },
     {
       "no": 382172,
       "krOffset": "거역하지 마!",
-      "enOffset": "",
+      "enOffset": "Don't fight it!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "不准反抗！",
       "zh_cnOffset": ""
     },
     {
       "no": 382173,
       "krOffset": "이제 망설이지 않아!",
-      "enOffset": "",
+      "enOffset": "No more holding back!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "現在不會再猶豫！",
       "zh_cnOffset": ""
     },
     {
       "no": 382174,
       "krOffset": "카무이의 힘, 남김없이 개방하겠어!",
-      "enOffset": "",
+      "enOffset": "Let the power of Kamuy be unleashed!",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "神威的力量，完全開放！",
       "zh_cnOffset": ""
     },
     {
       "no": 382179,
       "krOffset": "리더 정령이 전장에 있는 동안 <저주> 상태인 적이 받는 최종 피해가 17.5% 증가한다.",
-      "enOffset": "",
+      "enOffset": "While the lead Soul is on the battlefield, the total damage received for enemies under an active \"Curse\" increases by 17.5%.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "隊長精靈在戰場上時，處於＜詛咒＞狀態的敵人所受最終傷害增加17.5%",
       "zh_cnOffset": ""
     },
     {
@@ -46435,7 +46611,7 @@
     {
       "no": 383189,
       "krOffset": "리더 정령이 공격을 받을 때마다 리더 정령의 가하는 피해를 6초 동안 2% 증가 시킨다. (최대 10중첩)",
-      "enOffset": "When the lead Soul receives attacks, increases the lead Soul's damage dealt by 2% for 6 sec (up to 10 stacks).",
+      "enOffset": "Whenever the lead Soul is attacked, her damage dealt is increased by 2% for 6 sec (up to 10 stacks).",
       "jaOffset": "",
       "zh_twOffset": "每當隊長精靈受到攻擊時，隊長精靈造成傷害在6秒內增加2%（最多10疊加）",
       "zh_cnOffset": ""
@@ -47473,6 +47649,38 @@
       "zh_cnOffset": ""
     },
     {
+      "no": 386061,
+      "krOffset": "저주의 낙인을 걸어 줄게.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 386062,
+      "krOffset": "영원히 함께하는 거야…",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 386063,
+      "krOffset": "저주받은 기분… 어때?",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
+      "no": 386064,
+      "krOffset": "자, 나와 함께 어둠으로 가라앉자.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
+      "zh_cnOffset": ""
+    },
+    {
       "no": 386511,
       "krOffset": "새빨간 불꽃으로 처단하겠습니다!",
       "enOffset": "Receive the justice of crimson flames!",
@@ -48027,9 +48235,9 @@
     {
       "no": 392179,
       "krOffset": "리더 정령이 전장에 있는 동안 <저주> 상태인 적이 받는 최종 피해가 20% 증가한다.",
-      "enOffset": "",
+      "enOffset": "While the lead Soul is on the battlefield, the total damage received for enemies under an active \"Curse\" increases by 20%.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "隊長精靈在戰場上時，處於＜詛咒＞狀態的敵人所受最終傷害增加20%",
       "zh_cnOffset": ""
     },
     {
@@ -48163,7 +48371,7 @@
     {
       "no": 393189,
       "krOffset": "리더 정령이 공격을 받을 때마다 리더 정령의 가하는 피해를 6초 동안 2.5% 증가 시킨다. (최대 10중첩)",
-      "enOffset": "When the lead Soul receives attacks, increases the lead Soul's damage dealt by 2.5% for 6 sec (up to 10 stacks).",
+      "enOffset": "Whenever the lead Soul is attacked, her damage dealt is increased by 2.5% for 6 sec (up to 10 stacks).",
       "jaOffset": "",
       "zh_twOffset": "每當隊長精靈受到攻擊時，隊長精靈造成傷害在6秒內增加2.5%（最多10疊加）",
       "zh_cnOffset": ""
@@ -48635,9 +48843,9 @@
     {
       "no": 402179,
       "krOffset": "리더 정령이 전장에 있는 동안 <저주> 상태인 적이 받는 최종 피해가 22.5% 증가한다.",
-      "enOffset": "",
+      "enOffset": "While the lead Soul is on the battlefield, the total damage received for enemies under an active \"Curse\" increases by 22.5%.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "隊長精靈在戰場上時，處於＜詛咒＞狀態的敵人所受最終傷害增加22.5%",
       "zh_cnOffset": ""
     },
     {
@@ -48771,7 +48979,7 @@
     {
       "no": 403189,
       "krOffset": "리더 정령이 공격을 받을 때마다 리더 정령의 가하는 피해를 6초 동안 3% 증가 시킨다. (최대 10중첩)",
-      "enOffset": "When the lead Soul receives attacks, increases the lead Soul's damage dealt by 3% for 6 sec (up to 10 stacks).",
+      "enOffset": "Whenever the lead Soul is attacked, her damage dealt is increased by 3% for 6 sec (up to 10 stacks).",
       "jaOffset": "",
       "zh_twOffset": "每當隊長精靈受到攻擊時，隊長精靈造成傷害在6秒內增加3%（最多10疊加）",
       "zh_cnOffset": ""
@@ -49243,9 +49451,9 @@
     {
       "no": 412179,
       "krOffset": "리더 정령이 전장에 있는 동안 <저주> 상태인 적이 받는 최종 피해가 25% 증가한다.",
-      "enOffset": "",
+      "enOffset": "While the lead Soul is on the battlefield, the total damage received for enemies under an active \"Curse\" increases by 25%.",
       "jaOffset": "",
-      "zh_twOffset": "",
+      "zh_twOffset": "隊長精靈在戰場上時，處於＜詛咒＞狀態的敵人所受最終傷害增加25%",
       "zh_cnOffset": ""
     },
     {
@@ -49379,7 +49587,7 @@
     {
       "no": 413189,
       "krOffset": "리더 정령이 공격을 받을 때마다 리더 정령의 가하는 피해를 6초 동안 3.5% 증가 시킨다. (최대 10중첩)",
-      "enOffset": "When the lead Soul receives attacks, increases the lead Soul's damage dealt by 3.5% for 6 sec (up to 10 stacks).",
+      "enOffset": "Whenever the lead Soul is attacked, her damage dealt is increased by 3.5% for 6 sec (up to 10 stacks).",
       "jaOffset": "",
       "zh_twOffset": "每當隊長精靈受到攻擊時，隊長精靈造成傷害在6秒內增加3.5%（最多10疊加）",
       "zh_cnOffset": ""
@@ -51587,7 +51795,7 @@
     {
       "no": 710005,
       "krOffset": "낙원의 가호",
-      "enOffset": "Protection of the Paradise",
+      "enOffset": "Paradise's Protection",
       "jaOffset": "",
       "zh_twOffset": "樂園的庇佑",
       "zh_cnOffset": ""
@@ -51595,9 +51803,9 @@
     {
       "no": 710006,
       "krOffset": "아군 정령이 얼티밋 스킬 사용 시 모든 아군의 가하는 피해가 12초 동안 100% 증가한다.",
-      "enOffset": "Using the ultimate skill increases the ally Soul's damage dealt by 100% for 12 sec.",
+      "enOffset": "An ally Soul's ultimate skill use increases all allies' damage dealt by 100% for 12 sec.",
       "jaOffset": "",
-      "zh_twOffset": "使用終極技能時，12秒內友軍精靈造成的傷害量增加100%",
+      "zh_twOffset": "友軍精靈使用終極技能時，所有友軍的造成傷害12秒內增加100%",
       "zh_cnOffset": ""
     },
     {
@@ -64442,18 +64650,18 @@
     },
     {
       "no": 35600014,
-      "krOffset": "모든 정령에게 <COLOR=#FFFFFF><엄포></COLOR>를 <6011141.DURATION>초 동안 부여하고 그 기간 내에 메인 스킬을 사용하는 정령을 <6011143.DURATION>초 동안 아무런 행동을 할 수 없는<COLOR=#FFFFFF><감금></COLOR> 상태로 만든다. 만약 <COLOR=#FFFFFF><엄포></COLOR>가 부여된 정령이 얼티밋 스킬을 사용할 경우 즉시 <COLOR=#FFFFFF><엄포></COLOR>가 해제된다. ",
-      "enOffset": "Inflicts <COLOR=#FFFFFF>\"Idle Threat\"</COLOR> on all Souls for <6011141.DURATION> sec, during which any Soul using her main skill is placed in <COLOR=#FFFFFF>\"Confinement,\"</COLOR> unable to do anything for <6011143.DURATION> sec. <COLOR=#FFFFFF>\"Idle Threat\"</COLOR> is canceled when a Soul under <COLOR=#FFFFFF>\"Idle Threat\"</COLOR> uses her ultimate skill.",
-      "jaOffset": "精霊全員に<COLOR=#FFFFFF><脅迫></COLOR>を<6011141.DURATION>秒間付与し、その間にメインスキルを使用する精霊を<6011143.DURATION>秒間どんな行動もできない<COLOR=#FFFFFF><監禁></COLOR>状態にする。もし<COLOR=#FFFFFF><脅迫></COLOR>が付与されている精霊がアルティメットスキルを使用すると、すぐに<COLOR=#FFFFFF><脅迫></COLOR>が解除される。",
-      "zh_twOffset": "賦予所有精靈<6011141.DURATION>秒<COLOR=#FFFFFF>＜威嚇＞</COLOR>，在期間內賦予使用主要技能的精靈<COLOR=#FFFFFF>＜監禁＞</COLOR>，陷入無法做出任何行動的狀態<6011143.DURATION>秒。若被賦予<COLOR=#FFFFFF>＜威嚇＞</COLOR>的精靈使用終極技能，則立即解除<COLOR=#FFFFFF>＜威嚇＞</COLOR>",
+      "krOffset": "공격력이 가장 높은 대상에게 영구적으로 <COLOR=#FFFFFF><엄포></COLOR> 효과를 3중첩 부여하고, 해당 정령이 메인 스킬을 사용 시 모든 정령의 공격력이 <6011142.DURATION>초 동안 <6011142.VALUE>감소하는 <COLOR=#FFFFFF><약화></COLOR> 상태를 부여한다.\r\n\r\n<COLOR=#FFFFFF><엄포></COLOR>가 부여된 정령 외의 다른 정령의 <COLOR=#FFFFFF><메인 스킬></COLOR> 사용 시 <COLOR=#FFFFFF><엄포></COLOR> 효과가 1중첩 해제되고, <COLOR=#FFFFFF><얼티밋 스킬></COLOR> 사용 시 <COLOR=#FFFFFF><엄포></COLOR>  효과가 3중첩 해제된다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {
       "no": 35600015,
-      "krOffset": "등대지기가 자신의 공격력 <6011151.VALUE> 만큼의 보호막을 부여하고 강력한 에너지를 모으기 시작한다. 에너지를 모으는 동안 견제 사격을 하여 공격력의 <6011152.VALUE>의 피해를 입히며 에너지가 모두 모일때까지 보호막을 부수지 못하면 하늘 섬 전체를 파괴하여 적을 전멸시킨다. 만약 보호막을 부수는 데에 성공했을 경우 등대지기는 잠시 기능이 정지하며, 모든 정령의 마나와 얼티밋 게이지를 가득 회복시킨다. 기능이 정지한 동안 받는 최종 피해량이 <6011153.VALUE> 증가한다.",
-      "enOffset": "The Lighthouse Keeper gains a shield equal to <6011151.VALUE> of ATK and starts charging up devastating energy. At the same time, it also executes suppressive fire, dealing damage equal to <6011152.VALUE> of ATK. If the shield is not destroyed before the energy is fully charged, it destroys the whole floating island, wiping out all enemies. If the shield is destroyed, the Lighthouse Keeper temporarily stops functioning, and all Souls' Mana and the Ultimate Gauge are fully restored. During this downtime, the Lighthouse Keeper's total damage received is increased by <6011153.VALUE>.",
-      "jaOffset": "灯台守が自身の攻撃力の<6011151.VALUE>の分のバリアを付与し、強力なエネルギーをため始める。エネルギーをためる間、牽制射撃で攻撃力の<6011152.VALUE>のダメージを与え、エネルギーをすべてためるまでバリアを破壊できないと、空島を破壊して敵を全滅させる。もしバリアの破壊に成功した場合、灯台守はしばらくの間機能が停止し、精霊全員のマナとアルティメットゲージをすべて回復する。機能が停止している間、受ける最終ダメージ量が<6011153.VALUE>増加する。",
-      "zh_twOffset": "燈塔看守員賦予自身攻擊力<6011151.VALUE>的防護罩，開始收集強大能量。收集能量期間進行牽制射擊，造成攻擊力<6011152.VALUE>的傷害，且若能量全部收集前無法毀壞防護罩，就會破壞整座天空島，並殲滅敵人。若成功毀壞防護罩時，燈塔看守員則會暫時停止功能，使所有精靈恢復滿點魔力和終極計量條。停止功能期間所受最終傷害量增加<6011153.VALUE>",
+      "krOffset": "등대지기가 자신의 공격력 <6011151.VALUE> 만큼의 보호막을 부여하고 강력한 에너지를 모으기 시작한다. 에너지를 모으는 동안 견제 사격을 하여 공격력의 <6011152.VALUE>의 피해를 입히며 에너지가 모두 모일때까지 보호막을 부수지 못하면 완전히 해방된 힘을 얻어 등대지기의 받는 최종 피해가 영구적으로 <6011159.VALUE> 감소한다. \r\n\r\n보호막을 부수는 데에 성공했을 경우 모든 정령의 마나와 얼티밋 게이지를 가득 회복시키고 일정 시간 기능이 정지되어 받는 최종 피해량이 <6011153.VALUE> 증가한다.",
+      "enOffset": "",
+      "jaOffset": "",
+      "zh_twOffset": "",
       "zh_cnOffset": ""
     },
     {

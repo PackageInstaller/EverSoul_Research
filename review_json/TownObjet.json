@@ -5536,6 +5536,18 @@
       "far_motionOffset": "0"
     },
     {
+      "no": 47104,
+      "pathOffset": "TownObjet_SummerSakuyoShin",
+      "prefabOffset": "PE_TOWN_B_SummerSakuyoShin_Cardboard",
+      "original_slot": 171,
+      "develop_point": 2000,
+      "place_limit": 1,
+      "castle": 1,
+      "animal_prefabOffset": "0",
+      "close_motionOffset": "0",
+      "far_motionOffset": "0"
+    },
+    {
       "no": 48001,
       "pathOffset": "TownObjet_Arbeit",
       "prefabOffset": "PE_TOWN_B_Store_01",
