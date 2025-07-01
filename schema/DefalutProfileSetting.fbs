@@ -1,16 +1,16 @@
-namespace DefaultProfileSetting;
+namespace Tbl;
 
-table Deserialization {
-    no: int32;
-    type: int32;
-    index: int32;
-    name_sno: int32;
-    panel_type: string;
-    contents_limit_no: int32;
+table DefalutProfileSetting {
+  no: int32;
+  type: int32;
+  index: int32;
+  name_sno: int32;
+  panel_type_offset: string;
+  contents_limit_no: int32;
 }
 
-table DefaultProfileSetting {
-    json: [Deserialization];
+table DefalutProfileSettingTable {
+  default_profile_settings: [DefalutProfileSetting];
 }
 
-root_type DefaultProfileSetting;
+root_type DefalutProfileSettingTable;

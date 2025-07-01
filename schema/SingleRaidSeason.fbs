@@ -1,14 +1,14 @@
-namespace SingleRaidSeason;
-
-table Deserialization {
-    no: int32;
-    season_name_no: int32;
-    season_bg_pathOffset: string;
-    season_bg1_pathOffset: string;
-}
+namespace Tbl;
 
 table SingleRaidSeason {
-    json: [Deserialization];
+  no: int32;
+  season_name_no: int32;
+  season_bg_path: string;
+  season_bg1_path: string;
 }
 
-root_type SingleRaidSeason;
+table SingleRaidSeasonTable {
+  single_raid_seasons: [SingleRaidSeason];
+}
+
+root_type SingleRaidSeasonTable;

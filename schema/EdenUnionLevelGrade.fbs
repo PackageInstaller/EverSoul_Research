@@ -1,13 +1,13 @@
-namespace EdenUnionLevelGrade;
-
-table Deserialization {
-    index: int32;
-    level: int32;
-    value: float;
-}
+namespace Tbl;
 
 table EdenUnionLevelGrade {
-    json: [Deserialization];
+  index: int32;
+  level: int32;
+  value: float;
 }
 
-root_type EdenUnionLevelGrade;
+table EdenUnionLevelGradeTable {
+  eden_union_level_grades: [EdenUnionLevelGrade];
+}
+
+root_type EdenUnionLevelGradeTable;

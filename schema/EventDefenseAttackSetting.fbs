@@ -1,19 +1,19 @@
-namespace EventDefenseAttackSetting;
-
-table Deserialization {
-    no: int32;
-    attack_timelineOffset: string;
-    motion_time: float;
-    attack_type: int32;
-    search_range: float;
-    attack_range: float;
-    angle: int32;
-    attack_width: float;
-    use_rotate: int32;
-}
+namespace Tbl;
 
 table EventDefenseAttackSetting {
-    json: [Deserialization];
+  no: int32;
+  attack_timeline: string;
+  motion_time: float;
+  attack_type: int32;
+  search_range: float;
+  attack_range: float;
+  angle: int32;
+  attack_width: float;
+  use_rotate: int32;
 }
 
-root_type EventDefenseAttackSetting;
+table EventDefenseAttackSettingTable {
+  event_defense_attack_settings: [EventDefenseAttackSetting];
+}
+
+root_type EventDefenseAttackSettingTable;

@@ -1,27 +1,27 @@
-namespace EventSelectStage;
-
-table Deserialization {
-    no: int32;
-    event_group: int32;
-    event_number: int32;
-    stage_limit_value: int32;
-    stage_limit_sno: int32;
-    buy_item_no: int32;
-    buy_item_amountOffset: string;
-    stage_name_sno: int32;
-    hero1_pathOffset: string;
-    hero1_reverse: bool;
-    hero1_bg_pathOffset: string;
-    hero1_bg_colorOffset: string;
-    hero2_pathOffset: string;
-    hero2_reverse: bool;
-    hero2_bg_pathOffset: string;
-    hero2_bg_colorOffset: string;
-    bg_pathOffset: string;
-}
+namespace Tbl;
 
 table EventSelectStage {
-    json: [Deserialization];
+  no: int32;
+  event_group: int32;
+  event_number: int32;
+  stage_limit_value: int32;
+  stage_limit_sno: int32;
+  buy_item_no: int32;
+  buy_item_amount: string;
+  stage_name_sno: int32;
+  hero1_path: string;
+  hero1_reverse: bool;
+  hero1_bg_path: string;
+  hero1_bg_color: string;
+  hero2_path: string;
+  hero2_reverse: bool;
+  hero2_bg_path: string;
+  hero2_bg_color: string;
+  bg_path: string;
 }
 
-root_type EventSelectStage;
+table EventSelectStageTable {
+  event_select_stages: [EventSelectStage];
+}
+
+root_type EventSelectStageTable;

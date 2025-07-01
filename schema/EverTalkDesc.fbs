@@ -1,20 +1,20 @@
-namespace EverTalkDesc;
-
-table Deserialization {
-    no: int32;
-    hide: int8;
-    group_no: int32;
-    love_level: int8;
-    hero_no: int16;
-    talk_type: int16;
-    ui_typeOffset: string;
-    speaker_no: int16;
-    talk_index: int16;
-    choice_group: int16;
-}
+namespace Tbl;
 
 table EverTalkDesc {
-    json: [Deserialization];
+  no: int32;
+  hide: int8;
+  group_no: int32;
+  love_level: int8;
+  hero_no: int16;
+  talk_type: int16;
+  ui_type: string;
+  speaker_no: int16;
+  talk_index: int16;
+  choice_group: int16;
 }
 
-root_type EverTalkDesc;
+table EverTalkDescTable {
+  ever_talk_descs: [EverTalkDesc];
+}
+
+root_type EverTalkDescTable;

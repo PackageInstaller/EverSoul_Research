@@ -1,15 +1,15 @@
-namespace ItemDropGroup;
-
-table Deserialization {
-    index: int32;
-    no: int32;
-    item_no: int32;
-    amount: int32;
-    drop_rate: int32;
-}
+namespace Tbl;
 
 table ItemDropGroup {
-    json: [Deserialization];
+  index: int32;
+  no: int32;
+  item_no: int32;
+  amount: int32;
+  drop_rate: int32;
 }
 
-root_type ItemDropGroup;
+table ItemDropGroupTable {
+  item_drop_groups: [ItemDropGroup];
+}
+
+root_type ItemDropGroupTable;

@@ -1,14 +1,14 @@
-namespace DungeonRelicSet;
-
-table Deserialization {
-    no: int32;
-    set_no: int32;
-    set_count: int32;
-    battlebuff_no: int32;
-}
+namespace Tbl;
 
 table DungeonRelicSet {
-    json: [Deserialization];
+  no: int32;
+  set_no: int32;
+  set_count: int32;
+  battlebuff_no: int32;
 }
 
-root_type DungeonRelicSet;
+table DungeonRelicSetTable {
+  dungeon_relic_sets: [DungeonRelicSet];
+}
+
+root_type DungeonRelicSetTable;

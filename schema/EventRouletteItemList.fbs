@@ -1,16 +1,16 @@
-namespace EventRouletteItemList;
-
-table Deserialization {
-    no: int32;
-    list_group: int32;
-    slot_no: int32;
-    item_no: int32;
-    item_amount: int32;
-    rate: int32;
-}
+namespace Tbl;
 
 table EventRouletteItemList {
-    json: [Deserialization];
+  no: int32;
+  list_group: int32;
+  slot_no: int32;
+  item_no: int32;
+  item_amount: int32;
+  rate: int32;
 }
 
-root_type EventRouletteItemList;
+table EventRouletteItemListTable {
+  event_roulette_item_lists: [EventRouletteItemList];
+}
+
+root_type EventRouletteItemListTable;

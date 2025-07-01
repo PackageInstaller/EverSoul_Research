@@ -1,18 +1,18 @@
-namespace EventGroupInfo;
-
-table Deserialization {
-    no: int32;
-    main_event_type: int32;
-    main_event_group: int32;
-    main_event_number: int32;
-    sub_event_type: int32;
-    sub_event_group: int32;
-    sub_event_number: int32;
-    button_no: int32;
-}
+namespace Tbl;
 
 table EventGroupInfo {
-    json: [Deserialization];
+  no: int32;
+  main_event_type: int32;
+  main_event_group: int32;
+  main_event_number: int32;
+  sub_event_type: int32;
+  sub_event_group: int32;
+  sub_event_number: int32;
+  button_no: int32;
 }
 
-root_type EventGroupInfo;
+table EventGroupInfoTable {
+  event_group_infos: [EventGroupInfo];
+}
+
+root_type EventGroupInfoTable;

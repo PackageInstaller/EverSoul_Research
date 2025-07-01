@@ -1,15 +1,15 @@
-namespace SkillCondition;
-
-table Deserialization {
-    no: int32;
-    condition_key: int32;
-    condition_target: int32;
-    condition_value_1: double;
-    condition_value_2: int32;
-}
+namespace Tbl;
 
 table SkillCondition {
-    json: [Deserialization];
+  no: int32;
+  condition_key: int32;
+  condition_target: int32;
+  condition_value_1: double;
+  condition_value_2: int32;
 }
 
-root_type SkillCondition;
+table SkillConditionTable {
+  skill_conditions: [SkillCondition];
+}
+
+root_type SkillConditionTable;

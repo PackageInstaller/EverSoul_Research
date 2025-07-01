@@ -1,19 +1,19 @@
-namespace ChallengeReward;
-
-table Deserialization {
-    reward_group_no: int32;
-    reward_item_1: int32;
-    reward_amount_1: int32;
-    reward_item_2: int32;
-    reward_amount_2: int32;
-    reward_item_3: int32;
-    reward_amount_3: int32;
-    reward_item_4: int32;
-    reward_amount_4: int32;
-}
+namespace Tbl;
 
 table ChallengeReward {
-    json: [Deserialization];
+  reward_group_no: int32;
+  reward_item_1: int32;
+  reward_amount_1: int32;
+  reward_item_2: int32;
+  reward_amount_2: int32;
+  reward_item_3: int32;
+  reward_amount_3: int32;
+  reward_item_4: int32;
+  reward_amount_4: int32;
 }
 
-root_type ChallengeReward;
+table ChallengeRewardTable {
+  challenge_rewards: [ChallengeReward];
+}
+
+root_type ChallengeRewardTable;

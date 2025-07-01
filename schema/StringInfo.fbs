@@ -1,17 +1,17 @@
-namespace StringInfo;
-
-table Deserialization {
-    no: int32;
-    krOffset: string;
-    enOffset: string;
-    jaOffset: string;
-    zh_twOffset: string;
-    zh_cnOffset: string;
-    replace: int32;
-}
+namespace Tbl;
 
 table StringInfo {
-    json: [Deserialization];
+  no: int32;
+  kr: string;
+  en: string;
+  ja: string;
+  zh_tw: string;
+  zh_cn: string;
+  replace: int32;
 }
 
-root_type StringInfo;
+table StringInfoTable {
+  string_infos: [StringInfo];
+}
+
+root_type StringInfoTable;

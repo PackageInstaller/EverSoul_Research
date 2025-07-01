@@ -1,16 +1,16 @@
-namespace CashShopUI;
-
-table Deserialization {
-    no: int32;
-    category_no: int32;
-    shop_noOffset: string;
-    name_sno: int32;
-    tip_sno: int32;
-    penel_typeOffset: string;
-}
+namespace Tbl;
 
 table CashShopUI {
-    json: [Deserialization];
+  no: int32;
+  category_no: int32;
+  shop_no: string;
+  name_sno: int32;
+  tip_sno: int32;
+  penel_type: string;
 }
 
-root_type CashShopUI;
+table CashShopUITable {
+  cash_shop_u_is: [CashShopUI];
+}
+
+root_type CashShopUITable;

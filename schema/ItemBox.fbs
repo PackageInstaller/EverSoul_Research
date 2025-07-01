@@ -1,17 +1,17 @@
-namespace ItemBox;
-
-table Deserialization {
-    no: int32;
-    item_no: int32;
-    type: int32;
-    getitem_no: int32;
-    getitem_rate: int32;
-    getitem_amount: int32;
-    show_info: int32;
-}
+namespace Tbl;
 
 table ItemBox {
-    json: [Deserialization];
+  no: int32;
+  item_no: int32;
+  type: int32;
+  getitem_no: int32;
+  getitem_rate: int32;
+  getitem_amount: int32;
+  show_info: int32;
 }
 
-root_type ItemBox;
+table ItemBoxTable {
+  item_boxs: [ItemBox];
+}
+
+root_type ItemBoxTable;

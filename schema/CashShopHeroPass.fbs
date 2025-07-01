@@ -1,14 +1,14 @@
-namespace CashShopHeroPass;
-
-table Deserialization {
-    no: int32;
-    shop_no: int32;
-    hero_no: int32;
-    hero_image_positionOffset: string;
-}
+namespace Tbl;
 
 table CashShopHeroPass {
-    json: [Deserialization];
+  no: int32;
+  shop_no: int32;
+  hero_no: int32;
+  hero_image_position: string;
 }
 
-root_type CashShopHeroPass;
+table CashShopHeroPassTable {
+  cash_shop_hero_passs: [CashShopHeroPass];
+}
+
+root_type CashShopHeroPassTable;

@@ -1,16 +1,16 @@
-namespace LocalizationSchedule;
-
-table Deserialization {
-    index: int32;
-    schedule_keyOffset: string;
-    schedule_type: int32;
-    start_dateOffset: string;
-    end_dateOffset: string;
-    value_date_01Offset: string;
-}
+namespace Tbl;
 
 table LocalizationSchedule {
-    json: [Deserialization];
+  index: int32;
+  schedule_key: string;
+  schedule_type: int32;
+  start_date: string;
+  end_date: string;
+  value_date_01: string;
 }
 
-root_type LocalizationSchedule;
+table LocalizationScheduleTable {
+  localization_schedules: [LocalizationSchedule];
+}
+
+root_type LocalizationScheduleTable;

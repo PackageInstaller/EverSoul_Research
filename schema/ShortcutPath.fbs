@@ -1,12 +1,12 @@
-namespace ShortcutPath;
-
-table Deserialization {
-    noOffset: string;
-    pathOffset: string;
-}
+namespace Tbl;
 
 table ShortcutPath {
-    json: [Deserialization];
+  no: string;
+  path: string;
 }
 
-root_type ShortcutPath;
+table ShortcutPathTable {
+  shortcut_paths: [ShortcutPath];
+}
+
+root_type ShortcutPathTable;

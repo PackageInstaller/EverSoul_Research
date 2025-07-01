@@ -69,6 +69,15 @@ int main(int argc, char *argv[])
         {
             needGenerateApis = true;
         }
+
+        // 如果有数据表更新，生成Python API
+        if (needGenerateApis)
+        {
+            std::println("检测到数据表更新，开始生成Python API...");
+            
+            // 生成FlatBuffer Python API（schema是公用的，只需生成一次）
+            QooAppAPI::generateFlatBufferPythonAPI("../schema", "../");
+        }
     }
     catch (const std::exception &e)
     {

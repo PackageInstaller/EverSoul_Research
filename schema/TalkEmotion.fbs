@@ -1,15 +1,15 @@
-namespace TalkEmotion;
-
-table Deserialization {
-    no: int32;
-    actor_no: int32;
-    emotion_nameOffset: string;
-    index: int32;
-    weight: int32;
-}
+namespace Tbl;
 
 table TalkEmotion {
-    json: [Deserialization];
+  no: int32;
+  actor_no: int32;
+  emotion_name: string;
+  index: int32;
+  weight: int32;
 }
 
-root_type TalkEmotion;
+table TalkEmotionTable {
+  talk_emotions: [TalkEmotion];
+}
+
+root_type TalkEmotionTable;

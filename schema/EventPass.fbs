@@ -1,21 +1,21 @@
-namespace EventPass;
-
-table Deserialization {
-    no: int32;
-    group: int32;
-    event_number: int32;
-    point: int32;
-    basic_item_no: int32;
-    basic_item_amount: int32;
-    gold_item_no1: int32;
-    gold_item_amount1: int32;
-    gold_item_no2: int32;
-    gold_item_amount2: int32;
-    item_highlightOffset: string;
-}
+namespace Tbl;
 
 table EventPass {
-    json: [Deserialization];
+  no: int32;
+  group: int32;
+  event_number: int32;
+  point: int32;
+  basic_item_no: int32;
+  basic_item_amount: int32;
+  gold_item_no1: int32;
+  gold_item_amount1: int32;
+  gold_item_no2: int32;
+  gold_item_amount2: int32;
+  item_highlight: string;
 }
 
-root_type EventPass;
+table EventPassTable {
+  event_passs: [EventPass];
+}
+
+root_type EventPassTable;

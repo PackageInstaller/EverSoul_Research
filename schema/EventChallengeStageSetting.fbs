@@ -1,41 +1,41 @@
-namespace EventChallengeStageSetting;
-
-table Deserialization {
-    no: int32;
-    event_group: int32;
-    event_number: int32;
-    event_stage_phase: int32;
-    event_phase_sno: int32;
-    stage_name_sno: int32;
-    bg_pathOffset: string;
-    bg_positionOffset: string;
-    event_bg_pathOffset: string;
-    level_limit: int32;
-    hero_no_1: int32;
-    hero_grade_1: int32;
-    level_1: int32;
-    hero_no_2: int32;
-    hero_grade_2: int32;
-    level_2: int32;
-    hero_no_3: int32;
-    hero_grade_3: int32;
-    level_3: int32;
-    hero_no_4: int32;
-    hero_grade_4: int32;
-    level_4: int32;
-    hero_no_5: int32;
-    hero_grade_5: int32;
-    level_5: int32;
-    mapOffset: string;
-    formation_type: int32;
-    global_volume: int32;
-    battle_time: int32;
-    only_rental: int32;
-    open_dateOffset: string;
-}
+namespace Tbl;
 
 table EventChallengeStageSetting {
-    json: [Deserialization];
+  no: int32;
+  event_group: int32;
+  event_number: int32;
+  event_stage_phase: int32;
+  event_phase_sno: int32;
+  stage_name_sno: int32;
+  bg_path: string;
+  bg_position: string;
+  event_bg_path: string;
+  level_limit: int32;
+  hero_no_1: int32;
+  hero_grade_1: int32;
+  level_1: int32;
+  hero_no_2: int32;
+  hero_grade_2: int32;
+  level_2: int32;
+  hero_no_3: int32;
+  hero_grade_3: int32;
+  level_3: int32;
+  hero_no_4: int32;
+  hero_grade_4: int32;
+  level_4: int32;
+  hero_no_5: int32;
+  hero_grade_5: int32;
+  level_5: int32;
+  map: string;
+  formation_type: int32;
+  global_volume: int32;
+  battle_time: int32;
+  only_rental: int32;
+  open_date: string;
 }
 
-root_type EventChallengeStageSetting;
+table EventChallengeStageSettingTable {
+  event_challenge_stage_settings: [EventChallengeStageSetting];
+}
+
+root_type EventChallengeStageSettingTable;

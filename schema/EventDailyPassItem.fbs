@@ -1,20 +1,20 @@
-namespace EventDailyPassItem;
-
-table Deserialization {
-    no: int32;
-    group: int32;
-    event_number: int32;
-    day_order: int32;
-    basic_item_no: int32;
-    basic_item_amount: int32;
-    gold_item_no1: int32;
-    gold_item_amount1: int32;
-    item_highlightOffset: string;
-    day_highlight: int32;
-}
+namespace Tbl;
 
 table EventDailyPassItem {
-    json: [Deserialization];
+  no: int32;
+  group: int32;
+  event_number: int32;
+  day_order: int32;
+  basic_item_no: int32;
+  basic_item_amount: int32;
+  gold_item_no1: int32;
+  gold_item_amount1: int32;
+  item_highlight: string;
+  day_highlight: int32;
 }
 
-root_type EventDailyPassItem;
+table EventDailyPassItemTable {
+  event_daily_pass_items: [EventDailyPassItem];
+}
+
+root_type EventDailyPassItemTable;

@@ -1,17 +1,17 @@
-namespace HeroOptionPay;
-
-table Deserialization {
-    no: int32;
-    type: int32;
-    value: int32;
-    pay_item_no_1: int32;
-    pay_amount_1: int32;
-    pay_item_no_2: int32;
-    pay_amount_2: int32;
-}
+namespace Tbl;
 
 table HeroOptionPay {
-    json: [Deserialization];
+  no: int32;
+  type: int32;
+  value: int32;
+  pay_item_no_1: int32;
+  pay_amount_1: int32;
+  pay_item_no_2: int32;
+  pay_amount_2: int32;
 }
 
-root_type HeroOptionPay;
+table HeroOptionPayTable {
+  hero_option_pays: [HeroOptionPay];
+}
+
+root_type HeroOptionPayTable;

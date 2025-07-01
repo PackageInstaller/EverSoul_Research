@@ -1,15 +1,15 @@
-namespace StageArea;
-
-table Deserialization {
-    no: int32;
-    area_no: int32;
-    name_sno: int32;
-    desc_sno: int32;
-    area_imgOffset: string;
-}
+namespace Tbl;
 
 table StageArea {
-    json: [Deserialization];
+  no: int32;
+  area_no: int32;
+  name_sno: int32;
+  desc_sno: int32;
+  area_img: string;
 }
 
-root_type StageArea;
+table StageAreaTable {
+  stage_areas: [StageArea];
+}
+
+root_type StageAreaTable;

@@ -1,14 +1,14 @@
-namespace TalkEventDesc;
-
-table Deserialization {
-    no: int32;
-    event_no: int32;
-    order: int32;
-    desc_listOffset: string;
-}
+namespace Tbl;
 
 table TalkEventDesc {
-    json: [Deserialization];
+  no: int32;
+  event_no: int32;
+  order: int32;
+  desc_list: string;
 }
 
-root_type TalkEventDesc;
+table TalkEventDescTable {
+  talk_event_descs: [TalkEventDesc];
+}
+
+root_type TalkEventDescTable;

@@ -1,14 +1,14 @@
-namespace Thumbnail;
-
-table Deserialization {
-    no: int32;
-    item_kindOffset: string;
-    icon_pathOffset: string;
-    order: int32;
-}
+namespace Tbl;
 
 table Thumbnail {
-    json: [Deserialization];
+  no: int32;
+  item_kind: string;
+  icon_path: string;
+  order: int32;
 }
 
-root_type Thumbnail;
+table ThumbnailTable {
+  thumbnails: [Thumbnail];
+}
+
+root_type ThumbnailTable;

@@ -1,13 +1,13 @@
-namespace WorldRaidHpCare;
-
-table Deserialization {
-    no: int32;
-    raid_no: int32;
-    step_value: int32;
-}
+namespace Tbl;
 
 table WorldRaidHpCare {
-    json: [Deserialization];
+  no: int32;
+  raid_no: int32;
+  step_value: int32;
 }
 
-root_type WorldRaidHpCare;
+table WorldRaidHpCareTable {
+  world_raid_hp_cares: [WorldRaidHpCare];
+}
+
+root_type WorldRaidHpCareTable;

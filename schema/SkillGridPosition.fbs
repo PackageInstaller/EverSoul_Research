@@ -1,14 +1,14 @@
-namespace SkillGridPosition;
-
-table Deserialization {
-    position_no: int32;
-    grid_x: int32;
-    grid_y: int32;
-    rotate: int32;
-}
+namespace Tbl;
 
 table SkillGridPosition {
-    json: [Deserialization];
+  position_no: int32;
+  grid_x: int32;
+  grid_y: int32;
+  rotate: int32;
 }
 
-root_type SkillGridPosition;
+table SkillGridPositionTable {
+  skill_grid_positions: [SkillGridPosition];
+}
+
+root_type SkillGridPositionTable;

@@ -1,14 +1,14 @@
-namespace ProfileObjectsList;
-
-table Deserialization {
-    no: int32;
-    group_no: int32;
-    img_pathOffset: string;
-    item_no: int32;
-}
+namespace Tbl;
 
 table ProfileObjectsList {
-    json: [Deserialization];
+  no: int32;
+  group_no: int32;
+  img_path: string;
+  item_no: int32;
 }
 
-root_type ProfileObjectsList;
+table ProfileObjectsListTable {
+  profile_objects_lists: [ProfileObjectsList];
+}
+
+root_type ProfileObjectsListTable;

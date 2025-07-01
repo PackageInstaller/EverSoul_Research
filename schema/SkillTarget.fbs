@@ -1,18 +1,18 @@
-namespace SkillTarget;
-
-table Deserialization {
-    no: int32;
-    target_anchor: int32;
-    collider_type: int32;
-    depth: float;
-    width: float;
-    offset_depth: float;
-    offset_width: float;
-    angle: float;
-}
+namespace Tbl;
 
 table SkillTarget {
-    json: [Deserialization];
+  no: int32;
+  target_anchor: int32;
+  collider_type: int32;
+  depth: float;
+  width: float;
+  offset_depth: float;
+  offset_width: float;
+  angle: float;
 }
 
-root_type SkillTarget;
+table SkillTargetTable {
+  skill_targets: [SkillTarget];
+}
+
+root_type SkillTargetTable;

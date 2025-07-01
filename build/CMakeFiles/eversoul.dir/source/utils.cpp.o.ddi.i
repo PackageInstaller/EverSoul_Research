@@ -186338,6 +186338,7 @@ public:
     static ReviewServerInfo checkReviewServer(const std::string &baseVersion);
     static bool downloadAndProcessReviewTables(const ReviewServerInfo &reviewInfo);
     static std::string httpGet(const std::string &url, int retries = 5);
+    static bool generateFlatBufferPythonAPI(const std::string &schema_dir, const std::string &output_dir);
 
 
 
@@ -186381,7 +186382,7 @@ private:
 
 bool decryptFiles(const std::vector<fs::path> &files, const std::vector<u_int8_t> &key, const std::vector<u_int8_t> &iv);
 bool decryptAes128Cbc(const std::vector<u_int8_t> &ciphertext, std::vector<u_int8_t> &plaintext,
-                      const std::vector<u_int8_t> &key, const std::vector<u_int8_t> &iv);
+                        const std::vector<u_int8_t> &key, const std::vector<u_int8_t> &iv);
 bool deriveKeyAndIv(std::vector<u_int8_t> &key, std::vector<u_int8_t> &iv);
 bool isFileDecrypted(const fs::path &filePath);
 bool convertTablesToJson(const std::string &schema_dir, const std::string &table_dir, const std::string &output_dir);
@@ -188093,4 +188094,172 @@ except Exception as e:
     }
 
     return "";
+}
+
+
+
+
+
+
+
+bool QooAppAPI::generateFlatBufferPythonAPI(const std::string &schema_dir, const std::string &output_dir)
+{
+
+    fs::path original_cwd = fs::current_path();
+
+        try
+    {
+
+        fs::path abs_schema_dir = fs::absolute(schema_dir);
+
+
+        if (!fs::exists(abs_schema_dir))
+        {
+            std::println("\033[31mSchema目录不存在: {}\033[0m", abs_schema_dir.string());
+            return false;
+        }
+
+
+        if (!fs::exists(output_dir))
+        {
+            fs::create_directories(output_dir);
+        }
+
+
+        fs::current_path(output_dir);
+
+
+        size_t total_files = 0;
+        for (const auto &entry : fs::directory_iterator(abs_schema_dir))
+        {
+            if (entry.path().extension() == ".fbs")
+            {
+                total_files++;
+            }
+        }
+
+        if (total_files == 0)
+        {
+            std::println("\033[33m在Schema目录中未找到.fbs文件: {}\033[0m", abs_schema_dir.string());
+            return false;
+        }
+
+        size_t current_file = 0;
+        int result = 0;
+        static size_t last_length = 0;
+        std::vector<std::string> generated_files;
+
+        std::println("开始生成FlatBuffer Python API...");
+
+        for (const auto &entry : fs::directory_iterator(abs_schema_dir))
+        {
+            if (entry.path().extension() == ".fbs")
+            {
+                current_file++;
+                std::string schema_name = entry.path().stem().string();
+
+                updateProgressDisplay("生成进度", current_file, total_files,
+                                      schema_name + ".fbs", &last_length);
+
+
+
+                std::string command = std::format("flatc --python {} 2>/dev/null",
+                                                  entry.path().string());
+
+                int cmd_result = system(command.c_str());
+
+                if (cmd_result == 0)
+                {
+                    generated_files.push_back(schema_name);
+                }
+                else
+                {
+
+                    std::println("\033[33m生成 {} 的Python API失败\033[0m", schema_name);
+                    result = cmd_result;
+                }
+            }
+        }
+
+
+        std::cout << "\r" << std::string(last_length, ' ') << "\r";
+
+
+        std::map<std::string, std::vector<std::string>> namespace_files;
+
+
+        for (const auto &entry : fs::recursive_directory_iterator("."))
+        {
+            if (entry.is_regular_file() && entry.path().extension() == ".py")
+            {
+                std::string dir_name = entry.path().parent_path().filename().string();
+                std::string file_name = entry.path().stem().string();
+
+
+
+                if (file_name.ends_with("Table") && file_name != "__init__")
+                {
+                    namespace_files[dir_name].push_back(file_name);
+                }
+            }
+        }
+
+
+        for (const auto &[namespace_dir, files] : namespace_files)
+        {
+            fs::path init_file = fs::path(namespace_dir) / "__init__.py";
+            std::ofstream initStream(init_file);
+            if (initStream.is_open())
+            {
+                initStream << "# Auto-generated FlatBuffer Python API\n";
+                initStream << std::format("# Generated from Eversoul schema files - namespace: {}\n\n", namespace_dir);
+
+
+                for (const auto &file_name : files)
+                {
+                    initStream << std::format("from . import {}\n", file_name);
+                }
+
+                initStream << "\n__all__ = [\n";
+                for (size_t i = 0; i < files.size(); i++)
+                {
+                    initStream << std::format("    '{}'{}\n",
+                                              files[i],
+                                              (i < files.size() - 1) ? "," : "");
+                }
+                initStream << "]\n";
+                initStream.close();
+            }
+        }
+
+        if (generated_files.size() > 0)
+        {
+            std::println("\033[32m成功生成 {} 个FlatBuffer Python API文件\033[0m", generated_files.size());
+
+
+            fs::current_path(original_cwd);
+            return true;
+        }
+        else
+        {
+
+            fs::current_path(original_cwd);
+            std::println("\033[31m未能生成任何Python API文件\033[0m");
+            return false;
+        }
+    }
+    catch (const std::exception &e)
+    {
+
+        try
+        {
+            fs::current_path(original_cwd);
+        }
+        catch (...)
+        {
+        }
+
+        std::println("\033[31m生成FlatBuffer Python API过程中出错: {}\033[0m", e.what());
+        return false;
+    }
 }

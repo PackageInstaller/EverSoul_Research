@@ -1,16 +1,16 @@
-namespace GachaSignatureMileageReward;
-
-table Deserialization {
-    no: int32;
-    mileage_no: int32;
-    signature_no: int32;
-    mileage_point: int32;
-    item_no: int32;
-    item_value: int32;
-}
+namespace Tbl;
 
 table GachaSignatureMileageReward {
-    json: [Deserialization];
+  no: int32;
+  mileage_no: int32;
+  signature_no: int32;
+  mileage_point: int32;
+  item_no: int32;
+  item_value: int32;
 }
 
-root_type GachaSignatureMileageReward;
+table GachaSignatureMileageRewardTable {
+  gacha_signature_mileage_rewards: [GachaSignatureMileageReward];
+}
+
+root_type GachaSignatureMileageRewardTable;

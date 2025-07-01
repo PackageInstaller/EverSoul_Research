@@ -1,14 +1,14 @@
-namespace WorldRaidSchedule;
-
-table Deserialization {
-    no: int32;
-    raid_no: int32;
-    step: int32;
-    step_value: int32;
-}
+namespace Tbl;
 
 table WorldRaidSchedule {
-    json: [Deserialization];
+  no: int32;
+  raid_no: int32;
+  step: int32;
+  step_value: int32;
 }
 
-root_type WorldRaidSchedule;
+table WorldRaidScheduleTable {
+  world_raid_schedules: [WorldRaidSchedule];
+}
+
+root_type WorldRaidScheduleTable;

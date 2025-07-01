@@ -1,16 +1,16 @@
-namespace EventBossRushUpgrade;
-
-table Deserialization {
-    id: int32;
-    contentsbuff_group: int32;
-    contentsbuff_level: int32;
-    contentsbuff_no: int32;
-    buff_effect_value: float;
-    item_amount: int32;
-}
+namespace Tbl;
 
 table EventBossRushUpgrade {
-    json: [Deserialization];
+  id: int32;
+  contentsbuff_group: int32;
+  contentsbuff_level: int32;
+  contentsbuff_no: int32;
+  buff_effect_value: float;
+  item_amount: int32;
 }
 
-root_type EventBossRushUpgrade;
+table EventBossRushUpgradeTable {
+  event_boss_rush_upgrades: [EventBossRushUpgrade];
+}
+
+root_type EventBossRushUpgradeTable;

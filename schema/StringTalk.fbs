@@ -1,17 +1,17 @@
-namespace StringTalk;
-
-table Deserialization {
-    no: int32;
-    krOffset: string;
-    enOffset: string;
-    jaOffset: string;
-    zh_twOffset: string;
-    zh_cnOffset: string;
-    replace: int8;
-}
+namespace Tbl;
 
 table StringTalk {
-    json: [Deserialization];
+  no: int32;
+  kr: string;
+  en: string;
+  ja: string;
+  zh_tw: string;
+  zh_cn: string;
+  replace: int8;
 }
 
-root_type StringTalk;
+table StringTalkTable {
+  string_talks: [StringTalk];
+}
+
+root_type StringTalkTable;

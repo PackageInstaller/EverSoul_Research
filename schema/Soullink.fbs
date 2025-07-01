@@ -1,21 +1,21 @@
-namespace Soullink;
-
-table Deserialization {
-    No: int32;
-    Collection: int32;
-    Group_SlotOffset: string;
-    Group_ContentOffset: string;
-    Group_Hero1: int32;
-    Group_Hero2: int32;
-    Group_Hero3: int32;
-    Group_Hero4: int32;
-    Group_Title: int32;
-    Group_Story: int32;
-    Open_dateOffset: string;
-}
+namespace Tbl;
 
 table Soullink {
-    json: [Deserialization];
+  no: int32;
+  collection: int32;
+  group__slot: string;
+  group__content: string;
+  group__hero1: int32;
+  group__hero2: int32;
+  group__hero3: int32;
+  group__hero4: int32;
+  group__title: int32;
+  group__story: int32;
+  open_date: string;
 }
 
-root_type Soullink;
+table SoullinkTable {
+  soullinks: [Soullink];
+}
+
+root_type SoullinkTable;

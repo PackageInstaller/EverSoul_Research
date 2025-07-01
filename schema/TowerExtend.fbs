@@ -1,15 +1,15 @@
-namespace TowerExtend;
-
-table Deserialization {
-    no: int32;
-    req_hero: int32;
-    bg_pathOffset: string;
-    req_clear_stage: int32;
-    req_string: int32;
-}
+namespace Tbl;
 
 table TowerExtend {
-    json: [Deserialization];
+  no: int32;
+  req_hero: int32;
+  bg_path: string;
+  req_clear_stage: int32;
+  req_string: int32;
 }
 
-root_type TowerExtend;
+table TowerExtendTable {
+  tower_extends: [TowerExtend];
+}
+
+root_type TowerExtendTable;

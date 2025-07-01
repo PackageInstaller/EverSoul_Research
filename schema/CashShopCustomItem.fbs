@@ -1,17 +1,17 @@
-namespace CashShopCustomItem;
-
-table Deserialization {
-    no: int32;
-    shop_item_no: int32;
-    slot_no: int32;
-    type: int32;
-    group_grade: int32;
-    item_no: int32;
-    item_amount: int32;
-}
+namespace Tbl;
 
 table CashShopCustomItem {
-    json: [Deserialization];
+  no: int32;
+  shop_item_no: int32;
+  slot_no: int32;
+  type: int32;
+  group_grade: int32;
+  item_no: int32;
+  item_amount: int32;
 }
 
-root_type CashShopCustomItem;
+table CashShopCustomItemTable {
+  cash_shop_custom_items: [CashShopCustomItem];
+}
+
+root_type CashShopCustomItemTable;

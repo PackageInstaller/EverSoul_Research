@@ -1,13 +1,13 @@
-namespace EdenAllianceGrade;
-
-table Deserialization {
-    no: int32;
-    level: int32;
-    grade: int32;
-}
+namespace Tbl;
 
 table EdenAllianceGrade {
-    json: [Deserialization];
+  no: int32;
+  level: int32;
+  grade: int32;
 }
 
-root_type EdenAllianceGrade;
+table EdenAllianceGradeTable {
+  eden_alliance_grades: [EdenAllianceGrade];
+}
+
+root_type EdenAllianceGradeTable;

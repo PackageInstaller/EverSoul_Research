@@ -1,19 +1,19 @@
-namespace BattleBGM;
-
-table Deserialization {
-    no: int32;
-    type: int32;
-    type_value: int32;
-    grade: int32;
-    title_sno: int32;
-    arrange_sno: int32;
-    item_no: int32;
-    image_pathOffset: string;
-    bgm_nameOffset: string;
-}
+namespace Tbl;
 
 table BattleBGM {
-    json: [Deserialization];
+  no: int32;
+  type: int32;
+  type_value: int32;
+  grade: int32;
+  title_sno: int32;
+  arrange_sno: int32;
+  item_no: int32;
+  image_path: string;
+  bgm_name: string;
 }
 
-root_type BattleBGM;
+table BattleBGMTable {
+  battle_bg_ms: [BattleBGM];
+}
+
+root_type BattleBGMTable;

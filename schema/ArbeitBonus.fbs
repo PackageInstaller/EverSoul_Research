@@ -1,13 +1,13 @@
-namespace ArbeitBonus;
-
-table Deserialization {
-    no: int32;
-    overstat: int32;
-    bonus_ratio: int32;
-}
+namespace Tbl;
 
 table ArbeitBonus {
-    json: [Deserialization];
+  no: int32;
+  overstat: int32;
+  bonus_ratio: int32;
 }
 
-root_type ArbeitBonus;
+table ArbeitBonusTable {
+  arbeit_bonuss: [ArbeitBonus];
+}
+
+root_type ArbeitBonusTable;

@@ -1,15 +1,15 @@
-namespace SingleRaidSchedule;
-
-table Deserialization {
-    no: int32;
-    season_no: int32;
-    raid_no: int32;
-    server_check: int32;
-    schedule_keyOffset: string;
-}
+namespace Tbl;
 
 table SingleRaidSchedule {
-    json: [Deserialization];
+  no: int32;
+  season_no: int32;
+  raid_no: int32;
+  server_check: int32;
+  schedule_key: string;
 }
 
-root_type SingleRaidSchedule;
+table SingleRaidScheduleTable {
+  single_raid_schedules: [SingleRaidSchedule];
+}
+
+root_type SingleRaidScheduleTable;

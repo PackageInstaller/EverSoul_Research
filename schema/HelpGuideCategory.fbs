@@ -1,14 +1,14 @@
-namespace HelpGuideCategory;
-
-table Deserialization {
-    no: int32;
-    category_title_iconOffset: string;
-    category_title_sno: int32;
-    is_use: bool;
-}
+namespace Tbl;
 
 table HelpGuideCategory {
-    json: [Deserialization];
+  no: int32;
+  category_title_icon: string;
+  category_title_sno: int32;
+  is_use: bool;
 }
 
-root_type HelpGuideCategory;
+table HelpGuideCategoryTable {
+  help_guide_categorys: [HelpGuideCategory];
+}
+
+root_type HelpGuideCategoryTable;

@@ -1,16 +1,16 @@
-namespace EventDefenseHelperSetting;
-
-table Deserialization {
-    no: int32;
-    helper_type: int32;
-    helper_love_level: int32;
-    helper_love_point: int32;
-    helper_hp: int32;
-    helper_damageOffset: string;
-}
+namespace Tbl;
 
 table EventDefenseHelperSetting {
-    json: [Deserialization];
+  no: int32;
+  helper_type: int32;
+  helper_love_level: int32;
+  helper_love_point: int32;
+  helper_hp: int32;
+  helper_damage: string;
 }
 
-root_type EventDefenseHelperSetting;
+table EventDefenseHelperSettingTable {
+  event_defense_helper_settings: [EventDefenseHelperSetting];
+}
+
+root_type EventDefenseHelperSettingTable;

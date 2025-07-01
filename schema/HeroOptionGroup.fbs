@@ -1,13 +1,13 @@
-namespace HeroOptionGroup;
-
-table Deserialization {
-    no: int32;
-    condition: int32;
-    value: int32;
-}
+namespace Tbl;
 
 table HeroOptionGroup {
-    json: [Deserialization];
+  no: int32;
+  condition: int32;
+  value: int32;
 }
 
-root_type HeroOptionGroup;
+table HeroOptionGroupTable {
+  hero_option_groups: [HeroOptionGroup];
+}
+
+root_type HeroOptionGroupTable;

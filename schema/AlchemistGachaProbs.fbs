@@ -1,15 +1,15 @@
-namespace AlchemistGachaProbs;
-
-table Deserialization {
-    no: int32;
-    type: int32;
-    item_no: int32;
-    item_amount: int32;
-    prob: int32;
-}
+namespace Tbl;
 
 table AlchemistGachaProbs {
-    json: [Deserialization];
+  no: int32;
+  type: int32;
+  item_no: int32;
+  item_amount: int32;
+  prob: int32;
 }
 
-root_type AlchemistGachaProbs;
+table AlchemistGachaProbsTable {
+  alchemist_gacha_probss: [AlchemistGachaProbs];
+}
+
+root_type AlchemistGachaProbsTable;

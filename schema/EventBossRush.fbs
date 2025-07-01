@@ -1,17 +1,17 @@
-namespace EventBossRush;
-
-table Deserialization {
-    group_no: int32;
-    hero_no: int32;
-    hero_relic: int32;
-    daily_battle_count: int32;
-    upgrade_item_no: int32;
-    rental_group: int32;
-    dungeon_group: int32;
-}
+namespace Tbl;
 
 table EventBossRush {
-    json: [Deserialization];
+  group_no: int32;
+  hero_no: int32;
+  hero_relic: int32;
+  daily_battle_count: int32;
+  upgrade_item_no: int32;
+  rental_group: int32;
+  dungeon_group: int32;
 }
 
-root_type EventBossRush;
+table EventBossRushTable {
+  event_boss_rushs: [EventBossRush];
+}
+
+root_type EventBossRushTable;

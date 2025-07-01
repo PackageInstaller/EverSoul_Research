@@ -1,17 +1,17 @@
-namespace Task;
-
-table Deserialization {
-    index: int32;
-    no: int32;
-    type: int32;
-    behavior: int32;
-    value: int32;
-    point: int32;
-    content_string_sno: int32;
-}
+namespace Tbl;
 
 table Task {
-    json: [Deserialization];
+  index: int32;
+  no: int32;
+  type: int32;
+  behavior: int32;
+  value: int32;
+  point: int32;
+  content_string_sno: int32;
 }
 
-root_type Task;
+table TaskTable {
+  tasks: [Task];
+}
+
+root_type TaskTable;

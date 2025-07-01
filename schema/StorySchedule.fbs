@@ -1,17 +1,17 @@
-namespace StorySchedule;
-
-table Deserialization {
-    no: int32;
-    storytype: int32;
-    act: int32;
-    chapter: int32;
-    episode: int32;
-    open_dateOffset: string;
-    end_dateOffset: string;
-}
+namespace Tbl;
 
 table StorySchedule {
-    json: [Deserialization];
+  no: int32;
+  storytype: int32;
+  act: int32;
+  chapter: int32;
+  episode: int32;
+  open_date: string;
+  end_date: string;
 }
 
-root_type StorySchedule;
+table StoryScheduleTable {
+  story_schedules: [StorySchedule];
+}
+
+root_type StoryScheduleTable;

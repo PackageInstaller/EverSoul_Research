@@ -1,14 +1,14 @@
-namespace AlchemistSchedule;
-
-table Deserialization {
-    no: int32;
-    hero_check: int32;
-    server_check: int32;
-    open_dateOffset: string;
-}
+namespace Tbl;
 
 table AlchemistSchedule {
-    json: [Deserialization];
+  no: int32;
+  hero_check: int32;
+  server_check: int32;
+  open_date: string;
 }
 
-root_type AlchemistSchedule;
+table AlchemistScheduleTable {
+  alchemist_schedules: [AlchemistSchedule];
+}
+
+root_type AlchemistScheduleTable;

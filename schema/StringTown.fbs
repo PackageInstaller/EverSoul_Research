@@ -1,16 +1,16 @@
-namespace StringTown;
-
-table Deserialization {
-    no: int32;
-    krOffset: string;
-    enOffset: string;
-    jaOffset: string;
-    zh_twOffset: string;
-    zh_cnOffset: string;
-}
+namespace Tbl;
 
 table StringTown {
-    json: [Deserialization];
+  no: int32;
+  kr: string;
+  en: string;
+  ja: string;
+  zh_tw: string;
+  zh_cn: string;
 }
 
-root_type StringTown;
+table StringTownTable {
+  string_towns: [StringTown];
+}
+
+root_type StringTownTable;

@@ -1,17 +1,17 @@
-namespace DoubleGateStage;
-
-table Deserialization {
-    no: int32;
-    group: int32;
-    min_step: int32;
-    max_step: int32;
-    stage_no: int32;
-    stage_bg1: int32;
-    stage_bg2: int32;
-}
+namespace Tbl;
 
 table DoubleGateStage {
-    json: [Deserialization];
+  no: int32;
+  group: int32;
+  min_step: int32;
+  max_step: int32;
+  stage_no: int32;
+  stage_bg1: int32;
+  stage_bg2: int32;
 }
 
-root_type DoubleGateStage;
+table DoubleGateStageTable {
+  double_gate_stages: [DoubleGateStage];
+}
+
+root_type DoubleGateStageTable;

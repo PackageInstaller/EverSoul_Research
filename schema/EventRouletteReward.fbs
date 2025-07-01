@@ -1,18 +1,18 @@
-namespace EventRouletteReward;
-
-table Deserialization {
-    no: int32;
-    reward_group: int32;
-    reward_type: int32;
-    use_ticket_count: int32;
-    reward_item_no_1: int32;
-    reward_item_amount_1: int32;
-    reward_item_no_2: int32;
-    reward_item_amount_2: int32;
-}
+namespace Tbl;
 
 table EventRouletteReward {
-    json: [Deserialization];
+  no: int32;
+  reward_group: int32;
+  reward_type: int32;
+  use_ticket_count: int32;
+  reward_item_no_1: int32;
+  reward_item_amount_1: int32;
+  reward_item_no_2: int32;
+  reward_item_amount_2: int32;
 }
 
-root_type EventRouletteReward;
+table EventRouletteRewardTable {
+  event_roulette_rewards: [EventRouletteReward];
+}
+
+root_type EventRouletteRewardTable;

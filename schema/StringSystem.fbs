@@ -1,16 +1,16 @@
-namespace StringSystem;
+namespace Tbl;
 
 table Deserialization {
     no: int32;
-    krOffset: string;
-    enOffset: string;
-    jaOffset: string;
-    zh_twOffset: string;
-    zh_cnOffset: string;
+    kr: string;
+    en: string;
+    ja: string;
+    zh_tw: string;
+    zh_cn: string;
 }
 
-table StringSystem {
+table StringSystemTable {
     json: [Deserialization];
 }
 
-root_type StringSystem;
+root_type StringSystemTable;

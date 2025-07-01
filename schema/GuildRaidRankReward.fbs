@@ -1,19 +1,19 @@
-namespace GuildRaidRankReward;
-
-table Deserialization {
-    no: int32;
-    rank_from: int32;
-    rank_to: int32;
-    reward_item1_no: int32;
-    reward_item1_amount: int32;
-    reward_item2_no: int32;
-    reward_item2_amount: int32;
-    reward_item3_no: int32;
-    reward_item3_amount: int32;
-}
+namespace Tbl;
 
 table GuildRaidRankReward {
-    json: [Deserialization];
+  no: int32;
+  rank_from: int32;
+  rank_to: int32;
+  reward_item1_no: int32;
+  reward_item1_amount: int32;
+  reward_item2_no: int32;
+  reward_item2_amount: int32;
+  reward_item3_no: int32;
+  reward_item3_amount: int32;
 }
 
-root_type GuildRaidRankReward;
+table GuildRaidRankRewardTable {
+  guild_raid_rank_rewards: [GuildRaidRankReward];
+}
+
+root_type GuildRaidRankRewardTable;

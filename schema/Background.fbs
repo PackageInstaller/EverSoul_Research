@@ -1,13 +1,13 @@
-namespace Background;
-
-table Deserialization {
-    no: int32;
-    icon_pathOffset: string;
-    prefabOffset: string;
-}
+namespace Tbl;
 
 table Background {
-    json: [Deserialization];
+  no: int32;
+  icon_path: string;
+  prefab: string;
 }
 
-root_type Background;
+table BackgroundTable {
+  backgrounds: [Background];
+}
+
+root_type BackgroundTable;

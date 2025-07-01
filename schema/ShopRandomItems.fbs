@@ -1,18 +1,18 @@
-namespace ShopRandomItems;
-
-table Deserialization {
-    no: int32;
-    shop_no: int32;
-    draw_box: int32;
-    item_no: int32;
-    item_amount: int32;
-    draw_limit: int32;
-    item_type: int32;
-    draw_weight: int32;
-}
+namespace Tbl;
 
 table ShopRandomItems {
-    json: [Deserialization];
+  no: int32;
+  shop_no: int32;
+  draw_box: int32;
+  item_no: int32;
+  item_amount: int32;
+  draw_limit: int32;
+  item_type: int32;
+  draw_weight: int32;
 }
 
-root_type ShopRandomItems;
+table ShopRandomItemsTable {
+  shop_random_itemss: [ShopRandomItems];
+}
+
+root_type ShopRandomItemsTable;

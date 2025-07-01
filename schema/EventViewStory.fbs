@@ -1,16 +1,16 @@
-namespace EventViewStory;
-
-table Deserialization {
-    no: int32;
-    event_group: int32;
-    event_number: int32;
-    viewer_type: int32;
-    story_value: int32;
-    bg_pathOffset: string;
-}
+namespace Tbl;
 
 table EventViewStory {
-    json: [Deserialization];
+  no: int32;
+  event_group: int32;
+  event_number: int32;
+  viewer_type: int32;
+  story_value: int32;
+  bg_path: string;
 }
 
-root_type EventViewStory;
+table EventViewStoryTable {
+  event_view_storys: [EventViewStory];
+}
+
+root_type EventViewStoryTable;

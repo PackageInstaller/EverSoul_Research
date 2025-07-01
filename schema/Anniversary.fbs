@@ -1,15 +1,15 @@
-namespace Anniversary;
-
-table Deserialization {
-    no: int32;
-    date_start: int32;
-    date_end: int32;
-    itemOffset: string;
-    amount: int32;
-}
+namespace Tbl;
 
 table Anniversary {
-    json: [Deserialization];
+  no: int32;
+  date_start: int32;
+  date_end: int32;
+  item: string;
+  amount: int32;
 }
 
-root_type Anniversary;
+table AnniversaryTable {
+  anniversarys: [Anniversary];
+}
+
+root_type AnniversaryTable;

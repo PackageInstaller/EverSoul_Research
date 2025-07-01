@@ -1,15 +1,15 @@
-namespace SignatureLevelCost;
-
-table Deserialization {
-    no: int32;
-    race_group: int32;
-    level: int32;
-    item_no: int32;
-    item_amount: int32;
-}
+namespace Tbl;
 
 table SignatureLevelCost {
-    json: [Deserialization];
+  no: int32;
+  race_group: int32;
+  level: int32;
+  item_no: int32;
+  item_amount: int32;
 }
 
-root_type SignatureLevelCost;
+table SignatureLevelCostTable {
+  signature_level_costs: [SignatureLevelCost];
+}
+
+root_type SignatureLevelCostTable;

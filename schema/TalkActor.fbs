@@ -1,22 +1,22 @@
-namespace TalkActor;
-
-table Deserialization {
-    no: int32;
-    name_sno: int32;
-    prefab_pathOffset: string;
-    portrait512_pathOffset: string;
-    portrait128_pathOffset: string;
-    costume_pathOffset: string;
-    controller_pathOffset: string;
-    portrait_reverse: int32;
-    position_x: float;
-    position_y: float;
-    position_z: float;
-    position_scale: float;
-}
+namespace Tbl;
 
 table TalkActor {
-    json: [Deserialization];
+  no: int32;
+  name_sno: int32;
+  prefab_path: string;
+  portrait512_path: string;
+  portrait128_path: string;
+  costume_path: string;
+  controller_path: string;
+  portrait_reverse: int32;
+  position_x: float;
+  position_y: float;
+  position_z: float;
+  position_scale: float;
 }
 
-root_type TalkActor;
+table TalkActorTable {
+  talk_actors: [TalkActor];
+}
+
+root_type TalkActorTable;

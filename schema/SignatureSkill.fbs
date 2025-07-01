@@ -1,18 +1,18 @@
-namespace SignatureSkill;
-
-table Deserialization {
-    no: int32;
-    signature_level_1Offset: string;
-    signature_level_2Offset: string;
-    signature_level_3Offset: string;
-    signature_level_4Offset: string;
-    signature_level_5Offset: string;
-    signature_level_6Offset: string;
-    signature_level_7Offset: string;
-}
+namespace Tbl;
 
 table SignatureSkill {
-    json: [Deserialization];
+  no: int32;
+  signature_level_1: string;
+  signature_level_2: string;
+  signature_level_3: string;
+  signature_level_4: string;
+  signature_level_5: string;
+  signature_level_6: string;
+  signature_level_7: string;
 }
 
-root_type SignatureSkill;
+table SignatureSkillTable {
+  signature_skills: [SignatureSkill];
+}
+
+root_type SignatureSkillTable;

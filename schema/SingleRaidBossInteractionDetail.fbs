@@ -1,21 +1,21 @@
-namespace SingleRaidBossInteractionDetail;
-
-table Deserialization {
-    no: int32;
-    interaction_no: int32;
-    hero_no: int32;
-    talk_no_1: int32;
-    talk_no_2: int32;
-    talk_no_3: int32;
-    talk_no_4: int32;
-    talk_no_5: int32;
-    talk_no_6: int32;
-    talk_no_7: int32;
-    talk_no_8: int32;
-}
+namespace Tbl;
 
 table SingleRaidBossInteractionDetail {
-    json: [Deserialization];
+  no: int32;
+  interaction_no: int32;
+  hero_no: int32;
+  talk_no_1: int32;
+  talk_no_2: int32;
+  talk_no_3: int32;
+  talk_no_4: int32;
+  talk_no_5: int32;
+  talk_no_6: int32;
+  talk_no_7: int32;
+  talk_no_8: int32;
 }
 
-root_type SingleRaidBossInteractionDetail;
+table SingleRaidBossInteractionDetailTable {
+  single_raid_boss_interaction_details: [SingleRaidBossInteractionDetail];
+}
+
+root_type SingleRaidBossInteractionDetailTable;

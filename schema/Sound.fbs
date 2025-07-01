@@ -1,17 +1,17 @@
-namespace Sound;
-
-table Deserialization {
-    no: int32;
-    nameOffset: string;
-    sound_type: int8;
-    mixer_group: int8;
-    korOffset: string;
-    jpnOffset: string;
-    volume: float;
-}
+namespace Tbl;
 
 table Sound {
-    json: [Deserialization];
+  no: int32;
+  name: string;
+  sound_type: int8;
+  mixer_group: int8;
+  kor: string;
+  jpn: string;
+  volume: float;
 }
 
-root_type Sound;
+table SoundTable {
+  sounds: [Sound];
+}
+
+root_type SoundTable;

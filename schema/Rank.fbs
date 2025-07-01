@@ -1,15 +1,15 @@
-namespace Rank;
-
-table Deserialization {
-    no: int32;
-    rank_type: int32;
-    fairy_type: int32;
-    title_sno: int32;
-    amount_sno: int32;
-}
+namespace Tbl;
 
 table Rank {
-    json: [Deserialization];
+  no: int32;
+  rank_type: int32;
+  fairy_type: int32;
+  title_sno: int32;
+  amount_sno: int32;
 }
 
-root_type Rank;
+table RankTable {
+  ranks: [Rank];
+}
+
+root_type RankTable;

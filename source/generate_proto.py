@@ -4,10 +4,9 @@ import sys
 import subprocess
 import glob
 import shutil
-from collections import defaultdict
 
-def parse_cs_file(proto_type, file_path):
-    """解析C#文件，提取消息类型定义
+def parse_cs_file_from_types(proto_type, file_path):
+    """从types.cs文件解析C#文件，提取消息类型定义
     
     Args:
         proto_type: proto类型命名空间
@@ -16,134 +15,125 @@ def parse_cs_file(proto_type, file_path):
     Returns:
         包含提取的类型定义的字典
     """
-    print(f"解析文件: {file_path}，命名空间: {proto_type}")
+    print(f"解析types.cs文件: {file_path}，命名空间: {proto_type}")
     
     with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
         content = f.read()
 
     namespace = proto_type
     
-    # 分割文件内容，按照命名空间的注释进行分割
-    namespace_sections = re.split(r'//\s*Namespace:\s*(\w+)', content)
+    # 在types.cs中查找指定的命名空间
+    namespace_pattern = re.compile(rf'namespace\s+{re.escape(proto_type)}\s*{{(.*?)(?=\nnamespace\s+\w+\s*{{|\n\}}\s*$)', re.DOTALL)
+    namespace_match = namespace_pattern.search(content)
     
+    if not namespace_match:
+        print(f"未找到命名空间 {proto_type}")
+        return namespace, {}, {}
+    
+    section_content = namespace_match.group(1)
     message_types = {}
     enum_types = {}
     
-    # 处理每个命名空间部分
-    for i in range(1, len(namespace_sections), 2):
-        section_namespace = namespace_sections[i]
-        section_content = namespace_sections[i+1] if i+1 < len(namespace_sections) else ""
+    # 提取枚举类型
+    enum_pattern = r'public\s+enum\s+(\w+)[^{]*\{([^}]*)\}'
+    enum_matches = re.finditer(enum_pattern, section_content, re.DOTALL)
+    
+    for match in enum_matches:
+        enum_name = match.group(1)
+        enum_content = match.group(2)
         
-        # 只处理指定命名空间
-        if section_namespace != proto_type:
+        # 提取枚举值
+        enum_values = []
+        # 匹配 EnumValue = 0, 这样的模式
+        value_pattern = r'(\w+)\s*=\s*(\d+)'
+        value_matches = re.finditer(value_pattern, enum_content)
+        
+        for value_match in value_matches:
+            enum_values.append((value_match.group(1), int(value_match.group(2))))
+        
+        if enum_values:
+            enum_types[enum_name] = sorted(enum_values, key=lambda x: x[1])
+    
+    # 查找所有类定义 - 匹配 IMessage<ClassName> 或 IMessage<EsPb.ClassName>
+    class_pattern = rf'public\s+sealed\s+class\s+(\w+)\s*:\s*IMessage<(?:{re.escape(proto_type)}\.)?(\w+)>'
+    classes = []
+    
+    for match in re.finditer(class_pattern, section_content):
+        class_name = match.group(1)
+        # 确保类名匹配
+        if match.group(2) == class_name:
+            classes.append(class_name)
+    
+    # 提取每个类的字段
+    for class_name in classes:
+        # 查找完整的类定义 - 使用更精确的模式
+        class_def_pattern = rf'public\s+sealed\s+class\s+{re.escape(class_name)}\s*:[^{{]*\{{(.*?)(?=\n\s*public\s+(?:sealed\s+)?class|\n\s*public\s+enum|\n\s*\}}\s*$)'
+        class_match = re.search(class_def_pattern, section_content, re.DOTALL)
+        
+        if not class_match:
             continue
         
-        # 提取枚举类型
-        enum_pattern = r'public\s+enum\s+(\w+)[^{]*{([^}]*)}'
-        enum_matches = re.finditer(enum_pattern, section_content)
+        class_content = class_match.group(1)
         
-        for match in enum_matches:
-            enum_name = match.group(1)
-            enum_content = match.group(2)
-            
-            # 提取枚举值
-            enum_values = []
-            for line in enum_content.split('\n'):
-                # 匹配 public const E_XXX Value = 1; 这样的模式
-                value_match = re.search(r'public\s+const\s+\w+\s+(\w+)\s*=\s*(\d+)', line)
-                if value_match:
-                    enum_values.append((value_match.group(1), int(value_match.group(2))))
-            
-            if enum_values:
-                enum_types[enum_name] = sorted(enum_values, key=lambda x: x[1])
+        # 提取字段
+        fields = []
         
-        # 查找所有类定义
-        class_pattern = r'public\s+sealed\s+class\s+(\w+)\s*:\s*IMessage<\1>'
-        classes = re.findall(class_pattern, section_content)
+        # 获取所有字段编号定义
+        field_number_pattern = r'public\s+const\s+int\s+(\w+)FieldNumber\s*=\s*(\d+);'
+        field_number_matches = re.finditer(field_number_pattern, class_content)
         
-        # 提取每个类的字段
-        for class_name in classes:
-            # 查找完整的类定义
-            class_def_pattern = r'public\s+sealed\s+class\s+' + class_name + r'\s*:.*?{(.*?)(?=}\s*(?:\/\/|$))'
-            class_match = re.search(class_def_pattern, section_content, re.DOTALL)
+        for field_number_match in field_number_matches:
+            field_name = field_number_match.group(1)
+            field_number = int(field_number_match.group(2))
+            # 按照proto命名规则，首字母改为小写
+            proto_field_name = field_name[0].lower() + field_name[1:]
             
-            if not class_match:
-                continue
+            # 查找该字段是否为repeated类型，先在字段编码器中查找
+            is_repeated = False
+            field_type = None
             
-            class_content = class_match.group(1)
+            # 查找 RepeatedField 编码器定义
+            codec_pattern = rf'private\s+static\s+readonly\s+FieldCodec<([^>]+)>\s+_repeated_{re.escape(field_name.lower())}_codec'
+            codec_match = re.search(codec_pattern, class_content, re.IGNORECASE)
+            if codec_match:
+                is_repeated = True
+                field_type = codec_match.group(1)
             
-            # 提取字段
-            fields = []
-            
-            # 获取所有字段编号定义
-            field_number_pattern = r'public\s+const\s+int\s+(\w+)FieldNumber\s*=\s*(\d+);'
-            field_number_matches = re.finditer(field_number_pattern, class_content)
-            
-            for field_number_match in field_number_matches:
-                field_name = field_number_match.group(1)
-                field_number = int(field_number_match.group(2))
-                # 按照proto命名规则，首字母改为小写
-                proto_field_name = field_name[0].lower() + field_name[1:]
+            # 如果没找到编码器，尝试从字段定义中查找
+            if not field_type:
+                # 查找 RepeatedField 字段定义
+                repeated_field_pattern = rf'private\s+readonly\s+RepeatedField<([^>]+)>\s+{re.escape(field_name.lower())}_'
+                repeated_match = re.search(repeated_field_pattern, class_content, re.IGNORECASE)
                 
-                # 查找该字段是否为repeated类型，先在字段编码器中查找
-                is_repeated = False
-                field_type = None
-                
-                # 查找 RepeatedField 编码器定义
-                codec_pattern = r'private\s+static\s+readonly\s+FieldCodec<(\w+)>\s+_repeated_' + field_name.lower() + r'_codec;'
-                codec_match = re.search(codec_pattern, class_content, re.IGNORECASE)
-                if codec_match:
+                if repeated_match:
                     is_repeated = True
-                    field_type = codec_match.group(1)
-                
-                # 如果没找到编码器，尝试从字段定义中查找
-                if not field_type:
-                    # 查找字段定义，兼容大小写
-                    field_def_pattern = r'private\s+(readonly\s+RepeatedField<(\w+)>|(\w+))\s+' + field_name.lower() + r'_;'
-                    field_def_match = re.search(field_def_pattern, class_content, re.IGNORECASE)
+                    field_type = repeated_match.group(1)
+                else:
+                    # 查找普通字段定义
+                    normal_field_pattern = rf'private\s+([^;]+?)\s+{re.escape(field_name.lower())}_'
+                    normal_match = re.search(normal_field_pattern, class_content, re.IGNORECASE)
                     
-                    if field_def_match:
-                        # 检查是否是RepeatedField
-                        if field_def_match.group(2):  # 匹配到RepeatedField
-                            is_repeated = True
-                            field_type = field_def_match.group(2)
-                        else:  # 普通字段
-                            field_type = field_def_match.group(3)
-                
-                # 如果还是找不到类型，使用一个通用方法尝试提取
-                if not field_type:
-                    # 查找所有可能的字段定义
-                    field_def_pattern = r'private\s+(?:readonly\s+)?(?:RepeatedField<)?(\w+)(?:>)?\s+' + field_name.lower() + r'_;'
-                    field_def_match = re.search(field_def_pattern, class_content, re.IGNORECASE)
-                    
-                    if field_def_match:
-                        field_type = field_def_match.group(1)
-                        # 再次检查是否是Repeated类型
-                        repeated_check = re.search(r'private\s+readonly\s+RepeatedField<' + field_type + r'>\s+' + field_name.lower() + r'_;', class_content, re.IGNORECASE)
-                        if repeated_check:
-                            is_repeated = True
-                
-                # 最后的兜底检查
-                if not field_type:
-                    # 只要找到任何与字段名相关的定义
-                    any_field_def = re.search(r'private.*?' + field_name.lower() + r'_', class_content, re.IGNORECASE)
-                    if any_field_def:
-                        field_def_line = any_field_def.group(0)
-                        # 尝试从中提取类型
-                        type_match = re.search(r'private\s+(?:readonly\s+)?(?:RepeatedField<)?(\w+)', field_def_line)
+                    if normal_match:
+                        field_type_def = normal_match.group(1).strip()
+                        # 提取类型名
+                        type_match = re.search(r'(\w+(?:\.\w+)?)$', field_type_def)
                         if type_match:
                             field_type = type_match.group(1)
-                            if 'RepeatedField' in field_def_line:
-                                is_repeated = True
-                
-                # 如果仍然找不到类型，使用默认值
-                if not field_type:
-                    field_type = "string"  # 默认为string类型
-                
-                fields.append((proto_field_name, field_number, field_type, is_repeated))
             
-            if fields:
-                message_types[class_name] = sorted(fields, key=lambda x: x[1])
+            # 清理类型名，移除命名空间前缀
+            if field_type:
+                # 移除 EsPb. 等命名空间前缀
+                if '.' in field_type:
+                    field_type = field_type.split('.')[-1]
+            
+            # 如果仍然找不到类型，使用默认值
+            if not field_type:
+                field_type = "string"  # 默认为string类型
+            
+            fields.append((proto_field_name, field_number, field_type, is_repeated))
+        
+        if fields:
+            message_types[class_name] = sorted(fields, key=lambda x: x[1])
     
     return namespace, message_types, enum_types
 
@@ -173,12 +163,17 @@ def cs_type_to_proto_type(cs_type, known_messages):
         'bool': 'bool',
         'Bool': 'bool',
         'string': 'string',
+        'String': 'string',
         'ByteString': 'bytes'
     }
     
     # 如果是基础类型映射
     if cs_type in type_mapping:
         return type_mapping[cs_type]
+    
+    # 清理类型名，移除可能的命名空间前缀
+    if '.' in cs_type:
+        cs_type = cs_type.split('.')[-1]
     
     # 其他类型保持原样
     return cs_type
@@ -229,12 +224,12 @@ def generate_proto_file(namespace, message_types, enum_types, output_file):
             
             f.write('}\n\n')
 
-def process_dump_file(proto_type, file_path, output_dir):
-    """处理dump.cs文件并生成相应的proto文件
+def process_types_file(proto_type, file_path, output_dir):
+    """处理types.cs文件并生成相应的proto文件
     
     Args:
         proto_type: proto类型
-        file_path: dump.cs文件路径
+        file_path: types.cs文件路径
         output_dir: 输出目录
         
     Returns:
@@ -245,15 +240,15 @@ def process_dump_file(proto_type, file_path, output_dir):
         os.makedirs(output_dir)
     
     # 解析CS文件
-    namespace, message_types, enum_types = parse_cs_file(proto_type, file_path)
+    namespace, message_types, enum_types = parse_cs_file_from_types(proto_type, file_path)
     
     # 计数器，用于记录生成的文件数量
     generated_count = 0
     
     # 对于每个消息类型，生成一个proto文件
     for message_name in message_types:
-        # 跳过以's'开头的消息类型，这些类型通常用作其他消息的字段补充
-        if message_name.startswith('s'):
+        # 跳过以小写字母开头的消息类型，这些类型通常是辅助类型，用作其他消息的字段补充
+        if message_name[0].islower():
             continue
             
         # 创建一个集合用于存储所有需要包含的消息类型
@@ -360,7 +355,7 @@ def main():
     os.chdir(script_dir)
     
     # 输入文件
-    input_file = "dump.cs"
+    input_file = "types.cs"
     
     # 检查输入文件是否存在
     if not os.path.exists(input_file):
@@ -370,21 +365,26 @@ def main():
     # 定义目录
     response_proto_dir = "../response_proto"
     request_proto_dir = "../request_proto"
+    eschatpb_proto_dir = "../eschatpb_proto"
     response_output_dir = "../response_proto_api"
     request_output_dir = "../request_proto_api"
+    eschatpb_output_dir = "../eschatpb_proto_api"
     
-    proto_types = ["EsPb", "ReqPb"]
+    # 扩展proto类型以确保生成足够多的文件
+    proto_types = ["EsPb", "ReqPb", "EsChatPb"]
     total_proto_generated = 0
     
     for proto_type in proto_types:
         # 设置输出目录
         if proto_type == "EsPb":
             output_dir = response_proto_dir
-        else:  # ReqPb
+        elif proto_type == "ReqPb":
             output_dir = request_proto_dir
+        else:  # EsChatPb 单独存放
+            output_dir = eschatpb_proto_dir
         
         print(f"\n处理 {proto_type} 类型...")
-        generated_count = process_dump_file(proto_type, input_file, output_dir)
+        generated_count = process_types_file(proto_type, input_file, output_dir)
         total_proto_generated += generated_count
         print(f"{proto_type} 类型生成了 {generated_count} 个proto文件")
     
@@ -392,7 +392,7 @@ def main():
     
     
     # 清空输出目录
-    for output_dir in [response_output_dir, request_output_dir]:
+    for output_dir in [response_output_dir, request_output_dir, eschatpb_output_dir]:
         if os.path.exists(output_dir):
             for item in os.listdir(output_dir):
                 item_path = os.path.join(output_dir, item)
@@ -425,6 +425,17 @@ def main():
         create_init_file(request_output_dir)
     else:
         print(f"目录 {request_proto_dir} 不存在，跳过")
+    
+    # 处理聊天proto
+    print("\n编译聊天proto文件...")
+    if os.path.exists(eschatpb_proto_dir):
+        success, fail = process_proto_directory(eschatpb_proto_dir, eschatpb_output_dir)
+        total_success += success
+        total_fail += fail
+        # 创建__init__.py使输出目录成为Python包
+        create_init_file(eschatpb_output_dir)
+    else:
+        print(f"目录 {eschatpb_proto_dir} 不存在，跳过")
     
     print(f"生成proto文件: {total_proto_generated} 个")
     print(f"编译成功: {total_success} 个")

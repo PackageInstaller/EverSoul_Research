@@ -1,37 +1,37 @@
-namespace Tutorial;
-
-table Deserialization {
-    no: int32;
-    typeOffset: string;
-    extra_conditionOffset: string;
-    condition_paramsOffset: string;
-    is_win_battle: int32;
-    trigger_uiOffset: string;
-    player_level_min: int32;
-    player_level_max: int32;
-    formationOffset: string;
-    current_stage: int32;
-    button_nameOffset: string;
-    item_noOffset: string;
-    item_amountOffset: string;
-    actionOffset: string;
-    action_paramsOffset: string;
-    cameraOffset: string;
-    camera_targetOffset: string;
-    open_uiOffset: string;
-    talk_group: int32;
-    add_fairy_noOffset: string;
-    give_item_no: int32;
-    give_item_amount: int32;
-    arbeit_complete: int32;
-    active_objectsOffset: string;
-    unactive_objectsOffset: string;
-    is_skippable: int32;
-    block_back: int32;
-}
+namespace Tbl;
 
 table Tutorial {
-    json: [Deserialization];
+  no: int32;
+  type: string;
+  extra_condition: string;
+  condition_params: string;
+  is_win_battle: int32;
+  trigger_ui: string;
+  player_level_min: int32;
+  player_level_max: int32;
+  formation: string;
+  current_stage: int32;
+  button_name: string;
+  item_no: string;
+  item_amount: string;
+  action: string;
+  action_params: string;
+  camera: string;
+  camera_target: string;
+  open_ui: string;
+  talk_group: int32;
+  add_fairy_no: string;
+  give_item_no: int32;
+  give_item_amount: int32;
+  arbeit_complete: int32;
+  active_objects: string;
+  unactive_objects: string;
+  is_skippable: int32;
+  block_back: int32;
 }
 
-root_type Tutorial;
+table TutorialTable {
+  tutorials: [Tutorial];
+}
+
+root_type TutorialTable;

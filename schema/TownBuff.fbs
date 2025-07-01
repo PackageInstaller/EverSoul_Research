@@ -1,18 +1,18 @@
-namespace TownBuff;
-
-table Deserialization {
-    no: int32;
-    buff_type: int32;
-    buff_type_no: int32;
-    amount: float;
-    tooltip_sno: int32;
-    amount_kind: int32;
-    contents_buff_no: int32;
-    icon: int32;
-}
+namespace Tbl;
 
 table TownBuff {
-    json: [Deserialization];
+  no: int32;
+  buff_type: int32;
+  buff_type_no: int32;
+  amount: float;
+  tooltip_sno: int32;
+  amount_kind: int32;
+  contents_buff_no: int32;
+  icon: int32;
 }
 
-root_type TownBuff;
+table TownBuffTable {
+  town_buffs: [TownBuff];
+}
+
+root_type TownBuffTable;

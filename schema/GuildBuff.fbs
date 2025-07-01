@@ -1,17 +1,17 @@
-namespace GuildBuff;
-
-table Deserialization {
-    no: int32;
-    skill_no: int32;
-    level: int32;
-    skillpoint: int32;
-    buff_type: int32;
-    amount: float;
-    tooltip_sno: int32;
-}
+namespace Tbl;
 
 table GuildBuff {
-    json: [Deserialization];
+  no: int32;
+  skill_no: int32;
+  level: int32;
+  skillpoint: int32;
+  buff_type: int32;
+  amount: float;
+  tooltip_sno: int32;
 }
 
-root_type GuildBuff;
+table GuildBuffTable {
+  guild_buffs: [GuildBuff];
+}
+
+root_type GuildBuffTable;

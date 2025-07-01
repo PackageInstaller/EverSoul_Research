@@ -1,12 +1,12 @@
-namespace HeroLoveBuff;
-
-table Deserialization {
-    no: int32;
-    type: int32;
-}
+namespace Tbl;
 
 table HeroLoveBuff {
-    json: [Deserialization];
+  no: int32;
+  type: int32;
 }
 
-root_type HeroLoveBuff;
+table HeroLoveBuffTable {
+  hero_love_buffs: [HeroLoveBuff];
+}
+
+root_type HeroLoveBuffTable;

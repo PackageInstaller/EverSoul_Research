@@ -1,28 +1,28 @@
-namespace TowerExtendStage;
-
-table Deserialization {
-    no: int32;
-    floor: int32;
-    stage_type: int32;
-    name_sno: int32;
-    enemy_group: int32;
-    mapOffset: string;
-    battle_time: int32;
-    enemy_contents_buff_title_sno: int32;
-    enemy_contents_buff_content_sno: int32;
-    enemy_contents_buff: int32;
-    enemy_battle_buff: int32;
-    req_hero_buff_title_sno: int32;
-    req_hero_buff_content_sno: int32;
-    req_hero_battle_buff: int32;
-    reward_item_1: int32;
-    reward_amount_1: int32;
-    reward_item_2: int32;
-    reward_amount_2: int32;
-}
+namespace Tbl;
 
 table TowerExtendStage {
-    json: [Deserialization];
+  no: int32;
+  floor: int32;
+  stage_type: int32;
+  name_sno: int32;
+  enemy_group: int32;
+  map: string;
+  battle_time: int32;
+  enemy_contents_buff_title_sno: int32;
+  enemy_contents_buff_content_sno: int32;
+  enemy_contents_buff: int32;
+  enemy_battle_buff: int32;
+  req_hero_buff_title_sno: int32;
+  req_hero_buff_content_sno: int32;
+  req_hero_battle_buff: int32;
+  reward_item_1: int32;
+  reward_amount_1: int32;
+  reward_item_2: int32;
+  reward_amount_2: int32;
 }
 
-root_type TowerExtendStage;
+table TowerExtendStageTable {
+  tower_extend_stages: [TowerExtendStage];
+}
+
+root_type TowerExtendStageTable;

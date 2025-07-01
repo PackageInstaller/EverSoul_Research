@@ -1,15 +1,15 @@
-namespace SkillDispel;
-
-table Deserialization {
-    no: int32;
-    dispel_group: int32;
-    buff_type: int32;
-    buff_id: int32;
-    count: int32;
-}
+namespace Tbl;
 
 table SkillDispel {
-    json: [Deserialization];
+  no: int32;
+  dispel_group: int32;
+  buff_type: int32;
+  buff_id: int32;
+  count: int32;
 }
 
-root_type SkillDispel;
+table SkillDispelTable {
+  skill_dispels: [SkillDispel];
+}
+
+root_type SkillDispelTable;

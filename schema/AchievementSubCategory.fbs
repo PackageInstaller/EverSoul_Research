@@ -1,14 +1,14 @@
-namespace AchievementSubCategory;
-
-table Deserialization {
-    no: int32;
-    category: int32;
-    sub_category: int32;
-    icon_pathOffset: string;
-}
+namespace Tbl;
 
 table AchievementSubCategory {
-    json: [Deserialization];
+  no: int32;
+  category: int32;
+  sub_category: int32;
+  icon_path: string;
 }
 
-root_type AchievementSubCategory;
+table AchievementSubCategoryTable {
+  achievement_sub_categorys: [AchievementSubCategory];
+}
+
+root_type AchievementSubCategoryTable;

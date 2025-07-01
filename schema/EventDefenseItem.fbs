@@ -1,18 +1,18 @@
-namespace EventDefenseItem;
-
-table Deserialization {
-    no: int32;
-    item_prefabOffset: string;
-    item_type: int32;
-    item_value: float;
-    fxOffset: string;
-    duration: int32;
-    random_rate: int32;
-    count_string: int32;
-}
+namespace Tbl;
 
 table EventDefenseItem {
-    json: [Deserialization];
+  no: int32;
+  item_prefab: string;
+  item_type: int32;
+  item_value: float;
+  fx: string;
+  duration: int32;
+  random_rate: int32;
+  count_string: int32;
 }
 
-root_type EventDefenseItem;
+table EventDefenseItemTable {
+  event_defense_items: [EventDefenseItem];
+}
+
+root_type EventDefenseItemTable;

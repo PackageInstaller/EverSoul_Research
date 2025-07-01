@@ -1,15 +1,15 @@
-namespace HeroGroup;
-
-table Deserialization {
-    name_sno: int32;
-    group_sno: int32;
-    group_desc_sno: int32;
-    iconOffset: string;
-    icon_colorOffset: string;
-}
+namespace Tbl;
 
 table HeroGroup {
-    json: [Deserialization];
+  name_sno: int32;
+  group_sno: int32;
+  group_desc_sno: int32;
+  icon: string;
+  icon_color: string;
 }
 
-root_type HeroGroup;
+table HeroGroupTable {
+  hero_groups: [HeroGroup];
+}
+
+root_type HeroGroupTable;

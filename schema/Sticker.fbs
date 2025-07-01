@@ -1,13 +1,13 @@
-namespace Sticker;
-
-table Deserialization {
-    no: int32;
-    sticker_point: int32;
-    order: int32;
-}
+namespace Tbl;
 
 table Sticker {
-    json: [Deserialization];
+  no: int32;
+  sticker_point: int32;
+  order: int32;
 }
 
-root_type Sticker;
+table StickerTable {
+  stickers: [Sticker];
+}
+
+root_type StickerTable;

@@ -1,18 +1,18 @@
-namespace ItemUse;
-
-table Deserialization {
-    index: int32;
-    no: int32;
-    type: int32;
-    type_codeOffset: string;
-    need_amount: int32;
-    value: int32;
-    value2: int32;
-    max_use_count: int32;
-}
+namespace Tbl;
 
 table ItemUse {
-    json: [Deserialization];
+  index: int32;
+  no: int32;
+  type: int32;
+  type_code: string;
+  need_amount: int32;
+  value: int32;
+  value2: int32;
+  max_use_count: int32;
 }
 
-root_type ItemUse;
+table ItemUseTable {
+  item_uses: [ItemUse];
+}
+
+root_type ItemUseTable;

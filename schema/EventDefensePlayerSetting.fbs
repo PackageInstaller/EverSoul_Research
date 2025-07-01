@@ -1,15 +1,15 @@
-namespace EventDefensePlayerSetting;
-
-table Deserialization {
-    no: int32;
-    user_level_value: int32;
-    character_hp: int32;
-    character_damageOffset: string;
-    exp: int32;
-}
+namespace Tbl;
 
 table EventDefensePlayerSetting {
-    json: [Deserialization];
+  no: int32;
+  user_level_value: int32;
+  character_hp: int32;
+  character_damage: string;
+  exp: int32;
 }
 
-root_type EventDefensePlayerSetting;
+table EventDefensePlayerSettingTable {
+  event_defense_player_settings: [EventDefensePlayerSetting];
+}
+
+root_type EventDefensePlayerSettingTable;

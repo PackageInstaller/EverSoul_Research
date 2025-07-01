@@ -1,19 +1,19 @@
-namespace StringProtocol;
-
-table Deserialization {
-    no: int32;
-    krOffset: string;
-    enOffset: string;
-    jaOffset: string;
-    zh_twOffset: string;
-    zh_cnOffset: string;
-    text_devOffset: string;
-    exception: int32;
-    is_common: int32;
-}
+namespace Tbl;
 
 table StringProtocol {
-    json: [Deserialization];
+  no: int32;
+  kr: string;
+  en: string;
+  ja: string;
+  zh_tw: string;
+  zh_cn: string;
+  text_dev: string;
+  exception: int32;
+  is_common: int32;
 }
 
-root_type StringProtocol;
+table StringProtocolTable {
+  string_protocols: [StringProtocol];
+}
+
+root_type StringProtocolTable;

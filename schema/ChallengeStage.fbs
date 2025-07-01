@@ -1,22 +1,22 @@
-namespace ChallengeStage;
-
-table Deserialization {
-    no: int32;
-    challenge_no_1: int32;
-    reward_group_no_1: int32;
-    challenge_no_2: int32;
-    reward_group_no_2: int32;
-    challenge_no_3: int32;
-    reward_group_no_3: int32;
-    level_limit: int32;
-    buff_no_1: int32;
-    buff_no_2: int32;
-    buff_desc: int32;
-    buff_name: int32;
-}
+namespace Tbl;
 
 table ChallengeStage {
-    json: [Deserialization];
+  no: int32;
+  challenge_no_1: int32;
+  reward_group_no_1: int32;
+  challenge_no_2: int32;
+  reward_group_no_2: int32;
+  challenge_no_3: int32;
+  reward_group_no_3: int32;
+  level_limit: int32;
+  buff_no_1: int32;
+  buff_no_2: int32;
+  buff_desc: int32;
+  buff_name: int32;
 }
 
-root_type ChallengeStage;
+table ChallengeStageTable {
+  challenge_stages: [ChallengeStage];
+}
+
+root_type ChallengeStageTable;

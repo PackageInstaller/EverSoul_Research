@@ -1,16 +1,16 @@
-namespace GachaMileage;
-
-table Deserialization {
-    no: int32;
-    type: int32;
-    hero_no: int32;
-    name_sno: int32;
-    desc_sno: int32;
-    icon_pathOffset: string;
-}
+namespace Tbl;
 
 table GachaMileage {
-    json: [Deserialization];
+  no: int32;
+  type: int32;
+  hero_no: int32;
+  name_sno: int32;
+  desc_sno: int32;
+  icon_path: string;
 }
 
-root_type GachaMileage;
+table GachaMileageTable {
+  gacha_mileages: [GachaMileage];
+}
+
+root_type GachaMileageTable;

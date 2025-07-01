@@ -1,18 +1,18 @@
-namespace EventChangeLobby;
-
-table Deserialization {
-    no: int32;
-    hero_no: int32;
-    hero_scale: float;
-    background_nameOffset: string;
-    bgm_nameOffset: string;
-    start_dateOffset: string;
-    end_dateOffset: string;
-    apply_new_account: int32;
-}
+namespace Tbl;
 
 table EventChangeLobby {
-    json: [Deserialization];
+  no: int32;
+  hero_no: int32;
+  hero_scale: float;
+  background_name: string;
+  bgm_name: string;
+  start_date: string;
+  end_date: string;
+  apply_new_account: int32;
 }
 
-root_type EventChangeLobby;
+table EventChangeLobbyTable {
+  event_change_lobbys: [EventChangeLobby];
+}
+
+root_type EventChangeLobbyTable;

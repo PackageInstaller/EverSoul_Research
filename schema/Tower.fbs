@@ -1,18 +1,18 @@
-namespace Tower;
-
-table Deserialization {
-    no: int32;
-    tower_type: int32;
-    tower_name: int32;
-    req_hero: int32;
-    bg_pathOffset: string;
-    buff_release_stage: int32;
-    clear_buff_target: int32;
-    open_dateOffset: string;
-}
+namespace Tbl;
 
 table Tower {
-    json: [Deserialization];
+  no: int32;
+  tower_type: int32;
+  tower_name: int32;
+  req_hero: int32;
+  bg_path: string;
+  buff_release_stage: int32;
+  clear_buff_target: int32;
+  open_date: string;
 }
 
-root_type Tower;
+table TowerTable {
+  towers: [Tower];
+}
+
+root_type TowerTable;

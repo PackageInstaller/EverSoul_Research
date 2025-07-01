@@ -1,35 +1,35 @@
-namespace EventRotation;
-
-table Deserialization {
-    no: int32;
-    group: int32;
-    event_number: int32;
-    reward_path: int32;
-    table_nameOffset: string;
-    column_name_1Offset: string;
-    value_1: float;
-    column_name_2Offset: string;
-    value_2: float;
-    column_name_3Offset: string;
-    value_3: float;
-    column_name_4Offset: string;
-    value_4: float;
-    column_name_5Offset: string;
-    value_5: float;
-    column_name_6Offset: string;
-    value_6: float;
-    column_name_7Offset: string;
-    value_7: float;
-    column_name_8Offset: string;
-    value_8: float;
-    column_name_9Offset: string;
-    value_9: float;
-    column_name_10Offset: string;
-    value_10: float;
-}
+namespace Tbl;
 
 table EventRotation {
-    json: [Deserialization];
+  no: int32;
+  group: int32;
+  event_number: int32;
+  reward_path: int32;
+  table_name: string;
+  column_name_1: string;
+  value_1: float;
+  column_name_2: string;
+  value_2: float;
+  column_name_3: string;
+  value_3: float;
+  column_name_4: string;
+  value_4: float;
+  column_name_5: string;
+  value_5: float;
+  column_name_6: string;
+  value_6: float;
+  column_name_7: string;
+  value_7: float;
+  column_name_8: string;
+  value_8: float;
+  column_name_9: string;
+  value_9: float;
+  column_name_10: string;
+  value_10: float;
 }
 
-root_type EventRotation;
+table EventRotationTable {
+  event_rotations: [EventRotation];
+}
+
+root_type EventRotationTable;

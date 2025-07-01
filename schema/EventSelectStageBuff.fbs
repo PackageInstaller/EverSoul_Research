@@ -1,18 +1,18 @@
-namespace EventSelectStageBuff;
-
-table Deserialization {
-    no: int32;
-    event_group: int32;
-    event_number: int32;
-    event_stage_group: int32;
-    buff_group: int32;
-    buff_no: int32;
-    buff_name_sno: int32;
-    tooltip_sno: int32;
-}
+namespace Tbl;
 
 table EventSelectStageBuff {
-    json: [Deserialization];
+  no: int32;
+  event_group: int32;
+  event_number: int32;
+  event_stage_group: int32;
+  buff_group: int32;
+  buff_no: int32;
+  buff_name_sno: int32;
+  tooltip_sno: int32;
 }
 
-root_type EventSelectStageBuff;
+table EventSelectStageBuffTable {
+  event_select_stage_buffs: [EventSelectStageBuff];
+}
+
+root_type EventSelectStageBuffTable;

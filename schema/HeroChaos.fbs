@@ -1,12 +1,12 @@
-namespace HeroChaos;
-
-table Deserialization {
-    hero_no: int32;
-    base_hero_no: int32;
-}
+namespace Tbl;
 
 table HeroChaos {
-    json: [Deserialization];
+  hero_no: int32;
+  base_hero_no: int32;
 }
 
-root_type HeroChaos;
+table HeroChaosTable {
+  hero_chaoss: [HeroChaos];
+}
+
+root_type HeroChaosTable;

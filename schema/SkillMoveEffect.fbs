@@ -1,14 +1,14 @@
-namespace SkillMoveEffect;
-
-table Deserialization {
-    no: int32;
-    motion_type: int32;
-    move_power: float;
-    move_time: float;
-}
+namespace Tbl;
 
 table SkillMoveEffect {
-    json: [Deserialization];
+  no: int32;
+  motion_type: int32;
+  move_power: float;
+  move_time: float;
 }
 
-root_type SkillMoveEffect;
+table SkillMoveEffectTable {
+  skill_move_effects: [SkillMoveEffect];
+}
+
+root_type SkillMoveEffectTable;

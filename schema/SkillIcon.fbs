@@ -1,13 +1,13 @@
-namespace SkillIcon;
-
-table Deserialization {
-    no: int32;
-    iconOffset: string;
-    colorOffset: string;
-}
+namespace Tbl;
 
 table SkillIcon {
-    json: [Deserialization];
+  no: int32;
+  icon: string;
+  color: string;
 }
 
-root_type SkillIcon;
+table SkillIconTable {
+  skill_icons: [SkillIcon];
+}
+
+root_type SkillIconTable;

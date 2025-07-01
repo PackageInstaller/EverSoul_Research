@@ -1,21 +1,21 @@
-namespace ItemTranscendence;
-
-table Deserialization {
-    no: int32;
-    grade_sno: int32;
-    slot_limit_sno: int32;
-    stat_limit_sno: int32;
-    level_limit: int32;
-    material_no_1: int32;
-    material_amount_1: int32;
-    material_no_2: int32;
-    material_amount_2: int32;
-    material_no_2_substitute: int32;
-    material_amount_2_substitute: int32;
-}
+namespace Tbl;
 
 table ItemTranscendence {
-    json: [Deserialization];
+  no: int32;
+  grade_sno: int32;
+  slot_limit_sno: int32;
+  stat_limit_sno: int32;
+  level_limit: int32;
+  material_no_1: int32;
+  material_amount_1: int32;
+  material_no_2: int32;
+  material_amount_2: int32;
+  material_no_2_substitute: int32;
+  material_amount_2_substitute: int32;
 }
 
-root_type ItemTranscendence;
+table ItemTranscendenceTable {
+  item_transcendences: [ItemTranscendence];
+}
+
+root_type ItemTranscendenceTable;

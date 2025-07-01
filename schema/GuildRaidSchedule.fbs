@@ -1,14 +1,14 @@
-namespace GuildRaidSchedule;
-
-table Deserialization {
-    no: int32;
-    raid_no: int32;
-    server_check: int32;
-    schedule_keyOffset: string;
-}
+namespace Tbl;
 
 table GuildRaidSchedule {
-    json: [Deserialization];
+  no: int32;
+  raid_no: int32;
+  server_check: int32;
+  schedule_key: string;
 }
 
-root_type GuildRaidSchedule;
+table GuildRaidScheduleTable {
+  guild_raid_schedules: [GuildRaidSchedule];
+}
+
+root_type GuildRaidScheduleTable;

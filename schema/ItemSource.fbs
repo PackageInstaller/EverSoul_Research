@@ -1,18 +1,18 @@
-namespace ItemSource;
-
-table Deserialization {
-    no: int32;
-    item_no: int32;
-    item_source_sno_1: int32;
-    move_behavior_1: int32;
-    item_source_sno_2: int32;
-    move_behavior_2: int32;
-    item_source_sno_3: int32;
-    move_behavior_3: int32;
-}
+namespace Tbl;
 
 table ItemSource {
-    json: [Deserialization];
+  no: int32;
+  item_no: int32;
+  item_source_sno_1: int32;
+  move_behavior_1: int32;
+  item_source_sno_2: int32;
+  move_behavior_2: int32;
+  item_source_sno_3: int32;
+  move_behavior_3: int32;
 }
 
-root_type ItemSource;
+table ItemSourceTable {
+  item_sources: [ItemSource];
+}
+
+root_type ItemSourceTable;

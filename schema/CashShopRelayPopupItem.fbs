@@ -1,16 +1,16 @@
-namespace CashShopRelayPopupItem;
-
-table Deserialization {
-    no: int32;
-    name_sno: int32;
-    desc_sno: int32;
-    talk_bubbleOffset: string;
-    item_no_listOffset: string;
-    bgOffset: string;
-}
+namespace Tbl;
 
 table CashShopRelayPopupItem {
-    json: [Deserialization];
+  no: int32;
+  name_sno: int32;
+  desc_sno: int32;
+  talk_bubble: string;
+  item_no_list: string;
+  bg: string;
 }
 
-root_type CashShopRelayPopupItem;
+table CashShopRelayPopupItemTable {
+  cash_shop_relay_popup_items: [CashShopRelayPopupItem];
+}
+
+root_type CashShopRelayPopupItemTable;

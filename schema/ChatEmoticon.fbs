@@ -1,15 +1,15 @@
-namespace ChatEmoticon;
-
-table Deserialization {
-    no: int32;
-    tab_no: int32;
-    sort_no: int32;
-    imgOffset: string;
-    use_anim: int32;
-}
+namespace Tbl;
 
 table ChatEmoticon {
-    json: [Deserialization];
+  no: int32;
+  tab_no: int32;
+  sort_no: int32;
+  img: string;
+  use_anim: int32;
 }
 
-root_type ChatEmoticon;
+table ChatEmoticonTable {
+  chat_emoticons: [ChatEmoticon];
+}
+
+root_type ChatEmoticonTable;

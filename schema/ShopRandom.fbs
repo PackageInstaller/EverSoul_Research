@@ -1,31 +1,31 @@
-namespace ShopRandom;
-
-table Deserialization {
-    no: int32;
-    shop_no: int32;
-    pay_item_no: int32;
-    pay_item_amount: int32;
-    repeat_draw_boxOffset: string;
-    bg_pathOffset: string;
-    shop_image_pathOffset: string;
-    use_title: int32;
-    shop_name_sno: int32;
-    event_shop_hero: int32;
-    model_viewer_display: int32;
-    model_offsetOffset: string;
-    tip_sno_1: int32;
-    tip_sno_2: int32;
-    tip_sno_3: int32;
-    tip2_sno_1: int32;
-    tip2_sno_2: int32;
-    tip2_sno_3: int32;
-    tip3_sno_1: int32;
-    tip3_sno_2: int32;
-    tip3_sno_3: int32;
-}
+namespace Tbl;
 
 table ShopRandom {
-    json: [Deserialization];
+  no: int32;
+  shop_no: int32;
+  pay_item_no: int32;
+  pay_item_amount: int32;
+  repeat_draw_box: string;
+  bg_path: string;
+  shop_image_path: string;
+  use_title: int32;
+  shop_name_sno: int32;
+  event_shop_hero: int32;
+  model_viewer_display: int32;
+  model_offset: string;
+  tip_sno_1: int32;
+  tip_sno_2: int32;
+  tip_sno_3: int32;
+  tip2_sno_1: int32;
+  tip2_sno_2: int32;
+  tip2_sno_3: int32;
+  tip3_sno_1: int32;
+  tip3_sno_2: int32;
+  tip3_sno_3: int32;
 }
 
-root_type ShopRandom;
+table ShopRandomTable {
+  shop_randoms: [ShopRandom];
+}
+
+root_type ShopRandomTable;

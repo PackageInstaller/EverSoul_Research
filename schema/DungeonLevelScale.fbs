@@ -1,15 +1,15 @@
-namespace DungeonLevelScale;
-
-table Deserialization {
-    no: int32;
-    group_no: int32;
-    monster_typeOffset: string;
-    monster_add_level_min: int32;
-    monster_add_level_max: int32;
-}
+namespace Tbl;
 
 table DungeonLevelScale {
-    json: [Deserialization];
+  no: int32;
+  group_no: int32;
+  monster_type: string;
+  monster_add_level_min: int32;
+  monster_add_level_max: int32;
 }
 
-root_type DungeonLevelScale;
+table DungeonLevelScaleTable {
+  dungeon_level_scales: [DungeonLevelScale];
+}
+
+root_type DungeonLevelScaleTable;

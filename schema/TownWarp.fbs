@@ -1,16 +1,16 @@
-namespace TownWarp;
-
-table Deserialization {
-    no: int32;
-    group: int32;
-    button_sno: int32;
-    positionOffset: string;
-    section_limit: int32;
-    imgOffset: string;
-}
+namespace Tbl;
 
 table TownWarp {
-    json: [Deserialization];
+  no: int32;
+  group: int32;
+  button_sno: int32;
+  position: string;
+  section_limit: int32;
+  img: string;
 }
 
-root_type TownWarp;
+table TownWarpTable {
+  town_warps: [TownWarp];
+}
+
+root_type TownWarpTable;

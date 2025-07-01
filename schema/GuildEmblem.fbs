@@ -1,14 +1,14 @@
-namespace GuildEmblem;
-
-table Deserialization {
-    no: int32;
-    order: int32;
-    hero_no: int32;
-    filenameOffset: string;
-}
+namespace Tbl;
 
 table GuildEmblem {
-    json: [Deserialization];
+  no: int32;
+  order: int32;
+  hero_no: int32;
+  filename: string;
 }
 
-root_type GuildEmblem;
+table GuildEmblemTable {
+  guild_emblems: [GuildEmblem];
+}
+
+root_type GuildEmblemTable;

@@ -1,16 +1,16 @@
-namespace StringStage;
+namespace Tbl;
 
 table Deserialization {
-    no: int32;
-    krOffset: string;
-    enOffset: string;
-    jaOffset: string;
-    zh_twOffset: string;
-    zh_cnOffset: string;
+  no: int32;
+  kr: string;
+  en: string;
+  ja: string;
+  zh_tw: string;
+  zh_cn: string;
 }
 
-table StringStage {
-    json: [Deserialization];
+table StringStageTable {
+  json: [Deserialization];
 }
 
-root_type StringStage;
+root_type StringStageTable;

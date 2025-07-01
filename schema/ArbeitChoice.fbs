@@ -1,15 +1,15 @@
-namespace ArbeitChoice;
-
-table Deserialization {
-    no: int32;
-    arbeit_no: int32;
-    objet_no: int32;
-    arbeit_ratio: int32;
-    daynightOffset: string;
-}
+namespace Tbl;
 
 table ArbeitChoice {
-    json: [Deserialization];
+  no: int32;
+  arbeit_no: int32;
+  objet_no: int32;
+  arbeit_ratio: int32;
+  daynight: string;
 }
 
-root_type ArbeitChoice;
+table ArbeitChoiceTable {
+  arbeit_choices: [ArbeitChoice];
+}
+
+root_type ArbeitChoiceTable;

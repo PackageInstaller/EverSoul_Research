@@ -1,15 +1,15 @@
-namespace EventDiceSlotPoint;
-
-table Deserialization {
-    no: int32;
-    slot_point_group: int32;
-    reward_point: int32;
-    icon_pathOffset: string;
-    icon_scale: float;
-}
+namespace Tbl;
 
 table EventDiceSlotPoint {
-    json: [Deserialization];
+  no: int32;
+  slot_point_group: int32;
+  reward_point: int32;
+  icon_path: string;
+  icon_scale: float;
 }
 
-root_type EventDiceSlotPoint;
+table EventDiceSlotPointTable {
+  event_dice_slot_points: [EventDiceSlotPoint];
+}
+
+root_type EventDiceSlotPointTable;

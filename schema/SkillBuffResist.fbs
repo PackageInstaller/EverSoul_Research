@@ -1,15 +1,15 @@
-namespace SkillBuffResist;
-
-table Deserialization {
-    no: int32;
-    buff_value: int32;
-    buff_effect: int32;
-    buff_type: int32;
-    rate: float;
-}
+namespace Tbl;
 
 table SkillBuffResist {
-    json: [Deserialization];
+  no: int32;
+  buff_value: int32;
+  buff_effect: int32;
+  buff_type: int32;
+  rate: float;
 }
 
-root_type SkillBuffResist;
+table SkillBuffResistTable {
+  skill_buff_resists: [SkillBuffResist];
+}
+
+root_type SkillBuffResistTable;

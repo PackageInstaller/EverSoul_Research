@@ -1,16 +1,16 @@
-namespace GachaMileageReward;
-
-table Deserialization {
-    no: int32;
-    gacha_mileage_no: int32;
-    mileage_point: int32;
-    item_no: int32;
-    item_value: int32;
-    repeat: int32;
-}
+namespace Tbl;
 
 table GachaMileageReward {
-    json: [Deserialization];
+  no: int32;
+  gacha_mileage_no: int32;
+  mileage_point: int32;
+  item_no: int32;
+  item_value: int32;
+  repeat: int32;
 }
 
-root_type GachaMileageReward;
+table GachaMileageRewardTable {
+  gacha_mileage_rewards: [GachaMileageReward];
+}
+
+root_type GachaMileageRewardTable;

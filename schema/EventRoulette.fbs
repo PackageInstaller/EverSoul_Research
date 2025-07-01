@@ -1,18 +1,18 @@
-namespace EventRoulette;
-
-table Deserialization {
-    no: int32;
-    event_group: int32;
-    event_number: int32;
-    roulette_type: int32;
-    itemlist_group: int32;
-    reward_group: int32;
-    img_rouletteOffset: string;
-    bg_rouletteOffset: string;
-}
+namespace Tbl;
 
 table EventRoulette {
-    json: [Deserialization];
+  no: int32;
+  event_group: int32;
+  event_number: int32;
+  roulette_type: int32;
+  itemlist_group: int32;
+  reward_group: int32;
+  img_roulette: string;
+  bg_roulette: string;
 }
 
-root_type EventRoulette;
+table EventRouletteTable {
+  event_roulettes: [EventRoulette];
+}
+
+root_type EventRouletteTable;

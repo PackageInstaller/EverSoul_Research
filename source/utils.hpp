@@ -33,6 +33,7 @@ public:
     static ReviewServerInfo checkReviewServer(const std::string &baseVersion);
     static bool downloadAndProcessReviewTables(const ReviewServerInfo &reviewInfo);
     static std::string httpGet(const std::string &url, int retries = 5);
+    static bool generateFlatBufferPythonAPI(const std::string &schema_dir, const std::string &output_dir);
 
     /**
     * @brief 比较两个版本号

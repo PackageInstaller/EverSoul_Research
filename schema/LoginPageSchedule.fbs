@@ -1,14 +1,14 @@
-namespace LoginPageSchedule;
-
-table Deserialization {
-    no: int32;
-    login_pathOffset: string;
-    start_dateOffset: string;
-    end_dateOffset: string;
-}
+namespace Tbl;
 
 table LoginPageSchedule {
-    json: [Deserialization];
+  no: int32;
+  login_path: string;
+  start_date: string;
+  end_date: string;
 }
 
-root_type LoginPageSchedule;
+table LoginPageScheduleTable {
+  login_page_schedules: [LoginPageSchedule];
+}
+
+root_type LoginPageScheduleTable;

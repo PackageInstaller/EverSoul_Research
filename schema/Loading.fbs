@@ -1,16 +1,16 @@
-namespace Loading;
-
-table Deserialization {
-    no: int32;
-    template_no: int32;
-    template_title: int32;
-    template_string: int32;
-    template_imgOffset: string;
-    template_bgOffset: string;
-}
+namespace Tbl;
 
 table Loading {
-    json: [Deserialization];
+  no: int32;
+  template_no: int32;
+  template_title: int32;
+  template_string: int32;
+  template_img: string;
+  template_bg: string;
 }
 
-root_type Loading;
+table LoadingTable {
+  loadings: [Loading];
+}
+
+root_type LoadingTable;

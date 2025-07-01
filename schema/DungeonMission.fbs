@@ -1,18 +1,18 @@
-namespace DungeonMission;
-
-table Deserialization {
-    no: int32;
-    mission_group_no: int32;
-    next_mission_no: int32;
-    mission_title_sno: int32;
-    mission_desc_sno: int32;
-    mission_target_sno: int32;
-    mission_count: int32;
-    progress_rate: int32;
-}
+namespace Tbl;
 
 table DungeonMission {
-    json: [Deserialization];
+  no: int32;
+  mission_group_no: int32;
+  next_mission_no: int32;
+  mission_title_sno: int32;
+  mission_desc_sno: int32;
+  mission_target_sno: int32;
+  mission_count: int32;
+  progress_rate: int32;
 }
 
-root_type DungeonMission;
+table DungeonMissionTable {
+  dungeon_missions: [DungeonMission];
+}
+
+root_type DungeonMissionTable;

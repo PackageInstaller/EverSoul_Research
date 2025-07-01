@@ -1,26 +1,26 @@
-namespace TownEnemy;
-
-table Deserialization {
-    no: int32;
-    prefab_pathOffset: string;
-    slotOffset: string;
-    type: int32;
-    movedelay: float;
-    movetime: float;
-    movespeed: int32;
-    avoiddelay: float;
-    avoidtime: float;
-    avoidspeed: int32;
-    atk: int32;
-    hp: int32;
-    rewardOffset: string;
-    rewardgroup: int32;
-    appear_ratio: int32;
-    section: int32;
-}
+namespace Tbl;
 
 table TownEnemy {
-    json: [Deserialization];
+  no: int32;
+  prefab_path: string;
+  slot: string;
+  type: int32;
+  movedelay: float;
+  movetime: float;
+  movespeed: int32;
+  avoiddelay: float;
+  avoidtime: float;
+  avoidspeed: int32;
+  atk: int32;
+  hp: int32;
+  reward: string;
+  rewardgroup: int32;
+  appear_ratio: int32;
+  section: int32;
 }
 
-root_type TownEnemy;
+table TownEnemyTable {
+  town_enemys: [TownEnemy];
+}
+
+root_type TownEnemyTable;

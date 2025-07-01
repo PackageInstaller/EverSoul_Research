@@ -1,19 +1,19 @@
-namespace Illust;
-
-table Deserialization {
-    no: int32;
-    category: int32;
-    open_type: int32;
-    open_condition: int32;
-    illust_name: int32;
-    thumbnail_pathOffset: string;
-    bg_movie_pathOffset: string;
-    lobby: int32;
-    hero_check: int32;
-}
+namespace Tbl;
 
 table Illust {
-    json: [Deserialization];
+  no: int32;
+  category: int32;
+  open_type: int32;
+  open_condition: int32;
+  illust_name: int32;
+  thumbnail_path: string;
+  bg_movie_path: string;
+  lobby: int32;
+  hero_check: int32;
 }
 
-root_type Illust;
+table IllustTable {
+  illusts: [Illust];
+}
+
+root_type IllustTable;

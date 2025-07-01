@@ -1,15 +1,15 @@
-namespace EventDoubleStageInfo;
-
-table Deserialization {
-    no: int32;
-    event_group: int32;
-    event_number: int32;
-    stage_limit_value: int32;
-    stage_limit_sno: int32;
-}
+namespace Tbl;
 
 table EventDoubleStageInfo {
-    json: [Deserialization];
+  no: int32;
+  event_group: int32;
+  event_number: int32;
+  stage_limit_value: int32;
+  stage_limit_sno: int32;
 }
 
-root_type EventDoubleStageInfo;
+table EventDoubleStageInfoTable {
+  event_double_stage_infos: [EventDoubleStageInfo];
+}
+
+root_type EventDoubleStageInfoTable;

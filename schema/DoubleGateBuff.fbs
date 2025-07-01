@@ -1,15 +1,15 @@
-namespace DoubleGateBuff;
-
-table Deserialization {
-    no: int32;
-    buff_group: int32;
-    buff_no: int32;
-    buff_name_sno: int32;
-    buff_tooltip_sno: int32;
-}
+namespace Tbl;
 
 table DoubleGateBuff {
-    json: [Deserialization];
+  no: int32;
+  buff_group: int32;
+  buff_no: int32;
+  buff_name_sno: int32;
+  buff_tooltip_sno: int32;
 }
 
-root_type DoubleGateBuff;
+table DoubleGateBuffTable {
+  double_gate_buffs: [DoubleGateBuff];
+}
+
+root_type DoubleGateBuffTable;

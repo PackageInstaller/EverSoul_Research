@@ -1,20 +1,20 @@
-namespace EventChallengeStageConstraint;
-
-table Deserialization {
-    no: int32;
-    challenge_no: int32;
-    constraint_type: int32;
-    title_string_no: int32;
-    content_string_no: int32;
-    value_1: int32;
-    value_2: int32;
-    value_3: int32;
-    value_4: int32;
-    value_5: int32;
-}
+namespace Tbl;
 
 table EventChallengeStageConstraint {
-    json: [Deserialization];
+  no: int32;
+  challenge_no: int32;
+  constraint_type: int32;
+  title_string_no: int32;
+  content_string_no: int32;
+  value_1: int32;
+  value_2: int32;
+  value_3: int32;
+  value_4: int32;
+  value_5: int32;
 }
 
-root_type EventChallengeStageConstraint;
+table EventChallengeStageConstraintTable {
+  event_challenge_stage_constraints: [EventChallengeStageConstraint];
+}
+
+root_type EventChallengeStageConstraintTable;

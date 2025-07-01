@@ -1,16 +1,16 @@
-namespace EventBossRushReward;
-
-table Deserialization {
-    id: int32;
-    dungeon_no: int32;
-    level: int32;
-    reward_type: int32;
-    reward_no: int32;
-    reward_amount: int32;
-}
+namespace Tbl;
 
 table EventBossRushReward {
-    json: [Deserialization];
+  id: int32;
+  dungeon_no: int32;
+  level: int32;
+  reward_type: int32;
+  reward_no: int32;
+  reward_amount: int32;
 }
 
-root_type EventBossRushReward;
+table EventBossRushRewardTable {
+  event_boss_rush_rewards: [EventBossRushReward];
+}
+
+root_type EventBossRushRewardTable;

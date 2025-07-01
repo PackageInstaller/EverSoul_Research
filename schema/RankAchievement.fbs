@@ -1,15 +1,15 @@
-namespace RankAchievement;
-
-table Deserialization {
-    no: int32;
-    rank_no: int32;
-    value: int32;
-    item_no: int32;
-    item_amount: int32;
-}
+namespace Tbl;
 
 table RankAchievement {
-    json: [Deserialization];
+  no: int32;
+  rank_no: int32;
+  value: int32;
+  item_no: int32;
+  item_amount: int32;
 }
 
-root_type RankAchievement;
+table RankAchievementTable {
+  rank_achievements: [RankAchievement];
+}
+
+root_type RankAchievementTable;

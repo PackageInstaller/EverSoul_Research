@@ -1,13 +1,13 @@
-namespace KeyValues;
-
-table Deserialization {
-    key_nameOffset: string;
-    values_dataOffset: string;
-    type: int32;
-}
+namespace Tbl;
 
 table KeyValues {
-    json: [Deserialization];
+  key_name: string;
+  values_data: string;
+  type: int32;
 }
 
-root_type KeyValues;
+table KeyValuesTable {
+  key_valuess: [KeyValues];
+}
+
+root_type KeyValuesTable;

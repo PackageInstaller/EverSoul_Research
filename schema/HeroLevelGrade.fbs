@@ -1,13 +1,13 @@
-namespace HeroLevelGrade;
-
-table Deserialization {
-    index: int32;
-    level: int32;
-    value: float;
-}
+namespace Tbl;
 
 table HeroLevelGrade {
-    json: [Deserialization];
+  index: int32;
+  level: int32;
+  value: float;
 }
 
-root_type HeroLevelGrade;
+table HeroLevelGradeTable {
+  hero_level_grades: [HeroLevelGrade];
+}
+
+root_type HeroLevelGradeTable;

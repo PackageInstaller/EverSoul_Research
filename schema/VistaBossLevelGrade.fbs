@@ -1,13 +1,13 @@
-namespace VistaBossLevelGrade;
-
-table Deserialization {
-    index: int32;
-    level: int32;
-    value: float;
-}
+namespace Tbl;
 
 table VistaBossLevelGrade {
-    json: [Deserialization];
+  index: int32;
+  level: int32;
+  value: float;
 }
 
-root_type VistaBossLevelGrade;
+table VistaBossLevelGradeTable {
+  vista_boss_level_grades: [VistaBossLevelGrade];
+}
+
+root_type VistaBossLevelGradeTable;

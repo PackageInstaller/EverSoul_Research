@@ -1,15 +1,15 @@
-namespace EdenAllianceTier;
-
-table Deserialization {
-    no: int32;
-    tier_no: int32;
-    rank_standard: float;
-    tier_string_no: int32;
-    tier_pathOffset: string;
-}
+namespace Tbl;
 
 table EdenAllianceTier {
-    json: [Deserialization];
+  no: int32;
+  tier_no: int32;
+  rank_standard: float;
+  tier_string_no: int32;
+  tier_path: string;
 }
 
-root_type EdenAllianceTier;
+table EdenAllianceTierTable {
+  eden_alliance_tiers: [EdenAllianceTier];
+}
+
+root_type EdenAllianceTierTable;

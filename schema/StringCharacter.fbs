@@ -1,16 +1,16 @@
-namespace StringCharacter;
-
-table Deserialization {
-    no: int32;
-    krOffset: string;
-    enOffset: string;
-    jaOffset: string;
-    zh_twOffset: string;
-    zh_cnOffset: string;
-}
+namespace Tbl;
 
 table StringCharacter {
-    json: [Deserialization];
+  no: int32;
+  kr: string;
+  en: string;
+  ja: string;
+  zh_tw: string;
+  zh_cn: string;
 }
 
-root_type StringCharacter;
+table StringCharacterTable {
+  string_characters: [StringCharacter];
+}
+
+root_type StringCharacterTable;

@@ -1,14 +1,14 @@
-namespace EdenUnionConstraintSchedule;
-
-table Deserialization {
-    no: int32;
-    union_group: int32;
-    constraint_no: int32;
-    open_date: int32;
-}
+namespace Tbl;
 
 table EdenUnionConstraintSchedule {
-    json: [Deserialization];
+  no: int32;
+  union_group: int32;
+  constraint_no: int32;
+  open_date: int32;
 }
 
-root_type EdenUnionConstraintSchedule;
+table EdenUnionConstraintScheduleTable {
+  eden_union_constraint_schedules: [EdenUnionConstraintSchedule];
+}
+
+root_type EdenUnionConstraintScheduleTable;

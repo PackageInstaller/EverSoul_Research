@@ -1,14 +1,14 @@
-namespace VistaBonus;
-
-table Deserialization {
-    no: int32;
-    vista_no: int32;
-    bonus_hero: int32;
-    bonus_rate: int32;
-}
+namespace Tbl;
 
 table VistaBonus {
-    json: [Deserialization];
+  no: int32;
+  vista_no: int32;
+  bonus_hero: int32;
+  bonus_rate: int32;
 }
 
-root_type VistaBonus;
+table VistaBonusTable {
+  vista_bonuss: [VistaBonus];
+}
+
+root_type VistaBonusTable;

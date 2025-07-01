@@ -1,18 +1,18 @@
-namespace MonsterEquip;
-
-table Deserialization {
-    level: int32;
-    grade_epic_sno: int32;
-    grade_rare_sno: int32;
-    grade_common_sno: int32;
-    grade_equip_sno: int32;
-    item_level: int32;
-    signature_level: int32;
-    signature_skill_level: int32;
-}
+namespace Tbl;
 
 table MonsterEquip {
-    json: [Deserialization];
+  level: int32;
+  grade_epic_sno: int32;
+  grade_rare_sno: int32;
+  grade_common_sno: int32;
+  grade_equip_sno: int32;
+  item_level: int32;
+  signature_level: int32;
+  signature_skill_level: int32;
 }
 
-root_type MonsterEquip;
+table MonsterEquipTable {
+  monster_equips: [MonsterEquip];
+}
+
+root_type MonsterEquipTable;

@@ -1,17 +1,17 @@
-namespace HeroRental;
-
-table Deserialization {
-    level: int32;
-    grade_epic_sno: int32;
-    grade_rare_sno: int32;
-    grade_equip_sno: int32;
-    item_level: int32;
-    signature_level: int32;
-    signature_skill_level: int32;
-}
+namespace Tbl;
 
 table HeroRental {
-    json: [Deserialization];
+  level: int32;
+  grade_epic_sno: int32;
+  grade_rare_sno: int32;
+  grade_equip_sno: int32;
+  item_level: int32;
+  signature_level: int32;
+  signature_skill_level: int32;
 }
 
-root_type HeroRental;
+table HeroRentalTable {
+  hero_rentals: [HeroRental];
+}
+
+root_type HeroRentalTable;
