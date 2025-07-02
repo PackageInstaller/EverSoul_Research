@@ -9,7 +9,7 @@ table ItemGrade {
 }
 
 table ItemGradeTable {
-  item_grades: [ItemGrade];
+  json: [ItemGrade];
 }
 
 root_type ItemGradeTable;

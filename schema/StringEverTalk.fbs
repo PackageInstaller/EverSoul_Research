@@ -10,7 +10,7 @@ table StringEverTalk {
 }
 
 table StringEverTalkTable {
-  string_ever_talks: [StringEverTalk];
+  json: [StringEverTalk];
 }
 
 root_type StringEverTalkTable;

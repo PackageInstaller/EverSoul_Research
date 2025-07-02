@@ -25,7 +25,7 @@ class EventRankRaidRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventRankRaidRewardTable
-    def EventRankRaidRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventRankRaidRewardTable(object):
         return None
 
     # EventRankRaidRewardTable
-    def EventRankRaidRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventRankRaidRewardTable
-    def EventRankRaidRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventRankRaidRewardTableStart(builder):
 def Start(builder):
     EventRankRaidRewardTableStart(builder)
 
-def EventRankRaidRewardTableAddEventRankRaidRewards(builder, eventRankRaidRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventRankRaidRewards), 0)
+def EventRankRaidRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventRankRaidRewards(builder, eventRankRaidRewards):
-    EventRankRaidRewardTableAddEventRankRaidRewards(builder, eventRankRaidRewards)
+def AddJson(builder, json):
+    EventRankRaidRewardTableAddJson(builder, json)
 
-def EventRankRaidRewardTableStartEventRankRaidRewardsVector(builder, numElems):
+def EventRankRaidRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventRankRaidRewardsVector(builder, numElems):
-    return EventRankRaidRewardTableStartEventRankRaidRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventRankRaidRewardTableStartJsonVector(builder, numElems)
 
 def EventRankRaidRewardTableEnd(builder):
     return builder.EndObject()

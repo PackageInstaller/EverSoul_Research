@@ -24,7 +24,7 @@ table EventInfo {
 }
 
 table EventInfoTable {
-  event_infos: [EventInfo];
+  json: [EventInfo];
 }
 
 root_type EventInfoTable;

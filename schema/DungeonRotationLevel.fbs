@@ -21,7 +21,7 @@ table DungeonRotationLevel {
 }
 
 table DungeonRotationLevelTable {
-  dungeon_rotation_levels: [DungeonRotationLevel];
+  json: [DungeonRotationLevel];
 }
 
 root_type DungeonRotationLevelTable;

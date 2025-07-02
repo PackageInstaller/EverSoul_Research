@@ -25,7 +25,7 @@ class EdenUnionLevelGradeTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EdenUnionLevelGradeTable
-    def EdenUnionLevelGrades(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EdenUnionLevelGradeTable(object):
         return None
 
     # EdenUnionLevelGradeTable
-    def EdenUnionLevelGradesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EdenUnionLevelGradeTable
-    def EdenUnionLevelGradesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EdenUnionLevelGradeTableStart(builder):
 def Start(builder):
     EdenUnionLevelGradeTableStart(builder)
 
-def EdenUnionLevelGradeTableAddEdenUnionLevelGrades(builder, edenUnionLevelGrades):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(edenUnionLevelGrades), 0)
+def EdenUnionLevelGradeTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEdenUnionLevelGrades(builder, edenUnionLevelGrades):
-    EdenUnionLevelGradeTableAddEdenUnionLevelGrades(builder, edenUnionLevelGrades)
+def AddJson(builder, json):
+    EdenUnionLevelGradeTableAddJson(builder, json)
 
-def EdenUnionLevelGradeTableStartEdenUnionLevelGradesVector(builder, numElems):
+def EdenUnionLevelGradeTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEdenUnionLevelGradesVector(builder, numElems):
-    return EdenUnionLevelGradeTableStartEdenUnionLevelGradesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EdenUnionLevelGradeTableStartJsonVector(builder, numElems)
 
 def EdenUnionLevelGradeTableEnd(builder):
     return builder.EndObject()

@@ -25,7 +25,7 @@ class GuildRaidTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # GuildRaidTable
-    def GuildRaids(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class GuildRaidTable(object):
         return None
 
     # GuildRaidTable
-    def GuildRaidsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # GuildRaidTable
-    def GuildRaidsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def GuildRaidTableStart(builder):
 def Start(builder):
     GuildRaidTableStart(builder)
 
-def GuildRaidTableAddGuildRaids(builder, guildRaids):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(guildRaids), 0)
+def GuildRaidTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddGuildRaids(builder, guildRaids):
-    GuildRaidTableAddGuildRaids(builder, guildRaids)
+def AddJson(builder, json):
+    GuildRaidTableAddJson(builder, json)
 
-def GuildRaidTableStartGuildRaidsVector(builder, numElems):
+def GuildRaidTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartGuildRaidsVector(builder, numElems):
-    return GuildRaidTableStartGuildRaidsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return GuildRaidTableStartJsonVector(builder, numElems)
 
 def GuildRaidTableEnd(builder):
     return builder.EndObject()

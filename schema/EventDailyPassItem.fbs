@@ -14,7 +14,7 @@ table EventDailyPassItem {
 }
 
 table EventDailyPassItemTable {
-  event_daily_pass_items: [EventDailyPassItem];
+  json: [EventDailyPassItem];
 }
 
 root_type EventDailyPassItemTable;

@@ -25,7 +25,7 @@ class EventDoubleStageRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDoubleStageRewardTable
-    def EventDoubleStageRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDoubleStageRewardTable(object):
         return None
 
     # EventDoubleStageRewardTable
-    def EventDoubleStageRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDoubleStageRewardTable
-    def EventDoubleStageRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDoubleStageRewardTableStart(builder):
 def Start(builder):
     EventDoubleStageRewardTableStart(builder)
 
-def EventDoubleStageRewardTableAddEventDoubleStageRewards(builder, eventDoubleStageRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDoubleStageRewards), 0)
+def EventDoubleStageRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDoubleStageRewards(builder, eventDoubleStageRewards):
-    EventDoubleStageRewardTableAddEventDoubleStageRewards(builder, eventDoubleStageRewards)
+def AddJson(builder, json):
+    EventDoubleStageRewardTableAddJson(builder, json)
 
-def EventDoubleStageRewardTableStartEventDoubleStageRewardsVector(builder, numElems):
+def EventDoubleStageRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDoubleStageRewardsVector(builder, numElems):
-    return EventDoubleStageRewardTableStartEventDoubleStageRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDoubleStageRewardTableStartJsonVector(builder, numElems)
 
 def EventDoubleStageRewardTableEnd(builder):
     return builder.EndObject()

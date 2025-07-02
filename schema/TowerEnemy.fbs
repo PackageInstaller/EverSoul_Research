@@ -33,7 +33,7 @@ table TowerEnemy {
 }
 
 table TowerEnemyTable {
-  tower_enemys: [TowerEnemy];
+  json: [TowerEnemy];
 }
 
 root_type TowerEnemyTable;

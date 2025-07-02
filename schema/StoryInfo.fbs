@@ -32,7 +32,7 @@ table StoryInfo {
 }
 
 table StoryInfoTable {
-  story_infos: [StoryInfo];
+  json: [StoryInfo];
 }
 
 root_type StoryInfoTable;

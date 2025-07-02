@@ -25,7 +25,7 @@ class TripKeywordTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TripKeywordTable
-    def TripKeywords(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TripKeywordTable(object):
         return None
 
     # TripKeywordTable
-    def TripKeywordsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TripKeywordTable
-    def TripKeywordsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TripKeywordTableStart(builder):
 def Start(builder):
     TripKeywordTableStart(builder)
 
-def TripKeywordTableAddTripKeywords(builder, tripKeywords):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(tripKeywords), 0)
+def TripKeywordTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTripKeywords(builder, tripKeywords):
-    TripKeywordTableAddTripKeywords(builder, tripKeywords)
+def AddJson(builder, json):
+    TripKeywordTableAddJson(builder, json)
 
-def TripKeywordTableStartTripKeywordsVector(builder, numElems):
+def TripKeywordTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTripKeywordsVector(builder, numElems):
-    return TripKeywordTableStartTripKeywordsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TripKeywordTableStartJsonVector(builder, numElems)
 
 def TripKeywordTableEnd(builder):
     return builder.EndObject()

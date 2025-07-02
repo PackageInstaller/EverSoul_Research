@@ -17,7 +17,7 @@ table TownLevel {
 }
 
 table TownLevelTable {
-  town_levels: [TownLevel];
+  json: [TownLevel];
 }
 
 root_type TownLevelTable;

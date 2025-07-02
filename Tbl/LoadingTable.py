@@ -25,7 +25,7 @@ class LoadingTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # LoadingTable
-    def Loadings(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class LoadingTable(object):
         return None
 
     # LoadingTable
-    def LoadingsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # LoadingTable
-    def LoadingsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def LoadingTableStart(builder):
 def Start(builder):
     LoadingTableStart(builder)
 
-def LoadingTableAddLoadings(builder, loadings):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(loadings), 0)
+def LoadingTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddLoadings(builder, loadings):
-    LoadingTableAddLoadings(builder, loadings)
+def AddJson(builder, json):
+    LoadingTableAddJson(builder, json)
 
-def LoadingTableStartLoadingsVector(builder, numElems):
+def LoadingTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartLoadingsVector(builder, numElems):
-    return LoadingTableStartLoadingsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return LoadingTableStartJsonVector(builder, numElems)
 
 def LoadingTableEnd(builder):
     return builder.EndObject()

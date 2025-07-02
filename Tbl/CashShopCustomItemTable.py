@@ -25,7 +25,7 @@ class CashShopCustomItemTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # CashShopCustomItemTable
-    def CashShopCustomItems(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class CashShopCustomItemTable(object):
         return None
 
     # CashShopCustomItemTable
-    def CashShopCustomItemsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # CashShopCustomItemTable
-    def CashShopCustomItemsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def CashShopCustomItemTableStart(builder):
 def Start(builder):
     CashShopCustomItemTableStart(builder)
 
-def CashShopCustomItemTableAddCashShopCustomItems(builder, cashShopCustomItems):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(cashShopCustomItems), 0)
+def CashShopCustomItemTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddCashShopCustomItems(builder, cashShopCustomItems):
-    CashShopCustomItemTableAddCashShopCustomItems(builder, cashShopCustomItems)
+def AddJson(builder, json):
+    CashShopCustomItemTableAddJson(builder, json)
 
-def CashShopCustomItemTableStartCashShopCustomItemsVector(builder, numElems):
+def CashShopCustomItemTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartCashShopCustomItemsVector(builder, numElems):
-    return CashShopCustomItemTableStartCashShopCustomItemsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return CashShopCustomItemTableStartJsonVector(builder, numElems)
 
 def CashShopCustomItemTableEnd(builder):
     return builder.EndObject()

@@ -11,7 +11,7 @@ table EventBossRush {
 }
 
 table EventBossRushTable {
-  event_boss_rushs: [EventBossRush];
+  json: [EventBossRush];
 }
 
 root_type EventBossRushTable;

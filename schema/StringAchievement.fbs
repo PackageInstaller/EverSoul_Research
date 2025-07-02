@@ -10,7 +10,7 @@ table StringAchievement {
 }
 
 table StringAchievementTable {
-  string_achievements: [StringAchievement];
+  json: [StringAchievement];
 }
 
 root_type StringAchievementTable;

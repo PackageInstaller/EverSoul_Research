@@ -25,7 +25,7 @@ class TripHeroTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TripHeroTable
-    def TripHeros(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TripHeroTable(object):
         return None
 
     # TripHeroTable
-    def TripHerosLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TripHeroTable
-    def TripHerosIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TripHeroTableStart(builder):
 def Start(builder):
     TripHeroTableStart(builder)
 
-def TripHeroTableAddTripHeros(builder, tripHeros):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(tripHeros), 0)
+def TripHeroTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTripHeros(builder, tripHeros):
-    TripHeroTableAddTripHeros(builder, tripHeros)
+def AddJson(builder, json):
+    TripHeroTableAddJson(builder, json)
 
-def TripHeroTableStartTripHerosVector(builder, numElems):
+def TripHeroTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTripHerosVector(builder, numElems):
-    return TripHeroTableStartTripHerosVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TripHeroTableStartJsonVector(builder, numElems)
 
 def TripHeroTableEnd(builder):
     return builder.EndObject()

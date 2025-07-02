@@ -25,7 +25,7 @@ class EventChallengeStageRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventChallengeStageRewardTable
-    def EventChallengeStageRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventChallengeStageRewardTable(object):
         return None
 
     # EventChallengeStageRewardTable
-    def EventChallengeStageRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventChallengeStageRewardTable
-    def EventChallengeStageRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventChallengeStageRewardTableStart(builder):
 def Start(builder):
     EventChallengeStageRewardTableStart(builder)
 
-def EventChallengeStageRewardTableAddEventChallengeStageRewards(builder, eventChallengeStageRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventChallengeStageRewards), 0)
+def EventChallengeStageRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventChallengeStageRewards(builder, eventChallengeStageRewards):
-    EventChallengeStageRewardTableAddEventChallengeStageRewards(builder, eventChallengeStageRewards)
+def AddJson(builder, json):
+    EventChallengeStageRewardTableAddJson(builder, json)
 
-def EventChallengeStageRewardTableStartEventChallengeStageRewardsVector(builder, numElems):
+def EventChallengeStageRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventChallengeStageRewardsVector(builder, numElems):
-    return EventChallengeStageRewardTableStartEventChallengeStageRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventChallengeStageRewardTableStartJsonVector(builder, numElems)
 
 def EventChallengeStageRewardTableEnd(builder):
     return builder.EndObject()

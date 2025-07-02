@@ -16,7 +16,7 @@ table LobbyAnimation {
 }
 
 table LobbyAnimationTable {
-  lobby_animations: [LobbyAnimation];
+  json: [LobbyAnimation];
 }
 
 root_type LobbyAnimationTable;

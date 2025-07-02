@@ -25,7 +25,7 @@ class EventDiceTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDiceTable
-    def EventDices(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDiceTable(object):
         return None
 
     # EventDiceTable
-    def EventDicesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDiceTable
-    def EventDicesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDiceTableStart(builder):
 def Start(builder):
     EventDiceTableStart(builder)
 
-def EventDiceTableAddEventDices(builder, eventDices):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDices), 0)
+def EventDiceTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDices(builder, eventDices):
-    EventDiceTableAddEventDices(builder, eventDices)
+def AddJson(builder, json):
+    EventDiceTableAddJson(builder, json)
 
-def EventDiceTableStartEventDicesVector(builder, numElems):
+def EventDiceTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDicesVector(builder, numElems):
-    return EventDiceTableStartEventDicesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDiceTableStartJsonVector(builder, numElems)
 
 def EventDiceTableEnd(builder):
     return builder.EndObject()

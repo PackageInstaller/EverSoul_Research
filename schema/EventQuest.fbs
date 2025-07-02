@@ -14,7 +14,7 @@ table EventQuest {
 }
 
 table EventQuestTable {
-  event_quests: [EventQuest];
+  json: [EventQuest];
 }
 
 root_type EventQuestTable;

@@ -25,7 +25,7 @@ class TalkStageTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TalkStageTable
-    def TalkStages(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TalkStageTable(object):
         return None
 
     # TalkStageTable
-    def TalkStagesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TalkStageTable
-    def TalkStagesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TalkStageTableStart(builder):
 def Start(builder):
     TalkStageTableStart(builder)
 
-def TalkStageTableAddTalkStages(builder, talkStages):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(talkStages), 0)
+def TalkStageTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTalkStages(builder, talkStages):
-    TalkStageTableAddTalkStages(builder, talkStages)
+def AddJson(builder, json):
+    TalkStageTableAddJson(builder, json)
 
-def TalkStageTableStartTalkStagesVector(builder, numElems):
+def TalkStageTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTalkStagesVector(builder, numElems):
-    return TalkStageTableStartTalkStagesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TalkStageTableStartJsonVector(builder, numElems)
 
 def TalkStageTableEnd(builder):
     return builder.EndObject()

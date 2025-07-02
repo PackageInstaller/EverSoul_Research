@@ -25,7 +25,7 @@ class EventRouletteItemListTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventRouletteItemListTable
-    def EventRouletteItemLists(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventRouletteItemListTable(object):
         return None
 
     # EventRouletteItemListTable
-    def EventRouletteItemListsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventRouletteItemListTable
-    def EventRouletteItemListsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventRouletteItemListTableStart(builder):
 def Start(builder):
     EventRouletteItemListTableStart(builder)
 
-def EventRouletteItemListTableAddEventRouletteItemLists(builder, eventRouletteItemLists):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventRouletteItemLists), 0)
+def EventRouletteItemListTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventRouletteItemLists(builder, eventRouletteItemLists):
-    EventRouletteItemListTableAddEventRouletteItemLists(builder, eventRouletteItemLists)
+def AddJson(builder, json):
+    EventRouletteItemListTableAddJson(builder, json)
 
-def EventRouletteItemListTableStartEventRouletteItemListsVector(builder, numElems):
+def EventRouletteItemListTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventRouletteItemListsVector(builder, numElems):
-    return EventRouletteItemListTableStartEventRouletteItemListsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventRouletteItemListTableStartJsonVector(builder, numElems)
 
 def EventRouletteItemListTableEnd(builder):
     return builder.EndObject()

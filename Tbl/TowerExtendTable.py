@@ -25,7 +25,7 @@ class TowerExtendTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TowerExtendTable
-    def TowerExtends(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TowerExtendTable(object):
         return None
 
     # TowerExtendTable
-    def TowerExtendsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TowerExtendTable
-    def TowerExtendsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TowerExtendTableStart(builder):
 def Start(builder):
     TowerExtendTableStart(builder)
 
-def TowerExtendTableAddTowerExtends(builder, towerExtends):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(towerExtends), 0)
+def TowerExtendTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTowerExtends(builder, towerExtends):
-    TowerExtendTableAddTowerExtends(builder, towerExtends)
+def AddJson(builder, json):
+    TowerExtendTableAddJson(builder, json)
 
-def TowerExtendTableStartTowerExtendsVector(builder, numElems):
+def TowerExtendTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTowerExtendsVector(builder, numElems):
-    return TowerExtendTableStartTowerExtendsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TowerExtendTableStartJsonVector(builder, numElems)
 
 def TowerExtendTableEnd(builder):
     return builder.EndObject()

@@ -20,7 +20,7 @@ table SignatureLevel {
 }
 
 table SignatureLevelTable {
-  signature_levels: [SignatureLevel];
+  json: [SignatureLevel];
 }
 
 root_type SignatureLevelTable;

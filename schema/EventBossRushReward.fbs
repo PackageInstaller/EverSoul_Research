@@ -10,7 +10,7 @@ table EventBossRushReward {
 }
 
 table EventBossRushRewardTable {
-  event_boss_rush_rewards: [EventBossRushReward];
+  json: [EventBossRushReward];
 }
 
 root_type EventBossRushRewardTable;

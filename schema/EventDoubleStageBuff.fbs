@@ -11,7 +11,7 @@ table EventDoubleStageBuff {
 }
 
 table EventDoubleStageBuffTable {
-  event_double_stage_buffs: [EventDoubleStageBuff];
+  json: [EventDoubleStageBuff];
 }
 
 root_type EventDoubleStageBuffTable;

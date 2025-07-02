@@ -18,7 +18,7 @@ table PromotionRental {
 }
 
 table PromotionRentalTable {
-  promotion_rentals: [PromotionRental];
+  json: [PromotionRental];
 }
 
 root_type PromotionRentalTable;

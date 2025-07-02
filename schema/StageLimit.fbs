@@ -11,7 +11,7 @@ table StageLimit {
 }
 
 table StageLimitTable {
-  stage_limits: [StageLimit];
+  json: [StageLimit];
 }
 
 root_type StageLimitTable;

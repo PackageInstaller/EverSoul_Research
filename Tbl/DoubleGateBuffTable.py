@@ -25,7 +25,7 @@ class DoubleGateBuffTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # DoubleGateBuffTable
-    def DoubleGateBuffs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class DoubleGateBuffTable(object):
         return None
 
     # DoubleGateBuffTable
-    def DoubleGateBuffsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # DoubleGateBuffTable
-    def DoubleGateBuffsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def DoubleGateBuffTableStart(builder):
 def Start(builder):
     DoubleGateBuffTableStart(builder)
 
-def DoubleGateBuffTableAddDoubleGateBuffs(builder, doubleGateBuffs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(doubleGateBuffs), 0)
+def DoubleGateBuffTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddDoubleGateBuffs(builder, doubleGateBuffs):
-    DoubleGateBuffTableAddDoubleGateBuffs(builder, doubleGateBuffs)
+def AddJson(builder, json):
+    DoubleGateBuffTableAddJson(builder, json)
 
-def DoubleGateBuffTableStartDoubleGateBuffsVector(builder, numElems):
+def DoubleGateBuffTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartDoubleGateBuffsVector(builder, numElems):
-    return DoubleGateBuffTableStartDoubleGateBuffsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return DoubleGateBuffTableStartJsonVector(builder, numElems)
 
 def DoubleGateBuffTableEnd(builder):
     return builder.EndObject()

@@ -25,7 +25,7 @@ class GachaTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # GachaTable
-    def Gachas(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class GachaTable(object):
         return None
 
     # GachaTable
-    def GachasLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # GachaTable
-    def GachasIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def GachaTableStart(builder):
 def Start(builder):
     GachaTableStart(builder)
 
-def GachaTableAddGachas(builder, gachas):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(gachas), 0)
+def GachaTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddGachas(builder, gachas):
-    GachaTableAddGachas(builder, gachas)
+def AddJson(builder, json):
+    GachaTableAddJson(builder, json)
 
-def GachaTableStartGachasVector(builder, numElems):
+def GachaTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartGachasVector(builder, numElems):
-    return GachaTableStartGachasVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return GachaTableStartJsonVector(builder, numElems)
 
 def GachaTableEnd(builder):
     return builder.EndObject()

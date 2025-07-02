@@ -25,7 +25,7 @@ class EventPickupSelectTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventPickupSelectTable
-    def EventPickupSelects(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventPickupSelectTable(object):
         return None
 
     # EventPickupSelectTable
-    def EventPickupSelectsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventPickupSelectTable
-    def EventPickupSelectsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventPickupSelectTableStart(builder):
 def Start(builder):
     EventPickupSelectTableStart(builder)
 
-def EventPickupSelectTableAddEventPickupSelects(builder, eventPickupSelects):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventPickupSelects), 0)
+def EventPickupSelectTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventPickupSelects(builder, eventPickupSelects):
-    EventPickupSelectTableAddEventPickupSelects(builder, eventPickupSelects)
+def AddJson(builder, json):
+    EventPickupSelectTableAddJson(builder, json)
 
-def EventPickupSelectTableStartEventPickupSelectsVector(builder, numElems):
+def EventPickupSelectTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventPickupSelectsVector(builder, numElems):
-    return EventPickupSelectTableStartEventPickupSelectsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventPickupSelectTableStartJsonVector(builder, numElems)
 
 def EventPickupSelectTableEnd(builder):
     return builder.EndObject()

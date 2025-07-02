@@ -25,7 +25,7 @@ class TalkBubbleTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TalkBubbleTable
-    def TalkBubbles(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TalkBubbleTable(object):
         return None
 
     # TalkBubbleTable
-    def TalkBubblesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TalkBubbleTable
-    def TalkBubblesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TalkBubbleTableStart(builder):
 def Start(builder):
     TalkBubbleTableStart(builder)
 
-def TalkBubbleTableAddTalkBubbles(builder, talkBubbles):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(talkBubbles), 0)
+def TalkBubbleTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTalkBubbles(builder, talkBubbles):
-    TalkBubbleTableAddTalkBubbles(builder, talkBubbles)
+def AddJson(builder, json):
+    TalkBubbleTableAddJson(builder, json)
 
-def TalkBubbleTableStartTalkBubblesVector(builder, numElems):
+def TalkBubbleTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTalkBubblesVector(builder, numElems):
-    return TalkBubbleTableStartTalkBubblesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TalkBubbleTableStartJsonVector(builder, numElems)
 
 def TalkBubbleTableEnd(builder):
     return builder.EndObject()

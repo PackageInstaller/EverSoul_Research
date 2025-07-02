@@ -25,7 +25,7 @@ class EdenAllianceRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EdenAllianceRewardTable
-    def EdenAllianceRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EdenAllianceRewardTable(object):
         return None
 
     # EdenAllianceRewardTable
-    def EdenAllianceRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EdenAllianceRewardTable
-    def EdenAllianceRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EdenAllianceRewardTableStart(builder):
 def Start(builder):
     EdenAllianceRewardTableStart(builder)
 
-def EdenAllianceRewardTableAddEdenAllianceRewards(builder, edenAllianceRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(edenAllianceRewards), 0)
+def EdenAllianceRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEdenAllianceRewards(builder, edenAllianceRewards):
-    EdenAllianceRewardTableAddEdenAllianceRewards(builder, edenAllianceRewards)
+def AddJson(builder, json):
+    EdenAllianceRewardTableAddJson(builder, json)
 
-def EdenAllianceRewardTableStartEdenAllianceRewardsVector(builder, numElems):
+def EdenAllianceRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEdenAllianceRewardsVector(builder, numElems):
-    return EdenAllianceRewardTableStartEdenAllianceRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EdenAllianceRewardTableStartJsonVector(builder, numElems)
 
 def EdenAllianceRewardTableEnd(builder):
     return builder.EndObject()

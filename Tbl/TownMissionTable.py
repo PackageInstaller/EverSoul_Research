@@ -25,7 +25,7 @@ class TownMissionTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TownMissionTable
-    def TownMissions(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TownMissionTable(object):
         return None
 
     # TownMissionTable
-    def TownMissionsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TownMissionTable
-    def TownMissionsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TownMissionTableStart(builder):
 def Start(builder):
     TownMissionTableStart(builder)
 
-def TownMissionTableAddTownMissions(builder, townMissions):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(townMissions), 0)
+def TownMissionTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTownMissions(builder, townMissions):
-    TownMissionTableAddTownMissions(builder, townMissions)
+def AddJson(builder, json):
+    TownMissionTableAddJson(builder, json)
 
-def TownMissionTableStartTownMissionsVector(builder, numElems):
+def TownMissionTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTownMissionsVector(builder, numElems):
-    return TownMissionTableStartTownMissionsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TownMissionTableStartJsonVector(builder, numElems)
 
 def TownMissionTableEnd(builder):
     return builder.EndObject()

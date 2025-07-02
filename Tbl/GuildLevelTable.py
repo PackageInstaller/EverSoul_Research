@@ -25,7 +25,7 @@ class GuildLevelTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # GuildLevelTable
-    def GuildLevels(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class GuildLevelTable(object):
         return None
 
     # GuildLevelTable
-    def GuildLevelsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # GuildLevelTable
-    def GuildLevelsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def GuildLevelTableStart(builder):
 def Start(builder):
     GuildLevelTableStart(builder)
 
-def GuildLevelTableAddGuildLevels(builder, guildLevels):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(guildLevels), 0)
+def GuildLevelTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddGuildLevels(builder, guildLevels):
-    GuildLevelTableAddGuildLevels(builder, guildLevels)
+def AddJson(builder, json):
+    GuildLevelTableAddJson(builder, json)
 
-def GuildLevelTableStartGuildLevelsVector(builder, numElems):
+def GuildLevelTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartGuildLevelsVector(builder, numElems):
-    return GuildLevelTableStartGuildLevelsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return GuildLevelTableStartJsonVector(builder, numElems)
 
 def GuildLevelTableEnd(builder):
     return builder.EndObject()

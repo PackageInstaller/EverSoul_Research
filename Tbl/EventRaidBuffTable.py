@@ -25,7 +25,7 @@ class EventRaidBuffTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventRaidBuffTable
-    def EventRaidBuffs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventRaidBuffTable(object):
         return None
 
     # EventRaidBuffTable
-    def EventRaidBuffsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventRaidBuffTable
-    def EventRaidBuffsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventRaidBuffTableStart(builder):
 def Start(builder):
     EventRaidBuffTableStart(builder)
 
-def EventRaidBuffTableAddEventRaidBuffs(builder, eventRaidBuffs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventRaidBuffs), 0)
+def EventRaidBuffTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventRaidBuffs(builder, eventRaidBuffs):
-    EventRaidBuffTableAddEventRaidBuffs(builder, eventRaidBuffs)
+def AddJson(builder, json):
+    EventRaidBuffTableAddJson(builder, json)
 
-def EventRaidBuffTableStartEventRaidBuffsVector(builder, numElems):
+def EventRaidBuffTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventRaidBuffsVector(builder, numElems):
-    return EventRaidBuffTableStartEventRaidBuffsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventRaidBuffTableStartJsonVector(builder, numElems)
 
 def EventRaidBuffTableEnd(builder):
     return builder.EndObject()

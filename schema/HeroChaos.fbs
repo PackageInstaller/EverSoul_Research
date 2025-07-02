@@ -6,7 +6,7 @@ table HeroChaos {
 }
 
 table HeroChaosTable {
-  hero_chaoss: [HeroChaos];
+  json: [HeroChaos];
 }
 
 root_type HeroChaosTable;

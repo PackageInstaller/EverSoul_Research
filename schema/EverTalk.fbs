@@ -14,7 +14,7 @@ table EverTalk {
 }
 
 table EverTalkTable {
-  ever_talks: [EverTalk];
+  json: [EverTalk];
 }
 
 root_type EverTalkTable;

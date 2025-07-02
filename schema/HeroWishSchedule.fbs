@@ -10,7 +10,7 @@ table HeroWishSchedule {
 }
 
 table HeroWishScheduleTable {
-  hero_wish_schedules: [HeroWishSchedule];
+  json: [HeroWishSchedule];
 }
 
 root_type HeroWishScheduleTable;

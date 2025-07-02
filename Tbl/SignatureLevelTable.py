@@ -25,7 +25,7 @@ class SignatureLevelTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SignatureLevelTable
-    def SignatureLevels(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SignatureLevelTable(object):
         return None
 
     # SignatureLevelTable
-    def SignatureLevelsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SignatureLevelTable
-    def SignatureLevelsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SignatureLevelTableStart(builder):
 def Start(builder):
     SignatureLevelTableStart(builder)
 
-def SignatureLevelTableAddSignatureLevels(builder, signatureLevels):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(signatureLevels), 0)
+def SignatureLevelTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSignatureLevels(builder, signatureLevels):
-    SignatureLevelTableAddSignatureLevels(builder, signatureLevels)
+def AddJson(builder, json):
+    SignatureLevelTableAddJson(builder, json)
 
-def SignatureLevelTableStartSignatureLevelsVector(builder, numElems):
+def SignatureLevelTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSignatureLevelsVector(builder, numElems):
-    return SignatureLevelTableStartSignatureLevelsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SignatureLevelTableStartJsonVector(builder, numElems)
 
 def SignatureLevelTableEnd(builder):
     return builder.EndObject()

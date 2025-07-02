@@ -10,7 +10,7 @@ table StringItem {
 }
 
 table StringItemTable {
-  string_items: [StringItem];
+  json: [StringItem];
 }
 
 root_type StringItemTable;

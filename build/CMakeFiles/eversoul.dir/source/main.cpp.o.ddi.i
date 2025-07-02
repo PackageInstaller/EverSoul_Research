@@ -186343,7 +186343,6 @@ public:
     static ReviewServerInfo checkReviewServer(const std::string &baseVersion);
     static bool downloadAndProcessReviewTables(const ReviewServerInfo &reviewInfo);
     static std::string httpGet(const std::string &url, int retries = 5);
-    static bool generateFlatBufferPythonAPI(const std::string &schema_dir, const std::string &output_dir);
 
 
 
@@ -186391,7 +186390,7 @@ bool decryptAes128Cbc(const std::vector<u_int8_t> &ciphertext, std::vector<u_int
 bool deriveKeyAndIv(std::vector<u_int8_t> &key, std::vector<u_int8_t> &iv);
 bool isFileDecrypted(const fs::path &filePath);
 bool convertTablesToJson(const std::string &schema_dir, const std::string &table_dir, const std::string &output_dir);
-
+bool generateFlatBufferPythonAPI(const std::string &schema_dir, const std::string &output_dir);
 
 void updateProgressDisplay(
     const std::string &prefix,
@@ -186463,13 +186462,10 @@ int main(int argc, char *argv[])
             needGenerateApis = true;
         }
 
-
         if (needGenerateApis)
         {
-            std::println("检测到数据表更新，开始生成Python API...");
 
-
-            QooAppAPI::generateFlatBufferPythonAPI("../schema", "../");
+            generateFlatBufferPythonAPI("../schema", "../");
         }
     }
     catch (const std::exception &e)

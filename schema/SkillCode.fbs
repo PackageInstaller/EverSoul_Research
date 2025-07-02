@@ -20,7 +20,7 @@ table SkillCode {
 }
 
 table SkillCodeTable {
-  skill_codes: [SkillCode];
+  json: [SkillCode];
 }
 
 root_type SkillCodeTable;

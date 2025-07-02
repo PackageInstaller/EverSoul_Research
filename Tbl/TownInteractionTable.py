@@ -25,7 +25,7 @@ class TownInteractionTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TownInteractionTable
-    def TownInteractions(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TownInteractionTable(object):
         return None
 
     # TownInteractionTable
-    def TownInteractionsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TownInteractionTable
-    def TownInteractionsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TownInteractionTableStart(builder):
 def Start(builder):
     TownInteractionTableStart(builder)
 
-def TownInteractionTableAddTownInteractions(builder, townInteractions):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(townInteractions), 0)
+def TownInteractionTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTownInteractions(builder, townInteractions):
-    TownInteractionTableAddTownInteractions(builder, townInteractions)
+def AddJson(builder, json):
+    TownInteractionTableAddJson(builder, json)
 
-def TownInteractionTableStartTownInteractionsVector(builder, numElems):
+def TownInteractionTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTownInteractionsVector(builder, numElems):
-    return TownInteractionTableStartTownInteractionsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TownInteractionTableStartJsonVector(builder, numElems)
 
 def TownInteractionTableEnd(builder):
     return builder.EndObject()

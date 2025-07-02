@@ -8,7 +8,7 @@ table EventDefenseInfo {
 }
 
 table EventDefenseInfoTable {
-  event_defense_infos: [EventDefenseInfo];
+  json: [EventDefenseInfo];
 }
 
 root_type EventDefenseInfoTable;

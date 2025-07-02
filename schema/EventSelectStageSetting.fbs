@@ -31,7 +31,7 @@ table EventSelectStageSetting {
 }
 
 table EventSelectStageSettingTable {
-  event_select_stage_settings: [EventSelectStageSetting];
+  json: [EventSelectStageSetting];
 }
 
 root_type EventSelectStageSettingTable;

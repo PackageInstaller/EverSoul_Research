@@ -25,7 +25,7 @@ class ArbeitListTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ArbeitListTable
-    def ArbeitLists(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ArbeitListTable(object):
         return None
 
     # ArbeitListTable
-    def ArbeitListsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ArbeitListTable
-    def ArbeitListsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ArbeitListTableStart(builder):
 def Start(builder):
     ArbeitListTableStart(builder)
 
-def ArbeitListTableAddArbeitLists(builder, arbeitLists):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(arbeitLists), 0)
+def ArbeitListTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddArbeitLists(builder, arbeitLists):
-    ArbeitListTableAddArbeitLists(builder, arbeitLists)
+def AddJson(builder, json):
+    ArbeitListTableAddJson(builder, json)
 
-def ArbeitListTableStartArbeitListsVector(builder, numElems):
+def ArbeitListTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartArbeitListsVector(builder, numElems):
-    return ArbeitListTableStartArbeitListsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ArbeitListTableStartJsonVector(builder, numElems)
 
 def ArbeitListTableEnd(builder):
     return builder.EndObject()

@@ -25,7 +25,7 @@ class TaskTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TaskTable
-    def Tasks(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TaskTable(object):
         return None
 
     # TaskTable
-    def TasksLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TaskTable
-    def TasksIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TaskTableStart(builder):
 def Start(builder):
     TaskTableStart(builder)
 
-def TaskTableAddTasks(builder, tasks):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(tasks), 0)
+def TaskTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTasks(builder, tasks):
-    TaskTableAddTasks(builder, tasks)
+def AddJson(builder, json):
+    TaskTableAddJson(builder, json)
 
-def TaskTableStartTasksVector(builder, numElems):
+def TaskTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTasksVector(builder, numElems):
-    return TaskTableStartTasksVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TaskTableStartJsonVector(builder, numElems)
 
 def TaskTableEnd(builder):
     return builder.EndObject()

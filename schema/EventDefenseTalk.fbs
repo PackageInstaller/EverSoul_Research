@@ -12,7 +12,7 @@ table EventDefenseTalk {
 }
 
 table EventDefenseTalkTable {
-  event_defense_talks: [EventDefenseTalk];
+  json: [EventDefenseTalk];
 }
 
 root_type EventDefenseTalkTable;

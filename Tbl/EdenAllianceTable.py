@@ -25,7 +25,7 @@ class EdenAllianceTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EdenAllianceTable
-    def EdenAlliances(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EdenAllianceTable(object):
         return None
 
     # EdenAllianceTable
-    def EdenAlliancesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EdenAllianceTable
-    def EdenAlliancesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EdenAllianceTableStart(builder):
 def Start(builder):
     EdenAllianceTableStart(builder)
 
-def EdenAllianceTableAddEdenAlliances(builder, edenAlliances):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(edenAlliances), 0)
+def EdenAllianceTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEdenAlliances(builder, edenAlliances):
-    EdenAllianceTableAddEdenAlliances(builder, edenAlliances)
+def AddJson(builder, json):
+    EdenAllianceTableAddJson(builder, json)
 
-def EdenAllianceTableStartEdenAlliancesVector(builder, numElems):
+def EdenAllianceTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEdenAlliancesVector(builder, numElems):
-    return EdenAllianceTableStartEdenAlliancesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EdenAllianceTableStartJsonVector(builder, numElems)
 
 def EdenAllianceTableEnd(builder):
     return builder.EndObject()

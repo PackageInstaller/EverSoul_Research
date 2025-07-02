@@ -25,7 +25,7 @@ class RankAchievementTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # RankAchievementTable
-    def RankAchievements(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class RankAchievementTable(object):
         return None
 
     # RankAchievementTable
-    def RankAchievementsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # RankAchievementTable
-    def RankAchievementsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def RankAchievementTableStart(builder):
 def Start(builder):
     RankAchievementTableStart(builder)
 
-def RankAchievementTableAddRankAchievements(builder, rankAchievements):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(rankAchievements), 0)
+def RankAchievementTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddRankAchievements(builder, rankAchievements):
-    RankAchievementTableAddRankAchievements(builder, rankAchievements)
+def AddJson(builder, json):
+    RankAchievementTableAddJson(builder, json)
 
-def RankAchievementTableStartRankAchievementsVector(builder, numElems):
+def RankAchievementTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartRankAchievementsVector(builder, numElems):
-    return RankAchievementTableStartRankAchievementsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return RankAchievementTableStartJsonVector(builder, numElems)
 
 def RankAchievementTableEnd(builder):
     return builder.EndObject()

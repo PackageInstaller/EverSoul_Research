@@ -25,7 +25,7 @@ class StageBattleTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # StageBattleTable
-    def StageBattles(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class StageBattleTable(object):
         return None
 
     # StageBattleTable
-    def StageBattlesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # StageBattleTable
-    def StageBattlesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def StageBattleTableStart(builder):
 def Start(builder):
     StageBattleTableStart(builder)
 
-def StageBattleTableAddStageBattles(builder, stageBattles):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(stageBattles), 0)
+def StageBattleTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddStageBattles(builder, stageBattles):
-    StageBattleTableAddStageBattles(builder, stageBattles)
+def AddJson(builder, json):
+    StageBattleTableAddJson(builder, json)
 
-def StageBattleTableStartStageBattlesVector(builder, numElems):
+def StageBattleTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartStageBattlesVector(builder, numElems):
-    return StageBattleTableStartStageBattlesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return StageBattleTableStartJsonVector(builder, numElems)
 
 def StageBattleTableEnd(builder):
     return builder.EndObject()

@@ -17,7 +17,7 @@ table EventSelectStageReward {
 }
 
 table EventSelectStageRewardTable {
-  event_select_stage_rewards: [EventSelectStageReward];
+  json: [EventSelectStageReward];
 }
 
 root_type EventSelectStageRewardTable;

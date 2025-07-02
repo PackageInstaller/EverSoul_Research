@@ -25,7 +25,7 @@ class EventBossRushLevelTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventBossRushLevelTable
-    def EventBossRushLevels(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventBossRushLevelTable(object):
         return None
 
     # EventBossRushLevelTable
-    def EventBossRushLevelsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventBossRushLevelTable
-    def EventBossRushLevelsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventBossRushLevelTableStart(builder):
 def Start(builder):
     EventBossRushLevelTableStart(builder)
 
-def EventBossRushLevelTableAddEventBossRushLevels(builder, eventBossRushLevels):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventBossRushLevels), 0)
+def EventBossRushLevelTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventBossRushLevels(builder, eventBossRushLevels):
-    EventBossRushLevelTableAddEventBossRushLevels(builder, eventBossRushLevels)
+def AddJson(builder, json):
+    EventBossRushLevelTableAddJson(builder, json)
 
-def EventBossRushLevelTableStartEventBossRushLevelsVector(builder, numElems):
+def EventBossRushLevelTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventBossRushLevelsVector(builder, numElems):
-    return EventBossRushLevelTableStartEventBossRushLevelsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventBossRushLevelTableStartJsonVector(builder, numElems)
 
 def EventBossRushLevelTableEnd(builder):
     return builder.EndObject()

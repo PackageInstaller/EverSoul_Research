@@ -25,7 +25,7 @@ class SingleRaidRankRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SingleRaidRankRewardTable
-    def SingleRaidRankRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SingleRaidRankRewardTable(object):
         return None
 
     # SingleRaidRankRewardTable
-    def SingleRaidRankRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SingleRaidRankRewardTable
-    def SingleRaidRankRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SingleRaidRankRewardTableStart(builder):
 def Start(builder):
     SingleRaidRankRewardTableStart(builder)
 
-def SingleRaidRankRewardTableAddSingleRaidRankRewards(builder, singleRaidRankRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(singleRaidRankRewards), 0)
+def SingleRaidRankRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSingleRaidRankRewards(builder, singleRaidRankRewards):
-    SingleRaidRankRewardTableAddSingleRaidRankRewards(builder, singleRaidRankRewards)
+def AddJson(builder, json):
+    SingleRaidRankRewardTableAddJson(builder, json)
 
-def SingleRaidRankRewardTableStartSingleRaidRankRewardsVector(builder, numElems):
+def SingleRaidRankRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSingleRaidRankRewardsVector(builder, numElems):
-    return SingleRaidRankRewardTableStartSingleRaidRankRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SingleRaidRankRewardTableStartJsonVector(builder, numElems)
 
 def SingleRaidRankRewardTableEnd(builder):
     return builder.EndObject()

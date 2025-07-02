@@ -14,7 +14,7 @@ table EverTalkDesc {
 }
 
 table EverTalkDescTable {
-  ever_talk_descs: [EverTalkDesc];
+  json: [EverTalkDesc];
 }
 
 root_type EverTalkDescTable;

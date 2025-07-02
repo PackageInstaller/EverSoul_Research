@@ -8,7 +8,7 @@ table HeroOptionRate {
 }
 
 table HeroOptionRateTable {
-  hero_option_rates: [HeroOptionRate];
+  json: [HeroOptionRate];
 }
 
 root_type HeroOptionRateTable;

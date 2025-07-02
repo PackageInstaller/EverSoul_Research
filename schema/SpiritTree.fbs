@@ -7,7 +7,7 @@ table SpiritTree {
 }
 
 table SpiritTreeTable {
-  spirit_trees: [SpiritTree];
+  json: [SpiritTree];
 }
 
 root_type SpiritTreeTable;

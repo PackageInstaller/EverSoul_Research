@@ -25,7 +25,7 @@ class EventDefensePlayerSettingTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDefensePlayerSettingTable
-    def EventDefensePlayerSettings(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDefensePlayerSettingTable(object):
         return None
 
     # EventDefensePlayerSettingTable
-    def EventDefensePlayerSettingsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDefensePlayerSettingTable
-    def EventDefensePlayerSettingsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDefensePlayerSettingTableStart(builder):
 def Start(builder):
     EventDefensePlayerSettingTableStart(builder)
 
-def EventDefensePlayerSettingTableAddEventDefensePlayerSettings(builder, eventDefensePlayerSettings):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDefensePlayerSettings), 0)
+def EventDefensePlayerSettingTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDefensePlayerSettings(builder, eventDefensePlayerSettings):
-    EventDefensePlayerSettingTableAddEventDefensePlayerSettings(builder, eventDefensePlayerSettings)
+def AddJson(builder, json):
+    EventDefensePlayerSettingTableAddJson(builder, json)
 
-def EventDefensePlayerSettingTableStartEventDefensePlayerSettingsVector(builder, numElems):
+def EventDefensePlayerSettingTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDefensePlayerSettingsVector(builder, numElems):
-    return EventDefensePlayerSettingTableStartEventDefensePlayerSettingsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDefensePlayerSettingTableStartJsonVector(builder, numElems)
 
 def EventDefensePlayerSettingTableEnd(builder):
     return builder.EndObject()

@@ -25,7 +25,7 @@ class GachaMileageTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # GachaMileageTable
-    def GachaMileages(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class GachaMileageTable(object):
         return None
 
     # GachaMileageTable
-    def GachaMileagesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # GachaMileageTable
-    def GachaMileagesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def GachaMileageTableStart(builder):
 def Start(builder):
     GachaMileageTableStart(builder)
 
-def GachaMileageTableAddGachaMileages(builder, gachaMileages):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(gachaMileages), 0)
+def GachaMileageTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddGachaMileages(builder, gachaMileages):
-    GachaMileageTableAddGachaMileages(builder, gachaMileages)
+def AddJson(builder, json):
+    GachaMileageTableAddJson(builder, json)
 
-def GachaMileageTableStartGachaMileagesVector(builder, numElems):
+def GachaMileageTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartGachaMileagesVector(builder, numElems):
-    return GachaMileageTableStartGachaMileagesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return GachaMileageTableStartJsonVector(builder, numElems)
 
 def GachaMileageTableEnd(builder):
     return builder.EndObject()

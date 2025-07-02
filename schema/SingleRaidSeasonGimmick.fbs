@@ -21,7 +21,7 @@ table SingleRaidSeasonGimmick {
 }
 
 table SingleRaidSeasonGimmickTable {
-  single_raid_season_gimmicks: [SingleRaidSeasonGimmick];
+  json: [SingleRaidSeasonGimmick];
 }
 
 root_type SingleRaidSeasonGimmickTable;

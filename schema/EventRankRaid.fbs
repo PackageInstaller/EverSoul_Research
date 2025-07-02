@@ -21,7 +21,7 @@ table EventRankRaid {
 }
 
 table EventRankRaidTable {
-  event_rank_raids: [EventRankRaid];
+  json: [EventRankRaid];
 }
 
 root_type EventRankRaidTable;

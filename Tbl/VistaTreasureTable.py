@@ -25,7 +25,7 @@ class VistaTreasureTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # VistaTreasureTable
-    def VistaTreasures(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class VistaTreasureTable(object):
         return None
 
     # VistaTreasureTable
-    def VistaTreasuresLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # VistaTreasureTable
-    def VistaTreasuresIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def VistaTreasureTableStart(builder):
 def Start(builder):
     VistaTreasureTableStart(builder)
 
-def VistaTreasureTableAddVistaTreasures(builder, vistaTreasures):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(vistaTreasures), 0)
+def VistaTreasureTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddVistaTreasures(builder, vistaTreasures):
-    VistaTreasureTableAddVistaTreasures(builder, vistaTreasures)
+def AddJson(builder, json):
+    VistaTreasureTableAddJson(builder, json)
 
-def VistaTreasureTableStartVistaTreasuresVector(builder, numElems):
+def VistaTreasureTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartVistaTreasuresVector(builder, numElems):
-    return VistaTreasureTableStartVistaTreasuresVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return VistaTreasureTableStartJsonVector(builder, numElems)
 
 def VistaTreasureTableEnd(builder):
     return builder.EndObject()

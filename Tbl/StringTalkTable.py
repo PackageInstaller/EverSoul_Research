@@ -25,7 +25,7 @@ class StringTalkTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # StringTalkTable
-    def StringTalks(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class StringTalkTable(object):
         return None
 
     # StringTalkTable
-    def StringTalksLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # StringTalkTable
-    def StringTalksIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def StringTalkTableStart(builder):
 def Start(builder):
     StringTalkTableStart(builder)
 
-def StringTalkTableAddStringTalks(builder, stringTalks):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(stringTalks), 0)
+def StringTalkTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddStringTalks(builder, stringTalks):
-    StringTalkTableAddStringTalks(builder, stringTalks)
+def AddJson(builder, json):
+    StringTalkTableAddJson(builder, json)
 
-def StringTalkTableStartStringTalksVector(builder, numElems):
+def StringTalkTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartStringTalksVector(builder, numElems):
-    return StringTalkTableStartStringTalksVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return StringTalkTableStartJsonVector(builder, numElems)
 
 def StringTalkTableEnd(builder):
     return builder.EndObject()

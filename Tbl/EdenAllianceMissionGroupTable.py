@@ -25,7 +25,7 @@ class EdenAllianceMissionGroupTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EdenAllianceMissionGroupTable
-    def EdenAllianceMissionGroups(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EdenAllianceMissionGroupTable(object):
         return None
 
     # EdenAllianceMissionGroupTable
-    def EdenAllianceMissionGroupsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EdenAllianceMissionGroupTable
-    def EdenAllianceMissionGroupsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EdenAllianceMissionGroupTableStart(builder):
 def Start(builder):
     EdenAllianceMissionGroupTableStart(builder)
 
-def EdenAllianceMissionGroupTableAddEdenAllianceMissionGroups(builder, edenAllianceMissionGroups):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(edenAllianceMissionGroups), 0)
+def EdenAllianceMissionGroupTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEdenAllianceMissionGroups(builder, edenAllianceMissionGroups):
-    EdenAllianceMissionGroupTableAddEdenAllianceMissionGroups(builder, edenAllianceMissionGroups)
+def AddJson(builder, json):
+    EdenAllianceMissionGroupTableAddJson(builder, json)
 
-def EdenAllianceMissionGroupTableStartEdenAllianceMissionGroupsVector(builder, numElems):
+def EdenAllianceMissionGroupTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEdenAllianceMissionGroupsVector(builder, numElems):
-    return EdenAllianceMissionGroupTableStartEdenAllianceMissionGroupsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EdenAllianceMissionGroupTableStartJsonVector(builder, numElems)
 
 def EdenAllianceMissionGroupTableEnd(builder):
     return builder.EndObject()

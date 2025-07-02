@@ -25,7 +25,7 @@ class ContentsBuffTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ContentsBuffTable
-    def ContentsBuffs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ContentsBuffTable(object):
         return None
 
     # ContentsBuffTable
-    def ContentsBuffsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ContentsBuffTable
-    def ContentsBuffsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ContentsBuffTableStart(builder):
 def Start(builder):
     ContentsBuffTableStart(builder)
 
-def ContentsBuffTableAddContentsBuffs(builder, contentsBuffs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(contentsBuffs), 0)
+def ContentsBuffTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddContentsBuffs(builder, contentsBuffs):
-    ContentsBuffTableAddContentsBuffs(builder, contentsBuffs)
+def AddJson(builder, json):
+    ContentsBuffTableAddJson(builder, json)
 
-def ContentsBuffTableStartContentsBuffsVector(builder, numElems):
+def ContentsBuffTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartContentsBuffsVector(builder, numElems):
-    return ContentsBuffTableStartContentsBuffsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ContentsBuffTableStartJsonVector(builder, numElems)
 
 def ContentsBuffTableEnd(builder):
     return builder.EndObject()

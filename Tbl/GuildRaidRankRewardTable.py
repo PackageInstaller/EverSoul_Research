@@ -25,7 +25,7 @@ class GuildRaidRankRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # GuildRaidRankRewardTable
-    def GuildRaidRankRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class GuildRaidRankRewardTable(object):
         return None
 
     # GuildRaidRankRewardTable
-    def GuildRaidRankRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # GuildRaidRankRewardTable
-    def GuildRaidRankRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def GuildRaidRankRewardTableStart(builder):
 def Start(builder):
     GuildRaidRankRewardTableStart(builder)
 
-def GuildRaidRankRewardTableAddGuildRaidRankRewards(builder, guildRaidRankRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(guildRaidRankRewards), 0)
+def GuildRaidRankRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddGuildRaidRankRewards(builder, guildRaidRankRewards):
-    GuildRaidRankRewardTableAddGuildRaidRankRewards(builder, guildRaidRankRewards)
+def AddJson(builder, json):
+    GuildRaidRankRewardTableAddJson(builder, json)
 
-def GuildRaidRankRewardTableStartGuildRaidRankRewardsVector(builder, numElems):
+def GuildRaidRankRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartGuildRaidRankRewardsVector(builder, numElems):
-    return GuildRaidRankRewardTableStartGuildRaidRankRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return GuildRaidRankRewardTableStartJsonVector(builder, numElems)
 
 def GuildRaidRankRewardTableEnd(builder):
     return builder.EndObject()

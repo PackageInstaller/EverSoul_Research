@@ -10,7 +10,7 @@ table TownWarp {
 }
 
 table TownWarpTable {
-  town_warps: [TownWarp];
+  json: [TownWarp];
 }
 
 root_type TownWarpTable;

@@ -11,7 +11,7 @@ table EventCollect {
 }
 
 table EventCollectTable {
-  event_collects: [EventCollect];
+  json: [EventCollect];
 }
 
 root_type EventCollectTable;

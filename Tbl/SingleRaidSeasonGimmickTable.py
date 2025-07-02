@@ -25,7 +25,7 @@ class SingleRaidSeasonGimmickTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SingleRaidSeasonGimmickTable
-    def SingleRaidSeasonGimmicks(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SingleRaidSeasonGimmickTable(object):
         return None
 
     # SingleRaidSeasonGimmickTable
-    def SingleRaidSeasonGimmicksLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SingleRaidSeasonGimmickTable
-    def SingleRaidSeasonGimmicksIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SingleRaidSeasonGimmickTableStart(builder):
 def Start(builder):
     SingleRaidSeasonGimmickTableStart(builder)
 
-def SingleRaidSeasonGimmickTableAddSingleRaidSeasonGimmicks(builder, singleRaidSeasonGimmicks):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(singleRaidSeasonGimmicks), 0)
+def SingleRaidSeasonGimmickTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSingleRaidSeasonGimmicks(builder, singleRaidSeasonGimmicks):
-    SingleRaidSeasonGimmickTableAddSingleRaidSeasonGimmicks(builder, singleRaidSeasonGimmicks)
+def AddJson(builder, json):
+    SingleRaidSeasonGimmickTableAddJson(builder, json)
 
-def SingleRaidSeasonGimmickTableStartSingleRaidSeasonGimmicksVector(builder, numElems):
+def SingleRaidSeasonGimmickTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSingleRaidSeasonGimmicksVector(builder, numElems):
-    return SingleRaidSeasonGimmickTableStartSingleRaidSeasonGimmicksVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SingleRaidSeasonGimmickTableStartJsonVector(builder, numElems)
 
 def SingleRaidSeasonGimmickTableEnd(builder):
     return builder.EndObject()

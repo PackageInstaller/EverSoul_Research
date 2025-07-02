@@ -25,7 +25,7 @@ class GuildRaidRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # GuildRaidRewardTable
-    def GuildRaidRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class GuildRaidRewardTable(object):
         return None
 
     # GuildRaidRewardTable
-    def GuildRaidRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # GuildRaidRewardTable
-    def GuildRaidRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def GuildRaidRewardTableStart(builder):
 def Start(builder):
     GuildRaidRewardTableStart(builder)
 
-def GuildRaidRewardTableAddGuildRaidRewards(builder, guildRaidRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(guildRaidRewards), 0)
+def GuildRaidRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddGuildRaidRewards(builder, guildRaidRewards):
-    GuildRaidRewardTableAddGuildRaidRewards(builder, guildRaidRewards)
+def AddJson(builder, json):
+    GuildRaidRewardTableAddJson(builder, json)
 
-def GuildRaidRewardTableStartGuildRaidRewardsVector(builder, numElems):
+def GuildRaidRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartGuildRaidRewardsVector(builder, numElems):
-    return GuildRaidRewardTableStartGuildRaidRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return GuildRaidRewardTableStartJsonVector(builder, numElems)
 
 def GuildRaidRewardTableEnd(builder):
     return builder.EndObject()

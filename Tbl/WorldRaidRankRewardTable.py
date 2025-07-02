@@ -25,7 +25,7 @@ class WorldRaidRankRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # WorldRaidRankRewardTable
-    def WorldRaidRankRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class WorldRaidRankRewardTable(object):
         return None
 
     # WorldRaidRankRewardTable
-    def WorldRaidRankRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # WorldRaidRankRewardTable
-    def WorldRaidRankRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def WorldRaidRankRewardTableStart(builder):
 def Start(builder):
     WorldRaidRankRewardTableStart(builder)
 
-def WorldRaidRankRewardTableAddWorldRaidRankRewards(builder, worldRaidRankRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(worldRaidRankRewards), 0)
+def WorldRaidRankRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddWorldRaidRankRewards(builder, worldRaidRankRewards):
-    WorldRaidRankRewardTableAddWorldRaidRankRewards(builder, worldRaidRankRewards)
+def AddJson(builder, json):
+    WorldRaidRankRewardTableAddJson(builder, json)
 
-def WorldRaidRankRewardTableStartWorldRaidRankRewardsVector(builder, numElems):
+def WorldRaidRankRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartWorldRaidRankRewardsVector(builder, numElems):
-    return WorldRaidRankRewardTableStartWorldRaidRankRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return WorldRaidRankRewardTableStartJsonVector(builder, numElems)
 
 def WorldRaidRankRewardTableEnd(builder):
     return builder.EndObject()

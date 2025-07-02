@@ -25,7 +25,7 @@ class ItemTranscendenceTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ItemTranscendenceTable
-    def ItemTranscendences(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ItemTranscendenceTable(object):
         return None
 
     # ItemTranscendenceTable
-    def ItemTranscendencesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ItemTranscendenceTable
-    def ItemTranscendencesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ItemTranscendenceTableStart(builder):
 def Start(builder):
     ItemTranscendenceTableStart(builder)
 
-def ItemTranscendenceTableAddItemTranscendences(builder, itemTranscendences):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(itemTranscendences), 0)
+def ItemTranscendenceTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddItemTranscendences(builder, itemTranscendences):
-    ItemTranscendenceTableAddItemTranscendences(builder, itemTranscendences)
+def AddJson(builder, json):
+    ItemTranscendenceTableAddJson(builder, json)
 
-def ItemTranscendenceTableStartItemTranscendencesVector(builder, numElems):
+def ItemTranscendenceTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartItemTranscendencesVector(builder, numElems):
-    return ItemTranscendenceTableStartItemTranscendencesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ItemTranscendenceTableStartJsonVector(builder, numElems)
 
 def ItemTranscendenceTableEnd(builder):
     return builder.EndObject()

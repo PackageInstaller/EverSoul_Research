@@ -25,7 +25,7 @@ class LocalizationScheduleTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # LocalizationScheduleTable
-    def LocalizationSchedules(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class LocalizationScheduleTable(object):
         return None
 
     # LocalizationScheduleTable
-    def LocalizationSchedulesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # LocalizationScheduleTable
-    def LocalizationSchedulesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def LocalizationScheduleTableStart(builder):
 def Start(builder):
     LocalizationScheduleTableStart(builder)
 
-def LocalizationScheduleTableAddLocalizationSchedules(builder, localizationSchedules):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(localizationSchedules), 0)
+def LocalizationScheduleTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddLocalizationSchedules(builder, localizationSchedules):
-    LocalizationScheduleTableAddLocalizationSchedules(builder, localizationSchedules)
+def AddJson(builder, json):
+    LocalizationScheduleTableAddJson(builder, json)
 
-def LocalizationScheduleTableStartLocalizationSchedulesVector(builder, numElems):
+def LocalizationScheduleTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartLocalizationSchedulesVector(builder, numElems):
-    return LocalizationScheduleTableStartLocalizationSchedulesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return LocalizationScheduleTableStartJsonVector(builder, numElems)
 
 def LocalizationScheduleTableEnd(builder):
     return builder.EndObject()

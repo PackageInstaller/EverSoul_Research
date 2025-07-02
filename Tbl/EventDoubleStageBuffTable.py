@@ -25,7 +25,7 @@ class EventDoubleStageBuffTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDoubleStageBuffTable
-    def EventDoubleStageBuffs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDoubleStageBuffTable(object):
         return None
 
     # EventDoubleStageBuffTable
-    def EventDoubleStageBuffsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDoubleStageBuffTable
-    def EventDoubleStageBuffsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDoubleStageBuffTableStart(builder):
 def Start(builder):
     EventDoubleStageBuffTableStart(builder)
 
-def EventDoubleStageBuffTableAddEventDoubleStageBuffs(builder, eventDoubleStageBuffs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDoubleStageBuffs), 0)
+def EventDoubleStageBuffTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDoubleStageBuffs(builder, eventDoubleStageBuffs):
-    EventDoubleStageBuffTableAddEventDoubleStageBuffs(builder, eventDoubleStageBuffs)
+def AddJson(builder, json):
+    EventDoubleStageBuffTableAddJson(builder, json)
 
-def EventDoubleStageBuffTableStartEventDoubleStageBuffsVector(builder, numElems):
+def EventDoubleStageBuffTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDoubleStageBuffsVector(builder, numElems):
-    return EventDoubleStageBuffTableStartEventDoubleStageBuffsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDoubleStageBuffTableStartJsonVector(builder, numElems)
 
 def EventDoubleStageBuffTableEnd(builder):
     return builder.EndObject()

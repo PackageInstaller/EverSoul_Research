@@ -25,7 +25,7 @@ class AttendanceTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # AttendanceTable
-    def Attendances(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class AttendanceTable(object):
         return None
 
     # AttendanceTable
-    def AttendancesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # AttendanceTable
-    def AttendancesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def AttendanceTableStart(builder):
 def Start(builder):
     AttendanceTableStart(builder)
 
-def AttendanceTableAddAttendances(builder, attendances):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(attendances), 0)
+def AttendanceTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddAttendances(builder, attendances):
-    AttendanceTableAddAttendances(builder, attendances)
+def AddJson(builder, json):
+    AttendanceTableAddJson(builder, json)
 
-def AttendanceTableStartAttendancesVector(builder, numElems):
+def AttendanceTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartAttendancesVector(builder, numElems):
-    return AttendanceTableStartAttendancesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return AttendanceTableStartJsonVector(builder, numElems)
 
 def AttendanceTableEnd(builder):
     return builder.EndObject()

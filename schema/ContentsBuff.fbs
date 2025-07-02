@@ -22,7 +22,7 @@ table ContentsBuff {
 }
 
 table ContentsBuffTable {
-  contents_buffs: [ContentsBuff];
+  json: [ContentsBuff];
 }
 
 root_type ContentsBuffTable;

@@ -7,7 +7,7 @@ table KeyValues {
 }
 
 table KeyValuesTable {
-  key_valuess: [KeyValues];
+  json: [KeyValues];
 }
 
 root_type KeyValuesTable;

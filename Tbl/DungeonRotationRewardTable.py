@@ -25,7 +25,7 @@ class DungeonRotationRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # DungeonRotationRewardTable
-    def DungeonRotationRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class DungeonRotationRewardTable(object):
         return None
 
     # DungeonRotationRewardTable
-    def DungeonRotationRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # DungeonRotationRewardTable
-    def DungeonRotationRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def DungeonRotationRewardTableStart(builder):
 def Start(builder):
     DungeonRotationRewardTableStart(builder)
 
-def DungeonRotationRewardTableAddDungeonRotationRewards(builder, dungeonRotationRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(dungeonRotationRewards), 0)
+def DungeonRotationRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddDungeonRotationRewards(builder, dungeonRotationRewards):
-    DungeonRotationRewardTableAddDungeonRotationRewards(builder, dungeonRotationRewards)
+def AddJson(builder, json):
+    DungeonRotationRewardTableAddJson(builder, json)
 
-def DungeonRotationRewardTableStartDungeonRotationRewardsVector(builder, numElems):
+def DungeonRotationRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartDungeonRotationRewardsVector(builder, numElems):
-    return DungeonRotationRewardTableStartDungeonRotationRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return DungeonRotationRewardTableStartJsonVector(builder, numElems)
 
 def DungeonRotationRewardTableEnd(builder):
     return builder.EndObject()

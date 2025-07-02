@@ -25,7 +25,7 @@ class SingleRaidScheduleTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SingleRaidScheduleTable
-    def SingleRaidSchedules(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SingleRaidScheduleTable(object):
         return None
 
     # SingleRaidScheduleTable
-    def SingleRaidSchedulesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SingleRaidScheduleTable
-    def SingleRaidSchedulesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SingleRaidScheduleTableStart(builder):
 def Start(builder):
     SingleRaidScheduleTableStart(builder)
 
-def SingleRaidScheduleTableAddSingleRaidSchedules(builder, singleRaidSchedules):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(singleRaidSchedules), 0)
+def SingleRaidScheduleTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSingleRaidSchedules(builder, singleRaidSchedules):
-    SingleRaidScheduleTableAddSingleRaidSchedules(builder, singleRaidSchedules)
+def AddJson(builder, json):
+    SingleRaidScheduleTableAddJson(builder, json)
 
-def SingleRaidScheduleTableStartSingleRaidSchedulesVector(builder, numElems):
+def SingleRaidScheduleTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSingleRaidSchedulesVector(builder, numElems):
-    return SingleRaidScheduleTableStartSingleRaidSchedulesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SingleRaidScheduleTableStartJsonVector(builder, numElems)
 
 def SingleRaidScheduleTableEnd(builder):
     return builder.EndObject()

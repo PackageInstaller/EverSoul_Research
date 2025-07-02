@@ -25,7 +25,7 @@ class StringPreloadTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # StringPreloadTable
-    def StringPreloads(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class StringPreloadTable(object):
         return None
 
     # StringPreloadTable
-    def StringPreloadsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # StringPreloadTable
-    def StringPreloadsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def StringPreloadTableStart(builder):
 def Start(builder):
     StringPreloadTableStart(builder)
 
-def StringPreloadTableAddStringPreloads(builder, stringPreloads):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(stringPreloads), 0)
+def StringPreloadTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddStringPreloads(builder, stringPreloads):
-    StringPreloadTableAddStringPreloads(builder, stringPreloads)
+def AddJson(builder, json):
+    StringPreloadTableAddJson(builder, json)
 
-def StringPreloadTableStartStringPreloadsVector(builder, numElems):
+def StringPreloadTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartStringPreloadsVector(builder, numElems):
-    return StringPreloadTableStartStringPreloadsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return StringPreloadTableStartJsonVector(builder, numElems)
 
 def StringPreloadTableEnd(builder):
     return builder.EndObject()

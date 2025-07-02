@@ -9,7 +9,7 @@ table Barrier {
 }
 
 table BarrierTable {
-  barriers: [Barrier];
+  json: [Barrier];
 }
 
 root_type BarrierTable;

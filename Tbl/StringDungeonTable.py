@@ -25,7 +25,7 @@ class StringDungeonTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # StringDungeonTable
-    def StringDungeons(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class StringDungeonTable(object):
         return None
 
     # StringDungeonTable
-    def StringDungeonsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # StringDungeonTable
-    def StringDungeonsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def StringDungeonTableStart(builder):
 def Start(builder):
     StringDungeonTableStart(builder)
 
-def StringDungeonTableAddStringDungeons(builder, stringDungeons):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(stringDungeons), 0)
+def StringDungeonTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddStringDungeons(builder, stringDungeons):
-    StringDungeonTableAddStringDungeons(builder, stringDungeons)
+def AddJson(builder, json):
+    StringDungeonTableAddJson(builder, json)
 
-def StringDungeonTableStartStringDungeonsVector(builder, numElems):
+def StringDungeonTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartStringDungeonsVector(builder, numElems):
-    return StringDungeonTableStartStringDungeonsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return StringDungeonTableStartJsonVector(builder, numElems)
 
 def StringDungeonTableEnd(builder):
     return builder.EndObject()

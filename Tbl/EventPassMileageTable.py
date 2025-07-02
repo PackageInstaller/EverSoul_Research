@@ -25,7 +25,7 @@ class EventPassMileageTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventPassMileageTable
-    def EventPassMileages(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventPassMileageTable(object):
         return None
 
     # EventPassMileageTable
-    def EventPassMileagesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventPassMileageTable
-    def EventPassMileagesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventPassMileageTableStart(builder):
 def Start(builder):
     EventPassMileageTableStart(builder)
 
-def EventPassMileageTableAddEventPassMileages(builder, eventPassMileages):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventPassMileages), 0)
+def EventPassMileageTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventPassMileages(builder, eventPassMileages):
-    EventPassMileageTableAddEventPassMileages(builder, eventPassMileages)
+def AddJson(builder, json):
+    EventPassMileageTableAddJson(builder, json)
 
-def EventPassMileageTableStartEventPassMileagesVector(builder, numElems):
+def EventPassMileageTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventPassMileagesVector(builder, numElems):
-    return EventPassMileageTableStartEventPassMileagesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventPassMileageTableStartJsonVector(builder, numElems)
 
 def EventPassMileageTableEnd(builder):
     return builder.EndObject()

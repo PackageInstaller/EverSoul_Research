@@ -15,7 +15,7 @@ table EventDiceReward {
 }
 
 table EventDiceRewardTable {
-  event_dice_rewards: [EventDiceReward];
+  json: [EventDiceReward];
 }
 
 root_type EventDiceRewardTable;

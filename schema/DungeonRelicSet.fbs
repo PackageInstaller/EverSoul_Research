@@ -8,7 +8,7 @@ table DungeonRelicSet {
 }
 
 table DungeonRelicSetTable {
-  dungeon_relic_sets: [DungeonRelicSet];
+  json: [DungeonRelicSet];
 }
 
 root_type DungeonRelicSetTable;

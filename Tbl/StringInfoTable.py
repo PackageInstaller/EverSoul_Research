@@ -25,7 +25,7 @@ class StringInfoTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # StringInfoTable
-    def StringInfos(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class StringInfoTable(object):
         return None
 
     # StringInfoTable
-    def StringInfosLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # StringInfoTable
-    def StringInfosIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def StringInfoTableStart(builder):
 def Start(builder):
     StringInfoTableStart(builder)
 
-def StringInfoTableAddStringInfos(builder, stringInfos):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(stringInfos), 0)
+def StringInfoTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddStringInfos(builder, stringInfos):
-    StringInfoTableAddStringInfos(builder, stringInfos)
+def AddJson(builder, json):
+    StringInfoTableAddJson(builder, json)
 
-def StringInfoTableStartStringInfosVector(builder, numElems):
+def StringInfoTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartStringInfosVector(builder, numElems):
-    return StringInfoTableStartStringInfosVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return StringInfoTableStartJsonVector(builder, numElems)
 
 def StringInfoTableEnd(builder):
     return builder.EndObject()

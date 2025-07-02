@@ -10,7 +10,7 @@ table LocalizationContent {
 }
 
 table LocalizationContentTable {
-  localization_contents: [LocalizationContent];
+  json: [LocalizationContent];
 }
 
 root_type LocalizationContentTable;

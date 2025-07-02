@@ -25,7 +25,7 @@ class SoundTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SoundTable
-    def Sounds(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SoundTable(object):
         return None
 
     # SoundTable
-    def SoundsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SoundTable
-    def SoundsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SoundTableStart(builder):
 def Start(builder):
     SoundTableStart(builder)
 
-def SoundTableAddSounds(builder, sounds):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(sounds), 0)
+def SoundTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSounds(builder, sounds):
-    SoundTableAddSounds(builder, sounds)
+def AddJson(builder, json):
+    SoundTableAddJson(builder, json)
 
-def SoundTableStartSoundsVector(builder, numElems):
+def SoundTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSoundsVector(builder, numElems):
-    return SoundTableStartSoundsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SoundTableStartJsonVector(builder, numElems)
 
 def SoundTableEnd(builder):
     return builder.EndObject()

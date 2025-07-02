@@ -25,7 +25,7 @@ class SkillDispelTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SkillDispelTable
-    def SkillDispels(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SkillDispelTable(object):
         return None
 
     # SkillDispelTable
-    def SkillDispelsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SkillDispelTable
-    def SkillDispelsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SkillDispelTableStart(builder):
 def Start(builder):
     SkillDispelTableStart(builder)
 
-def SkillDispelTableAddSkillDispels(builder, skillDispels):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(skillDispels), 0)
+def SkillDispelTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSkillDispels(builder, skillDispels):
-    SkillDispelTableAddSkillDispels(builder, skillDispels)
+def AddJson(builder, json):
+    SkillDispelTableAddJson(builder, json)
 
-def SkillDispelTableStartSkillDispelsVector(builder, numElems):
+def SkillDispelTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSkillDispelsVector(builder, numElems):
-    return SkillDispelTableStartSkillDispelsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SkillDispelTableStartJsonVector(builder, numElems)
 
 def SkillDispelTableEnd(builder):
     return builder.EndObject()

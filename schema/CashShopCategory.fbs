@@ -9,7 +9,7 @@ table CashShopCategory {
 }
 
 table CashShopCategoryTable {
-  cash_shop_categorys: [CashShopCategory];
+  json: [CashShopCategory];
 }
 
 root_type CashShopCategoryTable;

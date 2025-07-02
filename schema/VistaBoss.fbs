@@ -10,7 +10,7 @@ table VistaBoss {
 }
 
 table VistaBossTable {
-  vista_bosss: [VistaBoss];
+  json: [VistaBoss];
 }
 
 root_type VistaBossTable;

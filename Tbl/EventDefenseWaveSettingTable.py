@@ -25,7 +25,7 @@ class EventDefenseWaveSettingTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDefenseWaveSettingTable
-    def EventDefenseWaveSettings(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDefenseWaveSettingTable(object):
         return None
 
     # EventDefenseWaveSettingTable
-    def EventDefenseWaveSettingsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDefenseWaveSettingTable
-    def EventDefenseWaveSettingsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDefenseWaveSettingTableStart(builder):
 def Start(builder):
     EventDefenseWaveSettingTableStart(builder)
 
-def EventDefenseWaveSettingTableAddEventDefenseWaveSettings(builder, eventDefenseWaveSettings):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDefenseWaveSettings), 0)
+def EventDefenseWaveSettingTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDefenseWaveSettings(builder, eventDefenseWaveSettings):
-    EventDefenseWaveSettingTableAddEventDefenseWaveSettings(builder, eventDefenseWaveSettings)
+def AddJson(builder, json):
+    EventDefenseWaveSettingTableAddJson(builder, json)
 
-def EventDefenseWaveSettingTableStartEventDefenseWaveSettingsVector(builder, numElems):
+def EventDefenseWaveSettingTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDefenseWaveSettingsVector(builder, numElems):
-    return EventDefenseWaveSettingTableStartEventDefenseWaveSettingsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDefenseWaveSettingTableStartJsonVector(builder, numElems)
 
 def EventDefenseWaveSettingTableEnd(builder):
     return builder.EndObject()

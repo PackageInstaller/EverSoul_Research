@@ -21,7 +21,7 @@ table EventSelectStage {
 }
 
 table EventSelectStageTable {
-  event_select_stages: [EventSelectStage];
+  json: [EventSelectStage];
 }
 
 root_type EventSelectStageTable;

@@ -16,7 +16,7 @@ table TalkActor {
 }
 
 table TalkActorTable {
-  talk_actors: [TalkActor];
+  json: [TalkActor];
 }
 
 root_type TalkActorTable;

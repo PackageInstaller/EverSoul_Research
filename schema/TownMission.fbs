@@ -21,7 +21,7 @@ table TownMission {
 }
 
 table TownMissionTable {
-  town_missions: [TownMission];
+  json: [TownMission];
 }
 
 root_type TownMissionTable;

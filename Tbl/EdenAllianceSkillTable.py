@@ -25,7 +25,7 @@ class EdenAllianceSkillTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EdenAllianceSkillTable
-    def EdenAllianceSkills(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EdenAllianceSkillTable(object):
         return None
 
     # EdenAllianceSkillTable
-    def EdenAllianceSkillsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EdenAllianceSkillTable
-    def EdenAllianceSkillsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EdenAllianceSkillTableStart(builder):
 def Start(builder):
     EdenAllianceSkillTableStart(builder)
 
-def EdenAllianceSkillTableAddEdenAllianceSkills(builder, edenAllianceSkills):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(edenAllianceSkills), 0)
+def EdenAllianceSkillTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEdenAllianceSkills(builder, edenAllianceSkills):
-    EdenAllianceSkillTableAddEdenAllianceSkills(builder, edenAllianceSkills)
+def AddJson(builder, json):
+    EdenAllianceSkillTableAddJson(builder, json)
 
-def EdenAllianceSkillTableStartEdenAllianceSkillsVector(builder, numElems):
+def EdenAllianceSkillTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEdenAllianceSkillsVector(builder, numElems):
-    return EdenAllianceSkillTableStartEdenAllianceSkillsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EdenAllianceSkillTableStartJsonVector(builder, numElems)
 
 def EdenAllianceSkillTableEnd(builder):
     return builder.EndObject()

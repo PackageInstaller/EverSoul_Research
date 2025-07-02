@@ -20,7 +20,7 @@ table RaceBuff {
 }
 
 table RaceBuffTable {
-  race_buffs: [RaceBuff];
+  json: [RaceBuff];
 }
 
 root_type RaceBuffTable;

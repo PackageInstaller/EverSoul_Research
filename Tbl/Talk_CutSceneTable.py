@@ -25,7 +25,7 @@ class Talk_CutSceneTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # Talk_CutSceneTable
-    def TalkCutScenes(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class Talk_CutSceneTable(object):
         return None
 
     # Talk_CutSceneTable
-    def TalkCutScenesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # Talk_CutSceneTable
-    def TalkCutScenesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def Talk_CutSceneTableStart(builder):
 def Start(builder):
     Talk_CutSceneTableStart(builder)
 
-def Talk_CutSceneTableAddTalkCutScenes(builder, talkCutScenes):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(talkCutScenes), 0)
+def Talk_CutSceneTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTalkCutScenes(builder, talkCutScenes):
-    Talk_CutSceneTableAddTalkCutScenes(builder, talkCutScenes)
+def AddJson(builder, json):
+    Talk_CutSceneTableAddJson(builder, json)
 
-def Talk_CutSceneTableStartTalkCutScenesVector(builder, numElems):
+def Talk_CutSceneTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTalkCutScenesVector(builder, numElems):
-    return Talk_CutSceneTableStartTalkCutScenesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return Talk_CutSceneTableStartJsonVector(builder, numElems)
 
 def Talk_CutSceneTableEnd(builder):
     return builder.EndObject()

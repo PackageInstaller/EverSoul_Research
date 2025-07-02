@@ -25,7 +25,7 @@ class DungeonRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # DungeonRewardTable
-    def DungeonRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class DungeonRewardTable(object):
         return None
 
     # DungeonRewardTable
-    def DungeonRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # DungeonRewardTable
-    def DungeonRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def DungeonRewardTableStart(builder):
 def Start(builder):
     DungeonRewardTableStart(builder)
 
-def DungeonRewardTableAddDungeonRewards(builder, dungeonRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(dungeonRewards), 0)
+def DungeonRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddDungeonRewards(builder, dungeonRewards):
-    DungeonRewardTableAddDungeonRewards(builder, dungeonRewards)
+def AddJson(builder, json):
+    DungeonRewardTableAddJson(builder, json)
 
-def DungeonRewardTableStartDungeonRewardsVector(builder, numElems):
+def DungeonRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartDungeonRewardsVector(builder, numElems):
-    return DungeonRewardTableStartDungeonRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return DungeonRewardTableStartJsonVector(builder, numElems)
 
 def DungeonRewardTableEnd(builder):
     return builder.EndObject()

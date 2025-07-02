@@ -22,7 +22,7 @@ table EventDoubleStageReward {
 }
 
 table EventDoubleStageRewardTable {
-  event_double_stage_rewards: [EventDoubleStageReward];
+  json: [EventDoubleStageReward];
 }
 
 root_type EventDoubleStageRewardTable;

@@ -25,7 +25,7 @@ class ItemSetEffectTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ItemSetEffectTable
-    def ItemSetEffects(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ItemSetEffectTable(object):
         return None
 
     # ItemSetEffectTable
-    def ItemSetEffectsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ItemSetEffectTable
-    def ItemSetEffectsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ItemSetEffectTableStart(builder):
 def Start(builder):
     ItemSetEffectTableStart(builder)
 
-def ItemSetEffectTableAddItemSetEffects(builder, itemSetEffects):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(itemSetEffects), 0)
+def ItemSetEffectTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddItemSetEffects(builder, itemSetEffects):
-    ItemSetEffectTableAddItemSetEffects(builder, itemSetEffects)
+def AddJson(builder, json):
+    ItemSetEffectTableAddJson(builder, json)
 
-def ItemSetEffectTableStartItemSetEffectsVector(builder, numElems):
+def ItemSetEffectTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartItemSetEffectsVector(builder, numElems):
-    return ItemSetEffectTableStartItemSetEffectsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ItemSetEffectTableStartJsonVector(builder, numElems)
 
 def ItemSetEffectTableEnd(builder):
     return builder.EndObject()

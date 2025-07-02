@@ -9,7 +9,7 @@ table ChatEmoticon {
 }
 
 table ChatEmoticonTable {
-  chat_emoticons: [ChatEmoticon];
+  json: [ChatEmoticon];
 }
 
 root_type ChatEmoticonTable;

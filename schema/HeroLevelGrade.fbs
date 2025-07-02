@@ -7,7 +7,7 @@ table HeroLevelGrade {
 }
 
 table HeroLevelGradeTable {
-  hero_level_grades: [HeroLevelGrade];
+  json: [HeroLevelGrade];
 }
 
 root_type HeroLevelGradeTable;

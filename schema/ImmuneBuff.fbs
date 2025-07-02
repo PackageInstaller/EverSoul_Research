@@ -15,7 +15,7 @@ table ImmuneBuff {
 }
 
 table ImmuneBuffTable {
-  immune_buffs: [ImmuneBuff];
+  json: [ImmuneBuff];
 }
 
 root_type ImmuneBuffTable;

@@ -25,7 +25,7 @@ class GuildRaidAffixTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # GuildRaidAffixTable
-    def GuildRaidAffixs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class GuildRaidAffixTable(object):
         return None
 
     # GuildRaidAffixTable
-    def GuildRaidAffixsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # GuildRaidAffixTable
-    def GuildRaidAffixsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def GuildRaidAffixTableStart(builder):
 def Start(builder):
     GuildRaidAffixTableStart(builder)
 
-def GuildRaidAffixTableAddGuildRaidAffixs(builder, guildRaidAffixs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(guildRaidAffixs), 0)
+def GuildRaidAffixTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddGuildRaidAffixs(builder, guildRaidAffixs):
-    GuildRaidAffixTableAddGuildRaidAffixs(builder, guildRaidAffixs)
+def AddJson(builder, json):
+    GuildRaidAffixTableAddJson(builder, json)
 
-def GuildRaidAffixTableStartGuildRaidAffixsVector(builder, numElems):
+def GuildRaidAffixTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartGuildRaidAffixsVector(builder, numElems):
-    return GuildRaidAffixTableStartGuildRaidAffixsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return GuildRaidAffixTableStartJsonVector(builder, numElems)
 
 def GuildRaidAffixTableEnd(builder):
     return builder.EndObject()

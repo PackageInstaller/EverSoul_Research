@@ -25,7 +25,7 @@ class TalkEventDescTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TalkEventDescTable
-    def TalkEventDescs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TalkEventDescTable(object):
         return None
 
     # TalkEventDescTable
-    def TalkEventDescsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TalkEventDescTable
-    def TalkEventDescsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TalkEventDescTableStart(builder):
 def Start(builder):
     TalkEventDescTableStart(builder)
 
-def TalkEventDescTableAddTalkEventDescs(builder, talkEventDescs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(talkEventDescs), 0)
+def TalkEventDescTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTalkEventDescs(builder, talkEventDescs):
-    TalkEventDescTableAddTalkEventDescs(builder, talkEventDescs)
+def AddJson(builder, json):
+    TalkEventDescTableAddJson(builder, json)
 
-def TalkEventDescTableStartTalkEventDescsVector(builder, numElems):
+def TalkEventDescTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTalkEventDescsVector(builder, numElems):
-    return TalkEventDescTableStartTalkEventDescsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TalkEventDescTableStartJsonVector(builder, numElems)
 
 def TalkEventDescTableEnd(builder):
     return builder.EndObject()

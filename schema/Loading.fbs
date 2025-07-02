@@ -10,7 +10,7 @@ table Loading {
 }
 
 table LoadingTable {
-  loadings: [Loading];
+  json: [Loading];
 }
 
 root_type LoadingTable;

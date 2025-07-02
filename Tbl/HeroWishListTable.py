@@ -25,7 +25,7 @@ class HeroWishListTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # HeroWishListTable
-    def HeroWishLists(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class HeroWishListTable(object):
         return None
 
     # HeroWishListTable
-    def HeroWishListsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # HeroWishListTable
-    def HeroWishListsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def HeroWishListTableStart(builder):
 def Start(builder):
     HeroWishListTableStart(builder)
 
-def HeroWishListTableAddHeroWishLists(builder, heroWishLists):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(heroWishLists), 0)
+def HeroWishListTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddHeroWishLists(builder, heroWishLists):
-    HeroWishListTableAddHeroWishLists(builder, heroWishLists)
+def AddJson(builder, json):
+    HeroWishListTableAddJson(builder, json)
 
-def HeroWishListTableStartHeroWishListsVector(builder, numElems):
+def HeroWishListTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartHeroWishListsVector(builder, numElems):
-    return HeroWishListTableStartHeroWishListsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return HeroWishListTableStartJsonVector(builder, numElems)
 
 def HeroWishListTableEnd(builder):
     return builder.EndObject()

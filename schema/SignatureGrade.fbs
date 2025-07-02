@@ -14,7 +14,7 @@ table SignatureGrade {
 }
 
 table SignatureGradeTable {
-  signature_grades: [SignatureGrade];
+  json: [SignatureGrade];
 }
 
 root_type SignatureGradeTable;

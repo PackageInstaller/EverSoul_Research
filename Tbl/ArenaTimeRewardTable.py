@@ -25,7 +25,7 @@ class ArenaTimeRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ArenaTimeRewardTable
-    def ArenaTimeRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ArenaTimeRewardTable(object):
         return None
 
     # ArenaTimeRewardTable
-    def ArenaTimeRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ArenaTimeRewardTable
-    def ArenaTimeRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ArenaTimeRewardTableStart(builder):
 def Start(builder):
     ArenaTimeRewardTableStart(builder)
 
-def ArenaTimeRewardTableAddArenaTimeRewards(builder, arenaTimeRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(arenaTimeRewards), 0)
+def ArenaTimeRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddArenaTimeRewards(builder, arenaTimeRewards):
-    ArenaTimeRewardTableAddArenaTimeRewards(builder, arenaTimeRewards)
+def AddJson(builder, json):
+    ArenaTimeRewardTableAddJson(builder, json)
 
-def ArenaTimeRewardTableStartArenaTimeRewardsVector(builder, numElems):
+def ArenaTimeRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartArenaTimeRewardsVector(builder, numElems):
-    return ArenaTimeRewardTableStartArenaTimeRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ArenaTimeRewardTableStartJsonVector(builder, numElems)
 
 def ArenaTimeRewardTableEnd(builder):
     return builder.EndObject()

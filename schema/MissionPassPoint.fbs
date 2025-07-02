@@ -14,7 +14,7 @@ table MissionPassPoint {
 }
 
 table MissionPassPointTable {
-  mission_pass_points: [MissionPassPoint];
+  json: [MissionPassPoint];
 }
 
 root_type MissionPassPointTable;

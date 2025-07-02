@@ -8,7 +8,7 @@ table TalkEventDesc {
 }
 
 table TalkEventDescTable {
-  talk_event_descs: [TalkEventDesc];
+  json: [TalkEventDesc];
 }
 
 root_type TalkEventDescTable;

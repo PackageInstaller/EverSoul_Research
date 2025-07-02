@@ -10,7 +10,7 @@ table BanWord {
 }
 
 table BanWordTable {
-  ban_words: [BanWord];
+  json: [BanWord];
 }
 
 root_type BanWordTable;

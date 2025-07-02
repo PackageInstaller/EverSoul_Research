@@ -25,7 +25,7 @@ class EventDefenseEnemySettingTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDefenseEnemySettingTable
-    def EventDefenseEnemySettings(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDefenseEnemySettingTable(object):
         return None
 
     # EventDefenseEnemySettingTable
-    def EventDefenseEnemySettingsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDefenseEnemySettingTable
-    def EventDefenseEnemySettingsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDefenseEnemySettingTableStart(builder):
 def Start(builder):
     EventDefenseEnemySettingTableStart(builder)
 
-def EventDefenseEnemySettingTableAddEventDefenseEnemySettings(builder, eventDefenseEnemySettings):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDefenseEnemySettings), 0)
+def EventDefenseEnemySettingTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDefenseEnemySettings(builder, eventDefenseEnemySettings):
-    EventDefenseEnemySettingTableAddEventDefenseEnemySettings(builder, eventDefenseEnemySettings)
+def AddJson(builder, json):
+    EventDefenseEnemySettingTableAddJson(builder, json)
 
-def EventDefenseEnemySettingTableStartEventDefenseEnemySettingsVector(builder, numElems):
+def EventDefenseEnemySettingTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDefenseEnemySettingsVector(builder, numElems):
-    return EventDefenseEnemySettingTableStartEventDefenseEnemySettingsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDefenseEnemySettingTableStartJsonVector(builder, numElems)
 
 def EventDefenseEnemySettingTableEnd(builder):
     return builder.EndObject()

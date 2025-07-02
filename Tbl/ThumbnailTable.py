@@ -25,7 +25,7 @@ class ThumbnailTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ThumbnailTable
-    def Thumbnails(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ThumbnailTable(object):
         return None
 
     # ThumbnailTable
-    def ThumbnailsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ThumbnailTable
-    def ThumbnailsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ThumbnailTableStart(builder):
 def Start(builder):
     ThumbnailTableStart(builder)
 
-def ThumbnailTableAddThumbnails(builder, thumbnails):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(thumbnails), 0)
+def ThumbnailTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddThumbnails(builder, thumbnails):
-    ThumbnailTableAddThumbnails(builder, thumbnails)
+def AddJson(builder, json):
+    ThumbnailTableAddJson(builder, json)
 
-def ThumbnailTableStartThumbnailsVector(builder, numElems):
+def ThumbnailTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartThumbnailsVector(builder, numElems):
-    return ThumbnailTableStartThumbnailsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ThumbnailTableStartJsonVector(builder, numElems)
 
 def ThumbnailTableEnd(builder):
     return builder.EndObject()

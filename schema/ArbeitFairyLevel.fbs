@@ -14,7 +14,7 @@ table ArbeitFairyLevel {
 }
 
 table ArbeitFairyLevelTable {
-  arbeit_fairy_levels: [ArbeitFairyLevel];
+  json: [ArbeitFairyLevel];
 }
 
 root_type ArbeitFairyLevelTable;

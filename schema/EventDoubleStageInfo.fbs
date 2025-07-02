@@ -9,7 +9,7 @@ table EventDoubleStageInfo {
 }
 
 table EventDoubleStageInfoTable {
-  event_double_stage_infos: [EventDoubleStageInfo];
+  json: [EventDoubleStageInfo];
 }
 
 root_type EventDoubleStageInfoTable;

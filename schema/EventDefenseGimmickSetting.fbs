@@ -14,7 +14,7 @@ table EventDefenseGimmickSetting {
 }
 
 table EventDefenseGimmickSettingTable {
-  event_defense_gimmick_settings: [EventDefenseGimmickSetting];
+  json: [EventDefenseGimmickSetting];
 }
 
 root_type EventDefenseGimmickSettingTable;

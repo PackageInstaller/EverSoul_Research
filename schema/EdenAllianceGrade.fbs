@@ -7,7 +7,7 @@ table EdenAllianceGrade {
 }
 
 table EdenAllianceGradeTable {
-  eden_alliance_grades: [EdenAllianceGrade];
+  json: [EdenAllianceGrade];
 }
 
 root_type EdenAllianceGradeTable;

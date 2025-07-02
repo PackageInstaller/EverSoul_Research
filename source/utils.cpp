@@ -314,11 +314,6 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
     }
     std::println("服务器数据表版本: {}", tableInfo.version);
 
-    std::string hashUrl = std::format("https://patch.esoul.kakaogames.com/Live/{}/Android/catalog_eversoul.hash", version);
-    std::println("检查哈希URL: {}", hashUrl);
-    std::string currentHash = httpGet(hashUrl);
-    std::println("服务器哈希值: {}", currentHash);
-
     fs::path table_info_path = "./table_info.json";
     json table_info;
 
@@ -337,14 +332,12 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
             std::println("当前保存的信息:");
             std::println("版本: {}", table_info["live"]["version"].get<std::string>());
             std::println("表版本: {}", table_info["live"]["tableVersion"].get<int>());
-            std::println("哈希值: {}", table_info["live"]["hash"].get<std::string>());
         }
 
         // 比较版本号和哈希值
         if (table_info.contains("live") &&
             table_info["live"]["version"] == version &&
             table_info["live"]["tableVersion"] == tableInfo.version &&
-            table_info["live"]["hash"] == currentHash &&
             liveTableExist)
         {
             std::println("\033[32mLive 服务器数据表已是最新版本\033[0m");
@@ -359,11 +352,6 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
                 {
                     std::println("- 表版本不同: {} -> {}",
                                  table_info["live"]["tableVersion"].get<int>(), tableInfo.version);
-                }
-
-                if (table_info["live"]["hash"] != currentHash)
-                {
-                    std::println("- 哈希值不同");
                 }
             }
             else
@@ -451,8 +439,7 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
 
     table_info["live"] = {
         {"version", version},
-        {"tableVersion", tableInfo.version},
-        {"hash", currentHash}};
+        {"tableVersion", tableInfo.version}};
 
     std::ofstream outFile(table_info_path);
     outFile << table_info.dump(4);
@@ -530,6 +517,7 @@ bool decryptAes128Cbc(const std::vector<u_int8_t> &ciphertext, std::vector<u_int
         EVP_CIPHER_CTX_free(ctx);
         return false;
     }
+
     plaintext_len += len;
     plaintext.resize(plaintext_len);
 
@@ -1044,12 +1032,6 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
     int serverTableVersion = versionData["version"].get<int>();
     std::println("服务器数据表版本: {}", serverTableVersion);
 
-    std::string hashUrl = std::format("https://patch.esoul.kakaogames.com/Review/{}/{}/Android/catalog_eversoul.hash",
-                                      reviewInfo.cdnDate, reviewInfo.version);
-    std::println("检查哈希URL: {}", hashUrl);
-    std::string currentHash = httpGet(hashUrl);
-    std::println("服务器哈希值: {}", currentHash);
-
     fs::path table_info_path = "./table_info.json";
     json table_info;
     bool needUpdate = true;
@@ -1070,7 +1052,6 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
             std::println("版本: {}", table_info["review"]["version"].get<std::string>());
             // std::println("日期: {}", table_info["review"]["cdnDate"].get<std::string>());
             std::println("表版本: {}", table_info["review"]["tableVersion"].get<int>());
-            std::println("哈希值: {}", table_info["review"]["hash"].get<std::string>());
         }
 
         // 比较版本号和哈希值
@@ -1078,7 +1059,6 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
             table_info["review"]["version"] == reviewInfo.version &&
             table_info["review"]["cdnDate"] == reviewInfo.cdnDate &&
             table_info["review"]["tableVersion"] == serverTableVersion &&
-            table_info["review"]["hash"] == currentHash &&
             reviewTableExist)
         {
             std::println("\033[32mReview 服务器数据表已是最新版本\033[0m");
@@ -1092,8 +1072,6 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
                 if (table_info["review"]["tableVersion"] != serverTableVersion)
                     std::println("- 表版本不同: {} -> {}",
                                  table_info["review"]["tableVersion"].get<int>(), serverTableVersion);
-                if (table_info["review"]["hash"] != currentHash)
-                    std::println("- 哈希值不同");
             }
             else
             {
@@ -1182,8 +1160,7 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
     table_info["review"] = {
         {"version", reviewInfo.version},
         {"cdnDate", reviewInfo.cdnDate},
-        {"tableVersion", serverTableVersion},
-        {"hash", currentHash}};
+        {"tableVersion", serverTableVersion}};
 
     std::ofstream outFile(table_info_path);
     outFile << table_info.dump(4);
@@ -1321,16 +1298,16 @@ except Exception as e:
  * @param output_dir 生成的Python API文件输出目录路径
  * @return 生成成功返回true，失败返回false
  */
-bool QooAppAPI::generateFlatBufferPythonAPI(const std::string &schema_dir, const std::string &output_dir)
+bool generateFlatBufferPythonAPI(const std::string &schema_dir, const std::string &output_dir)
 {
     // 保存当前工作目录
     fs::path original_cwd = fs::current_path();
 
-        try
+    try
     {
         // 在切换工作目录之前，将schema_dir转换为绝对路径
         fs::path abs_schema_dir = fs::absolute(schema_dir);
-        
+
         // 检查schema目录是否存在
         if (!fs::exists(abs_schema_dir))
         {
@@ -1343,7 +1320,7 @@ bool QooAppAPI::generateFlatBufferPythonAPI(const std::string &schema_dir, const
         {
             fs::create_directories(output_dir);
         }
-        
+
         // 切换到输出目录
         fs::current_path(output_dir);
 
@@ -1380,8 +1357,6 @@ bool QooAppAPI::generateFlatBufferPythonAPI(const std::string &schema_dir, const
                 updateProgressDisplay("生成进度", current_file, total_files,
                                       schema_name + ".fbs", &last_length);
 
-                // 使用flatc生成Python代码，让它自动按namespace创建文件夹结构
-                // 使用绝对路径
                 std::string command = std::format("flatc --python {} 2>/dev/null",
                                                   entry.path().string());
 
@@ -1403,7 +1378,7 @@ bool QooAppAPI::generateFlatBufferPythonAPI(const std::string &schema_dir, const
         // 清除最后一行进度显示
         std::cout << "\r" << std::string(last_length, ' ') << "\r";
 
-                // 查找生成的Python文件并在相应目录中创建__init__.py文件
+        // 查找生成的Python文件并在相应目录中创建__init__.py文件
         std::map<std::string, std::vector<std::string>> namespace_files;
         
         // 扫描当前目录下的所有.py文件，按目录分组，只包含Table结尾的文件

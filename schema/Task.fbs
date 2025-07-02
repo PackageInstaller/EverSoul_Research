@@ -11,7 +11,7 @@ table Task {
 }
 
 table TaskTable {
-  tasks: [Task];
+  json: [Task];
 }
 
 root_type TaskTable;

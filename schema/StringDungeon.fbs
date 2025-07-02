@@ -10,7 +10,7 @@ table StringDungeon {
 }
 
 table StringDungeonTable {
-  string_dungeons: [StringDungeon];
+  json: [StringDungeon];
 }
 
 root_type StringDungeonTable;

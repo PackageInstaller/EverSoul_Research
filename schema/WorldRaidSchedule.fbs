@@ -8,7 +8,7 @@ table WorldRaidSchedule {
 }
 
 table WorldRaidScheduleTable {
-  world_raid_schedules: [WorldRaidSchedule];
+  json: [WorldRaidSchedule];
 }
 
 root_type WorldRaidScheduleTable;

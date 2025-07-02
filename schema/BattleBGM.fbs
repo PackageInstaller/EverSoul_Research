@@ -13,7 +13,7 @@ table BattleBGM {
 }
 
 table BattleBGMTable {
-  battle_bg_ms: [BattleBGM];
+  json: [BattleBGM];
 }
 
 root_type BattleBGMTable;

@@ -10,7 +10,7 @@ table HeroAscentReset {
 }
 
 table HeroAscentResetTable {
-  hero_ascent_resets: [HeroAscentReset];
+  json: [HeroAscentReset];
 }
 
 root_type HeroAscentResetTable;

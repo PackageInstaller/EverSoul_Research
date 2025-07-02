@@ -25,7 +25,7 @@ class TowerExtendRankRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TowerExtendRankRewardTable
-    def TowerExtendRankRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TowerExtendRankRewardTable(object):
         return None
 
     # TowerExtendRankRewardTable
-    def TowerExtendRankRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TowerExtendRankRewardTable
-    def TowerExtendRankRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TowerExtendRankRewardTableStart(builder):
 def Start(builder):
     TowerExtendRankRewardTableStart(builder)
 
-def TowerExtendRankRewardTableAddTowerExtendRankRewards(builder, towerExtendRankRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(towerExtendRankRewards), 0)
+def TowerExtendRankRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTowerExtendRankRewards(builder, towerExtendRankRewards):
-    TowerExtendRankRewardTableAddTowerExtendRankRewards(builder, towerExtendRankRewards)
+def AddJson(builder, json):
+    TowerExtendRankRewardTableAddJson(builder, json)
 
-def TowerExtendRankRewardTableStartTowerExtendRankRewardsVector(builder, numElems):
+def TowerExtendRankRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTowerExtendRankRewardsVector(builder, numElems):
-    return TowerExtendRankRewardTableStartTowerExtendRankRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TowerExtendRankRewardTableStartJsonVector(builder, numElems)
 
 def TowerExtendRankRewardTableEnd(builder):
     return builder.EndObject()

@@ -8,7 +8,7 @@ table CashShopHeroPass {
 }
 
 table CashShopHeroPassTable {
-  cash_shop_hero_passs: [CashShopHeroPass];
+  json: [CashShopHeroPass];
 }
 
 root_type CashShopHeroPassTable;

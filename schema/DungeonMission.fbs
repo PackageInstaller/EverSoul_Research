@@ -12,7 +12,7 @@ table DungeonMission {
 }
 
 table DungeonMissionTable {
-  dungeon_missions: [DungeonMission];
+  json: [DungeonMission];
 }
 
 root_type DungeonMissionTable;

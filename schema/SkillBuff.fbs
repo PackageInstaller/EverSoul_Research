@@ -19,7 +19,7 @@ table SkillBuff {
 }
 
 table SkillBuffTable {
-  skill_buffs: [SkillBuff];
+  json: [SkillBuff];
 }
 
 root_type SkillBuffTable;

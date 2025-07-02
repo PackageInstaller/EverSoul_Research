@@ -10,7 +10,7 @@ table EvermatchInteraction {
 }
 
 table EvermatchInteractionTable {
-  evermatch_interactions: [EvermatchInteraction];
+  json: [EvermatchInteraction];
 }
 
 root_type EvermatchInteractionTable;

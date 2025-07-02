@@ -25,7 +25,7 @@ class SignatureSkillTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SignatureSkillTable
-    def SignatureSkills(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SignatureSkillTable(object):
         return None
 
     # SignatureSkillTable
-    def SignatureSkillsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SignatureSkillTable
-    def SignatureSkillsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SignatureSkillTableStart(builder):
 def Start(builder):
     SignatureSkillTableStart(builder)
 
-def SignatureSkillTableAddSignatureSkills(builder, signatureSkills):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(signatureSkills), 0)
+def SignatureSkillTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSignatureSkills(builder, signatureSkills):
-    SignatureSkillTableAddSignatureSkills(builder, signatureSkills)
+def AddJson(builder, json):
+    SignatureSkillTableAddJson(builder, json)
 
-def SignatureSkillTableStartSignatureSkillsVector(builder, numElems):
+def SignatureSkillTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSignatureSkillsVector(builder, numElems):
-    return SignatureSkillTableStartSignatureSkillsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SignatureSkillTableStartJsonVector(builder, numElems)
 
 def SignatureSkillTableEnd(builder):
     return builder.EndObject()

@@ -19,7 +19,7 @@ table EventChallengeStageRental {
 }
 
 table EventChallengeStageRentalTable {
-  event_challenge_stage_rentals: [EventChallengeStageRental];
+  json: [EventChallengeStageRental];
 }
 
 root_type EventChallengeStageRentalTable;

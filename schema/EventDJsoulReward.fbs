@@ -13,7 +13,7 @@ table EventDJsoulReward {
 }
 
 table EventDJsoulRewardTable {
-  event_d_jsoul_rewards: [EventDJsoulReward];
+  json: [EventDJsoulReward];
 }
 
 root_type EventDJsoulRewardTable;

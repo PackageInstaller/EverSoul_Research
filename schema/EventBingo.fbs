@@ -10,7 +10,7 @@ table EventBingo {
 }
 
 table EventBingoTable {
-  event_bingos: [EventBingo];
+  json: [EventBingo];
 }
 
 root_type EventBingoTable;

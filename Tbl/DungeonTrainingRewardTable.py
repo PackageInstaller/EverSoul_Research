@@ -25,7 +25,7 @@ class DungeonTrainingRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # DungeonTrainingRewardTable
-    def DungeonTrainingRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class DungeonTrainingRewardTable(object):
         return None
 
     # DungeonTrainingRewardTable
-    def DungeonTrainingRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # DungeonTrainingRewardTable
-    def DungeonTrainingRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def DungeonTrainingRewardTableStart(builder):
 def Start(builder):
     DungeonTrainingRewardTableStart(builder)
 
-def DungeonTrainingRewardTableAddDungeonTrainingRewards(builder, dungeonTrainingRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(dungeonTrainingRewards), 0)
+def DungeonTrainingRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddDungeonTrainingRewards(builder, dungeonTrainingRewards):
-    DungeonTrainingRewardTableAddDungeonTrainingRewards(builder, dungeonTrainingRewards)
+def AddJson(builder, json):
+    DungeonTrainingRewardTableAddJson(builder, json)
 
-def DungeonTrainingRewardTableStartDungeonTrainingRewardsVector(builder, numElems):
+def DungeonTrainingRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartDungeonTrainingRewardsVector(builder, numElems):
-    return DungeonTrainingRewardTableStartDungeonTrainingRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return DungeonTrainingRewardTableStartJsonVector(builder, numElems)
 
 def DungeonTrainingRewardTableEnd(builder):
     return builder.EndObject()

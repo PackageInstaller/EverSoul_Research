@@ -28,7 +28,7 @@ table Dungeon {
 }
 
 table DungeonTable {
-  dungeons: [Dungeon];
+  json: [Dungeon];
 }
 
 root_type DungeonTable;

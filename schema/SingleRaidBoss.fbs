@@ -22,7 +22,7 @@ table SingleRaidBoss {
 }
 
 table SingleRaidBossTable {
-  single_raid_bosss: [SingleRaidBoss];
+  json: [SingleRaidBoss];
 }
 
 root_type SingleRaidBossTable;

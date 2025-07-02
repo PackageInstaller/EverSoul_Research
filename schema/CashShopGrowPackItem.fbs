@@ -14,7 +14,7 @@ table CashShopGrowPackItem {
 }
 
 table CashShopGrowPackItemTable {
-  cash_shop_grow_pack_items: [CashShopGrowPackItem];
+  json: [CashShopGrowPackItem];
 }
 
 root_type CashShopGrowPackItemTable;

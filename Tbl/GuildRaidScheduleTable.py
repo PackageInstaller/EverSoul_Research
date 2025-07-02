@@ -25,7 +25,7 @@ class GuildRaidScheduleTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # GuildRaidScheduleTable
-    def GuildRaidSchedules(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class GuildRaidScheduleTable(object):
         return None
 
     # GuildRaidScheduleTable
-    def GuildRaidSchedulesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # GuildRaidScheduleTable
-    def GuildRaidSchedulesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def GuildRaidScheduleTableStart(builder):
 def Start(builder):
     GuildRaidScheduleTableStart(builder)
 
-def GuildRaidScheduleTableAddGuildRaidSchedules(builder, guildRaidSchedules):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(guildRaidSchedules), 0)
+def GuildRaidScheduleTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddGuildRaidSchedules(builder, guildRaidSchedules):
-    GuildRaidScheduleTableAddGuildRaidSchedules(builder, guildRaidSchedules)
+def AddJson(builder, json):
+    GuildRaidScheduleTableAddJson(builder, json)
 
-def GuildRaidScheduleTableStartGuildRaidSchedulesVector(builder, numElems):
+def GuildRaidScheduleTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartGuildRaidSchedulesVector(builder, numElems):
-    return GuildRaidScheduleTableStartGuildRaidSchedulesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return GuildRaidScheduleTableStartJsonVector(builder, numElems)
 
 def GuildRaidScheduleTableEnd(builder):
     return builder.EndObject()

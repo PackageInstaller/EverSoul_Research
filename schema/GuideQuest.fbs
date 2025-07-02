@@ -8,7 +8,7 @@ table GuideQuest {
 }
 
 table GuideQuestTable {
-  guide_quests: [GuideQuest];
+  json: [GuideQuest];
 }
 
 root_type GuideQuestTable;

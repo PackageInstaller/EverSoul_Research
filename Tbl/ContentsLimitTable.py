@@ -25,7 +25,7 @@ class ContentsLimitTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ContentsLimitTable
-    def ContentsLimits(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ContentsLimitTable(object):
         return None
 
     # ContentsLimitTable
-    def ContentsLimitsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ContentsLimitTable
-    def ContentsLimitsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ContentsLimitTableStart(builder):
 def Start(builder):
     ContentsLimitTableStart(builder)
 
-def ContentsLimitTableAddContentsLimits(builder, contentsLimits):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(contentsLimits), 0)
+def ContentsLimitTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddContentsLimits(builder, contentsLimits):
-    ContentsLimitTableAddContentsLimits(builder, contentsLimits)
+def AddJson(builder, json):
+    ContentsLimitTableAddJson(builder, json)
 
-def ContentsLimitTableStartContentsLimitsVector(builder, numElems):
+def ContentsLimitTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartContentsLimitsVector(builder, numElems):
-    return ContentsLimitTableStartContentsLimitsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ContentsLimitTableStartJsonVector(builder, numElems)
 
 def ContentsLimitTableEnd(builder):
     return builder.EndObject()

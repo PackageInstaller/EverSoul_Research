@@ -25,7 +25,7 @@ class HeroOptionPayTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # HeroOptionPayTable
-    def HeroOptionPays(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class HeroOptionPayTable(object):
         return None
 
     # HeroOptionPayTable
-    def HeroOptionPaysLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # HeroOptionPayTable
-    def HeroOptionPaysIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def HeroOptionPayTableStart(builder):
 def Start(builder):
     HeroOptionPayTableStart(builder)
 
-def HeroOptionPayTableAddHeroOptionPays(builder, heroOptionPays):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(heroOptionPays), 0)
+def HeroOptionPayTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddHeroOptionPays(builder, heroOptionPays):
-    HeroOptionPayTableAddHeroOptionPays(builder, heroOptionPays)
+def AddJson(builder, json):
+    HeroOptionPayTableAddJson(builder, json)
 
-def HeroOptionPayTableStartHeroOptionPaysVector(builder, numElems):
+def HeroOptionPayTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartHeroOptionPaysVector(builder, numElems):
-    return HeroOptionPayTableStartHeroOptionPaysVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return HeroOptionPayTableStartJsonVector(builder, numElems)
 
 def HeroOptionPayTableEnd(builder):
     return builder.EndObject()

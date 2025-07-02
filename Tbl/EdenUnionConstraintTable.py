@@ -25,7 +25,7 @@ class EdenUnionConstraintTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EdenUnionConstraintTable
-    def EdenUnionConstraints(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EdenUnionConstraintTable(object):
         return None
 
     # EdenUnionConstraintTable
-    def EdenUnionConstraintsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EdenUnionConstraintTable
-    def EdenUnionConstraintsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EdenUnionConstraintTableStart(builder):
 def Start(builder):
     EdenUnionConstraintTableStart(builder)
 
-def EdenUnionConstraintTableAddEdenUnionConstraints(builder, edenUnionConstraints):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(edenUnionConstraints), 0)
+def EdenUnionConstraintTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEdenUnionConstraints(builder, edenUnionConstraints):
-    EdenUnionConstraintTableAddEdenUnionConstraints(builder, edenUnionConstraints)
+def AddJson(builder, json):
+    EdenUnionConstraintTableAddJson(builder, json)
 
-def EdenUnionConstraintTableStartEdenUnionConstraintsVector(builder, numElems):
+def EdenUnionConstraintTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEdenUnionConstraintsVector(builder, numElems):
-    return EdenUnionConstraintTableStartEdenUnionConstraintsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EdenUnionConstraintTableStartJsonVector(builder, numElems)
 
 def EdenUnionConstraintTableEnd(builder):
     return builder.EndObject()

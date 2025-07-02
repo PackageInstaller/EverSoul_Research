@@ -7,7 +7,7 @@ table SignatureWishList {
 }
 
 table SignatureWishListTable {
-  signature_wish_lists: [SignatureWishList];
+  json: [SignatureWishList];
 }
 
 root_type SignatureWishListTable;

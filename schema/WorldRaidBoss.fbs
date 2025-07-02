@@ -11,7 +11,7 @@ table WorldRaidBoss {
 }
 
 table WorldRaidBossTable {
-  world_raid_bosss: [WorldRaidBoss];
+  json: [WorldRaidBoss];
 }
 
 root_type WorldRaidBossTable;

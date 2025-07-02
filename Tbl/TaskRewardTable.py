@@ -25,7 +25,7 @@ class TaskRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TaskRewardTable
-    def TaskRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TaskRewardTable(object):
         return None
 
     # TaskRewardTable
-    def TaskRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TaskRewardTable
-    def TaskRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TaskRewardTableStart(builder):
 def Start(builder):
     TaskRewardTableStart(builder)
 
-def TaskRewardTableAddTaskRewards(builder, taskRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(taskRewards), 0)
+def TaskRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTaskRewards(builder, taskRewards):
-    TaskRewardTableAddTaskRewards(builder, taskRewards)
+def AddJson(builder, json):
+    TaskRewardTableAddJson(builder, json)
 
-def TaskRewardTableStartTaskRewardsVector(builder, numElems):
+def TaskRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTaskRewardsVector(builder, numElems):
-    return TaskRewardTableStartTaskRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TaskRewardTableStartJsonVector(builder, numElems)
 
 def TaskRewardTableEnd(builder):
     return builder.EndObject()

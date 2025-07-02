@@ -29,7 +29,7 @@ table ChallengeBattle {
 }
 
 table ChallengeBattleTable {
-  challenge_battles: [ChallengeBattle];
+  json: [ChallengeBattle];
 }
 
 root_type ChallengeBattleTable;

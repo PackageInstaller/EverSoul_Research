@@ -25,7 +25,7 @@ class BattleBGMTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # BattleBGMTable
-    def BattleBgMs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class BattleBGMTable(object):
         return None
 
     # BattleBGMTable
-    def BattleBgMsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # BattleBGMTable
-    def BattleBgMsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def BattleBGMTableStart(builder):
 def Start(builder):
     BattleBGMTableStart(builder)
 
-def BattleBGMTableAddBattleBgMs(builder, battleBgMs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(battleBgMs), 0)
+def BattleBGMTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddBattleBgMs(builder, battleBgMs):
-    BattleBGMTableAddBattleBgMs(builder, battleBgMs)
+def AddJson(builder, json):
+    BattleBGMTableAddJson(builder, json)
 
-def BattleBGMTableStartBattleBgMsVector(builder, numElems):
+def BattleBGMTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartBattleBgMsVector(builder, numElems):
-    return BattleBGMTableStartBattleBgMsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return BattleBGMTableStartJsonVector(builder, numElems)
 
 def BattleBGMTableEnd(builder):
     return builder.EndObject()

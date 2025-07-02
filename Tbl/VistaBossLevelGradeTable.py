@@ -25,7 +25,7 @@ class VistaBossLevelGradeTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # VistaBossLevelGradeTable
-    def VistaBossLevelGrades(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class VistaBossLevelGradeTable(object):
         return None
 
     # VistaBossLevelGradeTable
-    def VistaBossLevelGradesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # VistaBossLevelGradeTable
-    def VistaBossLevelGradesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def VistaBossLevelGradeTableStart(builder):
 def Start(builder):
     VistaBossLevelGradeTableStart(builder)
 
-def VistaBossLevelGradeTableAddVistaBossLevelGrades(builder, vistaBossLevelGrades):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(vistaBossLevelGrades), 0)
+def VistaBossLevelGradeTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddVistaBossLevelGrades(builder, vistaBossLevelGrades):
-    VistaBossLevelGradeTableAddVistaBossLevelGrades(builder, vistaBossLevelGrades)
+def AddJson(builder, json):
+    VistaBossLevelGradeTableAddJson(builder, json)
 
-def VistaBossLevelGradeTableStartVistaBossLevelGradesVector(builder, numElems):
+def VistaBossLevelGradeTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartVistaBossLevelGradesVector(builder, numElems):
-    return VistaBossLevelGradeTableStartVistaBossLevelGradesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return VistaBossLevelGradeTableStartJsonVector(builder, numElems)
 
 def VistaBossLevelGradeTableEnd(builder):
     return builder.EndObject()

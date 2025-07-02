@@ -25,7 +25,7 @@ class TownEnemyTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TownEnemyTable
-    def TownEnemys(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TownEnemyTable(object):
         return None
 
     # TownEnemyTable
-    def TownEnemysLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TownEnemyTable
-    def TownEnemysIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TownEnemyTableStart(builder):
 def Start(builder):
     TownEnemyTableStart(builder)
 
-def TownEnemyTableAddTownEnemys(builder, townEnemys):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(townEnemys), 0)
+def TownEnemyTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTownEnemys(builder, townEnemys):
-    TownEnemyTableAddTownEnemys(builder, townEnemys)
+def AddJson(builder, json):
+    TownEnemyTableAddJson(builder, json)
 
-def TownEnemyTableStartTownEnemysVector(builder, numElems):
+def TownEnemyTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTownEnemysVector(builder, numElems):
-    return TownEnemyTableStartTownEnemysVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TownEnemyTableStartJsonVector(builder, numElems)
 
 def TownEnemyTableEnd(builder):
     return builder.EndObject()

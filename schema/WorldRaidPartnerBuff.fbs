@@ -10,7 +10,7 @@ table WorldRaidPartnerBuff {
 }
 
 table WorldRaidPartnerBuffTable {
-  world_raid_partner_buffs: [WorldRaidPartnerBuff];
+  json: [WorldRaidPartnerBuff];
 }
 
 root_type WorldRaidPartnerBuffTable;

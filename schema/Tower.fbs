@@ -12,7 +12,7 @@ table Tower {
 }
 
 table TowerTable {
-  towers: [Tower];
+  json: [Tower];
 }
 
 root_type TowerTable;

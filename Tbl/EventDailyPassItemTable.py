@@ -25,7 +25,7 @@ class EventDailyPassItemTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDailyPassItemTable
-    def EventDailyPassItems(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDailyPassItemTable(object):
         return None
 
     # EventDailyPassItemTable
-    def EventDailyPassItemsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDailyPassItemTable
-    def EventDailyPassItemsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDailyPassItemTableStart(builder):
 def Start(builder):
     EventDailyPassItemTableStart(builder)
 
-def EventDailyPassItemTableAddEventDailyPassItems(builder, eventDailyPassItems):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDailyPassItems), 0)
+def EventDailyPassItemTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDailyPassItems(builder, eventDailyPassItems):
-    EventDailyPassItemTableAddEventDailyPassItems(builder, eventDailyPassItems)
+def AddJson(builder, json):
+    EventDailyPassItemTableAddJson(builder, json)
 
-def EventDailyPassItemTableStartEventDailyPassItemsVector(builder, numElems):
+def EventDailyPassItemTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDailyPassItemsVector(builder, numElems):
-    return EventDailyPassItemTableStartEventDailyPassItemsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDailyPassItemTableStartJsonVector(builder, numElems)
 
 def EventDailyPassItemTableEnd(builder):
     return builder.EndObject()

@@ -25,7 +25,7 @@ class EventChallengeStageConstraintTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventChallengeStageConstraintTable
-    def EventChallengeStageConstraints(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventChallengeStageConstraintTable(object):
         return None
 
     # EventChallengeStageConstraintTable
-    def EventChallengeStageConstraintsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventChallengeStageConstraintTable
-    def EventChallengeStageConstraintsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventChallengeStageConstraintTableStart(builder):
 def Start(builder):
     EventChallengeStageConstraintTableStart(builder)
 
-def EventChallengeStageConstraintTableAddEventChallengeStageConstraints(builder, eventChallengeStageConstraints):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventChallengeStageConstraints), 0)
+def EventChallengeStageConstraintTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventChallengeStageConstraints(builder, eventChallengeStageConstraints):
-    EventChallengeStageConstraintTableAddEventChallengeStageConstraints(builder, eventChallengeStageConstraints)
+def AddJson(builder, json):
+    EventChallengeStageConstraintTableAddJson(builder, json)
 
-def EventChallengeStageConstraintTableStartEventChallengeStageConstraintsVector(builder, numElems):
+def EventChallengeStageConstraintTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventChallengeStageConstraintsVector(builder, numElems):
-    return EventChallengeStageConstraintTableStartEventChallengeStageConstraintsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventChallengeStageConstraintTableStartJsonVector(builder, numElems)
 
 def EventChallengeStageConstraintTableEnd(builder):
     return builder.EndObject()

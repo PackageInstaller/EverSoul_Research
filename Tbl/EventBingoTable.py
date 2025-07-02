@@ -25,7 +25,7 @@ class EventBingoTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventBingoTable
-    def EventBingos(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventBingoTable(object):
         return None
 
     # EventBingoTable
-    def EventBingosLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventBingoTable
-    def EventBingosIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventBingoTableStart(builder):
 def Start(builder):
     EventBingoTableStart(builder)
 
-def EventBingoTableAddEventBingos(builder, eventBingos):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventBingos), 0)
+def EventBingoTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventBingos(builder, eventBingos):
-    EventBingoTableAddEventBingos(builder, eventBingos)
+def AddJson(builder, json):
+    EventBingoTableAddJson(builder, json)
 
-def EventBingoTableStartEventBingosVector(builder, numElems):
+def EventBingoTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventBingosVector(builder, numElems):
-    return EventBingoTableStartEventBingosVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventBingoTableStartJsonVector(builder, numElems)
 
 def EventBingoTableEnd(builder):
     return builder.EndObject()

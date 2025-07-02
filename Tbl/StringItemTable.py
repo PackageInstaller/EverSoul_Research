@@ -25,7 +25,7 @@ class StringItemTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # StringItemTable
-    def StringItems(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class StringItemTable(object):
         return None
 
     # StringItemTable
-    def StringItemsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # StringItemTable
-    def StringItemsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def StringItemTableStart(builder):
 def Start(builder):
     StringItemTableStart(builder)
 
-def StringItemTableAddStringItems(builder, stringItems):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(stringItems), 0)
+def StringItemTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddStringItems(builder, stringItems):
-    StringItemTableAddStringItems(builder, stringItems)
+def AddJson(builder, json):
+    StringItemTableAddJson(builder, json)
 
-def StringItemTableStartStringItemsVector(builder, numElems):
+def StringItemTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartStringItemsVector(builder, numElems):
-    return StringItemTableStartStringItemsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return StringItemTableStartJsonVector(builder, numElems)
 
 def StringItemTableEnd(builder):
     return builder.EndObject()

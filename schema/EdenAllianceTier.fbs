@@ -9,7 +9,7 @@ table EdenAllianceTier {
 }
 
 table EdenAllianceTierTable {
-  eden_alliance_tiers: [EdenAllianceTier];
+  json: [EdenAllianceTier];
 }
 
 root_type EdenAllianceTierTable;

@@ -25,7 +25,7 @@ class EvermatchInteractionTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EvermatchInteractionTable
-    def EvermatchInteractions(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EvermatchInteractionTable(object):
         return None
 
     # EvermatchInteractionTable
-    def EvermatchInteractionsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EvermatchInteractionTable
-    def EvermatchInteractionsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EvermatchInteractionTableStart(builder):
 def Start(builder):
     EvermatchInteractionTableStart(builder)
 
-def EvermatchInteractionTableAddEvermatchInteractions(builder, evermatchInteractions):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(evermatchInteractions), 0)
+def EvermatchInteractionTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEvermatchInteractions(builder, evermatchInteractions):
-    EvermatchInteractionTableAddEvermatchInteractions(builder, evermatchInteractions)
+def AddJson(builder, json):
+    EvermatchInteractionTableAddJson(builder, json)
 
-def EvermatchInteractionTableStartEvermatchInteractionsVector(builder, numElems):
+def EvermatchInteractionTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEvermatchInteractionsVector(builder, numElems):
-    return EvermatchInteractionTableStartEvermatchInteractionsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EvermatchInteractionTableStartJsonVector(builder, numElems)
 
 def EvermatchInteractionTableEnd(builder):
     return builder.EndObject()

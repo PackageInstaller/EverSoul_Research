@@ -12,7 +12,7 @@ table EventDefenseItem {
 }
 
 table EventDefenseItemTable {
-  event_defense_items: [EventDefenseItem];
+  json: [EventDefenseItem];
 }
 
 root_type EventDefenseItemTable;

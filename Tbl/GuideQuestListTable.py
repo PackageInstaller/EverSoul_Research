@@ -25,7 +25,7 @@ class GuideQuestListTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # GuideQuestListTable
-    def GuideQuestLists(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class GuideQuestListTable(object):
         return None
 
     # GuideQuestListTable
-    def GuideQuestListsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # GuideQuestListTable
-    def GuideQuestListsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def GuideQuestListTableStart(builder):
 def Start(builder):
     GuideQuestListTableStart(builder)
 
-def GuideQuestListTableAddGuideQuestLists(builder, guideQuestLists):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(guideQuestLists), 0)
+def GuideQuestListTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddGuideQuestLists(builder, guideQuestLists):
-    GuideQuestListTableAddGuideQuestLists(builder, guideQuestLists)
+def AddJson(builder, json):
+    GuideQuestListTableAddJson(builder, json)
 
-def GuideQuestListTableStartGuideQuestListsVector(builder, numElems):
+def GuideQuestListTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartGuideQuestListsVector(builder, numElems):
-    return GuideQuestListTableStartGuideQuestListsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return GuideQuestListTableStartJsonVector(builder, numElems)
 
 def GuideQuestListTableEnd(builder):
     return builder.EndObject()

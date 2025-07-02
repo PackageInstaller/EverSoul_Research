@@ -8,7 +8,7 @@ table WorldRaidBanScore {
 }
 
 table WorldRaidBanScoreTable {
-  world_raid_ban_scores: [WorldRaidBanScore];
+  json: [WorldRaidBanScore];
 }
 
 root_type WorldRaidBanScoreTable;

@@ -25,7 +25,7 @@ class SkillAddEffectTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SkillAddEffectTable
-    def SkillAddEffects(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SkillAddEffectTable(object):
         return None
 
     # SkillAddEffectTable
-    def SkillAddEffectsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SkillAddEffectTable
-    def SkillAddEffectsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SkillAddEffectTableStart(builder):
 def Start(builder):
     SkillAddEffectTableStart(builder)
 
-def SkillAddEffectTableAddSkillAddEffects(builder, skillAddEffects):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(skillAddEffects), 0)
+def SkillAddEffectTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSkillAddEffects(builder, skillAddEffects):
-    SkillAddEffectTableAddSkillAddEffects(builder, skillAddEffects)
+def AddJson(builder, json):
+    SkillAddEffectTableAddJson(builder, json)
 
-def SkillAddEffectTableStartSkillAddEffectsVector(builder, numElems):
+def SkillAddEffectTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSkillAddEffectsVector(builder, numElems):
-    return SkillAddEffectTableStartSkillAddEffectsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SkillAddEffectTableStartJsonVector(builder, numElems)
 
 def SkillAddEffectTableEnd(builder):
     return builder.EndObject()

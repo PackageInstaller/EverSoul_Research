@@ -12,7 +12,7 @@ table EventGroupInfo {
 }
 
 table EventGroupInfoTable {
-  event_group_infos: [EventGroupInfo];
+  json: [EventGroupInfo];
 }
 
 root_type EventGroupInfoTable;

@@ -11,7 +11,7 @@ table EventDefenseHelperList {
 }
 
 table EventDefenseHelperListTable {
-  event_defense_helper_lists: [EventDefenseHelperList];
+  json: [EventDefenseHelperList];
 }
 
 root_type EventDefenseHelperListTable;

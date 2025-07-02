@@ -25,7 +25,7 @@ class VistaBossTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # VistaBossTable
-    def VistaBosss(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class VistaBossTable(object):
         return None
 
     # VistaBossTable
-    def VistaBosssLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # VistaBossTable
-    def VistaBosssIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def VistaBossTableStart(builder):
 def Start(builder):
     VistaBossTableStart(builder)
 
-def VistaBossTableAddVistaBosss(builder, vistaBosss):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(vistaBosss), 0)
+def VistaBossTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddVistaBosss(builder, vistaBosss):
-    VistaBossTableAddVistaBosss(builder, vistaBosss)
+def AddJson(builder, json):
+    VistaBossTableAddJson(builder, json)
 
-def VistaBossTableStartVistaBosssVector(builder, numElems):
+def VistaBossTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartVistaBosssVector(builder, numElems):
-    return VistaBossTableStartVistaBosssVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return VistaBossTableStartJsonVector(builder, numElems)
 
 def VistaBossTableEnd(builder):
     return builder.EndObject()

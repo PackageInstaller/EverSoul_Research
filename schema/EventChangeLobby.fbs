@@ -12,7 +12,7 @@ table EventChangeLobby {
 }
 
 table EventChangeLobbyTable {
-  event_change_lobbys: [EventChangeLobby];
+  json: [EventChangeLobby];
 }
 
 root_type EventChangeLobbyTable;

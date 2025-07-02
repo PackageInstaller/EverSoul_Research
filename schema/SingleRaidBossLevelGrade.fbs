@@ -7,7 +7,7 @@ table SingleRaidBossLevelGrade {
 }
 
 table SingleRaidBossLevelGradeTable {
-  single_raid_boss_level_grades: [SingleRaidBossLevelGrade];
+  json: [SingleRaidBossLevelGrade];
 }
 
 root_type SingleRaidBossLevelGradeTable;

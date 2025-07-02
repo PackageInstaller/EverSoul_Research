@@ -25,7 +25,7 @@ class TalkEmotionTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TalkEmotionTable
-    def TalkEmotions(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TalkEmotionTable(object):
         return None
 
     # TalkEmotionTable
-    def TalkEmotionsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TalkEmotionTable
-    def TalkEmotionsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TalkEmotionTableStart(builder):
 def Start(builder):
     TalkEmotionTableStart(builder)
 
-def TalkEmotionTableAddTalkEmotions(builder, talkEmotions):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(talkEmotions), 0)
+def TalkEmotionTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTalkEmotions(builder, talkEmotions):
-    TalkEmotionTableAddTalkEmotions(builder, talkEmotions)
+def AddJson(builder, json):
+    TalkEmotionTableAddJson(builder, json)
 
-def TalkEmotionTableStartTalkEmotionsVector(builder, numElems):
+def TalkEmotionTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTalkEmotionsVector(builder, numElems):
-    return TalkEmotionTableStartTalkEmotionsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TalkEmotionTableStartJsonVector(builder, numElems)
 
 def TalkEmotionTableEnd(builder):
     return builder.EndObject()

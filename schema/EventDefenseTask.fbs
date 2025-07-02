@@ -11,7 +11,7 @@ table EventDefenseTask {
 }
 
 table EventDefenseTaskTable {
-  event_defense_tasks: [EventDefenseTask];
+  json: [EventDefenseTask];
 }
 
 root_type EventDefenseTaskTable;

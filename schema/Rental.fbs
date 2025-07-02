@@ -18,7 +18,7 @@ table Rental {
 }
 
 table RentalTable {
-  rentals: [Rental];
+  json: [Rental];
 }
 
 root_type RentalTable;

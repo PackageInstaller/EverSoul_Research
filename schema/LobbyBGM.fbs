@@ -14,7 +14,7 @@ table LobbyBGM {
 }
 
 table LobbyBGMTable {
-  lobby_bg_ms: [LobbyBGM];
+  json: [LobbyBGM];
 }
 
 root_type LobbyBGMTable;

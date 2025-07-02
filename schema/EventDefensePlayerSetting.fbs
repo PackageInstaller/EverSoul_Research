@@ -9,7 +9,7 @@ table EventDefensePlayerSetting {
 }
 
 table EventDefensePlayerSettingTable {
-  event_defense_player_settings: [EventDefensePlayerSetting];
+  json: [EventDefensePlayerSetting];
 }
 
 root_type EventDefensePlayerSettingTable;

@@ -22,7 +22,7 @@ table TowerExtendStage {
 }
 
 table TowerExtendStageTable {
-  tower_extend_stages: [TowerExtendStage];
+  json: [TowerExtendStage];
 }
 
 root_type TowerExtendStageTable;

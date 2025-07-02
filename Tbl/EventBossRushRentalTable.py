@@ -25,7 +25,7 @@ class EventBossRushRentalTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventBossRushRentalTable
-    def EventBossRushRentals(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventBossRushRentalTable(object):
         return None
 
     # EventBossRushRentalTable
-    def EventBossRushRentalsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventBossRushRentalTable
-    def EventBossRushRentalsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventBossRushRentalTableStart(builder):
 def Start(builder):
     EventBossRushRentalTableStart(builder)
 
-def EventBossRushRentalTableAddEventBossRushRentals(builder, eventBossRushRentals):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventBossRushRentals), 0)
+def EventBossRushRentalTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventBossRushRentals(builder, eventBossRushRentals):
-    EventBossRushRentalTableAddEventBossRushRentals(builder, eventBossRushRentals)
+def AddJson(builder, json):
+    EventBossRushRentalTableAddJson(builder, json)
 
-def EventBossRushRentalTableStartEventBossRushRentalsVector(builder, numElems):
+def EventBossRushRentalTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventBossRushRentalsVector(builder, numElems):
-    return EventBossRushRentalTableStartEventBossRushRentalsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventBossRushRentalTableStartJsonVector(builder, numElems)
 
 def EventBossRushRentalTableEnd(builder):
     return builder.EndObject()

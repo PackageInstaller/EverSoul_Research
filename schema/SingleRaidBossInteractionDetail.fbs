@@ -15,7 +15,7 @@ table SingleRaidBossInteractionDetail {
 }
 
 table SingleRaidBossInteractionDetailTable {
-  single_raid_boss_interaction_details: [SingleRaidBossInteractionDetail];
+  json: [SingleRaidBossInteractionDetail];
 }
 
 root_type SingleRaidBossInteractionDetailTable;

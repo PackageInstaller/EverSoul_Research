@@ -10,7 +10,7 @@ table DungeonTrainingReward {
 }
 
 table DungeonTrainingRewardTable {
-  dungeon_training_rewards: [DungeonTrainingReward];
+  json: [DungeonTrainingReward];
 }
 
 root_type DungeonTrainingRewardTable;

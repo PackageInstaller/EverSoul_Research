@@ -7,7 +7,7 @@ table WorldRaidHpCare {
 }
 
 table WorldRaidHpCareTable {
-  world_raid_hp_cares: [WorldRaidHpCare];
+  json: [WorldRaidHpCare];
 }
 
 root_type WorldRaidHpCareTable;

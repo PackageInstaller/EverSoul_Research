@@ -9,7 +9,7 @@ table StageArea {
 }
 
 table StageAreaTable {
-  stage_areas: [StageArea];
+  json: [StageArea];
 }
 
 root_type StageAreaTable;

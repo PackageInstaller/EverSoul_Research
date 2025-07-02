@@ -25,7 +25,7 @@ class EventDJsoulTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDJsoulTable
-    def EventDJsouls(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDJsoulTable(object):
         return None
 
     # EventDJsoulTable
-    def EventDJsoulsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDJsoulTable
-    def EventDJsoulsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDJsoulTableStart(builder):
 def Start(builder):
     EventDJsoulTableStart(builder)
 
-def EventDJsoulTableAddEventDJsouls(builder, eventDJsouls):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDJsouls), 0)
+def EventDJsoulTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDJsouls(builder, eventDJsouls):
-    EventDJsoulTableAddEventDJsouls(builder, eventDJsouls)
+def AddJson(builder, json):
+    EventDJsoulTableAddJson(builder, json)
 
-def EventDJsoulTableStartEventDJsoulsVector(builder, numElems):
+def EventDJsoulTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDJsoulsVector(builder, numElems):
-    return EventDJsoulTableStartEventDJsoulsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDJsoulTableStartJsonVector(builder, numElems)
 
 def EventDJsoulTableEnd(builder):
     return builder.EndObject()

@@ -25,7 +25,7 @@ class TownVehicleTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TownVehicleTable
-    def TownVehicles(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TownVehicleTable(object):
         return None
 
     # TownVehicleTable
-    def TownVehiclesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TownVehicleTable
-    def TownVehiclesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TownVehicleTableStart(builder):
 def Start(builder):
     TownVehicleTableStart(builder)
 
-def TownVehicleTableAddTownVehicles(builder, townVehicles):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(townVehicles), 0)
+def TownVehicleTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTownVehicles(builder, townVehicles):
-    TownVehicleTableAddTownVehicles(builder, townVehicles)
+def AddJson(builder, json):
+    TownVehicleTableAddJson(builder, json)
 
-def TownVehicleTableStartTownVehiclesVector(builder, numElems):
+def TownVehicleTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTownVehiclesVector(builder, numElems):
-    return TownVehicleTableStartTownVehiclesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TownVehicleTableStartJsonVector(builder, numElems)
 
 def TownVehicleTableEnd(builder):
     return builder.EndObject()

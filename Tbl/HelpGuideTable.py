@@ -25,7 +25,7 @@ class HelpGuideTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # HelpGuideTable
-    def HelpGuides(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class HelpGuideTable(object):
         return None
 
     # HelpGuideTable
-    def HelpGuidesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # HelpGuideTable
-    def HelpGuidesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def HelpGuideTableStart(builder):
 def Start(builder):
     HelpGuideTableStart(builder)
 
-def HelpGuideTableAddHelpGuides(builder, helpGuides):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(helpGuides), 0)
+def HelpGuideTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddHelpGuides(builder, helpGuides):
-    HelpGuideTableAddHelpGuides(builder, helpGuides)
+def AddJson(builder, json):
+    HelpGuideTableAddJson(builder, json)
 
-def HelpGuideTableStartHelpGuidesVector(builder, numElems):
+def HelpGuideTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartHelpGuidesVector(builder, numElems):
-    return HelpGuideTableStartHelpGuidesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return HelpGuideTableStartJsonVector(builder, numElems)
 
 def HelpGuideTableEnd(builder):
     return builder.EndObject()

@@ -11,7 +11,7 @@ table EventAttendance {
 }
 
 table EventAttendanceTable {
-  event_attendances: [EventAttendance];
+  json: [EventAttendance];
 }
 
 root_type EventAttendanceTable;

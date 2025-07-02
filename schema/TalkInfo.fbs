@@ -45,7 +45,7 @@ table TalkInfo {
 }
 
 table TalkInfoTable {
-  talk_infos: [TalkInfo];
+  json: [TalkInfo];
 }
 
 root_type TalkInfoTable;

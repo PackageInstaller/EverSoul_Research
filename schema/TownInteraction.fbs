@@ -12,7 +12,7 @@ table TownInteraction {
 }
 
 table TownInteractionTable {
-  town_interactions: [TownInteraction];
+  json: [TownInteraction];
 }
 
 root_type TownInteractionTable;

@@ -45,7 +45,7 @@ table Talk {
 }
 
 table TalkTable {
-  talks: [Talk];
+  json: [Talk];
 }
 
 root_type TalkTable;

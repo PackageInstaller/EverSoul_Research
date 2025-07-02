@@ -26,7 +26,7 @@ table TalkStage {
 }
 
 table TalkStageTable {
-  talk_stages: [TalkStage];
+  json: [TalkStage];
 }
 
 root_type TalkStageTable;

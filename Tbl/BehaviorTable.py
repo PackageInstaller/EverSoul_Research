@@ -25,7 +25,7 @@ class BehaviorTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # BehaviorTable
-    def Behaviors(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class BehaviorTable(object):
         return None
 
     # BehaviorTable
-    def BehaviorsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # BehaviorTable
-    def BehaviorsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def BehaviorTableStart(builder):
 def Start(builder):
     BehaviorTableStart(builder)
 
-def BehaviorTableAddBehaviors(builder, behaviors):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(behaviors), 0)
+def BehaviorTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddBehaviors(builder, behaviors):
-    BehaviorTableAddBehaviors(builder, behaviors)
+def AddJson(builder, json):
+    BehaviorTableAddJson(builder, json)
 
-def BehaviorTableStartBehaviorsVector(builder, numElems):
+def BehaviorTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartBehaviorsVector(builder, numElems):
-    return BehaviorTableStartBehaviorsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return BehaviorTableStartJsonVector(builder, numElems)
 
 def BehaviorTableEnd(builder):
     return builder.EndObject()

@@ -25,7 +25,7 @@ class HelpGuideCategoryTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # HelpGuideCategoryTable
-    def HelpGuideCategorys(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class HelpGuideCategoryTable(object):
         return None
 
     # HelpGuideCategoryTable
-    def HelpGuideCategorysLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # HelpGuideCategoryTable
-    def HelpGuideCategorysIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def HelpGuideCategoryTableStart(builder):
 def Start(builder):
     HelpGuideCategoryTableStart(builder)
 
-def HelpGuideCategoryTableAddHelpGuideCategorys(builder, helpGuideCategorys):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(helpGuideCategorys), 0)
+def HelpGuideCategoryTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddHelpGuideCategorys(builder, helpGuideCategorys):
-    HelpGuideCategoryTableAddHelpGuideCategorys(builder, helpGuideCategorys)
+def AddJson(builder, json):
+    HelpGuideCategoryTableAddJson(builder, json)
 
-def HelpGuideCategoryTableStartHelpGuideCategorysVector(builder, numElems):
+def HelpGuideCategoryTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartHelpGuideCategorysVector(builder, numElems):
-    return HelpGuideCategoryTableStartHelpGuideCategorysVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return HelpGuideCategoryTableStartJsonVector(builder, numElems)
 
 def HelpGuideCategoryTableEnd(builder):
     return builder.EndObject()

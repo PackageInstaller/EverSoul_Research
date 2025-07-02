@@ -25,7 +25,7 @@ class HeroAscentResetTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # HeroAscentResetTable
-    def HeroAscentResets(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class HeroAscentResetTable(object):
         return None
 
     # HeroAscentResetTable
-    def HeroAscentResetsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # HeroAscentResetTable
-    def HeroAscentResetsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def HeroAscentResetTableStart(builder):
 def Start(builder):
     HeroAscentResetTableStart(builder)
 
-def HeroAscentResetTableAddHeroAscentResets(builder, heroAscentResets):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(heroAscentResets), 0)
+def HeroAscentResetTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddHeroAscentResets(builder, heroAscentResets):
-    HeroAscentResetTableAddHeroAscentResets(builder, heroAscentResets)
+def AddJson(builder, json):
+    HeroAscentResetTableAddJson(builder, json)
 
-def HeroAscentResetTableStartHeroAscentResetsVector(builder, numElems):
+def HeroAscentResetTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartHeroAscentResetsVector(builder, numElems):
-    return HeroAscentResetTableStartHeroAscentResetsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return HeroAscentResetTableStartJsonVector(builder, numElems)
 
 def HeroAscentResetTableEnd(builder):
     return builder.EndObject()

@@ -25,7 +25,7 @@ class EdenAllianceMissionTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EdenAllianceMissionTable
-    def EdenAllianceMissions(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EdenAllianceMissionTable(object):
         return None
 
     # EdenAllianceMissionTable
-    def EdenAllianceMissionsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EdenAllianceMissionTable
-    def EdenAllianceMissionsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EdenAllianceMissionTableStart(builder):
 def Start(builder):
     EdenAllianceMissionTableStart(builder)
 
-def EdenAllianceMissionTableAddEdenAllianceMissions(builder, edenAllianceMissions):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(edenAllianceMissions), 0)
+def EdenAllianceMissionTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEdenAllianceMissions(builder, edenAllianceMissions):
-    EdenAllianceMissionTableAddEdenAllianceMissions(builder, edenAllianceMissions)
+def AddJson(builder, json):
+    EdenAllianceMissionTableAddJson(builder, json)
 
-def EdenAllianceMissionTableStartEdenAllianceMissionsVector(builder, numElems):
+def EdenAllianceMissionTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEdenAllianceMissionsVector(builder, numElems):
-    return EdenAllianceMissionTableStartEdenAllianceMissionsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EdenAllianceMissionTableStartJsonVector(builder, numElems)
 
 def EdenAllianceMissionTableEnd(builder):
     return builder.EndObject()

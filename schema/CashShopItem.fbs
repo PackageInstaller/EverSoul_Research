@@ -39,7 +39,7 @@ table CashShopItem {
 }
 
 table CashShopItemTable {
-  cash_shop_items: [CashShopItem];
+  json: [CashShopItem];
 }
 
 root_type CashShopItemTable;

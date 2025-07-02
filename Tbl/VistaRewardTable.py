@@ -25,7 +25,7 @@ class VistaRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # VistaRewardTable
-    def VistaRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class VistaRewardTable(object):
         return None
 
     # VistaRewardTable
-    def VistaRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # VistaRewardTable
-    def VistaRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def VistaRewardTableStart(builder):
 def Start(builder):
     VistaRewardTableStart(builder)
 
-def VistaRewardTableAddVistaRewards(builder, vistaRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(vistaRewards), 0)
+def VistaRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddVistaRewards(builder, vistaRewards):
-    VistaRewardTableAddVistaRewards(builder, vistaRewards)
+def AddJson(builder, json):
+    VistaRewardTableAddJson(builder, json)
 
-def VistaRewardTableStartVistaRewardsVector(builder, numElems):
+def VistaRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartVistaRewardsVector(builder, numElems):
-    return VistaRewardTableStartVistaRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return VistaRewardTableStartJsonVector(builder, numElems)
 
 def VistaRewardTableEnd(builder):
     return builder.EndObject()

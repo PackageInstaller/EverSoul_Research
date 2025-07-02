@@ -25,7 +25,7 @@ class DoubleGateStageTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # DoubleGateStageTable
-    def DoubleGateStages(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class DoubleGateStageTable(object):
         return None
 
     # DoubleGateStageTable
-    def DoubleGateStagesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # DoubleGateStageTable
-    def DoubleGateStagesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def DoubleGateStageTableStart(builder):
 def Start(builder):
     DoubleGateStageTableStart(builder)
 
-def DoubleGateStageTableAddDoubleGateStages(builder, doubleGateStages):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(doubleGateStages), 0)
+def DoubleGateStageTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddDoubleGateStages(builder, doubleGateStages):
-    DoubleGateStageTableAddDoubleGateStages(builder, doubleGateStages)
+def AddJson(builder, json):
+    DoubleGateStageTableAddJson(builder, json)
 
-def DoubleGateStageTableStartDoubleGateStagesVector(builder, numElems):
+def DoubleGateStageTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartDoubleGateStagesVector(builder, numElems):
-    return DoubleGateStageTableStartDoubleGateStagesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return DoubleGateStageTableStartJsonVector(builder, numElems)
 
 def DoubleGateStageTableEnd(builder):
     return builder.EndObject()

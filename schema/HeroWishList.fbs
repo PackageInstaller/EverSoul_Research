@@ -10,7 +10,7 @@ table HeroWishList {
 }
 
 table HeroWishListTable {
-  hero_wish_lists: [HeroWishList];
+  json: [HeroWishList];
 }
 
 root_type HeroWishListTable;

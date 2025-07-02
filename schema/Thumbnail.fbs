@@ -8,7 +8,7 @@ table Thumbnail {
 }
 
 table ThumbnailTable {
-  thumbnails: [Thumbnail];
+  json: [Thumbnail];
 }
 
 root_type ThumbnailTable;

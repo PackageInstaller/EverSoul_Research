@@ -25,7 +25,7 @@ class LobbyBGMTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # LobbyBGMTable
-    def LobbyBgMs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class LobbyBGMTable(object):
         return None
 
     # LobbyBGMTable
-    def LobbyBgMsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # LobbyBGMTable
-    def LobbyBgMsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def LobbyBGMTableStart(builder):
 def Start(builder):
     LobbyBGMTableStart(builder)
 
-def LobbyBGMTableAddLobbyBgMs(builder, lobbyBgMs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(lobbyBgMs), 0)
+def LobbyBGMTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddLobbyBgMs(builder, lobbyBgMs):
-    LobbyBGMTableAddLobbyBgMs(builder, lobbyBgMs)
+def AddJson(builder, json):
+    LobbyBGMTableAddJson(builder, json)
 
-def LobbyBGMTableStartLobbyBgMsVector(builder, numElems):
+def LobbyBGMTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartLobbyBgMsVector(builder, numElems):
-    return LobbyBGMTableStartLobbyBgMsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return LobbyBGMTableStartJsonVector(builder, numElems)
 
 def LobbyBGMTableEnd(builder):
     return builder.EndObject()

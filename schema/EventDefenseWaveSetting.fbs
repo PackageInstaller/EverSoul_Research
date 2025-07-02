@@ -17,7 +17,7 @@ table EventDefenseWaveSetting {
 }
 
 table EventDefenseWaveSettingTable {
-  event_defense_wave_settings: [EventDefenseWaveSetting];
+  json: [EventDefenseWaveSetting];
 }
 
 root_type EventDefenseWaveSettingTable;

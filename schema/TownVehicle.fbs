@@ -8,7 +8,7 @@ table TownVehicle {
 }
 
 table TownVehicleTable {
-  town_vehicles: [TownVehicle];
+  json: [TownVehicle];
 }
 
 root_type TownVehicleTable;

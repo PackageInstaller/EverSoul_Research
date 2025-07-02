@@ -12,7 +12,7 @@ table ItemSource {
 }
 
 table ItemSourceTable {
-  item_sources: [ItemSource];
+  json: [ItemSource];
 }
 
 root_type ItemSourceTable;

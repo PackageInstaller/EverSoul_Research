@@ -12,7 +12,7 @@ table CashShop {
 }
 
 table CashShopTable {
-  cash_shops: [CashShop];
+  json: [CashShop];
 }
 
 root_type CashShopTable;

@@ -25,7 +25,7 @@ class AlchemistGachaProbsTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # AlchemistGachaProbsTable
-    def AlchemistGachaProbss(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class AlchemistGachaProbsTable(object):
         return None
 
     # AlchemistGachaProbsTable
-    def AlchemistGachaProbssLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # AlchemistGachaProbsTable
-    def AlchemistGachaProbssIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def AlchemistGachaProbsTableStart(builder):
 def Start(builder):
     AlchemistGachaProbsTableStart(builder)
 
-def AlchemistGachaProbsTableAddAlchemistGachaProbss(builder, alchemistGachaProbss):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(alchemistGachaProbss), 0)
+def AlchemistGachaProbsTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddAlchemistGachaProbss(builder, alchemistGachaProbss):
-    AlchemistGachaProbsTableAddAlchemistGachaProbss(builder, alchemistGachaProbss)
+def AddJson(builder, json):
+    AlchemistGachaProbsTableAddJson(builder, json)
 
-def AlchemistGachaProbsTableStartAlchemistGachaProbssVector(builder, numElems):
+def AlchemistGachaProbsTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartAlchemistGachaProbssVector(builder, numElems):
-    return AlchemistGachaProbsTableStartAlchemistGachaProbssVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return AlchemistGachaProbsTableStartJsonVector(builder, numElems)
 
 def AlchemistGachaProbsTableEnd(builder):
     return builder.EndObject()

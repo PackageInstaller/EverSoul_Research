@@ -18,7 +18,7 @@ table ArkEnhance {
 }
 
 table ArkEnhanceTable {
-  ark_enhances: [ArkEnhance];
+  json: [ArkEnhance];
 }
 
 root_type ArkEnhanceTable;

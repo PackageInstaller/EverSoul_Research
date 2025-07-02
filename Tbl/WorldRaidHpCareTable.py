@@ -25,7 +25,7 @@ class WorldRaidHpCareTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # WorldRaidHpCareTable
-    def WorldRaidHpCares(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class WorldRaidHpCareTable(object):
         return None
 
     # WorldRaidHpCareTable
-    def WorldRaidHpCaresLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # WorldRaidHpCareTable
-    def WorldRaidHpCaresIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def WorldRaidHpCareTableStart(builder):
 def Start(builder):
     WorldRaidHpCareTableStart(builder)
 
-def WorldRaidHpCareTableAddWorldRaidHpCares(builder, worldRaidHpCares):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(worldRaidHpCares), 0)
+def WorldRaidHpCareTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddWorldRaidHpCares(builder, worldRaidHpCares):
-    WorldRaidHpCareTableAddWorldRaidHpCares(builder, worldRaidHpCares)
+def AddJson(builder, json):
+    WorldRaidHpCareTableAddJson(builder, json)
 
-def WorldRaidHpCareTableStartWorldRaidHpCaresVector(builder, numElems):
+def WorldRaidHpCareTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartWorldRaidHpCaresVector(builder, numElems):
-    return WorldRaidHpCareTableStartWorldRaidHpCaresVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return WorldRaidHpCareTableStartJsonVector(builder, numElems)
 
 def WorldRaidHpCareTableEnd(builder):
     return builder.EndObject()

@@ -8,7 +8,7 @@ table EventVoteList {
 }
 
 table EventVoteListTable {
-  event_vote_lists: [EventVoteList];
+  json: [EventVoteList];
 }
 
 root_type EventVoteListTable;

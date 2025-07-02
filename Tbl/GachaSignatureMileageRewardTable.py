@@ -25,7 +25,7 @@ class GachaSignatureMileageRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # GachaSignatureMileageRewardTable
-    def GachaSignatureMileageRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class GachaSignatureMileageRewardTable(object):
         return None
 
     # GachaSignatureMileageRewardTable
-    def GachaSignatureMileageRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # GachaSignatureMileageRewardTable
-    def GachaSignatureMileageRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def GachaSignatureMileageRewardTableStart(builder):
 def Start(builder):
     GachaSignatureMileageRewardTableStart(builder)
 
-def GachaSignatureMileageRewardTableAddGachaSignatureMileageRewards(builder, gachaSignatureMileageRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(gachaSignatureMileageRewards), 0)
+def GachaSignatureMileageRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddGachaSignatureMileageRewards(builder, gachaSignatureMileageRewards):
-    GachaSignatureMileageRewardTableAddGachaSignatureMileageRewards(builder, gachaSignatureMileageRewards)
+def AddJson(builder, json):
+    GachaSignatureMileageRewardTableAddJson(builder, json)
 
-def GachaSignatureMileageRewardTableStartGachaSignatureMileageRewardsVector(builder, numElems):
+def GachaSignatureMileageRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartGachaSignatureMileageRewardsVector(builder, numElems):
-    return GachaSignatureMileageRewardTableStartGachaSignatureMileageRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return GachaSignatureMileageRewardTableStartJsonVector(builder, numElems)
 
 def GachaSignatureMileageRewardTableEnd(builder):
     return builder.EndObject()

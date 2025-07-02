@@ -9,7 +9,7 @@ table EventDiceGoalPoint {
 }
 
 table EventDiceGoalPointTable {
-  event_dice_goal_points: [EventDiceGoalPoint];
+  json: [EventDiceGoalPoint];
 }
 
 root_type EventDiceGoalPointTable;

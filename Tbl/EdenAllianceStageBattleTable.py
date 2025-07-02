@@ -25,7 +25,7 @@ class EdenAllianceStageBattleTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EdenAllianceStageBattleTable
-    def EdenAllianceStageBattles(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EdenAllianceStageBattleTable(object):
         return None
 
     # EdenAllianceStageBattleTable
-    def EdenAllianceStageBattlesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EdenAllianceStageBattleTable
-    def EdenAllianceStageBattlesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EdenAllianceStageBattleTableStart(builder):
 def Start(builder):
     EdenAllianceStageBattleTableStart(builder)
 
-def EdenAllianceStageBattleTableAddEdenAllianceStageBattles(builder, edenAllianceStageBattles):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(edenAllianceStageBattles), 0)
+def EdenAllianceStageBattleTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEdenAllianceStageBattles(builder, edenAllianceStageBattles):
-    EdenAllianceStageBattleTableAddEdenAllianceStageBattles(builder, edenAllianceStageBattles)
+def AddJson(builder, json):
+    EdenAllianceStageBattleTableAddJson(builder, json)
 
-def EdenAllianceStageBattleTableStartEdenAllianceStageBattlesVector(builder, numElems):
+def EdenAllianceStageBattleTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEdenAllianceStageBattlesVector(builder, numElems):
-    return EdenAllianceStageBattleTableStartEdenAllianceStageBattlesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EdenAllianceStageBattleTableStartJsonVector(builder, numElems)
 
 def EdenAllianceStageBattleTableEnd(builder):
     return builder.EndObject()

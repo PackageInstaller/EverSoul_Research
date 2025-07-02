@@ -11,7 +11,7 @@ table GuildBuff {
 }
 
 table GuildBuffTable {
-  guild_buffs: [GuildBuff];
+  json: [GuildBuff];
 }
 
 root_type GuildBuffTable;

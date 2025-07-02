@@ -29,7 +29,7 @@ table EventRotation {
 }
 
 table EventRotationTable {
-  event_rotations: [EventRotation];
+  json: [EventRotation];
 }
 
 root_type EventRotationTable;

@@ -12,7 +12,7 @@ table GuildRaidRelic {
 }
 
 table GuildRaidRelicTable {
-  guild_raid_relics: [GuildRaidRelic];
+  json: [GuildRaidRelic];
 }
 
 root_type GuildRaidRelicTable;

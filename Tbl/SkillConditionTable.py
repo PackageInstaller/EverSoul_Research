@@ -25,7 +25,7 @@ class SkillConditionTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SkillConditionTable
-    def SkillConditions(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SkillConditionTable(object):
         return None
 
     # SkillConditionTable
-    def SkillConditionsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SkillConditionTable
-    def SkillConditionsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SkillConditionTableStart(builder):
 def Start(builder):
     SkillConditionTableStart(builder)
 
-def SkillConditionTableAddSkillConditions(builder, skillConditions):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(skillConditions), 0)
+def SkillConditionTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSkillConditions(builder, skillConditions):
-    SkillConditionTableAddSkillConditions(builder, skillConditions)
+def AddJson(builder, json):
+    SkillConditionTableAddJson(builder, json)
 
-def SkillConditionTableStartSkillConditionsVector(builder, numElems):
+def SkillConditionTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSkillConditionsVector(builder, numElems):
-    return SkillConditionTableStartSkillConditionsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SkillConditionTableStartJsonVector(builder, numElems)
 
 def SkillConditionTableEnd(builder):
     return builder.EndObject()

@@ -8,7 +8,7 @@ table TownAnimationBubble {
 }
 
 table TownAnimationBubbleTable {
-  town_animation_bubbles: [TownAnimationBubble];
+  json: [TownAnimationBubble];
 }
 
 root_type TownAnimationBubbleTable;

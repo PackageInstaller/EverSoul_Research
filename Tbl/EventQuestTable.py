@@ -25,7 +25,7 @@ class EventQuestTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventQuestTable
-    def EventQuests(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventQuestTable(object):
         return None
 
     # EventQuestTable
-    def EventQuestsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventQuestTable
-    def EventQuestsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventQuestTableStart(builder):
 def Start(builder):
     EventQuestTableStart(builder)
 
-def EventQuestTableAddEventQuests(builder, eventQuests):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventQuests), 0)
+def EventQuestTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventQuests(builder, eventQuests):
-    EventQuestTableAddEventQuests(builder, eventQuests)
+def AddJson(builder, json):
+    EventQuestTableAddJson(builder, json)
 
-def EventQuestTableStartEventQuestsVector(builder, numElems):
+def EventQuestTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventQuestsVector(builder, numElems):
-    return EventQuestTableStartEventQuestsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventQuestTableStartJsonVector(builder, numElems)
 
 def EventQuestTableEnd(builder):
     return builder.EndObject()

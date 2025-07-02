@@ -25,7 +25,7 @@ class SingleRaidSeasonTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SingleRaidSeasonTable
-    def SingleRaidSeasons(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SingleRaidSeasonTable(object):
         return None
 
     # SingleRaidSeasonTable
-    def SingleRaidSeasonsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SingleRaidSeasonTable
-    def SingleRaidSeasonsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SingleRaidSeasonTableStart(builder):
 def Start(builder):
     SingleRaidSeasonTableStart(builder)
 
-def SingleRaidSeasonTableAddSingleRaidSeasons(builder, singleRaidSeasons):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(singleRaidSeasons), 0)
+def SingleRaidSeasonTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSingleRaidSeasons(builder, singleRaidSeasons):
-    SingleRaidSeasonTableAddSingleRaidSeasons(builder, singleRaidSeasons)
+def AddJson(builder, json):
+    SingleRaidSeasonTableAddJson(builder, json)
 
-def SingleRaidSeasonTableStartSingleRaidSeasonsVector(builder, numElems):
+def SingleRaidSeasonTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSingleRaidSeasonsVector(builder, numElems):
-    return SingleRaidSeasonTableStartSingleRaidSeasonsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SingleRaidSeasonTableStartJsonVector(builder, numElems)
 
 def SingleRaidSeasonTableEnd(builder):
     return builder.EndObject()

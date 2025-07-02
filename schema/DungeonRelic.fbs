@@ -20,7 +20,7 @@ table DungeonRelic {
 }
 
 table DungeonRelicTable {
-  dungeon_relics: [DungeonRelic];
+  json: [DungeonRelic];
 }
 
 root_type DungeonRelicTable;

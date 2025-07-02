@@ -11,7 +11,7 @@ table StorySchedule {
 }
 
 table StoryScheduleTable {
-  story_schedules: [StorySchedule];
+  json: [StorySchedule];
 }
 
 root_type StoryScheduleTable;

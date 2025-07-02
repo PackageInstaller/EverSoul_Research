@@ -8,7 +8,7 @@ table EdenUnionConstraintSchedule {
 }
 
 table EdenUnionConstraintScheduleTable {
-  eden_union_constraint_schedules: [EdenUnionConstraintSchedule];
+  json: [EdenUnionConstraintSchedule];
 }
 
 root_type EdenUnionConstraintScheduleTable;

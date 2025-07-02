@@ -25,7 +25,7 @@ class EventRotationTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventRotationTable
-    def EventRotations(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventRotationTable(object):
         return None
 
     # EventRotationTable
-    def EventRotationsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventRotationTable
-    def EventRotationsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventRotationTableStart(builder):
 def Start(builder):
     EventRotationTableStart(builder)
 
-def EventRotationTableAddEventRotations(builder, eventRotations):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventRotations), 0)
+def EventRotationTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventRotations(builder, eventRotations):
-    EventRotationTableAddEventRotations(builder, eventRotations)
+def AddJson(builder, json):
+    EventRotationTableAddJson(builder, json)
 
-def EventRotationTableStartEventRotationsVector(builder, numElems):
+def EventRotationTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventRotationsVector(builder, numElems):
-    return EventRotationTableStartEventRotationsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventRotationTableStartJsonVector(builder, numElems)
 
 def EventRotationTableEnd(builder):
     return builder.EndObject()

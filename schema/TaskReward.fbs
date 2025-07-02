@@ -13,7 +13,7 @@ table TaskReward {
 }
 
 table TaskRewardTable {
-  task_rewards: [TaskReward];
+  json: [TaskReward];
 }
 
 root_type TaskRewardTable;

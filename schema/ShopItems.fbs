@@ -21,7 +21,7 @@ table ShopItems {
 }
 
 table ShopItemsTable {
-  shop_itemss: [ShopItems];
+  json: [ShopItems];
 }
 
 root_type ShopItemsTable;

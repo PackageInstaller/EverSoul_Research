@@ -11,7 +11,7 @@ table EventStory {
 }
 
 table EventStoryTable {
-  event_storys: [EventStory];
+  json: [EventStory];
 }
 
 root_type EventStoryTable;

@@ -25,7 +25,7 @@ class WorldRaidPartnerBuffTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # WorldRaidPartnerBuffTable
-    def WorldRaidPartnerBuffs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class WorldRaidPartnerBuffTable(object):
         return None
 
     # WorldRaidPartnerBuffTable
-    def WorldRaidPartnerBuffsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # WorldRaidPartnerBuffTable
-    def WorldRaidPartnerBuffsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def WorldRaidPartnerBuffTableStart(builder):
 def Start(builder):
     WorldRaidPartnerBuffTableStart(builder)
 
-def WorldRaidPartnerBuffTableAddWorldRaidPartnerBuffs(builder, worldRaidPartnerBuffs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(worldRaidPartnerBuffs), 0)
+def WorldRaidPartnerBuffTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddWorldRaidPartnerBuffs(builder, worldRaidPartnerBuffs):
-    WorldRaidPartnerBuffTableAddWorldRaidPartnerBuffs(builder, worldRaidPartnerBuffs)
+def AddJson(builder, json):
+    WorldRaidPartnerBuffTableAddJson(builder, json)
 
-def WorldRaidPartnerBuffTableStartWorldRaidPartnerBuffsVector(builder, numElems):
+def WorldRaidPartnerBuffTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartWorldRaidPartnerBuffsVector(builder, numElems):
-    return WorldRaidPartnerBuffTableStartWorldRaidPartnerBuffsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return WorldRaidPartnerBuffTableStartJsonVector(builder, numElems)
 
 def WorldRaidPartnerBuffTableEnd(builder):
     return builder.EndObject()

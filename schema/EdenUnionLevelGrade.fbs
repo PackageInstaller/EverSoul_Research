@@ -7,7 +7,7 @@ table EdenUnionLevelGrade {
 }
 
 table EdenUnionLevelGradeTable {
-  eden_union_level_grades: [EdenUnionLevelGrade];
+  json: [EdenUnionLevelGrade];
 }
 
 root_type EdenUnionLevelGradeTable;

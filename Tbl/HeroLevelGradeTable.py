@@ -25,7 +25,7 @@ class HeroLevelGradeTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # HeroLevelGradeTable
-    def HeroLevelGrades(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class HeroLevelGradeTable(object):
         return None
 
     # HeroLevelGradeTable
-    def HeroLevelGradesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # HeroLevelGradeTable
-    def HeroLevelGradesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def HeroLevelGradeTableStart(builder):
 def Start(builder):
     HeroLevelGradeTableStart(builder)
 
-def HeroLevelGradeTableAddHeroLevelGrades(builder, heroLevelGrades):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(heroLevelGrades), 0)
+def HeroLevelGradeTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddHeroLevelGrades(builder, heroLevelGrades):
-    HeroLevelGradeTableAddHeroLevelGrades(builder, heroLevelGrades)
+def AddJson(builder, json):
+    HeroLevelGradeTableAddJson(builder, json)
 
-def HeroLevelGradeTableStartHeroLevelGradesVector(builder, numElems):
+def HeroLevelGradeTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartHeroLevelGradesVector(builder, numElems):
-    return HeroLevelGradeTableStartHeroLevelGradesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return HeroLevelGradeTableStartJsonVector(builder, numElems)
 
 def HeroLevelGradeTableEnd(builder):
     return builder.EndObject()

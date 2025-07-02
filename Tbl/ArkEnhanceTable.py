@@ -25,7 +25,7 @@ class ArkEnhanceTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ArkEnhanceTable
-    def ArkEnhances(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ArkEnhanceTable(object):
         return None
 
     # ArkEnhanceTable
-    def ArkEnhancesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ArkEnhanceTable
-    def ArkEnhancesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ArkEnhanceTableStart(builder):
 def Start(builder):
     ArkEnhanceTableStart(builder)
 
-def ArkEnhanceTableAddArkEnhances(builder, arkEnhances):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(arkEnhances), 0)
+def ArkEnhanceTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddArkEnhances(builder, arkEnhances):
-    ArkEnhanceTableAddArkEnhances(builder, arkEnhances)
+def AddJson(builder, json):
+    ArkEnhanceTableAddJson(builder, json)
 
-def ArkEnhanceTableStartArkEnhancesVector(builder, numElems):
+def ArkEnhanceTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartArkEnhancesVector(builder, numElems):
-    return ArkEnhanceTableStartArkEnhancesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ArkEnhanceTableStartJsonVector(builder, numElems)
 
 def ArkEnhanceTableEnd(builder):
     return builder.EndObject()

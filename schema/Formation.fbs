@@ -18,7 +18,7 @@ table Formation {
 }
 
 table FormationTable {
-  formations: [Formation];
+  json: [Formation];
 }
 
 root_type FormationTable;

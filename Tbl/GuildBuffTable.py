@@ -25,7 +25,7 @@ class GuildBuffTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # GuildBuffTable
-    def GuildBuffs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class GuildBuffTable(object):
         return None
 
     # GuildBuffTable
-    def GuildBuffsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # GuildBuffTable
-    def GuildBuffsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def GuildBuffTableStart(builder):
 def Start(builder):
     GuildBuffTableStart(builder)
 
-def GuildBuffTableAddGuildBuffs(builder, guildBuffs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(guildBuffs), 0)
+def GuildBuffTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddGuildBuffs(builder, guildBuffs):
-    GuildBuffTableAddGuildBuffs(builder, guildBuffs)
+def AddJson(builder, json):
+    GuildBuffTableAddJson(builder, json)
 
-def GuildBuffTableStartGuildBuffsVector(builder, numElems):
+def GuildBuffTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartGuildBuffsVector(builder, numElems):
-    return GuildBuffTableStartGuildBuffsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return GuildBuffTableStartJsonVector(builder, numElems)
 
 def GuildBuffTableEnd(builder):
     return builder.EndObject()

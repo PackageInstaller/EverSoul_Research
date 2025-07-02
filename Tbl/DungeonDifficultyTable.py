@@ -25,7 +25,7 @@ class DungeonDifficultyTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # DungeonDifficultyTable
-    def DungeonDifficultys(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class DungeonDifficultyTable(object):
         return None
 
     # DungeonDifficultyTable
-    def DungeonDifficultysLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # DungeonDifficultyTable
-    def DungeonDifficultysIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def DungeonDifficultyTableStart(builder):
 def Start(builder):
     DungeonDifficultyTableStart(builder)
 
-def DungeonDifficultyTableAddDungeonDifficultys(builder, dungeonDifficultys):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(dungeonDifficultys), 0)
+def DungeonDifficultyTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddDungeonDifficultys(builder, dungeonDifficultys):
-    DungeonDifficultyTableAddDungeonDifficultys(builder, dungeonDifficultys)
+def AddJson(builder, json):
+    DungeonDifficultyTableAddJson(builder, json)
 
-def DungeonDifficultyTableStartDungeonDifficultysVector(builder, numElems):
+def DungeonDifficultyTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartDungeonDifficultysVector(builder, numElems):
-    return DungeonDifficultyTableStartDungeonDifficultysVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return DungeonDifficultyTableStartJsonVector(builder, numElems)
 
 def DungeonDifficultyTableEnd(builder):
     return builder.EndObject()

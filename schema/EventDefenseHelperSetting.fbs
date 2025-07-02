@@ -10,7 +10,7 @@ table EventDefenseHelperSetting {
 }
 
 table EventDefenseHelperSettingTable {
-  event_defense_helper_settings: [EventDefenseHelperSetting];
+  json: [EventDefenseHelperSetting];
 }
 
 root_type EventDefenseHelperSettingTable;

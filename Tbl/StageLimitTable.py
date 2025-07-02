@@ -25,7 +25,7 @@ class StageLimitTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # StageLimitTable
-    def StageLimits(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class StageLimitTable(object):
         return None
 
     # StageLimitTable
-    def StageLimitsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # StageLimitTable
-    def StageLimitsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def StageLimitTableStart(builder):
 def Start(builder):
     StageLimitTableStart(builder)
 
-def StageLimitTableAddStageLimits(builder, stageLimits):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(stageLimits), 0)
+def StageLimitTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddStageLimits(builder, stageLimits):
-    StageLimitTableAddStageLimits(builder, stageLimits)
+def AddJson(builder, json):
+    StageLimitTableAddJson(builder, json)
 
-def StageLimitTableStartStageLimitsVector(builder, numElems):
+def StageLimitTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartStageLimitsVector(builder, numElems):
-    return StageLimitTableStartStageLimitsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return StageLimitTableStartJsonVector(builder, numElems)
 
 def StageLimitTableEnd(builder):
     return builder.EndObject()

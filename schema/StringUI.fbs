@@ -10,7 +10,7 @@ table StringUI {
 }
 
 table StringUITable {
-  string_uis: [StringUI];
+  json: [StringUI];
 }
 
 root_type StringUITable;

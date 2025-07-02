@@ -17,7 +17,7 @@ table VistaReward {
 }
 
 table VistaRewardTable {
-  vista_rewards: [VistaReward];
+  json: [VistaReward];
 }
 
 root_type VistaRewardTable;

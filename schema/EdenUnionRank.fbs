@@ -19,7 +19,7 @@ table EdenUnionRank {
 }
 
 table EdenUnionRankTable {
-  eden_union_ranks: [EdenUnionRank];
+  json: [EdenUnionRank];
 }
 
 root_type EdenUnionRankTable;

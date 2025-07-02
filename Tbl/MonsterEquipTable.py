@@ -25,7 +25,7 @@ class MonsterEquipTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # MonsterEquipTable
-    def MonsterEquips(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class MonsterEquipTable(object):
         return None
 
     # MonsterEquipTable
-    def MonsterEquipsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # MonsterEquipTable
-    def MonsterEquipsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def MonsterEquipTableStart(builder):
 def Start(builder):
     MonsterEquipTableStart(builder)
 
-def MonsterEquipTableAddMonsterEquips(builder, monsterEquips):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(monsterEquips), 0)
+def MonsterEquipTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddMonsterEquips(builder, monsterEquips):
-    MonsterEquipTableAddMonsterEquips(builder, monsterEquips)
+def AddJson(builder, json):
+    MonsterEquipTableAddJson(builder, json)
 
-def MonsterEquipTableStartMonsterEquipsVector(builder, numElems):
+def MonsterEquipTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartMonsterEquipsVector(builder, numElems):
-    return MonsterEquipTableStartMonsterEquipsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return MonsterEquipTableStartJsonVector(builder, numElems)
 
 def MonsterEquipTableEnd(builder):
     return builder.EndObject()

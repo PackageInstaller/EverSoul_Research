@@ -13,7 +13,7 @@ table ArenaRelic {
 }
 
 table ArenaRelicTable {
-  arena_relics: [ArenaRelic];
+  json: [ArenaRelic];
 }
 
 root_type ArenaRelicTable;

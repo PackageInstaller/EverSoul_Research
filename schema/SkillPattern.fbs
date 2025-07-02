@@ -56,7 +56,7 @@ table SkillPattern {
 }
 
 table SkillPatternTable {
-  skill_patterns: [SkillPattern];
+  json: [SkillPattern];
 }
 
 root_type SkillPatternTable;

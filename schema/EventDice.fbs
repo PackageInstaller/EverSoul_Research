@@ -14,7 +14,7 @@ table EventDice {
 }
 
 table EventDiceTable {
-  event_dices: [EventDice];
+  json: [EventDice];
 }
 
 root_type EventDiceTable;

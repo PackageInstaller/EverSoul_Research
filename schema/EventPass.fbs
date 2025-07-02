@@ -15,7 +15,7 @@ table EventPass {
 }
 
 table EventPassTable {
-  event_passs: [EventPass];
+  json: [EventPass];
 }
 
 root_type EventPassTable;

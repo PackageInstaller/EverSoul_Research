@@ -25,7 +25,7 @@ class SingleRaidBossTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SingleRaidBossTable
-    def SingleRaidBosss(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SingleRaidBossTable(object):
         return None
 
     # SingleRaidBossTable
-    def SingleRaidBosssLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SingleRaidBossTable
-    def SingleRaidBosssIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SingleRaidBossTableStart(builder):
 def Start(builder):
     SingleRaidBossTableStart(builder)
 
-def SingleRaidBossTableAddSingleRaidBosss(builder, singleRaidBosss):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(singleRaidBosss), 0)
+def SingleRaidBossTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSingleRaidBosss(builder, singleRaidBosss):
-    SingleRaidBossTableAddSingleRaidBosss(builder, singleRaidBosss)
+def AddJson(builder, json):
+    SingleRaidBossTableAddJson(builder, json)
 
-def SingleRaidBossTableStartSingleRaidBosssVector(builder, numElems):
+def SingleRaidBossTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSingleRaidBosssVector(builder, numElems):
-    return SingleRaidBossTableStartSingleRaidBosssVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SingleRaidBossTableStartJsonVector(builder, numElems)
 
 def SingleRaidBossTableEnd(builder):
     return builder.EndObject()

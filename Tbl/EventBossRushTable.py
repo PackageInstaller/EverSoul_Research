@@ -25,7 +25,7 @@ class EventBossRushTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventBossRushTable
-    def EventBossRushs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventBossRushTable(object):
         return None
 
     # EventBossRushTable
-    def EventBossRushsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventBossRushTable
-    def EventBossRushsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventBossRushTableStart(builder):
 def Start(builder):
     EventBossRushTableStart(builder)
 
-def EventBossRushTableAddEventBossRushs(builder, eventBossRushs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventBossRushs), 0)
+def EventBossRushTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventBossRushs(builder, eventBossRushs):
-    EventBossRushTableAddEventBossRushs(builder, eventBossRushs)
+def AddJson(builder, json):
+    EventBossRushTableAddJson(builder, json)
 
-def EventBossRushTableStartEventBossRushsVector(builder, numElems):
+def EventBossRushTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventBossRushsVector(builder, numElems):
-    return EventBossRushTableStartEventBossRushsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventBossRushTableStartJsonVector(builder, numElems)
 
 def EventBossRushTableEnd(builder):
     return builder.EndObject()

@@ -18,7 +18,7 @@ table ArenaReward {
 }
 
 table ArenaRewardTable {
-  arena_rewards: [ArenaReward];
+  json: [ArenaReward];
 }
 
 root_type ArenaRewardTable;

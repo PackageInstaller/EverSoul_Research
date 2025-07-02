@@ -10,7 +10,7 @@ table GuildRaidReward {
 }
 
 table GuildRaidRewardTable {
-  guild_raid_rewards: [GuildRaidReward];
+  json: [GuildRaidReward];
 }
 
 root_type GuildRaidRewardTable;

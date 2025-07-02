@@ -25,7 +25,7 @@ class CashShopHeroPassTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # CashShopHeroPassTable
-    def CashShopHeroPasss(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class CashShopHeroPassTable(object):
         return None
 
     # CashShopHeroPassTable
-    def CashShopHeroPasssLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # CashShopHeroPassTable
-    def CashShopHeroPasssIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def CashShopHeroPassTableStart(builder):
 def Start(builder):
     CashShopHeroPassTableStart(builder)
 
-def CashShopHeroPassTableAddCashShopHeroPasss(builder, cashShopHeroPasss):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(cashShopHeroPasss), 0)
+def CashShopHeroPassTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddCashShopHeroPasss(builder, cashShopHeroPasss):
-    CashShopHeroPassTableAddCashShopHeroPasss(builder, cashShopHeroPasss)
+def AddJson(builder, json):
+    CashShopHeroPassTableAddJson(builder, json)
 
-def CashShopHeroPassTableStartCashShopHeroPasssVector(builder, numElems):
+def CashShopHeroPassTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartCashShopHeroPasssVector(builder, numElems):
-    return CashShopHeroPassTableStartCashShopHeroPasssVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return CashShopHeroPassTableStartJsonVector(builder, numElems)
 
 def CashShopHeroPassTableEnd(builder):
     return builder.EndObject()

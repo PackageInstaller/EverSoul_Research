@@ -18,7 +18,7 @@ table WorldRaidReward {
 }
 
 table WorldRaidRewardTable {
-  world_raid_rewards: [WorldRaidReward];
+  json: [WorldRaidReward];
 }
 
 root_type WorldRaidRewardTable;

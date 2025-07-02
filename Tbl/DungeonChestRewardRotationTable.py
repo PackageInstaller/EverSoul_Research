@@ -25,7 +25,7 @@ class DungeonChestRewardRotationTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # DungeonChestRewardRotationTable
-    def DungeonChestRewardRotations(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class DungeonChestRewardRotationTable(object):
         return None
 
     # DungeonChestRewardRotationTable
-    def DungeonChestRewardRotationsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # DungeonChestRewardRotationTable
-    def DungeonChestRewardRotationsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def DungeonChestRewardRotationTableStart(builder):
 def Start(builder):
     DungeonChestRewardRotationTableStart(builder)
 
-def DungeonChestRewardRotationTableAddDungeonChestRewardRotations(builder, dungeonChestRewardRotations):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(dungeonChestRewardRotations), 0)
+def DungeonChestRewardRotationTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddDungeonChestRewardRotations(builder, dungeonChestRewardRotations):
-    DungeonChestRewardRotationTableAddDungeonChestRewardRotations(builder, dungeonChestRewardRotations)
+def AddJson(builder, json):
+    DungeonChestRewardRotationTableAddJson(builder, json)
 
-def DungeonChestRewardRotationTableStartDungeonChestRewardRotationsVector(builder, numElems):
+def DungeonChestRewardRotationTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartDungeonChestRewardRotationsVector(builder, numElems):
-    return DungeonChestRewardRotationTableStartDungeonChestRewardRotationsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return DungeonChestRewardRotationTableStartJsonVector(builder, numElems)
 
 def DungeonChestRewardRotationTableEnd(builder):
     return builder.EndObject()

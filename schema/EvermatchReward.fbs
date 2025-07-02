@@ -17,7 +17,7 @@ table EvermatchReward {
 }
 
 table EvermatchRewardTable {
-  evermatch_rewards: [EvermatchReward];
+  json: [EvermatchReward];
 }
 
 root_type EvermatchRewardTable;

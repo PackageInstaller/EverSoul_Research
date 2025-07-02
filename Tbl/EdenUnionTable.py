@@ -25,7 +25,7 @@ class EdenUnionTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EdenUnionTable
-    def EdenUnions(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EdenUnionTable(object):
         return None
 
     # EdenUnionTable
-    def EdenUnionsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EdenUnionTable
-    def EdenUnionsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EdenUnionTableStart(builder):
 def Start(builder):
     EdenUnionTableStart(builder)
 
-def EdenUnionTableAddEdenUnions(builder, edenUnions):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(edenUnions), 0)
+def EdenUnionTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEdenUnions(builder, edenUnions):
-    EdenUnionTableAddEdenUnions(builder, edenUnions)
+def AddJson(builder, json):
+    EdenUnionTableAddJson(builder, json)
 
-def EdenUnionTableStartEdenUnionsVector(builder, numElems):
+def EdenUnionTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEdenUnionsVector(builder, numElems):
-    return EdenUnionTableStartEdenUnionsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EdenUnionTableStartJsonVector(builder, numElems)
 
 def EdenUnionTableEnd(builder):
     return builder.EndObject()

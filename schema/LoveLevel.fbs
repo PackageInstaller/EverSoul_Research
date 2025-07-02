@@ -29,7 +29,7 @@ table LoveLevel {
 }
 
 table LoveLevelTable {
-  love_levels: [LoveLevel];
+  json: [LoveLevel];
 }
 
 root_type LoveLevelTable;

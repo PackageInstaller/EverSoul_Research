@@ -25,7 +25,7 @@ class RaceBuffTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # RaceBuffTable
-    def RaceBuffs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class RaceBuffTable(object):
         return None
 
     # RaceBuffTable
-    def RaceBuffsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # RaceBuffTable
-    def RaceBuffsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def RaceBuffTableStart(builder):
 def Start(builder):
     RaceBuffTableStart(builder)
 
-def RaceBuffTableAddRaceBuffs(builder, raceBuffs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(raceBuffs), 0)
+def RaceBuffTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddRaceBuffs(builder, raceBuffs):
-    RaceBuffTableAddRaceBuffs(builder, raceBuffs)
+def AddJson(builder, json):
+    RaceBuffTableAddJson(builder, json)
 
-def RaceBuffTableStartRaceBuffsVector(builder, numElems):
+def RaceBuffTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartRaceBuffsVector(builder, numElems):
-    return RaceBuffTableStartRaceBuffsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return RaceBuffTableStartJsonVector(builder, numElems)
 
 def RaceBuffTableEnd(builder):
     return builder.EndObject()

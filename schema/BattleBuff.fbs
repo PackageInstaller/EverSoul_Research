@@ -19,7 +19,7 @@ table BattleBuff {
 }
 
 table BattleBuffTable {
-  battle_buffs: [BattleBuff];
+  json: [BattleBuff];
 }
 
 root_type BattleBuffTable;

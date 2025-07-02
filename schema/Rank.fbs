@@ -9,7 +9,7 @@ table Rank {
 }
 
 table RankTable {
-  ranks: [Rank];
+  json: [Rank];
 }
 
 root_type RankTable;

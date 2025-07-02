@@ -25,7 +25,7 @@ class GuildRaidRelicTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # GuildRaidRelicTable
-    def GuildRaidRelics(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class GuildRaidRelicTable(object):
         return None
 
     # GuildRaidRelicTable
-    def GuildRaidRelicsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # GuildRaidRelicTable
-    def GuildRaidRelicsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def GuildRaidRelicTableStart(builder):
 def Start(builder):
     GuildRaidRelicTableStart(builder)
 
-def GuildRaidRelicTableAddGuildRaidRelics(builder, guildRaidRelics):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(guildRaidRelics), 0)
+def GuildRaidRelicTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddGuildRaidRelics(builder, guildRaidRelics):
-    GuildRaidRelicTableAddGuildRaidRelics(builder, guildRaidRelics)
+def AddJson(builder, json):
+    GuildRaidRelicTableAddJson(builder, json)
 
-def GuildRaidRelicTableStartGuildRaidRelicsVector(builder, numElems):
+def GuildRaidRelicTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartGuildRaidRelicsVector(builder, numElems):
-    return GuildRaidRelicTableStartGuildRaidRelicsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return GuildRaidRelicTableStartJsonVector(builder, numElems)
 
 def GuildRaidRelicTableEnd(builder):
     return builder.EndObject()

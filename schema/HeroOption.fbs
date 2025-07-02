@@ -14,7 +14,7 @@ table HeroOption {
 }
 
 table HeroOptionTable {
-  hero_options: [HeroOption];
+  json: [HeroOption];
 }
 
 root_type HeroOptionTable;

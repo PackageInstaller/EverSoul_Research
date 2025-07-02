@@ -25,7 +25,7 @@ class ArbeitChoiceTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ArbeitChoiceTable
-    def ArbeitChoices(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ArbeitChoiceTable(object):
         return None
 
     # ArbeitChoiceTable
-    def ArbeitChoicesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ArbeitChoiceTable
-    def ArbeitChoicesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ArbeitChoiceTableStart(builder):
 def Start(builder):
     ArbeitChoiceTableStart(builder)
 
-def ArbeitChoiceTableAddArbeitChoices(builder, arbeitChoices):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(arbeitChoices), 0)
+def ArbeitChoiceTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddArbeitChoices(builder, arbeitChoices):
-    ArbeitChoiceTableAddArbeitChoices(builder, arbeitChoices)
+def AddJson(builder, json):
+    ArbeitChoiceTableAddJson(builder, json)
 
-def ArbeitChoiceTableStartArbeitChoicesVector(builder, numElems):
+def ArbeitChoiceTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartArbeitChoicesVector(builder, numElems):
-    return ArbeitChoiceTableStartArbeitChoicesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ArbeitChoiceTableStartJsonVector(builder, numElems)
 
 def ArbeitChoiceTableEnd(builder):
     return builder.EndObject()

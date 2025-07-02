@@ -15,7 +15,7 @@ table ItemTranscendence {
 }
 
 table ItemTranscendenceTable {
-  item_transcendences: [ItemTranscendence];
+  json: [ItemTranscendence];
 }
 
 root_type ItemTranscendenceTable;

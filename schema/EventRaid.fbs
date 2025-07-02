@@ -39,7 +39,7 @@ table EventRaid {
 }
 
 table EventRaidTable {
-  event_raids: [EventRaid];
+  json: [EventRaid];
 }
 
 root_type EventRaidTable;

@@ -9,7 +9,7 @@ table ItemDropGroup {
 }
 
 table ItemDropGroupTable {
-  item_drop_groups: [ItemDropGroup];
+  json: [ItemDropGroup];
 }
 
 root_type ItemDropGroupTable;

@@ -25,7 +25,7 @@ class ImmuneBuffTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ImmuneBuffTable
-    def ImmuneBuffs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ImmuneBuffTable(object):
         return None
 
     # ImmuneBuffTable
-    def ImmuneBuffsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ImmuneBuffTable
-    def ImmuneBuffsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ImmuneBuffTableStart(builder):
 def Start(builder):
     ImmuneBuffTableStart(builder)
 
-def ImmuneBuffTableAddImmuneBuffs(builder, immuneBuffs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(immuneBuffs), 0)
+def ImmuneBuffTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddImmuneBuffs(builder, immuneBuffs):
-    ImmuneBuffTableAddImmuneBuffs(builder, immuneBuffs)
+def AddJson(builder, json):
+    ImmuneBuffTableAddJson(builder, json)
 
-def ImmuneBuffTableStartImmuneBuffsVector(builder, numElems):
+def ImmuneBuffTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartImmuneBuffsVector(builder, numElems):
-    return ImmuneBuffTableStartImmuneBuffsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ImmuneBuffTableStartJsonVector(builder, numElems)
 
 def ImmuneBuffTableEnd(builder):
     return builder.EndObject()

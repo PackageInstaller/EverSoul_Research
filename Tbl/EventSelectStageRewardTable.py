@@ -25,7 +25,7 @@ class EventSelectStageRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventSelectStageRewardTable
-    def EventSelectStageRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventSelectStageRewardTable(object):
         return None
 
     # EventSelectStageRewardTable
-    def EventSelectStageRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventSelectStageRewardTable
-    def EventSelectStageRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventSelectStageRewardTableStart(builder):
 def Start(builder):
     EventSelectStageRewardTableStart(builder)
 
-def EventSelectStageRewardTableAddEventSelectStageRewards(builder, eventSelectStageRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventSelectStageRewards), 0)
+def EventSelectStageRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventSelectStageRewards(builder, eventSelectStageRewards):
-    EventSelectStageRewardTableAddEventSelectStageRewards(builder, eventSelectStageRewards)
+def AddJson(builder, json):
+    EventSelectStageRewardTableAddJson(builder, json)
 
-def EventSelectStageRewardTableStartEventSelectStageRewardsVector(builder, numElems):
+def EventSelectStageRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventSelectStageRewardsVector(builder, numElems):
-    return EventSelectStageRewardTableStartEventSelectStageRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventSelectStageRewardTableStartJsonVector(builder, numElems)
 
 def EventSelectStageRewardTableEnd(builder):
     return builder.EndObject()

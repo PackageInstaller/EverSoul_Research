@@ -25,7 +25,7 @@ class ShortcutPathTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ShortcutPathTable
-    def ShortcutPaths(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ShortcutPathTable(object):
         return None
 
     # ShortcutPathTable
-    def ShortcutPathsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ShortcutPathTable
-    def ShortcutPathsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ShortcutPathTableStart(builder):
 def Start(builder):
     ShortcutPathTableStart(builder)
 
-def ShortcutPathTableAddShortcutPaths(builder, shortcutPaths):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(shortcutPaths), 0)
+def ShortcutPathTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddShortcutPaths(builder, shortcutPaths):
-    ShortcutPathTableAddShortcutPaths(builder, shortcutPaths)
+def AddJson(builder, json):
+    ShortcutPathTableAddJson(builder, json)
 
-def ShortcutPathTableStartShortcutPathsVector(builder, numElems):
+def ShortcutPathTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartShortcutPathsVector(builder, numElems):
-    return ShortcutPathTableStartShortcutPathsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ShortcutPathTableStartJsonVector(builder, numElems)
 
 def ShortcutPathTableEnd(builder):
     return builder.EndObject()

@@ -186338,7 +186338,6 @@ public:
     static ReviewServerInfo checkReviewServer(const std::string &baseVersion);
     static bool downloadAndProcessReviewTables(const ReviewServerInfo &reviewInfo);
     static std::string httpGet(const std::string &url, int retries = 5);
-    static bool generateFlatBufferPythonAPI(const std::string &schema_dir, const std::string &output_dir);
 
 
 
@@ -186386,7 +186385,7 @@ bool decryptAes128Cbc(const std::vector<u_int8_t> &ciphertext, std::vector<u_int
 bool deriveKeyAndIv(std::vector<u_int8_t> &key, std::vector<u_int8_t> &iv);
 bool isFileDecrypted(const fs::path &filePath);
 bool convertTablesToJson(const std::string &schema_dir, const std::string &table_dir, const std::string &output_dir);
-
+bool generateFlatBufferPythonAPI(const std::string &schema_dir, const std::string &output_dir);
 
 void updateProgressDisplay(
     const std::string &prefix,
@@ -187114,11 +187113,6 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
     }
     std::println("服务器数据表版本: {}", tableInfo.version);
 
-    std::string hashUrl = std::format("https://patch.esoul.kakaogames.com/Live/{}/Android/catalog_eversoul.hash", version);
-    std::println("检查哈希URL: {}", hashUrl);
-    std::string currentHash = httpGet(hashUrl);
-    std::println("服务器哈希值: {}", currentHash);
-
     fs::path table_info_path = "./table_info.json";
     json table_info;
 
@@ -187137,14 +187131,12 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
             std::println("当前保存的信息:");
             std::println("版本: {}", table_info["live"]["version"].get<std::string>());
             std::println("表版本: {}", table_info["live"]["tableVersion"].get<int>());
-            std::println("哈希值: {}", table_info["live"]["hash"].get<std::string>());
         }
 
 
         if (table_info.contains("live") &&
             table_info["live"]["version"] == version &&
             table_info["live"]["tableVersion"] == tableInfo.version &&
-            table_info["live"]["hash"] == currentHash &&
             liveTableExist)
         {
             std::println("\033[32mLive 服务器数据表已是最新版本\033[0m");
@@ -187159,11 +187151,6 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
                 {
                     std::println("- 表版本不同: {} -> {}",
                                  table_info["live"]["tableVersion"].get<int>(), tableInfo.version);
-                }
-
-                if (table_info["live"]["hash"] != currentHash)
-                {
-                    std::println("- 哈希值不同");
                 }
             }
             else
@@ -187251,8 +187238,7 @@ bool QooAppAPI::checkAndUpdateTables(const std::string &version)
 
     table_info["live"] = {
         {"version", version},
-        {"tableVersion", tableInfo.version},
-        {"hash", currentHash}};
+        {"tableVersion", tableInfo.version}};
 
     std::ofstream outFile(table_info_path);
     outFile << table_info.dump(4);
@@ -187275,9 +187261,9 @@ bool deriveKeyAndIv(std::vector<u_int8_t> &key, std::vector<u_int8_t> &iv)
 
 
     u_int8_t hash[
-# 477 "/home/rikka/Eversoul/source/utils.cpp" 3 4
+# 464 "/home/rikka/Eversoul/source/utils.cpp" 3 4
                  32
-# 477 "/home/rikka/Eversoul/source/utils.cpp"
+# 464 "/home/rikka/Eversoul/source/utils.cpp"
                                      ];
     if (!SHA256(reinterpret_cast<const u_int8_t *>(unhashKey.c_str()), unhashKey.size(), hash))
     {
@@ -187292,7 +187278,7 @@ bool deriveKeyAndIv(std::vector<u_int8_t> &key, std::vector<u_int8_t> &iv)
 
     return true;
 }
-# 500 "/home/rikka/Eversoul/source/utils.cpp"
+# 487 "/home/rikka/Eversoul/source/utils.cpp"
 bool decryptAes128Cbc(const std::vector<u_int8_t> &ciphertext, std::vector<u_int8_t> &plaintext,
                       const std::vector<u_int8_t> &key, const std::vector<u_int8_t> &iv)
 {
@@ -187304,9 +187290,9 @@ bool decryptAes128Cbc(const std::vector<u_int8_t> &ciphertext, std::vector<u_int
     }
 
     if (EVP_DecryptInit_ex(ctx, EVP_aes_128_cbc(), 
-# 510 "/home/rikka/Eversoul/source/utils.cpp" 3 4
+# 497 "/home/rikka/Eversoul/source/utils.cpp" 3 4
                                                   __null
-# 510 "/home/rikka/Eversoul/source/utils.cpp"
+# 497 "/home/rikka/Eversoul/source/utils.cpp"
                                                       , key.data(), iv.data()) != 1)
     {
         std::println("\033[31mEVP_DecryptInit_ex 失败！\033[0m");
@@ -187315,9 +187301,9 @@ bool decryptAes128Cbc(const std::vector<u_int8_t> &ciphertext, std::vector<u_int
     }
 
     plaintext.resize(ciphertext.size() + 
-# 517 "/home/rikka/Eversoul/source/utils.cpp" 3 4
+# 504 "/home/rikka/Eversoul/source/utils.cpp" 3 4
                                         EVP_CIPHER_get_block_size
-# 517 "/home/rikka/Eversoul/source/utils.cpp"
+# 504 "/home/rikka/Eversoul/source/utils.cpp"
                                                              (EVP_aes_128_cbc()));
     int len;
     if (EVP_DecryptUpdate(ctx, plaintext.data(), &len, ciphertext.data(), ciphertext.size()) != 1)
@@ -187334,13 +187320,14 @@ bool decryptAes128Cbc(const std::vector<u_int8_t> &ciphertext, std::vector<u_int
         EVP_CIPHER_CTX_free(ctx);
         return false;
     }
+
     plaintext_len += len;
     plaintext.resize(plaintext_len);
 
     EVP_CIPHER_CTX_free(ctx);
     return true;
 }
-# 549 "/home/rikka/Eversoul/source/utils.cpp"
+# 537 "/home/rikka/Eversoul/source/utils.cpp"
 static bool decryptFileInPlace(const fs::path &filePath, size_t current_file, size_t total_files, const std::vector<u_int8_t> &key, const std::vector<u_int8_t> &iv)
 {
     try
@@ -187406,7 +187393,7 @@ static bool decryptFileInPlace(const fs::path &filePath, size_t current_file, si
         return false;
     }
 }
-# 622 "/home/rikka/Eversoul/source/utils.cpp"
+# 610 "/home/rikka/Eversoul/source/utils.cpp"
 bool decryptFiles(const std::vector<fs::path> &files, const std::vector<u_int8_t> &key, const std::vector<u_int8_t> &iv)
 {
     size_t total_files = files.size();
@@ -187461,7 +187448,7 @@ bool isFileDecrypted(const fs::path &filePath)
 
     return has_uniform_offsets;
 }
-# 684 "/home/rikka/Eversoul/source/utils.cpp"
+# 672 "/home/rikka/Eversoul/source/utils.cpp"
 bool convertTablesToJson(const std::string &schema_dir, const std::string &table_dir, const std::string &output_dir)
 {
     try
@@ -187825,12 +187812,6 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
     int serverTableVersion = versionData["version"].get<int>();
     std::println("服务器数据表版本: {}", serverTableVersion);
 
-    std::string hashUrl = std::format("https://patch.esoul.kakaogames.com/Review/{}/{}/Android/catalog_eversoul.hash",
-                                      reviewInfo.cdnDate, reviewInfo.version);
-    std::println("检查哈希URL: {}", hashUrl);
-    std::string currentHash = httpGet(hashUrl);
-    std::println("服务器哈希值: {}", currentHash);
-
     fs::path table_info_path = "./table_info.json";
     json table_info;
     bool needUpdate = true;
@@ -187851,7 +187832,6 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
             std::println("版本: {}", table_info["review"]["version"].get<std::string>());
 
             std::println("表版本: {}", table_info["review"]["tableVersion"].get<int>());
-            std::println("哈希值: {}", table_info["review"]["hash"].get<std::string>());
         }
 
 
@@ -187859,7 +187839,6 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
             table_info["review"]["version"] == reviewInfo.version &&
             table_info["review"]["cdnDate"] == reviewInfo.cdnDate &&
             table_info["review"]["tableVersion"] == serverTableVersion &&
-            table_info["review"]["hash"] == currentHash &&
             reviewTableExist)
         {
             std::println("\033[32mReview 服务器数据表已是最新版本\033[0m");
@@ -187873,8 +187852,6 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
                 if (table_info["review"]["tableVersion"] != serverTableVersion)
                     std::println("- 表版本不同: {} -> {}",
                                  table_info["review"]["tableVersion"].get<int>(), serverTableVersion);
-                if (table_info["review"]["hash"] != currentHash)
-                    std::println("- 哈希值不同");
             }
             else
             {
@@ -187963,8 +187940,7 @@ bool QooAppAPI::downloadAndProcessReviewTables(const ReviewServerInfo &reviewInf
     table_info["review"] = {
         {"version", reviewInfo.version},
         {"cdnDate", reviewInfo.cdnDate},
-        {"tableVersion", serverTableVersion},
-        {"hash", currentHash}};
+        {"tableVersion", serverTableVersion}};
 
     std::ofstream outFile(table_info_path);
     outFile << table_info.dump(4);
@@ -188102,12 +188078,12 @@ except Exception as e:
 
 
 
-bool QooAppAPI::generateFlatBufferPythonAPI(const std::string &schema_dir, const std::string &output_dir)
+bool generateFlatBufferPythonAPI(const std::string &schema_dir, const std::string &output_dir)
 {
 
     fs::path original_cwd = fs::current_path();
 
-        try
+    try
     {
 
         fs::path abs_schema_dir = fs::absolute(schema_dir);
@@ -188160,8 +188136,6 @@ bool QooAppAPI::generateFlatBufferPythonAPI(const std::string &schema_dir, const
 
                 updateProgressDisplay("生成进度", current_file, total_files,
                                       schema_name + ".fbs", &last_length);
-
-
 
                 std::string command = std::format("flatc --python {} 2>/dev/null",
                                                   entry.path().string());

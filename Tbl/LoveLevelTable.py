@@ -25,7 +25,7 @@ class LoveLevelTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # LoveLevelTable
-    def LoveLevels(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class LoveLevelTable(object):
         return None
 
     # LoveLevelTable
-    def LoveLevelsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # LoveLevelTable
-    def LoveLevelsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def LoveLevelTableStart(builder):
 def Start(builder):
     LoveLevelTableStart(builder)
 
-def LoveLevelTableAddLoveLevels(builder, loveLevels):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(loveLevels), 0)
+def LoveLevelTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddLoveLevels(builder, loveLevels):
-    LoveLevelTableAddLoveLevels(builder, loveLevels)
+def AddJson(builder, json):
+    LoveLevelTableAddJson(builder, json)
 
-def LoveLevelTableStartLoveLevelsVector(builder, numElems):
+def LoveLevelTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartLoveLevelsVector(builder, numElems):
-    return LoveLevelTableStartLoveLevelsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return LoveLevelTableStartJsonVector(builder, numElems)
 
 def LoveLevelTableEnd(builder):
     return builder.EndObject()

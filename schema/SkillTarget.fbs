@@ -12,7 +12,7 @@ table SkillTarget {
 }
 
 table SkillTargetTable {
-  skill_targets: [SkillTarget];
+  json: [SkillTarget];
 }
 
 root_type SkillTargetTable;

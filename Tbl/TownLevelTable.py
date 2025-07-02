@@ -25,7 +25,7 @@ class TownLevelTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TownLevelTable
-    def TownLevels(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TownLevelTable(object):
         return None
 
     # TownLevelTable
-    def TownLevelsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TownLevelTable
-    def TownLevelsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TownLevelTableStart(builder):
 def Start(builder):
     TownLevelTableStart(builder)
 
-def TownLevelTableAddTownLevels(builder, townLevels):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(townLevels), 0)
+def TownLevelTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTownLevels(builder, townLevels):
-    TownLevelTableAddTownLevels(builder, townLevels)
+def AddJson(builder, json):
+    TownLevelTableAddJson(builder, json)
 
-def TownLevelTableStartTownLevelsVector(builder, numElems):
+def TownLevelTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTownLevelsVector(builder, numElems):
-    return TownLevelTableStartTownLevelsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TownLevelTableStartJsonVector(builder, numElems)
 
 def TownLevelTableEnd(builder):
     return builder.EndObject()

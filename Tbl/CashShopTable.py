@@ -25,7 +25,7 @@ class CashShopTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # CashShopTable
-    def CashShops(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class CashShopTable(object):
         return None
 
     # CashShopTable
-    def CashShopsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # CashShopTable
-    def CashShopsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def CashShopTableStart(builder):
 def Start(builder):
     CashShopTableStart(builder)
 
-def CashShopTableAddCashShops(builder, cashShops):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(cashShops), 0)
+def CashShopTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddCashShops(builder, cashShops):
-    CashShopTableAddCashShops(builder, cashShops)
+def AddJson(builder, json):
+    CashShopTableAddJson(builder, json)
 
-def CashShopTableStartCashShopsVector(builder, numElems):
+def CashShopTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartCashShopsVector(builder, numElems):
-    return CashShopTableStartCashShopsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return CashShopTableStartJsonVector(builder, numElems)
 
 def CashShopTableEnd(builder):
     return builder.EndObject()

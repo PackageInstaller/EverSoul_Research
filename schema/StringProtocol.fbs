@@ -13,7 +13,7 @@ table StringProtocol {
 }
 
 table StringProtocolTable {
-  string_protocols: [StringProtocol];
+  json: [StringProtocol];
 }
 
 root_type StringProtocolTable;

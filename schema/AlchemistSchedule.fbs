@@ -8,7 +8,7 @@ table AlchemistSchedule {
 }
 
 table AlchemistScheduleTable {
-  alchemist_schedules: [AlchemistSchedule];
+  json: [AlchemistSchedule];
 }
 
 root_type AlchemistScheduleTable;

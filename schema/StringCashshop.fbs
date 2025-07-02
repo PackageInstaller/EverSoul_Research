@@ -10,7 +10,7 @@ table StringCashshop {
 }
 
 table StringCashshopTable {
-  string_cashshops: [StringCashshop];
+  json: [StringCashshop];
 }
 
 root_type StringCashshopTable;

@@ -25,7 +25,7 @@ class EventDiceRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDiceRewardTable
-    def EventDiceRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDiceRewardTable(object):
         return None
 
     # EventDiceRewardTable
-    def EventDiceRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDiceRewardTable
-    def EventDiceRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDiceRewardTableStart(builder):
 def Start(builder):
     EventDiceRewardTableStart(builder)
 
-def EventDiceRewardTableAddEventDiceRewards(builder, eventDiceRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDiceRewards), 0)
+def EventDiceRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDiceRewards(builder, eventDiceRewards):
-    EventDiceRewardTableAddEventDiceRewards(builder, eventDiceRewards)
+def AddJson(builder, json):
+    EventDiceRewardTableAddJson(builder, json)
 
-def EventDiceRewardTableStartEventDiceRewardsVector(builder, numElems):
+def EventDiceRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDiceRewardsVector(builder, numElems):
-    return EventDiceRewardTableStartEventDiceRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDiceRewardTableStartJsonVector(builder, numElems)
 
 def EventDiceRewardTableEnd(builder):
     return builder.EndObject()

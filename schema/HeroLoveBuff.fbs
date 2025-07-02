@@ -6,7 +6,7 @@ table HeroLoveBuff {
 }
 
 table HeroLoveBuffTable {
-  hero_love_buffs: [HeroLoveBuff];
+  json: [HeroLoveBuff];
 }
 
 root_type HeroLoveBuffTable;

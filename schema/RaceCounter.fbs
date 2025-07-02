@@ -13,7 +13,7 @@ table RaceCounter {
 }
 
 table RaceCounterTable {
-  race_counters: [RaceCounter];
+  json: [RaceCounter];
 }
 
 root_type RaceCounterTable;

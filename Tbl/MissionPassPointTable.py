@@ -25,7 +25,7 @@ class MissionPassPointTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # MissionPassPointTable
-    def MissionPassPoints(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class MissionPassPointTable(object):
         return None
 
     # MissionPassPointTable
-    def MissionPassPointsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # MissionPassPointTable
-    def MissionPassPointsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def MissionPassPointTableStart(builder):
 def Start(builder):
     MissionPassPointTableStart(builder)
 
-def MissionPassPointTableAddMissionPassPoints(builder, missionPassPoints):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(missionPassPoints), 0)
+def MissionPassPointTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddMissionPassPoints(builder, missionPassPoints):
-    MissionPassPointTableAddMissionPassPoints(builder, missionPassPoints)
+def AddJson(builder, json):
+    MissionPassPointTableAddJson(builder, json)
 
-def MissionPassPointTableStartMissionPassPointsVector(builder, numElems):
+def MissionPassPointTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartMissionPassPointsVector(builder, numElems):
-    return MissionPassPointTableStartMissionPassPointsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return MissionPassPointTableStartJsonVector(builder, numElems)
 
 def MissionPassPointTableEnd(builder):
     return builder.EndObject()

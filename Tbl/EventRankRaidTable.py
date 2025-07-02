@@ -25,7 +25,7 @@ class EventRankRaidTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventRankRaidTable
-    def EventRankRaids(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventRankRaidTable(object):
         return None
 
     # EventRankRaidTable
-    def EventRankRaidsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventRankRaidTable
-    def EventRankRaidsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventRankRaidTableStart(builder):
 def Start(builder):
     EventRankRaidTableStart(builder)
 
-def EventRankRaidTableAddEventRankRaids(builder, eventRankRaids):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventRankRaids), 0)
+def EventRankRaidTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventRankRaids(builder, eventRankRaids):
-    EventRankRaidTableAddEventRankRaids(builder, eventRankRaids)
+def AddJson(builder, json):
+    EventRankRaidTableAddJson(builder, json)
 
-def EventRankRaidTableStartEventRankRaidsVector(builder, numElems):
+def EventRankRaidTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventRankRaidsVector(builder, numElems):
-    return EventRankRaidTableStartEventRankRaidsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventRankRaidTableStartJsonVector(builder, numElems)
 
 def EventRankRaidTableEnd(builder):
     return builder.EndObject()

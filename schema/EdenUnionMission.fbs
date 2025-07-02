@@ -16,7 +16,7 @@ table EdenUnionMission {
 }
 
 table EdenUnionMissionTable {
-  eden_union_missions: [EdenUnionMission];
+  json: [EdenUnionMission];
 }
 
 root_type EdenUnionMissionTable;

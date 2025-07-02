@@ -25,7 +25,7 @@ class EventDJsoulRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDJsoulRewardTable
-    def EventDJsoulRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDJsoulRewardTable(object):
         return None
 
     # EventDJsoulRewardTable
-    def EventDJsoulRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDJsoulRewardTable
-    def EventDJsoulRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDJsoulRewardTableStart(builder):
 def Start(builder):
     EventDJsoulRewardTableStart(builder)
 
-def EventDJsoulRewardTableAddEventDJsoulRewards(builder, eventDJsoulRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDJsoulRewards), 0)
+def EventDJsoulRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDJsoulRewards(builder, eventDJsoulRewards):
-    EventDJsoulRewardTableAddEventDJsoulRewards(builder, eventDJsoulRewards)
+def AddJson(builder, json):
+    EventDJsoulRewardTableAddJson(builder, json)
 
-def EventDJsoulRewardTableStartEventDJsoulRewardsVector(builder, numElems):
+def EventDJsoulRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDJsoulRewardsVector(builder, numElems):
-    return EventDJsoulRewardTableStartEventDJsoulRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDJsoulRewardTableStartJsonVector(builder, numElems)
 
 def EventDJsoulRewardTableEnd(builder):
     return builder.EndObject()

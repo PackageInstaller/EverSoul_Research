@@ -25,7 +25,7 @@ class ItemBoxTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ItemBoxTable
-    def ItemBoxs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ItemBoxTable(object):
         return None
 
     # ItemBoxTable
-    def ItemBoxsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ItemBoxTable
-    def ItemBoxsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ItemBoxTableStart(builder):
 def Start(builder):
     ItemBoxTableStart(builder)
 
-def ItemBoxTableAddItemBoxs(builder, itemBoxs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(itemBoxs), 0)
+def ItemBoxTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddItemBoxs(builder, itemBoxs):
-    ItemBoxTableAddItemBoxs(builder, itemBoxs)
+def AddJson(builder, json):
+    ItemBoxTableAddJson(builder, json)
 
-def ItemBoxTableStartItemBoxsVector(builder, numElems):
+def ItemBoxTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartItemBoxsVector(builder, numElems):
-    return ItemBoxTableStartItemBoxsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ItemBoxTableStartJsonVector(builder, numElems)
 
 def ItemBoxTableEnd(builder):
     return builder.EndObject()

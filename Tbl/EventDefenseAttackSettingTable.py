@@ -25,7 +25,7 @@ class EventDefenseAttackSettingTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDefenseAttackSettingTable
-    def EventDefenseAttackSettings(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDefenseAttackSettingTable(object):
         return None
 
     # EventDefenseAttackSettingTable
-    def EventDefenseAttackSettingsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDefenseAttackSettingTable
-    def EventDefenseAttackSettingsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDefenseAttackSettingTableStart(builder):
 def Start(builder):
     EventDefenseAttackSettingTableStart(builder)
 
-def EventDefenseAttackSettingTableAddEventDefenseAttackSettings(builder, eventDefenseAttackSettings):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDefenseAttackSettings), 0)
+def EventDefenseAttackSettingTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDefenseAttackSettings(builder, eventDefenseAttackSettings):
-    EventDefenseAttackSettingTableAddEventDefenseAttackSettings(builder, eventDefenseAttackSettings)
+def AddJson(builder, json):
+    EventDefenseAttackSettingTableAddJson(builder, json)
 
-def EventDefenseAttackSettingTableStartEventDefenseAttackSettingsVector(builder, numElems):
+def EventDefenseAttackSettingTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDefenseAttackSettingsVector(builder, numElems):
-    return EventDefenseAttackSettingTableStartEventDefenseAttackSettingsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDefenseAttackSettingTableStartJsonVector(builder, numElems)
 
 def EventDefenseAttackSettingTableEnd(builder):
     return builder.EndObject()

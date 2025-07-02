@@ -8,7 +8,7 @@ table LoginPageSchedule {
 }
 
 table LoginPageScheduleTable {
-  login_page_schedules: [LoginPageSchedule];
+  json: [LoginPageSchedule];
 }
 
 root_type LoginPageScheduleTable;

@@ -25,7 +25,7 @@ class SkillCodeTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SkillCodeTable
-    def SkillCodes(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SkillCodeTable(object):
         return None
 
     # SkillCodeTable
-    def SkillCodesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SkillCodeTable
-    def SkillCodesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SkillCodeTableStart(builder):
 def Start(builder):
     SkillCodeTableStart(builder)
 
-def SkillCodeTableAddSkillCodes(builder, skillCodes):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(skillCodes), 0)
+def SkillCodeTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSkillCodes(builder, skillCodes):
-    SkillCodeTableAddSkillCodes(builder, skillCodes)
+def AddJson(builder, json):
+    SkillCodeTableAddJson(builder, json)
 
-def SkillCodeTableStartSkillCodesVector(builder, numElems):
+def SkillCodeTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSkillCodesVector(builder, numElems):
-    return SkillCodeTableStartSkillCodesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SkillCodeTableStartJsonVector(builder, numElems)
 
 def SkillCodeTableEnd(builder):
     return builder.EndObject()

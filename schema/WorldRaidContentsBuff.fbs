@@ -10,7 +10,7 @@ table WorldRaidContentsBuff {
 }
 
 table WorldRaidContentsBuffTable {
-  world_raid_contents_buffs: [WorldRaidContentsBuff];
+  json: [WorldRaidContentsBuff];
 }
 
 root_type WorldRaidContentsBuffTable;

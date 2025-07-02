@@ -27,7 +27,7 @@ table EventDefenseEnemySetting {
 }
 
 table EventDefenseEnemySettingTable {
-  event_defense_enemy_settings: [EventDefenseEnemySetting];
+  json: [EventDefenseEnemySetting];
 }
 
 root_type EventDefenseEnemySettingTable;

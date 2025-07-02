@@ -25,7 +25,7 @@ class ArkOverClockTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ArkOverClockTable
-    def ArkOverClocks(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ArkOverClockTable(object):
         return None
 
     # ArkOverClockTable
-    def ArkOverClocksLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ArkOverClockTable
-    def ArkOverClocksIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ArkOverClockTableStart(builder):
 def Start(builder):
     ArkOverClockTableStart(builder)
 
-def ArkOverClockTableAddArkOverClocks(builder, arkOverClocks):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(arkOverClocks), 0)
+def ArkOverClockTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddArkOverClocks(builder, arkOverClocks):
-    ArkOverClockTableAddArkOverClocks(builder, arkOverClocks)
+def AddJson(builder, json):
+    ArkOverClockTableAddJson(builder, json)
 
-def ArkOverClockTableStartArkOverClocksVector(builder, numElems):
+def ArkOverClockTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartArkOverClocksVector(builder, numElems):
-    return ArkOverClockTableStartArkOverClocksVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ArkOverClockTableStartJsonVector(builder, numElems)
 
 def ArkOverClockTableEnd(builder):
     return builder.EndObject()

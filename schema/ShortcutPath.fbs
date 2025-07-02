@@ -6,7 +6,7 @@ table ShortcutPath {
 }
 
 table ShortcutPathTable {
-  shortcut_paths: [ShortcutPath];
+  json: [ShortcutPath];
 }
 
 root_type ShortcutPathTable;

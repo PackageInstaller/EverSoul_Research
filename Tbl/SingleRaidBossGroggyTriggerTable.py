@@ -25,7 +25,7 @@ class SingleRaidBossGroggyTriggerTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SingleRaidBossGroggyTriggerTable
-    def SingleRaidBossGroggyTriggers(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SingleRaidBossGroggyTriggerTable(object):
         return None
 
     # SingleRaidBossGroggyTriggerTable
-    def SingleRaidBossGroggyTriggersLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SingleRaidBossGroggyTriggerTable
-    def SingleRaidBossGroggyTriggersIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SingleRaidBossGroggyTriggerTableStart(builder):
 def Start(builder):
     SingleRaidBossGroggyTriggerTableStart(builder)
 
-def SingleRaidBossGroggyTriggerTableAddSingleRaidBossGroggyTriggers(builder, singleRaidBossGroggyTriggers):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(singleRaidBossGroggyTriggers), 0)
+def SingleRaidBossGroggyTriggerTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSingleRaidBossGroggyTriggers(builder, singleRaidBossGroggyTriggers):
-    SingleRaidBossGroggyTriggerTableAddSingleRaidBossGroggyTriggers(builder, singleRaidBossGroggyTriggers)
+def AddJson(builder, json):
+    SingleRaidBossGroggyTriggerTableAddJson(builder, json)
 
-def SingleRaidBossGroggyTriggerTableStartSingleRaidBossGroggyTriggersVector(builder, numElems):
+def SingleRaidBossGroggyTriggerTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSingleRaidBossGroggyTriggersVector(builder, numElems):
-    return SingleRaidBossGroggyTriggerTableStartSingleRaidBossGroggyTriggersVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SingleRaidBossGroggyTriggerTableStartJsonVector(builder, numElems)
 
 def SingleRaidBossGroggyTriggerTableEnd(builder):
     return builder.EndObject()

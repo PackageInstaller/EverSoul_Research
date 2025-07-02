@@ -11,7 +11,7 @@ table HeroRental {
 }
 
 table HeroRentalTable {
-  hero_rentals: [HeroRental];
+  json: [HeroRental];
 }
 
 root_type HeroRentalTable;

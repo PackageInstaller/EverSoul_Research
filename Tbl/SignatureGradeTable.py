@@ -25,7 +25,7 @@ class SignatureGradeTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SignatureGradeTable
-    def SignatureGrades(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SignatureGradeTable(object):
         return None
 
     # SignatureGradeTable
-    def SignatureGradesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SignatureGradeTable
-    def SignatureGradesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SignatureGradeTableStart(builder):
 def Start(builder):
     SignatureGradeTableStart(builder)
 
-def SignatureGradeTableAddSignatureGrades(builder, signatureGrades):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(signatureGrades), 0)
+def SignatureGradeTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSignatureGrades(builder, signatureGrades):
-    SignatureGradeTableAddSignatureGrades(builder, signatureGrades)
+def AddJson(builder, json):
+    SignatureGradeTableAddJson(builder, json)
 
-def SignatureGradeTableStartSignatureGradesVector(builder, numElems):
+def SignatureGradeTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSignatureGradesVector(builder, numElems):
-    return SignatureGradeTableStartSignatureGradesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SignatureGradeTableStartJsonVector(builder, numElems)
 
 def SignatureGradeTableEnd(builder):
     return builder.EndObject()

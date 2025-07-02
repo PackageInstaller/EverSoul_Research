@@ -15,7 +15,7 @@ table HeroUpgrade {
 }
 
 table HeroUpgradeTable {
-  hero_upgrades: [HeroUpgrade];
+  json: [HeroUpgrade];
 }
 
 root_type HeroUpgradeTable;

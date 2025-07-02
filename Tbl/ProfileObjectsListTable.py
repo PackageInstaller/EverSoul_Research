@@ -25,7 +25,7 @@ class ProfileObjectsListTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ProfileObjectsListTable
-    def ProfileObjectsLists(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ProfileObjectsListTable(object):
         return None
 
     # ProfileObjectsListTable
-    def ProfileObjectsListsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ProfileObjectsListTable
-    def ProfileObjectsListsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ProfileObjectsListTableStart(builder):
 def Start(builder):
     ProfileObjectsListTableStart(builder)
 
-def ProfileObjectsListTableAddProfileObjectsLists(builder, profileObjectsLists):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(profileObjectsLists), 0)
+def ProfileObjectsListTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddProfileObjectsLists(builder, profileObjectsLists):
-    ProfileObjectsListTableAddProfileObjectsLists(builder, profileObjectsLists)
+def AddJson(builder, json):
+    ProfileObjectsListTableAddJson(builder, json)
 
-def ProfileObjectsListTableStartProfileObjectsListsVector(builder, numElems):
+def ProfileObjectsListTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartProfileObjectsListsVector(builder, numElems):
-    return ProfileObjectsListTableStartProfileObjectsListsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ProfileObjectsListTableStartJsonVector(builder, numElems)
 
 def ProfileObjectsListTableEnd(builder):
     return builder.EndObject()

@@ -25,7 +25,7 @@ class EventDoubleStageSettingTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDoubleStageSettingTable
-    def EventDoubleStageSettings(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDoubleStageSettingTable(object):
         return None
 
     # EventDoubleStageSettingTable
-    def EventDoubleStageSettingsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDoubleStageSettingTable
-    def EventDoubleStageSettingsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDoubleStageSettingTableStart(builder):
 def Start(builder):
     EventDoubleStageSettingTableStart(builder)
 
-def EventDoubleStageSettingTableAddEventDoubleStageSettings(builder, eventDoubleStageSettings):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDoubleStageSettings), 0)
+def EventDoubleStageSettingTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDoubleStageSettings(builder, eventDoubleStageSettings):
-    EventDoubleStageSettingTableAddEventDoubleStageSettings(builder, eventDoubleStageSettings)
+def AddJson(builder, json):
+    EventDoubleStageSettingTableAddJson(builder, json)
 
-def EventDoubleStageSettingTableStartEventDoubleStageSettingsVector(builder, numElems):
+def EventDoubleStageSettingTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDoubleStageSettingsVector(builder, numElems):
-    return EventDoubleStageSettingTableStartEventDoubleStageSettingsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDoubleStageSettingTableStartJsonVector(builder, numElems)
 
 def EventDoubleStageSettingTableEnd(builder):
     return builder.EndObject()

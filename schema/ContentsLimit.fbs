@@ -7,7 +7,7 @@ table ContentsLimit {
 }
 
 table ContentsLimitTable {
-  contents_limits: [ContentsLimit];
+  json: [ContentsLimit];
 }
 
 root_type ContentsLimitTable;

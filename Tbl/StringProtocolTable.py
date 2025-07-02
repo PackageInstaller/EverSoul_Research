@@ -25,7 +25,7 @@ class StringProtocolTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # StringProtocolTable
-    def StringProtocols(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class StringProtocolTable(object):
         return None
 
     # StringProtocolTable
-    def StringProtocolsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # StringProtocolTable
-    def StringProtocolsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def StringProtocolTableStart(builder):
 def Start(builder):
     StringProtocolTableStart(builder)
 
-def StringProtocolTableAddStringProtocols(builder, stringProtocols):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(stringProtocols), 0)
+def StringProtocolTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddStringProtocols(builder, stringProtocols):
-    StringProtocolTableAddStringProtocols(builder, stringProtocols)
+def AddJson(builder, json):
+    StringProtocolTableAddJson(builder, json)
 
-def StringProtocolTableStartStringProtocolsVector(builder, numElems):
+def StringProtocolTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartStringProtocolsVector(builder, numElems):
-    return StringProtocolTableStartStringProtocolsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return StringProtocolTableStartJsonVector(builder, numElems)
 
 def StringProtocolTableEnd(builder):
     return builder.EndObject()

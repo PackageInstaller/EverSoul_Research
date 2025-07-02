@@ -15,7 +15,7 @@ table Vista {
 }
 
 table VistaTable {
-  vistas: [Vista];
+  json: [Vista];
 }
 
 root_type VistaTable;

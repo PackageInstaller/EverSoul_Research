@@ -25,7 +25,7 @@ class IllustTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # IllustTable
-    def Illusts(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class IllustTable(object):
         return None
 
     # IllustTable
-    def IllustsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # IllustTable
-    def IllustsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def IllustTableStart(builder):
 def Start(builder):
     IllustTableStart(builder)
 
-def IllustTableAddIllusts(builder, illusts):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(illusts), 0)
+def IllustTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddIllusts(builder, illusts):
-    IllustTableAddIllusts(builder, illusts)
+def AddJson(builder, json):
+    IllustTableAddJson(builder, json)
 
-def IllustTableStartIllustsVector(builder, numElems):
+def IllustTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartIllustsVector(builder, numElems):
-    return IllustTableStartIllustsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return IllustTableStartJsonVector(builder, numElems)
 
 def IllustTableEnd(builder):
     return builder.EndObject()

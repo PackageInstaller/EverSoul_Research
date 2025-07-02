@@ -13,7 +13,7 @@ table EventDefenseAttackSetting {
 }
 
 table EventDefenseAttackSettingTable {
-  event_defense_attack_settings: [EventDefenseAttackSetting];
+  json: [EventDefenseAttackSetting];
 }
 
 root_type EventDefenseAttackSettingTable;

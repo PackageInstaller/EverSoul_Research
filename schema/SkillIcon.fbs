@@ -7,7 +7,7 @@ table SkillIcon {
 }
 
 table SkillIconTable {
-  skill_icons: [SkillIcon];
+  json: [SkillIcon];
 }
 
 root_type SkillIconTable;

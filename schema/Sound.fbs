@@ -11,7 +11,7 @@ table Sound {
 }
 
 table SoundTable {
-  sounds: [Sound];
+  json: [Sound];
 }
 
 root_type SoundTable;

@@ -8,7 +8,7 @@ table DungeonBlock {
 }
 
 table DungeonBlockTable {
-  dungeon_blocks: [DungeonBlock];
+  json: [DungeonBlock];
 }
 
 root_type DungeonBlockTable;

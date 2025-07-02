@@ -11,7 +11,7 @@ table VistaTreasure {
 }
 
 table VistaTreasureTable {
-  vista_treasures: [VistaTreasure];
+  json: [VistaTreasure];
 }
 
 root_type VistaTreasureTable;

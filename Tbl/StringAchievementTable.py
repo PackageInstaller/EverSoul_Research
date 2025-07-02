@@ -25,7 +25,7 @@ class StringAchievementTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # StringAchievementTable
-    def StringAchievements(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class StringAchievementTable(object):
         return None
 
     # StringAchievementTable
-    def StringAchievementsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # StringAchievementTable
-    def StringAchievementsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def StringAchievementTableStart(builder):
 def Start(builder):
     StringAchievementTableStart(builder)
 
-def StringAchievementTableAddStringAchievements(builder, stringAchievements):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(stringAchievements), 0)
+def StringAchievementTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddStringAchievements(builder, stringAchievements):
-    StringAchievementTableAddStringAchievements(builder, stringAchievements)
+def AddJson(builder, json):
+    StringAchievementTableAddJson(builder, json)
 
-def StringAchievementTableStartStringAchievementsVector(builder, numElems):
+def StringAchievementTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartStringAchievementsVector(builder, numElems):
-    return StringAchievementTableStartStringAchievementsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return StringAchievementTableStartJsonVector(builder, numElems)
 
 def StringAchievementTableEnd(builder):
     return builder.EndObject()

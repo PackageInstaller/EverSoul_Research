@@ -25,7 +25,7 @@ class TowerExtendScheduleTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TowerExtendScheduleTable
-    def TowerExtendSchedules(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TowerExtendScheduleTable(object):
         return None
 
     # TowerExtendScheduleTable
-    def TowerExtendSchedulesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TowerExtendScheduleTable
-    def TowerExtendSchedulesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TowerExtendScheduleTableStart(builder):
 def Start(builder):
     TowerExtendScheduleTableStart(builder)
 
-def TowerExtendScheduleTableAddTowerExtendSchedules(builder, towerExtendSchedules):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(towerExtendSchedules), 0)
+def TowerExtendScheduleTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTowerExtendSchedules(builder, towerExtendSchedules):
-    TowerExtendScheduleTableAddTowerExtendSchedules(builder, towerExtendSchedules)
+def AddJson(builder, json):
+    TowerExtendScheduleTableAddJson(builder, json)
 
-def TowerExtendScheduleTableStartTowerExtendSchedulesVector(builder, numElems):
+def TowerExtendScheduleTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTowerExtendSchedulesVector(builder, numElems):
-    return TowerExtendScheduleTableStartTowerExtendSchedulesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TowerExtendScheduleTableStartJsonVector(builder, numElems)
 
 def TowerExtendScheduleTableEnd(builder):
     return builder.EndObject()

@@ -12,7 +12,7 @@ table EdenAllianceSkill {
 }
 
 table EdenAllianceSkillTable {
-  eden_alliance_skills: [EdenAllianceSkill];
+  json: [EdenAllianceSkill];
 }
 
 root_type EdenAllianceSkillTable;

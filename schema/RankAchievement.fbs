@@ -9,7 +9,7 @@ table RankAchievement {
 }
 
 table RankAchievementTable {
-  rank_achievements: [RankAchievement];
+  json: [RankAchievement];
 }
 
 root_type RankAchievementTable;

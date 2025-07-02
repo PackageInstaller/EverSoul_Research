@@ -7,7 +7,7 @@ table HeroOptionGroup {
 }
 
 table HeroOptionGroupTable {
-  hero_option_groups: [HeroOptionGroup];
+  json: [HeroOptionGroup];
 }
 
 root_type HeroOptionGroupTable;

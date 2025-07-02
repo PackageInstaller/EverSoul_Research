@@ -27,7 +27,7 @@ table SingleRaidBossGroggyTrigger {
 }
 
 table SingleRaidBossGroggyTriggerTable {
-  single_raid_boss_groggy_triggers: [SingleRaidBossGroggyTrigger];
+  json: [SingleRaidBossGroggyTrigger];
 }
 
 root_type SingleRaidBossGroggyTriggerTable;

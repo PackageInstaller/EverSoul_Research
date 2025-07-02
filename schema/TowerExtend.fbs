@@ -9,7 +9,7 @@ table TowerExtend {
 }
 
 table TowerExtendTable {
-  tower_extends: [TowerExtend];
+  json: [TowerExtend];
 }
 
 root_type TowerExtendTable;

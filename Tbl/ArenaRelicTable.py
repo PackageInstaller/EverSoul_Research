@@ -25,7 +25,7 @@ class ArenaRelicTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ArenaRelicTable
-    def ArenaRelics(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ArenaRelicTable(object):
         return None
 
     # ArenaRelicTable
-    def ArenaRelicsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ArenaRelicTable
-    def ArenaRelicsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ArenaRelicTableStart(builder):
 def Start(builder):
     ArenaRelicTableStart(builder)
 
-def ArenaRelicTableAddArenaRelics(builder, arenaRelics):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(arenaRelics), 0)
+def ArenaRelicTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddArenaRelics(builder, arenaRelics):
-    ArenaRelicTableAddArenaRelics(builder, arenaRelics)
+def AddJson(builder, json):
+    ArenaRelicTableAddJson(builder, json)
 
-def ArenaRelicTableStartArenaRelicsVector(builder, numElems):
+def ArenaRelicTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartArenaRelicsVector(builder, numElems):
-    return ArenaRelicTableStartArenaRelicsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ArenaRelicTableStartJsonVector(builder, numElems)
 
 def ArenaRelicTableEnd(builder):
     return builder.EndObject()

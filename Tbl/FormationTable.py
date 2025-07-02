@@ -25,7 +25,7 @@ class FormationTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # FormationTable
-    def Formations(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class FormationTable(object):
         return None
 
     # FormationTable
-    def FormationsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # FormationTable
-    def FormationsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def FormationTableStart(builder):
 def Start(builder):
     FormationTableStart(builder)
 
-def FormationTableAddFormations(builder, formations):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(formations), 0)
+def FormationTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddFormations(builder, formations):
-    FormationTableAddFormations(builder, formations)
+def AddJson(builder, json):
+    FormationTableAddJson(builder, json)
 
-def FormationTableStartFormationsVector(builder, numElems):
+def FormationTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartFormationsVector(builder, numElems):
-    return FormationTableStartFormationsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return FormationTableStartJsonVector(builder, numElems)
 
 def FormationTableEnd(builder):
     return builder.EndObject()

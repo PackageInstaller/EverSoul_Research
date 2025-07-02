@@ -3,19 +3,19 @@ namespace Tbl;
 table Soullink {
   no: int32;
   collection: int32;
-  group__slot: string;
-  group__content: string;
-  group__hero1: int32;
-  group__hero2: int32;
-  group__hero3: int32;
-  group__hero4: int32;
-  group__title: int32;
-  group__story: int32;
+  group_slot: string;
+  group_content: string;
+  group_hero1: int32;
+  group_hero2: int32;
+  group_hero3: int32;
+  group_hero4: int32;
+  group_title: int32;
+  group_story: int32;
   open_date: string;
 }
 
 table SoullinkTable {
-  soullinks: [Soullink];
+  json: [Soullink];
 }
 
 root_type SoullinkTable;

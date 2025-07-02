@@ -25,7 +25,7 @@ class TownAnimationBubbleTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TownAnimationBubbleTable
-    def TownAnimationBubbles(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TownAnimationBubbleTable(object):
         return None
 
     # TownAnimationBubbleTable
-    def TownAnimationBubblesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TownAnimationBubbleTable
-    def TownAnimationBubblesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TownAnimationBubbleTableStart(builder):
 def Start(builder):
     TownAnimationBubbleTableStart(builder)
 
-def TownAnimationBubbleTableAddTownAnimationBubbles(builder, townAnimationBubbles):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(townAnimationBubbles), 0)
+def TownAnimationBubbleTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTownAnimationBubbles(builder, townAnimationBubbles):
-    TownAnimationBubbleTableAddTownAnimationBubbles(builder, townAnimationBubbles)
+def AddJson(builder, json):
+    TownAnimationBubbleTableAddJson(builder, json)
 
-def TownAnimationBubbleTableStartTownAnimationBubblesVector(builder, numElems):
+def TownAnimationBubbleTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTownAnimationBubblesVector(builder, numElems):
-    return TownAnimationBubbleTableStartTownAnimationBubblesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TownAnimationBubbleTableStartJsonVector(builder, numElems)
 
 def TownAnimationBubbleTableEnd(builder):
     return builder.EndObject()

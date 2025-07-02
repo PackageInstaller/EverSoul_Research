@@ -25,7 +25,7 @@ class EventSelectStageBuffTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventSelectStageBuffTable
-    def EventSelectStageBuffs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventSelectStageBuffTable(object):
         return None
 
     # EventSelectStageBuffTable
-    def EventSelectStageBuffsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventSelectStageBuffTable
-    def EventSelectStageBuffsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventSelectStageBuffTableStart(builder):
 def Start(builder):
     EventSelectStageBuffTableStart(builder)
 
-def EventSelectStageBuffTableAddEventSelectStageBuffs(builder, eventSelectStageBuffs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventSelectStageBuffs), 0)
+def EventSelectStageBuffTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventSelectStageBuffs(builder, eventSelectStageBuffs):
-    EventSelectStageBuffTableAddEventSelectStageBuffs(builder, eventSelectStageBuffs)
+def AddJson(builder, json):
+    EventSelectStageBuffTableAddJson(builder, json)
 
-def EventSelectStageBuffTableStartEventSelectStageBuffsVector(builder, numElems):
+def EventSelectStageBuffTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventSelectStageBuffsVector(builder, numElems):
-    return EventSelectStageBuffTableStartEventSelectStageBuffsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventSelectStageBuffTableStartJsonVector(builder, numElems)
 
 def EventSelectStageBuffTableEnd(builder):
     return builder.EndObject()

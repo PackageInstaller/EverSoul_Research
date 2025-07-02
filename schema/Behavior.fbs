@@ -7,7 +7,7 @@ table Behavior {
 }
 
 table BehaviorTable {
-  behaviors: [Behavior];
+  json: [Behavior];
 }
 
 root_type BehaviorTable;

@@ -12,7 +12,7 @@ table TownBuff {
 }
 
 table TownBuffTable {
-  town_buffs: [TownBuff];
+  json: [TownBuff];
 }
 
 root_type TownBuffTable;

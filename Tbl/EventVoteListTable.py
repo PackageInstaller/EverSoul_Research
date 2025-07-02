@@ -25,7 +25,7 @@ class EventVoteListTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventVoteListTable
-    def EventVoteLists(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventVoteListTable(object):
         return None
 
     # EventVoteListTable
-    def EventVoteListsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventVoteListTable
-    def EventVoteListsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventVoteListTableStart(builder):
 def Start(builder):
     EventVoteListTableStart(builder)
 
-def EventVoteListTableAddEventVoteLists(builder, eventVoteLists):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventVoteLists), 0)
+def EventVoteListTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventVoteLists(builder, eventVoteLists):
-    EventVoteListTableAddEventVoteLists(builder, eventVoteLists)
+def AddJson(builder, json):
+    EventVoteListTableAddJson(builder, json)
 
-def EventVoteListTableStartEventVoteListsVector(builder, numElems):
+def EventVoteListTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventVoteListsVector(builder, numElems):
-    return EventVoteListTableStartEventVoteListsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventVoteListTableStartJsonVector(builder, numElems)
 
 def EventVoteListTableEnd(builder):
     return builder.EndObject()

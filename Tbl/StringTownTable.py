@@ -25,7 +25,7 @@ class StringTownTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # StringTownTable
-    def StringTowns(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class StringTownTable(object):
         return None
 
     # StringTownTable
-    def StringTownsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # StringTownTable
-    def StringTownsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def StringTownTableStart(builder):
 def Start(builder):
     StringTownTableStart(builder)
 
-def StringTownTableAddStringTowns(builder, stringTowns):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(stringTowns), 0)
+def StringTownTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddStringTowns(builder, stringTowns):
-    StringTownTableAddStringTowns(builder, stringTowns)
+def AddJson(builder, json):
+    StringTownTableAddJson(builder, json)
 
-def StringTownTableStartStringTownsVector(builder, numElems):
+def StringTownTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartStringTownsVector(builder, numElems):
-    return StringTownTableStartStringTownsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return StringTownTableStartJsonVector(builder, numElems)
 
 def StringTownTableEnd(builder):
     return builder.EndObject()

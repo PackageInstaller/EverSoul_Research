@@ -20,7 +20,7 @@ table EdenAllianceConstraint {
 }
 
 table EdenAllianceConstraintTable {
-  eden_alliance_constraints: [EdenAllianceConstraint];
+  json: [EdenAllianceConstraint];
 }
 
 root_type EdenAllianceConstraintTable;

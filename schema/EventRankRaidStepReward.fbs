@@ -19,7 +19,7 @@ table EventRankRaidStepReward {
 }
 
 table EventRankRaidStepRewardTable {
-  event_rank_raid_step_rewards: [EventRankRaidStepReward];
+  json: [EventRankRaidStepReward];
 }
 
 root_type EventRankRaidStepRewardTable;

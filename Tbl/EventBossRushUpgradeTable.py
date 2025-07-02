@@ -25,7 +25,7 @@ class EventBossRushUpgradeTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventBossRushUpgradeTable
-    def EventBossRushUpgrades(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventBossRushUpgradeTable(object):
         return None
 
     # EventBossRushUpgradeTable
-    def EventBossRushUpgradesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventBossRushUpgradeTable
-    def EventBossRushUpgradesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventBossRushUpgradeTableStart(builder):
 def Start(builder):
     EventBossRushUpgradeTableStart(builder)
 
-def EventBossRushUpgradeTableAddEventBossRushUpgrades(builder, eventBossRushUpgrades):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventBossRushUpgrades), 0)
+def EventBossRushUpgradeTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventBossRushUpgrades(builder, eventBossRushUpgrades):
-    EventBossRushUpgradeTableAddEventBossRushUpgrades(builder, eventBossRushUpgrades)
+def AddJson(builder, json):
+    EventBossRushUpgradeTableAddJson(builder, json)
 
-def EventBossRushUpgradeTableStartEventBossRushUpgradesVector(builder, numElems):
+def EventBossRushUpgradeTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventBossRushUpgradesVector(builder, numElems):
-    return EventBossRushUpgradeTableStartEventBossRushUpgradesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventBossRushUpgradeTableStartJsonVector(builder, numElems)
 
 def EventBossRushUpgradeTableEnd(builder):
     return builder.EndObject()

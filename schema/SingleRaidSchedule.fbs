@@ -9,7 +9,7 @@ table SingleRaidSchedule {
 }
 
 table SingleRaidScheduleTable {
-  single_raid_schedules: [SingleRaidSchedule];
+  json: [SingleRaidSchedule];
 }
 
 root_type SingleRaidScheduleTable;

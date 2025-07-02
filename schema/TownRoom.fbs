@@ -13,7 +13,7 @@ table TownRoom {
 }
 
 table TownRoomTable {
-  town_rooms: [TownRoom];
+  json: [TownRoom];
 }
 
 root_type TownRoomTable;

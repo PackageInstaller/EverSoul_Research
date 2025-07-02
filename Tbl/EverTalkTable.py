@@ -25,7 +25,7 @@ class EverTalkTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EverTalkTable
-    def EverTalks(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EverTalkTable(object):
         return None
 
     # EverTalkTable
-    def EverTalksLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EverTalkTable
-    def EverTalksIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EverTalkTableStart(builder):
 def Start(builder):
     EverTalkTableStart(builder)
 
-def EverTalkTableAddEverTalks(builder, everTalks):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(everTalks), 0)
+def EverTalkTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEverTalks(builder, everTalks):
-    EverTalkTableAddEverTalks(builder, everTalks)
+def AddJson(builder, json):
+    EverTalkTableAddJson(builder, json)
 
-def EverTalkTableStartEverTalksVector(builder, numElems):
+def EverTalkTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEverTalksVector(builder, numElems):
-    return EverTalkTableStartEverTalksVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EverTalkTableStartJsonVector(builder, numElems)
 
 def EverTalkTableEnd(builder):
     return builder.EndObject()

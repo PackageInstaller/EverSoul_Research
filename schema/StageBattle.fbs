@@ -35,7 +35,7 @@ table StageBattle {
 }
 
 table StageBattleTable {
-  stage_battles: [StageBattle];
+  json: [StageBattle];
 }
 
 root_type StageBattleTable;

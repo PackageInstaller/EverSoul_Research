@@ -13,7 +13,7 @@ table EventChallengeStageReward {
 }
 
 table EventChallengeStageRewardTable {
-  event_challenge_stage_rewards: [EventChallengeStageReward];
+  json: [EventChallengeStageReward];
 }
 
 root_type EventChallengeStageRewardTable;

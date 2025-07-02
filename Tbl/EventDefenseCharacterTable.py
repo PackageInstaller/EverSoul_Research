@@ -25,7 +25,7 @@ class EventDefenseCharacterTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDefenseCharacterTable
-    def EventDefenseCharacters(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDefenseCharacterTable(object):
         return None
 
     # EventDefenseCharacterTable
-    def EventDefenseCharactersLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDefenseCharacterTable
-    def EventDefenseCharactersIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDefenseCharacterTableStart(builder):
 def Start(builder):
     EventDefenseCharacterTableStart(builder)
 
-def EventDefenseCharacterTableAddEventDefenseCharacters(builder, eventDefenseCharacters):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDefenseCharacters), 0)
+def EventDefenseCharacterTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDefenseCharacters(builder, eventDefenseCharacters):
-    EventDefenseCharacterTableAddEventDefenseCharacters(builder, eventDefenseCharacters)
+def AddJson(builder, json):
+    EventDefenseCharacterTableAddJson(builder, json)
 
-def EventDefenseCharacterTableStartEventDefenseCharactersVector(builder, numElems):
+def EventDefenseCharacterTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDefenseCharactersVector(builder, numElems):
-    return EventDefenseCharacterTableStartEventDefenseCharactersVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDefenseCharacterTableStartJsonVector(builder, numElems)
 
 def EventDefenseCharacterTableEnd(builder):
     return builder.EndObject()

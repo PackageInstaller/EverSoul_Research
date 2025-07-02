@@ -10,7 +10,7 @@ table GachaSignatureMileageReward {
 }
 
 table GachaSignatureMileageRewardTable {
-  gacha_signature_mileage_rewards: [GachaSignatureMileageReward];
+  json: [GachaSignatureMileageReward];
 }
 
 root_type GachaSignatureMileageRewardTable;

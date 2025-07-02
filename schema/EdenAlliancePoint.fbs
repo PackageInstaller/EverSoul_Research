@@ -7,7 +7,7 @@ table EdenAlliancePoint {
 }
 
 table EdenAlliancePointTable {
-  eden_alliance_points: [EdenAlliancePoint];
+  json: [EdenAlliancePoint];
 }
 
 root_type EdenAlliancePointTable;

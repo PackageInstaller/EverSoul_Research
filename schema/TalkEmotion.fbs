@@ -9,7 +9,7 @@ table TalkEmotion {
 }
 
 table TalkEmotionTable {
-  talk_emotions: [TalkEmotion];
+  json: [TalkEmotion];
 }
 
 root_type TalkEmotionTable;

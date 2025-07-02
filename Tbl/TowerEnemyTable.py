@@ -25,7 +25,7 @@ class TowerEnemyTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TowerEnemyTable
-    def TowerEnemys(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TowerEnemyTable(object):
         return None
 
     # TowerEnemyTable
-    def TowerEnemysLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TowerEnemyTable
-    def TowerEnemysIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TowerEnemyTableStart(builder):
 def Start(builder):
     TowerEnemyTableStart(builder)
 
-def TowerEnemyTableAddTowerEnemys(builder, towerEnemys):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(towerEnemys), 0)
+def TowerEnemyTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTowerEnemys(builder, towerEnemys):
-    TowerEnemyTableAddTowerEnemys(builder, towerEnemys)
+def AddJson(builder, json):
+    TowerEnemyTableAddJson(builder, json)
 
-def TowerEnemyTableStartTowerEnemysVector(builder, numElems):
+def TowerEnemyTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTowerEnemysVector(builder, numElems):
-    return TowerEnemyTableStartTowerEnemysVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TowerEnemyTableStartJsonVector(builder, numElems)
 
 def TowerEnemyTableEnd(builder):
     return builder.EndObject()

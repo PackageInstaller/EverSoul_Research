@@ -25,7 +25,7 @@ class TalkActorTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TalkActorTable
-    def TalkActors(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TalkActorTable(object):
         return None
 
     # TalkActorTable
-    def TalkActorsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TalkActorTable
-    def TalkActorsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TalkActorTableStart(builder):
 def Start(builder):
     TalkActorTableStart(builder)
 
-def TalkActorTableAddTalkActors(builder, talkActors):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(talkActors), 0)
+def TalkActorTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTalkActors(builder, talkActors):
-    TalkActorTableAddTalkActors(builder, talkActors)
+def AddJson(builder, json):
+    TalkActorTableAddJson(builder, json)
 
-def TalkActorTableStartTalkActorsVector(builder, numElems):
+def TalkActorTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTalkActorsVector(builder, numElems):
-    return TalkActorTableStartTalkActorsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TalkActorTableStartJsonVector(builder, numElems)
 
 def TalkActorTableEnd(builder):
     return builder.EndObject()

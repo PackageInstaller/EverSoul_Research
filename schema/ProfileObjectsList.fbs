@@ -8,7 +8,7 @@ table ProfileObjectsList {
 }
 
 table ProfileObjectsListTable {
-  profile_objects_lists: [ProfileObjectsList];
+  json: [ProfileObjectsList];
 }
 
 root_type ProfileObjectsListTable;

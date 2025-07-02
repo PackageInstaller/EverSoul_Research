@@ -25,7 +25,7 @@ class AnniversaryTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # AnniversaryTable
-    def Anniversarys(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class AnniversaryTable(object):
         return None
 
     # AnniversaryTable
-    def AnniversarysLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # AnniversaryTable
-    def AnniversarysIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def AnniversaryTableStart(builder):
 def Start(builder):
     AnniversaryTableStart(builder)
 
-def AnniversaryTableAddAnniversarys(builder, anniversarys):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(anniversarys), 0)
+def AnniversaryTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddAnniversarys(builder, anniversarys):
-    AnniversaryTableAddAnniversarys(builder, anniversarys)
+def AddJson(builder, json):
+    AnniversaryTableAddJson(builder, json)
 
-def AnniversaryTableStartAnniversarysVector(builder, numElems):
+def AnniversaryTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartAnniversarysVector(builder, numElems):
-    return AnniversaryTableStartAnniversarysVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return AnniversaryTableStartJsonVector(builder, numElems)
 
 def AnniversaryTableEnd(builder):
     return builder.EndObject()

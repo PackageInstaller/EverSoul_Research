@@ -8,7 +8,7 @@ table SkillGridPosition {
 }
 
 table SkillGridPositionTable {
-  skill_grid_positions: [SkillGridPosition];
+  json: [SkillGridPosition];
 }
 
 root_type SkillGridPositionTable;

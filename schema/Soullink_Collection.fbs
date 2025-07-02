@@ -13,7 +13,7 @@ table Soullink_Collection {
 }
 
 table Soullink_CollectionTable {
-  soullink__collections: [Soullink_Collection];
+  json: [Soullink_Collection];
 }
 
 root_type Soullink_CollectionTable;

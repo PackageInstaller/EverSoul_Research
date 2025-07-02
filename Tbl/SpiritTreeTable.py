@@ -25,7 +25,7 @@ class SpiritTreeTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SpiritTreeTable
-    def SpiritTrees(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SpiritTreeTable(object):
         return None
 
     # SpiritTreeTable
-    def SpiritTreesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SpiritTreeTable
-    def SpiritTreesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SpiritTreeTableStart(builder):
 def Start(builder):
     SpiritTreeTableStart(builder)
 
-def SpiritTreeTableAddSpiritTrees(builder, spiritTrees):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(spiritTrees), 0)
+def SpiritTreeTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSpiritTrees(builder, spiritTrees):
-    SpiritTreeTableAddSpiritTrees(builder, spiritTrees)
+def AddJson(builder, json):
+    SpiritTreeTableAddJson(builder, json)
 
-def SpiritTreeTableStartSpiritTreesVector(builder, numElems):
+def SpiritTreeTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSpiritTreesVector(builder, numElems):
-    return SpiritTreeTableStartSpiritTreesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SpiritTreeTableStartJsonVector(builder, numElems)
 
 def SpiritTreeTableEnd(builder):
     return builder.EndObject()

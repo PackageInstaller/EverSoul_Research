@@ -25,7 +25,7 @@ class RankTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # RankTable
-    def Ranks(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class RankTable(object):
         return None
 
     # RankTable
-    def RanksLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # RankTable
-    def RanksIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def RankTableStart(builder):
 def Start(builder):
     RankTableStart(builder)
 
-def RankTableAddRanks(builder, ranks):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(ranks), 0)
+def RankTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddRanks(builder, ranks):
-    RankTableAddRanks(builder, ranks)
+def AddJson(builder, json):
+    RankTableAddJson(builder, json)
 
-def RankTableStartRanksVector(builder, numElems):
+def RankTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartRanksVector(builder, numElems):
-    return RankTableStartRanksVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return RankTableStartJsonVector(builder, numElems)
 
 def RankTableEnd(builder):
     return builder.EndObject()

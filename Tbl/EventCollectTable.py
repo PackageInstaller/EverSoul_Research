@@ -25,7 +25,7 @@ class EventCollectTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventCollectTable
-    def EventCollects(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventCollectTable(object):
         return None
 
     # EventCollectTable
-    def EventCollectsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventCollectTable
-    def EventCollectsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventCollectTableStart(builder):
 def Start(builder):
     EventCollectTableStart(builder)
 
-def EventCollectTableAddEventCollects(builder, eventCollects):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventCollects), 0)
+def EventCollectTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventCollects(builder, eventCollects):
-    EventCollectTableAddEventCollects(builder, eventCollects)
+def AddJson(builder, json):
+    EventCollectTableAddJson(builder, json)
 
-def EventCollectTableStartEventCollectsVector(builder, numElems):
+def EventCollectTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventCollectsVector(builder, numElems):
-    return EventCollectTableStartEventCollectsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventCollectTableStartJsonVector(builder, numElems)
 
 def EventCollectTableEnd(builder):
     return builder.EndObject()

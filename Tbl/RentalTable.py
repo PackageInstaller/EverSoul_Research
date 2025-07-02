@@ -25,7 +25,7 @@ class RentalTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # RentalTable
-    def Rentals(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class RentalTable(object):
         return None
 
     # RentalTable
-    def RentalsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # RentalTable
-    def RentalsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def RentalTableStart(builder):
 def Start(builder):
     RentalTableStart(builder)
 
-def RentalTableAddRentals(builder, rentals):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(rentals), 0)
+def RentalTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddRentals(builder, rentals):
-    RentalTableAddRentals(builder, rentals)
+def AddJson(builder, json):
+    RentalTableAddJson(builder, json)
 
-def RentalTableStartRentalsVector(builder, numElems):
+def RentalTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartRentalsVector(builder, numElems):
-    return RentalTableStartRentalsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return RentalTableStartJsonVector(builder, numElems)
 
 def RentalTableEnd(builder):
     return builder.EndObject()

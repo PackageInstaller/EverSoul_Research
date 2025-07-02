@@ -25,7 +25,7 @@ class ItemDropGroupTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ItemDropGroupTable
-    def ItemDropGroups(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ItemDropGroupTable(object):
         return None
 
     # ItemDropGroupTable
-    def ItemDropGroupsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ItemDropGroupTable
-    def ItemDropGroupsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ItemDropGroupTableStart(builder):
 def Start(builder):
     ItemDropGroupTableStart(builder)
 
-def ItemDropGroupTableAddItemDropGroups(builder, itemDropGroups):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(itemDropGroups), 0)
+def ItemDropGroupTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddItemDropGroups(builder, itemDropGroups):
-    ItemDropGroupTableAddItemDropGroups(builder, itemDropGroups)
+def AddJson(builder, json):
+    ItemDropGroupTableAddJson(builder, json)
 
-def ItemDropGroupTableStartItemDropGroupsVector(builder, numElems):
+def ItemDropGroupTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartItemDropGroupsVector(builder, numElems):
-    return ItemDropGroupTableStartItemDropGroupsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ItemDropGroupTableStartJsonVector(builder, numElems)
 
 def ItemDropGroupTableEnd(builder):
     return builder.EndObject()

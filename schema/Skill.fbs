@@ -40,7 +40,7 @@ table Skill {
 }
 
 table SkillTable {
-  skills: [Skill];
+  json: [Skill];
 }
 
 root_type SkillTable;

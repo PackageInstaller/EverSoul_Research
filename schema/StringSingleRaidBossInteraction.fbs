@@ -9,7 +9,7 @@ table StringSingleRaidBossInteraction {
 }
 
 table StringSingleRaidBossInteractionTable {
-  string_single_raid_boss_interactions: [StringSingleRaidBossInteraction];
+  json: [StringSingleRaidBossInteraction];
 }
 
 root_type StringSingleRaidBossInteractionTable;

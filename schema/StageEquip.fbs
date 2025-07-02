@@ -13,7 +13,7 @@ table StageEquip {
 }
 
 table StageEquipTable {
-  stage_equips: [StageEquip];
+  json: [StageEquip];
 }
 
 root_type StageEquipTable;

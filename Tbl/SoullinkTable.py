@@ -25,7 +25,7 @@ class SoullinkTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SoullinkTable
-    def Soullinks(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SoullinkTable(object):
         return None
 
     # SoullinkTable
-    def SoullinksLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SoullinkTable
-    def SoullinksIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SoullinkTableStart(builder):
 def Start(builder):
     SoullinkTableStart(builder)
 
-def SoullinkTableAddSoullinks(builder, soullinks):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(soullinks), 0)
+def SoullinkTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSoullinks(builder, soullinks):
-    SoullinkTableAddSoullinks(builder, soullinks)
+def AddJson(builder, json):
+    SoullinkTableAddJson(builder, json)
 
-def SoullinkTableStartSoullinksVector(builder, numElems):
+def SoullinkTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSoullinksVector(builder, numElems):
-    return SoullinkTableStartSoullinksVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SoullinkTableStartJsonVector(builder, numElems)
 
 def SoullinkTableEnd(builder):
     return builder.EndObject()

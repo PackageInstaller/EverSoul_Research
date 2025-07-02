@@ -9,7 +9,7 @@ table SkillBuffResist {
 }
 
 table SkillBuffResistTable {
-  skill_buff_resists: [SkillBuffResist];
+  json: [SkillBuffResist];
 }
 
 root_type SkillBuffResistTable;

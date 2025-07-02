@@ -13,7 +13,7 @@ table EventBossRushLevel {
 }
 
 table EventBossRushLevelTable {
-  event_boss_rush_levels: [EventBossRushLevel];
+  json: [EventBossRushLevel];
 }
 
 root_type EventBossRushLevelTable;

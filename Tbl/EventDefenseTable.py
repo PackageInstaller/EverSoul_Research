@@ -25,7 +25,7 @@ class EventDefenseTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDefenseTable
-    def EventDefenses(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDefenseTable(object):
         return None
 
     # EventDefenseTable
-    def EventDefensesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDefenseTable
-    def EventDefensesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDefenseTableStart(builder):
 def Start(builder):
     EventDefenseTableStart(builder)
 
-def EventDefenseTableAddEventDefenses(builder, eventDefenses):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDefenses), 0)
+def EventDefenseTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDefenses(builder, eventDefenses):
-    EventDefenseTableAddEventDefenses(builder, eventDefenses)
+def AddJson(builder, json):
+    EventDefenseTableAddJson(builder, json)
 
-def EventDefenseTableStartEventDefensesVector(builder, numElems):
+def EventDefenseTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDefensesVector(builder, numElems):
-    return EventDefenseTableStartEventDefensesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDefenseTableStartJsonVector(builder, numElems)
 
 def EventDefenseTableEnd(builder):
     return builder.EndObject()

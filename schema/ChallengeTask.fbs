@@ -9,7 +9,7 @@ table ChallengeTask {
 }
 
 table ChallengeTaskTable {
-  challenge_tasks: [ChallengeTask];
+  json: [ChallengeTask];
 }
 
 root_type ChallengeTaskTable;

@@ -25,7 +25,7 @@ class EventGroupInfoTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventGroupInfoTable
-    def EventGroupInfos(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventGroupInfoTable(object):
         return None
 
     # EventGroupInfoTable
-    def EventGroupInfosLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventGroupInfoTable
-    def EventGroupInfosIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventGroupInfoTableStart(builder):
 def Start(builder):
     EventGroupInfoTableStart(builder)
 
-def EventGroupInfoTableAddEventGroupInfos(builder, eventGroupInfos):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventGroupInfos), 0)
+def EventGroupInfoTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventGroupInfos(builder, eventGroupInfos):
-    EventGroupInfoTableAddEventGroupInfos(builder, eventGroupInfos)
+def AddJson(builder, json):
+    EventGroupInfoTableAddJson(builder, json)
 
-def EventGroupInfoTableStartEventGroupInfosVector(builder, numElems):
+def EventGroupInfoTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventGroupInfosVector(builder, numElems):
-    return EventGroupInfoTableStartEventGroupInfosVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventGroupInfoTableStartJsonVector(builder, numElems)
 
 def EventGroupInfoTableEnd(builder):
     return builder.EndObject()

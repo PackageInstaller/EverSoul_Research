@@ -9,7 +9,7 @@ table DoubleGateBuff {
 }
 
 table DoubleGateBuffTable {
-  double_gate_buffs: [DoubleGateBuff];
+  json: [DoubleGateBuff];
 }
 
 root_type DoubleGateBuffTable;

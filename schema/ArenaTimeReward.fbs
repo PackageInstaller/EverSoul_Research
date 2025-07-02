@@ -12,7 +12,7 @@ table ArenaTimeReward {
 }
 
 table ArenaTimeRewardTable {
-  arena_time_rewards: [ArenaTimeReward];
+  json: [ArenaTimeReward];
 }
 
 root_type ArenaTimeRewardTable;

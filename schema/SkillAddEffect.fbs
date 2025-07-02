@@ -15,7 +15,7 @@ table SkillAddEffect {
 }
 
 table SkillAddEffectTable {
-  skill_add_effects: [SkillAddEffect];
+  json: [SkillAddEffect];
 }
 
 root_type SkillAddEffectTable;

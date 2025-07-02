@@ -25,7 +25,7 @@ class StringCashshopTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # StringCashshopTable
-    def StringCashshops(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class StringCashshopTable(object):
         return None
 
     # StringCashshopTable
-    def StringCashshopsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # StringCashshopTable
-    def StringCashshopsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def StringCashshopTableStart(builder):
 def Start(builder):
     StringCashshopTableStart(builder)
 
-def StringCashshopTableAddStringCashshops(builder, stringCashshops):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(stringCashshops), 0)
+def StringCashshopTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddStringCashshops(builder, stringCashshops):
-    StringCashshopTableAddStringCashshops(builder, stringCashshops)
+def AddJson(builder, json):
+    StringCashshopTableAddJson(builder, json)
 
-def StringCashshopTableStartStringCashshopsVector(builder, numElems):
+def StringCashshopTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartStringCashshopsVector(builder, numElems):
-    return StringCashshopTableStartStringCashshopsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return StringCashshopTableStartJsonVector(builder, numElems)
 
 def StringCashshopTableEnd(builder):
     return builder.EndObject()

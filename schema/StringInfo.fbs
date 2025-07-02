@@ -11,7 +11,7 @@ table StringInfo {
 }
 
 table StringInfoTable {
-  string_infos: [StringInfo];
+  json: [StringInfo];
 }
 
 root_type StringInfoTable;

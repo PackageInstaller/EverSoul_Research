@@ -25,7 +25,7 @@ class ArbeitBonusTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ArbeitBonusTable
-    def ArbeitBonuss(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ArbeitBonusTable(object):
         return None
 
     # ArbeitBonusTable
-    def ArbeitBonussLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ArbeitBonusTable
-    def ArbeitBonussIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ArbeitBonusTableStart(builder):
 def Start(builder):
     ArbeitBonusTableStart(builder)
 
-def ArbeitBonusTableAddArbeitBonuss(builder, arbeitBonuss):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(arbeitBonuss), 0)
+def ArbeitBonusTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddArbeitBonuss(builder, arbeitBonuss):
-    ArbeitBonusTableAddArbeitBonuss(builder, arbeitBonuss)
+def AddJson(builder, json):
+    ArbeitBonusTableAddJson(builder, json)
 
-def ArbeitBonusTableStartArbeitBonussVector(builder, numElems):
+def ArbeitBonusTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartArbeitBonussVector(builder, numElems):
-    return ArbeitBonusTableStartArbeitBonussVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ArbeitBonusTableStartJsonVector(builder, numElems)
 
 def ArbeitBonusTableEnd(builder):
     return builder.EndObject()

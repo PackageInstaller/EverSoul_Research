@@ -7,7 +7,7 @@ table Sticker {
 }
 
 table StickerTable {
-  stickers: [Sticker];
+  json: [Sticker];
 }
 
 root_type StickerTable;

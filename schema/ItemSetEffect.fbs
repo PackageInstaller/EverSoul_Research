@@ -9,7 +9,7 @@ table ItemSetEffect {
 }
 
 table ItemSetEffectTable {
-  item_set_effects: [ItemSetEffect];
+  json: [ItemSetEffect];
 }
 
 root_type ItemSetEffectTable;

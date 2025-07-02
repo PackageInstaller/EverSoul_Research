@@ -25,7 +25,7 @@ class StickerTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # StickerTable
-    def Stickers(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class StickerTable(object):
         return None
 
     # StickerTable
-    def StickersLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # StickerTable
-    def StickersIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def StickerTableStart(builder):
 def Start(builder):
     StickerTableStart(builder)
 
-def StickerTableAddStickers(builder, stickers):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(stickers), 0)
+def StickerTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddStickers(builder, stickers):
-    StickerTableAddStickers(builder, stickers)
+def AddJson(builder, json):
+    StickerTableAddJson(builder, json)
 
-def StickerTableStartStickersVector(builder, numElems):
+def StickerTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartStickersVector(builder, numElems):
-    return StickerTableStartStickersVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return StickerTableStartJsonVector(builder, numElems)
 
 def StickerTableEnd(builder):
     return builder.EndObject()

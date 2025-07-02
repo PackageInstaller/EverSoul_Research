@@ -11,7 +11,7 @@ table Level {
 }
 
 table LevelTable {
-  levels: [Level];
+  json: [Level];
 }
 
 root_type LevelTable;

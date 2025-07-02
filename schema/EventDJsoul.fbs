@@ -16,7 +16,7 @@ table EventDJsoul {
 }
 
 table EventDJsoulTable {
-  event_d_jsouls: [EventDJsoul];
+  json: [EventDJsoul];
 }
 
 root_type EventDJsoulTable;

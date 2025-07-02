@@ -14,7 +14,7 @@ table EventShopUI {
 }
 
 table EventShopUITable {
-  event_shop_u_is: [EventShopUI];
+  json: [EventShopUI];
 }
 
 root_type EventShopUITable;

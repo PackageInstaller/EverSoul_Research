@@ -8,7 +8,7 @@ table EventBossRushRental {
 }
 
 table EventBossRushRentalTable {
-  event_boss_rush_rentals: [EventBossRushRental];
+  json: [EventBossRushRental];
 }
 
 root_type EventBossRushRentalTable;

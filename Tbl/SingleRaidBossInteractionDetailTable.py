@@ -25,7 +25,7 @@ class SingleRaidBossInteractionDetailTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SingleRaidBossInteractionDetailTable
-    def SingleRaidBossInteractionDetails(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SingleRaidBossInteractionDetailTable(object):
         return None
 
     # SingleRaidBossInteractionDetailTable
-    def SingleRaidBossInteractionDetailsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SingleRaidBossInteractionDetailTable
-    def SingleRaidBossInteractionDetailsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SingleRaidBossInteractionDetailTableStart(builder):
 def Start(builder):
     SingleRaidBossInteractionDetailTableStart(builder)
 
-def SingleRaidBossInteractionDetailTableAddSingleRaidBossInteractionDetails(builder, singleRaidBossInteractionDetails):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(singleRaidBossInteractionDetails), 0)
+def SingleRaidBossInteractionDetailTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSingleRaidBossInteractionDetails(builder, singleRaidBossInteractionDetails):
-    SingleRaidBossInteractionDetailTableAddSingleRaidBossInteractionDetails(builder, singleRaidBossInteractionDetails)
+def AddJson(builder, json):
+    SingleRaidBossInteractionDetailTableAddJson(builder, json)
 
-def SingleRaidBossInteractionDetailTableStartSingleRaidBossInteractionDetailsVector(builder, numElems):
+def SingleRaidBossInteractionDetailTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSingleRaidBossInteractionDetailsVector(builder, numElems):
-    return SingleRaidBossInteractionDetailTableStartSingleRaidBossInteractionDetailsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SingleRaidBossInteractionDetailTableStartJsonVector(builder, numElems)
 
 def SingleRaidBossInteractionDetailTableEnd(builder):
     return builder.EndObject()

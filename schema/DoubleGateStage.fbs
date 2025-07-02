@@ -11,7 +11,7 @@ table DoubleGateStage {
 }
 
 table DoubleGateStageTable {
-  double_gate_stages: [DoubleGateStage];
+  json: [DoubleGateStage];
 }
 
 root_type DoubleGateStageTable;

@@ -10,7 +10,7 @@ table LocalizationSchedule {
 }
 
 table LocalizationScheduleTable {
-  localization_schedules: [LocalizationSchedule];
+  json: [LocalizationSchedule];
 }
 
 root_type LocalizationScheduleTable;

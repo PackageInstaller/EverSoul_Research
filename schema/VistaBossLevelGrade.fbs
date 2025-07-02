@@ -7,7 +7,7 @@ table VistaBossLevelGrade {
 }
 
 table VistaBossLevelGradeTable {
-  vista_boss_level_grades: [VistaBossLevelGrade];
+  json: [VistaBossLevelGrade];
 }
 
 root_type VistaBossLevelGradeTable;

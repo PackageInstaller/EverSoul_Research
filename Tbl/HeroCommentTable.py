@@ -25,7 +25,7 @@ class HeroCommentTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # HeroCommentTable
-    def HeroComments(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class HeroCommentTable(object):
         return None
 
     # HeroCommentTable
-    def HeroCommentsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # HeroCommentTable
-    def HeroCommentsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def HeroCommentTableStart(builder):
 def Start(builder):
     HeroCommentTableStart(builder)
 
-def HeroCommentTableAddHeroComments(builder, heroComments):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(heroComments), 0)
+def HeroCommentTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddHeroComments(builder, heroComments):
-    HeroCommentTableAddHeroComments(builder, heroComments)
+def AddJson(builder, json):
+    HeroCommentTableAddJson(builder, json)
 
-def HeroCommentTableStartHeroCommentsVector(builder, numElems):
+def HeroCommentTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartHeroCommentsVector(builder, numElems):
-    return HeroCommentTableStartHeroCommentsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return HeroCommentTableStartJsonVector(builder, numElems)
 
 def HeroCommentTableEnd(builder):
     return builder.EndObject()

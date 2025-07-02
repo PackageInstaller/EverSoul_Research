@@ -9,7 +9,7 @@ table AlchemistGachaProbs {
 }
 
 table AlchemistGachaProbsTable {
-  alchemist_gacha_probss: [AlchemistGachaProbs];
+  json: [AlchemistGachaProbs];
 }
 
 root_type AlchemistGachaProbsTable;

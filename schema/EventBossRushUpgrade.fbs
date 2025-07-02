@@ -10,7 +10,7 @@ table EventBossRushUpgrade {
 }
 
 table EventBossRushUpgradeTable {
-  event_boss_rush_upgrades: [EventBossRushUpgrade];
+  json: [EventBossRushUpgrade];
 }
 
 root_type EventBossRushUpgradeTable;

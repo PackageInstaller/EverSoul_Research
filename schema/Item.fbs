@@ -24,7 +24,7 @@ table Item {
 }
 
 table ItemTable {
-  items: [Item];
+  json: [Item];
 }
 
 root_type ItemTable;

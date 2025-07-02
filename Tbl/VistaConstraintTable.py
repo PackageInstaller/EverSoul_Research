@@ -25,7 +25,7 @@ class VistaConstraintTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # VistaConstraintTable
-    def VistaConstraints(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class VistaConstraintTable(object):
         return None
 
     # VistaConstraintTable
-    def VistaConstraintsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # VistaConstraintTable
-    def VistaConstraintsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def VistaConstraintTableStart(builder):
 def Start(builder):
     VistaConstraintTableStart(builder)
 
-def VistaConstraintTableAddVistaConstraints(builder, vistaConstraints):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(vistaConstraints), 0)
+def VistaConstraintTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddVistaConstraints(builder, vistaConstraints):
-    VistaConstraintTableAddVistaConstraints(builder, vistaConstraints)
+def AddJson(builder, json):
+    VistaConstraintTableAddJson(builder, json)
 
-def VistaConstraintTableStartVistaConstraintsVector(builder, numElems):
+def VistaConstraintTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartVistaConstraintsVector(builder, numElems):
-    return VistaConstraintTableStartVistaConstraintsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return VistaConstraintTableStartJsonVector(builder, numElems)
 
 def VistaConstraintTableEnd(builder):
     return builder.EndObject()

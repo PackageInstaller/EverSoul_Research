@@ -25,7 +25,7 @@ class TowerTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TowerTable
-    def Towers(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TowerTable(object):
         return None
 
     # TowerTable
-    def TowersLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TowerTable
-    def TowersIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TowerTableStart(builder):
 def Start(builder):
     TowerTableStart(builder)
 
-def TowerTableAddTowers(builder, towers):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(towers), 0)
+def TowerTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTowers(builder, towers):
-    TowerTableAddTowers(builder, towers)
+def AddJson(builder, json):
+    TowerTableAddJson(builder, json)
 
-def TowerTableStartTowersVector(builder, numElems):
+def TowerTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTowersVector(builder, numElems):
-    return TowerTableStartTowersVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TowerTableStartJsonVector(builder, numElems)
 
 def TowerTableEnd(builder):
     return builder.EndObject()

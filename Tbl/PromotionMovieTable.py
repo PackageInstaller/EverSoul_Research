@@ -25,7 +25,7 @@ class PromotionMovieTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # PromotionMovieTable
-    def PromotionMovies(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class PromotionMovieTable(object):
         return None
 
     # PromotionMovieTable
-    def PromotionMoviesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # PromotionMovieTable
-    def PromotionMoviesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def PromotionMovieTableStart(builder):
 def Start(builder):
     PromotionMovieTableStart(builder)
 
-def PromotionMovieTableAddPromotionMovies(builder, promotionMovies):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(promotionMovies), 0)
+def PromotionMovieTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddPromotionMovies(builder, promotionMovies):
-    PromotionMovieTableAddPromotionMovies(builder, promotionMovies)
+def AddJson(builder, json):
+    PromotionMovieTableAddJson(builder, json)
 
-def PromotionMovieTableStartPromotionMoviesVector(builder, numElems):
+def PromotionMovieTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartPromotionMoviesVector(builder, numElems):
-    return PromotionMovieTableStartPromotionMoviesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return PromotionMovieTableStartJsonVector(builder, numElems)
 
 def PromotionMovieTableEnd(builder):
     return builder.EndObject()

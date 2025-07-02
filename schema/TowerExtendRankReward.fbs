@@ -14,7 +14,7 @@ table TowerExtendRankReward {
 }
 
 table TowerExtendRankRewardTable {
-  tower_extend_rank_rewards: [TowerExtendRankReward];
+  json: [TowerExtendRankReward];
 }
 
 root_type TowerExtendRankRewardTable;

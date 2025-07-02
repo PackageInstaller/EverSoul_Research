@@ -12,7 +12,7 @@ table EventSelectStageBuff {
 }
 
 table EventSelectStageBuffTable {
-  event_select_stage_buffs: [EventSelectStageBuff];
+  json: [EventSelectStageBuff];
 }
 
 root_type EventSelectStageBuffTable;

@@ -11,7 +11,7 @@ table StringTalk {
 }
 
 table StringTalkTable {
-  string_talks: [StringTalk];
+  json: [StringTalk];
 }
 
 root_type StringTalkTable;

@@ -13,7 +13,7 @@ table TownLostItem {
 }
 
 table TownLostItemTable {
-  town_lost_items: [TownLostItem];
+  json: [TownLostItem];
 }
 
 root_type TownLostItemTable;

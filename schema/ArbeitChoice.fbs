@@ -9,7 +9,7 @@ table ArbeitChoice {
 }
 
 table ArbeitChoiceTable {
-  arbeit_choices: [ArbeitChoice];
+  json: [ArbeitChoice];
 }
 
 root_type ArbeitChoiceTable;

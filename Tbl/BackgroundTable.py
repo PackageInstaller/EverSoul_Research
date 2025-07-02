@@ -25,7 +25,7 @@ class BackgroundTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # BackgroundTable
-    def Backgrounds(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class BackgroundTable(object):
         return None
 
     # BackgroundTable
-    def BackgroundsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # BackgroundTable
-    def BackgroundsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def BackgroundTableStart(builder):
 def Start(builder):
     BackgroundTableStart(builder)
 
-def BackgroundTableAddBackgrounds(builder, backgrounds):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(backgrounds), 0)
+def BackgroundTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddBackgrounds(builder, backgrounds):
-    BackgroundTableAddBackgrounds(builder, backgrounds)
+def AddJson(builder, json):
+    BackgroundTableAddJson(builder, json)
 
-def BackgroundTableStartBackgroundsVector(builder, numElems):
+def BackgroundTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartBackgroundsVector(builder, numElems):
-    return BackgroundTableStartBackgroundsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return BackgroundTableStartJsonVector(builder, numElems)
 
 def BackgroundTableEnd(builder):
     return builder.EndObject()

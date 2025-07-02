@@ -25,7 +25,7 @@ class ChallengeBattleTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ChallengeBattleTable
-    def ChallengeBattles(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ChallengeBattleTable(object):
         return None
 
     # ChallengeBattleTable
-    def ChallengeBattlesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ChallengeBattleTable
-    def ChallengeBattlesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ChallengeBattleTableStart(builder):
 def Start(builder):
     ChallengeBattleTableStart(builder)
 
-def ChallengeBattleTableAddChallengeBattles(builder, challengeBattles):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(challengeBattles), 0)
+def ChallengeBattleTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddChallengeBattles(builder, challengeBattles):
-    ChallengeBattleTableAddChallengeBattles(builder, challengeBattles)
+def AddJson(builder, json):
+    ChallengeBattleTableAddJson(builder, json)
 
-def ChallengeBattleTableStartChallengeBattlesVector(builder, numElems):
+def ChallengeBattleTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartChallengeBattlesVector(builder, numElems):
-    return ChallengeBattleTableStartChallengeBattlesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ChallengeBattleTableStartJsonVector(builder, numElems)
 
 def ChallengeBattleTableEnd(builder):
     return builder.EndObject()

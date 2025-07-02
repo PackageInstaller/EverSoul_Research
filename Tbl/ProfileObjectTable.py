@@ -25,7 +25,7 @@ class ProfileObjectTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ProfileObjectTable
-    def ProfileObjects(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ProfileObjectTable(object):
         return None
 
     # ProfileObjectTable
-    def ProfileObjectsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ProfileObjectTable
-    def ProfileObjectsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ProfileObjectTableStart(builder):
 def Start(builder):
     ProfileObjectTableStart(builder)
 
-def ProfileObjectTableAddProfileObjects(builder, profileObjects):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(profileObjects), 0)
+def ProfileObjectTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddProfileObjects(builder, profileObjects):
-    ProfileObjectTableAddProfileObjects(builder, profileObjects)
+def AddJson(builder, json):
+    ProfileObjectTableAddJson(builder, json)
 
-def ProfileObjectTableStartProfileObjectsVector(builder, numElems):
+def ProfileObjectTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartProfileObjectsVector(builder, numElems):
-    return ProfileObjectTableStartProfileObjectsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ProfileObjectTableStartJsonVector(builder, numElems)
 
 def ProfileObjectTableEnd(builder):
     return builder.EndObject()

@@ -8,7 +8,7 @@ table AchievementSubCategory {
 }
 
 table AchievementSubCategoryTable {
-  achievement_sub_categorys: [AchievementSubCategory];
+  json: [AchievementSubCategory];
 }
 
 root_type AchievementSubCategoryTable;

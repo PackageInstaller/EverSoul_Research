@@ -25,7 +25,7 @@ class DefalutProfileSettingTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # DefalutProfileSettingTable
-    def DefaultProfileSettings(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class DefalutProfileSettingTable(object):
         return None
 
     # DefalutProfileSettingTable
-    def DefaultProfileSettingsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # DefalutProfileSettingTable
-    def DefaultProfileSettingsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def DefalutProfileSettingTableStart(builder):
 def Start(builder):
     DefalutProfileSettingTableStart(builder)
 
-def DefalutProfileSettingTableAddDefaultProfileSettings(builder, defaultProfileSettings):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(defaultProfileSettings), 0)
+def DefalutProfileSettingTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddDefaultProfileSettings(builder, defaultProfileSettings):
-    DefalutProfileSettingTableAddDefaultProfileSettings(builder, defaultProfileSettings)
+def AddJson(builder, json):
+    DefalutProfileSettingTableAddJson(builder, json)
 
-def DefalutProfileSettingTableStartDefaultProfileSettingsVector(builder, numElems):
+def DefalutProfileSettingTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartDefaultProfileSettingsVector(builder, numElems):
-    return DefalutProfileSettingTableStartDefaultProfileSettingsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return DefalutProfileSettingTableStartJsonVector(builder, numElems)
 
 def DefalutProfileSettingTableEnd(builder):
     return builder.EndObject()

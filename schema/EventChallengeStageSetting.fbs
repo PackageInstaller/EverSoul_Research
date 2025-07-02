@@ -35,7 +35,7 @@ table EventChallengeStageSetting {
 }
 
 table EventChallengeStageSettingTable {
-  event_challenge_stage_settings: [EventChallengeStageSetting];
+  json: [EventChallengeStageSetting];
 }
 
 root_type EventChallengeStageSettingTable;

@@ -16,7 +16,7 @@ table VistaConstraint {
 }
 
 table VistaConstraintTable {
-  vista_constraints: [VistaConstraint];
+  json: [VistaConstraint];
 }
 
 root_type VistaConstraintTable;

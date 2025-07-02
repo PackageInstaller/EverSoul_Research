@@ -25,7 +25,7 @@ class DoubleGateGradeTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # DoubleGateGradeTable
-    def DoubleGateGrades(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class DoubleGateGradeTable(object):
         return None
 
     # DoubleGateGradeTable
-    def DoubleGateGradesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # DoubleGateGradeTable
-    def DoubleGateGradesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def DoubleGateGradeTableStart(builder):
 def Start(builder):
     DoubleGateGradeTableStart(builder)
 
-def DoubleGateGradeTableAddDoubleGateGrades(builder, doubleGateGrades):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(doubleGateGrades), 0)
+def DoubleGateGradeTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddDoubleGateGrades(builder, doubleGateGrades):
-    DoubleGateGradeTableAddDoubleGateGrades(builder, doubleGateGrades)
+def AddJson(builder, json):
+    DoubleGateGradeTableAddJson(builder, json)
 
-def DoubleGateGradeTableStartDoubleGateGradesVector(builder, numElems):
+def DoubleGateGradeTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartDoubleGateGradesVector(builder, numElems):
-    return DoubleGateGradeTableStartDoubleGateGradesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return DoubleGateGradeTableStartJsonVector(builder, numElems)
 
 def DoubleGateGradeTableEnd(builder):
     return builder.EndObject()

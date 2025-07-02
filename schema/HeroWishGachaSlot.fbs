@@ -9,7 +9,7 @@ table HeroWishGachaSlot {
 }
 
 table HeroWishGachaSlotTable {
-  hero_wish_gacha_slots: [HeroWishGachaSlot];
+  json: [HeroWishGachaSlot];
 }
 
 root_type HeroWishGachaSlotTable;

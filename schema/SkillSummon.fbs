@@ -9,7 +9,7 @@ table SkillSummon {
 }
 
 table SkillSummonTable {
-  skill_summons: [SkillSummon];
+  json: [SkillSummon];
 }
 
 root_type SkillSummonTable;

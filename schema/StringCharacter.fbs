@@ -10,7 +10,7 @@ table StringCharacter {
 }
 
 table StringCharacterTable {
-  string_characters: [StringCharacter];
+  json: [StringCharacter];
 }
 
 root_type StringCharacterTable;

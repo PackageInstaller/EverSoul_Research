@@ -16,7 +16,7 @@ table HelpGuide {
 }
 
 table HelpGuideTable {
-  help_guides: [HelpGuide];
+  json: [HelpGuide];
 }
 
 root_type HelpGuideTable;

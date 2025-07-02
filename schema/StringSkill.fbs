@@ -10,7 +10,7 @@ table StringSkill {
 }
 
 table StringSkillTable {
-  string_skills: [StringSkill];
+  json: [StringSkill];
 }
 
 root_type StringSkillTable;

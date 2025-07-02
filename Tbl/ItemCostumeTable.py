@@ -25,7 +25,7 @@ class ItemCostumeTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ItemCostumeTable
-    def ItemCostumes(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ItemCostumeTable(object):
         return None
 
     # ItemCostumeTable
-    def ItemCostumesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ItemCostumeTable
-    def ItemCostumesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ItemCostumeTableStart(builder):
 def Start(builder):
     ItemCostumeTableStart(builder)
 
-def ItemCostumeTableAddItemCostumes(builder, itemCostumes):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(itemCostumes), 0)
+def ItemCostumeTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddItemCostumes(builder, itemCostumes):
-    ItemCostumeTableAddItemCostumes(builder, itemCostumes)
+def AddJson(builder, json):
+    ItemCostumeTableAddJson(builder, json)
 
-def ItemCostumeTableStartItemCostumesVector(builder, numElems):
+def ItemCostumeTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartItemCostumesVector(builder, numElems):
-    return ItemCostumeTableStartItemCostumesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ItemCostumeTableStartJsonVector(builder, numElems)
 
 def ItemCostumeTableEnd(builder):
     return builder.EndObject()

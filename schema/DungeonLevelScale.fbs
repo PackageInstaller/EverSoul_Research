@@ -9,7 +9,7 @@ table DungeonLevelScale {
 }
 
 table DungeonLevelScaleTable {
-  dungeon_level_scales: [DungeonLevelScale];
+  json: [DungeonLevelScale];
 }
 
 root_type DungeonLevelScaleTable;

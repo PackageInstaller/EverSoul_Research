@@ -13,7 +13,7 @@ table EventDiceRandomEvent {
 }
 
 table EventDiceRandomEventTable {
-  event_dice_random_events: [EventDiceRandomEvent];
+  json: [EventDiceRandomEvent];
 }
 
 root_type EventDiceRandomEventTable;

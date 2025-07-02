@@ -25,7 +25,7 @@ class EventAttendanceTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventAttendanceTable
-    def EventAttendances(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventAttendanceTable(object):
         return None
 
     # EventAttendanceTable
-    def EventAttendancesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventAttendanceTable
-    def EventAttendancesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventAttendanceTableStart(builder):
 def Start(builder):
     EventAttendanceTableStart(builder)
 
-def EventAttendanceTableAddEventAttendances(builder, eventAttendances):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventAttendances), 0)
+def EventAttendanceTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventAttendances(builder, eventAttendances):
-    EventAttendanceTableAddEventAttendances(builder, eventAttendances)
+def AddJson(builder, json):
+    EventAttendanceTableAddJson(builder, json)
 
-def EventAttendanceTableStartEventAttendancesVector(builder, numElems):
+def EventAttendanceTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventAttendancesVector(builder, numElems):
-    return EventAttendanceTableStartEventAttendancesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventAttendanceTableStartJsonVector(builder, numElems)
 
 def EventAttendanceTableEnd(builder):
     return builder.EndObject()

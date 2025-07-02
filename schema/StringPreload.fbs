@@ -10,7 +10,7 @@ table StringPreload {
 }
 
 table StringPreloadTable {
-    string_preloads: [StringPreload];
+  json: [StringPreload];
 }
 
 root_type StringPreloadTable;

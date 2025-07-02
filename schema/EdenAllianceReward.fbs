@@ -11,7 +11,7 @@ table EdenAllianceReward {
 }
 
 table EdenAllianceRewardTable {
-  eden_alliance_rewards: [EdenAllianceReward];
+  json: [EdenAllianceReward];
 }
 
 root_type EdenAllianceRewardTable;

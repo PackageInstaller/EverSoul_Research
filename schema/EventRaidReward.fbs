@@ -17,7 +17,7 @@ table EventRaidReward {
 }
 
 table EventRaidRewardTable {
-  event_raid_rewards: [EventRaidReward];
+  json: [EventRaidReward];
 }
 
 root_type EventRaidRewardTable;

@@ -25,7 +25,7 @@ class LocalizationContentTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # LocalizationContentTable
-    def LocalizationContents(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class LocalizationContentTable(object):
         return None
 
     # LocalizationContentTable
-    def LocalizationContentsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # LocalizationContentTable
-    def LocalizationContentsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def LocalizationContentTableStart(builder):
 def Start(builder):
     LocalizationContentTableStart(builder)
 
-def LocalizationContentTableAddLocalizationContents(builder, localizationContents):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(localizationContents), 0)
+def LocalizationContentTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddLocalizationContents(builder, localizationContents):
-    LocalizationContentTableAddLocalizationContents(builder, localizationContents)
+def AddJson(builder, json):
+    LocalizationContentTableAddJson(builder, json)
 
-def LocalizationContentTableStartLocalizationContentsVector(builder, numElems):
+def LocalizationContentTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartLocalizationContentsVector(builder, numElems):
-    return LocalizationContentTableStartLocalizationContentsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return LocalizationContentTableStartJsonVector(builder, numElems)
 
 def LocalizationContentTableEnd(builder):
     return builder.EndObject()

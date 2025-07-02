@@ -10,7 +10,7 @@ table CashShopUI {
 }
 
 table CashShopUITable {
-  cash_shop_u_is: [CashShopUI];
+  json: [CashShopUI];
 }
 
 root_type CashShopUITable;

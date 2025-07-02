@@ -27,7 +27,7 @@ table DungeonRotationReward {
 }
 
 table DungeonRotationRewardTable {
-  dungeon_rotation_rewards: [DungeonRotationReward];
+  json: [DungeonRotationReward];
 }
 
 root_type DungeonRotationRewardTable;

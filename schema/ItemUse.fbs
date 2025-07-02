@@ -12,7 +12,7 @@ table ItemUse {
 }
 
 table ItemUseTable {
-  item_uses: [ItemUse];
+  json: [ItemUse];
 }
 
 root_type ItemUseTable;

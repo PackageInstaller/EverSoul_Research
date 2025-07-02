@@ -10,7 +10,7 @@ table TowerExtendSchedule {
 }
 
 table TowerExtendScheduleTable {
-  tower_extend_schedules: [TowerExtendSchedule];
+  json: [TowerExtendSchedule];
 }
 
 root_type TowerExtendScheduleTable;

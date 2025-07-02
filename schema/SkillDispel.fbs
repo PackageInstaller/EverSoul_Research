@@ -9,7 +9,7 @@ table SkillDispel {
 }
 
 table SkillDispelTable {
-  skill_dispels: [SkillDispel];
+  json: [SkillDispel];
 }
 
 root_type SkillDispelTable;

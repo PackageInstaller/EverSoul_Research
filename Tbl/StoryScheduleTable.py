@@ -25,7 +25,7 @@ class StoryScheduleTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # StoryScheduleTable
-    def StorySchedules(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class StoryScheduleTable(object):
         return None
 
     # StoryScheduleTable
-    def StorySchedulesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # StoryScheduleTable
-    def StorySchedulesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def StoryScheduleTableStart(builder):
 def Start(builder):
     StoryScheduleTableStart(builder)
 
-def StoryScheduleTableAddStorySchedules(builder, storySchedules):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(storySchedules), 0)
+def StoryScheduleTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddStorySchedules(builder, storySchedules):
-    StoryScheduleTableAddStorySchedules(builder, storySchedules)
+def AddJson(builder, json):
+    StoryScheduleTableAddJson(builder, json)
 
-def StoryScheduleTableStartStorySchedulesVector(builder, numElems):
+def StoryScheduleTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartStorySchedulesVector(builder, numElems):
-    return StoryScheduleTableStartStorySchedulesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return StoryScheduleTableStartJsonVector(builder, numElems)
 
 def StoryScheduleTableEnd(builder):
     return builder.EndObject()

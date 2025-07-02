@@ -17,7 +17,7 @@ table Talk_CutScene {
 }
 
 table Talk_CutSceneTable {
-  talk_cut_scenes: [Talk_CutScene];
+  json: [Talk_CutScene];
 }
 
 root_type Talk_CutSceneTable;

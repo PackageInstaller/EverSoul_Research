@@ -9,7 +9,7 @@ table TripHero {
 }
 
 table TripHeroTable {
-  trip_heros: [TripHero];
+  json: [TripHero];
 }
 
 root_type TripHeroTable;

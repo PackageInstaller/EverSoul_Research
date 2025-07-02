@@ -8,7 +8,7 @@ table SkillMoveEffect {
 }
 
 table SkillMoveEffectTable {
-  skill_move_effects: [SkillMoveEffect];
+  json: [SkillMoveEffect];
 }
 
 root_type SkillMoveEffectTable;

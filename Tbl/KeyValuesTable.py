@@ -25,7 +25,7 @@ class KeyValuesTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # KeyValuesTable
-    def KeyValuess(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class KeyValuesTable(object):
         return None
 
     # KeyValuesTable
-    def KeyValuessLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # KeyValuesTable
-    def KeyValuessIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def KeyValuesTableStart(builder):
 def Start(builder):
     KeyValuesTableStart(builder)
 
-def KeyValuesTableAddKeyValuess(builder, keyValuess):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(keyValuess), 0)
+def KeyValuesTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddKeyValuess(builder, keyValuess):
-    KeyValuesTableAddKeyValuess(builder, keyValuess)
+def AddJson(builder, json):
+    KeyValuesTableAddJson(builder, json)
 
-def KeyValuesTableStartKeyValuessVector(builder, numElems):
+def KeyValuesTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartKeyValuessVector(builder, numElems):
-    return KeyValuesTableStartKeyValuessVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return KeyValuesTableStartJsonVector(builder, numElems)
 
 def KeyValuesTableEnd(builder):
     return builder.EndObject()

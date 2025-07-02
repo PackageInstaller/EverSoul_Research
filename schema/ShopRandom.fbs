@@ -25,7 +25,7 @@ table ShopRandom {
 }
 
 table ShopRandomTable {
-  shop_randoms: [ShopRandom];
+  json: [ShopRandom];
 }
 
 root_type ShopRandomTable;

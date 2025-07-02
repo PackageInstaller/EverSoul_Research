@@ -25,7 +25,7 @@ class TutorialTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TutorialTable
-    def Tutorials(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TutorialTable(object):
         return None
 
     # TutorialTable
-    def TutorialsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TutorialTable
-    def TutorialsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TutorialTableStart(builder):
 def Start(builder):
     TutorialTableStart(builder)
 
-def TutorialTableAddTutorials(builder, tutorials):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(tutorials), 0)
+def TutorialTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTutorials(builder, tutorials):
-    TutorialTableAddTutorials(builder, tutorials)
+def AddJson(builder, json):
+    TutorialTableAddJson(builder, json)
 
-def TutorialTableStartTutorialsVector(builder, numElems):
+def TutorialTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTutorialsVector(builder, numElems):
-    return TutorialTableStartTutorialsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TutorialTableStartJsonVector(builder, numElems)
 
 def TutorialTableEnd(builder):
     return builder.EndObject()

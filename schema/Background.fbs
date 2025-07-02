@@ -7,7 +7,7 @@ table Background {
 }
 
 table BackgroundTable {
-  backgrounds: [Background];
+  json: [Background];
 }
 
 root_type BackgroundTable;

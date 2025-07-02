@@ -25,7 +25,7 @@ class SignatureLevelCostTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SignatureLevelCostTable
-    def SignatureLevelCosts(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SignatureLevelCostTable(object):
         return None
 
     # SignatureLevelCostTable
-    def SignatureLevelCostsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SignatureLevelCostTable
-    def SignatureLevelCostsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SignatureLevelCostTableStart(builder):
 def Start(builder):
     SignatureLevelCostTableStart(builder)
 
-def SignatureLevelCostTableAddSignatureLevelCosts(builder, signatureLevelCosts):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(signatureLevelCosts), 0)
+def SignatureLevelCostTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSignatureLevelCosts(builder, signatureLevelCosts):
-    SignatureLevelCostTableAddSignatureLevelCosts(builder, signatureLevelCosts)
+def AddJson(builder, json):
+    SignatureLevelCostTableAddJson(builder, json)
 
-def SignatureLevelCostTableStartSignatureLevelCostsVector(builder, numElems):
+def SignatureLevelCostTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSignatureLevelCostsVector(builder, numElems):
-    return SignatureLevelCostTableStartSignatureLevelCostsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SignatureLevelCostTableStartJsonVector(builder, numElems)
 
 def SignatureLevelCostTableEnd(builder):
     return builder.EndObject()

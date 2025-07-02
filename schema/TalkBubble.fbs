@@ -30,7 +30,7 @@ table TalkBubble {
 }
 
 table TalkBubbleTable {
-  talk_bubbles: [TalkBubble];
+  json: [TalkBubble];
 }
 
 root_type TalkBubbleTable;

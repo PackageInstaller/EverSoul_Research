@@ -10,7 +10,7 @@ table BanWordChat {
 }
 
 table BanWordChatTable {
-  ban_word_chats: [BanWordChat];
+  json: [BanWordChat];
 }
 
 root_type BanWordChatTable;

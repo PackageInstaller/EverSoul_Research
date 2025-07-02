@@ -8,7 +8,7 @@ table SingleRaidSeason {
 }
 
 table SingleRaidSeasonTable {
-  single_raid_seasons: [SingleRaidSeason];
+  json: [SingleRaidSeason];
 }
 
 root_type SingleRaidSeasonTable;

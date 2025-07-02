@@ -31,7 +31,7 @@ table DungeonTrainingLevel {
 }
 
 table DungeonTrainingLevelTable {
-  dungeon_training_levels: [DungeonTrainingLevel];
+  json: [DungeonTrainingLevel];
 }
 
 root_type DungeonTrainingLevelTable;

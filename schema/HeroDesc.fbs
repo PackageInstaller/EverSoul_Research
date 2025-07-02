@@ -23,7 +23,7 @@ table HeroDesc {
 }
 
 table HeroDescTable {
-  hero_descs: [HeroDesc];
+  json: [HeroDesc];
 }
 
 root_type HeroDescTable;

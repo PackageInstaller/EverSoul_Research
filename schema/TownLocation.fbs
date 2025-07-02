@@ -12,7 +12,7 @@ table TownLocation {
 }
 
 table TownLocationTable {
-  town_locations: [TownLocation];
+  json: [TownLocation];
 }
 
 root_type TownLocationTable;

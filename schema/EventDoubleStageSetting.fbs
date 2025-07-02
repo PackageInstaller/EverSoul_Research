@@ -29,7 +29,7 @@ table EventDoubleStageSetting {
 }
 
 table EventDoubleStageSettingTable {
-  event_double_stage_settings: [EventDoubleStageSetting];
+  json: [EventDoubleStageSetting];
 }
 
 root_type EventDoubleStageSettingTable;

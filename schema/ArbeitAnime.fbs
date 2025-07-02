@@ -10,7 +10,7 @@ table ArbeitAnime {
 }
 
 table ArbeitAnimeTable {
-  arbeit_animes: [ArbeitAnime];
+  json: [ArbeitAnime];
 }
 
 root_type ArbeitAnimeTable;

@@ -25,7 +25,7 @@ class DungeonRelicTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # DungeonRelicTable
-    def DungeonRelics(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class DungeonRelicTable(object):
         return None
 
     # DungeonRelicTable
-    def DungeonRelicsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # DungeonRelicTable
-    def DungeonRelicsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def DungeonRelicTableStart(builder):
 def Start(builder):
     DungeonRelicTableStart(builder)
 
-def DungeonRelicTableAddDungeonRelics(builder, dungeonRelics):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(dungeonRelics), 0)
+def DungeonRelicTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddDungeonRelics(builder, dungeonRelics):
-    DungeonRelicTableAddDungeonRelics(builder, dungeonRelics)
+def AddJson(builder, json):
+    DungeonRelicTableAddJson(builder, json)
 
-def DungeonRelicTableStartDungeonRelicsVector(builder, numElems):
+def DungeonRelicTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartDungeonRelicsVector(builder, numElems):
-    return DungeonRelicTableStartDungeonRelicsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return DungeonRelicTableStartJsonVector(builder, numElems)
 
 def DungeonRelicTableEnd(builder):
     return builder.EndObject()

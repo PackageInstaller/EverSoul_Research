@@ -39,56 +39,56 @@ class Soullink(object):
         return 0
 
     # Soullink
-    def Group_slot(self):
+    def GroupSlot(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(8))
         if o != 0:
             return self._tab.String(o + self._tab.Pos)
         return None
 
     # Soullink
-    def Group_content(self):
+    def GroupContent(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(10))
         if o != 0:
             return self._tab.String(o + self._tab.Pos)
         return None
 
     # Soullink
-    def Group_hero1(self):
+    def GroupHero1(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(12))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # Soullink
-    def Group_hero2(self):
+    def GroupHero2(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(14))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # Soullink
-    def Group_hero3(self):
+    def GroupHero3(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(16))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # Soullink
-    def Group_hero4(self):
+    def GroupHero4(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(18))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # Soullink
-    def Group_title(self):
+    def GroupTitle(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(20))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # Soullink
-    def Group_story(self):
+    def GroupStory(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(22))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
@@ -119,53 +119,53 @@ def SoullinkAddCollection(builder, collection):
 def AddCollection(builder, collection):
     SoullinkAddCollection(builder, collection)
 
-def SoullinkAddGroup_slot(builder, group_slot):
-    builder.PrependUOffsetTRelativeSlot(2, flatbuffers.number_types.UOffsetTFlags.py_type(group_slot), 0)
+def SoullinkAddGroupSlot(builder, groupSlot):
+    builder.PrependUOffsetTRelativeSlot(2, flatbuffers.number_types.UOffsetTFlags.py_type(groupSlot), 0)
 
-def AddGroup_slot(builder, group_slot):
-    SoullinkAddGroup_slot(builder, group_slot)
+def AddGroupSlot(builder, groupSlot):
+    SoullinkAddGroupSlot(builder, groupSlot)
 
-def SoullinkAddGroup_content(builder, group_content):
-    builder.PrependUOffsetTRelativeSlot(3, flatbuffers.number_types.UOffsetTFlags.py_type(group_content), 0)
+def SoullinkAddGroupContent(builder, groupContent):
+    builder.PrependUOffsetTRelativeSlot(3, flatbuffers.number_types.UOffsetTFlags.py_type(groupContent), 0)
 
-def AddGroup_content(builder, group_content):
-    SoullinkAddGroup_content(builder, group_content)
+def AddGroupContent(builder, groupContent):
+    SoullinkAddGroupContent(builder, groupContent)
 
-def SoullinkAddGroup_hero1(builder, group_hero1):
-    builder.PrependInt32Slot(4, group_hero1, 0)
+def SoullinkAddGroupHero1(builder, groupHero1):
+    builder.PrependInt32Slot(4, groupHero1, 0)
 
-def AddGroup_hero1(builder, group_hero1):
-    SoullinkAddGroup_hero1(builder, group_hero1)
+def AddGroupHero1(builder, groupHero1):
+    SoullinkAddGroupHero1(builder, groupHero1)
 
-def SoullinkAddGroup_hero2(builder, group_hero2):
-    builder.PrependInt32Slot(5, group_hero2, 0)
+def SoullinkAddGroupHero2(builder, groupHero2):
+    builder.PrependInt32Slot(5, groupHero2, 0)
 
-def AddGroup_hero2(builder, group_hero2):
-    SoullinkAddGroup_hero2(builder, group_hero2)
+def AddGroupHero2(builder, groupHero2):
+    SoullinkAddGroupHero2(builder, groupHero2)
 
-def SoullinkAddGroup_hero3(builder, group_hero3):
-    builder.PrependInt32Slot(6, group_hero3, 0)
+def SoullinkAddGroupHero3(builder, groupHero3):
+    builder.PrependInt32Slot(6, groupHero3, 0)
 
-def AddGroup_hero3(builder, group_hero3):
-    SoullinkAddGroup_hero3(builder, group_hero3)
+def AddGroupHero3(builder, groupHero3):
+    SoullinkAddGroupHero3(builder, groupHero3)
 
-def SoullinkAddGroup_hero4(builder, group_hero4):
-    builder.PrependInt32Slot(7, group_hero4, 0)
+def SoullinkAddGroupHero4(builder, groupHero4):
+    builder.PrependInt32Slot(7, groupHero4, 0)
 
-def AddGroup_hero4(builder, group_hero4):
-    SoullinkAddGroup_hero4(builder, group_hero4)
+def AddGroupHero4(builder, groupHero4):
+    SoullinkAddGroupHero4(builder, groupHero4)
 
-def SoullinkAddGroup_title(builder, group_title):
-    builder.PrependInt32Slot(8, group_title, 0)
+def SoullinkAddGroupTitle(builder, groupTitle):
+    builder.PrependInt32Slot(8, groupTitle, 0)
 
-def AddGroup_title(builder, group_title):
-    SoullinkAddGroup_title(builder, group_title)
+def AddGroupTitle(builder, groupTitle):
+    SoullinkAddGroupTitle(builder, groupTitle)
 
-def SoullinkAddGroup_story(builder, group_story):
-    builder.PrependInt32Slot(9, group_story, 0)
+def SoullinkAddGroupStory(builder, groupStory):
+    builder.PrependInt32Slot(9, groupStory, 0)
 
-def AddGroup_story(builder, group_story):
-    SoullinkAddGroup_story(builder, group_story)
+def AddGroupStory(builder, groupStory):
+    SoullinkAddGroupStory(builder, groupStory)
 
 def SoullinkAddOpenDate(builder, openDate):
     builder.PrependUOffsetTRelativeSlot(10, flatbuffers.number_types.UOffsetTFlags.py_type(openDate), 0)

@@ -25,7 +25,7 @@ class StringCharacterTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # StringCharacterTable
-    def StringCharacters(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class StringCharacterTable(object):
         return None
 
     # StringCharacterTable
-    def StringCharactersLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # StringCharacterTable
-    def StringCharactersIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def StringCharacterTableStart(builder):
 def Start(builder):
     StringCharacterTableStart(builder)
 
-def StringCharacterTableAddStringCharacters(builder, stringCharacters):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(stringCharacters), 0)
+def StringCharacterTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddStringCharacters(builder, stringCharacters):
-    StringCharacterTableAddStringCharacters(builder, stringCharacters)
+def AddJson(builder, json):
+    StringCharacterTableAddJson(builder, json)
 
-def StringCharacterTableStartStringCharactersVector(builder, numElems):
+def StringCharacterTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartStringCharactersVector(builder, numElems):
-    return StringCharacterTableStartStringCharactersVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return StringCharacterTableStartJsonVector(builder, numElems)
 
 def StringCharacterTableEnd(builder):
     return builder.EndObject()

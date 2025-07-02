@@ -8,7 +8,7 @@ table GuildEmblem {
 }
 
 table GuildEmblemTable {
-  guild_emblems: [GuildEmblem];
+  json: [GuildEmblem];
 }
 
 root_type GuildEmblemTable;

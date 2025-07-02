@@ -25,7 +25,7 @@ class CashShopGrowPackItemTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # CashShopGrowPackItemTable
-    def CashShopGrowPackItems(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class CashShopGrowPackItemTable(object):
         return None
 
     # CashShopGrowPackItemTable
-    def CashShopGrowPackItemsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # CashShopGrowPackItemTable
-    def CashShopGrowPackItemsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def CashShopGrowPackItemTableStart(builder):
 def Start(builder):
     CashShopGrowPackItemTableStart(builder)
 
-def CashShopGrowPackItemTableAddCashShopGrowPackItems(builder, cashShopGrowPackItems):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(cashShopGrowPackItems), 0)
+def CashShopGrowPackItemTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddCashShopGrowPackItems(builder, cashShopGrowPackItems):
-    CashShopGrowPackItemTableAddCashShopGrowPackItems(builder, cashShopGrowPackItems)
+def AddJson(builder, json):
+    CashShopGrowPackItemTableAddJson(builder, json)
 
-def CashShopGrowPackItemTableStartCashShopGrowPackItemsVector(builder, numElems):
+def CashShopGrowPackItemTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartCashShopGrowPackItemsVector(builder, numElems):
-    return CashShopGrowPackItemTableStartCashShopGrowPackItemsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return CashShopGrowPackItemTableStartJsonVector(builder, numElems)
 
 def CashShopGrowPackItemTableEnd(builder):
     return builder.EndObject()

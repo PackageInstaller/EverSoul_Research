@@ -7,7 +7,7 @@ table ArbeitBonus {
 }
 
 table ArbeitBonusTable {
-  arbeit_bonuss: [ArbeitBonus];
+  json: [ArbeitBonus];
 }
 
 root_type ArbeitBonusTable;

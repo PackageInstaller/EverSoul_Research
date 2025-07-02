@@ -15,7 +15,7 @@ table ProfileObject {
 }
 
 table ProfileObjectTable {
-  profile_objects: [ProfileObject];
+  json: [ProfileObject];
 }
 
 root_type ProfileObjectTable;

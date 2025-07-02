@@ -25,7 +25,7 @@ class CashShopRelayPopupItemTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # CashShopRelayPopupItemTable
-    def CashShopRelayPopupItems(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class CashShopRelayPopupItemTable(object):
         return None
 
     # CashShopRelayPopupItemTable
-    def CashShopRelayPopupItemsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # CashShopRelayPopupItemTable
-    def CashShopRelayPopupItemsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def CashShopRelayPopupItemTableStart(builder):
 def Start(builder):
     CashShopRelayPopupItemTableStart(builder)
 
-def CashShopRelayPopupItemTableAddCashShopRelayPopupItems(builder, cashShopRelayPopupItems):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(cashShopRelayPopupItems), 0)
+def CashShopRelayPopupItemTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddCashShopRelayPopupItems(builder, cashShopRelayPopupItems):
-    CashShopRelayPopupItemTableAddCashShopRelayPopupItems(builder, cashShopRelayPopupItems)
+def AddJson(builder, json):
+    CashShopRelayPopupItemTableAddJson(builder, json)
 
-def CashShopRelayPopupItemTableStartCashShopRelayPopupItemsVector(builder, numElems):
+def CashShopRelayPopupItemTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartCashShopRelayPopupItemsVector(builder, numElems):
-    return CashShopRelayPopupItemTableStartCashShopRelayPopupItemsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return CashShopRelayPopupItemTableStartJsonVector(builder, numElems)
 
 def CashShopRelayPopupItemTableEnd(builder):
     return builder.EndObject()

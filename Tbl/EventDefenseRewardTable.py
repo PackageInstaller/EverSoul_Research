@@ -25,7 +25,7 @@ class EventDefenseRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDefenseRewardTable
-    def EventDefenseRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDefenseRewardTable(object):
         return None
 
     # EventDefenseRewardTable
-    def EventDefenseRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDefenseRewardTable
-    def EventDefenseRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDefenseRewardTableStart(builder):
 def Start(builder):
     EventDefenseRewardTableStart(builder)
 
-def EventDefenseRewardTableAddEventDefenseRewards(builder, eventDefenseRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDefenseRewards), 0)
+def EventDefenseRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDefenseRewards(builder, eventDefenseRewards):
-    EventDefenseRewardTableAddEventDefenseRewards(builder, eventDefenseRewards)
+def AddJson(builder, json):
+    EventDefenseRewardTableAddJson(builder, json)
 
-def EventDefenseRewardTableStartEventDefenseRewardsVector(builder, numElems):
+def EventDefenseRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDefenseRewardsVector(builder, numElems):
-    return EventDefenseRewardTableStartEventDefenseRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDefenseRewardTableStartJsonVector(builder, numElems)
 
 def EventDefenseRewardTableEnd(builder):
     return builder.EndObject()

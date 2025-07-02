@@ -11,7 +11,7 @@ table CashShopCustomItem {
 }
 
 table CashShopCustomItemTable {
-  cash_shop_custom_items: [CashShopCustomItem];
+  json: [CashShopCustomItem];
 }
 
 root_type CashShopCustomItemTable;

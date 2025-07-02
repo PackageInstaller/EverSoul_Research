@@ -12,7 +12,7 @@ table EventRoulette {
 }
 
 table EventRouletteTable {
-  event_roulettes: [EventRoulette];
+  json: [EventRoulette];
 }
 
 root_type EventRouletteTable;

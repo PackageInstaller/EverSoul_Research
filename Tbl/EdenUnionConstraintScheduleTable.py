@@ -25,7 +25,7 @@ class EdenUnionConstraintScheduleTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EdenUnionConstraintScheduleTable
-    def EdenUnionConstraintSchedules(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EdenUnionConstraintScheduleTable(object):
         return None
 
     # EdenUnionConstraintScheduleTable
-    def EdenUnionConstraintSchedulesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EdenUnionConstraintScheduleTable
-    def EdenUnionConstraintSchedulesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EdenUnionConstraintScheduleTableStart(builder):
 def Start(builder):
     EdenUnionConstraintScheduleTableStart(builder)
 
-def EdenUnionConstraintScheduleTableAddEdenUnionConstraintSchedules(builder, edenUnionConstraintSchedules):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(edenUnionConstraintSchedules), 0)
+def EdenUnionConstraintScheduleTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEdenUnionConstraintSchedules(builder, edenUnionConstraintSchedules):
-    EdenUnionConstraintScheduleTableAddEdenUnionConstraintSchedules(builder, edenUnionConstraintSchedules)
+def AddJson(builder, json):
+    EdenUnionConstraintScheduleTableAddJson(builder, json)
 
-def EdenUnionConstraintScheduleTableStartEdenUnionConstraintSchedulesVector(builder, numElems):
+def EdenUnionConstraintScheduleTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEdenUnionConstraintSchedulesVector(builder, numElems):
-    return EdenUnionConstraintScheduleTableStartEdenUnionConstraintSchedulesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EdenUnionConstraintScheduleTableStartJsonVector(builder, numElems)
 
 def EdenUnionConstraintScheduleTableEnd(builder):
     return builder.EndObject()

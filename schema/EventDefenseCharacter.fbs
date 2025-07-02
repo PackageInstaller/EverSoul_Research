@@ -9,7 +9,7 @@ table EventDefenseCharacter {
 }
 
 table EventDefenseCharacterTable {
-  event_defense_characters: [EventDefenseCharacter];
+  json: [EventDefenseCharacter];
 }
 
 root_type EventDefenseCharacterTable;

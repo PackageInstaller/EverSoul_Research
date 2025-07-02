@@ -25,7 +25,7 @@ class HeroDescTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # HeroDescTable
-    def HeroDescs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class HeroDescTable(object):
         return None
 
     # HeroDescTable
-    def HeroDescsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # HeroDescTable
-    def HeroDescsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def HeroDescTableStart(builder):
 def Start(builder):
     HeroDescTableStart(builder)
 
-def HeroDescTableAddHeroDescs(builder, heroDescs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(heroDescs), 0)
+def HeroDescTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddHeroDescs(builder, heroDescs):
-    HeroDescTableAddHeroDescs(builder, heroDescs)
+def AddJson(builder, json):
+    HeroDescTableAddJson(builder, json)
 
-def HeroDescTableStartHeroDescsVector(builder, numElems):
+def HeroDescTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartHeroDescsVector(builder, numElems):
-    return HeroDescTableStartHeroDescsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return HeroDescTableStartJsonVector(builder, numElems)
 
 def HeroDescTableEnd(builder):
     return builder.EndObject()

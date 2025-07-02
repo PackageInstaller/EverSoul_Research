@@ -12,7 +12,7 @@ table GuildRaid {
 }
 
 table GuildRaidTable {
-  guild_raids: [GuildRaid];
+  json: [GuildRaid];
 }
 
 root_type GuildRaidTable;

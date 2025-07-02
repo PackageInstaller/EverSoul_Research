@@ -10,7 +10,7 @@ table Evermatch {
 }
 
 table EvermatchTable {
-  evermatchs: [Evermatch];
+  json: [Evermatch];
 }
 
 root_type EvermatchTable;

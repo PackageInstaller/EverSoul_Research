@@ -12,7 +12,7 @@ table EventRouletteReward {
 }
 
 table EventRouletteRewardTable {
-  event_roulette_rewards: [EventRouletteReward];
+  json: [EventRouletteReward];
 }
 
 root_type EventRouletteRewardTable;

@@ -25,7 +25,7 @@ class EventPassTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventPassTable
-    def EventPasss(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventPassTable(object):
         return None
 
     # EventPassTable
-    def EventPasssLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventPassTable
-    def EventPasssIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventPassTableStart(builder):
 def Start(builder):
     EventPassTableStart(builder)
 
-def EventPassTableAddEventPasss(builder, eventPasss):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventPasss), 0)
+def EventPassTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventPasss(builder, eventPasss):
-    EventPassTableAddEventPasss(builder, eventPasss)
+def AddJson(builder, json):
+    EventPassTableAddJson(builder, json)
 
-def EventPassTableStartEventPasssVector(builder, numElems):
+def EventPassTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventPasssVector(builder, numElems):
-    return EventPassTableStartEventPasssVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventPassTableStartJsonVector(builder, numElems)
 
 def EventPassTableEnd(builder):
     return builder.EndObject()

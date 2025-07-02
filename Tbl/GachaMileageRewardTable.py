@@ -25,7 +25,7 @@ class GachaMileageRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # GachaMileageRewardTable
-    def GachaMileageRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class GachaMileageRewardTable(object):
         return None
 
     # GachaMileageRewardTable
-    def GachaMileageRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # GachaMileageRewardTable
-    def GachaMileageRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def GachaMileageRewardTableStart(builder):
 def Start(builder):
     GachaMileageRewardTableStart(builder)
 
-def GachaMileageRewardTableAddGachaMileageRewards(builder, gachaMileageRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(gachaMileageRewards), 0)
+def GachaMileageRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddGachaMileageRewards(builder, gachaMileageRewards):
-    GachaMileageRewardTableAddGachaMileageRewards(builder, gachaMileageRewards)
+def AddJson(builder, json):
+    GachaMileageRewardTableAddJson(builder, json)
 
-def GachaMileageRewardTableStartGachaMileageRewardsVector(builder, numElems):
+def GachaMileageRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartGachaMileageRewardsVector(builder, numElems):
-    return GachaMileageRewardTableStartGachaMileageRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return GachaMileageRewardTableStartJsonVector(builder, numElems)
 
 def GachaMileageRewardTableEnd(builder):
     return builder.EndObject()

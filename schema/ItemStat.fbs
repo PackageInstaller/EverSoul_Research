@@ -25,7 +25,7 @@ table ItemStat {
 }
 
 table ItemStatTable {
-  item_stats: [ItemStat];
+  json: [ItemStat];
 }
 
 root_type ItemStatTable;

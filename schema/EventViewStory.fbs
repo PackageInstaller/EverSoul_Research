@@ -10,7 +10,7 @@ table EventViewStory {
 }
 
 table EventViewStoryTable {
-  event_view_storys: [EventViewStory];
+  json: [EventViewStory];
 }
 
 root_type EventViewStoryTable;

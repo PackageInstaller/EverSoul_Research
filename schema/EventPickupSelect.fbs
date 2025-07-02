@@ -8,7 +8,7 @@ table EventPickupSelect {
 }
 
 table EventPickupSelectTable {
-  event_pickup_selects: [EventPickupSelect];
+  json: [EventPickupSelect];
 }
 
 root_type EventPickupSelectTable;

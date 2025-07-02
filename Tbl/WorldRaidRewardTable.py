@@ -25,7 +25,7 @@ class WorldRaidRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # WorldRaidRewardTable
-    def WorldRaidRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class WorldRaidRewardTable(object):
         return None
 
     # WorldRaidRewardTable
-    def WorldRaidRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # WorldRaidRewardTable
-    def WorldRaidRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def WorldRaidRewardTableStart(builder):
 def Start(builder):
     WorldRaidRewardTableStart(builder)
 
-def WorldRaidRewardTableAddWorldRaidRewards(builder, worldRaidRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(worldRaidRewards), 0)
+def WorldRaidRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddWorldRaidRewards(builder, worldRaidRewards):
-    WorldRaidRewardTableAddWorldRaidRewards(builder, worldRaidRewards)
+def AddJson(builder, json):
+    WorldRaidRewardTableAddJson(builder, json)
 
-def WorldRaidRewardTableStartWorldRaidRewardsVector(builder, numElems):
+def WorldRaidRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartWorldRaidRewardsVector(builder, numElems):
-    return WorldRaidRewardTableStartWorldRaidRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return WorldRaidRewardTableStartJsonVector(builder, numElems)
 
 def WorldRaidRewardTableEnd(builder):
     return builder.EndObject()

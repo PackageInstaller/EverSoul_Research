@@ -11,7 +11,7 @@ table HeroOptionPay {
 }
 
 table HeroOptionPayTable {
-  hero_option_pays: [HeroOptionPay];
+  json: [HeroOptionPay];
 }
 
 root_type HeroOptionPayTable;

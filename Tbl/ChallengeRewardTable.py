@@ -25,7 +25,7 @@ class ChallengeRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ChallengeRewardTable
-    def ChallengeRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ChallengeRewardTable(object):
         return None
 
     # ChallengeRewardTable
-    def ChallengeRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ChallengeRewardTable
-    def ChallengeRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ChallengeRewardTableStart(builder):
 def Start(builder):
     ChallengeRewardTableStart(builder)
 
-def ChallengeRewardTableAddChallengeRewards(builder, challengeRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(challengeRewards), 0)
+def ChallengeRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddChallengeRewards(builder, challengeRewards):
-    ChallengeRewardTableAddChallengeRewards(builder, challengeRewards)
+def AddJson(builder, json):
+    ChallengeRewardTableAddJson(builder, json)
 
-def ChallengeRewardTableStartChallengeRewardsVector(builder, numElems):
+def ChallengeRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartChallengeRewardsVector(builder, numElems):
-    return ChallengeRewardTableStartChallengeRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ChallengeRewardTableStartJsonVector(builder, numElems)
 
 def ChallengeRewardTableEnd(builder):
     return builder.EndObject()

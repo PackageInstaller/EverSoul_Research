@@ -19,7 +19,7 @@ table EventRaidDrop {
 }
 
 table EventRaidDropTable {
-  event_raid_drops: [EventRaidDrop];
+  json: [EventRaidDrop];
 }
 
 root_type EventRaidDropTable;

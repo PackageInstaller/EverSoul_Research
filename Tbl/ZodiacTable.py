@@ -25,7 +25,7 @@ class ZodiacTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ZodiacTable
-    def Zodiacs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ZodiacTable(object):
         return None
 
     # ZodiacTable
-    def ZodiacsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ZodiacTable
-    def ZodiacsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ZodiacTableStart(builder):
 def Start(builder):
     ZodiacTableStart(builder)
 
-def ZodiacTableAddZodiacs(builder, zodiacs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(zodiacs), 0)
+def ZodiacTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddZodiacs(builder, zodiacs):
-    ZodiacTableAddZodiacs(builder, zodiacs)
+def AddJson(builder, json):
+    ZodiacTableAddJson(builder, json)
 
-def ZodiacTableStartZodiacsVector(builder, numElems):
+def ZodiacTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartZodiacsVector(builder, numElems):
-    return ZodiacTableStartZodiacsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ZodiacTableStartJsonVector(builder, numElems)
 
 def ZodiacTableEnd(builder):
     return builder.EndObject()

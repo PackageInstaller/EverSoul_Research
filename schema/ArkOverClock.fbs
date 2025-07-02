@@ -10,7 +10,7 @@ table ArkOverClock {
 }
 
 table ArkOverClockTable {
-  ark_over_clocks: [ArkOverClock];
+  json: [ArkOverClock];
 }
 
 root_type ArkOverClockTable;

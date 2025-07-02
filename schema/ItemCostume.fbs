@@ -14,7 +14,7 @@ table ItemCostume {
 }
 
 table ItemCostumeTable {
-  item_costumes: [ItemCostume];
+  json: [ItemCostume];
 }
 
 root_type ItemCostumeTable;

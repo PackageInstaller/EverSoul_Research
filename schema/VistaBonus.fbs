@@ -8,7 +8,7 @@ table VistaBonus {
 }
 
 table VistaBonusTable {
-  vista_bonuss: [VistaBonus];
+  json: [VistaBonus];
 }
 
 root_type VistaBonusTable;

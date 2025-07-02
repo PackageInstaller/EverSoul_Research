@@ -17,7 +17,7 @@ table EdenAllianceStageBattle {
 }
 
 table EdenAllianceStageBattleTable {
-  eden_alliance_stage_battles: [EdenAllianceStageBattle];
+  json: [EdenAllianceStageBattle];
 }
 
 root_type EdenAllianceStageBattleTable;

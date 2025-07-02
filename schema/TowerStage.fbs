@@ -21,7 +21,7 @@ table TowerStage {
 }
 
 table TowerStageTable {
-  tower_stages: [TowerStage];
+  json: [TowerStage];
 }
 
 root_type TowerStageTable;

@@ -23,7 +23,7 @@ table SingleRaid {
 }
 
 table SingleRaidTable {
-  single_raids: [SingleRaid];
+  json: [SingleRaid];
 }
 
 root_type SingleRaidTable;

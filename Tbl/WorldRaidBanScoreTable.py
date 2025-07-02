@@ -25,7 +25,7 @@ class WorldRaidBanScoreTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # WorldRaidBanScoreTable
-    def WorldRaidBanScores(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class WorldRaidBanScoreTable(object):
         return None
 
     # WorldRaidBanScoreTable
-    def WorldRaidBanScoresLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # WorldRaidBanScoreTable
-    def WorldRaidBanScoresIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def WorldRaidBanScoreTableStart(builder):
 def Start(builder):
     WorldRaidBanScoreTableStart(builder)
 
-def WorldRaidBanScoreTableAddWorldRaidBanScores(builder, worldRaidBanScores):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(worldRaidBanScores), 0)
+def WorldRaidBanScoreTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddWorldRaidBanScores(builder, worldRaidBanScores):
-    WorldRaidBanScoreTableAddWorldRaidBanScores(builder, worldRaidBanScores)
+def AddJson(builder, json):
+    WorldRaidBanScoreTableAddJson(builder, json)
 
-def WorldRaidBanScoreTableStartWorldRaidBanScoresVector(builder, numElems):
+def WorldRaidBanScoreTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartWorldRaidBanScoresVector(builder, numElems):
-    return WorldRaidBanScoreTableStartWorldRaidBanScoresVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return WorldRaidBanScoreTableStartJsonVector(builder, numElems)
 
 def WorldRaidBanScoreTableEnd(builder):
     return builder.EndObject()

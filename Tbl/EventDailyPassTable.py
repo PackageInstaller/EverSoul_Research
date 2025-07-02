@@ -25,7 +25,7 @@ class EventDailyPassTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDailyPassTable
-    def EventDailyPasss(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDailyPassTable(object):
         return None
 
     # EventDailyPassTable
-    def EventDailyPasssLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDailyPassTable
-    def EventDailyPasssIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDailyPassTableStart(builder):
 def Start(builder):
     EventDailyPassTableStart(builder)
 
-def EventDailyPassTableAddEventDailyPasss(builder, eventDailyPasss):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDailyPasss), 0)
+def EventDailyPassTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDailyPasss(builder, eventDailyPasss):
-    EventDailyPassTableAddEventDailyPasss(builder, eventDailyPasss)
+def AddJson(builder, json):
+    EventDailyPassTableAddJson(builder, json)
 
-def EventDailyPassTableStartEventDailyPasssVector(builder, numElems):
+def EventDailyPassTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDailyPasssVector(builder, numElems):
-    return EventDailyPassTableStartEventDailyPasssVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDailyPassTableStartJsonVector(builder, numElems)
 
 def EventDailyPassTableEnd(builder):
     return builder.EndObject()

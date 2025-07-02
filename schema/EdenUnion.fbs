@@ -18,7 +18,7 @@ table EdenUnion {
 }
 
 table EdenUnionTable {
-  eden_unions: [EdenUnion];
+  json: [EdenUnion];
 }
 
 root_type EdenUnionTable;

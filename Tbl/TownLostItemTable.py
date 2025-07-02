@@ -25,7 +25,7 @@ class TownLostItemTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TownLostItemTable
-    def TownLostItems(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TownLostItemTable(object):
         return None
 
     # TownLostItemTable
-    def TownLostItemsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TownLostItemTable
-    def TownLostItemsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TownLostItemTableStart(builder):
 def Start(builder):
     TownLostItemTableStart(builder)
 
-def TownLostItemTableAddTownLostItems(builder, townLostItems):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(townLostItems), 0)
+def TownLostItemTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTownLostItems(builder, townLostItems):
-    TownLostItemTableAddTownLostItems(builder, townLostItems)
+def AddJson(builder, json):
+    TownLostItemTableAddJson(builder, json)
 
-def TownLostItemTableStartTownLostItemsVector(builder, numElems):
+def TownLostItemTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTownLostItemsVector(builder, numElems):
-    return TownLostItemTableStartTownLostItemsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TownLostItemTableStartJsonVector(builder, numElems)
 
 def TownLostItemTableEnd(builder):
     return builder.EndObject()

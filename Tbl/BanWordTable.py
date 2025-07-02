@@ -25,7 +25,7 @@ class BanWordTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # BanWordTable
-    def BanWords(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class BanWordTable(object):
         return None
 
     # BanWordTable
-    def BanWordsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # BanWordTable
-    def BanWordsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def BanWordTableStart(builder):
 def Start(builder):
     BanWordTableStart(builder)
 
-def BanWordTableAddBanWords(builder, banWords):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(banWords), 0)
+def BanWordTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddBanWords(builder, banWords):
-    BanWordTableAddBanWords(builder, banWords)
+def AddJson(builder, json):
+    BanWordTableAddJson(builder, json)
 
-def BanWordTableStartBanWordsVector(builder, numElems):
+def BanWordTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartBanWordsVector(builder, numElems):
-    return BanWordTableStartBanWordsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return BanWordTableStartJsonVector(builder, numElems)
 
 def BanWordTableEnd(builder):
     return builder.EndObject()

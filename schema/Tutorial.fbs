@@ -31,7 +31,7 @@ table Tutorial {
 }
 
 table TutorialTable {
-  tutorials: [Tutorial];
+  json: [Tutorial];
 }
 
 root_type TutorialTable;

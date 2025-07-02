@@ -25,7 +25,7 @@ class ChatEmoticonTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ChatEmoticonTable
-    def ChatEmoticons(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ChatEmoticonTable(object):
         return None
 
     # ChatEmoticonTable
-    def ChatEmoticonsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ChatEmoticonTable
-    def ChatEmoticonsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ChatEmoticonTableStart(builder):
 def Start(builder):
     ChatEmoticonTableStart(builder)
 
-def ChatEmoticonTableAddChatEmoticons(builder, chatEmoticons):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(chatEmoticons), 0)
+def ChatEmoticonTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddChatEmoticons(builder, chatEmoticons):
-    ChatEmoticonTableAddChatEmoticons(builder, chatEmoticons)
+def AddJson(builder, json):
+    ChatEmoticonTableAddJson(builder, json)
 
-def ChatEmoticonTableStartChatEmoticonsVector(builder, numElems):
+def ChatEmoticonTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartChatEmoticonsVector(builder, numElems):
-    return ChatEmoticonTableStartChatEmoticonsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ChatEmoticonTableStartJsonVector(builder, numElems)
 
 def ChatEmoticonTableEnd(builder):
     return builder.EndObject()

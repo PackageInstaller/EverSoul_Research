@@ -25,7 +25,7 @@ class HeroOptionGroupTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # HeroOptionGroupTable
-    def HeroOptionGroups(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class HeroOptionGroupTable(object):
         return None
 
     # HeroOptionGroupTable
-    def HeroOptionGroupsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # HeroOptionGroupTable
-    def HeroOptionGroupsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def HeroOptionGroupTableStart(builder):
 def Start(builder):
     HeroOptionGroupTableStart(builder)
 
-def HeroOptionGroupTableAddHeroOptionGroups(builder, heroOptionGroups):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(heroOptionGroups), 0)
+def HeroOptionGroupTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddHeroOptionGroups(builder, heroOptionGroups):
-    HeroOptionGroupTableAddHeroOptionGroups(builder, heroOptionGroups)
+def AddJson(builder, json):
+    HeroOptionGroupTableAddJson(builder, json)
 
-def HeroOptionGroupTableStartHeroOptionGroupsVector(builder, numElems):
+def HeroOptionGroupTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartHeroOptionGroupsVector(builder, numElems):
-    return HeroOptionGroupTableStartHeroOptionGroupsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return HeroOptionGroupTableStartJsonVector(builder, numElems)
 
 def HeroOptionGroupTableEnd(builder):
     return builder.EndObject()

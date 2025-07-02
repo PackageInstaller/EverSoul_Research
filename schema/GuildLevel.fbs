@@ -9,7 +9,7 @@ table GuildLevel {
 }
 
 table GuildLevelTable {
-  guild_levels: [GuildLevel];
+  json: [GuildLevel];
 }
 
 root_type GuildLevelTable;

@@ -25,7 +25,7 @@ class EventDefenseGimmickSettingTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDefenseGimmickSettingTable
-    def EventDefenseGimmickSettings(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDefenseGimmickSettingTable(object):
         return None
 
     # EventDefenseGimmickSettingTable
-    def EventDefenseGimmickSettingsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDefenseGimmickSettingTable
-    def EventDefenseGimmickSettingsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDefenseGimmickSettingTableStart(builder):
 def Start(builder):
     EventDefenseGimmickSettingTableStart(builder)
 
-def EventDefenseGimmickSettingTableAddEventDefenseGimmickSettings(builder, eventDefenseGimmickSettings):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDefenseGimmickSettings), 0)
+def EventDefenseGimmickSettingTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDefenseGimmickSettings(builder, eventDefenseGimmickSettings):
-    EventDefenseGimmickSettingTableAddEventDefenseGimmickSettings(builder, eventDefenseGimmickSettings)
+def AddJson(builder, json):
+    EventDefenseGimmickSettingTableAddJson(builder, json)
 
-def EventDefenseGimmickSettingTableStartEventDefenseGimmickSettingsVector(builder, numElems):
+def EventDefenseGimmickSettingTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDefenseGimmickSettingsVector(builder, numElems):
-    return EventDefenseGimmickSettingTableStartEventDefenseGimmickSettingsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDefenseGimmickSettingTableStartJsonVector(builder, numElems)
 
 def EventDefenseGimmickSettingTableEnd(builder):
     return builder.EndObject()

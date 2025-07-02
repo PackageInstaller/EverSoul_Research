@@ -10,7 +10,7 @@ table GachaMileage {
 }
 
 table GachaMileageTable {
-  gacha_mileages: [GachaMileage];
+  json: [GachaMileage];
 }
 
 root_type GachaMileageTable;

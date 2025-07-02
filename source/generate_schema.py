@@ -148,7 +148,8 @@ def generate_fsb(struct_name, parameters):
     main_table += "}\n\n"
 
     table_name = f"{struct_name}Table"
-    field_name = pascal_to_snake(struct_name + "s")
+    # field_name = pascal_to_snake(struct_name + "s")
+    field_name = "json"
     wrapper_table = f"table {table_name} {{\n  {field_name}: [{struct_name}];\n}}\n\n"
     
     root = f"root_type {table_name};\n"

@@ -25,7 +25,7 @@ class SingleRaidTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SingleRaidTable
-    def SingleRaids(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SingleRaidTable(object):
         return None
 
     # SingleRaidTable
-    def SingleRaidsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SingleRaidTable
-    def SingleRaidsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SingleRaidTableStart(builder):
 def Start(builder):
     SingleRaidTableStart(builder)
 
-def SingleRaidTableAddSingleRaids(builder, singleRaids):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(singleRaids), 0)
+def SingleRaidTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSingleRaids(builder, singleRaids):
-    SingleRaidTableAddSingleRaids(builder, singleRaids)
+def AddJson(builder, json):
+    SingleRaidTableAddJson(builder, json)
 
-def SingleRaidTableStartSingleRaidsVector(builder, numElems):
+def SingleRaidTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSingleRaidsVector(builder, numElems):
-    return SingleRaidTableStartSingleRaidsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SingleRaidTableStartJsonVector(builder, numElems)
 
 def SingleRaidTableEnd(builder):
     return builder.EndObject()

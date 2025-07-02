@@ -19,7 +19,7 @@ table Achievement {
 }
 
 table AchievementTable {
-  achievements: [Achievement];
+  json: [Achievement];
 }
 
 root_type AchievementTable;

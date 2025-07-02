@@ -9,7 +9,7 @@ table HeroComment {
 }
 
 table HeroCommentTable {
-  hero_comments: [HeroComment];
+  json: [HeroComment];
 }
 
 root_type HeroCommentTable;

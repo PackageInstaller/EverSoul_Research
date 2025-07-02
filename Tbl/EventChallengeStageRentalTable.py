@@ -25,7 +25,7 @@ class EventChallengeStageRentalTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventChallengeStageRentalTable
-    def EventChallengeStageRentals(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventChallengeStageRentalTable(object):
         return None
 
     # EventChallengeStageRentalTable
-    def EventChallengeStageRentalsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventChallengeStageRentalTable
-    def EventChallengeStageRentalsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventChallengeStageRentalTableStart(builder):
 def Start(builder):
     EventChallengeStageRentalTableStart(builder)
 
-def EventChallengeStageRentalTableAddEventChallengeStageRentals(builder, eventChallengeStageRentals):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventChallengeStageRentals), 0)
+def EventChallengeStageRentalTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventChallengeStageRentals(builder, eventChallengeStageRentals):
-    EventChallengeStageRentalTableAddEventChallengeStageRentals(builder, eventChallengeStageRentals)
+def AddJson(builder, json):
+    EventChallengeStageRentalTableAddJson(builder, json)
 
-def EventChallengeStageRentalTableStartEventChallengeStageRentalsVector(builder, numElems):
+def EventChallengeStageRentalTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventChallengeStageRentalsVector(builder, numElems):
-    return EventChallengeStageRentalTableStartEventChallengeStageRentalsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventChallengeStageRentalTableStartJsonVector(builder, numElems)
 
 def EventChallengeStageRentalTableEnd(builder):
     return builder.EndObject()

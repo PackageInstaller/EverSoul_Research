@@ -25,7 +25,7 @@ class LevelTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # LevelTable
-    def Levels(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class LevelTable(object):
         return None
 
     # LevelTable
-    def LevelsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # LevelTable
-    def LevelsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def LevelTableStart(builder):
 def Start(builder):
     LevelTableStart(builder)
 
-def LevelTableAddLevels(builder, levels):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(levels), 0)
+def LevelTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddLevels(builder, levels):
-    LevelTableAddLevels(builder, levels)
+def AddJson(builder, json):
+    LevelTableAddJson(builder, json)
 
-def LevelTableStartLevelsVector(builder, numElems):
+def LevelTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartLevelsVector(builder, numElems):
-    return LevelTableStartLevelsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return LevelTableStartJsonVector(builder, numElems)
 
 def LevelTableEnd(builder):
     return builder.EndObject()

@@ -16,7 +16,7 @@ table GuildRaidAffix {
 }
 
 table GuildRaidAffixTable {
-  guild_raid_affixs: [GuildRaidAffix];
+  json: [GuildRaidAffix];
 }
 
 root_type GuildRaidAffixTable;

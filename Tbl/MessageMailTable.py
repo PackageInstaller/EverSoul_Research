@@ -25,7 +25,7 @@ class MessageMailTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # MessageMailTable
-    def MessageMails(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class MessageMailTable(object):
         return None
 
     # MessageMailTable
-    def MessageMailsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # MessageMailTable
-    def MessageMailsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def MessageMailTableStart(builder):
 def Start(builder):
     MessageMailTableStart(builder)
 
-def MessageMailTableAddMessageMails(builder, messageMails):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(messageMails), 0)
+def MessageMailTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddMessageMails(builder, messageMails):
-    MessageMailTableAddMessageMails(builder, messageMails)
+def AddJson(builder, json):
+    MessageMailTableAddJson(builder, json)
 
-def MessageMailTableStartMessageMailsVector(builder, numElems):
+def MessageMailTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartMessageMailsVector(builder, numElems):
-    return MessageMailTableStartMessageMailsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return MessageMailTableStartJsonVector(builder, numElems)
 
 def MessageMailTableEnd(builder):
     return builder.EndObject()

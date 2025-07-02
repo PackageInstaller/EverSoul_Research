@@ -12,7 +12,7 @@ table MonsterEquip {
 }
 
 table MonsterEquipTable {
-  monster_equips: [MonsterEquip];
+  json: [MonsterEquip];
 }
 
 root_type MonsterEquipTable;

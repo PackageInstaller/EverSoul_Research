@@ -20,7 +20,7 @@ table DungeonDifficulty {
 }
 
 table DungeonDifficultyTable {
-  dungeon_difficultys: [DungeonDifficulty];
+  json: [DungeonDifficulty];
 }
 
 root_type DungeonDifficultyTable;

@@ -25,7 +25,7 @@ class PromotionRentalTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # PromotionRentalTable
-    def PromotionRentals(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class PromotionRentalTable(object):
         return None
 
     # PromotionRentalTable
-    def PromotionRentalsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # PromotionRentalTable
-    def PromotionRentalsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def PromotionRentalTableStart(builder):
 def Start(builder):
     PromotionRentalTableStart(builder)
 
-def PromotionRentalTableAddPromotionRentals(builder, promotionRentals):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(promotionRentals), 0)
+def PromotionRentalTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddPromotionRentals(builder, promotionRentals):
-    PromotionRentalTableAddPromotionRentals(builder, promotionRentals)
+def AddJson(builder, json):
+    PromotionRentalTableAddJson(builder, json)
 
-def PromotionRentalTableStartPromotionRentalsVector(builder, numElems):
+def PromotionRentalTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartPromotionRentalsVector(builder, numElems):
-    return PromotionRentalTableStartPromotionRentalsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return PromotionRentalTableStartJsonVector(builder, numElems)
 
 def PromotionRentalTableEnd(builder):
     return builder.EndObject()

@@ -25,7 +25,7 @@ class HeroGiftTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # HeroGiftTable
-    def HeroGifts(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class HeroGiftTable(object):
         return None
 
     # HeroGiftTable
-    def HeroGiftsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # HeroGiftTable
-    def HeroGiftsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def HeroGiftTableStart(builder):
 def Start(builder):
     HeroGiftTableStart(builder)
 
-def HeroGiftTableAddHeroGifts(builder, heroGifts):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(heroGifts), 0)
+def HeroGiftTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddHeroGifts(builder, heroGifts):
-    HeroGiftTableAddHeroGifts(builder, heroGifts)
+def AddJson(builder, json):
+    HeroGiftTableAddJson(builder, json)
 
-def HeroGiftTableStartHeroGiftsVector(builder, numElems):
+def HeroGiftTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartHeroGiftsVector(builder, numElems):
-    return HeroGiftTableStartHeroGiftsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return HeroGiftTableStartJsonVector(builder, numElems)
 
 def HeroGiftTableEnd(builder):
     return builder.EndObject()

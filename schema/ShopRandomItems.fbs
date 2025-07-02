@@ -12,7 +12,7 @@ table ShopRandomItems {
 }
 
 table ShopRandomItemsTable {
-  shop_random_itemss: [ShopRandomItems];
+  json: [ShopRandomItems];
 }
 
 root_type ShopRandomItemsTable;

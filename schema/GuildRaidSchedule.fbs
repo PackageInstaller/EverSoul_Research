@@ -8,7 +8,7 @@ table GuildRaidSchedule {
 }
 
 table GuildRaidScheduleTable {
-  guild_raid_schedules: [GuildRaidSchedule];
+  json: [GuildRaidSchedule];
 }
 
 root_type GuildRaidScheduleTable;

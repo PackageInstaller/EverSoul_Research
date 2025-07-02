@@ -9,7 +9,7 @@ table UserLevel {
 }
 
 table UserLevelTable {
-  user_levels: [UserLevel];
+  json: [UserLevel];
 }
 
 root_type UserLevelTable;

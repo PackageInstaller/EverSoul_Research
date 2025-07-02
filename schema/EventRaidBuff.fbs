@@ -14,7 +14,7 @@ table EventRaidBuff {
 }
 
 table EventRaidBuffTable {
-  event_raid_buffs: [EventRaidBuff];
+  json: [EventRaidBuff];
 }
 
 root_type EventRaidBuffTable;

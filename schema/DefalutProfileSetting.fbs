@@ -10,7 +10,7 @@ table DefalutProfileSetting {
 }
 
 table DefalutProfileSettingTable {
-  default_profile_settings: [DefalutProfileSetting];
+  json: [DefalutProfileSetting];
 }
 
 root_type DefalutProfileSettingTable;

@@ -10,7 +10,7 @@ table StringTown {
 }
 
 table StringTownTable {
-  string_towns: [StringTown];
+  json: [StringTown];
 }
 
 root_type StringTownTable;

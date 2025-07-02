@@ -25,7 +25,7 @@ class HeroUpgradeTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # HeroUpgradeTable
-    def HeroUpgrades(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class HeroUpgradeTable(object):
         return None
 
     # HeroUpgradeTable
-    def HeroUpgradesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # HeroUpgradeTable
-    def HeroUpgradesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def HeroUpgradeTableStart(builder):
 def Start(builder):
     HeroUpgradeTableStart(builder)
 
-def HeroUpgradeTableAddHeroUpgrades(builder, heroUpgrades):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(heroUpgrades), 0)
+def HeroUpgradeTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddHeroUpgrades(builder, heroUpgrades):
-    HeroUpgradeTableAddHeroUpgrades(builder, heroUpgrades)
+def AddJson(builder, json):
+    HeroUpgradeTableAddJson(builder, json)
 
-def HeroUpgradeTableStartHeroUpgradesVector(builder, numElems):
+def HeroUpgradeTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartHeroUpgradesVector(builder, numElems):
-    return HeroUpgradeTableStartHeroUpgradesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return HeroUpgradeTableStartJsonVector(builder, numElems)
 
 def HeroUpgradeTableEnd(builder):
     return builder.EndObject()

@@ -8,7 +8,7 @@ table HelpGuideCategory {
 }
 
 table HelpGuideCategoryTable {
-  help_guide_categorys: [HelpGuideCategory];
+  json: [HelpGuideCategory];
 }
 
 root_type HelpGuideCategoryTable;

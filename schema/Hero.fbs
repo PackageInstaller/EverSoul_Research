@@ -53,7 +53,7 @@ table Hero {
 }
 
 table HeroTable {
-  heros: [Hero];
+  json: [Hero];
 }
 
 root_type HeroTable;

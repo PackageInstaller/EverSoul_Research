@@ -25,7 +25,7 @@ class EdenUnionRankTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EdenUnionRankTable
-    def EdenUnionRanks(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EdenUnionRankTable(object):
         return None
 
     # EdenUnionRankTable
-    def EdenUnionRanksLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EdenUnionRankTable
-    def EdenUnionRanksIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EdenUnionRankTableStart(builder):
 def Start(builder):
     EdenUnionRankTableStart(builder)
 
-def EdenUnionRankTableAddEdenUnionRanks(builder, edenUnionRanks):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(edenUnionRanks), 0)
+def EdenUnionRankTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEdenUnionRanks(builder, edenUnionRanks):
-    EdenUnionRankTableAddEdenUnionRanks(builder, edenUnionRanks)
+def AddJson(builder, json):
+    EdenUnionRankTableAddJson(builder, json)
 
-def EdenUnionRankTableStartEdenUnionRanksVector(builder, numElems):
+def EdenUnionRankTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEdenUnionRanksVector(builder, numElems):
-    return EdenUnionRankTableStartEdenUnionRanksVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EdenUnionRankTableStartJsonVector(builder, numElems)
 
 def EdenUnionRankTableEnd(builder):
     return builder.EndObject()

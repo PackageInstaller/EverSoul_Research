@@ -11,7 +11,7 @@ table TripKeyword {
 }
 
 table TripKeywordTable {
-  trip_keywords: [TripKeyword];
+  json: [TripKeyword];
 }
 
 root_type TripKeywordTable;

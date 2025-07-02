@@ -12,7 +12,7 @@ table EdenUnionSkill {
 }
 
 table EdenUnionSkillTable {
-  eden_union_skills: [EdenUnionSkill];
+  json: [EdenUnionSkill];
 }
 
 root_type EdenUnionSkillTable;

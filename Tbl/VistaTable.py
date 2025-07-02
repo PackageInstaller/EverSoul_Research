@@ -25,7 +25,7 @@ class VistaTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # VistaTable
-    def Vistas(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class VistaTable(object):
         return None
 
     # VistaTable
-    def VistasLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # VistaTable
-    def VistasIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def VistaTableStart(builder):
 def Start(builder):
     VistaTableStart(builder)
 
-def VistaTableAddVistas(builder, vistas):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(vistas), 0)
+def VistaTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddVistas(builder, vistas):
-    VistaTableAddVistas(builder, vistas)
+def AddJson(builder, json):
+    VistaTableAddJson(builder, json)
 
-def VistaTableStartVistasVector(builder, numElems):
+def VistaTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartVistasVector(builder, numElems):
-    return VistaTableStartVistasVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return VistaTableStartJsonVector(builder, numElems)
 
 def VistaTableEnd(builder):
     return builder.EndObject()

@@ -9,7 +9,7 @@ table EventDiceSlotPoint {
 }
 
 table EventDiceSlotPointTable {
-  event_dice_slot_points: [EventDiceSlotPoint];
+  json: [EventDiceSlotPoint];
 }
 
 root_type EventDiceSlotPointTable;

@@ -25,7 +25,7 @@ class EvermatchTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EvermatchTable
-    def Evermatchs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EvermatchTable(object):
         return None
 
     # EvermatchTable
-    def EvermatchsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EvermatchTable
-    def EvermatchsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EvermatchTableStart(builder):
 def Start(builder):
     EvermatchTableStart(builder)
 
-def EvermatchTableAddEvermatchs(builder, evermatchs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(evermatchs), 0)
+def EvermatchTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEvermatchs(builder, evermatchs):
-    EvermatchTableAddEvermatchs(builder, evermatchs)
+def AddJson(builder, json):
+    EvermatchTableAddJson(builder, json)
 
-def EvermatchTableStartEvermatchsVector(builder, numElems):
+def EvermatchTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEvermatchsVector(builder, numElems):
-    return EvermatchTableStartEvermatchsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EvermatchTableStartJsonVector(builder, numElems)
 
 def EvermatchTableEnd(builder):
     return builder.EndObject()

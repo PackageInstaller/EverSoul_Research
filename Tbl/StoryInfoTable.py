@@ -25,7 +25,7 @@ class StoryInfoTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # StoryInfoTable
-    def StoryInfos(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class StoryInfoTable(object):
         return None
 
     # StoryInfoTable
-    def StoryInfosLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # StoryInfoTable
-    def StoryInfosIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def StoryInfoTableStart(builder):
 def Start(builder):
     StoryInfoTableStart(builder)
 
-def StoryInfoTableAddStoryInfos(builder, storyInfos):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(storyInfos), 0)
+def StoryInfoTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddStoryInfos(builder, storyInfos):
-    StoryInfoTableAddStoryInfos(builder, storyInfos)
+def AddJson(builder, json):
+    StoryInfoTableAddJson(builder, json)
 
-def StoryInfoTableStartStoryInfosVector(builder, numElems):
+def StoryInfoTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartStoryInfosVector(builder, numElems):
-    return StoryInfoTableStartStoryInfosVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return StoryInfoTableStartJsonVector(builder, numElems)
 
 def StoryInfoTableEnd(builder):
     return builder.EndObject()

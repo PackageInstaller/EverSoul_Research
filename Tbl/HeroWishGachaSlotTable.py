@@ -25,7 +25,7 @@ class HeroWishGachaSlotTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # HeroWishGachaSlotTable
-    def HeroWishGachaSlots(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class HeroWishGachaSlotTable(object):
         return None
 
     # HeroWishGachaSlotTable
-    def HeroWishGachaSlotsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # HeroWishGachaSlotTable
-    def HeroWishGachaSlotsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def HeroWishGachaSlotTableStart(builder):
 def Start(builder):
     HeroWishGachaSlotTableStart(builder)
 
-def HeroWishGachaSlotTableAddHeroWishGachaSlots(builder, heroWishGachaSlots):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(heroWishGachaSlots), 0)
+def HeroWishGachaSlotTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddHeroWishGachaSlots(builder, heroWishGachaSlots):
-    HeroWishGachaSlotTableAddHeroWishGachaSlots(builder, heroWishGachaSlots)
+def AddJson(builder, json):
+    HeroWishGachaSlotTableAddJson(builder, json)
 
-def HeroWishGachaSlotTableStartHeroWishGachaSlotsVector(builder, numElems):
+def HeroWishGachaSlotTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartHeroWishGachaSlotsVector(builder, numElems):
-    return HeroWishGachaSlotTableStartHeroWishGachaSlotsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return HeroWishGachaSlotTableStartJsonVector(builder, numElems)
 
 def HeroWishGachaSlotTableEnd(builder):
     return builder.EndObject()

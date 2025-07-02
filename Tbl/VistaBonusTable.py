@@ -25,7 +25,7 @@ class VistaBonusTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # VistaBonusTable
-    def VistaBonuss(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class VistaBonusTable(object):
         return None
 
     # VistaBonusTable
-    def VistaBonussLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # VistaBonusTable
-    def VistaBonussIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def VistaBonusTableStart(builder):
 def Start(builder):
     VistaBonusTableStart(builder)
 
-def VistaBonusTableAddVistaBonuss(builder, vistaBonuss):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(vistaBonuss), 0)
+def VistaBonusTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddVistaBonuss(builder, vistaBonuss):
-    VistaBonusTableAddVistaBonuss(builder, vistaBonuss)
+def AddJson(builder, json):
+    VistaBonusTableAddJson(builder, json)
 
-def VistaBonusTableStartVistaBonussVector(builder, numElems):
+def VistaBonusTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartVistaBonussVector(builder, numElems):
-    return VistaBonusTableStartVistaBonussVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return VistaBonusTableStartJsonVector(builder, numElems)
 
 def VistaBonusTableEnd(builder):
     return builder.EndObject()

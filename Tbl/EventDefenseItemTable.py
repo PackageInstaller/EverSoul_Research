@@ -25,7 +25,7 @@ class EventDefenseItemTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDefenseItemTable
-    def EventDefenseItems(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDefenseItemTable(object):
         return None
 
     # EventDefenseItemTable
-    def EventDefenseItemsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDefenseItemTable
-    def EventDefenseItemsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDefenseItemTableStart(builder):
 def Start(builder):
     EventDefenseItemTableStart(builder)
 
-def EventDefenseItemTableAddEventDefenseItems(builder, eventDefenseItems):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDefenseItems), 0)
+def EventDefenseItemTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDefenseItems(builder, eventDefenseItems):
-    EventDefenseItemTableAddEventDefenseItems(builder, eventDefenseItems)
+def AddJson(builder, json):
+    EventDefenseItemTableAddJson(builder, json)
 
-def EventDefenseItemTableStartEventDefenseItemsVector(builder, numElems):
+def EventDefenseItemTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDefenseItemsVector(builder, numElems):
-    return EventDefenseItemTableStartEventDefenseItemsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDefenseItemTableStartJsonVector(builder, numElems)
 
 def EventDefenseItemTableEnd(builder):
     return builder.EndObject()

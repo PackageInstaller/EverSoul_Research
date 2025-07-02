@@ -25,7 +25,7 @@ class EventCalenderTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventCalenderTable
-    def EventCalenders(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventCalenderTable(object):
         return None
 
     # EventCalenderTable
-    def EventCalendersLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventCalenderTable
-    def EventCalendersIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventCalenderTableStart(builder):
 def Start(builder):
     EventCalenderTableStart(builder)
 
-def EventCalenderTableAddEventCalenders(builder, eventCalenders):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventCalenders), 0)
+def EventCalenderTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventCalenders(builder, eventCalenders):
-    EventCalenderTableAddEventCalenders(builder, eventCalenders)
+def AddJson(builder, json):
+    EventCalenderTableAddJson(builder, json)
 
-def EventCalenderTableStartEventCalendersVector(builder, numElems):
+def EventCalenderTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventCalendersVector(builder, numElems):
-    return EventCalenderTableStartEventCalendersVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventCalenderTableStartJsonVector(builder, numElems)
 
 def EventCalenderTableEnd(builder):
     return builder.EndObject()

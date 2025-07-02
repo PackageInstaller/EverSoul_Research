@@ -25,7 +25,7 @@ class EventBossRushRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventBossRushRewardTable
-    def EventBossRushRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventBossRushRewardTable(object):
         return None
 
     # EventBossRushRewardTable
-    def EventBossRushRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventBossRushRewardTable
-    def EventBossRushRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventBossRushRewardTableStart(builder):
 def Start(builder):
     EventBossRushRewardTableStart(builder)
 
-def EventBossRushRewardTableAddEventBossRushRewards(builder, eventBossRushRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventBossRushRewards), 0)
+def EventBossRushRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventBossRushRewards(builder, eventBossRushRewards):
-    EventBossRushRewardTableAddEventBossRushRewards(builder, eventBossRushRewards)
+def AddJson(builder, json):
+    EventBossRushRewardTableAddJson(builder, json)
 
-def EventBossRushRewardTableStartEventBossRushRewardsVector(builder, numElems):
+def EventBossRushRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventBossRushRewardsVector(builder, numElems):
-    return EventBossRushRewardTableStartEventBossRushRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventBossRushRewardTableStartJsonVector(builder, numElems)
 
 def EventBossRushRewardTableEnd(builder):
     return builder.EndObject()

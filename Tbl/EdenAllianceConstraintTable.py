@@ -25,7 +25,7 @@ class EdenAllianceConstraintTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EdenAllianceConstraintTable
-    def EdenAllianceConstraints(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EdenAllianceConstraintTable(object):
         return None
 
     # EdenAllianceConstraintTable
-    def EdenAllianceConstraintsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EdenAllianceConstraintTable
-    def EdenAllianceConstraintsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EdenAllianceConstraintTableStart(builder):
 def Start(builder):
     EdenAllianceConstraintTableStart(builder)
 
-def EdenAllianceConstraintTableAddEdenAllianceConstraints(builder, edenAllianceConstraints):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(edenAllianceConstraints), 0)
+def EdenAllianceConstraintTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEdenAllianceConstraints(builder, edenAllianceConstraints):
-    EdenAllianceConstraintTableAddEdenAllianceConstraints(builder, edenAllianceConstraints)
+def AddJson(builder, json):
+    EdenAllianceConstraintTableAddJson(builder, json)
 
-def EdenAllianceConstraintTableStartEdenAllianceConstraintsVector(builder, numElems):
+def EdenAllianceConstraintTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEdenAllianceConstraintsVector(builder, numElems):
-    return EdenAllianceConstraintTableStartEdenAllianceConstraintsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EdenAllianceConstraintTableStartJsonVector(builder, numElems)
 
 def EdenAllianceConstraintTableEnd(builder):
     return builder.EndObject()

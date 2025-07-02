@@ -25,7 +25,7 @@ class AchievementSubCategoryTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # AchievementSubCategoryTable
-    def AchievementSubCategorys(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class AchievementSubCategoryTable(object):
         return None
 
     # AchievementSubCategoryTable
-    def AchievementSubCategorysLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # AchievementSubCategoryTable
-    def AchievementSubCategorysIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def AchievementSubCategoryTableStart(builder):
 def Start(builder):
     AchievementSubCategoryTableStart(builder)
 
-def AchievementSubCategoryTableAddAchievementSubCategorys(builder, achievementSubCategorys):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(achievementSubCategorys), 0)
+def AchievementSubCategoryTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddAchievementSubCategorys(builder, achievementSubCategorys):
-    AchievementSubCategoryTableAddAchievementSubCategorys(builder, achievementSubCategorys)
+def AddJson(builder, json):
+    AchievementSubCategoryTableAddJson(builder, json)
 
-def AchievementSubCategoryTableStartAchievementSubCategorysVector(builder, numElems):
+def AchievementSubCategoryTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartAchievementSubCategorysVector(builder, numElems):
-    return AchievementSubCategoryTableStartAchievementSubCategorysVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return AchievementSubCategoryTableStartJsonVector(builder, numElems)
 
 def AchievementSubCategoryTableEnd(builder):
     return builder.EndObject()

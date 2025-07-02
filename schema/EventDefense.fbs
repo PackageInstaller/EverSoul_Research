@@ -22,7 +22,7 @@ table EventDefense {
 }
 
 table EventDefenseTable {
-  event_defenses: [EventDefense];
+  json: [EventDefense];
 }
 
 root_type EventDefenseTable;

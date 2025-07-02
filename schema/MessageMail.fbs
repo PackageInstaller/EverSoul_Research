@@ -28,7 +28,7 @@ table MessageMail {
 }
 
 table MessageMailTable {
-  message_mails: [MessageMail];
+  json: [MessageMail];
 }
 
 root_type MessageMailTable;

@@ -25,7 +25,7 @@ class HeroChaosTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # HeroChaosTable
-    def HeroChaoss(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class HeroChaosTable(object):
         return None
 
     # HeroChaosTable
-    def HeroChaossLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # HeroChaosTable
-    def HeroChaossIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def HeroChaosTableStart(builder):
 def Start(builder):
     HeroChaosTableStart(builder)
 
-def HeroChaosTableAddHeroChaoss(builder, heroChaoss):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(heroChaoss), 0)
+def HeroChaosTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddHeroChaoss(builder, heroChaoss):
-    HeroChaosTableAddHeroChaoss(builder, heroChaoss)
+def AddJson(builder, json):
+    HeroChaosTableAddJson(builder, json)
 
-def HeroChaosTableStartHeroChaossVector(builder, numElems):
+def HeroChaosTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartHeroChaossVector(builder, numElems):
-    return HeroChaosTableStartHeroChaossVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return HeroChaosTableStartJsonVector(builder, numElems)
 
 def HeroChaosTableEnd(builder):
     return builder.EndObject()

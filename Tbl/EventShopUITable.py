@@ -25,7 +25,7 @@ class EventShopUITable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventShopUITable
-    def EventShopUIs(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventShopUITable(object):
         return None
 
     # EventShopUITable
-    def EventShopUIsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventShopUITable
-    def EventShopUIsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventShopUITableStart(builder):
 def Start(builder):
     EventShopUITableStart(builder)
 
-def EventShopUITableAddEventShopUIs(builder, eventShopUIs):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventShopUIs), 0)
+def EventShopUITableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventShopUIs(builder, eventShopUIs):
-    EventShopUITableAddEventShopUIs(builder, eventShopUIs)
+def AddJson(builder, json):
+    EventShopUITableAddJson(builder, json)
 
-def EventShopUITableStartEventShopUIsVector(builder, numElems):
+def EventShopUITableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventShopUIsVector(builder, numElems):
-    return EventShopUITableStartEventShopUIsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventShopUITableStartJsonVector(builder, numElems)
 
 def EventShopUITableEnd(builder):
     return builder.EndObject()

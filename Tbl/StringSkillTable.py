@@ -25,7 +25,7 @@ class StringSkillTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # StringSkillTable
-    def StringSkills(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class StringSkillTable(object):
         return None
 
     # StringSkillTable
-    def StringSkillsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # StringSkillTable
-    def StringSkillsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def StringSkillTableStart(builder):
 def Start(builder):
     StringSkillTableStart(builder)
 
-def StringSkillTableAddStringSkills(builder, stringSkills):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(stringSkills), 0)
+def StringSkillTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddStringSkills(builder, stringSkills):
-    StringSkillTableAddStringSkills(builder, stringSkills)
+def AddJson(builder, json):
+    StringSkillTableAddJson(builder, json)
 
-def StringSkillTableStartStringSkillsVector(builder, numElems):
+def StringSkillTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartStringSkillsVector(builder, numElems):
-    return StringSkillTableStartStringSkillsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return StringSkillTableStartJsonVector(builder, numElems)
 
 def StringSkillTableEnd(builder):
     return builder.EndObject()

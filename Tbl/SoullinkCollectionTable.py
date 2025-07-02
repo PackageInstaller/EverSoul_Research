@@ -25,7 +25,7 @@ class SoullinkCollectionTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SoullinkCollectionTable
-    def SoulLinkCollections(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SoullinkCollectionTable(object):
         return None
 
     # SoullinkCollectionTable
-    def SoulLinkCollectionsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SoullinkCollectionTable
-    def SoulLinkCollectionsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SoullinkCollectionTableStart(builder):
 def Start(builder):
     SoullinkCollectionTableStart(builder)
 
-def SoullinkCollectionTableAddSoulLinkCollections(builder, soulLinkCollections):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(soulLinkCollections), 0)
+def SoullinkCollectionTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSoulLinkCollections(builder, soulLinkCollections):
-    SoullinkCollectionTableAddSoulLinkCollections(builder, soulLinkCollections)
+def AddJson(builder, json):
+    SoullinkCollectionTableAddJson(builder, json)
 
-def SoullinkCollectionTableStartSoulLinkCollectionsVector(builder, numElems):
+def SoullinkCollectionTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSoulLinkCollectionsVector(builder, numElems):
-    return SoullinkCollectionTableStartSoulLinkCollectionsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SoullinkCollectionTableStartJsonVector(builder, numElems)
 
 def SoullinkCollectionTableEnd(builder):
     return builder.EndObject()

@@ -25,7 +25,7 @@ class SkillIconTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SkillIconTable
-    def SkillIcons(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SkillIconTable(object):
         return None
 
     # SkillIconTable
-    def SkillIconsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SkillIconTable
-    def SkillIconsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SkillIconTableStart(builder):
 def Start(builder):
     SkillIconTableStart(builder)
 
-def SkillIconTableAddSkillIcons(builder, skillIcons):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(skillIcons), 0)
+def SkillIconTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSkillIcons(builder, skillIcons):
-    SkillIconTableAddSkillIcons(builder, skillIcons)
+def AddJson(builder, json):
+    SkillIconTableAddJson(builder, json)
 
-def SkillIconTableStartSkillIconsVector(builder, numElems):
+def SkillIconTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSkillIconsVector(builder, numElems):
-    return SkillIconTableStartSkillIconsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SkillIconTableStartJsonVector(builder, numElems)
 
 def SkillIconTableEnd(builder):
     return builder.EndObject()

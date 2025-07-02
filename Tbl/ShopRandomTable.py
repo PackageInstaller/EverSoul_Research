@@ -25,7 +25,7 @@ class ShopRandomTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ShopRandomTable
-    def ShopRandoms(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ShopRandomTable(object):
         return None
 
     # ShopRandomTable
-    def ShopRandomsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ShopRandomTable
-    def ShopRandomsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ShopRandomTableStart(builder):
 def Start(builder):
     ShopRandomTableStart(builder)
 
-def ShopRandomTableAddShopRandoms(builder, shopRandoms):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(shopRandoms), 0)
+def ShopRandomTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddShopRandoms(builder, shopRandoms):
-    ShopRandomTableAddShopRandoms(builder, shopRandoms)
+def AddJson(builder, json):
+    ShopRandomTableAddJson(builder, json)
 
-def ShopRandomTableStartShopRandomsVector(builder, numElems):
+def ShopRandomTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartShopRandomsVector(builder, numElems):
-    return ShopRandomTableStartShopRandomsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ShopRandomTableStartJsonVector(builder, numElems)
 
 def ShopRandomTableEnd(builder):
     return builder.EndObject()

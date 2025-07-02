@@ -9,7 +9,7 @@ table SkillCondition {
 }
 
 table SkillConditionTable {
-  skill_conditions: [SkillCondition];
+  json: [SkillCondition];
 }
 
 root_type SkillConditionTable;

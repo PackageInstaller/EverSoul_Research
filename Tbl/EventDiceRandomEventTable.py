@@ -25,7 +25,7 @@ class EventDiceRandomEventTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDiceRandomEventTable
-    def EventDiceRandomEvents(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDiceRandomEventTable(object):
         return None
 
     # EventDiceRandomEventTable
-    def EventDiceRandomEventsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDiceRandomEventTable
-    def EventDiceRandomEventsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDiceRandomEventTableStart(builder):
 def Start(builder):
     EventDiceRandomEventTableStart(builder)
 
-def EventDiceRandomEventTableAddEventDiceRandomEvents(builder, eventDiceRandomEvents):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDiceRandomEvents), 0)
+def EventDiceRandomEventTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDiceRandomEvents(builder, eventDiceRandomEvents):
-    EventDiceRandomEventTableAddEventDiceRandomEvents(builder, eventDiceRandomEvents)
+def AddJson(builder, json):
+    EventDiceRandomEventTableAddJson(builder, json)
 
-def EventDiceRandomEventTableStartEventDiceRandomEventsVector(builder, numElems):
+def EventDiceRandomEventTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDiceRandomEventsVector(builder, numElems):
-    return EventDiceRandomEventTableStartEventDiceRandomEventsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDiceRandomEventTableStartJsonVector(builder, numElems)
 
 def EventDiceRandomEventTableEnd(builder):
     return builder.EndObject()

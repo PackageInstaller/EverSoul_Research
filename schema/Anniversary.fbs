@@ -9,7 +9,7 @@ table Anniversary {
 }
 
 table AnniversaryTable {
-  anniversarys: [Anniversary];
+  json: [Anniversary];
 }
 
 root_type AnniversaryTable;

@@ -25,7 +25,7 @@ class EventDefenseHelperListTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDefenseHelperListTable
-    def EventDefenseHelperLists(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDefenseHelperListTable(object):
         return None
 
     # EventDefenseHelperListTable
-    def EventDefenseHelperListsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDefenseHelperListTable
-    def EventDefenseHelperListsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDefenseHelperListTableStart(builder):
 def Start(builder):
     EventDefenseHelperListTableStart(builder)
 
-def EventDefenseHelperListTableAddEventDefenseHelperLists(builder, eventDefenseHelperLists):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDefenseHelperLists), 0)
+def EventDefenseHelperListTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDefenseHelperLists(builder, eventDefenseHelperLists):
-    EventDefenseHelperListTableAddEventDefenseHelperLists(builder, eventDefenseHelperLists)
+def AddJson(builder, json):
+    EventDefenseHelperListTableAddJson(builder, json)
 
-def EventDefenseHelperListTableStartEventDefenseHelperListsVector(builder, numElems):
+def EventDefenseHelperListTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDefenseHelperListsVector(builder, numElems):
-    return EventDefenseHelperListTableStartEventDefenseHelperListsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDefenseHelperListTableStartJsonVector(builder, numElems)
 
 def EventDefenseHelperListTableEnd(builder):
     return builder.EndObject()

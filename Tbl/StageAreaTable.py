@@ -25,7 +25,7 @@ class StageAreaTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # StageAreaTable
-    def StageAreas(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class StageAreaTable(object):
         return None
 
     # StageAreaTable
-    def StageAreasLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # StageAreaTable
-    def StageAreasIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def StageAreaTableStart(builder):
 def Start(builder):
     StageAreaTableStart(builder)
 
-def StageAreaTableAddStageAreas(builder, stageAreas):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(stageAreas), 0)
+def StageAreaTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddStageAreas(builder, stageAreas):
-    StageAreaTableAddStageAreas(builder, stageAreas)
+def AddJson(builder, json):
+    StageAreaTableAddJson(builder, json)
 
-def StageAreaTableStartStageAreasVector(builder, numElems):
+def StageAreaTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartStageAreasVector(builder, numElems):
-    return StageAreaTableStartStageAreasVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return StageAreaTableStartJsonVector(builder, numElems)
 
 def StageAreaTableEnd(builder):
     return builder.EndObject()

@@ -20,7 +20,7 @@ table TownEnemy {
 }
 
 table TownEnemyTable {
-  town_enemys: [TownEnemy];
+  json: [TownEnemy];
 }
 
 root_type TownEnemyTable;

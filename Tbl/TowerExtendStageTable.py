@@ -25,7 +25,7 @@ class TowerExtendStageTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # TowerExtendStageTable
-    def TowerExtendStages(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class TowerExtendStageTable(object):
         return None
 
     # TowerExtendStageTable
-    def TowerExtendStagesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # TowerExtendStageTable
-    def TowerExtendStagesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def TowerExtendStageTableStart(builder):
 def Start(builder):
     TowerExtendStageTableStart(builder)
 
-def TowerExtendStageTableAddTowerExtendStages(builder, towerExtendStages):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(towerExtendStages), 0)
+def TowerExtendStageTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddTowerExtendStages(builder, towerExtendStages):
-    TowerExtendStageTableAddTowerExtendStages(builder, towerExtendStages)
+def AddJson(builder, json):
+    TowerExtendStageTableAddJson(builder, json)
 
-def TowerExtendStageTableStartTowerExtendStagesVector(builder, numElems):
+def TowerExtendStageTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartTowerExtendStagesVector(builder, numElems):
-    return TowerExtendStageTableStartTowerExtendStagesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return TowerExtendStageTableStartJsonVector(builder, numElems)
 
 def TowerExtendStageTableEnd(builder):
     return builder.EndObject()

@@ -9,7 +9,7 @@ table PromotionMovie {
 }
 
 table PromotionMovieTable {
-  promotion_movies: [PromotionMovie];
+  json: [PromotionMovie];
 }
 
 root_type PromotionMovieTable;

@@ -13,7 +13,7 @@ table Illust {
 }
 
 table IllustTable {
-  illusts: [Illust];
+  json: [Illust];
 }
 
 root_type IllustTable;

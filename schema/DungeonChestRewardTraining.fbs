@@ -17,7 +17,7 @@ table DungeonChestRewardTraining {
 }
 
 table DungeonChestRewardTrainingTable {
-  dungeon_chest_reward_trainings: [DungeonChestRewardTraining];
+  json: [DungeonChestRewardTraining];
 }
 
 root_type DungeonChestRewardTrainingTable;

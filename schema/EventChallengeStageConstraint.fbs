@@ -14,7 +14,7 @@ table EventChallengeStageConstraint {
 }
 
 table EventChallengeStageConstraintTable {
-  event_challenge_stage_constraints: [EventChallengeStageConstraint];
+  json: [EventChallengeStageConstraint];
 }
 
 root_type EventChallengeStageConstraintTable;

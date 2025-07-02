@@ -16,7 +16,7 @@ table Zodiac {
 }
 
 table ZodiacTable {
-  zodiacs: [Zodiac];
+  json: [Zodiac];
 }
 
 root_type ZodiacTable;

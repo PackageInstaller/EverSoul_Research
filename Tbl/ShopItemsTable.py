@@ -25,7 +25,7 @@ class ShopItemsTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # ShopItemsTable
-    def ShopItemss(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class ShopItemsTable(object):
         return None
 
     # ShopItemsTable
-    def ShopItemssLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # ShopItemsTable
-    def ShopItemssIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def ShopItemsTableStart(builder):
 def Start(builder):
     ShopItemsTableStart(builder)
 
-def ShopItemsTableAddShopItemss(builder, shopItemss):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(shopItemss), 0)
+def ShopItemsTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddShopItemss(builder, shopItemss):
-    ShopItemsTableAddShopItemss(builder, shopItemss)
+def AddJson(builder, json):
+    ShopItemsTableAddJson(builder, json)
 
-def ShopItemsTableStartShopItemssVector(builder, numElems):
+def ShopItemsTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartShopItemssVector(builder, numElems):
-    return ShopItemsTableStartShopItemssVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return ShopItemsTableStartJsonVector(builder, numElems)
 
 def ShopItemsTableEnd(builder):
     return builder.EndObject()

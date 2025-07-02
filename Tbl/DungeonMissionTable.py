@@ -25,7 +25,7 @@ class DungeonMissionTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # DungeonMissionTable
-    def DungeonMissions(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class DungeonMissionTable(object):
         return None
 
     # DungeonMissionTable
-    def DungeonMissionsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # DungeonMissionTable
-    def DungeonMissionsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def DungeonMissionTableStart(builder):
 def Start(builder):
     DungeonMissionTableStart(builder)
 
-def DungeonMissionTableAddDungeonMissions(builder, dungeonMissions):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(dungeonMissions), 0)
+def DungeonMissionTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddDungeonMissions(builder, dungeonMissions):
-    DungeonMissionTableAddDungeonMissions(builder, dungeonMissions)
+def AddJson(builder, json):
+    DungeonMissionTableAddJson(builder, json)
 
-def DungeonMissionTableStartDungeonMissionsVector(builder, numElems):
+def DungeonMissionTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartDungeonMissionsVector(builder, numElems):
-    return DungeonMissionTableStartDungeonMissionsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return DungeonMissionTableStartJsonVector(builder, numElems)
 
 def DungeonMissionTableEnd(builder):
     return builder.EndObject()

@@ -9,7 +9,7 @@ table HeroGrade {
 }
 
 table HeroGradeTable {
-  hero_grades: [HeroGrade];
+  json: [HeroGrade];
 }
 
 root_type HeroGradeTable;

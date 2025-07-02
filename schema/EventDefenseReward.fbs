@@ -18,7 +18,7 @@ table EventDefenseReward {
 }
 
 table EventDefenseRewardTable {
-  event_defense_rewards: [EventDefenseReward];
+  json: [EventDefenseReward];
 }
 
 root_type EventDefenseRewardTable;

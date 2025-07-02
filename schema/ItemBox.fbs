@@ -11,7 +11,7 @@ table ItemBox {
 }
 
 table ItemBoxTable {
-  item_boxs: [ItemBox];
+  json: [ItemBox];
 }
 
 root_type ItemBoxTable;

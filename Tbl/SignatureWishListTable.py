@@ -25,7 +25,7 @@ class SignatureWishListTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # SignatureWishListTable
-    def SignatureWishLists(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class SignatureWishListTable(object):
         return None
 
     # SignatureWishListTable
-    def SignatureWishListsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # SignatureWishListTable
-    def SignatureWishListsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def SignatureWishListTableStart(builder):
 def Start(builder):
     SignatureWishListTableStart(builder)
 
-def SignatureWishListTableAddSignatureWishLists(builder, signatureWishLists):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(signatureWishLists), 0)
+def SignatureWishListTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddSignatureWishLists(builder, signatureWishLists):
-    SignatureWishListTableAddSignatureWishLists(builder, signatureWishLists)
+def AddJson(builder, json):
+    SignatureWishListTableAddJson(builder, json)
 
-def SignatureWishListTableStartSignatureWishListsVector(builder, numElems):
+def SignatureWishListTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartSignatureWishListsVector(builder, numElems):
-    return SignatureWishListTableStartSignatureWishListsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return SignatureWishListTableStartJsonVector(builder, numElems)
 
 def SignatureWishListTableEnd(builder):
     return builder.EndObject()

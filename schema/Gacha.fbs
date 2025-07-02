@@ -33,7 +33,7 @@ table Gacha {
 }
 
 table GachaTable {
-  gachas: [Gacha];
+  json: [Gacha];
 }
 
 root_type GachaTable;

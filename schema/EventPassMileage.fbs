@@ -12,7 +12,7 @@ table EventPassMileage {
 }
 
 table EventPassMileageTable {
-  event_pass_mileages: [EventPassMileage];
+  json: [EventPassMileage];
 }
 
 root_type EventPassMileageTable;

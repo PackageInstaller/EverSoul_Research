@@ -25,7 +25,7 @@ class EventStoryTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventStoryTable
-    def EventStorys(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventStoryTable(object):
         return None
 
     # EventStoryTable
-    def EventStorysLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventStoryTable
-    def EventStorysIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventStoryTableStart(builder):
 def Start(builder):
     EventStoryTableStart(builder)
 
-def EventStoryTableAddEventStorys(builder, eventStorys):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventStorys), 0)
+def EventStoryTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventStorys(builder, eventStorys):
-    EventStoryTableAddEventStorys(builder, eventStorys)
+def AddJson(builder, json):
+    EventStoryTableAddJson(builder, json)
 
-def EventStoryTableStartEventStorysVector(builder, numElems):
+def EventStoryTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventStorysVector(builder, numElems):
-    return EventStoryTableStartEventStorysVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventStoryTableStartJsonVector(builder, numElems)
 
 def EventStoryTableEnd(builder):
     return builder.EndObject()

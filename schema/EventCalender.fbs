@@ -14,7 +14,7 @@ table EventCalender {
 }
 
 table EventCalenderTable {
-  event_calenders: [EventCalender];
+  json: [EventCalender];
 }
 
 root_type EventCalenderTable;

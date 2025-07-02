@@ -25,7 +25,7 @@ class EventRankRaidStepRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventRankRaidStepRewardTable
-    def EventRankRaidStepRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventRankRaidStepRewardTable(object):
         return None
 
     # EventRankRaidStepRewardTable
-    def EventRankRaidStepRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventRankRaidStepRewardTable
-    def EventRankRaidStepRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventRankRaidStepRewardTableStart(builder):
 def Start(builder):
     EventRankRaidStepRewardTableStart(builder)
 
-def EventRankRaidStepRewardTableAddEventRankRaidStepRewards(builder, eventRankRaidStepRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventRankRaidStepRewards), 0)
+def EventRankRaidStepRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventRankRaidStepRewards(builder, eventRankRaidStepRewards):
-    EventRankRaidStepRewardTableAddEventRankRaidStepRewards(builder, eventRankRaidStepRewards)
+def AddJson(builder, json):
+    EventRankRaidStepRewardTableAddJson(builder, json)
 
-def EventRankRaidStepRewardTableStartEventRankRaidStepRewardsVector(builder, numElems):
+def EventRankRaidStepRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventRankRaidStepRewardsVector(builder, numElems):
-    return EventRankRaidStepRewardTableStartEventRankRaidStepRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventRankRaidStepRewardTableStartJsonVector(builder, numElems)
 
 def EventRankRaidStepRewardTableEnd(builder):
     return builder.EndObject()

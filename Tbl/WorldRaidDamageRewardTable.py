@@ -25,7 +25,7 @@ class WorldRaidDamageRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # WorldRaidDamageRewardTable
-    def WorldRaidDamageRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class WorldRaidDamageRewardTable(object):
         return None
 
     # WorldRaidDamageRewardTable
-    def WorldRaidDamageRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # WorldRaidDamageRewardTable
-    def WorldRaidDamageRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def WorldRaidDamageRewardTableStart(builder):
 def Start(builder):
     WorldRaidDamageRewardTableStart(builder)
 
-def WorldRaidDamageRewardTableAddWorldRaidDamageRewards(builder, worldRaidDamageRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(worldRaidDamageRewards), 0)
+def WorldRaidDamageRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddWorldRaidDamageRewards(builder, worldRaidDamageRewards):
-    WorldRaidDamageRewardTableAddWorldRaidDamageRewards(builder, worldRaidDamageRewards)
+def AddJson(builder, json):
+    WorldRaidDamageRewardTableAddJson(builder, json)
 
-def WorldRaidDamageRewardTableStartWorldRaidDamageRewardsVector(builder, numElems):
+def WorldRaidDamageRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartWorldRaidDamageRewardsVector(builder, numElems):
-    return WorldRaidDamageRewardTableStartWorldRaidDamageRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return WorldRaidDamageRewardTableStartJsonVector(builder, numElems)
 
 def WorldRaidDamageRewardTableEnd(builder):
     return builder.EndObject()

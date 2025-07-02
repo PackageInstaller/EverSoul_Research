@@ -9,7 +9,7 @@ table HeroGroup {
 }
 
 table HeroGroupTable {
-  hero_groups: [HeroGroup];
+  json: [HeroGroup];
 }
 
 root_type HeroGroupTable;

@@ -12,7 +12,7 @@ table SignatureSkill {
 }
 
 table SignatureSkillTable {
-  signature_skills: [SignatureSkill];
+  json: [SignatureSkill];
 }
 
 root_type SignatureSkillTable;

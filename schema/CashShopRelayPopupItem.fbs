@@ -10,7 +10,7 @@ table CashShopRelayPopupItem {
 }
 
 table CashShopRelayPopupItemTable {
-  cash_shop_relay_popup_items: [CashShopRelayPopupItem];
+  json: [CashShopRelayPopupItem];
 }
 
 root_type CashShopRelayPopupItemTable;

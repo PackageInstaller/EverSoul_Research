@@ -8,7 +8,7 @@ table EventDailyPass {
 }
 
 table EventDailyPassTable {
-  event_daily_passs: [EventDailyPass];
+  json: [EventDailyPass];
 }
 
 root_type EventDailyPassTable;

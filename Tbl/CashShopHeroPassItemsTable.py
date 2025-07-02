@@ -25,7 +25,7 @@ class CashShopHeroPassItemsTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # CashShopHeroPassItemsTable
-    def CashShopHeroPassItemss(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class CashShopHeroPassItemsTable(object):
         return None
 
     # CashShopHeroPassItemsTable
-    def CashShopHeroPassItemssLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # CashShopHeroPassItemsTable
-    def CashShopHeroPassItemssIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def CashShopHeroPassItemsTableStart(builder):
 def Start(builder):
     CashShopHeroPassItemsTableStart(builder)
 
-def CashShopHeroPassItemsTableAddCashShopHeroPassItemss(builder, cashShopHeroPassItemss):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(cashShopHeroPassItemss), 0)
+def CashShopHeroPassItemsTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddCashShopHeroPassItemss(builder, cashShopHeroPassItemss):
-    CashShopHeroPassItemsTableAddCashShopHeroPassItemss(builder, cashShopHeroPassItemss)
+def AddJson(builder, json):
+    CashShopHeroPassItemsTableAddJson(builder, json)
 
-def CashShopHeroPassItemsTableStartCashShopHeroPassItemssVector(builder, numElems):
+def CashShopHeroPassItemsTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartCashShopHeroPassItemssVector(builder, numElems):
-    return CashShopHeroPassItemsTableStartCashShopHeroPassItemssVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return CashShopHeroPassItemsTableStartJsonVector(builder, numElems)
 
 def CashShopHeroPassItemsTableEnd(builder):
     return builder.EndObject()

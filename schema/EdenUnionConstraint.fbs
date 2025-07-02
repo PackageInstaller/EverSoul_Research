@@ -17,7 +17,7 @@ table EdenUnionConstraint {
 }
 
 table EdenUnionConstraintTable {
-  eden_union_constraints: [EdenUnionConstraint];
+  json: [EdenUnionConstraint];
 }
 
 root_type EdenUnionConstraintTable;

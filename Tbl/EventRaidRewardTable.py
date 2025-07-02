@@ -25,7 +25,7 @@ class EventRaidRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventRaidRewardTable
-    def EventRaidRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventRaidRewardTable(object):
         return None
 
     # EventRaidRewardTable
-    def EventRaidRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventRaidRewardTable
-    def EventRaidRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventRaidRewardTableStart(builder):
 def Start(builder):
     EventRaidRewardTableStart(builder)
 
-def EventRaidRewardTableAddEventRaidRewards(builder, eventRaidRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventRaidRewards), 0)
+def EventRaidRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventRaidRewards(builder, eventRaidRewards):
-    EventRaidRewardTableAddEventRaidRewards(builder, eventRaidRewards)
+def AddJson(builder, json):
+    EventRaidRewardTableAddJson(builder, json)
 
-def EventRaidRewardTableStartEventRaidRewardsVector(builder, numElems):
+def EventRaidRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventRaidRewardsVector(builder, numElems):
-    return EventRaidRewardTableStartEventRaidRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventRaidRewardTableStartJsonVector(builder, numElems)
 
 def EventRaidRewardTableEnd(builder):
     return builder.EndObject()

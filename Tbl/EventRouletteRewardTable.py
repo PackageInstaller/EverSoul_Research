@@ -25,7 +25,7 @@ class EventRouletteRewardTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventRouletteRewardTable
-    def EventRouletteRewards(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventRouletteRewardTable(object):
         return None
 
     # EventRouletteRewardTable
-    def EventRouletteRewardsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventRouletteRewardTable
-    def EventRouletteRewardsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventRouletteRewardTableStart(builder):
 def Start(builder):
     EventRouletteRewardTableStart(builder)
 
-def EventRouletteRewardTableAddEventRouletteRewards(builder, eventRouletteRewards):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventRouletteRewards), 0)
+def EventRouletteRewardTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventRouletteRewards(builder, eventRouletteRewards):
-    EventRouletteRewardTableAddEventRouletteRewards(builder, eventRouletteRewards)
+def AddJson(builder, json):
+    EventRouletteRewardTableAddJson(builder, json)
 
-def EventRouletteRewardTableStartEventRouletteRewardsVector(builder, numElems):
+def EventRouletteRewardTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventRouletteRewardsVector(builder, numElems):
-    return EventRouletteRewardTableStartEventRouletteRewardsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventRouletteRewardTableStartJsonVector(builder, numElems)
 
 def EventRouletteRewardTableEnd(builder):
     return builder.EndObject()

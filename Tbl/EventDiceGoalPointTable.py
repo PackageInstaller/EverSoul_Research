@@ -25,7 +25,7 @@ class EventDiceGoalPointTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EventDiceGoalPointTable
-    def EventDiceGoalPoints(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EventDiceGoalPointTable(object):
         return None
 
     # EventDiceGoalPointTable
-    def EventDiceGoalPointsLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EventDiceGoalPointTable
-    def EventDiceGoalPointsIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EventDiceGoalPointTableStart(builder):
 def Start(builder):
     EventDiceGoalPointTableStart(builder)
 
-def EventDiceGoalPointTableAddEventDiceGoalPoints(builder, eventDiceGoalPoints):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(eventDiceGoalPoints), 0)
+def EventDiceGoalPointTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEventDiceGoalPoints(builder, eventDiceGoalPoints):
-    EventDiceGoalPointTableAddEventDiceGoalPoints(builder, eventDiceGoalPoints)
+def AddJson(builder, json):
+    EventDiceGoalPointTableAddJson(builder, json)
 
-def EventDiceGoalPointTableStartEventDiceGoalPointsVector(builder, numElems):
+def EventDiceGoalPointTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEventDiceGoalPointsVector(builder, numElems):
-    return EventDiceGoalPointTableStartEventDiceGoalPointsVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EventDiceGoalPointTableStartJsonVector(builder, numElems)
 
 def EventDiceGoalPointTableEnd(builder):
     return builder.EndObject()

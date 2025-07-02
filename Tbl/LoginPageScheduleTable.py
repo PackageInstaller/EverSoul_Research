@@ -25,7 +25,7 @@ class LoginPageScheduleTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # LoginPageScheduleTable
-    def LoginPageSchedules(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class LoginPageScheduleTable(object):
         return None
 
     # LoginPageScheduleTable
-    def LoginPageSchedulesLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # LoginPageScheduleTable
-    def LoginPageSchedulesIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def LoginPageScheduleTableStart(builder):
 def Start(builder):
     LoginPageScheduleTableStart(builder)
 
-def LoginPageScheduleTableAddLoginPageSchedules(builder, loginPageSchedules):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(loginPageSchedules), 0)
+def LoginPageScheduleTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddLoginPageSchedules(builder, loginPageSchedules):
-    LoginPageScheduleTableAddLoginPageSchedules(builder, loginPageSchedules)
+def AddJson(builder, json):
+    LoginPageScheduleTableAddJson(builder, json)
 
-def LoginPageScheduleTableStartLoginPageSchedulesVector(builder, numElems):
+def LoginPageScheduleTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartLoginPageSchedulesVector(builder, numElems):
-    return LoginPageScheduleTableStartLoginPageSchedulesVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return LoginPageScheduleTableStartJsonVector(builder, numElems)
 
 def LoginPageScheduleTableEnd(builder):
     return builder.EndObject()

@@ -25,7 +25,7 @@ class EdenAllianceTierTable(object):
         self._tab = flatbuffers.table.Table(buf, pos)
 
     # EdenAllianceTierTable
-    def EdenAllianceTiers(self, j):
+    def Json(self, j):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             x = self._tab.Vector(o)
@@ -38,14 +38,14 @@ class EdenAllianceTierTable(object):
         return None
 
     # EdenAllianceTierTable
-    def EdenAllianceTiersLength(self):
+    def JsonLength(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         if o != 0:
             return self._tab.VectorLen(o)
         return 0
 
     # EdenAllianceTierTable
-    def EdenAllianceTiersIsNone(self):
+    def JsonIsNone(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(4))
         return o == 0
 
@@ -55,17 +55,17 @@ def EdenAllianceTierTableStart(builder):
 def Start(builder):
     EdenAllianceTierTableStart(builder)
 
-def EdenAllianceTierTableAddEdenAllianceTiers(builder, edenAllianceTiers):
-    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(edenAllianceTiers), 0)
+def EdenAllianceTierTableAddJson(builder, json):
+    builder.PrependUOffsetTRelativeSlot(0, flatbuffers.number_types.UOffsetTFlags.py_type(json), 0)
 
-def AddEdenAllianceTiers(builder, edenAllianceTiers):
-    EdenAllianceTierTableAddEdenAllianceTiers(builder, edenAllianceTiers)
+def AddJson(builder, json):
+    EdenAllianceTierTableAddJson(builder, json)
 
-def EdenAllianceTierTableStartEdenAllianceTiersVector(builder, numElems):
+def EdenAllianceTierTableStartJsonVector(builder, numElems):
     return builder.StartVector(4, numElems, 4)
 
-def StartEdenAllianceTiersVector(builder, numElems):
-    return EdenAllianceTierTableStartEdenAllianceTiersVector(builder, numElems)
+def StartJsonVector(builder, numElems):
+    return EdenAllianceTierTableStartJsonVector(builder, numElems)
 
 def EdenAllianceTierTableEnd(builder):
     return builder.EndObject()

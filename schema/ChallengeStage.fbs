@@ -16,7 +16,7 @@ table ChallengeStage {
 }
 
 table ChallengeStageTable {
-  challenge_stages: [ChallengeStage];
+  json: [ChallengeStage];
 }
 
 root_type ChallengeStageTable;
