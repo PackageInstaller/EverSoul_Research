@@ -1,5 +1,0 @@
-ninja_dyndep_version = 1.0
-build CMakeFiles/eversoul.dir/source/main.cpp.o: dyndep
-
-build CMakeFiles/eversoul.dir/source/utils.cpp.o: dyndep
-
