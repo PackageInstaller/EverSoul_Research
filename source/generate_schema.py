@@ -6,9 +6,19 @@ def pascal_to_snake(name):
     """
     将 PascalCase 或 camelCase 转换为 snake_case。
     """
-    s1 = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', name)
-    snake = re.sub('([a-z0-9])([A-Z])', r'\1_\2', s1).lower()
-    return snake
+    if '_' in name:
+        parts = name.split('_')
+        snake_parts = []
+        for part in parts:
+            if part:
+                s1 = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', part)
+                snake_part = re.sub('([a-z0-9])([A-Z])', r'\1_\2', s1).lower()
+                snake_parts.append(snake_part)
+        return '_'.join(snake_parts)
+    else:
+        s1 = re.sub('(.)([A-Z][a-z]+)', r'\1_\2', name)
+        snake = re.sub('([a-z0-9])([A-Z])', r'\1_\2', s1).lower()
+        return snake
 
 def map_csharp_to_flatbuffers(csharp_type):
     """
@@ -48,9 +58,7 @@ def clean_parameter_string(param_str):
     """
     清理参数字符串，移除注释和多余的空白
     """
-    # 移除 /* ... */ 注释
     param_str = re.sub(r'/\*[^*]*\*+(?:[^/*][^*]*\*+)*/', '', param_str)
-    # 移除多余的空白
     param_str = re.sub(r'\s+', ' ', param_str).strip()
     return param_str
 

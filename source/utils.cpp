@@ -760,19 +760,19 @@ std::vector<std::string> QooAppAPI::generateVersions(const std::string &baseVers
     int patch = std::stoi(matches[3]);
 
     // 当前minor版本，从当前patch开始，向上检查到400
-    for (int p = patch; p <= 200; p++)
+    for (int p = patch; p <= 400; p++)
     {
         versions.push_back(std::format("{}.{}.{}", major, minor, p));
     }
 
     // 下一个minor版本，从0开始，向上检查到400
-    for (int p = 0; p <= 200; p++)
+    for (int p = 0; p <= 400; p++)
     {
         versions.push_back(std::format("{}.{}.{}", major, minor + 1, p));
     }
 
     // major递增，minor从0开始，patch从0开始，向上检查到400
-    for (int p = 0; p <= 200; p++)
+    for (int p = 0; p <= 400; p++)
     {
         versions.push_back(std::format("{}.{}.{}", major + 1, 0, p));
     }

@@ -63,7 +63,7 @@ def parse_proto_message(binary_data, proto_module, message_class):
 def main():
     parser = argparse.ArgumentParser(description='读取二进制文件并根据proto定义解析')
     parser.add_argument('binary_file', help='要读取的二进制文件路径')
-    parser.add_argument('-p', '--proto_dir', help='proto_api目录路径', default='response_proto_api')
+    parser.add_argument('-p', '--proto_dir', help='proto_api目录路径', default='../response_proto_api')
     parser.add_argument('-c', '--class_name', help='消息类名称(如果与文件名不同)', default=None)
     args = parser.parse_args()
     
@@ -71,19 +71,26 @@ def main():
     file_basename = os.path.basename(args.binary_file)
     message_class = args.class_name if args.class_name else os.path.splitext(file_basename)[0]
     
-    # 构建proto模块名
-    proto_module_name = f"{args.proto_dir}.{os.path.splitext(file_basename)[0]}_pb2"
+    # 解析proto目录路径
+    proto_dir_abs = os.path.abspath(args.proto_dir)
+    if not os.path.exists(proto_dir_abs):
+        print(f"错误: 目录 {proto_dir_abs} 不存在")
+        return 1
+    
+    # 将proto目录添加到Python路径中
+    if proto_dir_abs not in sys.path:
+        sys.path.insert(0, proto_dir_abs)
+    
+    # 构建proto模块名（现在只需要模块名，不需要目录前缀）
+    proto_module_name = f"{os.path.splitext(file_basename)[0]}_pb2"
     
     try:
-        # 将模块目录添加到路径
-        if not os.path.exists(args.proto_dir):
-            print(f"错误: 目录 {args.proto_dir} 不存在")
-            return 1
-        
         proto_module = importlib.import_module(proto_module_name)
         binary_data = read_binary_file(args.binary_file)
 
-        if args.proto_dir == 'request_proto_api':
+        # 根据proto目录名判断偏移量
+        proto_dir_name = os.path.basename(args.proto_dir)
+        if proto_dir_name == 'request_proto_api':
             # 请求proto忽略前4字节
             offset = 4
         else:

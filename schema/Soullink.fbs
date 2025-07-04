@@ -5,10 +5,10 @@ table Soullink {
   collection: int32;
   group_slot: string;
   group_content: string;
-  group_hero1: int32;
-  group_hero2: int32;
-  group_hero3: int32;
-  group_hero4: int32;
+  group_hero_1: int32;
+  group_hero_2: int32;
+  group_hero_3: int32;
+  group_hero_4: int32;
   group_title: int32;
   group_story: int32;
   open_date: string;
