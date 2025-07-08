@@ -332,7 +332,7 @@
       "index": 42,
       "schedule_key": "Cashshop_Pickup_Nia",
       "schedule_type": 1,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": ""
     },
@@ -956,7 +956,7 @@
       "index": 120,
       "schedule_key": "Cashshop_Heropass_Nia",
       "schedule_type": 1,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-08-14 00:00:00",
       "value_date_01": ""
     },
@@ -1580,7 +1580,7 @@
       "index": 198,
       "schedule_key": "Cashshop_EventPeriod_Summer04_2025",
       "schedule_type": 1,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": ""
     },
@@ -1820,7 +1820,7 @@
       "index": 228,
       "schedule_key": "Cashshop_Pickup_MephistoDawn_R",
       "schedule_type": 1,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-17 00:00:00",
       "value_date_01": ""
     },
@@ -1828,7 +1828,7 @@
       "index": 229,
       "schedule_key": "Cashshop_Custom_2_5th",
       "schedule_type": 1,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": ""
     },
@@ -1836,7 +1836,7 @@
       "index": 230,
       "schedule_key": "Cashshop_Bundle_2_5th_1",
       "schedule_type": 1,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": ""
     },
@@ -1844,7 +1844,7 @@
       "index": 231,
       "schedule_key": "Cashshop_Bundle_2_5th_2",
       "schedule_type": 1,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": ""
     },
@@ -1852,7 +1852,7 @@
       "index": 232,
       "schedule_key": "Cashshop_Event_Summer04_2025",
       "schedule_type": 1,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": ""
     },
@@ -3076,7 +3076,7 @@
       "index": 40007,
       "schedule_key": "EventInfo_SpecialReward_2_5th",
       "schedule_type": 4,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-08-07 00:00:00",
       "value_date_01": "2025-08-07 00:00:00"
     },
