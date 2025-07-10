@@ -18,6 +18,7 @@ table ShopItems {
   sell_limit: int32;
   sale_rate: int32;
   drop_rate: int32;
+  schedule_key: string;
 }
 
 table ShopItemsTable {

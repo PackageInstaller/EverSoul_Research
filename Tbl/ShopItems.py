@@ -143,8 +143,15 @@ class ShopItems(object):
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
+    # ShopItems
+    def ScheduleKey(self):
+        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(38))
+        if o != 0:
+            return self._tab.String(o + self._tab.Pos)
+        return None
+
 def ShopItemsStart(builder):
-    builder.StartObject(17)
+    builder.StartObject(18)
 
 def Start(builder):
     ShopItemsStart(builder)
@@ -250,6 +257,12 @@ def ShopItemsAddDropRate(builder, dropRate):
 
 def AddDropRate(builder, dropRate):
     ShopItemsAddDropRate(builder, dropRate)
+
+def ShopItemsAddScheduleKey(builder, scheduleKey):
+    builder.PrependUOffsetTRelativeSlot(17, flatbuffers.number_types.UOffsetTFlags.py_type(scheduleKey), 0)
+
+def AddScheduleKey(builder, scheduleKey):
+    ShopItemsAddScheduleKey(builder, scheduleKey)
 
 def ShopItemsEnd(builder):
     return builder.EndObject()
