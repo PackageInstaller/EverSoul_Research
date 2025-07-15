@@ -5008,6 +5008,21 @@
       "far_motion": "0"
     },
     {
+      "no": 44824,
+      "path": "TownObjet_25Summer",
+      "prefab": "PE_TOWN_B_25Summer_ArkStatue",
+      "original_slot": 539,
+      "buff1": 1001,
+      "buff2": 5919,
+      "develop_point": 2500,
+      "place_limit": 1,
+      "hero": 6530,
+      "castle": 1,
+      "animal_prefab": "0",
+      "close_motion": "0",
+      "far_motion": "0"
+    },
+    {
       "no": 44901,
       "path": "TownObjet_25Maid",
       "prefab": "PE_TOWN_B_25Maid_Greenhouse",
@@ -5320,6 +5335,7 @@
       "original_slot": 114,
       "develop_point": 10,
       "castle": 1,
+      "furnace": 2,
       "animal_prefab": "0",
       "close_motion": "0",
       "far_motion": "0"
@@ -5332,6 +5348,7 @@
       "original_slot": 137,
       "develop_point": 10,
       "castle": 1,
+      "furnace": 2,
       "animal_prefab": "0",
       "close_motion": "0",
       "far_motion": "0"
@@ -5344,6 +5361,7 @@
       "original_slot": 105,
       "develop_point": 10,
       "castle": 1,
+      "furnace": 2,
       "animal_prefab": "0",
       "close_motion": "0",
       "far_motion": "0"
@@ -5356,6 +5374,7 @@
       "original_slot": 105,
       "develop_point": 10,
       "castle": 1,
+      "furnace": 2,
       "animal_prefab": "0",
       "close_motion": "0",
       "far_motion": "0"
@@ -5368,6 +5387,7 @@
       "original_slot": 198,
       "develop_point": 10,
       "castle": 1,
+      "furnace": 2,
       "animal_prefab": "0",
       "close_motion": "0",
       "far_motion": "0"
@@ -5380,6 +5400,7 @@
       "original_slot": 13,
       "develop_point": 10,
       "castle": 1,
+      "furnace": 2,
       "animal_prefab": "0",
       "close_motion": "0",
       "far_motion": "0"

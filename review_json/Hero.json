@@ -6712,12 +6712,14 @@
       "max_grade_sno": 110025,
       "base_attack": 8170,
       "skill_no_1": 8171,
+      "skill_no_9": 100828,
       "attack": 21000,
       "max_hp": 2500,
       "hit": 100,
       "inc_max_hp": 2500,
+      "hero_type": 1,
       "prefab_path": 2819,
-      "battle_power_type": 3
+      "battle_power_type": 2
     },
     {
       "no": 8230,
@@ -20101,6 +20103,7 @@
       "inc_max_hp": 587,
       "inc_critical_rate": 0.00012,
       "inc_critical_power": 0.00074,
+      "hero_type": 1,
       "prefab_path": 2390,
       "battle_power_type": 2,
       "is_collectable": 1
@@ -20137,9 +20140,9 @@
       "inc_max_hp": 597,
       "inc_critical_rate": 0.00012,
       "inc_critical_power": 0.0008,
-      "hero_type": 2,
+      "hero_type": 1,
       "prefab_path": 2392,
-      "battle_power_type": 1,
+      "battle_power_type": 2,
       "is_collectable": 1
     },
     {
@@ -25830,7 +25833,7 @@
       "skill_no_7": 99338,
       "skill_no_8": 99339,
       "ultimate_skill_no": 99335,
-      "attack": 160500,
+      "attack": 280000,
       "defence": 93000,
       "max_hp": 2997751,
       "max_mp": 10000,

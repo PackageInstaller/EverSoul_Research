@@ -332,8 +332,8 @@
       "index": 42,
       "schedule_key": "Cashshop_Pickup_Nia",
       "schedule_type": 1,
-      "start_date": "2025-07-03 00:00:00",
-      "end_date": "2025-07-31 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
+      "end_date": "2025-08-07 00:00:00",
       "value_date_01": ""
     },
     {
@@ -956,8 +956,8 @@
       "index": 120,
       "schedule_key": "Cashshop_Heropass_Nia",
       "schedule_type": 1,
-      "start_date": "2025-07-03 00:00:00",
-      "end_date": "2025-08-14 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
+      "end_date": "2025-08-21 00:00:00",
       "value_date_01": ""
     },
     {
@@ -1580,7 +1580,7 @@
       "index": 198,
       "schedule_key": "Cashshop_EventPeriod_Summer04_2025",
       "schedule_type": 1,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": ""
     },
@@ -1820,7 +1820,7 @@
       "index": 228,
       "schedule_key": "Cashshop_Pickup_MephistoDawn_R",
       "schedule_type": 1,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-17 00:00:00",
       "value_date_01": ""
     },
@@ -1828,7 +1828,7 @@
       "index": 229,
       "schedule_key": "Cashshop_Custom_2_5th",
       "schedule_type": 1,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": ""
     },
@@ -1836,7 +1836,7 @@
       "index": 230,
       "schedule_key": "Cashshop_Bundle_2_5th_1",
       "schedule_type": 1,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": ""
     },
@@ -1844,7 +1844,7 @@
       "index": 231,
       "schedule_key": "Cashshop_Bundle_2_5th_2",
       "schedule_type": 1,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": ""
     },
@@ -1852,7 +1852,7 @@
       "index": 232,
       "schedule_key": "Cashshop_Event_Summer04_2025",
       "schedule_type": 1,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": ""
     },
@@ -1868,32 +1868,32 @@
       "index": 20002,
       "schedule_key": "EdenUnion_chalar",
       "schedule_type": 2,
-      "start_date": "2025-03-27 00:00:00",
-      "end_date": "2025-04-10 00:00:00",
-      "value_date_01": "2025-04-24 00:00:00"
+      "start_date": "2025-04-24 00:00:00",
+      "end_date": "2025-05-08 00:00:00",
+      "value_date_01": "2025-05-22 00:00:00"
     },
     {
       "index": 20003,
       "schedule_key": "EdenUnion_gaon",
       "schedule_type": 2,
-      "start_date": "2025-03-27 00:00:00",
-      "end_date": "2025-04-10 00:00:00",
-      "value_date_01": "2025-04-24 00:00:00"
+      "start_date": "2025-05-22 00:00:00",
+      "end_date": "2025-06-05 00:00:00",
+      "value_date_01": "2025-06-19 00:00:00"
     },
     {
       "index": 20004,
       "schedule_key": "EdenUnion_solrey",
       "schedule_type": 2,
-      "start_date": "2025-03-27 00:00:00",
-      "end_date": "2025-04-10 00:00:00",
-      "value_date_01": "2025-04-24 00:00:00"
+      "start_date": "2023-01-19 01:00:00",
+      "end_date": "2023-01-19 01:00:00",
+      "value_date_01": "2023-01-19 01:00:00"
     },
     {
       "index": 20005,
       "schedule_key": "EdenUnion_event01",
       "schedule_type": 2,
-      "start_date": "2025-06-25 01:00:00",
-      "end_date": "2025-07-09 00:00:00",
+      "start_date": "2025-06-23 00:00:00",
+      "end_date": "2025-07-07 00:00:00",
       "value_date_01": "2025-08-09 00:00:00"
     },
     {
@@ -3028,7 +3028,7 @@
       "index": 40001,
       "schedule_key": "EventInfo_Summer04_Attend",
       "schedule_type": 4,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": "2025-07-31 00:00:00"
     },
@@ -3036,7 +3036,7 @@
       "index": 40002,
       "schedule_key": "EventInfo_Summer04_Main",
       "schedule_type": 4,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": "2025-08-07 00:00:00"
     },
@@ -3044,7 +3044,7 @@
       "index": 40003,
       "schedule_key": "EventInfo_Summer04_Stage",
       "schedule_type": 4,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": "2025-08-07 00:00:00"
     },
@@ -3052,7 +3052,7 @@
       "index": 40004,
       "schedule_key": "EventInfo_Summer04_Infinity",
       "schedule_type": 4,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": "2025-08-07 00:00:00"
     },
@@ -3060,7 +3060,7 @@
       "index": 40005,
       "schedule_key": "EventInfo_Summer04_Pass",
       "schedule_type": 4,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-08-07 00:00:00",
       "value_date_01": "2025-08-07 00:00:00"
     },
@@ -3068,7 +3068,7 @@
       "index": 40006,
       "schedule_key": "EventInfo_Bingo_5",
       "schedule_type": 4,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-08-07 00:00:00",
       "value_date_01": "2025-08-07 00:00:00"
     },
@@ -3076,7 +3076,7 @@
       "index": 40007,
       "schedule_key": "EventInfo_SpecialReward_2_5th",
       "schedule_type": 4,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-08-07 00:00:00",
       "value_date_01": "2025-08-07 00:00:00"
     },
@@ -3084,7 +3084,7 @@
       "index": 40008,
       "schedule_key": "EventInfo_FreeGacha_2_5th",
       "schedule_type": 4,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-08-06 23:59:59",
       "value_date_01": "2025-08-06 23:59:59"
     },
@@ -3092,7 +3092,7 @@
       "index": 40009,
       "schedule_key": "EventInfo_SelectPickup_Limit1",
       "schedule_type": 4,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-08-06 23:59:59",
       "value_date_01": "2025-08-06 23:59:59"
     },
@@ -3100,7 +3100,7 @@
       "index": 40010,
       "schedule_key": "EventInfo_Quest_2_5th",
       "schedule_type": 4,
-      "start_date": "2025-06-25 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-08-07 00:00:00",
       "value_date_01": "2025-08-07 00:00:00"
     },
@@ -4740,7 +4740,7 @@
       "index": 40215,
       "schedule_key": "EventInfo_DefenseGame_Sakuyo",
       "schedule_type": 4,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": "2025-07-31 00:00:00"
     },
@@ -4901,14 +4901,14 @@
       "schedule_key": "EventInfo_Rotation_AutoArbeit",
       "schedule_type": 4,
       "start_date": "2025-06-25 00:00:00",
-      "end_date": "2025-07-04 00:00:00",
-      "value_date_01": "2025-07-04 00:00:00"
+      "end_date": "2025-07-09 00:00:00",
+      "value_date_01": "2025-07-09 00:00:00"
     },
     {
       "index": 40236,
       "schedule_key": "EventInfo_Rotation_Arena2",
       "schedule_type": 4,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-16 00:00:00",
       "end_date": "2025-07-23 00:00:00",
       "value_date_01": "2025-07-23 00:00:00"
     },
@@ -4916,7 +4916,7 @@
       "index": 40237,
       "schedule_key": "EventInfo_Rotation_Labyrinth2",
       "schedule_type": 4,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-30 00:00:00",
       "end_date": "2025-08-06 00:00:00",
       "value_date_01": "2025-08-06 00:00:00"
     },
@@ -4924,7 +4924,7 @@
       "index": 40238,
       "schedule_key": "EventInfo_Rotation_Champions2",
       "schedule_type": 4,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-16 00:00:00",
       "end_date": "2025-07-23 00:00:00",
       "value_date_01": "2025-07-23 00:00:00"
     },
@@ -4932,7 +4932,7 @@
       "index": 40239,
       "schedule_key": "EventInfo_Rotation_DualGate2",
       "schedule_type": 4,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-09 00:00:00",
       "end_date": "2025-07-16 00:00:00",
       "value_date_01": "2025-07-16 00:00:00"
     },
@@ -4940,7 +4940,7 @@
       "index": 40240,
       "schedule_key": "EventInfo_Rotation_AutoArbeit2",
       "schedule_type": 4,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-23 00:00:00",
       "end_date": "2025-07-30 00:00:00",
       "value_date_01": "2025-07-30 00:00:00"
     },
@@ -5428,7 +5428,7 @@
       "index": 50061,
       "schedule_key": "Gacha_554",
       "schedule_type": 5,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-24 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": ""
     },
@@ -5500,7 +5500,7 @@
       "index": 50070,
       "schedule_key": "Gacha_563",
       "schedule_type": 5,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-17 00:00:00",
       "end_date": "2025-07-24 00:00:00",
       "value_date_01": ""
     },
@@ -5524,7 +5524,7 @@
       "index": 50073,
       "schedule_key": "Gacha_566",
       "schedule_type": 5,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-07-17 00:00:00",
       "value_date_01": ""
     },
@@ -5596,7 +5596,7 @@
       "index": 50082,
       "schedule_key": "Gacha_575",
       "schedule_type": 5,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2025-08-07 00:00:00",
       "value_date_01": ""
     },
@@ -6428,7 +6428,7 @@
       "index": 55061,
       "schedule_key": "Gate_554",
       "schedule_type": 5,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-24 00:00:00",
       "end_date": "2025-07-25 00:00:00",
       "value_date_01": ""
     },
@@ -6500,7 +6500,7 @@
       "index": 55070,
       "schedule_key": "Gate_563",
       "schedule_type": 5,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-17 00:00:00",
       "end_date": "2025-07-18 00:00:00",
       "value_date_01": ""
     },
@@ -7180,8 +7180,8 @@
       "index": 60030,
       "schedule_key": "GuildRaid_4_120",
       "schedule_type": 6,
-      "start_date": "2025-06-27 00:00:00",
-      "end_date": "2025-07-24 00:00:00",
+      "start_date": "2025-06-09 00:00:00",
+      "end_date": "2025-06-27 00:00:00",
       "value_date_01": "2025-08-07 00:00:00"
     },
     {
@@ -7244,8 +7244,8 @@
       "index": 60038,
       "schedule_key": "GuildRaid_3_63",
       "schedule_type": 6,
-      "start_date": "2025-06-27 00:00:00",
-      "end_date": "2025-07-24 00:00:00",
+      "start_date": "2025-06-09 00:00:00",
+      "end_date": "2025-06-27 00:00:00",
       "value_date_01": "2025-08-07 00:00:00"
     },
     {
@@ -7701,14 +7701,14 @@
       "schedule_key": "WorldRaid_3_90109",
       "schedule_type": 8,
       "start_date": "2025-06-09 00:00:00",
-      "end_date": "2025-07-04 00:00:00",
-      "value_date_01": "2025-07-05 00:00:00"
+      "end_date": "2025-07-10 00:00:00",
+      "value_date_01": "2025-07-12 00:00:00"
     },
     {
       "index": 80015,
       "schedule_key": "WorldRaid_3_90110",
       "schedule_type": 8,
-      "start_date": "2025-07-05 00:00:00",
+      "start_date": "2025-07-12 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": "2025-08-14 00:00:00"
     },
@@ -7733,14 +7733,14 @@
       "schedule_key": "WorldRaid_4_100017",
       "schedule_type": 8,
       "start_date": "2025-06-09 00:00:00",
-      "end_date": "2025-07-04 00:00:00",
-      "value_date_01": "2025-07-05 00:00:00"
+      "end_date": "2025-07-10 00:00:00",
+      "value_date_01": "2025-07-24 00:00:00"
     },
     {
       "index": 80019,
       "schedule_key": "WorldRaid_4_100018",
       "schedule_type": 8,
-      "start_date": "2025-07-05 00:00:00",
+      "start_date": "2025-07-24 00:00:00",
       "end_date": "2025-07-31 00:00:00",
       "value_date_01": "2025-08-14 00:00:00"
     },
@@ -8084,7 +8084,7 @@
       "index": 90043,
       "schedule_key": "GS_3_0004_P",
       "schedule_type": 9,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-17 00:00:00",
       "end_date": "2025-07-24 00:00:00",
       "value_date_01": ""
     },
@@ -8108,7 +8108,7 @@
       "index": 90046,
       "schedule_key": "GS_4_0004_P",
       "schedule_type": 9,
-      "start_date": "2025-07-04 00:00:00",
+      "start_date": "2025-07-17 00:00:00",
       "end_date": "2025-07-24 00:00:00",
       "value_date_01": ""
     },
@@ -8132,7 +8132,7 @@
       "index": 100001,
       "schedule_key": "Shop_Lilith_Sale_Stiker_1",
       "schedule_type": 10,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2999-12-31 00:00:00",
       "value_date_01": "2025-08-07 00:00:00"
     },
@@ -8140,7 +8140,7 @@
       "index": 100002,
       "schedule_key": "Shop_Lilith_Sale_Costume_1",
       "schedule_type": 10,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2999-12-31 00:00:00",
       "value_date_01": "2025-08-07 00:00:00"
     },
@@ -8148,7 +8148,7 @@
       "index": 100003,
       "schedule_key": "Shop_Wheri_Sale_Stiker_1",
       "schedule_type": 10,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2999-12-31 00:00:00",
       "value_date_01": "2025-08-07 00:00:00"
     },
@@ -8156,9 +8156,49 @@
       "index": 100004,
       "schedule_key": "Shop_Wheri_Sale_Costume_1",
       "schedule_type": 10,
-      "start_date": "2025-07-03 00:00:00",
+      "start_date": "2025-07-10 00:00:00",
       "end_date": "2999-12-31 00:00:00",
       "value_date_01": "2025-08-07 00:00:00"
+    },
+    {
+      "index": 100005,
+      "schedule_key": "Shop_MephistoDawn_Sale_SpecialObject_1",
+      "schedule_type": 10,
+      "start_date": "2025-07-20 00:00:00",
+      "end_date": "2999-12-31 00:00:00",
+      "value_date_01": "2025-08-14 00:00:00"
+    },
+    {
+      "index": 100006,
+      "schedule_key": "Shop_SakuyoShin_Sale_Costume_1",
+      "schedule_type": 10,
+      "start_date": "2025-07-14 00:00:00",
+      "end_date": "2999-12-31 00:00:00",
+      "value_date_01": "2025-08-14 00:00:00"
+    },
+    {
+      "index": 100007,
+      "schedule_key": "Shop_SakuyoShin_Sale_Stiker_1",
+      "schedule_type": 10,
+      "start_date": "2025-07-14 00:00:00",
+      "end_date": "2999-12-31 00:00:00",
+      "value_date_01": "2025-08-14 00:00:00"
+    },
+    {
+      "index": 100008,
+      "schedule_key": "Shop_MephistoDawn_Sale_Costume_1",
+      "schedule_type": 10,
+      "start_date": "2025-07-14 00:00:00",
+      "end_date": "2999-12-31 00:00:00",
+      "value_date_01": "2025-08-21 00:00:00"
+    },
+    {
+      "index": 100009,
+      "schedule_key": "Shop_MephistoDawn_Sale_Stiker_1",
+      "schedule_type": 10,
+      "start_date": "2025-07-14 00:00:00",
+      "end_date": "2999-12-31 00:00:00",
+      "value_date_01": "2025-08-21 00:00:00"
     }
   ]
 }

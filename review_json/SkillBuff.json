@@ -52092,7 +52092,7 @@
       "buff_category": 4,
       "buff_effect": 1602,
       "value": 606645.0,
-      "duration": 4.0,
+      "duration": 6.0,
       "group": 606643,
       "overlap_limit": 5,
       "fx_path": "none",
@@ -63969,7 +63969,7 @@
       "fx_path": "none",
       "icon_path": "ReinforceDOT",
       "name": 27284,
-      "desc": 27285
+      "desc": 23808
     },
     {
       "no": 880010,
@@ -65314,6 +65314,107 @@
       "icon_path": "0"
     },
     {
+      "no": 907510,
+      "buff_category": 4,
+      "is_important": 1,
+      "buff_effect": 1602,
+      "value": 907510.0,
+      "duration": 10.0,
+      "group": 907510,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "Delayed_Dmg",
+      "name": 349075,
+      "desc": 359075
+    },
+    {
+      "no": 907610,
+      "buff_category": 3,
+      "buff_effect": 10111,
+      "value": 1.0,
+      "duration": 999.0,
+      "group": 907610,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "AttackSpeed",
+      "name": 349076,
+      "desc": 10111
+    },
+    {
+      "no": 907710,
+      "buff_category": 3,
+      "is_important": 1,
+      "buff_effect": 1602,
+      "value": 907710.0,
+      "duration": 10.0,
+      "group": 907710,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "DOTHeal",
+      "name": 349077,
+      "desc": 359077
+    },
+    {
+      "no": 907810,
+      "buff_category": 3,
+      "buff_effect": 1602,
+      "value": 907810.0,
+      "duration": 20.0,
+      "group": 907810,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 907811,
+      "buff_category": 3,
+      "buff_effect": 1602,
+      "value": 907811.0,
+      "duration": 10.0,
+      "group": 907811,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 907812,
+      "buff_category": 4,
+      "is_important": 1,
+      "buff_effect": 206,
+      "duration": 10.0,
+      "group": 907812,
+      "overlap_limit": 1,
+      "fx_path": "Fx_Status_Silence_00",
+      "icon_path": "state_silence",
+      "name": 349078,
+      "desc": 206
+    },
+    {
+      "no": 907813,
+      "buff_category": 3,
+      "buff_effect": 1602,
+      "value": 907813.0,
+      "duration": 10.0,
+      "group": 907813,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 907814,
+      "buff_category": 3,
+      "is_important": 1,
+      "buff_effect": 1402,
+      "value": 1.0,
+      "duration": 10.0,
+      "group": 907814,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "Attack",
+      "name": 349078,
+      "desc": 27474
+    },
+    {
       "no": 907900,
       "buff_category": 5,
       "buff_effect": 1401,
@@ -65325,6 +65426,62 @@
       "icon_path": "Defence",
       "name": 21205,
       "desc": 27745
+    },
+    {
+      "no": 908111,
+      "buff_category": 4,
+      "buff_effect": 301,
+      "value": 0.4,
+      "duration": 16.0,
+      "group": 908111,
+      "overlap_limit": 1,
+      "fx_path": "Fx_Status_Burn_00",
+      "icon_path": "DOTBurn",
+      "name": 20301,
+      "desc": 301,
+      "battle_text": 20301
+    },
+    {
+      "no": 908113,
+      "buff_category": 4,
+      "buff_effect": 301,
+      "value": 0.4,
+      "duration": 16.0,
+      "group": 908113,
+      "overlap_limit": 1,
+      "fx_path": "Fx_Status_Burn_00",
+      "icon_path": "DOTBurn",
+      "name": 20301,
+      "desc": 301,
+      "battle_text": 20301
+    },
+    {
+      "no": 908211,
+      "buff_category": 4,
+      "buff_effect": 301,
+      "value": 0.4,
+      "duration": 999.0,
+      "group": 908211,
+      "overlap_limit": 1,
+      "fx_path": "Fx_Status_Burn_00",
+      "icon_path": "DOTBurn",
+      "name": 20301,
+      "desc": 301,
+      "battle_text": 20301
+    },
+    {
+      "no": 908213,
+      "buff_category": 4,
+      "buff_effect": 301,
+      "value": 0.4,
+      "duration": 999.0,
+      "group": 908213,
+      "overlap_limit": 1,
+      "fx_path": "Fx_Status_Burn_00",
+      "icon_path": "DOTBurn",
+      "name": 20301,
+      "desc": 301,
+      "battle_text": 20301
     },
     {
       "no": 931112,
@@ -75377,6 +75534,17 @@
       "battle_text": 23586
     },
     {
+      "no": 1105214,
+      "buff_category": 4,
+      "buff_effect": 1602,
+      "value": 1105214.0,
+      "duration": 0.1,
+      "group": 1105214,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
       "no": 1105221,
       "buff_category": 2,
       "buff_effect": 207,
@@ -75417,6 +75585,17 @@
       "battle_text": 23586
     },
     {
+      "no": 1105224,
+      "buff_category": 4,
+      "buff_effect": 1602,
+      "value": 1105224.0,
+      "duration": 0.1,
+      "group": 1105224,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
       "no": 1105231,
       "buff_category": 2,
       "buff_effect": 207,
@@ -75455,6 +75634,17 @@
       "name": 23586,
       "desc": 23587,
       "battle_text": 23586
+    },
+    {
+      "no": 1105234,
+      "buff_category": 4,
+      "buff_effect": 1602,
+      "value": 1105234.0,
+      "duration": 0.1,
+      "group": 1105234,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
     },
     {
       "no": 1105312,
@@ -75651,9 +75841,9 @@
       "overlap_limit": 1,
       "fx_path": "Fx_Jade_Ultimate_BuffAura_00",
       "icon_path": "Attack",
-      "name": 23586,
+      "name": 27762,
       "desc": 23587,
-      "battle_text": 23586
+      "battle_text": 27762
     },
     {
       "no": 1105512,
@@ -75687,9 +75877,9 @@
       "overlap_limit": 1,
       "fx_path": "Fx_Jade_Ultimate_BuffAura_00",
       "icon_path": "Attack",
-      "name": 23586,
+      "name": 27762,
       "desc": 23587,
-      "battle_text": 23586
+      "battle_text": 27762
     },
     {
       "no": 1105522,
@@ -75723,9 +75913,9 @@
       "overlap_limit": 1,
       "fx_path": "Fx_Jade_Ultimate_BuffAura_00",
       "icon_path": "Attack",
-      "name": 23586,
+      "name": 27762,
       "desc": 23587,
-      "battle_text": 23586
+      "battle_text": 27762
     },
     {
       "no": 1105532,
@@ -77369,6 +77559,16 @@
       "icon_path": "0"
     },
     {
+      "no": 1114321,
+      "buff_category": 4,
+      "buff_effect": 1602,
+      "value": 1114321.0,
+      "group": 1114321,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
       "no": 1114411,
       "buff_category": 3,
       "buff_effect": 10111,
@@ -77713,6 +77913,76 @@
       "value": -0.2,
       "duration": 20.0,
       "group": 1114671,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 1114810,
+      "buff_category": 2,
+      "buff_effect": 1602,
+      "value": 1114810.0,
+      "group": 1114810,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 1114820,
+      "buff_category": 2,
+      "buff_effect": 1602,
+      "value": 1114820.0,
+      "group": 1114820,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 1114830,
+      "buff_category": 2,
+      "buff_effect": 1602,
+      "value": 1114830.0,
+      "group": 1114830,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 1114840,
+      "buff_category": 2,
+      "buff_effect": 1602,
+      "value": 1114840.0,
+      "group": 1114840,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 1114850,
+      "buff_category": 2,
+      "buff_effect": 1602,
+      "value": 1114850.0,
+      "group": 1114850,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 1114860,
+      "buff_category": 2,
+      "buff_effect": 1602,
+      "value": 1114860.0,
+      "group": 1114860,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
+    },
+    {
+      "no": 1114870,
+      "buff_category": 2,
+      "buff_effect": 1602,
+      "value": 1114870.0,
+      "group": 1114870,
       "overlap_limit": 1,
       "fx_path": "none",
       "icon_path": "0"
@@ -78471,7 +78741,7 @@
       "buff_category": 2,
       "buff_effect": 1002,
       "value": -0.75,
-      "duration": 15.0,
+      "duration": 20.0,
       "group": 1203640,
       "overlap_limit": 1,
       "fx_path": "none",
@@ -78495,7 +78765,7 @@
       "buff_category": 2,
       "buff_effect": 1002,
       "value": -1.0,
-      "duration": 15.0,
+      "duration": 25.0,
       "group": 1203670,
       "overlap_limit": 1,
       "fx_path": "none",
@@ -78914,15 +79184,15 @@
     },
     {
       "no": 1210210,
-      "buff_category": 1,
+      "buff_category": 2,
       "buff_effect": 208,
       "duration": 8.0,
       "group": 1210210,
       "overlap_limit": 1,
       "fx_path": "none",
-      "icon_path": "Defence",
+      "icon_path": "Taunt",
       "name": 20208,
-      "desc": 27656,
+      "desc": 208,
       "battle_text": 20208
     },
     {
@@ -78955,9 +79225,9 @@
       "overlap_limit": 1,
       "fx_path": "none",
       "icon_path": "Defence",
-      "name": 27634,
-      "desc": 23370,
-      "battle_text": 27634
+      "name": 342102,
+      "desc": 27766,
+      "battle_text": 342102
     },
     {
       "no": 1210214,
@@ -79004,9 +79274,9 @@
       "overlap_limit": 1,
       "fx_path": "none",
       "icon_path": "Defence",
-      "name": 27634,
-      "desc": 23370,
-      "battle_text": 27634
+      "name": 342102,
+      "desc": 27766,
+      "battle_text": 342102
     },
     {
       "no": 1210225,
@@ -79043,9 +79313,9 @@
       "overlap_limit": 1,
       "fx_path": "none",
       "icon_path": "Defence",
-      "name": 27634,
-      "desc": 23370,
-      "battle_text": 27634
+      "name": 342102,
+      "desc": 27766,
+      "battle_text": 342102
     },
     {
       "no": 1210235,
@@ -81371,10 +81641,10 @@
     {
       "no": 1311411,
       "buff_category": 4,
-      "buff_effect": 1601,
+      "buff_effect": 1602,
       "value": 1311411.0,
-      "duration": 999.0,
-      "group": 1311411,
+      "duration": 1.9,
+      "group": 1311414,
       "overlap_limit": 1,
       "fx_path": "none",
       "icon_path": "0"
@@ -81383,22 +81653,32 @@
       "no": 1311412,
       "buff_category": 2,
       "buff_effect": 1402,
-      "value": 0.02,
+      "value": -0.02,
       "duration": 999.0,
       "group": 1311412,
       "overlap_limit": 10,
       "fx_path": "none",
-      "icon_path": "Defence",
+      "icon_path": "Attack",
       "name": 27731,
-      "desc": 27732
+      "desc": 27763
+    },
+    {
+      "no": 1311414,
+      "buff_category": 4,
+      "buff_effect": 1301,
+      "duration": 999.0,
+      "group": 1311414,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
     },
     {
       "no": 1311421,
       "buff_category": 4,
-      "buff_effect": 1601,
+      "buff_effect": 1602,
       "value": 1311421.0,
-      "duration": 999.0,
-      "group": 1311421,
+      "duration": 1.9,
+      "group": 1311424,
       "overlap_limit": 1,
       "fx_path": "none",
       "icon_path": "0"
@@ -81407,22 +81687,32 @@
       "no": 1311422,
       "buff_category": 2,
       "buff_effect": 1402,
-      "value": 0.03,
+      "value": -0.03,
       "duration": 999.0,
       "group": 1311422,
       "overlap_limit": 10,
       "fx_path": "none",
-      "icon_path": "Defence",
+      "icon_path": "Attack",
       "name": 27731,
-      "desc": 27732
+      "desc": 27764
+    },
+    {
+      "no": 1311424,
+      "buff_category": 4,
+      "buff_effect": 1301,
+      "duration": 999.0,
+      "group": 1311424,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
     },
     {
       "no": 1311431,
       "buff_category": 4,
-      "buff_effect": 1601,
+      "buff_effect": 1602,
       "value": 1311431.0,
-      "duration": 999.0,
-      "group": 1311431,
+      "duration": 1.9,
+      "group": 1311434,
       "overlap_limit": 1,
       "fx_path": "none",
       "icon_path": "0"
@@ -81431,14 +81721,24 @@
       "no": 1311432,
       "buff_category": 2,
       "buff_effect": 1402,
-      "value": 0.04,
+      "value": -0.04,
       "duration": 999.0,
       "group": 1311432,
       "overlap_limit": 10,
       "fx_path": "none",
-      "icon_path": "Defence",
+      "icon_path": "Attack",
       "name": 27731,
-      "desc": 27732
+      "desc": 27765
+    },
+    {
+      "no": 1311434,
+      "buff_category": 4,
+      "buff_effect": 1301,
+      "duration": 999.0,
+      "group": 1311434,
+      "overlap_limit": 1,
+      "fx_path": "none",
+      "icon_path": "0"
     },
     {
       "no": 1311511,

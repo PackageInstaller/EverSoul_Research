@@ -85090,7 +85090,7 @@
     {
       "no": 606210,
       "function_key": 1,
-      "target_key": 1209,
+      "target_key": 1217,
       "value": 2.6,
       "condition_type": 1,
       "fx_path": "none"
@@ -85107,7 +85107,7 @@
     {
       "no": 606212,
       "function_key": 30,
-      "target_key": 1209,
+      "target_key": 1217,
       "value": 606212.0,
       "condition_type": 1,
       "condition_id_1": 606611,
@@ -85116,7 +85116,7 @@
     {
       "no": 606220,
       "function_key": 1,
-      "target_key": 1209,
+      "target_key": 1217,
       "value": 2.8,
       "condition_type": 1,
       "fx_path": "none"
@@ -85133,7 +85133,7 @@
     {
       "no": 606222,
       "function_key": 30,
-      "target_key": 1209,
+      "target_key": 1217,
       "value": 606222.0,
       "condition_type": 1,
       "condition_id_1": 606611,
@@ -85142,7 +85142,7 @@
     {
       "no": 606230,
       "function_key": 1,
-      "target_key": 1209,
+      "target_key": 1217,
       "value": 3.0,
       "condition_type": 1,
       "fx_path": "none"
@@ -85159,7 +85159,7 @@
     {
       "no": 606232,
       "function_key": 30,
-      "target_key": 1209,
+      "target_key": 1217,
       "value": 606232.0,
       "condition_type": 1,
       "condition_id_1": 606611,
@@ -85296,7 +85296,7 @@
     {
       "no": 606412,
       "function_key": 30,
-      "target_key": 1209,
+      "target_key": 1217,
       "value": 606412.0,
       "condition_type": 1,
       "fx_path": "none"
@@ -85343,6 +85343,7 @@
       "target_key": 1100,
       "value": 1.0,
       "condition_type": 1,
+      "condition_id_1": 6064101,
       "fx_path": "Fx_Nia_Passive_Explosion_00"
     },
     {
@@ -85356,7 +85357,7 @@
     {
       "no": 606422,
       "function_key": 30,
-      "target_key": 1209,
+      "target_key": 1217,
       "value": 606422.0,
       "condition_type": 1,
       "fx_path": "none"
@@ -85403,6 +85404,7 @@
       "target_key": 1100,
       "value": 1.5,
       "condition_type": 1,
+      "condition_id_1": 6064101,
       "fx_path": "Fx_Nia_Passive_Explosion_00"
     },
     {
@@ -85416,7 +85418,7 @@
     {
       "no": 606432,
       "function_key": 30,
-      "target_key": 1209,
+      "target_key": 1217,
       "value": 606432.0,
       "condition_type": 1,
       "fx_path": "none"
@@ -85463,6 +85465,7 @@
       "target_key": 1100,
       "value": 2.0,
       "condition_type": 1,
+      "condition_id_1": 6064101,
       "fx_path": "Fx_Nia_Passive_Explosion_00"
     },
     {
@@ -106365,11 +106368,203 @@
       "penetration": 1
     },
     {
+      "no": 907510,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 907510.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 907511,
+      "function_key": 10,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 0.1,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 907610,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 907610.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 907710,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 907710.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 907711,
+      "function_key": 13,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 0.1,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 907810,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 907810.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 907811,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 907811.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 907812,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 907812.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 907813,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 907813.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 907814,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 907814.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
       "no": 907900,
       "function_key": 30,
       "is_ally": 1,
       "target_key": 1100,
       "value": 907900.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 908010,
+      "function_key": 4,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 10000.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 908110,
+      "function_key": 28,
+      "is_ally": 1,
+      "target_key": 1208,
+      "value": 908111.0,
+      "duration": 16.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 908111,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 908111.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 908112,
+      "function_key": 28,
+      "is_ally": 1,
+      "target_key": 1208,
+      "value": 908113.0,
+      "duration": 999.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 908113,
+      "function_key": 30,
+      "target_key": 2100,
+      "value": 908113.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 908210,
+      "function_key": 28,
+      "is_ally": 1,
+      "target_key": 1208,
+      "value": 908211.0,
+      "duration": 999.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 908211,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 908211.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 908212,
+      "function_key": 28,
+      "is_ally": 1,
+      "target_key": 1208,
+      "value": 908213.0,
+      "duration": 999.0,
+      "condition_type": 1,
+      "fx_path": "none",
+      "penetration": 1
+    },
+    {
+      "no": 908213,
+      "function_key": 30,
+      "target_key": 2100,
+      "value": 908213.0,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -107387,6 +107582,7 @@
       "is_ally": 1,
       "target_key": 1100,
       "value": 951102.0,
+      "duration": 999.0,
       "condition_type": 1,
       "fx_path": "none",
       "penetration": 1
@@ -118676,8 +118872,19 @@
     {
       "no": 1105213,
       "function_key": 30,
-      "target_key": 2100,
+      "is_ally": 1,
+      "target_key": 1100,
       "value": 1105213.0,
+      "condition_type": 1,
+      "condition_id_1": 11052331,
+      "condition_id_2": 11052332,
+      "fx_path": "none"
+    },
+    {
+      "no": 1105214,
+      "function_key": 30,
+      "target_key": 2100,
+      "value": 1105214.0,
       "condition_type": 1,
       "condition_id_1": 11054102,
       "condition_id_2": 11054202,
@@ -118717,8 +118924,19 @@
     {
       "no": 1105223,
       "function_key": 30,
-      "target_key": 2100,
+      "is_ally": 1,
+      "target_key": 1100,
       "value": 1105223.0,
+      "condition_type": 1,
+      "condition_id_1": 11052331,
+      "condition_id_2": 11052332,
+      "fx_path": "none"
+    },
+    {
+      "no": 1105224,
+      "function_key": 30,
+      "target_key": 2100,
+      "value": 1105224.0,
       "condition_type": 1,
       "condition_id_1": 11054102,
       "condition_id_2": 11054202,
@@ -118758,8 +118976,19 @@
     {
       "no": 1105233,
       "function_key": 30,
-      "target_key": 2100,
+      "is_ally": 1,
+      "target_key": 1100,
       "value": 1105233.0,
+      "condition_type": 1,
+      "condition_id_1": 11052331,
+      "condition_id_2": 11052332,
+      "fx_path": "none"
+    },
+    {
+      "no": 1105234,
+      "function_key": 30,
+      "target_key": 2100,
+      "value": 1105234.0,
       "condition_type": 1,
       "condition_id_1": 11054102,
       "condition_id_2": 11054202,
@@ -121904,7 +122133,6 @@
       "condition_id_1": 11143111,
       "condition_id_2": 11143112,
       "condition_id_3": 11143113,
-      "condition_id_4": 11143117,
       "fx_path": "none"
     },
     {
@@ -121972,6 +122200,41 @@
       "function_key": 1,
       "target_key": 1205,
       "value": 2.6,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114321,
+      "function_key": 30,
+      "target_key": 1205,
+      "value": 1114321.0,
+      "condition_type": 1,
+      "condition_id_1": 11143211,
+      "condition_id_2": 11143212,
+      "condition_id_3": 11143213,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114322,
+      "function_key": 30,
+      "target_key": 1208,
+      "value": 1114312.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114323,
+      "function_key": 30,
+      "target_key": 1208,
+      "value": 1114313.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114324,
+      "function_key": 30,
+      "target_key": 1208,
+      "value": 1114314.0,
       "condition_type": 1,
       "fx_path": "none"
     },
@@ -122129,7 +122392,6 @@
       "condition_id_1": 11143111,
       "condition_id_2": 11143112,
       "condition_id_3": 11143113,
-      "condition_id_4": 11143117,
       "fx_path": "none"
     },
     {
@@ -122139,6 +122401,9 @@
       "target_key": 1100,
       "value": 1114612.0,
       "condition_type": 1,
+      "condition_id_1": 11143111,
+      "condition_id_2": 11143112,
+      "condition_id_3": 11143113,
       "fx_path": "none"
     },
     {
@@ -122148,6 +122413,9 @@
       "target_key": 1100,
       "value": 1114613.0,
       "condition_type": 1,
+      "condition_id_1": 11143111,
+      "condition_id_2": 11143112,
+      "condition_id_3": 11143113,
       "fx_path": "none"
     },
     {
@@ -122169,7 +122437,6 @@
       "condition_id_1": 11143111,
       "condition_id_2": 11143112,
       "condition_id_3": 11143113,
-      "condition_id_4": 11143117,
       "fx_path": "none"
     },
     {
@@ -122179,6 +122446,9 @@
       "target_key": 1100,
       "value": 1114622.0,
       "condition_type": 1,
+      "condition_id_1": 11143111,
+      "condition_id_2": 11143112,
+      "condition_id_3": 11143113,
       "fx_path": "none"
     },
     {
@@ -122188,6 +122458,9 @@
       "target_key": 1100,
       "value": 1114623.0,
       "condition_type": 1,
+      "condition_id_1": 11143111,
+      "condition_id_2": 11143112,
+      "condition_id_3": 11143113,
       "fx_path": "none"
     },
     {
@@ -122209,7 +122482,6 @@
       "condition_id_1": 11143111,
       "condition_id_2": 11143112,
       "condition_id_3": 11143113,
-      "condition_id_4": 11143117,
       "fx_path": "none"
     },
     {
@@ -122219,6 +122491,9 @@
       "target_key": 1100,
       "value": 1114632.0,
       "condition_type": 1,
+      "condition_id_1": 11143111,
+      "condition_id_2": 11143112,
+      "condition_id_3": 11143113,
       "fx_path": "none"
     },
     {
@@ -122228,6 +122503,9 @@
       "target_key": 1100,
       "value": 1114633.0,
       "condition_type": 1,
+      "condition_id_1": 11143111,
+      "condition_id_2": 11143112,
+      "condition_id_3": 11143113,
       "fx_path": "none"
     },
     {
@@ -122239,7 +122517,6 @@
       "condition_id_1": 11143111,
       "condition_id_2": 11143112,
       "condition_id_3": 11143113,
-      "condition_id_4": 11143117,
       "fx_path": "none"
     },
     {
@@ -122278,7 +122555,6 @@
       "condition_id_1": 11143111,
       "condition_id_2": 11143112,
       "condition_id_3": 11143113,
-      "condition_id_4": 11143117,
       "fx_path": "none"
     },
     {
@@ -122317,7 +122593,6 @@
       "condition_id_1": 11143111,
       "condition_id_2": 11143112,
       "condition_id_3": 11143113,
-      "condition_id_4": 11143117,
       "fx_path": "none"
     },
     {
@@ -122356,7 +122631,6 @@
       "condition_id_1": 11143111,
       "condition_id_2": 11143112,
       "condition_id_3": 11143113,
-      "condition_id_4": 11143117,
       "fx_path": "none"
     },
     {
@@ -122379,6 +122653,293 @@
     },
     {
       "no": 1114673,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114673.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114810,
+      "function_key": 30,
+      "target_key": 1205,
+      "value": 1114810.0,
+      "condition_type": 1,
+      "condition_id_1": 1114610,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114811,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114611.0,
+      "condition_type": 1,
+      "condition_id_1": 11143211,
+      "condition_id_2": 11143212,
+      "condition_id_3": 11143213,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114812,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114612.0,
+      "condition_type": 1,
+      "condition_id_1": 11143211,
+      "condition_id_2": 11143212,
+      "condition_id_3": 11143213,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114813,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114613.0,
+      "condition_type": 1,
+      "condition_id_1": 11143211,
+      "condition_id_2": 11143212,
+      "condition_id_3": 11143213,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114820,
+      "function_key": 30,
+      "target_key": 1205,
+      "value": 1114820.0,
+      "condition_type": 1,
+      "condition_id_1": 1114610,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114821,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114621.0,
+      "condition_type": 1,
+      "condition_id_1": 11143211,
+      "condition_id_2": 11143212,
+      "condition_id_3": 11143213,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114822,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114622.0,
+      "condition_type": 1,
+      "condition_id_1": 11143211,
+      "condition_id_2": 11143212,
+      "condition_id_3": 11143213,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114823,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114623.0,
+      "condition_type": 1,
+      "condition_id_1": 11143211,
+      "condition_id_2": 11143212,
+      "condition_id_3": 11143213,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114830,
+      "function_key": 30,
+      "target_key": 1205,
+      "value": 1114830.0,
+      "condition_type": 1,
+      "condition_id_1": 1114610,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114831,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114631.0,
+      "condition_type": 1,
+      "condition_id_1": 11143211,
+      "condition_id_2": 11143212,
+      "condition_id_3": 11143213,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114832,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114632.0,
+      "condition_type": 1,
+      "condition_id_1": 11143211,
+      "condition_id_2": 11143212,
+      "condition_id_3": 11143213,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114833,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114633.0,
+      "condition_type": 1,
+      "condition_id_1": 11143211,
+      "condition_id_2": 11143212,
+      "condition_id_3": 11143213,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114840,
+      "function_key": 30,
+      "target_key": 1205,
+      "value": 1114840.0,
+      "condition_type": 1,
+      "condition_id_1": 11143211,
+      "condition_id_2": 11143212,
+      "condition_id_3": 11143213,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114841,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114641.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114842,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114642.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114843,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114643.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114850,
+      "function_key": 30,
+      "target_key": 1205,
+      "value": 1114850.0,
+      "condition_type": 1,
+      "condition_id_1": 11143211,
+      "condition_id_2": 11143212,
+      "condition_id_3": 11143213,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114851,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114651.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114852,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114652.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114853,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114653.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114860,
+      "function_key": 30,
+      "target_key": 1205,
+      "value": 1114860.0,
+      "condition_type": 1,
+      "condition_id_1": 11143211,
+      "condition_id_2": 11143212,
+      "condition_id_3": 11143213,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114861,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114661.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114862,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114662.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114863,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114663.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114870,
+      "function_key": 30,
+      "target_key": 1205,
+      "value": 1114870.0,
+      "condition_type": 1,
+      "condition_id_1": 11143211,
+      "condition_id_2": 11143212,
+      "condition_id_3": 11143213,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114871,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114671.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114872,
+      "function_key": 30,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1114672.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1114873,
       "function_key": 30,
       "is_ally": 1,
       "target_key": 1100,
@@ -129454,6 +130015,26 @@
       "target_key": 1100,
       "value": 1311412.0,
       "condition_type": 1,
+      "condition_id_1": 1311211,
+      "fx_path": "none"
+    },
+    {
+      "no": 1311413,
+      "function_key": 28,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1311414.0,
+      "duration": 999.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1311414,
+      "function_key": 30,
+      "target_key": 1208,
+      "value": 1311414.0,
+      "condition_type": 1,
+      "condition_id_1": 1311211,
       "fx_path": "none"
     },
     {
@@ -129482,6 +130063,26 @@
       "target_key": 1100,
       "value": 1311422.0,
       "condition_type": 1,
+      "condition_id_1": 1311211,
+      "fx_path": "none"
+    },
+    {
+      "no": 1311423,
+      "function_key": 28,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1311424.0,
+      "duration": 999.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1311424,
+      "function_key": 30,
+      "target_key": 1208,
+      "value": 1311424.0,
+      "condition_type": 1,
+      "condition_id_1": 1311211,
       "fx_path": "none"
     },
     {
@@ -129510,6 +130111,26 @@
       "target_key": 1100,
       "value": 1311432.0,
       "condition_type": 1,
+      "condition_id_1": 1311211,
+      "fx_path": "none"
+    },
+    {
+      "no": 1311433,
+      "function_key": 28,
+      "is_ally": 1,
+      "target_key": 1100,
+      "value": 1311434.0,
+      "duration": 999.0,
+      "condition_type": 1,
+      "fx_path": "none"
+    },
+    {
+      "no": 1311434,
+      "function_key": 30,
+      "target_key": 1208,
+      "value": 1311434.0,
+      "condition_type": 1,
+      "condition_id_1": 1311211,
       "fx_path": "none"
     },
     {
@@ -132734,7 +133355,7 @@
       "no": 1411640,
       "function_key": 1,
       "target_key": 2100,
-      "value": 0.75,
+      "value": 0.8,
       "condition_type": 1,
       "fx_path": "none"
     },
@@ -132768,7 +133389,7 @@
       "no": 1411650,
       "function_key": 1,
       "target_key": 2100,
-      "value": 0.9,
+      "value": 0.95,
       "condition_type": 1,
       "fx_path": "none"
     },
@@ -132836,7 +133457,7 @@
       "no": 1411670,
       "function_key": 1,
       "target_key": 2100,
-      "value": 1.2,
+      "value": 1.25,
       "condition_type": 1,
       "fx_path": "none"
     },
