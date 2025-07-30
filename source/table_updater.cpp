@@ -559,14 +559,12 @@ namespace TableUpdater
             fs::path table_info_path = "./table_info.json";
             json table_info;
 
-            // 如果文件存在，先读取现有内容
             if (fs::exists(table_info_path))
             {
                 std::ifstream file(table_info_path);
                 table_info = json::parse(file);
             }
 
-            // 更新review部分的信息
             table_info["review"] = {
                 {"version", reviewInfo.version},
                 {"cdnDate", reviewInfo.cdnDate},
@@ -586,38 +584,32 @@ namespace TableUpdater
 
     bool downloadAndProcessReviewTables(const ReviewServerInfo &reviewInfo)
     {
-        // 1. 获取服务器数据表版本
         int serverTableVersion = getServerTableVersion(reviewInfo);
         if (serverTableVersion == -1)
         {
             return false;
         }
 
-        // 2. 检查是否需要更新
         if (!needUpdateReviewTables(reviewInfo, serverTableVersion))
         {
             return false; // 已是最新版本，不需要更新
         }
 
-        // 3. 下载数据表
         if (!downloadReviewTables(reviewInfo, serverTableVersion))
         {
             return false;
         }
 
-        // 4. 解密数据表
         if (!decryptReviewTables())
         {
             return false;
         }
 
-        // 5. 转换为JSON
         if (!convertReviewTablesToJson())
         {
             return false;
         }
 
-        // 6. 更新配置文件
         if (!updateTableInfoFile(reviewInfo, serverTableVersion))
         {
             return false;
