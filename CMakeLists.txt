@@ -16,7 +16,13 @@ find_package(ZLIB REQUIRED)
 
 add_executable(eversoul
     source/main.cpp
-    source/utils.cpp
+    source/version_manager.cpp
+    source/table_updater.cpp
+    source/table_converter.cpp
+    source/http_client.cpp
+    source/file_downloader.cpp
+    source/crypto_utils.cpp
+    source/progress_display.cpp
 )
 
 target_link_libraries(eversoul

@@ -6667,9 +6667,9 @@
     {
       "no": 834,
       "kr": "강화 Lv 41~45는 <color=\"#4db8df\">태초의 유물석 20개</color>가 필요합니다.",
-      "en": "Enhancing to Levels 41–45 becomes available when you have an Origin Artifact and complete the Tower of Origin for the Artifact owner, requiring <color=\"#4db8df\">20 Artifact Stones of Primordium</color>.",
+      "en": "Enhancing to Lv. 41-45 requires <color=\"#4db8df\">20 Artifact Stones of Primordium</color>.",
       "ja": "強化Lv41~45はオリジンランクの遺物所持とその遺物の主の起源の塔をクリアすると強化でき、<color=\"#4db8df\">原初の遺物石20個</color>が必要です。",
-      "zh_tw": "強化Lv 41~45在持有不朽階級遺物或通關該遺物主人的起源之塔後才可強化，且需要<color=\"#4db8df\">太古遺物石20個</color>。",
+      "zh_tw": "強化Lv 41～45需要<color=\"#4db8df\">太古遺物石20個</color>。",
       "zh_cn": ""
     },
     {
@@ -18713,6 +18713,22 @@
       "zh_cn": ""
     },
     {
+      "no": 12676,
+      "kr": "이곳은 내가 지키겠어.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 12677,
+      "kr": "니아가 싸울게.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 12701,
       "kr": "더 이상은… 죄송합니다.",
       "en": "I can't do this anymore... Sorry.",
@@ -19310,6 +19326,22 @@
       "en": "I'm tired of this now. Bye-bye...",
       "ja": "",
       "zh_tw": "現在嫌麻煩了，掰掰…",
+      "zh_cn": ""
+    },
+    {
+      "no": 12776,
+      "kr": "약속을 지키지 못해... 미안해.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 12777,
+      "kr": "니아가 쓰러지다니…",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -25715,41 +25747,41 @@
     {
       "no": 46032,
       "kr": "공격력을 높여서...!",
-      "en": "",
+      "en": "Boosting ATK...!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "提升攻擊力…！",
       "zh_cn": ""
     },
     {
       "no": 46033,
       "kr": "아프지 않아요...!",
-      "en": "",
+      "en": "Doesn't Hurt...!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "不會痛…！",
       "zh_cn": ""
     },
     {
       "no": 46034,
       "kr": "어느 정도 파악했어요!",
-      "en": "",
+      "en": "Got Part of the Picture!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "大概清楚了！",
       "zh_cn": ""
     },
     {
       "no": 46035,
       "kr": "바닥이 조금 뜨거운걸요...",
-      "en": "",
+      "en": "Floor's Rather Hot...",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "地板應該會有點燙…",
       "zh_cn": ""
     },
     {
       "no": 46036,
       "kr": "떨지 않을 용기를...!",
-      "en": "",
+      "en": "Unflinching Courage...!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "不會緊張的勇氣…！",
       "zh_cn": ""
     },
     {
@@ -25822,6 +25854,14 @@
       "en": "Causal Manipulation Season",
       "ja": "因果操作シーズン",
       "zh_tw": "操縱因果賽季",
+      "zh_cn": ""
+    },
+    {
+      "no": 50004,
+      "kr": "붕괴 발생 시즌",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -27394,10 +27434,10 @@
     },
     {
       "no": 110634,
-      "kr": "주체할 수 없는 광기에 침식된 야수는 이 세상의 모든것을 파괴한다. \r\n\r\n레벨과 비례하여 강해지는 야수의 광기를 억제하고, 야수의 집중을 분산시켜 특정 아군만 노려지지 않도록 주의하자. \r\n\r\n야수가 완전히 광기에 잠식되는 순간, 그 어떤 것도 그녀를 막을 수 없으리. \r\n\r\n오직 신속하고 이성적인 판단만이 야수를, 그리고 당신을 구원하리라.\r\n\r\n<COLOR=#FFFFFF>야수는 자신을 구속시킨 기억을 떠올릴때마다 괴로워한다. 감전을 이용한 공격을 이용해보자</COLOR>",
-      "en": "The beast can no longer control her madness and destroys everything in this world.\r\n\r\nShe gets stronger by the level. Try to distract her from zeroing in on a single ally.\r\n\r\nNothing can stop her if her madness completely takes over her mind.\r\n\r\nYou need to think fast and be rational to save the beast and your own life.\r\n\r\n<COLOR=#FFFFFF>The Beast is tormented whenever she remembers the moments of her captivity. Use shock attacks to take advantage.</COLOR>",
-      "ja": "制御不能の狂気に呑まれた野獣は、この世のすべてを破壊する。\r\n\r\nLvに比例して強くなる野獣の狂気を抑制し、野獣の注意を分散させて特定の味方に攻撃が集中されないようにしよう。\r\n\r\n野獣が完全に狂気に呑み込まれた時、いかなるものも彼女を止めることはできない。\r\n\r\n迅速で理性的な判断のみが野獣を、そしてあなたを救うだろう。",
-      "zh_tw": "野獸被無法控制的瘋狂吞噬，破壞這世上的一切。\r\n\r\n要抑制與等級成正比增強的野獸狂氣，分散野獸的注意力，注意別讓她盯上特定的我軍。\r\n\r\n當野獸完全被狂氣吞噬，將沒有東西能阻擋她。\r\n\r\n唯有迅速且理性的判斷，才能救援野獸和你。\r\n\r\n<COLOR=#FFFFFF>每當想起自己被囚禁的記憶，野獸都很痛苦。利用觸電攻擊看看吧</COLOR>",
+      "kr": "주체할 수 없는 광기에 침식된 야수는 이 세상의 모든것을 파괴한다. \r\n\r\n야수가 완전히 광기에 잠식되는 순간, 그 어떤 것도 그녀를 막을 수 없으리. \r\n\r\n지속적으로 죄어오는 광기를 풀어내는 판단만이 야수를, 그리고 당신을 구원하리라.\r\n\r\n<COLOR=#FFFFFF>야수는 자신을 구속시킨 기억을 떠올릴때마다 괴로워한다. 감전을 이용한 공격을 이용해보자</COLOR>",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -34723,9 +34763,9 @@
     {
       "no": 520225,
       "kr": "명품 상점",
-      "en": "Antique Shop",
+      "en": "Prestige Shop",
       "ja": "アンティークショップ",
-      "zh_tw": "古物店",
+      "zh_tw": "精品商店",
       "zh_cn": ""
     },
     {
@@ -35843,17 +35883,17 @@
     {
       "no": 531016,
       "kr": "명품 상점에 어서와, 구원자님!",
-      "en": "Welcome to the Antique Shop, Savior!",
+      "en": "Welcome to the Prestige Shop, Savior!",
       "ja": "アンティークショップショップへようこそ、救世主様！",
-      "zh_tw": "救援者，歡迎來到古物店！",
+      "zh_tw": "救援者，歡迎來到精品商店！",
       "zh_cn": ""
     },
     {
       "no": 531017,
       "kr": "아주 구하기 힘든 귀~중한 상품들이 잔뜩이라구!",
-      "en": "I've got loads of precious items you simply can't find anymore!",
+      "en": "I've got loads of precious items that are really hard to find!",
       "ja": "今はもう手に入らないとっ～ても貴重な商品がいっぱいあるよ！",
-      "zh_tw": "這裡滿滿都是現在找不到的貴～重商品哦！",
+      "zh_tw": "這裡滿滿都是很稀有的貴～重商品哦！",
       "zh_cn": ""
     },
     {
@@ -36003,17 +36043,17 @@
     {
       "no": 531046,
       "kr": "명품 상점에 어서오세요, 구원자님!",
-      "en": "Welcome to the Antique Shop, Savior!",
+      "en": "Welcome to the Prestige Shop, Savior!",
       "ja": "アンティークショップへようこそ、救世主様！",
-      "zh_tw": "救援者，歡迎來到古物店！",
+      "zh_tw": "救援者，歡迎光臨精品商店！",
       "zh_cn": ""
     },
     {
       "no": 531047,
       "kr": "정말 멋진 상품들을 저희 제이드 상단이 공수해왔어요.",
-      "en": "The Jade's Merchants' Guild has procured\r\r\nall kinds of awesome goods you missed, Savior.",
+      "en": "The Jade's Merchants' Guild has procured all kinds of awesome goods.",
       "ja": "救世主様が入手できなかった素敵な商品を\r\nジェイド商団が仕入れました。",
-      "zh_tw": "我們潔依德商團把救援者\r\r\n錯過的酷炫商品空運過來了。",
+      "zh_tw": "我們潔依德商團把超讚的商品空運過來了。",
       "zh_cn": ""
     },
     {
@@ -36171,9 +36211,9 @@
     {
       "no": 531077,
       "kr": "다른 데선 볼 수 없는 귀중한 명품들을 준비했답니다.",
-      "en": "Here, you'll find rare antiques you won't see anywhere else.",
+      "en": "Here, you'll find prestigious rarities you won't see anywhere else.",
       "ja": "他では見られない貴重なアンティーク商品を揃えていますよ。",
-      "zh_tw": "我們準備了別地方沒有的貴重古物。",
+      "zh_tw": "我們準備了別地方沒有的貴重精品。",
       "zh_cn": ""
     },
     {
@@ -43061,7 +43101,7 @@
       "kr": "메피스토펠레스(여명) 배치 시 <color=\"#2d9b00\">메피스토펠레스(여명)의 공격력 {0}%</color> 증가",
       "en": "<color=\"#2d9b00\">Mephistopheles (Dawn)'s ATK +{0}%</color> when Mephistopheles (Dawn) is placed",
       "ja": "",
-      "zh_tw": "配置梅菲斯托佩萊斯（黎明）時，<color=\"#2d9b00\">梅菲斯托佩萊斯（黎明）的攻擊力增加{0}%</color>",
+      "zh_tw": "配置梅菲斯托佩萊斯（黎明）時，\r\n<color=\"#2d9b00\">梅菲斯托佩萊斯（黎明）的攻擊力增加{0}%</color>",
       "zh_cn": ""
     },
     {
@@ -49102,6 +49142,38 @@
       "en": "Soul Buffs",
       "ja": "",
       "zh_tw": "精靈增益",
+      "zh_cn": ""
+    },
+    {
+      "no": 610222,
+      "kr": "공격력 버프",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 610223,
+      "kr": "방어력 버프",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 610224,
+      "kr": "체력 버프",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 610225,
+      "kr": "랜드마크 버프",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -57171,9 +57243,9 @@
     {
       "no": 710008,
       "kr": "명품 상점 구매",
-      "en": "Antique Shop Purchase",
+      "en": "Prestige Shop Purchase",
       "ja": "記念ショップ購入",
-      "zh_tw": "古物店購買",
+      "zh_tw": "精品商店購買",
       "zh_cn": ""
     },
     {

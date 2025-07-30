@@ -21,6 +21,7 @@
 #include <mutex>
 #include <thread>
 #include <algorithm>
+#include <functional>
 
 namespace fs = std::filesystem;
 using json = nlohmann::json;
