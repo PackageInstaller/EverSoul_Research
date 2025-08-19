@@ -11987,9 +11987,9 @@
     {
       "no": 27191,
       "kr": "차원을 넘어온 이형의 존재",
-      "en": "",
+      "en": "A Variant From Another Dimension",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "穿越次元而來的異形存在",
       "zh_cn": ""
     },
     {
@@ -16595,185 +16595,185 @@
     {
       "no": 27767,
       "kr": "차오르는 광기",
-      "en": "work in progress",
+      "en": "Surging Madness",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "狂氣爆發",
       "zh_cn": ""
     },
     {
       "no": 27768,
       "kr": "중첩 당 공격력 4% 증가, 7중첩이 될 경우 폭주하는 광기 상태가 된다!",
-      "en": "work in progress",
+      "en": "ATK +4% per stack. Triggers Rampaging Madness at 7 stacks!",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "每疊加攻擊力增加4%，當達到7疊加時，進入暴走的狂氣狀態！",
       "zh_cn": ""
     },
     {
       "no": 27769,
       "kr": "폭주하는 광기",
-      "en": "work in progress",
+      "en": "Rampaging Madness",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "暴走的狂氣",
       "zh_cn": ""
     },
     {
       "no": 27770,
       "kr": "광기가 가득 차올라 받는 최종 피해가 50% 증가한다!",
-      "en": "work in progress",
+      "en": "Overflowing madness increases total damage received by 50%!",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "狂氣湧上爆發，所受最終傷害增加50%！",
       "zh_cn": ""
     },
     {
       "no": 27771,
       "kr": "심판의 힘",
-      "en": "work in progress",
+      "en": "Power of Judgment",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "審判的力量",
       "zh_cn": ""
     },
     {
       "no": 27772,
       "kr": "메인 스킬 사용 시 공격력 2000% 피해를 입히며, 모든 아군 <심판의 힘> 버프 해제",
-      "en": "work in progress",
+      "en": "Using the main skill deals damage equal to 2,000% of ATK and cancels \"Power of Judgment\" on all allies",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "使用主要技能時，造成攻擊力2000%的傷害，並解除所有友軍增益＜審判的力量＞",
       "zh_cn": ""
     },
     {
       "no": 27773,
-      "kr": "work in progress",
-      "en": "work in progress",
+      "kr": "억제 특화",
+      "en": "Suppression Specialization",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "压制专精",
       "zh_cn": ""
     },
     {
       "no": 27774,
-      "kr": "work in progress",
-      "en": "work in progress",
+      "kr": "자신 주변 3m내 모든 적의 물리/마법 저항을 감소시킨다.",
+      "en": "Reduces the physical/magical resistance of all enemies within 3m around you.",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "降低周围3米内所有敌人的物理/魔法抗性。",
       "zh_cn": ""
     },
     {
       "no": 27775,
-      "kr": "work in progress",
-      "en": "work in progress",
+      "kr": "강습 특화",
+      "en": "Specialized training",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "专业培训",
       "zh_cn": ""
     },
     {
       "no": 27776,
-      "kr": "work in progress",
-      "en": "work in progress",
+      "kr": "자신의 받는 최종 피해가 증가하는 대신 가하는 피해와 가속이 증가한다.",
+      "en": "Instead of increasing the final damage you take, the damage you deal and the acceleration you gain increase.",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "您受到的最终伤害不会增加，但您造成的伤害和获得的加速度会增加。",
       "zh_cn": ""
     },
     {
       "no": 27777,
-      "kr": "work in progress",
-      "en": "work in progress",
+      "kr": "블링크 스트라이크",
+      "en": "Blink Strike",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "闪现攻击",
       "zh_cn": ""
     },
     {
       "no": 27778,
-      "kr": "work in progress",
-      "en": "work in progress",
+      "kr": "가속이 <value> 증가하고, 모든 서브 스킬이 마나를 추가로 소모하여 추가 피해를 입힌다.",
+      "en": "Acceleration increases by <value>, and all sub-skills consume additional mana to deal additional damage.",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "加速度增加<value>，所有副技能消耗额外法力值，造成额外伤害。",
       "zh_cn": ""
     },
     {
       "no": 27779,
-      "kr": "work in progress",
-      "en": "work in progress",
+      "kr": "추가 보호막 생성",
+      "en": "Create additional shield",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "创建额外的盾牌",
       "zh_cn": ""
     },
     {
       "no": 27780,
-      "kr": "work in progress",
-      "en": "work in progress",
+      "kr": "공격을 10회 받을 때 마다 보호막을 추가 획득한다.",
+      "en": "Gain an additional shield every 10 attacks.",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "每 10 次攻击获得一个额外的盾牌。",
       "zh_cn": ""
     },
     {
       "no": 27781,
-      "kr": "work in progress",
-      "en": "work in progress",
+      "kr": "추가 보호막",
+      "en": "Additional protection",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "额外保护",
       "zh_cn": ""
     },
     {
       "no": 27782,
-      "kr": "work in progress",
-      "en": "work in progress",
+      "kr": "이머전시 블링크",
+      "en": "Emergency Blink",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "紧急闪烁",
       "zh_cn": ""
     },
     {
       "no": 27783,
-      "kr": "work in progress",
-      "en": "work in progress",
+      "kr": "죽음에 이르는 피해를 받았을 때 가하는 피해가 감소하는 대신 아군 진영으로 복귀 후 체력을 회복한다.",
+      "en": "When taking fatal damage, instead of dealing reduced damage, you recover health after returning to the friendly camp.",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "当受到致命伤害时，你不会造成减少的伤害，而是在返回友方营地后恢复健康。",
       "zh_cn": ""
     },
     {
       "no": 27784,
-      "kr": "work in progress",
-      "en": "work in progress",
+      "kr": "불사의 별",
+      "en": "Immortal Star",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "不朽之星",
       "zh_cn": ""
     },
     {
       "no": 27785,
-      "kr": "work in progress",
-      "en": "work in progress",
+      "kr": "체력이 1이하로 떨어지지 않는다.",
+      "en": "Stamina does not fall below 1.",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "耐力不低于1。",
       "zh_cn": ""
     },
     {
       "no": 27786,
-      "kr": "work in progress",
-      "en": "work in progress",
+      "kr": "가하는 피해<value>%, 가속 <value>% 증가",
+      "en": "Increases damage dealt by <value>% and acceleration by <value>%",
       "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "zh_tw": "造成的伤害增加 <value>%，加速度增加 <value>%",
       "zh_cn": ""
     },
     {
       "no": 27787,
-      "kr": "work in progress",
-      "en": "work in progress",
-      "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "kr": "받는 화상 피해량 40%",
+      "en": "Burn damage received 40%",
+      "ja": "受ける火傷ダメージ量40%",
+      "zh_tw": "所受燒傷傷害量40%",
       "zh_cn": ""
     },
     {
       "no": 27788,
-      "kr": "work in progress",
-      "en": "work in progress",
-      "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "kr": "받는 화상 피해량 50%",
+      "en": "Burn damage received 50%",
+      "ja": "受ける火傷ダメージ量50%",
+      "zh_tw": "所受燒傷傷害量50%",
       "zh_cn": ""
     },
     {
       "no": 27789,
-      "kr": "work in progress",
-      "en": "work in progress",
-      "ja": "work in progress",
-      "zh_tw": "work in progress",
+      "kr": "받는 화상 피해량 60%",
+      "en": "Burn damage received 60%",
+      "ja": "受ける火傷ダメージ量60%",
+      "zh_tw": "所受燒傷傷害量60%",
       "zh_cn": ""
     },
     {
@@ -23681,6 +23681,70 @@
       "zh_cn": ""
     },
     {
+      "no": 233171,
+      "kr": "이머전시 블링크",
+      "en": "Emergency Blink",
+      "ja": "",
+      "zh_tw": "紧急闪烁",
+      "zh_cn": ""
+    },
+    {
+      "no": 233172,
+      "kr": "일반 공격 시, 공격력의 <317610.VALUE>에 해당하는 추가 피해를 입히며, 해당 피해는 <color=#FFFFFF><화상></color>으로 취급한다.",
+      "en": "Increases the damage and acceleration of all allies deployed in the rear row by 10%.",
+      "ja": "",
+      "zh_tw": "增加部署在后排的所有友军的伤害和加速度10%。",
+      "zh_cn": ""
+    },
+    {
+      "no": 233173,
+      "kr": "추가 피해가 <317620.VALUE>로 변경된다.",
+      "en": "Increases the damage and acceleration of all allies deployed in the back row by 12.5%.",
+      "ja": "",
+      "zh_tw": "增加部署在后排的所有友军的伤害和加速度12.5%。",
+      "zh_cn": ""
+    },
+    {
+      "no": 233174,
+      "kr": "추가 피해가 <317630.VALUE>로 변경된다.",
+      "en": "Increases the damage and acceleration of all allies deployed in the rear row by 15%.",
+      "ja": "",
+      "zh_tw": "增加部署在后排的所有友军的伤害和加速度15%。",
+      "zh_cn": ""
+    },
+    {
+      "no": 233175,
+      "kr": "추가 피해가 <317640.VALUE>로 변경된다.\r\n추가로 죽음에 이르는 피해를 받았을 때 피해를 면역하고, 가하는 피해가 영구적으로 <317643.VALUE> 감소하는 대신 아군 진영으로 복귀 후 체력을 <317645.VALUE> 회복하며\r\n즉시 <color=#FFFFFF><서지 피어스></color>를 사용한다.",
+      "en": "Increases the damage and acceleration of all allies deployed in the back row by 17.5%.",
+      "ja": "",
+      "zh_tw": "增加部署在后排的所有友军的伤害和加速度17.5%。",
+      "zh_cn": ""
+    },
+    {
+      "no": 233176,
+      "kr": "추가 피해가 <317650.VALUE>로 변경된다.",
+      "en": "Increases the damage and acceleration of all allies deployed in the rear row by 20%.",
+      "ja": "",
+      "zh_tw": "增加部署在后排的所有友军的伤害和加速度20%。",
+      "zh_cn": ""
+    },
+    {
+      "no": 233177,
+      "kr": "추가 피해가 <317660.VALUE>로 변경된다.",
+      "en": "Increases the damage and acceleration of all allies deployed in the back row by 22.5%.",
+      "ja": "",
+      "zh_tw": "增加部署在后排的所有友军的伤害和加速度22.5%。",
+      "zh_cn": ""
+    },
+    {
+      "no": 233178,
+      "kr": "추가 피해가 <317670.VALUE>로, 죽음으로 인해 감소하는 가하는 피해 수치가 <317673.VALUE>로 변경된다.",
+      "en": "Increases the damage and acceleration of all allies deployed in the back row by 25%.",
+      "ja": "",
+      "zh_tw": "增加部署在后排的所有友军的伤害和加速度25%。",
+      "zh_cn": ""
+    },
+    {
       "no": 233179,
       "kr": "마탄의 악마 자미엘의 힘이 깃든 탄환. \r\n마지막 일곱 번째 탄환은 목표를 반드시 꿰뚫은 후, \r\n그림자처럼 사라진다고 한다.",
       "en": "A bullet imbued with the power of Samiel, the Demon of Magic Bullet.\r\nThe final, seventh shot is said to pierce its mark without fail,\r\nthen vanish like a shadow...",
@@ -27921,6 +27985,14 @@
       "zh_cn": ""
     },
     {
+      "no": 342503,
+      "kr": "정령의 기원 - 탈리아",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 343011,
       "kr": "마그넘 오푸스",
       "en": "Magnum Opus",
@@ -28690,42 +28762,50 @@
     },
     {
       "no": 343171,
-      "kr": "미리암(잔영)_active_스킬명",
-      "en": "",
+      "kr": "디토네이트 스피어",
+      "en": "Detonate Spear",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "引爆长矛",
       "zh_cn": ""
     },
     {
       "no": 343172,
-      "kr": "미리암(잔영)_skill01_스킬명",
-      "en": "",
+      "kr": "서지 피어스",
+      "en": "Serge Pierce",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "塞尔吉·皮尔斯",
       "zh_cn": ""
     },
     {
       "no": 343173,
-      "kr": "미리암(잔영)_skill02_스킬명",
-      "en": "",
+      "kr": "블링크 디거",
+      "en": "Blink Digger",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "闪烁挖掘机",
       "zh_cn": ""
     },
     {
       "no": 343174,
-      "kr": "미리암(잔영)_passive_스킬명",
-      "en": "",
+      "kr": "리버스 라인",
+      "en": "reverse line",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "反向线",
       "zh_cn": ""
     },
     {
       "no": 343175,
-      "kr": "미리암(잔영)_ultimate_스킬명",
-      "en": "",
+      "kr": "블링크 스트라이크",
+      "en": "Blink Strike",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "闪现攻击",
+      "zh_cn": ""
+    },
+    {
+      "no": 343179,
+      "kr": "오버클럭 부스트",
+      "en": "Overclock Boost",
+      "ja": "",
+      "zh_tw": "超频加速",
       "zh_cn": ""
     },
     {
@@ -29534,6 +29614,38 @@
       "en": "Charming Ghost",
       "ja": "魅惑のお化け",
       "zh_tw": "魅惑幽靈",
+      "zh_cn": ""
+    },
+    {
+      "no": 344162,
+      "kr": "페트라(각혼)_skill01_스킬명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 344163,
+      "kr": "페트라(각혼)_skill02_스킬명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 344164,
+      "kr": "페트라(각혼)_passive_스킬명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 344165,
+      "kr": "페트라(각혼)_ultimate_스킬명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -31523,57 +31635,57 @@
     {
       "no": 349512,
       "kr": "<COLOR=#E0942C>붕괴된 시간</COLOR>",
-      "en": "",
+      "en": "<COLOR=#E0942C>Collapsed Time</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "<COLOR=#E0942C>崩潰時間</COLOR>",
       "zh_cn": ""
     },
     {
       "no": 349513,
       "kr": "<COLOR=#E0942C>심판의 힘</COLOR>",
-      "en": "",
+      "en": "<COLOR=#E0942C>Power of Judgment</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "<COLOR=#E0942C>審判的力量</COLOR>",
       "zh_cn": ""
     },
     {
       "no": 349601,
       "kr": "으깨주마!",
-      "en": "",
+      "en": "I'll CRUSH You!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "屍骨無存！",
       "zh_cn": ""
     },
     {
       "no": 349602,
       "kr": "방해하지마!",
-      "en": "",
+      "en": "Outta My Way!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "不要妨礙我！",
       "zh_cn": ""
     },
     {
       "no": 349603,
       "kr": "전부 부숴버리겠어!",
-      "en": "",
+      "en": "Wreck It All!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "我要摧毀一切！",
       "zh_cn": ""
     },
     {
       "no": 349604,
       "kr": "박살내주마",
-      "en": "",
+      "en": "I'll SMASH You!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "讓我粉碎你",
       "zh_cn": ""
     },
     {
       "no": 349605,
       "kr": "광기가 지배한다!",
-      "en": "",
+      "en": "Madness Rules!",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "由狂氣支配！",
       "zh_cn": ""
     },
     {
@@ -33593,6 +33705,14 @@
       "zh_cn": ""
     },
     {
+      "no": 352503,
+      "kr": "아군 탈리아의 능력치가 대폭 증가하고 메인 스킬 사용 시 4초 동안 모든 아군의 체력이 1이하로 떨어지지 않는다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 353011,
       "kr": "연금술로 만들어낸 회복의 정수를 아군에게 던진다. 가장 체력이 적은 아군과 그 주변 2.5m 범위에 위치한 아군의 체력을 공격력의 <301111.VALUE>만큼 회복시킨다. \r\n<COLOR=#FFFFFF>유레카!</COLOR>: 공격력의 <301112.VALUE>만큼의 체력을 추가로 회복시킨다.\r\n<COLOR=#FFFFFF>유레카!!!</COLOR>:  <301113.DURATION>초 동안 에리카의 공격력의 <301113.VALUE> 만큼 피해를 흡수하는 보호막을 걸어준다.",
       "en": "Throws an essence of recovery. Restores HP of the ally with the lowest HP and nearby allies within 2.5m by <301111.VALUE> of ATK.\r\n<COLOR=#FFFFFF>Eureka!</COLOR>: Recovers additional HP by <301112.VALUE> of ATK.\r\n<COLOR=#FFFFFF>Eureka!!!</COLOR>: Casts a barrier which absorbs damage equal to <301113.VALUE> of Erika's ATK for <301113.DURATION> seconds.",
@@ -34362,42 +34482,50 @@
     },
     {
       "no": 353171,
-      "kr": "미리암(잔영)_active_1레벨",
-      "en": "",
+      "kr": "가장 가까운 적을 대상으로 공격력 <color=#E67373>400%</color>의 피해를 입히고, 대상을 제외한 3m 범위 내 모든 적에게 공격력 <317111.VALUE> 피해를 입힌다.\r\n추가로 피해를 받은 모든 대상을 <317142.DURATION>초 기절시키고 3m 원형 범위 내 모든 적을 메인 대상으로 부터 밀쳐낸다.\r\n해당 공격은 회피할 수 없다.",
+      "en": "Targets the nearest enemy, dealing 300% of Attack damage to all enemies within a 3m radius and stunning them for 1 second.\r\nAdditionally, deals 400% of Attack damage to the main target and knocks back all enemies within a 3m circular radius from the main target.\r\nThis attack cannot be evaded.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "瞄准最近的敌人，对半径3米内的所有敌人造成300%攻击力的伤害，并使其晕眩1秒。\r\n此外，对主目标造成400%攻击力的伤害，并击退主目标周围半径3米范围内的所有敌人。\r\n此攻击无法闪避。",
       "zh_cn": ""
     },
     {
       "no": 353172,
-      "kr": "미리암(잔영)_skill01_1레벨",
-      "en": "",
+      "kr": "가장 체력이 낮은 적을 대상으로 돌진하여 공격력 <317210.VALUE>의 피해를 입히고 이로운 효과를 <COLOR=#FFFFFF>2</COLOR>개 제거한다.\r\n추가로 자신이 배치된 위치에 따라 특수한 효과를 발동 시킨다.\r\n\r\n<COLOR=#FFFFFF><전열 배치 강화 효과></COLOR>\r\n<317212.DURATION>초 동안 자신의 받는 최종 피해가 <317212.VALUE> 감소하고, <317215.DURATION>초 후 공격력의 <317213.VALUE>만큼 보호막을 부여한다. \r\n\r\n<COLOR=#FFFFFF><후열 배치 강화 효과></COLOR>\r\n피해량이 <color=#E67373>240%</color>로 변경된다.\r\n",
+      "en": "Charges to the enemy with the lowest health, dealing 220% of Attack damage and removing 2 beneficial effects.\r\nAdditionally, activates a special effect based on the position where the character is deployed.\r\n\r\n<Front Row Deployment Enhancement Effect>\r\nReduces final damage taken by 10% for 6 seconds, and grants a shield equal to 120% of Attack power after 6 seconds.\r\n\r\n<Back Row Deployment Enhancement Effect>\r\nDamage is changed to 240%.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "向生命值最低的敌人发起冲锋，造成220%攻击力伤害，并移除2个增益效果。\r\n此外，根据角色部署的位置激活特殊效果。\r\n\r\n<前排部署增强效果>\r\n6秒内降低最终受到的伤害10%，并在6秒后获得相当于攻击力120%的护盾。\r\n\r\n<后排部署增强效果>\r\n伤害变更为240%。",
       "zh_cn": ""
     },
     {
       "no": 353173,
-      "kr": "미리암(잔영)_skill02_1레벨",
-      "en": "",
+      "kr": "가장 가까운 적을 대상으로 폭발하는 단검을 던져 공격력 <317310.VALUE>의 피해를 입히고 <317311.DURATION>초 동안 <COLOR=#FFFFFF>기절</COLOR> 상태를 부여한다.\r\n추가로 자신이 배치된 위치에 따라 특수한 효과를 발동 시킨다.\r\n\r\n<COLOR=#FFFFFF><전열 배치 강화 효과></COLOR>\r\n본인 주변 3.5m내 모든 적을 <317312.DURATION>초 동안 도발하고 공격력을 <317313.VALUE> 감소 시킨다.\r\n\r\n<COLOR=#FFFFFF><후열 배치 강화 효과></COLOR>\r\n피해량이 <color=#E67373>280%</color>로 변경된다.\r\n",
+      "en": "Throws an explosive dagger at the nearest enemy, dealing 220% of Attack damage and inflicting \"Stun\" for 2 seconds.\r\nAdditionally, activates a special effect based on the user's position.\r\n\r\n<Front Row Deployment Enhancement Effect>\r\nTaunts all enemies within 3.5 meters of the user for 4 seconds and reduces their Attack Power by 10%.\r\n\r\n<Back Row Deployment Enhancement Effect>\r\nDamage is changed to 280%.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "向最近的敌人投掷一把爆炸匕首，造成220%攻击力伤害，并使其“眩晕”持续2秒。\r\n此外，还会根据使用者的位置触发特殊效果。\r\n\r\n<前排部署增强效果>\r\n嘲讽使用者周围3.5米内的所有敌人，持续4秒，并使其攻击力降低10%。\r\n\r\n<后排部署增强效果>\r\n伤害变为280%。",
       "zh_cn": ""
     },
     {
       "no": 353174,
-      "kr": "미리암(잔영)_passive_1레벨",
-      "en": "",
+      "kr": "자신이 배치된 위치에 따라 다른 효과를 받는다.\r\n\r\n<COLOR=#FFFFFF><전열 - 억제 특화></COLOR>\r\n전투 시작 시 자신 공격력의 <317410.VALUE>의 보호막을 영구적으로 획득하고 공격을 <COLOR=#FFFFFF>10</COLOR>회 받을 때 마다 공격력 <317411.VALUE>의 추가 보호막을 영구적으로 획득하며,\r\n자신 주변 3m내 모든 적의 물리/마법 저항을 <317412.VALUE> 감소시킨다.\r\n\r\n<COLOR=#FFFFFF><후열 - 강습 특화></COLOR>\r\n받는 최종 피해가 <317434.VALUE> 증가하는 대신 가하는 피해가 상시 <317415.VALUE> 증가하고, 가속이 <317416.VALUE> 증가한다.\r\n",
+      "en": "Depending on where you are deployed, you receive different effects.\r\n\r\n<Front Row - Suppression Specialization>\r\nAt the start of battle, you permanently gain a shield equal to 180% of your attack power. Every 10 attacks you receive, you permanently gain an additional shield equal to 40% of your attack power.\r\n\r\nYou also reduce the physical and magical resistance of all enemies within a 3m radius by 15%.\r\n\r\n<Back Row - Assault Specialization>\r\nIncreases final damage taken by 10%, but increases damage dealt by 20% and Haste by 30%.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "根据你的部署位置，你将获得不同的效果。\r\n\r\n<前排 - 压制专精>\r\n战斗开始时，你将永久获得一个相当于你攻击力180%的护盾。每受到10次攻击，你将永久获得一个相当于你攻击力40%的额外护盾。\r\n\r\n你还会降低3米范围内所有敌人15%的物理和魔法抗性。\r\n\r\n<后排 - 突击专精>\r\n最终受到的伤害增加10%，但造成的伤害增加20%，急速增加30%。",
       "zh_cn": ""
     },
     {
       "no": 353175,
-      "kr": "미리암(잔영)_ultimate_1레벨",
-      "en": "",
+      "kr": "전투 슈트 기능에 순간적인 과부하를 걸어 빠른 속도로 적을 연속으로 베어내 가장 공격력이 높은 적을 대상으로 공격력 <317511.VALUE>의 피해를 입힌다. \r\n추가로 자신의 가속을 영구적으로 <317512.VALUE> 증가하고, 모든 서브 스킬이 사용될 때 마다 마나를 <317340.VALUE> 소모하는 대신 공격력 <317341.VALUE>의 추가 피해를 입힌다.",
+      "en": "This ability momentarily overloads the combat suit's capabilities, rapidly slashing enemies in rapid succession, inflicting 400% damage to the highest attacking enemy. \r\nAdditionally, it permanently increases your acceleration by 30%, and each sub-skill consumes 500 mana but deals 100% additional damage.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "此技能会暂时超载战斗服的能力，快速连续地斩击敌人，对攻击力最高的敌人造成 400% 的伤害。此外，它还会永久提高你的加速度 30%，并且每个子技能会消耗 500 点法力，但会造成 100% 的额外伤害。",
+      "zh_cn": ""
+    },
+    {
+      "no": 353179,
+      "kr": "후열에 배치된 모든 아군의 가하는 피해와 가속을 <317911.VALUE> 증가시킨다.",
+      "en": "When attacking normally, additional damage equal to 80% of the attack power is inflicted, and the damage is treated as <Burn>.",
+      "ja": "",
+      "zh_tw": "普通攻击时，造成相当于攻击力80%的额外伤害，该伤害视为<灼伤>。",
       "zh_cn": ""
     },
     {
@@ -35209,6 +35337,38 @@
       "zh_cn": ""
     },
     {
+      "no": 354162,
+      "kr": "페트라(각혼)_skill01_1레벨",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 354163,
+      "kr": "페트라(각혼)_skill02_1레벨",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 354164,
+      "kr": "페트라(각혼)_passive_1레벨",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 354165,
+      "kr": "페트라(각혼)_ultimate_1레벨",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 355011,
       "kr": "주변의 환경을 바꿔 뇌운을 몰고 와 모든 적에게 뇌격을 가해 대상의 버프 효과를 <COLOR=#FFFFFF>1</color>개 해제하고, 공격력 <501111.VALUE>의 피해를 입히며 <501112.DURATION>초 동안 2초마다 공격력 <501112.VALUE>의 피해를 입히는 감전 상태로 만든다",
       "en": "Changes the surrounding environment and gathers thunderclouds to attack all enemies with lightning strikes, removing <COLOR=#FFFFFF>1</color> of their buffs and dealing <501111.VALUE> ATK damage. Affected targets are Shocked, receiving <501112.VALUE> ATK damage every 2 seconds for <501112.DURATION> seconds.",
@@ -35650,10 +35810,10 @@
     },
     {
       "no": 356512,
-      "kr": "태양의 힘을 응축한 뒤 직선으로 힘을 방출하여 폭 1.5m, 길이 11m의 범위의 모든 적을 불태워 공격력 <651211.VALUE>의 피해를 입히고, <651212.DURATION>초 동안 <651212.VALUE>의 피해를 입히는 화상 상태로 만들며 받는 화상 피해가 <651213.VALUE> 증가하는 효과를 부여한다.\r\n\r\n<COLOR=#FFFFFF><솔 에테르누스></COLOR> 추가 효과 - 화상을 부여하지 않는 대신 위력이 2배로 증가하고, 반드시 치명타로 발동한다.",
-      "en": "Condenses the power of the sun and releases it in a straight line, burning all enemies within a 1.5m wide and 11m long area, dealing damage equal to <651211.VALUE> of ATK and inflicting them with Burn, which deals <651212.VALUE> damage over <651212.DURATION> sec, and a debuff that increases Burn damage received by <651213.VALUE>.\r\r\n\r\r\n<COLOR=#FFFFFF>\"Sol Aeternus\"</COLOR> synergy effect - Skips the Burn effect and doubles the skill effect instead, guaranteeing it to land as a critical hit.",
-      "ja": "太陽の力を凝縮し、直線で力を放出して幅1.5m、長さ11mの範囲の敵全員を燃やして攻撃力の<651211.VALUE>のダメージを与え、<651212.DURATION>秒間、<651212.VALUE>のダメージを与える火傷状態を付与する。受ける火傷ダメージが<651213.VALUE>増加する効果を付与する。\r\n\r\n<COLOR=#FFFFFF><ソル・アエテルヌス></COLOR>追加効果 - 火傷を付与しない代わりに威力が2倍に増加し、必ずクリティカルになる。",
-      "zh_tw": "凝聚太陽力量後，直線射出力量，燃燒寬幅1.5m、長11m範圍內的所有敵人，造成攻擊力<651211.VALUE>的傷害，使其在<651212.DURATION>秒內處於燒傷狀態，造成<651212.VALUE>的傷害，並賦予使所受燒傷傷害增加<651213.VALUE>的效果。\r\r\n\r\r\n<COLOR=#FFFFFF>＜恆久焱陽＞</COLOR>額外效果－不會賦予燒傷，但威力增為2倍，必以暴擊發動",
+      "kr": "태양의 힘을 응축한 뒤 직선으로 힘을 방출하여 폭 1.5m, 길이 11m의 범위의 모든 적을 불태워 공격력 <651211.VALUE>의 피해를 입히고, <651212.DURATION>초 동안 <651212.VALUE>의 피해를 입히는 화상 상태로 만들며 받는 화상 피해가 <color=#EDA900>40%</COLOR> 증가하는 효과를 부여한다.\r\n\r\n<COLOR=#FFFFFF><솔 에테르누스></COLOR> 추가 효과 - 화상을 부여하지 않는 대신 위력이 2배로 증가하고, 반드시 치명타로 발동한다.",
+      "en": "Condenses the power of the sun and releases it in a straight line, burning all enemies within a 1.5m wide and 11m long area, dealing damage equal to <651211.VALUE> of ATK and inflicting them with Burn, which deals <651212.VALUE> damage over <651212.DURATION> sec, and a debuff that increases Burn damage received by <color=#EDA900>40%</COLOR>.\r\r\n\r\r\n<COLOR=#FFFFFF>\"Sol Aeternus\"</COLOR> synergy effect - Skips the Burn effect and doubles the skill effect instead, guaranteeing it to land as a critical hit.",
+      "ja": "太陽の力を凝縮し、直線で力を放出して幅1.5m、長さ11mの範囲の敵全員を燃やして攻撃力の<651211.VALUE>のダメージを与え、<651212.DURATION>秒間、<651212.VALUE>のダメージを与える火傷状態を付与する。受ける火傷ダメージが<color=#EDA900>40%</COLOR>増加する効果を付与する。\r\n\r\n<COLOR=#FFFFFF><ソル・アエテルヌス></COLOR>追加効果 - 火傷を付与しない代わりに威力が2倍に増加し、必ずクリティカルになる。",
+      "zh_tw": "凝聚太陽力量後，直線射出力量，燃燒寬幅1.5m、長11m範圍內的所有敵人，造成攻擊力<651211.VALUE>的傷害，使其在<651212.DURATION>秒內處於燒傷狀態，造成<651212.VALUE>的傷害，並賦予使所受燒傷傷害增加<color=#EDA900>40%</COLOR>的效果。\r\r\n\r\r\n<COLOR=#FFFFFF>＜恆久焱陽＞</COLOR>額外效果－不會賦予燒傷，但威力增為2倍，必以暴擊發動",
       "zh_cn": ""
     },
     {
@@ -36434,7 +36594,7 @@
     },
     {
       "no": 359024,
-      "kr": "모든 아군의 받는 최종 피해가 20% 감소하고, 정령이 메인 스킬을 사용한 이후 12초 동안 최대 체력의 10%에 해당하는 보호막을 자신에게 부여하고, 해당 보호막이 유지되는 동안 받는 피해가 20% 감소한다.",
+      "kr": "모든 아군의 받는 최종 피해가 20% 감소한다.\r\n추가로 정령이 메인 스킬을 사용한 이후 12초 동안 최대 체력의 10%에 해당하는 보호막을 자신에게 부여하고 해당 보호막이 유지되는 동안 받는 최종 피해가 20% 감소한다.",
       "en": "All allies' total damage received decreases by 20%. Any Soul using her main skill gains a shield equal to 10% of her max HP for 12 sec, which also decreases her total damage received by 20% while it's up.",
       "ja": "",
       "zh_tw": "所有友軍的所受最終傷害減少20%，精靈使用主要技能後12秒內對自身賦予相當於體力上限10%的防護罩，該防護罩維持期間所受傷害減少20%",
@@ -37187,57 +37347,57 @@
     {
       "no": 359512,
       "kr": "보스는 레벨에 관계없이 <COLOR=#FFFFFF>3,000</COLOR>의 그로기 게이지를 보유하며, 그로기 발생 시 효과는 <COLOR=#FFFFFF>6</COLOR>초간 지속된다. 그로기 발생과 동시에 게이지는 <COLOR=#FFFFFF>12</COLOR>초에 걸쳐 서서히 회복되며, <COLOR=#00B700>회복 중에는 그로기 게이지가 감소하지 않는다.</COLOR>",
-      "en": "",
+      "en": "The boss has a Daze Gauge of <COLOR=#FFFFFF>3,000</COLOR> regardless of level. When the boss is dazed, the duration is <COLOR=#FFFFFF>6</COLOR> sec. The moment the boss is dazed, the Daze Gauge slowly fills up over <COLOR=#FFFFFF>12</COLOR> sec, <COLOR=#00B700>during which it does not go down.</COLOR>",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "BOSS無論等級均持有<COLOR=#FFFFFF>3,000</COLOR>的無力計量條，無力發生時效果持續<COLOR=#FFFFFF>6</COLOR>秒。無力發生的同時，計量條會在<COLOR=#FFFFFF>12</COLOR>秒內逐漸恢復，<COLOR=#00B700>恢復中無力計量條不會減少</COLOR>",
       "zh_cn": ""
     },
     {
       "no": 359513,
       "kr": "보스를 그로기 상태로 만들면, 아군 전체에게 <COLOR=#FFFFFF><심판의 힘></COLOR>이 부여된다.\r\n<COLOR=#FFFFFF><심판의 힘></COLOR>은 <COLOR=#00B700>가장 먼저 메인 스킬을 사용하는 정령 1명</COLOR>만 발동하며, 이후 아군 전체의 <COLOR=#FFFFFF><심판의 힘></COLOR> 효과가 해제된다.\r\n\r\n<COLOR=#E0942C><심판의 힘></COLOR>\r\n보스에게 공격력 <COLOR=#E67373>2000%</COLOR>의 피해를 입힌다.",
-      "en": "",
+      "en": "When the boss is dazed, all allies are granted <COLOR=#FFFFFF>\"Power of Judgment.\"</COLOR>\r\n<COLOR=#FFFFFF>\"Power of Judgment\"</COLOR> triggers for the <COLOR=#00B700>first Soul to use her main skill</COLOR> and is canceled from all allies afterward.\r\n\r\n<COLOR=#E0942C>\"Power of Judgment\"</COLOR>\r\nDeals damage equal to <COLOR=#E67373>2,000%</COLOR> of ATK to the boss.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "若使BOSS陷入無力狀態，賦予全體友軍<COLOR=#FFFFFF>＜審判的力量＞</COLOR>。\r\n僅會有<COLOR=#00B700>最先使用主要技能的1名精靈</COLOR>觸發<COLOR=#FFFFFF>＜審判的力量＞</COLOR>，並解除所有友軍的<COLOR=#FFFFFF>＜審判的力量＞</COLOR>效果。\r\n\r\n<COLOR=#E0942C>＜審判的力量＞</COLOR>\r\n對BOSS造成攻擊力<COLOR=#E67373>2000%</COLOR>的傷害",
       "zh_cn": ""
     },
     {
       "no": 359601,
       "kr": "가장 먼 적을 대상으로 지면을 폭발 시켜 120도 부채꼴 범위 내 모든 대상에게 회피 불가능한 공격력 <color=#E67373>400%</color>의 피해를 입히고 <color=#FFFFFF>6</color>초 동안 가하는 피해를 <960112.VALUE> 감소 시킨다. \r\n\r\n만약 대상이 보호막을 가지고 있을 경우 피해량이 <960110.VALUE>로 변경되고 가하는 피해 감소 효과를 받지 않게 된다.",
-      "en": "",
+      "en": "Targeting the farthest enemy, triggers an explosion on the ground, dealing unevadable damage equal to <color=#E67373>400%</color> of ATK to all targets within a 120-degree arc and decreasing their damage dealt by <960112.VALUE> for <color=#FFFFFF>6</color> sec.\r\n\r\nAgainst targets with shields, the damage changes to <960110.VALUE> of ATK, and their damage dealt does not decrease.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "以最遠的敵人為目標，使地面爆炸，對120度扇形範圍內的所有目標造成攻擊力<color=#E67373>400%</color>的傷害且無法迴避，並在<color=#FFFFFF>6</color>秒內使造成傷害減少<960112.VALUE>。\r\n\r\n如果目標擁有防護罩，傷害量將變更為<960110.VALUE>，且不會受到造成傷害減少的效果",
       "zh_cn": ""
     },
     {
       "no": 359602,
       "kr": "가장 먼 적에게 돌진하고 자신 주변 3m내 모든 적에게 공격력 <color=#E67373>300%</color>의 피해를 입힌다.\r\n\r\n만약 대상이 <color=#FFFFFF><폭주하는 광기></color> 상태일 경우 피해량이 <color=#E67373>400%</color>로 변경되고 피격된 대상을 강하게 밀어내며 넘어뜨린다.",
-      "en": "",
+      "en": "Charges to the farthest enemy, dealing damage equal to <color=#E67373>300%</color> of ATK to all enemies within 3m from herself.\r\n\r\nIf the target has <color=#FFFFFF>\"Rampaging Madness,\"</color> damage changes to <color=#E67373>400%</color>, pushing the target back and knocking them down.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "朝最遠的敵人突進，對自身周圍3m內所有敵人造成攻擊力<color=#E67373>300%</color>的傷害。\r\n\r\n如果目標處於<color=#FFFFFF>＜暴走的狂氣＞</color>狀態，傷害量變更為<color=#E67373>400%</color>，並強力推開受擊目標，將其擊倒",
       "zh_cn": ""
     },
     {
       "no": 359603,
       "kr": "지면이 파괴될 정도의 강력한 망치를 휘둘러 모든 적에게 공격력 <960210.VALUE>의 피해를 입힌다.\r\n\r\n만약 대상이 <color=#FFFFFF><폭주하는 광기></color> 상태일 경우 피해량이 <color=#E67373>400%</color>로 변경되고 대상의 가하는 피해를 <color=#FFFFFF>3</color>초 동안 <960312.VALUE> 감소시킨다.",
-      "en": "",
+      "en": "Swings the hammer with enough force to shatter the ground, dealing damage equal to <960210.VALUE> of ATK to all enemies.\r\n\r\nIf the target has <color=#FFFFFF>\"Rampaging Madness,\"</color> damage changes to <color=#E67373>400%</color>, decreasing the target's damage dealt by <960312.VALUE> for <color=#FFFFFF>3</color> sec.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "揮動足以破壞地面的強力錘子，對所有敵人造成攻擊力<960210.VALUE>的傷害。\r\n\r\n如果目標處於<color=#FFFFFF>＜暴走的狂氣＞</color>狀態，傷害量將變更為<color=#E67373>400%</color>，並在<color=#FFFFFF>3</color>秒內使目標的造成傷害減少<960312.VALUE>",
       "zh_cn": ""
     },
     {
       "no": 359604,
       "kr": "야수가 지면을 딛고 힘차게 점프한 후 오른쪽 끝으로 떨어지며 지면을 내리 찍어 모든 적에게 공격력 <960310.VALUE>의 피해를 입힌다.\r\n\r\n만약 대상이 <color=#FFFFFF><폭주하는 광기></color> 상태일 경우 대상이 지닌 해제 가능한 모든 이로운 효과를 제거한다.",
-      "en": "",
+      "en": "The Beast pushes off the ground with a mighty jump, landing on the right edge and slamming down to deal damage equal to <960310.VALUE> of ATK to all enemies.\r\n\r\nIf the target has <color=#FFFFFF>\"Rampaging Madness,\"</color> she also cancels all cancelable positive effects on the target.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "野獸踩在地面上奮力跳躍後，在右側盡頭落地並猛擊地面，對所有敵人造成攻擊力<960310.VALUE>的傷害。\r\n\r\n若目標處於<color=#FFFFFF>＜暴走的狂氣＞</color>狀態，則解除目標可解除的所有增益效果",
       "zh_cn": ""
     },
     {
       "no": 359605,
       "kr": "점점 광기에 잠식되어가는 야수는 전투 시작 <color=#FFFFFF>20</color>초 후 이성을 잃고 광기를 발산해 모든 적을 대상으로 공격력 <960514.VALUE>의 피해를 입히고 전투 중 <color=#FFFFFF>2</color>초마다 <color=#FFFFFF><차오르는 광기></color> 상태를 영구적으로 1중첩 씩 부여한다.(최대 7중첩)\r\n\r\n<color=#FFFFFF><차오르는 광기></color> 중첩 당 공격력이 <960510.VALUE> 증가하며 만약 <color=#FFFFFF>7</color>중첩이 될 경우 <color=#FFFFFF><폭주하는 광기></color>상태가 되어 받는 최종 피해가 <960513.VALUE> 증가한다. (해제 가능)",
-      "en": "",
+      "en": "Being consumed by madness over time, the beast loses her mind <color=#FFFFFF>20</color> sec into the battle, unleashing chaos to deal damage equal to <960514.VALUE> of ATK to all enemies and place a stack of <color=#FFFFFF>\"Surging Madness\"</color> on them every <color=#FFFFFF>2</color> sec permanently (up to 7 stacks).\r\n\r\nEvery stack of <color=#FFFFFF>\"Surging Madness\"</color> increases the target's ATK by <960510.VALUE>, and at <color=#FFFFFF>7</color> stacks, it activates <color=#FFFFFF>\"Rampaging Madness,\"</color> which increases the target's total damage received by <960513.VALUE> (cancelable).",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "逐漸被狂氣侵蝕的野獸在戰鬥開始<color=#FFFFFF>20</color>秒後失去理智，釋放狂氣對所有敵人造成攻擊力<960514.VALUE>的傷害，並在戰鬥中每<color=#FFFFFF>2</color>秒永久賦予<color=#FFFFFF>＜狂氣爆發＞</color>狀態1疊加。（上限7疊加）\r\n\r\n<color=#FFFFFF>＜狂氣爆發＞</color>每疊加使攻擊力增加<960510.VALUE>，若達到<color=#FFFFFF>7</color>疊加，則進入<color=#FFFFFF>＜暴走的狂氣＞</color>狀態，所受最終傷害增加<960513.VALUE>。（可解除）",
       "zh_cn": ""
     },
     {
@@ -38922,10 +39082,10 @@
     },
     {
       "no": 362122,
-      "kr": "피해량이 <212221.VALUE>, 추가 피해량이 <212222.VALUE>로 변경된다. \r\n<COLOR=#FFFFFF><내려쳐라 여의금고봉!> 및 <분신술 총공격이야!!></COLOR>효과로 강화되었을 경우의 피해량이 <216221.VALUE>로 변경된다.",
-      "en": "Damage changes to <212221.VALUE>, additional damage changes to <212222.VALUE>.\r\nDamage changes to <216221.VALUE> when the skill has been enhanced by <COLOR=#FFFFFF>the \"Ruyi Jingu Bang Strike!\" or the \"Clone Strike!!\"</COLOR> effect.",
-      "ja": "ダメージ量が<212221.VALUE>、追加ダメージ量が<212222.VALUE>に変更される。\r\n<COLOR=#FFFFFF><叩きつけ、如意金箍棒！>と<分身の術で総攻撃や!!></COLOR>効果で強化された場合のダメージ量が<216221.VALUE>に変更される。",
-      "zh_tw": "變更為造成<212221.VALUE>的傷害、造成<212222.VALUE>的額外傷害。\r\n以<COLOR=#FFFFFF>＜重擊吧如意金箍棒！＞和＜分身術總攻擊！！＞</COLOR>效果強化時，變更為造成<216221.VALUE>的傷害",
+      "kr": "피해량이 <212221.VALUE>, 추가 피해량이 <212222.VALUE>로 변경된다. \r\n<COLOR=#FFFFFF><내려쳐라 여의금고봉!> 및 <분신술 총공격이야!!></COLOR>효과로 강화되었을 경우의 피해량이 <212621.VALUE>로 변경된다.",
+      "en": "Damage changes to <212221.VALUE>, additional damage changes to <212222.VALUE>.\r\nDamage changes to <212621.VALUE> when the skill has been enhanced by <COLOR=#FFFFFF>the \"Ruyi Jingu Bang Strike!\" or the \"Clone Strike!!\"</COLOR> effect.",
+      "ja": "ダメージ量が<212221.VALUE>、追加ダメージ量が<212222.VALUE>に変更される。\r\n<COLOR=#FFFFFF><叩きつけ、如意金箍棒！>と<分身の術で総攻撃や!!></COLOR>効果で強化された場合のダメージ量が<212621.VALUE>に変更される。",
+      "zh_tw": "變更為造成<212221.VALUE>的傷害、造成<212222.VALUE>的額外傷害。\r\n以<COLOR=#FFFFFF>＜重擊吧如意金箍棒！＞和＜分身術總攻擊！！＞</COLOR>效果強化時，變更為造成<212621.VALUE>的傷害",
       "zh_cn": ""
     },
     {
@@ -39930,42 +40090,50 @@
     },
     {
       "no": 363171,
-      "kr": "미리암(잔영)_active_2레벨",
-      "en": "",
+      "kr": "범위 피해량이 <317121.VALUE>, 대상 피해량이 <color=#E67373>500%</color>로 변경된다.",
+      "en": "Area damage is changed to 320%, target damage is changed to 500%.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "区域伤害改为320%，目标伤害改为500%。",
       "zh_cn": ""
     },
     {
       "no": 363172,
-      "kr": "미리암(잔영)_skill01_2레벨",
-      "en": "",
+      "kr": "피해량이 <317220.VALUE>로 변경된다.\r\n<COLOR=#FFFFFF>전열 배치 강화 효과</COLOR> - 감소하는 받는 최종 피해가 <317222.VALUE>로 변경된다.\r\n<COLOR=#FFFFFF>후열 배치 강화 효과</COLOR> - 피해량이 <color=#E67373>260%</color>로 변경된다.",
+      "en": "Damage increased by 230%.\r\nFront Row Deployment Enhancement Effect - Final damage reduction changed to 20%.\r\nBack Row Deployment Enhancement Effect - Damage increased by 260%.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "伤害增加230%。\r\n前排部署增强效果 - 最终伤害减免调整为20%。\r\n后排部署增强效果 - 伤害增加260%。",
       "zh_cn": ""
     },
     {
       "no": 363173,
-      "kr": "미리암(잔영)_skill02_2레벨",
-      "en": "",
+      "kr": "피해량이 <317320.VALUE>로 변경된다.\r\n<COLOR=#FFFFFF>전열 배치 강화 효과</COLOR> - 감소하는 공격력이 <317323.VALUE>로 변경된다.\r\n<COLOR=#FFFFFF>후열 배치 강화 효과</COLOR> - 피해량이 <color=#E67373>300%</color>로 변경된다.",
+      "en": "Damage is changed to 230%.\r\nFront Row Deployment Enhancement Effect - Attack power reduction is changed to 15%.\r\nBack Row Deployment Enhancement Effect - Damage is changed to 300%.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "伤害变更为230%。\r\n前排出击强化效果 - 攻击力削减变更为15%。\r\n后排出击强化效果 - 伤害变更为300%。",
       "zh_cn": ""
     },
     {
       "no": 363174,
-      "kr": "미리암(잔영)_passive_2레벨",
-      "en": "",
+      "kr": "<COLOR=#FFFFFF><전열 - 억제 특화></COLOR>\r\n전투 시작 시 보호막이 <317420.VALUE>로, 추가 보호막이 <317421.VALUE>로 변경되고, 감소시키는 물리/마법 저항이 <317422.VALUE>로 변경된다.\r\n\r\n<COLOR=#FFFFFF><후열 - 강습 특화></COLOR>\r\n증가하는 가하는 피해가 <317425.VALUE>로 변경된다.",
+      "en": "<Front Row - Suppression Specialization>\r\nAt the start of battle, the shield is increased to 190%, the additional shield is increased to 45%, and the physical/magical resistance reduction is increased to 20%.\r\n\r\n<Back Row - Assault Specialization>\r\nThe increased damage dealt is increased to 25%.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "<前排 - 压制专精>\r\n战斗开始时，护盾提升至190%，附加护盾提升至45%，物理/魔法抗性降低提升至20%。\r\n\r\n<后排 - 突击专精>\r\n造成的伤害提升提升至25%。",
       "zh_cn": ""
     },
     {
       "no": 363175,
-      "kr": "미리암(잔영)_ultimate_2레벨",
-      "en": "",
+      "kr": "피해량이 <317521.VALUE>로, 증가하는 가속이 <317522.VALUE>로, 추가 피해량이 <317342.VALUE>로 변경된다.",
+      "en": "Damage is increased to 500%, acceleration is increased to 35%, and additional damage is increased to 150%.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "伤害提升至500%，加速提升至35%，额外伤害提升至150%。",
+      "zh_cn": ""
+    },
+    {
+      "no": 363179,
+      "kr": "후열에 배치된 모든 아군의 가하는 피해와 가속을 <317921.VALUE> 증가시킨다.",
+      "en": "When attacking normally, additional damage equal to 100% of the attack power is inflicted, and the damage is treated as <Burn>.",
+      "ja": "",
+      "zh_tw": "普通攻击时，造成相当于攻击力100%的额外伤害，该伤害视为<灼伤>。",
       "zh_cn": ""
     },
     {
@@ -40769,6 +40937,46 @@
       "zh_cn": ""
     },
     {
+      "no": 364161,
+      "kr": "페트라(각혼)_active_2레벨",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 364162,
+      "kr": "페트라(각혼)_skill01_2레벨",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 364163,
+      "kr": "페트라(각혼)_skill02_2레벨",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 364164,
+      "kr": "페트라(각혼)_passive_2레벨",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 364165,
+      "kr": "페트라(각혼)_ultimate_2레벨",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 365011,
       "kr": "피해량이 <501121.VALUE>, 감전 피해량이 <501122.VALUE>로 변경된다.",
       "en": "Damage changes to <501121.VALUE>, damage from shock changes to <501122.VALUE>.",
@@ -41210,10 +41418,10 @@
     },
     {
       "no": 366512,
-      "kr": "피해량이 <651221.VALUE>, 화상 피해량이 <651222.VALUE>, 받는 화상 피해 증가량이 <651223.VALUE>로 변경된다.",
-      "en": "Damage changes to <651221.VALUE>, Burn damage changes to <651222.VALUE>, and increased burn damage received changes to <651223.VALUE>.",
-      "ja": "ダメージ量が<651221.VALUE>、火傷ダメージ量が<651222.VALUE>、受ける火傷ダメージ増加量が<651223.VALUE>に変更される。",
-      "zh_tw": "變更為造成<651221.VALUE>的傷害、造成<651222.VALUE>的燒傷傷害、所受燒傷傷害增加量<651223.VALUE>",
+      "kr": "피해량이 <651221.VALUE>, 화상 피해량이 <651222.VALUE>, 받는 화상 피해 증가량이 <color=#EDA900>50%</COLOR>로 변경된다.",
+      "en": "Damage changes to <651221.VALUE>, Burn damage changes to <651222.VALUE>, and increased burn damage received changes to <color=#EDA900>50%</COLOR>.",
+      "ja": "ダメージ量が<651221.VALUE>、火傷ダメージ量が<651222.VALUE>、受ける火傷ダメージ増加量が<color=#EDA900>50%</COLOR>に変更される。",
+      "zh_tw": "變更為造成<651221.VALUE>的傷害、造成<651222.VALUE>的燒傷傷害、所受燒傷傷害增加量<color=#EDA900>50%</COLOR>",
       "zh_cn": ""
     },
     {
@@ -43010,10 +43218,10 @@
     },
     {
       "no": 372122,
-      "kr": "피해량이 <212231.VALUE>, 추가 피해량이 <212232.VALUE>로 변경된다. 대상의 가속을 <212233.DURATION>초 동안 <212233.VALUE> 감소시키는 효과가 추가된다. \r\n<COLOR=#FFFFFF><내려쳐라 여의금고봉!> 및 <분신술 총공격이야!!></COLOR> 효과로 강화되었을 경우의 피해량이 <216231.VALUE>로 변경된다.",
-      "en": "Damage changes to <212231.VALUE>, additional damage changes to <212232.VALUE>. Adds an effect which decreases the target's Speed by <212233.VALUE> for <212233.DURATION> sec.\r\nDamage changes to <216231.VALUE> when the skill has been enhanced by <COLOR=#FFFFFF>the \"Ruyi Jingu Bang Strike!\" or the \"Clone Strike!!\"</COLOR> effect.",
-      "ja": "ダメージ量が<212231.VALUE>、追加ダメージ量が<212232.VALUE>に変更される。対象の加速を<212233.DURATION>秒間<212233.VALUE>減少させる効果が追加される。\r\n<COLOR=#FFFFFF><叩きつけ、如意金箍棒！>と<分身の術で総攻撃や!!></COLOR>効果で強化された場合のダメージ量が<216231.VALUE>に変更される。",
-      "zh_tw": "變更為造成<212231.VALUE>的傷害、造成<212232.VALUE>的額外傷害，並新增使目標加速減少<212233.VALUE>的效果，持續<212233.DURATION>秒。\r\n以<COLOR=#FFFFFF>＜重擊吧如意金箍棒！＞和＜分身術總攻擊！！＞</COLOR>效果強化時，變更為造成<216231.VALUE>的傷害",
+      "kr": "피해량이 <212231.VALUE>, 추가 피해량이 <212232.VALUE>로 변경된다. 대상의 가속을 <212233.DURATION>초 동안 <212233.VALUE> 감소시키는 효과가 추가된다. \r\n<COLOR=#FFFFFF><내려쳐라 여의금고봉!> 및 <분신술 총공격이야!!></COLOR> 효과로 강화되었을 경우의 피해량이 <212631.VALUE>로 변경된다.",
+      "en": "Damage changes to <212231.VALUE>, additional damage changes to <212232.VALUE>. Adds an effect which decreases the target's Speed by <212233.VALUE> for <212233.DURATION> sec.\r\nDamage changes to <212631.VALUE> when the skill has been enhanced by <COLOR=#FFFFFF>the \"Ruyi Jingu Bang Strike!\" or the \"Clone Strike!!\"</COLOR> effect.",
+      "ja": "ダメージ量が<212231.VALUE>、追加ダメージ量が<212232.VALUE>に変更される。対象の加速を<212233.DURATION>秒間<212233.VALUE>減少させる効果が追加される。\r\n<COLOR=#FFFFFF><叩きつけ、如意金箍棒！>と<分身の術で総攻撃や!!></COLOR>効果で強化された場合のダメージ量が<212631.VALUE>に変更される。",
+      "zh_tw": "變更為造成<212231.VALUE>的傷害、造成<212232.VALUE>的額外傷害，並新增使目標加速減少<212233.VALUE>的效果，持續<212233.DURATION>秒。\r\n以<COLOR=#FFFFFF>＜重擊吧如意金箍棒！＞和＜分身術總攻擊！！＞</COLOR>效果強化時，變更為造成<212631.VALUE>的傷害",
       "zh_cn": ""
     },
     {
@@ -44018,42 +44226,50 @@
     },
     {
       "no": 373171,
-      "kr": "미리암(잔영)_active_3레벨",
-      "en": "",
+      "kr": "범위 피해량이 <317131.VALUE>, 대상 피해량이 <color=#E67373>600%</color>로 변경된다.",
+      "en": "Area damage is increased by 340%, and target damage is increased by 600%. \r\nAdditionally, removes 1 beneficial effect from all enemies within the area.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "区域伤害提高 340%，目标伤害提高 600%。此外，移除区域内所有敌人的 1 个增益效果。",
       "zh_cn": ""
     },
     {
       "no": 373172,
-      "kr": "미리암(잔영)_skill01_3레벨",
-      "en": "",
+      "kr": "피해량이 <317230.VALUE>로 변경된다.\r\n<COLOR=#FFFFFF>전열 배치 강화 효과</COLOR> - 감소하는 받는 최종 피해가 <317232.VALUE>로 변경된다.\r\n<COLOR=#FFFFFF>후열 배치 강화 효과</COLOR> - 피해량이 <color=#E67373>280%</color>로 변경되고 반드시 치명타가 발생한다.",
+      "en": "Damage is increased by 240%.\r\nFront Row Deployment Enhancement Effect - Final damage reduction is increased by 30%.\r\nBack Row Deployment Enhancement Effect - Damage is increased by 280% and a critical hit is guaranteed.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "伤害提升240%。\r\n前排出击强化效果 - 最终伤害减免提升30%。\r\n后排出击强化效果 - 伤害提升280%，并必定造成暴击。",
       "zh_cn": ""
     },
     {
       "no": 373173,
-      "kr": "미리암(잔영)_skill02_3레벨",
-      "en": "",
+      "kr": "피해량이 <317330.VALUE>로 변경된다.\r\n<COLOR=#FFFFFF>전열 배치 강화 효과</COLOR> - 감소하는 공격력이 <317333.VALUE>로 변경된다.\r\n<COLOR=#FFFFFF>후열 배치 강화 효과</COLOR> - 피해량이 <color=#E67373>320%</color>로 변경된다.",
+      "en": "Damage is changed to 240%.\r\nFront Row Deployment Enhancement Effect - Attack power reduction is changed to 20%.\r\nBack Row Deployment Enhancement Effect - Damage is changed to 320%.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "伤害变更为240%。\r\n前排出击强化效果 - 攻击力削减变更为20%。\r\n后排出击强化效果 - 伤害变更为320%。",
       "zh_cn": ""
     },
     {
       "no": 373174,
-      "kr": "미리암(잔영)_passive_3레벨",
-      "en": "",
+      "kr": "<COLOR=#FFFFFF><전열 - 억제 특화></COLOR>\r\n전투 시작 시 보호막이 <317430.VALUE>로, 추가 보호막이 <317431.VALUE>로 변경되고, 감소시키는 물리/마법 저항이 <317432.VALUE>로 변경된다.\r\n\r\n<COLOR=#FFFFFF><후열 - 강습 특화></COLOR>\r\n증가하는 가하는 피해가 <317435.VALUE>로 변경된다.",
+      "en": "<Front Row - Suppression Specialization>\r\nAt the start of battle, the shield is increased to 200%, the additional shield is increased to 50%, and the physical/magical resistance reduction is increased to 25%.\r\n\r\n<Back Row - Assault Specialization>\r\nThe increased damage dealt is increased to 30%.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "<前排 - 压制专精>\r\n战斗开始时，护盾提升至200%，附加护盾提升至50%，物理/魔法抗性降低提升至25%。\r\n\r\n<后排 - 突击专精>\r\n伤害提升提升至30%。",
       "zh_cn": ""
     },
     {
       "no": 373175,
-      "kr": "미리암(잔영)_ultimate_3레벨",
-      "en": "",
+      "kr": "피해량이 <317531.VALUE>로, 증가하는 가속이 <317532.VALUE>로, 추가 피해량이 <317343.VALUE>로 변경된다.",
+      "en": "Damage is increased to 600%, acceleration is increased to 40%, and additional damage is increased to 200%.",
       "ja": "",
-      "zh_tw": "",
+      "zh_tw": "伤害提升至600%，加速提升至40%，额外伤害提升至200%。",
+      "zh_cn": ""
+    },
+    {
+      "no": 373179,
+      "kr": "후열에 배치된 모든 아군의 가하는 피해와 가속을 <317931.VALUE> 증가시킨다.",
+      "en": "When attacking normally, additional damage equal to 120% of attack power is inflicted, and the damage is treated as <Burn>.",
+      "ja": "",
+      "zh_tw": "普通攻击时，造成相当于攻击力120%的额外伤害，该伤害视为<灼伤>。",
       "zh_cn": ""
     },
     {
@@ -44857,6 +45073,46 @@
       "zh_cn": ""
     },
     {
+      "no": 374161,
+      "kr": "페트라(각혼)_active_3레벨",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 374162,
+      "kr": "페트라(각혼)_skill01_3레벨",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 374163,
+      "kr": "페트라(각혼)_skill02_3레벨",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 374164,
+      "kr": "페트라(각혼)_passive_3레벨",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 374165,
+      "kr": "페트라(각혼)_ultimate_3레벨",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 375011,
       "kr": "피해량이 <501131.VALUE>, 감전 피해량이 <501132.VALUE>로 변경되고 감전 지속 시간이 <501132.DURATION>초로 변경되며 대상의 버프 효과를 <COLOR=#FFFFFF>2</COLOR>개 해제한다.",
       "en": "Damage changes to <501131.VALUE>, Shock damage changes to <501132.VALUE>, Shock DoT duration changes to <501132.DURATION> seconds, and removes <COLOR=#FFFFFF>2</COLOR> of the target's buffs.",
@@ -45298,10 +45554,10 @@
     },
     {
       "no": 376512,
-      "kr": "피해량이 <651231.VALUE>, 화상 피해량이 <651232.VALUE>, 받는 화상 피해 증가량이 <651233.VALUE>로 변경된다.",
-      "en": "Damage changes to <651231.VALUE>, Burn damage changes to <651232.VALUE>, and increased burn damage received changes to <651233.VALUE>.",
-      "ja": "ダメージ量が<651231.VALUE>、火傷ダメージ量が<651232.VALUE>、受ける火傷ダメージ増加量が<651233.VALUE>に変更される。",
-      "zh_tw": "變更為造成<651231.VALUE>的傷害、造成<651232.VALUE>的燒傷傷害、所受燒傷傷害增加量<651233.VALUE>",
+      "kr": "피해량이 <651231.VALUE>, 화상 피해량이 <651232.VALUE>, 받는 화상 피해 증가량이 <color=#EDA900>60%</COLOR>로 변경된다.",
+      "en": "Damage changes to <651231.VALUE>, Burn damage changes to <651232.VALUE>, and increased burn damage received changes to <color=#EDA900>60%</COLOR>.",
+      "ja": "ダメージ量が<651231.VALUE>、火傷ダメージ量が<651232.VALUE>、受ける火傷ダメージ増加量が<color=#EDA900>60%</COLOR>に変更される。",
+      "zh_tw": "變更為造成<651231.VALUE>的傷害、造成<651232.VALUE>的燒傷傷害、所受燒傷傷害增加量<color=#EDA900>60%</COLOR>",
       "zh_cn": ""
     },
     {
@@ -47866,18 +48122,18 @@
     },
     {
       "no": 383172,
-      "kr": "물아일체.",
-      "en": "Oneness.",
+      "kr": "소리도 못 지르겠지.",
+      "en": "",
       "ja": "",
-      "zh_tw": "天人合一。",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
       "no": 383173,
-      "kr": "허공 속으로.",
-      "en": "Into the void.",
+      "kr": "허술하군.",
+      "en": "",
       "ja": "",
-      "zh_tw": "騰空而起。",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -47886,6 +48142,14 @@
       "en": "Too late.\r\nDrift into slumber within the illusion.",
       "ja": "",
       "zh_tw": "來不及了，\r\n就這樣沉睡在幻影中吧。",
+      "zh_cn": ""
+    },
+    {
+      "no": 383179,
+      "kr": "후열에 배치된 모든 아군의 가하는 피해와 가속을 <317941.VALUE> 증가시킨다.",
+      "en": "When performing a normal attack, inflicts additional damage equal to 140% of the attack power, and this damage is treated as a <Burn>.\r\nAdditionally, when taking fatal damage, damage inflicted is permanently reduced by 30%, but upon returning to the allied camp, 50% of HP is restored and <Surge Pierce> is immediately used.",
+      "ja": "",
+      "zh_tw": "进行普通攻击时，造成相当于攻击力140%的额外伤害，该伤害视为<灼烧>。此外，受到致命伤害时，造成的伤害永久减少30%，但返回友方营地后，会恢复50%的生命值，并立即使用<涌流穿刺>。",
       "zh_cn": ""
     },
     {
@@ -49729,6 +49993,14 @@
       "zh_cn": ""
     },
     {
+      "no": 393179,
+      "kr": "후열에 배치된 모든 아군의 가하는 피해와 가속을 <317951.VALUE> 증가시킨다.",
+      "en": "When attacking normally, additional damage equal to 160% of attack power is inflicted, and the damage is treated as <Burn>.",
+      "ja": "",
+      "zh_tw": "普通攻击时，造成相当于攻击力160%的额外伤害，该伤害视为<灼伤>。",
+      "zh_cn": ""
+    },
+    {
       "no": 393189,
       "kr": "리더 정령이 공격을 받을 때마다 리더 정령의 가하는 피해를 6초 동안 2.5% 증가 시킨다. (최대 10중첩)",
       "en": "Whenever the lead Soul is attacked, her damage dealt is increased by 2.5% for 6 sec (up to 10 stacks).",
@@ -50345,6 +50617,14 @@
       "zh_cn": ""
     },
     {
+      "no": 403179,
+      "kr": "후열에 배치된 모든 아군의 가하는 피해와 가속을 <317961.VALUE> 증가시킨다.",
+      "en": "When attacking normally, additional damage equal to 180% of attack power is inflicted, and the damage is treated as <Burn>.",
+      "ja": "",
+      "zh_tw": "普通攻击时，造成相当于攻击力180%的额外伤害，该伤害视为<灼伤>。",
+      "zh_cn": ""
+    },
+    {
       "no": 403189,
       "kr": "리더 정령이 공격을 받을 때마다 리더 정령의 가하는 피해를 6초 동안 3% 증가 시킨다. (최대 10중첩)",
       "en": "Whenever the lead Soul is attacked, her damage dealt is increased by 3% for 6 sec (up to 10 stacks).",
@@ -50958,6 +51238,14 @@
       "en": "When the lead Soul uses her main skill, she recovers 2,000 Mana every 2 sec for 6 sec (triggers up to 2 times).",
       "ja": "",
       "zh_tw": "主要精靈使用主要技能時，6秒內每2秒恢復魔力2000（最多發動2次）",
+      "zh_cn": ""
+    },
+    {
+      "no": 413179,
+      "kr": "후열에 배치된 모든 아군의 가하는 피해와 가속을 <317971.VALUE> 증가시킨다.",
+      "en": "When attacking normally, additional damage equal to 200% of attack power is inflicted, and this damage is treated as a <burn>.\r\nThe damage reduction due to death is changed to 10%.",
+      "ja": "",
+      "zh_tw": "普通攻击时，造成相当于攻击力200%的额外伤害，该伤害视为<灼伤>。\r\n死亡造成的伤害减免变更为10%。",
       "zh_cn": ""
     },
     {
@@ -53190,6 +53478,22 @@
       "en": "An ally Soul's ultimate skill use increases all allies' damage dealt by 100% for 12 sec.",
       "ja": "",
       "zh_tw": "友軍精靈使用終極技能時，所有友軍的造成傷害12秒內增加100%",
+      "zh_cn": ""
+    },
+    {
+      "no": 710007,
+      "kr": "제이드의 황금 보물고",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 710008,
+      "kr": "제이드가 수집한 강력한 힘을 지닌 보물들을 사용하여 전투에 참여할 수 있게 된다.",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -55505,6 +55809,14 @@
       "zh_cn": ""
     },
     {
+      "no": 3441611,
+      "kr": "페트라(각혼)_active_스킬명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 3460151,
       "kr": "균형 파괴",
       "en": "Balance Breaker",
@@ -57190,6 +57502,14 @@
       "en": "With a swift thrust of her Ruyi Jingu Bang, she deals damage equal to <994451.VALUE> of ATK and inflicts <COLOR=#FFFFFF>\"Mellow Melting,\"</COLOR> which decreases DEF by <994453.VALUE> for <994453.DURATION> seconds and stacks up to 8 times.\r\r\nIf <COLOR=#FFFFFF>\"Scenic Dumplings\"</COLOR> is active, she deals additional damage equal to <994452.VALUE> of ATK.\r\r\nSkills enhanced by <COLOR=#FFFFFF>\"Scenic Dumplings\"</COLOR> deal AoE damage equal to <994651.VALUE> of ATK and stun affected enemies for <994652.DURATION> seconds.",
       "ja": "",
       "zh_tw": "使用金箍棒快速刺擊最接近的敵人，造成攻擊力<994451.VALUE>的傷害，使其處於<COLOR=#FFFFFF>＜入口即化～＞</COLOR>狀態，在<994453.DURATION>秒內使防禦力減少<994453.VALUE>。（最多8疊加）\r\r\n若受到效果<COLOR=#FFFFFF>＜祕境包子＞</COLOR>，則造成攻擊力<994452.VALUE>的額外傷害。\r\r\n吃下<COLOR=#FFFFFF>＜祕境包子＞</COLOR>後，強化的技能變為造成<994651.VALUE>攻擊力的範圍傷害，使受擊敵人在<994652.DURATION>秒內處於暈眩狀態",
+      "zh_cn": ""
+    },
+    {
+      "no": 3541611,
+      "kr": "페트라(각혼)_active_1레벨",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {
@@ -65553,6 +65873,166 @@
       "zh_cn": ""
     },
     {
+      "no": 34863710,
+      "kr": "해방의 열쇠 - 집중",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34863810,
+      "kr": "해방의 열쇠 - 종결",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34863910,
+      "kr": "해방의 열쇠 - 양날",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34864010,
+      "kr": "해방의 열쇠 - 치명",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34864110,
+      "kr": "해방의 열쇠 - 환류",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34864210,
+      "kr": "궁극의 열쇠 - 순환",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34864310,
+      "kr": "궁극의 열쇠 - 마나",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34864410,
+      "kr": "궁극의 열쇠 - 종결",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34864510,
+      "kr": "궁극의 열쇠 - 고통",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34864610,
+      "kr": "궁극의 열쇠 - 보호",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34864710,
+      "kr": "광폭의 가시관",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34864810,
+      "kr": "선봉의 깃발",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34864910,
+      "kr": "증폭의 성수",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34865010,
+      "kr": "약점 포착의 반지",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34865110,
+      "kr": "마나 폭주의 수정",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34865210,
+      "kr": "순백의 갑옷",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34865310,
+      "kr": "에리카의 특별 엘릭서",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34865410,
+      "kr": "침묵의 서",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34865511,
+      "kr": "종언의 화살",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 34865610,
+      "kr": "유리 대포",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
       "no": 34900301,
       "kr": "차오르는 용기",
       "en": "Surging Courage",
@@ -68162,10 +68642,10 @@
     },
     {
       "no": 35600013,
-      "kr": "전방으로 에너지를 모아 강력한 빔을 발사해 모든 적에게 공격력의 <6011131.VALUE>의 피해를 입히고 불태워 <6011132.DURATION>초 동안 2초마다 공격력의 <6011132.VALUE> 피해를 입히는 화상 상태를 부여한다. 만약 등대지기의 주변 3.5m 이내에 정령이 2명 이상 존재하지 않는다면 위력이 <6011133.VALUE>로 증가하고, 화상 피해량이 <6011134.VALUE>의 피해를 입히는 해제 불가능한 연소 상태를 부여한다.",
-      "en": "Channels energy to unleash a devastating beam, dealing damage equal to <6011131.VALUE> of ATK to all enemies and inflicting them with Burn, which deals damage equal to <6011132.VALUE> of ATK every 2 sec for <6011132.DURATION> sec. If fewer than 2 Souls are present within 3.5m of the Lighthouse Keeper, the damage increases to <6011133.VALUE> and inflicts targets with the uncancelable Combustion debuff, which changes the Burn damage to <6011134.VALUE>.",
-      "ja": "前方へエネルギーをためて強力なビームを放ち、敵全員に攻撃力の<6011131.VALUE>のダメージを与えて燃やし、<6011132.DURATION>秒間2秒ごとに攻撃力の<6011132.VALUE>のダメージを与える火傷状態を付与する。もし灯台守の周辺3.5m以内に精霊が2体以上存在しない場合、威力が<6011133.VALUE>に増加し、火傷ダメージ量が<6011134.VALUE>のダメージを与える解除できない燃焼状態を付与する。",
-      "zh_tw": "向前方聚集能量，發射強力光束，對所有敵人造成攻擊力<6011131.VALUE>的傷害並焚燒，<6011132.DURATION>秒內賦予每2秒造成攻擊力<6011132.VALUE>傷害的燒傷狀態。若燈塔看守員周圍3.5m以內沒有2個以上精靈，則威力增加為<6011133.VALUE>，並賦予造成燒傷傷害量<6011134.VALUE>傷害且無法解除的燃燒狀態",
+      "kr": "전방으로 에너지를 모아 강력한 빔을 발사해 모든 적에게 공격력의 <6011131.VALUE>의 피해를 입히고 불태워 <6011132.DURATION>초 동안 2초마다 공격력의 <6011132.VALUE> 피해를 입히는 화상 상태를 부여한다.",
+      "en": "Channels energy to unleash a devastating beam, dealing damage equal to <6011131.VALUE> of ATK to all enemies and inflicting them with Burn, which deals damage equal to <6011132.VALUE> of ATK every 2 sec for <6011132.DURATION> sec.",
+      "ja": "前方へエネルギーをためて強力なビームを放ち、敵全員に攻撃力の<6011131.VALUE>のダメージを与えて燃やし、<6011132.DURATION>秒間2秒ごとに攻撃力の<6011132.VALUE>のダメージを与える火傷状態を付与する。",
+      "zh_tw": "向前方聚集能量，發射強力光束，對所有敵人造成攻擊力<6011131.VALUE>的傷害並焚燒，<6011132.DURATION>秒內賦予每2秒造成攻擊力<6011132.VALUE>傷害的燒傷狀態。",
       "zh_cn": ""
     },
     {
@@ -68358,6 +68838,142 @@
       "en": "Is that truly your mission?",
       "ja": "",
       "zh_tw": "那真的是妳的使命嗎？",
+      "zh_cn": ""
+    },
+    {
+      "no": 35863711,
+      "kr": "가하는 피해 100% 증가",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35863911,
+      "kr": "중첩 당 모든 아군의 공격력, 가속 4% 증가, 받는 최종 피해 2.5% 증가 (최대 10중첩)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35864011,
+      "kr": "공격력, 치명타 위력, 치명타 확률 40% 증가",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35864112,
+      "kr": "공격력 50% 감소",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35864611,
+      "kr": "공격력 70% 증가, 무적 상태가 되어 모든 피해 면역",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35864711,
+      "kr": "2초 마다 공격력 5% 증가, 방어력 5% 감소 (20중첩)",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35864810,
+      "kr": "가장 공격력이 높은 아군 1명 공격력, 치명타 위력 50% 증가",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35864911,
+      "kr": "자신의 버프가 6개 이상일 때 가하는 피해 30% 증가",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35865010,
+      "kr": "치명타 피격률 100% 증가",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35865011,
+      "kr": "치명타 위력 60% 증가",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35865110,
+      "kr": "마나 회복량 50% 증가",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35865210,
+      "kr": "방어력 800% 증가",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35865211,
+      "kr": "공격력 200% 증가",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35865410,
+      "kr": "침묵 상태가 되는 대신 공격력, 가하는 피해 100% 증가",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35865511,
+      "kr": "후열 배치된 아군의 공격력, 가속 20% 증가",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35865610,
+      "kr": "가하는 피해 200% 증가, 받는 최종 피해 50% 증가",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
+      "zh_cn": ""
+    },
+    {
+      "no": 35865611,
+      "kr": "공격력 200% 증가",
+      "en": "",
+      "ja": "",
+      "zh_tw": "",
       "zh_cn": ""
     },
     {

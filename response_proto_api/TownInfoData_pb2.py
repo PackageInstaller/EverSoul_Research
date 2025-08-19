@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12TownInfoData.proto\x12\x04\x45sPb\"\xe3\x01\n\x0cTownInfoData\x12!\n\x08townInfo\x18\x01 \x01(\x0b\x32\x0f.EsPb.sTownInfo\x12\x18\n\x10\x63\x61stleMaxFloorNo\x18\x02 \x01(\x05\x12\x1f\n\x17\x61\x64\x64itionalRestSlotCount\x18\x03 \x01(\x05\x12&\n\x0eplayerPosition\x18\x04 \x01(\x0b\x32\x0e.EsPb.sVector3\x12\x16\n\x0emissionClearNo\x18\x05 \x03(\x05\x12\x18\n\x10visitBattleCount\x18\x06 \x01(\x05\x12\x1b\n\x13visitBattleMaxCount\x18\x07 \x01(\x05\";\n\tsTownInfo\x12\x11\n\ttownLevel\x18\x01 \x01(\x05\x12\x1b\n\x13\x63urrentDevelopPoint\x18\x02 \x01(\x03\"+\n\x08sVector3\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x12\t\n\x01z\x18\x03 \x01(\x02\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x12TownInfoData.proto\x12\x04\x45sPb\"\xfa\x01\n\x0cTownInfoData\x12!\n\x08townInfo\x18\x01 \x01(\x0b\x32\x0f.EsPb.sTownInfo\x12\x18\n\x10\x63\x61stleMaxFloorNo\x18\x02 \x01(\x05\x12\x1f\n\x17\x61\x64\x64itionalRestSlotCount\x18\x03 \x01(\x05\x12&\n\x0eplayerPosition\x18\x04 \x01(\x0b\x32\x0e.EsPb.sVector3\x12\x16\n\x0emissionClearNo\x18\x05 \x03(\x05\x12\x18\n\x10visitBattleCount\x18\x06 \x01(\x05\x12\x1b\n\x13visitBattleMaxCount\x18\x07 \x01(\x05\x12\x15\n\rmanagerHeroNo\x18\x08 \x01(\x05\";\n\tsTownInfo\x12\x11\n\ttownLevel\x18\x01 \x01(\x05\x12\x1b\n\x13\x63urrentDevelopPoint\x18\x02 \x01(\x03\"+\n\x08sVector3\x12\t\n\x01x\x18\x01 \x01(\x02\x12\t\n\x01y\x18\x02 \x01(\x02\x12\t\n\x01z\x18\x03 \x01(\x02\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -32,9 +32,9 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'TownInfoData_pb2', _globals
 if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_TOWNINFODATA']._serialized_start=29
-  _globals['_TOWNINFODATA']._serialized_end=256
-  _globals['_STOWNINFO']._serialized_start=258
-  _globals['_STOWNINFO']._serialized_end=317
-  _globals['_SVECTOR3']._serialized_start=319
-  _globals['_SVECTOR3']._serialized_end=362
+  _globals['_TOWNINFODATA']._serialized_end=279
+  _globals['_STOWNINFO']._serialized_start=281
+  _globals['_STOWNINFO']._serialized_end=340
+  _globals['_SVECTOR3']._serialized_start=342
+  _globals['_SVECTOR3']._serialized_end=385
 # @@protoc_insertion_point(module_scope)

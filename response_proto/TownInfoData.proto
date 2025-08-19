@@ -10,6 +10,7 @@ message TownInfoData {
   repeated int32 missionClearNo = 5;
   int32 visitBattleCount = 6;
   int32 visitBattleMaxCount = 7;
+  int32 managerHeroNo = 8;
 }
 
 message sTownInfo {

@@ -101,6 +101,7 @@ message sHeroReputation {
   int32 arbeitExp = 12;
   int32 priority = 13;
   int64 restFinishDt = 14;
+  string objetNo = 15;
 }
 
 message sCurrencyAll {

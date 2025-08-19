@@ -35,20 +35,19 @@ namespace TableUpdater
 
         // 检查正式服数据表文件夹是否存在
         bool liveTableExist = fs::exists("../live_table") && !fs::is_empty("../live_table");
-        std::println("Live 数据表目录存在且非空: {}", liveTableExist ? "是" : "否");
+        // std::println("Live 数据表目录存在且非空: {}", liveTableExist ? "是" : "否");
 
         if (fs::exists(table_info_path))
         {
-            std::println("检查 table_info.json...");
             std::ifstream file(table_info_path);
             table_info = json::parse(file);
 
-            if (table_info.contains("live"))
-            {
-                std::println("当前保存的信息:");
-                std::println("版本: {}", table_info["live"]["version"].get<std::string>());
-                std::println("表版本: {}", table_info["live"]["tableVersion"].get<int>());
-            }
+            // if (table_info.contains("live"))
+            // {
+            //     std::println("当前保存的信息:");
+            //     std::println("版本: {}", table_info["live"]["version"].get<std::string>());
+            //     std::println("表版本: {}", table_info["live"]["tableVersion"].get<int>());
+            // }
 
             // 比较版本号和哈希值
             if (table_info.contains("live") &&
@@ -84,11 +83,11 @@ namespace TableUpdater
         // 构建下载链接
         std::string zipUrl = std::format("https://patch.esoul.kakaogames.com/Live/{}/Table/data_{}.zip",
                                          version, tableInfo.version);
-        std::println("下载URL: {}", zipUrl);
+        // std::println("下载URL: {}", zipUrl);
         std::string zipPath = "../data_" + std::to_string(tableInfo.version) + ".zip";
 
         // 下载数据表压缩包（智能多线程下载）
-        if (!FileDownloader::downloadWithRetry(zipUrl, zipPath, 3, true, false, true))
+        if (!FileDownloader::downloadWithRetry(zipUrl, zipPath, 3, true))
         {
             return false;
         }
@@ -231,11 +230,8 @@ namespace TableUpdater
         {
             if (found_version)
                 break;
-
-            // 当达到最大线程数时处理结果
             if (futures.size() >= max_threads)
             {
-                // 处理当前批次的futures
                 for (size_t i = 0; i < futures.size(); i++)
                 {
                     auto result = futures[i].get();
@@ -249,12 +245,8 @@ namespace TableUpdater
                         found_version = true;
                         break;
                     }
-
-                    // 更新进度显示
                     ProgressDisplay::update("检查进度", checked_versions, total_versions, ver, &last_output_length);
                 }
-                // 清除最后一行进度显示
-                ProgressDisplay::clear(last_output_length);
 
                 futures.clear();
                 pending_versions.clear();
@@ -270,7 +262,6 @@ namespace TableUpdater
             pending_versions.push_back(ver);
         }
 
-        // 处理剩余的futures
         for (size_t i = 0; i < futures.size(); i++)
         {
             auto result = futures[i].get();
@@ -285,22 +276,17 @@ namespace TableUpdater
                 break;
             }
 
-            // 更新进度显示
+
             ProgressDisplay::update("检查进度", checked_versions, total_versions, pending_versions[i], &last_output_length);
         }
-        // 清除最后一行进度显示
-        ProgressDisplay::clear(last_output_length);
 
-        // 确保显示100%进度
         if (!found_version && checked_versions < total_versions)
         {
             checked_versions = total_versions;
             ProgressDisplay::update("检查进度", checked_versions, total_versions, versions.back(), &last_output_length);
         }
-        // 清除最后一行进度显示
         ProgressDisplay::clear(last_output_length);
 
-        // 如果没有找到新版本,再检查 table_info.json 中的版本
         if (!info.exists)
         {
             fs::path table_info_path = "./table_info.json";
@@ -401,9 +387,8 @@ namespace TableUpdater
     {
         fs::path table_info_path = "./table_info.json";
 
-        // 检查Review数据表目录是否存在
         bool reviewTableExist = fs::exists("../review_table") && !fs::is_empty("../review_table");
-        std::println("Review 数据表目录存在且非空: {}", reviewTableExist ? "是" : "否");
+        // std::println("Review 数据表目录存在且非空: {}", reviewTableExist ? "是" : "否");
 
         if (!fs::exists(table_info_path))
         {
@@ -413,17 +398,15 @@ namespace TableUpdater
 
         try
         {
-            std::println("检查 table_info.json...");
             std::ifstream file(table_info_path);
             json table_info = json::parse(file);
 
             if (table_info.contains("review"))
             {
-                std::println("当前保存的信息:");
-                std::println("版本: {}", table_info["review"]["version"].get<std::string>());
-                std::println("表版本: {}", table_info["review"]["tableVersion"].get<int>());
+                // std::println("当前保存的信息:");
+                // std::println("版本: {}", table_info["review"]["version"].get<std::string>());
+                // std::println("表版本: {}", table_info["review"]["tableVersion"].get<int>());
 
-                // 检查是否需要更新
                 if (table_info["review"]["version"] == reviewInfo.version &&
                     table_info["review"]["cdnDate"] == reviewInfo.cdnDate &&
                     table_info["review"]["tableVersion"] == serverTableVersion &&
@@ -464,11 +447,11 @@ namespace TableUpdater
         // 构建下载链接
         std::string zipUrl = std::format("https://patch.esoul.kakaogames.com/Review/{}/{}/Table/data_{}.zip",
                                          reviewInfo.cdnDate, reviewInfo.version, serverTableVersion);
-        std::println("下载URL: {}", zipUrl);
+        // std::println("下载URL: {}", zipUrl);
         std::string zipPath = "../review_data_" + std::to_string(serverTableVersion) + ".zip";
 
         // 下载数据表压缩包（智能多线程下载）
-        if (!FileDownloader::downloadWithRetry(zipUrl, zipPath, 3, true, false, true))
+        if (!FileDownloader::downloadWithRetry(zipUrl, zipPath, 3, true))
         {
             return false;
         }

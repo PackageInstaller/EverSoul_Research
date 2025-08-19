@@ -12,7 +12,7 @@ namespace CryptoUtils
         uint8_t hash[SHA256_DIGEST_LENGTH];
         if (!SHA256(reinterpret_cast<const uint8_t *>(unhashKey.c_str()), unhashKey.size(), hash))
         {
-            std::println("\033[31mSHA256 hashing 失败.\033[0m");
+            std::println("\033[31mSHA256 hashing 失败\033[0m");
             return false;
         }
 
@@ -30,13 +30,13 @@ namespace CryptoUtils
         EVP_CIPHER_CTX *ctx = EVP_CIPHER_CTX_new();
         if (!ctx)
         {
-            std::println("\033[31mEVP_CIPHER_CTX_new 失败！\033[0m");
+            std::println("\033[31mEVP_CIPHER_CTX_new 失败\033[0m");
             return false;
         }
 
         if (EVP_DecryptInit_ex(ctx, EVP_aes_128_cbc(), NULL, key.data(), iv.data()) != 1)
         {
-            std::println("\033[31mEVP_DecryptInit_ex 失败！\033[0m");
+            std::println("\033[31mEVP_DecryptInit_ex 失败\033[0m");
             EVP_CIPHER_CTX_free(ctx);
             return false;
         }
@@ -45,7 +45,7 @@ namespace CryptoUtils
         int len;
         if (EVP_DecryptUpdate(ctx, plaintext.data(), &len, ciphertext.data(), ciphertext.size()) != 1)
         {
-            std::println("\033[31mEVP_DecryptUpdate 失败！\033[0m");
+            std::println("\033[31mEVP_DecryptUpdate 失败\033[0m");
             EVP_CIPHER_CTX_free(ctx);
             return false;
         }
@@ -53,7 +53,7 @@ namespace CryptoUtils
 
         if (EVP_DecryptFinal_ex(ctx, plaintext.data() + len, &len) != 1)
         {
-            std::println("\033[31mEVP_DecryptFinal_ex 失败！可能密钥错误或数据损坏。\033[0m");
+            std::println("\033[31mEVP_DecryptFinal_ex 失败！可能密钥错误或数据损坏\033[0m");
             EVP_CIPHER_CTX_free(ctx);
             return false;
         }
@@ -101,7 +101,7 @@ namespace CryptoUtils
             std::ifstream inputFile(filePath, std::ios::binary);
             if (!inputFile)
             {
-                std::println("\033[31m不能打开 {} 进行读取。\033[0m", filePath.string());
+                std::println("\033[31m不能打开 {} 进行读取\033[0m", filePath.string());
                 return false;
             }
 
@@ -144,7 +144,7 @@ namespace CryptoUtils
             std::ofstream outputFile(filePath, std::ios::binary | std::ios::trunc);
             if (!outputFile)
             {
-                std::println("\033[31m不能打开 {} 进行写入。\033[0m", filePath.string());
+                std::println("\033[31m不能打开 {} 进行写入\033[0m", filePath.string());
                 return false;
             }
 
@@ -178,7 +178,7 @@ namespace CryptoUtils
         }
         // 清除最后一行进度显示
         ProgressDisplay::clear(last_length);
-        std::println("\033[32m数据表解密完成。\033[0m");
+        std::println("\033[32m数据表解密完成\033[0m");
         return true;
     }
 }
