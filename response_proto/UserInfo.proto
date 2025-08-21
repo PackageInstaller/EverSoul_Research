@@ -129,6 +129,7 @@ message UserInfo {
   int32 arkOperator = 49;
   repeated DoubleGateDailyContent doubleGateDailyContent = 50;
   repeated sHeroOption heroOption = 51;
+  sArbeitOption arbeitOption = 52;
 }
 
 message sUser {
@@ -484,5 +485,10 @@ message sHeroOption {
   int32 optionValue = 5;
   int32 optionType = 6;
   int32 optionLock = 7;
+}
+
+message sArbeitOption {
+  int32 option1 = 1;
+  int32 option2 = 2;
 }
 

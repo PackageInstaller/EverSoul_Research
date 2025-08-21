@@ -13,14 +13,25 @@ def parse_cs_file_from_types(proto_type, file_path):
 
     namespace = proto_type
     
-    namespace_pattern = re.compile(rf'namespace\s+{re.escape(proto_type)}\s*{{(.*?)(?=\nnamespace\s+\w+\s*{{|\n\}}\s*$)', re.DOTALL)
-    namespace_match = namespace_pattern.search(content)
+    # --- 核心修改部分 ---
+    # 1. 修改正则表达式，使其更简单、更通用，能匹配一个完整的命名空间块。
+    namespace_pattern = re.compile(rf'namespace\s+{re.escape(proto_type)}\s*{{(.*?)\n}}', re.DOTALL)
     
-    if not namespace_match:
+    # 2. 使用 re.finditer 遍历所有匹配的命名空间块，并将它们的内容拼接起来。
+    combined_content = ""
+    matches = namespace_pattern.finditer(content)
+    for match in matches:
+        combined_content += match.group(1)
+
+    # 3. 如果拼接后的内容为空，则说明确实没有找到任何匹配的命名空间。
+    if not combined_content:
         print(f"未找到命名空间 {proto_type}")
         return namespace, {}, {}
     
-    section_content = namespace_match.group(1)
+    # 4. 后续所有的解析操作都基于拼接后的 combined_content 进行，而不是单个的 section_content。
+    section_content = combined_content
+    # --- 修改结束 ---
+
     message_types = {}
     enum_types = {}
     
@@ -41,7 +52,6 @@ def parse_cs_file_from_types(proto_type, file_path):
         if enum_values:
             enum_types[enum_name] = sorted(enum_values, key=lambda x: x[1])
     
-    # IMessage<ClassName> 或 IMessage<EsPb.ClassName>
     class_pattern = rf'public\s+sealed\s+class\s+(\w+)\s*:\s*IMessage<(?:{re.escape(proto_type)}\.)?(\w+)>'
     classes = []
     
@@ -72,7 +82,6 @@ def parse_cs_file_from_types(proto_type, file_path):
             is_repeated = False
             field_type = None
             
-
             codec_pattern = rf'private\s+static\s+readonly\s+FieldCodec<([^>]+)>\s+_repeated_{re.escape(field_name.lower())}_codec'
             codec_match = re.search(codec_pattern, class_content, re.IGNORECASE)
             if codec_match:
@@ -109,6 +118,8 @@ def parse_cs_file_from_types(proto_type, file_path):
             message_types[class_name] = sorted(fields, key=lambda x: x[1])
     
     return namespace, message_types, enum_types
+
+# ----- 以下的函数无需修改，保持原样即可 -----
 
 def cs_type_to_proto_type(cs_type, known_messages):
     type_mapping = {
@@ -275,7 +286,7 @@ def main():
             output_dir = eschatpb_proto_dir
         
         print(f"\n处理 {proto_type} 类型...")
-        generated_count = process_types_file(proto_type, "types.cs", output_dir)
+        generated_count = process_types_file(proto_type, "il2cpp.cs", output_dir)
         total_proto_generated += generated_count
         print(f"{proto_type} 类型生成了 {generated_count} 个proto文件")
     
@@ -293,7 +304,6 @@ def main():
     total_success = 0
     total_fail = 0
     
-
     print("\n编译响应proto文件...")
     if os.path.exists(response_proto_dir):
         success, fail = process_proto_directory(response_proto_dir, response_output_dir)
@@ -330,4 +340,4 @@ def main():
     return 0
 
 if __name__ == "__main__":
-    sys.exit(main()) 
+    sys.exit(main())
