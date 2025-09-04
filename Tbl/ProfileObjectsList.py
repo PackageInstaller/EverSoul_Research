@@ -52,8 +52,29 @@ class ProfileObjectsList(object):
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
+    # ProfileObjectsList
+    def TitleVisibleType(self):
+        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(12))
+        if o != 0:
+            return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
+        return 0
+
+    # ProfileObjectsList
+    def TitleLinePath(self):
+        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(14))
+        if o != 0:
+            return self._tab.String(o + self._tab.Pos)
+        return None
+
+    # ProfileObjectsList
+    def TitleString(self):
+        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(16))
+        if o != 0:
+            return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
+        return 0
+
 def ProfileObjectsListStart(builder):
-    builder.StartObject(4)
+    builder.StartObject(7)
 
 def Start(builder):
     ProfileObjectsListStart(builder)
@@ -81,6 +102,24 @@ def ProfileObjectsListAddItemNo(builder, itemNo):
 
 def AddItemNo(builder, itemNo):
     ProfileObjectsListAddItemNo(builder, itemNo)
+
+def ProfileObjectsListAddTitleVisibleType(builder, titleVisibleType):
+    builder.PrependInt32Slot(4, titleVisibleType, 0)
+
+def AddTitleVisibleType(builder, titleVisibleType):
+    ProfileObjectsListAddTitleVisibleType(builder, titleVisibleType)
+
+def ProfileObjectsListAddTitleLinePath(builder, titleLinePath):
+    builder.PrependUOffsetTRelativeSlot(5, flatbuffers.number_types.UOffsetTFlags.py_type(titleLinePath), 0)
+
+def AddTitleLinePath(builder, titleLinePath):
+    ProfileObjectsListAddTitleLinePath(builder, titleLinePath)
+
+def ProfileObjectsListAddTitleString(builder, titleString):
+    builder.PrependInt32Slot(6, titleString, 0)
+
+def AddTitleString(builder, titleString):
+    ProfileObjectsListAddTitleString(builder, titleString)
 
 def ProfileObjectsListEnd(builder):
     return builder.EndObject()

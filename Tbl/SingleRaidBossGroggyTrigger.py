@@ -102,91 +102,28 @@ class SingleRaidBossGroggyTrigger(object):
         return 0
 
     # SingleRaidBossGroggyTrigger
-    def Type1(self):
+    def ConditionGroup(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(26))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # SingleRaidBossGroggyTrigger
-    def Value1(self):
-        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(28))
-        if o != 0:
-            return self._tab.Get(flatbuffers.number_types.Float32Flags, o + self._tab.Pos)
-        return 0.0
-
-    # SingleRaidBossGroggyTrigger
-    def Type2(self):
-        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(30))
-        if o != 0:
-            return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
-        return 0
-
-    # SingleRaidBossGroggyTrigger
-    def Value2(self):
-        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(32))
-        if o != 0:
-            return self._tab.Get(flatbuffers.number_types.Float32Flags, o + self._tab.Pos)
-        return 0.0
-
-    # SingleRaidBossGroggyTrigger
-    def Type3(self):
-        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(34))
-        if o != 0:
-            return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
-        return 0
-
-    # SingleRaidBossGroggyTrigger
-    def Value3(self):
-        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(36))
-        if o != 0:
-            return self._tab.Get(flatbuffers.number_types.Float32Flags, o + self._tab.Pos)
-        return 0.0
-
-    # SingleRaidBossGroggyTrigger
-    def Type4(self):
-        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(38))
-        if o != 0:
-            return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
-        return 0
-
-    # SingleRaidBossGroggyTrigger
-    def Value4(self):
-        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(40))
-        if o != 0:
-            return self._tab.Get(flatbuffers.number_types.Float32Flags, o + self._tab.Pos)
-        return 0.0
-
-    # SingleRaidBossGroggyTrigger
-    def Type5(self):
-        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(42))
-        if o != 0:
-            return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
-        return 0
-
-    # SingleRaidBossGroggyTrigger
-    def Value5(self):
-        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(44))
-        if o != 0:
-            return self._tab.Get(flatbuffers.number_types.Float32Flags, o + self._tab.Pos)
-        return 0.0
-
-    # SingleRaidBossGroggyTrigger
     def RecoveryDuration(self):
-        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(46))
+        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(28))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # SingleRaidBossGroggyTrigger
     def SoundPath(self):
-        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(48))
+        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(30))
         if o != 0:
             return self._tab.String(o + self._tab.Pos)
         return None
 
 def SingleRaidBossGroggyTriggerStart(builder):
-    builder.StartObject(23)
+    builder.StartObject(14)
 
 def Start(builder):
     SingleRaidBossGroggyTriggerStart(builder)
@@ -257,74 +194,20 @@ def SingleRaidBossGroggyTriggerAddGroggySkillCode10(builder, groggySkillCode10):
 def AddGroggySkillCode10(builder, groggySkillCode10):
     SingleRaidBossGroggyTriggerAddGroggySkillCode10(builder, groggySkillCode10)
 
-def SingleRaidBossGroggyTriggerAddType1(builder, type1):
-    builder.PrependInt32Slot(11, type1, 0)
+def SingleRaidBossGroggyTriggerAddConditionGroup(builder, conditionGroup):
+    builder.PrependInt32Slot(11, conditionGroup, 0)
 
-def AddType1(builder, type1):
-    SingleRaidBossGroggyTriggerAddType1(builder, type1)
-
-def SingleRaidBossGroggyTriggerAddValue1(builder, value1):
-    builder.PrependFloat32Slot(12, value1, 0.0)
-
-def AddValue1(builder, value1):
-    SingleRaidBossGroggyTriggerAddValue1(builder, value1)
-
-def SingleRaidBossGroggyTriggerAddType2(builder, type2):
-    builder.PrependInt32Slot(13, type2, 0)
-
-def AddType2(builder, type2):
-    SingleRaidBossGroggyTriggerAddType2(builder, type2)
-
-def SingleRaidBossGroggyTriggerAddValue2(builder, value2):
-    builder.PrependFloat32Slot(14, value2, 0.0)
-
-def AddValue2(builder, value2):
-    SingleRaidBossGroggyTriggerAddValue2(builder, value2)
-
-def SingleRaidBossGroggyTriggerAddType3(builder, type3):
-    builder.PrependInt32Slot(15, type3, 0)
-
-def AddType3(builder, type3):
-    SingleRaidBossGroggyTriggerAddType3(builder, type3)
-
-def SingleRaidBossGroggyTriggerAddValue3(builder, value3):
-    builder.PrependFloat32Slot(16, value3, 0.0)
-
-def AddValue3(builder, value3):
-    SingleRaidBossGroggyTriggerAddValue3(builder, value3)
-
-def SingleRaidBossGroggyTriggerAddType4(builder, type4):
-    builder.PrependInt32Slot(17, type4, 0)
-
-def AddType4(builder, type4):
-    SingleRaidBossGroggyTriggerAddType4(builder, type4)
-
-def SingleRaidBossGroggyTriggerAddValue4(builder, value4):
-    builder.PrependFloat32Slot(18, value4, 0.0)
-
-def AddValue4(builder, value4):
-    SingleRaidBossGroggyTriggerAddValue4(builder, value4)
-
-def SingleRaidBossGroggyTriggerAddType5(builder, type5):
-    builder.PrependInt32Slot(19, type5, 0)
-
-def AddType5(builder, type5):
-    SingleRaidBossGroggyTriggerAddType5(builder, type5)
-
-def SingleRaidBossGroggyTriggerAddValue5(builder, value5):
-    builder.PrependFloat32Slot(20, value5, 0.0)
-
-def AddValue5(builder, value5):
-    SingleRaidBossGroggyTriggerAddValue5(builder, value5)
+def AddConditionGroup(builder, conditionGroup):
+    SingleRaidBossGroggyTriggerAddConditionGroup(builder, conditionGroup)
 
 def SingleRaidBossGroggyTriggerAddRecoveryDuration(builder, recoveryDuration):
-    builder.PrependInt32Slot(21, recoveryDuration, 0)
+    builder.PrependInt32Slot(12, recoveryDuration, 0)
 
 def AddRecoveryDuration(builder, recoveryDuration):
     SingleRaidBossGroggyTriggerAddRecoveryDuration(builder, recoveryDuration)
 
 def SingleRaidBossGroggyTriggerAddSoundPath(builder, soundPath):
-    builder.PrependUOffsetTRelativeSlot(22, flatbuffers.number_types.UOffsetTFlags.py_type(soundPath), 0)
+    builder.PrependUOffsetTRelativeSlot(13, flatbuffers.number_types.UOffsetTFlags.py_type(soundPath), 0)
 
 def AddSoundPath(builder, soundPath):
     SingleRaidBossGroggyTriggerAddSoundPath(builder, soundPath)

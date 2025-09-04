@@ -5,6 +5,9 @@ table ProfileObjectsList {
   group_no: int32;
   img_path: string;
   item_no: int32;
+  title_visible_type: int32;
+  title_line_path: string;
+  title_string: int32;
 }
 
 table ProfileObjectsListTable {

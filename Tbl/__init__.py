@@ -337,6 +337,7 @@ from . import WorldRaidHpCareTable
 from . import WorldRaidScheduleTable
 from . import Talk_CutSceneTable
 from . import TalkInfoTable
+from . import SingleRaidBossGroggyConditionTable
 
 __all__ = [
     'EventDiceTable',
@@ -674,5 +675,6 @@ __all__ = [
     'WorldRaidHpCareTable',
     'WorldRaidScheduleTable',
     'Talk_CutSceneTable',
-    'TalkInfoTable'
+    'TalkInfoTable',
+    'SingleRaidBossGroggyConditionTable'
 ]
