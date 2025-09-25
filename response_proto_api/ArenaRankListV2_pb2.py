@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41renaRankListV2.proto\x12\x04\x45sPb\"\xdb\x01\n\x0f\x41renaRankListV2\x12\x0e\n\x06myRank\x18\x01 \x01(\x05\x12#\n\x08rankList\x18\x02 \x03(\x0b\x32\x11.EsPb.sRankListV2\x12\x0f\n\x07myPower\x18\x03 \x01(\x05\x12\x1f\n\x17\x61renaOpenNotificationDt\x18\x04 \x01(\x03\x12(\n championsArenaOpenNotificationDt\x18\x05 \x01(\x03\x12\x19\n\x11waitRewardStartDt\x18\x06 \x01(\x03\x12\x1c\n\x14waitRewardPercentage\x18\x07 \x01(\x05\"r\n\x0bsRankListV2\x12\x0f\n\x07userIdx\x18\x01 \x01(\t\x12\x0c\n\x04rank\x18\x02 \x01(\x05\x12\r\n\x05power\x18\x03 \x01(\x03\x12#\n\tthumbnail\x18\x04 \x01(\x0b\x32\x10.EsPb.sThumbnail\x12\x10\n\x08nickName\x18\x05 \x01(\t\"b\n\nsThumbnail\x12\x16\n\x0ethumbnailFrame\x18\x01 \x01(\x05\x12\x16\n\x0ethumbnailImage\x18\x02 \x01(\x05\x12\x11\n\tuseCustom\x18\x03 \x01(\x08\x12\x11\n\tthumbnail\x18\x04 \x01(\x0c\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x41renaRankListV2.proto\x12\x04\x45sPb\"\xdb\x01\n\x0f\x41renaRankListV2\x12\x0e\n\x06myRank\x18\x01 \x01(\x05\x12#\n\x08rankList\x18\x02 \x03(\x0b\x32\x11.EsPb.sRankListV2\x12\x0f\n\x07myPower\x18\x03 \x01(\x05\x12\x1f\n\x17\x61renaOpenNotificationDt\x18\x04 \x01(\x03\x12(\n championsArenaOpenNotificationDt\x18\x05 \x01(\x03\x12\x19\n\x11waitRewardStartDt\x18\x06 \x01(\x03\x12\x1c\n\x14waitRewardPercentage\x18\x07 \x01(\x05\"r\n\x0bsRankListV2\x12\x0f\n\x07userIdx\x18\x01 \x01(\t\x12\x0c\n\x04rank\x18\x02 \x01(\x05\x12\r\n\x05power\x18\x03 \x01(\x03\x12#\n\tthumbnail\x18\x04 \x01(\x0b\x32\x10.EsPb.sThumbnail\x12\x10\n\x08nickName\x18\x05 \x01(\t\"\x8b\x01\n\nsThumbnail\x12\x16\n\x0ethumbnailFrame\x18\x01 \x01(\x05\x12\x16\n\x0ethumbnailImage\x18\x02 \x01(\x05\x12\x11\n\tuseCustom\x18\x03 \x01(\x08\x12\x11\n\tthumbnail\x18\x04 \x01(\x0c\x12\x12\n\nfirstTitle\x18\x05 \x01(\x05\x12\x13\n\x0bsecondTitle\x18\x06 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -35,6 +35,6 @@ if not _descriptor._USE_C_DESCRIPTORS:
   _globals['_ARENARANKLISTV2']._serialized_end=251
   _globals['_SRANKLISTV2']._serialized_start=253
   _globals['_SRANKLISTV2']._serialized_end=367
-  _globals['_STHUMBNAIL']._serialized_start=369
-  _globals['_STHUMBNAIL']._serialized_end=467
+  _globals['_STHUMBNAIL']._serialized_start=370
+  _globals['_STHUMBNAIL']._serialized_end=509
 # @@protoc_insertion_point(module_scope)

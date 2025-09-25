@@ -15,5 +15,6 @@ message CashShopItemBuy {
   string marketIdentifier = 10;
   string playerId = 11;
   string paymentUserId = 12;
+  int32 platformType = 13;
 }
 

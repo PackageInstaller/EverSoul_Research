@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x43hangeThumbnail.proto\x12\x04\x45sPb\"6\n\x0f\x43hangeThumbnail\x12#\n\tthumbnail\x18\x01 \x01(\x0b\x32\x10.EsPb.sThumbnail\"b\n\nsThumbnail\x12\x16\n\x0ethumbnailFrame\x18\x01 \x01(\x05\x12\x16\n\x0ethumbnailImage\x18\x02 \x01(\x05\x12\x11\n\tuseCustom\x18\x03 \x01(\x08\x12\x11\n\tthumbnail\x18\x04 \x01(\x0c\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x15\x43hangeThumbnail.proto\x12\x04\x45sPb\"6\n\x0f\x43hangeThumbnail\x12#\n\tthumbnail\x18\x01 \x01(\x0b\x32\x10.EsPb.sThumbnail\"\x8b\x01\n\nsThumbnail\x12\x16\n\x0ethumbnailFrame\x18\x01 \x01(\x05\x12\x16\n\x0ethumbnailImage\x18\x02 \x01(\x05\x12\x11\n\tuseCustom\x18\x03 \x01(\x08\x12\x11\n\tthumbnail\x18\x04 \x01(\x0c\x12\x12\n\nfirstTitle\x18\x05 \x01(\x05\x12\x13\n\x0bsecondTitle\x18\x06 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -33,6 +33,6 @@ if not _descriptor._USE_C_DESCRIPTORS:
   DESCRIPTOR._loaded_options = None
   _globals['_CHANGETHUMBNAIL']._serialized_start=31
   _globals['_CHANGETHUMBNAIL']._serialized_end=85
-  _globals['_STHUMBNAIL']._serialized_start=87
-  _globals['_STHUMBNAIL']._serialized_end=185
+  _globals['_STHUMBNAIL']._serialized_start=88
+  _globals['_STHUMBNAIL']._serialized_end=227
 # @@protoc_insertion_point(module_scope)

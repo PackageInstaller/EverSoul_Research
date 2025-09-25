@@ -338,6 +338,10 @@ from . import WorldRaidScheduleTable
 from . import Talk_CutSceneTable
 from . import TalkInfoTable
 from . import SingleRaidBossGroggyConditionTable
+from . import EverLiveTable
+from . import EverLiveAnimTable
+from . import EverLiveCommandTable
+from . import EverLiveRewardTable
 
 __all__ = [
     'EventDiceTable',
@@ -676,5 +680,9 @@ __all__ = [
     'WorldRaidScheduleTable',
     'Talk_CutSceneTable',
     'TalkInfoTable',
-    'SingleRaidBossGroggyConditionTable'
+    'SingleRaidBossGroggyConditionTable',
+    'EverLiveTable',
+    'EverLiveAnimTable',
+    'EverLiveCommandTable',
+    'EverLiveRewardTable'
 ]

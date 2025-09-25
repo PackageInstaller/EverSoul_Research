@@ -1,0 +1,44 @@
+{
+  "json": [
+    {
+      "no": 1,
+      "event_group": 6001,
+      "event_number": 1,
+      "stage_mode": 1,
+      "repeat_type": 1,
+      "clear_stage": 101,
+      "reward_item_no_1": 3021,
+      "reward_item_amount_1": 2
+    },
+    {
+      "no": 2,
+      "event_group": 6001,
+      "event_number": 1,
+      "stage_mode": 1,
+      "repeat_type": 1,
+      "clear_stage": 102,
+      "reward_item_no_1": 3021,
+      "reward_item_amount_1": 2
+    },
+    {
+      "no": 3,
+      "event_group": 6001,
+      "event_number": 1,
+      "stage_mode": 1,
+      "repeat_type": 1,
+      "clear_stage": 103,
+      "reward_item_no_1": 3021,
+      "reward_item_amount_1": 2
+    },
+    {
+      "no": 4,
+      "event_group": 6001,
+      "event_number": 1,
+      "stage_mode": 1,
+      "repeat_type": 1,
+      "clear_stage": 104,
+      "reward_item_no_1": 3021,
+      "reward_item_amount_1": 2
+    }
+  ]
+}

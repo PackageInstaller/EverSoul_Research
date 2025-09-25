@@ -48,5 +48,7 @@ message sThumbnail {
   int32 thumbnailImage = 2;
   bool useCustom = 3;
   bytes thumbnail = 4;
+  int32 firstTitle = 5;
+  int32 secondTitle = 6;
 }
 

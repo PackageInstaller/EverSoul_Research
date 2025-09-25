@@ -6,7 +6,7 @@ table ProfileObjectsList {
   img_path: string;
   item_no: int32;
   title_visible_type: int32;
-  title_line_path: string;
+  title_line_path: int32;
   title_string: int32;
 }
 

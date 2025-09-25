@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45ventRankRaidRankList.proto\x12\x04\x45sPb\"\x89\x01\n\x15\x45ventRankRaidRankList\x12\x38\n\x16myEventRankRaidRanking\x18\x01 \x01(\x0b\x32\x18.EsPb.sEventRankRaidRank\x12\x36\n\x14\x65ventRankRaidRanking\x18\x02 \x03(\x0b\x32\x18.EsPb.sEventRankRaidRank\"~\n\x12sEventRankRaidRank\x12\x0f\n\x07userIdx\x18\x01 \x01(\t\x12\x10\n\x08nickName\x18\x02 \x01(\t\x12#\n\tthumbnail\x18\x03 \x01(\x0b\x32\x10.EsPb.sThumbnail\x12\x0c\n\x04rank\x18\x04 \x01(\x05\x12\x12\n\nuserDamage\x18\x05 \x01(\x05\"b\n\nsThumbnail\x12\x16\n\x0ethumbnailFrame\x18\x01 \x01(\x05\x12\x16\n\x0ethumbnailImage\x18\x02 \x01(\x05\x12\x11\n\tuseCustom\x18\x03 \x01(\x08\x12\x11\n\tthumbnail\x18\x04 \x01(\x0c\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1b\x45ventRankRaidRankList.proto\x12\x04\x45sPb\"\x89\x01\n\x15\x45ventRankRaidRankList\x12\x38\n\x16myEventRankRaidRanking\x18\x01 \x01(\x0b\x32\x18.EsPb.sEventRankRaidRank\x12\x36\n\x14\x65ventRankRaidRanking\x18\x02 \x03(\x0b\x32\x18.EsPb.sEventRankRaidRank\"~\n\x12sEventRankRaidRank\x12\x0f\n\x07userIdx\x18\x01 \x01(\t\x12\x10\n\x08nickName\x18\x02 \x01(\t\x12#\n\tthumbnail\x18\x03 \x01(\x0b\x32\x10.EsPb.sThumbnail\x12\x0c\n\x04rank\x18\x04 \x01(\x05\x12\x12\n\nuserDamage\x18\x05 \x01(\x05\"\x8b\x01\n\nsThumbnail\x12\x16\n\x0ethumbnailFrame\x18\x01 \x01(\x05\x12\x16\n\x0ethumbnailImage\x18\x02 \x01(\x05\x12\x11\n\tuseCustom\x18\x03 \x01(\x08\x12\x11\n\tthumbnail\x18\x04 \x01(\x0c\x12\x12\n\nfirstTitle\x18\x05 \x01(\x05\x12\x13\n\x0bsecondTitle\x18\x06 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -35,6 +35,6 @@ if not _descriptor._USE_C_DESCRIPTORS:
   _globals['_EVENTRANKRAIDRANKLIST']._serialized_end=175
   _globals['_SEVENTRANKRAIDRANK']._serialized_start=177
   _globals['_SEVENTRANKRAIDRANK']._serialized_end=303
-  _globals['_STHUMBNAIL']._serialized_start=305
-  _globals['_STHUMBNAIL']._serialized_end=403
+  _globals['_STHUMBNAIL']._serialized_start=306
+  _globals['_STHUMBNAIL']._serialized_end=445
 # @@protoc_insertion_point(module_scope)

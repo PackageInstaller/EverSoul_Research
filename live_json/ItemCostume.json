@@ -1020,6 +1020,18 @@
       "scale_set": 1.0
     },
     {
+      "no": 2087,
+      "type_sno": 520102,
+      "name_sno": 520187,
+      "hero_no": 5060,
+      "prefab_path": "Carnelian",
+      "timeline_path": "Carnelian",
+      "icon_path": "Carnelian_Icon_Costume_00",
+      "portrait_path": "Carnelian",
+      "controller_path": "Carnelian",
+      "scale_set": 1.0
+    },
+    {
       "no": 2201,
       "type_sno": 710000,
       "name_sno": 520401,
@@ -4412,7 +4424,7 @@
       "icon_path": "",
       "portrait_path": "Kayrin",
       "controller_path": "",
-      "scale_set": 2.0
+      "scale_set": 1.4
     },
     {
       "no": 2821,
@@ -4431,6 +4443,51 @@
       "portrait_path": "MercilessInquisitor",
       "controller_path": "",
       "scale_set": 1.0
+    },
+    {
+      "no": 2823,
+      "prefab_path": "Velanna",
+      "timeline_path": "Velanna",
+      "icon_path": "Velanna_Icon_Costume_00",
+      "portrait_path": "Velanna",
+      "controller_path": "Velanna",
+      "scale_set": 1.2
+    },
+    {
+      "no": 2824,
+      "prefab_path": "Vivienne",
+      "timeline_path": "Vivienne",
+      "icon_path": "Vivienne_Icon_Costume_00",
+      "portrait_path": "Vivienne",
+      "controller_path": "Vivienne",
+      "scale_set": 1.2
+    },
+    {
+      "no": 2825,
+      "prefab_path": "Lilith",
+      "timeline_path": "Lilith",
+      "icon_path": "Lilith_Icon_Costume_00",
+      "portrait_path": "Lilith",
+      "controller_path": "Lilith",
+      "scale_set": 1.2
+    },
+    {
+      "no": 2826,
+      "prefab_path": "DarkKnight",
+      "timeline_path": "DarkKnight",
+      "icon_path": "",
+      "portrait_path": "NPCDarkknightRaid",
+      "controller_path": "",
+      "scale_set": 1.0
+    },
+    {
+      "no": 2827,
+      "prefab_path": "Aira",
+      "timeline_path": "Aira",
+      "icon_path": "Aira_Icon_Costume_00",
+      "portrait_path": "Aira",
+      "controller_path": "Aira",
+      "scale_set": 1.2
     },
     {
       "no": 2998,

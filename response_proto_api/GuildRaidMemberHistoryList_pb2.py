@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GuildRaidMemberHistoryList.proto\x12\x04\x45sPb\"c\n\x1aGuildRaidMemberHistoryList\x12\x45\n\x1aguildRaidPlayMemberHistory\x18\x01 \x03(\x0b\x32!.EsPb.sGuildRaidPlayMemberHistory\"\xa7\x01\n\x1bsGuildRaidPlayMemberHistory\x12\x19\n\x11otherGuildUserIdx\x18\x01 \x01(\t\x12\x12\n\nscheduleId\x18\x02 \x01(\x05\x12\x10\n\x08maxScore\x18\x03 \x01(\x03\x12\x10\n\x08nickName\x18\x04 \x01(\t\x12#\n\tthumbnail\x18\x05 \x01(\x0b\x32\x10.EsPb.sThumbnail\x12\x10\n\x08isDelete\x18\x06 \x01(\x08\"b\n\nsThumbnail\x12\x16\n\x0ethumbnailFrame\x18\x01 \x01(\x05\x12\x16\n\x0ethumbnailImage\x18\x02 \x01(\x05\x12\x11\n\tuseCustom\x18\x03 \x01(\x08\x12\x11\n\tthumbnail\x18\x04 \x01(\x0c\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n GuildRaidMemberHistoryList.proto\x12\x04\x45sPb\"c\n\x1aGuildRaidMemberHistoryList\x12\x45\n\x1aguildRaidPlayMemberHistory\x18\x01 \x03(\x0b\x32!.EsPb.sGuildRaidPlayMemberHistory\"\xa7\x01\n\x1bsGuildRaidPlayMemberHistory\x12\x19\n\x11otherGuildUserIdx\x18\x01 \x01(\t\x12\x12\n\nscheduleId\x18\x02 \x01(\x05\x12\x10\n\x08maxScore\x18\x03 \x01(\x03\x12\x10\n\x08nickName\x18\x04 \x01(\t\x12#\n\tthumbnail\x18\x05 \x01(\x0b\x32\x10.EsPb.sThumbnail\x12\x10\n\x08isDelete\x18\x06 \x01(\x08\"\x8b\x01\n\nsThumbnail\x12\x16\n\x0ethumbnailFrame\x18\x01 \x01(\x05\x12\x16\n\x0ethumbnailImage\x18\x02 \x01(\x05\x12\x11\n\tuseCustom\x18\x03 \x01(\x08\x12\x11\n\tthumbnail\x18\x04 \x01(\x0c\x12\x12\n\nfirstTitle\x18\x05 \x01(\x05\x12\x13\n\x0bsecondTitle\x18\x06 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -35,6 +35,6 @@ if not _descriptor._USE_C_DESCRIPTORS:
   _globals['_GUILDRAIDMEMBERHISTORYLIST']._serialized_end=141
   _globals['_SGUILDRAIDPLAYMEMBERHISTORY']._serialized_start=144
   _globals['_SGUILDRAIDPLAYMEMBERHISTORY']._serialized_end=311
-  _globals['_STHUMBNAIL']._serialized_start=313
-  _globals['_STHUMBNAIL']._serialized_end=411
+  _globals['_STHUMBNAIL']._serialized_start=314
+  _globals['_STHUMBNAIL']._serialized_end=453
 # @@protoc_insertion_point(module_scope)

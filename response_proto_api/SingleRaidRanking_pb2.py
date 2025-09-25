@@ -24,7 +24,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17SingleRaidRanking.proto\x12\x04\x45sPb\"a\n\x11SingleRaidRanking\x12#\n\x04rank\x18\x01 \x03(\x0b\x32\x15.EsPb.sSingleRaidRank\x12\'\n\x06myRank\x18\x02 \x01(\x0b\x32\x17.EsPb.sSingleRaidMyRank\"\xaa\x01\n\x0fsSingleRaidRank\x12\x0f\n\x07userIdx\x18\x01 \x01(\t\x12\x10\n\x08nickName\x18\x02 \x01(\t\x12#\n\tthumbnail\x18\x03 \x01(\x0b\x32\x10.EsPb.sThumbnail\x12\x0c\n\x04rank\x18\x04 \x01(\x05\x12\r\n\x05level\x18\x05 \x01(\x05\x12\x19\n\x11lastUsePartyIndex\x18\x06 \x01(\x05\x12\x17\n\x0ftotalBattleTime\x18\x07 \x01(\x03\"b\n\nsThumbnail\x12\x16\n\x0ethumbnailFrame\x18\x01 \x01(\x05\x12\x16\n\x0ethumbnailImage\x18\x02 \x01(\x05\x12\x11\n\tuseCustom\x18\x03 \x01(\x08\x12\x11\n\tthumbnail\x18\x04 \x01(\x0c\"\x83\x01\n\x11sSingleRaidMyRank\x12\x0c\n\x04rank\x18\x01 \x01(\x05\x12\r\n\x05level\x18\x02 \x01(\x05\x12\x19\n\x11lastUsePartyIndex\x18\x03 \x01(\x05\x12\x17\n\x0ftotalBattleTime\x18\x04 \x01(\x03\x12\x1d\n\x15rankRewardReceiveFlag\x18\x05 \x01(\x05\x62\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x17SingleRaidRanking.proto\x12\x04\x45sPb\"a\n\x11SingleRaidRanking\x12#\n\x04rank\x18\x01 \x03(\x0b\x32\x15.EsPb.sSingleRaidRank\x12\'\n\x06myRank\x18\x02 \x01(\x0b\x32\x17.EsPb.sSingleRaidMyRank\"\xaa\x01\n\x0fsSingleRaidRank\x12\x0f\n\x07userIdx\x18\x01 \x01(\t\x12\x10\n\x08nickName\x18\x02 \x01(\t\x12#\n\tthumbnail\x18\x03 \x01(\x0b\x32\x10.EsPb.sThumbnail\x12\x0c\n\x04rank\x18\x04 \x01(\x05\x12\r\n\x05level\x18\x05 \x01(\x05\x12\x19\n\x11lastUsePartyIndex\x18\x06 \x01(\x05\x12\x17\n\x0ftotalBattleTime\x18\x07 \x01(\x03\"\x8b\x01\n\nsThumbnail\x12\x16\n\x0ethumbnailFrame\x18\x01 \x01(\x05\x12\x16\n\x0ethumbnailImage\x18\x02 \x01(\x05\x12\x11\n\tuseCustom\x18\x03 \x01(\x08\x12\x11\n\tthumbnail\x18\x04 \x01(\x0c\x12\x12\n\nfirstTitle\x18\x05 \x01(\x05\x12\x13\n\x0bsecondTitle\x18\x06 \x01(\x05\"\x83\x01\n\x11sSingleRaidMyRank\x12\x0c\n\x04rank\x18\x01 \x01(\x05\x12\r\n\x05level\x18\x02 \x01(\x05\x12\x19\n\x11lastUsePartyIndex\x18\x03 \x01(\x05\x12\x17\n\x0ftotalBattleTime\x18\x04 \x01(\x03\x12\x1d\n\x15rankRewardReceiveFlag\x18\x05 \x01(\x05\x62\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -35,8 +35,8 @@ if not _descriptor._USE_C_DESCRIPTORS:
   _globals['_SINGLERAIDRANKING']._serialized_end=130
   _globals['_SSINGLERAIDRANK']._serialized_start=133
   _globals['_SSINGLERAIDRANK']._serialized_end=303
-  _globals['_STHUMBNAIL']._serialized_start=305
-  _globals['_STHUMBNAIL']._serialized_end=403
-  _globals['_SSINGLERAIDMYRANK']._serialized_start=406
-  _globals['_SSINGLERAIDMYRANK']._serialized_end=537
+  _globals['_STHUMBNAIL']._serialized_start=306
+  _globals['_STHUMBNAIL']._serialized_end=445
+  _globals['_SSINGLERAIDMYRANK']._serialized_start=448
+  _globals['_SSINGLERAIDMYRANK']._serialized_end=579
 # @@protoc_insertion_point(module_scope)

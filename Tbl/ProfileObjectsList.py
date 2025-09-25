@@ -63,8 +63,8 @@ class ProfileObjectsList(object):
     def TitleLinePath(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(14))
         if o != 0:
-            return self._tab.String(o + self._tab.Pos)
-        return None
+            return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
+        return 0
 
     # ProfileObjectsList
     def TitleString(self):
@@ -110,7 +110,7 @@ def AddTitleVisibleType(builder, titleVisibleType):
     ProfileObjectsListAddTitleVisibleType(builder, titleVisibleType)
 
 def ProfileObjectsListAddTitleLinePath(builder, titleLinePath):
-    builder.PrependUOffsetTRelativeSlot(5, flatbuffers.number_types.UOffsetTFlags.py_type(titleLinePath), 0)
+    builder.PrependInt32Slot(5, titleLinePath, 0)
 
 def AddTitleLinePath(builder, titleLinePath):
     ProfileObjectsListAddTitleLinePath(builder, titleLinePath)

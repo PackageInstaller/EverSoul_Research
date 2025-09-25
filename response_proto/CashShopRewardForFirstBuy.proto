@@ -83,6 +83,8 @@ message sUser {
   int32 equipFlag = 15;
   int64 paymentAgreeDt = 16;
   int32 paymentAgreeType = 17;
+  int32 firstTitle = 18;
+  int32 secondTitle = 19;
 }
 
 message sThumbnail {
@@ -90,6 +92,8 @@ message sThumbnail {
   int32 thumbnailImage = 2;
   bool useCustom = 3;
   bytes thumbnail = 4;
+  int32 firstTitle = 5;
+  int32 secondTitle = 6;
 }
 
 message sCurrencyAll {
