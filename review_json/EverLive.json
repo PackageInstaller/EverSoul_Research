@@ -8,12 +8,12 @@
       "stage_mode": 1,
       "stage_no": 101,
       "map": "Map_Event_EverLive_01",
-      "sound_path": "BGM_EverLiveCut_01",
-      "hero_no": "1040,6510,1020",
-      "costume_no": "2398,2396,2397",
-      "stage_step": 5,
-      "command_group": 1001,
-      "command_fail": 3
+      "sound_path": "djsoul_cover_img_02",
+      "hero_no": "BGM_EverLiveCut_01_Prv",
+      "costume_no": "BGM_EverLiveCut_01",
+      "stage_step": 30057,
+      "command_group": 40,
+      "command_fail": 16
     },
     {
       "no": 2,
@@ -24,12 +24,12 @@
       "stage_no": 102,
       "open_stage": 101,
       "map": "Map_Event_EverLive_01",
-      "sound_path": "BGM_EverLiveCut_02",
-      "hero_no": "1040,6510,1020",
-      "costume_no": "2398,2396,2397",
-      "stage_step": 5,
-      "command_group": 1002,
-      "command_fail": 3
+      "sound_path": "djsoul_cover_img_11",
+      "hero_no": "BGM_EverLiveCut_02_Prv",
+      "costume_no": "BGM_EverLiveCut_02",
+      "stage_step": 30062,
+      "command_group": 40,
+      "command_fail": 16
     },
     {
       "no": 3,
@@ -40,12 +40,12 @@
       "stage_no": 103,
       "open_stage": 102,
       "map": "Map_Event_EverLive_01",
-      "sound_path": "BGM_EverLiveCut_03",
-      "hero_no": "1040,6510,1020",
-      "costume_no": "2398,2396,2397",
-      "stage_step": 5,
-      "command_group": 1003,
-      "command_fail": 3
+      "sound_path": "djsoul_cover_img_13",
+      "hero_no": "BGM_EverLiveCut_03_Prv",
+      "costume_no": "BGM_EverLiveCut_03",
+      "stage_step": 30105,
+      "command_group": 40,
+      "command_fail": 16
     },
     {
       "no": 4,
@@ -56,12 +56,12 @@
       "stage_no": 104,
       "open_stage": 103,
       "map": "Map_Event_EverLive_01",
-      "sound_path": "BGM_EverLiveCut_04",
-      "hero_no": "1040,6510,1020",
-      "costume_no": "2398,2396,2397",
-      "stage_step": 5,
-      "command_group": 1004,
-      "command_fail": 3
+      "sound_path": "djsoul_cover_img_11",
+      "hero_no": "BGM_EverLiveCut_04_Prv",
+      "costume_no": "BGM_EverLiveCut_04",
+      "stage_step": 30206,
+      "command_group": 40,
+      "command_fail": 16
     },
     {
       "no": 5,
@@ -71,12 +71,12 @@
       "stage_mode": 2,
       "stage_no": 201,
       "map": "Map_Event_EverLive_01",
-      "sound_path": "BGM_EverLiveCut_01",
-      "hero_no": "1040,6510,1020",
-      "costume_no": "2398,2396,2397",
-      "stage_step": 30,
-      "command_group": 2001,
-      "command_fail": 2
+      "sound_path": "djsoul_cover_img_02",
+      "hero_no": "BGM_EverLiveCut_01_Prv",
+      "costume_no": "BGM_EverLiveCut_01",
+      "stage_step": 30057,
+      "command_group": 40,
+      "command_fail": 16
     },
     {
       "no": 6,
@@ -87,12 +87,12 @@
       "stage_no": 202,
       "open_stage": 101,
       "map": "Map_Event_EverLive_01",
-      "sound_path": "BGM_EverLiveCut_02",
-      "hero_no": "1040,6510,1020",
-      "costume_no": "2398,2396,2397",
-      "stage_step": 30,
-      "command_group": 2002,
-      "command_fail": 2
+      "sound_path": "djsoul_cover_img_11",
+      "hero_no": "BGM_EverLiveCut_02_Prv",
+      "costume_no": "BGM_EverLiveCut_02",
+      "stage_step": 30062,
+      "command_group": 40,
+      "command_fail": 16
     },
     {
       "no": 7,
@@ -103,12 +103,12 @@
       "stage_no": 203,
       "open_stage": 102,
       "map": "Map_Event_EverLive_01",
-      "sound_path": "BGM_EverLiveCut_03",
-      "hero_no": "1040,6510,1020",
-      "costume_no": "2398,2396,2397",
-      "stage_step": 30,
-      "command_group": 2003,
-      "command_fail": 2
+      "sound_path": "djsoul_cover_img_13",
+      "hero_no": "BGM_EverLiveCut_03_Prv",
+      "costume_no": "BGM_EverLiveCut_03",
+      "stage_step": 30105,
+      "command_group": 40,
+      "command_fail": 16
     },
     {
       "no": 8,
@@ -119,12 +119,27 @@
       "stage_no": 204,
       "open_stage": 103,
       "map": "Map_Event_EverLive_01",
-      "sound_path": "BGM_EverLiveCut_04",
-      "hero_no": "1040,6510,1020",
-      "costume_no": "2398,2396,2397",
-      "stage_step": 30,
-      "command_group": 2004,
-      "command_fail": 2
+      "sound_path": "djsoul_cover_img_11",
+      "hero_no": "BGM_EverLiveCut_04_Prv",
+      "costume_no": "BGM_EverLiveCut_04",
+      "stage_step": 30206,
+      "command_group": 40,
+      "command_fail": 16
+    },
+    {
+      "no": 9,
+      "title_sno": 10052,
+      "group_no": 6001,
+      "event_number": 1,
+      "stage_mode": 2,
+      "stage_no": 205,
+      "map": "Map_Event_EverLive_01",
+      "sound_path": "djsoul_cover_img_11",
+      "hero_no": "BGM_EverLiveCut_04_Prv",
+      "costume_no": "BGM_EverLiveCut_04",
+      "stage_step": 30206,
+      "command_group": 40,
+      "command_fail": 16
     }
   ]
 }

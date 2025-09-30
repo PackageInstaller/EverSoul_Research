@@ -970,6 +970,13 @@
       "title_visible_type": 1
     },
     {
+      "no": 56237,
+      "group_no": 17,
+      "img_path": "sticker_Stage37",
+      "item_no": 6237,
+      "title_visible_type": 1
+    },
+    {
       "no": 56301,
       "group_no": 17,
       "img_path": "sticker_alchemy_emblem",
@@ -1688,7 +1695,8 @@
     },
     {
       "no": 56816,
-      "img_path": "sticker_special_",
+      "group_no": 17,
+      "img_path": "sticker_special_Canelian01",
       "item_no": 6816,
       "title_visible_type": 2,
       "title_line_path": 1,
@@ -1734,8 +1742,7 @@
       "no": 56904,
       "img_path": "sticker_infinityraid_christmas1_04",
       "item_no": 6904,
-      "title_visible_type": 2,
-      "title_line_path": 1
+      "title_visible_type": 1
     },
     {
       "no": 56905,
@@ -1799,8 +1806,7 @@
       "group_no": 17,
       "img_path": "sticker_infinityraid_christmas1_04",
       "item_no": 6913,
-      "title_visible_type": 2,
-      "title_line_path": 1
+      "title_visible_type": 1
     },
     {
       "no": 56914,
@@ -1869,8 +1875,7 @@
       "group_no": 17,
       "img_path": "sticker_infinityraid_newyear2_04",
       "item_no": 6922,
-      "title_visible_type": 2,
-      "title_line_path": 1
+      "title_visible_type": 1
     },
     {
       "no": 56923,
@@ -2008,8 +2013,7 @@
       "group_no": 17,
       "img_path": "sticker_infinityraid_side2_04",
       "item_no": 6940,
-      "title_visible_type": 2,
-      "title_line_path": 1
+      "title_visible_type": 1
     },
     {
       "no": 56941,
@@ -2078,8 +2082,7 @@
       "group_no": 17,
       "img_path": "sticker_infinityraid_side3_04",
       "item_no": 6949,
-      "title_visible_type": 2,
-      "title_line_path": 1
+      "title_visible_type": 1
     },
     {
       "no": 56950,
@@ -2148,8 +2151,7 @@
       "group_no": 17,
       "img_path": "sticker_infinityraid_side4_04",
       "item_no": 6958,
-      "title_visible_type": 2,
-      "title_line_path": 1
+      "title_visible_type": 1
     },
     {
       "no": 56959,
@@ -2218,8 +2220,7 @@
       "group_no": 17,
       "img_path": "sticker_infinityraid_valentine3_04",
       "item_no": 6967,
-      "title_visible_type": 2,
-      "title_line_path": 1
+      "title_visible_type": 1
     },
     {
       "no": 56968,
@@ -2288,8 +2289,7 @@
       "group_no": 17,
       "img_path": "sticker_infinityraid_summer04_04",
       "item_no": 6976,
-      "title_visible_type": 2,
-      "title_line_path": 1
+      "title_visible_type": 1
     },
     {
       "no": 56977,
@@ -2358,8 +2358,7 @@
       "group_no": 17,
       "img_path": "sticker_infinityraid_side5_04",
       "item_no": 6985,
-      "title_visible_type": 2,
-      "title_line_path": 1
+      "title_visible_type": 1
     },
     {
       "no": 56986,
@@ -2395,6 +2394,147 @@
       "img_path": "sticker_infinityraid_side5_09",
       "item_no": 6990,
       "title_visible_type": 1
+    },
+    {
+      "no": 56991,
+      "group_no": 17,
+      "img_path": "sticker_infinityraid_FairyVote02_01",
+      "item_no": 6991,
+      "title_visible_type": 2,
+      "title_line_path": 2,
+      "title_string": 156985
+    },
+    {
+      "no": 56992,
+      "group_no": 17,
+      "img_path": "sticker_infinityraid_FairyVote02_02",
+      "item_no": 6992,
+      "title_visible_type": 2,
+      "title_line_path": 2,
+      "title_string": 156986
+    },
+    {
+      "no": 56993,
+      "group_no": 17,
+      "img_path": "sticker_infinityraid_FairyVote02_03",
+      "item_no": 6993,
+      "title_visible_type": 2,
+      "title_line_path": 2,
+      "title_string": 156987
+    },
+    {
+      "no": 56994,
+      "group_no": 17,
+      "img_path": "sticker_infinityraid_FairyVote02_04",
+      "item_no": 6994,
+      "title_visible_type": 1
+    },
+    {
+      "no": 56995,
+      "group_no": 17,
+      "img_path": "sticker_infinityraid_FairyVote02_05",
+      "item_no": 6995,
+      "title_visible_type": 1
+    },
+    {
+      "no": 56996,
+      "group_no": 17,
+      "img_path": "sticker_infinityraid_FairyVote02_06",
+      "item_no": 6996,
+      "title_visible_type": 1
+    },
+    {
+      "no": 56997,
+      "group_no": 17,
+      "img_path": "sticker_infinityraid_FairyVote02_07",
+      "item_no": 6997,
+      "title_visible_type": 1
+    },
+    {
+      "no": 56998,
+      "group_no": 17,
+      "img_path": "sticker_infinityraid_FairyVote02_08",
+      "item_no": 6998,
+      "title_visible_type": 1
+    },
+    {
+      "no": 56999,
+      "group_no": 17,
+      "img_path": "sticker_infinityraid_FairyVote02_09",
+      "item_no": 6999,
+      "title_visible_type": 1
+    },
+    {
+      "no": 560001,
+      "group_no": 17,
+      "img_path": "appellation_everlive_Catherine_01",
+      "item_no": 60001,
+      "title_visible_type": 3,
+      "title_line_path": 2,
+      "title_string": 1560001
+    },
+    {
+      "no": 560002,
+      "group_no": 17,
+      "img_path": "appellation_everlive_Beleth_01",
+      "item_no": 60002,
+      "title_visible_type": 3,
+      "title_line_path": 2,
+      "title_string": 1560002
+    },
+    {
+      "no": 560003,
+      "group_no": 17,
+      "img_path": "appellation_everlive_Aki_01",
+      "item_no": 60003,
+      "title_visible_type": 3,
+      "title_line_path": 2,
+      "title_string": 1560003
+    },
+    {
+      "no": 560004,
+      "group_no": 17,
+      "img_path": "appellation_everlive_Catherine_02",
+      "item_no": 60004,
+      "title_visible_type": 3,
+      "title_line_path": 2,
+      "title_string": 1560004
+    },
+    {
+      "no": 560005,
+      "group_no": 17,
+      "img_path": "appellation_everlive_Catherine_03",
+      "item_no": 60005,
+      "title_visible_type": 3,
+      "title_line_path": 2,
+      "title_string": 1560005
+    },
+    {
+      "no": 560006,
+      "group_no": 17,
+      "img_path": "appellation_everlive_Beleth_02",
+      "item_no": 60006,
+      "title_visible_type": 3,
+      "title_line_path": 2,
+      "title_string": 1560006
+    },
+    {
+      "no": 560007,
+      "group_no": 17,
+      "img_path": "appellation_everlive_Aki_02",
+      "item_no": 60007,
+      "title_visible_type": 3,
+      "title_line_path": 2,
+      "title_string": 1560007
+    },
+    {
+      "no": 560008,
+      "group_no": 17,
+      "img_path": "appellation_everlive_Catherine_04",
+      "item_no": 60008,
+      "title_visible_type": 3,
+      "title_line_path": 2,
+      "title_string": 1560008
     },
     {
       "no": 5510101,
