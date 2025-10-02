@@ -300,7 +300,7 @@
       "index": 38,
       "schedule_key": "Cashshop_Pickup_Carnelian",
       "schedule_type": 1,
-      "start_date": "2025-09-30 00:00:00",
+      "start_date": "2025-10-02 00:00:00",
       "end_date": "2025-10-30 00:00:00",
       "value_date_01": ""
     },
@@ -924,7 +924,7 @@
       "index": 116,
       "schedule_key": "Cashshop_Heropass_Carnelian",
       "schedule_type": 1,
-      "start_date": "2025-09-30 00:00:00",
+      "start_date": "2025-10-02 00:00:00",
       "end_date": "2025-11-13 00:00:00",
       "value_date_01": ""
     },
@@ -1156,7 +1156,7 @@
       "index": 145,
       "schedule_key": "Cashshop_Event_Defense_01",
       "schedule_type": 1,
-      "start_date": "2025-09-30 00:00:00",
+      "start_date": "2025-10-02 00:00:00",
       "end_date": "2025-10-09 00:00:00",
       "value_date_01": ""
     },
@@ -1580,7 +1580,7 @@
       "index": 198,
       "schedule_key": "Cashshop_EventPeriod_EdenGotTalent02_2025",
       "schedule_type": 1,
-      "start_date": "2025-09-30 00:00:00",
+      "start_date": "2025-10-02 00:00:00",
       "end_date": "2025-10-23 00:00:00",
       "value_date_01": ""
     },
@@ -1916,7 +1916,7 @@
       "index": 240,
       "schedule_key": "Cashshop_Pickup_CatherineBrave_R",
       "schedule_type": 1,
-      "start_date": "2025-09-30 00:00:00",
+      "start_date": "2025-10-02 00:00:00",
       "end_date": "2025-10-16 00:00:00",
       "value_date_01": ""
     },
@@ -1924,7 +1924,7 @@
       "index": 241,
       "schedule_key": "Cashshop_Special_1000D_1",
       "schedule_type": 1,
-      "start_date": "2025-09-30 00:00:00",
+      "start_date": "2025-10-02 00:00:00",
       "end_date": "2025-10-23 00:00:00",
       "value_date_01": ""
     },
@@ -1932,7 +1932,7 @@
       "index": 242,
       "schedule_key": "Cashshop_Special_EdenGotTalent02_1",
       "schedule_type": 1,
-      "start_date": "2025-09-30 00:00:00",
+      "start_date": "2025-10-02 00:00:00",
       "end_date": "2025-10-29 23:00:00",
       "value_date_01": ""
     },
@@ -5124,7 +5124,7 @@
       "index": 40232,
       "schedule_key": "EventInfo_EverLive_1",
       "schedule_type": 4,
-      "start_date": "2025-09-26 00:00:00",
+      "start_date": "2025-10-02 00:00:00",
       "end_date": "2025-10-23 00:00:00",
       "value_date_01": "2025-10-23 00:00:00"
     },
@@ -5164,7 +5164,7 @@
       "index": 40237,
       "schedule_key": "EventInfo_DefenseGame_12",
       "schedule_type": 4,
-      "start_date": "2025-09-26 00:00:00",
+      "start_date": "2025-10-02 00:00:00",
       "end_date": "2025-10-09 00:00:00",
       "value_date_01": "2025-10-09 00:00:00"
     },

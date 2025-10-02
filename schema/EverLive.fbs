@@ -9,7 +9,10 @@ table EverLive {
   stage_no: int32;
   open_stage: int32;
   map: string;
+  bg_path: string;
+  preview_path: string;
   sound_path: string;
+  sound_sno: int32;
   hero_no: string;
   costume_no: string;
   stage_step: int32;

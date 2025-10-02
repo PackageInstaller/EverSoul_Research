@@ -3338,6 +3338,66 @@
       "scale_set": 1.0
     },
     {
+      "no": 2396,
+      "type_sno": 710009,
+      "name_sno": 520596,
+      "hero_no": 6510,
+      "prefab_path": "CatherineBrave_Costume04",
+      "timeline_path": "CatherineBrave_Costume04",
+      "icon_path": "CatherineBrave_Icon_Costume_04",
+      "portrait_path": "CatherineBrave_Costume04",
+      "controller_path": "CatherineBrave",
+      "scale_set": 1.0
+    },
+    {
+      "no": 2397,
+      "type_sno": 710009,
+      "name_sno": 520597,
+      "hero_no": 1020,
+      "prefab_path": "Beleth_Costume02",
+      "timeline_path": "Beleth_Costume02",
+      "icon_path": "Beleth_Icon_Costume02",
+      "portrait_path": "Beleth_Costume02",
+      "controller_path": "Beleth",
+      "scale_set": 1.0
+    },
+    {
+      "no": 2398,
+      "type_sno": 710009,
+      "name_sno": 520598,
+      "hero_no": 1040,
+      "prefab_path": "Aki_Costume06",
+      "timeline_path": "Aki_Costume06",
+      "icon_path": "Aki_Icon_Costume_06",
+      "portrait_path": "Aki_Costume06",
+      "controller_path": "Aki",
+      "scale_set": 1.0
+    },
+    {
+      "no": 2399,
+      "type_sno": 710000,
+      "name_sno": 520599,
+      "hero_no": 5060,
+      "prefab_path": "Carnelian_Costume01",
+      "timeline_path": "Carnelian_Costume01",
+      "icon_path": "Carnelian_Icon_Costume_01",
+      "portrait_path": "Carnelian_Costume01",
+      "controller_path": "Carnelian",
+      "scale_set": 1.0
+    },
+    {
+      "no": 2400,
+      "type_sno": 710012,
+      "name_sno": 520600,
+      "hero_no": 5060,
+      "prefab_path": "Carnelian_Costume02",
+      "timeline_path": "Carnelian_Costume02",
+      "icon_path": "Carnelian_Icon_Costume_02",
+      "portrait_path": "Carnelian_Costume02",
+      "controller_path": "Carnelian",
+      "scale_set": 1.0
+    },
+    {
       "no": 2700,
       "prefab_path": "Apprentice",
       "timeline_path": "Apprentice",
@@ -4488,6 +4548,60 @@
       "portrait_path": "Aira",
       "controller_path": "Aira",
       "scale_set": 1.2
+    },
+    {
+      "no": 2828,
+      "prefab_path": "CatherineBrave_Costume04",
+      "timeline_path": "CatherineBrave_Costume04",
+      "icon_path": "CatherineBrave_Icon_Costume_04",
+      "portrait_path": "CatherineBrave_Costume04",
+      "controller_path": "CatherineBrave",
+      "scale_set": 1.3
+    },
+    {
+      "no": 2829,
+      "prefab_path": "Beleth_Costume02",
+      "timeline_path": "Beleth_Costume02",
+      "icon_path": "Beleth_Icon_Costume02",
+      "portrait_path": "Beleth_Costume02",
+      "controller_path": "Beleth",
+      "scale_set": 1.0
+    },
+    {
+      "no": 2830,
+      "prefab_path": "Aki_Costume06",
+      "timeline_path": "Aki_Costume06",
+      "icon_path": "Aki_Icon_Costume_06",
+      "portrait_path": "Aki_Costume06",
+      "controller_path": "Aki",
+      "scale_set": 1.0
+    },
+    {
+      "no": 2831,
+      "prefab_path": "Mephisto_Costume03",
+      "timeline_path": "Mephisto_Costume03",
+      "icon_path": "Mephisto_Icon_Costume_03",
+      "portrait_path": "Mephisto_Costume03",
+      "controller_path": "Mephisto",
+      "scale_set": 1.3
+    },
+    {
+      "no": 2832,
+      "prefab_path": "Aki_Costume03",
+      "timeline_path": "Aki_Costume03",
+      "icon_path": "Aki_Icon_Costume_03",
+      "portrait_path": "Aki_Costume03",
+      "controller_path": "Aki",
+      "scale_set": 1.3
+    },
+    {
+      "no": 2833,
+      "prefab_path": "Honglan_Costume03",
+      "timeline_path": "Honglan_Costume03",
+      "icon_path": "Honglan_Icon_Costume_03",
+      "portrait_path": "Honglan_Costume03",
+      "controller_path": "Honglan",
+      "scale_set": 1.3
     },
     {
       "no": 2998,

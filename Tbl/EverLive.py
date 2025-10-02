@@ -81,49 +81,70 @@ class EverLive(object):
         return None
 
     # EverLive
-    def SoundPath(self):
+    def BgPath(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(20))
         if o != 0:
             return self._tab.String(o + self._tab.Pos)
         return None
 
     # EverLive
-    def HeroNo(self):
+    def PreviewPath(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(22))
         if o != 0:
             return self._tab.String(o + self._tab.Pos)
         return None
 
     # EverLive
-    def CostumeNo(self):
+    def SoundPath(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(24))
         if o != 0:
             return self._tab.String(o + self._tab.Pos)
         return None
 
     # EverLive
-    def StageStep(self):
+    def SoundSno(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(26))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # EverLive
-    def CommandGroup(self):
+    def HeroNo(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(28))
+        if o != 0:
+            return self._tab.String(o + self._tab.Pos)
+        return None
+
+    # EverLive
+    def CostumeNo(self):
+        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(30))
+        if o != 0:
+            return self._tab.String(o + self._tab.Pos)
+        return None
+
+    # EverLive
+    def StageStep(self):
+        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(32))
+        if o != 0:
+            return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
+        return 0
+
+    # EverLive
+    def CommandGroup(self):
+        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(34))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # EverLive
     def CommandFail(self):
-        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(30))
+        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(36))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
 def EverLiveStart(builder):
-    builder.StartObject(14)
+    builder.StartObject(17)
 
 def Start(builder):
     EverLiveStart(builder)
@@ -176,38 +197,56 @@ def EverLiveAddMap(builder, map):
 def AddMap(builder, map):
     EverLiveAddMap(builder, map)
 
+def EverLiveAddBgPath(builder, bgPath):
+    builder.PrependUOffsetTRelativeSlot(8, flatbuffers.number_types.UOffsetTFlags.py_type(bgPath), 0)
+
+def AddBgPath(builder, bgPath):
+    EverLiveAddBgPath(builder, bgPath)
+
+def EverLiveAddPreviewPath(builder, previewPath):
+    builder.PrependUOffsetTRelativeSlot(9, flatbuffers.number_types.UOffsetTFlags.py_type(previewPath), 0)
+
+def AddPreviewPath(builder, previewPath):
+    EverLiveAddPreviewPath(builder, previewPath)
+
 def EverLiveAddSoundPath(builder, soundPath):
-    builder.PrependUOffsetTRelativeSlot(8, flatbuffers.number_types.UOffsetTFlags.py_type(soundPath), 0)
+    builder.PrependUOffsetTRelativeSlot(10, flatbuffers.number_types.UOffsetTFlags.py_type(soundPath), 0)
 
 def AddSoundPath(builder, soundPath):
     EverLiveAddSoundPath(builder, soundPath)
 
+def EverLiveAddSoundSno(builder, soundSno):
+    builder.PrependInt32Slot(11, soundSno, 0)
+
+def AddSoundSno(builder, soundSno):
+    EverLiveAddSoundSno(builder, soundSno)
+
 def EverLiveAddHeroNo(builder, heroNo):
-    builder.PrependUOffsetTRelativeSlot(9, flatbuffers.number_types.UOffsetTFlags.py_type(heroNo), 0)
+    builder.PrependUOffsetTRelativeSlot(12, flatbuffers.number_types.UOffsetTFlags.py_type(heroNo), 0)
 
 def AddHeroNo(builder, heroNo):
     EverLiveAddHeroNo(builder, heroNo)
 
 def EverLiveAddCostumeNo(builder, costumeNo):
-    builder.PrependUOffsetTRelativeSlot(10, flatbuffers.number_types.UOffsetTFlags.py_type(costumeNo), 0)
+    builder.PrependUOffsetTRelativeSlot(13, flatbuffers.number_types.UOffsetTFlags.py_type(costumeNo), 0)
 
 def AddCostumeNo(builder, costumeNo):
     EverLiveAddCostumeNo(builder, costumeNo)
 
 def EverLiveAddStageStep(builder, stageStep):
-    builder.PrependInt32Slot(11, stageStep, 0)
+    builder.PrependInt32Slot(14, stageStep, 0)
 
 def AddStageStep(builder, stageStep):
     EverLiveAddStageStep(builder, stageStep)
 
 def EverLiveAddCommandGroup(builder, commandGroup):
-    builder.PrependInt32Slot(12, commandGroup, 0)
+    builder.PrependInt32Slot(15, commandGroup, 0)
 
 def AddCommandGroup(builder, commandGroup):
     EverLiveAddCommandGroup(builder, commandGroup)
 
 def EverLiveAddCommandFail(builder, commandFail):
-    builder.PrependInt32Slot(13, commandFail, 0)
+    builder.PrependInt32Slot(16, commandFail, 0)
 
 def AddCommandFail(builder, commandFail):
     EverLiveAddCommandFail(builder, commandFail)

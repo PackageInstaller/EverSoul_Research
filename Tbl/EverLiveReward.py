@@ -67,91 +67,98 @@ class EverLiveReward(object):
         return 0
 
     # EverLiveReward
-    def Behavior(self):
+    def RewardType(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(16))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # EverLiveReward
-    def Value(self):
+    def GoalAmount(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(18))
         if o != 0:
-            return self._tab.Get(flatbuffers.number_types.Int64Flags, o + self._tab.Pos)
+            return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # EverLiveReward
-    def RewardItemNo1(self):
+    def TitleSno(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(20))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # EverLiveReward
-    def RewardItemAmount1(self):
+    def RewardItemNo1(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(22))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # EverLiveReward
-    def RewardItemNo2(self):
+    def RewardItemAmount1(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(24))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # EverLiveReward
-    def RewardItemAmount2(self):
+    def RewardItemNo2(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(26))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # EverLiveReward
-    def RewardItemNo3(self):
+    def RewardItemAmount2(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(28))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # EverLiveReward
-    def RewardItemAmount3(self):
+    def RewardItemNo3(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(30))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # EverLiveReward
-    def RewardItemNo4(self):
+    def RewardItemAmount3(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(32))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # EverLiveReward
-    def RewardItemAmount4(self):
+    def RewardItemNo4(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(34))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # EverLiveReward
-    def RewardItemNo5(self):
+    def RewardItemAmount4(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(36))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # EverLiveReward
-    def RewardItemAmount5(self):
+    def RewardItemNo5(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(38))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
+    # EverLiveReward
+    def RewardItemAmount5(self):
+        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(40))
+        if o != 0:
+            return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
+        return 0
+
 def EverLiveRewardStart(builder):
-    builder.StartObject(18)
+    builder.StartObject(19)
 
 def Start(builder):
     EverLiveRewardStart(builder)
@@ -192,74 +199,80 @@ def EverLiveRewardAddClearStage(builder, clearStage):
 def AddClearStage(builder, clearStage):
     EverLiveRewardAddClearStage(builder, clearStage)
 
-def EverLiveRewardAddBehavior(builder, behavior):
-    builder.PrependInt32Slot(6, behavior, 0)
+def EverLiveRewardAddRewardType(builder, rewardType):
+    builder.PrependInt32Slot(6, rewardType, 0)
 
-def AddBehavior(builder, behavior):
-    EverLiveRewardAddBehavior(builder, behavior)
+def AddRewardType(builder, rewardType):
+    EverLiveRewardAddRewardType(builder, rewardType)
 
-def EverLiveRewardAddValue(builder, value):
-    builder.PrependInt64Slot(7, value, 0)
+def EverLiveRewardAddGoalAmount(builder, goalAmount):
+    builder.PrependInt32Slot(7, goalAmount, 0)
 
-def AddValue(builder, value):
-    EverLiveRewardAddValue(builder, value)
+def AddGoalAmount(builder, goalAmount):
+    EverLiveRewardAddGoalAmount(builder, goalAmount)
+
+def EverLiveRewardAddTitleSno(builder, titleSno):
+    builder.PrependInt32Slot(8, titleSno, 0)
+
+def AddTitleSno(builder, titleSno):
+    EverLiveRewardAddTitleSno(builder, titleSno)
 
 def EverLiveRewardAddRewardItemNo1(builder, rewardItemNo1):
-    builder.PrependInt32Slot(8, rewardItemNo1, 0)
+    builder.PrependInt32Slot(9, rewardItemNo1, 0)
 
 def AddRewardItemNo1(builder, rewardItemNo1):
     EverLiveRewardAddRewardItemNo1(builder, rewardItemNo1)
 
 def EverLiveRewardAddRewardItemAmount1(builder, rewardItemAmount1):
-    builder.PrependInt32Slot(9, rewardItemAmount1, 0)
+    builder.PrependInt32Slot(10, rewardItemAmount1, 0)
 
 def AddRewardItemAmount1(builder, rewardItemAmount1):
     EverLiveRewardAddRewardItemAmount1(builder, rewardItemAmount1)
 
 def EverLiveRewardAddRewardItemNo2(builder, rewardItemNo2):
-    builder.PrependInt32Slot(10, rewardItemNo2, 0)
+    builder.PrependInt32Slot(11, rewardItemNo2, 0)
 
 def AddRewardItemNo2(builder, rewardItemNo2):
     EverLiveRewardAddRewardItemNo2(builder, rewardItemNo2)
 
 def EverLiveRewardAddRewardItemAmount2(builder, rewardItemAmount2):
-    builder.PrependInt32Slot(11, rewardItemAmount2, 0)
+    builder.PrependInt32Slot(12, rewardItemAmount2, 0)
 
 def AddRewardItemAmount2(builder, rewardItemAmount2):
     EverLiveRewardAddRewardItemAmount2(builder, rewardItemAmount2)
 
 def EverLiveRewardAddRewardItemNo3(builder, rewardItemNo3):
-    builder.PrependInt32Slot(12, rewardItemNo3, 0)
+    builder.PrependInt32Slot(13, rewardItemNo3, 0)
 
 def AddRewardItemNo3(builder, rewardItemNo3):
     EverLiveRewardAddRewardItemNo3(builder, rewardItemNo3)
 
 def EverLiveRewardAddRewardItemAmount3(builder, rewardItemAmount3):
-    builder.PrependInt32Slot(13, rewardItemAmount3, 0)
+    builder.PrependInt32Slot(14, rewardItemAmount3, 0)
 
 def AddRewardItemAmount3(builder, rewardItemAmount3):
     EverLiveRewardAddRewardItemAmount3(builder, rewardItemAmount3)
 
 def EverLiveRewardAddRewardItemNo4(builder, rewardItemNo4):
-    builder.PrependInt32Slot(14, rewardItemNo4, 0)
+    builder.PrependInt32Slot(15, rewardItemNo4, 0)
 
 def AddRewardItemNo4(builder, rewardItemNo4):
     EverLiveRewardAddRewardItemNo4(builder, rewardItemNo4)
 
 def EverLiveRewardAddRewardItemAmount4(builder, rewardItemAmount4):
-    builder.PrependInt32Slot(15, rewardItemAmount4, 0)
+    builder.PrependInt32Slot(16, rewardItemAmount4, 0)
 
 def AddRewardItemAmount4(builder, rewardItemAmount4):
     EverLiveRewardAddRewardItemAmount4(builder, rewardItemAmount4)
 
 def EverLiveRewardAddRewardItemNo5(builder, rewardItemNo5):
-    builder.PrependInt32Slot(16, rewardItemNo5, 0)
+    builder.PrependInt32Slot(17, rewardItemNo5, 0)
 
 def AddRewardItemNo5(builder, rewardItemNo5):
     EverLiveRewardAddRewardItemNo5(builder, rewardItemNo5)
 
 def EverLiveRewardAddRewardItemAmount5(builder, rewardItemAmount5):
-    builder.PrependInt32Slot(17, rewardItemAmount5, 0)
+    builder.PrependInt32Slot(18, rewardItemAmount5, 0)
 
 def AddRewardItemAmount5(builder, rewardItemAmount5):
     EverLiveRewardAddRewardItemAmount5(builder, rewardItemAmount5)
