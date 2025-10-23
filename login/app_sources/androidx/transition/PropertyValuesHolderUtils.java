@@ -1,0 +1,19 @@
+package androidx.transition;
+
+import android.animation.PropertyValuesHolder;
+import android.animation.TypeConverter;
+import android.graphics.Path;
+import android.graphics.PointF;
+import android.util.Property;
+
+/* loaded from: classes5.dex */
+class PropertyValuesHolderUtils {
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    static PropertyValuesHolder ofPointF(Property<?, PointF> property, Path path) {
+        return PropertyValuesHolder.ofObject(property, (TypeConverter) null, path);
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    private PropertyValuesHolderUtils() {
+    }
+}

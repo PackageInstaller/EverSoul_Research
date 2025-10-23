@@ -1,0 +1,42 @@
+package com.google.android.gms.auth.account;
+
+import android.app.Activity;
+import android.content.Context;
+import com.google.android.gms.common.api.Api;
+import com.google.android.gms.internal.auth.zzal;
+import com.google.android.gms.internal.auth.zzam;
+
+/* compiled from: com.google.android.gms:play-services-auth-base@@17.1.4 */
+/* loaded from: classes.dex */
+public class WorkAccount {
+    public static final Api<Api.ApiOptions.NoOptions> API;
+
+    @Deprecated
+    public static final WorkAccountApi WorkAccountApi;
+    private static final Api.ClientKey<zzam> zza;
+    private static final Api.AbstractClientBuilder<zzam, Api.ApiOptions.NoOptions> zzb;
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    static {
+        Api.ClientKey<zzam> clientKey = new Api.ClientKey<>();
+        zza = clientKey;
+        zzf zzfVar = new zzf();
+        zzb = zzfVar;
+        API = new Api<>("WorkAccount.API", zzfVar, clientKey);
+        WorkAccountApi = new zzal();
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    private WorkAccount() {
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    public static WorkAccountClient getClient(Activity activity) {
+        return new WorkAccountClient(activity);
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    public static WorkAccountClient getClient(Context context) {
+        return new WorkAccountClient(context);
+    }
+}

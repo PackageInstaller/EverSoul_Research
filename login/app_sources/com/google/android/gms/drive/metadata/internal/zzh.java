@@ -1,0 +1,31 @@
+package com.google.android.gms.drive.metadata.internal;
+
+import android.os.Bundle;
+import com.google.android.gms.common.data.DataHolder;
+import com.google.android.gms.common.util.GmsVersion;
+
+/* loaded from: classes.dex */
+public final class zzh extends com.google.android.gms.drive.metadata.zza<Integer> {
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    public zzh(String str, int i) {
+        super(str, GmsVersion.VERSION_JARLSBERG);
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // com.google.android.gms.drive.metadata.zza
+    protected final /* synthetic */ Integer zzc(DataHolder dataHolder, int i, int i2) {
+        return Integer.valueOf(dataHolder.getInteger(getName(), i, i2));
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // com.google.android.gms.drive.metadata.zza
+    protected final /* synthetic */ void zza(Bundle bundle, Integer num) {
+        bundle.putInt(getName(), num.intValue());
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // com.google.android.gms.drive.metadata.zza
+    protected final /* synthetic */ Integer zzb(Bundle bundle) {
+        return Integer.valueOf(bundle.getInt(getName()));
+    }
+}

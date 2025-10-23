@@ -1,0 +1,22 @@
+package com.google.android.gms.common.api.internal;
+
+/* compiled from: com.google.android.gms:play-services-base@@18.4.0 */
+/* loaded from: classes.dex */
+final class zaaq extends zabg {
+    final /* synthetic */ zaaw zaa;
+    final /* synthetic */ com.google.android.gms.signin.internal.zak zab;
+
+    /* JADX WARN: 'super' call moved to the top of the method (can break code semantics) */
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    zaaq(zaar zaarVar, zabf zabfVar, zaaw zaawVar, com.google.android.gms.signin.internal.zak zakVar) {
+        super(zabfVar);
+        this.zaa = zaawVar;
+        this.zab = zakVar;
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // com.google.android.gms.common.api.internal.zabg
+    public final void zaa() {
+        zaaw.zar(this.zaa, this.zab);
+    }
+}

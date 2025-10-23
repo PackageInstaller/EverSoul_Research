@@ -1,0 +1,58 @@
+package com.android.billingclient.api;
+
+import java.lang.annotation.Retention;
+import java.lang.annotation.RetentionPolicy;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.Set;
+
+/* compiled from: com.android.billingclient:billing@@7.1.1 */
+/* loaded from: classes.dex */
+public final class InAppMessageParams {
+    private final ArrayList zza;
+
+    /* compiled from: com.android.billingclient:billing@@7.1.1 */
+    @Retention(RetentionPolicy.SOURCE)
+    public @interface InAppMessageCategoryId {
+        public static final int TRANSACTIONAL = 2;
+        public static final int UNKNOWN_IN_APP_MESSAGE_CATEGORY_ID = 0;
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    final ArrayList zza() {
+        return this.zza;
+    }
+
+    /* compiled from: com.android.billingclient:billing@@7.1.1 */
+    public static final class Builder {
+        private final Set zza = new HashSet();
+
+        /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+        public Builder addAllInAppMessageCategoriesToShow() {
+            this.zza.add(2);
+            return this;
+        }
+
+        /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+        public Builder addInAppMessageCategoryToShow(int i) {
+            this.zza.add(Integer.valueOf(i));
+            return this;
+        }
+
+        /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+        public InAppMessageParams build() {
+            return new InAppMessageParams(this.zza, null);
+        }
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    /* synthetic */ InAppMessageParams(Set set, zzcq zzcqVar) {
+        this.zza = new ArrayList(Collections.unmodifiableList(new ArrayList(set)));
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    public static Builder newBuilder() {
+        return new Builder();
+    }
+}

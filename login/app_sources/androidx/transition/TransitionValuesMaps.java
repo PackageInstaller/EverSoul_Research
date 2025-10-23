@@ -1,0 +1,18 @@
+package androidx.transition;
+
+import android.util.SparseArray;
+import android.view.View;
+import androidx.collection.ArrayMap;
+import androidx.collection.LongSparseArray;
+
+/* loaded from: classes5.dex */
+class TransitionValuesMaps {
+    final ArrayMap<View, TransitionValues> mViewValues = new ArrayMap<>();
+    final SparseArray<View> mIdValues = new SparseArray<>();
+    final LongSparseArray<View> mItemIdValues = new LongSparseArray<>();
+    final ArrayMap<String, View> mNameValues = new ArrayMap<>();
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    TransitionValuesMaps() {
+    }
+}

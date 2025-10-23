@@ -1,0 +1,30 @@
+package com.google.android.gms.auth.api.phone;
+
+import android.app.Activity;
+import android.content.Context;
+import com.google.android.gms.internal.p036authapiphone.zzab;
+
+/* compiled from: com.google.android.gms:play-services-auth-api-phone@@17.5.1 */
+/* loaded from: classes.dex */
+public final class SmsRetriever {
+    public static final String EXTRA_CONSENT_INTENT = "com.google.android.gms.auth.api.phone.EXTRA_CONSENT_INTENT";
+    public static final String EXTRA_SIM_SUBSCRIPTION_ID = "com.google.android.gms.auth.api.phone.EXTRA_SIM_SUBSCRIPTION_ID";
+    public static final String EXTRA_SMS_MESSAGE = "com.google.android.gms.auth.api.phone.EXTRA_SMS_MESSAGE";
+    public static final String EXTRA_STATUS = "com.google.android.gms.auth.api.phone.EXTRA_STATUS";
+    public static final String SEND_PERMISSION = "com.google.android.gms.auth.api.phone.permission.SEND";
+    public static final String SMS_RETRIEVED_ACTION = "com.google.android.gms.auth.api.phone.SMS_RETRIEVED";
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    private SmsRetriever() {
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    public static SmsRetrieverClient getClient(Activity activity) {
+        return new zzab(activity);
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    public static SmsRetrieverClient getClient(Context context) {
+        return new zzab(context);
+    }
+}

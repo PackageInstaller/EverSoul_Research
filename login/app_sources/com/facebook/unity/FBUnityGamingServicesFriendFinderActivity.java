@@ -1,0 +1,54 @@
+package com.facebook.unity;
+
+import android.os.Bundle;
+import android.util.Log;
+import com.facebook.FacebookCallback;
+import com.facebook.FacebookException;
+import com.facebook.gamingservices.FriendFinderDialog;
+import com.liapp.y;
+
+/* loaded from: classes.dex */
+public class FBUnityGamingServicesFriendFinderActivity extends BaseActivity {
+    public static final String DIALOG_PARAMS = "dialog_params";
+    private static String TAG = "com.facebook.unity.FBUnityGamingServicesFriendFinderActivity";
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // com.facebook.unity.BaseActivity, android.app.Activity
+    protected void onCreate(Bundle bundle) {
+        y.٬خݮ۳ݯ(this);
+        super.onCreate(bundle);
+        Bundle bundleExtra = getIntent().getBundleExtra(DIALOG_PARAMS);
+        final UnityMessage unityMessage = new UnityMessage("OnFriendFinderComplete");
+        String string = bundleExtra.getString(Constants.CALLBACK_ID_KEY);
+        Log.e(TAG, "callbackID: " + string);
+        if (string != null) {
+            unityMessage.put(Constants.CALLBACK_ID_KEY, string);
+        }
+        FriendFinderDialog friendFinderDialog = new FriendFinderDialog(this);
+        friendFinderDialog.registerCallback(this.mCallbackManager, new FacebookCallback<FriendFinderDialog.Result>() { // from class: com.facebook.unity.FBUnityGamingServicesFriendFinderActivity.1
+            /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+            @Override // com.facebook.FacebookCallback
+            public void onSuccess(FriendFinderDialog.Result result) {
+                unityMessage.put("success", true);
+                unityMessage.send();
+                FBUnityGamingServicesFriendFinderActivity.this.finish();
+            }
+
+            /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+            @Override // com.facebook.FacebookCallback
+            public void onCancel() {
+                unityMessage.putCancelled();
+                unityMessage.send();
+                FBUnityGamingServicesFriendFinderActivity.this.finish();
+            }
+
+            /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+            @Override // com.facebook.FacebookCallback
+            public void onError(FacebookException facebookException) {
+                unityMessage.sendError(facebookException.getMessage());
+                FBUnityGamingServicesFriendFinderActivity.this.finish();
+            }
+        });
+        friendFinderDialog.show();
+    }
+}

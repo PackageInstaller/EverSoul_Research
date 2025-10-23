@@ -1,0 +1,52 @@
+package com.google.firebase.heartbeatinfo;
+
+/* loaded from: classes2.dex */
+final class AutoValue_SdkHeartBeatResult extends SdkHeartBeatResult {
+    private final long millis;
+    private final String sdkName;
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    AutoValue_SdkHeartBeatResult(String str, long j) {
+        if (str == null) {
+            throw new NullPointerException("Null sdkName");
+        }
+        this.sdkName = str;
+        this.millis = j;
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // com.google.firebase.heartbeatinfo.SdkHeartBeatResult
+    public String getSdkName() {
+        return this.sdkName;
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // com.google.firebase.heartbeatinfo.SdkHeartBeatResult
+    public long getMillis() {
+        return this.millis;
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    public String toString() {
+        return "SdkHeartBeatResult{sdkName=" + this.sdkName + ", millis=" + this.millis + "}";
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    public boolean equals(Object obj) {
+        if (obj == this) {
+            return true;
+        }
+        if (!(obj instanceof SdkHeartBeatResult)) {
+            return false;
+        }
+        SdkHeartBeatResult sdkHeartBeatResult = (SdkHeartBeatResult) obj;
+        return this.sdkName.equals(sdkHeartBeatResult.getSdkName()) && this.millis == sdkHeartBeatResult.getMillis();
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    public int hashCode() {
+        int hashCode = (this.sdkName.hashCode() ^ 1000003) * 1000003;
+        long j = this.millis;
+        return hashCode ^ ((int) (j ^ (j >>> 32)));
+    }
+}

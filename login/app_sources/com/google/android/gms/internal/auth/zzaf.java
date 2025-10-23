@@ -1,0 +1,20 @@
+package com.google.android.gms.internal.auth;
+
+import com.google.android.gms.common.api.Status;
+
+/* compiled from: com.google.android.gms:play-services-auth-base@@17.1.4 */
+/* loaded from: classes2.dex */
+final class zzaf extends zzah {
+    final /* synthetic */ zzag zza;
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    zzaf(zzag zzagVar) {
+        this.zza = zzagVar;
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // com.google.android.gms.internal.auth.zzah, com.google.android.gms.auth.account.zzb
+    public final void zzc(boolean z) {
+        this.zza.setResult((zzag) new zzak(z ? Status.RESULT_SUCCESS : zzal.zza));
+    }
+}

@@ -1,0 +1,18 @@
+package com.bumptech.glide.manager;
+
+import com.bumptech.glide.RequestManager;
+import java.util.Collections;
+import java.util.Set;
+
+/* loaded from: classes.dex */
+final class EmptyRequestManagerTreeNode implements RequestManagerTreeNode {
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    EmptyRequestManagerTreeNode() {
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // com.bumptech.glide.manager.RequestManagerTreeNode
+    public Set<RequestManager> getDescendants() {
+        return Collections.emptySet();
+    }
+}

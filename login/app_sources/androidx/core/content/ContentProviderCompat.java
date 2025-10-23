@@ -1,0 +1,20 @@
+package androidx.core.content;
+
+import android.content.ContentProvider;
+import android.content.Context;
+
+/* loaded from: classes.dex */
+public final class ContentProviderCompat {
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    private ContentProviderCompat() {
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    public static Context requireContext(ContentProvider contentProvider) {
+        Context context = contentProvider.getContext();
+        if (context != null) {
+            return context;
+        }
+        throw new IllegalStateException("Cannot find context from the provider.");
+    }
+}

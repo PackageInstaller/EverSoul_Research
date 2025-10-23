@@ -1,0 +1,66 @@
+package com.google.android.gms.internal.play_billing;
+
+import com.google.firebase.analytics.FirebaseAnalytics;
+import java.util.NoSuchElementException;
+
+/* compiled from: com.android.billingclient:billing@@7.1.1 */
+/* loaded from: classes2.dex */
+abstract class zzbh extends zzdx {
+    private final int zza;
+    private int zzb;
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    protected zzbh(int i, int i2) {
+        zzbe.zzb(i2, i, FirebaseAnalytics.Param.INDEX);
+        this.zza = i;
+        this.zzb = i2;
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // java.util.Iterator, java.util.ListIterator
+    public final boolean hasNext() {
+        return this.zzb < this.zza;
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // java.util.ListIterator
+    public final boolean hasPrevious() {
+        return this.zzb > 0;
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // java.util.Iterator, java.util.ListIterator
+    public final Object next() {
+        if (!hasNext()) {
+            throw new NoSuchElementException();
+        }
+        int i = this.zzb;
+        this.zzb = i + 1;
+        return zza(i);
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // java.util.ListIterator
+    public final int nextIndex() {
+        return this.zzb;
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // java.util.ListIterator
+    public final Object previous() {
+        if (!hasPrevious()) {
+            throw new NoSuchElementException();
+        }
+        int i = this.zzb - 1;
+        this.zzb = i;
+        return zza(i);
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // java.util.ListIterator
+    public final int previousIndex() {
+        return this.zzb - 1;
+    }
+
+    protected abstract Object zza(int i);
+}

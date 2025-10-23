@@ -1,0 +1,40 @@
+package com.google.android.material.tabs;
+
+import android.graphics.RectF;
+import android.graphics.drawable.Drawable;
+import android.view.View;
+import com.google.android.material.animation.AnimationUtils;
+
+/* loaded from: classes2.dex */
+class ElasticTabIndicatorInterpolator extends TabIndicatorInterpolator {
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    ElasticTabIndicatorInterpolator() {
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    private static float decInterp(float f) {
+        return (float) Math.sin((f * 3.141592653589793d) / 2.0d);
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    private static float accInterp(float f) {
+        return (float) (1.0d - Math.cos((f * 3.141592653589793d) / 2.0d));
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // com.google.android.material.tabs.TabIndicatorInterpolator
+    void setIndicatorBoundsForOffset(TabLayout tabLayout, View view, View view2, float f, Drawable drawable) {
+        float decInterp;
+        float accInterp;
+        RectF calculateIndicatorWidthForTab = calculateIndicatorWidthForTab(tabLayout, view);
+        RectF calculateIndicatorWidthForTab2 = calculateIndicatorWidthForTab(tabLayout, view2);
+        if (calculateIndicatorWidthForTab.left < calculateIndicatorWidthForTab2.left) {
+            decInterp = accInterp(f);
+            accInterp = decInterp(f);
+        } else {
+            decInterp = decInterp(f);
+            accInterp = accInterp(f);
+        }
+        drawable.setBounds(AnimationUtils.lerp((int) calculateIndicatorWidthForTab.left, (int) calculateIndicatorWidthForTab2.left, decInterp), drawable.getBounds().top, AnimationUtils.lerp((int) calculateIndicatorWidthForTab.right, (int) calculateIndicatorWidthForTab2.right, accInterp), drawable.getBounds().bottom);
+    }
+}

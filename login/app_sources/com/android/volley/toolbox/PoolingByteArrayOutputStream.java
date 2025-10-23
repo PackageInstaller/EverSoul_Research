@@ -1,0 +1,59 @@
+package com.android.volley.toolbox;
+
+import java.io.ByteArrayOutputStream;
+
+/* loaded from: classes.dex */
+public class PoolingByteArrayOutputStream extends ByteArrayOutputStream {
+    private static final int DEFAULT_SIZE = 256;
+    private final ByteArrayPool mPool;
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    public PoolingByteArrayOutputStream(ByteArrayPool byteArrayPool) {
+        this(byteArrayPool, 256);
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    public PoolingByteArrayOutputStream(ByteArrayPool byteArrayPool, int i) {
+        this.mPool = byteArrayPool;
+        ((ByteArrayOutputStream) this).buf = byteArrayPool.getBuf(Math.max(i, 256));
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    private void expand(int i) {
+        int i2 = ((ByteArrayOutputStream) this).count + i;
+        if (i2 <= ((ByteArrayOutputStream) this).buf.length) {
+            return;
+        }
+        byte[] buf = this.mPool.getBuf(i2 * 2);
+        System.arraycopy(((ByteArrayOutputStream) this).buf, 0, buf, 0, ((ByteArrayOutputStream) this).count);
+        this.mPool.returnBuf(((ByteArrayOutputStream) this).buf);
+        ((ByteArrayOutputStream) this).buf = buf;
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // java.io.ByteArrayOutputStream, java.io.OutputStream, java.io.Closeable, java.lang.AutoCloseable
+    public void close() {
+        this.mPool.returnBuf(((ByteArrayOutputStream) this).buf);
+        ((ByteArrayOutputStream) this).buf = null;
+        super.close();
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    public void finalize() {
+        this.mPool.returnBuf(((ByteArrayOutputStream) this).buf);
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // java.io.ByteArrayOutputStream, java.io.OutputStream
+    public synchronized void write(int i) {
+        expand(1);
+        super.write(i);
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // java.io.ByteArrayOutputStream, java.io.OutputStream
+    public synchronized void write(byte[] bArr, int i, int i2) {
+        expand(i2);
+        super.write(bArr, i, i2);
+    }
+}

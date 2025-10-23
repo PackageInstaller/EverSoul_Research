@@ -1,0 +1,48 @@
+package com.google.android.gms.internal.play_billing;
+
+import java.util.concurrent.Callable;
+import java.util.concurrent.ScheduledExecutorService;
+import java.util.concurrent.ScheduledFuture;
+import java.util.concurrent.TimeUnit;
+
+/* compiled from: com.android.billingclient:billing@@7.1.1 */
+/* loaded from: classes2.dex */
+final class zzfa extends zzex implements zzew {
+    final ScheduledExecutorService zza;
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    zzfa(ScheduledExecutorService scheduledExecutorService) {
+        super(scheduledExecutorService);
+        scheduledExecutorService.getClass();
+        this.zza = scheduledExecutorService;
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // java.util.concurrent.ScheduledExecutorService
+    public final /* bridge */ /* synthetic */ ScheduledFuture schedule(Runnable runnable, long j, TimeUnit timeUnit) {
+        ScheduledExecutorService scheduledExecutorService = this.zza;
+        zzfh zzr = zzfh.zzr(runnable, null);
+        return new zzey(zzr, scheduledExecutorService.schedule(zzr, j, timeUnit));
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // java.util.concurrent.ScheduledExecutorService
+    public final /* bridge */ /* synthetic */ ScheduledFuture scheduleAtFixedRate(Runnable runnable, long j, long j2, TimeUnit timeUnit) {
+        zzez zzezVar = new zzez(runnable);
+        return new zzey(zzezVar, this.zza.scheduleAtFixedRate(zzezVar, j, j2, timeUnit));
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // java.util.concurrent.ScheduledExecutorService
+    public final /* bridge */ /* synthetic */ ScheduledFuture scheduleWithFixedDelay(Runnable runnable, long j, long j2, TimeUnit timeUnit) {
+        zzez zzezVar = new zzez(runnable);
+        return new zzey(zzezVar, this.zza.scheduleWithFixedDelay(zzezVar, j, j2, timeUnit));
+    }
+
+    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
+    @Override // java.util.concurrent.ScheduledExecutorService
+    public final /* bridge */ /* synthetic */ ScheduledFuture schedule(Callable callable, long j, TimeUnit timeUnit) {
+        zzfh zzfhVar = new zzfh(callable);
+        return new zzey(zzfhVar, this.zza.schedule(zzfhVar, j, timeUnit));
+    }
+}
