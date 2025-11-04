@@ -65,7 +65,7 @@ namespace TableUpdater
                 {
                     if (table_info["live"]["tableVersion"] != tableInfo.version)
                     {
-                        std::println("- 表版本不同: {} -> {}",
+                        std::println("表版本不同: {} -> {}",
                                      table_info["live"]["tableVersion"].get<int>(), tableInfo.version);
                     }
                 }
@@ -419,7 +419,7 @@ namespace TableUpdater
                 std::println("需要更新数据表:");
                 if (table_info["review"]["tableVersion"] != serverTableVersion)
                 {
-                    std::println("- 表版本不同: {} -> {}",
+                    std::println("表版本不同: {} -> {}",
                                  table_info["review"]["tableVersion"].get<int>(), serverTableVersion);
                 }
             }
