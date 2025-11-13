@@ -60,91 +60,98 @@ class TownMission(object):
         return 0
 
     # TownMission
-    def Goal(self):
+    def Event(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(14))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # TownMission
-    def TitleSno(self):
+    def Goal(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(16))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # TownMission
-    def DescSno(self):
+    def TitleSno(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(18))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # TownMission
-    def ObjectiveSno(self):
+    def DescSno(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(20))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # TownMission
-    def NotifySno(self):
+    def ObjectiveSno(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(22))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # TownMission
-    def FinishSno(self):
+    def NotifySno(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(24))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # TownMission
-    def RewardNo1(self):
+    def FinishSno(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(26))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # TownMission
-    def RewardAmount1(self):
+    def RewardNo1(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(28))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # TownMission
-    def RewardNo2(self):
+    def RewardAmount1(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(30))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # TownMission
-    def RewardAmount2(self):
+    def RewardNo2(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(32))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # TownMission
-    def RewardNo3(self):
+    def RewardAmount2(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(34))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
     # TownMission
-    def RewardAmount3(self):
+    def RewardNo3(self):
         o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(36))
         if o != 0:
             return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
         return 0
 
+    # TownMission
+    def RewardAmount3(self):
+        o = flatbuffers.number_types.UOffsetTFlags.py_type(self._tab.Offset(38))
+        if o != 0:
+            return self._tab.Get(flatbuffers.number_types.Int32Flags, o + self._tab.Pos)
+        return 0
+
 def TownMissionStart(builder):
-    builder.StartObject(17)
+    builder.StartObject(18)
 
 def Start(builder):
     TownMissionStart(builder)
@@ -179,74 +186,80 @@ def TownMissionAddType(builder, type):
 def AddType(builder, type):
     TownMissionAddType(builder, type)
 
+def TownMissionAddEvent(builder, event):
+    builder.PrependInt32Slot(5, event, 0)
+
+def AddEvent(builder, event):
+    TownMissionAddEvent(builder, event)
+
 def TownMissionAddGoal(builder, goal):
-    builder.PrependInt32Slot(5, goal, 0)
+    builder.PrependInt32Slot(6, goal, 0)
 
 def AddGoal(builder, goal):
     TownMissionAddGoal(builder, goal)
 
 def TownMissionAddTitleSno(builder, titleSno):
-    builder.PrependInt32Slot(6, titleSno, 0)
+    builder.PrependInt32Slot(7, titleSno, 0)
 
 def AddTitleSno(builder, titleSno):
     TownMissionAddTitleSno(builder, titleSno)
 
 def TownMissionAddDescSno(builder, descSno):
-    builder.PrependInt32Slot(7, descSno, 0)
+    builder.PrependInt32Slot(8, descSno, 0)
 
 def AddDescSno(builder, descSno):
     TownMissionAddDescSno(builder, descSno)
 
 def TownMissionAddObjectiveSno(builder, objectiveSno):
-    builder.PrependInt32Slot(8, objectiveSno, 0)
+    builder.PrependInt32Slot(9, objectiveSno, 0)
 
 def AddObjectiveSno(builder, objectiveSno):
     TownMissionAddObjectiveSno(builder, objectiveSno)
 
 def TownMissionAddNotifySno(builder, notifySno):
-    builder.PrependInt32Slot(9, notifySno, 0)
+    builder.PrependInt32Slot(10, notifySno, 0)
 
 def AddNotifySno(builder, notifySno):
     TownMissionAddNotifySno(builder, notifySno)
 
 def TownMissionAddFinishSno(builder, finishSno):
-    builder.PrependInt32Slot(10, finishSno, 0)
+    builder.PrependInt32Slot(11, finishSno, 0)
 
 def AddFinishSno(builder, finishSno):
     TownMissionAddFinishSno(builder, finishSno)
 
 def TownMissionAddRewardNo1(builder, rewardNo1):
-    builder.PrependInt32Slot(11, rewardNo1, 0)
+    builder.PrependInt32Slot(12, rewardNo1, 0)
 
 def AddRewardNo1(builder, rewardNo1):
     TownMissionAddRewardNo1(builder, rewardNo1)
 
 def TownMissionAddRewardAmount1(builder, rewardAmount1):
-    builder.PrependInt32Slot(12, rewardAmount1, 0)
+    builder.PrependInt32Slot(13, rewardAmount1, 0)
 
 def AddRewardAmount1(builder, rewardAmount1):
     TownMissionAddRewardAmount1(builder, rewardAmount1)
 
 def TownMissionAddRewardNo2(builder, rewardNo2):
-    builder.PrependInt32Slot(13, rewardNo2, 0)
+    builder.PrependInt32Slot(14, rewardNo2, 0)
 
 def AddRewardNo2(builder, rewardNo2):
     TownMissionAddRewardNo2(builder, rewardNo2)
 
 def TownMissionAddRewardAmount2(builder, rewardAmount2):
-    builder.PrependInt32Slot(14, rewardAmount2, 0)
+    builder.PrependInt32Slot(15, rewardAmount2, 0)
 
 def AddRewardAmount2(builder, rewardAmount2):
     TownMissionAddRewardAmount2(builder, rewardAmount2)
 
 def TownMissionAddRewardNo3(builder, rewardNo3):
-    builder.PrependInt32Slot(15, rewardNo3, 0)
+    builder.PrependInt32Slot(16, rewardNo3, 0)
 
 def AddRewardNo3(builder, rewardNo3):
     TownMissionAddRewardNo3(builder, rewardNo3)
 
 def TownMissionAddRewardAmount3(builder, rewardAmount3):
-    builder.PrependInt32Slot(16, rewardAmount3, 0)
+    builder.PrependInt32Slot(17, rewardAmount3, 0)
 
 def AddRewardAmount3(builder, rewardAmount3):
     TownMissionAddRewardAmount3(builder, rewardAmount3)

@@ -6,6 +6,7 @@ table TownMission {
   prev: int32;
   section: int32;
   type: int32;
+  event: int32;
   goal: int32;
   title_sno: int32;
   desc_sno: int32;

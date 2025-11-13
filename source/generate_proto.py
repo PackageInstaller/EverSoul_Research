@@ -13,24 +13,16 @@ def parse_cs_file_from_types(proto_type, file_path):
 
     namespace = proto_type
     
-    # --- 核心修改部分 ---
-    # 1. 修改正则表达式，使其更简单、更通用，能匹配一个完整的命名空间块。
     namespace_pattern = re.compile(rf'namespace\s+{re.escape(proto_type)}\s*{{(.*?)\n}}', re.DOTALL)
-    
-    # 2. 使用 re.finditer 遍历所有匹配的命名空间块，并将它们的内容拼接起来。
     combined_content = ""
     matches = namespace_pattern.finditer(content)
     for match in matches:
         combined_content += match.group(1)
 
-    # 3. 如果拼接后的内容为空，则说明确实没有找到任何匹配的命名空间。
     if not combined_content:
         print(f"未找到命名空间 {proto_type}")
         return namespace, {}, {}
-    
-    # 4. 后续所有的解析操作都基于拼接后的 combined_content 进行，而不是单个的 section_content。
     section_content = combined_content
-    # --- 修改结束 ---
 
     message_types = {}
     enum_types = {}
@@ -119,7 +111,6 @@ def parse_cs_file_from_types(proto_type, file_path):
     
     return namespace, message_types, enum_types
 
-# ----- 以下的函数无需修改，保持原样即可 -----
 
 def cs_type_to_proto_type(cs_type, known_messages):
     type_mapping = {
