@@ -3,7 +3,7 @@ from PIL import Image
 
 UnityPy.config.FALLBACK_UNITY_VERSION = "2022.3.62f1"
 
-def replace_texture_in_assetbundle(source_bundle_path, output_bundle_path, target_texture_name, replacement_image_path):
+def replace(source_bundle_path, output_bundle_path, target_texture_name, replacement_image_path):
     try:
         env = UnityPy.load(source_bundle_path)
         found_and_replaced = False
@@ -45,4 +45,4 @@ if __name__ == '__main__':
     # 用来替换的外部图片文件
     replacement_image_file = 'test.png'
 
-    replace_texture_in_assetbundle(source_bundle, output_bundle, target_texture_name, replacement_image_file)
+    replace(source_bundle, output_bundle, target_texture_name, replacement_image_file)

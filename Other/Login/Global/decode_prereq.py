@@ -1,10 +1,5 @@
 import zlib, base64
 data = "eJyVU01z2jAQ_SsdXYHgb9nM9JAaQppAQgJJgNKDLK2MwF_INmA6_e-VoEk7vdWn3Wft09u3q2-I1NW6t-quunt71dXJqpvksciWIsuaPuwFBRu1f6Dq-JCjXse0XewbthlYPxUoWPGVoR6iFlgGxVHHDrDbcTAnHd93cMf1GTepyRwjsFAbEUqhLGf5FjJVxA-ThGD-5FdN0OovZ-rivhYia5i0bsLB5Pa58KD0FLJ9-XIL-PZ11eV9yU7NMprehbPwrXywF_PNHkicncbrZuFd--PUD8Pp_aRVgbTzu3x9lDs63O1OJv8yXC5bB3Y93t3IKO2HrXk9jA0cPmyijQHu_cu2KLLlZDOfbYqTffBG1eg4ui6Ox2w6X3Xjt-PmPj4yZ2ykU-uZflXd7Iz09WaLByP-tOCD4WkvZptBRU6TaDHcv3nw6JVztmjmT-Rl0DI-KwvO3s6aApQBKclqkihQQlmnCuEkKaGNuICElaj3DRUJaUAqi9uI1mWVpxOZFyCrRgEl0FrCX0BRl-uLt5f4sahErhMSS4AUskrFKaQRyHvQBVzIshqdBQl1vRJHshh913oq2ehxG23EzitwXRS6poc804gwc30r8L2I-xg7thOY-pKMyVyw8zr8e0j9rkuRhnmdKWK9L1pWSqkKHc_QcaZj80xUXHbqD3NRTIEqTbowwNR1GMGeHVkm52A5JnawYQPxLcrgcvwVpGa7soIr09AUKZHbc32c53ECau90__RDz3r73n0PndadNclK7TDbXpjsKzO40jIrSIDmqYLC24dOOEPv_oxzBomCHzNFXpefJncD09QVuZrjuzfn9Lc2VyUZVIdcblV6EFx8cP3Pi6KJUHM9j69nYs_A2MWmYbuW0qrAU57BI-el7t3yfUN_bXRYiwou41QUcSl-v8hKvTy9V1KQRE__Q_fP778APMpMjQ=="
-decoded = base64.urlsafe_b64decode(data)
 
-try:
-    decompressed = zlib.decompress(decoded)
-    with open('decompressed.json', 'w', encoding='utf-8') as f:
-        f.write(decompressed.decode('utf-8', errors='replace'))
-except Exception as e:
-    print("失败：", e)
+with open('decompressed.json', 'w', encoding='utf-8') as f:
+    f.write((zlib.decompress(base64.urlsafe_b64decode(data))).decode('utf-8'))
