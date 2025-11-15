@@ -4,6 +4,9 @@ project(eversoul)
 if(MSVC)
     add_compile_options(/MP)
 endif()
+# 编译目录设置为 Build
+set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/Build)
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -15,14 +18,14 @@ find_package(nlohmann_json REQUIRED CONFIG)
 find_package(ZLIB REQUIRED)
 
 add_executable(eversoul
-    source/main.cpp
-    source/version_manager.cpp
-    source/table_updater.cpp
-    source/table_converter.cpp
-    source/http_client.cpp
-    source/file_downloader.cpp
-    source/crypto_utils.cpp
-    source/progress_display.cpp
+    Src/main.cpp
+    Src/version_manager.cpp
+    Src/table_updater.cpp
+    Src/table_converter.cpp
+    Src/http_client.cpp
+    Src/file_downloader.cpp
+    Src/crypto_utils.cpp
+    Src/progress_display.cpp
 )
 
 target_link_libraries(eversoul

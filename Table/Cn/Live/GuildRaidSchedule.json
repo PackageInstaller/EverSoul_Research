@@ -1,0 +1,28 @@
+{
+  "json": [
+    {
+      "no": 1,
+      "raid_no": 1,
+      "server_check": 1,
+      "schedule_key": "GuildRaid_1_1"
+    },
+    {
+      "no": 50001,
+      "raid_no": 1,
+      "server_check": 2,
+      "schedule_key": "GuildRaid_2_1"
+    },
+    {
+      "no": 90001,
+      "raid_no": 1,
+      "server_check": 3,
+      "schedule_key": "GuildRaid_3_1"
+    },
+    {
+      "no": 100001,
+      "raid_no": 1,
+      "server_check": 4,
+      "schedule_key": "GuildRaid_4_1"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+ninja_dyndep_version = 1.0
+build CMakeFiles/eversoul.dir/Src/main.cpp.o: dyndep
+
+build CMakeFiles/eversoul.dir/Src/version_manager.cpp.o: dyndep
+
+build CMakeFiles/eversoul.dir/Src/table_updater.cpp.o: dyndep
+
+build CMakeFiles/eversoul.dir/Src/table_converter.cpp.o: dyndep
+
+build CMakeFiles/eversoul.dir/Src/http_client.cpp.o: dyndep
+
+build CMakeFiles/eversoul.dir/Src/file_downloader.cpp.o: dyndep
+
+build CMakeFiles/eversoul.dir/Src/crypto_utils.cpp.o: dyndep
+
+build CMakeFiles/eversoul.dir/Src/progress_display.cpp.o: dyndep
+

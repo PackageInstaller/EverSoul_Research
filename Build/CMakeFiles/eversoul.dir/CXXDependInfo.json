@@ -1,0 +1,62 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "GNU",
+	"compiler-id" : "GNU",
+	"compiler-simulate-id" : "",
+	"config" : "Release",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "/home/rikka/Eversoul/Build",
+	"dir-cur-src" : "/home/rikka/Eversoul",
+	"dir-top-bld" : "/home/rikka/Eversoul/Build",
+	"dir-top-src" : "/home/rikka/Eversoul",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : [],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "/home/rikka/Eversoul/Build/CMakeFiles/eversoul.dir",
+	"sources" : 
+	{
+		"CMakeFiles/eversoul.dir/Src/crypto_utils.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/rikka/Eversoul/Src/crypto_utils.cpp"
+		},
+		"CMakeFiles/eversoul.dir/Src/file_downloader.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/rikka/Eversoul/Src/file_downloader.cpp"
+		},
+		"CMakeFiles/eversoul.dir/Src/http_client.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/rikka/Eversoul/Src/http_client.cpp"
+		},
+		"CMakeFiles/eversoul.dir/Src/main.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/rikka/Eversoul/Src/main.cpp"
+		},
+		"CMakeFiles/eversoul.dir/Src/progress_display.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/rikka/Eversoul/Src/progress_display.cpp"
+		},
+		"CMakeFiles/eversoul.dir/Src/table_converter.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/rikka/Eversoul/Src/table_converter.cpp"
+		},
+		"CMakeFiles/eversoul.dir/Src/table_updater.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/rikka/Eversoul/Src/table_updater.cpp"
+		},
+		"CMakeFiles/eversoul.dir/Src/version_manager.cpp.o" : 
+		{
+			"language" : "CXX",
+			"source" : "/home/rikka/Eversoul/Src/version_manager.cpp"
+		}
+	}
+}

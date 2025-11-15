@@ -1,0 +1,28 @@
+{
+  "json": [
+    {
+      "no": 1,
+      "raid_no": 1,
+      "step": 8,
+      "step_value": 1
+    },
+    {
+      "no": 50001,
+      "raid_no": 1,
+      "step": 8,
+      "step_value": 2
+    },
+    {
+      "no": 90001,
+      "raid_no": 1,
+      "step": 8,
+      "step_value": 3
+    },
+    {
+      "no": 100001,
+      "raid_no": 1,
+      "step": 8,
+      "step_value": 4
+    }
+  ]
+}

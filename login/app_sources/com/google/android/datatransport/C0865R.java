@@ -1,9 +1,0 @@
-package com.google.android.datatransport;
-
-/* renamed from: com.google.android.datatransport.R */
-/* loaded from: classes.dex */
-public final class C0865R {
-    /* JADX WARN: Unreachable blocks removed: 1, instructions: 1 */
-    private C0865R() {
-    }
-}
