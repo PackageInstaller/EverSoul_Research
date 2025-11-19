@@ -1,49 +1,49 @@
 [
 {
   "directory": "/home/rikka/Eversoul/Build",
-  "command": "/usr/bin/c++ -O3 -DNDEBUG -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/eversoul.dir/Src/main.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/eversoul.dir/Src/main.cpp.o -c /home/rikka/Eversoul/Src/main.cpp",
+  "command": "/usr/bin/g++ -O3 -DNDEBUG -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/eversoul.dir/Src/main.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/eversoul.dir/Src/main.cpp.o -c /home/rikka/Eversoul/Src/main.cpp",
   "file": "/home/rikka/Eversoul/Src/main.cpp",
   "output": "/home/rikka/Eversoul/Build/CMakeFiles/eversoul.dir/Src/main.cpp.o"
 },
 {
   "directory": "/home/rikka/Eversoul/Build",
-  "command": "/usr/bin/c++ -O3 -DNDEBUG -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/eversoul.dir/Src/version_manager.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/eversoul.dir/Src/version_manager.cpp.o -c /home/rikka/Eversoul/Src/version_manager.cpp",
+  "command": "/usr/bin/g++ -O3 -DNDEBUG -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/eversoul.dir/Src/version_manager.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/eversoul.dir/Src/version_manager.cpp.o -c /home/rikka/Eversoul/Src/version_manager.cpp",
   "file": "/home/rikka/Eversoul/Src/version_manager.cpp",
   "output": "/home/rikka/Eversoul/Build/CMakeFiles/eversoul.dir/Src/version_manager.cpp.o"
 },
 {
   "directory": "/home/rikka/Eversoul/Build",
-  "command": "/usr/bin/c++ -O3 -DNDEBUG -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/eversoul.dir/Src/table_updater.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/eversoul.dir/Src/table_updater.cpp.o -c /home/rikka/Eversoul/Src/table_updater.cpp",
+  "command": "/usr/bin/g++ -O3 -DNDEBUG -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/eversoul.dir/Src/table_updater.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/eversoul.dir/Src/table_updater.cpp.o -c /home/rikka/Eversoul/Src/table_updater.cpp",
   "file": "/home/rikka/Eversoul/Src/table_updater.cpp",
   "output": "/home/rikka/Eversoul/Build/CMakeFiles/eversoul.dir/Src/table_updater.cpp.o"
 },
 {
   "directory": "/home/rikka/Eversoul/Build",
-  "command": "/usr/bin/c++ -O3 -DNDEBUG -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/eversoul.dir/Src/table_converter.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/eversoul.dir/Src/table_converter.cpp.o -c /home/rikka/Eversoul/Src/table_converter.cpp",
+  "command": "/usr/bin/g++ -O3 -DNDEBUG -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/eversoul.dir/Src/table_converter.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/eversoul.dir/Src/table_converter.cpp.o -c /home/rikka/Eversoul/Src/table_converter.cpp",
   "file": "/home/rikka/Eversoul/Src/table_converter.cpp",
   "output": "/home/rikka/Eversoul/Build/CMakeFiles/eversoul.dir/Src/table_converter.cpp.o"
 },
 {
   "directory": "/home/rikka/Eversoul/Build",
-  "command": "/usr/bin/c++ -O3 -DNDEBUG -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/eversoul.dir/Src/http_client.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/eversoul.dir/Src/http_client.cpp.o -c /home/rikka/Eversoul/Src/http_client.cpp",
+  "command": "/usr/bin/g++ -O3 -DNDEBUG -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/eversoul.dir/Src/http_client.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/eversoul.dir/Src/http_client.cpp.o -c /home/rikka/Eversoul/Src/http_client.cpp",
   "file": "/home/rikka/Eversoul/Src/http_client.cpp",
   "output": "/home/rikka/Eversoul/Build/CMakeFiles/eversoul.dir/Src/http_client.cpp.o"
 },
 {
   "directory": "/home/rikka/Eversoul/Build",
-  "command": "/usr/bin/c++ -O3 -DNDEBUG -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/eversoul.dir/Src/file_downloader.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/eversoul.dir/Src/file_downloader.cpp.o -c /home/rikka/Eversoul/Src/file_downloader.cpp",
+  "command": "/usr/bin/g++ -O3 -DNDEBUG -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/eversoul.dir/Src/file_downloader.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/eversoul.dir/Src/file_downloader.cpp.o -c /home/rikka/Eversoul/Src/file_downloader.cpp",
   "file": "/home/rikka/Eversoul/Src/file_downloader.cpp",
   "output": "/home/rikka/Eversoul/Build/CMakeFiles/eversoul.dir/Src/file_downloader.cpp.o"
 },
 {
   "directory": "/home/rikka/Eversoul/Build",
-  "command": "/usr/bin/c++ -O3 -DNDEBUG -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/eversoul.dir/Src/crypto_utils.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/eversoul.dir/Src/crypto_utils.cpp.o -c /home/rikka/Eversoul/Src/crypto_utils.cpp",
+  "command": "/usr/bin/g++ -O3 -DNDEBUG -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/eversoul.dir/Src/crypto_utils.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/eversoul.dir/Src/crypto_utils.cpp.o -c /home/rikka/Eversoul/Src/crypto_utils.cpp",
   "file": "/home/rikka/Eversoul/Src/crypto_utils.cpp",
   "output": "/home/rikka/Eversoul/Build/CMakeFiles/eversoul.dir/Src/crypto_utils.cpp.o"
 },
 {
   "directory": "/home/rikka/Eversoul/Build",
-  "command": "/usr/bin/c++ -O3 -DNDEBUG -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/eversoul.dir/Src/progress_display.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/eversoul.dir/Src/progress_display.cpp.o -c /home/rikka/Eversoul/Src/progress_display.cpp",
+  "command": "/usr/bin/g++ -O3 -DNDEBUG -std=gnu++23 -fmodules-ts -fmodule-mapper=CMakeFiles/eversoul.dir/Src/progress_display.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/eversoul.dir/Src/progress_display.cpp.o -c /home/rikka/Eversoul/Src/progress_display.cpp",
   "file": "/home/rikka/Eversoul/Src/progress_display.cpp",
   "output": "/home/rikka/Eversoul/Build/CMakeFiles/eversoul.dir/Src/progress_display.cpp.o"
 }
