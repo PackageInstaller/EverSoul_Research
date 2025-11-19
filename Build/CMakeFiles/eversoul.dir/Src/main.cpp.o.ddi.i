@@ -89,6 +89,14 @@ namespace std
   noexcept;
 #pragma GCC visibility pop
 }
+# 648 "/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h" 3
+namespace std
+{
+  __attribute__((__always_inline__,__visibility__("default")))
+  inline void
+  __glibcxx_assert_fail()
+  { }
+}
 # 727 "/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h" 3
 # 1 "/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h" 1 3
 # 39 "/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h" 3
@@ -578,7 +586,34 @@ extern size_t __mbrlen (const char *__restrict __s, size_t __n,
    mbstate_t *__restrict __ps) noexcept (true);
 extern size_t mbrlen (const char *__restrict __s, size_t __n,
         mbstate_t *__restrict __ps) noexcept (true);
-# 362 "/usr/include/wchar.h" 3 4
+
+
+
+
+
+
+
+extern wint_t __btowc_alias (int __c) __asm ("btowc");
+extern __inline __attribute__ ((__gnu_inline__)) wint_t
+__attribute__ ((__leaf__)) btowc (int __c) noexcept (true)
+{ return (__builtin_constant_p (__c) && __c >= '\0' && __c <= '\x7f'
+   ? (wint_t) __c : __btowc_alias (__c)); }
+
+extern int __wctob_alias (wint_t __c) __asm ("wctob");
+extern __inline __attribute__ ((__gnu_inline__)) int
+__attribute__ ((__leaf__)) wctob (wint_t __wc) noexcept (true)
+{ return (__builtin_constant_p (__wc) && __wc >= L'\0' && __wc <= L'\x7f'
+   ? (int) __wc : __wctob_alias (__wc)); }
+
+extern __inline __attribute__ ((__gnu_inline__)) size_t
+__attribute__ ((__leaf__)) mbrlen (const char *__restrict __s, size_t __n, mbstate_t *__restrict __ps) noexcept (true)
+
+{ return (__ps != __null
+   ? mbrtowc (__null, __s, __n, __ps) : __mbrlen (__s, __n, __null)); }
+
+
+
+
 extern size_t mbsrtowcs (wchar_t *__restrict __dst,
     const char **__restrict __src, size_t __len,
     mbstate_t *__restrict __ps) noexcept (true);
@@ -8819,7 +8854,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     {
 
      
-      do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h", 163, __PRETTY_FUNCTION__, "__n >= 0"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__n >= 0)) std::__glibcxx_assert_fail(); } while (false);
       while (__n--)
  ++__i;
     }
@@ -12351,7 +12386,17 @@ extern pid_t pthread_gettid_np (pthread_t __thread_id);
 extern int pthread_atfork (void (*__prepare) (void),
       void (*__parent) (void),
       void (*__child) (void)) noexcept (true);
-# 1351 "/usr/include/pthread.h" 3 4
+
+
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+__attribute__ ((__leaf__)) pthread_equal (pthread_t __thread1, pthread_t __thread2) noexcept (true)
+{
+  return __thread1 == __thread2;
+}
+
+
 }
 # 36 "/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h" 2 3
 # 62 "/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/gthr-default.h" 3
@@ -15510,7 +15555,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       noexcept(_S_noexcept<const _It2&, const _Sent2&>())
       : _M_valueless(), _M_index(__x._M_index)
       {
- do { if (__builtin_expect(!bool(__x._M_has_value()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 1948, __PRETTY_FUNCTION__, "__x._M_has_value()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__x._M_has_value())) std::__glibcxx_assert_fail(); } while (false);
  if (_M_index == 0)
    {
      if constexpr (is_trivially_default_constructible_v<_It>)
@@ -15620,7 +15665,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
         && is_nothrow_assignable_v<_It&, const _It2&>
         && is_nothrow_assignable_v<_Sent&, const _Sent2&>)
       {
- do { if (__builtin_expect(!bool(__x._M_has_value()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2058, __PRETTY_FUNCTION__, "__x._M_has_value()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__x._M_has_value())) std::__glibcxx_assert_fail(); } while (false);
  _M_assign(__x);
  return *this;
       }
@@ -15647,7 +15692,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     constexpr decltype(auto)
     operator*()
     {
-      do { if (__builtin_expect(!bool(_M_index == 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2085, __PRETTY_FUNCTION__, "_M_index == 0"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_index == 0)) std::__glibcxx_assert_fail(); } while (false);
       return *_M_it;
     }
 
@@ -15655,7 +15700,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     constexpr decltype(auto)
     operator*() const requires __detail::__dereferenceable<const _It>
     {
-      do { if (__builtin_expect(!bool(_M_index == 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2093, __PRETTY_FUNCTION__, "_M_index == 0"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_index == 0)) std::__glibcxx_assert_fail(); } while (false);
       return *_M_it;
     }
 
@@ -15663,7 +15708,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     constexpr auto
     operator->() const requires __detail::__common_iter_has_arrow<_It>
     {
-      do { if (__builtin_expect(!bool(_M_index == 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2101, __PRETTY_FUNCTION__, "_M_index == 0"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_index == 0)) std::__glibcxx_assert_fail(); } while (false);
       if constexpr (is_pointer_v<_It> || requires { _M_it.operator->(); })
  return _M_it;
       else if constexpr (is_reference_v<iter_reference_t<_It>>)
@@ -15678,7 +15723,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     constexpr common_iterator&
     operator++()
     {
-      do { if (__builtin_expect(!bool(_M_index == 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2116, __PRETTY_FUNCTION__, "_M_index == 0"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_index == 0)) std::__glibcxx_assert_fail(); } while (false);
       ++_M_it;
       return *this;
     }
@@ -15686,7 +15731,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     constexpr decltype(auto)
     operator++(int)
     {
-      do { if (__builtin_expect(!bool(_M_index == 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2124, __PRETTY_FUNCTION__, "_M_index == 0"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_index == 0)) std::__glibcxx_assert_fail(); } while (false);
       if constexpr (forward_iterator<_It>)
  {
    common_iterator __tmp = *this;
@@ -15719,8 +15764,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
    case 0b0100:
      return __x._M_sent == __y._M_it;
    default:
-     do { if (__builtin_expect(!bool(__x._M_has_value()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2157, __PRETTY_FUNCTION__, "__x._M_has_value()"); } while (false);
-     do { if (__builtin_expect(!bool(__y._M_has_value()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2158, __PRETTY_FUNCTION__, "__y._M_has_value()"); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(__x._M_has_value())) std::__glibcxx_assert_fail(); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(__y._M_has_value())) std::__glibcxx_assert_fail(); } while (false);
      __builtin_unreachable();
    }
       }
@@ -15742,8 +15787,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
    case 0b0100:
      return __x._M_sent == __y._M_it;
    default:
-     do { if (__builtin_expect(!bool(__x._M_has_value()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2180, __PRETTY_FUNCTION__, "__x._M_has_value()"); } while (false);
-     do { if (__builtin_expect(!bool(__y._M_has_value()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2181, __PRETTY_FUNCTION__, "__y._M_has_value()"); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(__x._M_has_value())) std::__glibcxx_assert_fail(); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(__y._M_has_value())) std::__glibcxx_assert_fail(); } while (false);
      __builtin_unreachable();
    }
       }
@@ -15765,8 +15810,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
    case 0b0100:
      return __x._M_sent - __y._M_it;
    default:
-     do { if (__builtin_expect(!bool(__x._M_has_value()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2203, __PRETTY_FUNCTION__, "__x._M_has_value()"); } while (false);
-     do { if (__builtin_expect(!bool(__y._M_has_value()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2204, __PRETTY_FUNCTION__, "__y._M_has_value()"); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(__x._M_has_value())) std::__glibcxx_assert_fail(); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(__y._M_has_value())) std::__glibcxx_assert_fail(); } while (false);
      __builtin_unreachable();
    }
       }
@@ -15777,7 +15822,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     noexcept(noexcept(ranges::iter_move(std::declval<const _It&>())))
     requires input_iterator<_It>
     {
-      do { if (__builtin_expect(!bool(__i._M_index == 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2215, __PRETTY_FUNCTION__, "__i._M_index == 0"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__i._M_index == 0)) std::__glibcxx_assert_fail(); } while (false);
       return ranges::iter_move(__i._M_it);
     }
 
@@ -15788,8 +15833,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
       noexcept(noexcept(ranges::iter_swap(std::declval<const _It&>(),
        std::declval<const _It2&>())))
       {
- do { if (__builtin_expect(!bool(__x._M_index == 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2226, __PRETTY_FUNCTION__, "__x._M_index == 0"); } while (false);
- do { if (__builtin_expect(!bool(__y._M_index == 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2227, __PRETTY_FUNCTION__, "__y._M_index == 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__x._M_index == 0)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__y._M_index == 0)) std::__glibcxx_assert_fail(); } while (false);
  return ranges::iter_swap(__x._M_it, __y._M_it);
       }
 
@@ -15938,7 +15983,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr
       counted_iterator(_It __i, iter_difference_t<_It> __n)
       : _M_current(std::move(__i)), _M_length(__n)
-      { do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2376, __PRETTY_FUNCTION__, "__n >= 0"); } while (false); }
+      { do { if (std::__is_constant_evaluated() && !bool(__n >= 0)) std::__glibcxx_assert_fail(); } while (false); }
 
       template<typename _It2>
  requires convertible_to<const _It2&, _It>
@@ -15977,7 +16022,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       operator*()
       noexcept(noexcept(*_M_current))
       {
- do { if (__builtin_expect(!bool(_M_length > 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2415, __PRETTY_FUNCTION__, "_M_length > 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(_M_length > 0)) std::__glibcxx_assert_fail(); } while (false);
  return *_M_current;
       }
 
@@ -15987,7 +16032,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       noexcept(noexcept(*_M_current))
       requires __detail::__dereferenceable<const _It>
       {
- do { if (__builtin_expect(!bool(_M_length > 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2425, __PRETTY_FUNCTION__, "_M_length > 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(_M_length > 0)) std::__glibcxx_assert_fail(); } while (false);
  return *_M_current;
       }
 
@@ -16000,7 +16045,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr counted_iterator&
       operator++()
       {
- do { if (__builtin_expect(!bool(_M_length > 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2438, __PRETTY_FUNCTION__, "_M_length > 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(_M_length > 0)) std::__glibcxx_assert_fail(); } while (false);
  ++_M_current;
  --_M_length;
  return *this;
@@ -16009,7 +16054,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr decltype(auto)
       operator++(int)
       {
- do { if (__builtin_expect(!bool(_M_length > 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2447, __PRETTY_FUNCTION__, "_M_length > 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(_M_length > 0)) std::__glibcxx_assert_fail(); } while (false);
  --_M_length;
  try
    {
@@ -16060,7 +16105,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       operator+=(iter_difference_t<_It> __n)
       requires random_access_iterator<_It>
       {
- do { if (__builtin_expect(!bool(__n <= _M_length), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2498, __PRETTY_FUNCTION__, "__n <= _M_length"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__n <= _M_length)) std::__glibcxx_assert_fail(); } while (false);
  _M_current += __n;
  _M_length -= __n;
  return *this;
@@ -16093,7 +16138,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       operator-=(iter_difference_t<_It> __n)
       requires random_access_iterator<_It>
       {
- do { if (__builtin_expect(!bool(-__n <= _M_length), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2531, __PRETTY_FUNCTION__, "-__n <= _M_length"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(-__n <= _M_length)) std::__glibcxx_assert_fail(); } while (false);
  _M_current -= __n;
  _M_length += __n;
  return *this;
@@ -16105,7 +16150,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       noexcept(noexcept(_M_current[__n]))
       requires random_access_iterator<_It>
       {
- do { if (__builtin_expect(!bool(__n < _M_length), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2543, __PRETTY_FUNCTION__, "__n < _M_length"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__n < _M_length)) std::__glibcxx_assert_fail(); } while (false);
  return _M_current[__n];
       }
 
@@ -16134,7 +16179,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       noexcept(noexcept(ranges::iter_move(__i._M_current)))
       requires input_iterator<_It>
       {
- do { if (__builtin_expect(!bool(__i._M_length > 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2572, __PRETTY_FUNCTION__, "__i._M_length > 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__i._M_length > 0)) std::__glibcxx_assert_fail(); } while (false);
  return ranges::iter_move(__i._M_current);
       }
 
@@ -16144,7 +16189,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     const counted_iterator<_It2>& __y)
  noexcept(noexcept(ranges::iter_swap(__x._M_current, __y._M_current)))
  {
-   do { if (__builtin_expect(!bool(__x._M_length > 0 && __y._M_length > 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_iterator.h", 2582, __PRETTY_FUNCTION__, "__x._M_length > 0 && __y._M_length > 0"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(__x._M_length > 0 && __y._M_length > 0)) std::__glibcxx_assert_fail(); } while (false);
    ranges::iter_swap(__x._M_current, __y._M_current);
  }
 
@@ -19453,7 +19498,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       if (!std::__is_constant_evaluated())
  {
-   do { if (__builtin_expect(!bool(__shift_exponent != __int_traits<_Tp>::__digits), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bit", 356, __PRETTY_FUNCTION__, "__shift_exponent != __int_traits<_Tp>::__digits"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(__shift_exponent != __int_traits<_Tp>::__digits)) std::__glibcxx_assert_fail(); } while (false);
  }
 
       using __promoted_type = decltype(__x << 1);
@@ -23389,7 +23434,7 @@ namespace ranges
       constexpr __max_size_type&
       operator/=(const __max_size_type& __r) noexcept
       {
- do { if (__builtin_expect(!bool(__r != 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/max_size_type.h", 164, __PRETTY_FUNCTION__, "__r != 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__r != 0)) std::__glibcxx_assert_fail(); } while (false);
 
  if (!_M_msb && !__r._M_msb) [[likely]]
    _M_val /= __r._M_val;
@@ -23429,7 +23474,7 @@ namespace ranges
       constexpr __max_size_type&
       operator<<=(const __max_size_type& __r) noexcept
       {
- do { if (__builtin_expect(!bool(__r <= _S_rep_bits), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/max_size_type.h", 204, __PRETTY_FUNCTION__, "__r <= _S_rep_bits"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__r <= _S_rep_bits)) std::__glibcxx_assert_fail(); } while (false);
  if (__r != 0)
    {
      _M_msb = (_M_val >> (_S_rep_bits - __r._M_val)) & 1;
@@ -23445,7 +23490,7 @@ namespace ranges
       constexpr __max_size_type&
       operator>>=(const __max_size_type& __r) noexcept
       {
- do { if (__builtin_expect(!bool(__r <= _S_rep_bits), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/max_size_type.h", 220, __PRETTY_FUNCTION__, "__r <= _S_rep_bits"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__r <= _S_rep_bits)) std::__glibcxx_assert_fail(); } while (false);
  if (__r != 0)
    {
      if (__r._M_val == _S_rep_bits) [[unlikely]]
@@ -23725,7 +23770,7 @@ namespace ranges
       constexpr __max_diff_type&
       operator/=(const __max_diff_type& __r) noexcept
       {
- do { if (__builtin_expect(!bool(__r != 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/max_size_type.h", 527, __PRETTY_FUNCTION__, "__r != 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__r != 0)) std::__glibcxx_assert_fail(); } while (false);
  const bool __neg = *this < 0;
  const bool __rneg = __r < 0;
  if (!__neg && !__rneg)
@@ -23742,7 +23787,7 @@ namespace ranges
       constexpr __max_diff_type&
       operator%=(const __max_diff_type& __r) noexcept
       {
- do { if (__builtin_expect(!bool(__r != 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/max_size_type.h", 544, __PRETTY_FUNCTION__, "__r != 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__r != 0)) std::__glibcxx_assert_fail(); } while (false);
  if (*this >= 0 && __r > 0)
    _M_rep %= __r._M_rep;
  else
@@ -24742,7 +24787,7 @@ namespace ranges
  else
    {
 
-     do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/ranges_base.h", 870, __PRETTY_FUNCTION__, "__n >= 0"); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(__n >= 0)) std::__glibcxx_assert_fail(); } while (false);
      while (__n-- > 0)
        ++__it;
    }
@@ -24781,7 +24826,7 @@ namespace ranges
      else if (__n != 0) [[likely]]
        {
 
-  do { if (__builtin_expect(!bool((__n < 0) == (__diff < 0)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/ranges_base.h", 909, __PRETTY_FUNCTION__, "(__n < 0) == (__diff < 0)"); } while (false);
+  do { if (std::__is_constant_evaluated() && !bool((__n < 0) == (__diff < 0))) std::__glibcxx_assert_fail(); } while (false);
 
   (*this)(__it, __n);
   return 0;
@@ -24816,7 +24861,7 @@ namespace ranges
  else
    {
 
-     do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/ranges_base.h", 944, __PRETTY_FUNCTION__, "__n >= 0"); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(__n >= 0)) std::__glibcxx_assert_fail(); } while (false);
      return __n;
    }
       }
@@ -25180,7 +25225,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr const_reference
       operator[](size_type __pos) const noexcept
       {
- do { if (__builtin_expect(!bool(__pos < this->_M_len), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/string_view", 260, __PRETTY_FUNCTION__, "__pos < this->_M_len"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__pos < this->_M_len)) std::__glibcxx_assert_fail(); } while (false);
  return *(this->_M_str + __pos);
       }
 
@@ -25199,7 +25244,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr const_reference
       front() const noexcept
       {
- do { if (__builtin_expect(!bool(this->_M_len > 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/string_view", 279, __PRETTY_FUNCTION__, "this->_M_len > 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(this->_M_len > 0)) std::__glibcxx_assert_fail(); } while (false);
  return *this->_M_str;
       }
 
@@ -25207,7 +25252,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr const_reference
       back() const noexcept
       {
- do { if (__builtin_expect(!bool(this->_M_len > 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/string_view", 287, __PRETTY_FUNCTION__, "this->_M_len > 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(this->_M_len > 0)) std::__glibcxx_assert_fail(); } while (false);
  return *(this->_M_str + this->_M_len - 1);
       }
 
@@ -25221,7 +25266,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr void
       remove_prefix(size_type __n) noexcept
       {
- do { if (__builtin_expect(!bool(this->_M_len >= __n), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/string_view", 301, __PRETTY_FUNCTION__, "this->_M_len >= __n"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(this->_M_len >= __n)) std::__glibcxx_assert_fail(); } while (false);
  this->_M_str += __n;
  this->_M_len -= __n;
       }
@@ -25229,7 +25274,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr void
       remove_suffix(size_type __n) noexcept
       {
- do { if (__builtin_expect(!bool(this->_M_len >= __n), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/string_view", 309, __PRETTY_FUNCTION__, "this->_M_len >= __n"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(this->_M_len >= __n)) std::__glibcxx_assert_fail(); } while (false);
  this->_M_len -= __n;
       }
 
@@ -26602,14 +26647,14 @@ namespace ranges
       constexpr decltype(auto)
       front() requires forward_range<_Derived>
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/ranges_util.h", 164, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!empty())) std::__glibcxx_assert_fail(); } while (false);
  return *ranges::begin(_M_derived());
       }
 
       constexpr decltype(auto)
       front() const requires forward_range<const _Derived>
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/ranges_util.h", 171, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!empty())) std::__glibcxx_assert_fail(); } while (false);
  return *ranges::begin(_M_derived());
       }
 
@@ -26617,7 +26662,7 @@ namespace ranges
       back()
       requires bidirectional_range<_Derived> && common_range<_Derived>
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/ranges_util.h", 179, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!empty())) std::__glibcxx_assert_fail(); } while (false);
  return *ranges::prev(ranges::end(_M_derived()));
       }
 
@@ -26626,7 +26671,7 @@ namespace ranges
       requires bidirectional_range<const _Derived>
  && common_range<const _Derived>
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/ranges_util.h", 188, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!empty())) std::__glibcxx_assert_fail(); } while (false);
  return *ranges::prev(ranges::end(_M_derived()));
       }
 
@@ -26841,7 +26886,7 @@ namespace ranges
        return *this;
      }
 
- do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/ranges_util.h", 420, __PRETTY_FUNCTION__, "__n >= 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__n >= 0)) std::__glibcxx_assert_fail(); } while (false);
  auto __d = __n - ranges::advance(_M_begin, __n, _M_end);
  if constexpr (_S_store_size)
    _M_size._M_size -= __detail::__to_unsigned_like(__d);
@@ -27183,7 +27228,7 @@ namespace ranges
       {
  auto __first = ranges::begin(__r);
  auto __last = ranges::end(__r);
- do { if (__builtin_expect(!bool(__first != __last), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/ranges_util.h", 762, __PRETTY_FUNCTION__, "__first != __last"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__first != __last)) std::__glibcxx_assert_fail(); } while (false);
  auto __result = *__first;
  while (++__first != __last)
    {
@@ -28318,7 +28363,7 @@ namespace __cxx11 {
       const_reference
       operator[] (size_type __pos) const noexcept
       {
- do { if (__builtin_expect(!bool(__pos <= size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/basic_string.h", 1349, __PRETTY_FUNCTION__, "__pos <= size()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__pos <= size())) std::__glibcxx_assert_fail(); } while (false);
  return _M_data()[__pos];
       }
 # 1363 "/usr/include/c++/15.2.1/bits/basic_string.h" 3
@@ -28328,7 +28373,7 @@ namespace __cxx11 {
       {
 
 
- do { if (__builtin_expect(!bool(__pos <= size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/basic_string.h", 1369, __PRETTY_FUNCTION__, "__pos <= size()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__pos <= size())) std::__glibcxx_assert_fail(); } while (false);
 
  ;
  return _M_data()[__pos];
@@ -28367,7 +28412,7 @@ namespace __cxx11 {
       reference
       front() noexcept
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/basic_string.h", 1428, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!empty())) std::__glibcxx_assert_fail(); } while (false);
  return operator[](0);
       }
 
@@ -28379,7 +28424,7 @@ namespace __cxx11 {
       const_reference
       front() const noexcept
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/basic_string.h", 1440, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!empty())) std::__glibcxx_assert_fail(); } while (false);
  return operator[](0);
       }
 
@@ -28391,7 +28436,7 @@ namespace __cxx11 {
       reference
       back() noexcept
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/basic_string.h", 1452, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!empty())) std::__glibcxx_assert_fail(); } while (false);
  return operator[](this->size() - 1);
       }
 
@@ -28403,7 +28448,7 @@ namespace __cxx11 {
       const_reference
       back() const noexcept
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/basic_string.h", 1464, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!empty())) std::__glibcxx_assert_fail(); } while (false);
  return operator[](this->size() - 1);
       }
 # 1475 "/usr/include/c++/15.2.1/bits/basic_string.h" 3
@@ -28929,7 +28974,7 @@ namespace __cxx11 {
       void
       pop_back() noexcept
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/basic_string.h", 2385, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!empty())) std::__glibcxx_assert_fail(); } while (false);
  _M_erase(size() - 1, 1);
       }
 # 2407 "/usr/include/c++/15.2.1/bits/basic_string.h" 3
@@ -30234,6 +30279,24 @@ extern _Float64x strtof64x_l (const char *__restrict __nptr,
          char **__restrict __endptr,
          locale_t __loc)
      noexcept (true) __attribute__ ((__nonnull__ (1, 3)));
+# 480 "/usr/include/stdlib.h" 3 4
+extern __inline __attribute__ ((__gnu_inline__)) int
+__attribute__ ((__leaf__)) atoi (const char *__nptr) noexcept (true)
+{
+  return (int) strtol (__nptr, (char **) __null, 10);
+}
+extern __inline __attribute__ ((__gnu_inline__)) long int
+__attribute__ ((__leaf__)) atol (const char *__nptr) noexcept (true)
+{
+  return strtol (__nptr, (char **) __null, 10);
+}
+
+
+__extension__ extern __inline __attribute__ ((__gnu_inline__)) long long int
+__attribute__ ((__leaf__)) atoll (const char *__nptr) noexcept (true)
+{
+  return strtoll (__nptr, (char **) __null, 10);
+}
 # 505 "/usr/include/stdlib.h" 3 4
 extern char *l64a (long int __n) noexcept (true) ;
 
@@ -30874,7 +30937,41 @@ extern void *bsearch (const void *__key, const void *__base,
      __attribute__ ((__nonnull__ (1, 2, 5))) ;
 
 
+# 1 "/usr/include/bits/stdlib-bsearch.h" 1 3 4
+# 19 "/usr/include/bits/stdlib-bsearch.h" 3 4
+extern __inline __attribute__ ((__gnu_inline__)) void *
+bsearch (const void *__key, const void *__base, size_t __nmemb, size_t __size,
+  __compar_fn_t __compar)
+{
+  const void *__p;
+  int __comparison;
 
+  while (__nmemb)
+    {
+      __p = (const void *) (((const char *) __base) + ((__nmemb >> 1) * __size));
+      __comparison = (*__compar) (__key, __p);
+      if (__comparison == 0)
+ {
+
+#pragma GCC diagnostic push
+#pragma GCC diagnostic ignored "-Wcast-qual"
+
+   return (void *) __p;
+
+#pragma GCC diagnostic pop
+
+ }
+      if (__comparison > 0)
+ {
+   __base = ((const char *) __p) + __size;
+   --__nmemb;
+ }
+      __nmemb >>= 1;
+    }
+
+  return __null;
+}
+# 966 "/usr/include/stdlib.h" 2 3 4
 
 
 
@@ -31045,6 +31142,12 @@ extern int getloadavg (double __loadavg[], int __nelem)
      noexcept (true) __attribute__ ((__nonnull__ (1)));
 # 1161 "/usr/include/stdlib.h" 3 4
 # 1 "/usr/include/bits/stdlib-float.h" 1 3 4
+# 24 "/usr/include/bits/stdlib-float.h" 3 4
+extern __inline __attribute__ ((__gnu_inline__)) double
+__attribute__ ((__leaf__)) atof (const char *__nptr) noexcept (true)
+{
+  return strtod (__nptr, (char **) __null);
+}
 # 1162 "/usr/include/stdlib.h" 2 3 4
 # 1173 "/usr/include/stdlib.h" 3 4
 }
@@ -31950,7 +32053,117 @@ extern void funlockfile (FILE *__stream) noexcept (true) __attribute__ ((__nonnu
 # 949 "/usr/include/stdio.h" 3 4
 extern int __uflow (FILE *);
 extern int __overflow (FILE *, int);
-# 973 "/usr/include/stdio.h" 3 4
+# 966 "/usr/include/stdio.h" 3 4
+# 1 "/usr/include/bits/stdio.h" 1 3 4
+# 38 "/usr/include/bits/stdio.h" 3 4
+extern __inline __attribute__ ((__gnu_inline__)) int
+vprintf (const char *__restrict __fmt, __gnuc_va_list __arg)
+{
+  return vfprintf (stdout, __fmt, __arg);
+}
+
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+getchar (void)
+{
+  return getc (stdin);
+}
+
+
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+fgetc_unlocked (FILE *__fp)
+{
+  return (__builtin_expect (((__fp)->_IO_read_ptr >= (__fp)->_IO_read_end), 0) ? __uflow (__fp) : *(unsigned char *) (__fp)->_IO_read_ptr++);
+}
+
+
+
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+getc_unlocked (FILE *__fp)
+{
+  return (__builtin_expect (((__fp)->_IO_read_ptr >= (__fp)->_IO_read_end), 0) ? __uflow (__fp) : *(unsigned char *) (__fp)->_IO_read_ptr++);
+}
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+getchar_unlocked (void)
+{
+  return (__builtin_expect (((stdin)->_IO_read_ptr >= (stdin)->_IO_read_end), 0) ? __uflow (stdin) : *(unsigned char *) (stdin)->_IO_read_ptr++);
+}
+
+
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+putchar (int __c)
+{
+  return putc (__c, stdout);
+}
+
+
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+fputc_unlocked (int __c, FILE *__stream)
+{
+  return (__builtin_expect (((__stream)->_IO_write_ptr >= (__stream)->_IO_write_end), 0) ? __overflow (__stream, (unsigned char) (__c)) : (unsigned char) (*(__stream)->_IO_write_ptr++ = (__c)));
+}
+
+
+
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+putc_unlocked (int __c, FILE *__stream)
+{
+  return (__builtin_expect (((__stream)->_IO_write_ptr >= (__stream)->_IO_write_end), 0) ? __overflow (__stream, (unsigned char) (__c)) : (unsigned char) (*(__stream)->_IO_write_ptr++ = (__c)));
+}
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+putchar_unlocked (int __c)
+{
+  return (__builtin_expect (((stdout)->_IO_write_ptr >= (stdout)->_IO_write_end), 0) ? __overflow (stdout, (unsigned char) (__c)) : (unsigned char) (*(stdout)->_IO_write_ptr++ = (__c)));
+}
+
+
+
+
+
+extern __inline __attribute__ ((__gnu_inline__)) __ssize_t
+getline (char **__lineptr, size_t *__n, FILE *__stream)
+{
+  return __getdelim (__lineptr, __n, '\n', __stream);
+}
+
+
+
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+__attribute__ ((__leaf__)) feof_unlocked (FILE *__stream) noexcept (true)
+{
+  return (((__stream)->_flags & 0x0010) != 0);
+}
+
+
+extern __inline __attribute__ ((__gnu_inline__)) int
+__attribute__ ((__leaf__)) ferror_unlocked (FILE *__stream) noexcept (true)
+{
+  return (((__stream)->_flags & 0x0020) != 0);
+}
+# 967 "/usr/include/stdio.h" 2 3 4
+
+
+
+
+
+
 }
 # 48 "/usr/include/c++/15.2.1/cstdio" 2 3
 # 98 "/usr/include/c++/15.2.1/cstdio" 3
@@ -33665,7 +33878,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
  __in.setstate(__err);
       return __in;
     }
-# 1021 "/usr/include/c++/15.2.1/bits/basic_string.tcc" 3
+# 1016 "/usr/include/c++/15.2.1/bits/basic_string.tcc" 3
+  extern template void
+    basic_string<char>::_M_replace_cold(char *, size_type, const char*,
+     const size_type, const size_type);
+
+
   extern template
     basic_istream<char>&
     operator>>(basic_istream<char>&, string&);
@@ -33678,7 +33896,12 @@ namespace std __attribute__ ((__visibility__ ("default")))
   extern template
     basic_istream<char>&
     getline(basic_istream<char>&, string&);
-# 1047 "/usr/include/c++/15.2.1/bits/basic_string.tcc" 3
+# 1042 "/usr/include/c++/15.2.1/bits/basic_string.tcc" 3
+  extern template void
+    basic_string<wchar_t>::_M_replace_cold(wchar_t*, size_type, const wchar_t*,
+        const size_type, const size_type);
+
+
   extern template
     basic_istream<wchar_t>&
     operator>>(basic_istream<wchar_t>&, wstring&);
@@ -40336,7 +40559,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       if (__n == 0)
  return;
 
-      do { if (__builtin_expect(!bool(__n > 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/streambuf_iterator.h", 482, __PRETTY_FUNCTION__, "__n > 0"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__n > 0)) std::__glibcxx_assert_fail(); } while (false);
      
 
                            ;
@@ -44087,7 +44310,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr reference
       operator[](size_type __n) noexcept
       {
- do { if (__builtin_expect(!bool(__n < this->size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/array", 210, __PRETTY_FUNCTION__, "__n < this->size()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__n < this->size())) std::__glibcxx_assert_fail(); } while (false);
  return _M_elems[__n];
       }
 
@@ -44096,7 +44319,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       operator[](size_type __n) const noexcept
       {
 
- do { if (__builtin_expect(!bool(__n < this->size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/array", 219, __PRETTY_FUNCTION__, "__n < this->size()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__n < this->size())) std::__glibcxx_assert_fail(); } while (false);
 
  return _M_elems[__n];
       }
@@ -44127,7 +44350,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr reference
       front() noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/array", 250, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return _M_elems[(size_type)0];
       }
 
@@ -44136,7 +44359,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       front() const noexcept
       {
 
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/array", 259, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
 
  return _M_elems[(size_type)0];
       }
@@ -44145,7 +44368,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr reference
       back() noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/array", 268, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return _M_elems[_Nm - 1];
       }
 
@@ -44154,7 +44377,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       back() const noexcept
       {
 
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/array", 277, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
 
  return _M_elems[_Nm - 1];
       }
@@ -44633,7 +44856,7 @@ namespace __detail
     constexpr to_chars_result
     __to_chars_i(char* __first, char* __last, _Tp __value, int __base = 10)
     {
-      do { if (__builtin_expect(!bool(2 <= __base && __base <= 36), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/charconv", 326, __PRETTY_FUNCTION__, "2 <= __base && __base <= 36"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(2 <= __base && __base <= 36)) std::__glibcxx_assert_fail(); } while (false);
 
       using _Up = __detail::__unsigned_least_t<_Tp>;
       _Up __unsigned_val = __value;
@@ -44841,7 +45064,7 @@ namespace __detail
     from_chars(const char* __first, const char* __last, _Tp& __value,
         int __base = 10)
     {
-      do { if (__builtin_expect(!bool(2 <= __base && __base <= 36), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/charconv", 560, __PRETTY_FUNCTION__, "2 <= __base && __base <= 36"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(2 <= __base && __base <= 36)) std::__glibcxx_assert_fail(); } while (false);
 
       from_chars_result __res{__first, {}};
 
@@ -52265,42 +52488,42 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr const _Tp*
       operator->() const noexcept
       {
- do { if (__builtin_expect(!bool(this->_M_is_engaged()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/optional", 1165, __PRETTY_FUNCTION__, "this->_M_is_engaged()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(this->_M_is_engaged())) std::__glibcxx_assert_fail(); } while (false);
  return std::__addressof(this->_M_get());
       }
 
       constexpr _Tp*
       operator->() noexcept
       {
- do { if (__builtin_expect(!bool(this->_M_is_engaged()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/optional", 1172, __PRETTY_FUNCTION__, "this->_M_is_engaged()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(this->_M_is_engaged())) std::__glibcxx_assert_fail(); } while (false);
  return std::__addressof(this->_M_get());
       }
 
       constexpr const _Tp&
       operator*() const& noexcept
       {
- do { if (__builtin_expect(!bool(this->_M_is_engaged()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/optional", 1179, __PRETTY_FUNCTION__, "this->_M_is_engaged()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(this->_M_is_engaged())) std::__glibcxx_assert_fail(); } while (false);
  return this->_M_get();
       }
 
       constexpr _Tp&
       operator*()& noexcept
       {
- do { if (__builtin_expect(!bool(this->_M_is_engaged()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/optional", 1186, __PRETTY_FUNCTION__, "this->_M_is_engaged()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(this->_M_is_engaged())) std::__glibcxx_assert_fail(); } while (false);
  return this->_M_get();
       }
 
       constexpr _Tp&&
       operator*()&& noexcept
       {
- do { if (__builtin_expect(!bool(this->_M_is_engaged()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/optional", 1193, __PRETTY_FUNCTION__, "this->_M_is_engaged()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(this->_M_is_engaged())) std::__glibcxx_assert_fail(); } while (false);
  return std::move(this->_M_get());
       }
 
       constexpr const _Tp&&
       operator*() const&& noexcept
       {
- do { if (__builtin_expect(!bool(this->_M_is_engaged()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/optional", 1200, __PRETTY_FUNCTION__, "this->_M_is_engaged()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(this->_M_is_engaged())) std::__glibcxx_assert_fail(); } while (false);
  return std::move(this->_M_get());
       }
 
@@ -52850,7 +53073,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
  constexpr
  __extent_storage([[maybe_unused]] size_t __n) noexcept
- { do { if (__builtin_expect(!bool(__n == _Extent), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/span", 83, __PRETTY_FUNCTION__, "__n == _Extent"); } while (false); }
+ { do { if (std::__is_constant_evaluated() && !bool(__n == _Extent)) std::__glibcxx_assert_fail(); } while (false); }
 
 
  consteval
@@ -53041,7 +53264,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr reference
       front() const noexcept
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/span", 286, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!empty())) std::__glibcxx_assert_fail(); } while (false);
  return *this->_M_ptr;
       }
 
@@ -53049,7 +53272,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr reference
       back() const noexcept
       {
- do { if (__builtin_expect(!bool(!empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/span", 294, __PRETTY_FUNCTION__, "!empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!empty())) std::__glibcxx_assert_fail(); } while (false);
  return *(this->_M_ptr + (size() - 1));
       }
 
@@ -53057,7 +53280,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr reference
       operator[](size_type __idx) const noexcept
       {
- do { if (__builtin_expect(!bool(__idx < size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/span", 302, __PRETTY_FUNCTION__, "__idx < size()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__idx < size())) std::__glibcxx_assert_fail(); } while (false);
  return *(this->_M_ptr + __idx);
       }
 # 318 "/usr/include/c++/15.2.1/span" 3
@@ -53118,7 +53341,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  first() const noexcept
  {
    if constexpr (_Extent == dynamic_extent)
-     do { if (__builtin_expect(!bool(_Count <= size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/span", 375, __PRETTY_FUNCTION__, "_Count <= size()"); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(_Count <= size())) std::__glibcxx_assert_fail(); } while (false);
    else
      static_assert(_Count <= extent);
    using _Sp = span<element_type, _Count>;
@@ -53129,7 +53352,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr span<element_type, dynamic_extent>
       first(size_type __count) const noexcept
       {
- do { if (__builtin_expect(!bool(__count <= size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/span", 386, __PRETTY_FUNCTION__, "__count <= size()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__count <= size())) std::__glibcxx_assert_fail(); } while (false);
  return span<element_type>(this->data(), __count);
       }
 
@@ -53139,7 +53362,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  last() const noexcept
  {
    if constexpr (_Extent == dynamic_extent)
-     do { if (__builtin_expect(!bool(_Count <= size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/span", 396, __PRETTY_FUNCTION__, "_Count <= size()"); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(_Count <= size())) std::__glibcxx_assert_fail(); } while (false);
    else
      static_assert(_Count <= extent);
    using _Sp = span<element_type, _Count>;
@@ -53150,7 +53373,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       constexpr span<element_type, dynamic_extent>
       last(size_type __count) const noexcept
       {
- do { if (__builtin_expect(!bool(__count <= size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/span", 407, __PRETTY_FUNCTION__, "__count <= size()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__count <= size())) std::__glibcxx_assert_fail(); } while (false);
  return span<element_type>(this->data() + (this->size() - __count),
       __count);
       }
@@ -53163,7 +53386,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  {
    if constexpr (_Extent == dynamic_extent)
      {
-       do { if (__builtin_expect(!bool(_Offset <= size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/span", 420, __PRETTY_FUNCTION__, "_Offset <= size()"); } while (false);
+       do { if (std::__is_constant_evaluated() && !bool(_Offset <= size())) std::__glibcxx_assert_fail(); } while (false);
      }
    else
      static_assert(_Offset <= extent);
@@ -53176,8 +53399,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
      {
        if constexpr (_Extent == dynamic_extent)
   {
-    do { if (__builtin_expect(!bool(_Count <= size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/span", 433, __PRETTY_FUNCTION__, "_Count <= size()"); } while (false);
-    do { if (__builtin_expect(!bool(_Count <= (size() - _Offset)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/span", 434, __PRETTY_FUNCTION__, "_Count <= (size() - _Offset)"); } while (false);
+    do { if (std::__is_constant_evaluated() && !bool(_Count <= size())) std::__glibcxx_assert_fail(); } while (false);
+    do { if (std::__is_constant_evaluated() && !bool(_Count <= (size() - _Offset))) std::__glibcxx_assert_fail(); } while (false);
   }
        else
   {
@@ -53193,13 +53416,13 @@ namespace std __attribute__ ((__visibility__ ("default")))
       subspan(size_type __offset, size_type __count = dynamic_extent) const
       noexcept
       {
- do { if (__builtin_expect(!bool(__offset <= size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/span", 450, __PRETTY_FUNCTION__, "__offset <= size()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__offset <= size())) std::__glibcxx_assert_fail(); } while (false);
  if (__count == dynamic_extent)
    __count = this->size() - __offset;
  else
    {
-     do { if (__builtin_expect(!bool(__count <= size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/span", 455, __PRETTY_FUNCTION__, "__count <= size()"); } while (false);
-     do { if (__builtin_expect(!bool(__offset + __count <= size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/span", 456, __PRETTY_FUNCTION__, "__offset + __count <= size()"); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(__count <= size())) std::__glibcxx_assert_fail(); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(__offset + __count <= size())) std::__glibcxx_assert_fail(); } while (false);
    }
  return span<element_type>(this->data() + __offset, __count);
       }
@@ -54518,7 +54741,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
      
 
-      do { if (__builtin_expect(!bool(__first != __last), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_heap.h", 290, __PRETTY_FUNCTION__, "__first != __last"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__first != __last)) std::__glibcxx_assert_fail(); } while (false);
       ;
       ;
       ;
@@ -54542,7 +54765,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
       ;
       ;
-      do { if (__builtin_expect(!bool(__first != __last), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_heap.h", 325, __PRETTY_FUNCTION__, "__first != __last"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__first != __last)) std::__glibcxx_assert_fail(); } while (false);
       ;
 
       if (__last - __first > 1)
@@ -54783,7 +55006,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
      _IntType __b = __gnu_cxx::__int_traits<_IntType>::__max)
  : _M_a(__a), _M_b(__b)
  {
-   do { if (__builtin_expect(!bool(_M_a <= _M_b), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/uniform_int_dist.h", 108, __PRETTY_FUNCTION__, "_M_a <= _M_b"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(_M_a <= _M_b)) std::__glibcxx_assert_fail(); } while (false);
  }
 
  result_type
@@ -58043,7 +58266,7 @@ inline namespace _V2 {
     [[nodiscard]] constexpr const _Tp&
     clamp(const _Tp& __val, const _Tp& __lo, const _Tp& __hi)
     {
-      do { if (__builtin_expect(!bool(!(__hi < __lo)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_algo.h", 3638, __PRETTY_FUNCTION__, "!(__hi < __lo)"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(!(__hi < __lo))) std::__glibcxx_assert_fail(); } while (false);
       return std::min(std::max(__val, __lo), __hi);
     }
 # 3654 "/usr/include/c++/15.2.1/bits/stl_algo.h" 3
@@ -58051,7 +58274,7 @@ inline namespace _V2 {
     [[nodiscard]] constexpr const _Tp&
     clamp(const _Tp& __val, const _Tp& __lo, const _Tp& __hi, _Compare __comp)
     {
-      do { if (__builtin_expect(!bool(!__comp(__hi, __lo)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_algo.h", 3658, __PRETTY_FUNCTION__, "!__comp(__hi, __lo)"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(!__comp(__hi, __lo))) std::__glibcxx_assert_fail(); } while (false);
       return std::min(std::max(__val, __lo, __comp), __hi, __comp);
     }
 # 3684 "/usr/include/c++/15.2.1/bits/stl_algo.h" 3
@@ -59970,7 +60193,7 @@ namespace __unicode
       _S_error()
       {
  char32_t __c = _ErrorHandler()();
- do { if (__builtin_expect(!bool(__is_scalar_value(__c)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/unicode.h", 476, __PRETTY_FUNCTION__, "__is_scalar_value(__c)"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__is_scalar_value(__c))) std::__glibcxx_assert_fail(); } while (false);
  return __c;
       }
 
@@ -64337,7 +64560,7 @@ namespace __format
       void
       _M_overflow() override
       {
- do { if (__builtin_expect(!bool(false), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/format", 3247, __PRETTY_FUNCTION__, "false"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(false)) std::__glibcxx_assert_fail(); } while (false);
  this->_M_rewind();
       }
 
@@ -69251,10 +69474,10 @@ namespace std __attribute__ ((__visibility__ ("default")))
 #pragma GCC diagnostic ignored "-Wc++17-extensions"
       if constexpr (is_integral<_Size>::value)
 
- do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_uninitialized.h", 463, __PRETTY_FUNCTION__, "__n >= 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__n >= 0)) std::__glibcxx_assert_fail(); } while (false);
       else if constexpr (is_floating_point<_Size>::value)
 
- do { if (__builtin_expect(!bool(__n >= 0 && static_cast<size_t>(__n) == __n), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_uninitialized.h", 466, __PRETTY_FUNCTION__, "__n >= 0 && static_cast<size_t>(__n) == __n"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__n >= 0 && static_cast<size_t>(__n) == __n)) std::__glibcxx_assert_fail(); } while (false);
 #pragma GCC diagnostic pop
 
       for (; __n--; ++__first)
@@ -70783,7 +71006,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       reference
       operator[](size_type __n) noexcept
       {
- do { if (__builtin_expect(!bool(__n < this->size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_vector.h", 1263, __PRETTY_FUNCTION__, "__n < this->size()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__n < this->size())) std::__glibcxx_assert_fail(); } while (false);
  return *(this->_M_impl._M_start + __n);
       }
 # 1278 "/usr/include/c++/15.2.1/bits/stl_vector.h" 3
@@ -70791,7 +71014,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       const_reference
       operator[](size_type __n) const noexcept
       {
- do { if (__builtin_expect(!bool(__n < this->size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_vector.h", 1282, __PRETTY_FUNCTION__, "__n < this->size()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__n < this->size())) std::__glibcxx_assert_fail(); } while (false);
  return *(this->_M_impl._M_start + __n);
       }
 
@@ -70834,7 +71057,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       reference
       front() noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_vector.h", 1346, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return *begin();
       }
 
@@ -70846,7 +71069,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       const_reference
       front() const noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_vector.h", 1358, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return *begin();
       }
 
@@ -70858,7 +71081,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       reference
       back() noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_vector.h", 1370, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return *(end() - 1);
       }
 
@@ -70870,7 +71093,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       const_reference
       back() const noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_vector.h", 1382, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return *(end() - 1);
       }
 # 1393 "/usr/include/c++/15.2.1/bits/stl_vector.h" 3
@@ -70919,7 +71142,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       void
       pop_back() noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_vector.h", 1459, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  --this->_M_impl._M_finish;
  _Alloc_traits::destroy(this->_M_impl, this->_M_impl._M_finish);
  ;
@@ -71106,7 +71329,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       swap(vector& __x) noexcept
       {
 
- do { if (__builtin_expect(!bool(_Alloc_traits::propagate_on_container_swap::value || _M_get_Tp_allocator() == __x._M_get_Tp_allocator()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_vector.h", 1847, __PRETTY_FUNCTION__, "_Alloc_traits::propagate_on_container_swap::value || _M_get_Tp_allocator() == __x._M_get_Tp_allocator()"); } while (false)
+ do { if (std::__is_constant_evaluated() && !bool(_Alloc_traits::propagate_on_container_swap::value || _M_get_Tp_allocator() == __x._M_get_Tp_allocator())) std::__glibcxx_assert_fail(); } while (false)
                                                           ;
 
  this->_M_impl._M_swap_data(__x._M_impl);
@@ -72567,7 +72790,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       reference
       operator[](size_type __n)
       {
- do { if (__builtin_expect(!bool(__n < this->size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_bvector.h", 1158, __PRETTY_FUNCTION__, "__n < this->size()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__n < this->size())) std::__glibcxx_assert_fail(); } while (false);
  return _Bit_reference (this->_M_impl._M_start._M_p
           + __n / int(_S_word_bit),
           1UL << __n % int(_S_word_bit));
@@ -72577,7 +72800,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       const_reference
       operator[](size_type __n) const
       {
- do { if (__builtin_expect(!bool(__n < this->size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_bvector.h", 1168, __PRETTY_FUNCTION__, "__n < this->size()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__n < this->size())) std::__glibcxx_assert_fail(); } while (false);
  return _Bit_reference (this->_M_impl._M_start._M_p
           + __n / int(_S_word_bit),
           1UL << __n % int(_S_word_bit));
@@ -72626,7 +72849,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       reference
       front()
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_bvector.h", 1217, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return *begin();
       }
 
@@ -72634,7 +72857,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       const_reference
       front() const
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_bvector.h", 1225, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return *begin();
       }
 
@@ -72642,7 +72865,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       reference
       back()
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_bvector.h", 1233, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return *(end() - 1);
       }
 
@@ -72650,7 +72873,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       const_reference
       back() const
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_bvector.h", 1241, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return *(end() - 1);
       }
 
@@ -72669,7 +72892,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       swap(vector& __x) noexcept
       {
 
- do { if (__builtin_expect(!bool(_Bit_alloc_traits::propagate_on_container_swap::value || _M_get_Bit_allocator() == __x._M_get_Bit_allocator()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_bvector.h", 1260, __PRETTY_FUNCTION__, "_Bit_alloc_traits::propagate_on_container_swap::value || _M_get_Bit_allocator() == __x._M_get_Bit_allocator()"); } while (false)
+ do { if (std::__is_constant_evaluated() && !bool(_Bit_alloc_traits::propagate_on_container_swap::value || _M_get_Bit_allocator() == __x._M_get_Bit_allocator())) std::__glibcxx_assert_fail(); } while (false)
                                                             ;
 
  this->_M_impl._M_swap_data(__x._M_impl);
@@ -73265,7 +73488,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       const size_type __n = __position - begin();
       if (this->_M_impl._M_finish != this->_M_impl._M_end_of_storage)
  {
-   do { if (__builtin_expect(!bool(__position != const_iterator()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/vector.tcc", 143, __PRETTY_FUNCTION__, "__position != const_iterator()"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(__position != const_iterator())) std::__glibcxx_assert_fail(); } while (false);
    if (!(__position != const_iterator()))
      __builtin_unreachable();
 
@@ -74635,7 +74858,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       allocator_type
       get_allocator() const noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/node_handle.h", 77, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return allocator_type(_M_alloc._M_alloc);
       }
 
@@ -74687,7 +74910,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
      const _NodeAlloc& __alloc)
       : _M_ptr(__ptr), _M_alloc(__alloc)
       {
- do { if (__builtin_expect(!bool(__ptr != nullptr), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/node_handle.h", 129, __PRETTY_FUNCTION__, "__ptr != nullptr"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__ptr != nullptr)) std::__glibcxx_assert_fail(); } while (false);
       }
 
       void
@@ -74768,7 +74991,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    if constexpr (_ATr::propagate_on_container_move_assignment::value)
      _M_alloc = std::move(__alloc);
    else if constexpr (!_AllocTraits::is_always_equal::value)
-     do { if (__builtin_expect(!bool(_M_alloc == __alloc), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/node_handle.h", 210, __PRETTY_FUNCTION__, "_M_alloc == __alloc"); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(_M_alloc == __alloc)) std::__glibcxx_assert_fail(); } while (false);
  }
 
 
@@ -74779,7 +75002,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    if constexpr (_AllocTraits::propagate_on_container_swap::value)
      swap(_M_alloc, __other._M_alloc);
    else if constexpr (!_AllocTraits::is_always_equal::value)
-     do { if (__builtin_expect(!bool(_M_alloc == __other._M_alloc), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/node_handle.h", 221, __PRETTY_FUNCTION__, "_M_alloc == __other._M_alloc"); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(_M_alloc == __other._M_alloc)) std::__glibcxx_assert_fail(); } while (false);
  }
 
 
@@ -74829,14 +75052,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
       key_type&
       key() const noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/node_handle.h", 271, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return *_M_pkey;
       }
 
       mapped_type&
       mapped() const noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/node_handle.h", 278, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return *_M_pmapped;
       }
 
@@ -74919,7 +75142,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       value_type&
       value() const noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/node_handle.h", 361, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return *this->_M_ptr->_M_valptr();
       }
 
@@ -76535,7 +76758,7 @@ namespace __rb_tree
       iterator
       erase(const_iterator __position)
       {
- do { if (__builtin_expect(!bool(__position != end()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_tree.h", 1818, __PRETTY_FUNCTION__, "__position != end()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__position != end())) std::__glibcxx_assert_fail(); } while (false);
  const_iterator __result = __position;
  ++__result;
  _M_erase_aux(__position);
@@ -76547,7 +76770,7 @@ namespace __rb_tree
       iterator
       erase(iterator __position)
       {
- do { if (__builtin_expect(!bool(__position != end()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_tree.h", 1830, __PRETTY_FUNCTION__, "__position != end()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__position != end())) std::__glibcxx_assert_fail(); } while (false);
  iterator __result = __position;
  ++__result;
  _M_erase_aux(__position);
@@ -76762,7 +76985,7 @@ namespace __rb_tree
    __ret.position = end();
  else
    {
-     do { if (__builtin_expect(!bool(_M_get_Node_allocator() == *__nh._M_alloc), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_tree.h", 2078, __PRETTY_FUNCTION__, "_M_get_Node_allocator() == *__nh._M_alloc"); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(_M_get_Node_allocator() == *__nh._M_alloc)) std::__glibcxx_assert_fail(); } while (false);
 
      auto __res = _M_get_insert_unique_pos(__nh._M_key());
      if (__res.second)
@@ -76792,7 +77015,7 @@ namespace __rb_tree
    __ret = end();
  else
    {
-     do { if (__builtin_expect(!bool(_M_get_Node_allocator() == *__nh._M_alloc), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_tree.h", 2108, __PRETTY_FUNCTION__, "_M_get_Node_allocator() == *__nh._M_alloc"); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(_M_get_Node_allocator() == *__nh._M_alloc)) std::__glibcxx_assert_fail(); } while (false);
      auto __res = _M_get_insert_equal_pos(__nh._M_key());
      if (__res.second)
        __ret = _M_insert_node(__res.first, __res.second,
@@ -76813,7 +77036,7 @@ namespace __rb_tree
    __ret = end();
  else
    {
-     do { if (__builtin_expect(!bool(_M_get_Node_allocator() == *__nh._M_alloc), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_tree.h", 2129, __PRETTY_FUNCTION__, "_M_get_Node_allocator() == *__nh._M_alloc"); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(_M_get_Node_allocator() == *__nh._M_alloc)) std::__glibcxx_assert_fail(); } while (false);
      auto __res = _M_get_insert_hint_unique_pos(__hint, __nh._M_key());
      if (__res.second)
        {
@@ -76836,7 +77059,7 @@ namespace __rb_tree
    __ret = end();
  else
    {
-     do { if (__builtin_expect(!bool(_M_get_Node_allocator() == *__nh._M_alloc), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_tree.h", 2152, __PRETTY_FUNCTION__, "_M_get_Node_allocator() == *__nh._M_alloc"); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(_M_get_Node_allocator() == *__nh._M_alloc)) std::__glibcxx_assert_fail(); } while (false);
      auto __res = _M_get_insert_hint_equal_pos(__hint, __nh._M_key());
      if (__res.second)
        __ret = _M_insert_node(__res.first, __res.second,
@@ -78321,7 +78544,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       node_type
       extract(const_iterator __pos)
       {
- do { if (__builtin_expect(!bool(__pos != end()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_map.h", 673, __PRETTY_FUNCTION__, "__pos != end()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__pos != end())) std::__glibcxx_assert_fail(); } while (false);
  return _M_t.extract(__pos);
       }
 
@@ -79251,7 +79474,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       node_type
       extract(const_iterator __pos)
       {
- do { if (__builtin_expect(!bool(__pos != end()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_multimap.h", 682, __PRETTY_FUNCTION__, "__pos != end()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__pos != end())) std::__glibcxx_assert_fail(); } while (false);
  return _M_t.extract(__pos);
       }
 
@@ -83196,7 +83419,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       reference
       operator[](size_type __n) noexcept
       {
- do { if (__builtin_expect(!bool(__n < this->size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_deque.h", 1433, __PRETTY_FUNCTION__, "__n < this->size()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__n < this->size())) std::__glibcxx_assert_fail(); } while (false);
  return this->_M_impl._M_start[difference_type(__n)];
       }
 # 1448 "/usr/include/c++/15.2.1/bits/stl_deque.h" 3
@@ -83204,7 +83427,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       const_reference
       operator[](size_type __n) const noexcept
       {
- do { if (__builtin_expect(!bool(__n < this->size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_deque.h", 1452, __PRETTY_FUNCTION__, "__n < this->size()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__n < this->size())) std::__glibcxx_assert_fail(); } while (false);
  return this->_M_impl._M_start[difference_type(__n)];
       }
 
@@ -83244,7 +83467,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       reference
       front() noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_deque.h", 1513, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return *begin();
       }
 
@@ -83256,7 +83479,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       const_reference
       front() const noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_deque.h", 1525, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return *begin();
       }
 
@@ -83268,7 +83491,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       reference
       back() noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_deque.h", 1537, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  iterator __tmp = end();
  --__tmp;
  return *__tmp;
@@ -83282,7 +83505,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       const_reference
       back() const noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_deque.h", 1551, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  const_iterator __tmp = end();
  --__tmp;
  return *__tmp;
@@ -83345,7 +83568,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       void
       pop_front() noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_deque.h", 1643, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  if (this->_M_impl._M_start._M_cur
      != this->_M_impl._M_start._M_last - 1)
    {
@@ -83360,7 +83583,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       void
       pop_back() noexcept
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_deque.h", 1666, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  if (this->_M_impl._M_finish._M_cur
      != this->_M_impl._M_finish._M_first)
    {
@@ -83454,7 +83677,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       swap(deque& __x) noexcept
       {
 
- do { if (__builtin_expect(!bool(_Alloc_traits::propagate_on_container_swap::value || _M_get_Tp_allocator() == __x._M_get_Tp_allocator()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_deque.h", 1919, __PRETTY_FUNCTION__, "_Alloc_traits::propagate_on_container_swap::value || _M_get_Tp_allocator() == __x._M_get_Tp_allocator()"); } while (false)
+ do { if (std::__is_constant_evaluated() && !bool(_Alloc_traits::propagate_on_container_swap::value || _M_get_Tp_allocator() == __x._M_get_Tp_allocator())) std::__glibcxx_assert_fail(); } while (false)
                                                           ;
 
  _M_impl._M_swap_data(__x._M_impl);
@@ -85788,9 +86011,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
 
 
 
-    __builtin_trap();
 
 
+    __builtin_unreachable();
 
   }
 
@@ -88465,7 +88688,7 @@ namespace ranges
       : _M_value(__value), _M_bound(__bound)
       {
  if constexpr (totally_ordered_with<_Winc, _Bound>)
-   do { if (__builtin_expect(!bool(bool(__value <= __bound)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 669, __PRETTY_FUNCTION__, "bool(__value <= __bound)"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(bool(__value <= __bound))) std::__glibcxx_assert_fail(); } while (false);
       }
 
       constexpr
@@ -89280,7 +89503,7 @@ namespace views::__adaptor
  constexpr iterator_t<_Range>
  _M_get(const _Range&) const
  {
-   do { if (__builtin_expect(!bool(false), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 1553, __PRETTY_FUNCTION__, "false"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(false)) std::__glibcxx_assert_fail(); } while (false);
    __builtin_unreachable();
  }
 
@@ -89300,14 +89523,14 @@ namespace views::__adaptor
  constexpr iterator_t<_Range>
  _M_get(const _Range&) const
  {
-   do { if (__builtin_expect(!bool(_M_has_value()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 1573, __PRETTY_FUNCTION__, "_M_has_value()"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(_M_has_value())) std::__glibcxx_assert_fail(); } while (false);
    return **this;
  }
 
  constexpr void
  _M_set(const _Range&, const iterator_t<_Range>& __it)
  {
-   do { if (__builtin_expect(!bool(!_M_has_value()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 1580, __PRETTY_FUNCTION__, "!_M_has_value()"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(!_M_has_value())) std::__glibcxx_assert_fail(); } while (false);
    std::construct_at(std::__addressof(this->_M_payload._M_payload),
        in_place, __it);
    this->_M_payload._M_engaged = true;
@@ -89351,14 +89574,14 @@ namespace views::__adaptor
  constexpr iterator_t<_Range>
  _M_get(_Range& __r) const
  {
-   do { if (__builtin_expect(!bool(_M_has_value()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 1624, __PRETTY_FUNCTION__, "_M_has_value()"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(_M_has_value())) std::__glibcxx_assert_fail(); } while (false);
    return ranges::begin(__r) + _M_offset;
  }
 
  constexpr void
  _M_set(_Range& __r, const iterator_t<_Range>& __it)
  {
-   do { if (__builtin_expect(!bool(!_M_has_value()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 1631, __PRETTY_FUNCTION__, "!_M_has_value()"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(!_M_has_value())) std::__glibcxx_assert_fail(); } while (false);
    _M_offset = __it - ranges::begin(__r);
  }
       };
@@ -89564,7 +89787,7 @@ namespace views::__adaptor
  if (_M_cached_begin._M_has_value())
    return {this, _M_cached_begin._M_get(_M_base)};
 
- do { if (__builtin_expect(!bool(_M_pred.has_value()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 1837, __PRETTY_FUNCTION__, "_M_pred.has_value()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(_M_pred.has_value())) std::__glibcxx_assert_fail(); } while (false);
  auto __it = ranges::find_if(ranges::begin(_M_base),
         ranges::end(_M_base),
         std::ref(*_M_pred));
@@ -90383,7 +90606,7 @@ namespace views::__adaptor
       constexpr
       drop_view(_Vp __base, range_difference_t<_Vp> __count)
  : _M_base(std::move(__base)), _M_count(__count)
-      { do { if (__builtin_expect(!bool(__count >= 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 2656, __PRETTY_FUNCTION__, "__count >= 0"); } while (false); }
+      { do { if (std::__is_constant_evaluated() && !bool(__count >= 0)) std::__glibcxx_assert_fail(); } while (false); }
 
       constexpr _Vp
       base() const& requires copy_constructible<_Vp>
@@ -90557,7 +90780,7 @@ namespace views::__adaptor
  if (_M_cached_begin._M_has_value())
    return _M_cached_begin._M_get(_M_base);
 
- do { if (__builtin_expect(!bool(_M_pred.has_value()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 2830, __PRETTY_FUNCTION__, "_M_pred.has_value()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(_M_pred.has_value())) std::__glibcxx_assert_fail(); } while (false);
  auto __it = ranges::find_if_not(ranges::begin(_M_base),
      ranges::end(_M_base),
      std::cref(*_M_pred));
@@ -93831,7 +94054,7 @@ namespace views::__adaptor
     constexpr explicit
     chunk_view(_Vp __base, range_difference_t<_Vp> __n)
       : _M_base(std::move(__base)), _M_n(__n)
-    { do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 6115, __PRETTY_FUNCTION__, "__n >= 0"); } while (false); }
+    { do { if (std::__is_constant_evaluated() && !bool(__n >= 0)) std::__glibcxx_assert_fail(); } while (false); }
 
     constexpr _Vp
     base() const & requires copy_constructible<_Vp>
@@ -93896,14 +94119,14 @@ namespace views::__adaptor
     constexpr value_type
     operator*() const
     {
-      do { if (__builtin_expect(!bool(*this != default_sentinel), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 6180, __PRETTY_FUNCTION__, "*this != default_sentinel"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(*this != default_sentinel)) std::__glibcxx_assert_fail(); } while (false);
       return value_type(*_M_parent);
     }
 
     constexpr _OuterIter&
     operator++()
     {
-      do { if (__builtin_expect(!bool(*this != default_sentinel), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 6187, __PRETTY_FUNCTION__, "*this != default_sentinel"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(*this != default_sentinel)) std::__glibcxx_assert_fail(); } while (false);
       ranges::advance(*_M_parent->_M_current, _M_parent->_M_remainder,
         ranges::end(_M_parent->_M_base));
       _M_parent->_M_remainder = _M_parent->_M_n;
@@ -94001,14 +94224,14 @@ namespace views::__adaptor
     constexpr range_reference_t<_Vp>
     operator*() const
     {
-      do { if (__builtin_expect(!bool(*this != default_sentinel), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 6285, __PRETTY_FUNCTION__, "*this != default_sentinel"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(*this != default_sentinel)) std::__glibcxx_assert_fail(); } while (false);
       return **_M_parent->_M_current;
     }
 
     constexpr _InnerIter&
     operator++()
     {
-      do { if (__builtin_expect(!bool(*this != default_sentinel), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 6292, __PRETTY_FUNCTION__, "*this != default_sentinel"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(*this != default_sentinel)) std::__glibcxx_assert_fail(); } while (false);
       ++*_M_parent->_M_current;
       if (*_M_parent->_M_current == ranges::end(_M_parent->_M_base))
  _M_parent->_M_remainder = 0;
@@ -94065,7 +94288,7 @@ namespace views::__adaptor
     constexpr explicit
     chunk_view(_Vp __base, range_difference_t<_Vp> __n)
     : _M_base(std::move(__base)), _M_n(__n)
-    { do { if (__builtin_expect(!bool(__n > 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 6349, __PRETTY_FUNCTION__, "__n > 0"); } while (false); }
+    { do { if (std::__is_constant_evaluated() && !bool(__n > 0)) std::__glibcxx_assert_fail(); } while (false); }
 
     constexpr _Vp
     base() const & requires copy_constructible<_Vp>
@@ -94186,14 +94409,14 @@ namespace views::__adaptor
     constexpr value_type
     operator*() const
     {
-      do { if (__builtin_expect(!bool(_M_current != _M_end), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 6470, __PRETTY_FUNCTION__, "_M_current != _M_end"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_current != _M_end)) std::__glibcxx_assert_fail(); } while (false);
       return views::take(subrange(_M_current, _M_end), _M_n);
     }
 
     constexpr _Iterator&
     operator++()
     {
-      do { if (__builtin_expect(!bool(_M_current != _M_end), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 6477, __PRETTY_FUNCTION__, "_M_current != _M_end"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_current != _M_end)) std::__glibcxx_assert_fail(); } while (false);
       _M_missing = ranges::advance(_M_current, _M_n, _M_end);
       return *this;
     }
@@ -94228,7 +94451,7 @@ namespace views::__adaptor
     {
       if (__x > 0)
  {
-   do { if (__builtin_expect(!bool(ranges::distance(_M_current, _M_end) > _M_n * (__x - 1)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 6512, __PRETTY_FUNCTION__, "ranges::distance(_M_current, _M_end) > _M_n * (__x - 1)"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(ranges::distance(_M_current, _M_end) > _M_n * (__x - 1))) std::__glibcxx_assert_fail(); } while (false);
    _M_missing = ranges::advance(_M_current, _M_n * __x, _M_end);
  }
       else if (__x < 0)
@@ -94390,7 +94613,7 @@ namespace views::__adaptor
     constexpr explicit
     slide_view(_Vp __base, range_difference_t<_Vp> __n)
     : _M_base(std::move(__base)), _M_n(__n)
-    { do { if (__builtin_expect(!bool(__n > 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 6674, __PRETTY_FUNCTION__, "__n > 0"); } while (false); }
+    { do { if (std::__is_constant_evaluated() && !bool(__n > 0)) std::__glibcxx_assert_fail(); } while (false); }
 
 
 
@@ -94743,7 +94966,7 @@ namespace views::__adaptor
     constexpr iterator_t<_Vp>
     _M_find_next(iterator_t<_Vp> __current)
     {
-      do { if (__builtin_expect(!bool(_M_pred.has_value()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 7027, __PRETTY_FUNCTION__, "_M_pred.has_value()"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_pred.has_value())) std::__glibcxx_assert_fail(); } while (false);
       auto __pred = [this]<typename _Tp, typename _Up>(_Tp&& __x, _Up&& __y) {
  return !bool((*_M_pred)(std::forward<_Tp>(__x), std::forward<_Up>(__y)));
       };
@@ -94754,13 +94977,13 @@ namespace views::__adaptor
     constexpr iterator_t<_Vp>
     _M_find_prev(iterator_t<_Vp> __current) requires bidirectional_range<_Vp>
     {
-      do { if (__builtin_expect(!bool(_M_pred.has_value()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 7038, __PRETTY_FUNCTION__, "_M_pred.has_value()"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_pred.has_value())) std::__glibcxx_assert_fail(); } while (false);
       auto __pred = [this]<typename _Tp, typename _Up>(_Tp&& __x, _Up&& __y) {
  return !bool((*_M_pred)(std::forward<_Up>(__y), std::forward<_Tp>(__x)));
       };
       auto __rbegin = std::make_reverse_iterator(__current);
       auto __rend = std::make_reverse_iterator(ranges::begin(_M_base));
-      do { if (__builtin_expect(!bool(__rbegin != __rend), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 7044, __PRETTY_FUNCTION__, "__rbegin != __rend"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__rbegin != __rend)) std::__glibcxx_assert_fail(); } while (false);
       auto __it = ranges::adjacent_find(__rbegin, __rend, __pred).base();
       return ranges::prev(__it, 1, ranges::begin(_M_base));
     }
@@ -94792,7 +95015,7 @@ namespace views::__adaptor
     constexpr _Iterator
     begin()
     {
-      do { if (__builtin_expect(!bool(_M_pred.has_value()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 7076, __PRETTY_FUNCTION__, "_M_pred.has_value()"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_pred.has_value())) std::__glibcxx_assert_fail(); } while (false);
       iterator_t<_Vp> __it;
       if (_M_cached_begin._M_has_value())
  __it = _M_cached_begin._M_get(_M_base);
@@ -94853,14 +95076,14 @@ namespace views::__adaptor
     constexpr value_type
     operator*() const
     {
-      do { if (__builtin_expect(!bool(_M_current != _M_next), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 7137, __PRETTY_FUNCTION__, "_M_current != _M_next"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_current != _M_next)) std::__glibcxx_assert_fail(); } while (false);
       return ranges::subrange(_M_current, _M_next);
     }
 
     constexpr _Iterator&
     operator++()
     {
-      do { if (__builtin_expect(!bool(_M_current != _M_next), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 7144, __PRETTY_FUNCTION__, "_M_current != _M_next"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_current != _M_next)) std::__glibcxx_assert_fail(); } while (false);
       _M_current = _M_next;
       _M_next = _M_parent->_M_find_next(_M_current);
       return *this;
@@ -95484,7 +95707,7 @@ namespace views::__adaptor
     : _M_value(__value), _M_bound(__bound)
     {
       if constexpr (!same_as<_Bound, unreachable_sentinel_t>)
- do { if (__builtin_expect(!bool(__bound >= 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 7768, __PRETTY_FUNCTION__, "__bound >= 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__bound >= 0)) std::__glibcxx_assert_fail(); } while (false);
     }
 
     constexpr explicit
@@ -95541,7 +95764,7 @@ namespace views::__adaptor
     : _M_value(__value), _M_current(__bound)
     {
       if constexpr (!same_as<_Bound, unreachable_sentinel_t>)
- do { if (__builtin_expect(!bool(__bound >= 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 7825, __PRETTY_FUNCTION__, "__bound >= 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__bound >= 0)) std::__glibcxx_assert_fail(); } while (false);
     }
 
     friend repeat_view;
@@ -95579,7 +95802,7 @@ namespace views::__adaptor
     operator--()
     {
       if constexpr (!same_as<_Bound, unreachable_sentinel_t>)
- do { if (__builtin_expect(!bool(_M_current > 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 7863, __PRETTY_FUNCTION__, "_M_current > 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(_M_current > 0)) std::__glibcxx_assert_fail(); } while (false);
       --_M_current;
       return *this;
     }
@@ -95596,7 +95819,7 @@ namespace views::__adaptor
     operator+=(difference_type __n)
     {
       if constexpr (!same_as<_Bound, unreachable_sentinel_t>)
- do { if (__builtin_expect(!bool(_M_current + __n >= 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 7880, __PRETTY_FUNCTION__, "_M_current + __n >= 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(_M_current + __n >= 0)) std::__glibcxx_assert_fail(); } while (false);
       _M_current += __n;
       return *this;
     }
@@ -95605,7 +95828,7 @@ namespace views::__adaptor
     operator-=(difference_type __n)
     {
       if constexpr (!same_as<_Bound, unreachable_sentinel_t>)
- do { if (__builtin_expect(!bool(_M_current - __n >= 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 7889, __PRETTY_FUNCTION__, "_M_current - __n >= 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(_M_current - __n >= 0)) std::__glibcxx_assert_fail(); } while (false);
       _M_current -= __n;
       return *this;
     }
@@ -95757,7 +95980,7 @@ namespace views::__adaptor
     constexpr explicit
     stride_view(_Vp __base, range_difference_t<_Vp> __stride)
     : _M_base(std::move(__base)), _M_stride(__stride)
-    { do { if (__builtin_expect(!bool(__stride > 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 8041, __PRETTY_FUNCTION__, "__stride > 0"); } while (false); }
+    { do { if (std::__is_constant_evaluated() && !bool(__stride > 0)) std::__glibcxx_assert_fail(); } while (false); }
 
     constexpr _Vp
     base() const& requires copy_constructible<_Vp>
@@ -95897,7 +96120,7 @@ namespace views::__adaptor
     constexpr _Iterator&
     operator++()
     {
-      do { if (__builtin_expect(!bool(_M_current != _M_end), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 8181, __PRETTY_FUNCTION__, "_M_current != _M_end"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_current != _M_end)) std::__glibcxx_assert_fail(); } while (false);
       _M_missing = ranges::advance(_M_current, _M_stride, _M_end);
       return *this;
     }
@@ -95935,7 +96158,7 @@ namespace views::__adaptor
     {
       if (__n > 0)
  {
-   do { if (__builtin_expect(!bool(ranges::distance(_M_current, _M_end) > _M_stride * (__n - 1)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 8219, __PRETTY_FUNCTION__, "ranges::distance(_M_current, _M_end) > _M_stride * (__n - 1)"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(ranges::distance(_M_current, _M_end) > _M_stride * (__n - 1))) std::__glibcxx_assert_fail(); } while (false);
    _M_missing = ranges::advance(_M_current, _M_stride * __n, _M_end);
  }
       else if (__n < 0)
@@ -96197,18 +96420,7 @@ namespace views::__adaptor
       using _ST = __detail::__make_unsigned_like_t<decltype(_S_difference_type())>;
       return [&]<size_t... _Is>(index_sequence<_Is...>) {
  auto __size = static_cast<_ST>(1);
-
- if constexpr (integral<_ST>)
-   {
-     bool __overflow
-       = (__builtin_mul_overflow(__size,
-     static_cast<_ST>(ranges::size(std::get<_Is>(_M_bases))),
-     &__size)
-   || ...);
-     do { if (__builtin_expect(!bool(!__overflow), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 8489, __PRETTY_FUNCTION__, "!__overflow"); } while (false);
-   }
- else
-
+# 8493 "/usr/include/c++/15.2.1/ranges" 3
    __size = (static_cast<_ST>(ranges::size(std::get<_Is>(_M_bases))) * ...);
  return __size;
       }(make_index_sequence<1 + sizeof...(_Vs)>{});
@@ -96220,18 +96432,7 @@ namespace views::__adaptor
       using _ST = __detail::__make_unsigned_like_t<decltype(_S_difference_type())>;
       return [&]<size_t... _Is>(index_sequence<_Is...>) {
  auto __size = static_cast<_ST>(1);
-
- if constexpr (integral<_ST>)
-   {
-     bool __overflow
-       = (__builtin_mul_overflow(__size,
-     static_cast<_ST>(ranges::size(std::get<_Is>(_M_bases))),
-     &__size)
-   || ...);
-     do { if (__builtin_expect(!bool(!__overflow), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 8512, __PRETTY_FUNCTION__, "!__overflow"); } while (false);
-   }
- else
-
+# 8516 "/usr/include/c++/15.2.1/ranges" 3
    __size = (static_cast<_ST>(ranges::size(std::get<_Is>(_M_bases))) * ...);
  return __size;
       }(make_index_sequence<1 + sizeof...(_Vs)>{});
@@ -96473,15 +96674,7 @@ namespace views::__adaptor
    auto& __it = std::get<_Nm>(_M_current);
    if constexpr (_Nm == 0)
      {
-
-       if constexpr (sized_range<__maybe_const_t<_Const, _First>>)
-  {
-    auto __size = ranges::ssize(__r);
-    auto __begin = ranges::begin(__r);
-    auto __offset = __it - __begin;
-    do { if (__builtin_expect(!bool(__offset + __x >= 0 && __offset + __x <= __size), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 8763, __PRETTY_FUNCTION__, "__offset + __x >= 0 && __offset + __x <= __size"); } while (false);
-  }
-
+# 8766 "/usr/include/c++/15.2.1/ranges" 3
        __it += __x;
      }
    else
@@ -96509,16 +96702,7 @@ namespace views::__adaptor
     {
       return [&]<size_t... _Is>(index_sequence<_Is...>) {
  auto __sum = static_cast<difference_type>(0);
-
- if constexpr (integral<difference_type>)
-   {
-     bool __overflow
-       = (__builtin_add_overflow(__sum, _M_scaled_distance<_Is>(__t), &__sum)
-   || ...);
-     do { if (__builtin_expect(!bool(!__overflow), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 8799, __PRETTY_FUNCTION__, "!__overflow"); } while (false);
-   }
- else
-
+# 8803 "/usr/include/c++/15.2.1/ranges" 3
    __sum = (_M_scaled_distance<_Is>(__t) + ...);
  return __sum;
       }(make_index_sequence<1 + sizeof...(_Vs)>{});
@@ -96530,14 +96714,7 @@ namespace views::__adaptor
     {
       auto __dist = static_cast<difference_type>(std::get<_Nm>(_M_current)
        - std::get<_Nm>(__t));
-
-      if constexpr (integral<difference_type>)
- {
-   bool __overflow = __builtin_mul_overflow(__dist, _M_scaled_size<_Nm+1>(), &__dist);
-   do { if (__builtin_expect(!bool(!__overflow), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 8818, __PRETTY_FUNCTION__, "!__overflow"); } while (false);
- }
-      else
-
+# 8822 "/usr/include/c++/15.2.1/ranges" 3
  __dist *= _M_scaled_size<_Nm+1>();
       return __dist;
     }
@@ -96550,14 +96727,7 @@ namespace views::__adaptor
  {
    auto __size = static_cast<difference_type>(ranges::size
            (std::get<_Nm>(_M_parent->_M_bases)));
-
-   if constexpr (integral<difference_type>)
-     {
-       bool __overflow = __builtin_mul_overflow(__size, _M_scaled_size<_Nm+1>(), &__size);
-       do { if (__builtin_expect(!bool(!__overflow), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/ranges", 8838, __PRETTY_FUNCTION__, "!__overflow"); } while (false);
-     }
-   else
-
+# 8842 "/usr/include/c++/15.2.1/ranges" 3
      __size *= _M_scaled_size<_Nm+1>();
    return __size;
  }
@@ -97454,7 +97624,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       reference
       top()
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_stack.h", 260, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return c.back();
       }
 
@@ -97466,7 +97636,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       const_reference
       top() const
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_stack.h", 272, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  return c.back();
       }
 # 285 "/usr/include/c++/15.2.1/bits/stl_stack.h" 3
@@ -97498,7 +97668,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       void
       pop()
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/stl_stack.h", 333, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  c.pop_back();
       }
 
@@ -98161,7 +98331,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  static_assert(!__reference_converts_from_temporary(_ResT, _DerefT),
         "operator* must not return a dangling reference");
 
- do { if (__builtin_expect(!bool(get() != pointer()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/unique_ptr.h", 455, __PRETTY_FUNCTION__, "get() != pointer()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(get() != pointer())) std::__glibcxx_assert_fail(); } while (false);
  return *get();
       }
 
@@ -98402,7 +98572,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       typename std::add_lvalue_reference<element_type>::type
       operator[](size_t __i) const
       {
- do { if (__builtin_expect(!bool(get() != pointer()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/unique_ptr.h", 734, __PRETTY_FUNCTION__, "get() != pointer()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(get() != pointer())) std::__glibcxx_assert_fail(); } while (false);
  return get()[__i];
       }
 
@@ -100375,7 +100545,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline _Tp*
     __shared_ptr_deref(_Tp* __p)
     {
-      do { if (__builtin_expect(!bool(__p != nullptr), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/shared_ptr_base.h", 1344, __PRETTY_FUNCTION__, "__p != nullptr"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__p != nullptr)) std::__glibcxx_assert_fail(); } while (false);
       return __p;
     }
 
@@ -100433,7 +100603,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       operator[](ptrdiff_t __i) const noexcept
       {
  if constexpr (extent<_Tp>::value)
-   do { if (__builtin_expect(!bool(__i < extent<_Tp>::value), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/shared_ptr_base.h", 1417, __PRETTY_FUNCTION__, "__i < extent<_Tp>::value"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(__i < extent<_Tp>::value)) std::__glibcxx_assert_fail(); } while (false);
  return std::__shared_ptr_deref(_M_get())[__i];
       }
 #pragma GCC diagnostic pop
@@ -100653,7 +100823,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  reset(_Yp* __p)
  {
 
-   do { if (__builtin_expect(!bool(__p == nullptr || __p != _M_ptr), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/shared_ptr_base.h", 1656, __PRETTY_FUNCTION__, "__p == nullptr || __p != _M_ptr"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(__p == nullptr || __p != _M_ptr)) std::__glibcxx_assert_fail(); } while (false);
    __shared_ptr(__p).swap(*this);
  }
 
@@ -103505,7 +103675,7 @@ namespace __detail
    ? _M_extended_spec_char
    : nullptr),
     _M_at_bracket_start(false)
-    { do { if (__builtin_expect(!bool(_M_spec_char), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex_scanner.h", 111, __PRETTY_FUNCTION__, "_M_spec_char"); } while (false); }
+    { do { if (std::__is_constant_evaluated() && !bool(_M_spec_char)) std::__glibcxx_assert_fail(); } while (false); }
 
   protected:
     const char*
@@ -103694,7 +103864,7 @@ namespace __detail
  _M_scan_in_brace();
       else
  {
-   do { if (__builtin_expect(!bool(!"unexpected state while processing regex"), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex_scanner.tcc", 86, __PRETTY_FUNCTION__, "!\"unexpected state while processing regex\""); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(!"unexpected state while processing regex")) std::__glibcxx_assert_fail(); } while (false);
  }
     }
 
@@ -103801,7 +103971,7 @@ namespace __detail
   _M_token = __it->second;
   return;
        }
-   do { if (__builtin_expect(!bool(!"unexpected special character in regex"), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex_scanner.tcc", 193, __PRETTY_FUNCTION__, "!\"unexpected special character in regex\""); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(!"unexpected special character in regex")) std::__glibcxx_assert_fail(); } while (false);
  }
       else
  {
@@ -104378,9 +104548,9 @@ namespace __detail
       _M_match_range(const _StrTransT& __first, const _StrTransT& __last,
        const _StrTransT& __str) const
       {
- do { if (__builtin_expect(!bool(__first.size() == 1), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex_compiler.h", 311, __PRETTY_FUNCTION__, "__first.size() == 1"); } while (false);
- do { if (__builtin_expect(!bool(__last.size() == 1), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex_compiler.h", 312, __PRETTY_FUNCTION__, "__last.size() == 1"); } while (false);
- do { if (__builtin_expect(!bool(__str.size() == 1), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex_compiler.h", 313, __PRETTY_FUNCTION__, "__str.size() == 1"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__first.size() == 1)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__last.size() == 1)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__str.size() == 1)) std::__glibcxx_assert_fail(); } while (false);
  return this->_M_in_range_icase(__first[0], __last[0], __str[0]);
       }
     };
@@ -104665,7 +104835,7 @@ namespace __detail
       if (!_M_match_token(_ScannerT::_S_token_eof))
  __throw_regex_error(regex_constants::error_paren);
       __r._M_append(_M_pop());
-      do { if (__builtin_expect(!bool(_M_stack.empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex_compiler.tcc", 83, __PRETTY_FUNCTION__, "_M_stack.empty()"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_stack.empty())) std::__glibcxx_assert_fail(); } while (false);
       __r._M_append(_M_nfa->_M_insert_subexpr_end());
       __r._M_append(_M_nfa->_M_insert_accept());
       _M_nfa->_M_eliminate_dummy();
@@ -104968,7 +105138,7 @@ namespace __detail
     _Compiler<_TraitsT>::
     _M_insert_character_class_matcher()
     {
-      do { if (__builtin_expect(!bool(_M_value.size() == 1), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex_compiler.tcc", 400, __PRETTY_FUNCTION__, "_M_value.size() == 1"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_value.size() == 1)) std::__glibcxx_assert_fail(); } while (false);
       _BracketMatcher<__icase, __collate> __matcher
  (_M_ctype.is(_CtypeT::upper, _M_value[0]), _M_traits);
       __matcher._M_add_character_class(_M_value, false);
@@ -106042,7 +106212,7 @@ namespace __cxx11 {
       const_reference
       operator[](size_type __sub) const
       {
- do { if (__builtin_expect(!bool(ready()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex.h", 1973, __PRETTY_FUNCTION__, "ready()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(ready())) std::__glibcxx_assert_fail(); } while (false);
  return __sub < size()
         ? _Unchecked::operator[](__sub)
         : _M_unmatched_sub();
@@ -106051,14 +106221,14 @@ namespace __cxx11 {
       const_reference
       prefix() const
       {
- do { if (__builtin_expect(!bool(ready()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex.h", 1990, __PRETTY_FUNCTION__, "ready()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(ready())) std::__glibcxx_assert_fail(); } while (false);
  return !empty() ? _M_prefix() : _M_unmatched_sub();
       }
 # 2002 "/usr/include/c++/15.2.1/bits/regex.h" 3
       const_reference
       suffix() const
       {
- do { if (__builtin_expect(!bool(ready()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex.h", 2005, __PRETTY_FUNCTION__, "ready()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(ready())) std::__glibcxx_assert_fail(); } while (false);
  return !empty() ? _M_suffix() : _M_unmatched_sub();
       }
 
@@ -107117,7 +107287,7 @@ namespace __detail
     const match_results<_Bi_iter, _Alloc>::char_type* __fmt_last,
     match_flag_type __flags) const
     {
-      do { if (__builtin_expect(!bool(ready()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex.tcc", 358, __PRETTY_FUNCTION__, "ready()"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(ready())) std::__glibcxx_assert_fail(); } while (false);
       regex_traits<char_type> __traits;
       typedef std::ctype<char_type> __ctype_type;
       const __ctype_type&
@@ -107300,7 +107470,7 @@ namespace __detail
        | regex_constants::match_not_null
        | regex_constants::match_continuous))
       {
-        do { if (__builtin_expect(!bool(_M_match[0].matched), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex.tcc", 541, __PRETTY_FUNCTION__, "_M_match[0].matched"); } while (false);
+        do { if (std::__is_constant_evaluated() && !bool(_M_match[0].matched)) std::__glibcxx_assert_fail(); } while (false);
         auto& __prefix = _M_match._M_prefix();
         __prefix.first = __prefix_first;
         __prefix.matched = __prefix.first != __prefix.second;
@@ -107315,7 +107485,7 @@ namespace __detail
    _M_flags |= regex_constants::match_prev_avail;
    if (regex_search(__start, _M_end, _M_match, *_M_pregex, _M_flags))
      {
-       do { if (__builtin_expect(!bool(_M_match[0].matched), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex.tcc", 556, __PRETTY_FUNCTION__, "_M_match[0].matched"); } while (false);
+       do { if (std::__is_constant_evaluated() && !bool(_M_match[0].matched)) std::__glibcxx_assert_fail(); } while (false);
        auto& __prefix = _M_match._M_prefix();
        __prefix.first = __prefix_first;
        __prefix.matched = __prefix.first != __prefix.second;
@@ -108022,7 +108192,7 @@ namespace __detail
     void _Executor<_BiIter, _Alloc, _TraitsT, __dfs_mode>::
     _M_handle_backref(_Match_mode __match_mode, _StateIdT __i)
     {
-      do { if (__builtin_expect(!bool(__dfs_mode), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex_executor.tcc", 396, __PRETTY_FUNCTION__, "__dfs_mode"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__dfs_mode)) std::__glibcxx_assert_fail(); } while (false);
 
       const auto& __state = _M_nfa[__i];
       auto& __submatch = _M_cur_results[__state._M_backref_index];
@@ -108057,7 +108227,7 @@ namespace __detail
     {
       if constexpr (__dfs_mode)
  {
-   do { if (__builtin_expect(!bool(!_M_has_sol), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex_executor.tcc", 431, __PRETTY_FUNCTION__, "!_M_has_sol"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(!_M_has_sol)) std::__glibcxx_assert_fail(); } while (false);
    if (__match_mode == _Match_mode::_Exact)
      _M_has_sol = _M_current == _M_end;
    else
@@ -108071,7 +108241,7 @@ namespace __detail
   _M_results = _M_cur_results;
        else
   {
-    do { if (__builtin_expect(!bool(_M_states._M_get_sol_pos()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex_executor.tcc", 445, __PRETTY_FUNCTION__, "_M_states._M_get_sol_pos()"); } while (false);
+    do { if (std::__is_constant_evaluated() && !bool(_M_states._M_get_sol_pos())) std::__glibcxx_assert_fail(); } while (false);
 
 
 
@@ -108164,7 +108334,7 @@ namespace __detail
  case _S_opcode_alternative:
    _M_handle_alternative(__match_mode, __i); break;
  default:
-   do { if (__builtin_expect(!bool(false), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/regex_executor.tcc", 538, __PRETTY_FUNCTION__, "false"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(false)) std::__glibcxx_assert_fail(); } while (false);
  }
     }
 
@@ -108421,7 +108591,51 @@ struct cmsghdr
 # 319 "/usr/include/bits/socket.h" 3 4
 extern struct cmsghdr *__cmsg_nxthdr (struct msghdr *__mhdr,
           struct cmsghdr *__cmsg) noexcept (true);
-# 366 "/usr/include/bits/socket.h" 3 4
+
+
+
+
+extern __inline __attribute__ ((__gnu_inline__)) struct cmsghdr *
+__attribute__ ((__leaf__)) __cmsg_nxthdr (struct msghdr *__mhdr, struct cmsghdr *__cmsg) noexcept (true)
+{
+
+
+
+
+
+
+
+  unsigned char * __msg_control_ptr = (unsigned char *) __mhdr->msg_control;
+  unsigned char * __cmsg_ptr = (unsigned char *) __cmsg;
+
+  size_t __size_needed = sizeof (struct cmsghdr)
+                         + ((sizeof (size_t) - ((__cmsg->cmsg_len) & (sizeof (size_t) - 1))) & (sizeof (size_t) - 1));
+
+
+  if ((size_t) __cmsg->cmsg_len < sizeof (struct cmsghdr))
+    return (struct cmsghdr *) 0;
+
+
+
+  if (((size_t)
+         (__msg_control_ptr + __mhdr->msg_controllen - __cmsg_ptr)
+       < __size_needed)
+      || ((size_t)
+            (__msg_control_ptr + __mhdr->msg_controllen - __cmsg_ptr
+             - __size_needed)
+          < __cmsg->cmsg_len))
+
+    return (struct cmsghdr *) 0;
+
+
+  __cmsg = (struct cmsghdr *) ((unsigned char *) __cmsg
+          + (((__cmsg->cmsg_len) + sizeof (size_t) - 1) & (size_t) ~(sizeof (size_t) - 1)));
+  return __cmsg;
+}
+
+
+
+
 enum
   {
     SCM_RIGHTS = 0x01
@@ -114338,7 +114552,7 @@ namespace ranges
       {
  auto __first = ranges::begin(__r);
  auto __last = ranges::end(__r);
- do { if (__builtin_expect(!bool(__first != __last), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/ranges_algo.h", 2960, __PRETTY_FUNCTION__, "__first != __last"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__first != __last)) std::__glibcxx_assert_fail(); } while (false);
  auto __result = *__first;
  while (++__first != __last)
    {
@@ -114374,7 +114588,7 @@ namespace ranges
       operator()(const _Tp& __val, const _Tp& __lo, const _Tp& __hi,
    _Comp __comp = {}, _Proj __proj = {}) const
       {
- do { if (__builtin_expect(!bool(!(std::__invoke(__comp, std::__invoke(__proj, __hi), std::__invoke(__proj, __lo)))), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/ranges_algo.h", 2996, __PRETTY_FUNCTION__, "!(std::__invoke(__comp, std::__invoke(__proj, __hi), std::__invoke(__proj, __lo)))"); } while (false)
+ do { if (std::__is_constant_evaluated() && !bool(!(std::__invoke(__comp, std::__invoke(__proj, __hi), std::__invoke(__proj, __lo))))) std::__glibcxx_assert_fail(); } while (false)
 
                                     ;
  auto&& __proj_val = std::__invoke(__proj, __val);
@@ -114441,7 +114655,7 @@ namespace ranges
       {
  auto __first = ranges::begin(__r);
  auto __last = ranges::end(__r);
- do { if (__builtin_expect(!bool(__first != __last), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/ranges_algo.h", 3063, __PRETTY_FUNCTION__, "__first != __last"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__first != __last)) std::__glibcxx_assert_fail(); } while (false);
  auto __comp_proj = __detail::__make_comp_proj(__comp, __proj);
  minmax_result<range_value_t<_Range>> __result = {*__first, __result.min};
  if (++__first == __last)
@@ -115364,7 +115578,7 @@ namespace ranges
     shift_left(_ForwardIterator __first, _ForwardIterator __last,
         typename iterator_traits<_ForwardIterator>::difference_type __n)
     {
-      do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/ranges_algo.h", 3986, __PRETTY_FUNCTION__, "__n >= 0"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__n >= 0)) std::__glibcxx_assert_fail(); } while (false);
       if (__n == 0)
  return __last;
 
@@ -115379,7 +115593,7 @@ namespace ranges
     shift_right(_ForwardIterator __first, _ForwardIterator __last,
   typename iterator_traits<_ForwardIterator>::difference_type __n)
     {
-      do { if (__builtin_expect(!bool(__n >= 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/ranges_algo.h", 4001, __PRETTY_FUNCTION__, "__n >= 0"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__n >= 0)) std::__glibcxx_assert_fail(); } while (false);
       if (__n == 0)
  return __first;
 
@@ -118571,7 +118785,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
    __ret.position = end();
  else
    {
-     do { if (__builtin_expect(!bool(get_allocator() == __nh.get_allocator()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/hashtable.h", 1186, __PRETTY_FUNCTION__, "get_allocator() == __nh.get_allocator()"); } while (false);
+     do { if (std::__is_constant_evaluated() && !bool(get_allocator() == __nh.get_allocator())) std::__glibcxx_assert_fail(); } while (false);
 
      if (auto __loc = _M_locate(__nh._M_key()))
        {
@@ -118599,7 +118813,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  if (__nh.empty())
    return end();
 
- do { if (__builtin_expect(!bool(get_allocator() == __nh.get_allocator()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/hashtable.h", 1214, __PRETTY_FUNCTION__, "get_allocator() == __nh.get_allocator()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(get_allocator() == __nh.get_allocator())) std::__glibcxx_assert_fail(); } while (false);
 
  const key_type& __k = __nh._M_key();
  auto __code = this->_M_hash_code(__k);
@@ -118672,7 +118886,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       void
       _M_merge_unique(_Hashtable& __src)
       {
- do { if (__builtin_expect(!bool(get_allocator() == __src.get_allocator()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/hashtable.h", 1287, __PRETTY_FUNCTION__, "get_allocator() == __src.get_allocator()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(get_allocator() == __src.get_allocator())) std::__glibcxx_assert_fail(); } while (false);
 
  using _PTr = pointer_traits<__node_base_ptr>;
 
@@ -118709,7 +118923,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  {
    static_assert(is_same_v<typename _Compatible_Hashtable::node_type,
        node_type>, "Node types are compatible");
-   do { if (__builtin_expect(!bool(get_allocator() == __src.get_allocator()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/hashtable.h", 1324, __PRETTY_FUNCTION__, "get_allocator() == __src.get_allocator()"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(get_allocator() == __src.get_allocator())) std::__glibcxx_assert_fail(); } while (false);
 
    auto __n_elt = __src.size();
    size_type __first = 1;
@@ -118737,7 +118951,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       void
       _M_merge_multi(_Hashtable& __src)
       {
- do { if (__builtin_expect(!bool(get_allocator() == __src.get_allocator()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/hashtable.h", 1352, __PRETTY_FUNCTION__, "get_allocator() == __src.get_allocator()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(get_allocator() == __src.get_allocator())) std::__glibcxx_assert_fail(); } while (false);
 
  if (__src.size() == 0) [[__unlikely__]]
    return;
@@ -118770,7 +118984,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  {
    static_assert(is_same_v<typename _Compatible_Hashtable::node_type,
        node_type>, "Node types are compatible");
-   do { if (__builtin_expect(!bool(get_allocator() == __src.get_allocator()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/hashtable.h", 1385, __PRETTY_FUNCTION__, "get_allocator() == __src.get_allocator()"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(get_allocator() == __src.get_allocator())) std::__glibcxx_assert_fail(); } while (false);
 
    __node_ptr __hint = nullptr;
    this->reserve(size() + __src.size());
@@ -120684,7 +120898,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       node_type
       extract(const_iterator __pos)
       {
- do { if (__builtin_expect(!bool(__pos != end()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/unordered_map.h", 480, __PRETTY_FUNCTION__, "__pos != end()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__pos != end())) std::__glibcxx_assert_fail(); } while (false);
  return _M_h.extract(__pos);
       }
 
@@ -121538,7 +121752,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       node_type
       extract(const_iterator __pos)
       {
- do { if (__builtin_expect(!bool(__pos != end()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/unordered_map.h", 1836, __PRETTY_FUNCTION__, "__pos != end()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__pos != end())) std::__glibcxx_assert_fail(); } while (false);
  return _M_h.extract(__pos);
       }
 
@@ -122360,7 +122574,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       _Res
       operator()(_ArgTypes... __args) noexcept(_Noex)
       {
- do { if (__builtin_expect(!bool(*this != nullptr), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mofunc_impl.h", 183, __PRETTY_FUNCTION__, "*this != nullptr"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(*this != nullptr)) std::__glibcxx_assert_fail(); } while (false);
  return _M_invoke(this, std::forward<_ArgTypes>(__args)...);
       }
 
@@ -122532,7 +122746,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       _Res
       operator()(_ArgTypes... __args) const noexcept(_Noex)
       {
- do { if (__builtin_expect(!bool(*this != nullptr), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mofunc_impl.h", 183, __PRETTY_FUNCTION__, "*this != nullptr"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(*this != nullptr)) std::__glibcxx_assert_fail(); } while (false);
  return _M_invoke(this, std::forward<_ArgTypes>(__args)...);
       }
 
@@ -122704,7 +122918,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       _Res
       operator()(_ArgTypes... __args) & noexcept(_Noex)
       {
- do { if (__builtin_expect(!bool(*this != nullptr), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mofunc_impl.h", 183, __PRETTY_FUNCTION__, "*this != nullptr"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(*this != nullptr)) std::__glibcxx_assert_fail(); } while (false);
  return _M_invoke(this, std::forward<_ArgTypes>(__args)...);
       }
 
@@ -122876,7 +123090,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       _Res
       operator()(_ArgTypes... __args) && noexcept(_Noex)
       {
- do { if (__builtin_expect(!bool(*this != nullptr), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mofunc_impl.h", 183, __PRETTY_FUNCTION__, "*this != nullptr"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(*this != nullptr)) std::__glibcxx_assert_fail(); } while (false);
  return _M_invoke(this, std::forward<_ArgTypes>(__args)...);
       }
 
@@ -123049,7 +123263,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       _Res
       operator()(_ArgTypes... __args) const & noexcept(_Noex)
       {
- do { if (__builtin_expect(!bool(*this != nullptr), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mofunc_impl.h", 183, __PRETTY_FUNCTION__, "*this != nullptr"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(*this != nullptr)) std::__glibcxx_assert_fail(); } while (false);
  return _M_invoke(this, std::forward<_ArgTypes>(__args)...);
       }
 
@@ -123222,7 +123436,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       _Res
       operator()(_ArgTypes... __args) const && noexcept(_Noex)
       {
- do { if (__builtin_expect(!bool(*this != nullptr), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mofunc_impl.h", 183, __PRETTY_FUNCTION__, "*this != nullptr"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(*this != nullptr)) std::__glibcxx_assert_fail(); } while (false);
  return _M_invoke(this, std::forward<_ArgTypes>(__args)...);
       }
 
@@ -125986,7 +126200,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     ~__condvar()
     {
       int __e __attribute__((__unused__)) = __gthread_cond_destroy(&_M_cond);
-      do { if (__builtin_expect(!bool(__e != 16), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/std_mutex.h", 160, __PRETTY_FUNCTION__, "__e != 16"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__e != 16)) std::__glibcxx_assert_fail(); } while (false);
     }
 
     __condvar(const __condvar&) = delete;
@@ -126000,7 +126214,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     {
       int __e __attribute__((__unused__))
  = __gthread_cond_wait(&_M_cond, __m.native_handle());
-      do { if (__builtin_expect(!bool(__e == 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/std_mutex.h", 174, __PRETTY_FUNCTION__, "__e == 0"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__e == 0)) std::__glibcxx_assert_fail(); } while (false);
     }
 
     void
@@ -126022,14 +126236,14 @@ namespace std __attribute__ ((__visibility__ ("default")))
     notify_one() noexcept
     {
       int __e __attribute__((__unused__)) = __gthread_cond_signal(&_M_cond);
-      do { if (__builtin_expect(!bool(__e == 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/std_mutex.h", 196, __PRETTY_FUNCTION__, "__e == 0"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__e == 0)) std::__glibcxx_assert_fail(); } while (false);
     }
 
     void
     notify_all() noexcept
     {
       int __e __attribute__((__unused__)) = __gthread_cond_broadcast(&_M_cond);
-      do { if (__builtin_expect(!bool(__e == 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/std_mutex.h", 203, __PRETTY_FUNCTION__, "__e == 0"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__e == 0)) std::__glibcxx_assert_fail(); } while (false);
     }
 
   protected:
@@ -126686,9 +126900,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
     {
       memory_order __b __attribute__ ((__unused__))
  = __m & __memory_order_mask;
-      do { if (__builtin_expect(!bool(__b != memory_order_consume), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 286, __PRETTY_FUNCTION__, "__b != memory_order_consume"); } while (false);
-      do { if (__builtin_expect(!bool(__b != memory_order_acquire), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 287, __PRETTY_FUNCTION__, "__b != memory_order_acquire"); } while (false);
-      do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 288, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_consume)) std::__glibcxx_assert_fail(); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_acquire)) std::__glibcxx_assert_fail(); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_acq_rel)) std::__glibcxx_assert_fail(); } while (false);
 
       __atomic_clear (&_M_i, int(__m));
     }
@@ -126698,9 +126912,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
     {
       memory_order __b __attribute__ ((__unused__))
  = __m & __memory_order_mask;
-      do { if (__builtin_expect(!bool(__b != memory_order_consume), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 298, __PRETTY_FUNCTION__, "__b != memory_order_consume"); } while (false);
-      do { if (__builtin_expect(!bool(__b != memory_order_acquire), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 299, __PRETTY_FUNCTION__, "__b != memory_order_acquire"); } while (false);
-      do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 300, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_consume)) std::__glibcxx_assert_fail(); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_acquire)) std::__glibcxx_assert_fail(); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_acq_rel)) std::__glibcxx_assert_fail(); } while (false);
 
       __atomic_clear (&_M_i, int(__m));
     }
@@ -126847,9 +127061,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
  memory_order __b __attribute__ ((__unused__))
    = __m & __memory_order_mask;
- do { if (__builtin_expect(!bool(__b != memory_order_acquire), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 473, __PRETTY_FUNCTION__, "__b != memory_order_acquire"); } while (false);
- do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 474, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
- do { if (__builtin_expect(!bool(__b != memory_order_consume), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 475, __PRETTY_FUNCTION__, "__b != memory_order_consume"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_acquire)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_acq_rel)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_consume)) std::__glibcxx_assert_fail(); } while (false);
 
  __atomic_store_n(&_M_i, __i, int(__m));
       }
@@ -126860,9 +127074,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
  memory_order __b __attribute__ ((__unused__))
    = __m & __memory_order_mask;
- do { if (__builtin_expect(!bool(__b != memory_order_acquire), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 486, __PRETTY_FUNCTION__, "__b != memory_order_acquire"); } while (false);
- do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 487, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
- do { if (__builtin_expect(!bool(__b != memory_order_consume), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 488, __PRETTY_FUNCTION__, "__b != memory_order_consume"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_acquire)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_acq_rel)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_consume)) std::__glibcxx_assert_fail(); } while (false);
 
  __atomic_store_n(&_M_i, __i, int(__m));
       }
@@ -126872,8 +127086,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
  memory_order __b __attribute__ ((__unused__))
    = __m & __memory_order_mask;
- do { if (__builtin_expect(!bool(__b != memory_order_release), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 498, __PRETTY_FUNCTION__, "__b != memory_order_release"); } while (false);
- do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 499, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_release)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_acq_rel)) std::__glibcxx_assert_fail(); } while (false);
 
  return __atomic_load_n(&_M_i, int(__m));
       }
@@ -126883,8 +127097,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
  memory_order __b __attribute__ ((__unused__))
    = __m & __memory_order_mask;
- do { if (__builtin_expect(!bool(__b != memory_order_release), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 509, __PRETTY_FUNCTION__, "__b != memory_order_release"); } while (false);
- do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 510, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_release)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_acq_rel)) std::__glibcxx_assert_fail(); } while (false);
 
  return __atomic_load_n(&_M_i, int(__m));
       }
@@ -126908,7 +127122,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       compare_exchange_weak(__int_type& __i1, __int_type __i2,
        memory_order __m1, memory_order __m2) noexcept
       {
- do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__m2)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 534, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__m2)"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__is_valid_cmpexch_failure_order(__m2))) std::__glibcxx_assert_fail(); } while (false);
 
  return __atomic_compare_exchange_n(&_M_i, &__i1, __i2, 1,
         int(__m1), int(__m2));
@@ -126919,7 +127133,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
        memory_order __m1,
        memory_order __m2) volatile noexcept
       {
- do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__m2)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 545, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__m2)"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__is_valid_cmpexch_failure_order(__m2))) std::__glibcxx_assert_fail(); } while (false);
 
  return __atomic_compare_exchange_n(&_M_i, &__i1, __i2, 1,
         int(__m1), int(__m2));
@@ -126945,7 +127159,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       compare_exchange_strong(__int_type& __i1, __int_type __i2,
          memory_order __m1, memory_order __m2) noexcept
       {
- do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__m2)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 571, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__m2)"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__is_valid_cmpexch_failure_order(__m2))) std::__glibcxx_assert_fail(); } while (false);
 
  return __atomic_compare_exchange_n(&_M_i, &__i1, __i2, 0,
         int(__m1), int(__m2));
@@ -126956,7 +127170,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
          memory_order __m1,
          memory_order __m2) volatile noexcept
       {
- do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__m2)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 582, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__m2)"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__is_valid_cmpexch_failure_order(__m2))) std::__glibcxx_assert_fail(); } while (false);
 
  return __atomic_compare_exchange_n(&_M_i, &__i1, __i2, 0,
         int(__m1), int(__m2));
@@ -127176,9 +127390,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
  memory_order __b __attribute__ ((__unused__))
    = __m & __memory_order_mask;
 
- do { if (__builtin_expect(!bool(__b != memory_order_acquire), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 802, __PRETTY_FUNCTION__, "__b != memory_order_acquire"); } while (false);
- do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 803, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
- do { if (__builtin_expect(!bool(__b != memory_order_consume), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 804, __PRETTY_FUNCTION__, "__b != memory_order_consume"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_acquire)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_acq_rel)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_consume)) std::__glibcxx_assert_fail(); } while (false);
 
  __atomic_store_n(&_M_p, __p, int(__m));
       }
@@ -127189,9 +127403,9 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
  memory_order __b __attribute__ ((__unused__))
    = __m & __memory_order_mask;
- do { if (__builtin_expect(!bool(__b != memory_order_acquire), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 815, __PRETTY_FUNCTION__, "__b != memory_order_acquire"); } while (false);
- do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 816, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
- do { if (__builtin_expect(!bool(__b != memory_order_consume), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 817, __PRETTY_FUNCTION__, "__b != memory_order_consume"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_acquire)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_acq_rel)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_consume)) std::__glibcxx_assert_fail(); } while (false);
 
  __atomic_store_n(&_M_p, __p, int(__m));
       }
@@ -127201,8 +127415,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
  memory_order __b __attribute__ ((__unused__))
    = __m & __memory_order_mask;
- do { if (__builtin_expect(!bool(__b != memory_order_release), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 827, __PRETTY_FUNCTION__, "__b != memory_order_release"); } while (false);
- do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 828, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_release)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_acq_rel)) std::__glibcxx_assert_fail(); } while (false);
 
  return __atomic_load_n(&_M_p, int(__m));
       }
@@ -127212,8 +127426,8 @@ namespace std __attribute__ ((__visibility__ ("default")))
       {
  memory_order __b __attribute__ ((__unused__))
    = __m & __memory_order_mask;
- do { if (__builtin_expect(!bool(__b != memory_order_release), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 838, __PRETTY_FUNCTION__, "__b != memory_order_release"); } while (false);
- do { if (__builtin_expect(!bool(__b != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 839, __PRETTY_FUNCTION__, "__b != memory_order_acq_rel"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_release)) std::__glibcxx_assert_fail(); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__b != memory_order_acq_rel)) std::__glibcxx_assert_fail(); } while (false);
 
  return __atomic_load_n(&_M_p, int(__m));
       }
@@ -127238,7 +127452,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
        memory_order __m1,
        memory_order __m2) noexcept
       {
- do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__m2)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 864, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__m2)"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__is_valid_cmpexch_failure_order(__m2))) std::__glibcxx_assert_fail(); } while (false);
 
  return __atomic_compare_exchange_n(&_M_p, &__p1, __p2, 1,
         int(__m1), int(__m2));
@@ -127249,7 +127463,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
        memory_order __m1,
        memory_order __m2) volatile noexcept
       {
- do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__m2)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 875, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__m2)"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__is_valid_cmpexch_failure_order(__m2))) std::__glibcxx_assert_fail(); } while (false);
 
  return __atomic_compare_exchange_n(&_M_p, &__p1, __p2, 1,
         int(__m1), int(__m2));
@@ -127260,7 +127474,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
          memory_order __m1,
          memory_order __m2) noexcept
       {
- do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__m2)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 886, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__m2)"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__is_valid_cmpexch_failure_order(__m2))) std::__glibcxx_assert_fail(); } while (false);
 
  return __atomic_compare_exchange_n(&_M_p, &__p1, __p2, 0,
         int(__m1), int(__m2));
@@ -127271,7 +127485,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
          memory_order __m1,
          memory_order __m2) volatile noexcept
       {
- do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__m2)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 897, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__m2)"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__is_valid_cmpexch_failure_order(__m2))) std::__glibcxx_assert_fail(); } while (false);
 
  return __atomic_compare_exchange_n(&_M_p, &__p1, __p2, 0,
         int(__m1), int(__m2));
@@ -127366,7 +127580,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     bool __is_weak,
     memory_order __s, memory_order __f) noexcept
       {
- do { if (__builtin_expect(!bool(__is_valid_cmpexch_failure_order(__f)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 992, __PRETTY_FUNCTION__, "__is_valid_cmpexch_failure_order(__f)"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__is_valid_cmpexch_failure_order(__f))) std::__glibcxx_assert_fail(); } while (false);
 
  using _Vp = _Val<_Tp>;
  _Tp* const __pval = std::__addressof(__val);
@@ -127905,7 +128119,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       explicit
       __atomic_ref(_Tp& __t) : _M_ptr(std::__addressof(__t))
       {
- do { if (__builtin_expect(!bool(((long unsigned int)_M_ptr % required_alignment) == 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 1541, __PRETTY_FUNCTION__, "((long unsigned int)_M_ptr % required_alignment) == 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(((long unsigned int)_M_ptr % required_alignment) == 0)) std::__glibcxx_assert_fail(); } while (false);
       }
 
       __atomic_ref(const __atomic_ref&) noexcept = default;
@@ -128018,7 +128232,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       explicit
       __atomic_ref(_Tp& __t) : _M_ptr(&__t)
       {
- do { if (__builtin_expect(!bool(((long unsigned int)_M_ptr % required_alignment) == 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 1654, __PRETTY_FUNCTION__, "((long unsigned int)_M_ptr % required_alignment) == 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(((long unsigned int)_M_ptr % required_alignment) == 0)) std::__glibcxx_assert_fail(); } while (false);
       }
 
       __atomic_ref(const __atomic_ref&) noexcept = default;
@@ -128193,7 +128407,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       explicit
       __atomic_ref(_Fp& __t) : _M_ptr(&__t)
       {
- do { if (__builtin_expect(!bool(((long unsigned int)_M_ptr % required_alignment) == 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 1829, __PRETTY_FUNCTION__, "((long unsigned int)_M_ptr % required_alignment) == 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(((long unsigned int)_M_ptr % required_alignment) == 0)) std::__glibcxx_assert_fail(); } while (false);
       }
 
       __atomic_ref(const __atomic_ref&) noexcept = default;
@@ -128322,7 +128536,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       explicit
       __atomic_ref(_Tp*& __t) : _M_ptr(std::__addressof(__t))
       {
- do { if (__builtin_expect(!bool(((long unsigned int)_M_ptr % required_alignment) == 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/atomic_base.h", 1958, __PRETTY_FUNCTION__, "((long unsigned int)_M_ptr % required_alignment) == 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(((long unsigned int)_M_ptr % required_alignment) == 0)) std::__glibcxx_assert_fail(); } while (false);
       }
 
       __atomic_ref(const __atomic_ref&) noexcept = default;
@@ -128779,7 +128993,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  {
    auto __val = _M_val.load(memory_order_relaxed);
    ;
-   do { if (__builtin_expect(!bool(!(__val & _S_lock_bit)), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/shared_ptr_atomic.h", 425, __PRETTY_FUNCTION__, "!(__val & _S_lock_bit)"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(!(__val & _S_lock_bit))) std::__glibcxx_assert_fail(); } while (false);
    if (auto __pi = reinterpret_cast<pointer>(__val))
      {
        if constexpr (__is_shared_ptr<_Tp>)
@@ -128913,7 +129127,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       value_type
       load(memory_order __o) const noexcept
       {
- do { if (__builtin_expect(!bool(__o != memory_order_release && __o != memory_order_acq_rel), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/shared_ptr_atomic.h", 559, __PRETTY_FUNCTION__, "__o != memory_order_release && __o != memory_order_acq_rel"); } while (false)
+ do { if (std::__is_constant_evaluated() && !bool(__o != memory_order_release && __o != memory_order_acq_rel)) std::__glibcxx_assert_fail(); } while (false)
                                      ;
 
 
@@ -129291,7 +129505,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       element_type&
       operator*() const throw()
       {
- do { if (__builtin_expect(!bool(_M_ptr != 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/backward/auto_ptr.h", 189, __PRETTY_FUNCTION__, "_M_ptr != 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(_M_ptr != 0)) std::__glibcxx_assert_fail(); } while (false);
  return *_M_ptr;
       }
 
@@ -129304,7 +129518,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       element_type*
       operator->() const throw()
       {
- do { if (__builtin_expect(!bool(_M_ptr != 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/backward/auto_ptr.h", 202, __PRETTY_FUNCTION__, "_M_ptr != 0"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(_M_ptr != 0)) std::__glibcxx_assert_fail(); } while (false);
  return _M_ptr;
       }
 # 216 "/usr/include/c++/15.2.1/backward/auto_ptr.h" 3 4
@@ -131512,7 +131726,7 @@ namespace __fwdlist
       reference
       front()
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/forward_list.h", 1281, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  _Node& __front = static_cast<_Node&>(*this->_M_impl._M_head._M_next);
  return *__front._M_valptr();
       }
@@ -131525,7 +131739,7 @@ namespace __fwdlist
       const_reference
       front() const
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/forward_list.h", 1294, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  _Node& __front = static_cast<_Node&>(*this->_M_impl._M_head._M_next);
  return *__front._M_valptr();
       }
@@ -131569,7 +131783,7 @@ namespace __fwdlist
       void
       pop_front()
       {
- do { if (__builtin_expect(!bool(!this->empty()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/forward_list.h", 1390, __PRETTY_FUNCTION__, "!this->empty()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!this->empty())) std::__glibcxx_assert_fail(); } while (false);
  this->_M_erase_after(this->_M_impl._M_head._M_base_ptr());
       }
 # 1407 "/usr/include/c++/15.2.1/bits/forward_list.h" 3 4
@@ -145179,7 +145393,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline const _Tp&
     valarray<_Tp>::operator[](size_t __i) const noexcept
     {
-      do { if (__builtin_expect(!bool(__i < this->size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 590, __PRETTY_FUNCTION__, "__i < this->size()"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__i < this->size())) std::__glibcxx_assert_fail(); } while (false);
       return _M_data[__i];
     }
 
@@ -145187,7 +145401,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline _Tp&
     valarray<_Tp>::operator[](size_t __i) noexcept
     {
-      do { if (__builtin_expect(!bool(__i < this->size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 598, __PRETTY_FUNCTION__, "__i < this->size()"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__i < this->size())) std::__glibcxx_assert_fail(); } while (false);
       return _M_data[__i];
     }
 
@@ -145905,7 +146119,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline mask_array<_Tp>&
     mask_array<_Tp>::operator=(const mask_array<_Tp>& __a)
     {
-      do { if (__builtin_expect(!bool(__a._M_sz == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 158, __PRETTY_FUNCTION__, "__a._M_sz == _M_sz"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__a._M_sz == _M_sz)) std::__glibcxx_assert_fail(); } while (false);
       std::__valarray_copy(__a._M_array, __a._M_mask,
       _M_sz, _M_array, _M_mask);
       return *this;
@@ -145920,7 +146134,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline void
     mask_array<_Tp>::operator=(const valarray<_Tp>& __v) const
     {
-      do { if (__builtin_expect(!bool(__v.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 173, __PRETTY_FUNCTION__, "__v.size() == _M_sz"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__v.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false);
       std::__valarray_copy(_Array<_Tp>(__v), __v.size(), _M_array, _M_mask);
     }
 
@@ -145929,20 +146143,20 @@ namespace std __attribute__ ((__visibility__ ("default")))
       inline void
       mask_array<_Tp>::operator=(const _Expr<_Ex, _Tp>& __e) const
       {
- do { if (__builtin_expect(!bool(__e.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 182, __PRETTY_FUNCTION__, "__e.size() == _M_sz"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(__e.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false);
  std::__valarray_copy(__e, __e.size(), _M_array, _M_mask);
       }
 # 207 "/usr/include/c++/15.2.1/bits/mask_array.h" 3 4
-template<typename _Tp> inline void mask_array<_Tp>::operator *=(const valarray<_Tp>& __v) const { do { if (__builtin_expect(!bool(__v.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 207, __PRETTY_FUNCTION__, "__v.size() == _M_sz"); } while (false); _Array_augmented___multiplies(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator *=(const _Expr<_Dom, _Tp>& __e) const { do { if (__builtin_expect(!bool(__e.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 207, __PRETTY_FUNCTION__, "__e.size() == _M_sz"); } while (false); _Array_augmented___multiplies(_M_array, _M_mask, __e, __e.size()); }
-template<typename _Tp> inline void mask_array<_Tp>::operator /=(const valarray<_Tp>& __v) const { do { if (__builtin_expect(!bool(__v.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 208, __PRETTY_FUNCTION__, "__v.size() == _M_sz"); } while (false); _Array_augmented___divides(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator /=(const _Expr<_Dom, _Tp>& __e) const { do { if (__builtin_expect(!bool(__e.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 208, __PRETTY_FUNCTION__, "__e.size() == _M_sz"); } while (false); _Array_augmented___divides(_M_array, _M_mask, __e, __e.size()); }
-template<typename _Tp> inline void mask_array<_Tp>::operator %=(const valarray<_Tp>& __v) const { do { if (__builtin_expect(!bool(__v.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 209, __PRETTY_FUNCTION__, "__v.size() == _M_sz"); } while (false); _Array_augmented___modulus(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator %=(const _Expr<_Dom, _Tp>& __e) const { do { if (__builtin_expect(!bool(__e.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 209, __PRETTY_FUNCTION__, "__e.size() == _M_sz"); } while (false); _Array_augmented___modulus(_M_array, _M_mask, __e, __e.size()); }
-template<typename _Tp> inline void mask_array<_Tp>::operator +=(const valarray<_Tp>& __v) const { do { if (__builtin_expect(!bool(__v.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 210, __PRETTY_FUNCTION__, "__v.size() == _M_sz"); } while (false); _Array_augmented___plus(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator +=(const _Expr<_Dom, _Tp>& __e) const { do { if (__builtin_expect(!bool(__e.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 210, __PRETTY_FUNCTION__, "__e.size() == _M_sz"); } while (false); _Array_augmented___plus(_M_array, _M_mask, __e, __e.size()); }
-template<typename _Tp> inline void mask_array<_Tp>::operator -=(const valarray<_Tp>& __v) const { do { if (__builtin_expect(!bool(__v.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 211, __PRETTY_FUNCTION__, "__v.size() == _M_sz"); } while (false); _Array_augmented___minus(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator -=(const _Expr<_Dom, _Tp>& __e) const { do { if (__builtin_expect(!bool(__e.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 211, __PRETTY_FUNCTION__, "__e.size() == _M_sz"); } while (false); _Array_augmented___minus(_M_array, _M_mask, __e, __e.size()); }
-template<typename _Tp> inline void mask_array<_Tp>::operator ^=(const valarray<_Tp>& __v) const { do { if (__builtin_expect(!bool(__v.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 212, __PRETTY_FUNCTION__, "__v.size() == _M_sz"); } while (false); _Array_augmented___bitwise_xor(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator ^=(const _Expr<_Dom, _Tp>& __e) const { do { if (__builtin_expect(!bool(__e.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 212, __PRETTY_FUNCTION__, "__e.size() == _M_sz"); } while (false); _Array_augmented___bitwise_xor(_M_array, _M_mask, __e, __e.size()); }
-template<typename _Tp> inline void mask_array<_Tp>::operator &=(const valarray<_Tp>& __v) const { do { if (__builtin_expect(!bool(__v.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 213, __PRETTY_FUNCTION__, "__v.size() == _M_sz"); } while (false); _Array_augmented___bitwise_and(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator &=(const _Expr<_Dom, _Tp>& __e) const { do { if (__builtin_expect(!bool(__e.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 213, __PRETTY_FUNCTION__, "__e.size() == _M_sz"); } while (false); _Array_augmented___bitwise_and(_M_array, _M_mask, __e, __e.size()); }
-template<typename _Tp> inline void mask_array<_Tp>::operator |=(const valarray<_Tp>& __v) const { do { if (__builtin_expect(!bool(__v.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 214, __PRETTY_FUNCTION__, "__v.size() == _M_sz"); } while (false); _Array_augmented___bitwise_or(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator |=(const _Expr<_Dom, _Tp>& __e) const { do { if (__builtin_expect(!bool(__e.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 214, __PRETTY_FUNCTION__, "__e.size() == _M_sz"); } while (false); _Array_augmented___bitwise_or(_M_array, _M_mask, __e, __e.size()); }
-template<typename _Tp> inline void mask_array<_Tp>::operator <<=(const valarray<_Tp>& __v) const { do { if (__builtin_expect(!bool(__v.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 215, __PRETTY_FUNCTION__, "__v.size() == _M_sz"); } while (false); _Array_augmented___shift_left(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator <<=(const _Expr<_Dom, _Tp>& __e) const { do { if (__builtin_expect(!bool(__e.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 215, __PRETTY_FUNCTION__, "__e.size() == _M_sz"); } while (false); _Array_augmented___shift_left(_M_array, _M_mask, __e, __e.size()); }
-template<typename _Tp> inline void mask_array<_Tp>::operator >>=(const valarray<_Tp>& __v) const { do { if (__builtin_expect(!bool(__v.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 216, __PRETTY_FUNCTION__, "__v.size() == _M_sz"); } while (false); _Array_augmented___shift_right(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator >>=(const _Expr<_Dom, _Tp>& __e) const { do { if (__builtin_expect(!bool(__e.size() == _M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/mask_array.h", 216, __PRETTY_FUNCTION__, "__e.size() == _M_sz"); } while (false); _Array_augmented___shift_right(_M_array, _M_mask, __e, __e.size()); }
+template<typename _Tp> inline void mask_array<_Tp>::operator *=(const valarray<_Tp>& __v) const { do { if (std::__is_constant_evaluated() && !bool(__v.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___multiplies(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator *=(const _Expr<_Dom, _Tp>& __e) const { do { if (std::__is_constant_evaluated() && !bool(__e.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___multiplies(_M_array, _M_mask, __e, __e.size()); }
+template<typename _Tp> inline void mask_array<_Tp>::operator /=(const valarray<_Tp>& __v) const { do { if (std::__is_constant_evaluated() && !bool(__v.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___divides(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator /=(const _Expr<_Dom, _Tp>& __e) const { do { if (std::__is_constant_evaluated() && !bool(__e.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___divides(_M_array, _M_mask, __e, __e.size()); }
+template<typename _Tp> inline void mask_array<_Tp>::operator %=(const valarray<_Tp>& __v) const { do { if (std::__is_constant_evaluated() && !bool(__v.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___modulus(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator %=(const _Expr<_Dom, _Tp>& __e) const { do { if (std::__is_constant_evaluated() && !bool(__e.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___modulus(_M_array, _M_mask, __e, __e.size()); }
+template<typename _Tp> inline void mask_array<_Tp>::operator +=(const valarray<_Tp>& __v) const { do { if (std::__is_constant_evaluated() && !bool(__v.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___plus(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator +=(const _Expr<_Dom, _Tp>& __e) const { do { if (std::__is_constant_evaluated() && !bool(__e.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___plus(_M_array, _M_mask, __e, __e.size()); }
+template<typename _Tp> inline void mask_array<_Tp>::operator -=(const valarray<_Tp>& __v) const { do { if (std::__is_constant_evaluated() && !bool(__v.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___minus(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator -=(const _Expr<_Dom, _Tp>& __e) const { do { if (std::__is_constant_evaluated() && !bool(__e.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___minus(_M_array, _M_mask, __e, __e.size()); }
+template<typename _Tp> inline void mask_array<_Tp>::operator ^=(const valarray<_Tp>& __v) const { do { if (std::__is_constant_evaluated() && !bool(__v.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___bitwise_xor(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator ^=(const _Expr<_Dom, _Tp>& __e) const { do { if (std::__is_constant_evaluated() && !bool(__e.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___bitwise_xor(_M_array, _M_mask, __e, __e.size()); }
+template<typename _Tp> inline void mask_array<_Tp>::operator &=(const valarray<_Tp>& __v) const { do { if (std::__is_constant_evaluated() && !bool(__v.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___bitwise_and(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator &=(const _Expr<_Dom, _Tp>& __e) const { do { if (std::__is_constant_evaluated() && !bool(__e.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___bitwise_and(_M_array, _M_mask, __e, __e.size()); }
+template<typename _Tp> inline void mask_array<_Tp>::operator |=(const valarray<_Tp>& __v) const { do { if (std::__is_constant_evaluated() && !bool(__v.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___bitwise_or(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator |=(const _Expr<_Dom, _Tp>& __e) const { do { if (std::__is_constant_evaluated() && !bool(__e.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___bitwise_or(_M_array, _M_mask, __e, __e.size()); }
+template<typename _Tp> inline void mask_array<_Tp>::operator <<=(const valarray<_Tp>& __v) const { do { if (std::__is_constant_evaluated() && !bool(__v.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___shift_left(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator <<=(const _Expr<_Dom, _Tp>& __e) const { do { if (std::__is_constant_evaluated() && !bool(__e.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___shift_left(_M_array, _M_mask, __e, __e.size()); }
+template<typename _Tp> inline void mask_array<_Tp>::operator >>=(const valarray<_Tp>& __v) const { do { if (std::__is_constant_evaluated() && !bool(__v.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___shift_right(_M_array, _M_mask, _Array<_Tp>(__v), __v.size()); } template<typename _Tp> template<class _Dom> inline void mask_array<_Tp>::operator >>=(const _Expr<_Dom, _Tp>& __e) const { do { if (std::__is_constant_evaluated() && !bool(__e.size() == _M_sz)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___shift_right(_M_array, _M_mask, __e, __e.size()); }
 
 
 
@@ -146124,7 +146338,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     valarray<_Tp>::valarray(const _Tp* __restrict__ __p, size_t __n)
     : _M_size(__n), _M_data(__valarray_get_storage<_Tp>(__n))
     {
-      do { if (__builtin_expect(!bool(__p != 0 || __n == 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 644, __PRETTY_FUNCTION__, "__p != 0 || __n == 0"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__p != 0 || __n == 0)) std::__glibcxx_assert_fail(); } while (false);
       std::__valarray_copy_construct(__p, __p + __n, _M_data);
     }
 
@@ -146282,7 +146496,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline valarray<_Tp>&
     valarray<_Tp>::operator=(const slice_array<_Tp>& __sa)
     {
-      do { if (__builtin_expect(!bool(_M_size == __sa._M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 802, __PRETTY_FUNCTION__, "_M_size == __sa._M_sz"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_size == __sa._M_sz)) std::__glibcxx_assert_fail(); } while (false);
       std::__valarray_copy(__sa._M_array, __sa._M_sz,
       __sa._M_stride, _Array<_Tp>(_M_data));
       return *this;
@@ -146292,7 +146506,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline valarray<_Tp>&
     valarray<_Tp>::operator=(const gslice_array<_Tp>& __ga)
     {
-      do { if (__builtin_expect(!bool(_M_size == __ga._M_index.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 812, __PRETTY_FUNCTION__, "_M_size == __ga._M_index.size()"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_size == __ga._M_index.size())) std::__glibcxx_assert_fail(); } while (false);
       std::__valarray_copy(__ga._M_array, _Array<size_t>(__ga._M_index),
       _Array<_Tp>(_M_data), _M_size);
       return *this;
@@ -146302,7 +146516,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline valarray<_Tp>&
     valarray<_Tp>::operator=(const mask_array<_Tp>& __ma)
     {
-      do { if (__builtin_expect(!bool(_M_size == __ma._M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 822, __PRETTY_FUNCTION__, "_M_size == __ma._M_sz"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_size == __ma._M_sz)) std::__glibcxx_assert_fail(); } while (false);
       std::__valarray_copy(__ma._M_array, __ma._M_mask,
       _Array<_Tp>(_M_data), _M_size);
       return *this;
@@ -146312,7 +146526,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline valarray<_Tp>&
     valarray<_Tp>::operator=(const indirect_array<_Tp>& __ia)
     {
-      do { if (__builtin_expect(!bool(_M_size == __ia._M_sz), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 832, __PRETTY_FUNCTION__, "_M_size == __ia._M_sz"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_size == __ia._M_sz)) std::__glibcxx_assert_fail(); } while (false);
       std::__valarray_copy(__ia._M_array, __ia._M_index,
       _Array<_Tp>(_M_data), _M_size);
       return *this;
@@ -146384,7 +146598,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       size_t __e = __m.size();
       for (size_t __i=0; __i<__e; ++__i)
  if (__m[__i]) ++__s;
-      do { if (__builtin_expect(!bool(__s <= _M_size), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 904, __PRETTY_FUNCTION__, "__s <= _M_size"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__s <= _M_size)) std::__glibcxx_assert_fail(); } while (false);
       return valarray<_Tp>(mask_array<_Tp>(_Array<_Tp>(_M_data), __s,
         _Array<bool> (__m)));
     }
@@ -146397,7 +146611,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
       size_t __e = __m.size();
       for (size_t __i=0; __i<__e; ++__i)
  if (__m[__i]) ++__s;
-      do { if (__builtin_expect(!bool(__s <= _M_size), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 917, __PRETTY_FUNCTION__, "__s <= _M_size"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__s <= _M_size)) std::__glibcxx_assert_fail(); } while (false);
       return mask_array<_Tp>(_Array<_Tp>(_M_data), __s, _Array<bool>(__m));
     }
 
@@ -146436,7 +146650,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline _Tp
     valarray<_Tp>::sum() const
     {
-      do { if (__builtin_expect(!bool(_M_size > 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 956, __PRETTY_FUNCTION__, "_M_size > 0"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_size > 0)) std::__glibcxx_assert_fail(); } while (false);
       return std::__valarray_sum(_M_data, _M_data + _M_size);
     }
 
@@ -146543,7 +146757,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline _Tp
     valarray<_Tp>::min() const
     {
-      do { if (__builtin_expect(!bool(_M_size > 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1063, __PRETTY_FUNCTION__, "_M_size > 0"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_size > 0)) std::__glibcxx_assert_fail(); } while (false);
       return *std::min_element(_M_data, _M_data + _M_size);
     }
 
@@ -146551,7 +146765,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     inline _Tp
     valarray<_Tp>::max() const
     {
-      do { if (__builtin_expect(!bool(_M_size > 0), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1071, __PRETTY_FUNCTION__, "_M_size > 0"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(_M_size > 0)) std::__glibcxx_assert_fail(); } while (false);
       return *std::max_element(_M_data, _M_data + _M_size);
     }
 
@@ -146576,16 +146790,16 @@ namespace std __attribute__ ((__visibility__ ("default")))
     template<typename _Tp> inline typename valarray<_Tp>::template _UnaryOp<__bitwise_not>::_Rt valarray<_Tp>::operator ~() const { typedef _UnClos<__bitwise_not, _ValArray, _Tp> _Closure; typedef typename __fun<__bitwise_not, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(*this)); }
     template<typename _Tp> inline typename valarray<_Tp>::template _UnaryOp<__logical_not>::_Rt valarray<_Tp>::operator !() const { typedef _UnClos<__logical_not, _ValArray, _Tp> _Closure; typedef typename __fun<__logical_not, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(*this)); }
 # 1128 "/usr/include/c++/15.2.1/valarray" 3 4
-template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator +=(const _Tp &__t) { _Array_augmented___plus(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator +=(const valarray<_Tp> &__v) { do { if (__builtin_expect(!bool(_M_size == __v._M_size), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1128, __PRETTY_FUNCTION__, "_M_size == __v._M_size"); } while (false); _Array_augmented___plus(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
-template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator -=(const _Tp &__t) { _Array_augmented___minus(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator -=(const valarray<_Tp> &__v) { do { if (__builtin_expect(!bool(_M_size == __v._M_size), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1129, __PRETTY_FUNCTION__, "_M_size == __v._M_size"); } while (false); _Array_augmented___minus(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
-template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator *=(const _Tp &__t) { _Array_augmented___multiplies(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator *=(const valarray<_Tp> &__v) { do { if (__builtin_expect(!bool(_M_size == __v._M_size), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1130, __PRETTY_FUNCTION__, "_M_size == __v._M_size"); } while (false); _Array_augmented___multiplies(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
-template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator /=(const _Tp &__t) { _Array_augmented___divides(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator /=(const valarray<_Tp> &__v) { do { if (__builtin_expect(!bool(_M_size == __v._M_size), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1131, __PRETTY_FUNCTION__, "_M_size == __v._M_size"); } while (false); _Array_augmented___divides(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
-template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator %=(const _Tp &__t) { _Array_augmented___modulus(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator %=(const valarray<_Tp> &__v) { do { if (__builtin_expect(!bool(_M_size == __v._M_size), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1132, __PRETTY_FUNCTION__, "_M_size == __v._M_size"); } while (false); _Array_augmented___modulus(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
-template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator ^=(const _Tp &__t) { _Array_augmented___bitwise_xor(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator ^=(const valarray<_Tp> &__v) { do { if (__builtin_expect(!bool(_M_size == __v._M_size), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1133, __PRETTY_FUNCTION__, "_M_size == __v._M_size"); } while (false); _Array_augmented___bitwise_xor(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
-template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator &=(const _Tp &__t) { _Array_augmented___bitwise_and(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator &=(const valarray<_Tp> &__v) { do { if (__builtin_expect(!bool(_M_size == __v._M_size), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1134, __PRETTY_FUNCTION__, "_M_size == __v._M_size"); } while (false); _Array_augmented___bitwise_and(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
-template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator |=(const _Tp &__t) { _Array_augmented___bitwise_or(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator |=(const valarray<_Tp> &__v) { do { if (__builtin_expect(!bool(_M_size == __v._M_size), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1135, __PRETTY_FUNCTION__, "_M_size == __v._M_size"); } while (false); _Array_augmented___bitwise_or(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
-template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator <<=(const _Tp &__t) { _Array_augmented___shift_left(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator <<=(const valarray<_Tp> &__v) { do { if (__builtin_expect(!bool(_M_size == __v._M_size), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1136, __PRETTY_FUNCTION__, "_M_size == __v._M_size"); } while (false); _Array_augmented___shift_left(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
-template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator >>=(const _Tp &__t) { _Array_augmented___shift_right(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator >>=(const valarray<_Tp> &__v) { do { if (__builtin_expect(!bool(_M_size == __v._M_size), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1137, __PRETTY_FUNCTION__, "_M_size == __v._M_size"); } while (false); _Array_augmented___shift_right(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
+template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator +=(const _Tp &__t) { _Array_augmented___plus(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator +=(const valarray<_Tp> &__v) { do { if (std::__is_constant_evaluated() && !bool(_M_size == __v._M_size)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___plus(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
+template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator -=(const _Tp &__t) { _Array_augmented___minus(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator -=(const valarray<_Tp> &__v) { do { if (std::__is_constant_evaluated() && !bool(_M_size == __v._M_size)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___minus(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
+template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator *=(const _Tp &__t) { _Array_augmented___multiplies(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator *=(const valarray<_Tp> &__v) { do { if (std::__is_constant_evaluated() && !bool(_M_size == __v._M_size)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___multiplies(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
+template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator /=(const _Tp &__t) { _Array_augmented___divides(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator /=(const valarray<_Tp> &__v) { do { if (std::__is_constant_evaluated() && !bool(_M_size == __v._M_size)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___divides(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
+template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator %=(const _Tp &__t) { _Array_augmented___modulus(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator %=(const valarray<_Tp> &__v) { do { if (std::__is_constant_evaluated() && !bool(_M_size == __v._M_size)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___modulus(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
+template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator ^=(const _Tp &__t) { _Array_augmented___bitwise_xor(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator ^=(const valarray<_Tp> &__v) { do { if (std::__is_constant_evaluated() && !bool(_M_size == __v._M_size)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___bitwise_xor(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
+template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator &=(const _Tp &__t) { _Array_augmented___bitwise_and(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator &=(const valarray<_Tp> &__v) { do { if (std::__is_constant_evaluated() && !bool(_M_size == __v._M_size)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___bitwise_and(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
+template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator |=(const _Tp &__t) { _Array_augmented___bitwise_or(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator |=(const valarray<_Tp> &__v) { do { if (std::__is_constant_evaluated() && !bool(_M_size == __v._M_size)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___bitwise_or(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
+template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator <<=(const _Tp &__t) { _Array_augmented___shift_left(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator <<=(const valarray<_Tp> &__v) { do { if (std::__is_constant_evaluated() && !bool(_M_size == __v._M_size)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___shift_left(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
+template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator >>=(const _Tp &__t) { _Array_augmented___shift_right(_Array<_Tp>(_M_data), _M_size, __t); return *this; } template<class _Tp> inline valarray<_Tp>& valarray<_Tp>::operator >>=(const valarray<_Tp> &__v) { do { if (std::__is_constant_evaluated() && !bool(_M_size == __v._M_size)) std::__glibcxx_assert_fail(); } while (false); _Array_augmented___shift_right(_Array<_Tp>(_M_data), _M_size, _Array<_Tp>(__v._M_data)); return *this; }
 # 1150 "/usr/include/c++/15.2.1/valarray" 3 4
 template<class _Tp> template<class _Dom> inline valarray<_Tp>& valarray<_Tp>::operator +=(const _Expr<_Dom, _Tp>& __e) { _Array_augmented___plus(_Array<_Tp>(_M_data), __e, _M_size); return *this; }
 template<class _Tp> template<class _Dom> inline valarray<_Tp>& valarray<_Tp>::operator -=(const _Expr<_Dom, _Tp>& __e) { _Array_augmented___minus(_Array<_Tp>(_M_data), __e, _M_size); return *this; }
@@ -146598,24 +146812,24 @@ template<class _Tp> template<class _Dom> inline valarray<_Tp>& valarray<_Tp>::op
 template<class _Tp> template<class _Dom> inline valarray<_Tp>& valarray<_Tp>::operator <<=(const _Expr<_Dom, _Tp>& __e) { _Array_augmented___shift_left(_Array<_Tp>(_M_data), __e, _M_size); return *this; }
 template<class _Tp> template<class _Dom> inline valarray<_Tp>& valarray<_Tp>::operator >>=(const _Expr<_Dom, _Tp>& __e) { _Array_augmented___shift_right(_Array<_Tp>(_M_data), __e, _M_size); return *this; }
 # 1198 "/usr/include/c++/15.2.1/valarray" 3 4
-template<typename _Tp> inline _Expr<_BinClos<__plus, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__plus, _Tp>::result_type> operator +(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1198, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__plus, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__plus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__plus, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__plus, _Tp>::result_type> operator +(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__plus, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__plus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__plus, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__plus, _Tp>::result_type> operator +(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__plus, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__plus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
-template<typename _Tp> inline _Expr<_BinClos<__minus, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__minus, _Tp>::result_type> operator -(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1199, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__minus, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__minus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__minus, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__minus, _Tp>::result_type> operator -(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__minus, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__minus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__minus, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__minus, _Tp>::result_type> operator -(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__minus, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__minus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
-template<typename _Tp> inline _Expr<_BinClos<__multiplies, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__multiplies, _Tp>::result_type> operator *(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1200, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__multiplies, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__multiplies, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__multiplies, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__multiplies, _Tp>::result_type> operator *(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__multiplies, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__multiplies, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__multiplies, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__multiplies, _Tp>::result_type> operator *(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__multiplies, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__multiplies, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
-template<typename _Tp> inline _Expr<_BinClos<__divides, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__divides, _Tp>::result_type> operator /(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1201, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__divides, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__divides, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__divides, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__divides, _Tp>::result_type> operator /(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__divides, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__divides, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__divides, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__divides, _Tp>::result_type> operator /(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__divides, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__divides, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
-template<typename _Tp> inline _Expr<_BinClos<__modulus, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__modulus, _Tp>::result_type> operator %(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1202, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__modulus, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__modulus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__modulus, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__modulus, _Tp>::result_type> operator %(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__modulus, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__modulus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__modulus, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__modulus, _Tp>::result_type> operator %(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__modulus, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__modulus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
-template<typename _Tp> inline _Expr<_BinClos<__bitwise_xor, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__bitwise_xor, _Tp>::result_type> operator ^(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1203, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__bitwise_xor, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_xor, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__bitwise_xor, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__bitwise_xor, _Tp>::result_type> operator ^(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__bitwise_xor, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_xor, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__bitwise_xor, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__bitwise_xor, _Tp>::result_type> operator ^(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__bitwise_xor, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_xor, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
-template<typename _Tp> inline _Expr<_BinClos<__bitwise_and, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__bitwise_and, _Tp>::result_type> operator &(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1204, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__bitwise_and, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_and, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__bitwise_and, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__bitwise_and, _Tp>::result_type> operator &(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__bitwise_and, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_and, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__bitwise_and, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__bitwise_and, _Tp>::result_type> operator &(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__bitwise_and, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_and, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
-template<typename _Tp> inline _Expr<_BinClos<__bitwise_or, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__bitwise_or, _Tp>::result_type> operator |(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1205, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__bitwise_or, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_or, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__bitwise_or, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__bitwise_or, _Tp>::result_type> operator |(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__bitwise_or, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_or, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__bitwise_or, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__bitwise_or, _Tp>::result_type> operator |(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__bitwise_or, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_or, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
-template<typename _Tp> inline _Expr<_BinClos<__shift_left, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__shift_left, _Tp>::result_type> operator <<(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1206, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__shift_left, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__shift_left, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__shift_left, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__shift_left, _Tp>::result_type> operator <<(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__shift_left, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__shift_left, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__shift_left, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__shift_left, _Tp>::result_type> operator <<(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__shift_left, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__shift_left, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
-template<typename _Tp> inline _Expr<_BinClos<__shift_right, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__shift_right, _Tp>::result_type> operator >>(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1207, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__shift_right, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__shift_right, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__shift_right, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__shift_right, _Tp>::result_type> operator >>(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__shift_right, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__shift_right, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__shift_right, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__shift_right, _Tp>::result_type> operator >>(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__shift_right, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__shift_right, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
-template<typename _Tp> inline _Expr<_BinClos<__logical_and, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__logical_and, _Tp>::result_type> operator &&(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1208, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__logical_and, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__logical_and, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__logical_and, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__logical_and, _Tp>::result_type> operator &&(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__logical_and, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__logical_and, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__logical_and, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__logical_and, _Tp>::result_type> operator &&(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__logical_and, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__logical_and, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
-template<typename _Tp> inline _Expr<_BinClos<__logical_or, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__logical_or, _Tp>::result_type> operator ||(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1209, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__logical_or, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__logical_or, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__logical_or, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__logical_or, _Tp>::result_type> operator ||(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__logical_or, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__logical_or, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__logical_or, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__logical_or, _Tp>::result_type> operator ||(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__logical_or, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__logical_or, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
-template<typename _Tp> inline _Expr<_BinClos<__equal_to, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__equal_to, _Tp>::result_type> operator ==(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1210, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__equal_to, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__equal_to, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__equal_to, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__equal_to, _Tp>::result_type> operator ==(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__equal_to, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__equal_to, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__equal_to, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__equal_to, _Tp>::result_type> operator ==(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__equal_to, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__equal_to, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
-template<typename _Tp> inline _Expr<_BinClos<__not_equal_to, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__not_equal_to, _Tp>::result_type> operator !=(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1211, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__not_equal_to, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__not_equal_to, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__not_equal_to, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__not_equal_to, _Tp>::result_type> operator !=(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__not_equal_to, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__not_equal_to, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__not_equal_to, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__not_equal_to, _Tp>::result_type> operator !=(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__not_equal_to, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__not_equal_to, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
-template<typename _Tp> inline _Expr<_BinClos<__less, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__less, _Tp>::result_type> operator <(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1212, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__less, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__less, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__less, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__less, _Tp>::result_type> operator <(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__less, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__less, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__less, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__less, _Tp>::result_type> operator <(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__less, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__less, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
-template<typename _Tp> inline _Expr<_BinClos<__greater, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__greater, _Tp>::result_type> operator >(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1213, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__greater, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__greater, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__greater, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__greater, _Tp>::result_type> operator >(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__greater, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__greater, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__greater, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__greater, _Tp>::result_type> operator >(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__greater, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__greater, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
-template<typename _Tp> inline _Expr<_BinClos<__less_equal, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__less_equal, _Tp>::result_type> operator <=(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1214, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__less_equal, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__less_equal, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__less_equal, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__less_equal, _Tp>::result_type> operator <=(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__less_equal, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__less_equal, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__less_equal, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__less_equal, _Tp>::result_type> operator <=(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__less_equal, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__less_equal, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
-template<typename _Tp> inline _Expr<_BinClos<__greater_equal, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__greater_equal, _Tp>::result_type> operator >=(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (__builtin_expect(!bool(__v.size() == __w.size()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/valarray", 1215, __PRETTY_FUNCTION__, "__v.size() == __w.size()"); } while (false); typedef _BinClos<__greater_equal, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__greater_equal, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__greater_equal, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__greater_equal, _Tp>::result_type> operator >=(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__greater_equal, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__greater_equal, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__greater_equal, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__greater_equal, _Tp>::result_type> operator >=(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__greater_equal, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__greater_equal, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__plus, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__plus, _Tp>::result_type> operator +(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__plus, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__plus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__plus, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__plus, _Tp>::result_type> operator +(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__plus, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__plus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__plus, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__plus, _Tp>::result_type> operator +(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__plus, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__plus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__minus, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__minus, _Tp>::result_type> operator -(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__minus, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__minus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__minus, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__minus, _Tp>::result_type> operator -(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__minus, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__minus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__minus, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__minus, _Tp>::result_type> operator -(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__minus, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__minus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__multiplies, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__multiplies, _Tp>::result_type> operator *(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__multiplies, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__multiplies, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__multiplies, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__multiplies, _Tp>::result_type> operator *(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__multiplies, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__multiplies, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__multiplies, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__multiplies, _Tp>::result_type> operator *(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__multiplies, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__multiplies, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__divides, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__divides, _Tp>::result_type> operator /(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__divides, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__divides, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__divides, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__divides, _Tp>::result_type> operator /(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__divides, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__divides, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__divides, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__divides, _Tp>::result_type> operator /(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__divides, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__divides, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__modulus, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__modulus, _Tp>::result_type> operator %(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__modulus, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__modulus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__modulus, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__modulus, _Tp>::result_type> operator %(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__modulus, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__modulus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__modulus, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__modulus, _Tp>::result_type> operator %(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__modulus, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__modulus, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__bitwise_xor, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__bitwise_xor, _Tp>::result_type> operator ^(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__bitwise_xor, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_xor, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__bitwise_xor, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__bitwise_xor, _Tp>::result_type> operator ^(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__bitwise_xor, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_xor, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__bitwise_xor, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__bitwise_xor, _Tp>::result_type> operator ^(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__bitwise_xor, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_xor, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__bitwise_and, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__bitwise_and, _Tp>::result_type> operator &(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__bitwise_and, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_and, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__bitwise_and, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__bitwise_and, _Tp>::result_type> operator &(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__bitwise_and, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_and, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__bitwise_and, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__bitwise_and, _Tp>::result_type> operator &(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__bitwise_and, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_and, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__bitwise_or, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__bitwise_or, _Tp>::result_type> operator |(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__bitwise_or, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_or, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__bitwise_or, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__bitwise_or, _Tp>::result_type> operator |(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__bitwise_or, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_or, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__bitwise_or, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__bitwise_or, _Tp>::result_type> operator |(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__bitwise_or, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__bitwise_or, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__shift_left, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__shift_left, _Tp>::result_type> operator <<(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__shift_left, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__shift_left, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__shift_left, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__shift_left, _Tp>::result_type> operator <<(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__shift_left, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__shift_left, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__shift_left, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__shift_left, _Tp>::result_type> operator <<(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__shift_left, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__shift_left, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__shift_right, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__shift_right, _Tp>::result_type> operator >>(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__shift_right, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__shift_right, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__shift_right, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__shift_right, _Tp>::result_type> operator >>(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__shift_right, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__shift_right, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__shift_right, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__shift_right, _Tp>::result_type> operator >>(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__shift_right, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__shift_right, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__logical_and, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__logical_and, _Tp>::result_type> operator &&(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__logical_and, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__logical_and, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__logical_and, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__logical_and, _Tp>::result_type> operator &&(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__logical_and, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__logical_and, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__logical_and, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__logical_and, _Tp>::result_type> operator &&(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__logical_and, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__logical_and, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__logical_or, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__logical_or, _Tp>::result_type> operator ||(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__logical_or, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__logical_or, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__logical_or, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__logical_or, _Tp>::result_type> operator ||(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__logical_or, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__logical_or, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__logical_or, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__logical_or, _Tp>::result_type> operator ||(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__logical_or, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__logical_or, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__equal_to, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__equal_to, _Tp>::result_type> operator ==(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__equal_to, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__equal_to, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__equal_to, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__equal_to, _Tp>::result_type> operator ==(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__equal_to, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__equal_to, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__equal_to, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__equal_to, _Tp>::result_type> operator ==(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__equal_to, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__equal_to, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__not_equal_to, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__not_equal_to, _Tp>::result_type> operator !=(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__not_equal_to, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__not_equal_to, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__not_equal_to, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__not_equal_to, _Tp>::result_type> operator !=(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__not_equal_to, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__not_equal_to, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__not_equal_to, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__not_equal_to, _Tp>::result_type> operator !=(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__not_equal_to, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__not_equal_to, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__less, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__less, _Tp>::result_type> operator <(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__less, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__less, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__less, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__less, _Tp>::result_type> operator <(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__less, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__less, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__less, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__less, _Tp>::result_type> operator <(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__less, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__less, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__greater, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__greater, _Tp>::result_type> operator >(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__greater, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__greater, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__greater, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__greater, _Tp>::result_type> operator >(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__greater, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__greater, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__greater, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__greater, _Tp>::result_type> operator >(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__greater, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__greater, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__less_equal, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__less_equal, _Tp>::result_type> operator <=(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__less_equal, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__less_equal, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__less_equal, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__less_equal, _Tp>::result_type> operator <=(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__less_equal, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__less_equal, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__less_equal, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__less_equal, _Tp>::result_type> operator <=(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__less_equal, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__less_equal, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
+template<typename _Tp> inline _Expr<_BinClos<__greater_equal, _ValArray, _ValArray, _Tp, _Tp>, typename __fun<__greater_equal, _Tp>::result_type> operator >=(const valarray<_Tp>& __v, const valarray<_Tp>& __w) { do { if (std::__is_constant_evaluated() && !bool(__v.size() == __w.size())) std::__glibcxx_assert_fail(); } while (false); typedef _BinClos<__greater_equal, _ValArray, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__greater_equal, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __w)); } template<typename _Tp> inline _Expr<_BinClos<__greater_equal, _ValArray,_Constant, _Tp, _Tp>, typename __fun<__greater_equal, _Tp>::result_type> operator >=(const valarray<_Tp>& __v, const typename valarray<_Tp>::value_type& __t) { typedef _BinClos<__greater_equal, _ValArray, _Constant, _Tp, _Tp> _Closure; typedef typename __fun<__greater_equal, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__v, __t)); } template<typename _Tp> inline _Expr<_BinClos<__greater_equal, _Constant, _ValArray, _Tp, _Tp>, typename __fun<__greater_equal, _Tp>::result_type> operator >=(const typename valarray<_Tp>::value_type& __t, const valarray<_Tp>& __v) { typedef _BinClos<__greater_equal, _Constant, _ValArray, _Tp, _Tp> _Closure; typedef typename __fun<__greater_equal, _Tp>::result_type _Rt; return _Expr<_Closure, _Rt>(_Closure(__t, __v)); }
 # 1226 "/usr/include/c++/15.2.1/valarray" 3 4
   template<class _Tp>
     [[__nodiscard__]]
@@ -146799,27 +147013,6 @@ using is_detected_convertible =
 # 1 "/usr/include/c++/15.2.1/cassert" 1 3 4
 # 46 "/usr/include/c++/15.2.1/cassert" 3 4
 # 1 "/usr/include/assert.h" 1 3 4
-# 64 "/usr/include/assert.h" 3 4
-extern "C" {
-
-
-extern void __assert_fail (const char *__assertion, const char *__file,
-      unsigned int __line, const char *__function)
-     noexcept (true) __attribute__ ((__noreturn__)) __attribute__ ((__cold__));
-
-
-extern void __assert_perror_fail (int __errnum, const char *__file,
-      unsigned int __line, const char *__function)
-     noexcept (true) __attribute__ ((__noreturn__)) __attribute__ ((__cold__));
-
-
-
-
-extern void __assert (const char *__assertion, const char *__file, int __line)
-     noexcept (true) __attribute__ ((__noreturn__)) __attribute__ ((__cold__));
-
-
-}
 # 47 "/usr/include/c++/15.2.1/cassert" 2 3 4
 # 205 "/usr/include/nlohmann/detail/macro_scope.hpp" 2 3 4
 # 17 "/usr/include/nlohmann/detail/value_t.hpp" 2 3 4
@@ -146898,7 +147091,7 @@ template<typename StringType>
 inline void replace_substring(StringType& s, const StringType& f,
                               const StringType& t)
 {
-    (static_cast <bool> (!f.empty()) ? void (0) : __assert_fail ("!f.empty()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+    (static_cast<void> (0));
     for (auto pos = s.find(f);
             pos != StringType::npos;
             s.replace(pos, f.size(), t),
@@ -147947,7 +148140,20 @@ extern void *memchr (void *__s, int __c, size_t __n)
       noexcept (true) __asm ("memchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
 extern const void *memchr (const void *__s, int __c, size_t __n)
       noexcept (true) __asm ("memchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
-# 105 "/usr/include/string.h" 3 4
+
+
+extern __inline __attribute__ ((__always_inline__)) __attribute__ ((__gnu_inline__)) void *
+memchr (void *__s, int __c, size_t __n) noexcept (true)
+{
+  return __builtin_memchr (__s, __c, __n);
+}
+
+extern __inline __attribute__ ((__always_inline__)) __attribute__ ((__gnu_inline__)) const void *
+memchr (const void *__s, int __c, size_t __n) noexcept (true)
+{
+  return __builtin_memchr (__s, __c, __n);
+}
+
 }
 # 115 "/usr/include/string.h" 3 4
 extern "C++" void *rawmemchr (void *__s, int __c)
@@ -148031,7 +148237,20 @@ extern char *strchr (char *__s, int __c)
      noexcept (true) __asm ("strchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
 extern const char *strchr (const char *__s, int __c)
      noexcept (true) __asm ("strchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
-# 244 "/usr/include/string.h" 3 4
+
+
+extern __inline __attribute__ ((__always_inline__)) __attribute__ ((__gnu_inline__)) char *
+strchr (char *__s, int __c) noexcept (true)
+{
+  return __builtin_strchr (__s, __c);
+}
+
+extern __inline __attribute__ ((__always_inline__)) __attribute__ ((__gnu_inline__)) const char *
+strchr (const char *__s, int __c) noexcept (true)
+{
+  return __builtin_strchr (__s, __c);
+}
+
 }
 
 
@@ -148045,7 +148264,20 @@ extern char *strrchr (char *__s, int __c)
      noexcept (true) __asm ("strrchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
 extern const char *strrchr (const char *__s, int __c)
      noexcept (true) __asm ("strrchr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
-# 271 "/usr/include/string.h" 3 4
+
+
+extern __inline __attribute__ ((__always_inline__)) __attribute__ ((__gnu_inline__)) char *
+strrchr (char *__s, int __c) noexcept (true)
+{
+  return __builtin_strrchr (__s, __c);
+}
+
+extern __inline __attribute__ ((__always_inline__)) __attribute__ ((__gnu_inline__)) const char *
+strrchr (const char *__s, int __c) noexcept (true)
+{
+  return __builtin_strrchr (__s, __c);
+}
+
 }
 # 281 "/usr/include/string.h" 3 4
 extern "C++" char *strchrnul (char *__s, int __c)
@@ -148067,7 +148299,20 @@ extern char *strpbrk (char *__s, const char *__accept)
      noexcept (true) __asm ("strpbrk") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
 extern const char *strpbrk (const char *__s, const char *__accept)
      noexcept (true) __asm ("strpbrk") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-# 321 "/usr/include/string.h" 3 4
+
+
+extern __inline __attribute__ ((__always_inline__)) __attribute__ ((__gnu_inline__)) char *
+strpbrk (char *__s, const char *__accept) noexcept (true)
+{
+  return __builtin_strpbrk (__s, __accept);
+}
+
+extern __inline __attribute__ ((__always_inline__)) __attribute__ ((__gnu_inline__)) const char *
+strpbrk (const char *__s, const char *__accept) noexcept (true)
+{
+  return __builtin_strpbrk (__s, __accept);
+}
+
 }
 
 
@@ -148081,7 +148326,20 @@ extern char *strstr (char *__haystack, const char *__needle)
      noexcept (true) __asm ("strstr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
 extern const char *strstr (const char *__haystack, const char *__needle)
      noexcept (true) __asm ("strstr") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1, 2)));
-# 348 "/usr/include/string.h" 3 4
+
+
+extern __inline __attribute__ ((__always_inline__)) __attribute__ ((__gnu_inline__)) char *
+strstr (char *__haystack, const char *__needle) noexcept (true)
+{
+  return __builtin_strstr (__haystack, __needle);
+}
+
+extern __inline __attribute__ ((__always_inline__)) __attribute__ ((__gnu_inline__)) const char *
+strstr (const char *__haystack, const char *__needle) noexcept (true)
+{
+  return __builtin_strstr (__haystack, __needle);
+}
+
 }
 
 
@@ -148196,7 +148454,20 @@ extern char *index (char *__s, int __c)
      noexcept (true) __asm ("index") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
 extern const char *index (const char *__s, int __c)
      noexcept (true) __asm ("index") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
-# 66 "/usr/include/strings.h" 3 4
+
+
+extern __inline __attribute__ ((__always_inline__)) __attribute__ ((__gnu_inline__)) char *
+index (char *__s, int __c) noexcept (true)
+{
+  return __builtin_index (__s, __c);
+}
+
+extern __inline __attribute__ ((__always_inline__)) __attribute__ ((__gnu_inline__)) const char *
+index (const char *__s, int __c) noexcept (true)
+{
+  return __builtin_index (__s, __c);
+}
+
 }
 
 
@@ -148211,7 +148482,20 @@ extern char *rindex (char *__s, int __c)
      noexcept (true) __asm ("rindex") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
 extern const char *rindex (const char *__s, int __c)
      noexcept (true) __asm ("rindex") __attribute__ ((__pure__)) __attribute__ ((__nonnull__ (1)));
-# 94 "/usr/include/strings.h" 3 4
+
+
+extern __inline __attribute__ ((__always_inline__)) __attribute__ ((__gnu_inline__)) char *
+rindex (char *__s, int __c) noexcept (true)
+{
+  return __builtin_rindex (__s, __c);
+}
+
+extern __inline __attribute__ ((__always_inline__)) __attribute__ ((__gnu_inline__)) const char *
+rindex (const char *__s, int __c) noexcept (true)
+{
+  return __builtin_rindex (__s, __c);
+}
+
 }
 # 104 "/usr/include/strings.h" 3 4
 extern int ffs (int __i) noexcept (true) __attribute__ ((__const__));
@@ -152176,8 +152460,8 @@ namespace __detail
     __path_iter_distance(const iterator& __first, const iterator& __last)
     noexcept
     {
-      do { if (__builtin_expect(!bool(__first._M_path != nullptr), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/fs_path.h", 988, __PRETTY_FUNCTION__, "__first._M_path != nullptr"); } while (false);
-      do { if (__builtin_expect(!bool(__first._M_path == __last._M_path), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/fs_path.h", 989, __PRETTY_FUNCTION__, "__first._M_path == __last._M_path"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__first._M_path != nullptr)) std::__glibcxx_assert_fail(); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__first._M_path == __last._M_path)) std::__glibcxx_assert_fail(); } while (false);
       if (__first._M_is_multi())
  return std::distance(__first._M_cur, __last._M_cur);
       else if (__first._M_at_end == __last._M_at_end)
@@ -152195,8 +152479,8 @@ namespace __detail
  --__i;
       else if (__n != 0)
  {
-   do { if (__builtin_expect(!bool(__i._M_path != nullptr), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/fs_path.h", 1007, __PRETTY_FUNCTION__, "__i._M_path != nullptr"); } while (false);
-   do { if (__builtin_expect(!bool(__i._M_is_multi()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/fs_path.h", 1008, __PRETTY_FUNCTION__, "__i._M_is_multi()"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(__i._M_path != nullptr)) std::__glibcxx_assert_fail(); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(__i._M_is_multi())) std::__glibcxx_assert_fail(); } while (false);
 
    __i._M_cur += __n;
  }
@@ -152509,15 +152793,15 @@ namespace __detail
   inline path::iterator&
   path::iterator::operator++() noexcept
   {
-    do { if (__builtin_expect(!bool(_M_path != nullptr), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/fs_path.h", 1361, __PRETTY_FUNCTION__, "_M_path != nullptr"); } while (false);
+    do { if (std::__is_constant_evaluated() && !bool(_M_path != nullptr)) std::__glibcxx_assert_fail(); } while (false);
     if (_M_is_multi())
       {
- do { if (__builtin_expect(!bool(_M_cur != _M_path->_M_cmpts.end()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/fs_path.h", 1364, __PRETTY_FUNCTION__, "_M_cur != _M_path->_M_cmpts.end()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(_M_cur != _M_path->_M_cmpts.end())) std::__glibcxx_assert_fail(); } while (false);
  ++_M_cur;
       }
     else
       {
- do { if (__builtin_expect(!bool(!_M_at_end), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/fs_path.h", 1369, __PRETTY_FUNCTION__, "!_M_at_end"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(!_M_at_end)) std::__glibcxx_assert_fail(); } while (false);
  _M_at_end = true;
       }
     return *this;
@@ -152526,15 +152810,15 @@ namespace __detail
   inline path::iterator&
   path::iterator::operator--() noexcept
   {
-    do { if (__builtin_expect(!bool(_M_path != nullptr), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/fs_path.h", 1378, __PRETTY_FUNCTION__, "_M_path != nullptr"); } while (false);
+    do { if (std::__is_constant_evaluated() && !bool(_M_path != nullptr)) std::__glibcxx_assert_fail(); } while (false);
     if (_M_is_multi())
       {
- do { if (__builtin_expect(!bool(_M_cur != _M_path->_M_cmpts.begin()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/fs_path.h", 1381, __PRETTY_FUNCTION__, "_M_cur != _M_path->_M_cmpts.begin()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(_M_cur != _M_path->_M_cmpts.begin())) std::__glibcxx_assert_fail(); } while (false);
  --_M_cur;
       }
     else
       {
- do { if (__builtin_expect(!bool(_M_at_end), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/fs_path.h", 1386, __PRETTY_FUNCTION__, "_M_at_end"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(_M_at_end)) std::__glibcxx_assert_fail(); } while (false);
  _M_at_end = false;
       }
     return *this;
@@ -152543,10 +152827,10 @@ namespace __detail
   inline path::iterator::reference
   path::iterator::operator*() const noexcept
   {
-    do { if (__builtin_expect(!bool(_M_path != nullptr), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/fs_path.h", 1395, __PRETTY_FUNCTION__, "_M_path != nullptr"); } while (false);
+    do { if (std::__is_constant_evaluated() && !bool(_M_path != nullptr)) std::__glibcxx_assert_fail(); } while (false);
     if (_M_is_multi())
       {
- do { if (__builtin_expect(!bool(_M_cur != _M_path->_M_cmpts.end()), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/fs_path.h", 1398, __PRETTY_FUNCTION__, "_M_cur != _M_path->_M_cmpts.end()"); } while (false);
+ do { if (std::__is_constant_evaluated() && !bool(_M_cur != _M_path->_M_cmpts.end())) std::__glibcxx_assert_fail(); } while (false);
  return *_M_cur;
       }
     return *_M_path;
@@ -154158,7 +154442,7 @@ template<typename IteratorType> class iteration_proxy_value
 
     const string_type& key() const
     {
-        (static_cast <bool> (anchor.m_object != nullptr) ? void (0) : __assert_fail ("anchor.m_object != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         switch (anchor.m_object->type())
         {
@@ -154968,7 +155252,7 @@ std::size_t hash(const BasicJsonType& j)
         }
 
         default:
-            (static_cast <bool> (false) ? void (0) : __assert_fail ("false", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+            (static_cast<void> (0));
             return 0;
     }
 }
@@ -155224,8 +155508,8 @@ namespace __detail
       if (__val >= 0)
  return __val;
 
-      if (!__is_constant_evaluated())
- do { if (__builtin_expect(!bool(__val != __gnu_cxx::__int_traits<_Res>::__min), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/numeric", 130, __PRETTY_FUNCTION__, "__val != __gnu_cxx::__int_traits<_Res>::__min"); } while (false);
+
+
 
       return -static_cast<_Res>(__val);
     }
@@ -155307,7 +155591,7 @@ namespace __detail
    return __r * __n2;
 
       bool __overflow = __builtin_mul_overflow(__r, __n2, &__r);
-      do { if (__builtin_expect(!bool(!__overflow), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/numeric", 212, __PRETTY_FUNCTION__, "!__overflow"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(!__overflow)) std::__glibcxx_assert_fail(); } while (false);
       return __r;
     }
 
@@ -155751,7 +156035,7 @@ class file_input_adapter
     explicit file_input_adapter(std::FILE* f) noexcept
         : m_file(f)
     {
-        (static_cast <bool> (m_file != nullptr) ? void (0) : __assert_fail ("m_file != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
     }
 
 
@@ -156038,13 +156322,13 @@ class wide_string_input_adapter
         {
             fill_buffer<sizeof(WideCharType)>();
 
-            (static_cast <bool> (utf8_bytes_filled > 0) ? void (0) : __assert_fail ("utf8_bytes_filled > 0", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-            (static_cast <bool> (utf8_bytes_index == 0) ? void (0) : __assert_fail ("utf8_bytes_index == 0", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+            (static_cast<void> (0));
+            (static_cast<void> (0));
         }
 
 
-        (static_cast <bool> (utf8_bytes_filled > 0) ? void (0) : __assert_fail ("utf8_bytes_filled > 0", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-        (static_cast <bool> (utf8_bytes_index < utf8_bytes_filled) ? void (0) : __assert_fail ("utf8_bytes_index < utf8_bytes_filled", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
+        (static_cast<void> (0));
         return utf8_bytes[utf8_bytes_index++];
     }
 
@@ -156366,14 +156650,14 @@ class lexer : public lexer_base<BasicJsonType>
     static char get_decimal_point() noexcept
     {
         const auto* loc = localeconv();
-        (static_cast <bool> (loc != nullptr) ? void (0) : __assert_fail ("loc != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
         return (loc->decimal_point == nullptr) ? '.' : *(loc->decimal_point);
     }
 # 170 "/usr/include/nlohmann/detail/input/lexer.hpp" 3 4
     int get_codepoint()
     {
 
-        (static_cast <bool> (current == 'u') ? void (0) : __assert_fail ("current == 'u'", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
         int codepoint = 0;
 
         const auto factors = { 12u, 8u, 4u, 0u };
@@ -156399,13 +156683,13 @@ class lexer : public lexer_base<BasicJsonType>
             }
         }
 
-        (static_cast <bool> (0x0000 <= codepoint && codepoint <= 0xFFFF) ? void (0) : __assert_fail ("0x0000 <= codepoint && codepoint <= 0xFFFF", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
         return codepoint;
     }
 # 218 "/usr/include/nlohmann/detail/input/lexer.hpp" 3 4
     bool next_byte_in_range(std::initializer_list<char_int_type> ranges)
     {
-        (static_cast <bool> (ranges.size() == 2 || ranges.size() == 4 || ranges.size() == 6) ? void (0) : __assert_fail ("ranges.size() == 2 || ranges.size() == 4 || ranges.size() == 6", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
         add(current);
 
         for (auto range = ranges.begin(); range != ranges.end(); ++range)
@@ -156431,7 +156715,7 @@ class lexer : public lexer_base<BasicJsonType>
         reset();
 
 
-        (static_cast <bool> (current == '\"') ? void (0) : __assert_fail ("current == '\\\"'", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         while (true)
         {
@@ -156551,7 +156835,7 @@ class lexer : public lexer_base<BasicJsonType>
                             }
 
 
-                            (static_cast <bool> (0x00 <= codepoint && codepoint <= 0x10FFFF) ? void (0) : __assert_fail ("0x00 <= codepoint && codepoint <= 0x10FFFF", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                            (static_cast<void> (0));
 
 
                             if (codepoint < 0x80)
@@ -157140,7 +157424,7 @@ class lexer : public lexer_base<BasicJsonType>
 
 
             default:
-                (static_cast <bool> (false) ? void (0) : __assert_fail ("false", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                (static_cast<void> (0));
         }
 
 scan_number_minus:
@@ -157389,7 +157673,7 @@ scan_number_done:
             const auto x = std::strtoull(token_buffer.data(), &endptr, 10);
 
 
-            (static_cast <bool> (endptr == token_buffer.data() + token_buffer.size()) ? void (0) : __assert_fail ("endptr == token_buffer.data() + token_buffer.size()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+            (static_cast<void> (0));
 
             if ((*__errno_location ()) != 34)
             {
@@ -157405,7 +157689,7 @@ scan_number_done:
             const auto x = std::strtoll(token_buffer.data(), &endptr, 10);
 
 
-            (static_cast <bool> (endptr == token_buffer.data() + token_buffer.size()) ? void (0) : __assert_fail ("endptr == token_buffer.data() + token_buffer.size()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+            (static_cast<void> (0));
 
             if ((*__errno_location ()) != 34)
             {
@@ -157422,7 +157706,7 @@ scan_number_done:
         strtof(value_float, token_buffer.data(), &endptr);
 
 
-        (static_cast <bool> (endptr == token_buffer.data() + token_buffer.size()) ? void (0) : __assert_fail ("endptr == token_buffer.data() + token_buffer.size()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         return token_type::value_float;
     }
@@ -157436,7 +157720,7 @@ scan_number_done:
     token_type scan_literal(const char_type* literal_text, const std::size_t length,
                             token_type return_type)
     {
-        (static_cast <bool> (char_traits<char_type>::to_char_type(current) == literal_text[0]) ? void (0) : __assert_fail ("char_traits<char_type>::to_char_type(current) == literal_text[0]", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
         for (std::size_t i = 1; i < length; ++i)
         {
             if (__builtin_expect (!!(char_traits<char_type>::to_char_type(get()) != literal_text[i]), 0 ))
@@ -157511,7 +157795,7 @@ scan_number_done:
 
         if (__builtin_expect (!!(current != char_traits<char_type>::eof()), 1 ))
         {
-            (static_cast <bool> (!token_string.empty()) ? void (0) : __assert_fail ("!token_string.empty()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+            (static_cast<void> (0));
             token_string.pop_back();
         }
     }
@@ -157951,8 +158235,8 @@ class json_sax_dom_parser
 
     bool key(string_t& val)
     {
-        (static_cast <bool> (!ref_stack.empty()) ? void (0) : __assert_fail ("!ref_stack.empty()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-        (static_cast <bool> (ref_stack.back()->is_object()) ? void (0) : __assert_fail ("ref_stack.back()->is_object()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
+        (static_cast<void> (0));
 
 
         object_element = &(ref_stack.back()->m_data.m_value.object->operator[](val));
@@ -157961,8 +158245,8 @@ class json_sax_dom_parser
 
     bool end_object()
     {
-        (static_cast <bool> (!ref_stack.empty()) ? void (0) : __assert_fail ("!ref_stack.empty()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-        (static_cast <bool> (ref_stack.back()->is_object()) ? void (0) : __assert_fail ("ref_stack.back()->is_object()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
+        (static_cast<void> (0));
 # 281 "/usr/include/nlohmann/detail/input/json_sax.hpp" 3 4
         ref_stack.back()->set_parents();
         ref_stack.pop_back();
@@ -157983,8 +158267,8 @@ class json_sax_dom_parser
 
     bool end_array()
     {
-        (static_cast <bool> (!ref_stack.empty()) ? void (0) : __assert_fail ("!ref_stack.empty()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-        (static_cast <bool> (ref_stack.back()->is_array()) ? void (0) : __assert_fail ("ref_stack.back()->is_array()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
+        (static_cast<void> (0));
 # 320 "/usr/include/nlohmann/detail/input/json_sax.hpp" 3 4
         ref_stack.back()->set_parents();
         ref_stack.pop_back();
@@ -158026,7 +158310,7 @@ class json_sax_dom_parser
             return &root;
         }
 
-        (static_cast <bool> (ref_stack.back()->is_array() || ref_stack.back()->is_object()) ? void (0) : __assert_fail ("ref_stack.back()->is_array() || ref_stack.back()->is_object()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         if (ref_stack.back()->is_array())
         {
@@ -158039,8 +158323,8 @@ class json_sax_dom_parser
             return &(ref_stack.back()->m_data.m_value.array->back());
         }
 
-        (static_cast <bool> (ref_stack.back()->is_object()) ? void (0) : __assert_fail ("ref_stack.back()->is_object()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-        (static_cast <bool> (object_element) ? void (0) : __assert_fail ("object_element", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
+        (static_cast<void> (0));
         *object_element = BasicJsonType(std::forward<Value>(v));
 
 
@@ -158193,8 +158477,8 @@ class json_sax_dom_callback_parser
             }
         }
 
-        (static_cast <bool> (!ref_stack.empty()) ? void (0) : __assert_fail ("!ref_stack.empty()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-        (static_cast <bool> (!keep_stack.empty()) ? void (0) : __assert_fail ("!keep_stack.empty()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
+        (static_cast<void> (0));
         ref_stack.pop_back();
         keep_stack.pop_back();
 
@@ -158258,8 +158542,8 @@ class json_sax_dom_callback_parser
             }
         }
 
-        (static_cast <bool> (!ref_stack.empty()) ? void (0) : __assert_fail ("!ref_stack.empty()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-        (static_cast <bool> (!keep_stack.empty()) ? void (0) : __assert_fail ("!keep_stack.empty()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
+        (static_cast<void> (0));
         ref_stack.pop_back();
         keep_stack.pop_back();
 
@@ -158295,7 +158579,7 @@ class json_sax_dom_callback_parser
     template<typename Value>
     std::pair<bool, BasicJsonType*> handle_value(Value&& v, const bool skip_callback = false)
     {
-        (static_cast <bool> (!keep_stack.empty()) ? void (0) : __assert_fail ("!keep_stack.empty()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
 
 
@@ -158334,7 +158618,7 @@ class json_sax_dom_callback_parser
         }
 
 
-        (static_cast <bool> (ref_stack.back()->is_array() || ref_stack.back()->is_object()) ? void (0) : __assert_fail ("ref_stack.back()->is_array() || ref_stack.back()->is_object()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
 
         if (ref_stack.back()->is_array())
@@ -158344,9 +158628,9 @@ class json_sax_dom_callback_parser
         }
 
 
-        (static_cast <bool> (ref_stack.back()->is_object()) ? void (0) : __assert_fail ("ref_stack.back()->is_object()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
-        (static_cast <bool> (!key_keep_stack.empty()) ? void (0) : __assert_fail ("!key_keep_stack.empty()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
         const bool store_element = key_keep_stack.back();
         key_keep_stack.pop_back();
 
@@ -158355,7 +158639,7 @@ class json_sax_dom_callback_parser
             return {false, nullptr};
         }
 
-        (static_cast <bool> (object_element) ? void (0) : __assert_fail ("object_element", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
         *object_element = std::move(value);
         return {true, object_element};
     }
@@ -158690,7 +158974,7 @@ class binary_reader
 
             case input_format_t::json:
             default:
-                (static_cast <bool> (false) ? void (0) : __assert_fail ("false", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                (static_cast<void> (0));
         }
 
 
@@ -159311,7 +159595,7 @@ class binary_reader
                     }
 
                     default:
-                        (static_cast <bool> (false) ? void (0) : __assert_fail ("false", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                        (static_cast<void> (0));
                         return false;
                 }
             }
@@ -159346,8 +159630,8 @@ class binary_reader
                 {
                     const int exp = (half >> 10u) & 0x1Fu;
                     const unsigned int mant = half & 0x3FFu;
-                    (static_cast <bool> (0 <= exp&& exp <= 32) ? void (0) : __assert_fail ("0 <= exp&& exp <= 32", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-                    (static_cast <bool> (mant <= 1024) ? void (0) : __assert_fail ("mant <= 1024", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                    (static_cast<void> (0));
+                    (static_cast<void> (0));
                     switch (exp)
                     {
                         case 0:
@@ -160799,8 +161083,8 @@ class binary_reader
                 {
                     const int exp = (half >> 10u) & 0x1Fu;
                     const unsigned int mant = half & 0x3FFu;
-                    (static_cast <bool> (0 <= exp&& exp <= 32) ? void (0) : __assert_fail ("0 <= exp&& exp <= 32", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-                    (static_cast <bool> (mant <= 1024) ? void (0) : __assert_fail ("mant <= 1024", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                    (static_cast<void> (0));
+                    (static_cast<void> (0));
                     switch (exp)
                     {
                         case 0:
@@ -161311,7 +161595,7 @@ class binary_reader
 
             case input_format_t::json:
             default:
-                (static_cast <bool> (false) ? void (0) : __assert_fail ("false", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                (static_cast<void> (0));
         }
 
         return concat(error_msg, ' ', context, ": ", detail);
@@ -161736,7 +162020,7 @@ class parser
 
 
 
-                    (static_cast <bool> (!states.empty()) ? void (0) : __assert_fail ("!states.empty()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                    (static_cast<void> (0));
                     states.pop_back();
                     skip_to_state_evaluation = true;
                     continue;
@@ -161790,7 +162074,7 @@ class parser
 
 
 
-                (static_cast <bool> (!states.empty()) ? void (0) : __assert_fail ("!states.empty()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                (static_cast<void> (0));
                 states.pop_back();
                 skip_to_state_evaluation = true;
                 continue;
@@ -162066,7 +162350,7 @@ class iter_impl
 
     explicit iter_impl(pointer object) noexcept : m_object(object)
     {
-        (static_cast <bool> (m_object != nullptr) ? void (0) : __assert_fail ("m_object != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         switch (m_object->m_data.m_type)
         {
@@ -162147,7 +162431,7 @@ class iter_impl
 
     void set_begin() noexcept
     {
-        (static_cast <bool> (m_object != nullptr) ? void (0) : __assert_fail ("m_object != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         switch (m_object->m_data.m_type)
         {
@@ -162191,7 +162475,7 @@ class iter_impl
 
     void set_end() noexcept
     {
-        (static_cast <bool> (m_object != nullptr) ? void (0) : __assert_fail ("m_object != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         switch (m_object->m_data.m_type)
         {
@@ -162230,19 +162514,19 @@ class iter_impl
 
     reference operator*() const
     {
-        (static_cast <bool> (m_object != nullptr) ? void (0) : __assert_fail ("m_object != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         switch (m_object->m_data.m_type)
         {
             case value_t::object:
             {
-                (static_cast <bool> (m_it.object_iterator != m_object->m_data.m_value.object->end()) ? void (0) : __assert_fail ("m_it.object_iterator != m_object->m_data.m_value.object->end()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                (static_cast<void> (0));
                 return m_it.object_iterator->second;
             }
 
             case value_t::array:
             {
-                (static_cast <bool> (m_it.array_iterator != m_object->m_data.m_value.array->end()) ? void (0) : __assert_fail ("m_it.array_iterator != m_object->m_data.m_value.array->end()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                (static_cast<void> (0));
                 return *m_it.array_iterator;
             }
 
@@ -162274,19 +162558,19 @@ class iter_impl
 
     pointer operator->() const
     {
-        (static_cast <bool> (m_object != nullptr) ? void (0) : __assert_fail ("m_object != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         switch (m_object->m_data.m_type)
         {
             case value_t::object:
             {
-                (static_cast <bool> (m_it.object_iterator != m_object->m_data.m_value.object->end()) ? void (0) : __assert_fail ("m_it.object_iterator != m_object->m_data.m_value.object->end()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                (static_cast<void> (0));
                 return &(m_it.object_iterator->second);
             }
 
             case value_t::array:
             {
-                (static_cast <bool> (m_it.array_iterator != m_object->m_data.m_value.array->end()) ? void (0) : __assert_fail ("m_it.array_iterator != m_object->m_data.m_value.array->end()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                (static_cast<void> (0));
                 return &*m_it.array_iterator;
             }
 
@@ -162327,7 +162611,7 @@ class iter_impl
 
     iter_impl& operator++()
     {
-        (static_cast <bool> (m_object != nullptr) ? void (0) : __assert_fail ("m_object != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         switch (m_object->m_data.m_type)
         {
@@ -162378,7 +162662,7 @@ class iter_impl
 
     iter_impl& operator--()
     {
-        (static_cast <bool> (m_object != nullptr) ? void (0) : __assert_fail ("m_object != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         switch (m_object->m_data.m_type)
         {
@@ -162535,7 +162819,7 @@ class iter_impl
 
     iter_impl& operator+=(difference_type i)
     {
-        (static_cast <bool> (m_object != nullptr) ? void (0) : __assert_fail ("m_object != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         switch (m_object->m_data.m_type)
         {
@@ -162614,7 +162898,7 @@ class iter_impl
 
     difference_type operator-(const iter_impl& other) const
     {
-        (static_cast <bool> (m_object != nullptr) ? void (0) : __assert_fail ("m_object != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         switch (m_object->m_data.m_type)
         {
@@ -162643,7 +162927,7 @@ class iter_impl
 
     reference operator[](difference_type n) const
     {
-        (static_cast <bool> (m_object != nullptr) ? void (0) : __assert_fail ("m_object != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         switch (m_object->m_data.m_type)
         {
@@ -162681,7 +162965,7 @@ class iter_impl
 
     const typename object_t::key_type& key() const
     {
-        (static_cast <bool> (m_object != nullptr) ? void (0) : __assert_fail ("m_object != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         if (__builtin_expect (!!(m_object->is_object()), 1 ))
         {
@@ -163463,7 +163747,7 @@ class json_pointer
                     pos != string_t::npos;
                     pos = reference_token.find_first_of('~', pos + 1))
             {
-                (static_cast <bool> (reference_token[pos] == '~') ? void (0) : __assert_fail ("reference_token[pos] == '~'", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                (static_cast<void> (0));
 
 
                 if (__builtin_expect (!!(pos == reference_token.size() - 1 || (reference_token[pos + 1] != '0' && reference_token[pos + 1] != '1')), 0 )
@@ -163866,7 +164150,7 @@ class binary_writer
 
     explicit binary_writer(output_adapter_t<CharType> adapter) : oa(std::move(adapter))
     {
-        (static_cast <bool> (oa) ? void (0) : __assert_fail ("oa", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
     }
 
 
@@ -164614,7 +164898,7 @@ class binary_writer
                 bool prefix_required = true;
                 if (use_type && !j.m_data.m_value.array->empty())
                 {
-                    (static_cast <bool> (use_count) ? void (0) : __assert_fail ("use_count", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                    (static_cast<void> (0));
                     const CharType first_prefix = ubjson_prefix(j.front(), use_bjdata);
                     const bool same_prefix = std::all_of(j.begin() + 1, j.end(),
                                                          [this, first_prefix, use_bjdata](const BasicJsonType & v)
@@ -164660,7 +164944,7 @@ class binary_writer
 
                 if (use_type && (bjdata_draft3 || !j.m_data.m_value.binary->empty()))
                 {
-                    (static_cast <bool> (use_count) ? void (0) : __assert_fail ("use_count", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                    (static_cast<void> (0));
                     oa->write_character(to_char_type('$'));
                     oa->write_character(bjdata_draft3 ? 'B' : 'U');
                 }
@@ -164712,7 +164996,7 @@ class binary_writer
                 bool prefix_required = true;
                 if (use_type && !j.m_data.m_value.object->empty())
                 {
-                    (static_cast <bool> (use_count) ? void (0) : __assert_fail ("use_count", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                    (static_cast<void> (0));
                     const CharType first_prefix = ubjson_prefix(j.front(), use_bjdata);
                     const bool same_prefix = std::all_of(j.begin(), j.end(),
                                                          [this, first_prefix, use_bjdata](const BasicJsonType & v)
@@ -165002,7 +165286,7 @@ class binary_writer
 
             case value_t::discarded:
             default:
-                (static_cast <bool> (false) ? void (0) : __assert_fail ("false", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                (static_cast<void> (0));
                 return 0ul;
 
         }
@@ -165049,7 +165333,7 @@ class binary_writer
 
             case value_t::discarded:
             default:
-                (static_cast <bool> (false) ? void (0) : __assert_fail ("false", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                (static_cast<void> (0));
                 return;
 
         }
@@ -165667,8 +165951,8 @@ struct diyfp
 
     static diyfp sub(const diyfp& x, const diyfp& y) noexcept
     {
-        (static_cast <bool> (x.e == y.e) ? void (0) : __assert_fail ("x.e == y.e", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-        (static_cast <bool> (x.f >= y.f) ? void (0) : __assert_fail ("x.f >= y.f", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
+        (static_cast<void> (0));
 
         return {x.f - y.f, x.e};
     }
@@ -165712,7 +165996,7 @@ struct diyfp
 
     static diyfp normalize(diyfp x) noexcept
     {
-        (static_cast <bool> (x.f != 0) ? void (0) : __assert_fail ("x.f != 0", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         while ((x.f >> 63u) == 0)
         {
@@ -165731,8 +166015,8 @@ struct diyfp
     {
         const int delta = x.e - target_exponent;
 
-        (static_cast <bool> (delta >= 0) ? void (0) : __assert_fail ("delta >= 0", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-        (static_cast <bool> (((x.f << delta) >> delta) == x.f) ? void (0) : __assert_fail ("((x.f << delta) >> delta) == x.f", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
+        (static_cast<void> (0));
 
         return {x.f << delta, target_exponent};
     }
@@ -165754,8 +166038,8 @@ struct boundaries
 template<typename FloatType>
 boundaries compute_boundaries(FloatType value)
 {
-    (static_cast <bool> (std::isfinite(value)) ? void (0) : __assert_fail ("std::isfinite(value)", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-    (static_cast <bool> (value > 0) ? void (0) : __assert_fail ("value > 0", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+    (static_cast<void> (0));
+    (static_cast<void> (0));
 # 201 "/usr/include/nlohmann/detail/conversions/to_chars.hpp" 3 4
     static_assert(std::numeric_limits<FloatType>::is_iec559,
                   "internal error: dtoa_short requires an IEEE-754 floating-point implementation");
@@ -165896,18 +166180,18 @@ inline cached_power get_cached_power_for_binary_exponent(int e)
 
 
 
-    (static_cast <bool> (e >= -1500) ? void (0) : __assert_fail ("e >= -1500", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-    (static_cast <bool> (e <= 1500) ? void (0) : __assert_fail ("e <= 1500", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+    (static_cast<void> (0));
+    (static_cast<void> (0));
     const int f = kAlpha - e - 1;
     const int k = ((f * 78913) / (1 << 18)) + static_cast<int>(f > 0);
 
     const int index = (-kCachedPowersMinDecExp + k + (kCachedPowersDecStep - 1)) / kCachedPowersDecStep;
-    (static_cast <bool> (index >= 0) ? void (0) : __assert_fail ("index >= 0", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-    (static_cast <bool> (static_cast<std::size_t>(index) < kCachedPowers.size()) ? void (0) : __assert_fail ("static_cast<std::size_t>(index) < kCachedPowers.size()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+    (static_cast<void> (0));
+    (static_cast<void> (0));
 
     const cached_power cached = kCachedPowers[static_cast<std::size_t>(index)];
-    (static_cast <bool> (kAlpha <= cached.e + e + 64) ? void (0) : __assert_fail ("kAlpha <= cached.e + e + 64", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-    (static_cast <bool> (kGamma >= cached.e + e + 64) ? void (0) : __assert_fail ("kGamma >= cached.e + e + 64", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+    (static_cast<void> (0));
+    (static_cast<void> (0));
 
     return cached;
 }
@@ -165973,16 +166257,16 @@ inline int find_largest_pow10(const std::uint32_t n, std::uint32_t& pow10)
 inline void grisu2_round(char* buf, int len, std::uint64_t dist, std::uint64_t delta,
                          std::uint64_t rest, std::uint64_t ten_k)
 {
-    (static_cast <bool> (len >= 1) ? void (0) : __assert_fail ("len >= 1", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-    (static_cast <bool> (dist <= delta) ? void (0) : __assert_fail ("dist <= delta", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-    (static_cast <bool> (rest <= delta) ? void (0) : __assert_fail ("rest <= delta", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-    (static_cast <bool> (ten_k > 0) ? void (0) : __assert_fail ("ten_k > 0", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+    (static_cast<void> (0));
+    (static_cast<void> (0));
+    (static_cast<void> (0));
+    (static_cast<void> (0));
 # 573 "/usr/include/nlohmann/detail/conversions/to_chars.hpp" 3 4
     while (rest < dist
             && delta - rest >= ten_k
             && (rest + ten_k < dist || dist - rest > rest + ten_k - dist))
     {
-        (static_cast <bool> (buf[len - 1] != '0') ? void (0) : __assert_fail ("buf[len - 1] != '0'", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
         buf[len - 1]--;
         rest += ten_k;
     }
@@ -165998,8 +166282,8 @@ inline void grisu2_digit_gen(char* buffer, int& length, int& decimal_exponent,
     static_assert(kAlpha >= -60, "internal error");
     static_assert(kGamma <= -32, "internal error");
 # 605 "/usr/include/nlohmann/detail/conversions/to_chars.hpp" 3 4
-    (static_cast <bool> (M_plus.e >= kAlpha) ? void (0) : __assert_fail ("M_plus.e >= kAlpha", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-    (static_cast <bool> (M_plus.e <= kGamma) ? void (0) : __assert_fail ("M_plus.e <= kGamma", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+    (static_cast<void> (0));
+    (static_cast<void> (0));
 
     std::uint64_t delta = diyfp::sub(M_plus, M_minus).f;
     std::uint64_t dist = diyfp::sub(M_plus, w ).f;
@@ -166013,7 +166297,7 @@ inline void grisu2_digit_gen(char* buffer, int& length, int& decimal_exponent,
 
 
 
-    (static_cast <bool> (p1 > 0) ? void (0) : __assert_fail ("p1 > 0", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+    (static_cast<void> (0));
 
     std::uint32_t pow10{};
     const int k = find_largest_pow10(p1, pow10);
@@ -166031,7 +166315,7 @@ inline void grisu2_digit_gen(char* buffer, int& length, int& decimal_exponent,
 
 
 
-        (static_cast <bool> (d <= 9) ? void (0) : __assert_fail ("d <= 9", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
         buffer[length++] = static_cast<char>('0' + d);
 
 
@@ -166058,7 +166342,7 @@ inline void grisu2_digit_gen(char* buffer, int& length, int& decimal_exponent,
 
     }
 # 750 "/usr/include/nlohmann/detail/conversions/to_chars.hpp" 3 4
-    (static_cast <bool> (p2 > delta) ? void (0) : __assert_fail ("p2 > delta", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+    (static_cast<void> (0));
 
     int m = 0;
     for (;;)
@@ -166069,7 +166353,7 @@ inline void grisu2_digit_gen(char* buffer, int& length, int& decimal_exponent,
 
 
 
-        (static_cast <bool> (p2 <= (std::numeric_limits<std::uint64_t>::max)() / 10) ? void (0) : __assert_fail ("p2 <= (std::numeric_limits<std::uint64_t>::max)() / 10", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
         p2 *= 10;
         const std::uint64_t d = p2 >> -one.e;
         const std::uint64_t r = p2 & (one.f - 1);
@@ -166078,7 +166362,7 @@ inline void grisu2_digit_gen(char* buffer, int& length, int& decimal_exponent,
 
 
 
-        (static_cast <bool> (d <= 9) ? void (0) : __assert_fail ("d <= 9", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
         buffer[length++] = static_cast<char>('0' + d);
 
 
@@ -166118,8 +166402,8 @@ __attribute__((__nonnull__(1)))
 inline void grisu2(char* buf, int& len, int& decimal_exponent,
                    diyfp m_minus, diyfp v, diyfp m_plus)
 {
-    (static_cast <bool> (m_plus.e == m_minus.e) ? void (0) : __assert_fail ("m_plus.e == m_minus.e", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-    (static_cast <bool> (m_plus.e == v.e) ? void (0) : __assert_fail ("m_plus.e == v.e", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+    (static_cast<void> (0));
+    (static_cast<void> (0));
 # 843 "/usr/include/nlohmann/detail/conversions/to_chars.hpp" 3 4
     const cached_power cached = get_cached_power_for_binary_exponent(m_plus.e);
 
@@ -166150,8 +166434,8 @@ void grisu2(char* buf, int& len, int& decimal_exponent, FloatType value)
     static_assert(diyfp::kPrecision >= std::numeric_limits<FloatType>::digits + 3,
                   "internal error: not enough precision");
 
-    (static_cast <bool> (std::isfinite(value)) ? void (0) : __assert_fail ("std::isfinite(value)", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-    (static_cast <bool> (value > 0) ? void (0) : __assert_fail ("value > 0", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+    (static_cast<void> (0));
+    (static_cast<void> (0));
 # 915 "/usr/include/nlohmann/detail/conversions/to_chars.hpp" 3 4
     const boundaries w = compute_boundaries(value);
 
@@ -166168,8 +166452,8 @@ __attribute__((__nonnull__(1)))
 __attribute__((__returns_nonnull__))
 inline char* append_exponent(char* buf, int e)
 {
-    (static_cast <bool> (e > -1000) ? void (0) : __assert_fail ("e > -1000", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-    (static_cast <bool> (e < 1000) ? void (0) : __assert_fail ("e < 1000", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+    (static_cast<void> (0));
+    (static_cast<void> (0));
 
     if (e < 0)
     {
@@ -166212,8 +166496,8 @@ __attribute__((__returns_nonnull__))
 inline char* format_buffer(char* buf, int len, int decimal_exponent,
                            int min_exp, int max_exp)
 {
-    (static_cast <bool> (min_exp < 0) ? void (0) : __assert_fail ("min_exp < 0", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-    (static_cast <bool> (max_exp > 0) ? void (0) : __assert_fail ("max_exp > 0", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+    (static_cast<void> (0));
+    (static_cast<void> (0));
 
     const int k = len;
     const int n = len + decimal_exponent;
@@ -166239,7 +166523,7 @@ inline char* format_buffer(char* buf, int len, int decimal_exponent,
 
 
 
-        (static_cast <bool> (k > n) ? void (0) : __assert_fail ("k > n", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         std::memmove(buf + (static_cast<size_t>(n) + 1), buf + n, static_cast<size_t>(k) - static_cast<size_t>(n));
         buf[n] = '.';
@@ -166287,7 +166571,7 @@ __attribute__((__returns_nonnull__))
 char* to_chars(char* first, const char* last, FloatType value)
 {
     static_cast<void>(last);
-    (static_cast <bool> (std::isfinite(value)) ? void (0) : __assert_fail ("std::isfinite(value)", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+    (static_cast<void> (0));
 
 
     if (std::signbit(value))
@@ -166312,7 +166596,7 @@ char* to_chars(char* first, const char* last, FloatType value)
 #pragma GCC diagnostic pop
 
 
-    (static_cast <bool> (last - first >= std::numeric_limits<FloatType>::max_digits10) ? void (0) : __assert_fail ("last - first >= std::numeric_limits<FloatType>::max_digits10", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+    (static_cast<void> (0));
 
 
 
@@ -166322,16 +166606,16 @@ char* to_chars(char* first, const char* last, FloatType value)
     int decimal_exponent = 0;
     dtoa_impl::grisu2(first, len, decimal_exponent, value);
 
-    (static_cast <bool> (len <= std::numeric_limits<FloatType>::max_digits10) ? void (0) : __assert_fail ("len <= std::numeric_limits<FloatType>::max_digits10", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+    (static_cast<void> (0));
 
 
     constexpr int kMinExp = -4;
 
     constexpr int kMaxExp = std::numeric_limits<FloatType>::digits10;
 
-    (static_cast <bool> (last - first >= kMaxExp + 2) ? void (0) : __assert_fail ("last - first >= kMaxExp + 2", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-    (static_cast <bool> (last - first >= 2 + (-kMinExp - 1) + std::numeric_limits<FloatType>::max_digits10) ? void (0) : __assert_fail ("last - first >= 2 + (-kMinExp - 1) + std::numeric_limits<FloatType>::max_digits10", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-    (static_cast <bool> (last - first >= std::numeric_limits<FloatType>::max_digits10 + 6) ? void (0) : __assert_fail ("last - first >= std::numeric_limits<FloatType>::max_digits10 + 6", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+    (static_cast<void> (0));
+    (static_cast<void> (0));
+    (static_cast<void> (0));
 
     return dtoa_impl::format_buffer(first, len, decimal_exponent, kMinExp, kMaxExp);
 }
@@ -166431,8 +166715,8 @@ class serializer
                     }
 
 
-                    (static_cast <bool> (i != val.m_data.m_value.object->cend()) ? void (0) : __assert_fail ("i != val.m_data.m_value.object->cend()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-                    (static_cast <bool> (std::next(i) == val.m_data.m_value.object->cend()) ? void (0) : __assert_fail ("std::next(i) == val.m_data.m_value.object->cend()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                    (static_cast<void> (0));
+                    (static_cast<void> (0));
                     o->write_characters(indent_string.c_str(), new_indent);
                     o->write_character('\"');
                     dump_escaped(i->first, ensure_ascii);
@@ -166459,8 +166743,8 @@ class serializer
                     }
 
 
-                    (static_cast <bool> (i != val.m_data.m_value.object->cend()) ? void (0) : __assert_fail ("i != val.m_data.m_value.object->cend()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-                    (static_cast <bool> (std::next(i) == val.m_data.m_value.object->cend()) ? void (0) : __assert_fail ("std::next(i) == val.m_data.m_value.object->cend()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                    (static_cast<void> (0));
+                    (static_cast<void> (0));
                     o->write_character('\"');
                     dump_escaped(i->first, ensure_ascii);
                     o->write_characters("\":", 2);
@@ -166501,7 +166785,7 @@ class serializer
                     }
 
 
-                    (static_cast <bool> (!val.m_data.m_value.array->empty()) ? void (0) : __assert_fail ("!val.m_data.m_value.array->empty()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                    (static_cast<void> (0));
                     o->write_characters(indent_string.c_str(), new_indent);
                     dump(val.m_data.m_value.array->back(), true, ensure_ascii, indent_step, new_indent);
 
@@ -166522,7 +166806,7 @@ class serializer
                     }
 
 
-                    (static_cast <bool> (!val.m_data.m_value.array->empty()) ? void (0) : __assert_fail ("!val.m_data.m_value.array->empty()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                    (static_cast<void> (0));
                     dump(val.m_data.m_value.array->back(), false, ensure_ascii, indent_step, current_indent);
 
                     o->write_character(']');
@@ -166656,7 +166940,7 @@ class serializer
             }
 
             default:
-                (static_cast <bool> (false) ? void (0) : __assert_fail ("false", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                (static_cast<void> (0));
         }
     }
 
@@ -166842,7 +167126,7 @@ class serializer
                         }
 
                         default:
-                            (static_cast <bool> (false) ? void (0) : __assert_fail ("false", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                            (static_cast<void> (0));
                     }
                     break;
                 }
@@ -166903,7 +167187,7 @@ class serializer
                 }
 
                 default:
-                    (static_cast <bool> (false) ? void (0) : __assert_fail ("false", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                    (static_cast<void> (0));
             }
         }
     }
@@ -167016,7 +167300,7 @@ class serializer
         }
 
 
-        (static_cast <bool> (n_chars < number_buffer.size() - 1) ? void (0) : __assert_fail ("n_chars < number_buffer.size() - 1", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
 
 
@@ -167085,9 +167369,9 @@ class serializer
         std::ptrdiff_t len = (std::snprintf)(number_buffer.data(), number_buffer.size(), "%.*g", d, x);
 
 
-        (static_cast <bool> (len > 0) ? void (0) : __assert_fail ("len > 0", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
-        (static_cast <bool> (static_cast<std::size_t>(len) < number_buffer.size()) ? void (0) : __assert_fail ("static_cast<std::size_t>(len) < number_buffer.size()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
 
         if (thousands_sep != '\0')
@@ -167095,7 +167379,7 @@ class serializer
 
             const auto end = std::remove(number_buffer.begin(), number_buffer.begin() + len, thousands_sep);
             std::fill(end, number_buffer.end(), '\0');
-            (static_cast <bool> ((end - number_buffer.begin()) <= len) ? void (0) : __assert_fail ("(end - number_buffer.begin()) <= len", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+            (static_cast<void> (0));
             len = (end - number_buffer.begin());
         }
 
@@ -167148,7 +167432,7 @@ class serializer
             }
         };
 
-        (static_cast <bool> (byte < utf8d.size()) ? void (0) : __assert_fail ("byte < utf8d.size()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
         const std::uint8_t type = utf8d[byte];
 
         codep = (state != UTF8_ACCEPT)
@@ -167156,7 +167440,7 @@ class serializer
                 : (0xFFu >> type) & (byte);
 
         const std::size_t index = 256u + (static_cast<size_t>(state) * 16u) + static_cast<size_t>(type);
-        (static_cast <bool> (index < utf8d.size()) ? void (0) : __assert_fail ("index < utf8d.size()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
         state = utf8d[index];
         return state;
     }
@@ -167168,13 +167452,13 @@ class serializer
 
     number_unsigned_t remove_sign(number_unsigned_t x)
     {
-        (static_cast <bool> (false) ? void (0) : __assert_fail ("false", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
         return x;
     }
 # 955 "/usr/include/nlohmann/detail/output/serializer.hpp" 3 4
     number_unsigned_t remove_sign(number_integer_t x) noexcept
     {
-        (static_cast <bool> (x < 0 && x < (std::numeric_limits<number_integer_t>::max)()) ? void (0) : __assert_fail ("x < 0 && x < (std::numeric_limits<number_integer_t>::max)()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
         return static_cast<number_unsigned_t>(-(x + 1)) + 1;
     }
 
@@ -168341,7 +168625,7 @@ class basic_json
         };
         std::unique_ptr<T, decltype(deleter)> obj(AllocatorTraits::allocate(alloc, 1), deleter);
         AllocatorTraits::construct(alloc, obj.get(), std::forward<Args>(args)...);
-        (static_cast <bool> (obj != nullptr) ? void (0) : __assert_fail ("obj != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
         return obj.release();
     }
 
@@ -168595,10 +168879,10 @@ class basic_json
 # 685 "/usr/include/nlohmann/json.hpp" 3 4
     void assert_invariant(bool check_parents = true) const noexcept
     {
-        (static_cast <bool> (m_data.m_type != value_t::object || m_data.m_value.object != nullptr) ? void (0) : __assert_fail ("m_data.m_type != value_t::object || m_data.m_value.object != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-        (static_cast <bool> (m_data.m_type != value_t::array || m_data.m_value.array != nullptr) ? void (0) : __assert_fail ("m_data.m_type != value_t::array || m_data.m_value.array != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-        (static_cast <bool> (m_data.m_type != value_t::string || m_data.m_value.string != nullptr) ? void (0) : __assert_fail ("m_data.m_type != value_t::string || m_data.m_value.string != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-        (static_cast <bool> (m_data.m_type != value_t::binary || m_data.m_value.binary != nullptr) ? void (0) : __assert_fail ("m_data.m_type != value_t::binary || m_data.m_value.binary != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
+        (static_cast<void> (0));
+        (static_cast<void> (0));
+        (static_cast<void> (0));
 # 703 "/usr/include/nlohmann/json.hpp" 3 4
         static_cast<void>(check_parents);
     }
@@ -168725,9 +169009,9 @@ class basic_json
                 m_data.m_type = value_t::discarded;
                 break;
             default:
-                (static_cast <bool> (false) ? void (0) : __assert_fail ("false", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                (static_cast<void> (0));
         }
-        (static_cast <bool> (m_data.m_type == val.type()) ? void (0) : __assert_fail ("m_data.m_type == val.type()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         set_parents();
         assert_invariant();
@@ -168867,8 +169151,8 @@ class basic_json
                    std::is_same<InputIT, typename basic_json_t::const_iterator>::value, int >::type = 0 >
     basic_json(InputIT first, InputIT last)
     {
-        (static_cast <bool> (first.m_object != nullptr) ? void (0) : __assert_fail ("first.m_object != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
-        (static_cast <bool> (last.m_object != nullptr) ? void (0) : __assert_fail ("last.m_object != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
+        (static_cast<void> (0));
 
 
         if (__builtin_expect (!!(first.m_object != last.m_object), 0 ))
@@ -169781,7 +170065,7 @@ class basic_json
         if (__builtin_expect (!!(is_object()), 1 ))
         {
             auto it = m_data.m_value.object->find(key);
-            (static_cast <bool> (it != m_data.m_value.object->end()) ? void (0) : __assert_fail ("it != m_data.m_value.object->end()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+            (static_cast<void> (0));
             return it->second;
         }
 
@@ -169836,7 +170120,7 @@ class basic_json
         if (__builtin_expect (!!(is_object()), 1 ))
         {
             auto it = m_data.m_value.object->find(std::forward<KeyType>(key));
-            (static_cast <bool> (it != m_data.m_value.object->end()) ? void (0) : __assert_fail ("it != m_data.m_value.object->end()", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+            (static_cast<void> (0));
             return it->second;
         }
 
@@ -170859,7 +171143,7 @@ class basic_json
     iterator insert_iterator(const_iterator pos, Args&& ... args)
     {
         iterator result(this);
-        (static_cast <bool> (m_data.m_value.array != nullptr) ? void (0) : __assert_fail ("m_data.m_value.array != nullptr", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+        (static_cast<void> (0));
 
         auto insert_pos = std::distance(m_data.m_value.array->begin(), pos.m_it.array_iterator);
         m_data.m_value.array->insert(pos.m_it.array_iterator, std::forward<Args>(args)...);
@@ -172023,7 +172307,7 @@ class basic_json
                 case value_t::binary:
                 case value_t::discarded:
                 default:
-                    (static_cast <bool> (false) ? void (0) : __assert_fail ("false", __builtin_FILE (), __builtin_LINE (), __extension__ __PRETTY_FUNCTION__));
+                    (static_cast<void> (0));
             }
         };
 
@@ -182941,7 +183225,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
     explicit __atomic_semaphore(__detail::__platform_wait_t __count) noexcept
       : _M_counter(__count)
     {
-      do { if (__builtin_expect(!bool(__count >= 0 && __count <= _S_max), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/bits/semaphore_base.h", 178, __PRETTY_FUNCTION__, "__count >= 0 && __count <= _S_max"); } while (false);
+      do { if (std::__is_constant_evaluated() && !bool(__count >= 0 && __count <= _S_max)) std::__glibcxx_assert_fail(); } while (false);
     }
 
     __atomic_semaphore(const __atomic_semaphore&) = delete;
@@ -184800,7 +185084,7 @@ namespace std __attribute__ ((__visibility__ ("default")))
  static _Setter<_Res, __exception_ptr_tag>
  __setter(exception_ptr& __ex, promise<_Res>* __prom) noexcept
  {
-   do { if (__builtin_expect(!bool(__ex != nullptr), false)) std::__glibcxx_assert_fail("/usr/include/c++/15.2.1/future", 573, __PRETTY_FUNCTION__, "__ex != nullptr"); } while (false);
+   do { if (std::__is_constant_evaluated() && !bool(__ex != nullptr)) std::__glibcxx_assert_fail(); } while (false);
    return _Setter<_Res, __exception_ptr_tag>{ __prom, &__ex };
  }
 
@@ -186495,6 +186779,13 @@ namespace TableConverter
 
 namespace TableUpdater
 {
+    enum class ServerType
+    {
+        GlobalLive,
+        GlobalReview,
+        CnLive
+    };
+
 
     struct TableInfo
     {
@@ -186506,7 +186797,7 @@ namespace TableUpdater
     {
         bool exists;
         std::string version;
-        std::string cdnDate;
+        int cdnDate;
         TableInfo tableInfo;
     };
 
@@ -186523,15 +186814,7 @@ namespace TableUpdater
 
 
 
-    bool checkAndUpdateLiveTables(const std::string &version, const std::string &serverRegion);
-
-
-
-
-
-
-
-    bool checkReviewVersion(const std::string &version, std::string &cdnDate);
+    bool checkReviewVersion(const std::string &version, int &cdnDate);
 
 
 
@@ -186540,21 +186823,8 @@ namespace TableUpdater
 
 
     ReviewServerInfo checkReviewServer(const std::string &baseVersion, const std::string &serverRegion);
-
-
-
-
-
-
-
-    bool downloadAndProcessReviewTables(const ReviewServerInfo &reviewInfo, const std::string &serverRegion);
-
-
-
-
-
-
-    bool checkAndUpdateCnLiveTables(const std::string &serverRegion);
+# 69 "/home/rikka/Eversoul/Src/table_updater.hpp"
+    bool updateDataTables(ServerType type, const std::string &version = "", const ReviewServerInfo *reviewInfo = nullptr);
 }
 # 6 "/home/rikka/Eversoul/Src/main.hpp" 2
 # 12 "/home/rikka/Eversoul/Src/main.cpp" 2
@@ -186654,24 +186924,19 @@ namespace
     {
         try
         {
-            auto reviewInfo = TableUpdater::checkReviewServer(state.version, std::string{AppConfig::SERVER_REGION});
 
-            if (reviewInfo.exists)
+            if (TableUpdater::updateDataTables(TableUpdater::ServerType::GlobalReview, state.version))
             {
-
-                if (TableUpdater::downloadAndProcessReviewTables(reviewInfo, std::string{AppConfig::SERVER_REGION}))
-                {
-                    state.needGenerateApis = true;
-                }
+                state.needGenerateApis = true;
             }
             return true;
         }
         catch (const std::exception &e)
         {
             std::println(
-# 114 "/home/rikka/Eversoul/Src/main.cpp" 3 4
+# 109 "/home/rikka/Eversoul/Src/main.cpp" 3 4
                         stderr
-# 114 "/home/rikka/Eversoul/Src/main.cpp"
+# 109 "/home/rikka/Eversoul/Src/main.cpp"
                               , "\033[31mReview服务器处理失败: {}\033[0m", e.what());
             return false;
         }
@@ -186691,24 +186956,23 @@ namespace
 
             if (!fs::exists(tableDir) || fs::is_empty(tableDir))
             {
-                if (TableUpdater::checkAndUpdateLiveTables(state.version, std::string{AppConfig::SERVER_REGION}))
+                if (TableUpdater::updateDataTables(TableUpdater::ServerType::GlobalLive, state.version))
                 {
                     state.needGenerateApis = true;
                 }
                 else
                 {
                     std::println(
-# 139 "/home/rikka/Eversoul/Src/main.cpp" 3 4
+# 134 "/home/rikka/Eversoul/Src/main.cpp" 3 4
                                 stderr
-# 139 "/home/rikka/Eversoul/Src/main.cpp"
+# 134 "/home/rikka/Eversoul/Src/main.cpp"
                                       , "\033[31mLive数据表下载失败\033[0m");
                     return false;
                 }
             }
             else
             {
-
-                if (TableUpdater::checkAndUpdateLiveTables(state.version, std::string{AppConfig::SERVER_REGION}))
+                if (TableUpdater::updateDataTables(TableUpdater::ServerType::GlobalLive, state.version))
                 {
                     std::println("Live数据表更新完成");
                     state.needGenerateApis = true;
@@ -186719,9 +186983,9 @@ namespace
         catch (const std::exception &e)
         {
             std::println(
-# 156 "/home/rikka/Eversoul/Src/main.cpp" 3 4
+# 150 "/home/rikka/Eversoul/Src/main.cpp" 3 4
                         stderr
-# 156 "/home/rikka/Eversoul/Src/main.cpp"
+# 150 "/home/rikka/Eversoul/Src/main.cpp"
                               , "\033[31mLive数据表处理失败: {}\033[0m", e.what());
             return false;
         }
@@ -186736,7 +187000,7 @@ namespace
     {
         try
         {
-            if (TableUpdater::checkAndUpdateCnLiveTables("Cn"))
+            if (TableUpdater::updateDataTables(TableUpdater::ServerType::CnLive, ""))
             {
                 state.needGenerateApis = true;
             }
@@ -186745,9 +187009,9 @@ namespace
         catch (const std::exception &e)
         {
             std::println(
-# 178 "/home/rikka/Eversoul/Src/main.cpp" 3 4
+# 172 "/home/rikka/Eversoul/Src/main.cpp" 3 4
                         stderr
-# 178 "/home/rikka/Eversoul/Src/main.cpp"
+# 172 "/home/rikka/Eversoul/Src/main.cpp"
                               , "\033[31m国服数据表处理失败: {}\033[0m", e.what());
             return false;
         }
@@ -186779,9 +187043,9 @@ namespace
             else
             {
                 std::println(
-# 208 "/home/rikka/Eversoul/Src/main.cpp" 3 4
+# 202 "/home/rikka/Eversoul/Src/main.cpp" 3 4
                             stderr
-# 208 "/home/rikka/Eversoul/Src/main.cpp"
+# 202 "/home/rikka/Eversoul/Src/main.cpp"
                                   , "\033[31mFlatBuffer Python API生成失败\033[0m");
                 return false;
             }
@@ -186789,9 +187053,9 @@ namespace
         catch (const std::exception &e)
         {
             std::println(
-# 214 "/home/rikka/Eversoul/Src/main.cpp" 3 4
+# 208 "/home/rikka/Eversoul/Src/main.cpp" 3 4
                         stderr
-# 214 "/home/rikka/Eversoul/Src/main.cpp"
+# 208 "/home/rikka/Eversoul/Src/main.cpp"
                               , "\033[31mAPI文件生成失败: {}\033[0m", e.what());
             return false;
         }
@@ -186812,9 +187076,9 @@ namespace
             {"处理Review服务器", [&]()
              { return processReviewServer(state); }},
             {"处理Live数据表", [&]()
-             { return processLiveTables(state); }},
-            {"处理国服数据表", [&]()
-             { return processCnLiveTables(state); }}};
+             { return processLiveTables(state); }}};
+
+
 
 
 
@@ -186825,9 +187089,9 @@ namespace
             if (!operation())
             {
                 std::println(
-# 246 "/home/rikka/Eversoul/Src/main.cpp" 3 4
+# 240 "/home/rikka/Eversoul/Src/main.cpp" 3 4
                             stderr
-# 246 "/home/rikka/Eversoul/Src/main.cpp"
+# 240 "/home/rikka/Eversoul/Src/main.cpp"
                                   , "\033[31m操作失败: {}\033[0m", description);
                 return 1;
             }
@@ -186845,18 +187109,18 @@ int main(int argc, char *argv[])
     catch (const std::exception &e)
     {
         std::println(
-# 262 "/home/rikka/Eversoul/Src/main.cpp" 3 4
+# 256 "/home/rikka/Eversoul/Src/main.cpp" 3 4
                     stderr
-# 262 "/home/rikka/Eversoul/Src/main.cpp"
+# 256 "/home/rikka/Eversoul/Src/main.cpp"
                           , "\033[31m程序执行错误: {}\033[0m", e.what());
         return 1;
     }
     catch (...)
     {
         std::println(
-# 267 "/home/rikka/Eversoul/Src/main.cpp" 3 4
+# 261 "/home/rikka/Eversoul/Src/main.cpp" 3 4
                     stderr
-# 267 "/home/rikka/Eversoul/Src/main.cpp"
+# 261 "/home/rikka/Eversoul/Src/main.cpp"
                           , "\033[31m未知错误发生\033[0m");
         return 1;
     }

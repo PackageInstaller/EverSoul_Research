@@ -3,6 +3,9 @@
 
 namespace TableUpdater
 {
+    // 前向声明
+    int getServerTableVersion(const ReviewServerInfo &reviewInfo);
+
     TableInfo getTableInfo(const std::string &version)
     {
         std::string url = "https://patch.esoul.kakaogames.com/Live/" + version + "/Table/const_data_version.json";
@@ -15,64 +18,176 @@ namespace TableUpdater
         return info;
     }
 
-    bool checkAndUpdateLiveTables(const std::string &version, const std::string &serverRegion)
+    bool updateDataTables(ServerType type, const std::string &version, const ReviewServerInfo *reviewInfo)
     {
+        // 1. 准备阶段：获取版本信息、下载链接、目标路径等
+        std::string zipUrl;
+        int tableVersion = 0;
+        std::string currentVersion = version;
+        std::string serverRegion;
+        std::string tableType; // "Live" or "Review"
+        fs::path targetDir;
+        fs::path schemaDir;
+        int cdnDate = 0; // Only for Review
 
-        // 获取服务器上的实际版本信息
-        std::string versionUrl = std::format("https://patch.esoul.kakaogames.com/Live/{}/Table/const_data_version.json", version);
-        std::println("检查版本URL: {}", versionUrl);
-
-        TableInfo tableInfo = getTableInfo(version);
-        if (tableInfo.version == 0)
+        switch (type)
         {
-            std::println("\033[31m获取数据表信息失败\033[0m");
-            return false;
-        }
-        std::println("服务器数据表版本: {}", tableInfo.version);
+        case ServerType::GlobalLive:
+        {
+            serverRegion = "Global";
+            tableType = "Live";
+            targetDir = "../Table/Global/Live";
+            schemaDir = "../FlatBuffers/Schema/Global";
 
+            // 获取服务器上的实际版本信息
+            std::string versionUrl = std::format("https://patch.esoul.kakaogames.com/Live/{}/Table/const_data_version.json", currentVersion);
+            std::println("检查版本URL: {}", versionUrl);
+
+            TableInfo info = getTableInfo(currentVersion);
+            if (info.version == 0)
+            {
+                std::println("\033[31m获取数据表信息失败\033[0m");
+                return false;
+            }
+            tableVersion = info.version;
+            std::println("服务器数据表版本: {}", tableVersion);
+
+            zipUrl = std::format("https://patch.esoul.kakaogames.com/Live/{}/Table/data_{}.zip", currentVersion, tableVersion);
+            break;
+        }
+        case ServerType::CnLive:
+        {
+            serverRegion = "Cn";
+            tableType = "Live";
+            targetDir = "../Table/Cn/Live";
+            schemaDir = "../FlatBuffers/Schema/Global";
+
+            // 获取国服配置
+            auto cnConfig = VersionManager::getCnServerConfig();
+            if (!cnConfig.isValid)
+            {
+                std::println("\033[31m获取国服配置失败\033[0m");
+                return false;
+            }
+            currentVersion = cnConfig.version;
+
+            // 尝试从每个URL获取数据表版本信息
+            std::string workingBaseUrl;
+            for (const auto &baseUrl : cnConfig.downloadUrls)
+            {
+                try
+                {
+                    std::string versionUrl = std::format("{}/{}/Table/const_data_version.json", baseUrl, currentVersion);
+                    std::println("检查版本URL: {}", versionUrl);
+
+                    std::string response = HttpClient::get(versionUrl);
+                    if (!response.empty())
+                    {
+                        json data = json::parse(response);
+                        tableVersion = data["version"];
+                        workingBaseUrl = baseUrl;
+                        std::println("服务器数据表版本: {}", tableVersion);
+                        break;
+                    }
+                }
+                catch (...)
+                {
+                    continue;
+                }
+            }
+
+            if (tableVersion == 0 || workingBaseUrl.empty())
+            {
+                std::println("\033[31m所有URL都无法获取数据表信息\033[0m");
+                return false;
+            }
+
+            zipUrl = std::format("{}/{}/Table/data_{}.zip", workingBaseUrl, currentVersion, tableVersion);
+            break;
+        }
+        case ServerType::GlobalReview:
+        {
+            serverRegion = "Global";
+            tableType = "Review";
+            targetDir = "../Table/Global/Review";
+            schemaDir = "../FlatBuffers/Schema/Global";
+
+            // 如果没有提供 reviewInfo，则自动检查
+            ReviewServerInfo localReviewInfo;
+            if (!reviewInfo)
+            {
+                if (version.empty())
+                {
+                    std::println("\033[31mGlobalReview 需要提供 baseVersion 或 reviewInfo\033[0m");
+                    return false;
+                }
+                localReviewInfo = checkReviewServer(version, serverRegion);
+                if (!localReviewInfo.exists)
+                {
+                    std::println("\033[33m未找到可用的 Review 服务器版本\033[0m");
+                    return false;
+                }
+                reviewInfo = &localReviewInfo;
+            }
+
+            currentVersion = reviewInfo->version;
+            cdnDate = reviewInfo->cdnDate;
+
+            tableVersion = getServerTableVersion(*reviewInfo);
+            if (tableVersion == -1)
+                return false;
+
+            zipUrl = std::format("https://patch.esoul.kakaogames.com/Review/{}/{}/Table/data_{}.zip",
+                                 cdnDate, currentVersion, tableVersion);
+            break;
+        }
+        }
+
+        // 2. 检查本地信息，是否需要更新
         fs::path table_info_path = "./table_info.json";
         json table_info;
-
-        // 检查正式服数据表文件夹是否存在
-        bool liveTableExist = fs::exists("../Table/Global/Live") && !fs::is_empty("../Table/Global/Live");
-        // std::println("Live 数据表目录存在且非空: {}", liveTableExist ? "是" : "否");
+        bool tableExist = fs::exists(targetDir) && !fs::is_empty(targetDir);
 
         if (fs::exists(table_info_path))
         {
-            std::ifstream file(table_info_path);
-            table_info = json::parse(file);
-
-            // if (table_info.contains("live"))
-            // {
-            //     std::println("当前保存的信息:");
-            //     std::println("版本: {}", table_info["live"]["version"].get<std::string>());
-            //     std::println("表版本: {}", table_info["live"]["tableVersion"].get<int>());
-            // }
-
-            // 比较版本号和哈希值
-            if (table_info.contains(serverRegion) &&
-                table_info[serverRegion].contains("live") &&
-                table_info[serverRegion]["live"]["version"] == version &&
-                table_info[serverRegion]["live"]["tableVersion"] == tableInfo.version &&
-                liveTableExist)
+            try
             {
-                std::println("\033[32mLive 服务器数据表已是最新版本\033[0m");
-                return false;
-            }
-            else
-            {
-                if (table_info.contains(serverRegion) && table_info[serverRegion].contains("live"))
+                std::ifstream file(table_info_path);
+                table_info = json::parse(file);
+
+                if (table_info.contains(serverRegion) &&
+                    table_info[serverRegion].contains(tableType) &&
+                    table_info[serverRegion][tableType]["version"] == currentVersion &&
+                    table_info[serverRegion][tableType]["tableVersion"] == tableVersion &&
+                    tableExist)
                 {
-                    if (table_info[serverRegion]["live"]["tableVersion"] != tableInfo.version)
+                    if (type == ServerType::GlobalReview &&
+                        table_info[serverRegion][tableType].contains("cdnDate") &&
+                        table_info[serverRegion][tableType]["cdnDate"].get<int>() != cdnDate)
                     {
-                        std::println("表版本不同: {} -> {}",
-                                     table_info[serverRegion]["live"]["tableVersion"].get<int>(), tableInfo.version);
+                        // Continue update if cdnDate mismatch for Review
+                    }
+                    else
+                    {
+                        std::println("\033[32m{} {} 数据表已是最新版本\033[0m", serverRegion, tableType);
+                        return false;
                     }
                 }
                 else
                 {
-                    std::println("- table_info.json 中没有 {} live 信息", serverRegion);
+                    // Just log/print reason if needed
+                    if (table_info.contains(serverRegion) && table_info[serverRegion].contains(tableType))
+                    {
+                        if (table_info[serverRegion][tableType]["tableVersion"] != tableVersion)
+                        {
+                            std::println("表版本不同: {} -> {}",
+                                         table_info[serverRegion][tableType]["tableVersion"].get<int>(), tableVersion);
+                        }
+                    }
                 }
+            }
+            catch (...)
+            {
             }
         }
         else
@@ -80,26 +195,25 @@ namespace TableUpdater
             std::println("table_info.json 不存在，将创建新文件");
         }
 
-        // 构建下载链接
-        std::string zipUrl = std::format("https://patch.esoul.kakaogames.com/Live/{}/Table/data_{}.zip",
-                                         version, tableInfo.version);
-        // std::println("下载URL: {}", zipUrl);
-        std::string zipPath = "../data_" + std::to_string(tableInfo.version) + ".zip";
-
-        // 下载数据表压缩包（智能多线程下载）
+        // 3. 下载
+        std::string zipPath = "../data_" + serverRegion + "_" + tableType + "_" + std::to_string(tableVersion) + ".zip";
         if (!FileDownloader::downloadWithRetry(zipUrl, zipPath, 3, true))
         {
             return false;
         }
 
-        fs::create_directories("../Table/Global/Live");
+        // 4. 清理旧目录并解压
+        if (fs::exists(targetDir))
+        {
+            fs::remove_all(targetDir);
+        }
+        fs::create_directories(targetDir);
 
-        std::string unzipCommand = "unzip -o " + zipPath + " -d ../Table/Global/Live/ > /dev/null 2>&1";
+        std::string unzipCommand = "unzip -o " + zipPath + " -d " + targetDir.string() + "/ > /dev/null 2>&1";
         system(unzipCommand.c_str());
-
         fs::remove(zipPath);
 
-        // 解密正式服数据表
+        // 5. 解密
         std::vector<uint8_t> key, iv;
         if (!CryptoUtils::deriveKeyAndIv(key, iv))
         {
@@ -108,7 +222,7 @@ namespace TableUpdater
         }
 
         std::vector<fs::path> files_to_decrypt;
-        for (const auto &entry : fs::directory_iterator("../Table/Global/Live"))
+        for (const auto &entry : fs::directory_iterator(targetDir))
         {
             if (entry.is_regular_file() && !CryptoUtils::isFileDecrypted(entry.path()))
             {
@@ -118,19 +232,19 @@ namespace TableUpdater
 
         if (!CryptoUtils::decryptFiles(files_to_decrypt, key, iv))
         {
-            std::println("\033[31m正式服数据表解密失败\033[0m");
+            std::println("\033[31m数据表解密失败\033[0m");
             return false;
         }
 
-        // 转换正式服数据表（JSON输出到同一目录）
-        if (!TableConverter::convertTablesToJson("../FlatBuffers/Schema/Global", "../Table/Global/Live", "../Table/Global/Live"))
+        // 6. 转换
+        if (!TableConverter::convertTablesToJson(schemaDir.string(), targetDir.string(), targetDir.string()))
         {
-            std::println("\033[31m正式服数据表转换失败\033[0m");
+            std::println("\033[31m数据表转换失败\033[0m");
             return false;
         }
 
-        // 删除原始的 .tbl 二进制文件
-        for (const auto &entry : fs::directory_iterator("../Table/Global/Live"))
+        // 7. 清理 .tbl
+        for (const auto &entry : fs::directory_iterator(targetDir))
         {
             if (entry.is_regular_file() && entry.path().extension() == ".tbl")
             {
@@ -138,24 +252,35 @@ namespace TableUpdater
             }
         }
 
-        // 确保服务器区域节点存在
-        if (!table_info.contains(serverRegion))
+        // 8. 更新 JSON
+        try
         {
-            table_info[serverRegion] = json::object();
+            if (!table_info.contains(serverRegion))
+            {
+                table_info[serverRegion] = json::object();
+            }
+
+            table_info[serverRegion][tableType] = {
+                {"version", currentVersion},
+                {"tableVersion", tableVersion}};
+
+            if (type == ServerType::GlobalReview && cdnDate > 0)
+            {
+                table_info[serverRegion][tableType]["cdnDate"] = cdnDate;
+            }
+
+            std::ofstream outFile(table_info_path);
+            outFile << table_info.dump(4);
+        }
+        catch (...)
+        {
         }
 
-        table_info[serverRegion]["live"] = {
-            {"version", version},
-            {"tableVersion", tableInfo.version}};
-
-        std::ofstream outFile(table_info_path);
-        outFile << table_info.dump(4);
-
-        std::println("\033[32mLive 服务器数据表已更新到最新版本\033[0m");
+        std::println("\033[32m{} {} 数据表已更新到最新版本\033[0m", serverRegion, tableType);
         return true;
     }
 
-    bool checkReviewVersion(const std::string &version, std::string &cdnDate)
+    bool checkReviewVersion(const std::string &version, int &cdnDate)
     {
         std::string url = "https://gc-infodesk-zinny3.kakaogames.com/v2/app?appId=743491&appVer=" +
                           version + "&market=googlePlay&sdkVer=1&os=android&lang=en";
@@ -192,7 +317,7 @@ namespace TableUpdater
                     std::smatch matches;
                     if (std::regex_search(cdnAddr, matches, date_regex))
                     {
-                        cdnDate = matches[1];
+                        cdnDate = std::stoi(matches[1].str());
                         return true;
                     }
                 }
@@ -215,7 +340,7 @@ namespace TableUpdater
         ReviewServerInfo info;
         info.exists = false;
         info.version = "";
-        info.cdnDate = "";
+        info.cdnDate = 0;
         info.tableInfo.version = 0;
         info.tableInfo.action = 0;
 
@@ -228,7 +353,7 @@ namespace TableUpdater
         const int max_threads = std::min(static_cast<uint32_t>(1024),
                                          cpu_cores > 0 ? cpu_cores * 18 : 128);
 
-        std::vector<std::future<std::pair<bool, std::string>>> futures;
+        std::vector<std::future<std::pair<bool, int>>> futures;
         std::vector<std::string> pending_versions;
         size_t total_versions = versions.size();
         size_t checked_versions = 0;
@@ -265,7 +390,7 @@ namespace TableUpdater
 
             futures.push_back(std::async(std::launch::async, [ver]()
                                          {
-                std::string cdnDate;
+                int cdnDate = 0;
                 bool success = checkReviewVersion(ver, cdnDate);
                 return std::make_pair(success, cdnDate); }));
             pending_versions.push_back(ver);
@@ -306,19 +431,19 @@ namespace TableUpdater
                     json table_info = json::parse(file);
 
                     if (table_info.contains(serverRegion) &&
-                        table_info[serverRegion].contains("review") &&
-                        table_info[serverRegion]["review"].contains("version") &&
-                        !table_info[serverRegion]["review"]["version"].is_null() &&
-                        table_info[serverRegion]["review"].contains("cdnDate") &&
-                        !table_info[serverRegion]["review"]["cdnDate"].is_null() &&
-                        table_info[serverRegion]["review"].contains("tableVersion") &&
-                        !table_info[serverRegion]["review"]["tableVersion"].is_null())
+                        table_info[serverRegion].contains("Review") &&
+                        table_info[serverRegion]["Review"].contains("version") &&
+                        !table_info[serverRegion]["Review"]["version"].is_null() &&
+                        table_info[serverRegion]["Review"].contains("cdnDate") &&
+                        !table_info[serverRegion]["Review"]["cdnDate"].is_null() &&
+                        table_info[serverRegion]["Review"].contains("tableVersion") &&
+                        !table_info[serverRegion]["Review"]["tableVersion"].is_null())
                     {
 
                         info.exists = true;
-                        info.version = table_info[serverRegion]["review"]["version"].get<std::string>();
-                        info.cdnDate = table_info[serverRegion]["review"]["cdnDate"].get<std::string>();
-                        info.tableInfo.version = table_info[serverRegion]["review"]["tableVersion"].get<int>();
+                        info.version = table_info[serverRegion]["Review"]["version"].get<std::string>();
+                        info.cdnDate = table_info[serverRegion]["Review"]["cdnDate"].get<int>();
+                        info.tableInfo.version = table_info[serverRegion]["Review"]["tableVersion"].get<int>();
 
                         // 验证这个版本是否可访问
                         std::string url = std::format(
@@ -411,25 +536,25 @@ namespace TableUpdater
             std::ifstream file(table_info_path);
             json table_info = json::parse(file);
 
-            if (table_info.contains(serverRegion) && table_info[serverRegion].contains("review"))
+            if (table_info.contains(serverRegion) && table_info[serverRegion].contains("Review"))
             {
                 // std::println("当前保存的信息:");
                 // std::println("版本: {}", table_info[serverRegion]["review"]["version"].get<std::string>());
                 // std::println("表版本: {}", table_info[serverRegion]["review"]["tableVersion"].get<int>());
 
-                if (table_info[serverRegion]["review"]["version"] == reviewInfo.version &&
-                    table_info[serverRegion]["review"]["cdnDate"] == reviewInfo.cdnDate &&
-                    table_info[serverRegion]["review"]["tableVersion"] == serverTableVersion &&
+                if (table_info[serverRegion]["Review"]["version"] == reviewInfo.version &&
+                    table_info[serverRegion]["Review"]["cdnDate"] == reviewInfo.cdnDate &&
+                    table_info[serverRegion]["Review"]["tableVersion"] == serverTableVersion &&
                     reviewTableExist)
                 {
                     std::println("\033[32mReview 服务器数据表已是最新版本\033[0m");
                     return false;
                 }
 
-                if (table_info[serverRegion]["review"]["tableVersion"] != serverTableVersion)
+                if (table_info[serverRegion]["Review"]["tableVersion"] != serverTableVersion)
                 {
                     std::println("表版本不同: {} -> {}",
-                                 table_info[serverRegion]["review"]["tableVersion"].get<int>(), serverTableVersion);
+                                 table_info[serverRegion]["Review"]["tableVersion"].get<int>(), serverTableVersion);
                 }
             }
             else
@@ -455,7 +580,7 @@ namespace TableUpdater
     {
         // 构建下载链接
         std::string zipUrl = std::format("https://patch.esoul.kakaogames.com/Review/{}/{}/Table/data_{}.zip",
-                                        reviewInfo.cdnDate, reviewInfo.version, serverTableVersion);
+                                         reviewInfo.cdnDate, reviewInfo.version, serverTableVersion);
         // std::println("下载URL: {}", zipUrl);
         std::string zipPath = "../review_data_" + std::to_string(serverTableVersion) + ".zip";
 
@@ -563,7 +688,7 @@ namespace TableUpdater
                 table_info[serverRegion] = json::object();
             }
 
-            table_info[serverRegion]["review"] = {
+            table_info[serverRegion]["Review"] = {
                 {"version", reviewInfo.version},
                 {"cdnDate", reviewInfo.cdnDate},
                 {"tableVersion", serverTableVersion}};
@@ -578,204 +703,5 @@ namespace TableUpdater
             std::println("\033[31m更新table_info.json失败: {}\033[0m", e.what());
             return false;
         }
-    }
-
-    bool downloadAndProcessReviewTables(const ReviewServerInfo &reviewInfo, const std::string &serverRegion)
-    {
-        int serverTableVersion = getServerTableVersion(reviewInfo);
-        if (serverTableVersion == -1)
-        {
-            return false;
-        }
-
-        if (!needUpdateReviewTables(reviewInfo, serverTableVersion, serverRegion))
-        {
-            return false; // 已是最新版本，不需要更新
-        }
-
-        if (!downloadReviewTables(reviewInfo, serverTableVersion))
-        {
-            return false;
-        }
-
-        if (!decryptReviewTables())
-        {
-            return false;
-        }
-
-        if (!convertReviewTablesToJson())
-        {
-            return false;
-        }
-
-        if (!updateTableInfoFile(reviewInfo, serverTableVersion, serverRegion))
-        {
-            return false;
-        }
-
-        std::println("\033[32mReview 服务器数据表已更新到最新版本\033[0m");
-        return true;
-    }
-
-    bool checkAndUpdateCnLiveTables(const std::string &serverRegion)
-    {
-        // 获取国服配置
-        auto cnConfig = VersionManager::getCnServerConfig();
-        if (!cnConfig.isValid)
-        {
-            std::println("\033[31m获取国服配置失败\033[0m");
-            return false;
-        }
-
-        // 尝试从每个URL获取数据表版本信息
-        TableInfo tableInfo;
-        tableInfo.version = 0;
-        std::string workingBaseUrl;
-
-        for (const auto &baseUrl : cnConfig.downloadUrls)
-        {
-            try
-            {
-                std::string versionUrl = std::format("{}/{}/Table/const_data_version.json", 
-                                                     baseUrl, cnConfig.version);
-                std::println("检查版本URL: {}", versionUrl);
-
-                std::string response = HttpClient::get(versionUrl);
-                if (!response.empty())
-                {
-                    json data = json::parse(response);
-                    tableInfo.version = data["version"];
-                    tableInfo.action = data["action"];
-                    workingBaseUrl = baseUrl;
-                    std::println("服务器数据表版本: {}", tableInfo.version);
-                    break;
-                }
-            }
-            catch (const std::exception &e)
-            {
-                std::println("\033[33m尝试URL {} 失败: {}\033[0m", baseUrl, e.what());
-                continue;
-            }
-        }
-
-        if (tableInfo.version == 0 || workingBaseUrl.empty())
-        {
-            std::println("\033[31m所有URL都无法获取数据表信息\033[0m");
-            return false;
-        }
-
-        // 检查是否需要更新
-        fs::path table_info_path = "./table_info.json";
-        json table_info;
-
-        bool cnTableExist = fs::exists("../Table/Cn/Live") && !fs::is_empty("../Table/Cn/Live");
-
-        if (fs::exists(table_info_path))
-        {
-            std::ifstream file(table_info_path);
-            table_info = json::parse(file);
-
-            if (table_info.contains(serverRegion) &&
-                table_info[serverRegion].contains("live") &&
-                table_info[serverRegion]["live"]["version"] == cnConfig.version &&
-                table_info[serverRegion]["live"]["tableVersion"] == tableInfo.version &&
-                cnTableExist)
-            {
-                std::println("\033[32m国服数据表已是最新版本\033[0m");
-                return false;
-            }
-            else
-            {
-                if (table_info.contains(serverRegion) && table_info[serverRegion].contains("live"))
-                {
-                    if (table_info[serverRegion]["live"]["tableVersion"] != tableInfo.version)
-                    {
-                        std::println("表版本不同: {} -> {}",
-                                     table_info[serverRegion]["live"]["tableVersion"].get<int>(), tableInfo.version);
-                    }
-                }
-                else
-                {
-                    std::println("- table_info.json 中没有 {} live 信息", serverRegion);
-                }
-            }
-        }
-        else
-        {
-            std::println("table_info.json 不存在，将创建新文件");
-        }
-
-        // 构建下载链接
-        std::string zipUrl = std::format("{}/{}/Table/data_{}.zip",
-                                         workingBaseUrl, cnConfig.version, tableInfo.version);
-        std::string zipPath = "../cn_data_" + std::to_string(tableInfo.version) + ".zip";
-
-        // 下载数据表压缩包
-        if (!FileDownloader::downloadWithRetry(zipUrl, zipPath, 3, true))
-        {
-            return false;
-        }
-
-        fs::create_directories("../Table/Cn/Live");
-
-        std::string unzipCommand = "unzip -o " + zipPath + " -d ../Table/Cn/Live/ > /dev/null 2>&1";
-        system(unzipCommand.c_str());
-
-        fs::remove(zipPath);
-
-        // 解密国服数据表
-        std::vector<uint8_t> key, iv;
-        if (!CryptoUtils::deriveKeyAndIv(key, iv))
-        {
-            std::println("\033[31m密钥派生失败\033[0m");
-            return false;
-        }
-
-        std::vector<fs::path> files_to_decrypt;
-        for (const auto &entry : fs::directory_iterator("../Table/Cn/Live"))
-        {
-            if (entry.is_regular_file() && !CryptoUtils::isFileDecrypted(entry.path()))
-            {
-                files_to_decrypt.push_back(entry.path());
-            }
-        }
-
-        if (!CryptoUtils::decryptFiles(files_to_decrypt, key, iv))
-        {
-            std::println("\033[31m国服数据表解密失败\033[0m");
-            return false;
-        }
-
-        // 转换国服数据表（使用Global的Schema）
-        if (!TableConverter::convertTablesToJson("../FlatBuffers/Schema/Cn", "../Table/Cn/Live", "../Table/Cn/Live"))
-        {
-            std::println("\033[31m国服数据表转换失败\033[0m");
-            return false;
-        }
-
-        // 删除原始的 .tbl 二进制文件
-        for (const auto &entry : fs::directory_iterator("../Table/Cn/Live"))
-        {
-            if (entry.is_regular_file() && entry.path().extension() == ".tbl")
-            {
-                fs::remove(entry.path());
-            }
-        }
-
-        // 确保服务器区域节点存在
-        if (!table_info.contains(serverRegion))
-        {
-            table_info[serverRegion] = json::object();
-        }
-
-        table_info[serverRegion]["live"] = {
-            {"version", cnConfig.version},
-            {"tableVersion", tableInfo.version}};
-
-        std::ofstream outFile(table_info_path);
-        outFile << table_info.dump(4);
-
-        std::println("\033[32m国服数据表已更新到最新版本\033[0m");
-        return true;
     }
 }

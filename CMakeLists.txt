@@ -4,7 +4,6 @@ project(eversoul)
 if(MSVC)
     add_compile_options(/MP)
 endif()
-# 编译目录设置为 Build
 set(CMAKE_BINARY_DIR ${CMAKE_SOURCE_DIR}/Build)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 

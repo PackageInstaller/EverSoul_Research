@@ -97,15 +97,10 @@ namespace
     {
         try
         {
-            auto reviewInfo = TableUpdater::checkReviewServer(state.version, std::string{AppConfig::SERVER_REGION});
-
-            if (reviewInfo.exists)
+            // 直接调用统一函数，会自动检查和更新
+            if (TableUpdater::updateDataTables(TableUpdater::ServerType::GlobalReview, state.version))
             {
-
-                if (TableUpdater::downloadAndProcessReviewTables(reviewInfo, std::string{AppConfig::SERVER_REGION}))
-                {
-                    state.needGenerateApis = true;
-                }
+                state.needGenerateApis = true;
             }
             return true;
         }
@@ -130,7 +125,7 @@ namespace
             // 检查数据表目录是否存在且非空
             if (!fs::exists(tableDir) || fs::is_empty(tableDir))
             {
-                if (TableUpdater::checkAndUpdateLiveTables(state.version, std::string{AppConfig::SERVER_REGION}))
+                if (TableUpdater::updateDataTables(TableUpdater::ServerType::GlobalLive, state.version))
                 {
                     state.needGenerateApis = true;
                 }
@@ -142,8 +137,7 @@ namespace
             }
             else
             {
-
-                if (TableUpdater::checkAndUpdateLiveTables(state.version, std::string{AppConfig::SERVER_REGION}))
+                if (TableUpdater::updateDataTables(TableUpdater::ServerType::GlobalLive, state.version))
                 {
                     std::println("Live数据表更新完成");
                     state.needGenerateApis = true;
@@ -167,7 +161,7 @@ namespace
     {
         try
         {
-            if (TableUpdater::checkAndUpdateCnLiveTables("Cn"))
+            if (TableUpdater::updateDataTables(TableUpdater::ServerType::CnLive, ""))
             {
                 state.needGenerateApis = true;
             }
@@ -231,9 +225,9 @@ namespace
             {"处理Review服务器", [&]()
              { return processReviewServer(state); }},
             {"处理Live数据表", [&]()
-             { return processLiveTables(state); }},
-            {"处理国服数据表", [&]()
-             { return processCnLiveTables(state); }}};
+             { return processLiveTables(state); }}};
+            // {"处理国服数据表", [&]()
+            //  { return processCnLiveTables(state); }}};
             // {"生成API文件", [&]()
             //  { return generateApiFiles(state); }}};
 

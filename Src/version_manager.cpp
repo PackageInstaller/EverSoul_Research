@@ -192,7 +192,6 @@ except Exception as e:
 
             if (response.empty())
             {
-                std::println("\033[31m获取国服配置失败：响应为空\033[0m");
                 return config;
             }
 

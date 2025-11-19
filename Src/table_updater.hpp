@@ -9,6 +9,13 @@
 
 namespace TableUpdater
 {
+    enum class ServerType
+    {
+        GlobalLive,
+        GlobalReview,
+        CnLive
+    };
+
     // 数据结构定义
     struct TableInfo
     {
@@ -20,7 +27,7 @@ namespace TableUpdater
     {
         bool exists;
         std::string version;
-        std::string cdnDate;
+        int cdnDate;
         TableInfo tableInfo;
     };
 
@@ -32,20 +39,12 @@ namespace TableUpdater
     TableInfo getTableInfo(const std::string &version);
 
     /**
-     * @brief 检查并更新游戏数据表（Live服务器）
-     * @param version 游戏版本号
-     * @param serverRegion 服务器区域（如 "Global", "Cn" 等）
-     * @return 如果数据表需要更新并成功更新则返回true，否则返回false
-     */
-    bool checkAndUpdateLiveTables(const std::string &version, const std::string &serverRegion);
-
-    /**
      * @brief 检查指定版本是否为可用的Review服务器版本
      * @param version 要检查的版本号
-     * @param cdnDate 输出参数，如果版本可用，存储对应的CDN日期
+     * @param cdnDate 输出参数，如果版本可用，存储对应的CDN日期（整数，如 1028）
      * @return 如果版本可用返回true，否则返回false
      */
-    bool checkReviewVersion(const std::string &version, std::string &cdnDate);
+    bool checkReviewVersion(const std::string &version, int &cdnDate);
 
     /**
      * @brief 检查Review服务器并获取相关信息
@@ -56,17 +55,16 @@ namespace TableUpdater
     ReviewServerInfo checkReviewServer(const std::string &baseVersion, const std::string &serverRegion);
 
     /**
-     * @brief 下载并处理Review服务器的数据表
-     * @param reviewInfo Review服务器的信息，包含版本、日期等
-     * @param serverRegion 服务器区域（如 "Global", "Cn" 等）
-     * @return 如果成功下载并处理数据表返回true，否则返回false
-     */
-    bool downloadAndProcessReviewTables(const ReviewServerInfo &reviewInfo, const std::string &serverRegion);
-
-    /**
-     * @brief 检查并更新国服数据表
-     * @param serverRegion 服务器区域（应为 "Cn"）
+     * @brief 统一的数据表更新函数，通过switch语句处理不同服务器类型
+     * @param type 服务器类型 (GlobalLive, GlobalReview, CnLive)
+     * @param version 版本号
+     *        - GlobalLive: 必需，游戏版本号
+     *        - GlobalReview: 必需（作为baseVersion），用于自动检查Review版本；如果提供reviewInfo则可选
+     *        - CnLive: 不使用，国服版本号会自动从配置获取
+     * @param reviewInfo Review服务器信息（可选）
+     *        - 如果为nullptr，GlobalReview会自动调用checkReviewServer检查
+     *        - 如果提供，GlobalReview直接使用该信息
      * @return 如果数据表需要更新并成功更新则返回true，否则返回false
      */
-    bool checkAndUpdateCnLiveTables(const std::string &serverRegion);
+    bool updateDataTables(ServerType type, const std::string &version = "", const ReviewServerInfo *reviewInfo = nullptr);
 }

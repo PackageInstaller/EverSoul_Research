@@ -1,17 +1,17 @@
 {
     "Cn": {
-        "live": {
+        "Live": {
             "tableVersion": 233,
             "version": "1.25.305"
         }
     },
     "Global": {
-        "live": {
+        "Live": {
             "tableVersion": 4516,
             "version": "1.30.101"
         },
-        "review": {
-            "cdnDate": "1028",
+        "Review": {
+            "cdnDate": 1028,
             "tableVersion": 4510,
             "version": "1.30.101"
         }
