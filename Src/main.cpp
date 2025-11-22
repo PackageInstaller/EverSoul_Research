@@ -219,17 +219,17 @@ namespace
         AppState state;
         const std::vector<std::pair<std::string_view, std::function<bool()>>> operations = {
             {"初始化Python环境", [&]()
-             { return initializePythonEnvironment(state); }},
+            { return initializePythonEnvironment(state); }},
             {"获取应用版本", [&]()
-             { return retrieveAppVersion(state); }},
+            { return retrieveAppVersion(state); }},
             {"处理Review服务器", [&]()
-             { return processReviewServer(state); }},
+            { return processReviewServer(state); }},
             {"处理Live数据表", [&]()
-             { return processLiveTables(state); }}};
-            // {"处理国服数据表", [&]()
-            //  { return processCnLiveTables(state); }}};
-            // {"生成API文件", [&]()
-            //  { return generateApiFiles(state); }}};
+            { return processLiveTables(state); }},
+            {"处理国服数据表", [&]()
+            { return processCnLiveTables(state); }}};
+        // {"生成API文件", [&]()
+        //  { return generateApiFiles(state); }}};
 
         for (const auto &[description, operation] : operations)
         {
