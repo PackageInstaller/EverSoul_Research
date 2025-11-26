@@ -1,7 +1,7 @@
 import re
 import os
 import sys
-
+# 暂时废弃
 def pascal_to_snake(name):
     if '_' in name:
         parts = name.split('_')
