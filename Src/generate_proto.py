@@ -6,7 +6,7 @@ import glob
 import shutil
 
 def parse_cs_file_from_types(proto_type, file_path):
-    print(f"解析types.cs文件: {file_path}，命名空间: {proto_type}")
+    print(f"解析il2cpp.cs文件: {file_path}，命名空间: {proto_type}")
     
     with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
         content = f.read()
