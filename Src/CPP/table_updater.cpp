@@ -39,16 +39,16 @@ namespace TableUpdater
             targetDir = "../Table/Global/Live";
             schemaDir = "../FlatBuffers/Schema/Global";
 
-            // 获取服务器上的实际版本信息
+        // 获取服务器上的实际版本信息
             std::string versionUrl = std::format("https://patch.esoul.kakaogames.com/Live/{}/Table/const_data_version.json", currentVersion);
-            std::println("检查版本URL: {}", versionUrl);
+        std::println("检查版本URL: {}", versionUrl);
 
             TableInfo info = getTableInfo(currentVersion);
             if (info.version == 0)
-            {
-                std::println("\033[31m获取数据表信息失败\033[0m");
-                return false;
-            }
+        {
+            std::println("\033[31m获取数据表信息失败\033[0m");
+            return false;
+        }
             tableVersion = info.version;
             std::println("服务器数据表版本: {}", tableVersion);
 
@@ -151,9 +151,9 @@ namespace TableUpdater
         if (fs::exists(table_info_path))
         {
             try
-            {
-                std::ifstream file(table_info_path);
-                table_info = json::parse(file);
+        {
+            std::ifstream file(table_info_path);
+            table_info = json::parse(file);
 
                 if (table_info.contains(serverRegion) &&
                     table_info[serverRegion].contains(tableType) &&
@@ -164,10 +164,10 @@ namespace TableUpdater
                     if (type == ServerType::GlobalReview &&
                         table_info[serverRegion][tableType].contains("cdnDate") &&
                         table_info[serverRegion][tableType]["cdnDate"].get<int>() != cdnDate)
-                    {
+            {
                         // Continue update if cdnDate mismatch for Review
-                    }
-                    else
+            }
+            else
                     {
                         std::println("\033[32m{} {} 数据表已是最新版本\033[0m", serverRegion, tableType);
                         return false;
@@ -182,7 +182,7 @@ namespace TableUpdater
                         {
                             std::println("表版本不同: {} -> {}",
                                          table_info[serverRegion][tableType]["tableVersion"].get<int>(), tableVersion);
-                        }
+                }
                     }
                 }
             }
@@ -269,8 +269,8 @@ namespace TableUpdater
                 table_info[serverRegion][tableType]["cdnDate"] = cdnDate;
             }
 
-            std::ofstream outFile(table_info_path);
-            outFile << table_info.dump(4);
+        std::ofstream outFile(table_info_path);
+        outFile << table_info.dump(4);
         }
         catch (...)
         {

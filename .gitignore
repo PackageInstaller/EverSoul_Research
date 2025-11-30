@@ -4,3 +4,4 @@ build/*
 Build/*
 .cache/*
 obj/*
+__pycache__

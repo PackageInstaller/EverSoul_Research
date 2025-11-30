@@ -17,14 +17,14 @@ find_package(nlohmann_json REQUIRED CONFIG)
 find_package(ZLIB REQUIRED)
 
 add_executable(eversoul
-    Src/main.cpp
-    Src/version_manager.cpp
-    Src/table_updater.cpp
-    Src/table_converter.cpp
-    Src/http_client.cpp
-    Src/file_downloader.cpp
-    Src/crypto_utils.cpp
-    Src/progress_display.cpp
+    Src/CPP/main.cpp
+    Src/CPP/version_manager.cpp
+    Src/CPP/table_updater.cpp
+    Src/CPP/table_converter.cpp
+    Src/CPP/http_client.cpp
+    Src/CPP/file_downloader.cpp
+    Src/CPP/crypto_utils.cpp
+    Src/CPP/progress_display.cpp
 )
 
 target_link_libraries(eversoul

@@ -1,0 +1,224 @@
+import sys
+from pathlib import Path
+from typing import Callable
+from dataclasses import dataclass
+
+from rich.console import Console
+from rich.panel import Panel
+from rich.text import Text
+
+from version_manager import VersionManager
+from table_updater import TableUpdater, ServerType
+from table_converter import TableConverter
+
+console = Console()
+
+
+@dataclass
+class AppConfig:
+    """应用程序配置结构"""
+
+    SERVER_REGION: str = "Global"
+    LIVE_TABLE_DIR: str = "../../Table/Global/Live"
+    SCHEMA_DIR: str = "../../FlatBuffers/Schema/Global"
+    OUTPUT_DIR: str = "../../"
+
+
+@dataclass
+class AppState:
+    """应用程序状态"""
+
+    version: str = ""
+    need_generate_apis: bool = False
+    python_ready: bool = False
+
+
+def initialize_python_environment(state: AppState) -> bool:
+    """
+    初始化Python环境
+
+    Args:
+        state: 应用程序状态
+
+    Returns:
+        操作是否成功
+    """
+    try:
+        state.python_ready = VersionManager.check_and_install_python_libraries()
+        return True
+    except Exception as e:
+        console.print(f"[bold red]Python环境初始化失败: {e}[/bold red]")
+        return False
+
+
+def retrieve_app_version(state: AppState) -> bool:
+    """
+    获取应用版本号
+
+    Args:
+        state: 应用程序状态
+
+    Returns:
+        操作是否成功
+    """
+    try:
+        # 优先使用Python方法获取版本号
+        if state.python_ready:
+            state.version = VersionManager.get_version_from_google_play()
+            if state.version:
+                return True
+            else:
+                console.print("Python方法获取版本号失败")
+                return False
+        else:
+            console.print("Python环境未就绪，无法获取版本号")
+            return False
+    except Exception as e:
+        console.print(f"[bold red]版本号获取失败: {e}[/bold red]")
+        return False
+
+
+def process_review_server(state: AppState) -> bool:
+    """
+    处理Review服务器数据
+
+    Args:
+        state: 应用程序状态
+
+    Returns:
+        操作是否成功
+    """
+    try:
+        # 直接调用统一函数，会自动检查和更新
+        if TableUpdater.update_data_tables(ServerType.GLOBAL_REVIEW, state.version):
+            state.need_generate_apis = True
+        return True
+    except Exception as e:
+        console.print(f"[bold red]Review服务器处理失败: {e}[/bold red]")
+        return False
+
+
+def process_live_tables(state: AppState) -> bool:
+    """
+    处理Live服务器数据表
+
+    Args:
+        state: 应用程序状态
+
+    Returns:
+        操作是否成功
+    """
+    try:
+        config = AppConfig()
+        table_dir = Path(config.LIVE_TABLE_DIR)
+
+        # 检查数据表目录是否存在且非空
+        if not table_dir.exists() or not any(table_dir.iterdir()):
+            if TableUpdater.update_data_tables(ServerType.GLOBAL_LIVE, state.version):
+                state.need_generate_apis = True
+            else:
+                console.print("[bold red]Live数据表下载失败[/bold red]")
+                return False
+        else:
+            if TableUpdater.update_data_tables(ServerType.GLOBAL_LIVE, state.version):
+                console.print("Live数据表更新完成")
+                state.need_generate_apis = True
+        return True
+    except Exception as e:
+        console.print(f"[bold red]Live数据表处理失败: {e}[/bold red]")
+        return False
+
+
+def process_cn_live_tables(state: AppState) -> bool:
+    """
+    处理国服数据表
+
+    Args:
+        state: 应用程序状态
+
+    Returns:
+        操作是否成功
+    """
+    try:
+        if TableUpdater.update_data_tables(ServerType.CN_LIVE, ""):
+            state.need_generate_apis = True
+        return True
+    except Exception as e:
+        console.print(f"[bold red]国服数据表处理失败: {e}[/bold red]")
+        return False
+
+
+def generate_api_files(state: AppState) -> bool:
+    """
+    生成API文件
+
+    Args:
+        state: 应用程序状态
+
+    Returns:
+        操作是否成功
+    """
+    if not state.need_generate_apis:
+        console.print("[bold green]无需生成API文件[/bold green]")
+        return True
+
+    try:
+        config = AppConfig()
+        if TableConverter.generate_flatbuffer_python_api(
+            config.SCHEMA_DIR, config.OUTPUT_DIR
+        ):
+            console.print("FlatBuffer Python API生成完成")
+            return True
+        else:
+            console.print("[bold red]FlatBuffer Python API生成失败[/bold red]")
+            return False
+    except Exception as e:
+        console.print(f"[bold red]API文件生成失败: {e}[/bold red]")
+        return False
+
+
+def run_application() -> int:
+    """
+    运行应用程序主逻辑
+
+    Returns:
+        程序退出码
+    """
+    state = AppState()
+
+    operations: list[tuple[str, Callable[[], bool]]] = [
+        ("初始化Python环境", lambda: initialize_python_environment(state)),
+        ("获取应用版本", lambda: retrieve_app_version(state)),
+        ("处理Review服务器", lambda: process_review_server(state)),
+        ("处理Live数据表", lambda: process_live_tables(state)),
+        # ("处理国服数据表", lambda: process_cn_live_tables(state)),
+        # ("生成API文件", lambda: generate_api_files(state)),
+    ]
+
+    for description, operation in operations:
+        console.print(f"正在执行: {description}")
+
+        if not operation():
+            console.print(f"[bold red]操作失败: {description}[/bold red]")
+            return 1
+
+    return 0
+
+
+def main() -> int:
+    """主函数"""
+    try:
+        return run_application()
+    except KeyboardInterrupt:
+        console.print("\n[bold yellow]程序被用户中断[/bold yellow]")
+        return 130
+    except Exception as e:
+        console.print(f"[bold red]程序执行错误: {e}[/bold red]")
+        return 1
+    except:
+        console.print("[bold red]未知错误发生[/bold red]")
+        return 1
+
+
+if __name__ == "__main__":
+    sys.exit(main())
