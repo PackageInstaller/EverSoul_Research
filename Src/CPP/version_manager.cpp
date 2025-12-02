@@ -180,9 +180,9 @@ except Exception as e:
         return versions;
     }
 
-    CnServerConfig getCnServerConfig()
+    CNServerConfig getCNServerConfig()
     {
-        CnServerConfig config;
+        CNServerConfig config;
         config.isValid = false;
 
         try

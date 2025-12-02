@@ -55,15 +55,15 @@ namespace TableUpdater
             zipUrl = std::format("https://patch.esoul.kakaogames.com/Live/{}/Table/data_{}.zip", currentVersion, tableVersion);
             break;
         }
-        case ServerType::CnLive:
+        case ServerType::CNLive:
         {
-            serverRegion = "Cn";
+            serverRegion = "CN";
             tableType = "Live";
-            targetDir = "../Table/Cn/Live";
+            targetDir = "../Table/CN/Live";
             schemaDir = "../FlatBuffers/Schema/Global";
 
             // 获取国服配置
-            auto cnConfig = VersionManager::getCnServerConfig();
+            auto cnConfig = VersionManager::getCNServerConfig();
             if (!cnConfig.isValid)
             {
                 std::println("\033[31m获取国服配置失败\033[0m");

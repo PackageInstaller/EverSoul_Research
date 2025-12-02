@@ -157,11 +157,11 @@ namespace
      * @param state 应用程序状态
      * @return 操作是否成功
      */
-    auto processCnLiveTables(AppState &state) -> bool
+    auto processCNLiveTables(AppState &state) -> bool
     {
         try
         {
-            if (TableUpdater::updateDataTables(TableUpdater::ServerType::CnLive, ""))
+            if (TableUpdater::updateDataTables(TableUpdater::ServerType::CNLive, ""))
             {
                 state.needGenerateApis = true;
             }
@@ -227,7 +227,7 @@ namespace
             {"处理Live数据表", [&]()
             { return processLiveTables(state); }},
             {"处理国服数据表", [&]()
-            { return processCnLiveTables(state); }}};
+            { return processCNLiveTables(state); }}};
         // {"生成API文件", [&]()
         //  { return generateApiFiles(state); }}};
 

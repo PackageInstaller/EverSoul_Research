@@ -31,7 +31,7 @@ class ServerType(Enum):
 
     GLOBAL_LIVE = "GlobalLive"
     GLOBAL_REVIEW = "GlobalReview"
-    CN_LIVE = "CnLive"
+    CN_LIVE = "CNLive"
 
 
 @dataclass
@@ -132,13 +132,15 @@ class TableUpdater:
         return False, 0
 
     @staticmethod
-    def check_review_server(base_version: str, server_region: str) -> ReviewServerInfo:
+    def check_review_server(
+        base_version: str, server_region: str, table_info_path: str = "./table_info.json"
+    ) -> ReviewServerInfo:
         """
         检查Review服务器并获取相关信息
 
         Args:
             base_version: 基础版本号，用于生成可能的版本号
-            server_region: 服务器区域（如 "Global", "Cn" 等）
+            server_region: 服务器区域（如 "Global", "CN" 等）
 
         Returns:
             包含Review服务器信息的结构体
@@ -205,10 +207,10 @@ class TableUpdater:
 
         if not info.exists:
             # 尝试从本地配置读取
-            table_info_path = Path("./table_info.json")
-            if table_info_path.exists():
+            table_info_file = Path(table_info_path)
+            if table_info_file.exists():
                 try:
-                    with open(table_info_path, "r", encoding="utf-8") as f:
+                    with open(table_info_file, "r", encoding="utf-8") as f:
                         table_info = json.load(f)
 
                     if (
@@ -252,6 +254,7 @@ class TableUpdater:
         server_type: ServerType,
         version: str = "",
         review_info: Optional[ReviewServerInfo] = None,
+        config: Optional[any] = None,
     ) -> bool:
         """
         统一的数据表更新函数
@@ -260,10 +263,30 @@ class TableUpdater:
             server_type: 服务器类型
             version: 版本号
             review_info: Review服务器信息（可选）
+            config: 应用程序配置（可选，包含所有路径配置）
 
         Returns:
             如果数据表需要更新并成功更新则返回True，否则返回False
         """
+        # 获取路径配置
+        if config:
+            global_live_dir = config.GLOBAL_LIVE_TABLE_DIR
+            global_review_dir = config.GLOBAL_REVIEW_TABLE_DIR
+            cn_live_dir = config.CN_LIVE_TABLE_DIR
+            global_schema_dir = config.GLOBAL_SCHEMA_DIR
+            cn_schema_dir = config.CN_SCHEMA_DIR
+            table_info_path = config.TABLE_INFO_PATH
+            temp_dir = config.TEMP_DIR
+        else:
+            # 默认路径
+            global_live_dir = "../../Table/Global/Live"
+            global_review_dir = "../../Table/Global/Review"
+            cn_live_dir = "../../Table/CN/Live"
+            global_schema_dir = "../../FlatBuffers/Schema/Global"
+            cn_schema_dir = "../../FlatBuffers/Schema/CN"
+            table_info_path = "./table_info.json"
+            temp_dir = "../../"
+        
         # 1. 准备阶段：获取版本信息、下载链接、目标路径等
         zip_url = ""
         table_version = 0
@@ -277,8 +300,8 @@ class TableUpdater:
         if server_type == ServerType.GLOBAL_LIVE:
             server_region = "Global"
             table_type = "Live"
-            target_dir = Path("../../Table/Global/Live")
-            schema_dir = Path("../../FlatBuffers/Schema/Global")
+            target_dir = Path(global_live_dir)
+            schema_dir = Path(global_schema_dir)
 
             # 获取服务器上的实际版本信息
             version_url = f"https://patch.esoul.kakaogames.com/Live/{current_version}/Table/const_data_version.json"
@@ -294,10 +317,10 @@ class TableUpdater:
             zip_url = f"https://patch.esoul.kakaogames.com/Live/{current_version}/Table/data_{table_version}.zip"
 
         elif server_type == ServerType.CN_LIVE:
-            server_region = "Cn"
+            server_region = "CN"
             table_type = "Live"
-            target_dir = Path("../../Table/Cn/Live")
-            schema_dir = Path("../../FlatBuffers/Schema/Global")
+            target_dir = Path(cn_live_dir)
+            schema_dir = Path(global_schema_dir)  # 国服使用Global的Schema
 
             # 获取国服配置
             cn_config = VersionManager.get_cn_server_config()
@@ -336,8 +359,8 @@ class TableUpdater:
         elif server_type == ServerType.GLOBAL_REVIEW:
             server_region = "Global"
             table_type = "Review"
-            target_dir = Path("../../Table/Global/Review")
-            schema_dir = Path("../../FlatBuffers/Schema/Global")
+            target_dir = Path(global_review_dir)
+            schema_dir = Path(global_schema_dir)
 
             # 如果没有提供 review_info，则自动检查
             if not review_info:
@@ -346,7 +369,9 @@ class TableUpdater:
                         "[bold red]GlobalReview 需要提供 base_version 或 review_info[/bold red]"
                     )
                     return False
-                review_info = TableUpdater.check_review_server(version, server_region)
+                review_info = TableUpdater.check_review_server(
+                    version, server_region, table_info_path
+                )
                 if not review_info.exists:
                     console.print(
                         "[bold yellow]未找到可用的 Review 服务器版本[/bold yellow]"
@@ -366,13 +391,13 @@ class TableUpdater:
             )
 
         # 2. 检查本地信息，是否需要更新
-        table_info_path = Path("./table_info.json")
+        table_info_file = Path(table_info_path)
         table_info = {}
         table_exist = target_dir.exists() and any(target_dir.iterdir())
 
-        if table_info_path.exists():
+        if table_info_file.exists():
             try:
-                with open(table_info_path, "r", encoding="utf-8") as f:
+                with open(table_info_file, "r", encoding="utf-8") as f:
                     table_info = json.load(f)
 
                 if (
@@ -416,7 +441,8 @@ class TableUpdater:
             console.print("table_info.json 不存在，将创建新文件")
 
         # 3. 下载
-        zip_path = f"../../data_{server_region}_{table_type}_{table_version}.zip"
+        zip_filename = f"data_{server_region}_{table_type}_{table_version}.zip"
+        zip_path = str(Path(temp_dir) / zip_filename)
         if not FileDownloader.download_with_retry(zip_url, zip_path, 3, True):
             return False
 
@@ -466,7 +492,7 @@ class TableUpdater:
             if server_type == ServerType.GLOBAL_REVIEW and cdn_date > 0:
                 table_info[server_region][table_type]["cdnDate"] = cdn_date
 
-            with open(table_info_path, "w", encoding="utf-8") as f:
+            with open(table_info_file, "w", encoding="utf-8") as f:
                 json.dump(table_info, f, indent=4, ensure_ascii=False)
         except:
             pass

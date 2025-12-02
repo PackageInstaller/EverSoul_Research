@@ -16,7 +16,7 @@ console = Console()
 
 
 @dataclass
-class CnServerConfig:
+class CNServerConfig:
     """国服配置信息结构"""
 
     version: str = ""
@@ -143,14 +143,14 @@ class VersionManager:
         return versions
 
     @staticmethod
-    def get_cn_server_config() -> CnServerConfig:
+    def get_cn_server_config() -> CNServerConfig:
         """
         从国服apps.json获取配置信息
 
         Returns:
             包含版本号和下载URL的配置结构
         """
-        config = CnServerConfig()
+        config = CNServerConfig()
 
         try:
             url = "http://yhlh-client.zlongame.com/YHLH/tbt/apps.json"

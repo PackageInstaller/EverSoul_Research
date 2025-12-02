@@ -34,7 +34,7 @@ namespace VersionManager
     /**
      * @brief 国服配置信息结构
      */
-    struct CnServerConfig
+    struct CNServerConfig
     {
         std::string version;                      // 版本号
         std::vector<std::string> downloadUrls;    // 下载基础URL列表
@@ -43,7 +43,7 @@ namespace VersionManager
 
     /**
      * @brief 从国服apps.json获取配置信息
-     * @return CnServerConfig 包含版本号和下载URL的配置结构
+     * @return CNServerConfig 包含版本号和下载URL的配置结构
      */
-    CnServerConfig getCnServerConfig();
+    CNServerConfig getCNServerConfig();
 }
