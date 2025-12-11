@@ -670,6 +670,18 @@
       "item_sort_no": 3153
     },
     {
+      "no": 67,
+      "category_sno": 110001,
+      "grade_sno": 110012,
+      "name_sno": 210067,
+      "desc_sno": 220067,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "icon_Cash_Point",
+      "atlas_type": 4,
+      "item_sort_no": 67
+    },
+    {
       "no": 100,
       "category_sno": 110001,
       "grade_sno": 110014,
@@ -22163,6 +22175,18 @@
       "item_sort_no": 20004
     },
     {
+      "no": 2407,
+      "category_sno": 110009,
+      "grade_sno": 110020,
+      "name_sno": 520607,
+      "desc_sno": 530607,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "CatherineBrave_Icon_Costume_05",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
       "no": 2700,
       "category_sno": 110009,
       "grade_sno": 110011,
@@ -30629,7 +30653,7 @@
       "desc_sno": 226815,
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
-      "icon_path": "sticker_special_",
+      "icon_path": "sticker_special_PetraAwaken01",
       "atlas_type": 6,
       "item_sort_no": 60000
     },
@@ -30641,7 +30665,7 @@
       "desc_sno": 226816,
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
-      "icon_path": "sticker_special_",
+      "icon_path": "sticker_special_Canelian01",
       "atlas_type": 6,
       "item_sort_no": 60000
     },
@@ -30653,7 +30677,7 @@
       "desc_sno": 226817,
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
-      "icon_path": "sticker_special_",
+      "icon_path": "sticker_special_GarnetRapture01",
       "atlas_type": 6,
       "item_sort_no": 60000
     },
@@ -30666,6 +30690,42 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_path": "sticker_special_",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6819,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216819,
+      "desc_sno": 226819,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_CherrieRoman01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6820,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216820,
+      "desc_sno": 226820,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_CatherineBrave01",
+      "atlas_type": 6,
+      "item_sort_no": 60000
+    },
+    {
+      "no": 6821,
+      "category_sno": 110077,
+      "grade_sno": 110020,
+      "name_sno": 216821,
+      "desc_sno": 226821,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "sticker_special_Yuria01",
       "atlas_type": 6,
       "item_sort_no": 60000
     },
@@ -36794,6 +36854,18 @@
       "atlas_type": 4,
       "move_behavior": 516,
       "item_sort_no": 3512
+    },
+    {
+      "no": 14100,
+      "category_sno": 110006,
+      "grade_sno": 110019,
+      "name_sno": 2114100,
+      "desc_sno": 2214100,
+      "slot_limit_sno": 661,
+      "stat_limit_sno": 110041,
+      "icon_path": "Icon_Box_Select_Fairy",
+      "atlas_type": 4,
+      "item_sort_no": 2220
     },
     {
       "no": 20001,

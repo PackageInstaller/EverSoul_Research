@@ -153,7 +153,7 @@ namespace
     }
 
     /**
-     * @brief 处理国服数据表
+     * @brief 处理国服正式服数据表
      * @param state 应用程序状态
      * @return 操作是否成功
      */
@@ -169,7 +169,29 @@ namespace
         }
         catch (const std::exception &e)
         {
-            std::println(stderr, "\033[31m国服数据表处理失败: {}\033[0m", e.what());
+            std::println(stderr, "\033[31m国服正式服数据表处理失败: {}\033[0m", e.what());
+            return false;
+        }
+    }
+
+    /**
+     * @brief 处理国服审核服数据表
+     * @param state 应用程序状态
+     * @return 操作是否成功
+     */
+    auto processCNReviewTables(AppState &state) -> bool
+    {
+        try
+        {
+            if (TableUpdater::updateDataTables(TableUpdater::ServerType::CNReview, ""))
+            {
+                state.needGenerateApis = true;
+            }
+            return true;
+        }
+        catch (const std::exception &e)
+        {
+            std::println(stderr, "\033[31m国服审核服数据表处理失败: {}\033[0m", e.what());
             return false;
         }
     }
@@ -226,8 +248,10 @@ namespace
             { return processReviewServer(state); }},
             {"处理Live数据表", [&]()
             { return processLiveTables(state); }},
-            {"处理国服数据表", [&]()
-            { return processCNLiveTables(state); }}};
+            {"处理国服正式服数据表", [&]()
+            { return processCNLiveTables(state); }},
+            {"处理国服审核服数据表", [&]()
+            { return processCNReviewTables(state); }}};
         // {"生成API文件", [&]()
         //  { return generateApiFiles(state); }}};
 

@@ -13,7 +13,8 @@ namespace TableUpdater
     {
         GlobalLive,
         GlobalReview,
-        CNLive
+        CNLive,
+        CNReview
     };
 
     // 数据结构定义
@@ -56,11 +57,12 @@ namespace TableUpdater
 
     /**
      * @brief 统一的数据表更新函数，通过switch语句处理不同服务器类型
-     * @param type 服务器类型 (GlobalLive, GlobalReview, CNLive)
+     * @param type 服务器类型 (GlobalLive, GlobalReview, CNLive, CNReview)
      * @param version 版本号
      *        - GlobalLive: 必需，游戏版本号
      *        - GlobalReview: 必需（作为baseVersion），用于自动检查Review版本；如果提供reviewInfo则可选
      *        - CNLive: 不使用，国服版本号会自动从配置获取
+     *        - CNReview: 不使用，国服review版本号会自动从配置获取
      * @param reviewInfo Review服务器信息（可选）
      *        - 如果为nullptr，GlobalReview会自动调用checkReviewServer检查
      *        - 如果提供，GlobalReview直接使用该信息

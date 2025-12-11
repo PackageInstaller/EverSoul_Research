@@ -1,0 +1,32 @@
+{
+  "json": [
+    {
+      "no": 1,
+      "season_no": 4,
+      "raid_no": 4,
+      "server_check": 1,
+      "schedule_key": "SingleRaid_1_1"
+    },
+    {
+      "no": 500001,
+      "season_no": 4,
+      "raid_no": 4,
+      "server_check": 2,
+      "schedule_key": "SingleRaid_2_1"
+    },
+    {
+      "no": 900001,
+      "season_no": 4,
+      "raid_no": 4,
+      "server_check": 3,
+      "schedule_key": "SingleRaid_3_1"
+    },
+    {
+      "no": 1000001,
+      "season_no": 4,
+      "raid_no": 4,
+      "server_check": 4,
+      "schedule_key": "SingleRaid_4_1"
+    }
+  ]
+}

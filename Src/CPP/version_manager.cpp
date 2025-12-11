@@ -184,10 +184,11 @@ except Exception as e:
     {
         CNServerConfig config;
         config.isValid = false;
+        config.reviewIsValid = false;
 
         try
         {
-            std::string url = "http://yhlh-client.zlongame.com/YHLH/tbt/apps.json";
+            std::string url = "http://yhlh-client.zlongame.com/YHLH/cbt/android/apps.json";
             std::string response = HttpClient::get(url);
 
             if (response.empty())
@@ -197,6 +198,7 @@ except Exception as e:
 
             json data = json::parse(response);
 
+            // === 获取 formal 正式服配置 ===
             // 从 formal.custom.patchversion 获取版本号
             if (data.contains("formal") &&
                 data["formal"].contains("custom") &&
@@ -206,8 +208,7 @@ except Exception as e:
             }
             else
             {
-                std::println("\033[31m国服配置中未找到版本号\033[0m");
-                return config;
+                std::println("\033[31m国服formal配置中未找到版本号\033[0m");
             }
 
             // 从 formal.patch_url.bundle_down_url 获取下载URL列表
@@ -223,13 +224,39 @@ except Exception as e:
             }
             else
             {
-                std::println("\033[31m国服配置中未找到下载URL\033[0m");
-                return config;
+                std::println("\033[31m国服formal配置中未找到下载URL\033[0m");
             }
 
-            if (!config.downloadUrls.empty())
+            if (!config.downloadUrls.empty() && !config.version.empty())
             {
                 config.isValid = true;
+            }
+
+            // === 获取 review 审核服配置 ===
+            // 从 review.custom.patchversion 获取版本号
+            if (data.contains("review") &&
+                data["review"].contains("custom") &&
+                data["review"]["custom"].contains("patchversion"))
+            {
+                config.reviewVersion = data["review"]["custom"]["patchversion"].get<std::string>();
+                // std::println("获取到国服review版本号: \033[36m{}\033[0m", config.reviewVersion);
+            }
+
+            // 从 review.patch_url.bundle_down_url 获取下载URL列表
+            if (data.contains("review") &&
+                data["review"].contains("patch_url") &&
+                data["review"]["patch_url"].contains("bundle_down_url") &&
+                data["review"]["patch_url"]["bundle_down_url"].is_array())
+            {
+                for (const auto &url : data["review"]["patch_url"]["bundle_down_url"])
+                {
+                    config.reviewDownloadUrls.push_back(url.get<std::string>());
+                }
+            }
+
+            if (!config.reviewDownloadUrls.empty() && !config.reviewVersion.empty())
+            {
+                config.reviewIsValid = true;
             }
 
             return config;

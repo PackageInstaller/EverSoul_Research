@@ -28,6 +28,8 @@ table CashShopItem {
   bg: string;
   price_krw: int32;
   price_other: string;
+  zl_goods_id: string;
+  zl_charge_id: string;
   pid_google: string;
   pid_apple: string;
   item_img: string;

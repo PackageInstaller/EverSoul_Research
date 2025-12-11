@@ -24,6 +24,7 @@ class AppConfig:
     GLOBAL_LIVE_TABLE_DIR: str = "../../Table/Global/Live"
     GLOBAL_REVIEW_TABLE_DIR: str = "../../Table/Global/Review"
     CN_LIVE_TABLE_DIR: str = "../../Table/CN/Live"
+    CN_REVIEW_TABLE_DIR: str = "../../Table/CN/Review"
     
     # Schema目录
     GLOBAL_SCHEMA_DIR: str = "../../FlatBuffers/Schema/Global"
@@ -160,7 +161,7 @@ def process_live_tables(state: AppState, config: AppConfig) -> bool:
 
 def process_cn_live_tables(state: AppState, config: AppConfig) -> bool:
     """
-    处理国服数据表
+    处理国服正式服数据表
 
     Args:
         state: 应用程序状态
@@ -174,7 +175,27 @@ def process_cn_live_tables(state: AppState, config: AppConfig) -> bool:
             state.need_generate_apis = True
         return True
     except Exception as e:
-        console.print(f"[bold red]国服数据表处理失败: {e}[/bold red]")
+        console.print(f"[bold red]国服正式服数据表处理失败: {e}[/bold red]")
+        return False
+
+
+def process_cn_review_tables(state: AppState, config: AppConfig) -> bool:
+    """
+    处理国服审核服数据表
+
+    Args:
+        state: 应用程序状态
+        config: 应用程序配置
+
+    Returns:
+        操作是否成功
+    """
+    try:
+        if TableUpdater.update_data_tables(ServerType.CN_REVIEW, "", config=config):
+            state.need_generate_apis = True
+        return True
+    except Exception as e:
+        console.print(f"[bold red]国服审核服数据表处理失败: {e}[/bold red]")
         return False
 
 
@@ -222,7 +243,8 @@ def run_application() -> int:
         ("获取应用版本", lambda: retrieve_app_version(state)),
         ("处理Review服务器", lambda: process_review_server(state, config)),
         ("处理Live数据表", lambda: process_live_tables(state, config)),
-        # ("处理国服数据表", lambda: process_cn_live_tables(state, config)),
+        ("处理国服正式服数据表", lambda: process_cn_live_tables(state, config)),
+        ("处理国服审核服数据表", lambda: process_cn_review_tables(state, config)),
         # ("生成API文件", lambda: generate_api_files(state, config)),
     ]
 

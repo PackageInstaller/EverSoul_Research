@@ -32,6 +32,7 @@ class ServerType(Enum):
     GLOBAL_LIVE = "GlobalLive"
     GLOBAL_REVIEW = "GlobalReview"
     CN_LIVE = "CNLive"
+    CN_REVIEW = "CNReview"
 
 
 @dataclass
@@ -273,6 +274,7 @@ class TableUpdater:
             global_live_dir = config.GLOBAL_LIVE_TABLE_DIR
             global_review_dir = config.GLOBAL_REVIEW_TABLE_DIR
             cn_live_dir = config.CN_LIVE_TABLE_DIR
+            cn_review_dir = config.CN_REVIEW_TABLE_DIR
             global_schema_dir = config.GLOBAL_SCHEMA_DIR
             cn_schema_dir = config.CN_SCHEMA_DIR
             table_info_path = config.TABLE_INFO_PATH
@@ -282,6 +284,7 @@ class TableUpdater:
             global_live_dir = "../../Table/Global/Live"
             global_review_dir = "../../Table/Global/Review"
             cn_live_dir = "../../Table/CN/Live"
+            cn_review_dir = "../../Table/CN/Review"
             global_schema_dir = "../../FlatBuffers/Schema/Global"
             cn_schema_dir = "../../FlatBuffers/Schema/CN"
             table_info_path = "./table_info.json"
@@ -350,6 +353,46 @@ class TableUpdater:
 
             if table_version == 0 or not working_base_url:
                 console.print("[bold red]所有URL都无法获取数据表信息[/bold red]")
+                return False
+
+            zip_url = (
+                f"{working_base_url}/{current_version}/Table/data_{table_version}.zip"
+            )
+
+        elif server_type == ServerType.CN_REVIEW:
+            server_region = "CN"
+            table_type = "Review"
+            target_dir = Path(cn_review_dir)
+            schema_dir = Path(global_schema_dir)  # 国服使用Global的Schema
+
+            # 获取国服配置
+            cn_config = VersionManager.get_cn_server_config()
+            if not cn_config.review_is_valid:
+                console.print("[bold red]获取国服review配置失败[/bold red]")
+                return False
+            current_version = cn_config.review_version
+
+            # 尝试从每个URL获取数据表版本信息
+            working_base_url = ""
+            for base_url in cn_config.review_download_urls:
+                try:
+                    version_url = (
+                        f"{base_url}/{current_version}/Table/const_data_version.json"
+                    )
+                    console.print(f"检查版本URL: {version_url}")
+
+                    response = HttpClient.get(version_url)
+                    if response:
+                        data = json.loads(response)
+                        table_version = data["version"]
+                        working_base_url = base_url
+                        console.print(f"服务器数据表版本: {table_version}")
+                        break
+                except:
+                    continue
+
+            if table_version == 0 or not working_base_url:
+                console.print("[bold red]所有URL都无法获取国服review数据表信息[/bold red]")
                 return False
 
             zip_url = (

@@ -1,14 +1,18 @@
 {
     "CN": {
         "Live": {
-            "tableVersion": 233,
-            "version": "1.25.305"
+            "version": "1.25.318",
+            "tableVersion": 380
+        },
+        "Review": {
+            "version": "1.25.312",
+            "tableVersion": 314
         }
     },
     "Global": {
         "Live": {
             "version": "1.31.101",
-            "tableVersion": 4545
+            "tableVersion": 4546
         },
         "Review": {
             "version": "1.31.101",

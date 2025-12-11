@@ -105,6 +105,56 @@ namespace TableUpdater
             zipUrl = std::format("{}/{}/Table/data_{}.zip", workingBaseUrl, currentVersion, tableVersion);
             break;
         }
+        case ServerType::CNReview:
+        {
+            serverRegion = "CN";
+            tableType = "Review";
+            targetDir = "../Table/CN/Review";
+            schemaDir = "../FlatBuffers/Schema/Global";
+
+            // 获取国服配置
+            auto cnConfig = VersionManager::getCNServerConfig();
+            if (!cnConfig.reviewIsValid)
+            {
+                std::println("\033[31m获取国服review配置失败\033[0m");
+                return false;
+            }
+            currentVersion = cnConfig.reviewVersion;
+
+            // 尝试从每个URL获取数据表版本信息
+            std::string workingBaseUrl;
+            for (const auto &baseUrl : cnConfig.reviewDownloadUrls)
+            {
+                try
+                {
+                    std::string versionUrl = std::format("{}/{}/Table/const_data_version.json", baseUrl, currentVersion);
+                    std::println("检查版本URL: {}", versionUrl);
+
+                    std::string response = HttpClient::get(versionUrl);
+                    if (!response.empty())
+                    {
+                        json data = json::parse(response);
+                        tableVersion = data["version"];
+                        workingBaseUrl = baseUrl;
+                        std::println("服务器数据表版本: {}", tableVersion);
+                        break;
+                    }
+                }
+                catch (...)
+                {
+                    continue;
+                }
+            }
+
+            if (tableVersion == 0 || workingBaseUrl.empty())
+            {
+                std::println("\033[31m所有URL都无法获取国服review数据表信息\033[0m");
+                return false;
+            }
+
+            zipUrl = std::format("{}/{}/Table/data_{}.zip", workingBaseUrl, currentVersion, tableVersion);
+            break;
+        }
         case ServerType::GlobalReview:
         {
             serverRegion = "Global";

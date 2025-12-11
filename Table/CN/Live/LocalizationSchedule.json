@@ -492,8 +492,8 @@
       "index": 62,
       "schedule_key": "Cashshop_Pickup_CatherineBrave",
       "schedule_type": 1,
-      "start_date": "2999-12-31 00:00:00",
-      "end_date": "2999-12-31 00:00:00",
+      "start_date": "2025-11-24 00:00:00",
+      "end_date": "2025-12-19 00:00:00",
       "value_date_01": ""
     },
     {
@@ -676,8 +676,8 @@
       "index": 85,
       "schedule_key": "Cashshop_Pickup_Honglan",
       "schedule_type": 1,
-      "start_date": "2999-12-31 00:00:00",
-      "end_date": "2999-12-31 00:00:00",
+      "start_date": "2025-11-24 00:00:00",
+      "end_date": "2025-12-19 00:00:00",
       "value_date_01": ""
     },
     {
@@ -1100,8 +1100,8 @@
       "index": 138,
       "schedule_key": "Cashshop_Heropass_CatherineBrave",
       "schedule_type": 1,
-      "start_date": "2999-12-31 00:00:00",
-      "end_date": "2999-12-31 00:00:00",
+      "start_date": "2025-11-24 00:00:00",
+      "end_date": "2025-12-19 00:00:00",
       "value_date_01": ""
     },
     {
@@ -1873,63 +1873,31 @@
       "value_date_01": ""
     },
     {
+      "index": 235,
+      "schedule_key": "Cashshop_Special_CN_Lunch_Pack",
+      "schedule_type": 1,
+      "start_date": "2025-11-24 00:00:00",
+      "end_date": "2025-12-19 00:00:00",
+      "value_date_01": ""
+    },
+    {
       "index": 20001,
       "schedule_key": "EdenUnion_gaon",
       "schedule_type": 2,
       "start_date": "2024-12-01 00:00:00",
-      "end_date": "2025-12-01 00:00:00",
-      "value_date_01": "2025-12-15 00:00:00"
+      "end_date": "2024-12-01 00:00:00",
+      "value_date_01": "2024-12-01 00:00:00"
     },
     {
       "index": 30001,
       "schedule_key": "Calender_Launching_Attend",
       "schedule_type": 3,
-      "start_date": "2025-10-23 00:00:00",
-      "end_date": "2025-11-02 00:00:00",
+      "start_date": "2025-12-12 00:00:00",
+      "end_date": "2025-12-19 00:00:00",
       "value_date_01": ""
     },
     {
       "index": 30002,
-      "schedule_key": "Calender_Launching_Quest",
-      "schedule_type": 3,
-      "start_date": "2025-10-23 00:00:00",
-      "end_date": "2025-11-02 00:00:00",
-      "value_date_01": ""
-    },
-    {
-      "index": 30003,
-      "schedule_key": "Calender_FariyCollect_Quest",
-      "schedule_type": 3,
-      "start_date": "2025-10-23 00:00:00",
-      "end_date": "2025-11-02 00:00:00",
-      "value_date_01": ""
-    },
-    {
-      "index": 30004,
-      "schedule_key": "Calender_Comeback_Attend",
-      "schedule_type": 3,
-      "start_date": "2999-12-31 00:00:00",
-      "end_date": "2999-12-31 00:00:00",
-      "value_date_01": ""
-    },
-    {
-      "index": 30005,
-      "schedule_key": "Calender_Comeback_Quest",
-      "schedule_type": 3,
-      "start_date": "2999-12-31 00:00:00",
-      "end_date": "2999-12-31 00:00:00",
-      "value_date_01": ""
-    },
-    {
-      "index": 30006,
-      "schedule_key": "Calender_SelectPickup_Season1",
-      "schedule_type": 3,
-      "start_date": "2026-01-01 00:00:00",
-      "end_date": "2999-12-31 23:59:59",
-      "value_date_01": ""
-    },
-    {
-      "index": 30007,
       "schedule_key": "Calender_Rotation_Trip",
       "schedule_type": 3,
       "start_date": "2026-01-01 00:00:00",
@@ -1937,7 +1905,7 @@
       "value_date_01": ""
     },
     {
-      "index": 30008,
+      "index": 30003,
       "schedule_key": "Calender_Rotation_Heart",
       "schedule_type": 3,
       "start_date": "2026-01-01 00:00:00",
@@ -1945,7 +1913,7 @@
       "value_date_01": ""
     },
     {
-      "index": 30009,
+      "index": 30004,
       "schedule_key": "Calender_Rotation_Arena",
       "schedule_type": 3,
       "start_date": "2026-01-01 00:00:00",
@@ -1953,7 +1921,7 @@
       "value_date_01": ""
     },
     {
-      "index": 30010,
+      "index": 30005,
       "schedule_key": "Calender_Rotation_Labyrinth",
       "schedule_type": 3,
       "start_date": "2026-01-01 00:00:00",
@@ -1961,7 +1929,7 @@
       "value_date_01": ""
     },
     {
-      "index": 30011,
+      "index": 30006,
       "schedule_key": "Calender_Rotation_Champions",
       "schedule_type": 3,
       "start_date": "2026-01-01 00:00:00",
@@ -1969,15 +1937,15 @@
       "value_date_01": ""
     },
     {
-      "index": 30012,
+      "index": 30007,
       "schedule_key": "Calender_Rotation_DualGate",
       "schedule_type": 3,
-      "start_date": "2025-10-23 00:00:00",
-      "end_date": "2025-11-02 00:00:00",
+      "start_date": "2025-12-12 00:00:00",
+      "end_date": "2025-12-19 00:00:00",
       "value_date_01": ""
     },
     {
-      "index": 30013,
+      "index": 30008,
       "schedule_key": "Calender_Rotation_AutoArbeit",
       "schedule_type": 3,
       "start_date": "2026-01-01 00:00:00",
@@ -1985,58 +1953,66 @@
       "value_date_01": ""
     },
     {
-      "index": 30014,
-      "schedule_key": "Calender_PickUp_Mephistopheles",
+      "index": 30009,
+      "schedule_key": "Calender_PickUp_CatherineBrave",
       "schedule_type": 3,
-      "start_date": "2026-01-01 00:00:00",
-      "end_date": "2026-01-22 00:00:00",
+      "start_date": "2025-12-12 00:00:00",
+      "end_date": "2025-12-19 00:00:00",
+      "value_date_01": ""
+    },
+    {
+      "index": 30010,
+      "schedule_key": "Calender_FreeGacha_Open",
+      "schedule_type": 3,
+      "start_date": "2025-12-12 00:00:00",
+      "end_date": "2025-12-19 00:00:00",
       "value_date_01": ""
     },
     {
       "index": 40001,
       "schedule_key": "EventInfo_Launching_Attend",
       "schedule_type": 4,
-      "start_date": "2025-10-23 00:00:00",
-      "end_date": "2025-11-02 00:00:00",
-      "value_date_01": "2025-11-02 00:00:00"
+      "start_date": "2025-11-24 00:00:00",
+      "end_date": "2999-12-31 23:59:59",
+      "value_date_01": "2999-12-31 23:59:59"
     },
     {
       "index": 40002,
       "schedule_key": "EventInfo_Launching_Quest",
       "schedule_type": 4,
-      "start_date": "2025-10-23 00:00:00",
-      "end_date": "2025-11-02 00:00:00",
-      "value_date_01": "2025-11-02 00:00:00"
+      "start_date": "2025-11-24 00:00:00",
+      "end_date": "2999-12-31 23:59:59",
+      "value_date_01": "2999-12-31 23:59:59"
     },
     {
       "index": 40003,
       "schedule_key": "EventInfo_FariyCollect_Quest",
       "schedule_type": 4,
-      "start_date": "2025-10-23 00:00:00",
-      "end_date": "2025-11-02 00:00:00",
-      "value_date_01": "2025-11-02 00:00:00"
+      "start_date": "2025-11-24 00:00:00",
+      "end_date": "2999-12-31 23:59:59",
+      "value_date_01": "2999-12-31 23:59:59"
     },
     {
       "index": 40004,
       "schedule_key": "EventInfo_Comeback_Attend",
       "schedule_type": 4,
-      "start_date": "2999-12-31 00:00:00",
-      "end_date": "2999-12-31 00:00:00",
-      "value_date_01": "2999-12-31 00:00:00"
+      "start_date": "2999-12-31 23:59:59",
+      "end_date": "2999-12-31 23:59:59",
+      "value_date_01": "2999-12-31 23:59:59"
     },
     {
       "index": 40005,
       "schedule_key": "EventInfo_Comeback_Quest",
       "schedule_type": 4,
-      "start_date": "2999-12-31 00:00:00",
-      "end_date": "2999-12-31 00:00:00",
-      "value_date_01": "2999-12-31 00:00:00"
+      "start_date": "2999-12-31 23:59:59",
+      "end_date": "2999-12-31 23:59:59",
+      "value_date_01": "2999-12-31 23:59:59"
     },
     {
       "index": 40006,
-      "schedule_key": "EventInfo_SelectPickup_Season1",
+      "schedule_key": "EventInfo_SelectPickup_Season_cn",
       "schedule_type": 4,
-      "start_date": "2026-01-01 00:00:00",
+      "start_date": "2025-11-24 00:00:00",
       "end_date": "2999-12-31 23:59:59",
       "value_date_01": "2999-12-31 23:59:59"
     },
@@ -2084,9 +2060,9 @@
       "index": 40012,
       "schedule_key": "EventInfo_Rotation_DualGate",
       "schedule_type": 4,
-      "start_date": "2025-10-23 00:00:00",
-      "end_date": "2025-11-02 00:00:00",
-      "value_date_01": "2025-11-02 00:00:00"
+      "start_date": "2025-11-24 00:00:00",
+      "end_date": "2025-12-19 00:00:00",
+      "value_date_01": "2025-12-19 00:00:00"
     },
     {
       "index": 40013,
@@ -2100,9 +2076,9 @@
       "index": 40014,
       "schedule_key": "EventInfo_FreeGacha_Open",
       "schedule_type": 4,
-      "start_date": "2025-10-23 00:00:00",
-      "end_date": "2025-11-02 00:00:00",
-      "value_date_01": "2025-11-02 00:00:00"
+      "start_date": "2025-11-24 00:00:00",
+      "end_date": "2999-12-31 23:59:59",
+      "value_date_01": "2999-12-31 23:59:59"
     },
     {
       "index": 50001,
@@ -2204,8 +2180,8 @@
       "index": 50013,
       "schedule_key": "Gacha_506",
       "schedule_type": 5,
-      "start_date": "2999-12-31 01:00:00",
-      "end_date": "2999-12-31 01:00:00",
+      "start_date": "2025-11-12 00:00:00",
+      "end_date": "2025-12-19 00:00:00",
       "value_date_01": ""
     },
     {
@@ -2540,8 +2516,8 @@
       "index": 50055,
       "schedule_key": "Gacha_548",
       "schedule_type": 5,
-      "start_date": "2999-12-31 01:00:00",
-      "end_date": "2999-12-31 01:00:00",
+      "start_date": "2025-11-12 00:00:00",
+      "end_date": "2025-12-19 00:00:00",
       "value_date_01": ""
     },
     {
@@ -4125,96 +4101,96 @@
       "schedule_key": "GuildRaid_1_1",
       "schedule_type": 6,
       "start_date": "2024-12-01 00:00:00",
-      "end_date": "2025-12-01 00:00:00",
-      "value_date_01": "2025-12-15 00:00:00"
+      "end_date": "2024-12-01 00:00:00",
+      "value_date_01": "2024-12-01 00:00:00"
     },
     {
       "index": 60002,
       "schedule_key": "GuildRaid_2_1",
       "schedule_type": 6,
       "start_date": "2024-12-01 00:00:00",
-      "end_date": "2025-12-01 00:00:00",
-      "value_date_01": "2025-12-15 00:00:00"
+      "end_date": "2024-12-01 00:00:00",
+      "value_date_01": "2024-12-01 00:00:00"
     },
     {
       "index": 60003,
       "schedule_key": "GuildRaid_3_1",
       "schedule_type": 6,
       "start_date": "2024-12-01 00:00:00",
-      "end_date": "2025-12-01 00:00:00",
-      "value_date_01": "2025-12-15 00:00:00"
+      "end_date": "2024-12-01 00:00:00",
+      "value_date_01": "2024-12-01 00:00:00"
     },
     {
       "index": 60004,
       "schedule_key": "GuildRaid_4_1",
       "schedule_type": 6,
       "start_date": "2024-12-01 00:00:00",
-      "end_date": "2025-12-01 00:00:00",
-      "value_date_01": "2025-12-15 00:00:00"
+      "end_date": "2024-12-01 00:00:00",
+      "value_date_01": "2024-12-01 00:00:00"
     },
     {
       "index": 70001,
       "schedule_key": "SingleRaid_1_1",
       "schedule_type": 7,
       "start_date": "2024-12-01 00:00:00",
-      "end_date": "2025-12-01 00:00:00",
-      "value_date_01": "2025-12-15 00:00:00"
+      "end_date": "2024-12-01 00:00:00",
+      "value_date_01": "2024-12-01 00:00:00"
     },
     {
       "index": 70002,
       "schedule_key": "SingleRaid_2_1",
       "schedule_type": 7,
       "start_date": "2024-12-01 00:00:00",
-      "end_date": "2025-12-01 00:00:00",
-      "value_date_01": "2025-12-15 00:00:00"
+      "end_date": "2024-12-01 00:00:00",
+      "value_date_01": "2024-12-01 00:00:00"
     },
     {
       "index": 70003,
       "schedule_key": "SingleRaid_3_1",
       "schedule_type": 7,
       "start_date": "2024-12-01 00:00:00",
-      "end_date": "2025-12-01 00:00:00",
-      "value_date_01": "2025-12-15 00:00:00"
+      "end_date": "2024-12-01 00:00:00",
+      "value_date_01": "2024-12-01 00:00:00"
     },
     {
       "index": 70004,
       "schedule_key": "SingleRaid_4_1",
       "schedule_type": 7,
       "start_date": "2024-12-01 00:00:00",
-      "end_date": "2025-12-01 00:00:00",
-      "value_date_01": "2025-12-15 00:00:00"
+      "end_date": "2024-12-01 00:00:00",
+      "value_date_01": "2024-12-01 00:00:00"
     },
     {
       "index": 80001,
       "schedule_key": "WorldRaid_1_1",
       "schedule_type": 8,
-      "start_date": "2024-12-01 00:00:00",
+      "start_date": "2025-11-27 00:00:00",
       "end_date": "2025-12-01 00:00:00",
-      "value_date_01": "2025-12-15 00:00:00"
+      "value_date_01": "2025-12-01 00:00:00"
     },
     {
       "index": 80002,
       "schedule_key": "WorldRaid_2_50001",
       "schedule_type": 8,
-      "start_date": "2024-12-01 00:00:00",
+      "start_date": "2025-11-27 00:00:00",
       "end_date": "2025-12-01 00:00:00",
-      "value_date_01": "2025-12-15 00:00:00"
+      "value_date_01": "2025-12-01 00:00:00"
     },
     {
       "index": 80003,
       "schedule_key": "WorldRaid_3_90001",
       "schedule_type": 8,
-      "start_date": "2024-12-01 00:00:00",
+      "start_date": "2025-11-27 00:00:00",
       "end_date": "2025-12-01 00:00:00",
-      "value_date_01": "2025-12-15 00:00:00"
+      "value_date_01": "2025-12-01 00:00:00"
     },
     {
       "index": 80004,
       "schedule_key": "WorldRaid_4_100001",
       "schedule_type": 8,
-      "start_date": "2024-12-01 00:00:00",
+      "start_date": "2025-11-27 00:00:00",
       "end_date": "2025-12-01 00:00:00",
-      "value_date_01": "2025-12-15 00:00:00"
+      "value_date_01": "2025-12-01 00:00:00"
     }
   ]
 }

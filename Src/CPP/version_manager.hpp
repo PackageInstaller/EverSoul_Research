@@ -36,13 +36,18 @@ namespace VersionManager
      */
     struct CNServerConfig
     {
-        std::string version;                      // 版本号
-        std::vector<std::string> downloadUrls;    // 下载基础URL列表
-        bool isValid;                             // 配置是否有效
+        std::string version;                      // 正式服版本号
+        std::vector<std::string> downloadUrls;    // 正式服下载基础URL列表
+        bool isValid;                             // 正式服配置是否有效
+        
+        // Review环境配置
+        std::string reviewVersion;                // 审核服版本号
+        std::vector<std::string> reviewDownloadUrls; // 审核服下载基础URL列表
+        bool reviewIsValid;                       // 审核服配置是否有效
     };
 
     /**
-     * @brief 从国服apps.json获取配置信息
+     * @brief 从国服apps.json获取配置信息（包括formal和review环境）
      * @return CNServerConfig 包含版本号和下载URL的配置结构
      */
     CNServerConfig getCNServerConfig();

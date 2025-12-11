@@ -22,10 +22,17 @@ class CNServerConfig:
     version: str = ""
     download_urls: list[str] = None
     is_valid: bool = False
+    
+    # Review环境配置
+    review_version: str = ""
+    review_download_urls: list[str] = None
+    review_is_valid: bool = False
 
     def __post_init__(self):
         if self.download_urls is None:
             self.download_urls = []
+        if self.review_download_urls is None:
+            self.review_download_urls = []
 
 
 class VersionManager:
@@ -145,7 +152,7 @@ class VersionManager:
     @staticmethod
     def get_cn_server_config() -> CNServerConfig:
         """
-        从国服apps.json获取配置信息
+        从国服apps.json获取配置信息（包括formal和review环境）
 
         Returns:
             包含版本号和下载URL的配置结构
@@ -153,7 +160,7 @@ class VersionManager:
         config = CNServerConfig()
 
         try:
-            url = "http://yhlh-client.zlongame.com/YHLH/tbt/apps.json"
+            url = "http://yhlh-client.zlongame.com/YHLH/cbt/android/apps.json"
             response = HttpClient.get(url)
 
             if not response:
@@ -161,6 +168,7 @@ class VersionManager:
 
             data = json.loads(response)
 
+            # === 获取 formal 正式服配置 ===
             # 从 formal.custom.patchversion 获取版本号
             if (
                 "formal" in data
@@ -169,8 +177,7 @@ class VersionManager:
             ):
                 config.version = data["formal"]["custom"]["patchversion"]
             else:
-                console.print("[bold red]国服配置中未找到版本号[/bold red]")
-                return config
+                console.print("[bold red]国服formal配置中未找到版本号[/bold red]")
 
             # 从 formal.patch_url.bundle_down_url 获取下载URL列表
             if (
@@ -181,11 +188,32 @@ class VersionManager:
             ):
                 config.download_urls = data["formal"]["patch_url"]["bundle_down_url"]
             else:
-                console.print("[bold red]国服配置中未找到下载URL[/bold red]")
-                return config
+                console.print("[bold red]国服formal配置中未找到下载URL[/bold red]")
 
-            if config.download_urls:
+            if config.download_urls and config.version:
                 config.is_valid = True
+
+            # === 获取 review 审核服配置 ===
+            # 从 review.custom.patchversion 获取版本号
+            if (
+                "review" in data
+                and "custom" in data["review"]
+                and "patchversion" in data["review"]["custom"]
+            ):
+                config.review_version = data["review"]["custom"]["patchversion"]
+                # console.print(f"获取到国服review版本号: [bold cyan]{config.review_version}[/bold cyan]")
+
+            # 从 review.patch_url.bundle_down_url 获取下载URL列表
+            if (
+                "review" in data
+                and "patch_url" in data["review"]
+                and "bundle_down_url" in data["review"]["patch_url"]
+                and isinstance(data["review"]["patch_url"]["bundle_down_url"], list)
+            ):
+                config.review_download_urls = data["review"]["patch_url"]["bundle_down_url"]
+
+            if config.review_download_urls and config.review_version:
+                config.review_is_valid = True
 
             return config
         except json.JSONDecodeError as e:

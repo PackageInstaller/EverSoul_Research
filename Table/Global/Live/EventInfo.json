@@ -4754,7 +4754,7 @@
       "show_list": 1,
       "event_type": 3,
       "group": 2000,
-      "event_number": 40,
+      "event_number": 44,
       "user_type": 3,
       "name_sno": 12215,
       "desc_sno": 12216,
@@ -4765,7 +4765,7 @@
       "ui_path": "PanelQuestGuildRaid",
       "banner_path": "banner_QuesteventGuildRaid",
       "title_path": "0",
-      "schedule_key": "EventInfo_QuestGuildRaid_40"
+      "schedule_key": "EventInfo_QuestGuildRaid_44"
     },
     {
       "no": 246,

@@ -136,6 +136,7 @@ message UserInfo {
   int32 arkOperator = 49;
   repeated DoubleGateDailyContent doubleGateDailyContent = 50;
   repeated sHeroOption heroOption = 51;
+  bool tutorialSkip = 52;
 }
 
 message sUser {

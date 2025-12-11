@@ -62,7 +62,7 @@
       "day_order": 1,
       "behavior": 218,
       "value": 10,
-      "item_infos": "[[30,60]]",
+      "item_infos": "[[3006,2]]",
       "content_sno": 11336,
       "reset_hour_sno": 560089
     },
@@ -84,7 +84,7 @@
       "day_order": 1,
       "behavior": 220,
       "value": 3,
-      "item_infos": "[[31,10]]",
+      "item_infos": "[[4011,2]]",
       "content_sno": 11338,
       "reset_hour_sno": 560089
     },
@@ -117,7 +117,7 @@
       "day_order": 4,
       "behavior": 103,
       "value": 5,
-      "item_infos": "[[3,20000]]",
+      "item_infos": "[[4142,1]]",
       "content_sno": 11203,
       "reset_hour_sno": 560089
     },
@@ -128,7 +128,7 @@
       "day_order": 2,
       "behavior": 404,
       "value": 3,
-      "item_infos": "[[30,60]]",
+      "item_infos": "[[16,2000]]",
       "content_sno": 11228,
       "reset_hour_sno": 560089
     },
@@ -139,7 +139,7 @@
       "day_order": 2,
       "behavior": 203,
       "value": 30,
-      "item_infos": "[[4104,1]]",
+      "item_infos": "[[4142,1]]",
       "content_sno": 11213,
       "reset_hour_sno": 560089
     },
@@ -161,7 +161,7 @@
       "day_order": 3,
       "behavior": 701,
       "value": 1,
-      "item_infos": "[[31,10]]",
+      "item_infos": "[[3001,2]]",
       "content_sno": 11341,
       "reset_hour_sno": 560089
     },
@@ -172,7 +172,7 @@
       "day_order": 2,
       "behavior": 220,
       "value": 5,
-      "item_infos": "[[31,10]]",
+      "item_infos": "[[4011,2]]",
       "content_sno": 11338,
       "reset_hour_sno": 560089
     },
@@ -227,7 +227,7 @@
       "day_order": 2,
       "behavior": 215,
       "value": 10,
-      "item_infos": "[[31,10]]",
+      "item_infos": "[[4,200]]",
       "content_sno": 11235,
       "reset_hour_sno": 560089
     },
@@ -249,7 +249,7 @@
       "day_order": 7,
       "behavior": 701,
       "value": 3,
-      "item_infos": "[[4105,1]]",
+      "item_infos": "[[4142,1]]",
       "content_sno": 11341,
       "reset_hour_sno": 560089
     },
@@ -260,7 +260,7 @@
       "day_order": 3,
       "behavior": 301,
       "value": 3,
-      "item_infos": "[[30,60]]",
+      "item_infos": "[[4011,2]]",
       "content_sno": 11321,
       "reset_hour_sno": 560089
     },
@@ -304,7 +304,7 @@
       "day_order": 3,
       "behavior": 201,
       "value": 10,
-      "item_infos": "[[4104,1]]",
+      "item_infos": "[[49,3]]",
       "content_sno": 11211,
       "reset_hour_sno": 560089
     },
@@ -315,7 +315,7 @@
       "day_order": 4,
       "behavior": 215,
       "value": 20,
-      "item_infos": "[[31,10]]",
+      "item_infos": "[[31,60]]",
       "content_sno": 11235,
       "reset_hour_sno": 560089
     },
@@ -392,7 +392,7 @@
       "day_order": 5,
       "behavior": 204,
       "value": 8,
-      "item_infos": "[[31,10]]",
+      "item_infos": "[[4011,2]]",
       "content_sno": 11214,
       "reset_hour_sno": 560089
     },
@@ -403,7 +403,7 @@
       "day_order": 5,
       "behavior": 603,
       "value": 2,
-      "item_infos": "[[31,10]]",
+      "item_infos": "[[45,5]]",
       "content_sno": 11335,
       "reset_hour_sno": 560089
     },
@@ -425,7 +425,7 @@
       "day_order": 6,
       "behavior": 401,
       "value": 20,
-      "item_infos": "[[4104,1]]",
+      "item_infos": "[[3,40000]]",
       "content_sno": 11225,
       "reset_hour_sno": 560089
     },
@@ -480,7 +480,7 @@
       "day_order": 6,
       "behavior": 204,
       "value": 12,
-      "item_infos": "[[31,10]]",
+      "item_infos": "[[4011,2]]",
       "content_sno": 11214,
       "reset_hour_sno": 560089
     },
@@ -491,7 +491,7 @@
       "day_order": 7,
       "behavior": 217,
       "value": 10,
-      "item_infos": "[[4105,1]]",
+      "item_infos": "[[49,3]]",
       "content_sno": 11332,
       "reset_hour_sno": 560089
     },
@@ -502,7 +502,7 @@
       "day_order": 6,
       "behavior": 603,
       "value": 3,
-      "item_infos": "[[31,10]]",
+      "item_infos": "[[45,5]]",
       "content_sno": 11335,
       "reset_hour_sno": 560089
     },
@@ -557,7 +557,7 @@
       "day_order": 6,
       "behavior": 103,
       "value": 15,
-      "item_infos": "[[3,45000]]",
+      "item_infos": "[[4142,1]]",
       "content_sno": 11203,
       "reset_hour_sno": 560089
     },
@@ -568,7 +568,7 @@
       "day_order": 6,
       "behavior": 109,
       "value": 5,
-      "item_infos": "[[30,60]]",
+      "item_infos": "[[4,300]]",
       "content_sno": 11371,
       "reset_hour_sno": 560089
     },
@@ -612,7 +612,7 @@
       "day_order": 7,
       "behavior": 219,
       "value": 3,
-      "item_infos": "[[31,10]]",
+      "item_infos": "[[31,60]]",
       "content_sno": 11337,
       "reset_hour_sno": 560089
     },

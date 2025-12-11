@@ -451,6 +451,26 @@
       "type": 1
     },
     {
+      "key_name": "CN_FIRSTPAYMENT_HERO",
+      "values_data": "5010",
+      "type": 1
+    },
+    {
+      "key_name": "CN_FIRSTPAYMENT_REWARD_1",
+      "values_data": "[3324,60]",
+      "type": 2
+    },
+    {
+      "key_name": "CN_FIRSTPAYMENT_REWARD_2",
+      "values_data": "[45,5,7037,18]",
+      "type": 2
+    },
+    {
+      "key_name": "CN_FIRSTPAYMENT_REWARD_3",
+      "values_data": "[3324,60,4142,1]",
+      "type": 2
+    },
+    {
       "key_name": "COLLABO_GACHA_CHANGE_HERO",
       "values_data": "6500",
       "type": 1
@@ -1051,6 +1071,16 @@
       "type": 1
     },
     {
+      "key_name": "GACHA_PROP_PAGE_CUSTOMPARAMETER",
+      "values_data": "{\"topicKey\":\"kachi1\"}",
+      "type": 1
+    },
+    {
+      "key_name": "GACHA_PROP_PAGE_TYPE",
+      "values_data": "topicPage",
+      "type": 1
+    },
+    {
       "key_name": "GACHA_SHOP_NO",
       "values_data": "101",
       "type": 1
@@ -1637,7 +1667,7 @@
     },
     {
       "key_name": "PROFILE_OBJECT_MAX",
-      "values_data": "2000",
+      "values_data": "5",
       "type": 1
     },
     {
@@ -1976,6 +2006,11 @@
       "type": 1
     },
     {
+      "key_name": "STAGE_NO_LOCK_BG_DOWNLOAD",
+      "values_data": "60",
+      "type": 1
+    },
+    {
       "key_name": "STAGE_REWARD_COUNT",
       "values_data": "4",
       "type": 1
@@ -2223,6 +2258,11 @@
     {
       "key_name": "VOTE_TICKET_TASK_REWARD_DAILY",
       "values_data": "2",
+      "type": 1
+    },
+    {
+      "key_name": "VOUCHER_RATE",
+      "values_data": "10",
       "type": 1
     },
     {
