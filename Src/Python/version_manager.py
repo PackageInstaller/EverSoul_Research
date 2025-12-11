@@ -106,8 +106,8 @@ class VersionManager:
                 app_id="com.kakaogames.eversoul", lang="en", country="kr"
             )
             version = result.get("version", "")
-            if version:
-                console.print(f"获取到版本号: [bold cyan]{version}[/bold cyan]")
+            # if version:
+            #     console.print(f"获取到版本号: [bold cyan]{version}[/bold cyan]")
             return version
         except Exception as e:
             console.print(f"[bold yellow]Python获取版本号失败: {e}[/bold yellow]")
