@@ -623,7 +623,7 @@
       "day_order": 1,
       "behavior": 223,
       "value": 10,
-      "item_infos": "[[4117,1]]",
+      "item_infos": "[[4117,2]]",
       "content_sno": 11357,
       "reset_hour_sno": 560089
     },
@@ -633,7 +633,7 @@
       "event_number": 1,
       "day_order": 1,
       "behavior": 223,
-      "value": 15,
+      "value": 20,
       "item_infos": "[[28,10]]",
       "content_sno": 11357,
       "reset_hour_sno": 560089
@@ -644,7 +644,7 @@
       "event_number": 1,
       "day_order": 1,
       "behavior": 223,
-      "value": 20,
+      "value": 30,
       "item_infos": "[[45,10]]",
       "content_sno": 11357,
       "reset_hour_sno": 560089
@@ -655,7 +655,7 @@
       "event_number": 1,
       "day_order": 1,
       "behavior": 223,
-      "value": 25,
+      "value": 40,
       "item_infos": "[[66,10]]",
       "content_sno": 11357,
       "reset_hour_sno": 560089
@@ -666,7 +666,7 @@
       "event_number": 1,
       "day_order": 1,
       "behavior": 223,
-      "value": 30,
+      "value": 50,
       "item_infos": "[[2,1000]]",
       "content_sno": 11357,
       "reset_hour_sno": 560089
@@ -674,10 +674,10 @@
     {
       "no": 62,
       "group": 3,
-      "event_number": 1,
+      "event_number": 2,
       "day_order": 1,
       "behavior": 802,
-      "value": 80,
+      "value": 20,
       "item_infos": "[[3346,60]]",
       "content_sno": 11361,
       "reset_hour_sno": 560089
@@ -685,10 +685,10 @@
     {
       "no": 63,
       "group": 3,
-      "event_number": 1,
+      "event_number": 2,
       "day_order": 1,
       "behavior": 802,
-      "value": 50,
+      "value": 10,
       "item_infos": "[[3347,60]]",
       "content_sno": 11361,
       "reset_hour_sno": 560089
@@ -696,55 +696,55 @@
     {
       "no": 64,
       "group": 3,
-      "event_number": 1,
+      "event_number": 2,
       "day_order": 1,
-      "behavior": 803,
+      "behavior": 403,
       "value": 1,
-      "item_infos": "[[8003,20],[3011,1]]",
-      "content_sno": 11363,
+      "item_infos": "[[8036,20],[3011,1]]",
+      "content_sno": 11227,
       "reset_hour_sno": 560090
     },
     {
       "no": 65,
       "group": 3,
-      "event_number": 1,
+      "event_number": 2,
       "day_order": 1,
       "behavior": 414,
       "value": 1,
-      "item_infos": "[[8003,20],[3006,1]]",
+      "item_infos": "[[8036,20],[3006,1]]",
       "content_sno": 11359,
       "reset_hour_sno": 560090
     },
     {
       "no": 67,
       "group": 3,
-      "event_number": 1,
+      "event_number": 2,
       "day_order": 1,
       "behavior": 415,
       "value": 1,
-      "item_infos": "[[8003,10],[3001,1]]",
+      "item_infos": "[[8036,10],[3001,1]]",
       "content_sno": 11358,
       "reset_hour_sno": 560090
     },
     {
       "no": 68,
       "group": 3,
-      "event_number": 1,
+      "event_number": 2,
       "day_order": 1,
       "behavior": 406,
       "value": 1,
-      "item_infos": "[[8003,5]]",
+      "item_infos": "[[8036,5]]",
       "content_sno": 11230,
       "reset_hour_sno": 560090
     },
     {
       "no": 69,
       "group": 3,
-      "event_number": 1,
+      "event_number": 2,
       "day_order": 1,
       "behavior": 402,
       "value": 1,
-      "item_infos": "[[8003,5]]",
+      "item_infos": "[[8036,5]]",
       "content_sno": 11226,
       "reset_hour_sno": 560090
     },

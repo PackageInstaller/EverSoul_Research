@@ -1357,6 +1357,27 @@
       "buff_effect": 301,
       "buff_type": 2,
       "rate": 1.6
+    },
+    {
+      "no": 198,
+      "buff_value": 1501411,
+      "buff_effect": 303,
+      "buff_type": 2,
+      "rate": 2.0
+    },
+    {
+      "no": 199,
+      "buff_value": 1501421,
+      "buff_effect": 303,
+      "buff_type": 2,
+      "rate": 2.25
+    },
+    {
+      "no": 200,
+      "buff_value": 1501431,
+      "buff_effect": 303,
+      "buff_type": 2,
+      "rate": 2.5
     }
   ]
 }

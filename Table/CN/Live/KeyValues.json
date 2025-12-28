@@ -157,7 +157,7 @@
     },
     {
       "key_name": "ARENA_USE_LEVEL",
-      "values_data": "10",
+      "values_data": "4",
       "type": 1
     },
     {
@@ -1697,7 +1697,7 @@
     },
     {
       "key_name": "RAID_OPEN_LEVEL",
-      "values_data": "10",
+      "values_data": "4",
       "type": 1
     },
     {
@@ -1837,7 +1837,7 @@
     },
     {
       "key_name": "RESONANCE_SLOT_DELAYTIME",
-      "values_data": "14400",
+      "values_data": "0",
       "type": 1
     },
     {

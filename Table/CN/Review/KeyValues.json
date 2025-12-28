@@ -157,7 +157,7 @@
     },
     {
       "key_name": "ARENA_USE_LEVEL",
-      "values_data": "10",
+      "values_data": "4",
       "type": 1
     },
     {
@@ -471,6 +471,11 @@
       "type": 2
     },
     {
+      "key_name": "CN_TAPTAP_ECID",
+      "values_data": "3010371001",
+      "type": 1
+    },
+    {
       "key_name": "COLLABO_GACHA_CHANGE_HERO",
       "values_data": "6500",
       "type": 1
@@ -767,7 +772,7 @@
     },
     {
       "key_name": "EMOTICON_REGEON_LIST",
-      "values_data": "[570005, 570010, 570011, 570012]",
+      "values_data": "[570005, 570009, 570010, 570011, 570012]",
       "type": 2
     },
     {
@@ -1072,7 +1077,7 @@
     },
     {
       "key_name": "GACHA_PROP_PAGE_CUSTOMPARAMETER",
-      "values_data": "\"{\"topicKey\":\"kachi1\"}\"",
+      "values_data": "{\"topicKey\":\"kachi1\"}",
       "type": 1
     },
     {
@@ -1667,7 +1672,7 @@
     },
     {
       "key_name": "PROFILE_OBJECT_MAX",
-      "values_data": "2000",
+      "values_data": "5",
       "type": 1
     },
     {
@@ -1697,7 +1702,7 @@
     },
     {
       "key_name": "RAID_OPEN_LEVEL",
-      "values_data": "10",
+      "values_data": "4",
       "type": 1
     },
     {
@@ -1837,7 +1842,7 @@
     },
     {
       "key_name": "RESONANCE_SLOT_DELAYTIME",
-      "values_data": "14400",
+      "values_data": "0",
       "type": 1
     },
     {
@@ -2003,6 +2008,11 @@
     {
       "key_name": "STAGE_GROUP_REWARD_HIT_RANGE",
       "values_data": "10000",
+      "type": 1
+    },
+    {
+      "key_name": "STAGE_NO_LOCK_BG_DOWNLOAD",
+      "values_data": "60",
       "type": 1
     },
     {
@@ -2253,6 +2263,11 @@
     {
       "key_name": "VOTE_TICKET_TASK_REWARD_DAILY",
       "values_data": "2",
+      "type": 1
+    },
+    {
+      "key_name": "VOUCHER_RATE",
+      "values_data": "10",
       "type": 1
     },
     {

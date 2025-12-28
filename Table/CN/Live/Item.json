@@ -22187,6 +22187,18 @@
       "item_sort_no": 20004
     },
     {
+      "no": 2418,
+      "category_sno": 110009,
+      "grade_sno": 110016,
+      "name_sno": 520618,
+      "desc_sno": 530618,
+      "slot_limit_sno": 110038,
+      "stat_limit_sno": 110041,
+      "icon_path": "Mephisto_Icon_Costume_04",
+      "atlas_type": 5,
+      "item_sort_no": 20004
+    },
+    {
       "no": 2700,
       "category_sno": 110009,
       "grade_sno": 110011,
@@ -34005,6 +34017,17 @@
       "slot_limit_sno": 110031,
       "stat_limit_sno": 110041,
       "icon_path": "UI/Textures/Item/Event/Icon_Dice",
+      "item_sort_no": 10
+    },
+    {
+      "no": 8174,
+      "category_sno": 110075,
+      "grade_sno": 110012,
+      "name_sno": 218138,
+      "desc_sno": 228119,
+      "slot_limit_sno": 110031,
+      "stat_limit_sno": 110041,
+      "icon_path": "UI/Textures/Item/Event/Icon_Ticket_EventRaid_2",
       "item_sort_no": 10
     },
     {

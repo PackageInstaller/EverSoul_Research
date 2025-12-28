@@ -1743,7 +1743,7 @@
       "category_path": "ToggleSignatureGacha",
       "ui_path": "GachaListPanelSignature",
       "banner_path": "0",
-      "check_stage_no": 70,
+      "check_stage_no": 12,
       "limit_sno": 560090,
       "limit_value": 1,
       "paid_gacha_no": 10001,
@@ -2353,7 +2353,7 @@
       "category_path": "ToggleSignatureGacha",
       "ui_path": "GachaListPanelSignature",
       "banner_path": "0",
-      "check_stage_no": 70,
+      "check_stage_no": 12,
       "schedule_key_1": "Gacha_10001",
       "schedule_key_2": "Gate_10001"
     },
@@ -2385,7 +2385,7 @@
       "category_path": "ToggleAlchemyGacha",
       "ui_path": "GachaListPanelAlchemy",
       "banner_path": "0",
-      "check_stage_no": 290,
+      "check_stage_no": 125,
       "schedule_key_1": "Gacha_20001",
       "schedule_key_2": "Gate_20001"
     }

@@ -740,8 +740,8 @@ namespace TableUpdater
 
             table_info[serverRegion]["Review"] = {
                 {"version", reviewInfo.version},
-                {"cdnDate", reviewInfo.cdnDate},
-                {"tableVersion", serverTableVersion}};
+                {"tableVersion", serverTableVersion},
+                {"cdnDate", reviewInfo.cdnDate}};
 
             std::ofstream outFile(table_info_path);
             outFile << table_info.dump(4);

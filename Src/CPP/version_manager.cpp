@@ -188,7 +188,7 @@ except Exception as e:
 
         try
         {
-            std::string url = "http://yhlh-client.zlongame.com/YHLH/cbt/android/apps.json";
+            std::string url = "http://yhlh-client.zlongame.com/YHLH/obt/android/apps.json";
             std::string response = HttpClient::get(url);
 
             if (response.empty())

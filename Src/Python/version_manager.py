@@ -160,7 +160,7 @@ class VersionManager:
         config = CNServerConfig()
 
         try:
-            url = "http://yhlh-client.zlongame.com/YHLH/cbt/android/apps.json"
+            url = "http://yhlh-client.zlongame.com/YHLH/obt/android/apps.json"
             response = HttpClient.get(url)
 
             if not response:
