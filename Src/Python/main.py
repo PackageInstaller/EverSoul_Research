@@ -95,9 +95,9 @@ def retrieve_app_version(state: AppState) -> bool:
         return False
 
 
-def process_review_server(state: AppState, config: AppConfig) -> bool:
+def process_global_review_tables(state: AppState, config: AppConfig) -> bool:
     """
-    处理Review服务器数据
+    处理Global Review数据表
 
     Args:
         state: 应用程序状态
@@ -116,13 +116,13 @@ def process_review_server(state: AppState, config: AppConfig) -> bool:
             state.need_generate_apis = True
         return True
     except Exception as e:
-        console.print(f"[bold red]Review服务器处理失败: {e}[/bold red]")
+        console.print(f"[bold red]Global Review数据表处理失败: {e}[/bold red]")
         return False
 
 
-def process_live_tables(state: AppState, config: AppConfig) -> bool:
+def process_global_live_tables(state: AppState, config: AppConfig) -> bool:
     """
-    处理Live服务器数据表
+    处理Global Live数据表
 
     Args:
         state: 应用程序状态
@@ -143,7 +143,7 @@ def process_live_tables(state: AppState, config: AppConfig) -> bool:
             ):
                 state.need_generate_apis = True
             else:
-                console.print("[bold red]Live数据表下载失败[/bold red]")
+                console.print("[bold red]Global Live数据表下载失败[/bold red]")
                 return False
         else:
             if TableUpdater.update_data_tables(
@@ -151,17 +151,17 @@ def process_live_tables(state: AppState, config: AppConfig) -> bool:
                 state.version,
                 config=config
             ):
-                console.print("Live数据表更新完成")
+                console.print("Global Live数据表更新完成")
                 state.need_generate_apis = True
         return True
     except Exception as e:
-        console.print(f"[bold red]Live数据表处理失败: {e}[/bold red]")
+        console.print(f"[bold red]Global Live数据表处理失败: {e}[/bold red]")
         return False
 
 
 def process_cn_live_tables(state: AppState, config: AppConfig) -> bool:
     """
-    处理国服正式服数据表
+    处理CN Live数据表
 
     Args:
         state: 应用程序状态
@@ -175,13 +175,13 @@ def process_cn_live_tables(state: AppState, config: AppConfig) -> bool:
             state.need_generate_apis = True
         return True
     except Exception as e:
-        console.print(f"[bold red]国服正式服数据表处理失败: {e}[/bold red]")
+        console.print(f"[bold red]CN Live数据表处理失败: {e}[/bold red]")
         return False
 
 
 def process_cn_review_tables(state: AppState, config: AppConfig) -> bool:
     """
-    处理国服审核服数据表
+    处理CN Review数据表
 
     Args:
         state: 应用程序状态
@@ -195,7 +195,7 @@ def process_cn_review_tables(state: AppState, config: AppConfig) -> bool:
             state.need_generate_apis = True
         return True
     except Exception as e:
-        console.print(f"[bold red]国服审核服数据表处理失败: {e}[/bold red]")
+        console.print(f"[bold red]CN Review数据表处理失败: {e}[/bold red]")
         return False
 
 
@@ -241,10 +241,10 @@ def run_application() -> int:
     operations: list[tuple[str, Callable[[], bool]]] = [
         ("初始化Python环境", lambda: initialize_python_environment(state)),
         ("获取应用版本", lambda: retrieve_app_version(state)),
-        ("处理Review服务器", lambda: process_review_server(state, config)),
-        ("处理Live数据表", lambda: process_live_tables(state, config)),
-        ("处理国服正式服数据表", lambda: process_cn_live_tables(state, config)),
-        ("处理国服审核服数据表", lambda: process_cn_review_tables(state, config)),
+        ("处理Global Review数据表", lambda: process_global_review_tables(state, config)),
+        ("处理Global Live数据表", lambda: process_global_live_tables(state, config)),
+        ("处理CN Live数据表", lambda: process_cn_live_tables(state, config)),
+        ("处理CN Review数据表", lambda: process_cn_review_tables(state, config)),
         # ("生成API文件", lambda: generate_api_files(state, config)),
     ]
 
