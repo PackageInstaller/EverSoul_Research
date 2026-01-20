@@ -231,7 +231,7 @@ class TableUpdater:
 
                         # 验证这个版本是否可访问
                         url = (
-                            f"https://patch.esoul.kakaogames.com/Review/{info.cdn_date}/"
+                            f"https://patch.esoul.kakaogames.com/Review/{info.cdn_date:04d}/"
                             f"{info.version}/Table/const_data_version.json"
                         )
 
@@ -429,7 +429,7 @@ class TableUpdater:
                 return False
 
             zip_url = (
-                f"https://patch.esoul.kakaogames.com/Review/{cdn_date}/"
+                f"https://patch.esoul.kakaogames.com/Review/{cdn_date:04d}/"
                 f"{current_version}/Table/data_{table_version}.zip"
             )
 
@@ -557,7 +557,7 @@ class TableUpdater:
             服务器数据表版本号，失败时返回-1
         """
         version_url = (
-            f"https://patch.esoul.kakaogames.com/Review/{review_info.cdn_date}/"
+            f"https://patch.esoul.kakaogames.com/Review/{review_info.cdn_date:04d}/"
             f"{review_info.version}/Table/const_data_version.json"
         )
         console.print(f"检查版本URL: {version_url}")

@@ -187,7 +187,7 @@ namespace TableUpdater
             if (tableVersion == -1)
                 return false;
 
-            zipUrl = std::format("https://patch.esoul.kakaogames.com/Review/{}/{}/Table/data_{}.zip",
+            zipUrl = std::format("https://patch.esoul.kakaogames.com/Review/{:04}/{}/Table/data_{}.zip",
                                  cdnDate, currentVersion, tableVersion);
             break;
         }
@@ -363,11 +363,12 @@ namespace TableUpdater
                     !data["content"]["appOption"]["cdnAddr"].is_null())
                 {
                     std::string cdnAddr = data["content"]["appOption"]["cdnAddr"];
-                    std::regex date_regex(R"(/Review/(\d{4}))");
+                    std::regex date_regex(R"(/Review/(\d+))");
                     std::smatch matches;
                     if (std::regex_search(cdnAddr, matches, date_regex))
                     {
-                        cdnDate = std::stoi(matches[1].str());
+                        std::string dateStr = matches[1].str();
+                        cdnDate = std::stoi(dateStr);
                         return true;
                     }
                 }
@@ -497,7 +498,7 @@ namespace TableUpdater
 
                         // 验证这个版本是否可访问
                         std::string url = std::format(
-                            "https://patch.esoul.kakaogames.com/Review/{}/{}/Table/const_data_version.json",
+                            "https://patch.esoul.kakaogames.com/Review/{:04}/{}/Table/const_data_version.json",
                             info.cdnDate, info.version);
 
                         std::string response = HttpClient::get(url);
@@ -536,7 +537,7 @@ namespace TableUpdater
      */
     int getServerTableVersion(const ReviewServerInfo &reviewInfo)
     {
-        std::string versionUrl = std::format("https://patch.esoul.kakaogames.com/Review/{}/{}/Table/const_data_version.json",
+        std::string versionUrl = std::format("https://patch.esoul.kakaogames.com/Review/{:04}/{}/Table/const_data_version.json",
                                              reviewInfo.cdnDate, reviewInfo.version);
         std::println("检查版本URL: {}", versionUrl);
 
@@ -629,7 +630,7 @@ namespace TableUpdater
     bool downloadReviewTables(const ReviewServerInfo &reviewInfo, int serverTableVersion)
     {
         // 构建下载链接
-        std::string zipUrl = std::format("https://patch.esoul.kakaogames.com/Review/{}/{}/Table/data_{}.zip",
+        std::string zipUrl = std::format("https://patch.esoul.kakaogames.com/Review/{:04}/{}/Table/data_{}.zip",
                                          reviewInfo.cdnDate, reviewInfo.version, serverTableVersion);
         // std::println("下载URL: {}", zipUrl);
         std::string zipPath = "../review_data_" + std::to_string(serverTableVersion) + ".zip";

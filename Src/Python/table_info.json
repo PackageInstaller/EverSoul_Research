@@ -1,23 +1,23 @@
 {
     "CN": {
         "Live": {
-            "version": "1.25.321",
-            "tableVersion": 408
+            "version": "1.25.322",
+            "tableVersion": 509
         },
         "Review": {
             "version": "1.25.322",
-            "tableVersion": 439
+            "tableVersion": 481
         }
     },
     "Global": {
         "Live": {
             "version": "1.32.101",
-            "tableVersion": 4586
+            "tableVersion": 4592
         },
         "Review": {
-            "version": "1.32.101",
-            "tableVersion": 4561,
-            "cdnDate": 1219
+            "version": "1.33.101",
+            "tableVersion": 4606,
+            "cdnDate": 119
         }
     }
 }
