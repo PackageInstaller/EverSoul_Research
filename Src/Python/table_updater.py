@@ -323,7 +323,7 @@ class TableUpdater:
             server_region = "CN"
             table_type = "Live"
             target_dir = Path(cn_live_dir)
-            schema_dir = Path(global_schema_dir)  # 国服使用Global的Schema
+            schema_dir = Path(cn_schema_dir)  # 国服使用CN的Schema
 
             # 获取国服配置
             cn_config = VersionManager.get_cn_server_config()
@@ -363,7 +363,7 @@ class TableUpdater:
             server_region = "CN"
             table_type = "Review"
             target_dir = Path(cn_review_dir)
-            schema_dir = Path(global_schema_dir)  # 国服使用Global的Schema
+            schema_dir = Path(cn_schema_dir)  # 国服使用CN的Schema
 
             # 获取国服配置
             cn_config = VersionManager.get_cn_server_config()

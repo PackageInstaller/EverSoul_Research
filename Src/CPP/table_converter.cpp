@@ -24,8 +24,10 @@ namespace TableConverter
             }
 
             size_t current_file = 0;
-            int result = 0;
+            int success_count = 0;
+            int fail_count = 0;
             static size_t last_length = 0;
+            std::vector<std::string> failed_files;
 
             for (const auto &entry : fs::directory_iterator(schema_dir))
             {
@@ -44,11 +46,16 @@ namespace TableConverter
                         std::string command = "flatc --json --raw-binary --strict-json --natural-utf8 -o " +
                                               output_dir + " " +
                                               entry.path().string() + " -- " +
-                                              tbl_path.string() + " 2>/dev/null";
-                        result = system(command.c_str());
+                                              tbl_path.string() + " 2>&1";
+                        int result = system(command.c_str());
                         if (result != 0)
                         {
-                            continue;
+                            fail_count++;
+                            failed_files.push_back(schema_name);
+                        }
+                        else
+                        {
+                            success_count++;
                         }
                     }
                 }
@@ -56,12 +63,25 @@ namespace TableConverter
 
             ProgressDisplay::clear(last_length);
 
-            if (result == 0)
+            if (fail_count > 0)
+            {
+                std::println("\033[33m转换完成，成功: {}，失败: {}\033[0m", success_count, fail_count);
+                std::println("\033[33m失败的文件: {}\033[0m", failed_files.size() > 5 
+                    ? std::format("{} 等 {} 个文件", failed_files[0], fail_count)
+                    : [&]() {
+                        std::string list;
+                        for (size_t i = 0; i < failed_files.size(); i++) {
+                            list += failed_files[i];
+                            if (i < failed_files.size() - 1) list += ", ";
+                        }
+                        return list;
+                    }());
+            }
+            else
             {
                 std::println("\033[32m数据表转换完成\033[0m");
-                return true;
             }
-            return false;
+            return true;
         }
         catch (const std::exception &e)
         {

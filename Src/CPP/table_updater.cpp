@@ -60,7 +60,7 @@ namespace TableUpdater
             serverRegion = "CN";
             tableType = "Live";
             targetDir = "../Table/CN/Live";
-            schemaDir = "../FlatBuffers/Schema/Global";
+            schemaDir = "../FlatBuffers/Schema/CN";
 
             // 获取国服配置
             auto cnConfig = VersionManager::getCNServerConfig();
@@ -110,7 +110,7 @@ namespace TableUpdater
             serverRegion = "CN";
             tableType = "Review";
             targetDir = "../Table/CN/Review";
-            schemaDir = "../FlatBuffers/Schema/Global";
+            schemaDir = "../FlatBuffers/Schema/CN";
 
             // 获取国服配置
             auto cnConfig = VersionManager::getCNServerConfig();
