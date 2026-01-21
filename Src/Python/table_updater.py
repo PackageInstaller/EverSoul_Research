@@ -49,7 +49,7 @@ class ReviewServerInfo:
 
     exists: bool = False
     version: str = ""
-    cdn_date: int = 0
+    cdn_date: str = ""
     table_info: TableInfo = None
 
     def __post_init__(self):
@@ -83,7 +83,7 @@ class TableUpdater:
     @staticmethod
     def check_review_version(
         version: str, stop_event: Optional[threading.Event] = None
-    ) -> tuple[bool, int]:
+    ) -> tuple[bool, str]:
         """
         检查指定版本是否为可用的Review服务器版本
 
@@ -92,7 +92,7 @@ class TableUpdater:
             stop_event: 停止事件，当其他线程找到版本时会设置此事件
 
         Returns:
-            (是否可用, CDN日期)的元组
+            (是否可用, CDN日期字符串)的元组
         """
         # 如果已经找到版本，直接返回
         if stop_event and stop_event.is_set():
@@ -107,11 +107,11 @@ class TableUpdater:
             # 使用更短的超时时间和重试次数
             response = HttpClient.get(url, retries=2, timeout=5)
             if not response:
-                return False, 0
+                return False, ""
 
             # 再次检查停止事件
             if stop_event and stop_event.is_set():
-                return False, 0
+                return False, ""
 
             data = json.loads(response)
 
@@ -123,14 +123,14 @@ class TableUpdater:
 
                 cdn_addr = data.get("content", {}).get("appOption", {}).get("cdnAddr")
                 if cdn_addr and cdn_addr != "null":
-                    match = re.search(r"/Review/(\d{4})", cdn_addr)
+                    match = re.search(r"/Review/(\d+)", cdn_addr)
                     if match:
-                        cdn_date = int(match.group(1))
+                        cdn_date = match.group(1)
                         return True, cdn_date
         except Exception:
-            return False, 0
+            return False, ""
 
-        return False, 0
+        return False, ""
 
     @staticmethod
     def check_review_server(
@@ -231,7 +231,7 @@ class TableUpdater:
 
                         # 验证这个版本是否可访问
                         url = (
-                            f"https://patch.esoul.kakaogames.com/Review/{info.cdn_date:04d}/"
+                            f"https://patch.esoul.kakaogames.com/Review/{info.cdn_date}/"
                             f"{info.version}/Table/const_data_version.json"
                         )
 
@@ -298,7 +298,7 @@ class TableUpdater:
         table_type = ""  # "Live" or "Review"
         target_dir = Path()
         schema_dir = Path()
-        cdn_date = 0  # Only for Review
+        cdn_date = ""  # Only for Review
 
         if server_type == ServerType.GLOBAL_LIVE:
             server_region = "Global"
@@ -429,7 +429,7 @@ class TableUpdater:
                 return False
 
             zip_url = (
-                f"https://patch.esoul.kakaogames.com/Review/{cdn_date:04d}/"
+                f"https://patch.esoul.kakaogames.com/Review/{cdn_date}/"
                 f"{current_version}/Table/data_{table_version}.zip"
             )
 
@@ -532,7 +532,7 @@ class TableUpdater:
                 "tableVersion": table_version,
             }
 
-            if server_type == ServerType.GLOBAL_REVIEW and cdn_date > 0:
+            if server_type == ServerType.GLOBAL_REVIEW and cdn_date:
                 table_info[server_region][table_type]["cdnDate"] = cdn_date
 
             with open(table_info_file, "w", encoding="utf-8") as f:
@@ -557,7 +557,7 @@ class TableUpdater:
             服务器数据表版本号，失败时返回-1
         """
         version_url = (
-            f"https://patch.esoul.kakaogames.com/Review/{review_info.cdn_date:04d}/"
+            f"https://patch.esoul.kakaogames.com/Review/{review_info.cdn_date}/"
             f"{review_info.version}/Table/const_data_version.json"
         )
         console.print(f"检查版本URL: {version_url}")

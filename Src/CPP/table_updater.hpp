@@ -28,7 +28,7 @@ namespace TableUpdater
     {
         bool exists;
         std::string version;
-        int cdnDate;
+        std::string cdnDate;
         TableInfo tableInfo;
     };
 
@@ -42,10 +42,10 @@ namespace TableUpdater
     /**
      * @brief 检查指定版本是否为可用的Review服务器版本
      * @param version 要检查的版本号
-     * @param cdnDate 输出参数，如果版本可用，存储对应的CDN日期（整数，如 1028）
+     * @param cdnDate 输出参数，如果版本可用，存储对应的CDN日期（字符串，如 "0119"）
      * @return 如果版本可用返回true，否则返回false
      */
-    bool checkReviewVersion(const std::string &version, int &cdnDate);
+    bool checkReviewVersion(const std::string &version, std::string &cdnDate);
 
     /**
      * @brief 检查Review服务器并获取相关信息

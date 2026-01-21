@@ -28,7 +28,7 @@ namespace TableUpdater
         std::string tableType; // "Live" or "Review"
         fs::path targetDir;
         fs::path schemaDir;
-        int cdnDate = 0; // Only for Review
+        std::string cdnDate; // Only for Review
 
         switch (type)
         {
@@ -187,7 +187,7 @@ namespace TableUpdater
             if (tableVersion == -1)
                 return false;
 
-            zipUrl = std::format("https://patch.esoul.kakaogames.com/Review/{:04}/{}/Table/data_{}.zip",
+            zipUrl = std::format("https://patch.esoul.kakaogames.com/Review/{}/{}/Table/data_{}.zip",
                                  cdnDate, currentVersion, tableVersion);
             break;
         }
@@ -213,7 +213,7 @@ namespace TableUpdater
                 {
                     if (type == ServerType::GlobalReview &&
                         table_info[serverRegion][tableType].contains("cdnDate") &&
-                        table_info[serverRegion][tableType]["cdnDate"].get<int>() != cdnDate)
+                        table_info[serverRegion][tableType]["cdnDate"].get<std::string>() != cdnDate)
             {
                         // Continue update if cdnDate mismatch for Review
             }
@@ -314,7 +314,7 @@ namespace TableUpdater
                 {"version", currentVersion},
                 {"tableVersion", tableVersion}};
 
-            if (type == ServerType::GlobalReview && cdnDate > 0)
+            if (type == ServerType::GlobalReview && !cdnDate.empty())
             {
                 table_info[serverRegion][tableType]["cdnDate"] = cdnDate;
             }
@@ -330,7 +330,7 @@ namespace TableUpdater
         return true;
     }
 
-    bool checkReviewVersion(const std::string &version, int &cdnDate)
+    bool checkReviewVersion(const std::string &version, std::string &cdnDate)
     {
         std::string url = "https://gc-infodesk-zinny3.kakaogames.com/v2/app?appId=743491&appVer=" +
                           version + "&market=googlePlay&sdkVer=1&os=android&lang=en";
@@ -367,8 +367,7 @@ namespace TableUpdater
                     std::smatch matches;
                     if (std::regex_search(cdnAddr, matches, date_regex))
                     {
-                        std::string dateStr = matches[1].str();
-                        cdnDate = std::stoi(dateStr);
+                        cdnDate = matches[1].str();
                         return true;
                     }
                 }
@@ -391,7 +390,7 @@ namespace TableUpdater
         ReviewServerInfo info;
         info.exists = false;
         info.version = "";
-        info.cdnDate = 0;
+        info.cdnDate = "";
         info.tableInfo.version = 0;
         info.tableInfo.action = 0;
 
@@ -404,7 +403,7 @@ namespace TableUpdater
         const int max_threads = std::min(static_cast<uint32_t>(1024),
                                          cpu_cores > 0 ? cpu_cores * 18 : 128);
 
-        std::vector<std::future<std::pair<bool, int>>> futures;
+        std::vector<std::future<std::pair<bool, std::string>>> futures;
         std::vector<std::string> pending_versions;
         size_t total_versions = versions.size();
         size_t checked_versions = 0;
@@ -441,7 +440,7 @@ namespace TableUpdater
 
             futures.push_back(std::async(std::launch::async, [ver]()
                                          {
-                int cdnDate = 0;
+                std::string cdnDate;
                 bool success = checkReviewVersion(ver, cdnDate);
                 return std::make_pair(success, cdnDate); }));
             pending_versions.push_back(ver);
@@ -493,12 +492,12 @@ namespace TableUpdater
 
                         info.exists = true;
                         info.version = table_info[serverRegion]["Review"]["version"].get<std::string>();
-                        info.cdnDate = table_info[serverRegion]["Review"]["cdnDate"].get<int>();
+                        info.cdnDate = table_info[serverRegion]["Review"]["cdnDate"].get<std::string>();
                         info.tableInfo.version = table_info[serverRegion]["Review"]["tableVersion"].get<int>();
 
                         // 验证这个版本是否可访问
                         std::string url = std::format(
-                            "https://patch.esoul.kakaogames.com/Review/{:04}/{}/Table/const_data_version.json",
+                            "https://patch.esoul.kakaogames.com/Review/{}/{}/Table/const_data_version.json",
                             info.cdnDate, info.version);
 
                         std::string response = HttpClient::get(url);
@@ -537,7 +536,7 @@ namespace TableUpdater
      */
     int getServerTableVersion(const ReviewServerInfo &reviewInfo)
     {
-        std::string versionUrl = std::format("https://patch.esoul.kakaogames.com/Review/{:04}/{}/Table/const_data_version.json",
+        std::string versionUrl = std::format("https://patch.esoul.kakaogames.com/Review/{}/{}/Table/const_data_version.json",
                                              reviewInfo.cdnDate, reviewInfo.version);
         std::println("检查版本URL: {}", versionUrl);
 
@@ -630,7 +629,7 @@ namespace TableUpdater
     bool downloadReviewTables(const ReviewServerInfo &reviewInfo, int serverTableVersion)
     {
         // 构建下载链接
-        std::string zipUrl = std::format("https://patch.esoul.kakaogames.com/Review/{:04}/{}/Table/data_{}.zip",
+        std::string zipUrl = std::format("https://patch.esoul.kakaogames.com/Review/{}/{}/Table/data_{}.zip",
                                          reviewInfo.cdnDate, reviewInfo.version, serverTableVersion);
         // std::println("下载URL: {}", zipUrl);
         std::string zipPath = "../review_data_" + std::to_string(serverTableVersion) + ".zip";
