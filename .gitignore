@@ -5,4 +5,5 @@ Build/*
 SchemaGenerate/obj/*
 SchemaGenerate/bin/*
 run.sh
+*.bundle
 *.pyc
