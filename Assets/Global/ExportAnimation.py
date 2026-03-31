@@ -29,9 +29,6 @@ def load_bundle(bundle_path: str) -> tuple:
         return (bundle_path, None)
 
 
-
-
-
 def load_ids_from_yamls() -> tuple[set[int], set[int], set[int], set[int]]:
     """返回 (live_hero_ids, live_raid_ids, review_hero_ids, review_raid_ids)"""
     live_hero: set[int] = set()

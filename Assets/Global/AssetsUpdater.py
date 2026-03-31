@@ -3,6 +3,7 @@ import sys
 import json
 import signal
 import hashlib
+import shutil
 import requests
 import urllib3
 import concurrent.futures
@@ -403,6 +404,27 @@ def download_assets(
     return results
 
 
+def sync_update_to_assets(
+    download_results: Dict[str, bool], update_dir: Path, assets_dir: Path
+) -> int:
+    """将 update 目录下载成功的文件同步复制到 assets 目录"""
+    copied_count = 0
+    for filename, success in download_results.items():
+        if not success:
+            continue
+
+        src = update_dir / filename
+        dst = assets_dir / filename
+        if not src.exists():
+            continue
+
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copy2(src, dst)
+        copied_count += 1
+
+    return copied_count
+
+
 def save_asset_list(asset_list: Dict[str, Dict[str, Any]], file_path: Path):
     """保存资产列表到JSON文件"""
     with open(file_path, "w", encoding="utf-8") as f:
@@ -473,6 +495,10 @@ def process_server(server_config: ServerConfig, base_dir: Path) -> None:
 
         success_count = sum(1 for success in download_results.values() if success)
         print(f"下载成功: {success_count}/{len(updated_files)}")
+
+        if target_dir == update_dir:
+            copied_count = sync_update_to_assets(download_results, update_dir, assets_dir)
+            print(f"已复制到 assets: {copied_count} 个文件")
 
     else:
         print("所有文件都是最新的, 无需更新")

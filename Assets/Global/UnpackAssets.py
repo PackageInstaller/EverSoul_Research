@@ -208,57 +208,57 @@ def main():
     script_dir = get_script_dir()
     unpack_dir = Path("/home/rikka/zhenxun_bot/zhenxun/plugins/nonebot_plugin_eversoul_tools/resource/image")
     tasks = [
-        # BundleTask(
-        #     pattern="ui_assets_assets/bundles/ui/textures/banner/*.bundle",
-        #     output_subdir="banner",
-        #     asset_type="Texture2D",
-        #     description="banner",
-        # ),
-        # BundleTask(
-        #     pattern="story_assets_assets/bundles/story/love/*/*.bundle",
-        #     output_subdir="cg",
-        #     asset_type="Texture2D",
-        #     name_filter=lambda name: name.startswith("Talk_Event_"),
-        #     description="cg",
-        # ),
-        # BundleTask(
-        #     pattern="story_assets_assets/bundles/story/talk.bundle",
-        #     output_subdir="evertalk",
-        #     asset_type="Texture2D",
-        #     name_filter=lambda name: name.startswith("Evertalk_"),
-        #     description="evertalk",
-        # ),
-        # BundleTask(
-        #     pattern="ui_assets_assets/bundles/ui/textures/souls/*.bundle",
-        #     output_subdir="soul",
-        #     asset_type="Texture2D",
-        #     description="soul",
-        # ),
-        # BundleTask(
-        #     pattern="ui_assets_assets/bundles/ui/textures/town.bundle",
-        #     output_subdir="town",
-        #     asset_type="Texture2D",
-        #     description="town",
-        # ),
-        # BundleTask(
-        #     pattern="ui_assets_assets/bundles/ui/textures/atlas/item.spriteatlas.bundle",
-        #     output_subdir="tier",
-        #     asset_type="Sprite",
-        #     name_filter=lambda name: "Tier" in name,
-        #     description="tier",
-        # ),
-        # BundleTask(
-        #     pattern="ui_assets_assets/bundles/ui/textures/atlas/stickeratlas.spriteatlas.bundle",
-        #     output_subdir="sticker",
-        #     asset_type="Sprite",
-        #     description="sticker",
-        # ),
-        # BundleTask(
-        #     pattern="ui_assets_assets/bundles/ui/textures/atlas/profileframeatlas.spriteatlas.bundle",
-        #     output_subdir="frame",
-        #     asset_type="Sprite",
-        #     description="frame",
-        # ),
+        BundleTask(
+            pattern="ui_assets_assets/bundles/ui/textures/banner/*.bundle",
+            output_subdir="banner",
+            asset_type="Texture2D",
+            description="banner",
+        ),
+        BundleTask(
+            pattern="story_assets_assets/bundles/story/love/*/*.bundle",
+            output_subdir="cg",
+            asset_type="Texture2D",
+            name_filter=lambda name: name.startswith("Talk_Event_"),
+            description="cg",
+        ),
+        BundleTask(
+            pattern="story_assets_assets/bundles/story/talk.bundle",
+            output_subdir="evertalk",
+            asset_type="Texture2D",
+            name_filter=lambda name: name.startswith("Evertalk_"),
+            description="evertalk",
+        ),
+        BundleTask(
+            pattern="ui_assets_assets/bundles/ui/textures/souls/*.bundle",
+            output_subdir="soul",
+            asset_type="Texture2D",
+            description="soul",
+        ),
+        BundleTask(
+            pattern="ui_assets_assets/bundles/ui/textures/town.bundle",
+            output_subdir="town",
+            asset_type="Texture2D",
+            description="town",
+        ),
+        BundleTask(
+            pattern="ui_assets_assets/bundles/ui/textures/atlas/item.spriteatlas.bundle",
+            output_subdir="tier",
+            asset_type="Sprite",
+            name_filter=lambda name: "Tier" in name,
+            description="tier",
+        ),
+        BundleTask(
+            pattern="ui_assets_assets/bundles/ui/textures/atlas/stickeratlas.spriteatlas.bundle",
+            output_subdir="sticker",
+            asset_type="Sprite",
+            description="sticker",
+        ),
+        BundleTask(
+            pattern="ui_assets_assets/bundles/ui/textures/atlas/profileframeatlas.spriteatlas.bundle",
+            output_subdir="frame",
+            asset_type="Sprite",
+            description="frame",
+        ),
         BundleTask(
             pattern="scriptable_assets_assets/bundles/**/*.bundle",
             output_subdir="",
