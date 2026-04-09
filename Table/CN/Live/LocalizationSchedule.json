@@ -2898,6 +2898,14 @@
     },
     {
       "index": 40033,
+      "schedule_key": "EventInfo_QuestGuildRaid_5",
+      "schedule_type": 4,
+      "start_date": "2026-04-08 00:00:00",
+      "end_date": "2026-04-15 00:00:00",
+      "value_date_01": "2026-04-22 00:00:00"
+    },
+    {
+      "index": 40034,
       "schedule_key": "EventInfo_QuestGuildRaid_4",
       "schedule_type": 4,
       "start_date": "2026-03-18 00:00:00",
@@ -2905,7 +2913,7 @@
       "value_date_01": "2026-04-01 00:00:00"
     },
     {
-      "index": 40034,
+      "index": 40035,
       "schedule_key": "EventInfo_QuestGuildRaid_3",
       "schedule_type": 4,
       "start_date": "2026-02-25 00:00:00",
@@ -2913,7 +2921,7 @@
       "value_date_01": "2026-03-11 00:00:00"
     },
     {
-      "index": 40035,
+      "index": 40036,
       "schedule_key": "EventInfo_QuestGuildRaid_2",
       "schedule_type": 4,
       "start_date": "2026-02-04 00:00:00",
@@ -2921,7 +2929,7 @@
       "value_date_01": "2026-02-18 00:00:00"
     },
     {
-      "index": 40036,
+      "index": 40037,
       "schedule_key": "EventInfo_QuestGuildRaid_1",
       "schedule_type": 4,
       "start_date": "2026-01-15 00:00:00",
@@ -2929,7 +2937,7 @@
       "value_date_01": "2026-01-28 00:00:00"
     },
     {
-      "index": 40037,
+      "index": 40038,
       "schedule_key": "EventInfo_DJsoul_NewSong",
       "schedule_type": 4,
       "start_date": "2026-03-25 00:00:00",
@@ -2937,7 +2945,7 @@
       "value_date_01": "2026-04-01 00:00:00"
     },
     {
-      "index": 40038,
+      "index": 40039,
       "schedule_key": "EventInfo_EverMatch_1",
       "schedule_type": 4,
       "start_date": "2026-03-04 00:00:00",
@@ -2945,7 +2953,7 @@
       "value_date_01": "2026-03-11 00:00:00"
     },
     {
-      "index": 40039,
+      "index": 40040,
       "schedule_key": "EventInfo_DefenseGame_2",
       "schedule_type": 4,
       "start_date": "2026-04-15 00:00:00",
@@ -2953,7 +2961,7 @@
       "value_date_01": "2026-04-29 00:00:00"
     },
     {
-      "index": 40040,
+      "index": 40041,
       "schedule_key": "EventInfo_DefenseGame_1",
       "schedule_type": 4,
       "start_date": "2026-01-21 00:00:00",
@@ -2961,7 +2969,7 @@
       "value_date_01": "2026-02-11 00:00:00"
     },
     {
-      "index": 40041,
+      "index": 40042,
       "schedule_key": "EventInfo_honglan_spine",
       "schedule_type": 4,
       "start_date": "2026-01-21 00:00:00",
@@ -2969,7 +2977,7 @@
       "value_date_01": "2026-02-11 00:00:00"
     },
     {
-      "index": 40042,
+      "index": 40043,
       "schedule_key": "EventInfo_Launching_Attend",
       "schedule_type": 4,
       "start_date": "2026-01-01 00:00:00",
@@ -2977,7 +2985,7 @@
       "value_date_01": "2026-02-25 00:00:00"
     },
     {
-      "index": 40043,
+      "index": 40044,
       "schedule_key": "EventInfo_Launching_Quest",
       "schedule_type": 4,
       "start_date": "2026-01-01 00:00:00",
@@ -2985,7 +2993,7 @@
       "value_date_01": "2999-12-31 00:00:00"
     },
     {
-      "index": 40044,
+      "index": 40045,
       "schedule_key": "EventInfo_FariyCollect_Quest",
       "schedule_type": 4,
       "start_date": "2026-01-01 00:00:00",
@@ -2993,7 +3001,7 @@
       "value_date_01": "2999-12-31 00:00:00"
     },
     {
-      "index": 40045,
+      "index": 40046,
       "schedule_key": "EventInfo_Comeback_Attend",
       "schedule_type": 4,
       "start_date": "2999-12-31 00:00:00",
@@ -3001,7 +3009,7 @@
       "value_date_01": "2999-12-31 00:00:00"
     },
     {
-      "index": 40046,
+      "index": 40047,
       "schedule_key": "EventInfo_Comeback_Quest",
       "schedule_type": 4,
       "start_date": "2999-12-31 00:00:00",
@@ -3009,7 +3017,7 @@
       "value_date_01": "2999-12-31 00:00:00"
     },
     {
-      "index": 40047,
+      "index": 40048,
       "schedule_key": "EventInfo_SelectPickup_Season_cn",
       "schedule_type": 4,
       "start_date": "2026-01-01 00:00:00",
@@ -3017,7 +3025,7 @@
       "value_date_01": "2999-12-31 23:59:59"
     },
     {
-      "index": 40048,
+      "index": 40049,
       "schedule_key": "EventInfo_Rotation_Trip",
       "schedule_type": 4,
       "start_date": "2999-12-31 00:00:00",
@@ -3025,7 +3033,7 @@
       "value_date_01": "2999-12-31 00:00:00"
     },
     {
-      "index": 40049,
+      "index": 40050,
       "schedule_key": "EventInfo_Rotation_Heart",
       "schedule_type": 4,
       "start_date": "2026-02-04 00:00:00",
@@ -3033,7 +3041,7 @@
       "value_date_01": "2026-03-11 00:00:00"
     },
     {
-      "index": 40050,
+      "index": 40051,
       "schedule_key": "EventInfo_Rotation_Arena",
       "schedule_type": 4,
       "start_date": "2026-04-08 00:00:00",
@@ -3041,7 +3049,7 @@
       "value_date_01": "2026-04-22 00:00:00"
     },
     {
-      "index": 40051,
+      "index": 40052,
       "schedule_key": "EventInfo_Rotation_Labyrinth",
       "schedule_type": 4,
       "start_date": "2026-02-11 00:00:00",
@@ -3049,7 +3057,7 @@
       "value_date_01": "2026-02-25 00:00:00"
     },
     {
-      "index": 40052,
+      "index": 40053,
       "schedule_key": "EventInfo_Rotation_Champions",
       "schedule_type": 4,
       "start_date": "2026-03-11 00:00:00",
@@ -3057,7 +3065,7 @@
       "value_date_01": "2026-03-25 00:00:00"
     },
     {
-      "index": 40053,
+      "index": 40054,
       "schedule_key": "EventInfo_Rotation_DualGate",
       "schedule_type": 4,
       "start_date": "2026-03-25 00:00:00",
@@ -3065,7 +3073,7 @@
       "value_date_01": "2026-04-08 00:00:00"
     },
     {
-      "index": 40054,
+      "index": 40055,
       "schedule_key": "EventInfo_Rotation_AutoArbeit",
       "schedule_type": 4,
       "start_date": "2026-02-25 00:00:00",
@@ -3073,7 +3081,7 @@
       "value_date_01": "2026-03-11 00:00:00"
     },
     {
-      "index": 40055,
+      "index": 40056,
       "schedule_key": "EventInfo_FreeGacha_Open",
       "schedule_type": 4,
       "start_date": "2026-01-01 00:00:00",
@@ -3081,7 +3089,7 @@
       "value_date_01": "2026-02-25 00:00:00"
     },
     {
-      "index": 40056,
+      "index": 40057,
       "schedule_key": "EventInfo_SpecialShop_NewYear2Event",
       "schedule_type": 4,
       "start_date": "2026-01-15 00:00:00",
@@ -3089,7 +3097,7 @@
       "value_date_01": "2026-02-04 00:00:00"
     },
     {
-      "index": 40057,
+      "index": 40058,
       "schedule_key": "EventInfo_SpecialShop_NewYear2EventM",
       "schedule_type": 4,
       "start_date": "2026-01-15 00:00:00",
@@ -3097,7 +3105,7 @@
       "value_date_01": "2026-02-04 00:00:00"
     },
     {
-      "index": 40058,
+      "index": 40059,
       "schedule_key": "EventInfo_SpecialShop_CNEvent01",
       "schedule_type": 4,
       "start_date": "2026-02-17 00:00:00",
@@ -3105,7 +3113,7 @@
       "value_date_01": "2026-03-04 00:00:00"
     },
     {
-      "index": 40059,
+      "index": 40060,
       "schedule_key": "EventInfo_SpecialShop_CNEvent01M",
       "schedule_type": 4,
       "start_date": "2026-02-17 00:00:00",

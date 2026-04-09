@@ -648,6 +648,24 @@
       "show_list": 1,
       "event_type": 3,
       "group": 2000,
+      "event_number": 5,
+      "user_type": 3,
+      "name_sno": 12215,
+      "desc_sno": 12216,
+      "stage_limit": 3,
+      "item_infos": "[]",
+      "event_shop_no": "0",
+      "magic_value": "0",
+      "ui_path": "PanelQuestGuildRaid",
+      "banner_path": "banner_QuesteventGuildRaid",
+      "title_path": "0",
+      "schedule_key": "EventInfo_QuestGuildRaid_5"
+    },
+    {
+      "no": 34,
+      "show_list": 1,
+      "event_type": 3,
+      "group": 2000,
       "event_number": 4,
       "user_type": 3,
       "name_sno": 12215,
@@ -662,7 +680,7 @@
       "schedule_key": "EventInfo_QuestGuildRaid_4"
     },
     {
-      "no": 34,
+      "no": 35,
       "show_list": 1,
       "event_type": 3,
       "group": 2000,
@@ -680,7 +698,7 @@
       "schedule_key": "EventInfo_QuestGuildRaid_3"
     },
     {
-      "no": 35,
+      "no": 36,
       "show_list": 1,
       "event_type": 3,
       "group": 2000,
@@ -698,7 +716,7 @@
       "schedule_key": "EventInfo_QuestGuildRaid_2"
     },
     {
-      "no": 36,
+      "no": 37,
       "show_list": 1,
       "event_type": 3,
       "group": 2000,
@@ -716,7 +734,7 @@
       "schedule_key": "EventInfo_QuestGuildRaid_1"
     },
     {
-      "no": 37,
+      "no": 38,
       "show_list": 1,
       "event_type": 19,
       "group": 1,
@@ -734,7 +752,7 @@
       "schedule_key": "EventInfo_DJsoul_NewSong"
     },
     {
-      "no": 38,
+      "no": 39,
       "show_list": 1,
       "event_type": 18,
       "group": 1,
@@ -752,7 +770,7 @@
       "schedule_key": "EventInfo_EverMatch_1"
     },
     {
-      "no": 39,
+      "no": 40,
       "show_list": 1,
       "event_type": 8,
       "group": 2,
@@ -771,7 +789,7 @@
       "schedule_key": "EventInfo_DefenseGame_2"
     },
     {
-      "no": 40,
+      "no": 41,
       "show_list": 1,
       "event_type": 8,
       "group": 2,
@@ -790,7 +808,7 @@
       "schedule_key": "EventInfo_DefenseGame_1"
     },
     {
-      "no": 41,
+      "no": 42,
       "category_type": 2,
       "show_list": 1,
       "event_type": 27,
@@ -810,7 +828,7 @@
       "schedule_key": "EventInfo_honglan_spine"
     },
     {
-      "no": 42,
+      "no": 43,
       "show_list": 1,
       "event_type": 1,
       "group": 1,
@@ -829,7 +847,7 @@
       "schedule_key": "EventInfo_Launching_Attend"
     },
     {
-      "no": 43,
+      "no": 44,
       "show_list": 1,
       "event_type": 5,
       "group": 931,
@@ -848,7 +866,7 @@
       "schedule_key": "EventInfo_FreeGacha_Open"
     },
     {
-      "no": 44,
+      "no": 45,
       "show_list": 1,
       "event_type": 3,
       "group": 1,
@@ -867,7 +885,7 @@
       "schedule_key": "EventInfo_Launching_Quest"
     },
     {
-      "no": 45,
+      "no": 46,
       "show_list": 1,
       "event_type": 3,
       "group": 2,
@@ -886,7 +904,7 @@
       "schedule_key": "EventInfo_FariyCollect_Quest"
     },
     {
-      "no": 46,
+      "no": 47,
       "show_list": 1,
       "event_type": 1,
       "group": 1000,
@@ -903,7 +921,7 @@
       "schedule_key": "EventInfo_Comeback_Attend"
     },
     {
-      "no": 47,
+      "no": 48,
       "show_list": 1,
       "event_type": 3,
       "group": 1000,
@@ -920,7 +938,7 @@
       "schedule_key": "EventInfo_Comeback_Quest"
     },
     {
-      "no": 48,
+      "no": 49,
       "show_list": 1,
       "event_type": 15,
       "group": 2,
@@ -939,7 +957,7 @@
       "schedule_key": "EventInfo_SelectPickup_Season_cn"
     },
     {
-      "no": 49,
+      "no": 50,
       "show_list": 1,
       "event_type": 2,
       "group": 9,
@@ -957,7 +975,7 @@
       "schedule_key": "EventInfo_Rotation_Trip"
     },
     {
-      "no": 50,
+      "no": 51,
       "show_list": 1,
       "event_type": 2,
       "group": 8,
@@ -975,7 +993,7 @@
       "schedule_key": "EventInfo_Rotation_Heart"
     },
     {
-      "no": 51,
+      "no": 52,
       "show_list": 1,
       "event_type": 2,
       "group": 7,
@@ -993,7 +1011,7 @@
       "schedule_key": "EventInfo_Rotation_Champions"
     },
     {
-      "no": 52,
+      "no": 53,
       "show_list": 1,
       "event_type": 2,
       "group": 2,
@@ -1011,7 +1029,7 @@
       "schedule_key": "EventInfo_Rotation_AutoArbeit"
     },
     {
-      "no": 53,
+      "no": 54,
       "show_list": 1,
       "event_type": 2,
       "group": 3,
@@ -1029,7 +1047,7 @@
       "schedule_key": "EventInfo_Rotation_Labyrinth"
     },
     {
-      "no": 54,
+      "no": 55,
       "show_list": 1,
       "event_type": 2,
       "group": 6,
@@ -1047,7 +1065,7 @@
       "schedule_key": "EventInfo_Rotation_Arena"
     },
     {
-      "no": 55,
+      "no": 56,
       "show_list": 1,
       "event_type": 2,
       "group": 5,
@@ -1065,7 +1083,7 @@
       "schedule_key": "EventInfo_Rotation_DualGate"
     },
     {
-      "no": 56,
+      "no": 57,
       "event_type": 20,
       "group": 4001,
       "event_number": 4,
@@ -1082,7 +1100,7 @@
       "schedule_key": "EventInfo_SpecialShop_NewYear2Event"
     },
     {
-      "no": 57,
+      "no": 58,
       "event_type": 3,
       "group": 4001,
       "event_number": 4,
@@ -1099,7 +1117,7 @@
       "schedule_key": "EventInfo_SpecialShop_NewYear2EventM"
     },
     {
-      "no": 58,
+      "no": 59,
       "event_type": 20,
       "group": 4001,
       "event_number": 3,
@@ -1116,7 +1134,7 @@
       "schedule_key": "EventInfo_SpecialShop_CNEvent01"
     },
     {
-      "no": 59,
+      "no": 60,
       "event_type": 3,
       "group": 4001,
       "event_number": 3,
