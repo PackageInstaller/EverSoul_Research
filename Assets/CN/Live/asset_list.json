@@ -1336,8 +1336,8 @@
     },
     "character_assets_assets/bundles/character/jihomir/timeline.bundle": {
         "name": "character_assets_assets/bundles/character/jihomir/timeline.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/character_assets_assets/bundles/character/jihomir/timeline_417ec59eda60e79360735b6ee0b3c69f.bundle",
-        "size": 7453804
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/character_assets_assets/bundles/character/jihomir/timeline_37346c08c83d26ff937410a5b9f38956.bundle",
+        "size": 7453558
     },
     "character_assets_assets/bundles/character/joanne/animator.bundle": {
         "name": "character_assets_assets/bundles/character/joanne/animator.bundle",
@@ -1411,8 +1411,8 @@
     },
     "character_assets_assets/bundles/character/laura/timeline.bundle": {
         "name": "character_assets_assets/bundles/character/laura/timeline.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/character_assets_assets/bundles/character/laura/timeline_b2b40a41abd9e63059354db2cf70c35a.bundle",
-        "size": 5778809
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/character_assets_assets/bundles/character/laura/timeline_bb682bbb7a1193aba614c5a53223aefb.bundle",
+        "size": 5778370
     },
     "character_assets_assets/bundles/character/leah/animator.bundle": {
         "name": "character_assets_assets/bundles/character/leah/animator.bundle",
@@ -1801,7 +1801,7 @@
     },
     "character_assets_assets/bundles/character/miriammirage/timeline.bundle": {
         "name": "character_assets_assets/bundles/character/miriammirage/timeline.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/character_assets_assets/bundles/character/miriammirage/timeline_06d2d98fe66ef39d836f87008f385de1.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/character_assets_assets/bundles/character/miriammirage/timeline_dbd7a418ed88433b8568d6e84a7feff9.bundle",
         "size": 10258117
     },
     "character_assets_assets/bundles/character/nameless/animator.bundle": {
@@ -2361,8 +2361,8 @@
     },
     "character_assets_assets/bundles/character/reneesilver/timeline.bundle": {
         "name": "character_assets_assets/bundles/character/reneesilver/timeline.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/character_assets_assets/bundles/character/reneesilver/timeline_e5b3a45079399b992958e55d7160c129.bundle",
-        "size": 9726398
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/character_assets_assets/bundles/character/reneesilver/timeline_2ad9355aa75f104fe33e746f0856e043.bundle",
+        "size": 9724409
     },
     "character_assets_assets/bundles/character/ricecakechap/animator.bundle": {
         "name": "character_assets_assets/bundles/character/ricecakechap/animator.bundle",
@@ -4694,11 +4694,6 @@
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/laura_pickup.mp4_3027f2d2726c2efd096e64597278d4c7.bundle",
         "size": 15777712
     },
-    "movie_assets_assets/bundles/movie/gacha/lilith_pickup.mp4.bundle": {
-        "name": "movie_assets_assets/bundles/movie/gacha/lilith_pickup.mp4.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/lilith_pickup.mp4_c342b55fd3d542659651172f99df5d63.bundle",
-        "size": 208496
-    },
     "movie_assets_assets/bundles/movie/gacha/lute_pickup.mp4.bundle": {
         "name": "movie_assets_assets/bundles/movie/gacha/lute_pickup.mp4.bundle",
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/lute_pickup.mp4_3172ebb5e13da7f6832faaacd17d932c.bundle",
@@ -4719,6 +4714,11 @@
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/mephisto_pickup.mp4_77f53bac6e0fbf89a82e570301c4aa95.bundle",
         "size": 23480624
     },
+    "movie_assets_assets/bundles/movie/gacha/mephistodawn_pickup.mp4.bundle": {
+        "name": "movie_assets_assets/bundles/movie/gacha/mephistodawn_pickup.mp4.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/mephistodawn_pickup.mp4_b2464c697227cffffcf479c0262ec11d.bundle",
+        "size": 8524832
+    },
     "movie_assets_assets/bundles/movie/gacha/naomi_pickup.mp4.bundle": {
         "name": "movie_assets_assets/bundles/movie/gacha/naomi_pickup.mp4.bundle",
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/naomi_pickup.mp4_e4e49b44d885c340a279d825ac69662c.bundle",
@@ -4734,15 +4734,20 @@
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/newhero_laura.mp4_a6484b792ace1680c20d444871a67ecf.bundle",
         "size": 6109232
     },
-    "movie_assets_assets/bundles/movie/gacha/newhero_lilith.mp4.bundle": {
-        "name": "movie_assets_assets/bundles/movie/gacha/newhero_lilith.mp4.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/newhero_lilith.mp4_14bb825a4a18d94991371ade44c536fd.bundle",
-        "size": 4747472
+    "movie_assets_assets/bundles/movie/gacha/newhero_mephistodawn.mp4.bundle": {
+        "name": "movie_assets_assets/bundles/movie/gacha/newhero_mephistodawn.mp4.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/newhero_mephistodawn.mp4_b539b0f060ddc738954c7f51816b8d77.bundle",
+        "size": 7209712
     },
-    "movie_assets_assets/bundles/movie/gacha/newhero_weiss.mp4.bundle": {
-        "name": "movie_assets_assets/bundles/movie/gacha/newhero_weiss.mp4.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/newhero_weiss.mp4_a13765578791cdcbc64a63dd192b54a8.bundle",
-        "size": 6659216
+    "movie_assets_assets/bundles/movie/gacha/newhero_onyx.mp4.bundle": {
+        "name": "movie_assets_assets/bundles/movie/gacha/newhero_onyx.mp4.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/newhero_onyx.mp4_0648bb38fb1f90193a8f050d924d044a.bundle",
+        "size": 4926432
+    },
+    "movie_assets_assets/bundles/movie/gacha/newhero_rosecrimson.mp4.bundle": {
+        "name": "movie_assets_assets/bundles/movie/gacha/newhero_rosecrimson.mp4.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/newhero_rosecrimson.mp4_05ea5257d352a091733d9d320b5fdab1.bundle",
+        "size": 6674432
     },
     "movie_assets_assets/bundles/movie/gacha/normal_summon.mp4.bundle": {
         "name": "movie_assets_assets/bundles/movie/gacha/normal_summon.mp4.bundle",
@@ -4754,10 +4759,20 @@
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/olivia_pickup.mp4_179eece5a0e14cce166021f03acbc406.bundle",
         "size": 23320544
     },
+    "movie_assets_assets/bundles/movie/gacha/onyx_pickup.mp4.bundle": {
+        "name": "movie_assets_assets/bundles/movie/gacha/onyx_pickup.mp4.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/onyx_pickup.mp4_7096475f0d2efd3e3f7a38e0a4311a1d.bundle",
+        "size": 16838256
+    },
     "movie_assets_assets/bundles/movie/gacha/otoha_pickup.mp4.bundle": {
         "name": "movie_assets_assets/bundles/movie/gacha/otoha_pickup.mp4.bundle",
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/otoha_pickup.mp4_285c00adb61d03f61ac8b3a14c103515.bundle",
         "size": 17983216
+    },
+    "movie_assets_assets/bundles/movie/gacha/rosecrimson_pickup.mp4.bundle": {
+        "name": "movie_assets_assets/bundles/movie/gacha/rosecrimson_pickup.mp4.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/rosecrimson_pickup.mp4_1bf20f7c61f41b47af0bc9582044096b.bundle",
+        "size": 8804432
     },
     "movie_assets_assets/bundles/movie/gacha/signature_gacha.mp4.bundle": {
         "name": "movie_assets_assets/bundles/movie/gacha/signature_gacha.mp4.bundle",
@@ -4783,11 +4798,6 @@
         "name": "movie_assets_assets/bundles/movie/gacha/velanna_pickup.mp4.bundle",
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/velanna_pickup.mp4_a4d077f4519d73f38a688624e0fd9c68.bundle",
         "size": 18787360
-    },
-    "movie_assets_assets/bundles/movie/gacha/weiss_pickup.mp4.bundle": {
-        "name": "movie_assets_assets/bundles/movie/gacha/weiss_pickup.mp4.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/gacha/weiss_pickup.mp4_84e83b56ba8fee7b37e0e75f224396d9.bundle",
-        "size": 16427904
     },
     "movie_assets_assets/bundles/movie/gacha/xiaolian_pickup.mp4.bundle": {
         "name": "movie_assets_assets/bundles/movie/gacha/xiaolian_pickup.mp4.bundle",
@@ -4899,10 +4909,20 @@
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/ui/bg_login_everschool.mp4_8c7bc840f5522fbe32593ca856502d29.bundle",
         "size": 2562208
     },
+    "movie_assets_assets/bundles/movie/ui/bg_login_everschool2.mp4.bundle": {
+        "name": "movie_assets_assets/bundles/movie/ui/bg_login_everschool2.mp4.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/ui/bg_login_everschool2.mp4_7ba03d5ede8116198003211b93419f77.bundle",
+        "size": 2554016
+    },
     "movie_assets_assets/bundles/movie/ui/bg_login_flower.mp4.bundle": {
         "name": "movie_assets_assets/bundles/movie/ui/bg_login_flower.mp4.bundle",
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/ui/bg_login_flower.mp4_a9e513edc7261f6cf98221ee440089eb.bundle",
         "size": 2589744
+    },
+    "movie_assets_assets/bundles/movie/ui/bg_login_roseside.mp4.bundle": {
+        "name": "movie_assets_assets/bundles/movie/ui/bg_login_roseside.mp4.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/ui/bg_login_roseside.mp4_fc9011d223b4c624342ec321ebf46f4d.bundle",
+        "size": 16758944
     },
     "movie_assets_assets/bundles/movie/ui/bg_login_valentine1.mp4.bundle": {
         "name": "movie_assets_assets/bundles/movie/ui/bg_login_valentine1.mp4.bundle",
@@ -4918,6 +4938,11 @@
         "name": "movie_assets_assets/bundles/movie/ui/bg_login_valentine3.mp4.bundle",
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/ui/bg_login_valentine3.mp4_05092124f4f80b779321ce1bc17c7512.bundle",
         "size": 2695504
+    },
+    "movie_assets_assets/bundles/movie/ui/bg_login_wedding1.mp4.bundle": {
+        "name": "movie_assets_assets/bundles/movie/ui/bg_login_wedding1.mp4.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/movie_assets_assets/bundles/movie/ui/bg_login_wedding1.mp4_85a31e4983cc34740a9c87d3d3985109.bundle",
+        "size": 2532032
     },
     "movie_assets_assets/bundles/movie/ui/bg_storyevent.mp4.bundle": {
         "name": "movie_assets_assets/bundles/movie/ui/bg_storyevent.mp4.bundle",
@@ -4941,8 +4966,8 @@
     },
     "prefabs_assets_assets/bundles/prefabs/common.bundle": {
         "name": "prefabs_assets_assets/bundles/prefabs/common.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/prefabs_assets_assets/bundles/prefabs/common_1b78d391b1b99eecb1624b1389146d93.bundle",
-        "size": 2250386
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/prefabs_assets_assets/bundles/prefabs/common_d1058cf9567666c4fd398dfa74c236df.bundle",
+        "size": 2250459
     },
     "prefabs_assets_assets/bundles/prefabs/effects/background_black.prefab.bundle": {
         "name": "prefabs_assets_assets/bundles/prefabs/effects/background_black.prefab.bundle",
@@ -6791,8 +6816,8 @@
     },
     "scenes_scenes_assets/bundles/scenes/battle/map_battle_raid_newyear01.unity.bundle": {
         "name": "scenes_scenes_assets/bundles/scenes/battle/map_battle_raid_newyear01.unity.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/scenes_scenes_assets/bundles/scenes/battle/map_battle_raid_newyear01.unity_378df4614344638245becfd3753ecb3d.bundle",
-        "size": 3138539
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/scenes_scenes_assets/bundles/scenes/battle/map_battle_raid_newyear01.unity_606b7da93e35a1904aa45a02739752bf.bundle",
+        "size": 3138535
     },
     "scenes_scenes_assets/bundles/scenes/battle/map_battle_raid_newyear02.unity.bundle": {
         "name": "scenes_scenes_assets/bundles/scenes/battle/map_battle_raid_newyear02.unity.bundle",
@@ -7151,8 +7176,8 @@
     },
     "scriptable_assets_assets/bundles/scriptable/path.bundle": {
         "name": "scriptable_assets_assets/bundles/scriptable/path.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/scriptable_assets_assets/bundles/scriptable/path_8155a03d9cc0c037bcbae727e1e54ed7.bundle",
-        "size": 15705
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/scriptable_assets_assets/bundles/scriptable/path_332a07f0ebb258abe4764fe66aa8eac9.bundle",
+        "size": 15728
     },
     "scriptable_assets_assets/bundles/scriptable/ui.bundle": {
         "name": "scriptable_assets_assets/bundles/scriptable/ui.bundle",
@@ -8909,6 +8934,11 @@
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/sound_assets_assets/bundles/sound/character/carnelian/common_6cf3a16282475084e02eed3a605f09b1.bundle",
         "size": 2087440
     },
+    "sound_assets_assets/bundles/sound/character/carnelian/voice_ja.bundle": {
+        "name": "sound_assets_assets/bundles/sound/character/carnelian/voice_ja.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/sound_assets_assets/bundles/sound/character/carnelian/voice_ja_dc180a23c921d05a2ba434f0881ecfd4.bundle",
+        "size": 13340960
+    },
     "sound_assets_assets/bundles/sound/character/catarina/common.bundle": {
         "name": "sound_assets_assets/bundles/sound/character/catarina/common.bundle",
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/sound_assets_assets/bundles/sound/character/catarina/common_7c57ecf33f2445f964a8d1c714eeb829.bundle",
@@ -9174,6 +9204,11 @@
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/sound_assets_assets/bundles/sound/character/laura/common_3b1d8ed32a3d241d5d64287979872aaf.bundle",
         "size": 1891584
     },
+    "sound_assets_assets/bundles/sound/character/laura/voice_ja.bundle": {
+        "name": "sound_assets_assets/bundles/sound/character/laura/voice_ja.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/sound_assets_assets/bundles/sound/character/laura/voice_ja_6620ac30ae584b7767d327573766975b.bundle",
+        "size": 9007632
+    },
     "sound_assets_assets/bundles/sound/character/leah/common.bundle": {
         "name": "sound_assets_assets/bundles/sound/character/leah/common.bundle",
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/sound_assets_assets/bundles/sound/character/leah/common_900e71494dd4e2044666ca239951370e.bundle",
@@ -9198,6 +9233,11 @@
         "name": "sound_assets_assets/bundles/sound/character/lilith/common.bundle",
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/sound_assets_assets/bundles/sound/character/lilith/common_52b629446e4d36ae0516baa2e54bc8f8.bundle",
         "size": 2054688
+    },
+    "sound_assets_assets/bundles/sound/character/lilith/voice_ja.bundle": {
+        "name": "sound_assets_assets/bundles/sound/character/lilith/voice_ja.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/sound_assets_assets/bundles/sound/character/lilith/voice_ja_f10602cfc1e1551c145046b776193211.bundle",
+        "size": 13199392
     },
     "sound_assets_assets/bundles/sound/character/linzy/common.bundle": {
         "name": "sound_assets_assets/bundles/sound/character/linzy/common.bundle",
@@ -9273,6 +9313,11 @@
         "name": "sound_assets_assets/bundles/sound/character/mephistodawn/common.bundle",
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/sound_assets_assets/bundles/sound/character/mephistodawn/common_9b1fea36d4a5adce58e29dd5f74042f9.bundle",
         "size": 2094432
+    },
+    "sound_assets_assets/bundles/sound/character/mephistodawn/voice_ja.bundle": {
+        "name": "sound_assets_assets/bundles/sound/character/mephistodawn/voice_ja.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/sound_assets_assets/bundles/sound/character/mephistodawn/voice_ja_e11d6500ca53a868c15c8385305cb977.bundle",
+        "size": 14402176
     },
     "sound_assets_assets/bundles/sound/character/mia/common.bundle": {
         "name": "sound_assets_assets/bundles/sound/character/mia/common.bundle",
@@ -9399,6 +9444,11 @@
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/sound_assets_assets/bundles/sound/character/onyx/common_3ba372ae1e8b8f797bfd54f47ff1d6aa.bundle",
         "size": 2038640
     },
+    "sound_assets_assets/bundles/sound/character/onyx/voice_ja.bundle": {
+        "name": "sound_assets_assets/bundles/sound/character/onyx/voice_ja.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/sound_assets_assets/bundles/sound/character/onyx/voice_ja_b185b6ff801c13bc123d80a281da09c5.bundle",
+        "size": 12482400
+    },
     "sound_assets_assets/bundles/sound/character/otoha/common.bundle": {
         "name": "sound_assets_assets/bundles/sound/character/otoha/common.bundle",
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/sound_assets_assets/bundles/sound/character/otoha/common_16539d5f38ac1f854eb26fd9f349f0b2.bundle",
@@ -9488,6 +9538,11 @@
         "name": "sound_assets_assets/bundles/sound/character/rosecrimson/common.bundle",
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/sound_assets_assets/bundles/sound/character/rosecrimson/common_39cc01444fb8440173a1db65f646b74c.bundle",
         "size": 2022688
+    },
+    "sound_assets_assets/bundles/sound/character/rosecrimson/voice_ja.bundle": {
+        "name": "sound_assets_assets/bundles/sound/character/rosecrimson/voice_ja.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/sound_assets_assets/bundles/sound/character/rosecrimson/voice_ja_dd60836ef2d5ee548f0be5944638d027.bundle",
+        "size": 11563424
     },
     "sound_assets_assets/bundles/sound/character/ruri/common.bundle": {
         "name": "sound_assets_assets/bundles/sound/character/ruri/common.bundle",
@@ -9608,6 +9663,11 @@
         "name": "sound_assets_assets/bundles/sound/character/weiss/common.bundle",
         "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/sound_assets_assets/bundles/sound/character/weiss/common_d35199b404f47214d98379b7723c9ba4.bundle",
         "size": 2060272
+    },
+    "sound_assets_assets/bundles/sound/character/weiss/voice_ja.bundle": {
+        "name": "sound_assets_assets/bundles/sound/character/weiss/voice_ja.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/sound_assets_assets/bundles/sound/character/weiss/voice_ja_53abab7ca61931d9f4536ad0c9707490.bundle",
+        "size": 10326352
     },
     "sound_assets_assets/bundles/sound/character/wheri/common.bundle": {
         "name": "sound_assets_assets/bundles/sound/character/wheri/common.bundle",
@@ -18501,8 +18561,8 @@
     },
     "story_assets_assets/bundles/story/talk.bundle": {
         "name": "story_assets_assets/bundles/story/talk.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/story_assets_assets/bundles/story/talk_3295db855eef13d62aa5236fe7f0f335.bundle",
-        "size": 188608562
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/story_assets_assets/bundles/story/talk_bcab4bcf57efe42c19e4ffc9f34c2726.bundle",
+        "size": 188884455
     },
     "story_assets_assets/bundles/story/textures.bundle": {
         "name": "story_assets_assets/bundles/story/textures.bundle",
@@ -18796,8 +18856,8 @@
     },
     "ui_assets_assets/bundles/ui/prefabs/cashshopbanner.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/cashshopbanner.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/cashshopbanner_0084313660f1b63bd55078a22770fa2a.bundle",
-        "size": 3065347
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/cashshopbanner_c2f983b679e9f22d50e369d1cad734b7.bundle",
+        "size": 3130951
     },
     "ui_assets_assets/bundles/ui/prefabs/cashshoppanel.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/cashshoppanel.bundle",
@@ -18826,7 +18886,7 @@
     },
     "ui_assets_assets/bundles/ui/prefabs/event.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/event.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/event_e38f5a5293de178fbe4f00616bd476e4.bundle",
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/event_a1560ba1c51ece92f6dbea38660cd3fd.bundle",
         "size": 7617461
     },
     "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelattendanniversary01.prefab.bundle": {
@@ -19326,8 +19386,8 @@
     },
     "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelfreegachaevent_open.prefab.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelfreegachaevent_open.prefab.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/eventpanel/panelfreegachaevent_open.prefab_46e9c6f0d6115415d8da505c8b6a4045.bundle",
-        "size": 1698111
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/eventpanel/panelfreegachaevent_open.prefab_633183bf3319ec46bdd46247b7099eb8.bundle",
+        "size": 7115
     },
     "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelfreegachaevent_pickup_1.prefab.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelfreegachaevent_pickup_1.prefab.bundle",
@@ -19596,8 +19656,8 @@
     },
     "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationarena2.prefab.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationarena2.prefab.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationarena2.prefab_7a23378a2d3d502965609b6413aca5de.bundle",
-        "size": 7753
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationarena2.prefab_ee703bca816c3ac8ee4517a9eb13a9f1.bundle",
+        "size": 1286449
     },
     "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationautoarbeit.prefab.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationautoarbeit.prefab.bundle",
@@ -19606,8 +19666,8 @@
     },
     "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationautoarbeit2.prefab.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationautoarbeit2.prefab.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationautoarbeit2.prefab_58c13d5bdeac5c24c356f24599e92a1b.bundle",
-        "size": 1286222
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationautoarbeit2.prefab_9beb71ab948fa35ff69dc505fc5472c7.bundle",
+        "size": 7626
     },
     "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationautoreward.prefab.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationautoreward.prefab.bundle",
@@ -19621,8 +19681,8 @@
     },
     "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationchampions2.prefab.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationchampions2.prefab.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationchampions2.prefab_27c3b2e09545545411390110681f00c8.bundle",
-        "size": 1286328
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationchampions2.prefab_77d0caddf95e3c20219628e88c408cd5.bundle",
+        "size": 7661
     },
     "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationdualgate.prefab.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationdualgate.prefab.bundle",
@@ -19631,8 +19691,8 @@
     },
     "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationdualgate2.prefab.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationdualgate2.prefab.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationdualgate2.prefab_fceaf9a93699af5986e1c94042a79f55.bundle",
-        "size": 1286338
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationdualgate2.prefab_f97e3cc18e7e21c5e31259aad2f105cd.bundle",
+        "size": 7604
     },
     "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationheart.prefab.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationheart.prefab.bundle",
@@ -19646,8 +19706,8 @@
     },
     "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationlabyrinth2.prefab.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationlabyrinth2.prefab.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationlabyrinth2.prefab_ef1dff06b42f486b24b6e07204f8f5b4.bundle",
-        "size": 1286309
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationlabyrinth2.prefab_aa8d4a279ecd98524e24a82d04596105.bundle",
+        "size": 7668
     },
     "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationtimetravel.prefab.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelrotationtimetravel.prefab.bundle",
@@ -19701,8 +19761,8 @@
     },
     "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelspecialmain_cnevent01.prefab.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelspecialmain_cnevent01.prefab.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/eventpanel/panelspecialmain_cnevent01.prefab_b99ab5df69aba2bdb54311746c93d9d0.bundle",
-        "size": 110943
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/eventpanel/panelspecialmain_cnevent01.prefab_dc85a91784336b670f5a7849ddf69830.bundle",
+        "size": 110978
     },
     "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelspecialmain_may.prefab.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/eventpanel/panelspecialmain_may.prefab.bundle",
@@ -19801,8 +19861,8 @@
     },
     "ui_assets_assets/bundles/ui/prefabs/login.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/login.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/login_dd30618fb53c412a8c181e0da8152a14.bundle",
-        "size": 8097415
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/prefabs/login_015d7c8b0a52393822c0a5c55d7be48f.bundle",
+        "size": 8130895
     },
     "ui_assets_assets/bundles/ui/prefabs/minigame.bundle": {
         "name": "ui_assets_assets/bundles/ui/prefabs/minigame.bundle",
@@ -19911,8 +19971,8 @@
     },
     "ui_assets_assets/bundles/ui/textures/atlas/cashsshopatlas.spriteatlas.bundle": {
         "name": "ui_assets_assets/bundles/ui/textures/atlas/cashsshopatlas.spriteatlas.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/textures/atlas/cashsshopatlas.spriteatlas_2dbf1313bb63980941e907ea50fb6142.bundle",
-        "size": 6944313
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/textures/atlas/cashsshopatlas.spriteatlas_1ba96898ae3beb4fe692279adc596079.bundle",
+        "size": 6943508
     },
     "ui_assets_assets/bundles/ui/textures/atlas/commonlegacyspriteatlas.spriteatlas.bundle": {
         "name": "ui_assets_assets/bundles/ui/textures/atlas/commonlegacyspriteatlas.spriteatlas.bundle",
@@ -19936,8 +19996,8 @@
     },
     "ui_assets_assets/bundles/ui/textures/atlas/item.spriteatlas.bundle": {
         "name": "ui_assets_assets/bundles/ui/textures/atlas/item.spriteatlas.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/textures/atlas/item.spriteatlas_6082ccedb138d520c9a712d4d36fb730.bundle",
-        "size": 9140926
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/textures/atlas/item.spriteatlas_88f999ff0fcdd3eb73c4c99c20b27425.bundle",
+        "size": 9169210
     },
     "ui_assets_assets/bundles/ui/textures/atlas/lobbyspriteatlas.spriteatlas.bundle": {
         "name": "ui_assets_assets/bundles/ui/textures/atlas/lobbyspriteatlas.spriteatlas.bundle",
@@ -19951,8 +20011,8 @@
     },
     "ui_assets_assets/bundles/ui/textures/atlas/stickeratlas.spriteatlas.bundle": {
         "name": "ui_assets_assets/bundles/ui/textures/atlas/stickeratlas.spriteatlas.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/textures/atlas/stickeratlas.spriteatlas_162f465cb96f9b20e7ad9f147077b73d.bundle",
-        "size": 3788894
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/textures/atlas/stickeratlas.spriteatlas_1eb6515cf08e851b1923c625545dc110.bundle",
+        "size": 3853829
     },
     "ui_assets_assets/bundles/ui/textures/atlas/temporaryspriteatlas.spriteatlas.bundle": {
         "name": "ui_assets_assets/bundles/ui/textures/atlas/temporaryspriteatlas.spriteatlas.bundle",
@@ -19971,8 +20031,8 @@
     },
     "ui_assets_assets/bundles/ui/textures/banner/zh_cn.bundle": {
         "name": "ui_assets_assets/bundles/ui/textures/banner/zh_cn.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/textures/banner/zh_cn_3cdc77fd80e80329fdd09168f111aedf.bundle",
-        "size": 1448538
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/textures/banner/zh_cn_c6c52edc8ebfd25bbd499e08af678e64.bundle",
+        "size": 1587409
     },
     "ui_assets_assets/bundles/ui/textures/banner/zh_tw.bundle": {
         "name": "ui_assets_assets/bundles/ui/textures/banner/zh_tw.bundle",
@@ -20136,8 +20196,8 @@
     },
     "ui_assets_assets/bundles/ui/textures/event/rosesideevent.bundle": {
         "name": "ui_assets_assets/bundles/ui/textures/event/rosesideevent.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/textures/event/rosesideevent_1a27731cad1aa8606140bc90c7bfcf2b.bundle",
-        "size": 3631373
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/textures/event/rosesideevent_18870f35cbc0a6d2867e91cf7d59769c.bundle",
+        "size": 3669199
     },
     "ui_assets_assets/bundles/ui/textures/event/rotation.bundle": {
         "name": "ui_assets_assets/bundles/ui/textures/event/rotation.bundle",
@@ -20176,8 +20236,8 @@
     },
     "ui_assets_assets/bundles/ui/textures/event/wedding.bundle": {
         "name": "ui_assets_assets/bundles/ui/textures/event/wedding.bundle",
-        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/textures/event/wedding_8cd30e5d0419bc7f2057cb20c5638498.bundle",
-        "size": 3581497
+        "url": "http://yhlhupdate.zlongame.com/YHLH/online/update/1.25.323/Android/ui_assets_assets/bundles/ui/textures/event/wedding_5ffae6a121302e66ed09a729ff58297b.bundle",
+        "size": 3605973
     },
     "ui_assets_assets/bundles/ui/textures/event/wedding2.bundle": {
         "name": "ui_assets_assets/bundles/ui/textures/event/wedding2.bundle",
